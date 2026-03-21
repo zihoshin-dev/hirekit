@@ -20,12 +20,12 @@
 | 평균근속 | {{ s1.get('avg_tenure', '—') }} |
 
 {% if s1.get('financials') %}
-### 핵심 실적 (최근 3개년)
+### 주요 재무지표
 
-| 연도 | 매출 | 영업이익 | 비고 |
-|------|------|----------|------|
-{% for row in s1.get('financials', []) %}| {{ row.get('year', '') }} | {{ row.get('revenue', '') }} | {{ row.get('operating_profit', '') }} | {{ row.get('note', '') }} |
-{% endfor %}
+| 항목 | 당기 | 전기 | 전전기 |
+|------|------|------|--------|
+{% for row in s1.get('financials', []) %}{% if row.get('account') %}| {{ row.get('account', '') }} | {{ row.get('current', '—') }} | {{ row.get('previous', '—') }} | {{ row.get('two_years_ago', '—') }} |
+{% endif %}{% endfor %}
 {% endif %}
 
 {% if s1.get('products') %}
