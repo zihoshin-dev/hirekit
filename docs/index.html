@@ -1,1435 +1,178 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HireKit | 취업 준비의 궁극의 도구</title>
-  <meta
-    name="description"
-    content="HireKit을 클로드코드 감성의 픽셀 2D 스타일로 재해석한 랜딩 페이지입니다. 기업 분석, 공고 매칭, 면접 준비를 한 화면에서 선명하게 보여줍니다."
-  />
-  <meta property="og:title" content="HireKit | 취업 준비의 궁극의 도구" />
-  <meta
-    property="og:description"
-    content="기업 분석, 공고 매칭, 면접 준비를 픽셀 2D 콘솔 월드로 표현한 HireKit 랜딩 페이지입니다."
-  />
+  <title>HireKit — 기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요.</title>
+  <meta name="description" content="취업·이직 준비자를 위한 AI 기업 분석 및 면접 준비 CLI. 기업 리서치, 공고 매칭, 면접 준비까지 — 터미널 하나로 끝내세요." />
+  <meta property="og:title" content="HireKit" />
+  <meta property="og:description" content="기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요." />
   <meta property="og:url" content="https://zihoshin-dev.github.io/hirekit/" />
-  <link
-    rel="icon"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>"
-  />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            mono: ['JetBrains Mono', 'Fira Code', 'Cascadia Code', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50:  '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              300: '#7dd3fc',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+            },
+          },
+          animation: {
+            'fade-in': 'fadeIn 0.6s ease-out forwards',
+            'slide-up': 'slideUp 0.5s ease-out forwards',
+            'blink': 'blink 1s step-end infinite',
+          },
+          keyframes: {
+            fadeIn: { from: { opacity: 0 }, to: { opacity: 1 } },
+            slideUp: { from: { opacity: 0, transform: 'translateY(20px)' }, to: { opacity: 1, transform: 'translateY(0)' } },
+            blink: { '0%, 100%': { opacity: 1 }, '50%': { opacity: 0 } },
+          },
+        },
+      },
+    };
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Press+Start+2P&family=VT323&display=swap"
-    rel="stylesheet"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      color-scheme: dark;
-      --bg: #0f1723;
-      --bg-elevated: #17212f;
-      --bg-soft: #22324a;
-      --bg-panel: #0a1019;
-      --ink: #f8f5e8;
-      --muted: #9fb2c6;
-      --line: #5d7894;
-      --accent: #58c1ff;
-      --accent-2: #6dffb3;
-      --accent-3: #ffcf5a;
-      --accent-4: #ff8a5b;
-      --danger: #ff6b89;
-      --shadow: #05080d;
-      --shadow-soft: rgba(5, 8, 13, 0.42);
-      --shell: 0 0 0 2px var(--shadow), 8px 8px 0 0 var(--shadow);
-      --shell-small: 0 0 0 2px var(--shadow), 5px 5px 0 0 var(--shadow);
-      --content-width: 1180px;
-      --pixel-font: "Press Start 2P", "Apple SD Gothic Neo", "Malgun Gothic", monospace;
-      --body-font: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      --mono-font: "JetBrains Mono", "SFMono-Regular", monospace;
-      --terminal-font: "VT323", "JetBrains Mono", monospace;
+    body { font-family: 'Inter', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+    /* Gradient backgrounds */
+    .hero-gradient {
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(14,165,233,0.15) 0%, transparent 70%),
+                  radial-gradient(ellipse 60% 40% at 80% 50%, rgba(99,102,241,0.08) 0%, transparent 60%);
+    }
+    .dark .hero-gradient {
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(14,165,233,0.12) 0%, transparent 70%),
+                  radial-gradient(ellipse 60% 40% at 80% 50%, rgba(99,102,241,0.06) 0%, transparent 60%);
     }
 
-    html.light {
-      color-scheme: light;
-      --bg: #f7f1db;
-      --bg-elevated: #efe4bc;
-      --bg-soft: #d5c38e;
-      --bg-panel: #fff9e9;
-      --ink: #1f2a3b;
-      --muted: #596879;
-      --line: #6c6757;
-      --accent: #2476ff;
-      --accent-2: #0ca678;
-      --accent-3: #bf7b07;
-      --accent-4: #e8590c;
-      --danger: #d6336c;
-      --shadow: #43341c;
-      --shadow-soft: rgba(67, 52, 28, 0.2);
+    /* Terminal styles */
+    .terminal {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      overflow: hidden;
     }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 96px;
-    }
-
-    body {
-      margin: 0;
-      min-width: 320px;
-      background:
-        radial-gradient(circle at top, rgba(88, 193, 255, 0.16), transparent 28%),
-        linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0)),
-        var(--bg);
-      color: var(--ink);
-      font-family: var(--body-font);
-      line-height: 1.65;
-      overflow-x: hidden;
-      position: relative;
-    }
-
-    body::before,
-    body::after {
-      content: "";
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      z-index: -2;
-    }
-
-    body::before {
-      background-image:
-        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-      background-size: 32px 32px;
-      opacity: 0.18;
-    }
-
-    body::after {
-      background:
-        linear-gradient(
-          180deg,
-          rgba(255, 255, 255, 0.03) 0,
-          rgba(255, 255, 255, 0.03) 2px,
-          transparent 2px,
-          transparent 4px
-        );
-      opacity: 0.08;
-      mix-blend-mode: screen;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    button {
-      font: inherit;
-    }
-
-    img {
-      max-width: 100%;
-      display: block;
-    }
-
-    .page-shell {
-      width: min(calc(100% - 32px), var(--content-width));
-      margin: 0 auto;
-    }
-
-    .pixel-panel {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent), var(--bg-elevated);
-      border: 2px solid var(--line);
-      box-shadow: var(--shell);
-      position: relative;
-    }
-
-    .pixel-panel::after {
-      content: "";
-      position: absolute;
-      inset: 10px;
-      border: 1px dashed rgba(255, 255, 255, 0.08);
-      pointer-events: none;
-    }
-
-    .pixel-section {
-      padding: 40px 0;
-    }
-
-    .section-header {
-      display: grid;
-      gap: 14px;
-      margin-bottom: 24px;
-    }
-
-    .section-kicker {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 8px 12px;
-      width: fit-content;
-      background: var(--bg-panel);
-      border: 2px solid var(--line);
-      box-shadow: var(--shell-small);
-      font-family: var(--pixel-font);
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--accent-2);
-    }
-
-    .section-title {
-      margin: 0;
-      font-family: var(--pixel-font);
-      font-size: clamp(18px, 2vw, 26px);
-      line-height: 1.7;
-      letter-spacing: -0.02em;
-    }
-
-    .section-description {
-      margin: 0;
-      max-width: 760px;
-      font-size: 18px;
-      color: var(--muted);
-    }
-
-    .pixel-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 14px;
-      border: 2px solid var(--line);
-      background: var(--bg-panel);
-      box-shadow: var(--shell-small);
-      font-family: var(--pixel-font);
-      font-size: 10px;
-      text-transform: uppercase;
-    }
-
-    .pixel-dot {
-      width: 10px;
-      height: 10px;
-      background: var(--accent-2);
-      box-shadow: 2px 2px 0 var(--shadow);
-      flex-shrink: 0;
-    }
-
-    .topbar-wrap {
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      padding: 18px 0 0;
-      backdrop-filter: blur(10px);
-    }
-
-    .topbar {
-      min-height: 76px;
+    .terminal-bar {
+      background: #161b22;
+      padding: 10px 16px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding: 16px 18px;
-      gap: 18px;
+      gap: 8px;
+      border-bottom: 1px solid #30363d;
+    }
+    .terminal-dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot-red   { background: #ff5f57; }
+    .dot-yellow{ background: #ffbd2e; }
+    .dot-green { background: #28c840; }
+    .terminal-title { color: #8b949e; font-size: 12px; margin-left: 8px; font-family: 'JetBrains Mono', monospace; }
+    .terminal-body { padding: 20px 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.8; }
+
+    /* Syntax colors */
+    .c-prompt  { color: #7ee787; }
+    .c-cmd     { color: #79c0ff; }
+    .c-flag    { color: #ff7b72; }
+    .c-string  { color: #a5d6ff; }
+    .c-comment { color: #8b949e; }
+    .c-output  { color: #e6edf3; }
+    .c-dim     { color: #484f58; }
+    .c-green   { color: #56d364; }
+    .c-yellow  { color: #e3b341; }
+    .c-blue    { color: #79c0ff; }
+    .c-orange  { color: #ffa657; }
+    .c-purple  { color: #d2a8ff; }
+    .c-border  { color: #484f58; }
+    .c-header  { color: #58a6ff; }
+    .c-grade   { color: #56d364; font-weight: 600; }
+
+    /* Copy button */
+    .copy-btn {
+      position: absolute; top: 50px; right: 16px;
+      background: #21262d; border: 1px solid #30363d; border-radius: 6px;
+      color: #8b949e; padding: 4px 10px; font-size: 11px; cursor: pointer;
+      transition: all 0.2s; font-family: 'JetBrains Mono', monospace;
+    }
+    .copy-btn:hover { background: #30363d; color: #e6edf3; }
+
+    /* Inline code */
+    code {
+      background: rgba(110,118,129,0.15);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.875em;
+    }
+    .dark code {
+      background: rgba(110,118,129,0.2);
+      color: #79c0ff;
     }
 
-    .brandmark {
-      display: inline-flex;
-      align-items: center;
-      gap: 14px;
-      min-width: 0;
+    /* Card hover */
+    .feature-card {
+      transition: transform 0.2s, box-shadow 0.2s;
     }
-
-    .brand-icon {
-      width: 42px;
-      height: 42px;
-      display: grid;
-      place-items: center;
-      background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.1), transparent),
-        var(--accent);
-      color: #0a1019;
-      border: 2px solid var(--shadow);
-      box-shadow: 4px 4px 0 var(--shadow);
-      font-size: 22px;
-      flex-shrink: 0;
-    }
-
-    .brand-text {
-      min-width: 0;
-    }
-
-    .brand-title {
-      margin: 0 0 3px;
-      font-family: var(--pixel-font);
-      font-size: 14px;
-      white-space: nowrap;
-    }
-
-    .brand-subtitle {
-      margin: 0;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .nav-desktop {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      flex-wrap: wrap;
-    }
-
-    .nav-link {
-      font-family: var(--pixel-font);
-      font-size: 10px;
-      text-transform: uppercase;
-      color: var(--muted);
-      padding: 8px 10px;
-      transition: color 160ms ease, transform 160ms ease;
-    }
-
-    .nav-link:hover {
-      color: var(--accent);
+    .feature-card:hover {
       transform: translateY(-2px);
     }
 
-    .nav-actions {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-shrink: 0;
-    }
-
-    .theme-toggle,
-    .menu-toggle {
-      width: 42px;
-      height: 42px;
-      padding: 0;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid var(--line);
-      background: var(--bg-panel);
-      color: var(--ink);
-      box-shadow: var(--shell-small);
-      cursor: pointer;
-    }
-
-    .menu-toggle {
-      display: none;
-    }
-
-    .theme-toggle span,
-    .menu-toggle span {
-      font-family: var(--pixel-font);
-      font-size: 12px;
-    }
-
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      min-height: 50px;
-      padding: 0 18px;
-      border: 2px solid var(--shadow);
-      background: var(--accent);
-      color: #08101a;
-      box-shadow: var(--shell-small);
-      font-family: var(--pixel-font);
-      font-size: 10px;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: transform 140ms ease, filter 140ms ease;
-    }
-
-    .button:hover {
-      transform: translate(-1px, -1px);
-      filter: brightness(1.06);
-    }
-
-    .button.secondary {
-      background: var(--bg-panel);
-      border-color: var(--line);
-      color: var(--ink);
-    }
-
-    .button.ghost {
-      background: transparent;
-      color: var(--accent-2);
-      border-color: var(--accent-2);
-    }
-
-    .hero {
-      padding: 34px 0 28px;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.18fr 0.82fr;
-      gap: 28px;
-      align-items: stretch;
-    }
-
-    .hero-copy,
-    .hero-scene {
-      padding: 28px;
-    }
-
-    .hero-copy {
-      display: grid;
-      gap: 22px;
-      align-content: start;
-    }
-
-    .hero-title {
-      margin: 0;
-      display: grid;
-      gap: 16px;
-    }
-
-    .hero-title-top {
-      display: inline-block;
-      font-family: var(--pixel-font);
-      font-size: clamp(26px, 4vw, 44px);
-      line-height: 1.4;
-      color: var(--accent);
-      text-shadow: 4px 4px 0 var(--shadow);
-    }
-
-    .hero-title-bottom {
-      font-size: clamp(26px, 4vw, 44px);
-      line-height: 1.25;
-      font-weight: 800;
-      letter-spacing: -0.04em;
-    }
-
-    .hero-description {
-      margin: 0;
-      font-size: 20px;
-      color: var(--muted);
-      max-width: 640px;
-    }
-
-    .hero-description strong {
-      color: var(--ink);
-      font-weight: 800;
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-    }
-
-    .command-strip {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 12px;
-      padding: 14px 16px;
-      background: var(--bg-panel);
-      border: 2px solid var(--line);
-      box-shadow: var(--shell-small);
-    }
-
-    .command-strip button {
-      padding: 0;
-      border: 0;
-      background: transparent;
-      color: inherit;
-      cursor: pointer;
-    }
-
-    .command-label {
-      font-family: var(--pixel-font);
-      font-size: 10px;
-      color: var(--accent-2);
-      text-transform: uppercase;
-    }
-
-    .command-value {
-      font-family: var(--mono-font);
-      font-size: 14px;
-      color: var(--ink);
-    }
-
-    .hero-metrics {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .metric-card {
-      padding: 16px 14px;
-      background: var(--bg-panel);
-      border: 2px solid var(--line);
-      box-shadow: var(--shell-small);
-    }
-
-    .metric-value {
-      font-family: var(--pixel-font);
-      font-size: 16px;
-      color: var(--accent-3);
-      margin: 0 0 10px;
-    }
-
-    .metric-label {
-      margin: 0;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .hero-scene {
-      overflow: hidden;
-      min-height: 580px;
-      background:
-        linear-gradient(180deg, rgba(88, 193, 255, 0.1), transparent 32%),
-        linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0)),
-        var(--bg-panel);
-    }
-
-    .scene-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 20px;
-      position: relative;
-      z-index: 2;
-    }
-
-    .scene-title {
-      margin: 0;
-      font-family: var(--pixel-font);
-      font-size: 10px;
-      color: var(--accent-2);
-      text-transform: uppercase;
-    }
-
-    .scene-stage {
-      position: relative;
-      min-height: 470px;
-      padding: 16px;
-      border: 2px solid rgba(255, 255, 255, 0.06);
-      background:
-        radial-gradient(circle at 72% 18%, rgba(255, 207, 90, 0.25), transparent 14%),
-        linear-gradient(180deg, rgba(88, 193, 255, 0.09), transparent 45%),
-        #0d1520;
-      overflow: hidden;
-    }
-
-    .scene-stage::before {
-      content: "";
+    /* Step connector */
+    .step-line::after {
+      content: '';
       position: absolute;
-      inset: 0 0 auto;
-      height: 68%;
-      background-image:
-        radial-gradient(circle, rgba(255, 255, 255, 0.8) 1px, transparent 1px),
-        radial-gradient(circle, rgba(255, 255, 255, 0.45) 1px, transparent 1px);
-      background-size: 64px 64px, 92px 92px;
-      background-position: 8px 16px, 18px 34px;
-      opacity: 0.24;
-    }
-
-    .scene-moon {
-      position: absolute;
-      top: 36px;
-      right: 38px;
-      width: 54px;
-      height: 54px;
-      background: var(--accent-3);
-      box-shadow:
-        0 0 0 4px rgba(255, 207, 90, 0.18),
-        8px 8px 0 var(--shadow);
-    }
-
-    .scene-city {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 106px;
-      height: 160px;
-      display: flex;
-      align-items: end;
-      gap: 14px;
-      padding: 0 16px;
-    }
-
-    .scene-city span {
-      flex: 1;
-      background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 24%),
-        #162232;
-      border: 2px solid #415875;
-      box-shadow: 6px 6px 0 var(--shadow);
-      position: relative;
-    }
-
-    .scene-city span::before {
-      content: "";
-      position: absolute;
-      inset: 10px;
-      background-image:
-        linear-gradient(90deg, rgba(255, 207, 90, 0.4) 0 10px, transparent 10px 20px),
-        linear-gradient(rgba(255, 207, 90, 0.4) 0 10px, transparent 10px 20px);
-      background-size: 20px 20px;
-      opacity: 0.6;
-    }
-
-    .scene-city span:nth-child(1) { height: 92px; }
-    .scene-city span:nth-child(2) { height: 124px; }
-    .scene-city span:nth-child(3) { height: 86px; }
-    .scene-city span:nth-child(4) { height: 148px; }
-    .scene-city span:nth-child(5) { height: 112px; }
-
-    .scene-ground {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 118px;
-      background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent),
-        repeating-linear-gradient(90deg, #1f3a52 0 18px, #19344c 18px 36px);
-      border-top: 4px solid var(--accent);
-    }
-
-    .scene-terminal,
-    .scene-score,
-    .scene-bubble {
-      position: absolute;
-      border: 2px solid var(--line);
-      box-shadow: var(--shell-small);
-      z-index: 2;
-    }
-
-    .scene-terminal {
-      left: 28px;
-      bottom: 88px;
-      width: min(280px, calc(100% - 64px));
-      padding: 16px 16px 14px;
-      background: #06101a;
-      font-family: var(--terminal-font);
-    }
-
-    .scene-terminal::before {
-      content: "SYS://hirekit.analyze";
-      display: block;
-      margin-bottom: 12px;
-      font-family: var(--pixel-font);
-      font-size: 9px;
-      color: var(--accent);
-    }
-
-    .scene-terminal p {
-      margin: 0;
-      font-size: 28px;
-      line-height: 0.95;
-      color: #dff8ff;
-    }
-
-    .scene-terminal p + p {
-      margin-top: 10px;
-    }
-
-    .scene-score {
-      right: 22px;
-      top: 110px;
-      width: 170px;
-      padding: 14px;
-      background: #102235;
-    }
-
-    .scene-score h3,
-    .scene-bubble h3 {
-      margin: 0 0 12px;
-      font-family: var(--pixel-font);
-      font-size: 9px;
-      color: var(--accent-3);
-      text-transform: uppercase;
-    }
-
-    .scene-score ul,
-    .scene-bubble ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: grid;
-      gap: 10px;
-    }
-
-    .scene-score li,
-    .scene-bubble li {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      font-family: var(--terminal-font);
-      font-size: 24px;
-      color: #eef6ff;
-    }
-
-    .scene-score strong {
-      color: var(--accent-2);
-      font-weight: 400;
-    }
-
-    .scene-bubble {
-      right: 56px;
-      bottom: 164px;
-      width: 194px;
-      padding: 14px;
-      background: rgba(10, 16, 25, 0.92);
-    }
-
-    .scene-bubble strong {
-      color: var(--accent-4);
-      font-weight: 400;
-    }
-
-    .scene-avatar {
-      position: absolute;
-      left: 44%;
-      bottom: 84px;
-      width: 128px;
-      height: 164px;
+      left: 50%;
+      top: 100%;
+      width: 2px;
+      height: 40px;
+      background: linear-gradient(to bottom, #0ea5e9, transparent);
       transform: translateX(-50%);
-      z-index: 2;
     }
 
-    .avatar-head,
-    .avatar-body,
-    .avatar-screen,
-    .avatar-keyboard,
-    .avatar-feet {
+    /* Roadmap timeline */
+    .timeline-item::before {
+      content: '';
       position: absolute;
-      box-shadow: 6px 6px 0 var(--shadow);
-    }
-
-    .avatar-head {
-      left: 36px;
-      top: 0;
-      width: 56px;
-      height: 48px;
-      background: #ffc49d;
-      border: 2px solid var(--shadow);
-    }
-
-    .avatar-screen {
-      left: 12px;
-      top: 56px;
-      width: 104px;
-      height: 58px;
-      background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent),
-        #2a5f7e;
-      border: 2px solid var(--shadow);
-    }
-
-    .avatar-screen::before,
-    .avatar-screen::after {
-      content: "";
-      position: absolute;
-      background: rgba(255, 255, 255, 0.2);
-    }
-
-    .avatar-screen::before {
-      left: 10px;
-      right: 10px;
-      top: 12px;
-      height: 10px;
-    }
-
-    .avatar-screen::after {
-      left: 10px;
-      width: 56px;
-      bottom: 12px;
-      height: 10px;
-    }
-
-    .avatar-body {
-      left: 26px;
-      top: 118px;
-      width: 76px;
-      height: 24px;
-      background: var(--accent-2);
-      border: 2px solid var(--shadow);
-    }
-
-    .avatar-keyboard {
-      left: -2px;
-      top: 126px;
-      width: 44px;
-      height: 18px;
-      background: var(--accent-3);
-      border: 2px solid var(--shadow);
-    }
-
-    .avatar-feet {
-      left: 34px;
-      bottom: 0;
-      width: 60px;
-      height: 18px;
-      background: var(--accent-4);
-      border: 2px solid var(--shadow);
-    }
-
-    .strip-grid,
-    .feature-grid,
-    .source-grid,
-    .step-grid,
-    .roadmap-grid {
-      display: grid;
-      gap: 16px;
-    }
-
-    .strip-grid {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-
-    .strip-card {
-      padding: 18px;
-    }
-
-    .strip-value {
-      margin: 0 0 10px;
-      font-family: var(--pixel-font);
-      font-size: 16px;
-      color: var(--accent);
-    }
-
-    .strip-label {
-      margin: 0;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .feature-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .feature-card,
-    .source-card,
-    .roadmap-card,
-    .step-card,
-    .demo-grid > *,
-    .cta-panel {
-      padding: 20px;
-    }
-
-    .card-topline {
-      display: flex;
-      align-items: start;
-      justify-content: space-between;
-      gap: 14px;
-      margin-bottom: 14px;
-    }
-
-    .card-icon {
-      width: 42px;
-      height: 42px;
-      flex-shrink: 0;
-      display: grid;
-      place-items: center;
-      border: 2px solid var(--shadow);
-      box-shadow: 4px 4px 0 var(--shadow);
-      font-size: 20px;
-    }
-
-    .card-icon.blue { background: var(--accent); color: #08101a; }
-    .card-icon.green { background: var(--accent-2); color: #08101a; }
-    .card-icon.gold { background: var(--accent-3); color: #08101a; }
-    .card-icon.orange { background: var(--accent-4); color: #08101a; }
-    .card-icon.pink { background: var(--danger); color: #08101a; }
-    .card-icon.navy { background: #7ea5ff; color: #08101a; }
-
-    .card-label {
-      display: inline-flex;
-      width: fit-content;
-      padding: 6px 8px;
-      background: var(--bg-panel);
-      border: 1px solid var(--line);
-      font-family: var(--pixel-font);
-      font-size: 9px;
-      color: var(--accent-2);
-      text-transform: uppercase;
-    }
-
-    .card-title {
-      margin: 10px 0 8px;
-      font-size: 22px;
-      line-height: 1.3;
-      font-weight: 800;
-    }
-
-    .card-body {
-      margin: 0;
-      color: var(--muted);
-      font-size: 16px;
-    }
-
-    .feature-command {
-      margin: 16px 0 0;
-      padding: 12px 14px;
-      background: rgba(0, 0, 0, 0.18);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      font-family: var(--mono-font);
-      font-size: 13px;
-      color: var(--accent);
-      overflow: auto;
-    }
-
-    .source-grid {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-
-    .source-card {
-      min-height: 198px;
-      display: grid;
-      align-content: start;
-      gap: 12px;
-    }
-
-    .source-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      width: fit-content;
-      padding: 6px 10px;
-      background: var(--bg-panel);
-      border: 1px solid var(--line);
-      font-family: var(--pixel-font);
-      font-size: 9px;
-      text-transform: uppercase;
-      color: var(--accent-3);
-    }
-
-    .source-title {
-      margin: 0;
-      font-size: 22px;
-      font-weight: 800;
-    }
-
-    .source-meta {
-      margin: auto 0 0;
-      font-family: var(--mono-font);
-      font-size: 13px;
-      color: var(--accent);
-    }
-
-    .demo-grid {
-      display: grid;
-      grid-template-columns: 1.05fr 0.95fr;
-      gap: 18px;
-    }
-
-    .terminal-window {
-      background: #08101a;
-      border: 2px solid var(--line);
-      box-shadow: var(--shell-small);
-      overflow: hidden;
-    }
-
-    .terminal-chrome {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 12px 14px;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.08);
-      background: #111d2b;
-    }
-
-    .terminal-led {
+      left: -33px;
+      top: 8px;
       width: 12px;
       height: 12px;
-      box-shadow: 2px 2px 0 var(--shadow);
+      border-radius: 50%;
+      border: 2px solid currentColor;
     }
 
-    .terminal-led.red { background: #ff5d5d; }
-    .terminal-led.yellow { background: #ffcf5a; }
-    .terminal-led.green { background: #69ffab; }
+    /* Smooth scroll offset */
+    html { scroll-padding-top: 72px; }
 
-    .terminal-name {
-      margin-left: 10px;
-      font-family: var(--pixel-font);
-      font-size: 9px;
-      color: var(--muted);
-      text-transform: uppercase;
+    /* Nav blur */
+    .nav-blur {
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
     }
 
-    .terminal-body {
-      padding: 20px 22px;
-      font-family: var(--terminal-font);
-      font-size: 26px;
-      color: #eef7ff;
-      line-height: 0.96;
-    }
-
-    .terminal-body p {
-      margin: 0;
-    }
-
-    .terminal-body p + p {
-      margin-top: 10px;
-    }
-
-    .terminal-note {
-      margin-top: 20px;
-      padding: 16px;
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      color: #d9ebff;
-      font-size: 22px;
-    }
-
-    .demo-side {
-      display: grid;
-      gap: 18px;
-    }
-
-    .score-summary {
-      display: grid;
-      gap: 14px;
-    }
-
-    .score-head {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 8px;
-    }
-
-    .score-head h3 {
-      margin: 0;
-      font-size: 24px;
-      font-weight: 800;
-    }
-
-    .score-total {
-      font-family: var(--pixel-font);
-      font-size: 18px;
-      color: var(--accent-3);
-    }
-
-    .score-row {
-      display: grid;
-      gap: 8px;
-    }
-
-    .score-row-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      font-size: 15px;
-    }
-
-    .score-track {
-      height: 16px;
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      overflow: hidden;
-    }
-
-    .score-fill {
-      height: 100%;
-      width: 0;
-      background:
-        repeating-linear-gradient(
-          90deg,
-          var(--accent) 0 10px,
-          rgba(255, 255, 255, 0.2) 10px 12px
-        );
-      transition: width 900ms ease;
-    }
-
-    .summary-list {
-      display: grid;
-      gap: 12px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .summary-list li {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      color: var(--muted);
-      font-size: 15px;
-    }
-
-    .summary-list strong {
-      color: var(--ink);
-    }
-
-    .summary-sigil {
-      width: 12px;
-      height: 12px;
-      background: var(--accent-2);
-      box-shadow: 2px 2px 0 var(--shadow);
-      flex-shrink: 0;
-    }
-
-    .step-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .step-head {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      margin-bottom: 18px;
-    }
-
-    .step-number {
-      width: 42px;
-      height: 42px;
-      display: grid;
-      place-items: center;
-      background: var(--accent);
-      color: #091019;
-      border: 2px solid var(--shadow);
-      box-shadow: 4px 4px 0 var(--shadow);
-      font-family: var(--pixel-font);
-      font-size: 12px;
-      flex-shrink: 0;
-    }
-
-    .step-title {
-      margin: 0;
-      font-size: 22px;
-      font-weight: 800;
-    }
-
-    .step-copy {
-      margin: 0 0 16px;
-      color: var(--muted);
-      font-size: 16px;
-    }
-
-    .step-command {
-      padding: 14px;
-      background: var(--bg-panel);
-      border: 2px solid var(--line);
-      box-shadow: var(--shell-small);
-      font-family: var(--mono-font);
-      font-size: 14px;
-      color: var(--accent);
-      overflow: auto;
-    }
-
-    .roadmap-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .roadmap-state {
+    /* Source badge */
+    .source-badge {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
-      width: fit-content;
-      padding: 8px 12px;
-      border: 2px solid var(--line);
-      background: var(--bg-panel);
-      box-shadow: var(--shell-small);
-      font-family: var(--pixel-font);
-      font-size: 9px;
-      text-transform: uppercase;
-    }
-
-    .roadmap-state.done { color: var(--accent-2); }
-    .roadmap-state.live { color: var(--accent-3); }
-    .roadmap-state.todo { color: var(--accent); }
-
-    .roadmap-card h3 {
-      margin: 16px 0 12px;
-      font-size: 24px;
-      font-weight: 800;
-    }
-
-    .roadmap-card ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: grid;
-      gap: 12px;
-    }
-
-    .roadmap-card li {
-      display: flex;
-      align-items: start;
-      gap: 12px;
-      color: var(--muted);
-      font-size: 15px;
-    }
-
-    .roadmap-card li span {
-      width: 10px;
-      height: 10px;
-      margin-top: 8px;
-      flex-shrink: 0;
-      box-shadow: 2px 2px 0 var(--shadow);
-    }
-
-    .roadmap-card.done li span { background: var(--accent-2); }
-    .roadmap-card.live li span { background: var(--accent-3); }
-    .roadmap-card.todo li span { background: var(--accent); }
-
-    .cta-panel {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 18px;
-      align-items: center;
-    }
-
-    .cta-panel h2 {
-      margin: 0 0 12px;
-      font-family: var(--pixel-font);
-      font-size: clamp(18px, 2vw, 26px);
-      line-height: 1.7;
-    }
-
-    .cta-panel p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 18px;
-      max-width: 760px;
-    }
-
-    .cta-actions {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: end;
-      gap: 12px;
-    }
-
-    .footer {
-      padding: 0 0 48px;
-    }
-
-    .footer-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-      padding: 20px;
-      flex-wrap: wrap;
-    }
-
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      color: var(--muted);
-      font-family: var(--pixel-font);
-      font-size: 9px;
-      text-transform: uppercase;
-    }
-
-    .footer-copy {
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .reveal {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 500ms ease, transform 500ms ease;
-    }
-
-    .reveal.is-visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border: 0;
-    }
-
-    @media (max-width: 1100px) {
-      .hero-grid,
-      .demo-grid,
-      .cta-panel {
-        grid-template-columns: 1fr;
-      }
-
-      .feature-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .source-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .roadmap-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-scene {
-        min-height: 500px;
-      }
-
-      .cta-actions {
-        justify-content: start;
-      }
-    }
-
-    @media (max-width: 860px) {
-      .topbar {
-        flex-wrap: wrap;
-      }
-
-      .nav-desktop {
-        display: none;
-      }
-
-      .menu-toggle {
-        display: inline-flex;
-      }
-
-      .nav-actions .button {
-        display: none;
-      }
-
-      .mobile-menu {
-        display: none;
-        margin-top: 12px;
-        padding: 16px;
-      }
-
-      .mobile-menu.open {
-        display: grid;
-        gap: 10px;
-      }
-
-      .mobile-menu .nav-link,
-      .mobile-menu .button {
-        width: 100%;
-      }
-
-      .strip-grid,
-      .step-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .hero-copy,
-      .hero-scene {
-        padding: 22px;
-      }
-
-      .scene-avatar {
-        left: 50%;
-      }
-
-      .scene-score {
-        right: 14px;
-        top: 118px;
-      }
-
-      .scene-bubble {
-        right: 18px;
-      }
-    }
-
-    @media (max-width: 620px) {
-      .page-shell {
-        width: min(calc(100% - 20px), var(--content-width));
-      }
-
-      .pixel-section {
-        padding: 30px 0;
-      }
-
-      .strip-grid,
-      .feature-grid,
-      .source-grid,
-      .step-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-title-top {
-        font-size: 28px;
-      }
-
-      .hero-title-bottom {
-        font-size: 28px;
-      }
-
-      .hero-description,
-      .section-description,
-      .cta-panel p {
-        font-size: 17px;
-      }
-
-      .hero-metrics {
-        grid-template-columns: 1fr;
-      }
-
-      .command-strip {
-        align-items: start;
-      }
-
-      .button {
-        width: 100%;
-      }
-
-      .hero-actions {
-        flex-direction: column;
-      }
-
-      .topbar {
-        padding: 14px;
-      }
-
-      .brand-subtitle {
-        font-size: 12px;
-      }
-
-      .scene-terminal,
-      .scene-score,
-      .scene-bubble {
-        position: relative;
-        left: auto;
-        right: auto;
-        top: auto;
-        bottom: auto;
-        width: 100%;
-      }
-
-      .scene-stage {
-        display: grid;
-        gap: 14px;
-        align-content: end;
-        min-height: 650px;
-      }
-
-      .scene-avatar {
-        left: 50%;
-        bottom: 150px;
-      }
-
-      .scene-city {
-        bottom: 244px;
-      }
-
-      .scene-ground {
-        height: 240px;
-      }
+      gap: 4px;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 9999px;
     }
   </style>
 <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
@@ -1439,626 +182,651 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
 </head>
-<body>
-  <div class="topbar-wrap">
-    <div class="page-shell">
-      <header class="topbar pixel-panel">
-        <a class="brandmark" href="#top">
-          <span class="brand-icon">🎯</span>
-          <span class="brand-text">
-            <strong class="brand-title">HIREKIT</strong>
-            <span class="brand-subtitle">기업 분석을 픽셀 2D 콘솔 월드로</span>
-          </span>
+
+<body class="bg-white dark:bg-[#0d1117] text-gray-900 dark:text-gray-100 antialiased transition-colors duration-300">
+
+  <!-- NAV -->
+  <nav class="fixed top-0 inset-x-0 z-50 nav-blur bg-white/80 dark:bg-[#0d1117]/80 border-b border-gray-200 dark:border-[#21262d]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 font-bold text-lg">
+        <span class="text-2xl">🎯</span>
+        <span class="dark:text-white">HireKit</span>
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600 dark:text-gray-400">
+        <a href="#features"   class="hover:text-gray-900 dark:hover:text-white transition-colors">기능</a>
+        <a href="#quickstart" class="hover:text-gray-900 dark:hover:text-white transition-colors">시작하기</a>
+        <a href="#roadmap"    class="hover:text-gray-900 dark:hover:text-white transition-colors">로드맵</a>
+        <a href="demo.html"   class="flex items-center gap-1.5 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 font-semibold transition-colors">
+          <span class="w-1.5 h-1.5 rounded-full bg-green-400"></span>데모 체험
         </a>
+      </div>
+      <div class="flex items-center gap-3">
+        <!-- Language switch -->
+        <a href="en.html"
+          class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
+          English
+        </a>
+        <!-- Dark mode toggle -->
+        <button id="theme-toggle" aria-label="다크 모드 전환"
+          class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#21262d] transition-colors">
+          <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" class="hidden dark:block w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+          </svg>
+          <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" class="block dark:hidden w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+        <!-- GitHub -->
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener"
+          class="flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:opacity-90 transition-opacity">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </nav>
 
-        <nav class="nav-desktop" aria-label="주요">
-          <a class="nav-link" href="#features">Features</a>
-          <a class="nav-link" href="#sources">Sources</a>
-          <a class="nav-link" href="#demo">Demo</a>
-          <a class="nav-link" href="#quickstart">Quickstart</a>
-          <a class="nav-link" href="#roadmap">Roadmap</a>
-        </nav>
+  <!-- HERO -->
+  <section class="hero-gradient pt-32 pb-24 px-4 text-center">
+    <div class="max-w-4xl mx-auto">
+      <!-- Badges -->
+      <div class="flex flex-wrap justify-center gap-2 mb-8">
+        <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/pypi/v/hirekit?style=flat-square&color=0ea5e9" alt="PyPI version" class="h-5" />
+        </a>
+        <img src="https://img.shields.io/badge/python-3.11+-blue?style=flat-square" alt="Python 3.11+" class="h-5" />
+        <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License" class="h-5" />
+        <a href="https://github.com/zihoshin-dev/hirekit/stargazers" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/github/stars/zihoshin-dev/hirekit?style=flat-square&color=e3b341" alt="GitHub Stars" class="h-5" />
+        </a>
+      </div>
 
-        <div class="nav-actions">
-          <a class="button secondary" href="en.html">English</a>
-          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="테마 전환">
-            <span id="theme-glyph">DN</span>
-          </button>
-          <button class="menu-toggle" id="menu-toggle" type="button" aria-label="메뉴 열기">
-            <span>≡</span>
-          </button>
-        </div>
-      </header>
+      <!-- Heading -->
+      <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight mb-4 dark:text-white">
+        Hire<span class="text-brand-500">Kit</span>
+      </h1>
+      <p class="text-xl sm:text-2xl font-light text-gray-600 dark:text-gray-400 mb-6">
+        기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요.
+      </p>
+      <p class="text-base text-gray-500 dark:text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+        4~8시간짜리 기업 리서치를 명령어 하나로 끝내는 오픈소스 CLI.
+        8개 소스에서 데이터를 수집해 가중 스코어카드를 만들고, 면접 준비까지 — 모두 터미널에서.
+      </p>
 
-      <div class="mobile-menu pixel-panel" id="mobile-menu">
-        <a class="nav-link" href="#features">Features</a>
-        <a class="nav-link" href="#sources">Sources</a>
-        <a class="nav-link" href="#demo">Demo</a>
-        <a class="nav-link" href="#quickstart">Quickstart</a>
-        <a class="nav-link" href="#roadmap">Roadmap</a>
-        <a class="button secondary" href="demo.html">Live Demo</a>
-        <a class="button ghost" href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener">GitHub</a>
+      <!-- Install command -->
+      <div class="inline-flex items-center gap-3 bg-gray-950 dark:bg-[#161b22] border border-gray-800 dark:border-[#30363d] rounded-xl px-5 py-3 mb-10 group cursor-pointer" onclick="copyInstall(this)">
+        <span class="font-mono text-sm text-gray-400">$</span>
+        <span class="font-mono text-sm text-brand-400">pip install hirekit</span>
+        <svg id="copy-icon-hero" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+        </svg>
+      </div>
+
+      <!-- CTA buttons -->
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#quickstart"
+          class="px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-sm transition-colors shadow-lg shadow-brand-600/20">
+          시작하기 →
+        </a>
+        <a href="#demo"
+          class="px-6 py-3 rounded-xl border border-gray-300 dark:border-[#30363d] hover:border-gray-400 dark:hover:border-[#484f58] text-gray-700 dark:text-gray-300 font-semibold text-sm transition-colors">
+          데모 보기
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="bg-gray-50 dark:bg-[#161b22] border-y border-gray-200 dark:border-[#21262d] py-6">
+    <div class="max-w-4xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+      <div>
+        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">8</div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">데이터 소스</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">12</div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">리포트 섹션</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">100pt</div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">스코어카드 시스템</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">0</div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">추적 / 개인정보 수집</div>
       </div>
     </div>
   </div>
 
-  <main id="top">
-    <section class="hero">
-      <div class="page-shell hero-grid">
-        <div class="hero-copy pixel-panel reveal">
-          <div class="pixel-badge">
-            <span class="pixel-dot"></span>
-            Claude Code Pixel Edition
-          </div>
+  <!-- FEATURES -->
+  <section id="features" class="py-24 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">합격에 필요한 모든 것</h2>
+        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">첫 리서치부터 최종 오퍼까지 — 취업 준비의 전 과정을 커버하는 6가지 명령어.</p>
+      </div>
 
-          <div class="hero-title">
-            <span class="hero-title-top">HIREKIT</span>
-            <h1 class="hero-title-bottom">기업을 분석하고, 공고를 매칭하고, 면접을 준비하는 가장 선명한 터미널 월드예요.</h1>
-          </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
-          <p class="hero-description">
-            <strong>4~8시간짜리 기업 리서치</strong>를 명령어 하나로 끝내는 HireKit을,
-            콘솔에서 모험 퀘스트를 깨듯 읽히는 픽셀 2D 랜딩으로 다시 구성했어요.
-            8개 데이터 소스, 가중 스코어카드, 맞춤 면접 준비 흐름을 한 장에 담았어요.
+        <!-- analyze -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-brand-100 dark:bg-brand-900/30 flex items-center justify-center text-lg">🔍</div>
+            <div>
+              <code class="text-sm text-brand-600 dark:text-brand-400">hirekit analyze</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">기업 분석</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            어떤 기업이든 심층 분석. DART 재무 데이터, 6개 소스 뉴스, GitHub 기술 성숙도, 조직 문화 신호를 종합해 12개 섹션 구조화 리포트를 생성합니다.
           </p>
-
-          <div class="hero-actions">
-            <a class="button" href="#quickstart">Start Mission</a>
-            <a class="button secondary" href="#demo">Watch Demo</a>
-            <a class="button ghost" href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener">Open Repo</a>
-          </div>
-
-          <div class="command-strip">
-            <span class="command-label">Install</span>
-            <code class="command-value">pip install hirekit</code>
-            <button id="copy-install" type="button" aria-label="설치 명령어 복사">
-              <span class="button secondary" style="min-height:40px;padding:0 12px;">Copy</span>
-            </button>
-          </div>
-
-          <div class="hero-metrics">
-            <article class="metric-card">
-              <p class="metric-value">8 SOURCES</p>
-              <p class="metric-label">공시, 뉴스, GitHub, 시맨틱 검색까지 병렬로 모아요.</p>
-            </article>
-            <article class="metric-card">
-              <p class="metric-value">100 PT</p>
-              <p class="metric-label">감이 아니라 근거 중심으로 스코어카드를 만들어요.</p>
-            </article>
-            <article class="metric-card">
-              <p class="metric-value">LOCAL</p>
-              <p class="metric-label">추적 없이 로컬 중심으로 동작해서 안심하고 써요.</p>
-            </article>
-          </div>
         </div>
 
-        <div class="hero-scene pixel-panel reveal">
-          <div class="scene-header">
-            <p class="scene-title">Pixel Mission Board</p>
-            <span class="card-label">Night Shift</span>
+        <!-- match -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-lg">🎯</div>
+            <div>
+              <code class="text-sm text-purple-600 dark:text-purple-400">hirekit match</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">공고 매칭</h3>
+            </div>
           </div>
-
-          <div class="scene-stage">
-            <div class="scene-moon"></div>
-
-            <div class="scene-score">
-              <h3>Scorecard</h3>
-              <ul>
-                <li><span>Fit</span><strong>82</strong></li>
-                <li><span>News</span><strong>15</strong></li>
-                <li><span>Grade</span><strong>S</strong></li>
-              </ul>
-            </div>
-
-            <div class="scene-bubble">
-              <h3>Quest Buffs</h3>
-              <ul>
-                <li><span>Resume</span><strong>+12</strong></li>
-                <li><span>Interview</span><strong>+18</strong></li>
-              </ul>
-            </div>
-
-            <div class="scene-city">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-
-            <div class="scene-terminal">
-              <p>$ hirekit analyze kakao</p>
-              <p>> 8 sources synced</p>
-              <p>> report saved</p>
-            </div>
-
-            <div class="scene-avatar" aria-hidden="true">
-              <div class="avatar-head"></div>
-              <div class="avatar-screen"></div>
-              <div class="avatar-body"></div>
-              <div class="avatar-keyboard"></div>
-              <div class="avatar-feet"></div>
-            </div>
-
-            <div class="scene-ground"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="pixel-section">
-      <div class="page-shell strip-grid">
-        <article class="strip-card pixel-panel reveal">
-          <p class="strip-value">8</p>
-          <p class="strip-label">데이터 소스를 한 번에 연결해요</p>
-        </article>
-        <article class="strip-card pixel-panel reveal">
-          <p class="strip-value">12</p>
-          <p class="strip-label">구조화 리포트 섹션으로 결과를 정리해요</p>
-        </article>
-        <article class="strip-card pixel-panel reveal">
-          <p class="strip-value">15</p>
-          <p class="strip-label">실제 결과와 신호를 모아 빠르게 판단해요</p>
-        </article>
-        <article class="strip-card pixel-panel reveal">
-          <p class="strip-value">0 TRACK</p>
-          <p class="strip-label">원격 추적 없이 프라이버시를 우선해요</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="pixel-section" id="features">
-      <div class="page-shell">
-        <header class="section-header reveal">
-          <span class="section-kicker">Core Quests</span>
-          <h2 class="section-title">합격에 필요한 흐름을, 픽셀 RPG의 퀘스트 슬롯처럼 또렷하게 묶었어요.</h2>
-          <p class="section-description">
-            첫 리서치부터 최종 면접 준비까지 이어지는 HireKit 핵심 명령어를
-            게임 UI 카드처럼 재배치해서 한 번에 훑을 수 있게 했어요.
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            채용 공고를 붙여넣으면 적합도 점수를 바로 확인. 스킬 갭 파악, 강점 부각, 지원서에서 어필할 프로젝트까지 제안합니다.
           </p>
-        </header>
-
-        <div class="feature-grid">
-          <article class="feature-card pixel-panel reveal">
-            <div class="card-topline">
-              <div>
-                <span class="card-label">Core Quest</span>
-                <h3 class="card-title">기업 분석</h3>
-              </div>
-              <span class="card-icon blue">🔍</span>
-            </div>
-            <p class="card-body">DART 재무 데이터, 뉴스, GitHub 기술 성숙도, 조직 문화 신호를 모아 12개 섹션 리포트를 생성해요.</p>
-            <div class="feature-command">hirekit analyze 카카오 --no-llm -o terminal</div>
-          </article>
-
-          <article class="feature-card pixel-panel reveal">
-            <div class="card-topline">
-              <div>
-                <span class="card-label">Target Match</span>
-                <h3 class="card-title">공고 매칭</h3>
-              </div>
-              <span class="card-icon gold">🎯</span>
-            </div>
-            <p class="card-body">채용 공고를 붙여넣으면 적합도, 스킬 갭, 지원서에서 강조할 프로젝트를 빠르게 정리해줘요.</p>
-            <div class="feature-command">hirekit match --jd job.txt --company kakao</div>
-          </article>
-
-          <article class="feature-card pixel-panel reveal">
-            <div class="card-topline">
-              <div>
-                <span class="card-label">Boss Prep</span>
-                <h3 class="card-title">면접 준비</h3>
-              </div>
-              <span class="card-icon green">🗣️</span>
-            </div>
-            <p class="card-body">실제 기업 맥락과 최신 뉴스를 반영해 맞춤 질문을 만들고, 답변 준비 포인트까지 이어줘요.</p>
-            <div class="feature-command">hirekit interview 카카오</div>
-          </article>
-
-          <article class="feature-card pixel-panel reveal">
-            <div class="card-topline">
-              <div>
-                <span class="card-label">Loadout</span>
-                <h3 class="card-title">이력서 리뷰</h3>
-              </div>
-              <span class="card-icon orange">📄</span>
-            </div>
-            <p class="card-body">직무 대비 점수를 계산하고 키워드 정합성, 성과 문장, ATS 대응까지 실질적인 개선 포인트를 잡아줘요.</p>
-            <div class="feature-command">hirekit resume --file resume.md --company kakao</div>
-          </article>
-
-          <article class="feature-card pixel-panel reveal">
-            <div class="card-topline">
-              <div>
-                <span class="card-label">Story Forge</span>
-                <h3 class="card-title">자기소개서</h3>
-              </div>
-              <span class="card-icon pink">✉️</span>
-            </div>
-            <p class="card-body">기업의 비즈니스 과제와 가치관을 반영해서 범용 템플릿이 아닌 맥락 중심 초안을 만들어요.</p>
-            <div class="feature-command">hirekit coverletter --company kakao --resume resume.md</div>
-          </article>
-
-          <article class="feature-card pixel-panel reveal">
-            <div class="card-topline">
-              <div>
-                <span class="card-label">Plugin Bay</span>
-                <h3 class="card-title">소스 확장</h3>
-              </div>
-              <span class="card-icon navy">🔌</span>
-            </div>
-            <p class="card-body">커스텀 데이터 소스를 등록해 원하는 신호를 더 붙일 수 있어서, 분석 맵을 계속 넓혀갈 수 있어요.</p>
-            <div class="feature-command">@SourceRegistry.register("my_source")</div>
-          </article>
         </div>
-      </div>
-    </section>
 
-    <section class="pixel-section" id="sources">
-      <div class="page-shell">
-        <header class="section-header reveal">
-          <span class="section-kicker">Data Nodes</span>
-          <h2 class="section-title">8개 데이터 소스를 지도처럼 깔아두고, 어디서 어떤 신호를 가져오는지 한눈에 보이게 했어요.</h2>
-          <p class="section-description">
-            공식 공시, 뉴스, 검색, 후기, AI 시맨틱 검색을 한 장의 픽셀 네트워크 보드처럼 묶어서
-            HireKit이 왜 빠르고 믿을 만한지 바로 읽히게 했어요.
-          </p>
-        </header>
-
-        <div class="source-grid">
-          <article class="source-card pixel-panel reveal">
-            <span class="source-chip">KR / Official</span>
-            <h3 class="source-title">DART</h3>
-            <p class="card-body">재무 데이터, 인력 현황, 연봉 정보를 공식 전자공시에서 직접 모아요.</p>
-            <div class="source-meta">DART_API_KEY</div>
-          </article>
-
-          <article class="source-card pixel-panel reveal">
-            <span class="source-chip">KR / News</span>
-            <h3 class="source-title">Naver News</h3>
-            <p class="card-body">국내 뉴스, 블로그, 카페를 모아서 최근 분위기와 조직 문화 신호를 잡아요.</p>
-            <div class="source-meta">NAVER_CLIENT_ID</div>
-          </article>
-
-          <article class="source-card pixel-panel reveal">
-            <span class="source-chip">Global / Tech</span>
-            <h3 class="source-title">GitHub</h3>
-            <p class="card-body">레포 활동량, 스택 다양성, 기술 조직의 실제 온도를 읽어내요.</p>
-            <div class="source-meta">gh CLI</div>
-          </article>
-
-          <article class="source-card pixel-panel reveal">
-            <span class="source-chip">Global / Feed</span>
-            <h3 class="source-title">Google News</h3>
-            <p class="card-body">API 키 없이도 최신 글로벌 뉴스 흐름을 빠르게 붙일 수 있어요.</p>
-            <div class="source-meta">No key</div>
-          </article>
-
-          <article class="source-card pixel-panel reveal">
-            <span class="source-chip">Global / Trust</span>
-            <h3 class="source-title">Credible News</h3>
-            <p class="card-body">Reuters, Bloomberg, FT 같은 신뢰도 높은 매체를 모아 노이즈를 줄여요.</p>
-            <div class="source-meta">No key</div>
-          </article>
-
-          <article class="source-card pixel-panel reveal">
-            <span class="source-chip">Global / Search</span>
-            <h3 class="source-title">Brave Search</h3>
-            <p class="card-body">독립 웹 검색 기반으로 프라이버시를 지키면서도 넓은 문맥을 가져와요.</p>
-            <div class="source-meta">BRAVE_API_KEY</div>
-          </article>
-
-          <article class="source-card pixel-panel reveal">
-            <span class="source-chip">Global / Semantic</span>
-            <h3 class="source-title">Exa Search</h3>
-            <p class="card-body">표면에 잘 드러나지 않는 기업 맥락과 전략 신호를 깊게 찾는 데 써요.</p>
-            <div class="source-meta">EXA_API_KEY</div>
-          </article>
-
-          <article class="source-card pixel-panel reveal">
-            <span class="source-chip">Custom / Plugin</span>
-            <h3 class="source-title">Your Source</h3>
-            <p class="card-body">Python 몇 줄로 자신만의 데이터 소스를 꽂아 개인화된 분석 루트를 만들 수 있어요.</p>
-            <div class="source-meta">@SourceRegistry.register</div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="pixel-section" id="demo">
-      <div class="page-shell">
-        <header class="section-header reveal">
-          <span class="section-kicker">Live Readout</span>
-          <h2 class="section-title">데모 구간은 “결과가 어떻게 읽히는지”에 집중해서, 실제 CLI의 속도감과 스코어 보드를 함께 보여줘요.</h2>
-          <p class="section-description">
-            픽셀 스타일을 입혔지만 핵심은 여전히 데이터예요.
-            그래서 콘솔 로그, 결과 개수, 점수 요약이 가장 먼저 보이도록 배치했어요.
-          </p>
-        </header>
-
-        <div class="demo-grid">
-          <div class="pixel-panel reveal">
-            <div class="terminal-window">
-              <div class="terminal-chrome">
-                <span class="terminal-led red"></span>
-                <span class="terminal-led yellow"></span>
-                <span class="terminal-led green"></span>
-                <span class="terminal-name">zsh // mission: analyze</span>
-              </div>
-              <div class="terminal-body">
-                <p>$ hirekit analyze 카카오 --no-llm -o terminal</p>
-                <p>> 8 sources synced in parallel...</p>
-                <p>> 15 results collected across 8 sources</p>
-                <p>> scorecard generated: 82/100 Grade S</p>
-                <div class="terminal-note">보고서 저장 완료 → ./reports/카카오_analysis.md</div>
-              </div>
+        <!-- interview -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-lg">🗣️</div>
+            <div>
+              <code class="text-sm text-green-600 dark:text-green-400">hirekit interview</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">면접 준비</h3>
             </div>
           </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            실제 데이터 기반 맞춤 면접 질문 생성 — 기술 스택, 최신 뉴스, 비즈니스 과제 반영. 면접장에 들어가기 전에 미리 준비하세요.
+          </p>
+        </div>
 
-          <div class="demo-side">
-            <article class="pixel-panel score-summary reveal">
-              <div class="score-head">
-                <div>
-                  <span class="card-label">Scoreboard</span>
-                  <h3>카카오 분석 예시</h3>
-                </div>
-                <div class="score-total">82 / 100</div>
-              </div>
-
-              <div class="score-row">
-                <div class="score-row-top">
-                  <span>Job Fit</span>
-                  <strong>84</strong>
-                </div>
-                <div class="score-track"><div class="score-fill" data-fill="84"></div></div>
-              </div>
-
-              <div class="score-row">
-                <div class="score-row-top">
-                  <span>Career Leverage</span>
-                  <strong>79</strong>
-                </div>
-                <div class="score-track"><div class="score-fill" data-fill="79"></div></div>
-              </div>
-
-              <div class="score-row">
-                <div class="score-row-top">
-                  <span>Growth Potential</span>
-                  <strong>88</strong>
-                </div>
-                <div class="score-track"><div class="score-fill" data-fill="88"></div></div>
-              </div>
-
-              <div class="score-row">
-                <div class="score-row-top">
-                  <span>Culture Signal</span>
-                  <strong>76</strong>
-                </div>
-                <div class="score-track"><div class="score-fill" data-fill="76"></div></div>
-              </div>
-            </article>
-
-            <article class="pixel-panel reveal">
-              <span class="card-label">Why It Works</span>
-              <ul class="summary-list">
-                <li><span class="summary-sigil"></span><span><strong>8개 데이터 소스</strong>를 한 번에 묶어서 리서치 시간을 줄여요.</span></li>
-                <li><span class="summary-sigil"></span><span><strong>100점 스코어카드</strong>로 직관적인 비교가 가능해요.</span></li>
-                <li><span class="summary-sigil"></span><span><strong>면접 준비 흐름</strong>까지 이어져서 결과가 다음 액션으로 연결돼요.</span></li>
-              </ul>
-            </article>
+        <!-- resume -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-lg">📄</div>
+            <div>
+              <code class="text-sm text-orange-600 dark:text-orange-400">hirekit resume</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">이력서 리뷰</h3>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="pixel-section" id="quickstart">
-      <div class="page-shell">
-        <header class="section-header reveal">
-          <span class="section-kicker">Quickstart Route</span>
-          <h2 class="section-title">처음 쓰는 사람도 “설치 → 설정 → 첫 분석” 흐름을 따라가면 바로 시작할 수 있게 만들었어요.</h2>
-          <p class="section-description">
-            카드마다 명령어를 바로 넣어둬서, 읽는 동시에 복사하고 실행할 수 있는 튜토리얼처럼 동작해요.
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            지원 직무 대비 이력서 점수 산출. 키워드 정합성, 성과 문장, ATS 최적화까지 실질적인 피드백을 제공합니다.
           </p>
-        </header>
-
-        <div class="step-grid">
-          <article class="step-card pixel-panel reveal">
-            <div class="step-head">
-              <span class="step-number">01</span>
-              <h3 class="step-title">설치</h3>
-            </div>
-            <p class="step-copy">Python 3.11 이상이면 바로 설치할 수 있어요. 필요하면 LLM 확장도 이어서 붙일 수 있어요.</p>
-            <div class="step-command">pip install hirekit</div>
-          </article>
-
-          <article class="step-card pixel-panel reveal">
-            <div class="step-head">
-              <span class="step-number">02</span>
-              <h3 class="step-title">설정</h3>
-            </div>
-            <p class="step-copy">대화형 설정으로 DART, GitHub, Naver News 같은 소스를 빠르게 켜고 꺼요.</p>
-            <div class="step-command">hirekit configure</div>
-          </article>
-
-          <article class="step-card pixel-panel reveal">
-            <div class="step-head">
-              <span class="step-number">03</span>
-              <h3 class="step-title">첫 분석</h3>
-            </div>
-            <p class="step-copy">국내외 기업을 바로 분석하고, 결과를 터미널이나 Markdown 리포트로 확인해요.</p>
-            <div class="step-command">hirekit analyze 카카오</div>
-          </article>
         </div>
-      </div>
-    </section>
 
-    <section class="pixel-section" id="roadmap">
-      <div class="page-shell">
-        <header class="section-header reveal">
-          <span class="section-kicker">Progress Map</span>
-          <h2 class="section-title">로드맵도 픽셀 월드맵처럼 보이게 해서, 지금까지 완성한 것과 앞으로 열릴 지역이 구분되도록 했어요.</h2>
-          <p class="section-description">
-            완료된 기능은 안정적인 그린, 진행 중인 항목은 골드, 다음 확장은 블루로 나눠서
-            제품의 방향성이 시각적으로도 이어지게 구성했어요.
+        <!-- coverletter -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-pink-100 dark:bg-pink-900/30 flex items-center justify-center text-lg">✉️</div>
+            <div>
+              <code class="text-sm text-pink-600 dark:text-pink-400">hirekit coverletter</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">자기소개서</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            실제 기업 맥락을 반영한 맞춤 자기소개서 초안 작성. 비즈니스 과제, 제품, 가치관을 구체적으로 녹여냅니다 — 범용 템플릿과는 다릅니다.
           </p>
-        </header>
-
-        <div class="roadmap-grid">
-          <article class="roadmap-card done pixel-panel reveal">
-            <span class="roadmap-state done">Phase 1 / Complete</span>
-            <h3>기반 구축</h3>
-            <ul>
-              <li><span></span><span>DART 전자공시 연동과 GitHub 기술 성숙도 점수화를 붙였어요.</span></li>
-              <li><span></span><span>멀티소스 뉴스 수집과 5개 차원 가중 스코어카드를 만들었어요.</span></li>
-              <li><span></span><span>구조화 Markdown 리포트로 결과를 저장하게 했어요.</span></li>
-            </ul>
-          </article>
-
-          <article class="roadmap-card live pixel-panel reveal">
-            <span class="roadmap-state live">Phase 2 / Live</span>
-            <h3>취업 지원 도구 세트</h3>
-            <ul>
-              <li><span></span><span>스킬 갭 분석 포함 공고 매칭 흐름을 추가했어요.</span></li>
-              <li><span></span><span>면접 준비, 이력서 리뷰, 자기소개서 작성까지 이어졌어요.</span></li>
-              <li><span></span><span>랜딩에서는 이 흐름을 퀘스트 카드처럼 이해하기 쉽게 정리했어요.</span></li>
-            </ul>
-          </article>
-
-          <article class="roadmap-card todo pixel-panel reveal">
-            <span class="roadmap-state todo">Phase 3 / Next</span>
-            <h3>확장과 커뮤니티</h3>
-            <ul>
-              <li><span></span><span>SEC Edgar 연동으로 미국 기업 분석 지원을 넓혀요.</span></li>
-              <li><span></span><span>CLI를 쓰지 않는 사용자를 위한 Web UI 흐름을 준비해요.</span></li>
-              <li><span></span><span>커뮤니티 플러그인 마켓플레이스와 PyPI 정식 릴리스를 목표로 해요.</span></li>
-            </ul>
-          </article>
         </div>
-      </div>
-    </section>
 
-    <section class="pixel-section">
-      <div class="page-shell">
-        <div class="cta-panel pixel-panel reveal">
+        <!-- sources -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-yellow-100 dark:bg-yellow-900/30 flex items-center justify-center text-lg">🔌</div>
+            <div>
+              <code class="text-sm text-yellow-600 dark:text-yellow-400">hirekit sources</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">플러그인 시스템</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            데이터 소스 플러그인을 목록 확인 및 관리. Python 20줄로 커스텀 소스를 추가하세요 — <code>@SourceRegistry.register</code>만 달면 바로 동작합니다.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Highlight cards -->
+      <div class="mt-8 grid sm:grid-cols-3 gap-4">
+        <div class="p-4 rounded-xl bg-brand-50 dark:bg-brand-900/10 border border-brand-200 dark:border-brand-800/40 flex items-center gap-3">
+          <span class="text-2xl">🤖</span>
           <div>
-            <h2>오픈소스 커뮤니티와 함께 맵을 확장해요.</h2>
-            <p>
-              새로운 데이터 소스, 리포트 템플릿, 다국어 지원, Web UI까지
-              어떤 기여도 환영해요. 이 랜딩도 같은 정신으로, 제품의 정보 구조를 더 생생하게 보여주기 위해 다시 그렸어요.
-            </p>
+            <div class="font-semibold text-sm text-brand-900 dark:text-brand-300">LLM 선택 사용</div>
+            <div class="text-xs text-brand-700 dark:text-brand-500">AI 없이도 동작. OpenAI / Anthropic / Ollama로 기능 강화 가능.</div>
           </div>
-          <div class="cta-actions">
-            <a class="button" href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener">GitHub</a>
-            <a class="button secondary" href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contribute</a>
-            <a class="button ghost" href="demo.html">Live Demo</a>
+        </div>
+        <div class="p-4 rounded-xl bg-green-50 dark:bg-green-900/10 border border-green-200 dark:border-green-800/40 flex items-center gap-3">
+          <span class="text-2xl">🔒</span>
+          <div>
+            <div class="font-semibold text-sm text-green-900 dark:text-green-300">프라이버시 우선</div>
+            <div class="text-xs text-green-700 dark:text-green-500">모든 데이터는 로컬에만 저장. 원격 추적 없음.</div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-purple-50 dark:bg-purple-900/10 border border-purple-200 dark:border-purple-800/40 flex items-center gap-3">
+          <span class="text-2xl">⚡</span>
+          <div>
+            <div class="font-semibold text-sm text-purple-900 dark:text-purple-300">병렬 수집</div>
+            <div class="text-xs text-purple-700 dark:text-purple-500">8개 소스 동시 수집. 몇 시간이 아닌 몇 분.</div>
           </div>
         </div>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="footer">
-    <div class="page-shell">
-      <div class="footer-inner pixel-panel">
-        <div class="brandmark">
-          <span class="brand-icon">🧩</span>
-          <span class="brand-text">
-            <strong class="brand-title">HIREKIT</strong>
-            <span class="brand-subtitle">terminal-first hiring research kit</span>
-          </span>
+  <!-- DATA SOURCES -->
+  <section id="sources" class="py-24 px-4 bg-gray-50 dark:bg-[#0d1117]">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">8개 데이터 소스, 빈틈 없는 분석</h2>
+        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">공시 데이터부터 AI 시맨틱 검색까지 — 모든 각도를 커버합니다.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">📊</span>
+            <span class="font-semibold dark:text-white">DART</span>
+            <span class="source-badge bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 ml-auto">KR</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">금융감독원 전자공시 — 재무 데이터, 임직원 현황, 연봉 정보를 공식 경로에서 수집.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">DART_API_KEY</div>
         </div>
 
-        <nav class="footer-links" aria-label="푸터">
-          <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener">PyPI</a>
-          <a href="en.html">English</a>
-          <a href="demo.html">Demo</a>
-        </nav>
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🟢</span>
+            <span class="font-semibold dark:text-white">Naver News</span>
+            <span class="source-badge bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 ml-auto">KR</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">최신 국내 뉴스, 블로그, 카페 게시물 — 조직 문화와 면접 후기 파악에 활용.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">NAVER_CLIENT_ID</div>
+        </div>
 
-        <p class="footer-copy">취업·이직 준비자를 위한 오픈소스 CLI. MIT License.</p>
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🐙</span>
+            <span class="font-semibold dark:text-white">GitHub</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">기술 성숙도 점수 — 레포 활동량, 스택 다양성, 오픈소스 문화 신호 분석.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">gh CLI</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">📰</span>
+            <span class="font-semibold dark:text-white">Google News</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">RSS 기반 글로벌 뉴스 피드. API 키 불필요 — 설치 즉시 무료 사용.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">키 없음</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🌐</span>
+            <span class="font-semibold dark:text-white">Credible News</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">Reuters, Bloomberg, FT, WSJ 및 국내 주요 경제지를 취합해 신뢰도 순으로 정렬.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">키 없음</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🦁</span>
+            <span class="font-semibold dark:text-white">Brave Search</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">독립 웹 + 뉴스 시맨틱 검색. 구글에 의존하지 않는 프라이버시 중심 대안.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">BRAVE_API_KEY</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🔮</span>
+            <span class="font-semibold dark:text-white">Exa Search</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">AI 기반 시맨틱 심층 검색. 표면에 드러나지 않는 기업 맥락과 인사이트를 발굴합니다.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">EXA_API_KEY</div>
+        </div>
+
+        <!-- Custom source CTA -->
+        <div class="p-5 rounded-xl bg-brand-50 dark:bg-brand-900/10 border border-dashed border-brand-300 dark:border-brand-800 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-xl">➕</span>
+              <span class="font-semibold dark:text-white text-brand-700 dark:text-brand-400">나만의 소스</span>
+            </div>
+            <p class="text-xs text-brand-600 dark:text-brand-500 leading-relaxed"><code class="bg-brand-100 dark:bg-brand-900/40 text-brand-700 dark:text-brand-400">@SourceRegistry.register</code>와 Python 20줄로 커스텀 플러그인을 만들어보세요.</p>
+          </div>
+          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener"
+            class="mt-4 inline-block text-xs font-medium text-brand-600 dark:text-brand-400 hover:underline">
+            소스 기여하기 →
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section id="demo" class="py-24 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">직접 확인해보세요</h2>
+        <p class="text-gray-500 dark:text-gray-400">명령어 하나. 종합 스코어카드. 감에 의존하지 않아도 됩니다.</p>
+      </div>
+
+      <div class="terminal shadow-2xl shadow-black/30">
+        <div class="terminal-bar">
+          <div class="terminal-dot dot-red"></div>
+          <div class="terminal-dot dot-yellow"></div>
+          <div class="terminal-dot dot-green"></div>
+          <span class="terminal-title">zsh — hirekit analyze</span>
+        </div>
+        <div class="terminal-body overflow-x-auto">
+<pre><span class="c-prompt">❯</span> <span class="c-cmd">hirekit</span> analyze 카카오 <span class="c-flag">--no-llm</span> <span class="c-flag">-o</span> <span class="c-string">terminal</span>
+
+<span class="c-border">╭</span><span class="c-border">──────────────────── HireKit Analysis ─────────────────────</span><span class="c-border">╮</span>
+<span class="c-border">│</span> <span class="c-output">Analyzing: 카카오                                         </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Region: <span class="c-blue">kr</span>  Tier: <span class="c-blue">1</span>  LLM: <span class="c-yellow">off</span>                             </span><span class="c-border">│</span>
+<span class="c-border">╰</span><span class="c-border">─────────────────────────────────────────────────────────────</span><span class="c-border">╯</span>
+
+<span class="c-comment">  Collecting from 8 sources in parallel...</span>
+  <span class="c-green">✓</span> DART financials          <span class="c-dim">123ms</span>
+  <span class="c-green">✓</span> Naver News (32 articles)  <span class="c-dim">210ms</span>
+  <span class="c-green">✓</span> GitHub tech scoring       <span class="c-dim">380ms</span>
+  <span class="c-green">✓</span> Google News RSS           <span class="c-dim">195ms</span>
+  <span class="c-green">✓</span> Credible News             <span class="c-dim">290ms</span>
+  <span class="c-green">✓</span> Brave Search              <span class="c-dim">445ms</span>
+  <span class="c-green">✓</span> Exa semantic search       <span class="c-dim">512ms</span>
+  <span class="c-green">✓</span> Glassdoor reviews         <span class="c-dim">340ms</span>
+
+  <span class="c-output">15 results collected across 8 sources in <span class="c-green">512ms</span></span>
+
+<span class="c-header">                     카카오 Scorecard</span>
+<span class="c-border">┌─────────────────────┬────────┬────────┬──────────────────────┐</span>
+<span class="c-border">│</span> <span class="c-output">Dimension           </span><span class="c-border">│</span> <span class="c-output">Weight </span><span class="c-border">│</span> <span class="c-output"> Score </span><span class="c-border">│</span> <span class="c-output">Evidence             </span><span class="c-border">│</span>
+<span class="c-border">├─────────────────────┼────────┼────────┼──────────────────────┤</span>
+<span class="c-border">│</span> <span class="c-output">Job Fit             </span><span class="c-border">│</span>    <span class="c-yellow">30%</span> <span class="c-border">│</span>  <span class="c-blue">3.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Tech stack data      </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Career Leverage     </span><span class="c-border">│</span>    <span class="c-yellow">20%</span> <span class="c-border">│</span>  <span class="c-green">4.6</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">15 data points       </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Growth Potential    </span><span class="c-border">│</span>    <span class="c-yellow">20%</span> <span class="c-border">│</span>  <span class="c-green">4.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Financials + news    </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Compensation        </span><span class="c-border">│</span>    <span class="c-yellow">15%</span> <span class="c-border">│</span>  <span class="c-blue">3.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">DART salary data     </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Culture Fit         </span><span class="c-border">│</span>    <span class="c-yellow">15%</span> <span class="c-border">│</span>  <span class="c-green">4.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Reviews + Exa        </span><span class="c-border">│</span>
+<span class="c-border">├─────────────────────┼────────┼────────┼──────────────────────┤</span>
+<span class="c-border">│</span> <span class="c-output">Total               </span><span class="c-border">│</span>        <span class="c-border">│</span> <span class="c-grade"> 82/100</span> <span class="c-border">│</span> <span class="c-grade">Grade S              </span><span class="c-border">│</span>
+<span class="c-border">└─────────────────────┴────────┴────────┴──────────────────────┘</span>
+
+<span class="c-comment">  Report saved → ./reports/카카오_analysis.md</span></pre>
+        </div>
+      </div>
+
+      <p class="text-center text-sm text-gray-500 dark:text-gray-600 mt-4">
+        8개 데이터 소스 · 15개 결과 · 병렬 수집 · LLM 불필요
+      </p>
+    </div>
+  </section>
+
+  <!-- QUICK START -->
+  <section id="quickstart" class="py-24 px-4 bg-gray-50 dark:bg-[#0d1117]">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">시작하기</h2>
+        <p class="text-gray-500 dark:text-gray-400">세 단계만 거치면 기업 분석 리포트 완성.</p>
+      </div>
+
+      <div class="space-y-6">
+
+        <!-- Step 1 -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">1</div>
+          <div class="flex-1 pb-8 border-b border-gray-200 dark:border-[#21262d] last:border-0">
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">HireKit 설치</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">Python 3.11 이상 필요. pip으로 바로 설치됩니다.</p>
+            <div class="terminal text-sm">
+              <div class="terminal-bar">
+                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
+              </div>
+              <div class="terminal-body py-3">
+<pre><span class="c-comment"># 기본 설치</span>
+<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> hirekit
+
+<span class="c-comment"># LLM 지원 포함 설치 (원하는 것 선택)</span>
+<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[openai]"</span>     <span class="c-comment"># OpenAI</span>
+<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[anthropic]"</span>  <span class="c-comment"># Claude</span>
+<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[ollama]"</span>     <span class="c-comment"># 로컬 모델</span></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">2</div>
+          <div class="flex-1 pb-8 border-b border-gray-200 dark:border-[#21262d] last:border-0">
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">API 키 설정</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">대화형 설정 마법사를 실행하세요. DART + GitHub만으로도 시작할 수 있고, 나머지는 선택 사항입니다.</p>
+            <div class="terminal text-sm">
+              <div class="terminal-bar">
+                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
+              </div>
+              <div class="terminal-body py-3">
+<pre><span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> configure
+
+<span class="c-comment"># ~/.hirekit/config.toml에 저장됩니다</span>
+<span class="c-comment"># 직접 편집도 가능:</span>
+
+<span class="c-output">[sources]</span>
+<span class="c-output">enabled = [<span class="c-string">"dart"</span>, <span class="c-string">"github"</span>, <span class="c-string">"naver_news"</span>]</span>
+
+<span class="c-output">[llm]</span>
+<span class="c-output">provider = <span class="c-string">"none"</span>  <span class="c-comment"># 또는 "openai", "anthropic", "ollama"</span></span></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">3</div>
+          <div class="flex-1">
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">첫 번째 분석 실행</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">국내외 어떤 기업이든 분석 가능. 터미널에서 확인하거나 Markdown으로 저장할 수 있습니다.</p>
+            <div class="terminal text-sm">
+              <div class="terminal-bar">
+                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
+              </div>
+              <div class="terminal-body py-3">
+<pre><span class="c-comment"># 기업 분석</span>
+<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> analyze 카카오
+
+<span class="c-comment"># 채용 공고 매칭</span>
+<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> match <span class="c-flag">--jd</span> job.txt <span class="c-flag">--company</span> kakao
+
+<span class="c-comment"># 면접 준비</span>
+<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> interview 카카오
+
+<span class="c-comment"># 데이터 소스 목록 확인</span>
+<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> sources</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap" class="py-24 px-4">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">로드맵</h2>
+        <p class="text-gray-500 dark:text-gray-400">지금까지 걸어온 길과 앞으로 나아갈 방향.</p>
+      </div>
+
+      <div class="relative pl-8 border-l-2 border-gray-200 dark:border-[#21262d] space-y-10">
+
+        <!-- Phase 1 -->
+        <div class="relative">
+          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-green-500 border-2 border-white dark:border-[#0d1117] flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <div class="flex items-center gap-3 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">Phase 1 — 완료</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">기반 구축</h3>
+          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> DART 전자공시 연동</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> GitHub 기술 성숙도 점수화</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 멀티소스 뉴스 수집</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 5개 차원 가중 스코어카드 (100점 만점)</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 구조화 Markdown 리포트 (12개 섹션)</li>
+          </ul>
+        </div>
+
+        <!-- Phase 2 -->
+        <div class="relative">
+          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-green-500 border-2 border-white dark:border-[#0d1117] flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <div class="flex items-center gap-3 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">Phase 2 — 완료</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">취업 지원 도구 세트</h3>
+          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 스킬 갭 분석 포함 공고 매칭 (<code>hirekit match</code>)</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 기업 맞춤 면접 준비 (<code>hirekit interview</code>)</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 이력서 리뷰 및 점수화 (<code>hirekit resume</code>)</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 맞춤 자기소개서 생성</li>
+          </ul>
+        </div>
+
+        <!-- Phase 3 -->
+        <div class="relative">
+          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-brand-500 border-2 border-white dark:border-[#0d1117] animate-pulse"></div>
+          <div class="flex items-center gap-3 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-400">Phase 3 — 진행 중</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">확장 및 커뮤니티</h3>
+          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
+            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> SEC Edgar 연동으로 미국 기업 지원</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> CLI를 쓰지 않는 사용자를 위한 Web UI</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> 커뮤니티 플러그인 마켓플레이스</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> PyPI 정식 릴리스</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTRIBUTING CTA -->
+  <section class="py-20 px-4 bg-gray-50 dark:bg-[#161b22]">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold dark:text-white mb-4">오픈소스 커뮤니티와 함께 만들어가요</h2>
+      <p class="text-gray-500 dark:text-gray-400 mb-8 max-w-xl mx-auto leading-relaxed">
+        HireKit은 오픈소스입니다. 새로운 데이터 소스 추가, 리포트 템플릿 개선, 다국어 지원 확장 등 어떤 기여든 환영합니다 — 당신의 코드가 모든 취업 준비자에게 도움이 됩니다.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener"
+          class="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold text-sm hover:opacity-90 transition-opacity">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+          GitHub에서 보기
+        </a>
+        <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener"
+          class="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-gray-300 dark:border-[#30363d] text-gray-700 dark:text-gray-300 font-semibold text-sm hover:border-gray-400 dark:hover:border-[#484f58] transition-colors">
+          기여 가이드
+        </a>
+        <a href="https://github.com/zihoshin-dev/hirekit/issues/new?labels=good+first+issue" target="_blank" rel="noopener"
+          class="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-gray-300 dark:border-[#30363d] text-gray-700 dark:text-gray-300 font-semibold text-sm hover:border-gray-400 dark:hover:border-[#484f58] transition-colors">
+          Good First Issues
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-12 px-4 border-t border-gray-200 dark:border-[#21262d]">
+    <div class="max-w-4xl mx-auto">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-2 text-gray-900 dark:text-white font-semibold">
+          <span class="text-xl">🎯</span>
+          <span>HireKit</span>
+        </div>
+        <div class="flex flex-wrap justify-center gap-6 text-sm text-gray-500 dark:text-gray-400">
+          <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a>
+          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">기여하기</a>
+          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">MIT 라이선스</a>
+          <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">PyPI</a>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-xs text-gray-400 dark:text-gray-600">
+        취업·이직을 준비하는 모든 분들을 위해 정성껏 만들었습니다. · MIT 라이선스 오픈소스.
       </div>
     </div>
   </footer>
 
   <script>
-    const root = document.documentElement;
-    const themeToggle = document.getElementById("theme-toggle");
-    const themeGlyph = document.getElementById("theme-glyph");
-    const menuToggle = document.getElementById("menu-toggle");
-    const mobileMenu = document.getElementById("mobile-menu");
-    const copyInstallButton = document.getElementById("copy-install");
-    const revealTargets = document.querySelectorAll(".reveal");
-    const scoreBars = document.querySelectorAll(".score-fill");
+    // ── Dark mode ──────────────────────────────────────────────
+    const html = document.documentElement;
 
-    function applyTheme(theme) {
-      const isLight = theme === "light";
-      root.classList.toggle("light", isLight);
-      themeGlyph.textContent = isLight ? "LT" : "DN";
-      localStorage.setItem("hirekit-theme", theme);
+    // Initialise from localStorage or system preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      html.classList.add('dark');
     }
 
-    const storedTheme = localStorage.getItem("hirekit-theme");
-    const preferredLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-    applyTheme(storedTheme || (preferredLight ? "light" : "dark"));
-
-    themeToggle.addEventListener("click", () => {
-      applyTheme(root.classList.contains("light") ? "dark" : "light");
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      html.classList.toggle('dark');
+      localStorage.theme = html.classList.contains('dark') ? 'dark' : 'light';
     });
 
-    menuToggle.addEventListener("click", () => {
-      mobileMenu.classList.toggle("open");
-    });
+    // ── Copy install command ───────────────────────────────────
+    function copyInstall(el) {
+      navigator.clipboard.writeText('pip install hirekit').then(() => {
+        const icon = el.querySelector('svg');
+        const original = icon.innerHTML;
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />';
+        setTimeout(() => { icon.innerHTML = original; }, 1800);
+      });
+    }
 
-    mobileMenu.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => mobileMenu.classList.remove("open"));
-    });
+    // ── Scroll-triggered fade-in ───────────────────────────────
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
 
-    copyInstallButton.addEventListener("click", async () => {
-      try {
-        await navigator.clipboard.writeText("pip install hirekit");
-        const label = copyInstallButton.querySelector(".button");
-        const original = label.textContent;
-        label.textContent = "Copied";
-        setTimeout(() => {
-          label.textContent = original;
-        }, 1400);
-      } catch (error) {
-        console.error(error);
-      }
-    });
-
-    const revealObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-            revealObserver.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
-    );
-
-    revealTargets.forEach((target, index) => {
-      target.style.transitionDelay = `${(index % 4) * 80}ms`;
-      revealObserver.observe(target);
-    });
-
-    const barObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          const bar = entry.target;
-          bar.style.width = `${bar.dataset.fill}%`;
-          barObserver.unobserve(bar);
-        });
-      },
-      { threshold: 0.4 }
-    );
-
-    scoreBars.forEach((bar) => {
-      barObserver.observe(bar);
+    document.querySelectorAll('.feature-card').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(16px)';
+      el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+      observer.observe(el);
     });
   </script>
+
 </body>
 </html>
