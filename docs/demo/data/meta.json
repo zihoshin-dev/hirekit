@@ -7,20 +7,66 @@
     "industry": "IT/플랫폼",
     "sub_industry": "클라우드",
     "size": "대기업",
-    "tech_stack": ["AWS", "Java", "Python", "Kubernetes", "Terraform", "Go"],
+    "tech_stack": [
+      "AWS",
+      "Java",
+      "Python",
+      "Kubernetes",
+      "Terraform",
+      "Go"
+    ],
     "hiring_active": true,
-    "key_products": ["Amazon EC2", "Amazon S3", "Amazon RDS"],
+    "key_products": [
+      "Amazon EC2",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
     "founded_year": 2013,
     "employee_count": 2000,
     "hq_location": "강남",
     "description": "아마존웹서비스(AWS) 한국 법인으로, 클라우드 컴퓨팅 인프라 및 플랫폼 서비스를 제공합니다. 국내 주요 기업들의 클라우드 전환을 지원하며, 개발자 커뮤니티 활성화에도 적극 투자합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "글로벌 기술 스택 노출, AWS 서비스 전문성"},
-      "growth": {"score": 4.0, "evidence": "글로벌 클라우드 시장 지속 성장"},
-      "compensation": {"score": 4.3, "evidence": "외국계 기준 높은 보상 패키지"},
-      "culture_fit": {"score": 3.8, "evidence": "Leadership Principles 기반 문화"},
-      "career_leverage": {"score": 4.5, "evidence": "글로벌 커리어 레버리지 최상급"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "글로벌 기술 스택 노출, AWS 서비스 전문성"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "글로벌 클라우드 시장 지속 성장"
+      },
+      "compensation": {
+        "score": 4.3,
+        "evidence": "외국계 기준 높은 보상 패키지"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "Leadership Principles 기반 문화"
+      },
+      "career_leverage": {
+        "score": 4.5,
+        "evidence": "글로벌 커리어 레버리지 최상급"
+      }
+    },
+    "vision": "Empower builders to reimagine the world",
+    "business_direction": "국내 클라우드 전환 지원, 생성형 AI(Bedrock/SageMaker) B2B 확대, 스타트업 인큐베이션 강화",
+    "ai_strategy": "Amazon Bedrock 기반 생성형 AI 플랫폼 제공, AWS Trainium/Inferentia AI 칩 공급, 고객사 AI 워크로드 마이그레이션 지원",
+    "corp_name": "아마존웹서비스코리아 유한책임회사",
+    "business_segments": [
+      "클라우드 인프라(IaaS)",
+      "플랫폼 서비스(PaaS)",
+      "생성형 AI 서비스",
+      "데이터 분석",
+      "IoT/엣지 컴퓨팅"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "싱가포르",
+      "유럽",
+      "기타 34개 리전"
+    ],
+    "ceo": "함기호"
   },
   {
     "name": "CJ ENM",
@@ -30,20 +76,66 @@
     "industry": "미디어/엔터",
     "sub_industry": "OTT/방송/콘텐츠",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring", "React", "AWS", "Python", "MySQL"],
+    "tech_stack": [
+      "Java",
+      "Spring",
+      "React",
+      "AWS",
+      "Python",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["티빙", "Mnet", "tvN"],
+    "key_products": [
+      "티빙",
+      "Mnet",
+      "tvN"
+    ],
     "founded_year": 2011,
     "employee_count": 3500,
     "hq_location": "마포",
     "description": "CJ그룹 계열의 종합 미디어·엔터테인먼트 기업으로, 방송·영화·음악·디지털 콘텐츠를 아우릅니다. OTT 플랫폼 티빙을 운영하며 글로벌 K-콘텐츠 확산을 이끌고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "미디어 테크 도메인, Java/Spring 중심"},
-      "growth": {"score": 3.8, "evidence": "티빙 구독자 성장, 글로벌 콘텐츠 확대"},
-      "compensation": {"score": 3.7, "evidence": "대기업 수준 연봉 + 콘텐츠 혜택"},
-      "culture_fit": {"score": 3.6, "evidence": "창의적 콘텐츠 문화"},
-      "career_leverage": {"score": 3.9, "evidence": "미디어 도메인 전문성 확보"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "미디어 테크 도메인, Java/Spring 중심"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "티빙 구독자 성장, 글로벌 콘텐츠 확대"
+      },
+      "compensation": {
+        "score": 3.7,
+        "evidence": "대기업 수준 연봉 + 콘텐츠 혜택"
+      },
+      "culture_fit": {
+        "score": 3.6,
+        "evidence": "창의적 콘텐츠 문화"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "미디어 도메인 전문성 확보"
+      }
+    },
+    "vision": "글로벌 No.1 K-콘텐츠 & 엔터테인먼트 기업",
+    "business_direction": "티빙 구독자 확대 및 파라마운트+ 제휴, K-콘텐츠 글로벌 IP 확장, 음악·공연 신사업",
+    "ai_strategy": "AI 기반 콘텐츠 추천 및 메타데이터 자동화, 티빙 개인화 알고리즘 고도화",
+    "corp_name": "씨제이이엔엠 주식회사",
+    "business_segments": [
+      "방송사업(tvN·OCN)",
+      "OTT(티빙)",
+      "영화사업",
+      "음악사업",
+      "커머스사업",
+      "공연사업"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "동남아시아",
+      "유럽"
+    ],
+    "ceo": "윤상현"
   },
   {
     "name": "CJ올리브영",
@@ -53,20 +145,64 @@
     "industry": "이커머스",
     "sub_industry": "뷰티/헬스 리테일",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "MySQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["올리브영 앱", "올리브영 온라인몰", "오늘드림 배송"],
+    "key_products": [
+      "올리브영 앱",
+      "올리브영 온라인몰",
+      "오늘드림 배송"
+    ],
     "founded_year": 1999,
     "employee_count": 4000,
     "hq_location": "중구",
     "description": "국내 최대 헬스&뷰티 스토어로, 오프라인 1300여 개 매장과 온라인 플랫폼을 통합 운영합니다. O2O 전략을 기반으로 뷰티 테크 기업으로 전환 중이며, 글로벌 역직구 서비스도 확대하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "이커머스 도메인 + 리테일 테크"},
-      "growth": {"score": 4.1, "evidence": "연 매출 4조 돌파, 글로벌 진출 가속"},
-      "compensation": {"score": 3.8, "evidence": "CJ그룹 대기업 연봉 체계"},
-      "culture_fit": {"score": 3.7, "evidence": "뷰티 트렌드 중심 문화"},
-      "career_leverage": {"score": 4.0, "evidence": "O2O·이커머스 경험 가치 높음"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "이커머스 도메인 + 리테일 테크"
+      },
+      "growth": {
+        "score": 4.1,
+        "evidence": "연 매출 4조 돌파, 글로벌 진출 가속"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "CJ그룹 대기업 연봉 체계"
+      },
+      "culture_fit": {
+        "score": 3.7,
+        "evidence": "뷰티 트렌드 중심 문화"
+      },
+      "career_leverage": {
+        "score": 4.0,
+        "evidence": "O2O·이커머스 경험 가치 높음"
+      }
+    },
+    "vision": "뷰티·헬스 라이프스타일 No.1 플랫폼",
+    "business_direction": "글로벌 역직구 서비스 확대, 멤버십 생태계 강화, 뷰티 테크 기업으로 전환",
+    "ai_strategy": "AI 기반 뷰티 개인화 추천, 수요 예측 재고 최적화, 챗봇 고객상담 자동화",
+    "corp_name": "씨제이올리브영 주식회사",
+    "business_segments": [
+      "오프라인 H&B 스토어",
+      "온라인 쇼핑몰(올리브영닷컴)",
+      "글로벌몰(역직구)",
+      "PB상품"
+    ],
+    "global_presence": [
+      "한국",
+      "미국(현지법인 2025)",
+      "일본(진출 준비)",
+      "글로벌 온라인(150개국+)"
+    ],
+    "ceo": "이선정"
   },
   {
     "name": "JYP엔터테인먼트",
@@ -76,20 +212,64 @@
     "industry": "미디어/엔터",
     "sub_industry": "K-POP/아이돌",
     "size": "중견기업",
-    "tech_stack": ["Python", "AWS", "React", "Node.js", "MySQL"],
+    "tech_stack": [
+      "Python",
+      "AWS",
+      "React",
+      "Node.js",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["NEON (팬 플랫폼)", "TWICE", "Stray Kids"],
+    "key_products": [
+      "NEON (팬 플랫폼)",
+      "TWICE",
+      "Stray Kids"
+    ],
     "founded_year": 1997,
     "employee_count": 700,
     "hq_location": "마포",
     "description": "TWICE, Stray Kids, ITZY 등 글로벌 K-POP 아티스트를 보유한 엔터테인먼트 기업입니다. 자체 팬 플랫폼 NEON을 개발하며 테크 역량을 강화하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.5, "evidence": "엔터 도메인 특화, 소규모 개발팀"},
-      "growth": {"score": 3.9, "evidence": "글로벌 K-POP 확산, 팬덤 수익화"},
-      "compensation": {"score": 3.4, "evidence": "중견기업 수준 연봉"},
-      "culture_fit": {"score": 3.8, "evidence": "K-POP 팬이라면 강한 몰입 가능"},
-      "career_leverage": {"score": 3.3, "evidence": "엔터 테크 도메인 희소 경험"}
-    }
+      "job_fit": {
+        "score": 3.5,
+        "evidence": "엔터 도메인 특화, 소규모 개발팀"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "글로벌 K-POP 확산, 팬덤 수익화"
+      },
+      "compensation": {
+        "score": 3.4,
+        "evidence": "중견기업 수준 연봉"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "K-POP 팬이라면 강한 몰입 가능"
+      },
+      "career_leverage": {
+        "score": 3.3,
+        "evidence": "엔터 테크 도메인 희소 경험"
+      }
+    },
+    "vision": "글로벌 K-POP 팬덤 플랫폼 기업",
+    "business_direction": "자체 팬 플랫폼 NEON 고도화, 미국·일본 현지화 사업 확대, 버추얼 아이돌 진출",
+    "ai_strategy": "AI 기반 팬 맞춤 콘텐츠 추천, 아티스트 이미지 생성·분석 활용",
+    "corp_name": "제이와이피엔터테인먼트 주식회사",
+    "business_segments": [
+      "아티스트 매니지먼트",
+      "음반·음원 제작",
+      "공연·콘서트",
+      "MD 및 IP 라이선싱",
+      "글로벌 오디션·육성"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "미국",
+      "중국",
+      "라틴아메리카(2025 진출)"
+    ],
+    "ceo": "정욱"
   },
   {
     "name": "KT",
@@ -99,20 +279,65 @@
     "industry": "통신",
     "sub_industry": "통신/미디어/AI",
     "size": "대기업",
-    "tech_stack": ["Java", "Python", "C++", "Kubernetes", "OpenStack", "AI/ML"],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "C++",
+      "Kubernetes",
+      "OpenStack",
+      "AI/ML"
+    ],
     "hiring_active": true,
-    "key_products": ["KT 5G", "KT 클라우드", "지니TV"],
+    "key_products": [
+      "KT 5G",
+      "KT 클라우드",
+      "지니TV"
+    ],
     "founded_year": 1981,
     "employee_count": 22000,
     "hq_location": "종로",
     "description": "국내 2위 통신사로 5G, IPTV, 클라우드, AI 등 다양한 ICT 사업을 운영합니다. AICT(AI+ICT) 전환을 선언하고 기업 AI 솔루션과 데이터 사업을 강화하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.7, "evidence": "대규모 레거시 + 신기술 혼재"},
-      "growth": {"score": 3.5, "evidence": "통신 시장 성숙, AI 사업 신성장"},
-      "compensation": {"score": 3.8, "evidence": "대기업 공채 연봉 체계"},
-      "culture_fit": {"score": 3.3, "evidence": "대기업 수직적 문화"},
-      "career_leverage": {"score": 3.6, "evidence": "통신 인프라 + AI 전환 경험"}
-    }
+      "job_fit": {
+        "score": 3.7,
+        "evidence": "대규모 레거시 + 신기술 혼재"
+      },
+      "growth": {
+        "score": 3.5,
+        "evidence": "통신 시장 성숙, AI 사업 신성장"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "대기업 공채 연봉 체계"
+      },
+      "culture_fit": {
+        "score": 3.3,
+        "evidence": "대기업 수직적 문화"
+      },
+      "career_leverage": {
+        "score": 3.6,
+        "evidence": "통신 인프라 + AI 전환 경험"
+      }
+    },
+    "vision": "디지코(DIGICO) — 디지털 플랫폼 기업",
+    "business_direction": "AI 데이터센터·클라우드 B2B 확대, AI 에이전트 상용화, AX(AI 전환) 시장 공략",
+    "ai_strategy": "자체 LLM '믿:음 K' 및 MS 협력 'SOTA K' 개발, 기업용 AI 솔루션 KT Cloud AX 제공, AI 데이터센터 인프라 투자 확대",
+    "corp_name": "주식회사 케이티",
+    "business_segments": [
+      "유무선 통신",
+      "기업 B2B/DX",
+      "AI 클라우드",
+      "미디어(KT Skylife·시즌)",
+      "금융(BC카드)",
+      "부동산/에너지"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "동남아시아"
+    ],
+    "ceo": "박윤영"
   },
   {
     "name": "LG CNS",
@@ -122,20 +347,65 @@
     "industry": "IT서비스",
     "sub_industry": "SI/DX 컨설팅",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring", "AWS", "Azure", "Python", "SAP", "Kubernetes"],
+    "tech_stack": [
+      "Java",
+      "Spring",
+      "AWS",
+      "Azure",
+      "Python",
+      "SAP",
+      "Kubernetes"
+    ],
     "hiring_active": true,
-    "key_products": ["DAP (데이터 분석 플랫폼)", "클라우드 마이그레이션 서비스", "스마트팩토리 솔루션"],
+    "key_products": [
+      "DAP (데이터 분석 플랫폼)",
+      "클라우드 마이그레이션 서비스",
+      "스마트팩토리 솔루션"
+    ],
     "founded_year": 1987,
     "employee_count": 8000,
     "hq_location": "마포",
     "description": "LG그룹 IT 계열사로, 디지털 전환(DX) 컨설팅과 클라우드, 금융 IT, 스마트 팩토리 솔루션을 제공합니다. 국내외 대규모 SI 프로젝트를 수행하며 AI·클라우드 역량을 강화 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "다양한 기술 스택, 엔터프라이즈 도메인"},
-      "growth": {"score": 3.7, "evidence": "DX 수요 증가, 클라우드 사업 확장"},
-      "compensation": {"score": 3.9, "evidence": "LG그룹 대기업 연봉 체계"},
-      "culture_fit": {"score": 3.5, "evidence": "SI 특성 상 프로젝트 중심 문화"},
-      "career_leverage": {"score": 3.8, "evidence": "대규모 엔터프라이즈 경험"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "다양한 기술 스택, 엔터프라이즈 도메인"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "DX 수요 증가, 클라우드 사업 확장"
+      },
+      "compensation": {
+        "score": 3.9,
+        "evidence": "LG그룹 대기업 연봉 체계"
+      },
+      "culture_fit": {
+        "score": 3.5,
+        "evidence": "SI 특성 상 프로젝트 중심 문화"
+      },
+      "career_leverage": {
+        "score": 3.8,
+        "evidence": "대규모 엔터프라이즈 경험"
+      }
+    },
+    "vision": "디지털 전환(DX) 선도 IT서비스 기업",
+    "business_direction": "생성형 AI 기반 엔터프라이즈 DX, 클라우드 MSP 확대, 스마트팩토리·물류 IT 솔루션",
+    "ai_strategy": "자체 AI 플랫폼 'DAP' 및 생성형 AI 솔루션 제공, LG그룹사 AI 전환 주도, 산업별 특화 AI 에이전트 개발",
+    "corp_name": "엘지씨엔에스 주식회사",
+    "business_segments": [
+      "AI·클라우드",
+      "IT 컨설팅(Entrue)",
+      "스마트팩토리",
+      "금융 IT",
+      "공공/국방 IT"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "유럽",
+      "동남아시아"
+    ],
+    "ceo": "현신균"
   },
   {
     "name": "SK텔레콤",
@@ -145,20 +415,65 @@
     "industry": "통신",
     "sub_industry": "통신/AI/플랫폼",
     "size": "대기업",
-    "tech_stack": ["Python", "Java", "AI/ML", "Kubernetes", "AWS", "5G Network"],
+    "tech_stack": [
+      "Python",
+      "Java",
+      "AI/ML",
+      "Kubernetes",
+      "AWS",
+      "5G Network"
+    ],
     "hiring_active": true,
-    "key_products": ["에이닷(AI 서비스)", "T world", "Wavve"],
+    "key_products": [
+      "에이닷(AI 서비스)",
+      "T world",
+      "Wavve"
+    ],
     "founded_year": 1984,
     "employee_count": 5500,
     "hq_location": "중구",
     "description": "국내 1위 이동통신사로 5G, AI, 클라우드, 미디어 사업을 전개합니다. AI 컴퍼니 전환을 선언하고 에이닷 AI 서비스와 글로벌 AI 반도체 투자를 확대하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "AI/ML 투자 확대, 기술 스택 고도화"},
-      "growth": {"score": 3.8, "evidence": "AI 컴퍼니 전환, 신사업 확장"},
-      "compensation": {"score": 4.1, "evidence": "통신 대기업 최상위 보상"},
-      "culture_fit": {"score": 3.6, "evidence": "혁신 추구하나 대기업 문화 혼재"},
-      "career_leverage": {"score": 4.0, "evidence": "AI+통신 융합 경험 희소가치"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "AI/ML 투자 확대, 기술 스택 고도화"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "AI 컴퍼니 전환, 신사업 확장"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "통신 대기업 최상위 보상"
+      },
+      "culture_fit": {
+        "score": 3.6,
+        "evidence": "혁신 추구하나 대기업 문화 혼재"
+      },
+      "career_leverage": {
+        "score": 4.0,
+        "evidence": "AI+통신 융합 경험 희소가치"
+      }
+    },
+    "vision": "AI Company — AI 기반 통신·플랫폼 기업",
+    "business_direction": "AI 데이터센터(AIDC) 인프라 확장, 글로벌 AI 파트너십, B2B AX 솔루션 수익화",
+    "ai_strategy": "자체 AI 에이전트 '에이닷(A.)' 서비스, 울산 GPU 클러스터 '해인' 운영, AI 인프라 풀스택 전략, 안트로픽·MS 등 글로벌 파트너십",
+    "corp_name": "에스케이텔레콤 주식회사",
+    "business_segments": [
+      "무선통신",
+      "유선/기업 B2B",
+      "AI 서비스(에이닷)",
+      "미디어(웨이브)",
+      "IoT/플랫폼"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본(타임트리 협력)",
+      "동남아시아",
+      "글로벌 텔코 AI 얼라이언스(8개국)"
+    ],
+    "ceo": "정재헌"
   },
   {
     "name": "SK하이닉스",
@@ -168,20 +483,64 @@
     "industry": "반도체",
     "sub_industry": "메모리 반도체",
     "size": "대기업",
-    "tech_stack": ["C++", "Python", "MATLAB", "장비 제어 SW", "AI/ML", "임베디드"],
+    "tech_stack": [
+      "C++",
+      "Python",
+      "MATLAB",
+      "장비 제어 SW",
+      "AI/ML",
+      "임베디드"
+    ],
     "hiring_active": true,
-    "key_products": ["HBM3E (고대역폭 메모리)", "DDR5 DRAM", "NAND Flash"],
+    "key_products": [
+      "HBM3E (고대역폭 메모리)",
+      "DDR5 DRAM",
+      "NAND Flash"
+    ],
     "founded_year": 1983,
     "employee_count": 30000,
     "hq_location": "이천",
     "description": "세계 2위 메모리 반도체 기업으로, DRAM과 NAND Flash를 설계·생산합니다. AI 시대 핵심 부품인 HBM(고대역폭메모리) 글로벌 1위 공급사로 엔비디아 GPU에 납품하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "반도체 SW 개발, 공정 자동화 수요"},
-      "growth": {"score": 4.5, "evidence": "HBM 수요 폭증, AI 반도체 호황"},
-      "compensation": {"score": 4.3, "evidence": "반도체 업계 최고 수준 연봉+PS"},
-      "culture_fit": {"score": 3.4, "evidence": "제조업 문화, 이천/청주 근무"},
-      "career_leverage": {"score": 4.2, "evidence": "글로벌 반도체 TOP3 경력"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "반도체 SW 개발, 공정 자동화 수요"
+      },
+      "growth": {
+        "score": 4.5,
+        "evidence": "HBM 수요 폭증, AI 반도체 호황"
+      },
+      "compensation": {
+        "score": 4.3,
+        "evidence": "반도체 업계 최고 수준 연봉+PS"
+      },
+      "culture_fit": {
+        "score": 3.4,
+        "evidence": "제조업 문화, 이천/청주 근무"
+      },
+      "career_leverage": {
+        "score": 4.2,
+        "evidence": "글로벌 반도체 TOP3 경력"
+      }
+    },
+    "vision": "AI 메모리 반도체 글로벌 No.1",
+    "business_direction": "HBM(고대역폭메모리) 생산 확대, AI 서버용 메모리 시장 선점, 차세대 HBM4 개발",
+    "ai_strategy": "엔비디아·AMD 등 AI 칩 기업과 HBM 공급 계약, AI 인프라용 NAND·DRAM 포트폴리오 강화, 자사 반도체 설계에 AI 적용",
+    "corp_name": "에스케이하이닉스 주식회사",
+    "business_segments": [
+      "DRAM(HBM 포함)",
+      "NAND 플래시",
+      "솔리드스테이트드라이브(SSD)",
+      "AI 메모리 솔루션"
+    ],
+    "global_presence": [
+      "한국(이천·청주·용인)",
+      "미국",
+      "중국(우시)",
+      "아일랜드",
+      "글로벌 고객사(NVIDIA·엔비디아·MS·구글 등)"
+    ],
+    "ceo": "곽노정"
   },
   {
     "name": "SM엔터테인먼트",
@@ -191,20 +550,64 @@
     "industry": "미디어/엔터",
     "sub_industry": "K-POP/아이돌",
     "size": "중견기업",
-    "tech_stack": ["Python", "React", "Node.js", "AWS", "MySQL"],
+    "tech_stack": [
+      "Python",
+      "React",
+      "Node.js",
+      "AWS",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["버블 (팬 메시지)", "KWANGYA CLUB", "EXO·aespa·NCT"],
+    "key_products": [
+      "버블 (팬 메시지)",
+      "KWANGYA CLUB",
+      "EXO·aespa·NCT"
+    ],
     "founded_year": 1995,
     "employee_count": 1200,
     "hq_location": "성수",
     "description": "K-POP 산업의 선구자로 EXO, aespa, NCT, SHINee 등 글로벌 아티스트를 보유합니다. 버블 등 자체 팬 플랫폼을 운영하며 엔터 테크 기업으로 진화 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.5, "evidence": "팬 플랫폼 개발, 소규모 팀"},
-      "growth": {"score": 3.7, "evidence": "K-POP 글로벌 확산"},
-      "compensation": {"score": 3.4, "evidence": "중견기업 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "K-POP 팬이라면 강한 몰입"},
-      "career_leverage": {"score": 3.3, "evidence": "엔터 도메인 희소 경험"}
-    }
+      "job_fit": {
+        "score": 3.5,
+        "evidence": "팬 플랫폼 개발, 소규모 팀"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "K-POP 글로벌 확산"
+      },
+      "compensation": {
+        "score": 3.4,
+        "evidence": "중견기업 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "K-POP 팬이라면 강한 몰입"
+      },
+      "career_leverage": {
+        "score": 3.3,
+        "evidence": "엔터 도메인 희소 경험"
+      }
+    },
+    "vision": "글로벌 K-POP 엔터테인먼트 No.1",
+    "business_direction": "팬 플랫폼 강화, 버추얼 아이돌·AI 아티스트 사업, 글로벌 레이블 확장",
+    "ai_strategy": "AI 생성 음악·이미지 콘텐츠 제작, AI 아바타 아이돌 'naevis' 사업화, AI 기반 팬 개인화 서비스",
+    "corp_name": "에스엠엔터테인먼트 주식회사",
+    "business_segments": [
+      "아티스트 매니지먼트",
+      "음반·음원 제작",
+      "공연·콘서트",
+      "IP 라이선싱",
+      "디지털 콘텐츠"
+    ],
+    "global_presence": [
+      "한국",
+      "일본(2000억 목표)",
+      "미주(600억 목표)",
+      "동남아시아",
+      "중국"
+    ],
+    "ceo": "장철혁, 탁영준"
   },
   {
     "name": "SSG닷컴",
@@ -214,20 +617,61 @@
     "industry": "이커머스",
     "sub_industry": "종합 이커머스",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "Kafka", "Redis", "MySQL"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "Kafka",
+      "Redis",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["SSG.COM 쇼핑몰", "새벽배송", "쓱배송"],
+    "key_products": [
+      "SSG.COM 쇼핑몰",
+      "새벽배송",
+      "쓱배송"
+    ],
     "founded_year": 2014,
     "employee_count": 1500,
     "hq_location": "강남",
     "description": "신세계그룹의 통합 온라인 쇼핑 플랫폼으로, 이마트·신세계백화점과 연계한 O2O 서비스를 제공합니다. 새벽배송과 쓱배송 물류 혁신을 통해 프리미엄 이커머스 시장을 공략하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "이커머스 백엔드, 대용량 트래픽 경험"},
-      "growth": {"score": 3.7, "evidence": "신세계 그룹 지원, 유통 디지털 전환"},
-      "compensation": {"score": 3.8, "evidence": "대기업 연봉 체계"},
-      "culture_fit": {"score": 3.6, "evidence": "스타트업+대기업 혼합 문화"},
-      "career_leverage": {"score": 3.9, "evidence": "대규모 이커머스 인프라 경험"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "이커머스 백엔드, 대용량 트래픽 경험"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "신세계 그룹 지원, 유통 디지털 전환"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "대기업 연봉 체계"
+      },
+      "culture_fit": {
+        "score": 3.6,
+        "evidence": "스타트업+대기업 혼합 문화"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "대규모 이커머스 인프라 경험"
+      }
+    },
+    "vision": "프리미엄 온·오프라인 통합 이커머스",
+    "business_direction": "신세계그룹 통합 이커머스 강화, 새벽배송·프리미엄 상품 차별화",
+    "ai_strategy": "AI 기반 개인화 추천, 수요 예측 재고 최적화, 챗봇 CS 자동화",
+    "corp_name": "에스에스지닷컴 주식회사",
+    "business_segments": [
+      "온라인 이커머스",
+      "명품/패션/뷰티 버티컬",
+      "쓱배송(신선식품)",
+      "G마켓 연동"
+    ],
+    "global_presence": [
+      "한국"
+    ],
+    "ceo": "최훈학"
   },
   {
     "name": "xAI",
@@ -237,20 +681,61 @@
     "industry": "AI",
     "sub_industry": "생성형 AI/LLM",
     "size": "스타트업",
-    "tech_stack": ["Python", "CUDA", "PyTorch", "Rust", "Kubernetes", "JAX"],
+    "tech_stack": [
+      "Python",
+      "CUDA",
+      "PyTorch",
+      "Rust",
+      "Kubernetes",
+      "JAX"
+    ],
     "hiring_active": true,
-    "key_products": ["Grok AI", "Grok API", "슈퍼컴퓨터 Colossus"],
+    "key_products": [
+      "Grok AI",
+      "Grok API",
+      "슈퍼컴퓨터 Colossus"
+    ],
     "founded_year": 2023,
     "employee_count": 1000,
-    "hq_location": null,
+    "hq_location": "Memphis, Tennessee, USA",
     "description": "일론 머스크가 설립한 AI 연구 기업으로, LLM 모델 Grok을 개발합니다. X(트위터) 플랫폼과 연계한 실시간 데이터 학습이 강점이며, 한국 시장에서 채용을 진행 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 4.5, "evidence": "최첨단 LLM 연구, 글로벌 탑티어 팀"},
-      "growth": {"score": 4.8, "evidence": "AI 산업 폭발적 성장, 빠른 규모 확장"},
-      "compensation": {"score": 4.5, "evidence": "실리콘밸리 수준 보상"},
-      "culture_fit": {"score": 3.5, "evidence": "고강도 문화, 이동속도 매우 빠름"},
-      "career_leverage": {"score": 4.8, "evidence": "LLM 최전선 경험"}
-    }
+      "job_fit": {
+        "score": 4.5,
+        "evidence": "최첨단 LLM 연구, 글로벌 탑티어 팀"
+      },
+      "growth": {
+        "score": 4.8,
+        "evidence": "AI 산업 폭발적 성장, 빠른 규모 확장"
+      },
+      "compensation": {
+        "score": 4.5,
+        "evidence": "실리콘밸리 수준 보상"
+      },
+      "culture_fit": {
+        "score": 3.5,
+        "evidence": "고강도 문화, 이동속도 매우 빠름"
+      },
+      "career_leverage": {
+        "score": 4.8,
+        "evidence": "LLM 최전선 경험"
+      }
+    },
+    "vision": "Understand the true nature of the universe",
+    "business_direction": "Grok AI 어시스턴트 글로벌 확대, X(트위터) AI 통합, AGI 연구 가속화",
+    "ai_strategy": "Grok LLM 시리즈 개발·배포, 실시간 웹 데이터 학습 특화, X 플랫폼 AI 기능 통합",
+    "corp_name": "xAI Corp (한국 법인 없음, 글로벌 채용)",
+    "business_segments": [
+      "AI 모델(Grok)",
+      "API 서비스",
+      "엔터프라이즈 솔루션",
+      "DoD 계약"
+    ],
+    "global_presence": [
+      "미국",
+      "글로벌(X 플랫폼 통해 전세계 배포)"
+    ],
+    "ceo": "Elon Musk"
   },
   {
     "name": "구글코리아",
@@ -260,20 +745,62 @@
     "industry": "IT/플랫폼",
     "sub_industry": "검색/광고/클라우드",
     "size": "대기업",
-    "tech_stack": ["Go", "Python", "Java", "C++", "Kubernetes", "TensorFlow", "GCP"],
+    "tech_stack": [
+      "Go",
+      "Python",
+      "Java",
+      "C++",
+      "Kubernetes",
+      "TensorFlow",
+      "GCP"
+    ],
     "hiring_active": true,
-    "key_products": ["Google Search", "Google Cloud", "YouTube"],
+    "key_products": [
+      "Google Search",
+      "Google Cloud",
+      "YouTube"
+    ],
     "founded_year": 2006,
     "employee_count": 800,
     "hq_location": "강남",
     "description": "구글의 한국 법인으로 검색, 광고, 클라우드, YouTube 등 서비스를 운영합니다. 한국 시장 특화 비즈니스와 구글 글로벌 제품 개발에 참여하는 엔지니어링 포지션을 채용합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.5, "evidence": "세계 최고 수준 기술 환경"},
-      "growth": {"score": 4.2, "evidence": "AI Gemini 투자, 클라우드 성장"},
-      "compensation": {"score": 4.8, "evidence": "한국 시장 최고 수준 보상"},
-      "culture_fit": {"score": 4.0, "evidence": "수평적, 데이터 기반 문화"},
-      "career_leverage": {"score": 4.9, "evidence": "빅테크 커리어 최고 레버리지"}
-    }
+      "job_fit": {
+        "score": 4.5,
+        "evidence": "세계 최고 수준 기술 환경"
+      },
+      "growth": {
+        "score": 4.2,
+        "evidence": "AI Gemini 투자, 클라우드 성장"
+      },
+      "compensation": {
+        "score": 4.8,
+        "evidence": "한국 시장 최고 수준 보상"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "수평적, 데이터 기반 문화"
+      },
+      "career_leverage": {
+        "score": 4.9,
+        "evidence": "빅테크 커리어 최고 레버리지"
+      }
+    },
+    "vision": "Organize the world's information and make it universally accessible",
+    "business_direction": "Gemini AI 한국 서비스 확대, 클라우드(GCP) B2B 성장, 안드로이드·유튜브 생태계 강화",
+    "ai_strategy": "Gemini 모델 한국어 최적화, Google Cloud AI 서비스 공급, 온디바이스 AI(Pixel), 국내 AI 스타트업 파트너십",
+    "corp_name": "구글코리아 유한책임회사",
+    "business_segments": [
+      "검색 광고",
+      "유튜브",
+      "구글 클라우드",
+      "안드로이드/픽셀",
+      "구글 워크스페이스"
+    ],
+    "global_presence": [
+      "전세계 (모회사 Alphabet 기준 200개국+)"
+    ],
+    "ceo": "김경훈"
   },
   {
     "name": "그린랩스",
@@ -283,20 +810,63 @@
     "industry": "애그테크",
     "sub_industry": "농업/식품 플랫폼",
     "size": "스타트업",
-    "tech_stack": ["Python", "React", "Node.js", "AWS", "PostgreSQL", "IoT"],
+    "tech_stack": [
+      "Python",
+      "React",
+      "Node.js",
+      "AWS",
+      "PostgreSQL",
+      "IoT"
+    ],
     "hiring_active": true,
-    "key_products": ["팜모닝 (농업 커뮤니티)", "팜잇 (스마트팜)", "신선하이 (농산물 유통)"],
+    "key_products": [
+      "팜모닝 (농업 커뮤니티)",
+      "팜잇 (스마트팜)",
+      "신선하이 (농산물 유통)"
+    ],
     "founded_year": 2017,
     "employee_count": 350,
     "hq_location": "강남",
     "description": "애그테크(AgTech) 스타트업으로 농업 종사자를 위한 플랫폼 팜모닝과 스마트팜 솔루션을 운영합니다. 농업 디지털 전환을 이끌며 농산물 유통 혁신에 도전하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.7, "evidence": "풀스택 개발, 도메인 특화"},
-      "growth": {"score": 3.8, "evidence": "애그테크 시장 성장, B2B SaaS 확장"},
-      "compensation": {"score": 3.3, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 4.0, "evidence": "미션 중심, 임팩트 지향 문화"},
-      "career_leverage": {"score": 3.5, "evidence": "희소 도메인, 사회적 임팩트"}
-    }
+      "job_fit": {
+        "score": 3.7,
+        "evidence": "풀스택 개발, 도메인 특화"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "애그테크 시장 성장, B2B SaaS 확장"
+      },
+      "compensation": {
+        "score": 3.3,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "미션 중심, 임팩트 지향 문화"
+      },
+      "career_leverage": {
+        "score": 3.5,
+        "evidence": "희소 도메인, 사회적 임팩트"
+      }
+    },
+    "vision": "농업의 디지털 전환을 통한 지속 가능한 식품 시스템 구축",
+    "business_direction": "스마트팜 플랫폼 확장, 농산물 유통 디지털화, 동남아 농업 테크 진출",
+    "ai_strategy": "AI 기반 작물 생육 예측·최적화, 농산물 가격 예측 모델, 드론·IoT 센서 데이터 AI 분석",
+    "corp_name": "주식회사 그린랩스",
+    "business_segments": [
+      "농산물 유통 플랫폼(팜모닝)",
+      "국제 곡물 거래(그레인스캐너)",
+      "스마트팜 솔루션",
+      "농업 데이터 서비스"
+    ],
+    "global_presence": [
+      "한국",
+      "캐나다",
+      "미국",
+      "동남아시아"
+    ],
+    "ceo": "신상훈"
   },
   {
     "name": "네이버",
@@ -306,20 +876,66 @@
     "industry": "IT/플랫폼",
     "sub_industry": "검색/포털/AI",
     "size": "대기업",
-    "tech_stack": ["Java", "Python", "Go", "React", "Kubernetes", "Kafka", "HyperCLOVA"],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "Go",
+      "React",
+      "Kubernetes",
+      "Kafka",
+      "HyperCLOVA"
+    ],
     "hiring_active": true,
-    "key_products": ["네이버 검색", "HyperCLOVA X", "네이버 쇼핑"],
+    "key_products": [
+      "네이버 검색",
+      "HyperCLOVA X",
+      "네이버 쇼핑"
+    ],
     "founded_year": 1999,
     "employee_count": 5000,
     "hq_location": "판교",
     "description": "국내 최대 인터넷 기업으로 검색, 커머스, 금융, 웹툰, 클라우드 등 다양한 서비스를 운영합니다. 자체 LLM HyperCLOVA X를 보유하고 글로벌 AI 기업 도약을 목표로 하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "대규모 트래픽 처리, 다양한 도메인"},
-      "growth": {"score": 4.0, "evidence": "AI 투자 강화, 글로벌 진출 가속"},
-      "compensation": {"score": 4.2, "evidence": "IT 대기업 상위 수준 보상"},
-      "culture_fit": {"score": 3.8, "evidence": "자율+수평 문화, 기술 중심"},
-      "career_leverage": {"score": 4.3, "evidence": "국내 최대 트래픽 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "대규모 트래픽 처리, 다양한 도메인"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "AI 투자 강화, 글로벌 진출 가속"
+      },
+      "compensation": {
+        "score": 4.2,
+        "evidence": "IT 대기업 상위 수준 보상"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "자율+수평 문화, 기술 중심"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "국내 최대 트래픽 경험"
+      }
+    },
+    "vision": "기술 플랫폼으로 세상을 연결하다",
+    "business_direction": "하이퍼클로바X 소버린 AI 고도화, 네이버플러스 멤버십 생태계 확대, 일본(라인·야후재팬) 글로벌 AI 적용",
+    "ai_strategy": "하이퍼클로바X 옴니모달 업그레이드(음성·영상 통합), CLOVA X B2B 확대, HyperCLOVA X SEED 오픈소스 공개, 클로바 스튜디오 B2B 적용, AI 검색·광고 수익화",
+    "corp_name": "네이버 주식회사",
+    "business_segments": [
+      "서치플랫폼(검색·광고)",
+      "커머스",
+      "핀테크(네이버페이)",
+      "콘텐츠(웹툰·바이브)",
+      "클라우드(네이버클라우드)"
+    ],
+    "global_presence": [
+      "한국",
+      "일본(LINE 협력)",
+      "미국(웹툰)",
+      "동남아시아",
+      "유럽(아크로판 등)"
+    ],
+    "ceo": "최수연"
   },
   {
     "name": "네이버웹툰",
@@ -329,20 +945,66 @@
     "industry": "IT/플랫폼",
     "sub_industry": "웹툰/콘텐츠 플랫폼",
     "size": "대기업",
-    "tech_stack": ["Java", "Python", "React", "AWS", "Kafka", "Redis", "MySQL"],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "React",
+      "AWS",
+      "Kafka",
+      "Redis",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["네이버 웹툰", "LINE Manga", "WEBTOON (글로벌)"],
+    "key_products": [
+      "네이버 웹툰",
+      "LINE Manga",
+      "WEBTOON (글로벌)"
+    ],
     "founded_year": 2017,
     "employee_count": 900,
     "hq_location": "판교",
     "description": "네이버의 웹툰 사업 자회사로, 전 세계 1억 명 이상의 MAU를 보유한 글로벌 웹툰 플랫폼을 운영합니다. 미국 나스닥 상장 기업으로 K-웹툰 IP의 글로벌 확산을 주도합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "글로벌 콘텐츠 플랫폼 개발"},
-      "growth": {"score": 4.2, "evidence": "나스닥 상장, 글로벌 MAU 성장"},
-      "compensation": {"score": 4.0, "evidence": "네이버 계열 대기업 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "글로벌 + 콘텐츠 혼합 문화"},
-      "career_leverage": {"score": 4.1, "evidence": "글로벌 콘텐츠 플랫폼 경험"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "글로벌 콘텐츠 플랫폼 개발"
+      },
+      "growth": {
+        "score": 4.2,
+        "evidence": "나스닥 상장, 글로벌 MAU 성장"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "네이버 계열 대기업 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "글로벌 + 콘텐츠 혼합 문화"
+      },
+      "career_leverage": {
+        "score": 4.1,
+        "evidence": "글로벌 콘텐츠 플랫폼 경험"
+      }
+    },
+    "vision": "글로벌 No.1 웹툰·스토리 플랫폼",
+    "business_direction": "미국 나스닥 상장 후 글로벌 작가·IP 확보, 웹툰→드라마·영화 IP 수익화",
+    "ai_strategy": "AI 번역 자동화로 다국어 서비스 속도화, AI 채색·작화 보조 도구 제공, AI 기반 콘텐츠 추천",
+    "corp_name": "네이버웹툰 유한책임회사",
+    "business_segments": [
+      "웹툰 플랫폼(글로벌)",
+      "IP 미디어믹스",
+      "UGC 창작 플랫폼",
+      "웹소설"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "프랑스",
+      "동남아시아",
+      "150개국+"
+    ],
+    "ceo": "김용수"
   },
   {
     "name": "네이버클라우드",
@@ -352,20 +1014,66 @@
     "industry": "IT/플랫폼",
     "sub_industry": "클라우드",
     "size": "대기업",
-    "tech_stack": ["Go", "Java", "Python", "Kubernetes", "OpenStack", "Terraform", "AI/ML"],
+    "tech_stack": [
+      "Go",
+      "Java",
+      "Python",
+      "Kubernetes",
+      "OpenStack",
+      "Terraform",
+      "AI/ML"
+    ],
     "hiring_active": true,
-    "key_products": ["NAVER Cloud Platform", "HyperCLOVA 서비스", "CLOVA AI"],
+    "key_products": [
+      "NAVER Cloud Platform",
+      "HyperCLOVA 서비스",
+      "CLOVA AI"
+    ],
     "founded_year": 2017,
     "employee_count": 1500,
     "hq_location": "판교",
     "description": "네이버의 클라우드 사업 자회사로, 국내 1위 퍼블릭 클라우드 플랫폼을 운영합니다. AI·클라우드를 결합한 B2B 서비스와 공공기관 클라우드 전환 사업을 확대하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "클라우드 인프라 + AI 서비스 개발"},
-      "growth": {"score": 4.0, "evidence": "국내 클라우드 1위, 공공시장 확장"},
-      "compensation": {"score": 4.0, "evidence": "네이버 계열 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "기술 중심 문화"},
-      "career_leverage": {"score": 4.1, "evidence": "클라우드+AI 융합 경험"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "클라우드 인프라 + AI 서비스 개발"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "국내 클라우드 1위, 공공시장 확장"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "네이버 계열 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "기술 중심 문화"
+      },
+      "career_leverage": {
+        "score": 4.1,
+        "evidence": "클라우드+AI 융합 경험"
+      }
+    },
+    "vision": "국내 대표 클라우드·AI 인프라 기업",
+    "business_direction": "B2G(공공) 클라우드 시장 확대, 하이퍼클로바X 기반 AI 서비스형 소프트웨어(SaaS) 제공",
+    "ai_strategy": "하이퍼클로바X API 플랫폼 운영, AI 클라우드 인프라(GPU) 공급, 공공·금융 특화 소버린 AI 서비스",
+    "corp_name": "네이버클라우드 주식회사",
+    "business_segments": [
+      "클라우드 인프라(NCP)",
+      "AI 플랫폼(HyperCLOVA)",
+      "스마트팩토리",
+      "보안 서비스",
+      "공공 클라우드"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "사우디아라비아",
+      "태국",
+      "싱가포르"
+    ],
+    "ceo": "김유원"
   },
   {
     "name": "네이버파이낸셜",
@@ -375,20 +1083,63 @@
     "industry": "핀테크",
     "sub_industry": "간편결제/금융",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "Kafka", "Redis", "MySQL"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "Kafka",
+      "Redis",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["네이버페이", "네이버통장", "네이버증권"],
+    "key_products": [
+      "네이버페이",
+      "네이버통장",
+      "네이버증권"
+    ],
     "founded_year": 2019,
     "employee_count": 1000,
     "hq_location": "판교",
     "description": "네이버의 금융 자회사로, 네이버페이 간편결제와 대출, 보험, 투자 등 종합 금융 서비스를 제공합니다. 네이버 생태계 2000만 사용자를 기반으로 국내 최대 핀테크 플랫폼을 지향합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "결제·금융 도메인, 대규모 트랜잭션"},
-      "growth": {"score": 4.0, "evidence": "간편결제 시장 1위, 금융 확장"},
-      "compensation": {"score": 4.1, "evidence": "네이버 계열 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "핀테크 + 빅테크 문화"},
-      "career_leverage": {"score": 4.2, "evidence": "대규모 결제 시스템 경험"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "결제·금융 도메인, 대규모 트랜잭션"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "간편결제 시장 1위, 금융 확장"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "네이버 계열 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "핀테크 + 빅테크 문화"
+      },
+      "career_leverage": {
+        "score": 4.2,
+        "evidence": "대규모 결제 시스템 경험"
+      }
+    },
+    "vision": "일상 속 금융 혜택을 연결하는 테크핀 플랫폼",
+    "business_direction": "네이버페이 결제·대출 생태계 확대, 네이버쇼핑 연계 금융 서비스 강화",
+    "ai_strategy": "AI 기반 신용평가 고도화, 금융 사기 탐지 AI, 맞춤형 금융 상품 추천",
+    "corp_name": "네이버파이낸셜 주식회사",
+    "business_segments": [
+      "간편결제(네이버페이)",
+      "대출·보험 비교",
+      "SME 금융",
+      "투자 서비스",
+      "포인트 생태계"
+    ],
+    "global_presence": [
+      "한국",
+      "일본(라인페이 연계)"
+    ],
+    "ceo": "박상진"
   },
   {
     "name": "넥슨코리아",
@@ -398,20 +1149,66 @@
     "industry": "게임",
     "sub_industry": "온라인/모바일 게임",
     "size": "대기업",
-    "tech_stack": ["C++", "C#", "Unity", "Unreal Engine", "Python", "AWS", "MySQL"],
+    "tech_stack": [
+      "C++",
+      "C#",
+      "Unity",
+      "Unreal Engine",
+      "Python",
+      "AWS",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["메이플스토리", "던전앤파이터", "피파 온라인 4"],
+    "key_products": [
+      "메이플스토리",
+      "던전앤파이터",
+      "피파 온라인 4"
+    ],
     "founded_year": 1994,
     "employee_count": 4000,
     "hq_location": "판교",
     "description": "국내 최대 게임 기업 중 하나로, 메이플스토리·던전앤파이터 등 장수 IP를 보유합니다. PC 온라인게임부터 모바일, 콘솔까지 다양한 플랫폼에서 글로벌 서비스를 운영합니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "게임 서버/클라이언트 개발"},
-      "growth": {"score": 3.7, "evidence": "글로벌 IP 확장, 메이플스토리 유니버스"},
-      "compensation": {"score": 4.0, "evidence": "게임 대기업 연봉 + 성과급"},
-      "culture_fit": {"score": 3.8, "evidence": "게임 개발자 문화"},
-      "career_leverage": {"score": 3.8, "evidence": "대규모 게임 서버 운영 경험"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "게임 서버/클라이언트 개발"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "글로벌 IP 확장, 메이플스토리 유니버스"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "게임 대기업 연봉 + 성과급"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "게임 개발자 문화"
+      },
+      "career_leverage": {
+        "score": 3.8,
+        "evidence": "대규모 게임 서버 운영 경험"
+      }
+    },
+    "vision": "Fun Spectrum — 다양한 재미의 스펙트럼",
+    "business_direction": "메이플스토리·던전앤파이터 글로벌 IP 확장, 신규 AAA 타이틀 출시, 퍼블리셔 다변화",
+    "ai_strategy": "게임 내 AI NPC 및 생성형 AI 콘텐츠 도입, AI 기반 부정행위 탐지, 개발 생산성 향상 AI 도구 도입",
+    "corp_name": "넥슨코리아 주식회사",
+    "business_segments": [
+      "PC 온라인게임",
+      "모바일 게임",
+      "콘솔 게임",
+      "게임 IP 라이선싱"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "중국",
+      "미국",
+      "유럽",
+      "동남아시아"
+    ],
+    "ceo": "이정헌"
   },
   {
     "name": "넷마블",
@@ -421,20 +1218,66 @@
     "industry": "게임",
     "sub_industry": "모바일/글로벌 게임",
     "size": "대기업",
-    "tech_stack": ["C++", "C#", "Unity", "Unreal Engine", "AWS", "Python", "MySQL"],
+    "tech_stack": [
+      "C++",
+      "C#",
+      "Unity",
+      "Unreal Engine",
+      "AWS",
+      "Python",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["세븐나이츠", "마블 콘테스트 오브 챔피언스", "BTS 드림"],
+    "key_products": [
+      "세븐나이츠",
+      "마블 콘테스트 오브 챔피언스",
+      "BTS 드림"
+    ],
     "founded_year": 2000,
     "employee_count": 7000,
     "hq_location": "구로",
     "description": "국내 3대 게임사 중 하나로 모바일 게임 강자입니다. 글로벌 시장에 적극적으로 진출하여 마블, BTS 등 유명 IP를 활용한 게임을 서비스합니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "모바일 게임 개발, 글로벌 서비스"},
-      "growth": {"score": 3.6, "evidence": "글로벌 시장 확장 중"},
-      "compensation": {"score": 3.9, "evidence": "게임 대기업 연봉"},
-      "culture_fit": {"score": 3.6, "evidence": "대기업화된 게임 문화"},
-      "career_leverage": {"score": 3.7, "evidence": "글로벌 게임 서비스 경험"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "모바일 게임 개발, 글로벌 서비스"
+      },
+      "growth": {
+        "score": 3.6,
+        "evidence": "글로벌 시장 확장 중"
+      },
+      "compensation": {
+        "score": 3.9,
+        "evidence": "게임 대기업 연봉"
+      },
+      "culture_fit": {
+        "score": 3.6,
+        "evidence": "대기업화된 게임 문화"
+      },
+      "career_leverage": {
+        "score": 3.7,
+        "evidence": "글로벌 게임 서비스 경험"
+      }
+    },
+    "vision": "글로벌 모바일 게임 No.1",
+    "business_direction": "포트폴리오 다변화(캐주얼·RPG), 북미·유럽 게임 시장 공략, 엔씨소프트 지분 전략적 활용",
+    "ai_strategy": "AI 기반 게임 개인화 추천, 생성형 AI 게임 콘텐츠 자동화, AI 번역·현지화 효율화",
+    "corp_name": "주식회사 넷마블",
+    "business_segments": [
+      "모바일 게임",
+      "PC·콘솔 게임",
+      "메타버스(이프랜드)",
+      "IP 라이선싱"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "중국",
+      "동남아시아",
+      "유럽"
+    ],
+    "ceo": "김병규"
   },
   {
     "name": "당근",
@@ -444,20 +1287,65 @@
     "industry": "IT/플랫폼",
     "sub_industry": "로컬 커머스/C2C",
     "size": "유니콘",
-    "tech_stack": ["Ruby on Rails", "React", "Go", "Python", "AWS", "PostgreSQL", "Redis"],
+    "tech_stack": [
+      "Ruby on Rails",
+      "React",
+      "Go",
+      "Python",
+      "AWS",
+      "PostgreSQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["당근마켓 (중고거래)", "당근 동네생활", "당근 알바"],
+    "key_products": [
+      "당근마켓 (중고거래)",
+      "당근 동네생활",
+      "당근 알바"
+    ],
     "founded_year": 2015,
     "employee_count": 600,
     "hq_location": "판교",
     "description": "동네 기반 중고거래 플랫폼으로 시작해 지역 커뮤니티 슈퍼앱으로 진화하고 있습니다. MAU 2200만의 국민 앱으로, 동네 광고·구인구직·부동산 등 로컬 생활 전반을 연결합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "프로덕트 중심 개발, 자율적 환경"},
-      "growth": {"score": 4.0, "evidence": "로컬 커머스 수익화, 해외 진출"},
-      "compensation": {"score": 3.9, "evidence": "유니콘 수준 연봉 + 스톡옵션"},
-      "culture_fit": {"score": 4.3, "evidence": "수평적, 프로덕트 중심 문화"},
-      "career_leverage": {"score": 4.1, "evidence": "MAU 2000만+ 프로덕트 경험"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "프로덕트 중심 개발, 자율적 환경"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "로컬 커머스 수익화, 해외 진출"
+      },
+      "compensation": {
+        "score": 3.9,
+        "evidence": "유니콘 수준 연봉 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.3,
+        "evidence": "수평적, 프로덕트 중심 문화"
+      },
+      "career_leverage": {
+        "score": 4.1,
+        "evidence": "MAU 2000만+ 프로덕트 경험"
+      }
+    },
+    "vision": "우리 동네 이웃을 연결하는 로컬 커뮤니티 플랫폼",
+    "business_direction": "하이퍼로컬 서비스 고도화, 당근페이 금융 생태계 확대, 글로벌 로컬 플랫폼 진출(북미·유럽)",
+    "ai_strategy": "AI 상품 등록 자동화(이미지→카테고리·설명 자동 생성), AI 사기 탐지, 당근 온도 기반 대안신용평가, 개인화 피드 추천",
+    "corp_name": "주식회사 당근",
+    "business_segments": [
+      "중고거래 플랫폼",
+      "동네생활 커뮤니티",
+      "지역 구인/구직",
+      "부동산 직거래",
+      "로컬 광고"
+    ],
+    "global_presence": [
+      "한국",
+      "일본(Karrot Japan)",
+      "캐나다",
+      "영국"
+    ],
+    "ceo": "황도연"
   },
   {
     "name": "두나무",
@@ -467,20 +1355,66 @@
     "industry": "핀테크",
     "sub_industry": "가상자산/블록체인",
     "size": "유니콘",
-    "tech_stack": ["Java", "Spring Boot", "React", "Python", "AWS", "MySQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "Python",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["업비트 (가상자산 거래소)", "증권플러스", "람다256 (블록체인)"],
+    "key_products": [
+      "업비트 (가상자산 거래소)",
+      "증권플러스",
+      "람다256 (블록체인)"
+    ],
     "founded_year": 2012,
     "employee_count": 900,
     "hq_location": "강남",
     "description": "국내 1위 가상자산 거래소 업비트를 운영하는 핀테크 기업입니다. 블록체인 자회사 람다256과 증권 플랫폼을 통해 금융 인프라 전반으로 사업을 확장하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "대용량 금융 거래 시스템 개발"},
-      "growth": {"score": 3.8, "evidence": "가상자산 시장 사이클 의존적"},
-      "compensation": {"score": 4.3, "evidence": "업계 최상위 연봉 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "스타트업 성장기 문화"},
-      "career_leverage": {"score": 4.0, "evidence": "초고트래픽 금융 거래 시스템 경험"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "대용량 금융 거래 시스템 개발"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "가상자산 시장 사이클 의존적"
+      },
+      "compensation": {
+        "score": 4.3,
+        "evidence": "업계 최상위 연봉 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "스타트업 성장기 문화"
+      },
+      "career_leverage": {
+        "score": 4.0,
+        "evidence": "초고트래픽 금융 거래 시스템 경험"
+      }
+    },
+    "vision": "블록체인과 AI로 금융의 미래를 개척",
+    "business_direction": "업비트 비즈(법인 전용) 출범, 웹3 인프라 브랜드 '기와(GIWA)' 확장, 네이버와 AI×웹3 협력",
+    "ai_strategy": "내부 ML팀 운영(AAAI 논문 발표), AI 기반 가상자산 시장 분석, 부정거래 탐지 AI 강화",
+    "corp_name": "주식회사 두나무",
+    "business_segments": [
+      "디지털 자산 거래소 (업비트)",
+      "증권 서비스 (증권플러스)",
+      "블록체인 기술",
+      "핀테크 서비스"
+    ],
+    "global_presence": [
+      "한국",
+      "싱가포르",
+      "인도네시아",
+      "태국",
+      "베트남"
+    ],
+    "ceo": "오경석"
   },
   {
     "name": "딥마인드코리아",
@@ -490,20 +1424,62 @@
     "industry": "AI",
     "sub_industry": "AI 연구/생명과학",
     "size": "대기업",
-    "tech_stack": ["Python", "JAX", "TensorFlow", "PyTorch", "Go", "CUDA"],
+    "tech_stack": [
+      "Python",
+      "JAX",
+      "TensorFlow",
+      "PyTorch",
+      "Go",
+      "CUDA"
+    ],
     "hiring_active": false,
-    "key_products": ["AlphaFold", "Gemini (구글 협업)", "AlphaCode"],
+    "key_products": [
+      "AlphaFold",
+      "Gemini (구글 협업)",
+      "AlphaCode"
+    ],
     "founded_year": null,
     "employee_count": null,
     "hq_location": "강남",
     "description": "구글 DeepMind의 한국 리서치 거점으로, 세계 최정상 AI 연구를 수행합니다. AlphaFold로 단백질 구조 예측 혁신을 이룬 연구소로, 한국에서도 AI 연구 인력을 채용합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.8, "evidence": "세계 최고 AI 연구 환경"},
-      "growth": {"score": 4.5, "evidence": "구글 지원, AI 연구 최전선"},
-      "compensation": {"score": 4.8, "evidence": "글로벌 연구소 최상위 보상"},
-      "culture_fit": {"score": 4.0, "evidence": "연구 중심 자율 문화"},
-      "career_leverage": {"score": 5.0, "evidence": "글로벌 AI 연구 최정상 경력"}
-    }
+      "job_fit": {
+        "score": 4.8,
+        "evidence": "세계 최고 AI 연구 환경"
+      },
+      "growth": {
+        "score": 4.5,
+        "evidence": "구글 지원, AI 연구 최전선"
+      },
+      "compensation": {
+        "score": 4.8,
+        "evidence": "글로벌 연구소 최상위 보상"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "연구 중심 자율 문화"
+      },
+      "career_leverage": {
+        "score": 5.0,
+        "evidence": "글로벌 AI 연구 최정상 경력"
+      }
+    },
+    "vision": "Solve intelligence, use it to make the world a better place",
+    "business_direction": "한국 AI 인재 확보 거점, 구글 DeepMind 글로벌 연구 허브 역할",
+    "ai_strategy": "알파폴드·제미니 등 최첨단 AI 연구, 구글코리아와 AI 서비스 통합",
+    "corp_name": "구글 딥마인드 (한국 지사)",
+    "business_segments": [
+      "AI 기초 연구",
+      "응용 AI 솔루션",
+      "산학 협력"
+    ],
+    "global_presence": [
+      "영국 (본사)",
+      "미국",
+      "한국",
+      "캐나다",
+      "프랑스"
+    ]
   },
   {
     "name": "라인플러스",
@@ -513,20 +1489,66 @@
     "industry": "IT/플랫폼",
     "sub_industry": "메신저/글로벌 서비스",
     "size": "대기업",
-    "tech_stack": ["Java", "Go", "Python", "React", "Kubernetes", "Kafka", "MySQL"],
+    "tech_stack": [
+      "Java",
+      "Go",
+      "Python",
+      "React",
+      "Kubernetes",
+      "Kafka",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["LINE 메신저", "LINE Pay", "LINE Manga"],
+    "key_products": [
+      "LINE 메신저",
+      "LINE Pay",
+      "LINE Manga"
+    ],
     "founded_year": 2013,
     "employee_count": 3000,
     "hq_location": "판교",
     "description": "일본·동남아 1위 메신저 LINE의 글로벌 서비스를 개발하는 한국 R&D 센터입니다. 메신저를 넘어 핀테크, 커머스, 콘텐츠 등 슈퍼앱으로 진화하며 글로벌 엔지니어링을 주도합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "글로벌 대규모 시스템 개발"},
-      "growth": {"score": 3.7, "evidence": "LY Corp 합병 후 구조 재편 중"},
-      "compensation": {"score": 4.0, "evidence": "외국계 수준 보상"},
-      "culture_fit": {"score": 3.8, "evidence": "한-일 문화 혼합"},
-      "career_leverage": {"score": 4.2, "evidence": "수억 명 사용자 서비스 경험"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "글로벌 대규모 시스템 개발"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "LY Corp 합병 후 구조 재편 중"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "외국계 수준 보상"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "한-일 문화 혼합"
+      },
+      "career_leverage": {
+        "score": 4.2,
+        "evidence": "수억 명 사용자 서비스 경험"
+      }
+    },
+    "vision": "Closing the distance — 세상의 거리를 좁히다",
+    "business_direction": "일본·동남아 LINE 서비스 고도화, 야후재팬과 통합 시너지, 핀테크(LINE Pay) 확대",
+    "ai_strategy": "LINE 내 AI 어시스턴트 기능 강화, 생성형 AI 기반 스티커·콘텐츠 생성, AI 기반 광고 최적화",
+    "corp_name": "라인플러스 주식회사",
+    "business_segments": [
+      "메신저 플랫폼 (LINE)",
+      "핀테크 (LINE Pay)",
+      "디지털 콘텐츠",
+      "AI 서비스",
+      "광고"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "대만",
+      "태국",
+      "인도네시아"
+    ],
+    "ceo": "이은정"
   },
   {
     "name": "뤼튼",
@@ -536,20 +1558,61 @@
     "industry": "AI",
     "sub_industry": "생성형 AI/AI 어시스턴트",
     "size": "스타트업",
-    "tech_stack": ["Python", "FastAPI", "React", "TypeScript", "AWS", "LLM API", "PostgreSQL"],
+    "tech_stack": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "AWS",
+      "LLM API",
+      "PostgreSQL"
+    ],
     "hiring_active": true,
-    "key_products": ["뤼튼 AI 플랫폼", "AI 스튜디오", "AI 캐릭터 서비스"],
+    "key_products": [
+      "뤼튼 AI 플랫폼",
+      "AI 스튜디오",
+      "AI 캐릭터 서비스"
+    ],
     "founded_year": 2021,
     "employee_count": 150,
     "hq_location": "강남",
     "description": "국내 대표 생성형 AI 플랫폼 기업으로, 다양한 LLM을 통합한 AI 서비스와 B2B AI 솔루션을 제공합니다. MAU 400만의 국내 AI 플랫폼 1위를 목표로 빠르게 성장하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.3, "evidence": "LLM 애플리케이션, 빠른 제품 개발"},
-      "growth": {"score": 4.5, "evidence": "AI 시장 폭발적 성장"},
-      "compensation": {"score": 3.7, "evidence": "스타트업 + 스톡옵션"},
-      "culture_fit": {"score": 4.2, "evidence": "애자일, 속도 중심 문화"},
-      "career_leverage": {"score": 4.3, "evidence": "AI 플랫폼 초기 멤버 경험"}
-    }
+      "job_fit": {
+        "score": 4.3,
+        "evidence": "LLM 애플리케이션, 빠른 제품 개발"
+      },
+      "growth": {
+        "score": 4.5,
+        "evidence": "AI 시장 폭발적 성장"
+      },
+      "compensation": {
+        "score": 3.7,
+        "evidence": "스타트업 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.2,
+        "evidence": "애자일, 속도 중심 문화"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "AI 플랫폼 초기 멤버 경험"
+      }
+    },
+    "vision": "누구나 AI를 자유롭게 활용하는 세상",
+    "business_direction": "B2C AI 플랫폼 MAU 확대, B2B AX(AI 전환) 사업 강화, 교육·공공기관 AI 바우처",
+    "ai_strategy": "멀티 LLM 통합 플랫폼, 뤼튼 AX CIC 운영(기업·학교·공공 AX 전담), AI 에이전트 서비스 확대",
+    "corp_name": "주식회사 뤼튼테크놀로지스",
+    "business_segments": [
+      "AI 플랫폼 (뤼튼)",
+      "AI 캐릭터 서비스 (크랙)",
+      "엔터프라이즈 AI 에이전트 (AX)"
+    ],
+    "global_presence": [
+      "한국",
+      "북미"
+    ],
+    "ceo": "이세영"
   },
   {
     "name": "리디",
@@ -559,20 +1622,65 @@
     "industry": "IT/플랫폼",
     "sub_industry": "전자책/웹소설 플랫폼",
     "size": "중견기업",
-    "tech_stack": ["Kotlin", "Swift", "React", "Python", "AWS", "PostgreSQL", "Redis"],
+    "tech_stack": [
+      "Kotlin",
+      "Swift",
+      "React",
+      "Python",
+      "AWS",
+      "PostgreSQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["리디북스", "리디페이퍼", "리디셀렉트"],
+    "key_products": [
+      "리디북스",
+      "리디페이퍼",
+      "리디셀렉트"
+    ],
     "founded_year": 2009,
     "employee_count": 500,
     "hq_location": "마포",
     "description": "국내 최대 전자책·웹소설 플랫폼으로, B2C 독서 서비스와 전자 기기 리디페이퍼를 운영합니다. 콘텐츠 IP 비즈니스와 글로벌 웹소설 시장 진출을 추진 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.8, "evidence": "모바일 앱 + 플랫폼 개발"},
-      "growth": {"score": 3.6, "evidence": "웹소설 시장 성장, 글로벌 진출"},
-      "compensation": {"score": 3.6, "evidence": "중견 IT 기업 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "독서·콘텐츠 좋아하면 몰입"},
-      "career_leverage": {"score": 3.6, "evidence": "콘텐츠 플랫폼 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.8,
+        "evidence": "모바일 앱 + 플랫폼 개발"
+      },
+      "growth": {
+        "score": 3.6,
+        "evidence": "웹소설 시장 성장, 글로벌 진출"
+      },
+      "compensation": {
+        "score": 3.6,
+        "evidence": "중견 IT 기업 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "독서·콘텐츠 좋아하면 몰입"
+      },
+      "career_leverage": {
+        "score": 3.6,
+        "evidence": "콘텐츠 플랫폼 도메인 경험"
+      }
+    },
+    "vision": "콘텐츠로 삶을 풍요롭게",
+    "business_direction": "웹툰·웹소설 글로벌 확장, 리디셀렉트 구독 서비스 강화, IP 기반 2차 창작물 수익화",
+    "ai_strategy": "AI 번역·현지화 자동화, AI 기반 콘텐츠 추천 고도화, 불법 복제 탐지 AI",
+    "corp_name": "주식회사 리디",
+    "business_segments": [
+      "전자책",
+      "웹소설",
+      "웹툰",
+      "구독 서비스 (리디셀렉트)",
+      "글로벌 숏드라마 (칸타)"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "북미",
+      "동남아시아"
+    ],
+    "ceo": "배기식"
   },
   {
     "name": "리벨리온",
@@ -582,20 +1690,59 @@
     "industry": "반도체",
     "sub_industry": "AI 반도체/NPU",
     "size": "스타트업",
-    "tech_stack": ["C++", "Python", "CUDA", "MLIR", "PyTorch", "Verilog/VHDL"],
+    "tech_stack": [
+      "C++",
+      "Python",
+      "CUDA",
+      "MLIR",
+      "PyTorch",
+      "Verilog/VHDL"
+    ],
     "hiring_active": true,
-    "key_products": ["ATOM (AI 추론 칩)", "REBEL (차세대 AI 가속기)"],
+    "key_products": [
+      "ATOM (AI 추론 칩)",
+      "REBEL (차세대 AI 가속기)"
+    ],
     "founded_year": 2020,
     "employee_count": 300,
     "hq_location": "판교",
     "description": "국내 대표 AI 반도체 스타트업으로, 데이터센터용 AI 추론 가속기 ATOM을 개발합니다. 퓨리오사AI와 함께 한국 AI 칩 산업을 대표하며, 카카오 등으로부터 투자를 유치했습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.5, "evidence": "AI 반도체 설계/SW 최첨단"},
-      "growth": {"score": 4.5, "evidence": "AI 인프라 수요 폭발, 반도체 호황"},
-      "compensation": {"score": 4.0, "evidence": "스타트업 + 스톡옵션"},
-      "culture_fit": {"score": 4.0, "evidence": "딥테크 연구 중심 문화"},
-      "career_leverage": {"score": 4.8, "evidence": "NPU/AI 칩 설계 희소 경험"}
-    }
+      "job_fit": {
+        "score": 4.5,
+        "evidence": "AI 반도체 설계/SW 최첨단"
+      },
+      "growth": {
+        "score": 4.5,
+        "evidence": "AI 인프라 수요 폭발, 반도체 호황"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "스타트업 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "딥테크 연구 중심 문화"
+      },
+      "career_leverage": {
+        "score": 4.8,
+        "evidence": "NPU/AI 칩 설계 희소 경험"
+      }
+    },
+    "vision": "AI 가속기 칩으로 데이터센터의 미래를 혁신",
+    "business_direction": "AI 칩 ATOM 시리즈 양산 및 글로벌 공급, 국내외 데이터센터향 NPU 시장 확대, IPO 추진",
+    "ai_strategy": "데이터센터용 AI 가속기 'ATOM' 개발, 글로벌 빅테크 공급 계약 추진, 시리즈 C 3500억 유치로 기업가치 2조 달성",
+    "corp_name": "주식회사 리벨리온",
+    "business_segments": [
+      "AI 반도체 (NPU)",
+      "AI 소프트웨어 스택",
+      "클라우드 AI 인프라"
+    ],
+    "global_presence": [
+      "한국",
+      "미국"
+    ],
+    "ceo": "박성현"
   },
   {
     "name": "리턴제로",
@@ -605,20 +1752,58 @@
     "industry": "AI",
     "sub_industry": "음성인식/AI 통화",
     "size": "스타트업",
-    "tech_stack": ["Python", "PyTorch", "FastAPI", "React", "AWS", "C++"],
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "FastAPI",
+      "React",
+      "AWS",
+      "C++"
+    ],
     "hiring_active": true,
-    "key_products": ["VITO (AI 통화 녹음·요약)", "클로바노트 경쟁사"],
+    "key_products": [
+      "VITO (AI 통화 녹음·요약)",
+      "클로바노트 경쟁사"
+    ],
     "founded_year": 2019,
     "employee_count": 100,
     "hq_location": "강남",
     "description": "AI 음성인식 기반 통화 녹음·요약 서비스 VITO를 운영하는 스타트업입니다. 국내 최고 수준의 한국어 STT(음성→텍스트) 기술을 보유하고 B2B로 사업을 확장하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "STT/NLP AI 연구 + 제품 개발"},
-      "growth": {"score": 3.9, "evidence": "AI 음성 B2B 시장 성장"},
-      "compensation": {"score": 3.5, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 4.1, "evidence": "소규모 AI 연구 문화"},
-      "career_leverage": {"score": 4.3, "evidence": "한국어 STT 기술 최전선"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "STT/NLP AI 연구 + 제품 개발"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "AI 음성 B2B 시장 성장"
+      },
+      "compensation": {
+        "score": 3.5,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 4.1,
+        "evidence": "소규모 AI 연구 문화"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "한국어 STT 기술 최전선"
+      }
+    },
+    "vision": "음성 AI로 소통의 장벽을 없애다",
+    "business_direction": "VITO(AI 통화 녹음·요약) 서비스 사용자 확대, B2B 음성 AI API 공급",
+    "ai_strategy": "자체 음성 인식·화자 분리 AI 엔진 개발, AI 통화 요약·번역 서비스, 기업용 STT/TTS 솔루션 제공",
+    "corp_name": "주식회사 리턴제로",
+    "business_segments": [
+      "AI 음성인식 (STT)",
+      "AI 회의록 서비스 (비토)",
+      "기업용 음성 AI 에이전트"
+    ],
+    "global_presence": [
+      "한국"
+    ],
+    "ceo": "이참솔"
   },
   {
     "name": "마이리얼트립",
@@ -628,20 +1813,65 @@
     "industry": "여행/OTA",
     "sub_industry": "여행 플랫폼",
     "size": "스타트업",
-    "tech_stack": ["Python", "Django", "React", "AWS", "PostgreSQL", "Redis"],
+    "tech_stack": [
+      "Python",
+      "Django",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["마이리얼트립 (여행 상품)", "항공권", "호텔 예약"],
+    "key_products": [
+      "마이리얼트립 (여행 상품)",
+      "항공권",
+      "호텔 예약"
+    ],
     "founded_year": 2012,
     "employee_count": 400,
     "hq_location": "강남",
     "description": "여행 액티비티·투어·항공·호텔 예약 플랫폼으로, 개인 여행자를 위한 큐레이션 여행 서비스를 제공합니다. 코로나 이후 해외여행 회복으로 재성장 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.7, "evidence": "여행 플랫폼 개발, Python 중심"},
-      "growth": {"score": 3.7, "evidence": "여행 수요 회복, 플랫폼 확장"},
-      "compensation": {"score": 3.4, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "여행 좋아하면 몰입 가능"},
-      "career_leverage": {"score": 3.5, "evidence": "OTA 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.7,
+        "evidence": "여행 플랫폼 개발, Python 중심"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "여행 수요 회복, 플랫폼 확장"
+      },
+      "compensation": {
+        "score": 3.4,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "여행 좋아하면 몰입 가능"
+      },
+      "career_leverage": {
+        "score": 3.5,
+        "evidence": "OTA 도메인 경험"
+      }
+    },
+    "vision": "여행자의 가장 솔직한 여행 파트너",
+    "business_direction": "자유여행 콘텐츠·상품 확대, 글로벌 여행 재개 수혜, 항공·호텔 통합 예약 플랫폼화",
+    "ai_strategy": "AI 기반 여행 일정 추천, 여행 상품 개인화, 다국어 AI 번역 서비스",
+    "corp_name": "주식회사 마이리얼트립",
+    "business_segments": [
+      "항공권",
+      "숙소",
+      "투어·액티비티",
+      "렌터카",
+      "여행 플래닝"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "동남아시아",
+      "유럽",
+      "북미"
+    ],
+    "ceo": "이동건"
   },
   {
     "name": "마키나락스",
@@ -651,20 +1881,61 @@
     "industry": "AI",
     "sub_industry": "산업 AI/제조 AI",
     "size": "스타트업",
-    "tech_stack": ["Python", "PyTorch", "TensorFlow", "Kubernetes", "AWS", "C++"],
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Kubernetes",
+      "AWS",
+      "C++"
+    ],
     "hiring_active": true,
-    "key_products": ["제조 AI 솔루션", "설비 이상탐지 AI", "공정 최적화 AI"],
+    "key_products": [
+      "제조 AI 솔루션",
+      "설비 이상탐지 AI",
+      "공정 최적화 AI"
+    ],
     "founded_year": 2017,
     "employee_count": 150,
     "hq_location": "판교",
     "description": "제조·산업 분야 AI 솔루션 전문 기업으로, 설비 이상탐지와 품질 검사 자동화를 위한 머신러닝 솔루션을 개발합니다. 국내 주요 제조 대기업에 AI 도입을 지원하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "산업 AI, MLOps 실전 경험"},
-      "growth": {"score": 3.8, "evidence": "제조 AI 수요 증가"},
-      "compensation": {"score": 3.5, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "연구+엔지니어링 균형 문화"},
-      "career_leverage": {"score": 4.1, "evidence": "산업 AI 희소 도메인"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "산업 AI, MLOps 실전 경험"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "제조 AI 수요 증가"
+      },
+      "compensation": {
+        "score": 3.5,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "연구+엔지니어링 균형 문화"
+      },
+      "career_leverage": {
+        "score": 4.1,
+        "evidence": "산업 AI 희소 도메인"
+      }
+    },
+    "vision": "산업용 AI로 제조업의 디지털 전환을 이끌다",
+    "business_direction": "항공·방산·중공업 AI 솔루션 확대, 글로벌 B2B 진출, 산업 특화 AI 에이전트 개발",
+    "ai_strategy": "산업용 AI(예측 유지보수, 이상 탐지, 공정 최적화), 자체 MLOps 플랫폼, 제조업 특화 LLM 개발",
+    "corp_name": "주식회사 마키나락스",
+    "business_segments": [
+      "산업용 AI 플랫폼 (런웨이)",
+      "제조 AI 솔루션",
+      "AI 에이전트",
+      "데이터 분석"
+    ],
+    "global_presence": [
+      "한국",
+      "미국 (실리콘밸리)"
+    ],
+    "ceo": "윤성호"
   },
   {
     "name": "메이크스타",
@@ -674,20 +1945,63 @@
     "industry": "미디어/엔터",
     "sub_industry": "K-POP 팬덤 플랫폼",
     "size": "스타트업",
-    "tech_stack": ["Python", "React", "Node.js", "AWS", "MySQL"],
+    "tech_stack": [
+      "Python",
+      "React",
+      "Node.js",
+      "AWS",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["메이크스타 (K-POP 크라우드펀딩)", "글로벌 팬 플랫폼"],
+    "key_products": [
+      "메이크스타 (K-POP 크라우드펀딩)",
+      "글로벌 팬 플랫폼"
+    ],
     "founded_year": 2015,
     "employee_count": 80,
     "hq_location": "강남",
     "description": "K-POP 아티스트와 글로벌 팬을 연결하는 플랫폼으로, 팬 크라우드펀딩과 팬미팅 등 독점 콘텐츠를 제공합니다. 전 세계 120개국 팬을 연결하는 글로벌 K-POP 플랫폼입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.4, "evidence": "소규모 풀스택 개발"},
-      "growth": {"score": 3.6, "evidence": "K-POP 글로벌 확산"},
-      "compensation": {"score": 3.1, "evidence": "소규모 스타트업"},
-      "culture_fit": {"score": 3.9, "evidence": "K-POP 팬이라면 강한 동기"},
-      "career_leverage": {"score": 3.3, "evidence": "글로벌 팬덤 플랫폼 경험"}
-    }
+      "job_fit": {
+        "score": 3.4,
+        "evidence": "소규모 풀스택 개발"
+      },
+      "growth": {
+        "score": 3.6,
+        "evidence": "K-POP 글로벌 확산"
+      },
+      "compensation": {
+        "score": 3.1,
+        "evidence": "소규모 스타트업"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "K-POP 팬이라면 강한 동기"
+      },
+      "career_leverage": {
+        "score": 3.3,
+        "evidence": "글로벌 팬덤 플랫폼 경험"
+      }
+    },
+    "vision": "K-POP 팬과 아티스트를 직접 연결하는 글로벌 플랫폼",
+    "business_direction": "K-POP 크라우드펀딩·팬 커머스 글로벌 확장, IP 수익화 다변화",
+    "ai_strategy": "AI 기반 팬 맞춤 콘텐츠 추천, 글로벌 팬 트렌드 분석",
+    "corp_name": "주식회사 메이크스타",
+    "business_segments": [
+      "K-POP 크라우드펀딩",
+      "팬덤 커머스",
+      "아티스트 MD/굿즈",
+      "글로벌 팬 플랫폼"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "동남아시아",
+      "유럽",
+      "전 세계 235개국"
+    ],
+    "ceo": "김재면"
   },
   {
     "name": "메타코리아",
@@ -697,20 +2011,62 @@
     "industry": "IT/플랫폼",
     "sub_industry": "소셜미디어/AR-VR",
     "size": "대기업",
-    "tech_stack": ["Python", "C++", "React", "Hack", "PyTorch", "iOS/Android"],
+    "tech_stack": [
+      "Python",
+      "C++",
+      "React",
+      "Hack",
+      "PyTorch",
+      "iOS/Android"
+    ],
     "hiring_active": true,
-    "key_products": ["Facebook", "Instagram", "WhatsApp", "Meta Quest"],
+    "key_products": [
+      "Facebook",
+      "Instagram",
+      "WhatsApp",
+      "Meta Quest"
+    ],
     "founded_year": 2012,
     "employee_count": 300,
     "hq_location": "강남",
     "description": "메타(구 페이스북)의 한국 법인으로, 국내 광고·파트너십·정책 업무를 담당합니다. 한국 엔지니어링 채용을 통해 글로벌 메타 제품 개발에 기여하는 포지션도 운영합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.3, "evidence": "글로벌 빅테크 기술 환경"},
-      "growth": {"score": 3.9, "evidence": "AI+AR/VR 투자, Reality Labs"},
-      "compensation": {"score": 4.7, "evidence": "빅테크 최상위 보상"},
-      "culture_fit": {"score": 3.9, "evidence": "데이터 기반, 수평적 문화"},
-      "career_leverage": {"score": 4.8, "evidence": "글로벌 빅테크 경력"}
-    }
+      "job_fit": {
+        "score": 4.3,
+        "evidence": "글로벌 빅테크 기술 환경"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "AI+AR/VR 투자, Reality Labs"
+      },
+      "compensation": {
+        "score": 4.7,
+        "evidence": "빅테크 최상위 보상"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "데이터 기반, 수평적 문화"
+      },
+      "career_leverage": {
+        "score": 4.8,
+        "evidence": "글로벌 빅테크 경력"
+      }
+    },
+    "vision": "Connect the world — 사람들을 연결하고 커뮤니티를 구축",
+    "business_direction": "메타 AI 한국어 서비스 확대, 인스타그램·왓츠앱 AI 기능 통합, AR/VR 메타버스 장기 투자",
+    "ai_strategy": "Llama 오픈소스 LLM 공개, 메타 AI 어시스턴트 한국어 지원, AI 광고 최적화, 온디바이스 AI 연구",
+    "corp_name": "메타플랫폼스코리아 유한책임회사",
+    "business_segments": [
+      "소셜 미디어 (Facebook, Instagram, Threads)",
+      "메시징 (WhatsApp, Messenger)",
+      "VR/AR 하드웨어 (Quest, Ray-Ban Meta)",
+      "광고 플랫폼"
+    ],
+    "global_presence": [
+      "전 세계 (글로벌)",
+      "한국 포함 아시아태평양"
+    ],
+    "ceo": "옥재윤"
   },
   {
     "name": "무신사",
@@ -720,20 +2076,64 @@
     "industry": "이커머스",
     "sub_industry": "패션 이커머스",
     "size": "유니콘",
-    "tech_stack": ["Java", "Spring Boot", "React", "Python", "AWS", "MySQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "Python",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["무신사 스토어", "솔드아웃", "무신사 스탠다드"],
+    "key_products": [
+      "무신사 스토어",
+      "솔드아웃",
+      "무신사 스탠다드"
+    ],
     "founded_year": 2001,
     "employee_count": 1500,
     "hq_location": "성수",
     "description": "국내 최대 패션 이커머스 플랫폼으로 스트리트 패션과 MZ세대를 타겟으로 성장했습니다. 기업가치 3.5조의 유니콘으로, 솔드아웃(리셀) 등 패션 전반으로 사업을 확장하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "이커머스 백엔드, 패션 도메인"},
-      "growth": {"score": 4.0, "evidence": "패션 시장 1위, 글로벌 진출"},
-      "compensation": {"score": 3.9, "evidence": "유니콘 수준 + 스톡옵션"},
-      "culture_fit": {"score": 4.0, "evidence": "패션·문화 중심, 수평적"},
-      "career_leverage": {"score": 3.9, "evidence": "버티컬 이커머스 1위 경험"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "이커머스 백엔드, 패션 도메인"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "패션 시장 1위, 글로벌 진출"
+      },
+      "compensation": {
+        "score": 3.9,
+        "evidence": "유니콘 수준 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "패션·문화 중심, 수평적"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "버티컬 이커머스 1위 경험"
+      }
+    },
+    "vision": "패션을 사랑하는 모든 이를 위한 글로벌 패션 플랫폼",
+    "business_direction": "글로벌(일본·미국) 확장, 무신사스탠다드 PB 확대, 오프라인 스토어 확대",
+    "ai_strategy": "AI 기반 패션 스타일 추천, 가상 피팅 AI, 트렌드 예측 AI, 물류 수요 예측 최적화",
+    "corp_name": "주식회사 무신사",
+    "business_segments": [
+      "온라인 패션 플랫폼",
+      "오프라인 편집숍 (무신사 스탠다드)",
+      "브랜드 인큐베이팅",
+      "솔드아웃 (한정판 리셀)"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "미국"
+    ],
+    "ceo": "조만호, 박준모 (공동대표)"
   },
   {
     "name": "밀리의서재",
@@ -743,20 +2143,59 @@
     "industry": "IT/플랫폼",
     "sub_industry": "전자책/오디오북 구독",
     "size": "스타트업",
-    "tech_stack": ["Python", "React", "Node.js", "AWS", "MySQL", "Redis"],
+    "tech_stack": [
+      "Python",
+      "React",
+      "Node.js",
+      "AWS",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["밀리의서재 (전자책 구독)", "오디오북", "AI 추천"],
+    "key_products": [
+      "밀리의서재 (전자책 구독)",
+      "오디오북",
+      "AI 추천"
+    ],
     "founded_year": 2016,
     "employee_count": 200,
     "hq_location": "강남",
     "description": "월정액 전자책·오디오북 구독 서비스로, 12만권 이상의 콘텐츠를 제공합니다. KT의 자회사로 편입되어 통신 플랫폼과 연계한 구독 확대를 추진하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.6, "evidence": "구독 플랫폼, 콘텐츠 도메인"},
-      "growth": {"score": 3.5, "evidence": "전자책 시장 성장, KT 지원"},
-      "compensation": {"score": 3.4, "evidence": "중소 스타트업 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "독서 좋아하면 몰입"},
-      "career_leverage": {"score": 3.4, "evidence": "구독 서비스 도메인"}
-    }
+      "job_fit": {
+        "score": 3.6,
+        "evidence": "구독 플랫폼, 콘텐츠 도메인"
+      },
+      "growth": {
+        "score": 3.5,
+        "evidence": "전자책 시장 성장, KT 지원"
+      },
+      "compensation": {
+        "score": 3.4,
+        "evidence": "중소 스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "독서 좋아하면 몰입"
+      },
+      "career_leverage": {
+        "score": 3.4,
+        "evidence": "구독 서비스 도메인"
+      }
+    },
+    "vision": "독서를 일상의 습관으로",
+    "business_direction": "구독 독서 플랫폼 확대, AI 독서 어시스턴트 서비스, 오디오북 강화",
+    "ai_strategy": "AI 독서 요약·추천 서비스, AI 오디오북 TTS, 독서 패턴 기반 개인화 추천",
+    "corp_name": "주식회사 밀리의서재",
+    "business_segments": [
+      "전자책·오디오북 구독",
+      "AI 독서 서비스",
+      "독서 커뮤니티"
+    ],
+    "global_presence": [
+      "한국"
+    ],
+    "ceo": "박현진"
   },
   {
     "name": "뱅크샐러드",
@@ -766,20 +2205,62 @@
     "industry": "핀테크",
     "sub_industry": "마이데이터/자산관리",
     "size": "스타트업",
-    "tech_stack": ["Python", "Go", "React", "AWS", "PostgreSQL", "Kafka", "gRPC"],
+    "tech_stack": [
+      "Python",
+      "Go",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "Kafka",
+      "gRPC"
+    ],
     "hiring_active": true,
-    "key_products": ["뱅크샐러드 (마이데이터)", "자산분석", "맞춤 금융상품 추천"],
+    "key_products": [
+      "뱅크샐러드 (마이데이터)",
+      "자산분석",
+      "맞춤 금융상품 추천"
+    ],
     "founded_year": 2012,
     "employee_count": 350,
     "hq_location": "강남",
     "description": "국내 대표 마이데이터 플랫폼으로 자산·대출·보험을 한 곳에서 관리하는 서비스를 제공합니다. 데이터 기반 금융 혁신을 추구하며 API 공개와 오픈소스 기여로 개발 문화가 우수합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "마이데이터 + 핀테크, Go/Python"},
-      "growth": {"score": 3.8, "evidence": "마이데이터 시장 성장"},
-      "compensation": {"score": 3.8, "evidence": "핀테크 스타트업 수준"},
-      "culture_fit": {"score": 4.2, "evidence": "개발자 친화, 오픈소스 문화"},
-      "career_leverage": {"score": 4.0, "evidence": "마이데이터 + 핀테크 도메인"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "마이데이터 + 핀테크, Go/Python"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "마이데이터 시장 성장"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "핀테크 스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 4.2,
+        "evidence": "개발자 친화, 오픈소스 문화"
+      },
+      "career_leverage": {
+        "score": 4.0,
+        "evidence": "마이데이터 + 핀테크 도메인"
+      }
+    },
+    "vision": "나만의 AI 금융 비서",
+    "business_direction": "마이데이터 기반 종합 금융 관리 서비스, AI 기반 자산관리 고도화, B2B 금융 데이터 공급",
+    "ai_strategy": "AI 개인 자산관리 어드바이저, 마이데이터 AI 분석, 지출 패턴 예측 및 절약 추천, 대안신용평가 AI",
+    "corp_name": "주식회사 뱅크샐러드",
+    "business_segments": [
+      "자산관리 (마이데이터)",
+      "보험 분석",
+      "대출 비교",
+      "건강 자산관리",
+      "AI 금융 에이전트"
+    ],
+    "global_presence": [
+      "한국"
+    ],
+    "ceo": "김태훈"
   },
   {
     "name": "버킷플레이스",
@@ -789,43 +2270,63 @@
     "industry": "IT/플랫폼",
     "sub_industry": "홈인테리어/라이프스타일",
     "size": "유니콘",
-    "tech_stack": ["Ruby on Rails", "React", "Python", "AWS", "PostgreSQL", "Redis", "Elasticsearch"],
+    "tech_stack": [
+      "Ruby on Rails",
+      "React",
+      "Python",
+      "AWS",
+      "PostgreSQL",
+      "Redis",
+      "Elasticsearch"
+    ],
     "hiring_active": true,
-    "key_products": ["오늘의집 (인테리어 플랫폼)", "오늘의집 스토어", "시공 서비스"],
+    "key_products": [
+      "오늘의집 (인테리어 플랫폼)",
+      "오늘의집 스토어",
+      "시공 서비스"
+    ],
     "founded_year": 2014,
     "employee_count": 800,
     "hq_location": "강남",
     "description": "국내 1위 홈인테리어 플랫폼 '오늘의집'을 운영하는 유니콘 기업입니다. UGC 기반 인테리어 커뮤니티와 가구·소품 이커머스, 인테리어 시공 서비스를 통합한 라이프스타일 슈퍼앱을 지향합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "커뮤니티 + 이커머스 복합 개발"},
-      "growth": {"score": 4.0, "evidence": "인테리어 시장 성장, 해외 진출"},
-      "compensation": {"score": 4.0, "evidence": "유니콘 수준 + 스톡옵션"},
-      "culture_fit": {"score": 4.1, "evidence": "프로덕트 중심, 수평 문화"},
-      "career_leverage": {"score": 4.0, "evidence": "UGC+커머스 복합 플랫폼 경험"}
-    }
-  },
-  {
-    "name": "비바리퍼블리카",
-    "sources": 10,
-    "score": 76.0,
-    "grade": "A",
-    "industry": "핀테크",
-    "sub_industry": "슈퍼앱/간편금융",
-    "size": "유니콘",
-    "tech_stack": ["Java", "Kotlin", "Swift", "React", "AWS", "MySQL", "Redis", "Kafka"],
-    "hiring_active": true,
-    "key_products": ["토스 앱", "토스뱅크", "토스페이먼츠"],
-    "founded_year": 2013,
-    "employee_count": 5000,
-    "hq_location": "강남",
-    "description": "토스를 운영하는 핀테크 유니콘으로, 간편송금에서 시작해 은행·증권·보험·결제를 아우르는 금융 슈퍼앱으로 성장했습니다. 기업가치 약 10조의 국내 최대 핀테크 기업입니다.",
-    "scorecard": {
-      "job_fit": {"score": 4.3, "evidence": "금융 도메인 + 높은 기술 수준"},
-      "growth": {"score": 4.2, "evidence": "금융 슈퍼앱 확장, 해외 진출"},
-      "compensation": {"score": 4.4, "evidence": "국내 최고 수준 연봉"},
-      "culture_fit": {"score": 4.3, "evidence": "수평적, 데이터 기반, 고밀도 문화"},
-      "career_leverage": {"score": 4.5, "evidence": "금융 슈퍼앱 핵심 경험"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "커뮤니티 + 이커머스 복합 개발"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "인테리어 시장 성장, 해외 진출"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "유니콘 수준 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.1,
+        "evidence": "프로덕트 중심, 수평 문화"
+      },
+      "career_leverage": {
+        "score": 4.0,
+        "evidence": "UGC+커머스 복합 플랫폼 경험"
+      }
+    },
+    "vision": "홈 인테리어 No.1 라이프스타일 플랫폼 (오늘의집)",
+    "business_direction": "인테리어 커머스·시공 서비스 통합, 동남아 글로벌 진출, 이사·홈서비스 플랫폼 확대",
+    "ai_strategy": "AI 인테리어 스타일 추천, AI 기반 시공 견적 자동화, 가구 배치 AR/AI 가상 시뮬레이션",
+    "corp_name": "주식회사 버킷플레이스",
+    "business_segments": [
+      "인테리어 커뮤니티·콘텐츠",
+      "홈 인테리어 커머스",
+      "전문가 시공 서비스",
+      "인테리어 B2B"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본"
+    ],
+    "ceo": "이승재"
   },
   {
     "name": "빗썸",
@@ -835,20 +2336,58 @@
     "industry": "핀테크",
     "sub_industry": "가상자산 거래소",
     "size": "중견기업",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "MySQL", "Redis"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["빗썸 거래소", "빗썸 Pay"],
+    "key_products": [
+      "빗썸 거래소",
+      "빗썸 Pay"
+    ],
     "founded_year": 2013,
     "employee_count": 600,
     "hq_location": "강남",
     "description": "국내 2위 가상자산 거래소로, 비트코인·이더리움 등 다양한 암호화폐 거래 서비스를 제공합니다. 거래량 기준 글로벌 상위권 거래소로, 안정적인 금융 인프라 구축에 집중합니다.",
     "scorecard": {
-      "job_fit": {"score": 3.8, "evidence": "금융 거래 시스템 개발"},
-      "growth": {"score": 3.7, "evidence": "가상자산 시장 사이클 의존"},
-      "compensation": {"score": 4.0, "evidence": "업계 상위 수준"},
-      "culture_fit": {"score": 3.5, "evidence": "금융+IT 혼합 문화"},
-      "career_leverage": {"score": 3.8, "evidence": "고트래픽 금융 거래 경험"}
-    }
+      "job_fit": {
+        "score": 3.8,
+        "evidence": "금융 거래 시스템 개발"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "가상자산 시장 사이클 의존"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "업계 상위 수준"
+      },
+      "culture_fit": {
+        "score": 3.5,
+        "evidence": "금융+IT 혼합 문화"
+      },
+      "career_leverage": {
+        "score": 3.8,
+        "evidence": "고트래픽 금융 거래 경험"
+      }
+    },
+    "vision": "신뢰와 혁신으로 가상자산 거래의 기준을 세우다",
+    "business_direction": "국내 가상자산 거래소 2위 유지, 기관 투자자 서비스 확대, 가상자산 기반 금융 서비스 다변화",
+    "ai_strategy": "AI 기반 시장 분석·이상거래 탐지, 자동매매 API 고도화",
+    "corp_name": "주식회사 빗썸코리아",
+    "business_segments": [
+      "가상자산 거래소",
+      "가상자산 수탁 (커스터디)",
+      "블록체인 신사업"
+    ],
+    "global_presence": [
+      "한국"
+    ],
+    "ceo": "이재원"
   },
   {
     "name": "삼성SDS",
@@ -858,20 +2397,66 @@
     "industry": "IT서비스",
     "sub_industry": "SI/클라우드/물류IT",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring", "Python", "AWS", "SAP", "Kubernetes", "Blockchain"],
+    "tech_stack": [
+      "Java",
+      "Spring",
+      "Python",
+      "AWS",
+      "SAP",
+      "Kubernetes",
+      "Blockchain"
+    ],
     "hiring_active": true,
-    "key_products": ["Cello (물류 플랫폼)", "Samsung Cloud Platform", "Brightics AI"],
+    "key_products": [
+      "Cello (물류 플랫폼)",
+      "Samsung Cloud Platform",
+      "Brightics AI"
+    ],
     "founded_year": 1985,
     "employee_count": 17000,
     "hq_location": "송파",
     "description": "삼성그룹 IT 서비스 계열사로, 클라우드·물류·금융·제조 분야 엔터프라이즈 IT 솔루션을 제공합니다. 글로벌 물류 플랫폼 Cello와 AI 플랫폼 Brightics를 통해 DX 사업을 확장합니다.",
     "scorecard": {
-      "job_fit": {"score": 3.8, "evidence": "엔터프라이즈 IT, 다양한 도메인"},
-      "growth": {"score": 3.6, "evidence": "삼성 그룹 내부 수요, 클라우드 확장"},
-      "compensation": {"score": 4.0, "evidence": "삼성그룹 대기업 연봉"},
-      "culture_fit": {"score": 3.3, "evidence": "대기업 수직 문화"},
-      "career_leverage": {"score": 3.7, "evidence": "대규모 엔터프라이즈 경험"}
-    }
+      "job_fit": {
+        "score": 3.8,
+        "evidence": "엔터프라이즈 IT, 다양한 도메인"
+      },
+      "growth": {
+        "score": 3.6,
+        "evidence": "삼성 그룹 내부 수요, 클라우드 확장"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "삼성그룹 대기업 연봉"
+      },
+      "culture_fit": {
+        "score": 3.3,
+        "evidence": "대기업 수직 문화"
+      },
+      "career_leverage": {
+        "score": 3.7,
+        "evidence": "대규모 엔터프라이즈 경험"
+      }
+    },
+    "vision": "디지털 기반 스마트 엔터프라이즈 실현",
+    "business_direction": "클라우드 MSP·ERP 컨설팅 확대, 물류 BPO·스마트물류 솔루션, 삼성그룹 DX 주도",
+    "ai_strategy": "자체 엔터프라이즈 AI 플랫폼 '패브릭스(Fabrics)' 운영, 생성형 AI 기반 업무 자동화, AI 물류 최적화",
+    "corp_name": "삼성에스디에스 주식회사",
+    "business_segments": [
+      "IT 서비스 (클라우드·AI)",
+      "물류 BPO (첼로스퀘어)",
+      "스마트팩토리",
+      "보안 솔루션"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "중국",
+      "인도",
+      "베트남",
+      "유럽"
+    ],
+    "ceo": "이준희"
   },
   {
     "name": "삼성전자",
@@ -881,20 +2466,67 @@
     "industry": "반도체",
     "sub_industry": "반도체/가전/스마트폰",
     "size": "대기업",
-    "tech_stack": ["C++", "Python", "Java", "Android", "AI/ML", "Tizen OS", "ARM"],
+    "tech_stack": [
+      "C++",
+      "Python",
+      "Java",
+      "Android",
+      "AI/ML",
+      "Tizen OS",
+      "ARM"
+    ],
     "hiring_active": true,
-    "key_products": ["Galaxy 스마트폰", "DRAM/NAND Flash", "Exynos AP"],
+    "key_products": [
+      "Galaxy 스마트폰",
+      "DRAM/NAND Flash",
+      "Exynos AP"
+    ],
     "founded_year": 1969,
     "employee_count": 120000,
     "hq_location": "수원",
     "description": "글로벌 전자 대기업으로 반도체, 스마트폰, 가전, 디스플레이 등 다양한 사업을 운영합니다. 메모리 반도체 글로벌 1위이자 스마트폰 세계 1위 기업으로, SW 인재 확보에 적극 투자 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "SW/펌웨어/AI 등 다양한 포지션"},
-      "growth": {"score": 3.9, "evidence": "AI 반도체·폴더블폰 신성장동력"},
-      "compensation": {"score": 4.1, "evidence": "삼성 대기업 연봉 + PS"},
-      "culture_fit": {"score": 3.2, "evidence": "대기업 수직적 문화"},
-      "career_leverage": {"score": 4.2, "evidence": "글로벌 탑티어 전자 기업 경력"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "SW/펌웨어/AI 등 다양한 포지션"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "AI 반도체·폴더블폰 신성장동력"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "삼성 대기업 연봉 + PS"
+      },
+      "culture_fit": {
+        "score": 3.2,
+        "evidence": "대기업 수직적 문화"
+      },
+      "career_leverage": {
+        "score": 4.2,
+        "evidence": "글로벌 탑티어 전자 기업 경력"
+      }
+    },
+    "vision": "AI for All — AI 일상의 동반자",
+    "business_direction": "HBM 메모리 생산 확대, 갤럭시 AI 기능 강화, 온디바이스 AI 가전·모바일 통합, CES 2026 AI 컴패니언 비전",
+    "ai_strategy": "자체 LLM '삼성 가우스2(MoE)' 운영, GPT·제미나이 등 외부 AI 하이브리드 전략, 온디바이스 AI 칩(Exynos+NPU) 강화, Galaxy AI 기능(통화 번역, 생성 편집 등) 탑재",
+    "corp_name": "삼성전자 주식회사",
+    "business_segments": [
+      "MX (모바일)",
+      "VD/DA (TV·가전)",
+      "DS (반도체·메모리·파운드리)",
+      "네트워크 사업"
+    ],
+    "global_presence": [
+      "전 세계 (글로벌)",
+      "한국",
+      "미국",
+      "베트남",
+      "인도",
+      "중국",
+      "유럽"
+    ],
+    "ceo": "전영현 (DS부문장), 노태문 (DX부문장) — 공동 대표이사"
   },
   {
     "name": "세일즈포스코리아",
@@ -904,20 +2536,63 @@
     "industry": "IT/플랫폼",
     "sub_industry": "CRM SaaS",
     "size": "대기업",
-    "tech_stack": ["Apex", "JavaScript", "Java", "Python", "Salesforce Platform", "MuleSoft"],
+    "tech_stack": [
+      "Apex",
+      "JavaScript",
+      "Java",
+      "Python",
+      "Salesforce Platform",
+      "MuleSoft"
+    ],
     "hiring_active": true,
-    "key_products": ["Salesforce CRM", "Slack", "MuleSoft", "Einstein AI"],
+    "key_products": [
+      "Salesforce CRM",
+      "Slack",
+      "MuleSoft",
+      "Einstein AI"
+    ],
     "founded_year": 2000,
     "employee_count": 400,
     "hq_location": "강남",
     "description": "글로벌 CRM SaaS 1위 기업 세일즈포스의 한국 법인으로, 기업 고객에게 세일즈·마케팅·서비스 자동화 솔루션을 제공합니다. Slack 인수 이후 협업 플랫폼 사업도 병행합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "Salesforce 플랫폼 전문성"},
-      "growth": {"score": 3.9, "evidence": "CRM SaaS 글로벌 성장"},
-      "compensation": {"score": 4.5, "evidence": "외국계 최상위 수준"},
-      "culture_fit": {"score": 4.0, "evidence": "Ohana 문화, 자율적 환경"},
-      "career_leverage": {"score": 4.2, "evidence": "글로벌 SaaS 전문성"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "Salesforce 플랫폼 전문성"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "CRM SaaS 글로벌 성장"
+      },
+      "compensation": {
+        "score": 4.5,
+        "evidence": "외국계 최상위 수준"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "Ohana 문화, 자율적 환경"
+      },
+      "career_leverage": {
+        "score": 4.2,
+        "evidence": "글로벌 SaaS 전문성"
+      }
+    },
+    "vision": "Customer 360 — 고객 중심 디지털 전환",
+    "business_direction": "Agentforce(AI 에이전트) 한국 시장 확대, Data Cloud 기반 CRM AI 통합",
+    "ai_strategy": "Agentforce AI 에이전트 플랫폼 출시(2024), Einstein AI CRM 자동화, Slack AI 통합, 국내 기업 AX 지원",
+    "corp_name": "세일즈포스코리아 유한회사",
+    "business_segments": [
+      "CRM 솔루션 (Sales Cloud, Service Cloud)",
+      "마케팅 자동화 (Marketing Cloud)",
+      "AI 에이전트 플랫폼 (Agentforce)",
+      "데이터 플랫폼 (Data Cloud)",
+      "협업 (Slack)"
+    ],
+    "global_presence": [
+      "전 세계 (글로벌)",
+      "한국 포함 아시아태평양"
+    ],
+    "ceo": "박세진"
   },
   {
     "name": "센드버드",
@@ -927,20 +2602,65 @@
     "industry": "IT/플랫폼",
     "sub_industry": "채팅/커뮤니케이션 SaaS",
     "size": "스타트업",
-    "tech_stack": ["Go", "Python", "React", "AWS", "Kafka", "Redis", "MongoDB"],
+    "tech_stack": [
+      "Go",
+      "Python",
+      "React",
+      "AWS",
+      "Kafka",
+      "Redis",
+      "MongoDB"
+    ],
     "hiring_active": true,
-    "key_products": ["Sendbird Chat API", "Sendbird Calls", "Sendbird AI Chatbot"],
+    "key_products": [
+      "Sendbird Chat API",
+      "Sendbird Calls",
+      "Sendbird AI Chatbot"
+    ],
     "founded_year": 2013,
     "employee_count": 500,
     "hq_location": "판교",
     "description": "글로벌 채팅·음성 API SaaS 기업으로, 앱 내 채팅 기능 구축을 위한 SDK와 API를 제공합니다. 포춘500 기업을 포함한 전 세계 4000개+ 고객사를 보유한 B2B SaaS 스타트업입니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "실시간 통신 인프라, 글로벌 서비스"},
-      "growth": {"score": 3.9, "evidence": "글로벌 B2B SaaS 확장"},
-      "compensation": {"score": 4.1, "evidence": "글로벌 SaaS 수준 + 스톡옵션"},
-      "culture_fit": {"score": 4.1, "evidence": "영어 사용, 글로벌 문화"},
-      "career_leverage": {"score": 4.3, "evidence": "글로벌 SaaS API 플랫폼 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "실시간 통신 인프라, 글로벌 서비스"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "글로벌 B2B SaaS 확장"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "글로벌 SaaS 수준 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.1,
+        "evidence": "영어 사용, 글로벌 문화"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "글로벌 SaaS API 플랫폼 경험"
+      }
+    },
+    "vision": "Communications API로 세계 모든 앱에 소통을 내재화",
+    "business_direction": "글로벌 채팅·음성·영상 API 시장 확대, AI 채팅봇 API 신사업",
+    "ai_strategy": "AI 챗봇 빌더 'Sendbird AI Chatbot' 출시, 생성형 AI 기반 고객지원 자동화, AI 대화 요약·분류 API",
+    "corp_name": "주식회사 센드버드",
+    "business_segments": [
+      "채팅 API/SDK",
+      "AI 고객지원 플랫폼",
+      "AI Agent Builder",
+      "Salesforce Connector"
+    ],
+    "global_presence": [
+      "미국",
+      "한국",
+      "일본",
+      "유럽",
+      "동남아시아"
+    ],
+    "ceo": "John S. Kim"
   },
   {
     "name": "스노우",
@@ -950,20 +2670,64 @@
     "industry": "IT/플랫폼",
     "sub_industry": "카메라/AR 앱",
     "size": "중견기업",
-    "tech_stack": ["C++", "Swift", "Kotlin", "Python", "AWS", "TensorFlow Lite"],
+    "tech_stack": [
+      "C++",
+      "Swift",
+      "Kotlin",
+      "Python",
+      "AWS",
+      "TensorFlow Lite"
+    ],
     "hiring_active": true,
-    "key_products": ["SNOW 카메라", "NAVER ZEPETO", "B612"],
+    "key_products": [
+      "SNOW 카메라",
+      "NAVER ZEPETO",
+      "B612"
+    ],
     "founded_year": 2015,
     "employee_count": 500,
     "hq_location": "판교",
     "description": "네이버 계열 카메라·AR 앱 기업으로 SNOW, B612, ZEPETO 등 글로벌 히트 앱을 보유합니다. ZEPETO는 전 세계 4억 명 이상의 사용자를 보유한 메타버스 플랫폼으로 성장했습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "모바일 AR/카메라 기술, CV/ML"},
-      "growth": {"score": 3.8, "evidence": "ZEPETO 메타버스 성장"},
-      "compensation": {"score": 3.8, "evidence": "네이버 계열 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "글로벌 서비스, 크리에이티브 문화"},
-      "career_leverage": {"score": 3.9, "evidence": "글로벌 AR 앱 경험"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "모바일 AR/카메라 기술, CV/ML"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "ZEPETO 메타버스 성장"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "네이버 계열 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "글로벌 서비스, 크리에이티브 문화"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "글로벌 AR 앱 경험"
+      }
+    },
+    "vision": "AI·AR 기반 글로벌 카메라 앱 No.1",
+    "business_direction": "AI 프로필·이미지 생성 서비스 확대, 글로벌(일본·동남아) 앱 성장, 웹툰·AI 콘텐츠 신사업",
+    "ai_strategy": "AI 프로필 사진 생성(SNOW AI 프로필), AI 필터·뷰티 보정, 생성형 AI 이미지 서비스 확대",
+    "corp_name": "주식회사 스노우",
+    "business_segments": [
+      "카메라 앱(SNOW·EPIK)",
+      "AI 아바타/프로필 서비스",
+      "B2B 카메라 SDK",
+      "숏폼 영상"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "동남아시아",
+      "북미",
+      "유럽"
+    ],
+    "ceo": "김창욱"
   },
   {
     "name": "스캐터랩",
@@ -973,20 +2737,60 @@
     "industry": "AI",
     "sub_industry": "대화형 AI/감성 챗봇",
     "size": "스타트업",
-    "tech_stack": ["Python", "PyTorch", "FastAPI", "React", "AWS", "PostgreSQL"],
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "FastAPI",
+      "React",
+      "AWS",
+      "PostgreSQL"
+    ],
     "hiring_active": true,
-    "key_products": ["이루다 (AI 친구)", "연애의 과학", "텍스트앳"],
+    "key_products": [
+      "이루다 (AI 친구)",
+      "연애의 과학",
+      "텍스트앳"
+    ],
     "founded_year": 2014,
     "employee_count": 120,
     "hq_location": "성수",
     "description": "국내 대표 대화형 AI 스타트업으로, AI 친구 서비스 '이루다'를 개발합니다. 한국어 감성 대화 AI 기술에 특화되어 있으며, 데이터 수집·처리·모델 학습까지 전 파이프라인을 보유합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "한국어 LLM, 대화 AI 특화"},
-      "growth": {"score": 3.8, "evidence": "AI 챗봇 시장 성장"},
-      "compensation": {"score": 3.5, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 4.1, "evidence": "AI 연구 중심, 작은 팀"},
-      "career_leverage": {"score": 4.2, "evidence": "한국어 대화 AI 희소 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "한국어 LLM, 대화 AI 특화"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "AI 챗봇 시장 성장"
+      },
+      "compensation": {
+        "score": 3.5,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 4.1,
+        "evidence": "AI 연구 중심, 작은 팀"
+      },
+      "career_leverage": {
+        "score": 4.2,
+        "evidence": "한국어 대화 AI 희소 경험"
+      }
+    },
+    "vision": "감성 AI로 외로움 없는 세상을 만든다",
+    "business_direction": "AI 감성 챗봇 이루다 서비스 확대, B2B AI 솔루션 공급, 멀티모달 AI 캐릭터 개발",
+    "ai_strategy": "자체 한국어 감성 LLM 개발, 이루다(AI 친구 챗봇) 유료화 확대, 감정 이해·공감 AI 연구",
+    "corp_name": "주식회사 스캐터랩",
+    "business_segments": [
+      "AI 챗봇 이루다",
+      "AI 롤플레이 앱 제타(Zeta)",
+      "셀프케어 앱 블림프(BLIMP)"
+    ],
+    "global_presence": [
+      "한국",
+      "글로벌(제타 서비스 다국어 지원)"
+    ],
+    "ceo": "김종윤"
   },
   {
     "name": "쏘카",
@@ -996,20 +2800,60 @@
     "industry": "모빌리티",
     "sub_industry": "카셰어링/모빌리티 플랫폼",
     "size": "중견기업",
-    "tech_stack": ["Python", "Java", "React", "AWS", "Kafka", "PostgreSQL", "IoT"],
+    "tech_stack": [
+      "Python",
+      "Java",
+      "React",
+      "AWS",
+      "Kafka",
+      "PostgreSQL",
+      "IoT"
+    ],
     "hiring_active": true,
-    "key_products": ["쏘카 (카셰어링)", "쏘카 플랜 (장기렌탈)", "VCNC (타다)"],
+    "key_products": [
+      "쏘카 (카셰어링)",
+      "쏘카 플랜 (장기렌탈)",
+      "VCNC (타다)"
+    ],
     "founded_year": 2011,
     "employee_count": 800,
     "hq_location": "강남",
     "description": "국내 1위 카셰어링 플랫폼으로, 전국 4500개+ 존에서 1만 6000대 차량을 운영합니다. 코스닥 상장 기업으로, 타다·쏘카플랜 등 모빌리티 생태계 확장에 주력합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "모빌리티 플랫폼, IoT+백엔드"},
-      "growth": {"score": 3.8, "evidence": "카셰어링 성장, 신사업 확장"},
-      "compensation": {"score": 3.7, "evidence": "중견기업 수준"},
-      "culture_fit": {"score": 4.0, "evidence": "스타트업 문화 유지"},
-      "career_leverage": {"score": 3.9, "evidence": "모빌리티 도메인 희소 경험"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "모빌리티 플랫폼, IoT+백엔드"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "카셰어링 성장, 신사업 확장"
+      },
+      "compensation": {
+        "score": 3.7,
+        "evidence": "중견기업 수준"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "스타트업 문화 유지"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "모빌리티 도메인 희소 경험"
+      }
+    },
+    "vision": "모빌리티 플랫폼으로 이동의 자유를 제공",
+    "business_direction": "카셰어링+대중교통 통합 MaaS 플랫폼, 전기차 확대, B2B 기업 카셰어링 성장",
+    "ai_strategy": "AI 기반 차량 수요 예측·배치 최적화, AI 차량 손상 자동 판정, 자율주행 연구 파트너십",
+    "corp_name": "주식회사 쏘카",
+    "business_segments": [
+      "단기 카셰어링",
+      "쏘카 플랜(월정액)",
+      "자율주행 연구(라이드플럭스 투자)"
+    ],
+    "global_presence": [
+      "한국"
+    ],
+    "ceo": "박재욱"
   },
   {
     "name": "애플코리아",
@@ -1019,20 +2863,60 @@
     "industry": "IT/플랫폼",
     "sub_industry": "하드웨어/OS/앱스토어",
     "size": "대기업",
-    "tech_stack": ["Swift", "Objective-C", "C++", "Python", "Metal", "CoreML"],
+    "tech_stack": [
+      "Swift",
+      "Objective-C",
+      "C++",
+      "Python",
+      "Metal",
+      "CoreML"
+    ],
     "hiring_active": true,
-    "key_products": ["iPhone", "Mac", "App Store"],
+    "key_products": [
+      "iPhone",
+      "Mac",
+      "App Store"
+    ],
     "founded_year": 1993,
     "employee_count": 500,
     "hq_location": "강남",
     "description": "애플의 한국 법인으로, 리테일·영업·마케팅·기술 지원을 담당합니다. 글로벌 애플 제품의 국내 운영과 일부 엔지니어링 포지션을 채용합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "Apple 기술 생태계 최전선"},
-      "growth": {"score": 3.9, "evidence": "Apple Intelligence, Vision Pro"},
-      "compensation": {"score": 4.6, "evidence": "글로벌 빅테크 최상위 보상"},
-      "culture_fit": {"score": 3.8, "evidence": "비밀주의, 완벽주의 문화"},
-      "career_leverage": {"score": 4.7, "evidence": "빅테크 Apple 경력"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "Apple 기술 생태계 최전선"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "Apple Intelligence, Vision Pro"
+      },
+      "compensation": {
+        "score": 4.6,
+        "evidence": "글로벌 빅테크 최상위 보상"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "비밀주의, 완벽주의 문화"
+      },
+      "career_leverage": {
+        "score": 4.7,
+        "evidence": "빅테크 Apple 경력"
+      }
+    },
+    "vision": "Think Different — 기술과 인문학의 교차점",
+    "business_direction": "애플 인텔리전스(Apple Intelligence) 한국어 지원 확대, 서비스(앱스토어·애플TV+) 성장",
+    "ai_strategy": "Apple Intelligence 온디바이스 AI 탑재(iOS/macOS), 프라이버시 중심 AI 아키텍처, Siri 고도화, ChatGPT 통합",
+    "corp_name": "애플코리아 유한회사",
+    "business_segments": [
+      "아이폰",
+      "맥/아이패드",
+      "웨어러블(애플워치·에어팟)",
+      "서비스(앱스토어·iCloud·애플TV+·애플페이)"
+    ],
+    "global_presence": [
+      "전 세계(한국 포함 100개국 이상)"
+    ],
+    "ceo": "피터 로날드 덴우드 (한국 법인 대표)"
   },
   {
     "name": "앤트로픽코리아",
@@ -1042,20 +2926,67 @@
     "industry": "AI",
     "sub_industry": "생성형 AI/LLM 연구",
     "size": "스타트업",
-    "tech_stack": ["Python", "JAX", "PyTorch", "CUDA", "Rust", "TypeScript"],
+    "tech_stack": [
+      "Python",
+      "JAX",
+      "PyTorch",
+      "CUDA",
+      "Rust",
+      "TypeScript"
+    ],
     "hiring_active": true,
-    "key_products": ["Claude AI", "Claude API", "Claude.ai"],
+    "key_products": [
+      "Claude AI",
+      "Claude API",
+      "Claude.ai"
+    ],
     "founded_year": 2021,
     "employee_count": null,
     "hq_location": "강남",
     "description": "AI 안전 중심 LLM 기업 Anthropic의 한국 법인입니다. Claude 모델을 개발하며 AI 안전성 연구에 집중합니다. 한국에서 파트너십·세일즈 포지션을 중심으로 채용합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.7, "evidence": "LLM 최전선, AI 안전 연구"},
-      "growth": {"score": 4.8, "evidence": "AI 시장 폭발 성장"},
-      "compensation": {"score": 4.8, "evidence": "실리콘밸리 최상위 보상"},
-      "culture_fit": {"score": 4.2, "evidence": "AI 안전·윤리 중심 문화"},
-      "career_leverage": {"score": 5.0, "evidence": "LLM 최정상 연구 경력"}
-    }
+      "job_fit": {
+        "score": 4.7,
+        "evidence": "LLM 최전선, AI 안전 연구"
+      },
+      "growth": {
+        "score": 4.8,
+        "evidence": "AI 시장 폭발 성장"
+      },
+      "compensation": {
+        "score": 4.8,
+        "evidence": "실리콘밸리 최상위 보상"
+      },
+      "culture_fit": {
+        "score": 4.2,
+        "evidence": "AI 안전·윤리 중심 문화"
+      },
+      "career_leverage": {
+        "score": 5.0,
+        "evidence": "LLM 최정상 연구 경력"
+      }
+    },
+    "vision": "AI safety research and deployment for long-term beneficial AI",
+    "business_direction": "Claude AI 한국어 서비스 확대, 국내 B2B 기업 API 공급, AWS·Google 파트너십 기반 성장",
+    "ai_strategy": "Claude 3.x/4.x 모델 지속 업데이트, Constitutional AI·RLHF 안전 연구, 엔터프라이즈 Claude 한국 확대",
+    "corp_name": "Anthropic (한국 지사/파트너)",
+    "business_segments": [
+      "Claude LLM API",
+      "Claude 엔터프라이즈",
+      "Claude Code",
+      "AI 안전 연구"
+    ],
+    "global_presence": [
+      "미국(샌프란시스코 본사)",
+      "영국",
+      "아일랜드",
+      "독일",
+      "프랑스",
+      "일본",
+      "한국(서울)",
+      "인도(벵갈루루)"
+    ],
+    "ceo": "Dario Amodei (글로벌 CEO)"
   },
   {
     "name": "야놀자",
@@ -1065,20 +2996,66 @@
     "industry": "여행/OTA",
     "sub_industry": "숙박/여행 플랫폼",
     "size": "유니콘",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "Kafka", "MySQL", "Redis"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "Kafka",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["야놀자 앱", "인터파크 트리플", "야놀자 클라우드"],
+    "key_products": [
+      "야놀자 앱",
+      "인터파크 트리플",
+      "야놀자 클라우드"
+    ],
     "founded_year": 2005,
     "employee_count": 4000,
     "hq_location": "강남",
     "description": "국내 1위 숙박·여행 플랫폼으로, 야놀자·인터파크·트리플을 운영합니다. 소프트뱅크 투자를 받은 유니콘으로 글로벌 여행 테크 기업을 지향하며, 호텔 솔루션 SaaS도 제공합니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "여행·숙박 플랫폼 개발"},
-      "growth": {"score": 4.0, "evidence": "글로벌 여행 테크 확장"},
-      "compensation": {"score": 3.9, "evidence": "유니콘 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "빠른 성장, 변화 많은 환경"},
-      "career_leverage": {"score": 4.0, "evidence": "여행 슈퍼앱 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "여행·숙박 플랫폼 개발"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "글로벌 여행 테크 확장"
+      },
+      "compensation": {
+        "score": 3.9,
+        "evidence": "유니콘 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "빠른 성장, 변화 많은 환경"
+      },
+      "career_leverage": {
+        "score": 4.0,
+        "evidence": "여행 슈퍼앱 도메인 경험"
+      }
+    },
+    "vision": "여행을 10배 더 쉽고 편리하게 — 글로벌 트래블 테크 기업",
+    "business_direction": "야놀자 3.0 선언(2026.3): AI 기반 여행 에이전트, 글로벌 트래블 테크 플랫폼, 에이전틱 AI 여행 서비스",
+    "ai_strategy": "여행 특화 버티컬 AI 에이전트 개발, 글로벌 멤버사 데이터 연결·AI 분석, 에이전틱 AI(자율 여행 계획) 상용화",
+    "corp_name": "주식회사 야놀자",
+    "business_segments": [
+      "국내 숙박·여행 플랫폼",
+      "글로벌 여행 플랫폼(Yanolja Cloud)",
+      "호스피탈리티 SaaS 솔루션",
+      "데이터/AI 서비스"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "동남아시아",
+      "중동",
+      "유럽 (28개국 69개 오피스, 200개국 서비스)"
+    ],
+    "ceo": "최찬석 (사업전략·경영 총괄 CEO)"
   },
   {
     "name": "업스테이지",
@@ -1088,20 +3065,66 @@
     "industry": "AI",
     "sub_industry": "기업용 AI/LLM",
     "size": "스타트업",
-    "tech_stack": ["Python", "PyTorch", "FastAPI", "React", "AWS", "LLM", "OCR"],
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "FastAPI",
+      "React",
+      "AWS",
+      "LLM",
+      "OCR"
+    ],
     "hiring_active": true,
-    "key_products": ["Solar LLM", "AskUp", "Document AI"],
+    "key_products": [
+      "Solar LLM",
+      "AskUp",
+      "Document AI"
+    ],
     "founded_year": 2020,
     "employee_count": 200,
     "hq_location": "강남",
     "description": "Kaggle 그랜드마스터 출신들이 창업한 기업용 AI 스타트업으로, 자체 LLM Solar와 Document AI 솔루션을 개발합니다. B2B 기업 AI 도입을 돕는 솔루션으로 빠르게 성장 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 4.5, "evidence": "LLM 개발, Document AI, MLOps"},
-      "growth": {"score": 4.3, "evidence": "기업 AI 수요 폭발"},
-      "compensation": {"score": 3.9, "evidence": "스타트업 + 스톡옵션"},
-      "culture_fit": {"score": 4.3, "evidence": "연구+제품 균형, 경쟁력 높은 팀"},
-      "career_leverage": {"score": 4.6, "evidence": "LLM 개발 최전선 경험"}
-    }
+      "job_fit": {
+        "score": 4.5,
+        "evidence": "LLM 개발, Document AI, MLOps"
+      },
+      "growth": {
+        "score": 4.3,
+        "evidence": "기업 AI 수요 폭발"
+      },
+      "compensation": {
+        "score": 3.9,
+        "evidence": "스타트업 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.3,
+        "evidence": "연구+제품 균형, 경쟁력 높은 팀"
+      },
+      "career_leverage": {
+        "score": 4.6,
+        "evidence": "LLM 개발 최전선 경험"
+      }
+    },
+    "vision": "Upstage the AI Industry — AI로 모든 비즈니스를 혁신",
+    "business_direction": "기업용 AI 솔루션(Solar LLM) 글로벌 확대, 문서 AI(Document AI) B2B, IPO 추진",
+    "ai_strategy": "자체 LLM 'Solar' 시리즈 개발·공급, 문서 파싱·OCR AI 솔루션, 엔터프라이즈 RAG 플랫폼, 국가대표 AI 선정",
+    "corp_name": "주식회사 업스테이지",
+    "business_segments": [
+      "Solar LLM API",
+      "Document AI",
+      "엔터프라이즈 AI 솔루션",
+      "AI 교육(LaaS)"
+    ],
+    "global_presence": [
+      "한국",
+      "미국(법인 설립)",
+      "일본",
+      "태국",
+      "동남아시아",
+      "유럽(예정)"
+    ],
+    "ceo": "김성훈"
   },
   {
     "name": "에이프로젠",
@@ -1111,20 +3134,59 @@
     "industry": "바이오/헬스케어",
     "sub_industry": "바이오의약품/AI 신약",
     "size": "중견기업",
-    "tech_stack": ["Python", "R", "AI/ML", "Bioinformatics", "PostgreSQL"],
+    "tech_stack": [
+      "Python",
+      "R",
+      "AI/ML",
+      "Bioinformatics",
+      "PostgreSQL"
+    ],
     "hiring_active": true,
-    "key_products": ["바이오시밀러 의약품", "AI 신약개발 플랫폼"],
+    "key_products": [
+      "바이오시밀러 의약품",
+      "AI 신약개발 플랫폼"
+    ],
     "founded_year": 2000,
     "employee_count": 1500,
     "hq_location": "판교",
     "description": "바이오시밀러(복제 바이오의약품) 전문 기업으로, 항체 의약품 개발과 AI 기반 신약 탐색을 병행합니다. 코스닥 상장 바이오 기업으로 디지털 헬스케어 영역으로 확장 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.5, "evidence": "바이오IT, AI 신약 도메인"},
-      "growth": {"score": 3.7, "evidence": "바이오시밀러 글로벌 수요"},
-      "compensation": {"score": 3.5, "evidence": "바이오 중견기업 수준"},
-      "culture_fit": {"score": 3.4, "evidence": "연구 중심 문화"},
-      "career_leverage": {"score": 3.8, "evidence": "바이오IT 희소 도메인"}
-    }
+      "job_fit": {
+        "score": 3.5,
+        "evidence": "바이오IT, AI 신약 도메인"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "바이오시밀러 글로벌 수요"
+      },
+      "compensation": {
+        "score": 3.5,
+        "evidence": "바이오 중견기업 수준"
+      },
+      "culture_fit": {
+        "score": 3.4,
+        "evidence": "연구 중심 문화"
+      },
+      "career_leverage": {
+        "score": 3.8,
+        "evidence": "바이오IT 희소 도메인"
+      }
+    },
+    "vision": "바이오·IT 융합으로 헬스케어 혁신",
+    "business_direction": "바이오시밀러 글로벌 판매 확대, 디지털 헬스케어 투자, IT 계열사 통한 AI 헬스케어 솔루션",
+    "ai_strategy": "AI 기반 신약 후보물질 발굴, 바이오 데이터 AI 분석",
+    "corp_name": "주식회사 에이프로젠",
+    "business_segments": [
+      "바이오시밀러(에이프로젠바이오로직스)",
+      "바이오신약",
+      "특수금속·하드페이싱",
+      "산업기계(KIC Industrial Machinery)"
+    ],
+    "global_presence": [
+      "한국",
+      "미국(진출 추진 중)"
+    ],
+    "ceo": "김재섭"
   },
   {
     "name": "엔비디아코리아",
@@ -1134,20 +3196,61 @@
     "industry": "반도체",
     "sub_industry": "GPU/AI 반도체",
     "size": "대기업",
-    "tech_stack": ["CUDA", "C++", "Python", "PyTorch", "TensorRT", "Triton"],
+    "tech_stack": [
+      "CUDA",
+      "C++",
+      "Python",
+      "PyTorch",
+      "TensorRT",
+      "Triton"
+    ],
     "hiring_active": true,
-    "key_products": ["NVIDIA GPU", "CUDA 플랫폼", "NIM AI 마이크로서비스"],
+    "key_products": [
+      "NVIDIA GPU",
+      "CUDA 플랫폼",
+      "NIM AI 마이크로서비스"
+    ],
     "founded_year": 1998,
     "employee_count": 300,
     "hq_location": "강남",
     "description": "AI 반도체 시장 1위 NVIDIA의 한국 법인으로, 데이터센터·자동차·게임·전문가용 GPU 비즈니스를 담당합니다. AI 붐으로 폭발적 성장 중인 글로벌 최고 가치 반도체 기업입니다.",
     "scorecard": {
-      "job_fit": {"score": 4.5, "evidence": "CUDA/GPU 컴퓨팅 최전선"},
-      "growth": {"score": 5.0, "evidence": "AI 인프라 수요 폭증, 시총 3조 달러"},
-      "compensation": {"score": 4.9, "evidence": "글로벌 빅테크 최상위 보상"},
-      "culture_fit": {"score": 4.0, "evidence": "고성과 중심, 자율적 환경"},
-      "career_leverage": {"score": 5.0, "evidence": "AI 시대 가장 핫한 기업 경력"}
-    }
+      "job_fit": {
+        "score": 4.5,
+        "evidence": "CUDA/GPU 컴퓨팅 최전선"
+      },
+      "growth": {
+        "score": 5.0,
+        "evidence": "AI 인프라 수요 폭증, 시총 3조 달러"
+      },
+      "compensation": {
+        "score": 4.9,
+        "evidence": "글로벌 빅테크 최상위 보상"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "고성과 중심, 자율적 환경"
+      },
+      "career_leverage": {
+        "score": 5.0,
+        "evidence": "AI 시대 가장 핫한 기업 경력"
+      }
+    },
+    "vision": "Accelerated computing for AI — AI 혁명의 인프라",
+    "business_direction": "국내 AI 데이터센터 GPU 공급 확대, 자동주행·로봇 플랫폼(DRIVE·Isaac) 국내 생태계 구축",
+    "ai_strategy": "H100/B200 GPU 공급, CUDA 생태계 강화, NIM(AI 모델 배포) 서비스, 국내 AI 기업·통신사 파트너십",
+    "corp_name": "엔비디아세미컨덕터 유한책임회사",
+    "business_segments": [
+      "데이터센터(AI GPU)",
+      "게이밍(GeForce)",
+      "전문 시각화(RTX)",
+      "자율주행(DRIVE)",
+      "로보틱스"
+    ],
+    "global_presence": [
+      "전 세계(한국 포함)"
+    ],
+    "ceo": "유응준 (한국 법인 대표)"
   },
   {
     "name": "엔씨소프트",
@@ -1157,20 +3260,65 @@
     "industry": "게임",
     "sub_industry": "온라인/모바일 게임",
     "size": "대기업",
-    "tech_stack": ["C++", "C#", "Unreal Engine", "Python", "AWS", "MySQL", "AI/ML"],
+    "tech_stack": [
+      "C++",
+      "C#",
+      "Unreal Engine",
+      "Python",
+      "AWS",
+      "MySQL",
+      "AI/ML"
+    ],
     "hiring_active": true,
-    "key_products": ["리니지 시리즈", "블레이드앤소울", "쓰론앤리버티"],
+    "key_products": [
+      "리니지 시리즈",
+      "블레이드앤소울",
+      "쓰론앤리버티"
+    ],
     "founded_year": 1997,
     "employee_count": 4500,
     "hq_location": "판교",
     "description": "국내 3대 게임사 중 하나로 리니지·블레이드앤소울 등 장수 MMORPG IP를 보유합니다. AI 기술을 게임에 접목한 'NC AI'를 내세우며 다음 세대 게임 엔진 개발에 투자하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "게임 서버·클라이언트·AI 개발"},
-      "growth": {"score": 3.6, "evidence": "리니지 IP 노후화, 신작 도전"},
-      "compensation": {"score": 4.1, "evidence": "게임 대기업 상위 수준"},
-      "culture_fit": {"score": 3.6, "evidence": "기술 중시, 대기업화 진행"},
-      "career_leverage": {"score": 3.9, "evidence": "대규모 MMORPG 서버 경험"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "게임 서버·클라이언트·AI 개발"
+      },
+      "growth": {
+        "score": 3.6,
+        "evidence": "리니지 IP 노후화, 신작 도전"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "게임 대기업 상위 수준"
+      },
+      "culture_fit": {
+        "score": 3.6,
+        "evidence": "기술 중시, 대기업화 진행"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "대규모 MMORPG 서버 경험"
+      }
+    },
+    "vision": "즐거움으로 세상을 바꾸다",
+    "business_direction": "리니지 IP 온라인·모바일 강화, 신규 게임 포트폴리오 다변화, AI 게임 기술 회사로 전환",
+    "ai_strategy": "자체 게임 AI 연구소 운영, AI NPC·생성형 콘텐츠 도입, NC AI(VARCO) LLM 개발, AI 기반 게임 개발 자동화",
+    "corp_name": "주식회사 엔씨소프트",
+    "business_segments": [
+      "MMORPG(리니지 시리즈)",
+      "슈팅·서브컬처 신규 장르",
+      "모바일 캐주얼",
+      "AI 연구(NC AI)"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "대만",
+      "유럽"
+    ],
+    "ceo": "박병무"
   },
   {
     "name": "오픈AI코리아",
@@ -1180,20 +3328,67 @@
     "industry": "AI",
     "sub_industry": "생성형 AI/LLM",
     "size": "스타트업",
-    "tech_stack": ["Python", "CUDA", "PyTorch", "Triton", "TypeScript", "Kubernetes"],
+    "tech_stack": [
+      "Python",
+      "CUDA",
+      "PyTorch",
+      "Triton",
+      "TypeScript",
+      "Kubernetes"
+    ],
     "hiring_active": true,
-    "key_products": ["ChatGPT", "GPT-4o", "DALL-E", "Sora"],
+    "key_products": [
+      "ChatGPT",
+      "GPT-4o",
+      "DALL-E",
+      "Sora"
+    ],
     "founded_year": 2015,
     "employee_count": null,
     "hq_location": "강남",
     "description": "생성형 AI 시대를 연 OpenAI의 한국 법인으로, ChatGPT·GPT-4 등 글로벌 AI 서비스의 국내 파트너십과 세일즈를 담당합니다. 한국 기업용 AI 도입을 지원합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.8, "evidence": "AI 산업 최전선, ChatGPT 팀"},
-      "growth": {"score": 5.0, "evidence": "AI 시장 절대 강자"},
-      "compensation": {"score": 4.9, "evidence": "실리콘밸리 최상위 보상"},
-      "culture_fit": {"score": 4.0, "evidence": "고강도 미션 중심 문화"},
-      "career_leverage": {"score": 5.0, "evidence": "AI 최정상 기업 경력"}
-    }
+      "job_fit": {
+        "score": 4.8,
+        "evidence": "AI 산업 최전선, ChatGPT 팀"
+      },
+      "growth": {
+        "score": 5.0,
+        "evidence": "AI 시장 절대 강자"
+      },
+      "compensation": {
+        "score": 4.9,
+        "evidence": "실리콘밸리 최상위 보상"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "고강도 미션 중심 문화"
+      },
+      "career_leverage": {
+        "score": 5.0,
+        "evidence": "AI 최정상 기업 경력"
+      }
+    },
+    "vision": "Ensure that artificial general intelligence benefits all of humanity",
+    "business_direction": "ChatGPT 한국어 서비스 확대, 삼성·SK텔레콤 등 국내 기업 API 파트너십, 교육·공공 분야 진출",
+    "ai_strategy": "GPT-4o/o1/o3 모델 한국어 최적화, Sora·DALL-E 멀티모달 서비스, 기업용 ChatGPT Enterprise 공급",
+    "corp_name": "OpenAI (한국 사무소)",
+    "business_segments": [
+      "ChatGPT (B2C)",
+      "OpenAI API (B2B)",
+      "엔터프라이즈 솔루션",
+      "AI 안전 연구"
+    ],
+    "global_presence": [
+      "미국(샌프란시스코 본사)",
+      "영국",
+      "아일랜드",
+      "일본",
+      "싱가포르",
+      "한국(서울, 2025년 설립)",
+      "총 12개국"
+    ],
+    "ceo": "로버트 제이린 우 (한국 법인 초대 대표, 서류상)"
   },
   {
     "name": "왓챠",
@@ -1203,20 +3398,59 @@
     "industry": "IT/플랫폼",
     "sub_industry": "OTT/스트리밍",
     "size": "스타트업",
-    "tech_stack": ["Python", "Django", "React", "AWS", "PostgreSQL", "Redis", "Elasticsearch"],
+    "tech_stack": [
+      "Python",
+      "Django",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "Redis",
+      "Elasticsearch"
+    ],
     "hiring_active": false,
-    "key_products": ["왓챠 (OTT)", "왓챠피디아 (콘텐츠 평점)"],
+    "key_products": [
+      "왓챠 (OTT)",
+      "왓챠피디아 (콘텐츠 평점)"
+    ],
     "founded_year": 2011,
     "employee_count": 200,
     "hq_location": "강남",
     "description": "국내 독립 OTT 플랫폼으로, 영화·드라마 스트리밍과 콘텐츠 평점 서비스 왓챠피디아를 운영합니다. 넷플릭스 등 글로벌 OTT와 경쟁 중이며 경영 효율화를 추진하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.6, "evidence": "OTT 플랫폼 개발"},
-      "growth": {"score": 2.8, "evidence": "OTT 경쟁 심화, 경영 어려움"},
-      "compensation": {"score": 3.2, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 3.7, "evidence": "콘텐츠 좋아하면 몰입"},
-      "career_leverage": {"score": 3.4, "evidence": "OTT 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.6,
+        "evidence": "OTT 플랫폼 개발"
+      },
+      "growth": {
+        "score": 2.8,
+        "evidence": "OTT 경쟁 심화, 경영 어려움"
+      },
+      "compensation": {
+        "score": 3.2,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 3.7,
+        "evidence": "콘텐츠 좋아하면 몰입"
+      },
+      "career_leverage": {
+        "score": 3.4,
+        "evidence": "OTT 도메인 경험"
+      }
+    },
+    "vision": "취향 기반 콘텐츠 발견 플랫폼",
+    "business_direction": "OTT 구독 서비스 운영, 독립영화·애니메이션 큐레이션 차별화, B2B 콘텐츠 라이선싱",
+    "ai_strategy": "AI 기반 취향 분석·추천 엔진, 콘텐츠 메타데이터 AI 자동 태깅",
+    "corp_name": "주식회사 왓챠",
+    "business_segments": [
+      "OTT 구독 서비스(왓챠)",
+      "콘텐츠 추천(왓챠피디아)"
+    ],
+    "global_presence": [
+      "한국",
+      "일본"
+    ],
+    "ceo": "박태훈"
   },
   {
     "name": "우아한형제들",
@@ -1226,20 +3460,63 @@
     "industry": "이커머스",
     "sub_industry": "음식배달 플랫폼",
     "size": "대기업",
-    "tech_stack": ["Java", "Kotlin", "Spring Boot", "React", "AWS", "Kafka", "MySQL", "Redis"],
+    "tech_stack": [
+      "Java",
+      "Kotlin",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "Kafka",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["배달의민족", "배민상회", "배민라이더스"],
+    "key_products": [
+      "배달의민족",
+      "배민상회",
+      "배민라이더스"
+    ],
     "founded_year": 2010,
     "employee_count": 4000,
     "hq_location": "송파",
     "description": "국내 1위 음식 배달 플랫폼 '배달의민족'을 운영하는 기업으로, 딜리버리히어로의 자회사입니다. 배달 인프라를 넘어 음식점 창업 지원, B2B 식자재 유통으로 사업을 확장합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "대규모 플랫폼 개발, 높은 기술 수준"},
-      "growth": {"score": 3.8, "evidence": "배달 시장 성숙, 신사업 확장"},
-      "compensation": {"score": 4.1, "evidence": "업계 상위 수준"},
-      "culture_fit": {"score": 4.2, "evidence": "수평적 문화, 기술 중심"},
-      "career_leverage": {"score": 4.3, "evidence": "초대형 배달 플랫폼 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "대규모 플랫폼 개발, 높은 기술 수준"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "배달 시장 성숙, 신사업 확장"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "업계 상위 수준"
+      },
+      "culture_fit": {
+        "score": 4.2,
+        "evidence": "수평적 문화, 기술 중심"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "초대형 배달 플랫폼 경험"
+      }
+    },
+    "vision": "좋은 음식을 먹고 싶은 모든 사람들을 연결한다",
+    "business_direction": "배달의민족 앱 고도화, 배민스토어·B마트 퀵커머스 확대, DH(딜리버리히어로) 글로벌 연계",
+    "ai_strategy": "AI 기반 배달 경로 최적화, AI 메뉴 추천 개인화, 음식 인식 AI, 배달 수요 예측 모델",
+    "corp_name": "주식회사 우아한형제들",
+    "business_segments": [
+      "배달 중개 플랫폼(배달의민족)",
+      "배민스토어(퀵커머스)",
+      "B2B 배달 솔루션",
+      "자율주행 로봇 배달(미래사업)"
+    ],
+    "global_presence": [
+      "한국",
+      "글로벌 진출 준비 중"
+    ],
+    "ceo": "김범석"
   },
   {
     "name": "원티드랩",
@@ -1249,20 +3526,63 @@
     "industry": "HR테크",
     "sub_industry": "채용 플랫폼",
     "size": "스타트업",
-    "tech_stack": ["Python", "Django", "React", "AWS", "PostgreSQL", "Redis", "Elasticsearch"],
+    "tech_stack": [
+      "Python",
+      "Django",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "Redis",
+      "Elasticsearch"
+    ],
     "hiring_active": true,
-    "key_products": ["원티드 채용 플랫폼", "원티드 인사이트", "원티드 긱스"],
+    "key_products": [
+      "원티드 채용 플랫폼",
+      "원티드 인사이트",
+      "원티드 긱스"
+    ],
     "founded_year": 2015,
     "employee_count": 350,
     "hq_location": "강남",
     "description": "AI 기반 채용 플랫폼으로, 지인 추천 채용과 커리어 인사이트 서비스를 제공합니다. 코스닥 상장 HR테크 기업으로 기업 HR 솔루션과 프리랜서 플랫폼으로 사업을 확장하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.8, "evidence": "HR테크 플랫폼, Python+ML"},
-      "growth": {"score": 3.7, "evidence": "HR 디지털 전환 수요 증가"},
-      "compensation": {"score": 3.6, "evidence": "코스닥 스타트업 수준"},
-      "culture_fit": {"score": 4.0, "evidence": "커리어 성장 강조 문화"},
-      "career_leverage": {"score": 3.7, "evidence": "HR테크 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.8,
+        "evidence": "HR테크 플랫폼, Python+ML"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "HR 디지털 전환 수요 증가"
+      },
+      "compensation": {
+        "score": 3.6,
+        "evidence": "코스닥 스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "커리어 성장 강조 문화"
+      },
+      "career_leverage": {
+        "score": 3.7,
+        "evidence": "HR테크 도메인 경험"
+      }
+    },
+    "vision": "커리어 성장을 함께하는 HR 테크 플랫폼",
+    "business_direction": "AI 채용 솔루션 고도화, HR SaaS(원티드스페이스) 확대, 글로벌 채용 플랫폼 진출",
+    "ai_strategy": "AI 이력서 매칭·스크리닝, AI 커리어 추천, 채용 공고 자동 생성 AI, HR 데이터 분석 플랫폼",
+    "corp_name": "주식회사 원티드랩",
+    "business_segments": [
+      "채용 플랫폼(원티드)",
+      "HR SaaS(원티드 스페이스)",
+      "프리랜서 매칭(원티드 긱스)",
+      "AI 교육(원티드 LaaS)"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "싱가포르"
+    ],
+    "ceo": "이복기"
   },
   {
     "name": "지마켓",
@@ -1272,20 +3592,65 @@
     "industry": "이커머스",
     "sub_industry": "오픈마켓",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring", "React", "AWS", "Oracle", "Redis", "Kafka"],
+    "tech_stack": [
+      "Java",
+      "Spring",
+      "React",
+      "AWS",
+      "Oracle",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["지마켓", "옥션", "G9"],
+    "key_products": [
+      "지마켓",
+      "옥션",
+      "G9"
+    ],
     "founded_year": 1998,
     "employee_count": 2000,
     "hq_location": "강남",
     "description": "국내 최초 오픈마켓으로 신세계그룹에 인수된 이커머스 플랫폼입니다. 지마켓·옥션을 통합 운영하며 SSG닷컴과 연계한 신세계 이커머스 생태계를 구축하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.7, "evidence": "대규모 이커머스 개발"},
-      "growth": {"score": 3.4, "evidence": "쿠팡 등과 경쟁 심화"},
-      "compensation": {"score": 3.8, "evidence": "신세계 대기업 수준"},
-      "culture_fit": {"score": 3.4, "evidence": "대기업화 진행"},
-      "career_leverage": {"score": 3.7, "evidence": "대규모 이커머스 경험"}
-    }
+      "job_fit": {
+        "score": 3.7,
+        "evidence": "대규모 이커머스 개발"
+      },
+      "growth": {
+        "score": 3.4,
+        "evidence": "쿠팡 등과 경쟁 심화"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "신세계 대기업 수준"
+      },
+      "culture_fit": {
+        "score": 3.4,
+        "evidence": "대기업화 진행"
+      },
+      "career_leverage": {
+        "score": 3.7,
+        "evidence": "대규모 이커머스 경험"
+      }
+    },
+    "vision": "더 나은 쇼핑 경험을 제공하는 이커머스 플랫폼",
+    "business_direction": "신세계그룹 통합 이커머스 시너지, 스마일클럽 멤버십 강화, 글로벌 셀러 확대",
+    "ai_strategy": "AI 개인화 추천, AI 기반 상품 검색 고도화, 동적 가격 책정 AI",
+    "corp_name": "지마켓 주식회사",
+    "business_segments": [
+      "오픈마켓(G마켓·옥션)",
+      "글로벌 셀러 수출 플랫폼",
+      "AliExpress Korea(JV 연계)"
+    ],
+    "global_presence": [
+      "한국",
+      "싱가포르",
+      "베트남",
+      "태국",
+      "필리핀",
+      "말레이시아(글로벌 진출 개시)"
+    ],
+    "ceo": "제임스 장 (James Zhang, 2025년 9월 선임)"
   },
   {
     "name": "직방",
@@ -1295,20 +3660,67 @@
     "industry": "프롭테크",
     "sub_industry": "부동산 플랫폼",
     "size": "스타트업",
-    "tech_stack": ["Python", "React Native", "Node.js", "AWS", "PostgreSQL", "GraphQL"],
+    "tech_stack": [
+      "Python",
+      "React Native",
+      "Node.js",
+      "AWS",
+      "PostgreSQL",
+      "GraphQL"
+    ],
     "hiring_active": true,
-    "key_products": ["직방 (부동산 앱)", "삼성SDS 홈IoT 협업", "호갱노노"],
+    "key_products": [
+      "직방 (부동산 앱)",
+      "삼성SDS 홈IoT 협업",
+      "호갱노노"
+    ],
     "founded_year": 2010,
     "employee_count": 600,
     "hq_location": "강남",
     "description": "국내 1위 부동산 플랫폼으로 아파트·원룸·오피스텔 매물 정보를 제공합니다. 호갱노노 인수와 삼성SDS와 협력으로 스마트홈·메타버스 오피스 등 프롭테크 영역을 확장 중입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.8, "evidence": "부동산 플랫폼, React Native"},
-      "growth": {"score": 3.6, "evidence": "프롭테크 시장 성장"},
-      "compensation": {"score": 3.7, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "수평적, 자율적 문화"},
-      "career_leverage": {"score": 3.7, "evidence": "프롭테크 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.8,
+        "evidence": "부동산 플랫폼, React Native"
+      },
+      "growth": {
+        "score": 3.6,
+        "evidence": "프롭테크 시장 성장"
+      },
+      "compensation": {
+        "score": 3.7,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "수평적, 자율적 문화"
+      },
+      "career_leverage": {
+        "score": 3.7,
+        "evidence": "프롭테크 도메인 경험"
+      }
+    },
+    "vision": "부동산 거래의 디지털 전환 No.1",
+    "business_direction": "AI 부동산 정보 플랫폼 고도화, 삼성SDS 스마트빌딩 협력, 3D 가상 투어 확대",
+    "ai_strategy": "AI 부동산 가격 예측·추천, 3D 가상 투어 AI, 계약서 분석 AI, 부동산 시세 예측 모델",
+    "corp_name": "주식회사 직방",
+    "business_segments": [
+      "부동산 정보 플랫폼(직방·아파트PRO)",
+      "스마트홈 IoT(도어락·월패드)",
+      "가상오피스(soma)",
+      "B2B 홈 네트워크 솔루션"
+    ],
+    "global_presence": [
+      "한국",
+      "중국",
+      "홍콩",
+      "싱가포르",
+      "대만",
+      "호주",
+      "베트남",
+      "멕시코(협상 중)"
+    ],
+    "ceo": "안성우"
   },
   {
     "name": "채널코퍼레이션",
@@ -1318,20 +3730,63 @@
     "industry": "IT/플랫폼",
     "sub_industry": "고객 커뮤니케이션 SaaS",
     "size": "스타트업",
-    "tech_stack": ["Go", "React", "TypeScript", "AWS", "Kafka", "Redis", "MongoDB", "gRPC"],
+    "tech_stack": [
+      "Go",
+      "React",
+      "TypeScript",
+      "AWS",
+      "Kafka",
+      "Redis",
+      "MongoDB",
+      "gRPC"
+    ],
     "hiring_active": true,
-    "key_products": ["채널톡 (B2B 채팅 CRM)", "ALF AI", "마케팅 자동화"],
+    "key_products": [
+      "채널톡 (B2B 채팅 CRM)",
+      "ALF AI",
+      "마케팅 자동화"
+    ],
     "founded_year": 2014,
     "employee_count": 400,
     "hq_location": "강남",
     "description": "기업 고객 응대 올인원 플랫폼 '채널톡'을 개발하는 B2B SaaS 기업입니다. 채팅·CRM·마케팅 자동화를 통합하여 국내외 10만+ 기업에 서비스하며, 글로벌 확장을 가속하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.3, "evidence": "SaaS 플랫폼, Go+React, 고성능"},
-      "growth": {"score": 4.3, "evidence": "글로벌 SaaS 확장, ARR 성장"},
-      "compensation": {"score": 4.0, "evidence": "스타트업 + 스톡옵션"},
-      "culture_fit": {"score": 4.3, "evidence": "자율, 수평, 고밀도 문화"},
-      "career_leverage": {"score": 4.3, "evidence": "글로벌 B2B SaaS 핵심 경험"}
-    }
+      "job_fit": {
+        "score": 4.3,
+        "evidence": "SaaS 플랫폼, Go+React, 고성능"
+      },
+      "growth": {
+        "score": 4.3,
+        "evidence": "글로벌 SaaS 확장, ARR 성장"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "스타트업 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.3,
+        "evidence": "자율, 수평, 고밀도 문화"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "글로벌 B2B SaaS 핵심 경험"
+      }
+    },
+    "vision": "모든 비즈니스에 최고의 고객 커뮤니케이션 솔루션",
+    "business_direction": "채널톡 글로벌(일본·미국) 확장, AI 상담 자동화 B2B SaaS 고도화",
+    "ai_strategy": "AI 챗봇·자동 응답 시스템, 생성형 AI 기반 CS 자동화, 다국어 AI 번역 상담, AI 고객 데이터 분석",
+    "corp_name": "주식회사 채널코퍼레이션",
+    "business_segments": [
+      "AI 비즈니스 메신저(채널톡)",
+      "AI 고객지원 에이전트",
+      "CRM/마케팅 자동화"
+    ],
+    "global_presence": [
+      "한국",
+      "일본(시장 점유율 1위)",
+      "미국(2025년 본격 진출)"
+    ],
+    "ceo": "최시원, 김재홍 (공동대표)"
   },
   {
     "name": "카카오",
@@ -1341,20 +3796,67 @@
     "industry": "IT/플랫폼",
     "sub_industry": "메신저/플랫폼/AI",
     "size": "대기업",
-    "tech_stack": ["Java", "Python", "Go", "React", "Kubernetes", "Kafka", "HBase", "LLM"],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "Go",
+      "React",
+      "Kubernetes",
+      "Kafka",
+      "HBase",
+      "LLM"
+    ],
     "hiring_active": true,
-    "key_products": ["카카오톡", "카카오맵", "KakaoAI"],
+    "key_products": [
+      "카카오톡",
+      "카카오맵",
+      "KakaoAI"
+    ],
     "founded_year": 2010,
     "employee_count": 12000,
     "hq_location": "판교",
     "description": "국민 메신저 카카오톡을 운영하는 국내 2위 인터넷 기업입니다. 카카오뱅크·카카오페이·카카오엔터 등 계열사와 함께 금융·콘텐츠·모빌리티 전반의 디지털 생활 플랫폼을 운영합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "대규모 분산 시스템, 다양한 도메인"},
-      "growth": {"score": 3.7, "evidence": "성장 둔화 우려, AI 전환 도전"},
-      "compensation": {"score": 4.0, "evidence": "IT 대기업 수준"},
-      "culture_fit": {"score": 3.7, "evidence": "대기업화, 수평 문화 유지 노력"},
-      "career_leverage": {"score": 4.1, "evidence": "국내 최대 트래픽 메신저 경험"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "대규모 분산 시스템, 다양한 도메인"
+      },
+      "growth": {
+        "score": 3.7,
+        "evidence": "성장 둔화 우려, AI 전환 도전"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "IT 대기업 수준"
+      },
+      "culture_fit": {
+        "score": 3.7,
+        "evidence": "대기업화, 수평 문화 유지 노력"
+      },
+      "career_leverage": {
+        "score": 4.1,
+        "evidence": "국내 최대 트래픽 메신저 경험"
+      }
+    },
+    "vision": "Connect Everything — 일상 속 모든 것을 연결",
+    "business_direction": "AI·글로벌 두 축으로 2026년 성장 전환, 카카오톡 AI 네이티브 재편, 글로벌 팬덤 OS(K-콘텐츠) 사업",
+    "ai_strategy": "AI 브랜드 '카나나(Kanana)' 전면 리브랜딩, 에이전틱 AI 서비스, 온디바이스 AI 고도화, 카카오톡 AI 에이전트 통합",
+    "corp_name": "카카오 주식회사",
+    "business_segments": [
+      "카카오톡(메신저·플랫폼)",
+      "카카오페이",
+      "카카오엔터테인먼트",
+      "카카오모빌리티",
+      "카카오클라우드(엔터프라이즈)",
+      "카카오게임즈"
+    ],
+    "global_presence": [
+      "한국",
+      "일본(카카오픽코마)",
+      "동남아시아",
+      "미국(카카오엔터 콘텐츠)"
+    ],
+    "ceo": "정신아"
   },
   {
     "name": "카카오뱅크",
@@ -1364,20 +3866,61 @@
     "industry": "핀테크",
     "sub_industry": "인터넷전문은행",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "Kafka", "MySQL", "Redis"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "Kafka",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["카카오뱅크 앱", "26주 적금", "모임통장"],
+    "key_products": [
+      "카카오뱅크 앱",
+      "26주 적금",
+      "모임통장"
+    ],
     "founded_year": 2016,
     "employee_count": 1700,
     "hq_location": "판교",
     "description": "국내 최초 인터넷전문은행으로, 2300만 명 이상의 사용자를 보유합니다. 코스피 상장 기업으로 신용대출·예적금·외환 등 금융 서비스를 모바일 중심으로 혁신하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "금융+테크 융합, Java 중심"},
-      "growth": {"score": 3.9, "evidence": "인터넷은행 성장, 수익성 확보"},
-      "compensation": {"score": 4.1, "evidence": "은행권 수준 + 테크 보상"},
-      "culture_fit": {"score": 4.0, "evidence": "핀테크 문화, 수평적"},
-      "career_leverage": {"score": 4.3, "evidence": "인터넷은행 핵심 시스템 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "금융+테크 융합, Java 중심"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "인터넷은행 성장, 수익성 확보"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "은행권 수준 + 테크 보상"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "핀테크 문화, 수평적"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "인터넷은행 핵심 시스템 경험"
+      }
+    },
+    "vision": "AI 네이티브 뱅크 — 금융 문턱을 낮추는 AI",
+    "business_direction": "AI 기반 포용금융 확대, 대안신용평가 서비스 고도화, 개인신용대출·주담대 AI 심사",
+    "ai_strategy": "카카오뱅크스코어(3800개 변수 대안신용평가), AI 이상거래 탐지, AI 금융 상품 추천, 생성형 AI 기반 금융 상담",
+    "corp_name": "주식회사 카카오뱅크",
+    "business_segments": [
+      "인터넷전문은행(수신·여신·결제)",
+      "대안신용평가",
+      "AI 금융 서비스",
+      "투자 서비스(카카오페이증권 연계)"
+    ],
+    "global_presence": [
+      "한국"
+    ],
+    "ceo": "윤호영"
   },
   {
     "name": "카카오스타일",
@@ -1387,20 +3930,56 @@
     "industry": "이커머스",
     "sub_industry": "패션/뷰티 이커머스",
     "size": "중견기업",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "MySQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["지그재그 (패션 앱)", "포스티 (패션 플랫폼)"],
+    "key_products": [
+      "지그재그 (패션 앱)",
+      "포스티 (패션 플랫폼)"
+    ],
     "founded_year": 2015,
     "employee_count": 500,
     "hq_location": "강남",
     "description": "카카오 계열의 패션 이커머스 플랫폼으로, 여성 패션 앱 지그재그를 운영합니다. AI 추천 기반 개인화 쇼핑 경험을 제공하며 MAU 700만의 국내 최대 여성 패션 플랫폼입니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "패션 이커머스, AI 추천 시스템"},
-      "growth": {"score": 3.8, "evidence": "패션 플랫폼 성장"},
-      "compensation": {"score": 3.8, "evidence": "카카오 계열 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "패션+테크 문화"},
-      "career_leverage": {"score": 3.9, "evidence": "버티컬 이커머스 + AI 추천 경험"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "패션 이커머스, AI 추천 시스템"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "패션 플랫폼 성장"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "카카오 계열 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "패션+테크 문화"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "버티컬 이커머스 + AI 추천 경험"
+      }
+    },
+    "vision": "개인 취향 기반 패션 커머스 플랫폼 (지그재그)",
+    "business_direction": "지그재그·포스티 플랫폼 성장, 패션 AI 추천 고도화, 글로벌 K-패션 확산",
+    "ai_strategy": "AI 개인화 스타일 추천, AI 가상 피팅, 트렌드 예측 AI 분석",
+    "corp_name": "주식회사 카카오스타일",
+    "business_segments": [
+      "여성 패션 플랫폼(지그재그)",
+      "남성 패션 플랫폼(포스티)",
+      "라이브커머스"
+    ],
+    "ceo": "서정훈"
   },
   {
     "name": "카카오엔터테인먼트",
@@ -1410,20 +3989,63 @@
     "industry": "미디어/엔터",
     "sub_industry": "웹툰/웹소설/음악 플랫폼",
     "size": "대기업",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "MySQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["카카오페이지", "카카오웹툰", "멜론"],
+    "key_products": [
+      "카카오페이지",
+      "카카오웹툰",
+      "멜론"
+    ],
     "founded_year": 2021,
     "employee_count": 2500,
     "hq_location": "판교",
     "description": "카카오의 엔터테인먼트 자회사로, 웹툰·웹소설 플랫폼 카카오페이지와 음악 플랫폼 멜론을 운영합니다. K-콘텐츠 IP 사업화와 글로벌 확산에 주력합니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "콘텐츠 플랫폼 개발"},
-      "growth": {"score": 3.8, "evidence": "K-콘텐츠 글로벌 확산"},
-      "compensation": {"score": 3.9, "evidence": "카카오 계열 대기업 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "콘텐츠+테크 혼합 문화"},
-      "career_leverage": {"score": 3.9, "evidence": "대규모 콘텐츠 플랫폼 경험"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "콘텐츠 플랫폼 개발"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "K-콘텐츠 글로벌 확산"
+      },
+      "compensation": {
+        "score": 3.9,
+        "evidence": "카카오 계열 대기업 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "콘텐츠+테크 혼합 문화"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "대규모 콘텐츠 플랫폼 경험"
+      }
+    },
+    "vision": "스토리·뮤직·콘텐츠로 세상을 연결",
+    "business_direction": "웹툰·웹소설 글로벌(픽코마·타파스) IP 확장, K-POP 아티스트 매니지먼트, 콘텐츠 IP 영상화",
+    "ai_strategy": "AI 번역 자동화로 글로벌 콘텐츠 배포 가속, AI 기반 스토리 추천, 가상 아이돌 AI 활용",
+    "corp_name": "카카오엔터테인먼트 주식회사",
+    "business_segments": [
+      "스토리(웹툰·웹소설)",
+      "뮤직(음원·음반)",
+      "영상(드라마·영화·OTT)",
+      "공연·아티스트 매니지먼트"
+    ],
+    "global_presence": [
+      "북미(타파스·래디쉬)",
+      "일본",
+      "동남아시아"
+    ],
+    "ceo": "장윤중, 고정희 (공동대표)"
   },
   {
     "name": "카카오페이",
@@ -1433,20 +4055,63 @@
     "industry": "핀테크",
     "sub_industry": "간편결제/금융",
     "size": "대기업",
-    "tech_stack": ["Java", "Kotlin", "Spring Boot", "React", "AWS", "Kafka", "MySQL", "Redis"],
+    "tech_stack": [
+      "Java",
+      "Kotlin",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "Kafka",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["카카오페이 결제", "카카오페이 투자", "카카오페이 보험"],
+    "key_products": [
+      "카카오페이 결제",
+      "카카오페이 투자",
+      "카카오페이 보험"
+    ],
     "founded_year": 2017,
     "employee_count": 1500,
     "hq_location": "판교",
     "description": "카카오톡 기반의 간편결제 플랫폼으로 코스피 상장 핀테크 기업입니다. 결제·송금·투자·보험·대출을 아우르는 금융 슈퍼앱으로 성장하며 MAU 2400만을 보유합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "결제 시스템 + 금융 도메인"},
-      "growth": {"score": 3.9, "evidence": "금융 서비스 확장 중"},
-      "compensation": {"score": 4.0, "evidence": "상장 핀테크 대기업 수준"},
-      "culture_fit": {"score": 4.0, "evidence": "핀테크 수평 문화"},
-      "career_leverage": {"score": 4.2, "evidence": "대규모 결제 인프라 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "결제 시스템 + 금융 도메인"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "금융 서비스 확장 중"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "상장 핀테크 대기업 수준"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "핀테크 수평 문화"
+      },
+      "career_leverage": {
+        "score": 4.2,
+        "evidence": "대규모 결제 인프라 경험"
+      }
+    },
+    "vision": "모두의 금융, 카카오페이",
+    "business_direction": "간편결제→종합 금융 플랫폼 전환, 카카오페이증권·보험 연계 강화, 글로벌 결제 확장",
+    "ai_strategy": "AI 기반 소비 분석·맞춤 금융 추천, 이상거래 탐지 AI 고도화, AI 보험 가입 자동화",
+    "corp_name": "카카오페이 주식회사",
+    "business_segments": [
+      "간편결제",
+      "금융서비스(보험·대출·투자)",
+      "광고·커머스",
+      "해외결제"
+    ],
+    "global_presence": [
+      "일본",
+      "동남아시아(간편결제 연동)"
+    ],
+    "ceo": "신원근"
   },
   {
     "name": "카카오페이증권",
@@ -1456,20 +4121,57 @@
     "industry": "핀테크",
     "sub_industry": "인터넷증권/MTS",
     "size": "중견기업",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "MySQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["카카오페이증권 MTS", "소수점 투자", "해외주식"],
+    "key_products": [
+      "카카오페이증권 MTS",
+      "소수점 투자",
+      "해외주식"
+    ],
     "founded_year": 2019,
     "employee_count": 500,
     "hq_location": "판교",
     "description": "카카오페이 계열의 인터넷 증권사로, 소수점 매매·해외주식 등 MZ세대 투자자를 위한 서비스를 제공합니다. 쉽고 직관적인 UX로 개인 투자자를 확보하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.0, "evidence": "증권 시스템 + 핀테크"},
-      "growth": {"score": 3.8, "evidence": "개인투자 확대 트렌드"},
-      "compensation": {"score": 3.9, "evidence": "카카오 계열 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "핀테크 문화"},
-      "career_leverage": {"score": 4.0, "evidence": "증권 코어 시스템 경험"}
-    }
+      "job_fit": {
+        "score": 4.0,
+        "evidence": "증권 시스템 + 핀테크"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "개인투자 확대 트렌드"
+      },
+      "compensation": {
+        "score": 3.9,
+        "evidence": "카카오 계열 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "핀테크 문화"
+      },
+      "career_leverage": {
+        "score": 4.0,
+        "evidence": "증권 코어 시스템 경험"
+      }
+    },
+    "vision": "누구나 쉽게 투자하는 MZ 세대 증권 플랫폼",
+    "business_direction": "카카오페이 연계 투자 서비스 고도화, 소액 투자·ETF 저변 확대",
+    "ai_strategy": "AI 기반 투자 추천·포트폴리오 최적화, 자동화 투자 리포트 생성",
+    "corp_name": "카카오페이증권 주식회사",
+    "business_segments": [
+      "브로커리지(국내·해외주식)",
+      "금융상품(ETF·펀드)",
+      "자산관리"
+    ],
+    "ceo": "신호철"
   },
   {
     "name": "컬리",
@@ -1479,20 +4181,55 @@
     "industry": "이커머스",
     "sub_industry": "신선식품 이커머스",
     "size": "유니콘",
-    "tech_stack": ["Java", "Spring Boot", "React", "AWS", "MySQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "MySQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["마켓컬리 (새벽배송)", "뷰티컬리"],
+    "key_products": [
+      "마켓컬리 (새벽배송)",
+      "뷰티컬리"
+    ],
     "founded_year": 2015,
     "employee_count": 2000,
     "hq_location": "강남",
     "description": "신선식품 새벽배송 시장을 개척한 프리미엄 식료품 이커머스입니다. 마켓컬리와 뷰티컬리를 운영하며, 엄선된 상품 큐레이션과 콜드체인 물류 역량이 강점입니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "이커머스 + 물류 시스템"},
-      "growth": {"score": 3.6, "evidence": "신선식품 성장, 수익성 과제"},
-      "compensation": {"score": 3.8, "evidence": "유니콘 수준"},
-      "culture_fit": {"score": 3.8, "evidence": "식품 큐레이션 중심 문화"},
-      "career_leverage": {"score": 3.8, "evidence": "콜드체인 이커머스 경험"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "이커머스 + 물류 시스템"
+      },
+      "growth": {
+        "score": 3.6,
+        "evidence": "신선식품 성장, 수익성 과제"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "유니콘 수준"
+      },
+      "culture_fit": {
+        "score": 3.8,
+        "evidence": "식품 큐레이션 중심 문화"
+      },
+      "career_leverage": {
+        "score": 3.8,
+        "evidence": "콜드체인 이커머스 경험"
+      }
+    },
+    "vision": "가장 신선하고 좋은 것들을 가장 빠르게",
+    "business_direction": "마켓컬리+뷰티컬리 통합 새벽배송 플랫폼, 컬리페이 금융 서비스, IPO 재추진",
+    "ai_strategy": "AI 수요 예측으로 신선식품 폐기율 최소화, AI 개인화 추천(식품·뷰티), AI 물류 센터 자동화",
+    "corp_name": "주식회사 컬리",
+    "business_segments": [
+      "마켓컬리(신선식품 이커머스)",
+      "뷰티컬리(뷰티 이커머스)"
+    ],
+    "ceo": "김슬아"
   },
   {
     "name": "코인원",
@@ -1502,20 +4239,55 @@
     "industry": "핀테크",
     "sub_industry": "가상자산 거래소",
     "size": "중견기업",
-    "tech_stack": ["Python", "Go", "React", "AWS", "PostgreSQL", "Redis"],
+    "tech_stack": [
+      "Python",
+      "Go",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["코인원 거래소", "코인원 트랜스퍼"],
+    "key_products": [
+      "코인원 거래소",
+      "코인원 트랜스퍼"
+    ],
     "founded_year": 2014,
     "employee_count": 300,
     "hq_location": "마포",
     "description": "국내 3위 가상자산 거래소로, 안정적인 거래 인프라와 보안을 강점으로 합니다. 블록체인 기술 기반 결제 서비스와 기관 투자자 대상 서비스를 확대하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.7, "evidence": "가상자산 거래 시스템"},
-      "growth": {"score": 3.5, "evidence": "가상자산 시장 사이클 의존"},
-      "compensation": {"score": 3.8, "evidence": "업계 상위 수준"},
-      "culture_fit": {"score": 3.6, "evidence": "금융+블록체인 문화"},
-      "career_leverage": {"score": 3.7, "evidence": "블록체인 거래소 경험"}
-    }
+      "job_fit": {
+        "score": 3.7,
+        "evidence": "가상자산 거래 시스템"
+      },
+      "growth": {
+        "score": 3.5,
+        "evidence": "가상자산 시장 사이클 의존"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "업계 상위 수준"
+      },
+      "culture_fit": {
+        "score": 3.6,
+        "evidence": "금융+블록체인 문화"
+      },
+      "career_leverage": {
+        "score": 3.7,
+        "evidence": "블록체인 거래소 경험"
+      }
+    },
+    "vision": "신뢰할 수 있는 디지털 자산 거래소",
+    "business_direction": "국내 가상자산 거래소 시장 지위 유지, 기관 투자자 서비스 확대, 법인 고객 가상자산 서비스",
+    "ai_strategy": "AI 기반 시장 이상탐지, 자동화 거래 분석 서비스",
+    "corp_name": "주식회사 코인원",
+    "business_segments": [
+      "가상자산 거래소",
+      "기관 서비스(OTC·커스터디)",
+      "Web3 플랫폼"
+    ],
+    "ceo": "이성현"
   },
   {
     "name": "쿠팡",
@@ -1525,20 +4297,65 @@
     "industry": "이커머스",
     "sub_industry": "로켓배송/종합 이커머스",
     "size": "대기업",
-    "tech_stack": ["Java", "Python", "Go", "React", "AWS", "Kafka", "MySQL", "Redis", "Spark"],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "Go",
+      "React",
+      "AWS",
+      "Kafka",
+      "MySQL",
+      "Redis",
+      "Spark"
+    ],
     "hiring_active": true,
-    "key_products": ["쿠팡 (로켓배송)", "쿠팡이츠", "쿠팡플레이"],
+    "key_products": [
+      "쿠팡 (로켓배송)",
+      "쿠팡이츠",
+      "쿠팡플레이"
+    ],
     "founded_year": 2010,
     "employee_count": 60000,
     "hq_location": "송파",
     "description": "뉴욕증권거래소 상장 국내 최대 이커머스 기업으로, 로켓배송을 통해 국내 이커머스 시장을 혁신했습니다. 쿠팡이츠·쿠팡플레이 등으로 사업을 확장하며 글로벌 진출도 추진합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.3, "evidence": "초대규모 분산 시스템, 글로벌 수준"},
-      "growth": {"score": 4.1, "evidence": "이커머스 1위, 수익 전환 완료"},
-      "compensation": {"score": 4.3, "evidence": "NYSE 상장사 높은 보상"},
-      "culture_fit": {"score": 3.5, "evidence": "고강도 성과 중심 문화"},
-      "career_leverage": {"score": 4.5, "evidence": "글로벌 수준 대규모 이커머스 경험"}
-    }
+      "job_fit": {
+        "score": 4.3,
+        "evidence": "초대규모 분산 시스템, 글로벌 수준"
+      },
+      "growth": {
+        "score": 4.1,
+        "evidence": "이커머스 1위, 수익 전환 완료"
+      },
+      "compensation": {
+        "score": 4.3,
+        "evidence": "NYSE 상장사 높은 보상"
+      },
+      "culture_fit": {
+        "score": 3.5,
+        "evidence": "고강도 성과 중심 문화"
+      },
+      "career_leverage": {
+        "score": 4.5,
+        "evidence": "글로벌 수준 대규모 이커머스 경험"
+      }
+    },
+    "vision": "고객의 삶을 이전보다 100배 낫게 만든다",
+    "business_direction": "2027년 전국민 100% 무료 로켓배송 실현, 2026년까지 3조 원 물류 인프라 추가 투자, 핀테크·OTT(쿠팡플레이) 확장",
+    "ai_strategy": "AI·로보틱스 기반 물류 자동화(AGV·ACR·소팅봇), 생성형 AI 광고 인사이트 플랫폼(Amazon Bedrock), AI 기반 상품 추천 고도화",
+    "corp_name": "쿠팡 주식회사",
+    "business_segments": [
+      "이커머스(로켓배송·로켓그로스)",
+      "쿠팡이츠(푸드딜리버리)",
+      "쿠팡플레이(OTT)",
+      "쿠팡페이(핀테크)",
+      "파페치(명품 플랫폼)"
+    ],
+    "global_presence": [
+      "한국",
+      "대만"
+    ],
+    "ceo": "해롤드 로저스 (한국법인 대표이사)"
   },
   {
     "name": "크래프톤",
@@ -1548,20 +4365,63 @@
     "industry": "게임",
     "sub_industry": "PC/모바일 글로벌 게임",
     "size": "대기업",
-    "tech_stack": ["C++", "Unreal Engine", "C#", "Python", "AWS", "MySQL"],
+    "tech_stack": [
+      "C++",
+      "Unreal Engine",
+      "C#",
+      "Python",
+      "AWS",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["PUBG: 배틀그라운드", "PUBG Mobile", "칼리스토 프로토콜"],
+    "key_products": [
+      "PUBG: 배틀그라운드",
+      "PUBG Mobile",
+      "칼리스토 프로토콜"
+    ],
     "founded_year": 2007,
     "employee_count": 3500,
     "hq_location": "판교",
     "description": "배틀그라운드(PUBG)로 글로벌 배틀로얄 장르를 개척한 게임 대기업으로 코스피 상장 기업입니다. 전 세계 7500만 DAU를 보유한 PUBG Mobile을 포함해 글로벌 시장에서 성공을 거두고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "글로벌 게임 서버, 언리얼 엔진"},
-      "growth": {"score": 3.9, "evidence": "PUBG 글로벌 IP, 신작 개발"},
-      "compensation": {"score": 4.2, "evidence": "게임 대기업 최상위 + 스톡"},
-      "culture_fit": {"score": 3.9, "evidence": "글로벌 지향, 기술 중심"},
-      "career_leverage": {"score": 4.3, "evidence": "글로벌 히트작 개발 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "글로벌 게임 서버, 언리얼 엔진"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "PUBG 글로벌 IP, 신작 개발"
+      },
+      "compensation": {
+        "score": 4.2,
+        "evidence": "게임 대기업 최상위 + 스톡"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "글로벌 지향, 기술 중심"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "글로벌 히트작 개발 경험"
+      }
+    },
+    "vision": "게이머의 로망을 실현하기 위해 누구도 가지 않는 길에 도전",
+    "business_direction": "PUBG IP 글로벌 확장, Big 프랜차이즈 IP 확보, 신규 AAA 타이틀(인조이 등) 출시",
+    "ai_strategy": "CPC(Co-Playable Character) AI NPC 기술, 딥러닝 기반 게임 AI, 사내 생산성 AI 서비스, GTC 2026 AI 게임 비전 발표",
+    "corp_name": "주식회사 크래프톤",
+    "business_segments": [
+      "게임(PUBG·뉴스테이트·다크앤다커)",
+      "AI 사업",
+      "인도 게임·크리에이터 투자"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "인도",
+      "동남아시아",
+      "유럽"
+    ],
+    "ceo": "김창한"
   },
   {
     "name": "클래스101",
@@ -1571,20 +4431,61 @@
     "industry": "에듀테크",
     "sub_industry": "온라인 클래스/구독",
     "size": "스타트업",
-    "tech_stack": ["Python", "Django", "React", "TypeScript", "AWS", "PostgreSQL", "Redis"],
+    "tech_stack": [
+      "Python",
+      "Django",
+      "React",
+      "TypeScript",
+      "AWS",
+      "PostgreSQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["클래스101 (온라인 클래스)", "클래스101+ (구독)"],
+    "key_products": [
+      "클래스101 (온라인 클래스)",
+      "클래스101+ (구독)"
+    ],
     "founded_year": 2018,
     "employee_count": 300,
     "hq_location": "강남",
     "description": "크리에이터와 수강생을 연결하는 온라인 클래스 플랫폼으로, 취미·커리어·재테크 등 다양한 분야의 강의를 제공합니다. 월정액 구독 모델로 전환하며 에듀테크 시장을 선도합니다.",
     "scorecard": {
-      "job_fit": {"score": 3.8, "evidence": "에듀테크 플랫폼 개발"},
-      "growth": {"score": 3.6, "evidence": "구독 모델 전환, 글로벌 진출"},
-      "compensation": {"score": 3.5, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 4.0, "evidence": "크리에이터 중심, 수평 문화"},
-      "career_leverage": {"score": 3.6, "evidence": "에듀테크 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.8,
+        "evidence": "에듀테크 플랫폼 개발"
+      },
+      "growth": {
+        "score": 3.6,
+        "evidence": "구독 모델 전환, 글로벌 진출"
+      },
+      "compensation": {
+        "score": 3.5,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "크리에이터 중심, 수평 문화"
+      },
+      "career_leverage": {
+        "score": 3.6,
+        "evidence": "에듀테크 도메인 경험"
+      }
+    },
+    "vision": "누구나 좋아하는 것으로 먹고살 수 있는 세상",
+    "business_direction": "글로벌 온라인 클래스 플랫폼 확장, 크리에이터 경제 생태계 강화, B2B 기업 교육 솔루션",
+    "ai_strategy": "AI 기반 강의 추천·학습 경로 설계, AI 자동 자막·번역, AI 강의 요약 서비스",
+    "corp_name": "주식회사 클래스101",
+    "business_segments": [
+      "온라인 취미·교육 구독(B2C)",
+      "기업 교육 구독(B2B)",
+      "크리에이터 수익화 플랫폼"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "미국"
+    ],
+    "ceo": "공대선"
   },
   {
     "name": "테슬라코리아",
@@ -1594,43 +4495,135 @@
     "industry": "자동차",
     "sub_industry": "전기차/자율주행",
     "size": "대기업",
-    "tech_stack": ["C++", "Python", "PyTorch", "Embedded Linux", "CUDA", "ROS"],
+    "tech_stack": [
+      "C++",
+      "Python",
+      "PyTorch",
+      "Embedded Linux",
+      "CUDA",
+      "ROS"
+    ],
     "hiring_active": true,
-    "key_products": ["Model S/3/X/Y", "Autopilot", "에너지 저장 솔루션"],
+    "key_products": [
+      "Model S/3/X/Y",
+      "Autopilot",
+      "에너지 저장 솔루션"
+    ],
     "founded_year": 2003,
     "employee_count": 400,
     "hq_location": "강남",
     "description": "전기차·자율주행 시장을 선도하는 테슬라의 한국 법인으로, 국내 영업·서비스·충전 인프라를 운영합니다. 한국에서 소프트웨어 엔지니어링 포지션도 채용합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.3, "evidence": "자율주행/EV SW 최전선"},
-      "growth": {"score": 4.0, "evidence": "EV 전환 가속, AI 투자"},
-      "compensation": {"score": 4.5, "evidence": "글로벌 빅테크 수준"},
-      "culture_fit": {"score": 3.6, "evidence": "고강도 성과 중심"},
-      "career_leverage": {"score": 4.7, "evidence": "자율주행 SW 최고 경력"}
-    }
+      "job_fit": {
+        "score": 4.3,
+        "evidence": "자율주행/EV SW 최전선"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "EV 전환 가속, AI 투자"
+      },
+      "compensation": {
+        "score": 4.5,
+        "evidence": "글로벌 빅테크 수준"
+      },
+      "culture_fit": {
+        "score": 3.6,
+        "evidence": "고강도 성과 중심"
+      },
+      "career_leverage": {
+        "score": 4.7,
+        "evidence": "자율주행 SW 최고 경력"
+      }
+    },
+    "vision": "Accelerate the world's transition to sustainable energy",
+    "business_direction": "전기차 판매 확대, FSD(완전 자율주행) 한국 서비스 준비, 에너지 스토리지(Powerwall) 사업",
+    "ai_strategy": "FSD(완전 자율주행) AI 도조(Dojo) 슈퍼컴퓨터, 옵티머스 로봇 AI, 차량 내 온디바이스 AI 지속 업데이트",
+    "corp_name": "테슬라코리아 유한책임회사",
+    "business_segments": [
+      "전기차 판매",
+      "충전 인프라(수퍼차저)",
+      "에너지 저장(파워월·메가팩)",
+      "태양광(솔라루프)"
+    ],
+    "global_presence": [
+      "전 세계 50개국 이상"
+    ],
+    "ceo": "한국법인 대표 미공개 (글로벌 CEO: 엘론 머스크)"
   },
   {
-    "name": "토스",
+    "name": "토스 (비바리퍼블리카)",
     "sources": 14,
-    "score": 75.0,
+    "score": 76.0,
     "grade": "A",
     "industry": "핀테크",
     "sub_industry": "슈퍼앱/간편금융",
     "size": "유니콘",
-    "tech_stack": ["Java", "Kotlin", "Swift", "React", "TypeScript", "AWS", "Kafka", "MySQL"],
+    "tech_stack": [
+      "AWS",
+      "Java",
+      "Kafka",
+      "Kotlin",
+      "MySQL",
+      "React",
+      "Redis",
+      "Swift",
+      "TypeScript"
+    ],
     "hiring_active": true,
-    "key_products": ["토스 앱 (간편송금/금융)", "토스뱅크", "토스증권"],
+    "key_products": [
+      "토스 앱 (간편송금/금융 슈퍼앱)",
+      "토스뱅크",
+      "토스증권",
+      "토스페이먼츠"
+    ],
     "founded_year": 2013,
-    "employee_count": 2500,
+    "employee_count": 5000,
     "hq_location": "강남",
-    "description": "비바리퍼블리카가 운영하는 금융 슈퍼앱으로 월간 사용자 2300만 명을 보유합니다. 간편송금에서 출발해 은행·증권·보험·결제를 아우르며 국내 1위 핀테크 브랜드로 자리잡았습니다.",
+    "description": "비바리퍼블리카가 운영하는 국내 1위 핀테크 금융 슈퍼앱. 간편송금에서 출발해 은행·증권·보험·결제를 아우르며 월간 사용자 2300만 명, 기업가치 약 10조를 보유한 국내 최대 핀테크 유니콘.",
     "scorecard": {
-      "job_fit": {"score": 4.4, "evidence": "금융 도메인, 높은 기술 기준"},
-      "growth": {"score": 4.2, "evidence": "금융 슈퍼앱 지속 확장"},
-      "compensation": {"score": 4.5, "evidence": "국내 최상위 연봉 수준"},
-      "culture_fit": {"score": 4.4, "evidence": "수평적, 데이터 기반, 고밀도"},
-      "career_leverage": {"score": 4.5, "evidence": "국내 최대 핀테크 핵심 경험"}
-    }
+      "job_fit": {
+        "score": 4.4,
+        "evidence": "금융 도메인, 높은 기술 기준"
+      },
+      "growth": {
+        "score": 4.2,
+        "evidence": "금융 슈퍼앱 지속 확장"
+      },
+      "compensation": {
+        "score": 4.5,
+        "evidence": "국내 최상위 연봉 수준"
+      },
+      "culture_fit": {
+        "score": 4.4,
+        "evidence": "수평적, 데이터 기반, 고밀도"
+      },
+      "career_leverage": {
+        "score": 4.5,
+        "evidence": "국내 최대 핀테크 핵심 경험"
+      }
+    },
+    "vision": "금융을 새로 만들다 — 간편하고 안전한 금융생활",
+    "business_direction": "금융 슈퍼앱 토스 고도화, 동남아 금융 진출(베트남 등), 토스뱅크·토스증권·토스페이먼츠 그룹사 시너지",
+    "ai_strategy": "AI 기반 신용평가 고도화, 토스증권 AI 어닝콜·AI시그널 서비스, AI 맞춤 금융상품 추천, 이상거래 탐지 AI",
+    "corp_name": "주식회사 비바리퍼블리카",
+    "business_segments": [
+      "간편송금·결제 (토스)",
+      "인터넷은행 (토스뱅크)",
+      "증권 (토스증권)",
+      "보험 (토스인슈어런스)",
+      "결제 인프라 (토스페이먼츠)",
+      "간편금융 앱(토스)",
+      "인터넷은행(토스뱅크)",
+      "증권(토스증권)",
+      "결제(토스페이먼츠)",
+      "보험(토스인슈어런스)"
+    ],
+    "global_presence": [
+      "한국",
+      "베트남",
+      "베트남(토스 글로벌 법인)"
+    ],
+    "ceo": "이승건"
   },
   {
     "name": "토스랩",
@@ -1640,20 +4633,61 @@
     "industry": "IT/플랫폼",
     "sub_industry": "협업 툴/SaaS",
     "size": "스타트업",
-    "tech_stack": ["Go", "React", "TypeScript", "AWS", "PostgreSQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Go",
+      "React",
+      "TypeScript",
+      "AWS",
+      "PostgreSQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["잔디 (기업 메신저)", "Jandi Connect"],
+    "key_products": [
+      "잔디 (기업 메신저)",
+      "Jandi Connect"
+    ],
     "founded_year": 2013,
     "employee_count": 150,
     "hq_location": "강남",
     "description": "기업용 협업 메신저 '잔디'를 운영하는 B2B SaaS 기업입니다. 국내외 30만+ 기업이 사용하는 업무용 메신저로, 아시아 기업 시장에 특화된 협업 툴을 제공합니다.",
     "scorecard": {
-      "job_fit": {"score": 3.8, "evidence": "SaaS 협업툴, Go+React"},
-      "growth": {"score": 3.5, "evidence": "Slack 등과 경쟁"},
-      "compensation": {"score": 3.5, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "B2B SaaS 문화"},
-      "career_leverage": {"score": 3.7, "evidence": "협업툴 SaaS 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.8,
+        "evidence": "SaaS 협업툴, Go+React"
+      },
+      "growth": {
+        "score": 3.5,
+        "evidence": "Slack 등과 경쟁"
+      },
+      "compensation": {
+        "score": 3.5,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "B2B SaaS 문화"
+      },
+      "career_leverage": {
+        "score": 3.7,
+        "evidence": "협업툴 SaaS 도메인 경험"
+      }
+    },
+    "vision": "업무 소통의 새로운 기준 — 잔디(JANDI)",
+    "business_direction": "기업용 협업툴 잔디 국내 B2B 확대, 일본·대만 글로벌 시장 운영",
+    "ai_strategy": "AI 기반 메시지 요약·업무 자동화, AI 통역·번역 기능, 생성형 AI 업무 어시스턴트 통합",
+    "corp_name": "주식회사 토스랩",
+    "business_segments": [
+      "기업 메신저(잔디)",
+      "프로젝트 관리(잔디 프로젝트)",
+      "AI 협업(잔디 AI)"
+    ],
+    "global_presence": [
+      "한국",
+      "일본",
+      "대만"
+    ],
+    "ceo": "김대현"
   },
   {
     "name": "토스뱅크",
@@ -1663,20 +4697,58 @@
     "industry": "핀테크",
     "sub_industry": "인터넷전문은행",
     "size": "중견기업",
-    "tech_stack": ["Java", "Kotlin", "Spring Boot", "AWS", "Kafka", "MySQL", "Redis"],
+    "tech_stack": [
+      "Java",
+      "Kotlin",
+      "Spring Boot",
+      "AWS",
+      "Kafka",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["토스뱅크 통장", "토스뱅크 대출", "먼저 이자 주는 적금"],
+    "key_products": [
+      "토스뱅크 통장",
+      "토스뱅크 대출",
+      "먼저 이자 주는 적금"
+    ],
     "founded_year": 2021,
     "employee_count": 600,
     "hq_location": "강남",
     "description": "비바리퍼블리카 계열의 인터넷전문은행으로, 혁신적인 금융 상품과 UX로 빠르게 성장하고 있습니다. 출범 2년 만에 흑자 전환에 성공하며 3호 인터넷전문은행의 가능성을 증명했습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "인터넷은행 코어뱅킹 개발"},
-      "growth": {"score": 4.0, "evidence": "빠른 성장, 흑자 전환"},
-      "compensation": {"score": 4.2, "evidence": "토스 계열 높은 보상"},
-      "culture_fit": {"score": 4.2, "evidence": "토스 문화 그대로"},
-      "career_leverage": {"score": 4.2, "evidence": "인터넷은행 코어 시스템 경험"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "인터넷은행 코어뱅킹 개발"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "빠른 성장, 흑자 전환"
+      },
+      "compensation": {
+        "score": 4.2,
+        "evidence": "토스 계열 높은 보상"
+      },
+      "culture_fit": {
+        "score": 4.2,
+        "evidence": "토스 문화 그대로"
+      },
+      "career_leverage": {
+        "score": 4.2,
+        "evidence": "인터넷은행 코어 시스템 경험"
+      }
+    },
+    "vision": "은행의 상식을 바꾸다",
+    "business_direction": "인터넷전문은행 고객 확대, 중저신용자 대출 확대, 외환·신용카드 서비스 강화",
+    "ai_strategy": "AI 신용평가 고도화, AI 기반 대출 심사 자동화, 이상거래 탐지 AI, 비바리퍼블리카 AI 인프라 공유",
+    "corp_name": "토스뱅크 주식회사",
+    "business_segments": [
+      "수신(예·적금)",
+      "여신(대출)",
+      "외환·해외송금",
+      "카드"
+    ],
+    "ceo": "이은미"
   },
   {
     "name": "토스증권",
@@ -1686,20 +4758,58 @@
     "industry": "핀테크",
     "sub_industry": "인터넷증권/MTS",
     "size": "중견기업",
-    "tech_stack": ["Java", "Kotlin", "Spring Boot", "React", "AWS", "Kafka", "MySQL"],
+    "tech_stack": [
+      "Java",
+      "Kotlin",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "Kafka",
+      "MySQL"
+    ],
     "hiring_active": true,
-    "key_products": ["토스증권 MTS", "해외주식", "주식 커뮤니티"],
+    "key_products": [
+      "토스증권 MTS",
+      "해외주식",
+      "주식 커뮤니티"
+    ],
     "founded_year": 2020,
     "employee_count": 400,
     "hq_location": "강남",
     "description": "비바리퍼블리카 계열의 인터넷 증권사로, 직관적인 UX와 소수점 해외주식 거래로 MZ세대 투자자를 빠르게 확보했습니다. 출범 1년 만에 국내 증권 계좌 개설 1위를 달성했습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.1, "evidence": "증권 거래 시스템 + 핀테크"},
-      "growth": {"score": 4.0, "evidence": "개인투자 트렌드, 빠른 성장"},
-      "compensation": {"score": 4.1, "evidence": "토스 계열 높은 보상"},
-      "culture_fit": {"score": 4.2, "evidence": "토스 수평 문화"},
-      "career_leverage": {"score": 4.1, "evidence": "증권 코어 + 핀테크 경험"}
-    }
+      "job_fit": {
+        "score": 4.1,
+        "evidence": "증권 거래 시스템 + 핀테크"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "개인투자 트렌드, 빠른 성장"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "토스 계열 높은 보상"
+      },
+      "culture_fit": {
+        "score": 4.2,
+        "evidence": "토스 수평 문화"
+      },
+      "career_leverage": {
+        "score": 4.1,
+        "evidence": "증권 코어 + 핀테크 경험"
+      }
+    },
+    "vision": "누구나 쉽게 투자하는 세상",
+    "business_direction": "MZ세대 중심 투자 플랫폼 확대, 해외주식·ETF 확대, 2025 AI 원년 선포",
+    "ai_strategy": "AI어닝콜(해외 기업 실시간 AI 번역), AI시그널(시장 분석), AI 기반 투자 인사이트 제공, 데이터 축적 기반 AI 금융 서비스 고도화",
+    "corp_name": "토스증권 주식회사",
+    "business_segments": [
+      "국내주식 브로커리지",
+      "해외주식 브로커리지",
+      "금융상품(ETF·채권)",
+      "투자정보 플랫폼"
+    ],
+    "ceo": "김규빈"
   },
   {
     "name": "토스페이먼츠",
@@ -1709,20 +4819,62 @@
     "industry": "핀테크",
     "sub_industry": "PG/결제 인프라",
     "size": "중견기업",
-    "tech_stack": ["Java", "Kotlin", "Spring Boot", "React", "AWS", "Kafka", "MySQL", "Redis"],
+    "tech_stack": [
+      "Java",
+      "Kotlin",
+      "Spring Boot",
+      "React",
+      "AWS",
+      "Kafka",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["토스페이먼츠 PG", "토스 결제 위젯", "정산 서비스"],
+    "key_products": [
+      "토스페이먼츠 PG",
+      "토스 결제 위젯",
+      "정산 서비스"
+    ],
     "founded_year": 2020,
     "employee_count": 350,
     "hq_location": "강남",
     "description": "비바리퍼블리카 계열의 결제 인프라 기업으로, 온라인 결제 대행(PG) 서비스를 제공합니다. 개발자 친화적인 결제 API와 직관적인 대시보드로 빠르게 시장 점유율을 확대하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "결제 인프라, 고신뢰 시스템"},
-      "growth": {"score": 4.0, "evidence": "온라인 결제 시장 성장"},
-      "compensation": {"score": 4.1, "evidence": "토스 계열 높은 보상"},
-      "culture_fit": {"score": 4.2, "evidence": "토스 수평 문화"},
-      "career_leverage": {"score": 4.3, "evidence": "결제 인프라 코어 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "결제 인프라, 고신뢰 시스템"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "온라인 결제 시장 성장"
+      },
+      "compensation": {
+        "score": 4.1,
+        "evidence": "토스 계열 높은 보상"
+      },
+      "culture_fit": {
+        "score": 4.2,
+        "evidence": "토스 수평 문화"
+      },
+      "career_leverage": {
+        "score": 4.3,
+        "evidence": "결제 인프라 코어 경험"
+      }
+    },
+    "vision": "결제의 새로운 기준을 만들다",
+    "business_direction": "PG(결제대행) 시장 점유율 확대, 해외결제 서비스 강화, 가맹점 금융 서비스 확대",
+    "ai_strategy": "AI 기반 결제 사기 탐지, 이상거래 실시간 분석, 결제 데이터 AI 분석 서비스",
+    "corp_name": "토스페이먼츠 주식회사",
+    "business_segments": [
+      "PG(결제대행)",
+      "해외결제",
+      "정산·세금계산서 솔루션"
+    ],
+    "global_presence": [
+      "한국",
+      "글로벌 결제 연동(해외 가맹점)"
+    ],
+    "ceo": "임한욱"
   },
   {
     "name": "포티투마루",
@@ -1732,20 +4884,62 @@
     "industry": "AI",
     "sub_industry": "기업용 AI/QA 시스템",
     "size": "스타트업",
-    "tech_stack": ["Python", "PyTorch", "FastAPI", "React", "AWS", "Elasticsearch", "LLM"],
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "FastAPI",
+      "React",
+      "AWS",
+      "Elasticsearch",
+      "LLM"
+    ],
     "hiring_active": true,
-    "key_products": ["42maru QA 플랫폼", "LLM 기반 문서 검색", "기업용 AI 챗봇"],
+    "key_products": [
+      "42maru QA 플랫폼",
+      "LLM 기반 문서 검색",
+      "기업용 AI 챗봇"
+    ],
     "founded_year": 2018,
     "employee_count": 100,
     "hq_location": "성수",
     "description": "기계독해(MRC)와 질의응답(QA) AI 기술 특화 스타트업으로, 기업용 문서 검색과 AI 챗봇 솔루션을 제공합니다. 삼성·현대 등 대기업에 엔터프라이즈 AI를 공급하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "NLP/QA AI, 기업용 LLM"},
-      "growth": {"score": 3.9, "evidence": "기업 AI 도입 수요 증가"},
-      "compensation": {"score": 3.5, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 4.0, "evidence": "AI 연구+제품 문화"},
-      "career_leverage": {"score": 4.1, "evidence": "엔터프라이즈 NLP/LLM 경험"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "NLP/QA AI, 기업용 LLM"
+      },
+      "growth": {
+        "score": 3.9,
+        "evidence": "기업 AI 도입 수요 증가"
+      },
+      "compensation": {
+        "score": 3.5,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "AI 연구+제품 문화"
+      },
+      "career_leverage": {
+        "score": 4.1,
+        "evidence": "엔터프라이즈 NLP/LLM 경험"
+      }
+    },
+    "vision": "문서 AI로 기업 지식을 연결하다",
+    "business_direction": "엔터프라이즈 문서 AI·RAG 솔루션 B2B 확대, 공공·금융 특화 AI 플랫폼",
+    "ai_strategy": "자체 NLP/QA AI 엔진, 기업용 문서 검색·RAG 플랫폼, 국가대표 AI 기업 선정, LLM 기반 지식 관리 솔루션",
+    "corp_name": "주식회사 포티투마루",
+    "business_segments": [
+      "엔터프라이즈 AI QA 플랫폼",
+      "RAG 솔루션",
+      "산업별 특화 LLM",
+      "AX 컨설팅"
+    ],
+    "global_presence": [
+      "한국",
+      "글로벌 진출 추진"
+    ],
+    "ceo": "김동환"
   },
   {
     "name": "퓨리오사AI",
@@ -1755,20 +4949,60 @@
     "industry": "반도체",
     "sub_industry": "AI 반도체/NPU",
     "size": "스타트업",
-    "tech_stack": ["C++", "Python", "MLIR", "LLVM", "PyTorch", "Verilog"],
+    "tech_stack": [
+      "C++",
+      "Python",
+      "MLIR",
+      "LLVM",
+      "PyTorch",
+      "Verilog"
+    ],
     "hiring_active": true,
-    "key_products": ["WARBOY (AI 추론 칩)", "RNGD (차세대 NPU)"],
+    "key_products": [
+      "WARBOY (AI 추론 칩)",
+      "RNGD (차세대 NPU)"
+    ],
     "founded_year": 2017,
     "employee_count": 250,
     "hq_location": "강남",
     "description": "국내 최초 상용화 AI 반도체 스타트업으로, 데이터센터 AI 추론 가속기 WARBOY와 RNGD를 개발합니다. 카카오·KT 등 국내 주요 기업에 AI 인프라를 공급하며 글로벌 시장 진출을 추진합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.5, "evidence": "NPU 설계/컴파일러/SW 최첨단"},
-      "growth": {"score": 4.4, "evidence": "AI 인프라 수요 급증"},
-      "compensation": {"score": 4.0, "evidence": "딥테크 스타트업 + 스톡옵션"},
-      "culture_fit": {"score": 4.0, "evidence": "반도체 연구 중심 문화"},
-      "career_leverage": {"score": 4.8, "evidence": "NPU 설계 세계적 희소 경험"}
-    }
+      "job_fit": {
+        "score": 4.5,
+        "evidence": "NPU 설계/컴파일러/SW 최첨단"
+      },
+      "growth": {
+        "score": 4.4,
+        "evidence": "AI 인프라 수요 급증"
+      },
+      "compensation": {
+        "score": 4.0,
+        "evidence": "딥테크 스타트업 + 스톡옵션"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "반도체 연구 중심 문화"
+      },
+      "career_leverage": {
+        "score": 4.8,
+        "evidence": "NPU 설계 세계적 희소 경험"
+      }
+    },
+    "vision": "차세대 AI 반도체로 엣지·데이터센터 AI를 혁신",
+    "business_direction": "AI 추론 칩 RNGD 양산 및 글로벌 공급, 자율주행·로봇 분야 칩 시장 공략, IPO 추진",
+    "ai_strategy": "엣지 AI 칩 'RNGD' 개발, 1700억 투자 유치 유니콘 등극, 자율주행·로봇 특화 NPU 설계",
+    "corp_name": "주식회사 퓨리오사AI",
+    "business_segments": [
+      "AI 추론 반도체(RNGD NPU)",
+      "AI 소프트웨어 스택(컴파일러·드라이버)",
+      "데이터센터 솔루션"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "글로벌 데이터센터 고객 확대"
+    ],
+    "ceo": "백준호 (June Paik)"
   },
   {
     "name": "핀다",
@@ -1778,20 +5012,57 @@
     "industry": "핀테크",
     "sub_industry": "대출 비교/마이데이터",
     "size": "스타트업",
-    "tech_stack": ["Python", "Go", "React", "AWS", "PostgreSQL", "Redis", "Kafka"],
+    "tech_stack": [
+      "Python",
+      "Go",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "Redis",
+      "Kafka"
+    ],
     "hiring_active": true,
-    "key_products": ["핀다 대출 비교", "핀다 마이데이터", "금리 알리미"],
+    "key_products": [
+      "핀다 대출 비교",
+      "핀다 마이데이터",
+      "금리 알리미"
+    ],
     "founded_year": 2016,
     "employee_count": 250,
     "hq_location": "강남",
     "description": "국내 1위 대출 비교 플랫폼으로, 50여 개 금융사의 대출 상품을 한 곳에서 비교할 수 있는 서비스를 제공합니다. 마이데이터 기반 개인화 금융 추천으로 핀테크 시장을 확장하고 있습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.9, "evidence": "핀테크 플랫폼, 데이터 파이프라인"},
-      "growth": {"score": 3.8, "evidence": "대출 시장 디지털 전환"},
-      "compensation": {"score": 3.7, "evidence": "스타트업 수준"},
-      "culture_fit": {"score": 4.0, "evidence": "데이터 기반 핀테크 문화"},
-      "career_leverage": {"score": 3.9, "evidence": "대출 비교 플랫폼 도메인 경험"}
-    }
+      "job_fit": {
+        "score": 3.9,
+        "evidence": "핀테크 플랫폼, 데이터 파이프라인"
+      },
+      "growth": {
+        "score": 3.8,
+        "evidence": "대출 시장 디지털 전환"
+      },
+      "compensation": {
+        "score": 3.7,
+        "evidence": "스타트업 수준"
+      },
+      "culture_fit": {
+        "score": 4.0,
+        "evidence": "데이터 기반 핀테크 문화"
+      },
+      "career_leverage": {
+        "score": 3.9,
+        "evidence": "대출 비교 플랫폼 도메인 경험"
+      }
+    },
+    "vision": "내게 딱 맞는 금융상품을 찾아주는 금융 슈퍼앱",
+    "business_direction": "대출 비교·금융 상품 추천 플랫폼 확대, 마이데이터 기반 개인화 금융, B2B 금융 데이터 API",
+    "ai_strategy": "AI 기반 대출 금리 비교·추천, 신용 최적화 AI, 마이데이터 AI 분석 서비스",
+    "corp_name": "주식회사 핀다",
+    "business_segments": [
+      "개인 대출 비교·추천",
+      "사업자 금융(오픈업 프로)",
+      "AI 금융 어드바이저"
+    ],
+    "ceo": "박홍민, 이혜민 (공동대표)"
   },
   {
     "name": "하이브",
@@ -1801,20 +5072,64 @@
     "industry": "미디어/엔터",
     "sub_industry": "K-POP/글로벌 엔터",
     "size": "대기업",
-    "tech_stack": ["Python", "React", "Node.js", "AWS", "MySQL", "Redis"],
+    "tech_stack": [
+      "Python",
+      "React",
+      "Node.js",
+      "AWS",
+      "MySQL",
+      "Redis"
+    ],
     "hiring_active": true,
-    "key_products": ["Weverse (팬 플랫폼)", "BTS", "SEVENTEEN"],
+    "key_products": [
+      "Weverse (팬 플랫폼)",
+      "BTS",
+      "SEVENTEEN"
+    ],
     "founded_year": 2005,
     "employee_count": 3000,
     "hq_location": "용산",
     "description": "BTS 소속사로 세계적으로 알려진 K-POP 대기업입니다. 자체 팬 플랫폼 위버스(Weverse)를 통해 글로벌 팬덤 비즈니스를 주도하며, Universal Music Group 등과 파트너십을 구축했습니다.",
     "scorecard": {
-      "job_fit": {"score": 3.7, "evidence": "팬 플랫폼 개발, 미디어 테크"},
-      "growth": {"score": 4.0, "evidence": "K-POP 글로벌 확산, Weverse 성장"},
-      "compensation": {"score": 3.8, "evidence": "대기업 수준"},
-      "culture_fit": {"score": 3.9, "evidence": "K-POP 팬이라면 강한 몰입"},
-      "career_leverage": {"score": 3.8, "evidence": "글로벌 팬덤 플랫폼 경험"}
-    }
+      "job_fit": {
+        "score": 3.7,
+        "evidence": "팬 플랫폼 개발, 미디어 테크"
+      },
+      "growth": {
+        "score": 4.0,
+        "evidence": "K-POP 글로벌 확산, Weverse 성장"
+      },
+      "compensation": {
+        "score": 3.8,
+        "evidence": "대기업 수준"
+      },
+      "culture_fit": {
+        "score": 3.9,
+        "evidence": "K-POP 팬이라면 강한 몰입"
+      },
+      "career_leverage": {
+        "score": 3.8,
+        "evidence": "글로벌 팬덤 플랫폼 경험"
+      }
+    },
+    "vision": "We believe in music — 음악으로 세상을 연결",
+    "business_direction": "BTS·뉴진스 등 글로벌 K-POP IP 확장, 위버스 팬 플랫폼 고도화, 레이블 포트폴리오 다변화",
+    "ai_strategy": "AI 기반 음악 제작 지원, 팬덤 맞춤 콘텐츠 AI 추천, AI 번역·자막 서비스(위버스), AI 아티스트 이미지 분석",
+    "corp_name": "하이브 주식회사",
+    "business_segments": [
+      "음악(제작·유통·퍼블리싱)",
+      "아티스트 매니지먼트",
+      "팬덤 플랫폼(위버스)",
+      "게임·IP 사업"
+    ],
+    "global_presence": [
+      "한국",
+      "미국",
+      "일본",
+      "라틴아메리카",
+      "인도(2025 신설)"
+    ],
+    "ceo": "이재상 (CEO), 방시혁 (이사회 의장)"
   },
   {
     "name": "한국마이크로소프트",
@@ -1824,19 +5139,60 @@
     "industry": "IT/플랫폼",
     "sub_industry": "클라우드/엔터프라이즈 SW",
     "size": "대기업",
-    "tech_stack": ["C#", ".NET", "Azure", "TypeScript", "Python", "Power Platform", "Copilot"],
+    "tech_stack": [
+      "C#",
+      ".NET",
+      "Azure",
+      "TypeScript",
+      "Python",
+      "Power Platform",
+      "Copilot"
+    ],
     "hiring_active": true,
-    "key_products": ["Microsoft Azure", "Microsoft 365", "GitHub Copilot"],
+    "key_products": [
+      "Microsoft Azure",
+      "Microsoft 365",
+      "GitHub Copilot"
+    ],
     "founded_year": 1992,
     "employee_count": 1500,
     "hq_location": "강남",
     "description": "마이크로소프트의 한국 법인으로, Azure 클라우드·Microsoft 365·Copilot AI 등 엔터프라이즈 솔루션을 제공합니다. OpenAI 투자로 AI 혁신을 주도하며 국내 기업 디지털 전환을 지원합니다.",
     "scorecard": {
-      "job_fit": {"score": 4.2, "evidence": "Azure, AI, 엔터프라이즈 솔루션"},
-      "growth": {"score": 4.3, "evidence": "AI+클라우드 폭발 성장, Copilot"},
-      "compensation": {"score": 4.5, "evidence": "글로벌 빅테크 최상위 보상"},
-      "culture_fit": {"score": 4.1, "evidence": "Growth Mindset, 수평 문화"},
-      "career_leverage": {"score": 4.6, "evidence": "글로벌 빅테크 + AI 경력"}
-    }
+      "job_fit": {
+        "score": 4.2,
+        "evidence": "Azure, AI, 엔터프라이즈 솔루션"
+      },
+      "growth": {
+        "score": 4.3,
+        "evidence": "AI+클라우드 폭발 성장, Copilot"
+      },
+      "compensation": {
+        "score": 4.5,
+        "evidence": "글로벌 빅테크 최상위 보상"
+      },
+      "culture_fit": {
+        "score": 4.1,
+        "evidence": "Growth Mindset, 수평 문화"
+      },
+      "career_leverage": {
+        "score": 4.6,
+        "evidence": "글로벌 빅테크 + AI 경력"
+      }
+    },
+    "vision": "Empower every person and every organization to achieve more",
+    "business_direction": "코파일럿(Copilot) 기업 도입 확대, Azure OpenAI 서비스 국내 B2B, KT와 한국 특화 AI 모델 협력",
+    "ai_strategy": "Microsoft Copilot(GPT-4 기반) 한국어 서비스, Azure AI 서비스 제공, KT와 'SOTA K' 한국 특화 AI 모델 공동 개발, 국내 데이터센터 투자 확대",
+    "corp_name": "한국마이크로소프트 유한회사",
+    "business_segments": [
+      "클라우드(Azure)",
+      "생산성 솔루션(Microsoft 365·Teams)",
+      "게임(Xbox)",
+      "디바이스(Surface)"
+    ],
+    "global_presence": [
+      "전 세계 190개국 이상"
+    ],
+    "ceo": "조원우 (한국 대표이사)"
   }
 ]
