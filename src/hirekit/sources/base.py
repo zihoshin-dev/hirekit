@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Any
 
 
@@ -16,7 +16,7 @@ class SourceResult:
     section: str  # maps to report section (e.g., "overview", "financials", "culture", "tech")
     data: dict[str, Any] = field(default_factory=dict)
     confidence: float = 1.0  # 0.0-1.0
-    collected_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
+    collected_at: str = field(default_factory=lambda: datetime.now(UTC).isoformat())
     url: str = ""  # provenance URL
     raw: str = ""  # raw text for LLM consumption
 
@@ -24,7 +24,7 @@ class SourceResult:
     def is_stale(self) -> bool:
         """Check if data is older than 90 days."""
         collected = datetime.fromisoformat(self.collected_at)
-        return (datetime.now(timezone.utc) - collected).days > 90
+        return (datetime.now(UTC) - collected).days > 90
 
 
 class BaseSource(ABC):

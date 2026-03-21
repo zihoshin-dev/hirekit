@@ -1,6 +1,5 @@
 """Tests for configuration loading."""
 
-from pathlib import Path
 
 from hirekit.core.config import HireKitConfig, load_config
 

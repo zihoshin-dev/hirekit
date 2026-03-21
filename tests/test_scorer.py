@@ -1,6 +1,6 @@
 """Tests for the scoring engine."""
 
-from hirekit.engine.scorer import ScoreDimension, Scorecard, create_default_scorecard
+from hirekit.engine.scorer import Scorecard, ScoreDimension, create_default_scorecard
 
 
 class TestScorecard:

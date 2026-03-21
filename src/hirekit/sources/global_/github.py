@@ -7,7 +7,6 @@ from typing import Any
 
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
-
 # Well-known company -> GitHub org mappings
 DEFAULT_ORG_MAP: dict[str, list[str]] = {
     "카카오": ["kakao"],
@@ -117,7 +116,16 @@ class GitHubSource(BaseSource):
 
         total = size_score + star_score + diversity_score + activity_score + community_score
 
-        grade = "S" if total >= 80 else "A" if total >= 65 else "B" if total >= 50 else "C" if total >= 35 else "D"
+        if total >= 80:
+            grade = "S"
+        elif total >= 65:
+            grade = "A"
+        elif total >= 50:
+            grade = "B"
+        elif total >= 35:
+            grade = "C"
+        else:
+            grade = "D"
 
         return {
             "org": org,

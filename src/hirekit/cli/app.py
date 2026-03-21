@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Optional
 
 import typer
 from rich.console import Console
@@ -29,7 +28,7 @@ def version_callback(value: bool) -> None:
 
 @app.callback()
 def main(
-    version: Optional[bool] = typer.Option(
+    version: bool | None = typer.Option(
         None, "--version", "-v", callback=version_callback, is_eager=True
     ),
 ) -> None:
@@ -38,18 +37,19 @@ def main(
 
 @app.command()
 def analyze(
-    company: str = typer.Argument(help="Company name to analyze (e.g., '카카오', 'toss')"),
+    company: str = typer.Argument(help="Company name (e.g., '카카오', 'toss')"),
     region: str = typer.Option("kr", "--region", "-r", help="Region: kr, us, global"),
-    output: str = typer.Option("markdown", "--output", "-o", help="Output format: markdown, json, terminal"),
-    no_llm: bool = typer.Option(False, "--no-llm", help="Skip LLM analysis, use template-only mode"),
-    tier: int = typer.Option(1, "--tier", "-t", help="Analysis depth: 1 (full), 2 (key sections), 3 (minimal)"),
+    output: str = typer.Option("markdown", "--output", "-o", help="markdown, json, terminal"),
+    no_llm: bool = typer.Option(False, "--no-llm", help="Skip LLM, template-only"),
+    tier: int = typer.Option(1, "--tier", "-t", help="Depth: 1 (full), 2 (key), 3 (min)"),
 ) -> None:
     """Analyze a company — collect data from multiple sources and generate a report."""
     config = load_config()
 
     console.print(Panel(
         f"[bold]Analyzing:[/bold] {company}\n"
-        f"[bold]Region:[/bold] {region}  [bold]Tier:[/bold] {tier}  [bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}",
+        f"[bold]Region:[/bold] {region}  [bold]Tier:[/bold] {tier}  "
+        f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}",
         title="[bold blue]HireKit Analysis[/bold blue]",
         border_style="blue",
     ))

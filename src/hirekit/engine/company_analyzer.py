@@ -15,7 +15,6 @@ from hirekit.engine.scorer import Scorecard, create_default_scorecard
 from hirekit.llm.base import BaseLLM, NoLLM
 from hirekit.sources.base import SourceRegistry, SourceResult
 
-
 # Section mapping for tier-based analysis
 TIER_SECTIONS = {
     1: "all",  # Full analysis: all 12 sections

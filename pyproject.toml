@@ -57,6 +57,11 @@ hirekit = "hirekit.cli.app:app"
 dart = "hirekit.sources.kr.dart:DartSource"
 github = "hirekit.sources.global_.github:GitHubSource"
 naver_news = "hirekit.sources.kr.naver_news:NaverNewsSource"
+naver_search = "hirekit.sources.kr.naver_search:NaverSearchSource"
+google_news = "hirekit.sources.global_.google_news:GoogleNewsSource"
+brave_search = "hirekit.sources.global_.brave_search:BraveSearchSource"
+exa_search = "hirekit.sources.global_.exa_search:ExaSearchSource"
+credible_news = "hirekit.sources.global_.credible_news:CredibleNewsSource"
 
 [project.entry-points."hirekit.outputs"]
 markdown = "hirekit.output.markdown:MarkdownRenderer"
