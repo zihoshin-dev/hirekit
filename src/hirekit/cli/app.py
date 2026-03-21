@@ -268,6 +268,72 @@ def interview(
 
 
 @app.command()
+def coverletter(
+    company: str = typer.Argument(help="Company name (e.g., '카카오', 'toss')"),
+    position: str = typer.Option("", "--position", "-p", help="Target position (e.g., PM)"),
+    profile: str = typer.Option("", "--profile", help="Career profile YAML"),
+    output: str = typer.Option("markdown", "--output", "-o", help="markdown, terminal"),
+    no_llm: bool = typer.Option(False, "--no-llm", help="Skip LLM, rule-based only"),
+) -> None:
+    """Generate a Korean 자기소개서 (cover letter) draft with coaching feedback."""
+    from hirekit.engine.cover_letter import CoverLetterCoach
+
+    config = load_config()
+    llm = _get_llm(config) if not no_llm else None
+    coach = CoverLetterCoach(llm=llm)
+
+    user_profile = _load_profile(profile)
+
+    with console.status(f"[bold green]{company} 자기소개서 초안 작성 중..."):
+        draft = coach.draft(
+            company=company,
+            position=position,
+            profile=user_profile,
+        )
+
+    if output == "terminal":
+        console.print(Panel(
+            f"[bold]{company}[/bold] — {position or '미지정'}\n"
+            f"종합 점수: [bold]{draft.overall_score:.0f}/100[/bold] "
+            f"(Grade {draft.grade})\n"
+            f"섹션 수: {len(draft.sections)}개",
+            title="[bold blue]자기소개서 코치[/bold blue]",
+            border_style="blue",
+        ))
+        for section in draft.sections:
+            console.print(f"\n[cyan]## {section.title}[/cyan]")
+            console.print(section.content)
+            console.print(
+                f"[dim]점수: {section.score:.0f}/100 | "
+                f"글자 수: {section.word_count}자[/dim]"
+            )
+            if section.feedback:
+                console.print("[yellow]피드백:[/yellow]")
+                for fb in section.feedback:
+                    console.print(f"  - {fb}")
+    else:
+        out_path = Path(config.output.directory) / f"{company}_coverletter.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(draft.to_markdown(), encoding="utf-8")
+        console.print(f"[green]자기소개서 저장:[/green] {out_path}")
+
+        table = Table(title=f"{company} 자기소개서 점수")
+        table.add_column("항목", style="cyan")
+        table.add_column("글자 수", justify="right")
+        table.add_column("점수", justify="right")
+        table.add_column("등급", justify="center")
+
+        for s in draft.sections:
+            table.add_row(s.title, str(s.word_count), f"{s.score:.0f}/100", s.grade)
+
+        table.add_row(
+            "[bold]종합[/bold]", "", f"[bold]{draft.overall_score:.0f}/100[/bold]",
+            f"[bold]{draft.grade}[/bold]",
+        )
+        console.print(table)
+
+
+@app.command()
 def resume(
     file: str = typer.Argument(help="Resume file path (md, txt, pdf)"),
     jd: str = typer.Option("", "--jd", help="JD URL or text for targeted review"),

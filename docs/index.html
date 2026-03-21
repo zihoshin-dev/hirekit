@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HireKit — Research companies. Match jobs. Ace interviews.</title>
+  <meta name="description" content="AI-powered company analysis and interview preparation CLI for job seekers. Research companies, match jobs, ace interviews — all from your terminal." />
+  <meta property="og:title" content="HireKit" />
+  <meta property="og:description" content="Research companies. Match jobs. Ace interviews." />
+  <meta property="og:url" content="https://zihoshin-dev.github.io/hirekit/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            mono: ['JetBrains Mono', 'Fira Code', 'Cascadia Code', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50:  '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              300: '#7dd3fc',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+            },
+          },
+          animation: {
+            'fade-in': 'fadeIn 0.6s ease-out forwards',
+            'slide-up': 'slideUp 0.5s ease-out forwards',
+            'blink': 'blink 1s step-end infinite',
+          },
+          keyframes: {
+            fadeIn: { from: { opacity: 0 }, to: { opacity: 1 } },
+            slideUp: { from: { opacity: 0, transform: 'translateY(20px)' }, to: { opacity: 1, transform: 'translateY(0)' } },
+            blink: { '0%, 100%': { opacity: 1 }, '50%': { opacity: 0 } },
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+    /* Gradient backgrounds */
+    .hero-gradient {
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(14,165,233,0.15) 0%, transparent 70%),
+                  radial-gradient(ellipse 60% 40% at 80% 50%, rgba(99,102,241,0.08) 0%, transparent 60%);
+    }
+    .dark .hero-gradient {
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(14,165,233,0.12) 0%, transparent 70%),
+                  radial-gradient(ellipse 60% 40% at 80% 50%, rgba(99,102,241,0.06) 0%, transparent 60%);
+    }
+
+    /* Terminal styles */
+    .terminal {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .terminal-bar {
+      background: #161b22;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid #30363d;
+    }
+    .terminal-dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot-red   { background: #ff5f57; }
+    .dot-yellow{ background: #ffbd2e; }
+    .dot-green { background: #28c840; }
+    .terminal-title { color: #8b949e; font-size: 12px; margin-left: 8px; font-family: 'JetBrains Mono', monospace; }
+    .terminal-body { padding: 20px 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.8; }
+
+    /* Syntax colors */
+    .c-prompt  { color: #7ee787; }
+    .c-cmd     { color: #79c0ff; }
+    .c-flag    { color: #ff7b72; }
+    .c-string  { color: #a5d6ff; }
+    .c-comment { color: #8b949e; }
+    .c-output  { color: #e6edf3; }
+    .c-dim     { color: #484f58; }
+    .c-green   { color: #56d364; }
+    .c-yellow  { color: #e3b341; }
+    .c-blue    { color: #79c0ff; }
+    .c-orange  { color: #ffa657; }
+    .c-purple  { color: #d2a8ff; }
+    .c-border  { color: #484f58; }
+    .c-header  { color: #58a6ff; }
+    .c-grade   { color: #56d364; font-weight: 600; }
+
+    /* Copy button */
+    .copy-btn {
+      position: absolute; top: 50px; right: 16px;
+      background: #21262d; border: 1px solid #30363d; border-radius: 6px;
+      color: #8b949e; padding: 4px 10px; font-size: 11px; cursor: pointer;
+      transition: all 0.2s; font-family: 'JetBrains Mono', monospace;
+    }
+    .copy-btn:hover { background: #30363d; color: #e6edf3; }
+
+    /* Inline code */
+    code {
+      background: rgba(110,118,129,0.15);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.875em;
+    }
+    .dark code {
+      background: rgba(110,118,129,0.2);
+      color: #79c0ff;
+    }
+
+    /* Card hover */
+    .feature-card {
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .feature-card:hover {
+      transform: translateY(-2px);
+    }
+
+    /* Step connector */
+    .step-line::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      width: 2px;
+      height: 40px;
+      background: linear-gradient(to bottom, #0ea5e9, transparent);
+      transform: translateX(-50%);
+    }
+
+    /* Roadmap timeline */
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -33px;
+      top: 8px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid currentColor;
+    }
+
+    /* Smooth scroll offset */
+    html { scroll-padding-top: 72px; }
+
+    /* Nav blur */
+    .nav-blur {
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    /* Source badge */
+    .source-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+
+<body class="bg-white dark:bg-[#0d1117] text-gray-900 dark:text-gray-100 antialiased transition-colors duration-300">
+
+  <!-- NAV -->
+  <nav class="fixed top-0 inset-x-0 z-50 nav-blur bg-white/80 dark:bg-[#0d1117]/80 border-b border-gray-200 dark:border-[#21262d]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 font-bold text-lg">
+        <span class="text-2xl">🎯</span>
+        <span class="dark:text-white">HireKit</span>
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600 dark:text-gray-400">
+        <a href="#features"  class="hover:text-gray-900 dark:hover:text-white transition-colors">Features</a>
+        <a href="#demo"      class="hover:text-gray-900 dark:hover:text-white transition-colors">Demo</a>
+        <a href="#quickstart"class="hover:text-gray-900 dark:hover:text-white transition-colors">Quick Start</a>
+        <a href="#roadmap"   class="hover:text-gray-900 dark:hover:text-white transition-colors">Roadmap</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <!-- Dark mode toggle -->
+        <button id="theme-toggle" aria-label="Toggle dark mode"
+          class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#21262d] transition-colors">
+          <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" class="hidden dark:block w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+          </svg>
+          <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" class="block dark:hidden w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+        <!-- GitHub -->
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener"
+          class="flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:opacity-90 transition-opacity">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-gradient pt-32 pb-24 px-4 text-center">
+    <div class="max-w-4xl mx-auto">
+      <!-- Badges -->
+      <div class="flex flex-wrap justify-center gap-2 mb-8">
+        <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/pypi/v/hirekit?style=flat-square&color=0ea5e9" alt="PyPI version" class="h-5" />
+        </a>
+        <img src="https://img.shields.io/badge/python-3.11+-blue?style=flat-square" alt="Python 3.11+" class="h-5" />
+        <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License" class="h-5" />
+        <a href="https://github.com/zihoshin-dev/hirekit/stargazers" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/github/stars/zihoshin-dev/hirekit?style=flat-square&color=e3b341" alt="GitHub Stars" class="h-5" />
+        </a>
+      </div>
+
+      <!-- Heading -->
+      <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight mb-4 dark:text-white">
+        Hire<span class="text-brand-500">Kit</span>
+      </h1>
+      <p class="text-xl sm:text-2xl font-light text-gray-600 dark:text-gray-400 mb-6">
+        Research companies. Match jobs. Ace interviews.
+      </p>
+      <p class="text-base text-gray-500 dark:text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+        An open-source CLI that turns 4-8 hours of company research into a single command.
+        Pulls data from 8 sources, builds a weighted scorecard, and preps you for the interview — all in your terminal.
+      </p>
+
+      <!-- Install command -->
+      <div class="inline-flex items-center gap-3 bg-gray-950 dark:bg-[#161b22] border border-gray-800 dark:border-[#30363d] rounded-xl px-5 py-3 mb-10 group cursor-pointer" onclick="copyInstall(this)">
+        <span class="font-mono text-sm text-gray-400">$</span>
+        <span class="font-mono text-sm text-brand-400">pip install hirekit</span>
+        <svg id="copy-icon-hero" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+        </svg>
+      </div>
+
+      <!-- CTA buttons -->
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#quickstart"
+          class="px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-sm transition-colors shadow-lg shadow-brand-600/20">
+          Get Started →
+        </a>
+        <a href="#demo"
+          class="px-6 py-3 rounded-xl border border-gray-300 dark:border-[#30363d] hover:border-gray-400 dark:hover:border-[#484f58] text-gray-700 dark:text-gray-300 font-semibold text-sm transition-colors">
+          See Demo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="bg-gray-50 dark:bg-[#161b22] border-y border-gray-200 dark:border-[#21262d] py-6">
+    <div class="max-w-4xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+      <div>
+        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">8</div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">Data Sources</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">12</div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">Report Sections</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">100pt</div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">Scorecard System</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">0</div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">Tracking / Privacy</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section id="features" class="py-24 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">Everything you need to land the job</h2>
+        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">Six commands that cover the entire job application lifecycle — from first research to final offer.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <!-- analyze -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-brand-100 dark:bg-brand-900/30 flex items-center justify-center text-lg">🔍</div>
+            <div>
+              <code class="text-sm text-brand-600 dark:text-brand-400">hirekit analyze</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">Company Analysis</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            Deep-dive into any company. Pulls financials from DART, news from 6 sources, GitHub tech maturity, and culture signals — assembled into a 12-section structured report.
+          </p>
+        </div>
+
+        <!-- match -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-lg">🎯</div>
+            <div>
+              <code class="text-sm text-purple-600 dark:text-purple-400">hirekit match</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">JD Matching</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            Paste a job description and get a fit score. Identifies skill gaps, highlights strengths, and suggests which projects to lead with in your application.
+          </p>
+        </div>
+
+        <!-- interview -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-lg">🗣️</div>
+            <div>
+              <code class="text-sm text-green-600 dark:text-green-400">hirekit interview</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">Interview Prep</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            Generates company-specific interview questions based on real data — tech stack, recent news, business challenges. Know what's coming before you walk in.
+          </p>
+        </div>
+
+        <!-- resume -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-lg">📄</div>
+            <div>
+              <code class="text-sm text-orange-600 dark:text-orange-400">hirekit resume</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">Resume Review</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            Scores your resume against the target role. Gives actionable feedback on keyword alignment, impact statements, and ATS optimization.
+          </p>
+        </div>
+
+        <!-- coverletter -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-pink-100 dark:bg-pink-900/30 flex items-center justify-center text-lg">✉️</div>
+            <div>
+              <code class="text-sm text-pink-600 dark:text-pink-400">hirekit coverletter</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">Cover Letter</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            Drafts a tailored cover letter using real company context. References specific business challenges, products, and values — not a generic template.
+          </p>
+        </div>
+
+        <!-- sources -->
+        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-yellow-100 dark:bg-yellow-900/30 flex items-center justify-center text-lg">🔌</div>
+            <div>
+              <code class="text-sm text-yellow-600 dark:text-yellow-400">hirekit sources</code>
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">Plugin System</h3>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            List and manage data source plugins. Add custom sources with a 20-line Python interface — <code>@SourceRegistry.register</code> and you're live.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Highlight cards -->
+      <div class="mt-8 grid sm:grid-cols-3 gap-4">
+        <div class="p-4 rounded-xl bg-brand-50 dark:bg-brand-900/10 border border-brand-200 dark:border-brand-800/40 flex items-center gap-3">
+          <span class="text-2xl">🤖</span>
+          <div>
+            <div class="font-semibold text-sm text-brand-900 dark:text-brand-300">LLM-Optional</div>
+            <div class="text-xs text-brand-700 dark:text-brand-500">Works without AI. Enhanced with OpenAI / Anthropic / Ollama.</div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-green-50 dark:bg-green-900/10 border border-green-200 dark:border-green-800/40 flex items-center gap-3">
+          <span class="text-2xl">🔒</span>
+          <div>
+            <div class="font-semibold text-sm text-green-900 dark:text-green-300">Privacy-First</div>
+            <div class="text-xs text-green-700 dark:text-green-500">All data stays local. No telemetry, no external tracking.</div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-purple-50 dark:bg-purple-900/10 border border-purple-200 dark:border-purple-800/40 flex items-center gap-3">
+          <span class="text-2xl">⚡</span>
+          <div>
+            <div class="font-semibold text-sm text-purple-900 dark:text-purple-300">Parallel Collection</div>
+            <div class="text-xs text-purple-700 dark:text-purple-500">8 sources collected concurrently. Minutes, not hours.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATA SOURCES -->
+  <section id="sources" class="py-24 px-4 bg-gray-50 dark:bg-[#0d1117]">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">8 Data Sources, Zero Gaps</h2>
+        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">From regulatory filings to AI-powered semantic search — every angle covered.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">📊</span>
+            <span class="font-semibold dark:text-white">DART</span>
+            <span class="source-badge bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 ml-auto">KR</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">Official financial filings, employee headcount, salary data from Korea's regulatory database.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">DART_API_KEY</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🟢</span>
+            <span class="font-semibold dark:text-white">Naver News</span>
+            <span class="source-badge bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 ml-auto">KR</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">Recent Korean news articles, blog posts, café discussions — culture and interview intel.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">NAVER_CLIENT_ID</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🐙</span>
+            <span class="font-semibold dark:text-white">GitHub</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">Tech maturity scoring — repo activity, stack diversity, open-source culture signal.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">gh CLI</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">📰</span>
+            <span class="font-semibold dark:text-white">Google News</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">RSS-based global news feed. No API key required — free out of the box.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">No key needed</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🌐</span>
+            <span class="font-semibold dark:text-white">Credible News</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">Reuters, Bloomberg, FT, WSJ + major Korean business press aggregated and ranked.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">No key needed</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🦁</span>
+            <span class="font-semibold dark:text-white">Brave Search</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">Independent web + news semantic search. Privacy-respecting alternative to Google.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">BRAVE_API_KEY</div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🔮</span>
+            <span class="font-semibold dark:text-white">Exa Search</span>
+            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">AI-powered semantic deep search. Surfaces hidden context and niche insights about companies.</p>
+          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">EXA_API_KEY</div>
+        </div>
+
+        <!-- Custom source CTA -->
+        <div class="p-5 rounded-xl bg-brand-50 dark:bg-brand-900/10 border border-dashed border-brand-300 dark:border-brand-800 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-xl">➕</span>
+              <span class="font-semibold dark:text-white text-brand-700 dark:text-brand-400">Your Source</span>
+            </div>
+            <p class="text-xs text-brand-600 dark:text-brand-500 leading-relaxed">Build a custom plugin with <code class="bg-brand-100 dark:bg-brand-900/40 text-brand-700 dark:text-brand-400">@SourceRegistry.register</code> and 20 lines of Python.</p>
+          </div>
+          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener"
+            class="mt-4 inline-block text-xs font-medium text-brand-600 dark:text-brand-400 hover:underline">
+            Contribute a source →
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section id="demo" class="py-24 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">See It in Action</h2>
+        <p class="text-gray-500 dark:text-gray-400">One command. Comprehensive scorecard. No guesswork.</p>
+      </div>
+
+      <div class="terminal shadow-2xl shadow-black/30">
+        <div class="terminal-bar">
+          <div class="terminal-dot dot-red"></div>
+          <div class="terminal-dot dot-yellow"></div>
+          <div class="terminal-dot dot-green"></div>
+          <span class="terminal-title">zsh — hirekit analyze</span>
+        </div>
+        <div class="terminal-body overflow-x-auto">
+<pre><span class="c-prompt">❯</span> <span class="c-cmd">hirekit</span> analyze 카카오 <span class="c-flag">--no-llm</span> <span class="c-flag">-o</span> <span class="c-string">terminal</span>
+
+<span class="c-border">╭</span><span class="c-border">──────────────────── HireKit Analysis ─────────────────────</span><span class="c-border">╮</span>
+<span class="c-border">│</span> <span class="c-output">Analyzing: 카카오                                         </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Region: <span class="c-blue">kr</span>  Tier: <span class="c-blue">1</span>  LLM: <span class="c-yellow">off</span>                             </span><span class="c-border">│</span>
+<span class="c-border">╰</span><span class="c-border">─────────────────────────────────────────────────────────────</span><span class="c-border">╯</span>
+
+<span class="c-comment">  Collecting from 8 sources in parallel...</span>
+  <span class="c-green">✓</span> DART financials          <span class="c-dim">123ms</span>
+  <span class="c-green">✓</span> Naver News (32 articles)  <span class="c-dim">210ms</span>
+  <span class="c-green">✓</span> GitHub tech scoring       <span class="c-dim">380ms</span>
+  <span class="c-green">✓</span> Google News RSS           <span class="c-dim">195ms</span>
+  <span class="c-green">✓</span> Credible News             <span class="c-dim">290ms</span>
+  <span class="c-green">✓</span> Brave Search              <span class="c-dim">445ms</span>
+  <span class="c-green">✓</span> Exa semantic search       <span class="c-dim">512ms</span>
+  <span class="c-green">✓</span> Glassdoor reviews         <span class="c-dim">340ms</span>
+
+  <span class="c-output">15 results collected across 8 sources in <span class="c-green">512ms</span></span>
+
+<span class="c-header">                     카카오 Scorecard</span>
+<span class="c-border">┌─────────────────────┬────────┬────────┬──────────────────────┐</span>
+<span class="c-border">│</span> <span class="c-output">Dimension           </span><span class="c-border">│</span> <span class="c-output">Weight </span><span class="c-border">│</span> <span class="c-output"> Score </span><span class="c-border">│</span> <span class="c-output">Evidence             </span><span class="c-border">│</span>
+<span class="c-border">├─────────────────────┼────────┼────────┼──────────────────────┤</span>
+<span class="c-border">│</span> <span class="c-output">Job Fit             </span><span class="c-border">│</span>    <span class="c-yellow">30%</span> <span class="c-border">│</span>  <span class="c-blue">3.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Tech stack data      </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Career Leverage     </span><span class="c-border">│</span>    <span class="c-yellow">20%</span> <span class="c-border">│</span>  <span class="c-green">4.6</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">15 data points       </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Growth Potential    </span><span class="c-border">│</span>    <span class="c-yellow">20%</span> <span class="c-border">│</span>  <span class="c-green">4.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Financials + news    </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Compensation        </span><span class="c-border">│</span>    <span class="c-yellow">15%</span> <span class="c-border">│</span>  <span class="c-blue">3.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">DART salary data     </span><span class="c-border">│</span>
+<span class="c-border">│</span> <span class="c-output">Culture Fit         </span><span class="c-border">│</span>    <span class="c-yellow">15%</span> <span class="c-border">│</span>  <span class="c-green">4.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Reviews + Exa        </span><span class="c-border">│</span>
+<span class="c-border">├─────────────────────┼────────┼────────┼──────────────────────┤</span>
+<span class="c-border">│</span> <span class="c-output">Total               </span><span class="c-border">│</span>        <span class="c-border">│</span> <span class="c-grade"> 82/100</span> <span class="c-border">│</span> <span class="c-grade">Grade S              </span><span class="c-border">│</span>
+<span class="c-border">└─────────────────────┴────────┴────────┴──────────────────────┘</span>
+
+<span class="c-comment">  Report saved → ./reports/카카오_analysis.md</span></pre>
+        </div>
+      </div>
+
+      <p class="text-center text-sm text-gray-500 dark:text-gray-600 mt-4">
+        8 data sources · 15 results · collected in parallel · no LLM required
+      </p>
+    </div>
+  </section>
+
+  <!-- QUICK START -->
+  <section id="quickstart" class="py-24 px-4 bg-gray-50 dark:bg-[#0d1117]">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">Quick Start</h2>
+        <p class="text-gray-500 dark:text-gray-400">Three steps from zero to a full company report.</p>
+      </div>
+
+      <div class="space-y-6">
+
+        <!-- Step 1 -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">1</div>
+          <div class="flex-1 pb-8 border-b border-gray-200 dark:border-[#21262d] last:border-0">
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Install HireKit</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">Python 3.11+ required. Installs in seconds via pip.</p>
+            <div class="terminal text-sm">
+              <div class="terminal-bar">
+                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
+              </div>
+              <div class="terminal-body py-3">
+<pre><span class="c-comment"># Standard install</span>
+<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> hirekit
+
+<span class="c-comment"># With LLM support (pick one)</span>
+<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[openai]"</span>     <span class="c-comment"># OpenAI</span>
+<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[anthropic]"</span>  <span class="c-comment"># Claude</span>
+<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[ollama]"</span>     <span class="c-comment"># Local models</span></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">2</div>
+          <div class="flex-1 pb-8 border-b border-gray-200 dark:border-[#21262d] last:border-0">
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Configure API Keys</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">Run the interactive setup wizard. DART + GitHub are enough to get started — others are optional enhancements.</p>
+            <div class="terminal text-sm">
+              <div class="terminal-bar">
+                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
+              </div>
+              <div class="terminal-body py-3">
+<pre><span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> configure
+
+<span class="c-comment"># Config saved to ~/.hirekit/config.toml</span>
+<span class="c-comment"># Or edit it directly:</span>
+
+<span class="c-output">[sources]</span>
+<span class="c-output">enabled = [<span class="c-string">"dart"</span>, <span class="c-string">"github"</span>, <span class="c-string">"naver_news"</span>]</span>
+
+<span class="c-output">[llm]</span>
+<span class="c-output">provider = <span class="c-string">"none"</span>  <span class="c-comment"># or "openai", "anthropic", "ollama"</span></span></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">3</div>
+          <div class="flex-1">
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Run Your First Analysis</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">Analyze any Korean or global company. Results in your terminal or saved as Markdown.</p>
+            <div class="terminal text-sm">
+              <div class="terminal-bar">
+                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
+              </div>
+              <div class="terminal-body py-3">
+<pre><span class="c-comment"># Analyze a company</span>
+<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> analyze 카카오
+
+<span class="c-comment"># Match against a job description</span>
+<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> match <span class="c-flag">--jd</span> job.txt <span class="c-flag">--company</span> kakao
+
+<span class="c-comment"># Prepare for the interview</span>
+<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> interview 카카오
+
+<span class="c-comment"># View all available sources</span>
+<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> sources</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap" class="py-24 px-4">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">Roadmap</h2>
+        <p class="text-gray-500 dark:text-gray-400">Where we've been and where we're going.</p>
+      </div>
+
+      <div class="relative pl-8 border-l-2 border-gray-200 dark:border-[#21262d] space-y-10">
+
+        <!-- Phase 1 -->
+        <div class="relative">
+          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-green-500 border-2 border-white dark:border-[#0d1117] flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <div class="flex items-center gap-3 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">Phase 1 — Complete</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Foundation</h3>
+          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> DART financial filings integration</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> GitHub tech maturity scoring</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> Multi-source news collection</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 5-dimension weighted scorecard (100pt)</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> Structured Markdown reports (12 sections)</li>
+          </ul>
+        </div>
+
+        <!-- Phase 2 -->
+        <div class="relative">
+          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-green-500 border-2 border-white dark:border-[#0d1117] flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <div class="flex items-center gap-3 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">Phase 2 — Complete</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Job Application Suite</h3>
+          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> JD matching with skill gap analysis (<code>hirekit match</code>)</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> Company-specific interview prep (<code>hirekit interview</code>)</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> Resume review and scoring (<code>hirekit resume</code>)</li>
+            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> Tailored cover letter generation</li>
+          </ul>
+        </div>
+
+        <!-- Phase 3 -->
+        <div class="relative">
+          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-brand-500 border-2 border-white dark:border-[#0d1117] animate-pulse"></div>
+          <div class="flex items-center gap-3 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-400">Phase 3 — In Progress</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Scale & Community</h3>
+          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
+            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> US companies via SEC Edgar integration</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> Web UI for non-CLI users</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> Community plugin marketplace</li>
+            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> PyPI stable release</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTRIBUTING CTA -->
+  <section class="py-20 px-4 bg-gray-50 dark:bg-[#161b22]">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold dark:text-white mb-4">Built for the open-source community</h2>
+      <p class="text-gray-500 dark:text-gray-400 mb-8 max-w-xl mx-auto leading-relaxed">
+        HireKit is open source and welcomes contributions. Whether you want to add a new data source, improve report templates, or extend i18n support — your work helps every job seeker.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener"
+          class="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold text-sm hover:opacity-90 transition-opacity">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+          View on GitHub
+        </a>
+        <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener"
+          class="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-gray-300 dark:border-[#30363d] text-gray-700 dark:text-gray-300 font-semibold text-sm hover:border-gray-400 dark:hover:border-[#484f58] transition-colors">
+          Contributing Guide
+        </a>
+        <a href="https://github.com/zihoshin-dev/hirekit/issues/new?labels=good+first+issue" target="_blank" rel="noopener"
+          class="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-gray-300 dark:border-[#30363d] text-gray-700 dark:text-gray-300 font-semibold text-sm hover:border-gray-400 dark:hover:border-[#484f58] transition-colors">
+          Good First Issues
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-12 px-4 border-t border-gray-200 dark:border-[#21262d]">
+    <div class="max-w-4xl mx-auto">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-2 text-gray-900 dark:text-white font-semibold">
+          <span class="text-xl">🎯</span>
+          <span>HireKit</span>
+        </div>
+        <div class="flex flex-wrap justify-center gap-6 text-sm text-gray-500 dark:text-gray-400">
+          <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a>
+          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">Contributing</a>
+          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">MIT License</a>
+          <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">PyPI</a>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-xs text-gray-400 dark:text-gray-600">
+        Built with care for every job seeker out there. · Open source under MIT License.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── Dark mode ──────────────────────────────────────────────
+    const html = document.documentElement;
+
+    // Initialise from localStorage or system preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      html.classList.add('dark');
+    }
+
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      html.classList.toggle('dark');
+      localStorage.theme = html.classList.contains('dark') ? 'dark' : 'light';
+    });
+
+    // ── Copy install command ───────────────────────────────────
+    function copyInstall(el) {
+      navigator.clipboard.writeText('pip install hirekit').then(() => {
+        const icon = el.querySelector('svg');
+        const original = icon.innerHTML;
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />';
+        setTimeout(() => { icon.innerHTML = original; }, 1800);
+      });
+    }
+
+    // ── Scroll-triggered fade-in ───────────────────────────────
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.feature-card').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(16px)';
+      el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
