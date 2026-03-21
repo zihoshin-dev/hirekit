@@ -28,8 +28,16 @@ def _normalize_section(num: int, data: dict[str, Any]) -> dict[str, Any]:
 
     if num == 1:
         result = _normalize_overview(result)
+    elif num == 2:
+        result = _normalize_industry(result)
+    elif num == 3:
+        result = _normalize_leadership(result)
     elif num == 4:
         result = _normalize_culture(result)
+    elif num == 5:
+        result = _normalize_role(result)
+    elif num == 7:
+        result = _normalize_tech(result)
 
     # Preserve 'analysis' key from LLM pipeline (always pass through)
     if "analysis" in data:
@@ -109,6 +117,175 @@ def _normalize_overview(data: dict[str, Any]) -> dict[str, Any]:
     # Pass through string values
     for k, v in data.items():
         if k not in result and isinstance(v, str):
+            result[k] = v
+
+    return result
+
+
+def _normalize_industry(data: dict[str, Any]) -> dict[str, Any]:
+    """Normalize section 2: Industry."""
+    result: dict[str, Any] = {}
+
+    # News items
+    for key in ("google_news", "recent_news", "industry_news",
+                "korean_credible_news", "international_news"):
+        items = data.get(key, [])
+        if isinstance(items, list):
+            result[key] = [
+                _clean_news_item(item) for item in items[:5]
+                if isinstance(item, dict)
+            ]
+
+    # Exa search results
+    for key in ("exa_industry", "exa_market", "brave_web_results"):
+        items = data.get(key, [])
+        if isinstance(items, list):
+            result[key] = [
+                {"title": _clean_text(item.get("title", "")),
+                 "text": _clean_text(item.get("text", item.get("description", "")))[:300],
+                 "url": item.get("url", item.get("link", ""))}
+                for item in items[:5]
+                if isinstance(item, dict)
+            ]
+
+    # Pass through scalar values and analysis
+    for k, v in data.items():
+        if k not in result and not isinstance(v, (dict, list)):
+            result[k] = v
+
+    return result
+
+
+def _normalize_leadership(data: dict[str, Any]) -> dict[str, Any]:
+    """Normalize section 3: Leadership."""
+    result: dict[str, Any] = {}
+
+    # Leadership profiles (list of dicts with name/title/bio fields)
+    leaders = data.get("leaders", data.get("leadership", []))
+    if isinstance(leaders, list):
+        result["leaders"] = [
+            {
+                "name": _clean_text(str(item.get("name", ""))),
+                "title": _clean_text(str(item.get("title", item.get("position", "")))),
+                "bio": _clean_text(str(item.get("bio", item.get("description", ""))))[:500],
+            }
+            for item in leaders[:10]
+            if isinstance(item, dict)
+        ]
+    else:
+        result["leaders"] = []
+
+    # News about leadership
+    for key in ("leadership_news", "google_news", "recent_news"):
+        items = data.get(key, [])
+        if isinstance(items, list):
+            result[key] = [
+                _clean_news_item(item) for item in items[:5]
+                if isinstance(item, dict)
+            ]
+
+    # Pass through scalar values
+    for k, v in data.items():
+        if k not in result and not isinstance(v, (dict, list)):
+            result[k] = v
+
+    return result
+
+
+def _normalize_role(data: dict[str, Any]) -> dict[str, Any]:
+    """Normalize section 5: Role / Job Description."""
+    result: dict[str, Any] = {}
+
+    # Job postings list
+    jobs = data.get("jobs", data.get("job_postings", []))
+    if isinstance(jobs, list):
+        result["jobs"] = [
+            {
+                "title": _clean_text(str(item.get("title", item.get("job_title", "")))),
+                "department": _clean_text(str(item.get("department", item.get("team", "")))),
+                "location": _clean_text(str(item.get("location", ""))),
+                "url": item.get("url", item.get("link", "")),
+                "description": _clean_text(str(item.get("description", "")))[:400],
+            }
+            for item in jobs[:10]
+            if isinstance(item, dict)
+        ]
+    else:
+        result["jobs"] = []
+
+    # Requirements / qualifications as clean list
+    for key in ("requirements", "qualifications", "skills"):
+        items = data.get(key, [])
+        if isinstance(items, list):
+            result[key] = [
+                _clean_text(str(item)) for item in items[:20]
+                if item and not isinstance(item, dict)
+            ]
+        elif isinstance(items, str):
+            result[key] = _clean_text(items)
+
+    # Pass through scalar values
+    for k, v in data.items():
+        if k not in result and not isinstance(v, (dict, list)):
+            result[k] = v
+
+    return result
+
+
+def _normalize_tech(data: dict[str, Any]) -> dict[str, Any]:
+    """Normalize section 7: AI / Tech stack."""
+    result: dict[str, Any] = {}
+
+    # GitHub data (already structured from GitHubSource)
+    github = data.get("github", {})
+    if isinstance(github, dict) and github:
+        result["github"] = {
+            "org": github.get("org", ""),
+            "repo_count": github.get("repo_count", 0),
+            "total_stars": github.get("total_stars", 0),
+            "top_languages": github.get("top_languages", [])[:10],
+            "total_score": github.get("total_score", 0),
+            "grade": github.get("grade", ""),
+        }
+
+    # Tech blog posts
+    for key in ("tech_blog", "tech_posts", "medium_posts", "velog_posts"):
+        items = data.get(key, [])
+        if isinstance(items, list):
+            result[key] = [
+                {
+                    "title": _clean_text(str(item.get("title", ""))),
+                    "url": item.get("url", item.get("link", "")),
+                    "summary": _clean_text(str(item.get("summary", item.get("description", ""))))[:300],
+                }
+                for item in items[:5]
+                if isinstance(item, dict)
+            ]
+
+    # Tech stack as a flat list of strings
+    tech_stack = data.get("tech_stack", data.get("technologies", []))
+    if isinstance(tech_stack, list):
+        result["tech_stack"] = [
+            _clean_text(str(t)) for t in tech_stack[:30]
+            if t and not isinstance(t, dict)
+        ]
+    elif isinstance(tech_stack, str):
+        result["tech_stack"] = _clean_text(tech_stack)
+
+    # Exa AI/tech search results
+    for key in ("exa_tech", "exa_ai", "brave_tech_results"):
+        items = data.get(key, [])
+        if isinstance(items, list):
+            result[key] = [
+                {"title": _clean_text(item.get("title", "")),
+                 "text": _clean_text(item.get("text", ""))[:300]}
+                for item in items[:3]
+                if isinstance(item, dict)
+            ]
+
+    # Pass through scalar values
+    for k, v in data.items():
+        if k not in result and not isinstance(v, (dict, list)):
             result[k] = v
 
     return result

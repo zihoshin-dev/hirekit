@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HireKit — 기업 분석을 2분 만에</title>
+  <title>HireKit — 취업 준비, 데이터로 시작하세요</title>
   <meta name="description" content="8개 소스에서 자동 수집하고, 100점 스코어카드로 판단해요. 취업 준비생을 위한 기업 분석 CLI 도구." />
-  <meta property="og:title" content="HireKit — 기업 분석을 2분 만에" />
+  <meta property="og:title" content="HireKit — 취업 준비, 데이터로 시작하세요" />
   <meta property="og:description" content="8개 소스에서 자동 수집하고, 100점 스코어카드로 판단해요." />
   <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
   <meta property="og:image:width" content="1400" />
@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -26,14 +26,6 @@
           fontFamily: {
             sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
             mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
-          },
-          colors: {
-            primary: '#3182F6',
-            'primary-hover': '#1B64DA',
-            'primary-light': '#EBF3FE',
-            success: '#00C471',
-            warning: '#FF9500',
-            danger: '#FF4545',
           },
         },
       },
@@ -48,6 +40,12 @@
       --text-secondary: #4E5968;
       --text-tertiary: #8B95A1;
       --border: #E5E8EB;
+      --primary: #3182F6;
+      --primary-hover: #1B64DA;
+      --primary-light: #EBF3FE;
+      --success: #00C471;
+      --warning: #FF9500;
+      --danger: #FF4545;
     }
     html.dark {
       --bg: #17171C;
@@ -57,164 +55,454 @@
       --text-secondary: #B0B8C1;
       --text-tertiary: #6B7684;
       --border: #2C2C35;
+      --primary-light: rgba(49,130,246,0.12);
     }
+    *, *::before, *::after { box-sizing: border-box; }
     body {
       font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background-color: var(--bg);
       color: var(--text-primary);
       transition: background-color 0.3s ease, color 0.3s ease;
+      -webkit-font-smoothing: antialiased;
     }
     .font-mono, pre, code { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
-    .fade-up { opacity: 0; transform: translateY(20px); transition: opacity 0.4s ease, transform 0.4s ease; }
+
+    /* Nav */
+    nav {
+      background-color: color-mix(in srgb, var(--bg) 85%, transparent);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Fade-up animation */
+    .fade-up { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
     .fade-up.visible { opacity: 1; transform: translateY(0); }
-    .card-hover { transition: transform 0.25s ease, box-shadow 0.25s ease; }
-    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-    html.dark .card-hover:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
-    .btn-click:active { transform: scale(0.98); }
+    .fade-up-d1 { transition-delay: 0.08s; }
+    .fade-up-d2 { transition-delay: 0.16s; }
+    .fade-up-d3 { transition-delay: 0.24s; }
+    .fade-up-d4 { transition-delay: 0.32s; }
+
+    /* Card hover */
+    .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease; }
+    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.07); }
+    html.dark .card-hover:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.35); }
+    .btn-click:active { transform: scale(0.97); }
+
+    /* Utility */
     .surface { background-color: var(--bg); }
     .surface-secondary { background-color: var(--bg-secondary); }
-    .surface-tertiary { background-color: var(--bg-tertiary); }
     .t-primary { color: var(--text-primary); }
     .t-secondary { color: var(--text-secondary); }
     .t-tertiary { color: var(--text-tertiary); }
     .border-theme { border-color: var(--border); }
-    nav { background-color: color-mix(in srgb, var(--bg) 80%, transparent); }
+
+    /* Hero terminal */
+    .hero-terminal {
+      background: #0D1117;
+      border-radius: 16px;
+      border: 1px solid #2D333B;
+      overflow: hidden;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.22), 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .terminal-bar {
+      background: #161B22;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid #2D333B;
+    }
+    .terminal-dot { width: 12px; height: 12px; border-radius: 50%; }
+    .term-red   { background: #FF5F57; }
+    .term-amber { background: #FEBC2E; }
+    .term-green { background: #28C840; }
+    .terminal-body { padding: 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.8; }
+    .tc-dim    { color: #6B7684; }
+    .tc-blue   { color: #3182F6; }
+    .tc-green  { color: #00C471; }
+    .tc-amber  { color: #FF9500; }
+    .tc-white  { color: #E2E8F0; }
+    .tc-muted  { color: #8B95A1; }
+
+    /* Typing cursor */
+    .cursor { display: inline-block; width: 2px; height: 14px; background: #3182F6; vertical-align: middle; animation: blink 1.1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* Stats bar */
+    .stat-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 24px;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 32px;
+      font-weight: 600;
+      color: var(--primary);
+      line-height: 1;
+    }
+
+    /* Feature cards */
+    .feature-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+      border-color: rgba(49,130,246,0.25);
+    }
+    html.dark .feature-card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+      border-color: rgba(49,130,246,0.3);
+    }
+    .feature-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-light);
+      margin-bottom: 16px;
+      flex-shrink: 0;
+    }
+    .cmd-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--primary);
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    /* Source badge */
+    .source-badge-ko { background: var(--primary-light); color: var(--primary); }
+    .source-badge-gl { background: rgba(0,196,113,0.1); color: #00C471; }
+
+    /* Code blocks */
+    .code-block {
+      background: #0D1117;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #2D333B;
+    }
+    .code-block-header {
+      background: #161B22;
+      padding: 10px 16px;
+      border-bottom: 1px solid #2D333B;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .code-block pre {
+      padding: 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      line-height: 1.75;
+      overflow-x: auto;
+      color: #E2E8F0;
+    }
+
+    /* Step number */
+    .step-num {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: white;
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* Roadmap line */
+    .roadmap-line {
+      width: 2px;
+      flex: 1;
+      margin-top: 8px;
+      background: var(--border);
+    }
+
+    /* Before/After cards */
+    .ba-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+    }
+    .ba-card.after { border-color: rgba(49,130,246,0.3); }
+
+    /* Hamburger */
+    #mobileMenu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      top: 64px;
+      background: var(--bg);
+      z-index: 40;
+      padding: 24px;
+      flex-direction: column;
+      gap: 4px;
+      border-top: 1px solid var(--border);
+    }
+    #mobileMenu.open { display: flex; }
+    .mob-link {
+      display: block;
+      padding: 14px 16px;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: background 0.15s, color 0.15s;
+      text-decoration: none;
+    }
+    .mob-link:hover { background: var(--bg-secondary); color: var(--text-primary); }
+
+    /* Copy button */
+    .copy-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--text-tertiary);
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 2px 8px;
+      border-radius: 6px;
+      transition: color 0.15s, background 0.15s;
+    }
+    .copy-btn:hover { color: var(--primary); background: var(--primary-light); }
+
+    /* Demo preview mockup */
+    .demo-mock {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .demo-mock-bar {
+      background: var(--bg-tertiary);
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .mock-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--border); }
+
+    /* Grade pill */
+    .grade-s { background: rgba(49,130,246,0.1); color: #3182F6; }
+    .grade-a { background: rgba(0,196,113,0.1); color: #00C471; }
+
+    /* Scrollbar thin */
+    .scroll-thin { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
   </style>
 </head>
 <body>
 
   <!-- Navigation -->
-  <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b border-theme" style="height:64px; border-bottom:1px solid var(--border);">
-    <div class="max-w-[1080px] mx-auto px-6 h-full flex items-center justify-between">
-      <a href="/" class="text-lg font-bold t-primary tracking-tight">HireKit</a>
-      <div class="hidden md:flex items-center gap-8">
-        <a href="#features" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">기능</a>
-        <a href="#sources" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">소스</a>
-        <a href="#quickstart" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">시작하기</a>
+  <nav class="fixed top-0 left-0 right-0 z-50" style="height:64px;">
+    <div class="max-w-[1080px] mx-auto px-5 h-full flex items-center justify-between">
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-2 font-bold t-primary tracking-tight" style="font-size:17px; text-decoration:none;">
+        <span style="color:var(--primary);">⬡</span> HireKit
+      </a>
+
+      <!-- Desktop nav -->
+      <div class="hidden md:flex items-center gap-7">
+        <a href="#features" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">기능</a>
+        <a href="#sources" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">소스</a>
+        <a href="#quickstart" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">시작하기</a>
+        <a href="demo.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">데모</a>
       </div>
-      <div class="flex items-center gap-3">
-        <a href="en.html" class="text-sm t-tertiary hover:t-primary transition-colors">English</a>
-        <button id="themeToggle" class="w-9 h-9 rounded-xl flex items-center justify-center t-secondary transition-colors" style="border-radius:12px;" aria-label="다크모드 전환">
-          <svg id="iconSun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path stroke-linecap="round" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-          <svg id="iconMoon" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+
+      <!-- Right side controls -->
+      <div class="flex items-center gap-2">
+        <a href="en.html" class="hidden sm:block text-xs t-tertiary hover:t-primary transition-colors px-2 py-1 rounded-lg" style="text-decoration:none;">EN</a>
+        <button id="themeToggle" class="w-9 h-9 rounded-xl flex items-center justify-center t-secondary hover:surface-secondary transition-colors" aria-label="다크모드 전환">
+          <svg id="iconSun" class="w-4.5 h-4.5 hidden" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path stroke-linecap="round" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg id="iconMoon" class="w-4.5 h-4.5" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
-        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="hidden sm:flex items-center gap-1.5 text-sm font-medium t-secondary hover:t-primary transition-colors">
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="hidden sm:flex items-center gap-1.5 text-sm font-medium t-secondary hover:t-primary transition-colors px-3 py-1.5 rounded-xl" style="border:1px solid var(--border); text-decoration:none;">
           <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
           GitHub
         </a>
+        <!-- Hamburger -->
+        <button id="hamburger" class="md:hidden w-9 h-9 rounded-xl flex items-center justify-center t-secondary" aria-label="메뉴 열기">
+          <svg id="hambIcon" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="closeIcon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
       </div>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <section class="pt-40 pb-24 px-6">
-    <div class="max-w-[680px] mx-auto text-center fade-up">
-      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium mb-8" style="background-color:#EBF3FE; color:#3182F6; border-radius:12px;">
-        <span class="w-2 h-2 rounded-full" style="background-color:#3182F6;"></span>
-        오픈소스 · MIT License
-      </div>
-      <h1 class="font-bold t-primary mb-6" style="font-size:48px; line-height:1.3;">
-        기업 분석을<br />2분 만에
-      </h1>
-      <p class="t-secondary mb-10" style="font-size:18px; line-height:1.7;">
-        8개 소스에서 자동 수집하고,<br />100점 스코어카드로 판단해요.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-3 justify-center">
-        <a href="#quickstart" class="btn-click inline-flex items-center justify-center gap-2 font-medium text-white transition-colors" style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px;">
-          지금 시작하기
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-        </a>
-        <a href="demo.html" class="btn-click inline-flex items-center justify-center gap-2 font-medium t-primary transition-colors" style="height:48px; padding:0 24px; background-color:var(--bg-secondary); border-radius:12px;">
-          데모 체험하기
-        </a>
-      </div>
-      <div class="mt-10">
-        <code class="text-sm t-secondary" style="background-color:var(--bg-secondary); padding:8px 16px; border-radius:8px;">pip install hirekit</code>
+  <!-- Mobile menu -->
+  <div id="mobileMenu" role="dialog" aria-modal="true" aria-label="모바일 메뉴">
+    <a href="#features" class="mob-link" onclick="closeMobileMenu()">기능</a>
+    <a href="#sources" class="mob-link" onclick="closeMobileMenu()">소스</a>
+    <a href="#quickstart" class="mob-link" onclick="closeMobileMenu()">시작하기</a>
+    <a href="demo.html" class="mob-link">데모 체험하기</a>
+    <div style="margin-top:8px; border-top:1px solid var(--border); padding-top:16px;">
+      <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="mob-link flex items-center gap-2">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        GitHub에서 보기
+      </a>
+      <a href="en.html" class="mob-link">English</a>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ HERO ═══ -->
+  <section class="pt-32 pb-20 px-5">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+        <!-- Left: copy -->
+        <div class="fade-up">
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2 mb-7" style="background:var(--primary-light); color:var(--primary); padding:6px 14px; border-radius:100px; font-size:12px; font-weight:600; letter-spacing:0.03em;">
+            <span style="width:6px; height:6px; border-radius:50%; background:var(--primary); display:inline-block;"></span>
+            오픈소스 · MIT License · Python 3.9+
+          </div>
+
+          <h1 class="font-bold t-primary mb-5" style="font-size:clamp(34px,5vw,52px); line-height:1.2; letter-spacing:-0.02em;">
+            취업 준비,<br />데이터로 시작하세요
+          </h1>
+
+          <p class="t-secondary mb-8" style="font-size:17px; line-height:1.75; max-width:440px;">
+            기업 조사에 반나절 쓰는 시대는 끝났어요.<br />
+            8개 소스를 2분 만에 수집하고, 100점 스코어카드로 지원 우선순위를 결정해요.
+          </p>
+
+          <!-- CTA buttons -->
+          <div class="flex flex-wrap gap-3 mb-8">
+            <a href="#quickstart" class="btn-click inline-flex items-center justify-center gap-2 font-semibold text-white transition-colors" style="height:48px; padding:0 28px; background:var(--primary); border-radius:12px; font-size:15px; text-decoration:none;">
+              지금 시작하기
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+            <a href="demo.html" class="btn-click inline-flex items-center justify-center gap-2 font-semibold t-primary transition-colors" style="height:48px; padding:0 24px; background:var(--bg-secondary); border-radius:12px; font-size:15px; border:1px solid var(--border); text-decoration:none;">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              80개 기업 데모
+            </a>
+          </div>
+
+          <!-- Install command -->
+          <div class="inline-flex items-center gap-3 px-4 py-3 rounded-xl" style="background:var(--bg-secondary); border:1px solid var(--border);">
+            <code class="font-mono text-sm t-primary">$ pip install hirekit</code>
+            <button id="copyInstall" class="copy-btn" onclick="copyInstall()" aria-label="명령어 복사">복사</button>
+          </div>
+        </div>
+
+        <!-- Right: terminal -->
+        <div class="fade-up fade-up-d1">
+          <div class="hero-terminal">
+            <div class="terminal-bar">
+              <span class="terminal-dot term-red"></span>
+              <span class="terminal-dot term-amber"></span>
+              <span class="terminal-dot term-green"></span>
+              <span class="ml-3 font-mono text-xs" style="color:#6B7684;">hirekit score 카카오</span>
+            </div>
+            <div class="terminal-body" id="heroTerminal" aria-live="polite" aria-label="HireKit 터미널 출력 예시">
+              <!-- filled by JS -->
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Problem / Before-After -->
-  <section class="py-20 px-6" style="background-color:var(--bg-secondary);">
+  <!-- ═══════════════════════════════════════════ STATS ═══ -->
+  <section class="py-8 px-5" style="border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="stat-card fade-up">
+          <div class="stat-num">80+</div>
+          <div class="text-sm t-tertiary mt-1.5">분석된 기업</div>
+        </div>
+        <div class="stat-card fade-up fade-up-d1">
+          <div class="stat-num">8</div>
+          <div class="text-sm t-tertiary mt-1.5">데이터 소스</div>
+        </div>
+        <div class="stat-card fade-up fade-up-d2">
+          <div class="stat-num">2분</div>
+          <div class="text-sm t-tertiary mt-1.5">평균 분석 시간</div>
+        </div>
+        <div class="stat-card fade-up fade-up-d3">
+          <div class="stat-num">7</div>
+          <div class="text-sm t-tertiary mt-1.5">CLI 명령어</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ PROBLEM ═══ -->
+  <section class="py-20 px-5" style="background:var(--bg-secondary);">
     <div class="max-w-[1080px] mx-auto">
       <div class="text-center mb-12 fade-up">
-        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">이런 경험 있지 않나요?</h2>
-        <p class="t-secondary">기업 조사에 반나절을 쓰고, 정작 지원서는 못 쓰는 상황</p>
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">이런 경험 있지 않나요?</h2>
+        <p class="t-secondary" style="font-size:16px;">기업 조사에 반나절을 쓰고, 정작 지원서는 못 쓰는 상황</p>
       </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="card-hover surface rounded-2xl p-6 fade-up" style="border:1px solid var(--border);">
+      <div class="grid md:grid-cols-2 gap-5">
+        <!-- Before -->
+        <div class="ba-card fade-up">
           <div class="flex items-center gap-3 mb-5">
-            <div class="w-8 h-8 rounded-full flex items-center justify-center" style="background-color:rgba(255,69,69,0.1);">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center" style="background:rgba(255,69,69,0.1);">
               <svg class="w-4 h-4" style="color:#FF4545;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
             </div>
             <span class="text-sm font-semibold" style="color:#FF4545;">지금까지</span>
           </div>
           <ul class="space-y-4">
             <li class="flex items-start gap-3">
-              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:var(--text-tertiary);"></span>
-              <div>
-                <p class="font-medium t-primary">탭 30개 열고 복사·붙여넣기</p>
-                <p class="text-sm t-tertiary mt-1">뉴스, 공시, 채용공고, 후기... 일일이 탐색</p>
-              </div>
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:var(--text-tertiary);"></span>
+              <div><p class="font-medium t-primary text-sm">탭 30개 열고 복사·붙여넣기</p><p class="text-xs t-tertiary mt-0.5">뉴스, 공시, 채용공고, 후기 일일이 탐색</p></div>
             </li>
             <li class="flex items-start gap-3">
-              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:var(--text-tertiary);"></span>
-              <div>
-                <p class="font-medium t-primary">4~8시간 소요</p>
-                <p class="text-sm t-tertiary mt-1">한 기업 제대로 파악하는 데만 반나절</p>
-              </div>
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:var(--text-tertiary);"></span>
+              <div><p class="font-medium t-primary text-sm">4~8시간 소요</p><p class="text-xs t-tertiary mt-0.5">한 기업 제대로 파악하는 데만 반나절</p></div>
             </li>
             <li class="flex items-start gap-3">
-              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:var(--text-tertiary);"></span>
-              <div>
-                <p class="font-medium t-primary">비교가 불가능한 형태</p>
-                <p class="text-sm t-tertiary mt-1">각 기업 정보가 제각각 형식으로 산재</p>
-              </div>
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:var(--text-tertiary);"></span>
+              <div><p class="font-medium t-primary text-sm">비교가 불가능한 형태</p><p class="text-xs t-tertiary mt-0.5">각 기업 정보가 제각각 형식으로 산재</p></div>
             </li>
             <li class="flex items-start gap-3">
-              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:var(--text-tertiary);"></span>
-              <div>
-                <p class="font-medium t-primary">"느낌"으로 판단</p>
-                <p class="text-sm t-tertiary mt-1">수치 기반 비교 없이 주관적으로 결정</p>
-              </div>
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:var(--text-tertiary);"></span>
+              <div><p class="font-medium t-primary text-sm">"느낌"으로 판단</p><p class="text-xs t-tertiary mt-0.5">수치 기반 비교 없이 주관적으로 결정</p></div>
             </li>
           </ul>
         </div>
-        <div class="card-hover surface rounded-2xl p-6 fade-up" style="border:1px solid rgba(49,130,246,0.3);">
+
+        <!-- After -->
+        <div class="ba-card after fade-up fade-up-d1">
           <div class="flex items-center gap-3 mb-5">
-            <div class="w-8 h-8 rounded-full flex items-center justify-center" style="background-color:rgba(0,196,113,0.1);">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center" style="background:rgba(0,196,113,0.1);">
               <svg class="w-4 h-4" style="color:#00C471;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
             </div>
-            <span class="text-sm font-semibold" style="color:#00C471;">HireKit로</span>
+            <span class="text-sm font-semibold" style="color:#00C471;">HireKit으로</span>
           </div>
           <ul class="space-y-4">
             <li class="flex items-start gap-3">
-              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:#00C471;"></span>
-              <div>
-                <p class="font-medium t-primary">명령어 하나로 자동 수집</p>
-                <p class="text-sm t-tertiary mt-1">8개 소스를 병렬로 긁어서 통합 리포트 생성</p>
-              </div>
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:#00C471;"></span>
+              <div><p class="font-medium t-primary text-sm">명령어 하나로 자동 수집</p><p class="text-xs t-tertiary mt-0.5">8개 소스를 병렬로 긁어서 통합 리포트 생성</p></div>
             </li>
             <li class="flex items-start gap-3">
-              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:#00C471;"></span>
-              <div>
-                <p class="font-medium t-primary">2분 소요</p>
-                <p class="text-sm t-tertiary mt-1">커피 한 잔 내리는 시간에 분석 완료</p>
-              </div>
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:#00C471;"></span>
+              <div><p class="font-medium t-primary text-sm">2분 소요</p><p class="text-xs t-tertiary mt-0.5">커피 한 잔 내리는 시간에 분석 완료</p></div>
             </li>
             <li class="flex items-start gap-3">
-              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:#00C471;"></span>
-              <div>
-                <p class="font-medium t-primary">동일 형식으로 비교 가능</p>
-                <p class="text-sm t-tertiary mt-1">카카오 vs 네이버 vs 토스를 나란히 비교</p>
-              </div>
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:#00C471;"></span>
+              <div><p class="font-medium t-primary text-sm">동일 형식으로 비교 가능</p><p class="text-xs t-tertiary mt-0.5">카카오 vs 네이버 vs 토스를 나란히 비교</p></div>
             </li>
             <li class="flex items-start gap-3">
-              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:#00C471;"></span>
-              <div>
-                <p class="font-medium t-primary">100점 스코어카드로 결정</p>
-                <p class="text-sm t-tertiary mt-1">데이터 기반 수치로 지원 우선순위 결정</p>
-              </div>
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:#00C471;"></span>
+              <div><p class="font-medium t-primary text-sm">100점 스코어카드로 결정</p><p class="text-xs t-tertiary mt-0.5">데이터 기반 수치로 지원 우선순위 결정</p></div>
             </li>
           </ul>
         </div>
@@ -222,291 +510,383 @@
     </div>
   </section>
 
-  <!-- Features -->
-  <section id="features" class="py-20 px-6">
+  <!-- ═══════════════════════════════════════════ FEATURES ═══ -->
+  <section id="features" class="py-20 px-5">
     <div class="max-w-[1080px] mx-auto">
       <div class="text-center mb-12 fade-up">
-        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">7가지 명령어, 하나의 도구</h2>
-        <p class="t-secondary">취업 준비의 모든 단계를 커버해요</p>
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">7가지 명령어, 하나의 도구</h2>
+        <p class="t-secondary" style="font-size:16px;">취업 준비의 모든 단계를 커버해요</p>
       </div>
-      <div class="grid md:grid-cols-3 gap-5 fade-up">
-        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
-          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
-            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 fade-up">
+        <!-- analyze -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
           </div>
-          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit analyze</div>
-          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">기업 분석</h3>
+          <div class="cmd-tag">hirekit analyze</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">기업 분석</h3>
           <p class="text-sm t-secondary leading-relaxed">재무, 전략, 기술, 문화를 한 번에 분석해요. 8개 소스에서 데이터를 모아 종합 리포트로 정리해요.</p>
         </div>
-        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
-          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
-            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+        <!-- score -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
           </div>
-          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit score</div>
-          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">스코어카드</h3>
-          <p class="text-sm t-secondary leading-relaxed">100점 만점 스코어와 S~D 등급으로 지원 우선순위를 결정해요. 6개 차원을 수치로 비교할 수 있어요.</p>
+          <div class="cmd-tag">hirekit score</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">스코어카드</h3>
+          <p class="text-sm t-secondary leading-relaxed">100점 만점 스코어와 S~D 등급으로 지원 우선순위를 결정해요. 5개 차원을 수치로 비교해요.</p>
         </div>
-        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
-          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
-            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+        <!-- compare -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
           </div>
-          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit compare</div>
-          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">기업 비교</h3>
+          <div class="cmd-tag">hirekit compare</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">기업 비교</h3>
           <p class="text-sm t-secondary leading-relaxed">여러 기업을 나란히 비교해요. 어느 회사가 나에게 더 맞는지 수치로 판단할 수 있어요.</p>
         </div>
-        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
-          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
-            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        <!-- match -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
-          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit match</div>
-          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">이력서 매칭</h3>
+          <div class="cmd-tag">hirekit match</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">이력서 매칭</h3>
           <p class="text-sm t-secondary leading-relaxed">내 이력서와 JD를 비교해서 적합도를 분석해요. 부족한 부분과 강점을 정확히 짚어줘요.</p>
         </div>
-        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
-          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
-            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg>
+        <!-- interview -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg>
           </div>
-          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit interview</div>
-          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">면접 질문</h3>
+          <div class="cmd-tag">hirekit interview</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">면접 질문</h3>
           <p class="text-sm t-secondary leading-relaxed">기업별 예상 면접 질문과 답변 가이드를 생성해요. 최신 전략과 문화를 반영해요.</p>
         </div>
-        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
-          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
-            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        <!-- report -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
           </div>
-          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit report</div>
-          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">리포트 저장</h3>
+          <div class="cmd-tag">hirekit report</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">리포트 저장</h3>
           <p class="text-sm t-secondary leading-relaxed">분석 결과를 Markdown, JSON, HTML로 저장해요. 나중에 다시 꺼내보기 편해요.</p>
         </div>
-        <div class="card-hover rounded-2xl p-6 md:col-start-2" style="background-color:var(--bg-secondary);">
-          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
-            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+        <!-- batch -->
+        <div class="feature-card sm:col-span-2 lg:col-span-3">
+          <div class="flex items-start gap-4">
+            <div class="feature-icon" style="margin-bottom:0;">
+              <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+            </div>
+            <div>
+              <div class="cmd-tag">hirekit batch</div>
+              <h3 class="font-semibold t-primary mb-1" style="font-size:16px;">일괄 분석</h3>
+              <p class="text-sm t-secondary leading-relaxed">지원 목록 전체를 한 번에 분석해요. 여러 회사를 동시에 파악하고 우선순위를 정해요. 스프레드시트처럼 비교할 수 있는 리포트가 생성돼요.</p>
+            </div>
           </div>
-          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit batch</div>
-          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">일괄 분석</h3>
-          <p class="text-sm t-secondary leading-relaxed">지원 목록 전체를 한 번에 분석해요. 여러 회사를 동시에 파악하고 우선순위를 정해요.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Data Sources -->
-  <section id="sources" class="py-20 px-6" style="background-color:var(--bg-secondary);">
+  <!-- ═══════════════════════════════════════════ SOURCES ═══ -->
+  <section id="sources" class="py-20 px-5" style="background:var(--bg-secondary);">
     <div class="max-w-[1080px] mx-auto">
       <div class="text-center mb-12 fade-up">
-        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">8개 소스, 하나의 리포트</h2>
-        <p class="t-secondary">국내외 핵심 데이터를 병렬로 수집해서 빠짐없이 보여줘요</p>
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">8개 소스, 하나의 리포트</h2>
+        <p class="t-secondary" style="font-size:16px;">국내외 핵심 데이터를 병렬로 수집해서 빠짐없이 보여줘요</p>
       </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 fade-up">
-        <div class="card-hover surface rounded-2xl p-5">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 fade-up">
+        <div class="card-hover surface rounded-2xl p-5" style="border:1px solid var(--border);">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">📰</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">국내</span>
+            <span class="text-lg">📰</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg source-badge-ko">국내</span>
           </div>
-          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">네이버 뉴스</h3>
-          <p class="text-sm t-secondary">최신 기업 뉴스와 이슈를 실시간 수집해요</p>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:14px;">네이버 뉴스</h3>
+          <p class="text-xs t-secondary leading-relaxed">최신 기업 뉴스와 이슈를 실시간 수집해요</p>
         </div>
-        <div class="card-hover surface rounded-2xl p-5">
+        <div class="card-hover surface rounded-2xl p-5" style="border:1px solid var(--border);">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">📋</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">국내</span>
+            <span class="text-lg">📋</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg source-badge-ko">국내</span>
           </div>
-          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">DART 공시</h3>
-          <p class="text-sm t-secondary">금융감독원 전자공시로 재무 데이터를 정확하게 가져와요</p>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:14px;">DART 공시</h3>
+          <p class="text-xs t-secondary leading-relaxed">금융감독원 전자공시로 재무 데이터를 정확하게</p>
         </div>
-        <div class="card-hover surface rounded-2xl p-5">
+        <div class="card-hover surface rounded-2xl p-5" style="border:1px solid var(--border);">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">🔍</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">글로벌</span>
+            <span class="text-lg">🔍</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg source-badge-gl">글로벌</span>
           </div>
-          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">Google News</h3>
-          <p class="text-sm t-secondary">영문 뉴스까지 커버해서 글로벌 시각을 더해요</p>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:14px;">Google News</h3>
+          <p class="text-xs t-secondary leading-relaxed">영문 뉴스까지 커버해서 글로벌 시각을 더해요</p>
         </div>
-        <div class="card-hover surface rounded-2xl p-5">
+        <div class="card-hover surface rounded-2xl p-5" style="border:1px solid var(--border);">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">🌐</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">글로벌</span>
+            <span class="text-lg">🌐</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg source-badge-gl">글로벌</span>
           </div>
-          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">Brave Search</h3>
-          <p class="text-sm t-secondary">독립 검색엔진으로 편향 없는 결과를 수집해요</p>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:14px;">Brave Search</h3>
+          <p class="text-xs t-secondary leading-relaxed">독립 검색엔진으로 편향 없는 결과를 수집해요</p>
         </div>
-        <div class="card-hover surface rounded-2xl p-5">
+        <div class="card-hover surface rounded-2xl p-5" style="border:1px solid var(--border);">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">⚡</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">글로벌</span>
+            <span class="text-lg">⚡</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg source-badge-gl">글로벌</span>
           </div>
-          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">Exa Search</h3>
-          <p class="text-sm t-secondary">AI 기반 시맨틱 검색으로 맥락에 맞는 자료를 찾아요</p>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:14px;">Exa Search</h3>
+          <p class="text-xs t-secondary leading-relaxed">AI 기반 시맨틱 검색으로 맥락에 맞는 자료를</p>
         </div>
-        <div class="card-hover surface rounded-2xl p-5">
+        <div class="card-hover surface rounded-2xl p-5" style="border:1px solid var(--border);">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">📊</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">국내</span>
+            <span class="text-lg">📊</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg source-badge-ko">국내</span>
           </div>
-          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">네이버 검색</h3>
-          <p class="text-sm t-secondary">블로그·카페·지식인까지 국내 여론을 분석해요</p>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:14px;">네이버 검색</h3>
+          <p class="text-xs t-secondary leading-relaxed">블로그·카페·지식인까지 국내 여론을 분석해요</p>
         </div>
-        <div class="card-hover surface rounded-2xl p-5">
+        <div class="card-hover surface rounded-2xl p-5" style="border:1px solid var(--border);">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">🗞️</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">글로벌</span>
+            <span class="text-lg">🗞️</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg source-badge-gl">글로벌</span>
           </div>
-          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">Credible News</h3>
-          <p class="text-sm t-secondary">신뢰도 높은 언론사 기사만 선별해서 분석해요</p>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:14px;">Credible News</h3>
+          <p class="text-xs t-secondary leading-relaxed">신뢰도 높은 언론사 기사만 선별해서 분석해요</p>
         </div>
-        <div class="card-hover surface rounded-2xl p-5">
+        <div class="card-hover surface rounded-2xl p-5" style="border:1px solid var(--border);">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">💼</span>
-            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">국내</span>
+            <span class="text-lg">💼</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg source-badge-ko">국내</span>
           </div>
-          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">채용 공고</h3>
-          <p class="text-sm t-secondary">현재 채용 중인 포지션으로 전략 방향을 읽어요</p>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:14px;">채용 공고</h3>
+          <p class="text-xs t-secondary leading-relaxed">현재 채용 중인 포지션으로 전략 방향을 읽어요</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Scorecard Demo -->
-  <section class="py-20 px-6">
+  <!-- ═══════════════════════════════════════════ DEMO PREVIEW ═══ -->
+  <section class="py-20 px-5">
     <div class="max-w-[1080px] mx-auto">
       <div class="text-center mb-12 fade-up">
-        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">스코어카드 미리보기</h2>
-        <p class="t-secondary">카카오 실제 분석 결과예요</p>
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">실제 분석 결과를 보세요</h2>
+        <p class="t-secondary" style="font-size:16px;">80개 기업 데이터가 준비되어 있어요. 클릭 한 번으로 스코어카드를 확인해요.</p>
       </div>
-      <div class="rounded-2xl overflow-hidden fade-up" style="border:1px solid var(--border);">
-        <div class="flex items-center gap-2 px-5 py-3" style="background-color:var(--bg-tertiary);">
-          <span class="w-3 h-3 rounded-full" style="background-color:rgba(255,69,69,0.5);"></span>
-          <span class="w-3 h-3 rounded-full" style="background-color:rgba(255,149,0,0.5);"></span>
-          <span class="w-3 h-3 rounded-full" style="background-color:rgba(0,196,113,0.5);"></span>
-          <span class="ml-3 text-xs font-mono t-tertiary">terminal</span>
+      <div class="demo-mock fade-up">
+        <div class="demo-mock-bar">
+          <span class="mock-dot"></span>
+          <span class="mock-dot"></span>
+          <span class="mock-dot"></span>
+          <span class="ml-3 font-mono text-xs t-tertiary">hirekit.demo</span>
+          <div class="flex-1"></div>
+          <a href="demo.html" class="text-xs font-semibold" style="color:var(--primary); text-decoration:none;">전체 데모 보기 →</a>
         </div>
-        <pre class="font-mono text-sm p-6 overflow-x-auto leading-relaxed" style="background-color:#0F1117; color:#E2E8F0;"><code><span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit score 카카오</span>
-
-<span style="color:#F2F4F6; font-weight:500;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
-<span style="color:#F2F4F6; font-weight:500;">  HireKit Scorecard — 카카오</span>
-<span style="color:#F2F4F6; font-weight:500;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
-
-<span style="color:#B0B8C1;">  종합 점수</span>   <span style="color:#3182F6; font-weight:500;">78 / 100</span>   <span style="color:#3182F6;">[B]</span>
-
-  <span style="color:#B0B8C1;">재무 건전성</span>  <span style="color:#00C471;">██████████████████░░</span>  <span style="color:#F2F4F6;">87 / 100</span>  <span style="color:#00C471;">[A]</span>
-  <span style="color:#B0B8C1;">성장 모멘텀</span>  <span style="color:#FF9500;">████████████░░░░░░░░</span>  <span style="color:#F2F4F6;">62 / 100</span>  <span style="color:#FF9500;">[B]</span>
-  <span style="color:#B0B8C1;">기술 역량  </span>  <span style="color:#00C471;">████████████████░░░░</span>  <span style="color:#F2F4F6;">82 / 100</span>  <span style="color:#00C471;">[A]</span>
-  <span style="color:#B0B8C1;">조직 문화  </span>  <span style="color:#FF9500;">███████████░░░░░░░░░</span>  <span style="color:#F2F4F6;">58 / 100</span>  <span style="color:#FF9500;">[B]</span>
-  <span style="color:#B0B8C1;">시장 지위  </span>  <span style="color:#00C471;">███████████████░░░░░</span>  <span style="color:#F2F4F6;">78 / 100</span>  <span style="color:#00C471;">[A]</span>
-  <span style="color:#B0B8C1;">미래 전망  </span>  <span style="color:#FF9500;">████████████░░░░░░░░</span>  <span style="color:#F2F4F6;">65 / 100</span>  <span style="color:#FF9500;">[B]</span>
-
-<span style="color:#6B7684;">  ──────────────────────────────────────────────────</span>
-<span style="color:#B0B8C1;">  요약: AI 전환 기조는 명확하나 광고 수익 의존도가</span>
-<span style="color:#B0B8C1;">        여전히 높아 단기 성장성은 제한적이에요.</span>
-<span style="color:#B0B8C1;">        카카오뱅크·카카오페이 시너지 여부가 관건.</span>
-<span style="color:#6B7684;">  ──────────────────────────────────────────────────</span>
-<span style="color:#6B7684;">  소스: 7개 · 수집 시간: 1m 43s</span></code></pre>
+        <div class="p-6" style="background:var(--bg-secondary);">
+          <!-- Mini company cards preview -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 mb-5">
+            <div class="surface rounded-xl p-3" style="border:1.5px solid var(--primary);">
+              <div class="text-xs font-semibold t-primary truncate mb-1">카카오</div>
+              <div class="flex items-center gap-1">
+                <span class="font-mono text-xs font-bold" style="color:#3182F6;">S</span>
+                <span class="text-xs t-tertiary">81점</span>
+              </div>
+            </div>
+            <div class="surface rounded-xl p-3" style="border:1px solid var(--border);">
+              <div class="text-xs font-semibold t-primary truncate mb-1">네이버</div>
+              <div class="flex items-center gap-1">
+                <span class="font-mono text-xs font-bold" style="color:#3182F6;">S</span>
+                <span class="text-xs t-tertiary">80점</span>
+              </div>
+            </div>
+            <div class="surface rounded-xl p-3" style="border:1px solid var(--border);">
+              <div class="text-xs font-semibold t-primary truncate mb-1">SK하이닉스</div>
+              <div class="flex items-center gap-1">
+                <span class="font-mono text-xs font-bold" style="color:#3182F6;">S</span>
+                <span class="text-xs t-tertiary">80점</span>
+              </div>
+            </div>
+            <div class="surface rounded-xl p-3" style="border:1px solid var(--border);">
+              <div class="text-xs font-semibold t-primary truncate mb-1">LG CNS</div>
+              <div class="flex items-center gap-1">
+                <span class="font-mono text-xs font-bold" style="color:#3182F6;">S</span>
+                <span class="text-xs t-tertiary">80점</span>
+              </div>
+            </div>
+            <div class="surface rounded-xl p-3" style="border:1px solid var(--border);">
+              <div class="text-xs font-semibold t-primary truncate mb-1">AWS코리아</div>
+              <div class="flex items-center gap-1">
+                <span class="font-mono text-xs font-bold" style="color:#00C471;">A</span>
+                <span class="text-xs t-tertiary">75점</span>
+              </div>
+            </div>
+          </div>
+          <!-- Inline scorecard preview -->
+          <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+            <div class="flex items-start justify-between mb-4">
+              <div>
+                <div class="flex items-center gap-2 mb-0.5">
+                  <span class="font-bold t-primary" style="font-size:18px;">카카오</span>
+                  <span class="font-mono text-xs font-bold px-2 py-0.5 rounded-lg grade-s">Grade S</span>
+                </div>
+                <span class="text-xs t-tertiary">IT서비스 · 설립 2010년</span>
+              </div>
+              <div class="text-right">
+                <div class="font-bold" style="color:var(--primary); font-size:28px; line-height:1; font-family:'JetBrains Mono',monospace;">81</div>
+                <div class="text-xs t-tertiary">/ 100</div>
+              </div>
+            </div>
+            <div class="space-y-3">
+              <div>
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs t-secondary">Job Fit</span>
+                  <span class="text-xs font-medium t-primary">84</span>
+                </div>
+                <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);">
+                  <div class="h-1.5 rounded-full" style="width:84%; background:#00C471;"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs t-secondary">성장 잠재력</span>
+                  <span class="text-xs font-medium t-primary">76</span>
+                </div>
+                <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);">
+                  <div class="h-1.5 rounded-full" style="width:76%; background:#3182F6;"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs t-secondary">보상 · 복지</span>
+                  <span class="text-xs font-medium t-primary">82</span>
+                </div>
+                <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);">
+                  <div class="h-1.5 rounded-full" style="width:82%; background:#00C471;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4 pt-4 flex justify-end" style="border-top:1px solid var(--border);">
+              <a href="demo.html" class="btn-click inline-flex items-center gap-1.5 text-sm font-semibold text-white" style="height:36px; padding:0 16px; background:var(--primary); border-radius:10px; text-decoration:none;">
+                전체 분석 보기
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Quick Start -->
-  <section id="quickstart" class="py-20 px-6" style="background-color:var(--bg-secondary);">
+  <!-- ═══════════════════════════════════════════ QUICKSTART ═══ -->
+  <section id="quickstart" class="py-20 px-5" style="background:var(--bg-secondary);">
     <div class="max-w-[680px] mx-auto">
       <div class="text-center mb-12 fade-up">
-        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">3단계로 시작해요</h2>
-        <p class="t-secondary">Python 3.9 이상이면 바로 사용할 수 있어요</p>
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">3단계로 시작해요</h2>
+        <p class="t-secondary" style="font-size:16px;">Python 3.9 이상이면 바로 사용할 수 있어요</p>
       </div>
       <div class="space-y-4 fade-up">
+        <!-- Step 1 -->
         <div class="surface rounded-2xl p-6" style="border:1px solid var(--border);">
           <div class="flex items-center gap-4 mb-4">
-            <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0" style="background-color:#3182F6;">1</div>
+            <div class="step-num">1</div>
             <h3 class="font-semibold t-primary">설치해요</h3>
           </div>
-          <div class="rounded-xl overflow-hidden" style="background-color:var(--bg-secondary);">
-            <div class="px-4 py-2" style="border-bottom:1px solid var(--border);">
-              <span class="text-xs font-mono t-tertiary">bash</span>
+          <div class="code-block">
+            <div class="code-block-header">
+              <span class="font-mono text-xs" style="color:#6B7684;">bash</span>
+              <div class="flex-1"></div>
+              <button class="copy-btn" onclick="copyCode(this, 'pip install hirekit')" aria-label="명령어 복사">복사</button>
             </div>
-            <pre class="p-4 text-sm font-mono t-primary overflow-x-auto"><code>pip install hirekit</code></pre>
+            <pre><code><span style="color:#6B7684;">$ </span><span style="color:#3182F6;">pip install hirekit</span></code></pre>
           </div>
         </div>
+
+        <!-- Step 2 -->
         <div class="surface rounded-2xl p-6" style="border:1px solid var(--border);">
           <div class="flex items-center gap-4 mb-4">
-            <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0" style="background-color:#3182F6;">2</div>
+            <div class="step-num">2</div>
             <h3 class="font-semibold t-primary">API 키를 설정해요</h3>
           </div>
-          <div class="rounded-xl overflow-hidden" style="background-color:var(--bg-secondary);">
-            <div class="px-4 py-2" style="border-bottom:1px solid var(--border);">
-              <span class="text-xs font-mono t-tertiary">~/.hirekit.env</span>
+          <div class="code-block">
+            <div class="code-block-header">
+              <span class="font-mono text-xs" style="color:#6B7684;">~/.hirekit.env</span>
+              <div class="flex-1"></div>
+              <button class="copy-btn" onclick="copyCode(this, 'OPENAI_API_KEY=sk-...\nDART_API_KEY=...\nBRAVE_API_KEY=...')" aria-label="코드 복사">복사</button>
             </div>
-            <pre class="p-4 text-sm font-mono t-secondary overflow-x-auto"><code>OPENAI_API_KEY=sk-...
-DART_API_KEY=...         <span class="t-tertiary"># 선택, 재무 데이터</span>
-BRAVE_API_KEY=...        <span class="t-tertiary"># 선택, 검색 강화</span></code></pre>
+            <pre><code><span style="color:#00C471;">OPENAI_API_KEY</span><span style="color:#E2E8F0;">=sk-...</span>
+<span style="color:#00C471;">DART_API_KEY</span><span style="color:#E2E8F0;">=...</span>         <span style="color:#6B7684;"># 선택, 재무 데이터</span>
+<span style="color:#00C471;">BRAVE_API_KEY</span><span style="color:#E2E8F0;">=...</span>        <span style="color:#6B7684;"># 선택, 검색 강화</span></code></pre>
           </div>
-          <p class="mt-3 text-xs t-tertiary">DART API 키는 <a href="https://opendart.fss.or.kr" target="_blank" class="hover:underline" style="color:#3182F6;">opendart.fss.or.kr</a>에서 무료로 발급받을 수 있어요</p>
+          <p class="mt-3 text-xs t-tertiary">DART API 키는 <a href="https://opendart.fss.or.kr" target="_blank" rel="noopener" class="hover:underline" style="color:var(--primary);">opendart.fss.or.kr</a>에서 무료로 발급받을 수 있어요</p>
         </div>
+
+        <!-- Step 3 -->
         <div class="surface rounded-2xl p-6" style="border:1px solid var(--border);">
           <div class="flex items-center gap-4 mb-4">
-            <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0" style="background-color:#3182F6;">3</div>
+            <div class="step-num">3</div>
             <h3 class="font-semibold t-primary">바로 실행해요</h3>
           </div>
-          <div class="rounded-xl overflow-hidden" style="background-color:var(--bg-secondary);">
-            <div class="px-4 py-2" style="border-bottom:1px solid var(--border);">
-              <span class="text-xs font-mono t-tertiary">bash</span>
+          <div class="code-block">
+            <div class="code-block-header">
+              <span class="font-mono text-xs" style="color:#6B7684;">bash</span>
+              <div class="flex-1"></div>
+              <button class="copy-btn" onclick="copyCode(this, 'hirekit analyze 카카오\nhirekit score 카카오\nhirekit compare 카카오 네이버 토스')" aria-label="코드 복사">복사</button>
             </div>
-            <pre class="p-4 text-sm font-mono t-primary overflow-x-auto"><code>hirekit analyze 카카오
-hirekit score 카카오
-hirekit compare 카카오 네이버 토스</code></pre>
+            <pre><code><span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit analyze 카카오</span>
+<span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit score 카카오</span>
+<span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit compare 카카오 네이버 토스</span></code></pre>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Roadmap -->
-  <section class="py-20 px-6">
+  <!-- ═══════════════════════════════════════════ ROADMAP ═══ -->
+  <section class="py-20 px-5">
     <div class="max-w-[680px] mx-auto">
       <div class="text-center mb-12 fade-up">
-        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">로드맵</h2>
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">로드맵</h2>
         <p class="t-secondary">HireKit이 나아가는 방향이에요</p>
       </div>
-      <div class="space-y-0 fade-up">
+      <div class="fade-up">
+        <!-- Phase 1 -->
         <div class="flex gap-5">
           <div class="flex flex-col items-center">
-            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color:#00C471;">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background:#00C471;">
               <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
             </div>
-            <div class="w-0.5 flex-1 mt-2" style="background-color:var(--border);"></div>
+            <div class="roadmap-line"></div>
           </div>
           <div class="pb-8">
-            <div class="mb-2">
-              <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">Phase 1 완료</span>
-            </div>
-            <h3 class="font-semibold t-primary mb-1">기초 분석 엔진</h3>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg mb-2 inline-block" style="background:rgba(0,196,113,0.1); color:#00C471;">Phase 1 완료</span>
+            <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">기초 분석 엔진</h3>
             <p class="text-sm t-secondary">8개 소스 수집, 스코어카드, CLI 인터페이스, DART 연동</p>
           </div>
         </div>
+        <!-- Phase 2 -->
         <div class="flex gap-5">
           <div class="flex flex-col items-center">
-            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color:#00C471;">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background:#00C471;">
               <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
             </div>
-            <div class="w-0.5 flex-1 mt-2" style="background-color:var(--border);"></div>
+            <div class="roadmap-line"></div>
           </div>
           <div class="pb-8">
-            <div class="mb-2">
-              <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">Phase 2 완료</span>
-            </div>
-            <h3 class="font-semibold t-primary mb-1">이력서 매칭 &amp; 면접 준비</h3>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg mb-2 inline-block" style="background:rgba(0,196,113,0.1); color:#00C471;">Phase 2 완료</span>
+            <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">이력서 매칭 &amp; 면접 준비</h3>
             <p class="text-sm t-secondary">JD 매칭 분석, 예상 면접 질문, 비교 분석, 일괄 처리</p>
           </div>
         </div>
+        <!-- Phase 3 -->
         <div class="flex gap-5">
           <div class="flex items-center">
-            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color:rgba(49,130,246,0.15); border:2px solid #3182F6;">
-              <div class="w-2 h-2 rounded-full" style="background-color:#3182F6;"></div>
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background:rgba(49,130,246,0.12); border:2px solid #3182F6;">
+              <div class="w-2 h-2 rounded-full" style="background:var(--primary);"></div>
             </div>
           </div>
           <div class="pb-2">
-            <div class="mb-2">
-              <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">Phase 3 진행 중</span>
-            </div>
-            <h3 class="font-semibold t-primary mb-1">웹 대시보드 &amp; 팀 기능</h3>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-lg mb-2 inline-block" style="background:var(--primary-light); color:var(--primary);">Phase 3 진행 중</span>
+            <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">웹 대시보드 &amp; 팀 기능</h3>
             <p class="text-sm t-secondary">시각화 대시보드, 분석 히스토리, 팀 공유, Slack 연동</p>
           </div>
         </div>
@@ -514,69 +894,190 @@ hirekit compare 카카오 네이버 토스</code></pre>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-12 px-6" style="border-top:1px solid var(--border);">
+  <!-- ═══════════════════════════════════════════ FOOTER ═══ -->
+  <footer class="py-12 px-5" style="border-top:1px solid var(--border);">
     <div class="max-w-[1080px] mx-auto">
       <div class="flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
-          <div class="font-bold t-primary mb-1">HireKit</div>
-          <div class="text-sm t-tertiary">MIT License · Python 3.9+</div>
+          <div class="flex items-center gap-2 font-bold t-primary mb-1" style="font-size:16px;">
+            <span style="color:var(--primary);">⬡</span> HireKit
+          </div>
+          <div class="text-xs t-tertiary">MIT License · Python 3.9+ · 오픈소스</div>
         </div>
-        <div class="flex items-center gap-6">
-          <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-sm t-secondary hover:text-[#3182F6] transition-colors">
+        <div class="flex items-center gap-6 flex-wrap justify-center">
+          <a href="demo.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">데모</a>
+          <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">
             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
             GitHub
           </a>
-          <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">PyPI</a>
-          <a href="en.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">English</a>
+          <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">PyPI</a>
+          <a href="en.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">English</a>
         </div>
       </div>
-      <div class="mt-8 pt-8 text-center text-xs t-tertiary" style="border-top:1px solid var(--border);">
+      <div class="mt-8 pt-6 text-center text-xs t-tertiary" style="border-top:1px solid var(--border);">
         모든 데이터는 로컬에서 처리돼요. 더 나은 취업 준비를 응원해요.
       </div>
     </div>
   </footer>
 
-  <script>
-    // Dark mode
-    const html = document.documentElement;
-    const themeToggle = document.getElementById('themeToggle');
-    const iconSun = document.getElementById('iconSun');
-    const iconMoon = document.getElementById('iconMoon');
+<script>
+// ═══ Dark mode ═══
+const html = document.documentElement;
+const themeToggle = document.getElementById('themeToggle');
+const iconSun = document.getElementById('iconSun');
+const iconMoon = document.getElementById('iconMoon');
 
-    function applyTheme(dark) {
-      if (dark) {
-        html.classList.add('dark');
-        iconSun.classList.remove('hidden');
-        iconMoon.classList.add('hidden');
-      } else {
-        html.classList.remove('dark');
-        iconSun.classList.add('hidden');
-        iconMoon.classList.remove('hidden');
-      }
+function applyTheme(dark) {
+  if (dark) {
+    html.classList.add('dark');
+    iconSun.classList.remove('hidden');
+    iconMoon.classList.add('hidden');
+  } else {
+    html.classList.remove('dark');
+    iconSun.classList.add('hidden');
+    iconMoon.classList.remove('hidden');
+  }
+}
+
+const stored = localStorage.getItem('hk-theme');
+if (stored === 'dark') applyTheme(true);
+else if (stored === 'light') applyTheme(false);
+else if (window.matchMedia('(prefers-color-scheme: dark)').matches) applyTheme(true);
+
+themeToggle.addEventListener('click', () => {
+  const isDark = html.classList.contains('dark');
+  applyTheme(!isDark);
+  localStorage.setItem('hk-theme', isDark ? 'light' : 'dark');
+});
+
+// ═══ Mobile menu ═══
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+const hambIcon = document.getElementById('hambIcon');
+const closeIcon = document.getElementById('closeIcon');
+let menuOpen = false;
+
+function openMobileMenu() {
+  menuOpen = true;
+  mobileMenu.classList.add('open');
+  hambIcon.classList.add('hidden');
+  closeIcon.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeMobileMenu() {
+  menuOpen = false;
+  mobileMenu.classList.remove('open');
+  hambIcon.classList.remove('hidden');
+  closeIcon.classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+hamburger.addEventListener('click', () => menuOpen ? closeMobileMenu() : openMobileMenu());
+
+// ═══ Intersection observer for fade-up ═══
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      observer.unobserve(e.target);
     }
+  });
+}, { threshold: 0.08 });
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-    const stored = localStorage.getItem('hk-theme');
-    if (stored === 'dark') applyTheme(true);
-    else if (stored === 'light') applyTheme(false);
-    else if (window.matchMedia('(prefers-color-scheme: dark)').matches) applyTheme(true);
+// ═══ Terminal typewriter ═══
+const lines = [
+  { text: '$ hirekit score 카카오', color: '#3182F6', delay: 0, type: 'cmd' },
+  { text: '', delay: 400, type: 'blank' },
+  { text: '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', color: '#F2F4F6', delay: 500, type: 'instant' },
+  { text: '  HireKit Scorecard — 카카오', color: '#F2F4F6', delay: 600, type: 'instant', bold: true },
+  { text: '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', color: '#F2F4F6', delay: 650, type: 'instant' },
+  { text: '', delay: 700, type: 'blank' },
+  { text: '  종합 점수   81 / 100   [S]', color: '#3182F6', delay: 750, type: 'instant', bold: true },
+  { text: '', delay: 800, type: 'blank' },
+  { text: '  Job Fit         ████████████████░░░░  84   [A]', color: '#8B95A1', delay: 900, type: 'instant', accent: '#00C471' },
+  { text: '  성장 잠재력     ███████████████░░░░░  76   [A]', color: '#8B95A1', delay: 1050, type: 'instant', accent: '#3182F6' },
+  { text: '  보상 · 복지     ████████████████░░░░  82   [A]', color: '#8B95A1', delay: 1200, type: 'instant', accent: '#00C471' },
+  { text: '  문화 적합성     ██████████████░░░░░░  70   [B]', color: '#8B95A1', delay: 1350, type: 'instant', accent: '#FF9500' },
+  { text: '  커리어 레버리지 ████████████████░░░░  80   [A]', color: '#8B95A1', delay: 1500, type: 'instant', accent: '#00C471' },
+  { text: '', delay: 1650, type: 'blank' },
+  { text: '  ──────────────────────────────────────────', color: '#2C2C35', delay: 1700, type: 'instant' },
+  { text: '  소스: 17개 · 수집 시간: 1m 52s', color: '#6B7684', delay: 1750, type: 'instant' },
+];
 
-    themeToggle.addEventListener('click', () => {
-      const isDark = html.classList.contains('dark');
-      applyTheme(!isDark);
-      localStorage.setItem('hk-theme', isDark ? 'light' : 'dark');
+const termEl = document.getElementById('heroTerminal');
+let termContent = '';
+let lineIndex = 0;
+
+function addLine(line) {
+  if (line.type === 'blank') {
+    termContent += '<br/>';
+  } else if (line.type === 'cmd') {
+    termContent += `<div><span style="color:#6B7684;">$ </span><span id="typingLine" style="color:${line.color || '#E2E8F0'};"></span><span class="cursor"></span></div>`;
+    termEl.innerHTML = termContent;
+    typeText(document.getElementById('typingLine'), line.text.slice(2), 38, () => {
+      document.querySelector('.cursor')?.remove();
+      termContent = termEl.innerHTML;
+      lineIndex++;
+      scheduleNext();
     });
+    return;
+  } else {
+    const style = `color:${line.color || '#E2E8F0'};${line.bold ? 'font-weight:600;' : ''}`;
+    termContent += `<div style="${style}">${escHtmlTerm(line.text)}</div>`;
+  }
+  termEl.innerHTML = termContent;
+  lineIndex++;
+  scheduleNext();
+}
 
-    // Fade-up observer
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('visible');
-          observer.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
-  </script>
+function typeText(el, text, speed, done) {
+  let i = 0;
+  function next() {
+    el.textContent = text.slice(0, ++i);
+    if (i < text.length) setTimeout(next, speed);
+    else if (done) done();
+  }
+  next();
+}
+
+function scheduleNext() {
+  if (lineIndex >= lines.length) return;
+  const line = lines[lineIndex];
+  const prevLine = lines[lineIndex - 1];
+  const wait = line.delay - (prevLine?.delay || 0);
+  setTimeout(() => addLine(line), Math.max(0, wait));
+}
+
+function escHtmlTerm(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// Start terminal after a short pause
+setTimeout(() => {
+  if (lineIndex < lines.length) addLine(lines[lineIndex]);
+}, 600);
+
+// ═══ Copy buttons ═══
+function copyInstall() {
+  navigator.clipboard.writeText('pip install hirekit').then(() => {
+    const btn = document.getElementById('copyInstall');
+    const prev = btn.textContent;
+    btn.textContent = '복사됨!';
+    btn.style.color = '#00C471';
+    setTimeout(() => { btn.textContent = prev; btn.style.color = ''; }, 2000);
+  });
+}
+
+function copyCode(btn, text) {
+  navigator.clipboard.writeText(text).then(() => {
+    const prev = btn.textContent;
+    btn.textContent = '복사됨!';
+    btn.style.color = '#00C471';
+    setTimeout(() => { btn.textContent = prev; btn.style.color = ''; }, 2000);
+  });
+}
+</script>
 </body>
 </html>

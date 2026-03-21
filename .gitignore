@@ -15,4 +15,7 @@ venv/
 reports/
 .env
 .omc/
-.github/workflows/
+.coverage
+coverage.xml
+coverage.json
+htmlcov/

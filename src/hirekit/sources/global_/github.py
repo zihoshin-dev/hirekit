@@ -5,22 +5,8 @@ from __future__ import annotations
 import subprocess
 from typing import Any
 
+from hirekit.core.company_resolver import DEFAULT_ORG_MAP  # re-exported for backwards compat
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
-
-# Well-known company -> GitHub org mappings
-DEFAULT_ORG_MAP: dict[str, list[str]] = {
-    "카카오": ["kakao"],
-    "카카오페이": ["kakaopay"],
-    "토스": ["toss"],
-    "네이버": ["naver", "navercorp"],
-    "네이버클라우드": ["NaverCloudPlatform"],
-    "쿠팡": ["coupang"],
-    "우아한형제들": ["woowabros"],
-    "당근": ["daangn"],
-    "무신사": ["musinsa"],
-    "라인": ["line"],
-    "야놀자": ["yanolja"],
-}
 
 
 @SourceRegistry.register

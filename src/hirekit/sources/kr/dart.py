@@ -5,49 +5,21 @@ from __future__ import annotations
 import io
 import logging
 import os
-import xml.etree.ElementTree as ET
 import zipfile
 from pathlib import Path
 from typing import Any
 
+import defusedxml.ElementTree as ET
 import httpx
 
+from hirekit.core.company_resolver import KNOWN_CORPS  # re-exported for backwards compat
 from hirekit.core.config import DEFAULT_CONFIG_DIR
+from hirekit.core.security import validate_url
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
 logger = logging.getLogger(__name__)
 
 DART_BASE_URL = "https://opendart.fss.or.kr/api"
-
-# Well-known company name -> corp_code mappings (fallback)
-KNOWN_CORPS: dict[str, str] = {
-    "카카오": "00258801",
-    "카카오페이": "01445295",
-    "카카오뱅크": "01456825",
-    "카카오게임즈": "01137383",
-    "카카오엔터테인먼트": "00130949",
-    "토스": "00783965",
-    "비바리퍼블리카": "00783965",
-    "토스뱅크": "01652068",
-    "토스증권": "00264498",
-    "네이버": "00266961",
-    "네이버클라우드": "01347498",
-    "네이버웹툰": "01655498",
-    "쿠팡": "01347901",
-    "우아한형제들": "00832628",
-    "배달의민족": "00832628",
-    "당근": "01444039",
-    "당근마켓": "01444039",
-    "무신사": "01203942",
-    "라인플러스": "01231396",
-    "야놀자": "00991498",
-    "삼성전자": "00126380",
-    "삼성SDS": "00260155",
-    "LG전자": "00401731",
-    "SK하이닉스": "00164779",
-    "현대자동차": "00164742",
-    "CJ ENM": "00105464",
-}
 
 
 @SourceRegistry.register
@@ -138,8 +110,9 @@ class DartSource(BaseSource):
 
         # Download fresh corpCode.xml
         try:
+            url = validate_url(f"{DART_BASE_URL}/corpCode.xml")
             resp = httpx.get(
-                f"{DART_BASE_URL}/corpCode.xml",
+                url,
                 params={"crtfc_key": api_key},
                 timeout=30,
             )
@@ -195,8 +168,9 @@ class DartSource(BaseSource):
     def _get_overview(self, corp_code: str, api_key: str) -> dict[str, Any]:
         """Get company overview."""
         try:
+            url = validate_url(f"{DART_BASE_URL}/company.json")
             resp = httpx.get(
-                f"{DART_BASE_URL}/company.json",
+                url,
                 params={"crtfc_key": api_key, "corp_code": corp_code},
                 timeout=10,
             )
@@ -225,8 +199,9 @@ class DartSource(BaseSource):
 
         year = str(datetime.date.today().year - 1)
         try:
+            url = validate_url(f"{DART_BASE_URL}/empSttus.json")
             resp = httpx.get(
-                f"{DART_BASE_URL}/empSttus.json",
+                url,
                 params={
                     "crtfc_key": api_key,
                     "corp_code": corp_code,
@@ -260,8 +235,9 @@ class DartSource(BaseSource):
 
         year = str(datetime.date.today().year - 1)
         try:
+            url = validate_url(f"{DART_BASE_URL}/fnlttSinglAcntAll.json")
             resp = httpx.get(
-                f"{DART_BASE_URL}/fnlttSinglAcntAll.json",
+                url,
                 params={
                     "crtfc_key": api_key,
                     "corp_code": corp_code,

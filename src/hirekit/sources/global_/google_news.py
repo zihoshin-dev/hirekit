@@ -7,6 +7,7 @@ from urllib.parse import quote
 
 import httpx
 
+from hirekit.core.filters import filter_recent
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
 
@@ -48,14 +49,17 @@ class GoogleNewsSource(BaseSource):
                     seen.add(a["title"])
                     unique.append(a)
 
+            # Filter to recent 6 months only
+            recent = filter_recent(unique, months=6)
+
             raw_text = "\n\n".join(
-                f"[{a['title']}] ({a['pub_date']})\n{a['source']}" for a in unique[:20]
+                f"[{a['title']}] ({a['pub_date']})\n{a['source']}" for a in recent[:20]
             )
 
             results.append(SourceResult(
                 source_name=self.name,
                 section="overview",
-                data={"google_news": unique[:20]},
+                data={"google_news": recent[:20]},
                 url=f"https://news.google.com/search?q={quote(company)}",
                 raw=raw_text,
             ))

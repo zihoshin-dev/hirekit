@@ -55,7 +55,11 @@ class AnthropicAdapter(BaseLLM):
                     "output_tokens": response.usage.output_tokens,
                 },
             )
-        except Exception:
+        except Exception as exc:
+            # Sanitize error: never surface raw exception text (may contain API key)
+            _safe_type = type(exc).__name__
+            import logging as _logging
+            _logging.getLogger(__name__).debug("Anthropic API error (%s)", _safe_type, exc_info=True)
             return LLMResponse(text="", model=self.model)
 
     def is_available(self) -> bool:
