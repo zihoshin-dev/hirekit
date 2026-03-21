@@ -1,0 +1,22 @@
+# HireKit Configuration Example
+# Copy to ~/.hirekit/config.toml
+
+[analysis]
+default_region = "kr"         # kr, us, global
+cache_ttl_hours = 168         # 7 days
+parallel_workers = 5
+
+[llm]
+provider = "none"             # openai, anthropic, ollama, none
+model = "gpt-4o-mini"
+temperature = 0.3
+max_tokens = 4096
+
+[sources]
+enabled = ["dart", "github", "naver_news"]
+disabled = []
+
+[output]
+format = "markdown"           # markdown, json, terminal
+directory = "./reports"
+template = "default"

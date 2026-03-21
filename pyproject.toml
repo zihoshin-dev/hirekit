@@ -1,0 +1,88 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hirekit"
+version = "0.1.0"
+description = "AI-powered company analysis and interview preparation CLI for job seekers"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "ziho"},
+]
+keywords = ["job-search", "company-analysis", "interview-prep", "career", "dart", "ai"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business",
+]
+dependencies = [
+    "typer>=0.9",
+    "rich>=13.0",
+    "httpx>=0.25",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "jinja2>=3.1",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+llm = ["litellm>=1.0"]
+openai = ["openai>=1.0"]
+anthropic = ["anthropic>=0.20"]
+ollama = ["ollama>=0.1"]
+notion = ["notion-client>=2.0"]
+kr = ["pykrx>=1.0"]
+all = ["hirekit[llm,notion,kr]"]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.23",
+    "respx>=0.20",
+    "ruff>=0.1",
+    "mypy>=1.0",
+]
+
+[project.scripts]
+hirekit = "hirekit.cli.app:app"
+
+[project.entry-points."hirekit.sources"]
+dart = "hirekit.sources.kr.dart:DartSource"
+github = "hirekit.sources.global_.github:GitHubSource"
+naver_news = "hirekit.sources.kr.naver_news:NaverNewsSource"
+
+[project.entry-points."hirekit.outputs"]
+markdown = "hirekit.output.markdown:MarkdownRenderer"
+json = "hirekit.output.json_:JSONRenderer"
+terminal = "hirekit.output.terminal:TerminalRenderer"
+
+[project.urls]
+Homepage = "https://github.com/ziho/hirekit"
+Documentation = "https://github.com/ziho/hirekit/docs"
+Repository = "https://github.com/ziho/hirekit"
+Issues = "https://github.com/ziho/hirekit/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hirekit"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true

@@ -1,0 +1,39 @@
+# HireKit Career Profile Example
+# Copy to ~/.hirekit/profile.yaml and customize
+
+name: ""
+years_of_experience: 0
+
+tracks:
+  - name: "Product Manager"
+    priority: 1
+  - name: "AI PM"
+    priority: 2
+
+career_assets:
+  - asset: "PG payment integration"
+    source: "Previous Company"
+    applicable_industries: ["fintech", "ecommerce"]
+    star:
+      situation: ""
+      task: ""
+      action: ""
+      result: ""
+
+skills:
+  technical: ["Python", "SQL", "Data Analysis"]
+  domain: ["Payment Systems"]
+  soft: ["Cross-functional Communication"]
+
+preferences:
+  regions: ["kr"]
+  industries: ["fintech", "platform"]
+  company_size: ["large", "growth_startup"]
+  work_style: ["hybrid", "remote"]
+
+scoring_weights:
+  job_fit: 0.30
+  career_leverage: 0.20
+  growth: 0.20
+  compensation: 0.15
+  culture_fit: 0.15
