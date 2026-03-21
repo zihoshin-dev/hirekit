@@ -606,7 +606,7 @@ def resume(
 def _get_llm(config: HireKitConfig) -> BaseLLM:  # noqa: F821
     """Initialize LLM from config.
 
-    Supported providers: openai, anthropic, gemini, ollama, none.
+    Supported providers: openai, anthropic, none.
     """
     from hirekit.llm.base import NoLLM
 
@@ -622,12 +622,6 @@ def _get_llm(config: HireKitConfig) -> BaseLLM:  # noqa: F821
         if provider == "anthropic":
             from hirekit.llm.anthropic import AnthropicAdapter
             return AnthropicAdapter(model=model)
-        if provider == "gemini":
-            from hirekit.llm.gemini import GeminiAdapter
-            return GeminiAdapter(model=model)
-        if provider == "ollama":
-            from hirekit.llm.ollama import OllamaAdapter
-            return OllamaAdapter(model=model)
     except ImportError:
         pass
     return NoLLM()
