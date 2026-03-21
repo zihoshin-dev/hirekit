@@ -1,0 +1,349 @@
+# SK텔레콤 — 기업 분석 리포트
+
+**지역:** KR | **티어:** 1 | **등급:** S
+
+---
+
+## 1. 회사 개요 & 현황
+
+### 기본 정보
+
+| 항목 | 내용 |
+|------|------|
+| 설립 | — |
+| 대표 | 유영상 |
+| 본사 |  |
+| 직원수 | [{'position': '전사', 'gender': '남', 'headcount': '3,882', 'contract_workers': '165', 'total': '4,047', 'avg_tenure_year': '              15.2 ', 'total_salary': '178,000,000', 'avg_salary': ''}, {'position': '전사', 'gender': '여', 'headcount': '999', 'contract_workers': '270', 'total': '1,269', 'avg_tenure_year': '                8.9 ', 'total_salary': '115,000,000', 'avg_salary': ''}] |
+| 평균연봉 | — |
+| 평균근속 | — |
+
+### 핵심 실적 (최근 3개년)
+
+| 연도 | 매출 | 영업이익 | 비고 |
+|------|------|----------|------|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+
+
+### recent_news
+
+- {'title': '[핀테크핫이슈] 금융권의 역습...각종 IT 서비스 전면 배치', 'description': "앞서 신한은행은 SK텔레콤과 '5G MEC 기반 미래 금융 서비스 공동 발굴을 위한 파트너십'을 체결했는데 이에 따른 후속조치다.  테스트베드에서는 5G, AI 등 IT기술을 기반의 금융서비스 기획 및 테스트를 통해 향후... ", 'link': 'http://www.digitaltoday.co.kr/news/articleView.html?idxno=252566', 'pub_date': 'Tue, 10 Nov 2020 08:03:00 +0900'}
+**company_name**: SK텔레콤(주)
+**company_name_eng**: SK TELECOM CO.,LTD
+**stock_name**: SK텔레콤
+**address**: 서울특별시 중구  을지로 65 (을자로2가)
+**industry_code**: 61220
+**established**: 19840420
+**homepage**: www.sktelecom.com
+**ir_url**: 
+**stock_code**: 017670
+**corp_class**: Y
+### brave_web_results
+
+- {'title': 'SK텔레콤 채용', 'url': 'https://careers.sktelecom.com/', 'description': 'SK텔레콤 모집공고와 직무이야기, SK텔레콤의 일하는 문화, 각종 복지혜택 및 소식'}
+- {'title': 'SK텔레콤(주) 2025년 기업정보 | 기업리뷰 1,127건, 연봉정보 802건, 면접후기 700건, 복지정보 148건, 채용공고 0건 | 잡플래닛', 'url': 'https://www.jobplanet.co.kr/companies/20575/landing/sk%ED%85%94%EB%A0%88%EC%BD%A4', 'description': '취업을 준비하다 보면 자기소개서에는 무엇을 써야 할지, 면접은 또 어떻게 준비해야 할지 막막하거든요. 그런데 채용담당자님께서 직접 문항 하나하나 분석해 주신 덕분에 과정을 순조롭게 준비해나갈 수 있었어요. ‘SK텔레콤은 지원자를 이렇게 배려하는 회사구나’ 감동도 받았죠(웃음).'}
+- {'title': '신입공채 채용 판도 뒤바꾼 SKT…”오히려 좋아” | SK텔레콤(주)의 생생한 인터뷰 확인하기, IT/웹/통신 4.1 평점 | 잡플래닛', 'url': 'https://www.jobplanet.co.kr/contents/news-5294/%EC%8B%A0%EC%9E%85%EA%B3%B5%EC%B1%84%20%EC%B1%84%EC%9A%A9%20%ED%8C%90%EB%8F%84%20%EB%92%A4%EB%B0%94%EA%BE%BC%20SKT%E2%80%A6%E2%80%9D%EC%98%A4%ED%9E%88%EB%A0%A4%20%EC%A2%8B%EC%95%84%E2%80%9D', 'description': '“SK텔레콤은 정말 채용에 진심이구나”라는 생각이 들었습니다. 회사에서 채용에 이만큼 많은 자원을 투입하고 시간을 제공해주는 만큼 지원자 입장에서도 ‘후회없이 전부 보여주고 와야겠다’ 하는 마음이 들어 면접에 적극 임할 수 있었답니다.'}
+- {'title': 'SK텔레콤 진행 중인 채용정보 총 2건 - 채용 히스토리 통계 | 잡코리아', 'url': 'https://www.jobkorea.co.kr/company/1619214/recruit', 'description': 'SK텔레콤 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요.'}
+- {'title': '2025년 에스케이텔레콤 채용 기업정보 | 인크루트', 'url': 'https://www.incruit.com/company/1851900/', 'description': '특히 <strong>무선 인터넷 솔루션 업체 및 콘텐츠 업체 들과의 세계 시장 공동진출을 통해, 우리나라 정보통신산업의 글로벌화를 크게 촉진하 는 역할도 수행</strong>하고 있습니다.'}
+- {'title': 'SK텔레콤 기업정보 - 2025년 연봉, 사업, 채용, 지원자 스펙 분석', 'url': 'https://jasoseol.com/companies/144', 'description': 'SK텔레콤 연봉, 사업 분석, 합격 스펙, 채용공고 등 최신 기업정보를 한눈에. 직무별 지원자 분석부터 합격 후기까지 SK텔레콤 상세 취업 정보를 확인하세요.'}
+- {'title': '2025년 에스케이텔레콤 채용 | 인크루트', 'url': 'https://www.incruit.com/company/1851900/job/', 'description': '에스케이텔레콤의 최근 3년간 채용정보를 인크루트에서 확인하세요.'}
+- {'title': 'SK텔레콤 채용 2025년 기업정보 - 평균연봉 16,100만원 | 캐치', 'url': 'https://www.catch.co.kr/Comp/CompSummary/810185', 'description': 'SK텔레콤 재무평가 상위 1%, 현직자리뷰 상위 14%, SK텔레콤의 채용공고, 기업정보, 재무정보부터, 현직자리뷰, 면접후기까지 모두 캐치하세요. ㅣ #복장자유 #일한만큼보상 #상여금있는'}
+- {'title': 'SK텔레콤 2025년 채용정보 | 캐치', 'url': 'https://www.catch.co.kr/Comp/RecruitInfo/810185', 'description': 'SK텔레콤의 모든 공고를! 예정된 공고, 진행중 공고, 마감된 공고까지'}
+- {'title': 'SK텔레콤 최신 채용정보', 'url': 'https://www.catch.co.kr/Comp/RecruitInfo/810185?page=1&sort=3', 'description': 'SK텔레콤 채용이 궁금하다면? 인턴·신입·경력 공고와 함께, 이 공고에 관심 있는 회원 통계와 자소서 문항을 한눈에 확인하세요.'}
+**linkedin_url**: https://www.linkedin.com/company/sk
+**slug**: sk
+**employee_count**: 
+**industry**: since 1984. Now, we are taking customer
+### snippets
+
+- {'title': 'SK | LinkedIn', 'description': 'SK Group is <strong>a collection of diverse multi-national manufacturing and service companies united under a holding company structure that share a common SK Brand and Corporate Culture</strong>.', 'url': 'https://www.linkedin.com/company/sk'}
+- {'title': 'SK Group | LinkedIn', 'description': '<strong>SK Group</strong> | 27,745 followers on LinkedIn. At SK, we build the industries that drive future financial and social prosperity. We invest in game-changing businesses and nurture them for long-term success; we partner with communities and customers ...', 'url': 'https://www.linkedin.com/company/sk-group-media'}
+- {'title': 'SK Group Inc. | LinkedIn', 'description': '<strong>SK Group Inc.</strong> | 2,798 followers on LinkedIn. SK Group Inc is today a company with solid impact and investments in the fields of real-estate, healthcare, energy etc. | SK Group specializes in enabling and empowering the multitude of the human ...', 'url': 'https://www.linkedin.com/company/skgroupinc'}
+- {'title': 'SK hynix | LinkedIn', 'description': '<strong>SK hynix</strong> | 99,051 followers on LinkedIn. Memory Technology Innovator for a Better World | Semiconductors are essential to all IT products, and its performance often determines the performance of the final products.', 'url': 'https://www.linkedin.com/company/sk-hynix'}
+- {'title': 'SK Telecom | LinkedIn', 'description': '<strong>SK Telecom</strong> | 42,152 followers on LinkedIn. <strong>SK Telecom</strong> has been leading the growth of the mobile industry since 1984. Now, we are taking customer experience to new heights by extending beyond connectivity.', 'url': 'https://www.linkedin.com/company/sk-telecom'}
+- {'title': 'SK On | LinkedIn', 'description': 'EV Battery Manufacturing | SK On is <strong>a leading global electric vehicle (EV) battery developer, manufacturer, and solution provider</strong> whose mission is to make the world cleaner and more convenient.', 'url': 'https://www.linkedin.com/company/sk-on'}
+- {'title': 'SK Chemicals | LinkedIn', 'description': '<strong>SK Chemicals</strong> | 5,455 followers on LinkedIn. we care for the future. Healthcare, Earthcare | <strong>SK Chemicals</strong> Co., Ltd. is a Korea-based company that is engaged in the manufacture of chemical products.', 'url': 'https://www.linkedin.com/company/sk-chemicals'}
+- {'title': 'SK Innovation | LinkedIn', 'description': '<strong>SK Innovation</strong> | 67,743 followers on LinkedIn. Leading the way toward Green Energy &amp; Materials Company | <strong>SK Innovation</strong> has been leading Korea’s energy industry for over six decades.', 'url': 'https://www.linkedin.com/company/sk-innovation'}
+- {'title': 'SK Food Group Inc | LinkedIn', 'description': '<strong>SK Food Group Inc</strong> | 7,984 followers on LinkedIn. SK Food Group is one of North America’s leading custom food manufacturing companies since 1942. | SK Food Group produces a complete line of food products for a variety of market segments.', 'url': 'https://www.linkedin.com/company/sk-food-group-inc'}
+- {'title': 'SK Life Science, Inc. | LinkedIn', 'description': '<strong>SK Life Science, Inc.</strong>, a U.S. subsidiary of SK Biopharmaceuticals, is committed to accelerating the development of innovative treatments for central nervous system (CNS) disorders and oncology.', 'url': 'https://www.linkedin.com/company/sk-life-science-inc.'}
+### google_news
+
+- {'title': 'SKT 정예팀, 독파모 개발 참여 인턴 모집 “AI 인재 육성의 마중물 역할 기대” - SK텔레콤 뉴스룸', 'link': 'https://news.google.com/rss/articles/CBMiSEFVX3lxTE0taGZ2WHViVUxqYXBxWHhLMlh1T0lRVUtNUVpmNlMxZTV0TUtBVDUzdmhzZW5UVk0wcmQ1T0p6MTZ6Y1M4b3YzYg?oc=5', 'pub_date': 'Wed, 11 Feb 2026 08:00:00 GMT', 'source': 'SK텔레콤 뉴스룸'}
+- {'title': '반도체부터 데이터센터·에너지까지… AI 시장 선점 - 조선일보', 'link': 'https://news.google.com/rss/articles/CBMijgFBVV95cUxQaVRHUTJaSGlJR3ZhVHQtbmkxVThOUThLZTRfS1BlR2JzcEZuNDlzSElOUzJUNTJkQlFJWG50eWFVSWcxdl9QOVc3OUx1VkVvbS00M1VPQVhRMlo0UDhnaGNORnhjRWxIZnlGOGNELTJ0MVBaTHFybXlURDJDcHk5eTNzaWtYNXo0NEg2YUF30gGiAUFVX3lxTE5LRFFOanFPc1UxakR1em9GY2pWd3BJYkFzQ0xlY3J5T0NhTG9qWEl5Znh2a3FkRFVTU3hZY2J2cHc3ZlYtQU9wYlhhZlZKTFBURTFKOVJ5a3liV2MwMnROWTUzV2QwSktYOEVhaENmeEV5dlhWanAyRndoQzRaTE1paFprUmh3R1NHdjZJRlV0ZExzUHMwcEpoMGFMeUJoOHRQUQ?oc=5', 'pub_date': 'Wed, 04 Mar 2026 11:32:18 GMT', 'source': '조선일보'}
+- {'title': 'SKT 정예팀, 독파모 2차 대비 전략 워크숍·인턴 모집 나서 - AI타임스', 'link': 'https://news.google.com/rss/articles/CBMiakFVX3lxTFBjanBtQmJ0VEN5dkNzdVRVUU9MMVRCY3NLY0RzRGVLeEJSdVlXS1Y2ejkwY1hWcjR0TVg3NUJHcWhLeWlaUHp4bTl3NzhrcHhkQWUyUFpNWWNTMm1jYnU2WXZrV1l3dmVIUWc?oc=5', 'pub_date': 'Wed, 11 Feb 2026 08:00:00 GMT', 'source': 'AI타임스'}
+- {'title': 'SKT, 독자 AI 2차 승부수…정예팀 인턴 채용으로 전력 강화 - 위키리크스한국', 'link': 'https://news.google.com/rss/articles/CBMib0FVX3lxTE9LTEozdENENmo0Q3F2bTJvaVFaTmdZb1VtRGZQRVVkamdtNWVJMi1TY1k3cUNrN2tYSGRVUWZnZHAwNjUwX0tmenJzRWVVV2FqQ3RWak82cTliWVAySkZ4TVdGbzNqaXY2ZmVUYjlGdw?oc=5', 'pub_date': 'Wed, 11 Feb 2026 02:36:48 GMT', 'source': '위키리크스한국'}
+- {'title': 'AI·반도체 힘주는 최태원, 본원적 경쟁력 키운다…SK, 올해 8000여 명 신규 채용 - CEO스코어데일리', 'link': 'https://news.google.com/rss/articles/CBMia0FVX3lxTE01MmN4clBGZzhlbTJhRHRIdkg2cTd2QlJoTUUzZWoxNWRrOXN5TW9GaTNDTnV3dGExODgwcEJuNHZCSDFuWGJOVDNsLVRkYXVxZ2ZVSGo2QWJ3enI4cHA4alRLM1RodTRWOGpz?oc=5', 'pub_date': 'Thu, 18 Sep 2025 07:00:00 GMT', 'source': 'CEO스코어데일리'}
+- {'title': "SKT 정예팀, 독자 AI 모델 '독파모' 개발 인턴 모집 - 이로운넷", 'link': 'https://news.google.com/rss/articles/CBMiZkFVX3lxTFBEQk40X3Y5YXduNUdKcU53NnpIODU4aFMzUG9zVDBmUlY0eXVmWVU3UTRDSHlhRnhPaUh6ems2ZjB1ZVlkWjktNGxTanBISlJtWWczWERSYWZxa1RWWEJwVUZxcU9SZw?oc=5', 'pub_date': 'Wed, 11 Feb 2026 01:10:07 GMT', 'source': '이로운넷'}
+- {'title': "절치부심 SKT…'돈 버는 AI' 본격 시동 - 한국경제", 'link': 'https://news.google.com/rss/articles/CBMiWkFVX3lxTE55QmVoQ21hNnhDQ1ZtQ1F1ZWNJbjBubml4LVlGSG1rU01yYkdLZV9lMGNfbElLMHdjVDZPZzZ3WU1NYlp5T0gwNkY4WXI4YU5aU0V2QmF5VEtqd9IBVEFVX3lxTE54M25hek96bGtUR0E1eTJQWDdTNFllQzZTN3NxRHpYU2RPbzRHMk9jNjByMHJuVWEtWHNQa0owbWhnRFg1U2Z3eWNrdE1UbjkwZVppbA?oc=5', 'pub_date': 'Wed, 20 Aug 2025 07:00:00 GMT', 'source': '한국경제'}
+- {'title': 'SKT 정예팀, 독파모 고도화 인재 모집…“AI 인재 육성 마중물” - ebn.co.kr', 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE55NWxpS05FRXRaY2J1VjJDWFFlc19rZ2xfTVR5SkdtT2dlSXlTcmNrT0lSR2tybzlwZ0RzVU81SXhUcTZOMXdpYlJqbklnaUV1MGxPUUhJV1JSUGtzalVsc3JLUHhUUHJ4?oc=5', 'pub_date': 'Wed, 11 Feb 2026 08:00:00 GMT', 'source': 'ebn.co.kr'}
+- {'title': '▒종합 경제정보 미디어 - 이데일리IR▒ - ir.edaily.co.kr', 'link': 'https://news.google.com/rss/articles/CBMiY0FVX3lxTFAySExyQ1p6cDFSZnB6VXd5X0VLalNscFFxbzFWTUtQVHNicTFfSkxUbU5CSGZITUgzOXlwMHptZnJ0QnFkQVpHckZZUlVWVVJCSFdlOC1PdElWM1B5c2xKWEpHYw?oc=5', 'pub_date': 'Wed, 11 Feb 2026 00:15:19 GMT', 'source': 'ir.edaily.co.kr'}
+- {'title': "2026년 대기업 고용 기상도... 삼성·SK·한화, 'AI·방산' 미래 먹거리 인재 확보에 '사활' - 코리아비즈니스리뷰", 'link': 'https://news.google.com/rss/articles/CBMib0FVX3lxTE9sMjVqNmZGX1hXSnBMSHJCYjhKWVlNWGxsc2ZkNkx0bGRzWmhjUzZIclVKdUkzbEN0dzk0WVFmUEhQdmlFOHotcEUtZXMzc1lWQ0M4TVNvaHJLN1owOEZyYU8yRGZ6ejkwMGhya0lZNA?oc=5', 'pub_date': 'Thu, 05 Feb 2026 08:00:00 GMT', 'source': '코리아비즈니스리뷰'}
+- {'title': '\'독파모\' SKT 정예팀, 인턴 개발자 모집…"성장 발판 마련" - 뉴시스', 'link': 'https://news.google.com/rss/articles/CBMiYEFVX3lxTE9takhjQ2QySldaYi0tTU0tUzJUR0F1VTdwTUEtLVNuTi1yMW5VdkRTN211NGpVcC14dXBYYVpkOGFnX1hqSFBGNWVQREZORk41bHBsallBQnQ5enNlZ1pLTtIBeEFVX3lxTE9LOUpfdW96S084THBVb1lycDEzVUZzTmRvdDAtU2d0WmR1RGxxZ0JpSjZWOEJOT1hfTlhFbG1HVVdqVXpFeWJOWjhJQUc3akVnYWw0WE5HY292ZmNLNlNpM2huZ09HckF4VUJFZ05UTzhBSklKQzVyaw?oc=5', 'pub_date': 'Wed, 11 Feb 2026 08:00:00 GMT', 'source': '뉴시스'}
+- {'title': 'SK, 하반기 4,000명 채용… AI·반도체 인재 전면 확보 나선다 - 핸드메이커', 'link': 'https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xQ3Z5UTQwSjdEU2VFTVpUQ0Y3NV8xT2s2LTlvSWVqR0hnUUNjeEU4Znp1Q1BZOEYtN3kyS1I4Z2ljYW51MDN3ajktaTJUTjg3UjRPTkhkS2FucmJ5NXFTMUU0Qk4tWG8?oc=5', 'pub_date': 'Fri, 19 Sep 2025 07:00:00 GMT', 'source': '핸드메이커'}
+- {'title': 'SK그룹, 하반기만 4000여 명 채용…AI 시대 이끌 청년 인재 확보한다 - 전자신문', 'link': 'https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTVTZkVmZwZUpUdk9YVFp1QW1sdno5WlAtZzlKOEJHaDU5Z1RFbVdPWkd1VXN5NHI1U0sxWHBWSmNwZmtvYk5nNXVoOHkxZw?oc=5', 'pub_date': 'Thu, 18 Sep 2025 07:00:00 GMT', 'source': '전자신문'}
+- {'title': 'SKT 정예팀, 독자 AI 파운데이션 모델 앞두고 R&D 인턴 모집 - 서울타임즈뉴스', 'link': 'https://news.google.com/rss/articles/CBMia0FVX3lxTE5DeGtJNDRQSUJjeThmNGt3WnAyODMtUFpjd0YyLVlYeUtNZ1FZSWtBaDRUbmJVS2NmRHRfc1FlT3l6dHhCUTNaY19iZWg4Yk9JNDViVGdEcmpMWjZ6aFFmOURiOFpyUFZSbjJr?oc=5', 'pub_date': 'Wed, 11 Feb 2026 08:00:00 GMT', 'source': '서울타임즈뉴스'}
+- {'title': 'SK그룹, 올해 AI·반도체 등서 8000명 채용 - 하이뉴스', 'link': 'https://news.google.com/rss/articles/CBMid0FVX3lxTE1XTTNySHV0My0tbElkVTdrLUlvQmdmT2Z0MDhlSTRZeWNpS1FmU29kMHZ2azNNOHVsaGk1Q0NuM3JoTGVwQm9yWDdVdEhlcDVmMm9ZWndHVGp2a1pkZWZCRkFYX0Vzd3U4NDNJTmw2WXN6U05pZ3BN?oc=5', 'pub_date': 'Thu, 18 Sep 2025 07:00:00 GMT', 'source': '하이뉴스'}
+- {'title': 'SK텔레콤, 2025년 2분기 실적 발표 - SK텔레콤 뉴스룸', 'link': 'https://news.google.com/rss/articles/CBMiSEFVX3lxTE9sVUtPS1VWZXgwbkFXYWlxMm9JQU1JdFlnaERwQS12NGJxOE5YZWNObFNYdXNmM25iMFF1MjU1THhvcXdobThHdg?oc=5', 'pub_date': 'Wed, 06 Aug 2025 07:00:00 GMT', 'source': 'SK텔레콤 뉴스룸'}
+- {'title': '삼성證 "SK텔레콤, AI 전환 본격화…실적 정상화 기대" - v.daum.net', 'link': 'https://news.google.com/rss/articles/CBMiT0FVX3lxTFB2LVNFZ3lndVFIcXI4Qnd5ekxXWk9wOHZZa2pnWWJXeEVlVUswNTBRMEtJQjhpWFVFUFpSdHBmUlpFMjhERWlwQXJ5S2FDTE0?oc=5', 'pub_date': 'Fri, 06 Mar 2026 08:00:00 GMT', 'source': 'v.daum.net'}
+- {'title': 'SK텔레콤, 올해 3분기 영업익 484억원...전년 대비 90% 감소 - 디일렉', 'link': 'https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WRks1N2VxaXpQY0taa0lIQ1pBSkcwMkdUUG96YzQtNk9CU0RFNVNuY21Qb0x6d3pUNHljT3VPREZZUi1rVUZ6QjhuUDd1c3oxR1RneVpybnVXcEVQSDgzM3RMMldRUQ?oc=5', 'pub_date': 'Thu, 30 Oct 2025 07:00:00 GMT', 'source': '디일렉'}
+- {'title': '[SK텔레콤] “통신에서 AI로” SK텔레콤 사업 구조 변화(2025년_4Q) - 네이버 프리미엄콘텐츠', 'link': 'https://news.google.com/rss/articles/CBMiiAFBVV95cUxOakdkcW51S05BbzdCYnc1RUlmY2JNa092aUtDaDRiX2RkUG9wcWxzbDF1V1prT2EtUWw1VzVkVUVnTC1JVnNQNnVtQ08yb01wenFrWnRNeHFXZFFIempDQTJ0Y25IbmxPTlRKSmNZNkRCNFpoSnZlWEx0OUNMUGZUR1lYamdyWHZn?oc=5', 'pub_date': 'Thu, 05 Mar 2026 08:00:00 GMT', 'source': '네이버 프리미엄콘텐츠'}
+- {'title': '삼성證 "SK텔레콤, AI전환에 실적 정상화…목표가↑" - 이투데이', 'link': 'https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWc3IyNUxNQXE1cWYtYXBpZ3hiYUhvZEhzYlVuUkd0blpoSUxjWFJmYUY0bS1ESHZnUEdoUTBReUdyVks2MFdRQjFFYlRGbmJVdXlNTw?oc=5', 'pub_date': 'Fri, 06 Mar 2026 08:00:00 GMT', 'source': '이투데이'}
+### korean_credible_news
+
+- {'title': "SK텔레콤, '스타워즈 3' 모바일 게임 출시 - 모바일한경", 'link': 'https://news.google.com/rss/articles/CBMihwFBVV95cUxPZmlBZi1jNUlCQTNtalQ0djhZLW5uMjhyVl93Yl92YjhNQ2dxZkZtQWl1Ujg5Q2h5Wmt1U3JuRVdlMzhmSjZGRGRVME9GZ2I4VllzY19DQ3NsQzJMak5ZMFFtZmJuZkNYNm4tcWpCYUNNaXN4LUJ6bFFZcnZyTW9mVVFkOFJSZUk?oc=5', 'pub_date': 'Mon, 03 Apr 2006 07:00:00 GMT', 'source': '한국경제'}
+- {'title': 'SK텔레콤 비즈니스센터 열어 - 모바일한경', 'link': 'https://news.google.com/rss/articles/CBMihwFBVV95cUxQMGdIamZfUlZ5SmdFOGdyc0dMWGhQSU1zc2JENGhGZHpIbjBfZ3ZLZ19nUEY1R00yQndxdWdueTZwT0cxb1Q1MXY2Ty15SXA2TVl2ZGNtZGs0VUxLZVVYQS0yX3lkckpkUGJsNmtzT19rTEFGcndrel83NVh5a3l0eTR1U3JSSnc?oc=5', 'pub_date': 'Sun, 02 Apr 2006 08:00:00 GMT', 'source': '한국경제'}
+- {'title': "SK텔레콤 '행복나눔헌혈' 캠페인 - 한국경제", 'link': 'https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hMXZVeV9nazRlME11OXlybzhmX3FQbFlYa0UzUG1vZzRaWmVZdHRYRFcwWmEwdzhudU0xRnJETXpaS2hEanZ5em0yOHNvZW5vTzcwZ2dHMVRqd9IBVEFVX3lxTE5YYkxRQVZEQXgzNXcwRnlnTU9SRUFRU18tdVJIRTZYYWNlWlNONlVRUnprbzRWV1J1dnpVNjNrR3BqZTRVSUZGVG5hTkc4ODF3ZmRRMQ?oc=5', 'pub_date': 'Thu, 19 Mar 2026 09:20:31 GMT', 'source': '한국경제'}
+- {'title': 'NH證 “SK텔레콤, 실적·배당 동반 회복 기대…목표가 10만원" - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUDl0c0pSWVBCbUtUME0xTENoVnhsYWlnUkFsYVBrRTE3SUNVdEdsSWRwQ24xTjdwRHBJVUFJaDVtM3BqY1NvSmI1MkozcGJFTzQ1UTdqbWZ1d3IyNFN3RDFNS3ZTVjVReDFCNzNfelpTb1draVJDVThpdWFDNkdlLXNTaXExUnVu0gGcAUFVX3lxTFBZV1JnRHFfanJ3eGNodzd3TkFKdHVOTnJ6V04wSFMxbW54ZDRLQ0xWZ0RtMk9HZWhkdE56OVlRRVJKQlNGYm5tQWJkLVFHSDlaTThaZnd4Q2ZWc0hMek9KZkk4d3RWWm9hRVdkR1lRN2c2UFREcnVKN3lCdk1PSF9GR1FKUUZuYWY3NHVMel9sQ3R5eE1VLXFXamhySA?oc=5', 'pub_date': 'Wed, 18 Mar 2026 23:56:00 GMT', 'source': '조선비즈'}
+- {'title': '[단독] SK 데이터센터 매각… KKR·IMM인베·스톤브릿지 ‘3자 공동 인수’ 추진 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMihwFBVV95cUxNSUJYYmJ3QzJDUVVLOG43cDJCc0FLc1NUcUExRzQwaWhycE1JTDFNblNydjNvd2d4UDRSbFVBdDZURTAtR2ZzQVZuSmRCR20zakx1S1lxWVB0WG80b0RqaW9MdWNRSHBJQ2V1SktHOVNjVWJ5V0hyYlFDN0dINWpoRUwyOVc0VlXSAZsBQVVfeXFMTzNaaVl6cGFOY1I0Mlp5WVVGN2dFb2lhal9lVjNFV3BkWHpXbTN0bUNIaEluLW9oNWQ0cmx1RUN2ZmRwZTluYnNmcTJmVW5hTE5jVkN3MzVrZzZHbktJR2hwRHhyamJtRFhRN0VsVVlqelR2eUtJWHNYcVhWamU4V1ZIekRLZ0RCYUQ5ZHRGQnZ5a1MwRnRFdjlDNW8?oc=5', 'pub_date': 'Thu, 19 Mar 2026 07:12:00 GMT', 'source': '조선비즈'}
+- {'title': 'SKT, 에릭슨과 AI 네트워크 맞손…5G 고도화·6G 표준화 협력 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMiggFBVV95cUxPQl9aVm5CUUdCNDlSSGhvcW1VcVpMMUM1YldSS0lUVzVmMVF2eTlhZnRxbHBYWUFVaFFrOVZ6WHlickhmZWYzZFZYeEV2cHV6bW9kVTdWdGEzNXVQLTJ4UnlnVTlTcld6UFRwV2tXenRSeG1HV05DbEFKRnBaUXlxcF9R0gGWAUFVX3lxTE41aVlpbjYwdDNaeW5QZ0RoSjlvaVlrOGtsckJzYkliVmsxRHExVHNSN05WNEdBSmxjNWVWS2Z6R0ZhRVhVbEhiR0ljbHJhSnAyUWQ1VndvSzhRU1BlZU5iT2tCTDhhSkdjQ0hkNnR3ekYwMjgtY0M5SDdQUDYzWnpvM19rMW9kVzFkeVRWMDhtem03TXBVZw?oc=5', 'pub_date': 'Thu, 19 Mar 2026 00:26:00 GMT', 'source': '조선비즈'}
+- {'title': 'SKT, 고객경험(CX) 전담 조직 신설로 신뢰 회복 박차 - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiRkFVX3lxTE51YnBiTHZnUzVQT2VtRjdoQ2gzWlJHMklzTTV5V2ZWSlNEUWV4ODFOZU84Mnc2ZkYyTmtjZ09meldPVXNYRUE?oc=5', 'pub_date': 'Wed, 18 Mar 2026 05:10:41 GMT', 'source': '매일경제'}
+- {'title': '[GTC 2026] 젠슨 황 기조연설에 SKT ‘깜짝 등장’ 왜? - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NeEhfbWlvWDlEcmhONE4xSU1Fb0Jtc3hTbTFfUDV4UlJRdUhmcmlYMnJYX0xUUEpNSWV0bmFQeGdIeFNZY2pJNFpYT0JIQQ?oc=5', 'pub_date': 'Tue, 17 Mar 2026 08:37:05 GMT', 'source': '매일경제'}
+- {'title': 'SKT, UAM 사업서 사실상 철수 - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KTEN1ZDE0OVFzQllsaE9oWlZBSlBVNVUwRFZ0RGR0YzJ4V2tYQmJXLVdRQVB4TW56VG5WY2hEWnRGckI0akdpclY1RmdnZw?oc=5', 'pub_date': 'Wed, 18 Mar 2026 08:17:42 GMT', 'source': '매일경제'}
+- {'title': 'SKT, 그룹 ICT 패밀리사와 연중 헌혈 캠페인 시작 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wWGhUUElhYlAxWG5fSEk2Mlgzd2pSeml3M0N6R2ptLXE5OG9lT1pJZWh0VUJKaXZTR21nSUNTbzVwNjNqNEVubUlsSTdCYUlqbDBVcjJn?oc=5', 'pub_date': 'Thu, 19 Mar 2026 00:08:22 GMT', 'source': 'ZDNet Korea'}
+- {'title': 'SKT, 에릭슨과 AI 내재화 6G 개발 맞손 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpQVBSdFBkV1hrS2tGSWFwQ3BodFRxdXJKVTV6aGJ0ZmhXZDByR0RNSzdYc2VZUnEtb3RiU1BVelg0aFUyOEJnazlwemJZbDk1R0FtWHpR?oc=5', 'pub_date': 'Wed, 18 Mar 2026 23:28:47 GMT', 'source': 'ZDNet Korea'}
+- {'title': '"가입자 의견 따르겠다"...SKT, 현장 소통 확대 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE11eGhOZjBLcUFndk5Od29RZUp5WHFFYTNjYXh2bXpkMlBMZVdra1J0ZjBBMk9yY3p5aEZiRDdtMTl1VE5jZWRWVFIyZXVIcFM4Y1BSdVpR?oc=5', 'pub_date': 'Wed, 18 Mar 2026 01:00:03 GMT', 'source': 'ZDNet Korea'}
+- {'title': "[SKT 이사회 리빌딩]② '재무통' 전면 배치… AI 투자 새판 짠다 - 블로터", 'link': 'https://news.google.com/rss/articles/CBMibEFVX3lxTE51Y2Rrakx5S0NQV1NOOGIxeGlCWTNnWmEwN1J2anMyaGRmdDVrSUljR196dGNqenJSZ2JCUm1LcWpfNmd4THpZbk9YR2hFelhnbFY2NmtCSkVpZUFOeTNIVXA4N0E0VktRbmZuMtIBbEFVX3lxTE51Y2Rrakx5S0NQV1NOOGIxeGlCWTNnWmEwN1J2anMyaGRmdDVrSUljR196dGNqenJSZ2JCUm1LcWpfNmd4THpZbk9YR2hFelhnbFY2NmtCSkVpZUFOeTNIVXA4N0E0VktRbmZuMg?oc=5', 'pub_date': 'Fri, 20 Mar 2026 00:10:30 GMT', 'source': '블로터'}
+- {'title': '[SKT 이사회 리빌딩]① 정재헌, 법조 넘어 AI 혁신가로 - 블로터', 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE53NEVGc2JvVU9LMUNyZHRlYmdoXzFkVkw5OFV3WDlkLUM5VWNZRnhTajJwU0RzRGdZUHBtZVBOOF81WF9MOTFuZjRqQjlRMWpFTmlyNUYzT3FwUUJNX3A3NDF0UV83eENF0gFsQVVfeXFMTWVPa0VyMHB4SHRtS1FFTmdKa2NfQUFOZFZ4RUtxWmwwRVNlbERmd01XZXZuRE1jUWlyVms3WGtIWlA5Sng5ZzFlLS1ncHg2Z3ljVXNtS1pDR01tZkdSUGNPX05maWNEM0c2SVF5?oc=5', 'pub_date': 'Tue, 17 Mar 2026 22:00:00 GMT', 'source': '블로터'}
+- {'title': "SKT 'CX 조직', 고객경험 어떻게 개선하나 - 블로터", 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE02dnlUcUJUVm9wYVR4SG8yYTEyZEEwSUI3aFp4NXl1U2FUd1psWG1TLVVZUEcwWHcwOEpPSVI3cFVhdFcwREhVbnplRVhqYVdkR3Ntd3Byd2JOYkhTY2JiMGIxY3pQNWEt0gFsQVVfeXFMUG9hZjRxNmdGbHA2N1JCX3VLempxTzhreVBsV1MzOE44cW9HZTd3bXh2U3JyeVVORnVrLTNlTGVPb2tJWE53bzk0ejlWLWtJWDlFbHN6cDY2YzdOUFE4Tm9YV0IzQVd6R1JUQ1Vm?oc=5', 'pub_date': 'Wed, 18 Mar 2026 08:25:45 GMT', 'source': '블로터'}
+- {'title': '11월 출범하는 SKT 신설회사, 사명은 ‘SK스퀘어’ - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OT3hoRFpfXzgzR2g3enpkamNNbGpXeGNvTDZ2QjdoaElla0xzS3BibFBqNlJoRGd3OFhhWjVhWGxiNkhTcFRZX3BSSV8xN1E?oc=5', 'pub_date': 'Tue, 17 Aug 2021 07:00:00 GMT', 'source': '바이라인네트워크'}
+- {'title': 'SK텔레콤, ADT캡스 인수…지분 55% 경영권 확보 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiTEFVX3lxTFBLaHMwN21mdTRmRGVReU5WUjBBVzhUTklMNjZJQ2F3MUZvdmhXdnZIWU1hTXU3UUZFd1BzMnd3ZTVoSXY4S255NG0zNVg?oc=5', 'pub_date': 'Tue, 08 May 2018 07:00:00 GMT', 'source': '바이라인네트워크'}
+- {'title': 'SK텔레콤, 양자암호통신 기업 IDQ 인수 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiT0FVX3lxTE92ZFNXbnNGeV8yU1A1U3FaOHIxTjV6T0QySmRHZnBYYkJXYkZGMUtQWGY1YTByOWVUbGZxSXdLN1hTdGVXQTNMZnp1UUR4Y2c?oc=5', 'pub_date': 'Mon, 26 Feb 2018 08:00:00 GMT', 'source': '바이라인네트워크'}
+
+> 💡 **면접 활용**: 기업 기본 정보와 실적 데이터를 바탕으로 "왜 이 회사인가?" 답변을 수치로 뒷받침해요.
+
+---
+
+## 2. 산업 포지셔닝 & 경쟁 구도
+
+이 섹션은 추가 데이터가 필요해요. (산업 분석 소스 수집 필요)
+
+---
+
+## 3. 경영진 & 그룹사 방향성
+
+
+
+### naver_web
+
+- {'title': '“통신사, AI 인프라 설계자로 전환”… SKT, 글로벌 텔코 AI 파트너십 강화', 'description': '– 정재헌 CEO, AI 시대 통신사 역할 진화상과 비전 제시 – AI... 모습 SK텔레콤(CEO 정재헌, news.sktelecom.com)이 스페인... SKT는 유럽 내 오랜 파트너인 도이치텔레콤과의 AI 동맹도 더욱 굳건히 한다....', 'link': 'https://news.sktelecom.com/222393', 'pub_date': ''}
+- {'title': '통신 3사의 올해 비전과 전략은…&quot;AI 사업경쟁력 강화할 것&quot;', 'description': '국내 이동통신 3사(SK텔레콤·KT·LG유플러스)가 갑진년 새해를 맞아 신년사를 통해 지난해 임직원들의 노고를 치하하고 새로운 한해의 방향성을 제시했다. 3일 업계에 따르면 통신 3사는 신년사를 통해 올해 비전과 전략에 대해 공유했다.유영상 SK텔레콤 사장은 “‘실사구시’(實事求是)의 자세로 실행해 ‘글로벌 AI컴퍼니’ 성과...', 'link': 'https://daily.hankooki.com/news/articleView.html?idxno=1037698', 'pub_date': ''}
+- {'title': '다섯 가지 키워드로 살펴보는 2026년 AI 트렌드 전망', 'description': '* 본 콘텐츠의 내용은 SK텔레콤의 공식 입장이 아니며 SK텔레콤의 의견과 다를 수 있습니다. 에이전틱 AI... 또한, SKT는 아마존웹서비스(AWS)와 피지컬 AI 분야와 관련해 임원 비전 워크숍을 개최하기도 했다....', 'link': 'https://news.sktelecom.com/218116', 'pub_date': ''}
+- {'title': 'SKT, 5대 영역에 구현한 AI 서비스와 기술로 산업·사회 全 영역 AI 대전환 이끈다', 'description': '선도하겠다는 ‘AI 컴퍼니’ 비전을 밝혔다. SK텔레콤(대표이사 사장 유영상... ‘도이치텔레콤’, 북미의 ‘T모바일’, 아시아의 ‘악시아타’, ‘셀컴디지’ 등 글로벌 통신사업자들과 MOU를 체결함으로써...', 'link': 'https://news.sktelecom.com/185456', 'pub_date': ''}
+- {'title': 'SK AX가 제안하는 AI 전환(AX)의 미래, IMAGINE AX 2025 리뷰', 'description': '2025년 6월 25일, SK AX는 서울 그랜드 인터컨티넨탈 파르나스 호텔에서 ‘IMAGINE AX 2025’를 개최하고, AI 전환(AI Transformation, 이하 AX)을 위한 새로운 방향성과 실전 전략을 선보였습니다. 이번 행사는 AI가 이끄는 새로운 시대, AI 혁신 가치를 주제로 기업이 실질적인 생산성과 경쟁력을 확보하기 위해 Agentic AI(에이전틱 AI)를 중심으로 조직, 기술, 프로세스를 어떻게 혁신해 나가야 하는...', 'link': 'https://www.skax.co.kr/insight/trend/3394', 'pub_date': ''}
+- {'title': 'SKT 유영상 CEO, “AI &amp; OI를 통해 글로벌 AI컴퍼니로 도약”', 'description': '글로벌 AI컴퍼니로 도약” SK텔레콤(www.sktelecom.com) 유영상 CEO가 25일... 비전 AI 등 핵심 사업 영역의 SK 그룹 내 시너지 강화와 글로벌 빅테크들과의 협력 확대 등 자강과 협력의 투 트랙(Two Track) 전략으로...', 'link': 'https://news.sktelecom.com/205928', 'pub_date': ''}
+- {'title': 'AI 거버넌스 &lt; 지배구조 &lt; ESG &lt; HOME', 'description': 'SK텔레콤은 2024년에 Global AI Company로의 진화를 이끌 AI 피라미드 전략이 강한 실행력을 가질 수 있도록 AI 거버넌스를 정립하였습니다. AI 거버넌스는 AI 피라미드 전략의 각 영역에서 신뢰성과 안전성이 보장된 AI 기술을 개발하고 서비스를 제공하기 위한 의사결정 체계입니다. AI 기술에 대한 규제 필요성이 전 세계적으로 제기되고 있는 상황에서 선제적으로 AI 의사결정체계를 도...', 'link': 'https://www.sktelecom.com/view/esg/aigovernance.do', 'pub_date': ''}
+- {'title': '서밋 무대 위, 세 기업이 그리는 AI의 내일 - T STORY &lt; 웹진 &lt; HOME', 'description': '매년 수많은 혁신 기술과 아이디어가 소개되는 SK AI Summit. 2025년에도 AI 생태계를 이끌어갈 다양한 기업들이 우리를 기다리고 있습니다. 올해는 특히 ‘책임 있는 AI’와 ‘지속가능성’이라는 화두가 서밋의 중심에 섰습니다. 11월 3일~4일 양일간 열리는 서밋에는 수십 개의 혁신 기업들이 참여할 예정인데요. 행사에 앞서 웹진이 AI의 신뢰성, 지속가능성, 그리고 효율성이라는 본...', 'link': 'https://www.sktelecom.com/webzine/lib/tstory_detail.do?index=49&head=', 'pub_date': ''}
+- {'title': 'SKT, 6G 백서 통해 AI 시대 통신 인프라 진화방향 제시', 'description': '진화 방향을 제시하는 ‘SK텔레콤 6G 백서: View on Fu-ture AI Telco... 핵심 사업에 AI를 접목하고, AI 서비스로 세계 시장을 공략하는 ‘AI 피라미드 전략’을 펼치고 있다. 유영상 SKT CEO는 지난 6월 SK그룹...', 'link': 'https://news.sktelecom.com/207733', 'pub_date': ''}
+- {'title': 'T STORY &lt; 웹진 &lt; HOME', 'description': '서비스 대중화, AI 인프라 가동, 글로벌 파트너십, 초대형 협력 발표 등이 간격 없이 이어지며, 상반기가 만든 구조가 실제 사업·생태계로 연결되었다. 아래는 7월부터 12월까지, 월별 흐름을 기반으로 정리한 기록이다. 7월은 SK텔레콤이 2019년부터 올해까지 인공지능 모델 분야에서 축적해온 기술적 역량을 오픈소스로 외부에 공개하기 시작한 시점이다. 지식형·범용·초거대·...', 'link': 'https://www.sktelecom.com/webzine/lib/tstory_detail.do?index=63', 'pub_date': ''}
+### exa_strategy
+
+- {'title': "SK Telecom CEO Unveils 'AI Native' Strategy at MWC26, ...", 'url': 'https://news.sktelecom.com/en/2787', 'text': 'SK Telecom CEO Unveils ‘AI Native’ Strategy at MWC26, Driving Korea’s Leap in AI Innovation – SK telecom newsroom SK telecom newsroom | SK Telecom CEO Unveils ‘AI Native’ Strategy at MWC26, Driving Korea’s Leap in AI Innovation', 'score': 0, 'published_date': '2026-03-02T00:00:00.000Z'}
+- {'title': "SK Telecom CEO Unveils 'AI Native' Strategy at MWC26, Driving Korea's Leap in AI Innovation", 'url': 'https://www.prnewswire.com/news-releases/sk-telecom-ceo-unveils-ai-native-strategy-at-mwc26-driving-koreas-leap-in-ai-innovation-302700470.html', 'text': "SK Telecom CEO Unveils 'AI Native' Strategy at MWC26, Driving Korea's Leap in AI Innovation Accessibility Statement Skip Navigation\n\n- Seizing the golden time for a major transformation, with 'Customer Value & AI' as the top two priorities for driving change\n\n- Major overhaul of systems and infrastructure, the foundation of telecommunications, centered on AI\n\n- Redesigning customer-friendly products, promoting integrated AI agents, and strengthening", 'score': 0, 'published_date': '2026-03-02T00:00:00.000Z'}
+- {'title': 'SK Telecom CEO Unveils Trillion-Won AI Infrastructure Investment Plan - Seoul Economic Daily', 'url': 'https://en.sedaily.com/technology/2026/03/02/sk-telecom-ceo-declares-ai-transformation-pledges-trillion', 'text': 'SK Telecom CEO Unveils Trillion-Won AI Infrastructure Investment Plan - Seoul Economic Daily\n\nSeoul Economic Daily\n\nSeoul Economic Daily\n\nKST\n\nSeoul Economic DailyKorea\'s Leading Business News Since 1960\n\n한국어\n\n|Summary\n\nAAA\n\n"President Jung Jae-hun: \'SKT to Export Sovereign AI with Trillion-won Infrastructure Investment\' [MWC2026]"\n\n"If we miss the golden time to adapt to the new innovati', 'score': 0, 'published_date': '2026-03-02T00:00:00.000Z'}
+- {'title': 'SK Telecom Expands Global AI Partnerships at MWC ...', 'url': 'https://www.prnewswire.com/news-releases/sk-telecom-expands-global-ai-partnerships-at-mwc-barcelona-2026-302701596.html', 'text': "SK Telecom Expands Global AI Partnerships at MWC Barcelona 2026 Accessibility Statement Skip Navigation\n\n- Jung also discussed AI cooperation with major telecom operators and technology groups across Asia, Europe, and the Middle East.\n- SKT introduced the 'Sovereign AI Package' strategy, which combines AI infrastructure, proprietary models, and industry services.\n- CEO Jung Jaihun hosted the AIDC conference, presenting the role and vision of telcos ", 'score': 0, 'published_date': '2026-03-02T00:00:00.000Z'}
+- {'title': 'SK Telecom announces full year 2025 results, The AI-Native Telco | TelecomTV', 'url': 'https://www.telecomtv.com/content/ai/sk-telecom-announces-full-year-2025-results-54795/', 'text': 'SK Telecom announces full year 2025 results, The AI-Native Telco | TelecomTV\n\n### The AI-Native Telco\n\n# SK Telecom announces full year 2025 results\n\n###### Via SK Telecom\n\nFeb 6, 2026\n\n- AI business gains momentum with approximately 35% revenue growth in artificial intelligence data centers (AIDCs) and advancement into Phase 2 of the Sovereign AI Foundation Model project\n- 5G subscribers returned to net growth in Q4 with 230,000 additions as SK Telecom accelerates AX to drive innovation in the ', 'score': 0, 'published_date': '2026-02-06T00:00:00.000Z'}
+### international_news
+
+- {'title': 'SK Group chairman says wafer shortage to last until 2030, trying to stabilise memory prices - Reuters', 'link': 'https://news.google.com/rss/articles/CBMizwFBVV95cUxOd3ctVWg0OWtrd0tUN3ZjLUc0X2pMM0xaOWhHZTIxbG01T2xlcUZlYTRzSTllcVV6YWZ1SjBWRXg3NmNUUzlpVFVJdVpkNDNiTlYwOGFRYnBTS0E4R0g1RVpFdE0tYkxkZFNLaFo3NmpLUmZSSTFNNnp1YXN2Q3hNc0hvRF9sd05OMmJiWHc1TDFQSUdVZnJDMURzTW5yLXk1dWtQb1VsVzE4TXV3TmtVRlk1R0VMbHpXWWFmZXhrWm1MNm9zb1JzcUh2SHdZaVk?oc=5', 'pub_date': 'Mon, 16 Mar 2026 23:44:51 GMT', 'source': 'Reuters'}
+- {'title': 'Samsung CEO seeks multi-year chip contracts with major customers - Reuters', 'link': 'https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSXJWb1FSa0xWZmpqbjY2Vk9rWHFBNnpheEpxNVlOYVU4Yll4MHd5Q185SVU5VTQyZHBZamd0R1Ezc2J1aGNtbmpHbGJOX21DYmxkVDdGRTFDajdUNVFiY3VwblFSTVVsSG5mOHZZbHdER2tYVTdqZHFiR3JSRm5fNzF0eEV0b0JmalVjQWQyWndrVW1mclBGY1FKSWNXLW5VVk03VkgwRGdaU2w2YUpQVTgwenV2QVJ5?oc=5', 'pub_date': 'Wed, 18 Mar 2026 13:10:16 GMT', 'source': 'Reuters'}
+- {'title': "Samsung's unionised workers in South Korea approve strike plan - Reuters", 'link': 'https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVnpxUFNuZC0xdWNyMVB4Wk15cmtSczByRU5PVVdGVkR0M3hLb3Q2dWZOMWltY3Q1eURQeXk3SllqWnlySjFra0ZmWEY1Tjg2Znd4UWRJM1AxTXZtanVieUl0QXc1UkJZRjFNRDJ0a0pVa0hrU2VMcjN5MDZiOGxJSHdrMmtjZmpTZUh2WjI4UXY2MUNiQ0g0UFZzbmdIaDd2dlhYa214RjkxUlNWMEZmXzE2bTBWQm8y?oc=5', 'pub_date': 'Wed, 18 Mar 2026 05:46:00 GMT', 'source': 'Reuters'}
+- {'title': 'Why the AI Boom Will Make Phones, Cars and Electronics More Expensive - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMieEFVX3lxTE16RTd4ckNCa2hEWDJ0cUtIbDhwLTlvNHRILVZPcDhZTFRBWWwtUVpwMkVzbUlzc1VON2N6clRUUHozRDJndG53THlhaldxRlhWTUhYMEcwbC1SZkxQY1VtWHg0bDgxUU1fbkhtWU9HeTRoWnZtdWtfMw?oc=5', 'pub_date': 'Sun, 08 Mar 2026 08:00:00 GMT', 'source': 'Bloomberg'}
+- {'title': 'Uber Invests $150 Million in Ride-Hailing Deal With SK Telecom - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMisgFBVV95cUxORFFhR3NKdU1Hc2R6Wi1OS2hoWjdMdDZKelRXWTZsVHRkYTRubFFyVm9DNWJwajItVGlHQ1IyZjV2RmpaNkpRLVoycG50RVhlWTFvSXVXTTVKcmRrZ0ZwMDAxM1FtNk1DX0R3SlJjeHVQdml5U3JIcUI4YWsyakc4WnJlZkxLclU0TnZlQUhvWUozNlpDcWhfTl82NzlCTEJTMVhyM1BKbjhSWmo3SDlDbGVB?oc=5', 'pub_date': 'Thu, 15 Oct 2020 07:00:00 GMT', 'source': 'Bloomberg'}
+- {'title': 'Korea Urges SK Telecom to End Cancellation Fees Over Data Breach - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMitgFBVV95cUxQRERxc1dKclpFckhjZjlPNTYySExvbTFkdEloakd3LW9iSUFUV21xTDcxUTlOcWRoYjFwU0VESUhIdkN2Yi1DUUFlcXhNQldrb3Y4ZDJhNVYtUTN0OEh0UFlvNGtCUU9SV3R0dmxjczl2c0xFRkkzNS1sTFlmRE9JSjZ2c2NCSDd1OUVBU0wxYXlSVzVMQm1rTDE5RjItSk9FVGZyb3lYLVM3NFpBaVZjaTFGX1VfZw?oc=5', 'pub_date': 'Fri, 04 Jul 2025 07:00:00 GMT', 'source': 'Bloomberg'}
+- {'title': 'SK Telecom’s AI unit offers staff voluntary retirement program just weeks after launch - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMivAFBVV95cUxOV1BhZWhCV3UyZWtWeHNEUWVtZ3otZ0FKa0huQUNZdFZtUl8wa3pkWFpVaGktVEg1VUx0V0lhcGQ2bC1SR0hIcXJrQTR5ZXVOQVgwNUtEc01CMDhfQTNzZ0F6NENWc0xUazR3dGRXOWpqX014NDFObjlPLXItMzV0RkpiQkF3NUhodXBCdzlnbDNnay0wQXN3cTBUUGlXVWk0WW9uMGt5aDFWVzZJcXZsN1FobnM5NTBVRGpZaA?oc=5', 'pub_date': 'Fri, 17 Oct 2025 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'A timeline of South Korean telco giant SKT’s data breach - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMilAFBVV95cUxQNjJ6cjREelVLX3BCSGd3WVRDSTNDUEpJcldPMWxrRGZxMTVDR25fYWVERGtrR3lPTWRjNnRVNzBxZnZQU2dma3NQV1NkY3B6VXBBTEVibmczaTItNU9WeUJuT054YWZnWWRIVVN2QnFLTkNMNWxKazdEM0lmWWZMa0dBazJOZmtrTEQ2dFlaVXlzZm5C?oc=5', 'pub_date': 'Thu, 08 May 2025 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'AI startup Anthropic raises $100M from Korean telco giant SK Telecom - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMipAFBVV95cUxQVFBGb3FQWDl1NFA2VDdNV01Id19GSExPdGxGLVJUcmFTU3U1aEI5bXhSS0NNUkY0Q2o2YmdnRG84eWRNZ1ctRW1SQ3ZpeU1VVFh0XzVRYnd4TE5fZWNFT0ZvcUlxLVlwekdPaGlYeGJ0dFV2Y05jZUFpWXg2ZG5nS1BrcS03TEt0MlhtTy0wQ2RKQ1hzejdYSWFtczNkZ0FsU1h2Zw?oc=5', 'pub_date': 'Mon, 14 Aug 2023 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'Tech, Media & Telecom Roundup: Market Talk - WSJ', 'link': 'https://news.google.com/rss/articles/CBMiggNBVV95cUxPdC13WktFM3hwbThaNXQwak1QSG5oajN6TVpOeUlfRi0yNHJYZkRDQ3dqWmk3WjFNSExZdDlXUTBJMmFsYnJERlhING5iN3lxc2lLYjI1MmlqQVRKaFdMT3lVVTRXS2NOWTZUT3BibEIzTEFYdDBiVTRiVkJnb2M1aENxWHRDbE8yT0swVGs4THlXY0JVTXdNZE84a3JaTDBDZE53ZEMzSklhZWNNNlFvWnk1T1hjT3l1SFBXZEN5X3R5SXpNTjRveTBfUnRqMUVqRmdzM1FEWFM2WEkxUXVXb2s0cXZRRlJkcHZSU2NITFpVWGJSVW9fSElNWjlvNmJrWEdTM2tFY25Mdnk0NjFwMDV6ZklSUFVuZjNtTDBkZG9tWEJWTUx6Vi1xZ0tHLXdMS2NDWU1MTDQwdDU2SFp3YnZoYmZoTUdya3R2aW1pOHZJTE9Gd3Rld3ZUelB5dm9YRWNsUmlzR1NQM3d2VW1PYlVxWEdhZWROanlqTWxFX2xjQQ?oc=5', 'pub_date': 'Thu, 19 Mar 2026 20:53:00 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'Companies Say the Risks of ‘Open’ Artificial Intelligence Models Are Worth It - WSJ', 'link': 'https://news.google.com/rss/articles/CBMivANBVV95cUxPWWVPOWd0WlFnT2J1LW1lNEc3dUFZajNiQjlkMTBYLTV2VGZjbUxNTFZqMW4wT2RGMmtTckdvNUJvZHVWT0t0VG4zTVZmQlRobm56OXd0TnozRkd0Y09fc0E5Y2pvR1NTRUc2eTdxb2JaWkoxRV9uU09yOGVvdkJjYURYdkZDMkZIZFBVbm1ub1B3UVdBODQ5cjdYOFptczQyT2FUNmxRVWFrdmxJLXFKTUNjMkc1X1pCYURXQUppbzlKUndTYnEyaUV1X3pyajVqWjRzY0MtX1FkcjhnRzJFZGlTMGQ4VmxleGtQbk5QbjAzLXpWSUtTbWRYUmlEMHRhQVlHNVQ4b3Z3dEoyYVVYOGNkaU9BLS16SXhvUEpfdEVRQVAtVW5oOU1GMENGMDhHOE0wUFhGaDBLbEdwMy1UX0FQNUd1bTRTUFNVN21NODVwdFZWZmp1NGpMYmRSVFQzekFneXAyVTJZOU52RTJCTHJGNkF0QWhUcFYxbEI5MGx6czJ2bGxUZmZ5cllRVEtHUjNYMkNrZUxqU0JZbm1qcEJKRXdmVVBiZmhyeHJLT0ZmWjVhbVViY0luQzU?oc=5', 'pub_date': 'Wed, 18 Mar 2026 11:00:00 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'Asia Equities Gain Ahead of Fed, Oil Retreats But Stays High - WSJ', 'link': 'https://news.google.com/rss/articles/CBMitgNBVV95cUxPSnU1dEU0WEFWblpCdzZXNVd1WGdJWFZUYW9uVnFPQ1oxUmhnY3pYMDE0anFqd1ZNWVdNTlU5Y3BoSDg3dldBQVg5M0dvY3N4X1I0eWhVaFV1MmUzSGtSQ19rU1VKaWI5TW0tYzBCS0dyNnJpSU9DbWtqaC1uNG5tYUJCX0c2MWhGdlNoOWRPaWFnQ2o2RnE4UDh5REZpLXZUVlJwTjRUdVYxaEJXX1pPeDU0aURDMVZzQzBCeG5OQTFyODltZkdrYTFhbzhjaFp4bDJ3NjRvT1VEOEZ2dm1iWHFmWWVyYkhYaEFNSFh0SU9GaENNNEpEajJ0T3V4ZjVON1BNQXlCX1hFZU1nb3E4REJxU2VwdHg1eUNKaWU3Y0ZFZmh3T0NsSGJvR3o3UUN6aDltTlJXZ3FGM1VKWWlhQUpoOTg5a2JlelhseWZNbW9rZEFCYVB4Y3NTOWtLWDJadjFGeVRQekRWOERPZkp4dFRYSl90V3d0R2ZnSFBvdU9ISm1LMXQzMm5QOWZrNzQ0VGlpSDYzMWg5eHVNQnZxTkx6Z3gtbVU2SG1YUktYZ1ozN3VfWWc?oc=5', 'pub_date': 'Wed, 18 Mar 2026 07:57:00 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'How a ‘zombie’ chipmaker became Nvidia’s vital AI ally - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMihAFBVV95cUxNSld5UzRaaXpFWlR6Z0ZNbzhtMGVTWG5Pa2ZXczdmY0lleVpRbTZKNGl2N1htTjFSY2FHTG01OVhVMnBnZFdIY0ZLeVprU1k0RE04NG55R3ZxN0dBRjl0NERhQ0RhNnpla21VQ0dSVXVvdFN2NTdTRE9SUlpTNVFTQ2l6R2c?oc=5', 'pub_date': 'Tue, 10 Feb 2026 08:00:00 GMT', 'source': 'Financial Times'}
+- {'title': 'SK Telecom Co Ltd, SKM:NYQ summary - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMickFVX3lxTE50ZW1na3lOV3ZDRTZlOW1ac2NWdnpJN2JrdmJWY2JCWVJicW91ZU5UTDlRZlR1NGhKZFo1N0EweGxPSnpBMXpnSXJ5U1BUODNzMnMxTFhQMW9aZWpocXlwR2RHQ0V0UkdnRExEQzVUcUhWdw?oc=5', 'pub_date': 'Thu, 08 Sep 2016 04:47:09 GMT', 'source': 'Financial Times'}
+- {'title': "SK Telecom CEO Unveils 'AI Native' Strategy at MWC26, Driving Korea's Leap in AI Innovation - Financial Times", 'link': 'https://news.google.com/rss/articles/CBMimAFBVV95cUxNUThieXB5QUx0NExFN1lINmhfSmt6cmNHOWxUWXVOZmhyTV8tdXpZcU5wNTNUV3UyaDVHTVpVQlFfMzZDdnY2MlBxd0REZ0xudGI5cm44Z3dCRWh4VnlwaGZ5NE9rZ3ZhcHJZbmJEd2M0dUMxOS1saExvVGo5NVJQdllkOWRDeWtOdDFDX3BzZUdJSUVhSFFmcA?oc=5', 'pub_date': 'Mon, 02 Mar 2026 00:35:00 GMT', 'source': 'Financial Times'}
+- {'title': 'Global memory chip crunch set to last till 2030: SK Hynix - Nikkei Asia', 'link': 'https://news.google.com/rss/articles/CBMirgFBVV95cUxNSGRiRHpScmdEamV4ZUNTekZNcVVUMHFiOUVSQXVqUEFHQVpTdkwySVNMY3J1eWVfd3IxanhBTjJMOUtfZEV1TUw1NVMweUEzaEFnY25IbWpLVnNLMTRxdHBWc0pISFlPZlZDZUNlQ1RHZ1RsVFREXzczYUE2a2I2ZVhTVnFSZE9OUk50cW5QOXVGREFaSWpVZUYzdzF6My1oOGNlTDFPS2xlbjlEYVE?oc=5', 'pub_date': 'Tue, 17 Mar 2026 01:07:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': 'Chip testing latest chokepoint as Nvidia, Google designs grow more complex - Nikkei Asia', 'link': 'https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmJNT1ZUUlVGVEU1ZWdMejFWbHVNQUJlOWhPOWhHX1JWNHE3d040VUtwX3JjNjQzaUZ5Rl9PbGZTYkh2N2RIaEdjNlktQUNaVWFjeXZJcUhaSS1xLWlTN0s2Y2poUDJwVTFTTFZ2ZGJTQkpERG12ZHdUUG4zY0YtblJYOWUwV0hKLUNOZ0pLMFR6TTVXSUV0a1VyRGY4b1JKMTlyMnVDT2xRUWRwaUo5TzRVNGNFUWFtU1VwMHZ4dzY5YlVO?oc=5', 'pub_date': 'Wed, 18 Mar 2026 08:23:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': 'SoftBank Group shares lose steam as investors have qualms on big OpenAI bet - Nikkei Asia', 'link': 'https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1dMLWFVTE0wWXdSYTdVSHZscXcxOUlCcVRYdWVhS2llek5ubm5OSDdSanItMlFab294cjEzVDBSeHhRMl9VYm94YUY5OE53UExWZXMycHJOTHJEU2FwZG4yYlZvVUVPZXhHZXhvaThidHY5OURKaXg0SFZZelhxNnVaakt3aFJpOFVzamxid2ZmTGdnUU1YcnhPWWFUMTBZNGhGZE5ySzBJazd0UWRYejRwbzBSdmViOG91dnB2clZuUHZxTlM3bw?oc=5', 'pub_date': 'Sun, 15 Mar 2026 21:00:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': 'PayPal and the Activist Campaigns That Didn’t Work - The Information', 'link': 'https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUJzb1BoMUFxOGdCaE1RUVZ4QW96TDdZLVZWYnV4T0ZOeTlxNlNBZlZaNHRCQXdrS2RwM0o3Q282S0ZramxRQUhEVWZaa3Z6bFhLcU1IbWUtZUQ1cDU4bjVma25WSkVUQWJuY0VyTDFfSFdVZ2FLYlF6RHJnN245WS02MzdCTmxhNDM1alJzeVlSd2dCZkVWdXphU3RTUTVkZlRJa0x3cmU?oc=5', 'pub_date': 'Mon, 14 Aug 2023 07:00:00 GMT', 'source': 'The Information'}
+- {'title': 'China Fast-Tracks Tech IPOs to Counter US AI Rivalry - The Information', 'link': 'https://news.google.com/rss/articles/CBMijwFBVV95cUxNNXk0RzVvem1ZMmlhUGhFMnM4dnpSTlZXczh1SHZMaGNjLXpfV2hsZkJoWXE0eTRGYjZra05aNTJFVXlCM3hkVkx0bmYxY3dUMktTc2NlWHdWQml3b3pIVEFieWIwNXVuMFZRa2YwUFJCeFdKbHVzUi1LWjhoZ051VTJYODZfeVp2dGV0bjNWUQ?oc=5', 'pub_date': 'Wed, 29 Oct 2025 07:00:00 GMT', 'source': 'The Information'}
+- {'title': 'Subscribe to The Information. - The Information', 'link': 'https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tYWx0cDNJUXV1S0hDTFNMd1VFVVBDa3c0VWxKZVAwbkN6TGdkQzVvNURzWFFPWkk3Zm0wTElUbGVjS0VqeHQ3M1pYVTZoVXdPeHc?oc=5', 'pub_date': 'Thu, 06 Mar 2014 19:54:52 GMT', 'source': 'The Information'}
+
+> 💡 **면접 활용**: CEO 발언이나 그룹 전략 키워드를 면접 답변에 녹여서 전략적 이해도를 보여주세요.
+
+---
+
+## 4. 조직문화 / 철학 / 인재상
+
+
+
+
+
+### naver_blog
+
+- {'title': '0', 'description': 'https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 산림청에서 지정한 국가산림문화자산(2016년)으로, 맑은 물이 솟아나는 생태적 가치가 높은 곳.... ', 'link': 'https://blog.naver.com/bwiwd/224225015464', 'pub_date': '20260321'}
+- {'title': '0', 'description': 'https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 산림청에서 지정한 국가산림문화자산(2016년)으로, 맑은 물이 솟아나는 생태적 가치가 높은 곳.... ', 'link': 'https://blog.naver.com/arangjoeul/224225010230', 'pub_date': '20260321'}
+- {'title': '0', 'description': 'https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 산림청에서 지정한 국가산림문화자산(2016년)으로, 맑은 물이 솟아나는 생태적 가치가 높은 곳.... ', 'link': 'https://blog.naver.com/yjsjhs/224224992913', 'pub_date': '20260321'}
+- {'title': '빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨', 'description': '맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ', 'link': 'https://blog.naver.com/blrol_blrol/224224956373', 'pub_date': '20260321'}
+- {'title': '취준] &lt;2026 최신판 렛유인 SKCT 독학단기완성&gt; 교재 사용 후기!', 'description': '구분 내용 시험명 SKCT (SK Competency Test) 시행 기업 SK그룹 (SK하이닉스, SK텔레콤 등) 시험 구성... SKCT 인강 샘플강의 5회부터, 20 % 할인쿠폰, 반도체 인강 24강 ALL 무료, SK그룹 인성면접 합격 가이드북 PDF 등등.... ', 'link': 'https://blog.naver.com/alzm11_/224224911054', 'pub_date': '20260321'}
+- {'title': '경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음', 'description': '✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ', 'link': 'https://sibauchi.tistory.com/1205', 'pub_date': '20260321'}
+- {'title': '알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에', 'description': '면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ', 'link': 'https://think-tank.tistory.com/1035', 'pub_date': '20260321'}
+- {'title': '당신의 다음 커리어를 위한 완벽한 이직 준비 팁', 'description': '이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비', 'link': 'https://blog.naver.com/kcl3598/224224791593', 'pub_date': '20260321'}
+- {'title': '및 합격 전략 분석 - 에스오일 GS칼텍스 SK에너지... ', 'description': '여러분의 정유사 합격, 그 빛나는 순간에 누아블랑이 함께하겠습니다. 상담 및 문의 대표: 누아블랑 (현 대기업 엔지니어 &amp; 커리어 컨설턴트) 주요 전문 분야: 이력서/자기소개서 작성법 코칭, 면접 대비... ', 'link': 'https://blog.naver.com/love-notebook/224224710165', 'pub_date': '20260321'}
+- {'title': '[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드', 'description': '기업 문화 기획, 인사 데이터 분석) 지원 자격 2026년 8월 졸업 예정자 및 기졸업자 (전공 무관) 근무지 경기도 광명시 유플래닛타워 (광명역 인근) 전형 절차 서류전형 → 인성검사 → 면접전형 → 합격자... ', 'link': 'https://blog.naver.com/goodlife_92/224224618278', 'pub_date': '20260321'}
+### naver_cafe
+
+- {'title': '[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.', 'description': '외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.', 'link': 'http://cafe.naver.com/inhadigital/306', 'pub_date': ''}
+- {'title': '서울3대 재즈바 entry55 사당점 바텐더 채용', 'description': '[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ', 'link': 'http://cafe.naver.com/ibartender/110690', 'pub_date': ''}
+- {'title': '요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서', 'description': '회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ', 'link': 'http://cafe.naver.com/uworldexam/151745', 'pub_date': ''}
+- {'title': '한국은행 (Bank of Korea)', 'description': '연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ', 'link': 'http://cafe.naver.com/smilejobs/768', 'pub_date': ''}
+- {'title': 'SK하이닉스 vs 삼성 연봉 인센티브 복지 비교', 'description': '반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ', 'link': 'http://cafe.naver.com/grayjuinb/23', 'pub_date': ''}
+- {'title': '[20260320] copilot / chatgpt / gemini 대화록', 'description': '조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ', 'link': 'http://cafe.naver.com/woodmanwriting/207', 'pub_date': ''}
+- {'title': '인천적십자병원 물리치료사 채용공고', 'description': '후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ', 'link': 'http://cafe.naver.com/pinklqgzd/1923', 'pub_date': ''}
+- {'title': '2026-03-20 뉴스 정리', 'description': "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ", 'link': 'http://cafe.naver.com/todaybigboss/4858', 'pub_date': ''}
+- {'title': '법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서', 'description': '** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ', 'link': 'http://cafe.naver.com/uworldexam/149566', 'pub_date': ''}
+- {'title': '2026 한국형 AI 필승 카드', 'description': '가속…전담조직·채용 확대 국내 증권사들이 인공지능(AI)을 전담하는 조직을 신설하고 디지털 인재... 16:21SK텔레콤 “올해 AI 파운데이션모델 사업화 주력” SK텔레콤이 독자 파운데이션모델 사업을 통해 개발한... ', 'link': 'http://cafe.naver.com/greenb0k6k/175850', 'pub_date': ''}
+**snippet_count**: 20
+**avg_rating**: 2.746551724137931
+### positive_themes
+
+- 긍정
+- 만족
+- 문화
+- 복지
+- 워라밸
+- 자율
+- 좋아
+- 좋은
+- 최고
+### negative_themes
+
+### snippets
+
+- {'source': 'naver', 'title': "구직의 모든 것 'SK텔레콤' | 컴퍼니 타임스의 생생한 인터뷰 확인하기, IT/웹/통신 0.0 평점", 'description': '기업 정보 탐색부터 채용지원까지, 커리어 여정을 한 번에! 구직에 필요한 모든 정보를 제공합니다. 구직의 모든 것 &quot;SK텔레콤&quot;', 'url': 'https://www.jobplanet.co.kr/contents/news-5987/%EA%B5%AC%EC%A7%81%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83-SK%ED%85%94%EB%A0%88%EC%BD%A4'}
+- {'source': 'naver', 'title': '신입공채 채용 판도 뒤바꾼 SKT…”오히려 좋아” | SK텔레콤(주)의 생생한 인터뷰 확인하기, IT/웹/통신 4.1 평....', 'description': '그 중 SK텔레콤은 지난 8월24일부터 30일까지 Junior Talent 채용모집을 시작으로 신입사원 공채 포문을... 왼쪽부터 SK텔레콤 SK텔레콤 광고사업팀 김유민님, Ranker팀 김태현님 주니어 탤런트 전형 바뀌었다는데?...', 'url': 'https://www.jobplanet.co.kr/contents/news-5294'}
+- {'source': 'naver', 'title': 'SK텔레콤(주) 2026년 기업정보 | 729건 면접후기 3.3 면접난이도', 'description': 'SK텔레콤(주)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.3, 면접경로: 온라인 지원 54%, 면접경험: 긍정적 60%, 부정적 7%, 면접결과: 합격 46%, 불합격 40%, 대기중 14% | 잡플래닛에 등록된 729건 면접후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/20575/interviews/sk%ED%85%94%EB%A0%88%EC%BD%A4'}
+- {'source': 'naver', 'title': 'SK텔레콤(주) 2026년 기업정보 | 기업리뷰 1,215건, 4.1 리뷰평점', 'description': '직장에 진짜 비하가 아니라 경계선지능장애 의심되는 여자가 있습니다. 일이라도 잘하면 상관없겠는데 무슨 일처리 했냐고 체크하면 아니요? 할게요~ 못했어요 이러고 상사가 수정지시요청하면 자기가 그런 지적당해서 불쾌하다고 갑자기 장황하게 떠듭니다 문제는 자기가 잘못해서 시정하라고 한것인데 뭐가 불쾌한건지 모르겠습니다 그리고 이런이런부분 수정해달라고 요청...', 'url': 'https://www.jobplanet.co.kr/companies/20575/reviews/sk%ED%85%94%EB%A0%88%EC%BD%A4'}
+- {'source': 'naver', 'title': '기아·SK하이닉스 좋아요…억대 연봉에 직장인들 따봉 날렸다', 'description': '기아·SK하이닉스 좋아요…억대 연봉에 직장인들 따봉 날렸다, 잡플래닛, 1~3분기 기업 평점 집계 평점 상위 10곳, 대기업·제조업 강세 기아·현대차·SK하이닉스 등 만족도↑', 'url': 'https://www.hankyung.com/article/202512028482g'}
+- {'source': 'naver', 'title': '잡플래닛, 평점 우수기업 TOP10 발표…대기업·제조업 강세', 'description': "잡플래닛이 2일 '2025년 1~3분기 평점 우수기업 TOP10'을 발표했다. 이번 평가는 2025년 기준 리뷰 50개 이상 기업을 대상으로 총만족도, 급여·복지, 워라밸, 사내문화 등 네 가지 항목을 종합 반영했다. 모든 점수는 5점 만점 기준이다. 평가 결과는 △기", 'url': 'https://www.etnews.com/20251202000138'}
+- {'source': 'naver', 'title': 'SK 텔레콤 2025년 기업정보 | 272건의 복지정보 0 전체 복지 통계', 'description': 'SK 텔레콤의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 272건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/20575/benefits/SK%ED%85%94%EB%A0%88%EC%BD%A4(%EC%A3%BC)'}
+- {'source': 'naver', 'title': "복지'맛집' SKT구성원이 뽑은 최애제도는? | SK텔레콤(주)의 생생한 인터뷰 확인하기, IT/웹/통신 4.1 평점", 'description': '복지가 좋다는 국내 대기업들 중에서도 SKT(SK텔레콤)는 특히 문화/복지 제도가 좋기로 유명하죠. 자율... 잡플래닛을 보면, ‘복지 및 급여’ 만족도가 ⭐️ 4.4점이나 돼요! 제도가 많아도 쓰지 않으면 소용없는...', 'url': 'https://www.jobplanet.co.kr/contents/news-3276'}
+- {'source': 'naver', 'title': 'SK 텔레콤 2026년 기업정보 | 300건의 복지정보 0 전체 복지 통계', 'description': 'SK 텔레콤의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 300건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/20575/benefits/sk%ED%85%94%EB%A0%88%EC%BD%A4'}
+- {'source': 'naver', 'title': 'SK 텔레콤 2026년 기업정보 | 303건의 복지정보 0 전체 복지 통계', 'description': 'SK 텔레콤의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 303건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/20575/benefits'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 현직자들의 연봉 정보', 'description': '인증된 SK텔레콤 현직자들이 전하는 실시간 연봉정보를 확인하세요. 평균 연봉, 직군별 연봉도 확인하고 내 연봉도 비교해 볼 수 있어요!', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/salaries'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 기업정보', 'description': 'SK텔레콤의 기업문화, 근무환경 등의 기업 정보와 최신 소식을 블라인드에서 확인하세요.', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 Reviews - &quot;높은 연봉과 좋은 복지&quot;', 'description': '“금융치료와 복지로 다 용서되는 회사” ; “진짜 최고의 회사” ; “신입이라 한참 뽕맞아있는 리뷰”', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/review/pI2I5OGtHuI'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 Reviews - &quot;신입이라 한참 뽕맞아있는 리뷰&quot;', 'description': '“워라벨 없습니다. “워”가 없기 때문이죠. ” ; “복지 좋고 팀바팀이지만 괜찮은 팀에 있으면 워라밸 좋음” ; “워라벨이보장됨 정년보장”', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/review/x_seUIQfk'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 Reviews - &quot;복지와 연봉만보면 좋은 회사&quot;', 'description': '“금융치료와 복지로 다 용서되는 회사” ; “진짜 최고의 회사” ; “신입이라 한참 뽕맞아있는 리뷰”', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/review/6qTt2rOeG'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 Reviews - &quot;최고의 월급쟁이가 될 수 있음&quot;', 'description': '“금융치료와 복지로 다 용서되는 회사” ; “진짜 최고의 회사” ; “신입이라 한참 뽕맞아있는 리뷰”', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/review/VD0ICeCGTgc'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 Reviews - &quot;자체계약직 워라밸 꿀&quot;', 'description': '“금융치료와 복지로 다 용서되는 회사” ; “진짜 최고의 회사” ; “신입이라 한참 뽕맞아있는 리뷰”', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/review/W-ArzdCrA_'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 Reviews - &quot;밖에서 보면 너무 좋은 회사&quot;', 'description': '“금융치료와 복지로 다 용서되는 회사” ; “진짜 최고의 회사” ; “신입이라 한참 뽕맞아있는 리뷰”', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/review/BrH5tV5Jz'}
+- {'source': 'naver', 'title': 'SK텔레콤 연봉, 초봉, 복지: 현직자가 들려주는 리얼 스토리!', 'description': 'SK텔레콤 연봉, 초봉, 복지: 현직자가 들려주는 리얼 스토리! 국내 통신 산업의 리더이자 ICT 혁신을... 연봉, 초봉, 복지제도를 정리 하였습니다. 블라인드 현직자 리뷰_복지,급여는 좋지만 사내문화는 좀별로라는...', 'url': 'https://blog.naver.com/zon231/223952772385'}
+- {'source': 'naver', 'title': '블라인드 | SK텔레콤 리뷰', 'description': '인증된 SK텔레콤 직원들이 평가하는 연봉과 복지는 어떤지 확인해보세요.', 'url': 'https://www.teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/reviews?page=1&jobgroupFilter&currentEmployeeFilter&orderBy=recommend'}
+### exa_culture
+
+- {'title': '[SK 텔레콤] SK 텔레콤 완벽 분석부터 합격자료까지 확인하고 취뽀하자! - 링커리어 커뮤니티', 'url': 'https://community.linkareer.com/honeytips/2192678', 'text': '[SK 텔레콤] SK 텔레콤 완벽 분석부터 합격자료까지 확인하고 취뽀하자! - 링커리어 커뮤니티\n\n링커리어로그인을 해주세요\n\n즐겨찾기\n\n게시판 제목의아이콘을 선택하면 즐겨찾기에 추가됩니다.\n\n링커리어 커뮤니티\n\n삼성 하반기 공채\n\n팀원 모집 게시판\n\n멘토 게시판\n\n합격 후기 게시판\n\n인턴 게시판\n\n대외활동 게시판\n\n공모전 게시판\n\n취준 게시판\n\n링커리어 칼럼\n\n공지사항\n\n## 대학생활 꿀팁모음\n\n# [SK 텔레콤] SK 텔레콤 완벽 분석부터 합격자료까지 확인하고 취뽀하자!\n\nhttps://community.linkareer.com/honeytips/2192678주소복사\n\n안녕하세요!!\n\n링커리어 콘텐츠에디터 15기 곽근영입니다😊\n\n오늘은 높은 연봉과 복지가 좋기로 유명한 기업을 소개드릴건데요\n\n바로 SK 텔레콤입니다!!\n\n기업 분석부터 합격 스펙, 자소서까지 확인하러 가볼까요?\n\nSK텔레콤은 SK계열의 국내 최대 통신회사로\n\n통신뿐만 아니라 커머스, 보안, 미디어, 모빌리티 등\n\n', 'score': 0, 'published_date': ''}
+- {'title': '', 'url': 'https://teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/review/kS93OgMUZ', 'text': '블라인드 | SK텔레콤 Reviews - &quot;초봉은 높지만커리어, 역량성장, 연봉상승률등미래를그릴요소가전무함&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인SK텔레콤\nSK텔레콤\n*Rating Score*3.8*(1,814개 리뷰)*\n이회사리뷰하기SK텔레콤은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*2.0**\n*1*커리어 향상*2*업무와 삶의균형*3*급여 및복지*2*사내 문화*1*경영진\n*View detailed rating*\n# “초봉은높지만커리어, 역량성장, 연봉', 'score': 0, 'published_date': ''}
+- {'title': '', 'url': 'https://teamblind.com/kr/company/SK%ED%85%94%EB%A0%88%EC%BD%A4/review/RUEwOhD27_', 'text': '블라인드 | SK텔레콤 Reviews - &quot;솔직히 동종업계에서이정도로다니기좋은회사찾기힘들것. 개인적으로최고직장.&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인SK텔레콤\nSK텔레콤\n*Rating Score*3.8*(1,814개 리뷰)*\n이회사리뷰하기SK텔레콤은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*5.0**\n*4*커리어 향상*5*업무와 삶의균형*4*급여 및복지*5*사내 문화*3*경영진\n*View detailed rating*\n# “솔직히동종업계에서이정도로다니기', 'score': 0, 'published_date': ''}
+- {'title': 'SK텔레콤 채용', 'url': 'https://careers.sktelecom.com/skEnjoy/thumbUpDetail/70', 'text': 'SK텔레콤 채용\n\n# SK telecom\n\n메뉴\n\nSKT 소개\n\n- 이야기\n- 복리후생\n- 문화\n\n직무\n\n- Staff\n- Tech\n- [Infra](https://careers.sktel', 'score': 0, 'published_date': ''}
+- {'title': 'SK텔레콤 채용', 'url': 'https://careers.sktelecom.com/skRecruitStory/process', 'text': 'SK텔레콤 채용\n\n# SK telecom\n\n메뉴\n\nSKT 소개\n\n- 이야기\n- 복리후생\n- 문화\n\n직무\n\n- Staff\n- Tech\n- [Infra](https://careers.sktel', 'score': 0, 'published_date': ''}
+
+> 💡 **면접 활용**: 핵심가치와 일하는 방식을 STAR 스토리에 연결해서 문화 Fit을 증명해요.
+
+---
+
+## 5. 직무 분석
+
+이 섹션은 추가 데이터가 필요해요. (채용 공고 JD 수집 필요)
+
+---
+
+
+## 7. AI 전략 & 기술 동향
+
+
+
+
+### exa_tech
+
+- {'title': 'Open Source Portal at SK telecom - GitHub', 'url': 'https://github.com/sktelecom/sktelecom.github.io', 'text': 'GitHub - sktelecom/sktelecom.github.io: Open Source Portal at SK telecom\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide fee', 'score': 0, 'published_date': ''}
+- {'title': 'Open Source', 'url': 'https://sktelecom.github.io/', 'text': 'Open Source\n\n# Welcome to SKT Open Source\n\n가이드 보러가기 공개 프로젝트\n\nSharing Technology, Growing Together!\n\nSK텔레콤은 AI, Big Data, Cloud 등 다양한 분야의 기술을 오픈소스로 공개하고 있습니다. 개발자 여러분의 참여와 기여를 환영합니다.\n\n#### Technology\n\nA.X, KoBERT 등 SKT의 실제 서비스에 적용된 검증된 기술을 공유합니다.\n\n더 읽기\n\n#### Guide\n\n누구나 활용하고 함께 발전시킬 수 있는 SK텔레콤의 오픈소스 가이드를 제공합니다.\n\n더 읽기\n\n#### Compliance\n\n배포된 소프트웨어', 'score': 0, 'published_date': '2026-01-06T00:00:00.000Z'}
+- {'title': 'Open Source Projects | Open Source', 'url': 'https://sktelecom.github.io/project/', 'text': 'Open Source Projects | Open Source\n\n# Open Source Projects\n\nOpen Source Projects by SK telecom\n\nSK텔레콤에서 공개한 오픈소스 프로젝트를 소개합니다.\n\n오픈소스를 공개한 SK텔레콤 구성원은 다음 가이드를 참고하여 이 페이지에 프로젝트 소개를 등록 및 수정할 수 있습니다.\n\n- 오픈소스 프로젝트 소개 등록\n\n---\n\n##### A.X LLM Series\n\nSK텔레콤의 독자 개발 한국어 특화 대규모 언어 모델\n\n##### KoBERT\n\n한국어 BERT 사전 학습 모델 (Korean BERT pre-trained cased)\n\n##### KoGPT2\n\n한국어 GPT-2 사전 학습 모델 (Korean GPT-2 pretrained cased)\n\n##### KoBART\n\n한국어', 'score': 0, 'published_date': '2025-12-30T00:00:00.000Z'}
+- {'title': 'Welcome to SKT Open Source', 'url': 'https://sktelecom.github.io/en/', 'text': 'SKT Open Source\n# Welcome to SKT Open Source\nWe aims to help solve social problems and contribute to open source ecosystems through various\ninnovative technologies.\nOpen Source Blog**About**\n**\n## Open Source Projects\nWe find it is worth it to us to open source and share our code with open source communities.\nMetatron\n### Metatron Discovery\n[Metatron ', 'score': 0, 'published_date': ''}
+- {'title': 'Open Source Guide | Open Source', 'url': 'https://sktelecom.github.io/guide/', 'text': 'Open Source Guide | Open Source\n\n# Open Source Guide\n\nOpen Source Guides at SK telecom\n\nNOTICE\n\n오픈소스의 개방과 공유의 정신에 따라 SK텔레콤은 내부 구성원들을 위한 오픈소스 가이드를 누구나 활용할 수 있도록 공개하였습니다. (단, 사내 시스템 Link 등 일부 내용은 제외하였습니다.)\n\n## 들어가며\n\n`"If software is eating the world, open source is eating the software world."`\n\n오픈소스가 소프트웨어 세상의 핵심이 되었다는 것은 이제 설명하지 않아도 되는 당연한 사실입니다.\n\nSK텔레콤은 대부분의 서비스에서 이미 많은 오픈소스를 사용하고 있습니다. 이에 그치지 않고 SK텔레콤은 다수의 오픈소스 프로젝트에 기여하고, 주요 소프트웨어를 오픈소스로 공개하고 있습니다. 이는 오픈소스가 소프트웨어 개발 문화를 혁신하는 훌륭한 도구임을 분명히 인식하고,', 'score': 0, 'published_date': '2026-01-05T00:00:00.000Z'}
+
+> 💡 **면접 활용**: 기술 블로그 최근 5개 포스팅을 읽고 AI 전략과 기술 스택을 면접 화두로 활용해요.
+
+---
+
+## 8. 산업 정책 & 규제 환경
+
+이 섹션은 추가 데이터가 필요해요. (정책 뉴스·규제 동향 수집 필요)
+
+---
+
+
+## 10. 면접 준비 가이드
+
+이 섹션은 추가 데이터가 필요해요. (면접 후기·채용 프로세스 수집 필요)
+
+---
+
+## 11. 종합 판단 & 스코어카드
+
+### 스코어카드
+
+| 항목 | 가중치 | 점수 (1-5) | 가중점수 | 근거 |
+|------|--------|-----------|---------|------|
+| Job Fit | 30% | 3.5 | 21.0 | Tech stack data available |
+| Career Leverage | 20% | 4.4 | 17.6 | 17 data points collected |
+| Growth Potential | 20% | 4.5 | 18.0 | Financial data available; Strategy data collected; Active news coverage |
+| Compensation & Benefits | 15% | 3.5 | 10.5 | DART salary data available |
+| Culture Fit | 15% | 4.5 | 13.5 | Culture data from reviews; Exa deep search data; Blog/cafe reviews |
+| **총점** | | | **81/100** | 등급: **S** |
+
+
+
+
+
+### 면접 전 To-Do
+
+- [ ] JD 정독 및 키워드 매핑
+- [ ] STAR 스토리 3개 준비
+- [ ] 역질문 5개 준비
+- [ ] 기술 블로그 최근 5개 포스팅 읽기
+- [ ] 최근 뉴스 3개 숙지
+- [ ] 포트폴리오/과제 준비 (해당 시)
+
+> 💡 **면접 활용**: 스코어카드 점수가 낮은 영역일수록 면접에서 적극적으로 불안 요소를 해소하는 답변을 준비해요.
+
+---
+
+## 12. 핵심 레퍼런스
+
+| 소스 | URL |
+|------|-----|
+| naver_news | https://search.naver.com/search.naver?query=SK텔레콤 |
+| dart | https://dart.fss.or.kr/corp/summary.ax?cmpCd=00159023 |
+| naver_search | https://search.naver.com/search.naver?where=blog&query=SK텔레콤 |
+| brave_search | https://search.brave.com/search?q=SK텔레콤 |
+| community_review | https://search.naver.com/search.naver?query=SK텔레콤+잡플래닛 |
+| linkedin_search | https://www.linkedin.com/company/sk |
+| google_news | https://news.google.com/search?q=SK%ED%85%94%EB%A0%88%EC%BD%A4 |
+| exa_search | https://exa.ai/search?q=SK텔레콤 company culture engineering team work environment |
+| exa_search | https://exa.ai/search?q=SK텔레콤 business strategy growth AI investment 2025 2026 |
+| exa_search | https://exa.ai/search?q=SK텔레콤 hiring jobs career employee reviews |
+| exa_search | https://exa.ai/search?q=SK텔레콤 tech stack engineering blog open source |
+| credible_news | https://news.google.com/search?q=SK%ED%85%94%EB%A0%88%EC%BD%A4 |
+

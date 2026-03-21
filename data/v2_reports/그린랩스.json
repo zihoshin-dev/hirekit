@@ -1,0 +1,926 @@
+{
+  "company": "그린랩스",
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "(주)그린랩스",
+      "company_name_eng": "Greenlabs co., Ltd.",
+      "stock_name": "그린랩스",
+      "ceo": "안동현, 최성우, 신상훈",
+      "address": "서울특별시 송파구 정의로8길 9 (문정동, AJ비전타워) 3-6층",
+      "industry_code": "71600",
+      "established": "20170502",
+      "homepage": "www.greenlabs.co.kr",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "\"12만 명 해고 vs 552조 투자\"…빅테크가 그린 미래 - 테크42",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNbDM4MjFHcWNlcGRzaDZ4LWRqUC12T004QWJhZVRYbVVodTVfdWo3azNaNC1XWDE3NzlVaExtZDhqYkVWQXpKejFaaVVsTzJkQXF2N1dXbVFWOHQtVUFQMDFId1p5RVRHdGlYb1Nlai1NQlpXZ0U5eEkxMFRuT3pmbTR0SlpxTW42dDJHR3dIdGRmeEhkMHd4ZVR2ZjFfT2NRWmZMem1SeGMxTDY4eldQLWliZjVRaUxYMFpHTWJ4Y0xYWXo2bWxad0tVYlM1WVYyUVpXOE5fendfQjdIQVZzOFRvLUkwVmJ6UV8zVGxXckw2OHUzZDJzMGpKLWpvNVd4SWQwOEln?oc=5",
+          "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+          "source": "테크42"
+        },
+        {
+          "title": "日 공략하는 韓 AI 스타트업...키워드는 '협업' 그리고 '신뢰' - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VLUNqNGctUXJsWkJkV21kS0RkS2JEeDkyMDNRLTNaakphSHZYc2tlTEhfOUk0QTdxMXdGZ3BoWU1kNi1JRWdhZ0NaZUtibXdsR0p3WXZR?oc=5",
+          "pub_date": "Thu, 26 Jun 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "“3개월 만에 DAU 20% ↑” 딜라이트룸, 정인혜 CPO 영입 - 디지털 인사이트 DIGITAL iNSIGHT",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNQzdtYkJRTjVaRnNSZGtRNnRqOEJKMUlXOWZScnZqWW54RjBFdGhZSUE4T2NwLXpvbG9qeGJoY05jVEs0aTlqbkp3YnltcmwwMlhiTW9IQVl6YUhaQUVYekZxcUtKR1AzU2lCUEpyVkFSWGNMcHRrdWVBYm8wamV0eExHR2lsVjcxSm5UOENFcEZ6dmZ6bGF4NjJseGpsMVR6T2R0LTBQZ0hkUFU5d01fWTFHVU5FaTdYcjY0Y0k4WlBZaTgyQjV0SnB2cm92UTlsQzFkWk1TMlJlV3ZUOWZQXzRpNWRGSjlXTFkzS1dDR05CZ1E1aTVaWlUzS21tM18xUUpR?oc=5",
+          "pub_date": "Wed, 23 Apr 2025 07:00:00 GMT",
+          "source": "디지털 인사이트 DIGITAL iNSIGHT"
+        },
+        {
+          "title": "스타트업도 인공지능·빅데이터 개발자 영입에 '사활' - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1kVmEtLXRvaC1Dd3BkY1hwMUkxU2dTU1gxWlpsT3RaN21wRW02bVRNOEJpYTdWYlpaZFp6TU9CSGNIazJQYk9sUEdhU0pxZw?oc=5",
+          "pub_date": "Mon, 22 Mar 2021 07:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "그린랩스, 올해 신입·경력직 500명 이상 채용 - edaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcXZpN1p5UzVfNXhIbVZSNkdwbGhXaUQxZVZFU1dHdnZvVWF0MXU3V1BPcDc3MklmYkZzU1AwcWNRWGdvYXRmTWoxMDVLOENSMUFac0E0UGFPbXh1YWRoMTZqb1NNVVUweHhUUUFMR1hPSkdzSlB5SVV4cXY5M21NcQ?oc=5",
+          "pub_date": "Wed, 13 Apr 2022 07:00:00 GMT",
+          "source": "edaily.co.kr"
+        },
+        {
+          "title": "'AI 리걸서비스' BHSN, 대외협력 전문가 영입…SaaS 사업 강화 - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96d201bFB2ZmtxcEV1MkFxeXZFblg5dGxNSEV3OUR2WGQxUW8xX0RDSnl6MzJsdzdkMFJGSnBCZkpjaE9FOF9aSzVxMGFaVnJUTnh5QUdlei1QQXVKZVZTcW1rclJ4eFgwX2cxVg?oc=5",
+          "pub_date": "Tue, 19 Mar 2024 07:00:00 GMT",
+          "source": "유니콘팩토리"
+        },
+        {
+          "title": "고용 한파 속, 채용 플랫폼 작년 성적 비교해보니 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1keXFuZmtESkw2SExweVpwZm9iejJLcDBCdEJYQ1d2eGtDRFBpNEREWFh0QnVKS1VMREhMa1dOVHBpMmVGYmdJbl9VQVh1T2g1Rnc4RU9n?oc=5",
+          "pub_date": "Tue, 15 Apr 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "데이터농업 스타트업 그린랩스, 시리즈B 200억 투자유치...“빠른 성장세 이어간다” - 디지틀조선일보",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMWFLZndkRXFvSjgzd2hDZjJUbDI2aGZvNVYtNWstdm5DVFFaN3NJN0I5T2RfQ2tqbTRwYkdzMDB2bjZIVDlISnBSVi1XUm4zTU51RlYyMmRFVUtEQldiNl95V2JiZlpnNFR2VGFNenRsdVlaeFdHaUpLUTF2TU1seWQxdzc5LVHSAXtBVV95cUxQcHlGVlpGS3IyTkJ6UjdUYUgwOFZ2UUlKVmlYUUVjM3BqLXdTSlNwZG53aE1oWlFEODYzYklIcXlCbkptODJfenZuaU5zRXN1VDlyYkM4dWxTTHlCZFBldUtLRmU0N3FIS0U2bU5BbHQ3X0R0aHQ5SzVvaW8?oc=5",
+          "pub_date": "Mon, 04 Jan 2021 08:00:00 GMT",
+          "source": "디지틀조선일보"
+        },
+        {
+          "title": "[심용주의 농업 이야기] 농자천하지대본을 다시 생각한다 - Queen 이코노미퀸",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16QTd2LS1ZSnlEdkZwSjc4SllvRlhMSzFPcG5NVE5JM1hveXVaRmUwdkhIZHdmaFVRbVFVUWRxcDNPNzdlWGFOVUl2QXJPTVZVU1ZRdEtpdjhVU1V3eUVONjNtbjlKRHZmY1E?oc=5",
+          "pub_date": "Mon, 22 Dec 2025 08:00:00 GMT",
+          "source": "Queen 이코노미퀸"
+        },
+        {
+          "title": "매출 1000억·자본잠식 해소…그린랩스 '정상화 안간힘' - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PdjBOd3htaXBrQmJUN0hER1FNN19wSFcxellIYUtoQzhXd0hTcnRlNjBKeVN4ZWtMM2hzbWFCYTRyNEtIUmo0dzJULUxTUzlPY1V5eklFZ0gxcmU1eFlTbDhRalE3UmlES1E?oc=5",
+          "pub_date": "Fri, 04 Apr 2025 07:00:00 GMT",
+          "source": "mt.co.kr"
+        },
+        {
+          "title": "\"아직 안 끝났다\" 새주인 찾은 그린랩스, 데이터농업으로 재도약 - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KM19CdXFoQWs0RGpvS08zUHVEZUljV1dIMWEyUk93STNtQlQzRmJ2UHQ0MGtEb3pGRXF3NUJlX0JEUTgwaDM4TVFvLW16WHh5STBnanNRa0RJQTFRTHVJRTJuZDdOazNKTXZoag?oc=5",
+          "pub_date": "Wed, 03 May 2023 07:00:00 GMT",
+          "source": "유니콘팩토리"
+        },
+        {
+          "title": "KG케미칼-그린랩스, 스마트팜 사업협력 업무협약 체결 - 농민신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rOXpDOWp4Q2I2MjlXS29ZYjVVYWhtbE4teTQ4ZExCTU85bUp3RHExRXV1NmZlMG1yWTBmaDNXSzRNUDlFR0FYcEZVNzRZdVdRWjV1OTBBSEFLZw?oc=5",
+          "pub_date": "Tue, 08 Mar 2022 08:00:00 GMT",
+          "source": "농민신문"
+        },
+        {
+          "title": "그린랩스, 에코아이와 탄소감축 협력 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZWjQ5bWE2WlBZN2l5U0lmX0xQbUVxMHN0dXp4dUlIRDZKVHVyeXU3amFHY3NvYkc1R3hMS1I3Z0pJWWhaUUlEcHBydEhtTHBtQTFBQ0t3?oc=5",
+          "pub_date": "Tue, 21 Dec 2021 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "그린랩스파이낸셜, '전자금융업' 라이선스 받았다 - 농축유통신문",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjX3VFWjNIeG9zWll2czdqSWxVYmdiYkNiVndHbnh5d1lHNDNFcVVrbXlDUGlBWDVxQ21zNUhzd09YSVZ1eHRta2ZaNlhsTVhLazd1Z1A3MzJJSlZwQnZMZGR6X09QbU5Ka0E?oc=5",
+          "pub_date": "Thu, 29 Dec 2022 08:00:00 GMT",
+          "source": "농축유통신문"
+        },
+        {
+          "title": "내가 가장 궁금했던 트릿지, 그린랩스 - 브런치",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE85c3ZDeFU1eHNkb0ZwZElWWUpMZWtLa3BrM2JnR09oZnBZcldUMXhTUk0zcWVFSnI3TlVKbnhWRm1JQVNhVERIdHVoNA?oc=5",
+          "pub_date": "Fri, 21 Apr 2023 07:00:00 GMT",
+          "source": "브런치"
+        },
+        {
+          "title": "'구조조정 막바지' 그린랩스, 농산물 플랫폼으로 정상화 기지개 [긱스] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YWM4anJ4eFkyY2p3R3BPcHhoMjduR3ZqNlZ5TFdreGNQVEY1a09zeWFvSTlHaHZEMFlIZjRBeGpLeS1ObDFHWUI5ZjhoR3pqZ0RMNG5IUmdRUdIBVEFVX3lxTFBwQjljU1Zhc0lDTXVzTmlDdzZyWl9QWkNvcWtzQ0xZTVNFNUY2UjVGQzlOekIwNzZRX3FtRE54STVyYi1QQmFBcDhtUHVmek94WVZKeg?oc=5",
+          "pub_date": "Tue, 23 Apr 2024 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "굿닥-그린랩스파이낸셜, 농민을 위한 ‘비대면진료’ 사업 협력 - MEDI:GATE NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zVTI5Wk12aUhpMTExYWZEY3F1SXcwN0ZEZ0NwR1NpQy1SSE5VaUFFTHJlekVLeVY3RE9ualc2Ry1yNVFiMDI4QUNQeUZ5X29tYVRWTw?oc=5",
+          "pub_date": "Thu, 19 Jan 2023 08:00:00 GMT",
+          "source": "MEDI:GATE NEWS"
+        },
+        {
+          "title": "농사일, 데이터와 AI에 맡기는...애그테크 스타트업 '그린랩스', SK스퀘어에서 350억원 투자 유치 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5lQUZHN19GQ2pwVVIxWHluVjdPQzNSaUswd1dHc0NaQlVnczBrZFlIWjYzdGs3ckRFV2VGdGQ0X1dZY1RuOEhNTnEtWDZzYm0tM3pySzZhb2V6UGMzU2IwTUY5QVVKTXM?oc=5",
+          "pub_date": "Mon, 27 Dec 2021 08:00:00 GMT",
+          "source": "인공지능신문"
+        },
+        {
+          "title": "애그테크 스타트업 ‘그린랩스’, 200억 규모 시리즈B 투자유치 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9jX2VGQVo3aFRtY0FNcEhQUFlRb0gwYkQ5SEVjZk9jS29LVXlnd1VyNDhJZmhPY0xBR3haMU5jQ1kzUlJqekR2VQ?oc=5",
+          "pub_date": "Mon, 04 Jan 2021 00:50:44 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "날씨, 비료, 농약 다 담았다…50만 농부가 쓰는 이 앱 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OWHlhd0h3NU9LZkxjMTUzVTA4RWdxenVPTFh2LTMxemdiQXFWeE5TZTdaRU9wYzYyQlVOcUtQd2tnN3E1X0xfRDNKTXdKV21oeVdYQ1JB?oc=5",
+          "pub_date": "Mon, 17 Jan 2022 08:00:00 GMT",
+          "source": "중앙일보"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "HDC랩스, 베스틴 '2026 대한민국 브랜드파워 1위' 스마트홈 부문 선정 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfWEpQcFdKclQwcXJvWHpnMVViNmFUTldKT3Njak01dVp3ZGZUekV6TGpndW9kUWRpNHRNUk1iUlAtVjNobnpFcmdzUXlibDE5ZXdGVlM3TUNUczVNRE1qX1hfZ1I4dDdnaTB1dA?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:40:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "에스오에스랩, 메인비즈 인증 획득…'3대 혁신인증' 완성 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90cE5HRkhPZS1PdV80X2d4ZDAtVDV5ZVdCNzFSa2kyTk80a3UyY0VCeUYtYVhZWHU0RHNvZ1RsV0kteTI2UHBWSWhEa2dQSjJpRkJLcldXRy05QdIBVEFVX3lxTE9pNXNrUWtKZ3FvU3ZzakIxdkRESVJ5RHpyMkxvVTN4WE5wdWp6SlgwWldwSk9LNkQwaGwyRG5mRlR0WDg4Rk9XaXhwRVY3MU9DamtOSg?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 04:50:19 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"최대치 쟁여놓을래\"…스페이스X 상장 앞두고 개미 몰린 곳 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xOXZIaFQxamg0SjR1NUVGZlNPTnFIbldPRWlJVnJUQ25TTzdvdTZNSVNUSDR0eEtLRkFlaWdkalFxWU5yem1HTUVOeV9PUVVmTzBrS19iNEREZ9IBVEFVX3lxTE91YU9qbm5hNmxaRzRid1NRZzB4TWY2RFBqcTdzaU5Xem15TklKaGNkVFkycERfOEpRNUZ5LXpxOFptWHA1a1Z0NlRSM0x3Z1NtMlNURA?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 07:37:04 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "일레븐랩스, AI 에이전트 전용 ‘AI 보험’ 출시 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPd2thc041SjBtc3ZhTHJQV2dkaTJtTjRtVjhwZXdmZDAxVXJxTmlqSllIRm9SSDF6aTFWWktUdS1uWnVMYmZjQTVlZHA5QW1iaENUX2hCOGpWX3VvYzdMSjZPQmpnZVFXNmtNbF9TSUdjalkwLTF4YjlpQmxEd3hpWW5B0gGWAUFVX3lxTE1jU1g2ZmFKTFJaV0FOOFk2WkhpY2pZaEVsaGhLQVJoQllMR2dhckZNWEYyZVc2NkdJcU5UVTVqQUc3NDFleDBJbFpOcXJxMnhraXhqUExGYVhrRVVxZUpmWGJYWjRTcU5nSkhrQVluS1ZLQ3lrUllkb1hWcVBZLVpsM2E2TTg5RHF6Y3VfNHdNTUN3UHUtQQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 08:04:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "AMD 손잡은 네이버, 국내 AI 인프라 확장에 속도 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNamhCRkVidy1QWk5jX2NqMk55emhqTXlUVWhZR2FRTFp2U3JmZlN0dTd4V0JTUmZ6NUMtbTdnZGtJYUFOd3EtZDl4S1dPQ0Q2eXhmTldLNGMtX0RtRHpiUHFhZVhLQlluX1NIZV9LZGNHaURuM2dTUGoyS0tpcl8ta3FR0gGWAUFVX3lxTE92aDJuVzgyazdaYXBqandBWXdDRFF6RkVJajl5R3hNUjJTN2JvSUI2TUMyR2NNenVBNnZNdXhlcV9KdkoyZ3BGa0RDWHJRXzJXYkNVMmR6UGJFUnJPeGpQdWUtOEVXWHlLaC0yUDZiTWg2YXR2RzBGQzE1eTJUZlNyY3cwTVZSYkNSUE5tVi12eGlRSFBjQQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 06:33:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "대신증권, MTS서 랩 상품 조회 가능…“자산관리 편의 강화” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbU42OVRGdGFCQ1VJc0pqLUh4Q3U5NEI5eWV2NXF0M2oxcXJZdmdkMTVRQVNXTUhIbzh4WER5a21yODZHMWdVYXgyYk5fUXZWejgwV1EwZVh2cm5xT2dsSTBIams0Qmp5ZzJaeUFzYmxBT0hpakRTckpOcEUtLUVRRUY2WVBDRmhR0gGcAUFVX3lxTE1tUmpmZ3BpdldkY2dyMU02UlZTS1Myc0tpUnl5MjRYUGwzeUdoN0RDRU9nc1VuQkMxWVpNVEdTWE1hVHVFOWszYm1GX0VlVWdIem9oRGstaVFlMGtQQ1hwVzE3U1lGMmhjSThyNGVkeC1RelltU3djNEQwLVpLYTVvaDZfRlRxZDhwSmJ6R1liaHQ1SGNMSS1UcmRZNA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:25:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "코스피 상승률 상위 20종목(직전 30분 기준) - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSZmN2Tzg0anlnQVlUWDlfclBLQWNuXzA1SkpnWnBFQVJDWF96bjNhcVpIdW44NWVZNy1MS3ZwRHNVZ3d6NkZPX3dnaFVoZjZpT0E?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 01:31:09 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "오전장 기술적 분석 특징주 B(코스피) - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aYi02anNCWE50WEhBOUJWM1haT2NKMC1hb1U3cEN1blp2UmJ0ZzBlRGxNb3N2RE5pblBhYzF5SUdsc0x2NUo3dTBWb1VrNE1a?oc=5",
+          "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "90년대생이 그린 한국의 기억 … 해외 미술계 주목 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85YjhLU0x3V1BMeXNqcVlOY2NHNk9yaUdYbmVaMFhFaHpRS3A3cFNZZjk0bS1wbE1WTGpmbnUtcFZKSFpnc2duQ0wwemtjb054cVVDUw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:50:40 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "젠슨 황이 찍었다…네이버·트릴리온랩스, 'AI 주권 전쟁' 핵심 거점 부상 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kclFmVlBZcUZnMC1Cb3hkeGJHbDgtSDdqRlRlSkd6dWVjQWlzREFYNERNRGZjbWEwd2xCTE5FcHQwYlNyekNXMFZUSjdmdTUtVHhRd0h3?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 09:22:43 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "\"AI 실수하면 보상\"…일레븐랩스, 에이전트용 보험 운영 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YekpEMjhicmljY2x1Z0g0ejdUbm5oa0RyVm1wYTY5YzltbjViOHVwSlpTLTc4VHlMaGV2LWdwU1VEMEp3dngwM2YyQ0t0VEZwZ1RZaHBB?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 02:18:31 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[인터뷰] 라포랩스 \"AI 주도 개발로 4050 커머스 혁신…에이전틱 플랫폼 도약\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGT1oyYkVZSm5aaDBYSzFmQ3VJQnlLb1ZSVlRyU2RiamRNclJ0c0lNQ1g1aTRkRGZKUW1GZGh1aVRGVW1YT2x2Si1TQlk0TmlFQ2dWRHB3?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 04:45:08 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "서수경 스타일리스트, 뷰티 브랜드 ‘리리링’ 론칭…한일 시장 정조준 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16ZGltV2FvRVhjQ2lJeDZOVHd4b0ZNYk9UeHV0Wjh0dWc2MnFZWEtrelc1Z2loSW9iWEdfOW9OTW1vWkZZYjJOOHVDcVp3aFhzeWtuajlQMGVkQzJhOHNDck0xR2dHSC1z0gFsQVVfeXFMT3o2Qm8yeGhnOEExNmJ3dk1JempCSmhuM2h5eDVrcWtWcnpSWmhnQVNlX3NqUERBNXRKeW5tMUtQM1pXWHpnaF9vNG83ZGVORGVRVXNDNGthRVJfVjlBR3hpa0JTNF9UejhnNFpR?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 00:59:16 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "11번가 품는 SK플래닛, 통합 플랫폼 구축…재무부담은 과제 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5VWhmXzcyQWRjelJPNnRFN0xmSm1uSDZGaDl3T0cxOE5DUTk4Vk42UjBpdGlPY2FNRk45TG9zNUMtMWlkczVyYmZvVDMzUVhtWEFiWmhXeDg5ZGVTRmF5QjIxVTQ1M0lF0gFsQVVfeXFMUGdjR2xIcmI0eFJEOGNTUm5XUS1RVDBwVlBpOHFZNlNjaXpfazVCZGFhVDlCNWxidGhCREtnd2JFaDZUZjdxYUVTclo2cExoc05CVUQ5enBPNF8zYUFYa21zakFvRFQ4ckNaT3Vs?oc=5",
+          "pub_date": "Fri, 31 Oct 2025 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[VC 투자전략] '농식품 강자' 마그나인베스트먼트, 중대형 VC 도약 '청사진' - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUX0dieXZRUENLYzU4R3lDQXpRMHdnTXNjN3lhb0hzR2ZyLTRwdllsa0NTNGRvRjVBR2xNMFcyMTRIdlpuVEJucUdyY0lvUy1nWjl2QVFCcGJsNVhZZHFHU0hYdTdqOUd40gFsQVVfeXFMTWhXdFNVY2toOXpHSFItWTJMWWpZZlVsWUVPQnhueHVCcWlGWnU0SnhrZDBrSFoxWUhpb21SVklrTFFsNC1lR2FKUVcxTDZVaFdDY2JoeXQ1NFBTYWFEYVpRaTdISGFwUjhCNHRi?oc=5",
+          "pub_date": "Wed, 25 Jun 2025 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[지금, 농업] ① 농촌에 미래 세대를 기대할 수 있을까? - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IazVFeFhGTXJtR3dwWUJaWF9naXdRVFZOODZ6OHlfeWlpSHlVRV9DVHpONl8wZXdBc0k4NEMxZ1R3M2gtcTdQRTVsQmlUQVk?oc=5",
+          "pub_date": "Mon, 20 Jun 2022 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "[지금, 농업] ② \"세상을 먹여 살리겠다\", 엔씽 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11Zkh3ZUxJS3VTVXN3S1RFMXdTQ1pmRnhYTDZQbEpJdTVaZTI0TUhBbzUxN0FuVlo0NjJiUnBzMGowbjFCUV9aUmJwVnZTdFU?oc=5",
+          "pub_date": "Tue, 21 Jun 2022 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "네이버, 커넥티드 카를 위한 첫발 뗐다…IVI 시스템 AWAY 첫선 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1nN0JBbnc0MXBfRlAtM2czYlp1dHpFWUQ2X1VrXzVwcEN6OHFnT2ttcXJQWC1CMERhZ2JUQlVMTVhkUDZOV0NVYlc1UDA?oc=5",
+          "pub_date": "Thu, 17 Aug 2017 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "ANC 제주항공 최종합격생 합격 후기, 스펙!!",
+          "description": ":) 이번 제주항공 채용을맞아 제주항공 최종합격 후기를 또 가져와봤어요!! 비전공자에 아무런... 어떤 기업인 거 같은지 3-1) 사랑과 존중하는 기업문화 말고 다른 문화는? 4) 최근 관심 있는 사회 이슈 4-1)... ",
+          "link": "https://blog.naver.com/skykeycrew/224223237772",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "생존신고",
+          "description": "or커리크림우동 + 음료2잔 선택메뉴는 커리크림우동 나중에 ㅂㄷㅋㄹㅂㅇㅁ도 먹어봐야즤 ❣️후기... 교육희망동아리라는뜻)합격했어요!!!!! 면접은 언제나 긴장되지만 은근 그 긴장 속에서 말하는 재미가... ",
+          "link": "https://blog.naver.com/japchae_/224216584154",
+          "pub_date": "20260314"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "채용·연봉·경쟁률·자소서·필기(NCS)·면접 후기",
+          "description": "19(목) ▣ 일정 : 서류발표(3/27) ▶ 필기(4/5) ▶ 1차면접(4/20~4/24) ▶ 2차면접(5/11~5/14) ▶최종합격(5/22)... 한국산업단지공단 면접 후기 ▣ 면접유형 : 1차(PT면접 + 직무역량면접) ▶ 2차(임원면접) ▣ 후기... ",
+          "link": "https://blog.naver.com/baekgi0101/224214772426",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "2026 역사임용 합격수기, 함께 공부하며 만든 최종 합격",
+          "description": "63 심층면접 33.87 39.40 총점 160.270(컷-0.03) 182.330(컷+23.04) 안녕하세요, 저는 2026년 중등 임용 역사 과목 합격자 박00입니다. 저는 서울 소재 사범대학 역사교육과를 졸업하고, 2022학년도 시험에 4학년 재학 초수로... ",
+          "link": "https://blog.naver.com/myheeso/224213799353",
+          "pub_date": "20260312"
+        },
+        {
+          "title": "삼성웰스토리 2026 상반기 신입공채 완벽 분석 - 지원 전 꼭... ",
+          "description": "대기업 특유의 보수적이고 수직적인 조직 문화가 존재하고, 의사결정이 느릴 수 있다는 후기가... 합격자들이 공통으로 준비한 면접 질문 모음 취준생 입장에서 가장 궁금한 게 면접이죠. 실제... ",
+          "link": "https://blog.naver.com/cymmcymm/224211670069",
+          "pub_date": "20260311"
+        },
+        {
+          "title": "2026 역사임용 합격수기, F&amp;T성향 꿀팁!",
+          "description": "역사임용 합격수기, MBTI 꿀팁 공개! [2026학년도 역사 경기 합격생] #재수합격 #단권화체계 #F/T... 53 개별면접 39.47 총합 167.67 (우와 제가 약 26점을 올렸군요..) 보시다시피 첫 해 시험은 관광이었습니다 ㅎㅎ..... ",
+          "link": "https://blog.naver.com/myheeso/224212576248",
+          "pub_date": "20260311"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "2026 역사임용 합격수기, 스터디는 어떻게 활용할까?",
+          "description": "63 심층면접 33.87 39.40 총점 160.270(컷-0.03) 182.330(컷+23.04) 안녕하세요, 저는 2026년 중등 임용 역사 과목 합격자 박00입니다. 저는 서울 소재 사범대학 역사교육과를 졸업하고, 2022학년도 시험에 4학년 재학 초수로... ",
+          "link": "https://blog.naver.com/myheeso/224210251357",
+          "pub_date": "20260309"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "국회의원SNS소식20260321토요일",
+          "description": "전 세계에서 모인 아미는 평화이자 문화입니다. 질서를 지켜주시는 경찰과 모든 관계자 여러분이... 전체회의에서 복지부에 주식, 채권, 대체투자 부문장 신설 등 국민연금 기금운용본부 조직 재편 필요성에 대해... ",
+          "link": "http://cafe.naver.com/jungamironware/9266",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "충청남도보도자료20260320금요일",
+          "description": "본 포럼은 ‘2025-2026 한중일 문화교류의 해’를 기념하여 한국국제문화교류진흥원(KOFICE)과 공동 주관하여... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자... ",
+          "link": "http://cafe.naver.com/jungamironware/9239",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.466666666666667,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "복지",
+        "성장",
+        "워라밸",
+        "장점",
+        "좋아",
+        "좋은",
+        "최고"
+      ],
+      "negative_themes": [
+        "단점",
+        "야근",
+        "힘들"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "(주)그린랩스 2025년 상반기 채용 | 기업리뷰 309건, 2.8 리뷰평점",
+          "description": "(주)그린랩스 기업정보 - 장단점 키워드: 제공, 연봉, 직원 | 기업리뷰: 워라밸은 좋지만... 사업방향성을 모르겠는 회사 | (주)그린랩스의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 ...",
+          "url": "https://www.jobplanet.co.kr/companies/341521/reviews/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "(주)그린랩스 2025년 하반기 채용 | 기업리뷰 321건, 연봉정보 144건, 면접후기 161건, 복지정보 0건, 채용공고 1건",
+          "description": "- 2017년 5월 : 그린랩스 설립 - 2019년 4월 : 신용보증기금 퍼스트펭귄 창업기업 선정 - 2019년 6월 : 4차 산업 우수기업 농림부장관상 수상 - 2020년 1월 : 대한민국 상생발전대상 수상, 하이서울브랜드 선정 - 2020년 5월 : 시리즈 A 투자 유치 (65억 원 규모), 신용보증기금 혁신아이콘 선정 - 2020년 7월 : 팜모닝 서비스 론칭, 무료 농업정보포털 서비스 출기, 국가브랜드 스마트팜 부문 대상 수상 - 2020년 12월 : 시리즈 B 투자 유치 (200억 원 규모) - 2021년 3월 : 팜모닝 회",
+          "url": "https://www.jobplanet.co.kr/companies/341521/landing/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "(주)그린랩스 2025년 기업정보 | 162건 면접후기 2.9 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 2.9, 면접경로: 온라인 지원 68%, 면접경험: 긍정적 53%, 부정적 10%, 면접결과: <strong>합격 55%, 불합격 30%, 대기중 15%</strong> | 잡플래닛에 등록된 162건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/341521/interviews/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "그린랩스 대규모 희망퇴직? \"2월 입사자도 있는데…\" | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 | 잡플래닛",
+          "description": "그린랩스 대규모 희망퇴직? &quot;2월 입사자도 있는데…&quot; AD · 비즈니스 · 2023. 02. 09 (목) 12:29 | 최종 업데이트 2023. 02. 09 (목) 18:35 · #기업분석#컴타기획 · 공유하기 · 더보기 · 컴퍼니 타임스 · 뉴스 · 영상 ·",
+          "url": "https://www.jobplanet.co.kr/contents/news-4206"
+        },
+        {
+          "source": "brave",
+          "title": "그린랩스",
+          "description": "그린랩스는 농업 플랫폼 ‘팜모닝’을 통해 데이터로 농사를 짓는 시대를 열었습니다. 생산부터 유통까지, 농업의 데이터 구축을 통해 농민의 농장 경영활동을 돕고 나아가 농업 생태계 육성에 기여하고 있습니다.",
+          "url": "https://greenlabs.co.kr"
+        },
+        {
+          "source": "brave",
+          "title": "그린랩스 2023년 상반기 채용 | 0건의 채용정보 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/341521/job_postings/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "(주)그린랩스 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "description": "(주)그린랩스 기업소개 - 업력 : 9년차, 기업형태 : 중소기업, 업종 : 채소류, 서류 및 향신작물류 도매업 | (주)그린랩스의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 확인해보세요.",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/YXZWekdBZlgzMGhWSmY0YjlQTjMydz09/company_nm/(%EC%A3%BC)%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "(주)그린랩스 2023년 상반기 채용 | 99건 연봉정보, 5,351만원 평균연봉 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/341521/salaries/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "그린랩스(팜모닝) - 기업정보 | 투자, 매출, 기업가치 - THE VC",
+          "description": "그린랩스, 매스프레소, 마켓컬리, 뤼이드 등 코로나 시기 큰 규모의 투자금을 유치했던 테크기업들 중 상당수가 어려움을 겪고 있는 가운데 리멤버는 아크로부터 투자를 유치한 이후 3년 동안 빠른 성장세를 보여왔다....",
+          "url": "https://thevc.kr/greenlabs"
+        },
+        {
+          "source": "brave",
+          "title": "그린랩스 채용 2025년 기업정보 - 평균연봉 5,486만원 | 캐치",
+          "description": "그린랩스 초봉 3978만원, 그린랩스의 채용공고, 기업정보, 재무정보부터, 현직자리뷰, 면접후기까지 모두 캐치하세요.",
+          "url": "https://www.catch.co.kr/Comp/CompSummary/IP8045"
+        },
+        {
+          "source": "naver",
+          "title": "(주)그린랩스 2026년 기업정보 | 기업리뷰 341건, 2.7 리뷰평점",
+          "description": "장점 : 식권대장으로 점심 식대지원, 간식 많고 워라밸 괜찮았음. 단점 : 재직 당시 회사의 재정상황과 그다지 도움이 되지 않는 경력",
+          "url": "https://www.jobplanet.co.kr/companies/341521/reviews/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)그린랩스 2026년 기업정보 | 164건 면접후기 2.9 면접난이도",
+          "description": "(주)그린랩스의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 2.9, 면접경로: 온라인 지원 68%, 면접경험: 긍정적 53%, 부정적 10%, 면접결과: 합격 55%, 불합격 30%, 대기중 15% | 잡플래닛에 등록된 164건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/341521/interviews/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "그린랩스 2026년 기업정보 | 196건의 복지정보 0 전체 복지 통계",
+          "description": "그린랩스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 196건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/341521/benefits/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "그린랩스 2025년 기업정보 | 192건의 복지정보 0 전체 복지 통계",
+          "description": "그린랩스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 192건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/341521/benefits/(%EC%A3%BC)%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "스푼랩스 2026년 상반기 채용 | 41건의 복지정보 0 전체 복지 통계",
+          "description": "스푼랩스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 41건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/78061/benefits"
+        },
+        {
+          "source": "naver",
+          "title": "스푼랩스 2026년 상반기 채용 | 41건의 복지정보 0 전체 복지 통계",
+          "description": "스푼랩스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 41건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/78061/benefits/%EC%8A%A4%ED%91%BC%EB%9D%BC%EB%94%94%EC%98%A4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)그린슈타인 2026년 기업정보 | 기업리뷰 20건, 2.3 리뷰평점",
+          "description": "장점 ; 점심 식대 지원 (건물 내 한식뷔페) 야근 수당 지급 밀리지 않는 월급 자사제품 직원가 구매 가능 업무 스펙트럼 넓힐 수 있음단점",
+          "url": "https://www.jobplanet.co.kr/companies/353618/reviews/%EA%B7%B8%EB%A6%B0%EC%8A%88%ED%83%80%EC%9D%B8"
+        },
+        {
+          "source": "naver",
+          "title": "(주)그린테크 2025년 기업정보 | 0건 면접후기 0.0 면접난이도",
+          "description": "(주)그린테크의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 0.0, 면접경로: 기타 0%, 면접경험: 긍정적 0%, 부정적 0%, 면접결과: 합격 0%, 불합격 0%, 대기중 0% | 잡플래닛에 등록된 0건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/266617/interviews/%EA%B7%B8%EB%A6%B0%ED%85%8C%ED%81%AC"
+        },
+        {
+          "source": "naver",
+          "title": "(주)스타랩스 2026년 기업정보 | 기업리뷰 62건, 2.2 리뷰평점",
+          "description": "(주)스타랩스에 올라온 새로운 리뷰예요 ; 장점 : 회사 위치가 역삼역에 근접하여 출퇴근이 편리했습니다. 단점 : 3개월은 무조건 계약직으로 근무해야하여 의문스러웠던 와중에 아래 리뷰들을 살펴보니 근무자 상당수를 해고함으로 법적인 문제가 없도록 방지하는 방법 일듯합니다. 입사 첫날부터 대표자와의 술자리에 초대 받았으며, 말로는 술 강요가 없다고 하지만 현실은 술...",
+          "url": "https://www.jobplanet.co.kr/companies/337582/reviews/%EC%8A%A4%ED%83%80%EB%9E%A9%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "그린생명과학 2026년 기업정보 | 16건의 복지정보 0 전체 복지 통계",
+          "description": "그린생명과학의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 16건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/7456/benefits/%EA%B7%B8%EB%A6%B0%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4/review/Pg8Ysvu2_A",
+          "text": "블라인드 | 그린랩스Reviews - &quot;성장 경험이나중에내커리어에큰자산이될곳&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인그린랩스\n그린랩스*Rating Score*3.0*(445개 리뷰)*\n이회사리뷰하기그린랩스은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*5.0**\n*5*커리어 향상*5*업무와 삶의균형*3*급여 및복지*2*사내 문화*4*경영진\n*View detailed rating*\n# “성장경험이나중에내커리어에큰자산이될곳”***V",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4/review/kG1nacHHw",
+          "text": "블라인드 | 그린랩스Reviews - &quot;정신없는 스타트업을경험하고싶다면추천&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인그린랩스\n그린랩스*Rating Score*3.0*(445개 리뷰)*\n이회사리뷰하기그린랩스은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*1.0**\n*1*커리어 향상*1*업무와 삶의균형*1*급여 및복지*1*사내 문화*1*경영진\n*View detailed rating*\n# “정신없는스타트업을경험하고싶다면추천”***Ver",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4/review/EgP8At0d0B",
+          "text": "블라인드 | 그린랩스Reviews - &quot;커리어에 변화를원하고경력을쌓기에좋은회사&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인그린랩스\n그린랩스*Rating Score*3.0*(445개 리뷰)*\n이회사리뷰하기그린랩스은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*5*커리어 향상*4*업무와 삶의균형*4*급여 및복지*4*사내 문화*4*경영진\n*View detailed rating*\n# “커리어에변화를원하고경력을쌓기에좋은회사”**",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4/review/m1F6d0qnz",
+          "text": "블라인드 | 그린랩스Reviews - &quot;스타트업에 맞게일하기좋음&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인그린랩스\n그린랩스*Rating Score*3.0*(445개 리뷰)*\n이회사리뷰하기그린랩스은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*4*커리어 향상*3*업무와 삶의균형*2*급여 및복지*2*사내 문화*3*경영진\n*View detailed rating*\n# “스타트업에맞게일하기좋음”***Verified User*현",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4/review/VQduLGxbwcS",
+          "text": "블라인드 | 그린랩스Reviews - &quot;투자를 위해그럴싸하게만든회사&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인그린랩스\n그린랩스*Rating Score*3.0*(445개 리뷰)*\n이회사리뷰하기그린랩스은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*1.0**\n*1*커리어 향상*1*업무와 삶의균형*1*급여 및복지*1*사내 문화*1*경영진\n*View detailed rating*\n# “투자를위해그럴싸하게만든회사”***Verified Us",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "경기도, AI 9대 전략 ‧ 52개 주요사업 발표… AI 글로벌 생태계 1등 목표",
+          "description": "주요 사업 52개를 추진한다. 도는 ‘AI 비전 및 9대 전략’에서 ‘AI 휴머노믹스를 통한 포용·공존·기회의 경기도’를 비전으로 제시하고 산업, 도민, 기반 등 3개 분야에서 9대 AI 전략을 기반으로 한 52개...",
+          "link": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=s017&number=65686",
+          "pub_date": ""
+        },
+        {
+          "title": "AI는 탄소중립에 도움이 될 수 있을까? : 그린 AI 성장전략 세미나 - 국회도서관 국가전략정보포털 - 대한민국 국....",
+          "description": "AI와 기후: 대안과 정책 56 [토론 1] 그린 AI 성장전략 / 이효섭 63 [토론 2] AI는 탄소중립에 도움이... 「전기사업법」에 따른 전기사업(발전사업ㆍ전기판매사업)과 전력거래 70 4. 전기요금제와...",
+          "link": "https://nsp.nanet.go.kr/plan/subject/detail.do?nationalPlanControlNo=PLAN0000052799",
+          "pub_date": ""
+        },
+        {
+          "title": "그린랩스 분석리포트 2023 ver. - 실전형 기업분석",
+          "description": "분석리포트를 가장 잘 활용할 수 있는 방법 기업이 공식 발표한 사업보고서, 보도자료 등을 활용해 신뢰도 높은 최신 정보를 제공합니다.",
+          "link": "https://www.catch.co.kr/Comp/AnalysisCompView?ID=2127",
+          "pub_date": ""
+        },
+        {
+          "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+          "pub_date": ""
+        },
+        {
+          "title": "박진호가 만난 TREND LEADING COMPANIES(1) 신상훈 그린랩스 대표",
+          "description": "어떤 서비스나 플랫폼을 내놓든 사업 영역 안에 있는 사람들을 유저로... 있는 그린랩스. 새로운 방식으로 농업에 디지털 바람을 불어넣고 있는 이들의 전략은 그야말로 성공적이다. 매출액은 2019년 93억원에서...",
+          "link": "https://www.forbeskorea.co.kr/news/articleView.html?idxno=335138",
+          "pub_date": ""
+        },
+        {
+          "title": "[그린랩스] 사업전략(1~8년) 채용 공고",
+          "description": "사회와 국가 차원에 임팩트가 거대하고 가치가 큰 문제들을 해결하고 있는 그린랩스와 함께 미래를 수확하세요! [직무소개] 사업전략팀은 90만 회원 농가와 바이어를 연결하기 위해온/오프라인을 넘나들며 다양한 사업을 기힉하고 개발합니다. 농산업의 디지털 혁신을 주도하는 전문가 집단입니다.",
+          "link": "https://www.wanted.co.kr/wd/233899",
+          "pub_date": ""
+        },
+        {
+          "title": "경기도, ‘AI 비전·9대 전략’ 발표…AI 글로벌 생태계 1등 목표",
+          "description": "위해 ‘AI 비전 및 9대 전략’을 발표했다. 도는 비전으로 ‘AI 휴머노믹스를 통한 포용·공존·기회의... 위한 AI 챌린지 프로그램(23억원), AI 기술기반 노인돌봄 사업(10억원), 대한민국 AI 국제영화제(8억원)...",
+          "link": "https://v.daum.net/v/20250423093110360",
+          "pub_date": ""
+        },
+        {
+          "title": "[그리니인터뷰] 모든 사업의 중심에서 혁신을 주도하다: 그린랩스 리스크관리팀 : 그린랩스 구성원의 소식",
+          "description": "리스크관리팀은 회사의 &quot;문제를 발견하는 탐정&quot; 같은 역할을 합니다. 신규 조직으로서 프로세스를 만들어가며, 사업의 숨겨진 가능성을 발굴하고 개선점을 찾아내는 데 주력합니다. 안녕하세요! 저는 그린랩스 리스크관리팀에서 사업의 전 과정에서 발생할 수 있는 이슈를 파악하고, 더 나은 결과를 도출하기 위해 노력하고 있는 온한얼 입니다. 우리 팀은 사업의 성공 가능성을...",
+          "link": "https://blog.greenlabs.co.kr/greeny-stories/?bmode=view&idx=140111210",
+          "pub_date": ""
+        },
+        {
+          "title": "[스프] &quot;목표는 글로벌 농업 소셜미디어&quot;",
+          "description": "저희는 '지속 가능한 방법으로 인류의 먹는 것을 해결한다'는 비전... 이걸 어떻게 해결해야겠다는 전략을 세운 건가요? 그린랩스 신상훈... 농장은 어떻게 보면 그냥 하나의 유기체가 아니라 어떤 사업체...",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1007021893",
+          "pub_date": ""
+        },
+        {
+          "title": "경기도, AI 9대 전략·52개 주요사업 발표…AI 글로벌 생태계 1등 목표",
+          "description": "경기도가 인공지능(AI) 기술을 활용해 미래 산업 경쟁력을 확보하고 도민 삶의 질을 높이기 위해 23일 ‘AI 비전 및 9대 전략’을 발표하고, 이를 실질적으로 뒷받침하는 2025년 주요 사업 52개를 추진한다. 도는 ‘AI 비전 및 9대 전략’에서 ‘AI 휴머노믹스를 통한 포용·공존·기회의 경기도’를 비전으로 제시하고 산업, 도민, 기반 등 3개 분야에서 9대 AI 전략을 기반으로 한 52개 ...",
+          "link": "https://www.newsro.kr/article243/892912/",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "매출 1000억·자본잠식 해소…그린랩스 '정상화 안간힘'",
+          "url": "https://www.mt.co.kr/future/2025/04/04/2025040410175898350",
+          "text": "매출 1000억·자본잠식 해소…그린랩스&#039;정상화 안간힘&#039;\n## 머니투데이머니투데이 로고\n* MT리포트\n* 증권\n* the300\n* theL\n* the바이오\n* 유니콘팩토리\n* 로그인\n* 회원가입",
+          "score": 0,
+          "published_date": "2025-04-04T00:00:00.000Z"
+        },
+        {
+          "title": "그린랩스, 1700억원 투자유치.. 글로벌 본격 진출 - 와우테일",
+          "url": "https://wowtale.net/2022/01/17/32882/",
+          "text": "그린랩스, 1700억원 투자유치.. 글로벌 본격 진출 - 와우테일\n\n안녕하세요. 스타트업 미디어 와우테일 편집팀입니다. 당사는 올해 경기콘텐츠진흥원의 ‘판교경기문화창조허브 입주기업 마케팅 지원 사업’을 운영하며, 경기도내 유망 콘텐츠 기업을 투자자를 비롯한 스타트업 생태계에 소개하고…\n\n안녕하세요. 스타트업 미디어 와우테일입니다. 와우테일의 대표적인 IR 데모데이 프로그램인 와우데이(WOW DAY) 9번째 행사를 개최합니다. 최근 정부는 지난 9월 초에 ‘K-바이오 글로벌 5대 강국’…\n\n안녕하세요. 스타트업 미디어 와우테일입니다. 와우테일의 대표적인 IR 데모데이 프로그램인 와우데이(WOW DAY) 8번째 행사를 아래와 같이 개최합니다. 와우데이는 당사가 인터뷰했던 팀을 오프라인에서 투자자에게 소개하는…\n\n안녕하세요. 와우파트너스 투자팀입니다. 와우파트너스는 지난 2월에 액셀러레이팅 프로그램인 와우넥스트(WOW NEXT)를 런칭하고, 공정한 심사를 통해 지난 4월에 첫번째 배치에 ",
+          "score": 0,
+          "published_date": "2022-01-17T00:00:00.000Z"
+        },
+        {
+          "title": "그린랩스 1700억원 규모 시리즈 C 투자유치 | 마켓인사이트",
+          "url": "https://marketinsight.hankyung.com/article/202201187468i",
+          "text": "그린랩스 1700억원 규모 시리즈 C 투자유치 | 마켓인사이트\n\n# 그린랩스, 1700억원 규모 시리즈 C 투자유치\n\n입력\n\n수정\n\n기사 sns 공유\n\nURL 공유 메시지 공유 페이스북 공유\n\n엑스 공유 네이버 공유 밴드 공유\n\n인쇄 글자 크게 글자 작게\n\n이 기사는 ",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "그린랩스, 1700억 시리즈C 투자 유치…창업 5년만에 유니콘 앞둬 - 전자신문",
+          "url": "https://www.etnews.com/20220117000026",
+          "text": "그린랩스, 1700억 시리즈C 투자 유치…창업 5년만에 유니콘 앞둬 - 전자신문\n\n과학 바이오\n\n## 그린랩스, 1700억 시리즈C 투자 유치…창업 5년만에 유니콘 앞둬\n\n발행일 : 2022-01-17 09:42 지면 : 2022-01-18 12면\n\n공유하기\n\n페이스북\n\n[X(트위터)](https://www.etnews.com/tools/redirect_sns.html?p=twitter&pos=2&url=https%3A%2F%2Fwww.etnews.com%2F20220117000026%3FSNS%3D00001&text=%EA%B7%B8%EB%A6%",
+          "score": 0,
+          "published_date": "2022-01-17T00:00:00.000Z"
+        },
+        {
+          "title": "마그나인베, 스마트팜 스타트업 ‘그린랩스’에 후속투자",
+          "url": "https://marketin.edaily.co.kr/News/Read?newsId=04254166625733496",
+          "text": "마그나인베, 스마트팜 스타트업 ‘그린랩스’에 후속투자\n\n인기기사\n\n1\n\n트렌드 아담스 스트리트 파트너스, 아시아 IR 대표에 조성우 한국 대표 선임\n\n2\n\n투자 \"11조원대 빅딜\"…아주IB투자, 美 바이오 투자 ‘잭팟’\n\n3\n\nM&A 논란 떠안은 EQT의 결단…더존비즈온 공개매수로 리스크 털기\n\n4\n\n투자 \"투자 수익률 1400%\"...한국성장금융, 퓨리오사AI 투자로 ‘잭팟’\n\n5\n\n투자 [거래는 버텼지",
+          "score": 0,
+          "published_date": ""
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Exclusive: Bridgewater's chief scientist Sekhon to join Google's DeepMind AI unit - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcHoxWWEtRHhLNXJwOUcyY3R3ZDFvYUtXTEllSnpYcldXbmM3WXpIQWgyTkluTmRQOUxZYjM1OGl1QTI1czE4aUt5b2VNZ05tbU82VEdTQnp6U201UFJXSlAxT1YwcjNpTHJCR2pKTkZrZHFBVk5wcEd1TXNpcDdKSWFMZVloTjdPcnlfVEtQWXpSWExtQ1A3VkxPbGRkeTl6SXB4SVNURkk4dlFXbXZCWk04R3hGX29xa1E?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 22:55:44 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "US Postal Service to ask Congress for urgent reforms to survive 'beyond next year' - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOekwxbktqSUtWMEdCYmFxRklUbER2dU9WMjRuOWhFSVlXOXp3ZlpYNDJJVG1RR1RPbWRmNWUyTTRzQ1JzaUJDZmtVWGdEQXRsdDZja3VCWjEtRllPSUFkVkdrNThKeFBUc1lyY09WVm9RbFg0SjdxYlNRSnRNakhpNzRFeG1lX0JjeUVweTFhX1VBem1na1pRQml6S0lab1F6SUUxSURhR0hSclF0MFcyRVBlX2txbXVMWWQyeXJ2SXQ?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 13:53:10 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Trump calls for allied warships after Iran threat to retaliate for US attack - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRW1mNms0NWp5clJ0VVQyUDk3dDVfTXEwUUxpWDhNQUFtb0wyNVZ6WXM0MVhrd2NJanVtZUxsQTFrQ2xxcWxSUldqQUZLQm9MWTVRR2ZJOEpmQ2JkaEFNYS04Q0N5WlFTUXFOc0VhMGlicFFKMlRiSlU5eENvRDRJZWVMblZ4ekNPYkhYamVhTHZtMl93QkhEQVlEVVJ2WHQxMnlzQW1ob05QczNiNTVTdlpoQThCbmEwNkNzYnlwYnhwRExWOF9Ta000VVI?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 02:15:59 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Ex-Datadog Leader’s AI Startup Nabs First $49 Million Funding - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGVqUTI1dnN1VnhVbFhQLTJ4YXlaOTdub1dpRGJJZWJoWU5YSzlZeTZ3ZlBsTGV6bWhyTHZTUkhzSG5YN2dBbjcxWXFkSUFYOFpzWGJ4TVh4c1dlSHh0aXVSaUNJbGI5ZDZ5REV6Z293VTN3cmV2LURPVXFLRVlJOV9nT0Vfb0NmNm82aE11NFVqVW5HaGN5RkZ2OXZBR3BjTFRWME9jSUxWUzFlZ0FsVg?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 12:00:02 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Anthropic, OpenAI Talk Safety. Their Headcounts Don’t - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVWZOLS1IZm5wNG5HNXBOWDhNNXlIN3M5YVpNMDZwXzBRQlFqYzdKMXhveUtIRm5OWUx6ZFNic1J2Uk5EUFJ2Nk9TR0RLeUpYaXZKeGVzUXFDVFhHTzY4RUYyYWZnNXVwSGd2dGdFQVc1MzdIZGR1azcwNW9SVldzMVBVUWMtMUZtdHBJVzhaMGM5TnIxeE1aNjFlQjhacDFMUTRVX2RsZDlNTG9Ra1VMWnFZalBVWVBuSUF1OHdhczlzeG1HRVFz?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 05:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "People Are Using Claude to Do Their Taxes (But Maybe They Shouldn’t) - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdEt3bXpuWXdhaVd2SGdzWEUwU2ZwdDNwTkl2YWUtNlpzbGtLWjAwUThSQkNmbHctRm1pTDBxNFpHM04wbkkycGE4M3QtRUcxOG53UkFkZTN6V0gtYzl3aklPd1JXMHVrdC1iVDUtUmJhRk8xNXZqYXQ1anZrRkE2NzNiS2Y5cW5OcmpiM1NPcTllQmUwLXBqRFM4Y2xkVHc?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 10:30:02 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Meta decides not to shut down Horizon Worlds on VR after all - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMVl1cWVUZmtqaGNfdlZka25xUWJnX2U5MWNvUWozVTgzNmdSM1NWcVlmV1A3YzhMSktVT0M1VlU3RlZEV3Q4V2RLVlg1WGc1cUhGU09FVG1hX1BjV1hfYTZXdkE3WnVsN1JKWWVneC1LdjhFbGVreVNpdTE4QW56OUNIOVJ6R29GeE1GVmlzQWxDeUlOalNpUHR5cw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 15:36:32 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Jeff Bezos’ Blue Origin enters the space data center game - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNElNWC00ZURnclFrVWRJVkstb0dfQ0FWdjh5d2VEb3loLWVNSE1HYi16bWtBeXBvR0ZOMlhUcXdYcDNicDdObFNJdWNBakFPYmRZRVVRQ05zcDlvRjBsb1daMkdWazJNYWx1Ym9yRVZ6Q3RscmVUNmVxYkh2RnVwakhvWWF1dHVxYkUxejQyQUcwXzlsMnc?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 16:27:43 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Mave Health aims to improve attention and mood with its brain-stimulating headset - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS1FNTkJRV2h4RHE1cmpIdWxsQ05CWlFfUnlhZnNlMFZIXzd1RFpDYmlWZGFVaWVxaEhJb1BSY0laenZ1VXBjMTVmaWNJSExhMG5HMlctd21tUnN1RlM5bWtNMG4wUnZvSVBGdXJudVZCSTJqbWJGUnVmRXpqeldhaWR3TnA4RnRadEtVNHRjOWtsRWpQc2RZV3JwNDhmLUpDNUkwdkpRMHNod2Etd3JvOUc4RmYwWEE?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 12:54:43 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Exclusive | Meta to Create New Applied AI Engineering Organization - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxNLWpYenQ0MnIyenRhdVE4Z2lSYWFRTG50M0ZCQy1EbVBMa1JuSzIwczhOR0N3MXV4ZzRUZzNWdC1ZcmNtQWFNVTVCcktjTzBLdDJ4RFdGWHQ2eDNqcTZmUVJCRHY0d3JQZ1VMNHB3VWw3cW1HNWpPa0F1NUJHWGFKV0JzckFUZ0FlWWx2M2NKQkdrd1VHN2VtT2ZuLThleFBaMnhuMkpJR2pVbWhqeDRUWkZuWmUzNVlIQVVGUGxDckhkUlBCMGM0TFg5QXN6RDJ0YUdoSXFKUmdsUDktM29ZS0hPUTlYMi1GajNLblUzQXd0NUJXZk5ETFludV83aDRkR2RpdFRPNzBvUlZJWXUyMjdwUXlsemQ2aVZ2WWs1Z1B3NXpfREtDRW1PZkZzU3BSYjVOQlVLZVNpRnA4cGNDTkpuZlNRZ0ItN2QwN3lBM1VUbXowQXQxVUtQSF9WazFHR2VlV0tlM29QWVFxNGlmZ2FSMUwzUWZ3QW1oelpmQ2g5SlBpMDlaYmNZRDFNdEEwaE1XUHFCdGIyRmJGVTJaclUwcy1WUGw5eEgzcWczUkRZQ0YwY3BoTEFJU0M?oc=5",
+          "pub_date": "Wed, 04 Mar 2026 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "For Satellite Startups, War Pays Better Than Climate Change | Climate & Energy for March 19 - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMisANBVV95cUxOaEVqLTltOTc1ZE9rWF9Vd1dPVm1JRjdOMzdzZVBFSUR4dEZFYmhmUEtUbkxlRjVpMFN6R1l1Nk5nY1VQWWlzSmI0Q2p2MjZDcmVCOEtOUDBOVGtxd3lWWHd0b3NKU095NWwyZFlXdVlLUEJabWI4LVp5M2FjZzN3VDhKNUlPdGdCeDVGQXhlWHoydjdwUzdyTERrdHR1a0JoVkpQQmswYzBTcVRjMjBMU19ud29pQ2xMNHcxZ0NkZ0prTmdrUVJqTU5MSWtUZGVSWHpRQzNfZ0tWSGNYVzBOWWNOM0J2UjBFWGhINXZLaC1zRzJ0S3ZfTDZwY2Q5VWFPMDVoc3lnYzd1REVFYlc3c05VWi03RFFhTmNFVVBoMThtNURRODYxNE84MDB0RS1ESU5aVElJUm9obm9sVzZ3dWJsY1hRWVRXWmc1NjE2Z1lqMHFSWEZmY2s1RmVqNGM4cTBuRmhuZjlQRlhGdVNqaUZjb0hXdmJfN0VDOG1zQXNSMXk3MjFZeHl0WVo2SU1reGhvRFhtV2dnSDM2X3JhUjVqNm1NdWdoVUI3akIwSFY?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 14:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Exclusive | Jeff Bezos in Talks to Raise $100 Billion for AI Manufacturing Fund - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMitwNBVV95cUxOS25BSTEzd1llVVRXNk9DcVd0Z0tuQ2RhbHNLR2dEeGg5Z0VfalZKam90OE8xRHNacERDODcyUXYxemhMOENPUU9ibDJCRDJXQV9ETE15cWFIMVlrdTRvMXY4TlFvemxqY3hWTVlmd0NUZnk4MTBFY3RwU0g4WDdKeHhldEdhQUoxSTJvUFhnTDlmYnQ0UXdWNEdQcUtFV2YtOTYwa3ZzU1hUVEU3SDQtalJURk9kMmRYM1Jhb1NMVmJiZWdEZ0FtcTRHMmxacXJrWVZ2eUpvX0s2enVNaWRHd19oemVaUjdhSWpma3pvZmlfejdpcGZKOXRmdXItZE1ySEFaZUszSUVZaDFUTnhuQmpNLUhpdVRfeW9oSVJKNEJZSzFzMGJlci1yb0t6MWdvUnlLWGhtMnVvSmZGVlNvcjVUbG5FN3JybDJmVDRSOTdhODdXbTR0UDh0Umt2Q2xvaXVLYzBpNmJ0TjJMY2plRDA0dWliTlJiNGZlQ2lJRlFTcUNhNTlDc2ktSWJIY0swaVViTEp6T2FQS0tkeTZMY1VtRGZaVF8wUER3Q2ZZbExKbU8yOE1r?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 19:42:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Inside the AI labs training China’s humanoid robots - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmRNYm9fS2MwUzU1Q3FPV2lWVWtxZTl4elplWHNCQzJuSWtnemJ3V3RINDQ4YkZSYUM5dDVwbnFxWEVZenR4ekViU1drZ3Fqa3JFS1hFZkdqNkJ0M2U0Vzl3WG5Xc1lWREc5bC1GaFZkdnRiWXRySHgzdk9OZUxtM1JlNmw?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "The ‘great sucking sound’ of AI brain drain - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTHlFQkptNE1aN05fYW5MQkt0Sm9yS2xOZFNwYlItR19MRHVqbXFUQzZjVUlwakZzRlZuMHBhcGZpTDZjVlhqdGsxOVBxOEhZbDlrODdNaWs1QW1ucE1kdW80WUwzQkthb1FROVRrU0ktU2s2YXAzTFdTYzRwMThEQzhZMDA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 12:36:14 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Donald Trump urges narrow AI regulation amid fierce Maga backlash - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb0thQV9uN3g1cTdueWtfVmVDUHhQdkxRdFV2ZEJ5TWVRdDFZeXJ0NDlJejdYNm9nLVlYYWo2dTJ3WjBMNmJ1RWMtdkxxd2h1YWlPRjZ6SHVPd0tYTTJQZGZ6Q3JIRFpGSFVWQXpVTnVRVV9iWTk0b09NbjJUWUMxZHczYlM?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 15:41:37 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "China's state-backed labs provide a lifeline for U.S.-blacklisted chip suppliers - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQakMyTEdQM01ISW9YdEI0WlVlMF9xblRSUV9fWmFQcFBhM3BvNVpLNEZ5bmdqSTJtWV8tQWdJWVhpbm1rS3Q4S0UxR0Fwcl8tWHpKenlLRFhjSjRUbjNBcy00ODZSbGs5MUVSeE93ZnZQN2dFcUtlMjB1ejBDVHI3a2pCQVlZQ05CWlJSWnFFaDVyaUt6LWFuLWgwb3VteFp0V0s4ZU1yLTUxYy0xeC02bjFiNjlRdVpjWWpSU0ZTaFZsUnFrbGsyQlF2V3ZxUXM?oc=5",
+          "pub_date": "Wed, 05 Feb 2025 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "China's 'lifeline' labs and rich Asians' crypto craze - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNHp1ZU1XeFdZTWt0dHF2M3Zqa2RYVV8tSXRrR1NDN2s0SVpwdUlTc0xSdWpYZDI2bDVPUGw4ejlWcGRSMUQxdk9ZYy01aC1sUkhaS01YZUFqUFRjZm5oSTVFY3BEWU5WZVp0TVJsVHZreGNmSzFPZWs0VThzQVcwTVR5UlplOVZRR1BF?oc=5",
+          "pub_date": "Thu, 06 Feb 2025 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Australia and Singapore AI startup Cortical Labs raises $10m - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMlotYkNxaGZIN2F4VVB3OFNza2RxV1Ytdk9zLV9kR2xaUUpQeHF3NjFuRU40RTdwOXVRTm9yME5Nc1NKNnlUMDFWcUFRUWFYOXpGQktvUjFWeWRaNU5jQ0xtUjJ3QWtPSG0xSmRHRXFZdFNKWTF6ZzdjZmI3b1VWaU1zLUR6Ul9NT2xPbWk5dy10ZU5fTTZwaDVsNjZHQTlxLW14cVdTSW5lVFZ1?oc=5",
+          "pub_date": "Wed, 19 Apr 2023 07:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Microsoft Overhauls AI Leadership, Nadella to Take More Direct Oversight of Copilot - The Information",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS0NDQ1hPTmxWQzZDaVFidXBMeXhPUTB5WWtTeHNIOHFJRFhmQlAyMlo0WmlNalQwbWVFMWVCSDNsX3lsNEFMYy03MnF2ZWpjSVVSaDNscXJyYUl2bHE5N1hZa0NNOG1RUVlsbnRfWWxuV3Z0endwcmsyN3V1eWVhVWt5NTM5VlI1WlRYMmlQN3VjNjMyeDNoQ3pNeWVCc3U3RjFSaWxPMzZ1T3JLS0FpZmdB?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 15:29:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "Video Hosting Startup Fal in Funding Talks at $8 Billion Valuation - The Information",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQllpWHAtaWoyT2pmUW1ScHl3aWpFU2xaOHM3Ykp4eDJkWnVQOE40enJsd3hSTGtfZkJJSmRZU2xDNk4ta2JoMHQyNV9yR3d5WGQtSHptOWh3WG9mdjlmbl9hY29GZ0hIeDRIRVRiZ0hINmVFdGprUXJ2MGV2Y2l4S1VFT2NTMm92OFlvRlNjQVpnTmFaWFRiU09kTGpXUGlk?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 04:52:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "Early Anthropic Investor Develops a ‘Grid’ for AI Servers - The Information",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNGgzdlNpOHYyY1pFbzRsZDZuU2k5d0pYbEVDbUN0OGdPT2ZnWjJqbnFocHhmVEVJTEUyWFk5TGkzMllKU0oxSHd5ZlQ5TGx5a2NmNjJvQ3dXS2MyZ1BXME44WEQ2UWFZaHJrMUE4eWlrU3JaRUhKU3ZtZHZhT0VZYkUteEJkaDhyM0RsTWRYNWVYWHNRNmdSSWZyOXhxOEQ4emdiZHhxLXE1Wnd5R3dn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 17:54:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "그린랩스 Greenlabs | LinkedIn",
+          "url": "https://kr.linkedin.com/company/greenlabsglobal",
+          "text": "We want to create a world where we can all live healthier and happier by producing and distributing fresh and healthy food ingredients.\n\nGreenLabs shares the mission of ‘Innovating What We Eat in a Sustainable Way’ and we are creating our own company culture to make this into reality.\n\nGreenLabs is a tech company that innovates everything related to eating. We consider ‘Innovation’ and ‘Challenge’ as the most important values, and we are doing our best to provide an environment where the best ex",
+          "score": 0,
+          "published_date": "2023-04-30T00:00:00.000Z"
+        },
+        {
+          "title": "[라이징 비즈니스]옵저버빌리티판  재편...그라파나랩스, 오픈소스로 승부 < AI·엔터프라이즈 < 기사본문 - 디지털투데이 (DigitalToday)",
+          "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=631676",
+          "text": "[라이징 비즈니스]옵저버빌리티판 재편...그라파나랩스, 오픈소스로 승부\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n[라이징 비즈니스]옵저버빌리티판 재편...그라파나랩스, 오픈소스로 승부\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n[사진: Reve]\n\n[디지털투데이 황치규 기자]오픈소스 옵저버빌리티 플랫폼 그라파나를 상용화한 스타트업 그라파나 랩스(Grafana Labs)가 신규 투자 유치를 추진 중이다.\n\n싱가포르 정부투자공사 GIC가 투자를 라운드를 주도할 것으로 알려졌는데, 투자가 완료되면 그라파니랩스 가치는 66억달러에서 90억달러로 뛸 것으로 보인다. 반년 전 평가액보다 36% 상승한 수치다.\n\n주목할 점은 연간 반복 매출(ARR)이다. 2024년 8월 기준 그라파나랩스 ARR은 2억5000만 달러였는데, 지난해 9월에는 4억달러를 돌파했다. 1년여 만에 60% 성장한 셈이다.\n\n그라파나랩스는 오픈소스 프로젝트 그라파나를 기반으로 한 ",
+          "score": 0,
+          "published_date": "2026-02-14T00:00:00.000Z"
+        },
+        {
+          "title": "LapDev - 오픈소스 원격 개발 환경 관리 소프트웨어  | GeekNews",
+          "url": "https://news.hada.io/topic?id=13981",
+          "text": "LapDev - 오픈소스 원격 개발 환경 관리 소프트웨어 | GeekNews\n\n▲\n\n# LapDev - 오픈소스 원격 개발 환경 관리 소프트웨어\n\n(github.com/lapce)\n\n17P by GN⁺ 2024-03-25 | ★ favorite| 댓글 1개\n\n- 온보딩 시간 절약: 새 프로젝트에 개발자를 온보딩할 때, 기계에 환경을 준비하는 데 몇 시간 또는 며칠이 필요 없음. 즉시 코딩을 시작할 수 있음\n- 코드로 정의된 개발 환경: Devcontainer 오픈 사양을 사용하여 개발 환경을 코드로 정의할 수 있어, 다른 개발자들 간에 표준화된 개발 환경을 복제하여 환경 관련 문제를 방지하고 ",
+          "score": 0,
+          "published_date": "2024-03-25T00:00:00.000Z"
+        },
+        {
+          "title": "2024년 프로덕션 레디 LLM 애플리케이션을 위한 기술 스택 | TIL",
+          "url": "https://13akstjq.github.io/TIL/post/2024-07-15-TechStackForProduction-ReadyLLMApplicationsIn2024",
+          "text": "2024년 프로덕션 레디 LLM 애플리케이션을 위한 기술 스택 | TIL\n\n# 2024년 프로덕션 레디 LLM 애플리케이션을 위한 기술 스택\n\nTILPosted On Jul 15, 202410 min read\n\nML 작업을 6년 이상 한 뒤, AI/LLM 스타트업 3개를 론칭하고 수십 개의 프로젝트와 파이프라인을 구축했습니다. RAG와 Agent 프레임워크부터 적절한 테스트, CI/CD 및 관측성이 있는 LLM 기반 서비스까지 많은 LLM 도구를 실험했습니다.\n\n본문은 다양한 이유로 가장 좋아하는 도구 목록입니다. RAG 데이터베이스와 에이전트에서부터 API 엔드포인트, HTTPS 및 자동 배포 파이프라인, 적절한 관측성까지 전체 LLM 애플리케이션 개발 수명주기를 따라갈 것입니다. 그 과정에서 각 단계의 프레임워크와 도구를 살펴볼 것입니다.\n\n그리고 한 가지 더 — 나의 기술 스택에 동의하지 않을 수 있습니다. 그러나 주로 사용의 간결함을 기반으로 도구를 선택했습니다. 예를 들어,",
+          "score": 0,
+          "published_date": "2024-07-15T00:00:00.000Z"
+        },
+        {
+          "title": "A curated list of engineering blogs - GitHub",
+          "url": "https://github.com/kilimchoi/engineering-blogs",
+          "text": "# Repository: kilimchoi/engineering-blogs\n\nA curated list of engineering blogs\n\n- Stars: 37483\n- Forks: 1964\n- Watchers: 37483\n- Open issues: 144\n- Primary language: Ruby\n- Languages: Ruby\n- Topics: engineering-blogs, lists, programming-blogs, software-development, tech\n- Default branch: master\n- Created: 2015-06-13T18:25:17Z\n- Last push: 2024-08-21T13:01:11Z\n- Contributors: 310 (top: kilimchoi, kaizensoze, duckspeaker, meisyal, b4rtmoss, griffio, nucreativa, ssundarraj, muazhud, loetn)\n\n---\n\n# ",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 76.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "12 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01540639"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=그린랩스"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=그린랩스+잡플래닛"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=그린랩스 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=그린랩스 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=그린랩스 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=그린랩스 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EA%B7%B8%EB%A6%B0%EB%9E%A9%EC%8A%A4"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
+}

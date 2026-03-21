@@ -1,0 +1,915 @@
+{
+  "company": "메이크스타",
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 메이크스타",
+      "company_name_eng": "MAKESTAR Inc.",
+      "stock_name": "메이크스타",
+      "ceo": "김재면",
+      "address": "서울특별시 강남구 학동로23길 29",
+      "industry_code": "58222",
+      "established": "20150114",
+      "homepage": "www.makestar.com",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "정진완號 우리은행, AI 강화 작심…본사 엔지니어·기획자 ‘확대’ [인사로 본 2026 은행 전략] - 한국금융신문",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01ejdydTJJS0dCYUotX2JCaWRhRlBSb3dDOHo5dkdpYnlqTUJpckd1S1ZRMnZOM1dkcTlIaWtHLTAxUTQ0ZjRxcDhGVlY0aXEwWmI0UC1MNFdyMlFqaTQzOUtwNUJuN2FjdTNCZlRiSjBJd0x1d3pBNTlZQXE?oc=5",
+          "pub_date": "Mon, 22 Dec 2025 08:00:00 GMT",
+          "source": "한국금융신문"
+        },
+        {
+          "title": "박정원의 승부수, 두산 ‘에너지·AI·반도체’ 삼각 편대로 100년 기업 체질개선 가속 - 빅데이터뉴스",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5tU19hU1E1NTVFVGsxZlRIZFM0ZDBydkZJbEtBT0JDMzBFcjE0djRCblh6ajhHLTJwa0FISllUbkVoY2VqZUhHNURnU2djb2VWRGtrNFNLVFhYakFrelhYbHJlZDh6N20xNDdMaFcyeklwQThLemxfVjNMZnQ?oc=5",
+          "pub_date": "Sat, 07 Feb 2026 08:00:00 GMT",
+          "source": "빅데이터뉴스"
+        },
+        {
+          "title": "[넥스트 K-유니콘] '밋앤콜·포카앨범 최초로'...메이크스타, K팝 트렌드 이끈다 - 테크M",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LN0FJeVhQRmU5dVlCVkc2TURlRmtmdlZ3T1dnQmlyQS0wOGVueVd3SDVxRU8yd1JLNWw5RklPLWRRR0ZIeEJVb2s2SGI5MGpHeFlQS2RSdW1jdEk5aTZPVTRtRnN3Z9IBakFVX3lxTE15M3huVF9YRXcxdDdLa08xdGw2UGxYOTA2SFU4dXE1LVBSSXREN0RIV1QtMjR5ZGsxYmMteU5qR3pTTVlPOEVBU0swZnBpZndUNHFaZHE5WkpDaGtaenFMTjRXXzIzdmZnT2c?oc=5",
+          "pub_date": "Mon, 02 Oct 2023 07:00:00 GMT",
+          "source": "테크M"
+        },
+        {
+          "title": "올 설에 재벌집 순양주 선물할까... IP에 스토리를 더하니 매출도 업 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1peERuRjJQWnRIYk43SmV2MC1yLVI0VlUxVkVDNVYtMTRTV21rU2hGMjVwelVTeXZfQUNHZkNCZTZQSnZMcmF0dlE0MmVUWmRrbzlUeXNVNjdZd9IBXkFVX3lxTE03MjNkbWRkbnBSWm84eFBnaDBmZVdOaFh6emNUNFUyM1hPREFEVHJUa0Z1SUs3dTBNWE9STXVyUU5KdTkwU3RCTlBGZHpYYjV1ZlRabzUyTEV5YjVyLVE?oc=5",
+          "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "K팝 열기에 메이크스타, 창사이래 역대급 실적…매출 479억원 - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wNTVBdURCOFUwa1MtTDB3U1JWejJ6RWJ3elJGOEM2Tl9iVFh0bExtYjRNUHVzLVRIOFRhazQxYjRPV09wSnN1c2dkZk0tNTFOT3U5Z0xmSHBsVjNGVElGRTlSR2N2TkRnUVJmbg?oc=5",
+          "pub_date": "Mon, 13 Feb 2023 08:00:00 GMT",
+          "source": "유니콘팩토리"
+        },
+        {
+          "title": "[쫌아는기자들] 메이크스타, K팝은 고점일까, 이제 시작일까 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSTEtdWw4dzBNeWxENUJISHlmNHl0bTRWa2E4djZSX0Z5MkFwZmZySnFtUEFUTHFXdlZvZ2hMLURYS202WEVWenduYWNfeHJmODFhaU5JeUpGQjZLbkMzWnJNbGVTemVVN20xOGNYM1cwRXQ2VHpZVngzaWFoYWN2TkFNYTVoTmlH0gGcAUFVX3lxTE5MX3VaLWhTX2FmQ2xJZ2VTLUNETHNlanhIYUNGbGYwODZRb2JCX1NBelFwTG92UFdiR1hBdnVhSjBZb0JoU3VlWHZrRVFaTlJYWHJqMXpITkp0dmV3SmJHTVBPVDhFdVltM2N3cTNjZzBycWgyZU5WTi1lWjlMeXJ5WlFXam4zZU41R2NTWG1JbFBsRTRKazZpWDN5NA?oc=5",
+          "pub_date": "Mon, 21 Oct 2024 07:00:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "메이크스타, 2023년 매출 956억…전년 대비 100% 성장 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE16QU81UVRFdzhZaHZ2VzRqWlphSU16ZzlhZVlJRWdvWTVDSFluUXljcUdLTVpMZkZTV3IxQ2pjUlZpMVZrLUFHcA?oc=5",
+          "pub_date": "Mon, 18 Mar 2024 07:00:00 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "[주간투자동향] 메이크스타, 300억 원 규모 시리즈D 투자 유치 外 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EZUNvLVdudWUzemtNa1pNU3d6bmlKaFFQUDFMbUlKWk1kRklIR1RUUTJGOEVJaHBxQWJCbjhTMURSU1ZvZlJjZERKT1k0N0hMRW9rc2dqYlEwYWV4MTJnWVJfRm5sNEhmcXZ0WGZqONIBZkFVX3lxTE95ZjE2cUNnR2VHWDViTU0xcmlGNDRpT2gxUTJoRlJfM2ZQMmU2WG5fdDRNNVFLa2JsWUUwNXg5VEtxX1d4T3pwN1Z5Zl84OEtWVlgtYTh2MEwwR1R5eTRBNUpfOUxqdw?oc=5",
+          "pub_date": "Mon, 21 Oct 2024 07:00:00 GMT",
+          "source": "동아일보"
+        },
+        {
+          "title": "K컬처에 기술 한 스푼…‘메이크스타’ 시리즈D 투자 유치 - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtbXNGWUFfMWZMYUNiSzlLNHZjODRlY2Z1TXdpdU1icTltTmFBbWJFamhORUhCWnR3M2JzeFZlcU40SnRpeThXTm80U044a25LU0FKTUJhSzZEOVBHdXZkMzNfQjNMalE5WWRuanN1eWNnUQ?oc=5",
+          "pub_date": "Sat, 12 Oct 2024 07:00:00 GMT",
+          "source": "마켓인"
+        },
+        {
+          "title": "엔터테크 기업 메이크스타, 300억 시리즈 D 투자 유치 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9iakdEMGtIT1AxOFRXcUVqMlJxbHFVZTJ2UHpEZkk0Z1VPRDhwbFc3V0ljaHI2YTdJcm1ndndCaHVzSGw0M0VvNDhHR3RKdw?oc=5",
+          "pub_date": "Tue, 08 Oct 2024 07:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "엔터테크 ‘메이크스타’, 300억원 시리즈D 투자유치.. “케이팝 넘어 영역 확장” - 와우테일",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sS1VpQV91Q1lSenpFbVpEcGc5TG01U2VQMVZMS0V2WV9VbmpvVDZ4cjd4d3Z0UmNlZ2VWYjZyN1h2YkxIN1NMRnRGTUtmbTA?oc=5",
+          "pub_date": "Tue, 08 Oct 2024 07:00:00 GMT",
+          "source": "와우테일"
+        },
+        {
+          "title": "글로벌 K팝 플랫폼 ‘메이크스타’…서비스 개발 집중 ‘역량 강화’ - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnMnptTUc1c2VfTGpEWnZiaTV0S3lPRjA4c1RGcUttWWNweTd2TDZHaTQ4RWFqejE5Z1ljb3NQa01hY0ZNUkFJM25IZ0s5bF9DT2hQU3pSLTFVbU80Zk1PVkktWTh2U2hVanMyeEtLOXB3QdIBdkFVX3lxTFBaeGtiY1l0NGtUM0NvWThBOGt1US0wbHV3UW9HRzJKSWttSko0VTR2Rnc5VjE0X2dkZVdDWDBZZ3JwemlsVWxQWjBGYVhxVjhNQk9KU0s4WW95OHhaeEpxRTQtendqMnZfQ3VjLTViRGQ0dUNJU1E?oc=5",
+          "pub_date": "Thu, 10 Oct 2024 07:00:00 GMT",
+          "source": "시사저널e"
+        },
+        {
+          "title": "CD 대신 QR로…포카앨범엔 천장이 없다 [화제의 기업] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DQmFnc0hfaVNqQVZmYXd0eWlIYm8xYkpzbzFfYmg2RXgzZnpBMS1wSFlXWGxTQzlkcDFwVWVYRng5cmxhbV9TOHRFVHBBaWc?oc=5",
+          "pub_date": "Sat, 18 May 2024 07:00:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[스케일업 리포트] 메이크스타, 크라우드펀딩으로 K팝 팬덤 공략…\"글로벌 유니콘 도약\" - 서울경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PZUVvMk03MW1IcTJDSXRUU3k0MHNqV0FncnZ3b1pkNW44VUtTYXlwbkk1LTExY2ZabVNiS2VXT2RRMXV5ZS1pc0hxQUh4bFhURlHSAVNBVV95cUxOSmtucmhzdC1LNFd6djNCM1VmUjNqTVZFOGE5Y3ZwbHA3X3Ntc2VQRnFUTm5BX1g2VWE5V2FaZ3BhMk5DM0g5M3p4Qk1veUtuZkkyQQ?oc=5",
+          "pub_date": "Wed, 12 Apr 2023 07:00:00 GMT",
+          "source": "서울경제신문"
+        },
+        {
+          "title": "국민대, 메이크스타와 VR · AR 콘텐츠 개발 MOU 체결 - 한국대학신문",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12MVJHYXZBcGNhUWJuQlZidjdnZUhHNzJiLUVwTE5rejFNd0x3MXFLZno1aWljdjFhcmhYVnRYRWlBVmh6QnM2c2paTWstdXlzbjJPSFpxbUNXZFQ0VFFBczRqTW9MZw?oc=5",
+          "pub_date": "Mon, 16 Mar 2020 07:00:00 GMT",
+          "source": "한국대학신문"
+        },
+        {
+          "title": "'K-POP의 힘' 메이크스타, 창사이래 역대급 실적 기록...매출 479억 - 메트로신문",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mQjN5TWZTaXdkVTdZZHFQbEFkV1c1cmZLV09EUXJ5NTQxWWxITkc3elhrSUpZMjE2UlVYdThOWUVmZk5xUVozZm1fVVlLdHJqZ2pHTFZCOUR3OUQzN2NKMg?oc=5",
+          "pub_date": "Mon, 13 Feb 2023 08:00:00 GMT",
+          "source": "메트로신문"
+        },
+        {
+          "title": "팬은 이제 소비자가 아니라 ‘비즈니스 파트너’다 - 토스",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45UWRDX21sa2VIeE9PVFQ2T1ZYWkI3eW1QVFJTSmd5TzVVbGoyTVMwZ09HdjJhSnVqeFVvOTVJOHF4TnRJUHV0dWpQb2lDdkpLV1NUSDVxREg?oc=5",
+          "pub_date": "Tue, 25 Feb 2025 08:00:00 GMT",
+          "source": "토스"
+        },
+        {
+          "title": "메이크스타, 지난해 매출 '역대 최대' 956억…전년比 100% ↑ - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DMVZuWDBjTkpFTExrXzlXRFpDeDROdDVVYlhaQmNxLUxmUVhyX011QzhjWHBYNHQ2MHJDNkt5RE5nVGlDdVY4ZUZLODNuckd4dHdJVnRueWlPWWVPd0pQcGt4a1RfWFpaMmo5NQ?oc=5",
+          "pub_date": "Mon, 18 Mar 2024 07:00:00 GMT",
+          "source": "유니콘팩토리"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "무표정인데 왜 가슴 아프지? 라이언 고슬링의 연기 비밀 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XdlVvbE5OeC1qVVlOSE5tUnJXaVdPNHhXNVB2SkJ2bzVNOGdoV2pMcFBBV1VQMnRYMHZsQTgxVmYzLS1pb3JLVEE3MVVGTVhZWWp2WVgyOUhyQdIBVEFVX3lxTE9IeFJqaS1hdEg3YW9MVEtXakI2VDhNV3hWRVZWdGNGbGUzRzYxT0dNNXU0OFNoZFE4RWNQbzAyS09aLW53RjBoTFRxOWhXTEFaUmhUYw?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 00:52:18 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "한경비즈니스 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yWVQ1cXMwRlN2QVZaN2hCV1F6Qm94c1RocXJXVVJZblhZZnZfOEdXQ2pOdnMtYVF6VWZTM1QyZHdkeWc5SHFWaFdnckVTZVJCdV8xcmlMaFJpT3JUSHNSYmhCdEJ5Z28?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 09:01:57 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "F&B 뉴스 93 페이지 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fMnBHUjZ6VWtQeENGMVRCVjRkSEo3YlBvY1NXMFlvLUp2RUVZLWI0eVlOS1B5NHNPQy1FVWc3WFFLelBkVEd3OTJ3UWxwUmNrNG11azBVT0dIMnY0RWc?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 09:18:27 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "휴온스바이오파마, 보툴리눔 톡신 ‘휴톡스’ 中 첫 물량 출하 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQXNMazNVQ1d1VXV3OHJyd3hFUmNrcTI2dTV6ZkFPd2RUSlh3c28tYjlLUmkyNjh2ZDl5aXVqanFsSFRvemNVUlNmM1dyQWxFRjVfY0p6YU9jdlktOS10YXBfNEw1SHR3enRMSXl5djA0Z3B4WnBxTVZ4REhPNTA1aWs5cFNxbmPSAZsBQVVfeXFMTV8xdF9aQno5eHFtYTBLUnR4anJJbUhVSGZMaE9SQUxKVWxPbnFqaDZOWmx3Q3BsenFEV0dZa0M4OVFLRWtXX2pJdXV1VnhxOXN6eGhlUFRtbWtnQkxZZDdCR25sVGstQ0MtZFE4X0JtMDJaVHpTbXhmQ01uMUxxOUN5RGJoSjNKOExtcE9FSGpkU3kwWl9ndWRncDg?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 00:54:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "바디프랜드, ‘W 냉온정수기’ 리뉴얼 출시 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVTdRc3o5QVdkUU9JQlNYeTBack5NcE05QVZvTWkxU21PRDMwTzBvalRfUlQxV1hvbkxZZjBPbk1CeDZNY2pIS25QbDRlaFpVSEFzQnI4MHE1Tm5BcU5MMUdfQ1ZKSFU0RVVNV2IzR1h0bzRYa1hTNEE3YmVSSlpqcUdjVEVtbnlHd1VELXBSMGbSAaQBQVVfeXFMTkI1SzBwaEUyNVVkeXBhMUQtamJMZl9oamFiSFFydS1qa0ZJSWdZeHBfTHlMTWtaRl94Tkg3cXVfODFGSkhKXzZ0SDN6MUgtck50U1dCR3BOdTYweWRiUll2aU9BVFh3V0doSVB3ZWhzVmJlaDlzZElvc0FMeEh0a0VuNUNFbXdEb3lfenRJa29IdTI2am43NTNwUXRqTmNibE1aNVY?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 01:07:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "기관 연속 순매수일 상위 20선 - 코스피 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcExuS3BPOXRLUm9qUElORk5TbUxsR19tTldCX01Wcl9KZWJQZVpMaDZLR3QydUpHRkI5WnVzRmFRb1ZROXYwZ09Xc2Rzb0M5QWFfaUtobGtSaWdXdzVvVlBfc3Nndnp5TUQ5LU05Wkl2eDVtY1JCUFVObzFmTmtUY1dHONIBlwFBVV95cUxNeVBXSWZRVXktSnRlZ2xIMUhrUTdEa21qUXRQOG5pMkx6Wk5OakNkYTdDSlliU0dxV1M3cFc5VUFfV0NIRG01UmtPT3RUSERpRTVTbzlrVU1CWEpwVExGdTIzN2pJZU9ZZXN3SnlULWNPODBxX29OZjNHVTlBdjRCWWxVY00yX2FNRXlidWxGczUxRDlqZ0c0?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 23:02:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "“김건모 팬이었을 뿐”…이소라, 15년 만 ‘나가수 논란’ 심경 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WUnB2cU1XRkpnRzlicWs5b1UybmNrTjduYk1ZQnpmc3UzWExFd1I2dXBZMm1JQmYxWTBhRWRzZV9XTjZxWW9OSXhzeE5RdXVNQmQtWQ?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 23:41:59 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "스타투데이홈 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE11WU40ZHEzZUxKZ1VKQWtwVVRZQzBuZVZLTjVWTVNBd3JobHZHWnVyeXdKWU9faHlCbFlJaGNn?oc=5",
+          "pub_date": "Mon, 30 Nov 2009 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "메이크샵, 판매자 겪던 ‘주말 배송 공백’ 해결 나선다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lM1ZXZmd4ZjFFMHJFcWNOZ3RIcV9GLVNueHRvZlZvZ282SjI1TXhJV0lHSnppMGpZVEFjeE9UNzhTeUxObUdEb0p0NmJHWTd0Zk1TMjZR?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 05:23:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "데브시스터즈, '글로벌 IP 컴퍼니' 도약 청사진 공개 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WZ1U5aE9iUGQyZEFwemhCQ3JRWDVQdEtPOUpHZktsZkhjUlJiUzhLNW9CWlY5ak5td2s3VzZobTNMRS01dEhDelVhREljMjBaVDZBVzF3?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 05:29:16 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "프릭엔-메이크스타, 엔터 콘텐츠 공동 제작 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxaVE2ZkdtNVl5bkhXSGVlNVJaeGI2cE5LR0ZlVEFJUjFNb3BsdzNpd0RscndpV2NQOWwzbXlEVC11NVRnajl4aloyUGpOczBmdzZaelFB?oc=5",
+          "pub_date": "Fri, 11 Jan 2019 08:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "\"감에 의존하던 한류, 이제는 데이터로 승부“ - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wWXh0a2t4V3dUMWNyY1l6MklpSlhTWi1GN09MTjVBLVMzM2JJNU1xR2R6eFYwTDZBY1lsb2xJNGswSnlpcjhYTUFVNVhmQVNXWjFnQXVR?oc=5",
+          "pub_date": "Tue, 14 Aug 2018 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[2018메이커] 밀어주고 채워주는 '메이커 부자' - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95OHpiSlpzN1EwYk5JeXl5TjdsUzFiZGhjNHA5Zm9NQ0JmdHQyaTYxSTJ5RmN0YjgyYzVqdERxeVFzWVFRblAwY3VFZkNCMmppQTR2YjhyeGhaMHNxN3JQMnpYckNHWjDSAWtBVV95cUxPR3BwTEgtVlRBSEZ4ODJIeGZqRWpjTVU1T2ZaQ2RZamtNdUw0RGVDVENNY0FEQXJ5eTZUd09aODZnVE10YnJrMllxYmZRVC1ZNWh5dHNfRTJiRWJMSEdhUDZzRjN5RTF3Tll4dw?oc=5",
+          "pub_date": "Sun, 02 Sep 2018 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "한국 중소팹리스가 ‘생존 위협’ 느끼는 세 가지 이유 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hMk1KSFJBSS1oaFo4UEp5aFU0T3ZQbGZLUnhSdkxmWTlJTHhxOEIyOGF0c2pyczl5d01qLUdCMDZGVmpNNGRVQmZIZkp2SDJ6d01Fa0xqX0FHdVlJcmg3bjVkUW1vclnSAWtBVV95cUxPYU5PVEZmbGNmZWM3eHB0bUE5dTNaVmQwd21leldxcFF3cE9uRmtKY1F5NVFRdUVTMlk5UXJxaER0cjlHSUVfU1JHeHdKTzluYnUwR3ZfbUZJLVdwc3pPRmt2WjNHdjhVLXQyOA?oc=5",
+          "pub_date": "Sat, 14 May 2022 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[2019 메이커] 머신러닝 '동키카'로 모두 즐겁게 놀아요 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCV244Wm9jM3NDMkl2XzhnRFRKcHFXalYyR2ppR0diR25oQURVV1AtbkNOTHBJYXFlV0F2QXNKV2lxQVNEdkVWem9fb0JTU2x1Q3ZVTi1IMUhSOTRvbHAxaC03d2YyVWPSAWtBVV95cUxOLVd5RDI2S0JMVDB2aG9ZT1B1R1d6RVlsTWVUalR0R0J1UWhEN0xkVDVVUUxadWluR2ZuSnFmOE5XcUVjb0dYSzhJRkRtMzU2YWlrSEpfRUluem1NY3pqVnl1NlpqVzh4QlBqWQ?oc=5",
+          "pub_date": "Mon, 07 Oct 2019 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "알토스, 연예인 크라우드 펀딩 플랫폼 ‘메이크스타’에 40억원 투자 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOd09iZURTa19uNWJsNFNYUlBoVXZCNmJOUE16Q2dZb0ctQ1FPLUxEQTJIdFpMcmk3WHJ5VS1fNEY2Wm9RcTFhTXVtaDc3dmozQ0RzOTR5X2tiU1BnNWpnVTd0aV9BUkFpd1RtdlJqVEVpZWdTbTZMLWRhVWJKdUVSaGxaUXNFZXZsRGU0TFdOVHRqT0FTaTloT2VTT2lLdFR4blFWNmpRMEVEbEowSWNNZ25iVzJWS0g5UkV4TlBQRllXbU5GTDNrWnpxeTk4ZEQ0aUw0TVphYVE4cGwxM0RsMEdEcjRIVll3aVREd3FFOUdiYWZjaFB2d0FkOEdrRnZhZ1Z4WFlMTGZlMG1OY1EzUWNyN3pQbzUyeGt6aW92clVSazlKRGxzZGszVFJQbmJLRE03NmhMUkJ1TUxuVk9fWjVzTGo0M1dUbGc?oc=5",
+          "pub_date": "Wed, 11 Jul 2018 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "메이크스타, 2023년 매출 956억원 달성 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84d3ZSNk5LWUpDUzNaSkhPZDE4LUJVbUNuVFduVURwS1hrTFZncmhjNlB4Wl9ISDFoQkM2eTRBbU1xOG55Si1JeS1CYnhsa1h6aFE?oc=5",
+          "pub_date": "Mon, 18 Mar 2024 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "듣지도 않고 버려지는 CD 앨범, 해답은 없을까요? - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9keE1oNEcyMFZlbUg3T3FYTnlCMXlJaDNaemZDNFMxV3VHVktoZ1lnOXFSX0hOWmUzbmRZTm9jMUMwamMyWFBQaldhb3o2WkNLeXc?oc=5",
+          "pub_date": "Wed, 08 Mar 2023 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "2026 역사임용 합격수기, 함께 공부하며 만든 최종 합격",
+          "description": "63 심층면접 33.87 39.40 총점 160.270(컷-0.03) 182.330(컷+23.04) 안녕하세요, 저는 2026년 중등 임용 역사 과목... 긴 기간 수험생 입장에 있다가, 합격 수기를 쓰게 되어 뿌듯하면서도 부끄럽습니다. 제 학습 스타일은... ",
+          "link": "https://blog.naver.com/myheeso/224213799353",
+          "pub_date": "20260312"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "2026 역사임용 합격수기, 스터디는 어떻게 활용할까?",
+          "description": "63 심층면접 33.87 39.40 총점 160.270(컷-0.03) 182.330(컷+23.04) 안녕하세요, 저는 2026년 중등 임용 역사 과목... 긴 기간 수험생 입장에 있다가, 합격 수기를 쓰게 되어 뿌듯하면서도 부끄럽습니다. 제 학습 스타일은... ",
+          "link": "https://blog.naver.com/myheeso/224210251357",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "정책지식 2026.3.9.",
+          "description": "뽑는 기업들 ㅇ 사회 노란봉투법 D-1, 노동계 원청 상대 대규모 교섭 요구 예고 - &lt;중앙 톱&gt; 사법3법 통과되자 “(판결로 허용된) 남편 면접권 못 뺏나” 금일 사설 ￭ 대통령 “집권세력 맘대로 다 못해”... ",
+          "link": "https://blog.naver.com/trim9134/224209525068",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "26년 상반기 롯데백화점 I'M 전형 채용대비 취업전략 (~3/27)",
+          "description": "시즌 메이크업 트렌드를 제안 잠실점 에비뉴엘 지하 1층 '더 크라운' 등 주요 팝업 전용... 상품개발/MD 면접 일주일전&gt; https://blog.naver.com/ffwangu85/223259779567 합격후기 https://blog.naver.com/ffwangu85... ",
+          "link": "https://blog.naver.com/ffwangu85/224206905072",
+          "pub_date": "20260306"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "충청남도보도자료20260320금요일",
+          "description": "본 포럼은 ‘2025-2026 한중일 문화교류의 해’를 기념하여 한국국제문화교류진흥원(KOFICE)과 공동 주관하여... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자... ",
+          "link": "http://cafe.naver.com/jungamironware/9239",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.723255813953488,
+      "positive_themes": [
+        "긍정",
+        "문화",
+        "복지",
+        "성장",
+        "수평",
+        "자율",
+        "장점",
+        "좋아",
+        "좋은",
+        "최고",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "메이크스타(주) 2026년 기업정보 | 46건 면접후기 3.0 면접난이도",
+          "description": "메이크스타(주)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.0, 면접경로: 온라인 지원 76%, 면접경험: 긍정적 41%, 부정적 17%, 면접결과: 합격 39%, 불합격 35%, 대기중 26% | 잡플래닛에 등록된 46건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/316628/interviews/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80"
+        },
+        {
+          "source": "naver",
+          "title": "메이크스타 2026년 기업정보 | 31건의 복지정보 0 전체 복지 통계",
+          "description": "메이크스타의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 31건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/316628/benefits/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80"
+        },
+        {
+          "source": "naver",
+          "title": "메이크스타 2026년 기업정보 | 31건의 복지정보 0 전체 복지 통계",
+          "description": "메이크스타의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 31건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/316628/benefits/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80(%EC%A3%BC)"
+        },
+        {
+          "source": "naver",
+          "title": "메이크스타 2026년 기업정보 | 31건의 복지정보 0 전체 복지 통계",
+          "description": "메이크스타의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 31건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/316628/benefits"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 관련.",
+          "description": "잡플래닛 기업 평점에 대해 궁금해하시는 분들이 많은데, 경험에 비추어 간단히 말씀드리겠습니다. 일단 2점 밑은 무조건 피하시는 게 상책입니다. 1~2점대 기업은 최악 of 최악이라고 봐도 무방하고요, 아무리...",
+          "url": "https://blog.naver.com/passion83j/221586201926"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 2.8점 중견기업인데 - 직장/알바/사업",
+          "description": "잡플래닛 리뷰는 보고 싶은데못보고 평점 2.8점인 중견기업인 물류회사인데 후기가 알고싶어요 초봉은 3500 하는일은 사무기술직으로 지원할건데요 3명이서 대기업(Lg화학.한화)안에서 화물차 시간배치를 주로 한다는데옮겨도 괜찮을 회사일지 해서요 총 직원수는 153명인데 물류센터는 여러곳이고 본사는 서울에 있구요물류업 종사하는 분들 혹시 아시는분들 없을까요...",
+          "url": "https://www.fmkorea.com/3660127960"
+        },
+        {
+          "source": "naver",
+          "title": "(주)스타메드 2026년 기업정보 | 기업리뷰 60건, 3.3 리뷰평점",
+          "description": "장점 : 안마의자,아이스크림 냉장고,남여 따로 수면실 있음 이외엔 잘 모르겠음, 단점 : 주말출근,시간 외 근무 해도 대부분 기안 상신 안함,,,하는 사람한테 뭐라 하는 이상한 기업",
+          "url": "https://www.jobplanet.co.kr/companies/315939/reviews/%EC%8A%A4%ED%83%80%EB%A9%94%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점1.8회사 오바임? - 직장/알바/사업",
+          "description": "집에서 20~30분 거리 중견 기업이라 좋다 생각해서 찾아 봤는데 잡플 평점 1.8에 퇴사율 30%정도 되는데 괜찮아보임? 연봉이나 복지 그런거는 그냥 중소기업 수준이라 생각하면 됨",
+          "url": "https://www.fmkorea.com/5470029324"
+        },
+        {
+          "source": "naver",
+          "title": "(주)스타오토케어 2026년 기업정보 | 기업리뷰 4건, 2.3 리뷰평점",
+          "description": "장점 : 현장에서 출퇴근 가능, 연봉협상은 실적기준으로 해줌 어느정도 유도리가 있어 근무는 아주 자유로운편, 단점 : 연봉협상은 하나 애초에 기본급부터 너무 적게 책정되어 연봉인상이 느껴지지않음 담당하는 구역이 너무 넓음",
+          "url": "https://www.jobplanet.co.kr/companies/357601/reviews/%EC%8A%A4%ED%83%80%EC%98%A4%ED%86%A0%EC%BC%80%EC%96%B4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)로보스타 2026년 기업정보 | 기업리뷰 345건, 2.4 리뷰평점",
+          "description": "장점 : 회사 시스템이 생각보다 잘 되어 있어서 체계적으로 배우는 편임, 단점 : 연봉,복지가 너무 안좋아서 오래다닐 수가 없는 회사임.",
+          "url": "https://www.jobplanet.co.kr/companies/78779/reviews/%EB%A1%9C%EB%B3%B4%EC%8A%A4%ED%83%80"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 메이크스타 현직자들의 연봉 정보",
+          "description": "인증된 메이크스타 현직자들이 전하는 실시간 연봉정보를 확인하세요. 평균 연봉, 직군별 연봉도 확인하고 내 연봉도 비교해 볼 수 있어요!",
+          "url": "https://www.teamblind.com/kr/company/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 메이크스타 Reviews - &quot;애매한 회사&quot;",
+          "description": "“좋은 사람들이 모인 엔터테인먼트 플랫폼회사” ; “합리적인 회사” ; “자율적인 수평 분위기”",
+          "url": "https://www.teamblind.com/kr/company/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80/review/6W3aLmK0H"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 메이크스타 기업정보",
+          "description": "메이크스타의 기업문화, 근무환경 등의 기업 정보와 최신 소식을 블라인드에서 확인하세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80/"
+        },
+        {
+          "source": "naver",
+          "title": "메이크스타(주) 2026년 기업정보 | 35건 연봉정보, 3,802만원 평균연봉",
+          "description": "메이크스타(주)의 전/현직원이 전하는 생생한 연봉정보! 메이크스타(주) 연차별 예상 연봉 - 7년차: 8,554만원, 8년차: 6,131만원 | 등록된 연봉정보 35건, 최고연봉 8,554만원, 평균연봉 3,802만원. 지금 잡플래닛에서 내 연봉과 비교해 보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/316628/salaries/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 메이크스타 리뷰",
+          "description": "인증된 메이크스타 직원들이 평가하는 연봉과 복지는 어떤지 확인해보세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80/reviews"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 메이크스타 Reviews - &quot;애매함&quot;",
+          "description": "“좋은 사람들이 모인 엔터테인먼트 플랫폼회사” ; “합리적인 회사” ; “자율적인 수평 분위기”",
+          "url": "https://www.teamblind.com/kr/company/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80/review/D3DmW0AccN"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 메이크스타 Reviews - &quot;고인물만 썩어문드러져 남는 곳&quot;",
+          "description": "“좋은 사람들이 모인 엔터테인먼트 플랫폼회사” ; “합리적인 회사” ; “자율적인 수평 분위기”",
+          "url": "https://www.teamblind.com/kr/company/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80/review/C6abZZmNr"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 메이크스타 Reviews - &quot;급성장중이긴하지만 글쎄 &quot;",
+          "description": "“좋은 사람들이 모인 엔터테인먼트 플랫폼회사” ; “합리적인 회사” ; “자율적인 수평 분위기”",
+          "url": "https://www.teamblind.com/kr/company/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80/review/4BU1zNEgY"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 메이크스타 Reviews - &quot;직원은 사업의 도구일 뿐&quot;",
+          "description": "장점 ; 일하는 것 보면 무능해도 괜찮은듯 유능하다면 무능한 사람들에게 이용당하기 좋은 곳 채용 공고의 필수 요건에 해당되지 않아도 인맥으로 입사 가능 본인이 첫줄에 해당되거나 둘째줄의 이용당하는 쪽 취향이라면 추천",
+          "url": "https://www.teamblind.com/kr/company/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80/review/I4XoWkD--rJ"
+        },
+        {
+          "source": "naver",
+          "title": "메이크스타(주) 2026년 기업정보 | 46건 면접후기 3.0 면접난이도",
+          "description": "면접경로 ; 온라인 지원 : 76%, 직원추천 : 3%, 헤드헌터 : 16%, 공개채용 : 5%, 학교 취업지원 센터 : 0%, 기타 : 0%",
+          "url": "https://www.jobplanet.co.kr/companies/316628/interviews/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "메이크스타 채용",
+          "url": "https://career.makestarcorp.com/",
+          "text": "메이크스타 채용\n\n# MAKESTAR\n\n메이크스타는 글로벌 팬들과 아티스트를 연결하는 플랫폼으로, 음반 유통, 포카앨범 제작, MD 제작 및 판매, K-Culture 전반의 다양한 사업을 통해 창의적인 콘텐츠와 경험을 제공합니다. 또한, 메이크스타를 통해 팬들이 아티스트의 프로젝트에 직접 참여하고 지원할 수 있는 플랫폼을 운영하고 있으며, 신사업을 통해 혁신적인 팬 경험을 만들어가고 있습니다. 메이크스타는 팬과 아티스트의 연결을 강화하고 글로벌 엔터테인먼트 산업에서 독창적인 가치를 제공하는 데 최선을 다하고 있습니다.\n\n## 일하는 방식\n\n### 우리 모두의 일로 여깁니다\n\n회사에 최우선으로 중요하고 필요한 일이라면 함께 도와서 해결하고 진행합니다.\n\n### 실수는 공개하고 해결합니다\n\n누구라도 실수를 할 수 있으며, 이는 개인과 팀 모두가 함께 반복되지 않도록 해야 합니다. 문제가 발생하면 빠르고 투명하게 공유하고 함께 해결합니다.\n\n### 서로 경청하고, 예의 바르게 말합니다\n\n",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "메이크스타(makestar) | 채용, 회사소개, 연봉, 매출, 직원",
+          "url": "https://www.rocketpunch.com/companies/makestar",
+          "text": "로그인 후 검색 가능\n\n홈가장 빠른 소식\n\n네트워킹이벤트 · 컨퍼런스업데이트\n\n채용새로운 기회 탐색\n\n교육부트캠프 · 직무 역량강화\n\n채팅나를 위한 소식\n\n허브기업 · 학교 · 사람 모아보기\n\n접기\n\n개인정보와 약관\n\n기업 서비스\n\n지원센터\n\n쿠키 맞춤 설정\n\n본 서비스에서 제공하는 사용자의 개인정보 데이터를 포함하여 각 정보주체의 동의 없이 데이터를 무단으로 수집하는 행위를 금지 및 거부합니다. 공개된 데이터도 크롤링 등 기술적 장치를 이용해 ",
+          "score": 0,
+          "published_date": "2015-11-20T00:00:00.000Z"
+        },
+        {
+          "title": "메이크스타 채용 - 한국어 CS 운영 담당자 채용 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/43352651",
+          "text": "메이크스타 채용- 한국어CS 운영담당자채용| 잡코리아메뉴 건너뛰기\n# JOBKOREA\n## 검색Smart Match 통합검색열림키워드를입력하시면검색어를추천해드립니다.\n자동완성켜기|닫기\n닫힘### 검색어자동완성자동완성끄기|닫기\n**잡코리아 주요서비스**\n알바몬게임잡나인하이어[클릭\n외국인인재채용지금바로!\n](https://www.klik.co.kr?utm_source=jk_pc&utm_mediu",
+          "score": 0,
+          "published_date": "2022-11-04T00:00:00.000Z"
+        },
+        {
+          "title": "메이크스타 채용 - 2026년 진행 중인 공고 총 14건 | 잡코리아",
+          "url": "https://m.jobkorea.co.kr/company/42947581/Recruit?page=5",
+          "text": "메이크스타 채용 - 2026년 진행 중인 공고 총 14건 | 잡코리아\n\nJOBKOREA 관심기업 공유하기 메인\n\n솔루션·SI·CRM·ERP\n\n메이크스타\n\n관심기업\n\n공유\n\n채용중 14건\n\n# 채용정보\n\n## 채용정보 상세 검색\n\n전체 411건 진행중 14건 마감 397건\n\n직무 전체\n\n채용정보 상세검색\n\n- 스태프\n- PD·감독\n- 매장관리자\n- [이벤트·웨딩플래너](javascript:fnSubmit('1000319');",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "메이크스타 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/recruit/co_read/c/makestar7",
+          "text": "메이크스타 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n채용중\n\n메이크스타\n\n포털·컨텐츠·커뮤니티\n\n3205\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유\n\n## 기업 사진/동영상\n\n--\n\n## 기업정보\n\n포털·컨텐츠·커뮤니티\n\n110명\n\n벤처기업\n\n2015.01.14\n\n(12년차)\n\n김재면\n\nK-POP 관련 각종 굿즈 제작과 유통 사업\n\n국민연금, 건강보험, 고용보험, 산재보험\n\nhttps://makestar.career.greetinghr.com/culture\n\n서울 강남구 학동로23길 29 (논현동) 전층\n\n| 기업 상세 정보 | 산업 | 사원수 |\n|",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "세미나 열고 성공 전략 소개… AI 어젠다 선도하는 홍종성號 딜로이트 안진",
+          "description": "AI 거버넌스 체계 구축, AI 비즈니스 모델 개발, 조직 효율화, 데이터 분석 등 다양한 분야에서 AI의 잠재력을 극대화할 수 있는 전략과 사례 공유로 기업들이 미래를 선도할 수 있도록 방향성을 제시한다는...",
+          "link": "https://v.daum.net/v/20241125140157475",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 제국 구축 전략은 … 1 판은 크게 2 우군 확보 3 비전 공유",
+          "description": "손 회장은 지난 1월 트럼프 대통령 앞에서 미국에 5000억달러(약 723조원)를 투자해 AI 기업 '스타게이트'를... 비전펀드는 손 회장이 AI 사업의 핵심으로 보는 반도체 설계자산(IP) 기업 Arm을 보좌할 회사를 최근...",
+          "link": "https://v.daum.net/v/20250307175404633",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 프로젝트 600개 2030년까지의 혁신 비전!",
+          "description": "AI와 데이터 기반 산업 혁신의 새로운 방향 ; 정부는 인공지능(AI)과 데이터를 활용하여 산업기술 혁신을 가속화하고 있습니다. 앞으로 2030년까지 600개의 프로젝트를 통해 AI 기술을 적용한 혁신 사례를 만들어 가기를 목표로 하고 있습니다. 이러한 전략은 산업 현장에서 AI의 역할이 점점 중요해진다는 것을 반영하며, 조기에 투자와 연구개발을 통해 기술 경쟁력을 높이고자 합니...",
+          "link": "https://mbalance.co.kr/1085",
+          "pub_date": ""
+        },
+        {
+          "title": "AX(AI Transformation)",
+          "description": "AX 전략으로 실현하는 미래 경쟁력 지금까지 수많은 기술 혁신이 기업 업무 환경을 변화시켜 왔으나, AI만큼 변화를 이끈 혁신은 없었습니다. 기업 환경에서 AI는 단순한 기술 도입을 넘어 비즈니스의 근본적인 변화를 이끄는 핵심 동력으로 자리 잡고 있습니다. 에이전틱 AI와 AX가 만들어갈 미래 비즈니스 환경에서, 선도적 비전과 혁신 기술을 갖춘 파트너와 함께하는 기업만이 진...",
+          "link": "https://www.lgcns.com/kr/the-future/ax",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 기술을 시장과 고객에 연결하는 AI Business",
+          "description": "업스테이지가 가진 뛰어난 기술을 실제 고객과 시장에서 빛나게 만드는 성장 엔진과 같은 AI Business 총괄리더 권순일님을 만나보겠습니다! 순일: 사업부문은 회사의 사업전략과 개발을 담당합니다. 비즈니스 모델을 만들고, 해당 비즈니스 모델의 가설을 시장에서 지속적으로 검증합니다. 그 과정에서 타겟이 되는 고객을 모집하고, 사업 채널과 파트너들을 관리합니다. 순일: 구...",
+          "link": "https://www.upstage.ai/blog/ko/mini-starview-ai-business",
+          "pub_date": ""
+        },
+        {
+          "title": "[주간투자동향] 메이크스타, 300억 원 규모 시리즈D 투자 유치 外 - IT동아 갤러리",
+          "description": "등 사업 영역을 확장하고 있다. 또한 이와 연계된 인공지능(AI) 및 정보통신기술(ICT) 분야에 집중 투자하고 있다. 김재면 메이크스타... 스텔라비전, 37억 원 규모 프리 시리즈A 투자 유치 인공위성 데이터 기반...",
+          "link": "https://gall.dcinside.com/board/view/?id=itdonga&no=4411",
+          "pub_date": ""
+        },
+        {
+          "title": "240418{생성형 AI 만난 플로우, 1인 1비서 시대 열다./AI 외식 마케팅 스쿨/최저임금 '1만원+α' 시대 문턱/AI 논....",
+          "description": "#비전 AI #사업모델 #이아이 뉴스 원문 실리콘밸리 한인 창업... #하프모어 #프리 시드 #자산관리 뉴스 원문 디엘지 &quot;스타트업과 기술... 교란 전략적 대처…금융 불안도 협력&quot; [경제] 2024-04-17 23:01 | 정현수...",
+          "link": "https://blog.naver.com/toma0625/223419197022",
+          "pub_date": ""
+        },
+        {
+          "title": "“AI 통해 산단을 첨단 혁신 공간으로”…산단공, ‘산업단지 위크’ 개최",
+          "description": "‘제조 AI 트랜스포메이션’ 기조 강연을 통해 글로벌 제조업 혁신 방향을 제시하고, 라제건 동아알루미늄 대표가 ‘사업모델 혁신을 통한 성장 전략’을 공유한다. 이와 함께 한국산업단지공단 전국...",
+          "link": "https://www.sedaily.com/NewsView/2GXS9IIFZY",
+          "pub_date": ""
+        },
+        {
+          "title": "혁신 기업의 정의가 바뀐다 : 조직을 생성AI 중심으로 바꿔라",
+          "description": "[CEO 포커스] 생성AI 비즈니스 혁명... 조직은 뒤처져 있는 이유 다음 변곡점을 대비하기 위한 조직의 전략 1. 비전을 영역 별 가치로... 운영 모델과 전체 사업 영역을 유연하게 재창조하고, 인재와 스킬을...",
+          "link": "https://contents.premium.naver.com/themiilk/business/contents/241010193226094bb",
+          "pub_date": ""
+        },
+        {
+          "title": "메이커와 AI융합을 통한 공생의 비전",
+          "description": "(데일도허티, 메이크미디어 설립자) 인간의 본성이라는 관점에서... “AI는 인간을 향한 휴머니즘”이란 말이 제가 추구하는 비전과 일치하고 있기 때문이다. 사업을 하면서 사회에 기여할 수 있는 활동을...",
+          "link": "https://www.worldview.or.kr/library/article/download/3494/14144/SC_2021G102%5B%EB%AF%BC%EB%85%B8%EC%95%84_%EB%A9%94%EC%9D%B4%EC%BB%A4%EC%99%80%20AI%EC%9C%B5%ED%95%A9%EC%9D%84%20%ED%86%B5%ED%95%9C%20%EA%B3%B5%EC%83%9D%EC%9D%98%20%EB%B9%84%EC%A0%84%5D.pdf",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "Profitable AI Business Ideas 2026: Strategies for Sustainable Growth",
+          "url": "https://wearepresta.com/profitable-ai-business-ideas-2026-strategies-for-sustainable-growth/",
+          "text": "20 Profitable AI Business Ideas for 2026 (Real Examples)\n\nStartup Studio, Startups\n\n| 20 January 2026\n\n# Profitable AI Business Ideas 2026: Strategies for Sustainable Growth\n\n## TL;DR\n\n- Economic Realignment: In 2026, AI profitability is no longer driven by sheer model capability, but by efficient unit economics, high automation ratios, and the ability to solve high-value problems with minimal margi",
+          "score": 0,
+          "published_date": "2026-01-20T00:00:00.000Z"
+        },
+        {
+          "title": "2025 인천스타트업파크 TRYOUT 공공·민간 실증 프로그램 우수기업 AI 로봇 자동화 솔루션 기업 메이크웨어  │ 매거진한경",
+          "url": "https://magazine.hankyung.com/job-joy/article/202601299891d",
+          "text": "2025 인천스타트업파크 TRYOUT 공공·민간 실증 프로그램 우수기업 AI 로봇 자동화 솔루션 기업 메이크웨어 │ 매거진한경 window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-100860310-1'); var ua = navigator.userAgent.toUpperCase(); var referValue = ''; if(!document.referrer){ if (ua.indexOf(\"KAKAOTALK\") -1){ referValue = \"http://www.kakao.com\"; }else if(ua.indexOf(\"FBAN\") -1 || ua.indexOf(\"FBAV\") -1){ referValue = \"https://www.facebook.com\"; }else if(ua.indexOf(\"TWITT",
+          "score": 0,
+          "published_date": "2026-01-29T00:00:00.000Z"
+        },
+        {
+          "title": "메이크스타",
+          "url": "https://thevc.kr/makestar",
+          "text": "메이크스타 - 기업정보| 투자, 매출, 기업가치- THE VC\n\n☁️클라우드바우처선정기업이라면, 부담없이더브이씨를시작하세요닫기\nThe VC logo\n데이터베이스통합검색투자/M&amp;A\nIR\n스타트업투자자펀드뉴스지원사업모아보기내컬렉션공개컬렉션\n리포트/소식\n가격\nThe VC logo\n![메이크스타의 기업로고](https://logo-resources.thevc.k",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "AI stocks, alternatives, and the new market playbook for 2026",
+          "url": "https://www.blackrock.com/us/financial-professionals/insights/ai-stocks-alternatives-and-the-new-market-playbook-for-2026",
+          "text": "AI stocks, alternatives, and the new market playbook for 2026 | BlackRock\n\nInside the market\n\n# AI stocks, alternatives, and the new market playbook for 2026\n\nDec 18, 2025|By\n\n## Key Takeaways\n\n- 2025 showed the importance of staying invested in a diversified portfolio: global stocks delivered strong returns despite several pullbacks.\n- Bonds returned to being a stabilizer, and Fed rate cuts provided additional tailwinds supporting bond returns over cash.\n- Looking to 2026, many of our investors",
+          "score": 0,
+          "published_date": "2025-12-18T00:00:00.000Z"
+        },
+        {
+          "title": "Make Sure Your AI Strategy Actually Creates Value",
+          "url": "https://hbr.org/2025/09/make-sure-your-ai-strategy-actually-creates-value",
+          "text": "Make Sure Your AI Strategy Actually Creates Value\n\nSKIP TO CONTENT\n\nStrategy\n\n# Make Sure Your AI Strategy Actually Creates Value\n\nby W. Chan Kim, Renée Mauborgne and Mi Ji\n\nSeptember 5, 2025\n\nIllustration by Harriet Lee-Merrion\n\n- Print\n- [Buy Copies](https://hbr.org/product/make-sure-your-ai-strategy-actually-creat",
+          "score": 0,
+          "published_date": "2025-09-05T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Italy's justice referendum tests PM Meloni and divided opposition - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUTJ6SmhHbTA0cmcxMFl4eGFwakptVi1WdEVQMTRCdXYycFFWbnBmYTdEYUg2UWU4SGF4ZHRIUGh4aXFOYXpmRVVhc240VEx3aDNkTE5LdlI1NG84Q1NJSWlLcnJYdzN3cmlNSHZDSGxLU0F1MGNEdk50U0JEU1RBbHNVdEJRdzJEN2VKaVFlUmlXRkZBMVBEMlF5eTl0MnFTOVJiUA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:01:51 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "'Texas has lost a legend': tributes to Chuck Norris pour in - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjRtUUJ3NllFcng4ZWUxN3dmd2hGOXE1WWY4MEFwaFBHVkVhcFd2dWZLSkpTck40V2pScFhZdnk1RmpRUEpBbF9Vc3lURE1STzRmQUh2RUl5TWhMODd2aHlWNHVGZWlhRkEtcFlHeGdQTWZXVnBvUXVUWTRCQWRYWTVqaTFnOEpPeXU5UXhLeC1LNUd2MWN3Rg?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 15:42:49 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Exclusive: Amazon plans smartphone comeback more than a decade after Fire Phone flop - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObEtENW4xT1JxZ3pkTnN1Wk1fdEI0eDN2Zng4QVFZWWdiYV9KMkFtdEs4cVk0NFE0YU9LNUZ6bjh6bk83MFIwNThWQ2NOOEJua0pUNS1ibHNzSnh3SzJnNVE2ckJDVlBNZHhyR2FuZ3d0OS13MUFWV2JrNXh5NEsyQzByNHVPamFXQ1kzR1NXb0xMMkZHRHJ0bDBYYnlxREFMTmZ1dTVicWluTFZpbTNiNjFSeXpEV2pNMFE?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 10:01:22 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Football Club Lyon Sued by Fund for Debt Tied to Igor Jesus Deal - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWnpsOUdySms2dm1pWjZ6OHhDbExUM2poUXpEZWowa0ZPMTV2aTB6dlE2aVNLdUd6Z0xNSDU0N3IwcFBjR0VUbU1oQUVZeTd0YkJwcGxHS2RkaTlURkRRbUs4WEVuaTVReXdGcE5HbjRXdEk3cEFFbTdWdG0yUWFUa09fTGJaMXdDQ3BOaWFjRDBHVkRrUmpTd0RYUmgyN1l1RkQ5d3JvLWZXVjFDMlktVkw0VXhrdw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 11:23:49 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "What We Know About the Raids That Rocked Hong Kong’s Finance Industry - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVUVKNVd2OENKdGctVFRNbWhMcUlQcDdqekg4c3VZOEx2Vm1ISkJLaE5wazdtRnpzQXI4dHVzbHJQM05tRm8yV2Y1TFB2MHhCOF94c1RRZUcxdDY3ekgybWhyRkJoWmFySGg5YThHNXJ3U3hLWGdfeDc5RVZxc2NOTEFXRWZQajQ3QVhNQXUzSERDLXU5NUFoRHIyZ3J4R1lwUV9ocEJUakNzTUJ0bjhURld2Ulc1cThpOENBeFZOU2ZIdTdZT0xn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 04:25:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Basketball Stars Try a New Path to March Madness — and the NBA - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObnBQSHRmUzhHZzZhbmg5RFFHaUR3NHM0dnFwS3l0YzBZUE45OUMzLWhDS3dRWGxvLUZGYWtFd2FiZjR0MkxQM3pRWlNtcTNMZjd0UTJmLWE1SFhMTGVTMG9SeEtqZHVQS3JERnU3UkRDTUNsMnVZaElVZW41cnNUc3huVWx3MUlHZjAwMWI5R2xKYWNnOFZoaWZVa1Z3OW1CSjZrY2hRMjdLQVZj?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 09:30:02 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Alphabet's X has a new spinout, and it's going after one of the world's most expensive bureaucratic nightmares - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRFFRS1NCcGJ2VEVKWXB1UF8xV0FyanVGRmE1YnYxOWtrY2NBMEFmWHFIcnBtNEtNd2QwWjg4ZmtsdjJMb0lwSjhKN3hMNnR2NlhRVXNkaV9qdzBfbzhqS2NkZkY4NUpOYnZqMWxQNl9pbmt1TUJBNXFOVEF0aXkybUk4bkVsU2JWYzdVN2Z6X0FOZlZqTXRRQWlGLVA2NU9ZSW15aWQxZ3pPcURIbWItTE5raDU0YzNUN0xuVWpvU2huVjFsZUM1YnFVb1lYZ1dLMDNiRFlNeHo?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 14:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "The Gemini-powered features in Google Workspace that are worth using - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFAwYW8yX3JlQzRSUlVKR1JoUlhGSndEeFR6V1RsQTJLUEl1UkpaUk5kSFY5dW1raEJoTmRSUVNobG5CNU9DdDl4cXJEU3p6T2tKdXpXdlpaeDRYYTAtazNaaC1fZ3NYVXQ5dzE0Z2podXFqeVpaUFhIay1XUEZ2Y0Z2a1FlYno5MlJJdTQwY21oSnFOYnVLN2lDblRYSjdrdkdROFN3?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 16:43:18 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Sequen snags $16M to bring TikTok-style personalization tech to any consumer company - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdUZlcUN1NkpuU2Z0WF9ZdzFCcU1uTXRldG5zWkRfb3U3N0JJZ1N1TXlwdjBUVjVpRDhaaGRuN1gyUXIyT2tLOUtjSlo0NW9jTTF3WUozU3VQbzdGRUFQclUxTjVZd3lya1ZWNGVaX3RsMVVXRmcyaUx3b2w3Z2ZCSnRJYkI1aVNCY1YyMUxJWW1CU29lVjFGTktBYVd0V3pvak5EYXYydG5pRUpKZVJZdmVsZk5xUVZTUWc?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 15:58:50 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Four Years, One School: He’s the Last Loyal Star in March Madness - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxNNDNsdG9WZFNmeVFMa0drcUxvdmZNMk92UUFwMnFGbzVKVGhuLWJjemdsejZBWWd1M0NUenBacjhvNnd5UXU5bU44TGpha21HTmh3UnR6RjZ6d1M5UVhPUEQ0Q1NKY0ZrcU9va2Z3RlBueElLcDd6c1M4a1ZiM3lEcE9NWlpaUThjdEc1ci1zV3Fnd0ctTXp6VHJ2UWJFOVF4LXpjOWk5NDR6UkFzbEJVMVMyYjVfVVRhZDc1LVc4RW4xNWNTYm1xM3pYNGdLTFlQNHpHMlFRdEJiRkRLUEhQV2c4ZmcwNjQxYm9ySjZld0tPc0tfa1lRMXJDZmVxZG8tVUJiQkxTRUhtNTNRQTRvdXFoazdxYXVXWXIzUDRjVnRVbXhVcWhQMkZGQkllV19iNk01U2ZNUUMxaXBvWVRlazVMMW5jVE5QbnVySFlYTmlCdm42cEdMOURtdzg3aEFaRmxIMG1RbWFuUzM5U1Yydjh0T2pVRWdjT1Z6WFhFOE1OUkFzRWJhc3JwMGU?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 11:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Make Money Not War: Trump’s Real Plan for Peace in Ukraine - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxPYVVjTDRCV24xU2pCOGtOeVBsZklqZERmcTV0UXVqeWw1MzdFQ0ExOWVyOUllM3BtWVlCMVdpSFhDWURBeUJuQm42UEtRa2pOUWdYRzcyUUI4NUEtTnM0S1J2eUtRREJnNjY0U05GZ3k4SHRaSjllcnIxLXhnZ1N0S0JlVmdvcFREblJIMnkzRmd6VHVBd1p2cjBMZG5KNlBvSFhLNU1aQTR5NjJnZGlzZHpBeWhXTmtIWjNINEpzYlFSQ2hlLTA2Rk1qd1B6UG1yWlpXbkRBbm5NbmZBZjM4ZEMteEl1aVpSZWVicnd3WXFPWUNSY2RmZW1xOW5JS2NndG56b2EyWVZMcUJteUFxMGpxMklvZ29qUXg5Qm5NZmZBVlhJeHRSVUFGUllyWWpBVmpIUjRpVUU0d2dOcGdYNTBuTXZyTDI0T2p1Y2ZsSzE3WE1jVTNVM1NwRDhSLXlmdDFQTXJRQmhMdUhTMmd6NWg0ck04amh2T0cydmtNeGVkZw?oc=5",
+          "pub_date": "Fri, 28 Nov 2025 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Body Scrub, Concealer and Shoe Trinkets Star in Brands’ ‘Microdramas’ - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMirANBVV95cUxNV3ZzbEFqTFIxNFVIYWV4SjFxSU5GS2I1d1R1N1JkUHM1VkJSekdDVUhabi1rdXJlNW01R2FIOS1wQlZFYTg3VkZGZjNYaE1ySVdlYmFfUkh0eFd0YXFVWGhfcE9tVko5ZHBFVHNjLW1SRHN1SlZvTkxocElwYjUxNUFEX2JUNW1pUUc4Ql9oaFdfVFdJamRyS2I1WDllOFJXTGlkblFkM0xwMlUwZHdUX3ZDWEZETmpvMk1oMEIwV1pZeHptMlhZWERib2p3TTJtZHItQ3JfTkpPWVUtOGNzeEpkUDIzMThESkRnbEpTbjFwV1BZN1ZiZjVnMU40b2s2aHhZVUtHckl5NUJwNV9xTzNWR2NLREVOT2locGdBLU9kUUNHWUI1Znl3ejNFNmdwVUVmdktUOEZ6cmlodlotTjVaUm44TlRJWDNTWER6NXNZc0s2ZG5TYlRoZDFYN2txYWZhbFQ3elhzOHlEZUl4OUhIdmw1YWM0Z19hazZIOTlzTk5sRU9lY2oyZFN5QnFXUjNDWXFQZjJZQ2o4azdXaElCWVpXNjZobzY4Zg?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 10:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "The star investor and sports data pioneer disrupting Scottish football - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVWhqTmpEb3R2a3o4M3pKQXB2aHZ3cEh0NnFMbERySmU0NkVrVjg2SERNMFROOFlNWVJNc2RPOWJiUkw5NVUwY0R4dXZWTExnQ21BOUNIZ1VBcVZNYnZvbTVIU0FJQW1VUDhyMkp3Z2VMendPZUhDVWljalRBTXJpallvTmo?oc=5",
+          "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Donald Trump praises Japan’s ‘tremendous support’ over Iran war in Oval Office meeting - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd3liaDBROTU2QlBCVmJrZHJPMUt4WU81cVJTQnA3a3Npa1NQalR6MXozcXhTeGhjWElwMXpwb2RVTzhXOFptcUJYV2dQVFVJZjFpS19GdXJHdUVYQXZ4VmIwSW15TzI2TUVESlZyelZuS1hOSV9OaFNLWGoyQkVldEJtX24?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 18:41:03 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Tokens may soon drive the AI economy - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVkhyd0xDc0Y1TmE2RUd4cFdoYVVBMnBMZTNUeEFCcklMNUNFdlByYTkwTWRUSV9WLTBXOVFOazFDdm16VV9WQUh0QzJtenkwZkRJeGpwLXIzaHNKN0d5dUN1Zmx5RnQ2U0YtR29rd19maXg4bUJmVGMydWx5ekRLOGtXUVk?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 17:43:02 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Pakistan separatist group welcomes US-Israeli strikes on Iran - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2gzRXJZV1ZDZlJKVmE1MTJlWEthWGZRRGcteXhUdjl5V2s1eWdtc0txSzhlbmN4ajN0cXp3VTltMWRsalJrWndKWW9sel9UcWhuQi1LUlpjYnpHUEsyWVJUcnp5TkpsVGRNWjA0WWJtdUdkS2NsUXRJR2FsTnhwV0tjY3pFYjB6Z3NkeTZWVGlrRW53VV8yekNPUTlfdkdjR29fQkt3OXV1QXVfYlE?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 02:55:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Nvidia's $1tn rise puts spotlight on Asian suppliers' emissions - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQXhoOGpWSFBuT29BaDN4TzE4MWI0VW1aMF8yMnBUMXhIYnBOMWFfVnh6b1E0NzdEU1k2VUNqa2VZOVV5VUFYM3k4NTVYZnMxSnhhamdjRVVvNl9yaGtpUm82UWJ6Sy1RMDlLLVpsdzVRd3VOaUFhdnNZSVNDLURRUTRVU0xsN1B6aEl1eFRrdWR1M2Vkbk1HZlRmSFMxTldsSTA4M2dKWnM?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 12:31:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "BYD plans $57m R&D center in Brazil to put EVs to the test - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUNFM2d1bk5YU0xQRDFEaS14T0NuRFRfenNTamtkdzBQeFpBYXFWcVFYRVpjTm9sQU0tSk9jb1pyWWFNLTA1VmlNMnRVYkVOTm5yLTV0MjI0SFM5ZkpJcVdmaTg0NEhfUFRLSjYzSVRnV2x1V2JTX3EteWRlNEU4NWF2b1NqMlBRMWJtZkJaZjZpNDB3Y0UyLVpFQlg4eWRlTW1MZjlJVFhsNk1BUzJvZFdJVEI?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 21:30:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "A Rising Star at Microsoft Promises a Restored Xbox—and No ‘Soulless AI Slop’ - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT09Ram42eEs4a1h2a1JObTZqLXVRVGpfMUtmTjVqdEhjLWc1VnBwZ0E3dlQ4UnVfdXBhTktQTEJWUzNMV1lWSk56a093bUZLbXl3a0FhYjdlMTZfaFJNcy1jV1RZbDFjenQybnR1YkpRUmJuWjJUWlVJcFpWR0hRdUoxZGNwVW1NZ1dFenYtT1p2bmJ1RU9uX3dqYnVCUm5qS2FJ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 16:06:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "Apple’s App Store Rules Are Stuck In Past - The Information",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSTJoRElYYlBSRm8wTGl3R0x6S1dNWGRmNVJxendXaTdncmszREZaaVN6Y2R6VTVTX1I3Z3paMkVnY2ZobFQxWXBwNVFoNWFTbUJmRFRNU2RNNHBvdHVNdnVTbGRULS12X0dKWkc4VGVxc0o0emthSTB3WDh0cko2MThfN2xzVUxxTDJISGgzMFlUWkU?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "Nvidia’s Build-A-Claw Workshop - The Information",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOUI0TTNPU3VLWHlhQTlNSjFtRC1SbWtkNjRjQmhScWFSMTZLZTcwOFR1T1JMa29XZUU3bWhDZjBoRHhJazBKYXJGSEhUTlhRa0I2VXY5TEotdHJ0LURrSS13VzFpc2x4b3ZRT1dubzVYZjRyV1RpaTVPVzk4ZHkyOXgtX1FRUEE?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 16:15:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "The Complete Open-Source Startup Stack: 100+ Tools to Build, Scale,",
+          "url": "https://oneuptime.com/blog/post/2026-01-08-complete-open-source-startup-stack/view",
+          "text": "The Complete Open-Source Startup Stack: 100+ Tools to Build, Scale,\n\n# The Complete Open-Source Startup Stack: 100+ Tools to Build, Scale,\n\nA comprehensive guide to open-source alternatives for every tool your startup needs.\n\n@nawazdhandala• Jan 08, 2026 •\n\nOpen Source Startup DevOps [Observability](https://oneuptime.com/blog/tag/obs",
+          "score": 0,
+          "published_date": "2026-01-08T00:00:00.000Z"
+        },
+        {
+          "title": "Makestar corporation",
+          "url": "https://www.makestarcorp.com/blog",
+          "text": "Makestar corporation\n\n# Blog\n\n##### 코드 하나 모르는 디자이너가 사내용 제품을 만들기까지\n\n2025. 12. 17.\n\n##### 앨범버디 (해외 팬의 K-pop 앨범 구매 경험을 더 편리하게 만들기까지)\n\n2025. 11. 12.\n\n##### 더위 뭐예요~??? : 메이크스타의 여름나기 프로젝트\n\n2025. 10. 31.\n\n##### 주문퍼널 단순화로 본 결제 전환율 개선 이야기\n\n2025. 9. 5.",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "메이크스타 Google Cloud 도입 사례 - 메가존소프트",
+          "url": "https://www.megazonesoft.com/customer_story_makestar/",
+          "text": "메이크스타 Google Cloud 도입 사례 - 메가존소프트 -- --\n\n# 메이크스타\n\nYou are here:\n\n## 메이크스타 (MAKESTAR)\n\n#### 구글 클라우드에서 서비스 중인 팬덤 플랫폼\n\nAbout\n\n메이크스타는 팬 중심의 혁신적인 팬덤 플랫폼으로, 아티스트와 전 세계 팬들을 연결하여 특별하고 즐거운 경험을 선사합니다. 단순한 앨범 판매를 넘어 팬 커머스플랫폼으로 팬들이 아티스트와 소통하고 꿈을 지원하며 함께 성장하는 공간을 제공합니다.\n\n팬덤을 위한 다양한 이벤트, 독점 콘텐츠, 아티스트와의 소통 기회를 제공하며, 팬들의 목소리에 귀 기울이고 적극적으로 반영하여 만족도를 높이고 있습니다. 또한, 지속 가능한 K-Culture 성장을 위해 친환경 앨범 제작 및 공정한 수익 분배 시스템을 구축하고 있습니다.\n\n주요 특징\n\n✔️ 팬 중심의 서비스: 팬들의 다양한 니즈를 충족하는 맞춤형 콘텐츠 및 이벤트 제공\n\n✔️ 편리한 팬덤 활동: 직관적인 웹사이트와 앱, 간편한 ",
+          "score": 0,
+          "published_date": "2024-12-24T00:00:00.000Z"
+        },
+        {
+          "title": "This year's most influential open source projects - The GitHub Blog",
+          "url": "https://github.blog/open-source/maintainers/this-years-most-influential-open-source-projects/",
+          "text": "This year’s most influential open source projects - The GitHub Blog\n\n· @leereilly\n\nDecember 22, 2025 | Updated January 6, 2026\n\n| 9 minutes\n\n- Share:\n\nFrom Appwrite to Zulip, the Open Source Zone at Universe 2025 was stacked with projects that pushed boundaries and turned heads. These twelve open source teams brought the creativity, the engineering craft, and the “I need to try that” demos that make Universe special. Here’s a closer look at what they showcased thi",
+          "score": 0,
+          "published_date": "2025-12-22T00:00:00.000Z"
+        },
+        {
+          "title": "Open-Source Data Engineering Projects - Simon Späti",
+          "url": "https://www.ssp.sh/brain/open-source-data-engineering-projects/",
+          "text": "Open-Source Data Engineering Projects\n\n# Open-Source Data Engineering Projects\n\nThis note is for data engineers and developers. Here are some open-source data engineering projects that you can explore:\n\n## # My Projects\n\n- 💎 Obsidian Note Taking Assistant: Local first Second Brain RAG for any Obsidian Vault (works with any Markdown). Works with DuckDB. Also includes a web-app. [Blog](https://motherduck.com/b",
+          "score": 0,
+          "published_date": "2026-03-04T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 76.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "12 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01629963"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=메이크스타"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=메이크스타+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=메이크스타 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=메이크스타 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=메이크스타 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=메이크스타 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EB%A9%94%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%83%80"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
+}

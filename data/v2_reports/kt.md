@@ -1,0 +1,302 @@
+# KT — 기업 분석 리포트
+
+**지역:** KR | **티어:** 1 | **등급:** A
+
+---
+
+## 1. 회사 개요 & 현황
+
+### 기본 정보
+
+| 항목 | 내용 |
+|------|------|
+| 설립 | — |
+| 대표 | 이선주 |
+| 본사 | — |
+| 직원수 | — |
+| 평균연봉 | — |
+| 평균근속 | — |
+
+
+
+
+### recent_news
+
+- {'title': '정부부처 주간일정 및 보도계획(1월29일~2월2일)', 'description': '공공기관 채용비리 관계 차관회의(오전8시, 비공개) △김용진 2차관, 공공기관 채용비리 관련 합동브피링... AI방역 관계기관 합동 영상회의(오전 8시30분, 세종) △김현수 농식품부 차관, 차관회의 및 정책홍보전략회... ', 'link': 'http://news.mt.co.kr/mtview.php?no=2018012809334433148', 'pub_date': 'Sun, 28 Jan 2018 13:15:00 +0900'}
+**company_name**: (주)케이티아이에스
+**company_name_eng**: ktis Corporation
+**stock_name**: KTis
+**address**: 서울특별시 영등포구 여의대로 14 케이티빌딩 10층
+**industry_code**: 63991
+**established**: 20010627
+**homepage**: www.ktis.co.kr
+**ir_url**: 
+**stock_code**: 058860
+**corp_class**: Y
+### google_news
+
+- {'title': '“AI 사업 강화에 사활”···KT·LGU+, 인재 채용 활발 - 시사저널e', 'link': 'https://news.google.com/rss/articles/CBMic0FVX3lxTE54WUd1cnFOaS1JNXBsWHB5M1ZIQ2FXUm9Dc0VFZnN1RzVFZDl5MlIyb0s3N1lTMjlNWnh1dVVtc0VDY1lnWFlRSnlNUUNsT0d2U0h6Tm53YjlmalhDREFaU21EcTFLVUxUSnBPUGZ2amZ5emM?oc=5', 'pub_date': 'Tue, 02 Sep 2025 07:00:00 GMT', 'source': '시사저널e'}
+- {'title': '통신업계, AI 교육·스타트업 실무형 인재 확보 위한 투자 확대한다 - mstoday.co.kr', 'link': 'https://news.google.com/rss/articles/CBMia0FVX3lxTFBGbHg4NW1sSU5Vb3VPUDVxOURHSjFpYVFKUl9LYVdpR0VKa0t4bGR0R2ZkYnc0RWU3V1RtbHdOYlFaTjF5aFpKZnlSeWV6dEhGNXhzUm43dWNJMkk2bFo5OTNTaWo1NVdGdE9z?oc=5', 'pub_date': 'Tue, 25 Nov 2025 08:00:00 GMT', 'source': 'mstoday.co.kr'}
+- {'title': "버즈니, KT알파 쇼핑에 ‘추천AI' 기술 공급 - 지디넷코리아", 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYWXptTjNIbEJPSjRUZjhJZlgwbkxfZmlpODhvSlJmSUhrVWo0ZUlob3ZOcnBFNlk0RWN2Q3hMTUJYak4wRkRWQm81Q1dURWg0c2I4MF9R?oc=5', 'pub_date': 'Tue, 23 Sep 2025 07:00:00 GMT', 'source': '지디넷코리아'}
+- {'title': 'KT, ‘AX 인재 사관학교’ 에이블스쿨 9기 모집...채용 연계 지원 - 이투데이', 'link': 'https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJWEF3ODVyMXE5Q1BVYmM0REc4SHJCQWl2MUIzOEZLZzZuTFpTQjljVFB5Mm5KU3RMbl9qbzhHOExxdWFJZHZaU2xYMl9OWmJaSm52UQ?oc=5', 'pub_date': 'Thu, 18 Dec 2025 08:00:00 GMT', 'source': '이투데이'}
+- {'title': '공채 축소? 우리는 늘린다… KT클라우드 신입 채용 나선 이유 - ER 이코노믹리뷰', 'link': 'https://news.google.com/rss/articles/CBMibEFVX3lxTE1DQVFzaHdZZXdnZktGZU5uTHpBeVJ1RldyeEp4TWhCa3NFb1llZHZ1VERuZElSTk93bGJSY3VWd1FVclAxOW1xV1ZBUThpQk5UX25qdWM0QWc5ejBrZV9yWFMxYV9LTDJUQkJHdQ?oc=5', 'pub_date': 'Mon, 08 Sep 2025 07:00:00 GMT', 'source': 'ER 이코노믹리뷰'}
+- {'title': "KT클라우드, MS 애저 인력 대거 채용···'애저 MSP 전락설'에는 선 긋기 - 전자신문", 'link': 'https://news.google.com/rss/articles/CBMiTkFVX3lxTE5SQmxqTjcyNHFqUG15c2FYZXFTLWRhUG1vb3M3ZWYyMUU2LUlIZ20wTlhWX0VFOUR4aGFmNUdnWjdoa182NGFldkh2eml1dw?oc=5', 'pub_date': 'Sun, 29 Jun 2025 07:00:00 GMT', 'source': '전자신문'}
+- {'title': '"누구나 참여 가능"…KT \'K intelligence 해커톤\' 개최 - 청년일보', 'link': 'https://news.google.com/rss/articles/CBMiakFVX3lxTE1RNkZMQ0s0SU9pRGRaUjFqb2R2eWlmaVdQTFRKMU5DcGJYTU1EVEZyR011OG9kTkJxYl9SNF9FQktLQ3N0SWF3Ujc2ci1KNUxhQjRmN0FvSFA4WDR3ZkRSV2l4MmZOMzFGX2c?oc=5', 'pub_date': 'Thu, 14 Aug 2025 07:00:00 GMT', 'source': '청년일보'}
+- {'title': '‘확장에서 전환까지’ 테크 인재 확보로 새 판 짜는 기업들 - 스타트업엔', 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLZUlMVUhNMmJNYzFlOEtTd0pTbENEVkZVXzZudi1ZSmRrX1dOenhaWDdkalN6b3ZJbF9UWDVQVWFRbzQtYjFnVGMtLTl6WGVQcWdRTjVFSy1qNnVXNF9xYlY3clh4ejJ10gFsQVVfeXFMUEFhRV82a2tsSXJfLW90UXNSVlozU0VUaHVoZHNia3ZIb01hRVhJcU1tSklHc2lNb1A4R0cwTUlSdGx1cW4yclJoSFE5SFBSZnRGZmZIT09VMDItOGhwWFNLRDVvUV9CclNJb3FO?oc=5', 'pub_date': 'Thu, 05 Jun 2025 07:00:00 GMT', 'source': '스타트업엔'}
+- {'title': 'AI 패권 전쟁 속 韓 급부상…정우진 KT 전무 “민간 주도 전략 절실” [2025 AI&CLOUD] - IT조선', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTFBqcEt2bW45empJSDF1TVJGeklfZVZMb3M1Nk9vTmt5YU9nTTBXZWZ0Q1VFY3RkTGNucFgtenh4ZHpBdnJndVJwNkFLN0lvZUMxbTlHaDk2dDE3LXJQRDBZY0tCMEExUXJDajl6SmJDM0XSAXRBVV95cUxOX0JCTUxuaUl5Y3duY3FfeVVhS2tQUVNobjdrc0VwRXNNVERRcHlZWE5QTWhXUVpnVm95SlpmYUUweFRERnF6WVVQQ1prektCVzJPcl9Rb0pjeVBQXy1RbE9vaWJMQk8wVHFwa09wT3locW5XeQ?oc=5', 'pub_date': 'Wed, 14 May 2025 07:00:00 GMT', 'source': 'IT조선'}
+- {'title': '"반복 업무는 AI가, HR은 전략에 집중"...마이다스그룹 \'H. Insight Day\' 개최 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GVTF1ZGtsa3htbzJFc092bVRYdHdjZ1RqX2VkamZtQjAzR3lyelF6Z0hOZEN0RmZVUHRIMjZTcEpvaEpsbWhkdDdLS0NaZjJjZEpkbXVn?oc=5', 'pub_date': 'Tue, 24 Jun 2025 07:00:00 GMT', 'source': '지디넷코리아'}
+- {'title': 'KT, MS와 협업 강화…“대한민국 AI 역량 강화 지원” - IT비즈뉴스', 'link': 'https://news.google.com/rss/articles/CBMibEFVX3lxTE1kQWRGeGZaMF8tcVNwY1hzMF9IelBITE0xOTJrMTAyYjhSQkgweHUxUUYzZjJrOUVRaEpiVldpN2dqUjQtaTZTRGVUbE45amVyZ0k2LXk2U2Jmb3BOOG5nWFk3c1JKVjZZSUUtRg?oc=5', 'pub_date': 'Thu, 27 Mar 2025 07:00:00 GMT', 'source': 'IT비즈뉴스'}
+- {'title': 'KT 생성형 AI \'믿음\' 과제는? "MS 의존도 탈피·인재 확보" [한국형 LLM] - 뉴스포스트', 'link': 'https://news.google.com/rss/articles/CBMiakFVX3lxTE41bkhZSDVUWGRNY3JVN3dnUDh3RUt0VnpxSWdoQmNZWS1JaGtHZGxtQjVIdmtPMW90bmR5cW5vVFU1UVZwdmVvNjZVWnM3NE9sN0R5YXVDNDVaT2Z3Smw5MENGUzAzejU2RFE?oc=5', 'pub_date': 'Fri, 07 Feb 2025 08:00:00 GMT', 'source': '뉴스포스트'}
+- {'title': '숏폼으로 ‘실적 부진’ 탈출 노리는 KT스튜디오지니···숏폼 기획 PD 채용 - 시사저널e', 'link': 'https://news.google.com/rss/articles/CBMickFVX3lxTE5uT0M1UmZYWFo2QURGY2ppNlhHVE45dVlmNWRzcXBFTVZpeTV3Y2k0WnMycWdHcS1IZmR2THUtMGRuT2p0ZGktYUhuSlFER1U5RkYydEtZbEFfbklFdmNVcVd5SmpuazF2Mml1RmthM2FGUdIBdkFVX3lxTE9fS2U5SUxFVEVqUkk5NmctWEJZMnNUaVV3ZFpnbklENDhBOWtoTTdob0dJVlBlWWVUYU03N0pkZzA0RjVxNGV1THVHdDRJYXpHRkdmY1UxX2l4dVdxa1lEU0E2eUxmMldqSmU1bmNlZDZrV08tY0E?oc=5', 'pub_date': 'Tue, 24 Jun 2025 07:00:00 GMT', 'source': '시사저널e'}
+- {'title': 'KT, 팔란티어 사업 담당자 대거 채용...B2B로 반전 노린다[팩플] - v.daum.net', 'link': 'https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PWTE0dDZ0eXY2b3VCTTAwblBUZHZNU1c3SUY5aTczdEw4Y1FGUXBqYVJ0dFpFQVdwQlBUaFgxTzNZWVVnblZfZTVDMUZvUDg?oc=5', 'pub_date': 'Thu, 04 Sep 2025 07:00:00 GMT', 'source': 'v.daum.net'}
+- {'title': 'KT그룹, AI·IT·클라우드 인재 확보..."사원부터 임원까지 전방위 수시 채용" - AI타임스', 'link': 'https://news.google.com/rss/articles/CBMiakFVX3lxTFBfYzBka3FfN0E2QmJHaV82SkkxMmFWVjgtWm10ZGFySkxKMksyb0toZzVDQjZ6cTBkc1JNU3pUcGxJRmNSbXIyRU1VQzJPTF80cEduY0Jvc3N5Ums2Y3dSRmRQWkhjTmlqSVE?oc=5', 'pub_date': 'Thu, 15 Feb 2024 08:00:00 GMT', 'source': 'AI타임스'}
+- {'title': '[KT] 통신주 투자, KT가 다시 주목받는 이유(2025년_4Q) - 네이버 프리미엄콘텐츠', 'link': 'https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRVRWVVpicTc5eU1HME5Eb0JOUlg1YmxEcndpbzRrTGdRYzBKSjdnWlIyXzA2MDNmSFNNZmtKVzBka2hHNFFFbmhzQ2RYOWphZ1dOZWN1X2g4aUV6Z1VuOW1EelVKSW1lRlNRNTZyWVVSdnRFZ0w2UGhyRUpjcWdsbW1Oa2VlbXNM?oc=5', 'pub_date': 'Fri, 13 Mar 2026 05:37:00 GMT', 'source': '네이버 프리미엄콘텐츠'}
+- {'title': 'KT, 해킹 사태에도 실적 방어…작년 영업익 2.4조로 3배 껑충 - 디일렉', 'link': 'https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pZTZ0amZMaXBBVEdta2p6Rkp0RTFBMnJMekJGM2dqQVNxZmhWMmFnWXBTaXdqWW5RT3BfLUd6RzV6Q2Y3SDM2U3pIX3VraC1oZDFhY29Sb2hqT1I0cEJNQjE4SkdOQQ?oc=5', 'pub_date': 'Tue, 10 Feb 2026 08:00:00 GMT', 'source': '디일렉'}
+- {'title': "'全 사업 고른 성장'…KT, 2분기 역대급 실적 기대 - 연합인포맥스", 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTFBwZ05kVzYtOEQtU3hMbFFCRjNQelZzOXJRY1FkOVNSbXk0QWJteU9raGlsVEhpSW9TR3k5dXd6MmhucFVMUWV3a1Z5Qk5WMGhYaGxpQi01ODB6bnBiUG5Rb2p3OE5lR29Kcl9jU2pRWEw?oc=5', 'pub_date': 'Wed, 23 Jul 2025 07:00:00 GMT', 'source': '연합인포맥스'}
+- {'title': '“매출·이익·배당 다 올랐네” KT 실적 ‘깜짝 반등’ - 매거진한경', 'link': 'https://news.google.com/rss/articles/CBMibEFVX3lxTE1hc0tCeFBiUUM5Yi1XRmh3S3RzR2M5dDNlN05RbTE0TEVaNl9GZUp4UkQxTGktdjRrcnJIV3lhZlk4dlRTZ0Jib1RnWXNXc0kwT0NvYldCVHNhd1JGTjBPZzdOdDNkWGRiNmRadQ?oc=5', 'pub_date': 'Tue, 10 Feb 2026 08:00:00 GMT', 'source': '매거진한경'}
+- {'title': 'KT, 2분기 영업익 1조148억···전년比 105.4%↑ - 시사저널e', 'link': 'https://news.google.com/rss/articles/CBMickFVX3lxTE9tYmhQcEZ5NTNreTB3QzRKOFllbmNXTHJKZFBiTzVoVkpPSnhiZ1dnbHB1d1NMdHVnUF9peTJyZ1hYX2dGUUtjeFJtM0l4Tmk5azJaY0VWREFwbUtUYWhhNExNSHcxZVZJZl9QSkZxYldiQdIBdkFVX3lxTFBUZUJHZ3FtYU1JRjRZRTNqVjhEX05HS255bTZkMWxIQnFPQnNWLW5XZW93SmhVdFl4d0loMHZSUXp1MkNnOVBoRm84anpLdlNUeGQyRzI3ZHBhUnUzcHVmV3RwYTdMeV95bEd6UDJvbC1nQlc3Ync?oc=5', 'pub_date': 'Mon, 11 Aug 2025 07:00:00 GMT', 'source': '시사저널e'}
+### korean_credible_news
+
+- {'title': 'KT,e-금융 유통사업 진출 - 모바일한경', 'link': 'https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlVWVVVlZkZsV2FMSmV5X2lDVnV3Z0pGU1lUc3ZpRTMtSC1aeEZqd3UyVlpSNjkxVUFtNWZuQVZ2VEJRX1RuQTJneU14NVRxMlJMWHdoZk1XV3NkUGFJNEZGUjRwNzVSTHgzdzR1TjNWUmUzajFqVThYcy1NMGg0MW0xNkJfWmM?oc=5', 'pub_date': 'Mon, 03 Apr 2006 07:00:00 GMT', 'source': '한국경제'}
+- {'title': 'KT, KOSA와 확산 협약 - 한국경제', 'link': 'https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGY2F2MFhZenQ1bDdPWC1aZ295M0FUVXFaLVVZa3k4RmQ3eVRSbHRsc2hpZTdWb3VmNEludE5xaGNrX0pVUHJCcU1xQWlRdFVzNnBDMV9wWXNLQdIBVEFVX3lxTFAyYjNlcXB6U1hRUGkyZGhGeTQzVUlDcFoyMEJDQnpwVXA2eGxPUXc1NEY0LXV4YzNSWkZvMWM1WkM4empwVHZ4bmRkZGxOUndqZE1JNQ?oc=5', 'pub_date': 'Thu, 19 Mar 2026 08:11:08 GMT', 'source': '한국경제'}
+- {'title': 'KT 알뜰폰은 5500원에 데이터 무제한 - 한국경제', 'link': 'https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QOHdJT0dQelppS0dvVHpESUh5MVhUazZHN29tZlE1a1Y4blV4RjR1VGRtY3BEb0xoU1VqdHJ0LW04azRLSDB6Nmw2QTZNbVpqM2dRWFFsejhSQdIBVEFVX3lxTE1TUk1OUzZkSmx6bEpIN2t0c0NwSzBhcjdKSHRIUXpqTkFBeU1oQVp6cTItTmdhY3lhR1BtZGtYcHBWeElTN3pNb3FmWVplbks4MGZGdw?oc=5', 'pub_date': 'Thu, 19 Mar 2026 08:25:27 GMT', 'source': '한국경제'}
+- {'title': '\'퓨처스리그 디펜딩챔피언\' KT, 개막전 7-2 승리…팬들 위한 다채로운 이벤트 개최 "올해는 1군에서 만나요" - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMigwFBVV95cUxNbElqeDd0Q05FeHJCbVVMZnFGY3FveGFGbWpLejMyT3pBTEFqazRCdTM0VEZpbHFOTEJrQXBZcUZFZzRVTXd0ZUh6T0JZRmxtdFVxcHlhTUtuSmowa3htY0dNcmNhNlBrR21HQUQzU0RaTnVuN1MwcDRnM2VKSU1qZHl1WdIBlwFBVV95cUxPTWRYcE4wcUF1M2VqQnV0WUVTTWlKNjM0LXU1bklMVFdqMngtamc1WXdPMzBVVnVVNkdIbHhYRXl6eVU1SnNDTGJlQVZBU2JsenR4TlFZVG03dG1MMmdwcWIxbmJsUGVTa2ZXaDE1Z0dMaGFqcVJmaDVlQndRVlJsUlMzdXdXS0pvLUtqWmcwdV9QUXMyUXRF?oc=5', 'pub_date': 'Fri, 20 Mar 2026 08:02:00 GMT', 'source': '조선비즈'}
+- {'title': 'KT밀리의서재, 출판사 손잡고 AI 독서 콘텐츠 강화 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMiggFBVV95cUxPUDNWSVU1WnpCUlFNYXFyRmFxWHNPaEhmakZOdVdqemVCU2VQVmp1YUlVZHhPeEJSLTFXSElUUjFGa1BfRlYxdjdzdk1ObWJ0WWM1bE5ONkU5bExsSUJlU3hBbm56X24tVUhEZHZzcVNmdG5oeGIxZlBWOXI4ZFVVdW930gGWAUFVX3lxTFAtYU5sTHFaS21MVVhjVWlyX1JrbE9wSEM4Yks3bEM4bDV4WlhvNW11YkJkdW1nTnVkQ1ozWlBWMUlGTnVicDFnZzFxMUdpbWFOczJvczlIcl9xNmpwSGE2bEJGZktWWFg0V1VQeWdBUzEyekRSdmtXOVV3WlhvYjV4T3o0OThHNnE1ZEVEOEFiN05OcFJxQQ?oc=5', 'pub_date': 'Fri, 20 Mar 2026 04:30:00 GMT', 'source': '조선비즈'}
+- {'title': '‘하루 만에 꼴찌 탈출’ KT, 키움 4-1 제압…고영표 4이닝 무실점+힐리어드 첫 홈런 [수원 리뷰] - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMilwFBVV95cUxNaElBbTVEVmlmRGs1b3g2OHV1cnRaZTVVb0RMVjVYQTVSS0pvTGFsRXBnLXMzLVQ4TXBCNGhXVFY4T2pHaUV0cG5RUVFKX0tnN3hBVi00UGI0eXNNeVc5cVhRbkFwanE4S3V6eXJZbndtWFhqdmt4SWhua2hFYXV2RUljWEtqU2FnejFSdDlTLW1GTUExeGhB0gGXAUFVX3lxTE1oSUFtNURWaWZEazVveDY4dXVydFplNVVvRExWNVhBNVJLSm9MYWxFcGctczMtVDhNcEI0aFdUVjhPakdpRXRwblFRUUpfS2c3eEFWLTRQYjR5c015VzlxWFFuQXBqcThLdXp5cllud21YWGp2a3hJaG5raEVhdXZFSWNYS2pTYWd6MVJ0OVMtbUZNQTF4aEE?oc=5', 'pub_date': 'Fri, 20 Mar 2026 06:16:00 GMT', 'source': '조선비즈'}
+- {'title': 'HD현대, 스타링크 도입해 선박 건조 효율↑…KT·KT SAT와 맞손 - 매일경제 마켓', 'link': 'https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mT0RMeUVUb3JoM2M3MXBGeUxtVVhVQUhpekxsRTVPbzFvNEdDZGkxcmhzZ2Q3S3F3MHJDaHpWRXVvNmJ1cUl0amVBOUhjWmwx?oc=5', 'pub_date': 'Thu, 11 Sep 2025 07:00:00 GMT', 'source': '매일경제'}
+- {'title': '[단독] BTS 때문에 일매출 2천만원 날리는데 괜찮다?…KT의 ‘특단 조치’ - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kZUlyck95R1BSc2Ixam9YUTg1ZFEwV0gtMEowNHlyYjQ3UjRQQ2pROEZHZHU4UDRya0xiWDRDbDlhQ3Q1RS1WSFg0VWRRYnU4TnBpZjNB?oc=5', 'pub_date': 'Thu, 19 Mar 2026 03:08:00 GMT', 'source': '매일경제'}
+- {'title': '‘NC 초비상’ 라일리, KT전서 왼 복사근 불편함으로 조기 강판…“병원 진료 중” - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uMmJyWWx2LUVQYjZacVAzb2E4dHJDWUhmU0YwMGd0NGdwWVN2a1cwWjRoU3BVY2EzSFo2NGJBaERVdkhQSUtJVnFhdDZ5Tlc2RU1F?oc=5', 'pub_date': 'Sat, 21 Mar 2026 10:40:00 GMT', 'source': '매일경제'}
+- {'title': 'KT, 1200억 규모 재난안전통신망 첫 우선협상대상자 선정 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZNjY4TF9wRkltdm96SkgycmFSaGM5eXBPTXFTWEk2dDJhR0xOZmFENFpvTGZnQm44V1ZJT3ZUcUFrdS1yLWpjbG9LOEJ5NV82M3plMll3?oc=5', 'pub_date': 'Fri, 20 Mar 2026 08:05:09 GMT', 'source': 'ZDNet Korea'}
+- {'title': 'KT 이사회 논란, 정기 주총 벽 넘을까 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4aWpncklqaXY2d0gtSHE0WFRPb2JLejRYOUwtR2RnOUhObVREdUpOYWEtcVNKenp5LVIybkUwcDRYbFNJaEN5V3BWLXp2V0ctX2NnLWZ3?oc=5', 'pub_date': 'Tue, 17 Mar 2026 08:19:34 GMT', 'source': 'ZDNet Korea'}
+- {'title': 'AI 인재 인증 공신력 높인다…KOSA, KT 평가 체계 고도화 추진 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sRmRaQW9wbXM4ZXh3akV4Vnc1Y0VULW82ZlpXbEoycWc0ejc0bWVSYVczSl9IbmtiUkpKTXAtaTJJYVM3WHpjQnRVOUxDWTIxRzBoRS1B?oc=5', 'pub_date': 'Thu, 19 Mar 2026 02:07:32 GMT', 'source': 'ZDNet Korea'}
+- {'title': "[딜 리뷰] KT, 공모채로 3000억 조달…영업망 관리 '마중물' - 블로터", 'link': 'https://news.google.com/rss/articles/CBMibEFVX3lxTE1yNEdSejRUX3BUYjFIMF9QM2JtaXVqYkQ4TTdXSmlmTXVDSTRsRUZxRFlmUlIyM19nQ3JfU1FOR1dfdG1YbTR4Sl9CZ2JSby1LQjE3b0hPekg3Y0VRaGhJbWpMcDNVUEphT1ZXY9IBbEFVX3lxTE1yNEdSejRUX3BUYjFIMF9QM2JtaXVqYkQ4TTdXSmlmTXVDSTRsRUZxRFlmUlIyM19nQ3JfU1FOR1dfdG1YbTR4Sl9CZ2JSby1LQjE3b0hPekg3Y0VRaGhJbWpMcDNVUEphT1ZXYw?oc=5', 'pub_date': 'Fri, 20 Mar 2026 03:23:32 GMT', 'source': '블로터'}
+- {'title': 'KT 윤종수 사외이사, 주총 앞두고 재선임 포기 - 블로터', 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GMTlRTUJQaWFuS3VFUXI5V09UQnNRbmtYVXBDU0M0clpTVHhhNk1sYzJIWE53ak9MZXhPT1R1TXNvaTNNbW5keXN0S1FZUTRvN0pSbE1BSmI5VzUzQ2tlRzFaQnpGRzBj0gFsQVVfeXFMTVNkNWNMOVdvSGNTdjJhMGUyYjdCbU1KRC14S2dXR2x1bEV6TUxpdDNPZHVkWTFmYmdGUWI3UzY4QkNZMkdRWm15ZDBfLXJpWl9fcWoxbGZMRHdnUk1FRXduLWgwOTJUU0ZNS3Bk?oc=5', 'pub_date': 'Mon, 16 Mar 2026 08:06:53 GMT', 'source': '블로터'}
+- {'title': "휴대폰 '안면인증', 6월30일까지 시범 운영 연장 - 블로터", 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FajNpWGRBSFhoVk1CRlY3eC1mVFN4ZjZ6RFdGaXlDN3BLbFVUQzZMdWlUeWVlelE5cmc3bVN4V1BlSjQwaDFsQ1E3RlZyRzJOelFZdklzbnJKZXEybkpCcWUtdWQ1cDR50gFsQVVfeXFMTjlFZHdSLU5pRF95RURTV3NXLXRSOEhwZlJrR0Z2aDlDRmFqc05xNkE4VnVHMURpOTJ1M0VOeFFYTWpGT01DVnlXR3ZhUThMX19zZncxallnVWJBRFZqYS1HYTB6VjJGandjNG5n?oc=5', 'pub_date': 'Fri, 20 Mar 2026 08:33:37 GMT', 'source': '블로터'}
+- {'title': 'KT알파, 신임 대표이사에 박정민 전 SK스토아 대표 내정 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4RlZkR0drd1dkbnNVSHRxYk1sa1pLRzBndlhTWlAtX1VwT19nN1J6NTRPQjVvY1FHdGJKZ1hMWFdsYVZTTng3S2laRHZLdEs2ZmZFcw?oc=5', 'pub_date': 'Wed, 11 Mar 2026 08:55:35 GMT', 'source': '바이라인네트워크'}
+- {'title': 'KT, SDN 기술로 기가인터넷 구축시간 단축 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiT0FVX3lxTFAwdGRwcWNRLXJudmY1VnhRSnQ2eEtNaDExWGJwRW1aT3lsVjlLOGxNN2VuTWItU0pPdk1YU0dWVUxpSkp1Q09WZHJaMlhISFU?oc=5', 'pub_date': 'Tue, 03 Apr 2018 07:00:00 GMT', 'source': '바이라인네트워크'}
+- {'title': 'TTA, ‘원M2M’ 글로벌 인증기관 지정…KT·SKT 등 4개사 IoT 플랫폼 최초 인증 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZZ1Y3MVRCbWdvaWNIdnZRWllzNlVjTzZ5SUxyeXlaVGkzXzQ0WnBPcFRQQmZyRHlydVRRaGVhU3dabk02M3FJOGRJYjZSQQ?oc=5', 'pub_date': 'Wed, 08 Feb 2017 08:00:00 GMT', 'source': '바이라인네트워크'}
+
+> 💡 **면접 활용**: 기업 기본 정보와 실적 데이터를 바탕으로 "왜 이 회사인가?" 답변을 수치로 뒷받침해요.
+
+---
+
+## 2. 산업 포지셔닝 & 경쟁 구도
+
+이 섹션은 추가 데이터가 필요해요. (산업 분석 소스 수집 필요)
+
+---
+
+## 3. 경영진 & 그룹사 방향성
+
+
+
+### naver_web
+
+- {'title': '제조업의 미래, AI로 혁신하다: KT 제조 AX 전략 세미나', 'description': '2025년 5월 22일, 서울 강남 조선팰리스에서 열린 ‘KT AX 전략 세미나’는 제조업의 AX 전환을 위한 인사이트를 공유하고, KT의 AICT 역량을 소개하는 자리였습니다. 이번 세미나는 AI 대중화 시대에 제조업 현장에서 AI 기술을 어떻게 적용할 수 있을지 고민하는 기업 관계자들에게 맞춤형 해결책을 제시하고자 기획됐습니다. KT는 자체 보유한 인프라부터 AI 솔루션, 글로벌 파트너십 역...', 'link': 'https://enterprise.kt.com/bt/dxstory/3226.do', 'pub_date': ''}
+- {'title': 'AICTCOMPANYKT_.pdf', 'description': '핵심가치 KT는 AICT Company로 전환을 위해 역량, 인력, 사업 혁신에... Responsible AI중기 지향점비전 및 핵심가치 중기 지향점 AICT Company로 도약하는 KT의 전략방향은 AICT 본업의 혁신·성장입니다....', 'link': 'https://corp.kt.com/archive/ipgrpt/attach/now/AICTCOMPANYKT_.pdf', 'pub_date': ''}
+- {'title': 'AI 시대의 공공서비스 AX 전략, KT가 제안하는 ‘한국적’ AI 여정', 'description': 'KT 공공사업본부장 유용규 전무는 공공기관의 실질적인 AX 니즈를 분석하고, AI 인프라, 클라우드 기반 플랫폼, 글로벌 협업까지 세 가지 관점에서 해법을 제시했습니다. KT는 자체 AI 모델(Mi:dm, 믿음)과 오픈소스 모델(Llama 3), RAG·LLMOps 기반 플랫폼을 조합해 기관별 특성에 맞는 인프라를 유연하게 구축할 수 있으며, 국방·교육·디지털플랫폼정부 등 다수의 AX혁신사례를 통해 공...', 'link': 'https://enterprise.kt.com/bt/dxstory/3164.do', 'pub_date': ''}
+- {'title': 'KT, AICT 서비스 회사로 거듭난다', 'description': 'KT가 스페인 MWC 현장에서 AI와 ICT 중심의 경영 비전과 사업 전략을 발표하며 대혁신에 나섰다. 이를 위해 뼈를 깎는 내부 쇄신과 인재 영입, 과감한 개방형 파트너십을 확대한다는 계획이다. KT(대표이사 김영섭, www.kt.com)가 27일(현지시간) MWC 2024 행사가 열리고 있는 스페인 바르셀로나의 NH칼데론 호텔에서 기자간담회를 열고, ‘AICT 서비스 회사’로의 KT 혁신 비전과 로드맵을 공개...', 'link': 'https://corp.kt.com/html/promote/news/report_detail.html?datNo=18231', 'pub_date': ''}
+- {'title': '비즈니스 가치를 높이는 AI 전략, KT AX Tech Day', 'description': 'KT는 AI 풀스택 서비스를 기반으로 소버린 AI, 커스텀 GPT, AI 에이전트, AI 엑셀러레이터, 고객 상담 자동화 등 5대 주요 사업 분야를 중심으로 다양한 기술 적용 사례를 소개했습니다. 특히 태국 자스민 그룹과의 협업을 통해 국가별 맞춤형 AI 플랫폼을 구축한 사례와, 한국어 특화 GPT-4o-K 개발을 위한 마이크로소프트와의 협력을 강조했습니다. 신한은행과의 AI 에이전트 PoC, 실시간 ...', 'link': 'https://enterprise.kt.com/bt/dxstory/3198.do', 'pub_date': ''}
+- {'title': '국내기업의 AI혁신 여정과 KT가 제시하는 한국형 AI', 'description': 'AI, 단순한 기술이 아닌 전략적 자산으로 부상 ; AI는 기업 전략과 비즈니스 모델 혁신의 핵심 요소로 자리잡고 있습니다. 국내 기업들도 예외가 아닙니다. KT가 실시한 약 1,000명의 국내 기업 임직원을 대상으로 한 설문조사에 따르면, AI 도입은 조직 규모나 산업군을 가리지 않고 확산되고 있으며, 업무 자동화뿐만 아니라 전략적 의사결정, 고객 경험 혁신, 데이터 기반 분석 등 전...', 'link': 'https://enterprise.kt.com/bt/dxstory/3502.do', 'pub_date': ''}
+- {'title': 'KT, AI로봇·AI케어·AI교육으로 사업확대…“2025년 1조 돌파”', 'description': 'KT(www.kt.com)가 21일 서울 중구 노보텔 앰배서더 동대문에서 기자간담회를 열고, 새롭게 집중할 맞춤형 AI 서비스인 AI로봇, AI케어, AI교육 사업 전략을 소개했다. 이 자리에서 KT는 AICC와 AI물류 등의 AI 사업에서 약 8,000억원 이상의 누적수주를 달성하는 등 빠르게 AI 사업이 성장하고 있다고 밝혔다. 또한 2025년까지 AICC, AI물류, AI로봇, AI케어, AI교육 등 고객 맞춤형 AI 사업에서 연 매출...', 'link': 'https://corp.kt.com/html/promote/news/report_detail.html?datNo=17897', 'pub_date': ''}
+- {'title': 'kt cloud summit 2024 개최, AI·클라우드·IDC 전략·기술·비전 공유…”AX 시대 리딩”', 'description': '▶ AI·클라우드·IDC 분야 기관∙기업 관계자 1,000여 명 참가 성황리 개최 ▶ ‘AICT for all Business with Cloud and IDC’ 주제 동향·기술∙서비스·고객 경험 등 소개 ▶ ‘AX with Cloud∙IDC’, ‘공공 정보화 사업 혁신’, ‘AICT 방향성 및 전략’ 키노트 호평 ▶ ‘AI/교육’·‘클라우드 네이티브/공공’·‘IDC/보안’ 3개 트랙, 30개 전문가 발표 세션 ▶ “AI·클라우드·IDC 시너지로 고객...', 'link': 'https://tech.ktcloud.com/entry/kt-cloud-summit-2024-%EA%B0%9C%EC%B5%9C-AI%C2%B7%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%C2%B7IDC-%EC%A0%84%EB%9E%B5%C2%B7%EA%B8%B0%EC%88%A0%C2%B7%EB%B9%84%EC%A0%84-%EA%B3%B5%EC%9C%A0%E2%80%A6%E2%80%9DAX-%EC%8B%9C%EB%8C%80-%EB%A6%AC%EB%94%A9%E2%80%9D', 'pub_date': ''}
+- {'title': "KT, AI 전략 선회…MS보다 '믿음' 모델에 힘 싣는다", 'description': 'KT가 인공지능(AI)과 클라우드 사업에서 미국 마이크로소프트와 협력을 전면에 내세우던 전략에서 자체 개발 AI 모델의 중요성을 재부각하는 방향으로 노선을 수정한 것으로 관측된다. 이재명 정부에서 신설된 최고인공지능책임자(CAIO)에 소버린 AI의 중요성을 설파하던 하정우 수석이 임명되는 등 국가 전략 자원으로서 독자적인', 'link': 'https://v.daum.net/v/20250702102701234', 'pub_date': ''}
+- {'title': "KT, AI 융합으로 '디지털 혁신 파트너' 도약 나서 | e경제일보", 'description': '로봇, 르완다 사업 등 수익성이 낮거나 미래 전략과 맞지 않는 사업들을 정리하고, AI와 미디어·콘텐츠 사업에 역량을 집중할 수 있도록 조직을 재편하고 있다. 동시에 AI 해커톤과 숨은 고수 발굴 등 임직원의 AI 역량 강화 프로그램을 적극 추진하고 있다. 이러한 노력은 KT 주가에도 긍정적인 영향을 미쳤다. 김 대표 취임 후 최저점에서 약 20% 상승했다, 이는 시장의 기대감을 반...', 'link': 'https://www.economidaily.com/view/20240819144650581', 'pub_date': ''}
+### exa_strategy
+
+- {'title': '[MWC 2026] KT Unveils 6G Vision for AI Transformation - Businesskorea', 'url': 'https://www.businesskorea.co.kr/news/articleView.html?idxno=264373', 'text': '[MWC 2026] KT Unveils 6G Vision for AI Transformation - Businesskorea --\n\n이전 기사보기 다음 기사보기\n\n[MWC 2026] KT Unveils 6G Vision for AI Transformation\n\nPrint URL Copy Fonts Size Down Fonts Size Up\n\nScroll Move Status-bar\n\n- 댓글 0--\n- 2026.03.04 20:33\n- Editor Kim Eun-jin\n\nPrint URL Copy Translation -- Fonts Size Down Fonts Size Up\n\n## KT Outlines a “Hyper-connected, Ultra-reliable” AI Network for 6G, Focusing on Integrated Infrastructure Rather Than Speed\n\nLee Jong-sik, Executive Vice President and Hea', 'score': 0, 'published_date': '2026-03-04T00:00:00.000Z'}
+- {'title': 'KT Corp 2025 Profit Triples to KRW 2.47 Trillion on AI Growth', 'url': 'https://www.thepickool.com/kt-corp-2025-profit-triples-to-krw-2-47-trillion-on-ai-growth/', 'text': 'KT Corp 2025 Profit Triples to KRW 2.47 Trillion on AI Growth The Pickool - Korea Tech News, Business News, and Startup News\n\nSource: KT\n\nSeoul, South Korea — KT Corp(KRX: 030200, NYSE: KT) reported on Tuesday that its consolidated operating profit for the full year 2025 increased 205.0% year-on-year t', 'score': 0, 'published_date': '2026-02-10T00:00:00.000Z'}
+- {'title': 'KT Corp. Annual Operating Profit Surges 205% as AI and Real Estate Drive Growth - AlphaStreet News', 'url': 'https://news.alphastreet.com/kt-corp-annual-operating-profit-surges-205-as-ai-and-real-estate-drive-growth/', 'text': 'KT Corp. Annual Operating Profit Surges 205% as AI and Real Estate Drive Growth - AlphaStreet News\n\nBREAKING\n\nAgilent Q1 Revenue Rises 7%, Net Income Declines 7 hours ago Synopsys Q1 2026 Earnings Results 8 hours ago [Key highlights from J.M. Smucker’s (SJM) Q3 2026 earnings results 9 hours ago](https://news.alphastreet.com/key-highlights-from-j-m-smu', 'score': 0, 'published_date': '2026-02-10T00:00:00.000Z'}
+- {'title': "KT's AICT Pivot: Tripling AI Revenue While Returning KRW 1 Trillion to Shareholders (NYSE:KT) - KT Analysis - BeyondSPX", 'url': 'https://beyondspx.com/quote/KT/analysis/kt-s-aict-pivot-tripling-ai-revenue-while-returning-krw-1-trillion-to-shareholders-nyse-kt', 'text': "KT's AICT Pivot: Tripling AI Revenue While Returning KRW 1 Trillion to Shareholders (NYSE:KT) - KT Analysis - BeyondSPX\n\nBeyondSPX has rebranded as EveryTicker. We now operate at everyticker.com, reflecting our coverage across nearly all U.S. tickers. BeyondSPX has rebranded as EveryTicker. ×\n\n# KT Corporation (KT)\n\n—\n\n$21.23\n\n-0.55 (-2.55%)\n\nFollow Stock\n\nGet curated updates for this stock by email. We filter for the most important fundame", 'score': 0, 'published_date': '2025-12-03T00:00:00.000Z'}
+- {'title': "KT Corporation's Strategic Transformation: Pioneering AICT Leadership and Long-Term Value Creation", 'url': 'https://www.ainvest.com/news/kt-corporation-strategic-transformation-pioneering-aict-leadership-long-term-creation-2510/', 'text': "KT Corporation's Strategic Transformation: Pioneering AICT Leadership and Long-Term Value Creation\n\nSymbols\n\nSymbols\n\nAime\n\nProducts\n\nNews\n\nMarkets\n\nWatchlist\n\nBrokers\n\n# KT Corporation's Strategic Transformation: Pioneering AICT Leadership and Long-Term Value Creation\n\nGenerated by AI A", 'score': 0, 'published_date': '2025-10-10T00:00:00.000Z'}
+### international_news
+
+- {'title': 'India weighs rule to maximise output at imported-coal plants, sources say - Reuters', 'link': 'https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWk5OUlpVWHdaWUlJWWh2SmVmOGpMSlJfalpxRWNlM3R1MFYxdVBwbzJXUklmZTl1MURkOUtNeHR4NDliMmJQck9tdUVKUTU4ZXRyVnQxalVYS0ktSkJTODhWUGN4OEk2SHY0X2FZNnhTdXc5bjFMdW91U29YWXo3WFIyUlRVWURQUkhUYkxBQTZqT1lxWS1TcGFXd3hiQi1Razl2bmJuTGl6a25ZNHBkRWJNelRlSkVZVVlKLUdoR2VXTHpFR09sd0E4UUxTTm5HenFWWnZUOGUwQQ?oc=5', 'pub_date': 'Thu, 19 Mar 2026 14:36:50 GMT', 'source': 'Reuters'}
+- {'title': 'KT.Z - | Stock Price & Latest News - Reuters', 'link': 'https://news.google.com/rss/articles/CBMihgFBVV95cUxQU2JjOVI0RFN5bkpvM3lDbExxR0NHN2xPSk5zaFM5dXRBVjVFLWZkSGlFM3Z2WmZWbjZGUjNxN083SEVKSXMtMnhMWTRjTklYTDFIQ0tUX2dFQmVQdHdwc2ZmcXBMcU1mdFhXWHZrOUFNazFFQ0prSFNUMUNYUEdkYWpjRXdTZw?oc=5', 'pub_date': 'Sun, 08 Mar 2026 21:26:10 GMT', 'source': 'Reuters'}
+- {'title': 'KT - | Stock Price & Latest News - Reuters', 'link': 'https://news.google.com/rss/articles/CBMimAFBVV95cUxQa0pieWpac0F6dnUtVE1udVB2LWNBamdRYUdyVDk2NHpzaVFkUzMzM1lXc3FPa2hRZ19VS1E1ZjRhMlZlZk1WT0pUQWwta3BOZzZqZ3JEUGQzNHM3VlY1dk5FU2pNVU5QYklqdFhWczlYbjV0ZWpCVkxhd1lIVFJEN3l1YWExTzVfbjlONmhJREw3NXBuY2RWWA?oc=5', 'pub_date': 'Sun, 15 Mar 2026 01:22:02 GMT', 'source': 'Reuters'}
+- {'title': 'KT Naples UB LLC - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PTG04d2JoV1dRNEoxQzQxX2x1TTdseGJRYzI3bWoxckZmTnEtSWJQVnVFNkg2enJVVkczcS1HTjR5WjNUSEVZOGV3enM0QXVVQW1Td3gwcnN1eHpBN3ZEOXhEOA?oc=5', 'pub_date': 'Mon, 16 Mar 2026 19:17:50 GMT', 'source': 'Bloomberg'}
+- {'title': 'KT Skylife Co Ltd - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGTUtRTldWVUZSLUFIR0VrMFNLdEgzVnVodTNfLTl4a1dnckFMR01zTDdzejNjLUNSV0x4OHozblplOHlYNmRjc2FLQUxoN3RTQjdKRXcwcFVVem1EWW1BOQ?oc=5', 'pub_date': 'Thu, 28 Feb 2019 04:17:14 GMT', 'source': 'Bloomberg'}
+- {'title': 'KT Telematic Solutions Pvt Ltd - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pQUwyd3lOa25jSnMzemc5WDVwazl1Q2FLbGZieVNmTDllRmdRZkhnRld5Ymw4ZTBWY0lZalBvR3RIRWlNVnQzOFBoMndQYTFpXzFwVHo1NHljSXJIak5uVWFpTQ?oc=5', 'pub_date': 'Sun, 12 May 2019 14:52:39 GMT', 'source': 'Bloomberg'}
+- {'title': 'AMD and Korean telco KT back AI software developer Moreh in $22M Series B - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMitgFBVV95cUxQQTBzSE5HMWxKODJXUGxkZDc5aE5YRklEaVZ6dUNYeF9vN1c3YUxiV1hxeVcyUE1PYzJMNXV3UHhNVjc1UkdCcHY0cFV5LVFhU0pLbzRENjBGWmNyMzRrWG9rcGRVUl9kbFBOakVSVjZvYkRNZC1nZ0RFZmdvN256d1dyMWVRQ2VDWlVTUGY4djRWUlU0Ykl4SFBBQjRRaUpNTXZoTGV3UjZMWEFsaTZqQXM5dEd4UQ?oc=5', 'pub_date': 'Wed, 25 Oct 2023 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'LG Uplus is latest South Korean telco to confirm cybersecurity incident - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS3k2bDVCXy05SGZ5cnZRZU8wT3ZRSTQyTVFvT3FmNW5wYjdsYjEtQXJBS3dMVFo1eVBtREdNZFZOZms0N0VKZkNQLTl1SERWaENYMFV0UFhVa29VTjR1eS05YVNYSkt3b09XWHZjR1pheWpFeXhsYy13UGI0ZVV6X092dEpoTTZQd25YX2V6UTk0UFljdU91VjF6dnNJdVo1b1JpcmZSVVp5dw?oc=5', 'pub_date': 'Tue, 28 Oct 2025 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'AI chipmaker Rebellions gets $22.8M Series A extension from Korean telco company KT - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV2didVN3WW5pU2I3Q3BnejduOW5CY2dmSDdHMFVXQUgxTmpfbl92Qm5vU0l5UVhCZlBlOGdFcWlnTFBlZGNRUzlBYmFvRTJjUGxveWxLQ0wtYm4zalkteGxPMWw0YW0xS0JkMzlIazlablVwVk1PTjd1S0FQOFpfeWVKMDFmeVliSS1SbUhvUlBoeVozQU9TMEVmLXhBc09HOHpkQWsxRHpYYjNGZ2ZuaHpPWGU5NWpl?oc=5', 'pub_date': 'Tue, 05 Jul 2022 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'South Korean Telecom KT Agrees to $6.3 Million Settlement With SEC - WSJ', 'link': 'https://news.google.com/rss/articles/CBMirwNBVV95cUxObkxlMDRKcVBqQk5zYVBqb3YxcFlGS0pQVERIbkwweXA3VnoxYVhlLVNoZ1pLcGp2c2F3bUp5NS14YklNWDNJUmI0NlV4aVZWbXdVZ0RkUEd6a2RVMk9oUXhOZWRTYzVHX0J4ZmVUNXFzSS1heURiek43YTd5dFVDQVpzTDd5bDV4OUFmSDVtU2V6QUJrbEVGTUNLWmZOUk1Hb1NseUl1cUtQbUFIM1hfZVlSNUdaajhxTnZISEQ5N3BpX3IweHAyaWdEcldKMGtZQmc3bG0yRnM3SVZHanlzbWJfaXMwVW1PTHduTE5UX2JmXzF4UjZNazBoYnp5ZFQ5QjR5cmtXdDllUkpuM0lZRzJ5RDFybDhiU3hpSEFZZ0hIU2dIVUZrRVctOWloU0VtbGhCSk1yY3N5M1VPUFk5LXYtVGEyWFd6NnVVakwwbWRWcWdlREFkT0RVbFNzQzRacXl0bWZ5eWpTd3JOa2pBd2l1NXo0clQwX0lMNUtLYW1RMWlhMGFzNHNfWE5yUnU2WFZkdnQ3NFhlT09sVDI1LVhEaXFvX0V0TElmdFBmcw?oc=5', 'pub_date': 'Fri, 18 Feb 2022 08:00:00 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'Staff Hierarchies Make a Comeback At KT Corp - WSJ', 'link': 'https://news.google.com/rss/articles/CBMinANBVV95cUxQdnBkQnhaNmJrOU9Mei1xaHBlWjZiQ0NCZmtEVzEyeEZwcW11RGhXbFl1Q29WMmR3ZnVYOUZSV2RPZzc1Zm1aOTMtTjJtSE9BNm1DM1ZLUW9tcDc4cHVSbVB5dXUzSi1SUG54UFRyOXpOMGk4d3ZvVkw2Mmk3VU84YXBxN0pyZ1JJTUp0OWxneWlSVkF2U2phOFdDRWxlaVdZQnVVUEl6ZWd0cVpldGtLWnFxT09YaGl2SmpXb0xKWEMzOUJTYk02bmVKXzdacWxMd0tfaEp6QjhqdjcwSlJlb0dnQmZScUZHdGx1UEY3Y2FIRWNOODk5YlhKenI0NTlzY0xTSnN4bzQ3N1Fkczh4YXRzZS1NbXdNTXVaWl9HTnhRMlRzUzRuTlJDYUdaSVhXQUZQMFQyT2lDb0FwYUFXMVQ0ckVJc3hpM2t3bHJWcXMzRUJLRDROZmdwa1lCT1hYendoOVRfcGFXdW1tdkltaTlQQjlYMmJlSEhOWExyMjNnaXh4ZUQ4bjFZSEZWVVVaei0zNFFWX1piMkwt?oc=5', 'pub_date': 'Mon, 23 Jun 2014 07:00:00 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'KT | KT Corp. ADR Analyst Estimates & Ratings - WSJ', 'link': 'https://news.google.com/rss/articles/CBMi7wJBVV95cUxPeXBWeElrbzVza0V3QkZtTTliaVpEN0xaYjg5eVRuOHNDYnZCVFRVcXA3MmUxbmE3dWJHYlQ2R2tsSVdfckRLeWxWLUN0eHNrRXJud20wRnlmX0RwN2JIV0pkdEp2ZHB1Slk5TXgzQ3dJOU9pbTZMRWVONnhCZVlzUndHV3F3VTRGY3ZwcThxS3M1Yk0yd3FCLWFRd2xWZWppMkpvTElRclhSSy1nLUVUOEIxQzlQanVoOU9TSzdZNm13U0N1TFFGOEFqR1ZGVktLN2k4djhucGdOVXdnT015M1k2NkhTSUMxMkxyQWNQX1UxdHZLaUVrV2U3bEhkcmhrMGJiZ0RmSlF3Q2E5V2t5NnlReUJEYTl2aUNVQ3l6bHg3a1lhV2hWWnNwbklCZXhvWnhpTXlBb0g0S2twMEFUNTYxRVR3THZtaXI0Ql9tNEdsX0F1UHlCMldpRmc2ZGt2VUhGd2VwTnkyTXlWYVZV?oc=5', 'pub_date': 'Sat, 21 Dec 2019 04:46:12 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'Ryanair and KT face stock turmoil over removal from indices - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE1HdWhwX0FGS25Zc0JvdzdKT1F5ZEdjY2NTLUx2Y0NWU2ZORjNUb1NSWEwyWUFEdG93QW43bFlKOG1pNjBuUzJfWjl5M29NaktxSWt0ekR0NTBHSXZqR29QU1UzTzNZUnBVX3VwekFwdnA?oc=5', 'pub_date': 'Mon, 11 Mar 2019 07:00:00 GMT', 'source': 'Financial Times'}
+- {'title': 'The Inventory: KT Tunstall - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE54QXY5QlpYN3ctZjZpTjZCeWdXUHViV0p4b2UyeHBYaG8zWG5kMXhlekFSb3lESHJhRGNOaGt1V09WSmJmR1ZsVjUwTDU2d01ZNFVEMlVVTF9nMlBmc3pjQ2ctX0tWUHhkWVlQbVowS1k?oc=5', 'pub_date': 'Fri, 29 Jul 2016 07:00:00 GMT', 'source': 'Financial Times'}
+- {'title': 'Monday interview: Hwang Chang-gyu, KT chief executive - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE8zTlVPNFNuZ29pdHJmanBWak5TQVV5VE9JT29KenFXdmpzR0d2SWlfTTUzaEZLNkFMbDBZRzRmWEY0ZFg4RHZiU2w0c3hISWFoWTZMY2dLQVBCVTNqcTBadWQ2MXl0QkpRWURqVzRLN1k?oc=5', 'pub_date': 'Sun, 03 May 2015 07:00:00 GMT', 'source': 'Financial Times'}
+- {'title': "South Korea's KT left with power vacuum after political meddling - Nikkei Asia", 'link': 'https://news.google.com/rss/articles/CBMitgFBVV95cUxQUER6SlhTV3ZqellOQjc1NWtYbHJxU0JKc3RDUktnM2Z2MzJUaDVKNG1PeU9MMkxzcWhkYl9MWV9GRGhtenRfQUM3YTgzRk00cTE2MEtqVzEwQzNoTmxXemV1SzB1VXZLVnNNQjhMWUVFR0p0RVpSc0ZXdWt0bVJ0b1FEMVN5TF9hLVRKOHhYeTJJdWpBMVNIcmRiejkyWnpQdFdjSzBNWkRzUld5ZksxZVo3WnBlZw?oc=5', 'pub_date': 'Thu, 06 Apr 2023 07:00:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': "Tokyo game developer Meleap ties up with South Korea's KT - Nikkei Asia", 'link': 'https://news.google.com/rss/articles/CBMiogFBVV95cUxQekR2d0xQMVJsWkxYbTU0X0lJTzdjY3RrVEd4ekxoUW9GcWV6OUotNEk0VGNRdXVaSjhtWjcwSkY2MGNvWVh6UG5OUWJEZ3JpVlo1c2psQnJGNWVrQmZ3Zk45UVQwWXZ6Z0F0aUh0VDRCazRqcmpxbndjVW9XWFo2NnlSU1BiNEV1a2ltQTBmTjBFdG82ZHBGRTkyVTNtMU5Cdmc?oc=5', 'pub_date': 'Tue, 10 Apr 2018 07:00:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': "South Korea's KT and Shinhan Bank step into metaverse with tie-up - Nikkei Asia", 'link': 'https://news.google.com/rss/articles/CBMirgFBVV95cUxPMm1sLTZER0w2eFVVTFdFZmJDN1NZVENMS3JXLTNjZ1k5a1pXNnVta3pzemo1R3RPaDl0RVY2a3JwM0tjX2I4TlFHZzU5Z2V5Z3hEZ2xwR08wWEQxVjN4S0ZDWTBQdnF0YTl2M3RkRVNWbGppVFZNLTdDdlh0YUU5UU1ZSVYxRlBzSDNJMnZMcDRoejF0bjhKcy1MTG5UQU5OaEpRekw1Z1hRRVl6TlE?oc=5', 'pub_date': 'Wed, 19 Jan 2022 08:00:00 GMT', 'source': 'Nikkei Asia'}
+
+> 💡 **면접 활용**: CEO 발언이나 그룹 전략 키워드를 면접 답변에 녹여서 전략적 이해도를 보여주세요.
+
+---
+
+## 4. 조직문화 / 철학 / 인재상
+
+
+
+
+
+### naver_blog
+
+- {'title': '2026 합격 가이드 (ft. 서류, SKCT, 면접 분석/합격 후기)', 'description': '26 2023 상반기 신입사원 채용공고 2023 하반기 신입사원 채용공고 더 많은 2026 대기업 채용 예상일정 보러가기 (클릭) SK하이닉스 최신 합격스펙  2026 SK하이닉스 최신 합격스펙   SK하이닉스 최소 합격... ', 'link': 'https://blog.naver.com/afsangdo/224224434718', 'pub_date': '20260321'}
+- {'title': 'KTm&amp;s 면접 후기 정보 1차 2차 신입 채용 준비', 'description': '2차 : 조직 융화력 및 근속 의지 평가 실무적 관점을 넘어 지원자의 내적 가치관과 기업 문화 적합도를... 매년 KT 그룹 다수 합격생 양성 KTm&amp;s 면접 평가 기준 숙지 및 교육 최근 합격생 후기 토대로 구성 직무... ', 'link': 'https://blog.naver.com/joeuncamp/224223505024', 'pub_date': '20260320'}
+- {'title': '샘표식품면접학원 PT면접 임원면접 후기', 'description': '조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ', 'link': 'https://blog.naver.com/jobpass_/224222106115', 'pub_date': '20260319'}
+- {'title': '[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ', 'description': '[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ', 'link': 'https://blog.naver.com/ytjoo88/224215031143', 'pub_date': '20260313'}
+- {'title': '한화에어로스페이스 면접 질문 (PGM사업부)', 'description': '코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ', 'link': 'https://blog.naver.com/ve_getable/224210299768', 'pub_date': '20260309'}
+- {'title': '한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ', 'description': '한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ', 'link': 'https://blog.naver.com/label3548/224210103873', 'pub_date': '20260309'}
+- {'title': '고려아연 면접 후기 (AI역량검사, 1차 영어질문)', 'description': 'workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ', 'link': 'https://blog.naver.com/fusekimo198735/224209926005', 'pub_date': '20260309'}
+- {'title': '한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격', 'description': '다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ', 'link': 'https://blog.naver.com/ve_getable/224207830667', 'pub_date': '20260307'}
+- {'title': 'KT엠모바일 면접 후기 1차 실무 2차 임원 신입 경력 질문 대비', 'description': '않았고, 기업 문화와 제가 얼마나 잘 어울릴지를 확인하는 질문들이 많았습니다 어려웠던 점이나 팁이... KT엠모바일 전문 코치 다수 구성 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별... ', 'link': 'https://blog.naver.com/label3548/224205495763', 'pub_date': '20260305'}
+- {'title': '2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)', 'description': '제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ', 'link': 'https://blog.naver.com/magicpaul7/224204238038', 'pub_date': '20260304'}
+### naver_cafe
+
+- {'title': '[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.', 'description': '외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.', 'link': 'http://cafe.naver.com/inhadigital/306', 'pub_date': ''}
+- {'title': '서울3대 재즈바 entry55 사당점 바텐더 채용', 'description': '[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ', 'link': 'http://cafe.naver.com/ibartender/110690', 'pub_date': ''}
+- {'title': '요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서', 'description': '회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ', 'link': 'http://cafe.naver.com/uworldexam/151745', 'pub_date': ''}
+- {'title': '정책뉴스20260321토요일', 'description': 'KR / 문화체육관광부 국민소통실2026.03.20 [보도자료] 김민석 국무총리 주재 정부 드론·대드론 통합 TF 회의... KB금융지주, KT&amp;am... KOREA.KR / 보건복지부2026.03.19 말과 함께 달리는 인생 2막 과거 건설현장(토목)에... ', 'link': 'http://cafe.naver.com/jungamironware/9268', 'pub_date': ''}
+- {'title': '한국은행 (Bank of Korea)', 'description': '연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ', 'link': 'http://cafe.naver.com/smilejobs/768', 'pub_date': ''}
+- {'title': '2026년 3월 20일 금요일 정책키워드 총정리', 'description': "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-19 오후 12:00:00 기획재정부 재경부 &quot;범정부 공공개혁TF 결정된 바 없어&quot; [보도 내용] ㅇ 정부가 공공기관 조직개편... ", 'link': 'http://cafe.naver.com/magicbank/3332', 'pub_date': ''}
+- {'title': 'SK하이닉스 vs 삼성 연봉 인센티브 복지 비교', 'description': '반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ', 'link': 'http://cafe.naver.com/grayjuinb/23', 'pub_date': ''}
+- {'title': '[20260320] copilot / chatgpt / gemini 대화록', 'description': '조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ', 'link': 'http://cafe.naver.com/woodmanwriting/207', 'pub_date': ''}
+- {'title': '인천적십자병원 물리치료사 채용공고', 'description': '후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ', 'link': 'http://cafe.naver.com/pinklqgzd/1923', 'pub_date': ''}
+- {'title': '2026-03-20 뉴스 정리', 'description': "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ", 'link': 'http://cafe.naver.com/todaybigboss/4858', 'pub_date': ''}
+**snippet_count**: 30
+**avg_rating**: 2.6186528497409327
+### positive_themes
+
+- 만족
+- 문화
+- 복지
+- 성장
+- 워라밸
+- 자율
+- 장점
+- 좋아
+- 좋은
+- 추천
+### negative_themes
+
+- 꼰대
+- 단점
+- 야근
+- 퇴사
+### snippets
+
+- {'source': 'brave', 'title': '(주)케이티 2026년 기업정보 | 기업리뷰 2,128건, 3.2 ...', 'description': '5휴머노이드 열풍 속 국내 로봇기업, 잡플래닛 리뷰는? 6트럼프가 또… 이번엔 그린란드? 7코스피5000 돌파! 대체 어디까지 올라가는 거예요↗ · 8경력기술서에 쓸 것과 쓰지 말아야 할 것 · 9잡플래닛 제휴대학 서비스!', 'url': 'https://www.jobplanet.co.kr/companies/53191'}
+- {'source': 'brave', 'title': '(주)케이티엔지니어링 2025년 기업정보 | 기업리뷰 45건, 3.0 리뷰평점', 'description': '(주)케이티엔지니어링 기업정보 - 장단점 키워드: 자회사, 장점, 지원 | 기업리뷰: 침몰하는 배로 탈출은 지능순입니다. | (주)케이티엔지니어링의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 ...', 'url': 'https://www.jobplanet.co.kr/companies/312728/reviews/%EC%BC%80%EC%9D%B4%ED%8B%B0%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81'}
+- {'source': 'brave', 'title': '케이티지(주) 2025년 기업정보 | 기업리뷰 154건, 2.2 리뷰평점', 'description': '개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · ad같은 팀 과장한테 고백공격 당했는데, 어떡하지? 1&#x27;혹시 지금이 탈주할 타이밍?&#x27; 직장인 퇴사각 테스트 ·', 'url': 'https://www.jobplanet.co.kr/companies/219256/reviews/%EC%BC%80%EC%9D%B4%ED%8B%B0%EC%A7%80'}
+- {'source': 'brave', 'title': '(주)케이티클라우드 2025년 기업정보 | 기업리뷰 51건, ...', 'description': '(주)케이티클라우드 기업정보 - 장단점 키워드: kt, 날, 대기업 | 기업리뷰: 우리회사 괜찮라요 좋아요 데이터센터 전문가 | (주)케이티클라우드의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 ...', 'url': 'https://www.jobplanet.co.kr/companies/396540'}
+- {'source': 'brave', 'title': '(주)케이티 2025년 기업정보 | 1,872건 연봉정보, 5,360만원 평균연봉 | 잡플래닛', 'description': '1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.', 'url': 'https://www.jobplanet.co.kr/companies/53191/salaries/%EC%BC%80%EC%9D%B4%ED%8B%B0'}
+- {'source': 'brave', 'title': '케이티네트워크(주) 2025년 기업정보 | 기업리뷰 22건, 2.0 리뷰평점', 'description': '케이티네트워크(주) 기업정보 - 장단점 키워드: 와이어, 위치, 장점 | 기업리뷰: 부서 바이 부서, 부서마다 분위기가 많이 다름 | 케이티네트워크(주)의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 ...', 'url': 'https://www.jobplanet.co.kr/companies/363152/reviews'}
+- {'source': 'brave', 'title': 'KT(케이티) 면접후기와 연봉 그리고 기업리뷰', 'description': '하단의 포스팅은 잡플래닛에 내용을 토대로 작성함을 알립니다. KT(케이티) 기업리뷰 기업리뷰는? 기업리뷰 개발자가 부담없이 다닐 수 있는 직장, 좋은 회사, 안정된 복지 - 승진 기회 및 가능성 : ★★★★☆ - 복지 및 급여 : ★★★★☆ - 업무와 삶의 균형 : ★★★☆ - 사내문화 : ★★★★☆ - 경영진 : ★★★★☆ 장점 윗사람에게 눈치 안보고 자기 하고 싶은 일 할 수 있으며, 자기개발 시간도 충분하고 업무 강도가 높지 않음 단점 단순 작업이 많긴함, 그래도 장점이라면 장점이고 단점이라면 단점 경영진에 바라는 점 앞으로 좋은 기업 만들어주세요.', 'url': 'https://job-story.tistory.com/164'}
+- {'source': 'brave', 'title': '블라인드 | 회사생활: 잡플래닛 평점...정확한편이야?', 'description': '잡플래닛 평점은 리뷰 갯수가 적으면 신뢰성이 좀 떨어지는 듯.', 'url': 'https://www.teamblind.com/kr/post/%EC%9E%A1%ED%94%8C%EB%9E%98%EB%8B%9B-%ED%8F%89%EC%A0%90%EC%A0%95%ED%99%95%ED%95%9C%ED%8E%B8%EC%9D%B4%EC%95%BC-hpWGOh77'}
+- {'source': 'brave', 'title': '잡플래닛 (r60 판) - 나무위키', 'description': '- <strong>전체 평점 높은 기업을 찾기 쉽지 않다</strong>. - 계정과 리뷰 사이의 연결을 끊어서, 나중에 자신이 쓴 리뷰를 삭제하고 싶을 땐 본인 인증 절차를 거쳐야한다.', 'url': 'https://namu.wiki/w/%EC%9E%A1%ED%94%8C%EB%9E%98%EB%8B%9B?uuid=c6bd9890-48f9-41d2-9845-6f9e3c528344'}
+- {'source': 'brave', 'title': '잡플 평점 ⭐2점대→4점대 급상승, 어떤 회사길래? | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 | 잡플래닛', 'description': '7[잡플래닛 어워드] 2022년 상반기 결산 &#x27;기업추천율&#x27;…일하기 좋은 기업은? 동영상00:07:13 · 8개발자의 종류와 앞으로의 전망은? [개발자 커리어 성장문답 EP.02] 동영상00:27:38 · 9취준생을 위한 면접 유형 정복 ·', 'url': 'https://www.jobplanet.co.kr/contents/news-6998'}
+- {'source': 'naver', 'title': '(주)케이티 2026년 기업정보 | 기업리뷰 2,139건, 3.2 리뷰평점', 'description': '장점 : 부바부긴하지만 월급대비 워라밸이 좋음 신입기준 연봉을 올려주고 고용안정성이 좋음 복지도 괜찮음, 단점 : 어쨌든 연수 대비 연봉 상승률이 높진 않다 그래도 정년보장이 메리트로 보임', 'url': 'https://www.jobplanet.co.kr/companies/53191/reviews/(%EC%A3%BC)%EC%BC%80%EC%9D%B4%ED%8B%B0'}
+- {'source': 'naver', 'title': "잡플래닛 평점 4점 이상이면 '신의 직장?'", 'description': '흔히 돌아다니는 잡플래닛 평점 요약본은 이렇습니다. 그렇다면 트레드링스는 어떨까요? 네, 사실 이거 보여드리려고 앞에 말이 길었습니다. 자랑 좀 하자면 트레드링스의 전체 평점은 무려 4.4, 인터넷 커뮤니티...', 'url': 'https://blog.naver.com/tradlinx0522/223030333425'}
+- {'source': 'naver', 'title': '(주)케이티알파 2026년 기업정보 | 기업리뷰 924건, 2.9 리뷰평점', 'description': '장점 : 계약직일 때 야근 없음, 내가 다녔던 부서는 꼰대 없었음, 단점 : 계속 계약직만 뽑음, 점점 줄어드는 복지, 협업하는 부서 중에 인수인계 제대로 안 해주는 곳 있음', 'url': 'https://www.jobplanet.co.kr/companies/7468/reviews/%EC%BC%80%EC%9D%B4%ED%8B%B0%EC%95%8C%ED%8C%8C'}
+- {'source': 'naver', 'title': '케이티아이에스 2026년 기업정보 | 251건의 복지정보 0 전체 복지 통계', 'description': '직장 생활 치트키 ; 휴머노이드 열풍 속 국내 로봇기업, 잡플래닛 리뷰는?컴퍼니 타임스 ; 국장이 불타오른다🔥 대체 어디까지 올라가는 거예요↗컴퍼니 타임스 ; 나도 ‘직장인 인플루언서’ 해볼까?', 'url': 'https://www.jobplanet.co.kr/companies/53178/benefits/%EC%BC%80%EC%9D%B4%ED%8B%B0%EC%95%84%EC%9D%B4%EC%97%90%EC%8A%A4'}
+- {'source': 'naver', 'title': '케이티 2025년 기업정보 | 238건의 복지정보 0 전체 복지 통계', 'description': '직장 생활 치트키 ; 직장인 두부멘탈 테스트 ; 업무 메일을 잘못 보냈다! 어떡하지? ; 성심당 VS 파리바게뜨, 국내 원탑 베이커리 브랜드는?컴퍼니 타임스', 'url': 'https://www.jobplanet.co.kr/companies/53191/benefits/(%EC%A3%BC)%EC%BC%80%EC%9D%B4%ED%8B%B0'}
+- {'source': 'naver', 'title': '케이티마린 2026년 기업정보 | 기업리뷰 14건, 2.4 리뷰평점', 'description': '장점 : 지금은 옮긴 것 같은데 이전에는 센텀에 위치해서 위치가 좋았다, 단점 : 급여가 너무 작고 복지가 아예 없어서 계속 다닐수가 없었다', 'url': 'https://www.jobplanet.co.kr/companies/88833/reviews/%EC%BC%80%EC%9D%B4%ED%8B%B0%EB%A7%88%EB%A6%B0'}
+- {'source': 'naver', 'title': '케이티텔레캅 2026년 기업정보 | 102건의 복지정보 0 전체 복지 통계', 'description': '직장 생활 치트키 ; 휴머노이드 열풍 속 국내 로봇기업, 잡플래닛 리뷰는?컴퍼니 타임스 ; 국장이 불타오른다🔥 대체 어디까지 올라가는 거예요↗컴퍼니 타임스 ; 나도 ‘직장인 인플루언서’ 해볼까?', 'url': 'https://www.jobplanet.co.kr/companies/7473/benefits/%EC%BC%80%EC%9D%B4%ED%8B%B0%ED%85%94%EB%A0%88%EC%BA%85'}
+- {'source': 'naver', 'title': '케이티 2026년 기업정보 | 242건의 복지정보 0 전체 복지 통계', 'description': '직장 생활 치트키 ; 휴머노이드 열풍 속 국내 로봇기업, 잡플래닛 리뷰는?컴퍼니 타임스 ; 국장이 불타오른다🔥 대체 어디까지 올라가는 거예요↗컴퍼니 타임스 ; 나도 ‘직장인 인플루언서’ 해볼까?', 'url': 'https://www.jobplanet.co.kr/companies/53191/benefits/%EC%BC%80%EC%9D%B4%ED%8B%B0'}
+- {'source': 'naver', 'title': '케이티클라우드 2026년 기업정보 | 24건의 복지정보 0 전체 복지 통계', 'description': '직장 생활 치트키 ; 삼성전자 vs SK하이닉스, 어디가 더 일하기 좋을까 ; 휴머노이드 열풍 속 국내 로봇기업, 잡플래닛 리뷰는?컴퍼니 타임스 ; 회의 때 할 말 없으면 어떡해?', 'url': 'https://www.jobplanet.co.kr/companies/396540/benefits/%EC%BC%80%EC%9D%B4%ED%8B%B0%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C'}
+- {'source': 'naver', 'title': '(주)케이티엠앤에스 2026년 기업정보 | 342건 면접후기 2.5 면접난이도', 'description': '면접경로 ; 온라인 지원 : 56%, 직원추천 : 12%, 헤드헌터 : 4%, 공개채용 : 23%, 학교 취업지원 센터 : 4%, 기타 : 1%', 'url': 'https://www.jobplanet.co.kr/companies/53157/interviews/%EC%BC%80%EC%9D%B4%ED%8B%B0%EC%97%A0%EC%95%A4%EC%97%90%EC%8A%A4'}
+### exa_culture
+
+- {'title': 'Working at KT Corporation: Culture, Careers, Benefits, Jobs and more', 'url': 'https://www.ambitionbox.com/overview/kt-overview', 'text': 'Working at KT Corporation: Culture, Careers, Benefits, Jobs and more\nAmbitionBox\nSearch\nCompany\nReviews\n+\nContribute\nLogin\nHome\nCommunities\nCompanies\nReviews\nSalaries\nInterviews\nJobs\nAwards\nWINNERS AWAITED!\nFor Employers\nAdd office photos\nEmployer?\nClaim Account for FREE\n# KTCorporation\nWrite a Review\nFollow (4)\nCompare\n4.8\nbased on 2 Reviews\n[\nAbout\n](https://www.ambitionbox.com/overview/kt-ov', 'score': 0, 'published_date': '2023-08-14T00:00:00.000Z'}
+- {'title': '', 'url': 'https://teamblind.com/kr/company/KT/review/pn6kfx6Fc', 'text': '블라인드 | KT Reviews - &quot;엔지니어로서 커리어향상은기대하지말라&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인KT\nKT\n*Rating Score*2.8*(1,997개 리뷰)*\n이회사리뷰하기KT은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*2.0**\n*1*커리어 향상*4*업무와 삶의균형*3*급여 및복지*2*사내 문화*2*경영진\n*View detailed rating*\n# “엔지니어로서커리어향상은기대하지말라”***Verified User*현직원**· p\\*\\', 'score': 0, 'published_date': ''}
+- {'title': '', 'url': 'https://teamblind.com/kr/company/KT/review/KeqA0sa0T', 'text': '블라인드 | KT Reviews - &quot;월급과 승진에얽매이지않고놀고싶은사람에게적합&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인KT\nKT\n*Rating Score*2.8*(1,997개 리뷰)*\n이회사리뷰하기KT은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*3.0**\n*2*커리어 향상*5*업무와 삶의균형*1*급여 및복지*2*사내 문화*1*경영진\n*View detailed rating*\n# “월급과승진에얽매이지않고놀고싶은사람에게적합”***Verified User*현직원', 'score': 0, 'published_date': ''}
+- {'title': '', 'url': 'https://teamblind.com/kr/company/KT/review/oAS_9g0L0x', 'text': '블라인드 | KT Reviews - &quot;입사 8년차 홀수달월200만원대 받는회사&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인KT\nKT\n*Rating Score*2.8*(1,997개 리뷰)*\n이회사리뷰하기KT은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*1.0**\n*1*커리어 향상*2*업무와 삶의균형*1*급여 및복지*1*사내 문화*1*경영진\n*View detailed rating*\n# “입사8년차 홀수달월200만원대 받는회사”***Verified User*현직원**', 'score': 0, 'published_date': ''}
+- {'title': 'KT Corporation Careers, Perks + Culture | Built In', 'url': 'https://builtin.com/company/kt-corporation', 'text': 'KT Corporation Careers, Perks + Culture | Built In\n\n# KT Corporation\n\nSave Saved\n\nHQ\n\nSouth Korea\n\n10,000 Total Employees\n\nYear Founded: 1981\n\nView Website\n\n## Jobs at Similar Companies\n\n## Milestone Systems\n\n### Contracts Manager\n\nRemote or Hybrid\n\n## Idler\n\n### Software Engineer\n\nIn-Office\n\n## Bellagent\n\n### Senior Account Executive\n\nIn-Office\n\n## Similar Companies Hiring\n\n## Milestone Systems\n\nSoftware ', 'score': 0, 'published_date': ''}
+
+> 💡 **면접 활용**: 핵심가치와 일하는 방식을 STAR 스토리에 연결해서 문화 Fit을 증명해요.
+
+---
+
+## 5. 직무 분석
+
+이 섹션은 추가 데이터가 필요해요. (채용 공고 JD 수집 필요)
+
+---
+
+
+## 7. AI 전략 & 기술 동향
+
+
+
+
+### exa_tech
+
+- {'title': 'Building a Shared Networking Layer using ktor in KMP | by Shubhr Modh | Mar, 2026 | Medium', 'url': 'https://medium.com/@mshubhr/building-a-shared-networking-layer-using-ktor-in-kmp-07d32c834190', 'text': 'Building a Shared Networking Layer using ktor in KMP | by Shubhr Modh | Mar, 2026 | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40mshubhr%2Fbuilding-a-shared-networking-layer-usin', 'score': 0, 'published_date': '2026-03-06T00:00:00.000Z'}
+- {'title': 'Introducing Tracy: The AI Observability Library for Kotlin | The Kotlin Blog', 'url': 'https://blog.jetbrains.com/kotlin/2026/03/introducing-tracy-the-ai-observability-library-for-kotlin/', 'text': 'Introducing Tracy: The AI Observability Library for Kotlin | The Kotlin Blog\n\n## Kotlin\n\nA concise multiplatform language developed by JetBrains\n\nFollow\n\nVisit the Kotlin Site\n\nAI Ecosystem Kotlin\n\n# Introducing Tracy: The AI Observability Library for Kotlin\n\n[Anton Bragin](https://blog.jetbrains.com/author/ant', 'score': 0, 'published_date': '2026-03-01T00:00:00.000Z'}
+- {'title': '[kt cloud] OpenStack과 Kubernetes의 통합, 그리고 NEXT 플랫폼의 탄생 - 기술 블로그 (Tech) | kt cloud', 'url': 'https://tech.ktcloud.com/entry/2025-12-ktcloud-openstack-kubernetes-next-%ED%94%8C%EB%9E%AB%ED%8F%BC', 'text': '#OpenStack #Kubernetes #클라우드플랫폼 #오픈소스 #NEXT\n\n---\n\n안녕하세요, kt cloud 마케팅커뮤니케이션팀입니다! 👋\n\n최근 클라우드와 AI 분야를 둘러싼 기술 생태계가 정말 빠르게 변하고 있어요.오픈소스 프로젝트들이 서로의 영역을 넘나들며 협력하고, 전 세계 기업들이 새로운 인프라 표준을 만들어가는 움직임이 그 어느 때보다 활발해지고 있죠.\n\n이런 흐름 속에서 많은 분들이 자연스럽게 이런 궁금증을 갖게 돼요.\n\n> “글로벌 오픈소스 생태계는 지금 어디로 향하고 있을까?”,“그리고 kt cloud는 이 거대한 변화에 어떻게 대응하고 있을까?”\n\n이번 글에서는 그 질문에 조금 더 가까이 다가가 보려고 해요.\n\n지금 기술 생태계에서 어떤 움직임이 나타나고 있는지, 그리고 이 변화가 클라우드 플랫폼의 아키텍처에 어떤 의미를 가지는지를 차근차근 이야기해볼게요.\n\n부담 없이 편하게 따라와 주세요! 😃\n\n---\n\n### 🌐 오픈스택과 쿠버네티스의 전략적 결합', 'score': 0, 'published_date': '2025-12-04T00:00:00.000Z'}
+- {'title': 'KT and SK Telecom Lead Korean AI Sovereignty With Open Source Language Models', 'url': 'https://completeaitraining.com/news/kt-and-sk-telecom-lead-korean-ai-sovereignty-with-open', 'text': 'KT and SK Telecom Lead Korean AI Sovereignty With Open Source Language Models\n\n* Courses\n* My AI Learning PlanNEW\n* My Favorite Courses\n* All AI Courses\n* [&', 'score': 0, 'published_date': '2025-07-04T00:00:00.000Z'}
+- {'title': 'Adopting Ktfmt and Detekt | Block Engineering Blog', 'url': 'https://engineering.block.xyz/blog/adopting-ktfmt-and-detekt', 'text': "Adopting Ktfmt and Detekt | Block Engineering Blog\n\n~/posts/adopting-ktfmt-and-detekt\n\n$ cd ..\n\n$ cat content.md\n\nFor many years, Ktlint handled both formatting and linting in Square's large Android monorepo. Over time, however, frustrations with certain design decisions and limitations grew and prompted us to explore alternatives. We ultimately migrated the entire codebase to Ktfmt for formatting and [Detekt](https://gi", 'score': 0, 'published_date': '2026-01-05T00:00:00.000Z'}
+
+> 💡 **면접 활용**: 기술 블로그 최근 5개 포스팅을 읽고 AI 전략과 기술 스택을 면접 화두로 활용해요.
+
+---
+
+## 8. 산업 정책 & 규제 환경
+
+이 섹션은 추가 데이터가 필요해요. (정책 뉴스·규제 동향 수집 필요)
+
+---
+
+
+## 10. 면접 준비 가이드
+
+이 섹션은 추가 데이터가 필요해요. (면접 후기·채용 프로세스 수집 필요)
+
+---
+
+## 11. 종합 판단 & 스코어카드
+
+### 스코어카드
+
+| 항목 | 가중치 | 점수 (1-5) | 가중점수 | 근거 |
+|------|--------|-----------|---------|------|
+| Job Fit | 30% | 3.5 | 21.0 | Tech stack data available |
+| Career Leverage | 20% | 4.4 | 17.4 | 13 data points collected |
+| Growth Potential | 20% | 4.0 | 16.0 | ; Strategy data collected; Active news coverage |
+| Compensation & Benefits | 15% | 2.5 | 7.5 | No salary data |
+| Culture Fit | 15% | 4.5 | 13.5 | Culture data from reviews; Exa deep search data; Blog/cafe reviews |
+| **총점** | | | **75/100** | 등급: **A** |
+
+
+
+
+
+### 면접 전 To-Do
+
+- [ ] JD 정독 및 키워드 매핑
+- [ ] STAR 스토리 3개 준비
+- [ ] 역질문 5개 준비
+- [ ] 기술 블로그 최근 5개 포스팅 읽기
+- [ ] 최근 뉴스 3개 숙지
+- [ ] 포트폴리오/과제 준비 (해당 시)
+
+> 💡 **면접 활용**: 스코어카드 점수가 낮은 영역일수록 면접에서 적극적으로 불안 요소를 해소하는 답변을 준비해요.
+
+---
+
+## 12. 핵심 레퍼런스
+
+| 소스 | URL |
+|------|-----|
+| naver_news | https://search.naver.com/search.naver?query=KT |
+| dart | https://dart.fss.or.kr/corp/summary.ax?cmpCd=00372873 |
+| naver_search | https://search.naver.com/search.naver?where=blog&query=KT |
+| community_review | https://search.naver.com/search.naver?query=KT+잡플래닛 |
+| google_news | https://news.google.com/search?q=KT |
+| exa_search | https://exa.ai/search?q=KT company culture engineering team work environment |
+| exa_search | https://exa.ai/search?q=KT business strategy growth AI investment 2025 2026 |
+| exa_search | https://exa.ai/search?q=KT hiring jobs career employee reviews |
+| exa_search | https://exa.ai/search?q=KT tech stack engineering blog open source |
+| credible_news | https://news.google.com/search?q=KT |
+

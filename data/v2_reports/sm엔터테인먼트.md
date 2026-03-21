@@ -1,0 +1,296 @@
+# SM엔터테인먼트 — 기업 분석 리포트
+
+**지역:** KR | **티어:** 1 | **등급:** A
+
+---
+
+## 1. 회사 개요 & 현황
+
+### 기본 정보
+
+| 항목 | 내용 |
+|------|------|
+| 설립 | — |
+| 대표 | 양행열 |
+| 본사 | — |
+| 직원수 | — |
+| 평균연봉 | — |
+| 평균근속 | — |
+
+
+
+
+**company_name**: 주식회사 터
+**company_name_eng**: Teo Co.,Ltd
+**stock_name**: 터
+**address**: 전라남도 순천시 연향동 1468-6번지 3층
+**industry_code**: 68111
+**established**: 20110603
+**homepage**: 
+**ir_url**: 
+**stock_code**: 
+**corp_class**: E
+### google_news
+
+- {'title': '이재현 회장 ′인재제일′ 드라이브…CJ, 상반기 공채 30% 확대 - 메가경제', 'link': 'https://news.google.com/rss/articles/CBMidEFVX3lxTE5UcVpoZW1oZDhHSWJKcDJyUU1TZVlqSm1NdmpwbXA5RGE0bXNubmlPTTItQTR6bUZ6MEd4QWowaEcyVjlmQWpKSEstU3Nad0tLc0RnYWtoa05DdWMxazUyR1I2MlJ3dmw3YlRTSU5zbzM2aWlW0gFyQVVfeXFMTWhadVBlZXN6eTZ0eUFHczl2V3plTmxjdHhaNGpJektDWmpfQWxLSEtCWFAzSXdfNTF4NVg3Y2JObjUwd3RsQnEyZlpzNEtQV25yekg2STZIcFJsV0tKRmM5VTNTYWJIMlZieW1TUWdBWF9R?oc=5', 'pub_date': 'Wed, 18 Mar 2026 07:04:40 GMT', 'source': '메가경제'}
+- {'title': '그리팅, ‘2026 AI 채용 전략 리포트’…채용담당자 73% “가장 기대하는 AI 활용 분야는 이력서 평가” - 퍼블릭타임스', 'link': 'https://news.google.com/rss/articles/CBMiakFVX3lxTFA1dlYxZWZ6R3NsdDlzb3doR2dBY0hFZEhjQzhJT3Uyc190MDRPbXczSUMzRDRUNFdDY3RNck9Tbm5nSm1TNWNkZ19rS0lXVzFfY2dtRnNVYlpoT2diX2dXTk9PT1lhOGtpcWfSAW5BVV95cUxOSnFLdFlRUnVidFdYVW02R1N5SXM5VENDUDFuU1hhVTlHOWdNWFZMRmR6NTNnWkFKSm90cEZRT0VRNmpxR0ZYSF84SFIyZklfVnpxc1pyTzVvYWt2VmdiUDNJQkpaVWZmMmctVmI2Zw?oc=5', 'pub_date': 'Tue, 20 Jan 2026 08:00:00 GMT', 'source': '퍼블릭타임스'}
+- {'title': '카카오엔터테인먼트, 고정희 공동대표 내정…AI·IP ‘투트랙’ 승부수 - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iS3hEQllhazdpWW5JLUsyZDNPT3c5VXpfM3d0SUNXMUVnc1JzM3ZNSXI0cTBWa3lCMFFnNDFYOVFLaHBaSndaSmxUX1J2OU1DZXJzVg?oc=5', 'pub_date': 'Fri, 27 Feb 2026 08:00:00 GMT', 'source': '매일경제'}
+- {'title': '라이즈·NCT위시 인기 이을까…SM, 올해 신인 보이그룹 론칭 - 조선일보', 'link': 'https://news.google.com/rss/articles/CBMijAFBVV95cUxPOVRDbzBpSElqdE83Y3RsbXJEcFVFaEJOTEhPcVBJYy1KRlpIMk42WHp0djVsbVVYTnlBQmhQd1lERjhGU1VLNV9WWUlPRFFlUFJiUG56b19FdjBabDA4dHBidDRFYkF5RkEwaFNLQ1lwMHlkNnpaTF9tRlZ1bmxPcng1V20xRWFtNUdpcNIBoAFBVV95cUxPNk9Ea3Fqd2l5ai1XY3JSX0dNbWxYb3hOd2kxSlNTT19sTWVpakZfUUN5c213UE5OVEh4ZDVObUhFNXZ3WUdFbUI0cERzcC05WDFVRzBxaWNBUmlzbFN1VmpoanpqcS1PaWc1YU9xbnJ3UXhldHFlbDY5akYxYm1nS2JfRVRlNGJybXlQWEdTZFJGVzRTR1hOekVialIyVUFQ?oc=5', 'pub_date': 'Tue, 20 Jan 2026 08:00:00 GMT', 'source': '조선일보'}
+- {'title': '카카오, 창사 후 첫 그룹 공채…전 직군 신입 채용 - 서울경제신문', 'link': 'https://news.google.com/rss/articles/CBMiUkFVX3lxTE0teUNfYkVfYUJnZHpudlIzaF8wU0plYmNUR0F3T3hPdUhMVkhKT05kQWpNTDZPZmgxT1RkU2czMXlSOFY0ZmhVZmpKd3RfTkNfZkHSAVNBVV95cUxOWmhsWVJpZ29ZU05FWnczT19FOW93ZjM2bV80eUI0cTN0TkxBMXNpcFoxdm1zY19LUWc0YWd3eTlCb2MzOExFb3gyd1d2b1JTX2h4WQ?oc=5', 'pub_date': 'Wed, 03 Sep 2025 07:00:00 GMT', 'source': '서울경제신문'}
+- {'title': '“케이팝은 음악이 아니라 세계관”...AI 시대 IP 전략 논한 오리진 서밋 - 사례뉴스', 'link': 'https://news.google.com/rss/articles/CBMia0FVX3lxTFBnaGhWNTJwblgyRFh3aGNvMUtRZ3gwUEQzblRoRkRCbTdVQVJ3YVRZb2FYUjR2aS1UOTM0N3cyWHd1WE9tcllEOF9aT05Rb3Nuclpsb2FtU2FKcGRTd1dkdk9OaEpKcHgwUEY00gFvQVVfeXFMTmtiMzhfc1FmY1FoUTYtLUswRlVNcllOSXozejNCV2YtWDRZM1RPbE15d3lPSklndjFaUmpUb3pXZWYxMXprdGZ2YWtpa1JLTUxqS1NfbzFmVTBZLTA0UV9jNXI5MjJWYUdvQzgycU1r?oc=5', 'pub_date': 'Wed, 24 Sep 2025 07:00:00 GMT', 'source': '사례뉴스'}
+- {'title': "SM, 'SM NEXT 3.0'전략 발표…'멀티 크리에이티브·AI 시너지 가속' - mt.co.kr", 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HZFZfeThRVU1udHdlRk1vNng1MEk1SVBVbi1XYlByQXd2ZWlxYWFNc3ZibkdmcV94clhwZzdFS2JVS2VLbmU2dk1MMWduc0dzMDY1UWNsLUFSMzdtN3hlb3JRX05UZTVL?oc=5', 'pub_date': 'Tue, 20 Jan 2026 08:00:00 GMT', 'source': 'mt.co.kr'}
+- {'title': "카카오 정신아, 무거워진 어깨…AI 역량 입증이 '반등의 키' - 스트레이트뉴스", 'link': 'https://news.google.com/rss/articles/CBMic0FVX3lxTE80VlhOQWlIODRJZmhPenU1V0NDYjcxR2dvWWkyMU5uTmVUTnF3dFRwaV9ESXBPT2FaT0hQQnRkWmkwZWtRVlZuMFBydm9GUE5tUHRiaElFaDhLYmVoNjBra01mem5vcDloZ2JPb1lPTFJqSEXSAXdBVV95cUxQUTg0eENFcXk1emVxNGlSUDkzRXhoV3BFNEg0MmU0NExHUS02NEhmRFRZcVV6SDc2bjQ3cXY4aWVoc2R1MzYyVVZBdWJScUZldDc0cDRfSFd2eXdyS3V6bFE4QjhmTDRsMGUyWS1pV2RVQ2p1UkJxaw?oc=5', 'pub_date': 'Thu, 04 Sep 2025 07:00:00 GMT', 'source': '스트레이트뉴스'}
+- {'title': "SM 협업 'AI 음악 프로듀서' 키운다…청년취업사관학교 22호 개관 - 서울특별시", 'link': 'https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXZzVIWkJMNlEtODBnOWdGYm9FQzROVWlzVFJvZkxVNlVOUGxUeXZDenNkWjVuSzdkWFBPQXRzeHZiOE53Qi00dTl3M3RVSHZscEw2ZUdzUUQ?oc=5', 'pub_date': 'Fri, 27 Jun 2025 07:00:00 GMT', 'source': '서울특별시'}
+- {'title': "[#IT라운지] 다큐브 '국제기술 평가 2관왕'·핑크퐁-테라핀 '파트너십'·알바몬 '설날 채용관'·그리팅 'AI채용 리포트'·더SMC '포스트 마케팅 출간'·제논 '남동발전 AI사업 수주'·아임웹 '채용'·여기어때 '장가계 공항 VIP라운지' - 뉴스웍스", 'link': 'https://news.google.com/rss/articles/CBMib0FVX3lxTE5MakZjVXNfQnBaLURFQ2J0RGRTb1I4YXJ1ajJHYXl5OGdvNWJMcVd3TWtUQ3dTd3E5eGxaVHR6OGV4TG1KSkJHaWh1RjF5d0dxN2dSdERZaUdEbXIzM1daaE9RQVgwVFcyVWtNTnhhONIBc0FVX3lxTE1jWXNod1o5NWM3T3VUcUtGMkJZVUdWaG1HU2lXSGpIOFYxN1E2c01QOEZvd0ZWMGRmMnZqS3FOUjBrb0xtWGZOWG10MHoyaU5IcWZCdmgzdjl3VFdOdGJsTXhJa2k3SV8wbU54ei1vTENuRlU?oc=5', 'pub_date': 'Tue, 20 Jan 2026 08:00:00 GMT', 'source': '뉴스웍스'}
+- {'title': '카카오, 김범수 무죄로 사법 리스크 해소... AI·핀테크 신사업 본격 시동 - investnews.co.kr', 'link': 'https://news.google.com/rss/articles/CBMickFVX3lxTE9JRnBLdWxaTk1QSlZuaTRWTWg4WEJyVjlzN2Q4ZGJuS0l2b3VGZ000ZDhoMnRNYlIxblA1Wl93aEhVT29Qel9GWWE1cUEzQmk4SUNTZWtpZ2l0LXJjMnFxaEUxeTEyRHZERU9tLWJFbDQ4d9IBdkFVX3lxTE1VQXB5RlFPR3NoTTlQQVhyRW1VdTkzTThtLXh5N2Z2WEI2el9Dc202dFBOMnhoVDlZMHV0TDVJZVZJWGlmME4takEtSjJzSi00bkZjME5pdTZEaDdubWpDTHRNX2o1LTNoYXBYWXZ4Wk91cUtyanc?oc=5', 'pub_date': 'Thu, 23 Oct 2025 07:00:00 GMT', 'source': 'investnews.co.kr'}
+- {'title': '잡코리아, 무료 커리어 컨퍼런스 개최…채용 시즌 맞이 ′이직 치트키′ 공개 - 메가경제', 'link': 'https://news.google.com/rss/articles/CBMidEFVX3lxTFBmdXM3bHZ1VnNaT2hpSk82YzgxNllmZ3RHR2JrZk5NdklRTVB3N1owaUZyYVhxRDBJNFBfUFlOclUxMS1FSUF1Q1Z0OHU1b0Y0b2xsNEE1UW12YWlNeDRvMFRSLWdlNC1sV2JXOTZ2cDduNUky0gFyQVVfeXFMUERCamVrRTBiRWJaSkVPd2lTbGZmV0xNQTdzVnVoT1JJTkh5dV9MYnJhZzBJSFU5cGRpcFNza2Q3ZGZhSVJ6R0pWNUxaSjNqbTB1V2htYlU4TnlSVGhELXB3bFlzX21EWWQyQlBBNjJ0MlNR?oc=5', 'pub_date': 'Fri, 13 Mar 2026 08:11:58 GMT', 'source': '메가경제'}
+- {'title': "대외 불확실성에도 카카오, 정부 'AI 3대 강국' 전략 파트너로 동행 - 네이트", 'link': 'https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3eThpbUwzbDd3QWdRTldMTHVpR21rNzltcGR4YzR4Q3dzZ3F6VkE2NENESWxDMVVzRzBPV2dOaGhqVVlvcHhITkpWNkFyVTJtT2tB?oc=5', 'pub_date': 'Mon, 01 Sep 2025 07:00:00 GMT', 'source': '네이트'}
+- {'title': "'SDF2025', 노벨상·AI 대모·이세돌까지…제로 시대 해법 찾는다 - 더쎈뉴스", 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aYWxpN0RlRHB5b1RQaTczVkN3SVlLNTBhcWNWZkhjOG1KY3cySmJ6SWpVRVFiUERTSGJFY2pPNFRLVHdhc3MzbmNhSFVVNzAwMHRabGZmRUVPWjJURDFsTzE2RXA5emoz?oc=5', 'pub_date': 'Wed, 22 Oct 2025 07:00:00 GMT', 'source': '더쎈뉴스'}
+- {'title': '카카오엔터, 고정희 신임 공동대표 내정… 장윤중·고정희 투톱 체제 전환 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMiggFBVV95cUxNN3JOWjJIN0dDTm1GSE01bGJYNFkwZktUZ25YUWpHczNFOExpUk1fbFBBM1R2UzdJd1MwdExidUdSa2kxcmJHQmJ6T0lxUmFhY3JEenVIZ1I3WWlxYVczekN4TExLa3gxX3JtSzh1Q0tRRWtpNWY1Y2RvT21GanptRmdB0gGWAUFVX3lxTE5kamtRRXdUSk5mMncyR3kwajRjTkRjNDJOQXg3cTZvZnB2QktWbjE3WUxDd21hS241eDZSSzVpZWlRT01KbVdEcHh0bU5tN0pZMG82X2dOY3pLLVQxaXBfTmFfOUMzbi1FNENMVjNqMThmT3hXZFFqeXUzek12NWN1Vi1VS1lMX1gwU2ItRTMzbmgtRmI5dw?oc=5', 'pub_date': 'Fri, 27 Feb 2026 08:00:00 GMT', 'source': 'Chosunbiz'}
+- {'title': "SM엔터테인먼트, '1조 클럽' 입성...영업익 109% 급증 - 스트레이트뉴스", 'link': 'https://news.google.com/rss/articles/CBMic0FVX3lxTE5UeHRFRjUtYXM4M091eWVuTVJZQnZtcTdZTGR0ZC05ZHhSMjQwczYtV0QyNFA5V3ZMZ0t0VDltV2lXRDFUdHpqVVo4SnNRcElxNExDcE1Ial9lYkZxaGszZzlBRGppUnJhQUVUNkFDU2tERU3SAXdBVV95cUxQUHQxQzJOLS12dE5aVUNoanhkbGNxbno0M0szTEdVV243M0ZldjRlYi1xdXlEWHlPand1ZGJkQnRpUDdrVzhRT2tnMS14el9KTjJ2Qy12bmJsSm1Fd0dOMlhZQ0xJR3hldnNZUC1PSlZ3NC1XTVBxZw?oc=5', 'pub_date': 'Wed, 11 Feb 2026 08:00:00 GMT', 'source': '스트레이트뉴스'}
+- {'title': 'SM라이프디자인그룹, 3분기 누적매출 425억…"역대 최대 실적" - mt.co.kr', 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE94UlA4T1lNcWVzWnZzbEFSTU5PS2R0aE00dXdQNGZtSkZocXZhaW1zcGs2U3hUMjUyXy1MMEdpVmhuaW9ZRmFxcXdaUzlkOWpuajQ2Rk1kN3dZMzRkTnZrX2ZBUU14TThN?oc=5', 'pub_date': 'Tue, 04 Nov 2025 08:00:00 GMT', 'source': 'mt.co.kr'}
+- {'title': 'SM, 지난해 4분기 영업익 546억 원…전년比 62.2% ↑ - edaily.co.kr', 'link': 'https://news.google.com/rss/articles/CBMigAFBVV95cUxNcDdfRGJ2cG51cjJPaEpUckY5SXJLYThuUG01Qk5XTTFKYktaLTVweE53aW55TElDY2s2VVozWlljZTNTV0ljTFJFbF9fSWN6c3lTNkdXalhMRTAwTFN5blVVVDNFelllbDl0b2s2V0RjTUhTTkhrY05jVmRDZGFDYw?oc=5', 'pub_date': 'Wed, 11 Feb 2026 08:00:00 GMT', 'source': 'edaily.co.kr'}
+- {'title': 'SM엔터 비음악 자회사 SMC&C 적자 지속, 장철혁 매각 서두르지 않을 이유 적어져 - 비즈니스포스트', 'link': 'https://news.google.com/rss/articles/CBMic0FVX3lxTE9FSXdUQzZTMDBjcTdxOE9EM3U0RU53ZjBrMEd5TXJPd044OUxVV2RDd3l1MHpiNkpfSVpFRnV6dnlBd1RleG95bjdOd3NqNjFsUUs4QjdUQXVNTmNMcm5lSDFQZWZ5QUNzcW44N01pS3Z3T2s?oc=5', 'pub_date': 'Wed, 05 Nov 2025 08:00:00 GMT', 'source': '비즈니스포스트'}
+- {'title': "SM, 1분기 영업익 326억 '깜짝 실적'…전년비 110% 증가 - 한국경제", 'link': 'https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EYlJGQzZRcUtrcFhYM3RDQjB5UGpfbkJjQi1KZFpRTUxJaDRiNGZzbU9CM3ZKMkFzMXVBQ2FlcmZyOW90TUxNNVRHVVRWNWhYOXJuUktKRjJOZ9IBVEFVX3lxTFBnWXljdDdoUHdNbWxwMXVBa2tEVHdoc1VxR1FMRDM4XzExQ3VyaHBmdHBSaTVpN3BjalFzU3NNMHRGTzNnVWxGclcxYkxFeEdqc0MxYw?oc=5', 'pub_date': 'Wed, 07 May 2025 07:00:00 GMT', 'source': '한국경제'}
+### korean_credible_news
+
+- {'title': "카카오 김범수 창업자 'SM 시세조종' 항소심 본격화…합법적 '공개매수 저지' 인정될까 [CEO와 법정] - 한국경제", 'link': 'https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wRGM4NmxENnU2R2NKdmNsWlVFckxFN2dzNGNXOW1PeVVoZUNsX0h0NER1NTB2d2NjV2tNcXpmQ0hBdW9PYjlXeEVVMmJTc3ZrYWJXUksyajB3UdIBVEFVX3lxTE5xWXpzOXgxRW56Vy12blc1akFVaUJDWENrcW5KcjRJU2JyZlNSbnZDWlVEaHo1OHFMQlhjYlFhUzBscmdKcy0talpvQXFIaXF0dVRkaQ?oc=5', 'pub_date': 'Fri, 20 Mar 2026 07:50:56 GMT', 'source': '한국경제'}
+- {'title': '유리, 반짝반짝 빛나다… 연기·예능·유닛까지 [클로즈업] - 한국경제', 'link': 'https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNaHJsc21pU1pFOUc5MHNFenFoR05jTDZTbDNZMUZUZ2lEeEk0d1hScGJSWktZVk1CNDBKS0NoMUdKbDZRRGN6UFkyeVo5TlZxSmQxM2RYaXJjZ9IBVEFVX3lxTE1laUdKODlnTzZGUk1hbFUzTkFWYXVkNzVNMHNEYm1vX3NmRnlFaWtncmFVVk1MR2JzZGp0NFdDeFJ5OWR4Rk1TY1hiTFJXcUk0dXNjTg?oc=5', 'pub_date': 'Fri, 20 Mar 2026 00:56:01 GMT', 'source': '한국경제'}
+- {'title': '카카오 감사위, SM엔터테인먼트 임원 대상 감사 - 모바일한경', 'link': 'https://news.google.com/rss/articles/CBMihwFBVV95cUxQSENOdmlsdENPSXNNZlF6X2phQWtsNzBQRzM4S3F1LUlNX012ZnBhYU9YdUJLcThJQ1o4SHNWN0FmUkxOY2YwaVdrZGpsTmVCZ3dmLVd0V3VIX05hUWJscmR6S3hmMnhITldfWEpiaVZfMGI5OEtlWmFkRWFkUXZpSzZVeExQQms?oc=5', 'pub_date': 'Thu, 25 Jan 2024 08:00:00 GMT', 'source': '한국경제'}
+- {'title': "아이린, 첫 정규앨범으로 다채로운 보컬 들려준다…타이틀곡 'Biggest Fan' - 조선비즈 - Chosunbiz", 'link': 'https://news.google.com/rss/articles/CBMipwFBVV95cUxQMnVqR1J2OXRra09zY09DZ0RlNEIwMTd3VWlkM29WNlZHSG5qbWR0Z0pkTjY4QVg5bXhaTEFtQkNRRExYY240WU82eUJZa0hPQzlMUF93MzdfeWREQjFxc0JWX0xxUTgtYkJaT1JRYm5PODhXenpoVDgzY0oyYVM0R1VjTzFoUGlSYWNTUDQyanl4WXBuczFpOHYzTDhYbGw3QnFNVlBld9IBpwFBVV95cUxQMnVqR1J2OXRra09zY09DZ0RlNEIwMTd3VWlkM29WNlZHSG5qbWR0Z0pkTjY4QVg5bXhaTEFtQkNRRExYY240WU82eUJZa0hPQzlMUF93MzdfeWREQjFxc0JWX0xxUTgtYkJaT1JRYm5PODhXenpoVDgzY0oyYVM0R1VjTzFoUGlSYWNTUDQyanl4WXBuczFpOHYzTDhYbGw3QnFNVlBldw?oc=5', 'pub_date': 'Thu, 19 Mar 2026 02:40:00 GMT', 'source': '조선비즈'}
+- {'title': 'SK證 “에스엠, 아티스트 활동·콘텐츠 생산 확대…목표가 13만4000원” - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMinAFBVV95cUxPOWhMRlJTaUJZRVNQY1p0TkFxOVVoazkyMXlac21NcUZDVjR2YVFOek8zR2NEUmIyTTNDMVRZNEJNQ2NGT2xyZmUtYVVZNndmWm5QWEhPQm1VVGpPTllLTk93VVpabkxSM2FoOV96MFJ6TkRJVExwblY1aERpRkVEQVB4SjJ4QnBFRzZES0tLUGJGZDJCeUFGTDhNMDHSAZwBQVVfeXFMTzloTEZSU2lCWUVTUGNadE5BcTlVaGs5MjF5WnNtTXFGQ1Y0dmFRTnpPM0djRFJiMk0zQzFUWTRCTUNjRk9scmZlLWFVWTZ3ZlpuUFhIT0JtVVRqT05ZS05Pd1VaWm5MUjNhaDlfejBSek5ESVRMcG5WNWhEaUZFREFQeEoyeEJwRUc2REtLS1BiRmQyQnlBRkw4TTAx?oc=5', 'pub_date': 'Wed, 18 Mar 2026 00:34:00 GMT', 'source': '조선비즈'}
+- {'title': '‘SM 시세조종 혐의’ 카카오 김범수 창업자 항소심 시작… 1심 ‘무죄’ 유지될까 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMigwFBVV95cUxNM0pMOTl3UGNmR3RnRlJfeWhnRUQzQjRvemRJR3F5SHFncGxLVHdPc3ljOGdnNUZFMlRBYl96ek8zY2xvUllhUE8xa1BsdkdURzlVMUZiUGU5TWRLVGVDbEJDVkFpODBfRkotVEU1RkNjbkhRRDM5eTljNjRha3BJZFE4WdIBlwFBVV95cUxPTl9pVGY2QS1aYnZSZ0x1SVJNSi0tNmFHbjRFWXVtaGlQbTREYU41cThnTnFGNWszY1dGSk5rUnBFZFUzRkhXbXRKMFpJVS1Wc0ttT0NqRzNFbXRXTXVROHdOdnFxUXh5U2wzczBQaHhGbUlaa1lWaVhUbWx1TXgyOWc3eGxLU0tUb0M3b0xvY056OUExY04w?oc=5', 'pub_date': 'Fri, 20 Mar 2026 07:03:00 GMT', 'source': '조선비즈'}
+- {'title': 'SM 떠난 보아, 성형 의혹 부른 근황 ‘달라진 분위기’ - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiTkFVX3lxTE44M3VUeUxIdkx5UEdHSXd2Yzc5X19UQzBpdl9QeTJUUnJsTDg4OW1KdVJTV2dSRjBpZV9sRjg0aXo5ajFta1N5Y1FXSDdGdw?oc=5', 'pub_date': 'Sat, 21 Mar 2026 10:48:29 GMT', 'source': '매일경제'}
+- {'title': '레드벨벳 아이린, ‘무결점 비주얼’ 광고 모델 변신 - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Xa3ZoYjRaZ080X3JNME9UbmkwV0pNeFUtcWNaeTNYWi1zY1BjTmtxbnA1enFfZDlNaWR1andqaVJaT0NaN2NpMnJ4S2ZuR2dLbG9V?oc=5', 'pub_date': 'Mon, 16 Mar 2026 02:46:54 GMT', 'source': '매일경제'}
+- {'title': '열도 시장 공략…하츠투하츠, ‘루드!’ 일본어 버전 공개 - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Fdmc3c09KTkd1T0MtdHQxeXlmVXZGRXk4bnI2SktDUFE3QVp5ZERTT2pwbHBSeHRLWEpHb2E1Sy1aN3ljeFZVNmJ1NWNmS2F2V0xN?oc=5', 'pub_date': 'Tue, 17 Mar 2026 08:33:44 GMT', 'source': '매일경제'}
+- {'title': '티쓰리, 40억 자사주 매입 결정 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BN1E2RGNHbzZsOUlmNkRaZjNHdFg4bWdBOXFucXBfSVRBZk1wbi15Sl9uTVYzNGRJS0FWMUZCOXZhQlZUWVNmUEhEOEFPX2s3SS0wZGVR?oc=5', 'pub_date': 'Fri, 20 Mar 2026 08:40:01 GMT', 'source': 'ZDNet Korea'}
+- {'title': '메가MGC커피-SM엔터, ‘SMGC 캠페인 시즌2’ 협약 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE14WU1BdURsV0ZaaG5GcWlhN3ladFhqbnMtQTNzVFh6RlNydGFlT1ptOWlLcHppTEc0UG9pbXVGd3A5cFdnUGU5WXFieHdBd2ozQ2liZ2pR?oc=5', 'pub_date': 'Tue, 10 Mar 2026 07:00:00 GMT', 'source': 'ZDNet Korea'}
+- {'title': "SM, 새 대표에 '장철혁' 선임...카카오와 '3.0' 시대 연다 - 지디넷코리아", 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyM2w4QXp0VHQtVHVLVWJJQkxERndENU9TX0FqTzc5YnNfRnA0NDRHVzBoYWY2NGozVUp3UFZmX1hCY0RGQXlhQ1V6aHZMUWo2MHUwdEpn?oc=5', 'pub_date': 'Fri, 31 Mar 2023 07:00:00 GMT', 'source': 'ZDNet Korea'}
+- {'title': "카카오 김범수 'SM 시세조종 혐의' 항소심 시작…쟁점은 '의도' - 블로터", 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OOFFUYmlPUEU0dUJicnNIOWxLLXM0Qm5YWE56RGtaYlhLekR5RHlyN1VKdVpvb1h2NFQwUXZ0UTFYQW0xRjFJZm52NzZPeV9lT1hQcktHaWk1bUhOVmtSRmNsOUdPVmtl0gFsQVVfeXFMT0wzV2loLVlJYzJOdnBHMkVZenI1TVRJVlF3NnR2UFRDNThvZlpISVFhSzg5cXdiYnNYeExZU19ILU9OMHJ5R3BLTk14a0RTX1ZVbTVzOFFMNXcwQjk2TEx4b3VlYkFKWTRLSzhC?oc=5', 'pub_date': 'Fri, 20 Mar 2026 08:05:18 GMT', 'source': '블로터'}
+- {'title': '독일 뚫은 유한양행 렉라자, 타그리소와 유럽 처방 전쟁 본격화 - 블로터', 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zM1JGMG54XzFYLVFBVE04cTdCRkk3blpiZ19PeFRFSi0yMm0tT3lTdmJLQXlFdnRIYUdOTS1QVDlUWnlOeU04c0hValpsU3VZSHUzelNKRmdQdjJLTC1YdUg0eTV3SDNC0gFsQVVfeXFMTjhSYkRyQjlQaS0yQnFudDlKZFRBT3cyRVE2aXNjWkxRLWxkMkxJN2RlalRCd016VldLblhYV19vdG1hbFRRZGpTS1dDNDFLSGstWmJpR3BXSEsta3lsdFE0OXphc2FjTVFnVjc1?oc=5', 'pub_date': 'Fri, 20 Mar 2026 08:11:01 GMT', 'source': '블로터'}
+- {'title': '[스맥 경영권 분쟁]⑥ ISS, 스맥 손 들어줘…SNT 공시 미흡 지적 - 블로터', 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Cem9IOW04RE83WHl3REEySnc0M0Q1RXFKRUVoWGkyYVFaYnMxOFQ5aUVKNm1xTm1nQnQ1LWxIUHh1NzdMYkw0cDNFSjVQYmdRTjFCSWdpbDRBaG10ZlhFRXpnRFlLb2Vh0gFsQVVfeXFMTWh1TFRpUnhNVnpaRUVfaDI2SXA5bDRQR0dFcnNvREEwNVdyNUtNOEUzV1FEbXoxRkFzSktGYXUybUZkdEY0X29ZbUxYa2doY2hmRkNsZExGNFJuQ3YzelkydXZrNWswN3NGdjF0?oc=5', 'pub_date': 'Fri, 20 Mar 2026 08:11:33 GMT', 'source': '블로터'}
+- {'title': '검찰, 카카오 김범수 창업자에 징역 15년 구형 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IWkphbkdlOUl1bHphX1VnbTJ3aUM4eENBRUdqallvMEF3WDdCdzhwSUp3Yzl3VTFPZDlKWDRKcnppVXZVcWM4aHk0NWpjWEZxUUE?oc=5', 'pub_date': 'Fri, 29 Aug 2025 07:00:00 GMT', 'source': '바이라인네트워크'}
+- {'title': '위버스에 SM 아티스트 더한다… 팬덤 플랫폼 선두 공고화 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiT0FVX3lxTFA4VHFrVDdHc1dvdk02U2xvbktQX29TR09aeTREWEtOVHM3RktvdEUtY3JSaG91TGMxWmZqVG5zMTFzTnVJRlg5YTB2bXlGSFk?oc=5', 'pub_date': 'Mon, 17 Apr 2023 07:00:00 GMT', 'source': '바이라인네트워크'}
+- {'title': '[그게 뭔가요] 하이브가 진짜로 원하는 것, 팬덤 플랫폼 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiTEFVX3lxTE45SDJFM3hYMzdJclZubC00VF9MMmV4Z1lfYURSNFhrV19QaWszdlQzVFh2Y1ZPSFVIR1VIdFlRa2xERUlHd044SDlfQVg?oc=5', 'pub_date': 'Tue, 10 Oct 2023 07:00:00 GMT', 'source': '바이라인네트워크'}
+
+> 💡 **면접 활용**: 기업 기본 정보와 실적 데이터를 바탕으로 "왜 이 회사인가?" 답변을 수치로 뒷받침해요.
+
+---
+
+## 2. 산업 포지셔닝 & 경쟁 구도
+
+이 섹션은 추가 데이터가 필요해요. (산업 분석 소스 수집 필요)
+
+---
+
+## 3. 경영진 & 그룹사 방향성
+
+
+
+### naver_web
+
+- {'title': '콘텐츠의 새로운 미래, SM엔터테인먼트의 콘텐츠 확장', 'description': '대표 엔터테인먼트 기업으로써 SM은 어떻게 미래비전으로 콘텐츠를 만들어나가고, 미래 대비를 하고 있는지에 대해 SM 엔터테인먼트... 미디어 전략으로 음악, 안무, 자체 콘테츠 등의 IP 기반이 되는 것이...', 'link': 'https://blog.naver.com/koccablog15/223734068374', 'pub_date': ''}
+- {'title': '&lt;GLP 최종 보고서&gt;', 'description': '팀내 역할 : 탐방을 가기 위한 자료조사로, SM의 방향성과 현재 4차... 환경에서 엔터 테인먼트 콘텐츠는 컴퓨터와 컴퓨터간의 기술적... 대응전략으로 AI-tainment 를 제시하였다. SM의 AI-tainment 사업에 있어서...', 'link': 'https://www.mju.ac.kr/bbs/sba/100/25168/download.do', 'pub_date': ''}
+- {'title': '카카오엔터 “하이브, SM파트너십 위협…기존전략 전면수정 불가피 판단”', 'description': '카카오엔터테인먼트 카카오·SM엔터테인먼트(이하 SM)와 맺은 사업... “기존 전략의 전면적 수정이 불가피하다고 판단하고 있으며 서로... 향후 비전과 방향성을 포괄적으로 담은 것”이라며 “세부 조항은...', 'link': 'https://www.joongang.co.kr/article/25143386', 'pub_date': ''}
+- {'title': 'SM, &quot;멀티센터·라이선싱·팬코노미 등 3.0 수익전략…25년까지 매출 1.2조 목표&quot;', 'description': '사진=SM엔터테인먼트 제공 해당 영상은 앞선 반대성명 영상에도 출연한 장철혁 SM CFO가 출연, SM 3.0 비전으로 언급한 새로운 수익모델 및 사업방향의 구체적인 성격들을 이야기하는 바가 담겨있다. 그...', 'link': 'https://www.etnews.com/20230221000086', 'pub_date': ''}
+- {'title': '방시혁 “이수만 ‘전략적 방향성’에 공감…K팝 위상 확대할 것”', 'description': '위한 비전 캠페인과 같은 전략적 방향성에 전적으로 공감했다”면서... 최근 SM 관련 일련의 사태로 칩거하며 고심 중이던 이 전... 플랫폼을 통한 협업은 물론 SM엔터테인먼트 산하의 다양한 솔루션 사업들과...', 'link': 'https://www.donga.com/news/article/all/20230210/117822764/1', 'pub_date': ''}
+- {'title': '이수만 손잡은 방시혁 &quot;전략적 방향성에 공감...세계 대중음악 게임 체인저로 도약할 것&quot;', 'description': '이들은 &quot;하이브는 SM과 이수만 전 총괄 프로듀서가 지향한 메타버스(가상세계) 구현, 멀티 레이블 체제 확립, 지구 살리기를 위한 비전 캠페인과 같은 전략적 방향성에 전적으로 공감했다&quot;며 &quot;하이브의 내재 역량을...', 'link': 'https://www.hankookilbo.com/News/Read/A2023021010160004173', 'pub_date': ''}
+- {'title': '[종합IS] &quot;K팝의 무한 확장&quot;..SM, 이수만의 새로운 N가지 비전', 'description': 'SM SM엔터테인먼트(이하 SM)가 무한확장한다. 27년간 대한민국 K팝을... 세계에 SM의 비전과 전략을 발표하는 시간을 가졌다. 이수만 총괄... 기반으로 사업구조를 효율화하고, 다양한 장르의 콘텐츠를...', 'link': 'https://v.daum.net/v/20210629120036383', 'pub_date': ''}
+- {'title': "SM, 제 31회 기업혁신대상 '대한상의 회장상' 수상…“ESG 혁신 더한 SM3.0 성과”", 'description': "사진=SM엔터테인먼트 제공 SM엔터테인먼트가 'SM 3.0' 비전을 향해... [다래전략사업화센터] 뉴스룸 바로가기&gt; 장철혁 SM 공동대표는 “SM의 새로운 미래 비전이자 성장 전략인 'SM3.0'의 성과를 보여줄 수 있어...", 'link': 'https://www.etnews.com/20241203000374', 'pub_date': ''}
+- {'title': 'LG전자, SM 손 잡고 피트니스 시장 공략…&quot;2025년까지 매출 5000억 목표&quot;', 'description': 'LG전자가 SM엔터테인먼트(이하 SM)와 손잡고... 열고 사업 전략과 비전을 밝혔다. 피트니스캔디는 LG전자가 51%, SM이 49... LG전자는 TV와 연결해 양방향 소통이 가능한 AI 카메라를 예시로 들었다....', 'link': 'https://it.donga.com/102415/', 'pub_date': ''}
+- {'title': '[위기의 카카오②] 끝없는 주가 부진, AI 가시화 관건', 'description': '화재, SM엔터테인먼트 주가 시세조종 의혹 등이 쌓이면서 수년간... 사업 방향성을 드러내는 데 할애하는 등 소통에 나서기도 했으나 이후 반응은 더욱 냉담했다. AI 사업 전략 일정 및 실행 방안 등이 구체화...', 'link': 'https://news.einfomax.co.kr/news/articleView.html?idxno=4317574', 'pub_date': ''}
+### exa_strategy
+
+- {'title': 'SM Entertainment Unveils ‘SM NEXT 3.0’ Growth Strategy for Future | Radio Facts', 'url': 'https://radiofacts.com/sm-entertainment-targets-ma-deals-and-ai-tech-integration-as-part-of-next-3-0-strategy/', 'text': 'SM Entertainment Unveils ‘SM NEXT 3.0’ Growth Strategy for Future | Radio Facts\n\nSign in Join\n\n- HOME\n- Music Business News\n- Music Publishing\n- Creator Tools\n\nSign in\n\nWelcome!Log into your account\n\nyour username\n\nyour password\n\nForgot your password?\n\nCreate an account\n\nSign up\n\nWelcome!Register for an account\n\n', 'score': 0, 'published_date': '2026-01-21T00:00:00.000Z'}
+- {'title': 'SM Entertainment targets M&A deals and AI tech integration as K ...', 'url': 'https://www.musicbusinessworldwide.com/sm-entertainment-targets-ma-deals-and-ai-tech-integration-as-kpop-giant-outlines-next-3-0-strategy/', 'text': 'SM Entertainment targets M&A deals and AI tech integration as K-pop giant outlines ‘NEXT 3.0’ strategy - Music Business Worldwide\n\nJanuary 20, 2026\n\nBy James Hanley\n\nSM Entertainment Co-CEOs: [L-R] Dmitry YJ Tak and Daniel Jang\n\nSM Entertainment Co-CEOs Daniel Jang and Dmitry YJ Tak are betting big on AI, and plan to ramp up M&A activity within music as they chart a', 'score': 0, 'published_date': '2026-01-20T00:00:00.000Z'}
+- {'title': 'SM ENTERTAINMENT OUTLINES ‘SM 3.0’ STRATEGY, TARGETS M&A AND AI INTEGRATION - Asian Entertainment and Culture', 'url': 'https://asianentertainmentandculture.com/sm-entertainment-outlines-sm-3-0-strategy-targets-ma-and-ai-integration/', 'text': 'SM ENTERTAINMENT OUTLINES ‘SM 3.0’ STRATEGY, TARGETS M&A AND AI INTEGRATION - Asian Entertainment and Culture\n\nSearch\n\nSubscribe\n\nSearch\n\nSubscribe\n\n- Login/Register\n- Stocks\n\nSearch\n\nSearch\n\nCopyright 2025 - All Right Reserved.\n\nBusiness Company News [K-pop](https://asianentertainmentandcu', 'score': 0, 'published_date': '2026-01-23T00:00:00.000Z'}
+- {'title': 'SM NEXT 3.0: M&A, Music Rights & New 2026 Boy Group Revealed', 'url': 'https://respawn.outlookindia.com/pop-culture/pop-culture-news/sms-next-30-strategy-pushes-for-ma-music-rights-and-fan-power', 'text': 'SM NEXT 3.0: M&A, Music Rights & New 2026 Boy Group Revealed | Outlook Respawn\n\nAdvertisement\n\nGaming\n\nEsports\n\nPop Culture\n\n- Careers\n- Tech\n\nFollow Outlook Respawn\n\nSM Entertainment\'s NEXT 3.0 strategy emphasizes global M&A, music rights through KMR, and a new "Mult', 'score': 0, 'published_date': '2026-01-22T00:00:00.000Z'}
+- {'title': "SM, 'NEXT 3.0' 비전 선포... 카카오 AI 입고 '멀티 크리에이티브' 진화 | 경제일보", 'url': 'https://www.economidaily.com/view/20260121174944946?l=T', 'text': 'SM, \'NEXT 3.0\' 비전 선포... 카카오 AI 입고 \'멀티 크리에이티브\' 진화 | 경제일보\n\n검색 검색 버튼\n\n문화\n\n# SM, \'NEXT 3.0\' 비전 선포... "카카오 AI 입고 \'멀티 크리에이티브\' 진화"\n\n기자정보, 기사등록일 선재관 기자\n\n## 2026년 대형 신인 보이그룹 뜬다\n\n## SM, 30주년 맞아 제2 도약 선언\n\n## 아티스트 보호·주주가치 제고 총력전\n\n(왼쪽부터) 탁영준, 장철혁 SM 공동대표.[사진=SM]\n\n[이코노믹데일리] SM엔터테인먼트(공동대표 장철혁·탁영준)가 창립 30주년을 맞아 기존 시스템을 뛰어넘는 새로운 성장 전략 \'SM NEXT 3.0\'을 지난 20일 발표했다. 지난 3년간 안착시킨 \'SM 3.0\'을 기반으로 카카오의 AI 기술을 접목하고 제작 시스템을 고도화해 글로벌 K팝 리딩 기업으로 도약하겠다는 청사진이다. SM은 공식 유튜브 채널을 통해 공개한 영상에서 기존 \'멀티 프로덕션\' 체제를 \'멀티 크리에이티브(Multi-Creat', 'score': 0, 'published_date': '2026-01-21T00:00:00.000Z'}
+### international_news
+
+- {'title': 'Tencent Music to become second-largest shareholder in K-pop agency SM Entertainment - Reuters', 'link': 'https://news.google.com/rss/articles/CBMiygFBVV95cUxPZXJwNnVKSUdhdnc2U2NsajVnOGlkUW5rNDFuSUNPd0h0OEJRSUs3aVEzN0RUclJsMVJ3QWNLZkRvbW9WZ0ttUWZwRDEySEFHS0hNTkJ5c1NFT3g1M0xsdjJTQzJ3YkE2cFB1ZmphNUhfeENNR3RQb090c1NhM3pVVVZiTS1PSFYtTWNqU2NDeUlFaHJldFlsbTFwMnREbmQ2bjkxaF9ETXhmZ0tnZml1QVpYb09USHg0WW1TN2JDU3NZS2RkdkNGT21n?oc=5', 'pub_date': 'Tue, 27 May 2025 07:00:00 GMT', 'source': 'Reuters'}
+- {'title': "S.Korea's Kakao Corp to buy 9.05% stake in SM Entertainment, touts K-pop projects - Reuters", 'link': 'https://news.google.com/rss/articles/CBMivAFBVV95cUxOTUs0alNaNDItWkNuYUh3dHhBMjhUSzR6OUJJOHk4ZnNjc2t5a09wVm1fY3gtLUR5TTZOTjFrWENFaUYtYzIxTkZQU3JZU3daU0hEM2d1TzNVbVgtdkhRZ3RObi1lSW9FcWRGekUwMWNJdTVJQkY3ZFgtNGFWYlRHZnotY1pfREhpdUZUek41bTVmYzl4M1hvUlZLRkFBcHV4MTFYUmw3bFdRVElULUJYZk5wWE9ZRTlYTU9DZA?oc=5', 'pub_date': 'Mon, 06 Feb 2023 08:00:00 GMT', 'source': 'Reuters'}
+- {'title': 'SM Entertainment Co Ltd - Reuters', 'link': 'https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sZTd5NGNyQkpRbjBQaHN3Qjh4aFJGYW9WU2F3QVQ1T3BReUJrRnhuaEttWXBsUFFZcnRYa3EzMFVYcnZ0T3Bqc1QwRHY3NUpqeTBTYmE2eUItVHE1dnpzNlh3ck5kUTA?oc=5', 'pub_date': 'Wed, 16 Jun 2021 15:01:24 GMT', 'source': 'Reuters'}
+- {'title': 'SM Entertainment Co Ltd - Company Profile and News - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PbFFQVWd6VHZBYjkzYVZhQmxTNEE2X2xyZ3doWVA0cWhHcmo1Y1RnODVINDJvMjlqMTRTRGtQRzEzTmtWbTYwdkxnNGlwbXROTFFwbHBsSG1FRXVYaXhKZA?oc=5', 'pub_date': 'Wed, 27 Feb 2019 21:45:59 GMT', 'source': 'Bloomberg'}
+- {'title': 'SM Entertainment Plunges After K-Pop Boy Band Members Seek Exit - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMitAFBVV95cUxNVng4TXY2VTdZS1VINGFmV0hEU1VRcWNZRTgwX1M1RHhrbWlDZnMxR24xeVJYYlUyTlVoSDJlX1hMYWtTeWtkRG14X0NXZklqS3pRTjNrNnlpN1V3X291Z2dGSjdiVjBZaU1jYzRzWG1EaHVGUHFQcmU1SWI2a0hCdDhaSXVWZGQ3dkd4SkNCUlFJQ29nYkVQaWpFajVrc3VOMzFLb0FrRjRDT1RQek13TTFESkY?oc=5', 'pub_date': 'Thu, 01 Jun 2023 07:00:00 GMT', 'source': 'Bloomberg'}
+- {'title': 'Tencent Increases Korea Music Exposure Ahead of China K-Pop Move - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMitgFBVV95cUxNcFh5TmJ1NUxEOUNGaGJvLW1hTWF3LUJOdHl0VjI4VWtRRGdscmh4bVhkYmtGazhoaDhHUThZRHRRN2V2eVc0SkxaN01YeHc4NlRObGNfRzNnTmxUU2RvWDdFQnJUY2VjZzNXNElFUGwxdHdoalU2ODRzNkhtUjRwZk1tUFlLUTFjaGRSbTdmV2pYTWdIWTI0SllHd2VGLVB6aXBFQ1NVOWh0d3UzWnVnNUZ6eV9oQQ?oc=5', 'pub_date': 'Tue, 27 May 2025 07:00:00 GMT', 'source': 'Bloomberg'}
+- {'title': 'AmazeVR wants to scale its virtual concert platform with $17M funding - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUw3UU1ra2g0VWJMYWJwZWpoYVN4eUhNYXJnUEJwMktWREYySWRKRnVCbVRoM0ZXbzhobjI1NlcxRWVnSFl0Ym01NWk3WVI2VHI3VU1Uenh3SUZOVTZlSldSc2hQVHM4OTNKOWNfaUVfbS11NW9zQWdGc0VPcnBDQW9kNEoybUVHVG11OUIxM3RINVNpc0NQU3M1UlRRTTB6aklmdDB3?oc=5', 'pub_date': 'Tue, 27 Sep 2022 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'Kakao to close Tapas Entertainment Korean office next month as part of a restructuring - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2JCVkt0Z3VZMEVTcHlZUF9NSTd5Mlk0dDJtTjJZUlpBLXY5bHh1dnVldzFveWNZRmpobTJKQnkwLVlVdk9YYTdJdldMZk9HWXhPSFRRNzg2a0NmR0VOWXdUUndaWjhuOVd0ODlqUndwTF9udEc4OG9QZzR5dDRybU5uRlhCVUNmUmJ5b19JZ3k5WHQyeTFKb2o2V1BNUjVEaFVKVUdzYlBKdjhiUlltLWtCRTRLSHhvNmttNEZ3?oc=5', 'pub_date': 'Tue, 14 Mar 2023 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'Kakao names Shina Chung, previously its VC lead, as new CEO amid ongoing crisis - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMitwFBVV95cUxQSGpNOG8xVGZna2xORmdGaENlaTZqdVRha3RKWldjckNfT1hCTGQ2SUFvR3dRaEpBai1YcEpzSlJ3UTFpa1RIX3hxUFdabXdVNUFncWlQeEpjemVtX0ROaXRPcEs4b0FhOFBtV3VTbUZhbUtSTGJmQVdrMUFTMVpDR2FCbjNJYXpQTDJRSXNFVWNuVkNpT3BLY1BSblNhUmVGQkkySmZNQWU3NEF5ckFQdXhFQ3pRajQ?oc=5', 'pub_date': 'Wed, 13 Dec 2023 08:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'BTS Manager HYBE to Buy Stake in Peer SM Entertainment - WSJ', 'link': 'https://news.google.com/rss/articles/CBMinANBVV95cUxPU3UxNDNzLTUxc0xBV0RqV3YyelBxMmRoX3gwTWd2MFE5eDVObEl1Z1F5SGZaTWFwRTZ0OVdqQ0pITTJ3TzVSb3hXZHVfZ1c4NUpJM1BRZVhzZTAzMjh5RTJDVzZmSDFzcXRiOHlJTm5YVU9ycjN5NGMxVDFYYzZYSzVTRnJhNnBka3JzNzJ4VDRsQ3hrYjBia293VTdwZ0F6RFplT3lCbi03TFB5Mi1lbVBiMDJkVWtnY016Wk0zSXA2YnpsS0d2dGdaTTJTOTRlTVpzNWRHTGh0cXV1MjRaVzJVZFJ0RkRLTjdFVm9XdWpFRjRUTS15Nks1Vk40TGpkNmsyWEhtcy1XLUpxb1VUUWt0am5DdEhyMmxOek9QU1U1VWNFb3BqaVp3TFN1UFR2eEw3dk1odTZoY1JnMDdXNlBqaGFvSEx0WUNLWXBNcklGWHJ2WlNMUFUzaFNPd2RSUUM2X0FhdHllSTBkTllIZHRVREZBcGNybWJiMEhnLUJpY0dYVXJXOXl2VkZweUp5ZHVxb3N1MUVfcGd1?oc=5', 'pub_date': 'Thu, 09 Feb 2023 08:00:00 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'SM Entertainment Co. Ltd. (041510) Stock Price Today - WSJ', 'link': 'https://news.google.com/rss/articles/CBMi6AJBVV95cUxOQWxTNjlhb0ZuMEVTLXc1aDBEVk9PTzMyT29rUVNiSHVyV3VwT2xicHdFSm92RTc1OGFfT0pXRC1McFc4R1laSlBWdjFGcm1iRjlWNmRDN24wb2RqRVRZZnlsYlhWVGZMV0NYbC1OanZWRjhRTlluVXdFS1I5YVVGbk14MkdxdzZFcWlRSWxEbm5OdWJkMlpYTVNuMWNGSFdka2pRVXdhVjdTQzdWMkNpTnZ1MlBkb1kza3NtcmJKVERlM0lhRU96dURjc3JuZGNYcEJLbHhzZ0ZVeGFvVkU4M0ZJUkdEUWlZWmpjRHR4RXNWTXNIUUVmQWFfczRPMDRJSlBoazBRT0Q2bUF2TDBQdEstQVNKUmJnWWtfZ2tvTEF0eDRYamVwMVJSekRpUUpTS1huY2JBR00wY3NodzBDakxfZHRNR1FPQnRITzRyeVR1eVdtTlBEam5hODk5UDB0aWxPWUxVMUU?oc=5', 'pub_date': 'Fri, 10 Jan 2020 02:21:58 GMT', 'source': 'Wall Street Journal'}
+- {'title': '041510.KR | SM Entertainment Co. Ltd. Company Profile & Executives - WSJ', 'link': 'https://news.google.com/rss/articles/CBMi_AJBVV95cUxPNm9jcm55eDBmWGZidktQUzRDYUx1VmdvdDZLUEQ1aHRIdHdUNmd6NTJEOUxBeFUyYWdTTWFBU0lBXzNKSnJqbENITjBRd0JBZ0VUTThKTVNPRERuQmZjV0l5R1h6NWFHNVRkUFdicW5MMzR5dXVSUDNjUDVoT0lzMGVOZGFBR3dfUUs1Ykt4RE1BVzNlNXpSRmREYUE4VG9RbnFwY1gyUGU2M1ZvQVRUS3lKdG10VG9CcEFocHFIUVd6NzU1aDdEMXFCaXVRR0RKU3NrR1pKXzE5T2lOV0EzUEtHWHlVUnJyT2xaYXlaOVZfdUJicHJQZEtTNExSN3R0cF9JVzdyeG00UDFDTHFObzZnMDhKR3Y5TDVEZXZnSTlac29IQ0IxX3NjRlVfZ1NDM0lqV09STHlvanBMbTRIXy1tc1pGYWZjTTBQWlV1ZU9EWUNRMVVXNHRwNklvaFl5aDlmQ0lhRS02U19LbUcwWE1CZXFvLTl1clJ5aw?oc=5', 'pub_date': 'Fri, 20 Dec 2019 09:44:12 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'K-pop’s movers and shakers fight to create dominant music agency - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE5Nc2JWZzBCeGlaRWFKcUVMaXBxYmVmaEQyZDF4eTZCd1RCU3NpWEU5OG5rZGUzV3JQanBYQUFxMFJfcUhwSzE0QzZ1YkVYcFZCUTAwNlI2R0NieXlVdjhXZlQya2FjM1ZhZzZXak1jV0s?oc=5', 'pub_date': 'Sat, 25 Feb 2023 08:00:00 GMT', 'source': 'Financial Times'}
+- {'title': 'BTS agency Hybe in corporate battle over K-pop talent stream - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE81YWtLVTVWMUNJVmhmZlp1UktBZ3ROLUVpTjFuYkk2UnRPdlZyMHE2MHhHSlo0RGFmd0pWOUpkVDlibDZxS2FLY1hGZ3JjNERZZFU4T0hwQ2l1bjRDT2hiLXRhaFJMeXg5WmNBVE96SjI?oc=5', 'pub_date': 'Thu, 16 Feb 2023 08:00:00 GMT', 'source': 'Financial Times'}
+- {'title': 'Hybe - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMib0FVX3lxTE02WHV0NGZSYmJDd3AyQ3BHNjRabFJOOUY2ZHllTGg1RDdUazJFZlp6S2VPSWo0bFRNT1UyX0RENFhpcUxTZVgwM3lEamtfLTJ3aFdQRWdKM2FvOUR4M3NQa3BXS3BvWE1iNXM0Uk9LRQ?oc=5', 'pub_date': 'Thu, 03 Sep 2020 12:53:03 GMT', 'source': 'Financial Times'}
+- {'title': "Australia's Lynas closes in on rare earth supply deal with Pentagon - Nikkei Asia", 'link': 'https://news.google.com/rss/articles/CBMivAFBVV95cUxNSGVHYXp5Z0RUVEEtOVNMbGR2ZDUwcTM2V2U5cVY4UW5WODE0ZXFZWDR4SlctMlN5dnMwSmpjcGxzVWFhRi1zRlVOUDZfQTJONHdIdzJVUnRWa1p4OFJKMjFSQUdEX05qMDBuWUVQUDRtaXlCYnRndFhiREdBbXZjbDI0dDJRN0pLNHY5SWw2UWVJNFhzNEphN3pZUGRXX2tXX25QTU5LejliUTNSSEpTcjdLS25GUDJ0clZTNA?oc=5', 'pub_date': 'Mon, 16 Mar 2026 02:58:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': 'SM Entertainment turns new page under Kakao amid K-pop headwinds - Nikkei Asia', 'link': 'https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS3J3TFhLN3hNQUNLU0tOTDhBQzNYcWxFR1V0dnNSZG1WNDJTaXl4bURERGlCX3l1cnhQQURXUmdGWkN3N0lFTGVRWnJuVUY2bkN2YzZ6b1dyWEV0TDlDMlRqcllZSWtHY3pIRUs0bHZOSmtCZkxNOGhLemFmdE9WXzZHbmpzTjc3N01LWmdTeGluc0JSdzk2RnlSMWY2WE1aYXV6WmUyWVc3dl9hU3Vrck8wYWI5ZDhO?oc=5', 'pub_date': 'Mon, 03 Apr 2023 07:00:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': 'NewJeans creator says no progress in feud with Hybe record label - Nikkei Asia', 'link': 'https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb3JhemJLRVc0c2JOYlJUNU5oemlyV0tfRFlkVXppbXVRQTdkV1VfRlZjNEZmQ1V4elBSOEhoMXFFYnpTdWxuRERXN2pCR2U0WjVocGhtTHlJa2xuSE43WWtlWEVIN09CYVJLcjhnbHEzX0hHMTdlb0dmRDZ6MGRncEpaWDJBNWx1VjNhbF9rX0ozOFBxOFBBRlFxMk5zSjk4aGxLSHRoNU5RZXNmNk1pamx3ZE41MGll?oc=5', 'pub_date': 'Fri, 12 Jul 2024 07:00:00 GMT', 'source': 'Nikkei Asia'}
+
+> 💡 **면접 활용**: CEO 발언이나 그룹 전략 키워드를 면접 답변에 녹여서 전략적 이해도를 보여주세요.
+
+---
+
+## 4. 조직문화 / 철학 / 인재상
+
+
+
+
+
+### naver_blog
+
+- {'title': 'CJ올리브네트웍스 12개 직무 공채, 제가 분석한 올해 채용 변화', 'description': '이후 2차 면접 합격자는 약 3주의 인턴십 전형을 거쳐 실무 역량에 대한 종합적인 검증을 통해 최종... 이러한 설명회는 단순히 정보를 얻는 것을 넘어, 기업 문화와 인재상에 대한 이해를 높이고 자신에게... ', 'link': 'https://blog.naver.com/jdy3531/224225052712', 'pub_date': '20260322'}
+- {'title': '펄어비스, 아닌거 아시죠?', 'description': "펄어비스라는 기업의 존폐를 결정짓는 단일 변수로 작동했다는 점임. 결과적으로 출시 첫날 200만 장... 안의 엔터테인먼트'인 콘솔 게임의 수요를 더욱 공고히 함. 알고 보면 미국과 유럽의 고소득 유저들은... ", 'link': 'https://blog.naver.com/purewhitestmary/224224848079', 'pub_date': '20260322'}
+- {'title': '0', 'description': 'https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 스위스안경 &amp;SM 헤어와 (선교‘원불교’일본신토뷸교SGI 와 함께하는 )권능교회와 함께하는 ’... ', 'link': 'https://blog.naver.com/bwiwd/224225015464', 'pub_date': '20260321'}
+- {'title': '0', 'description': 'https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 스위스안경 &amp;SM 헤어와 (선교‘원불교’일본신토뷸교SGI 와 함께하는 )권능교회와 함께하는 ’... ', 'link': 'https://blog.naver.com/arangjoeul/224225010230', 'pub_date': '20260321'}
+- {'title': '0', 'description': 'https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 스위스안경 &amp;SM 헤어와 (선교‘원불교’일본신토뷸교SGI 와 함께하는 )권능교회와 함께하는 ’... ', 'link': 'https://blog.naver.com/yjsjhs/224224992913', 'pub_date': '20260321'}
+- {'title': '빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨', 'description': '맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ', 'link': 'https://blog.naver.com/blrol_blrol/224224956373', 'pub_date': '20260321'}
+- {'title': '경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음', 'description': '✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ', 'link': 'https://sibauchi.tistory.com/1205', 'pub_date': '20260321'}
+- {'title': '11', 'description': "우선 기업이 되기 위해 10억 달러 이상을 약속했습니다. 저는 10억 달러가... When you adopt AI, well, you don't just change adoption or productivity, You change how power is perceived and... ", 'link': 'https://blog.naver.com/calcutt/224224839164', 'pub_date': '20260321'}
+- {'title': '알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에', 'description': '면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ', 'link': 'https://think-tank.tistory.com/1035', 'pub_date': '20260321'}
+- {'title': '당신의 다음 커리어를 위한 완벽한 이직 준비 팁', 'description': '이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비', 'link': 'https://blog.naver.com/kcl3598/224224791593', 'pub_date': '20260321'}
+### naver_cafe
+
+- {'title': '[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.', 'description': '외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.', 'link': 'http://cafe.naver.com/inhadigital/306', 'pub_date': ''}
+- {'title': '서울3대 재즈바 entry55 사당점 바텐더 채용', 'description': '[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ', 'link': 'http://cafe.naver.com/ibartender/110690', 'pub_date': ''}
+- {'title': '요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서', 'description': '회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ', 'link': 'http://cafe.naver.com/uworldexam/151745', 'pub_date': ''}
+- {'title': '한국은행 (Bank of Korea)', 'description': '연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ', 'link': 'http://cafe.naver.com/smilejobs/768', 'pub_date': ''}
+- {'title': 'SK하이닉스 vs 삼성 연봉 인센티브 복지 비교', 'description': '반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ', 'link': 'http://cafe.naver.com/grayjuinb/23', 'pub_date': ''}
+- {'title': '[20260320] copilot / chatgpt / gemini 대화록', 'description': '조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ', 'link': 'http://cafe.naver.com/woodmanwriting/207', 'pub_date': ''}
+- {'title': '인천적십자병원 물리치료사 채용공고', 'description': '후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ', 'link': 'http://cafe.naver.com/pinklqgzd/1923', 'pub_date': ''}
+- {'title': '2026-03-20 뉴스 정리', 'description': "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ", 'link': 'http://cafe.naver.com/todaybigboss/4858', 'pub_date': ''}
+- {'title': '법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서', 'description': '** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ', 'link': 'http://cafe.naver.com/uworldexam/149566', 'pub_date': ''}
+- {'title': '제주항공 채용 승무원 큐피드', 'description': '글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ', 'link': 'http://cafe.naver.com/sheiszzz/1214780', 'pub_date': ''}
+**snippet_count**: 30
+**avg_rating**: 2.234
+### positive_themes
+
+- 긍정
+- 만족
+- 문화
+- 복지
+- 워라밸
+- 장점
+- 좋아
+- 좋은
+- 최고
+### negative_themes
+
+- 단점
+- 야근
+- 퇴사
+### snippets
+
+- {'source': 'brave', 'title': 'SM엔터테인먼트 채용', 'description': 'SM엔터테인먼트의 채용 홈페이지입니다', 'url': 'https://recruit.smentertainment.com/en/home'}
+- {'source': 'brave', 'title': 'SM엔터테인먼트 - 나무위키', 'description': '그러다 2020년, 경영 효율성 증대를 위해 성수동 아크로 서울포레스트 디타워로 SM엔터테인먼트를 비롯한 자회사들까지 완전하게 사옥을 이전하는 계획을 발표했으며, 2021년 7월 7일 이전이 완료되었다.[14] 현재 사옥은 기존 핵심 번화가에선 조금은 떨어졌지만, 2020년대 들어서 젠트리피케이션이 진행되고 있는 성수동 1가에 위치해 있다.[15] 그러면서 기존의 삼성동 사옥과 청담동 사옥 모두 매각했다.[16] 2023년에는 성수동 본사 근처에 SM ARTIST &amp; MUSIC CENTER를 신축하여 연습실과 작업실[17]로 사용 중이며 KMR이 입주해있다.', 'url': 'https://namu.wiki/w/SM%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'brave', 'title': '블라인드 | SM엔터', 'description': 'SM엔터에 대한 최신 정보를 블라인드에서 찾아보세요. 3백만 직장인들이 솔직하게 전하는 기업문화, 연봉정보, 면접 팁 등도 확인할 수 있어요.', 'url': 'https://www.teamblind.com/kr/company/%EC%97%90%EC%8A%A4%EC%97%A0%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8/posts/SM%EC%97%94%ED%84%B0'}
+- {'source': 'brave', 'title': '(주)에스엠엔터테인먼트 2025년 기업정보 | 727건 면접후기 3.0 면접난이도 | 잡플래닛', 'description': '면접난이도: 3.0, 면접경로: 온라인 지원 70%, 면접경험: 긍정적 28%, 부정적 19%, 면접결과: <strong>합격 30%, 불합격 52%, 대기중 18%</strong> | 잡플래닛에 등록된 727건 면접후기를 ...', 'url': 'https://www.jobplanet.co.kr/companies/65748/interviews/%EC%97%90%EC%8A%A4%EC%97%A0%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'brave', 'title': '(주)에스엠엔터테인먼트 2025년 기업정보 | 기업리뷰 677건, 2.5 리뷰평점', 'description': '(주)에스엠엔터테인먼트 기업정보 - 장단점 키워드: 테, 건물, 카페 | 기업리뷰: 진짜 사람을 갈아 넣어서 일해야하고 c레벨이 너무 많아서 산으로 감 | (주)에스엠엔터테인먼트의 관련 뉴스, 기업리뷰와 생생한 면접후기를 ...', 'url': 'https://www.jobplanet.co.kr/companies/65748/reviews/%EC%97%90%EC%8A%A4%EC%97%A0%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'brave', 'title': 'SM엔터테인먼트 기업분석보고서', 'description': 'SWOT 분석을 통해서 ㈜SM엔터테인먼트의 기회요인과 위협요인은 무엇인지에 대해서 알아보세요.', 'url': 'https://www.jobkorea.co.kr/starter/companyreport/view?Inside_No=18477&schCtgr=0&schGrpCtgr=0&Page=1'}
+- {'source': 'brave', 'title': '블라인드 | 에스엠엔터테인먼트 기업정보', 'description': 'SM엔터테인먼트는 음악 및 기타 오디오물을 출판하는 연예 기획사로서 음반 제작 및 연예 매니지먼트를 주요사업으로 영위하고 있습니다.', 'url': 'https://www.teamblind.com/kr/company/%EC%97%90%EC%8A%A4%EC%97%A0%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8/'}
+- {'source': 'brave', 'title': 'SM 엔터테인먼트 - 위키백과, 우리 모두의 백과사전', 'description': '(주)SM 엔터테인먼트(영어: SM Entertainment Co., Ltd. )는 가수 겸 방송 진행자 출신의 이수만이 설립한 대한민국의 연예기획사이다. 본사는 서울특별시 성동구 왕십리로 83-21 (성수동1가)에 있다. 강타, 동방신기, 슈퍼주니어, ...', 'url': 'https://ko.wikipedia.org/wiki/SM_%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'brave', 'title': '[대학생, 취준생이 알면 좋을 기업분석편] SM엔터테인먼트 : 네이버 블로그', 'description': '오늘은 대학생, 취준생들이 알면 좋을 기업분석편으로 SM엔터테인먼트를 분석하려고 합니다.', 'url': 'https://m.blog.naver.com/youthassembly/222519813784'}
+- {'source': 'brave', 'title': 'SM엔터테인먼트 경영권 분쟁 - 나무위키', 'description': 'SM엔터테인먼트/논란 및 사건 사고 문서의 r870 판, 14번 문단에서 가져왔습니다.', 'url': 'https://namu.wiki/w/SM%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8%20%EA%B2%BD%EC%98%81%EA%B6%8C%20%EB%B6%84%EC%9F%81'}
+- {'source': 'naver', 'title': '(주)에스엠엔터테인먼트 2026년 기업정보 | 기업리뷰 699건, 2.5 리뷰평점', 'description': '장점 ; 회사가 일단 규모 자체가 크고, 엔터사 중엔 손꼽히는 곳이라 네임벨류를 무시할 순 없다. 그리고 돌이켜보니 다양한 회사들과 비교해서 봐도 복지나 급여, 환경 같은 것들이 많이 좋은 편이다. 역이랑도 가까워서 좋다. 물론 팀이나 함께 얽힌 동료들, 그리고 팀의 업무 강도에 따라 다른데, 이게 아주 복불복이다. 아티스트 앨범 발매 시, 직원들에게 제공된다.단점', 'url': 'https://www.jobplanet.co.kr/companies/65748/reviews/%EC%97%90%EC%8A%A4%EC%97%A0%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'naver', 'title': '(주)에스엠엔터테인먼트 2026년 기업정보 | 790건 면접후기 3.0 면접난이도', 'description': '(주)에스엠엔터테인먼트의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.0, 면접경로: 온라인 지원 71%, 면접경험: 긍정적 29%, 부정적 18%, 면접결과: 합격 30%, 불합격 51%, 대기중 19% | 잡플래닛에 등록된 790건 면접후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/65748/interviews/%EC%97%90%EC%8A%A4%EC%97%A0%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'naver', 'title': '재미로 보는 LCK 구단별 잡플래닛 평점 - 롤: 리그 오브 레전드', 'description': '디플러스기아 티원 OK브리온 젠지 케이티 디알엑스 한화,샌박,프릭스,케이티는 모기업 소속 부서단위인듯해서 따로 없고 (한화이글스는 자회사단위인듯하나 이스포츠는 아직인듯) 농심은 농심이스포츠 별도회사...', 'url': 'https://www.fmkorea.com/6149357481'}
+- {'source': 'naver', 'title': '잡플래닛 평점 1.3인 곳도 떨어지냐 - 직장/알바/사업', 'description': '방금 전에 전화로 면접 불합격 통보 받은 곳임 (모 새마을금고)월요일 오후에 면접보고 뒤늦게 잡플래닛 평점 봤는데 1.3점이더라고 ㄷㄷ내가 어지간해선 2.0이어도 봐줄만하다고 생각했는데... 1.8, 1.9도 아니고 1.3은 진짜 블랙기업급 아닌가 싶긴한데... 리뷰에 단점 적힌거 보니까 1. 업무 인수인계 전무 2. 80년대 군대문화 3. 아침 8시...', 'url': 'https://www.fmkorea.com/3883593570'}
+- {'source': 'naver', 'title': '블라인드 | 이직·커리어: Sm c&amp;c 어때', 'description': '에스엠컬처앤콘텐츠 어때? 잡플래닛 평점은 진짜 낮던데..#smc&amp;c #sm엔터테인먼트 #에스엠컬처앤콘텐츠', 'url': 'https://www.teamblind.com/kr/post/Sm-cc-%EC%96%B4%EB%95%8C-aVvc1Xj0'}
+- {'source': 'naver', 'title': '더쿠 - 잡플래닛 평점 2점대 초중반이면 많이 안 좋은지 궁금한 후기', 'description': '직원수가 2백명 후반대이고 국내 업계에서 제일 잘 나가고 해외에서도 탑3인 중견인데 잡 플래닛이 2점대 초중반이야.. 이렇게 낮으면 지원하는 거 비추야?? 전환형 인턴 넣을까 고민 중이거든..', 'url': 'https://theqoo.net/review/2632137865'}
+- {'source': 'naver', 'title': 'SM엔터테인먼트/여담', 'description': "여담 사명의 'SM'은 이수만의 이니셜인 동시에 'Star Museum'의 약자이기도 하다. 대한민국 대기업집단인 SM그룹과는 전혀 다른 기업이다. SM 아이돌 팬덤에서는 SM을 스펠링을 그대로 읽어 '에스엠'이라고도 부르지만...", 'url': 'https://namu.wiki/w/SM%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8/%EC%97%AC%EB%8B%B4'}
+- {'source': 'naver', 'title': '하이브vs카카오, SM 인수 전쟁…전·현직자 평가는? | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스', 'description': '국내 엔터테인먼트 업계에 지각 변동이 일어났다. SM엔터테인먼트를 두고 엔터산업의 신흥 강자 하이브와 카카오가 인수 경쟁에 뛰어들며 업계를 뜨겁게 달군 것. 케이팝 명가 SM엔터테인먼트(이하 SM)를 둘러싸고 세기의 격돌이 펼쳐진 가운데, 그 배경으로는 경영권을 둘러싼 현 SM 경영진과 이수만 전 총괄 사이의 갈등이 수면 위로 떠올랐다. 연일 경영권 갈등으로 화제에 오르...', 'url': 'https://www.jobplanet.co.kr/contents/news-4229/%ED%95%98%EC%9D%B4%EB%B8%8Cvs%EC%B9%B4%EC%B9%B4%EC%98%A4-SM-%EC%9D%B8%EC%88%98-%EC%A0%84%EC%9F%81-%EC%A0%84-%ED%98%84%EC%A7%81%EC%9E%90-%ED%8F%89%EA%B0%80%EB%8A%94'}
+- {'source': 'naver', 'title': '잡플래닛 평점1.8회사 오바임? - 직장/알바/사업', 'description': '집에서 20~30분 거리 중견 기업이라 좋다 생각해서 찾아 봤는데 잡플 평점 1.8에 퇴사율 30%정도 되는데 괜찮아보임? 연봉이나 복지 그런거는 그냥 중소기업 수준이라 생각하면 됨', 'url': 'https://www.fmkorea.com/5470029324'}
+- {'source': 'naver', 'title': '퍼스트엔터테인먼트 2026년 기업정보 | 2건의 복지정보 0 전체 복지 통계', 'description': '퍼스트엔터테인먼트의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 2건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/342131/benefits/%ED%8D%BC%EC%8A%A4%ED%8A%B8%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+### exa_culture
+
+- {'title': '[기업 채용] SM엔터 2026 상반기 대규모 수시 채용 개시… ‘SM NEXT 3.0’ 가속화 : 경제 : 재경일보', 'url': 'https://news.jkn.co.kr/post/856725', 'text': "[기업 채용] SM엔터 2026 상반기 대규모 수시 채용 개시… ‘SM NEXT 3.0’ 가속화 : 경제 : 재경일보 --\n\n©SM엔터 홈페이지\n\nSM엔터테인먼트가 2026년 3월 18일 현재 'SM NEXT 3.0' 전략의 핵심인 멀티 크리에이티브 체제 강화와 AI 기술 도입을 위해 13개 이상의 주요 직무에서 대규모 수시 채용을 진행하고 있다. 이번 채용은 카카오와의 AI 시너지를 본격화하고 글로벌 아티스트 IP를 확장하기 위한 인적 자산 확보의 일환으로, 매니지먼트부터 AI 기획, 글로벌 마케팅에 이르기까지 엔터테인먼트 산업 전반의 가치 사슬을 아우르는 인재 선점을 목표로 한다.\n\n매니지먼트 및 아티스트 마케팅 직무... 3월 말 접수 마감 임박\n\n엔터테인먼트 사업의 근간인 매니지먼트 및 아티스트 마케팅 분야의 채용이 가장 활발하게 진행되고 있다. 신입과 경력을 동시에 모집하는 매니지먼트 담당자 직무는 오는 3월 30일 마감을 앞두고 있으며, 아티스트의 디지털 영향력을 극대화할", 'score': 0, 'published_date': '2026-03-18T00:00:00.000Z'}
+- {'title': '에스엠엔터테인먼트 기업 리뷰 - 전·현직자의 생생한 후기 - 잡코리아', 'url': 'https://www.jobkorea.co.kr/Review/ServiceView?ucoNo=1522779', 'text': '㈜에스엠엔터테인먼트 기업 리뷰 - 전·현직자의 생생한 후기 | 잡코리아\n\n메뉴 건너뛰기\n\n---\n\n## 검색\n\nSmart Match 통합검색\n\n지역 전체\n\n삭제\n\n열림\n\n키워드를 입력하시면 검색어를 추천해드립니다.\n\n자동완성 켜기 닫기\n\n닫힘\n\n### 검색어 자동완성\n\n자동완성 끄기 | 닫기\n\n### 최근검색\n\n전체 삭제\n\n자동완성 끄기 닫기\n\n기업 서비스\n\n기업회원 로그인\n\n- 기업라운지\n- 서치펌 서비스 안내\n- [기업회원 서비스 안내](https://www.jobkorea.co.kr/service/company/', 'score': 0, 'published_date': ''}
+- {'title': 'SM엔터테인먼트 채용', 'url': 'https://sment.career.greetinghr.com/sm-values', 'text': 'SM엔터테인먼트 채용\n\n## Global No.1Entertainment Group\n\n1995년 설립 이래 SM Entertainment는 K-POP의 태동과 진화를\n\n이끌며 엔터테인먼트 업계의 이정표를 세워 왔습니다.\n\n업계 최초로 Casting, Training, Producing, Management를 아우르는\n\n아티스트 육성 시스템을 도입했고,\n\n1997년 해외 시장에 ‘한류(Korean Wave)’의 신호탄을 쏘아 올리며\n\n글로벌 무대를 사로잡아왔습니다.\n\nK-POP 장르를 개척하며 쌓아온 노하우를 발판 삼아,\n\n최고의 인재들과 최고의 퍼포먼스를 선사하는\n\n글로벌 1등 기업으로 도약하겠습니다.\n\n## Building K-pop,Drawing K-Culture\n\n틀을 깨는 혁신과 창조를 거듭해온 SM Entertainment가\n\nK-POP과 K-Culture를 즐기는 새로운 기준을 제시하고자 합니다.\n\n미래를 내다보고 일상에 영감을 불어넣는 음악을 선보이겠습니다.\n\n시대를 뛰', 'score': 0, 'published_date': ''}
+- {'title': 'SM엔터테인먼트 채용', 'url': 'https://recruit.smentertainment.com/ko/interview2', 'text': "SM엔터테인먼트 채용\n\n## SM Inside 두 번째 이야기\n\n# 신입 매니저의 하루가 궁금하신가요?\n\n이번 역은 '에스엠타운' 입니다 💼✨\n\n매니지먼트 직무 - 소통 GOAT 님\n\n### Q. 자기소개 부탁 드립니다!\n\n안녕하세요, 여러분! 저는 SM엔터테인먼트 매니지먼트 소속 신입 매니저 소통 GOAT 입니다💕\n\n체계적으로 잘 갖춰진 SM의 시스템 속에서 아티스트 매니지먼트를 배우고, 전문가로 성장하고자 하는 간절한 마음으로 이곳에 지원하게 되었습니다. 다행히도 운 좋게 합격하여 꿈꾸던 곳에서 근무할 수 있는 큰 기회를 얻었답니다. 소통과 의견 조율을 좋아하는 저에게 오늘 이 자리는 큰 즐거움이자 행운입니다! 저처럼 매니저를 꿈꾸는 분들이 계시다면, 이곳에서 함께하면 정말 좋을 것 같아요.\n\n### Q. 담당 업무와 부서에 대해 소개해주세요!\n\n매니지먼트(Management) 직무는 엔터테인먼트 산업 전반과 아티스트 관련 모든 업무를 관리하는 멋진 직무입니다.\n\n매체를 통해", 'score': 0, 'published_date': ''}
+- {'title': '㈜에스엠엔터테인먼트 채용 - [SM Entertainment] 평가보상(성과관리) 담당자 채용 (경력) | 잡코리아', 'url': 'https://www.jobkorea.co.kr/Recruit/GI_Read/47173120?Oem_Code=C1&logpath=1&stext=%E3%88%9CSM%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8&listno=9&sc=632', 'text': '㈜에스엠엔터테인먼트 채용- [SM Entertainment] 평가보상(성과관리) 담당자채용(경력) | 잡코리아JOBKOREA\n검색어를입력해주세요.\n**\n**알바몬**게임잡**나인하이어**클릭\n* 채용정보\n* [합격축하금](https://www.jobkore', 'score': 0, 'published_date': '2025-06-19T00:00:00.000Z'}
+
+> 💡 **면접 활용**: 핵심가치와 일하는 방식을 STAR 스토리에 연결해서 문화 Fit을 증명해요.
+
+---
+
+## 5. 직무 분석
+
+이 섹션은 추가 데이터가 필요해요. (채용 공고 JD 수집 필요)
+
+---
+
+
+## 7. AI 전략 & 기술 동향
+
+
+
+
+### exa_tech
+
+- {'title': 'GitHub - smu-nity/smunity-server: SMUNITY 2.0 | 상명대학교 졸업요건 검사 사이트 Server', 'url': 'https://github.com/smu-nity/smunity-server', 'text': 'GitHub - smu-nity/smunity-server: SMUNITY 2.0 | 상명대학교졸업요건검사사이트Server\nSkip to content\n## Navigation Menu\nToggle navigation\n\nSign in\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\nSearch syntax tips\n# Provide feedback\n \nWe read', 'score': 0, 'published_date': '2024-09-15T00:00:00.000Z'}
+- {'title': '[Smilegate/테크 하이킹] 협업을 위한 클린 코드와 아키텍처 W5 - 돌아보기', 'url': 'https://smaivnn.tistory.com/44', 'text': '[Smilegate/테크 하이킹] 협업을 위한 클린 코드와 아키텍처 W5 - 돌아보기\n\n[[Smilegate/테크 하이킹] 협업을 위한 클린 코드와 아키텍처 W5 - 돌아보기] Activity\n\n어느덧 스터디를 진행한 지 5주가 되었고, 마지막 스터디를 오늘 진행하였습니다. 시간이 참 빠르네요.\n\n이번 시간에는 각자가 목표로 했던 다양한 코드를 고쳐보고, PR 후 서로 리뷰를 하는 시간을 가졌습니다. 그리고 (치킨과 함께) 이런 저런 사는 얘기를 하면서 마무리 하는 시간을 가졌습니다.\n\n코드와 관련된 내용은 아래 링크에서확인할 수 있으며 오늘은 돌아보기, 후기 정도를 진행하려고 합니다.\n\n[https://github.com/SmilgateTechHiking-CleanCode/PRPractice](https://github.com/Smilga', 'score': 0, 'published_date': '2024-10-07T00:00:00.000Z'}
+- {'title': 'Here comes, Dear U Tech Blog - Seunghyun - Medium', 'url': 'https://medium.com/@seukim.smtown/here-comes-dear-u-tech-blog-d5a68580abb6', 'text': 'Here comes, Dear U Tech Blog. Hello everyone, | by Seunghyun | Medium\nOpen in app\nSign up\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https://medium.com/@seukim.smtown/here-comes-dear-u-tech-blog-d5a68580abb6&amp;source=post_page---two_column_layout_nav-----------------', 'score': 0, 'published_date': '2022-06-03T00:00:00.000Z'}
+- {'title': 'GitHub - Team-Smeme/Smeme-server-renewal: 스밈 서버에도 봄은 온다 🍃', 'url': 'https://github.com/Team-Smeme/Smeme-server-renewal', 'text': 'GitHub - Team-Smeme/Smeme-server-renewal: 스밈 서버에도 봄은 온다 🍃\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe r', 'score': 0, 'published_date': '2023-01-11T00:00:00.000Z'}
+- {'title': 'awesome-uses/readme.md at master - GitHub', 'url': 'https://github.com/wesbos/awesome-uses/blob/master/readme.md?plain=1', 'text': '# File: wesbos/awesome-uses/readme.md\n\n- Repository: wesbos/awesome-uses | A list of /uses pages detailing developer setups, gear, software and configs. | 5K stars | JavaScript\n- Branch: master\n\n```md\n# → Visit uses.tech for a good time\n\n## Please read Contribution Guide before submitting a PR.\nA list of `/uses` pages detailing developer setups, gear, software and configs.\n\nAdd your own `/uses` page ', 'score': 0, 'published_date': ''}
+
+> 💡 **면접 활용**: 기술 블로그 최근 5개 포스팅을 읽고 AI 전략과 기술 스택을 면접 화두로 활용해요.
+
+---
+
+## 8. 산업 정책 & 규제 환경
+
+이 섹션은 추가 데이터가 필요해요. (정책 뉴스·규제 동향 수집 필요)
+
+---
+
+
+## 10. 면접 준비 가이드
+
+이 섹션은 추가 데이터가 필요해요. (면접 후기·채용 프로세스 수집 필요)
+
+---
+
+## 11. 종합 판단 & 스코어카드
+
+### 스코어카드
+
+| 항목 | 가중치 | 점수 (1-5) | 가중점수 | 근거 |
+|------|--------|-----------|---------|------|
+| Job Fit | 30% | 3.5 | 21.0 | Tech stack data available |
+| Career Leverage | 20% | 4.5 | 18.0 | 12 data points collected |
+| Growth Potential | 20% | 4.0 | 16.0 | ; Strategy data collected; Active news coverage |
+| Compensation & Benefits | 15% | 2.5 | 7.5 | No salary data |
+| Culture Fit | 15% | 4.5 | 13.5 | Culture data from reviews; Exa deep search data; Blog/cafe reviews |
+| **총점** | | | **76/100** | 등급: **A** |
+
+
+
+
+
+### 면접 전 To-Do
+
+- [ ] JD 정독 및 키워드 매핑
+- [ ] STAR 스토리 3개 준비
+- [ ] 역질문 5개 준비
+- [ ] 기술 블로그 최근 5개 포스팅 읽기
+- [ ] 최근 뉴스 3개 숙지
+- [ ] 포트폴리오/과제 준비 (해당 시)
+
+> 💡 **면접 활용**: 스코어카드 점수가 낮은 영역일수록 면접에서 적극적으로 불안 요소를 해소하는 답변을 준비해요.
+
+---
+
+## 12. 핵심 레퍼런스
+
+| 소스 | URL |
+|------|-----|
+| dart | https://dart.fss.or.kr/corp/summary.ax?cmpCd=00985570 |
+| naver_search | https://search.naver.com/search.naver?where=blog&query=SM엔터테인먼트 |
+| google_news | https://news.google.com/search?q=SM%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8 |
+| community_review | https://search.naver.com/search.naver?query=SM엔터테인먼트+잡플래닛 |
+| exa_search | https://exa.ai/search?q=SM엔터테인먼트 company culture engineering team work environment |
+| exa_search | https://exa.ai/search?q=SM엔터테인먼트 business strategy growth AI investment 2025 2026 |
+| exa_search | https://exa.ai/search?q=SM엔터테인먼트 hiring jobs career employee reviews |
+| exa_search | https://exa.ai/search?q=SM엔터테인먼트 tech stack engineering blog open source |
+| credible_news | https://news.google.com/search?q=SM%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8 |
+

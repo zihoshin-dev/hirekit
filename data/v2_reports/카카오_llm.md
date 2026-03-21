@@ -1,0 +1,396 @@
+# 카카오 — 기업 분석 리포트
+
+**지역:** KR | **티어:** 1 | **등급:** S
+
+---
+
+## 1. 회사 개요 & 현황
+
+### 기본 정보
+
+| 항목 | 내용 |
+|------|------|
+| 설립 | — |
+| 대표 | 정신아 |
+| 본사 | — |
+| 직원수 | [{'position': '전사', 'gender': '남', 'headcount': '2,166', 'contract_workers': '20', 'total': '2,186', 'avg_tenure_year': '6년 4개월', 'total_salary': '122,000,000', 'avg_salary': ''}, {'position': '전사', 'gender': '여', 'headcount': '1,587', 'contract_workers': '149', 'total': '1,736', 'avg_tenure_year': '6년 3개월', 'total_salary': '92,000,000', 'avg_salary': ''}] |
+| 평균연봉 | — |
+| 평균근속 | — |
+
+### 핵심 실적 (최근 3개년)
+
+| 연도 | 매출 | 영업이익 | 비고 |
+|------|------|----------|------|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+
+
+### recent_news
+
+- {'title': '“투자자에게 ‘사고의 파트너’를 제공한다”…링크알파의 금융 AI 혁...', 'description': "ties, or background.&quot; Even before being selected by Forbes, Link Alpha has consistently shaped the discourse on financial AI. We've shared our vision for the future of the financial industry at conferences hosted by global financial... ", 'link': 'https://www.venturesquare.net/1031907/', 'pub_date': 'Mon, 12 Jan 2026 09:42:00 +0900'}
+- {'title': '중기부, K-뷰티 글로벌 시장 진출 본격 지원', 'description': '수출 실적도 전년 동기(15.3억달러) 대비 약 20% 증가한 18.4억달러의 실적을 달성하면서... 구성하고, 카카오톡 AI 챗봇 상담시스템을 도입해 미국의 관세부과 절차, 원산지 증명 등... ', 'link': 'https://www.venturesquare.net/967581', 'pub_date': 'Fri, 02 May 2025 15:16:00 +0900'}
+- {'title': '[핀테크핫이슈] 금융권의 역습...각종 IT 서비스 전면 배치', 'description': '인공지능(AI) 서비스 개발 협력 및 공동 비즈니스 발굴을 위해 전략적 업무협약을 체결했다. 삼성전자가... 이용 실적 확대 등의 영향으로 분기 기준 첫 흑자를 기록했다. ㆍ카카오뱅크 3분기까지 순익 859억...... ', 'link': 'http://www.digitaltoday.co.kr/news/articleView.html?idxno=252566', 'pub_date': 'Tue, 10 Nov 2020 08:03:00 +0900'}
+**company_name**: (주)카카오
+**company_name_eng**: Kakao Corp.
+**stock_name**: 카카오
+**address**: 제주특별자치도 제주시 첨단로 242
+**industry_code**: 63120
+**established**: 19950216
+**homepage**: www.kakaocorp.com
+**ir_url**: https://www.kakaocorp.com/ir/main
+**stock_code**: 035720
+**corp_class**: Y
+**meta_description**: 누구나 일상에서 AI를 경험할 수 있도록
+**page_title**: 카카오
+### about_text
+
+- 홈 본문 검색어 닫기 스토리텔링 서비스 바로가기 서비스 나의 세계를 바꾸는 카카오 AI 기술 나에게 가장 가까운, 가장 쉬운 AI 채용 함께 나아갈 미래의 크루들에게 ESG 지속가능한 미래를 위한 카카오의 약속과 책임 Service AI/TECH People ESG 카카오의 다양한 모습 바로가기 뉴스 바로가기 카카오가 전하는 가장 빠른 뉴스 투자정보 바로가기 주주와 함께 성장하는 카카오 카카오소식 바로가기 지금 카카오에선 그룹사소식 바로가기 더 나은 미래를 만드는 패밀리 고객센터 바로가기 그 어떤 목소리도 소외되지 않도록 더 나은 세상을 만드는 카카오 서비스 카카오톡 사람과 세상을 연결하는 전 우주 통신규약을 꿈꾸는 메신저 카카오맵 좋은 곳을 함께 찾아가는 지도, 카카오맵 카카오톡 채널 더 편한 모바일 생활의 시작, 카카오톡 채널 카카오페이지 세상 모든 이야기를 담다, 카카오페이지 카카오T 모든 이동을 위한 모빌리티 서비스 카카오페이 마음놓고 금융하다 지그재그 나를 표현하는 쇼핑, 지그재그 멜론 음악이 필요한 순간, 멜론 전체 슬라이드 8 중 1번째 슬라이드
+- 서비스 이용정보 이용약관 카카오계정 서비스 사이트 바로가기(새창열림) 카카오 서비스 사이트 바로가기(새창열림) 위치정보 이용약관 새창열림 개인정보처리방침 기업사이트 사이트 바로가기(새창열림) 카카오 서비스 사이트 바로가기(새창열림) 운영정책 및 제안 운영정책 사이트 바로가기(새창열림) 안전보건제안 사이트 바로가기(새창열림) 청소년보호정책 새창열림 접근성 안내 새창열림 브랜드보호정책 새창열림 권리침해신고안내 새창열림 공지사항 투자정보 공지 사이트 바로가기(새창열림) 카카오 서비스 사이트 바로가기(새창열림) 사이버윤리실 새창열림 Contact Us 새창열림 관련사이트 카카오 프라이버시 사이트 바로가기(새창열림) 카카오 디벨로퍼스 사이트 바로가기(새창열림) 다음 포털 사이트 사이트 바로가기(새창열림) 동반 성장 사이트 사이트 바로가기(새창열림) 제주 with kakao 사이트 바로가기(새창열림) © Kakao Corp. All rights reserved.
+### career_links
+
+- https://careers.kakao.com/index
+- https://careers.kakao.com/index?t_src=mainpage
+### google_news
+
+- {'title': '카카오모빌리티, 자율주행 인재 채용 확대…피지컬 AI 전략 가속 - 헤럴드경제', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE43U1d5YmF3Smd0UVI4SHhZZGZSNXk3Y2dBWkR3di0wSmtibW1SYURaOFlPelB2YkdOaFNtS19BeTlYTzRpd1JDOXZyM2pCTWd4em0wbkdB?oc=5', 'pub_date': 'Thu, 19 Mar 2026 23:51:03 GMT', 'source': '헤럴드경제'}
+- {'title': '“피지컬 AI 승부수”… 카카오모빌리티, 자율주행 인재 채용 본격화 - 미디어펜', 'link': 'https://news.google.com/rss/articles/CBMiWEFVX3lxTE91aEpyV1gtaVVhanQtQlNielF6ZHBFak1LWGZ4TDY2eF9WeHZ1YUdNZ3JRT3FoWGtBLTd3TDlkN0dPZGU1R3lvT0lpSEFpQkVWMXh4NldkQkLSAVhBVV95cUxPdWhKcldYLWlVYWp0LUJTYnpRemRwRWpNS1hmeEw2NnhfVnh2dWFHTWdyUU9xaFhrQS03d0w5ZDdHT2RlNUd5b09JaUhBaUJFVjF4eDZXZEJC?oc=5', 'pub_date': 'Fri, 20 Mar 2026 01:53:00 GMT', 'source': '미디어펜'}
+- {'title': '카카오모빌리티, 자율주행 R&D 인재 채용 확대…피지컬 AI 전략 본격화 - 라이센스뉴스', 'link': 'https://news.google.com/rss/articles/CBMia0FVX3lxTE91XzllU0FBSWxHTjN1WjVraEtCelNZRXFkTmtGNmVWRzhiYWdHM21rcG1NUEQ0Zm1XY09RM3MzMHlVUmQ4RlVMX01ud0M2UE9aaFBVNGZPVlE5NVYxS29hSU9PaW5LVXItc3Iw?oc=5', 'pub_date': 'Fri, 20 Mar 2026 00:06:57 GMT', 'source': '라이센스뉴스'}
+- {'title': 'AI 비서가 매일 ‘선톡 브리핑’… 상품 추천하고 일정 알려줘 - 조선일보', 'link': 'https://news.google.com/rss/articles/CBMigwFBVV95cUxNbk1lLXFTc3VKWVNBYWNxSURfN3l1Sm0wWS1sTHZVdTNadXJpRmVPVzN4V0s4bm1UZ1lTbVhvalVYMy1EYng5M2gwYkFGNXdYdjdzWHh6bDRLZExiNF85VmlXVzhPM0ZEb3pnZHF4V1Y5Z2FJYzA5aGF1UUJKY0liNVhURdIBlwFBVV95cUxPMFh0YUpTQTZUTVhsVHliZUVNa2NldW81Vko2QmwwdUp2YThiNDFBX0c0NlNpT2hEOXZNbXJNMDhtRXhwNThFOHhScnVXSkRabV9TUlpxVG8yeG5oSF91OU1DT0dpQk8xT1Q5NUQ2VzBmMlhmTWtxWGQ0NE5kZHFUa1FqamtoRFRJVXhHd3J2dEUyOHdDcWdr?oc=5', 'pub_date': 'Thu, 05 Mar 2026 08:00:00 GMT', 'source': '조선일보'}
+- {'title': '"오늘은 결혼기념일, 이런 선물 어때?"...카톡 AI가 먼저 물어본다 - mt.co.kr', 'link': 'https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FT0NvSHo1Q0hjeTRfUGlRTmxtSkgxT1Y5MUdGLUNocUx3WmhXYzRPcnNsay1hVF9tczZINmdOX19aWnBLRU1PSzZpUXJOcmpCSUhKbmQ3c2hDcGhSb25fQmJYak1fQjA?oc=5', 'pub_date': 'Mon, 09 Mar 2026 07:00:00 GMT', 'source': 'mt.co.kr'}
+- {'title': '카카오, 구글과 전략적 파트너십 체결..."카나나·TPU·AI 안경 협력" - AI타임스', 'link': 'https://news.google.com/rss/articles/CBMiakFVX3lxTFB6SHkxSC1uU2dDV0h0OXlGcURLTG1DZDRNMjBKeXZqM0xzZDZXalZCMUlsQmNyak1iQjZSaHE0Rml1ZDZEUHJEdDM3T2NuaEhuVk1FTE40VERHMG9MWGJha0dCMlIySWxaU3c?oc=5', 'pub_date': 'Thu, 12 Feb 2026 08:00:00 GMT', 'source': 'AI타임스'}
+- {'title': "[카카오 전환기] 실적 반등 넘어 'AI 수익화' 국면 진입 - 딜사이트", 'link': 'https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XNDhwMmk5aEpGbGhvUnktbjE4SVdSVjRaR3JoTlVzLU1qRFdJZHZEZ1FKSjZiVVZ2bzhlTFlyRTlyMGI2MkE4VWl0MDVfeTA?oc=5', 'pub_date': 'Wed, 04 Feb 2026 08:00:00 GMT', 'source': '딜사이트'}
+- {'title': "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스", 'link': 'https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UczRnMUtERlN4MXo1dVB6MW9CUUtrdUplZ1NCdEdMMlBNV0w3Zi1LbE0xM01xNzBYOVVidy1hRVBkMnRLdGVUb1BBa3dQblVtWjlrZXlhM1RGbjhUczlDddIBeEFVX3lxTE1mUG9WM2UycDBmaEJ0blNmWjUwUWNTUUhtYkhHQWNtYTZFdlBjZjItTE9abUdrcHZaWVFsLUl1T3dBNEg3YlE4aDE4STMwVi12ZkV1d1lVbHFTWm4zajNvZXBrM0JtOG94cWRMX01ZYVRKMzgxWmlJbg?oc=5', 'pub_date': 'Wed, 03 Sep 2025 07:00:00 GMT', 'source': '뉴시스'}
+- {'title': '[인터뷰] 홍윤표 디케이테크인 CTO “AI는 실전, 현장 생산성 55% 올린 비결” - 더에이아이', 'link': 'https://news.google.com/rss/articles/CBMiakFVX3lxTE0wYWpIeUNHeWZ6T3hMTkRULVVmcUxrV0lBOHI0NV8zZk5iZEpxY2s2R2k4VmpYRnBfVDRLQkNOT0UzcHVEOE5EYkIzUW5JUlhWZjBUVmpRNVhmYUx0U0p1NmVFeTR0N3BjX0E?oc=5', 'pub_date': 'Fri, 17 Oct 2025 07:00:00 GMT', 'source': '더에이아이'}
+- {'title': '[테크스냅] 국정원, AI 분야 전문 경력직 공개 채용 - 연합뉴스', 'link': 'https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SdS1zQS0tNzhEa0tEbzN5eUUxM2dvNGhRUktRc1cybVpzZFJ4NDhxNkNwWHhUOEhsT1drYVJIbjFJTktMMmUwT1cxam04NFRQeTl3a09iLXk5bEHSAWBBVV95cUxPNDZySG5XNVVBSVl1MkJLaHV1N1JUWUVkVmtqam9QaEI4M3BXMVluaS1ybVFBcUtlMHRaTVVuaXZWM2VxTHJoYlFPbG9kS25Hc0tXX054cEs0X0c4QllFYjA?oc=5', 'pub_date': 'Mon, 02 Feb 2026 08:00:00 GMT', 'source': '연합뉴스'}
+- {'title': '카톡에 들어간 챗GPT..."가장 혁신적인 AI 경험 제공" - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Ld2ZOeTh3Q3VxZjBBb3VUcnBkdkdhYi1nTVlTQXBJbkcycy1rMjNiWDdwN0tpb1lubDFaUGhMSFhOc2dqMmZzOVVRZ3NqMU1DazFhWXpn?oc=5', 'pub_date': 'Tue, 23 Sep 2025 07:00:00 GMT', 'source': '지디넷코리아'}
+- {'title': "'국민 메신저' 카카오톡, 챗GPT 탑재...소통 도구 넘어, '대화형 AI 에이전트'로 진화되나? - 인공지능신문", 'link': 'https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OeU9JeUpMV1pqb0NKNEpVNmtYZFkwNG5wNHU4SzlfTUswX1NVZWJQV3pSRjcyTEg0Q05PeE5ybGJrYjd6MTZybk9UMGl4TkNSMDVxUkVzWlpwZVBaNjFvUUdNZk9lWUU?oc=5', 'pub_date': 'Fri, 05 Sep 2025 07:00:00 GMT', 'source': '인공지능신문'}
+- {'title': '[길 잃은 카카오]② “네이트온처럼 한순간에 무너질 수도”… 카카오톡, AI 시대 기술·전략 물음표 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMiggFBVV95cUxONHd6ZlB6SF8zM244ZWJNck5HYi11MzRCQlZFWFcyVWYzYkh2ZTdpMUlpVFpubkdTU0V6ZnAyRkNPTVNhd0lBdk5COTJJVEREZzdIWXpVZVJPNmc1R1dmVndfZVE3S0ZEQVBiTmF6dHRtaGRmVVpZLTVISlNfeE0yZ21B0gGWAUFVX3lxTE1wNk9EeEJSbi1YVTdXVUhYcHpPczhFZ1ZoV296cmgwRmJwOTZkWXlkYi1WdzY0N19XMl9ubXJuV0NPX2dnSDdnSURNcFJwaHNtamdtYjE3X1g3OUtIWFZrWnFnUG1KRjYwRjV0cEcwbFcyS3RETllDN0l2VzFIMktmeUwwNjBDZWJnamluZ1lUcVBwWXVSQQ?oc=5', 'pub_date': 'Mon, 09 Feb 2026 08:00:00 GMT', 'source': 'Chosunbiz'}
+- {'title': '카카오, 구글과 온디바이스 AI 전략적 협력… 오픈AI와 투트랙 전략 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMiggFBVV95cUxPS1IzaF9EX2JlZ3QzaHlSZ3ZJMGJuajl1ZjdHeVVpYlZNcFdUcGJ5NDVwSm9KQjVqNDRNT09oWjRoc2VTRGczd0lSOVFwSXJoRVR3Nk5SZXgyQjhiSFJ2WWJMOVo4c2EtOU1NTFAxcFNWdnF3a1pVbGVnMHBzLWh6X1pn0gGWAUFVX3lxTE9KdE5lb1VVUzVyVGY3YUhidDN6ZERqa3cyUWtjckJSYktKU25sd1hhb0drTzNJbmJfVUYwSC1qSzQzLTBkUS1IMmZrR2k0Wi1kbU9mWnpjVEE0RFlVSmhEeV9GY2lkYnJSc1p0LU9tVC14czlkVENLNmdGSGllZDNVSkZaQldMS2djbGNacWdCUnBGQ2NmZw?oc=5', 'pub_date': 'Thu, 12 Feb 2026 08:00:00 GMT', 'source': 'Chosunbiz'}
+- {'title': '정신아 대표 “카카오 목표는 에이전틱 AI… 신규 매출원으로 진화” - IT조선', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE55WGtpT3hsYWdPTlRwN1VJb3FWQnRrRmNTMHpmRjVGMkJiWDA1MWRCQ1RpZXliZmhDRDExbjNEeTJOZmg3a1M4TmdNS0tiMWZJdTg5NkFFMFNSamdIZHlEeHZKal9rTEZ5cnJ3cHU5bEnSAXRBVV95cUxOUWpHaUdQR1l1SlFLbUxXc0kzNnI2V1hJdXMtU0NCREpWSnJBcTQ5UzRTa2NUZHEzVUpOQWFDWDRId1ktMHhiRWdxak94YzVDSloxWmNobjhYYzB6WGRIblVLSUFocFcwNlhHWGRJc21hdDJFWA?oc=5', 'pub_date': 'Fri, 07 Nov 2025 08:00:00 GMT', 'source': 'IT조선'}
+- {'title': '[창립 16주년] 카카오, 2025년 역대 최대 실적 경신...‘AI 플랫폼’ 도약 시동 - ceodaily.co.kr', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE1zSWpPZXdmQ013M0p1YTN2X3VmUFdHRURRUW1meXphby03Um1DUXFUbkc3eWxHRXk0UzlLNy1WYmVpeEUwOERBLUdjWXl4dHBGd0ZVTS04ZlkwNmxudDlDNnZJd3hhZ19uc2xROURrSjHSAXBBVV95cUxNc0lqT2V3ZkNNdzNKdWEzdl91ZlBXR0VEUVFtZnl6YW8tN1JtQ1FxVG5HN3lsR0V5NFM5SzctVmJlaXhFMDhEQS1HY1l5eHRwRndGVU0tOGZZMDZsbnQ5QzZ2SXd4YWdfbnNsUTlEa0ox?oc=5', 'pub_date': 'Wed, 18 Mar 2026 00:16:50 GMT', 'source': 'ceodaily.co.kr'}
+- {'title': '[生기업TALK] 카카오페이, 흑자 발판 삼아 ‘스테이블코인’으로 외연 확장에 속도 - 시사캐스트', 'link': 'https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tRUUxYkhWV294VEY2aGlRSWhJeHRFdnZBYldQYzlza2xidnphVzJlUkNOM19RWk15ZUFfbDZJb1BaZ0JtbGMtTVlQZW5VOV9uaDZwRmZxV2RHdGJxS0xQdzc5VmNsNWs?oc=5', 'pub_date': 'Wed, 18 Mar 2026 23:17:15 GMT', 'source': '시사캐스트'}
+- {'title': '카카오 창사 이래 최대 실적...카톡 개편으로 광고 매출 크게 늘어 - 조선일보', 'link': 'https://news.google.com/rss/articles/CBMigwFBVV95cUxPT2xEZlljWGNNOFNFa3dhUDljQ2xsMmFTMkVWaEZUQ1ZOUFphTmVFN2tReG50OFNRUFNSTlJiYzhDbXBHQmhOTThOTWROQjhMMHUyVjl0MDJIak9UaGxwQmd0cWVWLVU3SlhWcENadm9zQ2tLZmJxZndnVk11TkVCODJVWdIBlwFBVV95cUxNM2dVMTJ5VGNLcHQ1ejE4ZHBIT0hzQmJCS1dfVnlDUl95RlJXSEdWREh4SWZ6bGMwc1lYeGVlMjltNUZtQUVPZC1VSElDQUREQ2RDWVRGOXFFeFF2RGF2c2k2VldPUF9RM0RGbmlHUVM5NUkyVFlELXJlX0pMUzJoOWc0TVBZaGNmZ05lWTBJU3JxTmNTTV80?oc=5', 'pub_date': 'Thu, 12 Feb 2026 08:00:00 GMT', 'source': '조선일보'}
+- {'title': '네이버·카카오, 실적 상승 비결 AI…같은듯 다른 사업 - 글로벌이코노믹', 'link': 'https://news.google.com/rss/articles/CBMif0FVX3lxTE5PMERVV09RQVJlSWs1TnR0ZmJSandYNi1RZjBvM19LcmRxaUUySTRfdjd2NXFGU216eDFTeUxIdGZmbTAtTjZBVmtOTVY2ZUNFLWdzMi1BUGtIWWw0T0dTdDZ4ZHVpdVh6TWt3RmVUTU9BbmdVV1pzNWdmVGpTdlk?oc=5', 'pub_date': 'Tue, 11 Nov 2025 08:00:00 GMT', 'source': '글로벌이코노믹'}
+- {'title': '카카오페이, ‘생활 플랫폼’ 도약…데이터 기반 광고·중개 비즈니스 급성장 - 한국금융신문', 'link': 'https://news.google.com/rss/articles/CBMifEFVX3lxTE9oZ2U3a1RTdDAtTVJFTU94aHZmOUpTb1NrcnlBdG40WFpYTUYxWHRCZktFQUIxalpudlpoa19rV3VqX3A4eld4dGhmZVhuTlJoZUxkaW5zTXhja1pkT2FYc04xRXNFZmtTXzc4azFNSGdvWmk0S2NJRkFYcFY?oc=5', 'pub_date': 'Wed, 18 Mar 2026 10:36:45 GMT', 'source': '한국금융신문'}
+### korean_credible_news
+
+- {'title': '카카오모빌리티, 사우디 시장 진출 - 모바일한경', 'link': 'https://news.google.com/rss/articles/CBMihwFBVV95cUxQUS1RZnVDVDFpWlJRcVJQaEpPaDh6UEFSd3dRTm8zN1B1SW1FTkQzWElfNGlaN2xwTDRZZkhBSmJhV2E4OXNoaWJsLXVJMHdsTDBWRE91SldKYnh5cmk2aU1PWEpfX0swbGwwNmFhTUpTS00wYTFjOWtNUDYtenZxeWF6Y1NrNG8?oc=5', 'pub_date': 'Mon, 23 Feb 2026 08:00:00 GMT', 'source': '한국경제'}
+- {'title': "카카오 김범수 창업자 'SM 시세조종' 항소심 본격화…합법적 '공개매수 저지' 인정될까 [CEO와 법정] - 한국경제", 'link': 'https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wRGM4NmxENnU2R2NKdmNsWlVFckxFN2dzNGNXOW1PeVVoZUNsX0h0NER1NTB2d2NjV2tNcXpmQ0hBdW9PYjlXeEVVMmJTc3ZrYWJXUksyajB3UdIBVEFVX3lxTE5xWXpzOXgxRW56Vy12blc1akFVaUJDWENrcW5KcjRJU2JyZlNSbnZDWlVEaHo1OHFMQlhjYlFhUzBscmdKcy0talpvQXFIaXF0dVRkaQ?oc=5', 'pub_date': 'Fri, 20 Mar 2026 07:50:56 GMT', 'source': '한국경제'}
+- {'title': '카뱅, 2시간 동안 \'먹통\'에 또 \'먹통\'···"장애 원인 파악 제대로 못해" - 매거진한경', 'link': 'https://news.google.com/rss/articles/CBMibEFVX3lxTE5DX3kySkV2VkcxZ2tzNEYtcXlIWUo3X1poN3FlMDBoQjRybUNtU25VOTlHX1Q0TnYxbF82SE5RQlNaaXcybVhLb2lOVFVHMHNpeHFrRVp5SkFDWkhublBMZGZTYTdxUmEtUWVzcw?oc=5', 'pub_date': 'Thu, 19 Mar 2026 23:08:00 GMT', 'source': '한국경제'}
+- {'title': '‘SM 시세조종 혐의’ 카카오 김범수 창업자 항소심 시작… 1심 ‘무죄’ 유지될까 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMigwFBVV95cUxNM0pMOTl3UGNmR3RnRlJfeWhnRUQzQjRvemRJR3F5SHFncGxLVHdPc3ljOGdnNUZFMlRBYl96ek8zY2xvUllhUE8xa1BsdkdURzlVMUZiUGU5TWRLVGVDbEJDVkFpODBfRkotVEU1RkNjbkhRRDM5eTljNjRha3BJZFE4WdIBlwFBVV95cUxPTl9pVGY2QS1aYnZSZ0x1SVJNSi0tNmFHbjRFWXVtaGlQbTREYU41cThnTnFGNWszY1dGSk5rUnBFZFUzRkhXbXRKMFpJVS1Wc0ttT0NqRzNFbXRXTXVROHdOdnFxUXh5U2wzczBQaHhGbUlaa1lWaVhUbWx1TXgyOWc3eGxLU0tUb0M3b0xvY056OUExY04w?oc=5', 'pub_date': 'Fri, 20 Mar 2026 07:03:00 GMT', 'source': '조선비즈'}
+- {'title': '카카오·라인서 독립한 카이아, 스테이블코인으로 돌파구 모색 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMigAFBVV95cUxOT3VJUnNZTmhER0tuYjBKSmRJejFrbjRfbVJPWlRkZjNDNVVqQWcxakZoUUJra0pJcDhkck9qYVpvOE8yQkhoWXNGNG9qQXRqLXNuQTVITmxBVjh4Y1NINXI0ZTdFWjBINVUzbjZXZjVsRzBBRzFXMndsWFFKRWVENtIBlAFBVV95cUxQM3ljQlBmQW5vRUc3djZoYWoyXzdTc2RjMGlSZEZ0dHVmWlMtZE5aR0N0YlVCeVNqZElrazg1ZUZrWWY4ZDZ5SU5jZFluY1M2X2llNS0zWldCZEVRSXo5Tl8zd2RaMFJyczVUVWZtZmhIcVYwM3N6RU12cGJkN21MRlBLUlpEZ0pSLW1SYUFLNURkREFE?oc=5', 'pub_date': 'Fri, 20 Mar 2026 22:00:00 GMT', 'source': '조선비즈'}
+- {'title': '카카오·토스·케이뱅크, ‘이재명 표’ 청년미래적금에 첫 등판 - 조선비즈 - Chosunbiz', 'link': 'https://news.google.com/rss/articles/CBMigAFBVV95cUxOUmw0MXF5X3pxRkU0RXh0cVpQNGhYLXAwNWRCMldOclNaRXdpeUxMRTlrNkJ6R1dVOG1sY2x2UGplTzRkZ2o4NU13WnMzVXFkaGFIaXFjUjhZbHpEdWt2bndBOExCSVA3SF9NUlE4NTZvRlB0STNPa3ZQZ0tFVGNWTNIBlAFBVV95cUxOeTZVbnRXQ3Nyczk2UjR6M01zcHR2UTRDMzZyblRJd1ZNdmVnR0t3R2hHT0c3ZXZBMFpJQ2stOWxDc1Zaa1hpWlZSQVJhTlJXYWxZZE9Jbk5qazA1SkxDOGdSWGpWRzNoTnJ1UHZlMWs2RXBsTHlCOWRTTjRDZldIb1JtMVVvLW1hWnNiLWRySFFYN3oz?oc=5', 'pub_date': 'Fri, 20 Mar 2026 02:00:00 GMT', 'source': '조선비즈'}
+- {'title': '[Book] 카카오 전 대표는 왜 술을 빚었을까 『술 이름은 코리안 민트』 - 매일경제', 'link': 'https://news.google.com/rss/articles/CBMiVEFVX3lxTE9iQmFSX0k3VEVuUzdWYWpDRW8tanBCYUx5VzVFZWV4N3R2WkdEdV9vUGZLdzZpMGUydGgzdTBXRzBnLXM3YWt3TWk5bjhSUG9kV2VyOQ?oc=5', 'pub_date': 'Sat, 21 Mar 2026 09:12:10 GMT', 'source': '매일경제'}
+- {'title': '카카오, 임원ㆍ주요주주 특정증권등 소유주식수 변동 - 매일경제 마켓', 'link': 'https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UNEVReC1UTmlvVTVHak9yRXcxYW9SWUE0WHFHcHFTajN5UF9JMGlJbGhVZG5aaGxNSVZkekF3ZFpDQ0ZycVI1TkNPTGNzVnRtN3c?oc=5', 'pub_date': 'Fri, 20 Mar 2026 06:38:07 GMT', 'source': '매일경제'}
+- {'title': '카카오, 임원ㆍ주요주주 특정증권등 소유주식수 변동 - 매일경제 마켓', 'link': 'https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RNkVWdzByRTFpSVJiWDVoVXdZV01LS3hkWDlJckg5aU1Xc0QtdTNkbkRDRWRPdlR1UmE5N1ZuQVF4bjZUbXhhaW5rOUwwNC1ndFE?oc=5', 'pub_date': 'Fri, 20 Mar 2026 06:33:27 GMT', 'source': '매일경제'}
+- {'title': '고정희 공동대표 내정자, ‘카뱅 혁신 DNA’ 카카오엔터에 심는다 - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoY25qRmF4UnlvbkRuaGwwWFVZRlNIVXhjNXowRHpldWgtSGE3akFlaWdVUzh0VmFJTThRcV9RSnZtMlc0eTN6ZkdNeHJZMTIyWnhSWUJn?oc=5', 'pub_date': 'Fri, 20 Mar 2026 06:47:49 GMT', 'source': 'ZDNet Korea'}
+- {'title': "카카오게임즈 '아키에이지 워', 장기 흥행 비결은...콘텐츠 진화 인기 견인 - 지디넷코리아", 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QLUdSOXhYMUR3Y1pMeEpFZEJhZXhmNWNVVjRoZVlIYzZaUlIzTWdHNmhTOE1kLXFHM09JaF9UTlBCS0pMcjJXWVB5OU9kU2hEdnVRajZB?oc=5', 'pub_date': 'Fri, 20 Mar 2026 01:47:01 GMT', 'source': 'ZDNet Korea'}
+- {'title': '카카오엔터 "불법 사이트 아지툰 상대 민사 승소" - 지디넷코리아', 'link': 'https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xanBhalRVdWgybHZDeHJqZ2pESzJVTWN2SmFpbkVDY3hkckVic1JvU2VYem1fYm9BSzdMVTVfWndEMDBRdGVYbEVJeGRlSjk1bnU3ZHJR?oc=5', 'pub_date': 'Thu, 19 Mar 2026 05:19:42 GMT', 'source': 'ZDNet Korea'}
+- {'title': "카카오 김범수 'SM 시세조종 혐의' 항소심 시작…쟁점은 '의도' - 블로터", 'link': 'https://news.google.com/rss/articles/CBMibEFVX3lxTE9MM1dpaC1ZSWMyTnZwRzJFWXpyNU1USVZRdzZ0dlBUQzU4b2ZaSElRYUs4OXF3YmJzWHhMWVNfSC1PTjByeUdwS05NeGtEU19WVW01czhRTDV3MEI5NkxMeG91ZWJBSlk0S0s4QtIBbEFVX3lxTE9MM1dpaC1ZSWMyTnZwRzJFWXpyNU1USVZRdzZ0dlBUQzU4b2ZaSElRYUs4OXF3YmJzWHhMWVNfSC1PTjByeUdwS05NeGtEU19WVW01czhRTDV3MEI5NkxMeG91ZWJBSlk0S0s4Qg?oc=5', 'pub_date': 'Fri, 20 Mar 2026 08:07:48 GMT', 'source': '블로터'}
+- {'title': '카카오뱅크 두 번 멈췄다…장애 원인 오판에 복구 혼선 - 블로터', 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wNUk2Nk5TcG1neWhsNnY2SXpVZDF4NjA4aTNRUTRKSlA4UHNNMlNOUk5GVFhfWVR4TEU4VTBXa0JnNUVYc091RkpJSTZiZEkyUmN0Z3BIbEJMZEdxcDVFc3pTWW0zYXdj0gFsQVVfeXFMTV9ydXNHbWZmb0ZMZTlMVUEwMVFKQmd4SFRqVnd0MUw1UjdEZFpGZ1pZQlJMWndNeDFPOUt5Tmg3VVQ0Rkc5elRmclFrNjZ6RlZxRVBZX1pEeEh1OHVqaW5OamNWNE9iWEVlUWQw?oc=5', 'pub_date': 'Fri, 20 Mar 2026 04:17:16 GMT', 'source': '블로터'}
+- {'title': "카카오뱅크, '20분 장애'에 10만명 대기…사고보고 가능성 - 블로터", 'link': 'https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xQ1BCQlFHZWp0S1VjeEpLT0k4b085Z25GSmhXMFVteTI5a0d2c2lIVFNUaGM4dXVpdFd3V08yWFpfdi1uOVpIM3h3WTNMTEZFS1V6R1lXN3g0ZEVWWTh6LUtDMzRKU0NK0gFsQVVfeXFMTzlqY3JTMDZKcnI2RkhwY3g1dVB3cHQ4TlB0WXZJdDF2dFhWZFh4Y0pXY0wzWGRvdkw0QWdOamw4UlZvaVZiRGRnb0lNdzhvVzMzTWZNbkNFdDNfZjItdVZBN2FyemFzc1d1RFZ1?oc=5', 'pub_date': 'Tue, 17 Mar 2026 08:16:17 GMT', 'source': '블로터'}
+- {'title': '2026년 이커머스 3대 키워드는 무엇 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pb2toTF9pcVF6Xy1uT2dXNU91RVdUajRsQVZneVFYYUlyb3U2aUF4VWcybEZBb3JqbktkbFZwQzBMU0hKQkY0dzFuTU9TSEd5MERv?oc=5', 'pub_date': 'Sun, 15 Mar 2026 13:48:56 GMT', 'source': '바이라인네트워크'}
+- {'title': '카카오게임즈, ‘2025 코스닥 공시우수법인’ 선정 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiTkFVX3lxTFBFZWR1YXJadXJSQUF5NWRXazlRMGFNRmhxSnR5TVZKd1VHZGt2TlIzRkdRTlB4blYyaUxKcXVkOHdBQktxMUNjNjF4ZXlDdw?oc=5', 'pub_date': 'Mon, 09 Mar 2026 07:33:24 GMT', 'source': '바이라인네트워크'}
+- {'title': '페덱스, 카카오톡에 디지털 배송 솔루션 연동 - 바이라인네트워크', 'link': 'https://news.google.com/rss/articles/CBMiUkFVX3lxTE56ZWVEaFJpMDV6dlhFa2hZbS1XQWpfTE1JUkRIWHh4d0F3Q3luWTZma3Rqay12R1Q5SDdKUmV5R21pbjM3Tk1QVjBhN0MzRVBYUmc?oc=5', 'pub_date': 'Fri, 06 Mar 2026 07:52:29 GMT', 'source': '바이라인네트워크'}
+**analysis**: 카카오는 1995년 2월 16일에 설립된 기업으로, 현재 대표이사는 정신아입니다. 카카오는 AI 기술을 활용하여 다양한 서비스와 솔루션을 제공하고 있으며, 특히 AI 기반 광고 지원 서비스인 '카카오모먼트AI'를 출시하여 주목받고 있습니다. 직원 수에 대한 구체적인 정보는 제공되지 않았습니다. 카카오는 혁신적인 기술을 바탕으로 지속적으로 성장하고 있는 기업입니다.
+
+> 💡 **면접 활용**: 기업 기본 정보와 실적 데이터를 바탕으로 "왜 이 회사인가?" 답변을 수치로 뒷받침해요.
+
+---
+
+## 2. 산업 포지셔닝 & 경쟁 구도
+
+
+
+**analysis**: ### 산업 포지셔닝 & 경쟁 분석: 카카오
+
+#### 시장 위치
+카카오는 한국의 대표적인 IT 기업으로, 다양한 디지털 플랫폼과 서비스를 제공하는 종합 플랫폼 기업으로 자리잡고 있습니다. 특히, 메신저 서비스인 카카오톡을 기반으로 한 생태계를 구축하여, 소셜 미디어, 콘텐츠, 결제, 모빌리티 등 여러 분야에서 강력한 시장 점유율을 보유하고 있습니다. 최근에는 AI 기술을 활용한 서비스 확장에 집중하고 있으며, 이는 카카오의 시장 위치를 더욱 강화하는 요소로 작용하고 있습니다.
+
+#### 주요 경쟁사
+카카오는 다음과 같은 주요 경쟁사들과 경쟁하고 있습니다:
+- **네이버**: 검색 엔진 및 다양한 플랫폼 서비스를 제공하며, 카카오와 유사한 비즈니스 모델을 운영하고 있습니다.
+- **라인**: 일본을 중심으로 한 메신저 서비스로, 아시아 시장에서 카카오와 경쟁하고 있습니다.
+- **토스**: 금융 서비스 분야에서 빠르게 성장하고 있는 스타트업으로, 카카오의 카카오뱅크와 경쟁하고 있습니다.
+- **구글, 페이스북**: 글로벌 플랫폼 기업으로, 광고 및 데이터 기반 서비스에서 카카오와 경쟁하고 있습니다.
+
+#### 차별화 포인트
+카카오는 다음과 같은 차별화된 요소를 통해 경쟁력을 유지하고 있습니다:
+- **통합 플랫폼**: 카카오톡을 중심으로 다양한 서비스(게임, 음악, 쇼핑, 결제 등)를 통합하여 사용자에게 편리한 경험을 제공합니다.
+- **AI 기술 활용**: AI 기반의 광고 서비스 '카카오모먼트AI'와 모빌리티 서비스의 AI 융합을 통해 혁신적인 솔루션을 제공하고 있습니다.
+- **강력한 사용자 기반**: 카카오톡의 높은 사용자 수와 충성도는 카카오의 주요 자산으로, 이를 통해 다양한 비즈니스 모델을 실현할 수 있습니다.
+
+#### 성장 기회와 위협
+**성장 기회**:
+- **AI 및 데이터 기반 서비스 확대**: AI 기술을 활용한 새로운 서비스 개발 및 기존 서비스의 고도화는 카카오의 성장 가능성을 높입니다.
+- **글로벌 시장 진출**: 아시아 및 글로벌 시장에서의 서비스 확장은 카카오의 수익 다각화에 기여할 수 있습니다.
+- **모빌리티 및 금융 서비스의 성장**: 카카오모빌리티와 카카오뱅크의 성장은 카카오의 핵심 성장 동력으로 작용할 수 있습니다.
+
+**위협**:
+- **경쟁 심화**: 네이버, 라인, 글로벌 플랫폼 기업들과의 치열한 경쟁은 카카오의 시장 점유율에 부정적인 영향을 미칠 수 있습니다.
+- **규제 리스크**: 데이터 보호 및 개인정보 관련 규제가 강화될 경우, 카카오는 비즈니스 운영에 어려움을 겪을 수 있습니다.
+- **기업 문화 및 인재 유출**: 평균 평점이 낮은 기업 문화는 인재 유출의 원인이 될 수 있으며, 이는 장기적으로 기업의 성장에 부정적인 영향을 미칠 수 있습니다.
+
+결론적으로, 카카오는 강력한 시장 위치와 차별화된 서비스로 경쟁력을 유지하고 있으나, 경쟁 심화와 규제 리스크 등 외부 요인에 대한 지속적인 대응이 필요합니다. AI 기술을 통한 혁신과 글로벌 시장 진출은 카카오의 미래 성장 가능성을 높이는 중요한 요소입니다.
+
+> 💡 **면접 활용**: "왜 경쟁사가 아니라 이 회사인가?" 답변을 준비할 때 시장 포지셔닝 데이터를 활용해요.
+
+---
+
+## 3. 경영진 & 그룹사 방향성
+
+
+
+### naver_web
+
+- {'title': '자영업자·중소상공인 광고 운영 효율 지원 카카오, AI기반 광고 지원 서비스 ‘카카오모먼트AI’ 출시', 'description': '모먼트 AI는 광고 데이터를 해석하고 운영 방향을 제안하는 기능을... 전략 수립과 집행에 이르는 전 과정을 AI가 단계적으로 지원하는 모델을 목표로 하고 있다. 카카오 관계자는 “광고를 직접 운영하는 사업...', 'link': 'https://www.kakaocorp.com/page/detail/11845', 'pub_date': ''}
+- {'title': '카카오모빌리티, AI와 모빌리티의 융합으로 미래 비전 제시', 'description': "카카오모빌리티, AI와 모빌리티의 융합으로 미래 비전 제시 카카오모빌리티가 AI(인공지능) 기술과 모빌리티를 접목한 혁신 플랫폼을 미래 비전으로 제시하며, '모빌리티 특화 생성형 AI 기술'로 AI 대전환 시대를 주도할 전략을 공개했습니다. 빠른 모빌리티 서비스를 위한 AI 플랫폼 카카오모빌리티는 'NEMO 2023' 행사에서 이러한 비전을 공개하며,...", 'link': 'https://datamuseum.tistory.com/68', 'pub_date': ''}
+- {'title': '카카오 AI 비전은 젊은 인재… 창사이래 첫 신입공채 나선다', 'description': "23일 카카오톡 개편 등 집중 발표 카카오가 인공지능(AI) 사업에 강드라이브를 걸기 위해 창사 이래 첫... 카카오의 AI 드라이브 전략은 이달 23일부터 사흘간 용인 '카카오 AI 캠퍼스'에서 열리는 '이프 카카오(If...", 'link': 'https://www.fnnews.com/news/202509031827574194', 'pub_date': ''}
+- {'title': '카카오그룹, 경영 워크숍 진행...AI 전략·그룹 시너지 집중 논의', 'description': "카카오그룹이 인공지능(AI) 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로 논의했다.카카오그룹은 지난 18일 오후 경기도 용인시 '카카오 AI캠퍼스'에서 주요 그룹사 임원들이 모인 가운데 경영 워크숍 '원 카카오 서밋'을 개최했다고 19일 밝혔다. 원 카카오 서밋은 주요 경영 현안을 점검...", 'link': 'https://www.digitaltoday.co.kr/news/articleView.html?idxno=557748', 'pub_date': ''}
+- {'title': '카카오, 국내 최초로 오픈AI와 전략적 제휴 체결', 'description': '열고 전략적 제휴 체결 발표 - AI 서비스 대중화 위해 기술 협력… 카카오톡, 카나나 등 서비스에 오픈AI 기술 적용도 - 정신아-샘 올트먼 양사 대표, 협업의 비전과 향후 방향성 등에 대한 대담 진행 [2025-02...', 'link': 'https://www.kakaocorp.com/page/detail/11450', 'pub_date': ''}
+- {'title': '카카오, 오픈AI와 전략적 제휴…AI 서비스 협업·공동상품 개발(종합)', 'description': '서비스, 사업 등에서 협력 방안을 논의해 왔다. 올트먼 CEO는 한국 내 파트너십 상대로 카카오를 선택한 이유에 대해 &quot;장기적인 관점에서 카카오와 비전을 공유하고 있다&quot;면서 &quot;특히 AI와 메시징에 관심이 많은데...', 'link': 'https://www.asiae.co.kr/article/2025020413212826494', 'pub_date': ''}
+- {'title': '정신아 카카오 &quot;미래 성장 전략 위해 빠른 투자·대담한 리더십 필요&quot;', 'description': '신중하지만 대담한 리더십이 필요하다.카카오그룹(의장 정신아)이 AI 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로 논의했다.카카오그룹은 지난 18일 오후 경기도 용인시 ‘카카오 AI캠퍼스’에서 주요 그룹사 임원들이 모인 가운데 경영 워크숍 ‘원 카카오...', 'link': 'https://zdnet.co.kr/view/?no=20250319172355', 'pub_date': ''}
+- {'title': '카카오, 계열사 두 자릿수 축소…내실 경영 위해 거버넌스 효율화', 'description': '실천 - AI와 카카오톡 결합 통해 성장 모멘텀 확보…사용자를 위한 AI로 일상 혁신할 것 [2025-10-13]... 이는 AI 시대 핵심 사업에 집중하기 위한 전략적 방향성과 함께 사회적 신뢰를 회복하려는 노력의...', 'link': 'https://www.kakaocorp.com/page/detail/11740', 'pub_date': ''}
+- {'title': "카카오 정신아 &quot;'일단 해보자'는 접근 위험…명확한 방향·속도감 있는 투자 필수적&quot;", 'description': '카카오그룹(의장 정신아)이 AI 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로 논의했다. 카카오그룹은 지난 18일 오후 경기도 용인시 ‘카카오 AI캠퍼스’에서 주요 그룹사 임원들이 모인 가운데 경영 워크숍 ‘원 카카오 서밋(One Kakao Summ', 'link': 'https://www.aipostkorea.com/news/articleView.html?idxno=6876', 'pub_date': ''}
+- {'title': '[카카오AI리포트] 카카오 AI 기술의 3대 발전 방향', 'description': '김병학 : 카카오 AI 기술의 3대 발전 방향 03. 황성현 : 카카오의 AI 인재 영입 전략 [2] Kakao Brain section... 카카오 AI 기술은 음성, 자연어, 번역, 이미지 동영상, 음악 등의 사업 영역(domain)을 중심으로...', 'link': 'https://brunch.co.kr/@kakao-it/187', 'pub_date': ''}
+### exa_strategy
+
+- {'title': 'Kakao sets 2026 as first year of AI monetisation, signs strategic ...', 'url': 'https://www.digitaltoday.co.kr/en/view/3766/kakao-sets-2026-as-first-year-of-ai-monetisation-signs-strategic-partnership-with-google', 'text': 'Kakao sets 2026 as first year of AI monetisation, signs strategic partnership with Google\n\nKakao CI [Photo: Kakao]\n\nKakao has designated this year as the first year of AI monetisation. Its core strategy is to shift its growth gear toward AI and KakaoTalk.\n\nKakao CEO Shina Chung (정신아) said on Feb. 12 on a conference call for its fourth-quarter earnings that the company is shifting its strategic gear toward growth in AI and KakaoTalk, which it considers its core. She said it is targeting more than', 'score': 0, 'published_date': '2026-02-12T00:00:00.000Z'}
+- {'title': 'Kakao to focus on AI, fandom platforms for growth in 2026', 'url': 'https://www.techinasia.com/news/kakao-to-focus-on-ai-fandom-platforms-for-growth-in-2026', 'text': "Tech in Asia - Connecting Asia's startup ecosystem\n\n- Press Releases\n- Paid Partnership\n- More\n- News\n- Visuals\n- Premium\n\n[Free newsletter](https://www.techinasia.com/about/get-updat", 'score': 0, 'published_date': '2026-01-02T00:00:00.000Z'}
+- {'title': '“This Is the Year AI Makes Money”: Kakao Posts Record Earnings, Declares 2026 Its AI Monetization Turning Point < AI·XR < K-Tech < K-World News < 기사본문 - KMJ', 'url': 'https://www.kmjournal.net/news/articleView.html?idxno=8488', 'text': '“This Is the Year AI Makes Money”: Kakao Posts Record Earnings, Declares 2026 Its AI Monetization Turning Point --\n\nNEW\n\n## ポケモンGOの“隠れた役割”… ゲームだと思っていたら、AIが世界を学んでいた\n\n## 포켓몬 GO의 숨은 역할…“게임인 줄 알았는데 AI가 세상을 배우고 있었다”\n\n## 버추얼 스트리머 그룹 ‘미츄’, 봄 시즌 굿즈 공개… ‘Spring Bloom Collection’ 18일 오픈\n\n## 주차 로봇 시대 열린다…7월부터 실제 주차장 운영 가능\n\n## Apple’s Foldable iPhone Is Coming. Here’s What We Know About the ‘iPhone Fold’\n\n## “아이폰도 결국 접는다”…애플 첫 폴더블 ‘아이폰 폴드’ 공개 임박\n\n## 중국, 휴머노이드 ‘로봇 학교’ 확산… 피지컬 AI 데이터 전쟁 시작\n\n## [마이스] 브랭섬홀 아시아 ', 'score': 0, 'published_date': '2026-02-13T00:00:00.000Z'}
+- {'title': '연 매출 8조원 달성한 카카오 “2026년은 AI 수익화 원년” – 바이라인네트워크', 'url': 'https://byline.network/2026/02/12_12977371/', 'text': '연 매출 8조원 달성한 카카오 “2026년은 AI 수익화 원년” – 바이라인네트워크\n\n카카오가 지난해 연간 매출과 영업이익 모두 역대 최대치를 달성했습니다. 톡비즈 중심 구조개편 효과가 주효했습니다.\n\n2026년 목표는 오로지 AI입니다. 지난해에는 AI 조직을 가다듬고 광고 사업을 다각화한 만큼, 올해에는 AI 중심으로 “의미 있는 AI 매출 창출”을 목표로 합니다.\n\n### ‘톡비즈’로 돈 잘 번 카카오\n\n12일 회사에 따르면 카카오의 2025년 연결기준 매출은 전년 동기 대비 3% 증가한 8조991억원, 연간 영업이익은 48% 늘어난 7320억원입니다.\n\n카카오 2025년 4분기 IR 자료 중\n\n실적을 이끈 건 카카오톡을 중심으로 한 톡비즈 사업부문과 모빌리티, 핀테크 등 플랫폼 기타 부문입니다. 톡비즈와 포털비즈, 플랫폼 기타를 포함한 플랫폼 부문의 2025년 매출은 지난해 전체 매출 중 53%를 차지하는 4조3180억원을 기록했습니다. 플랫폼 부문만 전년 동기 대비 11% ', 'score': 0, 'published_date': '2026-02-12T00:00:00.000Z'}
+- {'title': '카카오 "본격 성장국면 재진입…AI 수익화 원년삼을 것" - 뉴스1', 'url': 'https://www.news1.kr/it-science/internet-platform/6071356', 'text': '카카오 "본격 성장국면 재진입…AI 수익화 원년삼을 것" - 뉴스1\n\n가\n\n# 카카오 "본격 성장국면 재진입…AI 수익화 원년삼을 것"\n\n업데이트 2026.02.12 오전 11:36\n\n가\n\n## [IR종합] 매출 10% 성장·영업이익률 10% 달성 가이던스 제시오픈AI와 챗GPT 협력 이어 구글과 온디바이스AI 파트너십까지\n\n정신아 카카오 대표이사(카카오 제공) 2024.10.22 ⓒ 뉴스1\n\n(서울=뉴스1) 김정현 신은빈 기자 = 카카오(035720)가 지난해 처음으로 연간 매출 8조 원을 돌파하는 등 역대 최대 실적을 기록했다. 카카오는 올해를 AI 수익화 원년으로 삼아 본격적인 성장국면에 재진입하겠다는 계획을 밝혔다.\n\n카카오는 지난해 연결 기준 매출액이 전년 대비 3% 증가한 8조 991억 원을 기록했다고 12일 공시했다. 영업이익은 같은 기간 48% 증가한 7320억 원을 시현했다. 연간 매출과 영업이익 모두 창사 이후 최대치다.\n\n분기별로는 4분기 매출액이 전년 동기 대비', 'score': 0, 'published_date': '2026-02-12T00:00:00.000Z'}
+### international_news
+
+- {'title': 'South Korea court to decide on arrest warrant for Kakao founder - Reuters', 'link': 'https://news.google.com/rss/articles/CBMinwFBVV95cUxOYWdUM213NzhEN09oLVZVWkNaY2kyT21TUDRoR2Fqd1ZfdHFjaTIzM2FhbE9RT2ZrcjlpSWxXWHkzdHV4VDJkYTRZUkJDc1RiTjJoWmdsaFVuRklweHdhLWFJVGsycnpXbHg5SlJvd21tZER3MjUwWi1ZbGstZDJKZlhubEx5OGpRNGVqUDhsaHBCWVc0d1BFck52STgxcFE?oc=5', 'pub_date': 'Mon, 22 Jul 2024 07:00:00 GMT', 'source': 'Reuters'}
+- {'title': 'OpenAI clinches deal with Kakao, talks with SoftBank and Samsung about Stargate - Reuters', 'link': 'https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR0pPWndzVExPU0l0clFJM0s5TnpfTWZqWjd1SEwzQXVzLW9tTUJHdkZuM3J1SDNiZEUyY0Y2R2R6RGRJbGtzVUhOdU1maVBiam1lQkExOXdZMXBrS1hWeVNLNUk4MnpNWFREMXRGaUVqdlZnU1BjejhnWWVLUDAtdjNlZW5LRnd4LWdWd0YzclczbHVPaGVCUWtNZmcyNUJ0RDlyUmdQT3FjRXQ3bkppSzFTZHdLTE5vYUdYcnhKeEw?oc=5', 'pub_date': 'Tue, 04 Feb 2025 08:00:00 GMT', 'source': 'Reuters'}
+- {'title': "S.Korea's Kakao Corp to buy 9.05% stake in SM Entertainment, touts K-pop projects - Reuters", 'link': 'https://news.google.com/rss/articles/CBMivAFBVV95cUxOTUs0alNaNDItWkNuYUh3dHhBMjhUSzR6OUJJOHk4ZnNjc2t5a09wVm1fY3gtLUR5TTZOTjFrWENFaUYtYzIxTkZQU3JZU3daU0hEM2d1TzNVbVgtdkhRZ3RObi1lSW9FcWRGekUwMWNJdTVJQkY3ZFgtNGFWYlRHZnotY1pfREhpdUZUek41bTVmYzl4M1hvUlZLRkFBcHV4MTFYUmw3bFdRVElULUJYZk5wWE9ZRTlYTU9DZA?oc=5', 'pub_date': 'Mon, 06 Feb 2023 08:00:00 GMT', 'source': 'Reuters'}
+- {'title': 'Peter Thiel’s Founders Fund Backs AI Cow Collar Startup at $2 Billion Valuation - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNENzUGMyT1Z0cjc3a0pFemRrS1hUVE84ZHo2SHg2RlhNVnZha3EtNEdRSl9vU3J0a2Q1bWNMM2wzWjNSMWgwNkNWTmxJY1lfNnZlcXJDVVFmeng0Q0hmT2xJSTA3SWRPWlF4eXFncFdYbmI3akFQQVlfLXFTRUgwN25HTTZkMlpzOUR6VFhfbk9adHFEUEQwcmdGRVFRU19ncTF5RGp3ZmhDaVg4Vkt1R3ZoR01FbVB3UUpGUngxVTRUUnZfck41Mg?oc=5', 'pub_date': 'Fri, 20 Mar 2026 19:47:35 GMT', 'source': 'Bloomberg'}
+- {'title': 'US Army Awards Anduril Contract Worth as Much as $20 Billion - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMirwFBVV95cUxNTnRLQkZiXy1vVHJYeGtlME02TEs2YjUxOXEwSE53WDZZRy1jOHNwTXd6blJBWWlPU2s3SjBxSjRuSThxeEVlNkt5NHpUOC00VUNqbWNFQVdUVVotNFU3RS1PV0lpQlZpNWJqeG9QcU5nTi1ueFJTZHRuV3hXQTNZbnVIOEwwamJSZXNHZkNqdndVNDJ6N1lMd2t4X2hid19lZDhialZrYVVUT1p1cmdB?oc=5', 'pub_date': 'Sat, 14 Mar 2026 01:08:00 GMT', 'source': 'Bloomberg'}
+- {'title': 'AI Customer Support Startup Wonderful AI Raises $150 Million - Bloomberg', 'link': 'https://news.google.com/rss/articles/CBMirwFBVV95cUxOVUE0YzdaRGkwQkxHMFJyazNpRWFhNldyR1c4Y0RuZjdVQ3lKa0JCQU1jWktRLWFjakhfbVM1T3VRQXhTSTFEYlhjZmQ1QkhNYXM2Ql8xTDlaTU9OOGgzNGNGWllNb1BZWURkRDA1dm5GVERoTWFpOXBLbWtTa19GQW1wN2hIU1R1cWRKVVJ5ZGxRSm5EaWxVWlFOSHdDZnprSGZEV1J0ZFpLOXh4YnA4?oc=5', 'pub_date': 'Thu, 12 Mar 2026 07:00:00 GMT', 'source': 'Bloomberg'}
+- {'title': 'Korean fintech Kakao Pay to acquire majority stake in US brokerage firm Siebert - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMitAFBVV95cUxNa0NYdGx6elBmQXl0QmxyWGY1UDJiV3RKbkNlM3duQkJNNGRRNXQ5ellzV3FHc2xBNnN1X3piY2dwSEQtam5sLXRBa21SUXRDWldtLWt6N1o2dDFuclZYS05HcVFoUTIyczVsN2FSZFczaUtaY0tGN1JkeS1TcVV2YmxKN3U0TThWY0lWekl1WEFTNHpPYm5nSWxyQzg5RFJHNlhiMTVKUU1ULVcxLTJiUGQ0bjc?oc=5', 'pub_date': 'Thu, 27 Apr 2023 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'Korean online payment service Kakao Pay surges nearly 114% on the first day of trading - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMivAFBVV95cUxQU3lzWUhzWm5HQTBfb0E0aWRHeG8wUmk1V3NzRkVlNWtLdlVqR3hCQy1hRnNUX3ByMVRHa1BXZ3I3dVpKZ1FIdGxyRFVEX00zNGtENU0tS3AxaEZ6VmJyTVFxamhaZURGSzdPb1BNcXd2N2dlWmx5MDZvVlMzRFZZbDlVSVdKTHV5ZUJWQUxQSkpZSWZzTGRPZ1Ewd1MyQzNBZkZiYk5hRkIwelVRTnZkWFI3MHppM2g3YUtxTQ?oc=5', 'pub_date': 'Wed, 03 Nov 2021 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'Kakao confirms it is removing its external payment option after standoff with Google - TechCrunch', 'link': 'https://news.google.com/rss/articles/CBMisAFBVV95cUxPSGJOTDNDeTQxc2NGRm1iWlBub2tHcjdTeW5WZ3AxVUN2TnlrQlBCc3ExcnVzdWRPSjBZRy1MWERLRHMxbnNoUzF0RmdDbVA1dFRoSDhYSU43cWowN0ZhMWVZaWNtSlcxd1IzNER1NFZiS3d4Wk1rd3VWRm9IcjNyWEprem9wcXE0bmpsRmFhbFU3RGRzV1RoeHRPMzM5NE9IUHRURncycUwzNVdoazJaVw?oc=5', 'pub_date': 'Thu, 14 Jul 2022 07:00:00 GMT', 'source': 'TechCrunch'}
+- {'title': 'Mobile Chat Service KakaoTalk Faces Growing Pains - WSJ', 'link': 'https://news.google.com/rss/articles/CBMimANBVV95cUxOTUVRLWxScTh6NmJ5Q0hQckJTY3JORVZTcjhFV0NncUw3eTlHemdXV19iUDl4WXpfbDVtajYzOTEtYndqRDcxZUlfX3lvVkc5THN5SkFtaThtV0VQTHFPVlJuRW9xa0lkRmV3dW9RVGNSTGVlN1FFQWo2ajdSU0Q4TTdtcmRGQzJheEVVQnljUWFlTEFWc0pRdFl2WTczYlllN2p3THpzVnBVZzlHRjlVb0l0SU1wUVNLWW56cUJuVDN1Y3dFaFk0X0NtTGdURXc1Y0g2ZHpGbnprS2hyZ2xneFlpWWxERHFrejN0aDBfTktNaG5qVkVKYVdlVEFhSXN0WGw2QS11Rm9DNGRLb0lJenZaZERsQWFhc0MwSm85dG5yNFdGVG9IanhISzFreHFmTnUwNUVKQnhCbm5lM0ZQVUJDMFdwcnVzX3JITjZEVGJHLVNJdWNJcm1HUWxwZjR2YkNTT0xCYzVMQkNoN0w4LU1wUkF1OG9lbnJjSG5heFVQZ3kzNGdpVTRfSDhzc2dqZldwY2ZXVW4?oc=5', 'pub_date': 'Wed, 25 Feb 2015 08:00:00 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'South Korean Messaging-App Maker Kakao to Buy Web Portal Daum - WSJ', 'link': 'https://news.google.com/rss/articles/CBMiggNBVV95cUxQV0dVMThFY0JiaFBMT2pVTFR3eWtkYnF1cFBSMWhZcUNLaUNHMEFnaFlmQlRqSTZ3TmVTVXhjSHhabG1lX0RsVlJTUkRsb3ZrTHhSekE1Q0h3WXV3ZVFGTW9lWjlZaklCRU5rRl9BM3g4aDZCT2hpQnlJY251N09famwybFc1cWFyUmpLVmJMaFgtTC1xbzRzazBNNDVpWF9reXliZHZRRm5GbGwyamdLaWxMbXRsaW5hejl6VnotUHRPOU42bDRuSS1WTnNyd0JObFNITFpWUFJwazlCV3gzUllLMjU4TlB5dndjWGkwSUYtcV9Fa0NoNGdQLU5aSlR1N0x1N3dHWENwTVpDZ0FTU1c5WGxZd3NfYnNvWlZjMTVfZmVyQU4xNzlTaDI5OHlXdHM1QUhnQ1hmQkc4aXp5WmlHLWh3TUlMNXZjcGFYRDhoejRMdlcxTHBmMmZOY19tZGI5NG9nOVRUcnlqb1M4VW1VdkVmQl9jcUxDaGpoZmk2Zw?oc=5', 'pub_date': 'Mon, 26 May 2014 07:00:00 GMT', 'source': 'Wall Street Journal'}
+- {'title': '035720.KR | Kakao Corp. Financial Statements - WSJ', 'link': 'https://news.google.com/rss/articles/CBMi9wJBVV95cUxPTVduUTRyMUNtUEtJbEptUHdMbUoyMGVUNUlEV0tsMUlwQ3RrMGxiLUdlbWg2ekFhbU1HSzgwSXNWRXpGR1E3Q0RJa0w2dXRQeEY3QzdLXzlnWU1lZUFBMXhNeHh3RnZvVllZMkJIWGtKS3pIYTZZckJLaHFYblplNlZ5MWZ1MGtBdDJFTUFuR2YwTnMzbnVCYlJWVUhVMmpodk9HMEg3akRYWVpuWU1mWkh3YVAydzZibFFLRTFOZWFYUDdWRmNtdmtNRjZaTXJyTmVBR0l0bGRVRXRCUmdadGZzQU5TTFpiVFNYczItaVdya0kzOFVpQWZXa0R6dTAweF9SMW4yZXJWRXR2Z0xVTlNraUNBWjFTRldBdFJCZ0NkTGEyN29uZXE1cjZ4cnNQeFg1TVJNeXNRUXl4Sk5xdmYtN0s0d0JpSTZLN3NtSE9Ca1htYlpsNk1SZ08yamxheE5qUEV0RmhRTkcySXRnOHUzNWhjRjQ?oc=5', 'pub_date': 'Mon, 23 Dec 2019 04:22:57 GMT', 'source': 'Wall Street Journal'}
+- {'title': 'Kakao’s co-chief resigns over messenger app service outage - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE00aTdHdDIzNmlNQzY2VEs1djZiWndWNld4Ny1uSGItX0ZJeW5WSG9nT0FFSUFhZ2JvXzNQQlQ3VnVoVG9zLS12dmZsRXZqVS1WNjVGM2JvS0xDV0JaQjJMOENhekFYdng0VlBQMUFJZm8?oc=5', 'pub_date': 'Wed, 19 Oct 2022 07:00:00 GMT', 'source': 'Financial Times'}
+- {'title': 'Kim Beom-su, Kakao: Life of Brian - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE9tY0VwVXZpcmVtMldEVVU2V3l0aGxrQW9mWnNxSHZYemx2ZnhWNFZfVXNFX3ctWmFtZEVPTWlGSmdjYnZYbU5IVWpwUGE4c3I3ZHV3MHpQcTNWU1dfb2dhVmZoTUE0VEZwVGVTU09SRnc?oc=5', 'pub_date': 'Sun, 27 Dec 2015 08:00:00 GMT', 'source': 'Financial Times'}
+- {'title': 'South Korean retail investors scramble for a piece of Kakao Games IPO - Financial Times', 'link': 'https://news.google.com/rss/articles/CBMicEFVX3lxTE1tdnFBZmg2cHBwZTFoa1hwYjhZbmhiRldtVG9zRVBzZ1BUclpPbE55M1ZiZXB4TVhDSFpnNGhnSl81WW5uTk1iY3F1S2dQdjlmOEpBSkYxY1lNcEU2MFZFVENBVUlmcXJma1FjZHZvOVQ?oc=5', 'pub_date': 'Tue, 08 Sep 2020 07:00:00 GMT', 'source': 'Financial Times'}
+- {'title': 'Kakao-backed crypto project races to expand outside South Korea - Nikkei Asia', 'link': 'https://news.google.com/rss/articles/CBMitAFBVV95cUxOdHE1U3M0SVZFbWFzejY4R1lCZE5fcU1NUHBXQkR0UDBpQ1VDd0pTRUNaMnlXSzM1Y2pnZWZNMmQwUnJKOVpiY3RLaS1JbkJHMEU4TUxFV1MxNHN0Vm1Ga0NvcGJya0FnNFhaMEt4YVJjcHNDdjFGMU5XTGhLTm51b0RObWx1UC1ybnhIUnNPSFB0THo3c0RRZlhIbEtOYUtWYUtwLTdTOGNZM0o4TVNDTlRsTWM?oc=5', 'pub_date': 'Tue, 12 Jul 2022 07:00:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': 'SM Entertainment turns new page under Kakao amid K-pop headwinds - Nikkei Asia', 'link': 'https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS3J3TFhLN3hNQUNLU0tOTDhBQzNYcWxFR1V0dnNSZG1WNDJTaXl4bURERGlCX3l1cnhQQURXUmdGWkN3N0lFTGVRWnJuVUY2bkN2YzZ6b1dyWEV0TDlDMlRqcllZSWtHY3pIRUs0bHZOSmtCZkxNOGhLemFmdE9WXzZHbmpzTjc3N01LWmdTeGluc0JSdzk2RnlSMWY2WE1aYXV6WmUyWVc3dl9hU3Vrck8wYWI5ZDhO?oc=5', 'pub_date': 'Mon, 03 Apr 2023 07:00:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': 'Chat app operator Daum Kakao to rename itself Kakao - Nikkei Asia', 'link': 'https://news.google.com/rss/articles/CBMijAFBVV95cUxNS3lPeXFYZS1MdC1TSzA0eG5aVWZtS2VHUzR1U05pU0psT0t3WXV3Q2ZhWGZndWJ0NzBpT1NicDM3eU1mV1RmZldVd1pQOXdQQnZFRG5YejVRZkM2a01sWWU3Q1VFM0RSZXFnT19HdTRBM25qb1VFTHJNc3Zxb1NZLW13Um9oaVZqTmlYeQ?oc=5', 'pub_date': 'Tue, 01 Sep 2015 07:00:00 GMT', 'source': 'Nikkei Asia'}
+- {'title': 'My Predictions for Crypto in 2019 - The Information', 'link': 'https://news.google.com/rss/articles/CBMifkFVX3lxTE9tbHp1T1ZkRk1PaF9KTlRYMmYwaFlQZnRTeWRiM1JVSkRCQTJhcnU2SXBoRThyRDVxWmx3ZF94NUdad2NRWjM1NVJvQW0tbkJXS2E1eGZDS3luNlU2WnJlNjJ3ODlEVGRqU1REME45LWJYbGJnWS1oZFNIX29UUQ?oc=5', 'pub_date': 'Mon, 17 Dec 2018 08:00:00 GMT', 'source': 'The Information'}
+- {'title': 'a16z-backed Story Protocol Raises at $2.25 Billion Valuation - The Information', 'link': 'https://news.google.com/rss/articles/CBMiogFBVV95cUxQUlpGLVdGSkl6QWZKajVmbzh3VzhnMUJaRWdicHVndGxlREM0VVFhYk1pWnhkc08xMmRqTlY1VGNrMndHLXp4MWVfMGdVd3BpTllpMXJfSlFYWXdjYnZmSllFU2FWMm1uN00wNDRzLXZGOFp5cjFhTFVDdmVtbGdiSnFrY054XzhQVWM5Smw4bGtoYVhWd2YxU3puYmJESFRnYkE?oc=5', 'pub_date': 'Wed, 21 Aug 2024 07:00:00 GMT', 'source': 'The Information'}
+
+> 💡 **면접 활용**: CEO 발언이나 그룹 전략 키워드를 면접 답변에 녹여서 전략적 이해도를 보여주세요.
+
+---
+
+## 4. 조직문화 / 철학 / 인재상
+
+
+
+
+
+### naver_blog
+
+- {'title': '삼성전자 상반기 3급 신입사원채용 면접준비 기출질문 합격전략', 'description': 'Gen-Z 문화 이해도 해외영업 B2C/B2B 영업 (영상디스플레이, DA, MX, 네트워크) 전공 무관 (네트워크 B2B는... 저와 함께 면접을 준비하신다면 제가 대기업 면접관의 관점에서 합격비법을 전수해 드리겠으나... ', 'link': 'https://blog.naver.com/jinsimcoach/224222517967', 'pub_date': '20260319'}
+- {'title': '샘표식품면접학원 PT면접 임원면접 후기', 'description': '조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ', 'link': 'https://blog.naver.com/jobpass_/224222106115', 'pub_date': '20260319'}
+- {'title': '2026년 피스트로랩 고객후기모음 - 01', 'description': '지속적으로 실제 고객후기와 작업물을 게시하도록 하겠습니다. &lt;피스트로랩에 인생이 걸린 이직을 맡기는 이유&gt; &lt;포트폴리오 수정으로 10곳에서 면접왔다면 믿으시겠어요?&gt; 모든 상담문의(카카오채팅방 or 톡톡)... ', 'link': 'https://blog.naver.com/pyorisa_/224220846662', 'pub_date': '20260318'}
+- {'title': 'Talent hy-way (신입사원채용) 면접준비 기출질문 합격전', 'description': '능력 기업문화(HR) 학사 이상 / 전공 무관 글로벌 역량, 데이터 분석 및 AI 도구 활용, HR 자격증... 저와 함께 면접을 준비하신다면 제가 대기업 면접관의 관점에서 합격비법을 전수해 드리겠으나, 혼자... ', 'link': 'https://blog.naver.com/jinsimcoach/224220480437', 'pub_date': '20260318'}
+- {'title': '4월 수강생 모집 (~4/5)', 'description': '후기는 블로그에 있으니 참고해용✨ 이번에 보나쌤도 수업을 같이 진행하기로 했답니다 대한항공 영상면접 합격 지도 경험 다양한 방송 • 스포츠 • 행사 진행 경력 보유  수업 형태 •1:1 맞춤 수업 or... ', 'link': 'https://blog.naver.com/dearwing_/224216581727', 'pub_date': '20260314'}
+- {'title': '[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ', 'description': '[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ', 'link': 'https://blog.naver.com/ytjoo88/224215031143', 'pub_date': '20260313'}
+- {'title': '2026 역사임용 합격수기, 함께 공부하며 만든 최종 합격', 'description': '63 심층면접 33.87 39.40 총점 160.270(컷-0.03) 182.330(컷+23.04) 안녕하세요, 저는 2026년 중등 임용 역사 과목 합격자 박00입니다. 저는 서울 소재 사범대학 역사교육과를 졸업하고, 2022학년도 시험에 4학년 재학 초수로... ', 'link': 'https://blog.naver.com/myheeso/224213799353', 'pub_date': '20260312'}
+- {'title': '2026 역사임용 합격수기, 최탈을 넘은 2차 고득점 전략', 'description': '서울 합격생] #최탈극복 #스터디적극추천 #면접_수업실연꿀팁 1. 들어가며 안녕하세요 저는 서울 소재... ▼초수 때 시기별 스터디 1~11월 카카오톡 문제 스터디 4~6월 역교론 개론서 암기 스터디 7~11월 8642 스터디... ', 'link': 'https://blog.naver.com/myheeso/224212569983', 'pub_date': '20260311'}
+- {'title': '포스코 생산기술직 인턴 합격하려면? 지원 자격부터 면접... ', 'description': '반면 단점으로는 수직적인 조직 문화, 지방 근무(포항·광양), 그리고 생산 현장 특성상 교대 근무가 일반적이라는 점이 언급돼요. 참고: 이 기업의 일반적인 복지 (정규직 기준) 현직자 후기에 따르면 정규직... ', 'link': 'https://blog.naver.com/cymmcymm/224210327881', 'pub_date': '20260311'}
+- {'title': '영어면접 자주 나오는 Top10 + 맞춤형 답변 방법_영어면접... ', 'description': '실제 면접처럼 구술 연습과 피드백 수강 신청은 아래의 폼을 작성하신 후, 카카오톡 오픈... ▶진에어2차영어면접준비 기출질문 분석하기 ▶진에어 승무원 최종합격 후기', 'link': 'https://blog.naver.com/clnara2030/224211507034', 'pub_date': '20260310'}
+### naver_cafe
+
+- {'title': '[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.', 'description': '외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.', 'link': 'http://cafe.naver.com/inhadigital/306', 'pub_date': ''}
+- {'title': '서울3대 재즈바 entry55 사당점 바텐더 채용', 'description': '[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ', 'link': 'http://cafe.naver.com/ibartender/110690', 'pub_date': ''}
+- {'title': '요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서', 'description': '회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ', 'link': 'http://cafe.naver.com/uworldexam/151745', 'pub_date': ''}
+- {'title': '국회의원SNS소식20260321토요일', 'description': '아직 참여하지 않으신 당원께서는 카카오톡 메시지를 확인 후 꼭!! 투표해주시길 바랍니다. 참여방법 (1)... 전체회의에서 복지부에 주식, 채권, 대체투자 부문장 신설 등 국민연금 기금운용본부 조직 재편 필요성에 대해... ', 'link': 'http://cafe.naver.com/jungamironware/9266', 'pub_date': ''}
+- {'title': '한국은행 (Bank of Korea)', 'description': '연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ', 'link': 'http://cafe.naver.com/smilejobs/768', 'pub_date': ''}
+- {'title': 'SK하이닉스 vs 삼성 연봉 인센티브 복지 비교', 'description': '반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ', 'link': 'http://cafe.naver.com/grayjuinb/23', 'pub_date': ''}
+- {'title': '[20260320] copilot / chatgpt / gemini 대화록', 'description': '조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ', 'link': 'http://cafe.naver.com/woodmanwriting/207', 'pub_date': ''}
+- {'title': '충청남도보도자료20260320금요일', 'description': '19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자... 또 참석자들은 온라인 청년 창업 관계망(카카오워크) 가입을 통해 지속적인 소통 기반도 마련했다. 19일에는... ', 'link': 'http://cafe.naver.com/jungamironware/9239', 'pub_date': ''}
+- {'title': '판교 개발자 연봉 현실 및 기업 분석 총정리 (네이버·카카오·엔씨·크래프톤 중심)', 'description': '판교 개발자 연봉 현실 및 기업 분석 총정리 (네이버·카카오·엔씨·크래프톤 중심) 판교에서 근무하는... 낮다 복지 및 근무 환경 연봉 외 요소도 중요 성장 가능성 향후 커리어 확장 가능 여부 조직 구조 자회사인지... ', 'link': 'http://cafe.naver.com/smeinfobank/187', 'pub_date': ''}
+- {'title': '인천적십자병원 물리치료사 채용공고', 'description': '후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ', 'link': 'http://cafe.naver.com/pinklqgzd/1923', 'pub_date': ''}
+**snippet_count**: 30
+**avg_rating**: 2.516969696969697
+### positive_themes
+
+- 긍정
+- 만족
+- 복지
+- 워라밸
+- 장점
+- 좋은
+### negative_themes
+
+- 단점
+- 퇴사
+### snippets
+
+- {'source': 'brave', 'title': '(주)카카오페이 2022년 상반기 채용 | 기업리뷰 147건, 3.8 리뷰평점 | 잡플래닛', 'description': '잡플래닛의 원스톱 정보 제공 서비스 노력하면 찾을 수 있는 공채 족보뿐 만 아니라, 선배한테 매달려야 알려주는 인턴 합격수기부터 그 어디에 도 없는 경력직들의 이직 면접 팁까 지. 당신의 모든 &#x27;지원&#x27;이 합격으로 끝나는 방법이 잡플래닛에 있습니다. 2. 잠깐! 기업 리뷰도 보고 싶으신가요? 면접후기를 제출하면 합격을 부르는 수만개의 꿀팁이 열립니다. 기업 리뷰도 보고 싶으시다면 기업 리뷰를 제출해주세요. 열려라 참깨! 의 비밀은 &#x27;기브 앤 테이크&#x27; 입니다. 면접후기의 신뢰성을 높이고 고의적 기업 평점 조작을 방지하기 위해, 작성된 모든 정보는 잡플래닛의 자체적인 검토 과정을 거쳐 등록됩니다.', 'url': 'https://www.jobplanet.co.kr/companies/326339/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4'}
+- {'source': 'brave', 'title': '(주)카카오 2026년 기업정보 | 기업리뷰 1,301건, 3.8 리뷰평점', 'description': '(주)카카오 기업정보 - 장단점 키워드: 팀, 장점, 의견 | 기업리뷰: 많은 걸 배울 수 있었던 회사였던 것 같아요 | (주)카카오의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!', 'url': 'https://www.jobplanet.co.kr/companies/93880/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4'}
+- {'source': 'brave', 'title': '🤔카카오 6개 계열사, 잡플래닛 리뷰로 본 현실은?', 'description': '카카오 그룹이 대규모 공채를 진행합니다. 채용에 참여하는 6개 계열사의 리뷰를 분석해 봤습니다.', 'url': 'https://stibee.com/api/v1.0/emails/share/HVIayFi5a1zRbhVfpmb2i8qEozGqT9o'}
+- {'source': 'brave', 'title': '카카오, 잡플래닛 제휴 통해 생생한 채용 정보 제공 | 카카오', 'description': '카카오톡 샵검색에서는 검색한 채용 정보를 친구들과의 채팅방에 말풍선으로 바로 공유할 수 있어, 취업 스터디 등 다양한 그룹 간 정보 전달이 편리하다. 잡플래닛이 제공하는 정보의 경우 이용자가 직접 작성한 면접 후기, 연봉 정보, 기업 만족도 등 생생한 리뷰를 기반으로 하고 있다.', 'url': 'https://www.kakaocorp.com/page/detail/8117'}
+- {'source': 'brave', 'title': 'IT 대기업 카카오, MBTI부터 면접은 어떨까', 'description': '카카오 구성원들의 잡플래닛 총만족도는 <strong>3.8점</strong>을 기록 중이에요.', 'url': 'https://contents.premium.naver.com/jobplanet/companytimes/contents/221007154803630tz'}
+- {'source': 'brave', 'title': '(주)카카오엔터프라이즈 2026년 기업정보 | 기업리뷰 387건, 3.3 리뷰평점', 'description': '개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · 1급여·복지 만족도 상위 0.01% 기업은 뭐가 달라? 2워라밸 만족도 최상위 기업의 조건은? 3면접에서 ‘일하기 좋은 회사’를 알아보는 법 4가지 ·', 'url': 'https://www.jobplanet.co.kr/companies/353508/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88'}
+- {'source': 'brave', 'title': '(주)카카오엔터테인먼트 2026년 기업정보 | 기업리뷰 437건, 3.3 리뷰평점', 'description': '개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · 1급여·복지 만족도 상위 0.01% 기업은 뭐가 달라? 2워라밸 만족도 최상위 기업의 조건은? 3면접에서 ‘일하기 좋은 회사’를 알아보는 법 4가지 ·', 'url': 'https://www.jobplanet.co.kr/companies/50181/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'brave', 'title': '카카오, 잡플래닛 이용자 기업 리뷰 검색 결과 제공 : IT : 경제 : 뉴스 : 한겨레', 'description': '잡플래닛 이용자가 직접 남긴 채용 정보를 다음 검색 및 카카오톡 샵검색에서 바로 확인할 수 있는데, 1만5천 여개 기업의 만족도, 연봉, 면접 난이도 등을 업계 평균과 비교해 볼 수 있다.', 'url': 'https://www.hani.co.kr/arti/economy/it/758120.html'}
+- {'source': 'brave', 'title': '(주)카카오 2026년 기업정보 | 1,166건 면접후기 3.4 면접난이도 | 잡플래닛', 'description': '면접난이도: 3.4, 면접경로: 온라인 지원 74%, 면접경험: 긍정적 58%, 부정적 8%, 면접결과: <strong>합격 41%, 불합격 42%, 대기중 17%</strong> | 잡플래닛에 등록된 1,166건 면접후기를 지금 바로 ...', 'url': 'https://www.jobplanet.co.kr/companies/93880/interviews/%EC%B9%B4%EC%B9%B4%EC%98%A4'}
+- {'source': 'brave', 'title': '카카오 계열사 잡플래닛 리뷰 ㄷㄷ - 링커리어 커뮤니티', 'description': '더보이즈 소속사라는데 리뷰 진짠가 <strong>직장내괴롭힘+ 업무배제에다가 정치질까지 있으면 매일 출근할 때마다 괴로울듯</strong>;; 아마 저 분은 퇴사하고 적었겠지?', 'url': 'https://community.linkareer.com/best/3582604'}
+- {'source': 'naver', 'title': '카카오그룹 공채, 계열사 리뷰 &amp; 평균 연봉 총정리 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스', 'description': '지원 요건부터 계열사별 현/전직원이 남긴 잡플래닛 리뷰를 분석해 함께 정리했어요. 2026 카카오그룹... 가장 낮은 평점을 기록한 계열사는 카카오엔터테인먼트로 3.4점에 그쳤습니다. 장/단점 키워드도 한번...', 'url': 'https://www.jobplanet.co.kr/contents/news-7650'}
+- {'source': 'naver', 'title': '(주)카카오 2026년 기업정보 | 기업리뷰 1,303건, 3.8 리뷰평점', 'description': '장점 : 대기업 계열이라 인지도 있음, 젊은 구성원이 많음, 경험 쌓기에 좋은 환경, 단점 : 조직 체계나 업무 프로세스는 부족한 느낌, 업무량 편차 존재함', 'url': 'https://www.jobplanet.co.kr/companies/93880/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4'}
+- {'source': 'naver', 'title': '잡플래닛 기업리뷰 평점 진짜 믿을만할까? 취준생, 직장인을 위한 활용 팁', 'description': '잡플래닛 기업리뷰 평점 진짜 믿을만할까? 취준생, 직장인을 위한 활용 팁 안녕하세요. 강남역... kr 문의 가능 시간 : 평일 09:00 - 17:00 (주말 및 공휴일 휴무) 카카오톡 문의주시면 빠른 상담가능해요!', 'url': 'https://blog.naver.com/proceedoffice99/223618873368'}
+- {'source': 'naver', 'title': '카카오엔터테인먼트 2026년 기업정보 | 168건의 복지정보 0 전체 복지 통계', 'description': '카카오엔터테인먼트의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 168건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/50181/benefits/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'naver', 'title': '카카오엔터테인먼트 2026년 기업정보 | 168건의 복지정보 0 전체 복지 통계', 'description': '카카오엔터테인먼트의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 168건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/50181/benefits/(%EC%A3%BC)%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'naver', 'title': '카카오모빌리티 2026년 기업정보 | 120건의 복지정보 0 전체 복지 통계', 'description': '카카오모빌리티의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 120건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/326438/benefits/%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%AA%A8%EB%B9%8C%EB%A6%AC%ED%8B%B0'}
+- {'source': 'naver', 'title': '(주)카카오엔터테인먼트 2026년 기업정보 | 기업리뷰 437건, 3.3 리뷰평점', 'description': '장점 : 복지 좋음. 무난하고 실무자들끼리는 소통이 잘 되기에 일하면서 단점은 없었음, 단점 : 정작 윗선은 아직도 옛날의 영광을 못 잊은 것 같음. 실무자 입장에서 눈에 훤히 보이는 문제를 무시하는 건지 단기적인 변화로만 해결보려는 얕은 수가 오히려 상황을 자주 악화시킴', 'url': 'https://www.jobplanet.co.kr/companies/50181/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8'}
+- {'source': 'naver', 'title': '(주)카카오메이커스 2025년 기업정보 | 기업리뷰 9건, 3.7 리뷰평점', 'description': '장점 : 출퇴근 시간을 정할 수 있어 시간을 자유롭게 쓸 수있음, 단점 : 주니어에게는 많은 것을 해볼 수 있는 환경이 아닌 거 같아 아쉬움', 'url': 'https://www.jobplanet.co.kr/companies/327773/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A9%94%EC%9D%B4%EC%BB%A4%EC%8A%A4'}
+- {'source': 'naver', 'title': '카카오엔터프라이즈 2026년 기업정보 | 226건의 복지정보 0 전체 복지 통계', 'description': '카카오엔터프라이즈의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 226건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/353508/benefits/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88'}
+- {'source': 'naver', 'title': '카카오 2026년 기업정보 | 272건의 복지정보 0 전체 복지 통계', 'description': '카카오의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 272건 복지후기를 지금 바로 만나보세요!', 'url': 'https://www.jobplanet.co.kr/companies/93880/benefits/%EC%B9%B4%EC%B9%B4%EC%98%A4'}
+### exa_culture
+
+- {'title': '2026 카카오그룹 신입 공채 합격 후기 — 차곡차곡', 'url': 'https://wing1008.tistory.com/77', 'text': '2026 카카오그룹 신입 공채 합격 후기 — 차곡차곡\n\n## 들어가며\n\n9월부터 시작되었던 카카오그룹 신입 공채가 드디어 12월 17일을 기점으로 끝이 났다!!이번 카카오그룹 신입 공채에는, 총 6개의 그룹사가 참여하였다. 그 중 지원자는 1개의 그룹사를 선택해서 지원해야하는 형식이었고 각 그룹사마다 서류 문항이나 진행 일정들에서 살짝씩 차이가 존재했다.\n\n> 서류 작성 -> 1차 코딩 테스트 -> 2차 코딩 테스트 -> 1차 면접 -> 2차 면접 -> 입사\n\n카카오 그룹의 신입 공채 전형은 굉장히 긴 편이다. 심지어 다른 회사들과 달리 코딩 테스트가 무려 2번이나 존재한다. 전체적인 전형 과정의 틀 자체는 모든 그룹사가 동일했지만 세부적인 부분에서는 각각의 그룹사 별로 상이했다. (심지어 최종 합격 발표 시간도 다 상이했다..!)많은 고민 끝에 나는 카카오페이에 지원하였고, 기나긴 전형을 거쳐 "합격"이라는 결과까지 얻을 수 있었다.\n\n## 전형 진행\n\n### 1차 코딩 테스트\n\n', 'score': 0, 'published_date': '2025-12-23T00:00:00.000Z'}
+- {'title': 'Kakao "company culture" Reviews - Glassdoor', 'url': 'https://www.glassdoor.com/Reviews/Kakao-company-culture-Reviews-EI_IE469463.0,5_KH6,21.htm', 'text': 'Kakao "company culture" Reviews | Glassdoor\nSkip to contentSkip to footer\n\n* Community\n* Jobs\n* Companies\n* Salaries\n* For Employers\n* [Community](https://www.glassdoor.com/Community/i', 'score': 0, 'published_date': ''}
+- {'title': '카카오 경력 이직 후기', 'url': 'https://mjin1220.tistory.com/29', 'text': '카카오 경력이직후기# @mjin\n2021/개발자\n## 카카오경력이직후기mjin.park2021. 2. 2. 00:28\n**본인 소개**\n나는3년차 풀스택주니어개발자이다.\n작년까지는삼성전자에서,**2021년**부터는 카카오에서일을하게되었다.\n(풀스택 개발자라고하기엔아직백앤드도프론트앤드도제대로깊게, 푸근하게파본적이없는것같긴하다.)\n**이직을 하는이유**\n카카오에다니는지인과의지속적인주입식(?) 대화를통해카카오라는회사에대한궁금증이생겼다.\n여러커뮤니티나뉴스에서찾아봤을때, 카카오라는회사에매력을느끼게되었다.\n가장크게다가왔던부분은**조직 문화**라고 생각한다.\n실제로회사를다니다보면부서에따라, 사람에따라, 상황에따라달라질수있겠지만,\n개발자들끼리의자유로운소통, 코드리뷰, 개방적문화등에호기심이커져만갔다.\n하루는빈종이와펜하나를들고현재와이직후의나를비교했다.\n신입사원연수를제외하고1년 6개월동안 개발을하면서입사전바라던이상과는다른부분들이많았다.\n물론회사', 'score': 0, 'published_date': '2021-02-01T00:00:00.000Z'}
+- {'title': '(주)카카오브이엑스 기업리뷰 | 27명이 참여한 통계 & 리뷰 - 사람인', 'url': 'https://www.saramin.co.kr/zf_user/company-review/view/csn/MG4wblNhUDRVcldMQ0s1UERTaFM4UT09/company_nm/(%EC%A3%BC)%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%B8%8C%EC%9D%B4%EC%97%91%EC%8A%A4', 'text': '(주)카카오브이엑스 기업리뷰 | 27명이 참여한 통계 & 리뷰 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n# (주)카카오브이엑스채용중5\n\n관심기업 등록 5.5천+ 공유하기\n\n공유하기\n\n- URL 공유하기\n- 트위터 공유하기\n- 페이스북 공유하기\n\n응용 소프트웨어 개발 및 공급업 대기업 업력 15년차 김창준/문태식\n\n직원들이 뽑은 BEST 기업문화\n\n프리한 복장 가능 평균 연령 30대 자유로운 연차 자유로운 출근 간단한 식사회식\n\n현재 369,280개의 기업리뷰가 사람인에 등록됐어요!우리 회사 리뷰 남기고, 나와 맞는 기업을 내 마음에 저 - 장하세요!\n\n#### 전체 리뷰 통계\n\n- 자기개발\n- 급여 및 복지\n- 근무환경\n- 경영진\n- 조직문화\n- 전체\n\n직무·직업 선택 기획·전략 마케팅·홍보·조사 회계·세무·재무 인사·노무·HRD 총무·법무·사무 IT개발·데이터 디자인 영업·판매·무역 고객상담·TM 구매·자재·물류 상품기', 'score': 0, 'published_date': ''}
+- {'title': '', 'url': 'https://teamblind.com/kr/company/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88/review/EfhL3WFKop_', 'text': '블라인드 | 카카오엔터프라이즈Reviews - &quot;카카오 아니에요&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인카카오엔터프라이즈\n카카오엔터프라이즈*Rating Score*3.3*(861개 리뷰)*\n이회사리뷰하기카카오엔터프라이즈은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*1.0**\n*1*커리어 향상*2*업무와 삶의균형*1*급여 및복지*2*사내 문화*1*경영진\n*View detailed rating*\n# “카카오아니에요”***Verified User*현직원**', 'score': 0, 'published_date': ''}
+
+> 💡 **면접 활용**: 핵심가치와 일하는 방식을 STAR 스토리에 연결해서 문화 Fit을 증명해요.
+
+---
+
+## 5. 직무 분석
+
+이 섹션은 추가 데이터가 필요해요. (채용 공고 JD 수집 필요)
+
+---
+
+
+## 7. AI 전략 & 기술 동향
+
+
+
+
+**blog_url**: https://tech.kakao.com
+### recent_posts
+
+- {'title': 'blog수억 건의 보안 신호 속 진짜 위협 찾기 — AI로 보안 모니터링의 패러다임을 바꾸다작성자jerry.shim/ jackson.c날짜2026.03.16', 'link': 'https://tech.kakao.com/posts/817', 'date': ''}
+- {'title': 'blog학생에서 개발자로: 로또 구현부터 레거시 개선까지, 서버의 흐름을 배우다작성자daniel.hoon/ danny.197/ seogi.nam/ frank.jeong날짜2026.03.13', 'link': 'https://tech.kakao.com/posts/816', 'date': ''}
+- {'title': 'blog학생에서 개발자로: DB, 보안부터 AI까지, 정답보다 합리적인 선택을 배우다작성자zephy.r/ mint.pearl/ theo.cha/ rowan.ko날짜2026.03.13', 'link': 'https://tech.kakao.com/posts/815', 'date': ''}
+- {'title': 'More →', 'link': 'https://tech.kakao.com/blog', 'date': ''}
+### tech_keywords
+
+**post_count**: 4
+### exa_tech
+
+- {'title': 'Olive Platform : 카카오에서 제공하는 오픈소스 관리 서비스 - tech.kakao.com', 'url': 'https://tech.kakao.com/posts/424', 'text': 'Olive Platform : 카카오에서 제공하는 오픈소스 관리 서비스 - tech.kakao.com\n\n본문 바로가기메뉴 바로가기\n\n# Olive Platform : 카카오에서 제공하는 오픈소스 관리 서비스\n\n오픈소스기술파트 View →\n\n← Back to Blog\n\n이전 글2021 카카오 신입공채 2차 온라인 코딩 테스트 for Tech developers 문제해설\n\n다음 글FE개발자의 성장 스토리 07 : 100초 안에 FE플랫폼팀 파헤치기\n\n최상위로 이동', 'score': 0, 'published_date': '2021-02-22T00:00:00.000Z'}
+- {'title': '카카오엔터프라이즈 ‘케이드’(kade.lee), 글로벌 오픈소스 Cortex 메인테이너로', 'url': 'https://blog.kakaocloud.com/227', 'text': '카카오엔터프라이즈 ‘케이드’(kade.lee), 글로벌 오픈소스 Cortex 메인테이너로\n\n본문 바로가기\n\n당신의 비즈니스를 위한 카카오 클라우드의 기술과 혁신을 소개합니다 -- --\n\n- ‘닥터케이헬스케어’, 카카오클라우드로 AI 진단 서비스의 정확도와 운영 안정성 강화\n- "고성능을 유지하며, 비용은 40% 절감" 카카오게임즈가 밝힌 클라우드 혁신 비결\n\n## Tag\n\n카카오 클라우드 소식\n\n# 카카오엔터프라이즈 ‘케이드’(kade.lee), 글로벌 오픈소스 Cortex 메인테이너로\n\n개발자라면 누구나 한 번쯤은 “내가 만든 코드가 전 세계 개발자들이 참고하는 오픈소스 프로젝트에 반영되는 순간”을 꿈꿉니다.\n\n카카오클라우드의 엔지니어 케이드(Kade)가 세계적으로 활용되는 오픈소스 프로젝트 Cortex의 정식 메인테이너로 선정됐다는 소식은, 그 꿈을 현실로', 'score': 0, 'published_date': '2025-08-28T00:00:00.000Z'}
+- {'title': '함께 성장하는 기술, Kakao open source | 카카오', 'url': 'https://www.kakaocorp.com/page/detail/542', 'text': '함께 성장하는 기술, Kakao open source | 카카오\n\n본문 바로가기 메뉴 바로가기\n\n## 상세페이지 본문\n\n기술\n\n기술 서비스\n\n### 함께 성장하는 기술, Kakao open source\n\n공유하기\n\n카카오는 개발자 모두가 서로 소통을 통해 배우고 성장하길 바라며 오픈소스 코드를 공개합니다.\n\n카카오의 오픈소스 목록\n\nBuffalo : 버팔로는 추천 시스템을 위한 빠르고 확장 가능한 프로덕션용 오픈 소스 프로젝트입니다. 버팔로는 시스템 리소스를 효과적으로 활용하여 사양이 낮은 기계에서도 고성능을 구현할 수 있습니다.\n\nkhaiii : khaiii는 "Kakao Hangul Analyzer III"의 첫 글자들만 모아 만든 이름으로 카카오에서 개발한 세 번째 형태소분석기입니다. 두 번째 버전의 형태소분석기 이름인 dha2 (Daumkakao Hangul Analyzer 2)를 계승한 이름이기도 합니다.\n\nApache S2Graph : S2Graph 는트랜잭션 그래프 처리', 'score': 0, 'published_date': ''}
+- {'title': 'Kakao - Cloud Native Computing Foundation', 'url': 'https://www.cncf.io/case-studies/kakao/', 'text': 'Kakao\n\nCase Study\n\n# Kakao\n\n## Kakao improves network performance and lowers costs with Cilium\n\n### Challenge\n\nKakao Corp is a South Korean company known for its popular messaging application, KakaoTalk. They not only help people stay connected but also offer additional services such as maps, comics, online shopping, banking, taxis, and more. Their platform has over 50 million users, primarily in South Korea.\n\nInitially, Kakao built their Kubernetes platform ', 'score': 0, 'published_date': '2024-07-25T00:00:00.000Z'}
+- {'title': "Kakao's journey with JAX and Cloud TPUs | Google Cloud Blog", 'url': 'https://cloud.google.com/blog/products/infrastructure-modernization/kakaos-journey-with-jax-and-cloud-tpus', 'text': 'Kakao’s journey with JAX and Cloud TPUs | Google Cloud Blog\n\nInfrastructure Modernization\n\n# An efficient path to production AI: Kakao’s journey with JAX and Cloud TPUs\n\nAugust 19, 2025\n\n- Transform with Google Cloud\n\n##### Minho Ryu, Nayeon Kim\n\nLanguage Model Research Engineers, Kakao\n\n##### Srikanth Kilaru\n\nSenior Product Manager, Google ML Frameworks\n\n##### Try Nano Banana 2\n\nState-of-the-art image generation and editing\n\n[Try now](https://console.cloud.', 'score': 0, 'published_date': '2025-08-19T00:00:00.000Z'}
+**analysis**: 카카오는 AI 기술을 중심으로 다양한 서비스와 솔루션을 제공하며, 이를 통해 기업의 경쟁력을 강화하고 있습니다. 특히, AI 기반 광고 지원 서비스인 '카카오모먼트AI'의 출시를 통해 광고 분야에서도 AI의 활용 가능성을 보여주고 있습니다. 이는 카카오가 데이터 분석과 머신러닝을 통해 광고 효율성을 극대화하고, 사용자 맞춤형 광고를 제공하려는 전략을 반영합니다.
+
+카카오는 AI와 모빌리티의 융합을 통해 미래 비전을 제시하고 있으며, 이는 카카오모빌리티의 발전 방향과 밀접한 관련이 있습니다. AI 기술을 활용하여 교통 데이터 분석, 경로 최적화, 자율주행 기술 등 다양한 모빌리티 솔루션을 개발하고 있으며, 이는 카카오의 서비스 포트폴리오를 확장하는 데 기여하고 있습니다.
+
+AI 사업에 집중하기 위해 카카오는 창사 이래 첫 신입 공채를 진행하고 있으며, 이는 인재 확보와 기술력 강화를 위한 전략으로 볼 수 있습니다. AI 분야의 전문 인력을 채용함으로써 카카오는 지속적인 기술 혁신과 서비스 개선을 도모하고 있습니다.
+
+기술 스택 측면에서 카카오는 머신러닝, 딥러닝, 자연어 처리(NLP) 등 다양한 AI 기술을 활용하고 있으며, 이를 통해 사용자 경험을 개선하고 있습니다. 또한, 오픈소스 활동에도 참여하여 AI 기술의 발전에 기여하고 있으며, 이는 커뮤니티와의 협업을 통해 기술 생태계를 확장하려는 의지를 나타냅니다.
+
+종합적으로 볼 때, 카카오는 AI 기술을 중심으로 한 서비스 혁신과 인재 확보를 통해 미래 지향적인 기술 방향성을 설정하고 있으며, 이는 기업의 성장과 경쟁력 강화에 중요한 역할을 할 것으로 예상됩니다.
+
+> 💡 **면접 활용**: 기술 블로그 최근 5개 포스팅을 읽고 AI 전략과 기술 스택을 면접 화두로 활용해요.
+
+---
+
+## 8. 산업 정책 & 규제 환경
+
+이 섹션은 추가 데이터가 필요해요. (정책 뉴스·규제 동향 수집 필요)
+
+---
+
+
+## 10. 면접 준비 가이드
+
+이 섹션은 추가 데이터가 필요해요. (면접 후기·채용 프로세스 수집 필요)
+
+---
+
+## 11. 종합 판단 & 스코어카드
+
+### 스코어카드
+
+| 항목 | 가중치 | 점수 (1-5) | 가중점수 | 근거 |
+|------|--------|-----------|---------|------|
+| Job Fit | 30% | 3.5 | 21.0 | Tech stack data available |
+| Career Leverage | 20% | 4.4 | 17.6 | 17 data points collected |
+| Growth Potential | 20% | 4.5 | 18.0 | Financial data available; Strategy data collected; Active news coverage |
+| Compensation & Benefits | 15% | 3.5 | 10.5 | DART salary data available |
+| Culture Fit | 15% | 4.5 | 13.5 | Culture data from reviews; Exa deep search data; Blog/cafe reviews |
+| **총점** | | | **81/100** | 등급: **S** |
+
+
+
+
+**analysis**: **종합 판정: Go (65+)**
+
+**근거:**
+카카오는 AI 기술을 중심으로 다양한 서비스를 제공하며, 특히 광고 및 모빌리티 분야에서의 혁신적인 접근으로 시장에서의 경쟁력을 강화하고 있습니다. 또한, 신입 공채를 통해 인재 확보에 적극적으로 나서고 있어, 지속적인 성장 가능성이 높습니다. 직원 수와 평균 근속 연수도 안정적인 수준을 유지하고 있으며, 복지와 워라밸에 대한 긍정적인 평가가 있는 점도 매력적입니다.
+
+**핵심 강점:**
+1. **AI 기술 활용**: 카카오는 AI 기반 광고 서비스와 모빌리티 솔루션을 통해 시장에서의 차별성을 확보하고 있습니다.
+2. **강력한 시장 포지셔닝**: 카카오톡을 기반으로 한 다양한 디지털 플랫폼과 서비스로 한국 IT 시장에서 확고한 입지를 다지고 있습니다.
+3. **인재 확보 전략**: 첫 신입 공채를 통해 AI 분야의 전문 인력을 적극적으로 채용하고 있어, 기술 혁신과 서비스 개선에 대한 의지가 뚜렷합니다.
+
+**주요 리스크:**
+1. **경쟁 심화**: 네이버, 라인, 토스 등과의 치열한 경쟁이 지속되고 있어 시장 점유율 유지에 어려움이 있을 수 있습니다.
+2. **재무적 불확실성**: 영업 이익이 감소세를 보이고 있어, 재무적 안정성에 대한 우려가 존재합니다.
+3. **기업 문화 문제**: 평균 평점이 낮고 부정적인 키워드가 존재하여, 직원 만족도와 이직률에 대한 리스크가 있을 수 있습니다.
+
+**추천 포지션:**
+AI 관련 개발자, 데이터 분석가, 또는 AI 기반 서비스 기획 직무를 추천합니다. 카카오는 AI 기술에 집중하고 있으며, 이러한 분야에서의 전문성을 발휘할 수 있는 기회가 많을 것으로 보입니다.
+
+### 면접 전 To-Do
+
+- [ ] JD 정독 및 키워드 매핑
+- [ ] STAR 스토리 3개 준비
+- [ ] 역질문 5개 준비
+- [ ] 기술 블로그 최근 5개 포스팅 읽기
+- [ ] 최근 뉴스 3개 숙지
+- [ ] 포트폴리오/과제 준비 (해당 시)
+
+> 💡 **면접 활용**: 스코어카드 점수가 낮은 영역일수록 면접에서 적극적으로 불안 요소를 해소하는 답변을 준비해요.
+
+---
+
+## 12. 핵심 레퍼런스
+
+| 소스 | URL |
+|------|-----|
+| naver_news | https://search.naver.com/search.naver?query=카카오 |
+| tech_blog | https://tech.kakao.com |
+| dart | https://dart.fss.or.kr/corp/summary.ax?cmpCd=00258801 |
+| company_website | https://kakaocorp.com |
+| naver_search | https://search.naver.com/search.naver?where=blog&query=카카오 |
+| community_review | https://search.naver.com/search.naver?query=카카오+잡플래닛 |
+| google_news | https://news.google.com/search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4 |
+| exa_search | https://exa.ai/search?q=카카오 company culture engineering team work environment |
+| exa_search | https://exa.ai/search?q=카카오 business strategy growth AI investment 2025 2026 |
+| exa_search | https://exa.ai/search?q=카카오 hiring jobs career employee reviews |
+| exa_search | https://exa.ai/search?q=카카오 tech stack engineering blog open source |
+| credible_news | https://news.google.com/search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4 |
+
