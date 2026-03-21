@@ -1,0 +1,651 @@
+# {{ company }} — Company Analysis Report
+
+**Region:** {{ region | upper }} | **Tier:** {{ tier }} | **Grade:** {{ grade }}
+
+---
+
+{% set s1 = sections.get(1, {}) %}
+{% if s1 %}
+## 1. Company Overview
+
+### Basic Information
+
+| Field | Value |
+|-------|-------|
+| Founded | {{ s1.get('founded', '—') }} |
+| CEO | {{ s1.get('ceo', '—') }} |
+| Headquarters | {{ s1.get('headquarters', '—') }} |
+| Employees | {{ s1.get('employees', '—') }} |
+| Avg. Salary | {{ s1.get('avg_salary', '—') }} |
+| Avg. Tenure | {{ s1.get('avg_tenure', '—') }} |
+
+{% if s1.get('financials') %}
+### Key Financials (Last 3 Years)
+
+| Year | Revenue | Operating Profit | Notes |
+|------|---------|-----------------|-------|
+{% for row in s1.get('financials', []) %}| {{ row.get('year', '') }} | {{ row.get('revenue', '') }} | {{ row.get('operating_profit', '') }} | {{ row.get('note', '') }} |
+{% endfor %}
+{% endif %}
+
+{% if s1.get('products') %}
+### Products & Services
+
+{% for item in s1.get('products', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if s1.get('overview') %}
+{{ s1.get('overview') }}
+{% endif %}
+
+{% for key, value in s1.items() %}
+{% if key not in ('founded', 'ceo', 'headquarters', 'employees', 'avg_salary', 'avg_tenure', 'financials', 'products', 'overview') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Use financial data and company basics to back your "Why this company?" answer with concrete numbers.
+
+---
+{% else %}
+## 1. Company Overview
+
+This section requires additional data. (DART filings or official website collection needed)
+
+---
+{% endif %}
+
+{% set s2 = sections.get(2, {}) %}
+{% if s2 %}
+## 2. Industry Positioning & Competitive Landscape
+
+{% if s2.get('market_position') %}
+### Market Position
+
+{% if s2.get('market_position') is mapping %}
+{% for k, v in s2.get('market_position', {}).items() %}- **{{ k }}**: {{ v }}
+{% endfor %}
+{% else %}
+{{ s2.get('market_position') }}
+{% endif %}
+{% endif %}
+
+{% if s2.get('competitors') %}
+### Competitive Landscape
+
+| Competitor | Differentiator | Position |
+|------------|---------------|---------|
+{% for comp in s2.get('competitors', []) %}{% if comp is mapping %}| {{ comp.get('name', '') }} | {{ comp.get('differentiator', '') }} | {{ comp.get('position', '') }} |
+{% else %}| {{ comp }} | — | — |
+{% endif %}{% endfor %}
+{% endif %}
+
+{% for key, value in s2.items() %}
+{% if key not in ('market_position', 'competitors') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Use market positioning data to answer "Why this company over competitors?" convincingly.
+
+---
+{% else %}
+## 2. Industry Positioning & Competitive Landscape
+
+This section requires additional data. (Industry analysis sources needed)
+
+---
+{% endif %}
+
+{% set s3 = sections.get(3, {}) %}
+{% if s3 %}
+## 3. Leadership & Group Strategy
+
+{% if s3.get('ceo_vision') %}
+### CEO Vision
+
+> "{{ s3.get('ceo_vision') }}"
+
+{% endif %}
+{% if s3.get('group_strategy') %}
+### Group Direction
+
+{% if s3.get('group_strategy') is iterable and s3.get('group_strategy') is not string %}
+{% for item in s3.get('group_strategy', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s3.get('group_strategy') }}
+{% endif %}
+{% endif %}
+
+{% if s3.get('keywords') %}
+### Key Themes
+
+{% for kw in s3.get('keywords', []) %}- {{ kw }}
+{% endfor %}
+{% endif %}
+
+{% for key, value in s3.items() %}
+{% if key not in ('ceo_vision', 'group_strategy', 'keywords') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Reference CEO quotes and strategic keywords in your answers to signal strategic awareness.
+
+---
+{% else %}
+## 3. Leadership & Group Strategy
+
+This section requires additional data. (News and IR materials collection needed)
+
+---
+{% endif %}
+
+{% set s4 = sections.get(4, {}) %}
+{% if s4 %}
+## 4. Culture, Philosophy & Talent Profile
+
+{% if s4.get('mission') or s4.get('vision') or s4.get('values') %}
+### Mission / Vision / Core Values
+
+{% if s4.get('mission') %}- **Mission**: {{ s4.get('mission') }}
+{% endif %}
+{% if s4.get('vision') %}- **Vision**: {{ s4.get('vision') }}
+{% endif %}
+{% if s4.get('values') %}- **Core Values**: {% if s4.get('values') is iterable and s4.get('values') is not string %}{{ s4.get('values') | join(', ') }}{% else %}{{ s4.get('values') }}{% endif %}
+
+{% endif %}
+{% endif %}
+
+{% if s4.get('work_style') %}
+### How We Work
+
+{% if s4.get('work_style') is iterable and s4.get('work_style') is not string %}
+{% for item in s4.get('work_style', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s4.get('work_style') }}
+{% endif %}
+{% endif %}
+
+{% if s4.get('welfare') or s4.get('benefits') %}
+### Benefits & Work Environment
+
+{% set welfare = s4.get('welfare') or s4.get('benefits') %}
+{% if welfare is iterable and welfare is not string %}
+{% for item in welfare %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ welfare }}
+{% endif %}
+{% endif %}
+
+{% if s4.get('review_score') %}
+### Employee Reviews
+
+- Glassdoor / JobPlanet Score: {{ s4.get('review_score') }}/5.0
+{% if s4.get('blind_feedback') %}- Key Feedback: {{ s4.get('blind_feedback') }}
+{% endif %}
+{% endif %}
+
+{% for key, value in s4.items() %}
+{% if key not in ('mission', 'vision', 'values', 'work_style', 'welfare', 'benefits', 'review_score', 'blind_feedback') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Connect core values and work style to your STAR stories to demonstrate genuine culture fit.
+
+---
+{% else %}
+## 4. Culture, Philosophy & Talent Profile
+
+This section requires additional data. (JobPlanet / Blind / official site collection needed)
+
+---
+{% endif %}
+
+{% set s5 = sections.get(5, {}) %}
+{% if s5 %}
+## 5. Role-Specific Analysis
+
+{% if s5.get('open_positions') %}
+### Open Positions
+
+| Position | Key JD Requirements | Match |
+|----------|-------------------|-------|
+{% for pos in s5.get('open_positions', []) %}{% if pos is mapping %}| {{ pos.get('title', '') }} | {{ pos.get('requirements', '') }} | {{ pos.get('match', '') }} |
+{% else %}| {{ pos }} | — | — |
+{% endif %}{% endfor %}
+{% endif %}
+
+{% if s5.get('role_scope') %}
+### Role Scope
+
+{{ s5.get('role_scope') }}
+{% endif %}
+
+{% if s5.get('strengths') %}
+### Why This Role Stands Out
+
+{% for item in s5.get('strengths', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if s5.get('cautions') %}
+### Cautions
+
+{% for item in s5.get('cautions', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% for key, value in s5.items() %}
+{% if key not in ('open_positions', 'role_scope', 'strengths', 'cautions') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Map JD requirements 1:1 to your experience to prove you are the optimal candidate.
+
+---
+{% else %}
+## 5. Role-Specific Analysis
+
+This section requires additional data. (Job posting / JD collection needed)
+
+---
+{% endif %}
+
+{% set s6 = sections.get(6, {}) %}
+{% if privacy_track and s6 %}
+## 6. Data Privacy & Compliance Role
+
+{% if s6.get('data_scale') %}
+### Data Processing Overview
+
+- Scale: {{ s6.get('data_scale') }}
+{% if s6.get('data_types') %}- Data Types: {{ s6.get('data_types') }}
+{% endif %}
+{% if s6.get('outsourcing') %}- Outsourcing: {{ s6.get('outsourcing') }}
+{% endif %}
+{% endif %}
+
+{% if s6.get('compliance_org') %}
+### Compliance Organization
+
+{{ s6.get('compliance_org') }}
+{% endif %}
+
+{% if s6.get('certifications') %}
+### Certifications
+
+{% for cert in s6.get('certifications', []) %}- {{ cert }}
+{% endfor %}
+{% endif %}
+
+{% if s6.get('sanctions') %}
+### Regulatory Actions
+
+{{ s6.get('sanctions') }}
+{% endif %}
+
+{% for key, value in s6.items() %}
+{% if key not in ('data_scale', 'data_types', 'outsourcing', 'compliance_org', 'certifications', 'sanctions') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Understanding the certification status and data processing scale helps you articulate specific contributions as a privacy professional.
+
+---
+{% elif privacy_track %}
+## 6. Data Privacy & Compliance Role
+
+This section requires additional data. (ISMS-P status and privacy policy collection needed)
+
+---
+{% endif %}
+
+{% set s7 = sections.get(7, {}) %}
+{% if s7 %}
+## 7. AI Strategy & Tech Trends
+
+{% if s7.get('ai_investment') %}
+### AI Investment
+
+{% if s7.get('ai_investment') is mapping %}
+{% for k, v in s7.get('ai_investment', {}).items() %}- **{{ k }}**: {{ v }}
+{% endfor %}
+{% else %}
+{{ s7.get('ai_investment') }}
+{% endif %}
+{% endif %}
+
+{% if s7.get('tech_stack') %}
+### Tech Stack
+
+{% if s7.get('tech_stack') is iterable and s7.get('tech_stack') is not string %}
+{% for item in s7.get('tech_stack', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s7.get('tech_stack') }}
+{% endif %}
+{% endif %}
+
+{% if s7.get('github_grade') or s7.get('github_score') %}
+### GitHub Maturity
+
+- Grade: {{ s7.get('github_grade', '—') }} ({{ s7.get('github_score', '—') }}/100)
+{% if s7.get('top_repos') %}- Top Repos: {% for r in s7.get('top_repos', []) %}{{ r }}{% if not loop.last %}, {% endif %}{% endfor %}
+{% endif %}
+{% endif %}
+
+{% for key, value in s7.items() %}
+{% if key not in ('ai_investment', 'tech_stack', 'github_grade', 'github_score', 'top_repos') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Read the last 5 tech blog posts and weave AI strategy insights into your interview answers.
+
+---
+{% else %}
+## 7. AI Strategy & Tech Trends
+
+This section requires additional data. (Tech blog and GitHub collection needed)
+
+---
+{% endif %}
+
+{% set s8 = sections.get(8, {}) %}
+{% if s8 %}
+## 8. Industry Policy & Regulatory Environment
+
+{% if s8.get('regulations') %}
+### Key Regulatory Changes
+
+{% for reg in s8.get('regulations', []) %}{% if reg is mapping %}- **{{ reg.get('name', '') }}**: {{ reg.get('impact', '') }}
+{% else %}- {{ reg }}
+{% endif %}{% endfor %}
+{% endif %}
+
+{% for key, value in s8.items() %}
+{% if key not in ('regulations',) %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Referencing regulatory trends signals deep industry awareness to your interviewers.
+
+---
+{% else %}
+## 8. Industry Policy & Regulatory Environment
+
+This section requires additional data. (Policy news and regulatory trend collection needed)
+
+---
+{% endif %}
+
+{% set s9 = sections.get(9, {}) %}
+{% if profile and (s9 or profile) %}
+## 9. Career Mapping & Differentiation
+
+{% if s9.get('career_assets') %}
+### My Top 3 Career Assets (Tailored to This Company)
+
+| Rank | Career Asset | Value to This Company |
+|------|-------------|----------------------|
+{% for asset in s9.get('career_assets', [])[:3] %}{% if asset is mapping %}| {{ loop.index }} | {{ asset.get('asset', '') }} | {{ asset.get('value', '') }} |
+{% else %}| {{ loop.index }} | {{ asset }} | — |
+{% endif %}{% endfor %}
+{% endif %}
+
+{% if s9.get('star_stories') %}
+### STAR Stories
+
+{% for story in s9.get('star_stories', []) %}{% if story is mapping %}
+**{{ story.get('title', 'Story') }}**
+- **Situation**: {{ story.get('situation', '') }}
+- **Task**: {{ story.get('task', '') }}
+- **Action**: {{ story.get('action', '') }}
+- **Result**: {{ story.get('result', '') }}
+{% else %}
+{{ story }}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if s9.get('differentiators') %}
+### Differentiation from Other Candidates
+
+{% for item in s9.get('differentiators', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if s9.get('action_plan_90') %}
+### 90-Day Action Plan Post-Joining
+
+{% for phase in s9.get('action_plan_90', []) %}- {{ phase }}
+{% endfor %}
+{% endif %}
+
+{% for key, value in s9.items() %}
+{% if key not in ('career_assets', 'star_stories', 'differentiators', 'action_plan_90') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Translate your career assets into the company's language to explain why you'll thrive there specifically.
+
+---
+{% endif %}
+
+{% set s10 = sections.get(10, {}) %}
+{% if s10 %}
+## 10. Interview Preparation Guide
+
+{% if s10.get('process') %}
+### Interview Process
+
+| Round | Format | Evaluation Focus |
+|-------|--------|----------------|
+{% for round in s10.get('process', []) %}{% if round is mapping %}| {{ round.get('round', '') }} | {{ round.get('format', '') }} | {{ round.get('focus', '') }} |
+{% else %}| {{ round }} | — | — |
+{% endif %}{% endfor %}
+{% endif %}
+
+{% if s10.get('common_questions') %}
+### Common Expected Questions
+
+{% for qa in s10.get('common_questions', []) %}{% if qa is mapping %}- **Q**: {{ qa.get('q', '') }}
+  - **A**: {{ qa.get('a', '') }}
+{% else %}- {{ qa }}
+{% endif %}{% endfor %}
+{% endif %}
+
+{% if s10.get('reverse_questions') %}
+### Reverse Questions (Signal of Company Understanding)
+
+{% for q in s10.get('reverse_questions', []) %}{{ loop.index }}. {{ q }}
+{% endfor %}
+{% endif %}
+
+{% for key, value in s10.items() %}
+{% if key not in ('process', 'common_questions', 'reverse_questions') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **Interview Tip**: Reverse questions are a strong signal of genuine interest. Prepare at least 5, asked with authentic curiosity.
+
+---
+{% else %}
+## 10. Interview Preparation Guide
+
+This section requires additional data. (Interview reviews and hiring process collection needed)
+
+---
+{% endif %}
+
+{% set s11 = sections.get(11, {}) %}
+## 11. Overall Verdict & Scorecard
+
+{% if scorecard and scorecard.get('dimensions') %}
+### Scorecard
+
+| Dimension | Weight | Score (1-5) | Weighted | Evidence |
+|-----------|--------|------------|---------|---------|
+{% for dim in scorecard.get('dimensions', []) %}| {{ dim.get('label', dim.get('name', '')) }} | {{ "%.0f%%" | format(dim.get('weight', 0) * 100) }} | {{ "%.1f" | format(dim.get('score', 0)) }} | {{ "%.1f" | format(dim.get('score', 0) * dim.get('weight', 0) * 20) }} | {{ dim.get('evidence', '—') }} |
+{% endfor %}| **Total** | | | **{{ "%.0f" | format(scorecard.get('total', 0)) }}/100** | Grade: **{{ scorecard.get('grade', 'N/A') }}** |
+{% else %}
+### Scorecard
+
+This section requires additional data. (Scorecard calculation needed)
+{% endif %}
+
+{% if s11.get('why_now') %}
+### Why This Company, Why Now
+
+{% if s11.get('why_now') is iterable and s11.get('why_now') is not string %}
+{% for item in s11.get('why_now', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s11.get('why_now') }}
+{% endif %}
+{% endif %}
+
+{% if s11.get('risks') %}
+### Risks & Cautions
+
+{% for risk in s11.get('risks', []) %}- {{ risk }}
+{% endfor %}
+{% endif %}
+
+{% if s11.get('AI Analysis') %}
+### AI Analysis Insights
+
+{{ s11.get('AI Analysis') }}
+{% endif %}
+
+{% for key, value in s11.items() %}
+{% if key not in ('why_now', 'risks', 'AI Analysis') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+### Pre-Interview Checklist
+
+- [ ] Read JD thoroughly and map keywords
+- [ ] Prepare 3 STAR stories
+- [ ] Prepare 5 reverse questions
+- [ ] Read last 5 tech blog posts
+- [ ] Review 3 recent news articles
+- [ ] Prepare portfolio / assignment (if applicable)
+
+> 💡 **Interview Tip**: For dimensions with lower scores, proactively address potential concerns in your interview answers.
+
+---
+
+{% set s12 = sections.get(12, {}) %}
+## 12. Key References
+
+{% if sources %}
+| Source | URL |
+|--------|-----|
+{% for src in sources %}{% if src.get('url') %}| {{ src.get('name', '—') }} | {{ src.get('url') }} |
+{% endif %}{% endfor %}
+{% else %}
+This section requires additional data. (Source URL collection needed)
+{% endif %}
+
+{% if s12 %}
+{% for key, value in s12.items() %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endfor %}
+{% endif %}

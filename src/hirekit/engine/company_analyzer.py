@@ -49,46 +49,19 @@ class AnalysisReport:
     source_results: list[SourceResult] = field(default_factory=list)
     scorecard: Scorecard | None = None
 
-    def to_markdown(self) -> str:
-        """Render report as Markdown."""
-        lines = [f"# {self.company} — Company Analysis Report\n"]
-        lines.append(f"**Region:** {self.region.upper()} | **Tier:** {self.tier} | "
-                      f"**Grade:** {self.scorecard.grade if self.scorecard else 'N/A'}\n")
-        lines.append("---\n")
+    def to_markdown(self, template: str = "report_ko") -> str:
+        """Render report as Markdown using Jinja2 templates.
 
-        for section_num in sorted(self.sections):
-            section_name = SECTION_NAMES.get(section_num, f"Section {section_num}")
-            content = self.sections[section_num]
+        Parameters
+        ----------
+        template:
+            Template name without extension — ``"report_ko"`` (default) or
+            ``"report_en"``.
+        """
+        from hirekit.output.markdown import MarkdownRenderer
 
-            lines.append(f"## {section_num}. {section_name}\n")
-
-            if isinstance(content, dict):
-                for key, value in content.items():
-                    if isinstance(value, list):
-                        lines.append(f"### {key}\n")
-                        for item in value:
-                            lines.append(f"- {item}")
-                    elif isinstance(value, dict):
-                        lines.append(f"### {key}\n")
-                        for k, v in value.items():
-                            lines.append(f"- **{k}**: {v}")
-                    else:
-                        lines.append(f"**{key}**: {value}\n")
-            else:
-                lines.append(str(content))
-
-            lines.append("\n---\n")
-
-        # References section
-        if self.source_results:
-            lines.append("## References\n")
-            seen_urls: set[str] = set()
-            for result in self.source_results:
-                if result.url and result.url not in seen_urls:
-                    lines.append(f"- [{result.source_name}]({result.url})")
-                    seen_urls.add(result.url)
-
-        return "\n".join(lines)
+        renderer = MarkdownRenderer()
+        return renderer.render(self, template=template)
 
     def to_dict(self) -> dict[str, Any]:
         """Serialize report as dict."""
