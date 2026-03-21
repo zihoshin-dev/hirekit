@@ -62,6 +62,12 @@ google_news = "hirekit.sources.global_.google_news:GoogleNewsSource"
 brave_search = "hirekit.sources.global_.brave_search:BraveSearchSource"
 exa_search = "hirekit.sources.global_.exa_search:ExaSearchSource"
 credible_news = "hirekit.sources.global_.credible_news:CredibleNewsSource"
+company_website = "hirekit.sources.global_.company_website:CompanyWebsiteSource"
+tech_blog = "hirekit.sources.kr.tech_blog:TechBlogSource"
+medium_velog = "hirekit.sources.global_.medium_velog:MediumVelogSource"
+career_page = "hirekit.sources.global_.career_page:CareerPageSource"
+community_review = "hirekit.sources.kr.community_review:CommunityReviewSource"
+linkedin_search = "hirekit.sources.global_.linkedin_search:LinkedInSearchSource"
 
 [project.entry-points."hirekit.outputs"]
 markdown = "hirekit.output.markdown:MarkdownRenderer"

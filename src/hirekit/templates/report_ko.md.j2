@@ -1,0 +1,651 @@
+# {{ company }} — 기업 분석 리포트
+
+**지역:** {{ region | upper }} | **티어:** {{ tier }} | **등급:** {{ grade }}
+
+---
+
+{% set s1 = sections.get(1, {}) %}
+{% if s1 %}
+## 1. 회사 개요 & 현황
+
+### 기본 정보
+
+| 항목 | 내용 |
+|------|------|
+| 설립 | {{ s1.get('founded', '—') }} |
+| 대표 | {{ s1.get('ceo', '—') }} |
+| 본사 | {{ s1.get('headquarters', '—') }} |
+| 직원수 | {{ s1.get('employees', '—') }} |
+| 평균연봉 | {{ s1.get('avg_salary', '—') }} |
+| 평균근속 | {{ s1.get('avg_tenure', '—') }} |
+
+{% if s1.get('financials') %}
+### 핵심 실적 (최근 3개년)
+
+| 연도 | 매출 | 영업이익 | 비고 |
+|------|------|----------|------|
+{% for row in s1.get('financials', []) %}| {{ row.get('year', '') }} | {{ row.get('revenue', '') }} | {{ row.get('operating_profit', '') }} | {{ row.get('note', '') }} |
+{% endfor %}
+{% endif %}
+
+{% if s1.get('products') %}
+### 주요 제품/서비스
+
+{% for item in s1.get('products', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if s1.get('overview') %}
+{{ s1.get('overview') }}
+{% endif %}
+
+{% for key, value in s1.items() %}
+{% if key not in ('founded', 'ceo', 'headquarters', 'employees', 'avg_salary', 'avg_tenure', 'financials', 'products', 'overview') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: 기업 기본 정보와 실적 데이터를 바탕으로 "왜 이 회사인가?" 답변을 수치로 뒷받침해요.
+
+---
+{% else %}
+## 1. 회사 개요 & 현황
+
+이 섹션은 추가 데이터가 필요해요. (DART 공시 또는 공식 사이트 수집 필요)
+
+---
+{% endif %}
+
+{% set s2 = sections.get(2, {}) %}
+{% if s2 %}
+## 2. 산업 포지셔닝 & 경쟁 구도
+
+{% if s2.get('market_position') %}
+### 시장 위치
+
+{% if s2.get('market_position') is mapping %}
+{% for k, v in s2.get('market_position', {}).items() %}- **{{ k }}**: {{ v }}
+{% endfor %}
+{% else %}
+{{ s2.get('market_position') }}
+{% endif %}
+{% endif %}
+
+{% if s2.get('competitors') %}
+### 경쟁 구도
+
+| 경쟁사 | 차별화 포인트 | 우위/열위 |
+|--------|-------------|----------|
+{% for comp in s2.get('competitors', []) %}{% if comp is mapping %}| {{ comp.get('name', '') }} | {{ comp.get('differentiator', '') }} | {{ comp.get('position', '') }} |
+{% else %}| {{ comp }} | — | — |
+{% endif %}{% endfor %}
+{% endif %}
+
+{% for key, value in s2.items() %}
+{% if key not in ('market_position', 'competitors') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: "왜 경쟁사가 아니라 이 회사인가?" 답변을 준비할 때 시장 포지셔닝 데이터를 활용해요.
+
+---
+{% else %}
+## 2. 산업 포지셔닝 & 경쟁 구도
+
+이 섹션은 추가 데이터가 필요해요. (산업 분석 소스 수집 필요)
+
+---
+{% endif %}
+
+{% set s3 = sections.get(3, {}) %}
+{% if s3 %}
+## 3. 경영진 & 그룹사 방향성
+
+{% if s3.get('ceo_vision') %}
+### CEO 비전
+
+> "{{ s3.get('ceo_vision') }}"
+
+{% endif %}
+{% if s3.get('group_strategy') %}
+### 그룹사 방향
+
+{% if s3.get('group_strategy') is iterable and s3.get('group_strategy') is not string %}
+{% for item in s3.get('group_strategy', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s3.get('group_strategy') }}
+{% endif %}
+{% endif %}
+
+{% if s3.get('keywords') %}
+### 핵심 키워드
+
+{% for kw in s3.get('keywords', []) %}- {{ kw }}
+{% endfor %}
+{% endif %}
+
+{% for key, value in s3.items() %}
+{% if key not in ('ceo_vision', 'group_strategy', 'keywords') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: CEO 발언이나 그룹 전략 키워드를 면접 답변에 녹여서 전략적 이해도를 보여주세요.
+
+---
+{% else %}
+## 3. 경영진 & 그룹사 방향성
+
+이 섹션은 추가 데이터가 필요해요. (뉴스·IR 자료 수집 필요)
+
+---
+{% endif %}
+
+{% set s4 = sections.get(4, {}) %}
+{% if s4 %}
+## 4. 조직문화 / 철학 / 인재상
+
+{% if s4.get('mission') or s4.get('vision') or s4.get('values') %}
+### 미션/비전/핵심가치
+
+{% if s4.get('mission') %}- **미션**: {{ s4.get('mission') }}
+{% endif %}
+{% if s4.get('vision') %}- **비전**: {{ s4.get('vision') }}
+{% endif %}
+{% if s4.get('values') %}- **핵심가치**: {% if s4.get('values') is iterable and s4.get('values') is not string %}{{ s4.get('values') | join(', ') }}{% else %}{{ s4.get('values') }}{% endif %}
+
+{% endif %}
+{% endif %}
+
+{% if s4.get('work_style') %}
+### 일하는 방식
+
+{% if s4.get('work_style') is iterable and s4.get('work_style') is not string %}
+{% for item in s4.get('work_style', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s4.get('work_style') }}
+{% endif %}
+{% endif %}
+
+{% if s4.get('welfare') or s4.get('benefits') %}
+### 복지 & 근무환경
+
+{% set welfare = s4.get('welfare') or s4.get('benefits') %}
+{% if welfare is iterable and welfare is not string %}
+{% for item in welfare %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ welfare }}
+{% endif %}
+{% endif %}
+
+{% if s4.get('review_score') %}
+### 임직원 리뷰
+
+- 잡플래닛 평점: {{ s4.get('review_score') }}/5.0
+{% if s4.get('blind_feedback') %}- 블라인드 의견: {{ s4.get('blind_feedback') }}
+{% endif %}
+{% endif %}
+
+{% for key, value in s4.items() %}
+{% if key not in ('mission', 'vision', 'values', 'work_style', 'welfare', 'benefits', 'review_score', 'blind_feedback') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: 핵심가치와 일하는 방식을 STAR 스토리에 연결해서 문화 Fit을 증명해요.
+
+---
+{% else %}
+## 4. 조직문화 / 철학 / 인재상
+
+이 섹션은 추가 데이터가 필요해요. (잡플래닛·블라인드·공식 사이트 수집 필요)
+
+---
+{% endif %}
+
+{% set s5 = sections.get(5, {}) %}
+{% if s5 %}
+## 5. 직무 분석
+
+{% if s5.get('open_positions') %}
+### 현재 채용 중인 포지션
+
+| 포지션 | JD 핵심 요구사항 | 매칭도 |
+|--------|----------------|--------|
+{% for pos in s5.get('open_positions', []) %}{% if pos is mapping %}| {{ pos.get('title', '') }} | {{ pos.get('requirements', '') }} | {{ pos.get('match', '') }} |
+{% else %}| {{ pos }} | — | — |
+{% endif %}{% endfor %}
+{% endif %}
+
+{% if s5.get('role_scope') %}
+### 역할 범위
+
+{{ s5.get('role_scope') }}
+{% endif %}
+
+{% if s5.get('strengths') %}
+### 활약하기 좋은 이유
+
+{% for item in s5.get('strengths', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if s5.get('cautions') %}
+### 주의점
+
+{% for item in s5.get('cautions', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% for key, value in s5.items() %}
+{% if key not in ('open_positions', 'role_scope', 'strengths', 'cautions') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: JD 핵심 요구사항을 내 경력과 1:1 매핑해서 "이 직무에 최적화된 사람"임을 보여주세요.
+
+---
+{% else %}
+## 5. 직무 분석
+
+이 섹션은 추가 데이터가 필요해요. (채용 공고 JD 수집 필요)
+
+---
+{% endif %}
+
+{% set s6 = sections.get(6, {}) %}
+{% if privacy_track and s6 %}
+## 6. 개인정보보호 직무
+
+{% if s6.get('data_scale') %}
+### 데이터 처리 현황
+
+- 처리 규모: {{ s6.get('data_scale') }}
+{% if s6.get('data_types') %}- 데이터 유형: {{ s6.get('data_types') }}
+{% endif %}
+{% if s6.get('outsourcing') %}- 위탁 현황: {{ s6.get('outsourcing') }}
+{% endif %}
+{% endif %}
+
+{% if s6.get('compliance_org') %}
+### 컴플라이언스 조직
+
+{{ s6.get('compliance_org') }}
+{% endif %}
+
+{% if s6.get('certifications') %}
+### 인증 현황
+
+{% for cert in s6.get('certifications', []) %}- {{ cert }}
+{% endfor %}
+{% endif %}
+
+{% if s6.get('sanctions') %}
+### 제재 이력
+
+{{ s6.get('sanctions') }}
+{% endif %}
+
+{% for key, value in s6.items() %}
+{% if key not in ('data_scale', 'data_types', 'outsourcing', 'compliance_org', 'certifications', 'sanctions') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: ISMS-P 인증 현황과 데이터 처리 규모를 파악하면 개보 담당자로서 기여 포인트를 구체화할 수 있어요.
+
+---
+{% elif privacy_track %}
+## 6. 개인정보보호 직무
+
+이 섹션은 추가 데이터가 필요해요. (ISMS-P 현황, 개인정보처리방침 수집 필요)
+
+---
+{% endif %}
+
+{% set s7 = sections.get(7, {}) %}
+{% if s7 %}
+## 7. AI 전략 & 기술 동향
+
+{% if s7.get('ai_investment') %}
+### AI 투자 현황
+
+{% if s7.get('ai_investment') is mapping %}
+{% for k, v in s7.get('ai_investment', {}).items() %}- **{{ k }}**: {{ v }}
+{% endfor %}
+{% else %}
+{{ s7.get('ai_investment') }}
+{% endif %}
+{% endif %}
+
+{% if s7.get('tech_stack') %}
+### 기술 스택
+
+{% if s7.get('tech_stack') is iterable and s7.get('tech_stack') is not string %}
+{% for item in s7.get('tech_stack', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s7.get('tech_stack') }}
+{% endif %}
+{% endif %}
+
+{% if s7.get('github_grade') or s7.get('github_score') %}
+### GitHub 기술 성숙도
+
+- 등급: {{ s7.get('github_grade', '—') }} ({{ s7.get('github_score', '—') }}/100)
+{% if s7.get('top_repos') %}- 주요 오픈소스: {% for r in s7.get('top_repos', []) %}{{ r }}{% if not loop.last %}, {% endif %}{% endfor %}
+{% endif %}
+{% endif %}
+
+{% for key, value in s7.items() %}
+{% if key not in ('ai_investment', 'tech_stack', 'github_grade', 'github_score', 'top_repos') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: 기술 블로그 최근 5개 포스팅을 읽고 AI 전략과 기술 스택을 면접 화두로 활용해요.
+
+---
+{% else %}
+## 7. AI 전략 & 기술 동향
+
+이 섹션은 추가 데이터가 필요해요. (기술 블로그·GitHub 수집 필요)
+
+---
+{% endif %}
+
+{% set s8 = sections.get(8, {}) %}
+{% if s8 %}
+## 8. 산업 정책 & 규제 환경
+
+{% if s8.get('regulations') %}
+### 주요 규제 변화
+
+{% for reg in s8.get('regulations', []) %}{% if reg is mapping %}- **{{ reg.get('name', '') }}**: {{ reg.get('impact', '') }}
+{% else %}- {{ reg }}
+{% endif %}{% endfor %}
+{% endif %}
+
+{% for key, value in s8.items() %}
+{% if key not in ('regulations',) %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: 관련 규제 변화를 언급하면 업계 트렌드를 꿰뚫고 있다는 인상을 줄 수 있어요.
+
+---
+{% else %}
+## 8. 산업 정책 & 규제 환경
+
+이 섹션은 추가 데이터가 필요해요. (정책 뉴스·규제 동향 수집 필요)
+
+---
+{% endif %}
+
+{% set s9 = sections.get(9, {}) %}
+{% if profile and (s9 or profile) %}
+## 9. 경력 매핑 & 차별화
+
+{% if s9.get('career_assets') %}
+### 내 경력 자산 Top 3 (이 기업 맞춤)
+
+| 순위 | 경력 자산 | 이 기업에서의 가치 |
+|------|----------|-----------------|
+{% for i, asset in enumerate(s9.get('career_assets', [])[:3]) %}{% if asset is mapping %}| {{ loop.index }} | {{ asset.get('asset', '') }} | {{ asset.get('value', '') }} |
+{% else %}| {{ loop.index }} | {{ asset }} | — |
+{% endif %}{% endfor %}
+{% endif %}
+
+{% if s9.get('star_stories') %}
+### STAR 스토리
+
+{% for story in s9.get('star_stories', []) %}{% if story is mapping %}
+**{{ story.get('title', '스토리') }}**
+- **Situation**: {{ story.get('situation', '') }}
+- **Task**: {{ story.get('task', '') }}
+- **Action**: {{ story.get('action', '') }}
+- **Result**: {{ story.get('result', '') }}
+{% else %}
+{{ story }}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if s9.get('differentiators') %}
+### 경쟁 지원자 대비 차별화
+
+{% for item in s9.get('differentiators', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if s9.get('action_plan_90') %}
+### 입사 후 90일 액션 플랜
+
+{% for phase in s9.get('action_plan_90', []) %}- {{ phase }}
+{% endfor %}
+{% endif %}
+
+{% for key, value in s9.items() %}
+{% if key not in ('career_assets', 'star_stories', 'differentiators', 'action_plan_90') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: 경력 자산을 이 회사의 언어로 번역해서 "이 회사에서 특히 빛날 수 있는 이유"를 설명해요.
+
+---
+{% endif %}
+
+{% set s10 = sections.get(10, {}) %}
+{% if s10 %}
+## 10. 면접 준비 가이드
+
+{% if s10.get('process') %}
+### 면접 프로세스
+
+| 라운드 | 형태 | 평가 포인트 |
+|--------|------|-----------|
+{% for round in s10.get('process', []) %}{% if round is mapping %}| {{ round.get('round', '') }} | {{ round.get('format', '') }} | {{ round.get('focus', '') }} |
+{% else %}| {{ round }} | — | — |
+{% endif %}{% endfor %}
+{% endif %}
+
+{% if s10.get('common_questions') %}
+### 공통 예상 질문
+
+{% for qa in s10.get('common_questions', []) %}{% if qa is mapping %}- **Q**: {{ qa.get('q', '') }}
+  - **A**: {{ qa.get('a', '') }}
+{% else %}- {{ qa }}
+{% endif %}{% endfor %}
+{% endif %}
+
+{% if s10.get('reverse_questions') %}
+### 역질문 리스트 (기업 이해도 시그널)
+
+{% for i, q in enumerate(s10.get('reverse_questions', [])) %}{{ loop.index }}. {{ q }}
+{% endfor %}
+{% endif %}
+
+{% for key, value in s10.items() %}
+{% if key not in ('process', 'common_questions', 'reverse_questions') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+> 💡 **면접 활용**: 역질문은 기업에 대한 깊은 이해를 보여주는 신호예요. 최소 5개를 준비하되 진심 어린 호기심으로 물어봐요.
+
+---
+{% else %}
+## 10. 면접 준비 가이드
+
+이 섹션은 추가 데이터가 필요해요. (면접 후기·채용 프로세스 수집 필요)
+
+---
+{% endif %}
+
+{% set s11 = sections.get(11, {}) %}
+## 11. 종합 판단 & 스코어카드
+
+{% if scorecard and scorecard.get('dimensions') %}
+### 스코어카드
+
+| 항목 | 가중치 | 점수 (1-5) | 가중점수 | 근거 |
+|------|--------|-----------|---------|------|
+{% for dim in scorecard.get('dimensions', []) %}| {{ dim.get('label', dim.get('name', '')) }} | {{ "%.0f%%" | format(dim.get('weight', 0) * 100) }} | {{ "%.1f" | format(dim.get('score', 0)) }} | {{ "%.1f" | format(dim.get('score', 0) * dim.get('weight', 0) * 20) }} | {{ dim.get('evidence', '—') }} |
+{% endfor %}| **총점** | | | **{{ "%.0f" | format(scorecard.get('total', 0)) }}/100** | 등급: **{{ scorecard.get('grade', 'N/A') }}** |
+{% else %}
+### 스코어카드
+
+이 섹션은 추가 데이터가 필요해요. (스코어카드 계산 필요)
+{% endif %}
+
+{% if s11.get('why_now') %}
+### 왜 지금 이 회사인가
+
+{% if s11.get('why_now') is iterable and s11.get('why_now') is not string %}
+{% for item in s11.get('why_now', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s11.get('why_now') }}
+{% endif %}
+{% endif %}
+
+{% if s11.get('risks') %}
+### 리스크 & 주의점
+
+{% for risk in s11.get('risks', []) %}- {{ risk }}
+{% endfor %}
+{% endif %}
+
+{% if s11.get('AI Analysis') %}
+### AI 분석 인사이트
+
+{{ s11.get('AI Analysis') }}
+{% endif %}
+
+{% for key, value in s11.items() %}
+{% if key not in ('why_now', 'risks', 'AI Analysis') %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+### 면접 전 To-Do
+
+- [ ] JD 정독 및 키워드 매핑
+- [ ] STAR 스토리 3개 준비
+- [ ] 역질문 5개 준비
+- [ ] 기술 블로그 최근 5개 포스팅 읽기
+- [ ] 최근 뉴스 3개 숙지
+- [ ] 포트폴리오/과제 준비 (해당 시)
+
+> 💡 **면접 활용**: 스코어카드 점수가 낮은 영역일수록 면접에서 적극적으로 불안 요소를 해소하는 답변을 준비해요.
+
+---
+
+{% set s12 = sections.get(12, {}) %}
+## 12. 핵심 레퍼런스
+
+{% if sources %}
+| 소스 | URL |
+|------|-----|
+{% for src in sources %}{% if src.get('url') %}| {{ src.get('name', '—') }} | {{ src.get('url') }} |
+{% endif %}{% endfor %}
+{% else %}
+이 섹션은 추가 데이터가 필요해요. (소스 URL 수집 필요)
+{% endif %}
+
+{% if s12 %}
+{% for key, value in s12.items() %}
+{% if value is iterable and value is not string %}
+### {{ key }}
+
+{% for item in value %}- {{ item }}
+{% endfor %}
+{% else %}
+**{{ key }}**: {{ value }}
+{% endif %}
+{% endfor %}
+{% endif %}

@@ -139,14 +139,21 @@ class CompanyAnalyzer:
     def _ensure_sources_registered() -> None:
         """Import all built-in source modules to trigger @register decorators."""
         try:
-            from hirekit.sources.global_ import (  # noqa: F811,F401
+            from hirekit.sources.global_ import (  # noqa: F401
                 brave_search,
+                company_website,
                 credible_news,
                 exa_search,
                 github,
                 google_news,
+                medium_velog,
             )
-            from hirekit.sources.kr import dart, naver_news, naver_search  # noqa: F811,F401
+            from hirekit.sources.kr import (  # noqa: F401
+                dart,
+                naver_news,
+                naver_search,
+                tech_blog,
+            )
         except ImportError:
             pass
 
