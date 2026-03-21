@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HireKit | Claude Code Pixel 2D Landing</title>
+  <title>HireKit | 취업 준비의 궁극의 도구</title>
   <meta
     name="description"
     content="HireKit을 클로드코드 감성의 픽셀 2D 스타일로 재해석한 랜딩 페이지입니다. 기업 분석, 공고 매칭, 면접 준비를 한 화면에서 선명하게 보여줍니다."
   />
-  <meta property="og:title" content="HireKit | Claude Code Pixel 2D Landing" />
+  <meta property="og:title" content="HireKit | 취업 준비의 궁극의 도구" />
   <meta
     property="og:description"
     content="기업 분석, 공고 매칭, 면접 준비를 픽셀 2D 콘솔 월드로 표현한 HireKit 랜딩 페이지입니다."
@@ -328,6 +328,10 @@
     .menu-toggle span {
       font-family: var(--pixel-font);
       font-size: 12px;
+    }
+
+    .mobile-menu {
+      display: none;
     }
 
     .button {
@@ -1239,13 +1243,12 @@
     }
 
     .reveal {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 500ms ease, transform 500ms ease;
+      opacity: 1;
+      transform: none;
+      transition: transform 500ms ease;
     }
 
     .reveal.is-visible {
-      opacity: 1;
       transform: translateY(0);
     }
 
@@ -1432,6 +1435,12 @@
       }
     }
   </style>
+<meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
+<meta property="og:image:width" content="1568" />
+<meta property="og:image:height" content="828" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
 </head>
 <body>
   <div class="topbar-wrap">
@@ -1470,6 +1479,7 @@
         <a class="nav-link" href="#demo">Demo</a>
         <a class="nav-link" href="#quickstart">Quickstart</a>
         <a class="nav-link" href="#roadmap">Roadmap</a>
+        <a class="nav-link" href="en.html">English</a>
         <a class="button secondary" href="demo.html">Live Demo</a>
         <a class="button ghost" href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener">GitHub</a>
       </div>
@@ -1992,8 +2002,7 @@
     }
 
     const storedTheme = localStorage.getItem("hirekit-theme");
-    const preferredLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-    applyTheme(storedTheme || (preferredLight ? "light" : "dark"));
+    applyTheme(storedTheme || "dark");
 
     themeToggle.addEventListener("click", () => {
       applyTheme(root.classList.contains("light") ? "dark" : "light");
