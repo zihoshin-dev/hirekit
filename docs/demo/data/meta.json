@@ -66,7 +66,12 @@
       "유럽",
       "기타 34개 리전"
     ],
-    "ceo": "함기호"
+    "ceo": "함기호",
+    "is_foreign": true,
+    "parent_company": "Amazon.com Inc.",
+    "parent_ticker": "AMZN",
+    "parent_revenue": "글로벌 매출 $6,380억 (FY2024), AWS 매출 $1,079억",
+    "kr_revenue": "약 1조 4,000억 원 (2023년 추정)"
   },
   {
     "name": "CJ ENM",
@@ -735,7 +740,12 @@
       "미국",
       "글로벌(X 플랫폼 통해 전세계 배포)"
     ],
-    "ceo": "Elon Musk"
+    "ceo": "Elon Musk",
+    "is_foreign": true,
+    "parent_company": "xAI Corp",
+    "parent_ticker": "",
+    "parent_revenue": "비상장 — 기업가치 $500억 (2024년 시리즈B 기준)",
+    "kr_revenue": ""
   },
   {
     "name": "구글코리아",
@@ -800,7 +810,12 @@
     "global_presence": [
       "전세계 (모회사 Alphabet 기준 200개국+)"
     ],
-    "ceo": "김경훈"
+    "ceo": "김경훈",
+    "is_foreign": true,
+    "parent_company": "Alphabet Inc.",
+    "parent_ticker": "GOOGL",
+    "parent_revenue": "글로벌 매출 $3,482억 (FY2024)",
+    "kr_revenue": "약 3,653억 원 (2023년 감사보고서 기준)"
   },
   {
     "name": "그린랩스",
@@ -1479,7 +1494,12 @@
       "한국",
       "캐나다",
       "프랑스"
-    ]
+    ],
+    "is_foreign": true,
+    "parent_company": "Alphabet Inc. (Google DeepMind)",
+    "parent_ticker": "GOOGL",
+    "parent_revenue": "글로벌 매출 $3,482억 (FY2024, Alphabet 연결)",
+    "kr_revenue": ""
   },
   {
     "name": "라인플러스",
@@ -2066,7 +2086,12 @@
       "전 세계 (글로벌)",
       "한국 포함 아시아태평양"
     ],
-    "ceo": "옥재윤"
+    "ceo": "옥재윤",
+    "is_foreign": true,
+    "parent_company": "Meta Platforms Inc.",
+    "parent_ticker": "META",
+    "parent_revenue": "글로벌 매출 $1,648억 (FY2024)",
+    "kr_revenue": "약 570억 원 (2023년 감사보고서 기준)"
   },
   {
     "name": "무신사",
@@ -2592,7 +2617,12 @@
       "전 세계 (글로벌)",
       "한국 포함 아시아태평양"
     ],
-    "ceo": "박세진"
+    "ceo": "박세진",
+    "is_foreign": true,
+    "parent_company": "Salesforce Inc.",
+    "parent_ticker": "CRM",
+    "parent_revenue": "글로벌 매출 $347억 (FY2024)",
+    "kr_revenue": ""
   },
   {
     "name": "센드버드",
@@ -2916,7 +2946,12 @@
     "global_presence": [
       "전 세계(한국 포함 100개국 이상)"
     ],
-    "ceo": "피터 로날드 덴우드 (한국 법인 대표)"
+    "ceo": "피터 로날드 덴우드 (한국 법인 대표)",
+    "is_foreign": true,
+    "parent_company": "Apple Inc.",
+    "parent_ticker": "AAPL",
+    "parent_revenue": "글로벌 매출 $3,911억 (FY2024)",
+    "kr_revenue": "약 7,556억 원 (2023년 감사보고서 기준)"
   },
   {
     "name": "앤트로픽코리아",
@@ -2986,7 +3021,12 @@
       "한국(서울)",
       "인도(벵갈루루)"
     ],
-    "ceo": "Dario Amodei (글로벌 CEO)"
+    "ceo": "Dario Amodei (글로벌 CEO)",
+    "is_foreign": true,
+    "parent_company": "Anthropic PBC",
+    "parent_ticker": "",
+    "parent_revenue": "비상장 — 연간 ARR $10억+ (2024년 추정)",
+    "kr_revenue": ""
   },
   {
     "name": "야놀자",
@@ -3250,7 +3290,12 @@
     "global_presence": [
       "전 세계(한국 포함)"
     ],
-    "ceo": "유응준 (한국 법인 대표)"
+    "ceo": "유응준 (한국 법인 대표)",
+    "is_foreign": true,
+    "parent_company": "NVIDIA Corporation",
+    "parent_ticker": "NVDA",
+    "parent_revenue": "글로벌 매출 $1,303억 (FY2025)",
+    "kr_revenue": "약 1,200억 원 (2023년 추정)"
   },
   {
     "name": "엔씨소프트",
@@ -3388,7 +3433,12 @@
       "한국(서울, 2025년 설립)",
       "총 12개국"
     ],
-    "ceo": "로버트 제이린 우 (한국 법인 초대 대표, 서류상)"
+    "ceo": "로버트 제이린 우 (한국 법인 초대 대표, 서류상)",
+    "is_foreign": true,
+    "parent_company": "OpenAI LLC",
+    "parent_ticker": "",
+    "parent_revenue": "비상장 — 연간 ARR $37억 (2024년 추정)",
+    "kr_revenue": ""
   },
   {
     "name": "왓챠",
@@ -4548,7 +4598,12 @@
     "global_presence": [
       "전 세계 50개국 이상"
     ],
-    "ceo": "한국법인 대표 미공개 (글로벌 CEO: 엘론 머스크)"
+    "ceo": "한국법인 대표 미공개 (글로벌 CEO: 엘론 머스크)",
+    "is_foreign": true,
+    "parent_company": "Tesla Inc.",
+    "parent_ticker": "TSLA",
+    "parent_revenue": "글로벌 매출 $977억 (FY2024)",
+    "kr_revenue": "약 6,200억 원 (2023년 추정, 차량 판매 포함)"
   },
   {
     "name": "토스 (비바리퍼블리카)",
@@ -5193,6 +5248,11 @@
     "global_presence": [
       "전 세계 190개국 이상"
     ],
-    "ceo": "조원우 (한국 대표이사)"
+    "ceo": "조원우 (한국 대표이사)",
+    "is_foreign": true,
+    "parent_company": "Microsoft Corporation",
+    "parent_ticker": "MSFT",
+    "parent_revenue": "글로벌 매출 $2,454억 (FY2024)",
+    "kr_revenue": "약 8,000억 원 (2023년 추정)"
   }
 ]

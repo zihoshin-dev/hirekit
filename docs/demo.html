@@ -1176,6 +1176,52 @@ function renderOverview(s1, meta) {
 // ═══════════════════════════════════════════════════════
 function renderFinancials(s1) {
   const el = document.getElementById('dpFinancialsContent');
+
+  // 외국계 한국 지사: 본사 글로벌 실적 섹션 표시
+  if (s1.is_foreign) {
+    const ticker = s1.parent_ticker || '';
+    const tickerBadge = ticker
+      ? `<span class="text-xs font-semibold px-2 py-0.5 rounded-full ml-2" style="background:rgba(99,102,241,0.12);color:#6366f1;">${escHtml(ticker)}</span>`
+      : `<span class="text-xs font-semibold px-2 py-0.5 rounded-full ml-2" style="background:rgba(245,158,11,0.12);color:#f59e0b;">비상장</span>`;
+
+    const globalRow = s1.parent_revenue
+      ? `<div class="flex items-center justify-between text-sm py-2.5" style="border-bottom:1px solid var(--border);">
+           <span class="t-secondary">본사 글로벌 매출</span>
+           <span class="font-semibold t-primary">${escHtml(s1.parent_revenue)}</span>
+         </div>`
+      : '';
+
+    const krRow = s1.kr_revenue
+      ? `<div class="flex items-center justify-between text-sm py-2.5" style="border-bottom:1px solid var(--border);">
+           <span class="t-secondary">한국 매출 (추정)</span>
+           <span class="font-semibold t-primary">${escHtml(s1.kr_revenue)}</span>
+         </div>`
+      : '';
+
+    const dartNote = `
+      <div class="flex items-start gap-2 mt-4 p-3 rounded-xl" style="background:rgba(99,102,241,0.07);border:1px solid rgba(99,102,241,0.18);">
+        <svg class="flex-shrink-0 mt-0.5" width="15" height="15" fill="none" stroke="#6366f1" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <p class="text-xs" style="color:#6366f1;line-height:1.6;">외국계 한국 지사는 DART 공시 의무가 없어 본사 글로벌 데이터를 제공해요. 한국 매출은 공정위 공시·감사보고서 기준 추정치예요.</p>
+      </div>`;
+
+    el.innerHTML = `
+      <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+        <div class="flex items-center mb-3">
+          <h4 class="text-sm font-semibold t-primary">본사 글로벌 실적</h4>
+          ${tickerBadge}
+        </div>
+        <p class="text-xs t-tertiary mb-3">${escHtml(s1.parent_company || '')}</p>
+        <div>
+          ${globalRow}
+          ${krRow}
+        </div>
+        ${dartNote}
+      </div>
+    `;
+    return;
+  }
+
+  // 국내 기업: 기존 DART 재무 데이터 렌더링
   const fins = s1.financials;
   if (!fins || fins.length === 0) { el.innerHTML = emptyState('재무 데이터가 없어요.'); return; }
 

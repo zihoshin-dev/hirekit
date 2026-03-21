@@ -20,6 +20,12 @@ class CompanyInfo:
     aliases: list[str] = field(default_factory=list)
     corp_name: str = ""   # 법인 정식 명칭 (예: "비바리퍼블리카")
     brand_name: str = ""  # 브랜드명 (예: "토스")
+    # 외국계 한국 지사 전용 필드
+    is_foreign: bool = False          # 외국계 한국 지사 여부
+    parent_company: str = ""          # 본사 정식 명칭 (예: "Alphabet Inc.")
+    parent_ticker: str = ""           # 본사 티커 (비상장이면 "")
+    parent_revenue: str = ""          # 본사 글로벌 매출 요약 (공개 정보)
+    kr_revenue: str = ""              # 한국 매출 (공정위 공시 등 알려진 경우)
 
 
 # Central registry: canonical name → CompanyInfo
@@ -197,6 +203,139 @@ _REGISTRY: dict[str, CompanyInfo] = {
         dart_code="00105464",
         github_orgs=[],
         aliases=["cj enm"],
+    ),
+    # ── 외국계 한국 지사 ──────────────────────────────────────────────────────
+    "구글코리아": CompanyInfo(
+        name="구글코리아",
+        corp_name="구글코리아 유한회사",
+        brand_name="구글코리아",
+        aliases=["google korea", "googlekorea", "google kr"],
+        is_foreign=True,
+        parent_company="Alphabet Inc.",
+        parent_ticker="GOOGL",
+        parent_revenue="글로벌 매출 $3,482억 (FY2024)",
+        kr_revenue="약 3,653억 원 (2023년 감사보고서 기준)",
+    ),
+    "딥마인드코리아": CompanyInfo(
+        name="딥마인드코리아",
+        corp_name="딥마인드코리아 유한회사",
+        brand_name="딥마인드코리아",
+        aliases=["deepmind korea", "deepmindkorea", "google deepmind kr"],
+        is_foreign=True,
+        parent_company="Alphabet Inc. (Google DeepMind)",
+        parent_ticker="GOOGL",
+        parent_revenue="글로벌 매출 $3,482억 (FY2024, Alphabet 연결)",
+        kr_revenue="",
+    ),
+    "애플코리아": CompanyInfo(
+        name="애플코리아",
+        corp_name="애플코리아 유한회사",
+        brand_name="애플코리아",
+        aliases=["apple korea", "applekorea", "apple kr"],
+        is_foreign=True,
+        parent_company="Apple Inc.",
+        parent_ticker="AAPL",
+        parent_revenue="글로벌 매출 $3,911억 (FY2024)",
+        kr_revenue="약 7,556억 원 (2023년 감사보고서 기준)",
+    ),
+    "메타코리아": CompanyInfo(
+        name="메타코리아",
+        corp_name="메타코리아 유한회사",
+        brand_name="메타코리아",
+        aliases=["meta korea", "metakorea", "facebook korea", "meta kr"],
+        is_foreign=True,
+        parent_company="Meta Platforms Inc.",
+        parent_ticker="META",
+        parent_revenue="글로벌 매출 $1,648억 (FY2024)",
+        kr_revenue="약 570억 원 (2023년 감사보고서 기준)",
+    ),
+    "엔비디아코리아": CompanyInfo(
+        name="엔비디아코리아",
+        corp_name="엔비디아코리아 유한회사",
+        brand_name="엔비디아코리아",
+        aliases=["nvidia korea", "nvidiakorea", "nvidia kr"],
+        is_foreign=True,
+        parent_company="NVIDIA Corporation",
+        parent_ticker="NVDA",
+        parent_revenue="글로벌 매출 $1,303억 (FY2025)",
+        kr_revenue="약 1,200억 원 (2023년 추정)",
+    ),
+    "테슬라코리아": CompanyInfo(
+        name="테슬라코리아",
+        corp_name="테슬라코리아 유한회사",
+        brand_name="테슬라코리아",
+        aliases=["tesla korea", "teslakorea", "tesla kr"],
+        is_foreign=True,
+        parent_company="Tesla Inc.",
+        parent_ticker="TSLA",
+        parent_revenue="글로벌 매출 $977억 (FY2024)",
+        kr_revenue="약 6,200억 원 (2023년 추정, 차량 판매 포함)",
+    ),
+    "세일즈포스코리아": CompanyInfo(
+        name="세일즈포스코리아",
+        corp_name="세일즈포스코리아 유한회사",
+        brand_name="세일즈포스코리아",
+        aliases=["salesforce korea", "salesforcekorea", "salesforce kr"],
+        is_foreign=True,
+        parent_company="Salesforce Inc.",
+        parent_ticker="CRM",
+        parent_revenue="글로벌 매출 $347억 (FY2024)",
+        kr_revenue="",
+    ),
+    "한국마이크로소프트": CompanyInfo(
+        name="한국마이크로소프트",
+        corp_name="한국마이크로소프트 유한회사",
+        brand_name="한국마이크로소프트",
+        aliases=["microsoft korea", "microsoftkorea", "ms korea", "mskorea"],
+        is_foreign=True,
+        parent_company="Microsoft Corporation",
+        parent_ticker="MSFT",
+        parent_revenue="글로벌 매출 $2,454억 (FY2024)",
+        kr_revenue="약 8,000억 원 (2023년 추정)",
+    ),
+    "AWS코리아": CompanyInfo(
+        name="AWS코리아",
+        corp_name="아마존웹서비스코리아 유한책임회사",
+        brand_name="AWS코리아",
+        aliases=["aws korea", "awskorea", "amazon web services korea", "amazon korea"],
+        is_foreign=True,
+        parent_company="Amazon.com Inc.",
+        parent_ticker="AMZN",
+        parent_revenue="글로벌 매출 $6,380억 (FY2024), AWS 매출 $1,079억",
+        kr_revenue="약 1조 4,000억 원 (2023년 추정)",
+    ),
+    "앤트로픽코리아": CompanyInfo(
+        name="앤트로픽코리아",
+        corp_name="앤트로픽코리아 유한회사",
+        brand_name="앤트로픽코리아",
+        aliases=["anthropic korea", "anthropickorea", "anthropic kr"],
+        is_foreign=True,
+        parent_company="Anthropic PBC",
+        parent_ticker="",  # 비상장
+        parent_revenue="비상장 — 연간 ARR $10억+ (2024년 추정)",
+        kr_revenue="",
+    ),
+    "오픈AI코리아": CompanyInfo(
+        name="오픈AI코리아",
+        corp_name="오픈AI코리아 유한회사",
+        brand_name="오픈AI코리아",
+        aliases=["openai korea", "openaikorea", "openai kr"],
+        is_foreign=True,
+        parent_company="OpenAI LLC",
+        parent_ticker="",  # 비상장
+        parent_revenue="비상장 — 연간 ARR $37억 (2024년 추정)",
+        kr_revenue="",
+    ),
+    "xAI": CompanyInfo(
+        name="xAI",
+        corp_name="xAI Korea",
+        brand_name="xAI",
+        aliases=["xai korea", "x.ai", "elon ai"],
+        is_foreign=True,
+        parent_company="xAI Corp",
+        parent_ticker="",  # 비상장
+        parent_revenue="비상장 — 기업가치 $500억 (2024년 시리즈B 기준)",
+        kr_revenue="",
     ),
 }
 
