@@ -135,6 +135,21 @@ class CompanyAnalyzer:
         self.cache = Cache(ttl_hours=config.analysis.cache_ttl_hours)
         self.llm: BaseLLM = self._init_llm() if use_llm else NoLLM()
 
+    @staticmethod
+    def _ensure_sources_registered() -> None:
+        """Import all built-in source modules to trigger @register decorators."""
+        try:
+            from hirekit.sources.global_ import (  # noqa: F811,F401
+                brave_search,
+                credible_news,
+                exa_search,
+                github,
+                google_news,
+            )
+            from hirekit.sources.kr import dart, naver_news, naver_search  # noqa: F811,F401
+        except ImportError:
+            pass
+
     def _init_llm(self) -> BaseLLM:
         """Initialize LLM based on config."""
         provider = self.config.llm.provider
@@ -158,7 +173,8 @@ class CompanyAnalyzer:
 
     def analyze(self, company: str, region: str = "kr", tier: int = 1) -> AnalysisReport:
         """Run full analysis pipeline for a company."""
-        # 1. Discover and filter sources — use ALL available, not just enabled list
+        # 1. Discover and register all built-in sources
+        self._ensure_sources_registered()
         SourceRegistry.discover_plugins()
         sources = SourceRegistry.get_available(region=region)
         # Also include global sources regardless of region
