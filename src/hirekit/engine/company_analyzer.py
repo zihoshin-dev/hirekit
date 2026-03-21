@@ -296,21 +296,11 @@ class CompanyAnalyzer:
                 dim.score = min(5.0, score)
 
     def _enhance_with_llm(self, report: AnalysisReport) -> None:
-        """Use LLM to generate analysis, fill scorecard, and create insights."""
-        raw_data = "\n".join(r.raw for r in report.source_results if r.raw)
-        if not raw_data:
-            return
+        """Run sectioned LLM pipeline and merge results into report sections."""
+        from hirekit.engine.llm_pipeline import LLMPipeline
 
-        prompt = (
-            f"다음은 '{report.company}'에 대해 수집된 데이터입니다.\n\n"
-            f"{raw_data[:8000]}\n\n"
-            "위 데이터를 바탕으로:\n"
-            "1. 각 스코어카드 차원(직무 적합도, 경력 레버리지, 성장성, 연봉/복지, 문화 Fit)에 "
-            "1-5점 점수와 근거를 제시하세요.\n"
-            "2. 이 기업의 핵심 강점과 리스크를 각 3개씩 제시하세요.\n"
-            "3. 면접 시 활용할 수 있는 핵심 인사이트 3개를 제시하세요."
-        )
-
-        response = self.llm.generate(prompt=prompt, temperature=0.3)
-        if response.text:
-            report.sections.setdefault(11, {})["AI Analysis"] = response.text
+        pipeline = LLMPipeline(self.llm)
+        llm_sections = pipeline.analyze(report.source_results, report.company)
+        for num, content in llm_sections.items():
+            report.sections.setdefault(num, {})
+            report.sections[num]["analysis"] = content

@@ -334,6 +334,210 @@ def coverletter(
 
 
 @app.command()
+def pipeline(
+    company: str = typer.Argument(help="Company name"),
+    jd: str = typer.Option("", "--jd", help="JD URL or text file"),
+    resume_file: str = typer.Option("", "--resume", help="Resume file (md/txt/pdf)"),
+    position: str = typer.Option("", "--position", "-p", help="Target position"),
+    profile: str = typer.Option("", "--profile", help="Career profile YAML"),
+    output: str = typer.Option("markdown", "--output", "-o", help="Output format"),
+    no_llm: bool = typer.Option(False, "--no-llm", help="Skip LLM"),
+) -> None:
+    """Run full analysis pipeline: analyze + match + interview + coverletter + strategy."""
+    from hirekit.engine.company_analyzer import CompanyAnalyzer
+    from hirekit.engine.cover_letter import CoverLetterCoach
+    from hirekit.engine.interview_prep import InterviewPrep
+    from hirekit.engine.jd_matcher import JDMatcher
+    from hirekit.engine.resume_advisor import ResumeAdvisor
+
+    config = load_config()
+    llm = _get_llm(config) if not no_llm else None
+    user_profile = _load_profile(profile)
+
+    console.print(Panel(
+        f"[bold]Company:[/bold] {company}\n"
+        f"[bold]Position:[/bold] {position or '미지정'}  "
+        f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}",
+        title="[bold blue]HireKit Pipeline[/bold blue]",
+        border_style="blue",
+    ))
+
+    # Step 1: Company analysis
+    console.print("\n[bold cyan][1/5] 기업 분석 중...[/bold cyan]")
+    analyzer = CompanyAnalyzer(config=config, use_llm=not no_llm)
+    with console.status("[bold green]Collecting company data..."):
+        report = analyzer.analyze(company=company)
+
+    # Step 2: JD analysis (optional)
+    jd_analysis = None
+    jd_text = ""
+    if jd:
+        console.print("[bold cyan][2/5] JD 분석 중...[/bold cyan]")
+        jd_path = Path(jd)
+        jd_source = jd_path.read_text(encoding="utf-8") if jd_path.exists() else jd
+        jd_text = jd_source
+        matcher = JDMatcher(llm=llm)
+        with console.status("[bold green]Analyzing job description..."):
+            jd_analysis = matcher.analyze(jd_source=jd_source, profile=user_profile)
+        # Try to override company name from JD if found
+        if jd_analysis.company and not company:
+            company = jd_analysis.company
+    else:
+        console.print("[dim][2/5] JD 분석 건너뜀 (--jd 미지정)[/dim]")
+
+    # Step 3: Resume review (optional)
+    resume_feedback = None
+    if resume_file:
+        console.print("[bold cyan][3/5] 이력서 리뷰 중...[/bold cyan]")
+        advisor = ResumeAdvisor(llm=llm)
+        with console.status("[bold green]Reviewing resume..."):
+            resume_feedback = advisor.review(
+                resume_path=resume_file, jd_text=jd_text, profile=user_profile
+            )
+    else:
+        console.print("[dim][3/5] 이력서 리뷰 건너뜀 (--resume 미지정)[/dim]")
+
+    # Step 4: Interview prep
+    console.print("[bold cyan][4/5] 면접 준비 가이드 생성 중...[/bold cyan]")
+    prep = InterviewPrep(llm=llm)
+    with console.status("[bold green]Generating interview guide..."):
+        guide = prep.prepare(
+            company=company,
+            position=position,
+            report=report,
+            profile=user_profile,
+        )
+
+    # Step 5: Cover letter
+    console.print("[bold cyan][5/5] 자기소개서 초안 작성 중...[/bold cyan]")
+    coach = CoverLetterCoach(llm=llm)
+    with console.status("[bold green]Drafting cover letter..."):
+        cover_draft = coach.draft(
+            company=company,
+            position=position,
+            profile=user_profile,
+            company_report=report.to_dict(),
+        )
+
+    # Go/Hold/Pass verdict
+    combined = report.scorecard.total_score * 0.6 if report.scorecard else 0.0
+    if jd_analysis:
+        combined += jd_analysis.match_score * 0.4
+    if combined >= 65:
+        verdict = "Go"
+        verdict_style = "bold green"
+    elif combined >= 40:
+        verdict = "Hold"
+        verdict_style = "bold yellow"
+    else:
+        verdict = "Pass"
+        verdict_style = "bold red"
+
+    if output == "terminal":
+        console.print(Panel(
+            f"[bold]기업 점수:[/bold] {report.scorecard.total_score:.0f}/100 "
+            f"(Grade {report.scorecard.grade})\n"
+            + (
+                f"[bold]JD 매칭:[/bold] {jd_analysis.match_score:.0f}/100\n"
+                if jd_analysis else ""
+            )
+            + (
+                f"[bold]이력서 점수:[/bold] {resume_feedback.overall_score:.0f}/100\n"
+                if resume_feedback else ""
+            )
+            + f"[bold]면접 질문:[/bold] {len(guide.common_questions)}개\n"
+            + f"[bold]자소서 점수:[/bold] {cover_draft.overall_score:.0f}/100\n"
+            + f"[{verdict_style}]Verdict: {verdict}[/{verdict_style}]",
+            title="[bold blue]Pipeline Result[/bold blue]",
+            border_style="blue",
+        ))
+    else:
+        # Build integrated markdown report
+        lines = [
+            f"# HireKit Pipeline Report: {company}",
+            f"**Position:** {position or '미지정'}",
+            f"**Verdict:** {verdict} (combined score: {combined:.0f}/100)",
+            "",
+            "---",
+            "",
+            "## 1. 기업 분석",
+            report.to_markdown(),
+            "",
+            "---",
+            "",
+        ]
+
+        if jd_analysis:
+            lines += [
+                "## 2. JD 매칭",
+                jd_analysis.to_markdown(),
+                "",
+                "---",
+                "",
+            ]
+
+        if resume_feedback:
+            lines += [
+                "## 3. 이력서 리뷰",
+                resume_feedback.to_markdown(),
+                "",
+                "---",
+                "",
+            ]
+
+        lines += [
+            "## 4. 면접 준비",
+            guide.to_markdown(),
+            "",
+            "---",
+            "",
+            "## 5. 자기소개서",
+            cover_draft.to_markdown(),
+        ]
+
+        out_path = Path(config.output.directory) / f"{company}_pipeline.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text("\n".join(lines), encoding="utf-8")
+        console.print(f"\n[green]Pipeline report saved:[/green] {out_path}")
+
+        # Summary table
+        table = Table(title=f"{company} Pipeline Summary")
+        table.add_column("단계", style="cyan")
+        table.add_column("결과", justify="right")
+        table.add_column("비고")
+
+        table.add_row(
+            "기업 분석",
+            f"{report.scorecard.total_score:.0f}/100" if report.scorecard else "-",
+            f"Grade {report.scorecard.grade}" if report.scorecard else "",
+        )
+        if jd_analysis:
+            table.add_row(
+                "JD 매칭",
+                f"{jd_analysis.match_score:.0f}/100",
+                f"Grade {jd_analysis.match_grade}",
+            )
+        if resume_feedback:
+            table.add_row(
+                "이력서",
+                f"{resume_feedback.overall_score:.0f}/100",
+                f"Grade {resume_feedback.grade}",
+            )
+        table.add_row("면접 질문", f"{len(guide.common_questions)}개", "")
+        table.add_row(
+            "자기소개서",
+            f"{cover_draft.overall_score:.0f}/100",
+            f"Grade {cover_draft.grade}",
+        )
+        table.add_row(
+            "[bold]Verdict[/bold]",
+            f"[{verdict_style}]{verdict}[/{verdict_style}]",
+            f"Combined {combined:.0f}/100",
+        )
+        console.print(table)
+
+
+@app.command()
 def resume(
     file: str = typer.Argument(help="Resume file path (md, txt, pdf)"),
     jd: str = typer.Option("", "--jd", help="JD URL or text for targeted review"),
