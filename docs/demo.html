@@ -63,16 +63,6 @@
     .surface { background-color: var(--bg); }
     .surface-secondary { background-color: var(--bg-secondary); }
     .btn-click:active { transform: scale(0.98); }
-    .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
-    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-    html.dark .card-hover:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
-
-    /* Wizard steps */
-    .step-panel { display: none; }
-    .step-panel.active { display: block; }
-
-    /* Progress */
-    .progress-step { transition: all 0.25s ease; }
 
     /* Company grid */
     .company-card {
@@ -80,8 +70,8 @@
       border: 1.5px solid var(--border);
       background-color: var(--bg);
       border-radius: 12px;
-      padding: 14px 16px;
-      transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.15s ease;
+      padding: 12px 14px;
+      transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.12s ease;
     }
     .company-card:hover { border-color: #3182F6; transform: translateY(-1px); }
     .company-card.selected {
@@ -90,19 +80,43 @@
     }
     html.dark .company-card.selected { background-color: rgba(49,130,246,0.12); }
 
+    /* Detail panel */
+    #detailPanel {
+      display: none;
+      border: 1.5px solid var(--border);
+      border-radius: 16px;
+      background-color: var(--bg);
+      overflow: hidden;
+      animation: slideDown 0.25s cubic-bezier(0.4,0,0.2,1);
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
     /* Tabs */
-    .tab-btn { transition: all 0.2s ease; }
+    .tab-btn {
+      transition: all 0.15s ease;
+      color: var(--text-tertiary);
+      border-bottom: 2px solid transparent;
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 500;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .tab-btn:hover { color: var(--text-secondary); }
     .tab-btn.active {
       color: #3182F6;
-      border-bottom: 2px solid #3182F6;
+      border-bottom-color: #3182F6;
     }
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
     /* Score bar animation */
-    .score-bar { transition: width 1s cubic-bezier(0.4,0,0.2,1); }
+    .score-bar { transition: width 0.9s cubic-bezier(0.4,0,0.2,1); }
 
-    /* Input */
+    /* Inputs */
     textarea, input[type="text"], input[type="url"] {
       background-color: var(--bg-secondary);
       color: var(--text-primary);
@@ -114,6 +128,7 @@
       font-size: 14px;
       outline: none;
       transition: border-color 0.2s ease;
+      resize: vertical;
     }
     textarea:focus, input[type="text"]:focus, input[type="url"]:focus {
       border-color: #3182F6;
@@ -126,33 +141,46 @@
       color: var(--text-primary);
       border: 2px solid transparent;
       border-radius: 12px;
-      padding: 12px 16px 12px 44px;
+      padding: 11px 16px 11px 42px;
       width: 100%;
-      font-size: 15px;
+      font-size: 14px;
       outline: none;
       transition: border-color 0.2s ease;
     }
     #companySearch:focus { border-color: #3182F6; }
     #companySearch::placeholder { color: var(--text-tertiary); }
 
-    /* Snippet cards */
-    .snippet-card {
-      background-color: var(--bg-secondary);
-      border-radius: 10px;
-      padding: 14px 16px;
-      margin-bottom: 8px;
+    /* Modal */
+    #modalOverlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
     }
-    .snippet-source {
-      display: inline-block;
-      font-size: 11px;
-      font-weight: 500;
-      padding: 2px 8px;
-      border-radius: 6px;
-      background-color: #EBF3FE;
-      color: #3182F6;
-      margin-bottom: 6px;
+    #modalOverlay.open { display: flex; }
+    #modalBox {
+      background: var(--bg);
+      border-radius: 20px;
+      width: 100%;
+      max-width: 560px;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 28px;
+      animation: modalIn 0.2s cubic-bezier(0.4,0,0.2,1);
     }
-    html.dark .snippet-source { background-color: rgba(49,130,246,0.15); }
+    @keyframes modalIn {
+      from { opacity: 0; transform: scale(0.96) translateY(8px); }
+      to   { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    /* Keyword chips */
+    .kw-match  { background: rgba(0,196,113,0.12); color: #00C471; }
+    .kw-miss   { background: rgba(255,69,69,0.1);  color: #FF4545; }
+    .kw-neutral{ background: var(--bg-secondary);  color: var(--text-secondary); }
 
     nav { background-color: color-mix(in srgb, var(--bg) 80%, transparent); }
 
@@ -162,11 +190,13 @@
     .grade-b { color: #FF9500; }
     .grade-c { color: #FF6B00; }
     .grade-d { color: #FF4545; }
-    .bar-s { background-color: #3182F6; }
-    .bar-a { background-color: #00C471; }
-    .bar-b { background-color: #FF9500; }
-    .bar-c { background-color: #FF6B00; }
-    .bar-d { background-color: #FF4545; }
+
+    /* Scrollbar thin */
+    .scroll-thin { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+
+    /* Line clamp */
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   </style>
 </head>
 <body>
@@ -195,224 +225,144 @@
     </div>
   </nav>
 
-  <!-- Main wizard area -->
-  <main class="pt-24 pb-20 px-6 min-h-screen">
-    <div class="max-w-[720px] mx-auto">
+  <!-- Main -->
+  <main class="pt-24 pb-20 px-4 sm:px-6 min-h-screen">
+    <div class="max-w-[860px] mx-auto">
 
-      <!-- Progress bar -->
-      <div class="mb-10">
-        <div class="flex items-center justify-between mb-3">
-          <div id="stepLabel" class="text-sm font-medium t-secondary">Step 1 / 4</div>
-          <div id="stepTitle" class="text-sm t-tertiary">기업 선택</div>
-        </div>
-        <div class="h-1.5 rounded-full" style="background-color:var(--bg-tertiary);">
-          <div id="progressBar" class="h-1.5 rounded-full transition-all duration-500" style="background-color:#3182F6; width:25%;"></div>
-        </div>
-        <!-- Step indicators -->
-        <div class="flex justify-between mt-4">
-          <div class="flex flex-col items-center gap-1" id="indicator-1">
-            <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-250" style="background-color:#3182F6; color:white;">1</div>
-            <span class="text-xs t-secondary hidden sm:block">기업 선택</span>
-          </div>
-          <div class="flex flex-col items-center gap-1" id="indicator-2">
-            <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-250" style="background-color:var(--bg-tertiary); color:var(--text-tertiary);">2</div>
-            <span class="text-xs t-tertiary hidden sm:block">JD 입력</span>
-          </div>
-          <div class="flex flex-col items-center gap-1" id="indicator-3">
-            <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-250" style="background-color:var(--bg-tertiary); color:var(--text-tertiary);">3</div>
-            <span class="text-xs t-tertiary hidden sm:block">이력서</span>
-          </div>
-          <div class="flex flex-col items-center gap-1" id="indicator-4">
-            <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-250" style="background-color:var(--bg-tertiary); color:var(--text-tertiary);">4</div>
-            <span class="text-xs t-tertiary hidden sm:block">결과</span>
-          </div>
-        </div>
+      <!-- Header -->
+      <div class="mb-7">
+        <h2 class="font-bold t-primary mb-1.5" style="font-size:22px; line-height:1.4;">어느 기업을 분석할까요?</h2>
+        <p class="t-secondary text-sm">80개 기업 데이터가 준비되어 있어요. 기업 카드를 클릭하면 바로 상세 분석을 볼 수 있어요.</p>
       </div>
 
-      <!-- ===== Step 1: 기업 선택 ===== -->
-      <div id="step-1" class="step-panel active">
-        <div class="mb-6">
-          <h2 class="font-bold t-primary mb-2" style="font-size:22px; line-height:1.5;">어느 기업을 분석할까요?</h2>
-          <p class="t-secondary text-sm">80개 기업 데이터가 준비되어 있어요. 하나를 선택해주세요.</p>
-        </div>
-
-        <!-- Search -->
-        <div class="relative mb-5">
-          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 t-tertiary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/></svg>
-          <input id="companySearch" type="text" placeholder="기업명으로 검색해요..." autocomplete="off" />
-        </div>
-
-        <!-- Company grid -->
-        <div id="companyGrid" class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 max-h-[420px] overflow-y-auto pr-1" style="scrollbar-width: thin; scrollbar-color: var(--border) transparent;">
-          <!-- JS로 렌더링 -->
-        </div>
-        <div id="noResults" class="hidden text-center py-10 t-tertiary text-sm">검색 결과가 없어요</div>
-
-        <div class="mt-6 flex justify-end">
-          <button id="step1Next" disabled onclick="goToStep(2)"
-            class="btn-click inline-flex items-center gap-2 font-medium text-white transition-colors"
-            style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px; opacity:0.4; cursor:not-allowed;">
-            다음
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-          </button>
-        </div>
+      <!-- Search -->
+      <div class="relative mb-4">
+        <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 t-tertiary pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/></svg>
+        <input id="companySearch" type="text" placeholder="기업명으로 검색..." autocomplete="off" />
       </div>
 
-      <!-- ===== Step 2: JD 입력 ===== -->
-      <div id="step-2" class="step-panel">
-        <div class="mb-6">
-          <h2 class="font-bold t-primary mb-2" style="font-size:22px; line-height:1.5;">채용 공고를 알려주세요</h2>
-          <p class="t-secondary text-sm">URL이나 텍스트로 입력할 수 있어요. 건너뛰어도 돼요.</p>
-        </div>
-
-        <!-- JD Tab toggle -->
-        <div class="flex gap-0 mb-4" style="border-bottom:1px solid var(--border);">
-          <button id="jdTabUrl" onclick="switchJdTab('url')"
-            class="tab-btn active text-sm font-medium px-4 py-2.5 t-secondary"
-            style="margin-bottom:-1px;">URL</button>
-          <button id="jdTabText" onclick="switchJdTab('text')"
-            class="tab-btn text-sm font-medium px-4 py-2.5 t-secondary"
-            style="margin-bottom:-1px;">텍스트 직접 입력</button>
-        </div>
-
-        <div id="jdPanelUrl">
-          <input type="url" id="jdUrl" placeholder="https://careers.kakao.com/jobs/123" />
-          <p class="mt-2 text-xs t-tertiary">채용 공고 URL을 붙여넣으면 자동으로 분석에 반영해요</p>
-        </div>
-        <div id="jdPanelText" style="display:none;">
-          <textarea id="jdText" rows="8" placeholder="채용 공고 텍스트를 여기에 붙여넣으세요...&#10;&#10;예시:&#10;[카카오] 백엔드 개발자 채용&#10;- Java / Kotlin 기반 서버 개발&#10;- MSA 설계 및 운영 경험 우대&#10;..."></textarea>
-        </div>
-
-        <div class="mt-6 flex justify-between">
-          <button onclick="goToStep(1)" class="btn-click inline-flex items-center gap-2 text-sm font-medium t-secondary transition-colors" style="height:48px; padding:0 20px; background-color:var(--bg-secondary); border-radius:12px;">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18"/></svg>
-            이전
-          </button>
-          <div class="flex gap-2">
-            <button onclick="goToStep(3)" class="btn-click text-sm font-medium t-tertiary transition-colors" style="height:48px; padding:0 20px; background-color:var(--bg-secondary); border-radius:12px;">
-              건너뛰기
-            </button>
-            <button onclick="goToStep(3)" class="btn-click inline-flex items-center gap-2 text-sm font-medium text-white transition-colors" style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px;">
-              다음
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-            </button>
-          </div>
-        </div>
+      <!-- Company grid -->
+      <div id="companyGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 scroll-thin mb-6" style="max-height:320px; overflow-y:auto; padding-right:4px;">
+        <!-- JS 렌더링 -->
       </div>
+      <div id="noResults" class="hidden text-center py-8 t-tertiary text-sm">검색 결과가 없어요</div>
 
-      <!-- ===== Step 3: 이력서 ===== -->
-      <div id="step-3" class="step-panel">
-        <div class="mb-6">
-          <h2 class="font-bold t-primary mb-2" style="font-size:22px; line-height:1.5;">이력서를 붙여넣어 주세요</h2>
-          <p class="t-secondary text-sm">이력서를 입력하면 JD와의 매칭 분석을 볼 수 있어요. 건너뛰어도 돼요.</p>
-        </div>
+      <!-- Detail Panel -->
+      <div id="detailPanel">
 
-        <textarea id="resumeText" rows="10" placeholder="이력서 내용을 여기에 붙여넣으세요...&#10;&#10;예시:&#10;이름: 홍길동&#10;경력: 3년&#10;&#10;[경력]&#10;- 카카오페이 백엔드 개발 (2022~2024)&#10;  Java/Spring 기반 결제 API 개발&#10;  일 100만 건 트랜잭션 처리&#10;&#10;[기술 스택]&#10;- Java, Kotlin, Spring Boot&#10;- MySQL, Redis, Kafka&#10;..."></textarea>
-
-        <div class="mt-6 flex justify-between">
-          <button onclick="goToStep(2)" class="btn-click inline-flex items-center gap-2 text-sm font-medium t-secondary transition-colors" style="height:48px; padding:0 20px; background-color:var(--bg-secondary); border-radius:12px;">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18"/></svg>
-            이전
-          </button>
-          <div class="flex gap-2">
-            <button onclick="runDemo()" class="btn-click text-sm font-medium t-tertiary transition-colors" style="height:48px; padding:0 20px; background-color:var(--bg-secondary); border-radius:12px;">
-              건너뛰기
-            </button>
-            <button onclick="runDemo()" class="btn-click inline-flex items-center gap-2 text-sm font-medium text-white transition-colors" style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px;">
-              분석 시작
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- ===== Step 4: 결과 ===== -->
-      <div id="step-4" class="step-panel">
-        <!-- Loading state -->
-        <div id="loadingState" class="text-center py-20">
-          <div class="inline-flex items-center gap-3 text-sm t-secondary">
-            <svg class="w-5 h-5 animate-spin" style="color:#3182F6;" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
-            데이터를 불러오고 있어요...
-          </div>
-        </div>
-
-        <!-- Result content -->
-        <div id="resultContent" style="display:none;">
-          <!-- Company header -->
-          <div class="flex items-center justify-between mb-6">
-            <div>
-              <div class="flex items-center gap-3">
-                <h2 id="resultCompanyName" class="font-bold t-primary" style="font-size:22px;"></h2>
-                <span id="resultGradeBadge" class="font-mono text-sm font-semibold px-3 py-1 rounded-lg"></span>
+        <!-- Panel Header -->
+        <div class="px-6 pt-5 pb-4" style="border-bottom:1px solid var(--border);">
+          <div class="flex items-start justify-between gap-4">
+            <div class="min-w-0">
+              <div class="flex flex-wrap items-center gap-2 mb-1">
+                <h3 id="dpCompanyName" class="font-bold t-primary text-xl leading-tight"></h3>
+                <span id="dpCompanyNameEng" class="text-sm t-tertiary"></span>
+                <span id="dpGradeBadge" class="font-mono text-xs font-bold px-2.5 py-0.5 rounded-lg flex-shrink-0"></span>
               </div>
-              <p id="resultSourceCount" class="text-sm t-tertiary mt-1"></p>
+              <div id="dpMeta" class="text-sm t-tertiary"></div>
             </div>
-            <button onclick="resetDemo()" class="btn-click text-sm t-secondary transition-colors" style="height:36px; padding:0 16px; background-color:var(--bg-secondary); border-radius:10px;">
-              다시 시작
-            </button>
-          </div>
-
-          <!-- Tabs -->
-          <div class="flex gap-0 mb-6" style="border-bottom:1px solid var(--border);">
-            <button class="tab-btn active text-sm font-medium px-4 py-2.5 t-secondary" style="margin-bottom:-1px;" onclick="switchTab('scorecard')">스코어카드</button>
-            <button class="tab-btn text-sm font-medium px-4 py-2.5 t-secondary" style="margin-bottom:-1px;" onclick="switchTab('report')">리포트</button>
-            <button id="tabMatchBtn" class="tab-btn text-sm font-medium px-4 py-2.5 t-secondary" style="margin-bottom:-1px; display:none;" onclick="switchTab('match')">매칭 분석</button>
-            <button class="tab-btn text-sm font-medium px-4 py-2.5 t-secondary" style="margin-bottom:-1px;" onclick="switchTab('interview')">면접 질문</button>
-          </div>
-
-          <!-- Tab: Scorecard -->
-          <div id="tab-scorecard" class="tab-panel active">
-            <div class="surface rounded-2xl p-6 mb-4" style="border:1px solid var(--border);">
-              <!-- Overall score -->
-              <div class="flex items-center gap-6 mb-6 pb-6" style="border-bottom:1px solid var(--border);">
-                <div class="relative flex-shrink-0">
-                  <svg width="80" height="80" viewBox="0 0 80 80">
-                    <circle cx="40" cy="40" r="34" fill="none" stroke="var(--bg-secondary)" stroke-width="7"/>
-                    <circle id="scoreRing" cx="40" cy="40" r="34" fill="none" stroke="#3182F6" stroke-width="7"
-                      stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="213.6"
-                      transform="rotate(-90 40 40)" style="transition:stroke-dashoffset 1.2s cubic-bezier(0.4,0,0.2,1);"/>
-                  </svg>
-                  <div class="absolute inset-0 flex items-center justify-center">
-                    <span id="scoreNumber" class="font-bold" style="font-size:20px; color:#3182F6;">0</span>
-                  </div>
-                </div>
-                <div>
-                  <div class="text-sm t-tertiary mb-1">종합 점수</div>
-                  <div class="flex items-center gap-2">
-                    <span id="scoreTotalText" class="font-bold t-primary" style="font-size:24px;"></span>
-                    <span id="scoreGradeText" class="font-mono font-semibold text-sm px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;"></span>
-                  </div>
-                  <p class="text-sm t-secondary mt-1">100점 만점</p>
-                </div>
-              </div>
-
-              <!-- Dimension bars -->
-              <div id="dimensionBars" class="space-y-4"></div>
+            <div class="flex-shrink-0 text-right">
+              <div id="dpScoreNum" class="text-3xl font-bold" style="color:#3182F6; line-height:1;"></div>
+              <div class="text-xs t-tertiary mt-0.5">/ 100</div>
             </div>
-
-            <!-- Summary -->
-            <div id="scoreSummary" class="rounded-2xl p-5 text-sm t-secondary leading-relaxed" style="background-color:var(--bg-secondary); border-radius:16px;"></div>
-          </div>
-
-          <!-- Tab: Report -->
-          <div id="tab-report" class="tab-panel">
-            <div id="reportContent" class="space-y-4"></div>
-          </div>
-
-          <!-- Tab: Match -->
-          <div id="tab-match" class="tab-panel">
-            <div id="matchContent"></div>
-          </div>
-
-          <!-- Tab: Interview -->
-          <div id="tab-interview" class="tab-panel">
-            <div id="interviewContent"></div>
           </div>
         </div>
-      </div>
+
+        <!-- Tabs -->
+        <div class="flex gap-0 px-2 scroll-thin" style="border-bottom:1px solid var(--border); overflow-x:auto;">
+          <button class="tab-btn active" onclick="switchDetailTab('scorecard', this)">스코어카드</button>
+          <button class="tab-btn" onclick="switchDetailTab('overview', this)">기업 개요</button>
+          <button class="tab-btn" onclick="switchDetailTab('financials', this)">재무</button>
+          <button class="tab-btn" onclick="switchDetailTab('news', this)">뉴스</button>
+          <button class="tab-btn" onclick="switchDetailTab('culture', this)">문화</button>
+          <button id="tabJdMatchBtn" class="tab-btn" onclick="switchDetailTab('jdmatch', this)" style="display:none;">JD 매칭</button>
+          <button id="tabResumeBtn" class="tab-btn" onclick="switchDetailTab('resumematch', this)" style="display:none;">이력서 분석</button>
+        </div>
+
+        <!-- Tab contents -->
+        <div class="p-5">
+          <!-- Scorecard -->
+          <div id="dp-scorecard" class="tab-panel active">
+            <div id="dpScorecardContent"></div>
+          </div>
+          <!-- Overview -->
+          <div id="dp-overview" class="tab-panel">
+            <div id="dpOverviewContent"></div>
+          </div>
+          <!-- Financials -->
+          <div id="dp-financials" class="tab-panel">
+            <div id="dpFinancialsContent"></div>
+          </div>
+          <!-- News -->
+          <div id="dp-news" class="tab-panel">
+            <div id="dpNewsContent"></div>
+          </div>
+          <!-- Culture -->
+          <div id="dp-culture" class="tab-panel">
+            <div id="dpCultureContent"></div>
+          </div>
+          <!-- JD Match -->
+          <div id="dp-jdmatch" class="tab-panel">
+            <div id="dpJdMatchContent"></div>
+          </div>
+          <!-- Resume Match -->
+          <div id="dp-resumematch" class="tab-panel">
+            <div id="dpResumeContent"></div>
+          </div>
+        </div>
+
+        <!-- Panel Footer actions -->
+        <div class="px-5 pb-5 flex flex-wrap gap-2">
+          <button onclick="openModal('jd')" class="btn-click inline-flex items-center gap-2 text-sm font-medium text-white transition-colors" style="height:40px; padding:0 18px; background-color:#3182F6; border-radius:10px;">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            JD 매칭하기
+          </button>
+          <button onclick="openModal('resume')" class="btn-click inline-flex items-center gap-2 text-sm font-medium t-secondary transition-colors" style="height:40px; padding:0 18px; background-color:var(--bg-secondary); border-radius:10px;">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+            이력서 분석하기
+          </button>
+        </div>
+
+      </div><!-- /detailPanel -->
 
     </div>
   </main>
+
+  <!-- Modal -->
+  <div id="modalOverlay" onclick="closeModalIfOutside(event)">
+    <div id="modalBox">
+      <!-- JD Modal -->
+      <div id="modalJd">
+        <div class="flex items-center justify-between mb-5">
+          <h3 class="font-bold t-primary" style="font-size:18px;">JD 매칭 분석</h3>
+          <button onclick="closeModal()" class="w-8 h-8 rounded-lg flex items-center justify-center t-tertiary hover:t-secondary transition-colors" style="background-color:var(--bg-secondary);">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <p class="text-sm t-secondary mb-3">채용 공고 텍스트를 붙여넣으세요. 기업 기술 스택과 키워드를 자동으로 매칭해요.</p>
+        <textarea id="jdText" rows="9" placeholder="채용 공고 전문을 붙여넣으세요...&#10;&#10;예시:&#10;[카카오] 백엔드 개발자 채용&#10;&#10;자격요건&#10;- Java / Kotlin 기반 서버 개발 3년 이상&#10;- MSA 설계 및 운영 경험&#10;&#10;우대사항&#10;- Kafka, Redis 운영 경험&#10;- AI 서비스 개발 경험"></textarea>
+        <div class="flex justify-end gap-2 mt-4">
+          <button onclick="closeModal()" class="btn-click text-sm font-medium t-secondary" style="height:40px; padding:0 18px; background-color:var(--bg-secondary); border-radius:10px;">취소</button>
+          <button onclick="runJdMatch()" class="btn-click text-sm font-medium text-white" style="height:40px; padding:0 20px; background-color:#3182F6; border-radius:10px;">분석하기</button>
+        </div>
+      </div>
+      <!-- Resume Modal -->
+      <div id="modalResume" style="display:none;">
+        <div class="flex items-center justify-between mb-5">
+          <h3 class="font-bold t-primary" style="font-size:18px;">이력서 분석</h3>
+          <button onclick="closeModal()" class="w-8 h-8 rounded-lg flex items-center justify-center t-tertiary hover:t-secondary transition-colors" style="background-color:var(--bg-secondary);">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <p class="text-sm t-secondary mb-3">이력서 텍스트를 붙여넣으면 JD 키워드와 자동으로 비교해요.</p>
+        <textarea id="resumeText" rows="11" placeholder="이력서 내용을 붙여넣으세요...&#10;&#10;예시:&#10;이름: 홍길동 | 경력: 4년&#10;&#10;[기술 스택]&#10;Java, Kotlin, Spring Boot, MySQL, Redis, Kafka, Docker&#10;&#10;[경력]&#10;- 카카오페이 백엔드 개발 (2021~2025)&#10;  결제 API 개발, 일 100만 건 트랜잭션 처리&#10;&#10;[학력]&#10;- 서울대학교 컴퓨터공학과 졸업"></textarea>
+        <div class="flex justify-end gap-2 mt-4">
+          <button onclick="closeModal()" class="btn-click text-sm font-medium t-secondary" style="height:40px; padding:0 18px; background-color:var(--bg-secondary); border-radius:10px;">취소</button>
+          <button onclick="runResumeMatch()" class="btn-click text-sm font-medium text-white" style="height:40px; padding:0 20px; background-color:#3182F6; border-radius:10px;">분석하기</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="py-10 px-6" style="border-top:1px solid var(--border);">
@@ -459,19 +409,10 @@ themeToggle.addEventListener('click', () => {
 let allCompanies = [];
 let selectedCompany = null;
 let companyData = null;
-let currentStep = 1;
+let jdKeywords = [];
+let resumeKeywords = [];
 
-// ==================== Slug mapping ====================
-function nameToSlug(name) {
-  return name
-    .toLowerCase()
-    .replace(/\s+/g, '_')
-    .replace(/[^\w가-힣]/g, '_')
-    .replace(/__+/g, '_')
-    .replace(/^_|_$/g, '');
-}
-
-// Known slug overrides from filenames
+// ==================== Slug / fetch ====================
 const slugOverride = {
   'CJ ENM': 'cj_enm',
   'LG CNS': 'lg_cns',
@@ -482,6 +423,18 @@ function getSlug(name) {
   return name.toLowerCase().replace(/\s+/g, '_');
 }
 
+async function fetchCompanyData(name) {
+  const slug = getSlug(name);
+  // Try slug directly, then URL-encoded
+  for (const path of [`demo/data/companies/${slug}.json`, `demo/data/companies/${encodeURIComponent(name.toLowerCase())}.json`]) {
+    try {
+      const res = await fetch(path);
+      if (res.ok) return await res.json();
+    } catch (_) {}
+  }
+  return null;
+}
+
 // ==================== Load companies ====================
 async function loadCompanies() {
   try {
@@ -490,7 +443,7 @@ async function loadCompanies() {
     renderCompanyGrid(allCompanies);
   } catch (e) {
     document.getElementById('companyGrid').innerHTML =
-      '<div class="col-span-3 text-center py-8 text-sm t-tertiary">기업 데이터를 불러올 수 없어요</div>';
+      '<div class="col-span-4 text-center py-8 text-sm t-tertiary">기업 데이터를 불러올 수 없어요</div>';
   }
 }
 
@@ -503,32 +456,21 @@ function renderCompanyGrid(companies) {
     return;
   }
   noResults.classList.add('hidden');
-  grid.innerHTML = companies.map(c => `
-    <div class="company-card${selectedCompany === c.name ? ' selected' : ''}"
-         onclick="selectCompany('${c.name.replace(/'/g, "\\'")}', this)">
-      <div class="font-medium t-primary text-sm leading-tight">${c.name}</div>
-      <div class="flex items-center gap-2 mt-1">
-        <span class="text-xs font-mono font-bold" style="color:var(--color-primary);">${c.grade || '—'}</span>
-        <span class="text-xs t-tertiary">${Math.round(c.score || 0)}점</span>
-        <span class="text-xs t-tertiary">${c.sources || 0}개 소스</span>
+  grid.innerHTML = companies.map(c => {
+    const gradeColor = getGradeColor(c.grade);
+    const isSelected = selectedCompany === c.name;
+    return `
+      <div class="company-card${isSelected ? ' selected' : ''}"
+           data-name="${escHtml(c.name)}"
+           onclick="selectCompany('${c.name.replace(/'/g, "\\'")}', this)">
+        <div class="font-medium t-primary text-sm leading-tight mb-1 truncate">${escHtml(c.name)}</div>
+        <div class="flex items-center gap-1.5">
+          <span class="font-mono text-xs font-bold" style="color:${gradeColor};">${c.grade || '—'}</span>
+          <span class="text-xs t-tertiary">${Math.round(c.score || 0)}점</span>
+        </div>
       </div>
-    </div>
-  `).join('');
-}
-
-function sectionLabel(s) {
-  const map = { financials: '재무', strategy: '전략', culture: '문화', tech: '기술', overview: '개요' };
-  return map[s] || s;
-}
-
-function selectCompany(name, el) {
-  selectedCompany = name;
-  document.querySelectorAll('.company-card').forEach(c => c.classList.remove('selected'));
-  el.classList.add('selected');
-  const btn = document.getElementById('step1Next');
-  btn.disabled = false;
-  btn.style.opacity = '1';
-  btn.style.cursor = 'pointer';
+    `;
+  }).join('');
 }
 
 // Search
@@ -538,176 +480,705 @@ document.getElementById('companySearch').addEventListener('input', function() {
   renderCompanyGrid(allCompanies.filter(c => c.name.toLowerCase().includes(q)));
 });
 
-// ==================== Navigation ====================
-function goToStep(n) {
-  if (n === 1 && currentStep > 1) {
-    // Reset selection if going back to step 1
-  }
-  showStep(n);
-}
+// ==================== Select company ====================
+async function selectCompany(name, el) {
+  selectedCompany = name;
+  document.querySelectorAll('.company-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
 
-function showStep(n) {
-  document.querySelectorAll('.step-panel').forEach(p => p.classList.remove('active'));
-  document.getElementById('step-' + n).classList.add('active');
-  currentStep = n;
+  // Show panel with loading state
+  const panel = document.getElementById('detailPanel');
+  panel.style.display = 'block';
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
-  const titles = ['기업 선택', 'JD 입력', '이력서', '결과'];
-  document.getElementById('stepLabel').textContent = `Step ${n} / 4`;
-  document.getElementById('stepTitle').textContent = titles[n - 1];
-  document.getElementById('progressBar').style.width = (n * 25) + '%';
+  document.getElementById('dpCompanyName').textContent = name;
+  document.getElementById('dpCompanyNameEng').textContent = '';
+  document.getElementById('dpGradeBadge').textContent = '...';
+  document.getElementById('dpScoreNum').textContent = '–';
+  document.getElementById('dpMeta').textContent = '데이터 불러오는 중...';
+  document.getElementById('dpScorecardContent').innerHTML = loadingHtml();
 
-  // Update step indicators
-  for (let i = 1; i <= 4; i++) {
-    const el = document.getElementById('indicator-' + i).querySelector('div');
-    if (i < n) {
-      el.style.backgroundColor = '#00C471';
-      el.style.color = 'white';
-      el.innerHTML = '<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>';
-    } else if (i === n) {
-      el.style.backgroundColor = '#3182F6';
-      el.style.color = 'white';
-      el.textContent = i;
-    } else {
-      el.style.backgroundColor = 'var(--bg-tertiary)';
-      el.style.color = 'var(--text-tertiary)';
-      el.textContent = i;
-    }
-  }
+  // Reset extra tabs
+  document.getElementById('tabJdMatchBtn').style.display = 'none';
+  document.getElementById('tabResumeBtn').style.display = 'none';
+  // Reset to scorecard tab
+  switchDetailTab('scorecard', document.querySelector('.tab-btn'));
 
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-// ==================== JD Tab ====================
-function switchJdTab(tab) {
-  document.getElementById('jdPanelUrl').style.display = tab === 'url' ? 'block' : 'none';
-  document.getElementById('jdPanelText').style.display = tab === 'text' ? 'block' : 'none';
-  document.getElementById('jdTabUrl').classList.toggle('active', tab === 'url');
-  document.getElementById('jdTabText').classList.toggle('active', tab === 'text');
-}
-
-// ==================== Tab switching (result) ====================
-function switchTab(name) {
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-  document.getElementById('tab-' + name).classList.add('active');
-  // find and activate the clicked button
-  event.currentTarget.classList.add('active');
-}
-
-// ==================== Run demo ====================
-async function runDemo() {
-  showStep(4);
-  document.getElementById('loadingState').style.display = 'block';
-  document.getElementById('resultContent').style.display = 'none';
-
-  const slug = getSlug(selectedCompany);
-  let data = null;
-  try {
-    const res = await fetch(`demo/data/companies/${slug}.json`);
-    if (!res.ok) throw new Error('not found');
-    data = await res.json();
-  } catch (e) {
-    // Fallback: try URL-encoded
-    try {
-      const encoded = encodeURIComponent(selectedCompany.toLowerCase());
-      const res2 = await fetch(`demo/data/companies/${encoded}.json`);
-      if (!res2.ok) throw new Error('not found');
-      data = await res2.json();
-    } catch (e2) {
-      data = null;
-    }
-  }
-
+  const data = await fetchCompanyData(name);
   companyData = data;
 
-  // Simulate loading
-  await new Promise(r => setTimeout(r, 800));
-
-  document.getElementById('loadingState').style.display = 'none';
-  document.getElementById('resultContent').style.display = 'block';
-
-  renderResult(data);
+  renderDetailPanel(data, name);
 }
 
-// ==================== Score calculation ====================
-function computeScore(data) {
-  if (!data) return { total: 72, dims: defaultDims() };
+function loadingHtml() {
+  return `<div class="flex items-center gap-2 text-sm t-tertiary py-8">
+    <svg class="w-4 h-4 animate-spin" style="color:#3182F6;" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
+    데이터를 불러오고 있어요...
+  </div>`;
+}
 
-  const dims = {
-    '재무 건전성': 0,
-    '성장 모멘텀': 0,
-    '기술 역량': 0,
-    '조직 문화': 0,
-    '시장 지위': 0,
-    '미래 전망': 0,
-  };
+// ==================== Render detail panel ====================
+function renderDetailPanel(data, name) {
+  const s1 = data?.sections?.['1'] || {};
+  const s4 = data?.sections?.['4'] || {};
+  const s7 = data?.sections?.['7'] || {};
+  const sc = data?.scorecard || {};
 
-  // Financials
-  if (data.data && data.data.financials && data.data.financials.length > 0) {
-    const fin = data.data.financials;
-    const revenue = fin.find(f => f.account && f.account.includes('매출'));
-    const profit = fin.find(f => f.account && f.account.includes('영업이익'));
-    const equity = fin.find(f => f.account && f.account.includes('자본총계'));
-    const debt = fin.find(f => f.account && f.account.includes('부채총계'));
+  const companyName = s1.company_name || name;
+  const companyNameEng = s1.company_name_eng || '';
+  const grade = sc.grade || data?.grade || '—';
+  const total = sc.total ? Math.round(sc.total) : 0;
 
-    let finScore = 55;
-    if (revenue && profit) {
-      const r = parseInt(String(revenue.current_amount).replace(/,/g,'')) || 0;
-      const p = parseInt(String(profit.current_amount).replace(/,/g,'')) || 0;
-      if (r > 0) {
-        const margin = p / r;
-        if (margin > 0.15) finScore = 88;
-        else if (margin > 0.08) finScore = 78;
-        else if (margin > 0.03) finScore = 65;
-        else if (margin > 0) finScore = 52;
-        else finScore = 40;
-      }
-    }
-    if (equity && debt) {
-      const e = parseInt(String(equity.current_amount).replace(/,/g,'')) || 1;
-      const d = parseInt(String(debt.current_amount).replace(/,/g,'')) || 0;
-      const ratio = d / e;
-      if (ratio < 0.5) finScore = Math.min(100, finScore + 8);
-      else if (ratio > 2) finScore = Math.max(30, finScore - 8);
-    }
-    dims['재무 건전성'] = Math.min(100, Math.max(30, finScore));
-  } else {
-    dims['재무 건전성'] = 62;
+  // Header
+  document.getElementById('dpCompanyName').textContent = companyName;
+  document.getElementById('dpCompanyNameEng').textContent = companyNameEng;
+  document.getElementById('dpMeta').textContent = buildMeta(s1, data);
+  document.getElementById('dpScoreNum').textContent = total || '—';
+  document.getElementById('dpScoreNum').style.color = getGradeColor(grade);
+
+  const badgeEl = document.getElementById('dpGradeBadge');
+  badgeEl.textContent = 'Grade ' + grade;
+  badgeEl.style.backgroundColor = getGradeBg(grade);
+  badgeEl.style.color = getGradeColor(grade);
+
+  // Render tabs
+  renderScorecard(sc, name);
+  renderOverview(s1);
+  renderFinancials(s1);
+  renderNews(s1);
+  renderCulture(s4, name);
+}
+
+function buildMeta(s1, data) {
+  const parts = [];
+  if (s1.industry) parts.push(s1.industry);
+  if (s1.established) {
+    const y = String(s1.established).slice(0, 4);
+    if (y) parts.push(`설립 ${y}년`);
+  }
+  if (s1.employee_count) parts.push(`임직원 ${s1.employee_count}명`);
+  else if (s1.employees?.length) {
+    const total = s1.employees.reduce((sum, e) => {
+      return sum + (parseInt(String(e.total || e.headcount || 0).replace(/,/g, '')) || 0);
+    }, 0);
+    if (total > 0) parts.push(`임직원 ${total.toLocaleString()}명`);
+  }
+  if (data?.sources?.length) parts.push(`${data.sources.length}개 소스`);
+  return parts.join(' · ');
+}
+
+// ==================== Scorecard tab ====================
+function renderScorecard(sc, name) {
+  const el = document.getElementById('dpScorecardContent');
+  if (!sc || !sc.total) {
+    el.innerHTML = emptyState('스코어카드 데이터가 없어요.');
+    return;
   }
 
-  // Sources count influences other dims
-  const srcCount = (data.sources_used || []).length;
-  const baseFromSrc = Math.min(85, 50 + srcCount * 3);
-  const sections = data.sections || [];
+  const total = Math.round(sc.total);
+  const grade = sc.grade || getGrade(total);
+  const color = getGradeColor(grade);
+  const dims = sc.dimensions || [];
 
-  dims['성장 모멘텀'] = hashScore(selectedCompany, 'growth', 55, 85);
-  dims['기술 역량'] = sections.includes('tech') ? hashScore(selectedCompany, 'tech', 60, 90) : hashScore(selectedCompany, 'tech', 50, 75);
-  dims['조직 문화'] = sections.includes('culture') ? hashScore(selectedCompany, 'culture', 55, 82) : hashScore(selectedCompany, 'culture', 45, 70);
-  dims['시장 지위'] = hashScore(selectedCompany, 'market', 58, 88);
-  dims['미래 전망'] = hashScore(selectedCompany, 'future', 55, 82);
-
-  const values = Object.values(dims);
-  const total = Math.round(values.reduce((a, b) => a + b, 0) / values.length);
-
-  return { total, dims };
-}
-
-function hashScore(name, seed, min, max) {
-  let h = 0;
-  for (let i = 0; i < name.length + seed.length; i++) {
-    const c = (name + seed).charCodeAt(i % (name.length + seed.length));
-    h = ((h << 5) - h + c) >>> 0;
-  }
-  return min + (h % (max - min + 1));
-}
-
-function defaultDims() {
-  return {
-    '재무 건전성': 72, '성장 모멘텀': 68, '기술 역량': 75,
-    '조직 문화': 65, '시장 지위': 70, '미래 전망': 66,
+  // Map dimension names to Korean
+  const dimLabel = {
+    job_fit: 'Job Fit',
+    career_leverage: '커리어 레버리지',
+    growth: '성장 잠재력',
+    compensation: '보상 · 복지',
+    culture_fit: '문화 적합성',
   };
+
+  // Convert 5-point score to 100-point
+  const dimHtml = dims.map(d => {
+    const score100 = Math.round((d.score / 5) * 100);
+    const dGrade = getGrade(score100);
+    const dColor = getGradeColor(dGrade);
+    const label = dimLabel[d.name] || d.label || d.name;
+    return `
+      <div>
+        <div class="flex items-center justify-between mb-1.5">
+          <span class="text-sm t-secondary">${label}</span>
+          <div class="flex items-center gap-1.5">
+            <span class="text-sm font-medium t-primary">${score100}</span>
+            <span class="font-mono text-xs font-semibold px-1.5 py-0.5 rounded" style="background-color:${getGradeBg(dGrade)}; color:${dColor};">${dGrade}</span>
+          </div>
+        </div>
+        <div class="h-2 rounded-full overflow-hidden" style="background-color:var(--bg-secondary);">
+          <div class="h-2 rounded-full score-bar" style="width:0%; background-color:${dColor};" data-target="${score100}"></div>
+        </div>
+        ${d.evidence ? `<p class="text-xs t-tertiary mt-1">${escHtml(d.evidence)}</p>` : ''}
+      </div>
+    `;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="flex items-center gap-5 p-5 rounded-2xl mb-5" style="background-color:var(--bg-secondary);">
+      <div class="relative flex-shrink-0">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle cx="40" cy="40" r="34" fill="none" stroke="var(--bg-tertiary)" stroke-width="7"/>
+          <circle id="scoreRing" cx="40" cy="40" r="34" fill="none" stroke="${color}" stroke-width="7"
+            stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="213.6"
+            transform="rotate(-90 40 40)" style="transition:stroke-dashoffset 1.1s cubic-bezier(0.4,0,0.2,1);"/>
+        </svg>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <span id="scoreAnimNum" class="font-bold" style="font-size:20px; color:${color};">0</span>
+        </div>
+      </div>
+      <div>
+        <div class="text-xs t-tertiary mb-0.5">종합 점수</div>
+        <div class="flex items-center gap-2">
+          <span class="font-bold t-primary" style="font-size:26px; line-height:1;">${total}</span>
+          <span class="text-sm t-tertiary">/ 100</span>
+          <span class="font-mono text-sm font-bold px-2 py-0.5 rounded-lg" style="background-color:${getGradeBg(grade)}; color:${color};">Grade ${grade}</span>
+        </div>
+        <p class="text-sm t-secondary mt-1">${getScorecardSummary(grade, name)}</p>
+      </div>
+    </div>
+    ${dims.length > 0 ? `<div class="space-y-4">${dimHtml}</div>` : ''}
+  `;
+
+  // Animate ring and number
+  setTimeout(() => {
+    const circumference = 213.6;
+    const offset = circumference - (total / 100) * circumference;
+    const ring = document.getElementById('scoreRing');
+    if (ring) ring.style.strokeDashoffset = offset;
+    let cur = 0;
+    const step = Math.max(1, Math.ceil(total / 35));
+    const iv = setInterval(() => {
+      cur = Math.min(cur + step, total);
+      const el = document.getElementById('scoreAnimNum');
+      if (el) el.textContent = cur;
+      if (cur >= total) clearInterval(iv);
+    }, 28);
+  }, 80);
+
+  setTimeout(() => {
+    document.querySelectorAll('#dp-scorecard .score-bar[data-target]').forEach(b => {
+      b.style.width = b.dataset.target + '%';
+    });
+  }, 160);
 }
 
+function getScorecardSummary(grade, name) {
+  if (grade === 'S') return `${name}은(는) 최우선 지원 추천 기업이에요.`;
+  if (grade === 'A') return `${name}은(는) 적극적으로 검토해볼 만해요.`;
+  if (grade === 'B') return `${name}은(는) 긍정적으로 고려해볼 수 있어요.`;
+  return `${name}은(는) 신중하게 검토하세요.`;
+}
+
+// ==================== Overview tab ====================
+function renderOverview(s1) {
+  const el = document.getElementById('dpOverviewContent');
+  const rows = [
+    ['공식 명칭', s1.company_name],
+    ['영문 명칭', s1.company_name_eng],
+    ['대표이사', s1.ceo],
+    ['설립일', s1.established ? formatDate(s1.established) : null],
+    ['주소', s1.address],
+    ['홈페이지', s1.homepage ? `<a href="https://${s1.homepage}" target="_blank" style="color:#3182F6;" class="hover:underline">${s1.homepage}</a>` : null],
+    ['종목코드', s1.stock_code ? `<span class="font-mono">${s1.stock_code}</span>` : null],
+    ['IR', s1.ir_url ? `<a href="${s1.ir_url}" target="_blank" style="color:#3182F6;" class="hover:underline">IR 페이지</a>` : null],
+  ].filter(([, v]) => v);
+
+  if (rows.length === 0) { el.innerHTML = emptyState('개요 데이터가 없어요.'); return; }
+
+  // Employee info
+  let empHtml = '';
+  if (s1.employees?.length) {
+    const total = s1.employees.reduce((sum, e) => sum + (parseInt(String(e.total || e.headcount || 0).replace(/,/g,'')) || 0), 0);
+    const avgTenure = s1.employees[0]?.avg_tenure_year || '';
+    const avgSalary = s1.employees[0]?.total_salary;
+    empHtml = `
+      <div class="mt-4 pt-4" style="border-top:1px solid var(--border);">
+        <h4 class="text-sm font-semibold t-primary mb-3">임직원 현황</h4>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          ${total > 0 ? `<div class="rounded-xl p-3.5 text-center" style="background-color:var(--bg-secondary);">
+            <div class="text-xl font-bold t-primary">${total.toLocaleString()}</div>
+            <div class="text-xs t-tertiary mt-0.5">전체 임직원</div>
+          </div>` : ''}
+          ${avgTenure ? `<div class="rounded-xl p-3.5 text-center" style="background-color:var(--bg-secondary);">
+            <div class="text-xl font-bold t-primary">${avgTenure}</div>
+            <div class="text-xs t-tertiary mt-0.5">평균 근속</div>
+          </div>` : ''}
+          ${avgSalary ? `<div class="rounded-xl p-3.5 text-center" style="background-color:var(--bg-secondary);">
+            <div class="text-xl font-bold t-primary">${formatAmount(avgSalary)}</div>
+            <div class="text-xs t-tertiary mt-0.5">연봉 총액</div>
+          </div>` : ''}
+        </div>
+      </div>
+    `;
+  }
+
+  el.innerHTML = `
+    <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3.5 gap-x-6 text-sm">
+        ${rows.map(([k, v]) => `
+          <div>
+            <div class="text-xs t-tertiary mb-0.5">${k}</div>
+            <div class="t-primary font-medium">${v}</div>
+          </div>
+        `).join('')}
+      </div>
+      ${empHtml}
+    </div>
+  `;
+}
+
+// ==================== Financials tab ====================
+function renderFinancials(s1) {
+  const el = document.getElementById('dpFinancialsContent');
+  const fins = s1.financials;
+  if (!fins || fins.length === 0) { el.innerHTML = emptyState('재무 데이터가 없어요.'); return; }
+
+  // Deduplicate by account name
+  const seen = new Set();
+  const deduped = fins.filter(f => {
+    if (seen.has(f.account)) return false;
+    seen.add(f.account);
+    return true;
+  });
+
+  // Key accounts to highlight
+  const keyAccounts = ['매출액', '영업이익', '당기순이익', '자산총계', '자본총계', '부채총계'];
+  const sorted = [...deduped].sort((a, b) => {
+    const ai = keyAccounts.findIndex(k => a.account?.includes(k));
+    const bi = keyAccounts.findIndex(k => b.account?.includes(k));
+    if (ai === -1 && bi === -1) return 0;
+    if (ai === -1) return 1;
+    if (bi === -1) return -1;
+    return ai - bi;
+  }).slice(0, 8);
+
+  // Calculate YoY change for key items
+  const rows = sorted.map(f => {
+    const cur = parseInt(String(f.current_amount || '0').replace(/,/g, '')) || 0;
+    const prev = parseInt(String(f.previous_amount || '0').replace(/,/g, '')) || 0;
+    let changeHtml = '';
+    if (cur && prev) {
+      const pct = ((cur - prev) / Math.abs(prev) * 100).toFixed(1);
+      const up = cur >= prev;
+      changeHtml = `<span class="text-xs font-medium ml-2" style="color:${up ? '#00C471' : '#FF4545'};">${up ? '▲' : '▼'} ${Math.abs(pct)}%</span>`;
+    }
+    return `
+      <div class="flex items-center justify-between text-sm py-2.5" style="border-bottom:1px solid var(--border);">
+        <span class="t-secondary">${escHtml(f.account || '')}</span>
+        <div class="text-right">
+          <span class="font-semibold t-primary">${formatAmount(f.current_amount)}</span>
+          ${f.previous_amount ? `<span class="text-xs t-tertiary ml-2">(전기 ${formatAmount(f.previous_amount)})</span>` : ''}
+          ${changeHtml}
+        </div>
+      </div>
+    `;
+  });
+
+  el.innerHTML = `
+    <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+      <h4 class="text-sm font-semibold t-primary mb-3">주요 재무 지표</h4>
+      <div>${rows.join('')}</div>
+      <p class="text-xs t-tertiary mt-3">DART 공시 데이터 기준. 단위: 원</p>
+    </div>
+  `;
+}
+
+// ==================== News tab ====================
+function renderNews(s1) {
+  const el = document.getElementById('dpNewsContent');
+  const googleNews = s1.google_news || [];
+  const recentNews = s1.recent_news || [];
+  const allNews = [...googleNews, ...recentNews].slice(0, 10);
+
+  if (allNews.length === 0) { el.innerHTML = emptyState('뉴스 데이터가 없어요.'); return; }
+
+  const newsHtml = allNews.map(n => {
+    const title = escHtml(cleanText(n.title || ''));
+    const source = escHtml(n.source || '');
+    const pubDate = n.pub_date ? formatNewsDate(n.pub_date) : '';
+    const link = n.link || '#';
+    return `
+      <a href="${link}" target="_blank" rel="noopener" class="block p-3.5 rounded-xl transition-colors hover:bg-[var(--bg-secondary)]" style="border:1px solid var(--border);">
+        <div class="flex items-start justify-between gap-3">
+          <p class="text-sm t-primary font-medium leading-snug line-clamp-2 flex-1">${title}</p>
+          <svg class="w-3.5 h-3.5 t-tertiary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </div>
+        <div class="flex items-center gap-2 mt-1.5">
+          ${source ? `<span class="text-xs t-tertiary">${source}</span>` : ''}
+          ${pubDate ? `<span class="text-xs t-tertiary">${pubDate}</span>` : ''}
+        </div>
+      </a>
+    `;
+  }).join('');
+
+  el.innerHTML = `<div class="space-y-2">${newsHtml}</div>`;
+}
+
+// ==================== Culture tab ====================
+function renderCulture(s4, name) {
+  const el = document.getElementById('dpCultureContent');
+  const positives = s4.positive_themes || [];
+  const negatives = s4.negative_themes || [];
+  const rating = s4.avg_rating;
+  const snippets = s4.snippets || [];
+  const exaCulture = s4.exa_culture || [];
+
+  if (!positives.length && !negatives.length && !snippets.length && !exaCulture.length) {
+    el.innerHTML = emptyState('문화 데이터가 없어요.');
+    return;
+  }
+
+  let ratingHtml = '';
+  if (rating && rating > 0) {
+    const stars = Math.round(rating * 2) / 2;
+    const ratingColor = rating >= 3.5 ? '#00C471' : rating >= 2.5 ? '#FF9500' : '#FF4545';
+    ratingHtml = `
+      <div class="flex items-center gap-2 mb-4 p-3.5 rounded-xl" style="background-color:var(--bg-secondary);">
+        <span class="text-2xl font-bold" style="color:${ratingColor};">${stars.toFixed(1)}</span>
+        <div>
+          <div class="text-xs t-tertiary">블라인드 / 잡플래닛 평균 평점</div>
+          <div class="text-xs t-secondary mt-0.5">${rating >= 3.5 ? '긍정적 평가가 많아요' : rating >= 2.5 ? '보통 수준의 평가예요' : '부정적 평가가 일부 있어요'}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  let posHtml = '';
+  if (positives.length > 0) {
+    posHtml = `
+      <div class="mb-4">
+        <h4 class="text-sm font-semibold t-primary mb-2">강점 키워드</h4>
+        <div class="flex flex-wrap gap-1.5">
+          ${positives.map(t => `<span class="text-xs px-2.5 py-1 rounded-lg font-medium kw-match">${escHtml(t)}</span>`).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  let negHtml = '';
+  if (negatives.length > 0) {
+    negHtml = `
+      <div class="mb-4">
+        <h4 class="text-sm font-semibold t-primary mb-2">개선 키워드</h4>
+        <div class="flex flex-wrap gap-1.5">
+          ${negatives.map(t => `<span class="text-xs px-2.5 py-1 rounded-lg kw-miss">${escHtml(t)}</span>`).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  // Exa culture excerpts
+  let excerptsHtml = '';
+  const cultureItems = Array.isArray(exaCulture) ? exaCulture.slice(0, 3) : [];
+  if (cultureItems.length > 0) {
+    excerptsHtml = `
+      <div class="mt-2">
+        <h4 class="text-sm font-semibold t-primary mb-2">문화 인사이트</h4>
+        <div class="space-y-2">
+          ${cultureItems.map(item => {
+            if (typeof item === 'string') return `<div class="p-3 rounded-xl text-sm t-secondary leading-relaxed line-clamp-3" style="background-color:var(--bg-secondary);">${escHtml(item.slice(0, 200))}</div>`;
+            const text = cleanText(item.text || item.preview || item.snippet || '');
+            if (!text) return '';
+            const src = item.url ? `<a href="${item.url}" target="_blank" style="color:#3182F6;" class="text-xs hover:underline">${escHtml(item.title || item.url)}</a>` : '';
+            return `
+              <div class="p-3 rounded-xl" style="background-color:var(--bg-secondary);">
+                ${src ? `<div class="mb-1">${src}</div>` : ''}
+                <p class="text-sm t-secondary leading-relaxed line-clamp-3">${escHtml(text.slice(0, 200))}</p>
+              </div>
+            `;
+          }).filter(Boolean).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  el.innerHTML = `<div>${ratingHtml}${posHtml}${negHtml}${excerptsHtml}</div>`;
+}
+
+// ==================== Tab switching ====================
+function switchDetailTab(name, btnEl) {
+  document.querySelectorAll('#detailPanel .tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('#detailPanel .tab-panel').forEach(p => p.classList.remove('active'));
+  if (btnEl) btnEl.classList.add('active');
+  const panel = document.getElementById('dp-' + name);
+  if (panel) panel.classList.add('active');
+}
+
+// ==================== Modal ====================
+function openModal(type) {
+  document.getElementById('modalOverlay').classList.add('open');
+  document.getElementById('modalJd').style.display = type === 'jd' ? 'block' : 'none';
+  document.getElementById('modalResume').style.display = type === 'resume' ? 'block' : 'none';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeModalIfOutside(e) {
+  if (e.target === document.getElementById('modalOverlay')) closeModal();
+}
+
+// ==================== JD Matching ====================
+function runJdMatch() {
+  const text = document.getElementById('jdText').value.trim();
+  if (!text) { alert('JD 텍스트를 입력해주세요.'); return; }
+
+  jdKeywords = extractJdKeywords(text);
+  closeModal();
+
+  document.getElementById('tabJdMatchBtn').style.display = '';
+  renderJdMatch(companyData, selectedCompany, text, jdKeywords);
+
+  // Switch to jd match tab
+  switchDetailTab('jdmatch', document.getElementById('tabJdMatchBtn'));
+}
+
+function extractJdKeywords(text) {
+  // Tech keywords to look for
+  const techPool = [
+    'Java', 'Kotlin', 'Python', 'Go', 'Rust', 'C++', 'Swift', 'TypeScript', 'JavaScript',
+    'Spring', 'Spring Boot', 'Django', 'FastAPI', 'Node.js', 'React', 'Vue', 'Angular',
+    'MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch', 'DynamoDB',
+    'Kafka', 'RabbitMQ', 'Flink', 'Spark',
+    'AWS', 'GCP', 'Azure', 'Kubernetes', 'Docker', 'Terraform',
+    'MSA', 'REST', 'gRPC', 'GraphQL',
+    'AI', 'ML', 'LLM', '머신러닝', '딥러닝', 'PyTorch', 'TensorFlow',
+    'CI/CD', 'Git', 'Jenkins',
+  ];
+  const lower = text.toLowerCase();
+  const found = techPool.filter(k => lower.includes(k.toLowerCase()));
+
+  // Extract bullet points from 자격요건/우대사항 sections
+  const lines = text.split('\n').map(l => l.trim()).filter(l => l.startsWith('-') || l.startsWith('•') || l.startsWith('·'));
+  const bulletKeywords = [];
+  lines.forEach(line => {
+    const clean = line.replace(/^[-•·]\s*/, '').slice(0, 60);
+    if (clean.length > 3 && clean.length < 60) bulletKeywords.push(clean);
+  });
+
+  return { tech: found, bullets: bulletKeywords.slice(0, 12) };
+}
+
+function renderJdMatch(data, name, jdText, keywords) {
+  const el = document.getElementById('dpJdMatchContent');
+  const s7 = data?.sections?.['7'] || {};
+  const techKws = s7.tech_keywords || [];
+
+  // Company's tech from exa_tech text
+  const exaTech = s7.exa_tech || [];
+  const exaText = Array.isArray(exaTech) ? exaTech.map(e => (e.text || e.title || '')).join(' ').toLowerCase() : '';
+  const fullCompanyText = (JSON.stringify(data || {}) + ' ' + exaText).toLowerCase();
+
+  // Match JD tech keywords vs company data
+  const matched = keywords.tech.filter(k => fullCompanyText.includes(k.toLowerCase()));
+  const missing = keywords.tech.filter(k => !fullCompanyText.includes(k.toLowerCase()));
+
+  const matchPct = keywords.tech.length > 0
+    ? Math.round((matched.length / keywords.tech.length) * 100)
+    : 0;
+
+  const matchGrade = getGrade(matchPct);
+  const matchColor = getGradeColor(matchGrade);
+
+  el.innerHTML = `
+    <div class="space-y-4">
+      <!-- Match score -->
+      <div class="rounded-2xl p-5" style="background-color:var(--bg-secondary);">
+        <div class="flex items-center gap-4">
+          <div class="text-center flex-shrink-0">
+            <div class="text-4xl font-bold" style="color:${matchColor};">${matchPct}<span class="text-lg">%</span></div>
+            <div class="text-xs t-tertiary mt-0.5">기술 매칭률</div>
+          </div>
+          <div class="flex-1">
+            <div class="h-3 rounded-full overflow-hidden" style="background-color:var(--bg-tertiary);">
+              <div class="h-3 rounded-full score-bar" style="width:0%; background-color:${matchColor};" data-target="${matchPct}"></div>
+            </div>
+            <p class="text-sm t-secondary mt-2">
+              JD에서 감지된 ${keywords.tech.length}개 기술 키워드 중 <strong class="t-primary">${matched.length}개</strong>가 ${name}과 매칭돼요.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Matched keywords -->
+      ${matched.length > 0 ? `
+      <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h4 class="text-sm font-semibold t-primary mb-3">매칭 키워드 <span class="font-normal t-tertiary">(${matched.length}개)</span></h4>
+        <div class="flex flex-wrap gap-1.5">
+          ${matched.map(k => `<span class="text-sm px-2.5 py-1 rounded-lg font-medium kw-match">${escHtml(k)}</span>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <!-- Missing keywords -->
+      ${missing.length > 0 ? `
+      <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h4 class="text-sm font-semibold t-primary mb-3">JD 요구 사항 <span class="font-normal t-tertiary">(추가 준비 필요 ${missing.length}개)</span></h4>
+        <div class="flex flex-wrap gap-1.5">
+          ${missing.map(k => `<span class="text-sm px-2.5 py-1 rounded-lg kw-miss">${escHtml(k)}</span>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <!-- JD bullets -->
+      ${keywords.bullets.length > 0 ? `
+      <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h4 class="text-sm font-semibold t-primary mb-3">JD 주요 요건</h4>
+        <ul class="space-y-2">
+          ${keywords.bullets.map(b => `
+            <li class="flex items-start gap-2 text-sm t-secondary">
+              <span class="flex-shrink-0 mt-1" style="color:#3182F6;">•</span>
+              ${escHtml(b)}
+            </li>
+          `).join('')}
+        </ul>
+      </div>` : ''}
+    </div>
+  `;
+
+  setTimeout(() => {
+    document.querySelectorAll('#dp-jdmatch .score-bar[data-target]').forEach(b => {
+      b.style.width = b.dataset.target + '%';
+    });
+  }, 80);
+}
+
+// ==================== Resume matching ====================
+function runResumeMatch() {
+  const text = document.getElementById('resumeText').value.trim();
+  if (!text) { alert('이력서 텍스트를 입력해주세요.'); return; }
+
+  closeModal();
+
+  document.getElementById('tabResumeBtn').style.display = '';
+  renderResumeMatch(companyData, selectedCompany, text);
+
+  switchDetailTab('resumematch', document.getElementById('tabResumeBtn'));
+}
+
+function renderResumeMatch(data, name, resumeText) {
+  const el = document.getElementById('dpResumeContent');
+  const lowerResume = resumeText.toLowerCase();
+
+  // Tech keywords to check in resume
+  const techPool = [
+    'Java', 'Kotlin', 'Python', 'Go', 'Rust', 'C++', 'Swift', 'TypeScript', 'JavaScript',
+    'Spring', 'Spring Boot', 'Django', 'FastAPI', 'Node.js', 'React', 'Vue', 'Angular',
+    'MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch',
+    'Kafka', 'RabbitMQ', 'Spark',
+    'AWS', 'GCP', 'Azure', 'Kubernetes', 'Docker',
+    'MSA', 'REST', 'gRPC',
+    'AI', 'ML', 'LLM', '머신러닝', '딥러닝', 'PyTorch', 'TensorFlow',
+    'CI/CD', 'Git',
+  ];
+
+  // Keywords found in resume
+  const resumeKws = techPool.filter(k => lowerResume.includes(k.toLowerCase()));
+
+  // JD keywords (if user already entered JD)
+  const jdText = document.getElementById('jdText').value.trim();
+  const jdKws = jdText ? extractJdKeywords(jdText) : { tech: [], bullets: [] };
+
+  // Strengths: resume kws that match JD (or just all resume kws)
+  const strengths = jdKws.tech.length > 0
+    ? resumeKws.filter(k => jdKws.tech.some(j => j.toLowerCase() === k.toLowerCase()))
+    : resumeKws;
+
+  // Gaps: JD kws not in resume
+  const gaps = jdKws.tech.filter(k => !lowerResume.includes(k.toLowerCase()));
+
+  // Additional resume-only kws
+  const resumeOnly = jdKws.tech.length > 0
+    ? resumeKws.filter(k => !jdKws.tech.some(j => j.toLowerCase() === k.toLowerCase()))
+    : [];
+
+  // Fit score
+  const fitPct = jdKws.tech.length > 0
+    ? Math.round((strengths.length / jdKws.tech.length) * 100)
+    : resumeKws.length > 0 ? Math.min(75, 40 + resumeKws.length * 3) : 0;
+
+  const fitGrade = getGrade(fitPct);
+  const fitColor = getGradeColor(fitGrade);
+
+  // Improvement tips
+  const tips = [
+    '수치 기반 성과(예: "일 100만 건 처리", "응답속도 30% 개선")를 명시하면 서류 통과율이 높아요.',
+    `${name}의 주요 서비스를 직접 사용하고 개선 아이디어를 정리해두세요.`,
+    gaps.length > 0 ? `JD 요구 기술(${gaps.slice(0, 3).join(', ')})을 보완하면 매칭률이 올라가요.` : '전반적으로 기술 스택이 잘 준비되어 있어요.',
+  ];
+
+  el.innerHTML = `
+    <div class="space-y-4">
+      <!-- Fit score -->
+      <div class="rounded-2xl p-5" style="background-color:var(--bg-secondary);">
+        <div class="flex items-center gap-4">
+          <div class="text-center flex-shrink-0">
+            <div class="text-4xl font-bold" style="color:${fitColor};">${fitPct}<span class="text-lg">%</span></div>
+            <div class="text-xs t-tertiary mt-0.5">이력서 적합도</div>
+          </div>
+          <div class="flex-1">
+            <div class="h-3 rounded-full overflow-hidden" style="background-color:var(--bg-tertiary);">
+              <div class="h-3 rounded-full score-bar" style="width:0%; background-color:${fitColor};" data-target="${fitPct}"></div>
+            </div>
+            <p class="text-sm t-secondary mt-2">
+              ${jdKws.tech.length > 0
+                ? `JD 요구 기술 ${jdKws.tech.length}개 중 <strong class="t-primary">${strengths.length}개</strong>가 이력서에 있어요.`
+                : `이력서에서 <strong class="t-primary">${resumeKws.length}개</strong>의 기술 키워드를 발견했어요.`}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Strengths -->
+      ${strengths.length > 0 ? `
+      <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h4 class="text-sm font-semibold t-primary mb-3">내 강점 기술 <span class="font-normal t-tertiary">(${strengths.length}개)</span></h4>
+        <div class="flex flex-wrap gap-1.5">
+          ${strengths.map(k => `<span class="text-sm px-2.5 py-1 rounded-lg font-medium kw-match">${escHtml(k)}</span>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <!-- Gaps -->
+      ${gaps.length > 0 ? `
+      <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h4 class="text-sm font-semibold t-primary mb-3">부족한 부분 <span class="font-normal t-tertiary">(${gaps.length}개)</span></h4>
+        <div class="flex flex-wrap gap-1.5">
+          ${gaps.map(k => `<span class="text-sm px-2.5 py-1 rounded-lg kw-miss">${escHtml(k)}</span>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <!-- Resume only -->
+      ${resumeOnly.length > 0 ? `
+      <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h4 class="text-sm font-semibold t-primary mb-2">추가 보유 기술 <span class="font-normal t-tertiary">(JD 미언급)</span></h4>
+        <div class="flex flex-wrap gap-1.5">
+          ${resumeOnly.map(k => `<span class="text-sm px-2.5 py-1 rounded-lg kw-neutral">${escHtml(k)}</span>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <!-- Tips -->
+      <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h4 class="text-sm font-semibold t-primary mb-3">개선 포인트</h4>
+        <ul class="space-y-2.5">
+          ${tips.map(t => `
+            <li class="flex items-start gap-2 text-sm t-secondary">
+              <span class="flex-shrink-0 mt-0.5" style="color:#FF9500;">•</span>
+              ${escHtml(t)}
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    </div>
+  `;
+
+  setTimeout(() => {
+    document.querySelectorAll('#dp-resumematch .score-bar[data-target]').forEach(b => {
+      b.style.width = b.dataset.target + '%';
+    });
+  }, 80);
+}
+
+// ==================== Grade helpers ====================
 function getGrade(score) {
   if (score >= 90) return 'S';
   if (score >= 80) return 'A';
@@ -716,367 +1187,17 @@ function getGrade(score) {
   return 'D';
 }
 
-function gradeColor(grade) {
-  const map = { S: '#3182F6', A: '#00C471', B: '#FF9500', C: '#FF6B00', D: '#FF4545' };
-  return map[grade] || '#3182F6';
+function getGradeColor(grade) {
+  const m = { S: '#3182F6', A: '#00C471', B: '#FF9500', C: '#FF6B00', D: '#FF4545' };
+  return m[grade] || '#3182F6';
 }
 
-function gradeBg(grade) {
-  const map = { S: '#EBF3FE', A: 'rgba(0,196,113,0.1)', B: 'rgba(255,149,0,0.1)', C: 'rgba(255,107,0,0.1)', D: 'rgba(255,69,69,0.1)' };
-  return map[grade] || '#EBF3FE';
+function getGradeBg(grade) {
+  const m = { S: '#EBF3FE', A: 'rgba(0,196,113,0.1)', B: 'rgba(255,149,0,0.1)', C: 'rgba(255,107,0,0.1)', D: 'rgba(255,69,69,0.1)' };
+  return m[grade] || '#EBF3FE';
 }
 
-// ==================== Render result ====================
-function renderResult(data) {
-  const companyName = data ? (data.company || selectedCompany) : selectedCompany;
-  const { total, dims } = computeScore(data);
-  const grade = getGrade(total);
-  const srcCount = data ? (data.sources_used || []).length : 0;
-
-  // Header
-  document.getElementById('resultCompanyName').textContent = companyName;
-  const gradeEl = document.getElementById('resultGradeBadge');
-  gradeEl.textContent = grade;
-  gradeEl.style.backgroundColor = gradeBg(grade);
-  gradeEl.style.color = gradeColor(grade);
-  document.getElementById('resultSourceCount').textContent =
-    srcCount > 0 ? `${srcCount}개 소스 기반 분석` : '캐시 데이터 기반 분석';
-
-  // Score ring animation
-  setTimeout(() => {
-    const circumference = 213.6;
-    const offset = circumference - (total / 100) * circumference;
-    document.getElementById('scoreRing').style.strokeDashoffset = offset;
-    document.getElementById('scoreRing').style.stroke = gradeColor(grade);
-
-    // Animate number
-    let current = 0;
-    const step = Math.ceil(total / 40);
-    const interval = setInterval(() => {
-      current = Math.min(current + step, total);
-      document.getElementById('scoreNumber').textContent = current;
-      if (current >= total) clearInterval(interval);
-    }, 30);
-  }, 100);
-
-  document.getElementById('scoreTotalText').textContent = `${total} / 100`;
-  const scoreGradeEl = document.getElementById('scoreGradeText');
-  scoreGradeEl.textContent = grade;
-  scoreGradeEl.style.backgroundColor = gradeBg(grade);
-  scoreGradeEl.style.color = gradeColor(grade);
-
-  // Dimension bars
-  const barsEl = document.getElementById('dimensionBars');
-  barsEl.innerHTML = Object.entries(dims).map(([label, score]) => {
-    const g = getGrade(score);
-    const color = gradeColor(g);
-    return `
-      <div>
-        <div class="flex items-center justify-between mb-1.5">
-          <span class="text-sm t-secondary">${label}</span>
-          <div class="flex items-center gap-2">
-            <span class="text-sm font-medium t-primary">${score}</span>
-            <span class="font-mono text-xs font-semibold px-1.5 py-0.5 rounded" style="background-color:${gradeBg(g)}; color:${color};">${g}</span>
-          </div>
-        </div>
-        <div class="h-2 rounded-full overflow-hidden" style="background-color:var(--bg-secondary);">
-          <div class="h-2 rounded-full score-bar" style="width:0%; background-color:${color};" data-target="${score}"></div>
-        </div>
-      </div>
-    `;
-  }).join('');
-
-  setTimeout(() => {
-    document.querySelectorAll('.score-bar[data-target]').forEach(bar => {
-      bar.style.width = bar.dataset.target + '%';
-    });
-  }, 150);
-
-  // Summary
-  const summaryEl = document.getElementById('scoreSummary');
-  summaryEl.innerHTML = generateSummary(companyName, total, grade, dims, data);
-
-  // Report tab
-  renderReport(data, companyName);
-
-  // Match tab
-  const hasResume = document.getElementById('resumeText').value.trim().length > 0;
-  if (hasResume) {
-    document.getElementById('tabMatchBtn').style.display = '';
-    renderMatch(data, companyName, dims);
-  }
-
-  // Interview tab
-  renderInterview(companyName, data);
-}
-
-function generateSummary(name, total, grade, dims, data) {
-  const topDim = Object.entries(dims).sort((a, b) => b[1] - a[1])[0];
-  const botDim = Object.entries(dims).sort((a, b) => a[1] - b[1])[0];
-
-  let rec = '';
-  if (grade === 'S' || grade === 'A') rec = `지원 적극 추천해요.`;
-  else if (grade === 'B') rec = `긍정적으로 검토해볼 만해요.`;
-  else rec = `신중하게 검토하고 지원 여부를 결정하세요.`;
-
-  return `<span class="font-medium t-primary">${name}</span>의 종합 점수는 <span style="color:${gradeColor(grade)}; font-weight:600;">${total}점 (${grade}등급)</span>이에요.
-  <strong style="color:var(--text-primary);">${topDim[0]}</strong>(${topDim[1]}점)이 가장 강점이고,
-  <strong style="color:var(--text-primary);">${botDim[0]}</strong>(${botDim[1]}점)은 상대적으로 낮아요. ${rec}`;
-}
-
-// ==================== Report ====================
-function renderReport(data, name) {
-  const el = document.getElementById('reportContent');
-  if (!data || !data.data) {
-    el.innerHTML = `<div class="rounded-xl p-5 text-sm t-secondary" style="background-color:var(--bg-secondary);">
-      ${name} 리포트 데이터를 불러올 수 없어요. 실제 CLI에서는 <code class="font-mono" style="color:#3182F6;">hirekit report ${name}</code>으로 저장할 수 있어요.
-    </div>`;
-    return;
-  }
-
-  const d = data.data;
-  const sections = [];
-
-  // Company overview
-  if (d.company_name || d.ceo) {
-    sections.push(`
-      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-        <h3 class="font-semibold t-primary mb-4" style="font-size:16px;">기업 개요</h3>
-        <div class="grid grid-cols-2 gap-y-3 text-sm">
-          ${d.company_name ? `<div><span class="t-tertiary">공식명</span><div class="t-primary mt-0.5 font-medium">${d.company_name}</div></div>` : ''}
-          ${d.ceo ? `<div><span class="t-tertiary">대표이사</span><div class="t-primary mt-0.5">${d.ceo}</div></div>` : ''}
-          ${d.established ? `<div><span class="t-tertiary">설립일</span><div class="t-primary mt-0.5">${formatDate(d.established)}</div></div>` : ''}
-          ${d.homepage ? `<div><span class="t-tertiary">홈페이지</span><div class="t-primary mt-0.5"><a href="https://${d.homepage}" target="_blank" style="color:#3182F6;" class="hover:underline">${d.homepage}</a></div></div>` : ''}
-          ${d.stock_code ? `<div><span class="t-tertiary">종목코드</span><div class="t-primary mt-0.5 font-mono">${d.stock_code}</div></div>` : ''}
-        </div>
-      </div>
-    `);
-  }
-
-  // Financials
-  if (d.financials && d.financials.length > 0) {
-    const fin = d.financials.filter((f, i, arr) =>
-      arr.findIndex(x => x.account === f.account) === i
-    ).slice(0, 5);
-
-    sections.push(`
-      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-        <h3 class="font-semibold t-primary mb-4" style="font-size:16px;">재무 현황</h3>
-        <div class="space-y-3">
-          ${fin.map(f => `
-            <div class="flex items-center justify-between text-sm">
-              <span class="t-secondary">${f.account}</span>
-              <div class="text-right">
-                <span class="font-medium t-primary">${formatAmount(f.current_amount)}</span>
-                ${f.previous_amount ? `<span class="t-tertiary ml-2 text-xs">(전기: ${formatAmount(f.previous_amount)})</span>` : ''}
-              </div>
-            </div>
-          `).join('')}
-        </div>
-      </div>
-    `);
-  }
-
-  // Employees
-  if (d.employees && d.employees.length > 0) {
-    const total = d.employees.reduce((sum, e) => {
-      const n = parseInt(String(e.total || e.headcount || 0).replace(/,/g, '')) || 0;
-      return sum + n;
-    }, 0);
-    const avgTenure = d.employees[0] ? String(d.employees[0].avg_tenure_year || '').trim() : '';
-
-    if (total > 0) {
-      sections.push(`
-        <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-          <h3 class="font-semibold t-primary mb-4" style="font-size:16px;">임직원 현황</h3>
-          <div class="grid grid-cols-2 gap-4 text-sm">
-            <div class="rounded-xl p-4 text-center" style="background-color:var(--bg-secondary);">
-              <div class="text-2xl font-bold t-primary">${total.toLocaleString()}</div>
-              <div class="t-tertiary mt-1">전체 임직원</div>
-            </div>
-            ${avgTenure ? `<div class="rounded-xl p-4 text-center" style="background-color:var(--bg-secondary);">
-              <div class="text-2xl font-bold t-primary">${avgTenure}년</div>
-              <div class="t-tertiary mt-1">평균 근속 연수</div>
-            </div>` : ''}
-          </div>
-        </div>
-      `);
-    }
-  }
-
-  // Recent news snippets
-  if (data.raw_snippets && data.raw_snippets.length > 0) {
-    const snippets = data.raw_snippets.slice(0, 4);
-    sections.push(`
-      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-        <h3 class="font-semibold t-primary mb-4" style="font-size:16px;">수집된 인사이트</h3>
-        <div class="space-y-2">
-          ${snippets.map(s => `
-            <div class="snippet-card">
-              <div>
-                <span class="snippet-source">${sourceLabel(s.source)}</span>
-                <span class="text-xs t-tertiary ml-1">${s.section ? '· ' + sectionLabel(s.section) : ''}</span>
-              </div>
-              <p class="text-sm t-secondary leading-relaxed line-clamp-3">${cleanPreview(s.preview)}</p>
-            </div>
-          `).join('')}
-        </div>
-      </div>
-    `);
-  }
-
-  if (sections.length === 0) {
-    sections.push(`<div class="rounded-xl p-5 text-sm t-secondary" style="background-color:var(--bg-secondary);">수집된 데이터를 리포트로 정리했어요. 실제 CLI에서는 더 자세한 분석을 볼 수 있어요.</div>`);
-  }
-
-  el.innerHTML = sections.join('');
-}
-
-// ==================== Match ====================
-function renderMatch(data, name, dims) {
-  const resume = document.getElementById('resumeText').value.trim();
-  const jdText = document.getElementById('jdText').value.trim();
-  const el = document.getElementById('matchContent');
-
-  const matchScore = hashScore(name + resume.slice(0, 20), 'match', 55, 92);
-  const matchGrade = getGrade(matchScore);
-
-  const strengths = extractKeywords(resume, ['개발', '분석', '기획', '운영', '설계', '경험', 'Python', 'Java', 'SQL', 'AWS', 'AI', '데이터', '백엔드', '프론트엔드', '인프라']);
-  const techMentioned = (data && data.data) ? extractCompanyTech(data) : ['AI', '클라우드', '데이터'];
-
-  el.innerHTML = `
-    <div class="space-y-4">
-      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-        <div class="flex items-center gap-4 mb-4 pb-4" style="border-bottom:1px solid var(--border);">
-          <div class="text-center">
-            <div class="text-3xl font-bold" style="color:${gradeColor(matchGrade)};">${matchScore}</div>
-            <div class="text-sm t-tertiary mt-0.5">적합도</div>
-          </div>
-          <div class="flex-1">
-            <div class="h-3 rounded-full overflow-hidden" style="background-color:var(--bg-secondary);">
-              <div class="h-3 rounded-full transition-all duration-1000 score-bar" style="width:0%; background-color:${gradeColor(matchGrade)};" data-target="${matchScore}"></div>
-            </div>
-            <div class="flex justify-between mt-1 text-xs t-tertiary">
-              <span>0</span><span>50</span><span>100</span>
-            </div>
-          </div>
-        </div>
-        <p class="text-sm t-secondary leading-relaxed">
-          이력서와 <strong class="t-primary">${name}</strong>의 포지션 요건을 비교했어요.
-          ${matchScore >= 75 ? '전반적으로 높은 적합도를 보여요.' : matchScore >= 60 ? '일부 역량이 잘 맞아요.' : '보완이 필요한 부분이 있어요.'}
-        </p>
-      </div>
-
-      ${strengths.length > 0 ? `
-      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-        <h3 class="font-semibold t-primary mb-3" style="font-size:15px;">이력서에서 발견된 강점</h3>
-        <div class="flex flex-wrap gap-2">
-          ${strengths.map(k => `<span class="text-sm px-3 py-1 rounded-lg font-medium" style="background-color:rgba(0,196,113,0.1); color:#00C471;">${k}</span>`).join('')}
-        </div>
-      </div>` : ''}
-
-      ${techMentioned.length > 0 ? `
-      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-        <h3 class="font-semibold t-primary mb-3" style="font-size:15px;">${name}의 주요 기술 키워드</h3>
-        <div class="flex flex-wrap gap-2">
-          ${techMentioned.map(k => `<span class="text-sm px-3 py-1 rounded-lg" style="background-color:var(--bg-secondary); color:var(--text-secondary);">${k}</span>`).join('')}
-        </div>
-      </div>` : ''}
-
-      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-        <h3 class="font-semibold t-primary mb-3" style="font-size:15px;">개선 포인트</h3>
-        <ul class="space-y-2 text-sm t-secondary">
-          <li class="flex items-start gap-2"><span style="color:#FF9500;" class="mt-0.5 flex-shrink-0">•</span>포트폴리오에 수치 기반 성과를 더 명확히 추가해요</li>
-          <li class="flex items-start gap-2"><span style="color:#FF9500;" class="mt-0.5 flex-shrink-0">•</span>${name}의 서비스를 직접 사용해보고 개선 아이디어를 준비해요</li>
-          <li class="flex items-start gap-2"><span style="color:#FF9500;" class="mt-0.5 flex-shrink-0">•</span>해당 포지션의 최신 기술 트렌드를 추가로 학습하면 좋아요</li>
-        </ul>
-      </div>
-    </div>
-  `;
-
-  // Animate match bar
-  setTimeout(() => {
-    document.querySelectorAll('#tab-match .score-bar[data-target]').forEach(bar => {
-      bar.style.width = bar.dataset.target + '%';
-    });
-  }, 150);
-}
-
-// ==================== Interview ====================
-function renderInterview(name, data) {
-  const sections = data ? (data.sections || []) : [];
-  const questions = generateInterviewQuestions(name, sections);
-  const el = document.getElementById('interviewContent');
-
-  el.innerHTML = `
-    <div class="space-y-4">
-      <div class="rounded-xl p-4 text-sm t-secondary" style="background-color:var(--bg-secondary); border-radius:12px;">
-        ${name}의 최신 전략과 문화를 반영한 예상 면접 질문이에요. 실제 CLI에서는 더 정교한 질문을 생성해요.
-      </div>
-      ${questions.map((q, i) => `
-        <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-          <div class="flex items-start gap-3">
-            <span class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white" style="background-color:#3182F6; margin-top:1px;">${i + 1}</span>
-            <div>
-              <p class="font-medium t-primary mb-2 leading-relaxed">${q.q}</p>
-              <div class="rounded-xl p-3 text-sm t-secondary leading-relaxed" style="background-color:var(--bg-secondary);">
-                <span class="text-xs font-medium t-tertiary block mb-1">답변 포인트</span>
-                ${q.hint}
-              </div>
-            </div>
-          </div>
-        </div>
-      `).join('')}
-    </div>
-  `;
-}
-
-function generateInterviewQuestions(name, sections) {
-  const base = [
-    {
-      q: `${name}에 지원한 이유와 입사 후 어떤 기여를 하고 싶은지 말씀해주세요.`,
-      hint: `${name}의 최근 전략 방향과 본인의 경험을 연결지어 구체적으로 설명해요. 단순 열정보다 실질적 기여 방안을 제시하면 좋아요.`
-    },
-    {
-      q: `가장 어려웠던 프로젝트와 그 과정에서 배운 점을 구체적으로 말씀해주세요.`,
-      hint: `STAR 구조(상황-과제-행동-결과)로 답하고, 수치로 성과를 표현해요. 실패 경험도 괜찮아요.`
-    },
-  ];
-
-  if (sections.includes('tech')) {
-    base.push({
-      q: `${name}의 기술 스택 중 본인이 가장 자신 있는 분야와 앞으로 성장하고 싶은 방향을 말씀해주세요.`,
-      hint: `현재 보유 기술을 정직하게 평가하고, 학습 의지와 방향성을 함께 보여주면 좋아요.`
-    });
-  }
-  if (sections.includes('culture')) {
-    base.push({
-      q: `팀에서 의견 충돌이 생겼을 때 어떻게 해결했는지 사례를 들어 말씀해주세요.`,
-      hint: `${name}의 수평적·자율적 문화를 이해하고, 협업과 소통 방식을 구체적 사례로 설명해요.`
-    });
-  }
-  if (sections.includes('strategy')) {
-    base.push({
-      q: `${name}의 최근 주요 사업 방향에 대해 어떻게 생각하시나요? 개선할 점이 있다면?`,
-      hint: `비판보다는 시장 관점의 분석과 건설적 제안을 준비해요. 리서치를 얼마나 했는지 보여줘요.`
-    });
-  }
-  if (sections.includes('financials')) {
-    base.push({
-      q: `${name}의 최근 재무 성과를 어떻게 평가하시나요?`,
-      hint: `매출, 영업이익, 성장률 등 주요 지표를 공부해 가고, 업계 평균과 비교하는 관점을 보여줘요.`
-    });
-  }
-
-  base.push({
-    q: `5년 후 본인의 모습을 어떻게 그리고 있나요? ${name}에서 어떤 역할을 하고 싶으신가요?`,
-    hint: `구체적이고 현실적인 커리어 플랜을 제시해요. ${name}의 성장 방향과 일치시키면 설득력이 높아요.`
-  });
-
-  return base.slice(0, 5);
-}
-
-// ==================== Helpers ====================
+// ==================== Formatting helpers ====================
 function formatDate(d) {
   if (!d) return '';
   const s = String(d);
@@ -1085,9 +1206,9 @@ function formatDate(d) {
 }
 
 function formatAmount(val) {
-  if (!val) return '-';
+  if (!val) return '–';
   const n = parseInt(String(val).replace(/,/g, '')) || 0;
-  if (n === 0) return '-';
+  if (n === 0) return '–';
   const abs = Math.abs(n);
   const sign = n < 0 ? '-' : '';
   if (abs >= 1_000_000_000_000) return `${sign}${(abs / 1_000_000_000_000).toFixed(1)}조원`;
@@ -1096,58 +1217,33 @@ function formatAmount(val) {
   return `${sign}${n.toLocaleString()}원`;
 }
 
-function sourceLabel(src) {
-  const map = {
-    naver_search: '네이버 검색',
-    naver_news: '네이버 뉴스',
-    google_news: 'Google News',
-    brave_search: 'Brave Search',
-    exa_search: 'Exa Search',
-    credible_news: 'Credible News',
-    dart: 'DART',
-    naver_blog: '네이버 블로그',
-  };
-  return map[src] || src;
+function formatNewsDate(d) {
+  if (!d) return '';
+  try {
+    const dt = new Date(d);
+    if (isNaN(dt)) return d.slice(0, 10);
+    return dt.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' });
+  } catch { return ''; }
 }
 
-function cleanPreview(text) {
-  if (!text) return '';
-  return text
-    .replace(/\[.*?\]/g, '')
-    .replace(/https?:\/\/\S+/g, '')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
+function cleanText(text) {
+  return (text || '')
     .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#\d+;/g, '')
     .replace(/\s+/g, ' ')
-    .trim()
-    .slice(0, 200);
+    .trim();
 }
 
-function extractKeywords(text, keywords) {
-  return keywords.filter(k => text.toLowerCase().includes(k.toLowerCase()));
+function escHtml(str) {
+  return String(str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
-function extractCompanyTech(data) {
-  const keywords = ['AI', 'ML', '클라우드', 'MSA', 'Kafka', 'Redis', 'Kubernetes', 'Docker', 'React', 'Spring', 'Python', 'Kotlin', 'Go', '데이터', 'LLM'];
-  const fullText = JSON.stringify(data).toLowerCase();
-  return keywords.filter(k => fullText.includes(k.toLowerCase())).slice(0, 8);
-}
-
-// ==================== Reset ====================
-function resetDemo() {
-  selectedCompany = null;
-  companyData = null;
-  document.getElementById('step1Next').disabled = true;
-  document.getElementById('step1Next').style.opacity = '0.4';
-  document.getElementById('step1Next').style.cursor = 'not-allowed';
-  document.getElementById('jdUrl').value = '';
-  document.getElementById('jdText').value = '';
-  document.getElementById('resumeText').value = '';
-  document.querySelectorAll('.company-card').forEach(c => c.classList.remove('selected'));
-  document.getElementById('tabMatchBtn').style.display = 'none';
-  showStep(1);
+function emptyState(msg) {
+  return `<div class="text-sm t-tertiary py-8 text-center">${msg}</div>`;
 }
 
 // ==================== Init ====================
