@@ -172,5 +172,200 @@ def sources() -> None:
     console.print(table)
 
 
+@app.command()
+def match(
+    jd_source: str = typer.Argument(help="JD URL or text file path"),
+    profile: str = typer.Option("", "--profile", "-p", help="Career profile YAML"),
+    output: str = typer.Option("markdown", "--output", "-o", help="markdown, terminal"),
+) -> None:
+    """Match a job description against your career profile."""
+    from hirekit.engine.jd_matcher import JDMatcher
+
+    config = load_config()
+    llm = _get_llm(config)
+    matcher = JDMatcher(llm=llm)
+
+    # Load profile if provided
+    user_profile = _load_profile(profile)
+
+    # Check if jd_source is a file
+    jd_path = Path(jd_source)
+    if jd_path.exists():
+        jd_source = jd_path.read_text(encoding="utf-8")
+
+    with console.status("[bold green]Analyzing job description..."):
+        analysis = matcher.analyze(jd_source=jd_source, profile=user_profile)
+
+    if output == "terminal":
+        console.print(Panel(
+            f"[bold]{analysis.title}[/bold] at {analysis.company}\n"
+            f"Match: [bold]{analysis.match_score:.0f}/100[/bold] "
+            f"(Grade {analysis.match_grade})",
+            title="[bold blue]JD Match[/bold blue]",
+            border_style="blue",
+        ))
+        if analysis.gaps:
+            console.print("\n[red]Gaps:[/red]")
+            for g in analysis.gaps[:5]:
+                console.print(f"  - {g}")
+        if analysis.strengths:
+            console.print("\n[green]Strengths:[/green]")
+            for s in analysis.strengths[:5]:
+                console.print(f"  - {s}")
+    else:
+        out_path = Path(config.output.directory) / "jd_match.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(analysis.to_markdown(), encoding="utf-8")
+        console.print(f"[green]Report saved:[/green] {out_path}")
+
+
+@app.command()
+def interview(
+    company: str = typer.Argument(help="Company name"),
+    position: str = typer.Option("", "--position", "-p", help="Target position"),
+    profile: str = typer.Option("", "--profile", help="Career profile YAML"),
+    output: str = typer.Option("markdown", "--output", "-o", help="markdown, terminal"),
+) -> None:
+    """Generate interview preparation guide for a company."""
+    from hirekit.engine.interview_prep import InterviewPrep
+
+    config = load_config()
+    llm = _get_llm(config)
+    prep = InterviewPrep(llm=llm)
+
+    user_profile = _load_profile(profile)
+
+    with console.status(f"[bold green]Preparing interview guide for {company}..."):
+        guide = prep.prepare(
+            company=company,
+            position=position,
+            profile=user_profile,
+        )
+
+    if output == "terminal":
+        console.print(Panel(
+            f"[bold]{company}[/bold] — {position or 'General'}\n"
+            f"Questions: {len(guide.common_questions)} common, "
+            f"{len(guide.technical_questions)} technical, "
+            f"{len(guide.behavioral_questions)} behavioral\n"
+            f"Reverse questions: {len(guide.reverse_questions)}",
+            title="[bold blue]Interview Prep[/bold blue]",
+            border_style="blue",
+        ))
+        for q in guide.common_questions:
+            console.print(f"\n[cyan]Q:[/cyan] {q['question']}")
+            console.print(f"  [dim]{q.get('answer', '')}[/dim]")
+    else:
+        out_path = Path(config.output.directory) / f"{company}_interview.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(guide.to_markdown(), encoding="utf-8")
+        console.print(f"[green]Report saved:[/green] {out_path}")
+
+
+@app.command()
+def resume(
+    file: str = typer.Argument(help="Resume file path (md, txt, pdf)"),
+    jd: str = typer.Option("", "--jd", help="JD URL or text for targeted review"),
+    profile: str = typer.Option("", "--profile", "-p", help="Career profile YAML"),
+    output: str = typer.Option("markdown", "--output", "-o", help="markdown, terminal"),
+) -> None:
+    """Review and provide feedback on your resume."""
+    from hirekit.engine.resume_advisor import ResumeAdvisor
+
+    config = load_config()
+    llm = _get_llm(config)
+    advisor = ResumeAdvisor(llm=llm)
+
+    user_profile = _load_profile(profile)
+
+    # Resolve JD text
+    jd_text = ""
+    if jd:
+        jd_path = Path(jd)
+        if jd_path.exists():
+            jd_text = jd_path.read_text(encoding="utf-8")
+        elif jd.startswith("http"):
+            import httpx
+            try:
+                resp = httpx.get(jd, timeout=10, follow_redirects=True)
+                from bs4 import BeautifulSoup
+                soup = BeautifulSoup(resp.text, "lxml")
+                jd_text = soup.get_text(separator="\n", strip=True)[:5000]
+            except Exception:
+                console.print(f"[yellow]Could not fetch JD from {jd}[/yellow]")
+        else:
+            jd_text = jd
+
+    with console.status("[bold green]Reviewing resume..."):
+        feedback = advisor.review(
+            resume_path=file, jd_text=jd_text, profile=user_profile
+        )
+
+    if output == "terminal":
+        console.print(Panel(
+            f"[bold]Score:[/bold] {feedback.overall_score:.0f}/100 "
+            f"(Grade {feedback.grade})",
+            title="[bold blue]Resume Review[/bold blue]",
+            border_style="blue",
+        ))
+        if feedback.strengths:
+            console.print("\n[green]Strengths:[/green]")
+            for s in feedback.strengths:
+                console.print(f"  + {s}")
+        if feedback.improvements:
+            console.print("\n[yellow]Improvements:[/yellow]")
+            for i in feedback.improvements:
+                console.print(f"  - {i}")
+        if feedback.keyword_gaps:
+            console.print("\n[red]Keyword gaps vs JD:[/red]")
+            console.print(f"  {', '.join(feedback.keyword_gaps[:10])}")
+    else:
+        out_path = Path(config.output.directory) / "resume_review.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(feedback.to_markdown(), encoding="utf-8")
+        console.print(f"[green]Report saved:[/green] {out_path}")
+
+
+# --- Helpers ---
+
+def _get_llm(config: HireKitConfig) -> BaseLLM:  # noqa: F821
+    """Initialize LLM from config."""
+    from hirekit.llm.base import NoLLM
+    if config.llm.provider == "none":
+        return NoLLM()
+    try:
+        if config.llm.provider == "openai":
+            from hirekit.llm.openai import OpenAIAdapter
+            return OpenAIAdapter(model=config.llm.model)
+        if config.llm.provider == "anthropic":
+            from hirekit.llm.anthropic import AnthropicAdapter
+            return AnthropicAdapter(model=config.llm.model)
+    except ImportError:
+        pass
+    return NoLLM()
+
+
+def _load_profile(path: str) -> dict | None:
+    """Load career profile from YAML file."""
+    if not path:
+        # Check default location
+        default = Path.home() / ".hirekit" / "profile.yaml"
+        if default.exists():
+            path = str(default)
+        else:
+            return None
+
+    p = Path(path)
+    if not p.exists():
+        return None
+
+    try:
+        import yaml
+        return yaml.safe_load(p.read_text(encoding="utf-8"))
+    except ImportError:
+        # Fallback: basic YAML parsing without pyyaml
+        return None
+
+
 if __name__ == "__main__":
     app()
