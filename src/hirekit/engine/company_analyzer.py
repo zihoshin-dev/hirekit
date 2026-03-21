@@ -202,10 +202,11 @@ class CompanyAnalyzer:
             "overview": 1, "financials": 1,
             "industry": 2, "competition": 2,
             "leadership": 3, "strategy": 3,
+            "vision": 3, "future": 3, "direction": 3,
             "culture": 4, "values": 4,
             "role": 5, "job": 5,
             "privacy": 6, "compliance": 6,
-            "ai": 7, "tech": 7,
+            "ai": 7, "tech": 7, "ai_strategy": 7,
             "regulation": 8, "policy": 8,
         }
 

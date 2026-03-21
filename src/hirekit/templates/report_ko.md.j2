@@ -116,11 +116,30 @@
 {% if s3 %}
 ## 3. 경영진 & 그룹사 방향성
 
+{% if s3.get('vision') or s3.get('mission') %}
+### 비전 & 미션
+
+{% if s3.get('vision') %}- **비전**: {{ s3.get('vision') }}
+{% endif %}
+{% if s3.get('mission') %}- **미션**: {{ s3.get('mission') }}
+{% endif %}
+
+{% endif %}
 {% if s3.get('ceo_vision') %}
 ### CEO 비전
 
 > "{{ s3.get('ceo_vision') }}"
 
+{% endif %}
+{% if s3.get('strategy') %}
+### 사업 전략
+
+{% if s3.get('strategy') is iterable and s3.get('strategy') is not string %}
+{% for item in s3.get('strategy', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s3.get('strategy') }}
+{% endif %}
 {% endif %}
 {% if s3.get('group_strategy') %}
 ### 그룹사 방향
@@ -133,6 +152,18 @@
 {% endif %}
 {% endif %}
 
+{% if s3.get('expansion_signals') or s3.get('expansion') %}
+### 신사업 & 확장 방향
+
+{% set expansion = s3.get('expansion') or s3.get('expansion_signals') %}
+{% if expansion is iterable and expansion is not string %}
+{% for item in expansion %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ expansion }}
+{% endif %}
+{% endif %}
+
 {% if s3.get('keywords') %}
 ### 핵심 키워드
 
@@ -141,7 +172,7 @@
 {% endif %}
 
 {% for key, value in s3.items() %}
-{% if key not in ('ceo_vision', 'group_strategy', 'keywords') %}
+{% if key not in ('ceo_vision', 'group_strategy', 'keywords', 'vision', 'mission', 'strategy', 'expansion', 'expansion_signals') %}
 {% if value is iterable and value is not string %}
 ### {{ key }}
 
@@ -153,7 +184,7 @@
 {% endif %}
 {% endfor %}
 
-> 💡 **면접 활용**: CEO 발언이나 그룹 전략 키워드를 면접 답변에 녹여서 전략적 이해도를 보여주세요.
+> 💡 **면접 활용**: CEO 비전/미션과 사업 방향 키워드를 면접 답변에 녹여서 전략적 이해도를 보여주세요.
 
 ---
 {% else %}
@@ -354,6 +385,24 @@
 {% if s7 %}
 ## 7. AI 전략 & 기술 동향
 
+{% if s7.get('ai_strategy') %}
+### AI 전략
+
+{% if s7.get('ai_strategy') is iterable and s7.get('ai_strategy') is not string %}
+{% for item in s7.get('ai_strategy', []) %}- {{ item }}
+{% endfor %}
+{% else %}
+{{ s7.get('ai_strategy') }}
+{% endif %}
+{% endif %}
+
+{% if s7.get('ai_signals') %}
+### AI 관련 동향
+
+{% for item in s7.get('ai_signals', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
 {% if s7.get('ai_investment') %}
 ### AI 투자 현황
 
@@ -385,7 +434,7 @@
 {% endif %}
 
 {% for key, value in s7.items() %}
-{% if key not in ('ai_investment', 'tech_stack', 'github_grade', 'github_score', 'top_repos') %}
+{% if key not in ('ai_strategy', 'ai_signals', 'ai_investment', 'tech_stack', 'github_grade', 'github_score', 'top_repos') %}
 {% if value is iterable and value is not string %}
 ### {{ key }}
 

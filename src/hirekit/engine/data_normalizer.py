@@ -156,8 +156,17 @@ def _normalize_industry(data: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
+_AI_KEYWORDS = frozenset(["ai", "인공지능", "머신러닝", "딥러닝", "llm", "generative", "생성ai"])
+_VISION_KEYWORDS = frozenset(["비전", "미션", "전략", "방향", "목표", "vision", "mission", "strategy"])
+_EXPANSION_KEYWORDS = frozenset(["신사업", "확장", "글로벌", "해외", "진출", "투자", "인수", "합병"])
+
+
 def _normalize_leadership(data: dict[str, Any]) -> dict[str, Any]:
-    """Normalize section 3: Leadership."""
+    """Normalize section 3: Leadership & Strategy.
+
+    Extracts vision/mission/strategy summaries, AI-related signals, and
+    new-business/expansion information in addition to leadership profiles.
+    """
     result: dict[str, Any] = {}
 
     # Leadership profiles (list of dicts with name/title/bio fields)
@@ -175,6 +184,56 @@ def _normalize_leadership(data: dict[str, Any]) -> dict[str, Any]:
     else:
         result["leaders"] = []
 
+    # Vision / mission / strategy — pass through structured fields directly
+    for key in ("vision", "mission", "strategy", "ceo_vision", "group_strategy"):
+        if key in data:
+            val = data[key]
+            if isinstance(val, str):
+                result[key] = _clean_text(val)
+            elif isinstance(val, list):
+                result[key] = [
+                    _clean_text(str(item)) for item in val if item
+                ]
+            else:
+                result[key] = val
+
+    # AI strategy signals — collect text snippets that mention AI keywords
+    ai_signals: list[str] = []
+    expansion_signals: list[str] = []
+
+    # Scan all string fields and news items for AI/expansion keywords
+    for k, v in data.items():
+        if k in result:
+            continue
+        if isinstance(v, str):
+            v_lower = v.lower()
+            if any(kw in v_lower for kw in _AI_KEYWORDS):
+                ai_signals.append(_clean_text(v)[:300])
+            if any(kw in v_lower for kw in _EXPANSION_KEYWORDS):
+                expansion_signals.append(_clean_text(v)[:300])
+        elif isinstance(v, list):
+            for item in v:
+                if not isinstance(item, dict):
+                    continue
+                text = " ".join(str(item.get(f, "")) for f in ("title", "text", "description", "bio"))
+                text_lower = text.lower()
+                if any(kw in text_lower for kw in _AI_KEYWORDS):
+                    ai_signals.append(_clean_text(text)[:300])
+                if any(kw in text_lower for kw in _EXPANSION_KEYWORDS):
+                    expansion_signals.append(_clean_text(text)[:300])
+
+    # Also honour explicitly provided fields
+    if "ai_strategy" in data:
+        val = data["ai_strategy"]
+        result["ai_strategy"] = _clean_text(str(val)) if isinstance(val, str) else val
+    elif ai_signals:
+        result["ai_signals"] = ai_signals[:5]
+
+    if "expansion" in data:
+        result["expansion"] = data["expansion"]
+    elif expansion_signals:
+        result["expansion_signals"] = expansion_signals[:3]
+
     # News about leadership
     for key in ("leadership_news", "google_news", "recent_news"):
         items = data.get(key, [])
@@ -184,7 +243,7 @@ def _normalize_leadership(data: dict[str, Any]) -> dict[str, Any]:
                 if isinstance(item, dict)
             ]
 
-    # Pass through scalar values
+    # Pass through scalar values not yet handled
     for k, v in data.items():
         if k not in result and not isinstance(v, (dict, list)):
             result[k] = v

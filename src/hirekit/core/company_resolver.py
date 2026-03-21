@@ -18,6 +18,8 @@ class CompanyInfo:
     github_orgs: list[str] = field(default_factory=list)
     region: str = "kr"  # "kr" | "us" | "global"
     aliases: list[str] = field(default_factory=list)
+    corp_name: str = ""   # 법인 정식 명칭 (예: "비바리퍼블리카")
+    brand_name: str = ""  # 브랜드명 (예: "토스")
 
 
 # Central registry: canonical name → CompanyInfo
@@ -57,12 +59,16 @@ _REGISTRY: dict[str, CompanyInfo] = {
         dart_code="00783965",
         github_orgs=["toss"],
         aliases=["비바리퍼블리카", "viva republica", "toss"],
+        corp_name="비바리퍼블리카",
+        brand_name="토스",
     ),
     "비바리퍼블리카": CompanyInfo(
         name="비바리퍼블리카",
         dart_code="00783965",
         github_orgs=["toss"],
         aliases=["토스", "toss"],
+        corp_name="비바리퍼블리카",
+        brand_name="토스",
     ),
     "토스뱅크": CompanyInfo(
         name="토스뱅크",
@@ -105,24 +111,32 @@ _REGISTRY: dict[str, CompanyInfo] = {
         dart_code="00832628",
         github_orgs=["woowabros"],
         aliases=["배달의민족", "baemin", "woowahan"],
+        corp_name="우아한형제들",
+        brand_name="배달의민족",
     ),
     "배달의민족": CompanyInfo(
         name="배달의민족",
         dart_code="00832628",
         github_orgs=["woowabros"],
         aliases=["우아한형제들", "baemin"],
+        corp_name="우아한형제들",
+        brand_name="배달의민족",
     ),
     "당근": CompanyInfo(
         name="당근",
         dart_code="01444039",
         github_orgs=["daangn"],
         aliases=["당근마켓", "daangn", "karrot"],
+        corp_name="당근마켓",
+        brand_name="당근",
     ),
     "당근마켓": CompanyInfo(
         name="당근마켓",
         dart_code="01444039",
         github_orgs=["daangn"],
         aliases=["당근", "daangn", "karrot"],
+        corp_name="당근마켓",
+        brand_name="당근",
     ),
     "무신사": CompanyInfo(
         name="무신사",
