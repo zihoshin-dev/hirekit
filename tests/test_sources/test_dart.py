@@ -1,11 +1,9 @@
 """Tests for DartSource — mocked HTTP, no real API calls."""
 
-from unittest.mock import MagicMock, patch
 import xml.etree.ElementTree as ET
+from unittest.mock import MagicMock, patch
 
-import pytest
-
-from hirekit.sources.kr.dart import DartSource, KNOWN_CORPS
+from hirekit.sources.kr.dart import KNOWN_CORPS, DartSource
 
 
 class TestDartSourceAvailability:

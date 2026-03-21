@@ -6,7 +6,6 @@ import pytest
 
 from hirekit.core.security import sanitize_company_name, sanitize_region, validate_url
 
-
 # ---------------------------------------------------------------------------
 # validate_url — SSRF prevention
 # ---------------------------------------------------------------------------

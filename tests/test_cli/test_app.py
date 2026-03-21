@@ -1,15 +1,12 @@
 """CLI end-to-end tests using typer.testing.CliRunner — no real API calls."""
 
-from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-import pytest
 from typer.testing import CliRunner
 
 from hirekit.cli.app import app
 from hirekit.engine.company_analyzer import AnalysisReport
 from hirekit.engine.scorer import Scorecard, ScoreDimension
-
 
 runner = CliRunner()
 
@@ -174,8 +171,8 @@ class TestAnalyzeCommand:
 
 class TestPipelineCommand:
     def test_pipeline_no_llm_exits_successfully(self, tmp_path):
-        from hirekit.engine.interview_prep import InterviewGuide
         from hirekit.engine.cover_letter import CoverLetterDraft, CoverLetterSection
+        from hirekit.engine.interview_prep import InterviewGuide
 
         mock_report = make_mock_report("카카오")
         mock_guide = InterviewGuide(company="카카오")
@@ -213,8 +210,8 @@ class TestPipelineCommand:
         assert result.exit_code == 0
 
     def test_pipeline_verdict_go_for_high_score(self, tmp_path):
-        from hirekit.engine.interview_prep import InterviewGuide
         from hirekit.engine.cover_letter import CoverLetterDraft
+        from hirekit.engine.interview_prep import InterviewGuide
 
         mock_report = make_mock_report("카카오")
         # Force high score → verdict should be Go

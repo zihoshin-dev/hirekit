@@ -12,13 +12,9 @@ from bs4 import BeautifulSoup
 from hirekit.core.tech_taxonomy import (
     normalize_tech,
     techs_are_similar,
-    get_similar_group,
-    classify_experience,
-    parse_experience_requirement,
 )
 from hirekit.engine.jd_parser import JDParser, ParsedJD
 from hirekit.llm.base import BaseLLM, NoLLM
-
 
 # ---------------------------------------------------------------------------
 # Learning roadmap suggestions for common gaps

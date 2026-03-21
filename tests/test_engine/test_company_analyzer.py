@@ -2,14 +2,11 @@
 
 from unittest.mock import MagicMock, patch
 
-import pytest
-
 from hirekit.core.config import HireKitConfig
-from hirekit.engine.company_analyzer import AnalysisReport, CompanyAnalyzer, SECTION_NAMES
-from hirekit.engine.scorer import Scorecard, ScoreDimension, create_default_scorecard
+from hirekit.engine.company_analyzer import AnalysisReport, CompanyAnalyzer
+from hirekit.engine.scorer import create_default_scorecard
 from hirekit.llm.base import NoLLM
 from hirekit.sources.base import SourceRegistry, SourceResult
-
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -241,7 +238,6 @@ class TestCompanyAnalyzerAnalyze:
             return []
 
         # Use cache.get mock: first call returns None (miss), second returns sentinel
-        original_cache_get = analyzer.cache.get
         cache_store: dict = {}
 
         def mock_cache_get(key):
@@ -292,7 +288,7 @@ class TestCompanyAnalyzerAnalyze:
                 with patch.object(SourceRegistry, "discover_plugins"):
                     with patch.object(analyzer, "_enhance_with_llm",
                                       side_effect=fake_enhance):
-                        report = analyzer.analyze("카카오")
+                        analyzer.analyze("카카오")
 
         assert enhance_called[0] is True
 

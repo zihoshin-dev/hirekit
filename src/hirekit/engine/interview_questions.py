@@ -3,10 +3,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum
+from enum import StrEnum
 
 
-class QuestionCategory(str, Enum):
+class QuestionCategory(StrEnum):
     PERSONALITY = "인성/적성"
     TECH_COMMON = "기술 공통"
     FRONTEND = "프론트엔드"

@@ -1,9 +1,7 @@
 """Tests for GitHubSource — mocked gh CLI, no real network calls."""
 
-from unittest.mock import patch, MagicMock
 import subprocess
-
-import pytest
+from unittest.mock import MagicMock, patch
 
 from hirekit.sources.global_.github import GitHubSource
 

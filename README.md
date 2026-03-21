@@ -1,356 +1,246 @@
 <p align="center">
-  <h1 align="center">HireKit</h1>
+  <h1 align="center">🎯 HireKit</h1>
   <p align="center">
-    <strong>AI-powered company research & interview prep CLI for job seekers</strong>
+    <strong>취업 준비, 데이터로 시작하세요</strong>
   </p>
   <p align="center">
-    Research companies. Match jobs. Ace interviews.
+    14개 소스 자동 수집 → 5차원 스코어카드 → 면접까지 원스톱
   </p>
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/hirekit/"><img src="https://img.shields.io/pypi/v/hirekit" alt="PyPI"></a>
-  <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://pypi.org/project/hirekit/"><img src="https://img.shields.io/pypi/v/hirekit?color=blue" alt="PyPI"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python"></a>
-  <a href="https://github.com/zihoshin-dev/hirekit"><img src="https://img.shields.io/github/stars/zihoshin-dev/hirekit?style=social" alt="Stars"></a>
+  <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://github.com/zihoshin-dev/hirekit/actions"><img src="https://img.shields.io/github/actions/workflow/status/zihoshin-dev/hirekit/ci.yml?label=tests" alt="Tests"></a>
 </p>
 
 <p align="center">
-  <a href="README.ko.md">한국어</a> | English
+  한국어 | <a href="README.ko.md">한국어 (상세)</a> | <a href="https://zihoshin-dev.github.io/hirekit">데모</a>
 </p>
 
 ---
 
-## The Problem
+## 취업 준비, 데이터로 시작하세요
 
-You found a great job posting. Now you need to research the company before applying.
-
-So you open 10+ tabs: DART filings, news sites, Glassdoor, GitHub, LinkedIn, salary databases...
-
-**4-8 hours later**, you have scattered notes and still aren't sure if this company is right for you.
-
-## The Solution
+기업 하나를 제대로 파악하려면 DART 공시, 뉴스, 기술 블로그, 커뮤니티 리뷰... 탭을 10개 넘게 열어야 해요.
+HireKit은 그 작업을 2분으로 줄여줘요.
 
 ```bash
 pip install hirekit
 hirekit analyze 카카오
 ```
 
-**2 minutes later**: A structured report with a 0-100 score, covering financials, culture, tech stack, recent news, and interview tips — all from 8 data sources collected in parallel.
+---
+
+## 주요 기능
+
+| 기능 | 설명 |
+|------|------|
+| 🏢 **기업 분석** | 14개 소스, 5차원 스코어카드 (재무·기술·문화·성장·보상) |
+| 📋 **JD 매칭** | 기술 taxonomy 60개+, URL·파일 모두 지원, 3단계 갭 분석 |
+| 🎤 **면접 준비** | 200개+ 질문 DB, 직무별 맞춤 STAR 가이드 |
+| 📄 **이력서 분석** | 정량 피드백, ATS 호환성, JD 대비 키워드 갭 |
+| ✍️ **자소서 분석** | 클리셰 감지 100개+, 4항목 차별화 점수 |
+| 🔄 **파이프라인** | 분석→매칭→면접→이력서→자소서 5단계 통합 |
 
 ---
 
 ## Quick Start
 
-### 1. Install
+### 1. 설치
 
 ```bash
 pip install hirekit
 ```
 
-> Requires Python 3.11+. That's it — no other setup needed for basic use.
+Python 3.11 이상이면 충분해요. 기본 기능에 별도 설정은 없어요.
 
-### 2. Get API Keys (optional but recommended)
-
-HireKit works with **zero API keys** (Google News + credible news sources are free). For richer data, get these free keys:
-
-| Key | Where to get it | What it unlocks |
-|-----|----------------|-----------------|
-| DART API Key | [opendart.fss.or.kr](https://opendart.fss.or.kr/) | Korean company financials, salary, headcount |
-| Naver Client ID/Secret | [developers.naver.com](https://developers.naver.com/) | Korean news, blog reviews, interview tips |
-| Brave API Key | [brave.com/search/api](https://brave.com/search/api/) | Web + news semantic search |
-| Exa API Key | [exa.ai](https://exa.ai/) | AI-powered deep search |
-
-### 3. Configure
+### 2. (선택) API 키 설정
 
 ```bash
 hirekit configure
+# ~/.hirekit/.env 파일에 키를 붙여넣으세요
 ```
 
-This creates `~/.hirekit/config.toml` and `~/.hirekit/.env`. Open the `.env` file and paste your API keys:
-
-```bash
-# ~/.hirekit/.env
-DART_API_KEY=your_key_here
-NAVER_CLIENT_ID=your_id_here
-NAVER_CLIENT_SECRET=your_secret_here
-```
-
-### 4. Analyze a Company
+### 3. 첫 분석
 
 ```bash
 hirekit analyze 카카오
 ```
 
-You'll see a scorecard like this:
-
 ```
-                     카카오 Scorecard
+                   카카오 Scorecard
 ┌─────────────────────┬────────┬────────┬──────────────────┐
-│ Dimension           │ Weight │  Score │ Evidence         │
+│ 평가 항목           │ 가중치 │  점수  │ 근거             │
 ├─────────────────────┼────────┼────────┼──────────────────┤
-│ Job Fit             │    30% │  3.5/5 │ Tech stack data  │
-│ Career Leverage     │    20% │  4.6/5 │ 15 data points   │
-│ Growth Potential    │    20% │  4.5/5 │ Financials +     │
-│                     │        │        │ active news      │
-│ Compensation        │    15% │  3.5/5 │ DART salary data │
-│ Culture Fit         │    15% │  4.5/5 │ Reviews + Exa    │
-│ Total               │        │ 82/100 │ Grade S          │
+│ 직무 적합도         │    30% │  3.5/5 │ 기술 스택 확인됨 │
+│ 경력 레버리지       │    20% │  4.6/5 │ 15개 데이터 수집 │
+│ 성장 가능성         │    20% │  4.5/5 │ 재무+뉴스 확인   │
+│ 보상/복지           │    15% │  3.5/5 │ DART 연봉 데이터 │
+│ 문화 적합도         │    15% │  4.5/5 │ 리뷰+Exa 분석    │
+│ 종합                │        │ 82/100 │ 등급 S           │
 └─────────────────────┴────────┴────────┴──────────────────┘
 ```
 
-A Markdown report is saved to `./reports/카카오_analysis.md`.
+리포트는 `./reports/카카오_analysis.md`에 저장돼요.
 
 ---
 
-## All Commands
+## 사용 예시
 
-HireKit has 7 commands covering the full job preparation journey:
-
-### `hirekit analyze` — Research a company
+### `hirekit analyze` — 기업 분석
 
 ```bash
-# Basic analysis (saves Markdown report)
+# 기본 분석 (Markdown 리포트 저장)
 hirekit analyze 카카오
 
-# Show results in terminal instead of saving
+# 터미널에서 바로 확인
 hirekit analyze 네이버 -o terminal
 
-# JSON output (for scripting)
+# JSON 출력 (스크립트 연동)
 hirekit analyze 토스 -o json
 
-# Quick analysis (fewer sections)
+# 간단 분석 (핵심 섹션만)
 hirekit analyze 쿠팡 --tier 3
 ```
 
-### `hirekit match` — Match a job posting to your profile
+**결과물**: 12섹션 구조화 리포트 + 5차원 100점 스코어카드
+
+---
+
+### `hirekit match` — JD 매칭
 
 ```bash
-# Paste a JD URL
+# 채용공고 URL
 hirekit match "https://www.wanted.co.kr/wd/12345"
 
-# Or use a saved JD text file
+# 텍스트 파일
 hirekit match jd.txt
 
-# With your career profile for personalized matching
+# 내 프로필과 함께 (맞춤 매칭)
 hirekit match jd.txt --profile ~/.hirekit/profile.yaml
 ```
 
-**What you get**: Match score (0-100), skill gaps, strengths, and application strategy.
+**결과물**: 매칭 점수(0–100), 스킬 갭, 강점, 지원 전략
 
-### `hirekit interview` — Prepare for interviews
+---
+
+### `hirekit interview` — 면접 준비
 
 ```bash
-# Generate interview questions for a company
+# 기업 맞춤 면접 질문 생성
 hirekit interview 카카오
 
-# Specify your target position
-hirekit interview 카카오 --position "Backend Engineer"
+# 직무 지정 (더 구체적인 질문)
+hirekit interview 카카오 --position "백엔드 개발자"
 
-# Show in terminal
+# 터미널 출력
 hirekit interview 네이버 --position PM -o terminal
 ```
 
-**What you get**: 5 common questions, role-specific questions, STAR story templates, and 5 reverse questions to ask the interviewer.
+**결과물**: 공통 질문 5개 + 직무 질문 + STAR 답변 프레임 + 역질문 5개
 
-### `hirekit coverletter` — Draft a Korean cover letter (자기소개서)
+---
+
+### `hirekit resume` — 이력서 분석
 
 ```bash
-# Generate a 4-section Korean cover letter draft
+# 이력서 파일 분석 (md, txt, pdf)
+hirekit resume 이력서.md
+
+# JD 대비 분석 (키워드 갭 포함)
+hirekit resume 이력서.md --jd "https://wanted.co.kr/wd/12345"
+```
+
+**결과물**: ATS 호환성, 구조 분석, 키워드 갭, 콘텐츠 점수, 개선 제안
+
+---
+
+### `hirekit coverletter` — 자소서 분석
+
+```bash
+# 자소서 4항목 초안 + 피드백
 hirekit coverletter 카카오 --position PM
 
-# With your profile for personalized content
+# 내 프로필로 맞춤 자소서
 hirekit coverletter 토스 --position PM --profile profile.yaml
-
-# Preview in terminal
-hirekit coverletter 네이버 -o terminal
 ```
 
-**What you get**: 4-section draft (성장과정, 지원동기, 직무역량, 장단점) with per-section scoring and improvement feedback.
+**결과물**: 4항목 초안 (성장과정·지원동기·직무역량·장단점) + 클리셰 감지 + 항목별 점수
 
-### `hirekit resume` — Review your resume
+---
 
-```bash
-# Review a resume file
-hirekit resume resume.md
-
-# Review against a specific job description
-hirekit resume resume.md --jd "https://wanted.co.kr/wd/12345"
-
-# With career profile
-hirekit resume resume.pdf --profile profile.yaml
-```
-
-**What you get**: ATS compatibility check, structure analysis, keyword gaps vs JD, content quality score, and improvement suggestions.
-
-### `hirekit sources` — Check data source status
+### `hirekit sources` — 소스 상태 확인
 
 ```bash
 hirekit sources
 ```
 
-Shows which data sources are configured and ready:
-
 ```
-                    Data Sources
-┌────────────┬────────┬─────────────────┬────────────────┐
-│ Name       │ Region │ API Key         │ Status         │
-├────────────┼────────┼─────────────────┼────────────────┤
-│ dart       │ KR     │ DART_API_KEY    │ Ready          │
-│ github     │ GLOBAL │ -               │ Ready          │
-│ google_news│ GLOBAL │ -               │ Ready          │
-│ naver_news │ KR     │ NAVER_CLIENT_ID │ Not configured │
-└────────────┴────────┴─────────────────┴────────────────┘
-```
-
-### `hirekit configure` — Set up API keys and preferences
-
-```bash
-hirekit configure
-```
-
-Creates default config files. Edit `~/.hirekit/.env` to add your API keys.
-
----
-
-## Data Sources (8 built-in)
-
-| Source | Region | What it provides | API Key | Free? |
-|--------|--------|-----------------|---------|-------|
-| **DART** | Korea | Financials, salary, headcount from official filings | `DART_API_KEY` | Yes |
-| **Naver News** | Korea | Recent Korean news articles | `NAVER_CLIENT_ID` | Yes |
-| **Naver Search** | Korea | Blog/cafe reviews, interview tips, culture info | `NAVER_CLIENT_ID` | Yes |
-| **GitHub** | Global | Tech maturity score (repos, stars, languages) | gh CLI auth | Yes |
-| **Google News** | Global | Latest news via RSS | None needed | Yes |
-| **Credible News** | Global | Reuters, Bloomberg, FT, WSJ + Korean biz press | None needed | Yes |
-| **Brave Search** | Global | Web + news semantic search | `BRAVE_API_KEY` | Free tier |
-| **Exa Search** | Global | AI-powered semantic deep search | `EXA_API_KEY` | Free tier |
-
-> You can start with **zero API keys**. Google News, Credible News, and GitHub (if you have `gh` CLI) work without any setup.
-
----
-
-## AI Enhancement (Optional)
-
-HireKit works perfectly without AI — reports are generated using templates and rules. To get deeper, AI-powered analysis:
-
-```bash
-# Install with OpenAI support
-pip install "hirekit[openai]"
-
-# Or Anthropic Claude
-pip install "hirekit[anthropic]"
-
-# Or local models via Ollama (fully offline, free)
-pip install "hirekit[ollama]"
-```
-
-Then set your API key in `~/.hirekit/.env`:
-
-```bash
-OPENAI_API_KEY=sk-...
-# or
-ANTHROPIC_API_KEY=sk-ant-...
-```
-
-And update `~/.hirekit/config.toml`:
-
-```toml
-[llm]
-provider = "openai"  # or "anthropic", "ollama"
-model = "gpt-4o-mini"
+                   Data Sources
+┌──────────────────┬────────┬─────────────────┬──────────────┐
+│ 소스             │ 지역   │ API 키          │ 상태         │
+├──────────────────┼────────┼─────────────────┼──────────────┤
+│ dart             │ KR     │ DART_API_KEY    │ Ready        │
+│ github           │ GLOBAL │ -               │ Ready        │
+│ google_news      │ GLOBAL │ -               │ Ready        │
+│ naver_news       │ KR     │ NAVER_CLIENT_ID │ 미설정       │
+│ tech_blog        │ KR     │ -               │ Ready        │
+│ community_review │ KR     │ -               │ Ready        │
+└──────────────────┴────────┴─────────────────┴──────────────┘
 ```
 
 ---
 
-## Career Profile (Optional)
+## 데이터 소스 (14개)
 
-Create `~/.hirekit/profile.yaml` to get personalized matching:
+| 소스 | 지역 | 데이터 | API 키 필요 |
+|------|------|--------|:-----------:|
+| **DART** | 🇰🇷 | 재무제표, 직원수, 평균연봉 (금감원 공시) | ✅ |
+| **네이버 뉴스** | 🇰🇷 | 최신 뉴스 기사 | ✅ |
+| **네이버 검색** | 🇰🇷 | 블로그 면접후기, 카페 리뷰 | ✅ |
+| **기술 블로그** | 🇰🇷 | 사내 기술 블로그, 개발 문화 | ❌ |
+| **커뮤니티 리뷰** | 🇰🇷 | 블라인드·잡플래닛 요약 | ❌ |
+| **GitHub** | 🌐 | 기술 성숙도 (리포·스타·언어) | ❌ (gh CLI) |
+| **Google News** | 🌐 | RSS 기반 최신 뉴스 | ❌ |
+| **해외 주요 언론** | 🌐 | Reuters, Bloomberg, FT, WSJ, 한경 | ❌ |
+| **회사 공식 웹사이트** | 🌐 | 비전, 미션, 주요 공지 | ❌ |
+| **채용 페이지** | 🌐 | JD, 복지, 채용 문화 | ❌ |
+| **Medium / Velog** | 🌐 | 개발자 기고, 기술 트렌드 | ❌ |
+| **LinkedIn 검색** | 🌐 | 팀 규모, 직군 분포 | ❌ |
+| **Brave Search** | 🌐 | 웹+뉴스 시맨틱 검색 | ✅ |
+| **Exa Search** | 🌐 | AI 기반 딥서치 | ✅ |
 
-```yaml
-name: "Your Name"
-years_of_experience: 5
-
-tracks:
-  - name: "Product Manager"
-    priority: 1
-
-career_assets:
-  - asset: "Built payment system"
-    source: "Previous Company"
-    applicable_industries: ["fintech", "ecommerce"]
-
-skills:
-  technical: ["Python", "SQL", "Data Analysis"]
-  domain: ["Payment Systems", "E-commerce"]
-  soft: ["Cross-functional Communication"]
-
-preferences:
-  regions: ["kr"]
-  industries: ["fintech", "platform"]
-  work_style: ["hybrid"]
-```
-
-When you pass `--profile`, HireKit matches your skills against job requirements and tailors interview questions to your experience.
+> API 키가 **하나도 없어도** Google News, 해외 주요 언론, 기술 블로그, 커뮤니티 리뷰, GitHub(gh CLI 설치 시) 등 8개 소스가 바로 동작해요.
 
 ---
 
-## Adding Custom Data Sources
+## 프라이버시
 
-Want to add your own data source? It's just one Python class:
-
-```python
-from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
-
-@SourceRegistry.register
-class GlassdoorSource(BaseSource):
-    name = "glassdoor"
-    region = "global"
-    sections = ["culture"]
-
-    def is_available(self) -> bool:
-        return True  # or check for API key
-
-    def collect(self, company, **kwargs):
-        # Your scraping/API logic here
-        return [SourceResult(
-            source_name=self.name,
-            section="culture",
-            data={"rating": 4.2, "reviews": 150},
-            raw="Glassdoor rating: 4.2/5 from 150 reviews",
-        )]
-```
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
-
----
-
-## Roadmap
-
-- [x] **v0.1** — Company analysis, scorecard, 8 data sources
-- [x] **v0.1** — JD matching, interview prep, resume review, cover letter coach
-- [ ] **v0.2** — US companies (SEC Edgar), improved report quality
-- [ ] **v0.3** — Web UI, community plugins, agent architecture
+- 모든 데이터 처리는 **로컬**에서 실행돼요
+- 수집한 데이터를 외부 서버로 전송하지 않아요
+- API 키는 `~/.hirekit/.env`에 직접 관리해요
+- LLM(AI)을 연결해도 프롬프트만 해당 API에 전달돼요
 
 ---
 
 ## Contributing
 
-We welcome contributions! Here are some good starting points:
+기여를 환영해요! 시작하기 좋은 작업들:
 
-- Add a new data source (Glassdoor, LinkedIn, SEC Edgar)
-- Improve Korean cover letter templates
-- Add support for Japanese/Chinese job markets
-- Improve the scoring algorithm
+- 새로운 데이터 소스 추가 (Glassdoor, SEC Edgar 등)
+- 자소서 템플릿·클리셰 DB 확장
+- 스코어링 알고리즘 개선
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for setup instructions.
+자세한 내용은 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고해주세요.
 
 ---
 
-## License
+## 라이선스
 
-MIT License. See [LICENSE](LICENSE).
+MIT License — [LICENSE](LICENSE)
 
 <p align="center">
-  <sub>Built for every job seeker who deserves better tools.</sub>
+  <sub>더 나은 도구를 가질 자격이 있는 모든 취업 준비자를 위해.</sub>
 </p>

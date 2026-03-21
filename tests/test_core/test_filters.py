@@ -2,8 +2,6 @@
 
 from datetime import UTC, datetime, timedelta
 
-import pytest
-
 from hirekit.core.filters import _parse_date, filter_recent
 
 

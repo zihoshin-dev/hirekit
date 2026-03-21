@@ -1,12 +1,12 @@
 """Tests for tech taxonomy module."""
 
 from hirekit.core.tech_taxonomy import (
-    normalize_tech,
-    get_category,
-    techs_are_similar,
-    get_similar_group,
     classify_experience,
+    get_category,
+    get_similar_group,
+    normalize_tech,
     parse_experience_requirement,
+    techs_are_similar,
 )
 
 

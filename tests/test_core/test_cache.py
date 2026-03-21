@@ -1,6 +1,5 @@
 """Tests for SQLite-backed Cache with TTL."""
 
-import time
 
 import pytest
 

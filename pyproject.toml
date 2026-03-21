@@ -87,10 +87,14 @@ packages = ["src/hirekit"]
 
 [tool.ruff]
 target-version = "py311"
-line-length = 100
+line-length = 120
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "W", "UP"]
+ignore = ["N802", "N806", "N817", "E741"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/hirekit/engine/interview_questions.py" = ["E501"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

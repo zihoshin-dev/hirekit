@@ -2,8 +2,6 @@
 
 from unittest.mock import MagicMock
 
-import pytest
-
 from hirekit.engine.llm_pipeline import LLMPipeline
 from hirekit.llm.base import LLMResponse, NoLLM
 from hirekit.sources.base import SourceResult

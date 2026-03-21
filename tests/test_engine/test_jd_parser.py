@@ -1,7 +1,6 @@
 """Tests for JD parser module."""
 
-from hirekit.engine.jd_parser import JDParser, ParsedJD
-
+from hirekit.engine.jd_parser import JDParser
 
 JD_KR_FULL = """
 주요업무

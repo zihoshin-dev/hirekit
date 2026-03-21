@@ -2,24 +2,21 @@
 
 from __future__ import annotations
 
-import random
 from dataclasses import dataclass, field
 from typing import Any
 
 from hirekit.engine.company_analyzer import AnalysisReport
 from hirekit.engine.interview_questions import (
+    QUESTION_BANK,
     AnswerGuide,
     InterviewQuestion,
     QuestionCategory,
-    QUESTION_BANK,
     build_answer_guide,
     get_questions_by_category,
     get_star_questions,
     get_tech_questions_for_stack,
-    get_top_frequency_questions,
 )
 from hirekit.llm.base import BaseLLM, NoLLM
-
 
 # ---------------------------------------------------------------------------
 # Known company-culture mappings for rule-based culture-fit questions

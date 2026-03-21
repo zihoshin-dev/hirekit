@@ -1,6 +1,5 @@
 """Tests for Jinja2 Markdown renderer — snapshot-style behavioral tests."""
 
-import pytest
 
 from hirekit.engine.company_analyzer import AnalysisReport
 from hirekit.engine.scorer import Scorecard, ScoreDimension

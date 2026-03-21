@@ -2,8 +2,6 @@
 
 import time
 
-import pytest
-
 from hirekit.core.parallel import collect_parallel
 from hirekit.sources.base import BaseSource, SourceResult
 

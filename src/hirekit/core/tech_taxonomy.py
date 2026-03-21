@@ -2,9 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
-from typing import Optional
-
+from dataclasses import dataclass
 
 # ---------------------------------------------------------------------------
 # Similarity groups: techs that are interchangeable / closely related
@@ -147,7 +145,7 @@ for _cat, _techs in TECH_CATEGORIES.items():
 class SeniorityLevel:
     name: str
     min_years: int
-    max_years: Optional[int]  # None = no upper bound
+    max_years: int | None  # None = no upper bound
     label_kr: str
     label_en: str
 
