@@ -9,7 +9,33 @@ from typing import Any
 import httpx
 from bs4 import BeautifulSoup
 
+from hirekit.core.tech_taxonomy import (
+    normalize_tech,
+    techs_are_similar,
+    get_similar_group,
+    classify_experience,
+    parse_experience_requirement,
+)
+from hirekit.engine.jd_parser import JDParser, ParsedJD
 from hirekit.llm.base import BaseLLM, NoLLM
+
+
+# ---------------------------------------------------------------------------
+# Learning roadmap suggestions for common gaps
+# ---------------------------------------------------------------------------
+
+_LEARNING_ROADMAP: dict[str, str] = {
+    "docker": "Docker 공식 튜토리얼 → Docker Compose 실습 (1-2주)",
+    "kubernetes": "K8s 공식 튜토리얼 → CKA 준비 (2-3개월)",
+    "aws": "AWS Free Tier 실습 → AWS SAA 자격증 (1-2개월)",
+    "react": "React 공식 문서 → 토이 프로젝트 1개 (2-4주)",
+    "typescript": "TypeScript Handbook → 기존 JS 프로젝트 마이그레이션 (1-2주)",
+    "pytorch": "PyTorch 튜토리얼 → Kaggle 참여 (1개월)",
+    "terraform": "Terraform 공식 튜토리얼 → 인프라 코드화 실습 (2-3주)",
+    "graphql": "How to GraphQL 튜토리얼 → API 실습 (1주)",
+    "kafka": "Confluent Kafka 101 → 스트리밍 파이프라인 실습 (2주)",
+    "spark": "Spark 공식 퀵스타트 → PySpark 실습 (2주)",
+}
 
 
 @dataclass
@@ -17,9 +43,22 @@ class SkillMatch:
     """A single skill requirement and its match status."""
 
     skill: str
-    required: bool = True  # required vs preferred
+    required: bool = True       # required vs preferred
     matched: bool = False
-    user_evidence: str = ""  # from profile
+    match_type: str = ""        # "exact", "similar", "partial", ""
+    user_evidence: str = ""     # from profile
+    learning_roadmap: str = ""  # suggested learning path if not matched
+
+
+@dataclass
+class ExperienceMatch:
+    """Experience requirement vs user profile comparison."""
+
+    required_min: int = 0
+    required_max: int | None = None
+    user_years: int = 0
+    meets_requirement: bool = True
+    note: str = ""
 
 
 @dataclass
@@ -31,7 +70,7 @@ class JDAnalysis:
     url: str = ""
     raw_text: str = ""
 
-    # Extracted requirements
+    # Extracted requirements (legacy + new parsed)
     required_skills: list[str] = field(default_factory=list)
     preferred_skills: list[str] = field(default_factory=list)
     experience_years: str = ""
@@ -39,12 +78,17 @@ class JDAnalysis:
     responsibilities: list[str] = field(default_factory=list)
     qualifications: list[str] = field(default_factory=list)
 
+    # Enhanced parsed data
+    parsed: ParsedJD | None = None
+
     # Match results (filled after matching)
     skill_matches: list[SkillMatch] = field(default_factory=list)
-    match_score: float = 0.0  # 0-100
+    experience_match: ExperienceMatch | None = None
+    match_score: float = 0.0    # 0-100
     gaps: list[str] = field(default_factory=list)
     strengths: list[str] = field(default_factory=list)
-    strategy: str = ""  # LLM-generated application strategy
+    gap_roadmaps: dict[str, str] = field(default_factory=dict)  # gap → learning path
+    strategy: str = ""          # LLM-generated application strategy
 
     @property
     def match_grade(self) -> str:
@@ -81,6 +125,16 @@ class JDAnalysis:
         lines.append("\n---\n")
         lines.append("## Match Analysis")
 
+        if self.experience_match:
+            em = self.experience_match
+            status = "충족" if em.meets_requirement else "미충족"
+            lines.append(
+                f"\n**경력 적합도:** 요구 {em.required_min}년+ / "
+                f"보유 {em.user_years}년 → {status}"
+            )
+            if em.note:
+                lines.append(f"  {em.note}")
+
         if self.strengths:
             lines.append("\n### Strengths (what you bring)")
             for s in self.strengths:
@@ -89,17 +143,21 @@ class JDAnalysis:
         if self.gaps:
             lines.append("\n### Gaps (what to address)")
             for g in self.gaps:
-                lines.append(f"- {g}")
+                roadmap = self.gap_roadmaps.get(g, "")
+                if roadmap:
+                    lines.append(f"- {g}  →  _{roadmap}_")
+                else:
+                    lines.append(f"- {g}")
 
         if self.skill_matches:
             lines.append("\n### Skill Matching Detail")
-            lines.append("| Skill | Required | Matched | Evidence |")
-            lines.append("|-------|----------|---------|----------|")
+            lines.append("| Skill | Required | Matched | Type | Evidence |")
+            lines.append("|-------|----------|---------|------|----------|")
             for m in self.skill_matches:
                 req = "Required" if m.required else "Preferred"
                 matched = "O" if m.matched else "X"
                 lines.append(
-                    f"| {m.skill} | {req} | {matched} | {m.user_evidence} |"
+                    f"| {m.skill} | {req} | {matched} | {m.match_type} | {m.user_evidence} |"
                 )
 
         if self.strategy:
@@ -110,11 +168,16 @@ class JDAnalysis:
         return "\n".join(lines)
 
 
+# ---------------------------------------------------------------------------
+# Matcher
+# ---------------------------------------------------------------------------
+
 class JDMatcher:
     """Parse job descriptions and match against user profile."""
 
     def __init__(self, llm: BaseLLM | None = None):
         self.llm = llm or NoLLM()
+        self._parser = JDParser()
 
     def analyze(
         self,
@@ -139,18 +202,31 @@ class JDMatcher:
             title=title, company=company, url=url, raw_text=raw_text
         )
 
-        # 2. Extract requirements (rule-based + LLM)
-        self._extract_requirements(analysis)
+        # 2. Structured parse
+        parsed = self._parser.parse(raw_text, title=title, company=company)
+        analysis.parsed = parsed
+        analysis.required_skills = parsed.required_qualifications
+        analysis.preferred_skills = parsed.preferred_qualifications
+        analysis.responsibilities = parsed.responsibilities
+        analysis.experience_years = parsed.experience_years_raw
 
-        # 3. Match against profile
+        # 3. LLM enhancement (optional)
+        if self.llm.is_available():
+            self._llm_extract(analysis)
+
+        # 4. Match against profile
         if profile:
             self._match_profile(analysis, profile)
 
-        # 4. Generate strategy (LLM)
+        # 5. Generate strategy (LLM)
         if self.llm.is_available():
             self._generate_strategy(analysis, profile)
 
         return analysis
+
+    # ------------------------------------------------------------------
+    # Fetch
+    # ------------------------------------------------------------------
 
     def _fetch_jd(self, url: str) -> tuple[str, str, str]:
         """Fetch and extract text from a JD URL."""
@@ -161,14 +237,12 @@ class JDMatcher:
             )
             soup = BeautifulSoup(resp.text, "lxml")
 
-            # Remove scripts and styles
             for tag in soup(["script", "style", "nav", "footer", "header"]):
                 tag.decompose()
 
             title = soup.title.string.strip() if soup.title else ""
             text = soup.get_text(separator="\n", strip=True)
 
-            # Try to extract company name from common patterns
             company = ""
             og_site = soup.find("meta", property="og:site_name")
             if og_site:
@@ -178,74 +252,12 @@ class JDMatcher:
         except Exception:
             return "", "", ""
 
-    def _extract_requirements(self, analysis: JDAnalysis) -> None:
-        """Extract skills and requirements from JD text."""
-        text = analysis.raw_text
-        if not text:
-            return
-
-        # Use LLM for structured extraction if available
-        if self.llm.is_available():
-            self._llm_extract(analysis)
-            return
-
-        # Rule-based extraction (fallback)
-        lines = text.split("\n")
-        in_required = False
-        in_preferred = False
-        in_responsibility = False
-
-        required_keywords = [
-            "자격요건", "필수", "required", "requirements",
-            "자격 요건", "지원자격", "필수 요건",
-        ]
-        preferred_keywords = [
-            "우대", "preferred", "nice to have", "bonus",
-            "우대사항", "우대 사항", "플러스",
-        ]
-        responsibility_keywords = [
-            "담당업무", "주요업무", "responsibilities", "what you",
-            "담당 업무", "주요 업무", "이런 일",
-        ]
-
-        for line in lines:
-            lower = line.lower().strip()
-
-            if any(k in lower for k in required_keywords):
-                in_required, in_preferred, in_responsibility = True, False, False
-                continue
-            if any(k in lower for k in preferred_keywords):
-                in_required, in_preferred, in_responsibility = False, True, False
-                continue
-            if any(k in lower for k in responsibility_keywords):
-                in_required, in_preferred, in_responsibility = False, False, True
-                continue
-
-            # Empty line resets section
-            if not lower:
-                continue
-
-            # Collect bullet points
-            cleaned = re.sub(r"^[-•·\d.)\s]+", "", line).strip()
-            if not cleaned or len(cleaned) < 3:
-                continue
-
-            if in_required:
-                analysis.required_skills.append(cleaned)
-            elif in_preferred:
-                analysis.preferred_skills.append(cleaned)
-            elif in_responsibility:
-                analysis.responsibilities.append(cleaned)
-
-        # Extract experience years
-        exp_match = re.search(
-            r"(\d+)\s*[년~\-+]\s*(?:이상|경력|years?)", text
-        )
-        if exp_match:
-            analysis.experience_years = f"{exp_match.group(1)}년 이상"
+    # ------------------------------------------------------------------
+    # LLM extraction
+    # ------------------------------------------------------------------
 
     def _llm_extract(self, analysis: JDAnalysis) -> None:
-        """Use LLM for structured JD extraction."""
+        """Use LLM to fill gaps left by rule-based parser."""
         prompt = (
             "다음 채용공고에서 정보를 추출해주세요.\n\n"
             f"```\n{analysis.raw_text[:4000]}\n```\n\n"
@@ -258,89 +270,225 @@ class JDMatcher:
         )
         resp = self.llm.generate(prompt=prompt, temperature=0.1)
         if resp.text:
-            # Parse LLM response into structured fields
             self._parse_llm_extraction(analysis, resp.text)
 
-    def _parse_llm_extraction(
-        self, analysis: JDAnalysis, text: str
-    ) -> None:
-        """Parse LLM extraction response."""
+    def _parse_llm_extraction(self, analysis: JDAnalysis, text: str) -> None:
+        """Parse LLM extraction response, merging with existing parsed data."""
         sections = re.split(r"\n(?=\d+\.)", text)
         for section in sections:
             items = re.findall(r"[-•]\s*(.+)", section)
             if "필수" in section or "자격요건" in section:
-                analysis.required_skills.extend(items)
+                # Only add items not already captured by rule-based parser
+                existing = set(analysis.required_skills)
+                for item in items:
+                    if item not in existing:
+                        analysis.required_skills.append(item)
             elif "우대" in section:
-                analysis.preferred_skills.extend(items)
+                existing = set(analysis.preferred_skills)
+                for item in items:
+                    if item not in existing:
+                        analysis.preferred_skills.append(item)
             elif "담당" in section or "업무" in section:
-                analysis.responsibilities.extend(items)
+                existing = set(analysis.responsibilities)
+                for item in items:
+                    if item not in existing:
+                        analysis.responsibilities.append(item)
+
+    # ------------------------------------------------------------------
+    # Profile matching
+    # ------------------------------------------------------------------
 
     def _match_profile(
         self, analysis: JDAnalysis, profile: dict[str, Any]
     ) -> None:
-        """Match JD requirements against user profile."""
-        user_skills: set[str] = set()
-        for category in ["technical", "domain", "soft"]:
-            user_skills.update(
-                s.lower() for s in profile.get("skills", {}).get(category, [])
+        """Match JD requirements against user profile using enhanced algorithm."""
+        user_skills = self._collect_user_skills(profile)
+        user_years = self._get_user_years(profile)
+
+        # Experience match
+        if analysis.parsed and analysis.parsed.experience_min_years > 0:
+            em = ExperienceMatch(
+                required_min=analysis.parsed.experience_min_years,
+                required_max=analysis.parsed.experience_max_years,
+                user_years=user_years,
             )
+            em.meets_requirement = user_years >= em.required_min
+            if not em.meets_requirement:
+                gap = em.required_min - user_years
+                em.note = f"{gap}년 경력 부족 — 프로젝트·오픈소스 기여로 보완 가능"
+            elif em.required_max and user_years > em.required_max:
+                em.note = "요구 연차 상한 초과 — 역할 적합성 어필 필요"
+            analysis.experience_match = em
 
-        # Also extract keywords from career assets
+        # Tech-aware skill matching
+        required_matched = 0
+        total_required = 0
+
+        # Use parsed tech lists if available, fall back to raw required_skills
+        parsed = analysis.parsed
+        required_tech = parsed.required_tech if parsed else []
+        preferred_tech = parsed.preferred_tech if parsed else []
+
+        # Match required tech
+        for tech in required_tech:
+            total_required += 1
+            matched, match_type, evidence = self._match_skill(tech, user_skills, profile)
+            if matched:
+                required_matched += 1
+            roadmap = "" if matched else _LEARNING_ROADMAP.get(tech, "")
+            analysis.skill_matches.append(SkillMatch(
+                skill=tech, required=True, matched=matched,
+                match_type=match_type, user_evidence=evidence,
+                learning_roadmap=roadmap,
+            ))
+
+        # Match required qualifications (non-tech lines)
+        for qual in analysis.required_skills:
+            qual_lower = qual.lower()
+            # Skip if already covered by tech matching
+            if any(m.skill in qual_lower for m in analysis.skill_matches if m.required):
+                continue
+            total_required += 1
+            matched, match_type, evidence = self._match_skill(qual_lower, user_skills, profile)
+            if matched:
+                required_matched += 1
+            analysis.skill_matches.append(SkillMatch(
+                skill=qual, required=True, matched=matched,
+                match_type=match_type, user_evidence=evidence,
+            ))
+
+        # Match preferred tech
+        for tech in preferred_tech:
+            matched, match_type, evidence = self._match_skill(tech, user_skills, profile)
+            analysis.skill_matches.append(SkillMatch(
+                skill=tech, required=False, matched=matched,
+                match_type=match_type, user_evidence=evidence,
+            ))
+
+        # Calculate score
+        analysis.match_score = self._calculate_score(
+            analysis, required_matched, total_required, user_years
+        )
+
+        # Gaps and strengths
+        analysis.gaps = [
+            m.skill for m in analysis.skill_matches if m.required and not m.matched
+        ]
+        analysis.strengths = [
+            m.skill for m in analysis.skill_matches if m.matched
+        ]
+        analysis.gap_roadmaps = {
+            m.skill: m.learning_roadmap
+            for m in analysis.skill_matches
+            if not m.matched and m.learning_roadmap
+        }
+
+    def _collect_user_skills(self, profile: dict[str, Any]) -> set[str]:
+        """Build normalized set of user skills from profile."""
+        skills: set[str] = set()
+        for category in ["technical", "domain", "soft"]:
+            for s in profile.get("skills", {}).get(category, []):
+                skills.add(normalize_tech(s.lower()))
+                skills.add(s.lower())  # keep raw too
         for asset in profile.get("career_assets", []):
-            user_skills.add(asset.get("asset", "").lower())
+            raw = asset.get("asset", "").lower()
+            skills.add(raw)
+            skills.add(normalize_tech(raw))
+        return skills
 
-        matched_count = 0
-        total_required = len(analysis.required_skills)
+    def _get_user_years(self, profile: dict[str, Any]) -> int:
+        """Extract years of experience from profile."""
+        # Support 'experience_years' int or string field
+        raw = profile.get("experience_years", profile.get("years_of_experience", 0))
+        if isinstance(raw, int):
+            return raw
+        if isinstance(raw, str):
+            m = re.search(r"\d+", raw)
+            return int(m.group(0)) if m else 0
+        return 0
 
-        for skill in analysis.required_skills:
-            skill_lower = skill.lower()
-            is_matched = any(us in skill_lower or skill_lower in us for us in user_skills)
-            evidence = ""
-            if is_matched:
-                matched_count += 1
-                # Find matching asset for evidence
-                for asset in profile.get("career_assets", []):
-                    if asset.get("asset", "").lower() in skill_lower:
-                        evidence = asset.get("source", "")
-                        break
+    def _match_skill(
+        self,
+        skill: str,
+        user_skills: set[str],
+        profile: dict[str, Any],
+    ) -> tuple[bool, str, str]:
+        """Return (matched, match_type, evidence) for a skill.
 
-            analysis.skill_matches.append(SkillMatch(
-                skill=skill, required=True, matched=is_matched,
-                user_evidence=evidence,
-            ))
+        Match types: "exact", "similar", "partial", ""
+        """
+        skill_norm = normalize_tech(skill.lower())
 
-        for skill in analysis.preferred_skills:
-            skill_lower = skill.lower()
-            is_matched = any(us in skill_lower or skill_lower in us for us in user_skills)
-            analysis.skill_matches.append(SkillMatch(
-                skill=skill, required=False, matched=is_matched,
-            ))
+        # 1. Exact / canonical match
+        if skill_norm in user_skills or skill.lower() in user_skills:
+            evidence = self._find_evidence(skill_norm, profile)
+            return True, "exact", evidence
 
-        # Calculate match score
-        if total_required > 0:
-            required_ratio = matched_count / total_required
-        else:
-            required_ratio = 0.5  # No clear requirements extracted
+        # 2. Similar tech group match (e.g. React matches Vue in Frontend Framework)
+        for user_skill in user_skills:
+            if techs_are_similar(skill_norm, user_skill):
+                evidence = self._find_evidence(user_skill, profile)
+                return True, "similar", f"유사 기술: {user_skill} → {skill_norm}"
 
+        # 3. Partial text match (for non-tech qualifications)
+        for user_skill in user_skills:
+            if (len(user_skill) >= 3 and user_skill in skill.lower()) or \
+               (len(skill_norm) >= 3 and skill_norm in user_skill):
+                evidence = self._find_evidence(user_skill, profile)
+                return True, "partial", evidence
+
+        return False, "", ""
+
+    def _find_evidence(self, skill: str, profile: dict[str, Any]) -> str:
+        """Find career asset evidence for a skill."""
+        for asset in profile.get("career_assets", []):
+            asset_name = normalize_tech(asset.get("asset", "").lower())
+            if asset_name == skill or skill in asset_name or asset_name in skill:
+                return asset.get("source", "")
+        return ""
+
+    def _calculate_score(
+        self,
+        analysis: JDAnalysis,
+        required_matched: int,
+        total_required: int,
+        user_years: int,
+    ) -> float:
+        """Calculate weighted match score (0-100).
+
+        Weights:
+        - Required skills: 70%
+        - Preferred skills: 20%
+        - Experience seniority: 10%
+        """
+        # Required ratio
+        required_ratio = required_matched / total_required if total_required > 0 else 0.5
+
+        # Preferred ratio
         preferred_matched = sum(
             1 for m in analysis.skill_matches if not m.required and m.matched
         )
-        preferred_total = len(analysis.preferred_skills)
-        preferred_ratio = (
-            preferred_matched / preferred_total if preferred_total > 0 else 0
-        )
+        preferred_total = sum(1 for m in analysis.skill_matches if not m.required)
+        preferred_ratio = preferred_matched / preferred_total if preferred_total > 0 else 0.0
 
-        analysis.match_score = (required_ratio * 0.7 + preferred_ratio * 0.3) * 100
+        # Experience score
+        exp_score = 1.0
+        if analysis.experience_match:
+            em = analysis.experience_match
+            if not em.meets_requirement:
+                gap = em.required_min - user_years
+                # Penalize proportionally; max 40% penalty
+                penalty = min(gap * 0.1, 0.4)
+                exp_score = 1.0 - penalty
+            elif em.required_max and user_years > em.required_max:
+                exp_score = 0.9  # slight penalty for over-qualification
 
-        # Identify gaps and strengths
-        analysis.gaps = [
-            m.skill for m in analysis.skill_matches
-            if m.required and not m.matched
-        ]
-        analysis.strengths = [
-            m.skill for m in analysis.skill_matches
-            if m.matched
-        ]
+        raw = (required_ratio * 0.7 + preferred_ratio * 0.2 + exp_score * 0.1) * 100
+        return round(min(raw, 100.0), 2)
+
+    # ------------------------------------------------------------------
+    # LLM strategy generation
+    # ------------------------------------------------------------------
 
     def _generate_strategy(
         self,
