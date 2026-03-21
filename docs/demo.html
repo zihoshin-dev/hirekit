@@ -187,6 +187,88 @@
     .filter-chip:hover { border-color: var(--primary); color: var(--primary); }
     .filter-chip.active { border-color: var(--primary); background: var(--primary-light); color: var(--primary); }
 
+    /* ── AI badge ── */
+    .ai-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      background: var(--primary-light);
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    /* ── Tag chips (segments, global) ── */
+    .tag-chip {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 500;
+      background: var(--bg-secondary);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+    }
+    .tag-chip-global {
+      background: rgba(49,130,246,0.08);
+      color: var(--primary);
+      border-color: rgba(49,130,246,0.2);
+    }
+
+    /* ── Vision quote ── */
+    .vision-quote {
+      font-style: italic;
+      font-size: 14px;
+      color: var(--text-secondary);
+      border-left: 3px solid var(--primary);
+      padding-left: 14px;
+      line-height: 1.6;
+    }
+
+    /* ── Toggle switch ── */
+    .toggle-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 100px;
+      border: 1.5px solid var(--border);
+      background: var(--bg);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      transition: all 0.15s ease;
+      white-space: nowrap;
+      user-select: none;
+    }
+    .toggle-wrap:hover { border-color: var(--primary); color: var(--primary); }
+    .toggle-wrap.active { border-color: var(--primary); background: var(--primary-light); color: var(--primary); }
+    .toggle-dot {
+      width: 28px;
+      height: 16px;
+      border-radius: 100px;
+      background: var(--bg-tertiary);
+      position: relative;
+      transition: background 0.2s ease;
+      flex-shrink: 0;
+    }
+    .toggle-dot::after {
+      content: '';
+      position: absolute;
+      top: 2px; left: 2px;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: #fff;
+      transition: transform 0.2s ease;
+    }
+    .toggle-wrap.active .toggle-dot { background: var(--primary); }
+    .toggle-wrap.active .toggle-dot::after { transform: translateX(12px); }
+
     /* ── Modal ── */
     #modalOverlay {
       display: none;
@@ -385,19 +467,30 @@
             <div class="p-4" style="border-bottom:1px solid var(--border);">
               <div class="relative">
                 <svg class="absolute left-3 top-1/2 -translate-y-1/2 t-tertiary pointer-events-none" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/></svg>
-                <input id="companySearch" type="text" placeholder="기업명 검색..." autocomplete="off" />
+                <input id="companySearch" type="text" placeholder="기업명, 산업, CEO, 기술스택 검색..." autocomplete="off" />
               </div>
             </div>
 
-            <!-- Filter chips -->
+            <!-- Filter chips: grade -->
             <div class="px-4 py-3 flex gap-2 flex-wrap" style="border-bottom:1px solid var(--border);">
-              <button class="filter-chip active" data-filter="all" onclick="setFilter('all', this)">전체</button>
-              <button class="filter-chip" data-filter="S" onclick="setFilter('S', this)">
+              <button class="filter-chip active" data-filter="all" onclick="setGradeFilter('all', this)">전체</button>
+              <button class="filter-chip" data-filter="S" onclick="setGradeFilter('S', this)">
                 <span style="color:var(--primary); font-family:'JetBrains Mono',monospace;">S</span> 등급
               </button>
-              <button class="filter-chip" data-filter="A" onclick="setFilter('A', this)">
+              <button class="filter-chip" data-filter="A" onclick="setGradeFilter('A', this)">
                 <span style="color:#00C471; font-family:'JetBrains Mono',monospace;">A</span> 등급
               </button>
+            </div>
+
+            <!-- Filter chips: industry + AI toggle -->
+            <div class="px-4 py-2.5 flex gap-2 flex-wrap items-center" style="border-bottom:1px solid var(--border);">
+              <div id="industryChips" class="flex gap-1.5 flex-wrap flex-1">
+                <!-- populated by JS -->
+              </div>
+              <label class="toggle-wrap" id="aiToggleWrap" onclick="toggleAiFilter()">
+                <div class="toggle-dot"></div>
+                <span>AI 전략</span>
+              </label>
             </div>
 
             <!-- Count -->
@@ -559,13 +652,15 @@ hamburger.addEventListener('click', () => menuOpen ? closeMobileMenu() : openMob
 // ═══════════════════════════════════════════════════════
 // State
 // ═══════════════════════════════════════════════════════
-let allCompanies    = [];
+let allCompanies      = [];
 let filteredCompanies = [];
-let selectedCompany = null;
-let companyData     = null;
-let jdKeywords      = [];
-let resumeKeywords  = [];
-let activeFilter    = 'all';
+let selectedCompany   = null;
+let companyData       = null;
+let jdKeywords        = [];
+let resumeKeywords    = [];
+let activeFilter      = 'all';   // grade filter
+let activeIndustry    = 'all';   // industry filter
+let aiFilterOn        = false;   // AI strategy toggle
 
 // ═══════════════════════════════════════════════════════
 // Slug / fetch
@@ -591,6 +686,7 @@ async function loadCompanies() {
   try {
     const res = await fetch('demo/data/meta.json');
     allCompanies = await res.json();
+    buildIndustryChips();
     applyFilterAndSearch();
   } catch (e) {
     document.getElementById('companyGrid').innerHTML =
@@ -598,20 +694,51 @@ async function loadCompanies() {
   }
 }
 
+function buildIndustryChips() {
+  const industries = [...new Set(allCompanies.map(c => c.industry).filter(Boolean))].sort();
+  const wrap = document.getElementById('industryChips');
+  wrap.innerHTML = [
+    `<button class="filter-chip active" data-ind="all" onclick="setIndustryFilter('all', this)" style="font-size:11px; padding:4px 10px;">전체 산업</button>`,
+    ...industries.map(ind =>
+      `<button class="filter-chip" data-ind="${escHtml(ind)}" onclick="setIndustryFilter('${ind.replace(/'/g,"\\'")}', this)" style="font-size:11px; padding:4px 10px;">${escHtml(ind)}</button>`
+    )
+  ].join('');
+}
+
 function applyFilterAndSearch() {
   const q = document.getElementById('companySearch').value.trim().toLowerCase();
   filteredCompanies = allCompanies.filter(c => {
-    const gradeOk = activeFilter === 'all' || c.grade === activeFilter;
-    const searchOk = !q || c.name.toLowerCase().includes(q);
-    return gradeOk && searchOk;
+    const gradeOk    = activeFilter === 'all' || c.grade === activeFilter;
+    const industryOk = activeIndustry === 'all' || c.industry === activeIndustry;
+    const aiOk       = !aiFilterOn || !!c.ai_strategy;
+    const searchOk   = !q ||
+      c.name.toLowerCase().includes(q) ||
+      (c.industry || '').toLowerCase().includes(q) ||
+      (c.ceo || '').toLowerCase().includes(q) ||
+      (c.tech_stack || []).some(t => t.toLowerCase().includes(q));
+    return gradeOk && industryOk && aiOk && searchOk;
   });
   renderCompanyGrid(filteredCompanies);
 }
 
-function setFilter(filter, btn) {
+function setGradeFilter(filter, btn) {
   activeFilter = filter;
-  document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+  document.querySelectorAll('[data-filter]').forEach(c => c.classList.remove('active'));
   btn.classList.add('active');
+  applyFilterAndSearch();
+}
+
+function setIndustryFilter(ind, btn) {
+  activeIndustry = ind;
+  document.querySelectorAll('[data-ind]').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilterAndSearch();
+}
+
+function toggleAiFilter() {
+  aiFilterOn = !aiFilterOn;
+  const wrap = document.getElementById('aiToggleWrap');
+  wrap.classList.toggle('active', aiFilterOn);
   applyFilterAndSearch();
 }
 
@@ -631,6 +758,9 @@ function renderCompanyGrid(companies) {
   grid.innerHTML = companies.map(c => {
     const gradeColor = getGradeColor(c.grade);
     const isSelected = selectedCompany === c.name;
+    const aiBadge = c.ai_strategy
+      ? `<span class="ai-badge" style="font-size:10px; padding:2px 6px; margin-left:auto;"><svg width="9" height="9" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>AI</span>`
+      : '';
     return `
       <div class="company-card${isSelected ? ' selected' : ''}"
            data-name="${escHtml(c.name)}"
@@ -641,6 +771,7 @@ function renderCompanyGrid(companies) {
         <div class="flex items-center gap-1.5">
           <span class="font-mono text-xs font-bold" style="color:${gradeColor};">${c.grade || '—'}</span>
           <span class="text-xs t-tertiary">${Math.round(c.score || 0)}점</span>
+          ${aiBadge}
         </div>
       </div>
     `;
@@ -673,7 +804,9 @@ async function selectCompany(name, el) {
 
   const data = await fetchCompanyData(name);
   companyData = data;
-  renderDetailPanel(data, name);
+  // meta.json에서 해당 기업 항목을 찾아 새 필드 병합
+  const metaEntry = allCompanies.find(c => c.name === name) || {};
+  renderDetailPanel(data, name, metaEntry);
 }
 
 function buildPanelShell(name, loading) {
@@ -687,7 +820,13 @@ function buildPanelShell(name, loading) {
             <span id="dpCompanyNameEng" class="text-sm t-tertiary"></span>
             <span id="dpGradeBadge" class="font-mono text-xs font-bold px-2.5 py-0.5 rounded-lg flex-shrink-0"></span>
           </div>
-          <div id="dpMeta" class="text-xs t-tertiary">${loading ? '데이터 불러오는 중...' : ''}</div>
+          <div class="flex items-center gap-2 flex-wrap mt-0.5">
+            <div id="dpMeta" class="text-xs t-tertiary">${loading ? '데이터 불러오는 중...' : ''}</div>
+            <span id="dpAiBadge" class="ai-badge" style="display:none;">
+              <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              AI 전략
+            </span>
+          </div>
         </div>
         <div class="flex-shrink-0 text-right">
           <div id="dpScoreNum" class="font-mono font-bold" style="color:var(--primary); font-size:32px; line-height:1;">${loading ? '—' : ''}</div>
@@ -749,10 +888,13 @@ function loadingHtml() {
 // ═══════════════════════════════════════════════════════
 // Render detail panel
 // ═══════════════════════════════════════════════════════
-function renderDetailPanel(data, name) {
+function renderDetailPanel(data, name, metaEntry) {
   const s1 = data?.sections?.['1'] || {};
   const s4 = data?.sections?.['4'] || {};
   const sc = data?.scorecard || {};
+
+  // meta.json 항목 (vision, ai_strategy 등 새 필드 포함)
+  const meta = metaEntry || {};
 
   const companyName    = s1.company_name    || name;
   const companyNameEng = s1.company_name_eng || '';
@@ -766,15 +908,18 @@ function renderDetailPanel(data, name) {
   document.getElementById('dpScoreNum').style.color       = getGradeColor(grade);
 
   const badgeEl = document.getElementById('dpGradeBadge');
-  badgeEl.textContent        = 'Grade ' + grade;
+  badgeEl.textContent           = 'Grade ' + grade;
   badgeEl.style.backgroundColor = getGradeBg(grade);
   badgeEl.style.color           = getGradeColor(grade);
 
   renderScorecard(sc, name);
-  renderOverview(s1);
+  renderOverview(s1, meta);
   renderFinancials(s1);
   renderNews(s1);
   renderCulture(s4, name);
+  // AI 전략 뱃지 표시/숨김
+  const aiHeaderBadge = document.getElementById('dpAiBadge');
+  if (aiHeaderBadge) aiHeaderBadge.style.display = meta.ai_strategy ? 'inline-flex' : 'none';
 }
 
 function buildMeta(s1, data) {
@@ -895,28 +1040,88 @@ function getScorecardSummary(grade, name) {
 // ═══════════════════════════════════════════════════════
 // Overview tab
 // ═══════════════════════════════════════════════════════
-function renderOverview(s1) {
+function renderOverview(s1, meta) {
   const el = document.getElementById('dpOverviewContent');
+
+  // meta.json 최상위 필드 우선, 없으면 s1 fallback
+  const ceo          = meta?.ceo          || s1.ceo          || null;
+  const corpName     = meta?.corp_name    || s1.company_name || null;
+  const vision       = meta?.vision       || null;
+  const aiStrategy   = meta?.ai_strategy  || null;
+  const bizDir       = meta?.business_direction || null;
+  const segments     = Array.isArray(meta?.business_segments) ? meta.business_segments : [];
+  const globalPres   = Array.isArray(meta?.global_presence)   ? meta.global_presence   : [];
+
   const rows = [
-    ['공식 명칭', s1.company_name],
+    ['법인 명칭', corpName],
     ['영문 명칭', s1.company_name_eng],
-    ['대표이사', s1.ceo],
-    ['설립일', s1.established ? formatDate(s1.established) : null],
-    ['주소', s1.address],
-    ['홈페이지', s1.homepage ? `<a href="https://${s1.homepage}" target="_blank" style="color:var(--primary);" class="hover:underline">${s1.homepage}</a>` : null],
-    ['종목코드', s1.stock_code ? `<span class="font-mono">${s1.stock_code}</span>` : null],
-    ['IR', s1.ir_url ? `<a href="${s1.ir_url}" target="_blank" style="color:var(--primary);" class="hover:underline">IR 페이지</a>` : null],
+    ['대표이사',  ceo],
+    ['설립일',    s1.established ? formatDate(s1.established) : null],
+    ['주소',      s1.address],
+    ['홈페이지',  s1.homepage ? `<a href="https://${s1.homepage}" target="_blank" style="color:var(--primary);" class="hover:underline">${s1.homepage}</a>` : null],
+    ['종목코드',  s1.stock_code ? `<span class="font-mono">${s1.stock_code}</span>` : null],
+    ['IR',        s1.ir_url ? `<a href="${s1.ir_url}" target="_blank" style="color:var(--primary);" class="hover:underline">IR 페이지</a>` : null],
   ].filter(([, v]) => v);
 
-  if (rows.length === 0) { el.innerHTML = emptyState('개요 데이터가 없어요.'); return; }
+  if (rows.length === 0 && !vision && !aiStrategy) { el.innerHTML = emptyState('개요 데이터가 없어요.'); return; }
 
+  // 비전 섹션
+  const visionHtml = vision ? `
+    <div class="mb-5">
+      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">비전 · 미션</div>
+      <blockquote class="vision-quote">"${escHtml(vision)}"</blockquote>
+    </div>
+  ` : '';
+
+  // AI 전략 섹션
+  const aiHtml = aiStrategy ? `
+    <div class="rounded-xl p-4 mb-5" style="background:var(--primary-light); border:1px solid rgba(49,130,246,0.2);">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="ai-badge">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          AI 전략
+        </span>
+      </div>
+      <p class="text-sm t-secondary leading-relaxed">${escHtml(aiStrategy)}</p>
+    </div>
+  ` : '';
+
+  // 사업 방향 섹션
+  const bizDirHtml = bizDir ? `
+    <div class="mb-5">
+      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">사업 방향</div>
+      <p class="text-sm t-secondary leading-relaxed">${escHtml(bizDir)}</p>
+    </div>
+  ` : '';
+
+  // 사업 부문 태그
+  const segHtml = segments.length > 0 ? `
+    <div class="mb-5">
+      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">사업 부문</div>
+      <div class="flex flex-wrap gap-1.5">
+        ${segments.map(s => `<span class="tag-chip">${escHtml(s)}</span>`).join('')}
+      </div>
+    </div>
+  ` : '';
+
+  // 글로벌 진출 태그
+  const globalHtml = globalPres.length > 0 ? `
+    <div class="mb-5">
+      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">글로벌 진출</div>
+      <div class="flex flex-wrap gap-1.5">
+        ${globalPres.map(g => `<span class="tag-chip tag-chip-global">🌐 ${escHtml(g)}</span>`).join('')}
+      </div>
+    </div>
+  ` : '';
+
+  // 임직원 현황
   let empHtml = '';
   if (s1.employees?.length) {
     const total = s1.employees.reduce((sum, e) => sum + (parseInt(String(e.total || e.headcount || 0).replace(/,/g,'')) || 0), 0);
     const avgTenure = s1.employees[0]?.avg_tenure_year || '';
     const avgSalary = s1.employees[0]?.total_salary;
     empHtml = `
-      <div class="mt-4 pt-4" style="border-top:1px solid var(--border);">
+      <div class="pt-4" style="border-top:1px solid var(--border);">
         <h4 class="text-sm font-semibold t-primary mb-3">임직원 현황</h4>
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
           ${total > 0 ? `<div class="rounded-xl p-3.5 text-center" style="background:var(--bg-secondary);"><div class="text-xl font-bold font-mono t-primary">${total.toLocaleString()}</div><div class="text-xs t-tertiary mt-0.5">전체 임직원</div></div>` : ''}
@@ -927,17 +1132,32 @@ function renderOverview(s1) {
     `;
   }
 
-  el.innerHTML = `
-    <div class="rounded-2xl p-5" style="border:1px solid var(--border);">
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3.5 gap-x-6 text-sm">
-        ${rows.map(([k, v]) => `
-          <div>
-            <div class="text-xs t-tertiary mb-0.5">${k}</div>
-            <div class="t-primary font-medium">${v}</div>
-          </div>
-        `).join('')}
+  // 기본 정보 그리드
+  const infoGridHtml = rows.length > 0 ? `
+    <div class="mb-5">
+      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">기본 정보</div>
+      <div class="rounded-2xl p-4" style="border:1px solid var(--border);">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3.5 gap-x-6 text-sm">
+          ${rows.map(([k, v]) => `
+            <div>
+              <div class="text-xs t-tertiary mb-0.5">${k}</div>
+              <div class="t-primary font-medium">${v}</div>
+            </div>
+          `).join('')}
+        </div>
+        ${empHtml}
       </div>
-      ${empHtml}
+    </div>
+  ` : '';
+
+  el.innerHTML = `
+    <div>
+      ${visionHtml}
+      ${aiHtml}
+      ${bizDirHtml}
+      ${segHtml}
+      ${globalHtml}
+      ${infoGridHtml}
     </div>
   `;
 }
