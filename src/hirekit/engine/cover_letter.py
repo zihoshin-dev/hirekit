@@ -6,6 +6,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Any
 
+from hirekit.core.cliche_detector import ClicheDetector, ClicheReport
 from hirekit.core.scoring import score_to_grade
 from hirekit.llm.base import BaseLLM, NoLLM  # noqa: F401 (NoLLM used as default)
 
@@ -75,6 +76,44 @@ _COMPANY_INSIGHT_KEYS = [
     "기술", "혁신", "글로벌", "플랫폼", "매출", "이용자",
 ]
 
+# ---------------------------------------------------------------------------
+# Rule-based analysis constants
+# ---------------------------------------------------------------------------
+
+# Concrete / specific expression signals
+_CONCRETE_PATTERNS: list[re.Pattern[str]] = [
+    re.compile(r"\d+\s*[%％건명억원회년개월배xX]", re.UNICODE),
+    re.compile(r"\d{4}년\s*\d{1,2}월", re.UNICODE),
+    re.compile(r"프로젝트|대회|공모전|인턴|직무", re.UNICODE),
+    re.compile(r"[A-Z][a-zA-Z]{2,}|[가-힣]{2,}(?:JS|QL|AI|ML)", re.UNICODE),
+]
+
+# Abstract / vague expression patterns
+_ABSTRACT_PATTERNS: list[re.Pattern[str]] = [
+    re.compile(p, re.UNICODE) for p in [
+        r"열심히|최선|노력|항상|꾸준히|성실",
+        r"다양한\s*경험|여러\s*경험",
+        r"관심이\s*많|좋아합니다|즐깁니다",
+        r"빠른\s*성장|업계\s*1위",
+    ]
+]
+
+# STAR structure signals
+_STAR_SIGNALS: dict[str, re.Pattern[str]] = {
+    "situation": re.compile(
+        r"때|당시|상황|환경|프로젝트|팀에서|회사에서|인턴|재직", re.UNICODE
+    ),
+    "task": re.compile(
+        r"과제|목표|담당|맡아|역할|책임|해결해야", re.UNICODE
+    ),
+    "action": re.compile(
+        r"했습니다|하였습니다|개발|구현|설계|분석|주도|제안|적용", re.UNICODE
+    ),
+    "result": re.compile(
+        r"결과|달성|향상|감소|증가|개선|수상|통과|완료|\d+[%％건명]", re.UNICODE
+    ),
+}
+
 
 # ---------------------------------------------------------------------------
 # Dataclasses
@@ -92,6 +131,12 @@ class CoverLetterSection:
     score: float = 0.0  # 0-100
     feedback: list[str] = field(default_factory=list)
 
+    # Enhanced analysis fields (rule-based, no LLM)
+    specificity_score: float = 0.0    # 0-100, concrete vs abstract ratio
+    company_fit_score: float = 0.0    # 0-100, company/service name mention
+    star_score: float = 0.0           # 0-100, STAR structure adherence
+    cliche_report: ClicheReport | None = None
+
     @property
     def grade(self) -> str:
         return score_to_grade(self.score)
@@ -102,12 +147,18 @@ class CoverLetterSection:
             "",
             self.content,
             "",
-            f"*글자 수: {self.word_count}자 | 점수: {self.score:.0f}/100 (Grade {self.grade})*",
+            (
+                f"*글자 수: {self.word_count}자 | 점수: {self.score:.0f}/100 (Grade {self.grade})"
+                f" | 구체성: {self.specificity_score:.0f} | STAR: {self.star_score:.0f}*"
+            ),
         ]
         if self.feedback:
             lines.append("\n**피드백:**")
             for fb in self.feedback:
                 lines.append(f"- {fb}")
+        if self.cliche_report and self.cliche_report.cliche_count > 0:
+            lines.append("")
+            lines.append(self.cliche_report.to_markdown())
         return "\n".join(lines)
 
 
@@ -125,6 +176,10 @@ class CoverLetterDraft:
     # Company-specific insights injected into motivation
     company_insights: dict[str, str] = field(default_factory=dict)
 
+    # Aggregated cliché analysis across all sections
+    total_cliche_count: int = 0
+    differentiation_score: float = 100.0  # 100 = no clichés
+
     @property
     def grade(self) -> str:
         return score_to_grade(self.overall_score)
@@ -134,6 +189,10 @@ class CoverLetterDraft:
             f"# 자기소개서: {self.company}",
             f"**포지션:** {self.position or '미지정'}",
             f"**종합 점수:** {self.overall_score:.0f}/100 (Grade {self.grade})",
+            (
+                f"**차별화 점수:** {self.differentiation_score:.0f}/100 | "
+                f"**클리셰 감지:** {self.total_cliche_count}개"
+            ),
             "",
             "---",
             "",
@@ -171,9 +230,12 @@ class CoverLetterCoach:
 
     # Character count targets per section (Korean standard: 500–1000자)
     _TARGET_CHARS = 700
+    _MIN_CHARS = 500
+    _MAX_CHARS = 1000
 
     def __init__(self, llm: BaseLLM | None = None):
         self.llm = llm or NoLLM()
+        self._detector = ClicheDetector()
 
     def draft(
         self,
@@ -208,14 +270,15 @@ class CoverLetterCoach:
             )
             draft.sections.append(section)
 
-        # 3. LLM enhancement
+        # 3. LLM enhancement or rule-based feedback
         if self.llm.is_available():
             self._enhance_with_llm(draft, profile)
         else:
             self._rule_based_feedback(draft)
 
-        # 4. Calculate overall score
+        # 4. Calculate overall score and cliché summary
         draft.overall_score = self._calculate_overall_score(draft)
+        self._aggregate_cliche_stats(draft)
 
         return draft
 
@@ -235,7 +298,6 @@ class CoverLetterCoach:
             insights["기업명"] = company
             return insights
 
-        # Pull from sections dict if present
         sections = report.get("sections", {})
         raw_texts: list[str] = []
 
@@ -251,7 +313,6 @@ class CoverLetterCoach:
 
         combined = " ".join(raw_texts)
 
-        # Extract key insight sentences containing insight keywords
         sentences = re.split(r"[.。\n]", combined)
         found: list[str] = []
         for sent in sentences:
@@ -290,7 +351,6 @@ class CoverLetterCoach:
         tmpl_data = _SECTION_TEMPLATES[key]
         section = CoverLetterSection(key=key, title=tmpl_data["title"])
 
-        # Resolve substitution variables
         vars_: dict[str, str] = {
             "company": company,
             "position": position or "해당 직무",
@@ -333,7 +393,6 @@ class CoverLetterCoach:
             vars_["weakness"] = "완벽주의적 성향"
             vars_["contribution"] = "직무 성과"
 
-        # Inject company insights into motivation section
         if key == "motivation":
             insight_vals = list(company_insights.values())
             vars_["company_strength"] = insight_vals[0] if insight_vals else company
@@ -341,7 +400,6 @@ class CoverLetterCoach:
                 insight_vals[1] if len(insight_vals) > 1 else f"{company}의 최근 행보"
             )
 
-        # Apply template substitution
         content = tmpl_data["template"]
         for var_key, var_val in vars_.items():
             content = content.replace(f"[{{{var_key}}}]", var_val)
@@ -351,17 +409,55 @@ class CoverLetterCoach:
         return section
 
     # ------------------------------------------------------------------
+    # Rule-based analysis helpers
+    # ------------------------------------------------------------------
+
+    def _score_specificity(self, content: str) -> float:
+        """0-100: ratio of concrete signals vs abstract signals."""
+        concrete_hits = sum(
+            len(p.findall(content)) for p in _CONCRETE_PATTERNS
+        )
+        abstract_hits = sum(
+            len(p.findall(content)) for p in _ABSTRACT_PATTERNS
+        )
+        total = concrete_hits + abstract_hits
+        if total == 0:
+            return 30.0  # no signal → low score
+        ratio = concrete_hits / total
+        return round(min(100.0, ratio * 120), 1)  # generous ceiling
+
+    def _score_star(self, content: str) -> float:
+        """0-100: how many STAR components are present (25 pts each)."""
+        present = sum(
+            1 for pattern in _STAR_SIGNALS.values() if pattern.search(content)
+        )
+        return present * 25.0
+
+    def _score_company_fit(self, content: str, company: str) -> float:
+        """0-100: company name + position-specific language presence."""
+        score = 0.0
+        if company in content:
+            score += 60.0
+        # Bonus for service/product names (any Korean 2-char word near company)
+        nearby = re.search(
+            rf"{re.escape(company)}.{{0,20}}([가-힣]{{2,}})", content
+        )
+        if nearby:
+            score += 20.0
+        # Bonus for numeric context near company
+        if re.search(rf"{re.escape(company)}.{{0,30}}\d+", content):
+            score += 20.0
+        return min(100.0, score)
+
+    # ------------------------------------------------------------------
     # Scoring
     # ------------------------------------------------------------------
 
     def _rule_based_feedback(self, draft: CoverLetterDraft) -> None:
         """Apply rule-based scoring and feedback to all sections."""
         for section in draft.sections:
-            score, feedback = self._score_section(section, draft.company)
-            section.score = score
-            section.feedback = feedback
+            self._analyse_section(section, draft.company)
 
-        # Generic strategy notes
         draft.strategy_notes = [
             f"{draft.company} 최신 뉴스·공시를 읽고 지원동기에 구체적 수치를 추가하세요.",
             "각 섹션 글자 수를 700자 내외로 맞추고, 수치 결과(%, 건수 등)를 포함하세요.",
@@ -370,38 +466,76 @@ class CoverLetterCoach:
             "제출 전 해당 포지션 JD와 다시 대조하여 키워드 일치도를 확인하세요.",
         ]
 
-    def _score_section(
+    def _analyse_section(
         self, section: CoverLetterSection, company: str
-    ) -> tuple[float, list[str]]:
-        """Score a section with rule-based checks."""
-        score = 50.0
-        feedback: list[str] = []
-
+    ) -> None:
+        """Run all rule-based checks and populate section scores + feedback."""
         content = section.content
         char_count = len(content)
+        feedback: list[str] = []
+        score = 50.0
 
-        # Length check
+        # 1. Length / char count check (500-1000자 권장)
         if char_count >= self._TARGET_CHARS:
             score += 15
-        elif char_count >= 400:
+        elif char_count >= self._MIN_CHARS:
             score += 8
-            feedback.append(f"글자 수({char_count}자)를 700자 이상으로 늘리세요.")
+            feedback.append(
+                f"글자 수({char_count}자)를 700자 이상으로 늘리세요."
+            )
         else:
-            feedback.append(f"글자 수({char_count}자)가 너무 짧습니다. 구체적 경험을 추가하세요.")
+            feedback.append(
+                f"글자 수({char_count}자)가 너무 짧습니다. 구체적 경험을 추가하세요."
+            )
 
-        # Company name mention
-        if company in content:
+        if char_count > self._MAX_CHARS:
+            feedback.append(
+                f"글자 수({char_count}자)가 1000자를 초과합니다. 핵심 내용만 남기세요."
+            )
+
+        # 2. Company name mention (company fit)
+        section.company_fit_score = self._score_company_fit(content, company)
+        if section.company_fit_score >= 60:
             score += 10
         else:
-            feedback.append(f"'{company}'를 직접 언급하여 맞춤형 자소서임을 보여주세요.")
+            feedback.append(
+                f"'{company}'를 직접 언급하여 맞춤형 자소서임을 보여주세요."
+            )
 
-        # Quantitative evidence
-        if re.search(r"\d+[%건명억원회년개월]|\d+\s*[%]", content):
+        # 3. Quantitative evidence
+        if re.search(r"\d+[%건명억원회년개월]|\d+\s*[%％]", content):
             score += 10
         else:
             feedback.append("수치(%, 건수, 금액 등)를 포함한 구체적 성과를 추가하세요.")
 
-        # Template placeholder not substituted
+        # 4. Specificity score
+        section.specificity_score = self._score_specificity(content)
+        if section.specificity_score >= 60:
+            score += 8
+        elif section.specificity_score < 30:
+            feedback.append(
+                "추상적 표현('열심히', '최선', '다양한 경험')을 구체적 사례로 교체하세요."
+            )
+
+        # 5. STAR structure
+        section.star_score = self._score_star(content)
+        if section.star_score >= 75:
+            score += 7
+        elif section.star_score < 50:
+            feedback.append(
+                "STAR 구조(상황→과제→행동→결과)가 불완전합니다. 결과 부분을 수치로 보완하세요."
+            )
+
+        # 6. Cliché detection
+        section.cliche_report = self._detector.detect(content)
+        if section.cliche_report.cliche_count > 0:
+            penalty = min(15.0, section.cliche_report.cliche_count * 3.0)
+            score -= penalty
+            top_cliches = section.cliche_report.matches[:2]
+            for m in top_cliches:
+                feedback.append(f'클리셰 감지: "{m.text}" → {m.suggestion}')
+
+        # 7. Unfilled template placeholders
         unfilled = re.findall(r"\[[가-힣a-zA-Z\s]+\]", content)
         if unfilled:
             score -= 15
@@ -409,11 +543,15 @@ class CoverLetterCoach:
                 f"다음 항목을 실제 내용으로 채워주세요: {', '.join(unfilled[:3])}"
             )
 
-        # Position mention
-        if section.key == "motivation" and not content.strip():
-            score -= 10
+        section.score = min(100.0, max(0.0, score))
+        section.feedback = feedback
 
-        return min(100.0, max(0.0, score)), feedback
+    def _score_section(
+        self, section: CoverLetterSection, company: str
+    ) -> tuple[float, list[str]]:
+        """Thin wrapper used by LLM path — runs _analyse_section and returns results."""
+        self._analyse_section(section, company)
+        return section.score, section.feedback
 
     def _calculate_overall_score(self, draft: CoverLetterDraft) -> float:
         """Weighted average of section scores."""
@@ -427,6 +565,16 @@ class CoverLetterCoach:
         for section in draft.sections:
             total += section.score * weights.get(section.key, 0.25)
         return round(total, 1)
+
+    def _aggregate_cliche_stats(self, draft: CoverLetterDraft) -> None:
+        """Compute total cliché count and differentiation score across all sections."""
+        total = sum(
+            s.cliche_report.cliche_count
+            for s in draft.sections
+            if s.cliche_report is not None
+        )
+        draft.total_cliche_count = total
+        draft.differentiation_score = max(0.0, 100.0 - total * 5.0)
 
     # ------------------------------------------------------------------
     # LLM enhancement
@@ -465,7 +613,6 @@ class CoverLetterCoach:
             if resp.text:
                 self._parse_llm_section(section, resp.text, draft.company)
 
-        # Overall strategy from LLM
         pos = draft.position or "미지정"
         strategy_prompt = (
             f"{draft.company} [{pos}] 포지션 자기소개서 전략을 3가지 bullet로 제시하세요."
@@ -489,15 +636,13 @@ class CoverLetterCoach:
             section.content = body_match.group(1).strip()
             section.word_count = len(section.content)
 
-        # Feedback items from LLM output
         if feedback_matches:
             section.feedback = feedback_matches[:3]
 
         # Re-score with rule-based after LLM content
-        score, extra_fb = self._score_section(section, company)
-        section.score = score
-        if extra_fb and not section.feedback:
-            section.feedback = extra_fb
+        self._analyse_section(section, company)
+        if feedback_matches and not section.feedback:
+            section.feedback = feedback_matches[:3]
 
     def _build_profile_context(self, profile: dict[str, Any] | None) -> str:
         """Build a concise profile context string for LLM prompts."""
