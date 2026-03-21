@@ -170,7 +170,12 @@ class CompanyAnalyzer:
         cache_key = f"analysis:{company}:{region}:{tier}"
         cached = self.cache.get(cache_key)
         if cached:
-            return AnalysisReport(**cached)
+            # to_dict() serializes 'sources' (metadata list) and 'scorecard' (dict),
+            # but AnalysisReport.__init__ expects 'source_results' (SourceResult objects)
+            # and 'scorecard' (Scorecard object). Restore only the primitive fields.
+            restore_keys = {k: v for k, v in cached.items()
+                            if k not in ("sources", "scorecard")}
+            return AnalysisReport(**restore_keys)
 
         # 3. Collect data in parallel
         results = collect_parallel(
@@ -218,6 +223,9 @@ class CompanyAnalyzer:
         # 6. LLM enhancement (if available)
         if self.llm.is_available():
             self._enhance_with_llm(report)
+
+        # 7. Cache the result for future calls
+        self.cache.set(cache_key, report.to_dict())
 
         return report
 

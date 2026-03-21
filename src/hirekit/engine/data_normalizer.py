@@ -196,7 +196,9 @@ def _format_amount(amount_str: str) -> str:
 
 def _parse_number(s: str) -> int:
     """Parse number from string, removing commas."""
+    if not s:
+        return 0
     try:
-        return int(s.replace(",", "").strip())
+        return int(str(s).replace(",", "").strip())
     except (ValueError, TypeError):
         return 0
