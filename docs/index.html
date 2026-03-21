@@ -3,12 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HireKit — 기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요.</title>
-  <meta name="description" content="취업·이직 준비자를 위한 AI 기업 분석 및 면접 준비 CLI. 기업 리서치, 공고 매칭, 면접 준비까지 — 터미널 하나로 끝내세요." />
-  <meta property="og:title" content="HireKit" />
-  <meta property="og:description" content="기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요." />
-  <meta property="og:url" content="https://zihoshin-dev.github.io/hirekit/" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
+  <title>HireKit — 기업 분석을 2분 만에</title>
+  <meta name="description" content="8개 소스에서 자동 수집하고, 100점 스코어카드로 판단해요. 취업 준비생을 위한 기업 분석 CLI 도구." />
+  <meta property="og:title" content="HireKit — 기업 분석을 2분 만에" />
+  <meta property="og:description" content="8개 소스에서 자동 수집하고, 100점 스코어카드로 판단해요." />
+  <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
+  <meta property="og:image:width" content="1400" />
+  <meta property="og:image:height" content="763" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -16,817 +24,559 @@
       theme: {
         extend: {
           fontFamily: {
-            mono: ['JetBrains Mono', 'Fira Code', 'Cascadia Code', 'monospace'],
+            sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+            mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
           },
           colors: {
-            brand: {
-              50:  '#f0f9ff',
-              100: '#e0f2fe',
-              200: '#bae6fd',
-              300: '#7dd3fc',
-              400: '#38bdf8',
-              500: '#0ea5e9',
-              600: '#0284c7',
-              700: '#0369a1',
-              800: '#075985',
-              900: '#0c4a6e',
-            },
-          },
-          animation: {
-            'fade-in': 'fadeIn 0.6s ease-out forwards',
-            'slide-up': 'slideUp 0.5s ease-out forwards',
-            'blink': 'blink 1s step-end infinite',
-          },
-          keyframes: {
-            fadeIn: { from: { opacity: 0 }, to: { opacity: 1 } },
-            slideUp: { from: { opacity: 0, transform: 'translateY(20px)' }, to: { opacity: 1, transform: 'translateY(0)' } },
-            blink: { '0%, 100%': { opacity: 1 }, '50%': { opacity: 0 } },
+            primary: '#3182F6',
+            'primary-hover': '#1B64DA',
+            'primary-light': '#EBF3FE',
+            success: '#00C471',
+            warning: '#FF9500',
+            danger: '#FF4545',
           },
         },
       },
-    };
+    }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
-    body { font-family: 'Inter', sans-serif; }
-    .font-mono { font-family: 'JetBrains Mono', monospace; }
-
-    /* Gradient backgrounds */
-    .hero-gradient {
-      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(14,165,233,0.15) 0%, transparent 70%),
-                  radial-gradient(ellipse 60% 40% at 80% 50%, rgba(99,102,241,0.08) 0%, transparent 60%);
+    :root {
+      --bg: #FFFFFF;
+      --bg-secondary: #F4F5F7;
+      --bg-tertiary: #EAEBEE;
+      --text-primary: #191F28;
+      --text-secondary: #4E5968;
+      --text-tertiary: #8B95A1;
+      --border: #E5E8EB;
     }
-    .dark .hero-gradient {
-      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(14,165,233,0.12) 0%, transparent 70%),
-                  radial-gradient(ellipse 60% 40% at 80% 50%, rgba(99,102,241,0.06) 0%, transparent 60%);
+    html.dark {
+      --bg: #17171C;
+      --bg-secondary: #1E1E24;
+      --bg-tertiary: #2C2C35;
+      --text-primary: #F2F4F6;
+      --text-secondary: #B0B8C1;
+      --text-tertiary: #6B7684;
+      --border: #2C2C35;
     }
-
-    /* Terminal styles */
-    .terminal {
-      background: #0d1117;
-      border: 1px solid #30363d;
-      border-radius: 12px;
-      overflow: hidden;
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-primary);
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
-    .terminal-bar {
-      background: #161b22;
-      padding: 10px 16px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      border-bottom: 1px solid #30363d;
-    }
-    .terminal-dot { width: 12px; height: 12px; border-radius: 50%; }
-    .dot-red   { background: #ff5f57; }
-    .dot-yellow{ background: #ffbd2e; }
-    .dot-green { background: #28c840; }
-    .terminal-title { color: #8b949e; font-size: 12px; margin-left: 8px; font-family: 'JetBrains Mono', monospace; }
-    .terminal-body { padding: 20px 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.8; }
-
-    /* Syntax colors */
-    .c-prompt  { color: #7ee787; }
-    .c-cmd     { color: #79c0ff; }
-    .c-flag    { color: #ff7b72; }
-    .c-string  { color: #a5d6ff; }
-    .c-comment { color: #8b949e; }
-    .c-output  { color: #e6edf3; }
-    .c-dim     { color: #484f58; }
-    .c-green   { color: #56d364; }
-    .c-yellow  { color: #e3b341; }
-    .c-blue    { color: #79c0ff; }
-    .c-orange  { color: #ffa657; }
-    .c-purple  { color: #d2a8ff; }
-    .c-border  { color: #484f58; }
-    .c-header  { color: #58a6ff; }
-    .c-grade   { color: #56d364; font-weight: 600; }
-
-    /* Copy button */
-    .copy-btn {
-      position: absolute; top: 50px; right: 16px;
-      background: #21262d; border: 1px solid #30363d; border-radius: 6px;
-      color: #8b949e; padding: 4px 10px; font-size: 11px; cursor: pointer;
-      transition: all 0.2s; font-family: 'JetBrains Mono', monospace;
-    }
-    .copy-btn:hover { background: #30363d; color: #e6edf3; }
-
-    /* Inline code */
-    code {
-      background: rgba(110,118,129,0.15);
-      border-radius: 4px;
-      padding: 2px 6px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.875em;
-    }
-    .dark code {
-      background: rgba(110,118,129,0.2);
-      color: #79c0ff;
-    }
-
-    /* Card hover */
-    .feature-card {
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .feature-card:hover {
-      transform: translateY(-2px);
-    }
-
-    /* Step connector */
-    .step-line::after {
-      content: '';
-      position: absolute;
-      left: 50%;
-      top: 100%;
-      width: 2px;
-      height: 40px;
-      background: linear-gradient(to bottom, #0ea5e9, transparent);
-      transform: translateX(-50%);
-    }
-
-    /* Roadmap timeline */
-    .timeline-item::before {
-      content: '';
-      position: absolute;
-      left: -33px;
-      top: 8px;
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      border: 2px solid currentColor;
-    }
-
-    /* Smooth scroll offset */
-    html { scroll-padding-top: 72px; }
-
-    /* Nav blur */
-    .nav-blur {
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-    }
-
-    /* Source badge */
-    .source-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      font-size: 11px;
-      padding: 2px 8px;
-      border-radius: 9999px;
-    }
+    .font-mono, pre, code { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .fade-up { opacity: 0; transform: translateY(20px); transition: opacity 0.4s ease, transform 0.4s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+    .card-hover { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    html.dark .card-hover:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+    .btn-click:active { transform: scale(0.98); }
+    .surface { background-color: var(--bg); }
+    .surface-secondary { background-color: var(--bg-secondary); }
+    .surface-tertiary { background-color: var(--bg-tertiary); }
+    .t-primary { color: var(--text-primary); }
+    .t-secondary { color: var(--text-secondary); }
+    .t-tertiary { color: var(--text-tertiary); }
+    .border-theme { border-color: var(--border); }
+    nav { background-color: color-mix(in srgb, var(--bg) 80%, transparent); }
   </style>
-<meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
-<meta property="og:image:width" content="1400" />
-<meta property="og:image:height" content="763" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
 </head>
+<body>
 
-<body class="bg-white dark:bg-[#0d1117] text-gray-900 dark:text-gray-100 antialiased transition-colors duration-300">
-
-  <!-- NAV -->
-  <nav class="fixed top-0 inset-x-0 z-50 nav-blur bg-white/80 dark:bg-[#0d1117]/80 border-b border-gray-200 dark:border-[#21262d]">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-2 font-bold text-lg">
-        <span class="text-2xl">🎯</span>
-        <span class="dark:text-white">HireKit</span>
-      </a>
-      <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600 dark:text-gray-400">
-        <a href="#features"   class="hover:text-gray-900 dark:hover:text-white transition-colors">기능</a>
-        <a href="#quickstart" class="hover:text-gray-900 dark:hover:text-white transition-colors">시작하기</a>
-        <a href="#roadmap"    class="hover:text-gray-900 dark:hover:text-white transition-colors">로드맵</a>
-        <a href="demo.html"   class="flex items-center gap-1.5 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 font-semibold transition-colors">
-          <span class="w-1.5 h-1.5 rounded-full bg-green-400"></span>데모 체험
-        </a>
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b border-theme" style="height:64px; border-bottom:1px solid var(--border);">
+    <div class="max-w-[1080px] mx-auto px-6 h-full flex items-center justify-between">
+      <a href="/" class="text-lg font-bold t-primary tracking-tight">HireKit</a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#features" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">기능</a>
+        <a href="#sources" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">소스</a>
+        <a href="#quickstart" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">시작하기</a>
       </div>
       <div class="flex items-center gap-3">
-        <!-- Language switch -->
-        <a href="en.html"
-          class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
-          English
-        </a>
-        <!-- Dark mode toggle -->
-        <button id="theme-toggle" aria-label="다크 모드 전환"
-          class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#21262d] transition-colors">
-          <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" class="hidden dark:block w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
-          </svg>
-          <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" class="block dark:hidden w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-          </svg>
+        <a href="en.html" class="text-sm t-tertiary hover:t-primary transition-colors">English</a>
+        <button id="themeToggle" class="w-9 h-9 rounded-xl flex items-center justify-center t-secondary transition-colors" style="border-radius:12px;" aria-label="다크모드 전환">
+          <svg id="iconSun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path stroke-linecap="round" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg id="iconMoon" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
-        <!-- GitHub -->
-        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener"
-          class="flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:opacity-90 transition-opacity">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-          </svg>
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="hidden sm:flex items-center gap-1.5 text-sm font-medium t-secondary hover:t-primary transition-colors">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
           GitHub
         </a>
       </div>
     </div>
   </nav>
 
-  <!-- HERO -->
-  <section class="hero-gradient pt-32 pb-24 px-4 text-center">
-    <div class="max-w-4xl mx-auto">
-      <!-- Badges -->
-      <div class="flex flex-wrap justify-center gap-2 mb-8">
-        <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener">
-          <img src="https://img.shields.io/pypi/v/hirekit?style=flat-square&color=0ea5e9" alt="PyPI version" class="h-5" />
-        </a>
-        <img src="https://img.shields.io/badge/python-3.11+-blue?style=flat-square" alt="Python 3.11+" class="h-5" />
-        <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License" class="h-5" />
-        <a href="https://github.com/zihoshin-dev/hirekit/stargazers" target="_blank" rel="noopener">
-          <img src="https://img.shields.io/github/stars/zihoshin-dev/hirekit?style=flat-square&color=e3b341" alt="GitHub Stars" class="h-5" />
-        </a>
+  <!-- Hero -->
+  <section class="pt-40 pb-24 px-6">
+    <div class="max-w-[680px] mx-auto text-center fade-up">
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium mb-8" style="background-color:#EBF3FE; color:#3182F6; border-radius:12px;">
+        <span class="w-2 h-2 rounded-full" style="background-color:#3182F6;"></span>
+        오픈소스 · MIT License
       </div>
-
-      <!-- Heading -->
-      <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight mb-4 dark:text-white">
-        Hire<span class="text-brand-500">Kit</span>
+      <h1 class="font-bold t-primary mb-6" style="font-size:48px; line-height:1.3;">
+        기업 분석을<br />2분 만에
       </h1>
-      <p class="text-xl sm:text-2xl font-light text-gray-600 dark:text-gray-400 mb-6">
-        기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요.
+      <p class="t-secondary mb-10" style="font-size:18px; line-height:1.7;">
+        8개 소스에서 자동 수집하고,<br />100점 스코어카드로 판단해요.
       </p>
-      <p class="text-base text-gray-500 dark:text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-        4~8시간짜리 기업 리서치를 명령어 하나로 끝내는 오픈소스 CLI.
-        8개 소스에서 데이터를 수집해 가중 스코어카드를 만들고, 면접 준비까지 — 모두 터미널에서.
-      </p>
-
-      <!-- Install command -->
-      <div class="inline-flex items-center gap-3 bg-gray-950 dark:bg-[#161b22] border border-gray-800 dark:border-[#30363d] rounded-xl px-5 py-3 mb-10 group cursor-pointer" onclick="copyInstall(this)">
-        <span class="font-mono text-sm text-gray-400">$</span>
-        <span class="font-mono text-sm text-brand-400">pip install hirekit</span>
-        <svg id="copy-icon-hero" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-        </svg>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="#quickstart" class="btn-click inline-flex items-center justify-center gap-2 font-medium text-white transition-colors" style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px;">
+          지금 시작하기
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+        <a href="demo.html" class="btn-click inline-flex items-center justify-center gap-2 font-medium t-primary transition-colors" style="height:48px; padding:0 24px; background-color:var(--bg-secondary); border-radius:12px;">
+          데모 체험하기
+        </a>
       </div>
-
-      <!-- CTA buttons -->
-      <div class="flex flex-wrap justify-center gap-4">
-        <a href="#quickstart"
-          class="px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-sm transition-colors shadow-lg shadow-brand-600/20">
-          시작하기 →
-        </a>
-        <a href="#demo"
-          class="px-6 py-3 rounded-xl border border-gray-300 dark:border-[#30363d] hover:border-gray-400 dark:hover:border-[#484f58] text-gray-700 dark:text-gray-300 font-semibold text-sm transition-colors">
-          데모 보기
-        </a>
+      <div class="mt-10">
+        <code class="text-sm t-secondary" style="background-color:var(--bg-secondary); padding:8px 16px; border-radius:8px;">pip install hirekit</code>
       </div>
     </div>
   </section>
 
-  <!-- STATS BAR -->
-  <div class="bg-gray-50 dark:bg-[#161b22] border-y border-gray-200 dark:border-[#21262d] py-6">
-    <div class="max-w-4xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
-      <div>
-        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">8</div>
-        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">데이터 소스</div>
+  <!-- Problem / Before-After -->
+  <section class="py-20 px-6" style="background-color:var(--bg-secondary);">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">이런 경험 있지 않나요?</h2>
+        <p class="t-secondary">기업 조사에 반나절을 쓰고, 정작 지원서는 못 쓰는 상황</p>
       </div>
-      <div>
-        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">12</div>
-        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">리포트 섹션</div>
-      </div>
-      <div>
-        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">100pt</div>
-        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">스코어카드 시스템</div>
-      </div>
-      <div>
-        <div class="text-2xl font-bold text-brand-600 dark:text-brand-400">0</div>
-        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">추적 / 개인정보 수집</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- FEATURES -->
-  <section id="features" class="py-24 px-4">
-    <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">합격에 필요한 모든 것</h2>
-        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">첫 리서치부터 최종 오퍼까지 — 취업 준비의 전 과정을 커버하는 6가지 명령어.</p>
-      </div>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-
-        <!-- analyze -->
-        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
-          <div class="flex items-start gap-4 mb-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-brand-100 dark:bg-brand-900/30 flex items-center justify-center text-lg">🔍</div>
-            <div>
-              <code class="text-sm text-brand-600 dark:text-brand-400">hirekit analyze</code>
-              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">기업 분석</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="card-hover surface rounded-2xl p-6 fade-up" style="border:1px solid var(--border);">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center" style="background-color:rgba(255,69,69,0.1);">
+              <svg class="w-4 h-4" style="color:#FF4545;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
             </div>
+            <span class="text-sm font-semibold" style="color:#FF4545;">지금까지</span>
           </div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-            어떤 기업이든 심층 분석. DART 재무 데이터, 6개 소스 뉴스, GitHub 기술 성숙도, 조직 문화 신호를 종합해 12개 섹션 구조화 리포트를 생성합니다.
-          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:var(--text-tertiary);"></span>
+              <div>
+                <p class="font-medium t-primary">탭 30개 열고 복사·붙여넣기</p>
+                <p class="text-sm t-tertiary mt-1">뉴스, 공시, 채용공고, 후기... 일일이 탐색</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:var(--text-tertiary);"></span>
+              <div>
+                <p class="font-medium t-primary">4~8시간 소요</p>
+                <p class="text-sm t-tertiary mt-1">한 기업 제대로 파악하는 데만 반나절</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:var(--text-tertiary);"></span>
+              <div>
+                <p class="font-medium t-primary">비교가 불가능한 형태</p>
+                <p class="text-sm t-tertiary mt-1">각 기업 정보가 제각각 형식으로 산재</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:var(--text-tertiary);"></span>
+              <div>
+                <p class="font-medium t-primary">"느낌"으로 판단</p>
+                <p class="text-sm t-tertiary mt-1">수치 기반 비교 없이 주관적으로 결정</p>
+              </div>
+            </li>
+          </ul>
         </div>
-
-        <!-- match -->
-        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
-          <div class="flex items-start gap-4 mb-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-lg">🎯</div>
-            <div>
-              <code class="text-sm text-purple-600 dark:text-purple-400">hirekit match</code>
-              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">공고 매칭</h3>
+        <div class="card-hover surface rounded-2xl p-6 fade-up" style="border:1px solid rgba(49,130,246,0.3);">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center" style="background-color:rgba(0,196,113,0.1);">
+              <svg class="w-4 h-4" style="color:#00C471;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
             </div>
+            <span class="text-sm font-semibold" style="color:#00C471;">HireKit로</span>
           </div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-            채용 공고를 붙여넣으면 적합도 점수를 바로 확인. 스킬 갭 파악, 강점 부각, 지원서에서 어필할 프로젝트까지 제안합니다.
-          </p>
-        </div>
-
-        <!-- interview -->
-        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
-          <div class="flex items-start gap-4 mb-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-lg">🗣️</div>
-            <div>
-              <code class="text-sm text-green-600 dark:text-green-400">hirekit interview</code>
-              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">면접 준비</h3>
-            </div>
-          </div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-            실제 데이터 기반 맞춤 면접 질문 생성 — 기술 스택, 최신 뉴스, 비즈니스 과제 반영. 면접장에 들어가기 전에 미리 준비하세요.
-          </p>
-        </div>
-
-        <!-- resume -->
-        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
-          <div class="flex items-start gap-4 mb-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-lg">📄</div>
-            <div>
-              <code class="text-sm text-orange-600 dark:text-orange-400">hirekit resume</code>
-              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">이력서 리뷰</h3>
-            </div>
-          </div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-            지원 직무 대비 이력서 점수 산출. 키워드 정합성, 성과 문장, ATS 최적화까지 실질적인 피드백을 제공합니다.
-          </p>
-        </div>
-
-        <!-- coverletter -->
-        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
-          <div class="flex items-start gap-4 mb-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-pink-100 dark:bg-pink-900/30 flex items-center justify-center text-lg">✉️</div>
-            <div>
-              <code class="text-sm text-pink-600 dark:text-pink-400">hirekit coverletter</code>
-              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">자기소개서</h3>
-            </div>
-          </div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-            실제 기업 맥락을 반영한 맞춤 자기소개서 초안 작성. 비즈니스 과제, 제품, 가치관을 구체적으로 녹여냅니다 — 범용 템플릿과는 다릅니다.
-          </p>
-        </div>
-
-        <!-- sources -->
-        <div class="feature-card p-6 rounded-2xl bg-gray-50 dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d] hover:border-brand-300 dark:hover:border-brand-800">
-          <div class="flex items-start gap-4 mb-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-xl bg-yellow-100 dark:bg-yellow-900/30 flex items-center justify-center text-lg">🔌</div>
-            <div>
-              <code class="text-sm text-yellow-600 dark:text-yellow-400">hirekit sources</code>
-              <h3 class="font-semibold text-gray-900 dark:text-white mt-1">플러그인 시스템</h3>
-            </div>
-          </div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-            데이터 소스 플러그인을 목록 확인 및 관리. Python 20줄로 커스텀 소스를 추가하세요 — <code>@SourceRegistry.register</code>만 달면 바로 동작합니다.
-          </p>
-        </div>
-
-      </div>
-
-      <!-- Highlight cards -->
-      <div class="mt-8 grid sm:grid-cols-3 gap-4">
-        <div class="p-4 rounded-xl bg-brand-50 dark:bg-brand-900/10 border border-brand-200 dark:border-brand-800/40 flex items-center gap-3">
-          <span class="text-2xl">🤖</span>
-          <div>
-            <div class="font-semibold text-sm text-brand-900 dark:text-brand-300">LLM 선택 사용</div>
-            <div class="text-xs text-brand-700 dark:text-brand-500">AI 없이도 동작. OpenAI / Anthropic / Ollama로 기능 강화 가능.</div>
-          </div>
-        </div>
-        <div class="p-4 rounded-xl bg-green-50 dark:bg-green-900/10 border border-green-200 dark:border-green-800/40 flex items-center gap-3">
-          <span class="text-2xl">🔒</span>
-          <div>
-            <div class="font-semibold text-sm text-green-900 dark:text-green-300">프라이버시 우선</div>
-            <div class="text-xs text-green-700 dark:text-green-500">모든 데이터는 로컬에만 저장. 원격 추적 없음.</div>
-          </div>
-        </div>
-        <div class="p-4 rounded-xl bg-purple-50 dark:bg-purple-900/10 border border-purple-200 dark:border-purple-800/40 flex items-center gap-3">
-          <span class="text-2xl">⚡</span>
-          <div>
-            <div class="font-semibold text-sm text-purple-900 dark:text-purple-300">병렬 수집</div>
-            <div class="text-xs text-purple-700 dark:text-purple-500">8개 소스 동시 수집. 몇 시간이 아닌 몇 분.</div>
-          </div>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:#00C471;"></span>
+              <div>
+                <p class="font-medium t-primary">명령어 하나로 자동 수집</p>
+                <p class="text-sm t-tertiary mt-1">8개 소스를 병렬로 긁어서 통합 리포트 생성</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:#00C471;"></span>
+              <div>
+                <p class="font-medium t-primary">2분 소요</p>
+                <p class="text-sm t-tertiary mt-1">커피 한 잔 내리는 시간에 분석 완료</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:#00C471;"></span>
+              <div>
+                <p class="font-medium t-primary">동일 형식으로 비교 가능</p>
+                <p class="text-sm t-tertiary mt-1">카카오 vs 네이버 vs 토스를 나란히 비교</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background-color:#00C471;"></span>
+              <div>
+                <p class="font-medium t-primary">100점 스코어카드로 결정</p>
+                <p class="text-sm t-tertiary mt-1">데이터 기반 수치로 지원 우선순위 결정</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- DATA SOURCES -->
-  <section id="sources" class="py-24 px-4 bg-gray-50 dark:bg-[#0d1117]">
-    <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">8개 데이터 소스, 빈틈 없는 분석</h2>
-        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">공시 데이터부터 AI 시맨틱 검색까지 — 모든 각도를 커버합니다.</p>
+  <!-- Features -->
+  <section id="features" class="py-20 px-6">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">7가지 명령어, 하나의 도구</h2>
+        <p class="t-secondary">취업 준비의 모든 단계를 커버해요</p>
       </div>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-
-        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
-          <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">📊</span>
-            <span class="font-semibold dark:text-white">DART</span>
-            <span class="source-badge bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 ml-auto">KR</span>
+      <div class="grid md:grid-cols-3 gap-5 fade-up">
+        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
+            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
           </div>
-          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">금융감독원 전자공시 — 재무 데이터, 임직원 현황, 연봉 정보를 공식 경로에서 수집.</p>
-          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">DART_API_KEY</div>
+          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit analyze</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">기업 분석</h3>
+          <p class="text-sm t-secondary leading-relaxed">재무, 전략, 기술, 문화를 한 번에 분석해요. 8개 소스에서 데이터를 모아 종합 리포트로 정리해요.</p>
         </div>
-
-        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
-          <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">🟢</span>
-            <span class="font-semibold dark:text-white">Naver News</span>
-            <span class="source-badge bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 ml-auto">KR</span>
+        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
+            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
           </div>
-          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">최신 국내 뉴스, 블로그, 카페 게시물 — 조직 문화와 면접 후기 파악에 활용.</p>
-          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">NAVER_CLIENT_ID</div>
+          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit score</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">스코어카드</h3>
+          <p class="text-sm t-secondary leading-relaxed">100점 만점 스코어와 S~D 등급으로 지원 우선순위를 결정해요. 6개 차원을 수치로 비교할 수 있어요.</p>
         </div>
-
-        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
-          <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">🐙</span>
-            <span class="font-semibold dark:text-white">GitHub</span>
-            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
+            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
           </div>
-          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">기술 성숙도 점수 — 레포 활동량, 스택 다양성, 오픈소스 문화 신호 분석.</p>
-          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">gh CLI</div>
+          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit compare</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">기업 비교</h3>
+          <p class="text-sm t-secondary leading-relaxed">여러 기업을 나란히 비교해요. 어느 회사가 나에게 더 맞는지 수치로 판단할 수 있어요.</p>
         </div>
+        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
+            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit match</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">이력서 매칭</h3>
+          <p class="text-sm t-secondary leading-relaxed">내 이력서와 JD를 비교해서 적합도를 분석해요. 부족한 부분과 강점을 정확히 짚어줘요.</p>
+        </div>
+        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
+            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg>
+          </div>
+          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit interview</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">면접 질문</h3>
+          <p class="text-sm t-secondary leading-relaxed">기업별 예상 면접 질문과 답변 가이드를 생성해요. 최신 전략과 문화를 반영해요.</p>
+        </div>
+        <div class="card-hover rounded-2xl p-6" style="background-color:var(--bg-secondary);">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
+            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit report</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">리포트 저장</h3>
+          <p class="text-sm t-secondary leading-relaxed">분석 결과를 Markdown, JSON, HTML로 저장해요. 나중에 다시 꺼내보기 편해요.</p>
+        </div>
+        <div class="card-hover rounded-2xl p-6 md:col-start-2" style="background-color:var(--bg-secondary);">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background-color:#EBF3FE;">
+            <svg class="w-5 h-5" style="color:#3182F6;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+          </div>
+          <div class="font-mono text-xs mb-2" style="color:#3182F6;">hirekit batch</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:18px; line-height:1.5;">일괄 분석</h3>
+          <p class="text-sm t-secondary leading-relaxed">지원 목록 전체를 한 번에 분석해요. 여러 회사를 동시에 파악하고 우선순위를 정해요.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+  <!-- Data Sources -->
+  <section id="sources" class="py-20 px-6" style="background-color:var(--bg-secondary);">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">8개 소스, 하나의 리포트</h2>
+        <p class="t-secondary">국내외 핵심 데이터를 병렬로 수집해서 빠짐없이 보여줘요</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 fade-up">
+        <div class="card-hover surface rounded-2xl p-5">
           <div class="flex items-center gap-2 mb-3">
             <span class="text-xl">📰</span>
-            <span class="font-semibold dark:text-white">Google News</span>
-            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">국내</span>
           </div>
-          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">RSS 기반 글로벌 뉴스 피드. API 키 불필요 — 설치 즉시 무료 사용.</p>
-          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">키 없음</div>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">네이버 뉴스</h3>
+          <p class="text-sm t-secondary">최신 기업 뉴스와 이슈를 실시간 수집해요</p>
         </div>
-
-        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+        <div class="card-hover surface rounded-2xl p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">📋</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">국내</span>
+          </div>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">DART 공시</h3>
+          <p class="text-sm t-secondary">금융감독원 전자공시로 재무 데이터를 정확하게 가져와요</p>
+        </div>
+        <div class="card-hover surface rounded-2xl p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🔍</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">글로벌</span>
+          </div>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">Google News</h3>
+          <p class="text-sm t-secondary">영문 뉴스까지 커버해서 글로벌 시각을 더해요</p>
+        </div>
+        <div class="card-hover surface rounded-2xl p-5">
           <div class="flex items-center gap-2 mb-3">
             <span class="text-xl">🌐</span>
-            <span class="font-semibold dark:text-white">Credible News</span>
-            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">글로벌</span>
           </div>
-          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">Reuters, Bloomberg, FT, WSJ 및 국내 주요 경제지를 취합해 신뢰도 순으로 정렬.</p>
-          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">키 없음</div>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">Brave Search</h3>
+          <p class="text-sm t-secondary">독립 검색엔진으로 편향 없는 결과를 수집해요</p>
         </div>
-
-        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+        <div class="card-hover surface rounded-2xl p-5">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">🦁</span>
-            <span class="font-semibold dark:text-white">Brave Search</span>
-            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+            <span class="text-xl">⚡</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">글로벌</span>
           </div>
-          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">독립 웹 + 뉴스 시맨틱 검색. 구글에 의존하지 않는 프라이버시 중심 대안.</p>
-          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">BRAVE_API_KEY</div>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">Exa Search</h3>
+          <p class="text-sm t-secondary">AI 기반 시맨틱 검색으로 맥락에 맞는 자료를 찾아요</p>
         </div>
-
-        <div class="p-5 rounded-xl bg-white dark:bg-[#161b22] border border-gray-200 dark:border-[#21262d]">
+        <div class="card-hover surface rounded-2xl p-5">
           <div class="flex items-center gap-2 mb-3">
-            <span class="text-xl">🔮</span>
-            <span class="font-semibold dark:text-white">Exa Search</span>
-            <span class="source-badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 ml-auto">Global</span>
+            <span class="text-xl">📊</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">국내</span>
           </div>
-          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">AI 기반 시맨틱 심층 검색. 표면에 드러나지 않는 기업 맥락과 인사이트를 발굴합니다.</p>
-          <div class="mt-3 font-mono text-xs text-gray-400 dark:text-gray-600">EXA_API_KEY</div>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">네이버 검색</h3>
+          <p class="text-sm t-secondary">블로그·카페·지식인까지 국내 여론을 분석해요</p>
         </div>
+        <div class="card-hover surface rounded-2xl p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🗞️</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">글로벌</span>
+          </div>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">Credible News</h3>
+          <p class="text-sm t-secondary">신뢰도 높은 언론사 기사만 선별해서 분석해요</p>
+        </div>
+        <div class="card-hover surface rounded-2xl p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">💼</span>
+            <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">국내</span>
+          </div>
+          <h3 class="font-semibold t-primary mb-1" style="font-size:15px;">채용 공고</h3>
+          <p class="text-sm t-secondary">현재 채용 중인 포지션으로 전략 방향을 읽어요</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Custom source CTA -->
-        <div class="p-5 rounded-xl bg-brand-50 dark:bg-brand-900/10 border border-dashed border-brand-300 dark:border-brand-800 flex flex-col justify-between">
-          <div>
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-xl">➕</span>
-              <span class="font-semibold dark:text-white text-brand-700 dark:text-brand-400">나만의 소스</span>
+  <!-- Scorecard Demo -->
+  <section class="py-20 px-6">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">스코어카드 미리보기</h2>
+        <p class="t-secondary">카카오 실제 분석 결과예요</p>
+      </div>
+      <div class="rounded-2xl overflow-hidden fade-up" style="border:1px solid var(--border);">
+        <div class="flex items-center gap-2 px-5 py-3" style="background-color:var(--bg-tertiary);">
+          <span class="w-3 h-3 rounded-full" style="background-color:rgba(255,69,69,0.5);"></span>
+          <span class="w-3 h-3 rounded-full" style="background-color:rgba(255,149,0,0.5);"></span>
+          <span class="w-3 h-3 rounded-full" style="background-color:rgba(0,196,113,0.5);"></span>
+          <span class="ml-3 text-xs font-mono t-tertiary">terminal</span>
+        </div>
+        <pre class="font-mono text-sm p-6 overflow-x-auto leading-relaxed" style="background-color:#0F1117; color:#E2E8F0;"><code><span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit score 카카오</span>
+
+<span style="color:#F2F4F6; font-weight:500;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+<span style="color:#F2F4F6; font-weight:500;">  HireKit Scorecard — 카카오</span>
+<span style="color:#F2F4F6; font-weight:500;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
+
+<span style="color:#B0B8C1;">  종합 점수</span>   <span style="color:#3182F6; font-weight:500;">78 / 100</span>   <span style="color:#3182F6;">[B]</span>
+
+  <span style="color:#B0B8C1;">재무 건전성</span>  <span style="color:#00C471;">██████████████████░░</span>  <span style="color:#F2F4F6;">87 / 100</span>  <span style="color:#00C471;">[A]</span>
+  <span style="color:#B0B8C1;">성장 모멘텀</span>  <span style="color:#FF9500;">████████████░░░░░░░░</span>  <span style="color:#F2F4F6;">62 / 100</span>  <span style="color:#FF9500;">[B]</span>
+  <span style="color:#B0B8C1;">기술 역량  </span>  <span style="color:#00C471;">████████████████░░░░</span>  <span style="color:#F2F4F6;">82 / 100</span>  <span style="color:#00C471;">[A]</span>
+  <span style="color:#B0B8C1;">조직 문화  </span>  <span style="color:#FF9500;">███████████░░░░░░░░░</span>  <span style="color:#F2F4F6;">58 / 100</span>  <span style="color:#FF9500;">[B]</span>
+  <span style="color:#B0B8C1;">시장 지위  </span>  <span style="color:#00C471;">███████████████░░░░░</span>  <span style="color:#F2F4F6;">78 / 100</span>  <span style="color:#00C471;">[A]</span>
+  <span style="color:#B0B8C1;">미래 전망  </span>  <span style="color:#FF9500;">████████████░░░░░░░░</span>  <span style="color:#F2F4F6;">65 / 100</span>  <span style="color:#FF9500;">[B]</span>
+
+<span style="color:#6B7684;">  ──────────────────────────────────────────────────</span>
+<span style="color:#B0B8C1;">  요약: AI 전환 기조는 명확하나 광고 수익 의존도가</span>
+<span style="color:#B0B8C1;">        여전히 높아 단기 성장성은 제한적이에요.</span>
+<span style="color:#B0B8C1;">        카카오뱅크·카카오페이 시너지 여부가 관건.</span>
+<span style="color:#6B7684;">  ──────────────────────────────────────────────────</span>
+<span style="color:#6B7684;">  소스: 7개 · 수집 시간: 1m 43s</span></code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Start -->
+  <section id="quickstart" class="py-20 px-6" style="background-color:var(--bg-secondary);">
+    <div class="max-w-[680px] mx-auto">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">3단계로 시작해요</h2>
+        <p class="t-secondary">Python 3.9 이상이면 바로 사용할 수 있어요</p>
+      </div>
+      <div class="space-y-4 fade-up">
+        <div class="surface rounded-2xl p-6" style="border:1px solid var(--border);">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0" style="background-color:#3182F6;">1</div>
+            <h3 class="font-semibold t-primary">설치해요</h3>
+          </div>
+          <div class="rounded-xl overflow-hidden" style="background-color:var(--bg-secondary);">
+            <div class="px-4 py-2" style="border-bottom:1px solid var(--border);">
+              <span class="text-xs font-mono t-tertiary">bash</span>
             </div>
-            <p class="text-xs text-brand-600 dark:text-brand-500 leading-relaxed"><code class="bg-brand-100 dark:bg-brand-900/40 text-brand-700 dark:text-brand-400">@SourceRegistry.register</code>와 Python 20줄로 커스텀 플러그인을 만들어보세요.</p>
+            <pre class="p-4 text-sm font-mono t-primary overflow-x-auto"><code>pip install hirekit</code></pre>
           </div>
-          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener"
-            class="mt-4 inline-block text-xs font-medium text-brand-600 dark:text-brand-400 hover:underline">
-            소스 기여하기 →
+        </div>
+        <div class="surface rounded-2xl p-6" style="border:1px solid var(--border);">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0" style="background-color:#3182F6;">2</div>
+            <h3 class="font-semibold t-primary">API 키를 설정해요</h3>
+          </div>
+          <div class="rounded-xl overflow-hidden" style="background-color:var(--bg-secondary);">
+            <div class="px-4 py-2" style="border-bottom:1px solid var(--border);">
+              <span class="text-xs font-mono t-tertiary">~/.hirekit.env</span>
+            </div>
+            <pre class="p-4 text-sm font-mono t-secondary overflow-x-auto"><code>OPENAI_API_KEY=sk-...
+DART_API_KEY=...         <span class="t-tertiary"># 선택, 재무 데이터</span>
+BRAVE_API_KEY=...        <span class="t-tertiary"># 선택, 검색 강화</span></code></pre>
+          </div>
+          <p class="mt-3 text-xs t-tertiary">DART API 키는 <a href="https://opendart.fss.or.kr" target="_blank" class="hover:underline" style="color:#3182F6;">opendart.fss.or.kr</a>에서 무료로 발급받을 수 있어요</p>
+        </div>
+        <div class="surface rounded-2xl p-6" style="border:1px solid var(--border);">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0" style="background-color:#3182F6;">3</div>
+            <h3 class="font-semibold t-primary">바로 실행해요</h3>
+          </div>
+          <div class="rounded-xl overflow-hidden" style="background-color:var(--bg-secondary);">
+            <div class="px-4 py-2" style="border-bottom:1px solid var(--border);">
+              <span class="text-xs font-mono t-tertiary">bash</span>
+            </div>
+            <pre class="p-4 text-sm font-mono t-primary overflow-x-auto"><code>hirekit analyze 카카오
+hirekit score 카카오
+hirekit compare 카카오 네이버 토스</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section class="py-20 px-6">
+    <div class="max-w-[680px] mx-auto">
+      <div class="text-center mb-12 fade-up">
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px;">로드맵</h2>
+        <p class="t-secondary">HireKit이 나아가는 방향이에요</p>
+      </div>
+      <div class="space-y-0 fade-up">
+        <div class="flex gap-5">
+          <div class="flex flex-col items-center">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color:#00C471;">
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <div class="w-0.5 flex-1 mt-2" style="background-color:var(--border);"></div>
+          </div>
+          <div class="pb-8">
+            <div class="mb-2">
+              <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">Phase 1 완료</span>
+            </div>
+            <h3 class="font-semibold t-primary mb-1">기초 분석 엔진</h3>
+            <p class="text-sm t-secondary">8개 소스 수집, 스코어카드, CLI 인터페이스, DART 연동</p>
+          </div>
+        </div>
+        <div class="flex gap-5">
+          <div class="flex flex-col items-center">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color:#00C471;">
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <div class="w-0.5 flex-1 mt-2" style="background-color:var(--border);"></div>
+          </div>
+          <div class="pb-8">
+            <div class="mb-2">
+              <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:rgba(0,196,113,0.1); color:#00C471;">Phase 2 완료</span>
+            </div>
+            <h3 class="font-semibold t-primary mb-1">이력서 매칭 &amp; 면접 준비</h3>
+            <p class="text-sm t-secondary">JD 매칭 분석, 예상 면접 질문, 비교 분석, 일괄 처리</p>
+          </div>
+        </div>
+        <div class="flex gap-5">
+          <div class="flex items-center">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color:rgba(49,130,246,0.15); border:2px solid #3182F6;">
+              <div class="w-2 h-2 rounded-full" style="background-color:#3182F6;"></div>
+            </div>
+          </div>
+          <div class="pb-2">
+            <div class="mb-2">
+              <span class="text-xs font-medium px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;">Phase 3 진행 중</span>
+            </div>
+            <h3 class="font-semibold t-primary mb-1">웹 대시보드 &amp; 팀 기능</h3>
+            <p class="text-sm t-secondary">시각화 대시보드, 분석 히스토리, 팀 공유, Slack 연동</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 px-6" style="border-top:1px solid var(--border);">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <div class="font-bold t-primary mb-1">HireKit</div>
+          <div class="text-sm t-tertiary">MIT License · Python 3.9+</div>
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-sm t-secondary hover:text-[#3182F6] transition-colors">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
           </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- DEMO -->
-  <section id="demo" class="py-24 px-4">
-    <div class="max-w-4xl mx-auto">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">직접 확인해보세요</h2>
-        <p class="text-gray-500 dark:text-gray-400">명령어 하나. 종합 스코어카드. 감에 의존하지 않아도 됩니다.</p>
-      </div>
-
-      <div class="terminal shadow-2xl shadow-black/30">
-        <div class="terminal-bar">
-          <div class="terminal-dot dot-red"></div>
-          <div class="terminal-dot dot-yellow"></div>
-          <div class="terminal-dot dot-green"></div>
-          <span class="terminal-title">zsh — hirekit analyze</span>
-        </div>
-        <div class="terminal-body overflow-x-auto">
-<pre><span class="c-prompt">❯</span> <span class="c-cmd">hirekit</span> analyze 카카오 <span class="c-flag">--no-llm</span> <span class="c-flag">-o</span> <span class="c-string">terminal</span>
-
-<span class="c-border">╭</span><span class="c-border">──────────────────── HireKit Analysis ─────────────────────</span><span class="c-border">╮</span>
-<span class="c-border">│</span> <span class="c-output">Analyzing: 카카오                                         </span><span class="c-border">│</span>
-<span class="c-border">│</span> <span class="c-output">Region: <span class="c-blue">kr</span>  Tier: <span class="c-blue">1</span>  LLM: <span class="c-yellow">off</span>                             </span><span class="c-border">│</span>
-<span class="c-border">╰</span><span class="c-border">─────────────────────────────────────────────────────────────</span><span class="c-border">╯</span>
-
-<span class="c-comment">  Collecting from 8 sources in parallel...</span>
-  <span class="c-green">✓</span> DART financials          <span class="c-dim">123ms</span>
-  <span class="c-green">✓</span> Naver News (32 articles)  <span class="c-dim">210ms</span>
-  <span class="c-green">✓</span> GitHub tech scoring       <span class="c-dim">380ms</span>
-  <span class="c-green">✓</span> Google News RSS           <span class="c-dim">195ms</span>
-  <span class="c-green">✓</span> Credible News             <span class="c-dim">290ms</span>
-  <span class="c-green">✓</span> Brave Search              <span class="c-dim">445ms</span>
-  <span class="c-green">✓</span> Exa semantic search       <span class="c-dim">512ms</span>
-  <span class="c-green">✓</span> Glassdoor reviews         <span class="c-dim">340ms</span>
-
-  <span class="c-output">15 results collected across 8 sources in <span class="c-green">512ms</span></span>
-
-<span class="c-header">                     카카오 Scorecard</span>
-<span class="c-border">┌─────────────────────┬────────┬────────┬──────────────────────┐</span>
-<span class="c-border">│</span> <span class="c-output">Dimension           </span><span class="c-border">│</span> <span class="c-output">Weight </span><span class="c-border">│</span> <span class="c-output"> Score </span><span class="c-border">│</span> <span class="c-output">Evidence             </span><span class="c-border">│</span>
-<span class="c-border">├─────────────────────┼────────┼────────┼──────────────────────┤</span>
-<span class="c-border">│</span> <span class="c-output">Job Fit             </span><span class="c-border">│</span>    <span class="c-yellow">30%</span> <span class="c-border">│</span>  <span class="c-blue">3.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Tech stack data      </span><span class="c-border">│</span>
-<span class="c-border">│</span> <span class="c-output">Career Leverage     </span><span class="c-border">│</span>    <span class="c-yellow">20%</span> <span class="c-border">│</span>  <span class="c-green">4.6</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">15 data points       </span><span class="c-border">│</span>
-<span class="c-border">│</span> <span class="c-output">Growth Potential    </span><span class="c-border">│</span>    <span class="c-yellow">20%</span> <span class="c-border">│</span>  <span class="c-green">4.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Financials + news    </span><span class="c-border">│</span>
-<span class="c-border">│</span> <span class="c-output">Compensation        </span><span class="c-border">│</span>    <span class="c-yellow">15%</span> <span class="c-border">│</span>  <span class="c-blue">3.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">DART salary data     </span><span class="c-border">│</span>
-<span class="c-border">│</span> <span class="c-output">Culture Fit         </span><span class="c-border">│</span>    <span class="c-yellow">15%</span> <span class="c-border">│</span>  <span class="c-green">4.5</span><span class="c-dim">/5</span> <span class="c-border">│</span> <span class="c-output">Reviews + Exa        </span><span class="c-border">│</span>
-<span class="c-border">├─────────────────────┼────────┼────────┼──────────────────────┤</span>
-<span class="c-border">│</span> <span class="c-output">Total               </span><span class="c-border">│</span>        <span class="c-border">│</span> <span class="c-grade"> 82/100</span> <span class="c-border">│</span> <span class="c-grade">Grade S              </span><span class="c-border">│</span>
-<span class="c-border">└─────────────────────┴────────┴────────┴──────────────────────┘</span>
-
-<span class="c-comment">  Report saved → ./reports/카카오_analysis.md</span></pre>
+          <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">PyPI</a>
+          <a href="en.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">English</a>
         </div>
       </div>
-
-      <p class="text-center text-sm text-gray-500 dark:text-gray-600 mt-4">
-        8개 데이터 소스 · 15개 결과 · 병렬 수집 · LLM 불필요
-      </p>
-    </div>
-  </section>
-
-  <!-- QUICK START -->
-  <section id="quickstart" class="py-24 px-4 bg-gray-50 dark:bg-[#0d1117]">
-    <div class="max-w-4xl mx-auto">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">시작하기</h2>
-        <p class="text-gray-500 dark:text-gray-400">세 단계만 거치면 기업 분석 리포트 완성.</p>
-      </div>
-
-      <div class="space-y-6">
-
-        <!-- Step 1 -->
-        <div class="flex gap-6 items-start">
-          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">1</div>
-          <div class="flex-1 pb-8 border-b border-gray-200 dark:border-[#21262d] last:border-0">
-            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">HireKit 설치</h3>
-            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">Python 3.11 이상 필요. pip으로 바로 설치됩니다.</p>
-            <div class="terminal text-sm">
-              <div class="terminal-bar">
-                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
-              </div>
-              <div class="terminal-body py-3">
-<pre><span class="c-comment"># 기본 설치</span>
-<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> hirekit
-
-<span class="c-comment"># LLM 지원 포함 설치 (원하는 것 선택)</span>
-<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[openai]"</span>     <span class="c-comment"># OpenAI</span>
-<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[anthropic]"</span>  <span class="c-comment"># Claude</span>
-<span class="c-prompt">$</span> <span class="c-cmd">pip install</span> <span class="c-string">"hirekit[ollama]"</span>     <span class="c-comment"># 로컬 모델</span></pre>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 2 -->
-        <div class="flex gap-6 items-start">
-          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">2</div>
-          <div class="flex-1 pb-8 border-b border-gray-200 dark:border-[#21262d] last:border-0">
-            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">API 키 설정</h3>
-            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">대화형 설정 마법사를 실행하세요. DART + GitHub만으로도 시작할 수 있고, 나머지는 선택 사항입니다.</p>
-            <div class="terminal text-sm">
-              <div class="terminal-bar">
-                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
-              </div>
-              <div class="terminal-body py-3">
-<pre><span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> configure
-
-<span class="c-comment"># ~/.hirekit/config.toml에 저장됩니다</span>
-<span class="c-comment"># 직접 편집도 가능:</span>
-
-<span class="c-output">[sources]</span>
-<span class="c-output">enabled = [<span class="c-string">"dart"</span>, <span class="c-string">"github"</span>, <span class="c-string">"naver_news"</span>]</span>
-
-<span class="c-output">[llm]</span>
-<span class="c-output">provider = <span class="c-string">"none"</span>  <span class="c-comment"># 또는 "openai", "anthropic", "ollama"</span></span></pre>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 3 -->
-        <div class="flex gap-6 items-start">
-          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm shadow-lg shadow-brand-600/30">3</div>
-          <div class="flex-1">
-            <h3 class="font-semibold text-gray-900 dark:text-white mb-1">첫 번째 분석 실행</h3>
-            <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">국내외 어떤 기업이든 분석 가능. 터미널에서 확인하거나 Markdown으로 저장할 수 있습니다.</p>
-            <div class="terminal text-sm">
-              <div class="terminal-bar">
-                <div class="terminal-dot dot-red"></div><div class="terminal-dot dot-yellow"></div><div class="terminal-dot dot-green"></div>
-              </div>
-              <div class="terminal-body py-3">
-<pre><span class="c-comment"># 기업 분석</span>
-<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> analyze 카카오
-
-<span class="c-comment"># 채용 공고 매칭</span>
-<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> match <span class="c-flag">--jd</span> job.txt <span class="c-flag">--company</span> kakao
-
-<span class="c-comment"># 면접 준비</span>
-<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> interview 카카오
-
-<span class="c-comment"># 데이터 소스 목록 확인</span>
-<span class="c-prompt">$</span> <span class="c-cmd">hirekit</span> sources</pre>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ROADMAP -->
-  <section id="roadmap" class="py-24 px-4">
-    <div class="max-w-3xl mx-auto">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">로드맵</h2>
-        <p class="text-gray-500 dark:text-gray-400">지금까지 걸어온 길과 앞으로 나아갈 방향.</p>
-      </div>
-
-      <div class="relative pl-8 border-l-2 border-gray-200 dark:border-[#21262d] space-y-10">
-
-        <!-- Phase 1 -->
-        <div class="relative">
-          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-green-500 border-2 border-white dark:border-[#0d1117] flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <div class="flex items-center gap-3 mb-2">
-            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">Phase 1 — 완료</span>
-          </div>
-          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">기반 구축</h3>
-          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> DART 전자공시 연동</li>
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> GitHub 기술 성숙도 점수화</li>
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 멀티소스 뉴스 수집</li>
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 5개 차원 가중 스코어카드 (100점 만점)</li>
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 구조화 Markdown 리포트 (12개 섹션)</li>
-          </ul>
-        </div>
-
-        <!-- Phase 2 -->
-        <div class="relative">
-          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-green-500 border-2 border-white dark:border-[#0d1117] flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <div class="flex items-center gap-3 mb-2">
-            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400">Phase 2 — 완료</span>
-          </div>
-          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">취업 지원 도구 세트</h3>
-          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 스킬 갭 분석 포함 공고 매칭 (<code>hirekit match</code>)</li>
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 기업 맞춤 면접 준비 (<code>hirekit interview</code>)</li>
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 이력서 리뷰 및 점수화 (<code>hirekit resume</code>)</li>
-            <li class="flex items-center gap-2"><span class="text-green-500">✓</span> 맞춤 자기소개서 생성</li>
-          </ul>
-        </div>
-
-        <!-- Phase 3 -->
-        <div class="relative">
-          <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-brand-500 border-2 border-white dark:border-[#0d1117] animate-pulse"></div>
-          <div class="flex items-center gap-3 mb-2">
-            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-400">Phase 3 — 진행 중</span>
-          </div>
-          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">확장 및 커뮤니티</h3>
-          <ul class="space-y-1 text-sm text-gray-600 dark:text-gray-400">
-            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> SEC Edgar 연동으로 미국 기업 지원</li>
-            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> CLI를 쓰지 않는 사용자를 위한 Web UI</li>
-            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> 커뮤니티 플러그인 마켓플레이스</li>
-            <li class="flex items-center gap-2"><span class="text-brand-400">◦</span> PyPI 정식 릴리스</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTRIBUTING CTA -->
-  <section class="py-20 px-4 bg-gray-50 dark:bg-[#161b22]">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-2xl sm:text-3xl font-bold dark:text-white mb-4">오픈소스 커뮤니티와 함께 만들어가요</h2>
-      <p class="text-gray-500 dark:text-gray-400 mb-8 max-w-xl mx-auto leading-relaxed">
-        HireKit은 오픈소스입니다. 새로운 데이터 소스 추가, 리포트 템플릿 개선, 다국어 지원 확장 등 어떤 기여든 환영합니다 — 당신의 코드가 모든 취업 준비자에게 도움이 됩니다.
-      </p>
-      <div class="flex flex-wrap justify-center gap-4">
-        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener"
-          class="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold text-sm hover:opacity-90 transition-opacity">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-          </svg>
-          GitHub에서 보기
-        </a>
-        <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener"
-          class="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-gray-300 dark:border-[#30363d] text-gray-700 dark:text-gray-300 font-semibold text-sm hover:border-gray-400 dark:hover:border-[#484f58] transition-colors">
-          기여 가이드
-        </a>
-        <a href="https://github.com/zihoshin-dev/hirekit/issues/new?labels=good+first+issue" target="_blank" rel="noopener"
-          class="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-gray-300 dark:border-[#30363d] text-gray-700 dark:text-gray-300 font-semibold text-sm hover:border-gray-400 dark:hover:border-[#484f58] transition-colors">
-          Good First Issues
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="py-12 px-4 border-t border-gray-200 dark:border-[#21262d]">
-    <div class="max-w-4xl mx-auto">
-      <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
-        <div class="flex items-center gap-2 text-gray-900 dark:text-white font-semibold">
-          <span class="text-xl">🎯</span>
-          <span>HireKit</span>
-        </div>
-        <div class="flex flex-wrap justify-center gap-6 text-sm text-gray-500 dark:text-gray-400">
-          <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a>
-          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">기여하기</a>
-          <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">MIT 라이선스</a>
-          <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-white transition-colors">PyPI</a>
-        </div>
-      </div>
-      <div class="mt-8 text-center text-xs text-gray-400 dark:text-gray-600">
-        취업·이직을 준비하는 모든 분들을 위해 정성껏 만들었습니다. · MIT 라이선스 오픈소스.
+      <div class="mt-8 pt-8 text-center text-xs t-tertiary" style="border-top:1px solid var(--border);">
+        데이터 수집은 각 서비스의 이용 약관을 준수해요. 투자 결정의 근거로 사용하지 마세요.
       </div>
     </div>
   </footer>
 
   <script>
-    // ── Dark mode ──────────────────────────────────────────────
+    // Dark mode
     const html = document.documentElement;
+    const themeToggle = document.getElementById('themeToggle');
+    const iconSun = document.getElementById('iconSun');
+    const iconMoon = document.getElementById('iconMoon');
 
-    // Initialise from localStorage or system preference
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      html.classList.add('dark');
+    function applyTheme(dark) {
+      if (dark) {
+        html.classList.add('dark');
+        iconSun.classList.remove('hidden');
+        iconMoon.classList.add('hidden');
+      } else {
+        html.classList.remove('dark');
+        iconSun.classList.add('hidden');
+        iconMoon.classList.remove('hidden');
+      }
     }
 
-    document.getElementById('theme-toggle').addEventListener('click', () => {
-      html.classList.toggle('dark');
-      localStorage.theme = html.classList.contains('dark') ? 'dark' : 'light';
+    const stored = localStorage.getItem('hk-theme');
+    if (stored === 'dark') applyTheme(true);
+    else if (stored === 'light') applyTheme(false);
+    else if (window.matchMedia('(prefers-color-scheme: dark)').matches) applyTheme(true);
+
+    themeToggle.addEventListener('click', () => {
+      const isDark = html.classList.contains('dark');
+      applyTheme(!isDark);
+      localStorage.setItem('hk-theme', isDark ? 'light' : 'dark');
     });
 
-    // ── Copy install command ───────────────────────────────────
-    function copyInstall(el) {
-      navigator.clipboard.writeText('pip install hirekit').then(() => {
-        const icon = el.querySelector('svg');
-        const original = icon.innerHTML;
-        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />';
-        setTimeout(() => { icon.innerHTML = original; }, 1800);
-      });
-    }
-
-    // ── Scroll-triggered fade-in ───────────────────────────────
+    // Fade-up observer
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.style.opacity = '1';
-          entry.target.style.transform = 'translateY(0)';
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
         }
       });
     }, { threshold: 0.1 });
-
-    document.querySelectorAll('.feature-card').forEach(el => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(16px)';
-      el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-      observer.observe(el);
-    });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
   </script>
-
 </body>
 </html>

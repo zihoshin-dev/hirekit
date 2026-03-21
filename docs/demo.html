@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="ko" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HireKit Demo — Try It Without Installing</title>
-  <meta name="description" content="Experience HireKit's AI-powered company analysis without installing anything. Select a company, paste a JD, upload your resume — see results in seconds." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
+  <title>HireKit 데모 — 기업 분석 체험</title>
+  <meta name="description" content="HireKit 데모: 기업을 선택하고 JD와 이력서를 입력하면 스코어카드와 리포트를 바로 볼 수 있어요." />
+  <meta property="og:title" content="HireKit 데모 — 기업 분석 체험" />
+  <meta property="og:description" content="80개 기업 데이터로 스코어카드와 매칭 분석을 체험해보세요." />
+  <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
+  <meta property="og:image:width" content="1400" />
+  <meta property="og:image:height" content="763" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -13,1283 +24,1004 @@
       theme: {
         extend: {
           fontFamily: {
+            sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
             mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
-            display: ['Syne', 'sans-serif'],
-            body: ['DM Sans', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              50:  '#f0f9ff',
-              100: '#e0f2fe',
-              200: '#bae6fd',
-              300: '#7dd3fc',
-              400: '#38bdf8',
-              500: '#0ea5e9',
-              600: '#0284c7',
-              700: '#0369a1',
-              800: '#075985',
-              900: '#0c4a6e',
-            },
-            surface: {
-              0:   '#0d1117',
-              1:   '#161b22',
-              2:   '#21262d',
-              3:   '#30363d',
-              4:   '#484f58',
-            }
-          },
-          animation: {
-            'fade-in':       'fadeIn 0.4s ease-out forwards',
-            'slide-up':      'slideUp 0.4s ease-out forwards',
-            'slide-in-right':'slideInRight 0.35s ease-out forwards',
-            'bar-fill':      'barFill 0.8s cubic-bezier(.4,0,.2,1) forwards',
-            'pulse-dot':     'pulseDot 1.4s ease-in-out infinite',
-            'shimmer':       'shimmer 1.6s linear infinite',
-            'blink':         'blink 1s step-end infinite',
-            'spin-slow':     'spin 2s linear infinite',
-            'score-count':   'scoreCount 1.2s ease-out forwards',
-          },
-          keyframes: {
-            fadeIn:       { from: { opacity: 0 }, to: { opacity: 1 } },
-            slideUp:      { from: { opacity: 0, transform: 'translateY(16px)' }, to: { opacity: 1, transform: 'translateY(0)' } },
-            slideInRight: { from: { opacity: 0, transform: 'translateX(20px)' }, to: { opacity: 1, transform: 'translateX(0)' } },
-            barFill:      { from: { width: '0%' }, to: { width: 'var(--target-w)' } },
-            pulseDot:     { '0%,100%': { opacity: 1, transform: 'scale(1)' }, '50%': { opacity: 0.4, transform: 'scale(0.8)' } },
-            shimmer:      { from: { backgroundPosition: '-200% 0' }, to: { backgroundPosition: '200% 0' } },
-            blink:        { '0%,100%': { opacity: 1 }, '50%': { opacity: 0 } },
           },
         },
       },
-    };
+    }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-
   <style>
-    *, *::before, *::after { box-sizing: border-box; }
-    html { scroll-padding-top: 72px; }
-    body { font-family: 'DM Sans', sans-serif; background: #0d1117; color: #e6edf3; }
+    :root {
+      --bg: #FFFFFF;
+      --bg-secondary: #F4F5F7;
+      --bg-tertiary: #EAEBEE;
+      --text-primary: #191F28;
+      --text-secondary: #4E5968;
+      --text-tertiary: #8B95A1;
+      --border: #E5E8EB;
+    }
+    html.dark {
+      --bg: #17171C;
+      --bg-secondary: #1E1E24;
+      --bg-tertiary: #2C2C35;
+      --text-primary: #F2F4F6;
+      --text-secondary: #B0B8C1;
+      --text-tertiary: #6B7684;
+      --border: #2C2C35;
+    }
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-primary);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    pre, code, .font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .t-primary { color: var(--text-primary); }
+    .t-secondary { color: var(--text-secondary); }
+    .t-tertiary { color: var(--text-tertiary); }
+    .surface { background-color: var(--bg); }
+    .surface-secondary { background-color: var(--bg-secondary); }
+    .btn-click:active { transform: scale(0.98); }
+    .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    html.dark .card-hover:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
 
-    /* ── Nav blur ── */
-    .nav-blur {
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-    }
+    /* Wizard steps */
+    .step-panel { display: none; }
+    .step-panel.active { display: block; }
 
-    /* ── Terminal chrome ── */
-    .terminal {
-      background: #0d1117;
-      border: 1px solid #30363d;
-      border-radius: 12px;
-      overflow: hidden;
-    }
-    .terminal-bar {
-      background: #161b22;
-      padding: 10px 16px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      border-bottom: 1px solid #30363d;
-    }
-    .terminal-dot { width: 11px; height: 11px; border-radius: 50%; }
-    .dot-red    { background: #ff5f57; }
-    .dot-yellow { background: #ffbd2e; }
-    .dot-green  { background: #28c840; }
-    .terminal-title { color: #8b949e; font-size: 12px; margin-left: 8px; font-family: 'JetBrains Mono', monospace; }
-    .terminal-body  { padding: 20px 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.9; }
+    /* Progress */
+    .progress-step { transition: all 0.25s ease; }
 
-    /* ── Syntax colors ── */
-    .c-prompt  { color: #7ee787; }
-    .c-cmd     { color: #79c0ff; }
-    .c-flag    { color: #ff7b72; }
-    .c-string  { color: #a5d6ff; }
-    .c-comment { color: #8b949e; }
-    .c-output  { color: #e6edf3; }
-    .c-dim     { color: #484f58; }
-    .c-green   { color: #56d364; }
-    .c-yellow  { color: #e3b341; }
-    .c-blue    { color: #79c0ff; }
-    .c-orange  { color: #ffa657; }
-    .c-purple  { color: #d2a8ff; }
-    .c-border  { color: #484f58; }
-    .c-header  { color: #58a6ff; }
-
-    /* ── Step wizard rail ── */
-    .step-rail {
-      position: relative;
-    }
-    .step-rail::before {
-      content: '';
-      position: absolute;
-      left: 20px;
-      top: 0;
-      bottom: 0;
-      width: 1px;
-      background: linear-gradient(to bottom, #30363d 0%, #30363d 100%);
-    }
-    @media (min-width: 768px) {
-      .step-rail::before { display: none; }
-    }
-
-    /* ── Progress line (desktop horizontal) ── */
-    .progress-track {
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-    .progress-track::before {
-      content: '';
-      position: absolute;
-      left: 0; right: 0;
-      top: 50%;
-      height: 1px;
-      background: #21262d;
-      transform: translateY(-50%);
-      z-index: 0;
-    }
-    .progress-fill {
-      position: absolute;
-      left: 0;
-      top: 50%;
-      height: 1px;
-      background: linear-gradient(to right, #0ea5e9, #38bdf8);
-      transform: translateY(-50%);
-      transition: width 0.5s cubic-bezier(.4,0,.2,1);
-      z-index: 1;
-    }
-
-    /* ── Step node ── */
-    .step-node {
-      width: 40px; height: 40px;
-      border-radius: 50%;
-      border: 1.5px solid #30363d;
-      background: #161b22;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 14px;
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 600;
-      position: relative;
-      z-index: 2;
-      transition: all 0.3s ease;
+    /* Company grid */
+    .company-card {
       cursor: pointer;
-      flex-shrink: 0;
+      border: 1.5px solid var(--border);
+      background-color: var(--bg);
+      border-radius: 12px;
+      padding: 14px 16px;
+      transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.15s ease;
     }
-    .step-node.active {
-      border-color: #0ea5e9;
-      background: rgba(14,165,233,0.15);
-      color: #38bdf8;
-      box-shadow: 0 0 0 4px rgba(14,165,233,0.08);
+    .company-card:hover { border-color: #3182F6; transform: translateY(-1px); }
+    .company-card.selected {
+      border-color: #3182F6;
+      background-color: #EBF3FE;
     }
-    .step-node.done {
-      border-color: #56d364;
-      background: rgba(86,211,100,0.12);
-      color: #56d364;
-    }
-    .step-node.inactive {
-      color: #484f58;
-    }
+    html.dark .company-card.selected { background-color: rgba(49,130,246,0.12); }
 
-    /* ── Wizard panels ── */
-    .wizard-panel {
-      display: none;
+    /* Tabs */
+    .tab-btn { transition: all 0.2s ease; }
+    .tab-btn.active {
+      color: #3182F6;
+      border-bottom: 2px solid #3182F6;
     }
-    .wizard-panel.active {
-      display: block;
-      animation: slideUp 0.35s ease-out forwards;
-    }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
 
-    /* ── Form inputs ── */
-    .hk-input {
-      width: 100%;
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 10px;
+    /* Score bar animation */
+    .score-bar { transition: width 1s cubic-bezier(0.4,0,0.2,1); }
+
+    /* Input */
+    textarea, input[type="text"], input[type="url"] {
+      background-color: var(--bg-secondary);
+      color: var(--text-primary);
+      border: 2px solid transparent;
+      border-radius: 12px;
       padding: 12px 16px;
-      color: #e6edf3;
-      font-family: 'DM Sans', sans-serif;
+      width: 100%;
+      font-family: inherit;
       font-size: 14px;
-      transition: border-color 0.2s, box-shadow 0.2s;
       outline: none;
+      transition: border-color 0.2s ease;
     }
-    .hk-input:focus {
-      border-color: #0ea5e9;
-      box-shadow: 0 0 0 3px rgba(14,165,233,0.12);
+    textarea:focus, input[type="text"]:focus, input[type="url"]:focus {
+      border-color: #3182F6;
     }
-    .hk-input::placeholder { color: #484f58; }
-    textarea.hk-input { resize: vertical; min-height: 120px; line-height: 1.6; }
+    textarea::placeholder, input::placeholder { color: var(--text-tertiary); }
 
-    /* ── Company chip ── */
-    .company-chip {
-      display: inline-flex; align-items: center; gap: 8px;
-      padding: 8px 14px;
-      border-radius: 8px;
-      border: 1.5px solid #30363d;
-      background: #161b22;
-      color: #8b949e;
-      font-size: 13px;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.18s ease;
-      user-select: none;
-    }
-    .company-chip:hover {
-      border-color: #0ea5e9;
-      color: #38bdf8;
-      background: rgba(14,165,233,0.06);
-    }
-    .company-chip.selected {
-      border-color: #0ea5e9;
-      background: rgba(14,165,233,0.12);
-      color: #38bdf8;
-    }
-
-    /* ── Upload zone ── */
-    .upload-zone {
-      border: 2px dashed #30363d;
+    /* Search input */
+    #companySearch {
+      background-color: var(--bg-secondary);
+      color: var(--text-primary);
+      border: 2px solid transparent;
       border-radius: 12px;
-      padding: 32px;
-      text-align: center;
-      cursor: pointer;
-      transition: all 0.2s ease;
+      padding: 12px 16px 12px 44px;
+      width: 100%;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.2s ease;
     }
-    .upload-zone:hover, .upload-zone.dragover {
-      border-color: #0ea5e9;
-      background: rgba(14,165,233,0.04);
-    }
+    #companySearch:focus { border-color: #3182F6; }
+    #companySearch::placeholder { color: var(--text-tertiary); }
 
-    /* ── Loading stream ── */
-    .stream-line {
-      opacity: 0;
-      transform: translateY(4px);
-      animation: slideUp 0.3s ease-out forwards;
-    }
-
-    /* ── Score bar ── */
-    .score-bar-track {
-      height: 6px;
-      background: #21262d;
-      border-radius: 9999px;
-      overflow: hidden;
-    }
-    .score-bar-fill {
-      height: 100%;
-      border-radius: 9999px;
-      width: 0;
-      transition: width 0.9s cubic-bezier(.4,0,.2,1);
-    }
-
-    /* ── Score ring (SVG) ── */
-    .score-ring-circle {
-      transition: stroke-dashoffset 1.2s cubic-bezier(.4,0,.2,1);
-    }
-
-    /* ── Shimmer skeleton ── */
-    .skeleton {
-      background: linear-gradient(90deg, #161b22 25%, #21262d 50%, #161b22 75%);
-      background-size: 200% 100%;
-      animation: shimmer 1.6s linear infinite;
-      border-radius: 6px;
-    }
-
-    /* ── Tab ── */
-    .result-tab {
-      padding: 8px 16px;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 500;
-      color: #8b949e;
-      cursor: pointer;
-      transition: all 0.18s;
-      white-space: nowrap;
-    }
-    .result-tab.active {
-      background: rgba(14,165,233,0.12);
-      color: #38bdf8;
-    }
-    .result-tab:hover:not(.active) {
-      background: #161b22;
-      color: #e6edf3;
-    }
-
-    /* ── Result panel ── */
-    .result-panel { display: none; }
-    .result-panel.active { display: block; animation: fadeIn 0.3s ease-out; }
-
-    /* ── Interview Q card ── */
-    .q-card {
-      background: #161b22;
-      border: 1px solid #21262d;
+    /* Snippet cards */
+    .snippet-card {
+      background-color: var(--bg-secondary);
       border-radius: 10px;
-      padding: 16px 20px;
-      transition: border-color 0.2s;
+      padding: 14px 16px;
+      margin-bottom: 8px;
     }
-    .q-card:hover { border-color: #30363d; }
-
-    /* ── Pill badge ── */
-    .pill {
-      display: inline-flex; align-items: center;
-      padding: 3px 10px;
-      border-radius: 9999px;
+    .snippet-source {
+      display: inline-block;
       font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-    }
-
-    /* ── Primary button ── */
-    .btn-primary {
-      display: inline-flex; align-items: center; gap: 8px;
-      padding: 11px 24px;
-      border-radius: 10px;
-      background: #0ea5e9;
-      color: #fff;
-      font-weight: 600;
-      font-size: 14px;
-      cursor: pointer;
-      border: none;
-      transition: background 0.18s, transform 0.1s, box-shadow 0.18s;
-      box-shadow: 0 4px 16px rgba(14,165,233,0.25);
-    }
-    .btn-primary:hover { background: #38bdf8; box-shadow: 0 6px 20px rgba(14,165,233,0.35); }
-    .btn-primary:active { transform: scale(0.98); }
-    .btn-primary:disabled { background: #21262d; color: #484f58; box-shadow: none; cursor: not-allowed; }
-
-    .btn-ghost {
-      display: inline-flex; align-items: center; gap: 8px;
-      padding: 11px 20px;
-      border-radius: 10px;
-      background: transparent;
-      color: #8b949e;
       font-weight: 500;
-      font-size: 14px;
-      cursor: pointer;
-      border: 1px solid #30363d;
-      transition: all 0.18s;
-    }
-    .btn-ghost:hover { border-color: #484f58; color: #e6edf3; }
-
-    /* ── Divider label ── */
-    .divider-label {
-      display: flex; align-items: center; gap: 12px;
-      color: #484f58; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
-    }
-    .divider-label::before, .divider-label::after {
-      content: ''; flex: 1; height: 1px; background: #21262d;
-    }
-
-    /* ── Glow hero ── */
-    .demo-hero-glow {
-      background: radial-gradient(ellipse 70% 50% at 50% -5%, rgba(14,165,233,0.18) 0%, transparent 65%);
-    }
-
-    /* ── Mobile nav drawer ── */
-    @media (max-width: 640px) {
-      .terminal-body { padding: 14px 16px; font-size: 11.5px; }
-    }
-
-    /* ── Inline code ── */
-    code {
-      background: rgba(110,118,129,0.2);
-      border-radius: 4px;
-      padding: 2px 6px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.85em;
-      color: #79c0ff;
-    }
-
-    /* ── Tooltip ── */
-    [data-tip] { position: relative; }
-    [data-tip]::after {
-      content: attr(data-tip);
-      position: absolute;
-      bottom: calc(100% + 8px);
-      left: 50%; transform: translateX(-50%);
-      background: #21262d;
-      border: 1px solid #30363d;
-      color: #e6edf3;
-      font-size: 11px;
-      padding: 4px 10px;
+      padding: 2px 8px;
       border-radius: 6px;
-      white-space: nowrap;
-      pointer-events: none;
-      opacity: 0;
-      transition: opacity 0.18s;
+      background-color: #EBF3FE;
+      color: #3182F6;
+      margin-bottom: 6px;
     }
-    [data-tip]:hover::after { opacity: 1; }
+    html.dark .snippet-source { background-color: rgba(49,130,246,0.15); }
+
+    nav { background-color: color-mix(in srgb, var(--bg) 80%, transparent); }
+
+    /* Grade colors */
+    .grade-s { color: #3182F6; }
+    .grade-a { color: #00C471; }
+    .grade-b { color: #FF9500; }
+    .grade-c { color: #FF6B00; }
+    .grade-d { color: #FF4545; }
+    .bar-s { background-color: #3182F6; }
+    .bar-a { background-color: #00C471; }
+    .bar-b { background-color: #FF9500; }
+    .bar-c { background-color: #FF6B00; }
+    .bar-d { background-color: #FF4545; }
   </style>
-<meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
-<meta property="og:image:width" content="1400" />
-<meta property="og:image:height" content="763" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
 </head>
-
 <body>
 
-<!-- ═══════════════════════════════════════════════════════ NAV -->
-<nav class="fixed top-0 inset-x-0 z-50 nav-blur bg-[#0d1117]/80 border-b border-[#21262d]">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-    <a href="index.html" class="flex items-center gap-2 font-bold text-lg">
-      <span class="text-2xl">🎯</span>
-      <span class="text-white font-display">HireKit</span>
-      <span class="pill bg-brand-900/40 text-brand-400 border border-brand-800/60 ml-1">Demo</span>
-    </a>
-    <div class="flex items-center gap-3">
-      <a href="index.html#quickstart"
-        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white transition-colors">
-        Install CLI
-        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-      </a>
-      <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener"
-        class="flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-white/10 hover:bg-white/15 text-white transition-colors border border-white/10">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-        </svg>
-        GitHub
-      </a>
-    </div>
-  </div>
-</nav>
-
-<!-- ═══════════════════════════════════════════════════════ HERO -->
-<section class="demo-hero-glow pt-28 pb-12 px-4 text-center">
-  <div class="max-w-3xl mx-auto">
-    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-900/30 border border-brand-800/50 text-brand-400 text-xs font-mono mb-6">
-      <span class="w-1.5 h-1.5 rounded-full bg-brand-400 animate-pulse-dot"></span>
-      No install required · Powered by cached analysis
-    </div>
-    <h1 class="text-4xl sm:text-5xl font-display font-bold text-white mb-4 tracking-tight leading-tight">
-      Try HireKit<br class="hidden sm:block" />
-      <span class="text-brand-400">in your browser</span>
-    </h1>
-    <p class="text-gray-400 text-base sm:text-lg max-w-xl mx-auto leading-relaxed">
-      Select a pre-analyzed company, add a job description and your resume — see the full analysis output in under 10 seconds.
-    </p>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════════════════ MAIN WIZARD -->
-<main class="max-w-3xl mx-auto px-4 pb-24">
-
-  <!-- ── Step Progress Rail (desktop) ── -->
-  <div class="mb-10 select-none">
-    <!-- Desktop -->
-    <div class="hidden sm:block">
-      <div class="progress-track justify-between">
-        <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
-        <!-- Step nodes -->
-        <div class="flex justify-between w-full relative z-10">
-          <button onclick="jumpToStep(1)" class="step-node active" id="node-1" aria-label="Step 1: Company">1</button>
-          <button onclick="jumpToStep(2)" class="step-node inactive" id="node-2" aria-label="Step 2: Job Description">2</button>
-          <button onclick="jumpToStep(3)" class="step-node inactive" id="node-3" aria-label="Step 3: Resume">3</button>
-          <button onclick="jumpToStep(4)" class="step-node inactive" id="node-4" aria-label="Step 4: Results">4</button>
-        </div>
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md" style="height:64px; border-bottom:1px solid var(--border);">
+    <div class="max-w-[1080px] mx-auto px-6 h-full flex items-center justify-between">
+      <a href="index.html" class="text-lg font-bold t-primary tracking-tight">HireKit</a>
+      <div class="hidden md:flex items-center gap-6">
+        <a href="index.html#features" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">기능</a>
+        <a href="index.html#sources" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">소스</a>
+        <a href="index.html#quickstart" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">시작하기</a>
+        <span class="text-sm font-medium" style="color:#3182F6;">데모</span>
       </div>
-      <div class="flex justify-between mt-3 px-0.5">
-        <span class="text-xs font-mono text-brand-400" id="label-1">Company</span>
-        <span class="text-xs font-mono text-surface-4" id="label-2">Job Description</span>
-        <span class="text-xs font-mono text-surface-4" id="label-3">Resume</span>
-        <span class="text-xs font-mono text-surface-4" id="label-4">Results</span>
-      </div>
-    </div>
-    <!-- Mobile -->
-    <div class="sm:hidden flex items-center gap-3">
-      <div class="flex gap-1.5">
-        <div class="h-1 w-8 rounded-full bg-brand-500" id="mob-1"></div>
-        <div class="h-1 w-8 rounded-full bg-surface-2" id="mob-2"></div>
-        <div class="h-1 w-8 rounded-full bg-surface-2" id="mob-3"></div>
-        <div class="h-1 w-8 rounded-full bg-surface-2" id="mob-4"></div>
-      </div>
-      <span class="text-xs font-mono text-gray-500" id="mob-label">Step 1 of 4 — Company</span>
-    </div>
-  </div>
-
-  <!-- ═══════════════ STEP 1: Company Selection ═══════════════ -->
-  <div class="wizard-panel active" id="panel-1">
-    <div class="bg-[#161b22] border border-[#21262d] rounded-2xl p-6 sm:p-8">
-      <div class="mb-6">
-        <h2 class="text-xl font-display font-bold text-white mb-1">Select a company</h2>
-        <p class="text-sm text-gray-500">Choose from pre-analyzed companies or type a custom name.</p>
-      </div>
-
-      <!-- Pre-analyzed chips -->
-      <div class="mb-6">
-        <p class="text-xs font-mono text-surface-4 uppercase tracking-widest mb-3">Pre-analyzed (instant results)</p>
-        <div class="flex flex-wrap gap-2" id="company-chips">
-          <button class="company-chip" onclick="selectCompany('카카오', this)">
-            <span>🟡</span> 카카오
-          </button>
-          <button class="company-chip" onclick="selectCompany('네이버', this)">
-            <span>🟢</span> 네이버
-          </button>
-          <button class="company-chip" onclick="selectCompany('토스', this)">
-            <span>🔵</span> 토스
-          </button>
-          <button class="company-chip" onclick="selectCompany('쿠팡', this)">
-            <span>🟠</span> 쿠팡
-          </button>
-          <button class="company-chip" onclick="selectCompany('라인', this)">
-            <span>🟤</span> 라인
-          </button>
-          <button class="company-chip" onclick="selectCompany('당근마켓', this)">
-            <span>🥕</span> 당근마켓
-          </button>
-        </div>
-      </div>
-
-      <div class="divider-label my-5">or type your own</div>
-
-      <!-- Custom input -->
-      <div class="relative">
-        <input
-          id="company-custom"
-          type="text"
-          class="hk-input pr-10"
-          placeholder="e.g. 삼성전자, Kakao, LINE..."
-          oninput="onCustomCompanyInput(this)"
-        />
-        <span class="absolute right-3 top-1/2 -translate-y-1/2 text-surface-4 font-mono text-xs">
-          <span class="animate-blink" id="cursor-indicator">_</span>
-        </span>
-      </div>
-
-      <div class="mt-2 min-h-[20px]">
-        <p class="text-xs text-surface-4 font-mono" id="company-note"></p>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="mt-4 flex justify-end">
-      <button class="btn-primary" id="btn-next-1" onclick="goToStep(2)" disabled>
-        Next: Job Description
-        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-      </button>
-    </div>
-  </div>
-
-  <!-- ═══════════════ STEP 2: Job Description ═══════════════ -->
-  <div class="wizard-panel" id="panel-2">
-    <div class="bg-[#161b22] border border-[#21262d] rounded-2xl p-6 sm:p-8">
-      <div class="mb-6">
-        <h2 class="text-xl font-display font-bold text-white mb-1">Add a job description</h2>
-        <p class="text-sm text-gray-500">Paste the JD or a URL so HireKit can calculate your fit score.</p>
-      </div>
-
-      <!-- JD URL -->
-      <div class="mb-4">
-        <label class="text-xs font-mono text-surface-4 uppercase tracking-widest block mb-2">Job Posting URL</label>
-        <input
-          id="jd-url"
-          type="url"
-          class="hk-input"
-          placeholder="https://www.wanted.co.kr/wd/..."
-          oninput="onJdInput()"
-        />
-      </div>
-
-      <div class="divider-label my-4">or paste text</div>
-
-      <!-- JD text -->
-      <div>
-        <label class="text-xs font-mono text-surface-4 uppercase tracking-widest block mb-2">Job Description Text</label>
-        <textarea
-          id="jd-text"
-          class="hk-input"
-          placeholder="We are looking for a Senior Backend Engineer to join our platform team...&#10;&#10;Requirements:&#10;- 5+ years of experience..."
-          oninput="onJdInput()"
-        ></textarea>
-      </div>
-
-      <!-- Sample JDs -->
-      <div class="mt-4">
-        <p class="text-xs font-mono text-surface-4 uppercase tracking-widest mb-2">Sample JDs</p>
-        <div class="flex flex-wrap gap-2">
-          <button class="company-chip text-xs" onclick="loadSampleJd('backend')">Backend Engineer</button>
-          <button class="company-chip text-xs" onclick="loadSampleJd('pm')">Product Manager</button>
-          <button class="company-chip text-xs" onclick="loadSampleJd('frontend')">Frontend Engineer</button>
-          <button class="company-chip text-xs" onclick="loadSampleJd('data')">Data Engineer</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="mt-4 flex justify-between">
-      <button class="btn-ghost" onclick="goToStep(1)">
-        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"/></svg>
-        Back
-      </button>
-      <div class="flex gap-2">
-        <button class="btn-ghost" onclick="skipJd()">Skip</button>
-        <button class="btn-primary" id="btn-next-2" onclick="goToStep(3)" disabled>
-          Next: Resume
-          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      <div class="flex items-center gap-3">
+        <a href="en.html" class="text-sm t-tertiary hover:t-primary transition-colors">English</a>
+        <button id="themeToggle" class="w-9 h-9 rounded-xl flex items-center justify-center t-secondary transition-colors" aria-label="다크모드 전환">
+          <svg id="iconSun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path stroke-linecap="round" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg id="iconMoon" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="hidden sm:flex items-center gap-1.5 text-sm font-medium t-secondary hover:t-primary transition-colors">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <!-- ═══════════════ STEP 3: Resume ═══════════════ -->
-  <div class="wizard-panel" id="panel-3">
-    <div class="bg-[#161b22] border border-[#21262d] rounded-2xl p-6 sm:p-8">
-      <div class="mb-6">
-        <h2 class="text-xl font-display font-bold text-white mb-1">Upload your resume</h2>
-        <p class="text-sm text-gray-500">Optional. Adding your resume enables personalized gap analysis.</p>
+  <!-- Main wizard area -->
+  <main class="pt-24 pb-20 px-6 min-h-screen">
+    <div class="max-w-[720px] mx-auto">
+
+      <!-- Progress bar -->
+      <div class="mb-10">
+        <div class="flex items-center justify-between mb-3">
+          <div id="stepLabel" class="text-sm font-medium t-secondary">Step 1 / 4</div>
+          <div id="stepTitle" class="text-sm t-tertiary">기업 선택</div>
+        </div>
+        <div class="h-1.5 rounded-full" style="background-color:var(--bg-tertiary);">
+          <div id="progressBar" class="h-1.5 rounded-full transition-all duration-500" style="background-color:#3182F6; width:25%;"></div>
+        </div>
+        <!-- Step indicators -->
+        <div class="flex justify-between mt-4">
+          <div class="flex flex-col items-center gap-1" id="indicator-1">
+            <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-250" style="background-color:#3182F6; color:white;">1</div>
+            <span class="text-xs t-secondary hidden sm:block">기업 선택</span>
+          </div>
+          <div class="flex flex-col items-center gap-1" id="indicator-2">
+            <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-250" style="background-color:var(--bg-tertiary); color:var(--text-tertiary);">2</div>
+            <span class="text-xs t-tertiary hidden sm:block">JD 입력</span>
+          </div>
+          <div class="flex flex-col items-center gap-1" id="indicator-3">
+            <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-250" style="background-color:var(--bg-tertiary); color:var(--text-tertiary);">3</div>
+            <span class="text-xs t-tertiary hidden sm:block">이력서</span>
+          </div>
+          <div class="flex flex-col items-center gap-1" id="indicator-4">
+            <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-all duration-250" style="background-color:var(--bg-tertiary); color:var(--text-tertiary);">4</div>
+            <span class="text-xs t-tertiary hidden sm:block">결과</span>
+          </div>
+        </div>
       </div>
 
-      <!-- Upload zone -->
-      <div
-        class="upload-zone mb-4"
-        id="upload-zone"
-        onclick="document.getElementById('file-input').click()"
-        ondragover="onDragOver(event)"
-        ondragleave="onDragLeave(event)"
-        ondrop="onDrop(event)"
-      >
-        <input type="file" id="file-input" class="hidden" accept=".pdf,.md,.txt" onchange="onFileSelect(event)" />
-        <div id="upload-idle">
-          <div class="w-12 h-12 mx-auto mb-4 rounded-xl bg-[#21262d] flex items-center justify-center">
-            <svg class="w-6 h-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
-            </svg>
-          </div>
-          <p class="text-sm text-gray-400 mb-1">Drop your resume here</p>
-          <p class="text-xs text-surface-4">PDF, Markdown, or plain text · Max 5MB</p>
+      <!-- ===== Step 1: 기업 선택 ===== -->
+      <div id="step-1" class="step-panel active">
+        <div class="mb-6">
+          <h2 class="font-bold t-primary mb-2" style="font-size:22px; line-height:1.5;">어느 기업을 분석할까요?</h2>
+          <p class="t-secondary text-sm">80개 기업 데이터가 준비되어 있어요. 하나를 선택해주세요.</p>
         </div>
-        <div id="upload-done" class="hidden">
-          <div class="flex items-center justify-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-green-900/30 flex items-center justify-center">
-              <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-            </div>
-            <div class="text-left">
-              <p class="text-sm font-medium text-white" id="file-name-display"></p>
-              <p class="text-xs text-surface-4" id="file-size-display"></p>
-            </div>
-            <button class="ml-4 text-surface-4 hover:text-gray-300 transition-colors" onclick="clearFile(event)">
-              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+
+        <!-- Search -->
+        <div class="relative mb-5">
+          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 t-tertiary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/></svg>
+          <input id="companySearch" type="text" placeholder="기업명으로 검색해요..." autocomplete="off" />
+        </div>
+
+        <!-- Company grid -->
+        <div id="companyGrid" class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 max-h-[420px] overflow-y-auto pr-1" style="scrollbar-width: thin; scrollbar-color: var(--border) transparent;">
+          <!-- JS로 렌더링 -->
+        </div>
+        <div id="noResults" class="hidden text-center py-10 t-tertiary text-sm">검색 결과가 없어요</div>
+
+        <div class="mt-6 flex justify-end">
+          <button id="step1Next" disabled onclick="goToStep(2)"
+            class="btn-click inline-flex items-center gap-2 font-medium text-white transition-colors"
+            style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px; opacity:0.4; cursor:not-allowed;">
+            다음
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- ===== Step 2: JD 입력 ===== -->
+      <div id="step-2" class="step-panel">
+        <div class="mb-6">
+          <h2 class="font-bold t-primary mb-2" style="font-size:22px; line-height:1.5;">채용 공고를 알려주세요</h2>
+          <p class="t-secondary text-sm">URL이나 텍스트로 입력할 수 있어요. 건너뛰어도 돼요.</p>
+        </div>
+
+        <!-- JD Tab toggle -->
+        <div class="flex gap-0 mb-4" style="border-bottom:1px solid var(--border);">
+          <button id="jdTabUrl" onclick="switchJdTab('url')"
+            class="tab-btn active text-sm font-medium px-4 py-2.5 t-secondary"
+            style="margin-bottom:-1px;">URL</button>
+          <button id="jdTabText" onclick="switchJdTab('text')"
+            class="tab-btn text-sm font-medium px-4 py-2.5 t-secondary"
+            style="margin-bottom:-1px;">텍스트 직접 입력</button>
+        </div>
+
+        <div id="jdPanelUrl">
+          <input type="url" id="jdUrl" placeholder="https://careers.kakao.com/jobs/123" />
+          <p class="mt-2 text-xs t-tertiary">채용 공고 URL을 붙여넣으면 자동으로 분석에 반영해요</p>
+        </div>
+        <div id="jdPanelText" style="display:none;">
+          <textarea id="jdText" rows="8" placeholder="채용 공고 텍스트를 여기에 붙여넣으세요...&#10;&#10;예시:&#10;[카카오] 백엔드 개발자 채용&#10;- Java / Kotlin 기반 서버 개발&#10;- MSA 설계 및 운영 경험 우대&#10;..."></textarea>
+        </div>
+
+        <div class="mt-6 flex justify-between">
+          <button onclick="goToStep(1)" class="btn-click inline-flex items-center gap-2 text-sm font-medium t-secondary transition-colors" style="height:48px; padding:0 20px; background-color:var(--bg-secondary); border-radius:12px;">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18"/></svg>
+            이전
+          </button>
+          <div class="flex gap-2">
+            <button onclick="goToStep(3)" class="btn-click text-sm font-medium t-tertiary transition-colors" style="height:48px; padding:0 20px; background-color:var(--bg-secondary); border-radius:12px;">
+              건너뛰기
+            </button>
+            <button onclick="goToStep(3)" class="btn-click inline-flex items-center gap-2 text-sm font-medium text-white transition-colors" style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px;">
+              다음
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </button>
           </div>
         </div>
       </div>
 
-      <div class="divider-label my-4">or paste text</div>
-
-      <div>
-        <label class="text-xs font-mono text-surface-4 uppercase tracking-widest block mb-2">Resume Text</label>
-        <textarea
-          id="resume-text"
-          class="hk-input"
-          style="min-height: 100px;"
-          placeholder="Name: Kim Jiyeon&#10;&#10;Experience:&#10;- Senior Engineer at XYZ (2021-present)&#10;  - Built distributed data pipeline handling 10M events/day..."
-          oninput="onResumeInput()"
-        ></textarea>
-      </div>
-    </div>
-
-    <div class="mt-4 flex justify-between">
-      <button class="btn-ghost" onclick="goToStep(2)">
-        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"/></svg>
-        Back
-      </button>
-      <div class="flex gap-2">
-        <button class="btn-ghost" onclick="skipAndAnalyze()">Skip & Analyze</button>
-        <button class="btn-primary" id="btn-analyze" onclick="startAnalysis()">
-          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-          Analyze
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- ═══════════════ STEP 4: Loading ═══════════════ -->
-  <div class="wizard-panel" id="panel-loading">
-    <div class="terminal shadow-2xl shadow-black/40">
-      <div class="terminal-bar">
-        <div class="terminal-dot dot-red"></div>
-        <div class="terminal-dot dot-yellow"></div>
-        <div class="terminal-dot dot-green"></div>
-        <span class="terminal-title" id="loading-title">zsh — hirekit analyze</span>
-      </div>
-      <div class="terminal-body" id="loading-body">
-        <div id="loading-lines"></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ═══════════════ STEP 4: Results ═══════════════ -->
-  <div class="wizard-panel" id="panel-4">
-
-    <!-- Results header -->
-    <div class="mb-6 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-      <div>
-        <div class="flex items-center gap-2 mb-1">
-          <span class="text-xl" id="result-company-emoji">🟡</span>
-          <h2 class="text-2xl font-display font-bold text-white" id="result-company-name">카카오</h2>
-          <span class="pill bg-green-900/30 text-green-400 border border-green-800/40">Analysis Complete</span>
+      <!-- ===== Step 3: 이력서 ===== -->
+      <div id="step-3" class="step-panel">
+        <div class="mb-6">
+          <h2 class="font-bold t-primary mb-2" style="font-size:22px; line-height:1.5;">이력서를 붙여넣어 주세요</h2>
+          <p class="t-secondary text-sm">이력서를 입력하면 JD와의 매칭 분석을 볼 수 있어요. 건너뛰어도 돼요.</p>
         </div>
-        <p class="text-xs font-mono text-surface-4">
-          <span id="result-sources">8 sources</span> · <span id="result-time">~1.2s</span> · <span id="result-date">Mar 2026</span>
-        </p>
-      </div>
-      <!-- Overall score ring -->
-      <div class="flex-shrink-0 flex items-center gap-4">
-        <div class="relative w-20 h-20" data-tip="Overall HireKit Score">
-          <svg class="w-20 h-20 -rotate-90" viewBox="0 0 80 80">
-            <circle cx="40" cy="40" r="33" fill="none" stroke="#21262d" stroke-width="6"/>
-            <circle
-              id="score-ring"
-              cx="40" cy="40" r="33"
-              fill="none"
-              stroke="#0ea5e9"
-              stroke-width="6"
-              stroke-linecap="round"
-              stroke-dasharray="207.3"
-              stroke-dashoffset="207.3"
-              class="score-ring-circle"
-            />
-          </svg>
-          <div class="absolute inset-0 flex flex-col items-center justify-center">
-            <span class="text-xl font-display font-bold text-white" id="score-number">0</span>
-            <span class="text-[10px] font-mono text-surface-4">/100</span>
+
+        <textarea id="resumeText" rows="10" placeholder="이력서 내용을 여기에 붙여넣으세요...&#10;&#10;예시:&#10;이름: 홍길동&#10;경력: 3년&#10;&#10;[경력]&#10;- 카카오페이 백엔드 개발 (2022~2024)&#10;  Java/Spring 기반 결제 API 개발&#10;  일 100만 건 트랜잭션 처리&#10;&#10;[기술 스택]&#10;- Java, Kotlin, Spring Boot&#10;- MySQL, Redis, Kafka&#10;..."></textarea>
+
+        <div class="mt-6 flex justify-between">
+          <button onclick="goToStep(2)" class="btn-click inline-flex items-center gap-2 text-sm font-medium t-secondary transition-colors" style="height:48px; padding:0 20px; background-color:var(--bg-secondary); border-radius:12px;">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18"/></svg>
+            이전
+          </button>
+          <div class="flex gap-2">
+            <button onclick="runDemo()" class="btn-click text-sm font-medium t-tertiary transition-colors" style="height:48px; padding:0 20px; background-color:var(--bg-secondary); border-radius:12px;">
+              건너뛰기
+            </button>
+            <button onclick="runDemo()" class="btn-click inline-flex items-center gap-2 text-sm font-medium text-white transition-colors" style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px;">
+              분석 시작
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+            </button>
           </div>
         </div>
-        <div class="text-left">
-          <div class="text-lg font-display font-bold" id="score-grade-label" style="color: #56d364">A</div>
-          <div class="text-xs text-surface-4 font-mono">Overall<br/>Grade</div>
+      </div>
+
+      <!-- ===== Step 4: 결과 ===== -->
+      <div id="step-4" class="step-panel">
+        <!-- Loading state -->
+        <div id="loadingState" class="text-center py-20">
+          <div class="inline-flex items-center gap-3 text-sm t-secondary">
+            <svg class="w-5 h-5 animate-spin" style="color:#3182F6;" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
+            데이터를 불러오고 있어요...
+          </div>
+        </div>
+
+        <!-- Result content -->
+        <div id="resultContent" style="display:none;">
+          <!-- Company header -->
+          <div class="flex items-center justify-between mb-6">
+            <div>
+              <div class="flex items-center gap-3">
+                <h2 id="resultCompanyName" class="font-bold t-primary" style="font-size:22px;"></h2>
+                <span id="resultGradeBadge" class="font-mono text-sm font-semibold px-3 py-1 rounded-lg"></span>
+              </div>
+              <p id="resultSourceCount" class="text-sm t-tertiary mt-1"></p>
+            </div>
+            <button onclick="resetDemo()" class="btn-click text-sm t-secondary transition-colors" style="height:36px; padding:0 16px; background-color:var(--bg-secondary); border-radius:10px;">
+              다시 시작
+            </button>
+          </div>
+
+          <!-- Tabs -->
+          <div class="flex gap-0 mb-6" style="border-bottom:1px solid var(--border);">
+            <button class="tab-btn active text-sm font-medium px-4 py-2.5 t-secondary" style="margin-bottom:-1px;" onclick="switchTab('scorecard')">스코어카드</button>
+            <button class="tab-btn text-sm font-medium px-4 py-2.5 t-secondary" style="margin-bottom:-1px;" onclick="switchTab('report')">리포트</button>
+            <button id="tabMatchBtn" class="tab-btn text-sm font-medium px-4 py-2.5 t-secondary" style="margin-bottom:-1px; display:none;" onclick="switchTab('match')">매칭 분석</button>
+            <button class="tab-btn text-sm font-medium px-4 py-2.5 t-secondary" style="margin-bottom:-1px;" onclick="switchTab('interview')">면접 질문</button>
+          </div>
+
+          <!-- Tab: Scorecard -->
+          <div id="tab-scorecard" class="tab-panel active">
+            <div class="surface rounded-2xl p-6 mb-4" style="border:1px solid var(--border);">
+              <!-- Overall score -->
+              <div class="flex items-center gap-6 mb-6 pb-6" style="border-bottom:1px solid var(--border);">
+                <div class="relative flex-shrink-0">
+                  <svg width="80" height="80" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="34" fill="none" stroke="var(--bg-secondary)" stroke-width="7"/>
+                    <circle id="scoreRing" cx="40" cy="40" r="34" fill="none" stroke="#3182F6" stroke-width="7"
+                      stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="213.6"
+                      transform="rotate(-90 40 40)" style="transition:stroke-dashoffset 1.2s cubic-bezier(0.4,0,0.2,1);"/>
+                  </svg>
+                  <div class="absolute inset-0 flex items-center justify-center">
+                    <span id="scoreNumber" class="font-bold" style="font-size:20px; color:#3182F6;">0</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="text-sm t-tertiary mb-1">종합 점수</div>
+                  <div class="flex items-center gap-2">
+                    <span id="scoreTotalText" class="font-bold t-primary" style="font-size:24px;"></span>
+                    <span id="scoreGradeText" class="font-mono font-semibold text-sm px-2 py-0.5 rounded-lg" style="background-color:#EBF3FE; color:#3182F6;"></span>
+                  </div>
+                  <p class="text-sm t-secondary mt-1">100점 만점</p>
+                </div>
+              </div>
+
+              <!-- Dimension bars -->
+              <div id="dimensionBars" class="space-y-4"></div>
+            </div>
+
+            <!-- Summary -->
+            <div id="scoreSummary" class="rounded-2xl p-5 text-sm t-secondary leading-relaxed" style="background-color:var(--bg-secondary); border-radius:16px;"></div>
+          </div>
+
+          <!-- Tab: Report -->
+          <div id="tab-report" class="tab-panel">
+            <div id="reportContent" class="space-y-4"></div>
+          </div>
+
+          <!-- Tab: Match -->
+          <div id="tab-match" class="tab-panel">
+            <div id="matchContent"></div>
+          </div>
+
+          <!-- Tab: Interview -->
+          <div id="tab-interview" class="tab-panel">
+            <div id="interviewContent"></div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Result tabs -->
-    <div class="flex gap-1 overflow-x-auto pb-1 mb-6 border-b border-[#21262d]" role="tablist">
-      <button class="result-tab active" onclick="switchTab('scorecard', this)" role="tab">Scorecard</button>
-      <button class="result-tab" onclick="switchTab('report', this)" role="tab">Report</button>
-      <button class="result-tab" onclick="switchTab('match', this)" role="tab">JD Match</button>
-      <button class="result-tab" onclick="switchTab('interview', this)" role="tab">Interview Prep</button>
     </div>
+  </main>
 
-    <!-- ── TAB: Scorecard ── -->
-    <div class="result-panel active" id="tab-scorecard">
-      <div class="space-y-3" id="scorecard-rows"></div>
-    </div>
-
-    <!-- ── TAB: Report ── -->
-    <div class="result-panel" id="tab-report">
-      <div class="space-y-4" id="report-sections"></div>
-    </div>
-
-    <!-- ── TAB: JD Match ── -->
-    <div class="result-panel" id="tab-match">
-      <div id="match-content"></div>
-    </div>
-
-    <!-- ── TAB: Interview ── -->
-    <div class="result-panel" id="tab-interview">
-      <div id="interview-content"></div>
-    </div>
-
-    <!-- CTA footer -->
-    <div class="mt-10 terminal">
-      <div class="terminal-bar">
-        <div class="terminal-dot dot-red"></div>
-        <div class="terminal-dot dot-yellow"></div>
-        <div class="terminal-dot dot-green"></div>
-        <span class="terminal-title">Want the full output?</span>
-      </div>
-      <div class="terminal-body text-sm">
-        <p class="c-comment mb-2"># Run the full analysis locally with all 8 data sources</p>
-        <p><span class="c-prompt">❯</span> <span class="c-cmd">pip install</span> <span class="c-string">hirekit</span></p>
-        <p><span class="c-prompt">❯</span> <span class="c-cmd">hirekit</span> analyze <span class="c-string" id="cta-company-name">카카오</span> <span class="c-flag">--jd</span> <span class="c-string">./jd.txt</span> <span class="c-flag">--resume</span> <span class="c-string">./resume.pdf</span></p>
-        <div class="mt-4 flex flex-col sm:flex-row gap-3">
-          <a href="index.html#quickstart" class="btn-primary text-center justify-center">
-            Get HireKit Free →
+  <!-- Footer -->
+  <footer class="py-10 px-6" style="border-top:1px solid var(--border);">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <div>
+          <div class="font-bold t-primary mb-1">HireKit</div>
+          <div class="text-sm t-tertiary">MIT License · Python 3.9+</div>
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-sm t-secondary hover:text-[#3182F6] transition-colors">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
           </a>
-          <button class="btn-ghost" onclick="resetDemo()">
-            Try Another Company
-          </button>
+          <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">PyPI</a>
+          <a href="index.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors">메인으로</a>
         </div>
       </div>
     </div>
+  </footer>
 
-  </div><!-- /panel-4 -->
-</main>
-
-
-<!-- ═══════════════════════════════════════════════════════ FOOTER -->
-<footer class="border-t border-[#21262d] py-8 px-4 text-center">
-  <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-    <div class="flex items-center gap-2 text-sm text-surface-4">
-      <span class="text-xl">🎯</span>
-      <span class="font-mono">HireKit</span>
-      <span>·</span>
-      <span>MIT License</span>
-    </div>
-    <p class="text-xs text-surface-4 font-mono">
-      Demo uses pre-cached data · No personal data stored · Privacy-first
-    </p>
-    <div class="flex items-center gap-4 text-sm text-surface-4">
-      <a href="index.html" class="hover:text-gray-300 transition-colors">Landing</a>
-      <a href="https://github.com/zihoshin-dev/hirekit" class="hover:text-gray-300 transition-colors">GitHub</a>
-      <a href="ko.html" class="hover:text-gray-300 transition-colors">한국어</a>
-    </div>
-  </div>
-</footer>
-
-
-<!-- ═══════════════════════════════════════════════════════ SCRIPT -->
 <script>
-// ─────────────────────────────────────────────────────────────────
-// State
-// ─────────────────────────────────────────────────────────────────
-const state = {
-  step: 1,
-  company: null,
-  companyEmoji: '🟡',
-  jdText: '',
-  hasResume: false,
+// ==================== Dark mode ====================
+const html = document.documentElement;
+const themeToggle = document.getElementById('themeToggle');
+const iconSun = document.getElementById('iconSun');
+const iconMoon = document.getElementById('iconMoon');
+
+function applyTheme(dark) {
+  if (dark) { html.classList.add('dark'); iconSun.classList.remove('hidden'); iconMoon.classList.add('hidden'); }
+  else { html.classList.remove('dark'); iconSun.classList.add('hidden'); iconMoon.classList.remove('hidden'); }
+}
+const stored = localStorage.getItem('hk-theme');
+if (stored === 'dark') applyTheme(true);
+else if (stored === 'light') applyTheme(false);
+else if (window.matchMedia('(prefers-color-scheme: dark)').matches) applyTheme(true);
+themeToggle.addEventListener('click', () => {
+  const isDark = html.classList.contains('dark');
+  applyTheme(!isDark);
+  localStorage.setItem('hk-theme', isDark ? 'light' : 'dark');
+});
+
+// ==================== State ====================
+let allCompanies = [];
+let selectedCompany = null;
+let companyData = null;
+let currentStep = 1;
+
+// ==================== Slug mapping ====================
+function nameToSlug(name) {
+  return name
+    .toLowerCase()
+    .replace(/\s+/g, '_')
+    .replace(/[^\w가-힣]/g, '_')
+    .replace(/__+/g, '_')
+    .replace(/^_|_$/g, '');
+}
+
+// Known slug overrides from filenames
+const slugOverride = {
+  'CJ ENM': 'cj_enm',
+  'LG CNS': 'lg_cns',
 };
 
-// ─────────────────────────────────────────────────────────────────
-// Step Navigation
-// ─────────────────────────────────────────────────────────────────
-const STEP_LABELS = ['', 'Company', 'Job Description', 'Resume', 'Results'];
-const STEP_EMOJIS = { '카카오': '🟡', '네이버': '🟢', '토스': '🔵', '쿠팡': '🟠', '라인': '🟤', '당근마켓': '🥕' };
-
-function setProgress(step) {
-  // Desktop nodes
-  for (let i = 1; i <= 4; i++) {
-    const node = document.getElementById(`node-${i}`);
-    const label = document.getElementById(`label-${i}`);
-    node.className = 'step-node';
-    if (i < step) { node.className += ' done'; node.innerHTML = '✓'; label.style.color = '#56d364'; }
-    else if (i === step) { node.className += ' active'; node.innerHTML = i; label.style.color = '#38bdf8'; }
-    else { node.className += ' inactive'; node.innerHTML = i; label.style.color = '#484f58'; }
-  }
-  // Progress fill
-  const pct = ((step - 1) / 3) * 100;
-  document.getElementById('progress-fill').style.width = pct + '%';
-  // Mobile
-  for (let i = 1; i <= 4; i++) {
-    document.getElementById(`mob-${i}`).style.background =
-      i <= step ? '#0ea5e9' : '#21262d';
-  }
-  document.getElementById('mob-label').textContent = `Step ${step} of 4 — ${STEP_LABELS[step]}`;
+function getSlug(name) {
+  if (slugOverride[name]) return slugOverride[name];
+  return name.toLowerCase().replace(/\s+/g, '_');
 }
 
-function showPanel(id) {
-  document.querySelectorAll('.wizard-panel').forEach(p => p.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
+// ==================== Load companies ====================
+async function loadCompanies() {
+  try {
+    const res = await fetch('demo/data/meta.json');
+    allCompanies = await res.json();
+    renderCompanyGrid(allCompanies);
+  } catch (e) {
+    document.getElementById('companyGrid').innerHTML =
+      '<div class="col-span-3 text-center py-8 text-sm t-tertiary">기업 데이터를 불러올 수 없어요</div>';
+  }
 }
 
-function goToStep(step) {
-  state.step = step;
-  setProgress(step);
-  if (step === 1) showPanel('panel-1');
-  else if (step === 2) showPanel('panel-2');
-  else if (step === 3) showPanel('panel-3');
+function renderCompanyGrid(companies) {
+  const grid = document.getElementById('companyGrid');
+  const noResults = document.getElementById('noResults');
+  if (companies.length === 0) {
+    grid.innerHTML = '';
+    noResults.classList.remove('hidden');
+    return;
+  }
+  noResults.classList.add('hidden');
+  grid.innerHTML = companies.map(c => `
+    <div class="company-card${selectedCompany === c.name ? ' selected' : ''}"
+         onclick="selectCompany('${c.name.replace(/'/g, "\\'")}', this)">
+      <div class="font-medium t-primary text-sm leading-tight">${c.name}</div>
+      <div class="text-xs t-tertiary mt-1">${c.sources}개 소스</div>
+      <div class="flex flex-wrap gap-1 mt-2">
+        ${c.sections.slice(0, 3).map(s => `<span class="text-xs px-1.5 py-0.5 rounded-md" style="background-color:var(--bg-tertiary); color:var(--text-tertiary);">${sectionLabel(s)}</span>`).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+function sectionLabel(s) {
+  const map = { financials: '재무', strategy: '전략', culture: '문화', tech: '기술', overview: '개요' };
+  return map[s] || s;
+}
+
+function selectCompany(name, el) {
+  selectedCompany = name;
+  document.querySelectorAll('.company-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  const btn = document.getElementById('step1Next');
+  btn.disabled = false;
+  btn.style.opacity = '1';
+  btn.style.cursor = 'pointer';
+}
+
+// Search
+document.getElementById('companySearch').addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { renderCompanyGrid(allCompanies); return; }
+  renderCompanyGrid(allCompanies.filter(c => c.name.toLowerCase().includes(q)));
+});
+
+// ==================== Navigation ====================
+function goToStep(n) {
+  if (n === 1 && currentStep > 1) {
+    // Reset selection if going back to step 1
+  }
+  showStep(n);
+}
+
+function showStep(n) {
+  document.querySelectorAll('.step-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('step-' + n).classList.add('active');
+  currentStep = n;
+
+  const titles = ['기업 선택', 'JD 입력', '이력서', '결과'];
+  document.getElementById('stepLabel').textContent = `Step ${n} / 4`;
+  document.getElementById('stepTitle').textContent = titles[n - 1];
+  document.getElementById('progressBar').style.width = (n * 25) + '%';
+
+  // Update step indicators
+  for (let i = 1; i <= 4; i++) {
+    const el = document.getElementById('indicator-' + i).querySelector('div');
+    if (i < n) {
+      el.style.backgroundColor = '#00C471';
+      el.style.color = 'white';
+      el.innerHTML = '<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>';
+    } else if (i === n) {
+      el.style.backgroundColor = '#3182F6';
+      el.style.color = 'white';
+      el.textContent = i;
+    } else {
+      el.style.backgroundColor = 'var(--bg-tertiary)';
+      el.style.color = 'var(--text-tertiary)';
+      el.textContent = i;
+    }
+  }
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function jumpToStep(step) {
-  // Only allow jumping back or to unlocked steps
-  if (step < state.step || (step === 2 && state.company) || (step === 3 && state.company)) {
-    goToStep(step);
+// ==================== JD Tab ====================
+function switchJdTab(tab) {
+  document.getElementById('jdPanelUrl').style.display = tab === 'url' ? 'block' : 'none';
+  document.getElementById('jdPanelText').style.display = tab === 'text' ? 'block' : 'none';
+  document.getElementById('jdTabUrl').classList.toggle('active', tab === 'url');
+  document.getElementById('jdTabText').classList.toggle('active', tab === 'text');
+}
+
+// ==================== Tab switching (result) ====================
+function switchTab(name) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  // find and activate the clicked button
+  event.currentTarget.classList.add('active');
+}
+
+// ==================== Run demo ====================
+async function runDemo() {
+  showStep(4);
+  document.getElementById('loadingState').style.display = 'block';
+  document.getElementById('resultContent').style.display = 'none';
+
+  const slug = getSlug(selectedCompany);
+  let data = null;
+  try {
+    const res = await fetch(`demo/data/companies/${slug}.json`);
+    if (!res.ok) throw new Error('not found');
+    data = await res.json();
+  } catch (e) {
+    // Fallback: try URL-encoded
+    try {
+      const encoded = encodeURIComponent(selectedCompany.toLowerCase());
+      const res2 = await fetch(`demo/data/companies/${encoded}.json`);
+      if (!res2.ok) throw new Error('not found');
+      data = await res2.json();
+    } catch (e2) {
+      data = null;
+    }
   }
+
+  companyData = data;
+
+  // Simulate loading
+  await new Promise(r => setTimeout(r, 800));
+
+  document.getElementById('loadingState').style.display = 'none';
+  document.getElementById('resultContent').style.display = 'block';
+
+  renderResult(data);
 }
 
-// ─────────────────────────────────────────────────────────────────
-// Step 1: Company
-// ─────────────────────────────────────────────────────────────────
-function selectCompany(name, btn) {
-  state.company = name;
-  state.companyEmoji = STEP_EMOJIS[name] || '🏢';
-  // Update chips
-  document.querySelectorAll('.company-chip').forEach(c => c.classList.remove('selected'));
-  btn.classList.add('selected');
-  // Clear custom input
-  document.getElementById('company-custom').value = '';
-  document.getElementById('company-note').textContent = '';
-  document.getElementById('btn-next-1').disabled = false;
-}
+// ==================== Score calculation ====================
+function computeScore(data) {
+  if (!data) return { total: 72, dims: defaultDims() };
 
-function onCustomCompanyInput(input) {
-  const val = input.value.trim();
-  // Deselect chips
-  document.querySelectorAll('.company-chip').forEach(c => c.classList.remove('selected'));
-  if (val.length > 0) {
-    state.company = val;
-    state.companyEmoji = '🏢';
-    document.getElementById('btn-next-1').disabled = false;
-    document.getElementById('company-note').textContent =
-      '→ This company will use simulated analysis data for the demo.';
+  const dims = {
+    '재무 건전성': 0,
+    '성장 모멘텀': 0,
+    '기술 역량': 0,
+    '조직 문화': 0,
+    '시장 지위': 0,
+    '미래 전망': 0,
+  };
+
+  // Financials
+  if (data.data && data.data.financials && data.data.financials.length > 0) {
+    const fin = data.data.financials;
+    const revenue = fin.find(f => f.account && f.account.includes('매출'));
+    const profit = fin.find(f => f.account && f.account.includes('영업이익'));
+    const equity = fin.find(f => f.account && f.account.includes('자본총계'));
+    const debt = fin.find(f => f.account && f.account.includes('부채총계'));
+
+    let finScore = 55;
+    if (revenue && profit) {
+      const r = parseInt(String(revenue.current_amount).replace(/,/g,'')) || 0;
+      const p = parseInt(String(profit.current_amount).replace(/,/g,'')) || 0;
+      if (r > 0) {
+        const margin = p / r;
+        if (margin > 0.15) finScore = 88;
+        else if (margin > 0.08) finScore = 78;
+        else if (margin > 0.03) finScore = 65;
+        else if (margin > 0) finScore = 52;
+        else finScore = 40;
+      }
+    }
+    if (equity && debt) {
+      const e = parseInt(String(equity.current_amount).replace(/,/g,'')) || 1;
+      const d = parseInt(String(debt.current_amount).replace(/,/g,'')) || 0;
+      const ratio = d / e;
+      if (ratio < 0.5) finScore = Math.min(100, finScore + 8);
+      else if (ratio > 2) finScore = Math.max(30, finScore - 8);
+    }
+    dims['재무 건전성'] = Math.min(100, Math.max(30, finScore));
   } else {
-    state.company = null;
-    document.getElementById('btn-next-1').disabled = true;
-    document.getElementById('company-note').textContent = '';
+    dims['재무 건전성'] = 62;
   }
+
+  // Sources count influences other dims
+  const srcCount = (data.sources_used || []).length;
+  const baseFromSrc = Math.min(85, 50 + srcCount * 3);
+  const sections = data.sections || [];
+
+  dims['성장 모멘텀'] = hashScore(selectedCompany, 'growth', 55, 85);
+  dims['기술 역량'] = sections.includes('tech') ? hashScore(selectedCompany, 'tech', 60, 90) : hashScore(selectedCompany, 'tech', 50, 75);
+  dims['조직 문화'] = sections.includes('culture') ? hashScore(selectedCompany, 'culture', 55, 82) : hashScore(selectedCompany, 'culture', 45, 70);
+  dims['시장 지위'] = hashScore(selectedCompany, 'market', 58, 88);
+  dims['미래 전망'] = hashScore(selectedCompany, 'future', 55, 82);
+
+  const values = Object.values(dims);
+  const total = Math.round(values.reduce((a, b) => a + b, 0) / values.length);
+
+  return { total, dims };
 }
 
-// ─────────────────────────────────────────────────────────────────
-// Step 2: JD
-// ─────────────────────────────────────────────────────────────────
-const SAMPLE_JDS = {
-  backend: `Backend Engineer — Platform Team\n\nWe are looking for a Senior Backend Engineer to join our growing platform team.\n\nRequirements:\n• 5+ years of backend development experience\n• Proficiency in Go, Java, or Python\n• Experience with distributed systems, Kafka, Redis\n• Strong understanding of REST API design\n• Experience with Kubernetes and Docker\n• Fluent in Korean; English proficiency a plus\n\nNice to have:\n• Open-source contributions\n• Experience with large-scale data pipelines\n• Startup background`,
-  pm: `Product Manager — Growth\n\nWe're hiring a data-driven Product Manager to drive our growth initiatives.\n\nRequirements:\n• 4+ years of PM experience at a tech company\n• Strong analytical skills (SQL, Amplitude, or similar)\n• Track record of launching 0→1 products\n• Excellent communication in Korean and English\n• Understanding of fintech or e-commerce domain`,
-  frontend: `Frontend Engineer — Design System\n\nJoin our Design System team to build components used by 300+ engineers.\n\nRequirements:\n• 4+ years of frontend experience\n• Expert-level React and TypeScript\n• Deep knowledge of CSS, accessibility (WCAG 2.1)\n• Experience building and maintaining design systems\n• Familiarity with Storybook, Chromatic`,
-  data: `Data Engineer — Analytics Platform\n\nBuild the data infrastructure powering real-time analytics.\n\nRequirements:\n• 3+ years of data engineering\n• Strong in Spark, Flink, or similar\n• Experience with Airflow, dbt, Iceberg/Delta Lake\n• Python and SQL proficiency\n• Experience with cloud data warehouses (BigQuery, Redshift, Snowflake)`,
-};
-
-function loadSampleJd(type) {
-  document.getElementById('jd-text').value = SAMPLE_JDS[type];
-  state.jdText = SAMPLE_JDS[type];
-  document.getElementById('btn-next-2').disabled = false;
+function hashScore(name, seed, min, max) {
+  let h = 0;
+  for (let i = 0; i < name.length + seed.length; i++) {
+    const c = (name + seed).charCodeAt(i % (name.length + seed.length));
+    h = ((h << 5) - h + c) >>> 0;
+  }
+  return min + (h % (max - min + 1));
 }
 
-function onJdInput() {
-  const url = document.getElementById('jd-url').value.trim();
-  const text = document.getElementById('jd-text').value.trim();
-  state.jdText = text || url;
-  document.getElementById('btn-next-2').disabled = !(url || text);
-}
-
-function skipJd() {
-  state.jdText = '';
-  goToStep(3);
-}
-
-// ─────────────────────────────────────────────────────────────────
-// Step 3: Resume
-// ─────────────────────────────────────────────────────────────────
-function onDragOver(e) {
-  e.preventDefault();
-  document.getElementById('upload-zone').classList.add('dragover');
-}
-function onDragLeave(e) {
-  document.getElementById('upload-zone').classList.remove('dragover');
-}
-function onDrop(e) {
-  e.preventDefault();
-  document.getElementById('upload-zone').classList.remove('dragover');
-  const file = e.dataTransfer.files[0];
-  if (file) handleFile(file);
-}
-function onFileSelect(e) {
-  const file = e.target.files[0];
-  if (file) handleFile(file);
-}
-function handleFile(file) {
-  state.hasResume = true;
-  document.getElementById('upload-idle').classList.add('hidden');
-  document.getElementById('upload-done').classList.remove('hidden');
-  document.getElementById('file-name-display').textContent = file.name;
-  document.getElementById('file-size-display').textContent = (file.size / 1024).toFixed(1) + ' KB';
-}
-function clearFile(e) {
-  e.stopPropagation();
-  state.hasResume = false;
-  document.getElementById('upload-idle').classList.remove('hidden');
-  document.getElementById('upload-done').classList.add('hidden');
-  document.getElementById('file-input').value = '';
-}
-function onResumeInput() {
-  state.hasResume = document.getElementById('resume-text').value.trim().length > 0;
-}
-function skipAndAnalyze() {
-  state.hasResume = false;
-  startAnalysis();
-}
-
-// ─────────────────────────────────────────────────────────────────
-// Loading / Analysis Simulation
-// ─────────────────────────────────────────────────────────────────
-function startAnalysis() {
-  setProgress(4);
-  showPanel('panel-loading');
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-
-  const company = state.company;
-  document.getElementById('loading-title').textContent = `zsh — hirekit analyze ${company}`;
-
-  const linesContainer = document.getElementById('loading-lines');
-  linesContainer.innerHTML = '';
-
-  const LINES = [
-    { delay: 0,    html: `<span class="c-prompt">❯</span> <span class="c-cmd">hirekit</span> analyze <span class="c-string">${company}</span> <span class="c-flag">--jd</span> <span class="c-string">jd.txt</span> <span class="c-flag">--resume</span> <span class="c-string">resume.pdf</span>` },
-    { delay: 300,  html: `` },
-    { delay: 400,  html: `<span class="c-border">╭──────────────────── HireKit Analysis ─────────────────────╮</span>` },
-    { delay: 450,  html: `<span class="c-border">│</span> <span class="c-output">Analyzing: <span class="c-blue">${company}</span>                                        </span><span class="c-border">│</span>` },
-    { delay: 500,  html: `<span class="c-border">│</span> <span class="c-output">Region: <span class="c-blue">kr</span>  Tier: <span class="c-blue">1</span>  LLM: <span class="c-green">claude-3.5-sonnet</span>            </span><span class="c-border">│</span>` },
-    { delay: 550,  html: `<span class="c-border">╰─────────────────────────────────────────────────────────────╯</span>` },
-    { delay: 700,  html: `` },
-    { delay: 750,  html: `<span class="c-comment">  Collecting from 8 sources in parallel...</span>` },
-    { delay: 900,  html: `  <span class="c-green">✓</span> DART financials          <span class="c-dim">123ms</span>` },
-    { delay: 1050, html: `  <span class="c-green">✓</span> Naver News (32 articles)  <span class="c-dim">210ms</span>` },
-    { delay: 1200, html: `  <span class="c-green">✓</span> GitHub tech scoring       <span class="c-dim">380ms</span>` },
-    { delay: 1350, html: `  <span class="c-green">✓</span> Google News RSS           <span class="c-dim">195ms</span>` },
-    { delay: 1500, html: `  <span class="c-green">✓</span> Credible News             <span class="c-dim">290ms</span>` },
-    { delay: 1650, html: `  <span class="c-green">✓</span> Brave Search              <span class="c-dim">445ms</span>` },
-    { delay: 1800, html: `  <span class="c-green">✓</span> Exa semantic search       <span class="c-dim">512ms</span>` },
-    { delay: 1950, html: `  <span class="c-green">✓</span> Glassdoor reviews         <span class="c-dim">340ms</span>` },
-    { delay: 2100, html: `` },
-    { delay: 2150, html: `  <span class="c-output">15 results across 8 sources in <span class="c-green">512ms</span></span>` },
-    { delay: 2300, html: `` },
-    { delay: 2350, html: `<span class="c-comment">  Running AI synthesis...</span>` },
-    { delay: 2800, html: `  <span class="c-green">✓</span> Scorecard computed` },
-    { delay: 3100, html: `  <span class="c-green">✓</span> ${state.jdText ? 'JD match: 78% fit' : 'Skipped JD match'}` },
-    { delay: 3400, html: `  <span class="c-green">✓</span> ${state.hasResume ? 'Resume gap analysis complete' : 'Skipped resume analysis'}` },
-    { delay: 3700, html: `  <span class="c-green">✓</span> Interview questions generated` },
-    { delay: 4000, html: `` },
-    { delay: 4050, html: `<span class="c-green">  Analysis complete. Opening report...</span>` },
-  ];
-
-  LINES.forEach(({ delay, html }) => {
-    setTimeout(() => {
-      const div = document.createElement('div');
-      div.className = 'stream-line';
-      if (html) div.innerHTML = html;
-      else div.innerHTML = '&nbsp;';
-      linesContainer.appendChild(div);
-      // Animate
-      requestAnimationFrame(() => {
-        div.style.opacity = '1';
-        div.style.transform = 'translateY(0)';
-      });
-    }, delay);
-  });
-
-  // Show results after all lines
-  setTimeout(() => {
-    renderResults();
-    showPanel('panel-4');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    animateScoreRing();
-  }, 4400);
-}
-
-// ─────────────────────────────────────────────────────────────────
-// Results Data (per company)
-// ─────────────────────────────────────────────────────────────────
-const COMPANY_DATA = {
-  '카카오': {
-    score: 78, grade: 'B+',
-    gradeColor: '#e3b341',
-    sources: '8 sources', time: '~1.4s',
-    scorecard: [
-      { dim: 'Financial Health',  weight: 20, score: 3.8, bar: 76, color: '#38bdf8', evidence: 'Revenue ₩7.6T (+12% YoY), OP margin 8.2%' },
-      { dim: 'Tech Maturity',     weight: 20, score: 4.2, bar: 84, color: '#56d364', evidence: '182 public repos, 4,200+ GitHub stars' },
-      { dim: 'Culture & People',  weight: 20, score: 3.5, bar: 70, color: '#e3b341', evidence: '3.4/5 Glassdoor, 65% recommend CEO' },
-      { dim: 'Career Leverage',   weight: 20, score: 4.5, bar: 90, color: '#56d364', evidence: 'Top-tier brand, ex-Kakao alumni network' },
-      { dim: 'Growth Potential',  weight: 10, score: 3.6, bar: 72, color: '#e3b341', evidence: 'AI pivot underway, B2B expansion' },
-      { dim: 'Compensation',      weight: 10, score: 3.9, bar: 78, color: '#38bdf8', evidence: 'Avg salary ₩78M DART, stock options' },
-    ],
-    reportSections: [
-      { icon: '📊', title: 'Financials', color: '#38bdf8', content: 'Revenue ₩7.6T (FY2023, +12% YoY). Operating income ₩624B, margin 8.2%. Headcount 10,800 (-3% restructuring). Average salary ₩78M per DART filing. Balance sheet: cash ₩2.1T, debt-to-equity 0.4x.' },
-      { icon: '💻', title: 'Tech Stack', color: '#56d364', content: 'Primary languages: Go, Java, Python, Swift, Kotlin. Infrastructure: Kakao Cloud (proprietary), Kubernetes. Data: Kafka, Flink, HBase. 182 public repos. Notable OSS: KUDA (K8s), Varlog (log platform). GitHub stars: 4,200+.' },
-      { icon: '🗞️', title: 'Recent News', color: '#e3b341', content: 'Q1 2026: Kakao Brain rebranded as Kakao AI. AGI investment ₩500B announced. Regulatory scrutiny over platform dominance ongoing. New CEO (John Oh) focus: profitability over growth. Layoffs of ~300 in non-core units.' },
-      { icon: '🧑‍💼', title: 'Culture Signals', color: '#ffa657', content: 'Glassdoor 3.4/5 (1,200+ reviews). CEO approval 65%. Common praise: technical autonomy, talented peers. Common concerns: internal politics, slow decision-making post-IPO. Work-from-home policy: hybrid 3/2.' },
-    ],
-    matchScore: 78,
-    matchBreakdown: [
-      { label: 'Skill alignment', score: 82, color: '#56d364' },
-      { label: 'Experience level', score: 75, color: '#38bdf8' },
-      { label: 'Domain relevance', score: 70, color: '#e3b341' },
-      { label: 'Culture fit signals', score: 68, color: '#e3b341' },
-    ],
-    gaps: ['GraphQL experience not evidenced in resume', 'No Kafka mentions — highlight if applicable'],
-    strengths: ['Go proficiency matches JD exactly', 'Distributed systems background strong', 'Korean fluency is key differentiator'],
-    interviewQs: [
-      { type: 'Technical', q: 'Kakao recently migrated its core data pipeline to Flink. How would you approach debugging a Flink job that is falling behind its watermark?', difficulty: 'Hard' },
-      { type: 'System Design', q: 'Design a URL shortener that handles 100K requests/second like bit.ly. How would you shard the database?', difficulty: 'Hard' },
-      { type: 'Behavioral', q: 'Kakao went through a major restructuring in 2024. Tell me about a time you navigated org change and maintained team morale.', difficulty: 'Medium' },
-      { type: 'Culture', q: 'Kakao\'s culture shifted after the 2022 data center fire toward more resilience engineering. How do you build a culture of reliability?', difficulty: 'Medium' },
-      { type: 'Company Intel', q: 'We just launched Kakao AI Platform. How would you position our B2B AI offering against AWS Bedrock and Azure OpenAI?', difficulty: 'Hard' },
-    ],
-  },
-};
-
-// Fallback data for custom companies
-function getCompanyData(name) {
-  const known = COMPANY_DATA[name];
-  if (known) return known;
-  // Simulated for custom companies
+function defaultDims() {
   return {
-    score: 71, grade: 'B',
-    gradeColor: '#38bdf8',
-    sources: '5 sources (partial)', time: '~2.1s',
-    scorecard: [
-      { dim: 'Financial Health',  weight: 20, score: 3.2, bar: 64, color: '#e3b341', evidence: 'Limited public data available' },
-      { dim: 'Tech Maturity',     weight: 20, score: 3.6, bar: 72, color: '#38bdf8', evidence: 'GitHub activity moderate' },
-      { dim: 'Culture & People',  weight: 20, score: 3.4, bar: 68, color: '#e3b341', evidence: '12 Glassdoor reviews found' },
-      { dim: 'Career Leverage',   weight: 20, score: 3.8, bar: 76, color: '#38bdf8', evidence: 'Growing headcount signals' },
-      { dim: 'Growth Potential',  weight: 10, score: 3.9, bar: 78, color: '#38bdf8', evidence: 'Recent Series B funding' },
-      { dim: 'Compensation',      weight: 10, score: 3.3, bar: 66, color: '#e3b341', evidence: 'Inferred from job postings' },
-    ],
-    reportSections: [
-      { icon: '📊', title: 'Financials', color: '#38bdf8', content: 'Limited public financial data available for this company. DART filing not found — likely a private company. Estimated headcount: 100-500 based on LinkedIn signals. Recent funding activity detected.' },
-      { icon: '💻', title: 'Tech Stack', color: '#56d364', content: 'Tech stack inferred from job postings: Python, React, AWS. GitHub activity: low-moderate. No significant open-source presence detected. Tech maturity score based on job posting language analysis.' },
-      { icon: '🗞️', title: 'Recent News', color: '#e3b341', content: 'Limited news coverage found. 3 press releases in past 6 months. No significant negative news detected. Company appears to be in growth phase based on hiring signals.' },
-      { icon: '🧑‍💼', title: 'Culture Signals', color: '#ffa657', content: 'Limited review data. 12 Glassdoor reviews, 3.4/5 average. Small sample — treat with caution. Interview process reported as: "2 rounds, technical + culture fit".' },
-    ],
-    matchScore: 71,
-    matchBreakdown: [
-      { label: 'Skill alignment', score: 74, color: '#38bdf8' },
-      { label: 'Experience level', score: 70, color: '#38bdf8' },
-      { label: 'Domain relevance', score: 68, color: '#e3b341' },
-      { label: 'Culture fit signals', score: 65, color: '#e3b341' },
-    ],
-    gaps: ['Limited data to assess specific skill gaps', 'Research the company LinkedIn before applying'],
-    strengths: ['General backend skills appear relevant', 'Company is actively hiring — good timing'],
-    interviewQs: [
-      { type: 'Technical', q: 'Walk me through a system you built that handles high concurrency. How did you profile and resolve bottlenecks?', difficulty: 'Hard' },
-      { type: 'System Design', q: 'Design a notification system that sends 1 million push notifications per hour. What are the failure modes?', difficulty: 'Medium' },
-      { type: 'Behavioral', q: 'Tell me about a project where you had to make significant technical decisions with incomplete information.', difficulty: 'Medium' },
-      { type: 'Culture', q: 'How do you balance moving fast vs. maintaining code quality in a fast-growing startup?', difficulty: 'Medium' },
-    ],
+    '재무 건전성': 72, '성장 모멘텀': 68, '기술 역량': 75,
+    '조직 문화': 65, '시장 지위': 70, '미래 전망': 66,
   };
 }
 
-// ─────────────────────────────────────────────────────────────────
-// Render Results
-// ─────────────────────────────────────────────────────────────────
-function renderResults() {
-  const data = getCompanyData(state.company);
+function getGrade(score) {
+  if (score >= 90) return 'S';
+  if (score >= 80) return 'A';
+  if (score >= 65) return 'B';
+  if (score >= 50) return 'C';
+  return 'D';
+}
+
+function gradeColor(grade) {
+  const map = { S: '#3182F6', A: '#00C471', B: '#FF9500', C: '#FF6B00', D: '#FF4545' };
+  return map[grade] || '#3182F6';
+}
+
+function gradeBg(grade) {
+  const map = { S: '#EBF3FE', A: 'rgba(0,196,113,0.1)', B: 'rgba(255,149,0,0.1)', C: 'rgba(255,107,0,0.1)', D: 'rgba(255,69,69,0.1)' };
+  return map[grade] || '#EBF3FE';
+}
+
+// ==================== Render result ====================
+function renderResult(data) {
+  const companyName = data ? (data.company || selectedCompany) : selectedCompany;
+  const { total, dims } = computeScore(data);
+  const grade = getGrade(total);
+  const srcCount = data ? (data.sources_used || []).length : 0;
 
   // Header
-  document.getElementById('result-company-name').textContent = state.company;
-  document.getElementById('result-company-emoji').textContent = state.companyEmoji;
-  document.getElementById('result-sources').textContent = data.sources;
-  document.getElementById('result-time').textContent = data.time;
-  document.getElementById('result-date').textContent = 'Mar 2026';
-  document.getElementById('score-number').setAttribute('data-target', data.score);
-  document.getElementById('score-grade-label').textContent = data.grade;
-  document.getElementById('score-grade-label').style.color = data.gradeColor;
-  document.getElementById('cta-company-name').textContent = state.company;
+  document.getElementById('resultCompanyName').textContent = companyName;
+  const gradeEl = document.getElementById('resultGradeBadge');
+  gradeEl.textContent = grade;
+  gradeEl.style.backgroundColor = gradeBg(grade);
+  gradeEl.style.color = gradeColor(grade);
+  document.getElementById('resultSourceCount').textContent =
+    srcCount > 0 ? `${srcCount}개 소스 기반 분석` : '캐시 데이터 기반 분석';
 
-  // Store score for animation
-  window._targetScore = data.score;
+  // Score ring animation
+  setTimeout(() => {
+    const circumference = 213.6;
+    const offset = circumference - (total / 100) * circumference;
+    document.getElementById('scoreRing').style.strokeDashoffset = offset;
+    document.getElementById('scoreRing').style.stroke = gradeColor(grade);
 
-  // Scorecard rows
-  const scorecardEl = document.getElementById('scorecard-rows');
-  scorecardEl.innerHTML = '';
-  data.scorecard.forEach((row, i) => {
-    const el = document.createElement('div');
-    el.className = 'bg-[#161b22] border border-[#21262d] rounded-xl p-4 sm:p-5';
-    el.style.animationDelay = `${i * 60}ms`;
-    el.innerHTML = `
-      <div class="flex items-start justify-between mb-3 gap-3">
-        <div class="flex-1">
-          <div class="flex items-center gap-2 mb-1">
-            <span class="font-medium text-sm text-white">${row.dim}</span>
-            <span class="pill bg-[#21262d] text-surface-4">${row.weight}%</span>
-          </div>
-          <p class="text-xs text-surface-4 font-mono">${row.evidence}</p>
-        </div>
-        <div class="text-right flex-shrink-0">
-          <span class="text-xl font-display font-bold" style="color: ${row.color}">${row.score}</span>
-          <span class="text-xs text-surface-4">/5</span>
-        </div>
-      </div>
-      <div class="score-bar-track">
-        <div class="score-bar-fill" style="background: ${row.color}" data-target="${row.bar}"></div>
-      </div>
-    `;
-    scorecardEl.appendChild(el);
-  });
+    // Animate number
+    let current = 0;
+    const step = Math.ceil(total / 40);
+    const interval = setInterval(() => {
+      current = Math.min(current + step, total);
+      document.getElementById('scoreNumber').textContent = current;
+      if (current >= total) clearInterval(interval);
+    }, 30);
+  }, 100);
 
-  // Report sections
-  const reportEl = document.getElementById('report-sections');
-  reportEl.innerHTML = '';
-  data.reportSections.forEach(sec => {
-    const el = document.createElement('div');
-    el.className = 'bg-[#161b22] border border-[#21262d] rounded-xl p-5';
-    el.innerHTML = `
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-lg">${sec.icon}</span>
-        <h3 class="font-semibold text-white text-sm">${sec.title}</h3>
-        <div class="flex-1 h-px ml-2" style="background: ${sec.color}22"></div>
-      </div>
-      <p class="text-sm text-gray-400 leading-relaxed">${sec.content}</p>
-    `;
-    reportEl.appendChild(el);
-  });
+  document.getElementById('scoreTotalText').textContent = `${total} / 100`;
+  const scoreGradeEl = document.getElementById('scoreGradeText');
+  scoreGradeEl.textContent = grade;
+  scoreGradeEl.style.backgroundColor = gradeBg(grade);
+  scoreGradeEl.style.color = gradeColor(grade);
 
-  // JD Match
-  const matchEl = document.getElementById('match-content');
-  if (!state.jdText) {
-    matchEl.innerHTML = `
-      <div class="text-center py-12">
-        <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-[#21262d] flex items-center justify-center text-2xl">📋</div>
-        <p class="text-gray-400 mb-4">No job description provided.</p>
-        <button class="btn-ghost" onclick="goToStep(2)">Add a JD and Re-analyze</button>
-      </div>`;
-  } else {
-    matchEl.innerHTML = `
-      <div class="mb-6 flex items-center gap-4">
-        <div class="relative w-16 h-16 flex-shrink-0">
-          <svg class="w-16 h-16 -rotate-90" viewBox="0 0 64 64">
-            <circle cx="32" cy="32" r="26" fill="none" stroke="#21262d" stroke-width="5"/>
-            <circle cx="32" cy="32" r="26" fill="none" stroke="#56d364" stroke-width="5"
-              stroke-dasharray="163.4" stroke-dashoffset="${163.4 * (1 - data.matchScore / 100)}"
-              stroke-linecap="round"/>
-          </svg>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <span class="text-sm font-display font-bold text-white">${data.matchScore}%</span>
+  // Dimension bars
+  const barsEl = document.getElementById('dimensionBars');
+  barsEl.innerHTML = Object.entries(dims).map(([label, score]) => {
+    const g = getGrade(score);
+    const color = gradeColor(g);
+    return `
+      <div>
+        <div class="flex items-center justify-between mb-1.5">
+          <span class="text-sm t-secondary">${label}</span>
+          <div class="flex items-center gap-2">
+            <span class="text-sm font-medium t-primary">${score}</span>
+            <span class="font-mono text-xs font-semibold px-1.5 py-0.5 rounded" style="background-color:${gradeBg(g)}; color:${color};">${g}</span>
           </div>
         </div>
-        <div>
-          <div class="text-lg font-display font-bold text-white mb-1">JD Fit Score: ${data.matchScore}%</div>
-          <p class="text-xs text-surface-4 font-mono">Based on skill, experience, and culture alignment</p>
-        </div>
-      </div>
-      <div class="space-y-3 mb-6">
-        ${data.matchBreakdown.map(b => `
-          <div>
-            <div class="flex justify-between mb-1.5">
-              <span class="text-xs text-gray-400">${b.label}</span>
-              <span class="text-xs font-mono" style="color: ${b.color}">${b.score}%</span>
-            </div>
-            <div class="score-bar-track">
-              <div class="score-bar-fill" style="background: ${b.color}; width: ${b.score}%"></div>
-            </div>
-          </div>
-        `).join('')}
-      </div>
-      <div class="grid sm:grid-cols-2 gap-4">
-        <div class="bg-green-900/10 border border-green-800/30 rounded-xl p-4">
-          <p class="text-xs font-mono text-green-400 uppercase tracking-widest mb-3">Strengths</p>
-          <ul class="space-y-2">
-            ${data.strengths.map(s => `<li class="flex items-start gap-2 text-sm text-gray-300"><span class="text-green-400 mt-0.5">✓</span>${s}</li>`).join('')}
-          </ul>
-        </div>
-        <div class="bg-yellow-900/10 border border-yellow-800/30 rounded-xl p-4">
-          <p class="text-xs font-mono text-yellow-400 uppercase tracking-widest mb-3">Skill Gaps</p>
-          <ul class="space-y-2">
-            ${data.gaps.map(g => `<li class="flex items-start gap-2 text-sm text-gray-300"><span class="text-yellow-400 mt-0.5">△</span>${g}</li>`).join('')}
-          </ul>
+        <div class="h-2 rounded-full overflow-hidden" style="background-color:var(--bg-secondary);">
+          <div class="h-2 rounded-full score-bar" style="width:0%; background-color:${color};" data-target="${score}"></div>
         </div>
       </div>
     `;
+  }).join('');
+
+  setTimeout(() => {
+    document.querySelectorAll('.score-bar[data-target]').forEach(bar => {
+      bar.style.width = bar.dataset.target + '%';
+    });
+  }, 150);
+
+  // Summary
+  const summaryEl = document.getElementById('scoreSummary');
+  summaryEl.innerHTML = generateSummary(companyName, total, grade, dims, data);
+
+  // Report tab
+  renderReport(data, companyName);
+
+  // Match tab
+  const hasResume = document.getElementById('resumeText').value.trim().length > 0;
+  if (hasResume) {
+    document.getElementById('tabMatchBtn').style.display = '';
+    renderMatch(data, companyName, dims);
   }
 
-  // Interview Qs
-  const interviewEl = document.getElementById('interview-content');
-  const diffColors = { Hard: '#ff7b72', Medium: '#e3b341', Easy: '#56d364' };
-  interviewEl.innerHTML = `
-    <p class="text-xs font-mono text-surface-4 uppercase tracking-widest mb-4">
-      ${data.interviewQs.length} company-specific questions generated
-    </p>
-    <div class="space-y-3">
-      ${data.interviewQs.map((q, i) => `
-        <div class="q-card">
-          <div class="flex items-start gap-3">
-            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#21262d] flex items-center justify-center text-xs font-mono text-surface-4">${i + 1}</div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 mb-2 flex-wrap">
-                <span class="pill bg-[#21262d] text-gray-400">${q.type}</span>
-                <span class="pill" style="background: ${diffColors[q.difficulty]}18; color: ${diffColors[q.difficulty]}">${q.difficulty}</span>
+  // Interview tab
+  renderInterview(companyName, data);
+}
+
+function generateSummary(name, total, grade, dims, data) {
+  const topDim = Object.entries(dims).sort((a, b) => b[1] - a[1])[0];
+  const botDim = Object.entries(dims).sort((a, b) => a[1] - b[1])[0];
+
+  let rec = '';
+  if (grade === 'S' || grade === 'A') rec = `지원 적극 추천해요.`;
+  else if (grade === 'B') rec = `긍정적으로 검토해볼 만해요.`;
+  else rec = `신중하게 검토하고 지원 여부를 결정하세요.`;
+
+  return `<span class="font-medium t-primary">${name}</span>의 종합 점수는 <span style="color:${gradeColor(grade)}; font-weight:600;">${total}점 (${grade}등급)</span>이에요.
+  <strong style="color:var(--text-primary);">${topDim[0]}</strong>(${topDim[1]}점)이 가장 강점이고,
+  <strong style="color:var(--text-primary);">${botDim[0]}</strong>(${botDim[1]}점)은 상대적으로 낮아요. ${rec}`;
+}
+
+// ==================== Report ====================
+function renderReport(data, name) {
+  const el = document.getElementById('reportContent');
+  if (!data || !data.data) {
+    el.innerHTML = `<div class="rounded-xl p-5 text-sm t-secondary" style="background-color:var(--bg-secondary);">
+      ${name} 리포트 데이터를 불러올 수 없어요. 실제 CLI에서는 <code class="font-mono" style="color:#3182F6;">hirekit report ${name}</code>으로 저장할 수 있어요.
+    </div>`;
+    return;
+  }
+
+  const d = data.data;
+  const sections = [];
+
+  // Company overview
+  if (d.company_name || d.ceo) {
+    sections.push(`
+      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h3 class="font-semibold t-primary mb-4" style="font-size:16px;">기업 개요</h3>
+        <div class="grid grid-cols-2 gap-y-3 text-sm">
+          ${d.company_name ? `<div><span class="t-tertiary">공식명</span><div class="t-primary mt-0.5 font-medium">${d.company_name}</div></div>` : ''}
+          ${d.ceo ? `<div><span class="t-tertiary">대표이사</span><div class="t-primary mt-0.5">${d.ceo}</div></div>` : ''}
+          ${d.established ? `<div><span class="t-tertiary">설립일</span><div class="t-primary mt-0.5">${formatDate(d.established)}</div></div>` : ''}
+          ${d.homepage ? `<div><span class="t-tertiary">홈페이지</span><div class="t-primary mt-0.5"><a href="https://${d.homepage}" target="_blank" style="color:#3182F6;" class="hover:underline">${d.homepage}</a></div></div>` : ''}
+          ${d.stock_code ? `<div><span class="t-tertiary">종목코드</span><div class="t-primary mt-0.5 font-mono">${d.stock_code}</div></div>` : ''}
+        </div>
+      </div>
+    `);
+  }
+
+  // Financials
+  if (d.financials && d.financials.length > 0) {
+    const fin = d.financials.filter((f, i, arr) =>
+      arr.findIndex(x => x.account === f.account) === i
+    ).slice(0, 5);
+
+    sections.push(`
+      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h3 class="font-semibold t-primary mb-4" style="font-size:16px;">재무 현황</h3>
+        <div class="space-y-3">
+          ${fin.map(f => `
+            <div class="flex items-center justify-between text-sm">
+              <span class="t-secondary">${f.account}</span>
+              <div class="text-right">
+                <span class="font-medium t-primary">${formatAmount(f.current_amount)}</span>
+                ${f.previous_amount ? `<span class="t-tertiary ml-2 text-xs">(전기: ${formatAmount(f.previous_amount)})</span>` : ''}
               </div>
-              <p class="text-sm text-gray-300 leading-relaxed">${q.q}</p>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `);
+  }
+
+  // Employees
+  if (d.employees && d.employees.length > 0) {
+    const total = d.employees.reduce((sum, e) => {
+      const n = parseInt(String(e.total || e.headcount || 0).replace(/,/g, '')) || 0;
+      return sum + n;
+    }, 0);
+    const avgTenure = d.employees[0] ? String(d.employees[0].avg_tenure_year || '').trim() : '';
+
+    if (total > 0) {
+      sections.push(`
+        <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+          <h3 class="font-semibold t-primary mb-4" style="font-size:16px;">임직원 현황</h3>
+          <div class="grid grid-cols-2 gap-4 text-sm">
+            <div class="rounded-xl p-4 text-center" style="background-color:var(--bg-secondary);">
+              <div class="text-2xl font-bold t-primary">${total.toLocaleString()}</div>
+              <div class="t-tertiary mt-1">전체 임직원</div>
+            </div>
+            ${avgTenure ? `<div class="rounded-xl p-4 text-center" style="background-color:var(--bg-secondary);">
+              <div class="text-2xl font-bold t-primary">${avgTenure}년</div>
+              <div class="t-tertiary mt-1">평균 근속 연수</div>
+            </div>` : ''}
+          </div>
+        </div>
+      `);
+    }
+  }
+
+  // Recent news snippets
+  if (data.raw_snippets && data.raw_snippets.length > 0) {
+    const snippets = data.raw_snippets.slice(0, 4);
+    sections.push(`
+      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h3 class="font-semibold t-primary mb-4" style="font-size:16px;">수집된 인사이트</h3>
+        <div class="space-y-2">
+          ${snippets.map(s => `
+            <div class="snippet-card">
+              <div>
+                <span class="snippet-source">${sourceLabel(s.source)}</span>
+                <span class="text-xs t-tertiary ml-1">${s.section ? '· ' + sectionLabel(s.section) : ''}</span>
+              </div>
+              <p class="text-sm t-secondary leading-relaxed line-clamp-3">${cleanPreview(s.preview)}</p>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `);
+  }
+
+  if (sections.length === 0) {
+    sections.push(`<div class="rounded-xl p-5 text-sm t-secondary" style="background-color:var(--bg-secondary);">수집된 데이터를 리포트로 정리했어요. 실제 CLI에서는 더 자세한 분석을 볼 수 있어요.</div>`);
+  }
+
+  el.innerHTML = sections.join('');
+}
+
+// ==================== Match ====================
+function renderMatch(data, name, dims) {
+  const resume = document.getElementById('resumeText').value.trim();
+  const jdText = document.getElementById('jdText').value.trim();
+  const el = document.getElementById('matchContent');
+
+  const matchScore = hashScore(name + resume.slice(0, 20), 'match', 55, 92);
+  const matchGrade = getGrade(matchScore);
+
+  const strengths = extractKeywords(resume, ['개발', '분석', '기획', '운영', '설계', '경험', 'Python', 'Java', 'SQL', 'AWS', 'AI', '데이터', '백엔드', '프론트엔드', '인프라']);
+  const techMentioned = (data && data.data) ? extractCompanyTech(data) : ['AI', '클라우드', '데이터'];
+
+  el.innerHTML = `
+    <div class="space-y-4">
+      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+        <div class="flex items-center gap-4 mb-4 pb-4" style="border-bottom:1px solid var(--border);">
+          <div class="text-center">
+            <div class="text-3xl font-bold" style="color:${gradeColor(matchGrade)};">${matchScore}</div>
+            <div class="text-sm t-tertiary mt-0.5">적합도</div>
+          </div>
+          <div class="flex-1">
+            <div class="h-3 rounded-full overflow-hidden" style="background-color:var(--bg-secondary);">
+              <div class="h-3 rounded-full transition-all duration-1000 score-bar" style="width:0%; background-color:${gradeColor(matchGrade)};" data-target="${matchScore}"></div>
+            </div>
+            <div class="flex justify-between mt-1 text-xs t-tertiary">
+              <span>0</span><span>50</span><span>100</span>
+            </div>
+          </div>
+        </div>
+        <p class="text-sm t-secondary leading-relaxed">
+          이력서와 <strong class="t-primary">${name}</strong>의 포지션 요건을 비교했어요.
+          ${matchScore >= 75 ? '전반적으로 높은 적합도를 보여요.' : matchScore >= 60 ? '일부 역량이 잘 맞아요.' : '보완이 필요한 부분이 있어요.'}
+        </p>
+      </div>
+
+      ${strengths.length > 0 ? `
+      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h3 class="font-semibold t-primary mb-3" style="font-size:15px;">이력서에서 발견된 강점</h3>
+        <div class="flex flex-wrap gap-2">
+          ${strengths.map(k => `<span class="text-sm px-3 py-1 rounded-lg font-medium" style="background-color:rgba(0,196,113,0.1); color:#00C471;">${k}</span>`).join('')}
+        </div>
+      </div>` : ''}
+
+      ${techMentioned.length > 0 ? `
+      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h3 class="font-semibold t-primary mb-3" style="font-size:15px;">${name}의 주요 기술 키워드</h3>
+        <div class="flex flex-wrap gap-2">
+          ${techMentioned.map(k => `<span class="text-sm px-3 py-1 rounded-lg" style="background-color:var(--bg-secondary); color:var(--text-secondary);">${k}</span>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+        <h3 class="font-semibold t-primary mb-3" style="font-size:15px;">개선 포인트</h3>
+        <ul class="space-y-2 text-sm t-secondary">
+          <li class="flex items-start gap-2"><span style="color:#FF9500;" class="mt-0.5 flex-shrink-0">•</span>포트폴리오에 수치 기반 성과를 더 명확히 추가해요</li>
+          <li class="flex items-start gap-2"><span style="color:#FF9500;" class="mt-0.5 flex-shrink-0">•</span>${name}의 서비스를 직접 사용해보고 개선 아이디어를 준비해요</li>
+          <li class="flex items-start gap-2"><span style="color:#FF9500;" class="mt-0.5 flex-shrink-0">•</span>해당 포지션의 최신 기술 트렌드를 추가로 학습하면 좋아요</li>
+        </ul>
+      </div>
+    </div>
+  `;
+
+  // Animate match bar
+  setTimeout(() => {
+    document.querySelectorAll('#tab-match .score-bar[data-target]').forEach(bar => {
+      bar.style.width = bar.dataset.target + '%';
+    });
+  }, 150);
+}
+
+// ==================== Interview ====================
+function renderInterview(name, data) {
+  const sections = data ? (data.sections || []) : [];
+  const questions = generateInterviewQuestions(name, sections);
+  const el = document.getElementById('interviewContent');
+
+  el.innerHTML = `
+    <div class="space-y-4">
+      <div class="rounded-xl p-4 text-sm t-secondary" style="background-color:var(--bg-secondary); border-radius:12px;">
+        ${name}의 최신 전략과 문화를 반영한 예상 면접 질문이에요. 실제 CLI에서는 더 정교한 질문을 생성해요.
+      </div>
+      ${questions.map((q, i) => `
+        <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
+          <div class="flex items-start gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white" style="background-color:#3182F6; margin-top:1px;">${i + 1}</span>
+            <div>
+              <p class="font-medium t-primary mb-2 leading-relaxed">${q.q}</p>
+              <div class="rounded-xl p-3 text-sm t-secondary leading-relaxed" style="background-color:var(--bg-secondary);">
+                <span class="text-xs font-medium t-tertiary block mb-1">답변 포인트</span>
+                ${q.hint}
+              </div>
             </div>
           </div>
         </div>
@@ -1298,91 +1030,127 @@ function renderResults() {
   `;
 }
 
-// ─────────────────────────────────────────────────────────────────
-// Animations
-// ─────────────────────────────────────────────────────────────────
-function animateScoreRing() {
-  const target = window._targetScore || 78;
-  // Ring: circumference = 2 * π * 33 ≈ 207.3
-  const circ = 207.3;
-  const offset = circ * (1 - target / 100);
-  const ring = document.getElementById('score-ring');
-  if (ring) {
-    requestAnimationFrame(() => {
-      ring.style.strokeDashoffset = offset;
+function generateInterviewQuestions(name, sections) {
+  const base = [
+    {
+      q: `${name}에 지원한 이유와 입사 후 어떤 기여를 하고 싶은지 말씀해주세요.`,
+      hint: `${name}의 최근 전략 방향과 본인의 경험을 연결지어 구체적으로 설명해요. 단순 열정보다 실질적 기여 방안을 제시하면 좋아요.`
+    },
+    {
+      q: `가장 어려웠던 프로젝트와 그 과정에서 배운 점을 구체적으로 말씀해주세요.`,
+      hint: `STAR 구조(상황-과제-행동-결과)로 답하고, 수치로 성과를 표현해요. 실패 경험도 괜찮아요.`
+    },
+  ];
+
+  if (sections.includes('tech')) {
+    base.push({
+      q: `${name}의 기술 스택 중 본인이 가장 자신 있는 분야와 앞으로 성장하고 싶은 방향을 말씀해주세요.`,
+      hint: `현재 보유 기술을 정직하게 평가하고, 학습 의지와 방향성을 함께 보여주면 좋아요.`
+    });
+  }
+  if (sections.includes('culture')) {
+    base.push({
+      q: `팀에서 의견 충돌이 생겼을 때 어떻게 해결했는지 사례를 들어 말씀해주세요.`,
+      hint: `${name}의 수평적·자율적 문화를 이해하고, 협업과 소통 방식을 구체적 사례로 설명해요.`
+    });
+  }
+  if (sections.includes('strategy')) {
+    base.push({
+      q: `${name}의 최근 주요 사업 방향에 대해 어떻게 생각하시나요? 개선할 점이 있다면?`,
+      hint: `비판보다는 시장 관점의 분석과 건설적 제안을 준비해요. 리서치를 얼마나 했는지 보여줘요.`
+    });
+  }
+  if (sections.includes('financials')) {
+    base.push({
+      q: `${name}의 최근 재무 성과를 어떻게 평가하시나요?`,
+      hint: `매출, 영업이익, 성장률 등 주요 지표를 공부해 가고, 업계 평균과 비교하는 관점을 보여줘요.`
     });
   }
 
-  // Count up number
-  const numEl = document.getElementById('score-number');
-  if (numEl) {
-    let current = 0;
-    const duration = 1200;
-    const steps = 60;
-    const increment = target / steps;
-    const interval = duration / steps;
-    const timer = setInterval(() => {
-      current = Math.min(current + increment, target);
-      numEl.textContent = Math.round(current);
-      if (current >= target) clearInterval(timer);
-    }, interval);
-  }
+  base.push({
+    q: `5년 후 본인의 모습을 어떻게 그리고 있나요? ${name}에서 어떤 역할을 하고 싶으신가요?`,
+    hint: `구체적이고 현실적인 커리어 플랜을 제시해요. ${name}의 성장 방향과 일치시키면 설득력이 높아요.`
+  });
 
-  // Animate score bars (they're in the DOM now)
-  setTimeout(() => {
-    document.querySelectorAll('.score-bar-fill[data-target]').forEach(bar => {
-      const target = parseInt(bar.getAttribute('data-target'));
-      bar.style.width = target + '%';
-    });
-  }, 100);
+  return base.slice(0, 5);
 }
 
-// ─────────────────────────────────────────────────────────────────
-// Tabs
-// ─────────────────────────────────────────────────────────────────
-function switchTab(name, btn) {
-  document.querySelectorAll('.result-tab').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.result-panel').forEach(p => p.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById(`tab-${name}`).classList.add('active');
-
-  // Re-trigger bar animations when switching to scorecard
-  if (name === 'scorecard') {
-    setTimeout(() => {
-      document.querySelectorAll('.score-bar-fill[data-target]').forEach(bar => {
-        bar.style.width = '0%';
-        requestAnimationFrame(() => {
-          bar.style.width = bar.getAttribute('data-target') + '%';
-        });
-      });
-    }, 50);
-  }
+// ==================== Helpers ====================
+function formatDate(d) {
+  if (!d) return '';
+  const s = String(d);
+  if (s.length === 8) return `${s.slice(0,4)}. ${s.slice(4,6)}. ${s.slice(6,8)}.`;
+  return s;
 }
 
-// ─────────────────────────────────────────────────────────────────
-// Reset
-// ─────────────────────────────────────────────────────────────────
+function formatAmount(val) {
+  if (!val) return '-';
+  const n = parseInt(String(val).replace(/,/g, '')) || 0;
+  if (n === 0) return '-';
+  const abs = Math.abs(n);
+  const sign = n < 0 ? '-' : '';
+  if (abs >= 1_000_000_000_000) return `${sign}${(abs / 1_000_000_000_000).toFixed(1)}조원`;
+  if (abs >= 100_000_000) return `${sign}${Math.round(abs / 100_000_000).toLocaleString()}억원`;
+  if (abs >= 10_000) return `${sign}${Math.round(abs / 10_000).toLocaleString()}만원`;
+  return `${sign}${n.toLocaleString()}원`;
+}
+
+function sourceLabel(src) {
+  const map = {
+    naver_search: '네이버 검색',
+    naver_news: '네이버 뉴스',
+    google_news: 'Google News',
+    brave_search: 'Brave Search',
+    exa_search: 'Exa Search',
+    credible_news: 'Credible News',
+    dart: 'DART',
+    naver_blog: '네이버 블로그',
+  };
+  return map[src] || src;
+}
+
+function cleanPreview(text) {
+  if (!text) return '';
+  return text
+    .replace(/\[.*?\]/g, '')
+    .replace(/https?:\/\/\S+/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 200);
+}
+
+function extractKeywords(text, keywords) {
+  return keywords.filter(k => text.toLowerCase().includes(k.toLowerCase()));
+}
+
+function extractCompanyTech(data) {
+  const keywords = ['AI', 'ML', '클라우드', 'MSA', 'Kafka', 'Redis', 'Kubernetes', 'Docker', 'React', 'Spring', 'Python', 'Kotlin', 'Go', '데이터', 'LLM'];
+  const fullText = JSON.stringify(data).toLowerCase();
+  return keywords.filter(k => fullText.includes(k.toLowerCase())).slice(0, 8);
+}
+
+// ==================== Reset ====================
 function resetDemo() {
-  state.step = 1;
-  state.company = null;
-  state.jdText = '';
-  state.hasResume = false;
-  document.getElementById('company-custom').value = '';
-  document.getElementById('company-note').textContent = '';
-  document.getElementById('jd-url').value = '';
-  document.getElementById('jd-text').value = '';
-  document.getElementById('resume-text').value = '';
-  document.getElementById('btn-next-1').disabled = true;
-  document.getElementById('btn-next-2').disabled = true;
-  document.querySelectorAll('.company-chip').forEach(c => c.classList.remove('selected'));
-  clearFile({ stopPropagation: () => {} });
-  goToStep(1);
+  selectedCompany = null;
+  companyData = null;
+  document.getElementById('step1Next').disabled = true;
+  document.getElementById('step1Next').style.opacity = '0.4';
+  document.getElementById('step1Next').style.cursor = 'not-allowed';
+  document.getElementById('jdUrl').value = '';
+  document.getElementById('jdText').value = '';
+  document.getElementById('resumeText').value = '';
+  document.querySelectorAll('.company-card').forEach(c => c.classList.remove('selected'));
+  document.getElementById('tabMatchBtn').style.display = 'none';
+  showStep(1);
 }
 
-// ─────────────────────────────────────────────────────────────────
-// Init
-// ─────────────────────────────────────────────────────────────────
-setProgress(1);
+// ==================== Init ====================
+loadCompanies();
 </script>
 </body>
 </html>
