@@ -9,10 +9,11 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/hirekit/"><img src="https://img.shields.io/pypi/v/hirekit?color=blue" alt="PyPI"></a>
-  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python"></a>
-  <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://pypi.org/project/hirekit/"><img src="https://img.shields.io/pypi/v/hirekit?color=4F8EF7&label=PyPI" alt="PyPI"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11+-4F8EF7.svg" alt="Python"></a>
+  <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
   <a href="https://github.com/zihoshin-dev/hirekit/actions"><img src="https://img.shields.io/github/actions/workflow/status/zihoshin-dev/hirekit/ci.yml?label=tests" alt="Tests"></a>
+  <a href="https://zihoshin-dev.github.io/hirekit"><img src="https://img.shields.io/badge/demo-live-FF6B6B.svg" alt="Demo"></a>
 </p>
 
 <p align="center">
@@ -21,7 +22,9 @@
 
 ---
 
-## 취업 준비, 데이터로 시작하세요
+> 🔗 **[라이브 데모 — 79개 한국 테크 기업 분석 결과 보기](https://zihoshin-dev.github.io/hirekit)**
+
+---
 
 기업 하나를 제대로 파악하려면 DART 공시, 뉴스, 기술 블로그, 커뮤니티 리뷰... 탭을 10개 넘게 열어야 해요.
 HireKit은 그 작업을 2분으로 줄여줘요.
@@ -33,16 +36,41 @@ hirekit analyze 카카오
 
 ---
 
-## 주요 기능
+## 아키텍처
 
-| 기능 | 설명 |
-|------|------|
-| 🏢 **기업 분석** | 14개 소스, 5차원 스코어카드 (재무·기술·문화·성장·보상) |
-| 📋 **JD 매칭** | 기술 taxonomy 60개+, URL·파일 모두 지원, 3단계 갭 분석 |
-| 🎤 **면접 준비** | 200개+ 질문 DB, 직무별 맞춤 STAR 가이드 |
-| 📄 **이력서 분석** | 정량 피드백, ATS 호환성, JD 대비 키워드 갭 |
-| ✍️ **자소서 분석** | 클리셰 감지 100개+, 4항목 차별화 점수 |
-| 🔄 **파이프라인** | 분석→매칭→면접→이력서→자소서 5단계 통합 |
+```mermaid
+graph LR
+    A[hirekit analyze 카카오] --> B[14개 데이터 소스]
+    B --> C1[DART 재무]
+    B --> C2[GitHub 기술]
+    B --> C3[뉴스/블로그]
+    B --> C4[커뮤니티 리뷰]
+    C1 --> D[5차원 스코어카드]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    D --> E[분석 리포트]
+```
+
+---
+
+## 분석 파이프라인
+
+```mermaid
+flowchart TD
+    A[기업명 입력] --> B[데이터 수집]
+    B --> B1[Tier 1: DART·GitHub — 2초]
+    B --> B2[Tier 2: 뉴스·검색 — 10초]
+    B --> B3[Tier 3: 커뮤니티 — 30초]
+    B1 --> C[스코어링]
+    B2 --> C
+    B3 --> C
+    C --> D{LLM 사용?}
+    D -->|Yes| E[AI 심층 분석]
+    D -->|No| F[데이터 기반 리포트]
+    E --> G[최종 리포트]
+    F --> G
+```
 
 ---
 
@@ -87,7 +115,28 @@ hirekit analyze 카카오
 
 ---
 
-## 사용 예시
+## 5차원 스코어카드
+
+| 차원 | 가중치 | 데이터 소스 | 측정 방법 |
+|------|--------|------------|----------|
+| 🎯 **Job Fit** | 30% | GitHub, 기술블로그 | 기술 성숙도, 오픈소스 활동 |
+| 📈 **Growth** | 20% | DART 재무 | 매출/영업이익 성장률 |
+| 💰 **Compensation** | 15% | DART 인사 | 평균 연봉, 근속연수 |
+| 🤝 **Culture Fit** | 15% | 네이버, Exa | 리뷰 다양성, 블로그 분석 |
+| 🚀 **Career Leverage** | 20% | 종합 | 기업 규모, 브랜드, 뉴스 |
+
+---
+
+## 명령어 가이드
+
+| 명령어 | 설명 | 주요 기능 |
+|--------|------|----------|
+| `hirekit analyze 카카오` | 기업 종합 분석 | 14개 소스, 5차원 스코어, 12섹션 리포트 |
+| `hirekit match --jd "URL"` | JD 매칭 | 60+ 기술 taxonomy, 3단계 매칭, 학습 로드맵 |
+| `hirekit interview 카카오` | 면접 준비 | 200+ 질문, STAR 가이드, 기업별 문화핏 |
+| `hirekit resume --file resume.txt` | 이력서 분석 | 정량 피드백, ATS 최적화, Before→After |
+| `hirekit coverletter --file cl.txt` | 자소서 분석 | 클리셰 감지 100+, 차별화 점수 |
+| `hirekit pipeline 카카오` | 통합 파이프라인 | 5단계 순차 분석 + Go/Hold/Pass 판정 |
 
 ### `hirekit analyze` — 기업 분석
 
@@ -190,6 +239,24 @@ hirekit sources
 │ community_review │ KR     │ -               │ Ready        │
 └──────────────────┴────────┴─────────────────┴──────────────┘
 ```
+
+---
+
+## Claude Code에서 바로 사용하기
+
+HireKit은 Claude Code 세션 안에서 자연스럽게 동작해요.
+
+### 슬래시 명령어
+
+```
+/analyze 카카오        — 기업 분석 + AI 해석
+/interview 카카오      — 면접 질문 생성 + STAR 가이드
+/match <JD-URL>       — JD 매칭 + 갭 분석
+```
+
+### 자연어 자동 트리거
+
+"카카오 어떤 회사야?", "면접 준비해줘" 같은 자연어로도 HireKit이 자동 호출돼요.
 
 ---
 
