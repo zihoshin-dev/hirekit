@@ -1,0 +1,925 @@
+{
+  "company": "세일즈포스코리아",
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "(주)세일",
+      "company_name_eng": "SEIL CO.LTD",
+      "stock_name": "세일",
+      "ceo": "김승욱",
+      "address": "경기도 광주 실촌면 삼리 590-4",
+      "industry_code": "1721",
+      "established": "19891226",
+      "homepage": "",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "韓 기업 84% “AI 성공 핵심은 데이터”… 세일즈포스, ‘데이터 및 분석 현황 보고서’ 발표 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVG9JLVhFcG1sNkJnUTEzc1ZzSU1Wc3V3TF8xdU9hZUQwZ3JFMFZ2R3MxN29KVWYtdktKYVNaX2xUOGhkcmhCQVVXSWJYT2lsOWpseUtTMlVuSmFtTVpfZDNXbms4MUN6RjlxS0VRSnd2QlNKMzl6T3VnS21kaXdKUWp30gGWAUFVX3lxTE1Rbk9Bai1LUk1URlpFTTY4Vm5HMzU4aUxsbFZjRElrSGowZkdQS0ZWMjR2YU9uLUkxa1pKNlhHc0xmYWcwVG5Ibkk5VGVwVkxFb2JLeEEwRXc5ZGFqaVZNcUQ4MVE2QXpPNFlZZ1czcFNCYTdsS2pwZGFfdS1CbXRyVzd3MGlFU0VuTjNqWnFTSzFGd2h6UQ?oc=5",
+          "pub_date": "Wed, 25 Feb 2026 08:00:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "\"AI 도입으로 고객 문의 업무의 50% 자동화 전망\"… 세일즈포스 글로벌 서비스 트렌드 보고서 - 브랜드브리프",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40M1VKN09SWVFXS3F1T3JSMzc1djAwTHdLMjhTV3lBMmFZMzRtbjFCek1HV2xValhQaENZZWJGQlJnem85YlBKRzFBOVRUaDR0YVJRaVVpaFpGRndaX3psMEtkZHFKenpic2NsbFBB?oc=5",
+          "pub_date": "Thu, 20 Nov 2025 08:00:00 GMT",
+          "source": "브랜드브리프"
+        },
+        {
+          "title": "세일즈포스 “전 세계 CFO 78%, AI를 전략적 파트너로” - 더에이아이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tdTBQVFJnUmE0RTlIckhPNC1DUHhsZDRkbWtxeGZTdzhBSF9tcjlVLVdmM0k1bnF6X2VkM0RJd1pTNlYyQ0wxcm5zMXozSUF6Z0lPeHdMQkxXeUVlc2laM0FwaFl6TVQ0?oc=5",
+          "pub_date": "Thu, 04 Sep 2025 07:00:00 GMT",
+          "source": "더에이아이"
+        },
+        {
+          "title": "[현장] \"일머리·말머리 갖춘 AI\"...세일즈포스, 키노트서 '에이전트포스 컴퍼니' 정의했다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54Q3FCTDVGblRFbTc3bzE1cWtHVzEyNXVwb20wQTY2MjdrSFJ5UDhjS1RoWW5WbGZuMF9YeU5vdTJ3Rm5pOXNlSmMyTk5KQ3pvcG5MOTVn?oc=5",
+          "pub_date": "Wed, 18 Jun 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "세일즈포스, 박세진 신임 대표 선임…AI CRM 전략 강화 본격화 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11WndleGQzbFM2MHNJTFJ1NDJFTXFKekpiVjNtTUh1SDZicUE2ZmdIQ1NHRE9RQmtsUkRfY2xtbVZSdWZmTnBMUVlxWldtdk1zOGNUVzZTYm5PVGRkWVRkZDkydi0?oc=5",
+          "pub_date": "Thu, 21 Aug 2025 07:00:00 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "김평호 세일즈포스 본부장 “AI, ‘지시’ 받는 조수에서 ‘실행’하는 직원으로” - 데이터넷",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pSGVkbFExUkdFWEh2NkIwWmtrS0NucTdDYXFxenAxWF9NdEd5OGlvMVJKeV9Bd1QzaWR4RkctR3U5Um5rb0lmbGRqZFd6SEJTOXp5bFc1T0xyU1dqRFpWMXNkZVhycC1CZnQxeA?oc=5",
+          "pub_date": "Mon, 01 Sep 2025 07:00:00 GMT",
+          "source": "데이터넷"
+        },
+        {
+          "title": "세일즈포스, '에이전트포스 월드투어 코리아 2025' 개최...AI 에이전트 활용 전략 및 방향성 제시 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YZktnYzF1ejJxZ202bUtuZF9yaWtMR2NCUlp6Y0FFSkJkMGJOOGlINGx0SXlhNlFsMVF4Q1JQVFlmTGdVdEJzdE1hRTFCZWNjODNoclJtcXlQcHJvRGJxOFNJSlFYR2s?oc=5",
+          "pub_date": "Wed, 18 Jun 2025 07:00:00 GMT",
+          "source": "인공지능신문"
+        },
+        {
+          "title": "세일즈포스, 6월18일 ‘월드투어 코리아’서 AI 에이전트 사례 소개 - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mSFZTQlE3ZEVwQzRFb3pfNmVHYnFEME1jX2RZVUY2RjFkQjl3eHBrMVJwWXZxd3Q5UFpnaXdPQ0dWTnBDTWVqZm1vSnJ6Z3l0T1pyMnZvMm5OREsxN2k1M0hQLXpMdUhqOEE?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "CJ올리브네트웍스, 세일즈포스와 전략적 업무협약 체결 - cio.com",
+          "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPaFZRSWtpaFBwdDZ4aVR1c0hlQUhCcGlvOHpqX3FsSk9yZW1tTXIycXN1VUVuNkI4S3lPb3NRU1F2RG9UaEItOWREVVFacGRWZnNtNHpHR2xUdTlLWWF4TmJJUEhEaU8yb3o5WWhMYVh2Vk9Xa21Ecnc4RUlDRjZEbVVYQi1zTW9CYUo2dE9kdk4yd1kwWkhzNkl0dDR4R2RFSVlVMVB0NXcwam04SEdEZjBJeVNyS2N1N2VMRThqUl9MYXFSajl5VTNndFV5N1ZkeXozMDJUSlNmbWVUQnVhSWJNTVYzemZZeFRBWkZ0VkVJeTVXU1BsT3NKd3hCVjRkaHFBcHRhRjJwbHJjT2pqX2VYMGpTQ005WHJsMGJlV3dfSmNLRTVTZlRhNGtHNG1BV2tVdlZCSGI3S1lSU2ttb29XdW9XWTZZUVF1S21NNzJQbDFpeWRZ?oc=5",
+          "pub_date": "Tue, 27 May 2025 07:00:00 GMT",
+          "source": "cio.com"
+        },
+        {
+          "title": "세일즈포스, ‘에이전트포스 인더스트리 서밋’ 개최 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNGNpRXBqVnZzd3NXZE9DUHJlYW9GaUZJcVhHN0N0dDlGMUxkYnpPYkM4TDRuRVgxdkdlc3E5TFRteVhKMG82SG1WN0h4a0dRdDhTS0VadUZXdlU0QXFCb0ZOeXZ0b3ZIMUFVeVB2N0s5SnBvb1R1ZmRuSWxqUFBINlBn0gGWAUFVX3lxTE9kWGVJUlhKVWYtVV9wRUs3b2NCcUJqVDRfeVFzQmE1bkZ2SXNSaHJybG9BWFdRNU1ZX3gwRVNwUno2aU13ZUlpRWFJYm1qM2xReWZ5cEZ6dGR5ZzQtSV9mRVR6SVRQTllHd0xna0JMSG9Hb0VoZW43dUxvMTNlNXdhZHlnWXB6cTN6WVpyQ1BzOEl5VlVVZw?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "세일즈포스 코리아, 박세진 신임 한국 대표 선임 - 브랜드브리프",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1Y09YZHJ5cFJDenFjRnhVRzZBUlFFa251OGFpaFVfM0FPYUFKYkE1Q1JCOExFUzF1cUJuakdRM3ZzdThGM0t6WEN3bHdUVC0tem0weGlTVjROOUowM0g2ZFhnQk5kbHVLV25Ba0N3?oc=5",
+          "pub_date": "Thu, 21 Aug 2025 07:00:00 GMT",
+          "source": "브랜드브리프"
+        },
+        {
+          "title": "세일즈포스, '에이전트포스 월드투어'서 에이전트 도입 사례 소개 - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55RFRGS1o0dDk5YlZqRXEzVllVbk9hVmxOc3lVWlRhaU50anl2Mk9sWFlzMXBEazdWS2RDS3V0WGgwNEdHYkN0ZlltY3JIR0ZyQTdjWnVTWEdaazRDWnVhRGVxUWZpcFRmN1E?oc=5",
+          "pub_date": "Wed, 18 Jun 2025 07:00:00 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "세일즈포스 코리아, 박세진 신임 대표이사 선임 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOUZsa09Cd0o3WUNWcjI1bTdDLTh1TmRwYmdJLUxYVk4xWHhBTEF4MmtEWTRmX0FkSG5WM2FIQmVHem8tcy1KeDc4aEFJSldDOHQ2UEg5a1k0N29rT1lGemxheV85ekNaeXFrTERUbFhHZEx5TEFoMGo0Njh0NEIzWGFR0gGWAUFVX3lxTE9rUmZMMUtyNlV4aXgxUzBacGtMaGxUWEh2QlB5a2xSVVdlUFZvZ1BhTlVlYkdCZFFNYlJGd29vZ2Y2WUZPODB2cEZTeXFMNUhGd2dSSmVncGs1dE9zRjVtZUx6N2pVRXU2SzdYaWNEcGR2eEZocmQwamxoT0s2RE5MbDFHa3hqekcyOFJOa2hISEtRcnBIZw?oc=5",
+          "pub_date": "Thu, 21 Aug 2025 07:00:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "잇따른 경영진 이탈에도…세일즈포스, 추가 감원 단행 - cio.com",
+          "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNT1Z3WV9xM2RYUGJRYWRoQXFQVzIwTWpJZ3lGNXNtQkUwWEdTRDQ4OXh3cHdFVjdMaU9lbFlpNHdpTmlDVG40Z2M0c3NQTHJwM2hCV0FSQ1d6ckNLZkJJYmxLMWdld2F1M3NOUFNzQzlfbGZ2WGttU3ZwSTNZbE5FZk1seDZGLTRrMzN4TUFkZ2RaYnJJOS10aW1veDFpblUtOVRyV3pPWWtfcl9uM1F2VDRPbVJIc1JMU0N3ZXFMMWd2NnkwM216dUF1SWF0Sl9rR0xNUUFtZm9CY00xMHd5T09KSkYyRW9yVEJFVUlQVERRVUdST3B5ME5Sc2xsanU4OEpjcVNqaXRrSS04Ri15Vno1V2xvNktKZ0V0aHdPeFV3NWRtV0poNkxoLTB2WmpONFppdFRZVEdqNW0tUnNyMHMzZnFSdnJFSGNnbC1jM2V5QWJmU0lR?oc=5",
+          "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "source": "cio.com"
+        },
+        {
+          "title": "세일즈포스, 직원 1천명 해고…AI 영업 인력은 확대 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90OS1ybW5DMzNabjBybHV0QjhzQ3lKU3hyYnAxWlQzWDBBV1poT1IxNVRwazhPRk5ZbGdtLWxGbFBhS1VyMGZYNF85T2w5ci1Kd0Vmc1JR?oc=5",
+          "pub_date": "Tue, 04 Feb 2025 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "세일즈포스, ‘글로벌 트렌트’ 보고서 공개… “높은 성과 낼수록 AI 활용도 높아” - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE84UGR6VGszNzhHd3J4S3hKSUF4aUFTb0pPbExyXzhSUDl4YlZKUHVuR3RSVlNfZUZocy1zeE9ETVV3aDNVLXdnVldiQQ?oc=5",
+          "pub_date": "Wed, 04 Mar 2026 08:00:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "[글로벌 테크기업] 세일즈포스, ‘에이전트포스’는 폭주했지만…주가는 왜 5% 밀렸나 - 이포커스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UOGlRb3BTT0l2TUFEQ2ljY0hMTHdKUDYwdWRkREo1UXFSUnFGcXRLdDZMZEx0Um5TSXpQX25fOUFld2RZN2RfZ2hfbk1pSzZnMk1SclRXODBsLWZsWGxjdDFTSUNWT05JVTNkQVJR?oc=5",
+          "pub_date": "Fri, 27 Feb 2026 06:56:34 GMT",
+          "source": "이포커스"
+        },
+        {
+          "title": "세일즈포스코리아 박세진 대표 \"태블로 앞세워 데이터 신뢰 강화\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BNzIwdmJoUEpUWG55bWpIcVY0OHRoa2NuRGJjdXg5d0JQQ2c1V3FBTDFiZlB2NlZ4X0JLSm1BZkF3ZlYzZGN3ZHNaM1lVTzRxMmpRQmVR?oc=5",
+          "pub_date": "Wed, 27 Aug 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "두산에너빌리티, 세일즈포스 기반 데이터 통합 관리 체계 구축 - 더에이아이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IZzMyUU5EdlFoa2c4TkJjWkd0NjZycEYwV1FiWS13MllZSV9xZnB4YU1OVXlLTTh6RWxxTDV6WVRTYVNubURFVUc0X2d1RzVFR280aERyNWw0NFUtTHRLWk9Hc0x0S09HaEE?oc=5",
+          "pub_date": "Tue, 30 Sep 2025 07:00:00 GMT",
+          "source": "더에이아이"
+        },
+        {
+          "title": "산업별 AI 에이전트 적용 모델로 운영 복잡성 해소...자동화·데이터 기반 실행 체계 강화 - 지티티코리아",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9laU5KV0tZUmJBSThFQS1GMUVKVGNYMGFpVkpvSEV1a1ZtUkNtWXc5T0ZEejdZZ1lSSTQ1cjllOXc1QllEbEw5QS10d19RTnhPbGc4NXEtTUFRQ1A2Sy02T1dXS2xlZGpMeXc?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "지티티코리아"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "김낙균(KIST 연구융합지원본부장)씨 부친상 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaWY3SFN3aGloemprRmhzcTMySWwxQ1R6S3Z6b3NiSkF2Mks5YjljMDlVbWQtUjB5dXZjX25ScU1GVWIxNEphZVBfeklPMmNfaGNKUWdPMlpSZkdtRVIwSk1MX3k4Qms1am5DV1NNTURmdVVFQVRxNE90aDV5Rm9QVkxZMUdlcWM?oc=5",
+          "pub_date": "Wed, 25 Feb 2026 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "삼성SDS, 제41기 정기 주주총회 개최 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wQXEtYzZSX2RQRHAyVXQ3U3FxNlcwYXhyWFlWYUZ3dzZQY2JZNlYzQW53eXV3bkRrSWRtZnA5cEdWR0I0YVRQSkdDX2hmelpmNXZFYtIBVEFVX3lxTE8wQXEtYzZSX2RQRHAyVXQ3U3FxNlcwYXhyWFlWYUZ3dzZQY2JZNlYzQW53eXV3bkRrSWRtZnA5cEdWR0I0YVRQSkdDX2hmelpmNXZFYg?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 00:56:43 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "손부한 \"AI에이전트가 인적자원의 한계 없애…디지털 노동혁명 이끌죠\" - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10VzRrUkZfMFBBS3ZRV3IwWGxoaU51X1lyZUlOQ0xYWkRiSTdycVhQY2NJSHFsZUlyMTZYS3ZCYUhUcXFzRnptTjJDSVJZQ3o0cFlCeFo5WHU1d9IBVEFVX3lxTE96cTJjeUg0eEFsRnlEa0ltdlVaeTdiSU5XNENaa2RJQVVUZWZZYUdHeVU3NUg2eTU3ckR6cnlQZGJ6ZFdlZi1keGstWVZKQXROYjdlYQ?oc=5",
+          "pub_date": "Mon, 23 Jun 2025 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "워크데이, 허정열 신임 한국지사장 선임 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa0liLXpaaXhIWWhraF9SSnZmTFpLdmdxcG5FTDk3V3VaQjcyZjAwTFdzUDM0ZzFGeklDMWtXNm9FbXRSRHplNmJySThfQ0JXZ1VNV0JHN0lzV1daVzEtQlpabWNlUXExUVVjUWV5SUQ0UWZvaGJGb2ZEQkZzcmxvQURB0gGWAUFVX3lxTE9DSHdVaFhDdEVGNkNhdjQ0NFhtTnNaVjZseHU4TFBOXy1ObkdNckg3aXpXLTdzSnVhVXcyZHpSZlNLeHdnMzc0Zl92Q1JYNS1GdzMyR0xSUDVadkxWZWRzeGpJc0RBVkEwMnlfeWlwMExxeERnVWFvc1VaYjVndWpQS1VuX01qM0N6b2tQSGhTRGRTbExPUQ?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 00:09:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "워크데이, 허정열 신임 한국지사장 선임 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ0h3VWhYQ3RFRjZDYXY0NDRYbU5zWlY2bHh1OExQTl8tTm5HTXJIN2l6Vy03c0p1YVV3MmR6UmZTS3h3ZzM3NGZfdkNSWDUtRnczMkdMUlA1WnZMVmVkc3hqSXNEQVZBMDJ5X3lpcDBMcXhEZ1Vhb3NVWmI1Z3VqUEtVbl9NajNDem9rUEhoU0RkU2xMT1HSAZYBQVVfeXFMT0NId1VoWEN0RUY2Q2F2NDQ0WG1Oc1pWNmx4dThMUE5fLU5uR01ySDdpelctN3NKdWFVdzJkelJmU0t4d2czNzRmX3ZDUlg1LUZ3MzJHTFJQNVp2TFZlZHN4aklzREFWQTAyeV95aXAwTHF4RGdVYW9zVVpiNWd1alBLVW5fTWozQ3pva1BIaFNEZFNsTE9R?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 00:09:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "클레이너만 스노우플레이크 부사장 “복잡한 기업 업무 자동화로 ‘에이전틱 엔터프라이즈’ 전환 가속화” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU1Q4NGhORGh1RC1UeVluOHZjNXE1dHFPcmd0MmRYUjBRd1BGcDVQUkJQajZSNnZjMldLeHNxM3FtNDkwUmg5RGMyaDBRWG9LTi1EU0plM3JfUEhHUXBFbFRzeUdLMnMtYlgyTTVQblVaWDJTSnFVZWx5RG5QNVlQTDRB0gGWAUFVX3lxTE1aNW1teG9VdzA4NTJGbS1BLUlUSGpvQVVuZlJIWFlJaEEwNkRKZEh4ZjhPVXltTDhhQ05ON1RBR2tULTRxV0cwTDd0WUhTXzBVUzBvOTFnajRyM01wZ2RQRUJkdEhVUkY5alVOYS1WMmtZejdiN2pBelZ2Ry01RTE1dTg3UllPUGNkSURfMHlxLUdEUk5ZZw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 06:03:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "https://www.mk.co.kr/sitemap/daily-images/20260223 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yZ1FOZW5rQjliT3lQTE5ZVVh4czl5SFlWZ2hSOGR5ME8zaTdBWGE0d1BsV2ZJTUpjam9QeWxFZXRhSXY4NlR4X3VFWVQ4NjY4V1doNkd0NlN3TFJPYldR?oc=5",
+          "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "흔들리는 사모대출펀드 블루아울 노리는 헤지펀드…“지분 헐값에 넘겨라” - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tNkxTa0lRcWFXSWdadEl1aFAtVGlDSE4tWUFkMGtsbTlIcldFa2xxUlJsamQ2OE03OWNLanRXZEJtYTliT2RMTm5saUo4VjVwY2c?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 23:58:02 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "https://www.mk.co.kr/sitemap/daily-images/20260317 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9tVUpYMkd6TUdHSkViRUd3Mmkxd280VWpYUXkydnhHMGp0RmNxTHFVOXdwZ1E5ZzB2eGhaNkVjNVBRc3pFOWJ1LUt4TGZ6SlRwdTZzQ01wSl94UFh5RjhF?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:42:30 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "워크데이, 한국 지사장에 허정열 선임…\"국내 AI 리더십 강화\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TbVRJWkpEaHl0S25ZLTBoRG1FdmsyTUNsN0pMdmgwd3RBaXViUFl2alpsTjRuMDUta2QwMlFBaWFNRFV2UG53ZmgyM3d3TktzdkttMHZR?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 00:50:04 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[박준성의 SW] AI가 SaaS 대체?...\"30여년 SW역사 보면 No\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zQjJnNjVUXzFJcFV2MWREdlJwNmtabHZPZFpwUWw4Zm9lZkdmWjV3V2RSSFV1blhQWTdQREZMZ3M3N2NfY2RPdUxUR2dmajJIUi0zSktn?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 04:20:33 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "엔비디아 '깐부' AWS, AI 경쟁력 강화…클라우드 주도권 굳히기 박차 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zc2FVSi1ISWpOR0ZaRG16S3RHSGNrY3JJZzY2bnU1bE9qcE5PYWdVOVp6amE1SThhOW1xU196RmlCbnk1ckN5c1BSeDBNanplSC15SktR?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 03:15:20 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[인터뷰] 이학준 마드라스체크 대표 \"협업툴에서 AI 에이전트로 진화\" - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TamJDYmo4NkRuUHJtaHN2OXRYRHpibnBORlZ6LUFua05CMEQ5aW80X0R5UWE2U2lhVy1wY19Cb016NUlZWXowMElfQjRlN3NfaDAycjNBRE5jeXVrWlE3ZEw3Ml9mLVJj?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 04:56:59 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[韓 외국계 IT]'신동 프로그래머'는 어떻게 글로벌 CRM 1위 '세일즈포스'를 일궜나 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hdzltaUNsNjR4TUhNNEM2dU9NM2JJM3lqUjBKMU84WnB3d01jdDdDcXZBd0ZXZnljeldDYzlSeDExSmtPcTBHU2lkTUx2RXNyRXVIYlBvZF9ueXVMQWZyMDBFVTJjNzjSAWtBVV95cUxOOW0tM3EzNUl0S0NUZjFaOFpvRlZQRWV1OE9zZ0I3LTBYSEt0S2RRa0x5Z1d3MXNEOEFPZFFhYnliRHQ0SGVzdFR1WTZ3TXBtR2lJN2dOdFNBV0R3bW1JS2pFb2FVb1BFN09jRQ?oc=5",
+          "pub_date": "Sun, 25 Sep 2022 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "세일즈포스는 왜 워크데이 '재무 솔루션'을 택했나 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MWk1fN1VDYWlFaWotTGJJdlo0bnVxQlZzdlA5OTA3V0pHdVpsdXdIaERyQ1pJZVE1WnJqaUFJc0pQZ1RobFBOdnF0OUMxVEZTSlNrWkdzOWhrbGdZd0FIdjVOTk1rbUXSAWtBVV95cUxQempLeVp2NmxfMHRQRG5zTzlPeUQ2R3BMaUZvUXRNdzhibmowWTFlZlVLcFlZRzFqbFZLZllhUmV1WVNmTm5RcmFmTWdjbFAwRXhpLVQ0Q2xSLTM1UkdJRTE1SE1kTnYxeUZBcw?oc=5",
+          "pub_date": "Wed, 14 Sep 2022 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "‘AI의 역설, 제로클릭 넘어설 마케팅 자동화’ 세일즈포스의 묘수 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03a1Q0U3FaVHE3UnktZkR5eHFBVV9DOTJCXzNLWVFkTWZ2RE96cU5MUk0teFNaWThYQm1ac2ExZUNNbHdNNTZ3emctWEpub3c?oc=5",
+          "pub_date": "Tue, 16 Sep 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "세일즈포스, 6월18일 ‘에이전트포스 월드투어 코리아 2025’ 개최 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MWW1OaXVQOGFKVmF5cy1feG5FZjRTc1RILS1CSmZUQk8xTzdIVVlSeXJGV3ZuLS04NVo4YWNXTm1Scm5oLVlkNmc4cFcyalU?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "세일즈포스코리아, ‘슬랙 투어 서울 2025’ 개최 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iVWFqM3FxZDJjZElwQ2dBQVlvVm1IVlhzSWZpSDJRM0M2N1R1WV9KRlVmeUlpSXZKSHQwcExKUUpVeUxoaGJfaTUwRUFhNFk?oc=5",
+          "pub_date": "Wed, 22 Oct 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+          "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+          "link": "https://sibauchi.tistory.com/1205",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+          "description": "실제 사용자들의 후기를 살펴보면, &quot;채용 공고 내용과 실제 업무 환경이 다른 경우가 많다&quot;, &quot;연봉 정보가 명확하게 제시되지 않아 어려움을 겪었다&quot;, &quot;면접 과정에서 기업 문화에 대한 충분한 정보를 얻지... ",
+          "link": "https://ilovefamily.tistory.com/527",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "2026 합격 가이드 (ft. 서류, SKCT, 면접 분석/합격 후기)",
+          "description": "26 2023 상반기 신입사원 채용공고 2023 하반기 신입사원 채용공고 더 많은 2026 대기업 채용 예상일정 보러가기 (클릭) SK하이닉스 최신 합격스펙  2026 SK하이닉스 최신 합격스펙   SK하이닉스 최소 합격... ",
+          "link": "https://blog.naver.com/afsangdo/224224434718",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "퇴사율 10.5%의 공공기관형 준정부기관, KOAMI... ",
+          "description": "반면, 공공기관 특유의 보수적인 조직 문화나 대기업 대비 연봉 상승률이 높지 않다는 점은 입사 전에 감안해야 할 부분이에요. 꿀팁 - KOAMI 면접 준비 가이드 및 퇴사율 분석 취준생들이 가장 알고 싶어하는... ",
+          "link": "https://blog.naver.com/cymmcymm/224218665670",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
+          "description": "맞는 기업 문화를 중요하게 생각합니다. 또한, 온라인 채용 플랫폼을 적극적으로 활용하며, 개인의 역량을 보여줄 수 있는 포트폴리오를 강조합니다. 🗣️ 현장의 목소리를 담다: 전문가의 견해와 생생한 후기... ",
+          "link": "https://lefthusband.tistory.com/1565",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "대구 취업 성공 잡코리아 활용 전략으로 꿈을 이루세요",
+          "description": "단순히 채용 공고만 보는 것이 아니라, 회사의 사업 분야, 기업 문화, 근무 환경 등을 파악하여 자신에게... 잡코리아에 있는 기업 정보와 후기를 참고하여 회사 분위기와 면접 방식을 파악하는 것도 잊지 마세요.... ",
+          "link": "https://sibauchi.tistory.com/837",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "인천공항시설관리 면접 후기 정규직 신입 기출 질문 정리",
+          "description": "그저 알려준대로 면접장에서 써먹기만 하시면 됩니다. 매년 인공시 합격자 10여 명 이상 배출 직렬별 후기 및 기출 질문 다수 보유중 꾸준히 성과를 만들 수 있는 이유 1. 공기업 채용 실무진의 컨설팅 공공기관... ",
+          "link": "https://blog.naver.com/jinsiri2191/224221982493",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "앰코테크놀로지코리아 설비... 반도체 글로벌 기업 입성하는 법",
+          "description": "현직자 후기를 보면 &quot;글로벌 기업 특유의 체계적인 프로세스&quot;와 &quot;기본기 탄탄한 복지&quot;를 장점으로... 앰코테크놀로지코리아 면접 준비 꿀팁 — 실제 기출 질문과 합격 포인트 취준생분들이 가장 궁금해하는... ",
+          "link": "https://blog.naver.com/cymmcymm/224222561349",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[링커리어 콘텐츠 에디터 26기 사전과제] 장기 휴학생의... ",
+          "description": "온라인 면접: 3월 31일(화) · 최종 합격자 발표: 4월 3일(금), 이메일/문자 발송 · 오프라인 발대식... 리스트업 • 기업 정보에 알맞는 세일즈 전략 기획 보조 • CRM 활용 및 데이터 정리 • 그외 스타트업... ",
+          "link": "https://blog.naver.com/qo_thf12/224222590231",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "삼성전자 상반기 3급 신입사원채용 면접준비 기출질문 합격전략",
+          "description": "Gen-Z 문화 이해도 해외영업 B2C/B2B 영업 (영상디스플레이, DA, MX, 네트워크) 전공 무관 (네트워크 B2B는... 저와 함께 면접을 준비하신다면 제가 대기업 면접관의 관점에서 합격비법을 전수해 드리겠으나... ",
+          "link": "https://blog.naver.com/jinsimcoach/224222517967",
+          "pub_date": "20260319"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260321토요일",
+          "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 보건복지부(장관 정은경)는「메디컬코리아 2026」참석차 한국을 방문한 몽골 친부렝 직찌드수렝(Chinburen... ",
+          "link": "http://cafe.naver.com/jungamironware/9268",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+          "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-20 오후 3:00:00 엔브이에이치코리아㈜의 하도급법 위반행위 제재 엔브이에이치코리아㈜의 불공정하도급거래행위... ",
+          "link": "http://cafe.naver.com/magicbank/3332",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "[경력] ~26.04.09 / 일레븐플러스코리아 - Frontend Developer (React)",
+          "description": "채용 공고 - URL (공고 링크) : https://zighang.com/recruitment/ef6c7bd3-f485-4d4e-a189-51991728cc31?utm_source=naver&amp;utm... 혜택 및 복지 ?자율적이고 주도적인 업무 문화 • 유연한 근무 시간 및 휴가 사용 ?수평적인 조직... ",
+          "link": "http://cafe.naver.com/workhub/32402",
+          "pub_date": ""
+        },
+        {
+          "title": "충청남도보도자료20260320금요일",
+          "description": "엔터테인먼트 코리아 이스포츠 매니저), ▲OGN의 남윤승 대표 ▲한국전자통신연구원 이상광 박사... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자 박람회... ",
+          "link": "http://cafe.naver.com/jungamironware/9239",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.73515625,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "성장",
+        "수평",
+        "장점",
+        "좋은",
+        "최고",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "세일즈포스코리아(유) 2025년 기업정보 | 기업리뷰 13건, 4.2 리뷰평점",
+          "description": "세일즈포스코리아(유) 기업정보 - 장단점 키워드: 고민, 곳, 근무 | 기업리뷰: 빠르게 변화하는 IT환경에서 함께 성장할 수 있는 회사 | 세일즈포스코리아(유)의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 ...",
+          "url": "https://www.jobplanet.co.kr/companies/418961/reviews/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "세일즈포스닷컴코리아 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+          "description": "세일즈포스코리아(유) <strong>16위</strong> · 엡스코코리아(주) 17위 · (주)쿠콘 · 표준산업 분류 기준 [포털·컨텐츠·커뮤니티]의 공시된 재무정보(매출액)를 기준으로 평가된 순위입니다.",
+          "url": "https://m.jobkorea.co.kr/company/46324354"
+        },
+        {
+          "source": "brave",
+          "title": "세일즈포스 - 나무위키",
+          "description": "클라우드 컴퓨팅 서비스를 제공하는 미국 의 전문서비스업 대기업이다. 기업체들을 대상으로 CRM 기반 B2",
+          "url": "https://namu.wiki/w/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "세일즈포스코리아(유) 2026년 기업정보 | 기업리뷰 19건, 연봉정보 8건, 면접후기 5건, 복지정보 0건, 채용공고 0건",
+          "description": "세일즈포스코리아(유) 기업정보 - 산업: 포털/인터넷/콘텐츠, 기업형태: -, 사원수: -, 설립: 2006.02.17 | 세일즈포스코리아(유)의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/418961/landing/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "세일즈포스코리아(유) 기업정보 ㅣ 채용공고, 연봉, 직원수 - 리멤버",
+          "description": "세일즈포스코리아(유) 경력직 채용 공고. 연봉, 직원수 등 이직에 필요한 모든 정보를 한눈에 확인하세요.",
+          "url": "https://career.rememberapp.co.kr/job/company/2296689"
+        },
+        {
+          "source": "brave",
+          "title": "Salesforce Korea - Salesforce KR",
+          "description": "고객 360과 함께하는 고객 여정의 모든 경험을 개인화합니다. 세계 최고의 CRM에서 마케팅, 영업, 서비스, 커머스 및 IT를 통합합니다.",
+          "url": "https://www.salesforce.com/kr/"
+        },
+        {
+          "source": "brave",
+          "title": "세일즈포스코리아(유) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "description": "세일즈포스코리아(유) 기업소개 - 업력 : 21년차, 기업형태 : 중소기업, 업종 : 데이터베이스 및 온라인정보 제공업 | 세일즈포스코리아(유)의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 ...",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/dTlTOTM0NzEwVnJ6cndJcVFvcmU0dz09/company_nm/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84(%EC%9C%A0)"
+        },
+        {
+          "source": "brave",
+          "title": "세일즈포스코리아 기업정보 - 2025년 연봉, 사업, 채용, 지원자 스펙 분석",
+          "description": "세일즈포스코리아 연봉, 사업 분석, 합격 스펙, 채용공고 등 최신 기업정보를 한눈에. 직무별 지원자 분석부터 합격 후기까지 세일즈포스코리아 상세 취업 정보를 확인하세요.",
+          "url": "https://jasoseol.com/companies/15226"
+        },
+        {
+          "source": "brave",
+          "title": "세일즈포스닷컴코리아 기업정보 - 2025년 연봉, 사업, 채용, 지원자 스펙 분석",
+          "description": "세일즈포스닷컴코리아 연봉, 사업 분석, 합격 스펙, 채용공고 등 최신 기업정보를 한눈에. 직무별 지원자 분석부터 합격 후기까지 세일즈포스닷컴코리아 상세 취업 정보를 확인하세요.",
+          "url": "https://jasoseol.com/companies/15573"
+        },
+        {
+          "source": "brave",
+          "title": "salesforce.com, inc. 2024년 기업정보 | 38건 연봉정보, 6,676만원 평균연봉 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/324205/salaries/salesforcecom-inc"
+        },
+        {
+          "source": "naver",
+          "title": "세일즈포스코리아 2026년 기업정보 | 4건의 복지정보 0 전체 복지 통계",
+          "description": "세일즈포스코리아의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 4건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/418961/benefits/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "세일즈포스코리아(유) 2026년 기업정보 | 기업리뷰 19건, 4.2 리뷰평점",
+          "description": "장점 : 커리어 개발 경로가 열려있는 편 동종 외국계 기업과 비슷한 수준의 복지, 단점 : 업계 최고라는 자체 평가로 인해 바깥 세상을 잘 모르는 우물안 개구리들이 더러 있음",
+          "url": "https://www.jobplanet.co.kr/companies/418961/reviews/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "세일즈포스코리아 2026년 기업정보 | 4건의 복지정보 0 전체 복지 통계",
+          "description": "세일즈포스코리아의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 4건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/418961/benefits"
+        },
+        {
+          "source": "naver",
+          "title": "세일즈포스코리아(유) 2026년 기업정보 | 5건 면접후기 2.8 면접난이도",
+          "description": "세일즈포스코리아(유)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 2.8, 면접경로: 헤드헌터 40%, 면접경험: 긍정적 40%, 부정적 0%, 면접결과: 합격 20%, 불합격 20%, 대기중 60% | 잡플래닛에 등록된 5건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/418961/interviews/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "포스코리아(주) 2025년 기업정보 | 기업리뷰 9건, 4.0 리뷰평점",
+          "description": "장점 : 외국계 기업이다 보니 수평적 구조입니다. 직원들간 서로 존중하며 협력이 잘 됩니다. 임원들도 서로 사이가 좋고 직원들과도 원만합니다. 다만, 회사이다 보니 실적이나 업무관련해서는 맺고 끊고 목표달성하는 것이 매우 철저합니다. 단점 : 규모가 작아요 한국에 설립된지 30년이 넘어가는 시점인데, 아직도 인원이 16명입니다. 목표 시장이 농축수산업 식품 사료등 우리...",
+          "url": "https://www.jobplanet.co.kr/companies/108442/reviews/%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "(주)에다포스코리아 2026년 기업정보 | 기업리뷰 2건, 2.0 리뷰평점",
+          "description": "장점 : 자유로운 생각,의견 공유 사람이 많지 않아서 직원들과 친해지는데 괜찮다, 단점 : 스타트업이니 대표님과 가까이 있어야한다는 점. 일을 할 때도 작은 회사다 보니 대표님과 한 사무실을 쓰는데 살짝 불편할 수도 있다. 하지만 외근이 잦으심",
+          "url": "https://www.jobplanet.co.kr/companies/390854/reviews/%EC%97%90%EB%8B%A4%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 2.8점 중견기업인데 - 직장/알바/사업",
+          "description": "잡플래닛 리뷰는 보고 싶은데못보고 평점 2.8점인 중견기업인 물류회사인데 후기가 알고싶어요 초봉은 3500 하는일은 사무기술직으로 지원할건데요 3명이서 대기업(Lg화학.한화)안에서 화물차 시간배치를 주로...",
+          "url": "https://www.fmkorea.com/3660127960"
+        },
+        {
+          "source": "naver",
+          "title": "세일즈웍스 코리아 2026년 기업정보 | 32건의 복지정보 0 전체 복지 통계",
+          "description": "세일즈웍스 코리아의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 32건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/90449/benefits/%EC%84%B8%EC%9D%BC%EC%A6%88%EC%9B%8D%EC%8A%A4-%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 1.3인 곳도 떨어지냐 - 직장/알바/사업",
+          "description": "방금 전에 전화로 면접 불합격 통보 받은 곳임 (모 새마을금고) 월요일 오후에 면접보고 뒤늦게 잡플래닛 평점 봤는데 1.3점이더라고 ㄷㄷ 내가 어지간해선 2.0이어도 봐줄만하다고 생각했는데... 1.8, 1.9도...",
+          "url": "https://www.fmkorea.com/3883593570"
+        },
+        {
+          "source": "naver",
+          "title": "salesforce.com, inc. 2026년 기업정보 | 19건 면접후기 3.1 면접난이도",
+          "description": "면접경로 ; 온라인 지원 : 55%, 직원추천 : 33%, 헤드헌터 : 6%, 공개채용 : 6%, 학교 취업지원 센터 : 0%, 기타 : 0%",
+          "url": "https://www.jobplanet.co.kr/companies/324205/interviews/salesforcecom-inc"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "Careers in Korea | Join Salesforce Korea",
+          "url": "https://www.salesforce.com/company/careers/locations/japac/korea/",
+          "text": "Careers in Korea | Join Salesforce Korea | Salesforce\n\nSearch jobs Join our Talent Community\n\nSearch jobs [Explo",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "세일즈포스코리아 기업정보 - 채용 1건, 평균연봉 6,032만원, 인원 227명, 업력 16년, 서울 영등포구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/d09d0a95067ebc0e322256c3f3ea2139cfbeb131",
+          "text": "세일즈포스코리아 기업정보 - 채용 1건, 평균연봉 6,032만원, 인원 227명, 업력 16년, 서울 영등포구 | 원티드\n\n# 세일즈포스코리아\n\nIT, 컨텐츠서울 영등포구17년차(2010)\n\n세일스포스(Salesforce)는 클라우드 기반의 고객 관계 관리(CRM) 플랫폼을 제공하는 글로벌 기업으로, 기업들이 고객과의 관계를 관리하고 비즈니스를 확장할 수 있도록 돕습니다. 세일즈포스는 고객 관계 개선을 지원한다는 한 가지 목표에 집중해 왔습니다. 10년 넘게 AI 분야의 리더로서 생산성을 높여 고객에게 탁월한 경험을 제공할 수 있도록 지원하고 있으며, 현재 전 세계 150,000개가 넘는 기업이 성장을 위해 세일즈포스를 믿고, 선택하고 있습니다.\n\n더보기\n\n## 채용중인 포지션\n\n- Lead Solution Engineer - EBU (Korea)서울 영등포구경력 3-12년상시\n\n## 태그\n\n연봉상위2~5%인원 급성",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "세일즈포스코리아(유) 채용 | Business Development Representative 경력직 공고 - 리멤버",
+          "url": "https://career.rememberapp.co.kr/job/postings/185913",
+          "text": "세일즈포스코리아(유) 채용 | Business Development Representative 경력직 공고 - 리멤버\n\n세일즈포스코리아(유)\n\n# Business Development Representative\n\n51-300명\n\n- 우대사항\n- 자격요건\n- 주요업무\n- 공고소개\n\nSales Organization Description: Our Sales Organization is made up of the business segments below. Within these business segments, the teams sell across multiple verticals and there are teams that sell specifically into one industry or vertical. Verticals i",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "(유)포리코리아 채용 - [포리코리아] Sales Engineer / Manager | 잡코리아",
+          "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/46796605",
+          "text": "(유)포리코리아 채용 - [포리코리아] Sales Engineer / Manager | 잡코리아\n\n채용공고\n\n(유)포리코리아\n\n[포리코리아] Sales Engineer / Manager\n\n마감\n\n인센티브 지급\n\n경력 (3년이상)\n\n상세요강\n\n기업 정보\n\n추천 공고\n\n##### 모집요강\n\n모집분야\n\n기술영업 매니저\n\n모집인원\n\n1명\n\n고용형태\n\n정규직\n\n급여\n\n회사 내규에 따름 (면접 후 결정)\n\n근무시간\n\n주5일(월~금), 08:00 ~ 17:00\n\n근무지\n\n경기 시흥시 엠티브이26로20번길 25 (정왕동, (유)포리코리아) 지도\n\n##### 지원자격\n\n경력\n\n경력(3년이상)\n\n우대\n\n영어가능자, 인근거주자, 컴퓨터활용능력 우수자, 차량소지자, 프리젠테이션 능력우수자, 문서작성 우수자, 유관업무 경력자, 즉시출근 가능자, 장기근무 가능자\n\n##### 접수기간/방법\n\n마감되었습니다.\n\n기간\n\n2025.04.14(월) ~ 2025.06.13(금) 채용시마감\n\n방법\n\n잡코리아 즉시지원\n\n",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "세일즈포스코리아(유) 채용 | Account Executive, Enterprise Sales (국내 항공사 대상 영업) 경력직 공고 - 리멤버",
+          "url": "https://career.rememberapp.co.kr/job/postings/199790?channel=jdpage_related_list&curationLocation=job_posting_tab&jdViewSource=jdpage_related_list&postQuerySessionId=3f2fa233-444b-4e87-a5c4-0277499c4be4",
+          "text": "세일즈포스코리아(유) 채용 | Account Executive, Enterprise Sales (국내 항공사 대상 영업) 경력직 공고 - 리멤버\n\n세일즈포스코리아(유)\n\n# Account Executive, Enterprise Sales (국내 항공사 대상 영업)\n\n51-300명\n\n- 우대사항\n- 자격요건\n- 주요업무\n- 공고소개\n\nSalesforce presents an exceptional opportunity for Sales Professionals with a demonstrated history of surpassing sales targets in the technology sector. We aspire to assemble a team of astute, driven Account Executives dedicat",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "AI, 자동화 및 데이터 잠재력 활용 가이드- 세일즈포스 (Salesforce)",
+          "description": "AI, 자동화, 데이터를 통해 서비스 팀의 생산성과 효율성을 그 어느 때보다 쉽게 만들 수 있습니다. 본 보고서를 읽고 다음을 수행하는 방법을 알아보세요.",
+          "link": "https://www.salesforce.com/kr/form/pdf/service-ai-automation/",
+          "pub_date": ""
+        },
+        {
+          "title": "바야흐로 이제는 AI 시대, 글로벌 고객 경험 변화에 대한 인사이트를 확인하세요.- 세일즈포스 (Salesforce)",
+          "description": "AI 시대의 고객 경험 현황’ 보고서(State of the AI Connected Customer 7th edition)는 전 세계적으로 16,500명을 대상으로 설문조사를 실시했으며, 다음과 같은 내용을 다룹니다:",
+          "link": "https://www.salesforce.com/kr/form/pdf/state-of-ai-connected/",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 에이전트와 함께하는 마케팅 혁신! 온디맨드- 세일즈포스 (Salesforce)",
+          "description": "AI와 함께 더 스마트한 마케팅을! 💡 이번 웨비나에서는 Salesforce Marketing Cloud의 혁신적인 AI 기능을 활용해 마케팅 성과를 극대화하고 고객과의 관계를 더욱 단단하게 만드는 방법을 알아봅니다.",
+          "link": "https://www.salesforce.com/kr/form/webinar/Agentforce-Webinar-Marketing-on-demand/?d=pb",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 전략 가이드: 데이터 + AI + CRM- 세일즈포스 (Salesforce)",
+          "description": "AI 시대가 다가왔습니다. AI는 우리 시대의 어떤 기술보다 빠르게 성장하고 있습니다. 본 가이드는 AI 사용 시작 단계에 있거나 이미 기술을 이용해 혁신을 실현하고 있는지와 상관없이 기업이 효과적으로 전략을 수립하고 새로운 기회를 수용하며 AI의 이점에 관한 중요한 문제의 해답을 도출하는 데 도움을 줄 것입니다. 생성형 AI는 이미 기업이 더욱 강력한 고객 관계를 구축하고...",
+          "link": "https://www.salesforce.com/kr/form/pdf/ai-guide/",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 에이전트 혁신을 한눈에! – 2025년 하반기 Salesforce AI 행사 완벽 가이드",
+          "description": "남보다 발빠르게 더 나은 2026 내년을 준비하는 방법? 올해 하반기 Salesforce 행사들을 통해 AI 에이전트 시대의 구체적인 미래를 확인하세요! 최신 기술과 비즈니스 전략을 배우고 경쟁력을 극대화할 수 있는 기회입니다 지금 세부정보를 확인하고, 새로운 비즈니스 가능성을 열어보세요. 급변하는 시장 환경에서 경쟁력을 유지하려면 최신 기술과 트렌드를 신속하게 도입하고, 변화...",
+          "link": "https://www.salesforce.com/kr/blog/kr-salesforce-ai-event-2025/",
+          "pub_date": ""
+        },
+        {
+          "title": "테크 플랫폼을 위한 AI전략 1: 똑똑한 &quot;기업용&quot; AI의 조건은 무엇일까요?- 세일즈포스 (Salesforce)",
+          "description": "기술 최전선에 위치한 테크 플랫폼 기업의 AI 전략, 기업용 AI을 도입만 하면 알아서 잘 클수 있을까요? AI를 키우는 일, 세심한 관리와 올바른 교육, 그리고 꾸준한 관심이 필요합니다. 이번 세션에서는 우리...",
+          "link": "https://www.salesforce.com/kr/form/event/Agentforce-Worldtour-Seoul/Platform-Session1/?d=pb",
+          "pub_date": ""
+        },
+        {
+          "title": "세일즈포스, AI CRM 전략 발표…신뢰, 생산성 향상 및 고객 성공 견인 목표",
+          "description": "등단하여 세일즈포스의 AI 전략과 비전을 포함한 혁신적인 신제품... 세일즈포스 코리아 손부한 대표는 “AI와 고객 경험이 디지털 혁신의 핵심 요소로 부각되고 있는 현 상황에서 드림포스 2023은 AI 혁신가...",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=28916",
+          "pub_date": ""
+        },
+        {
+          "title": "세일즈포스, 고객경험 특화 AI 실행 전략 소개",
+          "description": "통합 전략과 비전을 제시했다. 특히, 많은 서비스 조직이 반복적인... 박세진 세일즈포스 코리아 대표는 “AI 에이전트는 단순한 문의... “에이전트포스와 서비스 클라우드의 시너지는 국내 기업들이 에이전틱...",
+          "link": "https://v.daum.net/v/20250926111350311",
+          "pub_date": ""
+        },
+        {
+          "title": "테크 플랫폼을 위한 AI전략 3: 슬랙과 태블로를 기반으로 하는 AI Quick start- 세일즈포스 (Salesforce)",
+          "description": "숱한 회사의 협업 내용과 진척 상황 등 우리 비즈니스에 관한 정형/비정형 데이터를 담고 있는 슬랙과 각종 사업지표를 분석을 위해 전체 사업 현황을 연결하여 구성한 태블로를 기반으로 AI 전략을 소개합니다....",
+          "link": "https://www.salesforce.com/kr/form/event/Agentforce-Worldtour-Seoul/Platform-Session3/?d=pb",
+          "pub_date": ""
+        },
+        {
+          "title": "세일즈포스 CEO “기업 AI 전략, 데이터 활용만큼 중요해졌다”",
+          "description": "나서 세일즈포스의 AI 전략과 비전을 포함한 혁신적인 신제품, 신기능 및... 손부한 세일즈포스 코리아 대표는 “AI와 고객 경험이 디지털 혁신의 핵심 요소로 부각되고 있는 현 상황에서 드림포스 2023은 AI...",
+          "link": "https://ditoday.com/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4-ceo-%EA%B8%B0%EC%97%85-ai-%EC%A0%84%EB%9E%B5-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%99%9C%EC%9A%A9%EB%A7%8C%ED%81%BC-%EC%A4%91%EC%9A%94/",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "The C-Suite on Agentic AI: 4 Insights That Defined 2025 - Salesforce",
+          "url": "https://www.salesforce.com/news/stories/c-suite-agentic-ai-perspectives-2026/",
+          "text": "Salesforce Research Reveals C-Suite Trends for 2026 - Salesforce\n\nSkip to Content\n\nSkip to Footer\n\n0%\n\nJanuary 14, 2026 4 min read\n\nIn 2025, the focus shifted from the potential of generative AI to the workforce transformation of AI agents. Across every industry and region, Salesforce research this past year shows that CEOs, [CFOs](https://www.",
+          "score": 0,
+          "published_date": "2026-01-14T00:00:00.000Z"
+        },
+        {
+          "title": "[인터뷰] 박세진 세일즈포스코리아 대표 “2026년 에이전트 원년, 韓 데이터 주권 확보 총력” < Interview < 기획 < 기사본문 - 더에이아이",
+          "url": "https://www.newstheai.com/news/articleView.html?idxno=10355",
+          "text": "[인터뷰] 박세진 세일즈포스코리아 대표 “2026년 에이전트 원년, 韓 데이터 주권 확보 총력” --\n\nSearch for Articles\n\n2026-02-22 08:09 (일)\n\n- Login\n- Join\n\n이전 기사보기 다음 기사보기\n\n[인터뷰] 박세진 세일즈포스코리아 대표 “2026년 에이전트 원년, 韓 데이터 주권 확보 총력”\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n## 전 솔루션 韓 이전, 금융·통신 규제 산업 공략 나선다 전 세계 7,000명 보안부대 가동… 쿠팡 사태 막는 3중 방어 체계 韓 소버린 AI 기조 부합… ‘청년CRM’ 등으로 인재 양성 지원\n\n박세진 세일즈포스코리아 대표는 “2026년은 에이전",
+          "score": 0,
+          "published_date": "2025-12-24T00:00:00.000Z"
+        },
+        {
+          "title": "Salesforce Q3 FY 2026: AI Agents, Data 360 Lift Bookings - Futurum",
+          "url": "https://futurumgroup.com/insights/salesforce-q3-fy-2026-ai-agents-data-360-lift-bookings-and-fy26-outlook/",
+          "text": "Salesforce Q3 FY 2026: AI Agents, Data 360 Lift Bookings - Futurum\n\nEarnings Market Coverage\n\n- December 5, 2025\n\nFuturum Research\n\n# Salesforce Q3 FY 2026: AI Agents, Data 360 Lift Bookings and FY26 Outlook\n\n- AI Platforms, [Data Intelligence, Analytics, & Infrastructure](https://fu",
+          "score": 0,
+          "published_date": "2025-12-05T00:00:00.000Z"
+        },
+        {
+          "title": "세일즈포스, ‘글로벌 트렌트’ 보고서 공개… “높은 성과 낼수록 AI 활용도 높아”｜동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260304/133460487/1",
+          "text": "세일즈포스, ‘글로벌 트렌트’ 보고서 공개… “높은 성과 낼수록 AI 활용도 높아”｜동아일보\n\n공유하기\n\n글자크기 설정\n\n## 영업 현장의 게임 체인저 AI 에이전트, 리더 94%가 성장 동력 지목 전 세계 영업 실무진 4000여 명 대상 글로벌 세일즈 트렌드 분석 자료 공개 응답 조직 90% 도입 완료 또는 추진, 데이터 통합이 성패 가를 변수 고성과 그룹일수록 AI 활용도 높고 외부 커뮤니티 통한 정보 공유 활발 사용량 기반 과금제 확산 및 사람과 인공지능 협업하는 기업 모델 가속화\n\n세일즈포스는 4일 한국을 포함한 주요 22개국 영업 실무진 4050명의 답변을 바탕으로 작성한 글로벌 세일즈 트렌드 보고서를 공개했다. 이번 자료는 영업 현장의 AI 에이전트 보급 현황과 활용 실태, 매출 확보 전략의 변화 및 데이터 환경 등을 다각도로 조명했다.조사 결과에 따르면 영업 조직 10곳 중 9곳은 이미 AI 에이전트를 실무에 투입했거나 향후 2년 안에 도입할 방침인 것으로 나타났다. 특",
+          "score": 0,
+          "published_date": "2026-03-04T00:00:00.000Z"
+        },
+        {
+          "title": "세일즈포스코리아, ‘AI 전문’ 박세진 신임 한국 대표 선임 < 이슈 < 이슈 < 기사본문 - FA저널",
+          "url": "https://www.fajournal.com/news/articleView.html?idxno=20045",
+          "text": "세일즈포스코리아, ‘AI 전문’ 박세진 신임 한국 대표 선임 --\n\n- ISEC\n- SECON\n- Battery KOREA\n- Battery Asia\n- Solar Asia\n- AMWS\n\n- 회원가입\n- 로그인\n\n발행일: 2026-02-27 16:11 (금)\n\n기사검색\n\n--\n\n이전 기사보기 다음 기사보기\n\n세일즈포스코리아, ‘AI 전문’ 박세진 신임 한국 대표 선임\n\n가\n\n가\n\n기사의 ",
+          "score": 0,
+          "published_date": "2025-08-21T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Salesforce expands local cloud platform to Israel - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVGVyTGNfdUVpd2laUmRQZnpJRm1GRDVNR2c0V3o3VVJkbi1qSTdZZHF2TGlBVXVWUUw2R0huRGl6VjVhUGZ6ZGtlQ1dlYXFRc1l5aFpWekcxTnpiNFJLNzE0VVEtZmhTSzlvLUkyME12Mjh0R1EyYndlU0FacGpRaGc3WHN5NXlTSnJlc2xwa2cxbF9wRVpXQw?oc=5",
+          "pub_date": "Tue, 10 Sep 2024 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Salesforce cuts fewer than 1,000 jobs, Business Insider reports - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX3RtcEtMLW9rdDJHUDd6TTQ2T200Y2l5TzFGeWJJMlJTVGJvNEhOU3ZXanMzZzVnWXY3N1hWWTVyVFdaX29OUk9uRU9vTWZDcjFXZTlxN2ZaVlFKdmVYUi1KNGE5X1JQZmVRTE12SmZFOGJ5Vm15LUU5RkNTLXYxd0dnTFRSRkF1VW9INnV0bzdoUEhXYVc3dHgxTkZ2bm1raFdOUzBBWVJkX0tPV3UyZlUzZ2Z0eXp6dzl3?oc=5",
+          "pub_date": "Mon, 09 Feb 2026 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Salesforce shares scale record high on promising AI tools - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVkFuYjJDLVFtSFRLQkJmM09BalVkd1lOZTdXUU03NFRfZHdkVUszcXlDdzY4eF9qZlE5dktCaHRhU2g2c0x1TzdSV1diMi1DalNRWGhhT3F0VlQ4aC1HbkZRRXY2aXY4U3VKQnFfRUJHVGg0SU9Lc3VfcjdHU0lHbERIUUh4QzN5N3JORGc0TzBxcUphYy1JTVIwU05LcmgtcEZR?oc=5",
+          "pub_date": "Wed, 04 Dec 2024 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Salesforce Gives Strong Revenue Outlook, Touts AI Adoption - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYU1kNXpxc0NFZVhwSV80bTd6S0VZVU80Y25lUVpTUjZuSWtmelJHd1FZdXVRMDFYRkVyaDRyNWFzZk9TVmZJMnZQSXBjcHZfNEVIX3hOWjdkR3A3VVF0dmEycGxEd2c4SEZWX0wxLTFTYmVkaWQxZDlnS1VKSG9sOHpjcGQzb3VzTjUxTDYxR3FMTjdMUFhLQlVBR2NPbUVNYm9BUzJSZlNEcURU?oc=5",
+          "pub_date": "Wed, 03 Dec 2025 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Salesforce (CRM) Raises Annual Sales Outlook, Suggesting AI Payoff - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbEl6YUtkazc5OHNpTUs1aW1oZDJTUUhaQnpMMm5HWFJJajZrQUd6bnViVTB5WEFlM3ZuQ2dFN0Jqb0Njd2FKYXI2NzJGOEZJeE4xX1JfX0pRcTdhSnBjc215V0c0bXV3dGdweGJKQkduYVFGYS1kXzUxZDZhZ1JiWEwtSlpjQk54Q3d4cXRHelF5ZzZRNWVoWkJOTUdBZUdBbXM5ZVhWRUh3LVV5N1RV?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "CRM: Salesforce Inc Stock Price Quote - New York - Bloomberg - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HUzVqbmZqbEYwZTNwLTNfUjBzQ1I1SUQtNi0wN3F6c3ViZFVnOTZRblhCa3dBTHllUEZnSS1ySTNIS1V3TjlhRFlabzZTMDQ?oc=5",
+          "pub_date": "Fri, 14 Mar 2014 23:57:24 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5oc1hqR1YwYi1VQTM1alk2dEVDNS1TaXp1SnlRdHdNQzBINUZvN0hxaDdWeEhSUGoxWm5v?oc=5",
+          "pub_date": "Tue, 09 Feb 2010 10:17:04 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Hacking group claims theft of 1 billion records from Salesforce customer databases - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNl9FSHI0U0U3WDY5LWM0X3RoQno0dVNYbmQ4bDZLcjhteTZMcUpxZXg5MVFKRDJhMXd2VDNCSUlEWF9JaFI5S0k0UVljYmNYbzFiZ0lxN0hzbk5jaHp5Y2lWV3JsaURVTWZ4ZjIwQ1JmUi1BcDF0TF9TajRLVk90YVo2d1V2QmV1Ym9hRmdVaWJuZXV4MG95ZmtraWxMd0FoREx6WENrdnFvLVRfQ3p0Z1JwYmFyZlJN?oc=5",
+          "pub_date": "Fri, 03 Oct 2025 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Seoul-based Datumo raises $15.5M to take on Scale AI, backed by Salesforce - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUlRvZ3FET1NHVjBpclkxSjd1MlRkbC02RERfOERqZ3JHOXpueE5UaU9Ua1VQX1NZZ2FQSkJSeGR5dmhCUWczN0YxT1BVNjhNUWQ0a3Y5c1p0NFdzRXdzTW1Sdi1IVmtWbm1YYnRpRzlkZGlBaHRuVmltUUh5NEZ0c0tDQVhQdjdiQ3VLdEtYU0sxQVZvcVAyVm9ZZkRnNVdSSHJJbnBmOFJfNGZmd0RDQ0NR?oc=5",
+          "pub_date": "Mon, 11 Aug 2025 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Tech, Media & Telecom Roundup: Market Talk - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxObEFPNjF4OXVfOFdUWVBxN1Z0bzlUaW5UZFZ4NHJBOUJyY0Jsa0pMXzdGQkVEblJjbW1wdEdiRjdJbEJkVlY5YzJOWkhPNnBWVDhxMzAya09DRTVVVE5MVnFSWTlnR3l3aGRFRHZwdTA0NUNwY3dfQTRUbXZwa3RKckNfQ09KRVpkODJ0VWlvWGdGYV9aRG1YWmV2TnV5THlLcE03cWlkcVlpX2pxWnlqRFpyMkVHTGlxd01FTEdtdDRXYXd2LXY4dGdub2MyRktUZjZvaHZEUUFnRzMtNFVkU1dzVjZuTThlYWZnZ0NLTzVUM3N0bmhxVG5qcEJFQlFCUWJUenc1YmhYd1daZkpYY3FlcWcxNVNMV0MtSjE4ZWNUTHBKVmMyeEloRDRWOHY2MjN4clV2TlBvalhiMmNLbXNCUE9pcUFKTmdpRnZPelNYMXlWc1c5QkViV3hFS1FIek1vaC1WajVQMkQtRktudHRaaDdLUkVLTW1vRjdXOTFDZW9GVG1n?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 20:57:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Exclusive | Salesforce Strikes $8 Billion Deal for Informatica - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQV3hCcVU2SzRvN0MyTmJKWVJNbnY0aEdscGVyNHhLQVg2SFB1ejNRbDRsVkJ1eTIzMnYzQjVGM1M3bGRhRXJJbENzaVFZWXJHdkxTZmdpZEVyYVlFNjRuaWFaSC1XelhuQld5RzVwRm44djJCaDk2TERuNkJVYnRoc0c2ck1XYjlxaEUtYnBPb0pDWTFCaVRKZkJDd3g1QU5FNHZaQ0FBUmJtRE04WXlDS0VUNUw5bFdSNjIybXVXQVZ4ckZlOGpRRjlNY29OY2NuUUdxRzRqTFpNQjRMR3AtVjFKYl9wZEtNX3Exc3ZuZkV2Tm5jYUxQSGNVckZKaWQ4ck52SjBzUUlqMERhRmY2OHlELVdwekpfZzVNeV81anlBRndvUHlMR2xrcGZIalhEdm16WmZkTHFJTDVxMEVWSXhKMzJrR1lhMHZaYjhwaExXbXhuTWxseEYtdzhiVER0TUExZjEwZ2x4bkljYUFEMmtDWVZQOUJRSXhEbDdpbWxCS2htT3A3a1Z2TjA1aS1KazJLbnlzWGdkclU?oc=5",
+          "pub_date": "Tue, 27 May 2025 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Salesforce Taps Nvidia to Develop AI-Powered Avatars - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMimANBVV95cUxPMmkzQWZfYm9lbFNMWmFwRVE1d3BHS1lfZTZYOF9DSjFOUThBdmxnNVM0aVJ0ak03aHIxSUJ3NERpNVY5eEI4NXptLVFBaDk1RHVhTWpoT0paS3E5NDVadlZEaU1TcFcyLUl5N0RQYzZrakN4dE5QcVRmaGpIZGJsaWNPMGlBVmVpS29ZZEFpWWVxRUN6R1pwMlJUM19QMzZQbVkwOG9tM2dJcngzZWpabzdncnpweWxuUUxHRlkweWh6Tk9IYzN3VDVMY2ZwblpNZ2xYWEFsTEJwYVlvQ2lsMEwzVTZUMU5lYTRhakJpQl8wSzE3aVRSVTdrclZtM3NlM0FETC1kX3ZhMmhuMncwNDNXNTNyclYzY2VJQzRnR2RPS2NfYzVRQk9KWF9FY2NDeWx3QjlLQVBOUTRxMExpVFVRQmhMY0Jael9qM1hnUTVycEwzT0NyOWJwREgwV2ZkQllrNmJHNUR2OFRvTnk2YUNXVFZZNnd0c2hUajNXYVVTM2NOOGNocDVGbndkTW51LVg4VFN5NXI?oc=5",
+          "pub_date": "Tue, 17 Sep 2024 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Salesforce co-founder to buy Time magazine for $190m in cash - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtWGFaN3I0NGpZN3VJMEg3ZlZ3R0NZOUFDNlR6X2NSY29PQmUxT3dOVzRCM210eHlDZjVXbmlVN0hZYThvdHpxNHdDT1VzeWRsYmhDZWh6NjhRdzVOb3ZwTjRqMnNwM3VRUG90Q3ladlY?oc=5",
+          "pub_date": "Sun, 16 Sep 2018 07:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Salesforce.com Inc - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFByMC10NUVpU0xoRTRqc0Q1cnl6TnVmV3VnSFlPM3pFY0dhbWo5MVBiTTA2SjItdzlmOVVOV1JuWmFlUWtoSFQxY2FmS3FJUC1lRUdzRWV0YnNUQWhRUERBQ1cwdDh0UnR0NHpXZzl4b0VyTlQ4dnZQVQ?oc=5",
+          "pub_date": "Sat, 29 Sep 2018 06:29:38 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Arundhati Bhattacharya: from veteran banker in male-dominated field to Salesforce’s India CEO - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SYy1NTUV3RDZCT1ROZmw1ZzRoZGRscktaRjJYdkVYVDVVVm5pak1HaFp3NzFDWXhpMVViSnBQYTRVdGtMdHhvZF9sTnAxS3hGLXpYcDk1MzdfZzMyQW9fTHpkRkFtalRYTWo1bnE4Mkk?oc=5",
+          "pub_date": "Mon, 07 Mar 2022 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Salesforce.com seeks incubation in its Japan operation - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYmNjbTVPRFJxRHdVU2oxaFdkWkhiWnJ6clBuS01GWGVabHdYc042UHlFdFlFWGV1T0RqaDE3WnZQWU9TMDJ5RVFBMjA5ZnpfT0phNDc2ZEtiWUNKQWxENUExT2dQUWZ4WkkxYWZEamYwaVVGcVNCa2diTmk2SjJsR191SUp3dVBqQkZ5eExKVG5vR0U1WDlHMFg0RC00Y25nbHljcTV3?oc=5",
+          "pub_date": "Mon, 10 Jun 2019 07:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Citi picks unicorn Sakana AI as first strategic Japanese investment - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcTRGY3RqN2VyS1h1d3NaU1FQVjVmY1hiSl9wZ0VabXFaQmhwVHBkanZ2UGRaVzFQbEl2aVlxMmk3UFZBRzlTSGZ2ektOVjF2bXZVaUtrZ014YlBfRmJqUU0yaE1fUE80d1ZvNUhtdkVVcGtSOVBuTjlmRm1LUGdyY3BHTmszNG5sN1RiVmRfOTdzM3BOLW53LWxvZW9GcHVkM3NWaEVMWVpJazdLSG9zRnNza3dwaVlLVmRvel9nX1lHdGFpS3B4NHZwMEFRZ2tX?oc=5",
+          "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "US stocks slump over worries about AI, inflation and possible Iran strike - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeXBlOU9fQW5GRWE0RnJGRFNGQThlREpIU3k4OE9TQmJMa3FuOHRwSkNOS0gwY2lsMU93dDltMlAxZWFSMlBPVmNSRnlBNWY0a25SZy01eUo0N1NJTFNLMF9rb2dEdmxwcDlKY050VlpudGNaTUktSGJMMmlrQk9SamF6Sm1udEl2S0dQRUxEb3JiTHR2ODZDTVlLeW9Hc2YxdURUVXd5ZS1xVl83NEtWMTlBRQ?oc=5",
+          "pub_date": "Sat, 28 Feb 2026 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "What’s CXL? The Alternative Memory Technology Embraced by Google, Nvidia - The Information",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV1dsSWYtUnEyVXlRZjBXb1BkOVpiQ0dXZm91cGllUlRndnd1TnNfMG1pdmVIUmZtNVZJUTh5Sl9fMGdjeXdZXy1zNUI2YkM5LXlHUmtXR0NoaDlMRjNnODlCcjlLQU5SSXhBU2loOXJaTWpEbnJsdy1TSURnZldtUXh2T2dwTEt2Q2VUU1c2Vk51c2VENVBrNEVLVGcwMWw2N2JSdnRjVXBEMm9SMFE?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 14:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "The People in Charge at Productivity App Notion - The Information",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY25TNEFpd2pFdDBQZ3B3RU93NDNqcTNxM05GcS1YOXJSNGZTNk1uajZ3WUtkYkpwY0laZFF6dmJkalB4VHFZdmVsM0pTSEJqNmladmFTSUZ5bVViR2lwZmVxelNOcWtPWDJxNVppUXdaOUQyUFFIS1lLajRrWHdVX09uSlVOTm5lY0dzNTRzQzM?oc=5",
+          "pub_date": "Tue, 17 Sep 2024 07:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "How Blind Became the App Silicon Valley Bosses Love to Hate - The Information",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZVRRMGl2ZkIxal85YURjdGR0Qm1MbFFPYmhuQmUxaUhWZ2ZuR1g4V2RSS0RWclZQTkhYMVMwb193cHNUUWFqWm12OXAzYTNZRHNZVmJtUmhNQVM2bUVoRV9CeW5XWFhqT0ZYVHZpX200VmI5bmN4SXZtRXZRT0twRms5MGR6TDNSTGJJcHJNY3Nwb1JwYmtoY2xFa0pKR294?oc=5",
+          "pub_date": "Fri, 28 Jul 2023 07:00:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Dreamforce 2025, 뭐가 궁금할지 몰라 다 준비했어요! 세일즈포스가 ...",
+          "url": "https://www.salesforce.com/kr/blog/dreamforce-2025-customer-stories/",
+          "text": "Dreamforce 2025, 뭐가 궁금할지 몰라 다 준비했어요! 세일즈포스가 준비한 고객 성공 스토리 모음.zip- 세일즈포스 - Salesforce\n\nSkip to Content\n\nSalesforce Korea 2025-10-27 16분 분량\n\n## 기사 공유\n\n### 🏆 메인 키노트 리더\n\nDreamforce의 메인 무대를 장식한 혁신 리더들\n\n- FedEx — Agentforce Tableau\n- PepsiCo — Agentforce Sales, Revenue, Field Service & Operations\n- Pandora — Agentforce Marketing & Commerce\n- Williams Sonoma — Agentforce Service\n\n### 🚀 제품별 주요 사례\n\n세일즈포스의 제품별 혁신을 실현하는 브랜드 사례\n\n- Meta — Data Cloud\n",
+          "score": 0,
+          "published_date": "2025-10-27T00:00:00.000Z"
+        },
+        {
+          "title": "세일즈포스, “오픈AI·앤트로픽 파트너십 통해 에이전트포스 360 강화” - 캐드앤그래픽스",
+          "url": "https://www.cadgraphics.co.kr/newsview.php?catecode=2&num=77433&pages=news&sub=news01",
+          "text": "세일즈포스, “오픈AI·앤트로픽 파트너십 통해 에이전트포스 360 강화” - 캐드앤그래픽스 --\n\n- 장바구니\n- 배송조회\n- 회원가입\n- 로그인\n\nNews\n\n뉴스\n\n신제품\n\n신간\n\nCulture & Life\n\n강좌/특집\n\n특집\n\n강좌\n\n자료창고\n\n갤러리\n\n리뷰\n\n매거진\n\n목차 및 부록보기\n\n잡지 세션별 성격\n\n뉴스레터\n\n정기구독안내\n\n정기구독하기\n\n단행본 및 기타 구입\n\n행사/이벤트\n\n행사 전체보기\n\n캐드앤그래픽스 행사\n\nCNG TV\n\n방송리스트\n\n방송 다시보기\n\n공지사항\n\n커뮤니티\n\n업체홍보\n\n공지사항\n\n설문조사\n\n자유게시판\n\nQ&A게시판\n\n구인구직/학원소식\n\n디렉토리\n\n디렉토리 전체보기\n\n소프트웨어 공급업체\n\n하드웨어 공급업체\n\n기계관련 서비스\n\n건축관련 업체 및 서비스\n\n교육기관/학원\n\n관련DB\n\n추천 사이트\n\n쇼핑몰\n\n고객지원센터\n\n고객지원 Q&A\n\n이메일 문의\n\n기사제보 및 기고\n\n개인정보 취급방침\n\n기타 결제\n\n업체등록결제\n\n세일즈포스, “오픈AI·앤트로픽 파트너십 통해",
+          "score": 0,
+          "published_date": "2025-10-16T00:00:00.000Z"
+        },
+        {
+          "title": "세일즈포스 CRM 사용 후기, 주요 기능(ft. AI) - 테크뷰 블로그",
+          "url": "https://reviewinsight.blog/2024/01/26/%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4-crm-%EC%82%AC%EC%9A%A9-%ED%9B%84%EA%B8%B0-%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5ft-ai/",
+          "text": "세일즈포스 CRM 사용 후기, 주요 기능(ft. AI) - 테크뷰 블로그\n\n# 세일즈포스 CRM 사용 후기, 주요 기능(ft. AI)\n\nAㅑ, ai, CRM, 리드관리, 리뷰인사이트, 마케팅자동화, [고객관계관리](https",
+          "score": 0,
+          "published_date": "2024-01-25T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - poscoict-glueframework/poscoict-glueframework.github.io",
+          "url": "https://github.com/poscoict-glueframework/poscoict-glueframework.github.io",
+          "text": "GitHub - poscoict-glueframework/poscoict-glueframework.github.io\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n[\nSearch syntax tips\n](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syn",
+          "score": 0,
+          "published_date": "2019-02-07T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - yerin723/PoscoAcademy_MarketProject: [데이터 분석] 포스코 AI·BIG Data 아카데미 - 마켓 매출 증대",
+          "url": "https://github.com/yerin723/poscoacademy_marketproject",
+          "text": "GitHub - yerin723/PoscoAcademy\\_MarketProject: [데이터 분석] 포스코AI·BIG Data 아카데미- 마켓매출증대Skip to content\n## Navigation Menu\nToggle navigation\n\nSign in\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\nSearch syntax tips\n# ",
+          "score": 0,
+          "published_date": "2023-10-25T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 76.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "12 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=00134352"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=세일즈포스코리아"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=세일즈포스코리아+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=세일즈포스코리아 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=세일즈포스코리아 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=세일즈포스코리아 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=세일즈포스코리아 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EC%84%B8%EC%9D%BC%EC%A6%88%ED%8F%AC%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
+}

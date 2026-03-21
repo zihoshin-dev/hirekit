@@ -1,0 +1,927 @@
+{
+  "company": "업스테이지",
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 업스테이지",
+      "company_name_eng": "Upstage Co., Ltd.",
+      "stock_name": "업스테이지",
+      "ceo": "김성",
+      "address": "경기도 용인시 수지구 광교중앙로 338 A동 815호 (상현동, 광교우미뉴브)",
+      "industry_code": "62010",
+      "established": "20201005",
+      "homepage": "www.upstage.ai/",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "오케스트로·리벨리온·업스테이지 총출동…‘공공 AI 인프라’ 전략 공개 - 스타트업엔",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fQ0d1UGNqZHZVSDQzR2Jtbkl5dXJwREF3YzFVeThLUmRYUE16UmxGTUI3dS1oUU5wdmllaUVySmJYcElXWUw0alJwbk1zS3NXWFhCdHpYN1JBMDlKaFBmWGdlelJwMEVu0gFsQVVfeXFMT0tESWhDcENnWTY1R0JZQnhrdG9YZGcxeW5tRy1EUnZpVDVzczRIeXhvS3dLcHZQQzlFWlR0NXBxREZsVl94V2kyM0hNLThWMUNtbDdkejVtNndDMXJUZTU2V2RaWEx3MjRWYzNX?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:49:33 GMT",
+          "source": "스타트업엔"
+        },
+        {
+          "title": "K-AI 경쟁 2차전…업스테이지 \"솔라 오픈2, 전작의 2~3배 성능\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45cU9ZdjM3aUJQX3M3MnAyckF2enZsc0Q1RGViaF8xVWJldUZhRVpDRVcwR0lFQnkzb3JkdHhseFNjODJzamJ0WkVueFIzRkEtLThRVTJR?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 05:32:57 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "오케스트로, 리벨리온·업스테이지와 ‘공공 AI 인프라 전략’ 제시… 26일 컨퍼런스 개최 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MdzNRNmFhWVQ2NllWcXFkN2NKdzd3VVZXRUpmdzNBc1RhczZldlJFSWVuZ2FaYmpDNjlBX1VRdi1PbDZhMy1oeW9FX2hLdFl1b0ZqTlJCYU01VmtJNkRiUFZXZktnSnBXajFQU3BzOA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 01:39:02 GMT",
+          "source": "서울신문"
+        },
+        {
+          "title": "오케스트로, ‘공공 AI 인프라 컨퍼런스’ 세종서 개최…리벨리온·업스테이지 참여 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxdTlFUGZYUWU5Nkt2VDBxUkxEd293N0dRcGZPcG1ZS2JDeXBJTzVkN1Awb3pzSXlqWjR4WTJQdFR4VzI2NV9odXg3SHFKcTdMbDFWMDB4MHRfc2wtdDdkcS1FbEE?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 23:53:01 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "\"코드 짜줘, 결정은 내가\"… AI 네이티브 시대, 당신의 몸값을 결정할 새로운 생존 공식 - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZlFDZXRLVmVnc1ROaUVDa1ZXSTVKYk5EYlRBdzJGeWFxaXp6UkN1bVhieHJWRVhtQXNfcHkyZ1F4bkZDUmgtblNIMktHdU5iaDNRMkNZYThvamZTWTk0bnk1bDRBZWpxZ1hhQl8wMEFNaDZNSVhBRzlfM0d1akRyRy1DN2xiQQ?oc=5",
+          "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
+        },
+        {
+          "title": "[AI픽] 한국어 AI 세계 1위 넘본다…업스테이지 전략 공개 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hYzRidUJGTlBhbUROc1NILVlvNUlkWW5LZXFzbno5cHBMQnhReXRwSE9WTmRLTkNlYW1RaDdNVWtUNDJrMzVkdzhpYmtiY2JKTVdDWllSNS1ERzjSAWBBVV95cUxPTTRaRGh1ckl2T1VFT0dtRXlaZUVGaFR3YTFjMmFJdnhfNVg3Q1Z2eEEyNkNUY2l6X2FQblc3ZDdDZ3lrR25YN1NUTi1oSThKbFlqWXJ5c3pOUEhFVnJ6T0k?oc=5",
+          "pub_date": "Wed, 13 Aug 2025 07:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[경영전략 써밋 2025] 최홍준 업스테이지 부사장 \"AI, 산업 맞춤형 모델로 진화 중\" - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xVnBiRDJ5dnpKMHEtN3hQalZ6c1A0NFduMVFnWHBGeHFTX19MSl9OVnhvRjhzUGtUQmtHc0VWa3B5dVZFY1VaMHFLZ2RpNXc?oc=5",
+          "pub_date": "Mon, 27 Oct 2025 07:00:00 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "AI 중심 조직개편한 SK네트웍스, 프리 IPO 앞둔 '업스테이지' 지분 추가 확보할까? - 리버티코리아포스트",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03MkJGbTBFX1pMeEFLR1UxdlFoWXVHVXRYZUJScHlqblR2SnB1eEdYenVGY2paT3BwT1VvZmxNTjRxT2pYbU5VYmVHdTVEcGRvcXo2Tlc5ZzEwU3JnYWd4bjE4TdIBZ0FVX3lxTE9mcDhzb2c0bHl0THBNeFRReGl1c2c4elZTRjFmQ2JucnQwX3lKcWFDZkRUeVA2ODhpTDMyYnZ3dnlsRDg0UnJMVlJqT0xlbXlxYnRib3QtcEt5d0ZacjhLMUtDTkFjUlU?oc=5",
+          "pub_date": "Tue, 06 Jan 2026 08:00:00 GMT",
+          "source": "리버티코리아포스트"
+        },
+        {
+          "title": "‘독자 AI’ 5사5색 채용...AI모델 방향성도 보인다 - 디일렉",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Dck5odS1Hd3Z6ZUxpd1V0TTB0cWhjem5vTmtHZVFIM3g2d20xUHg4QWpnVm02ZDdwdVRGRC1Ta2NkR0dpaktrWnVOTE82RzBHQWxMdl9zel9vLVcwdEpLendFZkU4dw?oc=5",
+          "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
+          "source": "디일렉"
+        },
+        {
+          "title": "[이슈] “연봉 3억·보너스 26억”…글로벌 AI 인재 전쟁, 한국 기업은 살아남을 수 있을까 - 아웃소싱타임스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rWXpXdVNzbm5KQ1NZaHRlNUVId3RJQ20tU1lHY1RIazUzaElWLVlWeXJYSUpHbS1waFoxQzNJM2FVUUZuRzFfOGlEMWlDWTB6YmZqcHoyb2RpeU5NS2Z6WkxLOHpRcjRrR0lmcThvSE1HQQ?oc=5",
+          "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "source": "아웃소싱타임스"
+        },
+        {
+          "title": "MS·업스테이지, 'AI 비즈니스 전략' 핵심 노하우 전한다 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WSkY2ZGtPdlpLcDJLT2tpSlRLZUFmcFhXQXo1LXk3RnQ4WFhOX0hKdk12MHZnTVU1SldOY1M1NzhOMl8tbVBSQURLNDdJeWw1ekdVaWd4RHZvS01DaEtsRHpyaC1ZSURL0gFsQVVfeXFMUDJoR0pzNUh5aVRueDZlREdvaGRPUGg4MG9ldHNRMjhtb1U1a252MDZwb1l4MlBqcDVmYlRTWTVRdTJjRGJCZ0RCR3VyNHNqWXFwc2pQT1JMU0VUTlVrekJ1T1lubFJtWFVXUWZO?oc=5",
+          "pub_date": "Tue, 04 Nov 2025 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "AI로 생겨난 직업, ‘AI 콘텐츠 전략가’란? - 더에이아이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YQmNCdzdVN0ZxaHozZFQ4amU3V0RBZjRQUEFZTkNBT0tfQnNsenJ1WHVKNnRlR3FpcXoxNUdPdy00WmRMOXFnaG1kVUV3djBieFpjOHFReDlHU05Ud0hwRUlBd0pXVVhT?oc=5",
+          "pub_date": "Mon, 15 Sep 2025 07:00:00 GMT",
+          "source": "더에이아이"
+        },
+        {
+          "title": "[현장리포트] 2025 스타트업콘 - 'AI 시대' K-콘텐츠의 생존 전략... 핵심은 '실효성' - investnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFByS2dXQ003aHNadHpuMTJEZ0RoRHhHc1NFdzFtT0tmQmhtbFNfWmNaM29QZlJWVmtNWXZRMFN3Z3BZcElTVkhnclpOYzhGVjFGZlNxZjRzaHlPcng4TUxfMXVKbXNJeHRrMkRKU3hXMVp3QdIBdkFVX3lxTE8yNFdWUTMxNHhNT0txZzdfWVpoLUNpWEdId3Q5c0p3MXVCN1A4NGU5T3RFVWlZSnQtM0t4MU9lY0NEdG9mb0xPUTlpR3FkTDhEQmRLMkhfSUJNX3k4RlpsQ2hWa3I4THFrT1ZMLXJfQVNkT2VmelE?oc=5",
+          "pub_date": "Tue, 30 Sep 2025 07:00:00 GMT",
+          "source": "investnews.co.kr"
+        },
+        {
+          "title": "야심찬 정부 AI전략 차질? 갑자기 불거진 업스테이지 독자 AI '3대 핵심 논쟁' - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yX1JUdG5heVgzSHFJRG40ZFFRRTBzWGI1U0ZuQUVCcUpFVjRjc19iLVhTX29pdWExd1BhRGZ5WHI5NDl1NHRENUNfbDFBblpnQlRF?oc=5",
+          "pub_date": "Fri, 02 Jan 2026 08:00:00 GMT",
+          "source": "네이트"
+        },
+        {
+          "title": "[K-AI 인터뷰]\"AI에 목숨 걸었다\" 스타트업 업스테이지의 배수진 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBZFpuU0VLaENBWWlPcmRQMFBrSkxCckNQeXVOX0w0OWRPQnZRVUFGSmZoQ2NmLUlvVV9NU2kyVlZTd3E2ZE5kQW9rSzJzc2JiTHhSR0ZIX0NWOTJjNlN3btIBeEFVX3lxTFBOekFxeFFQNF9Idi1CTFUzOVMxMlNKM0VrRkZIV1pZTXdBMkRBUldnbHpoc2R2eEhRQlBaZnpxSldaeGotdGlVRDEzQ2RIV2gxWVRNZ2Z4c1h3Y1J6QWhGY3dmdXg3ZmRHS19kMFJMbUc2RXBHRzBUWA?oc=5",
+          "pub_date": "Wed, 13 Aug 2025 07:00:00 GMT",
+          "source": "뉴시스"
+        },
+        {
+          "title": "SK네트웍스, 업스테이지에 720억 투자…AI 지주사 자리매김 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAtQkhRMUpoRXpycG1Ra2VtZUtNUEZKQnpMeDhYYXJkY0JmaEtOZkJielFXUkNaNXlvNDFPdGdidWhTUXRGdzVFU0gzMnFsU2ljVUdxUA?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 06:29:47 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "김성훈 업스테이지 대표, 리사 수 만나 \"칩 많이 필요해\" - ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xRTUzRFF3TmRJbDN4SU1KMW5xS0lOc1VqODNRLTVBaFdFQ3RXb012Ny13Zk5CUlRuampmY1dKMnZUT3hZZzNGQ1p1dkplUER2Zlk3UFlDbExLRHFLQ2ZKcmw3eVhQUUZ4?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:31:50 GMT",
+          "source": "ebn.co.kr"
+        },
+        {
+          "title": "점유율 2% 다음의 반격...업스테이지가 그리는 차세대 AI 포털 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zZVpqXzRMQ0ZwektoYjhJekY5TkU5Nmd3c1hSdUk2Unh3SjVkVkoya0RhSXB1UWNHWTExaUFFV3BncXFzRDZ4anpZRVh2ekJaY3piRFdB?oc=5",
+          "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "카카오 군살빼기 속도…김범수 항소심 변수 - 뉴스통",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTUN6N3ZBMC1SZzkwYlNSbnhRSE9RMjFCZ01GSlFqTnNGRVktZTN2V2U5QzRFaGsxcldBWW9iX1gwVHFNY1E1RXNCZjFmNVZZMldHMTZYeDhrdnhpWUZHV3JKcTJ1VkFVS0MxMEU0dFJ3MU9zZUYtQ2kxT3Z0SG43UGhacTJvdEw4RHFOUXZKNHR2dlZYV1BmTDI1V3FFVGh1YlRtZXprbDNHVDM0YTZCN25jUXB4Wkxk?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 09:07:45 GMT",
+          "source": "뉴스통"
+        },
+        {
+          "title": "SK네트웍스, 470억 들여 업스테이지 지분 추가 취득(종합) - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kTWdUVHlJSWhjemtyVVlJZXNhRUtQS2F6LWE2Qmt6MUh2cGdRZjlmNkE2a3JJRkkxUTd2d2hZRHNWSnZFWWg1YkllYUhWTjdyemNhOFVvUTZ0dzNadzZVbGZxU055dWFsREtweTUwRm8?oc=5",
+          "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "source": "연합인포맥스"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "SK네트웍스, 'AI 스타트업' 업스테이지에 470억 추가 투자…지분 12.9%로 확대 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOU0tLZEoydGE2NVZ3VldHd2FTQnVQalMxbHFfbko4Vl9QZVBXZEIwRm1VVk5OOFFzVWxVa2pzMWRwRFhFeXBSVENESlU2NmpCTmpKNFQ1a3FXNm9KT24xdUtoTU9oNUx0NmZfNmlsNmhKbHZZb182QWRUQXdhRWE1UTNBdk9uQlk?oc=5",
+          "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "'방한' 리사 수 AMD CEO, 토종 AI 스타트업 업스테이지 만난다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qY0hJSkhnaHB6a2R0ZGFIbUZjTnZpUHZ4ZXJ0ZnNyZUVzVFAtSU5RbjZCM05RVzY4bC1PN3k4VFBWTVk2SW1qV2NiSEdrQ0s0U0JMQ3QxNmt6UdIBVEFVX3lxTE9hUW1MQThhRFlQWGN3ZXJ1TEJlU1VLNk1LbHIzZmN4aTB4WHlOQVYwaXYxRTNreExRaVBMQUJCcVBTbVVOR04xVWp2dHR2dnR0dlM0Zw?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 03:08:43 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "AMD 리사 수, 靑·삼성 등과 '연쇄 회동' - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeGo0VC00amd0OXNwTGRIcTZTckhsdjBQUnJqM01qSHhkZFNPeUJaUkZnSW5CdFRTSnRTMDlHbmotX3ZUSnVIbWV0ZGdobjVRSklGRDZtaWpDQkg3d1R2bDZwUUtMNWk4cXlscUttUkt3Z24tZUttYkhPU3hXS2Y0YTBJZS04aFU?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:54:44 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "오케스트로, 리벨리온·업스테이지와 공공 AI 인프라 컨퍼런스 개최 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamE5SlFVOEJjZkJFbTV4S1RGVjMtb0pud2RaaFZ0Q2Mzd1ktaDdnR1ZTU0Z2WEE3QkVIR3lFdEY3TUx3X29UdGpQX3NpWVRRZjhwX1dVdzdDbUpBc2FXcU1OMUFKd1VDMVF6YmZXZFk3Z01yWndyYjVGaERUSG1XbXZFU3E2UWxBdmt4UTIyXzFtX1hhaWfSAZYBQVVfeXFMUGphOUpRVThCY2ZCRW01eEtURlYzLW9KbndkWmhWdENjM3dZLWg3Z0dWU1NGdlhBN0JFSEd5RXRGN01Md19vVHRqUF9zaVlUUWY4cF9XVXc3Q21KQXNhV3FNTjFBSndVQzFRemJmV2RZN2dNclp3cmI1RmhEVEhtV212RVNxNlFsQXZreFEyMl8xbV9YYWln?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:44:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "업스테이지, AMD와 맞손… MI355 GPU 도입해 ‘솔라’·국가대표 AI 모델 고도화 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWHI1cjZoQjFSUXEwUFFzZTN5UURsUHVGejY1NG1JZms2d0p2bjJGVTk1RFc2SkFvT3p6eGl3QkVnbVN4TFpYZ3FtRTY0LWdOcm1id2Nzc083NFNPakVGOXhNWHB1Q3NsMmRNbHhkS29jRlRVWjktS2dNSG9fS0RHZi1qOE5yMHo2dzhTVEVVVWtCMmkxLVHSAZYBQVVfeXFMTlhyNXI2aEIxUlFxMFBRc2UzeVFEbFB1Rno2NTRtSWZrNndKdm4yRlU5NURXNkpBb096enhpd0JFZ21TeExaWGdxbUU2NC1nTnJtYndjc3NPNzRTT2pFRjl4TVhwdUNzbDJkTWx4ZEtvY0ZUVVo5LUtnTUhvX0tER2YtajhOcjB6Nnc4U1RFVVVrQjJpMS1R?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:32:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "VC 사제파트너스, 업스테이지에 1000억원 투자… 국민성장펀드 직투 2호 유력 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHSzR4Zm9PZDc1X1B1b0N4ZkgyakVtdUdJLU1KV0dpX0hLcl95MFRrY1hHZUcwZ2xYd1BtbFJOaDNaWFBJQm9zV2hZbUxPQ3ZDVUs1clhYX2xUWWk1bXfSAZsBQVVfeXFMTlM5OXlHaTFYX2tQSDdDODVBdUwtNTNsM2V6UV9oSm1zVm5oRzNXUEJKZUF1YS16OTBWV25mNzBUZEZNMFpseFNSWURveElzZUMyVV9pVU1keGpadHZfNksxeDZCS3hpN0xkTjNNNnJGTVJSTkM3eVU4ZDQ1NUQ4c01mVDBlN3ZselhnYXlkaUtrTVZCMHV2bjdnVzA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "“GPU 1만장 필요” “OK” 이렇게 쉽게?…리사수와 담판한 이 남자 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UMEdfTkUyQXgxT2VFeGZYLU92SC1ZbVpnVG1IYjZQVGRxU2laWUZOT1IycGlQMGlyUVU0c2dJT01UaG52RVZPZkQ0TjFqUDBfZEQ3Wkhn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 21:05:22 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "업스테이지 \"AMD GPU 1만장 필요\" 리사 수 \"좋다\" - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83c2lrVzJNWV9VcFQxM0tsclBKaDlPNEYtMHdKTjhGZFUyb3RYR1hoc0NyWC1aSHhodVJVVVRhRzBkMXJ0UEE?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:43:25 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "업스테이지, AMD와 손잡고 ‘소버린 AI’ 속도 낸다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpVjhBLVdaN3l3cFc5QlVTV29JdjlxN2ZfeHlqWWpUdHNBd2YzSXhQUjBPb2g0QXdTR1YzY3daUnU5aG1Ld3I5YldUUk5Ndw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 01:25:29 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[AI는 지금] 네이버 찍고 업스테이지 간다…AMD 리사 수, 韓 AI 생태계 노린 까닭 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4UHhPOEc5d3FPZWEwS2RkU0d6ZWxINXpnQW5scXUyOThLRzkwZENVMl9fcXdtMndNT1VGbEhHSGpNSVR4WEtJQ1Z3MXhDMk9wbEZMeHhR?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:40:42 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[단독] 오픈AI CFO, 비공개 방한…SK네트웍스·업스테이지 수장 한 자리서 만난 이유는 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IWjF0V2l4ckdPYzgtaENhWFQ4VUFFLXJZb1dfNlZFOWdHWUFlaUl1U3I5TDMycm54bE4tZVEzcWFDcjlLaHFpclRJZlBiMUFUdzI2bExB?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "정부, 리사 수 CEO 만나…'AI 3강' 도약 방안 논의 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FZ0t4dGRDd2c4SVFUaFoxWGw0V3Q0MGNUeU1DT3RTMXF2U2otWnk5TTVqOHNnenNLUnRlYmFCTXhjanB4VXhXa3hXelZPWGlLb2phYWxn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:10:12 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[현장+] AMD 손잡은 업스테이지…AI 인프라 다변화로 네이버 추격 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Xa3dwUEtvbnpzNS1VU1ppV3BfYWJ0ZkpSWUc0Q0djakR0aVFBSEZDRzRWbWJWT1BqekNOLXdFNzN5YUpMb1hGVVhEa1pnWG15a2hQUHcxeERQU0duZEh0TVlpS1N4N0VHUXBYU9IBbEFVX3lxTE1Xa3dwUEtvbnpzNS1VU1ppV3BfYWJ0ZkpSWUc0Q0djakR0aVFBSEZDRzRWbWJWT1BqekNOLXdFNzN5YUpMb1hGVVhEa1pnWG15a2hQUHcxeERQU0duZEh0TVlpS1N4N0VHUXBYUw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 02:34:16 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[현장+] 리사 수 만난 네이버 최수연…'멀티벤더' 전략 가속화 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VN2ZDQVJDNDRfVnF2bFFXUDlaYXFfaGNZaWhldnBsRHE2RVNzZFQ4YzdIUXJQNGc2QzZ1VXItdHYweDYtdTRVMVNDbE5sVlFGYlJZdUFXcDdla0VpUDhIczBmOERoQU00Y2lXedIBbEFVX3lxTE9VN2ZDQVJDNDRfVnF2bFFXUDlaYXFfaGNZaWhldnBsRHE2RVNzZFQ4YzdIUXJQNGc2QzZ1VXItdHYweDYtdTRVMVNDbE5sVlFGYlJZdUFXcDdla0VpUDhIczBmOERoQU00Y2lXeQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 09:37:16 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "빅테크 종속 끊는다…정부·기업, AI 주권 확보 총력 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VcHF0TV9yeEYyYWVGbHFHbHNHWEl1Qk1yOXRBcW42MnNjU25EZThwNHRyck03WDM4NEl2UmdZTV9lcjl5TFhJdm1lemtpNmpNYXpuU1U0TGJrNGxZZUxLZzlCcWczdmNQU2JWddIBbEFVX3lxTE5VcHF0TV9yeEYyYWVGbHFHbHNHWEl1Qk1yOXRBcW42MnNjU25EZThwNHRyck03WDM4NEl2UmdZTV9lcjl5TFhJdm1lemtpNmpNYXpuU1U0TGJrNGxZZUxLZzlCcWczdmNQU2JWdQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:16:55 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "업스테이지-AMD, 전략적 협력 확대 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB2ZUozeEFSYkllS2JMaWN4Z292Y0t2UnN2MXZYVzNCeG5Uc2JFenZRU3hCa1dKTTROVEh5U2dWaGM1dFRIdFpNNl9EaXNIdkE?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 22:14:01 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "[인터뷰] 업스테이지는 어떻게 고객 70%를 금융사로 확보했나 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NRlk3LW5RX0s1X2F2OGoybDYzZEFPWHBDaERGdnRGTEpvYmlSTDFkWGNaNWc0aERsX0xxYU05ektOOUpzLVNDRkVBSExBRFE?oc=5",
+          "pub_date": "Thu, 30 May 2024 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "업스테이지, 딥시크 R1 추월 ‘솔라 오픈’ 공개 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tOUJYbG1vRnZfVnlxMF9fQTAyRGFEcUxyNWVLZ3VoUEU1TGNERW1SLW9LQ01NSVNpdVBrSXEwOEVhcVY3YVNKN3dmSTlJZw?oc=5",
+          "pub_date": "Tue, 06 Jan 2026 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "Upstage Ambassador 2기 지원 과정과 합격 후기 그리고... ",
+          "description": "대학원 면접을 준비하는 데도 그대로 적용되는 교훈이라 꽤 값진 경험이었다. TMI이지만 이때 얻은 영감으로 졸업프로젝트 주제를 탐색하게 되었다. [발대식 후기] Upstage를 직접 만나다  합격... ",
+          "link": "https://blog.naver.com/ssum_official/224220105644",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "LPG 대기업 E1에서 AI 엔지니어 정규직 뽑는다 | LLM·RAG... ",
+          "description": "분위기라는 후기가 많아요. 다만 임원 면접 단계에서는 다소 압박 질문이 나올 수 있다는 의견도... 물론 신사업 추진 속도가 외부에서 보기엔 다소 느리게 느껴질 수 있고, 보수적인 기업 문화에... ",
+          "link": "https://blog.naver.com/cymmcymm/224215492533",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[UOS 커리어 원정대] 서류 합격 후기✈️",
+          "description": "서류 합격 후기엿습니다아아아아 팀 지원이었기 때문에 저 말고도 다른 팀원들이 쓴 것두 있어서 와안전 구체적으로는 말을 못했던 것 같은데 혹시 궁금한 점있으시면 댓글로 남겨주세욤 다음 번에는 면접... ",
+          "link": "https://blog.naver.com/joysmile91/224221586930",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "CGV 미소지기 후기｜합격 자소서/면접, 꿀팁(현직자가 낋여주는)",
+          "description": "대기업/공기업도 아니고 증빙서류 요청이나 경력확인절차가 없다. 면접 때 구두로 그 경력에 대해... 뭐 다른 미소지기 합격 후기에는 면접 때 롤플레이 시키고 미소지기가 무슨 뜻이냐 등 이상한 거 물어보고... ",
+          "link": "https://blog.naver.com/rjadmsehr1/224221386836",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "포스코인터내셔널면접학원-발전소 LNG터미널 전문기술직",
+          "description": "포스코인터내셔널 면접 후기 ✔ 면접 기출문제 &amp; 예상문제 정리 ✔ 취업패스 1:1 코칭 수업 지금부터... 발전소 문화에 적응할 수 있는지 판단하는 2차 경영진 검증으로 치러집니다. 1차면접에서는 대학이나... ",
+          "link": "https://blog.naver.com/jobpass_/224221334138",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "2026년 ‘서울 매력일자리’ 인턴 1,980명 모집 안내: AI 실무... ",
+          "description": "이어져 면접에서 강점으로 작용했습니다. &lt; 민간기업 참여형, 모빌리티·AI데이터 품질... 넥스트 스테이지 : AI 기반 공연기획·마케팅 커튼콜 프로젝트 5 서울특별시소상공인연합회 서울 소상공인... ",
+          "link": "https://blog.naver.com/economyseoul/224220837123",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "한식진흥원 면접 후기 PT 토론 구조화 준비방법",
+          "description": "주제는 기업 및 산업(사업)관련 당일 출제 * 경쟁이 아닌 소통과 협업, 의견 조율 등이 관건 * 역할에... 준비가 합격 후기 많음 한식진흥원 면접 후기 PT 주제 공공기관 예산 절감 방안을 수립하시오 공공기관... ",
+          "link": "https://blog.naver.com/ckwngur79/224220769616",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "어플라이드 머티리얼즈 면접 후기 (엔지니어) 결과, 기출질문",
+          "description": "각 기업, 직무별 합격자를 배출하고 있습니다. 특히 Applied Materials 출신 코치진, 반도체... 실제 합격하신 지원자 후기 어플라이드 머티리얼즈 코리아 석사/ 신입 ▼ 면접 합격 후기 보러... ",
+          "link": "https://blog.naver.com/ve_getable/224220697925",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "유한킴벌리 대전 Safety Engineer 정규직 채용... ",
+          "description": "기업 문화 면에서는 비교적 수평적이고 존중하는 분위기라는 평이 많아요. 다만 일부 부서나 팀에서는 대기업 특유의 보수적인 문화가 남아 있다는 의견도 있고, 의사결정 속도가 다소 느리다는 후기도... ",
+          "link": "https://blog.naver.com/cymmcymm/224214209929",
+          "pub_date": "20260317"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "회사에서 비용처리가 가능한 복리후생비",
+          "description": "업무관련성 회사의 복지·근로환경 개선 목적이 분명 사회통념상 타당성 금액과 내용이 과도하지 않음... ➊ 직장체육비 ➋ 직장문화비 ➌ 직장회식비 ➍ 우리사주조합 운영비 ➎ 건강보험·노인장기요양보험 사용자... ",
+          "link": "http://cafe.naver.com/aclove/658514",
+          "pub_date": ""
+        },
+        {
+          "title": "설계(Cad및 3D필수) 신입 및 경력사원 모집을 위한 자기소개서",
+          "description": "** 채용공고요약 주식회사 가온웨이브는 경기 남양주시에서 건물용 기계·장비 설치 공사업을 주력으로... 급여는 최소연봉 3000만원(협의 가능)으로, 4대보험·퇴직연금·명절 상여금 등 안정적인 복지혜택을... ",
+          "link": "http://cafe.naver.com/uworldexam/151906",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260321토요일",
+          "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 업스테이지(AI모델), 리벨리온(AI인프라), 한국기초과학지원연구원(바이오) 관계자들과 간담회를 하고... ",
+          "link": "http://cafe.naver.com/jungamironware/9268",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+          "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-19 오후 12:00:00 기획재정부 재경부 &quot;범정부 공공개혁TF 결정된 바 없어&quot; [보도 내용] ㅇ 정부가 공공기관 조직개편... ",
+          "link": "http://cafe.naver.com/magicbank/3332",
+          "pub_date": ""
+        },
+        {
+          "title": "(주)대동 (DAEDONG)",
+          "description": "ㆍ유연한 조직 문화 : 전통 제조 기업의 안정성에 IT 스타트업의 혁신성을 더해 '애자일(Agile)' 한 업무... 탄탄한 복지 보유 4. 채용 기조 및 실무 특징 ㆍ특수 환경 로봇 개발 : 포스코와 협력하여 제철소 내 위험... ",
+          "link": "http://cafe.naver.com/smilejobs/763",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.6036764705882356,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "성장",
+        "수평",
+        "장점",
+        "좋아",
+        "좋은",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점",
+        "퇴사",
+        "힘든"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "(주)업스테이지 2025년 기업정보 | 기업리뷰 24건, 3.3 리뷰평점",
+          "description": "개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · ad퇴사 각? 연봉 협상 팁? 올해 인기글로 체크해봐👀 · 1이직러 5명 중 1명 &quot;올해 30곳 이상 지원했다&quot; 2취준생 479명, &quot;2025년 취업 난이도 최상&quot; 3퇴사 각?",
+          "url": "https://www.jobplanet.co.kr/companies/374362/reviews/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "brave",
+          "title": "(주)업스테이지 2025년 기업정보 | 17건 면접후기 3.6 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 3.6, 면접경로: 온라인 지원 86%, 면접경험: 긍정적 53%, 부정적 29%, 면접결과: <strong>합격 35%, 불합격 59%, 대기중 6%</strong> | 잡플래닛에 등록된 17건 면접후기를 지금 바로 ...",
+          "url": "https://www.jobplanet.co.kr/companies/374362/interviews/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "brave",
+          "title": "(주)업스테이지 2025년 기업정보 | 14건 연봉정보, 5,466만원 평균연봉 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/374362/salaries/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "brave",
+          "title": "(주)업스테이지 2026년 기업정보 | 기업리뷰 26건, 연봉정보 18건, 면접후기 22건, 복지정보 0건, 채용공고 0건",
+          "description": "업스테이지는 AI 기술로 해결할 수 있는 비즈니스 문제들을 풀어갑니다. Making AI Beneficial 이라는 미션 아래, 누구나 AI 기술의 혜택을 누릴 수 있도록 &#x27;적용이 쉬운 AI 솔루션&#x27;을 만들고 있습니다.",
+          "url": "https://www.jobplanet.co.kr/companies/374362/landing/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "brave",
+          "title": "업스테이지 2025년 기업정보 | 7건의 복지정보 0 전체 복지 통계 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/374362/benefits/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "brave",
+          "title": "업스테이지 인재편 - 동상일몽 [스토리팩]",
+          "description": "(ⓒ 업스테이지) 어떤 동료와 일하는지도 중요한 문제입니다. 잠깐 흥미로운 설문조사 결과를 함께 보실까요? 잡플래닛이 2022년 1222명의 직장인에게 ‘직장에서 무엇에 가장 큰 가치를 두는지’ 알아보는 성향 테스트를 진행했는데요.",
+          "url": "https://techcntlab.com/story-pack/%EC%8A%A4%ED%86%A0%EB%A6%AC%ED%8C%A9-%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80-%EC%9D%B8%EC%9E%AC%ED%8E%B8-%EB%8F%99%EC%83%81%EC%9D%BC%EB%AA%BD/"
+        },
+        {
+          "source": "brave",
+          "title": "업스테이지 - 나무위키",
+          "description": "[1] 이 평가는 해당 기관이 공개한 벤치마크 지표를 기으로 한 순위로, 동일 지표 내 여러 모델들 간 평가를 비교해 순위를 산정한 결과이다.[2] 이 브릿지 투자는 기존 투자자 및 전략적 파트너사가 함께 참여했으며, 이를 통해 업스테이지의 글로벌 기술 확장 전략이 강화되었다.[3] 비상장 기업 특성상 공개된 공시 및 언론 보도를 종합해 정리한 수치이며, 외부 감사 자료가 아닌 보도 자료 기반임을 참고할 것.[4] 여기에 언급된 분기 실적은 내부 실적 집",
+          "url": "https://namu.wiki/w/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "brave",
+          "title": "기업리뷰 | 잡플래닛",
+          "description": "1. 인턴에서 이직까지. 잡플래닛의 원스톱 정보 제공 서비스 노력하면 찾을 수 있는 공채 족보뿐 만 아니라, 선배한테 매달려야 알려주는 인턴 합격수기부터 그 어디에 도 없는 경력직들의 이직 면접 팁까 지.",
+          "url": "https://www.jobplanet.co.kr/reviews?city_id=1&industry_id=702&sort_by=review_compensation_cache"
+        },
+        {
+          "source": "brave",
+          "title": "업스테이지의 채용공고 데이터 확인하기",
+          "description": "잡플래닛 · 혁신의숲 · 더브이씨 · ~ 검색하기 · 2023-09-04: 업스테이지 채용공고 분석을 시작했어요. 한 주동안 올라온 공고 1개 · 한 주동안 내려간 공고 0개 · 현재 진행중 공고 26개 ·",
+          "url": "https://somoon.ai/report/company/upstage"
+        },
+        {
+          "source": "brave",
+          "title": "블라인드 | 업스테이지 기업정보",
+          "description": "업스테이지는 AI 기술로 해결할 수 있는 비즈니스 문제들을 풀어갑니다. Making AI Beneficial 이라는 미션 아래, 누구나 AI 기술의 혜택을 누릴 수 있도록 &#x27;적용이 쉬운 AI 솔루션&#x27;을 만듭니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "(주)업스테이지 2026년 기업정보 | 기업리뷰 26건, 3.4 리뷰평점",
+          "description": "장점 : 같이 일하는 동료들, 빠른 성과 및 원격근무로 시간을 탄력적으로 이용가능합니다. 단점 : 스타트업인 만큼 새로운 사업기회를 포착하면 자주 일이 변경될 수 있습니다.",
+          "url": "https://www.jobplanet.co.kr/companies/374362/reviews/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "업스테이지 2026년 기업정보 | 7건의 복지정보 0 전체 복지 통계",
+          "description": "업스테이지의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 7건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/374362/benefits/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "(주)업스테이지 2026년 기업정보 | 22건 면접후기 3.6 면접난이도",
+          "description": "(주)업스테이지의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.6, 면접경로: 온라인 지원 85%, 면접경험: 긍정적 54%, 부정적 23%, 면접결과: 합격 27%, 불합격 59%, 대기중 14% | 잡플래닛에 등록된 22건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/374362/interviews/%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 4점 이상이면 '신의 직장?'",
+          "description": "흔히 돌아다니는 잡플래닛 평점 요약본은 이렇습니다. 그렇다면 트레드링스는 어떨까요? 네, 사실 이거 보여드리려고 앞에 말이 길었습니다. 자랑 좀 하자면 트레드링스의 전체 평점은 무려 4.4, 인터넷 커뮤니티...",
+          "url": "https://blog.naver.com/tradlinx0522/223030333425"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 관련.",
+          "description": "잡플래닛 기업 평점에 대해 궁금해하시는 분들이 많은데, 경험에 비추어 간단히 말씀드리겠습니다. 일단 2점 밑은 무조건 피하시는 게 상책입니다. 1~2점대 기업은 최악 of 최악이라고 봐도 무방하고요, 아무리...",
+          "url": "https://blog.naver.com/passion83j/221586201926"
+        },
+        {
+          "source": "naver",
+          "title": "더파이널스테이지(주) 2025년 기업정보 | 기업리뷰 5건, 3.6 리뷰평점",
+          "description": "60% · 기업 추천율 ; 100% · CEO 지지율 ; 60% · 성장 가능성 ; 멤버십 가입하고 전체보기 · 기업 리뷰 작성하고 전체보기 · 제휴 대학 확인하고 전체보기",
+          "url": "https://www.jobplanet.co.kr/companies/160308/reviews/%EB%8D%94%ED%8C%8C%EC%9D%B4%EB%84%90%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "에이 엔스테이지 2025년 기업정보 | 1건의 복지정보 0 전체 복지 통계",
+          "description": "에이 엔스테이지의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 1건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/203742/benefits/%EC%97%90%EC%9D%B4%EC%97%94%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "제이엠스테이지(주) 2026년 기업정보 | 기업리뷰 1건, 1.0 리뷰평점",
+          "description": "장점 : 점심 무료식권 주는거 빼고 없음 식사시간 11시30분 13시까지(그사이에는 사무실 불끔), 단점 : 가족경영회사(회장눈치보고 아침에 회장한테 인사하고 자리에 앉아야함) 8시출근이지만 7시40분까지 출근해야하고 회장이 퇴근안하면 퇴근못함 ERP없음 그룹웨어없음 회사이메일 없음 갖추고 있는 회사 자사양식 없음 회사 점퍼입고 다녀야함, 청소 일주일에 한번해야함(본인 쓰...",
+          "url": "https://www.jobplanet.co.kr/companies/276336/reviews/%EC%A0%9C%EC%9D%B4%EC%97%A0%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "더파이널스테이지 2026년 기업정보 | 2건의 복지정보 0 전체 복지 통계",
+          "description": "더파이널스테이지의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 2건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/160308/benefits/%EB%8D%94%ED%8C%8C%EC%9D%B4%EB%84%90%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "업스테이지 연봉정보 - 평균연봉 5,964만원",
+          "description": "업스테이지 좋아요 매출액 138억 9천만원 사원 139명 전체 평균 연봉 계약직포함 임원포함 5,964 만원 월 실수령액 4,189,450원 연도별 평균연봉 계약직포함 임원포함 평균연봉(만원) 최소/최대(평균) 구간 동종업계...",
+          "url": "https://www.jobkorea.co.kr/company/48080514/salary"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "Careers | Upstage AI",
+          "url": "https://upstage.ai/careers",
+          "text": "Careers | Upstage AI process = { env: { NODE_ENV: '' } };\n\n⚡️ Upstage Studio Preview — free access through March 31\n\nLearn more →\n\n[⚡️ Upstage Studio Preview — free access through March 31](https://studio.upstage.ai/?utm_s",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Upstage 채용",
+          "url": "https://careers.upstage.ai/ko/aboutus",
+          "text": "Upstage 채용\n\n## 업스테이지는 AI를 연구에 머무르게 하지 않고,현실의 비즈니스와 삶에 적용해 변화를 만들어 가는 AI 회사입니다.\n\n업스테이지는 LLM과 문서 인텔리전스 기술을 기반으로,\n\n기업이 실제로 사용할 수 있는 AI 서비스를 설계하고 운영합니다.\n\n단순한 모델 개발이나 기술 데모가 아닌, 현장에서 작동하고 성과로 이어지는 AI를 만드는 것이 우리의 일입니다.\n\n우리는 글로벌 환경에서 AI를 서비스에 적용하며 기술과 비즈니스 사이에 존재하는 수많은 ‘현실의 장벽’을 직접 넘어왔습니다.\n\n그 경험을 바탕으로, AI가 필요한 기업과 사람들이 보다 빠르고, 보다 쉽게 AI를 도입할 수 있도록 돕고 있습니다.\n\n업스테이지는 AI 기술의 가능성을 믿는 동시에, 그 가능성을 현실로 완성해 나갈 동료를 찾고 있습니다.\n\nHow we work\n\n# Upstage Way\n\n01\n\n### One team\n\n공동의 목표를 향해 구성원 전체가 한 팀으로 움직입니다.\n\nWe believe",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Upstage 채용 - 2026년 진행 중인 공고 총 29건 | 잡코리아",
+          "url": "https://m.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/upstage01?ChkDispType=0&GI_Part_Code=1000242&Page=1",
+          "text": "Upstage 채용 - 2026년 진행 중인 공고 총 29건 | 잡코리아\n\nJOBKOREA 관심기업 공유하기 메인\n\n응용 소프트웨어 개발 및 공급업\n\nUpstage\n\n관심기업\n\n공유\n\n채용중 29건\n\n# 채용정보\n\n## 채용정보 상세 검색\n\n전체 200건 진행중 29건 마감 171건\n\nAI/ML엔지니어\n\n채용정보 상세검색\n\n- QA\n- [AI교육컨설턴트](https://m.jobkorea.",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "잡학다식🍽",
+          "url": "https://researchking.tistory.com/1625",
+          "text": "🤖 업스테이지(Upstage) 직급별 연봉 완전 공개! AI 스타트업의 2025년 최신 보너스 정보 대폭 공개 💰\n\n📋 목차\n\n- 🎯 업스테이지, 정말 선택할 만한 회사일까?\n- ❓ 업스테이지 연봉 관련 FAQ\n- 🏢 스타트업만의 특별한 복리후생\n- 📈 업스테이지의 미래와 전망\n- 💡 업스테이지 입사 성공 전략\n- ⚖️ AI 업계 연봉 비교 분석\n- 👥 현직자들의 생생한 증언\n- 🚀 업스테이지 승진과 연봉 상승 체계\n- 🎁 스톡옵션과 특별 보너스 혜택\n- 📊 직급별·직무별 연봉 상세 해부\n- 💰 업스테이지 연봉 현실 완전 분석\n- 🌟 업스테이지, K-AI의 희망!\n\n업스테이지\n\n## 🌟 업스테이지, K-AI의 희망!\n\n안녕하세요, 여러분! 😊 요즘 AI 시대가 본격화되면서 가장 뜨거운 관심을 받고 있는 국내 AI 스타트업이 바로 **업스테이지(Upstage)**죠! 2020년 설립된 이 젊은 기업이 불과 5년 만에 AI 업계의 떠오르는 스타로 자리매김하고 ",
+          "score": 0,
+          "published_date": "2025-08-27T00:00:00.000Z"
+        },
+        {
+          "title": "업스테이지 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
+          "url": "https://jasoseol.com/companies/14261",
+          "text": "업스테이지 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n산업(업종)\n\n정보통신업\n\n기업 형태\n\n기타기업\n\n대표자\n\n김성훈\n\n사원수\n\n52명\n\n매출액\n\n138억 9천만 원\n\n설립 년도\n\n2020년\n\n주소지\n\n경기 용인시 수지구 광교중앙로 338, A동 815호 (상현동,광교우미뉴브)\n\n홈페이지\n\nwww.upstage.ai\n\n초봉4,769만 원\n\n평균 연봉6,679만 원\n\n각 기업이 공공데이터에 제공한 정보를 활용하여 제공합니다.\n\n정보 수정 요청\n\n### 지원자 분석 📊\n\n#### 지원자 18명\n\n학점 평균3",
+          "score": 0,
+          "published_date": "2020-03-02T00:00:00.000Z"
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "김성훈 업스테이지 대표, &quot;워크 인텔리전스로 일하는 방법, 새로운 방향 만들겠다&quot;",
+          "description": "방향을 제시할 것이다. 동남아와 일본을 넘어, 미국으로 사업을... Work)’ 비전을 발표했다 / 출처=IT동아 우리나라 주요 AI 기업 중... 업스테이지의 AI 전략과 방향성을 구체적으로 소개했다. 2025년은 AI 분기점...",
+          "link": "https://v.daum.net/v/20250416175104767",
+          "pub_date": ""
+        },
+        {
+          "title": "김성훈 업스테이지 대표, &quot;워크 인텔리전스로 일하는 방법, 새로운 방향 만들겠다&quot;",
+          "description": "비전 발표 ▲ 솔라 프로 1.3 버전 공개 및 차세대 1.5 버전, 멀티모달 모델 사전 공개 ▲ 업스테이지 설루션 도입 및 활용 사례 ▲ 소버린 AI를 앞세운 일본 및 글로벌 시장 전략 등 업스테이지의 AI 전략과 방향성...",
+          "link": "https://it.donga.com/106821/",
+          "pub_date": ""
+        },
+        {
+          "title": "[현장] 김성훈 업스테이지 대표 “글로벌 AI 업무 표준 정립하겠다” - 뉴스투데이 ,경제 라이프 종합 미디어",
+          "description": "AI 사업 전략 계획과 함께 회사가 지향점에 대해 강조했다. 업스테이지는 16일 서울 여의도 콘래드 호텔에서 ‘미디어 데이’를 열고, 글로벌 AI 업무 표준을 목표로 ‘일의 미래(Future of Work)’ 비전을...",
+          "link": "https://www.news2day.co.kr/article/20250416500208",
+          "pub_date": ""
+        },
+        {
+          "title": "업스테이지 생성AI 전문가들, 금융권 디지털 전환 방향 제시한다",
+          "description": "전환 방향을 제시한다. 업스테이지는 7일 ‘생성형 AI가 바꾸는 금융·보험의 미래’를 주제로... 이번 행사에는 업스테이지 이활석 CTO를 비롯, 전 라이나생명 CPC혁신전략 임원을 역임한 업스테이지 최홍준...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01262806635705024",
+          "pub_date": ""
+        },
+        {
+          "title": "세상을 바꾸는 AI를 만들고 싶다면",
+          "description": "국가대표 AI 5대 기업 선정 ; 대한민국을 대표해 세계 무대와 정면으로 경쟁하는 팀. 여기서의 경험은 곧, 글로벌 프론티어로 도약하는 여정이 됩니다.",
+          "link": "https://www.upstage.ai/careers/careertalk-sep25",
+          "pub_date": ""
+        },
+        {
+          "title": "“AI 국가대표 선정의 현장”…네이버·업스테이지, ‘JTBC 내일포럼’서 미래 전략→경쟁 본격화 - 조하준 기자....",
+          "description": "이 기업들은 지난해 8월 국가대표 AI 기업 선정 사업에서 치열한 경쟁... 대응 전략 등이 논의됐다. 네이버와 업스테이지, 그리고 SK텔레콤, NC, LG의 AI 책임자들은 ‘JTBC 내일포럼’의 오전 세션을 통해 한국을...",
+          "link": "https://www.topstarnews.net/news/articleView.html?idxno=15846288",
+          "pub_date": ""
+        },
+        {
+          "title": "'국대 AI' 업스테이지 &quot;모두가 꿈꾸는 'AI 기반 사회' 기여하겠다&quot;",
+          "description": "5대 국가대표 AI모델 개발팀인 AI전문 스타트업 '업스테이지'는 업무와 일상에서의 AI 혁신과 이를 뒷받침할 수 있는 AI 생태계 조성에 대한 비전을 '2025 JTBC 내일포럼'에서 제시했습니다. 올해로 2회째를 맞은 JTBC 내일포럼은 22일(수) 서울 소공동 웨스틴조선호텔에서 새로운 시대적 패러다임으로 떠오른 'AI 기본사회, 우리의 미래'를 주제로 열렸습니다. 업스테이지의 언어모델 '솔...",
+          "link": "https://news.jtbc.co.kr/article/NB12267620",
+          "pub_date": ""
+        },
+        {
+          "title": "[AX 트렌드] 빠르게 변하는 AI 트렌드, 업스테이지 권순일 부사장이 말하는 'Next Level AX’",
+          "description": "AI 전환의 흐름 속에서, 지금이야말로 방향을 재정립할 중요한... Next Level AX, 그 다음 단계의 전략을 AISC 2025에서 함께 확인하세요. #AX트렌드 #AI성공사례 #업스테이지 #AI주권 #하이퍼오토메이션...",
+          "link": "https://blog.naver.com/kmr16949/224041399234",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 기술을 시장과 고객에 연결하는 AI Business",
+          "description": "업스테이지가 가진 뛰어난 기술을 실제 고객과 시장에서 빛나게 만드는 성장 엔진과 같은 AI Business 총괄리더 권순일님을 만나보겠습니다! 순일: 사업부문은 회사의 사업전략과 개발을 담당합니다. 비즈니스 모델을 만들고, 해당 비즈니스 모델의 가설을 시장에서 지속적으로 검증합니다. 그 과정에서 타겟이 되는 고객을 모집하고, 사업 채널과 파트너들을 관리합니다. 순일: 구...",
+          "link": "https://www.upstage.ai/blog/ko/mini-starview-ai-business",
+          "pub_date": ""
+        },
+        {
+          "title": "영토 넓히는 'AI주권'…글로벌 업무 표준도 주도한다",
+          "description": "[김성훈 업스테이지 대표가 16일 서울 여의도 콘래드호텔에서 기자 간담회 자리에서 향후 솔라 대형언어모델(LLM) 개발 및 사업 계획에 대해 설명하고 있다. (사진=연합뉴스)] AI 기술 기업 업스테이지가 업무용 인공지능을 통해 글로벌 AI 업무 표준을 주도해나가겠다는 비전을 발표했습니다. 김성훈 업스테이지 대표는 오늘(16일) 오전 서울 여의도 콘",
+          "link": "https://v.daum.net/v/20250416120006617",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "[AI 분야는 국내외 투자 시장의 핵심으로 부상하며 다수 스타트업이 대규모 자금을 유치]     업스테이지(Upstage)는 한국 대표 생성형 AI 전문 스타트업으로, 2026년 2월 SK네트웍스로부터 470억 원 추가 투자를 유치하며 누적 투자액 720억 원을 돌파:AI넷",
+          "url": "https://www.ainet.link/25602",
+          "text": "[AI 분야는 국내외 투자 시장의 핵심으로 부상하며 다수 스타트업이 대규모 자금을 유치] 업스테이지(Upstage)는 한국 대표 생성형 AI 전문 스타트업으로, 2026년 2월 SK네트웍스로부터 470억 원 추가 투자를 유치하며 누적 투자액 720억 원을 돌파:AI넷\n\n시작페이지로 l 즐겨찾기 l RSS l 편집 2026.03.18 [20:30]\n\n전체기사\n\n- K스타, 연예계 소식\n- 라이프,거버넌스, 조직, 유망직종\n- 챗GPT와 AI, 로봇\n- 신기술&메타버스AR/VR\n- 유투브\n- 자율차,드론, 교통, 에너지,기후\n- AI바이오제약 수명연장\n- ",
+          "score": 0,
+          "published_date": "2026-03-09T00:00:00.000Z"
+        },
+        {
+          "title": "SK Networks makes additional investment in AI startup Upstage",
+          "url": "https://www.newsarticleinsiders.com/news/articleView.html?idxno=3598",
+          "text": "SK Networks makes additional investment in AI startup Upstage --\n\n이전 기사보기 다음 기사보기\n\nSK Networks makes additional investment in AI startup Upstage\n\n스크롤 이동 상태바\n\n페이스북(으)로 기사보내기 트위터(으)로 기사보내기 URL복사(으)로 기사보내기 기사저장 다른 공유 찾기\n\n이 기사를 공유합니다\n\n페이스북(으)로 기사보내기 트위터(으)로 기사보내기 URL복사(으)로 기사보내기\n\n닫기\n\n## Korean company expands AI push\n\nThe logo of SK Networks. [Graphic courtesy of SK Networks]\n\nSouth Korea’s SK Networks announced on Feb. 23 that the corporation has made an additional investment in South Korean artifi",
+          "score": 0,
+          "published_date": "2026-02-23T00:00:00.000Z"
+        },
+        {
+          "title": "업스테이지, 620억 원 투자 유치.. \"글로벌 시장 진출 본격화\"",
+          "url": "https://www.venturesquare.net/1000517",
+          "text": "업스테이지, 620억 원 투자 유치.. \"글로벌 시장 진출 본격화\"\n\nAI 전문 기업 업스테이지(대표 김성훈)가 국내외 주요 투자자들로부터 총 620억 원 규모의 시리즈 B 브릿지 투자를 유치했다고 20일 밝혔다.\n\n이번 투자는 한국산업은행이 리드했으며, 글로벌 기술기업 아마존과 AMD를 비롯해 인터베스트, KB증권, 프라이머사제, 신한벤처투자, 미래에셋벤처투자, 프리미어파트너스 등 기존 및 신규 투자자들이 참여했다.\n\n업스테이지는 이번 투자를 통해 누적 투자액 약 2,000억 원을 기록하게 됐으며, 국내 AI 소프트웨어 기업 중 최대 규모의 투자 유치 사례로 평가된다. 특히, 아마존의 참여는 전략적 협력 관계와 함께 이뤄진 것으로, 업스테이지는 AWS를 자사 우선 클라우드 제공업체로 선정하고, AWS의 AI 인프라를 기반으로 자체 모델 고도화 및 글로벌 시장 확장을 추진할 계획이다.\n\n업스테이지는 자체 개발한 프런티어급 언어모델 ‘솔",
+          "score": 0,
+          "published_date": "2025-08-20T00:00:00.000Z"
+        },
+        {
+          "title": "Upstage Achieves 790 Billion Won Valuation, Amazon and AMD Join Investment - Businesskorea",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=249868",
+          "text": "Upstage Achieves 790 Billion Won Valuation, Amazon and AMD Join Investment - Businesskorea --\n\n이전 기사보기 다음 기사보기\n\nUpstage Achieves 790 Billion Won Valuation, Amazon and AMD Join Investment\n\nPrint URL Copy Fonts Size Down Fonts Size Up\n\nScroll Move Status-bar\n\n- 댓글 0--\n- 2025.08.20 10:17\n- Editor Kim Eun-jin\n\nPrint URL Copy Translation -- Fonts Size Down Fonts Size Up\n\n## Upstage Plans Global AI Expansion, Eyes Trillion-Won IPO in 2026\n\nUpstate AI's CI (Photo courtesy of Upstage AI)\n\nUpstage AI, a ",
+          "score": 0,
+          "published_date": "2025-08-20T00:00:00.000Z"
+        },
+        {
+          "title": "Upstage Targets Korea's First Generative AI IPO — Can Policy and ...",
+          "url": "https://koreatechdesk.com/upstage-korea-first-generative-ai-ipo-policy-capital",
+          "text": "Upstage Targets Korea’s First Generative AI IPO — Can Policy and Capital Keep Pace? - KoreaTechDesk | Korean Startup and Technology News\n\n# Upstage Targets Korea’s First Generative AI IPO — Can Policy and Capital Keep Pace?\n\nby Dae-jung Park\n\npost_date_format( $post ) ); ? --\n\nNovember 7, 2025\n\nin AI & Big Data\n\n[0](https:",
+          "score": 0,
+          "published_date": "2025-11-07T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "FAA nod propels Boeing's 777-9 into fourth certification stage - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQelAxUmhVempwcDBNT2pqNi1HS0E5bUhNOG4tV1dsei1CZml0V0Q5bkEyQUpRUlVUS1AtMWN6eDJMbnhzdXBhS1o0UlRRUVVHMUNhMTh0TUYzczUwNzVHRThyZU9DUFhKdGNPcWMzOGY1ZVh3VkhSQnZLTXFWOGdFVVM5S1dyUmg0UzdVRVhsV0hJZWU0bmtaU1VlZ05ibm9RODY3WWprNkNpZHdnSlgxV1lpVGVWRTNwenVHOFlrMkYzU2tVUXJZTlMtWkNFbHF5MFE?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 18:04:22 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "From Frank's to Cholula, McCormick's decade of deals sets stage for bold Unilever move - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd0ZBVTNSVF9JTm5xb0o3eXZEVjQ3ZEpBNTU5TXY1V0x4SkxYbXVPQjh3RHdCT0NMSXdXRl94ZjBBa1o0U1h2RVhKaHlQQlZMMll0TnZfZDFnTmxyZzl5VlVzU0JuUmhObGp6M0dqRnlsMDhTOHQ1ZDljN1ZTMDJzeDZHZDk0N2ljaE9PWWp0SjVKR3ZITzFHc0NUbFAxUzJJOWpZdG9TQWlWUjl1Q3ZVTHpsSQ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 17:02:34 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Novartis to buy experimental breast cancer drug in up to $3 billion deal - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2lHNWFaNGp4M1ZvU3hGUk5hdmRaeThmLWhtaVVDenF1SEMxTDVpcGhSX1JweXVUbm8zNzRuZWpZSm01RVRzMEZfRkxPUzljNEgtS1BpVFFpMjRzM1FxdlY4OEREVktEZS1WcFNtWnRaVjBRNC0tMXV5U3hpWlN6UmRKZEF4ZHpXNUNBMElBdS1NbUJOalVneHNoc1l3alVhU3FXOGlfcGNDX204NXBrbVpQMDdzRHp0Qmp0ME96NUVrRzg?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 06:25:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "US Stocks Slip as Iran Attacks Add Pressure on Oil: Markets Wrap - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORW9WWDdfaHk1NTRMbXBJTFpXaWk2UEo1eUpoV2xlWVFGVWRxd0c2RlJRSmo5Vm9GdkJxemlJanVpOHdQdV84UWtEci1JdFlRMmZoQ2FreUJXUks4S2d2ZjN3T2Vsdm1BV3VDS3BWcWlLNG5NNUpRa20tNGwtX2RwVnRCNW5SS2ttQ1ZTXzVaMVdPZkJRV0E?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 20:12:07 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "EU Tells Member States Not to Wait to Fill Up Gas Storage - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ25nZ1RRR1hHZFllbHZxdnFyV0NLaHF6VmNkQjJPMFpSdG0zR09YRndmMGZPRTR1bDlKbkh2dHQwajNmdDFJa3hMOVpKR01GZUNTMEZYRXhhaHBzQzJYcG5qeHV0bXlWeTRwSlhlNDB2WlBzaXBXN3JsOWpmUDl5YUZKNjk1aWV0UlFpQzF1Q1FCRHF1QUVlZm0tZGNfRzZHYThVUzd6QjhrREda?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 09:22:35 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Netflix Grows Live Event Strategy With BTS Comeback Spectacular - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVWpiSHZFcjh3QXhldUZnbFlYVlcxN3U3RkpSb1Q5aXp0ZG9QN2I1UVk0M1Z2VHVfeGd6Y0FwN1pkdWtrY0x1ZkNub0RGZGNvQ2EydGU1RUFQT0xCcVk3czQtUGoxMFp6dGljSDZuTm1XRzZwbnk3dm1oRXZld0EzUDNadk0tT0FGNnR1Skt4RHVINkREWVc3MFJaMWNjYzBHWTVIcFhEbE8yY25wUDFBeXI2eVY?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 15:38:41 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Startup Battlefield 200 nominations are still open - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSzlaUGJJNVRidW55bEFSaUh0cmU3WDNTS2NJMnBNY0tyaWhFTTZnSFlNRnlCa0I5SExOaXJnTW8wTEF0cTVaRmY2NmFLOUd0aTg5a0Y3ZUpYMUVLck1FVHlaQXdOeWgxTGR3Q3dFT0I1WG1naU4tSXY1Z0kyeGc5TGxDb3Q5bnVGRkwxRHJaNzd5bUZKdk1zZjMwZkU?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 15:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5oc1hqR1YwYi1VQTM1alk2dEVDNS1TaXp1SnlRdHdNQzBINUZvN0hxaDdWeEhSUGoxWm5v?oc=5",
+          "pub_date": "Tue, 09 Feb 2010 10:17:04 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRVhXRXBfdk1WSDJ5QUlVa2hSODV1ck1YOUx5MTVxcGFpdXduLVM4M0JFSHhxMzZlMFgwTTBQOVdtdUk3ejd0MFVlUk5XT05LbEFkRmhUMXcwWFF0aEVIMmdkamFqS1RiTWRLNnNYOXdvODQ4QmNWd0VhZ3M4SXN6bWtaUG9XZDlSWXRJQmZ5MkM4ZnhncTk1WjNlcnBFTnF0dnU0cktrQkFZUEZQSURGbEdNS1RwR1pzYWlGN2ZRQVAxZGFvVkE?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 22:09:24 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Tencent Posts Earnings Beat as It Steps Up AI Effort - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMipANBVV95cUxNdUNIQjFuSTRyTzFaSk83SFNPbWh6bW1KWURoR3ZDSEVfZzJHb3pTcU13RHZfOWl6ek56UnZoVUVkTEdsV09qUmNWQ0kwSkRxWDVQZFphd2YzcFM1S0NLT3BNYml0UFZmRGRIMUgyR21qRnptaWE4QndsYVpwXzlBUlVSSWFfMVROVTB1ZzVDb0p3Rl93NDg1X2I3MWxFRlZxeEhvOUJSUXZLOHM3SGlDTUI2RWV1dmoxbzVxZDNRTlkwVWFSWUZRRDZOeEczeF9mR1lURXRORC1YXzFlX0g2dGd4UDRHcEFpSE1QYXFCQW4zSVVjUkF4Zm9yMkhhcTNPWV83a3JWUTNGOEQza2dDeTNHNWY2RDhhdHhwMG9PTEFRbVBYR1M2MkFUVnFCREk2Nkc5cHAydWpHb0hSZTExTXozajM0UmV0M0U0ZXkzV1lwZFRkN2k2NTdvdjhZZ2NOSVlXRHRuYVlzbVRDVWFUOVVtRzJ6MVBMOWxWZ05fVXVHUmU3V1J6Y09wc19KR2pzQzNxcVpzQWJHTEw3N095bUxCOEY?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 11:59:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Novartis to Buy Breast-Cancer Drug From Synnovation for Up to $3 Billion - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiuANBVV95cUxQZWxLLU1lZ3JsSm00S1NSSnNmOUZwb2MxV0JLR1M5aS12aE56bUJ4VVg1b3l3ZndzczUwbng1bmJKT3dIR3hTZHQwOUFuRkhBeWtlMmR1LXRCSXBmMG51WkdxSEU1aHVUY2tDMGpURGxZNVphUHNrdjhuTGl5MHctNmYxdzdHcl9lVklPdm9GZjhKdmUwQm9ER1FoYndHYTdTaFhIZERHU3NCcDlMcURnRVpMZG0xSE03aGpyX19WQmgxNlpLUDlLSDRWeXhHUWprQnVrWGtSWVBzQmN1bDlGdWdiWmhqNVFUV2FpSkpKTUdFUnVldTdISHlObl94emNTaWU1c3JnYVpodVJ0VWZBSFdHYXFRX3RWdU45SFZseEFHZktET1BvRlNFSEhDLUc1bnZmNDZWTzF1enJFb2tjbmRJZkhQUDhWVnMtYVB3OEdTeDZwaG5GWV9vUUZVX0laVlpMNmJuUm1jZnJ4Y01CQlFxekE3MVBFNENvWjZhWE5pYTluX1kzWFItdW10cWZmVmdScU5ZUUkyMmFMQlRXemMtSE1kZ3R0T2RXTGw0UnR0emd1RTh5bg?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 07:41:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Kurt Russell Kicked Elvis Presley and Wound Up Playing Him - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxOMjAtTWpNcGRkWV9OMkd3Q2tTMXAzVGhJQndIR01QY2VLNktSRU9zcFFhY3B1bjRYdlFhampHLWJOUVVsemxqcnRTQ2M1c2lYSnBWOWdSSEk1dUFFWTM2LWhPeVkwQ0RFQ2NhY0h4YkhXMXJWU3RVUHY5V3F6d0VHb19XYi1JT05jUEtlUk1UV0VFMS1GM1llQkhNSXpoMlVJMllzVnNjcEhlT2JhSWRVcXdqZDNwTGw1NlJwRGV0S2t3LVpyYXdWWU1CZlVwMUttXzA4U1RNakcxbFppNkxhbVowY3pEY2NuQXJTVTFhWHZMdmt4X3lfVGlzWnh6TFVSQXZndFNRRTZyZFktc2cwRjBZNXh1YXZ3SW1KeFlwSExMWEJoNHJrQW5jR3RBai1idzRKaWZmemduVXExZU9uZ1VyTkotYzBPWm5ub0xwM0hldHFhV2x5cFV0VzhvMFJ1YldYcU45SG1RYW9NNmxOMHg3N1R2VXZv?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 16:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Microsoft reshuffles AI team to catch up on Copilot and model building - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNejBzTVprYktDX05hUEZ3M0VfcHpBdUZzYlJRSjR3cUhiMFljR1poSDFoVEdpVldZUlFrQndpa1ZJRmV6dkZsNTJYdWx1eEdyTDhLZ2xxNVZ5NDhtM3FOamJHcGVRT2JVZXVVX3lHdEJHZmJGLUpsaU1XR21kSEFyOXlCMU0?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 21:34:14 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Citigroup raises chief executive Jane Fraser’s pay to record $42mn - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYjIzblBhaVpSWXJqeGQ2N3pFTmhxampuQm1XdzJaUWFWWXVSU1MtVTNQUDJtOEtYYWRXNWI5aUpnSkZGYzFYVXB2eG5ZaEx6c2NROUJBamNHSGpZRWtHcWpXczd3MEY3em9zZ3dBdnlMVElibDRKaUN6UWFUQW5jVHduUUc?oc=5",
+          "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "UK space start-up Orbex collapses as takeover talks break down - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTmZqay1QcHd6cDQ2OG44ZUs5VllUdlFQTF9EZy1vY19uZUlIQ2lyR3VHekJLbkQyUzF2aGU2MnpKRUEyeDhrazJWNk56RjdXYU92WF9VWDRYZTV1ZUpGaTktX2J0cHhMQWV4MUxhYVM4MDdCUDZtYVMxeHQwMWtFeUdrV2E?oc=5",
+          "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Singapore's costly car culture roars on as Porsche, BYD pile in - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONm5Jc3ZxRWVpZFdfQUNtcTA1TE9qNjEtUG5aejQ4VFJuenNsZWM1SG9pdlc4UTA4Tk84U0xFVGdHM1lxSzJIbWl3ZkxrLTZWdTV5c3FQWkNfNmU2ejhnc0ZOaFRja2Nobl9GUGFSWHd5V0U3ZHlRek8zV2QxWUtHVTBZRDV5bjBIVFllRHk5VjJIZHhrUHFpdHNWMFRtM2cyaU14RV9fRnd4UnZ4?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 21:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Israel launches new wave of attacks on Iran as crisis deepens - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb3pyRUVNSmREcXpWR0VyNHVMSGh2aEtnY0tQNU5sbXNmZmJIT05kdVZHWU40M0RhVHN6bWdqblFTYUlwZ2hEYjZvekpmQS12VGVOay1kSGhwSk5IaGdFd0dxRHZJZzdWOGY3MkJzRlhNdXlsVkN2SHh5T1lEbV9nUXFPVFhJeUE5S01nbVBkWWVpZW5TbmVDMGpyMkRSZnVQM3JtRVkyb3lqUDBiaHc?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 03:19:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Mazda revamps CX-5, ditches diesel on comeback road - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUZIYkVlZExCN3JEWGJNbGh4QU9RSWdWa1J5MjdmdWRpbU1uVUNmdEpmSGZVZlNzT0JpdzJTbW1CNmpTU25kSkxhbzlLSEFGTUlsMXVxV1U4VC1NcTVETE1ULVh3T29tblhCdFFTYnZLcTJtQUc3WGk1a2dUVjNYaS13cjNnY3RBNmhwazdKam5XUncwNnIwaTc5elc?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 00:08:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "The AI Worries Keeping Investors Up at Night - The Information",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdk9LZ1FYcGk5RGk0Uldoc3pkOW5xNk9nczczQmZjN2hNZjh3UHliRndfTzdHc0dSUl9OUW5XWmh0UEFXRjl5RlhESndnMG40aWtvY0hXZUlVb0h6dDY3MlhoaGswZ0p1TzVzSVo3OHdWMEEzUjhoejR1Ny1wTjQwX1ZiWTcwbmRZV3o1TVpTZm8?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 22:45:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "8 Questions Investors Need to Ask About SpaceX’s IPO - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUU00Z3dkTVE1eEZBU1NGQXFBRm9FSHdPd0JFY0FJZHpKeFdMUFQ3VUNHSDlfSEpiSS1iQmRvRGt1OGV4b042NnI1UjA5NWlKMU5HYVZMTnJLbUtkSzJMWFpieDVxU3dNa3NpLWtlMEtha05sNC1IN25Rblc0cnBNLURxMDhzNEhoekE?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 13:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "The Electric: The U.S. is Challenging China's Dominance of Iron Batteries - The Information",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNU5xc3JRRFJTY1pQRG9UMTU2S0NramNhbk1FakM0ZWF3RVU1YVRLTk05V1gzVkN6aGFKS1lPd0RIWjFIWHNBUEtJNzF0bUZzLWdUdTQyclV1dE9XYXNHaWEySnVLc1AxWEdueU9PQkZndENJUndVZk5pcjJXakQxZ2hhTUk1MkNUdkhfUGlyRDhDcVk3ZERROHFpLWxTUEhCSGN1SzJyYTdIMVA3OFZidndn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 11:30:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "The Upstage Blog",
+          "url": "https://upstage.ai/blog",
+          "text": "The Upstage Blog | Upstage AI\n\n⚡️ Upstage Studio Preview — free access through March 31\n\nLearn more →\n\n[⚡️ Upstage Studio Preview — free access through March 31](https://studio.upstage.ai/?utm_source=text-link&amp;utm_medi",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "The Complete Open-Source Startup Stack: 100+ Tools to ...",
+          "url": "https://oneuptime.com/blog/post/2026-01-08-complete-open-source-startup-stack/view",
+          "text": "The Complete Open-Source Startup Stack: 100+ Tools to Build, Scale,\n\n# The Complete Open-Source Startup Stack: 100+ Tools to Build, Scale,\n\nA comprehensive guide to open-source alternatives for every tool your startup needs.\n\n@nawazdhandala• Jan 08, 2026 •\n\nOpen Source Startup DevOps [Observability](https://oneuptime.com/blog/tag/obs",
+          "score": 0,
+          "published_date": "2026-01-08T00:00:00.000Z"
+        },
+        {
+          "title": "How Engineering Discipline Reduces Long-Term Software ...",
+          "url": "https://tech-stack.com/blog/how-engineering-discipline-reduces-software-costs/",
+          "text": "How Engineering Discipline Reduces Long-Term Software Costs | Techstack\n\nFilter\n\nClose\n\nFormat:\n\nReset\n\n- Webinar\n\n- Webinar\n\nIndustry:\n\nReset\n\n- Transportation and Logistic\n- Social Media\n- Renewable Energy\n- [Manufacturing](https://tech-stack.c",
+          "score": 0,
+          "published_date": "2026-02-27T00:00:00.000Z"
+        },
+        {
+          "title": "Components of an Open Source AI Compute Tech Stack",
+          "url": "https://www.anyscale.com/blog/ai-compute-open-source-stack-kubernetes-ray-pytorch-vllm",
+          "text": "Components of an Open Source AI Compute Tech Stack\n\nHome Blog Blog Detail\n\n# An Open Source Stack for AI Compute: Kubernetes + Ray + PyTorch + vLLM\n\nBy Robert Nishihara| June 12, 2025\n\nThrough our experience building Ray, we work with hundreds of AI teams and platform teams productionizing AI.¹ As AI workloads have evolved from classical ML to deep learning to generative AI, the",
+          "score": 0,
+          "published_date": "2025-06-12T00:00:00.000Z"
+        },
+        {
+          "title": "Open Source Data Engineering Landscape 2024",
+          "url": "https://alirezasadeghi1.medium.com/open-source-data-engineering-landscape-2024-8a56d23b7fdb",
+          "text": "Open Source Data Engineering Landscape 2024 | by Alireza Sadeghi | Medium\nOpen in app\nSign up\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https://alirezasadeghi1.medium.com/open-source-data-engineering-landscape-2024-8a56d23b7fdb&amp;source=post_page---top_",
+          "score": 0,
+          "published_date": "2024-03-21T15:57:12.445Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 76.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "12 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01786541"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=업스테이지"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=업스테이지+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=업스테이지 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=업스테이지 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=업스테이지 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=업스테이지 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EC%97%85%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
+}

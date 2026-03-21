@@ -1,0 +1,837 @@
+{
+  "company": "빗썸",
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 빗썸",
+      "company_name_eng": "Bithumb Co., Ltd.",
+      "stock_name": "빗썸",
+      "ceo": "이재원",
+      "address": "서울특별시 강남구 테헤란로 124 (역삼동, 삼원타워 15, 16층)",
+      "industry_code": "4791",
+      "established": "20140105",
+      "homepage": "https://bithumbcorp.com/ko/",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "SK하이닉스, 글로벌·지역·AI 연계 새 채용 전략 공개 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE44clpGNHV4MGtCU0FWQUVvUUNsbWM3SWhqTGZfVFNLb0pWay1zY0ZzU2xqeWlEWHZkeDlySUdwQl9nMndxeWc?oc=5",
+          "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "두나무·빗썸, 나란히 1250억 썼지만…'내실' vs '공세' 엇갈린 전략 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02b21YOVpEazZJUEZZZFZmU3pXNk9BSjlPZnp5azlYNUM4b0ZQSnducTdMSk8yRWFaYlZYZGRqNi03ZkQxUjlNdk5QSkdyZw?oc=5",
+          "pub_date": "Tue, 18 Nov 2025 08:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "비큐AI, 최재원 부사장 선임…\"AI 데이터·STO 사업 확장 가속\" - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlREZteUdfMHN6ZGRqSHZuQ3NMWWFTSG1hM3lqQ1pkZTZRNE01WnBab1VSeUlmTGFPZlNMTGRWVXM2YldObmUtZkQ5b0M0NW1wbVZtRmg1ckV0SkdVZGdsM2pZTmdTbGpBZlRoaXdHRDlCWXM?oc=5",
+          "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+          "source": "마켓인"
+        },
+        {
+          "title": "두나무, ‘디지털 치유정원 공모전’ 시상식…빗썸, ‘2025 SBS 가요대전’ 스페셜 투표 이벤트 [가상자산오늘] - 시사오늘",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04UG01SDBQUk5sVjF1WkVqTHFjYjVXZlE4b2ZLbXZfR1N6Y2VWV0tqNDAzNEhERFdNOUxiUGpuMzhxejZRNWtjLXBKNjlhX1RKYkRRX0FacGVjU3JpT1RLbXR4QnF0UlYwM1E?oc=5",
+          "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+          "source": "시사오늘"
+        },
+        {
+          "title": "[기획보도] ② 빗썸, '동에번쩍 서에번쩍'…컨퍼런스·캠퍼스로 '현장 소통' 강화 - 뉴스후플러스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHZGlQODN4UUN4SXhsUExHMlJ4SElORmN4RS1XdkxZTXJ0VUtBeGczdThFQmxHNGRNSGNsVEZzN1FmMmliSWx2S20xZDNLbUI2WFV5YUhaMVRjcTlBcjhwa2ttcl9zamdCbUllbE5B?oc=5",
+          "pub_date": "Sun, 30 Nov 2025 08:00:00 GMT",
+          "source": "뉴스후플러스"
+        },
+        {
+          "title": "잡코리아, AI 기술∙상생 서비스로 일자리 연결 강화 - 한국면세뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TekpIRU4tM1FVWlVrMTJVQmFjU0dnRmppTUZZSndUeXI4elRkQXBzWGpYZW5ualItUmQ1M1JZbk02SWxWV3JBUVN2dmdTVnJxT21WcTRBTFRqZWkwMlA5Z3lCa2VhZVU4VFE?oc=5",
+          "pub_date": "Fri, 23 Jan 2026 08:00:00 GMT",
+          "source": "한국면세뉴스"
+        },
+        {
+          "title": "정진완號 우리은행, AI 강화 작심…본사 엔지니어·기획자 ‘확대’ [인사로 본 2026 은행 전략] - 한국금융신문",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01ejdydTJJS0dCYUotX2JCaWRhRlBSb3dDOHo5dkdpYnlqTUJpckd1S1ZRMnZOM1dkcTlIaWtHLTAxUTQ0ZjRxcDhGVlY0aXEwWmI0UC1MNFdyMlFqaTQzOUtwNUJuN2FjdTNCZlRiSjBJd0x1d3pBNTlZQXE?oc=5",
+          "pub_date": "Mon, 22 Dec 2025 08:00:00 GMT",
+          "source": "한국금융신문"
+        },
+        {
+          "title": "[빅테크칼럼] 저커버그의 “수프 외교”로 달군 AI 인재 영입술…메타와 오픈AI의 '은밀한 고공작전' - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiSm1GVTZqUHc5V19aMGt6V3pRcHlnOWxMNW1IQWZVTUVoajFzLUZjMU9NQ24zVjQxTko1dTdUVEVNUE1BZV81Um54bHFGb29UeXlRMU91S2R6ZHdWS1ktSg?oc=5",
+          "pub_date": "Sat, 06 Dec 2025 08:00:00 GMT",
+          "source": "뉴스스페이스"
+        },
+        {
+          "title": "국내 거래소, '자체 체인' 경쟁 본격화…두나무 '기와' 이어 빗썸·코빗도 가세하나 - 테크M",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91YXlhckRnLWlhMlBCcjZyS09UWldILWM3bGd6cUh1QjZjLWtOUmhNYTBPelRjVjN5WDU5ZjRjZTM0MTZhSXRkTkZUMHV5S3JHZmlNVjZyXzUwcGhjVnBFSUlTVS1Vd9IBakFVX3lxTE1QNjcyUmpQa01xajJTdXNVak5JTGFCenJBb2g2V1VZMFJKZWN2emNWM1VkTE5vbGZ0MVd5YmlyVm5ORW9uelFUc0lDV0lxS2Vvb2IyU1A5NkxWellBTWx3VmFDUG1wdEpOV2c?oc=5",
+          "pub_date": "Thu, 11 Sep 2025 07:00:00 GMT",
+          "source": "테크M"
+        },
+        {
+          "title": "오픈AI, 서울서 근무할 경력직 6개 직무 채용 '돌입'…'AI 한류' 열어갈 글로벌 인재 뽑는다 - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5R3o0d3JTUWJGU1gzakpRSjJ6QkhRUjVkWU1qb3h0NUtpUGxIdEJQS0tRQmVBZ0NEVUNYMWdES2xJQ1RKS2ZxOEV5MXpRTG0wRlhzc2pTZkJ1cjZZbFJN?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "뉴스스페이스"
+        },
+        {
+          "title": "빗썸, '예측차트' 무기로 점유율 반전 노린다 - 녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FaHhpLVB5UVRtOGtZRXZ5eU9iblZuZTlQNFdHakJuXzd1WkFCXzU5engxTWxfUTBNdGpZSjlHUktzNWtVUnNPMDE4amh3SVhPczNoVUdkTFdhOG1NUzE3LXFPa1o5OVRv?oc=5",
+          "pub_date": "Tue, 24 Dec 2024 08:00:00 GMT",
+          "source": "녹색경제신문"
+        },
+        {
+          "title": "빗썸, 대학생 서포터즈 ‘썸즈업’ 2기 모집…3개월 동안 홍보 활동 진행 - 소셜밸류",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OSW8teFpyQVlNTnNQOVhIcldjN3hXaWVpWmF4RldIT0YzTWktaGRBc2gxQXNlbWJhRE5QRGVlZ0xaWURlTEpHWTFmbVRxblVuN1lKTmd3bjdGTWpQZWRza3J0Y9IBbEFVX3lxTE5fTGRNaklNNGticmtGckcxNlh2V0FiSFJfcUl0RTRmSXZlYklaaHR0MG9nR1dvMzZNd05sdzhCSHZzV0Z2Vmwtbld6TlYwaHQ2Y3BfeVdzOGs1eWkzN0s2azJpU295cXl2dXAwUQ?oc=5",
+          "pub_date": "Wed, 04 Sep 2024 07:00:00 GMT",
+          "source": "소셜밸류"
+        },
+        {
+          "title": "소비자는 '새로운 경험'에 열광한다… 현대百·넥슨·빗썸의 '고객 중심 마케팅' 전략 - 브랜드브리프",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zNVVsMzlqc2hCZGlHRFp1OUxXZThJYnlGS0t5TE5FNXl6NTJiVWtXY1lSNk1BbWhuYVpBX3RfY1M4RGpFWHEwRHV0QzZYZVR6ejd5Y0xoNkFnS1o0MXdZblpwejQ4RnRlTkY5dF9n?oc=5",
+          "pub_date": "Thu, 19 Dec 2024 08:00:00 GMT",
+          "source": "브랜드브리프"
+        },
+        {
+          "title": "혼돈 속의 유니콘 빗썸코리아…숙제는? | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 - 잡플래닛",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04LWhGbnhrbUhoTzU0M1N5XzZSUm11S09HMG5naHJ3Sk5hREZJWU44cjlkODVFS0JWSVIxRkVKX3A3R3hJaUFiUTVkak53RmNxbXhHU3hsbnVIQQ?oc=5",
+          "pub_date": "Fri, 13 May 2022 07:00:00 GMT",
+          "source": "잡플래닛"
+        },
+        {
+          "title": "업비트 저격 나선 빗썸... 점유율 경쟁 속 난타전 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBROVNaYTl6Y09BY1kybFdycUwwczZEUFA1eG9BWDVsSFBBV0pOWmhrUlE3MUNraHJya2tZTW9XVWF3SmlnWWdCbGxnNzhQQQ?oc=5",
+          "pub_date": "Wed, 22 Jan 2025 08:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "두나무·빗썸 사업보고서 공개 임박…거래 위축 속 법인 유치 경쟁 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9FRktsN1h0SzBqbUNWQVBVdEs2NWRNdks4RlljSF9xbFNiY1BRYTJmYW0xUHlPMnEyWmFRTUJQeFZJN3ZWUVE?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 04:52:03 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "두나무·빗썸, 3분기 실적 나란히 껑충…비트코인 등 보유 가상자산 호황 ‘반사이익’ - 시사오늘",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qQUZ2NFNLTmhxZUoxdWJ3VWZHaDJRTUxOZnZobm45M0xURUh1X0Y3TW0yUnhLT0NfdjZmNEh4LVQ0dWFVN2JiaVExb1ZncEIwaHpacEtMRXNTYW9oeWNMUDRua3prWUNEYm9j?oc=5",
+          "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+          "source": "시사오늘"
+        },
+        {
+          "title": "2025년 냉온탕 오간 업비트·빗썸…사업다각화로 리스크 줄인다 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FeVZXMjVVQmFiZzFDV2ViYmZaVHRQaWlnbGJFNlZTWkhtdkZOcEdXMHpiVlpMM0NsZlRQWDJCS0ItZnhWb1Z2UnpieGxwTi1CazhvanE2NHBtc1NpUkJuVFltSXNpaHh2?oc=5",
+          "pub_date": "Sat, 20 Dec 2025 08:00:00 GMT",
+          "source": "mt.co.kr"
+        },
+        {
+          "title": "[격류 속 5대 거래소] 추격 고삐 죄는 빗썸, 마케팅 공세 속 IPO 불확실성 - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wS0psZ252S01zYTJtWldEeVlyU2h6YV9kWTNGYXE2dE1jQndWOExUTWpfRmFNd1BLdHhKNXdYOEdwRTI1N0s4RG5yNnlEZzQ?oc=5",
+          "pub_date": "Tue, 23 Dec 2025 08:00:00 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "‘수수료 외 수익 발굴’ 시급한 두나무·빗썸, 호실적 속 새 먹거리 모색 박차 - 데일리한국",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zeWhPRWdDc1hNdnZ4ajlhTkRFemFEdi1BUjRteXhSNzE4a29oU1BFRUFkZFZlZ3V1bDZhZHVpM01xU1A4cVdDdjlBQU5oWXU2UWVwQjF2NEU4UnZ5R0lWOTdEcEpZTXF1R0lYOFluSdIBc0FVX3lxTE1oaEZ4TXAxeWptV1NlWFJEekZnSm1Bckt3b2dZLWxudGF4a1haMlY1Nk5tUHpyVy1lZnZUNjlmMUpXbTlKdmNITy1ZSkxNaXlQODFJT09HaWcxVjFQNXhfLW9yQThEQmZVSllEZFhpOF9VV2s?oc=5",
+          "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+          "source": "데일리한국"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "빗썸, 이달 31일 주총…이재원 대표 연임·사채한도 증액 추진 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlpQaGhkLTdjOWJRSmpWTjVCRzJ2WldiTTVBa0d2RVRGeE1tZDZ4SEVOb0F6U0htc3NUU0p1NmRwVC01MTBjQW1udnVPd04yOFBwWm10cmcyRHFUMi1iR3BDNmdXYVY2NnpLaEcwSU5BT3IzWXJGZlkzVDFnblJnR1BsMjNYelk?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 09:33:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "빗썸, 이달 31일 주총…이재원 대표 연임·사채한도 증액 추진 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VN1pEWFk1azFfaFlFeWFRT2tmZnBrVEE4VmZ5NXZILWxVVlRNN3dYN0ZHcGk5dTRsMDQtTFVzbzVlM1VtZlZ0VzlrV0p4Z2JhdnM0R0x3WXVkQdIBVEFVX3lxTE5jU0dkVDlHa0hndWR4QmZsZUJ0azJaVXhlVVduc1NwcHVvZm9iS0pPN1NkeXlyYTZ1OFJlLVQ4MVFaSnJjZDlmaThVUjUwQ0FVZENfSw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 09:33:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "빗썸, 'TWAP' 적용 플랫폼 확대…앱·PC·모바일 웹 지원 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM1hpSm5USjR2NWYxamdZQzM0Y0ZBZi1qQTJkR0ZBMGV6MFZ0RXNEMldWX3J5NGJRNnhZUkxtTzhCUmdSMXprZ0tILXJXNXRMX0FQdEN5a195WlAzQTB0UDd0MWp1RDVHWVhEeWsxS3JwQkVwbjhJdWt0aTlDMUF3WFV6VXd6OHc?oc=5",
+          "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "빗썸, 거래소 중 최대·최다 누적 금전제재… 3회에 370억원 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT0k1NDJYV2dCVFltdXBqbDR5T3I2OFFGcUJaVzFHN293Y1p0dktqT1AyXzlONThHMkdiMU1FNmw1MTZrRmcyV3drTE9XVGo3RkwtTHFSSExQWlBQUFVEWXJfcmFOb1ZjWEc2cWttNWpBZ29uRXJsU2xPcnI0OGRqdm9iTk1IaUlGa25feXRIaktRRUNO0gGUAUFVX3lxTE9PSTU0MlhXZ0JUWW11cGpsNHlPcjY4UUZxQlpXMUc3b3djWnR2S2pPUDJfOU41OEcyR2IxTUU2bDUxNmtGZzJXd2tMT1dUajdGTC1McVJITFBaUFBQVURZcl9yYU5vVmNYRzZxa201akFnb25FcmxTbE9ycjQ4ZGp2b2JOTUhpSUZrbl95dEhqS1FFQ04?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 01:04:24 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "빗썸, 거래소 중 최대·최다 누적 금전제재… 3회에 370억원 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdFpfVFE4TndGOS04U3dyUk1mUm5hOVJ3V3RpYXFEUEJBVllTQkRQZkJhMlRJaXhMYWxQYzkwTGtKa1E2UVNXek1ubms4a3NfOG4wTE1Ccld5bDFublRYX0VpNDcxa1NYUWo1NkFxYjYxVHVaNGZTTzVHcXpiSkRtSNIBlAFBVV95cUxPT0k1NDJYV2dCVFltdXBqbDR5T3I2OFFGcUJaVzFHN293Y1p0dktqT1AyXzlONThHMkdiMU1FNmw1MTZrRmcyV3drTE9XVGo3RkwtTHFSSExQWlBQUFVEWXJfcmFOb1ZjWEc2cWttNWpBZ29uRXJsU2xPcnI0OGRqdm9iTk1IaUlGa25feXRIaktRRUNO?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 01:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "‘특금법 위반’ 빗썸 일부 영업정지 6개월… 과태료 368억 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYmRlSHlwRjQ5bURVZTR6dUF6alh1MG1WR2ZmZEgta2JvVzk2bW5XOFFPRkVwRjltZmxBZW53WGxIR3cwZENmWWpRaGM2U3JULTlHQ3BxZGNaYVF5STZFSEtRZl9EUDdrUUptVE53ZU9aWFFBRkZaTWoxS2ZUaEJtUdIBlAFBVV95cUxNYTktVktUTV8tdmN6Z0cyWDN3MjVSX2wyVjh5YkE1U3h1WVJHblhYZldpWWRtTnpaUUJ4Y3FSWkxNNDJtNlZ2VzBTUkJVZjlHWTByQWFlMWdldGRBVGkzUGFHNk0wTzVKWTJxel91V2VmZEh0bnZOLURPenR6eGFHQUl0WnJ0dkpjV29sTzJuR2NmUVF6?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 11:27:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "빗썸 비트코인 오지급 여파…금감원, 가상자산 거래소 ‘은행급’ 규제 국회 건의 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11dTBNQ3ZnM0ZkVS1wWmc2a2xGLUdWNVlmM3FqSmZ0NG90dklkeEJtck1YcUpUc0gxTU0tZ0c1UFZXQmF3T0JYb1lFSEJ0WWlGWkE?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 22:18:24 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[단독] 빗썸 이재원 연임…CB·BW한도 2배로 늘려 실탄확보 채비 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mOTlTdHJ3ZVJNc3UwR0Zrd2JMbjZ6eC1na2ROYjNoVDZjTlpxeER4aHh4NXM3ZG0zNl9ueWtrUE9hUG12QVN0bkYwTnB2aVlJSmc?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 04:45:14 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "'특금법 위반' 빗썸 일부영업정지 6개월 중징계…과태료 368억원(종합) - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56VkloZXZodkhjM2RuN2dBWkJoeENnZlUydmZSN280WWhwdTVtQXFvOFQwUHRkZWlSVk93RDRVZWYwck5oeE9vLTdYeDUzeGhUM3c?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 10:17:18 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "최대 규모 과태료받은 빗썸, 소송갈까 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NYmZ0ZHBvdTZ6NE9EZHhCQzVlWU91VjJ2V2JqRldBQmJ0MHdhdndCanJaOEhiUlpmUDFLRTZ6V2wxN21YT1pRMGpnNkhZSEliNGNEVVZB?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 05:41:49 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "FIU, '자금세탁방지 위반' 빗썸에 과태료 368억원 부과 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YV0RlVHhnQk9yeV90NlY1dmtKNmZIa1FnaGFmcVJOM3hLSFNrcFFCWnQ1b2Z4TE40T3g0N3RHdWM4T01KaG0zTlhkNmRrUUdfc3pVeGd3?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 10:10:17 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "바이낸스 ‘10배 레버리지’ 한국 ETF 출시…국내 거래소 역차별 논란 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96M3NTU1FqMWtNbzFoUWwwcUxaWFlpYWNkQlA1WEJvWndMR0lKbHRLUnZrbm4zM3NXZThidTNKRHA1YjEtN20xcXBCMlhGcjRITE1aZTdR?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 07:15:06 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "AML 관리 부실 드러난 빗썸…과태료 368억·일부 영업 정지 6개월 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42NVlYUHJ6a3Bvd0laclYxcWwweVpCNzBhZHBoLUJzUG1VMWJtZUhIYU5RLV91eGpjaXJ4a3NMT0JkZ243S25rRjBVTnExSENQaFNDWjVtWk95Wno1cDZoMXZkazJTMXdT0gFsQVVfeXFMTWhaQlFuYmtiZ3FIbnV3aDNvOThSRHJpVVZZdWJ3RHRibldYS29sSWhRcjcya2x6eGVBUnNGdnZKQ093ck14M09OV1QxeUFBb2ZEc1g4ZW1PUGdzc2ZiQ2paa0E2Z3RKR2VCdWZq?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 10:07:04 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[어바웃 C] 차명훈, 3개월 만 단독 복귀…코인원 ‘속도경영’ 전환 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iTmROMEE1UmZYWUNTQ21zazU2VGVISEFnSTdMZVdvRm1tR1pwYTVPUHdZLVpkLXNqcWRvOTVRY1FqOXAwQWpCUTJqbGNRN3ZWb0l2YjBxbl82cmJ2aEZBNEM2NGZpTnRG0gFsQVVfeXFMUDhYUGdBdmlYYlA0SUJjTmcxd2VaVllHTVQ0QlJnYnpaYVh3SlBqa2duZEVSdXU5YlFhVk1uRWpCcEd1b2Z4YW9kWkRVQk9TOFh6TWxTZE9LUl9pbGR1TVhWaVJlU0JmRVA2b21C?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 07:51:44 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[네이버·두나무 빅딜] '공정위·투자자·입법' 삼중 변수 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNGxVTm9Vc2hnQk1RNVZURGcxd3ZaekRURC0wT242ZGpQMGJueGxfRHEyUkdYUXBIYnVqaVlxZG1xZ1EwVVpWeDNReC0tNW41UHlYQjVSazVlUHdTUENKdkZUTnFaMEZEV2wtMdIBbEFVX3lxTE1LNGxVTm9Vc2hnQk1RNVZURGcxd3ZaekRURC0wT242ZGpQMGJueGxfRHEyUkdYUXBIYnVqaVlxZG1xZ1EwVVpWeDNReC0tNW41UHlYQjVSazVlUHdTUENKdkZUTnFaMEZEV2wtMQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:24:43 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "아톤, 빗썸에 양자내성암호 보안 솔루션 공급 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93eFd0YWNiWm12czNFR252RGdGV3NYQ09YQVFXVkRTN1F1LUR5aXRESGtoS0ltV3FrbmNYcUJnRDZQNENpWU1QNGVLeG9hVk0?oc=5",
+          "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "코빗에 이어 빗썸까지, 증권사가 주목하는 이유 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CRGZGX00zREZMNHJmTmJ6ZGMwLUp3Zm5OLUhJV3lpMEpuOFNUU1pTX0dJUEI5S29YbE5NLWZ4TmxQOWUwTTFZbjR3SG40bVU?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "코인판 금융실명제 준비 나서는 빗썸·코인원·코빗 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yR3k4YXRLNEZjWWNwTjRWa3REQzBjT0ZTZGRtVWxTYUprSEdkb0dScHNnbkNFRmI1MmRFMlc3TTUxSFliSTZ4YWhDdnFaNkU?oc=5",
+          "pub_date": "Fri, 25 Feb 2022 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+          "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+          "link": "https://blog.naver.com/magicpaul7/224204238038",
+          "pub_date": "20260304"
+        },
+        {
+          "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+          "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+          "link": "https://blog.naver.com/serohero/224199063326",
+          "pub_date": "20260228"
+        },
+        {
+          "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+          "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+          "link": "https://blog.naver.com/jobpass_/224197697044",
+          "pub_date": "20260227"
+        },
+        {
+          "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+          "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+          "link": "https://blog.naver.com/study_edu_/224193834977",
+          "pub_date": "20260224"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        },
+        {
+          "title": "제주항공 채용 승무원 큐피드",
+          "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+          "link": "http://cafe.naver.com/sheiszzz/1214780",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.626857142857143,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "성장",
+        "수평",
+        "워라밸",
+        "장점",
+        "좋아",
+        "좋은",
+        "최고"
+      ],
+      "negative_themes": [
+        "단점",
+        "야근"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "(주)빗썸 2026년 기업정보 | 기업리뷰 286건, 3.1 리뷰평점",
+          "description": "(주)빗썸 기업정보 - 장단점 키워드: 시간, 자유, 지급 | 기업리뷰: 충분한 고민없이 입사하기엔 너무 위험한 회사 .. 징계/ 짤릴 위험 매우 높음 | (주)빗썸의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 ...",
+          "url": "https://www.jobplanet.co.kr/companies/352810/reviews/%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "(주)빗썸코리아 2025년 기업정보 | 166건 면접후기 2.9 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 2.9, 면접경로: 온라인 지원 66%, 면접경험: 긍정적 40%, 부정적 16%, 면접결과: <strong>합격 45%, 불합격 33%, 대기중 22%</strong> | 잡플래닛에 등록된 166건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/352810/interviews/%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "혼돈 속의 유니콘 빗썸코리아…숙제는?",
+          "description": "리뷰로 본 빗썸코리아는 &#x27;<strong>ENFJ</strong>&#x27;…&quot;틀에 박힌 역할은 거부한다&quot; 잡플래닛 리뷰를 통해 본 빗썸코리아의 MBTI는 유니콘 기업들에서 많이 보인다는 &#x27;<strong>ENFJ</strong>&#x27;로 나타났어요.",
+          "url": "https://contents.premium.naver.com/jobplanet/companytimes/contents/220518102725482Gp"
+        },
+        {
+          "source": "brave",
+          "title": "(주)빗썸 2026년 기업정보 | 179건 면접후기 2.9 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 2.9, 면접경로: 온라인 지원 66%, 면접경험: 긍정적 41%, 부정적 16%, 면접결과: <strong>합격 44%, 불합격 33%, 대기중 23%</strong> | 잡플래닛에 등록된 179건 면접후기를 지금 바로 ...",
+          "url": "https://www.jobplanet.co.kr/companies/352810/interviews/%EB%B9%97%EC%8D%B8"
+        },
+        {
+          "source": "brave",
+          "title": "빗썸 2026년 상반기 315건 프리미엄 기업리뷰",
+          "description": "빗썸의 전/현직원이 전하는 생생한 기업정보! 직무와 커리어 53개, 업무 방식 53개, 기업 문화 53개, 일과 삶의 균형 52개, 복지 및 급여 52개, 기업 만족도 52개 | 잡플닛에서 더 많은 기업분석을 지금 바로 확인하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/352810/premium_reviews/%EB%B9%97%EC%8D%B8"
+        },
+        {
+          "source": "brave",
+          "title": "빗썸코리아 2025년 기업정보 | 86건의 복지정보 0 전체 복지 통계 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/352810/benefits/%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "(주)빗썸코리아 2023년 기업정보 | 기업리뷰 196건, 연봉정보 85건, 면접후기 83건, 복지정보 1건, 채용공고 0건 | 잡플래닛",
+          "description": "잡플래닛에서 이직하면 무조건 축하금 200만원! 채용공고 보기 ... 요즘 대세 워라밸 탄탄한 비즈니스 만족스런 문화 복지 끝판왕 수평적인 문화 능력있는 동료 인생 최고 동료 주 4.5일 꿀근무 직원 존중은 기본 분위기 좋아요 최고의 연봉·보상 ... 세상의 모든 가치가 거래되는 곳, 대한민국 대표 가상자산 거래소 빗썸에서 함께 성장할 동료를 찾고 있습니다.",
+          "url": "https://www.jobplanet.co.kr/companies/352810/landing/%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "(주)빗썸코리아 2026년 기업정보 | 135건 연봉정보, 5,413만원 평균연봉",
+          "description": "잡플래닛 데이터 중 &#x27;5년 내&#x27; 등록된 정규직 데이터만을 사용합니다. 과거 데이터는 현재 물가 상승률에 맞게 가공하여 정확도를 상승 시킵니다. 연봉정보 작성하고 전체보기멤버십 가입하고 전체보기제휴 대학 확인하고 전체보기 · 선택한 직종의 업계 평균 연봉은 ???만원입니다. (주)빗썸코리아은(는) 해당 업계에서 상위???%에 해당하는 연봉을 제공하고 있습니다.",
+          "url": "https://www.jobplanet.co.kr/companies/352810/salaries/%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "(주)빗썸라이브 2026년 기업정보 | 기업리뷰 46건, 2.7 리뷰평점",
+          "description": "(주)빗썸라이브 기업정보 - 장단점 키워드: 소통, 수평적, 실력 | 기업리뷰: 자유로운 업무 분위기와 젊은 마인드를 가진 회사 | (주)빗썸라이브의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 ...",
+          "url": "https://www.jobplanet.co.kr/companies/386842/reviews/%EB%B9%97%EC%8D%B8%EB%9D%BC%EC%9D%B4%EB%B8%8C"
+        },
+        {
+          "source": "brave",
+          "title": "(주)빗썸 2026년 기업정보 | 142건 연봉정보, 5,439만원 평균연봉",
+          "description": "(주)빗썸 연차별 예상 연봉 - 7년차: 5,578만원, 8년차: 5,720만원 | 등록된 연봉정보 142건, 최고연봉 7,054만원, <strong>평균연봉 5,439만원</strong>. 지금 잡플래닛에서 내 연봉과 비교해 보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/352810/salaries/%EB%B9%97%EC%8D%B8"
+        },
+        {
+          "source": "naver",
+          "title": "연봉 2억 주는 곳 어디? 두나무 vs 빗썸코리아 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스",
+          "description": "국내 2대 가상자산 거래소인 업비트와 빗썸. 각각 두나무와 빗썸코리아가 운영하고 있습니다. 가상자산 산업은 정부 정책이나 시장 흐름에 따라 환경이 크게 달라지는 만큼, 지원 전 회사의 동향을 꼼꼼히 살펴보는 게 중요한데요. 이번 글에서는 실적, 잡플래닛 평점, 연봉까지 한눈에 비교해 봤습니다. 과연, 일하기엔 어디가 더 괜찮을까요?",
+          "url": "https://www.jobplanet.co.kr/contents/news-7751/%EC%97%B0%EB%B4%89-2%EC%96%B5-%EC%A3%BC%EB%8A%94-%EA%B3%B3-%EC%96%B4%EB%94%94-%EB%91%90%EB%82%98%EB%AC%B4-vs-%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "(주)빗썸 2026년 기업정보 | 기업리뷰 286건, 3.1 리뷰평점",
+          "description": "장점 ; 사실상 마케팅으로 여기까지 성장한 회사라 기업 홍보가 잘되어 있음 몇몇 사람들은 회사에 대해서 알만큼 알아서 지원을 안하거나 면접이나 연협에서 깜짝 놀라서 다 도망감 &gt; 작은 회사 출신들이 지원해봄직 함. 원한다면 (간신히) 대기업 타이틀 받기 좋음. 실무보다는 정치에 자신있다면 본인한텐 꽤 괜찮은 회사일수도 있음. 단점",
+          "url": "https://www.jobplanet.co.kr/companies/352810/reviews/%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 4점 이상이면 '신의 직장?'",
+          "description": "흔히 돌아다니는 잡플래닛 평점 요약본은 이렇습니다. 그렇다면 트레드링스는 어떨까요? 네, 사실 이거 보여드리려고 앞에 말이 길었습니다. 자랑 좀 하자면 트레드링스의 전체 평점은 무려 4.4, 인터넷 커뮤니티...",
+          "url": "https://blog.naver.com/tradlinx0522/223030333425"
+        },
+        {
+          "source": "naver",
+          "title": "(주)빗썸 2026년 기업정보 | 177건 면접후기 2.9 면접난이도",
+          "description": "(주)빗썸의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 2.9, 면접경로: 온라인 지원 65%, 면접경험: 긍정적 41%, 부정적 16%, 면접결과: 합격 44%, 불합격 33%, 대기중 23% | 잡플래닛에 등록된 177건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/352810/interviews/%EB%B9%97%EC%8D%B8"
+        },
+        {
+          "source": "naver",
+          "title": "빗썸 2026년 기업정보 | 126건의 복지정보 0 전체 복지 통계",
+          "description": "빗썸의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 126건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/352810/benefits/%EB%B9%97%EC%8D%B8"
+        },
+        {
+          "source": "naver",
+          "title": "빗썸 2026년 기업정보 | 122건의 복지정보 0 전체 복지 통계",
+          "description": "빗썸의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 122건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/352810/benefits/%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "재미로 보는 LCK 구단별 잡플래닛 평점 - 롤: 리그 오브 레전드",
+          "description": "디플러스기아 티원 OK브리온 젠지 케이티 디알엑스 한화,샌박,프릭스,케이티는 모기업 소속 부서단위인듯해서 따로 없고 (한화이글스는 자회사단위인듯하나 이스포츠는 아직인듯) 농심은 농심이스포츠 별도회사...",
+          "url": "https://www.fmkorea.com/6149357481"
+        },
+        {
+          "source": "naver",
+          "title": "(주)빗썸메타 2026년 기업정보 | 기업리뷰 18건, 3.0 리뷰평점",
+          "description": "장점 : 식대 지원, 야근수당지원, 야근시 택시비 지원 등 스낵바도 있고 다양한 복지 제공, 단점 : 부실한 기업구조, 모회사 빗썸에 의지하는 구조인데 의지하다 망함",
+          "url": "https://www.jobplanet.co.kr/companies/401278/reviews/%EB%B9%97%EC%8D%B8%EB%A9%94%ED%83%80"
+        },
+        {
+          "source": "naver",
+          "title": "빗썸시스템즈 2025년 기업정보 | 3건의 복지정보 0 전체 복지 통계",
+          "description": "빗썸시스템즈의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 3건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/397897/benefits/%EB%B9%97%EC%8D%B8%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%A6%88"
+        },
+        {
+          "source": "naver",
+          "title": "빗썸메타 2026년 기업정보 | 20건의 복지정보 0 전체 복지 통계",
+          "description": "빗썸메타의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 20건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/401278/benefits/%EB%B9%97%EC%8D%B8%EB%A9%94%ED%83%80"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "Recruitment Guide - Bithumb.com - Comprehensive Financial Platform",
+          "url": "https://bithumbcorp.com/en/recruit/hr.php",
+          "text": "Bithumb.com - Comprehensive Financial Platform\n\n본문 바로가기\n\n## 전체메뉴\n\nBITHUMB\n\n- Location\n- Financial Report\n- History\n- Ethics Management\n- Vision · Mission\n- [Bithumb](https://bithumbcorp.com/en/company/a",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "주식회사 빗썸 채용 - [빗썸] Back End - 거래 플랫폼 개발 (7년 이상) | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47045395",
+          "text": "주식회사 빗썸 채용 - [빗썸] Back End - 거래 플랫폼 개발 (7년 이상) | 잡코리아\n\n## 주식회사 빗썸\n\n# [빗썸] Back End - 거래 플랫폼 개발 (7년 이상)\n\n상세요강접수기간∙방법기업정보\n\n채용정보에 잘못된 내용이 있을 경우 문의해주세요.\n\n모집요강\n\n모집분야\n\nBack End 개발\n\n모집인원○명\n\n고용형태\n\n정규직(수습 3개월)\n\n급여회사 내규에 따름\n\n근무시간\n\n- 09:30 ~ 18:30\n- 주5일(월~금)\n\n근무지주소\n\n서울 강남구 테헤란로 124 (역삼동, 삼원타워) 15~17F지도보기\n\n인근지하철\n\n지원자격\n\n경력\n\n경력(7년이상)\n\n학력\n\n학력무관\n\nTOP\n\n궁금해요",
+          "score": 0,
+          "published_date": "2025-05-28T00:00:00.000Z"
+        },
+        {
+          "title": "[인턴] 인사운영지원 (3개월) | 빗썸",
+          "url": "https://bithumbcorp.ninehire.site/job_posting/GwWxUJdU",
+          "text": "[인턴] 인사운영지원 (3개월) | 빗썸\n\n# [인턴] 인사운영지원 (3개월) | 빗썸\n\n## [인턴] 인사운영지원 (3개월) | 빗썸\n\n## 빗썸 본사 | 신입 | 빗썸 본사\n\n### 세상의 모든 가치가 거래되는 곳, 대한민국 대표 가상자산 거래소 빗썸에서 함께 성장할 동료를 찾고 있습니다. 빗썸은 매일 100만명이 방문하고 하루 평균 약 2조 2천억원에 달하는 가상자산이 거래되는, 그리고 월렛(Wallet)과 대체불가능토큰(Non-Fung\n\n# [인턴] 인사운영지원 (3개월)\n\n빗썸 본사\n\n신입\n\n인턴 · 계약직\n\n빗썸 본사\n\n지원 마감\n\n지원 마감\n\n세상의 모든 가치가 거래되는 곳,\n\n대한민국 대표 가상자산 거래소 빗썸에서 함께 성장할 동료를 찾고 있습니다.\n\n빗썸은 매일 100만명이 방문하고 하루 평균 약 2조 2천억원에 달하는 가상자산이 거래되는, 그리고 월렛(Wallet)과 대체불가능토큰(Non-Fungible Token, NFT), 메타버스(Metaverse) 등의 기술",
+          "score": 0,
+          "published_date": "2025-09-05T00:00:00.000Z"
+        },
+        {
+          "title": "A Historic Shift for South Korea's Cryptocurrency Exchange Workforce",
+          "url": "https://cryptorank.io/news/feed/a4c1e-bithumb-labor-union-south-korea",
+          "text": "Bithumb Labor Union: A Historic Shift for South Korea’s Cryptocurrency Exchange Workforce\n\nCurrencies37103\n\nMarket Cap$ 2.63T+4.41%\n\n24h Spot Volume$ 60.99B+108.2%\n\nDominance BTC56.47%-1.04% ETH10.80%+5.68%\n\nETH Gas0.18 Gwei\n\nCoins\n\nTop 100 CoinsTop 100 cryptocurrencies by market capitalization\n\nTrending CryptosTrending Coins and Tokens\n\n",
+          "score": 0,
+          "published_date": "2026-03-11T00:00:00.000Z"
+        },
+        {
+          "title": "Police Raid Bithumb in Kim Byung-kee Son Employment Probe",
+          "url": "https://www.chosun.com/english/national-en/2026/02/24/YNMIBJMFQBHLDNCT4KERMGWX7A/",
+          "text": "Police Raid Bithumb in Kim Byung-kee Son Employment Probe\n\nPolice Raid Bithumb in Kim Byung-kee Son Employment Probe",
+          "score": 0,
+          "published_date": "2026-02-24T00:00:00.000Z"
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "AI 프로젝트 600개 2030년까지의 혁신 비전!",
+          "description": "AI와 데이터 기반 산업 혁신의 새로운 방향 ; 정부는 인공지능(AI)과 데이터를 활용하여 산업기술 혁신을 가속화하고 있습니다. 앞으로 2030년까지 600개의 프로젝트를 통해 AI 기술을 적용한 혁신 사례를 만들어 가기를 목표로 하고 있습니다. 이러한 전략은 산업 현장에서 AI의 역할이 점점 중요해진다는 것을 반영하며, 조기에 투자와 연구개발을 통해 기술 경쟁력을 높이고자 합니...",
+          "link": "https://mbalance.co.kr/1085",
+          "pub_date": ""
+        },
+        {
+          "title": "KT클라우드, ‘AICT 기업’ 전략 핵심 “AI MSP 서비스로 진화”",
+          "description": "기업’ 비전에 따른 전략을 발표했다. 사진은 최지웅 KT클라우드 대표가 ‘클라우드와 IDC를 통한 AX... 최 대표가 전한 올해 사업 방향은 △AI: 서비스 라인업 강화 △클라우드: 서비스 모델 확대 △IDC: AI 중심...",
+          "link": "https://www.sisaweek.com/news/articleView.html?idxno=214229",
+          "pub_date": ""
+        },
+        {
+          "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+          "pub_date": ""
+        },
+        {
+          "title": "테이블매니저, 이재근 전 빗썸코리아 CTO 영입",
+          "description": "기반인 AI를 더욱 고도화하고 이끌 조직의 리더로서 개발 업무... 지원방향을 잡는 역할로서 업무를 담당한다. 여기에 이 CTO의 블록체인... 사업 비전에 깊은 공감대가 이뤄져 합류하게 됐다”며 “빗썸에서 쌓은...",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=224392",
+          "pub_date": ""
+        },
+        {
+          "title": "미래는 생성된다... GTC서 젠슨 황의 5년 비전을 보다",
+          "description": "엔비디아가 스스로 실수를 하지 않는다면 당분간 후발 사업자의 추격이 '불가능'한 수준이 됐다는... 그리는 비전을 알 수 있었습니다. 앞으로 방향은 3가지 인데요. 바로 AI, 옴니버스(시뮬레이션), 로봇’...",
+          "link": "https://contents.premium.naver.com/themiilk/business/contents/240322203155620ni",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;정부가 GPU 지원...업계 숙원 이뤄진다&quot; 국가AI위원회 공식 출범",
+          "description": "혁신 비전을 담은 '국가 AI전략 정책방향'을 발표했다. 윤석열 대통령이 26일 열린 1차 국가AI위원회... 또한 글로벌 AI 프론티어랩 등 세계적 AI 국제 공동연구 플랫폼 구축으로 글로벌 AI 협력 사업을 적극...",
+          "link": "https://www.ddaily.co.kr/page/view/2024092613252951629",
+          "pub_date": ""
+        },
+        {
+          "title": "SK텔레콤 유영상 CEO, AI 사업 전략과 본원적 경쟁력 강화(OI) 방안 구성원들에게 공유",
+          "description": "- 25일, 글로벌 AI컴퍼니 추진 성과 공유 및 비전 달성 위한 ‘AI &amp; OI(Operation Improvement ; 본원적 경쟁력 강화)” 주제 구성원 타운홀 개최 - 지난 3년간 AI 밸류체인 全 영역에서 AI 컴퍼니 구체적 성과 및 노하우 체득 - OI 통해 지속 가능한 AI 성과 위한 단단한 체력 비축 - “회사의 성장과 구성원의 행복이 선순환 하는 글로벌 AI컴퍼니로 도약” SK텔레콤(www.sktelecom.com) 유영상 CEO가 25일...",
+          "link": "https://m.ruliweb.com/news/etc/read/199691",
+          "pub_date": ""
+        },
+        {
+          "title": "인공지능전략위 출범, 대한민국 AI 액션플랜 ‘밑그림’",
+          "description": "‘국가인공지능전략위원회 운영세칙 제정안’을 논의했다. 특히 대한민국 AI 액션플랜 추진방향은 정부의 AI 3대 강국 도약 비전 달성을 위해 AI 혁신 생태계 조성, 범국가 AI기반 대전환, 글로벌 AI 기본사회...",
+          "link": "https://www.koit.co.kr/news/articleView.html?idxno=201930",
+          "pub_date": ""
+        },
+        {
+          "title": "“AI 동맹, 풀스택 전략, 보안 시스템 강화&quot;...삼성SDS, 미래 비전 공개",
+          "description": "삼성SDS가 11일 주최한 ‘리얼 서밋 2025’ 기조 강연 후, 이준희 대표(사장), 이호준 부사장(클라우드 사업부장), 송해구 부사장(솔루션 사업부장)이 참석한 프레스 Q&amp;A에서 삼성SDS의 글로벌 AI 동맹과 디지털 전환 전략에 대한 비전이 공개됐다.이들은 삼성SDS의 AI 동맹 성과와 향후 시장 공략 방향에 대해 설명하며...",
+          "link": "http://www.popcornnews.net/news/articleView.html?idxno=93722",
+          "pub_date": ""
+        },
+        {
+          "title": "인터엑스, 29일 AI 자율제조 신기술 공개...AMS 2024서 비전 제시",
+          "description": "인터엑스가 인공지능(AI) 자율제조의 최신 기술과 글로벌 협력 방향을 제시한다. AI 자율제조의... 혁신 전략 △자율제조 가속화를 위한 비전과 엣지 AI 등을 주제로 각 산업 분야에서의 인사이트 및...",
+          "link": "https://www.etnews.com/20241018000085",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "빗썸의 조용한 반격 AI 적립식투자로 투자자 불안 심리 잡는다 < IT/스타트업 < IT < 기사본문 - ER 이코노믹리뷰",
+          "url": "https://www.econovill.com/news/articleView.html?idxno=699470",
+          "text": "빗썸의 조용한 반격 AI 적립식투자로 투자자 불안 심리 잡는다 -- -- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-35318383-1', 'auto'); ga('send', 'pageview'); -- (function(){adtive_targetpush_ad.start('OA444448','ILLLLLLF')}(document)) --\n\n##",
+          "score": 0,
+          "published_date": "2025-06-12T00:00:00.000Z"
+        },
+        {
+          "title": "빗썸이 전망한 2026년 가상화폐 시장은 < IT&블록체인 < 뉴스 < 기사본문 - 경향게임스",
+          "url": "https://www.khgames.co.kr/news/articleView.html?idxno=248105",
+          "text": "빗썸이 전망한 2026년 가상화폐 시장은 -- 에 삽입하세요 --\n\nvar ___BANNER = \"ban_1751346402832\";250701_(우)블리자드(200x300)--\n\n이전 기사보기 다음 기사보기\n\n빗썸이 전망한 2026년 가상화폐 시장은\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n오는 2026년 가상화폐 업계의 숙원이었던 산업 대중화가 스테이블코인을 통해 이뤄질 것으로 보인다는 분석이다. 업계에서는 오는 2026년 인공지능(AI)과 가상화폐 생태계 결합이 실질적으로 추진될 가능성이 크다는 의견이 나오기도 했다.\n\n빗썸 가상화폐 거래소 분석진은 ‘위클리 리포트’ 보고서를 통해 오는 2026년 시장 트렌드로 ‘인공지능과 가상화폐 시장 결합’을 꼽았다. 오는 2026년 스테이블코인 생태계 확장과 함께 인터넷 결제 프로토콜이 상용화되며 ‘인공지능 에이전트’ 활동이 본격화될 수 있",
+          "score": 0,
+          "published_date": "2025-12-25T00:00:00.000Z"
+        },
+        {
+          "title": "'코인 깜깜이 투자'는 끝? 빗썸이 AI 예측 서비스를 꺼내든 진짜 이유 < IT/스타트업 < IT < 기사본문 - ER 이코노믹리뷰",
+          "url": "https://www.econovill.com/news/articleView.html?idxno=700158",
+          "text": "'코인 깜깜이 투자'는 끝? 빗썸이 AI 예측 서비스를 꺼내든 진짜 이유 -- -- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-35318383-1', 'auto'); ga('send', 'pageview'); -- (function(){adtive_targetpush_ad.start('OA444448','ILLLLLLF')}(document)) ",
+          "score": 0,
+          "published_date": "2025-06-17T00:00:00.000Z"
+        },
+        {
+          "title": "빗썸, 상승 가능성 높은 종목 예측 ‘상승신호’ 서비스 출시 < 증권 < 기사본문 - 서울와이어",
+          "url": "http://www.seoulwire.com/news/articleView.html?idxno=656426",
+          "text": "빗썸, 상승 가능성 높은 종목 예측 ‘상승신호’ 서비스 출시 -- -- --\n\n- 광고문의\n- 제휴\n- 제보\n\n- 회원가입\n- 로그인\n\n발행일: 2026-02-20 10:44 (금)\n\n이전 기사보기 다음 기사보기\n\n빗썸, 상승 가능성 높은 종목 예측 ‘상승신호’ 서비스 출시\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n증권\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n빗썸이 투자 타이밍을 놓치지 않도록 돕기 위한 신규 정보 알림 서비스를 선보였다. ",
+          "score": 0,
+          "published_date": "2025-06-18T00:00:00.000Z"
+        },
+        {
+          "title": "빗썸의 성장과 혁신: 2025년 이후의 전망 - Trendiumo",
+          "url": "https://trendiumo.com/3272/",
+          "text": "빗썸의 성장과 혁신: 2025년 이후의 전망 - Trendiumo\n\n- インド\n- タイ\n- フランス\n- 韓国\n- アメリカ\n- 日本\n- 世界\n\n- インド\n- タイ",
+          "score": 0,
+          "published_date": "2025-07-17T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Korea Probes Crypto Exchange Over $40 Billion in ‘Ghost Bitcoin’ - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOUNNMDUtOE1mUnR5T2NJNzVydFNFeVVhX05TdlBMbUxOT2gyMzRtdjg5U2dYVGw4TVRjLTJ0NjVuemZLdWNrSzR6V0x1Q2J3Qk9aV1VRSnhQellrU1NoSGVIRGxwTEdET3R2MnMtQTV6Tkg3UXVJbmJfZVNYc0Zmck8zVGJnWDd4dEpTSFYzOVdoQUxnYjh0ajlSdXBveTFnd0dmMldrZVNsU2lRZU5EZzZQQm9XbURsM1BWRXp3bVlQZEo4TFpF?oc=5",
+          "pub_date": "Mon, 09 Feb 2026 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Crypto Exchange to Reimburse Some Users After $40 Billion Error - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXJrNFpUX2lZZjlIUkJtYlpxb3c2dngtYWJhUDYyYkRNRnR6MXFfSER4eVZ3Y2hxRXROc2pfZlU3b1pGd0VRTVljSDN2WklXV1ZuRlk0X3RaaDlYOXY1UHdlQ3pPb1JIcG9EVm1QWXNyTVNFQ3NSN05ITWRJN3l3MWxXUDJ6aVgtOTVuVFpWRjF6R1ZFQTN1ZGZFamZFakFNd3BJZXFQdkhBUThrUGtJMlVjTQ?oc=5",
+          "pub_date": "Sat, 07 Feb 2026 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Lawmakers Grill Crypto Exchange Over $40 Billion ‘Ghost Bitcoin’ - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUEhObmRiUUJDN2pQRGc2ODZWbGRJX0NxeGZ6cWZsY1B4aGc1d3pUYkpIWXBnNG9XSHE3YnEwWFBaTFMwTDl4ZGp4QW9UWUlQZEVDc3BfU1JsNEYzZ0ZzYmxBX211ZFpCcTFndzYtT3huTHFsNFVVSDAwOFUyX3k2Rkh3WUo4RG95bU5UX0ljT2ItbUxPcXl0OHI3MHQ3VFpXTUNVUGt0bE5vNzdEazJ3Z0xR?oc=5",
+          "pub_date": "Tue, 10 Feb 2026 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Korean crypto exchange Bithumb says it lost over $30M following a hack - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRXVxcWJZSTRDclhSVDRybEQxLVZhSDJlb3hOMmRobnlpeXExaTY1WEVaZFZJMUVBS21zVEZqVzJ3Y3prR2t6aUNYVUJfdUYzd3k0N1pxWXl1dkc3VmFsM2xkX2NRTHc5a0x6bUJ5LWVHdFl3UlZIcnhiUmpZS2ZRdmhIV0prRVVkVXNZV045djBtNHBaX2R1UGZEMmgzMklnLXB5VWszdw?oc=5",
+          "pub_date": "Tue, 19 Jun 2018 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "South Korea politicians raise concerns over crypto brain drain - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hN1VSZTA2X0M0aFV2N29mTV84NHhHbDZ6bTFjM1ZTaU1INDFraGNsSXVKWGZVRk04am9yTXdBZ01DZjBlZmxFd3lvZE9TbVZ5QWl1aVAtNDNuS0tlSjBoY0FwcC1lNEJ1eHFQNEwtaFk?oc=5",
+          "pub_date": "Sun, 19 Dec 2021 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "South Korea's 'kimchi coins' feel heat as crypto rules tighten - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVE1PMmxpYjY2aENKbWJOVi1oMDUyNU9lZ3ZpcFZBdU9lbmJPTVNrUHU4R19kQnNnWnJteEJCT3hadFpwRTRfczZhV2JfVHlKc0VFaW1mNTNpQmlyazVRV1E1NWl0cy1YNGZUTl9TTE1rUURLMloyenp1N3R6NUxOcFN6cXN2SjdTUmJraWNCcnFjZDFCdVZUTE1fNktrczdIdVpQTmVXYzZPOW9TNDRmMg?oc=5",
+          "pub_date": "Wed, 30 Jun 2021 07:00:00 GMT",
+          "source": "Nikkei Asia"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "GitHub - Bithumb-Tech-Camp/Bithumb-Project: 빗썸 테크 캠프 iOS 코스 1기",
+          "url": "https://github.com/Bithumb-Tech-Camp/Bithumb-Project",
+          "text": "GitHub - Bithumb-Tech-Camp/Bithumb-Project: 빗썸 테크 캠프 iOS 코스 1기\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n",
+          "score": 0,
+          "published_date": "2022-02-22T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - HoonHaChoi/Bithumb_Market: 빗썸 테크 캠프 iOS",
+          "url": "https://github.com/HoonHaChoi/Bithumb_Market",
+          "text": "GitHub - HoonHaChoi/Bithumb\\_Market: 빗썸 테크 캠프 iOS\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe read every piece",
+          "score": 0,
+          "published_date": "2022-02-23T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - shapiro711/Bithumb_ShaCo: 빗썸 iOS 아카데미 프로젝트",
+          "url": "https://github.com/shapiro711/Bithumb_ShaCo",
+          "text": "GitHub - shapiro711/Bithumb\\_ShaCo: 빗썸 iOS 아카데미 프로젝트\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe read every pie",
+          "score": 0,
+          "published_date": "2022-01-12T00:00:00.000Z"
+        },
+        {
+          "title": "빗썸 API 쉬운 사용법 - 잔고조회부터 주문까지 상세 설명",
+          "url": "https://richinfohub.com/%eb%b9%97%ec%8d%b8-api-%ec%82%ac%ec%9a%a9%eb%b2%95/",
+          "text": "빗썸 API 쉬운 사용법 - 잔고조회부터 주문까지 상세 설명\n\n빗썸-API\n\n빗썸 API를 활용하면 가상자산 거래를 자동화할 수 있습니다. 이 포스팅에서는 파이썬을 이용해 빗썸 API에 연결하고, 계좌 잔고 확인, 실제 거래 수행 등을 하는 방법을 알아봅니다. API키만 있다면 누구나 쉽게 따라할 수 있게 실제 예제 코드와 함께 설명해드립니다.\n\n이 포스팅에서는 빗썸 API 쉬운 사용법을 알아보았습니다.\n\n목차\n\nToggle\n\n## 인증키 발급\n\nAPI를 사용하기 위해 먼저 인증키를 준비해야 합니다. 빗썸 홈페이지에서 API 키(Connect Key)와 시크릿 키(Secret Key)를 발급 받습니다. 이는 API 사용을 위한 필수 인증 수단입니다. 보안을 위해 API 키는 절대로 타인과 공유해서는 안 되며, 안전하게 보관해야 합니다. 하지만 단순히 시세 조회 목적이라면 API KEY를 발급 받지 않아도 이용할 수 있습니다.\n\n[빗썸 API 소개 페이지](https://apidocs",
+          "score": 0,
+          "published_date": "2024-12-15T00:00:00.000Z"
+        },
+        {
+          "title": "빗썸 API Docs 업데이트 안내 (24/09/12)",
+          "url": "https://apidocs.bithumb.com/changelog/%EB%B9%97%EC%8D%B8-api-docs-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%95%88%EB%82%B4-240912",
+          "text": "빗썸 API Docs 업데이트 안내 (24/09/12)\n\nBack to All\n\n안녕하세요. No.1 가상자산 플랫폼, 빗썸입니다.\n\n아래와 같이 Beta 버전 v2.1.1에 Public Websocket 추가된 항목을 안내드립니다. API를 사용하시는 고객님께서는 아래 내용을 확인하여 주시기 바랍니다.\n\n- orderbook : 호가\n- trade : 체결\n- ticker : 현재가\n\n자세한 내용은 API 레퍼런스에서 확인 가능합니다.\n\n적용 일시 : 2024년 09월 12일(목) 오후 5시 00분 (KST)\n\n빗썸은 고객님의 더욱 편리하고 안전한 거래를 위해 최선의 서비스를 제공할 수 있도록 노력하겠습니다.\n\n감사합니다.",
+          "score": 0,
+          "published_date": "2025-03-01T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 76.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "12 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01214044"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=빗썸"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=빗썸+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EB%B9%97%EC%8D%B8"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=빗썸 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=빗썸 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=빗썸 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=빗썸 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EB%B9%97%EC%8D%B8"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
+}

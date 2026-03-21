@@ -62,6 +62,10 @@ class MarkdownRenderer:
             int(k): v for k, v in sections.items()
         }
 
+        # Normalize raw source data into template-ready format
+        from hirekit.engine.data_normalizer import normalize_sections
+        sections = normalize_sections(sections)
+
         context = {
             "company": data.get("company", ""),
             "region": data.get("region", ""),
