@@ -236,7 +236,7 @@ class CompanyAnalyzer:
         self._score_from_data(report)
 
         # 6. LLM enhancement (if available)
-        if self.llm.is_available() and not isinstance(self.llm, NoLLM):
+        if self.llm.is_available():
             self._enhance_with_llm(report)
 
         return report

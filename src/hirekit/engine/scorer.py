@@ -32,16 +32,8 @@ class Scorecard:
     @property
     def grade(self) -> str:
         """Letter grade from total score."""
-        s = self.total_score
-        if s >= 80:
-            return "S"
-        if s >= 65:
-            return "A"
-        if s >= 50:
-            return "B"
-        if s >= 35:
-            return "C"
-        return "D"
+        from hirekit.core.scoring import score_to_grade
+        return score_to_grade(self.total_score)
 
     def summary(self) -> str:
         """One-line summary for terminal output."""

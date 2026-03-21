@@ -25,15 +25,8 @@ class ResumeFeedback:
 
     @property
     def grade(self) -> str:
-        if self.overall_score >= 80:
-            return "S"
-        if self.overall_score >= 65:
-            return "A"
-        if self.overall_score >= 50:
-            return "B"
-        if self.overall_score >= 35:
-            return "C"
-        return "D"
+        from hirekit.core.scoring import score_to_grade
+        return score_to_grade(self.overall_score)
 
     def to_markdown(self) -> str:
         lines = [
@@ -139,7 +132,7 @@ class ResumeAdvisor:
             self._check_keyword_match(resume_text, jd_text, feedback)
 
         # LLM-enhanced review
-        if self.llm.is_available() and not isinstance(self.llm, NoLLM):
+        if self.llm.is_available():
             self._llm_review(resume_text, jd_text, profile, feedback)
 
         # Calculate overall score

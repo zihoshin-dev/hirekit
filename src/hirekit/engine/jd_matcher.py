@@ -48,15 +48,8 @@ class JDAnalysis:
 
     @property
     def match_grade(self) -> str:
-        if self.match_score >= 80:
-            return "S"
-        if self.match_score >= 65:
-            return "A"
-        if self.match_score >= 50:
-            return "B"
-        if self.match_score >= 35:
-            return "C"
-        return "D"
+        from hirekit.core.scoring import score_to_grade
+        return score_to_grade(self.match_score)
 
     def to_markdown(self) -> str:
         lines = [
@@ -154,7 +147,7 @@ class JDMatcher:
             self._match_profile(analysis, profile)
 
         # 4. Generate strategy (LLM)
-        if self.llm.is_available() and not isinstance(self.llm, NoLLM):
+        if self.llm.is_available():
             self._generate_strategy(analysis, profile)
 
         return analysis
@@ -192,7 +185,7 @@ class JDMatcher:
             return
 
         # Use LLM for structured extraction if available
-        if self.llm.is_available() and not isinstance(self.llm, NoLLM):
+        if self.llm.is_available():
             self._llm_extract(analysis)
             return
 

@@ -106,26 +106,20 @@ class GitHubSource(BaseSource):
         size_score = min(20, len(active_repos) * 2)  # 10+ repos = 20
         star_score = min(20, total_stars // 50)  # 1000+ stars = 20
         diversity_score = min(20, len(unique_langs) * 4)  # 5+ languages = 20
+        from hirekit.core.scoring import current_year, score_to_grade
+
+        cur_year = str(current_year())
+        prev_year = str(current_year() - 1)
         activity_score = min(20, sum(1 for r in active_repos
-                                      if "2026" in r.get("updated_at", "")
-                                      or "2025" in r.get("updated_at", "")) * 4)
+                                      if cur_year in r.get("updated_at", "")
+                                      or prev_year in r.get("updated_at", "")) * 4)
 
         # Community score (repos with 100+ stars)
         popular = sum(1 for r in active_repos if r.get("stargazers_count", 0) >= 100)
         community_score = min(20, popular * 5)
 
         total = size_score + star_score + diversity_score + activity_score + community_score
-
-        if total >= 80:
-            grade = "S"
-        elif total >= 65:
-            grade = "A"
-        elif total >= 50:
-            grade = "B"
-        elif total >= 35:
-            grade = "C"
-        else:
-            grade = "D"
+        grade = score_to_grade(total)
 
         return {
             "org": org,

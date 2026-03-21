@@ -166,7 +166,7 @@ class InterviewPrep:
         ]
 
         # LLM-enhanced preparation
-        if self.llm.is_available() and not isinstance(self.llm, NoLLM):
+        if self.llm.is_available():
             self._enhance_with_llm(guide, report, profile)
         else:
             # Add default tips in no-LLM mode

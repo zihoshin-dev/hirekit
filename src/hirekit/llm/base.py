@@ -58,4 +58,4 @@ class NoLLM(BaseLLM):
         return LLMResponse(text="", model="none")
 
     def is_available(self) -> bool:
-        return True
+        return False
