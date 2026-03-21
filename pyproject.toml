@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "hirekit"
-version = "0.3.0"
+dynamic = ["version"]
 description = "AI-powered company analysis and interview preparation CLI for job seekers"
 readme = "README.md"
 license = {text = "MIT"}
@@ -53,7 +53,7 @@ dev = [
 ]
 
 [project.scripts]
-hirekit = "hirekit.cli.app:app"
+hirekit = "hirekit.__main__:main"
 
 [project.entry-points."hirekit.sources"]
 dart = "hirekit.sources.kr.dart:DartSource"
@@ -81,6 +81,9 @@ Homepage = "https://github.com/zihoshin-dev/hirekit"
 Documentation = "https://github.com/zihoshin-dev/hirekit/docs"
 Repository = "https://github.com/zihoshin-dev/hirekit"
 Issues = "https://github.com/zihoshin-dev/hirekit/issues"
+
+[tool.hatch.version]
+path = "src/hirekit/__init__.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/hirekit"]

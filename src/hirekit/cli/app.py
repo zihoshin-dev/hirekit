@@ -13,16 +13,19 @@ from rich.table import Table
 from hirekit import __version__
 from hirekit.core.config import DEFAULT_CONFIG_DIR, ensure_config_dir, load_config
 
-# Auto-load .env from project dir and ~/.hirekit/.env
-load_dotenv()
-load_dotenv(DEFAULT_CONFIG_DIR / ".env")
-
 app = typer.Typer(
     name="hirekit",
     help="AI 기반 기업 분석 및 면접 준비 CLI.",
     no_args_is_help=True,
 )
-console = Console()
+# stderr for human messages (status/progress), stdout for machine-parseable data
+console = Console(stderr=True)
+
+
+def _load_env() -> None:
+    """Load .env files — called at CLI invocation, not at import time."""
+    load_dotenv(DEFAULT_CONFIG_DIR / ".env")  # HireKit dedicated keys first
+    load_dotenv()  # CWD .env can override
 
 
 def version_callback(value: bool) -> None:
@@ -38,6 +41,7 @@ def main(
     ),
 ) -> None:
     """HireKit — 기업 조사, 공고 매칭, 면접 준비를 한 번에."""
+    _load_env()
 
 
 @app.command()
@@ -81,7 +85,8 @@ def analyze(
         console.print(report.to_rich())
     elif output == "json":
         import json
-        console.print(json.dumps(report.to_dict(), ensure_ascii=False, indent=2))
+        import sys
+        sys.stdout.write(json.dumps(report.to_dict(), ensure_ascii=False, indent=2) + "\n")
     else:
         out_path = Path(config.output.directory) / f"{company}_analysis.md"
         out_path.parent.mkdir(parents=True, exist_ok=True)

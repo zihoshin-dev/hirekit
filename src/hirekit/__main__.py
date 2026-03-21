@@ -1,5 +1,15 @@
 """Allow running HireKit via `python -m hirekit`."""
 
-from hirekit.cli.app import app
+import sys
 
-app()
+
+def main() -> None:
+    from hirekit.cli.app import app
+    try:
+        app()
+    except KeyboardInterrupt:
+        sys.exit(130)  # 128 + SIGINT(2)
+
+
+if __name__ == "__main__":
+    main()
