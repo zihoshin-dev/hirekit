@@ -158,12 +158,17 @@ class CompanyAnalyzer:
 
     def analyze(self, company: str, region: str = "kr", tier: int = 1) -> AnalysisReport:
         """Run full analysis pipeline for a company."""
-        # 1. Discover and filter sources
+        # 1. Discover and filter sources — use ALL available, not just enabled list
         SourceRegistry.discover_plugins()
         sources = SourceRegistry.get_available(region=region)
-        enabled = set(self.config.sources.enabled)
+        # Also include global sources regardless of region
+        if region != "global":
+            global_sources = SourceRegistry.get_available(region="global")
+            seen = {s.name for s in sources}
+            sources.extend(s for s in global_sources if s.name not in seen)
+
         disabled = set(self.config.sources.disabled)
-        sources = [s for s in sources if s.name in enabled and s.name not in disabled]
+        sources = [s for s in sources if s.name not in disabled]
 
         # 2. Check cache
         cache_key = f"analysis:{company}:{region}:{tier}"
@@ -210,14 +215,89 @@ class CompanyAnalyzer:
             for r in section_results:
                 report.sections[section_num].update(r.data)
 
-        # 5. Create scorecard
+        # 5. Create scorecard with data-driven scoring
         report.scorecard = create_default_scorecard(company)
+        self._score_from_data(report)
 
         # 6. LLM enhancement (if available)
         if self.llm.is_available() and not isinstance(self.llm, NoLLM):
             self._enhance_with_llm(report)
 
         return report
+
+    def _score_from_data(self, report: AnalysisReport) -> None:
+        """Fill scorecard from collected data (rule-based, no LLM needed)."""
+        if not report.scorecard:
+            return
+
+        source_names = {r.source_name for r in report.source_results}
+        sections_filled = set(report.sections.keys())
+
+        # Data coverage score (how many sources returned data)
+        coverage = len(report.source_results) / max(len(source_names), 1)
+
+        for dim in report.scorecard.dimensions:
+            if dim.name == "growth":
+                # Growth: based on financials + news + strategy
+                score = 3.0  # baseline
+                financials = report.sections.get(1, {}).get("financials", [])
+                if financials:
+                    score += 0.5
+                    dim.evidence = "Financial data available"
+                if 3 in sections_filled:  # strategy
+                    score += 0.5
+                    dim.evidence += "; Strategy data collected"
+                if any(r.source_name in ("google_news", "credible_news")
+                       for r in report.source_results):
+                    score += 0.5
+                    dim.evidence += "; Active news coverage"
+                dim.score = min(5.0, score)
+
+            elif dim.name == "compensation":
+                # Compensation: based on DART employee data
+                employees = report.sections.get(1, {}).get("employees", [])
+                if employees:
+                    dim.score = 3.5
+                    dim.evidence = "DART salary data available"
+                else:
+                    dim.score = 2.5
+                    dim.evidence = "No salary data"
+
+            elif dim.name == "culture_fit":
+                # Culture: based on blog/cafe/glassdoor data
+                score = 2.5
+                if 4 in sections_filled:  # culture section
+                    score += 1.0
+                    dim.evidence = "Culture data from reviews"
+                if any(r.source_name == "exa_search" for r in report.source_results):
+                    score += 0.5
+                    dim.evidence += "; Exa deep search data"
+                if any(r.source_name == "naver_search" for r in report.source_results):
+                    score += 0.5
+                    dim.evidence += "; Blog/cafe reviews"
+                dim.score = min(5.0, score)
+
+            elif dim.name == "job_fit":
+                # Job fit: based on tech data + role section
+                score = 3.0
+                if 7 in sections_filled:  # tech section
+                    score += 0.5
+                    dim.evidence = "Tech stack data available"
+                if any(r.source_name == "github" for r in report.source_results):
+                    # Check GitHub tech score
+                    for r in report.source_results:
+                        if r.source_name == "github" and r.data.get("total_score"):
+                            gh_score = r.data["total_score"]
+                            score += min(1.0, gh_score / 80)
+                            dim.evidence += f"; GitHub score {gh_score}/100"
+                            break
+                dim.score = min(5.0, score)
+
+            elif dim.name == "career_leverage":
+                # Career leverage: baseline from data coverage
+                score = 2.5 + coverage
+                dim.evidence = f"{len(report.source_results)} data points collected"
+                dim.score = min(5.0, score)
 
     def _enhance_with_llm(self, report: AnalysisReport) -> None:
         """Use LLM to generate analysis, fill scorecard, and create insights."""

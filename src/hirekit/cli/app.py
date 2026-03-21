@@ -5,12 +5,17 @@ from __future__ import annotations
 from pathlib import Path
 
 import typer
+from dotenv import load_dotenv
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
 from hirekit import __version__
-from hirekit.core.config import ensure_config_dir, load_config
+from hirekit.core.config import DEFAULT_CONFIG_DIR, ensure_config_dir, load_config
+
+# Auto-load .env from project dir and ~/.hirekit/.env
+load_dotenv()
+load_dotenv(DEFAULT_CONFIG_DIR / ".env")
 
 app = typer.Typer(
     name="hirekit",
