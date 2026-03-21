@@ -302,25 +302,48 @@ class TestCompanyAnalyzerAnalyze:
 # ---------------------------------------------------------------------------
 
 class TestScoreFromData:
-    def test_growth_score_boosted_by_financials(self):
+    def test_growth_score_from_revenue_growth(self):
+        """Revenue growth rate drives growth score, not mere data existence."""
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
         report = make_report(sections={
-            1: {"financials": [{"account": "매출액", "current": "3조"}]}
+            1: {"financials": [
+                {"account": "매출액", "current_amount": "1,200,000",
+                 "previous_amount": "1,000,000"},
+            ]}
         })
         analyzer._score_from_data(report)
         growth_dim = next(d for d in report.scorecard.dimensions if d.name == "growth")
-        assert growth_dim.score >= 3.0
+        assert growth_dim.score >= 3.5  # 20% growth
+        assert "매출 성장률" in growth_dim.evidence
 
-    def test_compensation_score_boosted_by_employee_data(self):
+    def test_growth_score_low_for_declining_revenue(self):
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
         report = make_report(sections={
-            1: {"employees": "1,500명"}
+            1: {"financials": [
+                {"account": "매출액", "current_amount": "800,000",
+                 "previous_amount": "1,000,000"},
+            ]}
+        })
+        analyzer._score_from_data(report)
+        growth_dim = next(d for d in report.scorecard.dimensions if d.name == "growth")
+        assert growth_dim.score <= 2.5  # -20% decline
+
+    def test_compensation_score_from_actual_salary(self):
+        """Salary amount drives compensation score."""
+        config = HireKitConfig()
+        analyzer = CompanyAnalyzer(config=config, use_llm=False)
+        report = make_report(sections={
+            1: {"employees": [
+                {"headcount": "500", "avg_salary": "70",
+                 "avg_tenure_year": "5.2", "position": "전체"},
+            ]}
         })
         analyzer._score_from_data(report)
         comp_dim = next(d for d in report.scorecard.dimensions if d.name == "compensation")
-        assert comp_dim.score >= 3.5
+        assert comp_dim.score >= 4.0  # 7000만원
+        assert "평균 연봉" in comp_dim.evidence
 
     def test_compensation_score_lower_without_employee_data(self):
         config = HireKitConfig()
@@ -330,24 +353,31 @@ class TestScoreFromData:
         comp_dim = next(d for d in report.scorecard.dimensions if d.name == "compensation")
         assert comp_dim.score == 2.5
 
-    def test_job_fit_boosted_by_github_score(self):
+    def test_job_fit_from_github_score(self):
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
         report = make_report()
         report.source_results = [
             SourceResult(source_name="github", section="tech",
-                         data={"total_score": 80})
+                         data={"total_score": 80, "public_repos": 45})
         ]
         report.sections = {7: {}}
         analyzer._score_from_data(report)
         job_fit = next(d for d in report.scorecard.dimensions if d.name == "job_fit")
-        assert job_fit.score > 3.0
+        assert job_fit.score >= 4.5  # GitHub score 80 → high
+        assert "GitHub 기술 성숙도" in job_fit.evidence
 
     def test_all_dimension_scores_bounded_0_to_5(self):
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
         report = make_report(sections={
-            1: {"financials": [{}], "employees": "5000명"},
+            1: {"financials": [
+                {"account": "매출액", "current_amount": "5,000,000",
+                 "previous_amount": "3,000,000"},
+            ], "employees": [
+                {"headcount": "5000", "avg_salary": "90",
+                 "avg_tenure_year": "8"},
+            ]},
             3: {"strategy": "AI 전략"},
             4: {"naver_blog": [{"title": "후기"}]},
             7: {"tech_stack": ["Python"]},

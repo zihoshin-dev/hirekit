@@ -229,79 +229,313 @@ class CompanyAnalyzer:
 
         return report
 
+    # ------------------------------------------------------------------
+    # Content-based scoring helpers
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _parse_financial_amount(s: str | int | float) -> int:
+        """Parse raw financial string (e.g. '1,234,567') to int."""
+        if isinstance(s, (int, float)):
+            return int(s)
+        if not s or not isinstance(s, str):
+            return 0
+        try:
+            return int(s.replace(",", "").strip())
+        except (ValueError, TypeError):
+            return 0
+
+    @staticmethod
+    def _growth_rate(current: int, previous: int) -> float | None:
+        """Calculate YoY growth rate. Returns None if not computable."""
+        if previous == 0:
+            return None
+        return (current - previous) / abs(previous)
+
     def _score_from_data(self, report: AnalysisReport) -> None:
-        """Fill scorecard from collected data (rule-based, no LLM needed)."""
+        """Fill scorecard from collected data — content-based scoring."""
         if not report.scorecard:
             return
 
-        source_names = {r.source_name for r in report.source_results}
+        overview = report.sections.get(1, {})
+        source_data = {r.source_name: r.data for r in report.source_results}
         sections_filled = set(report.sections.keys())
-
-        # Data coverage score (how many sources returned data)
-        coverage = len(report.source_results) / max(len(source_names), 1)
+        n_sources = len(report.source_results)
 
         for dim in report.scorecard.dimensions:
             if dim.name == "growth":
-                # Growth: based on financials + news + strategy
-                score = 3.0  # baseline
-                financials = report.sections.get(1, {}).get("financials", [])
-                if financials:
-                    score += 0.5
-                    dim.evidence = "Financial data available"
-                if 3 in sections_filled:  # strategy
-                    score += 0.5
-                    dim.evidence += "; Strategy data collected"
-                if any(r.source_name in ("google_news", "credible_news")
-                       for r in report.source_results):
-                    score += 0.5
-                    dim.evidence += "; Active news coverage"
-                dim.score = min(5.0, score)
-
+                dim.score, dim.evidence = self._score_growth(overview)
             elif dim.name == "compensation":
-                # Compensation: based on DART employee data
-                employees = report.sections.get(1, {}).get("employees", [])
-                if employees:
-                    dim.score = 3.5
-                    dim.evidence = "DART salary data available"
-                else:
-                    dim.score = 2.5
-                    dim.evidence = "No salary data"
-
+                dim.score, dim.evidence = self._score_compensation(overview)
             elif dim.name == "culture_fit":
-                # Culture: based on blog/cafe/glassdoor data
-                score = 2.5
-                if 4 in sections_filled:  # culture section
-                    score += 1.0
-                    dim.evidence = "Culture data from reviews"
-                if any(r.source_name == "exa_search" for r in report.source_results):
-                    score += 0.5
-                    dim.evidence += "; Exa deep search data"
-                if any(r.source_name == "naver_search" for r in report.source_results):
-                    score += 0.5
-                    dim.evidence += "; Blog/cafe reviews"
-                dim.score = min(5.0, score)
-
+                dim.score, dim.evidence = self._score_culture(
+                    sections_filled, source_data,
+                )
             elif dim.name == "job_fit":
-                # Job fit: based on tech data + role section
-                score = 3.0
-                if 7 in sections_filled:  # tech section
-                    score += 0.5
-                    dim.evidence = "Tech stack data available"
-                if any(r.source_name == "github" for r in report.source_results):
-                    # Check GitHub tech score
-                    for r in report.source_results:
-                        if r.source_name == "github" and r.data.get("total_score"):
-                            gh_score = r.data["total_score"]
-                            score += min(1.0, gh_score / 80)
-                            dim.evidence += f"; GitHub score {gh_score}/100"
-                            break
-                dim.score = min(5.0, score)
-
+                dim.score, dim.evidence = self._score_job_fit(
+                    sections_filled, source_data,
+                )
             elif dim.name == "career_leverage":
-                # Career leverage: baseline from data coverage
-                score = 2.5 + coverage
-                dim.evidence = f"{len(report.source_results)} data points collected"
-                dim.score = min(5.0, score)
+                dim.score, dim.evidence = self._score_career_leverage(
+                    overview, n_sources, source_data,
+                )
+
+    def _score_growth(self, overview: dict) -> tuple[float, str]:
+        """Score growth from actual revenue/profit growth rates."""
+        score = 2.5  # baseline when no data
+        evidence_parts: list[str] = []
+
+        financials = overview.get("financials", [])
+        if not isinstance(financials, list) or not financials:
+            return score, "재무 데이터 없음"
+
+        # Find revenue and operating profit
+        for item in financials:
+            if not isinstance(item, dict):
+                continue
+            account = item.get("account", "")
+            cur = self._parse_financial_amount(
+                item.get("current_amount", item.get("current", "")),
+            )
+            prev = self._parse_financial_amount(
+                item.get("previous_amount", item.get("previous", "")),
+            )
+
+            rate = self._growth_rate(cur, prev)
+            if rate is None:
+                continue
+
+            pct = rate * 100
+            if "매출" in account:
+                # Revenue growth scoring
+                if pct > 30:
+                    score = max(score, 4.5)
+                elif pct > 15:
+                    score = max(score, 4.0)
+                elif pct > 5:
+                    score = max(score, 3.5)
+                elif pct > 0:
+                    score = max(score, 3.0)
+                else:
+                    score = max(score, 2.0)
+                evidence_parts.append(f"매출 성장률 {pct:+.1f}%")
+
+            elif "영업이익" in account:
+                if pct > 20:
+                    score = min(5.0, score + 0.5)
+                elif pct < -20:
+                    score = max(1.0, score - 0.5)
+                evidence_parts.append(f"영업이익 성장률 {pct:+.1f}%")
+
+        if not evidence_parts:
+            return 2.5, "성장률 계산 불가 (데이터 형식 불일치)"
+
+        return min(5.0, score), "; ".join(evidence_parts)
+
+    def _score_compensation(self, overview: dict) -> tuple[float, str]:
+        """Score compensation from actual salary/tenure data."""
+        employees = overview.get("employees", [])
+        evidence_parts: list[str] = []
+
+        if not isinstance(employees, list) or not employees:
+            return 2.5, "급여 데이터 없음"
+
+        total_salary = 0
+        total_headcount = 0
+        max_tenure = 0.0
+
+        for emp in employees:
+            if not isinstance(emp, dict):
+                continue
+            salary = self._parse_financial_amount(emp.get("avg_salary", "0"))
+            headcount = self._parse_financial_amount(emp.get("headcount", "0"))
+            total_salary += salary * headcount
+            total_headcount += headcount
+
+            tenure_str = emp.get("avg_tenure_year", "")
+            try:
+                tenure = float(str(tenure_str).replace("년", "").strip()) if tenure_str else 0
+                max_tenure = max(max_tenure, tenure)
+            except (ValueError, TypeError):
+                pass
+
+        # Average annual salary (DART reports in 백만원)
+        if total_headcount > 0 and total_salary > 0:
+            avg_salary_m = total_salary / total_headcount  # 백만원
+            if avg_salary_m > 80:  # > 8천만원
+                score = 4.5
+            elif avg_salary_m > 60:  # > 6천만원
+                score = 4.0
+            elif avg_salary_m > 45:  # > 4500만원
+                score = 3.5
+            elif avg_salary_m > 30:  # > 3천만원
+                score = 3.0
+            else:
+                score = 2.5
+            evidence_parts.append(f"평균 연봉 {avg_salary_m:.0f}백만원")
+        else:
+            score = 3.0  # data exists but salary not parseable
+
+        # Tenure bonus
+        if max_tenure > 7:
+            score = min(5.0, score + 0.3)
+            evidence_parts.append(f"평균 근속 {max_tenure:.1f}년 (장기)")
+        elif max_tenure > 4:
+            evidence_parts.append(f"평균 근속 {max_tenure:.1f}년")
+        elif max_tenure > 0:
+            score = max(1.0, score - 0.2)
+            evidence_parts.append(f"평균 근속 {max_tenure:.1f}년 (단기)")
+
+        if total_headcount > 0:
+            evidence_parts.append(f"직원 {total_headcount:,}명")
+
+        return min(5.0, score), "; ".join(evidence_parts) if evidence_parts else "급여 데이터 파싱 불가"
+
+    def _score_culture(
+        self, sections_filled: set, source_data: dict,
+    ) -> tuple[float, str]:
+        """Score culture from review volume and diversity."""
+        score = 2.5
+        evidence_parts: list[str] = []
+
+        # Count review sources that returned data
+        review_sources = {
+            "naver_search": "네이버 블로그/카페",
+            "exa_search": "Exa 딥서치",
+            "community_review": "커뮤니티 리뷰",
+        }
+        review_count = 0
+        for src, label in review_sources.items():
+            if src in source_data:
+                review_count += 1
+                evidence_parts.append(label)
+
+        # More diverse review sources = higher confidence
+        if review_count >= 3:
+            score = 4.0
+        elif review_count >= 2:
+            score = 3.5
+        elif review_count >= 1:
+            score = 3.0
+
+        # Culture section filled (section 4)
+        if 4 in sections_filled:
+            culture_data = source_data.get("naver_search", {})
+            # Check actual review volume
+            for key in ("naver_blog", "naver_cafe"):
+                items = culture_data.get(key, [])
+                if isinstance(items, list) and len(items) >= 3:
+                    score = min(5.0, score + 0.3)
+                    evidence_parts.append(f"{key} {len(items)}건")
+
+        if not evidence_parts:
+            return 2.5, "문화 리뷰 데이터 없음"
+
+        return min(5.0, score), "; ".join(evidence_parts)
+
+    def _score_job_fit(
+        self, sections_filled: set, source_data: dict,
+    ) -> tuple[float, str]:
+        """Score job fit from GitHub score and tech data."""
+        score = 2.5
+        evidence_parts: list[str] = []
+
+        # GitHub tech maturity score (0-100)
+        gh_data = source_data.get("github", {})
+        gh_score = gh_data.get("total_score", 0)
+        if gh_score:
+            if gh_score >= 70:
+                score = 4.5
+            elif gh_score >= 50:
+                score = 4.0
+            elif gh_score >= 30:
+                score = 3.5
+            else:
+                score = 3.0
+            evidence_parts.append(f"GitHub 기술 성숙도 {gh_score}/100")
+
+            # Bonus details
+            repos = gh_data.get("public_repos", 0)
+            if repos:
+                evidence_parts.append(f"공개 레포 {repos}개")
+
+        # Tech section data (section 7)
+        if 7 in sections_filled:
+            score = min(5.0, score + 0.3)
+            evidence_parts.append("기술 스택 데이터 수집됨")
+
+        # Tech blog presence
+        if "tech_blog" in source_data:
+            score = min(5.0, score + 0.3)
+            evidence_parts.append("기술 블로그 운영 중")
+
+        if not evidence_parts:
+            return 2.5, "기술 데이터 없음"
+
+        return min(5.0, score), "; ".join(evidence_parts)
+
+    def _score_career_leverage(
+        self, overview: dict, n_sources: int, source_data: dict,
+    ) -> tuple[float, str]:
+        """Score career leverage from company size, brand, and tech reputation."""
+        score = 2.5
+        evidence_parts: list[str] = []
+
+        # Company size from employee data
+        employees = overview.get("employees", [])
+        total_headcount = 0
+        if isinstance(employees, list):
+            for emp in employees:
+                if isinstance(emp, dict):
+                    total_headcount += self._parse_financial_amount(
+                        emp.get("headcount", "0"),
+                    )
+
+        if total_headcount > 5000:
+            score = 4.0
+            evidence_parts.append(f"대기업 ({total_headcount:,}명)")
+        elif total_headcount > 1000:
+            score = 3.5
+            evidence_parts.append(f"중견기업 ({total_headcount:,}명)")
+        elif total_headcount > 200:
+            score = 3.0
+            evidence_parts.append(f"중소기업 ({total_headcount:,}명)")
+        elif total_headcount > 0:
+            evidence_parts.append(f"소규모 ({total_headcount:,}명)")
+
+        # Brand recognition: news coverage volume
+        news_count = 0
+        for src in ("google_news", "credible_news", "naver_news"):
+            data = source_data.get(src, {})
+            if isinstance(data, dict):
+                for key in ("articles", "results", "items"):
+                    items = data.get(key, [])
+                    if isinstance(items, list):
+                        news_count += len(items)
+
+        if news_count > 10:
+            score = min(5.0, score + 0.5)
+            evidence_parts.append(f"뉴스 {news_count}건 (높은 인지도)")
+        elif news_count > 3:
+            score = min(5.0, score + 0.3)
+            evidence_parts.append(f"뉴스 {news_count}건")
+
+        # GitHub presence = tech brand
+        if "github" in source_data:
+            gh_score = source_data["github"].get("total_score", 0)
+            if gh_score >= 50:
+                score = min(5.0, score + 0.3)
+                evidence_parts.append("오픈소스 활동 활발")
+
+        # Data coverage breadth
+        if n_sources >= 8:
+            score = min(5.0, score + 0.3)
+            evidence_parts.append(f"데이터 {n_sources}개 소스 수집")
+
+        if not evidence_parts:
+            return 2.5, f"데이터 {n_sources}개 소스"
+
+        return min(5.0, score), "; ".join(evidence_parts)
 
     def _enhance_with_llm(self, report: AnalysisReport) -> None:
         """Run sectioned LLM pipeline and merge results into report sections."""
