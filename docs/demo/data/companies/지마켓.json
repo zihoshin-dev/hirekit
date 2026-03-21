@@ -1,0 +1,704 @@
+{
+  "company": "지마켓",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 12,
+  "sections": [
+    "strategy",
+    "culture",
+    "overview",
+    "tech"
+  ],
+  "data": {
+    "company_name": "주식회사 지마켓",
+    "company_name_eng": "Gmarket Inc.",
+    "stock_name": "지마켓",
+    "ceo": "장승환",
+    "address": "서울특별시 강남구 테헤란로 152 강남파이낸스센터 19층,34층~37층",
+    "industry_code": "4791",
+    "established": "20000407",
+    "homepage": "https://corp.gmarket.com",
+    "ir_url": "",
+    "stock_code": "",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      },
+      {
+        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+        "link": "https://blog.naver.com/serohero/224199063326",
+        "pub_date": "20260228"
+      },
+      {
+        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+        "link": "https://blog.naver.com/jobpass_/224197697044",
+        "pub_date": "20260227"
+      },
+      {
+        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+        "link": "https://blog.naver.com/study_edu_/224193834977",
+        "pub_date": "20260224"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "[뉴스락 현장] 지마켓, 7천억 투자로 셀러 지원·AI 서비스 고도화…&quot;국내 1위 오픈마켓 도전 본격화&quot;",
+        "description": "대표가 지마켓의 향후 전략 방향 및 비전에 대해 설명하고 있다. 지마켓 제공 [뉴스락] [뉴스락]... 지마켓은 내년부터 7000억 원 규모의 투자를 집행해 셀러 지원, AI 기반 서비스, 글로벌 진출에 박차를 가한다는...",
+        "link": "https://m.newspic.kr/view.html?nid=2025102117043152278",
+        "pub_date": ""
+      },
+      {
+        "title": "장승환 G마켓 대표, AI 혁신·셀러 상생으로 ‘1등 오픈마켓’ 재도약 - 인사이트코리아",
+        "description": "적극적 사업 확장을 해 나갈 계획이다.&lt;G마켓&gt; 이를 실현하기 위해... 향후 전략 방향 및 비전에 대해 설명하고 있다.&lt;G마켓&gt; JV 기반 글로벌 확장…AI로 ‘초개인화 쇼핑’ 구현 국내를 넘어 글로벌 무대에서도...",
+        "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=233836",
+        "pub_date": ""
+      },
+      {
+        "title": "[뉴스락 현장] 지마켓, 7천억 투자로 셀러 지원·AI 서비스 고도화…&quot;국내 1위 오픈마켓 도전 본격화&quot;",
+        "description": "소비자가 체감할 수 있는 쇼핑 혜택을 확대하고, AI 기술 기반의 플랫폼 서비스를 정교하게 다듬는 것이 이번 전략의 핵심이다. 지마켓은 마케팅에 연간 1000억 원 이상을 추가로 투자해 소비자들이 직접 체감할 수...",
+        "link": "http://www.newslock.co.kr/news/articleView.html?idxno=117737",
+        "pub_date": ""
+      },
+      {
+        "title": "[유통업계 AI 진단] 이마트, 오프라인 강화에 '변곡점 선' DT전략 ②AI 수장 공백에 조직 이관 검토까지…기술 활....",
+        "description": "중심으로 사업전략이 개편됐다. 이 과정에서 강 전 대표가 힘을 싣던 DT본부에 힘이 빠지게 된 것으로 분석된다. ◇AI 개발 방향 변화... SSG닷컴, 지마켓글로벌 등 온라인 플랫폼과 연계해 사업 영역을 확장하고...",
+        "link": "http://www.thebell.co.kr/free/content/ArticleView.asp?key=202407020949247800102068",
+        "pub_date": ""
+      },
+      {
+        "title": "‘세계 AI 시장 3위는 영국?’ 영국이 그리는 AI 혁신의 미래",
+        "description": "공공 부문에서 신속한 AI 시범 사업 추진과 성공적인 사례를... 차원의 AI 전략 이행 현황을 정기적으로 점검하고 관리할... 영국 AI 혁신 기회 포착을 위한 정부 정책 방향 (英 DSIT, 1.13)...",
+        "link": "https://blog.naver.com/kiat_tech/223811669760",
+        "pub_date": ""
+      },
+      {
+        "title": "G마켓, 알리바바 손잡고 재도약…“年 7000억 투자해 5년 내 거래액 두 배 목표”",
+        "description": "21일 서울 코엑스에서 열린 '지마켓 미디어데이' 행사장에서 제임스 장 G마켓 (한국명 장승환) 대표가 향후 전략 방향과 비전을 발표했다.... 셀러 지원과 글로벌 확장, 마케팅, 인공지능(AI) 활용 등 사업 전반에...",
+        "link": "https://www.etnews.com/20251021000241",
+        "pub_date": ""
+      },
+      {
+        "title": "[현장] “셀러 성장이 곧 플랫폼 성장” G마켓, ‘K대표 이커머스’로 부활",
+        "description": "대표가 지마켓의 향후 전략 방향 및 비전에 대해 설명하고 있다.... 향후 사업 전략 및 비전을 발표했다. 장승환 지마켓 대표는 “지마켓이... 인공지능(AI) 활용에 각각 연 1000억원을 투자할 예정이다. G마켓 분야별...",
+        "link": "https://www.dailian.co.kr/news/view/1562070",
+        "pub_date": ""
+      },
+      {
+        "title": "&quot;미래 신사업 모델 개척&quot;…유통업계 R&amp;D에 빠지다",
+        "description": "기사내용 요약 지마켓글로벌 등 e커머스, AI(인공지능) 활용 기술 개발 나서 백화점 업계 패션 트렌드 분석 집중...현대百 미래사업부... MD운영 방향성 수립 및 콘셉트를 제안하는 MD 전략팀 8명을 각각 운영...",
+        "link": "https://www.fnnews.com/news/202205300701485057",
+        "pub_date": ""
+      },
+      {
+        "title": "내년에만 ‘7000억원’ 투자 … G마켓 “오픈마켓 선도 기업 부활” 선언",
+        "description": "대표가 지마켓의 향후 전략 방향 및 비전에 대해 설명하고 있다.... 적극적 사업 확장을 해 나갈 계획이다. 21일 지마켓은 서울 코엑스에서... 이커머스의 미래를 좌우할 AI 활용을 위해 연간 1000억원씩 사용할...",
+        "link": "https://www.beyondpost.co.kr/view.php?ud=20251021122859875018ef25b590_30",
+        "pub_date": ""
+      },
+      {
+        "title": "&quot;5년 내 GMV 2배, 7000억 투자&quot;… 지마켓, 2026년 재도약 원년 선언",
+        "description": "대표가 지마켓의 앞으로 전략 방향 및 비전에 대해 설명하고 있다... 국내외 사업 확장에 나설 계획이다. 지마켓은 21일 서울 코엑스에서... ▲셀러 경쟁력 강화 5000억원 ▲고객 프로모션 1000억원 ▲AI 활용...",
+        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=235215",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "G마켓 인재영입 - 지마켓 채용 사이트",
+        "url": "https://careers.gmarket.com/",
+        "description": "Recruiting팀장 고영환님, ... 위한 투명하고 실행력 있는 사내공모를 진행합니다.<strong>수평적 문화에 기반한 근무환경</strong>..."
+      },
+      {
+        "title": "지마켓 - 채용 프로세스, 브랜딩 & 마케팅 개선 사례",
+        "url": "https://www.ninehire.com/customer-story/gmarket",
+        "description": "<strong>Top-Down과 Bottom-Up 방식을 모두 활용하여, 리더십팀과 C-레벨이 바라는 문화, 그리고 팀원들이 원하는 문화를 모두 포함해 조화롭게 만들었습니다</strong>."
+      },
+      {
+        "title": "지마켓, 대규모 공개 채용…JV 편입 후 처음 - 헤럴드경제",
+        "url": "https://biz.heraldcorp.com/article/10642803",
+        "description": "채용 직군은 프로덕트 매니저(PM) 직무를 포함해 전략, 마케팅, 영업, 재무 등 총 36개다."
+      },
+      {
+        "title": "블라인드 | 지마켓 기업정보",
+        "url": "https://www.teamblind.com/kr/company/%EC%A7%80%EB%A7%88%EC%BC%93/",
+        "description": "지마켓 광고 대박 링크 혼자 영화관 갔다 광고보고 빵터짐ㅋㅋ https://m.youtube.com/watch?v=CtaM4-q_w7o&amp;pp=ygUX7KeA66eI7LyTIOq0keqzoCDrqqjsnYzSBwkJAwoBhyohjO8= 세번째 설운도가 최고 ... 채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다."
+      },
+      {
+        "title": "2026년 지마켓 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/1683685659/",
+        "description": "(주)지마켓은 쇼핑몰·전자상거래·오픈마켓 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+      },
+      {
+        "title": "G마켓 인사담당자 피셜, \"우리는 이런 인재 원한다\" | 신세계그룹",
+        "url": "https://v.daum.net/v/EZK9pRFBdl",
+        "description": "하지만 예측 불가능한 변화에 대한 일시적인 대응보다는, 일정한 방향성을 가지고 채용 문화를 안착시키는 것이 중요하다. 이에 지마켓글로벌은 ‘개발자들이 일하기 좋은 회사’를 위한 장기적이며 생산적인 고민을 지속하고 있다."
+      },
+      {
+        "title": "[인터뷰 스케치] 좋은 채용 기업 인터뷰 ① 100% 블라인드로 기술직을 채용하는 ‘지마켓’ 인터뷰 : 네이버 블로그",
+        "url": "https://m.blog.naver.com/bomedu2020/222713433852",
+        "description": "송인수 대표님은 출신학교에 의존하지 않는 기업의 채용 사례가 기업 채용의 변화와 더불어 무엇보다 교육의 변화를 위해서 매우 중요하다고 강조하시면서 이번 캠페인의 취지를 설명해주셨는데요. 그런 의미에서 채용 전 과정에 걸쳐 출신학교와 스펙을 요구하지 않는 지마켓 글로벌의 채용 사례가 우리 초중고 교육에 주는 의미가 남다르다고 말씀하셨습니다."
+      },
+      {
+        "title": "지마켓 채용 - 2025년 채용정보, 자기소개서 문항",
+        "url": "https://jasoseol.com/companies/4825/careers",
+        "description": "지마켓 신입, 인턴, 경력 최신 채용공고 정보와 자기소개서 항목, 직무별 지원자 수, 합격 스펙까지 한번에 확인하세요."
+      },
+      {
+        "title": "지마켓 2025년 채용정보 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/RecruitInfo/149053",
+        "description": "신입 기획/전략/경영, 바이오/제약/식품, 사무/총무/법무, 생산관리/공정관리/품질관리, 영업관리/지원/영업기획, 인사/노무/교육, 일반영업, 화학/에너지/환경"
+      },
+      {
+        "title": "(주)지마켓 2026년 기업정보 | 기업리뷰 1,198건, 연봉정보 1,073건, 면접후기 854건, 복지정보 122건, 채용공고 0건",
+        "url": "https://www.jobplanet.co.kr/companies/58985/landing/%EC%A7%80%EB%A7%88%EC%BC%93",
+        "description": "(주)지마켓 기업정보 - 산업: 쇼핑몰/오픈마켓, 기업형태: 대기업 계열사/자회사, 사원수: 905명, 설립: 2000.04.10 | (주)지마켓의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
+      }
+    ],
+    "google_news": [
+      {
+        "title": "지마켓, 재도약 이끌 핵심 인재 뽑는다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wY213V0VGcVY5aGFCbmpmNERLeU5BYnkwXzNhZ0JzeWNjSkI4ODVWem1Oc2RYN1JOSXR6RFN3YXdMMTUteWVmY04tSHBOYkRBbElLRTl3?oc=5",
+        "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "지마켓, ‘셀러·고객·글로벌’에 7천억 투자…‘글로벌-로컬 플랫폼’ 도약 - 물류신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jWWZuLXZzd0lUcmNZWDRuMUY2TUcwM1AzdlU0X2dxTnB4dlBYM2JOVW13cjllYjQwV19uUzRjVEIzNnhOd0ZvRDlnTVl5a0lnUENULXUxZXZCMzRYZkJkTDJMSUMyWGhqaWVJ?oc=5",
+        "pub_date": "Wed, 22 Oct 2025 07:00:00 GMT",
+        "source": "물류신문"
+      },
+      {
+        "title": "[현장] 지마켓, 알리 손잡고 K커머스로 도약…\"연 7000억원 투입\" - 뉴스포스트",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwcTlTUTFuZWN1T3pSS1ZfdHliRllMbjIzNFBCVk80YVdwX0RmcTk4VDBwRHJ3Z0JVQXNseXRTOXB2TWV4dkQ2aWU0ODYzdElXdXpqaHBEQjJ0Q2laeXIxc0VvLWJLWERKZEE?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "뉴스포스트"
+      },
+      {
+        "title": "[IB토마토]지마켓, 탈쿠팡 수요 노리지만…개인정보 강화 '관건' - 뉴스토마토",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2VVRweHhXZ1h3OVlDeXJMWXM4dUxacGNucTdpemZtSDEzLWE3ZWNIM185bHZGSk5IQXZrX0RaNUVnZ1pKTmhSUlVjWWdyRzdIOTE5V1BKT01Ca1pzQWNQbg?oc=5",
+        "pub_date": "Fri, 26 Dec 2025 08:00:00 GMT",
+        "source": "뉴스토마토"
+      },
+      {
+        "title": "'7000억 투자' 지마켓 \"내년 재도약 원년, 5년 내 거래액 두 배↑\" - 톱데일리",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UOGg2b2ZPdXdGTElqeFpvdWo1MzRXTDBleVJ3NzZZbTZ2cHVNMnJiNUd6NkVNakcyS25IUWVrdTJtakxMb0lxYzFLUU82ODVn?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "톱데일리"
+      },
+      {
+        "title": "G마켓, 알리바바와 글로벌·AI서 협력... 국내 이커머스 1위 탈환 나선다 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYc3RCV0x3OGJJOHl0QjZVOFROaGVvblVrUWx5cGlEcGFTSnhVdXpZZ0xjaGFnSWtqbG1aUDduelNSOVprUnRIcWJXUQ?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "v.daum.net"
+      },
+      {
+        "title": "[현장] 지마켓 장승환 대표 “연 7000억원 투입해 5년내 GMV 2배 이상 늘릴 것” - 인더스트리뉴스",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRZnYtT251aE8zaFZrSGhTX1Z5T1RheC1UejVwMUlCbDJUY0pQb0huclVETEI0TVp6NjBvVHVEUUEtUWt4Y2ZjSUxyODBqaWhRWTh0NWlfNHc2elFYWmFMQmppRUc5VjNqMkZLVmtUMFlxZw?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "인더스트리뉴스"
+      },
+      {
+        "title": "[현장] G마켓 ‘글로벌-로컬 마켓’ 새 비전 선포⋯ K-대표 이커머스로 부활 - 뉴시안",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44RGE4d2pMa241X1JESmk2cVhaQkxBa283alVJb1hXc2QzVmFYM2VTcURoejI3N3NaT3J5NkgwM3M4c0syemhNSjI4UE5YUlZhcVlxY0h3Q3ZQQVIzTk5JbUhoYVdBSXlraEHSAW5BVV95cUxPNkVMOGN1TTNRMEZlNWpFTkhTeHpBTFlSRnVPZ2N0NG5QS2xOSHZPMGgxVll4RXB2dEE2WTUyakliR2tVa3hZbTYwZGVEcnVfdkQ1cWFhOVlpbXgwSlprNW1scVZnRzBoVm5pN3B1Zw?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "뉴시안"
+      },
+      {
+        "title": "“K 대표 이커머스로 부활”… G마켓, 내년 재도약위해 7000억 투입 - 브릿지경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80Wkx5MGdzdC1FVHhzQml1cFFuclNLbzdjMnIwSlFWNEJhOXkzTVE3UkptUHZTMF85ekVNMWpSbjk3bnlzOFdZem8zNzJoUlNkMjY4WkhfYmUwdw?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "브릿지경제"
+      },
+      {
+        "title": "지마켓, 재도약 선언…5년 내 거래액 2배↑ - DealSite경제TV",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45NXBRTUk5OEh6dk1ZVGpmM1RIWmZ0eFhGY1MxN0lKQy0yOTByRU9LLUNMWEJJMUtfSGR5eFlnRExHQ0RoaVN6T1RRaTY0V2JWOVBIRTZn?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "DealSite경제TV"
+      },
+      {
+        "title": "‘1세대 이커머스’ G마켓, 판 뒤집을까…‘5000억’ 셀러 투자에 AI 도입 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01Vlh4Qkk4VWZxaGI1c3FocDc4WjRxTGs0WjVySGViYWYwdlBVVkhCWTRzTnlSeVY5ZnZKNWlsd1FJd2ltZEhYYUk0MVlDb0xya2tXdQ?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "지마켓, 알리바바 AI 탑재...장승환 \"다시 1등 되겠다\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxTFd6UVVNbWdqSkVMVExZWHFZeExOR3lwZThaZm02WEYzdThSVEdCWEtpOVl2a25vLXk4bWw2elZiZnFzTklQY2xJYWQ4SS02aDJuYlFB?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "G마켓, '글로벌-로컬 마켓' 전략으로 年7000억 투입 \"5년내 연간거래액 1조원 달성\" - 와이드경제",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iei01T0k0MThNcjkxV0NmUXlMTXoxNUdyS1ZGU3FKdHVnc0VPSUJMeXFZcTdEbXduQ0stTnZyX2haU0dVX2xoV0RDSlBSTjlfUUdFV25yWkhkSnpvclVJbExtV2dqU1lVOEUzSQ?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "와이드경제"
+      },
+      {
+        "title": "지마켓, 연 7000억 투자로 이커머스 판 재편...\"5년 내 거래액 2배 목표\" - 오늘경제",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsRFdVYVl3THhUUUNVOVdBQk5pUm1UbklwZm56X1R6bkJFV2hwZDlKMWlydzk5SXpjbGh2SzB5Mmh4UTNnTDlVa2ZMNC1YSEU0b1Z3eWl6Z1M3V0U1UkJDdjJ1dGpvckJEb1NkUnZTU2ItQ1E?oc=5",
+        "pub_date": "Wed, 22 Oct 2025 07:00:00 GMT",
+        "source": "오늘경제"
+      },
+      {
+        "title": "[현장] “셀러 성장이 곧 플랫폼 성장” G마켓, ‘K대표 이커머스’로 부활 - 데일리안",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOdUQyRy1udDIteDc5NGR0WkV0QkJJWUVEQWVreEVMNEk1RkVQREg1VW05dV9CR2ZnRGRkSkFvTXp4blpnTVY2NndjVENzMjB5UUdPa0xuY1NSdHBuOHlJWGtIRlk4ZVhpYm5pcWJ0dlM2al9PUHhkaE5lQ0lzZUlieHcxRDhxTlczZ3VIaVJKMWtPQWxWOU5qOTQyUHV2T3BtQ1YyVGtHcFFGZFhXWlpIT3N4LVhfamh5XzFZTDJvNndMVUlheTZiNFhEMDBPT2Eza1BYOU1hSmhKWkZJMHE3NDd0WW95ejROaU5uMHVEc3ZYaXkxb01Ba1loQkdTYXd6WHJQU2gyS1RmUzIz0gGPAkFVX3lxTFAxcjlnQ2gzR1pELXdoXzJ0Tk1oemtWQUVMTnhQU1RlanJvMjRtci1sZXkwOF9sclYxcUlESERtWDlFaGRESHZMTmRtZ1VHNjFJYkJuUXhPTzUxRDZwcklaVzJ2MnhpSVZNNi0xQ1AxdEJ5MnByaWtTSVpWM0xaN3QwMTRORGVNSXdhVldGY1lxYVdkZS1zWGRCenowUEZMRUJXZzZ1aVA1cFlfTjFSM2ZWdElkVEdiUkZBcG1kb3NFZWxrUDZ5VC10R2lSenhQNy1qcllDaTg1Q0ZxV0tfRmwxYjNfRjcxalBoZ3lZY28yZmdWblFGYmdnWDI2TWNfX2FCaV94Z2dSSjg2OHVlNXc?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "데일리안"
+      },
+      {
+        "title": "이마트, 온라인 부진 털고 본업 확장으로 반등 - IB토마토",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YUVB0VWZEX1I0TE83Z3hZaEtnZGFvRVJ1U19uMXcwU1dnMXAzbVF3ZzNtdU9Dd1J5eGs2VDU3Y29BeGU4RU9IZWtabzI4dEZ4WFdEQU9mWGRtREs2aWhIM2ttUXY2dU9vQUE?oc=5",
+        "pub_date": "Thu, 12 Mar 2026 08:35:00 GMT",
+        "source": "IB토마토"
+      },
+      {
+        "title": "‘지마켓 종속→관계’ 이마트, 2026년 매출 성장률 ‘1.1%’ 그 이상 - fetv.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YczdLZGZYMmo1Nm5IWkRMWlpYclZ4bV9UWEhoc0VyQ0xGTkFQc19qU1JVNEp1S0p6ckU0VFY1X3JzNzRUTm9qSnVlTU1QUWJ3azBiYmZweWVqX0M5NGRn?oc=5",
+        "pub_date": "Sun, 15 Feb 2026 08:00:00 GMT",
+        "source": "fetv.co.kr"
+      },
+      {
+        "title": "4년간 3조 수업료…새로운 길 모색하는 지마켓 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHNmpWR3kySXMxMGJmSU9WMnYxRlFJWWJvYmlMdGMtSjVYeVJqUkRka1hBVXU2OVRFM0czVzd4RWFfSFgxdDFHbmMxN2hCeDJNVjhPQTAtQjFRRWc2eW0zdXlpaGVaTmFabHVTWQ?oc=5",
+        "pub_date": "Thu, 02 Oct 2025 07:00:00 GMT",
+        "source": "매거진한경"
+      },
+      {
+        "title": "지마켓·11번가, 다시 뛰는 1세대 이커머스…지배구조 바꾸고 재도약 나서 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04T2hzY0ZERVdZZDdoblFGX3UydWZCVzZKUmhRb3Q1cS1KckJvU3U4OWk3aFp1OVl3NnZYRHdVMWxIeUc1cjV6dU5fMTRaQmNfT1dYbWdR?oc=5",
+        "pub_date": "Tue, 04 Nov 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "이커머스에 약한 신세계그룹···SSG닷컴·G마켓 변화 예고 - 시사저널e",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZNUpTbmIwYzJBR3QtTGdiM3Zod0hCSWxad3MyYTNhNDdOYkRLUDBxLVdEalBqY01RT0xaWTBvb21tcFNPWkFYU0w4ZV92ZUhETTFkNXRWekJJSFBIVFVXcEpFdEhIYVhmWXN1MDhaTHBTZ9IBdkFVX3lxTE14WTZQWEx6REF5STREckpYNTB0RlZ1TlhEMjZ6c0FyaVNVYjZqdUtCZjJjV0tsZTJzZFJXR2puYnVvUTU3SFdtQnVCbEF1RDZtS1FtSExIYmhUODZiOE9PM1FRUnpLNzRPRXRyQ2c2SXVKX0N4Umc?oc=5",
+        "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+        "source": "시사저널e"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "지마켓 기업리뷰 16건 - 2026년 최신리뷰 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/ReviewInfo/149053",
+        "text": "지마켓 기업리뷰 16건 - 2026년 최신리뷰 | 캐치\n\n메인메뉴 바로가기 본문 바로가기\n\n---\n\nCATCH\n\n전체메뉴 보기\n\n채용공고\n\n- 캘린더\n- AI매칭 공고\n- MY카테고리\n- 전체 공고\n\n기업정보\n\n- 분석리포트\n- [기업리뷰](https://ww",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "(주)지마켓 채용 | 2026년 진행 중인 공고 3건  - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=Zm9jWGVpbFFXSmdCT0dKcWtaSmxyUT09",
+        "text": "(주)지마켓 채용 | 2026년 진행 중인 공고 3건 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n## 지난 채용 순위\n\n### 직무별 순위\n\nTOP 1\n\nIT개발·데이터 가장 많이 채용했어요!\n\nTOP 2\n\n영업·판매·무역\n\nTOP 3\n\n상품기획·MD\n\nTOP 4\n\n회계·세무·재무\n\n### 경력별 순위\n\n14건\n\n1건\n\n1건\n\n1건\n\n- 신입·경력\n- 신입\n- 경력무관\n- 경력\n\n## 진행중 공고 3건\n\n- 경력3\n- 전체3\n\n마감순 최신순 조회순\n\n공고를 불러오고 있습니다\n\n잠시만 기다려주세요\n\n공고리스트--\n\n[[지마켓] 클라우드 인프라 보안 담당자]스크랩\n\n보안컨설팅정보보안클라우드보안관제\n\nIT개발·데이터 스크랩 급상승\n\n서울 강남구\n\n5 ~ 9년 · 정규직\n\n대학교(4년)↑\n\n[홈페이지 지원](https",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "지마켓 채용 - [지마켓/경력] 라이브커머스 기획운영 매니저 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/46124459",
+        "text": "지마켓 채용- [지마켓/경력] 라이브커머스기획운영매니저| 잡코리아메뉴 건너뛰기\n# JOBKOREA\n## 검색Smart Match 통합검색열림키워드를입력하시면검색어를추천해드립니다.\n자동완성켜기|닫기\n닫힘### 검색어자동완성자동완성끄기|닫기\n**잡코리아 주요서비스**\n알바몬게임잡나인하이어[클릭\n외국인인재채용지금바로!\n](https://www.klik.co.kr?utm_source=jk_pc&ut",
+        "score": 0,
+        "published_date": "2024-12-17T00:00:00.000Z"
+      },
+      {
+        "title": "지마켓 채용 : (2026 대규모 채용) 03. 주문/결제 PM - 인크루트 채용정보",
+        "url": "https://m.incruit.com/jobdb_info/jobpost.asp?col=job_all&il=y&job=2512220000127&kw=%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BDPM&startno=27",
+        "text": "지마켓 채용 : (2026 대규모 채용) 03. 주문/결제 PM - 인크루트 채용정보\n\n님!지금 스크랩한 공고, 빠르게 확인하려면!\n\n- 앱으로 확인하세요!\n\n닫기\n\n관심기업 채용정보 업데이트, 직접 검색 NO!\n\n- 앱으로 알림받으세요!\n\n닫기\n\n본문바로가기\n\n뒤로 \" class=\"btn_home\"메인--공유하기\n\n뒤로 앱으로보기 메인공유하기\n\n지마켓\n\n채용공고 (1/30)\n\n관심기업 지마켓\n\n(2026 대규모 채용) 03. 주문/결제 PM\n\n정규직\n\n경력 3~6년\n\n학력무관\n\n---\n\n마감일 마감 급여 회사내규 지역 서울 > 강남구 모집인원0 명\n\n본 채용정보는 마감되었습니다.\n\n관심기업등록\n\n[취업준",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "지마켓 채용 - 2026년 채용정보, 자기소개서 문항",
+        "url": "https://jasoseol.com/companies/4825/careers",
+        "text": "지마켓 채용 - 2026년 채용정보, 자기소개서 문항\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n### 자소서 문항 분석 리포트 💡\n\n### 로그인하고 문항 분석을 확인하세요 🔍\n\n다른 방법으로 시작하기\n\n### 이 기업의 공고\n\n43건\n\n### 지마켓\n\n## 2026 분야별 대규모 공채\n\n상품/카탈로그 PM, 홈/버티컬코너 PM, Business Intelligence Analyst, Onsite Traffic Operations Manager, Consumer/Marketing Operations Manager, Category/Merchant Growth Operations Manager, Fulfillment/Logistics Operations Manager\n\n25/12/18 - 25/12/30 (11일)",
+        "score": 0,
+        "published_date": "2015-09-09T00:00:00.000Z"
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "S Korea's Gmarket to invest $492m, expand globally with Alibaba",
+        "url": "https://www.techinasia.com/news/s-koreas-gmarket-to-invest-492m-expand-globally-with-alibaba",
+        "text": "Tech in Asia - Connecting Asia's startup ecosystem",
+        "score": 0,
+        "published_date": "2025-10-21T00:00:00.000Z"
+      },
+      {
+        "title": "지마켓 \"2026년 재도약 원년…年7천억 투입, 5년내 GMV 2배 확대\" - 파이낸셜신문",
+        "url": "https://www.efnews.co.kr/news/articleView.html?idxno=124114",
+        "text": "지마켓 \"2026년 재도약 원년…年7천억 투입, 5년내 GMV 2배 확대\" - 파이낸셜신문\n\n지마켓 \"2026년 재도약 원년…年7천억 투입, 5년내 GMV 2배 확대\"\n\n글씨키우기\n\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n\n---\n\n제임스 장 \"국내·해외 아우른 '글로벌-로컬 마켓'이 새 비전⋯K대표 이커머스로 부활\" \"미래 성장 핵심은 셀러\"⋯할인행사 비용·쿠폰 수수료 부담 줄이고 압도적 상품 구색 지원 JV 기반 글로벌 플랫폼 통해 역직구 확대 선도…국내 유일 온라인 수출 플랫폼 자리매김\n\n21일, 서울 코엑스에서 열린 ‘지마켓 미디어데이’ 행사장에서 지마켓 제임스 장(한국명 장승환) 대표가 지마켓의 향후 전략 방향 및 비전에 대해 설명하고 있다. (사진=황병우 기자)\n\n신세계그룹 계열사인 지마켓(G-Market)이 5년 안에 거래액을 지금의 2배 이상으로 늘린다는 목표 아래 2026년을 '오픈마켓 선도 혁신기업",
+        "score": 0,
+        "published_date": "2025-10-21T00:00:00.000Z"
+      },
+      {
+        "title": "지마켓, 연 7000억 투자로 이커머스 판 재편...\"5년 내 거래액 2배 목표\" < 이슈펀치 < 식품/유통 < 생활경제 < 기사본문 - 오늘경제",
+        "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=527349",
+        "text": "지마켓, 연 7000억 투자로 이커머스 판 재편...\"5년 내 거래액 2배 목표\" -- (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: \"ca-pub-3063784101158918\", enable_page_level_ads: true }); --\n\n이슈펀치\n\n# 지마켓, 연 7000억 투자로 이커머스 판 재편...\"5년 내 거래액 2배 목표\"\n\n- 댓글 0\n- 수정 2025.10.22 15:14\n- 입력 2025.10.22 14:19\n- 다른기사 보기 +\n- 전소영 기자\n\n북마크 본문",
+        "score": 0,
+        "published_date": "2025-10-22T00:00:00.000Z"
+      },
+      {
+        "title": "지마켓, 年 7000억 투입… 5년 내 거래액 배 이상 늘리기로",
+        "url": "https://www.chosun.com/economy/market_trend/2025/10/22/ZHCZITGFAVGVJFGPQKRSTWYTDQ/",
+        "text": "지마켓, 年 7000억 투입… 5년 내 거래액 배 이상 늘리기로\n\n# 지마켓, 年 7000억 투입… 5년 내 거래액 배 이상 늘리기로\n\n\"5000억원은 판매자 지원에 사용알리바바 유통망 활용 해외 진출\"\n\n김윤주 기자\n\n입력 2025.10.22. 00:33\n\n제임스 장 지마켓 대표가 21일 미디어데이 행사에서 사업 전략을 발표하고 있다. /연합뉴스\n\n신세계그룹 이커머스(전자상거래) 계열사 지마켓(G마켓)이 연 7000억원을 투입해 향후 5년 내 거래액을 현재의 2배 이상으로 끌어올리겠다고 21일 밝혔다. 글로벌 진출, 인공지능(AI) 기술 활용 분야에서 중국 알리바바와 협력도 더 강화할 방침이다. 쿠팡과 네이버로 국내 이커머스 시장이 사실상 양분된 상황에서 새로운 전략으로 국내 이커머스 1위 자리를 탈환하는 게 목표다.\n\n이날 서울 강남구 코엑스에서 열린 미디어데이에서 지마켓 제임스 장(한국명 장승환) 대",
+        "score": 0,
+        "published_date": "2025-10-21T00:00:00.000Z"
+      },
+      {
+        "title": "지마켓, 알리바바와 손잡고 'AI+글로벌 빅딜' 시동…\"연 7000억 투자\" - 오피니언뉴스",
+        "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=126056",
+        "text": "지마켓, 알리바바와 손잡고 'AI+글로벌 빅딜' 시동…\"연 7000억 투자\" - 오피니언뉴스\n\n지마켓, 알리바바와 손잡고 'AI+글로벌 빅딜' 시동…\"연 7000억 투자\"\n\n- 카카오톡\n- 카카오스토리\n- 트위터\n- 페이스북\n\n상태바\n\n---\n\n합작법인 통해 글로벌 진출 본격화…5년 내 거래액 2배 목표 AI 고도화·프로모션·셀러 지원 등 3대 분야에 연 7000억 투입 개인정보 독립 관리·보안 강화…고객 신뢰 확보도 병행\n\n21일, 서울 코엑스에서 열린 '지마켓 미디어데이' 행사장에서 지마켓 제임스 장(한국명 장승환) 대표가 지마켓의 향후 전략 방향 및 비전에 대해 설명하고 있다. 사진제공=G마켓\n\n[오피니언뉴스=이예한 기자] 지마켓(G마켓)이 알리바바와의 합작법인을 통해 '글로벌-로컬 마켓' 전략을 본격 가동하며, 5년 내 거래액(GMV)을 현재의 2배 이상으로 끌어올리겠다는 청사진을 제시했다.\n\n21일 서울 코엑스에서 열린 미디어데이에서 지마켓은 2026년을 '오픈마켓 선도 혁",
+        "score": 0,
+        "published_date": "2025-10-21T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "'Infra' 카테고리의 글 목록 - G마켓 기술블로그",
+        "url": "https://dev.gmarket.com/category/Infra",
+        "text": "'Infra' 카테고리의글목록본문 바로가기메뉴 바로가기\n# G마켓 기술블로그프로필사진\n카테고리메뉴열기닫기검색하기검색하기폼검색하기CATEGORY\n* 분류 전체보기(102)N\n* News(0)\n* Culture(7)\n* [Mobile(6)](https://dev.gmarket.com/ca",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "오픈마켓에서 여행 플랫폼으로 살아남기 (feat. msa)",
+        "url": "https://dev.gmarket.com/91",
+        "text": "오픈마켓에서 여행 플랫폼으로 살아남기 (feat. msa)\n\n본문 바로가기 메뉴 바로가기\n\n닫기\n\n검색하기 검색하기 폼 검색하기\n\n---\n\n- Global\n- Culture\n- AI\n- Infra\n- Mobile\n- Frontend\n- Backend\n- All\n\n## 티스토리 뷰\n\n[Backe",
+        "score": 0,
+        "published_date": "2023-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "짧고 굵게 지마켓 API Gateway 사용하기",
+        "url": "https://dev.gmarket.com/42",
+        "text": "짧고 굵게 지마켓 API Gateway 사용하기\n\n본문 바로가기 메뉴 바로가기\n\n닫기\n\n검색하기 검색하기 폼 검색하기\n\n---\n\n- Global\n- Culture\n- AI\n- Infra\n- Mobile\n- Frontend\n- Backend\n- All\n\n## 티스토리 뷰\n\n[Infra](http",
+        "score": 0,
+        "published_date": "2022-09-14T00:00:00.000Z"
+      },
+      {
+        "title": "지마켓 대기열 시스템 파헤치기",
+        "url": "https://dev.gmarket.com/46",
+        "text": "지마켓 대기열 시스템 파헤치기\n\n본문 바로가기 메뉴 바로가기\n\n닫기\n\n검색하기 검색하기 폼 검색하기\n\n---\n\n- Global\n- Culture\n- AI\n- Infra\n- Mobile\n- Frontend\n- Backend\n- All\n\n## 티스토리 뷰\n\n[Infra](https://dev.gm",
+        "score": 0,
+        "published_date": "2022-09-30T00:00:00.000Z"
+      },
+      {
+        "title": "오픈마켓 여행 플랫폼의 실전 API 연동 노하우",
+        "url": "https://dev.gmarket.com/115",
+        "text": "오픈마켓 여행 플랫폼의 실전 API 연동 노하우\n\n본문 바로가기 메뉴 바로가기\n\n닫기\n\n검색하기 검색하기 폼 검색하기\n\n---\n\n- Global\n- Culture\n- AI\n- Infra\n- Mobile\n- Frontend\n- Backend\n- All\n\n## 티스토리 뷰\n\n[Backend](ht",
+        "score": 0,
+        "published_date": "2024-07-23T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "EBay to buy S.Korea's Gmarket for up to $1.2 billion - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMzIyTldBWGZ3Y2VTeVdZWnhrTjJ0X1NtYW1zeDV5elhlMG84ZHMtODRqYWtLS1ZSZENlRXBoN0wwWVlhdGNpWlItc3pMUEw4cXJ2SjVGX3p0TVdGbGt4UTJFcHBVa0NielUwQVhkbXNYNTNwa09qekx1Y1ZoQ3JjSUV5UmZ3cUJNeFZaS2c5TGZycFhCVlFabmdIMlpCMksycURMR3E3SFIzdw?oc=5",
+        "pub_date": "Thu, 16 Apr 2009 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "South Korea's Shinsegae to set up joint venture with Alibaba International - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeEdHRDU0b0RWeUVFY2VPa3hfVmFybU80SW1TWU9mVk15QjR6YzVLX3BTaWw4OVZ6VnRTaHZsZUFnT2s1T0w0NTNONmFPRXRxcC1GTVpqSFB6MlhKaGdjN01fdFE3X3AxNDBLRHhXWkNrVzB0MWR6U0RoemdFMEx4SW9uc0ZGdnRadGpTeUZkZ1dCcjNrUU9sZUFveDFxd1FuSDdPTDNJbjdOQnlKQVUxcUZUVGJMbzBPZjNYbQ?oc=5",
+        "pub_date": "Thu, 26 Dec 2024 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "eBay übernimmt Internethändler Gmarket für 1,2 Mrd Dollar - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxOTZNNzM5LS1OLWFpbFV5Q2I3di1LRjhFcXEyNllEVjJPbEFVeXl4QzBwR1E0YnJBMHJhSG9Ubk93eldCN2dkbFJtMEdoZ3dLbFNJQUh6cHJ5MGk2SVRhRlF0M002Z1pVN1ZiNzV4Ul9leXgtdHlDeA?oc=5",
+        "pub_date": "Wed, 15 Apr 2009 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "ebay Gmarket Co Ltd - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fdWhMbHRQNFRYWS1JU2NyQlpoaGdKckotSUR5Ty1seTdGaHJSTW5lTVlDTHViZUN5YklBeGd1V0xYRWd6VGtNa3hGMUtsQzgzdWpsYWUzS3BWdWM3eXdV?oc=5",
+        "pub_date": "Fri, 10 May 2019 14:50:35 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Alibaba, E-Mart to Create $4 Billion E-Commerce JV in Korea - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY0xyWk4zTXRsazhLWFU4YzhTZ01SWDlYV09XNnpnVWJEdWgtUENQMWxOQWR3ZG9UQkR4cUtYNUF1SXpnV1VBTzVmLXVxR1h4ME1LOTE3am1oSzQ0RVZPWXgzTDVDTUk3emlrOU5yQTJuc0FNTUZTaVNaYmpMX0lEX3JpUS0yNGVMZHhVU3lBYzhzcHNmczRMSjNLVmM5X0pWZWZGaFNWWk5JeVpBV3c?oc=5",
+        "pub_date": "Thu, 26 Dec 2024 08:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Greg Mrva, GoFundMe: Profile and Biography - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ROFIyaVZqSk1CNkJNVHlnMTVfcnBYbEFldEJpQzhObk9iWkpqMmdMTTFYWEhLcWR5bkprSW1aSTN6NnlPdDZZX1dKWDRzRThWdnU4ZGRzUVY0ZGpt?oc=5",
+        "pub_date": "Sun, 20 Oct 2019 14:36:42 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Singaporean e-commerce firm Qoo10's Korean units face probe due to payment delays to merchants - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTDFsU1NFWkQxbGZGelViS0VqM3B5c0RrQmNtd1VrTjNITGJnUk5ubDRvc0tYeTZlNndvSDJIZTQtUFdKRWptYXJMZ1F1TWo2dFIxMk1xdGxtd1g2YlpTSk5UaEMyWDluVVJHaktEc1lnUkNnd0dBamFrY0U3RVIyT2hYSFFHU1FIbjVGZnFnN0FxNG1Za3RPYXVjOWJhMURrNmxIQ0x3enZWbjVjUmY1dDhBYUdHb0YybEo2WlJFYTE5dWpLN0Jz?oc=5",
+        "pub_date": "Thu, 25 Jul 2024 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Ebay-Backed, Asian E-Commerce Company Giosis Lands $82.1M Series A - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQMS1oZjBLdmN6RkpPOWJJMVk3LTdRNXF4NVpoVXlGR3pLc0x1QWJxOW9ITFRRZ056TThiMG1zNWtWenhENDFHWHg2Q3VDU3JyTTMxUnB4alBwTlE5amc?oc=5",
+        "pub_date": "Thu, 23 Jul 2015 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Qoo10's CEO pledges personal assets worth $58M to compensate Korean merchants affected by its liquidity crisis - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTnlFZHhXbUZnUXVKcmtwRVBQOFNOREpkUUJLZXZhWlBQbTlzVVo0cVNad0lpN29hV1AxNWhJQ1o3VXBoREpsT0xyTUt0a3ZfUGxoeFJyMy1RakV5dTZ3cVVJZnVDOUVSN0p1TFVBNXM2YmtvcUthUUo2WFUyeHA0aGVKSmJ5QTlQOWJNV3hwbTNISzVnSkFKNUEwdWwyOUJSS3lFOVc0Q1lRQUdBSjJ1blN4eEo3Tk9WVEFqZWhwbkxZZkJMVEtLZmRxWlBBeExVbTNCRFE2WlRQa1E?oc=5",
+        "pub_date": "Tue, 30 Jul 2024 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Aventine Falls 11% After Pricing High; Gmarket Drops 1% - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNRE9yY1FFZXNGUGozNlB6cExrVXlxVnlwUWJTR0FVeHI2Z0tnSUc2UDRXaFdpSGRteWtNUDE3RkhCOFN0VVo1TVo2RlJuaHZvMjdzMTV6LTJCVDJlRm84X2hIQkQ5SXNjYzdrTGN5N0ZrQXRwNzJLcFd3aFA0MGVtNzVhcU1OcVN1YkFxaVU3bE5tbmdDX1Zsd2xJZV92SHIyVE5LbmUwSU1fQUdNS25RaVhVSlE3YU9SV3VoRWZSR0lHOWthWk1Eb25VNXdCbXNsZVBNemg1eVYtRlFPb2h2bFkyNm5XWGF2eFg1TldLVGM1eGlvWkQ3VlNKVlA0R29QZFRWSEtZd0hCUnJtSlF4OGRrNk1lT0J1QUpnNUhZVWJGMHZ2UTNwRG1YNXdUUmdGLU1idGJDRlBHOTl0cGozUDUzOE9aRzBuOUF3QmNKUW5iV2ZZQUtzYVc2aDhPQk5LeVlj?oc=5",
+        "pub_date": "Fri, 30 Jun 2006 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "E-mart, Alibaba Plan Online-Shopping Joint Venture - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNWjIyajVoRlAwVVdtY3pJUU9pZ0J3SU5tUnQ0YkhJVHhWMnBHVjI3U1JQaGpvZEtVTlJQYzJvRmd6R2EzNVJHajZsaFRaLWg3NG1WM1NPT295c3V6WTBjVXItR01kMm54SHJTNTdKVmpzNC1DMnc2Vi1TMWw0MUZrT3NMVks4VjRsZTNVMVpsTGhIbkpXb3VPVVV1djNlMk9MT01pdUtsbkZ2bkIyWUVZeWhZblREc2QwN1R2TWE3cGZvTTFheXpHMlVNWVE3dDlwbDRfUXlmSHFWZjRzMXpXU201b2t1cktVdGlsY2V6OVBkYUE4SXdtLXczYnh6aS1LVUFubzh2VENqU04ySDJJSkw3ZFJzZkwwRHBNUlpyUURPc25SOGxzazc5akFwZFpvTFBBbDM2X1hmM283TFZMdmpRUnFNYzF2RXBsTWxkcTBPYnNTb3FYWldIcWpZZ0t6R1pCTEYyaUFxcGQ3VGtiR0QwdHhYdDR3LUlJeWJVRUx3Y3J6VWdGODAwckNva2J5SG41Q3JB?oc=5",
+        "pub_date": "Thu, 26 Dec 2024 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Nation With Lowest Birthrate Is Rocked by Soaring Sales of Dog Strollers - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxOMmRzQnk2SnQ1TUJPT3Jhc2M3UUtfZ3h4d2dxSzJ5SnhnMzZlY0FscDlfdWY4Z19Kb2JJVk4yb0RZNXNjckZ6TXc4eER4TFFyNS1nd19ERnE5eDhXZFR4RnNMbEtEd01aZUhnRDRkakFnOHlCZUZvSFkzeXl4ZmtJdmZhLUlvaktkRmFQcXowTlNrekR0cG1rcXVRdm4zbWluVm1uOVY4R1BNeWRQaEpIVUs4a2pwMFJlbnhKc0hoWUpaYi14ekh1N1N3RmpYV0lFRy10RnhUdUhwcmRBX1BKekhJcHJCUXJiaFJEdmhuTkM3VDBIQ295NlhxQXZtSWZfNXc3b2trbUFNVmV2bFlEYldCd2FSMGhJcndUcWNLNDVmZzhpbHdmbmJTZ0kyTl9xSzUtRVczRVRsZFgtYnlfWFdEOE80eXh3UW5xMjZsV2VhNmxQMWtGWXdwYlMwVnJrTTREVlNWR3JXUDZTZ0sxOEp4dW5sbk9NYTBUcDhqYWg3dVVMU0RSVlpfZ0dLWFFGRnRoWWd3Tk1GZG1meGoyT1VIZ1VGVG8?oc=5",
+        "pub_date": "Sun, 08 Sep 2024 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "AlphaGo conquers Korean grandmaster Lee Se-dol - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hRHBoY1hzMjd6LUJmYUxxMTBZZzl5VmxabGhpWUNKdWNkWW9oNWowU3hWTzJEbTZRMk51aEFSLUdzMXZQT2ljNVVaQTV5dllXaUJUYmhBWjVManBHRnkyb3o4MGJ5M2lReDdFUE5Zc2k?oc=5",
+        "pub_date": "Tue, 15 Mar 2016 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Etailers battle to win ‘Amazon of South Korea’ crown - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tRUpPTEZTcXRFTjBLMmZhN1hBdk5UeURkVjlkS0c2eTdOVkMycUxsU1hKdGlFT19VT0JYU1ZfYmNzeTEySVVWcDNsSXAxbXNvTk5YMndCaHJOS2Q4NHZ4UlRLcUE4cG41a2VfMDFNNXU?oc=5",
+        "pub_date": "Tue, 01 Jan 2019 08:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Coupang’s New York listing clouded by worker deaths - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BS0tQQVBpOHg2U0FnRXNmWW10RHktLWZiQ01fWmgySTJPbHF1Ml9iU1VOODBQZEUta19sTDhXeTVXUE9vdkIyUksxNjRQdmFQVy1fX3BWVDJGci1SdXlRMnBZT0h3U3RpVmRsUVBZdWk?oc=5",
+        "pub_date": "Sun, 07 Mar 2021 08:00:00 GMT",
+        "source": "Financial Times"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "SK엔무브 ZIC, K-BPI 28년 연속 1위 달성…프리미엄 윤활유 브랜드 경쟁력 입증 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RT0pHU0h1QWVJamszMi1md3dsVW5vckVPZ211QlZIM1F3cV9lQTBOVnFLME8wbEJzU1FaNHM1VTBXZXFTYkxBdXdLbkJud2NHQjhabUU2SU00QdIBVEFVX3lxTE4yQktlM2NzVkx4b2NMenRRYklsanNrUGJkTk5FVjNBTEFwZUloQmk1R3NuYVI5QXF4TUg5VllzVWlOZkNSTF9LcGVFWnN5b0R6Y3R3aw?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 23:38:31 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "한경비즈니스 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IV191eTEzRlhIdFJ4ZlVvNGcxRWpORWFpT3QydUE2NXl1OXFYLXR6ajd0ZW9jQ3lkUWVXVEp4THBJX2p3SGp1cS1RTDVpVXhpa1dOUGxYRXRRQ2lJRXR6Q0xld1pURXM?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "한국경제신문의 프리미엄 디지털 서비스입니다. - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2xOZ1A5d0x5bEVCbnR3REZrMGZUb2NodmJHVWR4d05OMndiaU5mWERDb3MwWjBNZy1JYmVrUGYxUWhfLTFJakhtVnFjUFhKV3J6Q2k0YlpZRkJ1LUhvczBXT1A2dVFYcUxNVmhrclR0eXdnZHQ2dS1BYWRpdEN0Smhtdw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 14:20:33 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "G마켓·옥션, 설 빅세일 셀러 모집…물류 운영비 반값 혜택 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVElRWHBvTEZSeW9idXh3VjlwRk93c1RuSGYxQkx5S2xzZzdZVjRTUGVUTjhtTjhMeTVnTUZ1M3p4bzNNV19LcXZzdjZ0YXNiaWNrWGlnX1R6VlAyTXBzM0JCeFZPQkx3US1NMlNkVzdJWDB0RFREV0FDb09YRlhvc1JmYmNRcWlRNXfSAZ4BQVVfeXFMTkdISTVYZUtXdjZ4X2xIQnJHYVlLLWlhNmZjSS1kN2FDb3l6dWExaFRIT2RPUHlBbWVuZy15V1Nlb1B1Z2pIRjRGWXNzX2s4MkFTZWROdVZEaWdWZFA0cF8tYk00OElzYzJhY2xQLUpWeG9yX0VqRm1pMmlNSFN2WENHaGtFQlZMQUg2U0JJN2tmM2ZxSjl3bDBSb2k3OFE?oc=5",
+        "pub_date": "Wed, 14 Jan 2026 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "쿠팡 이용자 4일만에 181만명 감소…네이버·지마켓 반사이익 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWXo3OG5YUGtVbV96RjlEM2p4OUItdHpKNWpuc215clFVR1pxZzViX1FJSHBYVl9mazlzVk9kbG1CZEVEeUM3ZVVxd3Yxbld4UFQwbmNLXzVDM2hLX2ZCWEw3dGZaamJPV1Z6T0lEcERCUmx6bGpvOEliRnUtLVZHRDFUcldLOWJs0gGcAUFVX3lxTE1tZjZzSFB5UzJ5UURfZE9sOWNlN09naHJFVTFRUUpZeHUwZllrNVpLMWp2SmlvWDZ5WHVTLWlPR2VCeHhTZzNQUWxfR0RpbTUwZ3pTUHptYWl3Mjhaa01ybnRKTkVUMTZyMllrSFlMSmpxNjRIcWhIRzE3R0xvR3B6cDViQWo5S2pNRS1oZDR3UzZ2cURybG9zd3Yzbw?oc=5",
+        "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "지마켓 대표 “도용 의심 피해 발생…해킹과 무관” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMWMyeEhjbkhfcjMtZnY2b00tWmwzZ2lXMnFfRTZyMHlqUzRneG5Rb21VTG55U0VqOGxkOWpWSW44eTJTNkxQQ2hGUVlQRTQ5dVlwSldoX2VQbF9LZ0NidEhxcXpsNVFXVTJBclp1Nm50TDd0cXBWaWJIZGlpMWtUZ1FURFZxaWV0T1HSAZ4BQVVfeXFMTlZXalpYa09LTlA5ZUdKbXRPUDVzNmQyMldIQ1hJNS10UEtERHlObEZpa21hSnNqeGNISFFDbG54bF9zVGdWR19STmFnQlJseFVmTVdUamJibkZhNzQ3ZjBQUnNWTjE4MXk4bXRCemdEeG54dkFweFEtOGNPb05UQkVwY29FSVYxc2ZpUzcwcmdpV0dyV2k5SE9kRlo0REE?oc=5",
+        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "G마켓 협력 브랜드 매출 증가…\"한 달 치 매출 하루 만에\" - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BS05WTGNsSy0tNDJIU2ZfakhDc1V4eG82eGRNWGNLdHRvX1JaVjZGSV9SMVBQVVgyY1IwXzZ1Y3dra1ZMSmFleFhDekwtYTdvVHc?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 13:25:26 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "이마트(139480) 소폭 상승세 +4.06%, 4거래일만에 반등 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xRmZqS3ZuX1JzOVlQOG5ZVkFGcmtGaHBYZVpzeUFaOVRZejZPa3NOWWU1NWZwdmhHZkRfRHZFMVh0OTVFeFFqWlczS0hFUExYUXc?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 00:18:40 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "https://www.mk.co.kr/sitemap/daily-images/20251217 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QeVZqLVYyRWp6THRTajd1T2ZfM2t2MDZxMkJodnItRkg3YWF5NENSUmg4UElqbUZQRmE4Z2dyeUJMcnlXaHRGamxjaTd5U1o0QW42U05DUnFIeHctbGlv?oc=5",
+        "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "지마켓, TOPS 수행기관 선정…식품 소상공인 300개사 모집 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qeEZmdjJDZGRSUzBqVDdaSXNSbk9mcTM2NFppd2JfQXlyQW9fd0dPaFhBZ3VVVl9oelNONFBQWG43THdqVHlhaFU0alVtME0zUjZOOG13?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 01:47:45 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "BTS 광화문 공연 도심 통제에 이커머스 배송 '빨간불' - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43QVZZdTZBRVVLcDhDMndxVjlYS0ZIdndEWHVfSzVlZlZmdFNjeUY4YlVRcTlPT0lOWk54djJ3Z2ZmVm5iSFBvQWQwMFNmY2JaUHlwRndn?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:00:11 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "정용진 신세계 2년 성적표…오프라인 웃고·온라인 울고 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pdlIxOW9melluN2hfTDFPNjNnZndWdklKX3NJZGhwLUpscF94ME91NzJsRDNSbXpFbnFnOHhISUVhSDNRaWtRSk80UV9reW9qZ0NhcUFn?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 08:09:19 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[추락하는 이커머스] ④ '오픈마켓의 위기'.. 설 자리 잃은 지마켓 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Bb0FSOXUxY1F0RXM3eEM1NEpRMUlEU2ViTnFvVFlpQ21LR2YyNjh6aTZMSi1HdVRvbE4tM003MjYtQnpvNk1wRXZMa3NoWm1VNkFoVXVmcldxY1plRTkxQ2RZYzdlU2tw0gFsQVVfeXFMTmRFZzF1bVJjaEFIZEtqOWJLNjNBWl9EWFIxRldYS3Nsal9FMEViV3lzemx3Qld0M19aeFpSNTBtUEpSOE9DMkxnOWVMOUtzWmVyaWZDZFhYdDR4T3VlUXZiRXlXZkxqbjB0MEVh?oc=5",
+        "pub_date": "Fri, 22 Dec 2023 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "그랜드오푸스홀딩, 지마켓에 420억 출자 공시 정정 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IRDFNcFo0QXVUUUUyOUJWUVpLX19jOW5hdnFCc2FMVUZJNzFLRnQ5SHVKVHlOZ2VCVjhUVmgzTEVYMUo0STZaV0hEcmVNeXpRV2ZNaXlGVnk4bmg4UU1GYWg4dEdPSVQt0gFsQVVfeXFMTVBjdnhfeDVaVG9JdmdOU0lqXzdJakZ3d001S2NiRnZlRldRbHZoZUZZVk9nSWFfYzhhVEdZc016TndMNVFsWDVfZDdmbUZONHZ3NjRGZHhEZU9WZGh6d2JfaTc2RVFlV241OUhj?oc=5",
+        "pub_date": "Tue, 10 Mar 2026 07:51:06 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "신세계그룹·알리바바 손잡은 JV, 공정위 ‘조건부’ 승인 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5naVF1YzZIUDJKNkg4SkY4ejluWklDVHhPelcwZ3RqNVhnQTU1NWhpVnJDbndZV2pUeTNZLWFHOW5OQzA0ODA4SHE3V1FMSnNENUZ2UDRlVGQ2MlhsNUFHTmVPT1VMbVlR0gFsQVVfeXFMTndLVjd4UFlHS0R3OGk2VFRfS2ZQeXEwX2phdEYzblZVVFFDOEh4YjRrcVNqTjBkRF9RQ0dSUFNkN1p4RjVpZnc1M1ptTmNOb2tfTmtSNEFBQ1Q5ZkJHTDV6eEhwLU1nbzRLX0J0?oc=5",
+        "pub_date": "Thu, 18 Sep 2025 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[커머스BN] ‘연 7000억원 투자해 5년 내 GMV 2배’ 지마켓의 국내 전략은? - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vM3pMcTBsclJEMmEzWEhCSDIxWVh6LTFFQTRYbE91SU0tZDVKVTl2RzIzWExfZW5OZWcwNGRlUGdXOFdTNkYwNU5lZ3ZqczBsQ0pGMzkxcw?oc=5",
+        "pub_date": "Wed, 22 Oct 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "[커머스BN] 지마켓의 ‘원스톱 200개국 진출’ 전략, 경쟁력은? - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqX1lMdXJRZGhEaFhVYTdWODhNb2Fpa0VpdEFLNkFfMGgxS3F2ZmRUYXg1dk0wVkxWRVVNc0RwSWZzYXRDbnljdFl6RDVWVE50V3dRZEhRbmJXT28?oc=5",
+        "pub_date": "Thu, 23 Oct 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "’36개 포지션·두 자릿수 채용’ 지마켓, 연말 대규모 공채 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00bmp6LWRRUy04RHAwY1U0a2VIRi1yaUkxMDFzd3V0azNFRUIwZ2dvdXp2czl0V1VVQTdTOW5zVDhaNXpPSmRFeFpZaFhQYy12dlRUUQ?oc=5",
+        "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

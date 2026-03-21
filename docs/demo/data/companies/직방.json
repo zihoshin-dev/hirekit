@@ -1,0 +1,606 @@
+{
+  "company": "직방",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 11,
+  "sections": [
+    "strategy",
+    "culture",
+    "overview",
+    "tech"
+  ],
+  "data": {
+    "company_name": "주식회사 직방",
+    "company_name_eng": "ZIGBANG CO., Ltd.",
+    "stock_name": "직방",
+    "ceo": "안성우",
+    "address": "서울특별시 강남구 영동대로 731 지하 2층, (청담동, 신영빌딩)",
+    "industry_code": "58221",
+    "established": "20101119",
+    "homepage": "www.zigbang.com",
+    "ir_url": "",
+    "stock_code": "",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      },
+      {
+        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+        "link": "https://blog.naver.com/serohero/224199063326",
+        "pub_date": "20260228"
+      },
+      {
+        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+        "link": "https://blog.naver.com/jobpass_/224197697044",
+        "pub_date": "20260227"
+      },
+      {
+        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+        "link": "https://blog.naver.com/study_edu_/224193834977",
+        "pub_date": "20260224"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "회사 주도로 직원의 AI 도입을 추진위한 실천 로드맵",
+        "description": "개인 주도 회사 주도 학습 동기와 방향이 들쭉날쭉하다 조직... 제공 전략적 정렬(Strategic Alignment) AI 활용 목표가 매출 확대인지, 원가 절감인지 명확해져야 투자도 집중됩니다. 경영진이 비전을...",
+        "link": "https://blog.naver.com/gptko/223891425253",
+        "pub_date": ""
+      },
+      {
+        "title": "[O2O특집]부동산 패러다임 전환, 게임체인저로 나선 '직방'",
+        "description": "직방은 주거와 관련된 종합 부동산정보 플랫폼으로 거듭날 방침이다. 비전과 사업 방향이 같은 기업을 인수하거나 투자해 사업을 확장한다.... 다래전략사업화센터, 'MWC 2026'서 한국 우수기업 9개사 글로벌 데뷔...",
+        "link": "https://www.etnews.com/20190526000093",
+        "pub_date": ""
+      },
+      {
+        "title": "직방, 스마트홈 사업 본격화…10년만에 CI 전면 교체",
+        "description": "직방 안성우 대표는 22일 ‘리브랜딩 미디어데이’를 열고 새 로고를 공개하면서 스마트홈 사업 비전 등을 설명했다. 이날 공개된 새 로고는 직방의 리브랜딩 슬로건 ‘Beyond Home’을 의미한다. 중앙에 위치한 집...",
+        "link": "https://www.tfmedia.co.kr/news/article.html?no=135465",
+        "pub_date": ""
+      },
+      {
+        "title": "“DT는 CEO 의지⋯ 공부하는 리더십 필요”",
+        "description": "DT 전략과 디지털 생존에 대해 알아봤다.&quot;엔데믹 시대, 무늬만... IGM세계경영연구원 교육사업본부장, 한양대 경영교육원 FIT(Future... 또 부동산 중개 스타트업 ‘직방’은 전 직원 원격근무 시스템으로 전환해...",
+        "link": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=22339",
+        "pub_date": ""
+      },
+      {
+        "title": "[현장+] 프롭테크 어벤져스 4인방, 부동산 시장 어떻게 혁신할까?",
+        "description": "이 과정에서 방향성이 맞는 분들과 함께 시장 변화를 주도하는 일이... 찍고 사업에 임하고 있다”고 전했다. 국내 최대 셰어하우스... 이날 직방은 비전 2022도 함께 제시했다. 2022년은 직방이 서비스 10년 주년을...",
+        "link": "https://www.inthenews.co.kr/news/article.html?no=17133",
+        "pub_date": ""
+      },
+      {
+        "title": "AI·빅데이터 기반 공공임대주택 사업지원 통합플랫폼 구축 기획",
+        "description": "내역사업명 (해당 시 작성) AI·빅데이터 기반 공공임대주택 사업지원 통합플랫폼 구축 기획... 포함) ○ 전략계획서 연구개발성과 활용계획 및 기대 효과 &lt;연구개발성과 활용계획&gt; ○ 공공매입임대주택 사업...",
+        "link": "https://www.codil.or.kr/filebank/original/RK/OTKCRK240011/OTKCRK240011.pdf",
+        "pub_date": ""
+      },
+      {
+        "title": "경기도, AI 9대 전략 ‧ 52개 주요사업 발표… AI 글로벌 생태계 1등 목표",
+        "description": "주요 사업 52개를 추진한다. 도는 ‘AI 비전 및 9대 전략’에서 ‘AI 휴머노믹스를 통한 포용·공존·기회의 경기도’를 비전으로 제시하고 산업, 도민, 기반 등 3개 분야에서 9대 AI 전략을 기반으로 한 52개...",
+        "link": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=s017&number=65686",
+        "pub_date": ""
+      },
+      {
+        "title": "[IT비즈썰]직방, 스마트홈 진출로 엿보는 확장 전략",
+        "description": "다만 직방 사업 확장 전략을 보면, 하드웨어 기술 확보를 통한... 이외에도 직방이 인수한 업체 면면을 보면, 직방의 사업 확장 방향성이... 스마트홈 비전을 위한 시너지를 내는 데 주력하겠다&quot;고 말했습니다....",
+        "link": "https://www.bloter.net/news/articleView.html?idxno=45197",
+        "pub_date": ""
+      },
+      {
+        "title": "인구구조, AI, 옴니채널 등이 바꾸는 기업의 부동산 전략 [삼일 이슈 프리즘]",
+        "description": "전략 재편 시 고려사항 부동산 전략 재편은 기업의 유동성과 사업모델... 분산하는 방향으로 이뤄져야 한다. 최근 모든 산업 영역에서 적용되는 인공지능(AI)을 고려해 전략을 수립하는 것도 필수적이다. 부동산은...",
+        "link": "https://v.daum.net/v/20250619150106427",
+        "pub_date": ""
+      },
+      {
+        "title": "zigbang ESG Report 2023",
+        "description": "재무성과는 연결기준, 비재무 성과는 직방 국내 사업장을... (주)직방 / 서울특별시 강남구 영동대로 731, B2 직방 사회적가치전략실... 주거 공간에 대한 남다른 이해와 비전을 가진 직방은 월패드 및 도어락...",
+        "link": "https://company.zigbang.com/zigbang-esg-report.pdf",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "직방, 'AI중개사 서비스' 아파트부터 비아파트까지 확대 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14S2RsRHNieGM4QzlraVd4VmlqNGpPWk1tdmMybVJZMy1wS3hDMkRIeHZvUWdqdktqOHpRTlR5VUpGQm5XMHVXcTUyLXNZMUZqLWdV?oc=5",
+        "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "캡스톤파트너스, 직방·당근 초기투자…유니콘 발굴력 입증 [VC 포트폴리오 레이더 (3)] - 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45dE5ibnM4QzAzYVVGd0VZNkJnRVRWQ3hFUG5yNk8td29EMkdUa1FLQnJtNGZZNG5nMFBfMlhlS3dlR0g1bnZkUnNTQnBGQm9JU2JuUHJ4NjV3dlc1RWdGcERndWFwbFg2ZGlxWmJHMmF2eUY3SFQtTUEwT00?oc=5",
+        "pub_date": "Mon, 16 Jun 2025 07:00:00 GMT",
+        "source": "한국금융신문"
+      },
+      {
+        "title": "인크루트, 하반기 취업전략 알려준다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LeDFOTEQ4NWJOeGl0VHZtYXU4WGdaUVdtUHNmLWpJeWhHUTVhcXlySlNlOGhKaFBmeGItVHBPQlNrZ256bldvY0F0Y1NzYk5FU09GbTZR?oc=5",
+        "pub_date": "Tue, 29 Aug 2023 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "부동산플랫폼 직방, 유니콘되고 어떻게 일할까 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 - 잡플래닛",
+        "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNQllXUy12TDN5dmpiWjFBQzNjU0g0SDhWTnlROTlDdVhYaFgwVEo2ZEFMeE5URFkyUzlDVUlkSVJxbURORTRLZW53cEhtRjhwQnVWaUtYMkJ2c0pRaU9hUUcxdUZWRzZ4NmdvckVRck9TMWpjUkZCSVFFM0F0TmZjUS1qb1FoZVNwLW92Rjc1ODdjQkFmOXBNTUpLQ19zdUNlb3dGbVdWUXJFenhrSndXZ3Zvc1FGMC14TzVGN2pVR29GN3ozX09LdXBVTjVTdlFJLWU4UlJJcngxcUFEaUFYbjFVV19ZRTZLd19uOHVuVi1LWl9hd09qdTVzVTFObUpnMDBaN3lVdkZGWnItdjVIYXdjUnl1Ukh0Rk5PcGlmRlZ4ZllZQmQzQnpDNDVlSWhOQjhYbHJILTA5RjFLOVN3Mml2RWY?oc=5",
+        "pub_date": "Fri, 13 May 2022 07:00:00 GMT",
+        "source": "잡플래닛"
+      },
+      {
+        "title": "직방 실적 턴어라운드, VIG 승부수 통했다 - 뉴스톱",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GMnlmczROQlNuUmpZYVdNMEljNjdrU2tfVUtEcFpHQV95d3haa1A0UzNTS2NQSlZCUWRHT1hTcW1pMXpqS2dqMFZOZ2x1VHVzdnRSN1FsbGRteVRBT3JCemdxZ1I5NXU1b08wS2hiYw?oc=5",
+        "pub_date": "Mon, 02 Mar 2026 08:00:00 GMT",
+        "source": "뉴스톱"
+      },
+      {
+        "title": "본업도 신사업도 들쭉날쭉… ‘사업 방향’ 못 잡은 직방의 자화상 - 더스쿠프",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JSURVcEQ2SWxOckljenRseEZyRFZfd1hKZ1BiUGxtWWtjcU4tOU5hbGFZaG1JVW9WTl9sUmI0UUhSNU9ZN0N3TFVzd2ZDSWtjTkVGLVV0Rnl0Z21UZWhjRUxXUVNqTFJHa0tKM1pB?oc=5",
+        "pub_date": "Wed, 28 Jan 2026 08:00:00 GMT",
+        "source": "더스쿠프"
+      },
+      {
+        "title": "직방, 적자폭 30% 감소로 실적 개선 신호…1분기 영업이익 흑자 전환 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1WeVlsTF9Qb0h5bWZxcF9BOFR3ZHl1SldDVTJMcVN1bUtoVV9Vaml6NXhLeHYxOHJmNGRfbU1CVk1seTVveGh6Sw?oc=5",
+        "pub_date": "Mon, 14 Apr 2025 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "직방, 벌써 4년째 적자…안 풀리는 중국 사업 - 뉴스드림",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NY2tnSmZaa1c2RnZCQ044MlJURXJDZkRtRW5raVBoU3ljcFNtRjFTdUtMVUZ3UFVSSmFlVVRiTDI1ZFRHWVFLeTNGODB4aFVGd1lJR2psZk9TNzBzYkN4TjVIbGxWWVpP0gFsQVVfeXFMTkxKeUlDX1c2cnRKR3RiOXhYd19XWVlidGtGMXg0YS1YQUJ0QXlrZzlZX1dpLVdlcEtCQ2drdU1wNjQtUVY2aFBKa3RGMHROaENFRkxIQnY3V3luM0s2a003TlhOTnVHRFVjdTN1?oc=5",
+        "pub_date": "Mon, 14 Apr 2025 07:00:00 GMT",
+        "source": "뉴스드림"
+      },
+      {
+        "title": "직방, 지난해 매출·적자 다 줄어...\"올해 실적 개선\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pbjRuWk1iT2lNUlRONTQxYkJmbUNhTHQ2Q2l2N3lCQV9XUzQyaS12cFlpWHVmaHpURGplWEJVWElYRno3dzlFc1Vkc3ZveW1hLTBCZkZn?oc=5",
+        "pub_date": "Mon, 14 Apr 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "4년 연속 적자 탈출 노리는 직방…新사업모델 발굴·서비스 강화 - 아시아투데이",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lRnREdFVPSEFDdFRnQ2U4cVoxV0t6SjBDWlF6OGVUNWdXQ3VhMFZGVjlRUC1aQ1ptdVdOcWxLVWh5VU9qYXduUWxHNmduaWdoZDE1Sk5PVml6UFdMSVNnQVZmNDNnVVo4ZFgtYVZR?oc=5",
+        "pub_date": "Wed, 14 May 2025 07:00:00 GMT",
+        "source": "아시아투데이"
+      },
+      {
+        "title": "[진단_유통업계 ③직방] 안성우 대표의 직방, 비용 구조 불변·부실채권 관리 실패로 시장 신뢰 흔들… IPO 재도전 ‘가시밭길’ - 뉴스워커",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15WlNGX3lVdFBUSXlYTVpnM3NSY05Tc1RGNnNmLUpjSVhOZzFFbHpsYVVERnpQWDlXTHhCYmdCSW9sWV9sOGhvQlZzZWpzT3BldnVPS3VydzFheU9hbjhVc091UFZhTU12VlpsRlZfd9IBc0FVX3lxTE9Oc05rekRIWThQZWZ4RklhYUdHakd0VjFEREwybWhHUW1fZzRGcDZBWU5uZm1VLWZ3bnZDWnFYMGFOZ2dXc3kxVm1IdWw4bXhPUTF2RVVwcjRhTUkyM1hSaUJuMWtPeTJJUlFBMFBpdEREcUk?oc=5",
+        "pub_date": "Wed, 27 Aug 2025 07:00:00 GMT",
+        "source": "뉴스워커"
+      },
+      {
+        "title": "직방, 실적 개선세 이어간다…600억원 투자 유치 - 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VYVhpWFRaVDlMWXFVeXJCcGxBbFNmMEcyNENfaWp5VzVMQ0VoNjdhNTlFZWRXQVM0dnFNVlF3Q0NPamJkTHdyanRhYXdRcUR6WWlKcmFWbHlNcEduOTVLMjl1OTBfaTdCeVp5SFV1NUVLWk9tWDQ1RHVzNng?oc=5",
+        "pub_date": "Fri, 09 May 2025 07:00:00 GMT",
+        "source": "한국금융신문"
+      },
+      {
+        "title": "직방, 적자폭 30% 개선… 2025년 실적 턴어라운드 - 경남대학교 교육방송국",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RcmNvOHFRQU5ScW9tUktDU2VLN3JaNDZlR3VqaEloY1JQWk5CcFZOMEtrY3IwTjNCdDJTODBHWjFuUk5kajJyaXZjdW5UNFVrVHFja2dSOGtSeDB2ZjVjWHdCVFl4YjFpMzFF?oc=5",
+        "pub_date": "Wed, 16 Apr 2025 07:00:00 GMT",
+        "source": "경남대학교 교육방송국"
+      },
+      {
+        "title": "직방·다방, 앞다퉈 AI 매물 추천 기능 준비...확장보다 내실 다지는 프롭테크 - 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vbWQ4OVNuS21MR0R3UEh6b0ppaXJNck00Y2lTQUJPMC1SX2RTRUxXcjloWER4VVJ6b21MOVFjOGxGSTZvY216MElIWTNwM0VrX09OWFJyODdld9IBWEFVX3lxTFBiMW9RcmFqYUI4S3V2WkFsTDhtRm01Y0RibkhDY3hpenBzQUhmSmh3cjRTdlA0anl2OXNNSUJZbmtFSEdrZVQ2S2NmNllYczVsajAtMGIxX3M?oc=5",
+        "pub_date": "Tue, 03 Jun 2025 07:00:00 GMT",
+        "source": "아주경제"
+      },
+      {
+        "title": "신사업 론칭했지만 아직도 ‘손실 중’ : 직방의 불안한 미래 - 더스쿠프",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HYXpVT3NReTdyMWlOcXJ1X1RKSlZud1p5NVFPRkhNNlBOeW1IVjQxYS1CcVZBbkRXTmFpRXpuZHViTl93Vm9ZOHFpN1EyTW84Y1B6MG90VWYwaklBdUtYQ3phMGowRWhIenZNZmZB?oc=5",
+        "pub_date": "Fri, 18 Apr 2025 07:00:00 GMT",
+        "source": "더스쿠프"
+      },
+      {
+        "title": "직방, 지난해 영업손실 287억…\"아파트 로비폰 출시해 실적 개선\" - 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xUHgyRFZFaHlEemhNT01ONlkydjFEQU5QTXZNdzVyRFBIUnlCajVaak1GTXJoSTFGWGF6bjlrVk9Qb2Z1ckdIZWY4OEE1cXRsc0xYODd3MHNvTUN2?oc=5",
+        "pub_date": "Mon, 14 Apr 2025 07:00:00 GMT",
+        "source": "뉴스핌"
+      },
+      {
+        "title": "직방에 몰린 투자금 3000억, 프롭테크 불황에 회수 어쩌나 - 마켓인",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qT3B3UHpzWG5ZRDVvVkEyNk1GSldubmx6ZzREMkYwbGlmVVpRcWk3d0RMOUpfTlc2dVZQRC1vWjdQa051WjN5MUtlNG53V1R1ZnV1ZExwTlhIUEVYdDlTQ2xWeGwwYXpQR1lhbWtfZXJvQQ?oc=5",
+        "pub_date": "Tue, 13 Aug 2024 07:00:00 GMT",
+        "source": "마켓인"
+      },
+      {
+        "title": "부동산 '앱' 1위 직방, 최대 3조 IPO 추진계획 흔들…실적부진 발목 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GVWxqYzFEQXBDblpwR0trd09VSmVjQm1kUzFEalNrZ3AzNnNYeTNDTmJ3TEFyTWszR2RCWlVtSWZyUDA1VDExMHZfN0xmYVg4cHZV?oc=5",
+        "pub_date": "Tue, 22 Apr 2025 07:00:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "정육각 따르는 직방…박서준-전지현도 속수무책 - 딜사이트",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tOHJuN0dlalhXVk1fUnQwZEItQklLTGpGUWtWQ0UxYUxCdVpUeXpmYW93aHJ1Q2oyV05pX0tYTngwWnNEWHNHNkFWZk5xaGc?oc=5",
+        "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
+        "source": "딜사이트"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "2026년 주식회사 직방 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/15009170/",
+        "description": "기타성공적인 삶과 일의 성취감을 함께 이야기 하는 회사 직방은 <strong>구성원들에게 회사 자체가 목적이 아닌 삶의 목표를 달성하기 위한 수단으로서 든든한 밑거름이 되고자 합니다</strong>."
+      },
+      {
+        "title": "직방 기업정보 - 채용 6건, 업력 16년, 서울 서초구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/80",
+        "description": "직방 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "문화 적합성을 고려한 채용 방법: HR 전문가를 위한 전략",
+        "url": "https://clickup.com/ko/blog/164553/how-to-hire-for-culture-fit",
+        "description": "진화하는 다양성, 형평성, 포용성 요구사항을 해결하기 위해 정기적으로 전략을 평가하고 조정합니다 · <strong>지원자에게 회사 문화 전반을 몰입감 있게 보여주는 것은 중요한 채용 전략</strong>입니다."
+      },
+      {
+        "title": "채용 공고로 숨은 인재 끌어오는 특별 전략 5가지 - 나인하이어 블로그",
+        "url": "https://blog.ninehire.com/insight-job-posting-strategy",
+        "description": "중요한 것은 <strong>우리 회사에 본래 있는 복지를 단순히 나열하는 수준을 넘어, 페르소나별 하이라이트를 골라서 채용 공고 및 관련 콘텐츠 상단에 노출하는 것이 핵심</strong>입니다."
+      },
+      {
+        "title": "㈜직방 2025년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/1866128",
+        "description": "또한, 반대로 다른 ... 중요합니다. <strong>팀 내, 팀 간, 회사 전체의 목적을 달성하기 위해 정보를 공유하고 자기의 역량을 적재적소에 투입하는 것이 필요</strong>합니다...."
+      },
+      {
+        "title": "GitHub - milooy/remote-or-flexible-work-company-in-korea: 한국에서 원격근무 혹은 자율출퇴근이 되는 회사 리스트를 아카이브합니다 · GitHub",
+        "url": "https://github.com/milooy/remote-or-flexible-work-company-in-korea",
+        "description": "그리고 팀 인포크는 이런 좋은 문화를 계속 지키고 발전시킬 책임이 있습니다. ... 인생의 의미와 행복에 대해 고민할 수 있는 사람들이 모여 있습니다. 커리어와 관련된 것이 아니더라도 무엇이든 몰입해 본 열정이 있는 사람들입니다. 하하! ... 직방에서는 모든 직방러들이 프로답게 업무를 잘 수행할 수 있도록 장려 지원 정책을 운영하고 있습니다."
+      },
+      {
+        "title": "[리크루터뷰] 개발자의 성장과 기업의 성공을 이끄는 데브렐 - 그리팅 블로그",
+        "url": "https://blog.greetinghr.com/recruiterview-4/",
+        "description": "SNS, 뉴스레터, 기술 블로그, 컨퍼런스 등 다양한 채널에서 개발자 분들께 우리 회사의 기술과 개발 문화를 소개하기도 하고, 이외에도 내부 개발자 분들이 몰입해 일할 수 있는 개발 문화를 만들기 위해 지원하고, 기술 역량을 키우기 위한 교육을 기획하기도 해요. 이처럼 데브렐은 개발자와 관련된 채용 브랜딩, 조직문화 서포트, 리텐션 등 모든 일을 다룹니다."
+      },
+      {
+        "title": "직장 문화 - Emergenetics",
+        "url": "https://ko.emergenetics.com/apac/workplace-culture/",
+        "description": "사람들이 문화적 적합성에 ... 높기 때문에 채용 관행을 강화할 뿐만 아니라 문화를 공유하면 더 나은 후보자를 유치하는 데 도움이 됩니다. 이러한 장점을 모두 갖춘 &quot;문화는 아침 식사로 전략을 먹는다는 속담은 ..."
+      },
+      {
+        "title": "2025년 채용 전략 설계 : 탁월한 인재를 만나는 준비 가이드 | flex 공식 블로그",
+        "url": "https://flex.team/blog/2024/12/19/2025-hiring-strategy/",
+        "description": "채용 전략을 수립하면서 동시에 신경써야 할 것은 채용 브랜딩입니다. 필요로 하는 역량을 갖춘 후보자도 중요하지만, 회사의 일하는 방식과 컬처핏에 공감하고, 함께 원팀이 될 수 있는 인재를 만나는 것이 장기적인 성장에 기여하기 때문이죠."
+      },
+      {
+        "title": "(주)직방 2026년 기업정보 | 기업리뷰 530건, 연봉정보 293건, 면접후기 386건, 복지정보 42건, 채용공고 0건",
+        "url": "https://www.jobplanet.co.kr/companies/8893/landing/%EC%A7%81%EB%B0%A9",
+        "description": "(주)직방 기업정보 - 산업: 솔루션/SI/ERP/CRM, 기업형태: 중소기업, 사원수: 350명, 설립: 2010.11.19 | (주)직방의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "Zingbang Career: Process",
+        "url": "https://career.zigbang.com/en/process",
+        "text": "Zingbang Career: Process\n\n### How to Apply\n\n## Process\n\n## Hiring Process\n\n### Application\n\n### Interviews\n\n### Final interview\n\n### Salary Negotiation Review\n\n### Offer\n\n#### 01. Application\n\nApplication is the first step in Zigbang's hiring process. This is your opportunity to tell us all about yourself. Results of your application will be notified within 1~2 weeks. You may be directed to take a coding test or given a pre-interview assignment, depending on the role you have applied to.\n\n#### 0",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "직방 채용",
+        "url": "https://career.zigbang.com/work",
+        "text": "직방 채용\n\n채용 지원하기\n\nLet’s pioneer our home to the next level.\n\n- 채용 지원하기\n\n## 한 발 앞서 내일을 찾아나서는 Smart Pioneer 입니다\n\n### Vision Vector\n\n우리는 같은 꿈을 향해 서로를 믿고 함께 발전시켜 나갑니다.\n\n### Performance\n\n우리는 업무의 깊이와 영역을 넓혀나가는 성장하는 전문가입니다.\n\n### Teamwork\n\n우리는 협업의 힘을 믿고 함께 모여 해결해야하는 문제를 풀어갑니다.\n\n## 오늘보다 나은 내일을 위해, 일하는 문화를 만들어 갑니다\n\n### Communication First\n\n팀플레이를 위해 커뮤니케이션을 가장 중요시합니다.\n\n### Agility\n\n효율적인 문제 해결을 위해 유연성과 확장성을 갖춘 애자일 조직을 구성하여 변화에 대응합니다.\n\n### P",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "직방부동산중개파트너스㈜ 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/recruit/co_read/c/ontactpartners",
+        "text": "직방부동산중개파트너스㈜ 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n직방부동산중개파트너스㈜\n\n부동산·중개·임대\n\n216\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유\n\n## 기업 사진/동영상\n\n--\n\n## 기업정보\n\n부동산·중개·임대\n\n240명\n\n중소기업\n\n2021.06.14\n\n(6년차)\n\n최숙\n\n부동산중개\n\n국민연금, 건강보험, 고용보험, 산재보험\n\nhttps://company.zigbangpartners.com/\n\n서울 서대문구 홍연길 77 (연희동, 한인트윈빌) 202(A-5)호\n\n| 기업 상세 정보 | 산업 | 사원수 |\n| --- | --- | --- |\n| 기업구분",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "직방 기업정보 - 채용 3건, 업력 16년, 서울 서초구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/80",
+        "text": "직방 기업정보 - 채용 3건, 업력 16년, 서울 서초구 | 원티드\n\n# 직방\n\nIT, 컨텐츠서울 서초구17년차(2010)\n\n01. OUR MISSION 믿을 수 있는, 편리한 주거정보 플랫폼을 만든다. ‘집’을 투자의 수단이 아닌 라이프스타일의 관점에서 바라봅니다. 살아갈 곳을 찾는 과정에서 신뢰할 수 있는 편의를 제공하고, 생활하는 동안 더 나은 주거환경이 되도록 하는 것이 우리의 임무입니다. 집을 구하는 이용자와 집을 내놓는 임대인, 공인중개사 모두에게 유익한 부동산 정보 플랫폼으로서 주거 문화를 선진화 하는 것이 목표입니다. 02. ZIGBANG LAUNCHING 대한민국 대표 Proptech No.1 플랫폼 직방! 직방은 오피스텔, 원룸, 투룸 뿐 아니라 아파트까지 대한민국의 부동산 정보를 제공하는 모바일/온라인 서비스입니다. 바쁜 현대인들이 집을 구할 때 직방에서 미리 보고 부동산중개소를 찾아가게 함으로써 살아갈 곳을 정하는 데 드는 시간을 줄여줍니다. 무엇보다 신뢰할 수",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "㈜직방 채용 - 2026년 진행 중인 공고 총 4건 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/1866128/recruit",
+        "text": "㈜직방 채용 - 2026년 진행 중인 공고 총 4건 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n채용중\n\n㈜직방\n\n모바일·APP\n\n219\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유\n\n# 채용 정보\n\n## 리스트 정렬 순서 선택\n\n- 마감 141건\n- 진행중 4건\n- 전체 145건\n\n등록순 등록순 마감순\n\n## 채용 진행 중 직무\n\n- 광고영업\n- 서비스영업\n- 경영·비즈니스기획\n- 직무전체\n\n[직무리스트 열기](j",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "직방, ‘AI중개사 서비스’ 전 주거유형으로 확장... “부동산 검색 플랫폼에서 AI 의사결정 인프라로” < 기업 < FOCUS < 기사본문 - 인공지능신문",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=38707",
+        "text": "직방, ‘AI중개사 서비스’ 전 주거유형으로 확장... “부동산 검색 플랫폼에서 AI 의사결정 인프라로”\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n직방, ‘AI중개사 서비스’ 전 주거유형으로 확장... “부동산 검색 플랫폼에서 AI 의사결정 인프라로”\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n- 댓글 0\n- 입력 2026.02.20 18:30\n- 기자명 박현진 기자\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n#### 데이터 자산 기반 초격차, 플랫폼 영향력 확대\n\n사진:직방\n\n국내 대표 프롭테크 기업 직방(대표 안성우)이 ‘AI중개사 서비스’를 전면 고도화하고 적용 범위를 원투룸·오피스텔·빌라까지 확대했다. 기존 아파트 중심이던 대화형 검색을 전 주거 유형으로 확장하면서, 부동산 플랫폼을 단순 매물 검색 서비스에서 인공지능 기반 의사결정 인프라로 전환하겠다는 전략이다.\n\n이번 업데이트로 사용자는 아파트뿐 아니라 원투룸·오피스",
+        "score": 0,
+        "published_date": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "title": "Companies continue to splash out on AI, despite disillusionment ...",
+        "url": "https://www.itpro.com/business/business-strategy/ai-investment-increase-2026-gartner",
+        "text": "Companies continue to splash out on AI, despite disillusionment with the technology | IT Pro\n\nCompanies continue to splash out on AI, despite disillusionment with the technology | IT Pro\n# Companies continue to splash out on AI, despite disillusionment with the technology\nAI investment is precipitating colossal revenue increases in the semiconductor industry\nJane McCallion's avatar\nBy\n[Jane McCallion](https://www.itpro.com/",
+        "score": 0,
+        "published_date": "2026-01-16T00:00:00.000Z"
+      },
+      {
+        "title": "직방, ‘AI중개사 서비스’ 전 주거유형으로 확장 |",
+        "url": "https://heraldk.com/2026/02/19/%ec%a7%81%eb%b0%a9-%e2%80%98ai%ec%a4%91%ea%b0%9c%ec%82%ac-%ec%84%9c%eb%b9%84%ec%8a%a4%e2%80%99-%ec%a0%84-%ec%a3%bc%ea%b1%b0%ec%9c%a0%ed%98%95%ec%9c%bc%eb%a1%9c-%ed%99%95%ec%9e%a5/",
+        "text": "직방, ‘AI중개사 서비스’ 전 주거유형으로 확장 | (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: \"ca-pub-2087225769357406\", enable_page_level_ads: true }); --\n\n-- --\n\n원룸·오피스텔·빌라까지 확대데이터 자산 기반 영향력 확대\n\n| [직방 제공] |\n| --- |\n\n[헤럴드경제=신혜원 기자] 국내 프롭테크 기업 직방이 ‘인공지능(AI)중개사 서비스’를 전면 고도화하고 적용 범위를 원투룸·오피스텔·빌라까지 확대했다. 기존 아파트 중심이던 대화형 검색을 전 주거 유형으로 확장하면서, 부동산 플랫폼을 단순 매물 검색 서비스에서 AI 기반 의사결정 인프라로 전환하겠다는 전략이다. 이번 업데이트로 사용자는 아파트뿐 아니라 원투룸·오피스텔·빌라 매물도 자연어 대화로 탐색할 수 있다. 관리비, 주차 여부, 엘리베이터 등 임차 수요자가 중시하는 조건을 일상적인 표현으로 입",
+        "score": 0,
+        "published_date": "2026-02-19T00:00:00.000Z"
+      },
+      {
+        "title": "최적의 원투룸·오피스텔·빌라 찾는다…직방, 'AI중개사' 고도화 - 머니투데이",
+        "url": "https://www.mt.co.kr/future/2026/02/20/2026022016402370275",
+        "text": "최적의 원투룸·오피스텔·빌라 찾는다…직방, 'AI중개사' 고도화 - 머니투데이\n\n로그인| 회원가입\n\n닫기\n\n## 최적의 원투룸·오피스텔·빌라 찾는다…직방, 'AI중개사' 고도화\n\n[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다.]\n\n프롭테크 기업 직방이 'AI(인공지능) 중개사'를 고도화해 서비스 적용 범위를 기존 아파트에서 원투룸·오피스텔·빌라까지 확대했다고 20일 밝혔다.\n\n이번 고도화로 사용자는 아",
+        "score": 0,
+        "published_date": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "title": "직방 'AI중개사' 전 주거 유형으로 확장…빌라·오피스텔도 대화형 검색",
+        "url": "https://mobile2.newspim.com/news/view/20260220000664",
+        "text": "직방 'AI중개사' 전 주거 유형으로 확장…빌라·오피스텔도 대화형 검색\n\n자연어 기반 대화형 탐색·대안 제시 기능 도입 데이터 자산 기반 추천 고도화…수익 모델 개선 기대\n\n[서울=뉴스핌] 송현도 기자 = 직방은 'AI중개사 서비스'를 고도화하고 적용 범위를 원룸·투룸, 오피스텔, 빌라까지 확대했다고 20일 밝혔다. 아파트 중심이던 기존 대화형 검색을 전 주거 유형으로 넓혀, 단순 매물 검색 서비스에서 인공지능(AI) 기반 의사결정 지원 플랫폼으로 전환한다는 전략이다.\n\n직방 AI중개사 서비스 전 주거유형으로 확장 [사진=직방]\n\n이번 업데이트로 사용자는 일상적인 표현을 통해 다양한 주거 유형의 매물을 찾을 수 있다. 관리비, 주차 여부, 엘리베이터 등 수요자가 중시하는 조건을 입력하면 AI가 이를 분석해 적합한 매물을 제안한다. \"조용한 동네\", \"학군 좋은 곳\", \"2호선 라인 원룸\" 등의 표현과 아파트 브랜드명 검색도 가능하다. 위치가 모호할 경우 AI가 재확인 질문을 통해 정",
+        "score": 0,
+        "published_date": "2026-02-20T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "직방 기술 블로그",
+        "url": "https://medium.com/zigbang",
+        "text": "직방 기술 블로그\n\nSitemap\n\nOpen in app\n\nSign up\n\nSign in\n\n[Medium Logo](https://med",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "MLOps Done Right: GitGuardian's Battle-Tested Open-Source Stack",
+        "url": "https://blog.gitguardian.com/open-source-mlops-stack/",
+        "text": "MLOps Done Right: GitGuardian's Battle-Tested Open-Source Stack\n\n#### Michaël Romagné\n\n| Michaël is a Machine Learning Engineer at GitGuardian, focused on integrating advanced NLP models into the platform and implementing MLOps best practices across the company. LinkedIn |\n| --- |\n\nToday's Machine Learning Engineers are no longer confined to experimental notebooks – they are architects of production-ready AI systems that dr",
+        "score": 0,
+        "published_date": "2024-11-27T00:00:00.000Z"
+      },
+      {
+        "title": "A curated list of awesome engineering blogs, handbooks ... - GitHub",
+        "url": "https://github.com/upgundecha/awesome-engineering",
+        "text": "# Repository: upgundecha/awesome-engineering (from template upgundecha/awesome-testing-courses)\n\nA curated list of awesome engineering blogs, handbooks and open source repos from top technology companies\n\n- Stars: 171\n- Forks: 33\n- Watchers: 171\n- Open issues: 6\n- Primary language: HTML\n- Languages: HTML\n- License: Creative Commons Zero v1.0 Universal (CC0-1.0)\n- Topics: awesome, awesome-list, culture, engineering, software-engineering, te",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Top 10 Engineering Blogs to Follow for the Latest Technological ...",
+        "url": "https://careers.logixtek.com/top-10-engineering-blogs-to-follow-for-the-latest-technological-insights/",
+        "text": "Top 10 Engineering Blogs to Follow for the Latest Technological Insights - Logix Technology Careers\n\n# Top 10 Engineering Blogs to Follow for the Latest Technological Insights\n\n- December 3, 2024\n\nStaying up-to-date with the latest advancements in technology is crucial for full-stack engineers to enhance their productivity and efficiency. Engineering blogs serve as valuable resources, providing insights into new technologies, best practices, and indust",
+        "score": 0,
+        "published_date": "2024-12-03T00:00:00.000Z"
+      },
+      {
+        "title": "Tracing NodeJs Applications with OpenTelemetry | by Fabio Reis",
+        "url": "https://medium.com/zigbang/tracing-nodejs-applications-with-opentelemetry-624958d38d4d",
+        "text": "Tracing NodeJs Applications with OpenTelemetry | by Fabio Reis | 직방 기술 블로그 | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fzigbang%2Ftracing-nodejs-applications-with-opentelemetry-62",
+        "score": 0,
+        "published_date": "2023-09-14T00:00:00.000Z"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "'집 못 사겠다' 자식들 한숨…수도권 5060 부모들 결국 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KVElPelB1cVF4R0NfbkxPVkFSZkh5aThGd3dSN01WWmVXdURKZlR4dGw4akF4YWZaWWRYcUZyaGNMRnFxZ2dOOWpWWEc5T09BWjdCaWtFRkdBUdIBVEFVX3lxTE5NZFJLQklWRlA2cl9uTklNTGx4RFhRU1RRTE1rQkRkMzlrVzV1Mmc3cmFsN0xack1oakR0SmY2OWdpLXU0TUpXb1NRaW9pUExkaDFwUg?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 00:12:24 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "“대출 막히자 부모가 나섰다” 증여 ‘5060’ 급증 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43Y2h4SjRGRkRNNEJxN0lVNXRnQkxUQXFJM3Y0MzhsMU5PcGx1RUNUUkJQSHJ5VGphdGJNLUV3cnVZWHdPMUdKVDA4aHVVQ1QyY3N3eER1SVJYMVdkUFlucnEzTDNfNkhVSjJvZQ?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 02:16:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "서울 부동산 증여 50~60대가 주도 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90aUlkRjROd2lsamJEUmZBZWlFUHU3ZkZ0VmgxMUZOYS1RTkVzNEcwUVlVWmtqQTJpaHVqR3ZMZGZ1bmRDNEtWM1FZUWhVcXVaQ1hQUjlzT2FtQdIBVEFVX3lxTE9XLVlCUjBXUEFHaG9xeUo3cm1zd2NwVXVydjJQWDI4U3NOX0x3Ml83b1NYenVlRVpKSTZiaTdPZXJYOGpOWG1rRVRlaWFwcUJnUWhqMg?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 07:52:12 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "“프롭테크 유니콘이 어쩌다가”... 직방, 몸값 8분의 1토막으로 추락 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVTRIcVkyeEFfTEpYbHIxZW9EOExGZVJmNklXTWRsajBUYndpSkJ5TzExSDY1R1hybVkxZ1YwanhoamEwZjlrQ0RtU01OV0ZUVnVUV1B4RWs5UEpQajR1ei1uR0FRbHNaaGRjcGVQdnRWWVNKamdNR0RzUWw0bjhfTnJIWGdKTG_SAZsBQVVfeXFMTzhwMlNveXRNbTFaM1FGUGxTVXFKN2FtbV9RaUM5enRhbzlLWWlFMUJEcHdkZFNwdVFFWGJ2dnVYdmdaeUZBNlBUWWQxYkE3bHhKTnBkZmhGNFE1UjVpU19wVDdPeXFNYVVRNkRJX0liX1hwajFRR2J4NGVmSFVkczMxdkVXNXU5VEVYSExUTUV5QThveHB2TGdac0k?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 21:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "서울 아파트 증여 절반은 ‘50~60대’…대출 규제·집값 급등 영향 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX0ZJSml6YjJ4eERJWmdTVDhBMHdfYmJzbnpSR3JRZXV5Z0owQ1hoeDhQU2lONWczd0FTa0VpT3lHUkExSkQ0RTBudFRxUXlKbTZTQm1uZG1uVko2STFzQTloQWt4bm5HV1c0YVNrazJudE9mcnp1aEd2VjV5UXlPYzAydXFMVjlTNHp1RmU1WVE4RGNYZlY5MtIBrAFBVV95cUxPUHBqSEY4VzZHMGxTR2gtcnhGTmtkel9WNU9DMXBZdDA3X1FabDl6aWdmZEt5RWNnU211aXZKaDVEX3ZIaTRXU3BEdjlhNzlWaFhONFlFbkEydEVuZ0tsem43UExablhvU3F1NFpwZnNfUVdyOGlnZFI2cTJPdWY0RTBkN0RIUjlEcHV1Um9nQWlwT1VnRmtHRnF5YlVyWmpXdmJnSFIwT19iX19o?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 23:48:45 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "2년도 안 돼 13억 올랐다… 강북 분양·입주권 거래 인기 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObXFwX3VPRlN3Y0ZIWlV1ZElXdFU1WGFWXzktTmk2d3hUVXYzdF9fQ0xZNF9qcHZWOE9SME9CTjN3bXdiNW4zalRvZjJGVlRNT2tIWG55UkNpZGZiT0VkWDR4VVg5TXpvc3JkODRTUUUtNEpHM1JKcVVOVzdRaVctWXBTQkdnVjFFbHVjOVV0REMyM0tnTlRRWdIBrAFBVV95cUxQb1hDQ0cxTEtVYTJxbGw0NlRGNkFSZkV6RnpEdG1wNXBodUtxb1Bvck5qemxEOEFfYjJiX0ZyUkI0elRqM0tpVUVMUURYZC03MjFub3hEdWFWSzJEcXFwaVlRYUMxa1VNTWVyUG5TNktKUE53Y2FaVHp2MGhHRnNxb3VxeDNNeHNVaG9GUjBqSWR2OElaM3BRYXlJMTlIOTQ1bnhwLXNPQzFVQ3NT?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 23:01:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "직방 \"10·15대책에도 청약 시장 활기…수요 분화·조정 과정\" - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5meWplOW5YM3J0TzRHNXN4TzEtemlXTjBYeEhzWkJsTzhuNUswX1F0cEFOX3A0Ujh6N0FUWUxsZXBvS2xzc0Yzdmk3bnd6cU5T?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 22:06:19 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "[고침] 경제(서울 50·60대 증여 비중 70대 추월…집값 부…) - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y0JUMU82NWt1UnVFSkJnZk5oTVdDR1dveUIzYkFkMXhtZWNKLTZkTGtrWkRiYzJSbTNDX2xqTVBTMFo4a0tObTgyWUc3VllodWc?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 02:50:46 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "시세 넘은 분양가에 허탈…청약통장 깨는 청년들 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Ja0p3MlUyUXNzYnJ1LUhDaVJHTzNFdFQxczBQRjJ0ZERSU3Nwd3dib0N5S0gtUG9lZ2xrWGc4UHB0eE52aFo4aFZlSFRyeW5XWVdwWVgyZkhwX1FmZXNDNEZVbEI1MzFyejFpMnFyc0p3UQ?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 06:34:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "직방 '디지털 도어록' 쓰면 긴급할 때 'ADT캡스' 출동…\"연내 가능\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBURUcwYjluSmtXN0gwRGtTRlNsNzVwejBJU3haNXBFa3QyZmZYelJsT2c3bnNVWnlfN19jVlYtQ054RjdTeFNyUUVHV2hNa1A3eG9CWHZn?oc=5",
+        "pub_date": "Mon, 24 Jun 2024 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "직방, 투트랙 전략으로 2030 공략 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZLVVzaGU2a0ZPdmw5MF9qS2xDelJILTBJQXhGUlh4X2J5VXRFa0U4WnJRVy1MQl9DUTFUcXpCMDVkQ1FHR3lRSi1BenNCRlZ2WndUMjRB?oc=5",
+        "pub_date": "Thu, 16 Aug 2018 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "부동산 중개 뛰어든 '직방'...\"밥그릇 뺏기\"vs\"기회 확대\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLZEp1dTNjazNBUi1YZTJIQld3Rkprb3hEN2ZzeGw4cjdDTmdFeHBGNnd0eVVFYnA0MTJJalZTc1ByR2M2U01JcGQ5RHNIcUI5bmtnaDFB?oc=5",
+        "pub_date": "Tue, 15 Jun 2021 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "'사는 경험'으로 나아가는 직방과 '스마트홈' 사업 의미 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHMHdxRHFzSmNZay0yRWpJckpXeHNRa3ZFeGo4ZFpJNmIyYll0Vm1nV3A5SHdlcFU5QVFteDdoVXFxM2sycDF2cUVOZW5xbV9WSzNXSi1pTll0Qm5CTkRUeF85aEdtYnfSAWtBVV95cUxNUkhJUU1xcDc5bjRYbG9WbGhoaVZlcnhzUVNMN3VwU1h6VFhWdkNZZ25pUEc1SzdkQ2N4WFFFQTJVSWl6MFAzM2dWelN5QkVNczJTOHJrQm9LT0YzNHVLM29rUFZxVlM2clYyTQ?oc=5",
+        "pub_date": "Tue, 22 Nov 2022 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "“OO아파트 얼마야?” 직방, 카카오미니로 ‘아파트 시세’ 알려준다 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10dGpCNFM1VkVORlZ1Q050cDUwOFZuNG80ZjREd1EtODEwOXk0RkFiV3ZaZWNlUGY3STFFQVpNaUVkUndodW5VQjY2V0VfWTdwaGlneExMbWxVMUo5RlIzbVpwNUx3ZDjSAWtBVV95cUxNbmhzQm1hQjY1QVRDSDNiSTVSd1lRbVByR3l4cUhfZkxmYXR2V3RaaHkxVWxzaHFKZzJEblNuRHQxb0FCWnNfNzdiS1g4bmNZd01XajUwcGZQcklVQWhhNHM3UlE3ZmRabEpXdw?oc=5",
+        "pub_date": "Wed, 09 Jun 2021 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "'파트타임 CMO 변신' 김필준 리인벤팅 대표 \"모바일 퍼포먼스 마케팅 본질은 변하지 않아\"[디마人] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBma0hVc2hnZ2RCVmU2Y2pUZW9rbjExOGR4MDJ4c2NvU05STEVKcGdNQkItUWNDd05YTWliUkt1ai1oX3VzclhDRE1TVDNrTGQ0STdUSjFlRWNBYm1wc09lVDNCTW9iMDNF?oc=5",
+        "pub_date": "Thu, 28 Dec 2023 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "직방에 봄이 오나 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wQUlvU3ZqaFFkd3Roby15VTh5cmUxQ3Jpcm0zZHgwM2ZQckJ1YTZiakZJN3F6Vm9Fdm1fRTh3SjNGUk0xdTlxRzFYbWVSbTg?oc=5",
+        "pub_date": "Tue, 11 Mar 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "직방이 꿈꾸는 부동산에 관한 상상 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5MZEU3OTF6RlVFbzl4bVVsTmlTd1daYmo2TTVPUTZaZzMtNTJESVp6YS1ROGlETFp1WElIbkllNGtrVEtoLUd0YWVyOFM?oc=5",
+        "pub_date": "Tue, 09 Jul 2019 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "직방, 진화한다 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6S0l0VUdPNDc5dzJYLWVhNXBIeGRpWDh4ZzBiaUh6MWs0YzhSMm44UHFlRkVPVmg0NEJhUHNOLWVGci13V2VLVDVNOTZPZDQ?oc=5",
+        "pub_date": "Tue, 15 Jun 2021 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "company": "토스랩",
+  "sources_used": [
+    "google_news",
+    "brave_search",
+    "naver_search",
+    "exa_search",
+    "credible_news"
+  ],
+  "result_count": 11,
+  "sections": [
+    "strategy",
+    "culture",
+    "overview",
+    "tech"
+  ],
+  "data": {
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      },
+      {
+        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+        "link": "https://blog.naver.com/serohero/224199063326",
+        "pub_date": "20260228"
+      },
+      {
+        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+        "link": "https://blog.naver.com/jobpass_/224197697044",
+        "pub_date": "20260227"
+      },
+      {
+        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+        "link": "https://blog.naver.com/study_edu_/224193834977",
+        "pub_date": "20260224"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "김대현 (1983년)",
+        "description": "생애 김대현은 교통·커머스 산업 현장에서 해외 사업·신사업... ‘잔디 AI’ 확산을 위한 협력을 재확인했다. 제품·전략 잔디는... 잔디 영문 회사 소개 페이지는 토스랩의 비전과 글로벌 전개 방향을...",
+        "link": "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8C%80%ED%98%84_(1983%EB%85%84)",
+        "pub_date": ""
+      },
+      {
+        "title": "토스랩의 '잔디 몰입' 전략…챗GPT 없어도 AI로 리포트 쓰고 번역한다[테크체인저] | 블로터",
+        "description": "토스랩 사무실에서 만나 스프링클러의 주요 기능과 회사의 AI 전략... 특정 기업의 사업보고서 파일을 업로드하면 △회사개요 △재무현황... 기업 비전모바일 등이 이번 CBT에 참여했다. 스프링클러의 진화...",
+        "link": "https://v.daum.net/v/yWiFGPOJG9",
+        "pub_date": ""
+      },
+      {
+        "title": "[인터뷰] 왜 중소기업에 협업툴이 필요할까?",
+        "description": "협업툴 잔디를 운영하는 토스랩이 5년 연속 중소기업 클라우드 서비스 바우처 사업에 공급 기업으로 선정됐다. 전국 중소기업 업무 환경의 디지털 전환을 위해 클라우드 서비스 도입 컨설팅 및 전환 이용료 등을 80% 지원한다. 그렇다면 왜 협업툴인가? 왜 중소기업에 협업툴이 필요할까? 김대현 토스랩 대표로부터 중소기업 도입사례도 들어봤다. 국내외 협업툴 시장이 성장하고...",
+        "link": "https://blog.jandi.com/ko/2022/05/17/interview-credipia/",
+        "pub_date": ""
+      },
+      {
+        "title": "AI 중심 업무혁신 실전 가이드 - NSWS 2025에서 AI와 스마트한 협업 전략 총망라(11월 27일)",
+        "description": "스마트워크로 방향을 잡아야 하며, 인간의 판단력과 AI의 분석... 옥타, 토스랩, 리미니스트리트, 줌, 엔트러스트, 어도비, AWS... 기능과 전략적 비전을 소개하며, 특히 Private AI를 중심으로 기업이 민감한...",
+        "link": "https://www.etnews.com/20251112000042",
+        "pub_date": ""
+      },
+      {
+        "title": "“AI 업무혁신 골든타임…기업 생존을 좌우할 스마트워크 로드맵, NSWS 2025에서 공개”(11월 27일)",
+        "description": "옥타, 토스랩, 리미니스트리트, 줌, 엔트러스트, 어도비, AWS... 기능과 전략적 비전을 소개하며, 특히 Private AI를 중심으로 기업이... 발전 방향과 워크로드의 특징과 저장매체의 특성을 고려해서 구성하는...",
+        "link": "https://www.etnews.com/20251119000026",
+        "pub_date": ""
+      },
+      {
+        "title": "우리가 그리고, 함께 만들 미래 : 토스증권 전략 (Strategy &amp; Operations) Chapter 이야기",
+        "description": "토스증권 전략 (Strategy &amp; Operations) Chapter는 우리가 나아갈 방향을 정의하고, 그 길을 실제로 만들어가요. ‘투자의 힘을 모두에게’ - 그 비전... 저는 3년 전 토스증권에 합류해 전사 전략을 담당하며 신사업과 투자...",
+        "link": "https://toss.im/career/article/sec_strategy",
+        "pub_date": ""
+      },
+      {
+        "title": "ABOUT - 스마트비즈랩(SMATBIZLAB)",
+        "description": "AI 전환실패는 기술의 문제가 아니라 존엄성과 책임(일자리)의 붕괴입니다. AXS™ 는 사람의 일을 “대체되는 업무”가 아니라 책임 있는 역할·결정·기여로 재정의하고, 규칙·역할(RACI)·지표(KPI)·운영리듬을 표준화해 조직이 전환에 안착하도록 돕습니다.",
+        "link": "https://smartbizlab.info/pages/about",
+        "pub_date": ""
+      },
+      {
+        "title": "Data Scientist (Vision)",
+        "description": "합류하게 될 팀에 대해 알려드려요 ; 서류 업무 처리, 신분증 인증, 혹은 고객 상담 등의 은행 업무를 AI 기술로 자동화하고 효율화 하는 것을 목표로 하는 팀이에요. ; 모델 개발 및 고도화를 담당하는 Data Scientist 와 서비스 개발을 담당하는 엔지니어로 구성되어 있어요. 함께 협업하며 다양한 ML 제품을 구현해요. ; 은행 업무를 담당하는 다양한 스쿼드 조직과 협업하며 AI 기술을 활용한 제품과 서비스를 만들고 있어요.",
+        "link": "https://toss.im/career/job-detail?job_id=6673219003",
+        "pub_date": ""
+      },
+      {
+        "title": "현업에서 본 언택트 시대의 현재와 미래",
+        "description": "권유진 본부장(딜리버리히어로코리아): 딜리버리히어로코리아에서 마케팅과 전략을 맡고 있는... 서비스하는 토스랩에서 사업총괄 담당하는 양진호입니다. 반갑습니다. 임수열 대표(프립): 저는 프립이라는...",
+        "link": "https://zdnet.co.kr/view/?no=20200608180727",
+        "pub_date": ""
+      },
+      {
+        "title": "How AI works for you 당신의 미래를 바꿀 생성 AI 스타트업",
+        "description": "com 리서치센터 글로벌투자전략팀 | 2023년 3월 30일 CONTENTS Samsung 비상장 트렌드 PART 01 Why now?... [참고] 생성 AI 스타트업을 지원하는 사업 모델의 부각 20p PART 04 생성 AI 투자 사례 글로벌 생성...",
+        "link": "https://smallake.kr/wp-content/uploads/2023/04/%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%AF%B8%EB%9E%98%EB%A5%BC-%EB%B0%94%EA%BF%80-%EC%83%9D%EC%84%B1-AI-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85.pdf",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "[게시판] 사이냅소프트, 토스랩에 ‘사이냅 도큐애널라이저’ 공급 등 단신 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEcGxQSnhuRlZEeW1Cc21sWVNQeFN5bHZpRjVjTllITko0QzBfdWxMYy0zaEZzT0xZN2dKX3JPempnbFkxQnlSMHpicW50TzlxRmt2dmdwWXl3RTZtdUdZUTdvWjh6dHJrSEE?oc=5",
+        "pub_date": "Wed, 10 Dec 2025 08:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "토스랩의 '잔디 몰입' 전략…챗GPT 없어도 AI로 리포트 쓰고 번역한다[테크체인저] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10QnlsejJLQWpjcTdubmpiQzFrVU1qTkprV0o1cXZKYksxblJ5VDF3MC1admNVOFMwM2NTVC1oUzUwWFR1b1FBWndiUzNvMDhkcmRHWDQ5cWt4V0tWUHZGaGs4aWNnZHJ60gFsQVVfeXFMUEljWWU5bGlBT2ZfRENFUGNiLTNQdzZ4YlZJaklQRGp6TXhQRjloWi1YQm5HY2Z0SWlaZHA0STVoTW41ak1TVExaQWdaUUVxWnJUUk1hY2dEcXhjSzUyTnU5SERYdG1KMFF6XzJM?oc=5",
+        "pub_date": "Tue, 08 Apr 2025 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "“AI 업무혁신이 기업 성패 가른다...기업 맞춤형 스마트워크 대전략 총집결 – NSWS 2025” - 지티티코리아",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RYkdXakdDR2YzWEtwc1dxWmhCY3JGaDBpR1d1VHVpc1VzM2dWLU9ITkhJaGVpRURwRHR4R1ZNUWR2MXc5bmgxVllmbUJxZkpDRDNyYmZIdE1iaVp5V1lkdUdTQkNOVEpFVFE?oc=5",
+        "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+        "source": "지티티코리아"
+      },
+      {
+        "title": "사이냅소프트, '내부 문서 기반 AI 어시스턴트' 활용 전략 소개 - 뉴스웍스",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DRGtJWVJCazV0SU9aMDAyRmJnbHRpbFdKcmZzV0FIcXZjaFNzS0YyT1QtMDBFc0hiVWlOSVZIWDBsMmpJNGhPT3B4YVlrS0FZVHpGbG12UTBBOGJiUWtfOWZ6ZEI4S2w5VGNSXzAwVdIBc0FVX3lxTE03TS1uMWdZa2VJMnk0c2lVSUFkdnpXMHQ5Qi1YZU83STJUUlFFLTJxRFNRX2NuelV2elNpS2EwYzk0THh2Q2xGcVRuRkw2YWVFdTJ2aWNTTGhwNEVQemxLQXMtelBOak5QZWVmdDhpaVhSU0E?oc=5",
+        "pub_date": "Thu, 19 Jun 2025 07:00:00 GMT",
+        "source": "뉴스웍스"
+      },
+      {
+        "title": "스타트업 최악 조직문화는 내 거 외에는 안 하는 것 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1DZUlTR0c0REg5NlY5eFRRTVU0Vy1kRHYwZUZPYkFuMTNocFZsNTRHbFZSa1I1M1IyTVJtVGdQM3RPancyZW94ZA?oc=5",
+        "pub_date": "Fri, 25 Oct 2019 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "채용 소식 속속...SK·P&G·유니클로 공채에 채용 행사까지 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wTHRENmtoN2tXSG9mZHFHd3QxSTRSN2dTVXZPY3VEbHhDQlJ3d1FIMmhhNl82Zkc5Y1hfYXNqMDlqZEx6SWE4a0pDTmNlUG15YzI2djFn?oc=5",
+        "pub_date": "Wed, 20 Sep 2023 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "현대자동차 신입직원 면접은 AI가 본다...제네시스랩 기술력 '눈길' - 테크M",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SYW9STm83al9pN0xuTDFkbkZBbE1sX3JvVjF6TmN6UEZHQUktUVY3aDczUDkyaTlQREx1Z0xSRDgzV1pzWDEzeG1OTjI4VjRuVzF4ajlvSFdvVTZBdTA0U2d5aE3SAWhBVV95cUxNU2FpbkMxOE5EdzhheGV1eXNPM2VFU0tmYzNuV25BTkVuQ3RubWhVSmxYYUVtX1BnOER1YzUtQkV2WEhjZGhzdFVuMDN1QnpnZWxfUzlleDlweTBlVGFkMENWbmpRUFVndQ?oc=5",
+        "pub_date": "Thu, 30 Jun 2022 07:00:00 GMT",
+        "source": "테크M"
+      },
+      {
+        "title": "영상채팅 '아자르' 유럽 8개국서 1위…수학풀이 '콴다'도 태국 앱시장 평정 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9acGo3SDRMNTdnZmdWY3ZqZXl6OHJRSUFGeEx5TEdZQkMzdFp0S3BoZFMtWUM4VGFJcUgxajRPOHRlTm1waTRNZUgwNlRKTzVQNVJjcjNaY1J6QdIBVEFVX3lxTFB5aE1mTmNuYlpGM2Rma2lYeXpFUV9SYk9XMFZ4YzN3ZGZRU29hLWxWRnpnOUtmVFRSSnJyVWRONFUtcVFhUUdaRlRHV3ItT3B4NF9JSg?oc=5",
+        "pub_date": "Mon, 14 Sep 2020 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "‘망고플레이트, 에스이웍스, 토스랩’ 스타트업 3사, 인재 채용 함께 한다 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5tUVJqcHA5Y0RMX0h5U1ktVFhndjJSWDdBd2o0SUFhVkwyUTVLcmhOMmhzVXhHcFhNTkFDSFh5eHREQ0hJTFpF?oc=5",
+        "pub_date": "Sat, 07 Jul 2018 11:31:56 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "인크루트, 하반기 취업전략 알려준다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LeDFOTEQ4NWJOeGl0VHZtYXU4WGdaUVdtUHNmLWpJeWhHUTVhcXlySlNlOGhKaFBmeGItVHBPQlNrZ256bldvY0F0Y1NzYk5FU09GbTZR?oc=5",
+        "pub_date": "Tue, 29 Aug 2023 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "토스랩, ‘잔디 프로젝트’ 출시… 메신저와 프로젝트 관리 통합 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5nSDdKazBtWkphUTVaNGFnc0MtNERKNURnMlRZM3RwLXlCd3JCTVpIVTFPMTVvSFhrU3E5WE9rS3gzX2R6Nlc1Ng?oc=5",
+        "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "토스랩, 日 ‘비전’과 손잡고 ‘잔디’ 현지 도입 본격화 - 와우테일",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKejZMQ0lDYWhuZE9kWktnUl9RUnUtX3M4UnNxX18yRW5kYmpYT1RWRmdpckNlTy10VGVJaFpBc0dERFNzZHJZYXFEUzhYMWs?oc=5",
+        "pub_date": "Tue, 08 Jul 2025 07:00:00 GMT",
+        "source": "와우테일"
+      },
+      {
+        "title": "의료AI 관련주, '어깨춤 으쓱으쓱' 뉴로핏·쓰리빌리언·비스토스·랩지노믹스 - 현대경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QR19neUlINC1EN09URnlIdGhXamtBY2NYNldPeTlwektPMzlLajJpMUdoVlU3czVwaDNHUXd2MHlBb0hmam1xN0dXZFNGTUVuY01TLWEzbHcyT0NsOU9rT0hPS01VZzTSAWtBVV95cUxNZF9rQk9kYVoxdnZtRXZtZUxTWFJXWk1TVVQ3TlRCLTlQcER1dFBBbmlISHdGbVdISE85TzY0aWh0d1dHZjN1ODY0b3ZqX01lV0tram5Zdjc0YnFWZ2lCYUR6bjdWTzhKTFg0aw?oc=5",
+        "pub_date": "Wed, 29 Oct 2025 07:00:00 GMT",
+        "source": "현대경제신문"
+      },
+      {
+        "title": "한컴, 토스랩에 15억원 투자…“해외 협업툴 공략, 포트폴리오 재편” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRzA1LWI4SlY3b3V6Ny1RM09mMUNoOVJKdnBLQUNRb0VNRVBPUjdGY2IxSXM3dW5oZlNqaVVYVEstak1iaTRjZEJ3ZjV1VG9YT21oc3U0OVNOWXlzZnVjSWxaNFRZRV9zbHJCdHVfUU1NaXIxM0FCaU05SHRGYUptRkpn0gGWAUFVX3lxTE5BeDJNU1hiNWhIa2dPbk1WOENyYkRKVngxcllfTGxDOFBCaW1zYkhvTjRoNTQtbFhiSG5qeHdnMjlCNkVFN3dBXzZ5RUlkSFJkV1J6NkY5eDBHQ1lFcFotcFZ2YnBEcGtaVU1VdGNkSDdxU2J6T1JoaGJuZzgyN0x0YUxTM0hLZ3oyYTk1QUlEMXFxakpQUQ?oc=5",
+        "pub_date": "Wed, 29 Jun 2022 07:00:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "토스랩 ‘잔디’ : 죽음의 시장서 살아남은 자 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAzVWtraWdKVUVPcENDTWFoa3pXU2I2LXBneG0teEc1N2ZNMHRFYl9GRVZsbWp0c01YSkhSQm1Eal9yQUpTTlVLeEJhS1I?oc=5",
+        "pub_date": "Tue, 28 May 2024 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "토스랩, 140억원 투자···티몬 신현성·소프트뱅크 이준표 합류 - 시사저널e",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwWnVPMHFteXR3b21TeXNxd0kySkg5RzdDMWRMcWRMQ0poYTV6ei1UZVJCa2VrajFScGJvUGdibmNENU5KaWl5NHJac1llN1FkbVZ4aFNjN0ZEY0FEbHkxNUVXU0JwakRhcFY0cVIxazNCQdIBdkFVX3lxTE9abFdrWW9feE5nM3JKSXBkcVZJVkdtNFNvSVRuSmc1U0RqZTdabGc0ek1PUmtTUHdTZTI4WFlVYjZJSWhvdDZ0MFBfVERyQ3V2dm5VWG10TG83d1dFOW1sV2hhcVF1TzdOTFZGOTJEc2ZXTk5rZnc?oc=5",
+        "pub_date": "Wed, 02 Sep 2020 07:00:00 GMT",
+        "source": "시사저널e"
+      },
+      {
+        "title": "토스랩, 기업 생산성 높이는 협업 전략 공개…\"잔디, AI를 품었다\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kQURCajNzTFNYaGJXWnJBTlo5Rk50MjhVRDlfOFNERGd5MmQzTW0zWXNXN3I1MG8zXzM5WDF4THBncnZLdjRBSm1nLW56bmF2bzcwYml3?oc=5",
+        "pub_date": "Tue, 27 May 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "아마존은 왜 광고 사업을 할까? - 토스",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXbUpWZXRjRWhDbVZtWHZXN2RCWF9aZThoVGlDVy15eklVX1NxZkNiOGcwVjBDRHViUEd4OVdlM0xLZjVuUVZ4MW9FbEZzeW94OXNyX015WWhCUHo4WXIzYWowcTJJU0RTeFgyMQ?oc=5",
+        "pub_date": "Thu, 14 Sep 2023 07:00:00 GMT",
+        "source": "토스"
+      },
+      {
+        "title": "\"이름값 했네!\" 10주년 협업툴 `잔디` 성장기 [스토리팩-토스랩①] - 디지털데일리",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Xc2ZyZ1djb0lXOVpDVlJQa3NZclE5ZTV0d2JacUM2TFZWNVNWc2RDNm1yMkRFd2FIOTFGdVM1aVY5Z1FmZG9BcFo5LVA2Ql9vQVVVWlpiTEdZRGpFUzdFOTdB?oc=5",
+        "pub_date": "Wed, 12 Jun 2024 07:00:00 GMT",
+        "source": "디지털데일리"
+      },
+      {
+        "title": "토스랩, 메신저와 완전 통합된 '잔디 프로젝트' 출시 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9oU19NVEpRYWMtNEtyLUd2elZZT1BJWTB5MkU5UGhEcFF1d0owSkxORXh2ZnhOT1FhMFlkNFoyVGpoNEh2NmlzRXVVR1gydw?oc=5",
+        "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
+        "source": "전자신문"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "(주)토스랩 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/dGJ3YnhUMDZ0TnVRaHcyYmJRaG5zdz09/company_nm/(%EC%A3%BC)%ED%86%A0%EC%8A%A4%EB%9E%A9",
+        "description": "(주)토스랩 기업소개 - 업력 : 12년차, 기업형태 : 중소기업, 스타트업, 업종 : 시스템 소프트웨어 개발 및 공급업 | (주)토스랩의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 ..."
+      },
+      {
+        "title": "(주)토스랩 2025년 기업정보 | 기업리뷰 55건, 연봉정보 36건, 면접후기 45건, 복지정보 1건, 채용공고 0건",
+        "url": "https://www.jobplanet.co.kr/companies/96271/landing/%ED%86%A0%EC%8A%A4%EB%9E%A9",
+        "description": "최근 5년 동안 소프트뱅크벤처스를 시작으로 퀄컴벤처스, SBI 인베스트먼트 등으로부터 총 130억 원을 투자 받으며 빠르게 성장하고 있습니다. 토스랩은 저희와 함께 업무커뮤니케이션 문화를 새롭게 변화시켜나갈 열정적이고 긍정적인 새 멤버를 기다리고 있습니다!"
+      },
+      {
+        "title": "㈜토스랩 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/16151686",
+        "description": "- <strong>수평적 닉네임 문화</strong> : 임직원 모두가 구분없이 영문 닉네임을 사용하고 있어요. - 성과지향적 연봉체계 : 연공서열과는 전혀 관계없는, 본인의 성과에 따른 연봉체계 - 잔디 브리핑 : ..."
+      },
+      {
+        "title": "토스랩(JANDI) 기업정보 - 채용 0건, 평균연봉 5,478만원, 인원 35명, 업력 11년, 서울 강남구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/64",
+        "description": "토스랩(JANDI) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "토스랩(Toss Lab) by THE TEAMS",
+        "url": "https://www.theteams.kr/teams/859",
+        "description": "<strong>Facebook으로 공유 하면 할 수록 해당 채용을 더팀스에서 적극적으로 상위 노출 시켜 드립니다</strong>."
+      },
+      {
+        "title": "토스커뮤니티 채용",
+        "url": "https://toss.im/career/jobs",
+        "description": "View open positions"
+      },
+      {
+        "title": "토스 채용",
+        "url": "https://toss.im/career/culture",
+        "description": "Be part of the journey as Toss shapes the future of finance."
+      },
+      {
+        "title": "노베이스에서 토스 합격까지",
+        "url": "https://velog.io/@eddy_song/retrospective",
+        "description": "대기업 취업이 목표라면 그것보단 이걸 하는게 맞다, 이 라이브러리는 꼭 학습해둬야 할 것 같다, 이 회사는 코테 난이도가 어땠다, 지금부터 아예 이력서를 많이 넣어봐야 유리하다, 그런 얘기들. 실제로 취업 전략을 짜는데 꽤 도움이 많이 되었다."
+      },
+      {
+        "title": "블라인드 | 토스 기업문화",
+        "url": "https://www.teamblind.com/kr/browse/%ED%86%A0%EC%8A%A4-%EA%B8%B0%EC%97%85%EB%AC%B8%ED%99%94-5315",
+        "description": "가뭄에 콩나듯 올라오는 기업 티오는 보통 스타텁 기반의 플랫폼 산업이 독차지하고 있고 기본적으로 어학과 두 개 이상의 직무를 컨버전스한 기형적인 채용 jd가 지배적이야. 이런 곳들의 기업 문화도 토스나 nbt, 업비트와 같이 스타텁 특유의 도전지향적 문화 강요에, 단기간 내 직접"
+      },
+      {
+        "title": "토스, “업무 외에는 신경 쓰지 마세요”… 문화 정체성은 ‘자율’과 ‘책임’-디지틀조선일보(디조닷컴 dizzo.com)",
+        "url": "https://digitalchosun.dizzo.com/site/data/html_dir/2023/02/23/2023022380167.html",
+        "description": "토스 관계자는 토스는 <strong>새로운 팀원을 채용할 때, 입사 후 함께 일하게 될 팀원 모두의 의견을 수용해 채용을 결정하는 것을 원칙</strong>으로 한다고 설명했다."
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "2026 토스페이먼츠 서버 개발자 공개 채용 (~3/27) | Toss Payments(토스페이먼츠)",
+        "url": "https://kr.linkedin.com/posts/toss-payments_2026-%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B3%B5%EA%B0%9C-%EC%B1%84%EC%9A%A9-327-activity-7432299997578313728-r0E9",
+        "text": "2026 토스페이먼츠 서버 개발자 공개 채용 (~3/27) | Toss Payments(토스페이먼츠)\n\nLinkedIn 동의 후 가입\n\n가입이나 로그인을 하기 위해 계속 버튼을 클릭하면 LinkedIn 사용자약관, 개인정보 처리방침, 쿠키정책에 동의하게 됩니다.\n\n# Toss Payments(토스페이먼츠)님의 업데이트\n\n[Toss Payments(토스페이먼츠)](https://kr.linkedin.com/c",
+        "score": 0,
+        "published_date": "2026-02-25T00:00:00.000Z"
+      },
+      {
+        "title": "토스랩 채용 | 채용공고",
+        "url": "https://www.rocketpunch.com/companies/tosslab/jobs",
+        "text": "로그인 후 검색 가능\n\n홈가장 빠른 소식\n\n네트워킹이벤트 · 컨퍼런스업데이트\n\n채용새로운 기회 탐색\n\n교육부트캠프 · 직무 역량강화\n\n채팅나를 위한 소식\n\n허브기업 · 학교 · 사람 모아보기\n\n접기\n\n개인정보와 약관\n\n기업 서비스\n\n지원센터\n\n쿠키 맞춤 설정\n\n본 서비스에서 제공하는 사용자의 개인정보 데이터를 포함하여 각 정보주체의 동의 없이 데이터를 무단으로 수집하는 행위를 금지 및 거부합니다. 공개된 데이터도 크롤링 등 기술적 장치를 이용해 ",
+        "score": 0,
+        "published_date": "2014-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "토스 연봉 완벽 정리 - 초봉, 성과급, 실수령액부터 현직자 평가까지",
+        "url": "https://eben.tistory.com/164",
+        "text": "토스 연봉 완벽 정리 - 초봉, 성과급, 실수령액부터 현직자 평가까지 --\n\n커리어\n\n# 토스 연봉 완벽 정리 - 초봉, 성과급, 실수령액부터 현직자 평가까지\n\n목차\n\n### 토스(비바리퍼블리카) 연봉 완벽 정리 - 스톡옵션, 1억 대출과 '역삼의 등대'\n\n안녕하세요, 여러분의 든든한 커리어 파트너, 에벤입니다! 😊 오늘은 '금융을 쉽고 간편하게'라는 슬로건으로 대한민국 금융 시장을 뒤흔든 핀테크 유니콘, 비바리퍼블리카(토스)의 모든 것을 파헤쳐 보겠습니다. 파격적인 보상과 스톡옵션, 업계 최고 수준의 복지로 수많은 인재를 끌어모으는 동시에, 꺼지지 않는 불빛 때문에 '역삼의 등대'라는 별명을 가진 곳. 과연 토스팀의 연봉과 개발 문화, 그리고 현직자들이 말하는 진짜 조직 문화는 어떤 모습일까요? 토스로의 합류를 꿈꾼다면 이 글을 절대 놓치지 마세요!\n\n---\n\n#### 1. 토스, 어떤 회사일까? (기본 정보)\n\n##### 1.1. 핵심 사업 분야와 비전\n\n비바리퍼블리카는 금융 ",
+        "score": 0,
+        "published_date": "2025-08-28T00:00:00.000Z"
+      },
+      {
+        "title": "We’re Toss Lab!",
+        "url": "https://team.tosslab.com/",
+        "text": "We’re Toss Lab!\n\nToss Lab\n\nPeople & Work\n\nCulture & Life\n\nWe're Hiring\n\n토스랩이 걸어온 길\n\nWhy 토스랩, Why 잔디\n\n찾아오시는 길\n\n토스랩의 인재상\n\n잔디를 만드는 사람들\n\n[잔디가 잘 자라는 방법 : 잔잘법](https://team.tosslab.",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "토스랩 인재상",
+        "url": "https://team.tosslab.com/people",
+        "text": "토스랩 인재상\n\nToss Lab\n\nPeople & Work\n\nCulture & Life\n\nWe're Hiring\n\n토스랩이 걸어온 길\n\nWhy 토스랩, Why 잔디\n\n찾아오시는 길\n\n토스랩의 인재상\n\n잔디를 만드는 사람들\n\n잔디가 잘 자라는 방법 : 잔잘법\n\n[언론에 보도된",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "토스랩, 日 비전과 AI 전환 위한 비즈니스 협업 본격화",
+        "url": "https://hellot.net/news/article.html?no=103055",
+        "text": "토스랩, 日 비전과 AI 전환 위한 비즈니스 협업 본격화\n\n- 본문 바로가기\n- 주메뉴 바로가기\n\n2026.03.01(일)\n\n- 거제 10.5℃흐림\n- 경주시 8.5℃흐림\n- 강진군 8.2℃흐림\n- 금산 4.8℃구름많음\n- 보은 7.6℃구름많음\n- 강화 6.6℃구름많음\n- 제주 12.5℃구름많음\n- 고창 6.9℃맑음\n- 부산 9.8℃구름많음\n- 광주 7.8℃맑음\n- 울산 8.5℃흐림\n- 대구 8.6℃흐림\n- 대전 7.1℃구름많음\n- 서울 7.7℃구름많음\n- 강릉 6.2℃흐림\n- 동두천 6.0℃구름많음\n\n기상청 제공\n\n- 2026년 02월 28일 21시 57분--\n- 로그인\n- 회원가입\n- [문의하기](https://hellot.net/home/page.html?code=con",
+        "score": 0,
+        "published_date": "2025-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "비바리퍼블리카(토스) : 한국 핀테크 혁신의 선두주자 2025년 현황과 미래 전략",
+        "url": "https://studio24.kr/3266",
+        "text": "비바리퍼블리카(토스) : 한국 핀테크 혁신의 선두주자 2025년 현황과 미래 전략\n\n본문 바로가기\n\nJS 이야기/Open AI\n\n# 비바리퍼블리카(토스) : 한국 핀테크 혁신의 선두주자 2025년 현황과 미래 전략\n\n안녕하세요, JS입니다.\n\n오늘은 국내 대표 핀테크 기업 비바리퍼블리카(토스)의 2025년 현황, 사업 구조, 핵심 서비스, IPO 이슈, 그리고 앞으로의 전략까지 심층적으로 분석합니다.토스의 성장 과정, 수익 구조, 글로벌 진출, 그리고 금융 소비자에게 미치는 영향까지 정리합니다.\n\n---\n\n### [주요 내용 요약]\n\n- 혁신적 원앱(One-App) 전략으로 금융 소비자 경험 혁신\n- 토스뱅크·토스증권 실적 상승, 모회사 실적 개선 견인\n- 2025년 동남아 시장 진출, 글로벌 확장 본격화\n- 빅데이터·AI 기반 맞춤형 금융상품 추천, 자체 보이스피싱 차단 등 보안 기술 고도화\n- 월간 활성 이용자(MAU) 1,910만 명, 누적 가입자 2,100만 명 돌파\n- 20",
+        "score": 0,
+        "published_date": "2025-05-30T00:00:00.000Z"
+      },
+      {
+        "title": "[IPO] 토스 20조 밸류, 업스테이지 2조… 상장 앞둔 후기 투자 시장이 달라졌다 < AI·XR < 동학 < 투자 < 기사본문 - KMJ",
+        "url": "https://www.kmjournal.net/news/articleView.html?idxno=8288",
+        "text": "[IPO] 토스 20조 밸류, 업스테이지 2조… 상장 앞둔 후기 투자 시장이 달라졌다 --\n\nNEW\n\n## [투자] LG전자 22.98% 급등, 52주 신고가 경신…피지컬 AI 기대감 폭발\n\n## [마이스NOW] 반도체 공급망 총출동… 세미콘 코리아 2026, 오늘 서울서 개막\n\n## “AI끼리만 대화한다”던 몰트북… 알고 보니 인간이 설계한 무대였다\n\n## 보스턴다이내믹스 CEO 전격 사임…로버트 플레이터, 30년 로봇 외길 마침표\n\n## 소비자 지갑 연 로봇…이마트 B2C 시장 실험, 2주 만에 50대 판매\n\n## Pony.ai and Toyota Launch Mass Production of 7th-Generation Robotaxi in China\n\n## China Launches $10 Million Humanoid Robot Fighting League in Shenzhen\n\n## Boston Dynamics’ Atlas Shows Full-Body Control Brea",
+        "score": 0,
+        "published_date": "2026-02-08T00:00:00.000Z"
+      },
+      {
+        "title": "토스, 창업 생태계 혁신 한 축 자리매김...정책과 발맞춘 성장 < 뉴스 < 중기벤처 < 산업 < 기사본문 - 한스경제",
+        "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=815861",
+        "text": "토스, 창업 생태계 혁신 한 축 자리매김...정책과 발맞춘 성장\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n토스, 창업 생태계 혁신 한 축 자리매김...정책과 발맞춘 성장\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n- 댓글 0\n- 입력 2026.02.09 16:10:08\n- 기자명 김종효 기자\n\n#### SNS 기사보내기\n\n페이스북(으)로 기사보내기 X(으)로 기사보내기 카카오톡(으)로 기사보내기 이메일(으)로 기사보내기 다른 공유 찾기 기사스크랩하기\n\n바로가기 복사하기 -- 본문 글씨 줄이기 본문 글씨 키우기 --\n\n내용요약 토스 ‘앱인토스’, 제휴 미니앱 1000개 돌파\n\n토스가 자사의 미니앱 플랫폼 ‘앱인토스’ 제휴 앱 수가 1000개를 돌파했다고 밝혔다./비바리퍼블리카\n\n| 한스경제=김종효 기자 | 핀테크 플랫폼 토스는 자사의 미니앱 플랫폼 ‘앱인토스’ 제휴 앱 수가 1000개를 돌파했다고 9일 밝혔다. 정식 출시 후 약 7개월 만에 ",
+        "score": 0,
+        "published_date": "2026-02-09T00:00:00.000Z"
+      },
+      {
+        "title": "[AI서머리] 토스, '금리인하요구권' 본서비스 시작‧네이버, 대화형 ‘쇼핑 AI 에이전트’ 베타 출시 - 뉴스레터로 만나는 스타트업 투자 리포트 ‘스타트업레시피’",
+        "url": "https://startuprecipe.co.kr/archives/5807723",
+        "text": "[AI서머리] 토스, '금리인하요구권' 본서비스 시작‧네이버, 대화형 ‘쇼핑 AI 에이전트’ 베타 출시 - 뉴스레터로 만나는 스타트업 투자 리포트 ‘스타트업레시피’ -- -- -- -- -- -- -- -- -- -- -- -- -- --\n\nx\n\n이메일로 만나보는 스타트업 가이드\n\n투자, 행사, 정부사업 등 스타트업 생태계 소식을 이메일로 편하게 받아보세요.\n\nEmail *\n\n스타트업\n\n- 인터뷰\n- 뉴스레시피\n- 뉴스레터\n\n투자\n\n- 스타트업IR\n- [추천 스타트업](https://start",
+        "score": 0,
+        "published_date": "2026-02-25T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "JANDI tech blog | JANDI Tech - GitHub Pages",
+        "url": "https://tosslab.github.io/",
+        "text": "JANDI tech blog | JANDI Tech\n\nAli Lee\n\n## AWS Instance Scheduler Bot 적용기\n\nAWS Instance Scheduler를 손쉽게 컨트롤하기 위하여 JANDI의 Outgoing Webhook을 이용한 Bot을 적용하였습니다. 사용법과 작동 내용에 대해서 공유합니다.\n\nAli Lee\n\n## AWS 비용 얼마까지 줄여봤니?\n\nAWS Instance Scheduler는 AWS 비용절감을 위한 솔루션입니다. 기존 EC2 Scheduler의 문제점과 이를 개선한 사항에 대해서 공유합니다.\n\nHugo.Kang\n\n## Radix? Redis!\n\nrax 코드를 읽어보고 redis에서 어떻게 사용되는지 알아보겠습니다.\n\nSteve.Jung\n\n## Android Gradle Tips\n\n토스랩 안드로이드 팀에서 사용하는 그래들 팁을 정리하였습니다.\n\nHugo.Kang\n\n## JANDI 검색엔진 도입기\n\nJANDI가 왜 검색엔진 도입을 했고 어떤 작업을",
+        "score": 0,
+        "published_date": "2017-07-19T00:00:00.000Z"
+      },
+      {
+        "title": "Toss Lab, Inc.",
+        "url": "https://github.com/tosslab",
+        "text": "# Organization: Toss Lab, Inc. (@tosslab)\n\nToss Lab, Inc. is an international enterprise social software company. Its flagship product, JANDI, is a group-oriented messaging platform.\n\n- Website: https://www.jandi.com/\n- Followers: 3\n- Public Repos: 15\n- Created: 2014-03-22\n\n---\n\n## Top Repositories\n\n| Repository | Description | Stars | Language | Last Updated |\n| --- | --- | --- | --- | --- |\n| aws_instance_scheduler | The solution is can help reduce AWS operational costs for both development an",
+        "score": 0,
+        "published_date": "2024-01-17T00:00:00.000Z"
+      },
+      {
+        "title": "The ultimate open source stack for building AI agents - Medium",
+        "url": "https://medium.com/@dev_tips/the-ultimate-open-source-stack-for-building-ai-agents-6b92f9015370",
+        "text": "The ultimate open source stack for building AI agents | by | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40dev_tips%2Fthe-ultimate-open-source-stack-for-building-ai-agents-6b92f90",
+        "score": 0,
+        "published_date": "2025-04-30T00:00:00.000Z"
+      },
+      {
+        "title": "MLOps Done Right: GitGuardian's Battle-Tested Open-Source Stack",
+        "url": "https://blog.gitguardian.com/open-source-mlops-stack/",
+        "text": "MLOps Done Right: GitGuardian's Battle-Tested Open-Source Stack\n\n#### Michaël Romagné\n\n| Michaël is a Machine Learning Engineer at GitGuardian, focused on integrating advanced NLP models into the platform and implementing MLOps best practices across the company. LinkedIn |\n| --- |\n\nToday's Machine Learning Engineers are no longer confined to experimental notebooks – they are architects of production-ready AI systems that dr",
+        "score": 0,
+        "published_date": "2024-11-27T00:00:00.000Z"
+      },
+      {
+        "title": "AI Agent Orchestration: Scaling Dev With Composio",
+        "url": "https://pawanpatra.com/accelerating-development-with-open-source-ai-agent-orchestration-a-look-at-composio-2/",
+        "text": "Skip to content\n\nAI Engineering\n\n# Accelerating Development with Open-Source AI Agent Orchestration: A Look at Composio\n\n \n\nBy  Pawan Patra \n\nFebruary 22, 2026 6 Min Read\n\nI still remember the absolute mess of trying to coordinate just two autonomous ",
+        "score": 0,
+        "published_date": "2026-02-21T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "'Sinners' and 'One Battle After Another' face off at drama-filled Oscars - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdXRLNjhrNmViWUR2d1J3YjVZOUliWkdxT29pWjY1cHc2eGs0OFBsRmptXzhiLS1EMDV5S29BT05pcHNST3Z0bWZDMGk1Qjh5d1pmT2tuTm0yQ3ZHNFd1OWtDV3lPWWh5OWFJY2lmY1lEZVNwRzdZZXd6SFBVdFloM05melRkcjk3c1FJdDcyOVRQU1dFQWhnb2F1V1NMMzRiY012d0tObUM5UkoySXpOV0lQZTJ1QVo0ZTQtcg?oc=5",
+        "pub_date": "Sat, 14 Mar 2026 10:21:40 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Trump directs US agencies to toss Anthropic's AI as Pentagon calls startup a supply risk - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeHZZSEowZUhXcXIyRE9RRUcwNkhaaWtWYjMyWFdzZ2t1cGRNeUVRd3ZsZ2xnRHRjYVJfVEdYN2RBbFRPZVplSGt0WVpTd3hrVVNlaGlldE1VMWxkUUpUYVRYUE9NelVFc09aUV9RRGE5NWZhRVNXNFNoTEpKWklUaE80ZlFFcjVYZF9pNS1Cb2poRXE1VExtd3hjRndjWGU4eHZZSk4zRkd4ZXdadHY0ai0yVEtBNUVGTUZv?oc=5",
+        "pub_date": "Sat, 28 Feb 2026 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Breakingviews - UK is now risky lab rat for rich tax-perk reform - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkVtNXpZeHlTbG8xdEpkbFFYTUxGU2gxNGxLekpYUGpSUmFLaVNhZ2JTV0dBNElET2ZSWXhGQkU0UDl1V1RZajJMdHAwZ1FzSGlxNnVXWGJHRGRTNE4wVVN6ME9BcEdUYlM5N2F0Z1I2OTM4U1ZLa1BkYlZ5NlQ1VndidUJONVkzeEpRWUwwdlAweFo0MmJGMFV3?oc=5",
+        "pub_date": "Thu, 05 Dec 2024 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Milk, Not Plastic, Will Protect Food in the Future - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSnc0Y1Yta1NvckFIU3dlRVBZY2tSRFM5eThFY1ZMTGdKclFqdlZMdmtEMHdvUG42d0tGNWVrVnYtNkJVNk9CYWU0eHdWSFdBNnFSS3ZJd1FQaEYzN3VlYmpQT3U4OV9PcGRWa3Vpa2F3dEhjU2t0aTg0dmNTN0JhVFcxeTVwUVlrdmF4SUdXQm1GQ2lqRnNVZUpQdw?oc=5",
+        "pub_date": "Mon, 22 Aug 2016 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "How OpenAI Drifted Away From Its Noncommercial Roots - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc2kzNnhjektMSWlUa1dJc0NIRHhNSVlVRFMzS21uc3hWVXVsWndnQzA0X21rWVg5RGxZS3RkU3hrSUh6Y0F5NHVfY2gyekhDMExoMlBNQTVQYVFuQ1JuRlBjZnFuRmVKQS1XVWxsZ0xETG43MjNYeWtNOVZROHRqdW1qNDNPQk8wUFItZWdnZmpldWlIendPNW9Pb2xXOUJsUXlnYzcycXFpUQ?oc=5",
+        "pub_date": "Sat, 17 May 2025 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "9 Super-Annoying Things You Do at Restaurants, According to Restaurant Workers - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVVZCMEFPVU9JNE5wdk9HWVVWRlY5Z2FuMlBtOERTNVpZTkNJZGozTWRzcjh1Z0RfNEVOMkotSVF2bmtwWlM3S1BzTThkOEtVRk9Pb053LXdaY3V6NHBNczJIeGg3TUNiMlZZRVZrWTc0VUFXM05ZOWtudHVtZmdtOVZDVlR1R2Z3LWZpcjdxUGhkcEpYUXdLQVlGMUVpLWpVN3o0UlV2VjFsZFExUlBTZzBEbTJmQmp6dWd4MTZIV1hBdmZoWjVF?oc=5",
+        "pub_date": "Wed, 04 Mar 2015 08:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Goldman Sachs Invests $36M In Korean Food Delivery App Baedal Minjok - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KZE5kOWR5Z1ZDUU5WbldXdUVpcnhlY3lUX2tod2xhTGFuaHU4TXA1VW1rZ3FTeW9VcEpWcy1Ua0xKajVtdTFsZkZ4VVc5S2hpYWF1ZGlYOS1zc3c5?oc=5",
+        "pub_date": "Thu, 27 Nov 2014 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "10 startups that caught our eye from day 1 of YC Demo Day S18 - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LZHBRa0RoVW1EWDM4d3Z4TF9rZUFSZjRSNEVoN1JqZTk3LUVlX2ljZ1RrRE1uUFRfZU5qM0tYTWRmOW9xSDdYTjRYZjZzOC1PbzEzSDA5OGRDRnk5Qy1VTmVHOXNOcHNLRG5NSEpxc0Y3OFlT?oc=5",
+        "pub_date": "Tue, 21 Aug 2018 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Here are the 63 startups that launched today at Y Combinator’s S18 Demo Day 1 - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaG5FbVZGeW5EMU44akhVZHdTM1M4Sl90VURIRmU2U3diVjc1aUl0SEVJdzRsc0R0cEJxeFdBTWZhQmRHZm9LbE9KeTd3MmdWbTJnT243WW04NWtaeUZsdTh6a1hsVWtvYjdabVJqMUNkOHhGUFRyZEljbUVPVUhvRVhuN1ZLLU9Ub1FtSUZhVmg4bnVWMVoteC1hdnhsT2syZVUwQks0S2x5RE1JT29yRA?oc=5",
+        "pub_date": "Mon, 20 Aug 2018 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Strikes on Gulf Energy Escalate - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxQQmZxTWNYX0tyUENLWGFEUmJoQnN5Mm01Q3VaSEVYODBZcFFTU3ZQTWlvOEpyRXZLNmc0eEdNQmZrLTZLc09vTC01ZGNOQmwzS2pGaWhDY25YbzN0OWNiU3FBb2JWZG84TXA2LVBYZ3ZSb05nQWZ0clpUU2tlS0NIZVZ5c1VIb1I3T3NEQUtUeEQxdzlwVHpCM1IzRlJPTnd6aVZxV216emxJOThvcnlmM2lId3IzQUFIT2dCOGdWaDJBN1JIYl9wUGxiSnpuRlVyaFFReTdVeW9kS3Q0MXdSWTEzeDJnSU1wai0xaEhxaVlsTjh1MUgxbVh2QnZLMUluNDRUZGdaTmppcS04ZEYyRE96MzExelBxQi1ad3Fuc01YYkRrRzJFOWl3VE54VjgzYnNSM3hBYXpxQlJmQXV3QW1LSjJVWXMxNGstMHIzazU4QUdBNGhjR2tJSHMzMGYxRHNlNGIxblpPQS1vY3c4dGJBVEJSZ2RqUDdrY09rTTlCQ1pkR3EtQVQ0ZWRKTUhNSmRqSGU1SzJuVGlNNWE0?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 15:50:16 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Big Stores Hold Off Reopening As States Ease Restrictions - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxQU0ZyMGhBb0pWZFJJeWVRVU5YamkxNkM2czRpOFlPalY3OXdaTGVQdnY0cURWZGtuWjEtYURiUk5xbW5XbHRwcEhNZDFKU1p5V3pEdE1OcW11eEFFZW1NOEtNNVYtanh2MXRSb281bkV0cjhaZGZJNDYwbEE0NXEtZnRjRm9GaFh1bXByS2RLdmtxemtvQnNGdjE3MzVLV2xDMzJ6VzZVYkxiN2VsUHhybmpnZV92N2U5YmJXdE9VeGdfdC1ZU0hVUEJZZTR2V01DVUxMdGFaR3RteU5XWHpPWUFVbUViM3F3QmdzUThlSFRmSW0xejZSbmdVSk9TUG12MEZueTFQb3pYR2dJQko5MUZTSC1wY096Mnd4emZmbHUzcTNQWmlfdTZ6eC1KS0RCVEJWYzhGM3h3dHktMVQzelZWRnlFZ3JuRy1aQnVobUdTMkZlUmhJejhkQmQySHJXTnlaeUJBN1ZUTjFpSnhEMENfUkZ0a0lvTDBycE5WU25BdWFFYnhHVkJRTU5jbk8yRkROZ1NyazROSlZ2UEtN?oc=5",
+        "pub_date": "Sat, 25 Apr 2020 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "White House Supports Effort To Ban TikTok or Force a Sale - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMingNBVV95cUxOMzNKLThGTVpPRERnVnBEZ21WWElaX0xWdXlWSFhRUUpSbTg5Y2RFVDFORU40QWlmU2Z4ZEdLYVVnd3RxVlF4bkxkclpHQXBYanJGcVBuMkF5eVhMYUxaS3lmcW5LUXdZUnpoLXloYWtSNUhYNl9KYWhRRHFkOWxCTUM5dGl3dUZWNDZOYlhwQklaa1IzVlZGc2xoZzh3NTREeTh6VGJnY0JJVU5XOFNQcHVhMWJ5WkJPTWFvVXlXRjBsSXUwbHFyazNucmxaX0YteC1QcXdsTklqNkpHSUVEMVFBYXIxLVNzdThKMVlBS01MQjBRX2YtR3NnV3BkRFlTNlR2UjdDUmZpQ2twVEpIRFgwYnlUcWh2S2gyUVV1RU5Zemg5WFRfY19reng0Wm5VdWQ5WXlVRE56U281cUIzTkNRcXZGQk50dW1ScUJJd05veWZlMjlNdEVsNzBoRG13SHF2SVFwWVFiUGpsN2dpaHkzS0xiU1BqYWxFaHRKVlFDZ1VjVFJJMEZFYWhkUnplWVRBNjJHMTQtdEFlNXc?oc=5",
+        "pub_date": "Sat, 09 Mar 2024 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Bayeux Tapestry to be sponsored by Belarus-born hedge fund billionaire - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0dFNXWGUyN3BjT3gwTnhCQkNnejZLT2R5b0d3WE9hTVIzanVzTVBOc2wzQWlkelBRRThWRVdITlFEeWk2VmhQeUdJaW1QdXF2OG83VW5UQmVoeGpLTjE1N3NVMjhka2REbklvYnYzSEc?oc=5",
+        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "When is it OK for economists to experiment on people? - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HOWtqREJqU01KTDZxbHM1TVhYSFVrTWRDN3V3a2s4LUtidHFWZGVxQklXVllVRl9ibWFndHN6eUR3VkRBOElCM3dTSjdUdzhEdno0ejhwekF5VzNaZnBmSW5fdnVuNUFFYUZQZDRrOXY?oc=5",
+        "pub_date": "Thu, 06 Jun 2024 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Six perfect summer salad recipes - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BaWFjV0ZtRENnZU5BQ2E2X25fRE03b3ItanBmaWRuQjk0U29iN0U4UUl0Ul81STNEbUF2ckxONUJ3R2pqMHB5WnNtRWNqYlZVNnhBRlI5cGFmbXVJLTNfN09PMExkWWhuUlFNUkgtU1o?oc=5",
+        "pub_date": "Fri, 15 Aug 2025 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Trump tells US agencies to toss Anthropic amid spat over AI use - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOR3ZKbFJLbjZkNFZWMDZ3UE1VSGlsMVh1U0lTSlhaNUNyNTBPSjgyT1dibGNCZXR6MzFJcUppbm9OcUR1VVdqTEFHLVNTaGlTQ3R1YU92WUJRSDllSWlGcVp5cWh6R1lVd2dQYTBybXo1eDR3Z09lZHdpNTJ0UmRSZWl4RF9MV2Zvb2RZZGEyNV9EVXdxclFXbnl2czctYXhSUzQ1Y1lma18xX0VQeU1hYUxrNXVxenZRSjc2UmVCZzNINXFRek1oTk16dw?oc=5",
+        "pub_date": "Sat, 28 Feb 2026 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Anthropic sues to block Pentagon blacklisting over AI for military use - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQW9tR0lLMEh0TGczdGs5NGhLTlhmdExmUGlHMFA0YmxTV2tJUkVrbzVmc2hPYUVkQ0l4Z0tGNHpCOVlZWC1wN25qZWV5NkJkOVduYjJWSjZvbDFtWldMSjh6MG1iMkRyM0ZMNTZjaXE1Z2VlWnZHTzh6MDE4WWNFdUs4dEhldmNOaWNIeGZUOWwzTnZrZTNmaXJNQWl6NHdPZXdkNktOWkJOenNDZnpqcmxZZFlwUy1SWHU2d25nU084THktZWw0NzNYRUlNdVB5NU1KUQ?oc=5",
+        "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Ex-M&A lawyer says AI can iron out details in cross-border deals - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbE1tNmRLVkFvc25laklhemh5SnFJcEFsLWtmM21fSFRVaVA0OC1rZzhVT0F1RWhGZmxyZU0tQWU2UXY4Y2pyaEM1enMySTNiUVhzMW5jZXJuN3dGQ2JpdHZ1Z3QxWEViNElBSmFlTlhFNXRKSDBlaHUwMVZtcWVHQ1VUOFEySE9HYlZhMW9sdXZuYm5uZFlqMTNOTzJDc21EakJrdEtQSm01MWdqYU8xR25IZDB5bzEtZ240cVFnRnhVUTEwMjJ2NWdBVlE?oc=5",
+        "pub_date": "Wed, 20 Aug 2025 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "How Whoop Survived a Race Against the Apple Watch—And Made Its Wearables a Hit Among Athletes - The Information",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbmRkbWRaem50dlJoNDZFSDkzYVN1RmMzLWJzcWNxekhuNG5PYlppUmlBZWotaWhlU3ZaeDB4Vm5XLU5vNW0yX1JfQU52NDkxeHR5T1ZkSEdCXzdYaFNselJXeGsyamJQMGd3eWVPYWM2ajRoS2JENVY1ZUhqNVRTSkZkZG9LbHJBVXdfbFk0dGdHVEd0Q3pfb0prWkdwLVQyd3JUT0c5V2liUEdUNUtuTmQySjlneHdqV2F4emZZaU9heXg3SG5sb0V0b2JTdw?oc=5",
+        "pub_date": "Fri, 03 May 2024 07:00:00 GMT",
+        "source": "The Information"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "산업 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56aU5lMTEwLVlqS1IySG5zb3RmbG5CWDYyNXQzd0t0Ni1oRHFIZ2JsU183RDRrakxlWDJlaTlzOGtTaDNUVld4bDdZYnVodE9rOW5iS3JDXzdNNTl1YXB6ZTBCakUzQjVjdkZSWllOWmJ3aVRsQzJMVg?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 12:39:41 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "2026 대한민국 AX 대상 - 한경 행사",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE44UjNwZEswQzM5c2V6VDVNczhFcXhhNHRNSHF3RWViX2dXZG1sMjVLX2VmSHhkaDBaUlFTa0xPY3pQaFZXLWVRUWln?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 07:47:45 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "산업 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0VVVWYktkUUZUS0FybW9SLXp2bzJ5VlYtcllwWXB1NHVjVHY0dkJud1F1dlg4V3hDOHp4Zl9uS2ZPZTM0ZVJuUVJSb3p3S0pFbjc0b3ZnZ3JJWE0yQVFRR3RwOUNVekRSamVRN0Z4ekllbm9BbmdieA?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 14:58:32 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "대신증권, MTS서 랩 상품 조회 가능…“자산관리 편의 강화” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbVJqZmdwaXZXZGNncjFNNlJWU0tTMnNLaVJ5eTI0WFBsM3lHaDdEQ0VPZ3NVbkJDMVlaTVRHU1hNYVR1RTlrM2JtRl9FZVVnSHpvaERrLWlRZTBrUENYcFcxN1NZRjJoY0k4cjRlZHgtUXpZbVN3YzREMC1aS2E1b2g2X0ZUcWQ4cEpiekdZYmh0NUhjTEktVHJkWTTSAZwBQVVfeXFMTW1SamZncGl2V2RjZ3IxTTZSVlNLUzJzS2lSeXkyNFhQbDN5R2g3RENFT2dzVW5CQzFZWk1UR1NYTWFUdUU5azNibUZfRWVVZ0h6b2hEay1pUWUwa1BDWHBXMTdTWUYyaGNJOHI0ZWR4LVF6WW1Td2M0RDAtWkthNW9oNl9GVHFkOHBKYnpHWWJodDVIY0xJLVRyZFk0?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:25:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "'개막 맞이' SSG, 이마트24 트렌드랩 성수점에 체험형 팝업스토어 연다 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdFA1Zk5fa3NjYm1HakxNZEVBNUtjcmVXLVRtNnB6MUhNSHNHT0ZXMWJ0ekV2NFJNdFkyb1BiMkxkSkpTQ2ZfM3pJNDBpR1FvYWRKZ2g4V0FDV1lOd2tibmd6cTdRZmFvZnRqSl9Rci1oYmZVX2ZuYk9RTUVmUHlncktqOXlRN3BBQlpzSzkyVDJ4U3V0WTFN0gGXAUFVX3lxTE10UDVmTl9rc2NibUdqTE1kRUE1S2NyZVctVG02cHoxSE1Ic0dPRlcxYnR6RXY0Uk10WTJvUGIyTGRKSlNDZl8zekk0MGlHUW9hZEpnaDhXQUNXWU53a2JuZ3pxN1FmYW9mdGpKX1FyLWhiZlVfZm5iT1FNRWZQeWdyS2o5eVE3cEFCWnNLOTJUMnhTdXRZMU0?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 06:03:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "‘주방용품 1위’ 크린랩 거래 무산되나… 포인터스PE·이상파트너스 자금조달 난항 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQm5KVFhnN24zVDdMeGM0R0hxbmd1dDFTREVGZ1ZpQkx0cjZhQ1dzRGM0Y01QTVlrTXVuRXhoaGl4TTU4RHFUZjNSWFpaaHpKN2VEWHpBMnpXTDdIT0J6OFlTbFc3bmo2a0d4c3NrNE4xUkc0R0dRNldJdkNFYlhkNzhWcUpybEdIdU90Mjh1UG4xTXNKdEFRZGNMY9IBmwFBVV95cUxQQm5KVFhnN24zVDdMeGM0R0hxbmd1dDFTREVGZ1ZpQkx0cjZhQ1dzRGM0Y01QTVlrTXVuRXhoaGl4TTU4RHFUZjNSWFpaaHpKN2VEWHpBMnpXTDdIT0J6OFlTbFc3bmo2a0d4c3NrNE4xUkc0R0dRNldJdkNFYlhkNzhWcUpybEdIdU90Mjh1UG4xTXNKdEFRZGNMYw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 21:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "“오늘 한강물 온도는?”…토스, ‘투자 실패’ 은어 사용한 서비스 논란 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jcm9UcnRjRjk2cGdjUUtwbmhibEt4TFdFY3hOdlFaXzhiYUFoTlFzSWVfLUhTcWRZd0lRQWhjUV9xS3J0UlpIN0V6MERfa3N5b190TA?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 06:14:20 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "현대건설-현대차·기아 로보틱스랩-슈프리마, 주거단지 ‘로봇 통합 솔루션’을 위한 전략적 협력 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IMWtHdWVfeFhYOXVLVmRvMExweUY3SFNoZEVsMDExTVloR1lQTVF3R0syZ1lTY0d1SzRodGZxN0ZwWmRLbUc4NGZ6TnYyWDN1dzM0RV9tQ1c?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 05:07:36 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "토스뱅크 대규모 채용…60여개 포지션 열렸다 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16Y21WOEw4Tl95eFdsa195Q0ZCT2pOamZnb1lwTEtGeHhTVlFYc1dDSWdrNThVaVZqNmh0TE5lV2VrWVdlUkV1QXllRXMtbTRad3U5SA?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 00:46:55 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "이마트24 트렌드랩 성수점, ‘SSG 랜더스’ 팝업존 운영 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xLVBvU3pRNTU4S3JVM0ZFVXZBUEtCOVVRSjZkZm9jeGM2YW9KMS1yRHV4MWEtWEJCN3gzRlFvekxWZk9DYm9TeEE2aFY5TGhGTnNLWTh3?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 00:43:26 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "방탈출부터 디저트까지…롯데칠성 새로중앙박물관 팝업 가보니 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KNFVzRXVKQUFMNlQ1eW9ESDQyWDRDTG5jOEZTSlhPVVhUU1MtcHRWVzZyN0lIUzk2TGxGTnhuV2o2OEFuNDJaZk5uZFBTRjBZZW40eER3?oc=5",
+        "pub_date": "Sat, 21 Mar 2026 06:00:01 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "토스랩-테크숩, 공익 단체 협업툴 잔디 무료 지원 협력 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mcmZTcmNrSkhQblVzVVRTZkkyUlhHNlR0dWM4ZE0zYXdtdllxWFIwNWNZSDZxYUk2ZU9DbUkzS0t4UEw2dnBGRmtzR1VEcVBFbktPLVhn?oc=5",
+        "pub_date": "Fri, 30 Apr 2021 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[씨이랩 줌인]④ GTC發 AI 인프라 경쟁…'파트너십' 수혜 기대 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wejBIMFBuWGRVbU5valQ4QllSLUczTll5NVFCbFB4SjR3UnNpczJ1WElLTGJLUWxOdGlySk5fVE4tenBpZmh5UU12YlgzU3ludzliSFMyZ0FVZ0ZhRDFENWdIb0RUeGdT0gFsQVVfeXFMTmpSY1I1dk1Za1RmTXluM3g1UE9TSU1SWm1Iak9EcWlRbWVHX2JFQldVSFdJdU16LTRXMHk1SW9oaFM2eGduQV9wb1dvRFM2SG4xXzlVNHhnajVRMjdRdEJKUVY3MVQ0OGVJbWE1?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 23:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "씨이랩, 日 이화기계와 MOU...7조원 AI 시장 개척 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2b2d5RWpObXI4NF9pbGVXTW1NczFDM2JJZEdnNG9HMW95dUl6Nm9MWnNBMHpRdHFlSGxfQWRWVDBKTzN2TzNaR08xWUU2ZEdoWGpOek1KenVQb3ppV2Y1OXFseXZRaHFR0gFsQVVfeXFMTnY4OVotdk9pMW5PR0ZKbnd4NnJDOTZsVER0bTVQT001WFdzbl9rb2w4YUhhOWxxa2IyRnl6VFE5anNsbXZrVDVUNklmZHFhMGljRmJES2QwNVdCQnFFdkdhZzhDNl94MmNiY05X?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 00:10:09 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[클리니컬 히스토리] 삼성에피스, 분할 이후 첫 투자 지투지 '이노램프' - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWaHJSVml5Mm1lLW1BOUcxaGZBcVNZRlpJdF91ZzBuZkdiZnFWNGszX1VvTzIzd3cxYzlvSC13bWZrZlhSaGlyV2l5d3lfQ0FBMUlHUF9Wcl81RElnR2luQW9IdFBidlZN0gFsQVVfeXFMTlRGSU9QVEY3WnI0Ym4wdUVJQ09zenBwOU52bEx4UG1FQVVZNVFXbkZHOVNhMXpNT0VtSTZxSUJNdmxaX3d4dTRIeXc1UHltcGpqUEdhS2ZhdGhiQkUxeUJwWEtiTlYySTZUY09D?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 07:20:23 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "토스랩, 메신저-프로젝트 통합 관리 기능 ‘잔디 프로젝트’ 출시 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NcDhNWWQ4LWhtOUVQMDA3Z21oTFZDLVo5YTFNVTZHLXFJSDhySnJLVTlpa3BtcTlPVzg0NGRJclhfd043dGpMNkdtN3hDLXc?oc=5",
+        "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "AI 협업툴 잔디, 인텔리전스 허브 ‘잔디홈’ 출시 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UVGVtaFNqeEFoNjZwTVprbkFubWo3NU93V1RwXzkxTXEzbUlCQ2s3WTBFNmpnY1hsSW5IVWl1UzhaSTcxb3VPWWo5dFRuQkE?oc=5",
+        "pub_date": "Fri, 22 Aug 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "토스랩 ‘잔디’ : 죽음의 시장서 살아남은 자 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAzVWtraWdKVUVPcENDTWFoa3pXU2I2LXBneG0teEc1N2ZNMHRFYl9GRVZsbWp0c01YSkhSQm1Eal9yQUpTTlVLeEJhS1I?oc=5",
+        "pub_date": "Tue, 28 May 2024 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

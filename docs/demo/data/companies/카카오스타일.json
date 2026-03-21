@@ -1,0 +1,777 @@
+{
+  "company": "카카오스타일",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 14,
+  "sections": [
+    "financials",
+    "tech",
+    "strategy",
+    "culture",
+    "overview"
+  ],
+  "data": {
+    "company_name": "(주)카카오",
+    "company_name_eng": "Kakao Corp.",
+    "stock_name": "카카오",
+    "ceo": "정신아",
+    "address": "제주특별자치도 제주시 첨단로 242",
+    "industry_code": "63120",
+    "established": "19950216",
+    "homepage": "www.kakaocorp.com",
+    "ir_url": "https://www.kakaocorp.com/ir/main",
+    "stock_code": "035720",
+    "corp_class": "Y",
+    "employees": [
+      {
+        "position": "전사",
+        "gender": "남",
+        "headcount": "2,166",
+        "contract_workers": "20",
+        "total": "2,186",
+        "avg_tenure_year": "6년 4개월",
+        "total_salary": "122,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "전사",
+        "gender": "여",
+        "headcount": "1,587",
+        "contract_workers": "149",
+        "total": "1,736",
+        "avg_tenure_year": "6년 3개월",
+        "total_salary": "92,000,000",
+        "avg_salary": ""
+      }
+    ],
+    "financials": [
+      {
+        "account": "자산총계",
+        "current_amount": "11590369398820",
+        "previous_amount": "11607486907579",
+        "two_years_ago": "11354868024171"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "7477584262907",
+        "previous_amount": "7214324930736",
+        "two_years_ago": "7183172116575"
+      },
+      {
+        "account": "부채총계",
+        "current_amount": "4112785135913",
+        "previous_amount": "4393161976843",
+        "two_years_ago": "4171695907596"
+      },
+      {
+        "account": "영업이익",
+        "current_amount": "440242465351",
+        "previous_amount": "491969958048",
+        "two_years_ago": "533021659728"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "1608637288456",
+        "previous_amount": "1401810048845",
+        "two_years_ago": "1391076211720"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "5933966163819",
+        "previous_amount": "5821850796030",
+        "two_years_ago": "5744620766690"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "44299522000",
+        "previous_amount": "44416211700",
+        "two_years_ago": "44534987800"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "-26929676338",
+        "previous_amount": "-19673062884",
+        "two_years_ago": "-4630358666"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "-82389035030",
+        "previous_amount": "-34079062955",
+        "two_years_ago": "7570509031"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "7477584262907",
+        "previous_amount": "7214324930736",
+        "two_years_ago": "7183172116575"
+      }
+    ],
+    "naver_blog": [
+      {
+        "title": "0",
+        "description": "https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 산림청에서 지정한 국가산림문화자산(2016년)으로, 맑은 물이 솟아나는 생태적 가치가 높은 곳.... ",
+        "link": "https://blog.naver.com/yjsjhs/224224992913",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "화물운송종사자격증, 취업까지 완벽 합격 전략은? - 주변정보",
+        "description": "두 번째: 기업 및 직무 조사 지원 회사의 사업 분야, 운영 방식, 기업 문화를 조사하고 직무에 필요한 역량을 파악하세요. 실행 단계 세 번째: 자신감 있는 태도 유지 및 적극적인 소통 면접장에서는 자신감 있는... ",
+        "link": "https://waglewagle.kr/4258",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
+        "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
+        "link": "https://blog.naver.com/blrol_blrol/224224956373",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+        "link": "https://sibauchi.tistory.com/1205",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "11",
+        "description": "우선 기업이 되기 위해 10억 달러 이상을 약속했습니다. 저는 10억 달러가... When you adopt AI, well, you don't just change adoption or productivity, You change how power is perceived and... ",
+        "link": "https://blog.naver.com/calcutt/224224839164",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "AGI 시대, 68세 김성한의 인생 2막 설계: 생각·콘텐츠... ",
+        "description": "선택 가능한 채널 예시 블로그·브런치에 1페이지 분량 글 쓰기 유튜브·쇼츠에 3~5분 이야기 영상 올리기 (카메라에 익숙하지 않으면 음성·슬라이드만으로도 가능) 카카오톡 채널·단톡방에 “주 1회 노후... ",
+        "link": "https://blog.naver.com/mailer-/224224832447",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
+        "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
+        "link": "https://think-tank.tistory.com/1035",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
+        "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
+        "link": "https://blog.naver.com/kcl3598/224224791593",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "현대엘리베이터 인사 자기소개서 작성법 및 HR 자소서 항목별... ",
+        "description": "현대엘리베이터 기업/직무 맥락 정리(사업구조, 인재상, 조직문화) HR 자소서 5개 항목별 출제 의도... ④ 합격 포인트 산업 구조에 대한 이해를 지원동기의 출발점으로 삼았습니다. &quot;유지보수 수익 구조 → 현장... ",
+        "link": "https://blog.naver.com/edwards_consulting/224224766008",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "한국투자증권 상반기 공개채용 합격전략 7단계",
+        "description": "어떤 직무에 지원하느냐에 따라 자소서 항목과 준비해야 할 역량이 달라지니, 초반 결정이 합격... 면접 후기들을 통해 면접관의 질문 스타일과 분위기를 참고하면 예상 질문을 효율적으로 준비할 수 있어요.... ",
+        "link": "https://blog.naver.com/money-study-/224224741093",
+        "pub_date": "20260321"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "카카오스타일-메타엠, AI 기반 예측으로 고객센터 운영 혁신",
+        "description": "통해 카카오스타일(대표 서정훈)의 ‘26년도 고객센터 운영전략 및 세부 운영계획을 설계했다고 16일... 메타엠은 “단순히 AI 모델만 제공하는 것이 아니라, 20년 가까이 쌓아온 컨택센터 구축·운영 노하우를...",
+        "link": "https://www.donga.com/news/article/all/20251016/132572617/1",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오, 국내 최초로 오픈AI와 전략적 제휴 체결",
+        "description": "열고 전략적 제휴 체결 발표 - AI 서비스 대중화 위해 기술 협력… 카카오톡, 카나나 등 서비스에 오픈AI 기술 적용도 - 정신아-샘 올트먼 양사 대표, 협업의 비전과 향후 방향성 등에 대한 대담 진행 [2025-02...",
+        "link": "https://www.kakaocorp.com/page/detail/11450",
+        "pub_date": ""
+      },
+      {
+        "title": "VPE가 들려주는 카카오스타일만의 매력",
+        "description": "하는 스타일 커머스 플랫폼에 도전하기 위해서는 제품 조직이 전사적인 관점에서 사업과 운영을 밀접하게 이해하는 것이 중요해요. 그래서... 2023년 카카오스타일의 전략 방향에 맞춰 현재 가장 중점을 두고...",
+        "link": "https://brunch.co.kr/@zigzag/95",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오모빌리티, AI와 모빌리티의 융합으로 미래 비전 제시",
+        "description": "주도할 전략을 공개했습니다. 빠른 모빌리티 서비스를 위한 AI 플랫폼 카카오모빌리티는 'NEMO 2023' 행사에서 이러한 비전을 공개하며, AI를... 돕는 방향으로 나아갈 것입니다. 카카오브레인 CEO의 차세대...",
+        "link": "https://datamuseum.tistory.com/68",
+        "pub_date": ""
+      },
+      {
+        "title": "컨설턴트가 플랫폼 기업에서 하는 일",
+        "description": "모든 사업들이 원활하게 돌아갈 수 있게 이끄는 부서가 있습니다. 바로 전략 부서입니다. 카카오스타일의 전사 비전을 제시하고, 전략 기획과... 나은 방향으로 나아갈 수 있도록 방향을 제시합니다. 현재 알파는...",
+        "link": "https://brunch.co.kr/@zigzag/45",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오스타일-메타엠, “성수기 인력 예측도 오차율 6%미만의 AI 예측모델로 선제 대응”",
+        "description": "국내 AICC 대표기업 메타엠(대표 신인수)은 카카오스타일(대표 서정훈)과 협력해 머신러닝 기반의 예측모델을 통해 2026년도 고객센터 운영전략 및 세부 운영계획을 설계했다고 16일 밝혔다. 메타엠은 다년간 축적된 컨택센터 운영 노하우와 AICC 자체 기술력을 바탕으로 패션·유통업종에 특화된 맞춤형 고객센터 운영 전략을 도출했다. 이번 협업은 머신러닝 기반의 인입량 예측 모...",
+        "link": "https://www.khan.co.kr/article/202510161135018",
+        "pub_date": ""
+      },
+      {
+        "title": "[나는 개발자다] 셀러와 상생하는 카카오스타일 데이터 활용법",
+        "description": "개발 비전과 방향성에 대해 들어봤다. 카카오스타일은 2017년(당시... 지그재그 사업 초창기부터 판매자들은 본연의 업무에 집중하고... 또 카카오 AI 연구전문 자회사 카카오브레인과 기술 교류·협력도 진행 중이다....",
+        "link": "https://www.ddaily.co.kr/page/view/2023011010200610147",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오스타일의 상상은 현실이 됩니다",
+        "description": "기술이 생각을 구체화하고 상상력이 기술에 방향을 더할 때 새로운 모험이 시작됩니다. 카카오스타일은... 대화형 인터페이스를 통해 상황에 최적화된 스타일링을 제안하는 나만의 AI 스타일리스트라고 할 수...",
+        "link": "https://brunch.co.kr/@zigzag/171",
+        "pub_date": ""
+      },
+      {
+        "title": "3천만이 선택한 국민 쇼핑앱, 지그재그 BI 리뉴얼",
+        "description": "배우 윤여정이 TV 광고에 등장해 ‘사고 싶은 대로 사고, 살고 싶은 대로 살아’라고 일갈한 광고를 기억하는가. 2030 여성이 주로 사용하는 패션 앱 ‘지그재그(ZIGZAG)’가 기존의 레퍼토리를 깨고 70대 윤여정을 기용해 화제를 모은 광고였다. 누구나 공감할 수 있는 메시지로 이용 연령층을 확장시켰지만, 한 발짝 물러서 보면 지그재그 브랜딩 측면에서는 부족했다는 평가다. 그래...",
+        "link": "https://heypop.kr/n/38932/",
+        "pub_date": ""
+      },
+      {
+        "title": "플랫폼 개편부터 AI 전략까지, 최근 카카오 동향은? / 데일리바이트(DAILY BYTE)",
+        "description": "카카오는 자체 초거대 AI 개발보다 글로벌 빅테크 모델을 끌어와 서비스에 결합하는 전략을 택했지만, 이로 인해 정부의 AI 자립 기조와는 어긋났습니다.",
+        "link": "https://www.mydailybyte.com/post/%EC%B9%B4%EC%B9%B4%EC%98%A4-250827",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "카카오모빌리티, 자율주행 인재 채용 확대…피지컬 AI 전략 가속 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaeVJKTG5yTTYzZnVCMUJ5TG5QeHpGb0R2X2JvVFpHYzUzbVY2RWtLQUtsbklFeXNOQTZMbU5kZzRYbzRleV9LdTJLQQ?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 23:53:04 GMT",
+        "source": "v.daum.net"
+      },
+      {
+        "title": "카카오스타일 CRM 파트장 “AI 활용 넘어 마케터 확장성 고민해야” [DMTS 2026] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96TnBRci1Ma1JLM1VpVlhrRVVJay1oT0JnUVRUUE84MjJ6RzVZVUZibmVoWGJDR2NSOEYxMHlZVlRSX0g3NGNBRnhfNF91LWlUSWFFc2lrWGRSaWE5Sld4OFRqRkZlT1VZ0gFsQVVfeXFMUC1RZ0hHSUlPUFFDcXpLM3JscklwNklaSU5EQU9tVzB1YXVqQV9oUTMyRXl1dzZsWnFxQzV2ZEhSc2NZcm5kbm80dDVUNXZwVzc2ZjJ6NmZhRHJQYkV3WFQzN0huVWRySW8ya2d2?oc=5",
+        "pub_date": "Wed, 29 Oct 2025 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "원티드랩, ‘AI 커리어 전략’ 모색⋯‘하이파이브 2026’ 5월 개최 - 이투데이",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qLWRsNVFodFY2X2RLcnhVdTJTUFF4MWJDcmlOSEQ4QTJhRHlsemNXVEItQWZfZEN0S2FCV1M1V1VlS3Y0bktISEJ2UTh6TWg2UEJBcg?oc=5",
+        "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+        "source": "이투데이"
+      },
+      {
+        "title": "구글-월마트, ‘에이전틱 커머스’ AI 시대 연다... 유통 판도 바뀔까? - 패션비즈",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1RnVDVHBYekN6V2V6U3p2OE1vQTh4WGNLWUFmbkVSLUd6VHZhT3hJU3Btano3M1JUbVZCdzJiZzJQUXpCdlo3MjNFanp0RDhq?oc=5",
+        "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
+        "source": "패션비즈"
+      },
+      {
+        "title": "지그재그, 2주간 ‘2025 직잭팟’ 진행…최대 76% 할인 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xTVFvZ2ZaVENXSFhmb3d1UnBRal9SZDFFV2VFWGN4cGY2LXBxc3Nmd3dON2k2cVN4djBJbGdtWEg0NFZLc1phZXhzT0x1XzlPSzVOLUVB?oc=5",
+        "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "인공지능, 너 내 동료가 돼라 - 브런치",
+        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5mN09MOEVpY1NRRURyRm96djUyallKWEQ0SUNNWVlhMnE3T2ZWZFdaSnpFTjBmcU0yQkwzWnZESWRncUtiRm9j?oc=5",
+        "pub_date": "Thu, 24 Jul 2025 05:18:21 GMT",
+        "source": "브런치"
+      },
+      {
+        "title": "메가존클라우드, 29일 AWS와 ‘AI Connect 2025’ 개최 - 디지털 인사이트 DIGITAL iNSIGHT",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUy1YQ0FRWDM2NmZkb1JQSS1BUEJXQWhNRUI4R1pOUlMzNEhEZHltakRGdWhvc1R3OUhhVV9JdGRPSVZxazFVZkJSbGV3MzV1MlBfZ2pQRXo4aWJITmN1Z0M0dUlySGc1UzBmNTNSTUlwYnYtVmMxdEZBRzJ3WmlBcjdRY29nX2VzNnlTZzl3MEd6cm9uWHBrbkExajN3RWZldlIyM3hoeEZmUUxUVFJWSk4yOTlsZm15VGd2djFnMWRrbERjem43TXBpbnlndjBhSlNURE9qN1lXLW92?oc=5",
+        "pub_date": "Mon, 18 Aug 2025 07:00:00 GMT",
+        "source": "디지털 인사이트 DIGITAL iNSIGHT"
+      },
+      {
+        "title": "카카오스타일의 Amazon Bedrock을 활용한 생성형 AI 도입 사례 - Amazon Web Services",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObjRhSWc0VFlacFVfTGN6OGhYVUdOcGdQVGlvVnJqX29XRHNYWS1sNVZvWGZBNnljUFpPeGx4NW5aU2hORmNBN0lLb3F4TnlHelZwSlZLelZOa0lfV2R0amhaVTlNamFFbkYxZ0VBTHpVeHpBbXZ2OUtkeG12V2hGMkZJd1RuS2dtX3VB?oc=5",
+        "pub_date": "Tue, 24 Dec 2024 08:00:00 GMT",
+        "source": "Amazon Web Services"
+      },
+      {
+        "title": "잡코리아, 개발·PM·디자이너 ‘퇴근 후 밋업’ 연다… AI 커리어 고민 나눠 - 디지털 인사이트 DIGITAL iNSIGHT",
+        "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNQXBMNXI4RnRTQ0lHOGJyUDE3TmxNVE1YbnYzTWRzZ1RUUU05clpadk1WeENaWnVURkpKMWpHN1RrRUY1RWhHXzhEblc2UnJlTUxrRXlSNDQ3WWtmUVY2anZoSldwWV85VG9YVzVwdF8xR09HVWRoenZ2VTcyWFQ1Z0dQSnM3YjRuMHNSa2dWVVAxLWpsZ3lXSXJkdjNoSV9ZcFg4R0pSVTVhSXZSWFhab1ZUTXZTdElvbTBqVDU4ekdiV3Nsb0hybE5lV1Q3XzRRLUs4TW5qWkZBZ2I2VTQwZnhsbVJob25mS290bG9vd0RpTkVXM2J2U191dnFoV2lQNUk3V1R2UkhCbzV5RzhfcENoMDljT1JKOFp3bmxB?oc=5",
+        "pub_date": "Thu, 18 Sep 2025 07:00:00 GMT",
+        "source": "디지털 인사이트 DIGITAL iNSIGHT"
+      },
+      {
+        "title": "VPE가 들려주는 카카오스타일만의 매력 - 브런치",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE00a2V2UldQd2ZLdkw1bmJfR2dTQjQ4R1J1VlNlcGJrU29pSUJ6ZXBPX2JwbUNYOExOMjk4QUN0djJWUHZuaHc?oc=5",
+        "pub_date": "Fri, 09 May 2025 07:00:00 GMT",
+        "source": "브런치"
+      },
+      {
+        "title": "(모음) AWS 서밋 서울-AI적용사례-2025-06 - 브런치",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9DZnlqbWhTMDNaTFVHZEt4ekg4WXRXWkwwTjlHVktsWTViUTZTMFFnMzY2c0plczdWdXJRRld2WmZaQVI4bFNZTVBucw?oc=5",
+        "pub_date": "Mon, 10 Nov 2025 08:00:00 GMT",
+        "source": "브런치"
+      },
+      {
+        "title": "[스타트업 단신] 팀스파르타, 라이언로켓, 뤼튼테크놀로지스, 카카오스타일, 챌린저스, 베이글코드, 스페이스클라우드 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uQ1pKd2RxUTJJQml6Mk5uVmlzZGxDSEtUQ3N2THRjTjVvb3lTcVlvVzRmdTIyblB0UTdVVDJfaTVSSXh5UmwzUg?oc=5",
+        "pub_date": "Wed, 15 Mar 2023 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "[BbCONF] 'AI 시대, 브랜드는 어떻게 진화할까' 브랜드비즈 컨퍼런스 2023 개최 - 비즈한국",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCMTVUdGRQUzFoUHM3aUp0dXlXVE1lcGhzMFd3dVpWQU1VUDNjcDdkTWNBWHAtb3YxTy1zMUpVc2xPeUc1MUpHTDRWdTNkLXRCdnV3ZjVR?oc=5",
+        "pub_date": "Tue, 17 Oct 2023 07:00:00 GMT",
+        "source": "비즈한국"
+      },
+      {
+        "title": "[카카오스타일 집들이] '대표가 직접 토크쇼도 진행…임원실도 따로 없죠' - 테크M",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBweFlZOHJsRVc4M3RZTmN0NjFVQWQ1d3pMamV1U2NZRFE0NE5EQTFIVUpYZUFkbUZXcVZJSkNPM0FwRnpaNE0wdXlERXNRMDhneXRxblUyZjNYOWNwdFNkbGJRSmHSAWhBVV95cUxOQUFxVURoZzlpeDBqMndGWnA0VVBpbWh1T0p1bndiNjg0UGgzUldSQURHdFJydVNaT3FXR3FIWmI5M1ZmOUx6bWI1MENha2REZlRPRkR0elNpR052QVh6QjhiRXZFamUzdA?oc=5",
+        "pub_date": "Fri, 15 Jul 2022 07:00:00 GMT",
+        "source": "테크M"
+      },
+      {
+        "title": "[카카오스타일 집들이] '패션쇼룸과 꼭 닮은 회의실…취향 존중하며 일해요' - 테크M",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wWW9KSWR6cm5GZEhqREw3M0xnOE96NGl2bVVyMHBkNkEyYml5eE5hQkNWTW9mWDYtWEVVNUFlQWhWazFHOEJOTDNJZWJCNEo1cGFsVEZ5RDE2MFFEcEQ3VkFvLWzSAWhBVV95cUxNOWphMUNqSy11dExqRGhMZmUzVGdzQTctam5fMXNsQzBrWE12MHpabHZ0TlRoVVN3SzlWMWFKQnNpcmtTR2tyNU9ST0VNcWk5REZpb2xaOWxaLWdoZVBPN3ExWW9MeURGXw?oc=5",
+        "pub_date": "Fri, 15 Jul 2022 07:00:00 GMT",
+        "source": "테크M"
+      },
+      {
+        "title": "카카오스타일, '2026 온라인 브랜드 소상공인 육성사업' 참여 - 더팩트",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrMFJ2XzNEdzJWdDdXZmFOUzFISFN2NDhfWDAyX3N4blZYTHZyd1FiNzAyM1hyWmc3dGJvZ2tCeFpoYkc0WGhZb253SzhJaUNESTY3RdIBVEFVX3lxTFBrMFJ2XzNEdzJWdDdXZmFOUzFISFN2NDhfWDAyX3N4blZYTHZyd1FiNzAyM1hyWmc3dGJvZ2tCeFpoYkc0WGhZb253SzhJaUNESTY3RQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 00:04:00 GMT",
+        "source": "더팩트"
+      },
+      {
+        "title": "카카오스타일, 지난해 매출 2천억원 돌파…흑자 전환 성공 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11RWFYOXJBUnlYNHlDN3YtUFB2NGdSdE1peFJYM1ZVc0JtS0VadFNrLTdFUjh0Q0ZSaGczVWFDVWV1R3p0Z2xTYWtkdTJnVDVkUklvZ09R?oc=5",
+        "pub_date": "Tue, 01 Apr 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "카카오스타일, AI에 일감 더준다 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1VMFpGSjNKMFFIVEwySUx1MUJzcE82QXpleklhckk3YkJnWTYzdlp0MFdBYmNtSG56SFJLWUZWOGRNelpZbkhqSXZaNXRkUQ?oc=5",
+        "pub_date": "Sun, 24 Nov 2024 08:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "[기업분석보고서] 40. 카카오스타일 - CEONEWS",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tWHhEVHBLZlZYVE8zMXdIanJJZnRMWGhJQ3RRUHhJbm00R295VmtSMnFfOUQwc1dPUUlFUzNyNldmR3lXUjE3TVF6aXA3TGlNR3p2MVlLSVJ6cTAwQVVj?oc=5",
+        "pub_date": "Mon, 21 Apr 2025 07:00:00 GMT",
+        "source": "CEONEWS"
+      },
+      {
+        "title": "카카오스타일 작년매출 2천억원 돌파…5년 만에 흑자전환 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRNmVpakY0X3lITUtRajUtTzh6aXpwRnkzajlUdnotNFhZLVhaX0JJYXBEZUFQZTlkNEVpdHE5VFNfZGJhTThrS25KZXZmZmpmT2l4UUZqNENKZlXSAWBBVV95cUxOSV90UXNUbVhCY0xLQnQ5SnVfdVZIQ2cwNHItNWY0VFpCZEtpZ3NZNnMyRkxkcHhETnQ0MVFjU1BTd2sxNDRKcmpNV2ExeXhKMlFGdkxHdFhQZVBHclMwTW4?oc=5",
+        "pub_date": "Tue, 01 Apr 2025 07:00:00 GMT",
+        "source": "연합뉴스"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "카카오스타일(Kakao Style) 채용",
+        "url": "https://career.kakaostyle.com/jobs",
+        "description": "카카오스타일에서 우리만의 스타일을 만들어갈 크루를 찾습니다. 지금 채용 중인 공고를 확인해보세요!"
+      },
+      {
+        "title": "기업심층분석 1. 카카오스타일, 채용 분석 및 기업 정보",
+        "url": "https://www.jobkorea.co.kr/company/43275639/AnalysisView?Inside_No=21066",
+        "description": "<strong>회사의 비전과 서비스의 방향성을 설명하고 정식 인터뷰 진행 전후로 캐주얼한 분위기 속에서 회사와 지원자가 서로를 탐색하는 시간</strong>이다."
+      },
+      {
+        "title": "인터뷰 가이드북",
+        "url": "https://career.kakaostyle.com/guidebook",
+        "description": "Tech 인터뷰 테크 인터뷰는 전형에 따라 최소 30분에서 최대 90분 내외로 진행돼요. 사전 인터뷰, 라이브 코딩 테스트, 온라인 과제는 필요에 따라 진행되며, 해당되는 분들께는 개별적으로 안내해 드릴 예정이에요"
+      },
+      {
+        "title": "(주)카카오스타일 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/UWhycE5PYno1NXhZaDBWQzlldkVwdz09/company_nm/(%EC%A3%BC)%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%8A%A4%ED%83%80%EC%9D%BC",
+        "description": "(주)카카오스타일 기업소개 - 업력 : 15년차, 기업형태 : 대기업, 스타트업, 업종 : 응용 소프트웨어 개발 및 공급업 | (주)카카오스타일의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 ..."
+      },
+      {
+        "title": "카카오스타일 최신 채용정보",
+        "url": "https://www.catch.co.kr/Comp/RecruitInfo/E91129",
+        "description": "카카오스타일 신입, 인턴, 경력 최신 채용공고 정보와 자기소개서 항목, 지원자 스펙까지 한번에 확인하세요."
+      },
+      {
+        "title": "(주)카카오스타일 2026년 기업정보 | 기업리뷰 303건, 연봉정보 190건, 면접후기 329건, 복지정보 0건, 채용공고 0건",
+        "url": "https://www.jobplanet.co.kr/companies/6881/landing/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%8A%A4%ED%83%80%EC%9D%BC",
+        "description": "(주)카카오스타일 기업정보 - 산업: 쇼핑몰/오픈마켓, 기업형태: 대기업 계열사/자회사, 사원수: 600명, 설립: 2012.02.20 | (주)카카오스타일의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 ..."
+      },
+      {
+        "title": "카카오스타일(Kakao Style) 기업정보 - 채용 0건, 평균연봉 5,891만원, 인원 501명, 업력 14년, 경기 성남시 | 원티드",
+        "url": "https://www.wanted.co.kr/company/506",
+        "description": "카카오스타일은 &#x27;지그재그&#x27;의 성공에 멈추지 않고 &#x27;포스티&#x27;와 함께 더 다양한 연령층이 함께할 수 있는 &#x27;국내 대표&#x27; 스타일 커머스 기업으로 나아가고자 합니다.더보기 · 현재 채용중인 포지션이 없습니다.기업을 팔로우하고 포지션이 등록되면 채용 알림을 받아보세요!"
+      },
+      {
+        "title": "카카오스타일 (Kakao Style) | LinkedIn",
+        "url": "https://kr.linkedin.com/company/kakaostyle",
+        "description": "📰 지그재그, 뷰티 단독 구성 ‘엠디픽&#x27; 월평균 83%↑ https://lnkd.in/gV7kCbxW 💄지그재그 ‘뷰티MD’ 채용 공고 https://lnkd.in/gQuzm3Jk #지그재그 #zigzag #지그재그뷰티 #직잭뷰티 #zigzagbeauty #카카오스타일 #kakaostyle"
+      },
+      {
+        "title": "카카오스타일 career | Facebook",
+        "url": "https://www.facebook.com/kakaostylecareer/",
+        "description": "<strong>카카오스타일</strong>에 핏(fit)한 예비 크루를 영입하는 것에 누구보다 진심인 30명의 인터뷰어 크루가 모여, 인터뷰의 본질부터 어떤 의미 있는 질문들로 인터뷰 시간을 채우는 것이 좋을지 ..."
+      },
+      {
+        "title": "카카오스타일 채용",
+        "url": "https://www.superookie.com/jobs/67aae9578b129f5415849399",
+        "description": "업무내용 [우리 팀을 소개해요] 카카오스타일의 지그재그서비스 조직은 <strong>&quot;유저가 더 쉽고, 빠르게&quot; 나만의 스타일을 찾게 하는 것</strong>. 즉, &#x27;탁월한 스타일의 발견 경험 제공&#x27;을 목표로 일하고 있어요."
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "Product Owner (파트너플랫폼) | 카카오스타일",
+        "url": "https://career.kakaostyle.com/job_posting/lbJ8qpVI",
+        "text": "Product Owner (파트너플랫폼) | 카카오스타일\n\n# Product Owner (파트너플랫폼) | 카카오스타일\n\n## Product Owner (파트너플랫폼) | 카카오스타일\n\n## Tech (PO/PM) | 경력 | 카카오스타일\n\n### 카카오스타일을 소개해요 카카오스타일은 모든 사람이 나만의 특별한 스타일을 가지고 있고, 내가 좋아하는 무언가를 발견했을 때의 즐거움이 나의 일상을 더욱 나답게 만든다고 믿어요. 내 마음을 읽은 듯한 개인화 추천으로 누구나 나만의 스타일을 쉽게 찾도록 도움으로써 다양한\n\n\n\nCore Value\n\nCulture & Benefits\n\nJobs\n\nKrew\n\n[FA",
+        "score": 0,
+        "published_date": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "카카오스타일(Kakao Style) 채용",
+        "url": "https://career.kakaostyle.com/jobs",
+        "text": "카카오스타일(Kakao Style) 채용\n\n# 카카오스타일(Kakao Style) 채용 카카오스타일에서 우리만의 스타일을 만들어갈 크루를 찾습니다. 지금 채용 중인 공고를 확인해보세요!\n\n## 카카오스타일(Kakao Style) 채용\n\n## 카카오스타일에서 우리만의 스타일을 만들어갈 크루를 찾습니다. 지금 채용 중인 공고를 확인해보세요!\n\n## 채용 공고\n\n### Recruiting\n\n## 채용 프로세스 - 2\n\n### 서류 전형 포지션의 특성에 따라 전형 과정 중 코딩 테스트 / 과제 전형 / 추가 인터뷰 등이 진행 될 수 있어요.\n\n### 인터뷰 전형 1차 인터뷰는 소속 조직의 실무진과 상위 리더가 참석해 약 1시간-1시간 30분 가량 실무 역량과 진행했던 프로젝트 등에 대해 이야기를 나눠요. 2차 인터뷰는 소속 조직의 상위 리더와 HR 또는 경영진이 참석해 약 1시간 가량 업무 경험에 대한 심화 질문과 서로의 가치관 및 카카오스타일의 컬쳐핏과 관련된 이야기를 나눠요.\n\n### ",
+        "score": 0,
+        "published_date": "2024-06-17T00:00:00.000Z"
+      },
+      {
+        "title": "AI Transformation Manager | 카카오스타일",
+        "url": "https://career.kakaostyle.com/job_posting/TjRvVOca",
+        "text": "AI Transformation Manager | 카카오스타일\n\n# AI Transformation Manager | 카카오스타일\n\n## AI Transformation Manager | 카카오스타일\n\n## Tech (PO/PM) | 경력 | 카카오스타일\n\n### 카카오스타일을 소개해요 카카오스타일은 모든 사람이 나만의 특별한 스타일을 가지고 있고, 내가 좋아하는 무언가를 발견했을 때의 즐거움이 나의 일상을 더욱 나답게 만든다고 믿어요. 내 마음을 읽은 듯한 개인화 추천으로 누구나 나만의 스타일을 쉽게 찾도록 도움으로써 다양한\n\n\n\nCore Value\n\nCulture & Benefits\n\nJobs\n\n[Krew](https://career.kakaostyle.com/interv",
+        "score": 0,
+        "published_date": "2026-02-13T00:00:00.000Z"
+      },
+      {
+        "title": "Product Owner (상품&리뷰)",
+        "url": "https://kakaostyle.career.greetinghr.com/o/145039",
+        "text": "Product Owner (상품&리뷰)\n\nProduct Owner (상품&리뷰)\n\n직군\n\nPO/PM\n\n경력사항\n\n경력 5년 이상\n\n고용형태\n\n정규직\n\n근무지\n\n카카오스타일대한민국 경기도 성남시 분당구 판교역로 235, 판교 H스퀘어 N동 6층\n\n### 카카오스타일을 소개해요\n\n카카오스타일은 ​모든 ​사람이 ​나만의 특별한 ​스타일을 가지고 있고, 내가 ​좋아하는 ​무언가를 발견했을 ​때의 즐거움이 나의 ​일상을 더욱 ​나답게 ​만든다고 믿어요. ​내 ​마음을 ​읽은 듯한 개인화 ​추천으로 ​누구나 나만의 스타일을 ​쉽게 ​찾도록 ​도움으로써 다양한 스타일이 ​공존하는 세상을 ​만들고 ​싶어요.\n\n'지그재그'는 2015년 ​공식 출범 ​이후 ​패션부터 뷰티, 라이프까지 ​카테고리를 확장했어요. ​이에 멈추지 않고 AI 기술을 기반으로 선호 쇼핑몰, 관심 상품, 구매 이력 등에 따른 개인 맞춤형 추천 상품 제공을 통해 유저들의 구매 여정을 유의미한 경험으로 만들어가고 있어요. 또한, 4",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "카카오스타일(Kakao Style)",
+        "url": "https://www.wanted.co.kr/company/506",
+        "text": "카카오스타일(Kakao Style) 기업정보 - 채용 0건, 평균연봉 5,891만원, 인원 501명, 업력 14년, 경기 성남시 | 원티드\n\n# 카카오스타일(Kakao Style)\n\nIT, 컨텐츠경기 성남시15년차(2012)\n\n카카오스타일은 모든 사람이 나만의 특별한 스타일을 가지고 있고, 내가 좋아하는 무언가를 발견했을 때의 즐거움이 나의 일상을 더욱 나답게 만든다고 믿습니다. 내 마음을 읽은 듯한 개인화 추천으로 누구나 나만의 스타일을 쉽게 찾도록 도움으로써 다양한 스타일이 공존하는 세상을 만들겠습니다. 카카오스타일의 서비스 '지그재그'는 2021년 여성 패션 플랫폼 최초로 거래액 1조 원을 달성한 후 2022년, 2023년 한 해에도 약 30%의 성장을 이어갔습니다. 카카오스타일은 '지그재그'의 성공에 멈추지 않고 '포스티'와 함께 더 다양한 연령층이 함께할 수 있는 '국내 대표' 스타일 커머스 기업으로 나아가고자 합니다.\n\n더보기\n\n## 채용중인 포지션\n\n현재 채용중인 포지션",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "Kakao sets 2026 as first year of AI monetisation, signs strategic ...",
+        "url": "https://www.digitaltoday.co.kr/en/view/3766/kakao-sets-2026-as-first-year-of-ai-monetisation-signs-strategic-partnership-with-google",
+        "text": "Kakao sets 2026 as first year of AI monetisation, signs strategic partnership with Google\n\nKakao CI [Photo: Kakao]\n\nKakao has designated this year as the first year of AI monetisation. Its core strategy is to shift its growth gear toward AI and KakaoTalk.\n\nKakao CEO Shina Chung (정신아) said on Feb. 12 on a conference call for its fourth-quarter earnings that the company is shifting its strategic gear toward growth in AI and KakaoTalk, which it considers its core. She said it is targeting more than",
+        "score": 0,
+        "published_date": "2026-02-12T00:00:00.000Z"
+      },
+      {
+        "title": "Kakao Declares 2026 as 'Year of AI Monetization,' Accelerates 'Ambidextrous' Partnerships with Google and OpenAI — BigGo Finance",
+        "url": "https://finance.biggo.com/news/lx1aUZwBCbQUaHr3G0jU",
+        "text": "Kakao Declares 2026 as 'Year of AI Monetization,' Accelerates 'Ambidextrous' Partnerships with Google and OpenAI — BigGo Finance\n\n# Kakao Declares 2026 as 'Year of AI Monetization,' Accelerates 'Ambidextrous' Partnerships with Google and OpenAI\n\nFollowing a record-breaking performance in 2025, South Korea's Kakao has declared 2026 as the 'year of AI monetization' and embarked on an aggressive growth strategy. The company has overhauled its AI organization into a 'studio' system and is expanding ",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Kakao, Google Form AI Strategic Partnership — Update - Morningstar",
+        "url": "https://www.morningstar.com/news/dow-jones/2026021115996/kakao-google-form-ai-strategic-partnership-update",
+        "text": "Kakao, Google Form AI Strategic Partnership — Update | Morningstar\n\nBy Kwanwoo Jun\n\nSouth Korean technology giant Kakao is teaming up with Google to advance its artificial-intelligence services, a year after announcing a similar partnership with OpenAI.\n\nKakao will begin the partnership by collaborating with Google's Android team to enhance its on-device AI services, Chief Executive Chung Shin-a said Thursday on an earnings call.\n\nChung said Kakao will continue to strengthen its existing partner",
+        "score": 0,
+        "published_date": "2026-02-11T00:00:00.000Z"
+      },
+      {
+        "title": "Kakao CEO says 2026 to open new chapter in company's AI ...",
+        "url": "https://en.yna.co.kr/view/AEN20260102003500320",
+        "text": "Kakao CEO says 2026 to open new chapter in company's AI, fandom platform biz | Yonhap News Agency\n\nGo to Contents Go to Navigation\n\nFacebook X\n\nMore\n\nPinterest Linked in Tumblr Reddit Facebook Messenger\n\nCopy URL\n\nURL is copied.\n\nOK\n\nSEOUL, Jan. 2 (Yonhap) -- The chief of Kakao Corp. said Friday that 2026 will mark the beginning of a new chapter for the company's artificial intelligence (AI) and global fandom-based platform business.\n\n\"Last year marked a period of consolidation, where we strengt",
+        "score": 0,
+        "published_date": "2026-01-02T00:00:00.000Z"
+      },
+      {
+        "title": "Kakao Group says 2026 will be year of amplification, with AI and ...",
+        "url": "https://www.digitaltoday.co.kr/en/view/338/kakao-group-says-2026-year-of-amplification-ai-global-at-stake",
+        "text": "Kakao Group says 2026 will be year of amplification, with AI and global push at stake\n\nChung Shin-a, chair of Kakao [Photo: Kakao]\n\nKakao Group said it has finished more than two years of strengthening its fundamentals and declared 2026 the first year of “directional growth”. The key words are artificial intelligence (AI) and global expansion.\n\nIn a New Year message on Thursday, Chair Chung Shin-a looked back on last year as “a time of condensation” in which the group strengthened its fundamenta",
+        "score": 0,
+        "published_date": "2026-01-02T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "카카오스타일 기술 블로그",
+        "url": "https://devblog.kakaostyle.com/ko/",
+        "text": "카카오스타일 기술 블로그\n\n카카오스타일 기술 블로그\n\n카카오스타일 개발팀 소개\n\n1년 동안의 iOS 모듈화 진행기 - 2. Component 모듈\n\n30 Dec 2025 | by Raymond(유현식)\n\n1년 동안의 iOS 모듈화 진행기로 공유했었는데요, 이번에는 그 여정의 다음 단계인 Component 모듈에 대해 이야기해보려 합니다.\n\n… read more\n\n[지그재그에 “포치의 선물가게”를 오픈하며](https://devblog.kakaostyle.com/ko/2025-11-",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "프론트엔드팀의 디자인 시스템 재구축기",
+        "url": "https://devblog.kakaostyle.com/ko/2024-12-13-1-rebuilding-frontend-design-system/",
+        "text": "프론트엔드팀의 디자인 시스템 재구축기\n\n프론트엔드팀의 디자인 시스템 재구축기\n\n안녕하세요, 카카오스타일 지그재그 서비스 FE팀의 제이슨입니다.\n\n2023년 초, 저희 팀은 비즈니스와 더불어 기술적인 개선이 필요하다는 것을 느꼈습니다. 그중에서도 특히 여러 지면에서 독립적으로 관리되고 있던 상품 카드 컴포넌트의 일원화 작업이 중요하게 여겨졌고. 이 문제를 해결하기 위해서는 단순 리팩토링을 넘어, 팀 전체의 UI/UX를 통합적으로 관리할 수 있는 디자인 시스템의 재구축이 필요하다고 판단했습니다.\n\n당시 팀 리더와의 1:1 미팅에서 프로젝트를 맡아보면 어떻겠냐는 제안을 받게 되었는데 이런 제안이 처음에는 큰 부담으로 다가왔습니다. 무엇보다, 디자인 시스템을 완성한다는 것은 마치 이루어질 수 없는 꿈처럼 느껴졌기 때문입니다. 디자이너와 개발자가 한마음이 되어야 하는 이상적인 목표는 쉽지 않은 도전이었고, 상품 카드를 하나의 시스템으로 통합하는 작업 역시 큰 난관으로 느껴졌기 때문입니다.\n\n",
+        "score": 0,
+        "published_date": "2024-12-13T00:00:00.000Z"
+      },
+      {
+        "title": "Server Driven UI 호출 구조 개선",
+        "url": "https://devblog.kakaostyle.com/ko/2024-08-04-1-improve-server-driven-ui/",
+        "text": "Server Driven UI 호출 구조 개선\n\nServer Driven UI 호출 구조 개선\n\n카카오스타일에서는 서버 드리븐 UI(Server Driven UI, 이하 SDUI)를 통해 UI의 유연성을 가져가고 있습니다. 서버가 클라이언트 UI를 동적으로 제어하므로써 빌드 및 배포 없이도 UI 업데이트를 할 수 있고, A/B 테스트도 효율적으로 수행할 수 있었습니다. 다만 이렇게 구축된 시스템을 몇년간 운영하다보니 몇가지 문제점이 발생했습니다.\n\n이 글에서는 초기 구조에서 어떤 문제가 발생했는지 살펴보고, 전시팀에서 어떤 방식으로 개선해 나갔는지에 대해 이야기 해보려고 합니다.\n\n이전 포스팅을 먼저 읽으시면 좋습니다. 기존 SDUI는 하나의 쿼리",
+        "score": 0,
+        "published_date": "2024-08-04T00:00:00.000Z"
+      },
+      {
+        "title": "카카오스타일 기술 블로그입니다",
+        "url": "https://devblog.kakaostyle.com/ko/2021-07-01-1-welcome-kakaostyle/",
+        "text": "카카오스타일 기술 블로그입니다\n\n카카오스타일 기술 블로그입니다\n\n안녕하세요. 오랫만의 글인데 기술 글이 아니여서 죄송합니다. 2021년 7월 1일부로 지그재그를 운영하는 크로키닷컴은 카카오스타일로 거듭나게 되었습니다. 더 커진 규모에 걸맞게 더 양질의 기술 공유를 하도록 노력하겠습니다. 많은 기대부탁드립니다.\n\n#### Recent Posts\n\n- 1년동안의 iOS 모듈화 진행기\n- 코드 사례로 보는 Domain-Driven 헥사고날 아키텍처\n- [지그재그에 “포치의 선물가게”를 오픈하며](https://devblog.kakaostyle.com/ko/2025-11-23-1",
+        "score": 0,
+        "published_date": "2021-07-01T00:00:00.000Z"
+      },
+      {
+        "title": "Server Driven UI 호출 구조 개선 - 카카오스타일 | Velopers",
+        "url": "https://www.velopers.kr/post/3986",
+        "text": "Server Driven UI 호출 구조 개선 - 카카오스타일 | Velopers\n\nAI 요약\n\n이 글은 AI가 원문을 분석하여 핵심 내용을 요약한 것입니다.\n\n## 서버 드리븐 UI 개선\n\n이 게시물은 카카오스타일의 서버 드리븐 UI(SDUI) 구조 개선에 대해 설명합니다.\n\n### SDUI의 장점\n\n- A/B 테스트 효율적 수행\n- 빌드 및 배포 없이 UI 업데이트 가능\n- UI의 유연성 제공\n\n#### 발생한 문제점\n\n초기 구조에서 발생한 문제점과 전시팀의 개선 방법에 대해 논의합니다.\n\n## 연관 게시글\n\n### Server Driven UI 설계를 통한 UI 유연화\n\n카카오스타일 • 2021년 12월 16일 12\n\n### 클라이언트 배포 없이 UI를 바꾼다고? 에이닷 Server Driven UI 도입기\n\n데보션 • 2025년 4월 9일 152",
+        "score": 0,
+        "published_date": "2024-08-03T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "GFTU_u.L - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfMUVHWHJYTXF4anR5ZHVSSVlra2lCQnpDWHc0UERyNjJFOTRfQTVvdzJSSzZJc0N0U0otMVpsUDRjM0YwbUY3bXU0Q254NlVLWVZDc0hUN0tqcTV3Z3VvSEQxZXpVblVnNEZz?oc=5",
+        "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Kakao Corp - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vekczQ0lxckNxZzIycm00MHZtOE5IRWRzTzJ2WGZkMFRhSEpWdHZSRTR4TVFIMDB3Y21JRnh1ZENsVE5wc3cxSDg2S0RBRm5uV005bG1n?oc=5",
+        "pub_date": "Tue, 22 Jun 2021 22:38:53 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Ex-banker Thiam drops French nationality in bid for Ivory Coast presidency - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaXhZZV9OMGVQVUk3WUxTUWhWbXozdGhvdnpHNmdpY0VhYmItb2N1QldOQmJUUi0zdXkyUTNzbWtZaDh3eFV5dlhVeGRLSXB4V0l5X1hLT2ZiNG40QUZ2b0Vzb293dUo3N2N1a3RrYm9tSkpOOG5zZkJDeVFlM1pLSEt4UlBlMjl4LW01aDB2cTdUWGoxRnk1TWVDTHFtcjd3ZG9EVXlxUzZlakdWSllsUEVieFdQbmM?oc=5",
+        "pub_date": "Thu, 20 Mar 2025 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "KakaoBank to Raise $2.2 Billion as Korean IPO Boom Continues - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQnlRX2JWeGRfblB3NjYtX1Z4UVNyVkVLYmdUNXlpcDYyS011N0dwckRqUzdYclV0VjUwOWF2OFhOWTB0azloaHdpVzFydHJNZmhpelZRckNKZzJPSHJ5MnFmUVU3dFdHX0gxdjlnQkpGQWNjWU9LdmFsS2VwU20wSE5NWDJyRGg5T2pQMXFpNXdXdkVpRlhjcmZnYi1jek1MS1hRUXhBUGJXYVJOdTVz?oc=5",
+        "pub_date": "Thu, 22 Jul 2021 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "North Korea Resumes Missile Launches as Talks With U.S. Bog Down - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTVV0Z09OaXpzTlBKNzRUREh2bGNiZ2tCVTAtdGQ3enYwSVdrUUFXYlExZTN4YWxxSGRTQVB5TzlyM2tvcnRfc0xuV2E3T0ZWNDg1Y3Y5NmV1LTVxc2JMMkRqa0VROElLeVZwTks3THAzZTBjM2JPQnBwcnc2Yl9xS3d4S1FmV21LeXVVeVhNblJJdmw2anhGUkJyc0hCYVVjRzI5ZDVnMmRGZzc4SF9j?oc=5",
+        "pub_date": "Wed, 24 Jul 2019 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "North Korea's Nuke Test May Have Been Twice as Strong as Thought - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOHZscFNZMXFqSjRYTzJJeHlSLW5WUVBHYU4yNVhEb0xJUFFZMnZOYm94YmNza0dhdUI1RnNHWXNHQ0JVRUZzT3ZxbzlBYnVtMmJLZjIwSHJURy1lbkdEREVuNV96Mm90bFA1Vk5RMGpIS3NLRFdScW1ua3QyemxqWHlVRG0wWUlDNmFETkI1U1hvd2ZBVllnaFBLUjd2aHdxeXhYd2JZWXozeUI0djVvX0Y2U1ZYUQ?oc=5",
+        "pub_date": "Tue, 12 Sep 2017 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Kakao ups its game in generative AI with Karlo 2.0, an AI image generator - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQW83emYzOEdWeUFyM21Gc0xmNkpxa1l3YkUtRWxNQ1lBemlGRk8wZFZNU1Nta3lyOXlzaVpmZ1FrSVdXS0VTVGZjRUpuNkMxUGdHWG53YmhCSVNTeG5jaU1KWE9zTUdLZmEwbUpFS3dUWnhYSmxWM3VULUdrR3FzemhqTXFVTmdVY2FtYjlBanZJenc4UFAwVnlXaGllRnBwa3BUYjVGQ1AycTA?oc=5",
+        "pub_date": "Wed, 12 Jul 2023 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Kim Jong Un’s Daughter Appears Again in North Korea, Spurring Succession Speculation - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNVnBuTHRDd2JGWVJtQml1cTBnODd1QTgwd2ExbXlpTTZTOXRELWQ3MUJhVWwyYzJKbTBJRmkxRkZsbmJGVmd4bmhSYl9yUWdtNFBVdXdSU2g0MnVhWWZVZ1ZpT0RzaTVCRG5qQ2V1NFktMlhSR0xpZ3ludHo3enZmRmY1VjFWb1d0bmtfUXhXXzJ0SlI3Y0ZNdl9SSWFoX1lmZFg5cWFKbWxwN0hTNVlDbUdKV1o0RVlFeEJlX3NtRmtBVFZhSmZGWFZXZ1FDa3JkcEFOTXllRWJoelM4R0dqU3RhNTNQeGlEc1ZhUkZ2czVrYkhBblExQkVOUGZNZHRCeUtxY1RHT0FZY3lKLXRaQ1kyQzJCajVsN1ZKT1J2MkFzdkdYLVZGcWhfUFdHUUxFUWUyOV9CdkZnWTZYNVg2X3k5VTd0ZkdzazNTcDdaUzE0UWZpeWdqampmcW9QZndfcU9xZThuN2VBUU03QzlORFZwUS13UE9GVWNwVVBMX2l6b3J4VFBBMWdXVExKOENsRUszRzZvNmV6ODNWZEVjUjFLV2Q1Ny0wMlo0QTBsbkN0ZmlHai1kM0VSMFJyN2NaZ2c?oc=5",
+        "pub_date": "Wed, 08 Feb 2023 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Shrouded in Mystery, Kim’s Young Daughter Softens His Image in China - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxQY1VUYXNPUUFkWHAwNmxpNnQyVGhLMS1JRHBtUFE0VEF4UUZVMENuX0lObTVOX0VyX3hLX25IdWVfY1FidXpnUi1vbjZ0LWhlbmpCVkZoUVpkOWtVTzRaVEVmalhUT0Zjekg1YVpnb1NNbEgybWZWRVR4Njh4UWJCZFhray00Um9PZkdlSjlEZVFEZDFJR0VDenVoenlndWhWVngwU09jVXpKclBvdWVRQWV0U29vYXc0ZnhzMkpqX3pmaTcxVVJ3SEtWSnNGamxieWlKUjR2RnFaYkZsM0Y2X0EwY2hRdmRLZkszTzZLRmdPUGpZQXZtWm4wTXoxX3paUzFvcE1lYjd4bmZNd2NObElhbXIxRmNrdENoYjY4anFUZEZJc1JRaUF6M0FvZVhZbFllaVVrQ3hoaHVjN0hBU3d5NlpGQ2NGYnk4YmY4UmdhVmxDNVhQTWpYa3Ixc3pEdXZuc1FsNWxoZFVKVzNnVWcycWUtVGpHNHFER2pyVk04NjVNM0NORDVLODBtcWVwR2t3?oc=5",
+        "pub_date": "Thu, 04 Sep 2025 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "South Korean Messaging-App Maker Kakao to Buy Web Portal Daum - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQZTRiVkFjNUEtdXBXVWZscTBsbE82Yzl5TTJYSDlURUE0VWJER3Zzd1djVEdHVzRCU2xaN3oxTGZVNFJRVzlQSEQyS1Z2RDZkVk9rak5qN00tcGVVRDBFcXRoMHFYY21tcHFVYWNEdHJIZ3k3T0RqT1Z3TS1Pd2NIWmdTZnJ2MFZpZ0Q3RXJwdVR2end2YkhCcHI5T0RGVTlGb3lLN0RkX25QMWRSLVBhZ0NIcjJJYWpRa0daNW9Jd0N2QUtLTDJsV3h1a3BLUlhCSWJWZDI4NEYtdjZCR3pRaUFDQ3p4SmFYY1V0OGI2RGZYYUpUUDhRUHp1b1JvOEgwTWwxRGQxamFOdTB5eXV3SDlEUWRqWWVXeXExWl9LY3VXQjhuaDFtS2FwWDhidVNfLXc4Q2tvZ2wzQW03VFZnOG5IT0hKOC1KUDM5Wmo5SGg5X0pKOEdYTEpPTnY2RnBiSU5zWmlYbWdaUlhBWTEyRkJYNS1VbVQxa0N4SVMtYXp4UQ?oc=5",
+        "pub_date": "Mon, 26 May 2014 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Yoon's conviction and South Korea's political divisions: 5 things to know - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUUyOVktVEN4SHVMMTdLN0p0Yzh4c0s3VllwZi1iSVdzaHZhSloteldnYlZnQlFDdkwzWkQ3ckZkVlFERFB6Rjk3bUhrWmEydUloRFNWcVVjUlAxSGEtZ2VfSm1aSUV6NlFLNmN2S2VPU1oxdUxBOWVWckNUeWoyZkl3RU1HNDRobEhybEVvNzgyS3RTZnd1dkFhSFZHMXdRZG1QbFlkUHc?oc=5",
+        "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Yoon Suk Yeol's verdict is a test for South Korean democracy - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORWxVUzVXNDhXTlowRVN3UDl1SVdqcjBzUWFZQ21uMndKRGxXSERNWm5uMkJ0RGRxOWRBVU1BSFU1U29xVGNHbDlQX3NIYkoxUDNybDJoUzNaUUtXbWxuWVFWb2R4SWFKOWFvSmV4ZW4zdTZfeEEzeDRFSnkxXy1BZWdtQWFiZ3hIWm1qcnFoMlNZNWdlSXV3?oc=5",
+        "pub_date": "Sun, 22 Feb 2026 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "How the US learned to stop worrying and accept North Korea's bomb - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUUZCV3N0RXpSSmdiRWd2RHpMRUZDX0s2QndqTm04WGo1YTJJSnVsWXE3Tjd6Z0t5V3psRndFZWFRQkZpUjhPVU15LVp6S292alpWOTdSa19JcHEwWGpzMS1iSzBMQ2lxX01mdUxmOVE3M04zREpfNG1tNVRMUWtzbzdEMkllQVByakJzT25rRXZ1Szd4blgzX1ZlcnNaQQ?oc=5",
+        "pub_date": "Sun, 14 Dec 2025 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "명동·성수동에도 '바글바글'…옷 가게 밀어내고 '인기 폭발' [트렌드+] - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMHpuMWNGRnBmVjVINVk1cmpBcnJ3VlNteWdtX1E1WXVRQ3VsTnN5c1FCd0xhb2p1ZzlLVEs0Mk9IVlQxMVZ4eVhrR0l3OEhLcnZDYjVVR2Nsc0VNc3FvV2FiU0M0MzV4THBBUzhkQ1duQzJMRVROVFp0Ym1kVW4xMVlMaGxOeWc?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 11:18:58 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "명동·성수동에도 '바글바글'…옷 가게 밀어내고 '인기 폭발' [트렌드+] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iUWJBX1BfRl8zVEVwTlBBVnpwTjdqZ21FWWtMSGN6TktEOEQ5dGtMOVYwVEZHYlV0VGVFMzV0aHFfM0dKUFFzdXlGaTU5V29WQ1BOVmNVTkNpQdIBVEFVX3lxTFA0NFZnbHR2S0c4a3pfRkh1YWhUbDhyUkRybU80S2hNVm53V193TVdIUVhvb2xxWmVGMUFQVDhtVFpsdTNObVRfeUpUQ0NVRHZ1N2YxMg?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 11:18:58 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "\"1000억 대박은 옛말\"... 무신사·지그재그 성장 공식 깨졌다 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYzB2dlk2VlRncGstWkU2QkJXcUR1bHNMUUJXLUVnNmRRS1RPeU80VHN3a0FEc3BqRG1PSFhXaEhVdzhVNUdlTzVVMnV4eV9VVjR3ejFzVmprbHp1cHdtc3R2bFJiWTF1X2x3cS1SSGppM0t4dTc3Zy1ZMlRVSzRab2V3dUIwakk?oc=5",
+        "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "“22일 새벽엔 카카오뱅크 못써요”… 전산 점검으로 거래 일시 중단 예정 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOGhDVU9qSHFoUFhqeE1wRlI5QTlDcXZrSlJ4el82eW1oRDlGNHA2N2RSSWFITHBISUJ2bVN3cFcwQUMtUkhnYlREdDRLc1dyRTFKZ184RW9DMEVsN25lbFlmTUFPaVdNUEx0REFTaXBVSF85dWZCTFNRX25jQUhteNIBlAFBVV95cUxNWmpkYmdLTWRzaktvQ2RxOUs5RE11QWNjQWJHRWVib3V5MGl2bTZfTXYyOVJ1WUJrUVB4WWNKTEwyWDZOMlBabERtYjgxelJ4SFBpbDlVVzN2Z2Q0X0xweVFhN1hsVVFUbEF1V2FNY040RUNqWWMtRHpWNVczblFBNU5sejBCYm9kcWgzYkhqWmExRk5n?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 05:56:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "카카오엔터, ‘이태원 클라쓰’ 스핀오프 ‘장가’ 21일 공개 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ2hBWVp1Rlh0QmlJUTY4QmNkclloRkRiOXh4OElfRllkLTM1WmtEM3pTRFVTN0tCS2RaVzVfN05kVUhNSFVScmpMUi1UZFo4c1J2amJfMXFkTWRxMk5hcjV4RGM4S3VTRm5xYkkwRERsMjM1bGw1eHZYMFVMYzB3eW930gGWAUFVX3lxTE1lbTZZM2RNRDU4Yno5SFMtYktLMklGMEpfaGtuM3pDQ09DR1oxRXlJMVAwMkJQR2g1M1FqNklTR1BLYzZOaDczQ2lsbklZZ3ZySnV5UjhpdUplWUJ1ZFVsYVlIbUJva20xbjZKY1RlSTFsQ1dwdGxoZzh3NUtvM09RTEpRbXAxRTY0VXQ0VFplTFFIS3FkUQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 00:27:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "‘SM 시세조종 혐의’ 카카오 김범수 창업자 항소심 시작… 1심 ‘무죄’ 유지될까 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM0pMOTl3UGNmR3RnRlJfeWhnRUQzQjRvemRJR3F5SHFncGxLVHdPc3ljOGdnNUZFMlRBYl96ek8zY2xvUllhUE8xa1BsdkdURzlVMUZiUGU5TWRLVGVDbEJDVkFpODBfRkotVEU1RkNjbkhRRDM5eTljNjRha3BJZFE4WdIBlwFBVV95cUxPTl9pVGY2QS1aYnZSZ0x1SVJNSi0tNmFHbjRFWXVtaGlQbTREYU41cThnTnFGNWszY1dGSk5rUnBFZFUzRkhXbXRKMFpJVS1Wc0ttT0NqRzNFbXRXTXVROHdOdnFxUXh5U2wzczBQaHhGbUlaa1lWaVhUbWx1TXgyOWc3eGxLU0tUb0M3b0xvY056OUExY04w?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 07:03:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "지그재그, SPA 브랜드 할인 행사…\"최대 88% 할인\" - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50NFU5V0F6QlVQb3g0dC1DRFd0dllzRGdGVG9qcVl1SWZJdXh6RE1Sc1o2QldsVUtfcmU0NG9jY1dYZV96WXBsZVRWV1RQVWd0?oc=5",
+        "pub_date": "Mon, 22 Dec 2025 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "몸집 불리는 네이버 vs 군살 빼는 카카오 … 승자는? - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9nTHI1TDZMMmhQZFBPOXFBS2N4VTRuN1ZqWi1taGt5MDdZWmJ0Yk5lWjhFTjVvamJ2U080NTNUOC05T0I2UW9NYmxGTTR5Zw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:27:29 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "에이투어라이프스타일홀딩스, 2025년 매출 67% 급증에 호텔 2천개 돌파 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DTldiX3dlWWk1azBKYi1GUXN5UUNacU5pQmxIeTZMaG9OS2FTcjV4cWo4SllnOFVZbWVHUzdRVGlucktHSkFRZkRlTk5aNDA4TXc?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 17:40:22 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "BTS 광화문 공연 인파 몰린다…네카오 지도 서비스도 ‘총력 대응’ - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IbjQ4ay1uUkpHUGhpOFl0ejFrUjhEWk90MmNKX1JxU2RTNWFNN0dCMXI1ejZkclRwZGEwb0pjM2xPdTlmdFlrYXNXZElkbERiMmpyaGdn?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 07:41:34 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "BTS 광화문 공연 D-1…네카오 지도 추천 광화문 맛집은? - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qdW1tZ29EcHZDNllQNVA3eUNkNW1nVWNmLVlLbmoyZkFkVGM1Vk04V2w1S3o0N2pnXzlaYlJFTUVlZjBGeUwxcWp1UTBRLVlYWVZhRk9n?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 07:55:36 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "가까운 고객만 노린다…당근, 100m 단위 ‘핀셋 광고’ 도입 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13VExyVWgyWWEtVDgxbk5xaS1WSGVSakhrR1k5WmY2Z1EyLTVjdWdpaG1ueVJBQjRvZXVXRTJpYlZfRENfT3pIcE84Vm1UODhUWXNLZktR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:17:53 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "카카오 김범수 'SM 시세조종 혐의' 항소심 시작…쟁점은 '의도' - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OOFFUYmlPUEU0dUJicnNIOWxLLXM0Qm5YWE56RGtaYlhLekR5RHlyN1VKdVpvb1h2NFQwUXZ0UTFYQW0xRjFJZm52NzZPeV9lT1hQcktHaWk1bUhOVmtSRmNsOUdPVmtl0gFsQVVfeXFMT0wzV2loLVlJYzJOdnBHMkVZenI1TVRJVlF3NnR2UFRDNThvZlpISVFhSzg5cXdiYnNYeExZU19ILU9OMHJ5R3BLTk14a0RTX1ZVbTVzOFFMNXcwQjk2TEx4b3VlYkFKWTRLSzhC?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 08:05:18 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[인뱅 스테이블코인戰]① 카카오뱅크 '그룹 연합' 결정타, 플랫폼 결제 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VS050UzNiaVVEOE0yU2daSXYycldDUWczY2F3NmtvalNMeGhOQVYwc19qU0ItUmFBWk16bDhaNlZ3QkxLcmFRUk4zVDh2SkdBZlRJMkZvVEQ3dlpsbG04SmtLRExGVDdK0gFsQVVfeXFMUHB6Wm5WeEdwZnM4TlFld29yc3habGdEbTdUNGFodC1oLXFDYzJCbUZFSkppODE0b3lqMU5XT3Q1bmcxeFJkVDMta3lQb2hXSVlrZjZCOGJiNlpETFhSTTJxbTRnUTd6Wm96STF0?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 01:34:34 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "카카오뱅크 두 번 멈췄다…장애 원인 오판에 복구 혼선 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wNUk2Nk5TcG1neWhsNnY2SXpVZDF4NjA4aTNRUTRKSlA4UHNNMlNOUk5GVFhfWVR4TEU4VTBXa0JnNUVYc091RkpJSTZiZEkyUmN0Z3BIbEJMZEdxcDVFc3pTWW0zYXdj0gFsQVVfeXFMTV9ydXNHbWZmb0ZMZTlMVUEwMVFKQmd4SFRqVnd0MUw1UjdEZFpGZ1pZQlJMWndNeDFPOUt5Tmg3VVQ0Rkc5elRmclFrNjZ6RlZxRVBZX1pEeEh1OHVqaW5OamNWNE9iWEVlUWQw?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 04:17:16 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[커머스BN] 지그재그 입점한다면, 이건 꼭 활용하세요 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1UY3BycGprMHZoZVowTXBuM0xoUm1OSnQxeHI3Z3NZa3BXVUlTSFo3WWRMb0JtdFEybW5qWXBGU0ZtM1dQcmFWMkhaalR3MzhaOWc?oc=5",
+        "pub_date": "Thu, 07 Sep 2023 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "카카오스타일, 2024년 상반기도 흑자 달성…“상반기 거래액 1조원 육박” - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsbHZfcGI2ZVhYVFp1YnROYm14NmhMYXJTczFxeEdpaGlaUTdFQnBSa0hmQkJzb1otbnZMU3JvX2xZMUU1M0FBaDBWTHNTMFotY0dCOQ?oc=5",
+        "pub_date": "Tue, 16 Jul 2024 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "카카오스타일로 변신한 지그재그, 어제와 내일 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02bTBlMHFKbWZmZHJXbzVRY0ppX3owZklEclk2cUVaOEhZQnRzUVlKUmQ5a3hZYkh1ak4xdFJOUnV0RnVHNGlGQS1sUkt4Y0lJZGRUajV3?oc=5",
+        "pub_date": "Tue, 26 Apr 2022 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

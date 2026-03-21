@@ -1,0 +1,564 @@
+{
+  "company": "에이프로젠",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 11,
+  "sections": [
+    "strategy",
+    "culture",
+    "overview",
+    "tech"
+  ],
+  "data": {
+    "company_name": "(주)에이프로젠",
+    "company_name_eng": "Aprogen, Inc",
+    "stock_name": "에이프로젠",
+    "ceo": "김재섭",
+    "address": "경기도 성남시 중원구 둔촌대로 545 경기도 성남시 중원구 둔촌대로545, 비1층 (상대원동, 한라시그마밸리)",
+    "industry_code": "259",
+    "established": "19711115",
+    "homepage": "www.aprogen.com",
+    "ir_url": "",
+    "stock_code": "007460",
+    "corp_class": "Y",
+    "naver_blog": [
+      {
+        "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
+        "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
+        "link": "https://blog.naver.com/blrol_blrol/224224956373",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+        "link": "https://sibauchi.tistory.com/1205",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
+        "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
+        "link": "https://think-tank.tistory.com/1035",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
+        "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
+        "link": "https://blog.naver.com/kcl3598/224224791593",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
+        "description": "기업 문화 기획, 인사 데이터 분석) 지원 자격 2026년 8월 졸업 예정자 및 기졸업자 (전공 무관) 근무지 경기도 광명시 유플래닛타워 (광명역 인근) 전형 절차 서류전형 → 인성검사 → 면접전형 → 합격자... ",
+        "link": "https://blog.naver.com/goodlife_92/224224618278",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+        "description": "실제 사용자들의 후기를 살펴보면, &quot;채용 공고 내용과 실제 업무 환경이 다른 경우가 많다&quot;, &quot;연봉 정보가 명확하게 제시되지 않아 어려움을 겪었다&quot;, &quot;면접 과정에서 기업 문화에 대한 충분한 정보를 얻지... ",
+        "link": "https://ilovefamily.tistory.com/527",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "현대자동차 3월 채용 취업 이직 대비 (자소서/면접)",
+        "description": "면접 준비가 될겁니다 현대자동차 PT면접 * 전 직무 자기소개 PT 진행 * 지원 직무에 따라 사전과제PT or... 모의 면접으로 감점 요인 종합점검 / 최종 피드백 바로코칭 실제 합격 후기 기업은 우리들에게... ",
+        "link": "https://blog.naver.com/bashinga197939/224224525166",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
+        "description": "오늘은 취준생이라면 한 번쯤 목표로 하는 기업, SK AX에 합격한 신입사원분과 인터뷰를 진행해봤습니다  ✔ 합격 스펙은 어땠는지 ✔ 채용 과정은 어떻게 진행되는지 ✔ 자소서·면접은 어떻게 준비했는지... ",
+        "link": "https://blog.naver.com/ttooooriiii/224224472695",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "안국약품 채용공고 2026 - 영업부터 R&amp;D까지, 지금 지원해도... ",
+        "description": "문화가 남아있다는 후기가 있어요. - 업무 강도 편차: 특히 영업직은 실적 압박과 업무 강도가 상당하고, 부서나 팀에 따라 편차가 크다는 의견이 많아요. 이런 부분들은 입사 전에 충분히 고려하고, 면접... ",
+        "link": "https://blog.naver.com/cymmcymm/224218688799",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "만도브로제 HR 정규직 채용 2026 | 복지·면접 꿀팁까지 한... ",
+        "description": "독일 브로제(Brose)와 HL만도가 함께 설립한 합작법인답게 외국계 합리적 문화와 국내 대기업 수준의 안정성을 동시에 갖춘 곳이라 주목받고 있어요. 지원 마감까지 얼마 안 남았으니, 복지부터 면접 예상... ",
+        "link": "https://blog.naver.com/cymmcymm/224218685362",
+        "pub_date": "20260321"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "에이프로젠, 바이오시밀러·면역항암제 동반 성장…규제 완화·원가 경쟁력으로 글로벌 가속",
+        "description": "중장기 사업 가치가 재평가될 수 있는 전환점에 도달했다고 밝혔다.... 유사한 방향성을 보이며 개발 단계에서 중요한 진전을 확보했다. 이에 따라 에이프로젠은 품목허가 신청 준비에 본격 착수했으며, 그동안...",
+        "link": "http://www.biotimes.co.kr/news/articleView.html?idxno=25363",
+        "pub_date": ""
+      },
+      {
+        "title": "스페이스비전에이아이, 로슈 핵심 AI 솔루션 공급사로 채택…&quot;최적의 판매전략 제시&quot;",
+        "description": "AI 기반 고객-공간 분석 솔루션 기업 스페이스비전에이아이(이하 스페이스비전)가 글로벌 제약사 로슈(Roche)와의 파트너십을 통해, 글로벌 제약·의료기기 전시 현장에 솔루션을 공식 공급한다고 4일 밝혔다. 이번 계약은 로슈 본사가 1년 이상 솔루션을 면밀히 검증한 결과로, 세계 최대 헬스케어 기술 컨퍼런스 'HIMSS 2025' 등 유럽과 북미의 주요 글로벌 전시 현장에서의 실제 성과...",
+        "link": "https://www.mt.co.kr/industry/2025/08/04/2025080411143913642",
+        "pub_date": ""
+      },
+      {
+        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+        "pub_date": ""
+      },
+      {
+        "title": "[에이프로젠](바이오사업부) 2024년 하반기 채용",
+        "description": "에이프로젠 ; 기업형태 : 중견기업, 접수기간 : 시작일 · 2024.08.09 · 마감일 · 2024.08.22, 채용형태 : 신입, 모집직무 : 연구개발/설계, 근무지역 : 경기 성남시 중원구, 홈페이지 : https://www.aprogen.com/ko/v.do?a=Main",
+        "link": "https://linkareer.com/activity/195334",
+        "pub_date": ""
+      },
+      {
+        "title": "에이프로젠MED, 29일 기업설명회∙∙∙1Q 매출액 419억",
+        "description": "[사진=에이프로젠] 에이프로젠MED는 표면경화작업(hard facing), 의약품 사업, 철강판매사업 등을 하고 있다. 에이프로젠MED의 1분기 매출액, 영업이익, 당기순손실은 각각 419억원, 470만원, 2억원으로 전년 동기...",
+        "link": "http://www.thevaluenews.co.kr/m/view.php?idx=170020/m/view_image.php",
+        "pub_date": ""
+      },
+      {
+        "title": "[에이프로젠바이오로직스] 바이오사업부 2024 품질부문 수시 채용",
+        "description": "에이프로젠바이오로직스 ; 기업형태 : 중견기업, 접수기간 : 시작일 · 2024.10.24 · 마감일 · 2024.11.04, 채용형태 : 신입, 경력직, 모집직무 : 생산/제조, 경영/사무, 연구개발/설계, 근무지역 : 충북 청주시 흥덕구, 홈페이지 : https://aprogen.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&amp;jobnoticeSn=196538",
+        "link": "https://linkareer.com/activity/205537",
+        "pub_date": ""
+      },
+      {
+        "title": "바이오 업체 찾은 홍남기 부총리 &quot;신약개발 총력 지원&quot;",
+        "description": "홍 부총리는 &quot;15일 바이오산업의 중장기 비전과 전략을 제시하는 바이오산업 혁신 정책방향 및 핵심과제와 함께 바이오헬스 핵심규제 개선방안을 발표했다&quot;며 &quot;나머지 핵심과제도 조속히 구체화하고 순차적으로 발표해 혁신동력을 지속 창출하겠다&quot;고 설명했다. 이어 제약바이오협회 산하 신약개발센터는 데이터, AI 등 신기술을 활용해 신약 후보물질 개발 소요기간이 대폭 단축...",
+        "link": "https://www.dailypharm.com/user/news/66417",
+        "pub_date": ""
+      },
+      {
+        "title": "[오늘의 증시 리포트] 삼성전기, AI 시장 개화 수혜 지속 전망…올해 회복 확인",
+        "description": "중장기 비전 + 밸류업 지수 편입 장민환 iM증권 ◇삼성전기 과도한 저평가, 전 사업부 성장 모멘텀 주목 3Q24 영업이익 2292억 원, 예상치... 조정하나 AI 효과에 따른 성장 방향성 유효 3분기 영업이익 추정치...",
+        "link": "https://www.etoday.co.kr/news/view/2404024",
+        "pub_date": ""
+      },
+      {
+        "title": "비전 및 추진전략 | 인공지능융합전공",
+        "description": "비전 : AI for A Better World, 보다 더 나은 세상을 위한 AI, AI 기초 교과목 운영 : AI 기술 기초 교육과정을 폭넓게 제공하여 비전공자·재직자들의 AI 진입 장벽 완화, 산학협력 교과목 운영 : 산업체 인턴 및 공동 연구를 통한 산업계 현안 문제 해결형 AI 인재 양성, 대학원 운영 : 산학·공공 운영위원회 · 교육·연구·융합 운영위원회 · 글로벌 인턴십·창업 위원회 · 위원장:윤송...",
+        "link": "https://aix.ewha.ac.kr/aix/intro/vision.do",
+        "pub_date": ""
+      },
+      {
+        "title": "DeNA는 어떻게 AI트랜스포메이션을 추진하고있는가? -DeNA의 AI 전략과 미래 비전: AI 혁신을 통한 경영 및 비즈....",
+        "description": "일본의 대표적인 IT 기업인 DeNA 역시 이러한 흐름을 반영하여 AI를 경영의 중심에 두고, 효율성 증대와 신사업 창출을 목표로 적극적인 AI 도입 전략을 추진하고 있다. 특히, AI를 활용한 업무 자동화 및...",
+        "link": "https://contents.premium.naver.com/aidx/aix/contents/250220112145006ci",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "슈넬생과, ABA바이오로직스에 150억원 출자 - kpanews.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzSk13RElXdk1Od1ZfSnVuUUJ4by02NWFOczVPbG1CVmFGTnRJTm5nMFFYSXhfRzJuUXlhVzEzX1Q2RzZYbjd0eGRJX3Y1dDEzNExobjdaYUpINHpvTm1ySS1HcktQanBBM1RRUw?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 12:20:34 GMT",
+        "source": "kpanews.co.kr"
+      },
+      {
+        "title": "바이오로직스, 실적 정상화 성공할까 - 톱데일리",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1kMHdPc1BPd1RrRWFKTVZOZUpES3hKaGF2UVp4LUszNDFnV0UwZlRXV0JVUDg0MUZZSVE2V0hmeWh0SlVYcEtSRy1xZmRnS2xV?oc=5",
+        "pub_date": "Wed, 15 Oct 2025 07:00:00 GMT",
+        "source": "톱데일리"
+      },
+      {
+        "title": "흡수합병 승부수 통했다… 에이프로젠바이오, 글로벌 항체 시장 공습 - 핀포인트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5odkV2dDJSckdiMnZ5WVBrUnYzTUhfOVNLNllPdlZ1NHQ2ZEVOOXl0T1puTTBpMXFnVi1wOUJ6UUkxUFVSUG1PdUc2X2VibU5TWEs2SC1EZHU3cVZ5SVR5ME9GUzRoazQ4d2ZWWTNDMTUwVDjSAXdBVV95cUxQWUszVWh0M3hFNE1UVTBsUW52YlotOC1QY0M0RlFhZFRMb19jM3hldFlnLTJpUFZnRmpGWnBEMm1DSUozMTBfdWlsN3ZjeUNqejhEbzRvQkxlbERpM2ZROElROUUzVjBLWU5fMGgwbVRLU01OV0tZMA?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 00:34:21 GMT",
+        "source": "핀포인트뉴스"
+      },
+      {
+        "title": "[강세 토픽] CMO·원료의약품 테마, 에이프로젠바이오로직스 +29.73%, 하이텍팜 +23.09% - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGpTQ1FubnNzOW54LXpqN1dpQ21neWtUc3gwcVhiQWVTblIzVWFtbTV0eC1KcTNxOXA0WVdqR0xXdU9nVFpvVFZtZ19WVnIzZzl2NkRjc3Yxd0JnTXBfbk91QzRYTmZpcmpoWXNCdGRqUXZVWU8tUUx4VzhLbE05WWxfONIBlwFBVV95cUxOOXdjckFCbVhpdUpsdXFfSGZwOF9NRDBNYUFGTXlQQUtxNTNKMzVQUGlPenVaZEF1VC01Y0pFeTJKWnBlX0V1T2FZT1FBb2psdGtmWGZYSEJRRFo3dkplSGZLbnE2aF9qUFpxeE90djI0aS00NUhVaGs0WE10bF9tc0Z6U0xSUll3N0lwTUtGcUQwcGp0ekpB?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 04:56:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "에이프로젠제약, 에이프로젠바이오로직스 합병 최종 승인 - 약업신문",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWdyX1FsaEo3MV9lTXl0bzJVaVA5bC0zdzlSZGJlM05Bdk8yTm1uakc3TjFMUUhKWVNKOXNBSGd0TUFwa01Wa2FBNmRMeWM4c3ozcGh3NnlyWktIVW9ndGptbldYeUJ4Tkpnc3BFRGZBalhzUEZWTzNuWnVvenFVY3RUaEl5QVo4SEpfdGkzbF9UV0RCYVRSSjRfN3JRSDJFOVF1Z3FLTWluaklDNTltN25IM0doMW92UE5UY1hXamNtWE8zN2c?oc=5",
+        "pub_date": "Sun, 08 Mar 2026 11:25:02 GMT",
+        "source": "약업신문"
+      },
+      {
+        "title": "에이프로젠, 지난해 당기순손실 1377억5765만8000원…전년 대비 37.24% 확대 - 디지털투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2Q2NGQ29ieTFQZkpOU0c1bm8tRGJZeVlOR055QmJibXRfcjMybWREQUlqMm0xT2ZLaHBZSVJpQjFNa2xmZ1ZTN0k0TTIwUy1yWURmTjRFN3RucElBTDRiWnNFdnM3N2lRaTBYcFJyWll4Wnc?oc=5",
+        "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+        "source": "디지털투데이"
+      },
+      {
+        "title": "에이프로젠바이오로직스 투자분석 2026. 03. 03 - 주달",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10NTRUNjRtbk9GWGpPdTN6cVBDWlhUOFFCX0dIM0dhQkJ5WnNpVUlEUjB4LUtXRDBLVHZSRE1UZHdQNk90S3FrNzFfMGpwMFdKb1N3LVJaeHg1b3B3YTdLN2Qxa084VUxrWFdIQmgwaGw5eFk?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "source": "주달"
+      },
+      {
+        "title": "에이프로젠, 글로벌 파이프라인·CDMO 사업 전면 확장 - 바이오타임즈",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZUHhQY2lGU0dlZ2NkTDRKb25CcjVvdzlGeUhVemRDdVh0ZlhkMUtwRnA0a2hiZ0pnLXRPM1lMNVJmRWZwOVdsTjFiQm5ZSnlmWjQ1aGlFWjdEeGVSckdZUlgySkNYR2k1dkJOVQ?oc=5",
+        "pub_date": "Fri, 12 Dec 2025 08:00:00 GMT",
+        "source": "바이오타임즈"
+      },
+      {
+        "title": "[HIT알공] 프로티나, 470억 규모 AI 활용 항체 바이오베터 개발 사업 선정 - 히트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBLVlGRnItazdaWVphRDJHWGZCZVdfLW9ycFNTZUF4Ni1IbHdybmZkdUZLOXFlWEhJMHFDQTFYaGZrLUlWbzdTRFFSZ2ppUjN3dFlGeDRjN3BsX1pFbXJzZHFpSWxzYjFoUWc?oc=5",
+        "pub_date": "Tue, 04 Nov 2025 08:00:00 GMT",
+        "source": "히트뉴스"
+      },
+      {
+        "title": "공격적인 사업 다각화, 수익 악화에도 연구개발↑ - 톱데일리",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBnSUpoYjQ3T1RXMDBjQ2pnYzZTbkwyeFZYVDBpbWdxN2pXTGRuOUxiLVpLcXhiVDdaZlluOHRQOUtwU0loZFppR1ZpRldkWlFt?oc=5",
+        "pub_date": "Tue, 14 Oct 2025 07:00:00 GMT",
+        "source": "톱데일리"
+      },
+      {
+        "title": "에이프로젠 투자분석 2026. 03. 05 - 주달",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuRFdPZjhRd2szSjF2S2VDYVVkSjEwTklqcXpfN1dra05MaTlmU18wc0VpbTFJVVh0QnJ4cFNrR2hsd2tXZExXZmJtWlo2Vm9fbmlTWkRpM1BxNk1aaDY3QjU0cTN0NHAxcEEwck9GR2I1Rkk?oc=5",
+        "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "source": "주달"
+      },
+      {
+        "title": "에이프로젠, 93% 무상감자에도 상한가… ‘동전주 탈출’ 기대감 부각 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZlBUTTY1WEs5QTdRMzN0bjVtMHdlcFJoYVowTUxlaXA1N0ppY2Y2MXljTHZyY3RORW5lZ3FHMjlPV2YtXzBSX1ZmLTR1LWZ3SHNMSnhFVzY4dkZiWUlLWUJsTHRfTE1pS19TQzdWUFY3dE05UTdpRFRCaDZXaTJzOGYtN1JxTzZM0gGcAUFVX3lxTE1GWGtUT21tMWlXUnNDX0RLR0N1dFhhdmRSTFhxbnR3dzUzaEVqTndNdFZJbFBacndTSXFISTJ4NkROMGUzS3V2S293SkN3ZjNTZk9yWGhncWxyNklGTG9iRTFuNzhobC1xazIxdkVYTnZ4ZE9PeUlvYUliNkRTTGNqRzNjeEV0VzVocVEySDZVc1VTaXUxQ0NpWDc3Sw?oc=5",
+        "pub_date": "Tue, 24 Feb 2026 08:00:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "에이프로젠바이오로직스 투자분석 2025. 12. 26 - 주달",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWN2RERVRTY1NvSVNWdTN1bzFPUFk1V1lsckxadnQ1endoeUNoOHRjQmxhTWsyT2hHWnhvdjVsYkRQSHB0M2VUZjVZYTZrTkQ0YmFPM0dSOWxsajhYeDRlbko3Z3RMQTltQllocS1KOTgzRm8?oc=5",
+        "pub_date": "Fri, 26 Dec 2025 08:00:00 GMT",
+        "source": "주달"
+      },
+      {
+        "title": "에이프로젠 투자분석 2025. 12. 29 - 주달",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93dndhQllOZldYR0FJaDh2bnFQUE0ycTdLZElDaTREMl9VSzJRSmRoa19fY0JoUWpTQ3I3VW00eGN6dVA0VGNvX2k2QXJBRllkbGV0dE9YR01oYnpVbTlEcXdUN1JZYlhZQV9OWnJCUXJwcWM?oc=5",
+        "pub_date": "Mon, 29 Dec 2025 08:00:00 GMT",
+        "source": "주달"
+      },
+      {
+        "title": "에이프로젠바이오로직스 투자분석 2026. 02. 22 - 주달",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05cnpHSlI2eW9Zc3RSWFpEM05vM1VhOUY4WWdPT2UwNmZ5Mjlub2Z0M1JaRUVzanBqZ2ZEYmV2MG9URTdDVy15M1dJZHBOc1E4cnRpeUZBbWdIanFhZzlOcVo0cUFVLWRTend4el9fQTl5Nm8?oc=5",
+        "pub_date": "Sun, 22 Feb 2026 08:00:00 GMT",
+        "source": "주달"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "2025년 주식회사 에이프로젠바이오로직스 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/2563332/",
+        "description": "주식회사 에이프로젠바이오로직스의 최신 기업정보, 채용, 연봉 등 취업에 필요한 정보를 인크루트에서 확인하세요."
+      },
+      {
+        "title": "APROGEN - 채용안내",
+        "url": "https://www.aprogen.com/ko/v.do?m=McXP6TeNq3&c=CsvzNJEJq3",
+        "description": "채용담당자recruit@aprogen.com · 입사지원서 작성하기 · 회사소개 개인정보처리방침 문의하기 사이트맵 · 사업자정보확인 · (주)에이프로젠 · 경기도 성남시 중원구 둔촌대로 545, B1(한라시그마밸리) 대표전화 : 031-625-4045 ·"
+      },
+      {
+        "title": "2025년 에이프로젠 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/1462932/",
+        "description": "(주)에이프로젠은 철강·금속·비금속 업종의 중견기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+      },
+      {
+        "title": "㈜에이프로젠 진행 중인 채용정보 총 0건 - 채용 히스토리 통계 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/recruit/co_read/recruit/c/35711581",
+        "description": "2022년 7월 에이프로젠 하반기 GMP 채용 · 신입·경력 충북 대졸↑ · 마감 (~2022.08.05) 바이오·제약연구원 · 2022년 7월 에이프로젠 전략기획 채용 · 신입·경력 경기 대졸↑ · 마감 (~2022.07.22) 경영·비즈니스기획 ·"
+      },
+      {
+        "title": "에이프로젠 2025년 채용정보 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/RecruitInfo/512281",
+        "description": "에이프로젠의 모든 공고를! 예정된 공고, 진행중 공고, 마감된 공고까지"
+      },
+      {
+        "title": "에이프로젠 채용",
+        "url": "https://aprogen.recruiter.co.kr/",
+        "description": "에이프로젠 지원서 온라인 접수, 수시채용 안내"
+      },
+      {
+        "title": "에이프로젠 채용 | 채용사이트",
+        "url": "https://aprogen.recruiter.co.kr/career/home",
+        "description": "에이프로젠 채용공고확인, 지원서 작성, 합격자 조회를 제공합니다."
+      },
+      {
+        "title": "에이프로젠 채용 - 2025년 채용정보, 자기소개서 문항",
+        "url": "https://jasoseol.com/companies/3752/careers",
+        "description": "에이프로젠 신입, 인턴, 경력 최신 채용공고 정보와 자기소개서 항목, 직무별 지원자 수, 합격 스펙까지 한번에 확인하세요."
+      },
+      {
+        "title": "2024년 에이프로젠 채용 | 인크루트",
+        "url": "https://www.incruit.com/company/1298896/job",
+        "description": "에이프로젠의 최근 3년간 채용정보를 인크루트에서 확인하세요."
+      },
+      {
+        "title": "에이프로젠 채용 기업정보 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/CompSummary/512281",
+        "description": "에이프로젠 초봉 3600만원, 재무평가 상위 42%, 에이프로젠의 채용공고, 기업정보, 재무정보부터, 현직자리뷰, 면접후기까지 모두 캐치하세요."
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "(주)에이프로젠바이오로직스 - 채용 홈페이지",
+        "url": "https://aprogenbiologics.ninehire.site/",
+        "text": "(주)에이프로젠바이오로직스 - 채용 홈페이지\n\n# (주)에이프로젠바이오로직스 - 채용 홈페이지 (주)에이프로젠바이오로직스 채용 홈페이지입니다\n\n## (주)에이프로젠바이오로직스 - 채용 홈페이지\n\n## (주)에이프로젠바이오로직스 채용 홈페이지입니다\n\n## IMC\n\n### Join Aprogen Biologics. 건강한 미래, 더 나은 내일을 함께 만들어갈 인재를 찾습니다.\n\n### 채용공고 보러가기↗\n\n## 제목없음\n\n## 공통역량\n\n### Foundation Competency 기본을 지키는 우리\n\n### 책임감 및 성실성 우리는 맡은 바 직무에 대한 깊은 책임감과 성실함을 핵심 가치로 여깁니다. 예상치 못한 난관에 직면하더라도 뜨거운 열정과 끈기로 극복하며, 약속한 바는 반드시 지켜내는 든든한 동료입니다.\n\n### 공동체 의식 개인의 성장만큼이나 '우리'라는 공동체의 목표 달성을 중요하게 생각합니다. 강한 소속감과 투철한 직업의식을 바탕으로 조직의 목표를 향해 나아가는 데 적극적",
+        "score": 0,
+        "published_date": "2023-08-01T00:00:00.000Z"
+      },
+      {
+        "title": "㈜에이프로젠바이오로직스 채용 - 2026년 진행 중인 공고 확인하기 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/recruit/co_read/recruit/c/aprogenpharm",
+        "text": "㈜에이프로젠바이오로직스 채용 - 2026년 진행 중인 공고 확인하기 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n코스피\n\n코스피 상장기업\n\n닫기\n\n㈜에이프로젠바이오로직스\n\n에이프로젠그룹 계열사\n\n제약·보건·바이오\n\n656\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유\n\n# 채용 정보\n\n## 리스트 정렬 순서 선택\n\n- 마감 144건\n- 진행중 0건\n- 전체 144건\n\n등록순 등록순 마감순\n\n## 채용 진행 중 직무\n\n- 임상연구원\n- 해외영업\n- 기타의료종사자\n- 약사·한약사\n- 소방설비\n- 공무\n- 현장관리자\n- 시설관리자\n- 공장관리자\n- 무역사무원\n- 포장·가공담당자\n- 생산·공정관리자\n- R&D·연구원\n- 화학엔",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "에이프로젠 채용공고 - 하반기 채용 | 자소서 문항, 지원자 스펙 분석까지",
+        "url": "https://jasoseol.com/recruit/65794",
+        "text": "에이프로젠 채용공고 - 하반기 채용 | 자소서 문항, 지원자 스펙 분석까지\n\n## 에이프로젠\n\n# 하반기 채용\n\n2022년 7월 8일 15:00 ~ 2022년 7월 22일 14:59(1309일 지남)\n\n공고 조회 4237회\n\n즐겨찾기 106회\n\n홈페이지 방문 78회\n\n채용 사이트\n\n채용 공고 공유\n\n공고 즐겨찾기\n\n상세요강\n\n기업정보\n\n지원자 현황\n\n신입\n\n선도물질개발\n\n12명 작성\n\n자소서 문항 보기\n\n신입/경력\n\n세포주개발\n\n3명 작성\n\n자소서 문항 보기\n\n신입/경력\n\n비임상개발\n\n8명 작성\n\n자소서 문항 보기\n\n경력\n\n연구기획\n\n0명 작성\n\n자소서 문항 보기\n\n경력\n\n신약공정연구\n\n0명 작성\n\n자소서 문항 보기\n\n신입/경력\n\nR&D 품질보증\n\n4명 작성\n\n자소서 문항 보기\n\n신입\n\n배양공정개발\n\n5명 작성\n",
+        "score": 0,
+        "published_date": "2022-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "에이프로젠 채용 - 2026년 채용정보, 자기소개서 문항",
+        "url": "https://jasoseol.com/companies/3752/careers",
+        "text": "에이프로젠 채용 - 2026년 채용정보, 자기소개서 문항\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n### 자소서 문항 분석 리포트 💡\n\n### 로그인하고 문항 분석을 확인하세요 🔍\n\n다른 방법으로 시작하기\n\n### 이 기업의 공고\n\n16건\n\n### 에이프로젠\n\n## 2023년 5월 세포주개발실 연구원 채용\n\n세포주개발실\n\n23/05/07 - 23/05/21 (13일)\n\n1011일 지남\n\n### 에이프로젠\n\n## 2023년 5월 공정분석연구소 연구원 채용\n\n공정분석연구-성남, 공정분석연구-오송, 배양공정개발-성남, 배양공정개발-오송, 정제공정개발-성남, 정제공정개발-오송\n\n23/05/01 - 23/05/15 (13일)\n\n1017일 지남\n\n### 에이프로젠\n\n## 2023년 4월 분석개발 연구원 채용\n\n분석개발 특성",
+        "score": 0,
+        "published_date": "2018-07-16T00:00:00.000Z"
+      },
+      {
+        "title": "㈜에이프로젠바이오로직스 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/recruit/co_read/c/apbl707",
+        "text": "㈜에이프로젠바이오로직스 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n코스피\n\n코스피 상장기업\n\n닫기\n\n㈜에이프로젠바이오로직스\n\n제약·보건·바이오\n\n142\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유\n\n## 기업 사진/동영상\n\n--\n\n## 기업정보\n\n제약·보건·바이오\n\n260명\n\n중견기업\n\n2014.04.14\n\n(13년차)\n\n-\n\n445억 3,400\n\n김재섭, 김정출\n\n바이오의약품 개발 및 생산\n\n국민연금, 건강보험, 고용보험, 산재보험\n\n[https://www.aprogen.com/ko/v.do?a=Main](https://www.aprogen.com/ko/v.d",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "에이프로젠, ‘역사적 바닥권’ 탈출 신호탄 쏘나, 26년 턴어라운드 주목 < 핫이슈- I R -종목분석 < 기사본문 - 데일리머니",
+        "url": "http://www.thedailymoney.com/news/articleView.html?idxno=1132664",
+        "text": "-- 에이프로젠, ‘역사적 바닥권’ 탈출 신호탄 쏘나, 26년 턴어라운드 주목\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n에이프로젠, ‘역사적 바닥권’ 탈출 신호탄 쏘나, 26년 턴어라운드 주목\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n- 댓글 0 --\n- 입력 2026.01.31 20:50\n- 기자명 조주연 기자\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n#### 5년 최저점 수준의 ‘저평가’ 구간… 퍼퓨전 공정 혁신으로 CDMO 시장 정조준 바이오시밀러 글로벌 임상 가속화, ‘K-바이오의 테슬라’ 꿈꾸며 재도약 준비\n\n[데일리머니=조주연 기자] 국내 대표 바이오 전문기업 **에이프로젠(007460)**이 긴 하락의 터널을 지나 2026년 새로운 도약의 전기를 맞이하고 있다. 인간화 항체 공학 기술과 독보적인 생산 공정을 무기로, 단순 바이오 벤처를 넘어 글로벌 CDMO(위탁개발생산) 강자로 거듭나기 위한 체질 개선에 박차를",
+        "score": 0,
+        "published_date": "2026-01-31T00:00:00.000Z"
+      },
+      {
+        "title": "Companies continue to splash out on AI, despite disillusionment ...",
+        "url": "https://www.itpro.com/business/business-strategy/ai-investment-increase-2026-gartner",
+        "text": "Companies continue to splash out on AI, despite disillusionment with the technology | IT Pro\n\nCompanies continue to splash out on AI, despite disillusionment with the technology | IT Pro\n# Companies continue to splash out on AI, despite disillusionment with the technology\nAI investment is precipitating colossal revenue increases in the semiconductor industry\nJane McCallion's avatar\nBy\n[Jane McCallion](https://www.itpro.com/",
+        "score": 0,
+        "published_date": "2026-01-16T00:00:00.000Z"
+      },
+      {
+        "title": "에이프릴바이오의 2026년, ‘데이터→플랫폼→딜’로 이어지는 재평가 3중주",
+        "url": "https://www.kndaily.co.kr/news/articleView.html?idxno=308987",
+        "text": "에이프릴바이오의 2026년, ‘데이터→플랫폼→딜’로 이어지는 재평가 3중주 -- --\n\n- 모바일\n- 회원가입\n- 로그인\n- 발행일 : 2026-02-05 19:45 (목)\n\n이전 기사보기 다음 기사보기\n\n에이프릴바이오의 2026년, ‘데이터→플랫폼→딜’로 이어지는 재평가 3중주\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\nFinance&Investment\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n[금융경제플러스 = 김태일] 에이프릴바이오가 2026년을 기점으로 본격적인 기업가치 재평가 국면에 진입할 전망이다. 상반기 두 건의 환자 대상 임상 효능 ",
+        "score": 0,
+        "published_date": "2026-01-28T00:00:00.000Z"
+      },
+      {
+        "title": "에임드바이오, 'AI 바이오마커' 에이비스에 지분투자·공동연구계약 체결",
+        "url": "http://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03791686645346912",
+        "text": "에임드바이오, 'AI 바이오마커' 에이비스에 지분투자·공동연구계약 체결\n\n실시간뉴스\n\n식사·건강·관계까지…지자체 가족센터, ‘1인가구’ 지원 강화\n\n李대통령, 싱가포르로 국빈 방문 출국…“전략적 협력 촉진”\n\n480개 기업 움직인 ‘성평등 교육’…올해는 CEO까지 부른다\n\n[이",
+        "score": 0,
+        "published_date": "2026-02-03T00:00:00.000Z"
+      },
+      {
+        "title": "[AI 시험대 선 K-바이오]③신약설계 최대 난제 돌파구 찾는 프로티나",
+        "url": "http://www.asiae.co.kr/article/2026031316124073716",
+        "text": "[AI 시험대 선 K-바이오]③신약설계 최대 난제 돌파구 찾는 프로티나\n\n본문 바로가기\n\n2026년 03월 19일(목)\n\n- 소셜 아이콘영역 님\n- 로그인 / 회원가입\n\nEN 검색창 열기\n\n검색창 열기닫기버튼\n\nDim영역\n\n## AI로 단백질 예측→실험→설계 루프CDR 규칙 찾은 AI, 프로티나 경쟁력 ↑\n\n편집자주인공지능(AI)이 제약·바이오 시장의 판도를 뿌리째 뒤흔들고 있다. 엔비디아가 글로벌 빅파마 일라이 릴리와 손잡고 10억달러(약 1조4990억원)를 들여 AI 신약 개발에 나서기로 한 건 지금까지와는 전혀 다른 문법으로 제약·바이오 산업사(史)가 다시 쓰이는 흐름의 상징과도 같다. 후보물질 발굴에 머물렀던 AI의 영토는 정교",
+        "score": 0,
+        "published_date": "2026-03-17T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "GitHub - APROSRI/apros-documentation: 아프로스 개발 문서 정리",
+        "url": "https://github.com/APROSRI/apros-documentation",
+        "text": "GitHub - APROSRI/apros-documentation: 아프로스 개발 문서 정리\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe read every p",
+        "score": 0,
+        "published_date": "2019-07-17T00:00:00.000Z"
+      },
+      {
+        "title": "[기술블로그] EP2. AI를 붙이는 건 어렵지 않았다. 그 다음이 문제였다: 키냅스 AI 도입기 - Synapsoft",
+        "url": "https://www.synapsoft.co.kr/blog/38363/",
+        "text": "[기술블로그] EP2. AI를 붙이는 건 어렵지 않았다. 그 다음이 문제였다: 키냅스 AI 도입기 - Synapsoft kakaoPixel('2000211805397825798').pageView('방문'); --\n\n# [기술블로그] EP2. AI를 붙이는 건 어렵지 않았다. 그 다음이 문제였다: 키냅스 AI 도입기\n\n2026-03-04 | 개발 이야기, 사이냅 이야기\n\n안녕하세요!예전 사내 지식관리시스템에서 계정 생성 제한으로 새 동료를 못 받을 뻔했던 위기를 넘어,이제는 우리 팀의 든든한 AI 지식 창고가 된 키냅스(Kynapse) 개발 팀장 손상우입니다.\n\n지난 포스팅에서 Outline 오픈소스 기반으로 뼈대를 세웠던 이야기를 드렸죠?오늘은 키냅스가 세상에 나오기 전, ‘AI ",
+        "score": 0,
+        "published_date": "2026-03-04T00:00:00.000Z"
+      },
+      {
+        "title": "Backend.AI 오픈소스 기여 가이드",
+        "url": "https://www.backend.ai/ko/blog/2021-07-backendai-contribution-guide",
+        "text": "Backend.AI 오픈소스 기여 가이드\n\n## 블로그\n\n- 커리어\n- 문화\n- 엔지니어링\n- 출시\n- 소식\n\n- 커리어\n- 문화\n- 엔지니어링\n- [출시](",
+        "score": 0,
+        "published_date": "2021-07-05T00:00:00.000Z"
+      },
+      {
+        "title": "Backend.AI 오픈소스 기여 가이드 (2024년 7월)",
+        "url": "https://www.backend.ai/ko/blog/2024-07-backendai-contribution-guide-updates",
+        "text": "Backend.AI 오픈소스 기여 가이드 (2024년 7월)\n\n## 블로그\n\n- 커리어\n- 문화\n- 엔지니어링\n- 출시\n- 소식\n\n- 커리어\n- 문화\n- [엔지니어링](https://www.backend.ai/ko/blog/category/engineeri",
+        "score": 0,
+        "published_date": "2024-07-10T00:00:00.000Z"
+      },
+      {
+        "title": "OpenClaw: 세계 최대 바이브 코딩 프로젝트에서 배우는 9가지 모범 사례 :: ROBOCO",
+        "url": "https://roboco.io/posts/openclaw-vibe-coding-best-practices/",
+        "text": "OpenClaw: 세계 최대 바이브 코딩 프로젝트에서 배우는 9가지 모범 사례 :: ROBOCO\n\n# OpenClaw: 세계 최대 바이브 코딩 프로젝트에서 배우는 9가지 모범 사례\n\n“예전에 팀을 이끈 적이 있다. 내 아래에 많은 소프트웨어 엔지니어가 있었다. 그때도 내가 원하는 방식과 완전히 똑같은 코드를 그들이 쓰지는 않는다는 점을 받아들여야 했다.” – Peter Steinberger1\n\n#### 정도현 - 로보코 수석 컨설턴트\n\n---\n\nOpenClaw는 GitHub에서 가장 많은 스타를 받은 소프트웨어 저장소(31만+ 스타)이자, 대규모 AI 보조 “바이브 코딩\"의 결정적 사례 연구다.2 오스트리아 개발자 Peter Steinberger가 3~8개의 병렬 AI 에이전트 인스턴스를 활용해 구축한 이 프로젝트는3, 단 한 명의 개발자가 30만+ LOC 규모의 Typ",
+        "score": 0,
+        "published_date": "2026-03-14T00:00:00.000Z"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "\"1,172억원 유상증자 진행\"…바이오株 주가 급락 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMG1rZnFmbXFiS2FWaTVlNjk2SHBfOTE2dnZIeGktSXkwekhUaTV4X2lsZmRuWG15TmRVMHU1UENtcHZ5MnJHN0VvVk9WbGdIZzVhdXYzUUQ3Q25RSGpjblg2UU56ejh6dVpnQUxPbEh2dlhhMU5UcjlWZXhON21kTGFGMHI1SW8?oc=5",
+        "pub_date": "Mon, 15 Jan 2024 08:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "무상감자 소식에 에이프로젠바이오로직스·앱토크롬 '급락' - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT0hpNFE5R3YxdGVIWk5aRWpzYW5oWHBaR1hIc25xLWd6cDdLUC1IWmYyQm8zTzhCaUF5MHZJOWl4bjRLWGZ6MEstV1A1TGEzWXU4OVFfdWFidGpTM2NTOHVIanY4Vy1LdnFFbnI1UmVNaEJfQXJ2bFZDWGhUU1JSTEUxLXYyTEk?oc=5",
+        "pub_date": "Tue, 24 Feb 2026 08:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "신용잔고 사상 최대치 경신! 대출 한도 고민, 스탁론으로 한 번에 해결하세요 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qdUZRYmo3S1lCMUhCNVBDU2dXNHFTb056WXNWY2NiWkV5NFRid09OWTMxZjhjVDlRWTJyMjdhYXBXYXd5WXdYQ20td3IyaEswQzgxNk9ISDZFQdIBVEFVX3lxTE5KVDN3eTQyS3FqUXU3N2xwc3lmOHozeVp6X05rUmltOGtnRUp4YzRjbVhfNzVpMG1HTWp2X3pqeXdaRUlTTzEtbW02RmpUckNIZjNxag?oc=5",
+        "pub_date": "Wed, 25 Feb 2026 08:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "에이프로젠바이오로직스, +29.73% 상한가 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS09rMzR3X1g5VWtJQmpVMkFwdlFRUFQxelZzd3p2MzRDWmZPaGUtMWF5bzRLOExjM2xRTWM0WGtrZkd3MU52WEdTRS1zZkZfck14dGEwNDREYmprbXEyT2xPX09kZ3E1VXd5NnczUmdHLWp3S0pkTW9PNS1yZTh6QWZHZ9IBlwFBVV95cUxPbzFKWHRrRjI2SU0yaHBwRkdveHI5cGFWZ1UyYVhSbms2bmIwY0U0LXRRelA4Ykw3SFpxWlNjU19kenFhQ1JoUTJ4UTU2dU81ZEZFUUxtX3FwZy1xczlFbllpbTcwWUhrZ3dMVFdsYVJYR0NUU052TEp5NGVpREMwNGRNaWVsMGdIdXZoMl9YYUZpMGxfZHZJ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 00:11:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "[강세 토픽] CMO·원료의약품 테마, 에이프로젠바이오로직스 +29.73%, 하이텍팜 +23.09% - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGpTQ1FubnNzOW54LXpqN1dpQ21neWtUc3gwcVhiQWVTblIzVWFtbTV0eC1KcTNxOXA0WVdqR0xXdU9nVFpvVFZtZ19WVnIzZzl2NkRjc3Yxd0JnTXBfbk91QzRYTmZpcmpoWXNCdGRqUXZVWU8tUUx4VzhLbE05WWxfONIBlwFBVV95cUxOOXdjckFCbVhpdUpsdXFfSGZwOF9NRDBNYUFGTXlQQUtxNTNKMzVQUGlPenVaZEF1VC01Y0pFeTJKWnBlX0V1T2FZT1FBb2psdGtmWGZYSEJRRFo3dkplSGZLbnE2aF9qUFpxeE90djI0aS00NUhVaGs0WE10bF9tc0Z6U0xSUll3N0lwTUtGcUQwcGp0ekpB?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 04:56:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "[강세 토픽] 바이오시밀러 테마, 에이프로젠 +18.67%, 삼천당제약 +4.53% - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORjFhRWRPWkhYdG5jcDh3aS1EU3BhNHFvSDNNcURMVFFwWFp4Y3R1ZTU5a2dLRzFGdnRIQWRwX2RLRERVVEVMeTMyVXFGTEVub0Z2QzRtNmxtblJnZHZsR2dramxLdU0xV1IzdVl5V0V2UVRnNzlacWtEZW5sRWNJNXNZWdIBlwFBVV95cUxOQ0hqODE0NTVhSWZCZW54R2I4b3ctc1V5RnVNcExnakpzX0VYV0dBdVRxRmVfTUNPcTIybkhyNFpPRFZ0QWhjRnRWakcyb0dKd2FvRTZZQUdlOXJMV29Oc0k4N2NDakVsQ1g0N205eXhna1FFcktxaWpkZ01MM3l1cTUwLWZVYk04Q1c5UlRvRHdDWnZZeTJF?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 01:12:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "에이프로젠(007460) +7.04%, 녹십자 +4.11%, 삼천당제약 +2.43%, 알테오젠 +2.59%, 셀트리온제약 +2.71% - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAyZkkyM3JDZldhZmFMU1NVY19BQWR3RlBNd0hYWUFMdTBWV1dtLThDc1dGU0FaLUFZZlZPRmxaZGdNdmRkM1E5OXZUMzIxMElJ?oc=5",
+        "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "특징주, 에이프로젠바이오로직스-바이오시밀러 테마 상승세에 25.07% ↑ - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TaFhhWEpmVDhxekRRT0EwdGkzSmFPR3VtZVJCdW5WNExhY1N1T1ZLZ1dOZkdGRU90THlyMUZETDRrQVlyRklFVV9hRGlnWVktT0E?oc=5",
+        "pub_date": "Tue, 24 Feb 2026 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "증시요약(8) - 기술적 분석 특징주 B(코스피) - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yakhBUmgxWFZlZUVsSlJOc0FBZlJhbzZreWFHay1Vcmgzak5oTjBWTlBuN0VlZ3k4c1dUQzlrWGNaMmo1cTU5UmFyUC1PZWNXT0E?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:08:42 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "에이프로젠게임즈, 포트리스M 서비스 1주년 기념 오프라인 대회 개최 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jR0pPMm1fNGJZOVVsSDFUcW5hTjhKdG4zVWs2TTRvOGZ0VW1GWTNOQ2RabmdRXy1yX19yVmFkSFlzdzVKQzREajRqR2tia1B5UzRHQXFR?oc=5",
+        "pub_date": "Tue, 15 Oct 2019 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "에이프로젠게임즈 '소울워커제로', 신규 캐릭터 업데이트 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FZHI3TW5Yc25HY0h4SzBrTEhUWTVNQzNwZjdpYWpNSDJFX3VjTjJQLUpOamxPRXR4eFJScUpjUWU2V1dRcjRMVWFETWpoSVUxRmJldUpR?oc=5",
+        "pub_date": "Tue, 02 Jul 2019 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "팡스카이, 포트리스M 서비스 이관 작업 완료 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRU0luTkszU29vX1ZOZU9VTWRKMDFmMjB0ZHVqR3Y0VUFjSm9HMDRfNEFQRDIxT2VPODI3c1ZhcUtCR19zUE9xV21NQVVPWGFZRG1FRU5B?oc=5",
+        "pub_date": "Fri, 29 Jan 2021 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "에이프로젠, 지오릿에너지 M&A 최종 마무리 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TWXdhNUl5ZHFlZXd0c2pqcERIdW4xWi13UDMwRFE1OVRwSVhrZHNEMFljdElFcmd6UkJjbDJCUDZIaEx1OGREamZGSGEya1pxeXFOZDd3ODhUdFU0RHk2UjVhZnJXaVZB0gFsQVVfeXFMUGdZRkt0eW9Zb3d2elZPTTNieElZNUZfMjlpaXpYYUg2aDlBaXlON3pNcHAwajRKQXB6d3JQeGZXcGMyV0FhN0ZFekFMdE82T2FhdUlTVk84THp5eFgzckptSHFPQW5tMzBVSEdq?oc=5",
+        "pub_date": "Sun, 12 Jan 2025 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[돌아온 큰손]② 김재섭 회장과 원영식 전 회장, 투자로 얽힌 인연 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtSkkyMDNDZ2R6RW04ZndLQWVkQXZycE9YYzgxSFJkUlp1bzVtbWI3SWIzYUR1cEp1NHdtVEtzZF9LYzVHTHJTT0FsZVEyaXlsNldFZXcwNllFc3duVjd0R2xIaTVKUC140gFsQVVfeXFMTjVId0cwU1ZycWFtMERkeW1vY1FfclJQZDQyUmxFQjNuZzdSRnpSelZnQ0dRYkQtQnZlakV5WWtuNHo0TWpCdUxNczJMLXVFc3RWQlJ4emFCZ3VKNFU2d3U3dnN4MzVqcGxSc1FP?oc=5",
+        "pub_date": "Mon, 16 Dec 2024 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "제약업계 화두 ‘데이터 완전성’…비바시스템·메디데이터 ‘부각’ - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zdk11ODRoWG1TNlZPcG1XRUp4YnhwQ3cwYWJaN3ZEbmtLMm1WRHRTZ0g4bW51TUFKa2s4OWFpa0dVVWJaam4zR0RxMXd5RWRrYmQ4TndRZ01CcFdwOWROTmF1S3REZ1XSAWtBVV95cUxOc1FXcmpOS2NBQ3RjdDdSRFlmdFZZaWk1cmE3dFR2amhtNEZRdUxQYm1DaFdlQnFSeU1tNWRYWjUydHJObUNKOFQ5VmNMNURlYXRTY2dpazlTT3RROXYxS09idmZaRXQ4Nnl0aw?oc=5",
+        "pub_date": "Mon, 29 Aug 2022 07:00:00 GMT",
+        "source": "블로터"
+      }
+    ]
+  }
+}

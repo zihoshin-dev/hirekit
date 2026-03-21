@@ -1,0 +1,620 @@
+{
+  "company": "리디",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 12,
+  "sections": [
+    "strategy",
+    "culture",
+    "overview",
+    "tech"
+  ],
+  "data": {
+    "company_name": "(주)쓰리디넷",
+    "company_name_eng": "3D NET Co.,Ltd.",
+    "stock_name": "쓰리디넷",
+    "ceo": "민봉기",
+    "address": "서울특별시 강남구 개포동 1228-1 세영빌딩 5층",
+    "industry_code": "58221",
+    "established": "19920115",
+    "homepage": "vsst.com",
+    "ir_url": "",
+    "stock_code": "035400",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      },
+      {
+        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+        "link": "https://blog.naver.com/serohero/224199063326",
+        "pub_date": "20260228"
+      },
+      {
+        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+        "link": "https://blog.naver.com/jobpass_/224197697044",
+        "pub_date": "20260227"
+      },
+      {
+        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+        "link": "https://blog.naver.com/study_edu_/224193834977",
+        "pub_date": "20260224"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "AI 기반 B2B 판매: 인사이트, 전략 그리고 솔루션 - 경영/경제",
+        "description": "그러나 AI의 등장으로 판매자는 고객의 행동 패턴과 구매 데이터를 실시간으로 분석하여, 거래 중심에서 벗어나 장기적인 고객 관계를 구축하는 방향으로 전환할 수 있게 되었습니다. AI는 고객의 구매 주기와 요구 사항을 예측하고, 판매자가 미리 준비된 상태에서 고객에게 필요한 솔루션을 제안할 수 있도록 돕습니다. 이러한 변화는 특히 고부가가치 거래에서 매우 중요한 역...",
+        "link": "https://ridibooks.com/books/805045645",
+        "pub_date": ""
+      },
+      {
+        "title": "AI시대의 비즈니스 전략 - 경영/경제",
+        "description": "미래 교육의 혁신 방향, 마케팅의 패러다임 전환, 기술 발전의 사회적 함의 등 인공지능이 가져올 변화의 모습을 입체적으로 그려보고자 노력했습니다. 책을 준비하는 동안 우리는 줄곧 '인간'에 대한 근본적 물음을 놓치지 않으려 했습니다. 기술은 궁극적으로 인간을 위한 도구여야 한다는 신념 말입니다. 인간만이 지닌 창의성, 공감 능력, 윤리의식을 어떻게 첨단 기술과 조화...",
+        "link": "https://ridibooks.com/books/5273005196",
+        "pub_date": ""
+      },
+      {
+        "title": "AI트랜스포메이션(AX) 전략추진 담당자가 프로젝트 추진을 위해 꼭 읽어야할 책 10권",
+        "description": "AI트랜스포메이션을 위해 현재의 마켓, 기술, 고객 등 디지털 환경의 변화 요인을 분석하여 장기적인 관점에서 기업 비전 및 전략 방향성... 아날로그 기업들이 생존하기 위해서는 기존 사업의 연장선이...",
+        "link": "https://contents.premium.naver.com/aidx/aix/contents/250101153540243pe",
+        "pub_date": ""
+      },
+      {
+        "title": "AI트랜스포메이션 전략추진 담당자 추천도서 10권",
+        "description": "AI트랜스포메이션을 위해 현재의 마켓, 기술, 고객 등 디지털 환경의 변화 요인을 분석하여 장기적인 관점에서 기업 비전 및 전략 방향성... 아날로그 기업들이 생존하기 위해서는 기존 사업의 연장선이 아니라...",
+        "link": "https://brunch.co.kr/@ditaltrend/232",
+        "pub_date": ""
+      },
+      {
+        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+        "pub_date": ""
+      },
+      {
+        "title": "[COVER STORY | Atinum①] 하드웨어 나라의 앨리스들",
+        "description": "에이티넘은 2010년부터 인터넷·모바일 산업으로 방향을 틀었다.... 기술전략 업무를 담당하다 2010년 합류했다. 모바일·인터넷 서비스... 모델 ‘리디 셀렉트’를 내놓고, 2017년 웹소설, 2019년 웹툰 사업에...",
+        "link": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=37997",
+        "pub_date": ""
+      },
+      {
+        "title": "2024_IT&amp;FUTURE_STRATEGY_낱장.pdf",
+        "description": "026 공공분야 초거대 AI 활용을 위한 공공데이터 주권 클라우드 적용방향 1 초거대 AI와 클라우드... 초거대 AI 도입을 위한 공공데이터 주권 클라우드 구축 전략 063 4 정책적 시사점 088 글로벌 정부...",
+        "link": "https://www.nia.or.kr/common/board/Download.do?bcIdx=27789&cbIdx=25932&fileNo=3",
+        "pub_date": ""
+      },
+      {
+        "title": "AI 물류 혁명 - 경영/경제",
+        "description": "작품 소개 ; AI와 함께하는 물류 혁명의 시대 AI는 물류와 유통 생태계를 혁신하며 산업 전반의 패러다임을 바꾸고 있다. 배송 최적화뿐 아니라 공급망 관리, 창고 운영, 예측 분석 등을 효율적으로 수행하면서 물류 혁명의 핵심 기술로 자리매김했다. 아마존, DHL, 알리바바 등 글로벌 기업들은 AI에 기반한 물류 자동화로 빠른 주문 처리와 비용 절감을 이루고 고객 맞춤형 서비스를...",
+        "link": "https://ridibooks.com/books/1008004385",
+        "pub_date": ""
+      },
+      {
+        "title": "기업의 지속가능성을 위한 기업가정신 그리고 비전 창업 - 진로/교육/교재",
+        "description": "작품 소개 ; 초판발행 2023.8.31 4차 산업혁명의 환경은 우리의 미래를 바꾸어 놓을 것이다. 미래사회의 큰 변화는 삶의 모습, 일자리, 산업, 경제영역에서 큰 변화가 올 것이다. 많은 일자리가 새로 생기고 기존의 존재했던 여러 일자리들은 자동화, 산업구조 개편 등으로 사라질 것이다. 특히 현재 인공지능(AI: Artificial Intelligence)이 하나의 큰 이슈로 떠오르고 있는데, 인공지능을 비...",
+        "link": "https://ridibooks.com/books/3478018698",
+        "pub_date": ""
+      },
+      {
+        "title": "2025년 K-Book 플랫폼 홍보 전략 세미나 및 출판문화교류 행사 자료집 &gt; 통합 자료실",
+        "description": "&lt;2025년 K-Book 플랫폼 홍보 전략 세미나 및 출판문화교류 행사&gt; - 일시 : 2025년 12월 16일 14~18시... 도전과 비전 : AI 시대, 왜 출판이 더욱 필요한가 - 강연자 : 하오밍이...",
+        "link": "https://www.kpipa.or.kr/p/g3_3/214",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "2026년 리디주식회사 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/8738003/",
+        "description": "리디주식회사는 인터넷·포털·컨텐츠·게임 업종의 중견기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+      },
+      {
+        "title": "리디 주식회사 채용사이트",
+        "url": "https://ridi.career.greetinghr.com/ko/home",
+        "description": "채용 공고 · About RIDI · Culture · FAQ · Global · 로컬에서 글로벌로, 성장의 무대를 넓히면 · 당신의 커리어도 한 단계 더 확장됩니다. K-콘텐츠를 세계로 이끌 주인공, 바로 당신입니다. 직군 · 마케팅/홍보 · Product · Tech · 콘텐츠 비즈니스 · 경영지원 · 디자인 · 현지화(Localization) 경력사항 · 경력 · 고용형태 · 정규직 · 근무지 · 리디 주식회사 ·"
+      },
+      {
+        "title": "배려깊은 리디 채용 프로세스 - 리디주식회사 RIDI Corporation",
+        "url": "https://ridicorp.com/story/untact-recruitment/",
+        "description": "리디에 지원한 인재 ‘예비 리더스’는 서류 전형, 면접 전형을 거쳐 리디에 입사합니다. 많은 인재가 기대를 가지고 지원하는 만큼, 긍정적인 채용 경험을 주기 위해 노력하고 있습니다. 특히 2020년 올해에는 코로나 19 발생으로 인해 기존보다 더 안전한 면접을 진행할 수 있도록 고민했습니다."
+      },
+      {
+        "title": "리디(RIDI) 기업정보 - 채용 15건, 평균연봉 5,593만원, 인원 444명, 업력 6년, 서울 강남구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/5",
+        "description": "리디(RIDI) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "리디 2026년 상반기 채용 | 8건의 채용정보",
+        "url": "https://www.jobplanet.co.kr/companies/89631/job_postings/%EB%A6%AC%EB%94%94",
+        "description": "리디의 전/현직원이 전하는 생생한 채용정보! BL 웹툰 PD, 상시 채용, 방송연출/PD/감독 , 인쇄/출판/편집 , 서울, 경력 | 잡플래닛에 등록된 8건 채용정보를 지금 바로 만나보세요!"
+      },
+      {
+        "title": "리디(주) 2026년 상반기 채용 | 476건 면접후기 3.2 면접난이도 | 잡플래닛",
+        "url": "https://www.jobplanet.co.kr/companies/89631/interviews/%EB%A6%AC%EB%94%94",
+        "description": "<strong>능력있는 동료 만족스런 문화 요즘 대세 워라밸 복지 끝판왕 분위기 좋아요 탄탄한 비즈니스 수평적인 문화 인지도</strong>하면 여기 직원 존중은 기본 인생 최고 동료 주 4.5일 꿀근무 최고의 ..."
+      },
+      {
+        "title": "블라인드 | 리디 게시글",
+        "url": "https://www.teamblind.com/kr/company/%EB%A6%AC%EB%94%94/posts",
+        "description": "리디 북스 질문🥹 리디 북스 지원해 보려고 하는데요. 회사 분위기 / 야근 / 출퇴근 / 재택 / 경영진 등 요즘 어떤가요? 쪽지로 몇 가지 질문 드리고 싶습니다(_ _) ... 채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다."
+      },
+      {
+        "title": "리디주식회사 채용 정보",
+        "url": "https://www.rocketpunch.com/companies/ridi/jobs",
+        "description": "• 체력단련비 최대 월 ... AWS 학습비용 지원 (최대 20만원) ■ HEALTH <strong>건강한 몸과 마음을 바탕으로 일할 수 있는 문화를 지향</strong>합니다 • 제철 과일, 우유, 두유, 시리얼 등 ..."
+      },
+      {
+        "title": "리디(주) 채용 | 2026년 진행 중인 공고 15건 - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit/csn/c0duSVlLS2lqZWhUenpBQS9MZDYrdz09/company_nm/%EB%A6%AC%EB%94%94(%EC%A3%BC)",
+        "description": "리디(주) 채용 현황 - 경력별, 직종별 채용 공고와 리디(주)의 지난 채용 정보까지 사람인에서 확인해보세요."
+      },
+      {
+        "title": "리디㈜ 진행 중인 채용정보 총 3건 - 채용 히스토리 통계 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/1431376/recruit",
+        "description": "리디㈜ 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+      }
+    ],
+    "google_news": [
+      {
+        "title": "리디, ‘AI 공모전’ 개최…임직원 역량 고취 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UZ19kMU9kTzFQT180SzVSYkZvMklUVmh6RTBJTjRrQmh5ZklxdzlyRlNCcXplWHowX252NlhvblRzX2lpOWJmQVZIcXUyaUZSR2ZDNm5n?oc=5",
+        "pub_date": "Thu, 18 Dec 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "글로벌 콘텐츠 기업 ‘리디’, 개발·제품 경력직 13개 포지션 집중 채용 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5KSTN4dDUwOGU0Ym5ZbnkweDEtSk5JTTdQY2drWm5vZVlIMnc3WHhacDl2Ul9TdnVhbnQ5UXhybVZsNnFqS1I1SA?oc=5",
+        "pub_date": "Mon, 10 Nov 2025 01:02:28 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "리디, 하루 거래액 56억 찍었다…만화·판타지 소설 '쌍끌이' - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jelNDbWg3czkxT3pMb3k0OHRTN2I5WGItWG1kTkVxREV0cWE5T0ktR0VmYzRaYUxJdDcxM2JNSk10QTE2SVBjT1hEeXhGUnh0czZmVXZ4WnN5UnZlVE5FckQwcUNNNEoyRTNjQg?oc=5",
+        "pub_date": "Tue, 23 Dec 2025 08:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "웹툰 소비, 숏폼으로 이동…네이버·카카오엔터·리디 '신포맷 전쟁' - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5TWF1dEVRWUFTcGxsQXhIb2FoLURySzZEVHV1ODh0NUt2Vnc5RG5OMmtjQmVrUkpaaUZPWWswZjZoMDN5bVZmb1BlSHZ3UQ?oc=5",
+        "pub_date": "Wed, 26 Nov 2025 08:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "리디, 웹소설 ‘악인 남편’ 웹툰 단독 공개 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fSU1DR2k5U20wU2lRYm1sRFV0Sm1yNXh4bDJ6eFZkTWFybzZFSzhGdWRNNnpGMFRqTkJTYXd5d2lTaElqczVQbVlNY19DRjJreUNXSG5n?oc=5",
+        "pub_date": "Thu, 18 Sep 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "셀바스AI, 리디에 AI 음성합성 기술 적용...\"신규TTS 출시 준비중\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GTWI3bzFpa25Rb3l1ZXI0MEZLZ0JrM1g0ZjU2aVRUWnBLSEtBbTlaMUlObDEtVEdjRjhIT3d2ZHRKNjdoaFVSNzJDNXlMdTFtREZIalhGSVktN21wQmFVbllkaWwxOU1jNWc?oc=5",
+        "pub_date": "Thu, 27 Mar 2025 07:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "[채용중] AI요원 픽! ⭐️4점 회사가 채용중 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 - 잡플래닛",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tOG1UYlRtSDZ0cVp5VDlsWGVSZUhqNXFRRGxvR0pzb09MNFgwVnFXS0VJdzRnUmpsbTNnQzdkV3JhdXdHekduQkl0UUxFQTJteTlCaGhrZmdYdw?oc=5",
+        "pub_date": "Fri, 02 Feb 2024 08:00:00 GMT",
+        "source": "잡플래닛"
+      },
+      {
+        "title": "신라시대 대표 여걸 '미실' 일대기…리디, 드라마·웹툰으로 제작 - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wZlpjcDg3T291NXhHdDBTay1qbmJRVTRQOEVXWjg5NWVjM0JsZzZLc0lRMFBtaHhaakZ3YnBaWGN6WXJWQmppbGU2anVPWFZ4bVJVWkd3RlkwOERxTUhZcEtvNGRqa2RBRURyTw?oc=5",
+        "pub_date": "Tue, 01 Aug 2023 07:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "콘텐츠 플랫폼 ‘리디’, 사업 다각화로 글로벌 경쟁력 강화 - 시사저널e",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qbW1tcmZVMGR1SFhvUzFCd1V3N3k2ci1PNkJYZWhpQ01rSlhTQnd6UEQ4aWloMGNpSDg5ODAwSDFIdk9jWUpaWTJ0cTMyX3VaSDhIcWdFRzdVZ1NsUDRGa3hxWk1vQ1pSaGQzWWVmUDlXZ9IBdkFVX3lxTE1lZmFTckNQbk16ZzNXcXpWaU1xMDlfcUp6T0puaEo0bHlRNnBabXdzTHVidXR4OVlZd3VGem1BRjVRV21oYXNLSDdZVTVCcXJyYW9QeTVsZjVybDI3T2FMWS1iZHVTSl8yaU9uN2lEb1Rtcm81SVE?oc=5",
+        "pub_date": "Fri, 04 Apr 2025 07:00:00 GMT",
+        "source": "시사저널e"
+      },
+      {
+        "title": "미래에셋벤처, '유니콘' 리디 지분가치 7600억으로 감액...이유는 - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LclZtTExkTDhuQmlrU05OSHNudVJKQjZIUGh6WnNBdkVLRDVORzdsUHhmd1NMdUQ2Tzl0M2VscU5YTXhDeEpzZUFRSHRJTnpFdzZ6bzF4LW5MaVVDUkg0ZUphRGFORWlTZ3poOA?oc=5",
+        "pub_date": "Wed, 27 Aug 2025 07:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "리디, 지난해 매출 2356억원…역대 최대 실적 달성 - 뉴스저널리즘",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lQnYxQXlXSktwTXVWMWFjTjBHUE9maTQ5UUtnZktubmNKQkpRRWh0emNMQUE3SnFESHdUTl9ta0ZzckhsY21qVEZrX1pEQlM3cy1jUlBGMkZnQWYzYjJpOENhcVJnU3hPcERv?oc=5",
+        "pub_date": "Thu, 03 Apr 2025 07:00:00 GMT",
+        "source": "뉴스저널리즘"
+      },
+      {
+        "title": "리디, 2024년 매출 2,354억원 달성… 역대 최대 실적 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52b1h3cWREMl9adUtoeVkwaDNvdWd4RmxZd0tXQk1kaXVfS2d3MHVJZHp6dnlTWVp4RklJMUVTaEl3N1UwRHVHbA?oc=5",
+        "pub_date": "Thu, 03 Apr 2025 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "리디, 2024년 연간 매출 2,354억원 달성∙∙∙역대 최대 실적 - 스타트업투데이",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYUjRESm9BMkZhLWh2dWNFWVVFOGZoQUpwa2I2clM5c19yQzdUdF9sSFBFX0hITlZLNmhQWDAxb1dFRFd2aVFqN1pMVUFRXzNrQlB6Q3RtQk1WS3JGdmZUbWNFQjAwdTJ3b0JNOEh3?oc=5",
+        "pub_date": "Thu, 03 Apr 2025 07:00:00 GMT",
+        "source": "스타트업투데이"
+      },
+      {
+        "title": "리디, 지난해 매출 2354억…전년比 7.2%↑ - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nRXQ5QzRWVlhwSU44aW5MM2ctU3hybmtaUkdtTzdyazh1N1V5eFExX1V6ZDVqaDRGTkJZYy1VMnlVc25MYjVQWVNhcmp5MTVkVU5ZaHg2dXNnVXBuOGdINNIBeEFVX3lxTFBOR0lwN2xaYzNBX1pzVHNnc0lydkpvYWY4MF9fcVVZejhLUjNpNzVsNVdyMjlBZkxxdWcxWHF0a2stZFFjTmtHM1dOTW1YRjdicWNXSm1uc3lMOXVnaHl4YVBtTzRoTmtSUVV2VXZ3NjRsMjZTMmprbQ?oc=5",
+        "pub_date": "Thu, 03 Apr 2025 07:00:00 GMT",
+        "source": "뉴시스"
+      },
+      {
+        "title": "리디, 지난해 매출 2354억...역대 최대 - 디지털투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0dHJ6MVZNbUxCTGNSU3RuWjk2R1AzQWRGcmR0R2ctSnh3ZndzX1JySjNfTUk1YkhBbXEzT0szdy1rRE5PNmxYVmRWeE52QVhQUUR3V1dPaW04TmViVm5RYjg4aklNT0JqTEVqb0NEd0VackE?oc=5",
+        "pub_date": "Thu, 03 Apr 2025 07:00:00 GMT",
+        "source": "디지털투데이"
+      },
+      {
+        "title": "‘텍스트힙’ 열풍에 지난해 웃었던 독서 플랫폼… 올해 성장 동력은 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQS3dMdVNDMzVFTXl0NVVYd283cktmaFlGMkp0WkRET1lZSVJIWlBNazdDU3loYVAzT2xwbkw2RG9LZkNoTklFUXFLTldRazF5YUU0VmcyQUctQTFMOWNYVmdwSEY0OXg3a3FwNVo0QzVFQlVWaDd6U2JwYW1yWXRUV05B0gGWAUFVX3lxTE9JUlFzendNMExDR1JnYWpGUFN3X0tyRWt2UE9adk93SzdnWDdUSy1TU1cwcFdJSURxX2kxR3lGMThURzQtQ3R2NkduMHl5T3U2eDN6bEpnVjNpcTEzNjE2c2diV2lFbnBVNl9CQmswZHZSYWx1VEJIOXpSYkg0SFBhUXRpQkRmc0dRUE1DYzJYYkFyVzFMQQ?oc=5",
+        "pub_date": "Sun, 02 Mar 2025 08:00:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "리디, 2023년 매출 2195억 달성 “글로벌 콘텐츠 사업 확대” - 벤처스퀘어",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBMM3FpVHF0a1lnTkJXZTM4V2p1QTlzSHVKUzEzRC1rMnJ6Q29od2RhWjBiYzF3T3I1ZnZVNXEtRWhYQ1JnRWttR0s2d0pWUQ?oc=5",
+        "pub_date": "Tue, 09 Apr 2024 07:00:00 GMT",
+        "source": "벤처스퀘어"
+      },
+      {
+        "title": "콘텐츠 플랫폼 ‘리디’, 사업 경쟁력 강화를 위해 C레벨 인사 3인 영입 - beSUCCESS",
+        "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNemtxb0lIVUVrd09LanA2R19laWtqMnVWbHNBcHZ5WXpqUmhsRnUtclM4U2hkS252WVF3aGd3V3otUEVZVUZtNC1DTGxKWkFtV3hvbi1PbE1ZQjFEWjBjLUpSUEJ1eFRfdkczN3NMN1RzRUxFNFoyT0RGQnRhOVRZcXRTZ29NNlZETVZydTJ6dW5Jcm9OdUxpNGNnTmtlcE52VmZHeDVTeEE4dlJfZkxEQ0NQRzVJeXBIdm92anlhM1E1Vnh2MFF4bWNYbTdBQ1c0VDFhNkN2RlFtenNkbWJTZjNtdDVhbzU0M05IY25tcW5RU2hoS2k2OGVxOHFheHZ5VWdmOFFlaFlfNTBYNjN1WFk0eS1YZWI3d2p5OUhBMjJBLXR4MTh5NFlwMk5rTjNLVDhlX1h3?oc=5",
+        "pub_date": "Thu, 12 Sep 2024 07:00:00 GMT",
+        "source": "beSUCCESS"
+      },
+      {
+        "title": "리디 지식재산 생태계 확장 매달려, 배기식 전자책사업 한계 뛰어넘기 - 비즈니스포스트",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xWFctMWhySDh2V2VuLUdOQjFGbm9EcWxBRzk0SG1UTzVGdWk3TmFvMldNbjRGZmVPY3ZrVkF0Tk9OaVFVNnBhZUpiYXJqdGd6a1IxaEZxYUdtQTh4YzFOM1BGdG5fWHB6UFdZbGlUVVlDbWs?oc=5",
+        "pub_date": "Wed, 24 Nov 2021 08:00:00 GMT",
+        "source": "비즈니스포스트"
+      },
+      {
+        "title": "리디, C레벨 인사 대거 영입...비즈니스 경쟁력 강화 노린다 - 헬로티",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HZ0ZJLW42X0t1Ml90bkJhaDBTdUQ4eFpIcU1peERGeGJZSWViNlk2VXY4d1owNm0wM2VWUWZqUjNGU01RYVlDZFRBVElSR0NFdWFVV1ktZTlaZTFyWVZnWQ?oc=5",
+        "pub_date": "Sun, 15 Sep 2024 07:00:00 GMT",
+        "source": "헬로티"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "리디(RIDI) 기업정보 - 채용 26건, 평균연봉 5,593만원, 인원 444명, 업력 6년, 서울 강남구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/5",
+        "text": "리디(RIDI) 기업정보 - 채용 26건, 평균연봉 5,593만원, 인원 444명, 업력 6년, 서울 강남구 | 원티드\n\n# 리디(RIDI)\n\nIT, 컨텐츠서울 강남구7년차(2020)\n\n4백만 유저 데이터를 기반으로, 콘텐츠X테크 경험을 만들어가고 있습니다. RIDI Product를 소개합니다! • 리디(RIDI): 리디는 2009년 전자책 시장에 첫발을 내디딘 이후 15년 이상의 경험을 통해 콘텐츠 업계의 선두주자로 자리 잡았습니다. 리디는 웹툰, 만화, 웹소설, 전자책 등 다양한 콘텐츠를 제공하며, 검증된 스토리 IP를 기반으로 37만 개 이상의 작품을 보유하고 있습니다. 특히, 누적 판매액 1억 원을 돌파한 작품이 2천 개를 넘으며, 이는 11만 6천 명의 작가분들이 함께 만들어 낸 놀라운 성과입니다. 이처럼 리디는 콘텐츠의 다양성과 품질로 독자들에게 사랑받아 왔습니다. 리디 플랫폼에서는 일반도서/웹소설/웹툰/만화 등 모든 콘텐츠를 고객들에게 제공하고 있습니다. • 만타(Man",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "[Freelance] Web Novel QC Editor (RIDI)",
+        "url": "https://ridi.career.greetinghr.com/ko/o/167546",
+        "text": "[Freelance] Web Novel QC Editor (RIDI)\n\n[Freelance] Web Novel QC Editor (RIDI)\n\n직군\n\n현지화(Localization)\n\n고용형태\n\n프리랜서\n\n근무지\n\n리디 주식회사대한민국 서울특별시 강남구 역삼동 702-28, 어반벤치 건물\n\nRIDI is ​seeking ​a ​detail-oriented and ​motivated individual to quality ​check ​English translations ​of Korean web ​novels. If ​you ​are a ​lover ​of ​fiction and have ​a ​sharp eye for ​polished, ​natural ​English, we’d love ​to hear ​from ​you!\n\nJob Description\n\nYou ​will review ​translated ​chapters of Korean ​web novel ​series t",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "[리디(RIDI)] 리디스토리 백엔드 개발자 채용 공고 | 원티드",
+        "url": "https://www.wanted.co.kr/wd/4191",
+        "text": "[리디(RIDI)] 리디스토리 백엔드 개발자 채용 공고 | 원티드\n\n## 포지션 상세\n\n리디㈜는 국내 1등 전자책서비스 리디북스와 전자책 전용단말기 리디북스 PAPER를 개발, 운영, 판매하고 있습니다.\n\n### 주요업무\n\n• 내/외부 고객을 위한 운영/관리 서비스 개발 • 플랫폼 백엔드를 안정적으로 운영할수 있는 고도화 개발 • 성능 최적화를 위한 DB 및 네트워크 개선(분산 환경 구축)\n\n### 자격요건\n\n• S/W 개발직군 (0명) • 변화를 두려워하지 않고 기술적으로 계속 성장하고자 하는 분\n\n상세 정보 더 보기\n\n## 기술 스택 • 툴\n\n## 태그\n\n## 마감일\n\n상시채용\n\n## 근무지역\n\n서울특별시 강남구 역삼동 702-28 어반벤치빌딩 10층\n\n리디(RIDI)IT, 컨텐츠팔로우\n\n본 채용정보는 원티드랩의 동의없이 무단전재, 재배포, 재가공할 수 없으며, 구직활동 이외의 용도로 사용할 수 없습니다.\n\n--",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "[리디(RIDI)] Content PD (Editor 포함) 채용 공고 | 원티드",
+        "url": "https://tw.wanted.jobs/wd/149117",
+        "text": "[리디(RIDI)] Content PD (Editor 포함) 채용 공고 | 원티드\n\n## 포지션 상세\n\n[리디를 소개합니다.]국내 전자책 점유율 1위를 넘어 글로벌 콘텐츠 산업의 강자로 급부상하고 있는 유니콘 스타트업 리디와 함께 할 당신을 기다립니다. 리디는 2009년 전자책 서비스 '리디북스'를 시작으로, 10년 이상 지속적으로 성장하며 국내외의 고객들에게 전자책, 웹툰, 웹소설 등 다양한 온라인 콘텐츠 서비스를 제공하고 있습니다. 2020년부터는 글로벌 웹툰 구독 서비스 ‘만타(Manta)’를 성공적으로 런칭하여 현재 800만 다운로드를 달성하는 등 북미를 시작으로 아시아, 유럽까지 글로벌서비스를 확장하고 있습니다. 컨텐츠 산업에서 리디와 함께 성장할 인재라면 지금 도전하시기 바랍니다.\n\n### 주요업무\n\n로맨스 웹소설 작품에 대한 이해를 바탕으로 한 콘텐츠 프로듀싱 운영 업무를 지원합니다.• 콘텐츠 편집 및 검수 지원• 자사 로맨스 레이블 운영 업무 서포트• 로맨스 시장 리서",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "[개발자 채용] 주니어 개발자가 경험한 리디 온보딩 2 : 웹팀 - 리디주식회사 RIDI Corporation",
+        "url": "https://ridicorp.com/story/onboarding-a-junior-engineer-2/",
+        "text": "[개발자 채용] 주니어 개발자가 경험한 리디 온보딩 2 : 웹팀 - 리디주식회사 RIDI Corporation\n\n안녕하세요. 리디 제품센터의 웹팀에서 프론트엔드 엔지니어로 근무하고 있는 이재준이라고 합니다. 리디북스/ 셀렉트/ 페이퍼의 웹 전반에 관련된 업무를 담당하고 있습니다. 리디를 첫 회사로 시작해 이제 3개월 차인 주니어 개발자인데요. 지금까지 너무 만족스러웠던 리디 라이프(!)를 입사부터 첫 배포까지의 과정과 함께 얘기해보려 합니다!\n\n## 입사와 온보딩 과제\n\n리디에 입사한 개발자는 보통 온보딩 과제를 받게 됩니다. 현재 리디가 제공하는 서비스의 코드 베이스에 익숙해질 수 있도록 하기 위함이며 약 1~2주 정도 간단한 과제를 수행하는 식으로 진행됩니다. 제가 받은 과제는 React를 기반으로 한 CMS(Content Management System)를 수정해주는 일이었습니다. 아래와 같이 중복 도서를 표시해 주고 중복일 시 자동으로 ‘오픈 종료’ 상태가 될 수 있도록 해주",
+        "score": 0,
+        "published_date": "2021-05-27T00:00:00.000Z"
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "콘텐츠 플랫폼 ‘리디’, 사업 다각화로 글로벌 경쟁력 강화 < 스타트업 < 기업 < 기사본문 - 시사저널e",
+        "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=410782",
+        "text": "콘텐츠 플랫폼 ‘리디’, 사업 다각화로 글로벌 경쟁력 강화\n\n스타트업\n\n# 콘텐츠 플랫폼 ‘리디’, 사업 다각화로 글로벌 경쟁력 강화\n\n- 댓글 0\n- 입력 2025.04.04 16:36\n- 이창원기자\n\n북마크 본문 글씨 키우기 본문 글씨 줄이기\n\n## 지난해 매출 2354억원, 전년 대비 7.2% 증가 日시장 공략, TSE 아시아 스타트업 허브 기업 선정도 ‘AI TTS’ 도입 등 서비스 고도화 총력\n\n/사진=리디 홈페이지\n\n[시사저널e=이창원 기자] 콘텐츠 플랫폼 ‘리디’가 가파른 성장세를 바탕으로 사업을 다각화하며 글로벌 경쟁력을 강화하고 있는 ",
+        "score": 0,
+        "published_date": "2025-04-04T00:00:00.000Z"
+      },
+      {
+        "title": "네이버, AI·배송 투자 확대…\"2026년 커머스 전환점 만든다\" < 게임·커머스 < 기사본문 - 디지털투데이 (DigitalToday)",
+        "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=627871",
+        "text": "네이버, AI·배송 투자 확대…\"2026년 커머스 전환점 만든다\"\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n네이버, AI·배송 투자 확대…\"2026년 커머스 전환점 만든다\"\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n네이버 사옥 [사진:네이버]\n\n[디지털투데이 이호정 기자] 네이버가 인공지능(AI) 검색 확대와 N배송 인프라 강화를 양대 축으로 올해를 '커머스 도약의 전환점'으로 만들겠다고 밝혔다.\n\n네이버는 6일 2025년 연간 매출액 12조350억원, 영업이익 2조2081억원을 기록했다고 밝혔다. 전년 대비 각각 12.1%, 11.6% 증가한 수치다. 4분기 매출액은 3조1951억원, 영업이익은 6106억원으로 전년 동기 대비 10.7%, 12.7% 성장했다.\n\n4분기 사업부문별로는 커머스가 전년 동기 대비 36.0% 성장한 1조540억원, 핀테크가 13.0% 증가한 4531억원을 기록하며 성장을 견인했다.\n\n◆AI 브리핑 연말까지 2배",
+        "score": 0,
+        "published_date": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "리디, 개발·제품 경력직 집중 채용…글로벌 콘텐츠 테크 기업 도약",
+        "url": "https://www.venturesquare.net/1013351/",
+        "text": "리디, 개발·제품 경력직 집중 채용…글로벌 콘텐츠 테크 기업 도약 -- -- -- --\n\n-개발·제품 직군 총 13개 포지션 오는 23일까지 모집\n\n-AI·데이터 기반 콘텐츠 기술 혁신 위한 핵심 인재 확보\n\n글로벌 콘텐츠 기업 리디 주식회사(대표 배기식, 이하 리디)는 개발·제품 경력직 집중 채용을 진행한다고 10일 밝혔다.\n\n이번 채용은 개발·제품 직군 내 ▲백엔드 ▲프론트엔드 ▲풀스택 ▲React-Native ▲Product Manager 등 총 13개 포지션을 모집한다. 경력 3년 이상이면 누구나 지원 가능하며, 오는 11월 23일까지 리디 채용 홈페이지를 통해 접수할 수 있다.\n\n리디는 콘텐츠 플랫폼 스타트업 중 최초의 유니콘 기업으로, 국내 및 글로벌 서비스에서 축적된 방대한 데이터를 기반으로 콘텐츠 경험을 혁신하고 있다. 이번 집중 채용을 통해 AI 기술 내재화와 글로벌 사업 역량을 강화하며 콘텐츠 산업 전반의 기술적 혁신을 이끌 계획이다.\n\n리디 관계자는 “리디는 최근",
+        "score": 0,
+        "published_date": "2025-11-10T00:00:00.000Z"
+      },
+      {
+        "title": "리디의 AI 번역, 웹툰 넘어 커머스로…'언어 장벽' 허무는 진짜 노림수 < 일반 < IT/스타트업 < IT < 기사본문 - ER 이코노믹리뷰",
+        "url": "https://www.econovill.com/news/articleView.html?idxno=706031",
+        "text": "리디의 AI 번역, 웹툰 넘어 커머스로…'언어 장벽' 허무는 진짜 노림수 -- -- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-35318383-1', 'auto'); ga('send', 'pageview'); -- (function(){adtive_targetpush_ad.start('OA444448','ILLLLLLF')}(document)) ",
+        "score": 0,
+        "published_date": "2025-08-04T00:00:00.000Z"
+      },
+      {
+        "title": "동계 스포츠 열기 콘텐츠로...리디, 동계 스포츠 장르물로 시즌 수요 공략 - 리디주식회사 RIDI Corporation",
+        "url": "https://ridicorp.com/2026/02/%eb%8f%99%ea%b3%84-%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%97%b4%ea%b8%b0-%ec%bd%98%ed%85%90%ec%b8%a0%eb%a1%9c-%eb%a6%ac%eb%94%94-%eb%8f%99%ea%b3%84-%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%9e%a5%eb%a5%b4%eb%ac%bc/",
+        "text": "동계 스포츠 열기 콘텐츠로...리디, 동계 스포츠 장르물로 시즌 수요 공략 - 리디주식회사 RIDI Corporation\n\n- 리디웹툰\n- 리디웹소설\n- 리디\n- RIDI\n\n동계 스포츠 열기 콘텐츠로...리디, 동계 스포츠 장르물로 시즌 수요 공략 - 리디주식회사 RIDI Corporation\nSkip to content\n[RIDI](https://ridi",
+        "score": 0,
+        "published_date": "2026-02-15T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "리디북스 서버 스택 소개 - 리디 기술 블로그 RIDI Tech blog",
+        "url": "https://ridicorp.com/story/ridibooks-stack/",
+        "text": "리디북스 서버 스택 소개 - 리디 기술 블로그 RIDI Tech blog\n\n2대의 서버로 시작한 리디북스는 각 기능의 요구사항에 최적인 솔루션들을 채용하고, 고가용성(High Availability)을 지향하면서 매우 복잡하고 다양한 구성으로 변모해왔습니다. 이 글에서는 리디북스가 어떤 스택에서 서비스를 제공하고 있는지 간략히 소개하려고 합니다. 각 스택의 선택 이유나 문제에 부딪히며 배운 노하우 등은 차차 포스팅하겠습니다.\n\n## 대략적인 구조\n\n리디북스 백엔드 구조도\n\n## 로드 밸런싱\n\n로드 밸런싱은 소프트웨어 로드 밸런서인 HAProxy를 이용하고 있습니다. HAProxy는 L4, L7 스위치의 기능 및 로드 밸런싱을 제공하고 구성 역시 매우 간편합니다. 리디북스는 고가용성을 위해 Active – StandBy 서버 한 쌍이 가상 IP를 공유하고, keepalived를 통해 서로의 상태를 확인하며 자동 failover 됩니다.",
+        "score": 0,
+        "published_date": "2016-04-18T00:00:00.000Z"
+      },
+      {
+        "title": "Tech Blog Archives - 리디주식회사 RIDI Corporation",
+        "url": "https://ridicorp.com/story-category/tech-blog/",
+        "text": "Tech Blog Archives - 리디주식회사 RIDI Corporation\n\n1 2 3… 9 다음 »\n\nTech Blog Archives - 리디주식회사 RIDI Corporation\nSkip to content\nRIDI\n![](https://ridicorp.com/wp-content/uploads/202",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "추천 시스템 개선을 위한 Feature Store 도입기 - RIDI Corp.",
+        "url": "https://ridicorp.com/story/ridi-personalization-system-feature-store/",
+        "text": "추천 시스템 개선을 위한 Feature Store 도입기 - RIDI Corp.\n\n리디 추천 시스템\n\n방대한 콘텐츠 사이에서 자신의 취향에 맞는 작품을 찾아내기란 마치 ‘모래사장에서 바늘 찾기’처럼 어려운 일입니다. 취향은 다양하고 복잡하며, 때로 본인조차 잘 모를 정도로 추상적이기에 그렇습니다. 이처럼 작품 탐색 시 몰려드는 피로감은 서비스를 즐기는 데 중대한 장애물로 작용합니다. 개인 맞춤형 추천 시스템이 단순한 옵션을 넘어 필수여야 하는 이유가 바로 여기 있습니다.\n\n넷플릭스는 추천 시스템을 탁월하게 활용하는 대표적인 서비스 사례입니다. 수많은 작품들 중 자신이 좋아할 만한 콘텐츠를 쉽게 발견하고 즐길 수 있도록, 넷플릭스는 메인 홈 화면을 완전히 개인화했습니다. 예상 선호도에 따라 정렬된 섹션과 콘텐츠 덕분에, 사용자는 자신의 취향에 가장 잘 맞는 주제와 작품들을 홈 화면 상단에서 바로 찾을 수 있습니다. 이 밖에도 쿠팡, 인스타그램과 같은 여러 서비스가 더 나은 사용자 경험",
+        "score": 0,
+        "published_date": "2024-04-25T00:00:00.000Z"
+      },
+      {
+        "title": "리디 추천 시스템, MLOps platform에 올라탈 결심 - RIDI Corp.",
+        "url": "https://ridicorp.com/story/mlops-platform-ridi/",
+        "text": "리디 추천 시스템, MLOps platform에 올라탈 결심 - RIDI Corp.\n\n안녕하세요, 리디의 데이터 엔지니어링 파트장 오혜성입니다. 웹툰·웹소설 독자에게 볼 만한 작품을 골라주는 리디의 추천 시스템은 꾸준히 발전하며 비즈니스 기여도를 높여나가고 있습니다.\n\n오늘은 이 과정에서 겪은 문제 해결 경험과 앞으로의 방향성을 여러분께 공유하고자 합니다. 본론에 들어가기에 앞서 리디 추천 시스템의 발전 과정을 간략히 소개하겠습니다.\n\n## 리디 추천 시스템은 어떻게 발전했나\n\n2022년 리디는 더 나은 품질의 추천 서비스를 제공하고자 추천 시스템을 딥러닝 기반으로 전환했습니다. 기존의 탄탄한 데이터 파이프라인 위에서 필요한 기능을 추가 구현하는 방식으로 접근하여 단기간에 목표를 달성할 수 있었습니다.\n\n2023년에는 딥러닝 기반 추천 시스템을 더 다양한 추천 도메인으로 확장하기 위",
+        "score": 0,
+        "published_date": "2024-08-20T00:00:00.000Z"
+      },
+      {
+        "title": "Engineering - Redis",
+        "url": "https://redis.io/blog/category/engineering/",
+        "text": "Engineering | Redis\n\nWhat your competitors are learning at NVIDIA GTC\n\nLearn more\n\nResource Center\n\nEvents & webinars Blog Videos Glossary Resources Architecture Diagrams Demo Center\n\nBlog\n\n[Events & webinars](https://redis.io/event",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "international_news": [
+      {
+        "title": "Gearoid Reidy - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wVjZldU5iektER0VjMFF0YTJZMUhvcjFkbFZ6bUJuZFJHZDExVk9tcUNJYVVZdGdCaGpZNEVya1lYR3U1VHlpY2Z1U29iRW5LNHh6NHN4Y1BmbmpkNEczUFVyZTNKZw?oc=5",
+        "pub_date": "Tue, 24 Mar 2015 02:43:02 GMT",
+        "source": "Bloomberg"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "산업 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9TNG5tVkl4UDR1WU45RXNFVDBMMlBjUWNQVGMxTFY1V0FPUU4zajUwSjhpdE1sazY1R05XSGlDUUpoNXpOYzFXSERoQk1GYVpDRjVuclZkeUpraG92ekJKeE10NEpxU2NBVTZITEEzTXJKdVVOVHhEQQ?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 12:09:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "'깍두기라 다행이네'…허술한 황선홍호, 파리행 첫관문부터 삐끗 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGI1TDQzYWZiaUF3eDhPQ2EzWG9qUWt1QXRGUHpzZDhPMHZBY21abjJRT2dNOFphM1o2UkM0SkhNVml1Wl9wbjQzWG00RVIyUEtJenVsaWJtV2kxVnNnVy04cEZXQlJVY0lyb3ZHTkhJNTRZUFVwcTBhZ2IxY1FBZWQ4Ny1iZm8?oc=5",
+        "pub_date": "Wed, 06 Sep 2023 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "한국GSK, 구나 리디거 신임 대표 선임 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DcmFYeHNNWmpPQjlqMHAybTNyNGVKd3pOaC1sUHh1S2FoM0k1NmMwNDRrM0dlVFdEdkNGdjUwc0hMWTlnQS1PZ2ZEc25LNG5lQ3lZcjNiQ3NZd9IBVEFVX3lxTFBQdGVNWkVyT0ZNYktXV0FOOEhXMGxUX0dJZ0N5enJpQ1BScEdSZ2ZlRmwzRmU3aHlaVHlrQVFaUnVLcDBSOW40bmgtZGtuQV96ejRRNw?oc=5",
+        "pub_date": "Wed, 30 Jul 2025 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "리디, 연산호 작가 신작 ‘은행원도 용꿈을 꾸나요’ 단독 연재 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdVFMWlNEWUg4bXNhTURWSENtTEJJNmg3QkRYbHVmM0ZyU0VGbUdFTF9xaU1qd3FxbUt5SS1JOGJWS0xQV0ljR3FxS19zSEwzNGpEcWdpeEx2QmxTOTVzVjlwNzN3UjdnaGRBOWtwQ2hYWWhLbFNyeXlKalc4Z05RazR30gGWAUFVX3lxTFBGMWJNSVhNVlFjSks2c3JNWmZaY3pxWThlc0hFTGVkeWd5bmd0MDB0ZEI3RW9fQ1lCUVB0NzkwZy1ZdHRaZ0JQZWlkYTk4NDJIVkZPdDNwbkUtV3BTbmoxTWtoOVRoV2ZCMjNkQ1pGbGIwUnNaRWlxbllscFFoQ05aZkZQYjFDQ1ZYQnpRMGtINk52bTJFdw?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 00:46:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "카카오엔터·네이버웹툰, 불법 사이트 ‘아지툰’ 소송 승소…“20억 배상\" - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd3R2NHhRV1VRR1dwd3F0b0I1QlRydWpCNzVPRlduVVRxY3RsaEJWZXFEdjc5am9fOFpsZlVwRUpfeUpicXdBY2Vjb2FOY2JXZWlrMmRuem9uQmNCaG96UEpYVXBfbEFtb3VQYm5MYnlUWTZpWEU5NXVWS0Qzcm5zaGJR0gGWAUFVX3lxTE5jS1lUUEVTOFR3OW43aHVLZGhaWXlhb0lmbzdhNk84NTZDLTNiSnI3dDQyTzFxUzA1YW41ZTMyUXR4Si1fRG9CTVVnMFhOWkNoTUdMVUtXdFdzRUVSV1YzRkp6V1IwcmRwXzFibFF6QUJoVWhjOXRodWNIR2pRTUhsdFFRX09qbmh4dGZMRkdGNmRkLV9ndw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 00:44:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "카카오엔터·네이버웹툰, 불법 사이트 ‘아지툰’ 소송 승소…“20억 배상\" - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY0tZVFBFUzhUdzluN2h1S2RoWll5YW9JZm83YTZPODU2Qy0zYkpyN3Q0Mk8xcVMwNWFuNWUzMlF0eEotX0RvQk1VZzBYTlpDaE1HTFVLV3RXc0VFUldWM0ZKeldSMHJkcF8xYmxRekFCaFVoYzl0aHVjSEdqUU1IbHRRUV9Pam5oeHRmTEZHRjZkZC1fZ3fSAZYBQVVfeXFMTmNLWVRQRVM4VHc5bjdodUtkaFpZeWFvSWZvN2E2Tzg1NkMtM2JKcjd0NDJPMXFTMDVhbjVlMzJRdHhKLV9Eb0JNVWcwWE5aQ2hNR0xVS1d0V3NFRVJXVjNGSnpXUjByZHBfMWJsUXpBQmhVaGM5dGh1Y0hHalFNSGx0UVFfT2puaHh0ZkxGR0Y2ZGQtX2d3?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 00:44:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "카카오엔터, 국내 최대 웹툰·웹소설 불법사이트 ‘아지툰’에 철퇴 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByMGFnTDNuaEpYTFIzaVR5Q1FfVEtDZmJZcHRpQTZNcC0zN3N2OGxfRndhcmRSS1NuTkZ0NHpPMDAwYmRBVGtwN204b3RxR2wwc0MyMA?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 01:02:40 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "네카오부터 리디까지...美 만화 시장 뒤흔든 韓 플랫폼 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FU0piQ0RMc0djSFgxSTRwRG9UemxpRUE4UF94N0RNWG9NRGZfRm43ejF6V0ZaVHNoMDJqVzRhSldGNWhOMjVjWlBybm1vQy1DMF85cEpB?oc=5",
+        "pub_date": "Sun, 04 Aug 2024 07:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "리디, 인기 웹소설 ‘그 겨울의 순정’ 웹툰 독점 공개 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEemZNeGlHaFJlSUZSU0dwOW1wRE9TU0N2YzNNaXFRbm5tWnhaUExibldnblhteXZNdldsM1JQdmZodEJsN2E1MGVaX1JMUTZ3Z1FnTERB?oc=5",
+        "pub_date": "Mon, 06 Feb 2023 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "리디, 웹소설 '은행원도 용꿈을 꾸나요' 단독 연재 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MdG4zQ09oc054U3Y4V2MyQW8wbzZxM3cxZGYwaDdfcHhrSHYyTGNFM1dYR0N4d1pvX3BtaHJtY2ZLSEM5WmtMRlJleDlYMjFCc3JvX0Z3?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 01:55:15 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "SK플래닛 기프티콘, 웨이브∙티빙 결합 이용권 출시 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KMU5mamEtSmVzLW4wSkFHVEYwenJ4dVhsaVYwMWZieVprUFIyUWgxOVpPMU0tMExEYmJUd1J4T3pRdHdHMkZUV29CS01fbHRPNGh1SFJR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 23:46:01 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "카카오엔터 \"불법 사이트 아지툰 상대 민사 승소\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xanBhalRVdWgybHZDeHJqZ2pESzJVTWN2SmFpbkVDY3hkckVic1JvU2VYem1fYm9BSzdMVTVfWndEMDBRdGVYbEVJeGRlSjk1bnU3ZHJR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 05:19:42 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "리디는 왜 전자책 단말기를 직접 만들까 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjQnNNd3ZZblpSbFh4NldLVldXX3hQcWFrbVZGbXlOSS1RQ0Q0SThVYTVzVy1rTHlmMy0yaVVPUm4wOGt6OVkyYzZyU2dBUUtDMml3bi1jbERyYmxjT1BKNlQ2YWJueHPSAWtBVV95cUxNdzhIUkRFck56SVhKOEl4ZnROSmpXbzlIQjV6Q0hMRDEzN0hrYjZCZFl4NnNvazBlMURmbHJZd0I1cy1FTmVyYkY5R25menVTdTVkRmpZTHl1V1lfak14dGNVS0prVFdsQXdEdw?oc=5",
+        "pub_date": "Fri, 22 Mar 2019 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "새로운 전자책 단말기 ‘리디페이퍼’ 12월 출시 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iN0xKNUxqV1pabUp2OWdTUlZMMS1wU2hqcHR1RElHVjhVZGlOMTlCTzNsNlBUY2VycXptaG95U19PRFJRV0ZvcUtmT2I0NC1JVFFTQk53Tzg2SmxNajIzckdvdlI0VjjSAWtBVV95cUxQb3hBM0FjdzUyR3BVdURYNncwMmgzOFlGQ29vdlN6dUJlRFBWd1M1bFg3MXg2RkxjRVd4c1JmY2F4M0xsYk9TUmNrMURCT0tHSTN6RzlOc1RILUdya2tNaGJNMGNNT3FDQ3RsTQ?oc=5",
+        "pub_date": "Mon, 14 Oct 2019 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "'읽기'를 위한 '빼기', 7.8인치 ‘페이퍼프로’ - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4UWxYdldVRTNxUmhnVTVRSW9GUlZ6S1RPUTZzUnd3TnB6bEJTclh3anB1SlpaTEZYbERfSHEwS3h1WndYU25yLXhVSW4wcGVyakhCclBlRjVOOG5fZElwa1pQNktoLXPSAWtBVV95cUxPVnBEUl9SdW5rWVVjRXg5cXNfaW5rQVdpZ3hSMEU2eHhIZWk2LVZ6Y1pmbDUxM2plLUdqcWxjU3dFaURBYl9ZdEpLWU00WWFrVXVwZUVBZkJCSlRtX3hCM0pwRkVyT25UYzhUMA?oc=5",
+        "pub_date": "Wed, 13 Dec 2017 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "리디, 330억 원 투자 유치…’예비 유니콘’으로 성큼 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BeFd1bnFzWmRMYnRIM3VocFBSSzR4Sy1LNjBTMDhqOE5UUnVRX0x3ZER3RlBXYjRmQ0pxNGFRVnpaZWxuZ0hITl9sTWNaUQ?oc=5",
+        "pub_date": "Tue, 22 Oct 2019 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "[단독] 웹툰 자회사 문 닫는 리디, 이유는? - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IUnBQbTc1bnN1Xzd4YjZONV8zRm9qbUx5ZEU0WnBVclZvWnA5VjRuclhjdEoycE1iWTVkVENUcGFJSzM0eHVSQkRlZjA4a1k?oc=5",
+        "pub_date": "Thu, 20 Feb 2025 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "BL을 양지로 끌어올린 리디, 다음 단계는? - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByUWtSWTBydjNsdks0LWxXYndNSk9jd3YzZkFKTm03cE5STG5mdUNkbDNkSU82Tm9fMnRCQ2pjV0tvdklkYVNFZG43TXVKOGs?oc=5",
+        "pub_date": "Mon, 21 Jun 2021 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

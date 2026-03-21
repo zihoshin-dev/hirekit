@@ -1,0 +1,907 @@
+{
+  "company": "CJ ENM",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 14,
+  "sections": [
+    "financials",
+    "tech",
+    "strategy",
+    "culture",
+    "overview"
+  ],
+  "data": {
+    "company_name": "(주)씨제이이엔엠",
+    "company_name_eng": "CJ ENM CO., Ltd.",
+    "stock_name": "CJ ENM",
+    "ceo": "윤상현",
+    "address": "서울특별시 서초구  과천대로 870-13",
+    "industry_code": "602",
+    "established": "19941216",
+    "homepage": "www.cjmall.com",
+    "ir_url": "",
+    "stock_code": "035760",
+    "corp_class": "K",
+    "employees": [
+      {
+        "position": "방송사업",
+        "gender": "남",
+        "headcount": "467",
+        "contract_workers": "2",
+        "total": "469",
+        "avg_tenure_year": "92개월",
+        "total_salary": "107,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "커머스사업",
+        "gender": "여",
+        "headcount": "553",
+        "contract_workers": "5",
+        "total": "558",
+        "avg_tenure_year": "85개월",
+        "total_salary": "72,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "통합관리",
+        "gender": "남",
+        "headcount": "274",
+        "contract_workers": "11",
+        "total": "285",
+        "avg_tenure_year": "80개월",
+        "total_salary": "102,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "통합관리",
+        "gender": "여",
+        "headcount": "340",
+        "contract_workers": "18",
+        "total": "358",
+        "avg_tenure_year": "66개월",
+        "total_salary": "76,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "방송사업",
+        "gender": "여",
+        "headcount": "860",
+        "contract_workers": "13",
+        "total": "873",
+        "avg_tenure_year": "75개월",
+        "total_salary": "73,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "영화사업",
+        "gender": "남",
+        "headcount": "11",
+        "contract_workers": "-",
+        "total": "11",
+        "avg_tenure_year": "122개월",
+        "total_salary": "89,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "영화사업",
+        "gender": "여",
+        "headcount": "35",
+        "contract_workers": "1",
+        "total": "36",
+        "avg_tenure_year": "97개월",
+        "total_salary": "79,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "음악사업",
+        "gender": "남",
+        "headcount": "34",
+        "contract_workers": "-",
+        "total": "34",
+        "avg_tenure_year": "60개월",
+        "total_salary": "91,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "음악사업",
+        "gender": "여",
+        "headcount": "118",
+        "contract_workers": "6",
+        "total": "124",
+        "avg_tenure_year": "37개월",
+        "total_salary": "65,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "공연사업",
+        "gender": "남",
+        "headcount": "5",
+        "contract_workers": "-",
+        "total": "5",
+        "avg_tenure_year": "117개월",
+        "total_salary": "113,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "공연사업",
+        "gender": "여",
+        "headcount": "7",
+        "contract_workers": "1",
+        "total": "8",
+        "avg_tenure_year": "87개월",
+        "total_salary": "99,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "커머스사업",
+        "gender": "남",
+        "headcount": "343",
+        "contract_workers": "1",
+        "total": "344",
+        "avg_tenure_year": "120개월",
+        "total_salary": "97,000,000",
+        "avg_salary": ""
+      }
+    ],
+    "financials": [
+      {
+        "account": "자산총계",
+        "current_amount": "5286985232490",
+        "previous_amount": "5465395079070",
+        "two_years_ago": "5875987858546"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "2417312357211",
+        "previous_amount": "2520468902744",
+        "two_years_ago": "3281935296411"
+      },
+      {
+        "account": "부채총계",
+        "current_amount": "2869672875279",
+        "previous_amount": "2944926176326",
+        "two_years_ago": "2594052562135"
+      },
+      {
+        "account": "매출액",
+        "current_amount": "2783751070824",
+        "previous_amount": "2787218125859",
+        "two_years_ago": "2639555514483"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "2417312357211",
+        "previous_amount": "2520468902744",
+        "two_years_ago": "3281935296411"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "1642541003043",
+        "previous_amount": "1638727175194",
+        "two_years_ago": "1674953238623"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "563046542621",
+        "previous_amount": "670016916003",
+        "two_years_ago": "1395257246241"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "110577370000",
+        "previous_amount": "110577370000",
+        "two_years_ago": "110577370000"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "101147441547",
+        "previous_amount": "101147441547",
+        "two_years_ago": "101147441547"
+      }
+    ],
+    "naver_blog": [
+      {
+        "title": "CJ그룹 상반기 신입 채용 합격전략 한눈에 보기",
+        "description": "지원서 하나가 합격의 문을 여는 열쇠이기도 하고, 때로는 수많은 경쟁자 속에서 길을 잃게도 해요. 이... 면접에서는 기업 인재상과 직무 적합성을 동시에 봐요. CJ의 인재상(창의·나눔·존중·탁월)과 연계해... ",
+        "link": "https://blog.naver.com/money-study-/224222287862",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "CJ ENM 자기소개서 대행 및 CJ ENM 자기소개서 첨삭 합격... ",
+        "description": "CJ ENM 자기소개서 첨삭 없이 말이죠. 두괄식으로 작성하라, 성과를 명확히 제시하라, 기업 인재상... 결국 자소서는 단순한 제출용 종이가 아니라 면접과 최종 합격까지 관통하는 핵심적인 가교라는 사실을 몸소... ",
+        "link": "https://blog.naver.com/jjj333rrr/224221678188",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[CJ ENM 엔터테인먼트부문... CREATOR·일반 전형 합격 전략",
+        "description": "열린 CJ 채용은 지원 기간이 비교적 넉넉합니다. 4.1(수)까지이기때문에 지원을 희망하는 분들은 기업... 서류합격) CJ ENM AI콘텐츠직 자소서 후기는 아래 링크에서 확인하실 수 있습니다:) [CJ ENM 서류합격 후기... ",
+        "link": "https://blog.naver.com/nyongunnie/224221501596",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "CGV 미소지기 후기｜합격 자소서/면접, 꿀팁(현직자가 낋여주는)",
+        "description": "대기업/공기업도 아니고 증빙서류 요청이나 경력확인절차가 없다. 면접 때 구두로 그 경력에 대해... 뭐 다른 미소지기 합격 후기에는 면접 때 롤플레이 시키고 미소지기가 무슨 뜻이냐 등 이상한 거 물어보고... ",
+        "link": "https://blog.naver.com/rjadmsehr1/224221386836",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "[취준일기#5] [신역검] CJ... AI 면접 후기&gt; + AI 역량검사... ",
+        "description": "후기를 찾아보면 기업의 인재상에 맞게 해야 된다... 등등이 있지만 합격하신 분들 후기나 대기업... CJENM채용 #CJ대한통운채용 #취준생 #취업준비 #면접준비 #면접후기 #합격후기 #비대면면접 #화상면접... ",
+        "link": "https://blog.naver.com/sseo_ah/224220211745",
+        "pub_date": "20260317"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "노량진 공기업, 대기업, 금융권 취업학원 - KG에듀원내일코칭",
+        "description": "* CJ그룹 : CJ제일제당, CJ대한통운, CJ올리브영, CJ올리브네트웍스, CJ프레시웨이, CJ CGV, CJ ENM, CJ푸드빌... NCS직업기초+금융지식 or 코딩레벨테스트 -&gt; 면접 은행, 증권, 금융공기업별 채용절차는 상이합니다.... ",
+        "link": "https://blog.naver.com/yjm0498/224213762696",
+        "pub_date": "20260312"
+      },
+      {
+        "title": "올리브영 큐레이터 (트레이너) 채용 후기 - 2) CJAT 테스트 전형",
+        "description": "양식이 CJ 기업문화에 얼마나 부합하는지를 보는 테스트이다 다른 후기에 나온 말들처럼 MBTI 검사같은... CJAT 합격!!!ㅜㅜㅜ 너무 기뻤다 하지만 기쁨과 동시에 마지막 오프라인 면접이 싸악 떠오르면서 찐... ",
+        "link": "https://blog.naver.com/hi5160/224210666778",
+        "pub_date": "20260310"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "정책뉴스20260321토요일",
+        "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 42회, 조직 운영부터 정책 실무까지 섭렵한 '지식재산 실전 전략가' - - 운영지원과장, 대변인... ",
+        "link": "http://cafe.naver.com/jungamironware/9268",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "인공지능 사활' CJ ENM, AI 콘텐츠 발굴 박차",
+        "description": "신근섭 CJ ENM 전략기획담당은 이날 &quot;콘텐츠의 새로운 시도인 AI를 접목하겠다&quot;며 &quot;미디어 사업의 미래 혁신 성장을 위해선 콘텐츠와 AI가... &quot;CJ ENM AI 미래비전은 산하 스튜디오인 스튜디오드래곤, 티빙 등과...",
+        "link": "https://v.daum.net/v/20250630140041197",
+        "pub_date": ""
+      },
+      {
+        "title": "'문화사업 30주년' CJ ENM, AI 콘텐츠 산업 이끈다 (현장)",
+        "description": "CJ ENM '컬처 TALK' 통해 AI 추진 전략 공개 CJ의 경험치와 AI 기술 융합…산업 생태계 재편 한국 정서 담은 장편 영화, 드라마 등 AI 콘텐츠 연내 공개 문화사업 출범 30주년을 맞은 CJ ENM이 AI 사업 추진 전략을 공개하며 AI 콘텐츠 선도 기업으로 청사진을 제시했다. 다양한 원천 콘텐츠 IP를 발굴하고, 이를 제작하는 데 전사 역량을 집중한다는 방침이다. CJ ENM(대표 윤상현)은 지난달 30일...",
+        "link": "https://www.mhj21.com/news/articleView.html?idxno=167911",
+        "pub_date": ""
+      },
+      {
+        "title": "[종합] CJ ENM, VISION STREAM 개최…5년간 5조원 투자 등 '글로벌 토탈 엔터사' 기치",
+        "description": "기업현황 및 비전발표는 CJ ENM과 티빙 등의 성과소개와 함께, 5년간... 다양한 방향성을 예고했다. 이와 함께 온오프 복합형태의... 사각, 'AAAI 2026' 논문 채택… 글로벌 AI '초격차' 기술력 입증 [다래전략사업...",
+        "link": "https://www.etnews.com/20210531000127",
+        "pub_date": ""
+      },
+      {
+        "title": "'인공지능 사활' CJ ENM, 제작비 절감 콘텐츠 발굴 박차",
+        "description": "신근섭 CJ ENM 전략기획담당은 이날 &quot;콘텐츠의 새로운 시도인 AI를 접목하겠다&quot;며 &quot;미디어 사업의 미래 혁신 성장을 위해선 콘텐츠와 AI가... &quot;CJ ENM AI 미래비전은 산하 스튜디오인 스튜디오드래곤, 티빙 등과 함께...",
+        "link": "https://m.newspic.kr/view.html?nid=2025063013592185680",
+        "pub_date": ""
+      },
+      {
+        "title": "CJ대한통운, '피지컬AI를 통한 물류 AX 전략' 제시…산업 혁신 방향 논의",
+        "description": "CJ대한통운이 '피지컬AI를 통한 물류 AX 전략'을 제시했다. /CJ대한통운 [더팩트ㅣ문화영 기자] CJ... 정부의 AI 육성정책에 발맞춰 물류 산업의 혁신 방향을 논의하기 위해 마련된 것으로 더불어민주당...",
+        "link": "https://v.daum.net/v/20251125162738273",
+        "pub_date": ""
+      },
+      {
+        "title": "CJ, 4대 성장엔진 중심 ‘2023 중기비전’ 공개… 미래성장 키워드 C.P.W.S.",
+        "description": "중기비전선포식에서 설명하고 있다. (제공: CJ그룹) CJ제일제당, 글로벌 전략 제품 집중 육성 CJ ENM, 특화 멀티 스튜디오 설립 추진 TVING... 반영한 사업 방향을 의미하는 것”이라며 “선언이 아니라 실행이...",
+        "link": "https://www.newscj.com/news/articleView.html?idxno=917581",
+        "pub_date": ""
+      },
+      {
+        "title": "‘AI 콘텐츠’ 출사표 던진 CJ ENM, 콘텐츠 산업 혁신 가속",
+        "description": "CJ ENM의 AI 콘텐츠 사업은 콘텐츠 제작 경쟁력 강화라는 본질적 목표에서 비롯됐다. 단순히 제작... 가속화한다는 전략이다. 콘텐츠 제작구조 혁신 CJ ENM은 기획, 제작, 유통·마케팅 등 전 단계에 독자적인...",
+        "link": "https://biz.chosun.com/industry/industry_general/2025/10/11/WSIQALCJ4NFG5BYOZWUQV7AKPU/",
+        "pub_date": ""
+      },
+      {
+        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+        "pub_date": ""
+      },
+      {
+        "title": "CJ ENM, 넥스트 엔터테인번트 비전 제시 자리 열어",
+        "description": "CJ ENM은 넥스트 엔터테인먼트에 대한 비전을 제시하고 미래 방향성... 세션’ ▲AI 등장으로 엔터 산업의 변화와 ENM의 현주소를 다루는... 가까이 CJ ENM 영화사업부에서 직장인으로 근무하며 크리에이터의 꿈을...",
+        "link": "https://zdnet.co.kr/view/?no=20240108094936",
+        "pub_date": ""
+      },
+      {
+        "title": "&quot;피지컬AI가 물류를 바꾼다&quot;…CJ대한통운, AI 기반 전환 전략 공개",
+        "description": "정부의 AI 육성정책에 발맞춰 물류 산업의 혁신 방향을 논의하기 위해 마련됐다. 구성용 CJ대한통운... 류 담당은 CJ대한통운의 AX를 위한 주요 전략으로 △AI 기반 의사결정을 통한 '지능형 물류센터 구축...",
+        "link": "https://v.daum.net/v/20251125101652856",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "[AI채용 혁신확대]CJ그룹, 상반기 신입 공채 개시…AI 기반 채용으로 인재 확보 강화 - 전국뉴스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RYmhNbVJOdDcyMW9fR09KNTVtQnlIelB4NDlIV29ISkg1SFpoTGtzWWdXLTZCczZZbkpCTXZwamZjaUdBemZFR0VYN1k4ZndoVjFyeDdZTk1YNTV3ZXkxb1BLVFVkcWNjbWlod09BcGI?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 09:04:01 GMT",
+        "source": "전국뉴스"
+      },
+      {
+        "title": "CJ그룹, 상반기 신입 공채 시작... 모집 규모 30% 확대·AI 평가 도입 - 오늘경제",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BNGljRy1ZNXlldzFFZE9lcHZudVYtWnFQVG12U0txcGtqZ1lHZE9UalgtRnU5QjNxUG1FcjNsSExlQWJ3Qy0xTVFyYVlhcTdxcWUxaEtFd0NVZTlQd0pFdE9SLXBhSFlKS0IybVFiN0JncE0?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 02:10:00 GMT",
+        "source": "오늘경제"
+      },
+      {
+        "title": "[데일리 IT 단신] 삼성SDS, 공공 분야 AI전환 전략 공유 外 - 뉴데일리 경제",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jQXRPMks3MWJCdFlvZGJpVXFEXzBMVExuNXpfem9NMUIyUUQwMkdJaUFFMVM5TVM5RDAtbTR5em8xYzQ0WWxkc3g1OER3SU16cENiQW9fMDh5Sy1MYUotdk9nZkFfX2NIaG9udGQwb0tScFBmOE82ZVNVZw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 07:53:05 GMT",
+        "source": "뉴데일리 경제"
+      },
+      {
+        "title": "유통업계 '인재 확보 전쟁' 본격화…CJ·GS 채용 확대 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FaU00b0JtN2sydDBWU1dsa2NMdC1BMlo0VS1sTzNqalkwb2ppT0RWNnFyR2EwS0FxMklwT3llWG5JS1UwZmhtTjFkc2g5MWl0aXU4MnUxZWhpYWJIZ1BWRm9KMWljdDlpMUxXQXRnUktoMHdxRTdJbw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 06:19:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "CJ그룹, 2026년 상반기 신입 공채 돌입…채용 규모 30% 확대·AI 기반 선발 강화 - 한국미디어뉴스통신",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42bUp0d1VFZzZsUGRZN25hNWktVzNrVDBEckZzSGpkQW5fSnp0YjB6N3A5eHo3S0xZaUVCXzlhbzFaSGVHUTlLT0FycE1XVWN0WG9yb0RKN0I3LWpMbFRjQlU5OTFoTUpvSlpWQg?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 02:08:04 GMT",
+        "source": "한국미디어뉴스통신"
+      },
+      {
+        "title": "이재현 회장 ′인재제일′ 드라이브…CJ, 상반기 공채 30% 확대 - 메가경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UcVpoZW1oZDhHSWJKcDJyUU1TZVlqSm1NdmpwbXA5RGE0bXNubmlPTTItQTR6bUZ6MEd4QWowaEcyVjlmQWpKSEstU3Nad0tLc0RnYWtoa05DdWMxazUyR1I2MlJ3dmw3YlRTSU5zbzM2aWlW0gFyQVVfeXFMTWhadVBlZXN6eTZ0eUFHczl2V3plTmxjdHhaNGpJektDWmpfQWxLSEtCWFAzSXdfNTF4NVg3Y2JObjUwd3RsQnEyZlpzNEtQV25yekg2STZIcFJsV0tKRmM5VTNTYWJIMlZieW1TUWdBWF9R?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 07:04:40 GMT",
+        "source": "메가경제"
+      },
+      {
+        "title": "CJ계열사 상반기 공채 시작… CJ대한통운 CJ올리브영 CJ ENM CJ올리브네트웍스…4월1일까지 - 비즈트리뷴",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HeGM0ZWZsMmxrSS1iWjM3TlZTam4zUmRZSFZfcTVWdURGV0ZhUWxjUG9Oa1FvYldyeGJySE1qdzJ0cjIyNEprR1h3UzNMX3ByQmdSMGlsNGh5cGR5Ulc5WGYyUHpSVjFJTGRzTFJFbWc?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 06:18:57 GMT",
+        "source": "비즈트리뷴"
+      },
+      {
+        "title": "[JOB리포트] CJ그룹 공채키워드는 ‘하고잡이’…결과로 증명하는 인재뽑는다 - 뉴스투데이",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4bkozd0Z2cm1SenNTMk9xQTZiNnU0ZERWcnpjWGEyaTBmd2NVTl9NZWpjcWd0ZVNfSzFSS3c1OFBzb0tCQ2JaWTl3eU1CaF9GcklkSlFjSV9Uak9qSWc?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 01:43:00 GMT",
+        "source": "뉴스투데이"
+      },
+      {
+        "title": "[채용] CJ그룹, 상반기 공채 본격 돌입…채용 규모 30% 확대 - 코리아포스트 한글판",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZZ09LenJjY3BDSXhOV3ZaeVhXNlNQUFh0RDRyRXpOZlhHaU9sZ3Rmdmw0TzdBZkdldGdEVTU1Vm82ekNUM3JXQmVRN3ltOWw4S2VjLWd6NXl2a2xtWVRwOE12ME9UN19wenI1aEdB?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 02:29:03 GMT",
+        "source": "코리아포스트 한글판"
+      },
+      {
+        "title": "CJ ENM·CJ올리브네트웍스, 2026 상반기 공개채용 시작 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JVXA1MnA5R0QyT3ZGRkV4c2tKWHkxWXdJRTRmalZhRUptSTR1ODNneTN5djc3X0JUeWl4b2lqekR5VXo0QzEzMi1TTktCQWRndk9R?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 23:55:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "2025년 매출 5조 1,345억원, 영업이익 1,329억원. 사업 모델 고도화·글로벌 성과 확대로 수익 개선 - CJ ENM",
+        "link": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQSDNIZjBzOU5yT2RKVkx5cGVTRjNYa0V5cW5WZ1dwTWJ1ZmlvMmtJZ05zU0RxOGZqYzhrbXltWE5xVW9WSERUR1k0Q0NfS0g1Ti1xYkhsNHdENFJUMmMxcnQzeHBPckQ2YXlmSXI0NjJSZnRqRGFSOEdYd1hoSWd2N25MWXc2cTl5N3JFS3NhdFVkSTRsTElncDh1Yi1iV1JfLXhlVmxUSXhjd08tN2Zudkg5LUFsLS1lSkNacU5iTzlfOWZRcEN0ckhuVGgyQVpiVUpLU3dPYUY5VC03VzVtTWlyUXlvTWtac3BNOFVGUjFZNlVqRTExYlFiRHQtNUdWVWhxRlFhX0lOR3U3U1NHR2JZOXJOSkFLNTZ1NkNvRjhqX19GRW8zWHV5c1dlRFp5TmJIY2lMR2xQRWo5bllZOXZCRVpmTV8tVGFoWmppRm1DVGI1bGJBVExRSFRDTjFQTmFaMG5Tb0xmVk5mRmFPeUtoMG1YQXNqN2c2cC1UOG1CZlFJS3VRYUotYW1WV0RFUkswZzF3V05OVmd0ZkNTb1dGNUtXZ3p4ZmpySWdJaGpadkJSWG9lT3N4QUw5SVNjc0h0dE9aTm9sMkRLLW8tSXllQTQ5LTREOEJJ?oc=5",
+        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+        "source": "CJ ENM"
+      },
+      {
+        "title": "CJ ENM, 25년 하반기 신입사원 공개채용… 미래 K-콘텐츠 주역 찾는다! - CJ 뉴스룸",
+        "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxON0E5Sm0wcjlJOVVrWVZWWVp0U2c2TG9YMmg1aDFfMjVZNU0zTXFlUXVJMUM1dkl1aDdsYkJ0Qml0X1BUVnBqZUZwTzFsQ2NkYl80aVlMaF9XV1ZaeHo0UVFFVzhJcEkyQjRNSnNEaXJ4Z0c5eWFsTm0zSDNFckp4Nm9qaXZkZW4tRE9FZEVLLUVxNXFaa0VIRmMxaFAwR2FGZFBmMlE1c0RDUmdBckFveFNLckxNZGt5czJHczMycDIwVkIySlRBdzJCVHJscjMzbFJlMU0teFRLeEpBY2h1T2hOdTRiY2hUbE82VnN2dXFlRDRDYkF0Y19oZTF4c2RKTDBJS0JTYnVPY21KWUJnNndhWTktUTNEQlFrMXlVMTNqbnpZNWVLUW9PR1NqQW5BM1gtQ3ln?oc=5",
+        "pub_date": "Fri, 12 Sep 2025 07:00:00 GMT",
+        "source": "CJ 뉴스룸"
+      },
+      {
+        "title": "CJ ENM, 2025년 하반기 신입사원 공개채용 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBWGpYdEI1cGdFNDI1TlNvVlFMWm83QmRobllYdzV6MktEaXVzMXR3TFpLTjcyd0Y2ZWJScGRldktYSWR1emlBaTlPVFNyQQ?oc=5",
+        "pub_date": "Fri, 12 Sep 2025 07:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UczRnMUtERlN4MXo1dVB6MW9CUUtrdUplZ1NCdEdMMlBNV0w3Zi1LbE0xM01xNzBYOVVidy1hRVBkMnRLdGVUb1BBa3dQblVtWjlrZXlhM1RGbjhUczlDddIBeEFVX3lxTE1mUG9WM2UycDBmaEJ0blNmWjUwUWNTUUhtYkhHQWNtYTZFdlBjZjItTE9abUdrcHZaWVFsLUl1T3dBNEg3YlE4aDE4STMwVi12ZkV1d1lVbHFTWm4zajNvZXBrM0JtOG94cWRMX01ZYVRKMzgxWmlJbg?oc=5",
+        "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
+        "source": "뉴시스"
+      },
+      {
+        "title": "CJ ENM, 2025년 하반기 신입사원 공개채용 - 뉴스저널리즘",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PemNNQXVuYmU5MkNaQ3B2NTk4Z25faEVIQTNZTmZTX01laVNDaVRSVVoyY3VydFh5RFFfZ2pDZkh3X2o5dXBjZ0NFN05OS3JZZ0xMalBXaC0yQ1RFQ1o2Y3FoOV83VGEzRUJv?oc=5",
+        "pub_date": "Fri, 12 Sep 2025 07:00:00 GMT",
+        "source": "뉴스저널리즘"
+      },
+      {
+        "title": "스튜디오드래곤, 현금흐름 악화에도 콘텐츠 투자 고삐 - IB토마토",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWVV9nQ1BiVzNXQVFNclJRMjdqMkVRbTRGVXV4RG9EcjlJS2lITXd4WldoZ1FnSTJjbDJiNUdkZWdHX2N0YzZKWXhlS0UwLUM0ZFlzMEZlUjlsVWs2ZHNpQzYxNU5saFNqSFE?oc=5",
+        "pub_date": "Fri, 13 Mar 2026 07:54:00 GMT",
+        "source": "IB토마토"
+      },
+      {
+        "title": "[코스닥 현미경 분석] CJ ENM, 티빙·음악사업 중심 실적 성장으로 주가 뛸까 - 데일리인베스트",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oZUlZeUt0c28zc1BsWElIRHlaekRwaGs2X3Vpb0tfcGEtbGt5bXIyVUVjcEplUnVXcmVOSEFJenV3V3o5VjFpWEYybWxrNnlad3ZCTVFyOXZGZDNPa3daLW1TYVNSYUg2QW9N0gFvQVVfeXFMT3RBMnRPNFFnQjhCRDR5WEJ3VVBoUm91OFIzb2JiWTh6bV9rVmVJdjZmR2JkbzFpRnN1WEI5STlXOEk4dXNib2l5ckk5Y2cwSC0xblJxQmY2S3N3Qk1NS29RTHM2UGx2b1ZiQ043VFIw?oc=5",
+        "pub_date": "Fri, 16 Jan 2026 08:00:00 GMT",
+        "source": "데일리인베스트"
+      },
+      {
+        "title": "2026 CJ그룹 상반기 신입 공채, 자소서 작성법👀 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 - 잡플래닛",
+        "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNQWJEMVI3RXJadEJ1dllxMUlpR1UwbEptN3p4M29GX1cyYVVKTU9EVHVhN3JUeTJ4cU1TcWp0Z2U2S3Q4ekxKbnkzcGVvdGduUTRmU0UtbTk5N3YyTW9pN2dqQ0dfVkVUT0dWUFNDU2ktZmlrNjV0UTZqeE9wUURWN1hqYURGZEdhc0tEVnFTdjFCR3AtY1VEVEpZN3RQV3U3OEJwQkpXXzZBMDVDTnpwdEJxY1R5aHVsU3JCWlNHa2ltT2NHbGdyWUdoSjZLT3F4MWhnWU03MVY3VEhWYm1nYmw0bmlabjlnMUh1Y2VpM0Y5VS1scXowbjdCVk1IekZzc0N3M0daaF96WTg2Uzl6SVZMTlJCNjIteUxQaXJRTQ?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 09:59:00 GMT",
+        "source": "잡플래닛"
+      },
+      {
+        "title": "티빙 반등·피프스시즌 흑자…CJ ENM, 실적 개선 드라이브 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JX1VucHFFU04yWHMyS3ZrNVhJazcyME5JcFk2QWV3UjJndFZIamhlakg1SjQtTENxdEZqd3NXQzhmU0ZsdVhkS29FcDJ4dw?oc=5",
+        "pub_date": "Thu, 07 Aug 2025 07:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "CJ ENM, 상반기 신입 공채 실시…“우수 크리에이터 선점” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa05Rem5hTFUyQldVZm1ZNGpyTFNqWm80Rjl6YjdiVHZnaS1BNWRSUUFzNGpVVWY1YXJsTXJRRUxzOTRCMTFUTEFiNHI2cXRZUW9SWXVJMDlpVGVnOUs1M1M1Y2EwOXpEMURhUkJWdGdzTEdnN2dfa0c2Z0ZpSFViNGo2c3l5TUM1MUFzdFlLNDXSAaQBQVVfeXFMT2JEdDNRZ0pHbFpEV0ZUdkljMHIxZDJQMmhPYnhkWE02SkExUTVoV3NQSnFKYU5HMmZmMUl2OEtSbUtmQWd5MXhLMjA5Qmh1U0tackFrbWs5bTktOVJGaDhoTGZZUnkxb2h1WnJmb3lVaTJXQmhJck16dWtWWDlQOGpMNEdQTS1JM1BsRURKWUJnZkJDVUJlemhJUHVXaTZ4M1RXRGk?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 01:41:00 GMT",
+        "source": "Chosunbiz"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "입사 선배에게 듣는 2025 CJ 채용의 모든 것 [CJ ENM · CJ제일제당] – CJ 뉴스룸",
+        "url": "https://cjnews.cj.net/%EC%9E%85%EC%82%AC-%EC%84%A0%EB%B0%B0%EC%97%90%EA%B2%8C-%EB%93%A3%EB%8A%94-2025-cj-%EC%B1%84%EC%9A%A9%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83-cj-enm-%C2%B7-cj%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9/",
+        "description": "김경원(CJ ENM 커머스) : 저는 MD 아카데미를 꼽고 싶어요. 갓 입사한 신입사원 시기엔 방송 채널부터 기획, 운영 등 모든 게 낯선데요. 입사 후 2주 동안 회사에서 동기들과 사내 문화부터 기본적인 업무 용어, 방송 심의 등 기본적인 업무 내용을 현직자분들께 배울 수 있었습니다."
+      },
+      {
+        "title": "현직자에게 듣는 CJ 채용의 모든 것 [ENM(엔터)·CGV·ONS] – CJ 뉴스룸",
+        "url": "https://cjnews.cj.net/%ED%98%84%EC%A7%81%EC%9E%90%EC%97%90%EA%B2%8C-%EB%93%A3%EB%8A%94-cj-%EC%B1%84%EC%9A%A9%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83-enm%EC%97%94%ED%84%B0%C2%B7cgv%C2%B7ons/",
+        "description": "현지희 님(CJ ENM) : 꾸준히 직무 관련 대외 활동을 하거나 프리랜서 조연출로 일하는 등 관련 업무 경험들이 합격에 도움이 되었다고 생각합니다. 황지영 님(CJ CGV) : 저는 직무 적합성이 높은 편이었던 것 같습니다. 실제로 처음 ICECON사업팀의 채용 공고를 읽었을 때, 요구 역량으로 소개되어 있던 문화와 트렌드에 대한 호기심, 학습과 도전을 두려워하지 않는 자세가 제 강점과 일치한다고 생각해 지원하게 된 것도 있었고요."
+      },
+      {
+        "title": "CJ ENM 채용 홈페이지",
+        "url": "https://recruit.cjenm.com/",
+        "description": "PD직무 채용설명회 · 신입채용 정보 · 26년 신입채용 직무 인터뷰 · CJ ENM · Apply↗︎ ·"
+      },
+      {
+        "title": "CJ ENM, 콘텐츠 업계 가장 빠른 일정으로 우수 크리에이터 선점하는 2026 상반기 신입 공개 채용 시작 – CJ 뉴스룸",
+        "url": "https://cjnews.cj.net/cj-enm-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%97%85%EA%B3%84-%EA%B0%80%EC%9E%A5-%EB%B9%A0%EB%A5%B8-%EC%9D%BC%EC%A0%95%EC%9C%BC%EB%A1%9C-%EC%9A%B0%EC%88%98-%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%ED%84%B0/",
+        "description": "이번 공채는 K콘텐츠의 글로벌 영향력이 높아지는 흐름에 맞춰 <strong>예비 크리에이터에게 가장 먼저 다가간다는 전략 아래 크리에이터 전형을 기존보다 확대·개편한 것이 특징</strong>이다."
+      },
+      {
+        "title": "[Q&A] CJ그룹 2026년 상반기 신입사원 공개 채용 시작",
+        "url": "https://cjnews.cj.net/qa-cj%EA%B7%B8%EB%A3%B9-2026%EB%85%84-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%8B%A0%EC%9E%85%EC%82%AC%EC%9B%90-%EA%B3%B5%EA%B0%9C-%EC%B1%84%EC%9A%A9-%EC%8B%9C%EC%9E%91/",
+        "description": "CJ그룹이 젊은 세대 구직자에게 높은 선호를 얻는 이유는? <strong>파격적이고 차별화된 복리후생 제도와 조직문화가 강점</strong>으로 작용했다는 분석이다."
+      },
+      {
+        "title": "CJ RECRUIT",
+        "url": "https://imgrec.cj.net/recruit/ko/main/main/main.fo",
+        "description": "CJ ENM 엔터부문 인재들의 &quot;성장&quot; 모먼트! 인싸력 만렙! 조직문화 담당자의 비밀? CJ 입사하면 뭐가 좋은데요? 복지, 글로벌, 문화… 다 있어요!"
+      },
+      {
+        "title": "CJ Careers",
+        "url": "https://recruit.cj.net/",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "CJ ENM 엔터테인먼트 부문 2024 상반기 채용 직무 소개! – CJ 뉴스룸",
+        "url": "https://cjnews.cj.net/cj-enm-%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8-%EB%B6%80%EB%AC%B8-2024-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%B1%84%EC%9A%A9-%EC%A7%81%EB%AC%B4-%EC%86%8C%EA%B0%9C/",
+        "description": "K콘텐츠의 세계화를 선도하는 글로벌 IP 파워하우스 CJ ENM의 채용문이 열렸습니다. 지난 12일(화)부터 CJ ENM 엔터테인먼트 부문의 2024년 상반기 신입사원 모집이 시작 됐는데요. 디지털 사업개발, 무대감독, 미디어 엔지니어 등 다양한 직군에서 신입 인재를 모집합니"
+      },
+      {
+        "title": "뿅뿅! K콘텐츠의 세계화를 이끌 당신, CJ ENM으로! [22년 하반기 CJ그룹 신입사원 채용] – CJ 뉴스룸",
+        "url": "https://cjnews.cj.net/%EB%BF%85%EB%BF%85-k%EC%BD%98%ED%85%90%EC%B8%A0%EC%9D%98-%EC%84%B8%EA%B3%84%ED%99%94%EB%A5%BC-%EC%9D%B4%EB%81%8C-%EB%8B%B9%EC%8B%A0-cj-enm%EC%9C%BC%EB%A1%9C-22%EB%85%84-%ED%95%98%EB%B0%98%EA%B8%B0/",
+        "description": "Q. 채용 일정과 규모, 프로세스가 궁해요. A. 2022년 하반기 CJ ENM 엔터테인먼트 부문 신입사원 채용은 ‘신입 일반/글로벌’과 ‘신입 Creator’, 2개 직군으로 나누어 진행됩니다. 정확한 채용 규모는 내부 논의 중으로, 우수 신입사원들을 적극적으로 채용하고 육성하는 방향으로 나아갈 예정이니 지원을 망설이지 마세요!"
+      },
+      {
+        "title": "씨제이이엔엠(CJ ENM) 기업정보 - 채용 28건, 평균연봉 8,241만원, 인원 1,039명, 업력 32년, 서울 마포구 | 원티드",
+        "url": "https://tw.wanted.jobs/company/2400",
+        "description": "CJ ENM은 콘텐츠 기반의 문화 트렌드를 선도하는 ‘엔터테인먼트부문’과 고객맞춤 라이프스타일을 제안하는 ‘커머스부문’으로 구성되어 일상의 즐거움을 전합니다. [엔터테인먼트부문] CJ ENM은 1995년 드림웍스 지분 투자로 엔터테인먼트 사업을 시작한 대한민국 최대 규모의 글로벌 IP 파워하우스입니다."
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "CJ ENM accelerates 2026 hiring to secure K-content creators early - CHOSUNBIZ",
+        "url": "https://biz.chosun.com/en/en-industry/2026/03/19/VFQLXCANURAD7PYPC3NRETLFJU/?outputType=amp",
+        "text": "CJ ENM accelerates 2026 hiring to secure K-content creators early - CHOSUNBIZ\n\n# CJ ENM accelerates 2026 hiring to secure K-content creators early\n\nBy\n\nPark Yong-sun\n\nPublished 2026.03.19. 10:41\n\nCJ ENM logo\n\nCJ ENM said on Mar. 19 that it will conduct open hiring for new employees in the first half of 2026.\n\nCJ ENM expanded and revamped the creator track in this recruitment. In line with the trend of the growing global influence of K-content, t",
+        "score": 0,
+        "published_date": "2026-03-19T00:00:00.000Z"
+      },
+      {
+        "title": "CJ ENM Recruiting New Talent from Producers to Global Music - 아시아경제",
+        "url": "https://cm.asiae.co.kr/en/article/2025091208372201153",
+        "text": "CJ ENM Recruiting New Talent from Producers to Global Music - 아시아경제\n\n본문 바로가기\n\nbar_progress\n\n## Text Size\n\n- ABCDEFG\n- ABCDEFG\n- ABCDEFG\n\nClose\n\n# CJ ENM Recruiting New Talent from Producers to Global Music\n\nby Lee Jonggil\n\nPubilshed 12 Sep.2025 08:37(KST)\n\nTranslate Text Size\n\n### Applications Open Until September 24, Onboarding in January Next Year\n\nOn September 12, CJ ENM announced that it will be holding an ",
+        "score": 0,
+        "published_date": "2025-09-12T00:00:00.000Z"
+      },
+      {
+        "title": "인사담당자와 실제 합격자가 알려주는 합격 꿀팁ㅣCJ 족집게 취업 리포트 | 원티드",
+        "url": "https://www.wanted.co.kr/events/2025recruitingcarnival_cj_report",
+        "text": "인사담당자와 실제합격자가알려주는합격꿀팁ㅣCJ 족집게취업리포트| 원티드## 인사담당자와실제합격자가알려주는합격꿀팁ㅣCJ 족집게취업리포트\n##### CJ ENM\n합격자의비법노트부터인사담당자의시크릿노트,\n합격을부르는기업인사이트까지놓치지마세요!\n\n* 합격자의비법노트1\n\nCJ ENM Mnet Plus\n프로덕트디자이너6년 차총이직횟수2회\n* Q1. 왜CJ ENM이었나요?\n덕업일치! 한번해보고싶었어요. 유저가많은B2C 환경에서풍부한데이터를바탕으로제품을만들어보고싶기도했고요, 그러던중Mnet Plus 포지션을보게되었는데, 평소영화나드라마, 음악등K-콘텐츠를 좋아하는또하나의유저로서더깊게몰입하며디자인할",
+        "score": 0,
+        "published_date": "2025-09-10T00:00:00.000Z"
+      },
+      {
+        "title": "[CJ ENM] Product Manager_글로벌 K팝 플랫폼(Mnet Plus 전직군채용) at CJ ENM | Full Time Jobs",
+        "url": "https://fulltimejobs.work/employment/cj-enm-product-manager-geulrobeol-kpab-peulraespommnet-plus-jeonjigguncaeyong-south-korea-cj-enm-ada1b6929ab2-south-korea/",
+        "text": "[CJ ENM] Product Manager_글로벌 K팝 플랫폼(Mnet Plus 전직군채용) at CJ ENM | Full Time Jobs\n\n💼 Full-Time Position\n\n# [CJ ENM] Product Manager_글로벌 K팝 플랫폼(Mnet Plus 전직군채용)\n\n🏢\n\nCJ ENM\n\n📍 South Korea, Seoul, South Korea\n\n📍\n\nLocation\n\nSouth Korea, South Korea\n\n📅\n\nPosted\n\nFebruary 25, 2026\n\n⏰\n\nType\n\nFull-Time\n\n🎯\n\nFull-Time Opportunity: This is a permanent, full-time position with a competitive package and real career growth potential.\n\n## Job Description\n\n직무정보 채용공고 상세 목록 회사명 직무명 프로덕트 매니저 근무형태 정규직 채용구분 경력 근무",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "CJ ENM AMERICA, Inc. Los Angeles Office: Careers, Perks + Culture | Built In Los Angeles",
+        "url": "https://www.builtinla.com/company/cj-enm-america-inc",
+        "text": "CJ ENM AMERICA, Inc. Los Angeles Office: Careers, Perks + Culture | Built In Los Angeles\n\n# CJ ENM AMERICA, Inc.\n\nSave Saved\n\nHQ\n\nLos Angeles, California, USA\n\n29 Total Employees\n\nYear Founded: 2007\n\nView Website\n\n## Similar Companies Hiring\n\n## NBCUniversal\n\nAdTech • Cloud • Digital Media • Information Technology • News + Entertainment • App development\n\n7 Offices\n\n68000 Employees\n\n## Crunchyroll",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "CJ ENM's AI-Driven Content Innovation: A Strategic Play in the Global AI Entertainment Market",
+        "url": "https://www.ainvest.com/news/cj-enm-ai-driven-content-innovation-strategic-play-global-ai-entertainment-market-2511/",
+        "text": "CJ ENM&#x27;s AI-Driven Content Innovation: A Strategic Play in the Global AI Entertainment Market\nSymbols\nSymbols\n\nAime\n\nProducts\n\nNews\n\nMarkets\n\nWatchlist\n\nBrokers\n\n# CJ ENM&#x27;s AI-Driven Content Innovation: A Strategic Play in the Global AI Entertainment Market\nGenerated by AI Agen",
+        "score": 0,
+        "published_date": "2025-11-10T00:00:00.000Z"
+      },
+      {
+        "title": "CJ ENM Showcases the Future of AI Content with Advanced AI ...",
+        "url": "https://www.cjenm.com/en/news/cj-enm-showcases-the-future-of-ai-content-with-advanced-aicreative-and-technological-capabilities-premiering-global-animation-cat-biggie/",
+        "text": "CJ ENM Showcases the Future of AI Content with Advanced AI-Creative and Technological Capabilities, Premiering Global Animation | Newsroom | CJ ENM\n\nEN\n\n- EN\n- KO\n\n모바일레이어닫기\n\nNewsroom\n\n# CJ ENM Showcases the Future of AI Content with Advanced AI-Creative and Technological Capabilities, Premiering Global Animation \n\nCULTURETALKAICatBiggie\n\n– “Creativity is key, even in AI content” – CJ ENM applies AI technology to its creative works to resh",
+        "score": 0,
+        "published_date": "2025-06-29T00:00:00.000Z"
+      },
+      {
+        "title": "The Future of K-Content as Painted by AI... CJ ENM Officially Launches 'AI Content Alliance'",
+        "url": "https://www.cineplay.co.kr/en-us/articles/25855",
+        "text": "The Future of K-Content as Painted by AI... CJ ENM Officially Launches 'AI Content Alliance'\n\nLogin Sign up\n\nMy Page Log out\n\n## Menu\n\n### NEWS\n\n### MOVIE\n\n- Film Festival\n- Special\n- C-TALK\n- [Filmmaker",
+        "score": 0,
+        "published_date": "2026-02-11T00:00:00.000Z"
+      },
+      {
+        "title": "CJ ENM launches industry-academia alliance for AI content",
+        "url": "https://www.digitaltoday.co.kr/en/view/3474/cj-enm-launches-industry-academia-alliance-for-ai-content",
+        "text": "CJ ENM launches industry-academia alliance for AI content\n\nAI content industry-academia alliance. [Photo: CJ ENM]\n\nCJ ENM said on Monday it has launched an AI content alliance with small and mid-sized production companies and educational institutions to build an AI content industry ecosystem.\n\nA launch ceremony held the previous day at the CJ ENM Center in Sangam-dong was attended by Jae-hyun Kim (김재현), director-general for the Cultural Media Industry Bureau at the Ministry of Culture, Sports an",
+        "score": 0,
+        "published_date": "2026-02-10T00:00:00.000Z"
+      },
+      {
+        "title": "A Defining Year: CJ’s Global Expansion in 2025",
+        "url": "https://newsroom.cj.net/a-defining-year-cjs-global-expansion-in-2025/",
+        "text": "A Defining Year: CJ’s Global Expansion in 2025 본문 바로가기\n\n# A Defining Year: CJ’s Global Expansion in 2025\n\n## CJ Group concluded a successful year as its affiliates, including CJ Foods, CJ Logistics, CJ ENM and Olive Young, expanded globally and capitalized on the rising influence of K-culture\n\nIn 2025, CJ Group reinforced its position as one of South Korea’s most influential global enterprises, driven by the international expansion and achievements of its major affiliates. Across food, logistics",
+        "score": 0,
+        "published_date": "2026-01-13T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "Cj Enm Bets on Full-Stack AI, Debuts ‘Cat Biggie’ Animation - IMDb",
+        "url": "https://m.imdb.com/news/ni65358339/",
+        "text": "Cj Enm Bets on Full-Stack AI, Debuts ‘Cat Biggie’ Animation - IMDb\n\nCj Enm Bets on Full-Stack AI, Debuts ‘Cat Biggie’ Animation\n\nMarking its 30th anniversary, Seoul-based media giant Cj Enm unveiled a sweeping artificial-intelligence roadmap at a “K-Content Meets AI” showcase on 30 June, positioning itself to become what executives called a “global AI ",
+        "score": 0,
+        "published_date": "2026-01-23T00:00:00.000Z"
+      },
+      {
+        "title": "GitHub - MarshmallowShadow/cj-enm-poc-gen-ai",
+        "url": "https://github.com/marshmallowshadow/cj-enm-poc-gen-ai",
+        "text": "GitHub - MarshmallowShadow/cj-enm-poc-gen-ai\nSkip to content\n## Navigation Menu\nToggle navigation\n\nSign in\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\nSearch syntax tips\n# Provide feedback\n \nWe read every piece",
+        "score": 0,
+        "published_date": "2024-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "CJ ENM Streamlines Entertainment Services with Tanzu Platform - Tanzu",
+        "url": "https://blogs.vmware.com/tanzu/cj-enm-streamlines-entertainment-services-with-tanzu-platform/",
+        "text": "CJ ENM Streamlines Entertainment Services with Tanzu Platform - Tanzu\n\nCJ ENM is a Korean entertainment conglomerate that produces dramas, award-winning movies, and reality entertainment. The business has produced and distributed more than 600 film titles, including the Oscar-winning “Parasite” and Cannes award-winning “The Handmaiden.” It’s also a major player in K-POP, animation, and produces musicals for Broadway, the West End, and Asia.\n\nAs an entertainment company, many of CJ ENM’s tech ser",
+        "score": 0,
+        "published_date": "2024-11-18T00:00:00.000Z"
+      },
+      {
+        "title": "How CJ ENM Is Using AI to Redefine the K-Content Landscape",
+        "url": "https://newsroom.cj.net/how-cj-enm-is-using-ai-to-redefine-the-k-content-landscape/",
+        "text": "How CJ ENM Is Using AI to Redefine the K-Content Landscape 본문 바로가기\n\n# How CJ ENM Is Using AI to Redefine the K-Content Landscape\n\n## CJ ENM’s proprietary in-house AI technology supports every stage of the content lifecycle, creating original IP and generating all visual and audio elements for video production\n\nTechnological progress has always driven the evolution of the visual media industry, from silent to sound, black and white to color, recorded to live. Now, AI is transforming the very ways",
+        "score": 0,
+        "published_date": "2025-11-03T00:00:00.000Z"
+      },
+      {
+        "title": "CJ ENM Accelerates Response Times and Delivers Live Customer Chat to Drive Live Commerce | Case Study | AWS",
+        "url": "https://aws.amazon.com/solutions/case-studies/cj-enm-case-study/",
+        "text": "CJ ENM Accelerates Response Times and Delivers Live Customer Chat to Drive Live Commerce | Case Study | AWSSkip to main content\nClick here to return to Amazon Web Services homepage\n**\nClose\n* عربي\n* Bahasa Indonesia\n* Deutsch\n* English\n* Español\n",
+        "score": 0,
+        "published_date": "2025-05-07T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "ViacomCBS teams up with 'Parasite' distributor to make Paramount+ Asia debut - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYWVaREtSLWo0LXpuLUw1WG4zaEJkdlprdGZkMEdtcGd5TXB5SG4xSWhySUl4andOR0d1WWRRQ1l2dW9JOXdsVlhzLXdTTmxjWGVOaUtSOVhlZmdxN1p5ZTFKX0xLVTlHLWM3R25zdkZCdkxtWTRmUHlkbGlpWGdnMGFBSHUyeHg2MkZqejFvRVhFWjRETDdMb1lfdmdHckN6ek8w?oc=5",
+        "pub_date": "Tue, 07 Dec 2021 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "South Korea's CJ Group heir apparent arrested for suspected narcotics law violation - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdzRQUkJlakdsS3JiVkVjQTRLc1pFRTZ3bklyMFJnQms0Z2doVC1jNmlYYm5nekY4STJ1S3FnZUVsU2dGLTU0WDBUZDVlOVJaRVVxd3VVTTJHN2FRN2FlYm8zODA4S2VCNldVNERTN2ZBc19kd1BRd3FuRFJfWlVDTzk3QmpRaUV1eGlsUklwNVN2RzVZUXFvM2ktQlJFLUZ0TXVsVlhKQ3o0aDYxMHN3dXM5aDdnMWVBcnd6VXNsWmlLMHNQVzdWcmlsVDg?oc=5",
+        "pub_date": "Wed, 04 Sep 2019 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "S.Korea's Netmarble buys Hong Kong-based casino game app co SpinX for $2.19 bln - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdEdUMHE1Nm9rSkRGcVJFTDI1YlpGMjFpVTN1NDNIY0ttOUxzYkFUSU9Uck5tcUNpbjlhTEV6MUQ0QzFLYm1BYmlGcTMwbHRHTEdtdkhfZkZUVzREQVRVTU11TE1Hck4zVGY4bDJNb05Gb2x5V2VlMDliR2tFbU1udWdIZG0xUlh4V183VFkyWFhPOWl4MERlajNlX3dyWTRMaWdMMEJnZ2ppeGo0UEJtNS1HT0xYcXZTcVVQOFlGNkRDM3Fs?oc=5",
+        "pub_date": "Mon, 02 Aug 2021 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "CJ ENM Japan Inc - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ydUhScmxZeE5YQV96Sk8temRpamtNLXNic1ZoeGtvY281bDJHUHJIN2hIM1hvZkJJZWJJOHhmQkR3MTlCell5UnBwa1dHWEhpNnZmM2diZEhMLU9kVEtWQw?oc=5",
+        "pub_date": "Sat, 11 May 2019 18:52:52 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "CJ ENM Co Ltd - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zUXlrY3U0SVNXQ3RPd0NnVVd3aWp2UkpSSTJ0S1M4UUF6MUhLM3hJTHZRZzhTdHU2cEtNWHl6NXFXM3pYTEhaQm5Jd0pBUzlsY3gxRkFaSGMtdTZ0aWVwZw?oc=5",
+        "pub_date": "Sat, 02 Mar 2019 09:12:15 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "035760: CJ ENM Co Ltd Stock Price Quote - KOSDAQ - Bloomberg - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kX0xhdUxQVXB6RHhCVkwtQlEtTVpheC02Qk82a3JfRFhqa0JYRTNlYmd3UllkMTB6em5yQVp2cmxUbFRWeks4c2VoYmpTcWNnQ3RF?oc=5",
+        "pub_date": "Fri, 14 Mar 2014 23:58:15 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "AmazeVR wants to scale its virtual concert platform with $17M funding - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUw3UU1ra2g0VWJMYWJwZWpoYVN4eUhNYXJnUEJwMktWREYySWRKRnVCbVRoM0ZXbzhobjI1NlcxRWVnSFl0Ym01NWk3WVI2VHI3VU1Uenh3SUZOVTZlSldSc2hQVHM4OTNKOWNfaUVfbS11NW9zQWdGc0VPcnBDQW9kNEoybUVHVG11OUIxM3RINVNpc0NQU3M1UlRRTTB6aklmdDB3?oc=5",
+        "pub_date": "Tue, 27 Sep 2022 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Line launches NFT marketplace on its platform DOSI - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdkZpZVhOdnQzMkFhdTdXVExxN3JnUXEzZFFuOWlzZjBJczIyc0NYbWhkWFZUYW50aU82ZjlaTHJQb29NT1F5b1VuVjh4Y214T254TGItZ3dfampyX2ZhMjNtOHE2eWVtTmt6M3NnVElkdENqS2hYdUFFWXJQMHl4RkJ3VGlpUzRvbFd2RmFB?oc=5",
+        "pub_date": "Tue, 08 Nov 2022 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Paramount+ reaches nearly 40M subscribers, will expand to the UK, South Korea and India - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeERYMnlZekJnX1M0UE9NOXZyTHNwbW1NeGNDQ2NLVVhUal9JbHpDRjBKVExCQTZqQUdCQ0owd1hVQzJIQVY3emR2WE45alhRbXdVdTA1UWxCWWlBTmczXzJRRWNlaEEwWXNQWGRCSXI0UHVfN2I3SjhYeXVNQlNwT2xrRVBkcUpqMzFzcGdzeElxQ2VlMTkzSXQ5YmlGRWlETlN2RUJzS1hKM1A4V2gzQ2o3anRPQnFrLUx2Wg?oc=5",
+        "pub_date": "Tue, 03 May 2022 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "CJ ENM Co. Ltd. (035760) Stock Price Today - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNZGJiTXhTNjBWWnRMdkFjbzlCREZJamJnMF9JV3NPTV9tMEdMZFlnRVJMcFl2X0FBd2ppbi1QY0FveGkzbExlT3dhaE02ckVERUV2d3cwektZXzgxOGlSU3lqb1RZMElEdTZTWDVmR0RxZ1hYNWxIQW1DR3Z3RXZ4dW52VmxMZndXdlAzMHBZSXkzTWUtUFdTX0Q2Sy1OQlEwaTNoQTBmYm9GTFozYkZpbWc4M05LZS1BWGFENnk5cTNKV3BheWluZ1lRUm9VNFNCZnIycDNvUE1lbTRZMnZhS05SdnBidHdnZ3hlR1EwZTljWWJjUnVQOVMtXzZoZm4yV3lHU1doNEFZTU9JMkoxUEltU2gyb1BBWm9lcFhscVZ4QkQ0dnIwQ2xEWDluX2xBWmhtUVpyX2M4RlBOa2dveFM3X2xJRzZuMzBDSHNzak9FU3NuSmpWQWs3T3RBZkY5SUhETDRpY2k?oc=5",
+        "pub_date": "Mon, 23 Dec 2019 00:53:44 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "035760.KR | CJ ENM Co. Ltd. Annual Income Statement - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMilwNBVV95cUxORUdyRGJLTDVLQnpNMEVpTXNWZDE3ZzdrTU1pRHFvVzRPY1lxSVFJa1NDOEp0MjN6Q2ZidS1xbDZOd1pMNGZoaWhfWlJnckpzZ1pwUDdGRy16UTZXdnRKMV9BYjhSNlNrWmVxUVprdGs5UWJoUXBLMjRDQS0xLVYyZmNKcmxWWTlQZ1JwS21iaHlLVkpoQjVXN0hSZVRLbVhRX0dMc0IxMDhOOExYVnpHc0VHTkdSeFlVSnFScUpEcGdYY3ozbm8yZXo5eGJ6UHo0T2ZRcXNfRmhWakk1WGdHaWZLRHBsaU5Md0tRZUNsYm5TT05reGo4bGdfWGhhd19kQ19xd2ZjT3NReTZCQXlPcklDQXlnOGJEcGZmZ1FwbHhFTVJMYkhJQ2FLYWtkV3B4WG12eWpQbU5LaDd2aVFObzItb1BlOXVSUm5CYTNpaVk0U1llVHpBNmxDd3EyaWhlc3ZvbHZJemRGUndlUThQVnZwLWt5Z1FwWURYVU5SOS1jUmg2M2VTa0hGX1M0MGlaRTBLNGlicw?oc=5",
+        "pub_date": "Fri, 10 Jan 2020 02:41:05 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Oscar Win Mints Gold for ‘Parasite’ Makers - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMijgNBVV95cUxOaS1ZelFHeFA5b3d3dHhlcjNhMHA4NkcwMGt4S2psVG9yZ2tfQU13Z1pKRzFOMU9Xb0lFZlByUF9HWUlFcVE3SVNUaUNKZ29DVGlianI2dWRXUGJ3ZG1VSTlJOEtwUGJ4TEMtNFo1TEQ2RFRlLXJRX0M5R2hTREJ2MGpEUl9pT2UydXlaTTV0MGVxbk9Td2lRUHZXUzNVRUQ1aVliSGR2RG5fYVJvSVlENzdfMzlkLXFadExPN1ZUZTJFOU91LXFNdEtHNWZpX0lKTWN1Nk03d0hBZU1UeXEzbmRuTGYyRFdfY0d4WXRyVHl4MUdJcmVKN29KMXFTM1ZCM01TX2V6cmFQOG5OOExnX1NnaWpPNmpoMWtSQlZkX3ZVMGhZZlFXZDhWeDh4VVkwVkNndzhKUldwaV9wUy1oLWFjMGV1d3N5SDQ1ZE8wR2tqbmxFMHZ0U2RKc0EtWGRJNWZTMFhSNy1LYlJpWjVoRldVUEtBeXBVdWFMWlV1T3U4ck84MEpOWFBzTnlPQQ?oc=5",
+        "pub_date": "Mon, 10 Feb 2020 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "CJ Corp - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzX25EeEJkY3JHb2dmOENfSktJeU12OUE1TWs2QzRaT1M2RmJnNE96aTZuUjJJekZqRzd5Q0ZNSF9wRGxMVm5iVTFJOENpSlVyRXotSVVUejJVUHp1OGgwMW9ydGo2anA5cHVGVC12SQ?oc=5",
+        "pub_date": "Sat, 09 Jun 2018 20:24:41 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "South Korea plots its next entertainment blockbuster - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHUlg3QTc1ZUd3V3NtbUJ0a3BUOF9FTjY1SFNIWXgzc0NDN2d0ZlFmNmVQT1g3Vk9uYjAwX0FzSmYxc056QS1uekN3cHQwUk1yZ3hxM3FOanJLTVpqRS1ROFpLVG1xV3pQN0tZWlFxZzI?oc=5",
+        "pub_date": "Mon, 01 Nov 2021 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "South Korea’s entertainment wave grows with $2.5bn Netflix investment - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVRW5UanEwSHFKdjBhekp4VVd1SnZVS2lCQW9PbHRBQ08xMTZURUhkN3hEV2JGS1JPTGtUa1dReWVmbnlqUmU3ZHV1anVFWnNUcEJpSG5NeW5LeGlUcnBMR3Izbm4tSkpZWlRFUC04eUg?oc=5",
+        "pub_date": "Tue, 25 Apr 2023 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Japan's TBS teams with K-drama partner to wow global audience - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQmxRODZuRXY2cFgtRlVzd3RzRUVqc18xMGxWdHE4WUMxcTlUM3NjWmhKTVZaRGFFUVR1QkxBYnppTW5MUlNwSERTZVhNOVZJbVlRdVhyVVBnYVdaUXU1MDRQU3pYaXl1OEZOZ0prbmF4OGtUWExHdjV6NUFDSGRBWnd3TEVXWXBSdEtWeU9TZ0kyY3BRMGxNMml0aXFtUC1SRG5XZFBuQnpxSlJjTzB0bHN3cmM?oc=5",
+        "pub_date": "Mon, 13 Oct 2025 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Japan's Toho to step up overseas push with $225m stake in U.S. studio - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdVBsb3UzSDc0djhuVzZIenE1cmRiOHdoaFliX0VIUndRTDVwd3ZTbGt1Y1dnSUQtTnY2MTBzVEJBM3RRSzZCTXh3cnh2LTBDRnJYREdCaWw3LVRIbjN2THNqWDNwTWlDTDZmMVljQ1BCeHVKQXA1QlZVSTBIakY0WEJkQ1laMjJQeC13NGF4cEJWaGxBNm1ocng2aThvd196b0hyVTAwMnRQaEtvTWdfMGsxQkVrUE9DaFFObTFB?oc=5",
+        "pub_date": "Tue, 12 Dec 2023 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "South Korea makes its mark at Cannes again - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYnlCRi1CZWZ6SG55ZG1Yb0NVMjJVbFVkUnhRaTBtUC1DbGEteUlWbmFsSFN3bUFLUjZ1QWJ0OGpBQ01SY0E2QlYzbXFmM3VUdGJUcERqSW5TclRueE1kUWRvb2dpUG9vNGM3QjVBYUxXMXE3UXJhdVAyQ1hkZ2dkbmkwOWt0enlh?oc=5",
+        "pub_date": "Tue, 14 Jun 2022 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "‘Don’t Put Your Head in the Sand’: Stars Are Quietly Inking Deals to License Their AI Doubles - The Information",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY0lYcktBX1VPbjZPdzMwSy1WRVFPQ3NEcEhYYWVjZDlPazJuYk5DaU5Scmh1cjlPUEJYejQ1RHliMmlKUkJ6Vm1KVWZaZWZERUlsM0NLalFOV1BSSFYzU1NlVzEtUWc1Sm5TLXllQ1hjREI2bVlmaG52ejgwT1VLbDhSLTJ5QURVQzlnSERqWTR0Tnp6M0xaUVFHVDZsTzB3Q1BGb2lNZDhSZ3RSQkpCaXlzMnpyRm1zM1dnTFpQUnpGNVpJT3JQeA?oc=5",
+        "pub_date": "Fri, 18 Aug 2023 07:00:00 GMT",
+        "source": "The Information"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "토종 OTT 티빙·웨이브…오리지널 콘텐츠 맞교환 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KMlh6Rl9zQ1Z0VjVqcy1CazMxMTl2Z2Fpb3ozdjR0NkN0RFgzV3BsM211dXR0NFk2SXNoUklVeXdMUmRqQ243RTRsb2xxaS1oNlFBSkYyd1VhZ9IBVEFVX3lxTFBqdWtPMzBFOHA5Y1JHS0U5cEtnS0FFLTlEZ1JXRmR3eVFEMkh1MmVzX01kbFNFTVBhRTRtdGxPYldzdEIyWEt5Ymt6TGZzcldISGhNeg?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 08:08:10 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "K컬처 주식 부자 1위는 방시혁 '4.8조'…BTS는? - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1za0N2XzZlcDNGbk5iRmJZZ2ZnVlh4NFR1NTBMZG9EdERtZXN1aG9vUFlYN0FOSTB5d2gwNFdxaWVtcXJBWE8xLWQ4TGdvLUFRdjJCOTNqd2R6QdIBVEFVX3lxTE5YTmpUZHJjSzdldUdQNlRyVC14UWlNaHlwa201QUtwMEMwaDl2d1VNZTRic1A5ZHQyb3I2d3A4b1JDSmxrdHJpenZlbkRWRm91cTNDQg?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 22:33:27 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "Today's pick : \"원전주 더 간다…현대건설 목표주가 24만원\" - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6VFFvajd1cWVsbW1ZanJOWHhxdEtNNnZTTDBndXlEZy1zWVRFM1BSSzY0bmFZOEhKTHV3T3h3SGEzT0YwTTJZNU5fMDFlRktWSFFvQlRKSUdYUdIBVEFVX3lxTFBDb0pkS1Rqa01MSzhMaU84N05UcFp4TWx1a2Zwd2hNdHRyekU2T0Z5ZUlIOVRfclMtVG1VcDNPSWVDVGl3MjZpRFBvVXZrdWVnZW1USg?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 23:43:03 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "CJ ENM, 상반기 신입 공채 실시…“우수 크리에이터 선점” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa05Rem5hTFUyQldVZm1ZNGpyTFNqWm80Rjl6YjdiVHZnaS1BNWRSUUFzNGpVVWY1YXJsTXJRRUxzOTRCMTFUTEFiNHI2cXRZUW9SWXVJMDlpVGVnOUs1M1M1Y2EwOXpEMURhUkJWdGdzTEdnN2dfa0c2Z0ZpSFViNGo2c3l5TUM1MUFzdFlLNDXSAaQBQVVfeXFMT2JEdDNRZ0pHbFpEV0ZUdkljMHIxZDJQMmhPYnhkWE02SkExUTVoV3NQSnFKYU5HMmZmMUl2OEtSbUtmQWd5MXhLMjA5Qmh1U0tackFrbWs5bTktOVJGaDhoTGZZUnkxb2h1WnJmb3lVaTJXQmhJck16dWtWWDlQOGpMNEdQTS1JM1BsRURKWUJnZkJDVUJlemhJUHVXaTZ4M1RXRGk?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 01:41:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "CJ그룹, 상반기 신입공채… 모집 규모 전년 比 30% 확대 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa0UtYi0xX2pRcG9xWFBBRFctN0E4V3pIWEpmV2hqOWhtY1RINnFOczJ6bHAwaERyV19LeHprVDB5RVhHUW9wMTN1WnNORjFvalBVRE90SFJpZi1iWUFHMFBzbnFtdWItQW5SRXdOUVRSQXJ3WElGN0dfTTRmMHF3S3VXRmFKZ9IBmgFBVV95cUxPNE1DZlg2MGZUMmFjRXpTSktyMDJyeGpFbEJ6clBlUWhXN3I5NlRfNGFIMnJSU1FzVnNvclkxV0VoenZlTzJUVUVHVFJqSGNrLUU4SXlpSHMzNDI5eDJaVlFwdjNhTkJ0Q2JIYUVFcFBVQmtndnYtY185YU01VlJTUC1FV2c2b0hjWXFWcU5KT2dYZkFnYTAyM0lB?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 02:03:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "SK證 “CJ, 올리브영 호실적 주가 반영될 것…목표가↑” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOFRmaDN6MDRxRlZ2ZXdQcjl4ZXRWbXlXYTJrZGdjbldnc24tMG52X3ZlWEdEWENNUnVHMnB0M2hUejZNanp6QXd4T01QM2FaWjVyZzI3Z1E1NVlSc211bldmV0ROSl9WSTF0RXliTzhPQ3c1RXIwTGJOTHAxVDFoRHRRRm5TeW5w0gGcAUFVX3lxTE5yNlQ0YkR5WFliRHNKcEJGSTVvZllXSDdqd0xTQUJZcWtYOHFsajFMaHhlQzhtLURyX0I5UE5ST21wV0p0YmhmeTBDVGJ3dmJHaGhNaGNKVEowYW4xNzZFcmlla1JmcFJwc0FsUTdoU1ZDNnM1MF9MQzVRZWd0RFlfcXV2ak5BZ3JUYUpmbXByR0dvZXRGVDF2cV9sYQ?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 23:17:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "“CJ, ‘필수 관광지’ 부상한 올리브영 효과에…주가 매력도 쑥” - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zWDlIMjVHUmpQUlR5WG41enFia1R0X0RUdXlHbnNMMUNyd1RYNzljdldRd1BIU2gzVEEzTW9ldDd6WWIxdmlMUzNHVWhNajZ3dlE?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 23:25:09 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "“CJ, ‘필수 관광지’ 부상한 올리브영 효과에…주가 매력도 쑥” - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CUG94N0tJZFJOa3Bza190R21Zd2poNlY3cWtvR3pJNGFvVV9JNC1VaU9kSGphRTFiUWZXamVWWXo0d28wN2dGbHJySTNaTGZfMEE?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 23:25:09 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "‘보플2’ 최립우·강우진, ‘KCON 재팬 2026’ 스페셜 퍼포머 출격 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9MYXFlaXhEX3E0cDUwWFhoNDhNYlFUVmNwYXlFZTZwN2lPaWFOLXI0cXRLblhoQkZpSDVpT2owU29idm8xT2c?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 08:30:57 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "CJ ENM, 상반기 공채...내년 졸업예정자 전형 신설 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vSGxUM24yRzJRNWZSdVVHczZ4TkRTQmQzZmtmNVduWVFUcTJjTFhqS2dNcTdwUUV0aHVCcEgtQ1VXMmhaRDZHb2UxQ19wM0QzLWtXY1FR?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 23:33:22 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "CJ그룹, 4월1일까지 신입사원 공개채용 접수 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pcHFoc0EtWG94OXNUQVBSSGUybnh6dDFuRXZaLVRzeVhLZC1rSC0tOXd0MktidHJxM0dnaE5mbUpFTTFOdV9IT0lMQnRLQVBpbFlUVFJ3?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 01:57:58 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "인크루트, 대기업 '공채소식' 페이지 열었다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KMVdrQkYxc2NzUklDN3hPZG84d1JZMHpqNHpzaDdaem1ockFDTVV4U0NiWE44cVpLMHVBMVIyUjhPaVdsTi1ELWk5ZGpMaTdfbjVublhn?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 01:55:36 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "CJ ENM, 경기도로부터 3134억 지체상금 청구 피소 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zTXVyS3ZBRnpQVGN0SjJVVHlzQzA1VXhhVVpuM3RxbDF1MklSWGZqS1FQbTVXd3ZMY2FmZlY1UDlyeDNReHFzMmdPMkM4aWthQlpKYy1HdWVFODgzdVRWZngwWVpBSW5pVXRDVtIBbEFVX3lxTE1zTXVyS3ZBRnpQVGN0SjJVVHlzQzA1VXhhVVpuM3RxbDF1MklSWGZqS1FQbTVXd3ZMY2FmZlY1UDlyeDNReHFzMmdPMkM4aWthQlpKYy1HdWVFODgzdVRWZngwWVpBSW5pVXRDVg?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 08:33:39 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "실적 경신한 올리브영…이선호 그룹장 지분가치 키우며 '승계 골든타임' - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzcUN3THM1WWMtbmZlZVJKUF9ibzItaXhrZk90eVMxbHhkcXFVTDJVeXpwcS14UGFHdU9wSDJPVXB0RXdpb01LVVpwTWxmX0pGcFNtcEJJZDg3R1FzTFR6SXhxa2VaS3FlWTNmctIBbEFVX3lxTFAzcUN3THM1WWMtbmZlZVJKUF9ibzItaXhrZk90eVMxbHhkcXFVTDJVeXpwcS14UGFHdU9wSDJPVXB0RXdpb01LVVpwTWxmX0pGcFNtcEJJZDg3R1FzTFR6SXhxa2VaS3FlWTNmcg?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 07:33:30 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "美 법원, 크래프톤 언노운월즈 경영진 교체에 제동 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lamd1NFE2RTZNakRHck9IUkVvYmFUS1ZidG9vbzNkQ2FUTkg4THpNSnp0R3R2a0VCQngxZ2paQnZpSWZ6U3Jqbk9mNmpldkVVUDRDMDhpbjRSSVhtajAtdlgwZy1nQ29z0gFsQVVfeXFMTmNQVlpHRVkzMV9jaTVudUNPbTJqUEN5S3lnYlZsaDZEeHRZenRnT2RhUUdLSEVWSmtaT0xnV25CalhiTkZFd2ZLcVhIeDV0M3g0MkJHM1BFQnRheFI0elcySFduNTF5VTQzcFdJ?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 01:06:16 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "펄스애드, CJ ENM으로부터 전략적 투자 유치·팁스 선정 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9DcXpBU3lybGdScHRpa0Z3TE9rU1NiUHgwZW45bncwXzNSMlFQb3ZJNS1qNl9Fdkdhd2RTRFVobVc3bE1INXFWTm1rRTA2a3ZCSVI0TkdaMA?oc=5",
+        "pub_date": "Fri, 23 Aug 2024 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "네이버와 CJ대한통운이 자본 동맹을 맺으면 생길 일들 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wOGg5N0JfYnF3eURIYkFkYWVtZTViRnE3V21KMTd6Rmk1X3VJSWZDY2xRYTdKSHNfMXBHWWNKTlZ5VHdQRTVId3pYLVZtems?oc=5",
+        "pub_date": "Mon, 19 Oct 2020 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "CJ온스타일, 2025년 영업이익 958억원…전년 대비 15.2% 증가 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81Rk54Wl93cGQ4U0JaOUpjTlVuMGR2RjJFSGsxWTVDZ2RzdENmd0d6T1BIb2ZNVl9vMmVKVFRaM0lUOWdQWHJzcVFSWFoyODBrS1VUbUpvdw?oc=5",
+        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

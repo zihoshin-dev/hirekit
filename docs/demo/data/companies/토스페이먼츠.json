@@ -1,0 +1,600 @@
+{
+  "company": "토스페이먼츠",
+  "sources_used": [
+    "google_news",
+    "brave_search",
+    "naver_search",
+    "exa_search",
+    "credible_news"
+  ],
+  "result_count": 10,
+  "sections": [
+    "strategy",
+    "culture",
+    "overview",
+    "tech"
+  ],
+  "data": {
+    "naver_blog": [
+      {
+        "title": "2026 합격 가이드 (ft. 서류, SKCT, 면접 분석/합격 후기)",
+        "description": "토스 IM3 이상 자격증 : 0~2개 필수 경험 (1개 이상) : 학부연구생 / 연구기관·기업 인턴 / 공정·재료 실습 (→ 연구·실험 경험 비중 매우 큼, 석사·경력 보유 시 연령 상한 완화) [청주] 소자  최소 합격... ",
+        "link": "https://blog.naver.com/afsangdo/224224434718",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "ANC 제주항공 최종합격생 합격 후기, 스펙!!",
+        "description": ":) 이번 제주항공 채용을맞아 제주항공 최종합격 후기를 또 가져와봤어요!! 비전공자에 아무런... 어떤 기업인 거 같은지 3-1) 사랑과 존중하는 기업문화 말고 다른 문화는? 4) 최근 관심 있는 사회 이슈 4-1)... ",
+        "link": "https://blog.naver.com/skykeycrew/224223237772",
+        "pub_date": "20260320"
+      },
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "50명, 자소서 이렇게 쓰면 붙습니다!! (기업분석+작성꿀팁 공유)",
+        "description": "합니다 (= 기업분석이 들어간 자소서만 합격합니다) [이스타항공 자소서 항목②] 고객의 기대를... 재방문, 칭찬, 후기 등)  면접관이 가장 중요하게 보는 부분 “그래서 이 지원자는 기내에서 바로 투입... ",
+        "link": "https://blog.naver.com/on_fly/224219727054",
+        "pub_date": "20260317"
+      },
+      {
+        "title": "현대기아 SPA 영어 시험유형 5가지 기출 예제 정리",
+        "description": "영어 면접시험인 SPA 문제 유형을 총정리 해드리고자 합니다. SPA는 오픽이나 토스와는 결이... B형 - 주제와 의견 말하기 재택근무, 조직문화, 환경 파괴, 교육 수준, 사회 기술 등 다양한... ",
+        "link": "https://blog.naver.com/spa612/224219493806",
+        "pub_date": "20260317"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "삼성바이오로직스(2)-인턴십, 공채 정보편",
+        "description": "방학동안 텅 빈 학교만 보다가 사람으로 북적북적한 학교가 적응이 안되네요^^ 그리구 급하게 토스... 없이 합격한 후기가 더 많이 보이긴 합니다.. 그치만 삼바 이외의 다른 기업도 준비하신다면... ",
+        "link": "https://blog.naver.com/yangssi_ae/224209075684",
+        "pub_date": "20260308"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "중국계 은행 정보",
+        "description": "중국계 은행의 한국지사는 어떤 분위기인지 궁금해요ㅠ 조직 분위기, 신입 연봉, 복지 등등... 토익/토스/오픽 점수대별 강의 추천 https://gouk.kr/txl3ev ★2026 대기업/생산직/공기업 채용 일정 https... ",
+        "link": "http://cafe.naver.com/dokchi/13200810",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "결제 연동을 10분 만에? 토스페이먼츠가 AI로 고객 경험을 혁신하는 방법",
+        "description": "AI 챗봇 + MCP = 정확도 높은 대화형 연동 가이드 토스페이먼츠 MCP를 AI 개발 환경에 연동하여 대화형 연동 가이드로 활용하시기를 추천해요. Claude, Cursor, Cody 등 AI 기반 개발툴에 스크립트를 붙여 넣는...",
+        "link": "https://www.tosspayments.com/blog/articles/mcp",
+        "pub_date": ""
+      },
+      {
+        "title": "회사소개 - 토스페이먼츠",
+        "description": "누적 거래액 : 171조, 누적 거래 건수 : 37억, 월 평균 거래액 : 3조, 제휴 가맹점 : 9만+",
+        "link": "https://www.tosspayments.com/about/company",
+        "pub_date": ""
+      },
+      {
+        "title": "토스와 토스 페이먼츠의 현재 목표(참고)",
+        "description": "물론 토스와 토스 페이먼츠의 목표와 현재 사업 방향을 찾아본다고 해서 내 프로젝트와 동일한 것은 아니지만, 내가 개발하려는 프로젝트와 유사한 기업의 비즈니스 목표와 현재 흐름을 파악하여 내가 개발하려는...",
+        "link": "https://velog.io/@hochang/%ED%86%A0%EC%8A%A4%EC%99%80-%ED%86%A0%EC%8A%A4-%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0%EC%9D%98-%ED%98%84%EC%9E%AC-%EB%AA%A9%ED%91%9C",
+        "pub_date": ""
+      },
+      {
+        "title": "토스페이먼츠, 글로벌 핀테크사 FIS와 전략적 파트너십…&quot;해외 가맹점 적극 확대&quot;",
+        "description": "김민표(왼쪽부터) 토스페이먼츠 대표와 필 폼포드 FIS 월드페이 아시아 총괄이 30일 파크 하얏트 서울 호텔에서 진행된 전략적 파트너십 행사에서 사진을 촬영하고 있다. 사진 제공=토스페이먼츠",
+        "link": "https://www.sedaily.com/article/13472048",
+        "pub_date": ""
+      },
+      {
+        "title": "토스페이먼츠 출범...&quot;전자결제 산업 새로운 미래 제시&quot;",
+        "description": "최상위권 사업자로 출범하게 됐다&quot;며 &quot;토스의 기술과 사용자 경험... 메달 AI가 바꾼 취업 선호도…삼성전자 1위, 톱5에 36% 집중 #토스 #토스페이먼츠 #비바리퍼블리카 0 0 서대웅 기자 ******@ajunews.com 기자의...",
+        "link": "https://www.ajunews.com/view/20200803094109494",
+        "pub_date": ""
+      },
+      {
+        "title": "토스페이먼츠(토스비즈니스) | AI 성장분석, R&amp;D 과제·보유 특허 및 등급 정보",
+        "description": "R&amp;D 과제 · 업데이트 XXXX-XX-XX · 데이터 다운로드 · 지금 로그인하고 R&amp;D 과제를 확인해 보세요 · 무료회원가입 · 로그인 ; 특허 · 업데이트 XXXX-XX-XX · 데이터제보/오류신고 · 지금 로그인하고 기업이 보유한 특허정보를 확인해 보세요 · 무료회원가입 · 로그인",
+        "link": "https://www.innoforest.co.kr/company/CP00013261/%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0/patent",
+        "pub_date": ""
+      },
+      {
+        "title": "토스페이먼츠피드 - 필진 소개",
+        "description": "유용한 사업 정보, 온라인 사업과 결제 전문 필진의 글을 골라 읽어 보세요.",
+        "link": "https://www.tosspayments.com/blog/writers/tosspayments",
+        "pub_date": ""
+      },
+      {
+        "title": "[토스페이먼츠] Merchant Onboarding Assistant (사무보조)",
+        "description": "토스페이먼츠 ; 기업형태 : 중소기업, 접수기간 : 시작일 · 2024.04.22 · 마감일 · 채용 시 마감, 모집직무 : 경영/사무, 근무지역 : 서울 강남구, 홈페이지 : https://www.tosspayments.com/",
+        "link": "https://linkareer.com/activity/178115",
+        "pub_date": ""
+      },
+      {
+        "title": "[LG유플 PG사업 매각] '토스페이먼츠' 대표로 맥킨지 출신 금융인 선임",
+        "description": "비바리퍼블리카는 토스페이먼츠의 사업방향에 대해서는 말을 아꼈다. 회사 관계자는 &quot;현재로서 계약금만 지급되고 분할 완료되지 않았다&quot;며 &quot;이제 막 조직을 세팅하는 과정이다 보니 구체적인 전략이나 현황 등을 외부에 공개하기는 어려운 상황&quot;이라고 말했다.",
+        "link": "https://www.thebell.co.kr/front/newsview.asp?key=202003131337053120109047",
+        "pub_date": ""
+      },
+      {
+        "title": "코딧, 사업개발 총괄에 임경석 토스페이먼츠 리더 영입",
+        "description": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다.] 인공지능(AI) 법·규제·정책 플랫폼 코딧이 임경석 전 토스페이먼츠 글로벌 사업팀 리더를 사업개발 총괄로 영입, 자체 개발한 코딧 솔루션의 경쟁력 강화에 나선다고 24일 밝혔다. 코딧은 독보적인 AI 기술과 방대한 양의 빅데이터를 기반으로 법·규제·...",
+        "link": "https://www.mt.co.kr/future/2023/10/24/2023102409303462824",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "“자체 결제 생태계 더 키운다”…유통 플랫폼, 결제·정산 시스템 고도화 경쟁 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPWEJUOGNGekZvTEdxWkwzVHJ0WmRCUGZGSmJyVWk1ZEQyZ1BTZWNxR29NZFg0cF9lcVNhYTdqRnBBQ245VmtpZzVEZ1JTdw?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 07:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "스페이스와이, 전문가와 AI 결합한 ‘FDE+AI’ 기업용 솔루션 출시 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BVzB0TE90bVNsQmVOR2w1ZE5BTk04XzhKVmVYYUpPMFJqRzNnVDY3YXB0d2ZmQTAyX0d0cVhuU25nWTFWNzhCSw?oc=5",
+        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "금융권, AI·보안 인재 육성 집중… “내부 교육부터 외부 부트캠프까지” - 디지틀조선일보",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLUNBRWF1aWFqeW5jU2dkUGIwZmZPZGRpaVpXWTlaWkRwV1ZtZy0xTUFDeVM5bVlOeHU4QUk3M1RjVTNOaDFCRGgxWGVWb0Jldk9LSmVIaFU1UlJScldia2Q3eHdsX2xPcFAyTTlQeFk0bkJBYm1mN2ItNVVIbVNjdG9TVlVsb2PSAXtBVV95cUxNS0p5YV9lT2ZJN0FiaG9WcEllckItbVZFOEk4am9XaXFuMFUzQ1c2enE4WkdMWGdUdlJQZ0dxcllnMklvNFFscW5OVmtiQkpNZjBkNVg3MnZMZ2ljNmR3X3dFQTNJTzdzQWlCaFAzQy1rR0FUYzgzcFB4RXc?oc=5",
+        "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
+        "source": "디지틀조선일보"
+      },
+      {
+        "title": "차봇, 몽골 지모바일·막나이 트레이드와 힘 모아 글로벌 진출 가속 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xVi1xUlFHcVZtSWFjcUdwSTNPbUtsVUhXeU5jMTk2UTNOUlozcm1WOWRabTh4Tmt0eTZ3YUh0VjhrT3FOcmVDdjY5ZDVXc3FGMzEwTlR3?oc=5",
+        "pub_date": "Mon, 15 Sep 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "'기업-프리랜서 매칭' 스페이스와이, 이철 前 LG CNS 상무 영입 - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14M1N1ajRSY0tMY0ZqUlRxUGp1R0Z1TXNTV3ZLR2h1Y0xHaVJ6YTVjNTRsTU5LV1ZzRFMtSnJIVXdrWnk1N1Q0RTBZcEdPdk5zN3NaOFhVNXEzeE5JNUlHamMySDNxTk9nUjdlZg?oc=5",
+        "pub_date": "Tue, 05 Aug 2025 07:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "[취업뉴스] 토스뱅크, 시중 은행·증권사 제치고 '대학생이 일하고 싶은 금융기업' 2년 연속 1위 - 아웃소싱타임스",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qd2ZLeFZXT1hFWmFiQU5ib0ZMcE43dVNJM3pTdkdvUFp0YkZjVmhaTHFiVmlSUG9yaUs4UWhySlRjbFcxVHlSMC0tN2VULUVRaXZ0M0d5NGVuVThUUzBTTHVJa1dRQXQ3YXg2N1Ayc0F4Zw?oc=5",
+        "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
+        "source": "아웃소싱타임스"
+      },
+      {
+        "title": "[금융 단신] 신한펀드파트너스, 생성형 AI 서비스 ‘신비’ 사내 업무 도입 外 - 데일리팝",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92cHA2UG9sU0dPUlNaMjhma2FuejFxMWhsR3FFQnA3SXFGYkMxVXlKTGlYU3JJUzhYVS15NFphTE1SRVozYVpPcy04bGg3S29YVEJxSFdnZjlSaVRlZVJ6Wjh5WkM0OVJn?oc=5",
+        "pub_date": "Mon, 24 Nov 2025 08:00:00 GMT",
+        "source": "데일리팝"
+      },
+      {
+        "title": "몸집 키우는 토스, 2년새 직원 1700명↑…슈퍼앱전략에 인력 수요 '폭증' - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lWEFINDVnc2UwaEtzbmRxNkJKMDlpYlJsVnRrRmZDUEhFS296ZFBRa1N5ZG1xT3NVR2h5UEN1WWlnWGVKcnhzczRBOWV6Z0xQTnQ0?oc=5",
+        "pub_date": "Sat, 29 Nov 2025 08:00:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "초불확실성 시대, 주도적으로 일하는 조직을 만드는 ’토스식 책임 문화’ - 사례뉴스",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EcHRpUzk5WlRvYnZHWWNQR3EydVNuY05FMFFCNEY4c1RhaG94S0VJak5seWl6dUlDRE1fQ2dwYWR3a2RSZW5PeWdMY3gwNkJqR2MwTjBrbmFYWnhZUFJkV2d4S01zT3pmQjdZ0gFvQVVfeXFMTUk5X280V2hVTEtvODh0RlhsV2Q1OHJ1VXpzM2ZoaUlydExrWlBwWkIxc0xyMldnQ19VTnpLMk5iTVdjZXAyUlkySmpqa3g1bzUtTndEUTJrOE9SdHF4WWVrbHdmcXpiVzVFOU1Mb2Jj?oc=5",
+        "pub_date": "Fri, 30 May 2025 07:00:00 GMT",
+        "source": "사례뉴스"
+      },
+      {
+        "title": "잠재 고객은 많지만…‘커머스 원년 선포’ 토스쇼핑 기대와 우려 - 일요신문",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIei02UjZzMDQxY0pQeU5CbEItSnh6TVpEMm1RQlVOekZPNnlXNkVhckloc3ZXTGhqc25RN0NncUEyRnNCUEcxb2JnT3dRZXRyMEptQWdaa1dncXhwWnFuZHZ2MkNKQQ?oc=5",
+        "pub_date": "Wed, 21 May 2025 07:00:00 GMT",
+        "source": "일요신문"
+      },
+      {
+        "title": "김민표 두산로보틱스 대표 “로봇을 다시 정의해 봅니다” - 포춘코리아",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE94MXJMWVV6WWIzQk9WVlM4SGhDLXJxVERvSHZIWTZZUXR0b3hqV0NBblBuV1ZDTDBOMWJBeGxIZ2lWTEM5T05SVmVfSUdoX1JyUHRsdmtSdDN5OFM5Mzl5M3VpUHI4SDUzbndSM2tXdDV4UdIBdkFVX3lxTE5BdmVXQ0t3a20zM25KaHVRekNiTl9MM0JzZjM0ZDk0ZG9IOTNyZU8wM0E4RzZnc0J3UlY5dVByWkFGQWxpVHhQT3dOZGJmZDFQR1JWbExJcFd0OS00V0lMYlhidnI1M0RDMjBhQ05kOG5iMUlxSnc?oc=5",
+        "pub_date": "Wed, 28 May 2025 07:00:00 GMT",
+        "source": "포춘코리아"
+      },
+      {
+        "title": "토스뱅크, 시중 은행 및 증권사 모두 제치고 2년 연속 1위 - 브랜드뉴스",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JWDNrSTBLZ05TM3Z3NnhXUkFsbS1MQ0xWQXg1cTlZZGtHeGFjNGp5eno3UnpGZndzYlZoOVhkeWJVMHZrRlVOTWtXdzRERUF3aUtfRTdBcHRtUzFuUGt5TFRnNEs3U1hFUzhmdg?oc=5",
+        "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
+        "source": "브랜드뉴스"
+      },
+      {
+        "title": "\"데이터로 시장 읽고, 커머스까지 아우르는 '원 플랫폼'으로 진화\"… 강인석 스토어링크 CTO - 브랜드브리프",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpejBGOEdNNHJKTFNROGVua1BneDFFeG1sTnJpSi1ERGFUT1lHcTdnTmctVzN2QUlZS3drWFc4NDQ2aTVIVkoyaE42VFhJN0hlaWZxbUV3TFFpN0g2MXlxSjREbkpaY1BtanlmVkhB?oc=5",
+        "pub_date": "Fri, 23 May 2025 07:00:00 GMT",
+        "source": "브랜드브리프"
+      },
+      {
+        "title": "[테크M CON] 임은영 LG CNS 단장, 'AX, SI 차원 접근 필요...ROI 중요' - 테크M",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fZHN1M1NqRmlUZG1MUHJPLUFLQ0xQbzNQbEJXUUVCckwzdXZ4cWduOW0yWXdkR3h1eExIUC1lbkNvcS1tbXlVVFI5RDRZSnRmV1pGWkNNSDl2cDRZd3NuYndzVldiQdIBakFVX3lxTE9jWnNvLUZPLUo5LUdDczBvU2loWFhzMzZHd0V2UHBOc1Jra0NvRjlvaWZIXzFhdHg1ZjlIWEFhYTBiM3NaZmJtdFp0SGxkRHpXLWZ1VWZyYmEzSWt1bWQ1eHR0U1VobjI1V1E?oc=5",
+        "pub_date": "Wed, 23 Apr 2025 07:00:00 GMT",
+        "source": "테크M"
+      },
+      {
+        "title": "토스증권 채용 - 토스",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfazFWRTE5RVh5OGJXVzRtYzZCMDloQ3RFX0N1Wlc2ckdtRHBBVDVGcGx1TjhHN2tyZVpoOVUzUU1mX2hWVFVHaU9pX3pRZw?oc=5",
+        "pub_date": "Tue, 17 Oct 2023 03:05:03 GMT",
+        "source": "토스"
+      },
+      {
+        "title": "토스, 2025년 상반기 연결 기준 영업수익 1.2조 원 돌파… 전년 동기 대비 35% 성 - 토스",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IeVd3UGw2TkpXVGxBN1cwMDlDcGJkTUdsajEtX2NlOU9WenhoNVN4X2g1bURDS3Z5ZklvU1NEdXJKbGJTSkk5SHQtbzBVZw?oc=5",
+        "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
+        "source": "토스"
+      },
+      {
+        "title": "토스페이먼츠·에스티엘, 물류 정산 체계 자동화 협력 - 물류신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lZ3A4TXBMTU4zaFdmYUJVbU1RZ3VYVDdwUGYzSnFPcVpWQkpIcUtjNDh4UldGd3U2eWwwS2JjUm5TZV9qenhSUGsycUlENlBsSVNkeUJyWm9fRTBBRjlSelRHUm0tdjRseWFj?oc=5",
+        "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
+        "source": "물류신문"
+      },
+      {
+        "title": "토스페이먼츠, 에스티엘과 '구매전용카드 기반' 결제 시스템 MOU 체결 - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JUkFyYnlLbjlMYUtUWld6SzBOYVpuQWQzSHUtLXpQN0NGUlZUdWVuYnZFN1I0UWFqSmhnOXJaRGdnNTh0cFNWOGFYTzduOW1QaEFtQVVVMlM2QjVLclRLVlVB?oc=5",
+        "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
+        "source": "뉴스1"
+      },
+      {
+        "title": "에스티엘·토스페이먼츠, 물류정산 시스템 혁신 '맞손' - 마켓인",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02YjAydGkxLWx2VTVjX0VIczJWZkFjak1kV3d6dXJPcmFwWGtOSVRCcDdza25HaDBnS0UtZGhWcUxfWEp5NzI2RkJoTFN3Q1ozLS1CcWZyNmVRM09hWlBHSlhydEN5SVhMOVJXdnJEaWV6ejA?oc=5",
+        "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+        "source": "마켓인"
+      },
+      {
+        "title": "토스, 10년 만에 금융플랫폼 '우뚝'…사업 다각화 성과 - IB토마토",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40T0o0NHVrWlZIRzVFQnFabXBwRUVWa0oyeFJnM0hLellETllCRFM5MjVwT0RPVkRRVDVSLUhUcTRKQTBsa2NUaTJnUHJ4T0ExU3MxaHh3N0NYdEdzN2pKTWJhQ3JIdzFtdUhSUGVoRzJHRk9i?oc=5",
+        "pub_date": "Tue, 02 Sep 2025 07:00:00 GMT",
+        "source": "IB토마토"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "블라인드 | 토스페이먼츠 기업정보",
+        "url": "https://www.teamblind.com/kr/company/%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0",
+        "description": "단점<strong>솔직함을 추구하는 문화 뒤에 숨어서 신규 입사자 대상으로 가스라이팅 오지게 하는 능력도 없으면서 자격지심만 가진 토스 뽕에 취한 직원들 조심해야 함</strong>. 최고의 동료들이 있다는 ..."
+      },
+      {
+        "title": "토스페이먼츠 채용",
+        "url": "https://toss.im/career/tosspayments",
+        "description": "View open positions"
+      },
+      {
+        "title": "토스페이먼츠 기업정보 - 채용 21건, 평균연봉 5,656만원, 인원 374명, 업력 5년, 서울 강남구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/25926",
+        "description": "토스페이먼츠 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "토스페이먼츠 2025년 기업정보 - 주요사업·최신연봉 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/CompSummary/LN4941",
+        "description": "기업의 모든 정보를 한 눈에. 사원수, 평균연봉, 이직률, 매출액, 주요제품 및 사업구성까지"
+      },
+      {
+        "title": "MZ세대 취준생 몰린 토스 채용전문가 꿈꾸는 지원자 찾는다 | 한국경제",
+        "url": "https://www.hankyung.com/article/202108092449i",
+        "description": "3년 이하 경력의 개발자 채용에는 코딩테스트가 포함된다. 토스는 지원자 모두를 대상으로 온라인 코딩테스트를 실시한다. 코딩테스트 합격자를 대상으로 이력서와 포트폴리오 등 면접에 필요한 서류를 받는다. 이후 실무면접, 문화적합성 인터뷰를 진행한다. 토스 입사자의 복지,문화, 보상은 4개 계열사(토스뱅크, 토스페이먼츠, 토스증권, 토스인슈어런스)가 모두 동일하다."
+      },
+      {
+        "title": "회사소개 | 토스페이먼츠",
+        "url": "https://www.tosspayments.com/about/company",
+        "description": "완전히 새로운 방식으로 일하고 있습니다토스페이먼츠팀은 ‘전자결제 시장 혁신’을 핵심 목표로 <strong>자율과 책임의 원칙 아래, 강력한 상호 신뢰의 문화</strong> 속에서 일합니다.토스페이먼츠 ..."
+      },
+      {
+        "title": "토스페이먼츠 현직자리뷰 14건 - 2025년 최신리뷰 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/ReviewInfo/LN4941",
+        "description": "토스페이먼츠 지원 전 필독. 현직자가 직접 평가한 조직문화부터 워라밸, 복지를 포함한 생생한 근무후기를 확인하세요."
+      },
+      {
+        "title": "토스페이먼츠(주) 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/NWpsQ0VZbE1DQW5uTm5JeFpWT1N2Zz09/company_nm/%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0(%EC%A3%BC)",
+        "description": "토스페이먼츠(주) 기업소개 - 업력 : 6년차, 기업형태 : 대기업, 업종 : 그 외 기타 금융 지원 서비스업 | 토스페이먼츠(주)의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 ..."
+      },
+      {
+        "title": "Toss Payments(토스페이먼츠) | LinkedIn",
+        "url": "https://kr.linkedin.com/company/toss-payments",
+        "description": "📢 Sales Runner Party 신청 마감이 코앞이에요 (D-2) 토스페이먼츠 Sales Specialist 오프라인 채용 이벤트, Sales Runner Party에 관한 관심이 뜨겁습니다. 더 많은 분께 기회를 드리기 위해 장소도 더 큰 곳으로 준비했어요."
+      },
+      {
+        "title": "토스페이먼츠 2025년 채용정보 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/RecruitInfo/LN4941",
+        "description": "토스페이먼츠의 모든 공고를! 예정된 공고, 진행중 공고, 마감된 공고까지"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "2026 토스페이먼츠 서버 개발자 공개 채용 (~3/27) | Toss Payments(토스페이먼츠)",
+        "url": "https://kr.linkedin.com/posts/toss-payments_2026-%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B3%B5%EA%B0%9C-%EC%B1%84%EC%9A%A9-327-activity-7432299997578313728-r0E9",
+        "text": "2026 토스페이먼츠 서버 개발자 공개 채용 (~3/27) | Toss Payments(토스페이먼츠)\n\nLinkedIn 동의 후 가입\n\n가입이나 로그인을 하기 위해 계속 버튼을 클릭하면 LinkedIn 사용자약관, 개인정보 처리방침, 쿠키정책에 동의하게 됩니다.\n\n# Toss Payments(토스페이먼츠)님의 업데이트\n\n[Toss Payments(토스페이먼츠)](https://kr.linkedin.com/c",
+        "score": 0,
+        "published_date": "2026-02-25T00:00:00.000Z"
+      },
+      {
+        "title": "토스커뮤니티 채용",
+        "url": "https://toss.im/career",
+        "text": "Toss Community Hiring\n\nA journey beyond finance to change lives,Join us on this extraordinary challenge\n\n전체\n\n모든 계열사\n\n전체\n\nClear\n\n0 open positions\n\nNew articles View all\n\nContact the recruiting team\n\nToss Community Hiring\nA journey beyond finance to change lives,\nJoin us on this extraordinary challenge\n전체\nAll functions\n모든 계열사\nAll affiliatesTossToss BankToss CXToss InsightToss InsuranceToss IncomeToss SecuritiesToss PaymentsToss Place\n전체\nAll job typesFull-timeContr",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "지금 토스페이먼츠에 합류해야 하는 이유 - 금융이 알고 싶을 때, 토스피드",
+        "url": "https://blog.toss.im/article/payments-2021recruit",
+        "text": "지금 토스페이먼츠에 합류해야 하는 이유 - 금융이 알고 싶을 때, 토스피드\n\n현직자가 말하는 “내가 토스페이먼츠에 합류한 이유”\n\n토스페이먼츠 팀이 일하는 방법\n\n“동료가 곧 복지” 토스페이먼츠 팀에 합류해야 하는 이유\n\n## 결제 산업은 아직 기회가 많아요. 최고의 동료들과 최고의 결제 서비스를 만들고 싶다면 지금 합류하세요.\n\n온라인에서 결제하다가 짜증 나서 그만둔 적 있으세요? 결제, 원하는 물건을 사기 위해 꼭 필요한 과정이지만 카드사 앱을 따로 설치해야 한다거나, 복잡해서 당황했던 경험이 한 번쯤은 있으실 거예요.\n\n지난해 8월, 토스페이먼츠가 새로운 차원의 결제 서비스를 만들겠다는 비전을 가지고 힘찬 첫걸음을 내디뎠습니다. 빠르게 금융을 혁신해가고 있는 토스가 대기업인 LG유플러스 PG 사업부를 인수한 것으로도 큰 화제가 됐는데요.\n\n토스페이먼츠는 이제 곧 출범 1년을 앞두고 있습니다. 지난",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "[토스페이먼츠] 서버 개발자(3년이하) 채용 공고 | 원티드",
+        "url": "https://www.wanted.co.kr/wd/283067",
+        "text": "[토스페이먼츠] 서버 개발자(3년이하) 채용 공고 | 원티드\n\n## 포지션 상세\n\n[꼭 확인해주세요]•서버 개발 경력이 총 3년 이하인 분들을 위한 공고입니다. 개발 경력이 짧아도 지원하실 수 있어요.•토스페이먼츠는 연차에 따른 정량적인 평가보다, 그동안 '밀도있는 경험을 했는지'와 앞으로도 '가파른 성장이 기대되는지'를 통해 가능성을 찾고자 해요.[토스페이먼츠를 소개해드려요]• 토스페이먼츠는 사업의 어려움과 비효율을 이해하고, 기술부터 운영까지 사업에 필요한 모든 솔루션을 제공하는 것을 목표로 합니다. 소비자들에게 쉽고 편한 서비스 경험을 제공하고, 가맹점들에게는 오직 사업에만 집중할 수 있는 환경이 보장되는 제품을 만들고 있어요.• '전자결제 시장 혁신'을 핵심 목표로 자율과 책임의 원칙 아래, 강력한 상호 신뢰의 문화 속에서 일하고 있어요. 결제 산업의 미래를 함께 만들어 갈 동료를 기다리고 있습니다!\n\n### 주요업무\n\n[합류하면 함께할 업무예요]합류하게 될 팀은 인터뷰 과정",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "토스페이먼츠 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
+        "url": "https://jasoseol.com/companies/11994",
+        "text": "토스페이먼츠 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n#### 한 줄 소개\n\n전자지급결제대행(PG) 서비스를 기반으로 신용카드, 계좌이체, 휴대폰, 상품권 등 다양한 결제 솔루션을 제공하는 기업\n\n#PG사#결제대행#핀테크#전자결제#비바리퍼블리카 계열\n\n산업(업종)\n\n금융 및 보험업\n\n기업 형태\n\n대기업\n\n대표자\n\n임한욱\n\n사원수\n\n371명\n\n매출액\n\n8,196억 7천만 원\n\n설립 년도\n\n2020년\n\n주소지\n\n서울 강남구 테헤란로 131, 15층 (역삼동,한국지식재산센터)\n\n홈페이지\n\nhttp://www.tosspayments.com/\n\n초봉3,942만 원\n\n평균 연봉5,521만 원\n\n각 기업이 공공",
+        "score": 0,
+        "published_date": "2016-03-29T00:00:00.000Z"
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "\"돈이 스스로 판단·실행\" 토스, 블록체인 금융 OS 구축 나서 < 금융 < 기사본문 - 아시아에이",
+        "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=243337",
+        "text": "\"돈이 스스로 판단·실행\" 토스, 블록체인 금융 OS 구축 나서\n\n2026-03-17 18:44 (화)\n\n- 모바일웹 --\n- 제보\n- 광고문의\n- 회원가입\n- 로그인\n\n2026.03.17(화)\n\n- 세종 ℃ 미세먼지 B\n- 제주 ℃ 미세먼지 B\n- 경남 ℃ 미세먼지 B\n- 경북 ℃ 미세먼지 B\n- 전남 ℃ 미세먼지 B\n- 전북 ℃ 미세먼지 B\n- 충남 ℃ 미세먼지 B\n- 충북 ℃ 미세먼지 B\n- 강원 ℃ 미세먼지 B\n- 부산 ℃ 미세먼지 B\n- 울산 ℃ 미세먼지 B\n- 대구 ℃ 미세먼지 B\n- 대전 ℃ 미세먼지 B\n- 광주 ℃ 미세먼지 B\n- 인천 ℃ 미세먼지 B\n- 경기 ℃ 미세먼지 ",
+        "score": 0,
+        "published_date": "2026-03-14T00:00:00.000Z"
+      },
+      {
+        "title": "토스 \"페이스페이, 2026년까지 100만개 매장으로 확대\" < 핀테크 < 금융 < 경제 < 기사본문 - 포쓰저널",
+        "url": "https://www.4th.kr/news/articleView.html?idxno=2094279",
+        "text": "토스 \"페이스페이, 2026년까지 100만개 매장으로 확대\"\n\n최종편집 2026-03-02 01:45 (월)\n\n- 회원가입\n- 로그인\n\n최신뉴스 --\n\n[[반복되는 해킹사고] ③ 제도는 왜 기업을 바꾸지 못했나]\n\n[[반복되는 해킹사고] ② '일상'이 된 정보유출 집단소송]\n\n[[반복되는 해킹사고] ① '보안은 비용'이라는 인식의 대가]\n\n[[이란 사태] 혁명수비대 \"미 항모모함에 탄도미사일 4발 공격\"](https://www.4th.kr/news",
+        "score": 0,
+        "published_date": "2025-09-02T00:00:00.000Z"
+      },
+      {
+        "title": "토스플레이스, 토스 포스 'AI 자동 상품 등록' 기능 도입",
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1696465",
+        "text": "토스플레이스, 토스 포스 'AI 자동 상품 등록' 기능 도입 --\n\n## [단독] 현대차, 미국 로비 전략 대전환…'UAM' 빠지고 '로봇' 전면화\n\n## SK하이닉스, HBM용 'TC 본더' 발주…한미반도체·한화세미텍 동시 수주\n\n## ‘1.3조 미상환’ 홈플러스의 구애…시장질서 흔든다\n\n## ‘FDA 3수생’ HLB, 신약허가 총력전…김태한 대표 영입 효과 주목\n\n## HD현대·한화오션·HJ중공업…K조선 MRO 3강 시대\n\n## [현장] \"충분히 도전해볼 만한 분야\"...한 청년 건설인의 외침\n\n## 진양곤 HLB 의장, 사재 털어 계열사 주식 잇단 매입…\"신뢰 회복 의지\"\n\n## HBM4 전쟁 본격화…삼성·SK 동시 공급에 가격 600달러 돌파\n\n## [단독] 노동부, 대한항공 ‘연차 제한’ 실태 파악 나섰다\n\n## 네이버 로봇, 1784 사옥 나와 해외로 간다\n\nSNS 기사보내기\n\n다른 공유 찾기 기사스크랩하기 인쇄\n\n이 기사를 공유합니다\n\n닫기\n\n본문 글씨 키우기 가 본문 ",
+        "score": 0,
+        "published_date": "2026-01-23T00:00:00.000Z"
+      },
+      {
+        "title": "“결제 연동 최대 3개월→10분으로 단축”···토스페이먼츠, MCP 서버 도입",
+        "url": "https://cio.com/article/4008746/%EA%B2%B0%EC%A0%9C-%EC%97%B0%EB%8F%99-%EC%B5%9C%EB%8C%80-3%EA%B0%9C%EC%9B%94%E2%86%9210%EB%B6%84%EC%9C%BC%EB%A1%9C-%EB%8B%A8%EC%B6%95%C2%B7%C2%B7%C2%B7%ED%86%A0%EC%8A%A4%ED%8E%98.html",
+        "text": "“결제 연동최대3개월→10분으로 단축”···토스페이먼츠, MCP 서버도입| CIO\n\n닫기* 애널리틱스\n* 인공지능\n* 생성형 AI\n* 비즈니스 운영\n* 경력 관리\n* 클라우드 컴퓨팅\n* 데이터센터\n* 데이터 관리\n* [미래기술](https://w",
+        "score": 0,
+        "published_date": "2025-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "“결제 연동 10분 시대 개막” 토스페이먼츠, AI 연동 MCP 서버 도입",
+        "url": "https://www.itworld.co.kr/article/4008892/%EA%B2%B0%EC%A0%9C-%EC%97%B0%EB%8F%99-10%EB%B6%84-%EC%8B%9C%EB%8C%80-%EA%B0%9C%EB%A7%89-%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0-pg-%EC%97%85%EA%B3%84-%EC%B5%9C.html",
+        "text": "“결제 연동10분 시대개막”토스페이먼츠, AI 연동MCP 서버도입| ITWorld\n\n닫기* 인공지능\n* 생성형 AI\n* 클라우드 컴퓨팅\n* 퍼스널 컴퓨팅\n* 데이터센터\n* 미래기술\n* 증강 현실\n* [엔터프라이즈 애플리케이션](http",
+        "score": 0,
+        "published_date": "2025-06-18T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "GitHub - tosspayments/browser-sdk: 토스페이먼츠 결제 연동 SDK",
+        "url": "https://github.com/tosspayments/browser-sdk",
+        "text": "# Repository: tosspayments/browser-sdk\n\n토스페이먼츠 결제 연동 SDK\n\n- Stars: 122\n- Forks: 11\n- Watchers: 122\n- Open issues: 1\n- Primary language: TypeScript\n- Languages: TypeScript (90.2%), JavaScript (9.8%)\n- Topics: javascript, sdk, tosspayments, typescript\n- Default branch: main\n- Homepage: https://docs.tosspayments.com/reference/js-sdk\n- Created: 2020-08-19T11:13:59Z\n- Last push: 2026-03-09T07:30:21Z\n- Contributors: 20 (top: tosspayments-bot, HyunSeob, Zih0, genie-youn, joi0104, moraeso, vreality64, h",
+        "score": 0,
+        "published_date": "2020-08-19T00:00:00.000Z"
+      },
+      {
+        "title": "Toss Payments",
+        "url": "https://github.com/orgs/tosspayments/repositories",
+        "text": "# Organization: Toss Payments (@tosspayments)\n\n- Website: https://www.tosspayments.com\n- Email: github@tosspayments.com\n- Followers: 312\n- Public Repos: 8\n- Created: 2020-08-07\n\n---\n\n## Top Repositories\n\n| Repository | Description | Stars | Language | Last Updated |\n| --- | --- | --- | --- | --- |\n| browser-sdk | 토스페이먼츠 결제 연동 SDK | 122 | TypeScript | 2026-03-09 |\n| tosspayments-sample-v1 | 토스페이먼츠 SDK v1 샘플 프로젝트입니다. | 95 | HTML | 2026-01-22 |\n| tosspayments-sample | 토스페이먼츠 결제연동 샘플 프로젝트입니다. | 69 |",
+        "score": 0,
+        "published_date": "2025-10-10T00:00:00.000Z"
+      },
+      {
+        "title": "feat: TossPayments browser-sdk V2 · Pull Request #94 · tosspayments/browser-sdk",
+        "url": "https://github.com/tosspayments/browser-sdk/pull/94",
+        "text": "# Pull Request: tosspayments/browser-sdk #94\n\n- Repository: tosspayments/browser-sdk | 토스페이먼츠 결제 연동 SDK | 122 stars | TypeScript\n\n## feat: TossPayments browser-sdk V2\n\n- Author: @moraeso\n- Association: CONTRIBUTOR\n- State: merged\n- Labels: size:good\n- Source branch: feat/tosspayment-sdk-v2\n- Target branch: staging/sdk-v2-bc\n- Assignees: @moraeso\n- Reviewers: @vreality64, [@genie-youn](https://github.com/",
+        "score": 0,
+        "published_date": "2024-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "refactor: 테스트 리팩토링 · Pull Request #99 · tosspayments/browser-sdk",
+        "url": "https://github.com/tosspayments/browser-sdk/pull/99",
+        "text": "# Pull Request: tosspayments/browser-sdk #99\n\n- Repository: tosspayments/browser-sdk | 토스페이먼츠 결제 연동 SDK | 121 stars | TypeScript\n\n## refactor: 테스트 리팩토링\n\n- Author: @moraeso\n- Association: CONTRIBUTOR\n- State: merged\n- Labels: size:small\n- Source branch: refactor/test-refactor\n- Target branch: staging/sdk-v2-bc\n- Assignees: @moraeso\n- Reviewers: @genie-youn, @JooYang\n- Mergeab",
+        "score": 0,
+        "published_date": "2024-07-01T00:00:00.000Z"
+      },
+      {
+        "title": "토스 결제 API 직접 사용해보기 (FE v2/BE v1 기준)",
+        "url": "https://go-gradually.tistory.com/entry/%ED%86%A0%EC%8A%A4-%EA%B2%B0%EC%A0%9C-API-%EC%A7%81%EC%A0%91-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0-v2-%EA%B8%B0%EC%A4%80",
+        "text": "토스 결제 API 직접 사용해보기 (FE v2/BE v1 기준)\n\n최신 버전은 아래 구조와 다를 수 있습니다. 공식 문서를 참고하여, 버전이 맞는 지 확인해 주시기 바랍니다.\n\n시작하기 | 토스페이먼츠 개발자센터토스페이먼츠 결제 연동하는 클라이언트, 서버 개발자가 꼭 읽어야할 문서를 추천해드려요. 빠르게 개발을 시작해보세요.docs.tosspayments.com\n\n## 결제 이해하기\n\n- 이 글 보다 당신에게 딱 맞출 수 있는, Toss Payments 공식 문서: https://docs.tosspayments.com/guides/v2/get-started\n- 결제 흐름 이해하기: [https",
+        "score": 0,
+        "published_date": "2026-03-14T00:00:00.000Z"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "한경비즈니스 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83Zm5FdnhIV3MxSWRNWmVxZzhybmRCU2tzV1Z0UW40enZTTm8tQmV4WVZpUUNsX0Z2UmNXbkk2T0RvTWJRVUR3SnY4V1JoLU8wV3A0U0FkekcxM01JVVNtMnB3OUF2MjQ?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "한경비즈니스 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kZGRlblBpY1ZvZGwzTmxqaUpDQjQwRTNVZ3FReGhIaDF2SGx6b3BMOFpGTTVXUWdtZ05WSTIxcmFQa3NQM3hDTGpuZ2RJY0RUSml6NjU0ZU4xU2tMSXdtVnpXR2VhUkwt?oc=5",
+        "pub_date": "Sat, 21 Mar 2026 06:12:41 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "토스페이먼츠, 사업자가 결제화면 만드는 '결제위젯' 출시 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYVFkWjdIYlQyUE45c1FmZTZpdUZmdGdCQUl0T1RKT3gzTkxra2NqeVlLS0x3aDNWS1JwV0dJUW01dm93b2t4ZXNrbmJOcS1ucTJCaFRRNWNRUlhaTnRHZ1RBQ3cwenRCZ3FDTlZobk1ickpPcWhEZ2pkNFVVdy1qMlo3Nms0bU0?oc=5",
+        "pub_date": "Tue, 14 Feb 2023 08:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "[강세 토픽] 토스 관련주 테마, 하나금융지주 +2.77%, 이월드 +2.07% - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM0g2aWJMR0tQMEx0MGxUNE16aFVpRzFmMndobGN4N0E3SFFKVFBSR1AzXzZSVWNpbF85U3JXeU9yMk9kajBkdTgxclpGOEJkOG1EYXQ5M3RnSy1uMmpIMVdBdnFLZ0dHWk9DWmNDV1ZUY3ZsNzc1Vko1bzhUWnNweFNGMNIBlwFBVV95cUxOcklsbFlHMTdTdC1fZ0hYX3FGanV2V3pjcmg4Y1BuQmFBTXBvV0w2NXZObmlMcy10aF8wbGx3eHpnc3FvZVN6eU5sU3pHbW9CR1hTdXZiYjIwU2hieDBwa0lCams3UGVoNE05Q0JvaGxTUGVEYWotdXA3bVNUTjJKdDdBSGJGajA2enkzd1ZPQ2wwdTFmVzg0?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 05:36:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "토스플레이스, ‘비상결제 모드’ 도입… 장애 발생해도 결제 가능 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ0ozVXNJM2hzcXoySFJ2SVdpOG10Nm0yaTFfS2dwU1FlZ3JZX1d0d2EtMnJOMUh4Z21uejBxcDZobFZ1RDdKbDdBTEpza2tJS3d6NzNuSk1CTXpyZE5pNTg5TzVQQkk3eFJfTGJZMy1LMVhabVBmMGdfYUdyeXZQN9IBlAFBVV95cUxNbDA1SGlNRWdMVkJWdy0tZVVoc0FNV2ZlRHJpQVcwX0xRWmRrekQ5ejh5RF92eG1fU0RJXzJBYjZRdXFUY0pISmdaWEUtZXcwWktMMWFvSkJlT1JrSW02THRMZlpoM0x6alZMUmsybk9zbG5xalktUWJ5QU4xUjBEQlM1X1loZFpqeE1lVWJELVBMRGN2?oc=5",
+        "pub_date": "Mon, 12 Feb 2024 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "토스페이먼츠, 페이팔 제휴 통해 국내 사업자 해외 진출 돕는다 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVlNUNUpGd2xLbWdlMndUdG5pajlZRThRUy1WLWkwVUJma3p4TzNoTWU4VzBZY1dsNzItRFRrMTdIc1NmUUFwTXJlb2k2NjBsUkQ4V2Nvb0Z3dHlCd2ZDa0k1dGhudDQzbDVTRmtqZEtfZEVDNnEzY2ltcUdyUlljZ9IBlAFBVV95cUxNWE1qY0xMckpMOW1rNkx5VXh0bVNhcEJMQ01wUWNaZGNWRDQ4Um1XN3V3V0p0a3libDJvOXRGLUhQU1ZLSmNWLVgzeGVReFJvaUQ0dFFRb29VcTlSR2gyNzhvNkY4X2RoSTIxRlM1TV82Z2xyR0hhbGY2SHlXVTBkS3c2YlNvM0ZGMy11MjkzZ0l4b3hC?oc=5",
+        "pub_date": "Thu, 01 Jun 2023 07:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "https://www.mk.co.kr/sitemap/daily-images/20260205 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XaU5ZRlJxNWxWTjA1alc3RC0zNWduTEdVSWgzRDFQWlBGS2oyUWR6YTUwNTczRVQ2WnVMd2ZOWmRxU3paUGplV3NPcmh5dEVpRGdVeDEtVWRhenRJdmk0?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 09:32:12 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "\"안면인식 결제시장 선점해 자영업자 편의 대폭 높인다\" - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZYVNHNGpPUTNEOXlRbHlnVnA5aDAxVThidGJ1Q0d3aGswMFN4TTh6dXR2c3p4RDhZb01KMU1fNzczcDlEZmk2LXJMejFvSkZvczE0Tg?oc=5",
+        "pub_date": "Sun, 08 Jun 2025 07:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "\"고인물 결제대행시장에 혁신DNA 불어넣죠\" - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SOEFET0F3cHZZdEI0WFFrMUI3WUJZNEZ3MGN2RmtNOEtHQnhLckZvYm8wcE8wSkh1eXJWY1cySDZKQzYzWnhwNG83UThDZEs4OTJNclVUM3dEQjlQczVJ?oc=5",
+        "pub_date": "Sun, 15 Jun 2025 07:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "토스페이먼츠 \"PG, 다양한 온라인 결제를 기술로 풀어주는 파트너\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QbWFWbGtiVnpzV1hUUWdTWXp0TWh6cEh2LWVEczZMYzNDY1hVQV9pSEp0THJuNkY4ei0xRG5TUGZ4Q0wwbWhvNkVtWHJtdVBIbk10b0Fn?oc=5",
+        "pub_date": "Mon, 17 May 2021 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "토스는 왜 카페24에 200억원 투자하나 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13TmUzV2ZVMzV2di1BanQ3Q3RMN2p3cW11Uk40bm9ZLW9CemhTY0dxa3hLM19FTnU1QjVIT0t1cEs3SHhMVmtraGlKb0k3amFkRVFMem1n?oc=5",
+        "pub_date": "Fri, 12 Nov 2021 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "토스페이먼츠 \"더 빠르고 안전하게 결제 지원\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TZHNwVjRkaDZOWXZLM1hWWTczdDZmOW9BZHJqcVFiUFNGSDNJeFNUUjlUZGJkSVlKZUZ1YUIyNWdNNFRCT0xWZFI5MGRXeUU1ZDNnVzFn?oc=5",
+        "pub_date": "Tue, 06 Dec 2022 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[인뱅 스테이블코인戰]③ 토스뱅크, 사업화 신중…급선무는 인프라 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zSG1JUkktdUJkNXpJVk0zZml5d050NHcxVm93QzVmXy1adzlZc29tTW1JS2pjdWRHQnAtYngyQUJqaENlNkxyaU1Tdm9pMzlpcUtFdGdLbzdBdnFrX3VTSVZWSlZSakQy0gFsQVVfeXFMTUpvTHNaNHlnMUZNeXh2eWpUcGxic3I0eDNFVkt0SS1Tc3A5cXNCczVKRmE1clVSSUR3RUdJR0hEbnJoenhFdnVPVXFMNkVScEN1ZkZUZzY1MjdnZlBvVnNXcnJuUllHVWlqWWlv?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 02:02:14 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "'지분 스왑' 토스, 기업가치 '20조' 받았다 [넘버스] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlVWY4VnZ1bzBMOEtYdEsxeVQ1WnJ1QXpBSTFWeS1zYU5NbnNYcXlNNzdRMVNDcjJvTDlsXzF4T0UwZFB1YXBaaENJZVNCdkxOQzlNODg0T3dzYzVnMHRRQTdQOUpPVEc20gFsQVVfeXFMTno1YnNUdlFUdmNNY1k4X0dVb2tBWGVmQWduRXdDOWE5UVlOTDgwX3hMa3lXbFViU1Y5ZFJTMzZhUUpiWGUwVUdsOVhJZ203Rk9GSV9fYXF6Ul9kRWdDVUQwRHVDMnZfZEFBczJD?oc=5",
+        "pub_date": "Mon, 19 Jan 2026 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "PG사업 뛰어든 토스, 돈으로 시간과 고객을 사는 이유 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtalBJaVJWZjdOQmJBTnhYby11SWk1cVQ3YmJYRVF5bGhSaS1Nc0Y4SmZqNHVJSG9vcnZuVkwtaE4wcWdDRW1ibVU5WVhyczF1cVQxcDNvdmRxNTh4NDlWNmpackROYjTSAWtBVV95cUxNNkhtTFhaRGprTERTamtQTm9ZSk1HSTAtLWszZ1dQNmNEWVRwNUFCS0o1SDNIVFhiZ1Y1TXVtdEluM05vb0g1TExoaTlSWkFZMjllcGw0SmJ4eVdzeURzamFQRl9GUzFYbFptYw?oc=5",
+        "pub_date": "Mon, 03 Aug 2020 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "국내 3대 핀테크와 손잡은 앤트그룹의 목표 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42NEpZMmtTc3l1d2NXWXVQejVuQWw0U3JYS2IzMExXSWVVM1JIMnVydEliTExfSWRBU1BZTkNFbHNfTUV0WXlQSDYxQjR0RHM?oc=5",
+        "pub_date": "Tue, 26 Sep 2023 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "[IT TMI] 토스는 왜 LG유플러스의 PG사업을 인수했나 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xQllUOUo5RVZ5alRsZFFaUmJsSHphUHVkR2ZjOHlfbGd0WHpsOV9VTkROcm1JVVpWdzFETkZGREdyZV8yWE91OXpyYUFhUQ?oc=5",
+        "pub_date": "Fri, 05 Mar 2021 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "매출 1조 넘긴 토스, 비결은 ‘PG‘ - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NYWc0Ry15UlpvUGFOdmFZT0QxSzMwdmxDeGh1YjJTektyRUhZRVJTWDVNZW0yaTVmX2xsNmthSGtvekhiTlR1eTQ5X1FrUQ?oc=5",
+        "pub_date": "Mon, 03 Apr 2023 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

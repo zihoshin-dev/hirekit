@@ -1,0 +1,734 @@
+{
+  "company": "리턴제로",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 12,
+  "sections": [
+    "strategy",
+    "culture",
+    "overview",
+    "tech"
+  ],
+  "data": {
+    "company_name": "주식회사 리턴제로",
+    "company_name_eng": "Return Zero Inc.",
+    "stock_name": "리턴제로",
+    "ceo": "이참솔",
+    "address": "서울특별시 서초구 강남대로 343 (서초동, 신덕빌딩) 8층",
+    "industry_code": "582",
+    "established": "20180328",
+    "homepage": "",
+    "ir_url": "",
+    "stock_code": "",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
+        "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
+        "link": "https://blog.naver.com/blrol_blrol/224224956373",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+        "link": "https://sibauchi.tistory.com/1205",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
+        "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
+        "link": "https://think-tank.tistory.com/1035",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
+        "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
+        "link": "https://blog.naver.com/kcl3598/224224791593",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
+        "description": "기업 문화 기획, 인사 데이터 분석) 지원 자격 2026년 8월 졸업 예정자 및 기졸업자 (전공 무관) 근무지 경기도 광명시 유플래닛타워 (광명역 인근) 전형 절차 서류전형 → 인성검사 → 면접전형 → 합격자... ",
+        "link": "https://blog.naver.com/goodlife_92/224224618278",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+        "description": "실제 사용자들의 후기를 살펴보면, &quot;채용 공고 내용과 실제 업무 환경이 다른 경우가 많다&quot;, &quot;연봉 정보가 명확하게 제시되지 않아 어려움을 겪었다&quot;, &quot;면접 과정에서 기업 문화에 대한 충분한 정보를 얻지... ",
+        "link": "https://ilovefamily.tistory.com/527",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "현대자동차 3월 채용 취업 이직 대비 (자소서/면접)",
+        "description": "등 합격자 배출 이력을 가진 바로코칭이 취업/이직 후기를 정리해보겠습니다 현대자동차 현직 출신으로 실제로 서류/면접 전형을 담당했던 이력을 보유하고 있어 현대자동차 기업의 내부적인 사항들에... ",
+        "link": "https://blog.naver.com/bashinga197939/224224525166",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "26년 상반기 코스맥스 마케팅 직무분석 (전략마케팅, 3WAUU)",
+        "description": "거의 제로에 수렴합니다. 추가로 선케어 카테고리는 수요가 워낙 많아 전용 생산 라인이... 반면 코스맥스는 매출액과 영업이익 모두 사상 최대치를 기록했음에도 불구하고, (기업 측에선) 하반기 국내... ",
+        "link": "https://blog.naver.com/ffwangu85/224224514654",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
+        "description": "경영진 면접 → CEO 및 주요 임원 참여 4단계: 최종 합격 발표 ※ 전체 과정은 약 2개월 정도... 실제로 활용할 수 있는 환경이 잘 갖춰져 있습니다. 2. 기업 문화 온보딩이 체계적이고, 누구에게든 자유롭게... ",
+        "link": "https://blog.naver.com/ttooooriiii/224224472695",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "제로베이스 믿고 이제 와서 취업 도전하는 웹소설 작가 후기",
+        "description": "제로베이스에 대해서 조금만 말을 해야 한다. 원고료를 받았으니까. 말하자면 취업에 대한 모든 걸 쇼부쳐주는 그런 곳이다. 말이 너무 저렴한데, 진짜 그렇다. 기업 채용 정보 공유, 이력서 첨삭, 면접 컨설팅... ",
+        "link": "https://blog.naver.com/gosilverpine/224224465484",
+        "pub_date": "20260321"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "2026년 상반기 경상남도 공공기관 통합채용 필기후기",
+        "description": "▶ 지원기업 : 경남문화예술진흥원 ▶ 지원부서 : 일반직 7급 ▶ 고사장 : 경남관광고등학교 ▶ 결시율... 에서 물건배치 형식 물수제비와 관련된 발명사례 연봉성과제도 - 제로썸 ✏️인적성 검사/ 필기... ",
+        "link": "http://cafe.naver.com/uccplus/2365013",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한때 세계를 지배했던 일본, 왜 지금은 추락했을까? 1989년 --무한돈전",
+        "description": "고령화는 단순한 복지 예산의 문제가 아닙니다. 국가의 혁신 동력 자체가 고갈된다는 것을 의미합니다. 신기술을 받아들이고 창업에 도전할 젊은 피가 없는데 경제 성장이 가능하겠습니까? 실제로 일본 인구는 매년 91만... ",
+        "link": "http://cafe.naver.com/truthdaily/12298",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "Pricing - 리턴제로 - 차세대 음성 AI의 미래",
+        "description": "최고의 정확도와 효율을 가진 음성인식 엔진을 지금 바로 도입하세요 스타트업부터 대기업까지, 딱 맞는 요금제를 제공해드립니다",
+        "link": "https://www.rtzr.ai/pricing",
+        "pub_date": ""
+      },
+      {
+        "title": "About - 리턴제로 - 차세대 음성 AI의 미래",
+        "description": "정주영 ; 공동 CEO &amp; CTO (주)카카오 카카오톡 PC팀, 메시징팀 (주)로티플 CTO / 공동창업자 ACM-ICPC World Final 17위 KAIST 전산학과",
+        "link": "https://www.rtzr.ai/company",
+        "pub_date": ""
+      },
+      {
+        "title": "'새로운 여정, 인공지능과 함께'... AI 기술로 생태계 혁신 나선 N차 창업 CEO들",
+        "description": "특히 AI 중심 산업으로 재편하고, 진정한 의미의 교육기회 평준화를 이루고자 한다&quot;며, &quot;이번 투자는 사업이 아닌 새로운 산업 생태계를 만들어 나가는 비전의 시작으로, 이를 위해 해외뿐 아니라 국내 기업들과...",
+        "link": "https://www.aitimes.kr/news/articleView.html?idxno=24401",
+        "pub_date": ""
+      },
+      {
+        "title": "2021년 AI바우처 공급기업 목록",
+        "description": "Detection ▣ (AI 비전 솔루션) 딥러닝 비전 기술 기반 실시간 이미지 분석 솔루션 ▣ (Embedded 비전 솔루션) 임베디드 환경에서의 실시간 딥러닝 영상 판독 솔루 션 2019.05.31 서울특별시 서울시...",
+        "link": "https://www.nipa.kr/comm/getFile?srvcId=BBSTY1&upperNo=6dip0B97VYNwPKC9WW2e7Q==&fileTy=ATTACH&fileNo=zfcQO6rwm5bsLVvcLr4wfw==",
+        "pub_date": ""
+      },
+      {
+        "title": "‘세계 AI 시장 3위는 영국?’ 영국이 그리는 AI 혁신의 미래",
+        "description": "공공 부문에서 신속한 AI 시범 사업 추진과 성공적인 사례를... 차원의 AI 전략 이행 현황을 정기적으로 점검하고 관리할... 영국 AI 혁신 기회 포착을 위한 정부 정책 방향 (英 DSIT, 1.13)...",
+        "link": "https://blog.naver.com/kiat_tech/223811669760",
+        "pub_date": ""
+      },
+      {
+        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+        "pub_date": ""
+      },
+      {
+        "title": "2020년 AI 바우처 지원사업 공급기업 Pool",
+        "description": "2020년 AI 바우처 지원사업 공급기업 Pool 자연어 처리 스크립트+목적 기반의 자연어 처리 예측... 분석 AI 비전 솔루션 제품 품질 불량 검증 및 수치 측정 솔루션 제공 기술 컨설팅 IoT, Big Data...",
+        "link": "https://www.nipa.kr/comm/getFile?srvcId=BBSTY1&upperNo=EyTSUfa0zBqsmMZAe6osHQ==&fileTy=ATTACH&fileNo=iXl5zL1Ure9B6grVXziy0Q==",
+        "pub_date": ""
+      },
+      {
+        "title": "2021년 AI 바우처 공급기업 목록",
+        "description": "com 지능형 영상분석, 빅데이터 예측진단, 지능형 비전 검사 ▣ (지능형 영상분석) IoT 융합... com AI플랫폼, AI플랫폼 운영포털 ▣ (AI플랫폼) 금융, 유통 및 전사업군 AI 플랫폼 ▣ (AI플랫폼...",
+        "link": "https://www.nipa.kr/comm/getFile?srvcId=BBSTY1&upperNo=3DFDpPfAhP3dIg9DOV20uQ==&fileTy=ATTACH&fileNo=OCYUbAJv0sxO3hVoO7fIvA==",
+        "pub_date": ""
+      },
+      {
+        "title": "DeNA는 어떻게 AI트랜스포메이션을 추진하고있는가? -DeNA의 AI 전략과 미래 비전: AI 혁신을 통한 경영 및 비즈....",
+        "description": "신사업 창출을 목표로 적극적인 AI 도입 전략을 추진하고 있다. 특히, AI를 활용한 업무 자동화 및... 실제로 AI 기반 솔루션을 활용하면 기존보다 빠르게 정보를 검색하고 분석할 수 있으며, 회의록 자동 생성...",
+        "link": "https://contents.premium.naver.com/aidx/aix/contents/250220112145006ci",
+        "pub_date": ""
+      },
+      {
+        "title": "뷰카시대 생존전략? DX가 해답!",
+        "description": "인공지능(AI), 클라우드 등을 기반으로 사업 영역 전반의 디지털... 이와 더불어 경영전략, 조직문화, 협업문화까지 기업의 근원적인... 먼저 DX를 추진하려는 명확한 비전과 목표를 수립하고, 경영진을...",
+        "link": "https://brunch.co.kr/@groobee/687",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "㈜리턴제로 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/recruit/co_read/c/lalalere83",
+        "description": "㈜리턴제로의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요."
+      },
+      {
+        "title": "리턴제로(비토) - 기업정보 | 투자, 매출, 기업가치 - THE VC",
+        "url": "https://thevc.kr/returnzero",
+        "description": "서류 결과 발표는 2026년 1월 15일, 최종 합격 발표는 2월 27일 예정이며, 지원 방법과 상세 정보는 공식 홈페이지에서 확인할 수 있다. 디캠프, 스타트업OI #금융권 종료.. 올해의 스타트업 &#x27;리턴제로&#x27; 선정"
+      },
+      {
+        "title": "(주)리턴제로 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/REQ2MUJSbHV2andyNDk1OGxRVTdQZz09/company_nm/(%EC%A3%BC)%EB%A6%AC%ED%84%B4%EC%A0%9C%EB%A1%9C",
+        "description": "최근본 중장년 채용정보는 원더풀시니어 외국인 채용정보는 KoMate 개발자 커리어는 점핏 ... Ai 모의면접 연습부터 진단까지 대비! 포지션제안 지원하기 전에 제안 받아보세요 ... 본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다. ... 사용자에 실질적 가치를 제공하고 생활을 바꿀 수 있는 인공지능 기반 서비스를 만들어내는 팀, 리턴제로 입니다."
+      },
+      {
+        "title": "[리크루터뷰] 개발자의 성장과 기업의 성공을 이끄는 데브렐 - 그리팅 블로그",
+        "url": "https://blog.greetinghr.com/recruiterview-4/",
+        "description": "SNS, 뉴스레터, 기술 블로그, 컨퍼런스 등 다양한 채널에서 개발자 분들께 우리 회사의 기술과 개발 문화를 소개하기도 하고, 이외에도 내부 개발자 분들이 몰입해 일할 수 있는 개발 문화를 만들기 위해 지원하고, 기술 역량을 키우기 위한 교육을 기획하기도 해요. 이처럼 데브렐은 개발자와 관련된 채용 브랜딩, 조직문화 서포트, 리텐션 등 모든 일을 다룹니다."
+      },
+      {
+        "title": "GitHub - milooy/remote-or-flexible-work-company-in-korea: 한국에서 원격근무 혹은 자율출퇴근이 되는 회사 리스트를 아카이브합니다 · GitHub",
+        "url": "https://github.com/milooy/remote-or-flexible-work-company-in-korea",
+        "description": "교육회사 답게 동료 모두가 ... 공유합니다. <strong>솔직한 문화: 찬, 개선사항 피드백, 아쉬움 모두 서로가 성장하길 바라는 마음으로 공개된 자리에서 냉정하고 솔직하게 피드백</strong>합니..."
+      },
+      {
+        "title": "리턴제로 기업정보 - 평균연봉 5,882만원, 인원 33명, 업력 6년, 서울 서초구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/15499",
+        "description": "리턴제로 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "리턴제로(비토) 기업정보 - 넥스트유니콘",
+        "url": "https://www.nextunicorn.kr/company/aad523a980d39945",
+        "description": "리턴제로는 AI practitioners’ 스타트업입니다. 리턴제로의 단순 데이터를 수집하고 가공하는데서 끝나거나 API로만 문제를 해결한다거나 비영리 학문 연구로 그치는 분야라면 도전하지 않습니다. 연구실 밖으로 나가 데이터를 수집하고 그 데이터가 더 나은 서비스로 만들어내는 AI flywheel이 동작하는 분야에 도전합니다."
+      },
+      {
+        "title": "리턴제로(RTZR STT) - 기업정보 및 매출·투자·고용 데이터 | 혁신의숲(InnoForest)",
+        "url": "https://www.innoforest.co.kr/company/CP00001923/%EB%A6%AC%ED%84%B4%EC%A0%9C%EB%A1%9C",
+        "description": "리턴제로(RTZR STT)의 매출, 고용, 투자유치, 임직원, 서비스 데이터를 혁신의숲(InnoForest)에서 한눈에 확인하세요."
+      },
+      {
+        "title": "(주)리턴제로 2025년 기업정보 | 기업리뷰 13건, 4.2 ...",
+        "url": "https://www.jobplanet.co.kr/companies/373659",
+        "description": "(주)리턴제로 기업정보 - 장단점 키워드: 각자, 간식거리, 개발자 | 기업리뷰: IT, AI 분야에서 지속적인 성장이 가능한 기업 | (주)리턴제로의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 ..."
+      },
+      {
+        "title": "해고 대신 퇴사 유도 ‘조용한 감축’이 늘고 있다?··· 전문가들의 진단과 제언 | CIO",
+        "url": "https://www.cio.com/article/3508023/%ED%95%B4%EA%B3%A0-%EB%8C%80%EC%8B%A0-%ED%87%B4%EC%82%AC-%EC%9C%A0%EB%8F%84-%EC%A1%B0%EC%9A%A9%ED%95%9C-%EA%B0%90%EC%B6%95%EC%9D%B4-%EB%8A%98%EA%B3%A0-%EC%9E%88%EB%8B%A4%C2%B7%C2%B7.html",
+        "description": "또한, 기업이 채용 공고를 게시한 후 공석을 채우기까지 평균적으로 44일이 걸린다. 그런 다음 신입 사원을 공석에 투입하고 회사 문화에 적응시키는 데 드는 비용, 시간, 노력도 있다."
+      }
+    ],
+    "google_news": [
+      {
+        "title": "리턴제로, 50억 시리즈 C 투자 유치...”AI 보이스 글로벌 비대면 산업 본격화” - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RdG1NQVFwM2p2QnYxakUwckVkOERheFp5dVliRDNfY1IzMXVYT1NFRVFqa0hrSUx6NnVBeEhjaFFKaUItZ3VyNnRyWjBoLXc1eFRjb196UjlBX19DUzNUa0phOWhSWUhrVXc?oc=5",
+        "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "리턴제로, 시리즈C 50억 유치…\"AI 음성 비서로 글로벌 무대 간다\" - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ITnhiTzBTMVloWWJRX0M4c0RqZ1dNMTJRRHc5ZHRYS3pWMWVYdkhDN1RhM2NVdVk5YW0wMWozUFRpTnNYR3ItZ2ZheU5XRXFocVVzQ1JCVU1pWWIyUGxNNmJ0RDZwdGFFMk5CcA?oc=5",
+        "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "리턴제로 ‘콜라보’, 연간 2만 시간 회의 데이터 자산화 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kOW1qZW1udUJGelBFLUswTFJmaldIRHRIcTRHaHdZUjJmcGszandwMTRtdU5KRHd1RTN1d3ZUZHhMSURTYU4tbQ?oc=5",
+        "pub_date": "Wed, 12 Feb 2025 05:16:17 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "카카오 출신들이 만든 AI스타트업 ‘리턴제로’, 폭풍성장에 두 자릿수 규모 인재 채용 - 인공지능신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53Y2xqVVdYbmZMVjlMX0hmZTR3eXoza21HX1BWcGZ5NkRTYUZtb093NVZPTDlPUm1zM1Q2WHdqdnoyUUtfX1ByeXF6VnN5elhJXzdlT1RLMThjYzBuV0FCYS1DU3AyRWs?oc=5",
+        "pub_date": "Thu, 26 May 2022 07:00:00 GMT",
+        "source": "인공지능신문"
+      },
+      {
+        "title": "리턴제로, 더 똑똑해진 ‘AI 기사 도우미’ 공개 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4SjN4Y09KdjdIS2ljTGNrV3UtT0wtRExmNkt6dnJzZDBXd0JWTExGcUkyQldzd3J4QnVtSjYwcEcwU19Tb2hDRGlmWHRqOW96ZkFMOXN3?oc=5",
+        "pub_date": "Tue, 17 Dec 2024 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "[기고] 챗GPT 만든 오픈AI, 기술력만큼 비즈니스 전략 뛰어나 - 디지털 인사이트 DIGITAL iNSIGHT",
+        "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPRWpIOTYzaGNqNUtMLVRDVERxVlVYMl9LS2FvT3FaX1NxNndIeEVpQjFiRU5jaHFqOHhfaUkyclkwS3M3bmlSNWZwbWlxbU9wcTlTcV9KaG9rZ3NNOUNqNzcxdUJNaUNPeTZfMVRfS3FqY0FMVlNURGRoRnJZMEs4YVJpNTIwME9xTVNDUDZKNm5ZYjJKa0RpZ2ZvWlQ4a1RlaUpwUjRzVTlMQUswR1JMNWpFaGFEUmpZRk95Z3dKWlJVaWJwd3lCWjVFQnlpR0RwMW9rZENwYWdDdnpLQ0NsVGE0UURpaGdkeWp1d1RScDVHdzlwY1VBemdacllGSGVqSVh4M2tGUkYtV1VzYlllV1Fva1RoX1VZcjNQWmx2N1ctLUVlZ1ZTRjc4Y1J1bmFqM2FZajg4Q24?oc=5",
+        "pub_date": "Fri, 26 May 2023 07:00:00 GMT",
+        "source": "디지털 인사이트 DIGITAL iNSIGHT"
+      },
+      {
+        "title": "[전문가 기고] 실생활을 파고드는 음성인식의 현재와 미래 - 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51QnlyVDBrVG04V2pObmYxUVAyY2FocV9jSjZXTVplVXc2eDVfQzRiZ0RjMkI3S2E1VGF0TmdMNlpaZ3VDMzg4b05FSlRGb3U5bWtoVFo3MGdDd9IBWEFVX3lxTE9Oem1wUWt4bUhkSjhTdlpxN1Q3cV93Tkx0RmRMaFFyOUFaRlFRd1V0UTFDc1BiZm5QMnZMd3M1cERlelY4emhaTlU1V3pNcVJ6eXpURTFlNE4?oc=5",
+        "pub_date": "Thu, 15 Sep 2022 07:00:00 GMT",
+        "source": "아주경제"
+      },
+      {
+        "title": "리턴제로 “sLM 개발로 음성 인식 넘어 기업 생산성 도구로 스케일업” - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxWmFSS0xkbndFWXF3TGh2VkpNSUJsbmdwX0gwVkpSOF9nVEZleEhURmRkYW9EdEVYc1FpLTZjTS1neUZ3YS1tX1RoTEtmMW1EdlZmZjRSR3JnTlNhVjBaNmFvLVpQcUNmeGc?oc=5",
+        "pub_date": "Thu, 19 Sep 2024 07:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "AI 통화 요약 기능 탑재한 ‘비토’ 앱 업데이트 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xeW5UNGZhdWJTM1NYSWQxVkpNRWUzdGhGMGNOZ2M4bHdheDRISW81MTc1UU4yMWstNUpfazEzUzBVZ0xJeTA3Vw?oc=5",
+        "pub_date": "Thu, 06 Feb 2025 08:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "\"큰 손 잡아 보릿고개 넘자\"…'기업 손님' 찾아나선 B2C 플랫폼 [긱스] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rbldDVHdzbVU2WWgtU3JtU21jX0dmR015Q0JscFpYdS1oNzJfanVkRW1CRTVYOWhEbDRRemM2TXZYSzktR0MyVDJWcmhLa0cxT3JycmgxVFZXUdIBVEFVX3lxTFAtNG82RGhYY2ZXX2l1MmNLRWJWSFFtWFVFclpicmZxaHNDaUQwTmhPdEFTbXZXWmFmc290SVJGWUJCUEdycERTZzVkb1FqTzV4N1I4WA?oc=5",
+        "pub_date": "Wed, 20 Sep 2023 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "우리가 IT 사업개발/기획자 모임을 시작한 이유 - 브런치",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wQkltQWF2bnJMak5RYXFjT0hKQlo2YVV0WERkRUwzY2wtUUFvMF9hRV9HRkI0ejV1dzRMLTRISzRCYl9TWFd2RTdDbw?oc=5",
+        "pub_date": "Sun, 08 Jan 2023 15:33:23 GMT",
+        "source": "브런치"
+      },
+      {
+        "title": "\"금융업무 AI로 효율화\"…신한금융, STT 솔루션으로 AICC 구축 - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SbVl4bUtTNDNaQ09mLVB1RkNQbVc3eEhyUno0b2pXVmR4eHg4X2FjMUhzRC16Ry1FRzJjSk51Yl9vY2J3MlRicjN0VWZhUVBOUm5SUmRWdzFGeDRJMlBibTFMdGJLenNjQkR1Ng?oc=5",
+        "pub_date": "Tue, 02 Apr 2024 07:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "눈으로 보는 AI 전화 ‘비토’, 유료 멤버십 도입으로 보다 차별화된 서비스 제공 - 인공지능신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02RldYV2RNNF9pM0tMbXdTbWl2eDZldnJ6NzdkM0JmZkJSRUMwVk1OZnNyR1pzaGN4cmNYNXdYa3lmTXdlVE5NS3lWRThoVnZpWXJXZi1xQlZibnotc05ldFhkS25MQ1E?oc=5",
+        "pub_date": "Fri, 03 Feb 2023 08:00:00 GMT",
+        "source": "인공지능신문"
+      },
+      {
+        "title": "리턴제로 \"AI 회의록 작성 서비스 ‘콜라보’로 회의 2만건 처리\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yOTl1bW03MHppZENqcklaU2Z6ZW96RkNUcVhVemdLOVp5WDVUODIwLUwySmdTbXRjWnFmWEVNZnhRUXlab3VkU0RzVTNiZzk5dmE2aHpicXJ3dU1KS1haWTVTd0xmbEU1ZkE?oc=5",
+        "pub_date": "Tue, 06 Aug 2024 07:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "카카오·삼성 박차고 나온 청년들… 새로운 기술로 미래시장 개척 - 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlcW1ySnVrU2NQMlp4RU1jZUZHY2hIeDJoTllEMU1TX0xUY1lEZ1RMQUYtSDZuTnJLNU9lNm8zVTRZNFFRX2huU2RSRGlrci1TNzJqUWxYbi1mUdIBWEFVX3lxTE9Fem9ET3VXbDRBTGZTdVV5aGNmUExyRjctVk5MSEt3MUp6NG1wc3dIeGpUUnZSa1FNU3FnNWFiMjRESzk4N3ZxVm44eFFhWXpHd0ttbUdWNjA?oc=5",
+        "pub_date": "Mon, 23 May 2022 07:00:00 GMT",
+        "source": "아주경제"
+      },
+      {
+        "title": "리턴제로, 50억 규모 시리즈C 투자 유치..AI 에이전트 기반 비대면 산업 혁신 - 와우테일",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wSENRUVZSNGY1TEZ4TWJPdGM5b3RYWFRhc3RXMHNLbFlxbFdJSGFYcE9zdmZxem5UOV9VYXVZT19CdEhhNFJiTlZiWURSSFk?oc=5",
+        "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "source": "와우테일"
+      },
+      {
+        "title": "[Hi-Venture business] [리턴제로] 음성인식 AI…음성 처리 1500만 시간 돌파 - 경남대학교 대표",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jb2hkZGJqVXB6VzVEOHNWc0tfdE9Bd2xPdUVHNXR5UzhYaFdCclN4RUZlMWNvVXJKNWtWYmxpZy1yS2tXMWt6S3MyMEN6b0MzVFJjOFNyQ0pKa2lMMjJIV0N1UnNuTTNDeVZaWFJMTQ?oc=5",
+        "pub_date": "Mon, 02 Jun 2025 07:00:00 GMT",
+        "source": "경남대학교 대표"
+      },
+      {
+        "title": "리턴제로 ‘DX 전략 세미나’서 대화형 인텔리전스 통한 기업 경쟁력 강화 방안 제시 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE92cl9yc3VJbHlfei03OVhZZWs1RzdSelpSZmhNcDgtNjR5MFd6YmNLLXhUZHJDYVpBMTlwQnQzRG9PUUtQaWxLYQ?oc=5",
+        "pub_date": "Fri, 11 Apr 2025 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "리턴제로, ‘DX 전략 세미나’ 개최...대화 데이터 활용 KMS 전략 소개 - 디지털투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnZUlXYjJHQUFaTlpfUWs1ejlkOTRFSnhrVGpPMmRCYmxlOVBRYTlYRVRkREprVnhvdE1lY1otemJVWE9wNHYtQVJSeEEtd2VQeUhPVXZ2Vll2eDVGQWo0MG93SUJqZ21vUXpiZEs5bjZ0VkE?oc=5",
+        "pub_date": "Fri, 11 Apr 2025 07:00:00 GMT",
+        "source": "디지털투데이"
+      },
+      {
+        "title": "[신년사] 이참솔 리턴제로 대표 \"AI 음성 기술 연구·글로벌 진출에 집중\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tVHV6RUs1TGl6eExQT1BPeXVPM0hsemVhRENmaThyTDNvSUZWZ2Jhak53MENkSDkyRmhSWU1jTU9jZjZ5VG9VeXhRbDJyYVdxZ0RZOVJkSjF5RGRnRUZkaW1PM0NwenhzMXc?oc=5",
+        "pub_date": "Mon, 06 Jan 2025 08:00:00 GMT",
+        "source": "AI타임스"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "리턴제로(rtzr) | 채용, 회사소개, 연봉, 매출, 직원",
+        "url": "https://www.rocketpunch.com/companies/rtzr",
+        "text": "로그인 후 검색 가능\n\n홈가장 빠른 소식\n\n네트워킹이벤트 · 컨퍼런스업데이트\n\n채용새로운 기회 탐색\n\n교육부트캠프 · 직무 역량강화\n\n채팅나를 위한 소식\n\n허브기업 · 학교 · 사람 모아보기\n\n접기\n\n개인정보와 약관\n\n기업 서비스\n\n지원센터\n\n쿠키 맞춤 설정\n\n본 서비스에서 제공하는 사용자의 개인정보 데이터를 포함하여 각 정보주체의 동의 없이 데이터를 무단으로 수집하는 행위를 금지 및 거부합니다. 공개된 데이터도 크롤링 등 기술적 장치를 이용해 ",
+        "score": 0,
+        "published_date": "2019-11-04T00:00:00.000Z"
+      },
+      {
+        "title": "리턴제로 연봉정보 - 평균연봉 6,463만원 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/43950012/salary",
+        "text": "리턴제로 연봉정보- 평균연봉6,463만원 | 잡코리아본문 바로가기\n현재브라우저의보안설정에따라복사가허용되지않습니다.\n아래URL 주소를드래그후Ctrl+C를 눌러복사하시기바랍니다.\n주소복사닫기\n주소가복사되었습니다.\nCtrl+V를 눌러붙여넣기하세요.\n닫기\n# JOBKOREA\n검색검색\n전체 채용정보신입공채헤드헌팅로그인",
+        "score": 0,
+        "published_date": "2025-01-02T00:00:00.000Z"
+      },
+      {
+        "title": "AI 스타트업 ‘리턴제로’ 인재 채용",
+        "url": "https://www.venturesquare.net/855665/",
+        "text": "AI 스타트업 ‘리턴제로’ 인재 채용 -- -- -- --\n\nAI 스타트업 리턴제로가 4차 산업혁명의 핵심 기술인 인공지능을 기반으로 미래 혁신을 이끌 인재를 채용한다.\n\n눈으로 보는 통화 앱 ‘비토(VITO)’를 운영중인 인공지능 스타트업 리턴제로(대표 이참솔)는 인공지능(AI) 산업 전 부문에 걸쳐 두 자릿수 규모의 신입 및 경력 사원을 상시 모집한다고 26일 밝혔다.\n\n리턴제로는 이번 채용을 통해 그간 비토 서비스 운영을 통한 독보적인 AI 음성인식 엔진을 활용하여 통화 녹음 뿐만 아니라 실생활에 유용한 다양한 AI 기반 서비스들을 만들고, 글로벌 유니콘 기업으로 빠르게 성장해 나가겠다는 포부다.\n\n채용 분야는 크게 ‘R&D(연구·개발)’와 ‘서비스’ 두 개 부문으로 총 11개 직무 담당자를 상시 모집한다. 먼저 R&D 직군에서 ▲ML Engineer / Researcher, ▲서버 프론트엔드 개발자, ▲서버 백엔드 개발자, ▲클라이언트 개발자, ▲Infra / SE 등에서 역",
+        "score": 0,
+        "published_date": "2022-05-26T00:00:00.000Z"
+      },
+      {
+        "title": "'비토' 운영 리턴제로, 인재 채용…신입·경력 상시 모집",
+        "url": "https://mobile.newsis.com/view/NISX20220526_0001886265",
+        "text": "'비토' 운영 리턴제로, 인재 채용…신입·경력 상시 모집 --\n\n# '비토' 운영 리턴제로, 인재 채용…신입·경력 상시 모집\n\n기사등록 2022/05/26 10:57:43\n\n- 가가\n\n## 개발자·기획자 등 전 부문…두 자릿수 규모\n\n[서울=뉴시스] 리턴제로 사무실. (사진=리턴제로 제공) 2022.05.26. [[email protected]]\n\n[서울=뉴시스] 배민욱 기자 = 인공지능(AI) 스타트업 리턴제로가 인재를 채용한다. 눈으로 보는 통화 앱 '비토'를 운영중인 리턴제로는 AI 산업 전 부문에 걸쳐 두 자릿수 규모의 신입·경력 사원을 상시 모집한다고 26일 밝혔다. 채용 분야는 R&D(연구개발)와 서비스 부문이다. 총 11개 직무 담당자가 상시 모집된다. R&D 직군은 ▲ML Engineer / Researcher ▲서버 프론트엔드 개발자 ▲서버 백엔드 개발자 ▲클라이언트 개발",
+        "score": 0,
+        "published_date": "2022-05-26T00:00:00.000Z"
+      },
+      {
+        "title": "카카오 출신들이 만든 리턴제로 신입·경력 두 자릿수 채용 │ 매거진한경",
+        "url": "https://magazine.hankyung.com/job-joy/article/202205264244d",
+        "text": "카카오 출신들이 만든 리턴제로 신입·경력 두 자릿수 채용 │ 매거진한경 window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-100860310-1'); var ua = navigator.userAgent.toUpperCase(); var referValue = ''; if(!document.referrer){ if (ua.indexOf(\"KAKAOTALK\") -1){ referValue = \"http://www.kakao.com\"; }else if(ua.indexOf(\"FBAN\") -1 || ua.indexOf(\"FBAV\") -1){ referValue = \"https://www.facebook.com\"; }else if(ua.indexOf(\"TWITTER\") -1){ referValue = \"https:/",
+        "score": 0,
+        "published_date": "2022-05-26T00:00:00.000Z"
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "리턴제로, 시리즈 C 50억원 투자 유치…\"기업용 음성인식 AI 글로벌 진출 가속\" - 디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2025110609431565476",
+        "text": "리턴제로, 시리즈 C 50억원 투자 유치…\"기업용 음성인식 AI 글로벌 진출 가속\" - 디지털데일리\n\n- 창간 기념 이벤트\n- 세미나/콘퍼런스\n- DD튜브\n- 딜라이트닷넷\n- DD테크콘텐츠랩\n\n- 회원가입\n- 로그인\n- DD뉴스레터 보기\n\n2026.02.21\n\n뉴스\n\n## 뉴스\n\n### 뉴스\n\n- [전체기사](https://www.ddail",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "리턴제로, 50억 시리즈 C 투자 유치...”AI 보이스 글로벌 비대면 산업 본격화” < 보도자료 < AI 기업 < AI산업 < 기사본문 - AI타임스",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=203776",
+        "text": "리턴제로, 50억 시리즈 C 투자 유치...”AI 보이스 글로벌 비대면 산업 본격화” --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-02-17 19:40 (화)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n리턴제로, 50억 시리즈 C 투자 유치...”AI 보이스 글로벌 비대면 산업 본격화”\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n(사진=리턴제로)\n\n음성 인공지능(AI) 전문 리턴제로(대표 이참솔)는 최근 50억원 규모 시리즈 C 투자 유치에 성공했다고 6일 밝혔다.\n\n이번 투자에는",
+        "score": 0,
+        "published_date": "2025-11-06T00:00:00.000Z"
+      },
+      {
+        "title": "리턴제로, 시리즈C  50억 유치…\"AI 음성 비서로 글로벌 무대 간다\" - 머니투데이",
+        "url": "https://www.mt.co.kr/future/2025/11/06/2025110609481869646",
+        "text": "리턴제로, 시리즈C 50억 유치…\"AI 음성 비서로 글로벌 무대 간다\" - 머니투데이\n\n## 리턴제로, 시리즈C 50억 유치…\"AI 음성 비서로 글로벌 무대 간다\"\n\n[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ' 데이터랩'에서 볼 수 있습니다.]\n\n음성 인공지능(AI) 전문기업 리턴제로가 시리즈C 투자로 50억원을 유치했다고 6일 밝혔다. 이번 라운드에는 [신한벤처투자](https://www.unicornfactory.co.kr/datalab/venturecapital/investor/%EC%8B%A0%ED%95%9C%EB%B2%A4%EC%B2%98%ED%88%AC%",
+        "score": 0,
+        "published_date": "2025-11-06T00:00:00.000Z"
+      },
+      {
+        "title": "리턴제로, 50억 원 규모 시리즈 C 투자 유치… 차세대 대화형 음성 기술 상용화 속도 - 플래텀",
+        "url": "https://platum.kr/archives/274227",
+        "text": "리턴제로, 50억 원 규모 시리즈 C 투자 유치… 차세대 대화형 음성 기술 상용화 속도 - 플래텀\n\n투자\n\n# 리턴제로, 50억 원 규모 시리즈 C 투자 유치… 차세대 대화형 음성 기술 상용화 속도\n\n###### 김문선\n\n・\n\n2025.11.06\n\n음성 인공지능(AI) 전문기업 리턴제로가 우리벤처파트너스와 신한벤처투자로부터 50억 원 규모 시리즈 C 투자 유치를 했다.\n\n이번 투자를 통해 리턴제로는 차세대 Voice Agent 기술의 상용화 단계에 속도를 내며, 국내를 넘어 글로벌 시장으로 확장하는 발판을 마련했다.\n\n리턴제로의 핵심 경쟁력은 Proactive Voice Agent(PVA) 기술에 있다. PVA는 고성능 음성인식(STT)을 바탕으로 사람의 말을 정확하게 텍스트로 전환하고, 자연어 이해 기반의 대화형 AI를 결합해 맥락 파악 및 질의응답 등 인간에 가까운 상호작용을 구현한다.\n\n특히 자체 개발한 음성인식 엔진은 1,500만 시간 이상의 한국어 음성 데이터를 기반으로 업",
+        "score": 0,
+        "published_date": "2025-11-06T00:00:00.000Z"
+      },
+      {
+        "title": "[AI서머리] 리턴제로, 50억 시리즈C 투자 유치‧마스오토, 182억 정부 자율주행 AI 프로젝트 수주 - 뉴스레터로 만나는 스타트업 투자 리포트 ‘스타트업레시피’",
+        "url": "https://startuprecipe.co.kr/archives/5751569",
+        "text": "[AI서머리] 리턴제로, 50억 시리즈C 투자 유치‧마스오토, 182억 정부 자율주행 AI 프로젝트 수주 - 뉴스레터로 만나는 스타트업 투자 리포트 ‘스타트업레시피’ -- -- -- -- -- -- -- -- -- -- -- -- -- --\n\nx\n\n이메일로 만나보는 스타트업 가이드\n\n투자, 행사, 정부사업 등 스타트업 생태계 소식을 이메일로 편하게 받아보세요.\n\nEmail *\n\n스타트업\n\n- 인터뷰\n- 뉴스레시피\n- 뉴스레터\n\n투자\n\n- 스타트업IR\n- [추천 스타트업](https://star",
+        "score": 0,
+        "published_date": "2025-11-05T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "기업을 위한 음성 AI - 리턴제로 blog",
+        "url": "https://blog.rtzr.ai/",
+        "text": "기업을 위한 음성 AI - 리턴제로 blog\n\n# returnzero\n\n한국에서 가장 정확하고 빠른 음성인식 AI를 만듭니다.\n\n구독하기 Great! Check your inbox and click the link. Sorry, something went wrong. Please try again.\n\nTutorial 2024년 10월 10일\n\n## Go 언어에서 음성인식 API 사용하기\n\n이번 튜토리얼에서는 Go 언어로 일반 STT 방식과 스트리밍 STT 방식의 예제 코드를 API를 사용한 경우와 SDK를 사용한 2가지 방식으로 보여줍니다.\n\nreturnzero\n\nTutorial 2024년 9월 25일\n\n## 시스템 오디오를 실시간 음성인식 API로 자막 요청하기 (for ",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "returnzero - 기업을 위한 음성 AI - 리턴제로 blog (Page 4)",
+        "url": "https://blog.rtzr.ai/author/returnzero/page/4/",
+        "text": "returnzero - 기업을 위한 음성 AI - 리턴제로 blog (Page 4)\n\n# returnzero\n\n- 32 articles\n\nTech 2023년 8월 17일\n\n## 음성인식 API 비토 스피치(VITO Speech) 출시 이야기\n\n2022년 6월 30일 리턴제로는 비토의 음성인식 문자변환(STT) 기능을 오픈 API로 제공하는 비토 스피치(VITO Speech)와 함께 개발자 웹사이트(\n\nreturnzero\n\nTech 2023년 8월 17일\n\n## Tritony: Tiny configuration for Triton Inference Server\n\n딥러닝은 어렵습니다. 모델을 잘 쓸 수 있도록 서빙(Model serving)하는 것도 어렵습니다. 그럼에도 불구하고, 리턴제로(",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "returnzero - 기업을 위한 음성 AI - 리턴제로 blog (Page 2)",
+        "url": "https://blog.rtzr.ai/author/returnzero/page/2/",
+        "text": "returnzero - 기업을 위한 음성 AI - 리턴제로 blog (Page 2)\n\n# returnzero\n\n- 32 articles\n\nTutorial 2023년 9월 12일\n\n## Node.js에서 VITO 음성인식 API 사용하기 (with TypeScript)\n\nVITO Developers 사이트에서는 주로 Java, Curl, Python 등을 통해 API의 사용 방법을 안내하고 있습니다. 이번에는 기존의 방법과는 다르게 Node.js(Express) 환경에서 일반 및 스트리밍 STT API를 활용하는 방법에 대한 튜토리얼을 소개하려 합니다.\n\nreturnzero\n\nTutorial 2023년 9월 12일\n\n## Spring Boot에서 VITO 음성인식 API 사용",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Tech - 기업을 위한 음성 AI - 리턴제로 blog",
+        "url": "https://blog.rtzr.ai/tag/tech/",
+        "text": "Tech - 기업을 위한 음성 AI - 리턴제로 blog\n\n# Tech\n\n국내 1위 음성 AI 엔진을 다루는 엔지니어들의 진짜 기술 이야기입니다.\n\n10 articles\n\nTech 2023년 8월 25일\n\n## 한국어 음성인식 어디까지 왔나, 한국어 음성인식 AI 랭킹 (OpenAI, 구글, 리턴제로, 클로바)\n\n원문은 리턴제로 Github 에서 확인할 수 있습니다. A curated list of Korean speech recognition resources for developers, including the error\n\nreturnzero\n\nUse Case 2023년 8월 25일\n\n## [고객 사례] 일본어 AICC의 엔진이 구글에서 리턴제로 STT로 바뀐 이유\n\n배경 * ",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "returnzero - 기업을 위한 음성 AI - 리턴제로 blog (Page 3)",
+        "url": "https://blog.rtzr.ai/author/returnzero/page/3/",
+        "text": "returnzero - 기업을 위한 음성 AI - 리턴제로 blog (Page 3)\n\n# returnzero\n\n- 32 articles\n\nBusiness 2023년 8월 25일\n\n## 유료화 시리즈: 사례로 보는 앱 유료화 전 고려해야할 세가지\n\n지난번에 올린 글이 좋은 반응으로 이어져서, 당시에 못한 더욱 구체적인 내용을 써보고자한다 실제 앱 사례와 함께 살펴보자 지난글: 베이스인베스트먼트와 함께\n\nreturnzero\n\nBusiness 2023년 8월 25일\n\n## 베이스인베스트먼트와 함께 앱 매출 5천만원을 7억원으로 만든 사연\n\n“베어마켓에서는 서비스 유료화로 매출을 늘려야합니다“ vs. “이정도 리텐션이면 X원짜리 유료 멤버십으로 00원 매출 타겟해볼 수 있어요“ 이",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "international_news": [
+      {
+        "title": "Phantom flight: Iran war creates 9,100-km round trips to nowhere - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbEY1NFlERENrZnI5UDh0cHpVTWhqYWFwTklXZ05VXzJqekVqTGJZYktKdHRWNXB6LTd5RWlkT1IybmQwNko2OVBGZVgyWHVub0Y3NFFxV2xGNFNOajVZR3FvMGJlWjJGcHVwX2dZbG5vRTZiS1RsNGs2a1lqeXJhR3ZZNG5SUlVndGRHdEt4cnZORjZRODZrdmZMMXhWNlJ5ZEdiM3R0d1RPV1AtX1VTSnVuSVQ?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 14:31:17 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Natural gas prices soar as Iran, Israel strike Middle East energy infrastructure - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOck93Y2M1dEJEZU50VEZvUkxsQVdQMHZPR2dGdFBSTTA0ZVdPNEtOZ2tSa296dHhoLXg5bHdZRC14aTRtelR0OGNKdGRvMWFJd25fb01rby1MajRuUGZJZEdnU0MtX3B5QWxxMUtIdDR0c2ZkakVQOHdhM2pHVjlQTFRXeXF1UXhpd1BfaTRITk1Ja3BaT09mN2RlMTFyMkh6ZThYdXFTVk9Bb0xoZDFESWxwYXRLX2xfRk9MVnpmVUpSNmdVbF9Xb3lR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 12:34:32 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "US seeks 'seizures and convictions' by China to curb fentanyl issue - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdHQxLUkybDlPWVVjMjJ6TEJPRWpLd1h5aE5Odlc2c3c3NVFXeVRjZmNMN0Q3cnRYVjlPUl9qNWpCTjZjWlFZSlluZWdLc2hFU3JkQjgzVWVVazJKbnNXWUZUOWhocXhrRXVGZ1RTVGZJNC1NMkFHRFg2YWk0aGNxQUxDNnotT19PRUpPSzhPZE5YYUROeEtMVTFoOV9nYlp1VmZvYkhn?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 19:20:19 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Target Plans to Tighten Dress Code Rules for Store Employees - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWWhOX0hQd3hzVUxZWF85VE5sREZ6ZmVJb0dxSFRIMWM1ZHB1TDhrOTJiaUl6bkE0RXdlcHN6S1Jsdk4tTE1LRENJQm1kRkZlUnFQdDlOcGI3UENqRTNEZ3VJZTY0TDB0dzBvVXBxR1AwTi04SndMQW1GaFVmQzRkellwbnRqbXE2ZDQ0OTFJOWNBN2JCZWdMZkxKc3loNnFlb3hQVGpuNDhDUFhIN1F4MQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 17:55:54 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Robots Need Offices Too: The AI Boom Comes to NYC Real Estate - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREtmUGZ3WGM3Y2hzVHFFaFFENndkYWIyNjZ5dzNTU2xGRmx1NndpNW56RWJjRjk2cXpEYUVQUk1Qby05X3RpTW92RXcxVkRZV01vMXQwQV8wYmlCUG1JNi0zMzl1b1p5dG5KLUx3eGN3akRtbWxGS3lnRXVyTmhISFkzSllzRmx3LS1FLTBOTjljLVZKMVdTN0YtVDFaVHd3YnpwS3lRUzhFaGxmWUdz?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 10:00:04 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "India Deals Slow as Third Week of War Makes Investors and Founders Wary - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNzctRjFaSG5MNnp0bkFwVGNZd2hfT0JYQlRfc0tnVTd0b2VKeEU4d25NekpidzE0ZVpORmY5UE9vZkxzbkx2bWpsUmdZUUF6NWJod2Z3cmdoeEJ3X2hDbXM0emNnSEp6V1JaRjc4eDlwUlRkanQwX0NTS3FybThERDJNblJxZ0xSXzNuLUs0NTRWeWFpTENmdmgydkJ4X1c4b2ktMXI3UFRMVTdRc1ZRZk1Wekxud0dnSjl6Z1AzMlFMLTZ3UTZr?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 12:13:42 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "The 2027 Chevy Bolt is the McRib of the automotive world - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQkdmd1FjVHZRVWpCSEtpMFc1MnNlT0hwTnpPTmM2eFN3anltMUNpdEFPb3FQRjlTMkpmdnZpTlpwczM4Mnh5MVh0ZXpVVERueXlxczBpQWZwTzdLMFE1a0ZqSlhEZWRDN3NCUVFnRUJPTl8wMXJmZFMybTVDY19oUlBXTFlpWlkxbUctR28wU2xpazlUYlE?oc=5",
+        "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Unacademy to be acquired by upGrad in share-swap deal as India’s edtech sector consolidates - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ1d6YWkwTVVvX0paU1J3em9RcVd4dVJPamlCNWxNWkdnVnU5NUVEZWU0N1hRc21yNE1oUE5WNlk0Yi1IcTRGT1N6a3NwbFE4UGtoUkhTNEdfUGw3bWNwWUxMSGR2Zi1WRDlmNU5oNXdaanFyejA3X2pBN015ZXZXbVcxZXJ0ODNpU1ZPWTE0NVJkNWtIaUtEb2JSSm1VOFp4Mkk2eTNmdEdsZjc0Y1RSZThvTEZxZHlJdVNpNXJyZUlzQm8?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 17:19:47 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Biosafety startup R-Zero acquires CoWorkr to create an ‘OS for the workplace’ - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS1Y0QlhtVnQ0TlpHWE9qdFg1d2tMb21BT2Y3T0JUMVdWYUhaWXZVX0p3NjU3R21UR3ZoY3FvOWRaZFpYeW01QmZabHdQbDlJVkNVRjA5ZU04U1J5RGZLX3I2VWNLRm43NFlubW5zeG16Sy1CeU55M2NNLW96WnZPR3Z3N2pCRnByX0pjQ0hlUHAyY2xKb25OWVlSVWZib2psaXBEcTRJYzJfN21GV2VV?oc=5",
+        "pub_date": "Tue, 20 Jul 2021 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Best High-Yield Savings Accounts for March 2026: Up to 5.00% - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPOUM5OUkxSXlOQWUwOEpyaTRiNVpmY2ZGNV9iaFFBU0x0WTlVd2F2OWQ1SmxWQm00eFpoU19IdUNZV1lrLWVmdlQzWUJFejVyUURSQWJORDEtYXVSNHRZenMybkx5UHB5UzRIV3RFYmhWRWl2TklYeThSdlpJZXhjSlRpdXBkMlp2cmItQkJqVU5pQ01LY2szVUdpMlhZM1NUZk04LWIwNjlYanZCejRXWFRsbERpRTNpNE9BN3lEQWhuNXpyMDZKWkZoSk9VUUNCQWpCdGFpajBDMk5YdWtoM1VqaUNlTUdDdkg1Tk9vZVZYUkN3MDdNbkk3MzNEdnJyeFR6SGY4X3EtVlFOZ3k0UDRqd25DU1dPcmFjMjRnanlFNjJxYkFIYkd2TFYtQUlDVV9FZzJaRWtSMmRtd1BfMXV1TXBtLU1XLTNIVTBZeVlVZXBycmpMQUh0bWRtUHFCVTVSaE03YUx5RjgtX2pseVFtVmt2eHc3WWxXSl9oVllWeWczc3VLcnlkZElyWkNBbXc?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 19:01:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Pardoned for Fraud, a CEO Mounts His Comeback: ‘We Can Trust You Now’ - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxOX0x5TWZhbGZTYVA2NEtZdGVCc2ZtUC1mekszTE9WY1hCNzZxdy1tRkktaEM4a2hTajVFaTcyNV95c3M1aDh3MXpkeUl0TjBqMnNIOTRLM0NrenlNSFJOSEhZTHh0RGQ1dVZsSzdLWlAxYk1SVExqd0xrM196ZXluUk1SUnlfdXNkS2xJNTI4ZzA2ZlplYXlIcEUzbVFKRE1jTkp3Y0lSVHE3MEJtZVFuSVVnZ2tDRUpIby1WM3dyc3NFZnI4VDZGLTR1eVNTdkd4bEx6WEx6YmZPeXpqZ21EaXp4MzVGVC1kbllScFNxc2JNWGg5UmpLcktJejluVDF4dzA2SlRDOEthRkNEZ2hNNWhYTEZHV1FPbEVfdEJTNTBmMHdBb0Vqc2RiaDQzV1lfRm1RaFFDREM4ZXAwd3ZKUTcyeG5qMXh1ZDkwbWcteVVnWGo4bHA1cGd3Z2NoM0JrRERVVWVJN3pKdmpkdEFYNllhNjFfUVllOEZLaWtNUno?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 02:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Judge Who Sided With Federal Reserve Has Been Thorn in Trump’s Side - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMitgNBVV95cUxOYUNndm5WbjVSSU5meTlKZ1V2MDE1MjZiQ1BxRkthMklSN09Cdm5Wdlc1emJZMEtMNVYyQklMRTQtZXZHYmswQUI1WnduS2Z6eWYtcTdWVlQyVjdZMlE5MUh4UmZQTV84bm9VMm1rcThfX1RrQ2NtYzgxYTZIelZld3habmtiSmRUUHQ1dzZyTXptTmV0SEg0eUVfbkFJYnJyRXplWXZZalczYThYOGJtc3UzSF9iZEJlME1za19ZbWNYUmNqa200R1ZXMm5LTlR4WlJ1ZU5zanVkTVVlbHp1b2ZZZzIxd1hSNy1qRkFiRE5STXhWYmRXZVk5NFYzWTl1Nk5lTndFZDJsck1rZmp3ajdxT3FvVlpXQm1SVVFmdXdXcnFQLUk1XzE1X3VGLTc4RFY2bUVRV3BjcEFxMWR0bWJwSjEtdWwzRllnUVNLaVk2bkdtb0hmU1RaZGNlVUtWb1NUc24zcHg3dU9sdVNQcXZaUkd3RHE0NzlrbzFadUxmYm9WV3phRVRXeE9Sb3N5bHRxdXIzZkkxTUMyVjkzRU9TR1F3M2NkN1lNLU1XSmh6M3gxSHc?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 14:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "UAE set to show leniency on tax rules for expats leaving to avoid Iran conflict - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRmhucjR3RHpLUkk5YVhxWWdMa1lGVVpvRlZDY2NUZVlOXzJPSGhrMXQwekdyR3hZelhYb2NsTjR0OVhyY2c5ajJ6MmlReTZaRDRtWG1mdzNmUXJ3anMxbnN1MlBMdUlnMldnOXJnTmlaZmY5U0JWVkh4NDJiTEk0MHRzOUo?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 05:00:37 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Pressure grows on Starmer to drop EU ‘red lines’ - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNzJvRVlDWU1NclBxTTZnS2VEWlRHM2VDbURpbzFhbXozc0JXZ0NidFJ5UGw4eWRiUWhCa0pGSDRCeFktMEJ0UXhwbzd4V29GZVBWNTRRbmJmUzlWR3ItSVE4aWpsWWMwaC1NczBBM3ZmVHAtVFZWckdheTJuWUswRWIxdmQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 13:26:58 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Big drugmakers saved at least $5bn on US taxes shifting income overseas - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ3NBRUxYbGRhQnJ1U2x5S0VsSEFZQVBoUUgzQ3FlUVphM2Vld2tNb2dhNzQzWHJvdTluLWxERVV5SmJzdVNLWER2cHpnUEtMVFNFTEtvY19UamtGR0cwaE1FTng4QVNNcHM2NXViR3BrR0l3a2F5dWM5eHN2YW1la21HVzk?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 21:19:14 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Takaichi in US, BTS comeback, Japan monetary policy - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeEJQdW5VY3pFTXU0TlQ3Z0NEQ2lRLTRQRC0wbUVyUGZuWXE3U3JTNVJnOVIxdWM5RzhveFFSRDhudlZWWmw4MUwybDk5LS1tS21MSFZuU1l6QUVoWXFtQWVNZ29meWpjV2lwaHExbE9LWk1PdWdnM2k0ZXByWlpZUGhycm9QdXh4b0h5a2FNUFdpUFVKTlRkNEhwWG9IUXRkYW9N?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 07:46:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Sapporo sues government, demands return of tax on Goku Zero - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQUlUUEVkdFpNN0pHbklGOXlfY3JYLXJ2Z3ZScHJDMG44TXlPOGI4UmQxRWh2ZGVYRjZVZnktNlV5NDFVQ0xCclN3clYtaXpRZktrdVpXRTVFY1hvcWJRUXBqbUxBc0hDTWZSZzVuWW0xdWZkdDJlSFd1a1gwVkhQa000LWtBemljc2ZCVjgtelJETG1D?oc=5",
+        "pub_date": "Tue, 11 Apr 2017 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Strait of Hormuz shutdown leaves 1m tons of fertilizer stuck in Gulf - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVjFQci1KRHJ1d3pVTkFTWkpPTFVZVS00TzdNWmZHWTQ4NWFKcHcyU2Y4QUFwN0h4czRwZHpaNWtwbWdqSkpZMlh6TmxrZFYwWjJveUZOSTRjdUtjUU5YdTI1OE9kZmtLUVAyTGJFZ1R1a3d5UDlCYTBWdnhVZFBhdnNzSmlEZy1vbGVwZmREbndKc3NpQjUtLXJ1c1pScTA0SW9fQ3d1b0hWYmRtRFVibXNFdFhuYzJpR2drRGVn?oc=5",
+        "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "The Return of the 100X Club - The Information",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONkpkWjh0Sk44d1F0U19WbUdCQVFhUVJiRmVZdFZORmFvRTVGdWg1Zl9vOXNzdS1scExNNjhIRTRRaDRHTnB3TTVHWjh4Y2VRR2kxNVVvcFB6NmZpNzcxU3ZyS0tHZFNJVC0tX0wtRm5jRHFhNExheHRZUmJJdE9CYWtFVjlBUGc?oc=5",
+        "pub_date": "Thu, 30 May 2024 07:00:00 GMT",
+        "source": "The Information"
+      },
+      {
+        "title": "Apple’s Iconic Stores Struggle in China - The Information",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTUI1UGo2U0xISE13VXlIQnc5U2RzcjNncEVnRlZYTlhTbG5rdVVDRWRvY1BWNm44NEJrMWhObE9yVkhVLXdiY2dKeFd2elExWVZxbzNFa05oMTl5YmNxUE5jeDNiczhGQWNKT09oT2NUUG5OeUVmd3VvQUdsNm16YjRQRno?oc=5",
+        "pub_date": "Mon, 29 Oct 2018 07:00:00 GMT",
+        "source": "The Information"
+      },
+      {
+        "title": "The Space Baby Era Is Here - The Information",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MdHNCRlhRaFptSlh6a3ZILXEwZG1wR0d3ZU85dllZQndXaG1IRTRmQm9IQ09oLTdacTRlOEpMU2FEVHAtZk9zMThqNENQQU5rZVlCdXgwS2RnWk5uaEptbGk2aF8?oc=5",
+        "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
+        "source": "The Information"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "한경비즈니스 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mMV9WUklESjJyTEdNSkJBMTZMdmVUamdzSVlUbVg4S1ZZTlR2SEpzazFqOHoxNkNBZkNJcXlwTUNCNHhpXzNjWUdwU2FtYW8xRE9WVk96SHF1UkFjYjRYTUE4R0g0SWhj?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "'타코' 못하는 트럼프의 도박수…\"안보·실물 프리미엄 강해진다\" [빈난새의 빈틈없이월가] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15VDVfQ3lURGl5S05VZFJERmw5emQ0OTFQNm50RmtEU0UzUWVfNF9aRWNVeWZwSm1vQUttbFJKUXNlTm9zcFc2RUg5UG5Ia0lyODhWZjRPSnZFd9IBVEFVX3lxTE81OTJ0Mzl6d2ZZUmlhQXVyTzE5SEVxVGN3aUNnRGdxZ2dFYktNbUZTYU1wTkZ0UkdBUWxLUk1rdmNwcXYxR3JDU1NlRWJUSzhKRkV6ZQ?oc=5",
+        "pub_date": "Sat, 14 Mar 2026 22:08:18 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "강홍민 기자 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UMTlMQkVlS0pObXF0N2lpczBiUHY0Y192cFFXVzRXT3RfRjRPaDEydjlsSTdWSDVwaUJKYWRRellXWjlxQThJenRYWGc4NHdQek9EOGxZdnZiWTNkbVYwQQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 07:23:15 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "다국적 대기업 적용 ‘15%’ 글로벌 최저한세제 2024년 시행 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUFNoSFVvcGRwWG83b01xcHFwRUxfUlVOSlB4Y1V0WmU0WkRtREwzUFNaZThWWFp0X2pEUTQ2LWlKWWtkbGdOa0pyZG1rOFgyZUktZ1RIMHh3VHZiLXlBX0Vjck5NX0JJOUZkMjd5cF9pYi1XSlgyajM5d3BpYkx1bFpzczBrd9IBmgFBVV95cUxQUFBKamY2UExsMHdGQnhrMVAyTG1LZS1GTGlaQ25vRXZwZXZVay1sN1U5T0VaM1NiSUNqV2pRT0dIcGdUbHNROFNoV3liZGVlWnBRMC1vN3RyTHczeHlMVFhsMGVSRmNoMUozU19hUm5qTnJfNE5nRmRTWllMVEtBTE1FaVUtdlpzMG5lRnQ0Z1BxNEt5cG55RjFR?oc=5",
+        "pub_date": "Thu, 21 Jul 2022 07:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "[인터뷰] “골프장 매각은 기업의 마지막 카드... 조용히 신속하게 팔아야” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOUtyUDhPVEFCYkVhTTY2RGpvYlMzTU5aWFlJYmtrUG1nc3BBN2dIaEFUQmJzQ21Gc0ZkemlVQUlFdXFka0NTZG50UnRqWExLb2d3SUNWa1JzLWFkQS1LbDllckk0MkhaZDBkTmRleEJVWjFuUnB1UVBETGNqaG1fV2pDOHhjSXPSAZsBQVVfeXFMTU9MNENoSXMxMjIxV1psMW9FTEpKZ2l3cWVBV1VJakFZbVlBdEdTUC1PSm1aUHBRSjh6Zmk4RTFDbXpBM2FYNVBPN1VaLWRxSnU1YURRdnpnY0dRamdmV3F3X1p5MTJaUXhHQlRuSDdkV0NFTGFUVnM3NmFiRmJzTDdHbHRJckltSlZMaWNrd2VLQ2MyWmc3d0ZEWE0?oc=5",
+        "pub_date": "Thu, 12 Jun 2025 07:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "당신이 건전한 투자자라면 주식 자꾸 사고팔지 말라 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGQjRHS0xsWkFzaUpVdzhZX0ZnYUJPdkNSTmhMVzAzWjVYejBoYzlqd2ZnWFBMSUZ5WmJfMl9uaE9Cdk13UmlrYk4xMThiemJ1U3RwcUIwQUZ4TUxZc0RJZklGd19ud0pNdGFOLWNYVklYU2xEQ0JjNmZoWdIBjwFBVV95cUxPYWdQeFFQUHlaZngzaktXNWk0MFRmLWNSanRhcVNKN0dkSFlXRWFlUVhNbks2NjBrM2t3Yzk5Yzk0V1E4SmVDVHJfQ0ZrbDBMc2FFOWl2al84VFc2WWV4Ml8tVVJtbDBoVkNibWR0WkNmQnZWRmlnV1NfUjdBb0tvakJtZDBiODRtdkpaU3ZCbw?oc=5",
+        "pub_date": "Fri, 04 Jan 2008 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "“브랜드보다 성능”…쏟아지는 러닝화에 ‘이 기술’이 승부 가른다는데 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fOG9uQ29ybzNSMWRKVlJNOVpwaDR3a3JONE9xQUFjSVlsUGo5RkZPb2ZjQy1ITFB5VDkyMzJxallZRU02R1IweWluX2xydmNpQ0xweFZR?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 04:19:04 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "https://www.mk.co.kr/sitemap/daily-images/20251217 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QeVZqLVYyRWp6THRTajd1T2ZfM2t2MDZxMkJodnItRkg3YWF5NENSUmg4UElqbUZQRmE4Z2dyeUJMcnlXaHRGamxjaTd5U1o0QW42U05DUnFIeHctbGlv?oc=5",
+        "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "https://www.mk.co.kr/sitemap/daily-images/20260101 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE05TWFUMWRNcy1BZHhGNS1fbVY4TGk3VERXMm5rUEEwdUsybXpDdm5Zb0N0M1BtbHBjZ0lBcjVRd0hpcWMwRFZQMG5MX0s1WVhYTlFvZGtNOTdDWDR3UGYw?oc=5",
+        "pub_date": "Thu, 01 Jan 2026 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "[AI기업] 리턴제로 \"150만 시간 이상 데이터 보유···대기업도 우리 못 따라와\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MZThrZEdxdDRnc1BwS3lDTzBRbDVxeno0ZklaN1RXbmtNc1pRcFJQV3BxUm9rVFdZRXcwOFBGeHZDTmJCX0ptTG8xbUM3aWt3Zl9GcHB3?oc=5",
+        "pub_date": "Tue, 19 Apr 2022 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "리턴제로, 더 똑똑해진 ‘AI 기사 도우미’ 공개 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4SjN4Y09KdjdIS2ljTGNrV3UtT0wtRExmNkt6dnJzZDBXd0JWTExGcUkyQldzd3J4QnVtSjYwcEcwU19Tb2hDRGlmWHRqOW96ZkFMOXN3?oc=5",
+        "pub_date": "Tue, 17 Dec 2024 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "리턴제로, ‘기사 작성 보조 AI’ 언론사에 공급 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93Mm5IZXpuMmU1cjhCcWZUVmJncTFKN3JGTVFGajdrdnlDN3kyb3lQbTVhdllrcHo3RGR1aHZlV04wazRmcU1vWGdFZGdLVmtYQm5iaVJ3?oc=5",
+        "pub_date": "Thu, 27 Jun 2024 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "음성 AI 기업 리턴제로, 50억 규모 '시리즈 C' 투자 유치 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0bkc5VFBmeDFjUU1EQW1ldlFBMkFBVTRrQ1FQUUxBc2Q1WnRnaEUtR2lGeVl6MHlVTjZ2X3FmMThFeDkzSHAwZC14X0pGUlpMRTZQVnF3d0M3ZnU1aGdvUWs4VGhNaTVD0gFsQVVfeXFMTW9oekVyWHhzei1hRVByUkxjWHRETmJjLVlRZVpPNVJub3plQmpKQS1PdXBudlAtUFdDbVkyQmZBcWQ1WVdfRFUzcmpGSmNuV0QxT291eEE3NmF0VU9NcExPVTg2bW5SU0JXZDR6?oc=5",
+        "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "동갑내기 '라이벌' 한화 김동관 vs HD현대 정기선, '엔진시장'서 격돌 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfNE1FMWZVWExYN3libHB2RjBDWHVrcHNENXQyeXhjMDlrNkRVN3hrLXZDdTEwTlpqQ0JJVWg4emI0NG5hajg3VmVXSlJ5MXdQQ0hzTUFRa1VNRWY3SkV3TW5qZUZqSi1y0gFsQVVfeXFMTXNFcTdfeTQ2MXVhSE5zSmRxN1gtd3BYWWp5RTVJdUZFZ3RUd2k2bk1MYU9tNGxXQy1rUlhfb195Wjg0U2stTnJ5NHRsTEc5d0EwaVdEUGRMaUU2U3ZPTzFKRE81MXpNMnVTR3dp?oc=5",
+        "pub_date": "Wed, 02 Aug 2023 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "마이크로소프트, 코파일럿+PC ‘리콜’ 보안 강화 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5Z2pNWTBQT3JDV2w3R091TmNDQkdwT1NTV0JnWDdGRUlYSDRrOHVNdGhrT0YzSkk0MTNDcnAxWC05a0lDUFNEWGlRZEF1QW8?oc=5",
+        "pub_date": "Mon, 30 Sep 2024 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "[주스바] “다시 주목받는 자사몰 시장, 아임웹이 꺼낸 비장의 무기” - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42bl9wdEtvNlBOd3FrYWtVVUZGQWFaeHRQb3ZSazJWSmNFUnNCdFd6WVlSSVBoTUg0c3dJdUxTNDdLcG1GSVBuZGxvWnUwMDVMYkpz?oc=5",
+        "pub_date": "Wed, 20 Aug 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "웹 스키밍 스크립트 공격과 악성 봇 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hSV9TTGdHT0psU2pQa3hXSFhwYk4yOWh1ZldIaENKazk4aVZROGVXQ0QxOEVuOHp0WE9ZVG1UMTR2bzNPTXVxdUFpQVoySmZ0Sk96WThPQWJtRmlwTjJjaVBCbGY1Ulk2QXE3eTR2R3RxbGlpWUdCMVJEeGVkUQ?oc=5",
+        "pub_date": "Mon, 13 Jul 2020 08:44:47 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

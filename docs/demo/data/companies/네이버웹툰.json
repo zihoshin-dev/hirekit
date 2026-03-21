@@ -1,0 +1,843 @@
+{
+  "company": "네이버웹툰",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 14,
+  "sections": [
+    "financials",
+    "tech",
+    "strategy",
+    "culture",
+    "overview"
+  ],
+  "data": {
+    "naver_blog": [
+      {
+        "title": "0",
+        "description": "[네이버 블로그] 금호김영집 https://m.blog.naver.com/yjsjhs https://m.blog.naver.com/arangjoeul https://m.blog.naver.... https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... ",
+        "link": "https://blog.naver.com/yjsjhs/224224992913",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
+        "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
+        "link": "https://blog.naver.com/blrol_blrol/224224956373",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+        "link": "https://sibauchi.tistory.com/1205",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
+        "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
+        "link": "https://think-tank.tistory.com/1035",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "[합격후기 만화] 2026 상명대 디지털만화영상전공 합격! 불안을... ",
+        "description": "여러분의 합격 시나리오를 써 내려가세요! 분당애니포스 교육 실기과목 교육청 등록번호 제6153호 실기 유형 : 칸만화/상황표현/이미지보드/4컷 상상표현/4컷 웹툰/창의적표현 등 면접 유형 : 웹툰 포트폴리오... ",
+        "link": "https://blog.naver.com/bdaniforce/224224791879",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
+        "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
+        "link": "https://blog.naver.com/kcl3598/224224791593",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "홍천 교차로 구인구직 최신 부동산 및 채용정보 총정리",
+        "description": "경쟁 대상으로는 네이버 부동산, 직방 등이 있으며, 교차로는 지역 밀착형 정보라는 차별점을 가집니다.... 채용 정보를 선택할 때는 회사의 재무 상태, 기업 문화 등을 확인하고, 자신의 역량과 적성에 맞는... ",
+        "link": "https://sibauchi.tistory.com/1182",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "[경기대 합격후기만화] 수시의 절망에서 한 달 만에 기적을... ",
+        "description": "특히 이번 경기대 합격후기의 핵심은 바로 '스토리 전략'이었습니다. 선생님은 학생의 장점을... 등 면접 유형 : 웹툰 포트폴리오, 애니메이션 포트폴리오, 게임 포트폴리오, 미술활동보고서, 학생부 종합전형... ",
+        "link": "https://blog.naver.com/bdaniforce/224224765213",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "하나증권 취업 후기 정리, 채용부터 면접까지 직접 준비하며... ",
+        "description": "③ 면접 후기 (가장 중요) 면접은 확실히 &quot;금융권다운 질문&quot;이 많았습니다. 기억나는 질문 유형은 왜... 네이버톡톡 (채팅상담) (현섭멘토) 네이버폼 (상담신청) 이 글을 보고 계신 분들도 지금 당장의 결과에... ",
+        "link": "https://blog.naver.com/inedu_7302/224224698373",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "네이버 경력 이직 후기 ④｜서비스기획자 2차 면접(임원 면접... ",
+        "description": "오늘은 지난 글에 이어 네이버 경력 채용 2차 면접(임원 면접이자 최종 면접) 후기를 정리해보려고... 대기업이 그렇겠지만 최종 면접의 경쟁률은 1:2 ~ 1:3 정도일 겁니다. 결국 내 옆의 한명을 제치고 합격해야... ",
+        "link": "https://blog.naver.com/sonialogbook/224224694388",
+        "pub_date": "20260321"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "06화 2025 웹툰 산업 트렌드: AI 시대 플랫폼 전략",
+        "description": "트렌드: AI 웹툰 논란 및 저작권&gt;에서 이어집니다. 네이버웹툰... 다각화 전략에 AI를 적극적으로 활용하고 있죠. AI는 분명 2025년 웹툰... 네이버웹툰의 2024년 4분기 주주 서한 표지 이를 위해 플랫폼 사업자들은...",
+        "link": "https://brunch.co.kr/@ai-worker/45",
+        "pub_date": ""
+      },
+      {
+        "title": "생성 AI 시대, “보는데 3분, 만드는데 150분 역전될까”...웹툰에 스며드는 인공지능으로 제작환경 바꾼다",
+        "description": "웹툰, 웹소설 제작에 사용되는 생성형 AI 도입이 탄력을 받을 것으로 전망된다. 김준구 네이버웹툰 CEO는 지난 24일 네이버의 기술 방향성과 사업 전략을 공유하는 컨퍼런스 ‘단(DAN) 23’에서 올해 말에서 내년초부터는 생성형 AI를 활용해 작가들과의 협업을 시작할 것이라고 말했다. 전 세계 창작자들의 신규 콘텐츠 창출과 성장을 지속할 이용자층을...",
+        "link": "https://www.aitimes.kr/news/articleView.html?idxno=28808",
+        "pub_date": ""
+      },
+      {
+        "title": "&quot;작가에게 도움되는 생성형 AI 연구 중&quot; 네이버웹툰",
+        "description": "되는 방향으로 AI를 활용할 수 있는 방향을 모색해나갈 계획이다.... 주제로 네이버의 글로벌 전략 한 축을 담당하는 웹툰의 현재와 미래에 대해 소개했다. 네이버웹툰은 서비스 초기부터 '도전만화(한국)'와...",
+        "link": "https://www.fnnews.com/news/202308241701148238",
+        "pub_date": ""
+      },
+      {
+        "title": "[서범강의 웹툰 이야기 46] 창작을 여는 새로운 지평, AI가 오고 있다 - 창작자와 AI의 공존 전략을 모색하다",
+        "description": "강화하는 방향으로 나아가야 하는 것이다. AI 시대에서 창작자의 새로운... 탐구하면서 AI의 장점과 한계를 균형 있게 활용하는 전략을 수립해야 한다. 서범강 ·(사)한국웹툰산업협회 회장 ·아이나무툰 대표 출처...",
+        "link": "https://blog.naver.com/ilovecharacterblog/223837264370",
+        "pub_date": ""
+      },
+      {
+        "title": "네이버웹툰 김준구 “생성형 AI, 저작권 문제 없이 창작자에 제공 가능한 방법 연구 중”",
+        "description": "23’에서 네이버버 글로벌 전략의 한 축을 담당하는 웹툰의 현재와 미래에 대해 소개했다. 이날 메인 주제였던 ‘생성형 AI’에 관한 네이버웹툰만의 기술 연구 방향도 공유했다. ◆ 웹툰(WEBTOON) 사업의 근간...",
+        "link": "https://www.segye.com/newsView/20230824516989",
+        "pub_date": ""
+      },
+      {
+        "title": "전체 콘텐츠 : AI 시대 1인 콘텐츠 창업 성공전략",
+        "description": "AI콘텐츠로 1인 창업하기 (1) 창업 보조금 받고 사업자 등록증 발급까지 ; AI콘텐츠로 1인 창업하기 (2) AI 공모전 소개; AI 영화제 및 AI 웹소설 공모전 중심으로 &amp; 영화를 만들 때 사용하는 툴 소개 ; 프롬프트를 팔 수 있다고? 1탄.",
+        "link": "https://contents.premium.naver.com/newidea/ai/contents?categoryId=18fdcc70b6a000zoz&stype=oldest",
+        "pub_date": ""
+      },
+      {
+        "title": "네이버·카카오, AI 혁신 가속…연말 신기술 잇따라 공개",
+        "description": "함께 네이버랩스, 네이버클라우드 등 계열사의 기술 비전과 사업... 위한 AI 파운데이션 모델, 네이버의 AI 윤리 정책, 네이버페이, 네이버 웹툰 , 글로벌 C2C 비즈니스 등 팀네이버의 다양한 사업 현황과 방향...",
+        "link": "https://www.etnews.com/20240926000217",
+        "pub_date": ""
+      },
+      {
+        "title": "[오늘의 CPNT] 카카오, '이프카카오'서 그룹 AI 비전 공개 外",
+        "description": "전체 AI 비전과 방향성을 공개하고 AI 메이트 서비스 '카나나' 출시를... 모바일 전략게임 '라스트워: 서바이벌'의 성공적인 한국 서비스를... 수 있을 것&quot;이라고 말했다 ◆네이버, 팀네이버 통합 컨퍼런스 '단 24' 개",
+        "link": "https://dealsite.co.kr/articles/129956",
+        "pub_date": ""
+      },
+      {
+        "title": "[대기업집단 탐구] 64.네이버, 본업 정체에 웹툰·리셀·AI 전방위 신사업 나선 'ICT 1세대'",
+        "description": ", 네이버 클라우드(1조 1970억원), 네이버 웹툰(7542억원)... MZ세대에 인기 이같은 환경 변화에 대응하는 네이버 전략 1순위는... 네이버는 AI(인공지능) 신사업도 진행하고 있다. 최근 큐(QUE)라는...",
+        "link": "https://www.thevaluenews.co.kr/m/view.php?idx=180623",
+        "pub_date": ""
+      },
+      {
+        "title": "NAVER, AI를 통한 성장성 제고",
+        "description": "[콘텐츠] 웹툰 YoY +11.3%, 스노우 YoY +24.3%. [엔터프라이즈] YoY +3.8%로 전 부문... 있는 네이버 파이낸셜과 두나무와의 스테이블 코인 및 핀테크 관련사업의 협력 방식, 구체적인 사업 방향의 확정이 동사의...",
+        "link": "https://blog.naver.com/tysmyasset/224067635581",
+        "pub_date": ""
+      }
+    ],
+    "company_name": "네이버(주)",
+    "company_name_eng": "NAVER Corporation",
+    "stock_name": "NAVER",
+    "ceo": "최수연",
+    "address": "경기도 성남시 분당구 정자일로 95 1784",
+    "industry_code": "63120",
+    "established": "19990602",
+    "homepage": "www.navercorp.com",
+    "ir_url": "https://www.navercorp.com/investment/investors",
+    "stock_code": "035420",
+    "corp_class": "Y",
+    "employees": [
+      {
+        "position": "전사",
+        "gender": "남",
+        "headcount": "2,870",
+        "contract_workers": "27",
+        "total": "2,897",
+        "avg_tenure_year": "8.0",
+        "total_salary": "160,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "전사",
+        "gender": "여",
+        "headcount": "2,057",
+        "contract_workers": "93",
+        "total": "2,150",
+        "avg_tenure_year": "7.2",
+        "total_salary": "126,000,000",
+        "avg_salary": ""
+      }
+    ],
+    "financials": [
+      {
+        "account": "자산총계",
+        "current_amount": "20341198572578",
+        "previous_amount": "17597111016833",
+        "two_years_ago": "15479991448695"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "15729782986276",
+        "previous_amount": "13246655551905",
+        "two_years_ago": "11450826041130"
+      },
+      {
+        "account": "부채총계",
+        "current_amount": "4611415586302",
+        "previous_amount": "4350455464928",
+        "two_years_ago": "4029165407565"
+      },
+      {
+        "account": "영업이익",
+        "current_amount": "1945532432697",
+        "previous_amount": "1905258322935",
+        "two_years_ago": "1713205368367"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "1882969128979",
+        "previous_amount": "1968704486363",
+        "two_years_ago": "1414312847932"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "16481339500",
+        "previous_amount": "16481339500",
+        "two_years_ago": "16481339500"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "14429917743461",
+        "previous_amount": "12865119709000",
+        "two_years_ago": "11379610436159"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "-21386426862",
+        "previous_amount": "-884636950607",
+        "two_years_ago": "-1132456364024"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "15729782986276",
+        "previous_amount": "13246655551905",
+        "two_years_ago": "11450826041130"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "1304770330177",
+        "previous_amount": "1249691454012",
+        "two_years_ago": "1187190629495"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "1882969128979",
+        "previous_amount": "1968704486363",
+        "two_years_ago": "1414312847932"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "1882969128979",
+        "previous_amount": "1968704486363",
+        "two_years_ago": "1414312847932"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      }
+    ],
+    "google_news": [
+      {
+        "title": "네이버웹툰 창작자 5년간 4兆 수익…김용수 사장 \"글로벌 성장 가속\" 선언 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44cDJWUGl3a0FhNGhFcEk2TnE1RGkyMkc1WklIMDNoaEx2N016dVg3QTlCQ2EyOW96dW9wUWF5M3JzM255NTRLR0V0YW81NlMtdGxz?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 07:26:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "\"코드 짜줘, 결정은 내가\"… AI 네이티브 시대, 당신의 몸값을 결정할 새로운 생존 공식 - 네이버 프리미엄콘텐츠",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZlFDZXRLVmVnc1ROaUVDa1ZXSTVKYk5EYlRBdzJGeWFxaXp6UkN1bVhieHJWRVhtQXNfcHkyZ1F4bkZDUmgtblNIMktHdU5iaDNRMkNZYThvamZTWTk0bnk1bDRBZWpxZ1hhQl8wMEFNaDZNSVhBRzlfM0d1akRyRy1DN2xiQQ?oc=5",
+        "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+        "source": "네이버 프리미엄콘텐츠"
+      },
+      {
+        "title": "\"AI 네이티브 먼저\"… 채용공식 바뀐 판교 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qQzBFUTZoZkVkSmQzTDFpNVgtUHNVUUVvNGNYalU1OHlUM2xMckpfcXloaWkwdmRaSTVXanBzaUFUajhMZ3BYSlhyaXVrUQ?oc=5",
+        "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "\"사용자 경험을 현실로\"…네이버, 'On-service AI' 전략 고도화 '에이전트N' 공개 - 청년일보",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqRzM3Uk9Vd05jcnBhXzdxcmwxV2UydHpvYUlJanJwaVRzTWtTbFFCc2pGb1BFT3lJY1ZkVzJ3SHpJbFlsRWJKRlFJQ2dFUkhYUmJ2QTI5cW16N3h6WU9ZTl81YUxmUlk?oc=5",
+        "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "source": "청년일보"
+      },
+      {
+        "title": "지브리도 \"무단학습 멈춰라\"…예술계 반발에 AI가 찾은 공존전략 [팩플] - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CWmREQ0pOTXZYOHhmaTlGNWxCQlZsbDlSTTdYQmdya0lGQXVUamNpZVRDckpKZHZ3NExNQnhMRG1YX1hZNVBkOXphUUlRTUoxV1hHcnp3?oc=5",
+        "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
+        "source": "중앙일보"
+      },
+      {
+        "title": "‘사상 최대 실적’ 네이버, AI 성장 엔진 ‘풀가동’ - 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sMk5Vc19MVHRmWnlWS21aNlByaFFYNWR3cTd2Q2M0em9SU0lvaVlBeHNnS0ttV1lWcGtBNGxoeWxxQXhtcG1ubXRxTGItVTE3eVlnSHJXZXZXTmtyUmozcVltOGJ3bmRmc3pVLTJpa1BRMmdpNjlTTGFicWY?oc=5",
+        "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
+        "source": "한국금융신문"
+      },
+      {
+        "title": "2025년 채용트렌드 풀버전) 채용의 진화 - 브런치",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1pZjBVUVdRbWptVThyTXdHa2FkUEwzbEhlVFZyblRuTi1RVno4SUJDakFEdTV5Z3RmWnVQSDlUUUxyODNvTUpGVQ?oc=5",
+        "pub_date": "Wed, 05 Nov 2025 14:09:30 GMT",
+        "source": "브런치"
+      },
+      {
+        "title": "내 자리 AI에 빼앗길까 두려웠는데…오히려 채용문 넓히는 기업들 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HNmhnYzNqQVZodEFJZm9jckIzNEJuYWxSRkV4V0UyVUNVSVI4TURJeFYzV0R4Z0dnR3dDc01tNU9iczZPT0RlekRES29rM281NzFJ?oc=5",
+        "pub_date": "Mon, 09 Feb 2026 08:00:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "카카오톡과 헬릭스 결합… 웹툰·웹소설 새 유입구 열까 - IT조선",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ybVF0QTE2NjBnWnVIczV4WnRCX04wVnFFYWdtdjFnclRBLXFqcmZsSnFHVGt2Rk85aVFwbFVjLWhiUE4tWFIwclpXN2JHZzVhYkt0M2hfLU9xQ1cyVjItR0Fla1JGaVNmMXRrdEh1Z3XSAXRBVV95cUxPemN0SGJMWndkUUk3M0toTzlnTm9iQllPTVRuTFV4bkxkT2p4ejdXTXJobnF6d0N0X1ZLSUxOb3R4UkpYT1lIUlNiVmNQd1JSeWhMUkp3Q05CX0NSRm9nNm1XdHZyd2VmN2pRSEpJMGJ4N2czaQ?oc=5",
+        "pub_date": "Fri, 26 Sep 2025 07:00:00 GMT",
+        "source": "IT조선"
+      },
+      {
+        "title": "디즈니 손잡은 네이버웹툰, 초대형 글로벌 공모전으로 북미 시장 공략 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtc2cwM0RYSkgtcVRVczZqUC1WSHZNOXhhRUhYZ3B1UWpQUWtncmlJZzFHeTdhMEVyRF91QWc0V05YVUh1M0NaQ0kxb1JZaHNXRkhTQ0lB?oc=5",
+        "pub_date": "Sun, 21 Sep 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "\"AI 네이티브 먼저\"… 채용공식 바뀐 판교 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1PeUxSZ0tNTGhCdUJVM2ZQSzlkLWNIVHdqZTRBMGlEb1dnVE55ZWt5b3lENU5Xa0twS0VoYXFLcUtiay1aY19VZm5TUQ?oc=5",
+        "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "source": "v.daum.net"
+      },
+      {
+        "title": "AI 사피엔스 시대 생존 전략 2 메타 시장에서 팬덤을 창조하라 | 인사이트리포트 | 삼성SDS - Samsung SDS",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ1dwODc2NjNYOVVsN093SGpkay1adGN3VVBTalE4cksyTS1GSVI2cm5iQVYwWkpZbFJpLU1sV1Zva0VSSjFVU2RocExWa0JjLWhLek52TTZNVUtkOFZnTEhrMV9hVzM4OTd3QnVPNm5ZZGRidjNKRC1OLVRxajVRSy1NVjFnREd6Qlotb0tB?oc=5",
+        "pub_date": "Fri, 28 Mar 2025 07:00:00 GMT",
+        "source": "Samsung SDS"
+      },
+      {
+        "title": "스캐터랩 ‘제타’, 일본 엔터테인먼트형 AI 앱 이용자 수 1위 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11eWJGbEhmN1hrOXRDQ0t0LU16VXVKQkdJd1VBbUp1VnZ4OE0zTXZ6X1MyM2xaQlV3Y01Hamlzc0FoT1EzUDJURA?oc=5",
+        "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "美 나스닥서 몸값 4조원 네이버웹툰, 왜 AI에 투자하나 - 서울경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5tNS1xRnBReW5YamZZaUZPRFlwSXJDa1JDV2JyRUhMX0xEajhobGFBaHVJOVhieFNkREMtdXdTSWExaDZUWXVfWmNNQzB1cjVtaHfSAVNBVV95cUxOeWtNM3NTTTZPV21ndlM1LTVYb0FHd2MzQmVlcGxEdWxpT2NkeDQ3VTRvQjVtQU9jeXRhdHlEdHZuMlM4VU5qNlNseTlud0d4TFVoWQ?oc=5",
+        "pub_date": "Sat, 29 Jun 2024 07:00:00 GMT",
+        "source": "서울경제신문"
+      },
+      {
+        "title": "AI 훈풍 타고 직원 늘린 네이버… 카카오는 조직개편 여파로 감소세 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbGdIUW1qSllzNXFiekdPMzQtQVBEZVNGY3NJYnQyMGZVbzJpR3o0UndWcjFVN2NxV1NPVXRtTDV1aFdrZG44NDlHemh2REptQ19vUWpRSlowZHJrYWRaR1psX0dCdmpiRWxtYjE4VmR1T2tZZC1QMTJ4eGdNbmYtc3Zn0gGWAUFVX3lxTE9fOXBmaUs3RFpicnp5WVNCMVREdDN2UDZrQk1Qal9xd29BUDNjNExVSlMtYV9PbVdjM1owMmFtM2lmdUxmeENGUTMxVF9LdmVuZVFGVmd0VHhma2R2NVk2Wmhid3JQVW9zZzhTOWZsWXA5djJWeDNHZVN4b0E3WTI0YlRMRXo4ZEM5YnREbEpWVGRaNm05dw?oc=5",
+        "pub_date": "Tue, 19 Aug 2025 07:00:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "외형 성장 멈추고 ‘집단 소송’까지…네이버웹툰 발목 잡은 두 개의 장애물 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aZG1GNDI2MGhDcU9SdnFOS2FoYl9oZFhhTm95cUVMaHVMU0RLa1p6T1NnY3ZyUlJFenVwT2xKV1NKdjRHOWh5dFVSaFlvaTB4VTVodzdB?oc=5",
+        "pub_date": "Fri, 13 Mar 2026 06:51:33 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "AI 경쟁력 흔들린 네이버…쇼핑? 웹툰? 이제 어떤 가치로 평가해야 하나 - 인베스트조선",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR0VwNmxDQm9iM3hCdk5GS1BPbzlLUjV6emdVbFhZVV9IdC1leXlERGoyZXdHcEpZWGVjRVZsYkhscE54U2wyRWZ5OGs5ZGNNMG9IWkxmdGVFemxkUXRqYmRhdEpIbF95eHl4aGRlb3pKeGlTTVc0QmhhN2JEUVZqaDl4dw?oc=5",
+        "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
+        "source": "인베스트조선"
+      },
+      {
+        "title": "웹툰엔터, 3분기 영업손실 206억 원…IP 사업 성장세는 지속 - knn.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZYVMxUVE5NVJJNkNsS0hLcU9pT3ROTllpZmtza1hLNEJ2QTltTjVrS0ZySXVieDBXc0U2N1dUOEpTRUJ2US01QUx3X3lEYkRIQXkxUkJB?oc=5",
+        "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
+        "source": "knn.co.kr"
+      },
+      {
+        "title": "웹툰엔터테인먼트, 3분기 매출 8.7%↑...영업손실 206억원 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41NFhmdmktaGZsWnNjcktjOWE1T0ZMZXJEOEFLLVRwVUEySFYwYWhmNkQ2RGRNbmtzTks4enlXaTByOVM0UTZRNHRNYS1iWG1yb3lxaENB?oc=5",
+        "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "카카오 콘텐츠 매출 1년새 20% 똑↓···네이버와 상반된 행보 - 시사저널e",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qeU13bTkxS0gxdXl0cWx1VGszdVZjZXFLUFBsT3NpbWVtVVBGanlqQUo0WnZnRjlVRmJNUWJhUDJaTGo0VjNVblpOSC16TEpvM19XMDdmQkVqZG80djdHaHdPb0JXdy0zUXJ5Q0E4NE1XQdIBdkFVX3lxTE9KSWZRRTZ3dUV4X0J2WTR6TGEtOG91dmRDZmE2UWdaWi1VeG9oMDBSWGU2QUxaUFR0REh5Uk16T1RadGpUUzAwNjNqdm9seUxma3lhTHNGWnNZSTJsWlVmVENaRVFBMWpueHRMZEtNTkJPUUVTSGc?oc=5",
+        "pub_date": "Thu, 20 Nov 2025 08:00:00 GMT",
+        "source": "시사저널e"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "NAVER WEBTOON Careers",
+        "url": "https://recruit.webtoonscorp.com/",
+        "description": "네이버웹툰 조직문화 및 업무 소개, 채용공고, 입사지원 등"
+      },
+      {
+        "title": "네이버웹툰",
+        "url": "https://recruit.webtoonscorp.com/rcrt/list.do",
+        "description": "네이버웹툰 조직문화 및 업무 소개, 채용공고, 입사지원 등"
+      },
+      {
+        "title": "네이버웹툰㈜ 진행 중인 채용정보 총 10건 - 채용 히스토리 통계 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/16152443/recruit",
+        "description": "네이버웹툰㈜ 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+      },
+      {
+        "title": "네이버웹툰 최신 채용정보",
+        "url": "https://www.catch.co.kr/Comp/RecruitInfo/LG8788",
+        "description": "네이버웹툰 채용이 궁금하다면? 인턴·신입·경력 공고와 함께, 이 공고에 관심 있는 회원 통계와 자소서 문항을 한눈에 확인하세요."
+      },
+      {
+        "title": "블라인드 | 네이버웹툰 기업정보",
+        "url": "https://www.teamblind.com/kr/company/%EB%84%A4%EC%9D%B4%EB%B2%84%EC%9B%B9%ED%88%B0/",
+        "description": "채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
+      },
+      {
+        "title": "NAVER WEBTOON | LinkedIn",
+        "url": "https://kr.linkedin.com/company/naver-webtoon-corp",
+        "description": "웹툰 AI를 이끌던 김대식 웹툰 AI&amp;Data 리드가 총괄한다. 김 리드는 &quot;데이터 라이프사이클에 따라 조직을 세팅했다&quot;며 &quot;추가 채용해 100명 규모로 키울 것&quot;이라고 말했다. #네이버웹툰 #NAVERWEBTOON #WEBTOON #AI #데이터"
+      },
+      {
+        "title": "네이버웹툰 채용공고 2025 상반기 신입/경력 채용 | 2024년 채용",
+        "url": "https://jasoseol.com/recruit/95317",
+        "description": "네이버웹툰 /경력 채용 3D/ Video Production&amp; Motion Graphic Design, 웹툰 그로스 운영 디자인 (Visual Comm.&amp;Brand Design), EU Content Management, EU Webtoon Marketing, TW Service 작품 기획/운영, HR, Data Scientist (추천시스템 ML모델링), ML 플랫폼/추천시스템 개발, Big Data Platform Engineer, Anti-Abusing Engineer, React Native Front-End 개발, 웹툰 커뮤니티 플랫폼 Back-End 개발, 웹툰 콘텐츠 플렛폼 Back-End 개발, 글로벌 정산 플랫폼 Back-End 개발, Global Security, 웹툰 영어서비스/미국시장 사업 전략 PM, US Perfo"
+      },
+      {
+        "title": "네이버웹툰 경력 공개 채용",
+        "url": "https://webtoon.github.io/recruit/nontech/2022/join-webtoon/",
+        "description": "- 서비스나 IP의 성장을 위한 마케팅 전략이나 커뮤니케이션 캠페인 기획/운영에 보람을 느끼시는 분 · - 커뮤니케이션 결과물에 대한 반응을 확인/분석하고, 다양한 채널을 통해 유저들과 소통하는 데 흥미를 느끼시는 분 · - 다양한 협력사 및 협력부서와의 커뮤니케이션 업무에 능하신 분 · - 디지털 미디어와 트렌드에 대한 이해도가 높으신 분 ... 네이버웹툰 마케팅팀은 글로벌 No.1 웹툰 플랫폼인 네이버웹툰과 다양한 매력의 작품들을 더 많은 유저들이 경험할 수 있도록 매체의 경계없는 다양한 마케팅 활동을 펼치고 있습니다."
+      },
+      {
+        "title": "2025년 네이버웹툰 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/1678178379/",
+        "description": "네이버웹툰(주)는 인터넷·포털·컨텐츠·게임 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+      },
+      {
+        "title": "[네이버웹툰] 2025년 상반기 신입 / 경력 채용 모집 (~11/24) | 공모전 대외활동-링커리어",
+        "url": "https://linkareer.com/activity/207606",
+        "description": "[네이버웹툰] 2025년 상반기 신입 / 경력 채용 모집 (~11/24)합니다. 모집인원은 0명이며 IT/인터넷, 웹개발 분야의 인재들은 지원해주세요!"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "18 Naver Webtoon jobs in Worldwide",
+        "url": "https://www.linkedin.com/jobs/naver-webtoon-jobs-worldwide",
+        "text": "13 Naver Webtoon jobs in Worldwide\nSkip to main content\n* Any time\nAny time (13)\nPast month (4)\nPast week (2)\nPast 24 hours (1)\nDone\n* Company\n``````\n* Clear text\nNAVER VIETNAM (12)\nDone\n* Job type\nFull-time (13)\nDone\n* Experience level\nEntry level (1)\nMid-Senior level (12)\nDone\n* Remote\nOn-site (13)\nDone\nGet notified about newNaver Webtoonjobs in**Worldwide**.\n[Sign in to create job alert](https://www.linkedin.com/login?emailAddress=&amp;fromSignIn=&amp;session_redirect=https:/",
+        "score": 0,
+        "published_date": "2025-04-11T00:00:00.000Z"
+      },
+      {
+        "title": "Naver Webtoon Careers | Levels.fyi",
+        "url": "https://www.levels.fyi/companies/naver-webtoon",
+        "text": "Naver Webtoon Careers | Levels.fyi\n\n← Company Directory\n\n##### Naver Webtoon\n\nWork Here? Claim Your Company\n\nOverview Salaries Benefits\n\nJobsNew [Chat](h",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "NAVER WEBTOON Careers",
+        "url": "https://recruit.webtoonscorp.com/cnts/episodes_detailsub?id=8",
+        "text": "-- NAVER WEBTOON Careers\n\n### 네이버웹툰 개발자라 행복합니다! (feat. 뛰어난 동료분들 & 성장할 수 있는 개발환경)\n\n#2022 네웹취뽀썰 - 데이터플로우 플랫폼 개발자\n\n안녕하세요! 2022년 상반기 네이버웹툰 신입 플랫폼 개발자 채용에 합격하여 네이버웹툰의 성장에 기여하기 위해 열심히 배우고 적응 중인 신입 개발자 W Dataflow Platform팀 계대환입니다 😊\n\n네이버웹툰이 신입 공개채용을 시작한 지는 얼마되지 않아 “신입 공채”에 대한 정보가 많이 부족했었습니다. 그래서 앞으로 네이버웹툰 개발자 채용에 더 많은 관심을 갖고 지원하실 때 도움이 되실 수 있게 작게나마 지원 과정과 입사 전후의 모습에 대해서 글을 써보려고 합니다!\n\n부족하더라도 재밌게 봐주셨으면 합니다 😊\n\n1. 지원과 서류\n\n우선 저는 지원한 동기와 과정이 남달랐던 것 같습니다. 작년(2021년) 신입 공채 설명회에서 성장에 정말 진심이신 개발자 선배님들의 이야기와 사원에서",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "NAVER WEBTOON Careers",
+        "url": "http://recruit.webtoonscorp.com/",
+        "text": "-- NAVER WEBTOON Careers\n\n이전\n\n/\n\n다음\n\n정지\n\n하루동안 열지 않기\n\n닫기\n\n### Global StoryTech Company\n\n함께 즐기며 성장할 인재를 기다립니다. 커리어 기회를 지금 확인해보세요!\n\nView Careers\n\n### Teams\n\n서로 다른 사람들이 모여 한 방향으로 나아갑니다\n\nLearn more\n\n- Corporate 서비스도, 사람도 '지속 가능한 성장'을 할 수 있도록 지원합니다.\n- [Service & Business 스토리의 즐거움을 전합니다.](http://recruit.webtoonscorp.com/rcrt/list.do?srchClassCd",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "NAVER WEBTOON Careers",
+        "url": "https://recruit.webtoonscorp.com/cnts/episodes_detailsub?id=2",
+        "text": "-- NAVER WEBTOON Careers\n\n### 네이버웹툰 인턴십을 알려줘! - 2021 하계 인턴십 솔직 후기\n\n#2021 네웹취뽀썰 - 서버 개발자\n\n안녕하세요. 저는 네이버웹툰 2021 하계 인턴십 프로그램을 통해 입사하게 된 신입 개발자 김정후입니다. 지금은 글로벌 웹툰의 서버팀에서 한사람 몫을 하는 개발자로 성장하기 위해 열심히 노력하는 중 입니다😄\n\n콘텐츠를 사랑하는 사람들에게 꿈의 직장이라는 네이버 웹툰! 하지만 막상 네이버웹툰 인턴십에 대한 후기/자료는 인터넷에 많지 않은데요. 다음 네이버웹툰 채용연계형 인턴십을 준비하는 후배 개발자분들에게 조금이나마 도움이 되었으면 하는 마음에 저의 인턴십 경험을 공유하고자 합니다.\n\n1. 네이버웹툰 인턴이 되기까지 [네이버웹툰 채용연계형 인턴십의 채용절차]\n\n네이버웹툰의 채용연계형 인턴십은 서류전형과 면접전형 (기술면접+ 라이브 코딩 + 인성검사)으로 이루어져 있습니다. 시기가 시기인지라 모든 전형은 비대면으로 진행 되었습니",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "Naver Webtoon Pays Creators Over $2.9 Billion in Five Years",
+        "url": "https://en.sedaily.com/culture/2026/03/17/naver-webtoon-pays-creators-over-29-billion-in-five-years",
+        "text": "Naver Webtoon Pays Creators Over $2.9 Billion in Five Years - Seoul Economic Daily\n\n\n\nSeoul Economic Daily\n\nSeoul Economic Daily\n\n\n\nKST\n\nSeoul Economic DailyKorea's Leading Business News Since 1960\n\n한국어\n\n [](ht",
+        "score": 0,
+        "published_date": "2026-03-17T14:31:49.905Z"
+      },
+      {
+        "title": "네이버 웹툰엔터 \"5년간 창작자 수익 지급 4조원⋯올해도 700억원 이상 투자\"",
+        "url": "https://v2.inews24.com/view/1949890",
+        "text": "네이버 웹툰엔터 \"5년간 창작자 수익 지급 4조원⋯올해도 700억원 이상 투자\"\n\n---\n\n## 김용수 신임 웹툰엔터테인먼트 프레지던트, 창작 생태계 기반 성장 강조 비디오 포맷·디지털 캐릭터·UGC 중심으로 플라이휠(선순환 구조) 확장 글로벌 창작 생태계 성장 지속⋯작품 발굴·창작 지원에 700억원 이상 투자 계획\n\n[아이뉴스24 정유림 기자] 네이버웹툰 모회사 웹툰엔터테인먼트는 2021년부터 2025년까지 5년간 창작자에게 배분한 수익은 총 4조1500억원으로 집계됐다고 17일 밝혔다. 올해도 작품 발굴과 창작자 지원에 700억원 이상을 투자한다.\n\n[사진=웹툰엔터테인먼트(네이버웹툰)]\n\n네이버웹툰은 이날 오전 서울 강남구 네이버 스퀘어 역삼에서 기자 간담회를 열고 창작자 지원 성과와 올해 사업 방향을 공개했다. 이날 행사에는 지난 5일 선임된 김용수 웹툰엔터테인먼트 프레지던트(사장)가 창작자와 함께 성장하는 플랫폼 생태계의 중요성을 강조했다.\n\n### 5년간 창작자에 배분한 수",
+        "score": 0,
+        "published_date": "2026-03-17T00:00:00.000Z"
+      },
+      {
+        "title": "네이버웹툰 “수익성보다 성장”…올해 창작 생태계에 700억 투자",
+        "url": "https://www.hani.co.kr/arti/economy/it/1249724.html",
+        "text": "네이버웹툰 “수익성보다 성장”…올해 창작 생태계에 700억 투자\n\n경제 IT\n\n### 네이버웹툰 “수익성보다 성장”…올해 창작 생태계에 700억 투자\n\n선담은기자\n\n- 등록 2026-03-17 15:15\n- 수정 2026-03-17 18:53\n\n기사를 읽어드립니다Your browser does not support the`audio` element.\n\n0:00\n\n지난 5일 선임된 김용수 웹툰엔터테인먼트 프레지던트가 17일 서울 강남구 네이버스퀘어에서 연 기자간담회에서 창작자 지원 성과와 올해 사업 방향을 발표하고 있다. 네이버웹툰 제공\n\n네이버웹툰이 수익성보다 중장기 성장에 방점을 찍고 창작 생태계 확대에 속도를 낸다.\n\n김용수 웹툰엔터테인먼트 프레지",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "네이버 웹툰엔터, 1분기 영업적자 387억원…\"2분기 글로벌 확장 나설 것\" - 디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2025051407101443210",
+        "text": "네이버 웹툰엔터, 1분기 영업적자 387억원…\"2분기 글로벌 확장 나설 것\" - 디지털데일리\n\n- 창간 기념 이벤트\n- 세미나/콘퍼런스\n- DD튜브\n- 딜라이트닷넷\n- DD테크콘텐츠랩\n\n- 회원가입\n- 로그인\n- DD뉴스레터 보기\n\n2026.03.20\n\n뉴스\n\n## 뉴스\n\n### 뉴스\n\n- [전체기사](https://www.ddaily.co",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "[일문일답] 네이버 웹툰엔터 \"수익보다 성장 우선⋯창작 생태계 투자로 글로벌 성장 가속\"",
+        "url": "https://www.inews24.com/view/1950099",
+        "text": "[일문일답] 네이버 웹툰엔터 \"수익보다 성장 우선⋯창작 생태계 투자로 글로벌 성장 가속\"\n\n---\n\n## 김용수 신임 웹툰엔터테인먼트 프레지던트, 17일 창작 생태계 기반 성장 강조 창작자·콘텐츠·이용자 중심 플라이휠(선순환 구조) 확장⋯\"성장성 이어갈 것\" 올해 작품 발굴·창작 지원에 700억원 이상 투자 계획\n\n[아이뉴스24 정유림 기자] 김용수 웹툰엔터테인먼트(네이버웹툰) 프레지던트는 17일 \"수익성보다 성장이 우선\"이라며 \"지속 가능한 성장을 위해 창작 생태계에 대한 투자를 이어가며 글로벌 성장을 가속화할 것\"이라고 밝혔다.\n\n17일 서울 강남구 네이버스퀘어 역삼에서 열린 기자 간담회에서 김용수 웹툰엔터테인먼트(네이버웹툰) 프레지던트가 발표하고 있다. [사진=웹툰엔터테인먼트(네이버웹툰)]\n\n이날 서울 강남구 네이버스퀘어 역삼에서 열린 기자 간담회에서 김 프레지던트는 \"건강한 창작 생태계는 장기적인 성장에 필요한 근본 요소\"라며 올해 작품 발굴과 창작자 지원에 700억원 이상을",
+        "score": 0,
+        "published_date": "2026-03-17T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "NAVER Open Source",
+        "url": "https://naver.github.io/",
+        "text": "NAVER Open Source\n\nSkip Navigation Skip to menu Skip to content\n\n## main content\n\n### Open Source Project List\n\nGo to GitHub Go to WebSite\n\nScroll To Top",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "GitHub - Integerous/goQuality-dev-contents: { 고퀄리티 개발 컨텐츠 ...",
+        "url": "https://github.com/Integerous/goQuality-dev-contents",
+        "text": "# Repository: Integerous/goQuality-dev-contents\n\n{ 고퀄리티 :zap: 개발 컨텐츠 모음 }\n\n- Stars: 10034\n- Forks: 1399\n- Watchers: 10034\n- Open issues: 2\n- License: MIT License (MIT)\n- Default branch: master\n- Homepage: https://goquality.dev\n- Created: 2018-10-04T06:39:55Z\n- Last push: 2025-08-26T13:41:26Z\n- Contributors: 80 (top: Integerous, Arc-Jung, BKJang, zi-gae, lgm1007, moonformeli, taxijjang, bluelion2, webhacking, dungsil)\n\n---\n\n[![author](https://img.shields.io/badge/author-Integerous-lightgray.svg?s",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "GitHub - hayoon-shin/Naverproject",
+        "url": "https://github.com/hayoon-shin/naverproject",
+        "text": "GitHub - hayoon-shin/Naverproject\nSkip to content\n## Navigation Menu\nToggle navigation\n\nSign in\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\nSearch syntax tips\n# Provide feedback\n \nWe read every piece of feedback, and take",
+        "score": 0,
+        "published_date": "2024-10-24T00:00:00.000Z"
+      },
+      {
+        "title": "GitHub - pminhyung/naver-webtoon-recommendation-system",
+        "url": "https://github.com/pminhyung/naver-webtoon-recommendation-system",
+        "text": "GitHub - pminhyung/naver-webtoon-recommendation-system\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedb",
+        "score": 0,
+        "published_date": "2020-01-30T00:00:00.000Z"
+      },
+      {
+        "title": "GitHub - sjunh812/naver-webtoon-project: 🎨 네이버 웹툰 clone app",
+        "url": "https://github.com/sjunh812/naver-webtoon-project",
+        "text": "GitHub - sjunh812/naver-webtoon-project: 🎨 네이버 웹툰 clone app\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe ",
+        "score": 0,
+        "published_date": "2022-10-03T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "Naver's Webtoon Entertainment aims up to $2.67 bln valuation in US IPO - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORWtGd2pNVDFWUmhhNHlIVm12a3lYNmNiUzhsYXZ5VHRIeXZ1czY0ems1cE5VOVpzQVNyZVRXeGZLSjB4bUtFNHpVQlFHNWxoNFQwMEp4aXJsWnRwMElXV1BpaHZjWUtzUmtIaEtSQlRFR2VPMHd1dTVFSGlIRkI2aFNCRk9wR210N0hVbDBrT1NXM05CZzI4ZkJQRUp6MURWTWRWdE9VUnFVd2o0Zmoybw?oc=5",
+        "pub_date": "Mon, 17 Jun 2024 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "South Korea's Naver-backed Webtoon shares jump about 14% in Nasdaq debut - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSzJ5akt5MEt2UG1nc0FqVTdaSWtzb0tJdEhBR2FaMkxTWkRxbXRDdXd0SEloRTZTNkRvU0s3YkdKaFcwemQwY1hubEplRU9KYnVNd3htTUVESDFlUVlPa1Y2Uk5xbnVta2FNQktWZkNRVy1PTk5VU1JPemFBUnZqcXlzWS1tS1hxZUF1MHpmUFJ5UQ?oc=5",
+        "pub_date": "Thu, 27 Jun 2024 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Naver's 'Webtoon' CEO says barrier for new entrants is high - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVWtJcXBXOWV1am9pRVhYUHBhMUd3REtkdkVnZjNwQm5iNzNVdVpWY3BISEFuczd6WHB2WXlvUWwyZzhiQVQ5MWZuLVdSRGN1Zm9qb1dKaG4tYS03OHNhU1ppNU5McHctbF9MOUwzcGd6cmJfV3NwVnY4aXhQU2YxWjR2bW9HMmRpaDlqREtjYld0elRocDVjbHoyRFJSemdh?oc=5",
+        "pub_date": "Mon, 14 Aug 2023 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Naver-Backed Webtoon Seeks as Much as $315 Million in IPO - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN3djM3pmWWxNQnFfYk9KSUdKTXZtenVuQVhBR2FkLWM4NmRsRnl4d28xTEhOMEEtdGZTUE9zWFRiY2pOc3ZQaGE4TFlfRF9oeWdLNlJCazRCSFpwMUxXeW5ueDgtaTQ4RmFHYk5PX0QzVkhqWE8yUW5NTEFtUmo4em9WTjBUTFhRaWtiNXFJb3d2V2VwM1NnSGpZdjRnWnNKMk95dmNCd1FEU00?oc=5",
+        "pub_date": "Mon, 17 Jun 2024 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Naver-Backed Webtoon Shares Rise 9% After IPO Priced at Top - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdEJ3dU5nQ2JaSmxFQW1xTnp6aHdaWVdDRzdoX2Rra0o2dnZ4Ym5falpMczVORW40Umx2cFdrdGJ1WlBJWjlyN21UR1VyaDN5bFdLRUE1S1Rka0RGZEJzUVgxYXFVQ1d3V2JWejFyZ0ZqMW5BYTJOb0MtdUh4MGlJZzR4bzRxVlRnSXpVVHdyVjUwNFkzMXpsUy1FQTdMdDIzZ1hJdzZMRWNWdF9KVlE?oc=5",
+        "pub_date": "Thu, 27 Jun 2024 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Naver-Backed Webtoon Likely to Price IPO at Top of Range - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS0ZKUEVvRkN0LWdTeXpFSDJrTDhjWDhWaDJiLUp3ZkZGcUttcTcwemlBUXhJU0tRMEVSV2FQQVN3dXFSM0dmM2tTbjNGUG1sWkpUcl9TOGY1aThKbGFkRGRVbFpWX1lFN1doajd2NU11QWxrUzZvYUR1UVh4SzIxaldXTjZ1VUZJQnpialFET1BaTndvdVduSTdtVk1xTV9YNGVsOWhGSF9uQmxnWEJmbEdqdEJHdw?oc=5",
+        "pub_date": "Wed, 26 Jun 2024 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "With new owner Naver, Wattpad looks to supercharge its user-generated IP factory - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWjAyWHpJcXNvZ1pzTnN1Mjk2R01ldV9xOGEtdzFPUl9aeGdqQkhyYlZWRXVvMzN6Z3lnMldEdElqcDVxcDM4eTIwUk4tWFgwbFZJZzhYa0FnLUFBcWhCLU1maFZVS2ZudGlCbTZTandzVFFQSVBENXN4Mm1KYkJPbmlXUUtldENqUlp3RmVwSmhUS1htTGZvMG9COU05VGFtSU01YVZUQWoteVhMeHpKdg?oc=5",
+        "pub_date": "Mon, 10 May 2021 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Can Korean digital storytelling platforms captivate North American and European audiences? - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaDdiU2FNZjhMTjFPUGF3MjZqYWg4aXVROUNmZnptZEJ1OEhFd0VHWDFwYlctQkRBaDNvelE3WkhWb0dWSEZWa09tT1o2alpBSEV1RHoyZ1BHTkFnNkVGbTRDaWtSczNYYjBLSV84ZWQxcXc5R0d4Z09RVzUwVDVNY2NXN0l0dTZSSWNPMHNieFUxQXhHWUdXTGx2bzdrMkZwWmVFQ3dWWFBoMjcwM2FTb2l3WDRlMlBmV3RkcmxLNXNNQQ?oc=5",
+        "pub_date": "Tue, 24 Jan 2023 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Wattpad, the storytelling platform, is selling to South Korea’s Naver for $600 million - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUlfcWFPTEVOMVBKZkFaOXpOMjlwV093VEhJUEYxZVBoU19Pa3hSY2cyQ1QyOGdtVWRpQ19SVHBySUozbGtwMm5oNkRrTG9sa3gtWG1DN2JFRmlacGpKVVNSY3NjLXFMVU5DSTMySXpKYlAxSWdZSXpuemhYNWpPU0hUWVVGX25zbWxJZzN1b3JpVnl0eHNNQ3RmcWRyaUMzQnJZS2wzQWk5MnM1SUZkX3VCU3ppSTZ6?oc=5",
+        "pub_date": "Tue, 19 Jan 2021 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Webtoon Entertainment Stages Recovery With Disney’s Stamp of Approval - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMitwNBVV95cUxPekVmQTMwcm1nbzVCdmhNZ3RMdzVZR09kRjEwZlhURklNTzNGdTlfU251MnVCR0p2QWh6ZHp1aElVXzFJbzFnQ3Btd1c3RG1IRFVEdDM4T1I4ejlYeFdrZmc5OFpnOThkdzVvdEItT3Znc2htaTVRbTJGVkRFYjNGcTl0NUo1Mk16MmFCa19nRzR0ZzZrcnFKTEVPUk4zNGtHYUdLRVBQRUY1SVBUcGt5aHlQYVVWeEE4SHl2RGdWNENuVWlhZDFVZGlEenNjbkxneXVEal9kdTZZc3g4MWl2cXJyV1VWTkxBNXVCRnh0VG5HNWZ6UTQyaWx4aHhxYkVldlg2d3BKTmQ2QVotXzNza2JFWVFoMS1jNGdtNG52MW02TGVuR25pZEM2dEVKTkhUMWhXaTNUYmhXaVloSGFsZDE0WEFteTd3UlBDblR5UV91SWd5RVA4RjVrZnp2aGp6bzV5cl9zWDZDY0FHeVUydnRzMFhQNExlWWJEQ3IwWTRMR1F0RS1mcVVVZU0wLUNxWkwwWDVOMGxtZ1RjSjZ6a045ZEoySl9Ma1B2eENwUkxGZ2tHZlZZ?oc=5",
+        "pub_date": "Wed, 13 Aug 2025 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Disney to Put Comics on Webtoon’s Platform - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNcEJkeXJINHZ4azlUZWRDYXN2TkpYY01aNWlwbWVtRkp2Z0VNLV81eHpPdlZRbm1nOVA1MDRydWFqbHQ1UnlqMFlzcl8tZk05b3lxNTdPSG5VQ2ZlT1dIY2g2MWs0RWh5QXBPN085MTZ4NF9nUFlHWW5WUEZJTEhaMFJBNU95UlZrXzJ2VkJ6UjdhSlQwekF3ZGxuc1J2NGpGcUljRnNBWmJJNkh5UVF1OWlyUWFyVElYYlJzSGVWMUhnYjRLNURoUF9vVzJfc1p6Y2V0cjdYa2N3aWJfN3hNQ0JGUlVYYmc5NTZyd2RSZXdnV2xGamo5ZkZ5WU12amRrb3U3NlhGelhQVUFadWxCZG5ENDU4WVZyaTVPRVNMVm90QmVVY3JzSFFCcUg2VGVtZmgza01sVmRRSnphN25ueVcwWnh2SzJFVmRXZ0IxVnA1QzM1T0VjM1BuU0xyMnRJQlNhdl9HZzhLLXpZaDNLemxlTktYMVpNWGh3QzViLUx6RWlFcENsUWd5YU1lTDc2VFdj?oc=5",
+        "pub_date": "Tue, 12 Aug 2025 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "‘Star Wars’ Web Comic About Luke Skywalker Makes U.S. Debut (Exclusive Art) - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxPcVREYkZYZnd1ZThTZUYwRFVOa3I5LWJXc2s0MTh6bm9NOGRpcG45TV9HOUpuZGpUQzRNQ0ltY19qM2FGclAzZWNFbnkwZ0NSMWhrMnd0cUFQRlFpUkMxMnlKQ3J4OWxuYzJwYzhQRDZ4NVpVOExqMDFyZFdzTU5BWEZvV1RCR25vWVBQSjN3LXNCaF9TNVlCRk56SXZSX3Uwb2hTZ1ZTRkN3ZWtkN3ppekF2REktTzlQZTc0V204QnRVV1c1WUhtajlySkxJZldjbUpaMU02TkVUb2VkbXN6Vmtld0duT25ZSEx2eXlxTEdPV3duemZOM0xxUTBmSGJyQ3hCQ0hBVEg0NjlqOF91VHlydTBzQ0RrY2JITTJsMk5RYzJ5NVp3bk9EaEZwcTNELTdFNE92Vkx1MjhLcTU2bmhoS1hRanloRnhhdXplRlgtSDFKRTlqYmhOc05LdmVuUC14UUFTWWVjQUlZR2pEVHA5VUZ1YTVQV3FPUjRnMUR0SHY1RkdoYzRCSkdCempPQU9pcjI2bTJsa3lDS1FNT3dQTlJoMkNUZ0NkTlM5RWNxR0l3T2hDYkZB?oc=5",
+        "pub_date": "Thu, 01 Oct 2015 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Webtoon Entertainment to debut on Nasdaq as latest Korean cultural export success - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGTlBaOXdTOXhycFR4eWY3NVBtT1owSWg3dHRvZ0VzQXVHNncyTFpQT3RqZ2xZMmNySHlUNXFnX09INk9WYTdKUHhja0VQcEVDYkZSRlNrTmk1QVZFX3hFdnhIVFdkZDVwbmFVVzB3UGg?oc=5",
+        "pub_date": "Wed, 26 Jun 2024 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Naver Corp - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13NXMzZWw1SHVUOWFrVExxbGRyWGYwa214N1NfVWpiNmxPMDRoNy1ZdFhhVTZvRkU2S3pZZ09udDRQRlROZ1BtT2lQNmxobmZvSDNhUW9hWUFLSTU1dnEtdU9qcUtMdVhqM2t0aWVRVQ?oc=5",
+        "pub_date": "Fri, 08 Jun 2018 06:53:41 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "South Korea’s webtoon companies target global takeover - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZam1oalVzYVFyeUJJeFBtMG1Rd2RNN3gyWEdqMGlTMmJRdnd6U24wemRxcWk2eWs5WFUzUjhsdFhpMURwd0pXb3A2d0hPVEtwU2dHMkU1R1ZnYkZUTy1rVm1YUXZMYTZ4TFc5NHczZjQ?oc=5",
+        "pub_date": "Fri, 25 Mar 2022 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "After U.S. IPO, Naver's Webtoon to spend more on creators and AI - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdlcwX1Y5TGlsWmpZVFpoN2FEaEx4TDZ4Q2t2TGdzb25xcHJ4cGQ1c3RXSmE3dzBYM0llaHBCZnN1WGw5UEhwNFo1ZXVxZjBxdThpRUlCbFhTSTMxY0J5enVWblplMWVxOHlXeTdoSG9HZXo0eGJObWI5WUlGNFo3QUlRWFdxaEM0cWFrbno1WXIydDZrOVNjblhTbVk4N25VajdsUnltUlZmNTV1a1NzS3dMSUp6T1k?oc=5",
+        "pub_date": "Sat, 29 Jun 2024 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "South Korea's Naver to maintain ownership of Line app operator - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTGNCaF9yTWRJYjVmeW51U1c0dl9MVXhnZjNTRXdaTUVsSkh3ZWthaVU5TERfaVI4Y3ZnR0tLbjFqV2k4Qm5qa1VBM0pYVndvSk1mTlpkS05EWmdjOFlSTjFxdV9TN3V3MDZoZXB3M04xUWVmQjFobFIxNkNpcGVtOTJHZUxPNzlaQUEtS3JOZ0VkZjU2MHJjRVkzdThDaWhwSGk3RF9td20xdw?oc=5",
+        "pub_date": "Sat, 10 Aug 2024 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Naver to buy Canadian storytelling platform Wattpad for $600m - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWTc4OVBUN1BQcHlKRld4bXVIQS1IZnJ2Snk0dzBjbm9HWE5jR2MyeFdFMjNyekFkU3AwcUttcFl6ZFRFWFVvNXpjVm9GenViUjZBNUhfWHBLampJUW5TV1gzSmdERmNCUDBiX2lSQVVBTE9hd3ltczhXa3k5aHNEUzBJbVAzWU9KblgtVG5vZmlGT2k2WnlkVEVoRi1QQjAyaDVKUEQ3cHQtRTFY?oc=5",
+        "pub_date": "Wed, 20 Jan 2021 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "TikTok Pushes Long Video at VidCon; Webtoon’s IPO - The Information",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNkdNSnVvYXRXQVBXRk05RGV3YWJwb0JfeEtja0ZOOHM1REhyeEx5WmxPVmlrcDk2elFvUkcxSXBvMk9YNmc0aW1WVEM2X244T0ZlNDF1YTV5aklVX0lGdndpNnJfZmFRRHAxa2pxQkdjRnFwTlBsVnlHc0wzOGJIQ3BVRGI5Wkpva29NUUtSbXlLckFQSTFoZ0x1QjRIOTdXX1p0dHlLbXpVUQ?oc=5",
+        "pub_date": "Thu, 27 Jun 2024 07:00:00 GMT",
+        "source": "The Information"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "카카오·네이버 '웹툰 불법유통' 손배소 승소 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdVpVcjd3N2tVUnY0MmhWMm1zOVk0NTdRWTJwMXk3VlVDcnBCbXZrTDR4NmdNWG1zVlJpT3V3TEtraGFETU5feHVIUUk1X09raDJ6YnhYaEE2RGcweUV0SzlDNnplTGtPalc0bXhJUHRTQ2NHaWlmOUNrV2J1dy1pOXNFUHotMjQ?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:30:01 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "웹툰작가 수익 4조…IP 공급원 키우는 네이버 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFJHTGFpeF9WcFRJUElFdkwtMDFyUGJYajBOcmJQS3phUnZEMEdEY1lqTWVDLUdBUjBEVkVMQkZjSS1nQVA1TVJNbDNfYnpubVNVb2hQdDFOb0UyUFRURUItMVpucWduOVNtUnNCNVV5LXgxT1dQd1Z0QlhNajFVSDBYVWx1UkU?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 08:08:47 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "웹툰작가 수익 4조…IP 공급원 키우는 네이버 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OQ2k5ZE4xcFcyTkh0RDlEZWFIRGpPcG1lYUFXMXk1SDR3SzIyQ21yVGg5T3Z2b1FHenRwNGZXN2U2QmFUNV92eW5tUXZoVVdobk90VXZaUVdyQdIBVEFVX3lxTE5CSElwTDFlQTdmekU4ZkJPbm9xaFpEdzZfX25nSjRuaHl5V0gwTGZvV2VQOHE2aXNLODE2WEFXZEMyUkNNeHpIUVVrRmRKcEh3Tmt0UA?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 08:08:47 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "카카오엔터·네이버웹툰, 불법 사이트 ‘아지툰’ 소송 승소…“20억 배상\" - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY0tZVFBFUzhUdzluN2h1S2RoWll5YW9JZm83YTZPODU2Qy0zYkpyN3Q0Mk8xcVMwNWFuNWUzMlF0eEotX0RvQk1VZzBYTlpDaE1HTFVLV3RXc0VFUldWM0ZKeldSMHJkcF8xYmxRekFCaFVoYzl0aHVjSEdqUU1IbHRRUV9Pam5oeHRmTEZHRjZkZC1fZ3fSAZYBQVVfeXFMTmNLWVRQRVM4VHc5bjdodUtkaFpZeWFvSWZvN2E2Tzg1NkMtM2JKcjd0NDJPMXFTMDVhbjVlMzJRdHhKLV9Eb0JNVWcwWE5aQ2hNR0xVS1d0V3NFRVJXVjNGSnpXUjByZHBfMWJsUXpBQmhVaGM5dGh1Y0hHalFNSGx0UVFfT2puaHh0ZkxGR0Y2ZGQtX2d3?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 00:44:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "카카오·네이버, 웹툰·웹소 불법사이트 ‘아지툰’ 운영자 손배소 승소 \"20억 배상\" - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbld3Z3A3d2hqV2FYcm0yeGhfMXp6WlZNenZZcWFfQm9nRGpPMnZKWVlIcjNraEFUbzdTRzU5dE1ubUhXNGpkNEUtVXpWWWEtRTJGWWkxYUp2M2tybXctbWhqUUpwTUI4RnRpQ19yd3ZnUnFzNTdGVlFxNjB6YjlOdE81bUZEQmljbTA1YXdpSUJzdnZPYm9yZmdSNHRyelhRY1F4V1UzY9IBpwFBVV95cUxPbld3Z3A3d2hqV2FYcm0yeGhfMXp6WlZNenZZcWFfQm9nRGpPMnZKWVlIcjNraEFUbzdTRzU5dE1ubUhXNGpkNEUtVXpWWWEtRTJGWWkxYUp2M2tybXctbWhqUUpwTUI4RnRpQ19yd3ZnUnFzNTdGVlFxNjB6YjlOdE81bUZEQmljbTA1YXdpSUJzdnZPYm9yZmdSNHRyelhRY1F4V1UzYw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 02:16:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "“웹툰도 디즈니급 IP로 육성”… 네이버웹툰, 올해 700억 투자 승부수 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQT0NDMllXbS15blU3NG5Fb3J3S0FFMDZ1X09vSnNxSzlkRzdGeWhPdDAwMVNQRndSdkxHdHRlNmRHUzdrZ242YXpIX1N3VUo1WF84blhoZjl3alJtTDhjOWxjcHltWE80bFhrRjBhTlZpel9tcHh5WF83emhoSEh2YURR0gGWAUFVX3lxTE9jeXV4eGkwMXl2UXpieGJMMTRLWHdpcENYbEZCR1hxd21leFdqUUtrUS1EMGRaaDJieFk5S09OWElSLTR2cTFTb1p2Sk05NjVUT0RDbU8wVGlUY2QxaGhheWcwZmQwaTFoUi1JYjIzUHhfaGVKc0ltOEFLZi1lb0hCYnpWdmpBcndQMjFUZjNfczlVNzhodw?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 08:45:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "“웹툰이 망한다면 이유는 오직 한 가지”…네이버가 콘텐츠 생태계 지키는 방법 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hTGJNSWp6cnhUb1cyYmM3MjZuZmdsWkRFQXUwMVBxSjJKVTk0MUh0Qmw3VGlWTU82MXFiZmlmZk95QWhRTWc?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 07:06:17 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "“웹툰작가들 대체 얼마나 버는거야”…네이버 5년간 4조 쐈다는데 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1XWGZrSDlRaGxpaGNEdmh3ckVKcmx6bDhURG1Sc1Fsa01rNGFYTHlqZE5FRk9MQVlQeEhCSlN5N0lCbmQydGc?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 09:55:53 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "\"5년간 작가들에 4조 수익 지급…올해 700억 투자, 생태계 강화\" - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1KRFBaaDZmU25mOG13T3BsMFREVlgtQ3dDa09oVHJqa3VLcWlGanl5MmVnUjJ1VFM3NkxPcW5FUE9NRmFFVmc?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 08:14:06 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "카카오엔터 \"불법 사이트 아지툰 상대 민사 승소\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xanBhalRVdWgybHZDeHJqZ2pESzJVTWN2SmFpbkVDY3hkckVic1JvU2VYem1fYm9BSzdMVTVfWndEMDBRdGVYbEVJeGRlSjk1bnU3ZHJR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 05:19:42 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "네이버웹툰 \"수익성보다 성장...생태계 키우는 게 먼저\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tclRjcGZlc0I3ak5wQzZCYzZQVFJFOHpuVURrS3I2RkplcGNZeGh2dUhuU2kyVENxazhtbTZ5VV96b1Q4QXZOY1dLcFhuSHhVd0MyUlVB?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 07:31:23 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "네이버웹툰 \"글로벌 창작 생태계 위해 올해 700억원 이상 투자\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hX1JyWmN2TlJKTjJpeUVTVE5ZcFdfUDE2OWpfaUV2MDdoXzA1NVYydHlNN3g1WXlpeTQ4eHc0bnJBeV8xMnhqV25HTjQxTWFfMzFEUEx3?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 01:48:29 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "웹툰엔터 김용수, '플라이휠' 전략 확장[현장+] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03YU91Y0NrdDlxZE9SOW9YcTV1Y1JhUE1VZHlrN3RDYTZKZV9PVUhiaklha01DMzdvVTlucVVwdkg2OFliTVh0MmM4bkd4R1BXNTB1ZHRpM3VhUTJrRjRjY01lR1diQnd3YVFDdtIBbEFVX3lxTE03YU91Y0NrdDlxZE9SOW9YcTV1Y1JhUE1VZHlrN3RDYTZKZV9PVUhiaklha01DMzdvVTlucVVwdkg2OFliTVh0MmM4bkd4R1BXNTB1ZHRpM3VhUTJrRjRjY01lR1diQnd3YVFDdg?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 07:19:14 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "엠게임의 2026 비전 키워드 'AI·웹3·헬스케어' - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TS1BYWDFuSGVpQl9RU08yd0lEaTRQQzhUdkN6enUtb3dkdUVLNFBuMk9RUHFaU1FJRDFsQl9yNVdoTDhUSVlzWXNHeGtGY1ZaTTJiNnFDZkZtSU15NHJJMnYwYmN0cXdackk5SNIBbEFVX3lxTE1TS1BYWDFuSGVpQl9RU08yd0lEaTRQQzhUdkN6enUtb3dkdUVLNFBuMk9RUHFaU1FJRDFsQl9yNVdoTDhUSVlzWXNHeGtGY1ZaTTJiNnFDZkZtSU15NHJJMnYwYmN0cXdackk5SA?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 02:07:12 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "이광재 \"'K콘텐츠 거래소’ 만들어야… 이야기가 자본이 되는 시대” - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rVTZ5QVUzUEI1Z0pONWk4NVI5aXBpeVJuTlVIMGo3djZWSmtIWGMxN182eEt0T2pqbFNxclFvTWFpLVVUbWxlenJGa1ZRbEpvTFhTVDl4dWdlWGdSckhPNnN0cFU3MnBD?oc=5",
+        "pub_date": "Sat, 21 Mar 2026 02:18:55 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "“웹툰을 작가가 돈 버는 것이 핵심” 네이버 웹툰의 전략 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IY0d3ckxTUXRuRmtHVUt2NXl4LVBsclVtaUM5MmFYbm41Wi0xdlpZZEVpNWhnNUg4LUE0alRIeGo1eHhTb0d0TlBrNGxIREk?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 05:57:13 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "누구나 숏폼 만든다…네이버웹툰, ‘컷츠’ 배포 개시 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JcDN2NEswSEstTUVNXzlFMDJyZklKMVAxV1NEczJJajJfcnozQVlPVUVnQWJJS0tvUmswZUJKQ1Atd0MxY0FxMlJKV1NELU0?oc=5",
+        "pub_date": "Mon, 25 Aug 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "네이버웹툰-문피아, ‘2025 지상최대 웹소설 공모전’ 개최 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VdkpIUnp6b0twMTRkSi1YU0JTR2FsRmR5ajN4SzlCUjVHa0VZMmQyT0JSaEtsTlJUMXp5LXpBN1h6T3dOQnlNSG9OY2FHQQ?oc=5",
+        "pub_date": "Wed, 09 Apr 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

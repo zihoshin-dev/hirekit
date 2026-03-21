@@ -10,12 +10,65 @@
     ]
   },
   {
+    "name": "CJ ENM",
+    "sources": 14,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
+      "overview"
+    ]
+  },
+  {
     "name": "CJ올리브영",
     "sources": 14,
     "sections": [
       "strategy",
       "financials",
       "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "JYP엔터테인먼트",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "KT",
+    "sources": 13,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "LG CNS",
+    "sources": 15,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "SK텔레콤",
+    "sources": 15,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
       "culture",
       "overview"
     ]
@@ -32,6 +85,37 @@
     ]
   },
   {
+    "name": "SM엔터테인먼트",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "SSG닷컴",
+    "sources": 14,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "xAI",
+    "sources": 11,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "구글코리아",
     "sources": 12,
     "sections": [
@@ -42,6 +126,16 @@
     ]
   },
   {
+    "name": "그린랩스",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "네이버",
     "sources": 15,
     "sections": [
@@ -49,6 +143,28 @@
       "strategy",
       "tech",
       "financials",
+      "overview"
+    ]
+  },
+  {
+    "name": "네이버웹툰",
+    "sources": 14,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "네이버클라우드",
+    "sources": 14,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
       "overview"
     ]
   },
@@ -70,6 +186,17 @@
       "culture",
       "strategy",
       "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "넷마블",
+    "sources": 14,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
       "overview"
     ]
   },
@@ -124,6 +251,16 @@
     ]
   },
   {
+    "name": "리디",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "리벨리온",
     "sources": 13,
     "sections": [
@@ -134,6 +271,56 @@
     ]
   },
   {
+    "name": "리턴제로",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "마이리얼트립",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "마키나락스",
+    "sources": 11,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "메이크스타",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "메타코리아",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "무신사",
     "sources": 11,
     "sections": [
@@ -141,6 +328,16 @@
       "strategy",
       "tech",
       "overview"
+    ]
+  },
+  {
+    "name": "밀리의서재",
+    "sources": 11,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
     ]
   },
   {
@@ -175,6 +372,16 @@
     ]
   },
   {
+    "name": "빗썸",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "삼성SDS",
     "sources": 12,
     "sections": [
@@ -196,12 +403,64 @@
     ]
   },
   {
+    "name": "세일즈포스코리아",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "센드버드",
     "sources": 12,
     "sections": [
       "culture",
       "strategy",
       "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "스노우",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "스캐터랩",
+    "sources": 11,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "쏘카",
+    "sources": 13,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "애플코리아",
+    "sources": 13,
+    "sections": [
+      "tech",
+      "strategy",
+      "culture",
+      "industry",
       "overview"
     ]
   },
@@ -236,12 +495,33 @@
     ]
   },
   {
+    "name": "에이프로젠",
+    "sources": 11,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "엔비디아코리아",
     "sources": 12,
     "sections": [
       "culture",
       "strategy",
       "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "엔씨소프트",
+    "sources": 14,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
       "overview"
     ]
   },
@@ -256,6 +536,16 @@
     ]
   },
   {
+    "name": "왓챠",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "우아한형제들",
     "sources": 10,
     "sections": [
@@ -263,6 +553,36 @@
       "strategy",
       "tech",
       "overview"
+    ]
+  },
+  {
+    "name": "원티드랩",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "지마켓",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "직방",
+    "sources": 11,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
     ]
   },
   {
@@ -299,6 +619,28 @@
     ]
   },
   {
+    "name": "카카오스타일",
+    "sources": 14,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "카카오엔터테인먼트",
+    "sources": 14,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
+      "overview"
+    ]
+  },
+  {
     "name": "카카오페이",
     "sources": 14,
     "sections": [
@@ -310,6 +652,17 @@
     ]
   },
   {
+    "name": "카카오페이증권",
+    "sources": 13,
+    "sections": [
+      "financials",
+      "tech",
+      "strategy",
+      "culture",
+      "overview"
+    ]
+  },
+  {
     "name": "컬리",
     "sources": 12,
     "sections": [
@@ -317,6 +670,16 @@
       "strategy",
       "tech",
       "overview"
+    ]
+  },
+  {
+    "name": "코인원",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
     ]
   },
   {
@@ -341,6 +704,16 @@
     ]
   },
   {
+    "name": "클래스101",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "테슬라코리아",
     "sources": 14,
     "sections": [
@@ -359,6 +732,16 @@
       "strategy",
       "tech",
       "overview"
+    ]
+  },
+  {
+    "name": "토스랩",
+    "sources": 11,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
     ]
   },
   {
@@ -382,6 +765,26 @@
     ]
   },
   {
+    "name": "토스페이먼츠",
+    "sources": 10,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
+    "name": "포티투마루",
+    "sources": 11,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
+    ]
+  },
+  {
     "name": "퓨리오사AI",
     "sources": 12,
     "sections": [
@@ -389,6 +792,16 @@
       "strategy",
       "tech",
       "overview"
+    ]
+  },
+  {
+    "name": "핀다",
+    "sources": 12,
+    "sections": [
+      "strategy",
+      "culture",
+      "overview",
+      "tech"
     ]
   },
   {

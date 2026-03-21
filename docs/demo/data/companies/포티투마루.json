@@ -1,0 +1,600 @@
+{
+  "company": "포티투마루",
+  "sources_used": [
+    "google_news",
+    "naver_search",
+    "brave_search",
+    "exa_search",
+    "credible_news",
+    "dart"
+  ],
+  "result_count": 11,
+  "sections": [
+    "strategy",
+    "culture",
+    "overview",
+    "tech"
+  ],
+  "data": {
+    "company_name": "주식회사 포티투마루",
+    "company_name_eng": "42Maru Inc.",
+    "stock_name": "포티투마루",
+    "ceo": "김동환",
+    "address": "서울특별시 서초구 신반포로 310 (반포동)",
+    "industry_code": "62021",
+    "established": "20151022",
+    "homepage": "www.42maru.ai/kr/",
+    "ir_url": "",
+    "stock_code": "",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      },
+      {
+        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+        "link": "https://blog.naver.com/serohero/224199063326",
+        "pub_date": "20260228"
+      },
+      {
+        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+        "link": "https://blog.naver.com/jobpass_/224197697044",
+        "pub_date": "20260227"
+      },
+      {
+        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+        "link": "https://blog.naver.com/study_edu_/224193834977",
+        "pub_date": "20260224"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "충청남도보도자료20260320금요일",
+        "description": "본 포럼은 ‘2025-2026 한중일 문화교류의 해’를 기념하여 한국국제문화교류진흥원(KOFICE)과 공동 주관하여... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자... ",
+        "link": "http://cafe.naver.com/jungamironware/9239",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "&quot;표부터 도면까지&quot;…포티투마루, 산업 현장 특화 AI 전략 공유",
+        "description": "확산 전략을 모색하기 위해 마련됐다. 학술 중심 발표 세션이 먼저 진행됐고 이후 기업 파트너들이 참여해 현장 적용 사례와 협업 방향을 논의하는 순서로 이어졌다. 김동환 포티투마루 대표는 &quot;AI 기술의 미래에...",
+        "link": "https://v.daum.net/v/20250622095400362",
+        "pub_date": ""
+      },
+      {
+        "title": "&quot;탑재 못하면 생존 불가&quot;…포티투마루, 스타트업 'AI 네이티브' 전략 제시",
+        "description": "포티투마루는 26일 서울 역삼동 팁스타운에서 열린 '2025 팁스서밋'에 참가해 스타트업의 AI 네이티브 전략을 제시했다. 행사는 한국엔젤투자협회와 팁스타운이 공동 주관했다. 이날 김동환 포티투마루 대표는...",
+        "link": "https://v.daum.net/v/20250926151813668",
+        "pub_date": ""
+      },
+      {
+        "title": "포티투마루 “AI강국 도약, 산업 AX 융합과 스타트업 육성에 달려”",
+        "description": "병행돼야&quot; 포티투마루가 29일 한국과학기술한림원회관에서 열린 ‘제234회 한림원탁토론회’에 참여해 AI 3대 강국 실현을 위한 전략적... 'AI 3대 강국을 향한 우리의 전략'을 중심으로, AI 정책의 방향성과...",
+        "link": "https://hellot.net/news/article.html?no=100838",
+        "pub_date": ""
+      },
+      {
+        "title": "포티투마루, '디지털 이노페스타'서 내년도 AI 혁신 전략 제시 - 동행미디어 시대",
+        "description": "생성형 AI 스타트업 포티투마루가 서울 드림플러스 강남에서 열리는 '2025 디지털 이노페스타'에 참가해 내년도 인공지능(AI)·인공지능 전환(AX) 트렌드를 공유하고 ICT 비즈니스 혁신 전략을 제시한다고 9일 밝혔다. 이번 세미나는 매년 연말 진행되는 ICT 트렌드 인사이트 행사로 과학기술정보통신부가 주최하고 벤처기업협회가 주관한다. 올해는 'AI Transformation 2025: AI로 만들어내는...",
+        "link": "https://www.moneys.co.kr/article/2025120909534617905",
+        "pub_date": ""
+      },
+      {
+        "title": "포티투마루, '디지털 이노페스타'서 내년도 AI 혁신 전략 제시",
+        "description": "2025: AI로 만들어내는 새로운 경쟁력'을 주제로 생성형 AI의 진화 방향... 김동환 포티투마루 대표는 디지털 이노페스타에서 'The Age of Agentic AI - AX를 통한 2026 ICT 혁신 전략'을 주제로 강연을 진행한다. 김...",
+        "link": "https://v.daum.net/v/20251209100853710",
+        "pub_date": ""
+      },
+      {
+        "title": "포티투마루, 구미시서 지능형 행정 AX 비전 발표",
+        "description": "생성형 AI 스타트업 포티투마루가 Agentic AI를 기반으로 한 지능형 지방 행정 혁신 비전을 제시하며 공공 AX(디지털 전환) 방향성을 구체화했다. 단순 질의응답형 AI를 넘어 자율적으로 판단하고 실행하는 행정 AI 체계를 강조했다. 포티투마루 김동환 대표는 25일 구미시청 대강당에서 열린 ‘굿모닝 수요특강’에 연사로 참여해 구미시 주요 공직자를 대상",
+        "link": "https://www.hellot.net/news/article.html?no=110683",
+        "pub_date": ""
+      },
+      {
+        "title": "포티투마루, 생성AI 선도인재 양성사업 1단계 성과 공유",
+        "description": "생성AI 선도인재 양성사업 각 분야별 핵심 과제 포티투마루는 RAD 프로그램 중 AI 전문 전시행사인 'THE AI SHOW 2024'의 초거대 AI관 입구에 대규모 전시 부스를 준비해 관련 내용을 소개한다. 포티투마루는...",
+        "link": "https://v.daum.net/v/20241024230956751",
+        "pub_date": ""
+      },
+      {
+        "title": "포티투마루 “Agentic AI 시대, 실무 중심의 생성형 AI 교육 필요“",
+        "description": "포티투마루는 7월 2일 제주국제컨벤션센터에서 열린 ‘2025 한국컴퓨터종합학술대회’ 연계 워크숍을 통해 산업융합형 멀티모달 생성AI 기반 인재양성 사업의 성과와 협력 사례를 공유했다. 이번 워크숍은 과학기술정보통신부와 정보통신기획평가원이 주관하는 ‘생성AI 선도인재양성 사업’의 일환으로, 포티투마루가 주관기업으로 참여하고 성균관대, 부산대, UNIST, 인하대 등...",
+        "link": "https://www.hellot.net/mobile/article.html?no=102896",
+        "pub_date": ""
+      },
+      {
+        "title": "포티투마루, 국토부 포럼서 ‘AI 생태계 중심축’ 역할 강조",
+        "description": "중요” 포티투마루가 국토교통 분야의 AI 트랜스포메이션(AX)을 위한 전략을 제시하며, 데이터 공유... 분야의 AI 적용 방향성과 기술적 접근법을 발표했다. 이번 포럼은 국토교통부가 주최하고, 국토교통 데이터...",
+        "link": "https://www.hellot.net/news/article.html?no=102608",
+        "pub_date": ""
+      },
+      {
+        "title": "한컴, AI 스타트업 '포티투마루'와 전략적 파트너십",
+        "description": "한컴, AI 스타트업 '포티투마루'와 전략적 파트너십 (서울=연합뉴스) 최현석 기자 = 한글과컴퓨터[030520]가 8일 생성형 인공지능(AI) 스타트업 포티투마루(42Maru)와 AI 기술 및 사업 협력을 위한 전략적 파트너십 계약을 체결했다고 밝혔다. 한컴이 보유한 전자..",
+        "link": "https://www.fnnews.com/news/202311080928278542",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "포티투마루 - 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/16153934",
+        "description": "수평적이고 자율적인 문화를 지향한다는 말이 식상하게 들릴 수도 있지만, 포티투마루는 정말 그렇습니다."
+      },
+      {
+        "title": "(주)포티투마루 2026년 기업정보 | 기업리뷰 46건, 연봉정보 16건, 면접후기 25건, 복지정보 9건, 채용공고 0건",
+        "url": "https://www.jobplanet.co.kr/companies/324487/landing/%ED%8F%AC%ED%8B%B0%ED%88%AC%EB%A7%88%EB%A3%A8",
+        "description": "(주)포티투마루 기업정보 - 산업: 솔루션/SI/ERP/CRM, 기업형태: -, 사원수: 69명, 설립: 2015.10.22 | (주)포티투마루의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
+      },
+      {
+        "title": "블라인드 | 포티투마루 기업정보",
+        "url": "https://www.teamblind.com/kr/company/%ED%8F%AC%ED%8B%B0%ED%88%AC%EB%A7%88%EB%A3%A8",
+        "description": "포티투마루에 현재 진행중인 채용 공고가 없습니다. 채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
+      },
+      {
+        "title": "㈜포티투마루 슈퍼기업관 - 일하기 좋은 우수 기업 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/Super/42maru",
+        "description": "포티투마루 역시 이 흐름을 놓치지 않고 최근 언어모델을 직접 훈련시키는 것을 적극 고려하고 있습니다. ... IT·정보통신업 추천 슈퍼 기업! 시큐레터 리버스 엔지니어링 진단 기술 보유 · 채용중 잉카인터넷 창조와 혁신을 선도하는 기업문화"
+      },
+      {
+        "title": "2024년 포티투마루 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/1676111931/",
+        "description": "포티투마루의 최신 기업정보, 채용, 연봉 등 취업에 필요한 정보를 인크루트에서 확인하세요."
+      },
+      {
+        "title": "㈜포티투마루 진행 중인 채용정보 총 4건 - 채용 히스토리 통계 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/16153934/recruit",
+        "description": "㈜포티투마루 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+      },
+      {
+        "title": "포티투마루(딥 시맨틱 QA) 기업, 채용, 투자, 뉴스",
+        "url": "https://www.rocketpunch.com/companies/42maru",
+        "description": "- 비즈니스 인텔리전스 : 기업 내부 KMS(Knowledge Management System)에 인공지능 기술 도입을 통한 업무 혁신 및 리스크 방지, 대우조선해양(영어), 현대로보틱스, 로스쿨 법학 시험 등에 적용 - 인공지능(AI) 기반 챗봇 : 대 고객 챗봇, 대화형 컨시어지 및 인사/채용 · IT서비스 · 연말정산?등 사내 헬프데스크 지원 인공지능(AI) 기반 챗봇 솔루션, LGU+ Shop, Softbank Pepper, SK Innovation, Cuckoo 전자그룹 등에 적용 - 인공지능(AI) 디바이스 : 기계독해(MRC) 기반의 지식 QA(질의응"
+      },
+      {
+        "title": "(주)포티투마루 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WVAzS0Z4MDc2dy9KWmFtYXgyN2JwZz09/company_nm/(%EC%A3%BC)%ED%8F%AC%ED%8B%B0%ED%88%AC%EB%A7%88%EB%A3%A8",
+        "description": "(주)포티투마루 기업소개 - 업력 : 12년차, 기업형태 : 중소기업, 스타트업, 업종 : 응용 소프트웨어 개발 및 공급업 | (주)포티투마루의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 ..."
+      },
+      {
+        "title": "[포티투마루 채용] 포티투마루 채용설명회ㅣ총 정리! : 네이버 블로그",
+        "url": "https://m.blog.naver.com/jobkorea1/221717686218",
+        "description": "회사에서 일하시고 싶으신 분은 채용설명회 후기를 참고해 보세요! ... 포티투마루의 전체 채용 절차는 ▶ <strong>면접 절차의 경우 1차 서류심사, 2차 기술/실무면접, 3차 임원면접 순</strong>으로 ..."
+      },
+      {
+        "title": "포티투마루 채용 기업정보 - 연봉 4,653만원 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/CompSummary/HK1921",
+        "description": "포티투마루의 채용공고, 기업정보, 재무정보부터, 현직자리뷰, 면접후기까지 모두 캐치하세요."
+      }
+    ],
+    "google_news": [
+      {
+        "title": "[기고] 'AI 맨해튼 프로젝트'로 속도 내는 美, 韓 '카피캣' 전략 절실 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CRkN3N0NTbUVpU29UQWNhczc2SVRqVHVPRG9SM1NMTWZEQk8wazNaaU0wLTJiVHU0OFQ2WlNhOGIwazZ3ODlfTmJLNWhJX2hOeEM0d3R3?oc=5",
+        "pub_date": "Thu, 18 Dec 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "포티투마루, ‘2025 클라우드 산업발전 유공’ 과기정통부 장관 표창 수상 - 헬로티",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMY2Zyb2NUVmhFZFBnRHNVQXI0SDNnaFVicDExM2Q3NFk3SUtlMVVhaTZuakpqWDRET1RWMDBvenNfM0tXajBhal9seXRCMVNyaWNiN3l6Um5sOFdEOUI4?oc=5",
+        "pub_date": "Fri, 19 Dec 2025 08:00:00 GMT",
+        "source": "헬로티"
+      },
+      {
+        "title": "[AI와 디지털전환] '강요받는 선택'에서 '선택받는 파트너'로:K-AI의 생존 전략 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sZ05rSjVSMWh4LVlmWVhKN2Q2YnhrbDdKR2lTVEM4bVE5X0xOR2Vva1Y4NGdJYktyU2xCaVpxbVhnM29YQVd6Q0Nhek80UQ?oc=5",
+        "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "포티투마루, AI 꿈나무들에 쓴소리…\"코딩만 잘해선 끝\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01YlJNV1l1UFNUSzgzUkpnRlNiczV4akJmMEpQQWlKOTBuR0tycmJRTUs4d0tsMTU1NEdaaWhSa0M3dU90T3dfU2c4ZFlWY1hzUnVMRTZB?oc=5",
+        "pub_date": "Tue, 12 Aug 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "기업용 생성형 AI 솔루션 기업 ‘사이오닉에이아이’, 동국시스템즈와 손잡고 AI 사업 확장에 박차 - beSUCCESS",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBOc19sVzRPTUNuR3l2OXFEbzNIWW1DY1VFRk1xamNKRzNDZjF0MENXRmx6NHVMQTdGZ09ZN3liRHE2clFiMEE?oc=5",
+        "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
+        "source": "beSUCCESS"
+      },
+      {
+        "title": "AI 인재 한 명이 1000억 절약… 치열해진 글로벌 두뇌 전쟁 - 더에이아이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WM3VNZ1lvMUNSVDVTRGZtQzZrQVJ3RzVraFNoWk1WdlZVUzhMXzNmSEM5LVQ5Zk1sNUhIODY3SU9kXzFZN29qNkswbHJhMG82bDlYcDI5TXRtWURPQ3U1aWlYZ3B2Rnkt?oc=5",
+        "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
+        "source": "더에이아이"
+      },
+      {
+        "title": "AI 신뢰성 평가하는 'AI-마스터' 출시...포티투마루 1호 인증 획득 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5Qmd6S0V0SHpqSVlLOTBCQzdULTdWZXZ2eTI5Y3d0TUhhNUllUEVYdUZ5cWhYOHNjNVV2QXlRNF9WNkxNbjFOZTdqYl9XZVM4bmdRcVNNa2dYc3FGUXdWU3FKZ0pNY1hOMGc?oc=5",
+        "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "‘TechCon 2025’, 6월 11일 개막…로봇·AI·보안 기술 선보인다 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOWmMzc1c5Ny1LOW12ZlBKNVdoMzktM2x6ZDFCbHVKYjdPNmdhRkR4emhSM2tndWh6M0FmNk5HSTE1QmRfMk5URA?oc=5",
+        "pub_date": "Mon, 02 Jun 2025 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "부산 WCE, AI와 에너지 전환 논의…포티투마루 비전 공개 - 헬로티",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05VWdyNURnVUlMb0xSVG5wR3VHbGpEN1h6M0I4Z3JWVmFfNWRQenJLTURpMFZGTG5laVNUZHNrYmQzdkx3VWxUZEhTVXJScTdMSVdlckVWNUtmNXFOdU5ObTRB?oc=5",
+        "pub_date": "Tue, 26 Aug 2025 07:00:00 GMT",
+        "source": "헬로티"
+      },
+      {
+        "title": "솔트룩스·포티투마루·리벨리온·오리엔텀 출격… ‘AI&CLOUD 2025’ 5월 14일 개최 - IT조선",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JYldqYmVGVWNmZEpYZ0lpNzNHOHlHMUtmcWdsNlM0emtMLWRKSm1PWU9tQ3lIRmhmbjhmVl9qQm96SkU5VWdfYWc2T1NCNU04N19GNGxkX3BteGJKQVcyT2hhLUhiMjVnUVB6Vzl1S1TSAXRBVV95cUxOUXhqcU9VOFNwQi01RkdNeDlURUR3TThiODRvVDByMWpWaWs5M09jMTdIbGRhUVg0dkhBYnFWeGJfRXJpUlZJbFJxNGl6OUNoa2N2VjNlVENHaG1rdFg5MURwNXlKUk8zZW15R0ZVQkdwNllvVQ?oc=5",
+        "pub_date": "Fri, 25 Apr 2025 07:00:00 GMT",
+        "source": "IT조선"
+      },
+      {
+        "title": "취업 전선에 선 학생들에게 AI 대표가 전한 ‘개발자 생존법’ - 더에이아이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uajRkcl81SmhfM1ZfdnRwc0lMYV82RS1OclRyMXBFMDhmdU1LS05uZ0VvcWFTcE0tRkVlblpQWE8tdzh5dXNqQzVlcUdRNXhMV0pWLUR3TXo1N094UjlqYWNIanVnVVB2VGc?oc=5",
+        "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
+        "source": "더에이아이"
+      },
+      {
+        "title": "[AI 컨퍼런스] 배순민 KT AI 퓨처랩장 “한국적 AI 추진과 응용에 대하여” - 테크42",
+        "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOamc4NXFTYlhCOExFNUtKX1MyVTVSTEpZbk5vSW1WMHBSaDVpQmczTEFUVGdZdG5GUXBFR2dWU3VvYmRUT2dtb0RXVTNPN0k0aFVVMU5WYTZxOEtoai1EOThFNms0aE43aDV1a3pVcDUyVmFBdU92V01maXMtcl9pSDR4SGRMeXo3ejNCLXRuTDY0NDV6REFQZEJNLUJuT1VnT0hRcnNqNXZra2tTSEViSnZFN0w0YU5BSGsxckJJUXQxaG5tcmNmbUhRWWNSWUR0RFRRSUhaUmgzLWYwUEJla3JOdFpRSVJfak90Ni1nU0VZRm9NaHhfWGs1NU1POENidDZoUk1xbGhzd2NmMVFUQWdYSVRrd21LRi13MDY4d0ZaeTZMaVZFOFF3M3F3YUk0TkU1aHJ2LTJSdw?oc=5",
+        "pub_date": "Thu, 24 Jul 2025 07:00:00 GMT",
+        "source": "테크42"
+      },
+      {
+        "title": "\"실천이 핵심\"…포티투마루, 'AI 거버넌스' 과제 제시 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10VjZ1UzVoZ25vOG9nTEMwZklUYUQ5SEV3N2ZZYnc4cmZkN3BEbWFNQ2Zma3FDOVZZWXUwaVVyOW5yTFdnSTB6NHVvak5uOVN2ejVlMDhB?oc=5",
+        "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "[Who Is ?] 김연수 한글과컴퓨터 대표이사 사장 - 비즈니스포스트",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4aHNpZFY4bmVaU1lmYjlOZlFWNFdjNndYa010STYwTW5CLWhWdWo3MmU5OThub3RkRDdCX3VFUlI3TXVzWV9SMEJaUnB1eFBQZG1lTzBFTmZzQXJUaWIwWERkcU5HY3ZBSHN0Q2hFY0JYdzQ?oc=5",
+        "pub_date": "Tue, 15 Apr 2025 07:00:00 GMT",
+        "source": "비즈니스포스트"
+      },
+      {
+        "title": "국가대표 AI 선발전 안나갔지만…'주전급' 유망 스타트업 더 있다 - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wZW9jS2VfQ3ZLcW52bTVMQnVkUk5FNUJqS3prTEs3RXBCSkVaTy0xUmpiSWdrbWxYcHpHTXQ0dGROOGlHX01QbURrOEpNc3NKaDRwM1U1VHprLVFVVllCUjVrbWJRR1IxVXVzVA?oc=5",
+        "pub_date": "Tue, 05 Aug 2025 07:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "포티투마루 \"올해 공공으로 성공적 사업확장 가장 큰 성과\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwR3lyZFVpTDB6MjYzcGQ0UVcwVjJpa1NWUFdXQV90c21Ccl9VV0ltMGJMOTFwVzhNaWdNREZkOUw4dDRkaW1ucnFSUlA0NlhCNkNZS0l3?oc=5",
+        "pub_date": "Mon, 29 Dec 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "포티투마루, 디플정위 출신 고위공무원 영입…“공공 AX 사업 강화” - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZZnJWUm5IMWp2YWdUekhiMzR0M1lOcDJwcWxfcmNGcC1WOGkyY25yX1A4d083RUN0V1FCbkI1VFRYalUtVnRsMmFWZDlTQQ?oc=5",
+        "pub_date": "Sun, 14 Dec 2025 08:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "포티투마루, AI 기반 문해력 증진 솔루션 개발 - 디지털투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4ckpoSHB3dnBrTXB5OUZyQm5pWVZkRDdHeTNmcEo3ajhNOHNUVzRBa1NueHNpZnRzaFZwX29tMzl0ZEtIQ2I3WmV5aTN2MlNtdjNkWUU0UG1JZ201YkROSDlqUjcyWl9mdDlja0tTMU45cEE?oc=5",
+        "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+        "source": "디지털투데이"
+      },
+      {
+        "title": "포티투마루, 항공 방산 설계 AI 시스템으로 제조·방산 사업 확대 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZeTluRDVGUzA1dXVzRU5TWWg1Q2RHS1dPRmduV2tORFFDX0JRTGdRMW9xU1dZaURfamJjYnZOSlU1enpaWFVUemtFX3dESUlld1NYazF6OExseUM0NzJ3OG4zZXJvRU0zX1E?oc=5",
+        "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "포티투마루-4개 대학 생성AI 협력 결실... 의료·교통·물류 혁신 기술 속속 개발 - 더에이아이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53eDVaeUdBOEE1ME9pUEJkaVp3ZlpXN1pKb21BdFRIQjBhRmVjLXJGZU9rc05kZWUyeWRsRHFVczE3VDVURFctTUdqaVRxRXdIWHVJZzUyU054NXBHdnNfdmRxTXFDYUZn?oc=5",
+        "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
+        "source": "더에이아이"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "포티투닷 재직자 | 커리어리",
+        "url": "https://careerly.co.kr/company/42dot/employee",
+        "text": "포티투닷 재직자| 커리어리## 재직자\n### 김상학### 42dot business development\n팔로우\n\n### 강현### 사업개발팔로워6명\n팔로우\n\n### Mark\n### 42dot Brand Designer\n팔로우\n[\nprofile picture\n### Inyoung Choi &lt;3\n### 42dot UI 디자이너팔로우](https://careerly.co.kr/p",
+        "score": 0,
+        "published_date": "2024-10-22T00:00:00.000Z"
+      },
+      {
+        "title": "블라인드 | 이직·커리어: 포티투마루(42마루) 스타트업 회사인데 궁금한게 너무 많아여ㅜㅠㅜ",
+        "url": "https://www.teamblind.com/kr/post/%ED%8F%AC%ED%8B%B0%ED%88%AC%EB%A7%88%EB%A3%A842%EB%A7%88%EB%A3%A8-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%ED%9A%8C%EC%82%AC%EC%9D%B8%EB%8D%B0-%EA%B6%81%EA%B8%88%ED%95%9C%EA%B2%8C-%EB%84%88%EB%AC%B4-%EB%A7%8E%EC%95%84%EC%97%AC%E3%85%9C%E3%85%A0%E3%85%9C-k7RyW2vi",
+        "text": "블라인드 | 이직·커리어: 포티투마루(42마루) 스타트업 회사인데 궁금한게 너무 많아여ㅜㅠㅜ\n\n블라인드 기업서비스\n\n# 채널이직·커리어 · 팔로우\n\n## 포티투마루(42마루) 스타트업 회사인데 궁금한게 너무 많아여ㅜㅠㅜ\n\n파이오링크· 칼********\n\n조회수922 댓글2\n\n북마크\n\n- 퍼가기\n- 링크복사\n\n메뉴 더보기\n\n잡플래닛 블라인드 크레딧잡 봐도 도저히 IT직군 신입초봉이 어느정도인지 잘모르겠고어떤 글중에서는 스타트업인데 그냥 중소기업이랑 다를게 없다는게 걸리고사람인에 공고 매일 올라와있다고 여긴 여전하네~ 이러고 뭐가 여전한지도 안알려주고현직자나 전직자분 있으시면 오픈톡방이라도.....아니면 포티투마루에 대해서 아시는거 있으면 댓글남겨주세요 제발ㅎㅎㅎ [#포티투마루",
+        "score": 0,
+        "published_date": "2022-06-07T00:00:00.000Z"
+      },
+      {
+        "title": "(주)포티투마루 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WVAzS0Z4MDc2dy9KWmFtYXgyN2JwZz09/company_nm/(%EC%A3%BC)%ED%8F%AC%ED%8B%B0%ED%88%AC%EB%A7%88%EB%A3%A8",
+        "text": "(주)포티투마루 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n관심기업을 설정하여 기업의 최근 소식을 받아보세요\n\n도움말\n\n조회기간 2026.01.22 ~ 2026.02.21\n\n본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다.\n\n조회수\n\n700회\n\n관심기업\n\n3회\n\n기업 키워드 검색 횟수\n\n38회\n\n- 주차 고민은 끝!\n- 웰컴키트 지급 기업\n- IT통신업종★스타트업\n- 복지는 내가 선택!\n- 경조사 챙겨주는 기업\n- 배부른 퇴근길\n- 커피는 회사가 쏜다\n- 슬기로운 육아휴직기업\n- 멘토링제도 복지 기업\n- 야근 눈치 보지마요\n- Refresh 휴가\n- 채용중★스타트업\n- 아는 것이 힘이죠!\n- 직원 건강이 우선!\n- 자유 복장 기업 모음\n- 나의 커리어 첫 시작\n- 휴식시간 필요해요\n- 남성출산휴가 기업!\n- 명절선물/귀향비\n- 스타트업의 매력★\n- 사내 카페 보유 기업\n",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "포티투마루 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
+        "url": "https://jasoseol.com/companies/6085",
+        "text": "포티투마루 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n산업(업종)\n\n정보통신업\n\n기업 형태\n\n기타기업\n\n대표자\n\n김동환\n\n사원수\n\n66명\n\n매출액\n\n25억 7천만 원\n\n설립 년도\n\n2015년\n\n주소지\n\n서울 서초구 신반포로 310\n\n홈페이지\n\nhttp://www.42maru.ai/kr/\n\n초봉3,765만 원\n\n평균 연봉5,537만 원\n\n각 기업이 공공데이터에 제공한 정보를 활용하여 제공합니다.\n\n정보 수정 요청\n\n### 지원자 분석 📊\n\n이 기업의 지원자 분석 자료를 준비 중이에요. 지원 가능한 다른 기업도 알아보세요.\n\n[지원자 분석 전체보",
+        "score": 0,
+        "published_date": "2016-03-07T00:00:00.000Z"
+      },
+      {
+        "title": "2026년 포티투마루 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/1676111931/",
+        "text": "2026년 포티투마루 채용 기업정보 | 인크루트\n\n본문 바로가기\n\n로그인 바로가기\n\n---\n\n인크루트\n\n- 10한국건강가정진흥원\n- 9한국기계연구원\n- 8(주)삼영기업\n- 7삼진제약 (주)\n- 6한국표준협회\n- 5서울우유협동조합\n- [4한국사회보장정보원](https://www.incruit.com/company/16819",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "포티투마루, ICT 벤처포럼서 AI 전환 전략 주제 강연 진행",
+        "url": "https://www.venturesquare.net/1057592/",
+        "text": "포티투마루, ICT 벤처포럼서 AI 전환 전략 주제 강연 진행 -- -- -- --\n\n생성형 AI 스타트업 포티투마루가 18일 서울 구로구 마리오타워 내 벤처기업협회 이민화 라이브러리에서 열리는 ‘2026년 제1차 ICT 벤처포럼’에 참석해 발표를 진행한다.\n\n이번 포럼은 벤처기업협회 주관으로 열리며, 국내 ICT 산업을 이끄는 주요 벤처기업 대표와 핵심 임원들이 모여 기술 트렌드와 사업 전략을 공유하는 자리로 마련됐다. 행사에서는 ‘AI Agent 시대, ICT 기업의 수익모델 재설계 전략’을 주제로 산업 변화 방향을 살펴보고 기업 간 협력과 네트워크 강화를 도모할 예정이다.\n\n특히 생성형 AI가 산업 전반에 본격적으로 적용되는 단계에 접어든 가운데, 이번 포럼은 ICT 기업들이 직면한 기회와 과제를 점검하고 대응 전략을 모색하는 논의의 장이 될 것으로 보인다.\n\n포티투마루 김동환 대표는 메인 세션인 ‘ICT 인사이트 세미나’에서 ‘2026년 AX 경험과 AI 서비스 및 기술 관점",
+        "score": 0,
+        "published_date": "2026-03-18T00:00:00.000Z"
+      },
+      {
+        "title": "포티투마루, 6년 연속 ‘2026 Emerging AI+X Top 100’ 선정",
+        "url": "https://www.venturesquare.net/1032343/",
+        "text": "포티투마루, 6년 연속 ‘2026 Emerging AI+X Top 100’ 선정 -- -- -- --\n\n생성형 AI 스타트업 포티투마루(42Maru, 대표 김동환)가 2026년 ‘Emerging AI+X Top 100’에 선정되며 대한민국 미래 AI를 선도할 100대 기업으로 6년 연속 이름을 올렸다고 13일 밝혔다. 이번 기록은 급변하는 AI 시장 환경 속에서 지속적으로 기술 리더십을 유지한 성과로 평가된다.\n\n‘Emerging AI+X Top 100’은 AI 기술과 다양한 산업을 융합해 혁신을 주도할 기업을 발굴하는 제도로, 3,000여 개 기업을 대상으로 안정성, 성장 가능성, 혁신성, 미래 가치 등 정량·정성 지표를 종합 평가해 산·학·연·정 전문가와 벤처캐피털 심사역의 검증을 거쳐 최종 100개 기업을 선정한다.\n\n포티투마루는 산업 간 경계를 넘는 융합 산업(Cross-Industry) 부문에서 자연어 처리 기반 AI 플랫",
+        "score": 0,
+        "published_date": "2026-01-13T00:00:00.000Z"
+      },
+      {
+        "title": "포티투마루, 2026 연합 심포지엄서 의료·헬스케어 AI 전략 발표",
+        "url": "https://www.venturesquare.net/1036133/",
+        "text": "포티투마루, 2026 연합 심포지엄서 의료·헬스케어 AI 전략 발표 -- -- -- --\n\n생성형 AI 스타트업 포티투마루(42Maru, 대표 김동환)가 지난 29일부터 이틀간 강원도 춘천 소노캄 비발디에서 열린 ‘2026 연합 심포지엄’에서 기조연설을 진행하며 의료·헬스케어 산업의 AI 적용 전략을 소개했다고 30일 밝혔다. 이번 심포지엄은 강원대학교 빅데이터메디컬융합학과와 데이터사이언스학과가 공동 주최했으며, 의료 AI 보안과 설명가능 AI(XAI) 등 현장의 주요 이슈를 논의하기 위해 마련됐다.\n\n행사 첫날 키노트 세션에서 김동환 대표는 ‘The Age of Agentic AI – 생성형 AI 시대 케어 혁신’을 주제로, 스스로 판단하고 수행하는 에이전틱 AI(Agentic AI)가 의료 현장의 업무 흐름을 어떻게 개선할 수 있는지 설명했다. 그는 글로벌 AI 헬스케어 트렌드를 소개하며, 구글의 의료 특화 LLM 메드팜(Med",
+        "score": 0,
+        "published_date": "2026-01-30T00:00:00.000Z"
+      },
+      {
+        "title": "포티투마루, ‘AI 기반 문해력 증진 솔루션’ 개발 < SW·보안 < 기업 < 기사본문 - IT조선",
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092156329",
+        "text": "포티투마루, ‘AI 기반 문해력 증진 솔루션’ 개발\n\n전체메뉴\n\n기사검색\n\n기사검색 검색 닫기\n\n기사검색\n\n기사검색 검색 닫기\n\n- 회원가입 --\n- 로그인\n\nfacebook talk -- post youtube\n\nUPDATED. 2026-03-07 17:46 (토)\n\n기사검색\n\n생성형 AI 스타트업 포티투마루가 에듀테크 산업의 AX 전환을 본격적으로 추진한다고 4일 밝혔다. 앞서 포티투마루는 산업통상부와 한국산업기술기획평가원(KEIT)이 지원하는 ‘문해력 증진을 위한 AI 기반 맞춤형 한국어 학습 서비스’ 개발을 진행했다.\n\nAI 기반 문해한국어 학습 서비스. / 포티투마루\n\n이번 과제는 커뮤니케이션북스가 주관",
+        "score": 0,
+        "published_date": "2026-02-04T00:00:00.000Z"
+      },
+      {
+        "title": "포티투마루, ‘K-문샷 추진전략’ 협약 참여",
+        "url": "https://www.venturesquare.net/1045605/",
+        "text": "포티투마루, ‘K-문샷 추진전략’ 협약 참여 -- -- -- --\n\n포티투마루(42Maru, 대표 김동환)는 11일 서울 더플라자 호텔에서 열린 과학기술정보통신부 주관 ‘K-문샷 추진전략 업무협약(MOU)’ 행사에 AI 모델 분야 협력 기업으로 참석해 국가 과학기술 난제 해결을 위한 협력 체계를 구축했다고 밝혔다.\n\n이번 협약은 인공지능 기술을 활용해 과학기술 혁신을 촉진하고 국가 차원의 주요 연구 과제를 해결하기 위해 마련된 ‘K-문샷 추진전략’의 일환으로 진행됐다. K-문샷 프로젝트는 2035년까지 우주, 양자, 반도체, 첨단 바이오 등 8개 핵심 분야에서 설정된 12개 국가 미션을 인공지능 기반 연구를 통해 해결하는 것을 목표로 하는 국가 차원의 연구 프로그램이다. 이를 위해 정부는 과학 연구 전용 GPU 8,000여 장을 확보하고 ‘국가 과학AI 통합 플랫폼’을 구축해 산업계와 학계, 연구기관의 협력 기반을 확대할 계획이다.\n\n이날 협약식에는 배경훈 부총리 겸 과학기술정보통신",
+        "score": 0,
+        "published_date": "2026-03-12T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "블로그 | 포티투마루 (42Maru)",
+        "url": "https://www.42maru.ai/kr/blog/",
+        "text": "블로그 | 포티투마루 (42Maru)\n\n# 블로그\n\n42Maru에 대한 최신 정보. 뉴스, 리서치, 보도 자료 및 다가오는 이벤트를 보려면 여기를 확인하십시오.\n\nNews\n\n### 포티투마루, 'WIS 2022'서 대화형 AI 소개\n\n포티투마루, 'WIS 2022'서 대화형 AI 소개\n\nNews\n\n### 포티투마루, 국제인공지능대전서 앤서링 AI 선봬\n\n포티투마루, 국제인공지능대전서 앤서링 AI 선봬\n\nNews\n\n### 포티투마루, AI 챗봇 솔루션 챗42로 GS인증 1등급 획득\n\n포티투마루, AI 챗봇 솔루션 챗42로 GS인증 1등급 획득\n\nNews\n\n### 포티투마루, '2022 아-태지역 고성장 기업' 테크 부문 17위 선정\n\n포티투마루, '2022 아-태지역 고성장 기업' 테크 부문 17위 선정\n\nNews\n\n### 포티투마루, 인공지능 OCR-NLP 솔루션 ‘텍스탠딩’ 출시\n\n포티투마루, TTA 기계독해 품질성능평가 유일하게 통과\n\nNews\n\n### 포티투마루, TTA 기계독",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "포티투마루, 도메인 특화 LLM·RAG 솔루션 선보여 < 보도자료 < AI 기업 < AI산업 < 기사본문 - AI타임스",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=159272",
+        "text": "포티투마루, 도메인 특화 LLM·RAG 솔루션 선보여 --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-02-21 22:28 (토)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n포티투마루, 도메인 특화 LLM·RAG 솔루션 선보여\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n포티투마루 부스 전경 (사진=포티투마루)\n\n인공지능(AI) 전문 포티투마루(대표 김동환)는 한 행사에서 산업 특화 생성 AI 솔루션을 선보였다고 1일 밝혔다.\n\n특히 도메인 특화 대형언어모델(LLM)인 ‘LLM42’와 ",
+        "score": 0,
+        "published_date": "2024-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "STEN [보도자료]",
+        "url": "https://sten.or.kr/home/kor/M429592810/board.do",
+        "text": "-- STEN [보도자료] -- --\n\n## 알림\n\n### 오늘 알림\n\n알림 내용 없습니다.\n\n### 지난 알림\n\n알림 내용 없습니다.\n\n- 로그아웃\n- 결제내역\n- 포인트내역\n- 온라인교육수강신청내역 --\n- 활동내역\n- 계정관리 --\n- 계정관리\n\n## 커뮤니티\n\n- [이벤트](javascript:v",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "The Pragmatic Engineer 2025 Survey: What’s in your tech stack? Part 3",
+        "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-2025-survey-part-3",
+        "text": "The Pragmatic Engineer 2025 Survey: What’s in your tech stack? Part 3\n\n# The Pragmatic Engineer\n\nSubscribeSign in\n\nDeepdives\n\n# The Pragmatic Engineer 2025 Survey: What’s in your tech stack? Part 3\n\n### Which tools do software engineers use for observability, oncall tooling, feature flags, frontend & mobile work, and for developer tooling? Results from our survey, based on 3,000+ responses by readers",
+        "score": 0,
+        "published_date": "2025-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "[스타트업] 포티투마루 “세계 최고 인공지능 기술 보유 자부해…누구나 쉽게 AI 기술 접하는 사회적 역할도 희망해”",
+        "url": "https://elec4.co.kr/article/articleView.asp?idx=28149",
+        "text": "[스타트업] 포티투마루 “세계 최고 인공지능 기술 보유 자부해…누구나 쉽게 AI 기술 접하는 사회적 역할도 희망해” --\n\n2026.02.22 (일)\n\n로그인 회원가입\n\n- 세미나\n- 에너지 · 전력\n- 로봇 · 자동화스포트라이트 라이브러리 산업지식in 인터뷰 테크노트 --\n- 인공지능\n- 반도체\n- 종합\n\n--\n\n[스타트업] 포티투마루 “세계 최",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "\"10명이 4년 걸린 일을 이틀만에\"…AI로 산업현장 완전히 바뀌었다 [ABCD포럼] - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY1h4Q1REY2lLbFY3dnhmQXA1RFBVQndFRjAtWEZmcjNrVW5pVHY4SklMZzFhQi1YSnU2Vm0tVUt0ZldSMWQ3YVprRC04Y0hsU3EzcnZPajlzeHhZT2MwbnhiX01xUHUxM1RjSTV6SWFBOEFKSEdMUjd5eTJzZEQwN3B0WEVlS1U?oc=5",
+        "pub_date": "Thu, 23 Oct 2025 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "세상 모든 질문에 대한 해답: 포티투마루 [긱스] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DM3NkdHBuZGM1eFZjTGFFN1FhRFU3SV9MTGhCTjBjaWZ3QXRGNTZFZUFqM2hlUFB0N0N4eGZDZFJiNFpoS1dCdXF5NmZzRFh2NFl2eHp6bjBLd9IBVEFVX3lxTE9Qb2pjSTNnZ3NoZ01XWTZENXlLVFVoMGR5RWZ3TXpzLUViUDA1NnpYZjA3OXF3ZmNpRUFsVmJWVjA4RjViMHFzY3phS0xXdG9KS3JpQg?oc=5",
+        "pub_date": "Mon, 17 Feb 2025 08:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "포티투마루 김동환 대표 “리더의 소통, 서두르지 않되 쉬지도 말아야” [배태준의 스타트업 성공 리더십] - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ3Z5Q0J2SlJRX1BpM2JRNnNGLXpqRlFVbTdTbXZveW9GZE0wWmEtYWM1UmRwa2JHeUs4cVlWZTRUMVlURGUzQlhpVmdfMUJ0R2x6bXdKUkd0WVM4TEdoWTB5VmFfVXdPWjdhOF81THVjMlRIdVdLM3dSajJDTGdIWWZqTHVlQXc?oc=5",
+        "pub_date": "Mon, 04 Dec 2023 08:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "[차세대 유니콘](26) 삼성·SK·LG가 쓰는 중소형 언어모델 만든 포티투마루… 김동환 대표 “유럽 시장 문 두드릴 것” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcHNFTk13WjdzNW1MWXE4RDZ1QUl0aFAtV1prYnd0TDdDdi1WUU9KVkNGcjZyRnhnajFPbmlXcWk4SjgtWmo3M1VFS0JSdlIwVGczanBGNWRRN2lKUjFGYXJncXNKald2cllPNG9raTJrbjFQUGwzZTZ2S0pMd2VqLWpB0gGWAUFVX3lxTFBGdjJtVkNlSy00TE9fS01wR2pHaF9YdTh0TUdBM3hYdjFULWVpalpzbjRKNkR0TXBFV1ZOZnh0MV9jN2pUMDI2SkRDVUUtQjlvSGVMS0F4OWxsVGxlYlh2cV9UV2NRalhHQmFON2pqc3RDVUk0RG1oSEhVc3JSQmIzRHQ2bUdRRWdoWUdGNmlOQUFhNkl5UQ?oc=5",
+        "pub_date": "Sun, 10 Dec 2023 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "샌즈랩·포티투마루·LG유플러스, 사이버 보안 LLM 공동 개발 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMGQ3T3gwVFVvandkWlRfYS1MVXlGOUFmbG1hYzhxT1BETVhqOFhLblVGT1B2WkRaSk4xUzgzMHdNWmNVN3N0MGRNUWQ5UWh2LUJXSk1ZVDlKSVZiMzE5bnlzVGEwQm44RVFaZmpsNmYzemtST0RMdnpBd0h0OExZM01B0gGWAUFVX3lxTFBMaVF4S1ZiNUVlU09zd29HVEM5LU1uMFZ6T2tKMHh0eTd0LU5YUGttcWg2cXVrZ3dET3lqSU10TTRyR3BELW1mRElwR2xhWEN4a1I3VC1vMTZUR1llaDQ3MGgxNHNtZk9NaHR6a1Y3c0JGUnZ5dUtLNjBqM0xGYTY5c0RBZTBPOW1Na0FUOEN3M2czcTZ5Zw?oc=5",
+        "pub_date": "Mon, 04 Mar 2024 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "한글과컴퓨터, AI 사업 본격화 움직임에 주가 급등 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONGJqc0MzbEYwR1JabFAtVFNaVzJDVHpMN3lXWHVrcWkzLU1KSXFOZnlEaWs2dEM2WGpVdEYwWXNxeU1zQlRreXRsWXU0akM0NHpBWlpzYU1VTjZxVEZfMGtOQUNjMWdqRzF1V2t1blNvVS1MLXZIMXhlQ1lneDFpNFlR0gGWAUFVX3lxTFBkZnNmdm5OWGJBNHF6ajI0eXJxYmVoTnp0SVp3VXN2WWJ1bEs1bHlHa0JHNGZPSldjWG1wT1ZyZ18tMDBiSTZ0ZUZpSWdjMDNHTTRyMU0xdldCT196NEdGSk5hUDlSakI3dmc2LTlrMGZwcGwwZWI3SnFoQnJJOUs0T3RrUXZ6Mjd0d09SeEw0N3RJdno4dw?oc=5",
+        "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "“전국 스타트업 모여라” 삼성 C랩 아웃사이드 공모전 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZM1pmTFhKZ0ktMm1kTVVOOEVpQjNDdXBtU0NtMlF3Umc5NXRiaFN1OTRZenZuU2hMeVNLbjA3RVZEdHlzT3c4VHREWGVVdw?oc=5",
+        "pub_date": "Mon, 17 Jul 2023 07:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "https://www.mk.co.kr/sitemap/daily-images/20260126 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0OFRibGlOVVNxWi1ZVm9EeVphR3hkY0ZTaWh5el9tOWRSTVk3dlhYUVNIckRQQlV1WnR6bmNOMmZaTnRyb1dEZlA1RGFrSXNPdVpLUG5odzNIV2pNSjNB?oc=5",
+        "pub_date": "Mon, 26 Jan 2026 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "LLM 출혈 대신 ‘돈 되는 서비스’ 경쟁 [메이킹 머니 AI] - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vNmRFZm1LOEFGeTdVc2VYUmlYUFA1R200Y0U2SFZGcnNkY3pFWTNHUzBMYmRyQjdOaXYzelZHZFk0bWNhaUVMc3BNSEFrSFpXYk1qWA?oc=5",
+        "pub_date": "Thu, 04 Jul 2024 07:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "\"비용 10% 미만·유연한 조건\"… 정부 GPU 파격 지원에 AI 업계 환호 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IMUVWUnM1bG5SMVcyS1lUZVVUaUVfN2I3X3pINmtQVG9COVVpbXpQa09tcnlRQnVRNzRXWG9IOS11VGphbXJBX292YzBJZFo2NDRxRHpR?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 09:52:08 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[ZD SW 투데이] KOSA, 소프트웨어 사업자·기술자 제도 설명회 개최 外 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLcHU1OGNQdkhtNm9fNG9qTzl2RzdPTFVHV1hfVVhaSkZZTXYtR0RfQWM2dl9BTFhxZXZrWXJEa2Nlb3RZdW5VaEV6cXIyaXh0TmtNUndR?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 08:38:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "포티투마루, 'MWC 2026' 부스 마련…\"해외 고객 확장\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyUUtWNVNsM0FVazdPR1JnQWJlVUZNbEFWRmZZbUJwMk1wQ0cwYTBRcnVSWUE4RzM2bmNoRUdnM1FaS01ha2tIdkJWRm1fMFRnTU5BVEh3?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[MWC라이브] 바르셀로나로 간 포티투마루, '에이전틱AI'로 승부수 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fd1NtTGFaNldZck14Ylk3VGozYUhnRnBVQmxyNjdoLXNCMGc1S3JjOTIzVGpNMFo5a0pYMi1VYW40WC1OZ1Z0RWo5c1JzYUdvSFRlZHgydXgzYndZVkM3ekZHeDNSc3FO0gFsQVVfeXFMTWFOY0NmRE5yTU1DcmF5Uk5ISEoyQ0stUDdHN3ZNT2dtVFJWUjFJRVZmSXREOEd0TzhvdERud2VNTXpZdWhfeEpnVGRLdjB1ZU1aOGVxVHJRcHFrVFZNUWlxSUxwUkhaMTNrTzdX?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "황현식 LGU+ 대표, 연임 첫 투자…AI 스타트업 ‘포티투마루’ 낙점 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqRjRzY3hrdnhWZUV5U3FmRWRGNmdhN3dld3hCZVJaYkQyWWVnVWFfWTNTLTlDUm5KUUVYX0ZYUTh4MkNScUZobzltVTFYSHJZZHFXZGNOSmhLUTU4cDB6empoMWU0Q29I0gFsQVVfeXFMTVRRT3ZxVE1xX3liRFltcTZYWTNwbjNnN0tnVFV4S2VOYVh0RmdIWlpIc2dWM3B2QVFKdFBMWkZpNmZ3cDF2eEZKa0tjSGZBNHNSQU8wRnlvSGJOZTMxV2FRWGR1MG1qRzZ2RjRr?oc=5",
+        "pub_date": "Sun, 07 Jan 2024 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[한국의 AI]⑨수익화 첫 발은 '내부 검색'용 sLLM - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9USFhtWWRQQjBnUE1UT1M0VXN0M0VuaHJCdFNiOURGTGplbzQ3RGZHUVVUT2VNSjcxT2FzUjZaREpmZVhZY25DRGVVcE56cUw2QXhyTVBJR2M1MHJZaWFaYlhRMGR3clZM0gFsQVVfeXFMUGpCcTN4SGsxRUlqZWhFdWdSeXNqSW1xSURtaWtYTEVacjZSNnJfZFRXU3JZT1k0TDhDVDRidEt4SjlUVFNTSDljb01VelIzYjJsd2JmMkRNM0ZPc0VMMUc3MGF6NlVMWW9XbDF6?oc=5",
+        "pub_date": "Thu, 26 Sep 2024 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "로그프레소, 사이버 보안 특화 생성형 AI 연구개발 착수 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MaWlrcGVGaWdJWFhkVVVSN1N3S09PSGtUVXhNVnc0NEtDX1FBSVBsZVdubTRaWWJRYzZnOWwzS3Qza0dsQzlfaWNQS21Ldw?oc=5",
+        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}
