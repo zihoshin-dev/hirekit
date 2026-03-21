@@ -10,8 +10,9 @@
 
 <p align="center">
   <a href="https://pypi.org/project/hirekit/"><img src="https://img.shields.io/pypi/v/hirekit" alt="PyPI"></a>
-  <a href="https://github.com/ziho/hirekit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python"></a>
+  <a href="https://github.com/zihoshin-dev/hirekit"><img src="https://img.shields.io/github/stars/zihoshin-dev/hirekit?style=social" alt="Stars"></a>
 </p>
 
 ---
@@ -49,37 +50,44 @@ hirekit analyze 카카오
 hirekit sources
 ```
 
-## Example Output
+## Demo
 
 ```
-┌─────────────────────────────────────────┐
-│          HireKit Analysis               │
-│                                         │
-│  Analyzing: 카카오                       │
-│  Region: KR  Tier: 1  LLM: off         │
-└─────────────────────────────────────────┘
+$ hirekit analyze 카카오 --no-llm -o terminal
 
-┌──────────────── 카카오 Scorecard ────────────────┐
-│ Dimension           Weight  Score  Evidence      │
-│ Job Fit              30%    4.2/5  Strong PM...  │
-│ Career Leverage      20%    3.8/5  Platform...   │
-│ Growth Potential     20%    4.0/5  AI invest...  │
-│ Compensation         15%    4.5/5  Top-tier...   │
-│ Culture Fit          15%    3.5/5  Fast-paced... │
-│ Total                       82/100  Grade S      │
-└──────────────────────────────────────────────────┘
+╭──────────────────── HireKit Analysis ────────────────────╮
+│ Analyzing: 카카오                                        │
+│ Region: kr  Tier: 1  LLM: off                            │
+╰──────────────────────────────────────────────────────────╯
 
-Report saved: ./reports/카카오_analysis.md
+                     카카오 Scorecard
+┌─────────────────────┬────────┬────────┬──────────────────┐
+│ Dimension           │ Weight │  Score │ Evidence         │
+├─────────────────────┼────────┼────────┼──────────────────┤
+│ Job Fit             │    30% │  3.5/5 │ Tech stack data  │
+│ Career Leverage     │    20% │  4.6/5 │ 15 data points   │
+│ Growth Potential    │    20% │  4.5/5 │ Financials +     │
+│                     │        │        │ active news      │
+│ Compensation        │    15% │  3.5/5 │ DART salary data │
+│ Culture Fit         │    15% │  4.5/5 │ Reviews + Exa    │
+│ Total               │        │ 82/100 │ Grade S          │
+└─────────────────────┴────────┴────────┴──────────────────┘
 ```
+
+> 8 data sources collected 15 results in parallel — DART financials, Google/Naver/Brave/Exa news, Reuters, Korean biz press, GitHub tech scoring, Glassdoor reviews.
 
 ## Data Sources
 
 | Source | Region | Data | API Key |
 |--------|--------|------|---------|
-| DART | KR | Financial filings, employee data | Required |
-| Naver News | KR | Recent news articles | Required |
+| DART | KR | Financial filings, employee data | `DART_API_KEY` |
+| Naver News | KR | Recent news articles | `NAVER_CLIENT_ID` |
+| Naver Search | KR | Blog, cafe, web (culture/interview) | `NAVER_CLIENT_ID` |
 | GitHub | Global | Tech maturity scoring | gh CLI |
-| *More coming...* | | | |
+| Google News | Global | RSS news (no key needed) | - |
+| Credible News | Global | Reuters, Bloomberg, FT, WSJ + Korean biz press | - |
+| Brave Search | Global | Web + news semantic search | `BRAVE_API_KEY` |
+| Exa Search | Global | AI semantic deep search | `EXA_API_KEY` |
 
 ### Adding Custom Sources
 
@@ -146,9 +154,9 @@ pip install hirekit[llm]
 
 ## Roadmap
 
-- [x] **Phase 1 (MVP):** DART + GitHub + News analysis, scorecard, Markdown reports
-- [ ] **Phase 2:** JD matching (`hirekit match`), interview prep (`hirekit interview`), resume review
-- [ ] **Phase 3:** US companies (SEC Edgar), web UI, community plugins
+- [x] **Phase 1:** DART + GitHub + News analysis, scorecard, Markdown reports
+- [x] **Phase 2:** JD matching (`hirekit match`), interview prep (`hirekit interview`), resume review (`hirekit resume`)
+- [ ] **Phase 3:** US companies (SEC Edgar), web UI, community plugins, PyPI publish
 
 ## Contributing
 
