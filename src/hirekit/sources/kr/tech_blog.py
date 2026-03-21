@@ -8,6 +8,7 @@ from typing import Any
 
 import httpx
 
+from hirekit.core.filters import filter_recent
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
 logger = logging.getLogger(__name__)
@@ -34,6 +35,12 @@ TECH_KEYWORDS = [
     "Spark", "Flink", "Redis", "GraphQL", "gRPC", "Rust", "Go",
     "Python", "TypeScript", "AWS", "GCP", "Azure", "MSA", "CI/CD",
     "DevOps", "MLOps", "RAG", "GPT", "Transformer", "대규모", "분산",
+]
+
+AI_KEYWORDS = [
+    "AI", "ML", "LLM", "딥러닝", "GPT", "생성형", "인공지능",
+    "머신러닝", "딥러닝", "ChatGPT", "RAG", "MLOps", "Transformer",
+    "생성AI", "GenAI", "Foundation Model", "파운데이션", "Diffusion",
 ]
 
 MEDIUM_DOMAINS = {"medium.com"}
@@ -74,12 +81,20 @@ class TechBlogSource(BaseSource):
             if not posts:
                 return []
 
-            keywords = self._extract_keywords(posts)
+            # Filter to last 6 months only
+            recent_posts = filter_recent(posts, months=6, date_keys=("date", "pub_date", "published"))
+
+            keywords = self._extract_keywords(recent_posts or posts)
+            ai_posts = self._filter_ai_posts(recent_posts or posts)
+            tech_stack = self._extract_tech_stack(recent_posts or posts)
+
             data: dict[str, Any] = {
                 "blog_url": url,
-                "recent_posts": posts[:10],
+                "recent_posts": (recent_posts or posts)[:10],
                 "tech_keywords": keywords,
-                "post_count": len(posts),
+                "post_count": len(recent_posts or posts),
+                "ai_posts_count": len(ai_posts),
+                "tech_stack_mentioned": tech_stack,
             }
             raw = self._format_raw(company, data, url)
             return [
@@ -207,9 +222,33 @@ class TechBlogSource(BaseSource):
         return found
 
     @staticmethod
+    def _filter_ai_posts(posts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        """Return posts that mention AI-related keywords in the title."""
+        ai_kw_lower = [kw.lower() for kw in AI_KEYWORDS]
+        result = []
+        for p in posts:
+            title_lower = p.get("title", "").lower()
+            if any(kw in title_lower for kw in ai_kw_lower):
+                result.append(p)
+        return result
+
+    @staticmethod
+    def _extract_tech_stack(posts: list[dict[str, Any]]) -> list[str]:
+        """Extract tech stack keywords detected in post titles."""
+        all_text = " ".join(p.get("title", "") for p in posts).lower()
+        found = [kw for kw in TECH_KEYWORDS if kw.lower() in all_text]
+        return found
+
+    @staticmethod
     def _format_raw(company: str, data: dict[str, Any], url: str) -> str:
         lines = [f"[{company} 기술 블로그: {url}]"]
         lines.append(f"최근 포스팅 {data.get('post_count', 0)}개 수집")
+        ai_count = data.get("ai_posts_count", 0)
+        if ai_count:
+            lines.append(f"AI 관련 포스팅: {ai_count}개")
+        tech_stack = data.get("tech_stack_mentioned", [])
+        if tech_stack:
+            lines.append(f"기술 스택: {', '.join(tech_stack)}")
         keywords = data.get("tech_keywords", [])
         if keywords:
             lines.append(f"기술 키워드: {', '.join(keywords)}")
