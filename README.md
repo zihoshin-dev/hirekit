@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">HireKit</h1>
   <p align="center">
-    <strong>AI-powered company analysis and interview preparation CLI for job seekers</strong>
+    <strong>AI-powered company research & interview prep CLI for job seekers</strong>
   </p>
   <p align="center">
     Research companies. Match jobs. Ace interviews.
@@ -15,152 +15,76 @@
   <a href="https://github.com/zihoshin-dev/hirekit"><img src="https://img.shields.io/github/stars/zihoshin-dev/hirekit?style=social" alt="Stars"></a>
 </p>
 
----
-
-## Why It Matters
-
-You're in an interview. Your interviewer asks: **"Why do you want to work here?"**
-
-You pause. You didn't research the company beyond the job posting.
-
-**90% of rejected candidates cite "unprepared" as feedback.**
-
-Meanwhile, company research takes **4-8 hours** across fragmented sources:
-- DART filings (Korean finance jargon, hard to parse)
-- News articles (biased, scattered across 10+ sites)
-- Glassdoor reviews (complaint-focused, outdated)
-- GitHub (tech only, no culture insights)
-- LinkedIn, internal wikis, salary data
-
-No tool combines these into one actionable intelligence report.
-
-**HireKit solves this:** One command, 2 minutes, 8 data sources, 1 decision-ready report.
+<p align="center">
+  <a href="README.ko.md">한국어</a> | English
+</p>
 
 ---
 
-## How It Works
+## The Problem
+
+You found a great job posting. Now you need to research the company before applying.
+
+So you open 10+ tabs: DART filings, news sites, Glassdoor, GitHub, LinkedIn, salary databases...
+
+**4-8 hours later**, you have scattered notes and still aren't sure if this company is right for you.
+
+## The Solution
 
 ```bash
-# Step 1: Install (30 seconds)
-$ pip install hirekit
-
-# Step 2: Configure API keys (1 minute, one-time)
-$ hirekit configure
-> DART API Key: [paste]
-> Naver Client ID: [paste]
-
-# Step 3: Analyze a company (2 minutes)
-$ hirekit analyze 카카오
-
-# Output: 12-section decision report
+pip install hirekit
+hirekit analyze 카카오
 ```
 
-**Total time: 3 minutes vs. 4-8 hours of manual research**
-
----
-
-## What You Get
-
-**Single Actionable Score: 0-100 Job Fit Rating**
-
-```
-82/100 = Strong Opportunity (Go for it)
-75/100 = Competitive (Worth applying with prep)
-60/100 = Caution (Red flags exist — investigate)
-```
-
-**12-Section Report covering:**
-- Executive summary with key reasons
-- Financial health (salary negotiation potential)
-- Tech stack & interview depth questions
-- Recent news & company trajectory
-- Culture & team dynamics
-- Risk flags & mitigation strategies
-- Interview prep tips specific to this company
-
-**Multi-source cross-validation:**
-- 8+ data sources collected in parallel
-- Conflicts highlighted ("News says growing, DART shows debt spike — investigate")
-- Evidence-based scoring, not gut feeling
-- All sources cited with dates
+**2 minutes later**: A structured report with a 0-100 score, covering financials, culture, tech stack, recent news, and interview tips — all from 8 data sources collected in parallel.
 
 ---
 
 ## Quick Start
 
+### 1. Install
+
 ```bash
-# Install
 pip install hirekit
-
-# Configure (set up API keys)
-hirekit configure
-
-# Analyze a company
-hirekit analyze 카카오
-
-# View available data sources
-hirekit sources
 ```
 
----
+> Requires Python 3.11+. That's it — no other setup needed for basic use.
 
-## What's Next?
+### 2. Get API Keys (optional but recommended)
 
-After analyzing a company, you can:
+HireKit works with **zero API keys** (Google News + credible news sources are free). For richer data, get these free keys:
+
+| Key | Where to get it | What it unlocks |
+|-----|----------------|-----------------|
+| DART API Key | [opendart.fss.or.kr](https://opendart.fss.or.kr/) | Korean company financials, salary, headcount |
+| Naver Client ID/Secret | [developers.naver.com](https://developers.naver.com/) | Korean news, blog reviews, interview tips |
+| Brave API Key | [brave.com/search/api](https://brave.com/search/api/) | Web + news semantic search |
+| Exa API Key | [exa.ai](https://exa.ai/) | AI-powered deep search |
+
+### 3. Configure
 
 ```bash
-# Compare companies side-by-side
-$ hirekit compare 카카오 네이버 --focus salary,growth
-
-# Match your resume to a job posting
-$ hirekit match https://wanted.co.kr/job-123 resume.pdf
-
-# Prepare interview questions specific to this company
-$ hirekit interview 카카오 --role backend-engineer
-
-# Get interview feedback on your resume
-$ hirekit resume review resume.pdf --company 카카오
+hirekit configure
 ```
 
-👉 **[Full Tutorial](docs/tutorial.md)** | **[CLI Reference](docs/cli-reference.md)** | **[FAQ](docs/faq.md)**
-
----
-
-## Features
-
-- **8-source parallel collection** — DART financials, Google/Naver/Brave/Exa news, Reuters, Korean biz press, GitHub tech scoring, Glassdoor reviews (all collected simultaneously)
-- **12-section structured reports** — Executive summary, financial health, tech stack, news/trajectory, culture, compensation, growth potential, risks, interview prep, scorecard, similar companies, action items
-- **Weighted 5-dimension scorecard** — Job Fit (30%), Career Leverage (20%), Growth Potential (20%), Compensation (15%), Culture Fit (15%) — 100-point decision score, not subjective rating
-- **LLM-optional** — Works without any AI (template mode for offline use), enhanced with OpenAI/Anthropic/Ollama for deeper analysis
-- **Plugin architecture** — Add custom data sources in 20 lines of Python, no core changes needed
-- **Privacy-first** — All data stays local, no external tracking, no cloud uploads
-
-## Quick Start
+This creates `~/.hirekit/config.toml` and `~/.hirekit/.env`. Open the `.env` file and paste your API keys:
 
 ```bash
-# Install
-pip install hirekit
+# ~/.hirekit/.env
+DART_API_KEY=your_key_here
+NAVER_CLIENT_ID=your_id_here
+NAVER_CLIENT_SECRET=your_secret_here
+```
 
-# Configure (set up API keys)
-hirekit configure
+### 4. Analyze a Company
 
-# Analyze a company
+```bash
 hirekit analyze 카카오
-
-# View available data sources
-hirekit sources
 ```
 
-## Demo
+You'll see a scorecard like this:
 
 ```
-$ hirekit analyze 카카오 --no-llm -o terminal
-
-╭──────────────────── HireKit Analysis ────────────────────╮
-│ Analyzing: 카카오                                        │
-│ Region: kr  Tier: 1  LLM: off                            │
-╰──────────────────────────────────────────────────────────╯
-
                      카카오 Scorecard
 ┌─────────────────────┬────────┬────────┬──────────────────┐
 │ Dimension           │ Weight │  Score │ Evidence         │
@@ -175,105 +99,258 @@ $ hirekit analyze 카카오 --no-llm -o terminal
 └─────────────────────┴────────┴────────┴──────────────────┘
 ```
 
-> 8 data sources collected 15 results in parallel — DART financials, Google/Naver/Brave/Exa news, Reuters, Korean biz press, GitHub tech scoring, Glassdoor reviews.
+A Markdown report is saved to `./reports/카카오_analysis.md`.
 
-## Data Sources
+---
 
-| Source | Region | Data | API Key |
-|--------|--------|------|---------|
-| DART | KR | Financial filings, employee data | `DART_API_KEY` |
-| Naver News | KR | Recent news articles | `NAVER_CLIENT_ID` |
-| Naver Search | KR | Blog, cafe, web (culture/interview) | `NAVER_CLIENT_ID` |
-| GitHub | Global | Tech maturity scoring | gh CLI |
-| Google News | Global | RSS news (no key needed) | - |
-| Credible News | Global | Reuters, Bloomberg, FT, WSJ + Korean biz press | - |
-| Brave Search | Global | Web + news semantic search | `BRAVE_API_KEY` |
-| Exa Search | Global | AI semantic deep search | `EXA_API_KEY` |
+## All Commands
 
-### Adding Custom Sources
+HireKit has 7 commands covering the full job preparation journey:
+
+### `hirekit analyze` — Research a company
+
+```bash
+# Basic analysis (saves Markdown report)
+hirekit analyze 카카오
+
+# Show results in terminal instead of saving
+hirekit analyze 네이버 -o terminal
+
+# JSON output (for scripting)
+hirekit analyze 토스 -o json
+
+# Quick analysis (fewer sections)
+hirekit analyze 쿠팡 --tier 3
+```
+
+### `hirekit match` — Match a job posting to your profile
+
+```bash
+# Paste a JD URL
+hirekit match "https://www.wanted.co.kr/wd/12345"
+
+# Or use a saved JD text file
+hirekit match jd.txt
+
+# With your career profile for personalized matching
+hirekit match jd.txt --profile ~/.hirekit/profile.yaml
+```
+
+**What you get**: Match score (0-100), skill gaps, strengths, and application strategy.
+
+### `hirekit interview` — Prepare for interviews
+
+```bash
+# Generate interview questions for a company
+hirekit interview 카카오
+
+# Specify your target position
+hirekit interview 카카오 --position "Backend Engineer"
+
+# Show in terminal
+hirekit interview 네이버 --position PM -o terminal
+```
+
+**What you get**: 5 common questions, role-specific questions, STAR story templates, and 5 reverse questions to ask the interviewer.
+
+### `hirekit coverletter` — Draft a Korean cover letter (자기소개서)
+
+```bash
+# Generate a 4-section Korean cover letter draft
+hirekit coverletter 카카오 --position PM
+
+# With your profile for personalized content
+hirekit coverletter 토스 --position PM --profile profile.yaml
+
+# Preview in terminal
+hirekit coverletter 네이버 -o terminal
+```
+
+**What you get**: 4-section draft (성장과정, 지원동기, 직무역량, 장단점) with per-section scoring and improvement feedback.
+
+### `hirekit resume` — Review your resume
+
+```bash
+# Review a resume file
+hirekit resume resume.md
+
+# Review against a specific job description
+hirekit resume resume.md --jd "https://wanted.co.kr/wd/12345"
+
+# With career profile
+hirekit resume resume.pdf --profile profile.yaml
+```
+
+**What you get**: ATS compatibility check, structure analysis, keyword gaps vs JD, content quality score, and improvement suggestions.
+
+### `hirekit sources` — Check data source status
+
+```bash
+hirekit sources
+```
+
+Shows which data sources are configured and ready:
+
+```
+                    Data Sources
+┌────────────┬────────┬─────────────────┬────────────────┐
+│ Name       │ Region │ API Key         │ Status         │
+├────────────┼────────┼─────────────────┼────────────────┤
+│ dart       │ KR     │ DART_API_KEY    │ Ready          │
+│ github     │ GLOBAL │ -               │ Ready          │
+│ google_news│ GLOBAL │ -               │ Ready          │
+│ naver_news │ KR     │ NAVER_CLIENT_ID │ Not configured │
+└────────────┴────────┴─────────────────┴────────────────┘
+```
+
+### `hirekit configure` — Set up API keys and preferences
+
+```bash
+hirekit configure
+```
+
+Creates default config files. Edit `~/.hirekit/.env` to add your API keys.
+
+---
+
+## Data Sources (8 built-in)
+
+| Source | Region | What it provides | API Key | Free? |
+|--------|--------|-----------------|---------|-------|
+| **DART** | Korea | Financials, salary, headcount from official filings | `DART_API_KEY` | Yes |
+| **Naver News** | Korea | Recent Korean news articles | `NAVER_CLIENT_ID` | Yes |
+| **Naver Search** | Korea | Blog/cafe reviews, interview tips, culture info | `NAVER_CLIENT_ID` | Yes |
+| **GitHub** | Global | Tech maturity score (repos, stars, languages) | gh CLI auth | Yes |
+| **Google News** | Global | Latest news via RSS | None needed | Yes |
+| **Credible News** | Global | Reuters, Bloomberg, FT, WSJ + Korean biz press | None needed | Yes |
+| **Brave Search** | Global | Web + news semantic search | `BRAVE_API_KEY` | Free tier |
+| **Exa Search** | Global | AI-powered semantic deep search | `EXA_API_KEY` | Free tier |
+
+> You can start with **zero API keys**. Google News, Credible News, and GitHub (if you have `gh` CLI) work without any setup.
+
+---
+
+## AI Enhancement (Optional)
+
+HireKit works perfectly without AI — reports are generated using templates and rules. To get deeper, AI-powered analysis:
+
+```bash
+# Install with OpenAI support
+pip install "hirekit[openai]"
+
+# Or Anthropic Claude
+pip install "hirekit[anthropic]"
+
+# Or local models via Ollama (fully offline, free)
+pip install "hirekit[ollama]"
+```
+
+Then set your API key in `~/.hirekit/.env`:
+
+```bash
+OPENAI_API_KEY=sk-...
+# or
+ANTHROPIC_API_KEY=sk-ant-...
+```
+
+And update `~/.hirekit/config.toml`:
+
+```toml
+[llm]
+provider = "openai"  # or "anthropic", "ollama"
+model = "gpt-4o-mini"
+```
+
+---
+
+## Career Profile (Optional)
+
+Create `~/.hirekit/profile.yaml` to get personalized matching:
+
+```yaml
+name: "Your Name"
+years_of_experience: 5
+
+tracks:
+  - name: "Product Manager"
+    priority: 1
+
+career_assets:
+  - asset: "Built payment system"
+    source: "Previous Company"
+    applicable_industries: ["fintech", "ecommerce"]
+
+skills:
+  technical: ["Python", "SQL", "Data Analysis"]
+  domain: ["Payment Systems", "E-commerce"]
+  soft: ["Cross-functional Communication"]
+
+preferences:
+  regions: ["kr"]
+  industries: ["fintech", "platform"]
+  work_style: ["hybrid"]
+```
+
+When you pass `--profile`, HireKit matches your skills against job requirements and tailors interview questions to your experience.
+
+---
+
+## Adding Custom Data Sources
+
+Want to add your own data source? It's just one Python class:
 
 ```python
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
 @SourceRegistry.register
-class MySource(BaseSource):
-    name = "my_source"
+class GlassdoorSource(BaseSource):
+    name = "glassdoor"
     region = "global"
-    sections = ["tech"]
+    sections = ["culture"]
 
     def is_available(self) -> bool:
-        return True
+        return True  # or check for API key
 
     def collect(self, company, **kwargs):
-        # Your data collection logic here
+        # Your scraping/API logic here
         return [SourceResult(
             source_name=self.name,
-            section="tech",
-            data={"key": "value"},
+            section="culture",
+            data={"rating": 4.2, "reviews": 150},
+            raw="Glassdoor rating: 4.2/5 from 150 reviews",
         )]
 ```
 
-## Configuration
-
-Config lives in `~/.hirekit/config.toml`:
-
-```toml
-[analysis]
-default_region = "kr"
-cache_ttl_hours = 168  # 7 days
-
-[llm]
-provider = "none"  # openai, anthropic, ollama, none
-model = "gpt-4o-mini"
-
-[sources]
-enabled = ["dart", "github", "naver_news"]
-
-[output]
-format = "markdown"
-directory = "./reports"
-```
-
-## LLM Support
-
-HireKit works without any LLM (template-based reports). For AI-enhanced analysis:
-
-```bash
-# OpenAI
-pip install hirekit[openai]
-# Set OPENAI_API_KEY in ~/.hirekit/.env
-
-# Anthropic
-pip install hirekit[anthropic]
-
-# Local models via Ollama
-pip install hirekit[ollama]
-
-# Or use litellm for 100+ providers
-pip install hirekit[llm]
-```
-
-## Roadmap
-
-- [x] **Phase 1:** DART + GitHub + News analysis, scorecard, Markdown reports
-- [x] **Phase 2:** JD matching (`hirekit match`), interview prep (`hirekit interview`), resume review (`hirekit resume`)
-- [ ] **Phase 3:** US companies (SEC Edgar), web UI, community plugins, PyPI publish
-
-## Contributing
-
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-**Good first issues:**
-- Add a new data source plugin
-- Improve report templates
-- Add i18n support
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
 ---
 
+## Roadmap
+
+- [x] **v0.1** — Company analysis, scorecard, 8 data sources
+- [x] **v0.1** — JD matching, interview prep, resume review, cover letter coach
+- [ ] **v0.2** — US companies (SEC Edgar), improved report quality
+- [ ] **v0.3** — Web UI, community plugins, agent architecture
+
+---
+
+## Contributing
+
+We welcome contributions! Here are some good starting points:
+
+- Add a new data source (Glassdoor, LinkedIn, SEC Edgar)
+- Improve Korean cover letter templates
+- Add support for Japanese/Chinese job markets
+- Improve the scoring algorithm
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup instructions.
+
+---
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
+
 <p align="center">
-  <sub>Built with care for every job seeker out there.</sub>
+  <sub>Built for every job seeker who deserves better tools.</sub>
 </p>

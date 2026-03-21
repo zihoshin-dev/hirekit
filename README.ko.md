@@ -1,266 +1,387 @@
 <p align="center">
   <h1 align="center">HireKit</h1>
   <p align="center">
-    <strong>면접 가서 "왜 우리 회사?"라는 질문에 자신 있게 답할 수 있게 해주는 CLI</strong>
+    <strong>취업/이직 준비를 위한 AI 기업 분석 & 면접 준비 CLI</strong>
   </p>
   <p align="center">
-    기업 분석. 직무 매칭. 면접 준비.
+    기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요.
   </p>
+</p>
+
+<p align="center">
+  <a href="https://pypi.org/project/hirekit/"><img src="https://img.shields.io/pypi/v/hirekit" alt="PyPI"></a>
+  <a href="https://github.com/zihoshin-dev/hirekit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python"></a>
+  <a href="https://github.com/zihoshin-dev/hirekit"><img src="https://img.shields.io/github/stars/zihoshin-dev/hirekit?style=social" alt="Stars"></a>
+</p>
+
+<p align="center">
+  한국어 | <a href="README.md">English</a>
 </p>
 
 ---
 
-## 왜 필요한가
+## 이런 경험, 있지 않나요?
 
-면접장에 앉았습니다. 면접관이 묻습니다: **"왜 우리 회사에 지원하셨나요?"**
+면접장에 앉았습니다. 면접관이 묻습니다.
 
-당신은 잠깐 멈춥니다. 채용공고와 회사 소개 페이지만 봤거든요.
+> **"왜 우리 회사에 지원하셨나요?"**
 
-**한국 취업 시장 현실:**
-- 면접 탈락 피드백 1위: "회사 분석 부족"
-- 기업 조사에 소비하는 시간: 4-8시간 (DART + 뉴스 + 블라인드 + 잡플래닛 + GitHub + 연봉공시 등)
-- 자료의 위치: 10개 이상의 사이트에 분산됨
-- 현실: 시간도 많이 들고, 자료도 모순됨 ("뉴스는 호황 보도인데 DART는 빚이 늘어남?")
+머릿속이 하얘집니다. 채용공고랑 회사 소개 페이지만 봤거든요.
 
-**HireKit이 해결합니다:** 한 줄의 명령어, 2분의 시간, 8개 데이터 소스, 1개의 의사결정 리포트.
+기업 하나를 제대로 조사하려면:
+- DART 공시 읽기 (재무제표, 직원수, 연봉...)
+- 뉴스 10개 사이트 뒤지기
+- 블라인드, 잡플래닛에서 리뷰 찾기
+- GitHub에서 기술 스택 확인
+- 그리고 이걸 하나로 정리하기
+
+**평균 4-8시간.** 회사 3곳만 준비해도 일주일이 날아갑니다.
+
+## HireKit이 해결합니다
 
 ```bash
-$ hirekit analyze 카카오
-# 2분 뒤: 12섹션 분석 리포트 완성
-# 이제 당신은 확신 있게 답할 수 있습니다.
+pip install hirekit
+hirekit analyze 카카오
 ```
+
+**2분 후**: 8개 소스에서 자동 수집한 데이터로 만든 종합 분석 리포트 + 100점 만점 스코어카드가 나옵니다.
 
 ---
 
-## 어떻게 작동하는가
+## 시작하기
 
-### Step 1: 설치 (30초)
+### 1단계: 설치하기
 
 ```bash
 pip install hirekit
 ```
 
-### Step 2: 설정 (1분, 처음 한 번만)
+> Python 3.11 이상이 필요합니다. 그 외 별도 설치는 없습니다.
+
+### 2단계: API 키 준비하기 (선택사항)
+
+API 키가 **하나도 없어도** 기본 분석이 가능합니다 (Google News + 해외 주요 언론은 키 없이 동작). 더 풍부한 분석을 원하면 아래 무료 키를 발급받으세요:
+
+| 키 | 발급처 | 어떤 데이터를 얻나요? |
+|----|--------|---------------------|
+| DART API 키 | [opendart.fss.or.kr](https://opendart.fss.or.kr/) | 재무제표, 직원수, 평균연봉 (공식 공시) |
+| 네이버 Client ID | [developers.naver.com](https://developers.naver.com/) | 뉴스, 블로그 면접후기, 카페 리뷰 |
+| Brave API 키 | [brave.com/search/api](https://brave.com/search/api/) | 웹+뉴스 시맨틱 검색 |
+| Exa API 키 | [exa.ai](https://exa.ai/) | AI 기반 딥서치 |
+
+### 3단계: 설정하기
 
 ```bash
 hirekit configure
 ```
 
-필요한 것:
-- **DART API 키**: [여기서 신청](https://opendart.fss.or.kr/)
-- **네이버 Client ID**: [네이버 개발자 센터](https://developers.naver.com/)
-
-### Step 3: 분석 (2분)
+이 명령어를 실행하면 `~/.hirekit/` 폴더에 설정 파일이 생깁니다.
+`~/.hirekit/.env` 파일을 열어서 발급받은 키를 넣어주세요:
 
 ```bash
-$ hirekit analyze 카카오
-# 또는 네이버, 쿠팡, 현대차, 삼성전자 등 모든 한국 상장사
+# ~/.hirekit/.env 파일 내용
+DART_API_KEY=여기에_DART_키_붙여넣기
+NAVER_CLIENT_ID=여기에_네이버_ID_붙여넣기
+NAVER_CLIENT_SECRET=여기에_네이버_시크릿_붙여넣기
 ```
 
-**전체 시간: 3분 vs 기존 4-8시간**
-
----
-
-## 뭘 얻게 되나
-
-### 한 개의 점수: 0-100 직무 적합도
-
-```
-82/100 = 강력 추천 (지원하세요)
-75/100 = 경쟁력 있음 (준비하고 지원하세요)
-60/100 = 주의 (리스크 존재 — 면접에서 확인하세요)
-```
-
-### 12섹션 의사결정 리포트
-
-| 섹션 | 면접 준비에서의 역할 |
-|------|------------------|
-| **재무 건강도** | 연봉 인상 가능성, 구조조정 위험 |
-| **기술 스택** | 면접에서 깊이있는 질문 예상, 당신의 강점 파악 |
-| **최근 뉴스** | 회사 방향성, 리더십 변화, 이슈 상황 |
-| **문화 & 팀** | 실제 근무 환경, 야근 문화, 재택 현황 (블라인드 기반) |
-| **경쟁 위치** | 시장에서의 입지, 경쟁 회사와의 차이 |
-| **리스크 플래그** | 주의할 점, 면접에서 물어볼 질문 |
-| **면접 준비 팁** | 이 회사에 맞는 STAR 질문 템플릿 |
-
-### 데이터 검증 기준
-
-- **DART 공시**: 공식 재무 데이터 (신뢰도 100%)
-- **블라인드 평가**: 현직자 45명 이상, 호평률 포함
-- **뉴스**: 최근 6개월, 출처 명시
-- **GitHub**: 기술 깊이 객관적 스코어
-
-충돌 시 명시: *"뉴스는 성장 전망, DART는 부채 증가 — 확인 필요"*
-
----
-
-## 실제 사용 사례
-
-### Before (기존 방식)
-
-```
-월요일 오전 10시: 원티드에서 공고 발견
-→ 월요일 2시간: 뉴스 검색 (5개 사이트)
-→ 월요일 1시간: 블라인드, 잡플래닛 읽기
-→ 화요일 1시간: DART 공시 읽기
-→ 화요일 1시간: GitHub 프로젝트 분석
-→ 화요일 1시간: 면접관 LinkedIn 검색
-
-총 6-8시간 소비
-지원까지 2-3일 소요
-면접 가서도 "잠깐, 이게 뭐였더라?" 하며 버벅거림
-```
-
-### After (HireKit)
-
-```
-월요일 오전 10시: 원티드에서 공고 발견
-→ 같은 시간: hirekit analyze 명령어 실행
-→ 2분 뒤: 12섹션 리포트 받음
-→ 5분간 읽음
-
-총 7분 소비
-즉시 지원 가능
-면접에서 "당신이 저희 기술 스택을 알고 계신가요?" 물으면 자신 있게 대답 가능
-```
-
----
-
-## 빠른 시작
+### 4단계: 기업 분석하기
 
 ```bash
-# 설치
-pip install hirekit
+hirekit analyze 카카오
+```
 
-# 설정 (API 키 입력)
-hirekit configure
+이런 스코어카드가 나옵니다:
 
-# 기업 분석
+```
+                     카카오 Scorecard
+┌─────────────────────┬────────┬────────┬──────────────────┐
+│ 평가 항목           │ 가중치 │  점수  │ 근거             │
+├─────────────────────┼────────┼────────┼──────────────────┤
+│ 직무 적합도         │    30% │  3.5/5 │ 기술 스택 확인됨 │
+│ 경력 레버리지       │    20% │  4.6/5 │ 15개 데이터 수집 │
+│ 성장 가능성         │    20% │  4.5/5 │ 재무+뉴스 확인   │
+│ 보상/복지           │    15% │  3.5/5 │ DART 연봉 데이터 │
+│ 문화 적합도         │    15% │  4.5/5 │ 리뷰+Exa 분석    │
+│ 종합                │        │ 82/100 │ 등급 S           │
+└─────────────────────┴────────┴────────┴──────────────────┘
+```
+
+분석 리포트는 `./reports/카카오_analysis.md` 에 저장됩니다.
+
+---
+
+## 전체 명령어 가이드
+
+HireKit은 취업 준비의 전 과정을 도와주는 7개 명령어를 제공합니다.
+
+### `hirekit analyze` — 기업 분석
+
+```bash
+# 기본 분석 (Markdown 리포트 저장)
 hirekit analyze 카카오
 
-# 사용 가능한 데이터 소스 확인
+# 터미널에서 바로 확인
+hirekit analyze 네이버 -o terminal
+
+# JSON 출력 (다른 도구와 연동할 때)
+hirekit analyze 토스 -o json
+
+# 간단 분석 (핵심 섹션만)
+hirekit analyze 쿠팡 --tier 3
+```
+
+**얻는 것**: 12섹션 구조화 리포트 + 5차원 100점 스코어카드.
+
+### `hirekit match` — 채용공고 매칭
+
+```bash
+# 채용공고 URL을 넣으면 자동으로 파싱합니다
+hirekit match "https://www.wanted.co.kr/wd/12345"
+
+# 텍스트 파일로도 가능합니다
+hirekit match jd.txt
+
+# 내 프로필과 매칭하면 더 정확합니다
+hirekit match jd.txt --profile ~/.hirekit/profile.yaml
+```
+
+**얻는 것**: 매칭 점수(0-100), 내가 부족한 역량(갭), 내 강점, 지원 전략.
+
+### `hirekit interview` — 면접 준비
+
+```bash
+# 기업에 맞는 면접 질문 생성
+hirekit interview 카카오
+
+# 지원 포지션을 지정하면 더 구체적인 질문이 나옵니다
+hirekit interview 카카오 --position "백엔드 개발자"
+
+# 터미널에서 바로 확인
+hirekit interview 네이버 --position PM -o terminal
+```
+
+**얻는 것**: 공통 질문 5개 + 직무 질문 + STAR 답변 프레임 + 역질문 5개.
+
+### `hirekit coverletter` — 자기소개서 작성
+
+```bash
+# 기업에 맞는 자소서 4항목 초안 생성
+hirekit coverletter 카카오 --position PM
+
+# 내 프로필로 맞춤 자소서
+hirekit coverletter 토스 --position PM --profile profile.yaml
+
+# 터미널에서 미리보기
+hirekit coverletter 네이버 -o terminal
+```
+
+**얻는 것**: 4항목 초안 (성장과정, 지원동기, 직무역량/입사후포부, 성격의장단점) + 항목별 피드백 + 점수.
+
+### `hirekit resume` — 이력서 리뷰
+
+```bash
+# 이력서 파일을 분석합니다 (md, txt, pdf 지원)
+hirekit resume 이력서.md
+
+# 특정 채용공고 대비 리뷰 (키워드 갭 분석)
+hirekit resume 이력서.md --jd "https://wanted.co.kr/wd/12345"
+
+# 프로필과 함께
+hirekit resume 이력서.pdf --profile profile.yaml
+```
+
+**얻는 것**: ATS 호환성 체크, 구조 분석, JD 대비 키워드 갭, 콘텐츠 품질 점수, 개선 제안.
+
+### `hirekit sources` — 데이터 소스 확인
+
+```bash
 hirekit sources
 ```
 
----
+어떤 소스가 설정되어 있고 사용 가능한지 한눈에 보여줍니다:
 
-## 다음 단계
-
-기업 분석 후 다음 명령어들을 사용할 수 있습니다:
-
-```bash
-# 회사 비교 (카카오 vs 네이버, 연봉과 성장성 중심)
-$ hirekit compare 카카오 네이버 --focus salary,growth
-
-# 채용공고와 이력서 매칭 (공고에 나온 요구사항 검토)
-$ hirekit match https://wanted.co.kr/job-123 resume.pdf
-
-# 이 회사의 면접 준비 (직무별 STAR 질문 생성)
-$ hirekit interview 카카오 --role backend-engineer
-
-# 이력서 리뷰 (이 회사에 맞춘 이력서 피드백)
-$ hirekit resume review resume.pdf --company 카카오
+```
+                    Data Sources
+┌────────────┬────────┬─────────────────┬────────────────┐
+│ 이름       │ 지역   │ API 키          │ 상태           │
+├────────────┼────────┼─────────────────┼────────────────┤
+│ dart       │ KR     │ DART_API_KEY    │ Ready          │
+│ github     │ GLOBAL │ -               │ Ready          │
+│ google_news│ GLOBAL │ -               │ Ready          │
+│ naver_news │ KR     │ NAVER_CLIENT_ID │ Not configured │
+└────────────┴────────┴─────────────────┴────────────────┘
 ```
 
-👉 **[사용 설명서](docs/tutorial.md)** | **[CLI 명령어](docs/cli-reference.md)** | **[FAQ](docs/faq.md)**
+> "Not configured"로 표시된 소스는 API 키를 설정하면 활성화됩니다.
+
+### `hirekit configure` — 초기 설정
+
+```bash
+hirekit configure
+```
+
+설정 파일(`config.toml`)과 환경변수 파일(`.env`)을 생성합니다.
 
 ---
 
-## 핵심 기능
+## 데이터 소스 (8개 내장)
 
-- **8개 데이터 소스 병렬 수집** — DART 공시, 네이버/구글/Brave/Exa 뉴스, Reuters, 한국 경제 전문지, GitHub 기술 스코어, 글래스도어 리뷰 (모두 동시에 수집)
-- **12섹션 구조화 리포트** — 경영진 요약, 재무 건강, 기술 스택, 뉴스/궤적, 문화, 보상, 성장 가능성, 리스크, 면접 준비, 스코어카드, 유사 회사, 액션 아이템
-- **5차원 가중 스코어카드** — 직무 적합도(30%), 경력 활용(20%), 성장 가능성(20%), 보상(15%), 문화(15%) = 100점 의사결정 점수
-- **LLM 선택 사항** — AI 없이도 작동 (템플릿 모드), OpenAI/Anthropic/Ollama로 분석 강화 가능
-- **플러그인 아키텍처** — 20줄의 Python으로 새 데이터 소스 추가 가능, 핵심 변경 없음
-- **프라이버시 우선** — 모든 데이터 로컬 처리, 클라우드 업로드 없음, 외부 추적 없음
+| 소스 | 지역 | 어떤 데이터? | API 키 | 무료? |
+|------|------|-------------|--------|-------|
+| **DART** | 한국 | 재무제표, 직원수, 평균연봉 (금감원 공시) | `DART_API_KEY` | 무료 |
+| **네이버 뉴스** | 한국 | 최신 뉴스 기사 | `NAVER_CLIENT_ID` | 무료 |
+| **네이버 검색** | 한국 | 블로그 면접후기, 카페 리뷰, 기업문화 정보 | `NAVER_CLIENT_ID` | 무료 |
+| **GitHub** | 글로벌 | 기술 성숙도 스코어 (리포 수, 스타, 언어 다양성) | gh CLI 인증 | 무료 |
+| **구글 뉴스** | 글로벌 | RSS 기반 최신 뉴스 | 키 불필요 | 무료 |
+| **해외 주요 언론** | 글로벌 | Reuters, Bloomberg, FT, WSJ + 한경, 조선비즈 | 키 불필요 | 무료 |
+| **Brave Search** | 글로벌 | 웹 + 뉴스 시맨틱 검색 | `BRAVE_API_KEY` | 무료 티어 |
+| **Exa Search** | 글로벌 | AI 기반 시맨틱 딥서치 | `EXA_API_KEY` | 무료 티어 |
 
----
-
-## 데이터 소스
-
-| 소스 | 지역 | 데이터 종류 | API 키 필요 |
-|------|------|-----------|----------|
-| **DART** | 한국 | 공시 재무, 임원진, 인력 데이터 | `DART_API_KEY` |
-| **네이버 뉴스** | 한국 | 최근 뉴스 기사 | `NAVER_CLIENT_ID` |
-| **네이버 검색** | 한국 | 블로그, 카페, 웹 (문화/면접 정보) | `NAVER_CLIENT_ID` |
-| **GitHub** | 글로벌 | 기술 성숙도 스코어링 | gh CLI |
-| **구글 뉴스** | 글로벌 | RSS 뉴스 (별도 키 없음) | - |
-| **신뢰할 수 있는 뉴스** | 글로벌 | Reuters, Bloomberg, FT, WSJ + 한국 경제지 | - |
-| **Brave Search** | 글로벌 | 웹 + 뉴스 의미론적 검색 | `BRAVE_API_KEY` |
-| **Exa Search** | 글로벌 | AI 의미론적 심층 검색 | `EXA_API_KEY` |
+> API 키가 **하나도 없어도** 구글 뉴스 + 해외 주요 언론 + GitHub (gh CLI 설치 시)는 바로 사용 가능합니다.
 
 ---
 
-## 설정
+## AI 분석 강화 (선택사항)
 
-`~/.hirekit/config.toml`에서 설정합니다:
+HireKit은 AI 없이도 잘 동작합니다 (템플릿 + 규칙 기반 리포트).
+더 깊은 분석을 원하면 AI를 연결해보세요:
+
+```bash
+# OpenAI 사용
+pip install "hirekit[openai]"
+
+# Anthropic Claude 사용
+pip install "hirekit[anthropic]"
+
+# Ollama (로컬 모델, 완전 오프라인, 무료)
+pip install "hirekit[ollama]"
+```
+
+`~/.hirekit/.env`에 키를 추가하고:
+
+```bash
+OPENAI_API_KEY=sk-...
+```
+
+`~/.hirekit/config.toml`에서 활성화합니다:
 
 ```toml
-[analysis]
-default_region = "kr"
-cache_ttl_hours = 168  # 7일
-
 [llm]
-provider = "none"  # openai, anthropic, ollama, none
+provider = "openai"   # "anthropic", "ollama"도 가능
 model = "gpt-4o-mini"
-
-[sources]
-enabled = ["dart", "github", "naver_news"]
-
-[output]
-format = "markdown"
-directory = "./reports"
 ```
 
 ---
 
-## LLM 지원
+## 커리어 프로필 설정 (선택사항)
 
-HireKit은 LLM 없이도 작동합니다 (템플릿 기반 리포트). AI로 분석을 강화하려면:
+`~/.hirekit/profile.yaml` 파일을 만들면 매칭과 면접 준비가 개인화됩니다:
 
-```bash
-# OpenAI
-pip install hirekit[openai]
-# ~/.hirekit/.env에 OPENAI_API_KEY 설정
+```yaml
+name: "홍길동"
+years_of_experience: 5
 
-# Anthropic
-pip install hirekit[anthropic]
+tracks:
+  - name: "Product Manager"
+    priority: 1
 
-# Ollama (로컬 모델)
-pip install hirekit[ollama]
+career_assets:
+  - asset: "결제 시스템 구축"
+    source: "전 직장"
+    applicable_industries: ["핀테크", "이커머스"]
 
-# 또는 litellm (100+ 공급자)
-pip install hirekit[llm]
+skills:
+  technical: ["Python", "SQL", "데이터 분석"]
+  domain: ["결제 시스템", "이커머스"]
+  soft: ["크로스펑셔널 커뮤니케이션"]
+
+preferences:
+  regions: ["kr"]
+  industries: ["핀테크", "플랫폼"]
+  work_style: ["하이브리드"]
 ```
+
+`--profile` 옵션과 함께 사용하면 내 경력에 맞춘 맞춤형 분석을 받을 수 있습니다.
+
+---
+
+## 자주 묻는 질문
+
+**Q: Windows에서도 되나요?**
+A: 네, Python 3.11+ 이 설치되어 있으면 Windows, macOS, Linux 모두 지원합니다.
+
+**Q: API 키 없이도 사용할 수 있나요?**
+A: 네. Google News, 해외 주요 언론, GitHub(gh CLI 설치 시)는 키 없이 동작합니다.
+
+**Q: 분석 결과가 외부로 전송되나요?**
+A: 아니요. 모든 데이터는 로컬에서만 처리됩니다. 외부 서버로 업로드하지 않습니다.
+
+**Q: LLM(AI) 없이 쓰면 리포트 품질이 떨어지나요?**
+A: 데이터 수집과 스코어링은 동일합니다. AI는 수집된 데이터를 종합 해석하는 부분만 강화합니다.
+
+**Q: 어떤 기업을 분석할 수 있나요?**
+A: DART에 등록된 모든 한국 상장사 + 주요 비상장 IT 기업 (토스, 당근, 무신사 등 30+개 사전 매핑).
+
+---
+
+## 커스텀 데이터 소스 만들기
+
+나만의 데이터 소스를 추가하고 싶다면? Python 클래스 하나만 만들면 됩니다:
+
+```python
+from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
+
+@SourceRegistry.register
+class MySource(BaseSource):
+    name = "my_source"
+    region = "global"
+    sections = ["culture"]
+
+    def is_available(self) -> bool:
+        return True
+
+    def collect(self, company, **kwargs):
+        # 여기에 데이터 수집 로직을 작성합니다
+        return [SourceResult(
+            source_name=self.name,
+            section="culture",
+            data={"rating": 4.2},
+            raw="회사 평점: 4.2/5",
+        )]
+```
+
+자세한 내용은 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고해주세요.
 
 ---
 
 ## 로드맵
 
-- [x] **Phase 1**: DART + GitHub + 뉴스 분석, 스코어카드, Markdown 리포트
-- [x] **Phase 2**: JD 매칭 (`hirekit match`), 면접 준비 (`hirekit interview`), 이력서 리뷰 (`hirekit resume`)
-- [ ] **Phase 3**: 미국 기업 (SEC Edgar), 웹 UI, 커뮤니티 플러그인, PyPI 공식 배포
+- [x] **v0.1** — 기업 분석, 스코어카드, 8개 데이터 소스
+- [x] **v0.1** — JD 매칭, 면접 준비, 이력서 리뷰, 자기소개서 코치
+- [ ] **v0.2** — 미국 기업 지원 (SEC Edgar), 리포트 품질 개선
+- [ ] **v0.3** — 웹 UI, 커뮤니티 플러그인, 에이전트 아키텍처
 
 ---
 
 ## 기여하기
 
-기여를 환영합니다! [CONTRIBUTING.md](CONTRIBUTING.md)를 참고해주세요.
+기여를 환영합니다! 시작하기 좋은 작업들:
 
-**좋은 첫 기여:**
-- 새 데이터 소스 플러그인 추가
-- 리포트 템플릿 개선
-- i18n 지원 추가
+- 새로운 데이터 소스 추가 (Glassdoor, LinkedIn, SEC Edgar)
+- 자기소개서 템플릿 개선
+- 일본어/중국어 취업 시장 지원
+- 스코어링 알고리즘 개선
+
+[CONTRIBUTING.md](CONTRIBUTING.md)에서 개발 환경 설정 방법을 확인하세요.
 
 ---
 
 ## 라이선스
 
-MIT License. [LICENSE](LICENSE)를 참고해주세요.
-
----
+MIT License. [LICENSE](LICENSE) 참고.
 
 <p align="center">
-  <sub>모든 취업 준비자를 위해 만든 도구입니다.</sub>
+  <sub>더 나은 도구를 가질 자격이 있는 모든 취업 준비자를 위해 만들었습니다.</sub>
 </p>
