@@ -1,0 +1,612 @@
+{
+  "company": "뤼튼",
+  "sources_used": [
+    "exa_search",
+    "google_news",
+    "dart",
+    "credible_news",
+    "brave_search",
+    "naver_search"
+  ],
+  "result_count": 11,
+  "sections": [
+    "culture",
+    "strategy",
+    "tech",
+    "overview"
+  ],
+  "data": {
+    "company_name": "주식회사 뤼튼테크놀로지스",
+    "company_name_eng": "Wrtn Technologies Inc.",
+    "stock_name": "뤼튼테크놀로지스",
+    "ceo": "이세영",
+    "address": "서울특별시 서초구 서초대로77길 17 1401~1404호, 1408호, 1412~1413호, 1415호 (서초동, BLOCK77)",
+    "industry_code": "58222",
+    "established": "20210413",
+    "homepage": "wrtn.io",
+    "ir_url": "",
+    "stock_code": "",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      },
+      {
+        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+        "link": "https://blog.naver.com/serohero/224199063326",
+        "pub_date": "20260228"
+      },
+      {
+        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+        "link": "https://blog.naver.com/jobpass_/224197697044",
+        "pub_date": "20260227"
+      },
+      {
+        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+        "link": "https://blog.naver.com/study_edu_/224193834977",
+        "pub_date": "20260224"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "'뤼튼'의 생성형 AI에 대한 주황빛 도전 스토리 (feat. GD)",
+        "description": "기술사업화 사업인 ｢초격차 스타트업 1000+ 프로젝트(DIPS 1000... 그런 관점에서 대중적인 AI 서비스를 지향하고 있는 뤼튼의 방향성과... 그 전에 비즈니스적으로 수요처를 먼저 만들어 놓는 게 전략적으로...",
+        "link": "https://blog.naver.com/startupkised/223958325375",
+        "pub_date": ""
+      },
+      {
+        "title": "뤼튼, 맞춤형 AI 사업 본격화…공공·교육·기업 전방위 공략",
+        "description": "뤼튼테크놀로지스가 사내독립기업 ‘뤼튼 AX’를 설립하고 AI 전환 지원에 나섰다. 공공·교육·민간 맞춤형 AI 솔루션 시장 공략이 본격화됐다.",
+        "link": "https://www.tokenpost.kr/news/ai/289913",
+        "pub_date": ""
+      },
+      {
+        "title": "뤼튼테크놀로지스 한국 AI 애플리케이션 개척자의 미래는?",
+        "description": "근본적인 전략 방향 수정을 의미한다. 이는 OpenAI, 구글과 같은... 이러한 상황은 뤼튼에게 전략적 이중성을 부여한다. 투자자들에게는 '모두를 위한 AI 에이전트'라는 거대 비전을 제시하지만, 실제 재무...",
+        "link": "https://blog.naver.com/10senda/223938555209",
+        "pub_date": ""
+      },
+      {
+        "title": "뤼튼테크놀로지스",
+        "description": "뤼튼 이세영 대표는 31일 그랜드 인터컨티넨탈 서울 파르나스 오키드룸에서 열린 기자회견에서 “전세계적으로 생성 AI에 대한 관심이 고조되는 가운데 모두를 위한 AI를 함께 의논하고 방향을 모색하고자 이번 컨퍼런스를 개최하게 됐다”고 개최 배경을 밝혔다. 이 대표 외에도 제성원 CPO, 김재민 LMOps(Language Model Operations) 리드, 김유빈 ML 엔지니어 등도 참석해 80여 명의 국내외...",
+        "link": "https://wrtn.io/news/%EA%B8%80%EB%A1%9C%EB%B2%8C-ai-%EA%B8%B0%EC%97%85-%ED%95%9C-%EC%9E%90%EB%A6%AC%EC%97%90%EB%A4%BC%ED%8A%BC-%EC%95%84%EC%8B%9C%EC%95%84-%EC%B5%9C%EB%8C%80-%EC%83%9D%EC%84%B1ai-%EC%BB%A8/",
+        "pub_date": ""
+      },
+      {
+        "title": "[인터뷰] 뤼튼, “AI는 감정적으로 기댈 수 있는 존재 될 것”",
+        "description": "올해 사업 비전과 신기술을 발표하는 자리를 마련했다. 이날 회사는 AI 서비스의 새로운 버전인 ‘뤼튼 3.0’을 4월말 출시하고 개인 맞춤형... 4천조 회사 CEO가 기술이나 전략에 대한 깊고 빠른 이해를 하고 있다는...",
+        "link": "https://m.newspic.kr/view.html?nid=2025040817332236836",
+        "pub_date": ""
+      },
+      {
+        "title": "뤼튼 &quot;무료전략으로 생활형 AI 시대 열 것…올해 천만 MAU 목표&quot;",
+        "description": "이세영 CEO &quot;1인1 AI 시대 내셔널 챔피언 AI 플랫폼 될 것&quot; 이동재 CPO &quot;개인화· LLM 오케스트레이션으로 경쟁력 확보&quot;",
+        "link": "https://www.news1.kr/it-science/general-it/5746530",
+        "pub_date": ""
+      },
+      {
+        "title": "뤼튼테크놀로지스",
+        "description": "두번째 세션에서는 이세영 뤼튼 대표가 ‘AI 리터러시 교육 로드맵’를 통해 AI 스타트업의 관점에서 앞으로 한국 AI 리터러시 교육이 단계별로 발전해야 할 방향과 비전을 제시했다. 이 대표는 “2000년대 초 정부의 선제적 정보화 정책이 대한민국을 IT 강국으로 이끈 성공적 분기점이었다”며 “AI 격변기는 또 한번의 국가 도약을 가능하게 할 새로운 골든타임”이라고 밝혔다. ...",
+        "link": "https://wrtn.io/news/%EC%9D%B4%EC%84%B8%EC%98%81-%EB%8C%80%ED%91%9C-%EA%B5%AD%ED%9A%8C%EC%97%90%EC%84%9C-ai-%EB%A6%AC%ED%84%B0%EB%9F%AC%EC%8B%9C-%EA%B5%90%EC%9C%A1-%EB%B9%84%EC%A0%84-%EB%B0%9C%ED%91%9C/",
+        "pub_date": ""
+      },
+      {
+        "title": "[ 뤼튼 ]컨설팅 보고서:'사람 중심 AGI'의 시대:대전환과 미래 전략- 부제 : AI 재&quot;정의&quot;, 듀얼 브레인, 문명 전....",
+        "description": "통합 전략을 제시합니다. 뤼튼의 핵심 비전인 &quot;Bring AGI Close to People&quot;을 중심으로, 기존 AI의 재정의 이론, 박종남님이 제시하는 '듀얼 브레인' 생활 실천 이론을 융합하여, AI가 대한민국 사회의 다양한 계층과...",
+        "link": "https://blog.naver.com/nyjnet/223915997089",
+        "pub_date": ""
+      },
+      {
+        "title": "뤼튼은 네이버가 될 수 있을까?",
+        "description": "위한 AI 포털”을 지향하는 만큼 사용자를 유입시키기 위해 이러한 전략... 되는 사업 확장 과정을 거친 것이다. 따라서 뤼튼은 이용자 확보를 위해 다른 생성형 AI 기업이 제공하는 가치와는 차별화된 사용자...",
+        "link": "https://brunch.co.kr/@bitinsight/442",
+        "pub_date": ""
+      },
+      {
+        "title": "뤼튼테크놀로지스, 뤼튼3.0으로 ‘생활형 AI’ 시대 연다",
+        "description": "예정인 뤼튼 3.0를 중심으로 새롭게 나아갈 기업 비전과 사업 방향성을 상세히 소개했다. 먼저 이세영 대표와 이동재 CPO는 &lt;생성형 AI를... 그동안 뤼튼이 주창해온 AI 대중화를 더욱 가속화시키겠다는 전략이...",
+        "link": "http://wrtn.io/%EB%A4%BC%ED%8A%BC%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80%EC%8A%A4-%EB%A4%BC%ED%8A%BC3-0%EC%9C%BC%EB%A1%9C-%EC%83%9D%ED%99%9C%ED%98%95-ai-%EC%8B%9C%EB%8C%80-%EC%97%B0%EB%8B%A4/",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "뤼튼, ‘AX CIC’ 설립… AI 전환 사업 본격 추진 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1yX3NjZWRlRmdxQnpYcXRSTWl3dzNHSFp4QndDbGFDSThFT19FTWRQNEdFc0NTVVlKd01rdkpPUU5ub1dTMkN2Vw?oc=5",
+        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "05화 우수 인재만 영입하면 고성과가 나올까? - 브런치",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9sOHFpZWlnSlRsQjZHZ3pRZlpLSFQ4WktkV3dIR2cxMFBqTUxWUERiS3kxVDM5OWU1MEFNZkNZcDhzOXBQb0E?oc=5",
+        "pub_date": "Thu, 27 Nov 2025 10:25:19 GMT",
+        "source": "브런치"
+      },
+      {
+        "title": "취업 빙하기? 그건 남 얘기…100만원 받고 면접 보러가는 그들 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4eER1YjNvRlN0akNGUXR5WFlyakg1b3JEZTVCczBlRU9hWVVWc1RGWG85dWd1Z21mTjhmaTBvZnRPamxqS0NNR3hPUE1mQjE2Q0I4UFVB?oc=5",
+        "pub_date": "Sat, 13 Dec 2025 08:00:00 GMT",
+        "source": "중앙일보"
+      },
+      {
+        "title": "뤼튼, 기업·교육 등 B2B로 사업 확대...창사 이후 최대 변화 나서 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02Z3U2TDd5Sl9leFMtN3h3b1BJOWNNU01tM0l2RnRKVUgwNlJLZ2xfdV9Ed0puTUUyaFZRSFl6RWRDQ1BaNEtHZUFubTVuVGlZV1dpdUZIRm5RdXhqOWJXdGEwM1M2WVc2UkE?oc=5",
+        "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "뤼튼, 사내독립기업 ‘뤼튼 AX’ 설립… AI 전환 사업 주도 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYjNXdnFaT2RaTGtBUFBYbXdJUW1OeTQwbE9UZlZ5TG9WYVY5NE1jSWRva0dmZS1FUWZ3R1hkTGl0d1dGX1NLZU1FQ0ZnVkZJVFJXMGw3aHBmX2kyU0lLdG9DNi1GNWEzTkNJWjlRZkpXUmNzcjZMb3ItYmptWUFrd19R0gGWAUFVX3lxTE1PVlFvVUNTMVlnU0RPakV3SElTY1YyZWhBRk04RTFtd3JCckhKbUZWN0w1aUhlR1luQ1FSZlBQczZMeWJCaVJRY3Fad0FjdjJkQzF0bEZHSHR1VUY5SG9tUUVVN1FfanBNOVM1TVhMN3hPUndxc00xQ1NJc3IxT1daa0QyZl85dldFZVdOTEFuMGZrVVNpZw?oc=5",
+        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "구글클라우드, 뤼튼과 전략적 AI 파트너십 강화 발표 - itworld.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPSXFDWTlqbjFRVlpMRTVRQ0trSEFtdWJkOWxFdXp3M1RneThNWlgtaHFCeTQtTDA2S0tNT1o3cTJWX2hXcGE1dUVPdzhHNGdvUThfSFlWUjBVZ2RLMXI0amFxSzhsOUxFTDh5SUVsazQ1N3FOM2FIWVJMR016MlBvQ2VrRDZsQnMxb2VTWmRzTm1QQXR5S0t4clA4S3JMQVh6dmUzUkc2LVhGdFBmUHRHS0M0MlpRQkhadXpaM2NUQVhyT1lFaTJhY1hCZjA2cU42TFBRUE5kaC03TlhLMTNfRmF3aUVfd2ZOcTk5eTltQW1XSFdQeS1LdnljaXRobV9nME1OX09lM1d4LV90UkREOEI3R1lxT282bTJHWFlLa0JmblkwQjAxejgwWHBVZlB5MHc3Zk0zdDdTWHpyZS1UN3k2MDVFYmtYc0Z1NzJFQURUVmxZSGc?oc=5",
+        "pub_date": "Mon, 01 Sep 2025 07:00:00 GMT",
+        "source": "itworld.co.kr"
+      },
+      {
+        "title": "“인지도 상승에 올인했다” 뤼튼이 직접 밝힌 ‘GD 광고’ 전략 - 디지털 인사이트 DIGITAL iNSIGHT",
+        "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQSWdpekRYcmdpaFZ3VG5Qd3NyNEdUX1pOZDVkd00xaGtzbGpGNzBOaGNKZWNDWFFwRUhsMXU4NVVVQldUMDhWX1FhUlFuc01xM3Nfb2p5SllYQkRjQW1JemhHUHZ6NFFnWDJ3YlN6bXlGUHJmb244YXFEOEl1MU0zOVUweGVmamVqWlNjbS1WMVNmNnYyMnpUNHVpOEpyeDRYN1NrU002Wm9GenhvWi01dTUxYkxBZVNGSy1tREFZcjFGblRNNU8wVGJSWmk1dWFmbnZiMklkYzFkZDlPN055VjBNem40T042S2hTOWxoWTNWVGo1bG1oemw0NmhSM0Z2S2xGekQ4RnVNcmFzeTI2OGpELVc3Y29vRS1NMg?oc=5",
+        "pub_date": "Wed, 13 Aug 2025 07:00:00 GMT",
+        "source": "디지털 인사이트 DIGITAL iNSIGHT"
+      },
+      {
+        "title": "뤼튼, AX 사업에 본격 진출...사내독립기업 설립 - 포인트데일리",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkNi1pTWJWbGU5UmdReS1XOTNtb3FGX1d5R2xMNlNVYWt4SVVfOU9UYW5aTTY0RDdGeElCelQ1RGptSTU1VzJieHEyX3hWOXprLTExUTBLZGdhX1Axd2IzUkJDYVJuWWNva3J2UjhZVDDSAXRBVV95cUxOLWlLWmNoMm9sa0luOU1DQWVBOTlxbUpFSnJVQjNUMzhZeVF0ZDRGQTBaNzEtMUhrcHdleWsyT1Zna1dvejdOOC1INm5VejM2SUxTaURtcHNkT1g4VmlKTU4zc0xzVlhNWVFMdmFLY0ZfS0ZwNg?oc=5",
+        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+        "source": "포인트데일리"
+      },
+      {
+        "title": "뤼튼, ‘생활형 AI 시대’ 이끌 인재 채용…합격 시 2천만원 지급 - 매일일보",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LMC1uUHJreXZqbE8xT3VTQVl6a2U1SUp3Sk0zQ05HN3AzbFVlU0RNQnY0SXE4MkNyVGVRdmNFcmZhenUxX2ZKQVMxcFhIa0NJMm82Ymt3aFlMM0YtNm9JUlNJUlg?oc=5",
+        "pub_date": "Thu, 24 Apr 2025 07:00:00 GMT",
+        "source": "매일일보"
+      },
+      {
+        "title": "뤼튼, '쿼터백'형 인재채용 나서…최종합격만 해도 2000만원 지급 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfNi1WeU9HOV9jcUFPVW1Ua1VoNGpFYXpqblJTQTRTcVQtS3pZVldKU2N5R1FMaUNLNUNmSm9tN19CbFRMbWZqdU1qNUdDdw?oc=5",
+        "pub_date": "Thu, 24 Apr 2025 07:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "뤼튼, AI 전환 전담 CIC ‘뤼튼 AX’ 출범… “생산성 혁신 본격화” - AI 매터스",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nWDZVM0tJTHNNdWx0aUI5aU16dFdFdzFQMVVEeTFPcktrTEQ2SFdSWHNpX3FPTGRURjBxdGtZRmpBSHhzVWw4NFVJM0NLWDdjMkhzSmR4c3BvVkRkZk5v?oc=5",
+        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+        "source": "AI 매터스"
+      },
+      {
+        "title": "[현장리포트] 'AI 마케팅'의 뜨거운 현장 '모던 그로스 스택(MGS) 2025'... 네이버·구글·뤼튼 등 AI 선도기업 대거 참여 - investnews.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtbHVmbEZyOUpicHRtSHprXzIzcU8yeWx6bDFEa1BhQW9PcGt2Z3dUckR6VjAzMmdrUmx5RjBOakh0OEdjYzZPOTFEamdRYzRsSkdPMkdjdngtaGxoVWVuU1NoZUdzekxhNk9MYTRoRDUxd9IBdkFVX3lxTE5BaWpUWllWQ3hpMFRPZDFyeF9DMFFSSFYxN1hUMFlXbWRkRU85bmZlS3hrMFcxVkl1cjczVW1TZTkwZS1TOUkwVXNMQWFVUHVTZ096UUlXS3dwTHpLY0VtaWZETEhTLWVGVERGV1ZBbDQ5S2JKU3c?oc=5",
+        "pub_date": "Thu, 07 Aug 2025 07:00:00 GMT",
+        "source": "investnews.co.kr"
+      },
+      {
+        "title": "뤼튼의 지드래곤 AI 광고, “진짜 극혐” 반응에도 역대급 성공이라는 이유 🤖🔥 - 뉴닉",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yaWdvUGc4azJXVUFETVpVcTQ0X3g4cDU5STJXd19pdTF0N0NZb0l0c1pQSXJFV3BqN3U1ZEJicXdRS0gzY2RhaDMtSDdoeTZhNlctSGRmOA?oc=5",
+        "pub_date": "Tue, 22 Jul 2025 07:00:00 GMT",
+        "source": "뉴닉"
+      },
+      {
+        "title": "자취감췄던 채용 보상금 돌아왔다…뤼튼, 합격선 넘으면 2000만원 즉시 지급 - 서울경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFbXNyY0FzR29EWUNmS0FRNW9tVEZwTnNXR254Sld3ZnFaOVdfYzZ1eFZUNWo4WkNXczRjNmpxMnhrbllCRUtlMDhLVTBtMURWalHSAVNBVV95cUxPcG1VNFRnY3VMSWE1V0p0TURsdTBoZzJXalFsMzFSZ2RjeC1KVDBnNlFFTEU2TEotSXlwcVhVbGpJcE5JbXBoTEN5MG9hNUpjQjZpMA?oc=5",
+        "pub_date": "Thu, 24 Apr 2025 07:00:00 GMT",
+        "source": "서울경제신문"
+      },
+      {
+        "title": "클래스e, 'AI 시대 질문의 기술, 프롬프트 엔지니어링' 10부작 방송 - 더쎈뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42ZkNYXy1QQzM5QWpkMzNrdFBIanBfYVRPZDR0V1dHUXRJaGlwRWxRQU5NQk1DSEJRNXNPdkcxdTcwT0cxN25MLV9pMzcxUF9ld2ZZN3F5SG02YThUNktjLUIzQTE0T0Vs?oc=5",
+        "pub_date": "Thu, 26 Jun 2025 07:00:00 GMT",
+        "source": "더쎈뉴스"
+      },
+      {
+        "title": "이세영 뤼튼 대표 “올해 매출 1000억 목표…아시아 최대 하이퍼 스케일러 도약” - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UcU5oRXhuUUc5YWtpel9KWlU5NXpUX2tjU3ZTLXRXazVpcFR0R0dBeWVOVGdBc1hWRjJIMUpJbUtsLVk5MU44T21sci1SM2s?oc=5",
+        "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "source": "v.daum.net"
+      },
+      {
+        "title": "비즈한국 - 비즈한국",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4weTRhSDVIdzhmckl2OXBvNVNPZjFJSUw4bzdCU2lNVllYRDNBZUJKZmRBUXNSYjVMM1NYcGtRLXBpbnhwZWtWOG5jUXVIbTA0REhxclZGQlBReGV3?oc=5",
+        "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
+        "source": "비즈한국"
+      },
+      {
+        "title": "이세영 뤼튼 대표 \"지난해 연매출 300억…2030년 하이퍼스케일러 목표\" - MTN 머니투데이방송",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Idk9DTnFpU0VuQjB1TVNLbF9jNUxCRnktQ3RocmQ5Z21lVEhMRDFlRm9OVlU2alQ5YkJrR0RuZW0zTDJRZ2JQMVNieEdwQkZxa0QyblNPRUpTOXZ1MXdCV2dJazQ?oc=5",
+        "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "source": "MTN 머니투데이방송"
+      },
+      {
+        "title": "[도전기업 백서] ‘1인 1 AI 시대’ 뤼튼, 1000억 투자 넘긴 이유 있다 - 한스경제",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wY0piRW9fMGxVdzJraWE0S0VSNHd2U09feVRDemJ4UmNUUUx5b0owdHdsVHVyMVhQX0t4WFJ5TDZ3UHN3b2lMaW5IZkdneXNZWmlJSjR2UGhBWTd4dWNSRzJpVHJZdmdLX1Rz0gFvQVVfeXFMTUhRY2o2bkRpc1JPWFVqdWJSUFFNbl9vMmVGemZ1eG5XeklEeW5NbFY5TEZHblljbUtydXNLTWdpaXBOSkRWQ1FNMlM1Vm1BZjNTVTN1aHVxUHdiZXlsY00xb3llV1ljUW1xRXEzNG1F?oc=5",
+        "pub_date": "Sun, 29 Jun 2025 07:00:00 GMT",
+        "source": "한스경제"
+      },
+      {
+        "title": "이세영 뤼튼테크놀로지스 대표 2030년 100배 확장 목표…아시아 최대 AI 인프라 기업 될 것 - 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3NzRRb0NhTXluZEhwVmJZMEF5c3pMQld4NlNvQkR5T2FWdjVQWC1ZZlhMWTFVWThyLTJDc3BHSGZuWGRFSkx0akRpNkh4bU12a3lOZkV3TXhkQdIBWEFVX3lxTE5CRVBIZjI4ZTZra1JuejRSc1V0bjhBWmc0UDZ3VXNSZEZBdHUxenIwSFdWT05tN01zSFNGOWhLMjJWTmVhOE5UOXg3NmNPTW42QS1HSXR0Wko?oc=5",
+        "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "source": "아주경제"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "뤼튼테크놀로지스 채용",
+        "url": "https://wrtn.career.greetinghr.com/ko/career",
+        "description": "채용 · 부문 · Product · Service Ops · Tech/Engineering · Design · Strategy · Enterprise · Operation · Finance · Content · Marketing · 경력사항 · 경력 · 경력 무관 · 고용형태 · 정규직 · 계약직 · 인턴 · 근무지 · 뤼튼테크놀로지스 ·"
+      },
+      {
+        "title": "뤼튼, 17개 분야 집중 채용…\"합격하면 보너스 2000만원 제공\" - AI타임스",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=169900",
+        "description": "마지막으로 뤼튼 채용 페이지와 기업 유튜브 채널에 공개된 임직원 인터뷰 영상에서는 비전과 조직 문화, 인재상을 확인할 수 있다."
+      },
+      {
+        "title": "뤼튼테크놀로지스 기업정보 - 채용 38건, 평균연봉 5,593만원, 인원 90명, 업력 5년, 서울 서초구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/42204",
+        "description": "뤼튼테크놀로지스 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "채용 절차만 통과, 퇴사해도 2000만원 준다…뤼튼의 파격 인재채용 - 유니콘팩토리",
+        "url": "https://www.unicornfactory.co.kr/article/2025042409235316869",
+        "description": "자체 채용 페이지와 기업 유튜브 채널에 공개된 임직원 인터뷰 영상에서는 최고제품책임자(CPO)와 각 부문 파트장, 엔지니어 등이 직접 들려주는 뤼튼테크놀로지스의 비전과 조직 문화, 인재상 등을 확인할 수 있다."
+      },
+      {
+        "title": "\"입사 안 해도 2천만원\"…뤼튼, AI 인재 영입에 '파격 베팅' - ZDNet korea",
+        "url": "https://zdnet.co.kr/view/?no=20250424101728",
+        "description": "채용 정보 외에도 뤼튼은 기업 유튜브와 공식 채용 페이지를 통해 임직원 인터뷰 영상을 공개했다. 각 부문 파트장과 엔지니어들이 직접 조직 문화와 인재상을 설명해 지원자의 이해를 돕는다."
+      },
+      {
+        "title": "블라인드 | 뤼튼테크놀로지스 기업정보",
+        "url": "https://www.teamblind.com/kr/company/%EB%A4%BC%ED%8A%BC%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80%EC%8A%A4/",
+        "description": "뤼튼테크놀로지스에 대한 연봉 정보를 수집중입니다. 입력된 데이터가 생기면 정보가 노출됩니다. 채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
+      },
+      {
+        "title": "뤼튼테크놀로지스 채용 | [Wrtn] Contents Designer",
+        "url": "https://www.superookie.com/jobs/65bba79d8b129f24ec10167a",
+        "description": "▪️ 주요 업무 뤼튼을 효율적으로 알리고 잠재 고객을 모두 뤼튼의 팬으로 만들기 위해 그로스 마케터, 브랜드 마케터, BX 디자이너, 비디오 콘텐츠 크리에이터 등과 함께 협력합니다. 신규 고객 획득을 위한 디지털 광고 크리에이티브 기획/디자인 · 온라인 이벤트 및 프로모션 페이지 기획/디자인 ... 작은 규모로 빠르게 실험하고 검증하여 스케일 업하는 업무방식에 대한 숙련도가 높은 분 · IT 회사 또는 스타트업에서 마케팅 콘텐츠 디자인 경험을 보유하신 분"
+      },
+      {
+        "title": "뤼튼테크놀로지스 진행 중인 채용정보 총 2건 - 채용 히스토리 통계 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/48663985/recruit",
+        "description": "뤼튼테크놀로지스 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+      },
+      {
+        "title": "\"합격만 하세요... 출근 안해도 2000만원\" 뤼튼, 생활형 AI 시대 `쿼터백 인재` 모집 - 디지털데일리",
+        "url": "https://m.ddaily.co.kr/page/view/2025042410303785112",
+        "description": "이 가운데 뤼튼이 2000만원에 ... 쿼터백 프로젝트는 세부적으로 <strong>▲채용 합격 보상금 ▲직원 추천 인센티브 강화 ▲임직원 인터뷰 영상 공개 등</strong>으로 구성됐다...."
+      },
+      {
+        "title": "뤼튼테크놀로지스(wrtn-technologies) | 채용, 회사소개, 연봉 ...",
+        "url": "https://www.rocketpunch.com/companies/wrtn-technologies",
+        "description": "로그인 후 검색 가능 · 가장 빠른 소식 · 채용 · 새로운 기회 탐색 · 교육 · 부트캠프 · 직무 역량강화 · 메시지함 · 나를 위한 소식 · 허브 · 기업 · 학교 · 사람 모아보기"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "뤼튼테크놀로지스",
+        "url": "https://wrtn.io/en/career/",
+        "text": "뤼튼테크놀로지스\n\nKR\n\nKR EN JP\n\nCompany\n\nService\n\nB2C\n\n뤼튼 크랙 캬라푸\n\nB2B\n\n뤼튼 AX 뤼튼 Labs 뤼튼 Edu\n\nAI Literacy News [Careers](https://wrtn.io/car",
+        "score": 0,
+        "published_date": "2026-02-01T00:00:00.000Z"
+      },
+      {
+        "title": "뤼튼, 6월까지 인재 채용⋯ \"합격시 2천만원 보상\" - 플래텀",
+        "url": "https://platum.kr/archives/258310",
+        "text": "뤼튼, 6월까지 인재 채용⋯ \"합격시 2천만원 보상\" - 플래텀\n\n스타트업\n\n# 뤼튼, 6월까지 인재 채용⋯ “합격시 2천만원 보상”\n\n###### Platum\n\n・\n\n2025.04.24\n\n뤼튼테크놀로지스가 ‘ 쿼터백 프로젝트’로 명명된 인재 채용 계획을 발표했다고 24일 밝혔다. 미식축구 포지션 중 하나인 쿼터백은 팀 득점에서 가장 중요한 핵심 역할을 담당한다.\n\n뤼튼의 ‘쿼터백 프로젝트’는 채용 합격 보상금, 직원 추천 인센티브 강화, 임직원 인터뷰 영상 공개 등으로 구성됐다.\n\n먼저 채용 합격 보상금은 합격 후 실제 근무 여부와 관계없이 뤼튼 정규직 채용 절차를 통과하는 인재에게는 2000만원을 지급하는 제도다. 최종적으로 채용 합격된 지원자가 지원을 포기하거나 이직을 하지 않더라도 보상금 2000만원을 지급한다.\n\n다음으로 직원 추천 인센티브 강화는 사내 직원 대상 제도로 외부 인재 추천·채용 합",
+        "score": 0,
+        "published_date": "2025-04-24T00:00:00.000Z"
+      },
+      {
+        "title": "뤼튼테크놀로지스 채용",
+        "url": "https://wrtn.career.greetinghr.com/ko/career",
+        "text": "뤼튼테크놀로지스 채용\n\n채용\n\n## Job Openings\n\n부문\n\nProduct\n\nService Ops\n\nTech/Engineering\n\nDesign\n\nStrategy\n\nEnterprise\n\nOperation\n\nFinance\n\nContent\n\nMarketing\n\n경력사항\n\n경력\n\n경력 무관\n\n고용형태\n\n정규직\n\n계약직\n\n인턴\n\n근무지\n\n뤼튼테크놀로지스\n\n필터\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n-",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "뤼튼테크놀로지스",
+        "url": "https://wrtn.io/%EB%A4%BC%ED%8A%BC%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80%EC%8A%A4-%EC%83%9D%ED%99%9C%ED%98%95-ai-%EC%8B%9C%EB%8C%80-%EC%9D%B4%EB%81%8C-%EC%BF%BC%ED%84%B0%EB%B0%B1/",
+        "text": "뤼튼테크놀로지스\n\nKR\n\nCompany\n\nService\n\nB2C\n\n뤼튼 크랙 캬라푸\n\nB2B\n\n뤼튼 AX 뤼튼 Labs 뤼튼 Edu\n\nAI Literacy News Careers\n\n# 뤼튼테크놀로지스, ‘생활형 AI 시대’ 이끌 ‘쿼터백’ 인재 찾는다\n\n2025.04.23\n\n– 1,080억원 시리즈B 투자 유치 마무리… ‘쿼터백 프로젝트’로 핵심 인재 채",
+        "score": 0,
+        "published_date": "2025-04-23T00:00:00.000Z"
+      },
+      {
+        "title": "블라인드 | 이직·커리어: 뤼튼 직원들 불쌍함 ㅋㅋ",
+        "url": "https://www.teamblind.com/kr/post/%EB%A4%BC%ED%8A%BC-%EC%A7%81%EC%9B%90%EB%93%A4-%EB%B6%88%EC%8C%8D%ED%95%A8-%E3%85%8B%E3%85%8B-dr2nk2du",
+        "text": "블라인드 | 이직·커리어: 뤼튼 직원들 불쌍함 ㅋㅋ\n\n블라인드 기업서비스\n\n# 채널이직·커리어 · 팔로우\n\n## 뤼튼 직원들 불쌍함 ㅋㅋ\n\n새회사 · l*********\n\n조회수1,175 댓글8\n\n북마크\n\n- 퍼가기\n- 링크복사\n\n메뉴 더보기\n\n애초에 옵션 행사가 이상으로 밸류가 올라갈 일이 없는데모자란 이사진이랑 투자자 위해서인생 녹여서 일하는 거 ㄹㅇ 불쌍 ㅋㅋㅋ그 시간에 일하는 척 하면서 니네꺼 만들어 ㅋㅋ권고사직도 이미 한 번 한 적 있는데맘에 안들면 언제든지 잘릴 수 있는데열심히 일해봤자 잘릴껄? ㅋㅋ\n\n### tag\n\nIT 라운지 [커머스 라운지](https://www.teamblind.com/kr/mention/%EC%BB%A4%EB%A8%B8%",
+        "score": 0,
+        "published_date": "2025-07-17T00:00:00.000Z"
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "뤼튼 이세영 대표 \"올해 매출 1000억원 목표...아시아 '하이퍼스케일러' 도전\" - 파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202601221022250354",
+        "text": "뤼튼 이세영 대표 \"올해 매출 1000억원 목표...아시아 '하이퍼스케일러' 도전\" - 파이낸셜뉴스 --\n\n공유하기 공유\n\n내용 요약 요약 네이버 구독 구독 다음 구독독 구독\n\n본문 요약\n\n뤼튼 이세영 대표 \"올해 매출 1000억원 목표...아시아 '하이퍼스케일러' 도전\"\n\n이세영 뤼튼테크놀로지스 대표는 지난 21일 일본 도쿄에서 열린 '한·일 AI 스타트업 밋업데이' 이후 기자들과 만나 이같이 말했다.뤼튼은 생성형 AI 서비스를 넘어, 기업의 업무 전반을 AI 중심으로 재설계하는 AX를 핵심 성장 동력으로 보고 있다.이 대표는 \"AI 전환은 단순히 도구를 도입하는 문제가 아니라, 일의 방식 자체를 바꾸는 과정\"이라며 \"기업이 실제로 생산성과 경쟁력을 얻으려면, 업무 구조와 조직 운영까지 함께 바뀌어야 한다\"고 말했다.\n\n해당 요약은 자동화된 기술로 생성되었으며, 일부 핵심 내용이 생략되었을 수 있습니다. 정확한 정보 파악을 위해 전체 본문을 확인하시길 권장합니다. (제공 = 파이낸",
+        "score": 0,
+        "published_date": "2026-01-22T00:00:00.000Z"
+      },
+      {
+        "title": "뤼튼, 전년 대비 매출 3배 도전장… AI 스타트업에서 하이퍼스케일러로 < AI·XR < 뉴스 < 뉴스 < 기사본문 - KMJ",
+        "url": "https://www.kmjournal.net/news/articleView.html?idxno=7691",
+        "text": "뤼튼, 전년 대비 매출 3배 도전장… AI 스타트업에서 하이퍼스케일러로 --\n\nNEW\n\n## Samsung Electronics Ships World’s First HBM4, Redefining the Future of AI Memory\n\n## 삼성전자, 세계 최초 HBM4 양산 출하…AI 메모리 판도 바꾼다\n\n## SM엔터 버추얼 아이돌 유즈키 세라, ‘BLINK’ 녹음 직전 연습 영상 공개\n\n## [마이스] 공공 IT 시장의 결정적 순간… ‘제27회 공공솔루션마켓’ 2월 27일 코엑스 개최\n\n## 버추얼 아이돌 유아렐(UR:L), ‘Again’ Lyric Video 공개…감성 서사로 확장된 세계관\n\n## ByteDance’s Seedance 2.0 Shakes the AI Video Industry, Surpasses OpenAI Sora and Google Veo\n\n## OpenAI Keeps “Code Red” Active as 1,000 Staff Gather in San ",
+        "score": 0,
+        "published_date": "2026-01-23T00:00:00.000Z"
+      },
+      {
+        "title": "[K-AI 이노베이터②] 뤼튼 \"B2C에서 B2B까지 '일하는 AI' 기준 제시하겠다\"",
+        "url": "http://www.inews24.com/view/wrlted/1925963",
+        "text": "[K-AI 이노베이터②] 뤼튼 \"B2C에서 B2B까지 '일하는 AI' 기준 제시하겠다\"\n\n---\n\n## 박민준 뤼튼 공동창업자 겸 뤼튼AX 대표 \"오케스트레이션으로 효율·성능↑\" \"과감한 무료화로 사용자 확보…운영 역량·한국특화 데이터로 기업AX 진출\" \"AX 연매출 100억 목표...2030년까지 AI 엔드투엔드 '하이퍼스케일러' 도전\"\n\n인공지능(AI)이 '기술 성과'를 넘어 '산업 혁신'을 이끄는 시대에 K-AI 혁신의 주역들을 만나본다. 태생부터 AI 혁신을 목표로 한 'K-AI 이노베이터'다. 이들의 기술 혁신과 미래 비전을 심층적으로 살펴봄으로써 대한민국 AI 산업이 나아갈 방향을 제시한다.[편집자]\n\n[아이뉴스24 윤소진 기자] 생성형 AI 시장이 폭발적으로 성장하고 있지만 사용자 경험과 기업 가치를 동시에 입증한 사례는 손에 꼽힌다. 국내 AI 서비스 가운데 독보적인 사용자 규모, 최신 AI 모델의 가장 빠른 도입, 그리고 뤼튼AX 출범까지. 뤼튼테크놀로지스(뤼튼)는 ",
+        "score": 0,
+        "published_date": "2026-01-09T00:00:00.000Z"
+      },
+      {
+        "title": "[혁신성장기업]뤼튼, AI 전국민 삶 확장 목표 - 아시아투데이",
+        "url": "https://www.asiatoday.co.kr/kn/view.php?key=20251231010016206",
+        "text": "[혁신성장기업]뤼튼, AI 전국민 삶 확장 목표 - 아시아투데이 --\n\n- 인스타그램\n\n### 오피니언\n\n사설\n\n칼럼·기고\n\n기자의 눈\n\n피플\n\n### 정치\n\n정치일반\n\n[청와대](https://www.asiatoday.co.kr/kn/section_list.php?d",
+        "score": 0,
+        "published_date": "2026-01-04T00:00:00.000Z"
+      },
+      {
+        "title": "이세영 뤼튼 대표 \"지난해 연매출 300억…2030년 하이퍼스케일러 목표\"",
+        "url": "https://news.mtn.co.kr/news-detail/2026012209130435731",
+        "text": "이세영 뤼튼 대표 \"지난해 연매출 300억…2030년 하이퍼스케일러 목표\"\n\n사이드메뉴 닫기\n\n- naver 버튼\n- kakao 버튼\n- youtube 버튼\n\nSEARCH\n\nMTN 머니투데이방송다음뉴스 채널구독\n\n채널구독\n\n---\n\n| 이세영 뤼튼테크놀로지스 대표가 지난 20일 도쿄 시부야 인근에서 기자들과 만나 사업 계획을 설명하고 있다. /사진=뤼튼테크놀로지스 |\n| --- |\n\n국내 인공지능(AI) 플랫폼 기업 뤼튼테크놀로지스(이하 뤼튼)의 지난해 연매출이 300억원을 웃돌 전망이다. AI 스타트업 다수가 아직 수익 모델 검증 단계에 머물러 있는 상황인 가운데, 수백억원대 매출 발생은 국내에서도 이례적인 사례로 평가된다.\n\n뤼튼은 오는 2030년 아시아 최대 하이퍼스케일러를 목표로 한 단계 더 ",
+        "score": 0,
+        "published_date": "2026-01-22T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "뤼튼테크놀로지스",
+        "url": "https://wrtn.io/blog/",
+        "text": "뤼튼테크놀로지스\n\nKR\n\nKR EN JP\n\nCompany\n\nService\n\nB2C\n\n뤼튼 크랙 캬라푸\n\nB2B\n\n뤼튼 AX 뤼튼 Labs 뤼튼 Edu\n\nAI Literacy News Careers\n\nScroll Down\n\n## 주요 소식\n",
+        "score": 0,
+        "published_date": "2026-02-01T00:00:00.000Z"
+      },
+      {
+        "title": "뤼튼테크놀로지스",
+        "url": "https://wrtn.io/tag/api-gateway/",
+        "text": "뤼튼테크놀로지스\n\nKR\n\nCompany\n\nService\n\nB2C\n\n뤼튼 크랙 캬라푸\n\nB2B\n\n뤼튼 AX 뤼튼 Labs 뤼튼 Edu\n\nAI Literacy News Careers\n\n## 주요 소식\n\n보도자료\n\n### 이세영 대표, 국회에서 AI 리터러시 교육 비전 발표\n\n2025.11.10\n\n### 박민준 뤼튼AX 대표 \"AI 전환 실패 기업 러브콜…생산",
+        "score": 0,
+        "published_date": "2026-02-01T00:00:00.000Z"
+      },
+      {
+        "title": "뤼튼테크놀로지스",
+        "url": "https://wrtn.io/en/2023/11/11/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C/",
+        "text": "뤼튼테크놀로지스\n\nKR\n\nKR EN JP\n\nCompany\n\nService\n\nB2C\n\n뤼튼 크랙 캬라푸\n\nB2B\n\n뤼튼 AX 뤼튼 Labs 뤼튼 Edu\n\nAI Literacy News Careers\n\nScroll Down\n\n## 주요 소식\n",
+        "score": 0,
+        "published_date": "2026-02-01T00:00:00.000Z"
+      },
+      {
+        "title": "뤼튼테크놀로지스",
+        "url": "https://wrtn.io/news/%eb%a4%bc%ed%8a%bcax-ai-%ec%a0%84%ed%99%98-%ec%8b%a4%ec%a0%9c-%ec%84%b1%ea%b3%bc-%eb%b6%84%ec%84%9d%ed%95%9c-ax-%eb%a6%ac%ed%8f%ac%ed%8a%b8-%eb%b0%9c%ea%b0%84/",
+        "text": "뤼튼테크놀로지스\n\n\n\nKR\n\nKR EN JP\n\nCompany\n\nService\n\nB2C\n\n뤼튼 크랙 캬라푸\n\nB2B\n\n뤼튼 AX [뤼튼 Labs](https://github.c",
+        "score": 0,
+        "published_date": "2025-10-14T00:00:00.000Z"
+      },
+      {
+        "title": "뤼튼테크놀로지스",
+        "url": "https://wrtn.io/%EB%A4%BC%ED%8A%BC%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80%EC%8A%A4-%EB%A4%BC%ED%8A%BC3-0%EC%9C%BC%EB%A1%9C-%EC%83%9D%ED%99%9C%ED%98%95-ai-%EC%8B%9C%EB%8C%80-%EC%97%B0%EB%8B%A4/",
+        "text": "뤼튼테크놀로지스\n\nKR\n\nKR EN JP\n\nCompany\n\nService\n\nB2C\n\n뤼튼 크랙 캬라푸\n\nB2B\n\n뤼튼 AX [뤼튼 Labs](https://github.",
+        "score": 0,
+        "published_date": "2025-04-08T00:00:00.000Z"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "박수빈 77 페이지 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wVTljc1g2UW5POTZpZ0tQczR6c3pZa1JnX21RNzA3eTBXLWtoa2lZZjgtWmI2MEtEZEUyQ3hCWF82Rml4WjZXWFNnNkx2Zy14eV9aZk1FLVB2Zw?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 07:45:09 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "LG유플, 스타트업 뤼튼과 'AI 에이전트 활성화' 제휴 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xTkdFUWdvOTlSRmdTUjVSRlhoTVB2OUZTSkQ5WXp4dExieUhDOVo5THU0STU1akVkMUdGMmhEbkxlT3d4TFJmRGp6T2xMOXV3WkstNnRRMHlFd9IBVEFVX3lxTE9xWExtX3Flc2dZekp3WDNGUkJMUXQwXzZUSzF1elBnQkdYTEhELWFRaXI0Mmt3RVVkVzBHU01MUVBjMUlIQi02ZTFSWHFpS3N3aEdWag?oc=5",
+        "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "\"진짜 지드래곤 맞아요?\" 관심 폭발하더니…'대박' 터졌다 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZDFrSGxBdVNmdlVpUm1rVm0tVlBpZnZWS3duME53OER4Z3N6UTBfUDY2WFZqMnVOaXRKc0NlYlllbGdQeThxQm5rNUNzSjRMY1VqTGx6c1pTS25tWVY5aHpBdEYtVlVLWENiYjgzQ3EyVEdrUUx6dXlxRnF0RU1aVk9MbnNhSkU?oc=5",
+        "pub_date": "Tue, 29 Jul 2025 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "네이버·뤼튼·카카오, 소상공인 대상 AI 실무 교육 연다 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlVkX0lZYS14Z3Z3R2F2WEd0MU1HdWNoLUJGQUJnTlhUcVdzX0lLNThrbDRyWlpsckpfNldQaHNVN3VRV0c4emxfUTR4ektfUllSTHlGS3F0cGNOWVhYTEF5dl81dzF4TGcteGpZWGdNN1oxaUZTb2hvZmVwQ09LY3p4bzdVeFpIVno2N1hXQkbSAaQBQVVfeXFMUGNOUnVTOWNqZlo3cncxVWlBNHJacTJsM0wtR00yOXVZUUxaaDB0WjdhR2ZSMFp3eE9UZFNiY0tESUpNR2VUaWdEMEV4MDVZYXBWTkZ6dXVkV3BTT0NHLTQ1S3FJNlp1dmdITElVTHN3V1VpdGhrMDlCbXR3cWN1SlNDbENfN1FIeFZGSFR1ZFM1akZWZkE3dk5rNlhKUHF6NTVCVmI?oc=5",
+        "pub_date": "Sun, 09 Nov 2025 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "AI 스타트업 뤼튼, 150억원 규모 시리즈A 투자유치 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOam5yaTZES3MxeTZ5RWZ4YWdRTENsVFV0QlV0M3BscE54M3p4MjFORnJJWjJoMElkTzR3dGlwWGQ1QjA3MHFLMUw0N2V5cS05RU5jMDN6cElmdldhZENyRUNMeXlrMUh2QXNtSDdFQzF1VmVVS1N4U1piSnI0Rmt5d243dXLSAZgBQVVfeXFMT2QtMThkN1hsVl9CaERWTV8zWHdHTjFmVFJjRlROX3Y4cklDbUhaX0Z1YWdjYzJTY2JObXpaczB5ME5tWk5nRmpfUGZ1RWZDM0NLNld4OXhNRldrSG16M0N6a3BKNFFXeW1BWVpMb2hhUXU4ZHZPeGUzQnpRMW9mck1QV3U5ZHBVY2lXWmVGY2xXaFhYaGR0MHc?oc=5",
+        "pub_date": "Fri, 16 Jun 2023 07:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "뤼튼 찾은 중기부...AI 스타트업들 “오픈이노베이션 강화해 달라” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdWlCZXM0cElQbm5YU0gzT3RVMG9CQWhvTFF3ZDlINmpDVm9sUUhCYzJFTXZzZ2xJbnNGNHUzdjl1SDlvM1JhMHBaM09rcVMyM1h6cmJKbFpRNTh3cmZaeHZabS1iUzdVXzRZOF9fb25qMGt2ZTRwQWF6NXhidXpHSDJwY3hFZnhLUU5WTW9ib0zSAaQBQVVfeXFMTzhHLTdFOHRmQXJaMFM0R092M2czOWpqNzhOUi14Q1FiaEF3WWlHeXB5Qnp3NzdMVGduQTRpeUZlLTFGbFNoU1ZhVTg1M01FamFFZ1dVajdDRFI3MWd6SkRPbWFWQzZfWDBCYnZhYkFyemgzSXJmemlPRF9OTmdiS01JbzdRai0yQ1pmS0ZVam1OQ3drS19yVkZPZVB2cDdhMDNrSXE?oc=5",
+        "pub_date": "Wed, 01 Oct 2025 07:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "AI發 데카콘 등장 이어질 것…초대형 펀드 만들어 기업 키우자 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB3eW5kZjJFdzltdDNTRENhY0V1VENMTVBPMmZiRXhEb1h6UXE0TGhqZnZrZkhJektPcXoxLVl0dGtVeHhJdVE?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:25:18 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "“그것 참 신기하네” 이렇게 시작해서 결국 ‘카드 결제’…5명 중 1명 돈내고 쓴다 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82ZngzNjduOWxFcE9EZW8wTDVqQmRLOU5jNThxTFVPMjJyOGoxQXVoV0xpSVZFczNtdmRMNnc3bmluWVBSeUE3TDBhYUZ6dUJVNlQ4MnZn?oc=5",
+        "pub_date": "Sat, 21 Mar 2026 09:27:33 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "대학생 창업 때 휴학 기간 늘려줘야…폐업·자퇴로 몰리면 안돼 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1lRFBfR0dhS1V5QzV1Y3FrVTVZc05IUkE2bGpjR29KRUQ5czlubWYybWtUdUVHS3B3YjJxT2F3M3E2OEZBMUtFMHNObjg0Zw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:25:18 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "구글 출신 이해민, AI 스타트업 청년들과 만났다…\"기술은 정쟁 아닌 미래 경쟁력\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QQWFsZ1FyWm5kcUJFelUwWEtuSGoxcF9hZElxamxtVHgwVFg3OFNseFJ4U0hMRzhocEVIVHlQS2EwaXNCYzQ4RDVxVWYtMUxoMHJja21B?oc=5",
+        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "한국어 잘 하는 생성 AI '뤼튼', 무제한 서비스 도입 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCeVVLQ1NEalAwcFNrajZzRXZ0QmV2UW93eUxFWjNWcS0zcjIwTmRYZ0FCdU1jV2lGRlZCUG1YdjRRUHpxN3F4eE05YlNwZXAwcmdLYkxR?oc=5",
+        "pub_date": "Thu, 16 Feb 2023 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "뤼튼, AI 수익화 '시동'…캐릭터 챗·광고 플랫폼으로 성장 '가속' - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54RzJMdkdsWDBHVDZHeWs0cEUxNHVVbGZQUjhDeTd6QjZnYU1pSk52R1hrRHAyTm16T3lQLXJ6UV9SSHNEQ21ZS2tFZjg4N1RyNHBHQlhn?oc=5",
+        "pub_date": "Tue, 03 Dec 2024 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "갤럭시코퍼레이션·뤼튼·업스테이지, MS 사티아 나델라 만난다 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwTjJRMV95NE9xQW50aHNiSDNkQ3VDcWZuaWVzcDRaam95OUExc1BhV3l2MnU4TXRveUlEdDZ0R2xiUk1NZVVldjViWEx3cjlVaUI0N3VmOHBmMlNQU29SRTZqSENQWkIw0gFsQVVfeXFMTmJMcDl4VzdoS3NJdlp3UEhKc051MjJCbnFmR0ZUTTUzT2FtMVlmZ093YTlWejVsNXB1d1dyYnI3NUNZbDZ0WWk0UFZvRXVkX2l5SXJZUDZyTmg5TDZZRjZnNVhHU0RHNEgxT0dN?oc=5",
+        "pub_date": "Tue, 25 Mar 2025 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "뤼튼, 서비스 전면 무료화 선언 '수익화' 전략은? [넘버스] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYanlYQ2FPaVFWNDhlQW5MTG9LOElJaVloUkFJWnBKS2hRbFJoQVhZYjRUUFJTc0oySTFhT3lyejZ4NnBkZVdGY05OOV8tcU80ZVlWOXN6TTR1TW9BRkx6UVowX2FwaDNR0gFsQVVfeXFMTVgxY0NkbmVRVXpnaWYzODFVZVAybmNzWVA0d2lETmNvUjFNLUt5Vmd2b3NiaUE1MVp5VWo3OEZiaE56RTFyMlVQNlg1UHlfeWl3QjVEcldCMVd3ZFhmNmIxRlNyUmJUYzkzd2Fs?oc=5",
+        "pub_date": "Fri, 22 Dec 2023 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[한국의 AI] '풀스택' LG, 제조·통신·금융으로 AI 확산한다 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtWU9vaHkxd1ZqRm9rQ0J4SUZQMjBQblUzQ3NCM0RjY0tVV0J0MlZwaHJ5UTR6VXROVzlNNXV1R0RwVC10LXpjenN3ZnY0VUdMY3IzWHpTTTRlYUJXMlBtcFBRWjBqN0tr0gFsQVVfeXFMTlZFWU1hU1djWkdBZ0xUWWkzeEdUdVRSN3E1YXNfVlRZUlZyY2FrdDlmRXZWdTRlTGJoQTZjVXRPeHJ3c1NfUERqSkRxUmsxT3ZzbmIxVk1ST251UzRQNDFyRXFTX0VweVJvTVlX?oc=5",
+        "pub_date": "Mon, 11 Aug 2025 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "뤼튼 “생성AI, 제품화 속도 중요…재스퍼 70% 따라잡아” - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNZnJobWFzbUtYc3ZuM1BhV0VyTHM3NUlKWTltcEN1NlAzS3Bnb1Z5WDlMeEtRbnRfWVJzdVlCaEhWWnpRQTB1UUlmN0pkM3hmZ2xETmJWRG8tXzlhTVMyYWlYalN5dkJSWVFPRnFDQnBnaVVONi0wbUt1cWtqdDZ2NGM3dXZkYkhScnZVenNlQ3ZINkRZRzBLMlZQSUNyRDgtUHBkaWxYMUFMX25ZSnBEczRyYjBRNFdNU1BuZllXbzQxaTlPNi1zaUE2R1B6WTBaa0tDWjN3dUt6SlFtaWFYOTBlU1MtWlZDM1BGTWtHOVlCcG4wVzRaNGE1aDRab2R0SDBBQm4zajAySWNLbkozQ1RRcWdzbndOLUoyN1BnUy1EaVpQd0tMcDJQeXc?oc=5",
+        "pub_date": "Tue, 31 Jan 2023 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "‘4개월 만에 20억 단어’ 생성 AI 뤼튼, 무제한 요금제 출시 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14a1k3RmJnVnVub3ljUVNmQ2hQcU45ZUV5RVRSRE83ckRVR21ZWl9RQ3VKbkozVXFpUElLYWxBZDVMTko3TWxVZF9MVzl2Zlk?oc=5",
+        "pub_date": "Thu, 16 Feb 2023 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "뤼튼, ’최대 1억 연봉‘ AI와 대화할 사람 뽑아요 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBta2kyOU12aDd1b0tWOHBfdWFHZ2N2bV9fOFZrdTMtYkhuM0w5RS1oRHhfQlNPRjI1LVZibkV0R1ZHWW5tLTU3UnQ1d05PX1U?oc=5",
+        "pub_date": "Wed, 15 Mar 2023 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

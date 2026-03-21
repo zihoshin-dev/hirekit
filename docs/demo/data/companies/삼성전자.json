@@ -1,0 +1,991 @@
+{
+  "company": "삼성전자",
+  "sources_used": [
+    "exa_search",
+    "naver_search",
+    "brave_search",
+    "google_news",
+    "dart",
+    "credible_news",
+    "naver_news"
+  ],
+  "result_count": 15,
+  "sections": [
+    "culture",
+    "strategy",
+    "tech",
+    "financials",
+    "overview"
+  ],
+  "raw_snippets": [
+    {
+      "source": "naver_news",
+      "section": "overview",
+      "preview": "[머스크, 태극기와 함께 한국 반도체 인재 공개 구인 나서(종합)] 그는 앞서 15일 게시된 테슬라 한국 계정의 &quot;We're hiring AI chip design engineers in Korea&quot;라는 채용 공고를... 테슬라의 AI 반도체 일부는 미국 텍사스의 삼성 파운드리 공정을 통해 생산된다. 테슬라는 지난해 삼성전자와... \n\n["
+    },
+    {
+      "source": "dart",
+      "section": "overview",
+      "preview": "회사명: 삼성전자(주) (SAMSUNG ELECTRONICS CO,.LTD)\n대표이사: 전영현, 노태문\n설립일: 19690113\n주소: 경기도 수원시 영통구  삼성로 129 (매탄동)\n홈페이지: www.samsung.com/sec\n종목코드: 005930\n업종코드: 264"
+    },
+    {
+      "source": "dart",
+      "section": "overview",
+      "preview": "[직원 현황]\n  DX 남: 정규직 37,787명, 평균근속       17.4년, 총급여 -백만원\n  DX 여: 정규직 12,588명, 평균근속       14.4년, 총급여 -백만원\n  DS 남: 정규직 56,013명, 평균근속       11.7년, 총급여 -백만원\n  DS 여: 정규직 21,883명, 평균근속       12.1년, 총급여 -백만원\n"
+    },
+    {
+      "source": "dart",
+      "section": "financials",
+      "preview": "[주요 재무지표]\n  자산총계: 당기 358902051000000 / 전기 324966127000000 / 전전기 296857289000000\n  자본총계: 당기 254330083000000 / 전기 236396657000000 / 전전기 224787774000000\n  부채총계: 당기 104571968000000 / 전기 88569470000000 / 전"
+    },
+    {
+      "source": "naver_search",
+      "section": "culture",
+      "preview": "[블로그] 빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨\n맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... \n\n[블로그] 이도해 : 본전을 돌려주마\n날마다 기업회계 연구하는 회계학 교수들이"
+    }
+  ],
+  "data": {
+    "recent_news": [
+      {
+        "title": "머스크, 태극기와 함께 한국 반도체 인재 공개 구인 나서(종합)",
+        "description": "그는 앞서 15일 게시된 테슬라 한국 계정의 &quot;We're hiring AI chip design engineers in Korea&quot;라는 채용 공고를... 테슬라의 AI 반도체 일부는 미국 텍사스의 삼성 파운드리 공정을 통해 생산된다. 테슬라는 지난해 삼성전자와... ",
+        "link": "https://view.asiae.co.kr/article/2026021810492448853",
+        "pub_date": "Wed, 18 Feb 2026 10:49:00 +0900"
+      },
+      {
+        "title": "[데스크칼럼] 이방인 리더십",
+        "description": "삼성전자는 사업지원실을 격상시키고 글로벌 석학에 기술 싱크탱크를 맡겼다.... 20대 AI 연구자를 시니어 엔지니어로 채용했다. 팔란티어는 ‘대학이 망가졌다’며... ",
+        "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202511250955589800072",
+        "pub_date": "Tue, 25 Nov 2025 10:02:00 +0900"
+      },
+      {
+        "title": "[기고] 인공지능과 함께하는 시대, 데이터 사업화 현황 및 전망",
+        "description": "전 삼성전자, LG전자 연구소 책임연구원 [아이티데일리] 이세돌과 알파고(AlphaGo)의 바둑 대국 이후, 인공지능(AI) 기술은 단순한 패턴 학습을 넘어 인간과 협업하고 지원하는 역할로 발전해 왔다. 이러한 AI 기술의... ",
+        "link": "http://www.itdaily.kr/news/articleView.html?idxno=236032",
+        "pub_date": "Fri, 31 Oct 2025 20:14:00 +0900"
+      },
+      {
+        "title": "[Who Is ?] 최시영 삼성전자 파운드리 사업부장 사장",
+        "description": "파운드리 전략을 공개했다. 최시영은 이번 행사 기조연설에서 &quot;삼성전자는 AI 반도체에 최적화된... 열린 '삼성 파운드리 &amp; 세이프 포럼'에서 기조연설을 하고 있다. &lt;연합뉴스&gt; △2023년 삼성전자 실적 부진... ",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=366242",
+        "pub_date": "Fri, 20 Sep 2024 08:38:00 +0900"
+      },
+      {
+        "title": "[김대호 진단] AI 반도체 기업 열전 ⑥ 마이크론(MICRON)… SK하이닉스 &quot;...",
+        "description": "HBM을 채용한 최초 장치는 AMD의 피지 GPU이다. 고대역 메모리 HBM은 JEDEC에 의해 2013년 10월... 삼성전자는 인공지능(AI) 서비스 고도화로 데이터 처리량이 급증하는 상황 속에 AI 플랫폼을... ",
+        "link": "http://www.g-enews.com/ko-kr/news/article/news_all/2024022810332145214a01bf698f_1/article.html",
+        "pub_date": "Thu, 29 Feb 2024 12:46:00 +0900"
+      },
+      {
+        "title": "[Who Is ?] 최시영 삼성전자 파운드리 사업부장 사장",
+        "description": "전략적 의미가 있다. 2021년 11월 삼성전자는 미국 테일러시에서 170억 달러(20조 원) 규모의 파운드리 투자를 진행하겠다고 밝혔다. 신규 라인은 첨단 파운드리 공정을 적용해 5G, 하이퍼포먼스 컴퓨팅(HPC), 인공지능(AI)... ",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=324432",
+        "pub_date": "Wed, 16 Aug 2023 08:36:00 +0900"
+      },
+      {
+        "title": "[Who Is ?] 최시영 삼성전자 파운드리사업부장 사장",
+        "description": "삼성전자 시스템LSI와 파운드리 실적. △파운드리 사업 공격적 투자 삼성전자는 글로벌 파운드리 사업... 이상의 전략적 의미가 있다. 2021년 11월 삼성전자는 미국 테일러시에서 170억 달러(20조 원) 규모의 파운드리... ",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=291403",
+        "pub_date": "Wed, 31 Aug 2022 08:36:00 +0900"
+      },
+      {
+        "title": "태극기 휘날리며~ 차량용반도체 독립 서두르는 현대차그룹",
+        "description": "그런데 현대모비스는 지난달 2분기 실적 발표 콘퍼런스콜에서 차량용 반도체 자체 개발과 생산을 추진하고... 현대모비스 자체 개발·생산 or 삼성전자와 협업 저울질 현대차그룹은 전기차용 전력 반도체를 비롯해... ",
+        "link": "http://weekly.hankooki.com/news/articleView.html?idxno=7073827",
+        "pub_date": "Mon, 15 Aug 2022 08:06:00 +0900"
+      },
+      {
+        "title": "[핀테크핫이슈] 금융권의 역습...각종 IT 서비스 전면 배치",
+        "description": "신한은행은 삼성전자와 차세대 인공지능(AI) 서비스 개발 협력 및 공동 비즈니스 발굴을 위해 전략적... 이용 실적 확대 등의 영향으로 분기 기준 첫 흑자를 기록했다. ㆍ카카오뱅크 3분기까지 순익 859억...비이자부문... ",
+        "link": "http://www.digitaltoday.co.kr/news/articleView.html?idxno=252566",
+        "pub_date": "Tue, 10 Nov 2020 08:03:00 +0900"
+      },
+      {
+        "title": "[취업에 강한 신문 한경 JOB] 블라인드 채용 뜨고 사시 막내리고… AI인...",
+        "description": "경영실적을 거둔 삼성전자가 상·하반기에 사상 최대 규모의 반도체 인력을 채용했다. SK하이닉스도 올... (10) 일본 등 해외취업 열풍 3월24일 서울 코엑스에서 무역협회 주관으로 열린 ‘일본취업 전략 설명회’에는... ",
+        "link": "http://news.hankyung.com/article/2017122548651",
+        "pub_date": "Mon, 25 Dec 2017 19:16:00 +0900"
+      }
+    ],
+    "company_name": "삼성전자(주)",
+    "company_name_eng": "SAMSUNG ELECTRONICS CO,.LTD",
+    "stock_name": "삼성전자",
+    "ceo": "전영현, 노태문",
+    "address": "경기도 수원시 영통구  삼성로 129 (매탄동)",
+    "industry_code": "264",
+    "established": "19690113",
+    "homepage": "www.samsung.com/sec",
+    "ir_url": "",
+    "stock_code": "005930",
+    "corp_class": "Y",
+    "employees": [
+      {
+        "position": "DX",
+        "gender": "남",
+        "headcount": "37,787",
+        "contract_workers": "332",
+        "total": "38,119",
+        "avg_tenure_year": "      17.4",
+        "total_salary": "-",
+        "avg_salary": ""
+      },
+      {
+        "position": "DX",
+        "gender": "여",
+        "headcount": "12,588",
+        "contract_workers": "110",
+        "total": "12,698",
+        "avg_tenure_year": "      14.4",
+        "total_salary": "-",
+        "avg_salary": ""
+      },
+      {
+        "position": "DS",
+        "gender": "남",
+        "headcount": "56,013",
+        "contract_workers": "141",
+        "total": "56,154",
+        "avg_tenure_year": "      11.7",
+        "total_salary": "-",
+        "avg_salary": ""
+      },
+      {
+        "position": "DS",
+        "gender": "여",
+        "headcount": "21,883",
+        "contract_workers": "27",
+        "total": "21,910",
+        "avg_tenure_year": "      12.1",
+        "total_salary": "-",
+        "avg_salary": ""
+      },
+      {
+        "position": "성별합계",
+        "gender": "남",
+        "headcount": "93,800",
+        "contract_workers": "473",
+        "total": "94,273",
+        "avg_tenure_year": "      14.0",
+        "total_salary": "167,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "성별합계",
+        "gender": "여",
+        "headcount": "34,471",
+        "contract_workers": "137",
+        "total": "34,608",
+        "avg_tenure_year": "      13.0",
+        "total_salary": "130,000,000",
+        "avg_salary": ""
+      }
+    ],
+    "financials": [
+      {
+        "account": "자산총계",
+        "current_amount": "358902051000000",
+        "previous_amount": "324966127000000",
+        "two_years_ago": "296857289000000"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "254330083000000",
+        "previous_amount": "236396657000000",
+        "two_years_ago": "224787774000000"
+      },
+      {
+        "account": "부채총계",
+        "current_amount": "104571968000000",
+        "previous_amount": "88569470000000",
+        "two_years_ago": "72069515000000"
+      },
+      {
+        "account": "영업이익",
+        "current_amount": "23603619000000",
+        "previous_amount": "12361034000000",
+        "two_years_ago": "-11526297000000"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "33686601000000",
+        "previous_amount": "23582565000000",
+        "two_years_ago": "25397099000000"
+      },
+      {
+        "account": "매출액",
+        "current_amount": "238043009000000",
+        "previous_amount": "209052241000000",
+        "two_years_ago": "170374090000000"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "33686601000000",
+        "previous_amount": "23582565000000",
+        "two_years_ago": "25397099000000"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "33686601000000",
+        "previous_amount": "23582565000000",
+        "two_years_ago": "25397099000000"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "254330083000000",
+        "previous_amount": "236396657000000",
+        "two_years_ago": "224787774000000"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "-5538154000000",
+        "previous_amount": "-2639066000000",
+        "two_years_ago": "-476984000000"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "254566830000000",
+        "previous_amount": "233734316000000",
+        "two_years_ago": "219963351000000"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "897514000000",
+        "previous_amount": "897514000000",
+        "two_years_ago": "897514000000"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "4403893000000",
+        "previous_amount": "4403893000000",
+        "two_years_ago": "4403893000000"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "33686601000000",
+        "previous_amount": "23582565000000",
+        "two_years_ago": "25397099000000"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "33686601000000",
+        "previous_amount": "23582565000000",
+        "two_years_ago": "25397099000000"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      }
+    ],
+    "naver_blog": [
+      {
+        "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
+        "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
+        "link": "https://blog.naver.com/blrol_blrol/224224956373",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "이도해 : 본전을 돌려주마",
+        "description": "날마다 기업회계 연구하는 회계학 교수들이 주식시장 돈을 쓸어가야 정답이 실제 이런 사람들은... 몇년전 삼성전자 주가가 폭락할때 외국 펀들 메니져넘들 우르르 한국에 몰려와서 삼성 경영주면담하고... ",
+        "link": "https://blog.naver.com/moneyqualqualqual/224224938768",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+        "link": "https://sibauchi.tistory.com/1205",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "11",
+        "description": "우선 기업이 되기 위해 10억 달러 이상을 약속했습니다. 저는 10억 달러가... When you adopt AI, well, you don't just change adoption or productivity, You change how power is perceived and... ",
+        "link": "https://blog.naver.com/calcutt/224224839164",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "대필 및 현대글로비스 자기소개서 대필로 합격률 높이는 방법",
+        "description": "시간에 면접 연습을 하거나 자격증 공부를 하나 더 할 수 있으니 이게 바로 합격으로 가는 고속도로를 타는 거죠. 이 업체의 멘토들은 금융권 대기업 공기업 등 각 분야에서 경험이 풍부한 전문가들로 구성되어... ",
+        "link": "https://blog.naver.com/8357kpkk/224224832265",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
+        "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
+        "link": "https://think-tank.tistory.com/1035",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "[포빅아] AI프로젝트를 했던 입장에서",
+        "description": "(AI프로트에 올인해서 수업이고 뭐고 귀에 안들어옴) 그래서 후기에 머신러닝, 컴퓨터비전... 포빅아를 하는 중간에 삼성 SSAFY를 합격해서 진로를 이어가기도 하고 관련 업체에서 면접보고 채용 되는 경우도... ",
+        "link": "https://blog.naver.com/admiralkg/224224796261",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
+        "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
+        "link": "https://blog.naver.com/kcl3598/224224791593",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "구인구직 후기 정보 (건보)... 하반기 | 연봉 | 경쟁률 | 면접",
+        "description": "후기 정보 (건보) | 자격조건 | 채용일정계획 | 상반기 구인구직 (간호사,인턴,요양직) | 하반기 | 연봉 | 경쟁률 | 면접 에 대해 알려드리겠습니다. 국민의 건강을 책임지는 국민건강보험공단은 공기업으로... ",
+        "link": "https://seoulwelfare.tistory.com/845",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "한화시스템 구매 자기소개서 작성법 및 상위 1% 방산 자소서... ",
+        "description": "자소서 합격 포인트를 한눈에 정리한 체크리스트 방산 구매 자기소개서는 일반 제조업 구매 자소서와... 방산전자 국내 1위 기업입니다. 2018년 한화S&amp;C(그룹 SI 회사) 합병을 통해 ICT 사업까지 흡수했고, 현재... ",
+        "link": "https://blog.naver.com/edwards_consulting/224224761498",
+        "pub_date": "20260321"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "국회의원SNS소식20260321토요일",
+        "description": "AI 시대를 이끌고 있는 삼성전자를 바로 앞에 두고 있는 영통구청이야 말로 국가....... 국회의원 김태선... 전체회의에서 복지부에 주식, 채권, 대체투자 부문장 신설 등 국민연금 기금운용본부 조직 재편 필요성에 대해... ",
+        "link": "http://cafe.naver.com/jungamironware/9266",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서 결정하는 것이 좋다고 생각하더라고요. 오늘은 SK하이닉스와 삼성전자의 연봉, 인센티브, 복지 혜택에 대해... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "생산직 직원모집(제품연마/공구연마)를 위한 자기소개서",
+        "description": "** 채용공고요약 경기도 화성시에 위치한 반도체부품 전문 기업 (주)에이엔텍은 연삭기 및 연마(광택)기 조작원 1명을 상용직으로 모집합니다. 최소연봉 3500만원으로 안정적인 복지(사회보험 전액 부담, 퇴직연금 포함)... ",
+        "link": "http://cafe.naver.com/uworldexam/150269",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "삼성전자, AI 역량 강화로 사업 혁신·신시장 창출",
+        "description": "가진 비전을 밝혔다. 김현석 사장은 “앞으로 다가올 4차 산업혁명... □ AI•IoT 기반 개별 제품 •서비스를 초월한 사업 구조 혁신 삼성전자의 사물인터넷(IoT) 전략은 지난 10월 ‘삼성 개발자 콘퍼런스’...",
+        "link": "https://news.samsung.com/kr/%EB%B3%B4%EB%8F%84%EC%9E%90%EB%A3%8C-ce-%EB%B6%80%EB%AC%B8%EC%9E%A5-%EB%A9%94%EC%84%B8%EC%A7%80",
+        "pub_date": ""
+      },
+      {
+        "title": "삼성전자, 독자 NPU로 ‘반도체 비전 2030’ 달성 가속화",
+        "description": "‘반도체 비전 2030’ 달성에 박차를 가할 계획이다. ‘NPU(Neural... 있어 AI 구현을 위한 핵심 기술로 꼽히고 있다. 삼성전자는 NPU 기술 역량 강화를 위해 시스템 LSI사업부와 종합기술원에서 선행...",
+        "link": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EB%8F%85%EC%9E%90-npu%EB%A1%9C-%EB%B0%98%EB%8F%84%EC%B2%B4-%EB%B9%84%EC%A0%84-2030-%EB%8B%AC%EC%84%B1-%EA%B0%80%EC%86%8D%ED%99%94",
+        "pub_date": ""
+      },
+      {
+        "title": "삼성전자, 미국 실리콘밸리서 ‘2025 테크 포럼’ 개최… AI 비전 공유 및 기술 트렌드 논의",
+        "description": "주요 사업 방향 및 연구 분야를 소개하고 최신 기술 트렌드를 논의하는... 임원들이 삼성전자의 AI 비전과 사업 전략을 공유하고 토론하는 시간을 가졌다. 또한 삼성리서치 AI센터장 김대현 부사장은 ‘자율적...",
+        "link": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EB%AF%B8%EA%B5%AD-%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%84%9C-2025-%ED%85%8C%ED%81%AC-%ED%8F%AC%EB%9F%BC-%EA%B0%9C%EC%B5%9C-ai-%EB%B9%84",
+        "pub_date": ""
+      },
+      {
+        "title": "AI가 가져올 반도체 산업의 미래는? ‘삼성 AI 포럼 2025’에서 살펴보다",
+        "description": "1. 최신 AI 혁신 기술과 미래 비전 공유의 장 삼성전자는 지난 9월 15일부터 16일까지 ‘삼성 AI 포럼 2025’를 개최했다. 올해로 9회째를 맞은 이번 포럼은 산업계와 학계의 전문가들이 한자리에 모여 AI 분야의 최신 연구 성과와 응용 현황을 공유하고 미래 연구 방향을 논의하는 자리다. *출처 : [칩스케치] AI가 가져올 반도체 산업의 미래는? ‘삼성 AI 포럼 2025’에서 살펴보다 - 삼성...",
+        "link": "https://semiconductor.samsung.com/kr/news-events/tech-blog/future-of-semiconductor-industry-with-ai-samsung-ai-forum-2025/",
+        "pub_date": ""
+      },
+      {
+        "title": "삼성전자, Foundry 포럼 2024 개최 AI 시대 파운드리 비전 제시",
+        "description": "삼성전자가 미국 실리콘밸리에서 12일(현지시간) ‘삼성 Foundry 포럼 2024(Samsung Foundry Forum 2024)’를 개최하고 AI 시대를 주도할 파운드리 기술 전략을 공개했다. 이번 행사는 “Empowering the AI Revolution”을 주제로, 고객의 인공지능(AI) 아이디어 구현을 위해 삼성전자의 최선단 파운드리 기술은 물론, 메모리와 어드밴스드 패키지(Advanced Package) 분야와의 협력을 통한 시너지 창출 등 삼...",
+        "link": "https://semiconductor.samsung.com/kr/news-events/news/samsung-showcases-ai-era-vision-and-latest-foundry-technologies-at-sff-2024/",
+        "pub_date": ""
+      },
+      {
+        "title": "삼성전자 “AI 드리븐 컴퍼니 도약”… 美서 AI 비전·사업 전략 공유",
+        "description": "삼성전자가 인공지능(AI) 비전과 사업 전략을 공유했다. 회사는 새로운 성장 동력을 빠르게 발굴해 사업 구조를 전환한다는 계획이다.삼성전자는 17일(현지시간) 미국 실리콘밸리에서 기술 인재들을 초청해 주요 사업 방향 및 연구 분야를 소개하고 최신 기술 트렌드를 논의하는 '2025 테크",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092149164",
+        "pub_date": ""
+      },
+      {
+        "title": "삼성전자, 실리콘밸리 ‘테크 포럼’서 AI 비전 공유·기술 트렌드 논의",
+        "description": "주요 사업 방향 및 연구 분야를 소개하고 최신 기술 트렌드를... 임원들이 삼성전자의 AI 비전과 사업 전략을 공유하고 토론하는 시간을 가졌다. 또 삼성리서치 AI센터장 김대현 부사장은 ‘자율적 목표...",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=203298",
+        "pub_date": ""
+      },
+      {
+        "title": "삼성전자, 실리콘밸리서 ‘앰비언트 AI’ 비전 제시… “AI로 일하는 회사로 도약”",
+        "description": "삼성전자, 실리콘밸리서 앰비언트 AI 비전 제시 AI로 일하는 회사로 도약 삼성전자가 17일현지시각 미국 실리콘밸리에서 글로벌 기술 인재들을 초청해 주요 사업 방향과 연구 전략을 공유하는 2025 테크 포럼을 열었다. 올해로 7회째를 맞은 이번 행사는 캘리포니아 마운",
+        "link": "https://biz.chosun.com/it-science/ict/2025/10/19/7UGJL6KSTRCLRAPU6RNI4F46HE/",
+        "pub_date": ""
+      },
+      {
+        "title": "삼성전자, 美서 테크 포럼…AI 비전 및 사업 전략 논의",
+        "description": "노태문 삼성전자 사장이 미국 실리콘밸리에서 열린 '2025 테크 포럼'에서 발언하는 모습. (사진=삼성전자) 2025.10.19 *****@newsis.com *재판매 및 DB 금지 *재판매 및 DB 금지",
+        "link": "https://www.newsis.com/view/NISX20251019_0003367872",
+        "pub_date": ""
+      },
+      {
+        "title": "4대 그룹, AI·미래사업 중심으로 판 짠다…내년 전략 수립 속도 - 뉴스투데이 ,경제 라이프 종합 미디어",
+        "description": "■ 삼성, AI 중심 전략 점검...‘AI 드리븐 컴퍼니’ 전환 14일 재계에 따르면 삼성전자는 오는 16일부터 글로벌 전략회의를 개최하고 내년도 사업 전략과 중장기 방향성을 점검할 예정이다. 삼성전자는 매년...",
+        "link": "https://www.news2day.co.kr/article/20251214500059",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "삼성/채용 - 나무위키",
+        "url": "https://namu.wiki/w/%EC%82%BC%EC%84%B1/%EC%B1%84%EC%9A%A9",
+        "description": "여기서도 무난하게, <strong>최대한 튀지 않으면서도 자기 분만큼 할 말은 하는 상식인 포지션을 취하는 것이 좋은 전략</strong>이다. 다만 상술한 대로 토론면접은 창의성면접으로 대체되어 폐지된 ..."
+      },
+      {
+        "title": "SAMSUNG CAREERS",
+        "url": "https://www.samsungcareers.com/",
+        "description": "채용 프로세스 채용 공정성안내 자주 하는 질문 1:1 문의하기 채용서류반환신청"
+      },
+      {
+        "title": "삼성전자 채용 프로세스 안내 | 채용 | Samsung 대한민국",
+        "url": "https://www.samsung.com/sec/about-us/careers/hiring-process-information/kr/",
+        "description": "삼성전자는 &#x27;<strong>함께 가는 열린 채용</strong>&#x27;을 통해 학력, 연령, 성별 구분 없이 우수한 인재를 선발하고 있습니다."
+      },
+      {
+        "title": "삼성전자 채용 | 채용 | Samsung 대한민국",
+        "url": "https://www.samsung.com/sec/about-us/careers/kr/",
+        "description": "삼성전자 채용 홈페이지에 오신 것을 환영합니다. 삼성전자가 전세계에서 가장 혁신적인 회사 중 하나가 될 수 있었던 비결은 바로 회사 내 최고의 사람들입니다. 이곳에서 당신의 아이디어를 새로운 제품과 솔루션으로 ..."
+      },
+      {
+        "title": "Recruiting | 삼성전자 DX부문 채용",
+        "url": "https://www.samsung-dxrecruit.com/duty/detail/S0009",
+        "description": "<strong>브랜드 관리, 신제품 런칭 등 마케팅 커뮤니케이션 전략 수립 및 실행</strong>"
+      },
+      {
+        "title": "삼성, 2026년 상반기 공채 실시 – Samsung Newsroom Korea",
+        "url": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1-2026%EB%85%84-%EC%83%81%EB%B0%98%EA%B8%B0-%EA%B3%B5%EC%B1%84-%EC%8B%A4%EC%8B%9C",
+        "description": "삼성은 <strong>▲직급 통폐합을 통한 수평적 조직문화 확산</strong> ▲직급별 체류 연한 폐지 ▲평가제도 개선 등 직원들이 자신의 능력을 최대한 발휘해 더 우수한 인재로 성장할 수 있도록 인사제도 ..."
+      },
+      {
+        "title": "채용 프로세스",
+        "url": "https://www.samsungcareers.com/guide/process",
+        "description": "공정한 평가와 열린 채용, 전형별 채용 과정을 확인하세요."
+      },
+      {
+        "title": "삼성전자 직무소개 | 채용 | Samsung 대한민국",
+        "url": "https://www.samsung.com/sec/about-us/careers/job-fields/kr/",
+        "description": "채용 · 삼성전자 커리어스 · 회사생활 · 직무소개 · 채용 프로세스 안내 · 투자자 정보 · 뉴스룸 · 윤리 · 디자인 삼성 · 다음 버튼 · 직무소개 · 삼성전자 커리어스 · 회사생활 · 직무소개 · 채용 프로세스 안내 ·"
+      },
+      {
+        "title": "“가사까지 신경쓰는 디테일로 인재 모았다” | 인사/조직 | DBR",
+        "url": "https://dbr.donga.com/article/view/1201/article_no/4480/ac/magazine",
+        "description": "삼성전자에서 30년 넘게 인사 담당자로 일하면서 핵심인재 확보와 관련한 일을 주로 해온 안승준 한양대 특임교수(전 삼성전자 전무)에게 삼성전자의 글로벌 인재 전략을 들어봤다. 삼성전자는 국내 인력들의 글로벌 역량을 높이기 위해 지역전문가제도, 삼성 MBA제도를 운영했다. 어떻게 평가하나. “지역전문가 제도는 최초의 우려와 달리 상당히 성공했다고 본다. 지역전문가 육성 과정은 문화적 차이를 뛰어넘어 현지 사람처럼 생각하고 행동할 수 있는 삼성인을 양성하자는 제도다."
+      },
+      {
+        "title": "삼성전자 회사생활 | 채용 | Samsung 대한민국",
+        "url": "https://www.samsung.com/sec/about-us/careers/working-at-samsung/kr/",
+        "description": "내부양성교육체계는 Core(삼성 고유의 비전, 가치, 문화), Leadership(리더십 역량 배양), Expertise(전문성 제고)의 3대축으로구성되어 있으며, 전세계 모든 임직원들에게 동일하게 적용되고 있습니다. 단순히 회사가 원하는 최고의 인재를 선발하는 것에 그치지 않고, 최고 수준의 교육과정과 양성프로그램을 제공하기 위해 노력하고 있습니다."
+      }
+    ],
+    "google_news": [
+      {
+        "title": "삼성전자, 2030년까지 전 세계 공장 'AI 자율화' 전환 - 디일렉",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HdHo5NWhRYmNTUEdaTTRJUGt1eHlnNnJSR0lWajMwYmdQM0V3dVlXS2NfSk5LSDhLcWpNMVRqZDBMbENpQnhzV1gzSDJ3NnNLYU83SmI3QlVVV0RlQWJIalY0MzY5UQ?oc=5",
+        "pub_date": "Sun, 01 Mar 2026 08:00:00 GMT",
+        "source": "디일렉"
+      },
+      {
+        "title": "반도체 업계는 인재 확보 전쟁 중… TSMC·삼성전자·SK하이닉스 등 대규모 인력 수급 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRGtVa19BTjR3YUtGR3NHVTZWZkZmZWdGd2dYSjdUbkoxYjdkWXpVMk1HV1l4QkpTd2hoTUpYX2V6cWJsbndMQ1JLVWlPM3VIVlc1WUIzLXg1dkoxcmhSUW44NHBBQ2Z0RnBfX3dwVUMxRFhUUmJwZGpSNHBsX1pMMC1n0gGWAUFVX3lxTE1vZGdIT3pSVmkzcFlVTGZJSGowUVpGSTBmVUU2Zml1Wm9IN1E2a2U0OEcxMHI5c3h5aHdnUG1oblZlbXlUb0dIWUFCcTY2MVVSby03UEdPeXV1ZVVPQ2NUaWM2Tl9tYUItRzZGQUFMWXBkUjR6aTAwb2VyaUN2TGVBeE44VkxpOEJxQ2NVR2N5ak1VWER4QQ?oc=5",
+        "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "삼성전자·SK하이닉스 반도체 인력 모집 나서, 초호황에 채용 규모 확대 전망 - 비즈니스포스트",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FMDRUREgtZzVGYXNBakQwMXNkbC1GR0Qtdkt6RlpQUmpZSVVNTVhsaE95N1VhXzV4WjRJb1piN0kya1cwLXJvam9fZ2V5VTNnWWlrVnltaEYxbUFrb3h2LUs3OUN0T3M1UmM3b20tcVFGSTg?oc=5",
+        "pub_date": "Mon, 02 Mar 2026 08:00:00 GMT",
+        "source": "비즈니스포스트"
+      },
+      {
+        "title": "AI 붐이 불붙인 ‘인재 경쟁’… 삼성·하닉·LG CNS 채용 드라이브 - 국민일보",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1URGpIdGR4clFiYW9jMVRnZzRqRUUwaDVyWmVNQTVhc2N6dVVNZEJpVEN6bW5NNUJKNE45REVJNVZzSzRoVy1menFDeFNaZHlFS1hDNGt4bnBHdVdIWnJndkpQMXN1UU3SAWxBVV95cUxOeTItYmtkckNWWjVMZVEzSEh2anVPWXNTcVBrWVc3Mm5Eb2dqcjA0QUpkeF9zajJITXYxRl9mMkVvN1VQeXNqY1JaRVlTT09HU05pbWFwOUx5YXVBdHJWY3N1TGpmNWMtczlubWo?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "source": "국민일보"
+      },
+      {
+        "title": "[단독]AX부터 AI팩토리까지…삼성전자, AI·로봇 전략 인재 모은다 - mt.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfUHd6M3ZzV0k5SkliVDZLNi1kaFJua2hxU2JUaEs0cGVPR2RESHA3RGxMZWVOOEdPWmRrcWZxRTlFRHNyNWY0VlNPT0d4UzJPTl9OeHVGel9lWGtzOWlQMlk3TU5KaGNVZHdORA?oc=5",
+        "pub_date": "Mon, 22 Dec 2025 08:00:00 GMT",
+        "source": "mt.co.kr"
+      },
+      {
+        "title": "'사상 최대 실적' 삼성전자·SK하이닉스 채용문 연다 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15eTZ5ZEdrZHhoVGNmY2NabHYwN1JwTXg5U2t0S0xYU3NxRlo5S2ZZYU1RS0k0XzhzcERjNWVZcXVMX0UzV2g1bnNFSnQySUU3bTFFWjNWS0hCUTB1b0sxT2p4dmMzUGVlVmZR?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 07:10:00 GMT",
+        "source": "매거진한경"
+      },
+      {
+        "title": "\"AI칩 미래 선점하자\"…삼성전자·SK하이닉스, 젊은 반도체 인재 영입전 '돌입' - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLdkpVQm54OEE3YTUyaENjcTBnQW5JS0o5QWhBb0tzQk5jNXdwOTVCVUN0OGpPcjJKYXdIMVhDOUcyWm42R0ljRUlxVXhVOV82WktseG9SRWxfUTBueDZGNNIBeEFVX3lxTE9uMUwyR1VCTDNqV0U2Q3ZRdzg0NjE2Zy03QmlLZUtQSDJJSWRPTDd3eGpfM3RhX3kxdTBFdUNsbWxLWFQxSGpmcG5IZ3ROZDQwNEcxUVd6S3N6SnVMT0NNeEowZ2ZuY3hCVnJFdVNZZ1dhUzNwVUoxTg?oc=5",
+        "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "source": "뉴시스"
+      },
+      {
+        "title": "다이가 다르다...삼성·SK, 차세대 HBM '두뇌' 로직다이서 엇갈린 전략 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OcVJIdW42c2NuWTBtVDhMWEZjT2ttdWRBNmhraDlsOG1DR3JpajNrY0RfSkhVSjduUEpRWFBpUUhtOWN3eXIxZjZmM01odVR6TGpoNmhn?oc=5",
+        "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "내부 특허 전략 넘겼다…삼성전자 엔지니어·美 NPE 대표 구속 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxWGUxdVFjYk1HNUlPcTBNNkFoUjVuV2hCTzhndzRRRGNMdGVzUFdhZTZfNTBvcmVfMGxuQW85QzE2c09nQ1dNbjNmTkpRSjItaDRn?oc=5",
+        "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "[천안 24시] 천안시, 삼성전자 AI 관련 제조기업 전략적 유치 시동 - 시사저널",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qNjJieE9BRnEwSmFLcHRsa0JGRGNmN0tnWUU4RVFZeF9Nb2YycV85bkxwVnJITTAtWGV6TERDb1hnUzZEaEhtYnJtLXN3LVJ0VzBaWXpXOVFDeGVrX1RQWkR3b1F2VE9MVjhUWmQyWdIBc0FVX3lxTE80V0JpamhLckh1cG1wOElIbDgxYTdIUVBaaG01a0RhV0RlSTdoS3ZvQnRKempuN1BUa0xZSGgwYzNaNFB2RlA3bGJVcXhWejgwd3pGbnNqN3RhM0xKd0pnSFB4VUR3NlY0Zkg4WFNUNEQ3UGc?oc=5",
+        "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "source": "시사저널"
+      },
+      {
+        "title": "2026년 대기업 고용 기상도... 삼성·SK·한화, 'AI·방산' 미래 먹거리 인재 확보에 '사활' - 코리아비즈니스리뷰",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sMjVqNmZGX1hXSnBMSHJCYjhKWVlNWGxsc2ZkNkx0bGRzWmhjUzZIclVKdUkzbEN0dzk0WVFmUEhQdmlFOHotcEUtZXMzc1lWQ0M4TVNvaHJLN1owOEZyYU8yRGZ6ejkwMGhya0lZNA?oc=5",
+        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+        "source": "코리아비즈니스리뷰"
+      },
+      {
+        "title": "반도체 호황 속 삼성·SK하이닉스 이달 채용 돌입 - 부산일보",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jNW1aMWFaMml4SldiQkhJYzhPZVBvQ05NRDFwbGo3Wl9KUzg3U3R6NDlMS0k2V1BqZEEwWVh4XzJGMnU5M3BFelM1MXB5OS1xaThBMm4xMUxoUUhGWThQWUlSamhfaWpRTDJEbVczdVZQcE5o?oc=5",
+        "pub_date": "Mon, 02 Mar 2026 06:31:36 GMT",
+        "source": "부산일보"
+      },
+      {
+        "title": "국정원, 'AI 대전환' 15개분야 전문 인재 채용 - SPN 서울평양뉴스",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmY0pZbTJwZkxPY3dVOWtFVHk5blA0RmNMc0NsS0JnOExyaGd5VUxNZXFVbHJUbHREV0I1dHVkMmozN0xuZjhQeW1hOUFjN3RmWllaNzRYeXMyekF1OTIzcWpjUTVPNlFlVUdN?oc=5",
+        "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+        "source": "SPN 서울평양뉴스"
+      },
+      {
+        "title": "국정원, AI 15개 분야 전문 경력직 공개 채용 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE92NzB0NXBMZ0poNW1hRXdyOTdjNEF0Y2psU21zQWZLSzVUcGtVTFVVS2VoaVJpelhSeVRhNE5GZXJTYk9FeHNYRHRLZW1hZw?oc=5",
+        "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "삼성전자, 5년간 6만명 신규채용...'반도체·바이오·AI' 중심 - 뉴스;트리",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9idUxaNmRSSkV6VzBucmtkZzQ4akdmM2RzWVc0MHktS3BZUm9YVGs0UWFHaXFMTndldjQtS3EzSDhBa1pjbEJ3bUtycm81WDlKVWhYU3phOWs0VTdv?oc=5",
+        "pub_date": "Thu, 18 Sep 2025 07:00:00 GMT",
+        "source": "뉴스;트리"
+      },
+      {
+        "title": "삼성전자, 2025년 4분기 실적 발표 - samsung.com",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVkRpaXRYdmh6OXAyaDg1RGxWdWUtcDFDcl9ZZi1PV3JrNDhXRjFNSTJSSnJrWW5OOGY2Z0ZfdUtVR3BGS3hIYnR5NjE0ZHNfMHVsaWllVllsWnNUWnZwSEV2dm40bkw1OEIyM0JydnVNNF8tN2szOHhLdEZOYmhCaVVWZDhLZWpKOVI5dDJKRWY1bjhLaWFYVi04ODJadEpUa2hxbE80Z1N3Wm9YMjRjSjZzekRmYUxxLWNLT2tpTVpmSzc5X05kSS1iVDNRWlBxbkE?oc=5",
+        "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+        "source": "samsung.com"
+      },
+      {
+        "title": "삼성전자 반도체 작년 4분기 영업이익, 1년 전의 5.6배인 16조4000억원 기록 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVUl4RFVjMHhwUmxQZlRsbjVWZlRPYTNGNWZTcEZRdnpVeEhHZDRodUZRYVFBS3c4UFRpQ1liaGFGYmozenpKeFJMRFBqaXd4TTdMOUlPU0lVQkJGYU5lMHVSQUxqN3hzbXh3bmpCWld6YWluSzVRY0JjZnd1ZTZYSEZxY9IBlwFBVV95cUxQTnFhUlJNNkszMzNraDlQeFFTZUlPczhUYzV0RHppWEUtd0VuSHd0emFJVGNVTlprSUZkYWNwcXZKSFB2MXZJQXMyY1o5a2xXS2FHSFpLemFGX0dIdmJPQ3VMaEJPMTJEUHltQm1Gd3FZeW9KZUZvRW8tQjJoY1dybXVJbzMzaFNXcUF6X1NMN2xZNWtUQ0p3?oc=5",
+        "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+        "source": "조선일보"
+      },
+      {
+        "title": "삼성전자 2025년 4분기 실적발표 컨퍼런스콜 전문 - 디일렉",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxRExDQTl3Y2VabEw4ajhxTmtCYWhfQk5fWUN6aXVmZzdwTUtZN3JIcDQzNFFBbWZIZG8tR1Z5N2IyTnFncjMzYzR4aEtCSWJ6WmxZdmNKTGwtT0dJU3RTRjlFUUxEUQ?oc=5",
+        "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
+        "source": "디일렉"
+      },
+      {
+        "title": "[주총 톺아보기] 삼성전자, 제57회 주총 ‘축제의 장’ 됐다…1000조 매출·특별배당 잭팟에 주주들 ‘환호’ - ceodaily.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5USUJPRWRycTh4UTcwYVBrTlBLWm5SMXBNSmVQTDhreWNVelhlWjFIM3ludDVZRV9XOURWOUFwbVFsS1Zhdmd3TnNOTUJlTndhWlhZa3pyU3VPdG9takhza0NVaTh0ZU1JUEZmMNIBcEFVX3lxTE1JV3JTdHRaRWhTdXN5STZIWU90d2FKcFhObTMwOUVSWi01Tm9nS2RjMTlweE1jUkp0Z3U4OEVXWlRTa1BRNFVBTnhkRmQ4ZkNMSmxua01ORldQcVNkcTBqQzc2eTZyVDF6V0k1UmNhd0Q?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 09:39:54 GMT",
+        "source": "ceodaily.co.kr"
+      },
+      {
+        "title": "삼성전자, 작년 4분기 실적 역대최대…영업이익 20조 - 인사이드비나",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kU1VZTkZQMGZ4cG9vRTRaaVAxZ21ySjVraGRUTmpjOXByS0I2cGRwRUJHcE9IRnpHbmk0VHR5dUlMY05QaFJNTjZxSUk4bEtOOXNTTFo1em13a0NNdllMSjFWWW5QOWhTdGJuaA?oc=5",
+        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+        "source": "인사이드비나"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "Samsung Software Membership",
+        "url": "https://infossm.github.io/",
+        "text": "# Samsung Software Membership (SAMSUNG SOFTWARE MEMBERSHIP)\n\nSamsung Software Membership is a Software Development company. Samsung Software Membership is a playground for creativity and software developers. Founded in 1991.\n\n## About\n삼성전자 소프트웨어 멤버십은 삼성전자 소프트웨어 센터 산하 조직이다. 정규 4년제 대학생이나 대학원생으로 이루어져 있다. 1991년 처음 강남에 설립되었다. 2016년 개편을 거치면서 규모를 크게 줄여 서울대를 제외한 모든 센터를 폐지하였다.\n\n## Company Details\n- Industry: Software Development\n- Type: Nonprofit\n- Founded Year: 1991\n- Homepage: infossm.github.io\n- Statu",
+        "score": 0,
+        "published_date": "2026-02-25T00:00:00.000Z"
+      },
+      {
+        "title": "",
+        "url": "https://teamblind.com/kr/company/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/review/3gV1GlBhue",
+        "text": "블라인드 | 삼성전자Reviews - &quot;삼성전자라는 타이틀에걸맞는대우와연봉이최대장점&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인삼성전자\n삼성전자*Rating Score*3.2*(18,653개 리뷰)*\n이회사리뷰하기삼성전자은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*2*커리어 향상*4*업무와 삶의균형*4*급여 및복지*2*사내 문화*3*경영진\n*View detailed rating*\n# “삼성전자라는타이틀에걸맞는대우와연봉이최대장점”***Verified User*현직원",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Virginia Career Works - Capital Region",
+        "url": "https://vcwcapital.com/",
+        "text": "# Virginia Career Works - Capital Region\n\nVirginia Career Works - Capital Region is a Individual and Family Services company. Virginia Career Works Capital Region provides job services, career services, businesses, hiring and screening, employee training, and business solutions. Virginia Career Works - Capital Region employs 6 people (-16.7% YoY, -2 people). Headquartered in Henrico County, Virginia, United States.\n\n## About\nVirginia Career Works brings together a variety of employment and train",
+        "score": 0,
+        "published_date": "2026-02-21T00:00:00.000Z"
+      },
+      {
+        "title": "The Muse",
+        "url": "https://themuse.com/",
+        "text": "# The Muse (Daily Muse, Inc.)\n\nThe Muse is a Technology, Information and Internet company. The Muse is a company that provides career advice and job search services. They offer a platform for companies to find jobs and get free career advice. They have a proven track record of adapting to their markets and have a proven track record of adapting to their markets. The Muse employs 65 people (-6.0% YoY, -15 people) and has an annual revenue of $28.0M. Headquartered in New York City, New York, Unite",
+        "score": 0,
+        "published_date": "2026-02-22T00:00:00.000Z"
+      },
+      {
+        "title": "",
+        "url": "https://teamblind.com/kr/company/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/review/rXmCwmaxKBq",
+        "text": "블라인드 | 삼성전자Reviews - &quot;회사는 좋지만개발자커리어쌓기가걱정된다&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인삼성전자\n삼성전자*Rating Score*3.2*(18,653개 리뷰)*\n이회사리뷰하기삼성전자은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*3*커리어 향상*5*업무와 삶의균형*4*급여 및복지*5*사내 문화*5*경영진\n*View detailed rating*\n# “회사는좋지만개발자커리어쌓기가걱정된다”***Verified User*현직원**· i\\*\\",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "Samsung Elec plans over $73 bln investment in 2026 to lead in AI ...",
+        "url": "https://www.reuters.com/business/samsung-electronics-plans-over-73-bln-investment-lead-ai-chip-sector-2026-03-19/",
+        "text": "Samsung Elec plans over $73 bln investment in 2026 to lead in AI chip sector | Reuters\n\nSkip to main content\n\nExclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv\n\nThe logo of Samsung Electronics is seen at the company's store in Seoul, South Korea, April 15, 2025. REUTERS/Kim Hong-Ji/File Photo [Purchase Licensing Rights, opens new tab](https://www.reutersconnect.com/item/south-korea-unveils-23-billion-support-",
+        "score": 0,
+        "published_date": "2026-03-19T14:19:30.469Z"
+      },
+      {
+        "title": "Samsung to Invest Record $73 Billion in AI Chip Comeback Bid",
+        "url": "https://finance.yahoo.com/news/samsung-aims-invest-record-73-091627468.html",
+        "text": "Samsung to Invest Record $73 Billion in AI Chip Comeback Bid\n\nOops, something went wrong\n\n\n\n# Samsung to Invest Record $73 Billion in AI Chip Comeback Bid\n\nStockStory Top Pick\n\nNVDA -3.28%\n\n005930.KS -0.55%\n\n",
+        "score": 0,
+        "published_date": "2026-03-19T14:19:30.469Z"
+      },
+      {
+        "title": "Samsung to Invest Record $73 Billion in AI Chip Comeback Bid",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/samsung-to-spend-73-billion-on-chip-expansion-research-in-2026",
+        "text": "Samsung to Invest Record $73 Billion in AI Chip Comeback Bid - Bloomberg\n\nThe AI Race:\n\nBorrowing Boom\n\n[Bonanza or Bubble?](https://www.bloomberg.com/news/articles/2026-03-18/is-an-ai-bubble-set-to-burst-navigating-the-artificial-intelligence-boom?itm_source=record&amp;itm_campaign=The_AI_Rac",
+        "score": 0,
+        "published_date": "2026-03-19T14:19:30.469Z"
+      },
+      {
+        "title": "Samsung plans to invest $73B in 2026 to lead in the AI chip era",
+        "url": "https://seekingalpha.com/news/4566194-samsung-plans-to-invest-73b-in-2026-to-lead-in-the-ai-chip-era",
+        "text": "Samsung plans to invest $73B in 2026 to lead in the AI chip era | Seeking Alpha\n\nOoops... Something went wrong while loading this page.\n\nReload\n\nTo ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIs this happening to you frequently? Please report it on our feedback forum.\n\nIf you have an ad-blocker enabled you may be blocked from proceeding. Please disable your ad-blocker and refresh.\n\nReference ID: ",
+        "score": 0,
+        "published_date": "2026-03-19T14:19:30.469Z"
+      },
+      {
+        "title": "Samsung Electronics boosts 2026 investment to lead AI, pursue ...",
+        "url": "https://biz.chosun.com/en/en-it/2026/03/19/J3WL3VQG6JHMRHWLG6GFO22MBA/",
+        "text": "Samsung Electronics boosts 2026 investment to lead AI, pursue M&A in Korea - CHOSUNBIZ\n\n# Samsung Electronics boosts 2026 investment to lead AI, pursue M&A in Korea\n\nSamsung to hike 2026 outlays for AI drive, eyeing big-ticket deals across robotics, medtech and autos\n\nBy\n\nJeong Du-yong\n\nPublished 2026.03.19. 18:54Updated 2026.03.19. 18:59\n\nSamsung Electronics Seocho office building./News1\n\nSamsung Electronics announced a strategy to invest more t",
+        "score": 0,
+        "published_date": "2026-03-19T14:19:30.469Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "Unpacking Samsung’s Comprehensive On-Device AI SDK Toolchain Strategy",
+        "url": "https://semiconductor.samsung.com/news-events/tech-blog/unpacking-samsungs-comprehensive-on-device-ai-sdk-toolchain-strategy/",
+        "text": "Unpacking Samsung's Comprehensive On-Device AI SDK Toolchain Strategy | Samsung Semiconductor Global\n\nSkip to content Skip to accessibility help Skip to cookie setting --\n\n# Unpacking Samsung’s Comprehensive On-Device AI SDK Toolchain Strategy\n\n## Behind every smooth on-device AI experience lies a hidden process that makes massive, server-trained models run seamlessly on a smartphone chip.Samsung’s on-device AI SDK Toolchain is the behind-the-scenes system enabling that shift, turning complex AI",
+        "score": 0,
+        "published_date": "2026-01-07T00:00:00.000Z"
+      },
+      {
+        "title": "Samsung Introduces Industry’s First Open-Source Software Solution for CXL Memory Platform",
+        "url": "https://org-ap-publish-cn.semiconductor.samsung.com/us/news-events/news/samsung-introduces-industrys-first-open-source-software-solution-for-cxl-memory-platform/",
+        "text": "Samsung Introduces Industry’s First Open-Source Software Solution for CXL Memory Platform | Samsung Semiconductor USA\nSkip to content\nSelect your country or region to find out what content fits your location\nRemember for next time?\n언어를선택해주세요Global / EnglishUS / EnglishEMEA / English한국 / 한국어中国大陆/ 中文日本/ 日本語* Continue\n[SAMSUNG](https://",
+        "score": 0,
+        "published_date": "2023-06-05T00:00:00.000Z"
+      },
+      {
+        "title": "삼성의 온디바이스 AI SDK 툴체인 전략 파헤치기 | 삼성반도체",
+        "url": "https://semiconductor.samsung.com/kr/news-events/tech-blog/unpacking-samsungs-comprehensive-on-device-ai-sdk-toolchain-strategy/",
+        "text": "삼성의 온디바이스 AI SDK 툴체인 전략 파헤치기 | 삼성반도체\n\n본문으로 이동 Skip to accessibility help Skip to cookie setting --\n\n# 삼성의 온디바이스 AI SDK 툴체인 전략 파헤치기\n\n## 온디바이스 AI가 부드럽게 작동하기 위해서는, 서버에서 학습된 초대형 모델을 스마트폰 칩 위에서 무리 없이 구동되도록 만드는 숨은 과정이 필요하다. 삼성의 온디바이스 AI SDK 툴체인은 이 복잡한 전환을 가능하게 하는 보이지 않는 핵심 기반으로써, 방대한 AI 모델을 실사용 가능한 형태로 바꾸고 휴대 가능한 경험으로 확장하는 역할을 수행한다.\n\n- 공유\n- 메일\n- 링크드인\n- X\n- 페이스북\n\n일반적으로 고객의",
+        "score": 0,
+        "published_date": "2026-01-07T00:00:00.000Z"
+      },
+      {
+        "title": "Open Source RPC Stack: When Self-Hosted Infrastructure Beats Managed RPC",
+        "url": "https://drpc.org/blog/open-source-rpc-stack-self-hosted-vs-managed/",
+        "text": "Open Source RPC Stack: When Self-Hosted Infrastructure Beats Managed RPC -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\n\n##### More topics from dRPC\n\n- Security\n- Programs\n- Product\n- Partnerships\n- News\n- [Listicles](https://drpc.org/blog/category/listicl",
+        "score": 0,
+        "published_date": "2026-01-15T00:00:00.000Z"
+      },
+      {
+        "title": "Open Ecosystem at Samsung | Samsung Semiconductor Global",
+        "url": "https://semiconductor.samsung.com/news-events/tech-blog/open-ecosystem-at-samsung/",
+        "text": "Open Ecosystem at Samsung | Samsung Semiconductor Global\n\nSkip to content Skip to accessibility help Skip to cookie setting --\n\n# Open Ecosystem at Samsung\n\n## Global Open-ecoSystem Team (GOST) Written by Javier González\n\n- share\n- mail\n- linkedin\n- X\n- facebook\n\nIn the past 5 years, Samsung has invested a lot of effort in creating the team, culture, and processes to become an active contributor to the open eco",
+        "score": 0,
+        "published_date": "2024-09-03T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "Samsung CEO seeks multi-year chip contracts with major customers - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSXJWb1FSa0xWZmpqbjY2Vk9rWHFBNnpheEpxNVlOYVU4Yll4MHd5Q185SVU5VTQyZHBZamd0R1Ezc2J1aGNtbmpHbGJOX21DYmxkVDdGRTFDajdUNVFiY3VwblFSTVVsSG5mOHZZbHdER2tYVTdqZHFiR3JSRm5fNzF0eEV0b0JmalVjQWQyWndrVW1mclBGY1FKSWNXLW5VVk03VkgwRGdaU2w2YUpQVTgwenV2QVJ5?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 13:10:16 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Samsung workers' strike plan would disrupt chip supply, union chief says - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOX3dZbmEwcVFnZkNEeWZNVlVnOW9OOTNvMHdDR0tWS1JaN2Y0RERma2pRMXZVNlpIX1pZd18zUDIzVXNGdU1Ga1ZiLXV0ZDZWOW1qMnFBQ3BVb1prdjZRU3g3a1ZRNVNSUWtfQWcxd1gzUzlYZjctOUlwWFg0clZveTRHb2pfc2xndkRPa2ctcTlUSThPLW5CMXU0Y2VoOExNZXBzdGxYWDN5OVpadWYxYUZnZk56YkowSE5ZWEUyWE8zajEtdU5DeEQwU244TFk?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 06:11:29 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Samsung Electronics says unit Harman acquires Masimo's audio business for $350 mln - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTTFiQmtMRkNOUnNlZVhrdHZxV3JnWTBTNFF6RXZnekRPVktvWDVsSHhLVzR0c3p2WVQ5QzYtcHJJbGxqUEFmM0tDWGdYSU1jNmlmd2YzODdnSHA3V0NoOGpNWkp3aTlYaHJ1N2tmNFc2TmtLRUJZWkoyT0FYeEFma0RJcDZQZi0xZG9VLXZPVkJfMFlCU2g3SkdVSnJycmllWFk2NXFZSG5jdmtoLThtcmp6YTdiRjlRalRYRHd3?oc=5",
+        "pub_date": "Wed, 07 May 2025 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Samsung to Stop Selling $2,899 TriFold Phone After Three Months - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMVNZUGR6LTU2NlN4NnE2aHV0Q21UTC0tQ1B6ZDd1THl1N1hROTVqN2lsZWlCYUdIejNib3pScmFHMEtYQXhRcmNnTVN3U0JKSm5IUFJOVzdXd1M1WEE0eXpTaGJwTFdBYnFhdUlmeExpTTJuaVFqNzVrdGJ5Y29aQUxYWnZ2U1lHNmUyMzJYcl95c0prdDhza0toWWcwVzVyZHhURV9VZThJTHMxLUFSUG9LOA?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 06:22:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Bloomberg - Business News, Stock Markets, Finance, Breaking & World News - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9qYU5Fb2FhR3RmNHZUdG1PZFRYOVdvalpTcXd4VjBBME5WRmxTaGphdzFWb2hGTGJVeUU1UVpLOA?oc=5",
+        "pub_date": "Sat, 18 Jul 2009 21:47:35 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "005930: Samsung Electronics Co Ltd Stock Price Quote - Korea SE - Bloomberg - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rU1J0M29LdFVXMWprWlNJOEUxSXV4emxpT1RobXg3VUJjWUNBcjBuT3h0ei1OcEZQT2xsVDE1SWRBSU5sR2tqZklERVlDelBfWl9j?oc=5",
+        "pub_date": "Fri, 14 Mar 2014 23:57:49 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Samsung will unveil the Galaxy S25 on January 22 - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWm9ZU29nMGR2UnY0WlRDRV8wQ0pnanFCbUNrbjVSQVJOS1Y5dVFqRmE0cG53M1hFN2huWFU1cmM2U2U0Wm5MdGNNZWJ4aFE1cndlR2pyUmFscEpRVzV4dk5VMGk2Z1hGcjZSdV9kTzFoRUVaSHdzZmdRY1I1NTFzYlhTTy1lTVF1V21Z?oc=5",
+        "pub_date": "Mon, 06 Jan 2025 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Tesla signs $16.5B deal with Samsung to make AI chips - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYjgzc0w1U0tVbGMwOGM4UWgwV1VlQVl0Y0F1VlhHMFdzeFpOMFA0NUxIcHVHTE5fczMzMXpYU1JoMkZIb0NCQUJvNDVfdHpaeE45NnkxcU82dVZHeTdMZ21HZVZBZjZ3eTFsRDFaMlp3RlVfc1k3am04dWR6c3BoSFV4UXRtYWhaVGtjX0pUWU0?oc=5",
+        "pub_date": "Mon, 28 Jul 2025 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Samsung will reportedly test remote work program as South Korea copes with new COVID-19 cases - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTmVOZ0xiZzRMaG5Wa0FiVERLb2h4TmFzcUtnMzB4eEhMdXV1Qkh6aC1jVkhOYmZvS0lERzRtcmtoX0RuWi0xYTNBaGdjTUtNNkd3QjBXd0todVBsSFBja2t2SVVoQmI0aHlTblF6aUNjZjZ6c3diZUZlWmRIeWJjMTFaMzl1aUxZR2ZKQ0JVY1ZVYjhHVW0xNVNZT3NEejg1ZlBQbTE5S0hzdmwtVUVibngtU2NIVmpPbG1fTTVpTFcwZnJKdTNr?oc=5",
+        "pub_date": "Thu, 27 Aug 2020 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Samsung Electronics Plans $7 Billion Share Buyback - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPTGdGd0RMajg4WUlvTHkwS1Mwc0FyT3B2Y3AtbHpZa2pIb3BxYXdwempSN0U2bVl2aVlZX0QwZ3dXeWVpbHAySjV3ajNOX1dPb0ZQR2lhYy1NcXM5Z2M4YzdoQU16clNhVUduTl9lamhHUGR2TXAtRzVzNHR4QTZlYTN5ejNfV1JJS3lKZ0pGUXhpZlNyMjNBbFpZcEozRXBYYlZYNHFteFJrSHZ5YkFoRFZrRU1fc3NjendqUEU0em9YTFRUTGZ0SEppUTktcmp1VGVCaEJPUENtRkNBSXFnSjZ1SzJuWW9VT1pwSTFWRng4Y2tpMkNLVHpGdGtxYzJGVFRxbm4xUDVlNnZEd3BWRXlLVkJobVlQTzF6TXVfYkVRcVRSYlk5a0Z3dHBJQm12WVd5T2ZaU0VUOHo3RGg0SEVQQXVnODJ5b0dnYkdQdW5jNEhPSk5Uc1ozbEM5MHdVa2lyeGpqaEZneWh5Ym5sd01jSEZGWmkyaDlPX3p1M2hOOVhwcTN6STE3NXBjY0hIOUdGRXhB?oc=5",
+        "pub_date": "Fri, 15 Nov 2024 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Samsung Electronics Co-CEO Dies, Worsening Tech Firm’s ‘Crisis’ Moment - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQUEVnVVJOMVV2a2RhRFZJS0VzWUlQNTFHLXBrcEU0QUp3OEdEZzdkd0l3M1dDQVYtelR6SWlZRHFnQjVwRDNlSk1udEtVOXpic2FaQVRNdUlHYUwtNDE1T1BHUEJ3bUdnMG56VzFVVUk1R3poWWJWOHRWWWgzcjZvZzFJanNRaUlORkswcm93ZDFhdm95RXlCT0l4cTFLTnAtN0Jqc3pCaUZHSGh4aU1oSW12aUxWaWFkUm9kZE1RZXl1MjZKYW44WV9USklHNERnR0tyZ2VYeF9JczB2c3dSSTZMblhzd1pqTkNuXzJva1c3XzdTT1cxT3dLOFZGNkxwTzVkMTN0VU04WW5CWnlPVjNHMHJuakhHZXpQNkY2b1Q2cHhjb1JBYmpBYV9sX0ZCSGFRSGIwR0RZQjluX2U1RnhlM3VjY2g5V25jR0paYS02MElVbU83WGRQYzdyZ19zY0VOenRhNmZvcV9paTFKNEFoTF8wOUxVMDVkNGtQcDJuSHIzcnJORXNQUFZJems?oc=5",
+        "pub_date": "Tue, 25 Mar 2025 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Samsung Takes Intel’s Chip-Seller Crown, but Bigger Showdown Looms - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxNRVVsMlBEdm9OZVpobC14SDdmbXJRbjRucEtDdTJXa1l2LVFRU0NtLUpOMno2di14LUFHa29ubVo0ZEVxanNEOEc3WGxfanFBRF96MHlybmJTSjBjbmpnUUpQOS1NRHNKSjJ4TWk4WnFWb0cyczJMM1N0bWF5aDh2UG1sWGFacmNyTWFMX1NNaGlzMzZId3UyQ2wtRnJwcXJHQllVVHRZS2x1SmQ4eW9wNTlzUlVDQ1c1Nko0QkYxV3J3enhzd2FmUjVNYUI4OENpTU0tdXRXTjlsNndCSWo3MnVhc3hRYmxJV2ltTDhIRTI0a0J3TFg4bHRzeW9SYUVWVVQzUmJpbXdNX3EtVUpxNEpubTM1Zl9xckdPNkN5a1dwUE1vRjAxZG1KaG83VWhuSkNpbXhLeFhSVnFneDVIMFdLcG9JZElMRERsWjJlTmJXZXV0TjZiQ2pNTW1OOFU5X19uU2hSU1dHZDJ5bTBKcElNaENWb1N3MWxOSlYydHBjU2JZeGlrNEJQaFZYODBXYmJkaXhBeVduM3V1MDB1YmxXeUZ4MVBx?oc=5",
+        "pub_date": "Sun, 01 Aug 2021 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Samsung’s ‘chip crisis’: AI ambitions hit by unprecedented worker unrest - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jdkc3cjRpTUpVMV9YWHg1a3NRMnNJWXlNdTlScHI2X0g2cFlVZDJ5UEJDc05rcElHMnQ5MWM1a202YjdNMkpVeWw1ZF95MWprNjE3aUsyS0hYVDJDenFiOFZIQmNtYWFUUmlxRVNPOWc?oc=5",
+        "pub_date": "Sat, 13 Jul 2024 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "SoftBank in talks to invest up to $25bn in OpenAI - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56LUVRZ1E1UjNRTDZ5dmJ4eHQ3M09icVFrRVVKc1VJUFZNSlFUcDZuVnFOTThxZmFnTkp0al9wVGszc0lxVkpJXzVuTmRtV3ZGZGlRYXM5dGx1UVBrUWV3eTFkXzFxb3U0MFJUbXNMdTE?oc=5",
+        "pub_date": "Wed, 29 Jan 2025 08:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "SoftBank’s Masayoshi Son and OpenAI’s Sam Altman bet on AI — and each other - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV2U0Y1dVZEgxVzRCcTh0Qi1hYUZFcWRiR2hKTjNyUjV2a1czRmFuX0FqYVhpdXVTdW1yVXUxX3ZKVzZrMm5Vc0c4Q0tVYi1Ddnhwd1ZVUWg5eGwwdzFlV1Boa3ZwNXJDb0RFYW9kc2xhVEpPVkM1cDhRRTE0RElNZk1UVXU?oc=5",
+        "pub_date": "Thu, 06 Feb 2025 08:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Vietnam smartphone makers break from Samsung empire - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNclREcjRYWExKcDE4N3hUcUcyTnR3RlpvLWdfX3o5eHdFUmZpVHhNS05Dcy1Da2R6azNnaUx0SnhTYVB4XzBRSjNYMF9GRHpWN2NBbnlTcl9oTjI1WmNSV1FBZE1OZHI2Xy1adFc3M1BydHYtRzZpbzlXVXZ1Z3BzQnhFbEQzNnF0UHBhNlRPaHJIVHZJUFNqSlJB?oc=5",
+        "pub_date": "Mon, 02 Jul 2018 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Mid-career talent drives South Korea's startup surge - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTndvdFBQcldlaEJZZmRFMXE0NnRyTmJGemRTU25yV2JWbTdfSlpkMkhVLWFKdWVpM2xfM0laWW5jRVFTanlyemFkSlpFZEdFWnpsQlRYN2VYT2M1Zm9mTkJHdjJmb05tOE53bG9UODg3dHFrSVJSTUgyTmlsMk1pQjhYSUFuSTQ2SElYY0VIVjBDU3hVNnY5TkxHRGQwcTQ4dXh3?oc=5",
+        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Foreign investors buy most Japan stocks in 11 years on election high - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMjlxcXVUQ2s0QUN4cGlWczBFMExoeTg1c3pyeGpkVjkzMnpMZmJwUXBxTlVIRWlFb0lUZnZCMFlxaHhvTkRFZnJ5SUQ5QjVBZ3k3Z09WSkhkNGFNcm5aeXJYOGNncnN1VmxQUGVlem5Qd0dROEVJZ3dMSmUwUWtucjJYSkRCc05mcFc3a3NVUE5KTnN6Ni0wZHA0clQ4aEZZVWJ2UW1TN0RGYktTZVBvTkVrUk1hdWJsR3c?oc=5",
+        "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "How Apple’s Need for Cutting Edge Screens Kept Tech’s Unhappiest Marriage Alive - The Information",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQajl4dXhHOGx6VGt4YlVQMFNZWWtBbEc3TWQwem04ZDYwZWhtdlN0dDVDUEVvTnJ5SlI3a0dmMHQ1XzR5ampPZjlteEFLVmZDUjhyQm9rd1NXaXQwN3RieUp4a0NBekpYWnFWZUNlQ3U5NWZWckozSWlVZm94OXpGNHhRNmlZRjVOZEFCUGY2VzZlckp1QTlTa0luME1WMnpFMVZEWXFjT0tJMFlpWFFzX3h4NEJnazho?oc=5",
+        "pub_date": "Mon, 06 Mar 2023 08:00:00 GMT",
+        "source": "The Information"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "삼성전자, 오픈AI도 뚫었다…'HBM4' 단독 공급 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52WkJnclYzNU1BZjRHUVpkQUZ1WnR5UWVEbXZjUGh5ejVxNTRWd0QwbGlKYXAyV1k3SDZ0b1lqeGFrQkxtank0MFpTMy1TV1QtaTI4U2xIRjBSQdIBVEFVX3lxTE5NMzVjbFNyNjQ4aEpNSTVOd1ludnRNRDhHcEVWbDlNc3Y3NDFYZkk1SmhyOTRWZGI5NWdJRTNNcS1jaTAzTjVSNGZBQ3VFWF83ZklIbQ?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:38:03 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "\"삼성전자·SK하이닉스 잡아라\"…젠슨 황·리사 수, 'K-반도체 동맹' 사활 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14R05iektVbTM1NTBfSmwwU0lUWnpvSmJQYnhoS1Z6YVpPdU40MUlndV9WcGxjeXF1OFI5bWtJRTg5bS1feHNXaG9sdUZyOGpOSENkY0d5ZlkyajFDMTJGcU9fclpnZ3BJLTJSeg?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 23:31:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "\"어쩔 수 없다\" 삼성의 '승부수'…고심 깊어진 SK하이닉스 [황정수의 반도체 이슈 짚어보기] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rRE9wLXVHNFZHV0Z4dkpfMzJTTDctMHNWSjNqbVNfX204cXhTZW9iejZ3RmVsdnFQV3M1bng3ZDQzbUhxOG53MC1uTjdXSWxmd3JCOVdxYzZfUdIBVEFVX3lxTE0yYm80b25vb3pUNUdMWDZwSVVIZE8zb3VTWVpSRW1ITlVJM29SMWV6REFjSUFCSEViSGpnMC1BYzhEM0ZBSXVOczNKNnNaRWZmLTk3MA?oc=5",
+        "pub_date": "Sat, 21 Mar 2026 08:15:43 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "머스크 “AI 칩 ‘A16’ 설계 연내 마무리할 듯”… 삼성전자 파운드리서 생산 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVm1BdmxMSXYySUU4ekxMcHRDbWd4eEtVLTZabHA3d1k0MkR4OU1sRWtPZmxmY1oxQktFYzluY1VKOVhKYVdzbXhXVTVKRWlrbTZvTlZrLXpOQW5XUkNXaXRmT2lwSERVNlVCZ0lCWFV4WkNobWFicUVxWFBnMlpqcUln0gGWAUFVX3lxTE5lYmZVZDczbndJREVETzZMcU5BaHE5NDRzZFdYbUNaMFBMcVVKZzJKWHo4ckNvRGx2RFYtRVY5TjVNYUxMaVJiMndldE1aV1lwTzBaXzhDTE11TTVEbVZRQzJzMXJsTVVSQkRzRTZTTVl4azhzVXFYaFVwNG1SZ3JPTmY5UFhoTm9pUG1YYi12TE5BVm05QQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 08:32:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "권오현 전 회장 “나는 이상한 삼성맨… 주말 쉬고 칼퇴근, 위임 철저” [김지수의 인터스텔라] - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNDJXb3ZYRjBjc05rTWQwQV95NjR1a3FtRkhNQXBfV1VXR2xWTFZ4LWhuTjVLeDREWW5PV2daUmg3TmMyZmpNUXNaVkFaNFNRWmNYN1N0dEhXTkd2d0FUSkMweEFweDZzV0RmX3lydUVBSmNqVGdyWVVHU0pCOHd3QXNJcy1SZVhJYUNpYkV30gGiAUFVX3lxTE1ueW1ROWhzM3MyMmtHRV9CNlBMZWl1OVVCNWRRb25lYV9DajhMcmxBUzJRN2lsZzktZ1BDelBrMGp6bzRBQzkxLXFaOG9GeUMwWkNiQXdPeWQxaThFRERwRVQyNDBvZVVIaWt0bzUwYkUzWTJtLUFmT3JXQzZHbW9ZbmtySl9DSmN3VkNYTEowX1ZlekRCQ2NUeUdDTXhSb0R6UQ?oc=5",
+        "pub_date": "Sat, 21 Mar 2026 00:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "삼성전자, KB라이프·KB골든라이프케어와 ‘시니어 헬스케어’ 사업 추진 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUE9JcWxZU0plcDBlQ1dsZ3FJTndQXzV4V1gydzlodEctbVh0SjBnaHc0YWtZTDhyY21GY0lZbGdpVVJwN3JZRkpYbkJvbklULWV2bFpjbWlxaTVjc3NleXhCbGpNQlA3eEo3STI5YXBNbWcxNS1ueFIzUjhPeDhEdlV30gGWAUFVX3lxTFB4OFRURE5sckJEMVRGOGRxcFlCU0x5Wlo4ejNxVXlPTzlCcjhvS3U1U2pzd1lYT29SeGt3b0phQjZPZm13S2lWTmdmc0VrWnlDVEl4T0ZJRXQ0aTUtbEZXSXJoOGxMeHZ0TVliQnZEb2ZEd2E1Ym5TaktSYTVWYVA1ckpJcDZCeEpJN0l3SjhLY1FEVEVPUQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 01:22:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "삼성전자, 시니어 헬스케어 서비스 개발 나섰다 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iN3lvd052eFhJYXlXa3A2cGNhaUswZjBFaU5LVW52S0RJNzFoWGVfaTFzbkRuanM2NEwxVUVMNG1QM0dNS28xcWE3c0FoaDU1aHRwVDZB?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 05:08:37 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "삼성전자의 HBM 와신상담과 로또 맞은 ‘그록’ (하편) [전자만사] - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBVjZKT0dTLUR1TVZMdUNtajJNckFLdmtLdUl3Q2VMRkhxMlBBNlZLY0VTQmpyd0oxbVpDWnhNT0YzdVd6Z0tCS1dJVWw1aEVZeHFtMlVn?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 06:18:21 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "삼전 통큰 투자에…웃음짓는 반도체 장비株 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ScXRSa1VELTFZTGxuOEZYeWZYSFBFaXJmQ0pMOEx6UWcyMnJJR2Z6QjlQWDRCaE5sN2hZbUMyNGRKOG1XSXNtNGJqU3lJYmdIalE?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 08:36:47 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "삼성전자, 올해 시설·R&D 투자에 110조원 이상 투입...\"AI 주도권 확보\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ETGYyazlJTFRjYUc2OXNnWDVkZnlJTTJmNmhnQjh0ZzV5R3pyMTlLS0t6bHU4M0t1TURackZBdXdDek1BQUFaSUQyZW1rQnRrVjFMUTlB?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:26:36 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[현장] HBM4 앞에 주주들 '북적'...\"삼성, 올해 더 대박날 거예요\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oRWllZ0QtVHRoTjN0ZEZ1bU4xZ0N0djVyZmJxaFNpVFA5V01OTXhraXBhd0lOaG8wWTNSRl92NU5OWUNia2JJcVFFQ3YyWDlONWYzSGd3?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 00:17:04 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "삼성전자 노조 총파업 가시화…화성·평택 등 반도체 생산 차질 우려 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tMDZfTkFOS0ZJLTFKR2pjVmtOOEFtVmNMX2lJRnVZWHVqRzRBZEVQZEpsUXlxckF4OEJoV3M0UVVadmJZWDVoa1lSUm1abm9iZHdveXpB?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 07:46:02 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "삼성생명, 삼성전자 지분 624만주 처분 완료…1.2조 확보 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1OV9YVFl2WFNkRzJlSHRTenAxc0lkUDRfbTRfa3dxQS1TTERsM3VFNnp2UDAxMnJaalNRLUNhNnVWdldWMEl5ZDBJLVAtMGFINlo4LUFwbTVCLWxZVjhHQ1RpM1B4WTB40gFsQVVfeXFMUEdyQUw2TlZTUE9vYXUxVmI1cDZPZUhHck5WZ1FWcnk5Q2dwdTUyR184NHh4WEMtclJlbmUwZGVIXzZfS2VnanFPUVhNSm9NZnNFZjVfbkp4M0o4QWh0anUtcmlNbEFmVWJkSHFx?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 00:48:22 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "‘5만→20만원’ 삼성전자 주총, 1년새 야유서 환호로 [현장+] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zN2o0RDhXUm1XQ0JXNmhyUnl6NWRXbVVkZHNPMEhZLXZ4Q0dkWmVrNUJzRW5pSDhzMjRWZ3dVVlZ5andKZGliamM2bHkwM2Q2YnZOV1FDV0JfMTRYZWN4eDJZcnhpaFJX0gFsQVVfeXFMUG15X05GZHJhc2JSSWhZMFlFVFF6WkJMcUhOUENBdFZLVTFiREotT0JPX2x1QXo3UUQ5U0ViNWFmem5RX2RZT0pDRG92ckhHV1FSZmxsOV9QeHdRVzJwWE5iWjlDdWNvN2ZyYU01?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 01:37:57 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "삼성생명, 1조3000억 규모 삼성전자 주식 처분 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5WcmdLOWlIaC1Gcmx2Q3JQajBfV3JGd0Z1N3FXU2stYndhVUlWZ29KNDBWYV8xOHlPM1luOFlJMmlaUjJwdmVoa0NIR1I4bTFLUHJLc1pPaG5wbUJ4LXJzWmVZeWFXd0J10gFsQVVfeXFMTmNXUDZyWFkxbmpIZVRSVmUxWXBXX3ZmU3NULVdZbW01VFF2ZG1wR1lFcDFhMDI3NzhMd0hmd2EyMlNSWjExTjBGMHdkdGM4LU1BWXo2TmlUOXV6X1lDdHVnTElDMThtR19seTJW?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 09:07:34 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "삼성 갤럭시 S26에는 3개의 AI가 돌아간다 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzVF8tWHdxVXR6YnRiWjhLNnRkS1ZmR280WjR0QXp2QmhlNnlFd3VkczQzZ2VLY2tybnBBai1rMDg2ZFNFNU5qT29yTQ?oc=5",
+        "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "스마트폰 메시지에도 AWS 솔루션이…삼성 RCS 데이터 정합성 확보 역할 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1YWUZzV09zOWVWVTZzTjRZSk9OcDJmamdZNl9oLU52WVJ5R2tDSV9HbGt5bHFob3FOemdhTUhRenFmVmlsTVJZcEhHQ0FsVGs2?oc=5",
+        "pub_date": "Wed, 03 May 2023 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "[CES 2023] 삼성전자, 글로벌 파트너 맞을 맞춤 가전 전시 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wUWlUSWU0QUZTU2xIZTZ0YkNyREl6YWt6cUs4NjhPa0ZDT3pkSWZDNTB2YjQzYjZDbnBXb2xISHZrS0t5TTJnMnJKZXkzaDc0QTlhbXFCbmRHcTlfWS1J?oc=5",
+        "pub_date": "Wed, 04 Jan 2023 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

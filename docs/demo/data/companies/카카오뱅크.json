@@ -1,0 +1,816 @@
+{
+  "company": "카카오뱅크",
+  "sources_used": [
+    "exa_search",
+    "google_news",
+    "dart",
+    "naver_news",
+    "credible_news",
+    "brave_search",
+    "naver_search"
+  ],
+  "result_count": 15,
+  "sections": [
+    "strategy",
+    "financials",
+    "tech",
+    "culture",
+    "overview"
+  ],
+  "data": {
+    "recent_news": [
+      {
+        "title": "[핀테크핫이슈] 금융권의 역습...각종 IT 서비스 전면 배치",
+        "description": "인공지능(AI) 서비스 개발 협력 및 공동 비즈니스 발굴을 위해 전략적 업무협약을 체결했다. 삼성전자가... 이용 실적 확대 등의 영향으로 분기 기준 첫 흑자를 기록했다. ㆍ카카오뱅크 3분기까지 순익 859억...... ",
+        "link": "http://www.digitaltoday.co.kr/news/articleView.html?idxno=252566",
+        "pub_date": "Tue, 10 Nov 2020 08:03:00 +0900"
+      }
+    ],
+    "company_name": "(주)카카오",
+    "company_name_eng": "Kakao Corp.",
+    "stock_name": "카카오",
+    "ceo": "정신아",
+    "address": "제주특별자치도 제주시 첨단로 242",
+    "industry_code": "63120",
+    "established": "19950216",
+    "homepage": "www.kakaocorp.com",
+    "ir_url": "https://www.kakaocorp.com/ir/main",
+    "stock_code": "035720",
+    "corp_class": "Y",
+    "employees": [
+      {
+        "position": "전사",
+        "gender": "남",
+        "headcount": "2,166",
+        "contract_workers": "20",
+        "total": "2,186",
+        "avg_tenure_year": "6년 4개월",
+        "total_salary": "122,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "전사",
+        "gender": "여",
+        "headcount": "1,587",
+        "contract_workers": "149",
+        "total": "1,736",
+        "avg_tenure_year": "6년 3개월",
+        "total_salary": "92,000,000",
+        "avg_salary": ""
+      }
+    ],
+    "financials": [
+      {
+        "account": "자산총계",
+        "current_amount": "11590369398820",
+        "previous_amount": "11607486907579",
+        "two_years_ago": "11354868024171"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "7477584262907",
+        "previous_amount": "7214324930736",
+        "two_years_ago": "7183172116575"
+      },
+      {
+        "account": "부채총계",
+        "current_amount": "4112785135913",
+        "previous_amount": "4393161976843",
+        "two_years_ago": "4171695907596"
+      },
+      {
+        "account": "영업이익",
+        "current_amount": "440242465351",
+        "previous_amount": "491969958048",
+        "two_years_ago": "533021659728"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "1608637288456",
+        "previous_amount": "1401810048845",
+        "two_years_ago": "1391076211720"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "5933966163819",
+        "previous_amount": "5821850796030",
+        "two_years_ago": "5744620766690"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "44299522000",
+        "previous_amount": "44416211700",
+        "two_years_ago": "44534987800"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "-26929676338",
+        "previous_amount": "-19673062884",
+        "two_years_ago": "-4630358666"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "-82389035030",
+        "previous_amount": "-34079062955",
+        "two_years_ago": "7570509031"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "7477584262907",
+        "previous_amount": "7214324930736",
+        "two_years_ago": "7183172116575"
+      }
+    ],
+    "naver_blog": [
+      {
+        "title": "토스 어시스턴트 서류 합격 후기 [토스 인턴 지원_GA... ",
+        "description": "합격 수기 토스는 계열사가 정말 많은데요 뱅크, 증권, 페이먼츠, 플레이스, 인슈어런스 등등 네카라쿠배당토? 중에 카카오와 함께 계열사가 많은 기업입니다 제가 현재 근무하고 있는 곳 오늘 후기를 적는... ",
+        "link": "https://blog.naver.com/pkm1328/224224078870",
+        "pub_date": "20260320"
+      },
+      {
+        "title": "카카오뱅크 자소서 대필 및 자기소개서 대필 합격 비법 공개",
+        "description": "실제 후기겠죠. 이 업체는 이미 수많은 합격생을 배출하며 입소문이 자자한 곳입니다. 카카오뱅크... 되고 면접 준비까지 자연스럽게 이어지니 일석이조 아니겠어요? 결국 지원서는 저라는 사람을 기업에 파는... ",
+        "link": "https://blog.naver.com/sujinsujin94/224222963742",
+        "pub_date": "20260320"
+      },
+      {
+        "title": "존버는 승리한다! (인턴 구직기 마감.)",
+        "description": "(이 외에도 최근 대기업 공채들 여러군데를 썼으나 결과가 안나왔기에 이는 제외한다.) 한화자산운용(채용연계형 인턴) : 서합 - 1차면탈 카카오뱅크 인증사업지원 어시: 서탈 토스 계열사(2개 지원) 어시스턴트... ",
+        "link": "https://blog.naver.com/makedreamcometrue18/224222895613",
+        "pub_date": "20260320"
+      },
+      {
+        "title": "부경대 사학과 일반 편입 합격 수기 : 공부법",
+        "description": "ㅜㅜ) 자료 찾기나 편입 합격자를 찾기가 너무 힘들더라고요 그래서 저는 카카오톡 오픈 채팅방... com/o/gmT9xDjf 토익(국립대)편입 준비생 or 합격자 (비밀번호 : 토익만점 점수 + 0) #토익 #편입 #토편... ",
+        "link": "https://blog.naver.com/seyeong3908/224222648105",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "삼성전자 상반기 3급 신입사원채용 면접준비 기출질문 합격전략",
+        "description": "Gen-Z 문화 이해도 해외영업 B2C/B2B 영업 (영상디스플레이, DA, MX, 네트워크) 전공 무관 (네트워크 B2B는... 저와 함께 면접을 준비하신다면 제가 대기업 면접관의 관점에서 합격비법을 전수해 드리겠으나... ",
+        "link": "https://blog.naver.com/jinsimcoach/224222517967",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "인턴 채용공고 및 일정, 연봉&amp;복지, 합격 자소서",
+        "description": "⛽GS칼텍스 2026 상반기 채용공고 보러가기 전형절차 전형절차는 서류 - 테스트(온라인) - AI면접 및... 정유석화 기업의 합격 자소서 또는 채용 후기가 궁금하시다면 댓글을 남겨주시면... ",
+        "link": "https://blog.naver.com/dufrhd202020/224220887656",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "2026년 피스트로랩 고객후기모음 - 01",
+        "description": "지속적으로 실제 고객후기와 작업물을 게시하도록 하겠습니다. &lt;피스트로랩에 인생이 걸린 이직을 맡기는 이유&gt; &lt;포트폴리오 수정으로 10곳에서 면접왔다면 믿으시겠어요?&gt; 모든 상담문의(카카오채팅방 or 톡톡)... ",
+        "link": "https://blog.naver.com/pyorisa_/224220846662",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "Talent hy-way (신입사원채용) 면접준비 기출질문 합격전",
+        "description": "능력 기업문화(HR) 학사 이상 / 전공 무관 글로벌 역량, 데이터 분석 및 AI 도구 활용, HR 자격증... 저와 함께 면접을 준비하신다면 제가 대기업 면접관의 관점에서 합격비법을 전수해 드리겠으나, 혼자... ",
+        "link": "https://blog.naver.com/jinsimcoach/224220480437",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "[캠우리 7기] 이과생의 우리은행 대학생 홍보대사 합격후기... ",
+        "description": "(개인/기업금융)가 운명처럼 다가왔습니다. 결국 3학년이라는 늦은 시기에 과감히 진로를 변경하게... 12) ※ 서류 접수는 1월 7일 09시부터 1월 14일 18시까지 (기한 엄수 !!) ※ 서류를 합격하신 분들은 대면 면접... ",
+        "link": "https://blog.naver.com/gyo3437/224220353787",
+        "pub_date": "20260318"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "국회의원SNS소식20260321토요일",
+        "description": "아직 참여하지 않으신 당원께서는 카카오톡 메시지를 확인 후 꼭!! 투표해주시길 바랍니다. 참여방법 (1)... 전체회의에서 복지부에 주식, 채권, 대체투자 부문장 신설 등 국민연금 기금운용본부 조직 재편 필요성에 대해... ",
+        "link": "http://cafe.naver.com/jungamironware/9266",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "충청남도보도자료20260320금요일",
+        "description": "19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자... 천안시 복지재단 ‘따숨푸드뱅크’에서 운영 중인 그냥드림 사업 현장을 방문해 추진 현황을 점검했다고... ",
+        "link": "http://cafe.naver.com/jungamironware/9239",
+        "pub_date": ""
+      },
+      {
+        "title": "[오늘의 인기뉴스] 2026년 3월 20일 금요일",
+        "description": "대통령 “채용 때 월급 안 알려주는 건 문제” 지적에…‘연봉 비공개’ 관행 사라지나 세계일보 18분전... 주가조작' 카카오 김범수 오늘(20일) 항소심 시작…1심은 무죄 데일리안 20분전 셀트리온, 글로벌 시밀러... ",
+        "link": "http://cafe.naver.com/greens9ac3/10623",
+        "pub_date": ""
+      },
+      {
+        "title": "판교 개발자 연봉 현실 및 기업 분석 총정리 (네이버·카카오·엔씨·크래프톤 중심)",
+        "description": "판교 개발자 연봉 현실 및 기업 분석 총정리 (네이버·카카오·엔씨·크래프톤 중심) 판교에서 근무하는... 낮다 복지 및 근무 환경 연봉 외 요소도 중요 성장 가능성 향후 커리어 확장 가능 여부 조직 구조 자회사인지... ",
+        "link": "http://cafe.naver.com/smeinfobank/187",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "정신아 카카오 &quot;미래 성장 전략 위해 빠른 투자·대담한 리더십 필요&quot;",
+        "description": "신중하지만 대담한 리더십이 필요하다.카카오그룹(의장 정신아)이 AI 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로 논의했다.카카오그룹은 지난 18일 오후 경기도 용인시 ‘카카오 AI캠퍼스’에서 주요 그룹사 임원들이 모인 가운데 경영 워크숍 ‘원 카카오...",
+        "link": "https://zdnet.co.kr/view/?no=20250319172355",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오 정신아 &quot;'일단 해보자'는 접근 위험…명확한 방향·속도감 있는 투자 필수적&quot;",
+        "description": "카카오그룹(의장 정신아)이 AI 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로 논의했다. 카카오그룹은 지난 18일 오후 경기도 용인시 ‘카카오 AI캠퍼스’에서 주요 그룹사 임원들이 모인 가운데 경영 워크숍 ‘원 카카오 서밋(One Kakao Summ",
+        "link": "https://www.aipostkorea.com/news/articleView.html?idxno=6876",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오 계열사 CEO들 한자리에…정신아 대표 &quot;AI로 미래 연다&quot;",
+        "description": "[ⓒ 카카오] [디지털데일리 조윤정기자] 카카오그룹이 인공지능(AI) 사업을 중심으로 한 미래 성장 전략의 방향성과 실행 방안을 집중... 비롯해 카카오, 카카오게임즈, 카카오모빌리티, 카카오뱅크...",
+        "link": "https://www.ddaily.co.kr/page/view/2025031910591757686",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오, 경영 워크숍서 향후 15년 AI사업 방향 논의",
+        "description": "카카오그룹이 AI 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로 논의했다.카카오그룹은 지난 18일 오후 경기도 용인시 '카카오 AI캠퍼스'에서 주요 그룹사 임원들이 모인 가운데 경영 워크숍 '원 카카오 서밋'을 개최했다고 19일 발표했다.'원 카카오 서밋'은 주요 경영 현안을 점검하고 핵심...",
+        "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=788530",
+        "pub_date": ""
+      },
+      {
+        "title": "15주년 맞은 카카오…정신아 “신중하되 대담한 리더십 필요한 때”",
+        "description": "카카오그룹이 인공지능(AI) 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 논의했다.카카오그룹은 지난 18일 오후 경기도 용인시 ‘카카오",
+        "link": "https://www.itbiznews.com/news/articleView.html?idxno=163174",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오 정신아 &quot;AI로 미래 열 것&quot;…15주년 경영진 워크숍",
+        "description": "카카오그룹이 AI(인공지능) 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로 논의했다.카카오그룹은 지난 18일 오후 경기도 용인시 ‘카카오 AI캠퍼스’에서 주요 그룹사 임원들이 모인 가운데 경영 워크숍 ‘원 카카오 서밋(One Kakao Summit)’을 개최했다고 19일 밝혔다.‘원 카카오 서밋’은 주요 경영 현안을...",
+        "link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2022952",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오, 15주년 맞아 그룹 경영 워크숍 성료",
+        "description": "강조 카카오그룹(의장 정신아)이 AI 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로 논의했다.... 비롯해 카카오, 카카오게임즈, 카카오모빌리티, 카카오뱅크...",
+        "link": "https://www.kakaocorp.com/page/detail/11502",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오 정신아, 'AI 대중화' 전략 제시…모델 최적화·플랫폼·데이터",
+        "description": "인공지능(AI) 대중화를 위한 그룹의 세 가지 전략을 제시했다. △자체... 윤호영 카카오뱅크 대표는 AI와 금융의 결합을, 류긍선 카카오모빌리티 대표는 상생과 동반성장의 기조에서 진행 중인 신사업 방향성을...",
+        "link": "https://www.bloter.net/news/articleView.html?idxno=633449",
+        "pub_date": ""
+      },
+      {
+        "title": "AI서 위기극복 돌파구 찾는 카카오, “지금이 혁신 기회… 속도감 있게 투자”",
+        "description": "대표가 AI 시대 카카오 전략을 발표하고 있다. 카카오 제공 문어발식... 잡혔던 카카오그룹 경영진이 인공지능(AI) 사업을 중심으로 위기를... 비롯해 카카오, 카카오게임즈, 카카오모빌리티, 카카오뱅크...",
+        "link": "https://www.donga.com/news/article/all/20250319/131240296/1",
+        "pub_date": ""
+      },
+      {
+        "title": "카카오, 국내 최초로 오픈AI와 전략적 제휴 체결",
+        "description": "열고 전략적 제휴 체결 발표 - AI 서비스 대중화 위해 기술 협력… 카카오톡, 카나나 등 서비스에 오픈AI 기술 적용도 - 정신아-샘 올트먼 양사 대표, 협업의 비전과 향후 방향성 등에 대한 대담 진행 [2025-02...",
+        "link": "https://www.kakaocorp.com/page/detail/11450",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "카카오뱅크 인재영입",
+        "url": "https://recruit.kakaobank.com/jobs",
+        "description": "공고 더 잘 탐색하기 · 채용 중인 공고가 없습니다"
+      },
+      {
+        "title": "[우리는 이렇게 채용합니다-카카오뱅크] 학력·스펙보다 '문화적합성'중시 | 서울경제",
+        "url": "https://www.sedaily.com/NewsVIew/1Z1BHU53SF",
+        "description": "무엇보다 ‘다름’을 인정하고 존중하는 태도를 중시하고, 정보가 독점되지 않도록 공유하면서 가능성을 열어가는 구조다. 카카오뱅크가 학력이나 ‘스펙’보다는 직무경험과 역량, 무엇보다 ‘문화 적합성’을 중시하는 배경이다."
+      },
+      {
+        "title": "[카카오뱅크] 근무제도 기획 및 운영 담당자 (채용연계형 인턴) | 공모전 대외활동-링커리어",
+        "url": "https://linkareer.com/activity/246652",
+        "description": "[카카오뱅크] 근무제도 기획 및 운영 담당자 (채용연계형 인턴)합니다. 모집인원은 0명이며 인사/노무/교육, 경영/사무 분야의 인재들은 지원해주세요!"
+      },
+      {
+        "title": "[우리는 이렇게 채용합니다-카카오뱅크] 학력·스펙보다 '문화적합성'중시 : 네이트 뉴스",
+        "url": "https://news.nate.com/view/20200402n39006",
+        "description": "무엇보다 ‘다름’을 인정하고 존중하는 태도를 중시하고, 정보가 독점되지 않도록 공유하면서 가능성을 열어가는 구조다. 카카오뱅크가 학력이나 ‘스펙’보다는 직무경험과 역량, 무엇보다 ‘문화 적합성’을 중시하는 배경이다."
+      },
+      {
+        "title": "카카오 채용",
+        "url": "https://careers.kakao.com/",
+        "description": "You need to enable JavaScript to run this app"
+      },
+      {
+        "title": "카카오뱅크 채용 - 2026년 채용정보, 자기소개서 문항",
+        "url": "https://jasoseol.com/companies/4699/careers",
+        "description": "카카오뱅크 신입, 인턴, 경력 최신 채용공고 정보와 자기소개서 항목, 직무별 지원자 수, 합격 스펙까지 한번에 확인하세요."
+      },
+      {
+        "title": "카카오뱅크(kakaobank) 기업정보 - 채용 3건, 평균연봉 10,236만원, 인원 1,703명, 업력 10년, 경기 성남시 | 원티드",
+        "url": "https://www.wanted.co.kr/company/593",
+        "description": "카카오뱅크(kakaobank) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "2026년 카카오뱅크 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/1680825862/",
+        "description": "카카오뱅크(주)는 은행·카드·투자기관 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+      },
+      {
+        "title": "카카오뱅크 진행 중인 채용정보 총 16건 - 채용 히스토리 통계 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/1415215/recruit",
+        "description": "카카오뱅크 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+      },
+      {
+        "title": "카카오뱅크 채용",
+        "url": "https://kakaobank.recruiter.co.kr",
+        "description": "12월 11일 (목) 채용솔루션 시스템 업데이트 안내 · 안녕하세요 지원자님. 저희 회사에 보여주신 관심과 성원에 감사드립니다. 더 나은 서비스를 제공하기 위해 시스템을 업데이트 중입니다. 업데이트 완료 후 지원서 접수와 ..."
+      }
+    ],
+    "google_news": [
+      {
+        "title": "카카오뱅크 AI그룹장 투톱 체제로 꾸린 이유는 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EMllLUUdqcU41Rno1Vk5lLVUwYklISGtYM01VRkt5OU9hQU80NE5LU3o5S0FkYjVVSUlheTZocjQ4elJXYU05NDN2YzVnXy1na0t6aw?oc=5",
+        "pub_date": "Wed, 11 Mar 2026 23:02:02 GMT",
+        "source": "v.daum.net"
+      },
+      {
+        "title": "AI 거품론 확산에 카카오뱅크 신사업 발목 잡히나 - 녹색경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1rZ2F1OXJRbTdEelJxY2hnY0VGM1NGNDJZSnhXdmhZbGtJQlJ0SUxVVDhfcW8xUEZSZk0yb0VFOG9hRlJmRG5yQ0JkT25BbFhocWE0T3V4YXdGX2JwWGZTMGxIWUZYUjN6?oc=5",
+        "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+        "source": "녹색경제신문"
+      },
+      {
+        "title": "​​카카오뱅크, Azure OpenAI 기반으로 국내 금융권 최초 대화형 AI 서비스 시작​ - Microsoft",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVXlVN1ZkbG1GVzlKb1BPM3M1ZXlyR2t6V3ZGNWxvZ2V0RlZheXZwdUZXc1V4Qi1EaXF3dUI1RFg1TURBVlBTTkYxOXNIX3RSZFZMYkpUQjFaVlV1TDZyRnZDZW5kZ0VyVWJpbEY4UFM5bkhvaEFXdTdiTTMxWFlRV3hIRQ?oc=5",
+        "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
+        "source": "Microsoft"
+      },
+      {
+        "title": "카카오, 창사 첫 그룹 단위 전 직군 신입공채…“AI 네이티브 인재 찾는다” - 더밸류뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVU3NjRzBteksyeS1RT1JEVElsbUlBQ19UdTBrMkxUYkZLRXNDblRLNXVkQVRINGxaQ3ljRWpleno4OENjZ2haZG5kLVpsTnFSNEV4bA?oc=5",
+        "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
+        "source": "더밸류뉴스"
+      },
+      {
+        "title": "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UczRnMUtERlN4MXo1dVB6MW9CUUtrdUplZ1NCdEdMMlBNV0w3Zi1LbE0xM01xNzBYOVVidy1hRVBkMnRLdGVUb1BBa3dQblVtWjlrZXlhM1RGbjhUczlDddIBeEFVX3lxTE1mUG9WM2UycDBmaEJ0blNmWjUwUWNTUUhtYkhHQWNtYTZFdlBjZjItTE9abUdrcHZaWVFsLUl1T3dBNEg3YlE4aDE4STMwVi12ZkV1d1lVbHFTWm4zajNvZXBrM0JtOG94cWRMX01ZYVRKMzgxWmlJbg?oc=5",
+        "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
+        "source": "뉴시스"
+      },
+      {
+        "title": "‘핀셋 채용’ 확산…맞춤 인재 확보전 가열 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WOFVJenJLMnQ2blNZOTJIVERONEUta2g1RmI2QUp2TlZLVjh0NGUwaEtVcjZCc3JZQzAyY2NXdlZFcGZJZkgwQ3JyOEtta0oxNFlpSFlB?oc=5",
+        "pub_date": "Sun, 02 Nov 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "카카오뱅크 '안전·혜택 모두 잡아요'...생활 금융 플랫폼 경쟁력 강화 - 테크M",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oSmhmMUM1X2NYaEhIamNkMW5WcmU2N3FYdjh6ZHhobjJudWRKN0R3LUpsN3g1NkxQbndxMlJHN1B6RFVnZlM3bEFoLVFfSW9TZTVuTmk2cThWamZ0Nlc3eTFGd3NpUdIBakFVX3lxTE1tTHZfRERBcGlhckIyMzhUck5taWJCRzA1Q3lQM1lyZEtHenVEX1JxcVRYclhBaVZ3SUF5MVZVNEQzR2xvWklKNGZoTFFSLTlqc0ZiRHV1M08ybkd6NVRVV0ZjMlN4Z3g5N1E?oc=5",
+        "pub_date": "Fri, 23 Jan 2026 08:00:00 GMT",
+        "source": "테크M"
+      },
+      {
+        "title": "카카오뱅크, 글로벌 인력 채용 본격화…태국·인니 진출 박차 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1c0lNWTJmWDh1YTdBVTJuY2JWWkxhTVFKNEY0b05tSzllOEFMNVZES0o5c2pYRGdpc0ZWclhLcXVDclBMZXBQcmYyLTlmZw?oc=5",
+        "pub_date": "Mon, 20 Oct 2025 07:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "카카오뱅크의 AI 내부통제 전략?… \"AI 관리가 금융 미래 결정한다\" - 디지털데일리",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2WUhZNk5tWmhvYmZaR1RTSzU2cjRhZlZTcEpkMnhfbkFOM0wzRDJSQWZnX25NOVA4Smh5Z1luM2RHZkFGdkprOVVqZVN4MnExc2tEWWpUMzZncE1QNWMyMkVBX1c?oc=5",
+        "pub_date": "Thu, 21 Aug 2025 07:00:00 GMT",
+        "source": "디지털데일리"
+      },
+      {
+        "title": "카카오, 창사이래 첫 그룹단위 공채...AI 인재 확보 나서 - mstoday.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIQkh0MjRDUHc1QVpjZk9GcWtMcU14cUtVQm8xdElCWTQyOFpLVnBkNnRoVkcyNm0zRHdRa0dLNjhiVHV4aWtkSXZtX2xOR29Ucm5mdnpDNFJXYXZuLXBnMlc2RkFDT2wzX1V4MGRB?oc=5",
+        "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
+        "source": "mstoday.co.kr"
+      },
+      {
+        "title": "[비바100] AI에 미래 달렸다… 은행권 AX 서두른다 - 브릿지경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9COGNlRVpVQ2FLZDZkY2E0WXF5YWVBdEVRZnNzaWQ2ejVBQ2ZXTTE3WTFkaklPODFJSW41VEhjbXN4bHRDZXlmUklORlF1YnQ2VWg3NzJKYjJadw?oc=5",
+        "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+        "source": "브릿지경제"
+      },
+      {
+        "title": "일론 머스크, 韓 반도체 인재 영입 직접 나서…AI 기술 내재화 전략의 일환 - 알파경제",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zcGswU2RqYU5hNklFZkRkaWE0LTVXQk1pak41UlVUeXUyOWt6dHdOMWFSZld5ak1CNHFIVV90Nlprd1kyYW5tYUVOckk2eEZBd21PVk1WcHVMa2VtT0HSAW5BVV95cUxNRDh5SUVPMG9vM0ZLY3Q3dl9QM2tSVmZ4dHhNdm5lekpCTWpiWnF5NXkxVzVXZHh6T0FqNFJyczN3MWpiek5QQ2JUYTI4OC16LXN2cUI0Z3Z4dWduMFdhV2ZSXzlKemF2dGxrXzhsQQ?oc=5",
+        "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
+        "source": "알파경제"
+      },
+      {
+        "title": "[금융권 별들의 전쟁] 윤호영 카카오뱅크 대표, 금융에 IT를 입히다…기폭제는 AI - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zYVRGbU5pc2VoZE1uMWp0al9fLVlOR0xfZTF6WmJPT0JxVkFqZnA3OUE3aElFajhUSVZMZGZQZmpzYXJsNkVkSEtyZ1hEYk9JM3daMHhMNDFndGExQUZQcDBrMklVQThj0gFsQVVfeXFMTXlmbTJ0OTliZlhEcXo2U3N3YWVmRWppZW4wVHRxdDc0Z0wwNE1MM25XVmZJdDhiYXpmR0cxVGsyb1BHR2htNEpjaGJhLVhjYmdWV2hGenR0Rl9qc2JfTG5oY2ozSFR4Mk91OVZW?oc=5",
+        "pub_date": "Wed, 17 Sep 2025 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "카톡에 챗GPT 붙이고 대규모 채용하고…카카오에 新바람 - 서울경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9hSlpSQUx0UUkyR3d0U2d2Q2M2MGdzdVZTdHpsbGxETkhNT0NodE5QY1E1TkpNOVBOdmItdmdFcXo5NmxjSVNKRXRQLUxqNzI0MGfSAVNBVV95cUxOTU0wNU9iNWRmaWQ5dWozNW9sc1VId1pkY2ljRmhnc2I3cFZydnJHREUwUzlQaHRROEI5M3RLRFlvSGxTWERrODdxLWoxTlFGQWtwUQ?oc=5",
+        "pub_date": "Sat, 06 Sep 2025 07:00:00 GMT",
+        "source": "서울경제신문"
+      },
+      {
+        "title": "카카오 정신아, 무거워진 어깨…AI 역량 입증이 '반등의 키' - 스트레이트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80VlhOQWlIODRJZmhPenU1V0NDYjcxR2dvWWkyMU5uTmVUTnF3dFRwaV9ESXBPT2FaT0hQQnRkWmkwZWtRVlZuMFBydm9GUE5tUHRiaElFaDhLYmVoNjBra01mem5vcDloZ2JPb1lPTFJqSEXSAXdBVV95cUxQUTg0eENFcXk1emVxNGlSUDkzRXhoV3BFNEg0MmU0NExHUS02NEhmRFRZcVV6SDc2bjQ3cXY4aWVoc2R1MzYyVVZBdWJScUZldDc0cDRfSFd2eXdyS3V6bFE4QjhmTDRsMGUyWS1pV2RVQ2p1UkJxaw?oc=5",
+        "pub_date": "Thu, 04 Sep 2025 07:00:00 GMT",
+        "source": "스트레이트뉴스"
+      },
+      {
+        "title": "카카오뱅크 3분기 누적 순익 3751억원…역대 최대 - 디일렉",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZOWgtNmRFcndnUWc3WFFfVm40Wi1VUnpLZ0czemJIWVJpU1V6Q2wtMXJrUTlkSmw2MnVOU2Fha0JoZlJuZy1Rc0JTakV2QXRfQTNDdWFTeGRRaERaQUhWNHpMZ3dlZw?oc=5",
+        "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
+        "source": "디일렉"
+      },
+      {
+        "title": "계속 오르는 시중금리···카카오뱅크, 자산운용 사업 '긴장' - 시사저널e",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJV3ZKM1JoQnJBbzhxU1JPZXdRZDJpVGdLYUJtN24zdjFZODlTSHVybTBpTHZkU3JxZkxhaHBiZHZCNmtRdXI5SHN5QjZCVnlXSVJ2U0o1MGp5UElzMW5HMmF3NjlHMkhvWGRzRDVXSjNDd9IBdkFVX3lxTE93emhZaldLSXAyVG5DQjBzclBxNTdaU3hRNjNNM2ZUejdhT1VLWno2T1NMUEI3SmYwd1oxUTROQi10ajNTUXg0T2NMN0lJYWkyZndMNkZrRVZMY3F5ZkV6NVBJRGkzUzlsM2N3Nk9uQ2xVS1pmcWc?oc=5",
+        "pub_date": "Thu, 18 Dec 2025 08:00:00 GMT",
+        "source": "시사저널e"
+      },
+      {
+        "title": "카카오뱅크 3분기 누적 순익 3천751억원 또 사상 최대…6%↑ - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FcFdzc1h5VEQzclNudDluRXQ5V3F5Q1VIdGxJRWlKR1J5RjFiR0VTakFnR0pJU1A1YWxkSU4zQUVGeDZzalEwNm41NndHb2Q3WW1BWWFnVWxCaG_SAWBBVV95cUxNZlc4T2pMQjUxYjNVWkpLVVktU2JDbjVzcEZwSFFlUFgwa3BVa3dfVXlVemhIR1RXcVc1cUVTM0FEZFdnVTlSQnQ4dmw5ejVpTmtPaFphX29yNWpldzhBTmE?oc=5",
+        "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
+        "source": "연합뉴스"
+      },
+      {
+        "title": "'비이자 1조' 시대 연 카카오뱅크, 동남아 넘어 글로벌로 영토 확장 - 서울파이낸스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RaXVZVFQwaGlyajJHVDRhQXNwLWpKTUJfRWZfdDBvZDYzRjNTdGxMa2FYdlM3UVpUWEJYR0k2WFRLN1Q3UEdqOFJpOUE0Rmt2ZDZHMmozLW1scE02NjlsV0lUZ3RPeUxaSmc?oc=5",
+        "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
+        "source": "서울파이낸스"
+      },
+      {
+        "title": "한국인 절반 쓰는 카카오뱅크 최대 실적 행진, 윤호영 '성장 밸류업' 고삐 죈다 - 비즈니스포스트",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mdDMxNlEzWW5oYzF4dWUzZDJqZ3VCMnF2azhrNnFRTUFHNUtFbUVBZ0k2WWUtaEdoeTNUeDdKSldONGY0cHBSS1BIWnBqWWo4UjFic2otWkI1dWQ2T0xoeUNZbzQwR05FYVBaUjF1VWluUkk?oc=5",
+        "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
+        "source": "비즈니스포스트"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "[2022 카카오뱅크 취준 후기] R&D 빅데이터 분석 연구 담당자 지원 및 합격 후기 - Hyeonjeong Shin",
+        "url": "https://hyeonjeong1.github.io/job%20interview/kakaobank-interview/",
+        "text": "[2022 카카오뱅크 취준 후기] R&D 빅데이터 분석 연구 담당자 지원 및 합격 후기 - Hyeonjeong Shin --\n\n## 카카오뱅크 R&D 빅데이터분석 연구 담당자 최종 합격 후기 - 한참 늦은 취준 후기\n\n두 번째 취준 후기.\n\n역시 합격 이메일은 다 사라졌지만, 다행히 카카오뱅크는 면접 관련해서 복기를 해둔 부분이 있다. 하지만 카카오뱅크 역시 8개월이라는 시간이 흘렀기 때문에 전체적인 프로세스 + 면접 중 느낀 점 위주로 적어보려 한다.\n\n2022년에 지원해서 모두 비대면으로 진행했다.\n\n## 채용 공고문 및 전체 채용 과정\n\n전체 과정: 서류 > 코딩테스트 > 1차 면접 (실무진) > 2차 면접 (경영진)\n\n나는 R&D 빅데이터분석 연구 담당자로 지원했다. 지원한 이유는, 1) 연구를 할 수 있다는 점, 2) 석사 전공과 맞는 데이터 분석 직무였다는 점 때문이었다.\n\n당시 채용 공고문이다. 지원부터 합격까지는 한 달 조금 넘게 걸렸다.\n\n## 서류\n\n서류 내용 자체",
+        "score": 0,
+        "published_date": "2023-09-04T00:00:00.000Z"
+      },
+      {
+        "title": "카카오뱅크 인재영입",
+        "url": "https://kakaobank.recruiter.co.kr/app/jobnotice/view?jobnoticeSn=224235&systemKindCode=MRS2",
+        "text": "Recruiter Says,\n\n카카오뱅크의 서비스 기획자는 사용자의 모든 경험을 연구하고 개선하고 만들어갑니다.\n\n카카오뱅크는 최초로 공인인증서 없이 이용 가능한 은행을 만들었습니다. 카카오뱅크는 최초로 이체 시 출금 계좌 비밀번호를 입력하지 않았습니다. 카카오뱅크는 원래 있던 상품들도 사업자가 아닌 이용자의 시선으로 재해석했습니다. 아무도 가지 않았던 길을 힘들게 만들며 걸어왔던 사람들이 카카오뱅크에 있습니다. 카카오뱅크는 금융의 기본을 철저히 지키면서도, 이제는 금융 서비스의 기준을 매일 만들고 있습니다. 카카오뱅크를 통해 더 나은 금융 생활의 경험을 함께 고민하고, 방법을 찾고, 작고 큰 변화들을 만들며 새로운 내일을 만들고자 하는 분들과 함께 하고 싶습니다.\n\n담당할 업무\n\n다양한 금융과 생활 서비스, 모바일 앱 사용성 전반에 대해 함께 고민할 예정이며, 지원자의 역량과 기량을 기반으로 적합한 팀에 배치될 예정입니다.· 카카오뱅크 모바일 앱 서비스 기획 및 구축/운영· 비즈니",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "카카오뱅크 인재영입",
+        "url": "https://recruit.kakaobank.com/hww",
+        "text": "카카오뱅크 인재영입\n\n# 작은 성과부터 큰 변화까지, 늘 ʻ우리다운 방식’으로 만들어 왔어요.\n\n### 사용자를 중심으로 생각하고 결정합니다.\n\n카카오뱅크의 오늘을 만든 가장 중요한 질문을 고르라면? \"왜 사용자가 불편을 감수해야 하죠?\"입니다.\n\n카카오뱅크의 모든 비즈니스는 사용자를 중심으로 기획, 운영됩니다. 서비스의 중심이 사용자가 아닌 공급자일 때, 남과 같은 은행이 될 것이라는 두려움이 있습니다.\n\n그래서 우리는 계속해서 질문하고, 또 질문합니다 \"이 안내 문구, 사용자가 빠르게 이해할 수 있을까?\" \"이런 방식을 적용하면 사용자가 정말 편리하다고 생각할까?\" \"우리가 고객이라면 이 서비스를 이용하고 싶을까?\"\n\n공급자에서 사용자로, 관점을 180도 돌리며 질문하고 답하는 것. 카카오뱅크가 가장 중요하게 생각하는 일하는 방식입니다.\n\n사용자 중심 | User-Centric\n\n사용자 중심 User-Centric\n\n### 업무의 경계를 넘나들며 자기주도적으로 일합니다.\n\n카카오",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "카카오뱅크 인재영입",
+        "url": "https://kakaobank.recruiter.co.kr/app/jobnotice/view?jobnoticeSn=173613&systemKindCode=MRS2",
+        "text": "Recruiter Says,\n\n카카오뱅크 대출비교서비스팀은 카카오뱅크가 은행의 역할을 넘어 대출 플랫폼을 완성하는 것을 목표로 하고 있어요.\n\n고객이 최적의 대출을 찾을 수 있도록 다양한 금융기관을 제휴/연결해 주고, 어렵게 느껴지는 대출의 과정을 고객이 쉽고 정확하게 이해하여 최선의 금융 경험을 할 수 있는 서비스를 만들어요.\n\n대출이 필요한 순간, 고객과 제휴 금융기관 모두가 카카오뱅크를 가장 먼저 찾을 수 있도록 대출 플랫폼의 기준을 만들고자 하는 분들의 관심과 지원 바랍니다.\n\n담당할 업무\n\n· 대출비교 서비스 기획/운영· 금융기관 제휴 및 연결/운영· 대출 플랫폼 지표 분석 및 관리\n\n필수 경험과 역량\n\n· 플랫폼 기획/운영 등 유관 경험이 있는 분\n\n· 금융 서비스 제휴 및 기획 업무 경험이 있는 분\n\n· 관련 경력 3년 이상인 분\n\n우대사항\n\n· 주요 핀테크/플랫폼 기획 및 운영 경험이 있는 분\n\n· 대내외 여러 이해관계자들과 직접 커뮤니케이션 업무를 해본 분\n\n· 데이",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "카카오뱅크 인재영입",
+        "url": "https://recruit.kakaobank.com/work",
+        "text": "카카오뱅크 인재영입\n\n# 서로 다른 사람들이 모여, 새로운 금융을 함께 그리고 있어요.\n\nTechService & BizDesignCustomer ServiceCorporateGlobal\n\nTech\n\n## 기술로 은행의 경계를 넓히고,가능성을 현실로 만들어 가고 있어요.\n\n### AI\n\n0AI 기술로 카카오뱅크의 금융 경험을 한층 새롭게 만듭니다. 머신러닝·딥러닝을 실제 서비스에 자연스럽게 녹여내고, 업무 효율을 높이는 방법도 함께 연구합니다. 실험과 도전을 거듭하며, 기술 중심 은행으로 나아가는 길을 엽니다.\n\n### Mobile\n\n[0언제 어디서나 편리하고 안전하게 카카오뱅크를 사용할 수 있도록, 모바일 앱의 모든 순간을 설계합니다. 안드로이드와 iOS 네이티브 환경에서 수준 높은 경험을 구현하고, QA는 다양한 기기와 상황에서 앱의 안정성을 확인하며 완성도를 높입니다.](h",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "'역대 최대 실적' 다시 쓴 카카오뱅크, 'AI·글로벌'로 성장 이어간다(종합) < 이노베이션 < 뉴스 < 기사본문 - 테크M",
+        "url": "https://www.techm.kr/news/articleView.html?idxno=149088",
+        "text": "'역대 최대 실적' 다시 쓴 카카오뱅크, 'AI·글로벌'로 성장 이어간다(종합)\n\n전체메뉴 버튼 테크M\n\n테크M 테크M검색 버튼\n\n로그인메뉴닫기\n\nyoutube 유튜브 채널 facebook instagram instagram -- [twitter](ht",
+        "score": 0,
+        "published_date": "2026-02-04T00:00:00.000Z"
+      },
+      {
+        "title": "KakaoBank Corp Q4-2025 Earnings Call - Alpha Spread",
+        "url": "https://www.alphaspread.com/security/krx/323410/investor-relations/earnings-call/q4-2025",
+        "text": "KakaoBank Corp Q4-2025 Earnings Call - Alpha Spread\n\nKakaoBank CorpKakaoBank Corp. engages in the provision of Internet banking services such as electronic financial transactions.\"\n\n# KakaoBank Corp KRX:323410\n\nWatchlist Manager\n\nKakaoBank Corp\n\nKRX:323410\n\nWatchlist\n\nPrice: 27 850 KRW 1.64% Korea Stock Exchange (where 323410 shares are traded) is currently closed\" Market Closed\n\nMarket Cap: ₩13.3T\n\n{ checkIncognito(() = { setTimeout(() = { $wire.setRestriction().then(() = { showRestrictionModal",
+        "score": 0,
+        "published_date": "2026-02-04T00:00:00.000Z"
+      },
+      {
+        "title": "카카오뱅크, 비이자수익 1조원 첫 돌파…플랫폼·AI로 성장 가속",
+        "url": "https://byline.network/2026/02/0204-2/",
+        "text": "카카오뱅크, 비이자수익 1조원 첫 돌파…플랫폼·AI로 성장 가속 – 바이라인네트워크\n\n[[웨비나] AI 시대를 준비하는 쿠버네티스]일시 : 3월 24일 14:00 ~ 16:00\n\n카카오뱅크가 지난해 비이자수익의 가파른 성장에 힘입어 실적 개선을 이뤘다. 대출을 통한 이자수익 감소에도 불구하고 수수료·플랫폼과 자금운용 부문이 실적을 견인하며 수익 구조 다변화를 이뤄냈다는 평가다. 카뱅은 지난해 연간 영업수익(매출)이 3조863억원, 영업이익은 6494억원, 당기순이익은 4803억원으로 집계됐다고 4일 밝혔다. 이는 전년 대비 각각 4.8%, 7%, 9.1% 증가한 수치다.\n\n지난해 카뱅의 여신이자수익을 제외한 비이자수익은 전년 대비 22.4% 증가한 1조886억원으로 집계됐다.",
+        "score": 0,
+        "published_date": "2026-02-04T00:00:00.000Z"
+      },
+      {
+        "title": "카카오뱅크, 지난해 순이익 4803억원·비이자수익 1조원 돌파…'사상 최대실적'",
+        "url": "http://www.asiae.co.kr/article/2026020408204099816",
+        "text": "카카오뱅크, 지난해 순이익 4803억원·비이자수익 1조원 돌파…'사상 최대실적'\n\n본문 바로가기\n\n2026년 03월 19일(목)\n\n- 소셜 아이콘영역 님\n- 로그인 / 회원가입\n\nEN 검색창 열기\n\n검색창 열기닫기버튼\n\nDim영역\n\n## 카카오뱅크 2025년 경영 실적발표영업이익 6494억원…전년대비 7%↑영업수익 4.8% 증가한 3조863억원여신이자수익 줄었지만 비이자수익 늘어지난해 말 기준 고객 수 2670만명\n\n카카오뱅크가 2025년 연간 당기순이익 4803억원으로 지난해 세웠던 사상 최대 실적을 갈아치웠다. 특히 비이자수익이 처음으로 1조원을 돌파하면서 전체 영업수익 중 비이자수익이 차지하는 비중도 35%를 넘어섰다.\n\n4일 카",
+        "score": 0,
+        "published_date": "2026-02-03T00:00:00.000Z"
+      },
+      {
+        "title": "Kakao Bank posts record profit as noninterest revenue tops W1tr",
+        "url": "https://www.koreaherald.com/article/10669558",
+        "text": "Kakao Bank posts record profit as noninterest revenue tops W1tr - The Korea Herald\n\n# Kakao Bank posts record profit as noninterest revenue tops W1tr\n\nLink copied!\n\nChoi Ji-won\n\nSubscribe +\n\nDigital lender eyes M&A in payments and capital markets\n\n(Kakao Bank)\n\nKakao Bank posted a record profit in 2025 as fee income and platform-based businesses lifted noninterest income above the 1 trillion won ($690 million) mark for the first time. With earnings on a firmer footing, the lender said it plans t",
+        "score": 0,
+        "published_date": "2026-02-04T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "복잡한 비즈니스 로직, 파이프라인으로 다듬기 - 카카오뱅크 기술블로그",
+        "url": "https://tech.kakaobank.com/posts/2601-refining-complex-service-logic-into-pipeline/",
+        "text": "복잡한 비즈니스 로직, 파이프라인으로 다듬기 - 카카오뱅크 기술블로그\n\n# 복잡한 비즈니스 로직, 파이프라인으로 다듬기\n\n카카오뱅크 대출 심사 과정에서는 사용자의 소득 정보가 필수적으로 필요합니다. 하지만 대출 심사처럼 복잡한 비즈니스 로직과 단계가 많아질수록, 코드가 길어지고 서로 강하게 결합되어 유지보수가 점점 더 어려워지는 문제가 발생합니다. 이러한 문제를 해결하기 위해 GitLab CI/CD 파이프라인에서 영감을 받아, 복잡한 데이터 가공 로직을 보다 유연하고 테스트하기 쉬운 구조로 개선한 경험을 공유하고자 합니다.\n\n안녕하세요, 카카오뱅크 뱅킹서버팀의 서버 개발자 Ain입니다.\n\n현재는 모임통장 서비스를 개발하고 있으며, 이전에는 대출·신용 등 여신 상품 개발을 담당했습니다. 당시 여신 업무의 복잡한 대출 심사 비즈니스 로직을 구현하는 과정에서 다음과 같은 어려움들을 경험했습니다.\n\n- ✔️ 로직이",
+        "score": 0,
+        "published_date": "2026-01-11T00:00:00.000Z"
+      },
+      {
+        "title": "카카오뱅크 기술블로그 - 기술로 은행을 엔지니어링하다",
+        "url": "https://tech.kakaobank.com/",
+        "text": "카카오뱅크 기술블로그 - 기술로 은행을 엔지니어링하다\n\n## Agentic AI의 시대, AWS re:Invent 2025 현장을 가다\n\n지난 12월 미국 라스베이거스에서 열린 AWS re:Invent 2025는 ‘Agentic AI’ 시대로의 도약을 알리는 거대한 기술의 장이었습니다. 단순 자동화를 넘어선 능동형 AI의 미래부터, 이를 뒷받침하는 데이터 보안의 새로운 패러다임, 그리고 플랫폼 관리의 부담을 획기적으로 줄여 줄 클라우드 기술의 발전까지. 카카오뱅크 엔지니어 6인의 시선으로 포착한 핵심 기술 흐름과 우리가 나아갈 방향에 대한 깊이 있는 인사이트를 공유합니다.\n\nConference Cloud AI [Security](https://tech.kak",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "카카오뱅크, 혁신 금융 기술 오픈소스 공개",
+        "url": "https://ai.kakaobank.com/9f83ad78-b45f-44c0-864a-98c720776828",
+        "text": "카카오뱅크, 혁신 금융 기술 오픈소스 공개\n\nAbout\n\nWorks\n\nCooperation\n\n금융기술연구소\n\n조직 구성\n\n주요 연혁\n\n우리의 연구\n\n주요 성과\n\n연구 스토리\n\n[연구 협업 제안](ht",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "카드 청구금액 알림 서비스의 홀로서기 대모험 - 카카오뱅크 기술블로그",
+        "url": "https://tech.kakaobank.com/posts/2501-card-openbanking-migration-project/",
+        "text": "카드 청구금액 알림 서비스의 홀로서기 대모험 - 카카오뱅크 기술블로그\n\n# 카드 청구금액 알림 서비스의 홀로서기 대모험\n\n카카오뱅크 결제서비스개발팀이 오픈뱅킹 시스템에서 카드 청구금액 알림 서비스를 별도의 시스템으로 분리하고 이관한 과정을 소개합니다. 이번 글에서는 분리의 필요성과 이관 과정에서 겪은 어려움, 그리고 그로부터 얻은 인사이트를 공유합니다. 거대한 오픈뱅킹 시스템으로부터 배치성 서비스를 분리하는 과정에서 겪은 기술적 고민과 준비, 해결 과정이 궁금하신 분은 꼭 읽어보세요!\n\n안녕하세요, 결제서비스개발팀에서 서버 개발을 담당하고 있는 Jayden, Lani입니다.\n\n저희는 2024년 연초부터 하나의 큰 덩어리였던 카카오뱅크 오픈뱅킹 시스템에서 ‘카드 청구금액 알림 서비스’와 관련된 API 및 배치 작업들을 별도의 시스템으로 분리하는 작업을 계획했고, 2024년 9월 26일에 신규 시스템으로의 이관을 성공적으로 마무리했습니다.\n\n이번 글을 통해 저희가 카드 청구금액 알림 서",
+        "score": 0,
+        "published_date": "2025-01-03T00:00:00.000Z"
+      },
+      {
+        "title": "정적 그만!✋ 은행에 서비스 디스커버리 도입하기 - 카카오뱅크 기술블로그",
+        "url": "https://tech.kakaobank.com/posts/2502-implementing-service-discovery-in-banking/",
+        "text": "정적 그만!✋ 은행에 서비스 디스커버리 도입하기 - 카카오뱅크 기술블로그\n\n# 정적 그만!✋ 은행에 서비스 디스커버리 도입하기\n\n카카오뱅크는 온프레미스 환경에서 운영 작업의 자동화를 추진해오며, 멀티데이터센터 환경에서 안정적인 서비스 확장을 위한 ‘서비스 디스커버리 시스템’을 구축했는데요. 이를 통해 서비스 간 의존성과 트래픽 증가 문제를 어떻게 현명하게 해결했는지 소개드리고자 합니다. 카카오뱅크의 인프라 운영과 확장 전략에 관심 있는 분들께 강력히 추천드립니다!\n\n안녕하세요. 카카오뱅크의 서비스 레지스트리 운영 및 연관 시스템을 개발하는 Donggeuri입니다. 저희 서비스아키팀은 카카오뱅크 서비스의 안정적 운영을 최우선 목표로 삼고, 인프라 운영의 신뢰성과 효율성을 극대화하기 위해 노력하고 있습니다.\n\n카카오뱅크 역시 초기에는 온프레미스 VM(Virtual Machine)과 BM(Bare-Metal) 환경에서 모놀리식(Monolithic) 애플리케이션을 배포했습니다. 이러한 환경",
+        "score": 0,
+        "published_date": "2025-02-07T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "Kakao Bank becomes S.Korea's biggest lender by market value in blockbuster debut - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ3h3OVlMMmI3aDB0bldTRUEwcFVNQnRlUEw0VFRXM0xhM2laZXBOR3IyN1pIelN5ZE04T2lRSkpSQ25HVlFGdURaekNMdXlWMnNqNXoxd2p6cHpSTl9Ec05RUkZ0SlBRdHFNd09wVmVTWTk5aktfVDI2NlVPdGpXMVBnZGdBam1wUm1JVTY2QzhkWGN6ZGhBSjc5a20wMGZWMC1NWEw0TndfbVlVTThULXRxdmpEbWE5V2xsQVZVQWNvZw?oc=5",
+        "pub_date": "Fri, 06 Aug 2021 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "S.Korea's Kakao Bank IPO to raise $2.2 bln after pricing at top of range - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGhRdGxmUFg3Vl9hOUV3RjV6dXkyZF90UlVKZ0JlbTRwcEV5Z0hGRVFDQnViRUl6ZDFwN1pENEJKMWNuRWIwWF9MNm41RS1JTDZLV2drN0VTSTZKM2pLWWFwNzJDSzIxTFR5Z0pTR1BPNHgtMm1aSWFsNTZ6TmFlMmdseWNVQ29yZUFhZU5KZWNBTWFhTzcwdHdHN2dlVFZ3R3RYclZOQ0VYZVlvaENVWXBRcm8?oc=5",
+        "pub_date": "Thu, 22 Jul 2021 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "KakaoBank Corp - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DbGs1eEpPQUFLOGpPNlpYckZmanQzQXlUclVfMG91VHJzcjJONXByZFlBNzFRNk96dk1JRExBelU2Y2EzVTFyNFJvZHlZUk5ST01hQVhWWFVISUk?oc=5",
+        "pub_date": "Fri, 06 Aug 2021 05:23:24 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Agriculture - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84Y3lMM1ljUFR2VzZkeUpWUFljMkhUYk1oaGRyODBfcU5UNTEzTnh0RmttMnBWdk10TzRWeEFsenVYellFaWlaTXVISFRTajlFM0N5VUVDTFItbURJLXhWNkpTS01JTFNyVzgwRTFQSkJNY28?oc=5",
+        "pub_date": "Wed, 03 Jun 2015 13:25:41 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "주식회사 카카오뱅크 - Bloomberg LEI",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UdnU3WmZfa0I4YVkweXRXZDNsdTl0TVZTcE56bDEweEI0RmctX2Y4bWhSOWdDUjc4Nk5DWmVxVHlfM2F5cU9zZlJ2eVBUc2J6TnRXSHZyZkZNbmVJa3pxU0lpU2Fpdzg?oc=5",
+        "pub_date": "Tue, 01 Apr 2025 05:44:22 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "KakaoBank to Raise $2.2 Billion as Korean IPO Boom Continues - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQnlRX2JWeGRfblB3NjYtX1Z4UVNyVkVLYmdUNXlpcDYyS011N0dwckRqUzdYclV0VjUwOWF2OFhOWTB0azloaHdpVzFydHJNZmhpelZRckNKZzJPSHJ5MnFmUVU3dFdHX0gxdjlnQkpGQWNjWU9LdmFsS2VwU20wSE5NWDJyRGg5T2pQMXFpNXdXdkVpRlhjcmZnYi1jek1MS1hRUXhBUGJXYVJOdTVz?oc=5",
+        "pub_date": "Thu, 22 Jul 2021 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Kakao Mobility picks up additional $55M funding at over $4.2B valuation - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbzR2YXBtazRxZ2UwSWtmeGRDbzNMNk9aWUxxT1hEaS0wLTh4QngtT0c4SzNSMmRCTVhPZnpaU3d6MFdhVTBUNjJJT0w0QlRPRHhlREdvMUtjVmxJU1ZNZ3c1ZURKOUE4RmE1MTEyeW9WeF9CbzlseklRd3gxX29DcHRZNTdIMUZKT09XQ21qS05nWHN1M1RtODE4Vkd6RlBjZ0dBT3VLdw?oc=5",
+        "pub_date": "Wed, 01 Dec 2021 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Kakao names Shina Chung, previously its VC lead, as new CEO amid ongoing crisis - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSGpNOG8xVGZna2xORmdGaENlaTZqdVRha3RKWldjckNfT1hCTGQ2SUFvR3dRaEpBai1YcEpzSlJ3UTFpa1RIX3hxUFdabXdVNUFncWlQeEpjemVtX0ROaXRPcEs4b0FhOFBtV3VTbUZhbUtSTGJmQVdrMUFTMVpDR2FCbjNJYXpQTDJRSXNFVWNuVkNpT3BLY1BSblNhUmVGQkkySmZNQWU3NEF5ckFQdXhFQ3pRajQ?oc=5",
+        "pub_date": "Wed, 13 Dec 2023 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Korean online payment service Kakao Pay surges nearly 114% on the first day of trading - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU3lzWUhzWm5HQTBfb0E0aWRHeG8wUmk1V3NzRkVlNWtLdlVqR3hCQy1hRnNUX3ByMVRHa1BXZ3I3dVpKZ1FIdGxyRFVEX00zNGtENU0tS3AxaEZ6VmJyTVFxamhaZURGSzdPb1BNcXd2N2dlWmx5MDZvVlMzRFZZbDlVSVdKTHV5ZUJWQUxQSkpZSWZzTGRPZ1Ewd1MyQzNBZkZiYk5hRkIwelVRTnZkWFI3MHppM2g3YUtxTQ?oc=5",
+        "pub_date": "Wed, 03 Nov 2021 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "KakaoBank Corp. (323410) Stock Price Today - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOZXJacjJFa3RfUEoxWXdpdTNqbFU2MWhPUmdPSElpUzdBS0pCOUp4NEQ4LVctVVEybExYQ1dWZjFXWWNYZTA5SWpXY2E0dW80TGVabmFtbWNXaTllZU40YlhvWEJHUk1rNFg2QkRBN3ZsYTlHdFZXaEdUQTYxWnpucnJLbkRlVVFCNVFsT0UtTHFzNGtsd2k3SUEwQi1RdFZKdWhjU0ptTm5rM0g4T01IYm1mQmtJVUdnS0gzOHlUYWdNLVV2TDlBcDMyVEJxdE1DQnJ3alY0R2Ezc1RtQl9qVjFXOWJFX1I0SGxxbGJqUkpHakxLYkowT1pURWVqckhhRnU3R0FqRndvanFoX0cwc0lfRnlrOHRUamdVLTNPa2hIMGJ3dlBNbW1SbVhfb3JDdzlaa0l0a0ZQSmJGVlFES3dIZVZiU2ltVmNxTHRuNWwtSGlqZzlDRTR0QWs3ZVFfckVQbnE5ZmQ?oc=5",
+        "pub_date": "Mon, 09 Aug 2021 12:12:36 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "323410.KR | KakaoBank Corp. Financial Statements - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPMVZ2MV9FSDdET2dFNEsxTDJCTTV0OE1NcDBnWThoY21TS3RyaHJEd2xYMm1tR0hNa09jVmxza2l1amF6Um1qV0xCNzU0QjlhUkdWM0xWZFFpLU5kNXVNdDUybm91RUxNbDQ4dkZadGhlbUhlcVVMNExnTXZsb2VnWXFKeEZBR2lSTFJiSDg1VzFKOGk4NlVVWWRnekY4TXAzdFA0QmJiZHFENDRzN0dtTnBBb2FoVWUxdHdvYzVTWklaRUZDRHBHYXN5YURlZ1ZsNWItVHg0Y09pWl8tREpzYUdzTHQzVzlMWWxFWnB1dURQWXk1dUdsODAzMU55UGFpZzB0RlVmWExuMzNhaUJjZWxYNTA4dUh3N3FwV2NjSlRRRktBblJ2dUJhbnozYlhWeHdZd0RYZTZsc1lKTnNLM29nSlVFa2tMZ0hZSTJ3NDNwTXRNZkNlOHM4WEYzblZBcE44MzZENWZPdWZCd3pvNlh5OTgyYjQ?oc=5",
+        "pub_date": "Mon, 09 Aug 2021 12:12:37 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Mobile Chat Service KakaoTalk Faces Growing Pains - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMimANBVV95cUxPaFFoVjNRSVQxNllQNjcyMzhPMUhSWWZhR19wNlF2ZmhSckFUbDRMbU9obFROVXAtYXZGRFZvRl9RWkd5eTFaNU5ibEtSQmp1STAzT01oZjBrVnFzRmdxRTlaNl9qNGhpR29rRW8tbGpTMlI5d2VuNFVMSXl0TFdMYWdDSk0xcVlGZ2FUd3E0bkl6LWN1MFMtYnVtTUdOUTU3UW93bkpCSjZjSVVORWY0blN6b1RmR1RWb0JscGNMVHBNb2lUQ1gwUjB4V0RYcF9VLVQxeV95ZjNfN3VFdkZnOUNqM3I5dXlLcUdSMlVvUXFVcVAtNElha195Rk5YQmNudElkUHl2dVdrWEZVZXJJbHJlcGVXU0hodkdZb2UydE1LN25jWUNaWGJTYzlycmhsS3VxejR1eFJkOW50Ym5IdHpwUmFobnFDbUdnM2FXRDQyUUwyaTJpUms3a09XeGh2TGtVM0UwWGVwM0pTNDhEOG1GcjV1eWRTejhSbVJWRmdWaVM3WHhVSF9SRE90aDFEaHlUSHRPUVE?oc=5",
+        "pub_date": "Wed, 25 Feb 2015 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Crypto-crazy investors make South Korea the best-performing market in Asia - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wS1pjelQ4bjRqMkwtLTJPbHRjMlQ1QmgzaXFwN3N3MW90d3ZHZ1pkbzlCb2lYQVVRUjJjNlBvMWFoVnZjRG15ZzlfSGlOWW5EdHJ0ZkNsRTBGVGQ1WW9EcUFPVUg0OWdEMUd0Zmd3SWo?oc=5",
+        "pub_date": "Sat, 28 Jun 2025 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Shinhan Bank - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QWHh6MmpoVnN1cUJBendfbXV0alBJcGZMUmtvbm1sakhxVzVzdVRjZ3NWVkIxT3VUOGMwV3RYNm5BT09iM3VEeHJrVXg5QTZPOWsyLXJUNDRDZnl5ai01d0p6QWxiMmFuTFY5UjV5dw?oc=5",
+        "pub_date": "Fri, 08 Jun 2018 21:10:03 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Kakao’s co-chief resigns over messenger app service outage - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00aTdHdDIzNmlNQzY2VEs1djZiWndWNld4Ny1uSGItX0ZJeW5WSG9nT0FFSUFhZ2JvXzNQQlQ3VnVoVG9zLS12dmZsRXZqVS1WNjVGM2JvS0xDV0JaQjJMOENhekFYdng0VlBQMUFJZm8?oc=5",
+        "pub_date": "Wed, 19 Oct 2022 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Kakao Bank shares surge nearly 80% in Seoul market debut - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPODZuaXlGeDNRS2ZPbF9MNXg2Wm1hNWIyLVFzejlYTFBzNFN1WEctNFZmMDR5NVZ5eTFWTjNrUmxEcGYyU29ucFVackpURHNfaEYtbVhaanR6R3VHOTFQbEh4dkRTSmROVmNtSTYwVEYtYUpWeVJ3UE1LVWsyYjVwRmRla0RIWWRRaEdydkxRWG54bi1qeUV4aXZFMkY1R1hmY2c?oc=5",
+        "pub_date": "Fri, 06 Aug 2021 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "South Korea's Kakao Bank confirms IPO price at upper end of range - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNGtEZEZ4SjZsd3ZIZXozckwyNDBDWGZueS1USDRvcVJnZTVOUzNlTXZ2eFUzdmtvTEtJc0s2V3BHWUswdmdNMmV0ME1Xa2ZKVmpqRU1ibURrMzFKSU9WbDM1UEpvM3RBalo3YjJCZWJtLUNUa3lUWi1DbVJEUkNTNHhrN0Q0YVNYQlNfY1F5V3VobnNfaWZERF9NOC1VdFhXOW1VQzhVaUltaFdZU3VV?oc=5",
+        "pub_date": "Fri, 23 Jul 2021 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "South Korea's Kakao Bank defends valuation method ahead of IPO - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSmdyS01SRzdGYzRhVU1BYzVBRDV1S08xR1JaeHdFVnBjTmMzZ0FZbDlLdmJvQXc5TmJxTm5FeGdJWWlLTGthTHJoZE5GdlhsS3lXbTBLMnNENllGYWhjaFRpNEZ4VncxUVZBSXJrQzYtUXk3Y1cycGwxSjBBN1hmNG0ySk5yN0stOEtDdHY4LXJrcWxCZUFOUmVjcl9OTGdDN1R4azBUNWVaZkk?oc=5",
+        "pub_date": "Tue, 20 Jul 2021 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "카뱅, 2시간 동안 '먹통'에 또 '먹통'···\"장애 원인 파악 제대로 못해\" - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DX3kySkV2VkcxZ2tzNEYtcXlIWUo3X1poN3FlMDBoQjRybUNtU25VOTlHX1Q0TnYxbF82SE5RQlNaaXcybVhLb2lOVFVHMHNpeHFrRVp5SkFDWkhublBMZGZTYTdxUmEtUWVzcw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 23:08:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "카카오뱅크, 21일부터 예적금 금리 최대 0.4%포인트 올린다 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPa3M5QWQwSi1xMUxKLUdpT3hYRzd5bXQwRlNpdWxJR2p2NU0yQ1JFMHdVOGNaN2xYbDhsZUFmSS1vVE5OMGRfdWw5MDBtWFl4NkdERlVqa1hrTF9FdFpjeHRYenJLQlZMMDVBY1lqVjhZZUpmc2ZWQ2JKVzBpX0k?oc=5",
+        "pub_date": "Mon, 20 Jun 2022 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "'대기인원 10만명' 먹통된 카카오뱅크···현재 정상복구 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM180ZzRLZlB4UFhLMzhLMTk5QU5sbk0zS3RTX1hMcWdic0JxOXpab0MxV3pXOEdBRmNUZ0ZyR01rTFFPeGwwUWpLMU02a0VCMUpSWm9DUlVLMmpUT0Z4bnpsQUVRSndFRmFBeGZXS2gwUnRxQ2xiZFFIWGRrbUpqLTBETUVVaFE?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 07:04:50 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "카카오·토스·케이뱅크, ‘이재명 표’ 청년미래적금에 첫 등판 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTZVbnRXQ3Nyczk2UjR6M01zcHR2UTRDMzZyblRJd1ZNdmVnR0t3R2hHT0c3ZXZBMFpJQ2stOWxDc1Zaa1hpWlZSQVJhTlJXYWxZZE9Jbk5qazA1SkxDOGdSWGpWRzNoTnJ1UHZlMWs2RXBsTHlCOWRTTjRDZldIb1JtMVVvLW1hWnNiLWRySFFYN3oz0gGUAUFVX3lxTE55NlVudFdDc3JzOTZSNHozTXNwdHZRNEMzNnJuVEl3Vk12ZWdHS3dHaEdPRzdldkEwWklDay05bENzVlprWGlaVlJBUmFOUldhbFlkT0luTmprMDVKTEM4Z1JYalZHM2hOcnVQdmUxazZFcGxMeUI5ZFNONENmV0hvUm0xVW8tbWFac2ItZHJIUVg3ejM?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 02:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "카카오·토스·케이뱅크, ‘이재명 표’ 청년미래적금에 첫 등판 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUmw0MXF5X3pxRkU0RXh0cVpQNGhYLXAwNWRCMldOclNaRXdpeUxMRTlrNkJ6R1dVOG1sY2x2UGplTzRkZ2o4NU13WnMzVXFkaGFIaXFjUjhZbHpEdWt2bndBOExCSVA3SF9NUlE4NTZvRlB0STNPa3ZQZ0tFVGNWTNIBlAFBVV95cUxOeTZVbnRXQ3Nyczk2UjR6M01zcHR2UTRDMzZyblRJd1ZNdmVnR0t3R2hHT0c3ZXZBMFpJQ2stOWxDc1Zaa1hpWlZSQVJhTlJXYWxZZE9Jbk5qazA1SkxDOGdSWGpWRzNoTnJ1UHZlMWs2RXBsTHlCOWRTTjRDZldIb1JtMVVvLW1hWnNiLWRySFFYN3oz?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 02:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "ATM 수수료 챙기려고 반복 출금한 업주… 사기죄 벌금형 확정 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcGhzYXR1YlNZaDM3azR1T3ZLS2tHTVBwLWJuRXdmb1owODFkc3lEemlXeV9YWEpsOUJIWVktX3lRYnVCczdPaDZSOThvRlRJbUlmUnd6OF9IWk8wQm8xdUpnQnc0c3FUUDJabk04b2t3N3hMVU5JN1NFZExRcXZZc2dob9IBlwFBVV95cUxOcURXcWJRemlKTFgtRkpGaDRnVTBjc3gyR0NGaTVmNFQ3aHBHOGoxVjI2ZUNPUlJkYURrZVlpX2oxdDV4aVdfek5iS1JtXzNXOWY0a3hUUm1aQjFfbUg4akxyOFBZNEp6QTRaaFV2SG9qb0JRdWNrM3J1WTc1N2dfbF9fMmZBenNzeXh3MkJRYnFoTVpjdjUw?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 01:55:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "'카카오뱅크소액대출 Gora43430 탤ㄹㄱ램 고라통신선불유심내구제 2026년 개인선불유심삽니다 정식업체 개인신불회생소액대출 부천시신불자생계비소액대출' 검색 결과 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMi6wZBVV95cUxPQmtWRlBYMC1NWUpZRFNEb2tPb2RYQ01fOG1GMmpOSTM0blFNNzVoV0c3ZXdsTEZPWUFGc1ZsQ1lVbXRNaGwxUjZ3OXZBUXU4OFgtV0pHTjBBVmJYdUlkY2luWDFlWjZjemtzV2t1YzhJYzRrMjhXaFJueERwLXNPY2l3WlA3cG9Ga09nUTRMOUZSd0ZwRWVkZXkzcUVjNW1EZEtQT2tvY2R3UEdpODd6bHMzZGsyS2otandSUkZOOWVaQTZubVBxdDFLcHNBd3NQMXNNaWliRFlfcXZNci1WVDlMOU9DQkxCRG1pUVNmYlA1Z0Q1RlZ4SVYyUTlNYVI4Q1BJUVNzbEszWDFkcFBHNS1ZdDN0NlotcE9NSzVrYlRndDBsNEpER1VjZ3VnNWFCSS1sZXFTNGl2YnBkWGlTSzVOU3dvdjczTGZsNkpIdVNnRW1VRHhGRVlwZkRrbnE2aS0tMjVzRVE0eThjTVRhOVRlbVlkUTItdzBSYmNBbVpkX3p1TXVySmc4OWZGZkVLTW1TM3dpVk9rNDBJV2puRXRTZGZuNW4tU1BreXREcThmWUZwOE5zeEp2ZV9QUXo3bC1qWkpsYnpKNm1RQVViX0d1X1ZCYzVUM3NsTzdUckJUNUdSYU9mc29HZk5uTWNoeXRuT0xPR3ZFWUtoT0FjXy0wYlZ3ZEhGMF9QYXJiRzExbFFpZlF2YVM5T042c25GQ1Q4b2ZZMkdnaVNYWjVCZkx5RHFJcC1tY0xYZm9PMTVyemU5MjlFVjNaSGFjTV9fYXRvcTdVSF96WS11eWhaVm1faU1Ed0l0MXRiR3I5Ni1qUU05Wmt0WmJIOG9hYUtqUmxneG9VQU94VGpXVGVBS2NhQ2RIMUVnRDljOEk2OWNaZnpmLWk5bW52bW1CLUNYSjlKcW84eDUyWnlWcF9nLWNLZFlRendGNno4c29Uek1WR19YbkhnNVNHSTZObnRibW92TGdqT0Jwd1h2NjJjM2ZJVTZSOTA4eEhJaExNOTdtN041V2pmaFFiNjNqTnRHUkpadk11cktxWHl5UlV2T3ZHUVA1SWlmdG1TdTZCMGNxZ1RpSXhyMkgtUXlXOXprQl82elFFUkM2S1lKVTBOdnpyRjFYeHUtdjYycHFQMU9HdUNUMjI0b21Tcw?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 20:34:02 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "'카카오뱅크소액대출 tg탤 Tsbusim 개인선불폰유심팝니다 탬스뷰선불유심내구제 대학생생활자금대출 2026년 고흥군 최신 소액급전 꿀정보' 검색 결과 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMihwZBVV95cUxNTnFnMWVzeENZOTJ0ak12ejBkMjVFU0h0RExkSExfVVlvczhrWHNuUzlZUTctWGhzc3FCcUR1Z3FCUDgxOVFJdy1vemxzckd0aC05RVFWVzdWME42YUJJNWVHQVpvRXRtOXlnUmI5ZW9QV19NRzh5S1Y1YkdEYWlhOXduZXoxdlcxdi1QOUhWaE9NdXRpWFlQb1dfemNLbnRXczg4eVd0X2RFbVpMd1dXaV9pQ0dSVHptRzMyR1ZZYXh4ZkEyUkxNLW9NWjFsc1B3ZUtBaW4yaWxjNzhfQWVnLUl5SThTd2w3ZnVEeUdBb3I1MHZObDFfbjM0WkNTc3RMOFZJRUZNbzNKQTZSbUxpM1ZKTlhIMU1RNVp3M083SFZ0ZV9UVTBzb0dWQzZaM1FtemV1Rk9NNm5uMVZ2U001cGEyTVN6a3NNcDBQc2VzRlVNM0paVXNnZlpRMnh5UGJ0S250dC1YTE8yYWNQVXVRMFk3OWlNQ1VSbXI4aWZtRmpySUtHSjEtVDFuTjJkQ0k0Sk5Ka1BoM3ZjR1puVEZ2LWFaWE5FOFZzUTdBM1oxRUVaOHJ3Z1VwUWk3WUQ2ODF4bVM1blk2a3RHU3pKRlFPcU5XTG1NVUxONlhqSnFmcVFyU292R3ozSVZiX0kyUkZJNFdkbTA4NHhwU0VJZlR6SXQxUWxDVDRrWUFVaTNJQ19OWkNJQVBob0FLT2ZYa1o0bE01ZDZJWTA1YmJDdjRLWjEyWTlENGVCODNwWjdFYWxhZEhkZ2VWREQ4VW1XSTJWRXJzeUtqWDhRRFZtZnJtb1RoeUlrLXdPdXRKVk5GUEthclFKSU56cUYzR1o5c1luUWxYYmxXZnFhMEU5dmllc0RhbmVXM1VNN3A1ZXhiUGhQVGZ5RHZFRmx0OVZJRDJLY3Y5U3JZTnRZZ3ktdUxmV3BIWF93UldOMVJIWjY2OWF4amtZS2RWMURsUnJCV1dJVUhfWXVvd3NQaWZrLVVWRC1FamlITFJia1NVVGJ3eDROXzJyQ3lB?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 08:16:31 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "“미래 고객 선점하자” 10대 공략 나선 인뱅·핀테크 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01OFN4eVpibm83bXN1SnZxUFV3QUozVEVwTTRGcVc1WlJ0MURqQkt3Wi1KYkVieTIxaEc1OGtRN2pNWGhTekExQmNYM0J3ZWVtdWtBdg?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 02:09:02 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "고정희 공동대표 내정자, ‘카뱅 혁신 DNA’ 카카오엔터에 심는다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoY25qRmF4UnlvbkRuaGwwWFVZRlNIVXhjNXowRHpldWgtSGE3akFlaWdVUzh0VmFJTThRcV9RSnZtMlc0eTN6ZkdNeHJZMTIyWnhSWUJn?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 06:47:49 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "카카오뱅크, 개인사업자 부동산담보대출 금리 2%대로 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCX21rTVE0alRsaWlfRkV2aWstcjhXQnFubjlRTEhWME1DQ196WURyU1hucDg4aVdsQ0VreHYyY3dELVpXcXlFYmxSRUp3VXRNSEh6Z0R3?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 01:08:04 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "최우형 케이뱅크 행장 \"청소년 불법도박 멈춰!\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2bENsQUNiN1ZNS3BpN3hXUWRJVWkzbmJ5S0JsMUFKTVAyWG9nVnB1YUQzbV9JR3hHQzU5OXZ2ZGdxNmFmWXd1XzlweDAtNS14V3JOLXZB?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 06:41:02 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "카카오뱅크 두 번 멈췄다…장애 원인 오판에 복구 혼선 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wNUk2Nk5TcG1neWhsNnY2SXpVZDF4NjA4aTNRUTRKSlA4UHNNMlNOUk5GVFhfWVR4TEU4VTBXa0JnNUVYc091RkpJSTZiZEkyUmN0Z3BIbEJMZEdxcDVFc3pTWW0zYXdj0gFsQVVfeXFMTV9ydXNHbWZmb0ZMZTlMVUEwMVFKQmd4SFRqVnd0MUw1UjdEZFpGZ1pZQlJMWndNeDFPOUt5Tmg3VVQ0Rkc5elRmclFrNjZ6RlZxRVBZX1pEeEh1OHVqaW5OamNWNE9iWEVlUWQw?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 04:17:16 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "인터넷은행 전산사고 163건…투자 늘렸지만 더 늦게 잡았다 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iZG1Ta1RvdkFKNG1UWEJWclpkZ1hFZFh6VUctaUdBcWFoUXBZeGhVY0RadW1POHRIeHNwRW9ZUWtWSG5OLUt5WHpBQi01dnlLRnN3c2V2ajN3V0w3UlZYLVNPX1ZPU3pG0gFsQVVfeXFMTU5JdnNNQ01FYTJoSzA1U2xkeWFjNHk2TjNGaGthSDd2TndFYTVVcUcxcWxGSGEwUi0xWjBGQWQwTGE5bDlvcHF2cm1ob0ozb19UUEdOTGxmMmltUllvU0lucUhkZk0waEpBU0VM?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 04:07:43 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "카카오뱅크, '20분 장애'에 10만명 대기…사고보고 가능성 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xQ1BCQlFHZWp0S1VjeEpLT0k4b085Z25GSmhXMFVteTI5a0d2c2lIVFNUaGM4dXVpdFd3V08yWFpfdi1uOVpIM3h3WTNMTEZFS1V6R1lXN3g0ZEVWWTh6LUtDMzRKU0NK0gFsQVVfeXFMTzlqY3JTMDZKcnI2RkhwY3g1dVB3cHQ4TlB0WXZJdDF2dFhWZFh4Y0pXY0wzWGRvdkw0QWdOamw4UlZvaVZiRGRnb0lNdzhvVzMzTWZNbkNFdDNfZjItdVZBN2FyemFzc1d1RFZ1?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 08:16:17 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[결정적 순간] 적금도 게임이다, 카카오뱅크 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XQ0ZzeFluYmlyY3dpR0djSWpRdGVpbmhMZ25aOUlycXFVR01Nc0J1bnJ1dDdpZHJPUlhjWHQtczVmUjBXaWhKZWp6VlZFYWc?oc=5",
+        "pub_date": "Mon, 06 May 2024 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "카카오뱅크의 안면인식 비대면 실명확인 시스템 개발기 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IYWlRMmozejJJM2ZrUDRZUzVJM2VqTDZ4d3M4QXk5Z3VZYk9NcGZGaTNfQUtxcHI5UUNGcVJ0MXhnRzh3d0pyLVhiVmhZQQ?oc=5",
+        "pub_date": "Sun, 11 Dec 2022 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "[핀테크in] 토스의 반격…카뱅 MAU 뛰어 넘었다 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ERXBUMnpSLTlkejhnbmJCRTF3aXdsemZnQWt0X1lsSl9uMHdWTl9zbWd6UUVwSi1lYlEwdjJTamJKNGFzVTMteVNnY2dKUQ?oc=5",
+        "pub_date": "Thu, 07 Jul 2022 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

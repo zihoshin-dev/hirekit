@@ -1,0 +1,674 @@
+{
+  "company": "라인플러스",
+  "sources_used": [
+    "exa_search",
+    "google_news",
+    "credible_news",
+    "brave_search",
+    "naver_search"
+  ],
+  "result_count": 11,
+  "sections": [
+    "culture",
+    "strategy",
+    "tech",
+    "overview"
+  ],
+  "data": {
+    "naver_blog": [
+      {
+        "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
+        "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
+        "link": "https://blog.naver.com/blrol_blrol/224224956373",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "노력하고, 애쓰다가 힘에 부치면 언제든 쉬어갈 쉼터가 될게",
+        "description": "소규모+ 면접비도 가끔 줌+ 거의 1대 1면접으로 시간 아까움으로 인해 일반 기업처럼 면접을 막 많이... 전화하면서 면접 후기 알려드리고 멍 좀 때리다가 집에 가기 예림 성공했네 역삼역에 식당도 내고,,, 학교... ",
+        "link": "https://blog.naver.com/ahnwk9814/224224895235",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "마케팅 전문가 양성과정’ 경기도 일자리 사업 면접 후기",
+        "description": "&lt;면접 질문&gt; 1. 간단한 자기소개와 지원동기 2. AI 활용해서 작업이나 sns 게시 경험이 있는지. 3. 수료 후에 진로. 취업 or 창업. 4. 이 교육 후 취업까지 연계 될 때 걸림돌이 있다면 무엇일지. 1,3번은 준비했는데 2... ",
+        "link": "https://blog.naver.com/sssss293/224224875009",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+        "link": "https://sibauchi.tistory.com/1205",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "11",
+        "description": "휴대폰을 사이드라인 모드로 해주세요. 세션 영상을 녹화하지 말고 예산을... 우선 기업이 되기 위해 10억 달러 이상을 약속했습니다. 저는 10억 달러가 없어서... ",
+        "link": "https://blog.naver.com/calcutt/224224839164",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "대필 및 현대글로비스 자기소개서 대필로 합격률 높이는 방법",
+        "description": "시간에 면접 연습을 하거나 자격증 공부를 하나 더 할 수 있으니 이게 바로 합격으로 가는 고속도로를 타는 거죠. 이 업체의 멘토들은 금융권 대기업 공기업 등 각 분야에서 경험이 풍부한 전문가들로 구성되어... ",
+        "link": "https://blog.naver.com/8357kpkk/224224832265",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
+        "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
+        "link": "https://think-tank.tistory.com/1035",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
+        "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
+        "link": "https://blog.naver.com/kcl3598/224224791593",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "현대엘리베이터 인사 자기소개서 작성법 및 HR 자소서 항목별... ",
+        "description": "현대엘리베이터 기업/직무 맥락 정리(사업구조, 인재상, 조직문화) HR 자소서 5개 항목별 출제 의도... ④ 합격 포인트 산업 구조에 대한 이해를 지원동기의 출발점으로 삼았습니다. &quot;유지보수 수익 구조 → 현장... ",
+        "link": "https://blog.naver.com/edwards_consulting/224224766008",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "한화시스템 구매 자기소개서 작성법 및 상위 1% 방산 자소서... ",
+        "description": "자소서 합격 포인트를 한눈에 정리한 체크리스트 방산 구매 자기소개서는 일반 제조업 구매 자소서와... 한화시스템 기업/직무 분석 한화시스템 기업분석 &amp; 구매 직무분석 # 한화시스템, 어떤 회사인가?... ",
+        "link": "https://blog.naver.com/edwards_consulting/224224761498",
+        "pub_date": "20260321"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "[친환경 기술 제품] 라인플러스 &quot;친환경 기술 통한 사회적 책임기업 준수···더 나은 내일 지향&quot;",
+        "description": "친환경 전략을 추진하고 있다. 이런 비전은 단순히 환경적인 측면에만... 방향으로 나아가고 있다. 라인플러스는 디지털 콘텐츠 서비스를 제공하는 과정에서 친환경적인 접근 방식을 채택한다. 일례로 라인의 메신저...",
+        "link": "http://www.dailyenews.co.kr/news/articleView.html?idxno=42172",
+        "pub_date": ""
+      },
+      {
+        "title": "라인플러스 핵심 기업분석",
+        "description": "한 줄 소개 ; 글로벌 메신저 플랫폼 라인(LINE)을 기반으로 AI, 핀테크, 커머스, 엔터테인먼트, 게임 등 다양한 디지털 서비스를 개발 및 운영하는 기업",
+        "link": "https://jasoseol.com/companies/859/insights",
+        "pub_date": ""
+      },
+      {
+        "title": "라인은 어떻게 일본 국민메신저가 됐나[사이다IT]",
+        "description": "이를 지켜본 네이버는 라인의 서비스 방향을 ‘지인 간... 2013년 라인의 글로벌 사업 강화를 위한 ‘라인플러스’를 설립하고... 등에서는 라인이 어떻게 국민 메신저가 됐을까요. 라인의 철저한 현지화 전략에...",
+        "link": "https://www.blockmedia.co.kr/archives/541265",
+        "pub_date": ""
+      },
+      {
+        "title": "&quot;라인야후 AI 비전 한눈에&quot;...日 '테크버스 2025' 가보니",
+        "description": "무대 위에서는 라인야후의 ▲AI ▲통합 인프라 ▲글로벌 전략이 언어의... 비전을 알리는 행사를 연 것은 처음”이라며 “각 나라의 라인 직원들이 한자리에 모여 우리가 함께 어떤 기술을 만들고, 어떤 방향을...",
+        "link": "https://zdnet.co.kr/view/?no=20250701224514",
+        "pub_date": ""
+      },
+      {
+        "title": "라인, AI 분야 석·박사 신입 공채한다",
+        "description": "네이버 자회사인 라인플러스(LINE PLUS/이하 라인, 대표: 이은정)가 AI 및 머신러닝... 거듭나겠다는 비전을 발표한 바 있다. 라인은 AI 기술의 조기 상용화 및 빅데이터 활용을 통한 서비스...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01692486629083032",
+        "pub_date": ""
+      },
+      {
+        "title": "Salesforce+ [세일즈와 AI가 만났다!] 영업팀을 위한 Agentforce: 라인페이플러스 사례로 보는 더 스마트한 세일....",
+        "description": "Agentforce는 AI 기반 영업 지원 기능을 통해 고객 응대의 정확도를 높이고, 실시간 영업 기회를 포착하며, 반복 업무를 자동화하여 영업팀의 생산성을 향상시킵니다. 본 세션에서는 Agentforce가 제공하는 다양한 기능을 심층 분석하고, 이를 활용하여 영업 프로세스를 혁신하는 방법을 알아봅니다. AI를 활용한 영업 혁신의 첫걸음을 함께하세요!",
+        "link": "https://www.salesforce.com/plus/experience/world_tour/series/best_of_agentforce_world_tour_korea_2025/episode/episode-s1e2",
+        "pub_date": ""
+      },
+      {
+        "title": "[라인플러스] AI Product Manager 채용",
+        "description": "공고 원문 ; 경력 : 7년~10년, 채용 유형 : 정규직, 학력 : 무관, 지역 : 경기, 마감일 : D-27008, 출처 : 직행수집",
+        "link": "https://zighang.com/recruitment/52afd390-7ec1-4b11-88fd-0135f3844298",
+        "pub_date": ""
+      },
+      {
+        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+        "pub_date": ""
+      },
+      {
+        "title": "LINE AD Product Manager (AD SDK PM) - 라인플러스, LINE Plus",
+        "description": "우리 팀은, 라인의 본질적인 서비스 가치와 사용자 경험을 해치지 않으면서도, 광고 목표를 달성할 수 있는 미디어 전략을 연구하고 실현하는 일을 합니다. 일본, 대만, 태국 등 라인의 글로벌 사용자와 광고주를 대상으로 각 시장 환경에 맞는 미디어 전략과, 국가별 규정에 준수한 AD SDK 기능을 기획합니다. LINE의 주요 프로덕트 팀, 광고 플랫폼 개발, QA 팀, 그리고 각 글로벌 비즈...",
+        "link": "https://www.peoplenjob.com/jobfairs/it/jobs/5979286",
+        "pub_date": ""
+      },
+      {
+        "title": "기업심층분석 1. 라인플러스, 채용분석 및 기업정보",
+        "description": "라인플러스는 공개 채용과 수시 채용을 병행하며 다양한 방법으로... 사업 등 모바일에 특화한 서비스를 개발 및 운영하며, 핀테크, AI... 예를 들어 게임기획 직무의 경우 최근 출시한 라인 게임의 시장 전략을...",
+        "link": "https://www.jobkorea.co.kr/starter/companyreport/view?Inside_No=12316",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "[에듀플러스]프리윌린, AI 교육 인프라 강화한다…개발인력 대규모 채용 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aN3RaYVRqNFFYUzFReVFoX3JwMU51bjZUM1RQNHV3Q0E2VmZQV25kUWFLVEJnQXB3bldQNUxvVEpfV2YyMV9Qem5weE5RQQ?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 01:53:42 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "라인플러스, 영업·CS 특화 AI 에이전트 플랫폼 ‘액트엔진 AI’ 출시 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yR2lMMEkzQ2VfLW9LTWdybTdwSXUydmUwbEJldWJ2ajNDQWFobHRqLTFVRFlXSE9LQ1VBZVItOHdYTU10aG1FcUlQdHl1TFljblZhVTRoSTVodzhmVHlLZExlUENfY3gzUkE?oc=5",
+        "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "동남아 금융·유통 휩쓴 라인플러스, ‘AI 에이전트’로 B2B 시장 정조준 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9EUWh5NjV1b25GakpCRVl1dGJUcWtSdGNoaW1LS2tXVnluRzBqSXRMamRpcVlnVnpKZFNMTGI1ZlFRTUp5MWVtQUlZa0ZWUQ?oc=5",
+        "pub_date": "Thu, 12 Mar 2026 05:41:15 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "\"신약 파이프라인 10배로\"...정부, AI바이오 전략 발표 - 데일리팜",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IUmpfdHdzSVpRTzd1V0wzanJsUmhhLVBRc0ZROHdJdjV4dXpFaVZwRGRxT2VNdGRGV2U0YlphMlZMZjQ3dnhKdHNmSEdheG5X?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 05:05:49 GMT",
+        "source": "데일리팜"
+      },
+      {
+        "title": "라인플러스, B2B 플랫폼 ‘액트엔진 AI’ 공개…“비용 효율화 넘어 매출 성장 설계\" - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeFV6aGxLMzhDVXh1cFNQY2pWRzJrSC01TGxGLUZVRTlVQzF2ZjM5YmRqeW5OMlY0dEJsRnNPZ0dTQ09MOTQ3Sno5SXJQek8tM3lGQ0FKUUJsUVVxLVczRDZiN0RXMEdTbkJ0cnpwY1dHa0VYY2UyY1o5c21OWWt5bnBB0gGWAUFVX3lxTFA1YUoza1BSTzBxemgzX3I3QUlvTjhtTHU5SGNobjRRY3ZrcUtGMGt3XzhpVWl2cF8xV2ZfMkJqN09tRkc1akR6TVdOQ3o1bWJYMUJaRDFqX0NsVXlxdFotbmxqbHQ1M1phT08xT2JMQkpNVE03RnZ5ajJRWlViZE0zbDE5LUZHM3FDOEk4aUhSZTBhMW1hUQ?oc=5",
+        "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "“AI 사업 강화에 사활”···KT·LGU+, 인재 채용 활발 - 시사저널e",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54WUd1cnFOaS1JNXBsWHB5M1ZIQ2FXUm9Dc0VFZnN1RzVFZDl5MlIyb0s3N1lTMjlNWnh1dVVtc0VDY1lnWFlRSnlNUUNsT0d2U0h6Tm53YjlmalhDREFaU21EcTFLVUxUSnBPUGZ2amZ5emM?oc=5",
+        "pub_date": "Tue, 02 Sep 2025 07:00:00 GMT",
+        "source": "시사저널e"
+      },
+      {
+        "title": "AI 채용시대, 똑똑하게 준비하는 취업 전략 - 브런치",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBaZElsUHRLVWcyM0p3NzYxQzIzZVJxZmlSc2FfLVZ4LWpmbG9qRkd5NU9Nc3lXWmg0U3Q4NnRTSDFPOWVzOXVESmJxRVY?oc=5",
+        "pub_date": "Mon, 01 Dec 2025 10:15:46 GMT",
+        "source": "브런치"
+      },
+      {
+        "title": "''AI 시대의 생존전략은 기술 역량''… 서울시, '40대' 직업캠프 참여자 275명 모집 - 인공지능신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XMjVLQjZRVWIzZlJ6bFBfQm1BMGhncVFpSlhrY0MzS0Z2LU54bFM2RjZUMkc0aVRKRzhFSDlZajVrOUwzU1dRRk5TTmJjWjZoWVJzVzU3NGFsVkZZdlNEZGtUM20wY00?oc=5",
+        "pub_date": "Thu, 17 Jul 2025 07:00:00 GMT",
+        "source": "인공지능신문"
+      },
+      {
+        "title": "\"AI 문서 기술력 검증\"…한국딥러닝, 기술신용평가 'TI-3' 획득 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IS1NDbkI0YTVPOGhodDNiNU84czFWYlJJbGdXcG9LMUs2UE1FMmkwYkxjX3VDUEk1ajUyVTRJZlZJVnFTeHJwLWt6cmt4ZjlOMjA5NlNR?oc=5",
+        "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "삼성, 평택 5라인 착공·전국 AI 투자 확대…5년간 450조 투입 - 뉴스후플러스",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlM28yQ2Y5VDB1NkloQ0RGeGQ4Z1ltR1N1WEVIZlE5VEo3LTJhQjFoR2NzeG9sZmNWMDE5QmpvalJ5cHRCUGk0dVQ5V0NOQS1zV29BRTROUUFsUUJlem5rdFhfaHNaLVZuMU1WcXJR?oc=5",
+        "pub_date": "Tue, 18 Nov 2025 08:00:00 GMT",
+        "source": "뉴스후플러스"
+      },
+      {
+        "title": "한독, 업무방식 AI로 재편…'전사 디지털 대전환' 속도 - 데일리팜",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE85ZjF1aGkxODk5UFY4c0pBeWFVWVhjeVl1azJQemxtSjNzS3ZDcEJMOFVKNkYxdFZua010UDFscV91eUg2T1dodng3eWdwRGRO?oc=5",
+        "pub_date": "Wed, 03 Dec 2025 08:00:00 GMT",
+        "source": "데일리팜"
+      },
+      {
+        "title": "희망퇴직 받고 신입·경력 확충하는 LG유플러스 속사정 - 시사저널e",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE11M2tJTXNlYkdIMXhfNlNiVkhKT0YwSkFGZjQ2Y19vTE5SXzhBaDFfSkpORVlXLWlIMmFjS0kxeVBpVVExU1FqN3Z2aUhNSnVreDRBbENCbnRnZ2lLZ0drajNmQ1dSWEdJTlBkQU1JejNsZ9IBdkFVX3lxTFBkRm1mYTFJX1RNUWVGSW5RLXI5dGNuYmhfRVRBTjEyUUJSRWtESlJuZjR2UXdPMF92WHRDMF83VHVOakZnOVVqdDRyTTlGOURZMWhzZGlUTmxoNGY4NFRZaGduaXlZOW1qcGgwbmtXZldTNDlkaGc?oc=5",
+        "pub_date": "Tue, 30 Sep 2025 07:00:00 GMT",
+        "source": "시사저널e"
+      },
+      {
+        "title": "넷플릭스도 연봉 12억 내걸었다…\"AI 인재 못 구해 난리\" [팩플] - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80eFRGMURoVTY0SmMtLUVTWkgzRExBWnhGSUZOcklVb29RWmhDYTFZVUdmRl9OVm84eTBfaHFTZHVnOHJHUlMwLTJrbmNnOEdXSHoyWUZB?oc=5",
+        "pub_date": "Mon, 21 Aug 2023 07:00:00 GMT",
+        "source": "중앙일보"
+      },
+      {
+        "title": "개발자 채용도 ‘비스포크’ 시대…빅테크‧스타트업, 맞춤형 영입 전략 - 디지털데일리",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5UXzd6MlNWWGlMZXkybHk5RHJOcEE4N3NuYnVzTTZTa0QwNXFDZWFhcUtNWXVZNTZ0Um9rWW1QM1JjU3F2MTFWVW5BZ1pzNDJGVW5oYWl1RlBzSUMyNE1haHRkdnE?oc=5",
+        "pub_date": "Sun, 28 Aug 2022 07:00:00 GMT",
+        "source": "디지털데일리"
+      },
+      {
+        "title": "현대오토에버, SW개발센터장 조현준 상무 영입 - Hyundai Motor Group",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhUHhtSXZyNmNJQ3doYWVuYTQzUU1QZldEdFJlYk5JMnlWMDlhS1o2UC1mMHBhU1kwR0ZibGhIZjhheVU0a2RBemlQS1NaNE52OTgwYUJjTnR2ZWowS045dHY3VmN4ZzRqVWpSOHlJbw?oc=5",
+        "pub_date": "Tue, 04 Mar 2025 08:00:00 GMT",
+        "source": "Hyundai Motor Group"
+      },
+      {
+        "title": "동남아 금융·유통 휩쓴 라인플러스, ‘AI 에이전트’로 B2B 시장 정조준 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yNFcxb3d2WE9iSVBseVRBd0dwcUhzVkRld1hmaTBsRm9VWDF1dXFVS0E4ZHVGQ2pWZURUdlVvUW1UNmVKSkRRNURZYjU4dU0?oc=5",
+        "pub_date": "Thu, 12 Mar 2026 05:42:02 GMT",
+        "source": "v.daum.net"
+      },
+      {
+        "title": "[단독]라인, 신규 채용 전격 중단...실적악화 여파 - MTN 머니투데이방송",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYNzZaN3JrdmlWZFJjWHFLemhmbFRYWVdlVlByVjB3MVUwTG12NkRDVm0ycVVMS0thSmYzTks2Q3lxUzF5Zkc1OWZPQlU1WHpxQ1VzZzAtRFhHcWVnNFp5SFpfT2Q?oc=5",
+        "pub_date": "Fri, 14 Nov 2025 08:00:00 GMT",
+        "source": "MTN 머니투데이방송"
+      },
+      {
+        "title": "라인플러스 사업보고서엔 이미 \"최상위 지배기업은 소프트뱅크\" By 시티타임스 CityTimes - Investing.com 한국어",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XNTVHaFZ0TS1DZWNVa3hPMkp4QTdVOHpLd3NXTmxLaUwtbXRQU3FybmNRd1plaUtnTXctRi1oa1FpOUtncVUzMkZpR1daMUt5c0dVNGtldDUtdm9hYU9ReG5ST0l6RkdKSXFDNk1zNkE?oc=5",
+        "pub_date": "Thu, 16 May 2024 07:00:00 GMT",
+        "source": "Investing.com 한국어"
+      },
+      {
+        "title": "‘라인플러스’ 지배권 확보 여부, 협상 핵심쟁점 급부상 - 문화일보",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BdEJ4RHFacTB0ejVkR19GZXhoRGFMQTBFTDE4VWhDUllzbGxqek1PZGtCNE9NUFlQWUV0dmZTY2pOVjhaczNUbUxjMFZSVUQw?oc=5",
+        "pub_date": "Tue, 14 May 2024 07:00:00 GMT",
+        "source": "문화일보"
+      },
+      {
+        "title": "'라인플러스 최상위 지배기업은 소뱅'…네이버 \"경영권과는 무관\" - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqZldoX0xsSVBRbFpLeXBRWGdFSW9vemxqZHMtd2FYVVNmTElWMVpFMDgtU202Y2p1dW1XQzQ2bDlvVGNnZWlwOU5kczdodjJ4UVpPNmY5Y2ROM01XSlFnVGtEYWFOM2JM?oc=5",
+        "pub_date": "Thu, 16 May 2024 07:00:00 GMT",
+        "source": "뉴스1"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "라인, ‘2022 테크 경력 채용’ 시작… 개발자 대규모 모집 | LINE Plus Corporation | 기사 및 보도자료",
+        "url": "https://linepluscorp.com/pr/news/ko/2022/4274",
+        "description": "채용 전형의 최종 합격자는 IT 업계의 근무 문화 혁신을 이끌어온 라인의 ‘하이브리드 워크 2.0’ 근무제 기준에 따라 근무하게 된다."
+      },
+      {
+        "title": "라인플러스(주) 진행 중인 채용정보 총 0건 - 채용 히스토리 통계 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/1435513/recruit",
+        "description": "* 최근 3년 이내, 최대 100개의 채용정보를 확인할 수 있습니다. * 최근 1년 이내의 공고에 대해서만 상세 내용을 확인 할 수 있습니다. ... 네이버(주) (주)카카오 네이버클라우드(주) 라인플러스(주) 구글코리아(유) (주)다우기술 (주)여기어때컴퍼니 (주)케이티지니뮤직 (주)드림어스컴퍼니 (주)와이지플러스"
+      },
+      {
+        "title": "\"진짜 글로벌 기업 '라인'에서 일해보실래요?\" - ZDNet korea",
+        "url": "https://zdnet.co.kr/view/?no=20240925202111",
+        "description": "이 리드는 &quot;면접을 볼 때에도 ... &quot;<strong>신입의 경우 성장 가능성이 충분한지 보겠지만, 경력의 경우 구체적인 업적이나 대표적인 성과를 살펴보며 자기주도적 업무 능력이 있는지 본다</strong>&quot;고 ..."
+      },
+      {
+        "title": "2026년 라인플러스 채용 | 인크루트",
+        "url": "https://www.incruit.com/company/22026617/job",
+        "description": "라인플러스의 최근 3년간 채용정보를 인크루트에서 확인하세요."
+      },
+      {
+        "title": "LINE CAREERS",
+        "url": "https://careers.linecorp.com/ko/",
+        "description": "이에 따라 업무와 성과를 책임 있게 관리할 수 있는 곳이라면 국내 지역뿐만 아니라, 해외 지역에서의 리모트 근무도 가능합니다.엔데믹 전환 이후 많은 회사들이 리모트 근무를 종료하고 오피스 근무로 전환하였음에도 불구하고, LINE은 여전히 Hybrid Work를 유지하고 있는데요."
+      },
+      {
+        "title": "라인플러스 최신 채용정보",
+        "url": "https://www.catch.co.kr/Comp/RecruitInfo/J00182",
+        "description": "라인플러스의 모든 공고를! 예정된 공고, 진행중 공고, 마감된 공고까지"
+      },
+      {
+        "title": "2026년 라인플러스 채용 취업자료 | 인크루트",
+        "url": "https://www.incruit.com/company/22026617/referenceroom/",
+        "description": "라인플러스 취업에 꼭 필요한 자료는 인크루트에서 확인하세요."
+      },
+      {
+        "title": "라인, 2020년 하반기 신입개발자 공개채용 진행 | LINE Plus Corporation | 기사 및 보도자료",
+        "url": "https://linepluscorp.com/pr/news/ko/2020/3384",
+        "description": "한국, 일본, 대만, 태국, 인도네시아 등 글로벌 직원 간 정착된 원격 업무 문화 및 인프라를 바탕으로 코로나 19가 확산되던 때에도 빠르게 전사 재택근무를 시행했으며, 현재도 조직별 최적의 일하는 방식을 찾는 다양한 시도를 선도적으로 실시하고 있다. 이현욱 라인플러스 채용팀 리드는 “100% 온라인으로 진행한 상반기 공채의 높은 만족도를 바탕으로 하반기 채용과 채용박람회도 100% 온라인으로 진행하게 됐다”라며, “라인은 자기 일을 주체적으로 찾아 나서며, 실패를 두려워하지 않고 끊임없이 도전하는 인재가 모이는 곳이다."
+      },
+      {
+        "title": "라인플러스 채용 - 2026년 채용정보, 자기소개서 문항",
+        "url": "https://jasoseol.com/companies/859/careers",
+        "description": "라인플러스 신입, 인턴, 경력 최신 채용공고 정보와 자기소개서 항목, 직무별 지원자 수, 합격 스펙까지 한번에 확인하세요."
+      },
+      {
+        "title": "라인플러스 신입 채용 공고 자기소개서 바로 쓰기 합격 자소서는 자소설닷컴",
+        "url": "https://jasoseol.com/recruit/62084",
+        "description": "[라인플러스(~5/20)] Product Manager(인턴)/Operation Planning Manager(인턴)/User Researcher(인턴)/Data Analytics Manager(인턴)/LINE Ads Server Engineer(인턴)/LINE Ads Data Engineer (인턴)/LINE Ads ML Engineer(인턴)/Product Designer(인턴)/Product UX Designer(인턴)/Graphic Designer(인턴) 자소설닷컴 공기업 채용, 대기업 채용, 합격하러 가기, 채용 달력, 합격자 데이터랩, 취업 합격을 위한 서비스"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "LINE CAREERS",
+        "url": "https://careers.linecorp.com/",
+        "text": "LINE CAREERS\n\nOne step closerto a better future\n\nRegion\n\n- North America\n- Southeast Asia\n- East Asia\n\nRegionEast AsiaSoutheast AsiaNorth America\n\nCity\n\n- Tokyo\n- Taipei\n- Shanghai\n- Seoul\n- Palo Alto\n- New York\n- Jakarta\n- Hong Kong\n- Ho Chi Minh\n- Gwacheon\n- Dalian\n- Bangkok\n- Bundang\n\nCityBundangBangkokDalianGwacheonHo Chi MinhHong KongJakartaNew YorkPalo AltoSeoulShanghaiTaipeiTokyo\n\nJob Unit\n\n- Corporate\n- Analysis\n- Marketing & CS\n- Business & Sales\n- Design\n- Planning\n- Engineering\n\nJob U",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "라인플러스 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
+        "url": "https://jasoseol.com/companies/859",
+        "text": "라인플러스 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n#### 한 줄 소개\n\n글로벌 메신저 플랫폼 라인(LINE)을 기반으로 AI, 핀테크, 커머스, 엔터테인먼트, 게임 등 다양한 디지털 서비스를 개발 및 운영하는 기업\n\n#모바일 메신저#블록체인#NFT#핀테크#플랫폼 기업\n\n산업(업종)\n\n정보통신업\n\n기업 형태\n\n대기업\n\n대표자\n\n이은정\n\n사원수\n\n1,824명\n\n매출액\n\n6,265억 1천만 원\n\n설립 년도\n\n2013년\n\n주소지\n\n경기 성남시 분당구 황새울로360번길 42, 20층 (서현동,에이케이플라자 분당점)\n\n홈페이지\n\nhttp://www.linepluscorp.com\n\n초봉5,219만 원\n\n평균",
+        "score": 0,
+        "published_date": "2022-11-14T00:00:00.000Z"
+      },
+      {
+        "title": "[DD JOB] 풍성한 복지혜택… 라인플러스와 그 계열사 입사 노하우는? - 디지털데일리",
+        "url": "https://m.ddaily.co.kr/page/view/2020082907275729678",
+        "text": "[DD JOB] 풍성한 복지혜택… 라인플러스와 그 계열사 입사 노하우는? - 디지털데일리\n\n검색\n\n## 실시간뉴스\n\n- 거버넌스\n- 오피니언\n- 머니 & 코인\n- FUN\n- 리뷰\n- 테크\n- 뉴스\n\nSI\n\n## [DD JOB] 풍성한 복지혜택… 라인플러스와 그 계열사 입사 노하우는?\n\n이상일\n\n구독중--\n\n- 구독 --\n\n공유하기\n\n- 네이버블로그\n- 트위터\n- [페이스북](j",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "라인플러스 채용 | [LINE PLUS]  Game Platform Frontend Engineer - 슈퍼루키",
+        "url": "https://www.superookie.com/jobs/674035ea8b129f07026dc73b",
+        "text": "라인플러스 채용 | [LINE PLUS] Game Platform Frontend Engineer - 슈퍼루키 슈퍼루키\n\nΧ\n\n#### 추천 검색어\n\n#### 최근 검색어\n\n- 커리어교육\n- 콘텐츠\n- 기업탐색\n- 대외활동/공모전\n- 채용공고\n\n## 라인플러스\n\n대기업 소프트웨어개발/유통\n\n\"Create an amazing life platform that brings WOW! to our users.\" LINE은 365일 24시간, 사용자가 일상을 살아가는 토대가 되어 늘 새로운 경험과 놀라운 감동을 준다는 것을 미션으로, 끊임없이 도전하는",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "[라인플러스(주)] [LINE PLUS] Cloud 개발자 채용 - 사람인",
+        "url": "https://m.saramin.co.kr/job-search/view?rec_idx=37598939",
+        "text": "[라인플러스(주)] [LINE PLUS] Cloud 개발자 채용 - 사람인\n\n관심기업 등록 라인플러스(주)\n\n# [LINE PLUS] Cloud 개발자 채용\n\n본 채용정보는 마감되었습니다.\n\n마감된 채용정보와유사한 채용정보를 확인해보세요~\n\n## 주요 채용 정보\n\n근무형태 정규직 경력 경력 (년수무관) 학력 학력무관\n\n마감일 ~03/15(일) 마감 급여 회사내규에 따름 지역\n\n경기 성남시 분당구\n\n근무일시 주 5일(월~금)탄력근무제\n\n최저임금계산에 대한 알림*하단에 명시된 급여, 근무 내용 등이 최저임금에 미달하는 경우 위 내용이 우선합니다.\n\n본 채용정보는 2026년 1월 1일 부터는 2026년 최저임금을 준수 합니다.\n\n- 기업정보\n- [채용정보](javascript:void",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "라인플러스, AI 에이전트 플랫폼 '액트엔진 AI' 출시⋯B2B 공략",
+        "url": "https://www.inews24.com/view/1948255",
+        "text": "라인플러스, AI 에이전트 플랫폼 '액트엔진 AI' 출시⋯B2B 공략\n\n---\n\n## 고객응대(CS)·영업 AI 에이전트 2종 기반⋯\"비용 효율화 넘어 매출 성장 설계\"\n\n[아이뉴스24 정유림 기자] 한국과 태국, 대만 등 메신저 라인의 글로벌(해외) 사업을 맡고 있는 라인플러스는 인공지능(AI) 에이전트 인프라 플랫폼 '액트엔진 AI'를 12일 출시하고 B2B(기업 간 거래) AI 시장 진출을 본격화한다.\n\n라인플러스 인공지능(AI) 에이전트 인프라 플랫폼 '액트엔진 AI' 예시 화면 [사진=라인플러스]\n\n이 플랫폼은 단순 챗봇이나 비용 효율화 중심의 AI 도입을 넘어 실제 업무 실행과 성과 개선을 통해 기업의 매출 성장에 기여하는 실행형 AI 에이전트 인프라를 지향한다. 기업의 고객응대(CS)·영업의 혁신을 이끄는 AI 전환 파트너 역할을 수행한다는 목표다.\n\nCS 특화 에이전트는 단순 질의응답 중심의 챗봇을 넘어 업무 절차를 실제 실행하고 결과를 학습해 성과를 개선하는 실행형 ",
+        "score": 0,
+        "published_date": "2026-03-12T00:00:00.000Z"
+      },
+      {
+        "title": "Line Plus launches ActEngine AI B2B platform to support revenue growth with action AI",
+        "url": "https://www.digitaltoday.co.kr/en/view/35413/line-plus-launches-act-engine-ai-b2b-platform-to-support-revenue-growth-with-action-ai",
+        "text": "Line Plus launches ActEngine AI B2B platform to support revenue growth with action AI\n\nThe ActEngine AI dashboard. It provides at-a-glance analytics data such as AI agent creation and management, agent performance and usage patterns. [Photo: Line Plus]\n\nLine Plus said on Wednesday it has launched its AI agent infrastructure platform ActEngine AI and is stepping up its entry into the business-to-business AI market.\n\nAct Engine AI aims to provide an action-oriented AI agent infrastructure that goe",
+        "score": 0,
+        "published_date": "2026-03-12T00:00:00.000Z"
+      },
+      {
+        "title": "라인플러스, B2B AI 에이전트 플랫폼 ‘액트엔진 AI’ 공개 – 바이라인네트워크",
+        "url": "https://byline.network/2026/03/12-551/",
+        "text": "라인플러스, B2B AI 에이전트 플랫폼 ‘액트엔진 AI’ 공개 – 바이라인네트워크\n\n[[웨비나] AI 시대를 준비하는 쿠버네티스]일시 : 3월 24일 14:00 ~ 16:00\n\n라인플러스(대표 이은정)는 AI 에이전트 인프라 플랫폼 ‘액트엔진 AI(ActEngine AI)’를 출시하고, B2B AI 시장 진출을 본격화한다고 12일 밝혔다.\n\n액트엔진 AI는 단순 챗봇이나 비용 효율화 중심의 AI 도입을 넘어, 실제 업무 실행과 성과 개선을 통해 기업의 매출 성장에 기여하는 실행형 AI 에이전트 인프라를 지향한다. 전 산업 분야에서 AI 기반 업무 재편이 가속화되는 가운데, 기업의 고객응대(CS)·영업의 혁신을 이끄는 ‘AI 전환 파트너’ 역할을 수행할 예정이다.\n\n액트엔진 ",
+        "score": 0,
+        "published_date": "2026-03-12T00:00:00.000Z"
+      },
+      {
+        "title": "LINE Plus Unveils B2B Platform ‘ActEngine AI’ to Drive Enterprise Revenue Growth with Action-Oriented AI",
+        "url": "https://www.linecorp.com/en/pr/news/global/20260312",
+        "text": "LINE Plus Unveils B2B Platform ‘ActEngine AI’ to Drive Enterprise Revenue Growth with Action-Oriented AI\n\n# LINE Plus Unveils B2B Platform ‘ActEngine AI’ to Drive Enterprise Revenue Growth with Action-Oriented AI\n\n■ Introducing ActEngine AI, a CS & Sales AI agent platform to drive revenue growth■ Deployed at Thailand’s LINE MAN Wongnai, the CS AI agent cuts handling time by 60%+ and boosts accuracy by 16% vs. human agents.■ Sales AI agent offers 24/7 personalized outreach for small merchants to ",
+        "score": 0,
+        "published_date": "2026-03-09T00:00:00.000Z"
+      },
+      {
+        "title": "라인플러스, CS·영업 돕는 '액트엔진 AI' 출시...\"B2B AI 시장 혁신\" - ZDNet korea",
+        "url": "https://zdnet.co.kr/view/?no=20260311195003",
+        "text": "라인플러스, CS·영업 돕는 '액트엔진 AI' 출시...\"B2B AI 시장 혁신\" - ZDNet korea\n\n# 라인플러스, CS·영업 돕는 '액트엔진 AI' 출시...\"B2B AI 시장 혁신\"\n\n태국 ‘라인맨 웡나이’, CS 에이전트로 기존 상담원 대비 처리 시간 60% 단축·정확도 16%↑\n\n백봉삼 기자 기자 페이지 구독 기자의 다른기사 보기\n\n라인플러스(대표 이은정)가 AI 에이전트 인프라 플랫폼 ‘액트엔진 AI’를 출시, B2B AI 시장 진출을 본격화한다고 12일 밝혔다.\n\n액트엔진 AI는 단순 챗봇이나 비용 효율화 중심의 AI 도입을 넘어, 실제 업무 실행과 성과 개선을 통해 기업의 매출 성장에 기여하는 실행형 AI 에이전트 인프라를 지향한다. 전 산업 분야에서 AI 기반 업무 재편이 가속화되는 가운",
+        "score": 0,
+        "published_date": "2026-03-11T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "Open Source - LINE ENGINEERING",
+        "url": "https://engineering.linecorp.com/ko/opensource",
+        "text": "Open Source - LINE ENGINEERING\n\nLINE Corporation이 2023년 10월 1일부로 LY Corporation이 되었습니다. LY Corporation의 새로운 기술 블로그를 소개합니다. LY Corporation Tech Blog\n\n# Open Source\n\nLINE은 아래 세 가지 가치관을 바탕으로 오픈소스에 기여하며 꾸준히 내부 프로젝트를 오픈소스로 공개하고 있습니다.\n\nView all Projects\n\nLINE은 아래 세 가지 가치관을 바탕으로 오픈소스에 기여하며 꾸준히 내부 프로젝트를 오픈소스로 공개하고 있습니다. View all project\n\n### Grow\n\nLINE은 개발자가 자율적으로 오픈소스 활동에 참여해 개인의 성장을 넘어 오픈소스 생태계 발전에 기여할 수 있도록 노력합니",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Blog - LINE ENGINEERING",
+        "url": "https://engineering.linecorp.com/en/blog/tag/Open%20Source",
+        "text": "Blog - LINE ENGINEERING\n\n# Blog\n\n### TAG ARCHIVES: Open Source\n\n## Behind the scenes: LINE's OpenChain certification and improved open source management\n\nLINE Open Source Program Office TF 2023-09-27\n\nWe create LINE's OSS policy and culture.\n\n[Hello, we are the Open Source Program Office TF. The Linux Foundation operates the OpenChain project, which sets the standard specifications for open source man",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Blog - LINE ENGINEERING",
+        "url": "https://engineering.linecorp.com/en/blog",
+        "text": "Blog - LINE ENGINEERING\n\nAs of October 1, 2023, LINE has been rebranded as LY Corporation. Visit the new blog of LY Corporation here: LY Corporation Tech Blog\n\n# Blog\n\n## Notice: Moved to \"LY Corporation Tech Blog\"\n\nLINE Engineering 2023-10-02\n\nLINE Engineering Blog official account\n\n[As of October 1, 2023, LINE has been rebranded as LY Corporation. Visit the new blog of LY Corporation here:",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "LINE 개발자를 위한 오프라인 밋업, Push&Pull",
+        "url": "https://techblog.lycorp.co.jp/ko/offline-meetup-for-line-developers-push-and-pull",
+        "text": "LINE 개발자를 위한 오프라인 밋업, Push&Pull\n\nSkip to main contentSkip to footer\n\nLY Corporation Tech Blog\n\nLY Corporation과 LY Corporation Group(LINE Plus, LINE Taiwan and LINE Vietnam)의 기술과 개발 문화를 알립니다.\n\n여러분은 주로 어디서 기술 정보를 얻으시나요?\n\n블로그, YouTube \u0000등 다양한 방법이 있지만, 동료에게서 얻는 지식도 많습니다. 잠깐의 티타임, 회식 자리 등 일상적인 교류에서 예상치 못한 WOW 포인트를 마주하기도 하지요. LINE Plus Developer Relations 팀에서는 이런 순간에 주목해 사내 기술 밋업을 기획했습니다. 기술을 바탕으로 주변 개발자와 교류할 수 있는 시간입니다. 사내 개발 조직 구성원의 호응을 받았던 이번 행사를 사내외 독자 여러분께 소개하고자",
+        "score": 0,
+        "published_date": "2024-05-21T00:00:00.000Z"
+      },
+      {
+        "title": "[라인플러스(LINE Plus)] Data Platform Backend Server Engineer 채용 공고 | 원티드",
+        "url": "https://www.wanted.co.kr/wd/108288",
+        "text": "[라인플러스(LINE Plus)] Data Platform Backend Server Engineer 채용 공고 | 원티드\n\n## 포지션 상세\n\n데이터에 대한 가치와 중요도가 커짐에 따라 LINE도 체계적인 데이터 관리와 효율적인 활용을 위해서 노력을 하고 있고 이를 위해서 기술적인 리드를 담당하는 조직입니다.여러 나라의 다양한 서비스에서 발생하는 글로벌 규모의 대용량 데이터를 모으고 처리하고 있으며, 개발자들이 쉽게 데이터를 여러 가지 목적으로 활용할 수 있도록 Data Platform을 개발하고 제공하고 있습니다.Data Platform의 구성 요소로 Hadoop과 같은 기반 시스템으로부터 Data Scientist 등 데이터 이용자들이 사용하는 BI 도구까지 모든 계층을 지원하고 있으며, 특히 그중에서 자체 개발 솔루션인 BI 도구의 Backend Server 모듈 개발에 참여하실 분을 모십니다.\n\n### 주요업무\n\n• 자체 개발 Web 기반 BI 도구의 Backend Serv",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "international_news": [
+      {
+        "title": "Trading platform Plus500 reports lower margins, shares fall - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTzlpWVJmeDh2cS0zZWhUbE9US3YwYjNTSDRtQXVqc3pWSHp0YTJzX0pwUnN0eG5DV01PN0VIQ1haclFNclJaNl9oSGdfTUlFaURENzZ6S0Z5VUJwT005d1ZMcVRWYjlDUnNzajJpSFBKUWNEWnUxYzFfZWhRMEFYMTh0QWNqVWtzSG1kNnE2ZmZZem03aWdiRzFEODl6M3VhNXZ5VHBsX1RBNVE0dHNaYmMzMmFDYlU?oc=5",
+        "pub_date": "Tue, 18 Feb 2025 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Siemens - Beyond efficiency: Resilience as the new benchmark for smart infrastructure - Reuters Professional",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQWdKM0pEdDNjRk54X1RfTlpMOE9mS0YwV2R5TmF3Qm5SdERra19ncG90M0ROUVBlYlVycFlxTmNUUFh2cnU5RFNER05xUlQ3c0JrdXpBZld0ZktxV0Y1WndUZHFUa19xZ25kb04xM1F5blRDSmNtdVlwcEVIZHkwQ2FNbTVReVVoUWk5UE52bUhWcldHMVUtWGhqXzhBb1RVOEV2RGdCbER6Zw?oc=5",
+        "pub_date": "Sat, 17 Jan 2026 07:07:35 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Walmart to offer independent drivers new holiday bonuses in battle with Amazon - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNamhWZDZvUzBNelFHZUZLejFOanpKRU5ZQVp6T05DcUdfWmlMQXNWdWJiandHQ2ZKNHlvc2FPVkxsV2NCeVlCQWxZdXZmakRsQ3kyU21BLXI4YjFxVUNIbGtwMkF6TUxWeXdBdjh2S1UwX2lXRXAwRlJER3RidTFpdHA4ZDBqekJyZWo4MHduaVBIQlVwQ2gxNm9Cb09MbEtUbmxfNnQwTzhNbFpDU0t2LWRpUUpHSDV1RWVmUE9LbkhKdzgxNlhuYkFCeEtNdw?oc=5",
+        "pub_date": "Fri, 08 Nov 2024 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Haram Lim - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LY2JvbGhoeU1NR0ZPY0M1VzczU1lQQ2ExZnpmV1c3UW5QdE1EVGFxc2U3Z0o3VktlMU8wekFRNHJsd1RNYmZzdUhmeWlPTW9vc2xpMTN5YXdVZ3k3Q2M3ZQ?oc=5",
+        "pub_date": "Thu, 29 Jan 2026 07:28:09 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "AI Craze Drives Record Quarterly Foreign Flows to Korean Stocks - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeUFoX0JhWmQwbWxDMFhrR3dLSmlrUUJyTU9scWg0V2pPQmhPZlJLZTIzUXBMUzlncHBtTFREMmczdFFlOG8yZVR6VmV2YlY3WEZiUjYtLVlCVjVBYUZwMDVvZGpSbWtDdUQ4aGR0V3Y0QW5EbERUd3VzQTlRc0VJd3ZHUW51bHZHQTRyZ0thMjV5SFhwbFJqVnZtOG5Td0RfOFgwb3ZLU2ktNkNZMnlObnMxdmk?oc=5",
+        "pub_date": "Sun, 31 Mar 2024 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Covid Hits Apple Again, Disrupting Office Plans and Supply Chain - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDVwSE4zNm5uM1hlemROdzhfOVdMb1dFNzlTRllfaEZ3b19tay14U011emt1bkVGQVBjQVNCM1EzZ1lyX3lIWVRSZXpEdmpMVlYwNUVncF9QT19MSkh3aThVNnNtUjV3T0hDNmRpaFcyaGFOQ0RENDlhbDM3N19ZUDZDRXFuWExpLUhTVDVBVmlNdHA5TFZDUkxDRm5fX3JzWWVqaW4wbmYxN3BOb3hRbzF3aTdwbHhoOE10SDhiSWpqNFVUOFJHRTZ6TGlEVzRV?oc=5",
+        "pub_date": "Sun, 22 May 2022 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "OpenAI launches new ‘Canvas’ ChatGPT interface tailored to writing and coding projects - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRnJOZUJCMnFSc0stUWFYQUt2ZWdteEM4X2J3NUZkb25KdDJVSG5NWW02bXk5LV9VM3hzVFVWWUdrQmRJZ0FDUzdsd2ZHRk9ZN29jMXRtMldKOGktdEpPeTEyUjNZSXB4RmJYUVNGNzhEbXBKcFFqdDZYdnBNWlVKdUQ1enFsajZiUXQta2Y4Y2NZQnZmaXlnaGJBaU1XWmllQzNkcnFJVnRnQ05OVlhJckJkeFNTUERWWDFz?oc=5",
+        "pub_date": "Thu, 03 Oct 2024 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Sony officially unveils its revamped three-tier PlayStation Plus subscription service - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZmt1WGkyQ0xrMkRibTdva3VkUXdhR1N2dWhmOXhFUWFMZmhOZ19NOG5RV3k3YkkzU0w5UElhblNIT3JBbjFocHdfNkVBcnhidzBTVmRXZXVpc1FCX0t0QlZvbUpMeXItc3dLYUVaLVE3RXdrLUc5c1BXTkZYRjBYNGRKSQ?oc=5",
+        "pub_date": "Tue, 29 Mar 2022 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "South Korea's Lee touts AI to fix manufacturing slide but skeptics sound alarm - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZUVlX0s2aURfOXE1cG54WGdyQXhXUTYwb0ZseDV1WlQ0d2N1Rl9aOV82VkJSSVlhLUUxMlhUSHVJc0RCbTYtNXRFYk5WdmhNMUdBVHVrSTM4bTZ3RDNyeXRsZGNfb3pvWVpacTZaaEx5cDNaWUl3VWZ5dmpHMi14bEpkUGRDLXY1RWxGRHY2bFBmeDNkNENVWlhIMDdrS1VfaHpzZ2NJSXJRNHMzTXl5aU03SFVhRTlPZk1XZ25rcmkxZw?oc=5",
+        "pub_date": "Fri, 15 Aug 2025 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Can South Korea's President Lee win Trump's trust? - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON3M0TXhfblBwVFg3UTIzV3NuM0NJSklQZEQ1Mjl1NmJKcFNfRUV1N1ZtYTFlSVh0UURoNTduWlZqc05ILTd3a296SE1MbVRWMXBSX0d2QTQ5SV85aU9KQk9VcXF1eno3U3NpT3dhYnZJbTh3Q05CUEllUTBkclRKdkxLMTlUU1h4aXpFNDFWbmtUZ0NXS0E?oc=5",
+        "pub_date": "Tue, 17 Jun 2025 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "North Korea denounces massive planned South Korea-US military drills - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVVBYR044MDM3N3RxY2ZaR3JiZUtjandPaTVQQXZyVTNIUi1OUENYbkNoYlltdU1RdVR0ODQ4V0dXVUhGZzVHWmFCRDhXcno4bHZ4TWl3cEkweVM0a1hzLVBSNkNTR0NzaThxcjloTFQ0UnJtSExlYWsyYmZJR1ZJSjRJVDhaQURzdGVUd3BoVGItd0RPS1VIbVFKQl9zWWctaWpmeEF3YWpnT0pIRmNJamVKT2stR3lwVy10Y0hwME4?oc=5",
+        "pub_date": "Mon, 11 Aug 2025 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Netflix’s Winning Formula: Cutting Ad Spending Without Hurting Growth - The Information",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRW9RT0syX2lFWFRnWTdwY2xHTnVldC1FSWp3Y0hkSks4Q29QSktRYUR6M1ozRTFqMUVaMjlLX1VsVE9Xc3M3OG1xRDRsY0FlNmNBUU5KeTBqVWRBU2V6eXJOV0ZJMk9rcGdabmY1dFhUcy05TGVJT1pkcVpSNThPQnl4VXUzNHFjVWlRSVVUamtGLXhNalAxRkhvak5kdFBtNTBNY3k2QWE2ek0?oc=5",
+        "pub_date": "Tue, 09 Feb 2021 08:00:00 GMT",
+        "source": "The Information"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "라인 韓법인 라인플러스 직원 설명회 개최 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdUN6YUVqV0lPV09Na0FlaEJMZF9rbVhQcVprUnN1LWJOenl5UWN6NDhCLVV4UG11OFR2TTlRYjRaYm9lZmpqOEg4ZnNpVE9GS1A0NDZlem1tTmdOYmF3N08wY3IteWROUjQ3dThWUmVzWWFHZEp2cFhUZTRmZmV4RkZqR2MtanM?oc=5",
+        "pub_date": "Tue, 14 May 2024 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "대한뉴팜, 국제표준 가이드라인 준수한 향남 신축공장 준공… “대규모 생산능력 확보” - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOams0cXUtUC1MQ1hlY3hDbEtPUWlNdHAzc2pTcWY0TFpBOGNsYUFuaVVxcWZMRmZ4NGJBVmtEVmZEWXBBQnk2QmhiYUluRTBjaGpBUVhRalNCaGhOVmRJUzdCWDRISkk1MEZKRERkMnY3ZXRTdGxydmwzUlpQWmFHSmV5LTlzcW8?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 04:15:40 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "오히어, 미백·광채 케어 '카멜리아 코어 라인' 출시 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbjdZcy11MkZab1RlVHRPR0ZZWi1kVFVlS0pMallkczdUYjFibERtbGtGMnl4SS13clNTNm94SEZOTTQzQ3Ixb3IyMXZvS1JiSnJoVmtOcUpuampRQUJVSFBxMGRpNUJBTnNvN0dxUHlMVWxDNGtUMUlTQnlfaE82MUoyS0hGZ00?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 06:00:37 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "씨피시스템, +10.53% VI 발동 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORlJ1SDJ2N2NZZEY1UDRKc014OUlEM25hT3d2cmNSaWE2UkZxdDdvVkNjbTFSYVlobFBFSVBxeVZLZnNnYlI5SXdCTHg3ZVh1NlJLZjQyQlo2b1JOeHoyZXNNVHFEbEItamxDTFdpUzVfVEUtMzdJZWx0U0VMZkRwTFRyONIBlwFBVV95cUxQeVhtWV92dU5hcmNiR1dtWXJMWWNQRnkxLVN4X3dxcjMzaDFpTGVqRkxwcGk5eGFhSnd6ZU5HbnJYbjdjb2REVWJFUWFBblBCYTBjVVM4LTdtczRvSEJHTkloZWJPSzVKTlZsN3QyTS05U1ZTQ2g0ekFpSjNROUNmNlFwRXNDb2lQZUtvV19wTFUtNHFhRGUw?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 05:22:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "씨피시스템, +6.42% 상승폭 확대 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc0poRHpreGpiakRyRjRCcHl1VGlDOTdVZ09HclhMeU13bW1aeGl3MGVpUGtKRV93bjdPbWp4Zjc3ai0tbWdJVE5NUDdlRDlCTzQzYzAxN2NkdTVPeWItaExHTnBXSnlsNFZVak11dnN1Qjd1MVNteG5JWF9LTVAyTGx6QdIBlwFBVV95cUxQaXZQUWVub21QMHNnQUdDRzdSWnFmc2FLX21nTjFkN0xvclJiN2FhSGUzSVBsdjU5dUVld2hNbWlpLW16aU91N0J3bURBWElETU5pQ1ZGSGhJeTUzeHB6a0lybW1hc25WLWQzbm1pQzg4ZXNCMXF4aW9EckJJeS1UbTl2eUgzUGhya0hDOS1nSXBEZ1N3eHlZ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 05:21:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "코스닥 액티브 ETF에 바이오 대거 편입…‘기술이전·임상’ 성과 따라 옥석가리기 본격화 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaWszT2t4S1BHb1JpQjYxbjFBbk5FNnU5Vjc3dHlRRDBORmZjekoxUjZyRS15cEJmR0J0YVh3b2N1bUpIdHBzRjlYMXFITjVtLThFQ1pvaWxTSUNlSmVXbVFRdW9Oa18wa2V6bU1tVkNjY1lEaGhrWkR5LVFpNmc3R0R3dXByN0XSAZsBQVVfeXFMTUFBZFBVbElDaFN6ZE5nRDBrOEhMM0ZpdTBmclFfV2p1cVdodVdrcm9ZTjNtZ0tWTW9BOGhxcGY4NV9RWldvUHI0TXk1QmlhSWJEVnRuUHluUTBCUWgwWGtvNEZISDl4STVuVkdBc1F3aWlKal9kTmFnSzN6dzFqbFgyOEFpSzBvbEY1Q0szSWljNGFFODdybVpfSmc?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 21:27:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "곧 포털검색 종말 … AI 선택받아야 산다 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iZlZ1dTB3aG0wczBfZ0JWYVc3dWMzUjZHZUFmTlg4eVZ2QkdiRHhBQm9Ya0F5MUdGNlhpTTlZS1ZMY2dpZXc?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:25:12 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "기아, e스포츠 권재혁 선수에 PV5 휠체어 라인 전달 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUTU5JczZnZS1BTWxjampOREZnUnZQcE93WERKazNBT3k2VWhycS1fYUV3RTBNOHVaODdWTmNaRVNsT0xVYkZBOHdWX2JzRkZ4TjY1TkVn?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 06:04:17 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "엠플러스(259630) 소폭 상승세 +3.02% - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QU0Nvc3B5QmM4SUdxWEt3VmNXbHRuVi03UFF6Ri1wOHJvLXBIdE84QU9qdmk2emxxRld4V045NEFvRU5SX0ROTDA3X0Roa0VybkE?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 04:42:14 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "아이엘, 휴머노이드 운용 최적화 진입 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wdUFBeUdGWTVSSFZDSGNWdWFWOTVmaF9DRkM4aFdHRVBCTHlHbXdqdk1zaVdVMUNUR2s4b0k2M25kRTN4blFRX3hTcUZ4cVdBX1pDVzln?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 06:23:12 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "SJ그룹 에코골프어패럴, 골프화 ‘뉴에코 패션팩’ 국내 출시 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3LXpSd2kyTWxVb05rdHptWjFTR1RtMnRNWlZBSjFxVkNSV2tfMXVlMTcwYzAzVGdPNndGTnYxdl9fUjVPS0E2WXR0aEFaX3VBcFgxRXBR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 02:16:46 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "AI 승부, 코딩도 전기도 아닌 사람이다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yd01JOHpBOE4yamMtOFpjT2w3VVMyWUVyNnVEQ3MxVy03c1dSSUhNbWM3TjVGZ3I1QTg5WDAyQnpQV0k2aFZpRTk1QzBfQXJFWlVraGt3?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 10:43:59 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[RWA 진단]② 이달 세부 가이드라인 발표…‘반쪽 완화’ 넘을까 [넘버스] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wTjNGMlBwdjRHdE1oQ3I2bFo0dmVub0RzRFVZekMyQi1XS1pzZ09vWFZkRnhvSTdYd1BRWHA3X1Y5aTNwWXdMV3JRQVdsUTdNQXNaakdfOS0wbmQxa1pQd1h6ektYV2Fh0gFsQVVfeXFMUDRYMUdMSW04N0dqdmE3VlJZWWdsZVdnSDNqNTJDc3BGZXhWbkRhUmUwNFlPOC1xSmZHXzNPNFR5UFpLSmhhcnJQWXB1MzJ2QW5VVy1CcVlmcVF6b3pTUkwwWTFyMTZkc3RpVi1P?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 12:35:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "달바 시그니처, 프라이빗 VIP 행사로 프리미엄 라인 차별화 부각 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sWm5NaGhVLU9lUDNDWTNTYy0zelh0TVl0X2xmUjgteG45b29iWUIyT2dTZW5tbWVqTTJOR2dkTE5GWE41LWRadDA3c3hDVlhSLU5LT1B5RzRkRVBLYm1EMDBZLTN4UDY10gFsQVVfeXFMT0wtcjR5VUtVbTVsMFc4Sl9YYjA0V0d6ekxaM05QSzVoOHo1OThSZFpjWGlrSXhrYjNRV1RsbmdOTzd2U2pSQlFiQmdtdzNwV3YxRXVNa0Rkb2RqdXMwdzhpSzc5M3M2M19wVlhn?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 07:58:08 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[단독] SK온, 자회사 테크플러스도 희망퇴직…전체 인력 20% 줄인다 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tbDFNVXRiQnVRa04wVGxRZkdmc2FKY0hic3FIeHFDLUNnMU5sdUdwM0piRXAwWmtmNEQ4QUxuT2szdC0yd09fQnNUTy1LSHdlQTNWc0YxMWZYM2tUR2RxQUdOdFcyNG800gFsQVVfeXFMTUFESi1Zc3dydUdGYVNDWDA3UHJDVkQzaEJVX2VaOGFmMXdiNjI2ZkpzVXJaR1VtQ2s4VG1HTnlQS2lja2gxcHBjX2dxcG51N0VJWnZya3M5VGlfR2gyNVRqalgtaGhyZU9TTEYy?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 01:57:42 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "첫 쇼핑 에이전트 내세운 네이버, 목표는 무엇? - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oWjYweWlnWjNSNGdIUTZudVBvd1BNY0tpZ2NuV0pKVWpiVk1vNG53RmNHcHVTQjQycEtIdVpLRjdXUndlZUhhbzg2OVd5aXBnVjY4a3VB?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 08:31:18 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "2026년 이커머스 3대 키워드는 무엇 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pb2toTF9pcVF6Xy1uT2dXNU91RVdUajRsQVZneVFYYUlyb3U2aUF4VWcybEZBb3JqbktkbFZwQzBMU0hKQkY0dzFuTU9TSEd5MERv?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 13:48:56 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "라인플러스, B2B AI 에이전트 플랫폼 ‘액트엔진 AI’ 공개 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3b2ZvcEprYm1CV3FkOEJUMW9BR2V3UXBScWx3bHNVeFhTSFAwVVlBa1FDWVp6RVMxZnVmS2hNa3FmcmY2WUI3X0RFd1haWlk?oc=5",
+        "pub_date": "Thu, 12 Mar 2026 02:42:36 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

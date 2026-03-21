@@ -1,0 +1,644 @@
+{
+  "company": "컬리",
+  "sources_used": [
+    "exa_search",
+    "google_news",
+    "dart",
+    "credible_news",
+    "brave_search",
+    "naver_search"
+  ],
+  "result_count": 12,
+  "sections": [
+    "culture",
+    "strategy",
+    "tech",
+    "overview"
+  ],
+  "data": {
+    "company_name": "주식회사 컬리",
+    "company_name_eng": "Kurly Inc.",
+    "stock_name": "컬리",
+    "ceo": "김슬아",
+    "address": "서울특별시 강남구 테헤란로 133 (역삼동, 한국타이어빌딩) 18층",
+    "industry_code": "4791",
+    "established": "20141231",
+    "homepage": "www.kurly.com",
+    "ir_url": "",
+    "stock_code": "",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      },
+      {
+        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+        "link": "https://blog.naver.com/serohero/224199063326",
+        "pub_date": "20260228"
+      },
+      {
+        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+        "link": "https://blog.naver.com/jobpass_/224197697044",
+        "pub_date": "20260227"
+      },
+      {
+        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+        "link": "https://blog.naver.com/study_edu_/224193834977",
+        "pub_date": "20260224"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "2026년03월20일 정부지원 [창업 분야] 뉴스",
+        "description": "사회적경제 조직의 비즈니스 혁신과 지속가능성 제고를 목적으로 성장 사다리를 지원하여 사회문제... [소관기관명] 문화체육관광부, [지원대상] 사회적기업 [공고파일] 2026+스포츠사회적기업+모집공고(최종).pdf... ",
+        "link": "http://cafe.naver.com/uworldexam/149318",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "현실주의 시니어 개발자가 꿈 좇는 마켓컬리에 끌린 이유",
+        "description": "이어 SK플래닛 신사업/O2O 플랫폼 그룹을 이끌다, 신세계 이마트 미래 서비스 기획을 맡았다. 2017년부터는 카카오 기술 전략을 진두지휘하며... 마켓컬리의 비전과 방향성을 믿지 않았다. 그런데 모두 김슬아 대표를...",
+        "link": "https://zdnet.co.kr/view/?no=20220124174945",
+        "pub_date": ""
+      },
+      {
+        "title": "컬리의 성장을 위한 ‘컬리’ 다움",
+        "description": "이에 흑자 전환 후의 컬리는 새로운 전략으로 신사업인 컬리나우를 내세웠다. 즉, 퀵커머스 시장 진출을 선택한 것이다. 퀵커머스란, 다음날 새벽에 도착하는 기존의 샛별배송과 다르게 고객이 상품을 주문하면...",
+        "link": "https://brunch.co.kr/@bitinsight/466",
+        "pub_date": ""
+      },
+      {
+        "title": "류형규 마켓컬리 CTO",
+        "description": "옛 동료인 시니어급 개발자를 찾아다니며 컬리의 비전과 방향성을... ‘24hz’ 사업과 개발을 총괄했다. 이후 SK플래닛으로 자리를 옮긴 후... 2017년부터는 카카오에서 기술 전략을 주도하며 데이터분석, AI 기술성장...",
+        "link": "https://www.forbeskorea.co.kr/news/articleView.html?idxno=336299",
+        "pub_date": ""
+      },
+      {
+        "title": "‘세계 AI 시장 3위는 영국?’ 영국이 그리는 AI 혁신의 미래",
+        "description": "공공 부문에서 신속한 AI 시범 사업 추진과 성공적인 사례를... 차원의 AI 전략 이행 현황을 정기적으로 점검하고 관리할... 영국 AI 혁신 기회 포착을 위한 정부 정책 방향 (英 DSIT, 1.13)...",
+        "link": "https://blog.naver.com/kiat_tech/223811669760",
+        "pub_date": ""
+      },
+      {
+        "title": "AI 활용전략 유통산업 혁신의 새 전환점! | 부산진",
+        "description": "유통산업 AI 활용 목표와 기대 효과 ; 정부는 3년 내에 국내 유통 분야의 인공지능(AI) 활용률을 현재 3% 미만에서 30%로 끌어올릴 계획이다. 이 목표를 달성할 경우 유통기업의 재고비용은 20% 감소할 것으로 예상되며, 소비자 배송 시간 또한 10% 단축될 것이다. 뿐만 아니라 유통기업과 소비자가 부담하는 전체 배송 비용이 20% 절감될 것으로 기대된다. 이러한 변화는 유통업체의 운영...",
+        "link": "https://busanzine.com/4482",
+        "pub_date": ""
+      },
+      {
+        "title": "e-commerce의 혁신적 모델, 마켓컬리 사례 분석을 통한 성공 요소 및 발전 가능성 탐구",
+        "description": "대웅제약 면접 최종합격자의 면접질문 모음 + 합격팁 [최신극비자료] ; 및 영업활동을 혁신할 수 있는 방법은 무엇이라고 생각하시나요?22소셜 미디어, 온라인 광고, 모바일 앱 등 디지털 채널을 활용한 마케팅 사례를 구체적으로 설명해 주세요.23데이터 분석을 통해 고객 행동 패턴을 파악하고 영업 전략에반영한 경험이 있다면 말씀해 주세요.24디지털 전환에 따른 조직 내부 변...",
+        "link": "https://www.reportshop.co.kr/socials/2020321",
+        "pub_date": ""
+      },
+      {
+        "title": "인공지능 기반 사업 계획 작성 방법: 챗GPT와 함께하는 성공적인 사업 전략",
+        "description": "마케팅 전략 및 고객 확보 방안 인공지능의 한계와 보완점 사업 성공을 위한 추가적인 고려 사항... 위한 방향을 제시합니다. 인공지능(AI)이 사업 계획에 미치는 영향 최근 몇 년간 인공지능 기술은 급속도로...",
+        "link": "https://www.toolify.ai/ko/ai-news-kr/gpt-3385383",
+        "pub_date": ""
+      },
+      {
+        "title": "검품·식단·물류까지…컬리·쿠팡의 AI 전략 경쟁",
+        "description": "이를 위해 지난 7월 AI 신사업 기획을 주도하는 AX센터 조직을 신설했다. 조직 내 AI 기술 도입과 활용을 선도하는 부서다. 연구개발(R&amp;D) 비용도 2021년 127억 5,400만 원에서 2023년 380억 원으로 약 200% 증가했다. 지난해 12월에는 생성형 인공지능 기반 '컬리해커톤'을 구성원 대상으로 진행하기도 했다. 최근에는 상품 품질 검증 과정에 AI 선별기를 도입하고, AI 식단 관리 앱 '루션'을 출...",
+        "link": "https://www.mimint.co.kr/bbs/view/news/S1N11/5032027",
+        "pub_date": ""
+      },
+      {
+        "title": "AI 프로젝트 600개 2030년까지의 혁신 비전!",
+        "description": "AI와 데이터 기반 산업 혁신의 새로운 방향 ; 정부는 인공지능(AI)과 데이터를 활용하여 산업기술 혁신을 가속화하고 있습니다. 앞으로 2030년까지 600개의 프로젝트를 통해 AI 기술을 적용한 혁신 사례를 만들어 가기를 목표로 하고 있습니다. 이러한 전략은 산업 현장에서 AI의 역할이 점점 중요해진다는 것을 반영하며, 조기에 투자와 연구개발을 통해 기술 경쟁력을 높이고자 합니...",
+        "link": "https://mbalance.co.kr/1085",
+        "pub_date": ""
+      },
+      {
+        "title": "&quot;사업 다각화 결실&quot; 컬리, 10년 만에 '첫 흑자'···&quot;페루 신화 잇는다&quot; SK, 동남아서 하루 4.4만배럴 생산 [AI....",
+        "description": "‘인공지능(AI) 기반 맞춤형 뉴스 추천 및 요약 서비스’입니다. 독자 유형별 맞춤 뉴스 6개를 선별해 제공합니다. [주요 이슈 브리핑] ■ 사업 확장 전략: 컬리의 10년 만에 첫 흑자 달성은 비즈니스...",
+        "link": "https://v.daum.net/v/20250514074734493",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "컬리 채용",
+        "url": "https://kurly.career.greetinghr.com/ko/home",
+        "description": "컬리는 상품을 고르는 철학과 진정성에 AI와 기술력을 더해,"
+      },
+      {
+        "title": "컬리 기업정보 - 채용 70건, 인원 2,774명, 업력 12년, 서울 강남구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/426",
+        "description": "컬리 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "2026년 주식회사 컬리 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/1679178600/",
+        "description": "주식회사 컬리는 도매·상품중개 업종의 중견기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+      },
+      {
+        "title": "컬리 채용 | [마켓컬리] 상품전략팀 인턴 채용",
+        "url": "https://www.superookie.com/jobs/5d2d3c3a8b129f3d8362ace0",
+        "description": "컬리만의 신뢰와 데이터가 ... 동료와 함께 사랑과 신뢰를 받는 브랜드 컬리를 만들어 나갈 여러분을 기다립니다. 모집부문 [마켓컬리] 상품전략팀 인턴 채용..."
+      },
+      {
+        "title": "Colliers | 컬리어스 코리아 채용공고",
+        "url": "https://www.colliers.com/ko-kr/careers",
+        "description": "기업 문화의 특징인 <strong>IDEA(포용, 다양성, 형평성 및 접근)에 대한 공약 뿐만 아니라 ESG (Environment, Social and Governance) 원칙에 대한 우리의 헌신을 자랑스럽게 생각</strong>합니다."
+      },
+      {
+        "title": "[컬리] [컬리] 채용 리드 채용 공고 | 원티드",
+        "url": "https://www.wanted.co.kr/wd/212414",
+        "description": "[조직소개] 컬리 ... 추진하며, <strong>지속적 성장의 모멘텀을 만들어 가기 위한 인적역량의 내/외부 확보 (Talent Acquisition)를 통한 인적 역량 고도화를 추구</strong>합니다..."
+      },
+      {
+        "title": "컬리 진행 중인 채용정보 총 7건 - 채용 히스토리 통계 | 잡코리아",
+        "url": "https://www.jobkorea.co.kr/company/16153122/recruit",
+        "description": "컬리 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+      },
+      {
+        "title": "컬리 채용공고 2024 하반기 신입MD 채용 | 2024년 채용",
+        "url": "https://jasoseol.com/recruit/94479",
+        "description": "컬리 신입 채용 신입MD (전부문) - 자소설닷컴"
+      },
+      {
+        "title": "패션·뷰티 키우는 컬리…MD·마케팅 등 대규모 집중채용 - 매일경제",
+        "url": "https://www.mk.co.kr/news/business/11924089",
+        "description": "컬리는 최근 카테고리 ... 경험하고 있는 만큼 <strong>다양한 분야의 좋은 상품의 기준을 세울 수 있는 적극적이고 능동적인 분을 인재상으로 제시</strong>했다...."
+      },
+      {
+        "title": "컬리 2026년 채용정보 | 캐치",
+        "url": "https://www.catch.co.kr/Comp/RecruitInfo/CC1408",
+        "description": "컬리 채용이 궁금하다면? 인턴·신입·경력 공고와 함께, 이 공고에 관심 있는 회원 통계와 자소서 문항을 한눈에 확인하세요."
+      }
+    ],
+    "google_news": [
+      {
+        "title": "[단독]'AI커닝' 허락한 컬리 \"개발자, 코딩시험 챗GPT 써도 된다\" - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ma3hyekhQV0VqMldnTkVZR3RhX0xNM1Vna1E3UXAxYUt3Z0ZxUEFqY1FIbngzaGtQT3JOWThSaEVzVUtRdmhmRm8zYW5GRW5uOTdaNGt3?oc=5",
+        "pub_date": "Mon, 09 Jun 2025 07:00:00 GMT",
+        "source": "중앙일보"
+      },
+      {
+        "title": "컬리, AI 투자 강화…디지털 전환 '속도' - DealSite경제TV",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTdVBuWEZaMXdmVW4xc1MzNVE1QnV2TGZEdzBTT0VENzFlLU10c1hzcllwdUFMaGh5UmRHT2JFSkZ0ekQ2Y3ZKeURPbTdDaEhQTXZMVjd3?oc=5",
+        "pub_date": "Fri, 14 Nov 2025 08:00:00 GMT",
+        "source": "DealSite경제TV"
+      },
+      {
+        "title": "두들린 '그리팅', ‘2026 AI 채용 전략 리포트’ 발간 - 헬로티",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iODNnb0NYWXFROTlNRE5qQnBJV1hjcWl4cUR5Y3h6Q2dTMzgtUDB5Rm1tclZlbFRlTVBpNDEwbXVlaGxVTFdsbjNjMlA3eEtyejZiRXpTNFBvVjZWcDJN?oc=5",
+        "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
+        "source": "헬로티"
+      },
+      {
+        "title": "'감원 한파' 비웃는 유니콘들 \"AI·신사업 무장할 S급 인재 '블랙홀' 떴다\" - ER 이코노믹리뷰",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CYzZpNWNhWU5hdEpVN0xzTXh4QUhMVXNuck9Ia1pRMmFkWFZseThhcVNLRDlGanVVSUpfXzF2LUkwOGU1Y1N5WkUtQlZDWWFhV2ZZbEVDSktPamR4d0FqNWx0X1V1RjdzUWIxLQ?oc=5",
+        "pub_date": "Mon, 09 Mar 2026 07:32:35 GMT",
+        "source": "ER 이코노믹리뷰"
+      },
+      {
+        "title": "‘핀셋 채용’ 확산…맞춤 인재 확보전 가열 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WOFVJenJLMnQ2blNZOTJIVERONEUta2g1RmI2QUp2TlZLVjh0NGUwaEtVcjZCc3JZQzAyY2NXdlZFcGZJZkgwQ3JyOEtta0oxNFlpSFlB?oc=5",
+        "pub_date": "Sun, 02 Nov 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "“기존 직무 파괴하라”… 눔·컬리 수장이 말하는 ‘AI 네이티브’ 전략 - 더에이아이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KQ1lQQ0lMVzhpWVc3ZXUzdkQ0ekV6VkJJa2Q0c3E1MFFoTEU4ekQ0QWFXVjJFemhnZktpalBSWW1IbElvUGJnd3F3N29BVUszQUl6ek16VDJDRGpKOWhjUmMzQVMtdHV6X3c?oc=5",
+        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
+        "source": "더에이아이"
+      },
+      {
+        "title": "그리팅, ‘2026 AI 채용 전략 리포트’…채용담당자 73% “가장 기대하는 AI 활용 분야는 이력서 평가” - 퍼블릭타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1dlYxZWZ6R3NsdDlzb3doR2dBY0hFZEhjQzhJT3Uyc190MDRPbXczSUMzRDRUNFdDY3RNck9Tbm5nSm1TNWNkZ19rS0lXVzFfY2dtRnNVYlpoT2diX2dXTk9PT1lhOGtpcWfSAW5BVV95cUxOSnFLdFlRUnVidFdYVW02R1N5SXM5VENDUDFuU1hhVTlHOWdNWFZMRmR6NTNnWkFKSm90cEZRT0VRNmpxR0ZYSF84SFIyZklfVnpxc1pyTzVvYWt2VmdiUDNJQkpaVWZmMmctVmI2Zw?oc=5",
+        "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
+        "source": "퍼블릭타임스"
+      },
+      {
+        "title": "AI 시대의 개발자 채용 혁명, ‘코딩 기계’가 아닌 ‘설계 지휘자’를 선점하라 - 코리아비즈니스리뷰",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNGdtbzJTdnZpcjY4elBWejN3T2E3cUhQZkRzcmV2azhWb1MtMUJYbXlvdW9ESjFlOERlcjVpQ3I2LUF6WDRWRDE5elUtUnlSQ1VfN2RsYWxFSWZ0VVVCTDQ5Q2hYUDVNX2pLMktMUzc2cE9k?oc=5",
+        "pub_date": "Fri, 12 Dec 2025 08:00:00 GMT",
+        "source": "코리아비즈니스리뷰"
+      },
+      {
+        "title": "컬리, AI 식단 관리앱 '루션' 출시 - 디지털투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pYTNZYkZYbnA1eDdQdmFwM05xREZkaXRsZVJNalpyalZOTXRGWnNCdkladGdXMUFnU0JlcGJKZi1lSDYzanRQSTlwOWVFbnBGZE5RUjBLVDhYR2ludHR5ZUs2UDdfdVQ1a3lxLWhDemZTN28?oc=5",
+        "pub_date": "Thu, 11 Sep 2025 07:00:00 GMT",
+        "source": "디지털투데이"
+      },
+      {
+        "title": "네이버, 컬리 구주 일부 인수…\"전략적 협업 강화\" - ebn.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94NXo3RjBRVnE0bGxKUHJXckpPM3B3ZTRCVjV1akxFX2d0eGVpWjNMUEI3WG9ySUM5WUsyUWt2Z2JkeDBLRGloRFZiTzB3NUQxWEY0OHV3QXJXMGF6aFVHQkJyLWc2N3Bo?oc=5",
+        "pub_date": "Tue, 23 Sep 2025 07:00:00 GMT",
+        "source": "ebn.co.kr"
+      },
+      {
+        "title": "김슬아 컬리 대표, 샛별배송 10년 만에 첫 흑자...AI 전환으로 미래 그린다[유통CEO의 머릿속] - 이투데이",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zU0p6QVlIQVJXazJ0d1kybW1HcExXVUtaMjhjWHZ2eVM0dThSUHZJOGlLNWFjRXNTaWdRSk9IcHg4bFh5SEk4bWVvcF92Skc3T2pNLQ?oc=5",
+        "pub_date": "Fri, 08 Aug 2025 07:00:00 GMT",
+        "source": "이투데이"
+      },
+      {
+        "title": "컬리, 뷰티 MD·플랫폼 전략기획 집중 ‘채용’ - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EekNwQVlka3lYSDFiSVpXWkdULWd3Z3JtaFhaUnhvNXBNN2t1ek5wbHBnQ21LU0xILXp4dkZmbHJmV0hOWnlndjNCVnpiSE9rN0RaYWxn?oc=5",
+        "pub_date": "Thu, 02 Oct 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "네이버, CJ·신세계 이어 컬리 지분 일부 인수…이커머스 연합군 확대 - ebn.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuNFJkYXpRX2hycWZzZlYyN25SWXZGTGoycGxsU1U2OGJJMmpWS3hEbEJlTV9mUl9lbERyUkR4YU93Qk9SaW1lYWl1SkNfQlJ5ZVk2eHV1QThFcUFGTTVMSWVfQi1CbW8w?oc=5",
+        "pub_date": "Wed, 24 Sep 2025 07:00:00 GMT",
+        "source": "ebn.co.kr"
+      },
+      {
+        "title": "원티드랩, AI가 인재 찾아주고 분석도 해준다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VSHBxeWZqWVpqUkgxYjNXV0owRnRKRVE5NnFqVXFYVkcxbHJ2VEI3Rl85RzRGeWd2M3V5YXVfX1hOdWhPSlZOaGJBMzkxRWttdjB2aXVn?oc=5",
+        "pub_date": "Tue, 21 Oct 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "네이버, 컬리 지분 일부 인수...동맹 넘어 혈맹 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HQ1Rrdy1iT0hxSnBMcHFZNVNyR3E4OEFCX0Nyc2g1elBub1MzM0ZySVlRVzVrZzZ3TU1jV2c5cWNxQ2g3c19LTlZiMjRLMGN1NnBzYVB3?oc=5",
+        "pub_date": "Tue, 23 Sep 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "적자 끊은 컬리, IPO 재추진 눈앞···남은 건 ‘존재감 증명’ - 시사저널e",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DVS1DYTBoU1ZWSTJvNDlYZmt6Ri1zNnVCdTBSWUY2NF81MnNxS0tpTnZGMHluUTRmVFEwWXhLMHlMc3JsdkRxQUxjZHFBY290UUV2ODYtcEJUYk9RNEpoZVU3eGZPa0hUdnpBMkFmbTJ0Q2RUeVHSAXZBVV95cUxOQ1UtQ2EwaFNWVkkybzQ5WGZrekYtczZ1QnUwUllGNjRfNTJzcUtLaU52RjB5blE0ZlRRMFl4SzB5THNybHZEcUFMY2RxQWNvdFFFdjg2LXBCVGJPUTRKaGVVN3hmT2tIVHZ6QTJBZm0ydENkVHlR?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 09:14:44 GMT",
+        "source": "시사저널e"
+      },
+      {
+        "title": "컬리 사상 첫 흑자 後 … 닫혔던 ‘IPO 문’에 쏠리는 시선 - 더스쿠프",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6S1JHYUxGUkg3bEVpb1YwR3Z5SmE1RU9XUmpOSW51YTFOZzlvN2FzbkI3ZjduMzY4dkJFS3UwQ0JhdFhLc0t6UW0yRl9PUGNsR2hHc3MxMXFrWnd2TTlkQmo4aVEydUJ0Uk8xWEpB?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 07:01:47 GMT",
+        "source": "더스쿠프"
+      },
+      {
+        "title": "컬리, 흑자 바탕으로 사업 다각화 본격화 - 한스경제",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50Y2t5Z28yVDRwbzlrN3lSUUxpN2tkTEZnMnRaekJldUZLTHYwdkQyLUxkRVNaT2p2OFVRTlM5SEVPamFqRUpKZFdRNXVlSnoyZXdnVWRjdlI3aDZUZGV6ZWxoVTFrcERxVEktY2FIUdIBb0FVX3lxTE50Y2t5Z28yVDRwbzlrN3lSUUxpN2tkTEZnMnRaekJldUZLTHYwdkQyLUxkRVNaT2p2OFVRTlM5SEVPamFqRUpKZFdRNXVlSnoyZXdnVWRjdlI3aDZUZGV6ZWxoVTFrcERxVEktY2FIUQ?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 22:58:13 GMT",
+        "source": "한스경제"
+      },
+      {
+        "title": "컬리, 지난해 첫 연간 영업익 흑자 달성…매출도 역대 최대 - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GZ0g0NmJHc0dlVUZxWEphMmhQcm1qNzlOT3hNLV9KZ0hCYmhnNk4tZ19PSGhCaXc3dGtObWs0ZGZ1U2taSmNjT2NadXJuaWRtZVd2aFU1WFJQREZGWURtWkw4d2Nkcml2clBWeENRN2c?oc=5",
+        "pub_date": "Wed, 04 Mar 2026 08:00:00 GMT",
+        "source": "연합인포맥스"
+      },
+      {
+        "title": "컬리, 창사 첫 연간 흑자…매출 2.3조 ‘역대 최대’ - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBib2tIajBsRFJ2SWdtdHdpVnJCWl9qcFZMU1Ryc3k3WGc2Uk54V3d2QXVzdldjRUxTdDJpcnNvMGZqcTJnZnNEY3NRSVd3dlJRVm9ZempR?oc=5",
+        "pub_date": "Wed, 04 Mar 2026 08:00:00 GMT",
+        "source": "지디넷코리아"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "컬리(마켓컬리) 연봉 완벽 정리 - 초봉, 성과급, 실수령액부터 현직자 평가까지",
+        "url": "https://eben.tistory.com/169",
+        "text": "컬리(마켓컬리) 연봉 완벽 정리 - 초봉, 성과급, 실수령액부터 현직자 평가까지 --\n\n커리어\n\n# 컬리(마켓컬리) 연봉 완벽 정리 - 초봉, 성과급, 실수령액부터 현직자 평가까지\n\n목차\n\n### 컬리(마켓컬리) 연봉 완벽 정리 - 샛별배송, 풀필먼트와 기술 혁신\n\n안녕하세요, 여러분의 든든한 커리어 파트너, 에벤입니다! 😊 오늘은 '내일의 장보기'라는 컨셉과 '샛별배송'으로 대한민국 장보기 문화를 바꾼 푸드테크 선두주자, 컬리(Kurly)의 모든 것을 파헤쳐 보겠습니다. 단순히 신선식품을 파는 것을 넘어, 독자적인 풀콜드체인 물류 시스템과 데이터 기술로 유통 시장에 혁신을 일으킨 곳. 과연 컬리 구성원들의 연봉과 복지, 그리고 치열한 새벽배송 시장을 이끄는 조직의 문화는 어떤 모습일까요? 컬리로의 합류를 꿈꾸는 분이라면 지금부터 주목해주세요!\n\n---\n\n#### 1. 컬리, 어떤 회사일까? (기본 정보)\n\n##### 1.1. 핵심 사업 분야와 비전\n\n컬리는 엄격한 기준으로 선별한",
+        "score": 0,
+        "published_date": "2025-08-28T00:00:00.000Z"
+      },
+      {
+        "title": "컬리 채용",
+        "url": "https://kurly.career.greetinghr.com/ko/teampeople",
+        "text": "컬리 채용\n\n## Team\n\n컬리를 이루고 있는 각 조직을 소개해 드릴게요!\n\n## 함께 성장하는컬리를 소개합니다!\n\nTECH\n\n제품 기획부터 개발, 디자인까지 유기적으로 협업하며 고객의 모든 여정에 '기술 혁신'을 더합니다. 커머스와 물류 도메인의 경계를 넘어, 상품 탐색부터 문 앞 배송에 이르는 전 과정에서 최적의 인터페이스와 시스템을 설계합니다. 단순히 서비스를 유지하는 수준을 넘어, 최신 기술로 고객의 일상을 바꾸는 프로덕트 고도화를 목표로 합니다.\n\nMD & 마케팅\n\n수준 높은 상품 큐레이션과 차별화된 전략을 통해 브랜드 경험을 완성합니다. 세상에 없던 상품을 발굴하고, 데이터 기반의 인사이트로 캠페인·콘텐츠·채널 전략을 유기적으로 연결합니다. 고객이 '컬리이기에 믿고 구매하는' 압도적인 신뢰를 구축하기 위해, 타협하지 않는 상품 셀렉션과 실행력으로 일상의 새로운 기준을 제시합니다.\n\n크리에이티브고객과 만나는 모든 여정을 다채롭게 디자인하고, 아주 작은 디테일 하나까지 고객",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "(주)컬리 채용 | [컬리 10주년 테크 대규모채용] 풀필먼트 백엔드 개발 경력직 공고 - 리멤버",
+        "url": "https://career.rememberapp.co.kr/job/postings/250408?channel=theme_job_board&curationLocation=job_posting_tab&jdViewSource=theme_job_board",
+        "text": "(주)컬리 채용 | [컬리 10주년 테크 대규모채용] 풀필먼트 백엔드 개발 경력직 공고 - 리멤버\n\n(주)컬리\n\n# [컬리 10주년 테크 대규모채용] 풀필먼트 백엔드 개발\n\n유니콘\n\nPre IPO\n\n누적 투자 1조↑\n\n1,001-10,000명\n\n- 기타안내\n- 채용절차\n- 우대사항\n- 자격요건\n- 주요업무\n- 공고소개\n\n컬리의 개발/엔지니어 ​직무는 탁월한 기술 완성도와 ​견고한 ​안정성을 바탕으로, ​정교한 시스템 설계와 ​서비스 품질 ​향상에 ​집중합니다. 아울러 AI 기술을 ​전략적으로 ​접목하여 ​서비스를 더욱 고도화하고, ​개발 ​생산성을 극도로 향상시킵니다. 풍부한 ​경험과 ​깊이 ​있는 문제 해결 ​역량, 그리고 AI에 ​대한 ​심층적 이해를 ​기반으로 컬리만의 ​고도화된 ​솔루션을 구현하여 내외부의 ​고객경험을 극대화",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "컬리, 테크 분야 전 직무 대규모 경력직 채용 < 유통 < 산업 < 기사본문 - 1코노미뉴스",
+        "url": "https://www.1conomynews.co.kr/news/articleView.html?idxno=41193",
+        "text": "컬리, 테크 분야 전 직무 대규모 경력직 채용\n\n- 발행일: 2026-02-23 15:51 (월)\n\n--\n\n이전 기사보기 다음 기사보기\n\n컬리, 테크 분야 전 직무 대규모 경력직 채용\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n유통\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n포스터 = 컬리\n\n컬리는 서비스 오픈 10주년을 맞아 테크 분야 전 직무 대규모 경력직 채용을 진행한다고 22일 밝혔다.\n\n모집 분야는 소프트웨어 개발·엔지니어다. 프로덕트 매니저, 프로덕트 디자이너, 데이터 직무 등이 해당한다. 예상 채용 인력은 두 자릿수다. 생성형 AI를 활용해 서비스를 혁신하고 데이터에 기반한 문제 해결력으로 새로운 제품 가치를 구현하고자 하는 8년 이상 경력자면 누구나 지원 가능하다.\n\n채용은 서류 접수 및 인터뷰, 처우 협의 순으로 진행된다. 평가 항목에는 기술 역량, 도메인 확장성 등 직무 전문성과 컬리 핵심 가치 기반 조직 적",
+        "score": 0,
+        "published_date": "2025-05-22T00:00:00.000Z"
+      },
+      {
+        "title": "미국 / 미주 한인 취업, 구인, 구직, 인턴, 해외 취업 및 ... - JobKoreaUSA",
+        "url": "https://jobkoreausa.com/m/",
+        "text": "JobKoreaUSA - 미국 / 미주 한인 취업, 구인, 구직, 인턴, 해외 취업 및 채용 공고 사이트\n\n--\n\nLanguage\n\n- Services\n- Support\n- FAQs\n- Sign Up\n- Log In\n\nKorean Media and Website in USA\n\n+more\n\nK-News\n\n+more\n\n[미국의 축제와 문화로 떠나는 여행!미국의 다채로운 축제들을 만나보세요!](https://jobkoreausa.com/knews/view.h",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "\"선택 아닌 필수\" … 컬리, 기술 경쟁력 확보 위해 'AI 합작 법인' 세웠다 | Save Internet 뉴데일리",
+        "url": "https://biz.newdaily.co.kr/site/data/html/2025/11/13/2025111300143.html",
+        "text": "\"선택 아닌 필수\" … 컬리, 기술 경쟁력 확보 위해 'AI 합작 법인' 세웠다 | Save Internet 뉴데일리 -- var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; --\n\n- 김보라 기자\n\n입력 2025-11-13 10:44수정 2025-11-13 10:44\n\n음성으로 듣기\n\n공유하기\n\n기사 공유하기\n\n- https://biz.newdaily.co.kr/site/data/html/2025/11/13/2025111300143.html\n- 링크복사\n- 메일\n- 밴드\n- 네이버\n- 텔레그램\n- kakak --\n- 카카오\n- X(트위터)\n- 페이스북\n\n주소가 복사되었습니다.원하는 곳에 붙여넣기 하세요.\n\n--\n\n글자크기\n\n- 가\n- 가\n- 가\n- 가\n\n지난 6월 지분 50% 합작 1카이루스 설립검색·추천·물류 등 핵심 기술 자체 개발할 듯쿠팡·롯데·신세계 잇따라 AI 전환 속도\n\n이미지 크게보기 ▲ 컬리 로",
+        "score": 0,
+        "published_date": "2025-11-13T00:00:00.000Z"
+      },
+      {
+        "title": "컬리, 상반기 첫 흑자 달성… AI 전환 가속화 | 서울경제",
+        "url": "https://sedaily.com/NewsView/2GWL3D465L",
+        "text": "-- 컬리, 상반기 첫 흑자 달성… AI 전환 가속화 | 서울경제\n\n컬리, 상반기 첫 흑자 달성… AI 전환 가속화\n\n리테일 테크 기업 컬리가 올해 상반기 사상 처음으로 반기 영업이익 흑자를 기록했다고 11일 밝혔다. 2분기 연속 흑자를 달성한 것도 이번이 처음이다. 올해 상반기 연결기준 매출은 지난해 같은 기간 대비 7.6% 증가한 1조 1595억 원으로 잠정 집계됐다. 영업이익은 115억 원 개선된 31억 원으로 창사 이래 첫 반기 흑자를 달성했다. 2분기 기준으로 매출과 영업이익은 5787억 원, 13억 원으로 각각 7.4% 증가했다. 상반기 상각전영업이익(EBITDA)은 161억 원으로 매출 증대와 물류 생산성 효율화, 수익성 강화 등 전방위적 개선을 통해 전년 동기 대비 106.8% 증가했다. 같은 기간 전체 거래액(GMV)은 13.6% 늘어난 1조 7062억 원으로 집계됐다. 이같은 호실적의 요인으로 컬리는 식품과 뷰티 등 주력 사업의 안정적 성장과 신사업 진출, 샛별배송",
+        "score": 0,
+        "published_date": "2025-08-11T00:00:00.000Z"
+      },
+      {
+        "title": "[단독] \"샛별배송 만난 인공지능\" 컬리, 자체 AI플랫폼 '원카이루스' 추진",
+        "url": "https://www.newsis.com/view/NISX20250623_0003223999",
+        "text": "[단독] &quot;샛별배송 만난인공지능&quot; 컬리, 자체AI플랫폼 &#039;원카이루스&#039; 추진:: 공감언론뉴시스::\n\n\n2025.06.28 (토)\n\n**서울 27.5℃**\n\n* K-Artprice\n* 프라임뉴시스\n* 위클리뉴시스\n* [페이스북](ht",
+        "score": 0,
+        "published_date": "2025-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "컬리, 3PL 영토 확장 가속도…“단순 유통 넘어 물류 플랫폼으로” - 전자신문",
+        "url": "https://www.etnews.com/20260123000179",
+        "text": "컬리, 3PL 영토 확장 가속도…“단순 유통 넘어 물류 플랫폼으로” - 전자신문\n\n## 컬리, 3PL 영토 확장 가속도…“단순 유통 넘어 물류 플랫폼으로”\n\n발행일 : 2026-01-25 00:00 지면 : 2026-01-26 10면\n\n공유하기\n\n페이스북\n\n[X(트위터)](https://www.etnews.com/tools/redirect_sns.html?p=twitter&pos=2&url=https%3A%2F%2Fwww.etnews.com%2F20260123000179%3FSNS%3D00001&text=%EC%BB%AC%EB%A6%AC%2C+3PL+%EC%98%81%ED%86%A0+%ED%99%95%EC%9E%A5+%EA%B0%80%EC%86%8D%EB%8F%84%E2%80%A6%E2%80%9C%EB%8B%A8%EC%88%9C+%EC%9C",
+        "score": 0,
+        "published_date": "2026-01-24T00:00:00.000Z"
+      },
+      {
+        "title": "South Korea eyes 30tln won investment in AI and chip sectors in 2026",
+        "url": "https://qazinform.com/news/south-korea-eyes-30tln-won-investment-in-ai-and-chip-sectors-in-2026-ebb090",
+        "text": "South Korea eyes 30tln won investment in AI and chip sectors in 2026\n\n# South Korea eyes 30tln won investment in AI and chip sectors in 2026\n\n07:52, 16 December 2025\n\nThe government plans to invest over 30 trillion won (US$20.4 billion) next year to support artificial intelligence (AI) and other advanced sectors, funded by a newly launched mega-sized fund, officials said Tuesday, Qazinform News Agency cites Yonhap.\n\nPhot",
+        "score": 0,
+        "published_date": "2025-12-16T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "Kurly - GitHub",
+        "url": "https://github.com/thefarmersfront",
+        "text": "Kurly · GitHub\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nthefarmersfront\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\nSearch syntax tips\n#\nProvide feedback\n \nWe read ever",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Inside Google's Engineering Culture: the Tech Stack (Part 2)",
+        "url": "https://newsletter.pragmaticengineer.com/p/google-part-2",
+        "text": "Inside Google’s Engineering Culture: the Tech Stack (Part 2)\n\n# The Pragmatic Engineer\n\nSubscribeSign in\n\nDeepdives\n\n# Inside Google’s Engineering Culture: the Tech Stack (Part 2)\n\n### Deepdive into how Google works from SWEs’ perspectives at the Tech Giant: planet-scale infra, tech stack, internal tools, and more\n\nGergely Orosz and [Elin Nilsson](https://su",
+        "score": 0,
+        "published_date": "2025-09-30T00:00:00.000Z"
+      },
+      {
+        "title": "IT 기업 기술 블로그 32곳 모음 - 기술 동향과 기업의 개발 사례",
+        "url": "https://lemonlog.tistory.com/160",
+        "text": "IT 기업 기술 블로그 32곳 모음 - 기술 동향과 기업의 개발 사례\n\n본문 바로가기\n\nProgramming & Platform\n\n# IT 기업 기술 블로그 32곳 모음 - 기술 동향과 기업의 개발 사례\n\n## IT 기업 기술 블로그 32곳 모음 - 기술 동향과 기업의 개발 사례\n\n개발관련 자료를 검색하다가 기업 블로그 글을 보고 내용이 상당히 유익했던 경험이 있었습니다. 그 당시에는 는 그냥 넘겼지만 시간이 지나고 다시 그 자료를 찾아보려하니 어디였는지 기억이 잘 안났습니다. 한가지 확실했던건 유명한 기업의 블로그였고, 그렇게 다시 원하던 자료를 찾아볼 수 있었습니다.\n\n그러고나서 다른 기업의 블로그를 보니 그곳에서도 좋은 글들이 많이 있었습니다. 그래서 이런 기업의 기술 블로그들을 한 곳에 정리하면 좋겠다 싶어서 이 글을 작성하게 되었습니다.\n\n### IT 기업 기술 블로그 모음\n\n| 블로그명 | 링크 |\n| --- | --- |\n| kakao Tech | [https://tec",
+        "score": 0,
+        "published_date": "2024-02-23T00:00:00.000Z"
+      },
+      {
+        "title": "A curated list of engineering blogs - GitHub",
+        "url": "https://github.com/kilimchoi/engineering-blogs",
+        "text": "# Repository: kilimchoi/engineering-blogs\n\nA curated list of engineering blogs\n\n- Stars: 37483\n- Forks: 1964\n- Watchers: 37483\n- Open issues: 144\n- Primary language: Ruby\n- Languages: Ruby\n- Topics: engineering-blogs, lists, programming-blogs, software-development, tech\n- Default branch: master\n- Created: 2015-06-13T18:25:17Z\n- Last push: 2024-08-21T13:01:11Z\n- Contributors: 310 (top: kilimchoi, kaizensoze, duckspeaker, meisyal, b4rtmoss, griffio, nucreativa, ssundarraj, muazhud, loetn)\n\n---\n\n# ",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "컬리의 새로운 배송 시스템 구축 과정과 우리가 배운점 - 컬리 기술 블로그",
+        "url": "http://thefarmersfront.github.io/blog/2023-delivery-system/",
+        "text": "컬리의 새로운 배송 시스템 구축 과정과 우리가 배운점 - 컬리 기술 블로그\n\n# 컬리의 새로운 배송 시스템 구축 과정과 우리가 배운점\n\n컬리의 새로운 배송 시스템 구축 과정과 프로젝트에서 얻은 교훈을 소개합니다.\n\n들어가며\n\n- 기존 배송 시스템의 한계와 새로운 배송 시스템 구축의 필요성\n- 새로운 배송 시스템 구축 배경\n\n새로운 배송 시스템 설계\n\n- 효율적인 협업을 위한 도메인 영역 정의\n- 배송 프로세스를 이해하기\n\n우리가 일한 방식\n\n- 효과 중심의 반복 점진 개발\n- 스쿼드 체계와 상호 보완적 협업\n\n점진적 시스템 전환을 위한 아키텍처 설계\n\n- 점진적 시스템 전환 및 롤백을 위한 설계\n- 배송 요청 분배 시스템 선정\n\n점진적 시스템 전환을 위한 계획\n\n- 시스템 전환 기간 중 현장 대응 및 온콜 프로세스 수립\n- 단계적 시스템 전환 계획\n\n3주간의 시스템 전환 이야기\n\n- 전환 기간 중 배송 불가 0건, 장애 0건\n- 시스템 전환 일정 단축 결정\n- 초기 문제 해결 집중 ",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "international_news": [
+      {
+        "title": "Citi hires Davis from Wells Fargo as head of growth equity for North America - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2dfNEY3UXVldFE3RzIzYTQteDYtamR5WEhGTUIxLTc3YmVjczNueGI0bWhyTXR3TjNfdEVRRE5feWhScEFndDFoNS0zZWV3Z3R1M2hYQ0IxRFBPX0x3MkV0TV9SRDlpU2Z5c0FqUmlIR3oyX2VybDZfU2FCRDB2cEVhZG8tcGo2TlNDMVd1ZjNuWVFWNzlDSkNiOUJPZEtEX2pseHI2T21ZN3B5cGJVa2N1eTI?oc=5",
+        "pub_date": "Wed, 16 Oct 2024 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Kurly lands $210M pre-IPO at a $3.3B valuation months after its last funding - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUW9RRnFXU3NrU0p5ZHZjSjJka3A1eFBCbndEeVNBbmZhdmFPcVVCQW82TVdwV2xjemFaV05PTUJJZTZSS09yb3VyU3E3V0FGVTRqM2lYc3pBeEY1YjZ2RTdLZ0JLcW41bWptTnN6Wm5aYXhFV180QkEzUjVwMFpkSThqWnJWaXd5aFJUQlgyQXRLZjFDb1VGSWw4dGlRX0pxSTQ0LVYwc2RTMW84YVY1eWZKZXY?oc=5",
+        "pub_date": "Sun, 19 Dec 2021 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Kurly, the Korean online grocery startup, plans June IPO at estimated $5.9B valuation - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZExobnptbjFjbHRWUGJHUU5Vb2YxVTdISE9rbGFwZF9Iazh5aVlfYlFkSDNBeGhlTDhRLTVsbTJha0hyQWs5LTlYTWRnTHY0cFFFVENVdWdBeGdYVkxpTnk3NTU5R3p6eTVNUEpEdTB1dHNRX1c2a2Q0aGVscXpxaGIxMUoyWjNGcHhSa1pDUlFibFRKLTBvWTVtanVHSkxGelhyLThib2pOM2Z6TGdlaW9sd0RsTEs4VmlHVE5OajNvQWpBcDJV?oc=5",
+        "pub_date": "Fri, 29 Oct 2021 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Online grocery startup Kurly scraps IPO amid market uncertainty - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc2ppcW5CZUIyM1BUc2lSOG80X0trNWJzY1hLMjZ2Tm1ac2JXZzhUOVdOMWxYdnZyaXJPTnZQY3M0b2I2OWE4ekh4bDc1aV9CZmJubEZCN1Awc2ZFTjNKSnZvRWJRb1VOLUpzNVhzVkc5NGI3UjRtNTlsWEQxbC1kenVUenExZW5VYl9OY2lKMGcyUV9CZ0paM0VkVHNES28?oc=5",
+        "pub_date": "Wed, 04 Jan 2023 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Exclusive | After Coupang, Another South Korean Delivery Company Catches U.S. IPO Fever - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxNNHpiLWxCYkNISlBaZU42RlB6YWVwSUdyVGcycmoxa0I0UWpOOTNFcmc3MnhOaFRYTnlTU0NTTzhJVW5ZaDh5bktzU1kxb0tMbjllMEo3VElZMkVHa0VidFRzMzF4RUVVdkV1VjF6YjlkN0ctbTBERnFpRjZMTTB4VGd3bkxCbFhsVmtpOWVFVVkyZ2FGakgxR3JXbmRHQ3Z3emJ2YUMtaGhfYXpnQnRtZmFQWDFNcGtWd0RJZnVNZjdvRUxBYjJpV3p4SHRKRWFfdl93NXY1SFV0dWhvbUxCdFMzRnViM0xzRktuUW1PejFKRzN5eFlNTlhlZTZXUnZld2VIWmZRSHQ1SnhUc1ZVZ3ZRZDdzem1OMk1VZUFsVG5hcGpwai0tVGEtZHpfN3VpSDRZUXFBUGpPYUhBLS1TbUZkNF9wUjBWSkMwbmJjNHd6dE1oNlFJTk1EX2QzM2cxSGJDVi1RUllfNk5TT1BfallwUGxWODVvTWQ0SUxVVEVkWmUyV2QwYXBscHZuaEJXUmVKMURhbm80VEd6eGVJNzkxRE9DTnN4ZXA3Z0dWMElnQ2x4dS14X1BMbE5WYzQ3WHA4?oc=5",
+        "pub_date": "Thu, 11 Mar 2021 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "'만년적자' 꼬리표 뗐다…컬리, 첫 흑자 비결 알고 보니 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWhLa0tiU3I5eTM2UzluQ1g4RGRobHMyVnRndmRfcVZKNkpfTXJlZUtlVE9qVzVSSTJwN0NKUWVTUm9iejZkLW12dmZMTTZZN2x3YzFyTHhiOFV6SnVJSFk3RGMySVNDOVFhTHJrclY5ZDJ5aFh0LUZVR3NPUERVQWkwZzRNajA?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 13:00:01 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "컬리 첫 흑자 비결은 140만 회원 '바잉파워' - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KRGYzUWNhV0JseWx1RjBscC01OVlUbm5IQ3JBMmlYQXZDQmdYWEZaZVFfVlN1a2pES1dCdnkzMjFUZFl2YU14d1pNM2UyMTlYTjdtNV80UVVIZ9IBVEFVX3lxTE9aUXhKcW9rSTF0b1EyenRETnh4ZjNlS3k2eTBCX3N0YUttajNUTEkwQkcxano2QXRudUlBdVRwWTNfcTFfMkJJTzZ5dlpsemJhRFhBOQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 13:00:01 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "\"구조대 오긴 오나요\"…'국민주' 네이버, 증권가선 \"상승 여력\" [선한결의 이기업 왜이래] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CVXZ5VHBBZkZyNnl2Nnk5dXpuYXE1Umo2Y0pHaFdRdUJEN280LTlMdXFiaXdrclNuaGpjUDVROU4zYXU3ZzFWUERIMlZrRExpV0YwWVFBbmlKUdIBVEFVX3lxTE5hZ1Y5cVlOOU1VOUxHZVhaSy1DV0Faa2NjOGMtSWtvdnlVNk0wOUZvaEZQcFR0WjM2ZTZNTktOSnh4dkxRTVZIc1NzdVRCNFJtSlZMYQ?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 07:35:54 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "[단독] 택배 대화 기구, ‘새벽 배송 제한’ 대상에 용달 기사 포함 추진 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWjFLVTc4YjcyclRFZmstUEdYVTNIakxIdDl4WHgyV09sQnc5bThHSm9oQkVweUxMY2hrSjZmM2tyWHh5bmZZOFBhN210b2tEbzVCUWhIUnZGdUR4dnNwZWNOdzdydE9EekQ3MUNNYmdXaXdTVUhEY2VzNTVzWkJreXFsRk7SAZgBQVVfeXFMUDlhQnViX01nNVFoVjNBLWVPQncyOE5OR25oanVPWHBYYUhlN2ZmSkttUHBwT3JWZDI1bktyOERmVG4zR1R2Z1dFeFZ2QnZWV3RvYjVaU1FaaTl0cUJqclgyeWtSNE1lYmlwSnVBYzJiUmotMHd6ZzEwN2t0bTZkRGFRWUVyaXA2LTBOR2h2WnRTLUV3RVNxUWk?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 02:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "이씨에스, +4.97% 상승폭 확대 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNemExeS0zQzNLRkdNZmFRZ280WjJUZ1dkYXVtTVNuRkFZcm1TVGxSZGQ1dzktYmEwa0NnZVpUYXJOQVBsRjdTa1ZQMTNSWUF5Rm5xdnh4VUpZc3oyM01zMzE4akktVWxiQWZHZnN3R2Nfci1aYjRNc2VuLVhUVUNSYlUtMNIBlwFBVV95cUxNM1VBOEhYN1J4WV9EYWhvRUszVXRnem5rM2REZWUwZzFnbE9uSFlZZ2V6YjRuTG1Na1dUZWJUaHVOb1BCV0ttTWlPaGlHRzlrQXc1bEVWcGhxR2VtR2ZFVF95VjdBSFVhM0dFWmtoUnZSVEVHby00NlF3b2YxMWdaLVdwMElJQjRZQ05VMXhkU1BRamxFUC0w?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 04:21:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "미래에셋벤처투자, +7.73% 상승폭 확대 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeEo4MUIxWENIeTdGSWlNeXRjNk5GMnNHWnFXa2tuamNkdW5IelJIRVVwRU1UdjRvVTEzRFMtaDlmbFZfX3pURnpzUkZGTl9FWExSUnNJMHIza20yN3U4ME0yeUcySlR6SmlycjNRcktmR1hxZzYtTmJSNUdJN0VZRkY0ONIBlwFBVV95cUxQRTlrb1JCa01BalkxcmpxX3czZDhlWUxwcVN4Rk1Pb3NFaUFRUndtczhxS0dYT0xPOUtWVWVfa2gybEM3cWRXYmszMkhpbGNNZW01YThSVXAwakE1MDllRjkxRzdxejd0OHFod1RkQjZ5X3BibVVsd2M2SEsyb29yNzMtcXZVdWI1OVpIM2VUOE9kSVZJTXdB?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 01:16:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "컬리, 올 상반기 영업이익 첫 흑자…매출 소폭 증가 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15Ri1HcmtkWVdmam9BODB0eXFVZWxTdnVvc0FoOEpaZ2NvT0RIN1ZpcGdUbUp0UTFwSXVFMUlmSXlvVWFHYzByWnpXekRLcmI1?oc=5",
+        "pub_date": "Mon, 11 Aug 2025 07:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "[컬리대표] 검색결과 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCUWdQRE5SYTFKZVk4MW85RHdqX3EwMkZXeWR4SXpaQklpZWlvZjZldHB1NDFyMFhReEtSejlrN0huLUtvQ1BhejhGNm9TYUJGNkRTNFNnOW9qNk1JVS1UNmdZX3IybjdPZzMwc05fczZBVUxUQ0hMSG9KOA?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 07:23:26 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "‘핫’한 쇼핑앱 ‘올영·다이소’…1년새 이용자 150만명 이상 늘어 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2N1gzSGxKcWNWdGNZaFhjMkVhdml5SGtPbkFVQnhyMnJURlFGME5FWlcyME1pd1NmU1k3dHgyM3B5dndIQUE?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 01:50:01 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "BTS 광화문 공연 도심 통제에 이커머스 배송 '빨간불' - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43QVZZdTZBRVVLcDhDMndxVjlYS0ZIdndEWHVfSzVlZlZmdFNjeUY4YlVRcTlPT0lOWk54djJ3Z2ZmVm5iSFBvQWQwMFNmY2JaUHlwRndn?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:00:11 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "컬리, 23일까지 '뷰티페스타'…최대 1만여 개 상품 대상 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04WVlEZFBRY2RtNmpSZjR3c0ljT2xLMm1na1FuMmhQZHlnVklIX2IxN2Z6VVhMZ1hBSDdBRGg3eDh2MWE4YjM2LXFvYkxIcHZ4eHdhTEx3?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 00:28:39 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "BTS 메뉴 맛보자…아워홈, ‘BTS 더 시티 아리랑 서울’ 파트너십 진행 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93Mk93dXZDcjRONW5yWlllVklwVllxYTdaNFhjZHhob0dDaVBCckFONG1HZGRmcER3UnhJMHU4NlQ3ZjdVUnhTdk5oQ3JFZ19GNjFHMjV3?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 00:54:58 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "김슬아 대표, ‘배우자 리스크’ 직격탄…컬리 IPO 밸류에 빨간불 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6SDJDMmJHdnFwMXRmRUtnSDlCSm9qbjc3a1hOaDBXeFpFdXVQeUR0WURhZ1Jub3MyWlFNcGE0eC1NUFpzOEF1RWQ3ZjdOeXZiX1B5SDcwQU9CamloMTV1RXkxeGNkdjFo0gFsQVVfeXFMT1JaSXZiTU8xczl6clpCSXFTNlR2Tmh2NW12N0RzZU8tWUV0NWFuM1ZuYXJuVE01d1VQamJYZE96WUpOb1ZNSi1JelJlbXVBNnJIMG5lTDJ3ck5wZy0zaXNyVEN3LU9zaGJyNGJ6?oc=5",
+        "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[기업직썰]마켓컬리 직원…\"본사와 물류센터 복지는 천지차이\" - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0eVJfQUxsZ3M2SmpUVHpKTWtNSmNvbWF0cUZORW9zdGE3SjVKd0R1by1jVVl4T05VQncwUG1xOFZ1T2ZTRllEc1FFeURKWXFwbENTNzZDQXVnV0tkTDVkekczRmFSdnM?oc=5",
+        "pub_date": "Thu, 11 Mar 2021 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "컬리의 온사이트 마케팅 전략... \"실제 매출까지 가는 유저는 2% 남짓\" [블로터 CMTS 2023 현장] - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IZjlwNjMxTlZHQno5YWx2amF0NFJ0dVdWWG5sVDVDTzNTWXUtMWxPSjJkZEdveGxfSXROT1AzNEViNmp5YXM4MUdGdkVMa29Fb1BRQk9wMGFDY3V5Z20tYnJuckh6TDFK?oc=5",
+        "pub_date": "Wed, 05 Jul 2023 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "2026년 이커머스 3대 키워드는 무엇 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pb2toTF9pcVF6Xy1uT2dXNU91RVdUajRsQVZneVFYYUlyb3U2aUF4VWcybEZBb3JqbktkbFZwQzBMU0hKQkY0dzFuTU9TSEd5MERv?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 13:48:56 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "컬리가 식단관리 앱을 만든 이유 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fZjBtV3VpSk51Nk1jQ1hndFZZNXFlU2VFOHoxZVFYeWgtRk9jUEpIcmZaWlBPNk9wbnFMcU1TbDVSTllyY1NzYmFkbjYyb1lpS0U0SQ?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 08:39:03 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "쿠팡과 컬리의 ‘종이 아이스팩’을 만든 업체를 만났습니다(feat. 바인컴퍼니) - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YV3VtRF9lNlZXOS1Ec3NZYXlEb2pCZE9PMlg2OTNuZEw0UDM1aFNHY1lYN0ZtcmdWRVFLWUptMzUtMFNvS1dVdVRuSlh6UQ?oc=5",
+        "pub_date": "Wed, 02 Dec 2020 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

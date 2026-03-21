@@ -1,0 +1,740 @@
+{
+  "company": "AWS코리아",
+  "sources_used": [
+    "exa_search",
+    "google_news",
+    "dart",
+    "credible_news",
+    "brave_search",
+    "naver_search"
+  ],
+  "result_count": 12,
+  "sections": [
+    "culture",
+    "strategy",
+    "tech",
+    "overview"
+  ],
+  "data": {
+    "company_name": "주식회사 코리아",
+    "company_name_eng": "korea co,.ltd.",
+    "stock_name": "코리아",
+    "ceo": "김승곤",
+    "address": "대구광역시 중구 동덕로 115 (삼덕동2가, 진석타워) 1711호",
+    "industry_code": "68112",
+    "established": "20121026",
+    "homepage": "www.picassocon.com",
+    "ir_url": "",
+    "stock_code": "",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+        "link": "https://sibauchi.tistory.com/1205",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+        "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
+        "link": "https://ilovefamily.tistory.com/527",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
+        "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
+        "link": "https://lefthusband.tistory.com/1565",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "대구 취업 성공 잡코리아 활용 전략으로 꿈을 이루세요",
+        "description": "단순히 채용 공고만 보는 것이 아니라, 회사의 사업 분야, 기업 문화, 근무 환경 등을 파악하여 자신에게... 잡코리아에 있는 기업 정보와 후기를 참고하여 회사 분위기와 면접 방식을 파악하는 것도 잊지 마세요.... ",
+        "link": "https://sibauchi.tistory.com/837",
+        "pub_date": "20260320"
+      },
+      {
+        "title": "유한킴벌리 데이터 사이언티스트 정규직 채용 - 연봉·면접... ",
+        "description": "중시하는 문화 - 브랜드 자부심: 오랜 역사와 탄탄한 브랜드 파워 솔직하게 말하는 단점도 있어요 - 외국계 기업이지만 한국 기업 문화가 혼재되어 다소 보수적인 측면이 있다는 의견도 있어요 - 의사결정... ",
+        "link": "https://blog.naver.com/cymmcymm/224215509608",
+        "pub_date": "20260320"
+      },
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "정유업계 대기업 S-OIL, 2026 경력직 엔지니어 채용 중 — 5개... ",
+        "description": "최근 성과주의 문화가 강화되는 경향이 있다는 후기도 있어요. 어느 기업이나 장단점은 있지만, S... 추가 면접이 진행될 수도 있어요. 입사지원서 내용이 사실과 다른 경우 합격이 취소될 수 있으니, 경력... ",
+        "link": "https://blog.naver.com/cymmcymm/224215504767",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "정규직 대규모 채용 | 14개 직무 총정리 + 면접 족보까지 공개",
+        "description": "퇴사율 및 조직 문화 - 현직자 후기 솔직 정리 크레딧잡 데이터 기준, SK하이닉스의 최근 1년 퇴사율은 약 10%대 초반으로 대기업 평균 수준이에요. 반도체 업계 특성상 이직 시장이 활발한 것을 고려하면... ",
+        "link": "https://blog.naver.com/cymmcymm/224215480910",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "어플라이드 머티리얼즈 면접 후기 (엔지니어) 결과, 기출질문",
+        "description": "각 기업, 직무별 합격자를 배출하고 있습니다. 특히 Applied Materials 출신 코치진, 반도체... 실제 합격하신 지원자 후기 어플라이드 머티리얼즈 코리아 석사/ 신입 ▼ 면접 합격 후기 보러... ",
+        "link": "https://blog.naver.com/ve_getable/224220697925",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "제약산업분석 4 주차 강의: 바이오의약품 산업 채용 동향 분석",
+        "description": "CDMO 기업들은 외국어 능력(OPIc AL 이상 등)이 뛰어나고 제약 산업 전반의 밸류체인을 이해하는 인재를 확보하는 데 사활을 걸고 있다.11 공정 개발(PD) 및 기술 이전(Tech Transfer)의 전문화 CDMO의 핵심... ",
+        "link": "https://blog.naver.com/potatoschool/224218820717",
+        "pub_date": "20260316"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "정책뉴스20260321토요일",
+        "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 보건복지부(장관 정은경)는「메디컬코리아 2026」참석차 한국을 방문한 몽골 친부렝 직찌드수렝(Chinburen... ",
+        "link": "http://cafe.naver.com/jungamironware/9268",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+        "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-20 오후 3:00:00 엔브이에이치코리아㈜의 하도급법 위반행위 제재 엔브이에이치코리아㈜의 불공정하도급거래행위... ",
+        "link": "http://cafe.naver.com/magicbank/3332",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "[경력] ~26.04.09 / 일레븐플러스코리아 - Frontend Developer (React)",
+        "description": "채용 공고 - URL (공고 링크) : https://zighang.com/recruitment/ef6c7bd3-f485-4d4e-a189-51991728cc31?utm_source=naver&amp;utm... 혜택 및 복지 ?자율적이고 주도적인 업무 문화 • 유연한 근무 시간 및 휴가 사용 ?수평적인 조직... ",
+        "link": "http://cafe.naver.com/workhub/32402",
+        "pub_date": ""
+      },
+      {
+        "title": "충청남도보도자료20260320금요일",
+        "description": "엔터테인먼트 코리아 이스포츠 매니저), ▲OGN의 남윤승 대표 ▲한국전자통신연구원 이상광 박사... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자 박람회... ",
+        "link": "http://cafe.naver.com/jungamironware/9239",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "AWS, 산업 혁신 이끄는 AI 에이전트 비전과 전략 공개",
+        "description": "아마존웹서비스(AWS)는 10월 14일~16일 진행한 ‘AWS AI×인더스트리 위크 2025’를 통해 AI가 단순... 에이전틱 AI(agentic AI) 기술과 서비스, 새로운 AI 기술 전략에 대해 소개했다. 카바나스 디렉터는 “AI 기술의...",
+        "link": "https://blog.naver.com/caetoday/224064553846",
+        "pub_date": ""
+      },
+      {
+        "title": "AWS Tech Forum 패널 토의 – 인공 지능 활용에 대한 엔터프라이즈의 고민 그리고 모범 사례 | Amazon Web Servi....",
+        "description": "AWS 코리아 김선수 사업 개발 매니저(이하 김)의 사회로 LG CNS 클라우드... 이 AI 기술을 접목해서 사업 요소, 프로세스를 만들어가는게 전략적인 방향인지, 아니면 오히려 역효과를 낳는지 살펴보는 것이...",
+        "link": "https://aws.amazon.com/ko/blogs/korea/aws-tech-forum-ml_for_enterprise/",
+        "pub_date": ""
+      },
+      {
+        "title": "생성형 AI 트랜드 및 글로벌 주요사례와 AWS 접근 방향 소개 | AWS Startups",
+        "description": "발표자: 강우주 | 한국 Data &amp; AI GTM팀 총괄, AWS, 김도균 | Data &amp; AI GTM , AWS, 언어: 한국어, 주소: Global Startup Center, 165 Yeoksam-ro, TIPS Town S1, Seoul, Gangnam 06247, KR, 레벨: 100 - 기초",
+        "link": "https://aws.amazon.com/startups/events/gen-ai-trend-global-examples-approach?lang=ko",
+        "pub_date": ""
+      },
+      {
+        "title": "생성형 AI 혁신 센터 - AWS",
+        "description": "생성형 AI 여정을 아우르는 포괄적인 전문성을 갖춘 AWS의 과학 및 전략 전문가들이 사용 사례의 우선순위를 정하고 로드맵을 구축하며 솔루션을 프로덕션에 적용할 수 있도록 지원합니다.",
+        "link": "https://aws.amazon.com/ko/ai/generative-ai/innovation-center/",
+        "pub_date": ""
+      },
+      {
+        "title": "함기호 AWS 코리아 대표, “AI의 IT 이점을 비즈니스 이점으로 가져가야”",
+        "description": "기술 전략을 발표했다. 이 자리에서 함기호 AWS 코리아 대표는 올해 AI가 IT 서비스의 보완재를 넘어 기업의 사업성 확보에 중추가 되는... 간담회는 AWS코리아의 2025년 비전과 고객 기업의 혁신 사례, 경제 및...",
+        "link": "https://www.donga.com/news/article/all/20250305/131147376/1",
+        "pub_date": ""
+      },
+      {
+        "title": "함기호 AWS 코리아 대표, &quot;AI의 IT 이점을 비즈니스 이점으로 가져가야&quot;",
+        "description": "현장에 AI가 접목되고, IT 분야에서의 이점 정도가 아니라 사업... 2025년 전략 방향을 공유하는 테크 세션이 각각 진행됐다. 함기호 AWS코리아 대표는 “작년 AI 시장 추정 규모는 3370억 달러(490조 7000억 원)...",
+        "link": "https://it.donga.com/106629/",
+        "pub_date": ""
+      },
+      {
+        "title": "삼성전자 사례로 보는 엔터프라이즈 클라우드 여정 | AWS 기술 블로그",
+        "description": "가는’ 방향으로 이루어집니다. 도입 초기 기업은 비용 절감 같은... 이 팀은 하이브리드 클라우드 전략 수립, 사내 여러 사업부와... AWS와 클라우드에 대한 비전을 함께 하며 클라우드 여정을 함께하며...",
+        "link": "https://aws.amazon.com/ko/blogs/tech/cloud_journey_through_the_case_of_samsung/",
+        "pub_date": ""
+      },
+      {
+        "title": "AWS, “韓 기업 48% AI 도입…11%만 운영 핵심 통합”",
+        "description": "전체의 11%는 제품 개발, 전략적 의사결정, 비즈니스 모델 수립, 복잡한 문제... 이번 조사는 AWS가 다양한 규모 기업들이 AI를 어떻게 활용하고 있으며 향후 어떤 방향으로 나아갈지 파악하기 위해 리서치 기관...",
+        "link": "https://v.daum.net/v/20250705000041448",
+        "pub_date": ""
+      },
+      {
+        "title": "AWS, '에이전트 중심' AI 전략 본격화…서비스·생태계 동시 강화",
+        "description": "사진은 2022년 11월 미국 라스베이거스에서 아마존웹서비스(Amazon Web Services·AWS)가 주최한 컨퍼런스. 2024.01.19.",
+        "link": "https://www.newsis.com/view/NISX20250819_0003295206",
+        "pub_date": ""
+      },
+      {
+        "title": "AWS “파트너간 경쟁보단 협력…생성형AI·마켓플레이스 등 전방위 지원”",
+        "description": "지원 전략에 동참한 SK텔레콤과 에티버스 사례도 공유됐다. 왼쪽부터 황웅상 SK텔레콤 MSP사업팀 리더, 허정렬 AWS코리아 파트너... LLM과 비전 AI, 헬스케어 AI 등 인더스트리 협력 파트너를 찾은 결과 AWS를...",
+        "link": "https://www.ddaily.co.kr/page/view/2024043014035656670",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "AWS - 채용 방식",
+        "url": "https://aws.amazon.com/ko/careers/how-we-hire/",
+        "description": "Learn all about how we hire at AWS, from the application process to online assessments to interviewing. Get insight from AWS recruiters, interview tips, and answers to FAQs."
+      },
+      {
+        "title": "클라우드 컴퓨팅 채용 정보 — AWS에서 일하기 | AWS 커리어",
+        "url": "https://aws.amazon.com/ko/careers/",
+        "description": "여기서 무엇을 만들 수 있는지 궁금하신가요? 사이트를 둘러보고 우리의 포용적이고 협력적인 문화를 통해 직원들이 어떻게 큰 생각을 하고 혁신적인 결과를 제공할 수 있는지 알아보십시오."
+      },
+      {
+        "title": "AWS 문화 및 혜택 | AWS 커리어",
+        "url": "https://aws.amazon.com/ko/careers/why-aws/",
+        "description": "아래에서 고객에 대한 집착이 어떻게 창의적인 혁신을 촉진하는지, 소유권이 어떻게 의미 있는 결과를 가져오는지, AWS의 포용적 문화가 어떻게 AWS를 자기 자신을 드러내고 경력에서 가장 흥미로운 일을 하기에 가장 좋은 곳으로 만드는지 알아보십시오. ... 우리는 항상 재능 있는 사람들과 소통하게 되어 기쁩니다. 하고 싶은 일을 알려 주시면 관련 역할과 AWS에서 구축하고 있는 내용에 대해 계속 알려 드리겠습니다. 인재 네트워크에 가입하세요 · 회사 전체의 빌더들이 AWS의 혁신적인 작업, 포용적인 문화 및 협업 팀이 AWS를 경력을 한 단계 끌어올리기 위한 이상적인 선택으로 만드는 이유를 밝힙니다."
+      },
+      {
+        "title": "AWS 문화",
+        "url": "https://aws.amazon.com/ko/careers/culture/",
+        "description": "<strong>최고를 채용하고 육성</strong>한다 리더는 모든 채용과 승진에 있어 성과의 기준을 높입니다. 리더는 조직원의 특별한 재능을 알아보고, 적재적소에 배치합니다. 리더에게는 또 다른 리더를 만들고 다른 사람들을 코칭하는 역할이 ..."
+      },
+      {
+        "title": "2026년 아마존 코리아 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/32328296/",
+        "description": "아마존 코리아는 소프트웨어·솔루션·ASP 업종의 중소기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+      },
+      {
+        "title": "2022년 회고(AWS 이직, 아내의 복직, 육아 전쟁)",
+        "url": "https://jungseob86.tistory.com/27",
+        "description": "어떤 질문을 했었는지, 어떻게 답변을 했는지, 잘 답변 했는지도 복기 못할 정도로 인터뷰 이후에 지쳐버려서 결론을 보고 그저 운이 좋았다고 표현할 수 밖에 없는 것 같다. 그리고 마지막 연봉 협상 과정을 진행했는데 이 과정은 생략한다. 개인마다 진행하는 방식이나 전략도 다를테고, HR에서 지원자를 상대하는 방식도 모두 다를 것이다."
+      },
+      {
+        "title": "블라인드 | 아마존 채용",
+        "url": "https://www.teamblind.com/kr/browse/%EC%95%84%EB%A7%88%EC%A1%B4-%EC%B1%84%EC%9A%A9-1578",
+        "description": "1. 내부 추천 2. 아마존 리쿠르터 3. 헤드헌터(아직도 헤드헌터를 이용하는지는 모르겠음) 4. 직접 지원 그리고 채용 절차는 굉장히 괴로워. 일단 아마존이라는 회사 입맛에 맞는 사람을 뽑기 위해서 최소 6번 정도의 인터뷰를 1:1 로 50분 정도 본다고 생각"
+      },
+      {
+        "title": "[Amazon 인터뷰] 아마존/AWS 코리아 면접 후기 및 TIP",
+        "url": "https://dearbest.tistory.com/6",
+        "description": "대학생 때 아마존에서 인턴십을 한 감사한 기회가 있었다. 물론 아마존에서 진행되는 인터뷰들도 포지션과 상황에 따라 차이가 있다. 하지만 적어도 모든 Amazon 인터뷰에 예외 없이 해당되는 팁이 있어 포스팅으로 공유하고자 ..."
+      },
+      {
+        "title": "Superookie",
+        "url": "https://www.superookie.com/contents/5940a3ae8b129f504432ff7f",
+        "description": "방금 전 말씀드린 부분과 일맥상통하는 부분인 것 같은데요, 회사마다 중요하게 생각하는 것이 있는 것 같아요. 특히 외국계기업은 인원수도 적게 뽑을 뿐더러, 기업 문화와 맞는지 맞지 않는지는 면접에서 드러난다고 생각해요."
+      },
+      {
+        "title": "AWS에서의 5년… 글로벌 회사에서 배운 것 :: Channy's Blog",
+        "url": "https://channy.creation.net/blog/1231",
+        "description": "Amazon 근속년수에 따른 다양한 색상의 직원 뱃지 – 5년 이상은 오렌지색 ■ 클라우드 산업, 우선 로켓에 올라타라! 우리나라 IT 시장에서 최근 몇 년 동안 가장 공격적인 채용을 하고 있는 회사가 바로 AWS입니다."
+      }
+    ],
+    "google_news": [
+      {
+        "title": "[현장] AWS코리아 함기호 \"2031년까지 12조 투자, AI 데이터센터·클라우드 인프라 대거 확충\" - 비즈니스포스트",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54OUxjS1hnWHpoVy1odzZYdHRVazlXXzZUZWV0ZVE2NGE0R05UbXp0YUppbGlNaVh0RlFDWFJsQ0Qtc3BJb2FVM3VCVzhjNkdvWkpJSFAyRG42a0pIVEx3UHNzdUFtX2M1VEVFNk5SWTRZNDA?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "source": "비즈니스포스트"
+      },
+      {
+        "title": "[현장+] '韓 대규모 투자' AWS…'에이전틱 AI' 전략 속도 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpT1dNdnpfVWV1a3lxd2x4YXlKZ3RmSjJqNEdUUXk5THJoMmUxa1FTUEtXT0VIOFlUZDhmU2ZGX2FkNzFLSHJUNlhXWXZPS3JvWUhuX1R5cHg3M3FZYlFUSmpRQ0k5OXU00gFsQVVfeXFMTTR0Y1JFb2NqVWVTZUg3ZkxuLWZjcFRpV0h3aWhILWtYdDJqa2h6WHNHQlVQOWRBcWJXek1VVkdwU3lKQ0JSNVRBVk9WSlp4R0t2TXpSbFMwdm9IMTRKUGF3eG1ZY0hqd08tM2Nx?oc=5",
+        "pub_date": "Wed, 04 Mar 2026 01:10:42 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "잡코리아, LOOP Ai 기반 채용 서비스 확장... AI 중심 조직 재편 - 헬로티",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9POFYyR0xuMGJHWHhLY2swc3BlaDBQQS1SSDEwYTBwal9ITm00aHZsMjVrZkROYzBqWVJfMHRkRk0wQUtNeVRpMWhMQ2xoQmRLT0RLVmZFT0xYMHYxRlVr?oc=5",
+        "pub_date": "Fri, 02 Jan 2026 08:00:00 GMT",
+        "source": "헬로티"
+      },
+      {
+        "title": "잡코리아, 30주년 기점 ‘AI 네이티브’ 전환 전략 가동 - 매일일보",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tSjFKU1piVkJqMXdDYUhzdVdEOHdRVWZUZkxaNGhqMzBtaUQtZFFteFlMS1BzNDc2aGtxaVAwbXQ3R1lDTFM3WldlcEdJMkV4WjI3OEtGM0RnNVZEcFdWYVVFelU?oc=5",
+        "pub_date": "Tue, 30 Dec 2025 08:00:00 GMT",
+        "source": "매일일보"
+      },
+      {
+        "title": "잡코리아, ‘AI 네이티브 채용 플랫폼’ 전환 가속…30주년 앞두고 실행력 입증 - 우먼타임스",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KQlVEekpPU2pmZkU5OEpXUnZmUzBmT0tCVTVQX2x2a2doN3NZZ3VTa0poVkR6SV9rYm1VUUNfRVlMU2NDVjJaVXdQSjNKUnhiRXloTVFnR0k0bm1aSVFNeGlOTElKaV9aclB3UDJwQdIBc0FVX3lxTE9jcG55dU9OeFpxWWlTRzFMNDhzUnJWWlo4MEo1N3E1blFYcTRkQzJUWFU1eXBrWXdVdEw0TDBzaDc0RUpfaG42cHNTaTlpMl9KUFFrMWNDNkl4WVVjbjBQdjctUlFmWTdjQmZUM01jZHNXM2s?oc=5",
+        "pub_date": "Tue, 30 Dec 2025 08:00:00 GMT",
+        "source": "우먼타임스"
+      },
+      {
+        "title": "잡코리아, 30주년 기점 ‘AI 네이티브’ 전환 전략 가동 - 서울경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1weEpOVGRpazFmc20zamRzVG1nME42eUZqZjdDRzNJejE5bEs0VVFrdnQ4VHhtcFpCTEw1eGI3OElVeng3X281VnVvbmNIUWhzZHfSAVNBVV95cUxQMzF1X1Y2bXRtSWhyNXEwVWVBVE9xNUtnelg5dTdlWmZVUS04YzZLTXMwRGlrdk1wNlF2dHNsZ2lCa2t0ejFjUGxZWEhUZkVuY09vOA?oc=5",
+        "pub_date": "Tue, 30 Dec 2025 08:00:00 GMT",
+        "source": "서울경제신문"
+      },
+      {
+        "title": "잡코리아, 'AWS 서밋 서울'서 HR테크 플랫폼 구축 사례 공유 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlWmxZd1RXd0hzdmR6Y2IwMEs3MkV4V1hyYjFvMVJTZ3dPWkZsankzcTZ5ZnhMajBEaUNTcE5PUHRweUYxR3J0RUZwX19qakRuWlNOUWFR?oc=5",
+        "pub_date": "Fri, 16 May 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "\"직원 10명 중 4명 IT전문가\"…잡코리아, AI 전환 박차 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uRWp2SDUxdXVCaFF0S3VmUnJYb3RfZUdRak1zOEFiWHA4SlplOGdUNTNLdXNHTTYwVlRHbTQ0WHVmSlh2UVVaRzVHQlF6b0o0el96WVJ5QVJYYmw2SFBJTtIBeEFVX3lxTFBpQXpDcGxnajVFYTg1TmJFcDVyTDM1Um81bE90WURCNkV0XzhQaE12czM4emxqTURxcXFOc2NLdGJzdVdVbjJxY3JIVVg4WlNhN3YzTXpYRnZkRHJXSnJaOUlacG13MmRBcHJBNGlkbXJkcVlTT2JVWA?oc=5",
+        "pub_date": "Wed, 31 Dec 2025 08:00:00 GMT",
+        "source": "뉴시스"
+      },
+      {
+        "title": "\"직원 10명 중 4명 IT전문가\"…잡코리아, AI 전환 박차 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZUUl2UG1GWkMyMEIwc19xcXgxVEs3eWN0aDJEQ3ZSZXVNLXMzX2lRODl6WUo2SVJEMldac1dDOGM5MEJvSHlDcFNVd0tISmc3Vkhr?oc=5",
+        "pub_date": "Wed, 31 Dec 2025 08:00:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "메가존클라우드, 29일 AWS와 ‘AI Connect 2025’ 개최 - 디지털 인사이트 DIGITAL iNSIGHT",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUy1YQ0FRWDM2NmZkb1JQSS1BUEJXQWhNRUI4R1pOUlMzNEhEZHltakRGdWhvc1R3OUhhVV9JdGRPSVZxazFVZkJSbGV3MzV1MlBfZ2pQRXo4aWJITmN1Z0M0dUlySGc1UzBmNTNSTUlwYnYtVmMxdEZBRzJ3WmlBcjdRY29nX2VzNnlTZzl3MEd6cm9uWHBrbkExajN3RWZldlIyM3hoeEZmUUxUVFJWSk4yOTlsZm15VGd2djFnMWRrbERjem43TXBpbnlndjBhSlNURE9qN1lXLW92?oc=5",
+        "pub_date": "Mon, 18 Aug 2025 07:00:00 GMT",
+        "source": "디지털 인사이트 DIGITAL iNSIGHT"
+      },
+      {
+        "title": "AI 실행력으로 증명한 전환의 해… 잡코리아, 30주년 기점 ‘AI 네이티브’ 전환 전략 가동 - 보드나라",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DUkpOSnRDTWd6UUVULWx2YWdvdGllSXhFZW5oa1hZZVRkTDNMT1NUNXZaZDJOeGNsWHdrTWtIa0NqN3M2N1QzMUV3N0ZGN3pYb0Z1cTNHZGFSclRpbVpxUUZaWQ?oc=5",
+        "pub_date": "Tue, 30 Dec 2025 08:00:00 GMT",
+        "source": "보드나라"
+      },
+      {
+        "title": "\"전체 직원 40%가 IT 인력\"…채용판 흔드는 잡코리아 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yN1R6amswT3l2TWxsSDMxbmFTbndZRlZ4NDhrV1dNc2w2SnZzRUg4cm1lOGEyMnBGWFFtSkJNMHNEdDFLWjg5dHAtNlY4MGJCUXlxanhSSEpoUdIBVEFVX3lxTE8wRWNSdFk1VFRJbURlSHUyRUk1Vzl3bGotNk1XNnhLOXdwUWM1YzNha0NPaEg3ekdBZTZZZWx4QUZENWZuLU8zXzZ5aTgtQktPbnB4cg?oc=5",
+        "pub_date": "Tue, 30 Dec 2025 08:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "함기호 AWS코리아 대표 \"韓기업 생성형AI 도입속도 세계 최고\" - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iZGJjdS05NUNJd0xxbXVNSmNEd0NJTEllbTY0WERweXFpdmZNdlJHSXJsNVo3eURvWk45cHpReFI3RExyU1dMQm85YXdoQXloMDZBMmdENGFySUdTUHlJ?oc=5",
+        "pub_date": "Wed, 14 May 2025 07:00:00 GMT",
+        "source": "뉴스1"
+      },
+      {
+        "title": "AWS-SK그룹, 울산 데이터센터 설립··· \"AI 위한 클라우드 인프라 확장\" - itworld.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQUk1vanF4Rmc0MjJXY3hCVWdZMTFWR3Nid1dNQmFLOGRTQUphYmZjVDU4WkY2Y1FCNU91SEV3Ui1mUmx1dzE5eTNyM2x1NGxibmJrNk1Gc0U1VTZTcnJqdFBvMUhwcVJhRFRSN0R4clVXVHBRYjYza21KUXU1dXBBbnFZcHBBSzV4ZEhTMWNpSENVVnd3UUdKQks4YTB0WEVTaEpnbEdoRmNhZmJnbk00N1A0c1dNZGtkUFBvMVE0Unl4anF3UGFjTnN3V20tMGJxZWN2Sjh3UjdJdFVVVHBBMk1SejhtSXBROXlXMlBScEE0bkxLbi1uemdUcS1rNVg3MnA3Y1lQTHdxbWNrbnkzdzZtWURjbWMzLUJtNVR3TGludW13TDBjQjZFUmhMT3gxMWZiNjZ2N2FWZTdjRGxaamZndTVmQlpCS2dnZXJaMmVKYi1RVFpBUE1wU08yelE?oc=5",
+        "pub_date": "Mon, 23 Jun 2025 07:00:00 GMT",
+        "source": "itworld.co.kr"
+      },
+      {
+        "title": "‘AI 네이티브 전환’ 잡코리아…“30주년 기점, 채용시장 패러다임 바꾼다” - 더쎈뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5akpjUVotZVhCR0pBSllob0VtZmJvUjA1TVNrSGlFU1g5bEJrNGxVcmtpdTg4cVdKT19YOUwtWndwOWZfUkpYdVV1VjB4amRybGdBbE5LUW1pamxBd3B6UGp6RVpPd1RY?oc=5",
+        "pub_date": "Tue, 30 Dec 2025 08:00:00 GMT",
+        "source": "더쎈뉴스"
+      },
+      {
+        "title": "AWS 코리아, 올해 생성형 및 에이전틱 AI 비즈니스 가치 실현에 주력 - 디지털경제뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKVmFIRGc3Nm1HYXY3ejRKVUtVSGZSR1ZZYXpRTDBDUnNxTmJvUlNkN3gydHlsSG9SYjI5TWVOVWdIVzdVeldiOGpzT2laTlBRQ0NfQjZtV0ZqN2lGM1FpczF1clphcmpsX1E?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 23:37:23 GMT",
+        "source": "디지털경제뉴스"
+      },
+      {
+        "title": "\"직원 12명 이하로 매출 147조원…AI 잘 쓰면 이런 기업 나온다\" - 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yRFBLXzgwYnF1aVlGSmpmRl9NbmtNd1B3T0w1Snk2UW9VV050S0VjOFI2UndEY0dsQjA3cXA5VmFUd3JmWGIxcFZjY2UtejBlcWZPemVmdnJ3Qm9XYWd2cg?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 05:31:06 GMT",
+        "source": "아시아경제"
+      },
+      {
+        "title": "美 매출 3000억 도전하는 메가존…AWS 파트너십 앞세워 공략 가속 - 와이드경제",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOYnBybllsWE1VSlMzS2l4ZFBMcExYZUppbTRoX01sLXd3Rl9NVW1Rb2FrYTlQQjB3bzZQOG0wcENybnE5aF9wTkNDOHBlYUJQeWFUazNmOHhDVmRRUWg2UnV1UmpvQUpFbHZtTQ?oc=5",
+        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+        "source": "와이드경제"
+      },
+      {
+        "title": "메가존클라우드 \"내년 美 시장 매출 10배 성장\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sM3U1VnVIVHlsbnZEUUdZeUxYSEd2OHF0Wk9kdWwtN29UM0Y2UFRaQWVrSWxpVDU1YmIwXzhVZkRmWXRBb3JsaWlwNnV2SHZoQjVSVWpR?oc=5",
+        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "함기호 AWS코리아 대표 “한국에 12명으로 1천억불 매출 기업 5개 나온다” - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Mb3VYVjM5M2xBd3N4RW5DeFo0Umg1bkdvOXVWSXd1a1YwbV9VSVBwd2tkZnhNYkdfdUJERFp5WXJVWFN0MWNmMjhPYjFxZkw3c3RaTQ?oc=5",
+        "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "source": "v.daum.net"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "현직자에게 직접 듣는 AWS 채용에 관한 모든 것! || AWS Career 1부 : 다나와 DPG는 내맘을 디피지",
+        "url": "https://dpg.danawa.com/mobile/news/view?boardSeq=66&listSeq=5793402",
+        "text": "현직자에게 직접 듣는 AWS 채용에 관한 모든 것! || AWS Career 1부 : 다나와 DPG는 내맘을 디피지\n\n로그인하세요\n\n알림\n\n설정\n\n레프트패널 닫기\n\n쇼핑몰 연결 --\n\n관심\n\n[최근본](https://dpg.danawa.com/mobile/ne",
+        "score": 0,
+        "published_date": "2025-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "AWS Korea Solutions Architect 채용 절차 후기",
+        "url": "https://kyleidea.tistory.com/19",
+        "text": "AWS Korea Solutions Architect 채용절차후기:: 개발자딱대라진짜### ABOUT ME\n-\n* 트위터\n* 인스타그램\nToday-Yesterday-Total-\n# 개발자딱대라진짜개발자딱대라진짜\n메뉴검색컨텐츠검색블로그내검색* \nAWS Korea Solutions Architect 채용절차후기\n카테고리 없음2025. 2. 16. 15:38\n![](https://blog.kakaocdn.net/dna/bbbvOL/btsMkyvZIKb/AAAAAAAAAAAAAAAAAAAAAM8r12QZ_ww8WUvuPeowTVBnUgmJJIfDHfBTkrXf80J2/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764",
+        "score": 0,
+        "published_date": "2025-02-16T00:00:00.000Z"
+      },
+      {
+        "title": "아마존웹서비스코리아 채용 합격사례 AWS - 외국계기업 취업컨설팅 레쥬메이크 ⎪ Resumake.co.kr",
+        "url": "https://resumake.co.kr/portfolio/%EC%95%84%EB%A7%88%EC%A1%B4%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84-%EC%B1%84%EC%9A%A9-%ED%95%A9%EA%B2%A9%EC%82%AC%EB%A1%80-aws/",
+        "text": "아마존웹서비스코리아 채용 합격사례 AWS - 외국계기업 취업컨설팅 레쥬메이크 ⎪ Resumake.co.kr\n\n# 아마존웹서비스코리아 채용 합격사례 AWS\n\n# 아마존웹서비스코리아 채용 합격사례 AWS\n\n아마존웹서비스코리아 채용 합격사례 AWS\n\nIT 부문 업계 최고 기업인 아마존웹서비스코리아(AWS) 합격 사례를 소개하겠습니다.\n\n스펙은 좋았지만 직무 설정 방법을 몰라 긴 시간 취업 준비로 헤매고 있던 지원자가, 레쥬메이크 컨설팅을 통해 세계 1위 클라우드 선도기업인 AWS의 서류전형에 합격한 후기입니다.\n\n## “회사소개 – 아마존웹서비스코리아(AWS)는 어떤 기업인가요?”\n\nAmazon Web Services(AWS)는 아마존이 제공하는 클라우드 컴퓨팅 서비스로, 세계적으로 가장 널리 채택되고 있는 클라우드입니다.\n\n이 서비스는 데이터 저장, 컴퓨팅 파워, 데이터베이스 등 다양한 기능을 제공하여 기업이 비용을 절감하고 빠르게 성장할 수 있도록 돕고 있습니다.\n\n## “아마존웹서비",
+        "score": 0,
+        "published_date": "2024-07-02T00:00:00.000Z"
+      },
+      {
+        "title": "아마존 AWS 코리아 어떻게 들어가나요? (ft.amazon aws interview detail & steps & documents)",
+        "url": "https://lilys.ai/notes/384632",
+        "text": "아마존 AWS 코리아 어떻게 들어가나요? (ft.amazon aws interview detail & steps & documents)\n\n원본 영상 AI 뷰어로 보기\n\nYouTube조회수\n\n스크립트\n\nScript×\n\n00:00안녕하세요, 테크하우스입니다\n\n00:21이번 시간은 아마존 클라우드 AWS 코리아 인터뷰 상세와 후기에 대해서 공유 드리려고 합니다\n\n00:38아시다시피 AWS는 아마존닷컴이 모 회사죠\n\n00:43아마존닷컴은 온라인 쇼핑몰의 거대 미국 회사이고요, 종업원만 해도 한 61만 명이라고 합니다\n\n00:57실제 나스닥에 상장되어 있는 아마존의 주식 차트인데요, 어제자로 이 정도 가격입니다\n\n01",
+        "score": 0,
+        "published_date": "2024-11-08T00:00:00.000Z"
+      },
+      {
+        "title": "아마존, 주도적으로 일하는 프로들이 성장하는 곳 | 원티드",
+        "url": "https://www.wanted.co.kr/events/21_12_s03_b04",
+        "text": "아마존, 주도적으로 일하는 프로들이 성장하는 곳 | 원티드\n\n## 아마존, 주도적으로 일하는 프로들이 성장하는 곳\n\n유형\n\n아티클\n\n태그\n\n- #개발\n\n이 아티클은 <개발자 언니들의 커리어 이야기> 시리즈의 3화입니다.16년 차 개발자 김지선님그의 커리어의 1/4을 차지하고 있는 AWS. 넥슨코리아, 엔씨소프트, MS, 우아한형제들까지 섭렵한 프로 이직러가 정착한 회사, 긴 기간 근무해도 여전히 좋다는 AWS의 매력은 무엇일까. ‘AWS가 좋은 점이 무엇인가요?’라는 단도직입적인 질문에 “일단 일이 엄청 많아요, 일이 많은데 그래도 좋아요”라는 대답. 이쯤 되면, AWS의 일하는 방식, 그리고 지선님이 일을 대하는 태도가 궁금해집니다. AWS라는 정글에서 커리어를 쌓아가는 지선님의 이야기가 시작됩니다.\n\nⓒ 김지",
+        "score": 0,
+        "published_date": "2021-12-03T00:00:00.000Z"
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "[현장] AWS코리아 함기호 \"2031년까지 12조 투자, AI 데이터센터·클라우드 인프라 대거 확충\"",
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=431671",
+        "text": "[현장] AWS코리아 함기호 \"2031년까지 12조 투자, AI 데이터센터·클라우드 인프라 대거 확충\" --\n\n--\n\n--\n\n기업과산업 전자·전기·정보통신\n\n## [현장] AWS코리아 함기호 \"2031년까지 12조 투자, AI 데이터센터·클라우드 인프라 대거 확충\"\n\n조승리 기자 csr@businesspost.co.kr 2026-03-03 12:49:20\n\n확대 축소\n\n공유하기\n\n| ▲ 함기호 아마존웹서비스(AWS)코리아 대표가 3일 오전 서울 강남구 AWS코리아 오피스에서 열린 신년 기자간담회에서 사업 전략을 발표하고 있다. <비즈니스포스트> |\n| --- |\n\n[비즈니스포스트] 함기호 아마존웹서비스(AWS)코리아 대표가 인공지능(AI) 인프라 확대를 앞세워 한국시장 공략을 한층 강화한다. 2031년까지 누적 12조 원 이상을 한국에 투자해 AI 데이터센터와 클라우드 인프라를 확충하고, 급증하는 생성형 AI·에이전틱 AI 수요를 흡수하겠다는 구상으로 풀이된다. 함 대표는 3일 오전",
+        "score": 0,
+        "published_date": "2026-03-03T00:00:00.000Z"
+      },
+      {
+        "title": "AWS \"생성형 AI, 비즈니스 가치 창출 국면…韓 '복합 AI' 전환 가속\" < 기업일반 < 게임·IT < 전자ICT < 기사본문 - 이비엔(EBN)뉴스센터",
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1701345",
+        "text": "AWS \"생성형 AI, 비즈니스 가치 창출 국면…韓 '복합 AI' 전환 가속\" --\n\n## [단독]샤힌 프로젝트서 추가 공사비 정산 놓고 원청·하도급 마찰\n\n## [데스크 칼럼] 화담숲 앞에 선 LG家 세 모녀의 갈림길\n\n## 구글·애플 러브콜…로보티즈 '휴머노이드 손' 주문 몰린다\n\n## 전쟁 여파에 2차전지 흔들리자…알테오젠, ‘코스닥 왕좌’ 재탈환 시동\n\n## 알테오젠·에이비엘에 삼천당도 ‘성과 뻥튀기’…K바이오 ‘신뢰 시험대’\n\n## 엔켐, 해외 생산 확대...전해액 승부는 '가동률' 아닌 '공급 안정성'\n\n## 중형 조선사 '조용한 반등'…탱커 호황에 수주 엔진 점화\n\n## [단독] 엔씨소프트, '분기 배당' 검토한다\n\n## 스테이블코인·로봇 쌍엔진…LG CNS, 차기 성장동력 시동\n\n## [방산 랠리, 한화의 시간] 한화오션 ‘바다 전장’ 맡는다…60조원 캐나다 잠수함 도전\n\nSNS 기사보내기\n\n다른 공유 찾기 기사스크랩하기 인쇄\n\n이 기사를 공유합니다\n\n닫기\n\n본문 글씨",
+        "score": 0,
+        "published_date": "2026-03-03T00:00:00.000Z"
+      },
+      {
+        "title": "함기호 AWS코리아 \"AI 3대 강국 도약 지원…공공·산업 전반 장기 투자\" - ZDNet korea",
+        "url": "https://zdnet.co.kr/view/?no=20260303122231",
+        "text": "함기호 AWS코리아 \"AI 3대 강국 도약 지원…공공·산업 전반 장기 투자\" - ZDNet korea\n\n# 함기호 AWS코리아 \"AI 3대 강국 도약 지원…공공·산업 전반 장기 투자\"\n\n2031년까지 한국 AI 인프라 확충에 7조원 투자…공공 클라우드·피지컬 AI TF로 시장 확대\n\n한정호 기자 기자 페이지 구독 기자의 다른기사 보기\n\n아마존웹서비스(AWS)코리아가 올해 대규모 인프라 투자 확대와 공공 시장 공략, 에이전틱 인공지능(AI) 확산을 중심으로 한국 시장 확대에 박차를 가한다. AI 인프라 투자와 산업별 디지털 전환 가속을 통해 정부의 AI 3대 강국 기조에 발맞춘다는 목표다.\n\n함기호 AWS코리아 대표는 3일 서울 역삼동 AWS코리아 오피스에서 열린 신년 기자간담회에서 \"국내 고객들에게 더 많은 편의를 제공",
+        "score": 0,
+        "published_date": "2026-03-03T00:00:00.000Z"
+      },
+      {
+        "title": "AWS, 2031년까지 한국에 7조 투자…\"생성형 넘어 자율 AI 전환 가속\"  | 아주경제",
+        "url": "https://www.ajunews.com/view/20260303141504056",
+        "text": "Redirect.check('https://m.ajunews.com/view/20260303141504056', ''); -- AWS, 2031년까지 한국에 7조 투자…\"생성형 넘어 자율 AI 전환 가속\" | 아주경제 -- /* window.googletag = window.googletag || {cmd: []}; googletag.cmd.push(function() { var interstitialSlot = googletag.defineOutOfPageSlot('/21682743634,13260604/s045/asiatoday/ga02/pc/all_interstitial', googletag.enums.OutOfPageFormat.INTERSTITIAL); interstitialSlot.addService(googletag.pubads()); googletag.pubads().set('page_url', '//ajunews.com'); googletag.enableService",
+        "score": 0,
+        "published_date": "2026-03-03T00:00:00.000Z"
+      },
+      {
+        "title": "\"12명이 매출 140조 시대 연다\" AWS, 에이전틱 AI 원년 선포 < 기획 < IT/스타트업 < IT < 기사본문 - ER 이코노믹리뷰",
+        "url": "https://www.econovill.com/news/articleView.html?idxno=731707",
+        "text": "\"12명이 매출 140조 시대 연다\" AWS, 에이전틱 AI 원년 선포 -- -- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-35318383-1', 'auto'); ga('send', 'pageview'); -- (function(){adtive_targetpush_ad.start('OA444448','ILLLLLLF')}(document)) -",
+        "score": 0,
+        "published_date": "2026-03-03T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "AWS Open Source Blog",
+        "url": "https://aws.amazon.com/blogs/opensource/",
+        "text": "AWS Open Source Blog Skip to Main Content\n\n# AWS Open Source Blog\n\n## Introducing Strands Labs: Get hands-on today with state-of-the-art, experimental approaches to agentic development\n\nWe’re introducing Strands Labs, a new Strands GitHub organization designed to give developers the ability to get hands-on with experimental, state-of-the-art approaches to agentic AI development. The Strands Agents SDK – available for both Python and TypeScript – has gained incredible traction in the developer co",
+        "score": 0,
+        "published_date": "2026-03-17T14:26:10.231Z"
+      },
+      {
+        "title": "aws-samples/kr-tech-blog-sample-code - GitHub",
+        "url": "https://github.com/aws-samples/kr-tech-blog-sample-code",
+        "text": "# Repository: aws-samples/kr-tech-blog-sample-code (from template amazon-archives/__template_MIT-0)\n\nThis is a repository that manages sample codes provided by AWS Korea Tech Blog.\n\n- Stars: 12\n- Forks: 7\n- Watchers: 12\n- Open issues: 7\n- Primary language: Python\n- Languages: Python (57.0%), Jupyter Notebook (18.1%), TypeScript (10.4%), Shell (6.3%), Java (4.0%), JavaScript (3.8%), CSS (0.4%), HTML\n- License: MIT No Attribution (MIT-0)\n- Top",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Open Source | AWS News Blog",
+        "url": "https://aws.amazon.com/blogs/aws/category/open-source/",
+        "text": "Open Source | AWS News BlogSkip to Main Content\nClick here to return to Amazon Web Services homepage\n**\nClose\n* عربي\n* Bahasa Indonesia\n* Deutsch\n* English\n* Español\n* Français\n* [Italiano](https://aws.amazo",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "Open Source – Amazon Web Services",
+        "url": "https://aws.amazon.com/opensource/",
+        "text": "Open Source – Amazon Web Services Skip to main content\n\n- Open source\n- Developer Tools›\n- Products›\n\n# Open source at AWS\n\nSince its inception, Amazon Web Services (AWS) has been the best place for customers to build and run open source software in the cloud. AWS is proud to support open source projects, foundations, and partners. We believe that open source is good for everyone and we are committed to bring",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "AWS Open Source Blog",
+        "url": "https://aws.amazon.com/blogs/opensource/category/open-source/",
+        "text": "Open Source | AWS Open Source BlogSkip to Main Content\nClick here to return to Amazon Web Services homepage\n**\nClose\n* عربي\n* Bahasa Indonesia\n* Deutsch\n* English\n* Español\n* Français\n* [Italiano](https://aw",
+        "score": 0,
+        "published_date": "2025-11-06T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "OpenAI to sell AI to US agencies through Amazon cloud unit - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYUc0dXdFRWFQOF9vUVZrVERpM3E1eW5JQTVSdWM1dnRTdVIwcmVpMUZadlY2bTJIdVZkUWV3S2RRbjBQdUtsYXdQaUhEQmFfSndvU1RlbEU3dmNDYllWbGNoOE8yZlZNdW92X0dIaVRrSU1UYnlLTXU4X002WF8xTXViOUg4Y3EyZHJ2UVpwa21QbXE5S0szTk5ydHlEbHQ0ZDczbzFXSl81bENsT0RFM2R1TEM0MUE4SDBzOUktM0tsaTNpWnBSOGgzYTRmdw?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 13:12:41 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Japan, South Korea ready to act against FX volatility, ministers say - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVG9aUmY3Slc3MjNIb1o0NEhOYy1YME9kZWRLNnNTTW9SQzZGN2NWYlBMT0FrN1FHM0lXTHVXZTZpNllkbkNLTnZoSVdINE1wbVVrbURKMk9USTNtdU5BMWVsSkRleS0waENyOW5tNW1OQjFheG1MRU9CS1g2a1hKRFNBY1RtelZBRWRzcXE1dXVKUE1IYW1ETXBZd2lVSzRYaWxSSS03UGJMME5XUW84aldLVXJWZE5OSUE?oc=5",
+        "pub_date": "Sat, 14 Mar 2026 09:31:32 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "AMD CEO Lisa Su to visit Samsung chip plant in South Korea, discuss expanding ties, source says - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWHZJUm9MU3AyNG1MTmdKOWRJYWp2UUNLaUZCWkdWcVBVVGJ6b0YxUmxrYV92QUV1QlBER0Y0bWZIN295VW12ZUJuNkVnbEFCTk9DVzBPRXpiODJoRTljVHk1X1NMckl5aGtQOVIzWU0xcUVfNUozTm1ueUVxOWw4SW0wZXU5U0VrRXEwSlI5TzRlUmNRMFJ0WngzSEVQWE94czNkT1B2RVNmaDQxZHBPaF9iN1BSNEQ4YmNKZS1IbHAtMTlGQThuOGRR?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 01:23:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Bloomberg - Business News, Stock Markets, Finance, Breaking & World News - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9qYU5Fb2FhR3RmNHZUdG1PZFRYOVdvalpTcXd4VjBBME5WRmxTaGphdzFWb2hGTGJVeUU1UVpLOA?oc=5",
+        "pub_date": "Sat, 18 Jul 2009 21:47:35 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Bloomberg Asia - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE8tSGpjYlJXTTF0OHBWVG9HaUxxcUNDM014NUwxblE1OUw5X3M5NlFaVXNndEQ5clRSSzJtbjBFQXdoWU5T?oc=5",
+        "pub_date": "Mon, 26 Oct 2015 20:22:02 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Amazon to Invest Another $5 Billion in South Korea Data Centers in AI Push - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSFh6bldnZG9xR2o5MTFJdG5pb0Vmb3ZUXzR3Q0ZfOHdwLWlORi10WUQtLXF4dEtmVjR5cVFyRkNJVElBbEo1Qzc1UGJ2QUhUaUVqOXhVNU5DU0R5WUZBMVdJYUtlMFdrdk9ZMWpMUmFXRWJGVkt1OWF6M3NXaE9zMHE0R3pzSDhVeXhRelZMMEw3U1hpZE56bjBzQzNsakE4WURfZU9FSXY0a1FUQkJVa3luMA?oc=5",
+        "pub_date": "Tue, 28 Oct 2025 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "AWS Generative AI Accelerator Cohort Announcement 2025 - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeG5KT040X3FkY0xNOF91cjM1V2RZcWpHbWVsN192LUI2WUNTQ3Z6U3JJRE04cEN1U21QSVpVYXdsb1BCSnlaVWJZLW9uc2s5ODlGaERYV0EyZFdfSHY1YkNjYnhfV1RpRXlSSWctME1ubzVsUklrb2p3Z1FfRExFNHk3Q3VGaS1zRm5Ndzl2MmxaYVJaS2JxQUUwajhXdVpYUW0zTS1ITFE1Zw?oc=5",
+        "pub_date": "Fri, 13 Mar 2026 21:37:01 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Backed by Microsoft, AWS and Meta, the Overture Maps Foundation launches its first open map datasets - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYV8yS2dGVFN2OW1HN0xhcXJjTFVTTFl1MDIxTi01cUhUQjlwc2NxTmdBLU5DdFpFWjU3cEZyZGtyV1hydHVHeWM5MjNuZnVwTDFQWVlDNzhwTk9LbGFrcnhUQTN0RFJ4NG8wMHVza0dJX0VSYWtLb281T0NWcGhOLWwwNC00NnJ4Z3BfRFR6YTZTYnBKSGpCZUMwUUFjMER4TEItMmZTLTVDbWVEejl0R1lYOE83ZktXcmpGSElPa0NlTTFMVXc0Mg?oc=5",
+        "pub_date": "Wed, 24 Jul 2024 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Amazon Elastic Inference will reduce deep learning costs by ~75% - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa2F3cERDSHhpeG1yZmVMX05HMGR0TDd2XzJEN0stVGk5Q1RBUjI1TnR5c0F3QVlrV0ZVV2h6bGctTlBfVENneHZQSERvWVNSTkhENVlqbExzbVNoWkdZWkczVkIwLWhzYXByUHI1enhWdEJkVEN2Z2VXLUZOQXpDTUtHTkowUnZyeldJRk5GSjhLQnYwdE9zdDVUQnZMUQ?oc=5",
+        "pub_date": "Wed, 28 Nov 2018 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Exclusive | China’s ByteDance Gets Access to Top Nvidia AI Chips - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNd3NUcG16NXV2NWUyYW1LdEV0akVVdkNxSTNNTlB5R25sa19nSDMzVk9xX1ROZUpJTlFvMERfQ0tTWFI1S0FQajlBWmZLdmtDTVMwOU9XcjgtMlp2VHlZNFZlT0RHZ3VsaFNPX09EOGx5RU00OFRLVjluOWFFcEkwMER0Y3ZkakprRnpXWlIwRnFQNjU5M3J0cXNaZ1VEbXkyX3JKQlVxczBQbWpVZFd0M3F5bEJSYVlVc01aQUpBSVFLMnhEZ0Zmbm9RQlFVVFZWaFRMVG53TnlQTlJqYTNyeEhOQVRBZ1ZFaHd1Z1N4NTREd21FWFRHLW9fN0M0c1ZFc0l0LXM1QWlkVkJPUEJQNDdXN3NhZXVmeWlSUlBhcVlrUlB3WG5yS1pQYXZqX1FDdTEwbXVzd1EzeFNaMWREY1dlZUZ4Um1MUkpsMnFDVl96MkRUWU5GTmp0ZEExbUtmYzFpX3BSbmpFR1BRdzdJZzhlS29ZSW04X1F6cVNNZVF5ZW5OMUhEcW9jV0dTekFzTGMw?oc=5",
+        "pub_date": "Fri, 13 Mar 2026 04:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Amazon Web Services Plans Additional $5 Billion AI Investment in South Korea - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMitwNBVV95cUxNWVpHb08yUWVVM2d0ck9BU0Y2azlxbFRPcXc0VkktZVVfMTFmcWJnTTdiVk5mUXVneHZMWEkzaHRsTGNCWFB4UVNvN0N1YmozYmpRelc4aVlkWkpIZUtoVUZJNU9YUmJ2THZsQkZ4czVzNElpYkJBSFI2V3UtNzFPTHMzcl83ZXVBM0tvaC10dFhzc1Q0R2FVb2tZM0d5ZzlZVmU0YnlQX0hiRURaZEtIWUtCVS1wZmEwZklxQ09ZSEdDT3ptWG5Hd1plYkZBeGgzNHBnLXpTUmVNaWwwOFFKTjV2TTBicl83Nzl6QzF3WEc2Ui1UMFY4NHdPT3hLQnlQWF9aOTV6OTRWakkyRWJaQm01WHhkdlRsZ2Vadm11QW1JM0FYZHR6cUxpQ0gtd29rYk5PUEpPN1dCbURmV1kzNXltRlFiR3E3Nk53WmFpY1ZzT1puT3VxWmp1MHJWckQ5TVlsVFBhTkxrcl9oNlh0dHNQWDhiUUhmaWhUNHpiUS1IYi16dkJEbTdJd0ZlLVRUUElnYWNPRkJHVFJ5NjM3dGJKNHBZZjhoZy1XcEFaSUdIbFU0UU9N?oc=5",
+        "pub_date": "Wed, 29 Oct 2025 07:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Powering Business - Kia Uses AI to Personalize Driver Experiences and Improve Safety - The Wall Street Journal",
+        "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPN1lkbHNFMmVwUWE3MUtoS2c2Um5MVFNlekp4WkJyVTNLNTRVOTA3a3ZMei1WME40QWdaVnFKRnk1Y21fUXZWQ1RLOVlxdi1aaGVpY29lbzg0UFBlTGcyWDhSSjk5cHlKd0ZSRy0wNWNpM1YwaW11RFlCR3oyX0xzc3dzLXRDUlhFU1NVbkxMd3p3UGl0VDYxVE9FbVhqdm5uYWwwanpKWnJWdENMRGFxbXJXS3dRUmNDdllmVzVobmc5cGtUTUFTOHRIQW5NS1YxT1ZOUHVFQ2xfaWU3QkFpbGwtZmZDVnQwYm15MzU4SzY0QWpLTW5PTjl5VGFMX3pVYk9fQ2l3WlNOV3Rxd2EyVlZlUC1Ib25lRUNXVl84U0d1VlI5SEpoUEpHWnY0b1YxUGpBOVNsYXN4NzBlWmlld1c0enZGaDczQVFORk5XcmJNdEpQNnU3M1B3ZklnbTNJU1ducGx4S2hyWXFJTlJJTVhqQW5QWTdsbXJSVmhUUUF3ZUU0TVFtdzNIbzE5dTF0eElVajJ3?oc=5",
+        "pub_date": "Thu, 15 Nov 2018 18:31:06 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "US intelligence chief struggles to avoid contradicting Donald Trump on Iran war - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT2o4dmdaeVNwalllbXByc0FhMGhRZmlsQjNlS3NYNlZrQ3VGLW1mQ2wyVjlQNkRnWmt4d0NkNm1pU19WYzZ1U2JUU29aeDljdU44cGthNEdac08xc1VibEJGbkgxWTdvSVZuQXR2YWZYeTJhVW1FeVFPM2g2VjBrQU5rM2I?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 19:33:43 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "‘Armageddon scenario’ for gas markets as Qatar hit by missiles - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdUIwc2xtQ05BLWZIUmdueHNxaXJ2M1doSlJrMlYzZEMzOUg1SG5PSHItcVBnNFNLaW9IYnZoY05mOU1tUjZPZmJVcllkNWE0REFTejgzejJMd2NTLXdockVrdE9uejVqQmItTXZoU3gzRnF2Q0tuLVJxV3ZoaGpUM2JVclU?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 12:45:40 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Donald Trump throws US-China reboot off course with threat to delay Xi Jinping summit - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeUp3VE1zRTdyYzhUMFdnMnRXVUV3dTZOa1FyWFVXWE85SDR2NHlINGZuSFd2TFpCQnpIV0h3WnlyeUlxdmM5eE1QUjNrc0NOOWtZLUk0WktEQzdaWW1rREc4bDZ0SVFIVVRpbFgwYkVPeVlaX2x3VDFVTFR0T0NuNUxOSHE?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 01:37:07 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "South Korean marriages jump 8% in 2025 as attitudes change - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa0s0bDVLQng5cktHU29ZalJpaVdCZ1Mwem1MMXZVeHBvTEM0aXpCMVVQMlJYbDJhOE1iSU5ZQ1Y3UVNjNVo1aVB6dlhTQUVXQ2tUd1c0aGVWMVB0MUl0NC0yYWM5TFR2V0UwSWtkTFJBdkU5UlBZUEF6VG1BUzI0dzVRTHJoTWxaSDN3UUpxVldOS0J6MERtN0lzTUZOcFlPZkE?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 05:59:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Japan's $109bn in US investment pledges stand out among partners - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdkpSU1JmeU5RR2ZlUV9mY3RlR1o3TWZCdjVYTEhSZXllY3FDaWRtVjBuQmI1VjN2aE5nU0lGWGRLUHd2dmJIajhPaWl6bE5NV28wSE1kLTlFeUw1dGw3Q0YxZUctYkdoaVRjV25SZ1U5Sll4NjN5eHVaU2JjblEtNk1MT255MlVrbnpFaVN6Tm5xbzlXOTFEU1dkUFJOWHVNSF9qYmRQWkxMUHJlWnV6VmFYU1pIdUt1UkZHcA?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 06:28:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Japan, US to agree to jointly develop rare earths at summit - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVM5Q0ZBWDA4ZnllUlp5R1JJMHhTRWlHMkxubzNBZWI1LU1TMW1sdTJNMTUwTjZGdVlqRE1aR2JUMEZjTDk1OVdrd24tdkJPMVF0NkZCTFlLRzhhVC1CdFhSSWg4ZXRvanFkVExWZmlGbU05cmcwTkJUU0JQYVN0NFpjdTNJRUd3TUE2R3NsRUQ0d014cF9UVnpYYk9XMVRVd1Uw?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 09:54:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Nvidia Needed Groq After All - The Information",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjYmRLV3lTdS16TXhONk5VcDV6RUFfVUowOTFSejBSVUJwWW1vZ1g1UlFtTEpQSWhsVVAyazk2SUhzX09oc1VFNkUzamRyRnZjaVFtV1BsOHA0RURNb3NaTTNKeW5LeXVPb01tU2gwTzhpbzJiWmZaWVB6QQ?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 14:00:00 GMT",
+        "source": "The Information"
+      },
+      {
+        "title": "A Former Amazonian Hits Bumps in Push to Make Microsoft More Secure - The Information",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU01TZ2Q4d0NDalRfUkMxVXV1T0d5dFZuakhVMS1PMEhMWnpGM3F1LUFJWVZWLTF0Ukc4elVkcTh2RFNBWmk1UGxmM2d5T2VXWl9ERFAwajRaRlI1dGFvVnBUSms1TXRIcGxHcFJ0dEV0SVNhWUdjeVRveVhlbUpMRGxqalFQbWlSTWY4bXBXejlDTGthdHRZSm1qY1MzNkdlUmpjYl9PZ0NOWjQ?oc=5",
+        "pub_date": "Tue, 29 Nov 2022 08:00:00 GMT",
+        "source": "The Information"
+      },
+      {
+        "title": "Tesla Replaces South Korea Chief as Musk Meets With Head of State - The Information",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNclBqcnpwUGdpQ0trVUZvb0RRbXV1X0NiNFZyMERHTi01dmxzNWYtMTRnSV9qdW1ncmN4d3d1YnEyM05SNVRVSXcwZnBfT0xzbmVaUUthOHlhYWlVQk5nMXVPYTZjbWxXSGdkLW95WHY3UWRSVDZzTGVqLXRsNTlnZnZBRGRPWUt4ZlZoVk8wNnpRbXAwWC1kVVJKR2ZoaHg1ZDlZMXZJNS0?oc=5",
+        "pub_date": "Thu, 27 Apr 2023 07:00:00 GMT",
+        "source": "The Information"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "스마일샤크, 'AWS 서밋 서울 2025' 플래티넘 부스 운영 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NOTdqb1ZNV0otRWxjMGh2Q05PVmVHekhWRFdJXzQ4Y0pVOGRpZlp0eWpKN0J2U2diM3BHTW15R3pKM3E1MmhXQTNQbEZUYzgyaUdJUtIBVEFVX3lxTE9NOTdqb1ZNV0otRWxjMGh2Q05PVmVHekhWRFdJXzQ4Y0pVOGRpZlp0eWpKN0J2U2diM3BHTW15R3pKM3E1MmhXQTNQbEZUYzgyaUdJUg?oc=5",
+        "pub_date": "Fri, 16 May 2025 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "젠슨 황 한마디에 'AI 코인' 급등 왜?…‘X402 프로토콜’ 주목 [황두현의 웹3+] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZTlgxaU9EdHVDaEtCVTN6Y2YtbnVIbTk3d0NORzJhYW9qZmJuVFQ2QXBEUXZCYi1nblJXV0ZLeVEwQ19Ea1NockxQSDhUMkRlTkVHMdIBVEFVX3lxTE9ZTlgxaU9EdHVDaEtCVTN6Y2YtbnVIbTk3d0NORzJhYW9qZmJuVFQ2QXBEUXZCYi1nblJXV0ZLeVEwQ19Ea1NockxQSDhUMkRlTkVHMQ?oc=5",
+        "pub_date": "Sat, 21 Mar 2026 06:13:16 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "'오이솔루션' 52주 신고가 경신, 전일 외국인 대량 순매수 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15S2tyaW9mN3Nhdjh3eXoydkFTWElQdkdhbklZY3VjM0gtM0RSeUQ1eDBFSUhEUFpLSThZUTZpNlh2Sm5lWDMzU0IzZEE2VTZqSFcwbWQ4V21Rd9IBVEFVX3lxTE1qWE55WDk3WldXckRkTF9aejZ4dHdXNlFJa1lFMmZFaTVCamd3ank1UUcxWjk1MmlfanpGQ0hRV1kwSHRPREl4dTkyWkdjNlFsazJQNw?oc=5",
+        "pub_date": "Fri, 13 Mar 2026 05:28:15 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "워크데이, 허정열 신임 한국지사장 선임 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa0liLXpaaXhIWWhraF9SSnZmTFpLdmdxcG5FTDk3V3VaQjcyZjAwTFdzUDM0ZzFGeklDMWtXNm9FbXRSRHplNmJySThfQ0JXZ1VNV0JHN0lzV1daVzEtQlpabWNlUXExUVVjUWV5SUQ0UWZvaGJGb2ZEQkZzcmxvQURB0gGWAUFVX3lxTE9DSHdVaFhDdEVGNkNhdjQ0NFhtTnNaVjZseHU4TFBOXy1ObkdNckg3aXpXLTdzSnVhVXcyZHpSZlNLeHdnMzc0Zl92Q1JYNS1GdzMyR0xSUDVadkxWZWRzeGpJc0RBVkEwMnlfeWlwMExxeERnVWFvc1VaYjVndWpQS1VuX01qM0N6b2tQSGhTRGRTbExPUQ?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 00:09:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "마세라티 코리아, 대표 GT ‘그란투리스모’ 최대 2100만원 인하 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vZHE0WERsdEwxUVBFMWNzbDJtNzczQzBXc2xQTGxZTUJQWEtadmZKR0RDYTJHSmZlVm9zLXBBNHd5bjAtMnhXRl8wZDlSZ2prSl9mc1ZFWTdzMTdBSVlVQWlZLUEzODd5TEt1Sk10bXZUWjJYQjB3VHpYSlZpYjDSAZMBQVVfeXFMTUEzMXdJU1dGY0dUYVZNZ0gwSzdrdFo2dEEtRnNHTjdSUjU4MTRjV0Zfa3A1ZmctalExejFLLWVmNXdrSlNvcXVwSnlEQk9Pc2I2aG1tbU0yeWtCa25KT1F1XzczRlVrRU94Z1lfNlJseWpCSGtSMFRGUFhRd3lpa0dJVGFiSmNxdWdQUFJlRTVMS0RV?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 06:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "워크데이, 허정열 신임 한국지사장 선임 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ0h3VWhYQ3RFRjZDYXY0NDRYbU5zWlY2bHh1OExQTl8tTm5HTXJIN2l6Vy03c0p1YVV3MmR6UmZTS3h3ZzM3NGZfdkNSWDUtRnczMkdMUlA1WnZMVmVkc3hqSXNEQVZBMDJ5X3lpcDBMcXhEZ1Vhb3NVWmI1Z3VqUEtVbl9NajNDem9rUEhoU0RkU2xMT1HSAZYBQVVfeXFMT0NId1VoWEN0RUY2Q2F2NDQ0WG1Oc1pWNmx4dThMUE5fLU5uR01ySDdpelctN3NKdWFVdzJkelJmU0t4d2czNzRmX3ZDUlg1LUZ3MzJHTFJQNVp2TFZlZHN4aklzREFWQTAyeV95aXAwTHF4RGdVYW9zVVpiNWd1alBLVW5fTWozQ3pva1BIaFNEZFNsTE9R?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 00:09:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "AWS “차세대 투자처는 피지컬 AI...한국 스타트업 지원 늘릴 것” - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0ZjZYaFdidWVaR1dMQ2FRdkJRRXJBVFJnQVhZLV9ZWTJxWF9xR2ZMcV9kTzVpbDlxRWM5NVltMjhmMEp2NjN3VEhtOWZ6dw?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 05:43:40 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "스마일샤크, AWS 유니콘데이 2026 참가 … ‘스타트업 MSP’ 전략 공개 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iSzRaWDYtOVRZRC13REpyVWFsWVZoLUVPeXJiZjVmNHpnM3NTeEpLcWpySHdIVnRhY1lVMGh6Nm5NemEzVm5qOGlZcEZMVTFKYS12SDFB?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 23:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "가상자산업계도 AI 포모…“자동매매, 말만하면 다됩니다” - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaWERPQTVfVWpjSTJUVG04VHdRTnBYUm5HSE1Qc3J5MlN0VzdDZEI2TzdYVWw0T05WemtNUG1KcndZc21ha3pFOVVUMElyby1QMXc?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 01:08:24 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "끊김 없는 'BTS 생중계' 비결은 AWS 클라우드 인프라 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1laktUOGNIUXludjctWS1CajYyaGFOdFNxRm9VcnZLbzFNTVBoNlZtbENxSm5XRWpRdlBfTXJRcEVBZzJ4c0JXakNIOV9JMnlJcE9TQVZB?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 23:54:12 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "에이로봇, AWS 유니콘데이 참가 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRTzNEM0NnUUxnZ1lDeGNJSlBYOU9rcEt3OXRXNWdQbXpjYlY2VEh3ZkhXSTVJMFRJUE1WTjl5MVJ6NVRjLUN4cVlDZzNaaUdVVnVuUzFn?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 09:57:07 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[현장] AWS \"한국 스타트업 생태계 지원 확대\"…AI 성장 전략 공개 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45aUhBQUhIVUE2c2pKdkk0ZnJRejBoMnRSOGQxT2pnd19ybU1qUXluX2RTa0dCMl9vYXU2OEtudFlnQU9FTVdQdUIyWDZtZkV4RmkyQlR3?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 02:34:47 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "로앤컴퍼니·AWS, 법률AI 환각 해법은 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0RW9MVG1qSjJIbFZMZE40RUFnQzdzWllveXJicUZEaTc2T2FVRVVZQ1U3cThOQ3U5WXJUREstRlpfeTYxZUVnTDBRcnY3czg3Qnl1cTdXYTFObU96ejU0eWxiU1ZGSmlX0gFsQVVfeXFMUG1IbmR4aGoxZTZEZ2ZYR1ZxbWxUSzc0NTJLMjJ5M3pEZ0V0MDVXOEh4Tmx5UTRWcWNTLVdOeVFoSmVUYWwxUDAtaHAtdW00ZEYxa09oN09wc1hYVmREQmZwX0x6ajZtRHJobWw4?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 06:02:17 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "삼성SDS 소액주주 \"집중투표제 무력화 시도 중단하라\"…이사회 압박 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSbHYyMm16dXBBSDYtWlMzNTB3OVdnVURFZHNKbnlNemRMaTg1QmpWSU56Mm90UncxemNBY0k3Yk1RSTlXa19lTmQ0YWJpcXZuY2hNOFE0ak5OWEtWek5iNG1aTzVHSUt0?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 05:39:38 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "신세계 ‘인프라 구축’ vs 롯데 ‘현장 적용’…유통 AI 전략 갈렸다 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsZW10WTlLZTdOU0FOcVNheGlrUHIwc3ppZVcxV01YMTd5QTAyWnZLdTVGSU1KbUJXaHkzdlJSUjdPc1QxYjQ1b3huUV9IV1UyZGNYYzlQN1E1QW12YXlhZ2RfbDlQQkk20gFsQVVfeXFMTm55bUFmUkdaeFZUWF85eW9sNFVfS2tpY0lOMEg1akRVLVYwcmwydFhQM2tXV19sQmVKamRHYWVrZWVSaC0zZ0lScEFPTVNVMVdpSFpWOGg3S1Fnb2tOa1Eza1FGSFRuWndIMWRm?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 07:51:55 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "‘AWS 클라우드 전환’ 마친 대한항공, 지난 3년과 앞으로의 여정 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5STFZTUThGZmZXdWc3a2xGWXgxWXFSNXcza3VZY05Ibkc5YUlkVnNmZUkwMV9WcC1LUWl2Ul9uMzFOUnpvdFhRcFVJZ2ZtdkE?oc=5",
+        "pub_date": "Tue, 28 Sep 2021 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "2만명 인산인해 ‘AWS서밋서울 2025’ 개막 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9QU1FjZV9sWF96TlVhS0ljWXlrektXZF95RmluRDRpTzBRajRESE1MQUNFRkxIVUlJbmF2ZXlLZkpLcFM2aDRvTGs2clBjbzQ?oc=5",
+        "pub_date": "Wed, 14 May 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "클라우드로 커리어 ‘리스타트’…AWS “교육부터 채용까지 연계” - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBYTFNU1BUazhaTUNIeGZERHIyUXVzVHQ1R3NSVTRUUk42RUZ0TWtMTnY4Z3NfekdhX1dWb1J0VjZoZi1wdmhSNl9nTXNDMHV6?oc=5",
+        "pub_date": "Tue, 07 Mar 2023 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

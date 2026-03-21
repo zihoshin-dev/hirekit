@@ -1,0 +1,680 @@
+{
+  "company": "센드버드",
+  "sources_used": [
+    "exa_search",
+    "google_news",
+    "dart",
+    "credible_news",
+    "brave_search",
+    "naver_search"
+  ],
+  "result_count": 12,
+  "sections": [
+    "culture",
+    "strategy",
+    "tech",
+    "overview"
+  ],
+  "data": {
+    "company_name": "(주)센드버드코리아",
+    "company_name_eng": "SendBird Korea, Inc.",
+    "stock_name": "센드버드코리아",
+    "ceo": "이상희",
+    "address": "서울특별시 강남구 선릉로 514 (삼성동, 성원빌딩) 16,17층",
+    "industry_code": "582",
+    "established": "20121101",
+    "homepage": "https://sendbird.com",
+    "ir_url": "",
+    "stock_code": "",
+    "corp_class": "E",
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      },
+      {
+        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+        "link": "https://blog.naver.com/serohero/224199063326",
+        "pub_date": "20260228"
+      },
+      {
+        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+        "link": "https://blog.naver.com/jobpass_/224197697044",
+        "pub_date": "20260227"
+      },
+      {
+        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+        "link": "https://blog.naver.com/study_edu_/224193834977",
+        "pub_date": "20260224"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "제주항공 채용 승무원 큐피드",
+        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+        "link": "http://cafe.naver.com/sheiszzz/1214780",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "내일을 향한 AI 비즈니스 파트너 | 센드버드",
+        "description": "AI의 효율성과 확장성을 기반으로 기업이 고객과의 관계에서 새로운 가능성을 발견하도록 돕는 것, 그것이 바로 센드버드 플랫폼의 비전입니다. 센드버드 플랫폼은 매달 70억 건 이상의 대화를 처리하며, 전 세계 60억 명 이상의 사용자들을 연결하고 있습니다. 딜리버리, 승차 공유 서비스, 이커머스, 리테일, 헬스케어, 관광, 숙박, 금융 서비스 등 폭넓은 산업 분야에서 수많은 파...",
+        "link": "https://sendbird.com/ko/about",
+        "pub_date": ""
+      },
+      {
+        "title": "[현장] 센드버드, 초개인화 컨시어지 '딜라이트.ai' 공개…&quot;AI 시대 고객 경험의 새 기준&quot;",
+        "description": "이해하는 방향으로 진화해야 한다&quot;며 &quot;딜라이트.ai는 브랜드가 고객과... 전략이다. 이 대표는 &quot;AI는 이제 효율을 높이는 도구를 넘어 브랜드와 고객의 관계를 다시 설계하는 기술로 진화하고 있다&quot;며 &quot;센드버드는...",
+        "link": "https://zdnet.co.kr/view/?no=20251119131924",
+        "pub_date": ""
+      },
+      {
+        "title": "2023년 최신 CX 전략에 접근하는 방법 | 센드버드",
+        "description": "마지막으로 고객 경험 에 감탄한 것이 언제입니까? 저는 서비스 담당자 에게 보증 기간이 지난 깨진 안경에 대해 인앱 메시지를 보냈습니다. 나는 무슨 일이 일어났는지 설명했고, 서비스 담당자는 내 계정 정보를 얻었고, 내가 4년 이상 동안 충성스러운 고객이라는 것을 알고 무료 수리를 해주었습니다. 경쟁에서 뒤처지지 않으려면 귀사는 탁월한 고객 경험을 제공해야 합니다...",
+        "link": "https://sendbird.com/ko/blog/2023%EB%85%84%EC%97%90-%EC%B5%9C%EC%8B%A0-cx-%EC%A0%84%EB%9E%B5%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95",
+        "pub_date": ""
+      },
+      {
+        "title": "무슨 기술이길래…엔비디아·삼성 사로잡은 한국 스타트업",
+        "description": "한경 긱스(Geeks)가 이재성 트웰브랩스 대표에게 해당 분야 사업의 잠재력과 가능성, 빅테크들의 '속내'와 협업 방향을 물었습니다. AI 패권... 우버와 센드버드 등을 배출했던 테크스타즈 프로그램을 참여하며...",
+        "link": "https://www.hankyung.com/article/202311079055i",
+        "pub_date": ""
+      },
+      {
+        "title": "센드버드, “'AI 기반 비즈니스 메시징' 신사업 매출 비중이 기존 사업 넘어설 것”",
+        "description": "“2년 후 비즈니스 메시징과 AI 챗봇 등 신사업 매출 비중이 기존 사업 매출 비중을 넘어설 것입니다.” 김동신 센드버드 대표이사는 27일 센드버드코리아에서 진행된 기자간담회에서 비전을 소개하며 이같이 밝혔다. 센드버드는 기업용 채팅 플랫폼 글로벌 1위 기업이다. 지난",
+        "link": "https://www.etnews.com/20240627000304",
+        "pub_date": ""
+      },
+      {
+        "title": "센드버드 &quot;사람의 감정과 경험적 가치를 이해하는 AI 지향&quot;",
+        "description": "이상희 센드버드코리아 대표는 delight.ai의 방향성으로 AI가 사람의 감정과 맥락을 이해해 자연스러운 대화를 구현하는 새로운 고객 경험을 제시했다. 그는 &quot;센드버드는 정교한 기술력을 기반으로 사람의...",
+        "link": "https://v.daum.net/v/20251119112013494",
+        "pub_date": ""
+      },
+      {
+        "title": "[현장] 김동신 센드버드 대표 &quot;AI 에이전트 시대, 고객 의도·맥락 파악이 경쟁력 좌우&quot;",
+        "description": "&quot; 김동신 센드버드 대표가 AI 에이전트 시대에 대응하는 고객 경험 혁신 전략과 차세대 제품 로드맵을 공개하며 기업 고객 확보에 본격... 행동하는 AI 컨시어지 모델을 차세대 고객 경험의 핵심 방향으로...",
+        "link": "https://zdnet.co.kr/view/?no=20251217150117",
+        "pub_date": ""
+      },
+      {
+        "title": "센드버드, AWS와 AI 에이전트 강화 전략적 협력",
+        "description": "박주희(왼쪽부터) AWS코리아 파트너 개발 매니저, 허정열 AWS코리아 파트너 개발 총괄, 구정진 센드버드 CTO, 이상희 센드버드 아태지역 총괄, 김윤식 AWS코리아 크로스 인더스트리 영업총괄, 정수덕 센드버드 파트너십 부문 총괄이 지난달 29일 서울 강남구 AWS 사무실에서 열린 센드버드와 AWS의 전략적 협력 협약(SCA) 체결식에서 기념 촬영을 하고 있다. 사진 제공=센드버드",
+        "link": "https://www.sedaily.com/article/14104232",
+        "pub_date": ""
+      },
+      {
+        "title": "Bot 그리고 챗봇 혁신 - 메신저 영역의 새로운 혁명, BOT을 주목하라! | 센드버드",
+        "description": "인공지능 (Artificial Intelligence, AI) 및 자연어 처리 (Natural Language Programming, NLP) 연구에 상당한 진전이 계속되며 대화형 언어를 command line으로 사용하는 것이 가능해 졌고 (Bot이 당신이 원하는 것에 대해 원활히 이해하기 시작), 명령어의 실행을 자동화 하는 것 또한 가능해 졌다. 메시징 플랫폼 관점에서 보면, 텍스트로 입력된 당신의 요구사항을 보다 자동화된 대규모의 backend에서 처...",
+        "link": "https://sendbird.com/ko/blog/bot-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%B1%97%EB%B4%87-%ED%98%81%EC%8B%A0-%EB%A9%94%EC%8B%A0%EC%A0%80-%EC%98%81%EC%97%AD%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%98%81%EB%AA%85-bot%EC%9D%84-%EC%A3%BC",
+        "pub_date": ""
+      },
+      {
+        "title": "글로벌에 도전하는 350개 스타트업이 던진 176개의 질문들, Part 1 (MVP 단계) | 센드버드",
+        "description": "소프트웨어 스타트업에게 글로벌 진출은 피할 수 없는 과제가 되었습니다. 그 이유는 다음과 같이 다양합니다: 우리 제품을 이해하는 구매자가 있는 PMF을 찾아, 더 큰 시장과 투자 기회를 찾아, 문화적 의존성이 낮지만 기술적으로 뛰어난 제품으로 글로벌 표준이 되어 보고 싶어서 등. 센드버드는 사람들의 대화와 소통을 디지털로 옮기는 글로벌 기술표준이 되어 보겠다는 일념...",
+        "link": "https://sendbird.com/ko/blog/%EC%84%BC%EB%93%9C%EB%B2%84%EB%93%9C-%EC%98%A4%ED%94%BC%EC%8A%A4%EC%95%84%EC%9B%8C-%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90-%EB%8F%84%EC%A0%84%ED%95%98%EB%8A%94-350%EA%B0%9C-%EC%8A%A4%ED%83%80%ED%8A%B8",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "센드버드, 브랜드 맞춤형 AI 컨시어지 전략 공개 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ucDFJUV8weTg5UGxtcnNrQTdMYjZnT29pOHBRTnk1OExldUVlM1p1ZG5zMkVGMzNVMWVjSTZwLTZOM2tJOTJkdg?oc=5",
+        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "센드버드, ‘스파크 코리아 2025’서 초개인화 AI 컨시어지 전략 발표 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5idU5zbFBnU0U0NXpLWXBmbkRvM0J0RVFSOHlpbkJvQk9IZ0dFcnMyU0prRTB5NEhvSHFiX3ZydGNtWk9ZQzYyOHVFcUc5MmctQXZzaWRfN1RzWEFGU2haaU5QcHE0dnd2VXc?oc=5",
+        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "“‘인부장’이 김부장보다 낫네”···AI에이전트 이코노미가 온다 [더테크웨이브] - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pdTFYTmFEMWRZUndyaU9UV0tOb040UFJTckNWWVNKRS1EWjJzSG4xRHRDVkd5SmN4Mi1YRTBJN2Y5amhXdjdYZV9XTlNjZw?oc=5",
+        "pub_date": "Sat, 06 Dec 2025 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "“기존 직무 파괴하라”… 눔·컬리 수장이 말하는 ‘AI 네이티브’ 전략 - 더에이아이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KQ1lQQ0lMVzhpWVc3ZXUzdkQ0ekV6VkJJa2Q0c3E1MFFoTEU4ekQ0QWFXVjJFemhnZktpalBSWW1IbElvUGJnd3F3N29BVUszQUl6ek16VDJDRGpKOWhjUmMzQVMtdHV6X3c?oc=5",
+        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
+        "source": "더에이아이"
+      },
+      {
+        "title": "[ZD SW 투데이] 메가존클라우드, 'FIX 2025'서 AI·클라우드 전략 공유 外 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50dkU2aG4zR2REOFdCRllOSGV4dXF2bXE4WEIxTmd2ZjJfVHNrNy1zdFp0UEltSDhFYWpoRVI5QXdOYUhDTktIOC1PdnN6S3Bld3Fzb3VR?oc=5",
+        "pub_date": "Fri, 24 Oct 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "센드버드, 서울대·카이스트서 캠퍼스 리크루팅 나선다 - edaily.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdHVzcXloTGZFMDJoUlU1Z3VwTkdRc2VLT3RWTEFrYWtadGdXekNBWWw1VTdCNk5yZDhXYjMyb29kOG5EZmZYZ2h0el9jcWdZYlpuV2dDZGZJTGN5UklIYm9BODAxVXY2cFFkWFJyQ3JOOXNtclltcmpkN09LcjU0bQ?oc=5",
+        "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
+        "source": "edaily.co.kr"
+      },
+      {
+        "title": "센드버드, 서울대·카이스트서 ‘캠퍼스 리크루팅’ 개최 - 이뉴스투데이",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YenVDay1iMGhodE9LV3NINnFzODkzR2ZNMnpQLU8tSFpLblJRQ1lSVGMxMHIwVG4yQUVQcndqVDZ2M1VJSkRoTHdJUlF5U0NCNVRqN3dtTUtqdzc5VzBCTl82ZHNqNlN5NzJncUp6QlbSAXRBVV95cUxQSUROcmo2ZzFEQnBzdlBscHRRY3MxNFdjRjlsNnZaSjlHTXNZeFNmZ2p2SzFSeXBvd1hJa3BEajFkT1pPM29HR01ONlBubkNPd2NGWkJYanduaENtMjJsdE1qSzlXMnBMN0pZNnVpVWRZNlRGbA?oc=5",
+        "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
+        "source": "이뉴스투데이"
+      },
+      {
+        "title": "피지컬AI 개발 '디스펙터', 카카오 출신 음병찬 신임 대표 선임 - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QVEkzTHJUQmxjb0hTN1p2T2Fjc1IwV0N0Y3UyNW1Cc1hVTnJCR2hDNmNIenlmOTlCd0drTmxlQVlmX3RPSXRPYzduZDctZFpHZmI4V2xUMWc2aDRoMWRjWXpWeVdKb1dUMUVzaA?oc=5",
+        "pub_date": "Tue, 12 Aug 2025 07:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "센드버드, 서울대·카이스트서 인턴·정규직 채용 캠퍼스 리크루팅 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB2OTBfckphUWNlS3VPbGRBdGZSanVwdDM0MEZVaUpZMEl6OG02akN0d2FvT3oyRjd6Y3ZTd0NOSlMyRUtuYmtyakkxWQ?oc=5",
+        "pub_date": "Mon, 10 Nov 2025 08:00:00 GMT",
+        "source": "v.daum.net"
+      },
+      {
+        "title": "AWS 대표의 일침...\"AI가 신입 대체? 가장 어리석은 말\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0ydnFGZ2l2RWdpdllKU1ktaDFpVXNHSGZmTUw2cFBFX1hRLTVfOE1HOHBfSE52S0g5LWhrZzhUanlGVktyTTE5VFlJMjNDbU9lRUJVeGRn?oc=5",
+        "pub_date": "Sun, 24 Aug 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "개발자 AI 지원, 어디까지 왔나…앤트로픽·토스·올리브영 등이 전한 현장의 고민과 전망 - cio.com",
+        "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQSDQ1QnNrZVA2OGtUOE5HWHNtbU8tWHNBV29RVGpYZ3V1eHViYUdKYU82Wk4ydXlDSF9YaGNUU21xN0lRWDB5QTU5NUliU1lzQ3R5NlJXREdfYnhWNUg1aHEwWVhsMzRhZ1FHWHE4RHlocjRDNE5NSEpIeFA1NVVvSEpyQnJzZFI1Z0RHSFFUdDdEMVFVSzVJQ1I4OEQ2eThhRi1fUHlHR2NUOWVWYkJWUTZEdVZqZmNGYS10dnZDdmtQck9QZHNDUUg5M01uSkFKUUtleGlJYUQ2S0w0dEZQakVTT3N2MUtVVWtPczg1R3hsMWtpZ3F4eHRCTHk5WXF3UFczYTMyUFVfU1JwLW5sNHF3NEIzSk5tSHU5bnJHakR6dzY0TFFaYXhuQm80NTZOYzZEeWl0TDlscFBvWXhMTkVRWFhqa2NxSWxRRGxqUQ?oc=5",
+        "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
+        "source": "cio.com"
+      },
+      {
+        "title": "\"마케팅 패러다임 전환, 글로벌 확장\"…센드버드, 신임 CMO 발탁 - 유니콘팩토리",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3SjRleDhZZm9vbXZwZmoxVy1QYkZaTjBaR0JxWjZZRllBZHExdG1KdXVpQXdlMU1DYjhsLVJONTFTUFdoTmVOOFZpRFJrbWJEaWZkaTJVT1hjSW9oZElRcjV6VDg4eWo0VElwTA?oc=5",
+        "pub_date": "Thu, 24 Jul 2025 07:00:00 GMT",
+        "source": "유니콘팩토리"
+      },
+      {
+        "title": "센드버드, 엔터프라이즈급 AI 운영 시스템 ‘Trust OS’ 론칭 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Ja3lkYklwSUhZRHRCd3B5Z3kyS1V1NERkMkNmbFhycVlWUjdodDlFS3d0aVlnVGVyYVhQYVc0ZVBUdGplN0lYTg?oc=5",
+        "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "센드버드 “기업과 소비자 간 ‘진정한 소통’ 지원하는 AI 에이전트 공개” - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83TnVKQ3pCZ1VrX0p1M1YtVmlKalNXLUt5VlE3bGNEY1dpOFVFRHpCSEpjaTFTWE9XWGg2Zkg4QU9TRWFBQUY3TmFaYlo2ejRkTS1wbW1DOVdBSEYxSkhLZG5nN2x2Z2pPVXc?oc=5",
+        "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "센드버드, 노스 애틀란틱 항공 ‘상담 자동 해결률’ AI로 80%까지 향상 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YT0paUE1XUmF3Q1FFV0dsNXpINk12OU96VHJSS0tsQjBEaGZNa3pleE1VTzF5d0k4dHI1WUJDMzZHY2VkYzhLSDEwVlZ4RGJySGdMdFM4T3F3Tld0ZV9pY2VrTmRGWjVxOWc?oc=5",
+        "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "source": "AI타임스"
+      },
+      {
+        "title": "김동신의 센드버드, IBM과 세일즈포스를 이기다 - 더밀크",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81aFN6Rk8yaXBKQ1FxQXBHQjFDVjJuV3hVUEZ2dWhtZHU3eUdRaVJnQTZCeHFyc1JONml6Y0VRMW5KdW5zR3ZiejJBbDRRaDZn?oc=5",
+        "pub_date": "Mon, 01 Sep 2025 07:00:00 GMT",
+        "source": "더밀크"
+      },
+      {
+        "title": "김동신 센드버드 대표 \"AI에이전트 혁명, 5년 후엔 기존 사업 무의미\" - 더밀크",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnMzFWWkNsd2VlSEp0d2JLYkxxYTRvMlQ4YTZMQmxyWlBsbU5JbjFnZHdNMzVTbTZFUWNSeFJ3VG1CTXMzM0tvY0l3NkVISmxLY3I5N3Jn?oc=5",
+        "pub_date": "Mon, 01 Sep 2025 07:00:00 GMT",
+        "source": "더밀크"
+      },
+      {
+        "title": "와이즈넛, 기업 설명회 개최...AI 에이전트 사업 확장 전략 제시 - 디지털투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kUzhCYzlOMkRTaU5GSjFuNHNBRXlBUFU2Tm5iVGpXNHkzcnpVOUdDSGI4SjZ1dENjYUZaa1VZZDlZal9CR2RMLUNhN010QXBQX3ByMTctcmd0dUlrdDdIUEU4UjZmc2VWUkN6WnhfY0xfRDg?oc=5",
+        "pub_date": "Mon, 25 Aug 2025 07:00:00 GMT",
+        "source": "디지털투데이"
+      },
+      {
+        "title": "[쫌아는기자들] 센드버드, 고객 니즈로 35조 시장 발견... 엔젤투자자 김동신의 투자원칙 2PM - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON3QyZDdKX0tOWTZhdnpGbFNiT2NodjFkLThWTWQzX1M0SWhfeC1JZTd6Q0pwbEo4RzZsVmVVYjJYUXdFZmlzV2poX1U1UVFOY0dsSU9waS1weXhfU05pd09WUVdQU2I2TDlDTi1IZ3NDZFFiS19yRnpjdWZ0bnBoa3g3c25PR3o30gGcAUFVX3lxTE1NekEtTWc5MTFpQmQ5d3dRaVRuVFBDMWRyQU5nclhQM2Y3Q1lLZGh5UU9yUjgyWFVWRUtWQ3AxTnFYVlpPRlVFc08ySGRtS2FVMmUzNnZ0QnhvbVZjTEZDd0ZvVDN1TTR2NFRIVVk3Q3RZWWxtR29zWVQzbWlPVE5zclJ4VkRWTThCSjJiQVpGcmlkSEMwaWxIWUstWA?oc=5",
+        "pub_date": "Mon, 15 Jul 2024 07:00:00 GMT",
+        "source": "조선일보"
+      },
+      {
+        "title": "배민·쿠팡이 쓰는 센드버드…\"70조 문자마케팅 시장 혁신한다\" - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yczFfeGU3S2p3TE1vNTRDYzAzdlpQOWNUd1M5OG9WQW50WkZDQ2JMQlE0NmhSVXBHM1hZSkFodzVSTF9ncnJJa21yV0VkWHpzRWhmdDBtTzRDVEli?oc=5",
+        "pub_date": "Wed, 02 Oct 2024 07:00:00 GMT",
+        "source": "뉴스1"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "미래 센드버디안을 위한 안내서: 채용절차와 직무 및 밸류 인터뷰 : 네이버 블로그",
+        "url": "https://m.blog.naver.com/sendbird/222494566614",
+        "description": "우리는 <strong>다양한 인종, 성별, 종교, 장애 등을 편견 없이 수용하고 다양성을 존중하며, 개인과 팀의 강점을 계속 키워나가는 방향을 추구</strong>합니다."
+      },
+      {
+        "title": "센드버드 전 직군 대규모 경력채용",
+        "url": "https://sendbird-recruit.com/",
+        "description": "<strong>신뢰와 소통에 기반한 수평적 기업 문화, 철저히 시스템화 된 개발 문화</strong>를 소개합니다 ... 성장이 중심인 기업문화를 가진 곳에서 일하고 싶었던 꿈을 이루고 있습니다. 센드버드 팀의 일원으로 일하며 더 나은 내가 될 수 ..."
+      },
+      {
+        "title": "센드버드 채용 - 좋은 기업을 원티드 #10 전 세계 유쾌한 사람들이 모인 글로벌 IT기업 '센드버드(SendBird)' : 네이버 블로그",
+        "url": "https://m.blog.naver.com/wantedlab/221439439784",
+        "description": "... <strong>센드버드와 잘 맞는 분들을 많이 모셔오는 게 첫 번째 목표</strong>에요. 비즈니스가 빠르게 성장 중이고 회사 규모가 커지는 만큼 좋은 분들을 많이 모시고자 합니다."
+      },
+      {
+        "title": "센드버드(센드버드) 기업, 채용, 투자, 뉴스",
+        "url": "https://www.rocketpunch.com/companies/sendbird",
+        "description": "* 업무관련 도서비 무제한 지원 * 주 1회 One table (점심식사 지원) * 월 1회 스마일 디너 (가족과 함께 보내는 조기퇴근 시스템) * 월 1회 Remote 근무 * 본인 생일 휴무 * 수시 워크샵 및 All-hands Meeting * 유연한 출퇴근시간: 8-10 AM 출근, 18 - 20 PM 퇴근 * 오셔서 센드버드의 문화를 만들어 주세요!"
+      },
+      {
+        "title": "센드버드(센드버드) 채용 정보",
+        "url": "https://www.rocketpunch.com/companies/sendbird/jobs",
+        "description": "* 업무관련 도서비 무제한 지원 * 주 1회 One table (점심식사 지원) * 월 1회 스마일 디너 (가족과 함께 보내는 조기퇴근 시스템) * 월 1회 Remote 근무 * 본인 생일 휴무 * 수시 워크샵 및 All-hands Meeting * 유연한 출퇴근시간: 8-10 AM 출근, 18 - 20 PM 퇴근 * 오셔서 센드버드의 문화를 만들어 주세요!"
+      },
+      {
+        "title": "[Sendbird 서울오피스 채용] Software Engineer: Full-Stack Developer (full-time) | 센드버드",
+        "url": "https://sendbird.com/ko/blog/sendbird-recruiting-seoul-office-full-stack-developer",
+        "description": "업무의 방향성에 대해 동기부여 및 공감대가 충분히 형성된 상황에서 일하고 있으며, <strong>강제적인 지시와 위계질서 없이 업무를 해결하는 문화</strong>가 정착되어 있습니다."
+      },
+      {
+        "title": "My Story with SendBird",
+        "url": "https://brunch.co.kr/@jaeyeonkim/61",
+        "description": "좋은 문화가 있는 회사가 다 잘 되는 것은 아니다 하지만 잘 되는 회사는 일단 전부다 그룹원들 안에서 어느 정도 동의하고 만족하는 그들만의 문화가 자리 잡고 있다. 이건 센드 버드와 인터뷰 보는 당시에도 People&#x27;s team의 리쿠르터에게도 말했던 내용이기도 한데 많은 기업들과 인터뷰를 보았지만 대부분의 기업의 Behavioral questions들과 비교하는 것이 부끄러울 정도로 센드버드의 culture fit 프로세스는 잘 구성되어 있다."
+      },
+      {
+        "title": "블라인드 | 센드버드코리아 기업정보",
+        "url": "https://www.teamblind.com/kr/company/%EC%84%BC%EB%93%9C%EB%B2%84%EB%93%9C%EC%BD%94%EB%A6%AC%EC%95%84/",
+        "description": "채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
+      },
+      {
+        "title": "센드버드 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
+        "url": "https://jasoseol.com/companies/13240",
+        "description": "센드버드 연봉, 사업 분석, 합격 스펙, 채용공고 등 최신 기업정보를 한눈에. 직무별 지원자 분석부터 합격 후기까지 센드버드 상세 취업 정보를 확인하세요."
+      },
+      {
+        "title": "Sendbird 채용 | 모바일 앱 혁신을 이끄는 Sendbird 팀에 합류하세요. | 센드버드",
+        "url": "https://sendbird.com/ko/careers",
+        "description": "<strong>다양성을 존중하고, 적극적이며, 친절한 Sendbird 팀에 합류하여 소셜 앱의 미래를 개척</strong>하세요. 채용공고를 확인하고 지금 바로 지원하세요!"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "Careers Redesign | Sendbird",
+        "url": "https://sendbird.com/careers-redesign",
+        "text": "Careers Redesign | Sendbird (function(h,o,u,n,d) { console.log(11111111) console.log(process.env.DATADOG_CLIENT_TOKEN) h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}} d=o.createElement(u);d.async=1;d.src=n n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n) })(window,document,'script','https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js','DD_RUM') window.DD_RUM.onReady(function() { window.DD_RUM.init({ clientToken: process.env.DATADOG_CLIENT_TOKEN, applicationId: process",
+        "score": 0,
+        "published_date": "2026-02-03T00:00:00.000Z"
+      },
+      {
+        "title": "Sendbird Careers, Perks + Culture",
+        "url": "https://builtin.com/company/sendbird",
+        "text": "Sendbird Careers, Perks + Culture | Built In\n\n# Sendbird\n\nSave Saved\n\nHQ\n\nSan Mateo, California, USA\n\nTotal Offices: 4\n\n240 Total Employees\n\n111 Product + Tech Employees\n\nYear Founded: 2013\n\nView Website\n\nWe're Hiring!\n\nEngineering 5 [Product Management 4](https://builtin.com/jobs/product-management?companyId=88217&amp;allLocati",
+        "score": 0,
+        "published_date": "2026-03-13T00:00:00.000Z"
+      },
+      {
+        "title": "(주)센드버드코리아 채용 | 2026년 진행 중인 공고 1건  - 사람인",
+        "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit/csn/OG93TkNUaE0zalgwOEhla0NsbzhpUT09/company_nm/(%EC%A3%BC)%EC%84%BC%EB%93%9C%EB%B2%84%EB%93%9C%EC%BD%94%EB%A6%AC%EC%95%84",
+        "text": "(주)센드버드코리아 채용 | 2026년 진행 중인 공고 1건 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n## 지난 채용 순위\n\n### 직무별 순위\n\nTOP 1\n\nIT개발·데이터 가장 많이 채용했어요!\n\nTOP 2\n\n기획·전략\n\n### 경력별 순위\n\n4건\n\n- 경력\n\n## 진행중 공고 1건\n\n- 경력1\n- 전체1\n\n마감순 최신순 조회순\n\n공고를 불러오고 있습니다\n\n잠시만 기다려주세요\n\n공고리스트--\n\n[[Sendbird] Software Engineer, Web Front End (1년 계약직)]스크랩\n\n프론트엔드\n\n서울 강남구\n\n경력 5년↑ · 계약직\n\n대학교(4년)↑\n\n입사지원\n\n5일 전 등록\n\n1\n\n## 마감된 공고 4건\n\n- IT개발·데이터\n- 기획·전략\n- 전체\n\n공고를 불러오고 있습니다\n\n잠시만 기다려",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "SendBird Reviews - \"Great!\" - Blind",
+        "url": "https://www.teamblind.com/company/SendBird/review/BaDiTR9lCGH",
+        "text": "SendBird Reviews - &quot;Great!&quot; - Blind\n\n\nCommunity\n\n\nSalaries\n\n\nReviews\n\n\nJobs\n\nFor Business\nSign in\n\nSign in\ncompany-page-background\n![SendBird Logo](https://teamblindstatics.s3.ap-northeast-1.amaz",
+        "score": 0,
+        "published_date": "2022-03-25T00:00:00.000Z"
+      },
+      {
+        "title": "SendBird Company Reviews : What's it like to work at SendBird? - Blind",
+        "url": "https://www.teamblind.com/company/SendBird/reviews",
+        "text": "Community\n\nSalaries\n\nReviews\n\nJobs\n\nFor Business\n\nSendBird\n\n3.6\n\n(22 Reviews)\n\nReview this Company\n\n### Work at SendBird?\n\nJoin SendBird's internal discussion for verified employees only!\n\nJoin SendBird\n\nOverview Posts [Reviews](https://www.teamblind.com/company/Se",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "Sendbird, Unveils AI Agent Builder-Platform to “Preempt the Coming ‘AI to AI’ Market” < English news < 기사본문 - 더에이아이",
+        "url": "https://www.newstheai.com/news/articleView.html?idxno=7403",
+        "text": "Sendbird, Unveils AI Agent Builder-Platform to “Preempt the Coming ‘AI to AI’ Market” --\n\nSearch for Articles\n\n2026-03-13 17:03 (금)\n\n- Login\n- Join\n\nPrevious article Next article\n\nSendbird, Unveils AI Agent Builder-Platform to “Preempt the Coming ‘AI to AI’ Market”\n\nA\n\nA\n\nWill be changed to this font size.\n\n스크롤 이동 상태바\n\nA\n\nA\n\nWill be changed to this font size.\n\n## AI agents transform business strategy, a",
+        "score": 0,
+        "published_date": "2025-03-12T00:00:00.000Z"
+      },
+      {
+        "title": "Sendbird Profile 2026: Financials, AI Strategy & Agora, Plivo, Twilio, Firebase, PubNub Comparison",
+        "url": "https://dexteragent.ai/companies/sendbird-1771607442",
+        "text": "Sendbird Profile 2026: Financials, AI Strategy & Agora, Plivo, Twilio, Firebase, PubNub Comparison\n\n# Sendbird Profile 2026: Revenue, Competitors & Strategy\n\nLast updated: February 18, 2026\n\nDownload PDF for free\n\n## What is Sendbird's business focus and history?\n\nSendbird is a funded company based in San Mateo, California (United States),",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "AI Business Strategy 2026 for Growth Leaders | PCG",
+        "url": "https://primeconcepts.com/ai-business-strategy-2026/",
+        "text": "AI Business Strategy 2026 for Growth Leaders | PCG\n\n## AI Event for Business Leaders 2026 What Makes It Worth Attending\n\nAI Event for Business Leaders 2026 options are everywhere. Conferences, summits, webinars, and workshops promise insight and transformation. Yet many leaders walk away with more ideas than action and more tools than clarity. The issue is not a lack of information. The...\n\nread more\n\n## Cost Per Lead 2026 Is Risin",
+        "score": 0,
+        "published_date": "2026-02-18T00:00:00.000Z"
+      },
+      {
+        "title": "7 Factors That Drive Returns on AI Investments, According ...",
+        "url": "https://hbr.org/2026/03/7-factors-that-drive-returns-on-ai-investments-according-to-a-new-survey",
+        "text": "7 Factors That Drive Returns on AI Investments, According to a New Survey\n\nSKIP TO CONTENT\n\nGenerative AI\n\n# 7 Factors That Drive Returns on AI Investments, According to a New Survey\n\nby Thomas H. Davenport and Laks Srinivasan\n\nMarch 17, 2026\n\nAdrienne Bresnahan/Getty Images\n\n- Print\n- [Buy Copies](https://hbr.org/product/7-factors-that-drive-retu",
+        "score": 0,
+        "published_date": "2026-03-17T14:24:33.248Z"
+      },
+      {
+        "title": "SendPulse in 2025: Global Growth, an AI Revolution, and Big Plans Ahead  | SendPulse",
+        "url": "https://sendpulse.com/blog/sendpulse-year-in-review",
+        "text": "SendPulse in 2025: Global Growth, an AI Revolution, and Big Plans Ahead | SendPulse\n\nUpdates\n\n# SendPulse in 2025: Global Growth, an AI Revolution, and Big Plans Ahead\n\nShare:\n\nFacebook [Twitter](https://twitter.com/share?text=SendPulse+in+2025%3A+Global+Growth%2C+an+AI+Revolution%2C+and+Big+Plans+Ahead+&url=https://sendpulse.com/blog",
+        "score": 0,
+        "published_date": "2026-03-17T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "We made Sendbird UIKit open source — build the chat workflow of your dreams faster | Sendbird",
+        "url": "https://sendbird.com/blog/uikit-open-source",
+        "text": "We made Sendbird UIKit open source — build the chat workflow of your dreams faster | Sendbird (function(h,o,u,n,d) { console.log(11111111) console.log(process.env.DATADOG_CLIENT_TOKEN) h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}} d=o.createElement(u);d.async=1;d.src=n n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n) })(window,document,'script','https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js','DD_RUM') window.DD_RUM.onReady(function() { window.DD_RUM.init({ cli",
+        "score": 0,
+        "published_date": "2021-04-21T00:00:00.000Z"
+      },
+      {
+        "title": "GitHub - sendbird/sb-osc: Sendbird's Online Schema Change Tool for Aurora MySQL",
+        "url": "https://github.com/sendbird/sb-osc",
+        "text": "# Repository: sendbird/sb-osc\n\nSendbird's Online Schema Change Tool for Aurora MySQL\n\n- Stars: 45\n- Forks: 3\n- Watchers: 45\n- Open issues: 0\n- Primary language: Python\n- Languages: Python (99.8%), Dockerfile (0.2%)\n- License: Apache License 2.0 (Apache-2.0)\n- Topics: aurora, aws, mysql, schema-migrations\n- Default branch: main\n- Created: 2024-04-04T01:36:36Z\n- Last push: 2025-12-18T23:16:58Z\n- Contributors: 5 (top: jimmyjib, jjh-kim, JooeunAhn, notemusic110, peterlyoo)\n- Releases: 9\n- Latest rel",
+        "score": 0,
+        "published_date": "2024-04-04T00:00:00.000Z"
+      },
+      {
+        "title": "SB-OSC: Sendbird Online Schema Change | Sendbird",
+        "url": "https://sendbird.com/blog/sb-osc-sendbird-online-schema-change",
+        "text": "SB-OSC: Sendbird Online Schema Change | Sendbird\n\nAI Readiness 101: Close the gap between AI hype and real results on March 18 at 10am PT\n\nAI Readiness 101: Close the gap between AI hype and real results on March 18 at 10am PT\n\nRegister for the webinar\n\nOn This Page\n\n- Conclusion\n- Performance\n- Limitations\n- Sustainability\n- Methodology\n- Introduction\n\n# SB-OSC: Sendbird Online Schema Change\n\nOn This Page\n\n- Conclusion\n-",
+        "score": 0,
+        "published_date": "2024-05-17T00:00:00.000Z"
+      },
+      {
+        "title": "Sendbird introduces open source Llama 2 integration, expanding proprietary LLM offering for conversational AI | Sendbird",
+        "url": "https://sendbird.com/blog/sendbird-introduces-open-source-llama-2-integration-expanding-proprietary-llm-offering-for-conversational-ai",
+        "text": "Sendbird introduces open source Llama 2 integration, expanding proprietary LLM offering for conversational AI | Sendbird (function(h,o,u,n,d) { console.log(11111111) console.log(process.env.DATADOG_CLIENT_TOKEN) h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}} d=o.createElement(u);d.async=1;d.src=n n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n) })(window,document,'script','https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js','DD_RUM') window.DD_RUM.onReady(function()",
+        "score": 0,
+        "published_date": "2023-10-19T00:00:00.000Z"
+      },
+      {
+        "title": "Optimizing GitHub security at Sendbird: Challenges & key takeaways | Sendbird",
+        "url": "https://sendbird.com/blog/github-security",
+        "text": "Optimizing GitHub security at Sendbird: Challenges & key takeaways | Sendbird (function(h,o,u,n,d) { console.log(11111111) console.log(process.env.DATADOG_CLIENT_TOKEN) h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}} d=o.createElement(u);d.async=1;d.src=n n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n) })(window,document,'script','https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js','DD_RUM') window.DD_RUM.onReady(function() { window.DD_RUM.init({ clientToken: proces",
+        "score": 0,
+        "published_date": "2024-11-07T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "US Intelligence chief's briefing in Senate rescheduled due to Iran - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVUJndjdJcFRMUXhmWC1RUmktcDl6Z282VEhFTHY1elhHQ3d1X2RJTHR2UEJZekx3aDZ0eVUwQ0hDaG9GTlV1Z2ktQVJpd2t4dkFXdlJGY2RBTktQaUNFU1dOREMxeldHOWwzVnV5R0NfM09uY0dUV1Y2dm9ORkNQRmpPeDFxOWFmVDVtXzNIakdERUxSWElIWmRRNHFHNVc3U2JCVlJPWQ?oc=5",
+        "pub_date": "Wed, 18 Jun 2025 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Dutch software firm MessageBird rebrands as Bird, slashes prices - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWFdvNmxiTU1UTVBRZ3lqYkl4ZEFadXBPRkcxV3RTTWwwQmdweHdqSDFzMmFjRnpfR2pqbWl5aWpNNnF6dWw0bmlHSm1kWWw3UzUwdE04a2VkZnBkNm14bWNEMTh1LUVMYnc4aHAwVXIyM19KX3pMN3hkRVoySFFHelNhd2h0bnhsX25RT2RVTEpMaDNjdldhTVhCWGpKR3R0amExREQxdk5HdEk?oc=5",
+        "pub_date": "Thu, 01 Feb 2024 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Watch Messaging API Startup SendBird Is Financially Stable: CEO - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSE1XRFJWYjFyVmtqR21RdEpRZmlQZkRpMDlZLUItMFdJbzdkM01KQ3JCNFM1c0FXSXpWbGhfM0dHdXA5ZWxxQmg4N3pLRndrU2I0dlZJRU9hTEtwVFh6dzN6aWdpOVpJYjAtRkw1QTBJZFRDLURoUjVVM2ZLakE0eXJnZWd0bms2MVk2Z1RVQWZGRENOUWUxeW1qQ191SG4zOVNQZFhFVURiNVpSWEtEag?oc=5",
+        "pub_date": "Tue, 09 Jul 2019 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Sendbird Inc - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoMTAxcTdXRkxyd29tS3ZIRXdNd0dCVzFneklkNE9XZHkzRnFoVVpCQXdZZENSWXd5cVpXclRnQzluZldZUGk2cHlXdjZQSDFBbkhya19XNkZ1Z2U5Uk0yWk1OSQ?oc=5",
+        "pub_date": "Fri, 10 May 2019 06:28:11 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Ex-Google Engineer Builds Unicorn at Tiger Global-Backed Firm - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR0tTcm43aEtFRTRBSXJlMDRkdXBuOGNfU0NLN0hLV2Q0WWRUdTQ5YnNRREdUd2stemdHeHoyWThpVElia1FCUF9nbktaejd4M0pmYVg0MUhFVGNSaVU4dXRBeEFQUVdwaHdTbTVrSjYxcVhSbEVlSVVWSXd2dzBnU2pZSTV0UG1BZWRPOUNzRGJOTExXT1Jhb214cXYzdUNyUTFoeERuS2lleC1VTW0yUnZn?oc=5",
+        "pub_date": "Tue, 05 Oct 2021 07:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Sendbird raises $100M at a $1B+ valuation, says 150M+ users now interact using its chat and video APIs - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOejU3NkVkNFV5MExxU0JOdXRWNmxLdENST0hkdHotSUZLbUFPWFFzR19aeDdIMUlEOVltTHJjY3NFSzNCTUFkd1p5U1N2THFkQjVNN0NFYW94T1F6YksxdlVZWXRiZVM0eUJJT0RTY2JjY0l0Uk1MY2htZHBKT0QzQW1tTklKN3Rnb3BlaUNpUnhTOE1uUUw4VVdkUFBxYWtHYUs1aVJpZHJfUnlSR09ZVWlkUng2bzZjbnZUaWVLS1JVenVGY2pMeFRBNjg?oc=5",
+        "pub_date": "Tue, 06 Apr 2021 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Sendbird - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yOFJNaXRTVGF6X2hreUNhYlhrMU1jR0dZRHUzVHYyZGhtWGpxb1lHLU00Wk5mRFp4TVllMXg2dEJXdFhnR0liR3BRbjY?oc=5",
+        "pub_date": "Mon, 13 Jun 2016 21:39:18 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Sendbird Looks To Help Developers Add Chat Functions To Any App - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLWFqMTdib2tETk9sTkpKallCN0FpbjcwYV83MEFYclg4Y2lyWG5yekhVYU41bmxsMFU2NWFZOV9oREpLUUhJQ1hnaS1UOE9VUWF0S1NLTGloajlBRENNQWxTQl95RU9vMHlyWHF3ZkNTSkl0YlBULXYyOWFzOGVHTWtYM1ZpMl93VTEwaE5HYzRVSXhzb0ZxRE1NVDVwblU?oc=5",
+        "pub_date": "Fri, 12 Feb 2016 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Members - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNNmU5c2ZsT0Z2cFI2RTNxandIdTVqMWF4eFd6N21oM3hMTlpIWGlPeDhFclBSSkFWNkxSck5IN1NPcWw4RFZkVWdoYnprNlRPbWNaNk43UkRtdUlzNHJLS3Uzc1dzNkhINGlDZVdfdEdkaWVGb293T0drME5JX25oUTMxX3JuSVBURWE5WDQ2aU5tYVgyNTIyU1ZtNS02RkQ3T2RqS09YRF9HaXBaaDBhX2FIamUtVnNsT0Y4TG5Ncm5HTFBMdmQxNTJpMjZBZFFhZGpNR0Vya0ZVcTFvMkdsV3NZalpVMWhiUDAyS3ViM1lGYWczRi02Y2RyQlZycHVtSk5sdGlKNGIxaWhpLUN2THZFUmhaWDJyWDNsN3JDZkhsOXVSU2hFNUlmTDkwZTVWOVFtZGJIbVN2SHItd2Vkd2pvRXBIV3h3X2ozNFhzOVVncGkxRkRHUUZmeVhHUjk1eGc?oc=5",
+        "pub_date": "Tue, 17 Feb 2026 20:35:18 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "The World’s Most Influential Decision Makers - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMivAVBVV95cUxOWXBCZUNCR1JlekI2c2F6aFItUUJ3bzBweHo3MEQxV0JCdGJMbG85YnZuNkQ1MF9vbjE0YzN6a01SNS16b21XS1YtcDJBOWxXcDZuQURqN2IyZnJieURUemNZVjFsOVduaUtQYmY4Sk5ERzlmTXRSY2JuTnNGNmdqRVBsbGRIY04tWUQtdS1DMWVBUHlleHlXZU5qYjBOLXRrcE9rQlh5b0J4TmpCSnZQcW5SLWZ4cGdsTWhtc1lfcG0tSmZfRDRkZjF6WHA0Sm0tdHp4TzA3RUpuM0w2Z3BYXzA5YW1CU3JJelk2c0N6N3BXNkFEZHJOZ2VwWFU4VU9PY1VqTHlsa1FrbnlXd1ZWWkR2dllaUWUzamJMSWpacWRxWDVCbVVMb1ZYUWo1UVRaRGdwU2FFS1Q3SHdNYkx0WWI0Wk52ODl6OEpvOXNNeGVjbjZIVjNNT2xLZFROcXpmWENRMG9kUGFnWDBBNEhSMlhPT3NBT05iSkdaQXdCUWd2LTdzaDJVZW5ROFBZdDJuT3F0LWM0MGdOVWR5RFNId1VXQVJ3OW9CV1JESXd5U1gtZl80cmE2ZFZoNzdOWlpZd3lMT0J0a2QxWEs3VzVNVjNGODJKRlZER2R4YXJWV2ZobUQ5TWVKamhOYlYydlBxdWFsMlFqa1k2SXl1MU1QeGxrUzZmS1hmMWx4YTFNX3RZUEctSXNXVWpyM3U4QzFQWUlMUVp4NUo2UENKT0N4am9qc3Z5WmRMV2xJaE1DT0hSWF8zc3FYUTAzM0lGUm9sVU1TS1BwZk5oX0tzSzNLUENKTzVMY05NMnFYUjlLWUdpU2F5MGlXWldxNUt1YUtGNWJZQTNCWVUxMW9uSmw0YzNzbE8zZjZvWmxIYTJmNWl5MFYxdWFLN1RTNy1vdkdNRkxZZ183T0c0OC1m?oc=5",
+        "pub_date": "Thu, 26 Feb 2026 01:47:36 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Despite U.S. Tariffs, China Enjoys Manufacturing Boom - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxNd0lBQTFuODFHbUVZc003ZVBrQ0Nvdzg1NUJ1LVBZSTRHdjkzUzlxbFBZeGVCQW5jQ1ZrNU1kN0dUS2d5RW9QSjJEc2lqYmVlMHg0dE53aVBPdUFjM3pIUDhBcXJMZmlPQ1dRMEJKUkVxMzZTX1ZJUGhCekdhbG5uMUtWQmh3YUg3bEZuenNuQlhwQWpKblhCdGRWbjFXRWRtSkVRdnctMWEyUXREOExGdzlndVpnSHZ3TmdwTXhpMW16WnlzREFZNHpNZlloZjZ3Mk5iUml5cFRYNkEwdDV5aFVsWU1BdE8zMGlYLXZnWnBlUUJZMkVMdEhUMUxWcU8yTVI4S2JBSGJlUjlPWTVUM1gxM1ZzYURNMjJvOG5halhZQk85N0pKMlk1RlI0MWdOQzdQaklzb0Y4dmpiNTE2U1hzYlQ1eUFLY1pzSnVKZHdEMXpwWnNmY0RHZ1h6SUpmR2tZZGFQSU8tM3RSTldiVGJraEV4aUctc2E2VWVBdmFzT1FQUFR6RW84bHV2UFZ2RkYtTGpLTTZVdFhMQVRV?oc=5",
+        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "센드버드 AI 에이전트, 유럽 항공사 상담 80% 자동화 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vRGFrZ0ZwQ3BtXzdMNnRhdzc5b21JZVlmaXBxR1JQM3hYTjVyZTBRcmhTbS1XR3o1N25aRXBubC1LVU9iZ0t0eXNzRUxmZTdpalBSN1VFSEQ1d9IBVEFVX3lxTE5Ha2Z6bkRVaTNVbHBBZ29ZRzF2dXROLUJ4WUd3WlJlNEI5WjNjcVBJMGd1dnhvRXUtVmdhTzE3ME1VcTFXb3A3RTAzcnlKUklNNmdIdA?oc=5",
+        "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "센드버드 AI 에이전트, 유럽 항공사 상담 80% 자동화 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rdFVIMmVBNldLeVUyT3o2c0FPS21RQVBpWDAtWlVWejJvcTNsS1Z2Nm1NclloNFdfM0V4Y2pTMVNWMVpwcDRfYUlXUzM5Ul9yeTYzUHVaLUFrWjJ1OUM0WjdEVlI2enZkU3U4NzJOMmI1VWRGbWV4QTRUMVBkTDQ?oc=5",
+        "pub_date": "Mon, 09 Mar 2026 01:22:55 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "\"아슬아슬했던 데스밸리 위기, 대기업 협업이 돌파구 됐죠\" - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5aVRZZVlTOHdGLUg5Ql9MdHg2NFAzWnNUWmVyZEV1SHppVjNKYlBSVGtxQnllNDdudkFwOEZfSHNZSWY5aENIUElVWTlSX0tEemwtWk80Z1lyZ9IBVEFVX3lxTE9TNHV6X1ZwbGdWbExfOEFvMHBYTDJEQXVsTGVzRnJ4Vm9ZZWlZUFM5eXFZc01pdGN2YndkS1lweW5XTl9WV3M4VkVjdUYzYTFHTnRrYg?oc=5",
+        "pub_date": "Sun, 06 Jul 2025 07:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "한국계 스타트업, 미국서 바로 창업…‘본 글로벌’ 전략 확산 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbDhCZVpMOG9KNXNPS19WNGxSZVNEeERGeTBhQUNkMllpbktDVVZQRUFPamZwT0R3YW9PUVlldjZrZ09FWXU0SGc4ZXFKMFo4WkgtVlJybXFNUFFHaEs4cFNCcEJBbmJmYzgyR2FMVUVNbkJ4QnJQWjZfak4wNmhyZ3BvWS01WVlzdTFkNXRId3rSAaQBQVVfeXFMUDRfNkh0b2haSTN2ZFNfTkZqNHdJd1JDb2JiaVk4dWJ2VVgzQ0Fubl9tYlN4V21hRjNFUzZ3aElBeWE1OHJIN01KWW5xdnIyWlRRZUYwRHBhSmgyZUpJVzJJRndJX1B1d2NaMExvcWFlSDZSV3d1Rk9KYllTVmVoS25ZWG1XNkpQdC1NY09PZzhDMTF6ZUZhczJjUkJ6d01VSS1NYjM?oc=5",
+        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "유니콘 센드버드, 소상공인 위한 ‘AI 챗봇’ 韓美 동시 출시 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVE0OGxtMWNFVXVxUDdsWE1ISENZaTBjYmt2SVRfa1JIRUlnMXhmQXBaWGx4M3AyX0s3dHl1T2doUkFxWmJId2Z4WnV6Z3M2dzd6bl9nWDVzcm1GUEJ6WHVnOFRrcVJPa0kxTmJqVWhqZzBaN2Z0dGFhN0ZpUkpqcFlnR3jSAZgBQVVfeXFMTzFFVFVFdjZnZ2JPT2NuUHVTWVBycGZsakpYa0F2QlY5aDc1a3VoVUZoMXI4am9GMDA0VU56U0prVGotc1ZqWU5QWHhjS3FPQkpDNC11cmRiejE0TVJPRTRpV25IMjlhX09SZDBoaDBuNEJYMXlxNjFma2NTbE9DRkIxMldicW1XVExCSHU3UTJ1OXUyQkdPMno?oc=5",
+        "pub_date": "Wed, 28 Feb 2024 08:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "센드버드, 페이스북 투자자 등 美 VC서 1200억 유치…“글로벌 시장 공략” - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE00YzI5V0JrdC13WG05Y3U5MUZnRDY1WjVNbHZWMlN6SHFERTh2TkZtRVQ1VEwyS0dOYmp2aVRLQlJ0VXpyODVHbnI0N3NvalJpdHN0R0NsdGtkbjFIREVGV3p5YWo5R2hxek1pdEdyaTdFMFg2eWZaeVBLQdIBjwFBVV95cUxQNVRWZ2VsRnRnbFVKcVhkbXRuY21RLTBKX2hBRjBYcVJTNDhPUVU5VWo5bG1Qd2YwTkl3UWpzcXFSVGJBX0tHZGxtUzFzV2JvTlhycEpHZDBLMWNZSHFmWVUyQ1ExUElpNWYzRjl0MFhNY2FXMElBb0dISmVvNEV0Sk9IS0wybWQ1X2pldUdCMA?oc=5",
+        "pub_date": "Mon, 06 May 2019 07:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "https://www.mk.co.kr/sitemap/daily-images/20251217 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QeVZqLVYyRWp6THRTajd1T2ZfM2t2MDZxMkJodnItRkg3YWF5NENSUmg4UElqbUZQRmE4Z2dyeUJMcnlXaHRGamxjaTd5U1o0QW42U05DUnFIeHctbGlv?oc=5",
+        "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "https://www.mk.co.kr/sitemap/daily-images/20260309 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kaFlSYmpua1RRSlNQWkZwMjRSbTEyanhBc1QwUy1oVm41WmtvSGdNSDcycG4tMGZPblB1Mm05TzE5c2JYRXp0Z2xJblRnOUs0UGFkRDFYWDFVQXVJSEM0?oc=5",
+        "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "https://www.mk.co.kr/sitemap/daily-images/20260211 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tVFVDNTN3UkIzX1hHYm5faENHRnU1RERuQnFYeTBtNXQ3N3hqYzRhMmFXV29IaF9RNGtGWnBGRWwwQ1FYS05lZURIcEhqMUNZa3JjcVRPSG9aR0ZyNjhv?oc=5",
+        "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "센드버드, 에이전트로 항공 상담 자동 해결률 80% - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54NjFVd3dFTkdJYUxzelRCMWNONkpRaVpYMXhEZGJoRFJ3em9KLUhSU1FvbTlWMW1md1BlVFREM1YwODZwV2FwUHZBS2FlQlRHZHhBOFJ3?oc=5",
+        "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[AI 리더스] 상담 챗봇 시대 저물까…센드버드 수장이 밝힌 AI 에이전트 미래는 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaUUdDT0FFR3NMcE5WWGRZcW1GdVV0ZVFUa2FDcTBwZWZtUEdEcWx4WFY0VDJJT1pTaFB4Ykp5QnZfOHM2ZmQ2TVk2R1F5d05aaWhxX1p3?oc=5",
+        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[ZD SW 투데이] 센드버드, AWS 생성형 AI 컴피턴시 획득 外 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91cGE5YVp2N1FIaUN4eGdEc1kyUWpNZE14UmxNbldIRWpzMGtQeGlnQ3dfZS1FUGhKNm5hYTQteVg1TXh1czQ5eHNMM3UyNWxOS3hRZFln?oc=5",
+        "pub_date": "Wed, 26 Nov 2025 08:00:00 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[안희철의 M&A 나침반] 스타트업의 해외 진출을 위한 플립 전략 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1POVVYS2hpY213Z3RFSGd5VTdhVVpNY0NkazNwRU5YcTBNU0hraVBCOHpNQm9vZ1FOeGV1UFZHZURDUTM3X2pxTjE2em9XTzZCdzF6WTdMdlpsb2dRNFI3YUl0bVBUaFZm0gFsQVVfeXFMTWd4M28xOFVvRUticnM3ZVJFb3NPNi11Y1FDNncwcGdEOVdXUFl0Wmp2WEtsTU5wNVI3cWtSbmNZRGNVOGdQLU5CVnl4SVNHX21oc1RwVncwdEsxQXRzc050RDI5Q1lJUkNQZV9n?oc=5",
+        "pub_date": "Thu, 14 Nov 2024 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "“스타트업 성장이요? 창업자의 '꿈'만큼만 자라죠” - 이은세 테크스타즈 코리아 MD - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wOVd1dUE2bUZHdnRVNm1DQ0V4ckpSQThYRDRJZHZIemFJUldGSlJFeHdNeDR0dm02RW1oTG5fMWc0LUhhYzZEQV9UT21YQ3lXSUU3QjdnWEdTaVZKcXpYbGs1enlXM0nSAWtBVV95cUxNVmJHYVk3UTRndVlrY29ucnhkN0xueTc3UGwxZWdnRnJDWWxCdHRBNWhNVWFDSTQ5VTRkTExJcmd6bHAtcDh6aUlOeXJZbFRNWW4yaGNYWDEtaVVJQllfcHM0UldaUkM2MXVNUQ?oc=5",
+        "pub_date": "Thu, 11 Jun 2020 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "앳, 10억 프리시드 투자 유치 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiNHlHTVlNREpFejRzVEI2Y0drd194N2syVEFFc2lNNnRMTUNPdklJSjBPSzY3Z2ZYOW1kVEpjOGE3LWJGanc2THFEOVh5UUJzeUU4UjVTMlVWRXdVUVFuNE9EUWtIMWJ30gFsQVVfeXFMUGNHb3diNmpiVmp2RGwzYXpnLWRjNkRHY1FfNGVDY0dJUnotMlRVbC1HY29HeVBueTN6UlA1eFA2WldmLVQ1TzhQc2pwUmtyRDNXd1RFZnlhSVpFQ1FWTGNPZmtXcXRJUU1kRDJ3?oc=5",
+        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "센드버드, AI 에이전트 치고 나간다…‘딜라이트AI’ 공개 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96c1lNRWg3Tk5NTk1NMDdBajNfeldkZGRfa0JhVTJBMWZRVnQ1bDNlQWJlU2FPRG1nUXFjT3FzQWd3bm9jcWdwRTQzLV9jZ1k?oc=5",
+        "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "센드버드 김동신 “요즘이 제일 설렌다” - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9la3VRaXF1ZHlISDBzYzRpWV9aRXRJYVE5X0tzZThXU2ZDbWxsODR3U3VtQXZLNEo4OEtOODNybjRoMW1sMEpiUGdpOVBfUjg?oc=5",
+        "pub_date": "Wed, 12 Mar 2025 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "치열하게 일하고 싶은 엔지니어들 여기로…몰두센의 ‘몰로코’ - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wTzR1RG9lWU1mQkg5V0w4bVMxdXlsMXFLZGIxRFdqLS1sQVhhT3JHeVZfRkxEd3R2UWVvNVQ1UzIzTnI4UGZwR2ZWUWY5UFE?oc=5",
+        "pub_date": "Wed, 20 Sep 2023 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

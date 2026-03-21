@@ -1,0 +1,415 @@
+[
+  {
+    "name": "AWS코리아",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "CJ올리브영",
+    "sources": 14,
+    "sections": [
+      "strategy",
+      "financials",
+      "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "SK하이닉스",
+    "sources": 15,
+    "sections": [
+      "strategy",
+      "financials",
+      "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "구글코리아",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "네이버",
+    "sources": 15,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "financials",
+      "overview"
+    ]
+  },
+  {
+    "name": "네이버파이낸셜",
+    "sources": 15,
+    "sections": [
+      "strategy",
+      "financials",
+      "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "넥슨코리아",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "당근",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "두나무",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "딥마인드코리아",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "라인플러스",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "뤼튼",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "리벨리온",
+    "sources": 13,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "무신사",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "뱅크샐러드",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "버킷플레이스",
+    "sources": 14,
+    "sections": [
+      "strategy",
+      "financials",
+      "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "비바리퍼블리카",
+    "sources": 10,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "삼성SDS",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "삼성전자",
+    "sources": 15,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "financials",
+      "overview"
+    ]
+  },
+  {
+    "name": "센드버드",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "앤트로픽코리아",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "야놀자",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "업스테이지",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "엔비디아코리아",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "오픈AI코리아",
+    "sources": 13,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "우아한형제들",
+    "sources": 10,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "채널코퍼레이션",
+    "sources": 14,
+    "sections": [
+      "strategy",
+      "financials",
+      "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "카카오",
+    "sources": 15,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "financials",
+      "overview"
+    ]
+  },
+  {
+    "name": "카카오뱅크",
+    "sources": 15,
+    "sections": [
+      "strategy",
+      "financials",
+      "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "카카오페이",
+    "sources": 14,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "financials",
+      "overview"
+    ]
+  },
+  {
+    "name": "컬리",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "쿠팡",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "크래프톤",
+    "sources": 14,
+    "sections": [
+      "strategy",
+      "financials",
+      "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "테슬라코리아",
+    "sources": 14,
+    "sections": [
+      "strategy",
+      "tech",
+      "industry",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "토스",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "토스뱅크",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "토스증권",
+    "sources": 11,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "퓨리오사AI",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  },
+  {
+    "name": "하이브",
+    "sources": 14,
+    "sections": [
+      "strategy",
+      "financials",
+      "tech",
+      "culture",
+      "overview"
+    ]
+  },
+  {
+    "name": "한국마이크로소프트",
+    "sources": 12,
+    "sections": [
+      "culture",
+      "strategy",
+      "tech",
+      "overview"
+    ]
+  }
+]

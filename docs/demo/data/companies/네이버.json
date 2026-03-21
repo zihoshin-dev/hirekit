@@ -1,0 +1,891 @@
+{
+  "company": "네이버",
+  "sources_used": [
+    "exa_search",
+    "naver_search",
+    "brave_search",
+    "google_news",
+    "dart",
+    "credible_news",
+    "naver_news"
+  ],
+  "result_count": 15,
+  "sections": [
+    "culture",
+    "strategy",
+    "tech",
+    "financials",
+    "overview"
+  ],
+  "raw_snippets": [
+    {
+      "source": "naver_news",
+      "section": "overview",
+      "preview": "[[핀테크핫이슈] 금융권의 역습...각종 IT 서비스 전면 배치] 인공지능(AI) 서비스 개발 협력 및 공동 비즈니스 발굴을 위해 전략적 업무협약을 체결했다. 삼성전자가... ㆍ핀테크 인력난...KISA, 내년 채용연계 아카데미 연다 9일 금융권에 따르면 네이버파이낸셜이 중소상공인을... "
+    },
+    {
+      "source": "dart",
+      "section": "overview",
+      "preview": "회사명: 네이버(주) (NAVER Corporation)\n대표이사: 최수연\n설립일: 19990602\n주소: 경기도 성남시 분당구 정자일로 95 1784\n홈페이지: www.navercorp.com\n종목코드: 035420\n업종코드: 63120"
+    },
+    {
+      "source": "dart",
+      "section": "overview",
+      "preview": "[직원 현황]\n  전사 남: 정규직 2,870명, 평균근속 8.0년, 총급여 160,000,000백만원\n  전사 여: 정규직 2,057명, 평균근속 7.2년, 총급여 126,000,000백만원"
+    },
+    {
+      "source": "dart",
+      "section": "financials",
+      "preview": "[주요 재무지표]\n  자산총계: 당기 20341198572578 / 전기 17597111016833 / 전전기 15479991448695\n  자본총계: 당기 15729782986276 / 전기 13246655551905 / 전전기 11450826041130\n  부채총계: 당기 4611415586302 / 전기 4350455464928 / 전전기 402916"
+    },
+    {
+      "source": "naver_search",
+      "section": "culture",
+      "preview": "[블로그] [11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드\n서비스 후기 보기 : 크몽/자소설닷컴 클릭 https://kmong.com/gig/371909 &lt;&gt;&lt; &quot; &amp; https://jasoseol.com/pass-coaches/26  자소설 닷컴 - 합격 코치에서 전문가로 활동하고 있습니다. 결"
+    }
+  ],
+  "data": {
+    "recent_news": [
+      {
+        "title": "[핀테크핫이슈] 금융권의 역습...각종 IT 서비스 전면 배치",
+        "description": "인공지능(AI) 서비스 개발 협력 및 공동 비즈니스 발굴을 위해 전략적 업무협약을 체결했다. 삼성전자가... ㆍ핀테크 인력난...KISA, 내년 채용연계 아카데미 연다 9일 금융권에 따르면 네이버파이낸셜이 중소상공인을... ",
+        "link": "http://www.digitaltoday.co.kr/news/articleView.html?idxno=252566",
+        "pub_date": "Tue, 10 Nov 2020 08:03:00 +0900"
+      }
+    ],
+    "company_name": "네이버(주)",
+    "company_name_eng": "NAVER Corporation",
+    "stock_name": "NAVER",
+    "ceo": "최수연",
+    "address": "경기도 성남시 분당구 정자일로 95 1784",
+    "industry_code": "63120",
+    "established": "19990602",
+    "homepage": "www.navercorp.com",
+    "ir_url": "https://www.navercorp.com/investment/investors",
+    "stock_code": "035420",
+    "corp_class": "Y",
+    "employees": [
+      {
+        "position": "전사",
+        "gender": "남",
+        "headcount": "2,870",
+        "contract_workers": "27",
+        "total": "2,897",
+        "avg_tenure_year": "8.0",
+        "total_salary": "160,000,000",
+        "avg_salary": ""
+      },
+      {
+        "position": "전사",
+        "gender": "여",
+        "headcount": "2,057",
+        "contract_workers": "93",
+        "total": "2,150",
+        "avg_tenure_year": "7.2",
+        "total_salary": "126,000,000",
+        "avg_salary": ""
+      }
+    ],
+    "financials": [
+      {
+        "account": "자산총계",
+        "current_amount": "20341198572578",
+        "previous_amount": "17597111016833",
+        "two_years_ago": "15479991448695"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "15729782986276",
+        "previous_amount": "13246655551905",
+        "two_years_ago": "11450826041130"
+      },
+      {
+        "account": "부채총계",
+        "current_amount": "4611415586302",
+        "previous_amount": "4350455464928",
+        "two_years_ago": "4029165407565"
+      },
+      {
+        "account": "영업이익",
+        "current_amount": "1945532432697",
+        "previous_amount": "1905258322935",
+        "two_years_ago": "1713205368367"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "1882969128979",
+        "previous_amount": "1968704486363",
+        "two_years_ago": "1414312847932"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "16481339500",
+        "previous_amount": "16481339500",
+        "two_years_ago": "16481339500"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "14429917743461",
+        "previous_amount": "12865119709000",
+        "two_years_ago": "11379610436159"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "-21386426862",
+        "previous_amount": "-884636950607",
+        "two_years_ago": "-1132456364024"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "15729782986276",
+        "previous_amount": "13246655551905",
+        "two_years_ago": "11450826041130"
+      },
+      {
+        "account": "자본총계",
+        "current_amount": "1304770330177",
+        "previous_amount": "1249691454012",
+        "two_years_ago": "1187190629495"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "1882969128979",
+        "previous_amount": "1968704486363",
+        "two_years_ago": "1414312847932"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "1882969128979",
+        "previous_amount": "1968704486363",
+        "two_years_ago": "1414312847932"
+      },
+      {
+        "account": "당기순이익",
+        "current_amount": "0",
+        "previous_amount": "0",
+        "two_years_ago": "0"
+      }
+    ],
+    "naver_blog": [
+      {
+        "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
+        "description": "서비스 후기 보기 : 크몽/자소설닷컴 클릭 https://kmong.com/gig/371909 &lt;&gt;&lt; &quot; &amp; https://jasoseol.com/pass-coaches/26  자소설 닷컴 - 합격 코치에서 전문가로 활동하고 있습니다. 결제하기 : 네이버 스마트 스토어 결제... ",
+        "link": "https://blog.naver.com/goodlife_92/224224618278",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "임원도 단번에 합격!! 면접 전 태도/답변/마인드까지 최종 점검",
+        "description": "✔ 새롭게 바뀐 대한항공 기업 분석 ✔ 직전 합격생 스펙 &amp; 공통점 ✔ 영상전형 합격 팁 (답변/태도) ✔ 최신 자기소개서 작성법 &amp; 예시 ✔ 대한항공 면접 합격 전략 ✔ 최신 면접 질문 리스트... ",
+        "link": "https://blog.naver.com/doublejo01/224224372397",
+        "pub_date": "20260321"
+      },
+      {
+        "title": "2026 역사임용 합격수기, 인출 스터디 기반 체화 공부",
+        "description": "47.64 심층면접 ? 46.50 합계 ?(최종 탈락) 162.47(+0.38) 부끄럽지만 전공 과목을 과락부터 시작해서 합격까지... 저는 교육학이든 전공이든 항상 ‘문제 풀기(or 자료 먼저 읽기)-강의 듣기-복습’의 루틴으로... ",
+        "link": "https://blog.naver.com/myheeso/224223669111",
+        "pub_date": "20260320"
+      },
+      {
+        "title": "삼성전자 상반기 3급 신입사원채용 면접준비 기출질문 합격전략",
+        "description": "신입사원채용 면접준비 기.. : 네이버블로그 일단 금번 삼성전자 DX부문 26년 상반기 3급 신입사원... 저와 함께 면접을 준비하신다면 제가 대기업 면접관의 관점에서 합격비법을 전수해 드리겠으나, 혼자... ",
+        "link": "https://blog.naver.com/jinsimcoach/224222517967",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "농업정책보험금융원 면접 후기 PT 토론 올바른 준비방법(+심층)",
+        "description": "PT or 토론으로 1차를 진행하고 개별 심층면접을 통해서 최종합격 여부를 결정짓는데, 각각의 전형을... 아래 네이버폼을 통해 설문에 참여해주시길 바랍니다 현 상황을 빠르게 판단해서 필요 과정, 준비 시간... ",
+        "link": "https://blog.naver.com/bashinga197939/224222163525",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "CGV 미소지기 후기｜합격 자소서/면접, 꿀팁(현직자가 낋여주는)",
+        "description": "뭐 다른 미소지기 합격 후기에는 면접 때 롤플레이 시키고 미소지기가 무슨 뜻이냐 등 이상한 거... 면접 이후 절차 네이버 밴드 가입, MOS설치, 각종 서류 제출 면접 보고 난 뒤 매니저님한테 문자가 왔다. 1. CJ... ",
+        "link": "https://blog.naver.com/rjadmsehr1/224221386836",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "이스타항공 일반직 면접학원 실무면접 임원면접 통합면접후기",
+        "description": "줌 or 구글meet 이스타항공 면접 코칭 수업은 대기업/공기업 면접관 출신 코치님께서 직접 1:1 코칭... 대면 : 서울시청점 비대면 : 줌 OR 구글MEET  면접 유형당 2~3시간완성 추가적으로 궁금하신부분은 네이버폼로... ",
+        "link": "https://blog.naver.com/jobpass_/224220863509",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "2026년 피스트로랩 고객후기모음 - 01",
+        "description": "안녕하세요 단순한 문서가 아닌 합격을 만드는 포트폴리오제작소 피스트로랩 입니다. 그동안... 10곳에서 면접왔다면 믿으시겠어요?&gt; 모든 상담문의(카카오채팅방 or 톡톡) 카카오톡 오픈채팅 네이버 톡톡상담... ",
+        "link": "https://blog.naver.com/pyorisa_/224220846662",
+        "pub_date": "20260318"
+      },
+      {
+        "title": "[국세청 청년인턴 면접후기] 서류 합격 및 면접 질문 공유",
+        "description": "[2026 국세청 청년인턴 서류 합격 면접 후기] 채용 공고로 확인할 수 있는 대규모 채용 국세청 청년인턴... &lt;시간 줄이기 TIP&gt; 자료조사 네이버포털보다는 기관 홈페이지 &gt; 소식 &gt; 보도자료&amp;신문기사 모음집으로... ",
+        "link": "https://blog.naver.com/click_365/224220134995",
+        "pub_date": "20260317"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금... - 인스타그램 : @entry55_official - 네이버 지도 : https://naver.me/F7Ia6aOD - 티켓 안내 및 예약 페이지 : https... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "판교 개발자 연봉 현실 및 기업 분석 총정리 (네이버·카카오·엔씨·크래프톤 중심)",
+        "description": "판교 개발자 연봉 현실 및 기업 분석 총정리 (네이버·카카오·엔씨·크래프톤 중심) 판교에서 근무하는... 낮다 복지 및 근무 환경 연봉 외 요소도 중요 성장 가능성 향후 커리어 확장 가능 여부 조직 구조 자회사인지... ",
+        "link": "http://cafe.naver.com/smeinfobank/187",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "서비스부터 B2B까지 AI 전략의 두 축 공개…‘에이전트N’과 제조업 AX에 역량 집중 - 보도자료 l NAVER Corp.",
+        "description": "전략 방향성을 공개했다. ‘‘On-service AI’ 전략 통해 AI가 서비스 성장과 새로운 사업 기회로의 연결 확인 ‘단25’ 키노트세션의 오프닝을 맡은 최수연 대표는 “팀네이버는 지난 1년간 독자적 기술력으로...",
+        "link": "https://www.navercorp.com/media/pressReleasesDetail?seq=33527",
+        "pub_date": ""
+      },
+      {
+        "title": "최수연 CEO &lt;글로벌 AI 흐름과 네이버의 소버린 AI 전략&gt; 대한상공회의소 제주 포럼 대담 - 기업 및 서비스 스토....",
+        "description": "변화와 네이버의 소버린 AI 전략과 비전에 대해 이야기를... 대한 방향으로 많이 바뀌었다고 생각합니다. 최근 엔비디아 젠슨 황... 소버린 AI는 네이버가 글로벌 빅테크와 어떻게 경쟁할지, AI 시대에 어떤 사업을...",
+        "link": "https://www.navercorp.com/storyDetail?seq=31952",
+        "pub_date": ""
+      },
+      {
+        "title": "네이버, DAN 25서 'AI 에이전트' 전략 공개한다…기조연설 확정",
+        "description": "네이버의 사업, 기술, 크리에이티브 전략과 방향성을 확인할 수 있다. 지난해 개최된 DAN 24에서는 '온 서비스 AI' 전략을 주제로 검색, 쇼핑, 광고, 클라우드 등 전 분야의 초개인화 서비스 방향을 제시했다. DAN...",
+        "link": "https://www.etnews.com/20251023000297",
+        "pub_date": ""
+      },
+      {
+        "title": "7년 만에 국내경영 이해진, 네이버 AI 전략 새판 짜나",
+        "description": "기업으로서 네이버의 새 비전을 마련할 것이라는 전망이 나온다. 네이버는... 똑똑한 사람에 먼저 투자해야 방향과 전략을 바꾸면서 잘 나아갈 수 있다고 생각한다”고 말했다. 네이버의 스타트업 육성 조직인...",
+        "link": "https://www.hani.co.kr/arti/economy/it/1188837.html",
+        "pub_date": ""
+      },
+      {
+        "title": "김남선 CFO &lt;네이버의 1분기 실적, 글로벌 진출 현황, AI의 영향&gt; CNBC 인터뷰 - 기업 및 서비스 스토리 콘텐츠 ....",
+        "description": "생성형 AI와 관련된 국내외 사업 방향에 대해 이야기를 나눴습니다. Q. 네이버는 포시마크 인수와 함께 국내외 시장에서 큰 주목을... 커머스 전략 중 하나가 될 것입니다. 또, 네이버는 단순히 ‘글로벌 타이틀’...",
+        "link": "https://www.navercorp.com/storyDetail?seq=2057",
+        "pub_date": ""
+      },
+      {
+        "title": "네이버, AI 탑재 ‘비전 테크 트라이앵글’ 선보여…실감형 미디어 경험 강화 - 보도자료 l NAVER Corp.",
+        "description": "AI’ 네이버, AI 탑재 ‘비전 테크 트라이앵글’ 선보여…실감형... Service) AI 전략을 이어간다. 네이버는 16일(수) 사용자 몰입감을 높이는... 이로 인해 사업자와 치지직 스트리머 등 콘텐츠 생산자가 보다...",
+        "link": "https://www.navercorp.com/media/pressReleasesDetail?seq=33096",
+        "pub_date": ""
+      },
+      {
+        "title": "네이버 경영전략 2025: 5대 신성장 동력과 AI·클라우드 기반 경쟁우위 분석",
+        "description": "클라우드, AI, 콘텐츠(웹툰·동영상) 등으로 사업을 확장하며 국내 최대 IT 기업으로 성장했습니다.... 복귀, 네이버 AI 전략 새판 짜나” [공시]네이버, 2024년 4분기 실적발표: 매출·이익 동반 성장 [공시]네이버...",
+        "link": "https://contents.premium.naver.com/a18382/prism/contents/250501182508766sj",
+        "pub_date": ""
+      },
+      {
+        "title": "네이버부터 구글까지, 마케터가 주목해야 할 하반기 플랫폼 변화 총정리",
+        "description": "마케터에게 플랫폼은 단순한 광고 수단이 아니라 전략의 방향을... 넘어서 네이버 AI 시스템이 선호하는 형식, 주제, 흐름을 이해하고 반영하는 전략을 요구하고 있습니다. 카카오, AI로 메시지 흐름과 서비스...",
+        "link": "https://blog.naver.com/bluxofficial/223912076980",
+        "pub_date": ""
+      },
+      {
+        "title": "네이버가 미디어 사업에 사용하는 AI 기술",
+        "description": "스튜디오 비전스테이지와 모션스테이지의 모습이다. 네이버가... Service) AI 전략을 선언한 네이버는 올해 자사 미디어 사업 내 AI를 대폭... 네이버의 양방향 통신 기술과 라이브 스트리밍을 할 때 사용자의 반응을...",
+        "link": "https://byline.network/2025/07/0718-5/",
+        "pub_date": ""
+      },
+      {
+        "title": "AI 전략 통한 네이버, 분기 매출 ‘3조 시대’",
+        "description": "5일 경기도 성남시 네이버 본사 모습. 연합뉴스 사업부문별 매출은... 서비스와 AI를 접목하는 ‘온서비스 AI’ 전략이 실질적 효과를 거두며 호실적으로 이어졌다는 게 회사 측 설명이다. 네이버는 자체...",
+        "link": "https://v.daum.net/v/20251106060317263",
+        "pub_date": ""
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "네이버 신입 공채 합격 후기 3 (기업문화적합도검사)",
+        "url": "https://brunch.co.kr/@mingggu/8",
+        "description": "좋은 키워드 중에서도 <strong>네이버 기업 문화와 가장 어울리는 성향을 1~3개 정도 뽑아 → 우선순위를 정하고 → 이 컨셉에 맞춰 성향별 긍정도를 동일한 정도로 맞추는 것이 필요</strong>하다."
+      },
+      {
+        "title": "NAVERfficial - 네이버 신입사원이 다 대답해 드립니다",
+        "url": "https://fficial.naver.com/contentDetail/86",
+        "description": "2024 네이버 신입사원에게 듣는 입사 경험담"
+      },
+      {
+        "title": "2023년 상반기 네이버 기업 문화 적합도 검사 후기",
+        "url": "https://become-productowner.tistory.com/44",
+        "description": "(1) 네이버 문화: https://recruit.navercorp.com/cnts/culture ... 네이버 채용 페이지에 네이버의 가치(Value), 조직 문화(Culture), 사람들의 일하는 방식(People)이 잘 정리되어 있어서"
+      },
+      {
+        "title": "네이버 채용 - Naver",
+        "url": "https://recruit.navercorp.com/",
+        "description": "Different people come together to work as one · The best way to learn is to learn from the best"
+      },
+      {
+        "title": "취준생 선호 기업 1위 네이버 구성원이 되는 방법 '이것' - ZDNet korea",
+        "url": "https://zdnet.co.kr/view/?no=20240311215553",
+        "description": "송 리더는 &quot;네이버 안에서의 일하는 과정이나 인사제도, 문화들을 보면 그 배경에 상호 신뢰가 바탕이 된다&quot;면서 &quot;커넥티드 워크(근무 장소와 형태를 선택하는 제도)를 하는 것도 어떻게 보면 네이버 입장에서는 새로운 시도인데, 직원 개개인이 책임을 갖고 성실히 업무에 임한다는 믿음이 있기 때문에 할 수 있는 것&quot;이라고 부연했다. 그러면서 &quot;채용 과정에서 직무 역량만 갖춘 지원자를 선택하지 않는 이유도 마찬가지다."
+      },
+      {
+        "title": "인성검사 후기(기업문화 적합도 검사) - 가깝다/멀다 은근 헷갈리네 : 네이버 블로그",
+        "url": "https://m.blog.naver.com/blog_hy___j/222748002504",
+        "description": "그럼에도 합격률을 조금이라도 높이고자 한다면, 직무나 지원 회사의 인재상 등을 이해하고 약간은 고려하면서 체크하면 되겠죠?"
+      },
+      {
+        "title": "NAVERfficial - 네이버, 어떻게 입사했냐면요",
+        "url": "https://fficial.naver.com/contentDetail/112",
+        "description": "네이버 신입사원이 말하는 입사 비결"
+      },
+      {
+        "title": "NAVER LABS Careers",
+        "url": "https://recruit.naverlabs.com/",
+        "description": "네이버랩스 채용정보와 조직문화"
+      },
+      {
+        "title": "2024 팀네이버 신입 공채",
+        "url": "https://recruit.navercorp.com/micro/teamnaver2024/corporate",
+        "description": "HR 팀네이버의 성장과 도전에 필요한 인사제도와 전략을 기획하고 실행합니다. 비즈니스가 성공할 수 있는 효과적인 조직구조와 인적자원 배치, 노사 문화를 함께 고민하고, ‘일하고 싶은 회사’가 되도록 일하는 방식과 문화를 만들어 구성원이 성과를 내면서 성장할 수 있는 환경을 만들어 갑니다."
+      },
+      {
+        "title": "2025년 네이버 채용 기업정보 | 인크루트",
+        "url": "https://www.incruit.com/company/2225073/",
+        "description": "네이버 (주)는 인터넷·포털·컨텐츠·게임 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+      }
+    ],
+    "google_news": [
+      {
+        "title": "네이버 AI 전략 변화...LLM 실험 종료하고 쇼핑 에이전트 강화 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbDdZcWhidUNKcWpfTXB0Q1c5eFE2Z21aXzRMMHZZcmwzZ2s2c1BWeThDbXBzQlZzbXNfdzdZeTNiQzgxc0UtTExfNDlMeTBidmpEWGlhdDBjQ1MyUmZmTGZucVV6NUdlaExDY29QcjQyNnZUUXd5ODdFSVVWSUo4WUFRY9IBlwFBVV95cUxOTnUwWUJJcjQ1N19kOTktRDhORXFxamNFcl9kX3R6UTgxdkNRWUNaQ3NFOFhXRmtOVlpFR2Q1UHQ2SFRkeElsc3BSMFE1alRPMzdWUHc3Unk5R2Vlb3FyU251M3NIVWhFY3lRdFNUcGlXSEJYQlFva0hwZFY0QjM4SnFyNWhOVUlDek51b1Z1TS1ub0FNcUFj?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 09:00:00 GMT",
+        "source": "조선일보"
+      },
+      {
+        "title": "네이버·카카오 주총 '임박'...AI 수익화·경영 전략 시험대 - 테크M",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KdjFIajFEc3NKZ3A0Skp4eEl4VkxoTm5QTnFMWldVWE5wckc2R3JJSmw4RVBmeElBbHp1X1dVSEhDTm1NS3lScEloSWoydGoyYkU1YTNqV1N0ZUQtZWhlVzRwOWdsQdIBakFVX3lxTE9DYlpmRHpCVDczX0lDNm1BMlNqN2ZmSWIxUHlJNlZSUzdZQ1l3Q0dKNWhWelNmOTNteVhMbmJuaXBUZ3JNUGpIZldjUUFPUWlYa2JNZXlxdmFzUmh5RUkxcnctLXZyNU1fMFE?oc=5",
+        "pub_date": "Mon, 16 Mar 2026 04:49:31 GMT",
+        "source": "테크M"
+      },
+      {
+        "title": "[#클라우드 월드] 삼성SDS '인더스트리 데이' 개최·SK AX '엑스젠틱와이어' 공개·네이버클라우드 '케어콜 사회적 가치' 창출·CJ올리브넷 '상반기 신입 채용' - 뉴스웍스",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NbTJZNHFIdzNxbTNmaXg4R3V3UnBWTE9fOWlqaGpQb0VCQ2hHbHI4bTREYV9MZDNNU2lFRVl4OTEwZ2NrakstNmhrUjhKb2gyeXFNU0ZIWVdaOFNSTGNwQzZFVDNhdDVCOHNWaEhpUdIBc0FVX3lxTE83aUNOODlVNDZBQ1p1THp3Tkh1bXBfSE1CWkxiZnUyVndBeWNvdE81eWlibXZxZnZXVFowblZDQnlWZXVNdDZGckFCNHBvbHo3UVJMajdfeWVxNm5RWjhpb0VLWlc4R3htaXk4SkFuNlJTenc?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 03:52:01 GMT",
+        "source": "뉴스웍스"
+      },
+      {
+        "title": "\"코드 짜줘, 결정은 내가\"… AI 네이티브 시대, 당신의 몸값을 결정할 새로운 생존 공식 - 네이버 프리미엄콘텐츠",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZlFDZXRLVmVnc1ROaUVDa1ZXSTVKYk5EYlRBdzJGeWFxaXp6UkN1bVhieHJWRVhtQXNfcHkyZ1F4bkZDUmgtblNIMktHdU5iaDNRMkNZYThvamZTWTk0bnk1bDRBZWpxZ1hhQl8wMEFNaDZNSVhBRzlfM0d1akRyRy1DN2xiQQ?oc=5",
+        "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+        "source": "네이버 프리미엄콘텐츠"
+      },
+      {
+        "title": "‘소버린 AI’ 수출 속도…네이버클라우드, 경력직 채용 - 서울경제TV",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5GbDRZLWd5ZEphTHNjbm5BSnZ2MVVqdzdrYkl3dEFSZFFka2Vfei1vTGdUcm9HRkNKdXZra0k5ZlZIbWdRWFVxeF9XUUhlSmZLNnJUdmhkcC00bVE3OGNLV0xIOVY?oc=5",
+        "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+        "source": "서울경제TV"
+      },
+      {
+        "title": "\"코딩은 기본, '이것'도 잘해야\"…네이버가 찾는 'AI 인재' 기준은? - mt.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnZlRyYkFjdnB1Wjg1RFZublJuV1pQSTNZS19nM1ZlV2NDQWEySl8xTVA3WVN0TktldnVGeUljREJfWW1BOHR0YkxQc3c5WGlUN015MFFNX2FvbjllTG93bWdDY2NPeEE?oc=5",
+        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+        "source": "mt.co.kr"
+      },
+      {
+        "title": "내 자리 AI에 빼앗길까 두려웠는데…오히려 채용문 넓히는 기업들 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HNmhnYzNqQVZodEFJZm9jckIzNEJuYWxSRkV4V0UyVUNVSVI4TURJeFYzV0R4Z0dnR3dDc01tNU9iczZPT0RlekRES29rM281NzFJ?oc=5",
+        "pub_date": "Mon, 09 Feb 2026 08:00:00 GMT",
+        "source": "네이트"
+      },
+      {
+        "title": "상처 입은 네이버 AI, 신뢰 회복할까 - 한스경제",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ldkZtaWk5cExSaS1XQVk0eDFSc2xrVFdwV0oyQWU3a1puWUhuU05kcXBucGlhNGctdFZTWGlZSzlpSEJGWXZsOU9wNG5SZl9VM1JocUs5QmhDYUJmNVlSMXM1SE9VSDI5TzZz0gFvQVVfeXFMTXVGdTJtc0Z2SG5nT0xWYnBZci1Mc1dwWl9GWUtYLVRZYUgteFVaV24yMVdvc0dWVjN3TldpRUhSNVBhN1hRejFmcnJfZ1FZY3dOLUR0MktuX200WmNwcm1WR3BsNW1RbFpCemd0LS1J?oc=5",
+        "pub_date": "Mon, 19 Jan 2026 08:00:00 GMT",
+        "source": "한스경제"
+      },
+      {
+        "title": "\"사용자 경험을 현실로\"…네이버, 'On-service AI' 전략 고도화 '에이전트N' 공개 - 청년일보",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqRzM3Uk9Vd05jcnBhXzdxcmwxV2UydHpvYUlJanJwaVRzTWtTbFFCc2pGb1BFT3lJY1ZkVzJ3SHpJbFlsRWJKRlFJQ2dFUkhYUmJ2QTI5cW16N3h6WU9ZTl81YUxmUlk?oc=5",
+        "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "source": "청년일보"
+      },
+      {
+        "title": "네이버, 사우디 '슈퍼앱' 개발 속도낸다...중동 시장 공략 가속화 - 디일렉",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53dS14RjA3bjBIZVRMV1hXd0ZjcEtNWkVwZTRwR0ttMnF2dVNlRkpPRnlpbkdLRFFpdHhBQkFITXpEbTFFVmpvR3EzTUJzZUU2M3VzdFdxNUhaMUsxeGRIcUR0NGlsQQ?oc=5",
+        "pub_date": "Mon, 05 Jan 2026 08:00:00 GMT",
+        "source": "디일렉"
+      },
+      {
+        "title": "'가볍고 효율적으로' 카카오, 네이버 대규모 GPU 투자 맞서 라이트 AI 전략 - 녹색경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9SUUctMTg3U01PWlFsN2RBQ2xQbndXb010RGZEcDFqMEM2OHNtV3FfY25fWmtfTjlfck1pbGEwQzcwRU5IMEtEcGlsb0xlbnhrRXBHY0t4UFZvWFVuZi1KMF9oY3ZHR3N2?oc=5",
+        "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
+        "source": "녹색경제신문"
+      },
+      {
+        "title": "커뮤니티 부활시킨 네이버…‘AI 데이터 전략’ 본격 시동 - 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE44MTAtajNjeFU3SU9QdVMwX3l4aEZlclQxekN5ai1idTBjUWlmdVE1ZFFIeGRwWDBjZGwwQm1GXzNyTVRTVkkzakx2bkRmeklwSDdFenZ0YjVSNjd0U3lIdFFMQkR2VWxtWDVmakFMS1NwMXNMd2V6OUJB?oc=5",
+        "pub_date": "Wed, 31 Dec 2025 08:00:00 GMT",
+        "source": "한국금융신문"
+      },
+      {
+        "title": "엔비디아, 삼성·SK·현대차·네이버에 AI칩 공급한다…\"윈윈 전략\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94SVF5cGJYalFHZjd0ZFZfTWRNSTY4NFM3Tk1USmZDdVNHQi0zbHd1OFRiNWVpVURVbW1ZWTdxYVNzYkRqWC1NdlgyOXdNZ0ZQVXh3NmFFU1FTZW_SAWBBVV95cUxNOWN5NU1IZWtTb19kdmI4Q3MzeWRjakVYVzBMa3hPX0ZfcURjMUtVQTdWdk9IRXJHQTZkMEhOb0VVcmdJdXY3QUJKaFE0S2VrOWdFejk4YnNWSTlrVWU2SjQ?oc=5",
+        "pub_date": "Wed, 29 Oct 2025 07:00:00 GMT",
+        "source": "연합뉴스"
+      },
+      {
+        "title": "네이버, AI시대 개인정보 보호 전략 공개 - 웹이코노미",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFByZ05LZGU1RXVCQnJFT1BTU2RWR3laOVB5NE5lNG5TQ19QZEpRRGhudEZOMXN4d3FQVGptQ2U5M1NyN0gteXJpaDk4SXpEanJoTVlyNXQ4N0wwc3FudUp1d3BsbFNUa1l3UEdla2c3My13UQ?oc=5",
+        "pub_date": "Fri, 23 Jan 2026 08:00:00 GMT",
+        "source": "웹이코노미"
+      },
+      {
+        "title": "사업확장 속도내는 네이버… 구조조정 집중하는 카카오 - 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jS1dTYmFkUVJ5YXlqQkVRU1ctQVN4WWJzTnVIXzVRUi1pYU9kUVRrdklUcmZpQ2dRQ2g0THp3dGNvRmZxLXNpTFFPM2hBU1d3MU0xRTd6TElBWDE1d0ZfREZmX0t1VDZNdUs2RUVhLWotZkkt?oc=5",
+        "pub_date": "Fri, 05 Sep 2025 07:00:00 GMT",
+        "source": "대한경제"
+      },
+      {
+        "title": "네이버, 배송· AI ·핀테크 3대 축 강화…2026년 사업구조 대개편 - 네이버 프리미엄콘텐츠",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWlFFSWtXWExrZ2l3Uk1EOC1KUHgyUlpMSEpXY1d3SzNTY2psRFlCY3VfaXYxaC14T0xHdFJNN3J5NXdudVFYTkdCelM0cE9rbTR0ZEFYQXdodUp0VmE2bEU3VVdXYkN6Y0lRRUdZTE1vQXlhWXRiRXlrUm5xdzJXU3hvYmtFbjJv?oc=5",
+        "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+        "source": "네이버 프리미엄콘텐츠"
+      },
+      {
+        "title": "네이버, 연 매출 12조원…\"올해 커머스 사업 도약 가속\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16UDFfdU14NHhJUjdWcjA1Mkd4dUxjYmExTksyd1pnUVltWDQ1S01EUFV6QjFmcXlGc25rc0tTcUNBSk1ELV9qRHB3WVFHQVNxM2NESVFR?oc=5",
+        "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "네카오, 3분기 실적 ‘맑음’…장기 성장 ‘미지수’ - 서울경제TV",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUdG80c21ONUVGZWNmY3kydjFCQ2ZtRUI4d3J3bGdTc1dRamxzbXhheVNUUUdPTEdKcS15UnB1VC1KdFBRYTBmRHJnR0NDSWJnUkQ3SUdLVVJ6bkE5MlFHQ0h0bVM?oc=5",
+        "pub_date": "Thu, 23 Oct 2025 07:00:00 GMT",
+        "source": "서울경제TV"
+      },
+      {
+        "title": "정부 AI사업 탈락 네이버, 주가 약세 이어져···“재도전 검토 안해” - 동양뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vcnlBY0lPZGcyR3FoSXNsb0N2bXpzaV81UGZERHJsczhiMlV6bExkVEhfWEdmblhrYlJPVFh6MVRLakstd3hCVDhJRGJ2cEpUYkUxLVBVZlJRMVBwTGJrYg?oc=5",
+        "pub_date": "Fri, 16 Jan 2026 08:00:00 GMT",
+        "source": "동양뉴스"
+      },
+      {
+        "title": "네이버, 지난해 역대 최대 실적 경신...영업이익 2조2000억 넘었다 - 인포스탁데일리",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FMDRFTG9oc05ka2tfN282c0x5VHRRNTRTbUFJcEM1R2dtRGlScTcyelZ1VXFBVDdGZXZIRGlDWG9lOWJfTVc5QV9BZHZ0bk9QdFN6TkdZRHZnX0dIZlhsYWxYNlY2TFZLTUszQ0tuV294OUcxdHc?oc=5",
+        "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+        "source": "인포스탁데일리"
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "",
+        "url": "https://teamblind.com/kr/company/NAVER/review/9fOmILhgL",
+        "text": "블라인드 | 네이버Reviews - &quot;신입 공채온보딩기간에적는리뷰&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인네이버\n네이버*Rating Score*3.8*(3,826개 리뷰)*\n이회사리뷰하기네이버은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*5.0**\n*5*커리어 향상*5*업무와 삶의균형*5*급여 및복지*5*사내 문화*5*경영진\n*View detailed rating*\n# “신입공채온보딩기간에적는리뷰”***Verified User*현직원**· l\\*\\*\\* ·I",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "",
+        "url": "https://teamblind.com/kr/company/NAVER/review/w2SnLxrMEg",
+        "text": "블라인드 | 네이버Reviews - &quot;주니어가 커리어쌓기좋은회사(비개발 기준)&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인네이버\n네이버*Rating Score*3.8*(3,826개 리뷰)*\n이회사리뷰하기네이버은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*4*커리어 향상*3*업무와 삶의균형*5*급여 및복지*4*사내 문화*3*경영진\n*View detailed rating*\n# “주니어가커리어쌓기좋은회사(비개발 기준)”\n***Verified User*현직",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "",
+        "url": "https://teamblind.com/kr/company/NAVER/review/rAXMjFg7D",
+        "text": "블라인드 | 네이버Reviews - &quot;신입으로 들어가긴나쁘지않지만다니면서이직생각이드는회사&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인네이버\n네이버*Rating Score*3.8*(3,824개 리뷰)*\n이회사리뷰하기네이버은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*3.0**\n*4*커리어 향상*4*업무와 삶의균형*4*급여 및복지*3*사내 문화*1*경영진\n*View detailed rating*\n# “신입으로들어가긴나쁘지않지만다니면서이직생각이드는회사”***Verif",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "네이버랩스 기업정보",
+        "url": "https://www.teamblind.com/kr/company/%EB%84%A4%EC%9D%B4%EB%B2%84%EB%9E%A9%EC%8A%A4/",
+        "text": "블라인드 | 네이버랩스기업정보**블라인드**기업서비스\n# blind*Topic*\n# 검색검색글쓰기로그인네이버랩스\n네이버랩스*Rating Score*4.7*(128개 리뷰)*\n이회사리뷰하기네이버랩스은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n# 네이버랩스회사소개* **홈페이지**www.naverlabs.com\n* **업계**온라인 정보제공업* **본사**경기도 성남시분당구* **설립**2017\n* **직원수**-\n* **연봉정보**-\n더보기## 네이버랩스리뷰***Rating Score*",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "",
+        "url": "https://teamblind.com/kr/company/NAVER/review/MxmeO79ep",
+        "text": "블라인드 | 네이버Reviews - &quot;신입으로서 기초를배우기에는좋은회사&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인네이버\n네이버*Rating Score*3.8*(3,824개 리뷰)*\n이회사리뷰하기네이버은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*4*커리어 향상*4*업무와 삶의균형*4*급여 및복지*2*사내 문화*2*경영진\n*View detailed rating*\n# “신입으로서기초를배우기에는좋은회사”***Verified User*현직원**· j\\*\\",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "Naver sets annual revenue record in 2025, largely due to in-house AI",
+        "url": "https://koreajoongangdaily.joins.com/news/2026-02-06/business/industry/Naver-sets-annual-revenue-record-in-2025-largely-due-to-inhouse-AI/2518052",
+        "text": "(function () { var loaderUrl, scriptType; window._taboolaOS = (function () { var userAgent = navigator.userAgent || navigator.vendor || window.opera; var url = document.URL || document.location.href || window.location.href; var isWebView = /chromeless=true/i.test(url); if (isWebView && /android/i.test(userAgent)) { window.taboolaMobilePubName = 'joongang-global-koreajoongangdaily-app-and'; scriptType = 'tb-mobile-loader-script'; loaderUrl = 'https://cdn.taboola.com/libtrc/joongang-global-koreajo",
+        "score": 0,
+        "published_date": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "Naver tops $9.1B in revenue, bets on AI agents and fintech ... - UPI",
+        "url": "https://www.upi.com/Top_News/World-News/2026/02/06/biz-internet-giant-naver-annual-revenue/9721770429652/",
+        "text": "Naver tops $9.1B in revenue, bets on AI agents and fintech monetization - UPI.com\n\nTrending\n\nOil tankers\n\nHormuz deployment\n\nChina, Taiwan\n\n[Kim Jong Un](h",
+        "score": 0,
+        "published_date": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "네이버의 2026년 전략: ‘검색에서 실행으로’·‘커머스 확대 본격화’",
+        "url": "https://byline.network/2026/02/06_129873/",
+        "text": "네이버의 2026년 전략: ‘검색에서 실행으로’·‘커머스 확대 본격화’ – 바이라인네트워크\n\n[[웨비나] AI 시대를 준비하는 쿠버네티스]일시 : 3월 24일 14:00 ~ 16:00\n\n네이버가 2025년 역대 최대 실적을 기록했습니다. 네이버는 2025년 연결기준 매출이 전년 대비 12.1% 증가한 12조350억원, 영업이익이 2조2081억원으로 잠정 집계 됐다고 6일 밝혔습니다.\n\n지난 한해 동안의 사업 부문을 보면, 전 사업이 고루 성장했습니다. ▲서치플랫폼 4조1689억원 ▲ 커머스 3조6884억원 ▲핀테크 1조6907억원 ▲콘텐츠 1조8992억원 ▲엔터프라이즈 5878억원입니다.\n\nAI를 중심으",
+        "score": 0,
+        "published_date": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "2026 네이버 전망 — 핵심 사업 구조와 AI 성장 포인트",
+        "url": "https://samdoltrader.com/naver-2026-outlook-ai-business-structure/",
+        "text": "2026 네이버 전망 — 핵심 사업 구조와 AI 성장 포인트\n\nhttps://samdoltrader.com/wp-content/cache/breeze-minification/js/breeze_naver-2026-outlook-ai-business-structure-1-601-js-js-front-end-breeze-prefetch-links.min.js?ver=1770824807\n\n안녕하세요. 5년 이상 실전투자와 산업 분석을 꾸준히 이어오고 있는 삼돌트레이더입니다.\n\n국내외 산업 변화와 기업 전략을 함께 공부하며, 복잡하게 느껴질 수 있는 내용을 조금 더 구조적으로 정리해 보기 위해 이 글을 작성했습니다. 이번 글에서는 2026 네이버 전망을 중심으로, 네이버의 사업 구조·시장 포지션·기술 경쟁력·재무 흐름 등을 차분하면서도 깊이 있게 살펴보려고 합니다.\n\n네이버는 검색·광고·커머스·콘텐츠·클라우드·핀테크 등 다각도의 플랫폼을 운영하는 국내 대표 디지털 기업입니다. 2026 네이버",
+        "score": 0,
+        "published_date": "2025-12-15T00:00:00.000Z"
+      },
+      {
+        "title": "What is Growth Strategy and Future Prospects of Naver Company?",
+        "url": "https://matrixbcg.com/blogs/growth-strategy/naver",
+        "text": "What is Growth Strategy and Future Prospects of Naver Company? – MatrixBCG.com\n\nNovember 17, 2025\n\n# What is Growth Strategy and Future Prospects of Naver Company?\n\n### Naver Bundle\n\nGet Full Bundle:\n\n| BCG | $15 | $10 |\n| --- | --- | --- |\n| 5 FORCES | $15 | $10 |\n| CANVAS | $15 | $10 |\n| [4P's MIX](https://matrixbcg.com/pr",
+        "score": 0,
+        "published_date": "2025-11-17T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "NAVER releases open-source AI model HyperCLOVA X SEED",
+        "url": "https://www.linkedin.com/posts/dongsoo-lee-45028017_naver-has-officially-released-its-open-source-activity-7320813470411563008-sKXJ",
+        "text": "NAVER releases open-source AI model HyperCLOVA X SEED | Dongsoo Lee posted on the topic | LinkedIn\n\nAgree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and [Cookie Policy](https://www.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_coo",
+        "score": 0,
+        "published_date": "2025-04-23T00:00:00.000Z"
+      },
+      {
+        "title": "NAVER Open Source",
+        "url": "https://naver.github.io/",
+        "text": "NAVER Open Source\n\nSkip Navigation Skip to menu Skip to content\n\n## main content\n\n### Open Source Project List\n\nGo to GitHub Go to WebSite\n\nScroll To Top",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "",
+        "url": "https://github.com/NaverCloudPlatform",
+        "text": "# Organization: Naver Cloud Platform (@NaverCloudPlatform)\n\n- Website: https://www.ncloud.com\n- Location: Korea\n- Followers: 132\n- Public Repos: 57\n- Created: 2017-12-06\n\n---\n\n## Top Repositories\n\n| Repository | Description | Stars | Language | Last Updated |\n| --- | --- | --- | --- | --- |\n| Navix | NAVIX(네빅스) Bug Tracker | 211 | | 2024-12-12 |\n| terraform-provider-ncloud | Terraform NaverCloud provider | 119 | Go | 2026-03-10 |\n| ncloud-sdk-go-v2 | | 24 | Go | 2025-09-02 |\n| ncloud-sdk-python ",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "GitHub - naver-ai/elmi-monorepo",
+        "url": "https://github.com/naver-ai/elmi-monorepo",
+        "text": "GitHub - naver-ai/elmi-monorepo\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\nSearch syntax tips\n#\nProvide feedback\n \nWe read every piece of feedback, and take ",
+        "score": 0,
+        "published_date": "2024-06-30T00:00:00.000Z"
+      },
+      {
+        "title": "네이버 D2 - 기술 블로그",
+        "url": "https://www.velopers.kr/blog/2",
+        "text": "네이버 D2 - 기술 블로그\n\n# 네이버 D2\n\n게시글 139개\n\n총 조회수 10,679회\n\n마지막 업데이트: 2026년 3월 5일\n\n블로그 방문 공유하기\n\n## 최근 게시글 (139개)\n\n모든 블로그 뒤로 가기\n\n## FE News 26년 3월 소식을 전해드립니다!\n\nFE 최신 소식을 모아 전했습니다. React Foundation, CSS Day, Claude Code, TypeScript·Next.js 관련 주요 업데이트를 다뤘습니다. react CSS TypeScript Next.js Vite 네이버 D2 • 2026년 3월 5일 • 90FE News 26년 3월 소식을 전해드립니다! react CSS TypeScript Next.js Vite 네이버 D2 • 2026년 3월 5일 • 90\n\n## FE News 26년 2월 소식을 전해드립니다!\n\n[26년 2월 FE News에서 웹퍼블리셔 용어 유래와 React",
+        "score": 0,
+        "published_date": ""
+      }
+    ],
+    "international_news": [
+      {
+        "title": "Naver's payment arm to acquire South Korean crypto exchange operator in $10 bln deal - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTmgyQXVtSzA5TC1raHlTWnM4bXB4QU9JZ0M2cFEzYl9IOUNCOUZ5Z2xvS1d4aXRHVlNNTzZ5dThUMXhSUTN5R2plclVYSHA0bi1xZEVLOHhsLW5DcDdyb2NGb1FxTEhISUc0M3JCc0lRc1FCck5ZRzllQmdzcEhRR2FhLUkwd1V4eXlpYzB5THhWSHBHSk5IWWRtU0R2ZGtGZElMWU0zRDJ0Tkh4TTdmWEVpRHlVemM1Mlk5UE1kYWJmYW9jVWFDcGZNZw?oc=5",
+        "pub_date": "Wed, 26 Nov 2025 08:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "South Korea's Naver launches generative AI services - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNDgtRUJqdUhvNGdjek1xRDBlMzZSelA2eUtLYTFUeG9sRnZVRmVyaEJNMXJ0Q04tM0hlRGFJbHlwdk9rUVZSWlpLejc1U3lpM2tTXzB1RVNJQm9wOVBpcDRWSFE4eUhObktiWWRWMDd4dTZESFRKZHh3OFpCdGlWVV9GY0xnSEM4MUg0bWFtYTlTOHNENmFzOU1LZEdDZw?oc=5",
+        "pub_date": "Thu, 24 Aug 2023 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "South Korea's Naver buys U.S. Poshmark in $1.2 billion deal, invites skepticism - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaENoWU5uczladjBHVUhZRnVxOEhOTm5iSWJjTU5PZ3FSa3hkRi1nMmRFUXRrV1NOdEtRRThfcmVwUmF2QlZiWjUtb3FyWHdTOUpyRGstbndaS0pfZFlvNWZyNVNnaTdnN2VlZlEtNEhKdU1WYnBEalhvbXBCNEZDOFpKQ1p3MWxJZjl2ak4zOWliUjRsa2J1bHZwbUtMOFN4VXBiczh3?oc=5",
+        "pub_date": "Tue, 04 Oct 2022 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "035420: NAVER Corp Stock Price Quote - Korea SE - Bloomberg - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zVVZvdDFHdEFyb1hVTG9uXzVnMEJsUWVwbDd5TWRhRGZJTmx0YTEwNzBjSDJPV21CRWx1a0xzdEQ5ZGhFZll1RXB5UFpZeHE0OHNV?oc=5",
+        "pub_date": "Sat, 15 Mar 2014 10:28:48 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "NAVER Corp - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Gb0tGc0wteGZpU2Y3OTV2a1VhM25XeGQ1YmFlb0FsYmhsYzVQY1A3d1FqVC1qdUctOGtSZUQzZDAxOFdpNkVrTXZTSVk4Wlk5aXRNUW9rcE9NcGVFdTYtYw?oc=5",
+        "pub_date": "Thu, 28 Feb 2019 21:42:05 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Naver to Acquire Crypto Exchange Upbit’s Parent Dunamu - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTzh3NjE0TnpRNVg5ZkZpdVV1bEg5YTRselJnWUdnRXBNdTdEZTBEUFFIV1JZanM2Wk9XRW1fRUQ0QlJPYkIyODRfM1NhZ3R2ZEJCb0xiSVF2SFlLS09BX3BwOGJLclJFcWg4SWZBdEhDVkFJZmZfNkNGZWFWWWxZRnpkeW5FSFFHbHRfTVo3RmR0akp0VGV4dEY1WWM4QVFSM3RCR001VkM?oc=5",
+        "pub_date": "Wed, 26 Nov 2025 08:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Naver agrees to acquire fashion marketplace Poshmark for $1.2B - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcFdnTm4tVnVhX2Noc2UzTE9Bb1lqNy1iWHJUV214bS04LXlLMzJybi03RHppSXVleTFFYUFTVGpHZllHUHoyVzZFVFNCYUpuQm9ibkdleGU1cVFsQnVMWWFPbDg4YWprV1FkSFBFRjhYdm0tWFpXTEllSGNQS2l6YjdNaXdKWjh2YkFleFJZb3V4dlJNVDFURXdFc2k?oc=5",
+        "pub_date": "Mon, 03 Oct 2022 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Korea’s internet giant Naver unveils generative AI services - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSFdaT2Z2eHpGWnVjcVJDcjhfYUtzN1ZlUDh3dW9fdEFwWTdPbmpqb2dIUVVjcTBQRG1PenAxdkIxYmVvRXpOV3QtT1R6dnNBTjRnTVo3LXp3dkJFSTF3cGpxb2lZZUM3X1pfc05nMkIyQ2RKOVlqMnVPUlg5SjRiZUp5S3JFZlczLW1oUzB2VWp5Szdpa2lJYw?oc=5",
+        "pub_date": "Thu, 24 Aug 2023 07:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "South Korea’s Naver Z launches $100M fund for metaverse creators - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWmNRSjJvU2k4M3BCRVZ2OW54QWFyVVctRUVMMzI0S01maGk0bVBkNVBQSDFXaXJ1QzhMREZ6VExjNElsUWUzaDE2cE9jSUMtOGU4TG9HU0VaSGY5SFFtS0w5YlBCS29PVF9jY2xoSXE3N0pKeGdYeEhOcmJsNEJUbjZPc2tBOU41Qmlmc2cxODU1Q08zWk95bmFJSU12dw?oc=5",
+        "pub_date": "Thu, 27 Jan 2022 08:00:00 GMT",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "Naver Posts Record Earnings on AI Push - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxOX3JTR3ZFaEFmVzhzU1E4VGJVaThDMVhhbjRjOUozMmtqc0plWlR2UkhXWXVyUWJ3c3oxMjQtTnpMSGlCckpVd08xVGhYYXJfQUVCSndVci04V1d2NFBaM0oxMjVFN1BHd1JzOWFOSFQzTVhhQUZsZFZGbnVXb2dzRGNia1M0bEQ1Rm16dS1icWhvOHR1WXdDaG1Yc0JNaVRhdnlWZ1laZjEweVRIS1h6bHhsVGt6dDI5TExXa0ZwSjVGaW5lbFR1OHVZWGVIelNQMWFaczZmWHhCN2ZQeG0zUzVUanB6cXlOYXRCTzBwTHlBOHhiTlZtNTBrTC15UjNxWXhLTzdEVHZXcmdHUklYSDNOb0lVc0MtWS05QVJhenNRc1h2VW50NGpFN0VveXE2S1hrb3B4YllpU3g2dWowVzhHUWF1eWZzRmk0QzJMdTNTazdBUUtDRXNJRWJkVnpWLXhWMHlIYkpyajd0bzVKSDZoNm1VTzlKNWpieWc1RUwtS0Y2N25SWGRPbXF3bHR4ck5rZjFDcENUQ0Ju?oc=5",
+        "pub_date": "Tue, 04 Nov 2025 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Naver Posts Strong Quarterly Earnings, Record Annual Revenue - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMingNBVV95cUxQZlZvMnJ6NUhMM0JWcmhzVzFHWkFFSEhVMXYxWDV6UFkydWRWY1BJZ2s3WTlLc1lpZ3R0enlkNkcyM180VDMzLXU4R2loejBlX3QtdmVlVmFaUGxIenZ1R3VPRjlhb2VsLWxfMVMwcU9TRDItS0IxWUJFRlpIVlBiM3loXzFWOEJUMmNSUmd6NS1vZTR0WGhzOER1ZklqNHg0T3Z3WmJOdHNyTE9sZFg1OFRTSUM5MkRweWpEM0Nzd2VKUWdpVW9PWTdJYkdPNXY0RlZ2by1CdUxnSTZhYl8xMWRzZGxqQVJVTU1iZTI3cW5qUllSX0RfMVBJaWtHWklZWWNtd3liQmtIUWVQRDA1WVJNcmVZOVVBSGs1TE82d2hKcmRGVnZwTVZ4Q3VvZl9kOFVrUUdaVkQ3aUROZ3ZiWEN0MkwzaWlBVlA4WTdtMFMxZEJ2WW5uSWdlOGNORzZ6OGc2czJSN0EzWlhXdFpqdmhwN2hxQVJGNlJRVlBMNHc2NUdUaHJ5eWFrcDJRYnpMZ2hDQkxDQzBxRloxdHc?oc=5",
+        "pub_date": "Thu, 06 Feb 2025 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "Naver Has Record Year Despite Weaker Final Quarter - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxObjlfcnZ2NmE3WlJXcDNxQ1ZMWnd6a1JWWDZkeGYxWDV2T1EzamdjV0xhWU5IZGFXMUpDSHNETWtvSmdFNFI3czBpaC0tb2hFbkZKTUdtMzBGNjVpTzc4Z0dLcmQ3Vk1ldTFMMWI1T2V0al9NUGxRQ2hxWnktMDlsUFN4MXFBalpTZEh4eURZSzI5SWdXakUzNFJYTmFBbnZQdzVsSHkxVHc1b0hQdW9xazFHVUE5bS11dWZKS0FuVFg4VjJ4ajBtWHF5MS00YkNyWl9DbzVmTFdMR2sxcTFSU3duR0RjRm95VHVfUWJYSC1VdzRmVGxIcDI2eHdPSzM4TGw2LXVjNTV6WHBVd1YzRTNBMG9xblRKQ2ppWnVGTGN3a2ZNTTZ5THd0bWxleWFMb1dOSXBzNGZDclRrYWV5VmdnMnZnYkt1ZmZWVks0cUFJemFBUXZzRHdhbFBiNzNuTmo2SF9lYUpPYnJRalhmUzd6ZEM1SzRXOHNWMFdIbVhkWW5rRlRLQzg2M0JHXzA3a0RMcmNFTkRCdzYyeWlTNlBPZw?oc=5",
+        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+        "source": "Wall Street Journal"
+      },
+      {
+        "title": "South Korea’s Naver to target foreign governments with latest ChatGPT-like AI model - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sczB6czBHUzZYSV8ySlNtNzk2eHhDVExhT0I5ODdVWEt0VGRmZ1F6OF9odl9EcjVfeVMtcGtDbktkRWJtNzBqV3lYYUZsem1sTHREc2g0aHdNekpMYzB2b1FMMTY4WUVsd0o1MUdwVVE?oc=5",
+        "pub_date": "Sat, 27 May 2023 07:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Naver’s Rookie robots-on-wheels test new ways of office working - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HX19yd0NEWGpJWEhRa29iWVg4SmdMcTlNU3JWWGJGenpOVkRkMXJ6djFZS2J1ekR5ZTk4UnRXR1p6R2s0R2pZTEJYOVJrb0tWRGdYU1dQaWtyYmxWUG54Z0J6ak13VmYzVUdOc2xPNGE?oc=5",
+        "pub_date": "Sun, 24 Dec 2023 08:00:00 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Naver Corp, NHNCF:PKL profile - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02YU9GYnk2MEc3VmUwdWxvUmJ1blQ4bEE1X0pCMHUxSGphQ3ZIMlh2bmlnVUcxUnlKMlFVVUlsS2loR2FPWnNXNS1SZXRZcnc4MC1JeTJyT2FIOVhLa2lNdm9TZ2tmcy1fTEFCTExhSTNxN0Ix?oc=5",
+        "pub_date": "Thu, 28 Oct 2021 16:35:09 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "South Korea's Naver to maintain ownership of Line app operator - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTGNCaF9yTWRJYjVmeW51U1c0dl9MVXhnZjNTRXdaTUVsSkh3ZWthaVU5TERfaVI4Y3ZnR0tLbjFqV2k4Qm5qa1VBM0pYVndvSk1mTlpkS05EWmdjOFlSTjFxdV9TN3V3MDZoZXB3M04xUWVmQjFobFIxNkNpcGVtOTJHZUxPNzlaQUEtS3JOZ0VkZjU2MHJjRVkzdThDaWhwSGk3RF9td20xdw?oc=5",
+        "pub_date": "Sat, 10 Aug 2024 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "South Korea's Naver makes its biggest bet with crypto exchange deal - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT2xaTWFhZFk1QklQRTI0elNzdVpSeERJTVp0QjdGNmVJTkhoVFFGc2NobVVKS21lZ0xpNEFObThXQ3hQUUFUSERHN3B3NjdUaDlHQ3N3R2lKNUtTT1h4c3FDYlEwTFpzcW1HdzNCZWhvMjdPOUxNX1NlQUVscWRHRlBSd1I1Rm5ncHUtZENnSnJ4dUNEMFpEcndXa3RFZW1nbEZTRzF3YU96OVpPcWY5eWNwZld2RE9XQWc?oc=5",
+        "pub_date": "Wed, 10 Dec 2025 08:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "South Korea's Naver shifts data from Hong Kong to Singapore - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1kzWUlXSWNvTEpnQmlXWXk3T2Q0V0syY2REYmlGSUdYV1piclVFVS1QaFhOZUF4NDJBa0o5clAtSlg4N1FiMEFRTFA4N2d4MUxhUll4VFVvUGJ4LVBTOXFSWGx0V1lhQ0RpUkhmVkVBcldTVVJxYnNfdXVwT0YySUUxMy1ILVNyc2ExWDVHUnZ1Zk9pYVlTaXJQRDQtRXNmQ2tBVWNSOVlrek5Q?oc=5",
+        "pub_date": "Tue, 21 Jul 2020 07:00:00 GMT",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Why E-Commerce Disruptors Are Trading Like Brick-and-Mortar Dinosaurs - The Information",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcy13RFk2N2k1UEoyTWg0RC1RYUtvcENuamFJOG9hUkdIaUVKdm5TTHlJanU1Vl9VMU43S0QxcnFKZmVzUUtYWEdjTTYzQWtad25RUWJsVEd4VjdUOHhRZkFpeGw2SzJOMWRyLWNjZ19oak00UHVIUGdkV2lCNGlxcExnX1dURFJseE5QRFhRMktraHYtckNiSi1HQ1I3YzM4QlVTS1BicG5wY2xDSFE?oc=5",
+        "pub_date": "Mon, 17 Oct 2022 07:00:00 GMT",
+        "source": "The Information"
+      },
+      {
+        "title": "How the World Plans to Stop American AI Domination - The Information",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOGpFQ2ItaWpDelZ6RmVINTlIRWJYaG45LWJZbnBOTXRzSlpLWnFtWlZRaHEtaGZNcERMUUZMd2J3R3RZR3IzTTdaMUJUWjNpeUllcmYxQ095WDhLSXl3SFozRHFXbjIwM2NRRWJtaDZVM0Y3TXBlU1U5cXNCZlRfa1Q2R3FnWlRVMW9lcGJxdkxPbDVM?oc=5",
+        "pub_date": "Fri, 14 Jun 2024 07:00:00 GMT",
+        "source": "The Information"
+      },
+      {
+        "title": "The Ex-Twitter Employee Going Viral With Vegan Food - The Information",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVlprOC1WVzBuUVBBUl9XejdfMWd5NHQ4cmJHQjNSUHd1MWFLSFFTR0hPVkR6WXFITFpuMWxMVXNWNzRkU1E5T0RNOXJ2NC1wZmZWMjdMRnllS09nTExjdkllU1F4RmJ1RG5NOERJLTA5aC1iOUFkX3dvbE1IcGZTNlBiS1JzS0V2LW43T29vZUY5V201RkxvX3hOdDg4eTNITEhrQUtIV1BxZUM2S0xv?oc=5",
+        "pub_date": "Wed, 05 Apr 2023 07:00:00 GMT",
+        "source": "The Information"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "리사수 AMD CEO 방한…18일 삼성·네이버 찾는다 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HVEdlQXh5R0ZpTzJvSFZHM1dBNy1qWUV6SF9oX2ZyWXdQcnBXTVNlamk4NVo2bW5UR0dqXzFLMXZncWJkM2dQeGJWY3RXcGQ0U2pEd2ppcFNHZ9IBVEFVX3lxTE9FRVRNc0dzVTE1UGczTHpKS0dxSTR1cENXTXQ1OUQzTGV5dG0tcXlWb0EwNEtSTVJ6eFU4MWNYUDQyOWgyLWhBajI5SHI4SThBQkRidA?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 08:53:57 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "네이버·미래에셋까지 흔드는 가상자산 2단계 법…쟁점 3가지 - 매거진한경",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EdnVqbUt0eXpWYXRVZG5hbHVKY1VkaUllQWkwNlh4ZHZpdFA1UlRQVThBakNzODVQUEZ2Q0FzaEc0Uk96Y0hwMFFIMkpfeE1tM01kaFlpYXdUV3ViT08xelQ3UVVWbWFncFFHSw?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 21:00:00 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "네이버, 선거철 정치 기사 댓글창 숨긴다 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iTEtxbHkwUFA4TGp4UnNtdDhRZk00dVk4NUVZaWl1Y3lwcFdLTVhUTFBZZGJmY3Q4bnVkMXY2VFN6clNCSDNQV29NRkd3UjhtUVdwUTBabDNId9IBVEFVX3lxTE8tY1lBMlRpY29pNExUa2xQSWk0Vkg2ejhBaEpqdnE0UFdtZDhCbW1wSjVFV1ZNT3ozalVxeFpVZWdudkFQamhUMXRJemQ2VlRvVm03ZA?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:47:26 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "네이버, BTS 컴백 광화문 공연장 실내지도로 구현 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWVFLTEx0cmp1Z1NLOS1lU1prMlVQZy1vMHV0aGttVjNtYlNkT1gyQ0xHT3JNdkNaMFpPZzdZLVlrc1JlRThza056Szh1dEV2STRaa2dqOTB2cjdUNkdmSjJ2WktwVFVNLXJweEFnMFJvUUJJb3V2T3p2bE5pdXZIeFVB0gGWAUFVX3lxTE9YMl9PRFRpTTNDQWh4YmdEMDZEOEZGcUVWU195Y2NiMHdHanRIOEtQZTkwSEJHX0RsSU1BdzVTOHNLVjRtRTlnTUIxX2JfVmdHLTBVSTc2ZGVrZnlzcDRxcFpBUWZQaUJiZmJ3NXVNbmRtY3VpeGNKamdIU2JZXzdMV1FHM0s3eGRGRjREWldVUTRnY0pFZw?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 05:21:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "네이버 6월 지방선거까지 정치·선거 기사 하단 댓글 닫는다 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORzVaakdFNVg3Sjg4LUpjZjhYdFhOLUdtY1piamM1QlB0Qi0tak5tSVE0WGxzaUV1ZTU4U1phZzluLWpQYXpVSGVxSHJKQWZyRnFvQ1lHMXk0V05OejNranM3NTdwQjNueTRlSTNCOXZqX2RnUW1FS3V5d2ZXVmVzenl30gGWAUFVX3lxTE16eWxfN3NoTTI3a0RsSTBIckhwbmplQzE0TGJWeElqZ0NpX193c01hN2VxTFdhYWRqbVZxNHBPbHl6TFR0ckZsU2Y4NFQ2bVVjaHJpV1ZZa0NLQzA2cUtNbXpBVDdXd0I2aDNlQjZyc0hVRlRRTk9KQ3VCaEhVQlkwMjFwcmk5VXV0QXFJSDZ6Mjd5eUlrZw?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 01:53:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "네이버클라우드 “AI 안부 전화 ‘클로바 케어콜’ 지난해 사회적 가치 340억 창출” - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPekxSdUNOWHlYLTBmd0xycHNDbDVKM0tCSF9VYi1yTV9aX1EtanEwSmh1NmRjVlFqUWlIVnFBRWRrUnpWaE1hTzlqUnlwM25IeEd2ZWNhbUhMVW84TTdDd3VtOUJwX1dSQWJSV1dhTlNwbzd1T3BWNWVXcUI0amdpZzZR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 02:01:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "'네이버실명가입인증 Ⅰ상담텔ㄹ𝔹𝔸ro𝟘𝟙𝟘Ⅰ 토스가입방법 틱톡라이트판매,MJJh' 검색 결과 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMikwRBVV95cUxOTExxSGJxX1JkM0pCVS1saE44N1JNWEJXVGNOZXYyNkRrQzhYSjF2LXd1WkNGR3V2ZkhWaEU4eGZEd1BZSXJQVHQ5VmJfY1dZYzlUbU5TUFl4ODBZRDVqRnVnM1o0NjNub1hacG5CY2FIYmNOV1EzdGtTTGJfTlV3ZG1aZjMtMHo0OFQ1QXU3dUhnQmhGMGpFUXpzUlBZUXNXMVFLd2RjN2l0ZXl0by1pMG5ROThFT0JlLVh3VUNtMl9LSjdOR3ViMFF0d0tQY2lXMTdwTW14TUFueWhTcHkyUmV1bmVWU1RubUJzS1FjVmNFaXRrLXhKaTMwWk5HU2o2aGkxMnFsZkVfWkNtb0xqd2RHXzNieHUxLXJjei0xQXFNcDJ4QmdLSnNNalpSRE5fcFF6bFNEZHVjVnIxenh0U0V5dzVmakZzakdEa3NfcGFfMWlRT0dyRVVSX0pWaW1JbjZiSVFCU3FiUmg4M1I4ekZMX2NYREE0SEd6Y085Z0prOUZjTjB2SnZfSHVCVHNwYnpHNzd1bHl0WXNiY0hudkp2R1FFSzNocmZ4N0J5b0hnbmZiNmR4bkxvS2thUWpETlBMQWY5dFQxZC00bkwwQ3k4U0dmQXJ6Y1BNczVyQm4tSGV3Rm81T1hsMlNfODNCSUhNSllBTEZxazk3akJfemxMbTFqRmI4cEVRMzJaUlY3S3M?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 19:39:16 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "대학 창업팀 다 모여라···네이버 D2SF, 캠퍼스 기술창업 공모 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5mQUdTeTJKTEhXZU52dzd1SkdMWTAtY3NVRnVpdDZGQmNnTXFCNGg4akp3RHUxN24wNlFrWmgxUjM0bXhxdE0tUFFVdDY5dw?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 00:17:45 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "BTS 광화문 공연 현장 정보, 네이버지도에서 확인하세요 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyemJyckUzN2FBcFVLdDE0YkgzcDJWdXpjZnhFendNLS1zOFdQYW03VlRTQ3I4MjFhbkE4NldLTEpZNjRidW1TMndQVWVlUQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 00:11:29 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "리사 수 AMD CEO, 네이버 방문...최수연 대표와 협력 방안 논의 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjZEpiblYwaVc4eUNyNFptSTRldk0xdWVfTWIxY09jR2wwRHhDYUE4dzdwdlZMeU5VYmRGZkNFc0Y0OHEwbjJUT1NDYWM1a002UUJwUkdB?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 02:56:06 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "네이버, AMD와 AI 인프라 협력… \"하이퍼클로바X GPU 생태계 확대\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CaWt1ajZIbTU5dlVWSDNlMmt6M25abjZfYjBJU1d5UGEwd1ZubXFMeTVpZFcxX1VfOGk3S2wyekNxR214YjhfZmhlOFBpSVNMNzROUXZ3?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 07:05:08 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "리사 수 AMD CEO, 오늘 방한... 네이버·삼성전자 연쇄 회동 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WWDUyM2JKVHhOTDg4d2VFSFRSY0liZVJBdGtTQUVlczM0UTl0R0IzdnpHSmcwR2FJeEZxX0EwR1BXeHMyal9wT2d0VGpOUnRFd2lpd3d3?oc=5",
+        "pub_date": "Tue, 17 Mar 2026 21:30:01 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "[현장+]네이버 찾은 리사 수 AMD CEO, 전방위 협력 발표 예고 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rbC01UFVPWmFJVUc2bmVEd3RiazdsYmpnUmlDbGp6ekVqYzAxRFJCOV80QW1OSHVaLW5LZ2FXdnloQm5MOWVUT3FNdnhBUUZ0TGdpeklGdEtSRFJkazBQNS1NSUtvd0Zi0gFsQVVfeXFMTVB5a0UzMm9BMGU1NFQ4VkMyM2JoY3gxQnNPVmljbV9XeU5kek5pLVF1dnRodVl4dHdZdVZ4ZzdDeUk4WFNlUGFzYnJQSy1MM3FSaVFoWGpvUDZZZHQyX2FpVUo3Y3NKa1g3OWxv?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 05:21:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[현장+] 리사 수 만난 네이버 최수연…'멀티벤더' 전략 가속화 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QVUItQmZzUFFzbUhBVXY3WDI2eVRNcmR5MzBwR1lNeEhqLVNnekd6S2VNc3owdFhENjdwSlFOLWhOak5nMXBiWG96YzZ4NkV0NDVaMDNtVS1aZUJLblNlSi1OVy0xWnpw0gFsQVVfeXFMT1U3ZkNBUkM0NF9WcXZsUVdQOVphcV9oY1lpaGV2cGxEcTZFU3NkVDhjN0hRclA0ZzZDNnVVci10djB4Ni11NFUxU0NsTmxWUUZiUll1QVdwN2VrRWlQOEhzMGY4RGhBTTRjaVd5?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 09:32:02 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[현장+] AMD 손잡은 업스테이지…AI 인프라 다변화로 네이버 추격 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5seTVWRDdKY3RJWENVZGl3Vm1vWEJXRnhseUZGUUdtYkJoQ0pzdENrVFFwS3ZnM0xkRE9wM0J2M2NDWjdPeTFwZURPMHlwMmVpSmRQa0FGcjJXaWNMbUtZNE9YeHBPM3lZ0gFsQVVfeXFMTVdrd3BQS29uenM1LVVTWmlXcF9hYnRmSlJZRzRDR2NqRHRpUUFIRkNHNFZtYlZPUGp6Q04td0U3M3lhSkxvWEZVWERrWmdYbXlraFBQdzF4RFBTR25kSHRNWWlLU3g3RUdRcFhT?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 02:29:26 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "첫 쇼핑 에이전트 내세운 네이버, 목표는 무엇? - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oWjYweWlnWjNSNGdIUTZudVBvd1BNY0tpZ2NuV0pKVWpiVk1vNG53RmNHcHVTQjQycEtIdVpLRjdXUndlZUhhbzg2OVd5aXBnVjY4a3VB?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 08:31:18 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "2026년 이커머스 3대 키워드는 무엇 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pb2toTF9pcVF6Xy1uT2dXNU91RVdUajRsQVZneVFYYUlyb3U2aUF4VWcybEZBb3JqbktkbFZwQzBMU0hKQkY0dzFuTU9TSEd5MERv?oc=5",
+        "pub_date": "Sun, 15 Mar 2026 13:48:56 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "네이버 방문한 리사 수 AMD CEO “협력합시다” - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tUEdDYzM5X21vR3l1X0NlQW4xTjJRUDVjMVhZaUJJRExQV201OVdmWDhPUTFyMXZnTF9VYnE4ZWwwM1N4Y1FRa1UxUm0zeDV5WWQ4bQ?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 06:34:58 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}

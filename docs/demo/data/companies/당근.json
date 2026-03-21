@@ -1,0 +1,653 @@
+{
+  "company": "당근",
+  "sources_used": [
+    "exa_search",
+    "naver_search",
+    "brave_search",
+    "google_news",
+    "credible_news"
+  ],
+  "result_count": 11,
+  "sections": [
+    "culture",
+    "strategy",
+    "tech",
+    "overview"
+  ],
+  "raw_snippets": [
+    {
+      "source": "naver_search",
+      "section": "culture",
+      "preview": "[블로그] 샘표식품면접학원 PT면접 임원면접 후기\n조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... \n\n[블로그] 기업분석/자소서작성가이드&amp;샘플/필기후기/합격면접답변샘플\n자, 우선 "
+    },
+    {
+      "source": "naver_search",
+      "section": "culture",
+      "preview": "[카페] [3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.\n외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.\n\n[카페] 서울3대 재즈바 entry55 사당점 바텐더 채용\n[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 o"
+    },
+    {
+      "source": "naver_search",
+      "section": "strategy",
+      "preview": "[웹] 요즘 당근 AI 개발 | 당근 팀 - 교보문고\nAI가 만든 파도 위에서 과감히 서핑하는 법 AI 에이전트, 프롬프트 엔지니어링, VoC 자동 분석, 운영자동화, 바이브 코딩 AI 검색과 추천까지 당근의 AI 활용 이야기\n\n[웹] 경기도, AI 9대 전략 ‧ 52개 주요사업 발표… AI 글로벌 생태계 1등 목표\n주요 사업 52개를 추진한다. 도는 ‘A"
+    },
+    {
+      "source": "google_news",
+      "section": "overview",
+      "preview": "[\"당근과 채찍이 재능을 죽인다\"… 구글·넷플릭스가 열광한 심리학자 - 조선일보] (Thu, 12 Mar 2026 18:06:37 GMT)\n조선일보\n\n[당근, AI로 다중 상품 판매글 자동 생성 서비스 출시 - 플래텀(Platum)] (Fri, 24 Oct 2025 07:00:00 GMT)\n플래텀(Platum)\n\n[\"냉장고서 당근 꺼내 줘\"...집안일 척척"
+    },
+    {
+      "source": "brave_search",
+      "section": "overview",
+      "preview": "[당근마켓_나보다 뛰어난 동료 선발이 채용 성공의 핵심 노하우]\n(주)중앙경제가 발행하는 국내 최고권위의 HR분야 전문매체\nhttp://m.hrinsight.co.kr/view/view.asp?in_cate=109&bi_pidx=33607\n\n[[당근] 당근페이 전직군 채용 | 공모전 대외활동-링커리어]\n<strong>지원자 분이 당근페이가 추구하는 문화, "
+    }
+  ],
+  "data": {
+    "naver_blog": [
+      {
+        "title": "샘표식품면접학원 PT면접 임원면접 후기",
+        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+        "link": "https://blog.naver.com/jobpass_/224222106115",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "기업분석/자소서작성가이드&amp;샘플/필기후기/합격면접답변샘플",
+        "description": "자, 우선 ✔정말 완벽한 국민은행 기업분석을 담은, ✔게다가 4개 자소서항목 완벽한 작성... 필기전형, 합격자 후기 및 면접 후기 &lt;미리보기&gt; KB 국민은행 핵 상세 유료 자료집  p.73 무료자료집 내용에 얹어서... ",
+        "link": "https://blog.naver.com/eunci87/224221936807",
+        "pub_date": "20260319"
+      },
+      {
+        "title": "한국외대/부산대로스쿨 합격수기(w.입시스토리)",
+        "description": "와 드디어 올리는 외대 추합하고도 2달 지나 쓰는 합격수기! 예 뭐.. 이미 개강했고요. 헷 다신 없을 이... 34점이 드라마틱하긴 한 건지, 메가로스쿨에 성적 상승 입시 후기 이벤트 참여했는데 신세계 상품권... ",
+        "link": "https://blog.naver.com/mjson0330/224218780246",
+        "pub_date": "20260316"
+      },
+      {
+        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+        "link": "https://blog.naver.com/ytjoo88/224215031143",
+        "pub_date": "20260313"
+      },
+      {
+        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+        "link": "https://blog.naver.com/ve_getable/224210299768",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+        "link": "https://blog.naver.com/label3548/224210103873",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+        "link": "https://blog.naver.com/fusekimo198735/224209926005",
+        "pub_date": "20260309"
+      },
+      {
+        "title": "제 48회 adsp 비전공자 3일 합격 후기/전략",
+        "description": "첫 컨텐츠는 가장 최근에 본 제 48회 adsp 벼락치기 합격 기록 및 전략 공유부터 시작해 보겠다. 시험... 시험 접수 탭 https://www.dataq.or.kr/www/main.do 응시 계기 왼쪽부터 한국전력, IBK기업은행... ",
+        "link": "https://blog.naver.com/m09084/224208259343",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+        "link": "https://blog.naver.com/ve_getable/224207830667",
+        "pub_date": "20260307"
+      },
+      {
+        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+        "link": "https://blog.naver.com/magicpaul7/224204238038",
+        "pub_date": "20260304"
+      }
+    ],
+    "naver_cafe": [
+      {
+        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+        "link": "http://cafe.naver.com/inhadigital/306",
+        "pub_date": ""
+      },
+      {
+        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+        "link": "http://cafe.naver.com/ibartender/110690",
+        "pub_date": ""
+      },
+      {
+        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+        "link": "http://cafe.naver.com/uworldexam/151745",
+        "pub_date": ""
+      },
+      {
+        "title": "한국은행 (Bank of Korea)",
+        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+        "link": "http://cafe.naver.com/smilejobs/768",
+        "pub_date": ""
+      },
+      {
+        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+        "link": "http://cafe.naver.com/grayjuinb/23",
+        "pub_date": ""
+      },
+      {
+        "title": "[20260320] copilot / chatgpt / gemini 대화록",
+        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+        "link": "http://cafe.naver.com/woodmanwriting/207",
+        "pub_date": ""
+      },
+      {
+        "title": "인천적십자병원 물리치료사 채용공고",
+        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+        "link": "http://cafe.naver.com/pinklqgzd/1923",
+        "pub_date": ""
+      },
+      {
+        "title": "2026-03-20 뉴스 정리",
+        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+        "link": "http://cafe.naver.com/todaybigboss/4858",
+        "pub_date": ""
+      },
+      {
+        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+        "link": "http://cafe.naver.com/uworldexam/149566",
+        "pub_date": ""
+      },
+      {
+        "title": "이재명 대통령 시대",
+        "description": "김 장관은 지난 14일부터 15일까지 16:59李대통령 &quot;문화예술계 밑바탕 튼튼하지 못해&quot;…지원 확대·정책 개선... 보건복지위원회 통과와 관련, 상임위원장인 더불어민주당 박주민 의원에 감사의 뜻을 표했다. 이... ",
+        "link": "http://cafe.naver.com/greenb0k6k/175853",
+        "pub_date": ""
+      }
+    ],
+    "naver_web": [
+      {
+        "title": "요즘 당근 AI 개발 | 당근 팀 - 교보문고",
+        "description": "AI가 만든 파도 위에서 과감히 서핑하는 법 AI 에이전트, 프롬프트 엔지니어링, VoC 자동 분석, 운영자동화, 바이브 코딩 AI 검색과 추천까지 당근의 AI 활용 이야기",
+        "link": "https://product.kyobobook.co.kr/detail/S000217613503",
+        "pub_date": ""
+      },
+      {
+        "title": "경기도, AI 9대 전략 ‧ 52개 주요사업 발표… AI 글로벌 생태계 1등 목표",
+        "description": "주요 사업 52개를 추진한다. 도는 ‘AI 비전 및 9대 전략’에서 ‘AI 휴머노믹스를 통한 포용·공존·기회의 경기도’를 비전으로 제시하고 산업, 도민, 기반 등 3개 분야에서 9대 AI 전략을 기반으로 한 52개...",
+        "link": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=s017&number=65686",
+        "pub_date": ""
+      },
+      {
+        "title": "“글로벌 생태계 1등 도전”…경기도 ‘AI 9대 전략’ 내놨다",
+        "description": "경기도가 인공지능(AI) 기술을 활용해 미래 산업 경쟁력을 확보하고 도민 삶의 질을 높이기 위해 ‘AI 비전 및 9대 전략’을 발표했다. 도는 올해 1000억원 규모의 예산을 투입해 총 52개 세부사업을 본격 추진한다. 23일 경기도에 따르면 이번 전략은 ‘AI 휴머노믹스를 통한 포용·공존·기회의 경기도’를 비전으로, 산업·도민·기반 3개 분야에서 △기회",
+        "link": "https://v.daum.net/v/20250423072401049",
+        "pub_date": ""
+      },
+      {
+        "title": "경기도, AI 9대 전략·52개 주요사업 발표… AI 글로벌 생태계 1등 목표",
+        "description": "경기도가 인공지능(AI) 기술을 활용해 미래 산업 경쟁력을 확보하고 도민 삶의 질을 높이기 위해 23일 'AI 비전 및 9대 전략'을 발표하고, 이를 실질적으로 뒷받침하는 2025년 주요 사업 52개를 추진한다. 도는 'AI 비전 및 9대 전략'에서 'AI 휴머노믹스를 통한 포용·공존·기회의 경기도'를 비전으로 제시하고 산업, 도민, 기반 등 3개 분야에서",
+        "link": "https://v.daum.net/v/20250423084915737",
+        "pub_date": ""
+      },
+      {
+        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+        "pub_date": ""
+      },
+      {
+        "title": "경기도, ‘AI 비전·9대 전략’ 발표…AI 글로벌 생태계 1등 목표",
+        "description": "위해 ‘AI 비전 및 9대 전략’을 발표했다. 도는 비전으로 ‘AI 휴머노믹스를 통한 포용·공존·기회의... 위한 AI 챌린지 프로그램(23억원), AI 기술기반 노인돌봄 사업(10억원), 대한민국 AI 국제영화제(8억원)...",
+        "link": "https://v.daum.net/v/20250423093110360",
+        "pub_date": ""
+      },
+      {
+        "title": "전 국민이 묻는 ‘당근이세요?’ 기획 비하인드",
+        "description": "최정윤 마케팅 팀장은 4가지 단계별 성장 전략을 듭니다. ① 발로... 작은 팀에게 필요한 것: 역할 분담과 방향성 ‘팀원이 몇 명이냐’는... 마케팅을 통해 저희의 비전, 당근마켓의 가치를 드러내는 것이요....",
+        "link": "https://www.folin.co/article/4909",
+        "pub_date": ""
+      },
+      {
+        "title": "‘당근’으로 서비스명 바꾸는 당근마켓…“하이퍼로컬 비전 강화”",
+        "description": "하이퍼로컬 사업 로드맵을 완성하겠다는 계획이다. 새로워진 당근 로고에는 당근이 추구하는 ‘지역... 황도연 당근마켓 대표는 “이번 리브랜딩을 통해 서비스 비전과 방향성이 사용자에게 더 명확하게...",
+        "link": "https://www.etoday.co.kr/news/view/2278621",
+        "pub_date": ""
+      },
+      {
+        "title": "당근마켓, ‘당근’으로 서비스명 변경...新 BI 공개",
+        "description": "이번 리브랜딩과 함께 지역 생활 커뮤니티로서의 서비스 경쟁력을 강화하고 속도감 있는 비즈니스 전개는 물론, 내실 있는 성장을 이끌며 하이퍼로컬 사업 로드맵을 완성하겠다는 계획이다. 앱을 켜면 새롭게 반겨줄 당근의 새 이름과 심볼은, 기존의 따뜻하고 친근한 이용자 경험은 유지하면서도 비전과 방향성이 더욱 선명해진 모습이다. 특히 새로워진 당근 로고에는 당근이...",
+        "link": "https://wowtale.net/2023/08/28/62449/",
+        "pub_date": ""
+      },
+      {
+        "title": "당근마켓이 이름에서 '마켓'을 빼는 이유",
+        "description": "이러한 당근의 새로운 비전은 함께 공개된 브랜드 공식 소개 영상 에서 보다 구체적으로 확인해 볼 수 있습니다. 영상에서는 아르바이트 구직, 부동산과 중고차 직거래 등이 강조되어 있는데요. 결국 당근은 중고거래가 아닌 다양한 생활 밀착 서비스 기업으로 자리 잡길 원한다고 할 수 있습니다. 물론 이와 같은 방향성은 서비스 출시 초기부터 여러 번 강조되었던 포인트이긴 ...",
+        "link": "https://www.tech42.co.kr/%EB%8B%B9%EA%B7%BC%EB%A7%88%EC%BC%93%EC%9D%B4-%EC%9D%B4%EB%A6%84%EC%97%90%EC%84%9C-%EB%A7%88%EC%BC%93%EC%9D%84-%EB%B9%BC%EB%8A%94-%EC%9D%B4%EC%9C%A0/",
+        "pub_date": ""
+      }
+    ],
+    "google_news": [
+      {
+        "title": "\"당근과 채찍이 재능을 죽인다\"… 구글·넷플릭스가 열광한 심리학자 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZm13YXRKRldLN3Bmencta2xvdTBGeE9VNjlwekVYcmVBT3V6SUZscGxzNHFTNjhneWUyVXVWaXk0dE5nc19LOXV6LXFCZjNwLV9ibkVnZ1NaVmc1c0RQcjY0RnFnVzlhMEZyc2ZteUZnN3dMQ2swYUJLUnd5aGdWSVgxcw?oc=5",
+        "pub_date": "Thu, 12 Mar 2026 18:06:37 GMT",
+        "source": "조선일보"
+      },
+      {
+        "title": "당근, AI로 다중 상품 판매글 자동 생성 서비스 출시 - 플래텀(Platum)",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE10ZVlGWWRsaGctLU4xRzBaMG93eEpteGQ3T05OUUpwQU0tV0EzY2dRNFhrdHBiTmZlUzBIUDQ0QXNiNzA3ZXIzcg?oc=5",
+        "pub_date": "Fri, 24 Oct 2025 07:00:00 GMT",
+        "source": "플래텀(Platum)"
+      },
+      {
+        "title": "\"냉장고서 당근 꺼내 줘\"...집안일 척척 LG전자 'AI 홈로봇' 첫 공개 - mt.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44Rkoxanc2MjVzZ0FTaG8tNlpjcVJjUUNscHhVRVNwV0FGQVNZOFotVUF1dWl2d3BLUTB0RnJZSU9EWmxKS2VfZjViMlJ4eUp6dWdsMjFxaGROcThHU19IR25mclNiZW4wMGdubg?oc=5",
+        "pub_date": "Sun, 04 Jan 2026 08:00:00 GMT",
+        "source": "mt.co.kr"
+      },
+      {
+        "title": "05화 우수 인재만 영입하면 고성과가 나올까? - 브런치",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9sOHFpZWlnSlRsQjZHZ3pRZlpLSFQ4WktkV3dIR2cxMFBqTUxWUERiS3kxVDM5OWU1MEFNZkNZcDhzOXBQb0E?oc=5",
+        "pub_date": "Thu, 27 Nov 2025 10:25:19 GMT",
+        "source": "브런치"
+      },
+      {
+        "title": "EU의 ‘당근과 채찍’ 전략 먹혔나... 구글, 독일에 9.3조원, 유럽 AI 인프라 투자하는 빅테크 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTmhsS3VVdFlYSzlrMzBTa1pqLWhhTGU4Q2RzVTdUSDE5VGJ1Vml4NUZTVVY0UURLZE9nLUM1RXVab2pCT1MxVDkzUlFWbm1Nb3hjNUQyUEpBTFNyb1VOMFNlZjd0M2Y5MjlHWjZIR1RkZ1hNTG5YNnktWHhjM0JwVlBRTdIBlwFBVV95cUxNSTdLdW1veGhHckxoMUZlTUxLa1pVei1FQ3gzY3ZYTFRoZW5rUllYTkljNjRVcERaZjRHME50bzU5QzB3M1Nmc2xGeGZOblFCaDd0YjVadzdXT3Y2dEJsWEtWbVlaYzY5d2g2NkJMVWhSVXdKRmVnZXRLbTNtX2hTU2VIMkVERzl6VXJ3M1licnBob1dFbjFF?oc=5",
+        "pub_date": "Wed, 12 Nov 2025 08:00:00 GMT",
+        "source": "조선일보"
+      },
+      {
+        "title": "[단독]'AI커닝' 허락한 컬리 \"개발자, 코딩시험 챗GPT 써도 된다\" - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ma3hyekhQV0VqMldnTkVZR3RhX0xNM1Vna1E3UXAxYUt3Z0ZxUEFqY1FIbngzaGtQT3JOWThSaEVzVUtRdmhmRm8zYW5GRW5uOTdaNGt3?oc=5",
+        "pub_date": "Mon, 09 Jun 2025 07:00:00 GMT",
+        "source": "중앙일보"
+      },
+      {
+        "title": "당근, ‘사기방지 국제 컨퍼런스’서 중고거래 사기 대응 전략 발표 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwVkhFRXpkd1BkVDM1RzY4UUdrLUdBVnkwVGktQXJseklmY091MXlVUTlMQVcwYWh6cEtCOVZ4S1FPbmJOaHNJXzkyQi00bTZqRUw3aVRB?oc=5",
+        "pub_date": "Wed, 17 Sep 2025 07:00:00 GMT",
+        "source": "지디넷코리아"
+      },
+      {
+        "title": "몰로코, AI 광고 솔루션으로 놀유니버스·당근 통합 마케팅 지원 - 헬로티",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Cc01UcjJGdC1YNjJGTFBIMmhrWk54U2NiMnZjUjFFOHhjNWVWR2Uwd2kxUGdsVlV0aUJvSGFXTVRPUlltUUlJbElpb0d3aDktRWVIT0dncTFJeHR1Q2NQRDln?oc=5",
+        "pub_date": "Tue, 15 Jul 2025 07:00:00 GMT",
+        "source": "헬로티"
+      },
+      {
+        "title": "삼성전자, ‘AI 포럼 2025’ 개막…“반도체·에이전틱 AI 미래 논의” 外 당근·플리토 [기업IN] - 쿠키뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjT2YwM1NiREtVRlNTSDVoN0dZVEdCQVIzYzFUR013NzBnaWhKSTVVSFREMmx0TzVOenZvQlRudG1FX0tQQThLMFpreTVZajl1cGhwT1RuVEt5ZmoxZi05d0RsYw?oc=5",
+        "pub_date": "Mon, 15 Sep 2025 07:00:00 GMT",
+        "source": "쿠키뉴스"
+      },
+      {
+        "title": "\"사람 대신 AI\" MS 해고 칼바람…韓도 초급 개발자는 설 자리 없다 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0ySkdHMVZJdGpXV0RWZUwyc2o4UFVFc05hM1JROUNDNXBrNUU4dUhEbVhJMDRDRUZBcmFhUnFid1Z3VTdVanZ0Z3h4QjhJOFpaMjhtUXMyb2wxNGtoMXhJX9IBeEFVX3lxTE9zOXozMzhGcl9POW8wTlhXbVU3ZkhCVkh2WXRYSnRBcy1mcFdtdGd6bE9CMG1OZFBscTRLX183TjZKcFE5eVRiUXdxNUpyMFFtOHRmWTE2M2wwT2p1bzNrQ2hvcy1MY3NjM2hMM24ycVgwaDlnN3otZg?oc=5",
+        "pub_date": "Sun, 01 Jun 2025 07:00:00 GMT",
+        "source": "뉴시스"
+      },
+      {
+        "title": "기업 AI 활용, 7가지 사례 (feat. 당근마켓, 드롭박스, Geek News) - 오픈애즈",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoaUVpeW5oYW9JT0lqZWpNdFNidEpnaGZibk1fM1pmc2EwTjVyNXRvMXlsWmg5SGdiRi1xSDB6NmdhRTNERDNzcEtxRjNHTjE5TlItSXRzN0Z3VUQ2YnE1WGlxa3NsSHVB?oc=5",
+        "pub_date": "Wed, 13 Aug 2025 07:00:00 GMT",
+        "source": "오픈애즈"
+      },
+      {
+        "title": "‘중고 플랫폼’ 당근과 번개장터의 갈라진 성장 전략 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZEtrUjJhSGxodUh1UURBVUQxd1NneTlLUURLZWRkcmRqd1psam1Vc29IZXB3THpPX1otUHZPS013LWR6V1hMbDh3TDhmU0FMUW1MVjM2TTYwV1hkalBia0dHYjBVSnZMMk13QXpBdjd3ZHkzdFdXRVBMQ0JXaTl0SEpicnZRQ0kwcXfSAZ4BQVVfeXFMTlhMYjVXV3JXVWxXcnpmSkRvdHJxNUd2WGZuSUwtVTI5ODducVh4dEFrLWdlSFEyTmpveVFuV0htLVlVSGZGTWJ3VDFaTkNycGlYakE5UnMtNVhxUkRERDN5a056RXFnSER4SU5jZ2VXLXFma0ZSM21sa0VnNlBCbXlUUG9ZZEZES1dORmNvcHV3QkZadzZ2alVnOWVENHc?oc=5",
+        "pub_date": "Wed, 15 Oct 2025 07:00:00 GMT",
+        "source": "Chosunbiz"
+      },
+      {
+        "title": "캡스톤파트너스, 직방·당근 초기투자…유니콘 발굴력 입증 [VC 포트폴리오 레이더 (3)] - 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45dE5ibnM4QzAzYVVGd0VZNkJnRVRWQ3hFUG5yNk8td29EMkdUa1FLQnJtNGZZNG5nMFBfMlhlS3dlR0g1bnZkUnNTQnBGQm9JU2JuUHJ4NjV3dlc1RWdGcERndWFwbFg2ZGlxWmJHMmF2eUY3SFQtTUEwT00?oc=5",
+        "pub_date": "Mon, 16 Jun 2025 07:00:00 GMT",
+        "source": "한국금융신문"
+      },
+      {
+        "title": "당근마켓·다음·카카오페이서도 네이버 광고 노출한다 - 브랜드브리프",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KcWFMemhCN1RpUERja2ZGUXkwUU9qR2R6OXRUbjNXRnlyWkZfaUNqTkxUVU15LTJHLXczaGNwRzlXRW5FOU5rRUU4RDBGQm1IeDZQalV3c0FHWTk1QldJY1pBSXA4OXVtWnlEUmpn?oc=5",
+        "pub_date": "Wed, 28 May 2025 07:00:00 GMT",
+        "source": "브랜드브리프"
+      },
+      {
+        "title": "'숏폼' 힘 주는 당근, 앱에서 바로 영상 편집하는 '스토리 에디터' 출시 - 테크M",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Vc25XUndPb0NvWXd0WGtWd3F3NlFZTXpaelVtUXQ1Tl9MRTFzeDNUS3ZiZlh3bGdkNUt0QWZtUHhDSnlYQUJnTGpvclg4VTB2NC1memJ3R0pBYUpZZzFXeWJva0REQdIBakFVX3lxTE5oNGdNTlA0Mmc3TVR1cUpJYU9lZXJ3ZFBTVXlSc2V2ckpqbEZFXzFmQUFYS3kyQXF3clhodkhlVzcwMFpIWmdyQUZKRXoxRE5iQndVY0V2RGw5RG9wbGgyb1ZhTUpRYjhnQlE?oc=5",
+        "pub_date": "Thu, 22 May 2025 07:00:00 GMT",
+        "source": "테크M"
+      },
+      {
+        "title": "당근, 올해 매출 2000억원 돌파 목전…해외 사업 확대는 정체 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWeFg0dkQ5NVhRWjFYNDlvTVhUNlpVdE9DYnlteS1YYXlqWHViazdkeVQwU0phRWpIWkExY0dkbDZGZFBnQlFCWWJCTkY3UQ?oc=5",
+        "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
+        "source": "전자신문"
+      },
+      {
+        "title": "[당근마켓 톺아보기] 이진우 당근페이 대표, 수익다각화·실적개선 '특명' - 딜사이트",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BOHUxWC1BRzMxNGtqVnExUnIzanhfTVU0b0tJUlNkV1g5R1ZoZ1RPNUNMSjYyVlY1QXZVQnJ3U2lNV0VVX29EbTRIR0NkeWM?oc=5",
+        "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
+        "source": "딜사이트"
+      },
+      {
+        "title": "[재무제표 분석 192] 적자 터널의 끝, 폭발적 성장 궤도에 오른 '당근'의 2025년 상반기 성적표 - 네이버 프리미엄콘텐츠",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNanVicUNobEZkaW1wWDRZUEZjem9BWWl1bE8yM1oyODRoMl9GQzNuRGFpeDJRbm9Gd3JZWlR5YXk3bzdseGdjLWpScHpvYlg2SjUzb2VhQ0trU1lCWG16RGNEMTBvS2VqdDJOdk4teElJejRrdzhwaUpXVUo3UkQ4MVpPS1FBZw?oc=5",
+        "pub_date": "Thu, 18 Sep 2025 07:00:00 GMT",
+        "source": "네이버 프리미엄콘텐츠"
+      },
+      {
+        "title": "'창립10년' 당근, 호실적 이어갈까 - 톱데일리",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1Ty0xTGhpQUxrajJ3YW5DdjRqSDJ0YjFoVGJLTGRzd3BUYW1GU19wVHhvV0Z3WFBLSnpMYkJMaDRCOXFyWlRuX3lBUjY3VXoy?oc=5",
+        "pub_date": "Fri, 01 Aug 2025 07:00:00 GMT",
+        "source": "톱데일리"
+      },
+      {
+        "title": "당근, 1분기 영업익 164억원…작년 동기 대비 77.8%↑ - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01LXNsakoyT2dyN1VXWXplbVVKSXhUWnFfdF9VMHNHTWNLWHhma0lVdEVsZVkwdTlxY3d0dXJTZFIxVk95ME1QVXA4dHNZeUF0djRmY1EzNVZ5SWfSAWBBVV95cUxOSjZQM016ZEI2VGpnZllkNTAyZDE0ajV0X1lJbENOdkpGS280NjBSMlVPWUkyX3NOMVVvR1FBel9leDVERG5TOGd2Q1M1UTZ0SERxaDBfODUwdW9oMFdfakY?oc=5",
+        "pub_date": "Mon, 02 Jun 2025 07:00:00 GMT",
+        "source": "연합뉴스"
+      }
+    ],
+    "brave_web_results": [
+      {
+        "title": "당근마켓_나보다 뛰어난 동료 선발이 채용 성공의 핵심 노하우",
+        "url": "http://m.hrinsight.co.kr/view/view.asp?in_cate=109&bi_pidx=33607",
+        "description": "(주)중앙경제가 발행하는 국내 최고권위의 HR분야 전문매체"
+      },
+      {
+        "title": "[당근] 당근페이 전직군 채용 | 공모전 대외활동-링커리어",
+        "url": "https://linkareer.com/activity/153809",
+        "description": "<strong>지원자 분이 당근페이가 추구하는 문화, 일하는 방식과 잘 어울릴 수 있는 분인지 확인하는 단계</strong>라고 볼 수 있어요. 지금까지의 면접 단계에서 나눴던 포지션에 대한 전문성을 다시금 ..."
+      },
+      {
+        "title": "자주 묻는 질문 | 당근 채용",
+        "url": "https://about.daangn.com/faq/%EC%A0%84%ED%98%95-%EA%B4%80%EB%A0%A8/",
+        "description": "컬처핏 인터뷰는 당근이 추구하는 문화와 일하는 방식과 잘 어울릴 수 있는 분인지 확인하는 단계예요."
+      },
+      {
+        "title": "당근 채용 | 당근마켓 리크루팅 인턴",
+        "url": "https://www.superookie.com/jobs/62eb3eb88b129f043c552fff",
+        "description": "이런 일을 해요 - <strong>서류 접수, 인터뷰 일정, 전형 및 결과 안내 등 당근마켓만의 따뜻하면서도 특별한 채용여정을 효과적으로 관리</strong>해요 - 채용 과정에서의 커뮤니케이션(채용 전형/인터뷰 관련 문의)을 담당해요 - 다양한 방법을 ..."
+      },
+      {
+        "title": "당근이 채용할 때…\"당신의 일 온도는 몇도인가요?” - ZDNet korea",
+        "url": "https://zdnet.co.kr/view/?no=20240502223404",
+        "description": "당근이 다소 까다로운 채용 전형을 갖고 있는 이유는 분명하다. 지원자가 당근의 캐릭터, 즉 비전이나 가치에 대해 공감하고 있는지 제대로 확인하기 위해서다. 윤 리드는 &quot;백프로 다 맞출 수 없겠지만, 지원자가 생각하는 가치가 회사가 생각하는 가치와 얼마나 가까운지, 혹은 그 가치를 유지할 수 있는지 보려고 노력한다&quot;고 말했다."
+      },
+      {
+        "title": "(주)당근마켓 2026년 상반기 채용 | 328건 면접후기 3.6 면접난이도 | 잡플래닛",
+        "url": "https://www.jobplanet.co.kr/companies/342411/interviews/%EB%8B%B9%EA%B7%BC%EB%A7%88%EC%BC%93",
+        "description": "1. <strong>직급/직종 별로 보는 정확한 연봉 후회하지 않으려면 직급에 따라, 그 속 에서도 직종에 따라 달라지는 연 봉정보를 알아야 합니다</strong>. 회사 평균 연봉 같은 숫자에 당하지 마세요."
+      },
+      {
+        "title": "당근 팀 채용",
+        "url": "https://about.daangn.com/jobs/",
+        "description": "당근 팀은 채용 중! 빠르게 성장 중인 당근에 합류해보세요."
+      },
+      {
+        "title": "나보다 뛰어난 동료와 일하는 재미가 있는 곳, 당근마켓 | 원티드",
+        "url": "https://www.wanted.co.kr/events/22_03_s05_b02",
+        "description": "... 1) <strong>나보다 뛰어난 동료</strong> 뛰어난 인재는 자기보다 뛰어난 사람들과 함께 일하길 원해요. 함께 일하는 과정 속에서 많이 성장할 수 있고, 배울 수 있기 때문이죠."
+      },
+      {
+        "title": "당근마켓 기업정보 - 채용 8건, 평균연봉 5,864만원, 인원 557명, 업력 11년, 서울 서초구 | 원티드",
+        "url": "https://www.wanted.co.kr/company/2826",
+        "description": "당근마켓 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+      },
+      {
+        "title": "당근마켓 지원후기",
+        "url": "https://velog.io/@xylopeofficial/%EB%8B%B9%EA%B7%BC%EB%A7%88%EC%BC%93-%EC%A7%80%EC%9B%90%ED%9B%84%EA%B8%B0",
+        "description": "당근마켓팀에서 진행한 방구석 채용 라이브 의 QnA 세션에서 경력보단 실력을 본다는 CTO님의 말씀을 통해용기를 낼 수 있었습니다."
+      }
+    ],
+    "exa_culture": [
+      {
+        "title": "[(주)캐럿글로벌] 2026년 CARROT 신입/경력사원 채용 - 사람인",
+        "url": "https://m.saramin.co.kr/job-search/view?rec_idx=53093175",
+        "text": "[(주)캐럿글로벌] 2026년 CARROT 신입/경력사원 채용 - 사람인\n\n관심기업 등록 (주)캐럿글로벌\n\n# 2026년 CARROT 신입/경력사원 채용\n\n본 채용정보는 마감되었습니다.\n\n마감된 채용정보와유사한 채용정보를 확인해보세요~\n\n## 주요 채용 정보\n\n근무형태 정규직계약직 경력 신입/경력 학력 고졸 이상\n\n근무형태 정규직(수습기간)-3개월계약직\n\n더보기\n\n마감일 ~02/22(일) 마감 급여 회사내규에 따름 지역\n\n서울 용산구\n\n더보기\n\n- 서울 > 강남구, 서초구, 용산구\n- 대구 > 달성군\n- 경남 > 진주시\n\n근무일시 주 5일(월~금)09:00~18:00\n\n최저임금계산에 대한 알림*하단에 명시된 급여, 근무 내용 등이 최저임금에 미달하는 경우 위 내용이 우선합니다.\n\n- [채용정보](javascript:vo",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "당근 검색 개발자(서울, 대한민국) 채용중 | LinkedIn",
+        "url": "https://kr.linkedin.com/jobs/view/%EA%B2%80%EC%83%89-%EA%B0%9C%EB%B0%9C%EC%9E%90-at-karrot-2710775641",
+        "text": "당근 검색 개발자(서울, 대한민국) 채용중 | LinkedIn\n\n### 검색 개발자\n\n당근서울, 대한민국\n\n# 검색 개발자\n\n#### 당근 서울, 대한민국 4년 전 지원자 25명 미만 당근에서 이 자리인 사람이 누구인지 보기 채용공고 마감됨\n\n- [채용공고 신고](https://www.linkedin.com/uas/login?fromSignIn=true&amp;session_redirect=https%3A%2F%2Fkr.linkedin.com%2Fjobs%2Fview%2F%25EA%25B2%2580%25EC%2583%2589-%25EA%25B0%259C%25EB%25B0%259C%25EC%259E%2590-at-karrot-2710775641&amp;trk=public_jobs_ellipsis-menu-semaphore-sign-in-r",
+        "score": 0,
+        "published_date": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "title": "당근에서 커리어를 시작한 비전공자 개발자 이야기 | 당근 블로그",
+        "url": "https://about.daangn.com/blog/archive/%EB%8B%B9%EA%B7%BC-%EC%A3%BC%EB%8B%88%EC%96%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%8B%A0%EC%9E%85-%EC%BB%A4%EB%A6%AC%EC%96%B4/",
+        "text": "당근에서 커리어를 시작한 비전공자 개발자 이야기 | 당근 블로그\n\n# 당근에서 커리어를 시작한 비전공자 개발자 이야기\n\n2023-10-24\n\n안녕하세요, 저는 프론트엔드 소프트웨어 엔지니어(Software Engineer, Frontend)로 일하고 있는 Jason이에요. 당근은 비전공자 출신인 제가 처음 커리어를 시작하게 된 회사인데요. 제가 회사를 선택할 때 중요하게 생각했던 요소들은 무엇이며, 궁극적으로 당근을 선택한 이유, 그리고 저는 이 회사안에서 어떻게 성장해 왔는지 주관적인 경험을 담아 얘기해 보려고 해요.\n\n저는 당근에서 6개월 동안 두 번의 인턴십을 진행했고, 그 후 지역사업실 플레이스 팀에 합류하기로 결정했어요. 함께한 지도 벌써 1년이 더 지났는데요. 회사를 찾고 인턴십을 진행하며 제가 회사를 선택할 때 고민했던 요소는 다음과 같았어요.\n\n- 성과에 대해 보상 받을 수 있는가? 보상과 복지는 당연히 중요할 거예요. 회사를 살필 때 이 부분을 아예 보지 않는 분은.",
+        "score": 0,
+        "published_date": ""
+      },
+      {
+        "title": "[당근마켓] 정상호 피플팀 매니저 : \"나보다 뛰어난 동료 찾아요\": 면접에 진심인 당근마켓의 채용 이야기 : 좋은채용기업 찾기",
+        "url": "https://goodcompany.or.kr/39/?bmode=view&idx=18135477",
+        "text": "[당근마켓] 정상호 피플팀 매니저 : \"나보다 뛰어난 동료 찾아요\": 면접에 진심인 당근마켓의 채용 이야기 : 좋은채용기업 찾기\n\n더보기\n\n게시물 알림\n\n내 글 반응 내가 작성한 게시물이나 댓글에 다른 사람이 댓글이나 답글을 작성하면 알려줍니다.\n\n공지사항 사이트에서 보내는 중요한 공지를 실시간으로 알려줍니다.\n\n- 마이페이지 로그아웃\n\n로그인이 필요합니다. 로그인\n\n좋은 채용 기업들\n\n- 대한민국 공공기관\n- 대한상의 공정채용 명시 기업\n- [노동부 선정, 공정채용 우",
+        "score": 0,
+        "published_date": "2024-02-22T00:00:00.000Z"
+      },
+      {
+        "title": "당근마켓 다녀보니 어때?",
+        "url": "https://hajoeun.com/2022/review-of-working-for-daangn",
+        "text": "당근마켓 다녀보니 어때?\n\n# 당근마켓 다녀보니 어때?\n\n2022.08.21.\n\n이직 기록을 나눈 지 3개월이 흘렀다. 요즘 지인들을 만나면 \"당근마켓 다녀보니 어때?\"하는 질문을 자주 받는다. 오늘은 그 질문에 대한 답변을 정리해봤다.\n\n## 문제 공감도\n\n3개월 전에 당근마켓을 선택하며 문제 공감도가 높은 점수를 받았다고 했었다. 당시에는 당근가계부가 제시하는 지구를 살리는 일에 공감한다고 했지만, 이는 일종의 부수 효과(Side Effect)였다. 다른 문제를 해결하다 보니 따라온 것이었다.\n\n당근마켓이 풀고 있는 진짜 문제는 이웃과의 무너진 신뢰를 회복하는 일이라고 생각한다. 이를 반영한 의지가 제품 곳곳에 투영되어 있다. '매너온도'라는 신뢰 지표가 대표적인 예다. 개인적으로 마음이 통하는 친구들과 마을을 꾸리고 싶다는 꿈이 있었기에 이웃과의 신뢰를 회복하는 일에 공감하며",
+        "score": 0,
+        "published_date": "2022-08-21T00:00:00.000Z"
+      }
+    ],
+    "exa_strategy": [
+      {
+        "title": "당근, AI 투자 고삐…올해 R&D 500억원 넘는다 - 전자신문",
+        "url": "https://www.etnews.com/20250903000271",
+        "text": "당근, AI 투자 고삐…올해 R&D 500억원 넘는다 - 전자신문\n\n## 당근, AI 투자 고삐…올해 R&D 500억원 넘는다\n\n발행일 : 2025-09-03 17:00\n\n공유하기\n\n페이스북\n\nX(트위터)\n\n메일\n\nURL 복사\n\n글자크기 설정\n\n[가 작게](javasc",
+        "score": 0,
+        "published_date": "2025-09-03T00:00:00.000Z"
+      },
+      {
+        "title": "‘당근’이 AI 에이전트 활용하는 법 – 바이라인네트워크",
+        "url": "https://byline.network/2025/11/25_danggn-2/",
+        "text": "‘당근’이 AI 에이전트 활용하는 법 – 바이라인네트워크\n\n[[컨퍼런스] 2026 이커머스 비즈니스 인사이트]장소 : 서울 강남구 테헤란로7길 22 ST Center 대회의실2일시 : 3월 12일 12:30 ~ 17:00\n\n[[웨비나] AI-Ready DATA 전략]일시 : 3월 5일 14:00 ~ 16:00\n\n당근은 개인간 거래(C2C) 중심 중고거래를 포함해, 부동산과 중고차 등을 거래하고 동네 소식을 나누는 로컬 플랫폼이다. 월 2100만여명에 달하는 이들이 매달 당근에 접",
+        "score": 0,
+        "published_date": "2025-11-27T00:00:00.000Z"
+      },
+      {
+        "title": "북미서 이런 영어 먹히다니! AI 무장하고 페북 잡는 당근",
+        "url": "https://www.joongang.co.kr/article/25383694",
+        "text": "북미서 이런영어먹히다니! AI 무장하고페북잡는당근| 중앙일보**더 중앙플러스**\n* 로그인\n* 회원가입\n* 로그아웃\n* 마이페이지\n************\n**더 중앙플러스**\n간편로그인하고한결더편리해진나만의중앙일보를경험해보세요.\n로그인*로그인*\n* **님**의 마이페이지**\n* 고객센터\n* 더중앙 이용안내\n[![중앙일보 지",
+        "score": 0,
+        "published_date": "2025-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "[단독] 당근, 10년 만에 중소기업 딱지 뗀다...AI·글로벌 공략으로 '제2도약' - 파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202503311355593964",
+        "text": "[단독] 당근, 10년 만에 중소기업 딱지 뗀다...AI·글로벌 공략으로 '제2도약' - 파이낸셜뉴스 --\n\n공유하기 공유\n\n네이버 구독 구독 다음 구독독 구독\n\nIT IT일반\n\n# [단독] 당근, 10년 만에 중소기업 딱지 뗀다...AI·글로벌 공략으로 '제2도약'\n\n주원규 기자\n\n파이낸셜뉴스\n\n입력 2025.04.01 16:18\n\n수정 2025.04.01 18:04\n\n- 출력\n- 축소\n- 확대\n\n당근 제공.\n\n[파이낸셜뉴스] 지역 커뮤니티 플랫폼 당근이 중소기업 졸업 수순을 밟는다. 광고 매출을 기반으로 빠른 성장을 이뤄낸 당근이 인공지능(AI) 기술 도입과 글로벌 공략으로 스타트업 성공 신화를 이어갈지 기대를 모으고 있다. 1일 정보기술(IT) 업계에 따르면 당근마켓은 지난해 기준 관련법상 매출액 규모를 넘어 올해부터 중소기업 졸업 유예에 들어가는 것으로 확인됐다. 지난 2015년 서비스를 시작",
+        "score": 0,
+        "published_date": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "당근, 고객 보호 위해 AI ‘적극 도입’… 인공지능 활용 ‘선두주자’ < 식품유통 < 경제 < 기사본문 - 이코노미톡뉴스",
+        "url": "http://www.economytalk.kr/news/articleView.html?idxno=411755",
+        "text": "당근, 고객 보호 위해 AI ‘적극 도입’… 인공지능 활용 ‘선두주자’ --\n\n전체기사 포토뉴스 인기기사\n\n2026-03-05 14:22 (목)\n\nISSN 2636-0519\n\n--\n\n- 모바일웹 --\n- 독자투고\n- 회원가입\n- 로그인\n\n[식품",
+        "score": 0,
+        "published_date": "2025-09-09T00:00:00.000Z"
+      }
+    ],
+    "exa_tech": [
+      {
+        "title": "매번 다 퍼올 필요 없잖아? 당근의 MongoDB CDC 구축기 - Medium",
+        "url": "https://medium.com/daangn/%EB%A7%A4%EB%B2%88-%EB%8B%A4-%ED%8D%BC%EC%98%AC-%ED%95%84%EC%9A%94-%EC%97%86%EC%9E%96%EC%95%84-%EB%8B%B9%EA%B7%BC%EC%9D%98-mongodb-cdc-%EA%B5%AC%EC%B6%95%EA%B8%B0-302ae8a0dc23",
+        "text": "매번 다 퍼올 필요 없잖아? 당근의 MongoDB CDC 구축기 | by Seungki Kim | 당근 테크 블로그 | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fdaangn%2F%25EB%25A7%25A4%25EB%25B2%2588-%25EB%258B%25A4-%25ED%258D%25",
+        "score": 0,
+        "published_date": "2025-12-08T00:00:00.000Z"
+      },
+      {
+        "title": "당근페이 백엔드 아키텍처가 걸어온 여정. Money라는 하나의 작은 프로젝트부터 수십 개의 서비스를 하나의… | by Jeremy | 당근 테크 블로그 | Jan, 2026 | Medium",
+        "url": "https://medium.com/daangn/%EB%8B%B9%EA%B7%BC%ED%8E%98%EC%9D%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EA%B0%80-%EA%B1%B8%EC%96%B4%EC%98%A8-%EC%97%AC%EC%A0%95-98615d5a6b06",
+        "text": "당근페이 백엔드 아키텍처가 걸어온 여정. Money라는 하나의 작은 프로젝트부터 수십 개의 서비스를 하나의… | by Jeremy | 당근 테크 블로그 | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fdaangn%2F%25EB%258B%25B9%25EA%25B7%25BC%25ED%258E",
+        "score": 0,
+        "published_date": "2026-01-15T00:00:00.000Z"
+      },
+      {
+        "title": "Karrot’s Journey to CDC with MongoDB",
+        "url": "https://medium.com/daangn/karrots-journey-to-cdc-with-mongodb-e052b1c3ec9c",
+        "text": "Karrot’s Journey to CDC with MongoDB | by Seungki Kim | 당근 테크 블로그 | Dec, 2025 | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fdaangn%2Fkarrots-journey-to-cdc-with-mongodb-e052b1c3ec9",
+        "score": 0,
+        "published_date": "2025-12-09T00:00:00.000Z"
+      },
+      {
+        "title": "당근 테크 블로그 - 클로피",
+        "url": "https://www.clawfy.com/blogs/daangn",
+        "text": "클로피\n\n##### Clawfy\n\n로그인 회원가입\n\nLoading\n\n전체안 읽은좋아하는\n\nLoading...\n\ncontact@clawfy.com\n\n서비스 이용약관\n\n개인정보 처리방침",
+        "score": 0,
+        "published_date": "2025-10-22T00:00:00.000Z"
+      },
+      {
+        "title": "당근의 GenAI 플랫폼. 안녕하세요, 당근 Tech Core의 ML Applications팀과… | by Tommy Park | 당근 테크 블로그 | Medium",
+        "url": "https://medium.com/daangn/%25EB%258B%25B9%25EA%25B7%25BC%25EC%259D%2598-genai-%25ED%2594%258C%25EB%259E%25AB%25ED%258F%25BC-ee2ac8953046",
+        "text": "당근의 GenAI 플랫폼. 안녕하세요, 당근 Tech Core의 ML Applications팀과… | by Tommy Park | 당근 테크 블로그 | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fdaangn%2F%25EB%258B%25B9%25EA%25B7%25BC%25EC%259D%2",
+        "score": 0,
+        "published_date": "2025-12-19T00:00:00.000Z"
+      }
+    ],
+    "international_news": [
+      {
+        "title": "South Korean office workers hit convenience stores as 'lunch-flation' bites - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT3U2MXlIQ2FrTk52S1pKZXdZc1E4Tm1Ld1lOQkh3UFEyeU9wN3B4NUp1UmJ3Uk1ULTBOVUx1ZmQ1MHVZWkhUQkd6R2pfS0Y0S0JvVmZ2LVZuU20wUmZ5SWItU0RpSm1STkJUd1J0R3JVeHdaY0Z4dURTYXl4S1JvYUpsdGYyc245NXRKeUU2U1ExNXFyclFtLTNKdnFvRjVwRW14WmFHSkVnZWppNVYtX3hMUHVVR1FLOUViNA?oc=5",
+        "pub_date": "Wed, 29 Jun 2022 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Biden offers both a carrot and a stick to Israel as his term nears an end - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTVE2Y3RiV2ZhbzMyN0NpZnFkczJlQnE1RTY4dnJIdTdMNmFhQVlLMEQ5WnA3NU1FUDhLQW5CcEw5S0EyblBtcTQ1SG5KZDR6U1k3eXhIbkMtMWRFMHRUaC1rVzhXZ29qSEdVaEhYTEJhZGNUQmVPbmNlcGd6ZXFvTDA2TWZzd3g3Y1gtZlE5RTZkQ0dzTlNid1ZwX2RFVnFTOFZjLUhvOA?oc=5",
+        "pub_date": "Thu, 17 Oct 2024 07:00:00 GMT",
+        "source": "Reuters"
+      },
+      {
+        "title": "Tech Worker Turns Hobby Into a Startup Nearing Unicorn Status - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRzlqc3l0LXZFLVJ2ZEwxWEhJUDBjdUFEUW9qenk5T0hHMmd4V0hjR19laGQteFl2aGJvWEJiYTk3UUYxemw2NWVnWTluR2NyYWxLVmJPQnlmR3pvNnJfb3dtendGUVhzekhWSTZISmlzM00tWGE5UnZTZUpLZnRYZXd3a2dXdjdOcGFCS21FRXRfYUExWDJkRjd2bnpEWThNTnQtMDUzZGRhRnprWlhZRVBn?oc=5",
+        "pub_date": "Tue, 22 Dec 2020 08:00:00 GMT",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "SoftBank-Backed Karrot Becomes $2.7 Billion Korea Unicorn - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa0ZJbjZ6RmhoRkNtdThncG5LbnVKYzVEVHZ6UEtRZ2hVY2ZOazQ5Mm9UT0FfZ3hpMHZDVmxCQk5YUkV6czh2SzRrZUNMNWtZMy1NajN2cU12bGpwaEJMV014RHFCM1djSUFBa2NkSllFRW45cWVVTFRhS0p4RDFlQ004Yk5GcUs1TXRhZnFNeTZWcXRnSmNkZE9jd1dGOGZpdXJySGNzQlhOQTQ?oc=5",
+        "pub_date": "Tue, 17 Aug 2021 07:00:00 GMT",
+        "source": "Bloomberg"
+      }
+    ],
+    "korean_credible_news": [
+      {
+        "title": "\"당근에서 포장하면 할인\"…bhc, 배달앱 수수료 부담에 '결단' - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRWlJWTRsaThnTFJ4eEhxejR0MnBqYl9ZV0NFQ1dXcksxendFX01LZC1ERmJiUEhOY3FzbFdlZ1B0SmE1dld3dXVOMlYzbFdUSTJRVTd6UUNHWWZaS2lnU3BjNkpmeXZCcW1UQy14RjFUUGVsZjZfMHM0M0pTUzE1c1B5QUdCZEk?oc=5",
+        "pub_date": "Fri, 13 Mar 2026 00:24:32 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "\"당근거래 하다 '모텔살인女' 김소영 만나 \" 의문의 남성 등장 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZV3h6SUUtS0VwQTdMVUdQX1BNMWt5cWQ2RThHc3paamRhSWlyMWN2Tnk3R2Y3aUFOQmtDd0VrbGt5U2wzREpBNEJOU3JmOFdNMFVGdVBtbUR4d9IBVEFVX3lxTFBMWV93aWNERlUtOXpEQ2xTQjJaNUZ2ODNLLTRVYmNYc1VpYnlmc3FCZFNtTE44R3ZMU01tNTRDU2JsN3Y0WWVTSjlrVmZyeXlGX3Q3WA?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 00:22:10 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "\"당근거래로 김소영 만났다…소름 \" 의문의 남성 등장 - 모바일한경",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NSl9xaTE1NHRHbWI1Mkh2eGQweUNJYVBtMlBQYXJhWEgyamRfOFA3ejNLRms4YVZHWk84Z3R4U3BnXzB6NUpzNXBTelBCdXBRZXdQYmpfbURCb05mUm0wSHdPSGxtMzBVNm5qT21xRy1GWlNnbkdfTzJJNmVHU28?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 00:22:10 GMT",
+        "source": "한국경제"
+      },
+      {
+        "title": "GS리테일, 상반기 공개채용 실시 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMVg1OUhobzhZTXBiS3FjZE1tcHpIeE9UNGJIN1FudTlfUmNRNmQwRzJFdFhoSWRKX0g1eUVPZVhjNUV5bmJzYXdObkJPR1FhOVY2NnVWeUIzRU1ma2dwcFdMcFotRktfMW10OWIyMV9idEp4aWhUYlB5VjA0ZXZpWHh6dDNfbHR1QUHSAZ4BQVVfeXFMUHBGdVlBTGtBT3FETWJEYUdhdlV0MWRjcXJ6MkJFTnItUXE2Y1RZaVpwOUdKa3hzY1c4WW5SNHRMWnlKY2pEcjQ4RHdJVzJ0RFhWTkZVMzRkXzJUUXhfczRraGJKbGR2bTVQci12RjA3RGV3Sl9HM2Y4R3VaWnBZaFM5VHBlYk5ETVc2djBpREtzRndpVEZUakxRQ0tTRmc?oc=5",
+        "pub_date": "Wed, 18 Mar 2026 23:43:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "[데스크 칼럼] 당근 없이 옥죄기만 하면 ‘고의 상폐’ 유행할 수도 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM0VMcVpLT2tua1FKTXd5R00zdDRWQ2I1Q3h2Rl9DZ01BbWtudmVTUVE1b0FUb0NMLUpxRG1iQlVIVkIzbEdFQm5PcERXanlaWjNPUXhEYkRXWUdXSU0wVk1tN19qQ3BGSlJBVDdtRnpPUEtreldRVW9KVHNBbHF2Q0d2VGlOMTNX0gGcAUFVX3lxTFBYU0FrTEZpZmlXb0J2eENyWFZNUUVSWEVibmpuVFBndFBSaDFQWS1iZjZnLXZKYTY3ZDZPSkxINU9iTkFxQWhsZVhKVHBTX3UtZnJ5VWF0RDRpSjZrMmhfU1VnbGxnTUZpQVlSNUo5RWduWXNEcThQczhsZF9YRGd0cGgwcWdFVEVacUp0U0YwdF9GVlBpY0QxZVpLXw?oc=5",
+        "pub_date": "Sat, 23 Aug 2025 07:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "당근페이, 현장 결제 서비스 도입… 편의점·마트서도 간편 결제 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM1piSXdHRWtzT2FRejhjQlJfT05ZNExoczhJcDBJZHZWWXBoUm1FTGtlUmltS2luQ1FOM2dDRmh4UnM5d3RMMkZrVmNES0ZOMlQ0SWVIQnphcXRQX3hoU0UyQjFSWlJUcTdhbU5qZTRyc2JaVVhXcUc5a2tEQlVjbjVYLXFwSGRzdlHSAZ4BQVVfeXFMUDdHWVJZZTd0TE9COGZncEVzM0Rob29UeVpmOEJiOUhoZUV0TXU2QzN2OWxrUWZjRjkwUVNadnJsdFp5LWRwOGlxTEN6WWlLSWJCS1BZWkM1Qk1NcF9kc1dtOW1UOGdpc2NGbm52RkFyRTZJOTN4VE0zUmhtc2ZnUmRjSDRqUmNmSXR3TXljeVFjVmwzaFpyMGZLemJxNGc?oc=5",
+        "pub_date": "Mon, 30 Jun 2025 07:00:00 GMT",
+        "source": "조선비즈"
+      },
+      {
+        "title": "'토스인증 Ⅰ상담텔ㄹ𝔹𝔸ro𝟘𝟙𝟘Ⅰ 당근마켓인증업체 toss증권아이디판매,xBBw' 검색 결과 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxPRnpjN29QWTJhSkJHcEZnUk9oYVlCYkFScnhjMUt6Y1JKYUtQMUxLTUdOUFk2YzVTbFcxNnQ2VS1TN3c3bkpOeHcwMXV6di02S21xOVRXTWhoRERrRWZvdE1adWVXYXByLUNWQ3B6WUpydXpIWnY4N1VNeXB1WUJyRzc3VW4yNVFFa0tKZXpNQUw0SHNKWXZJTXdiVXFqc0Z6NW5KN1ItVDJYSVVQbWhEZFEtbVJOc3FoNkl5bVg1VGxIcmYxRXRlb0lGbkp1dDhyMjlWTjRlOHRXVDliZFhEY0ZwZ1k2aGNBNmhKdklleDNEYUYxLW5mejZPZmRtRXY5b1daNTV3N1hvaUlmb24xTjNPMmZiVzVPMl8tRnQ4Sm1GUTItU3VmVnlpQnlmQXpfN3A0RlpuR3h5SHhvYlpNTGxfYm9wUlM0eFFCenJVSHl5OXNLeFpnR0ZxaWIxbVFnUmxRWEo2UXZZdjB5OVFac2Y1WDZYN0JtOHZuWUJndDBBeWZDN01nUDhPX25nSG5YTE16cTNMTHk5WWdaSmxxaW1Od0pqZEhFVmQ3Z0hnMUV2akNmYS1XdVVYYUVhX3VkSEhJUFRKQ1NfUi1nRXB4NmJ5UXV1UmhTaFFOWmVlTXpPVldnbHhSTW93Zmc1QnExV0ZGLQ?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 18:22:24 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "'당근임대대여 Ⅰ상담텔ㄹ𝔹𝔸ro𝟘𝟙𝟘Ⅰ 당근마켓임대아이디판매 tiktok lite가입인증,FPQz' 검색 결과 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMimARBVV95cUxQWGJfT1ptcHlUX0ZHRXZmaHp6SGpadWJGaG1XZ2d1emphWVNaR1VmcXRsTGVoVi1hVVVuLTJoVHpKTjZWOWp6dU1JRXR2ZXV0cTJiZVFYdlk4NDlQc3EwdnVpalVSUFlLcjhjSnE0SXFpcDM0V1RUanBWTHI4ZFhVYXVuMGFxakZWbGpMUmRXVjJ4cHBOdXZseTFUSWZHeVBINE1ZWHpWZU1DV3dMUGEzLTVrVUhjbFJEbTlSVWs2WlNBQTVnallvamNjYmJrVUlBSENOX3VwODRwSkcwQnN5Nl82eTdiWWMzMm5pWWN2Z2VmYlc1NFU0SVpMcWpUWmlYZ1VzSXJTNHhrLWZMdXIwWTRxU2t2NWxWUmRYazRCbmV4WjR3ZWhnUDJnenVaM18yZUxReHNndTdqSXA5QWN2NGxZZE9RbmNrNzZHY2pRTURIWFBKMWluaG8zMy10ZTlPWVY1MUN2akt6Y1l3OV9Zd1B3VHpDeXh0RXRCcDRSQjBicTMtWWItU3paOXdLeUN3R1NwRkJuZk5kZHNYMDNnb0poeUFnaVRGZkFOclFjQzlOQTVTX1NmMG4ybnE3eU9TWkZzSjNVWmNfc3l5MTJOMnhsZ2pyR0ZKc0RFU0FBR2ZCRmJPN0tqaENVbm9Nb21FZ0RySWRiN0JLVWxVRkZ3ekN0ajlLbUR6Q0Jld2Y3ekh5b2RVdUhXdA?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 09:00:43 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "'네이버id대여 Ⅰ상담텔ㄹ𝔹𝔸ro𝟘𝟙𝟘Ⅰ 네이버중고나라인증 당근마켓판매,Ipss' 검색 결과 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxQREk3ZWsySG1ETDNmU2FoWkpkd0l4aVk5cGFMRE5YcV9rX2VwYlBrOW5MODRMUHJRTlRxd1NIa2JPV282VlRGX2YzQkNxSmtnTHJ6cF9Sd2pPSGRKU0dxV29SZllnTXRnRk41YlBITUM1OVQxRDlITUdEa3VzV3ducUhtMjhJXzVFeXE1QU5ORmNGMjJ2MHllRTBoaFdOeVdUMnVhZjROSC1hTnVrMnNJWHVsdi16Q1ZWMFlNTUdHbjV0SlhVVmI0REd6M1U3LTl5LTlsTE1NN0Q3MDhoczR1dnc0RXRZYU1NWE9HUklnLXo3WGVlcVFaSGI1RXdlSmtMLU5TNG5LNTJIY3k1Tkk4SEVZNERQdWM0ellJNDQza2wxYV91SkY4aGZiV0ZxRmJUNFowbW9tZEYyX1NaV3M5UmxaczFKdkZLTGRfeVJjSk01dkhZSFk0QkRMNnpkbEJaY1RTUzN5RzJzR0w1ZEN6aXE5Z1BoVUdSNXNaYm8tczdSbVV1NC0xQzRCdVZINU94dFZ6SjlqU2RQcFgxLTE5UGxRa3VDYmNmMEJvTzB5dXlZOGRUeG5wTkdnRFVhbWd3T0hqaC1zMm5YTjNuSEkzMjh3ajRhR3J3N1IzYl9xMWluTVVfVlVuZnFQcDNvNGZvbHFCUzNvYXhoTnlVclE?oc=5",
+        "pub_date": "Fri, 20 Mar 2026 07:40:12 GMT",
+        "source": "매일경제"
+      },
+      {
+        "title": "가까운 고객만 노린다…당근, 100m 단위 ‘핀셋 광고’ 도입 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13VExyVWgyWWEtVDgxbk5xaS1WSGVSakhrR1k5WmY2Z1EyLTVjdWdpaG1ueVJBQjRvZXVXRTJpYlZfRENfT3pIcE84Vm1UODhUWXNLZktR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 08:17:53 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "케첩과 어울리는 메뉴 찾아라…당근, 하인즈와 모임 개최 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1heHB1b1ZsTGFCWmY3TmxUczV5Y1JZRUpjLW5zc2hWUnZsUUxmZ1N3WmI0LVBCQTR0bjNia3BQd0NhWDdzcXhPSER1M1ktbE01b1RNb3ZR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 04:20:26 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "SK플래닛 기프티콘, 웨이브∙티빙 결합 이용권 출시 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KMU5mamEtSmVzLW4wSkFHVEYwenJ4dVhsaVYwMWZieVprUFIyUWgxOVpPMU0tMExEYmJUd1J4T3pRdHdHMkZUV29CS01fbHRPNGh1SFJR?oc=5",
+        "pub_date": "Thu, 19 Mar 2026 23:46:01 GMT",
+        "source": "ZDNet Korea"
+      },
+      {
+        "title": "하나마이크론, 주주 반발 속 인적분할 강행…당근책 제시 - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjRlA2LWh4b1FEV1J6V3UtMjJZNVdUN2NocERvNG0tNUJpSXR0RGFLZlJWbUl0ck04MThlZzN4bm12aFRJS2V1dkdiUC1ubHIzTjdKV2xJTnIwVjc0cXV1c2VRMWE5UWdZ0gFsQVVfeXFMTXhVeWs4QzVvYVBZd3NnT2ZDTUR1SlRMS04tTDdrdjdjaGtPUmR5TkVXXzhZZTFTNUJHZExRY0hPSmhBNU42aFQ4VWJLNFFHYjJnemhzeW95ZzhxbmRRWThYc20yRFMwZVM2NDlS?oc=5",
+        "pub_date": "Sun, 13 Jul 2025 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[책무구조도 프리뷰]② 영국 'SM&CR' 벤치마크…핵심은 당국의 '당근'과 '채찍’ - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94bEFITV96aVBkQzBxekFHdkhRSE8zQWNSOWlMUGFuM3djRW4zbGl0S0dHS0RJd2MxRVFJajU4ZlNHc3k3RGV4akFjQmtVUlhzVlFjU2M3NUxwVVlFWFc0R3FoVXphemQ00gFsQVVfeXFMUDJGM0t3dy1RcFBWS2dpRG1ibW9lVUdvWFJ4SlZ0VlEyX2E5WDBISmJ1UmNsMWVVYS1MSmstZ0NrY2FPeXpBOTJBajZUOUptQ3UyZXJjTlpqdzFzZ2ZFdm5Zam1rWHZtLU1ScTl3?oc=5",
+        "pub_date": "Tue, 05 Nov 2024 08:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "정부가 설비 갖춘 알뜰폰에 '망대가 인하' 당근 내세운 까닭은? - 블로터",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PRUVNbUVGb2Q5NV94dWhfM1B5Q3ZUaFpUOWJsb1RWRGY3cFJmb3FoM1FwdnR5ZXBtYTlkOXIwNFExZ2pkUzJMdlloRnhKRHBFc2U2bW1GdFpoTEVHc1VxS216eWZEeW9L0gFsQVVfeXFMT0JuczMydTlybHh5R3pNV19qbUt2WmRkbWxIS2JxQ1QxQWRVVE1LWm9PVmI0a1RLMkRzMlBnc2wyRHVENzVXQ0FwXzlnYnR1S3RIVTl2OTlPeFhiVTkxV3VOVXBFay1iYTBLeUs2?oc=5",
+        "pub_date": "Thu, 22 Jun 2023 07:00:00 GMT",
+        "source": "블로터"
+      },
+      {
+        "title": "[결정적 순간] 당근이 이메일을 버리고 지역 인증을 도입했을 때 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91bkdYRnZCVG84VnV5Zm1oSnFPRUpxLVFFbXZ2V2lHaG5nbmxBYnJ5a1hadDQxbllHa2pHMG83UHFBc1pXZzlzZXpyME1uLUU?oc=5",
+        "pub_date": "Tue, 23 Apr 2024 07:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "‘당근’이 AI 에이전트 활용하는 법 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vQ2tWb2NubDgxRHZXMTdwU0FJOGU0OTNVSm40N1kyeDJTN1RzYVk0OS1VWG1yblhJMVN0MEUycFRUZTRXNUY1aFphY0lNZk5JRFRXWUFB?oc=5",
+        "pub_date": "Fri, 28 Nov 2025 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      },
+      {
+        "title": "[커머스BN] 당근마켓을 ‘로컬콘텐츠 커뮤니티’로 완성하는 비즈프로필 - 바이라인네트워크",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EemltUkFhdTdra0NWeWhqbHBtcVRUZWdpTGwxOThfZHZjUWVlWHc3R2s2RGo4TUtlVWpfZEdwWFgzejc5M1BUVUFmQ1FvWGM?oc=5",
+        "pub_date": "Wed, 29 Dec 2021 08:00:00 GMT",
+        "source": "바이라인네트워크"
+      }
+    ]
+  }
+}
