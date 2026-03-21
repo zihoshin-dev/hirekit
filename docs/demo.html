@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HireKit Demo — Try It Without Installing</title>
+  <meta name="description" content="Experience HireKit's AI-powered company analysis without installing anything. Select a company, paste a JD, upload your resume — see results in seconds." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+            display: ['Syne', 'sans-serif'],
+            body: ['DM Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50:  '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              300: '#7dd3fc',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+            },
+            surface: {
+              0:   '#0d1117',
+              1:   '#161b22',
+              2:   '#21262d',
+              3:   '#30363d',
+              4:   '#484f58',
+            }
+          },
+          animation: {
+            'fade-in':       'fadeIn 0.4s ease-out forwards',
+            'slide-up':      'slideUp 0.4s ease-out forwards',
+            'slide-in-right':'slideInRight 0.35s ease-out forwards',
+            'bar-fill':      'barFill 0.8s cubic-bezier(.4,0,.2,1) forwards',
+            'pulse-dot':     'pulseDot 1.4s ease-in-out infinite',
+            'shimmer':       'shimmer 1.6s linear infinite',
+            'blink':         'blink 1s step-end infinite',
+            'spin-slow':     'spin 2s linear infinite',
+            'score-count':   'scoreCount 1.2s ease-out forwards',
+          },
+          keyframes: {
+            fadeIn:       { from: { opacity: 0 }, to: { opacity: 1 } },
+            slideUp:      { from: { opacity: 0, transform: 'translateY(16px)' }, to: { opacity: 1, transform: 'translateY(0)' } },
+            slideInRight: { from: { opacity: 0, transform: 'translateX(20px)' }, to: { opacity: 1, transform: 'translateX(0)' } },
+            barFill:      { from: { width: '0%' }, to: { width: 'var(--target-w)' } },
+            pulseDot:     { '0%,100%': { opacity: 1, transform: 'scale(1)' }, '50%': { opacity: 0.4, transform: 'scale(0.8)' } },
+            shimmer:      { from: { backgroundPosition: '-200% 0' }, to: { backgroundPosition: '200% 0' } },
+            blink:        { '0%,100%': { opacity: 1 }, '50%': { opacity: 0 } },
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-padding-top: 72px; }
+    body { font-family: 'DM Sans', sans-serif; background: #0d1117; color: #e6edf3; }
+
+    /* ── Nav blur ── */
+    .nav-blur {
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    /* ── Terminal chrome ── */
+    .terminal {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .terminal-bar {
+      background: #161b22;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid #30363d;
+    }
+    .terminal-dot { width: 11px; height: 11px; border-radius: 50%; }
+    .dot-red    { background: #ff5f57; }
+    .dot-yellow { background: #ffbd2e; }
+    .dot-green  { background: #28c840; }
+    .terminal-title { color: #8b949e; font-size: 12px; margin-left: 8px; font-family: 'JetBrains Mono', monospace; }
+    .terminal-body  { padding: 20px 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.9; }
+
+    /* ── Syntax colors ── */
+    .c-prompt  { color: #7ee787; }
+    .c-cmd     { color: #79c0ff; }
+    .c-flag    { color: #ff7b72; }
+    .c-string  { color: #a5d6ff; }
+    .c-comment { color: #8b949e; }
+    .c-output  { color: #e6edf3; }
+    .c-dim     { color: #484f58; }
+    .c-green   { color: #56d364; }
+    .c-yellow  { color: #e3b341; }
+    .c-blue    { color: #79c0ff; }
+    .c-orange  { color: #ffa657; }
+    .c-purple  { color: #d2a8ff; }
+    .c-border  { color: #484f58; }
+    .c-header  { color: #58a6ff; }
+
+    /* ── Step wizard rail ── */
+    .step-rail {
+      position: relative;
+    }
+    .step-rail::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: linear-gradient(to bottom, #30363d 0%, #30363d 100%);
+    }
+    @media (min-width: 768px) {
+      .step-rail::before { display: none; }
+    }
+
+    /* ── Progress line (desktop horizontal) ── */
+    .progress-track {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .progress-track::before {
+      content: '';
+      position: absolute;
+      left: 0; right: 0;
+      top: 50%;
+      height: 1px;
+      background: #21262d;
+      transform: translateY(-50%);
+      z-index: 0;
+    }
+    .progress-fill {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      height: 1px;
+      background: linear-gradient(to right, #0ea5e9, #38bdf8);
+      transform: translateY(-50%);
+      transition: width 0.5s cubic-bezier(.4,0,.2,1);
+      z-index: 1;
+    }
+
+    /* ── Step node ── */
+    .step-node {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      border: 1.5px solid #30363d;
+      background: #161b22;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      position: relative;
+      z-index: 2;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    .step-node.active {
+      border-color: #0ea5e9;
+      background: rgba(14,165,233,0.15);
+      color: #38bdf8;
+      box-shadow: 0 0 0 4px rgba(14,165,233,0.08);
+    }
+    .step-node.done {
+      border-color: #56d364;
+      background: rgba(86,211,100,0.12);
+      color: #56d364;
+    }
+    .step-node.inactive {
+      color: #484f58;
+    }
+
+    /* ── Wizard panels ── */
+    .wizard-panel {
+      display: none;
+    }
+    .wizard-panel.active {
+      display: block;
+      animation: slideUp 0.35s ease-out forwards;
+    }
+
+    /* ── Form inputs ── */
+    .hk-input {
+      width: 100%;
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 12px 16px;
+      color: #e6edf3;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none;
+    }
+    .hk-input:focus {
+      border-color: #0ea5e9;
+      box-shadow: 0 0 0 3px rgba(14,165,233,0.12);
+    }
+    .hk-input::placeholder { color: #484f58; }
+    textarea.hk-input { resize: vertical; min-height: 120px; line-height: 1.6; }
+
+    /* ── Company chip ── */
+    .company-chip {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: 1.5px solid #30363d;
+      background: #161b22;
+      color: #8b949e;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      user-select: none;
+    }
+    .company-chip:hover {
+      border-color: #0ea5e9;
+      color: #38bdf8;
+      background: rgba(14,165,233,0.06);
+    }
+    .company-chip.selected {
+      border-color: #0ea5e9;
+      background: rgba(14,165,233,0.12);
+      color: #38bdf8;
+    }
+
+    /* ── Upload zone ── */
+    .upload-zone {
+      border: 2px dashed #30363d;
+      border-radius: 12px;
+      padding: 32px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .upload-zone:hover, .upload-zone.dragover {
+      border-color: #0ea5e9;
+      background: rgba(14,165,233,0.04);
+    }
+
+    /* ── Loading stream ── */
+    .stream-line {
+      opacity: 0;
+      transform: translateY(4px);
+      animation: slideUp 0.3s ease-out forwards;
+    }
+
+    /* ── Score bar ── */
+    .score-bar-track {
+      height: 6px;
+      background: #21262d;
+      border-radius: 9999px;
+      overflow: hidden;
+    }
+    .score-bar-fill {
+      height: 100%;
+      border-radius: 9999px;
+      width: 0;
+      transition: width 0.9s cubic-bezier(.4,0,.2,1);
+    }
+
+    /* ── Score ring (SVG) ── */
+    .score-ring-circle {
+      transition: stroke-dashoffset 1.2s cubic-bezier(.4,0,.2,1);
+    }
+
+    /* ── Shimmer skeleton ── */
+    .skeleton {
+      background: linear-gradient(90deg, #161b22 25%, #21262d 50%, #161b22 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.6s linear infinite;
+      border-radius: 6px;
+    }
+
+    /* ── Tab ── */
+    .result-tab {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #8b949e;
+      cursor: pointer;
+      transition: all 0.18s;
+      white-space: nowrap;
+    }
+    .result-tab.active {
+      background: rgba(14,165,233,0.12);
+      color: #38bdf8;
+    }
+    .result-tab:hover:not(.active) {
+      background: #161b22;
+      color: #e6edf3;
+    }
+
+    /* ── Result panel ── */
+    .result-panel { display: none; }
+    .result-panel.active { display: block; animation: fadeIn 0.3s ease-out; }
+
+    /* ── Interview Q card ── */
+    .q-card {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 10px;
+      padding: 16px 20px;
+      transition: border-color 0.2s;
+    }
+    .q-card:hover { border-color: #30363d; }
+
+    /* ── Pill badge ── */
+    .pill {
+      display: inline-flex; align-items: center;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    /* ── Primary button ── */
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 11px 24px;
+      border-radius: 10px;
+      background: #0ea5e9;
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      border: none;
+      transition: background 0.18s, transform 0.1s, box-shadow 0.18s;
+      box-shadow: 0 4px 16px rgba(14,165,233,0.25);
+    }
+    .btn-primary:hover { background: #38bdf8; box-shadow: 0 6px 20px rgba(14,165,233,0.35); }
+    .btn-primary:active { transform: scale(0.98); }
+    .btn-primary:disabled { background: #21262d; color: #484f58; box-shadow: none; cursor: not-allowed; }
+
+    .btn-ghost {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 11px 20px;
+      border-radius: 10px;
+      background: transparent;
+      color: #8b949e;
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+      border: 1px solid #30363d;
+      transition: all 0.18s;
+    }
+    .btn-ghost:hover { border-color: #484f58; color: #e6edf3; }
+
+    /* ── Divider label ── */
+    .divider-label {
+      display: flex; align-items: center; gap: 12px;
+      color: #484f58; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .divider-label::before, .divider-label::after {
+      content: ''; flex: 1; height: 1px; background: #21262d;
+    }
+
+    /* ── Glow hero ── */
+    .demo-hero-glow {
+      background: radial-gradient(ellipse 70% 50% at 50% -5%, rgba(14,165,233,0.18) 0%, transparent 65%);
+    }
+
+    /* ── Mobile nav drawer ── */
+    @media (max-width: 640px) {
+      .terminal-body { padding: 14px 16px; font-size: 11.5px; }
+    }
+
+    /* ── Inline code ── */
+    code {
+      background: rgba(110,118,129,0.2);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85em;
+      color: #79c0ff;
+    }
+
+    /* ── Tooltip ── */
+    [data-tip] { position: relative; }
+    [data-tip]::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 50%; transform: translateX(-50%);
+      background: #21262d;
+      border: 1px solid #30363d;
+      color: #e6edf3;
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      white-space: nowrap;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.18s;
+    }
+    [data-tip]:hover::after { opacity: 1; }
+  </style>
+</head>
+
+<body>
+
+<!-- ═══════════════════════════════════════════════════════ NAV -->
+<nav class="fixed top-0 inset-x-0 z-50 nav-blur bg-[#0d1117]/80 border-b border-[#21262d]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-2 font-bold text-lg">
+      <span class="text-2xl">🎯</span>
+      <span class="text-white font-display">HireKit</span>
+      <span class="pill bg-brand-900/40 text-brand-400 border border-brand-800/60 ml-1">Demo</span>
+    </a>
+    <div class="flex items-center gap-3">
+      <a href="index.html#quickstart"
+        class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white transition-colors">
+        Install CLI
+        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+      <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener"
+        class="flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-white/10 hover:bg-white/15 text-white transition-colors border border-white/10">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+        </svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════ HERO -->
+<section class="demo-hero-glow pt-28 pb-12 px-4 text-center">
+  <div class="max-w-3xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-900/30 border border-brand-800/50 text-brand-400 text-xs font-mono mb-6">
+      <span class="w-1.5 h-1.5 rounded-full bg-brand-400 animate-pulse-dot"></span>
+      No install required · Powered by cached analysis
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-display font-bold text-white mb-4 tracking-tight leading-tight">
+      Try HireKit<br class="hidden sm:block" />
+      <span class="text-brand-400">in your browser</span>
+    </h1>
+    <p class="text-gray-400 text-base sm:text-lg max-w-xl mx-auto leading-relaxed">
+      Select a pre-analyzed company, add a job description and your resume — see the full analysis output in under 10 seconds.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════ MAIN WIZARD -->
+<main class="max-w-3xl mx-auto px-4 pb-24">
+
+  <!-- ── Step Progress Rail (desktop) ── -->
+  <div class="mb-10 select-none">
+    <!-- Desktop -->
+    <div class="hidden sm:block">
+      <div class="progress-track justify-between">
+        <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+        <!-- Step nodes -->
+        <div class="flex justify-between w-full relative z-10">
+          <button onclick="jumpToStep(1)" class="step-node active" id="node-1" aria-label="Step 1: Company">1</button>
+          <button onclick="jumpToStep(2)" class="step-node inactive" id="node-2" aria-label="Step 2: Job Description">2</button>
+          <button onclick="jumpToStep(3)" class="step-node inactive" id="node-3" aria-label="Step 3: Resume">3</button>
+          <button onclick="jumpToStep(4)" class="step-node inactive" id="node-4" aria-label="Step 4: Results">4</button>
+        </div>
+      </div>
+      <div class="flex justify-between mt-3 px-0.5">
+        <span class="text-xs font-mono text-brand-400" id="label-1">Company</span>
+        <span class="text-xs font-mono text-surface-4" id="label-2">Job Description</span>
+        <span class="text-xs font-mono text-surface-4" id="label-3">Resume</span>
+        <span class="text-xs font-mono text-surface-4" id="label-4">Results</span>
+      </div>
+    </div>
+    <!-- Mobile -->
+    <div class="sm:hidden flex items-center gap-3">
+      <div class="flex gap-1.5">
+        <div class="h-1 w-8 rounded-full bg-brand-500" id="mob-1"></div>
+        <div class="h-1 w-8 rounded-full bg-surface-2" id="mob-2"></div>
+        <div class="h-1 w-8 rounded-full bg-surface-2" id="mob-3"></div>
+        <div class="h-1 w-8 rounded-full bg-surface-2" id="mob-4"></div>
+      </div>
+      <span class="text-xs font-mono text-gray-500" id="mob-label">Step 1 of 4 — Company</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════ STEP 1: Company Selection ═══════════════ -->
+  <div class="wizard-panel active" id="panel-1">
+    <div class="bg-[#161b22] border border-[#21262d] rounded-2xl p-6 sm:p-8">
+      <div class="mb-6">
+        <h2 class="text-xl font-display font-bold text-white mb-1">Select a company</h2>
+        <p class="text-sm text-gray-500">Choose from pre-analyzed companies or type a custom name.</p>
+      </div>
+
+      <!-- Pre-analyzed chips -->
+      <div class="mb-6">
+        <p class="text-xs font-mono text-surface-4 uppercase tracking-widest mb-3">Pre-analyzed (instant results)</p>
+        <div class="flex flex-wrap gap-2" id="company-chips">
+          <button class="company-chip" onclick="selectCompany('카카오', this)">
+            <span>🟡</span> 카카오
+          </button>
+          <button class="company-chip" onclick="selectCompany('네이버', this)">
+            <span>🟢</span> 네이버
+          </button>
+          <button class="company-chip" onclick="selectCompany('토스', this)">
+            <span>🔵</span> 토스
+          </button>
+          <button class="company-chip" onclick="selectCompany('쿠팡', this)">
+            <span>🟠</span> 쿠팡
+          </button>
+          <button class="company-chip" onclick="selectCompany('라인', this)">
+            <span>🟤</span> 라인
+          </button>
+          <button class="company-chip" onclick="selectCompany('당근마켓', this)">
+            <span>🥕</span> 당근마켓
+          </button>
+        </div>
+      </div>
+
+      <div class="divider-label my-5">or type your own</div>
+
+      <!-- Custom input -->
+      <div class="relative">
+        <input
+          id="company-custom"
+          type="text"
+          class="hk-input pr-10"
+          placeholder="e.g. 삼성전자, Kakao, LINE..."
+          oninput="onCustomCompanyInput(this)"
+        />
+        <span class="absolute right-3 top-1/2 -translate-y-1/2 text-surface-4 font-mono text-xs">
+          <span class="animate-blink" id="cursor-indicator">_</span>
+        </span>
+      </div>
+
+      <div class="mt-2 min-h-[20px]">
+        <p class="text-xs text-surface-4 font-mono" id="company-note"></p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="mt-4 flex justify-end">
+      <button class="btn-primary" id="btn-next-1" onclick="goToStep(2)" disabled>
+        Next: Job Description
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══════════════ STEP 2: Job Description ═══════════════ -->
+  <div class="wizard-panel" id="panel-2">
+    <div class="bg-[#161b22] border border-[#21262d] rounded-2xl p-6 sm:p-8">
+      <div class="mb-6">
+        <h2 class="text-xl font-display font-bold text-white mb-1">Add a job description</h2>
+        <p class="text-sm text-gray-500">Paste the JD or a URL so HireKit can calculate your fit score.</p>
+      </div>
+
+      <!-- JD URL -->
+      <div class="mb-4">
+        <label class="text-xs font-mono text-surface-4 uppercase tracking-widest block mb-2">Job Posting URL</label>
+        <input
+          id="jd-url"
+          type="url"
+          class="hk-input"
+          placeholder="https://www.wanted.co.kr/wd/..."
+          oninput="onJdInput()"
+        />
+      </div>
+
+      <div class="divider-label my-4">or paste text</div>
+
+      <!-- JD text -->
+      <div>
+        <label class="text-xs font-mono text-surface-4 uppercase tracking-widest block mb-2">Job Description Text</label>
+        <textarea
+          id="jd-text"
+          class="hk-input"
+          placeholder="We are looking for a Senior Backend Engineer to join our platform team...&#10;&#10;Requirements:&#10;- 5+ years of experience..."
+          oninput="onJdInput()"
+        ></textarea>
+      </div>
+
+      <!-- Sample JDs -->
+      <div class="mt-4">
+        <p class="text-xs font-mono text-surface-4 uppercase tracking-widest mb-2">Sample JDs</p>
+        <div class="flex flex-wrap gap-2">
+          <button class="company-chip text-xs" onclick="loadSampleJd('backend')">Backend Engineer</button>
+          <button class="company-chip text-xs" onclick="loadSampleJd('pm')">Product Manager</button>
+          <button class="company-chip text-xs" onclick="loadSampleJd('frontend')">Frontend Engineer</button>
+          <button class="company-chip text-xs" onclick="loadSampleJd('data')">Data Engineer</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 flex justify-between">
+      <button class="btn-ghost" onclick="goToStep(1)">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"/></svg>
+        Back
+      </button>
+      <div class="flex gap-2">
+        <button class="btn-ghost" onclick="skipJd()">Skip</button>
+        <button class="btn-primary" id="btn-next-2" onclick="goToStep(3)" disabled>
+          Next: Resume
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ STEP 3: Resume ═══════════════ -->
+  <div class="wizard-panel" id="panel-3">
+    <div class="bg-[#161b22] border border-[#21262d] rounded-2xl p-6 sm:p-8">
+      <div class="mb-6">
+        <h2 class="text-xl font-display font-bold text-white mb-1">Upload your resume</h2>
+        <p class="text-sm text-gray-500">Optional. Adding your resume enables personalized gap analysis.</p>
+      </div>
+
+      <!-- Upload zone -->
+      <div
+        class="upload-zone mb-4"
+        id="upload-zone"
+        onclick="document.getElementById('file-input').click()"
+        ondragover="onDragOver(event)"
+        ondragleave="onDragLeave(event)"
+        ondrop="onDrop(event)"
+      >
+        <input type="file" id="file-input" class="hidden" accept=".pdf,.md,.txt" onchange="onFileSelect(event)" />
+        <div id="upload-idle">
+          <div class="w-12 h-12 mx-auto mb-4 rounded-xl bg-[#21262d] flex items-center justify-center">
+            <svg class="w-6 h-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+            </svg>
+          </div>
+          <p class="text-sm text-gray-400 mb-1">Drop your resume here</p>
+          <p class="text-xs text-surface-4">PDF, Markdown, or plain text · Max 5MB</p>
+        </div>
+        <div id="upload-done" class="hidden">
+          <div class="flex items-center justify-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-green-900/30 flex items-center justify-center">
+              <svg class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+            <div class="text-left">
+              <p class="text-sm font-medium text-white" id="file-name-display"></p>
+              <p class="text-xs text-surface-4" id="file-size-display"></p>
+            </div>
+            <button class="ml-4 text-surface-4 hover:text-gray-300 transition-colors" onclick="clearFile(event)">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider-label my-4">or paste text</div>
+
+      <div>
+        <label class="text-xs font-mono text-surface-4 uppercase tracking-widest block mb-2">Resume Text</label>
+        <textarea
+          id="resume-text"
+          class="hk-input"
+          style="min-height: 100px;"
+          placeholder="Name: Kim Jiyeon&#10;&#10;Experience:&#10;- Senior Engineer at XYZ (2021-present)&#10;  - Built distributed data pipeline handling 10M events/day..."
+          oninput="onResumeInput()"
+        ></textarea>
+      </div>
+    </div>
+
+    <div class="mt-4 flex justify-between">
+      <button class="btn-ghost" onclick="goToStep(2)">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"/></svg>
+        Back
+      </button>
+      <div class="flex gap-2">
+        <button class="btn-ghost" onclick="skipAndAnalyze()">Skip & Analyze</button>
+        <button class="btn-primary" id="btn-analyze" onclick="startAnalysis()">
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          Analyze
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ STEP 4: Loading ═══════════════ -->
+  <div class="wizard-panel" id="panel-loading">
+    <div class="terminal shadow-2xl shadow-black/40">
+      <div class="terminal-bar">
+        <div class="terminal-dot dot-red"></div>
+        <div class="terminal-dot dot-yellow"></div>
+        <div class="terminal-dot dot-green"></div>
+        <span class="terminal-title" id="loading-title">zsh — hirekit analyze</span>
+      </div>
+      <div class="terminal-body" id="loading-body">
+        <div id="loading-lines"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ STEP 4: Results ═══════════════ -->
+  <div class="wizard-panel" id="panel-4">
+
+    <!-- Results header -->
+    <div class="mb-6 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2 mb-1">
+          <span class="text-xl" id="result-company-emoji">🟡</span>
+          <h2 class="text-2xl font-display font-bold text-white" id="result-company-name">카카오</h2>
+          <span class="pill bg-green-900/30 text-green-400 border border-green-800/40">Analysis Complete</span>
+        </div>
+        <p class="text-xs font-mono text-surface-4">
+          <span id="result-sources">8 sources</span> · <span id="result-time">~1.2s</span> · <span id="result-date">Mar 2026</span>
+        </p>
+      </div>
+      <!-- Overall score ring -->
+      <div class="flex-shrink-0 flex items-center gap-4">
+        <div class="relative w-20 h-20" data-tip="Overall HireKit Score">
+          <svg class="w-20 h-20 -rotate-90" viewBox="0 0 80 80">
+            <circle cx="40" cy="40" r="33" fill="none" stroke="#21262d" stroke-width="6"/>
+            <circle
+              id="score-ring"
+              cx="40" cy="40" r="33"
+              fill="none"
+              stroke="#0ea5e9"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-dasharray="207.3"
+              stroke-dashoffset="207.3"
+              class="score-ring-circle"
+            />
+          </svg>
+          <div class="absolute inset-0 flex flex-col items-center justify-center">
+            <span class="text-xl font-display font-bold text-white" id="score-number">0</span>
+            <span class="text-[10px] font-mono text-surface-4">/100</span>
+          </div>
+        </div>
+        <div class="text-left">
+          <div class="text-lg font-display font-bold" id="score-grade-label" style="color: #56d364">A</div>
+          <div class="text-xs text-surface-4 font-mono">Overall<br/>Grade</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Result tabs -->
+    <div class="flex gap-1 overflow-x-auto pb-1 mb-6 border-b border-[#21262d]" role="tablist">
+      <button class="result-tab active" onclick="switchTab('scorecard', this)" role="tab">Scorecard</button>
+      <button class="result-tab" onclick="switchTab('report', this)" role="tab">Report</button>
+      <button class="result-tab" onclick="switchTab('match', this)" role="tab">JD Match</button>
+      <button class="result-tab" onclick="switchTab('interview', this)" role="tab">Interview Prep</button>
+    </div>
+
+    <!-- ── TAB: Scorecard ── -->
+    <div class="result-panel active" id="tab-scorecard">
+      <div class="space-y-3" id="scorecard-rows"></div>
+    </div>
+
+    <!-- ── TAB: Report ── -->
+    <div class="result-panel" id="tab-report">
+      <div class="space-y-4" id="report-sections"></div>
+    </div>
+
+    <!-- ── TAB: JD Match ── -->
+    <div class="result-panel" id="tab-match">
+      <div id="match-content"></div>
+    </div>
+
+    <!-- ── TAB: Interview ── -->
+    <div class="result-panel" id="tab-interview">
+      <div id="interview-content"></div>
+    </div>
+
+    <!-- CTA footer -->
+    <div class="mt-10 terminal">
+      <div class="terminal-bar">
+        <div class="terminal-dot dot-red"></div>
+        <div class="terminal-dot dot-yellow"></div>
+        <div class="terminal-dot dot-green"></div>
+        <span class="terminal-title">Want the full output?</span>
+      </div>
+      <div class="terminal-body text-sm">
+        <p class="c-comment mb-2"># Run the full analysis locally with all 8 data sources</p>
+        <p><span class="c-prompt">❯</span> <span class="c-cmd">pip install</span> <span class="c-string">hirekit</span></p>
+        <p><span class="c-prompt">❯</span> <span class="c-cmd">hirekit</span> analyze <span class="c-string" id="cta-company-name">카카오</span> <span class="c-flag">--jd</span> <span class="c-string">./jd.txt</span> <span class="c-flag">--resume</span> <span class="c-string">./resume.pdf</span></p>
+        <div class="mt-4 flex flex-col sm:flex-row gap-3">
+          <a href="index.html#quickstart" class="btn-primary text-center justify-center">
+            Get HireKit Free →
+          </a>
+          <button class="btn-ghost" onclick="resetDemo()">
+            Try Another Company
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /panel-4 -->
+</main>
+
+
+<!-- ═══════════════════════════════════════════════════════ FOOTER -->
+<footer class="border-t border-[#21262d] py-8 px-4 text-center">
+  <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2 text-sm text-surface-4">
+      <span class="text-xl">🎯</span>
+      <span class="font-mono">HireKit</span>
+      <span>·</span>
+      <span>MIT License</span>
+    </div>
+    <p class="text-xs text-surface-4 font-mono">
+      Demo uses pre-cached data · No personal data stored · Privacy-first
+    </p>
+    <div class="flex items-center gap-4 text-sm text-surface-4">
+      <a href="index.html" class="hover:text-gray-300 transition-colors">Landing</a>
+      <a href="https://github.com/zihoshin-dev/hirekit" class="hover:text-gray-300 transition-colors">GitHub</a>
+      <a href="ko.html" class="hover:text-gray-300 transition-colors">한국어</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════════════ SCRIPT -->
+<script>
+// ─────────────────────────────────────────────────────────────────
+// State
+// ─────────────────────────────────────────────────────────────────
+const state = {
+  step: 1,
+  company: null,
+  companyEmoji: '🟡',
+  jdText: '',
+  hasResume: false,
+};
+
+// ─────────────────────────────────────────────────────────────────
+// Step Navigation
+// ─────────────────────────────────────────────────────────────────
+const STEP_LABELS = ['', 'Company', 'Job Description', 'Resume', 'Results'];
+const STEP_EMOJIS = { '카카오': '🟡', '네이버': '🟢', '토스': '🔵', '쿠팡': '🟠', '라인': '🟤', '당근마켓': '🥕' };
+
+function setProgress(step) {
+  // Desktop nodes
+  for (let i = 1; i <= 4; i++) {
+    const node = document.getElementById(`node-${i}`);
+    const label = document.getElementById(`label-${i}`);
+    node.className = 'step-node';
+    if (i < step) { node.className += ' done'; node.innerHTML = '✓'; label.style.color = '#56d364'; }
+    else if (i === step) { node.className += ' active'; node.innerHTML = i; label.style.color = '#38bdf8'; }
+    else { node.className += ' inactive'; node.innerHTML = i; label.style.color = '#484f58'; }
+  }
+  // Progress fill
+  const pct = ((step - 1) / 3) * 100;
+  document.getElementById('progress-fill').style.width = pct + '%';
+  // Mobile
+  for (let i = 1; i <= 4; i++) {
+    document.getElementById(`mob-${i}`).style.background =
+      i <= step ? '#0ea5e9' : '#21262d';
+  }
+  document.getElementById('mob-label').textContent = `Step ${step} of 4 — ${STEP_LABELS[step]}`;
+}
+
+function showPanel(id) {
+  document.querySelectorAll('.wizard-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+function goToStep(step) {
+  state.step = step;
+  setProgress(step);
+  if (step === 1) showPanel('panel-1');
+  else if (step === 2) showPanel('panel-2');
+  else if (step === 3) showPanel('panel-3');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function jumpToStep(step) {
+  // Only allow jumping back or to unlocked steps
+  if (step < state.step || (step === 2 && state.company) || (step === 3 && state.company)) {
+    goToStep(step);
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Step 1: Company
+// ─────────────────────────────────────────────────────────────────
+function selectCompany(name, btn) {
+  state.company = name;
+  state.companyEmoji = STEP_EMOJIS[name] || '🏢';
+  // Update chips
+  document.querySelectorAll('.company-chip').forEach(c => c.classList.remove('selected'));
+  btn.classList.add('selected');
+  // Clear custom input
+  document.getElementById('company-custom').value = '';
+  document.getElementById('company-note').textContent = '';
+  document.getElementById('btn-next-1').disabled = false;
+}
+
+function onCustomCompanyInput(input) {
+  const val = input.value.trim();
+  // Deselect chips
+  document.querySelectorAll('.company-chip').forEach(c => c.classList.remove('selected'));
+  if (val.length > 0) {
+    state.company = val;
+    state.companyEmoji = '🏢';
+    document.getElementById('btn-next-1').disabled = false;
+    document.getElementById('company-note').textContent =
+      '→ This company will use simulated analysis data for the demo.';
+  } else {
+    state.company = null;
+    document.getElementById('btn-next-1').disabled = true;
+    document.getElementById('company-note').textContent = '';
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Step 2: JD
+// ─────────────────────────────────────────────────────────────────
+const SAMPLE_JDS = {
+  backend: `Backend Engineer — Platform Team\n\nWe are looking for a Senior Backend Engineer to join our growing platform team.\n\nRequirements:\n• 5+ years of backend development experience\n• Proficiency in Go, Java, or Python\n• Experience with distributed systems, Kafka, Redis\n• Strong understanding of REST API design\n• Experience with Kubernetes and Docker\n• Fluent in Korean; English proficiency a plus\n\nNice to have:\n• Open-source contributions\n• Experience with large-scale data pipelines\n• Startup background`,
+  pm: `Product Manager — Growth\n\nWe're hiring a data-driven Product Manager to drive our growth initiatives.\n\nRequirements:\n• 4+ years of PM experience at a tech company\n• Strong analytical skills (SQL, Amplitude, or similar)\n• Track record of launching 0→1 products\n• Excellent communication in Korean and English\n• Understanding of fintech or e-commerce domain`,
+  frontend: `Frontend Engineer — Design System\n\nJoin our Design System team to build components used by 300+ engineers.\n\nRequirements:\n• 4+ years of frontend experience\n• Expert-level React and TypeScript\n• Deep knowledge of CSS, accessibility (WCAG 2.1)\n• Experience building and maintaining design systems\n• Familiarity with Storybook, Chromatic`,
+  data: `Data Engineer — Analytics Platform\n\nBuild the data infrastructure powering real-time analytics.\n\nRequirements:\n• 3+ years of data engineering\n• Strong in Spark, Flink, or similar\n• Experience with Airflow, dbt, Iceberg/Delta Lake\n• Python and SQL proficiency\n• Experience with cloud data warehouses (BigQuery, Redshift, Snowflake)`,
+};
+
+function loadSampleJd(type) {
+  document.getElementById('jd-text').value = SAMPLE_JDS[type];
+  state.jdText = SAMPLE_JDS[type];
+  document.getElementById('btn-next-2').disabled = false;
+}
+
+function onJdInput() {
+  const url = document.getElementById('jd-url').value.trim();
+  const text = document.getElementById('jd-text').value.trim();
+  state.jdText = text || url;
+  document.getElementById('btn-next-2').disabled = !(url || text);
+}
+
+function skipJd() {
+  state.jdText = '';
+  goToStep(3);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Step 3: Resume
+// ─────────────────────────────────────────────────────────────────
+function onDragOver(e) {
+  e.preventDefault();
+  document.getElementById('upload-zone').classList.add('dragover');
+}
+function onDragLeave(e) {
+  document.getElementById('upload-zone').classList.remove('dragover');
+}
+function onDrop(e) {
+  e.preventDefault();
+  document.getElementById('upload-zone').classList.remove('dragover');
+  const file = e.dataTransfer.files[0];
+  if (file) handleFile(file);
+}
+function onFileSelect(e) {
+  const file = e.target.files[0];
+  if (file) handleFile(file);
+}
+function handleFile(file) {
+  state.hasResume = true;
+  document.getElementById('upload-idle').classList.add('hidden');
+  document.getElementById('upload-done').classList.remove('hidden');
+  document.getElementById('file-name-display').textContent = file.name;
+  document.getElementById('file-size-display').textContent = (file.size / 1024).toFixed(1) + ' KB';
+}
+function clearFile(e) {
+  e.stopPropagation();
+  state.hasResume = false;
+  document.getElementById('upload-idle').classList.remove('hidden');
+  document.getElementById('upload-done').classList.add('hidden');
+  document.getElementById('file-input').value = '';
+}
+function onResumeInput() {
+  state.hasResume = document.getElementById('resume-text').value.trim().length > 0;
+}
+function skipAndAnalyze() {
+  state.hasResume = false;
+  startAnalysis();
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Loading / Analysis Simulation
+// ─────────────────────────────────────────────────────────────────
+function startAnalysis() {
+  setProgress(4);
+  showPanel('panel-loading');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  const company = state.company;
+  document.getElementById('loading-title').textContent = `zsh — hirekit analyze ${company}`;
+
+  const linesContainer = document.getElementById('loading-lines');
+  linesContainer.innerHTML = '';
+
+  const LINES = [
+    { delay: 0,    html: `<span class="c-prompt">❯</span> <span class="c-cmd">hirekit</span> analyze <span class="c-string">${company}</span> <span class="c-flag">--jd</span> <span class="c-string">jd.txt</span> <span class="c-flag">--resume</span> <span class="c-string">resume.pdf</span>` },
+    { delay: 300,  html: `` },
+    { delay: 400,  html: `<span class="c-border">╭──────────────────── HireKit Analysis ─────────────────────╮</span>` },
+    { delay: 450,  html: `<span class="c-border">│</span> <span class="c-output">Analyzing: <span class="c-blue">${company}</span>                                        </span><span class="c-border">│</span>` },
+    { delay: 500,  html: `<span class="c-border">│</span> <span class="c-output">Region: <span class="c-blue">kr</span>  Tier: <span class="c-blue">1</span>  LLM: <span class="c-green">claude-3.5-sonnet</span>            </span><span class="c-border">│</span>` },
+    { delay: 550,  html: `<span class="c-border">╰─────────────────────────────────────────────────────────────╯</span>` },
+    { delay: 700,  html: `` },
+    { delay: 750,  html: `<span class="c-comment">  Collecting from 8 sources in parallel...</span>` },
+    { delay: 900,  html: `  <span class="c-green">✓</span> DART financials          <span class="c-dim">123ms</span>` },
+    { delay: 1050, html: `  <span class="c-green">✓</span> Naver News (32 articles)  <span class="c-dim">210ms</span>` },
+    { delay: 1200, html: `  <span class="c-green">✓</span> GitHub tech scoring       <span class="c-dim">380ms</span>` },
+    { delay: 1350, html: `  <span class="c-green">✓</span> Google News RSS           <span class="c-dim">195ms</span>` },
+    { delay: 1500, html: `  <span class="c-green">✓</span> Credible News             <span class="c-dim">290ms</span>` },
+    { delay: 1650, html: `  <span class="c-green">✓</span> Brave Search              <span class="c-dim">445ms</span>` },
+    { delay: 1800, html: `  <span class="c-green">✓</span> Exa semantic search       <span class="c-dim">512ms</span>` },
+    { delay: 1950, html: `  <span class="c-green">✓</span> Glassdoor reviews         <span class="c-dim">340ms</span>` },
+    { delay: 2100, html: `` },
+    { delay: 2150, html: `  <span class="c-output">15 results across 8 sources in <span class="c-green">512ms</span></span>` },
+    { delay: 2300, html: `` },
+    { delay: 2350, html: `<span class="c-comment">  Running AI synthesis...</span>` },
+    { delay: 2800, html: `  <span class="c-green">✓</span> Scorecard computed` },
+    { delay: 3100, html: `  <span class="c-green">✓</span> ${state.jdText ? 'JD match: 78% fit' : 'Skipped JD match'}` },
+    { delay: 3400, html: `  <span class="c-green">✓</span> ${state.hasResume ? 'Resume gap analysis complete' : 'Skipped resume analysis'}` },
+    { delay: 3700, html: `  <span class="c-green">✓</span> Interview questions generated` },
+    { delay: 4000, html: `` },
+    { delay: 4050, html: `<span class="c-green">  Analysis complete. Opening report...</span>` },
+  ];
+
+  LINES.forEach(({ delay, html }) => {
+    setTimeout(() => {
+      const div = document.createElement('div');
+      div.className = 'stream-line';
+      if (html) div.innerHTML = html;
+      else div.innerHTML = '&nbsp;';
+      linesContainer.appendChild(div);
+      // Animate
+      requestAnimationFrame(() => {
+        div.style.opacity = '1';
+        div.style.transform = 'translateY(0)';
+      });
+    }, delay);
+  });
+
+  // Show results after all lines
+  setTimeout(() => {
+    renderResults();
+    showPanel('panel-4');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    animateScoreRing();
+  }, 4400);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Results Data (per company)
+// ─────────────────────────────────────────────────────────────────
+const COMPANY_DATA = {
+  '카카오': {
+    score: 78, grade: 'B+',
+    gradeColor: '#e3b341',
+    sources: '8 sources', time: '~1.4s',
+    scorecard: [
+      { dim: 'Financial Health',  weight: 20, score: 3.8, bar: 76, color: '#38bdf8', evidence: 'Revenue ₩7.6T (+12% YoY), OP margin 8.2%' },
+      { dim: 'Tech Maturity',     weight: 20, score: 4.2, bar: 84, color: '#56d364', evidence: '182 public repos, 4,200+ GitHub stars' },
+      { dim: 'Culture & People',  weight: 20, score: 3.5, bar: 70, color: '#e3b341', evidence: '3.4/5 Glassdoor, 65% recommend CEO' },
+      { dim: 'Career Leverage',   weight: 20, score: 4.5, bar: 90, color: '#56d364', evidence: 'Top-tier brand, ex-Kakao alumni network' },
+      { dim: 'Growth Potential',  weight: 10, score: 3.6, bar: 72, color: '#e3b341', evidence: 'AI pivot underway, B2B expansion' },
+      { dim: 'Compensation',      weight: 10, score: 3.9, bar: 78, color: '#38bdf8', evidence: 'Avg salary ₩78M DART, stock options' },
+    ],
+    reportSections: [
+      { icon: '📊', title: 'Financials', color: '#38bdf8', content: 'Revenue ₩7.6T (FY2023, +12% YoY). Operating income ₩624B, margin 8.2%. Headcount 10,800 (-3% restructuring). Average salary ₩78M per DART filing. Balance sheet: cash ₩2.1T, debt-to-equity 0.4x.' },
+      { icon: '💻', title: 'Tech Stack', color: '#56d364', content: 'Primary languages: Go, Java, Python, Swift, Kotlin. Infrastructure: Kakao Cloud (proprietary), Kubernetes. Data: Kafka, Flink, HBase. 182 public repos. Notable OSS: KUDA (K8s), Varlog (log platform). GitHub stars: 4,200+.' },
+      { icon: '🗞️', title: 'Recent News', color: '#e3b341', content: 'Q1 2026: Kakao Brain rebranded as Kakao AI. AGI investment ₩500B announced. Regulatory scrutiny over platform dominance ongoing. New CEO (John Oh) focus: profitability over growth. Layoffs of ~300 in non-core units.' },
+      { icon: '🧑‍💼', title: 'Culture Signals', color: '#ffa657', content: 'Glassdoor 3.4/5 (1,200+ reviews). CEO approval 65%. Common praise: technical autonomy, talented peers. Common concerns: internal politics, slow decision-making post-IPO. Work-from-home policy: hybrid 3/2.' },
+    ],
+    matchScore: 78,
+    matchBreakdown: [
+      { label: 'Skill alignment', score: 82, color: '#56d364' },
+      { label: 'Experience level', score: 75, color: '#38bdf8' },
+      { label: 'Domain relevance', score: 70, color: '#e3b341' },
+      { label: 'Culture fit signals', score: 68, color: '#e3b341' },
+    ],
+    gaps: ['GraphQL experience not evidenced in resume', 'No Kafka mentions — highlight if applicable'],
+    strengths: ['Go proficiency matches JD exactly', 'Distributed systems background strong', 'Korean fluency is key differentiator'],
+    interviewQs: [
+      { type: 'Technical', q: 'Kakao recently migrated its core data pipeline to Flink. How would you approach debugging a Flink job that is falling behind its watermark?', difficulty: 'Hard' },
+      { type: 'System Design', q: 'Design a URL shortener that handles 100K requests/second like bit.ly. How would you shard the database?', difficulty: 'Hard' },
+      { type: 'Behavioral', q: 'Kakao went through a major restructuring in 2024. Tell me about a time you navigated org change and maintained team morale.', difficulty: 'Medium' },
+      { type: 'Culture', q: 'Kakao\'s culture shifted after the 2022 data center fire toward more resilience engineering. How do you build a culture of reliability?', difficulty: 'Medium' },
+      { type: 'Company Intel', q: 'We just launched Kakao AI Platform. How would you position our B2B AI offering against AWS Bedrock and Azure OpenAI?', difficulty: 'Hard' },
+    ],
+  },
+};
+
+// Fallback data for custom companies
+function getCompanyData(name) {
+  const known = COMPANY_DATA[name];
+  if (known) return known;
+  // Simulated for custom companies
+  return {
+    score: 71, grade: 'B',
+    gradeColor: '#38bdf8',
+    sources: '5 sources (partial)', time: '~2.1s',
+    scorecard: [
+      { dim: 'Financial Health',  weight: 20, score: 3.2, bar: 64, color: '#e3b341', evidence: 'Limited public data available' },
+      { dim: 'Tech Maturity',     weight: 20, score: 3.6, bar: 72, color: '#38bdf8', evidence: 'GitHub activity moderate' },
+      { dim: 'Culture & People',  weight: 20, score: 3.4, bar: 68, color: '#e3b341', evidence: '12 Glassdoor reviews found' },
+      { dim: 'Career Leverage',   weight: 20, score: 3.8, bar: 76, color: '#38bdf8', evidence: 'Growing headcount signals' },
+      { dim: 'Growth Potential',  weight: 10, score: 3.9, bar: 78, color: '#38bdf8', evidence: 'Recent Series B funding' },
+      { dim: 'Compensation',      weight: 10, score: 3.3, bar: 66, color: '#e3b341', evidence: 'Inferred from job postings' },
+    ],
+    reportSections: [
+      { icon: '📊', title: 'Financials', color: '#38bdf8', content: 'Limited public financial data available for this company. DART filing not found — likely a private company. Estimated headcount: 100-500 based on LinkedIn signals. Recent funding activity detected.' },
+      { icon: '💻', title: 'Tech Stack', color: '#56d364', content: 'Tech stack inferred from job postings: Python, React, AWS. GitHub activity: low-moderate. No significant open-source presence detected. Tech maturity score based on job posting language analysis.' },
+      { icon: '🗞️', title: 'Recent News', color: '#e3b341', content: 'Limited news coverage found. 3 press releases in past 6 months. No significant negative news detected. Company appears to be in growth phase based on hiring signals.' },
+      { icon: '🧑‍💼', title: 'Culture Signals', color: '#ffa657', content: 'Limited review data. 12 Glassdoor reviews, 3.4/5 average. Small sample — treat with caution. Interview process reported as: "2 rounds, technical + culture fit".' },
+    ],
+    matchScore: 71,
+    matchBreakdown: [
+      { label: 'Skill alignment', score: 74, color: '#38bdf8' },
+      { label: 'Experience level', score: 70, color: '#38bdf8' },
+      { label: 'Domain relevance', score: 68, color: '#e3b341' },
+      { label: 'Culture fit signals', score: 65, color: '#e3b341' },
+    ],
+    gaps: ['Limited data to assess specific skill gaps', 'Research the company LinkedIn before applying'],
+    strengths: ['General backend skills appear relevant', 'Company is actively hiring — good timing'],
+    interviewQs: [
+      { type: 'Technical', q: 'Walk me through a system you built that handles high concurrency. How did you profile and resolve bottlenecks?', difficulty: 'Hard' },
+      { type: 'System Design', q: 'Design a notification system that sends 1 million push notifications per hour. What are the failure modes?', difficulty: 'Medium' },
+      { type: 'Behavioral', q: 'Tell me about a project where you had to make significant technical decisions with incomplete information.', difficulty: 'Medium' },
+      { type: 'Culture', q: 'How do you balance moving fast vs. maintaining code quality in a fast-growing startup?', difficulty: 'Medium' },
+    ],
+  };
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Render Results
+// ─────────────────────────────────────────────────────────────────
+function renderResults() {
+  const data = getCompanyData(state.company);
+
+  // Header
+  document.getElementById('result-company-name').textContent = state.company;
+  document.getElementById('result-company-emoji').textContent = state.companyEmoji;
+  document.getElementById('result-sources').textContent = data.sources;
+  document.getElementById('result-time').textContent = data.time;
+  document.getElementById('result-date').textContent = 'Mar 2026';
+  document.getElementById('score-number').setAttribute('data-target', data.score);
+  document.getElementById('score-grade-label').textContent = data.grade;
+  document.getElementById('score-grade-label').style.color = data.gradeColor;
+  document.getElementById('cta-company-name').textContent = state.company;
+
+  // Store score for animation
+  window._targetScore = data.score;
+
+  // Scorecard rows
+  const scorecardEl = document.getElementById('scorecard-rows');
+  scorecardEl.innerHTML = '';
+  data.scorecard.forEach((row, i) => {
+    const el = document.createElement('div');
+    el.className = 'bg-[#161b22] border border-[#21262d] rounded-xl p-4 sm:p-5';
+    el.style.animationDelay = `${i * 60}ms`;
+    el.innerHTML = `
+      <div class="flex items-start justify-between mb-3 gap-3">
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="font-medium text-sm text-white">${row.dim}</span>
+            <span class="pill bg-[#21262d] text-surface-4">${row.weight}%</span>
+          </div>
+          <p class="text-xs text-surface-4 font-mono">${row.evidence}</p>
+        </div>
+        <div class="text-right flex-shrink-0">
+          <span class="text-xl font-display font-bold" style="color: ${row.color}">${row.score}</span>
+          <span class="text-xs text-surface-4">/5</span>
+        </div>
+      </div>
+      <div class="score-bar-track">
+        <div class="score-bar-fill" style="background: ${row.color}" data-target="${row.bar}"></div>
+      </div>
+    `;
+    scorecardEl.appendChild(el);
+  });
+
+  // Report sections
+  const reportEl = document.getElementById('report-sections');
+  reportEl.innerHTML = '';
+  data.reportSections.forEach(sec => {
+    const el = document.createElement('div');
+    el.className = 'bg-[#161b22] border border-[#21262d] rounded-xl p-5';
+    el.innerHTML = `
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-lg">${sec.icon}</span>
+        <h3 class="font-semibold text-white text-sm">${sec.title}</h3>
+        <div class="flex-1 h-px ml-2" style="background: ${sec.color}22"></div>
+      </div>
+      <p class="text-sm text-gray-400 leading-relaxed">${sec.content}</p>
+    `;
+    reportEl.appendChild(el);
+  });
+
+  // JD Match
+  const matchEl = document.getElementById('match-content');
+  if (!state.jdText) {
+    matchEl.innerHTML = `
+      <div class="text-center py-12">
+        <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-[#21262d] flex items-center justify-center text-2xl">📋</div>
+        <p class="text-gray-400 mb-4">No job description provided.</p>
+        <button class="btn-ghost" onclick="goToStep(2)">Add a JD and Re-analyze</button>
+      </div>`;
+  } else {
+    matchEl.innerHTML = `
+      <div class="mb-6 flex items-center gap-4">
+        <div class="relative w-16 h-16 flex-shrink-0">
+          <svg class="w-16 h-16 -rotate-90" viewBox="0 0 64 64">
+            <circle cx="32" cy="32" r="26" fill="none" stroke="#21262d" stroke-width="5"/>
+            <circle cx="32" cy="32" r="26" fill="none" stroke="#56d364" stroke-width="5"
+              stroke-dasharray="163.4" stroke-dashoffset="${163.4 * (1 - data.matchScore / 100)}"
+              stroke-linecap="round"/>
+          </svg>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="text-sm font-display font-bold text-white">${data.matchScore}%</span>
+          </div>
+        </div>
+        <div>
+          <div class="text-lg font-display font-bold text-white mb-1">JD Fit Score: ${data.matchScore}%</div>
+          <p class="text-xs text-surface-4 font-mono">Based on skill, experience, and culture alignment</p>
+        </div>
+      </div>
+      <div class="space-y-3 mb-6">
+        ${data.matchBreakdown.map(b => `
+          <div>
+            <div class="flex justify-between mb-1.5">
+              <span class="text-xs text-gray-400">${b.label}</span>
+              <span class="text-xs font-mono" style="color: ${b.color}">${b.score}%</span>
+            </div>
+            <div class="score-bar-track">
+              <div class="score-bar-fill" style="background: ${b.color}; width: ${b.score}%"></div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div class="bg-green-900/10 border border-green-800/30 rounded-xl p-4">
+          <p class="text-xs font-mono text-green-400 uppercase tracking-widest mb-3">Strengths</p>
+          <ul class="space-y-2">
+            ${data.strengths.map(s => `<li class="flex items-start gap-2 text-sm text-gray-300"><span class="text-green-400 mt-0.5">✓</span>${s}</li>`).join('')}
+          </ul>
+        </div>
+        <div class="bg-yellow-900/10 border border-yellow-800/30 rounded-xl p-4">
+          <p class="text-xs font-mono text-yellow-400 uppercase tracking-widest mb-3">Skill Gaps</p>
+          <ul class="space-y-2">
+            ${data.gaps.map(g => `<li class="flex items-start gap-2 text-sm text-gray-300"><span class="text-yellow-400 mt-0.5">△</span>${g}</li>`).join('')}
+          </ul>
+        </div>
+      </div>
+    `;
+  }
+
+  // Interview Qs
+  const interviewEl = document.getElementById('interview-content');
+  const diffColors = { Hard: '#ff7b72', Medium: '#e3b341', Easy: '#56d364' };
+  interviewEl.innerHTML = `
+    <p class="text-xs font-mono text-surface-4 uppercase tracking-widest mb-4">
+      ${data.interviewQs.length} company-specific questions generated
+    </p>
+    <div class="space-y-3">
+      ${data.interviewQs.map((q, i) => `
+        <div class="q-card">
+          <div class="flex items-start gap-3">
+            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#21262d] flex items-center justify-center text-xs font-mono text-surface-4">${i + 1}</div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-2 flex-wrap">
+                <span class="pill bg-[#21262d] text-gray-400">${q.type}</span>
+                <span class="pill" style="background: ${diffColors[q.difficulty]}18; color: ${diffColors[q.difficulty]}">${q.difficulty}</span>
+              </div>
+              <p class="text-sm text-gray-300 leading-relaxed">${q.q}</p>
+            </div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Animations
+// ─────────────────────────────────────────────────────────────────
+function animateScoreRing() {
+  const target = window._targetScore || 78;
+  // Ring: circumference = 2 * π * 33 ≈ 207.3
+  const circ = 207.3;
+  const offset = circ * (1 - target / 100);
+  const ring = document.getElementById('score-ring');
+  if (ring) {
+    requestAnimationFrame(() => {
+      ring.style.strokeDashoffset = offset;
+    });
+  }
+
+  // Count up number
+  const numEl = document.getElementById('score-number');
+  if (numEl) {
+    let current = 0;
+    const duration = 1200;
+    const steps = 60;
+    const increment = target / steps;
+    const interval = duration / steps;
+    const timer = setInterval(() => {
+      current = Math.min(current + increment, target);
+      numEl.textContent = Math.round(current);
+      if (current >= target) clearInterval(timer);
+    }, interval);
+  }
+
+  // Animate score bars (they're in the DOM now)
+  setTimeout(() => {
+    document.querySelectorAll('.score-bar-fill[data-target]').forEach(bar => {
+      const target = parseInt(bar.getAttribute('data-target'));
+      bar.style.width = target + '%';
+    });
+  }, 100);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Tabs
+// ─────────────────────────────────────────────────────────────────
+function switchTab(name, btn) {
+  document.querySelectorAll('.result-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.result-panel').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById(`tab-${name}`).classList.add('active');
+
+  // Re-trigger bar animations when switching to scorecard
+  if (name === 'scorecard') {
+    setTimeout(() => {
+      document.querySelectorAll('.score-bar-fill[data-target]').forEach(bar => {
+        bar.style.width = '0%';
+        requestAnimationFrame(() => {
+          bar.style.width = bar.getAttribute('data-target') + '%';
+        });
+      });
+    }, 50);
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Reset
+// ─────────────────────────────────────────────────────────────────
+function resetDemo() {
+  state.step = 1;
+  state.company = null;
+  state.jdText = '';
+  state.hasResume = false;
+  document.getElementById('company-custom').value = '';
+  document.getElementById('company-note').textContent = '';
+  document.getElementById('jd-url').value = '';
+  document.getElementById('jd-text').value = '';
+  document.getElementById('resume-text').value = '';
+  document.getElementById('btn-next-1').disabled = true;
+  document.getElementById('btn-next-2').disabled = true;
+  document.querySelectorAll('.company-chip').forEach(c => c.classList.remove('selected'));
+  clearFile({ stopPropagation: () => {} });
+  goToStep(1);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Init
+// ─────────────────────────────────────────────────────────────────
+setProgress(1);
+</script>
+</body>
+</html>
