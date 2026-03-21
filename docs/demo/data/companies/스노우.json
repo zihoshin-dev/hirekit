@@ -1,740 +1,980 @@
 {
   "company": "스노우",
-  "sources_used": [
-    "google_news",
-    "naver_search",
-    "brave_search",
-    "exa_search",
-    "credible_news",
-    "dart"
-  ],
-  "result_count": 12,
-  "sections": [
-    "strategy",
-    "culture",
-    "overview",
-    "tech"
-  ],
-  "data": {
-    "company_name": "스노우 주식회사",
-    "company_name_eng": "SNOW Corporation",
-    "stock_name": "스노우",
-    "ceo": "김창욱",
-    "address": "경기도 성남시 분당구 불정로 6 (정자동, 네이버그린팩토리) 15층",
-    "industry_code": "58222",
-    "established": "20160801",
-    "homepage": "www.snowcorp.com",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
-        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
-        "link": "https://blog.naver.com/ytjoo88/224215031143",
-        "pub_date": "20260313"
-      },
-      {
-        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
-        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
-        "link": "https://blog.naver.com/ve_getable/224210299768",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
-        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
-        "link": "https://blog.naver.com/label3548/224210103873",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
-        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
-        "link": "https://blog.naver.com/fusekimo198735/224209926005",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
-        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
-        "link": "https://blog.naver.com/ve_getable/224207830667",
-        "pub_date": "20260307"
-      },
-      {
-        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
-        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
-        "link": "https://blog.naver.com/magicpaul7/224204238038",
-        "pub_date": "20260304"
-      },
-      {
-        "title": "NAVER Z 제페토 결제 사업 운영 채용, 계약직 1년인데 지원할... ",
-        "description": "합격 후 면접 과정에서 직접 확인해 보셔야 해요. 전형 절차는 서류 전형 - 1차 인터뷰 및 기업문화... 참고: NAVER Z의 일반적인 복지 (정규직 기준) NAVER Z는 IT 기업답게 자유롭고 수평적인 조직 문화를 가지고... ",
-        "link": "https://blog.naver.com/cymmcymm/224198426668",
-        "pub_date": "20260304"
-      },
-      {
-        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
-        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
-        "link": "https://blog.naver.com/serohero/224199063326",
-        "pub_date": "20260228"
-      },
-      {
-        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
-        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
-        "link": "https://blog.naver.com/jobpass_/224197697044",
-        "pub_date": "20260227"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      },
-      {
-        "title": "제주항공 채용 승무원 큐피드",
-        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
-        "link": "http://cafe.naver.com/sheiszzz/1214780",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "생성형 AI 및 LLM에 대한 Snowflake 비전",
-        "description": "엔터프라이즈를 위한 생성형 AI와 대규모 언어 모델(LLM)의 잠재력은 엄청납니다. 우리는 이전에 이들의 기회에 대해 이야기한 바 있으며, Summit 2023에서는 고객이 자신의 독점 데이터에 안전한 단일 플랫폼에서 제공되는 생성형 AI와 LLM을 직접 적용할 수 있도록 지원하는 다양한 기능을 발표했습니다. Snowflake의 단일 플랫폼은 이전부터 고객이 데이터 사일로를 허물고 데이터에 더...",
-        "link": "https://www.snowflake.com/ko/blog/generative-ai-llms-summit-2023/",
-        "pub_date": ""
-      },
-      {
-        "title": "&quot;모든 사람이 데이터에 접근할 수 있는 세상&quot; - 스노우플레이크 창업자가 밝힌 AI 데이터 클라우드 비전",
-        "description": "스노우플레이크 공동창업자인 베뉴아 다쥬빌 제품 부문 사장과 티에리 크루아네스 전 CTO가 한국을 방문해 기자간담회를 통해 회사의 비전과 AI 시대의 데이터 전략을 공유했다. 두 창업자는 13년 전 오라클에서 함께 일하던 시절, 클라우드와 데이터의 미래를 내다보고 스노우플레이크를 설립해 AI 기반 데이터 클라우드 플랫폼으로 진화해 글로벌 포춘 2000 기업 중 3분의 1 이상이...",
-        "link": "https://www.techsuda.com/snowflake/",
-        "pub_date": ""
-      },
-      {
-        "title": "“누구나 쓰는 AI 시대 연다... 스노우플레이크, 에이전트 기반 데이터 통합 플랫폼 공개”",
-        "description": "비정형 데이터·AI 자동화·실시간 협업까지... SQL 한 줄로 실행되는 엔터프라이즈 AI 전략 발표 스노우플레이크 인텔리전스·오픈플로·코텍스 AI SQL 등 통합...복잡한 파이프라인 없는 인사이트 제공",
-        "link": "https://www.gttkorea.com/news/articleView.html?idxno=19948",
-        "pub_date": ""
-      },
-      {
-        "title": "스노우플레이크, 'AI 데이터 클라우드'로 기업용 AI 주도 선언",
-        "description": "스노우플레이크가 AI 전략의 핵심인 'AI 데이터 클라우드'를 중심으로 플랫폼 전환을 선언하며 기업용 AI 시장 공략에 나섰다. 서밋 2025에서는 오픈소스 거버넌스와 AI 자동화 대전환이 주요 이슈로 다뤄질 예정이다.",
-        "link": "https://www.tokenpost.kr/news/tech/252629",
-        "pub_date": ""
-      },
-      {
-        "title": "스노우플레이크 &quot;올해 진행한 PoC, 파일럿 사업 기초로 내년엔 비즈니스 성과 낼 것&quot;",
-        "description": "시장에서의 스노우플레이크 전략에 대해 설명하고 있다... 원하는 방향에서 데이터를 모으고 분석해주는 플랫폼이다. 최근에는... 그리고 AI 활용을 위한 고도화에 나서고 있다”고 밝혔다. 이번 미디어 라운드...",
-        "link": "https://www.ddaily.co.kr/page/view/2023121211495720417",
-        "pub_date": ""
-      },
-      {
-        "title": "[현장] 스노우플레이크가 그린 AI 데이터 클라우드의 미래는?",
-        "description": "스노우플레이크가 인공지능(AI) 시대의 데이터 혁신 방향과 비즈니스 활용 전략을 제시했다.스노우플레이크는 9일 삼성동 코엑스 컨벤션센터에서 연례 컨퍼런스 '스노우플레이크 월드 투어 서울'을 개최했다.제조·금융·리테일·스타트업 등 12개 이상 산업군 관계자 약 3천 명이 참...",
-        "link": "https://zdnet.co.kr/view/?no=20250909104748",
-        "pub_date": ""
-      },
-      {
-        "title": "스노우플레이크, 데이터와 AI로 비즈니스 혁신 이끈다",
-        "description": "최 지사장은 &quot;스노우플레이크의 비전은 명확하다. 데이터와 AI를... 데이터 상호운용성과 AI가 스노우플레이크 전략의 핵심이 된 이유는?... 스노우플레이크 플랫폼의 향후 진화 방향은? A. AI 통합 강화, 멀티모달...",
-        "link": "https://www.cadgraphics.co.kr/newsview.php?pages=news&catecode=2&num=76368",
-        "pub_date": ""
-      },
-      {
-        "title": "스노우플레이크, “AI 통합 데이터 플랫폼으로 진화 중”",
-        "description": "데이터 상호운용성을 위한 개방형 플랫폼 전략 스노우플레이크는 데이터 웨어하우징부터 데이터 레이크, 사이언스, 엔지니어링, 애플리케이션 개발에 이르기까지 데이터 전 주기를 아우르는 클라우드 기반 플랫폼을 제공하고 있다. SaaS 애플리케이션, 데이터베이스, IoT 기기 등 다양한 소스의 데이터를 오픈 테이블 형식으로 통합해, 데이터 애플리케이션 간 일관성 있는 트랜잭...",
-        "link": "https://www.gttkorea.com/news/articleView.html?idxno=17890",
-        "pub_date": ""
-      },
-      {
-        "title": "AI 프로젝트 실패하지 않으려면…스노우플레이크 “모델보다 데이터 먼저”[테크체인저] | 블로터",
-        "description": "기업 스노우플레이크가 데이터 전략 중심의 AI 구현 방법론을... 김 전무는 오라클 등에서 데이터·분석 플랫폼 사업을 담당하다 4년 전... 새로운 AI 업무 흐름을 만들고 데이터를 수익화하는 방향으로 나아간다....",
-        "link": "https://v.daum.net/v/ZHlkjtwaDh",
-        "pub_date": ""
-      },
-      {
-        "title": "블로그 | SPH 에스피에이치",
-        "description": "SPH 블로그에서 GIS 솔루션, 공간 데이터 컨설팅, 구글맵스 API 사용법, 구글 클라우드 업데이트 등의 최신 트렌드와 인사이트를 확인하세요. 전문가의 통찰력 있는 글을 만나보세요.",
-        "link": "https://sphinfo.com/blog",
-        "pub_date": ""
-      }
-    ],
-    "google_news": [
-      {
-        "title": "스노우플레이크, ‘에이전틱 엔터프라이즈’ 시대 선언…자율형 AI 플랫폼 ‘프로젝트 스노우워크’ 공개 - e4ds news",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xSWJCVDZjQ1VNYUhnQ0hzY0ZJRlBoZzVMN2RsV19VUVp4OTA2WlpxRk56SjRLenNKZ0liV0RwRDE5eGgtSEF4MFd2NFRlY2ljelNJb1FuVjFYRGJIMWJPQl9sOVY?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 03:19:00 GMT",
-        "source": "e4ds news"
-      },
-      {
-        "title": "스노우플레이크, 에이전틱 AI 시대 비즈니스 혁신 전략 제시하는 ‘이그제큐티브 라운드테이블 서울’ 성료 - 뉴스와이어",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXWWZOV0lxME1uLU9xR0xaNjBpaXRVZklVdkJ6TG9lTkhlUmx2cUw0a3J3eDkteER1d2wtVFk1LUg5cTNUdVA4ZXdqNGlkZnNMdGItZFBxNmtwRXlxMjRz?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:18:01 GMT",
-        "source": "뉴스와이어"
-      },
-      {
-        "title": "“데이터 분석 10분으로 단축”… 스노우플레이크, ‘에이전틱 AI’로 기업 혁신 가속 - 스타트업엔",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPVlRWbU9WOWxHbFREY0FjTXlqT2dwWEliN2RzV1VHUU9JQWM5c1Nab1BQRGNLTDNOdHNFR1lfLWRDZU1nUXg2RVdBV25VY044SU5iOE5QUjUwRVBNdXhELVV5Y09qTVk00gFsQVVfeXFMUDltc2FBWnNtbUROWHZOWUlhN0lQbWppbTIySlo4NEh3R04xNXM1WVRHblBCQzB0RnhCSmJQRnpmMTh6ZVh4ZVVYTGhPMk5pY2w1RjQwODF1VEVOekNHOUdpMDVWVkZyeFp6QjZy?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 03:11:58 GMT",
-        "source": "스타트업엔"
-      },
-      {
-        "title": "스노우플레이크, 에이전틱 AI 전략 공개, 서울 라운드테이블 성료 - 데일리경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4TVZNWGVyLVVQaFI2enBPd1V0eDhNVkhZaGpOUm5jUWE1S3dXTTZVMThqT3RwakR4WmVwS0RLV01QS2xMTlpyZzAxeDhLcU96TjcteTVvSFhZblRnSnZUdmpmektjMklVSUw4LQ?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 14:51:59 GMT",
-        "source": "데일리경제"
-      },
-      {
-        "title": "“AI 경쟁력은 데이터”… 스노우플레이크, ‘에이전틱 엔터프라이즈’ 제시 - IT조선",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uem5GZzhCd2NpcmROMzN1VS1WQmRmejM1Nm5NTjJuaXoxODFIa2szZTJoUUVnNUE2ampvLUJNdmIzV2lZVV9VblR2c1RNOF9jMFdMeW9ibkpPbmUtNXlOMThDeG9UYzBMREg3ekFHbzDSAXRBVV95cUxNenVWcjlYMFVSWXBvZFpaWmJvajBNVTZ2cHdUTlFjTmRKZmI4eTFFVzlXaUM4cDJlOGRRem5zZHFyWHZDNkYtbXlodHlOR1R5bldzenV3T1NGRVpFMGpkanlNUTdGN2NKSGV6Q2RBUmJJVmJDOQ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:15:42 GMT",
-        "source": "IT조선"
-      },
-      {
-        "title": "스노우플레이크 “AI 도입 기업 77% 고용 증가”…일자리 공포는 기우일까 - 헬로티",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHUFJ0UGNxOHJpTWFpQUtGY2NHODdrTDdNdm1KYmlKQWtZek94cEJQdDRnZmpSOVdSUmdkTGdaUWYtemxMNmFTWmNuRVZRN3dOaW80RG5seDhGZGcyS3ow?oc=5",
-        "pub_date": "Thu, 12 Mar 2026 05:07:32 GMT",
-        "source": "헬로티"
-      },
-      {
-        "title": "스노우플레이크, “AI 도입 기업 77% 고용 오히려 늘었다” - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fSDlwbzJoLVZ6QXlwc2llSmZnZ2xRUVQwUGxvcHRqNkExWFhQUHAtaFJBX2JfQ0w1WnhhWXJISGVKRUZIenpOaGk2TzZTdw?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 01:17:24 GMT",
-        "source": "전자신문"
-      },
-      {
-        "title": "[#클라우드 월드] 와이즈넛 'AI 바우처 공급'·메가존 '양자기술 전략' 공유·이노그리드 'AI 인프라' 구축·김민준 의장 '대통령 국민포장' 수훈·스노우플레이크 'AI ROI 보고서' 발표·코바코 'AI-DOOH 트렌드 리포트' 발간 - 뉴스웍스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JOXQyR01mSTVFWTZJUWF3UGJIdWJYSU91MWlKdUtIQVVwQXRHVmVOZjA2Y1h4WFpCWXVjdnlMYlhsQ3pCeXN5eDlqNzJvbUVQZDZudG1jSjZpRHZRWHFSQVhhWVUxZnVqbEJSY3haONIBc0FVX3lxTE1udzkzYzNzakxTd0xWODQ1VnJvXzBuTnpzbVVQSzJac2FsU1k5X2hWeFdfalQtQzQxdVYxblFSblZWQXBuclNnN2xiQVV3eVBTd3ZGY21uc21BODBONUdvdnNKTEF0NkI3QVEyampHTWc5Sjg?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 04:58:17 GMT",
-        "source": "뉴스웍스"
-      },
-      {
-        "title": "오픈AI, 스노우플레이크에 모델 제공 계약...앤트로픽과 B2B 경쟁 치열 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LTVZLVmlvTjJ3YWdaU256N0VWaG5EWkNzLXFmeHNWZWtMUS1uekgydkZTZy1BakpubzRHdnBMZUNUaGpFczZ2R045UXkyTURrMGFvVDRCNGp0TjZYWjRxd1VZT0dDR0VWcGc?oc=5",
-        "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
-        "source": "AI타임스"
-      },
-      {
-        "title": "AI 도입 기업 77% “채용 늘었다”…확산의 걸림돌은 데이터 - e4ds news",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OcVNHMzhXaG5RMS1mSk00bVJZY0Q4NmZJSkNKVE9GLW1wTk1jVFdoX2RsQVBzMDRJMU83dVJjLXc4QzJiQVV6OFZPQnZ2b1FoakVqU1VDN3RuWXVleW15TlNB?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 00:59:00 GMT",
-        "source": "e4ds news"
-      },
-      {
-        "title": "스노우플레이크 “끝난 모델 경쟁, 에이전틱 AI와 데이터 운영이 관건” - 더에이아이",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kZG80eWgwREk3elBuYnVjSElHdjUzVTZvT21acEVjaUJIbzlPS21QNDZTLU02VGRrVWI3LXBVcHBvR2VqekdrVS1UaUxQdUdZbmdXQVhZb1c2QVJvSm9sc0Y4UkdCejl4V2ZR?oc=5",
-        "pub_date": "Fri, 16 Jan 2026 08:00:00 GMT",
-        "source": "더에이아이"
-      },
-      {
-        "title": "[르포] \"韓 스타트업, 美서 사업하라\"…스노우플레이크 'AI 허브' 가보니 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TcnBvMVR2X2NFNE05bVVWZnliYmJQUUtSTnRTN2FxQnlUQkpJVVZqeUZOeXdVUXM3RGxnSGMxeVUydk5UVEJZY2JraUE0a0RNcktEWWdR?oc=5",
-        "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "'AI가 일자리 뺏는다?'... 데이터 클라우드 거인의 답변은 '오히려 채용 증가' - 스타트업엔",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HWUJqOWdQWnRVWUl2djdGREVNM2NfT1FEbkZXUnpnV2pON1pjWERzbTFsV242Yk9BQ0JOMFRIUHRvZEpYQnRJNy0wYWxrTTlyTzBRQklGNVRJYnhYNzhaZ3pYTnFFaUNH0gFsQVVfeXFMTl96cVRUaFozRlZOSHNTUzlBeHg2Z0t2M1ZKdklJOTZSNjZYTUkzaDFPQURtaE92UUlYSUoxQmxkR3JzYjBuTzAwRUx1OUFRWHVmcWM3UjBPMk81NmxZVHA0Y3NpOG5zc1R2QWZu?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 02:42:43 GMT",
-        "source": "스타트업엔"
-      },
-      {
-        "title": "스노우플레이크 코리아, ‘데이터 포 브렉퍼스트’ 개최 - 데이터넷",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GRXNmYmFZU0thdzBDMmFoc1J5a3BhNEJ6clhJblVhWXNfZHpMZDRHR1dzOVozOWtzam82ZUNsYjhhVzhMWFFmSWRsRE9Cdm5zeldYcURVcERYUzFINGo2QjJCdnUyRmkyQkNKdQ?oc=5",
-        "pub_date": "Tue, 24 Feb 2026 08:00:00 GMT",
-        "source": "데이터넷"
-      },
-      {
-        "title": "GS네오텍, AI 사업 강화 위해 신입·경력 채용 - 더에이아이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWGNCbGE3bEJwdEVCakQ0UGpCQU1IcWNtQ0d0Qi10UUNNN0ozczYyREZoTEZySXdfb2hTQ2tQd1N5Rkc5QlBzanJEbmFnSElBakNhMEs1SVdsYkRwVEVFZWc1Q0VmY1FJV0E?oc=5",
-        "pub_date": "Fri, 16 Jan 2026 08:00:00 GMT",
-        "source": "더에이아이"
-      },
-      {
-        "title": "감성코퍼레이션, 4분기 실적 기대 부합…중국 확장 모멘텀 유효 - 프라임경제",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WRE4zaXlPNTFmQ2puVlE1STV2ZHB1QTE1QTRuZlJhZWZmZi1FQ1NaVlJWeW41TmxYUEtpTjBiWGFadF9PMmdWN1U5SXc2UVg2UEVXOGFXZGNMQ25zMExHU1I0RXFkT1BzTFZzcmRPZ2plUQ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 22:15:46 GMT",
-        "source": "프라임경제"
-      },
-      {
-        "title": "[감성코퍼레이션 톺아보기] 스노우피크 매출 의존율 96%...리스크 관리 숙제로 - 딜사이트",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aZ29mZDdWRDdnb0dYMW9jVWN4Q20wWExLNzVnZlplOFR2WUNxdW1nN1pBa1dWcGRqdFN6bEhHREV2a1VsYzhBWXFlZzJtM2c?oc=5",
-        "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT",
-        "source": "딜사이트"
-      },
-      {
-        "title": "[서치 e종목] 감성코퍼레이션, 올해 中 사업 실적 구체화되면서 주가 동력 얻나 - 데일리인베스트",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LNXAwYklwWDJvVDVBRGFZdzBnSUJqSGtqeXVmcTZBY0M2UFZRc3RodDUtZ25sSkZOdS1VYVFTWFZWSUFESG1TUnJscDlmRU5XR1FjQXl3Y0RfWi1vMWIxQVk3Unl0LVVKQ2Z30gFvQVVfeXFMTlNXeFhxbDRDbFdOd0gydGJCSm9OdXZ1a1Q4TU4zbEZuNkhTcjRVZzROQllzM2gyUWQyQzJmM1JDU1NzR0oxRXJzLVJHbHY4M1g2aTN5cUllblRGMUVRb0x0VEEyLW9iYnBZaEp4MmlB?oc=5",
-        "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
-        "source": "데일리인베스트"
-      },
-      {
-        "title": "[감성코퍼레이션] 스노우피크 열풍, 이제는 중국에서 터진다… 감성코퍼레이션의 진짜 시작! - 네이버 프리미엄콘텐츠",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm5QN1B4blZaM0Myb2JSZ1ZIbmliTU1YNU1DWm5yZ3VkSFRsUzVlbkRYajk3YzlUTnJMSEZDOHpZeDBpVUFIeDUwTnZqWV9ZcUNSZzNtSWdGenRmWXdIQ0NpZGlxNlNoM3Z3U0JIeVBfbWI0MG50Y1hxZDdkNFZfZzNxVmhGQXE0?oc=5",
-        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
-        "source": "네이버 프리미엄콘텐츠"
-      },
-      {
-        "title": "‘3분기 견조한 성장’ 감성코퍼레이션, 겨울 성수기 최대 실적 기대 - 패션비즈",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Ta016dm82U2E1Yi1fNlBueVpTNk91LWZOUnFOT2Y4Wm5wdkgyb1k2eUxxaXJJZVRCSF9HQ2JyZ1RzS0RkQmxWSDdrT3J6TWFl?oc=5",
-        "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
-        "source": "패션비즈"
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "SNOW Careers",
-        "url": "https://recruit.snowcorp.com/",
-        "description": "스노우의 일하는 문화는 계속 진화합니다 More · Financial Wellbeing · 회사의 미래가치와 성과를 함께 나누고, 생활의 안정을 지원합니다. Time &amp; Refresh · 저마다 몰입할 수 있는 환경이 다름을 알기에 시간과 공간 선택의 자율성을 가지며, 리프레시를 위한 충전의 기회도 마련합니다."
-      },
-      {
-        "title": "2025년 스노우 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1678247952/",
-        "description": "스노우(주)는 소프트웨어·솔루션·ASP 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
-      },
-      {
-        "title": "스노우 진행 중인 채용정보 총 5건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/16152280/recruit",
-        "description": "스노우 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      },
-      {
-        "title": "스노우 2025년 채용정보 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/RecruitInfo/HS7855",
-        "description": "신입 기획/전략/경영, 네트워크/서버/보안, 빅데이터/AI, 사무/총무/법무, 재무/세무/IR ... 신입 네트워크/서버/보안, 영업관리/지원/영업기획, 일반영업, 채권/보험/보상/심사, B2B영업/기술영업, DBA/데이터베이스 ... 회사소개 캐치 이용가이드 이용약관 개인정보처리방침 채용공고 등록 채용광고 상품 안내 고객센터"
-      },
-      {
-        "title": "[스노우] 2024년 4월 전분야 체험형 인턴 채용 | 공모전 대외활동-링커리어",
-        "url": "https://linkareer.com/activity/172291",
-        "description": "[스노우] 2024년 4월 전분야 체험형 인턴 채용합니다. 모집인원은 00명이며 미디어, 디자인 분야의 인재들은 지원해주세요!"
-      },
-      {
-        "title": "스노우(주) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/TUtzSkY1eWEwdFhLRjhPUHcvdXVvQT09/company_nm/%EC%8A%A4%EB%85%B8%EC%9A%B0(%EC%A3%BC)",
-        "description": "스노우(주) 기업소개 - 업력 : 11년차, 기업형태 : 대기업, 업종 : 응용 소프트웨어 개발 및 공급업 | 스노우(주)의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 확인해보세요."
-      },
-      {
-        "title": "스노우 채용 - 2025년 채용정보, 자기소개서 문항",
-        "url": "https://jasoseol.com/companies/6403/careers",
-        "description": "스노우 신입, 인턴, 경력 최신 채용공고 정보와 자기소개서 항목, 직무별 지원자 수, 합격 스펙까지 한번에 확인하세요."
-      },
-      {
-        "title": "2025년 스노우 채용 | 인크루트",
-        "url": "https://www.incruit.com/company/1678247952/job",
-        "description": "스노우의 최근 3년간 채용정보를 인크루트에서 확인하세요."
-      },
-      {
-        "title": "스노우 채용 2025년 기업정보 - 평균연봉 6,872만원 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/CompSummary/HS7855",
-        "description": "스노우 초봉 3680만원, 스노우의 채용공고, 기업정보, 재무정보부터, 현직자리뷰, 면접후기까지 모두 캐치하세요."
-      },
-      {
-        "title": "기업분석보고서 1. 스노우, 채용 분석 및 기업 정보",
-        "url": "https://www.jobkorea.co.kr/company/16152280/AnalysisView?Inside_No=20870",
-        "description": "스노우의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요."
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "스노우㈜ 채용 - [SNOW] 엔터프라이즈 CMS 서비스 웹 프론트엔드 개발자 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47664044",
-        "text": "스노우㈜ 채용 - [SNOW] 엔터프라이즈 CMS 서비스 웹 프론트엔드 개발자 | 잡코리아\n\n## 스노우㈜\n\n# [SNOW] 엔터프라이즈 CMS 서비스 웹 프론트엔드 개발자\n\n상세요강접수기간∙방법기업정보\n\n채용정보에 잘못된 내용이 있을 경우 문의해주세요.\n\n모집요강\n\n모집분야\n\n엔터프라이즈 CMS 서비스 웹 프론트엔드 개발\n\n모집인원○명\n\n고용형태\n\n정규직\n\n급여회사 내규에 따름 (면접 후 결정)\n\n근무시간\n\n- 탄력근무제\n- 10:00 ~ 19:00\n- 주5일(월~금)\n\n근무지주소\n\n경기 성남시 분당구 불정로 6 (정자동) 그린팩토리지도보기\n\n인근지하철\n\n지원자격\n\n경력\n\n경력(5년이상)\n\n학력\n\n대졸이상\n\n스킬\n\nTOP\n\n궁금해요",
-        "score": 0,
-        "published_date": "2025-09-09T00:00:00.000Z"
-      },
-      {
-        "title": "스노우 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
-        "url": "https://jasoseol.com/datalab/6403?ec=81938",
-        "text": "스노우 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n#### 한 줄 소개\n\nAI 및 AR 기반 사진·영상 편집 앱과 크리에이티브 플랫폼을 개발·제공하는 기업\n\n#소프트웨어#콘텐츠#AI#AR#모바일앱\n\n산업(업종)\n\n정보통신업\n\n기업 형태\n\n대기업\n\n대표자\n\n김창욱\n\n사원수\n\n379명\n\n매출액\n\n733억 5천만 원\n\n설립 년도\n\n2016년\n\n주소지\n\n경기 성남시 분당구 불정로 6, 15층 (정자동,그린팩토리)\n\n홈페이지\n\nhttp://www.snowcorp.com\n\n초봉4,515만 원\n\n평균 연봉6,446만 원\n\n각 기업이 공공데이터에 제공한 정보를 활용하여 제공합니다.\n\n[정보 수정 요청](https://ja",
-        "score": 0,
-        "published_date": "2022-04-15T00:00:00.000Z"
-      },
-      {
-        "title": "스노우(SNOW) 기업정보 - 채용 0건, 평균연봉 6,032만원, 인원 383명, 업력 10년, 경기 성남시 | 원티드",
-        "url": "https://www.wanted.co.kr/company/550",
-        "text": "스노우(SNOW) 기업정보 - 채용 0건, 평균연봉 6,032만원, 인원 383명, 업력 10년, 경기 성남시 | 원티드\n\n# 스노우(SNOW)\n\nIT, 컨텐츠경기 성남시11년차(2016)\n\n스노우는 2015년 9월 서비스 출시 이후 한국, 일본, 대만을 비롯한 아시아 시장에서 폭발적 성장을 바탕으로, 출시 이후 약 1년 반만에 1억 가입자를 달성했습니다. 우리는 가장 재미있고 편리하게 소통할 수 있는 방식을 스노우를 통해 만들어 나가고 있습니다. 자신을 표현하고, 즐거운 순간을 공유하며, 함께하는 듯한 생생함을 전달하기 위해 오늘도 치열하게 가슴 뛰는 도전을 펼치고 있습니다. 사용자 니즈에 민감하게 반응하며, 변화에 누구보다 앞서 대응하고 도전을 주저하지 않고, 가장 빠르게 생각하고 움직이는 사람들과 함께합니다. 사람들의 소통 방식을 더욱 즐겁게 표현하고, 순간을 공유하는 스노우에 지금 지원해보세요!\n\n더보기\n\n## 채용중인 포지션\n\n현재 채용중인 포지션이 없습니다.\n\n기업을 팔로",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "SNOW Careers",
-        "url": "https://recruit.snowcorp.com/cnts/people_detail?id=9",
-        "text": "SNOW Careers\n\n### 방대한 데이터를 다루며, 성장의 기회가 주어지는 곳\n\n“데이터가 굉장히 많이 쌓이다 보니 방대한 데이터를 다룬다는 것 자체가 데이터 엔지니어로써 아주 만족스러운 점이에요.”\n\n안녕하세요. 스노우입니다. 오늘 만나볼 스노우의 구성원은 올해 경력직으로 입사하신 데이터 엔지니어 강현구님입니다. 스노우 앱에서 수집하는 방대한 데이터를 어떻게 업무에 활용하고 있는지 궁금하시지 않나요?\n\n또 어떤 이유로 스노우에 합류하셨는지, 어떤 점을 가장 만족스럽게 생각하고 있는지, 데이터 엔지니어의 매력과 가장 필요한 자질까지, 커리어와 관련하여 자세한 이야기 들어보겠습니다.\n\nQ. 현구님, 안녕하세요. 간단한 소개 부탁드립니다.\n\n안녕하세요. Server 부서에서 데이터 엔지니어링 업무를 맡고 있는 강현구입니다. 데이터 엔지니어링 업무이라고 하면 포괄적이라, 좀 더 상세히 설명드리자면, 이용자가 앱에서 버튼을 클릭하는 모든 과정들이 로그 데이터로 기록되면 이를 수집하기도",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "SNOW 국내 마케팅팀 인턴 후기 | 이 일을 10년이고, 20년이고 할 수 있을까? | 프라임 커리어",
-        "url": "https://prime-career.com/internship_blog?%EB%A9%98%ED%86%A0=%ED%96%89%EB%B3%B5%ED%95%9C%ED%86%A0%EC%9D%B4%ED%91%B8%EB%93%A4&%ED%8C%80=%EA%B5%AD%EB%82%B4%EB%A7%88%EC%BC%80%ED%8C%85%ED%8C%80&%ED%9A%8C%EC%82%AC=SNOW",
-        "text": "SNOW 국내 마케팅팀 인턴 후기 | 이 일을 10년이고, 20년이고 할 수 있을까? | 프라임 커리어 var version = 'live' //choose test or live var pluginKey = if (pluginKey=='') { //When user did NOT input the client plugin key //get demo key $.get(\"https://hatchhiker-plugin.bubbleapps.io/version-\" + version + \"/api/1.1/obj/demokey?sort_field=Created%20Date&descending=true&limit=1\", function(data, status){ let tempKey = data.response.results[0].key_text; let expDate = data.response.results[0].expiration_text; alert(\"Hatchhiker Plugin Ke",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "스노우플레이크, 프로젝트 '스노우워크' 발표... AI 에이전트로 워크플로 자동화 < AI·엔터프라이즈 < 기사본문 - 디지털투데이 (DigitalToday)",
-        "url": "https://cms.digitaltoday.co.kr/news/articleView.html?idxno=642690",
-        "text": "스노우플레이크, 프로젝트 '스노우워크' 발표... AI 에이전트로 워크플로 자동화\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n\n\n스노우플레이크, 프로젝트 '스노우워크' 발표... AI 에이전트로 워크플로 자동화\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n스노우플레이크 로고.\n\n[디지털투데이 황치규 기자]클라우드 데이터 플랫폼 스노우플레이크가 18일(현지시간) AI 에이전트를 활용해 기업 업무를 자동화하는 '프로젝트 스노우워크'(Project SnowWork)를 발표했다.\n\n회사 측에 따르면 프로젝트 스노우워크는 단순한 데이터 쿼리에서 벗어나 기업 데이터를 기반으로 다단계 워크플로를 계획하고 실행하도록 지원하는데 초점이 맞춰져 있다.\n\n스노우플레이크의 개발 및 AI 경험 부문 부사장 발라 카시비스와나단은 \"스노우워크는 데이터 거버넌스, 정의된 워크플로, 비즈니스 운영에 대한 이해가 ",
-        "score": 0,
-        "published_date": "2026-03-18T00:00:00.000Z"
-      },
-      {
-        "title": "스노우플레이크, AI + 데이터 예측 2026 보고서 발표",
-        "url": "https://www.venturesquare.net/1032961/",
-        "text": "스노우플레이크, AI + 데이터 예측 2026 보고서 발표 -- -- -- --\n\nAI 데이터 클라우드 기업 스노우플레이크(Snowflake)는 ‘AI + 데이터 예측 2026 보고서’를 발간하고 2026년은 에이전틱 AI와 데이터 전략이 기업 AI 성과를 좌우할 것이라고 전망했다.\n\n보고서에 따르면 에이전틱 AI는 기존 대규모 언어 모델을 넘어 정교한 추론과 실행 능력을 갖춘 구조로 진화하며, 기업의 AI 활용은 전사적 AI 생태계 구축 단계로 진입할 전망이다. 신뢰성 확보를 위해 자체 검증 메커니즘과 사용자 피드백 기반 피드백 루프가 중요해지며, 특정 업무에 특화된 마이크로 에이전트가 단계적으로 도입될 것으로 예측됐다.\n\n기업 시스템 전반으로 확산되는 에이전틱 AI의 효율적 활용을 위해서는 표준화된 AI 프로토콜, 오픈소스 모델, 실시간 처리 중심의 운영 인프라가 필요하며, Postgres와 같은 실시간 데이터 처리 시스템이 핵심 역할을 할 것으로 분석됐다. 또한 에이전틱 AI의",
-        "score": 0,
-        "published_date": "2026-01-15T00:00:00.000Z"
-      },
-      {
-        "title": "스노우플레이크 \"에이전틱 AI·데이터 전략에 기업 AI 성과 달려\" - 파이낸셜뉴스",
-        "url": "http://www.fnnews.com/news/202601150958516367",
-        "text": "스노우플레이크 \"에이전틱 AI·데이터 전략에 기업 AI 성과 달려\" - 파이낸셜뉴스 --\n\n공유하기 공유\n\n내용 요약 요약 네이버 구독 구독 다음 구독독 구독\n\n본문 요약\n\n스노우플레이크 \"에이전틱 AI·데이터 전략에 기업 AI 성과 달려\"\n\n인공지능 데이터 클라우드 기업 스노우플레이크는 'AI + 데이터 예측 2026 보고서'를 발간했다고 15일 밝혔다.브래드 존스 스노우플레이크 최고정보보호책임자는 \"에이전틱 AI가 취약점 탐지, 익스플로잇 자동화 데이터 탈취 등 공격 행위를 정교하게 수행할 수 있어 사이버 위협의 규모와 속도를 크게 높일 수 있다\"고 강조했다.보고서는 에이전틱 AI가 기업의 보안 운영 센터의 대응 역량을 강화하는 방향으로 활용될 수 있다고 전망했다.\n\n해당 요약은 자동화된 기술로 생성되었으며, 일부 핵심 내용이 생략되었을 수 있습니다. 정확한 정보 파악을 위해 전체 본문을 확인하시길 권장합니다. (제공 = 파이낸셜뉴스 & NAVER MEDIA API)\n\n닫기\n\nI",
-        "score": 0,
-        "published_date": "2026-01-15T00:00:00.000Z"
-      },
-      {
-        "title": "스노우플레이크 \"에이전틱 AI·데이터 전략, 엔터프라이즈 AI 성과 가를 것\"",
-        "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03519446645318048",
-        "text": "스노우플레이크 \"에이전틱 AI·데이터 전략, 엔터프라이즈 AI 성과 가를 것\"\n\n실시간뉴스\n\n새 이란 최고지도자 모즈타바 \"미군 기지 공격 계속...호르무즈 해협 봉쇄 압박\"\n\n[[美특징주]넷스코프, 보호예수 물량 우려에 주가 22%↓]\n\n[이란 새 최고지도자 첫 메시지 “호르무즈 해협 폐쇄 계속 유지해야\"](https://www.edaily.co.kr/News/Read?newsId=06323846645382664",
-        "score": 0,
-        "published_date": "2026-01-15T00:00:00.000Z"
-      },
-      {
-        "title": "플랫폼 전선 넓힌 스노우플레이크 < 일반 < IT/스타트업 < IT < 기사본문 - ER 이코노믹리뷰",
-        "url": "https://www.econovill.com/news/articleView.html?idxno=733874",
-        "text": "플랫폼 전선 넓힌 스노우플레이크 -- -- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-35318383-1', 'auto'); ga('send', 'pageview'); -- (function(){adtive_targetpush_ad.start('OA444448','ILLLLLLF')}(document)) --\n\n## 본문영역\n\n[](https:/",
-        "score": 0,
-        "published_date": "2026-03-19T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "The 14 best open source analytics tools | Snowplow Blog",
-        "url": "https://snowplow.io/blog/best-open-source-analytics-tools",
-        "text": "The 14 best open source analytics tools | Snowplow Blog\n\n# Get Started\n\nWhether you're building agentic AI systems or modernizing your data infrastructure, Snowplow delivers real-time customer context, without the engineering complexity.\n\nBook a Demo Watch Our Demos",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "How to build an open source data engineering stack | Zach Wilson ...",
-        "url": "https://www.linkedin.com/posts/eczachly_expensive-platforms-like-databricks-and-snowflake-activity-7343702573440241664-tBHZ",
-        "text": "How to build an open source data engineering stack | Zach Wilson posted on the topic | LinkedIn\n\nAgree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and [Cookie Policy](https://www.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie",
-        "score": 0,
-        "published_date": "2025-06-25T00:00:00.000Z"
-      },
-      {
-        "title": "Building a web analytics stack: packaged vs modular | Snowplow Blog",
-        "url": "https://snowplow.io/blog/building-a-web-analytics-stack-packaged-vs-modular",
-        "text": "Building a web analytics stack: packaged vs modular | Snowplow Blog\n\n# Get Started\n\nWhether you're building agentic AI systems or modernizing your data infrastructure, Snowplow delivers real-time customer context, without the engineering complexity.\n\nBook a Demo Watch Our Demos",
-        "score": 0,
-        "published_date": "2021-03-15T00:00:00.000Z"
-      },
-      {
-        "title": "Empowering Data Engineering Today for Tomorrow's Challenges",
-        "url": "https://www.snowflake.com/ko/blog/empowering-data-engineers/",
-        "text": "Empowering Data Engineering Today for Tomorrow’s Challenges",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "스노우플레이크, 업계 최고 수준의 개방성 갖춘 엔터프라이즈급 LLM ‘아크틱(Arctic)’ 출시",
-        "url": "https://snowflake.com/ko/news/press-releases/snowflake-launches-arctic-the-most-open-enterprise-grade-large-language-model",
-        "text": "내용으로 건너뛰기\n###### &lt; ALL PRESS RELEASES\n\n# 스노우플레이크, 업계최고수준의개방성갖춘엔터프라이즈급LLM ‘아크틱(Arctic)’ 출시## April 25, 2024\n\nSnowflake logo\n- 스노우플레이크아크틱모델군에동급최고성능·효율갖춘개방형대규모언어",
-        "score": 0,
-        "published_date": "2025-01-01T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Nebraska battles largest-ever wildfire and other blazes as more than 600,000 acres burn - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQm1reG9jUnBKNjczOF9fM3FDMGlUVFZrc0o1WF90MnNGcjJlRnhZc3dicEU0QXBhU2VWa01LY0FzbUNZcU94NXpsNU5VS3dicngtdHlONUxaSTlKTjNWdjl4NmJTOHpmNTVIek40SXk1ZzAwWExtQS1iWUVPUnIyTXNxc1Z6cmZoRHpHb3VDdGhxRHVnYjdyeXRHMkNONXNkMG80emEzYWdwR1pUYlBaWU9HUWhxRU9wZnA1X3lvb2dTaUM3UGc4S3kzalZrbmZlSHc?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 02:40:17 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "What is Donald Trump’s approval rating? - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oWHJ3MWNNX2NVdkx5Uzd6Tnl1X1YydjUxZnYzUi1IRlJMUW0tTEd0S2hPRGgxOGRLakxlbUkxd3hSb29IN1dVZnVBT3lieXFoUm5WRl81eXRDN2FaTkV6cUEwdFpFRjlGSnR4VVdjUTY?oc=5",
-        "pub_date": "Tue, 21 Jan 2025 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "From spa treatments to vacations: a look at the lavish gift bags Oscar nominees receive - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQk84d1NaQU9vdmszdTZodW1vZUxNem9rcENiOEpfX0lBYm5wOWU3VTlZUjFycm9nMERHTzJSclJTenlHWWdJTFQyT243VzVpN1pjaUs3dEZ2VENYX01RcVlyaEYybTBBbmNRTUEya2NzYzFkNGQtdHQxTE1HLVRSVG9jQ3U4YzJVMi1JMGxZZWpOWVpTX0I3Y1FzdWRsa0t5TDRIWTlKckZpTkJyeHFPVTNMMmZ0QQ?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "The Colorado River’s Problems Are About to Get Deeper - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb04zY1l0QTc0ZzVVckNxUHBzeTJSbFBCazZSOHlwRUM3dXBXWFhyUlQtaGhuTUhEcjBLbWFjTEtWd29XZ1hLMFV6TnVjc09WUXA0a2NISFBGUi1QMFVrd2lqQmJHYmRGZFBvU0hFcm5xMGpfNldPZkFnQmtXaElMMExWZ3JjUUNtdTVYOFBTMEJrZ2hHcDQ0cDJtUlhDTU5WQ3FLR1JiTEwxRzA?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 11:30:02 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Small Businesses Are Pushing Back Against Private Equity - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUGtmbmgyN3ZXdUliRjU4d25xT0Fua0M5eW9hQzN2ekMtc1dWLWZEU0FaUVZZVXN3OW8yNGxjZ0JPVjVoNnJIRUdYR2JPcFBndEVkU0tzMXR6b3BfSjhMUUVyQUF1LTR2RDZGYTVzcWpRd2JCNVBoMzZvRVpyUWVmUHRDWldTQnRhbThKTmVjRHF6dEVqOG4yb3JKZUo0dFJkX0V1NmFXSTkxdFMtdXEycElENUZUeUFPbnhpYkliQQ?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 09:00:04 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "UK's Nationalized Railway Aims to Get ‘Broken’ Train Network Back on Track - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY3NWS3d2bVlpNDVSSHlscG5rS2pXS1AyZ3BzU01ZWjJ1WmgwMlB3MWN4LUNGMl9LakQxTXBuNUNBSGRkUUQ3RlhqTXVEOGhsLWo2Um1JMDQyVXk1ZHNVYnpFMEZaYnBRSzdveXRpdlNIMjNtakgyRzhzMlhWTEgyQmEwWXBqUnFieW1FeG9lX2Izek1HWVFnRk4xUC1wZXNxczZwUml4RV9BUzExbERUb3ZmRkFTSGs?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 05:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Arc expands into electric commercial and defense boats with $50M raise - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQczBReVlzNXVWeG9Ud0lKRzI5ekFZQ0E3LWk1cUtyNUpvWkREc3ctOEY3MjB5MlA1dWd1bVoxQ2JKVnFDaERFMFVvaGFOU0dZYVJFU2NfeUZRR2dYNUlaQXV0MjZSR2NnQ21vRk55ak9BNE50UHdLc0c0RTBVZEhHdlhJdXhJSGJKU2pFX3JmN0VmTnFhYVEwM1oxbkItaG1ha2tEUndsaw?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 13:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "What happened at Nvidia GTC: NemoClaw, Robot Olaf, and a $1 trillion bet - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZlhhalhleGtuM2xHSWtNbW94NmQ5bVhwT0R0eXhka2dVSG1xWGFFdVJlTFFZRjNPLUR3NVhPM016UVVIWDd0WU9ndzhpRjNaS0tJMS1HcFlCbjNOd1ZNb1N0VzY5bGY1bVhEdTRJQUhLdE04NC1aVmN3US1FUkZabVY2dC1OZThoVWs5ZXRLNWpTZlJpeUZuX1RzNElUaFE?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 20:02:35 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Cluely CEO Roy Lee admits to publicly lying about revenue numbers last year - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUk0dzlrM3pGV2FiZmotME5oY0ltYmFoR0pFa1h3YlhBeE90bzhRbW0xSGFRWkdBdzgyLWFsTFUtdFk0Y2pMajdmeVBLQXhlSmJRVTZDZkdiYUdFbkNXUVpLUFhyS3ViekJRTmJvMFJ3TlhlcUoxX1lmUUtvakNiZ05mbHdiLXUzRHFFemZtR0k5Sm5TOUZkRWVYVnVIdmZleGliLXpnNng5anNIRFVV?oc=5",
-        "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The $40 Billion Game of Youth Sports Has Only One Winner: Dick’s Sporting Goods - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQUF84bmd2dC1wUC1JNWtjNTJFVUpNYzJBYkNYYUV0R25ReXFReTQyX2xvaHRmVjVVeVphNC1HbUVScEYwelc3ZjU1dVRDcWE4bGk3M2ZhUEZtenYxS1pDbmdLaXBXdFRnSkZ0bWc4Q3R0cnhKTHRkMlllaDhpUldzNURpa1YxSklQM2t2bTR0NGFaZlg0cDBwS0doS3BJU0VwUkxqbzZnNFFYYUdfXzFncmJra2dDNUFtRFU4R1JfSlZ6MTNkMXplSGFacF85VGJpQXNMMk9GeUYzbVUzRkp0LW50cjJmZU45QXU0R2l5UjJZQXl1MHRRdVQ5alhGVnVDRWxPRG9jQ2ZKaXJ1ZVpJZWdSbVJnbWswUWVmbG9ua0l5eVhycmhTWklWRHlndTlaX09hc2gxZC1KRTQ4aW5MVW5FQkFDZHRJV2JZeDN0M2FXdWRxVE03dXN3X2wzaXByRkQ1ZTJjYVVtM2o1ZnpIV2w2QkpETFo2RmFqbGx4QUs4OHdCSnExeW1DZWdiN0U?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Opinion | An Ally’s Guide to Understanding Trump - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxOaDUyNzhlMm8wMFhYd1NQdjRaS0tHVURQazIzMHh3Wk9Qbmx0ZjV6QXI1WVVpRkp3M3BzdElrd2R2ejE1dGt4RDRDLXhZdDVkZXU5aEVlNHg2bzhkTlFydlpDSmNabjFpWmp5TVhIaEJqNnNOVl84Rk5wdXVCRzUyVDlDZmVZd0lTU1RoVURnZDY2UDU4cVhvWU12WDdrcWdZbG5OUjVtQi11Ynh4TGZ0cTZzdWdYak54QzFnMWdfUzRuaFUtaHlleUttc1lXeTFVT1pHLW9SOWR4RnlweG0xVk1LTDJVQUhEelJiS1pRek50dFhYTk84bVdLSk00SVNsMzdseDlIandSQmxmQ2NNUzZvQkdjVDBwbERVejRRQy1WWEJnaVZwczhLSUVNMkFUbTdKeW8tdS1fSmtQRUV2cHBaaVFHWUF1ci11LUF2eWZONy1XSW1aY1ZmeXFfeFNRT25pY0lzR19EZ0c5MFNIWU43Ny1UOS14RVV0TGpNeTRjMG9t?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 20:36:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Panama City Beach Is Done With Rowdy Spring Break Parties - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxNamJ4MkxMTUNoMWNzMVJ3SXN5R0EybGZwbTBZcmt0Qk8teTNfeWowdC15d3lLUlMzOS1QQnJKOHZzSnAxT2pnWEp0LW5lbzVvVlY2OUdJeFo2TkZ4TzhBWWlSME1VeGVoMjNCMVp3NXhxbjlNcEFRcDNhQS1rMFNwaGFZb3B5VUJWLUJSOTBiZXNDc0xsYzFJMXdhVlF1MXBxN2FrOFhVWGQyUWdDM240T0xNaWVEVVZDdktUc1l0cGJ6U0FGQkFqcnlqa0s2RzBXQW9TQmRoMjFWYWRTdHk5dmhDNWFIUUhmYXNiR0VRSENvQnJCV1VMV0JoMHcwMUdUaEhzSlV3OXFZdU5Sa2w5LXQ3NHkxLTFpTUdCUjlNSHU5TFRuQmVUWGZDNnlzLWpNR3g2RVZWZUs0S0FmQlJPOUxMNEI2WFp1bFg1NG1VVmJYa2pTeUhpemprY2E5WU9kNEtVY0RCRE43U1lOWElqRm1IZEI4VWNVenJBdmMwSXEwUTFJZGtsLVFRaVo4eTJybEFzQThrazdCN3VqeWRaQUNxRQ?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Jeffrey Epstein asked for Snow White costume weeks before Jes Staley email - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUW5Qak1wUDlSQ1VtbXl5aFVPSXBDSHVYa2wzeEQya0pSWmhxbk5BdkloV3NfNF9wWFN2amM4VnFZa0FfVHhrM1FQWnJidjFGSW5VeFk0WHVDLUVlTjFZNm1yMjhmM0k2QThIYkNDRjdCN1NBMnBzLW44UTk5WjRUVXhHREg?oc=5",
-        "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Greenland ice melt opens sea routes for critical minerals - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ1ljYU9Rb1VnNDZiMk81OUZ0dmJ6aDE3TS1qTl9hVnpGQkh1cnF3RV91V0JSLTA1ZVBDdVNMRFJqV2QzQmZlY1JuTzBUSDlYUFBJTHJ6QndxWXZtTUk3alI5ZmcyS0VVYmFSQS05SENxRGRnVHdLNnQzSnRGMnVuY1FGUjM?oc=5",
-        "pub_date": "Tue, 10 Feb 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "The UK’s meningitis outbreak and the grim legacy of Covid - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPazJ0RGhiMEFVTFp0U0Rkb0R3cnlpVmJNRUFORWQtaTFJNWQzTk5GcnQ3OUNiLXJvNVpUbGhjWm9EVDFNTlp6VW5FaEF6bXVVSzRSeU9qQ0RWTzNEUmFEWUFJWEZsOFNsUzV2cVZ2eGZHX0JLbGQxbWhVWUhnZUVJbWRMc2k?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 16:38:12 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "South Korean marriages jump 8% in 2025 as attitudes change - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa0s0bDVLQng5cktHU29ZalJpaVdCZ1Mwem1MMXZVeHBvTEM0aXpCMVVQMlJYbDJhOE1iSU5ZQ1Y3UVNjNVo1aVB6dlhTQUVXQ2tUd1c0aGVWMVB0MUl0NC0yYWM5TFR2V0UwSWtkTFJBdkU5UlBZUEF6VG1BUzI0dzVRTHJoTWxaSDN3UUpxVldOS0J6MERtN0lzTUZOcFlPZkE?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 05:59:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Labubu set for big-screen debut as Pop Mart, Sony Pictures team up - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcDgwUVl4T2h0R2N3MnJiZmpJQ2xuVEd4VW9jalpGTDgzY1JIV2VuOV9MWjIySGhkYmxuRUYzcVc0eDZkUnk5MXlYZnRwZm5pdFQwN3dRUTcyR2FPX2Y0VDRla3BtMzRmV1dGRzd6YldUY3F3QlRidzJ0eG1SZWxwV0k4MUhSWXV4NkVDa0IwOXBDNnRUVzRReTBDNGVvYlZmWk5iMGFhNmRtdGdHWDZSWnU4WVhOOHRoTGc?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 04:28:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Nvidia predicts $1tn revenue through 2027 as AI inference demand surges - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTHd3OVdvZ3Q2dnRIRjdCTndVM09EN3NRSWl0R1ZkeDJpVFRrMUR3WlZBdXd1VDdyN2xtYUVoaHZjWHVsT1FfdE1jSFVFSG9xNDdsczBvajBTcGJCLXlOV213Q0E3UTEyN0Q1c2FyeVVTc1d5WjRXeEFMYmVvaTV2dlhyY3U1ai1rY3BFcE5jQ0w4SEJndmlpODRZNm1GR3JhaTBjWkZTZlExSkVQY3VGS0ZXVFVjSjdtcklpM09BTVJOVHlPbVBTNjhBQy1IdkNSSU42NQ?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 20:12:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "The New Snow Toys That Tech Moguls Love - The Information",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOWhQS1pILVdwU29Cd2p2WlQxOWhiNEp3TE02N0dDX0JWdzI3MHhlZHFWbEZraS1LLVNhWUZPZU9mSGV5SlkyeHFJaFhGenNVMmVHSF8zTmdWZ3VOZ3NMNGRNX1lJbWoyVE9semh4SFBsRlJXdWZYdmNQMWlkaDREYm9xam9iUQ?oc=5",
-        "pub_date": "Sat, 22 Feb 2025 08:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "The Best High-Tech Protective Gear for Skiers and Snowboarders - The Information",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMEhNT1NGOWcyVHRVemhkOWUtOTRZRHRjbW9ITlN6Q283TFNKWHNlRmxlLWRaWFN5TURnZEFhaHgyVE1qTGlRNmhSM1Fxb1NsUnZQUHhyU1AwbTNHZlRSaGJHVnNYWlpWTlRmX040NEhtUnlCYkNVb1ltd2xzcF83NXp5T2xwMFVneWc2WTZUNXVYeGRXRjhPbHVsVkRjaG1ZM05MdQ?oc=5",
-        "pub_date": "Sat, 08 Feb 2025 08:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "An Emergency Guide for Salvaging Ski Season - The Information",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDdfaFJkSVZvem82WHYxMURuaWNPbGUyNVloTHFyRnpDTWw4bUxmWEl6WmFlWnRHUGhCLVFtVnJ5VUR3QXBERWNsRHFheVNBYnlRal9ZeVNad0V0ektkbDdlM2Q4Y3dHZXdKeGRfMHo4UzdaX1VyZ1ViWFJJVS0xeVhR?oc=5",
-        "pub_date": "Sat, 14 Feb 2026 08:00:00 GMT",
-        "source": "The Information"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "유럽 시장 공들이는 넥센타이어…핀란드에 시험센터 열어 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN0JHcnFvc3NySXhPWGhxdnlFNWF6UGdnazZNaTFaelk5WDl0ZmZESEc1SnJJU0pXOGVtcTFfRlZKVFo5NXZKWU9zenhiT2NZQnpSeUo1dFJ2NEx5T1QtS2hPUUo3UjJOUWFYaWFfbG8yR3JNcGY3b1RWNnBjdEI2aEJXTDJMLUE?oc=5",
-        "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "'꽃내음 가득' 도심에서 만나는 에버랜드 튤립 축제 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xVmtJWmpkTDFHcmttNGF2M2ZxU01zVGxqajU2Y0NOZjVGdG1LMzdtQ0M3d0lCME5vNkZUZmVOa1kzNlBidHZOdmQ4dzZDRzdTRENIbktELVU3Z9IBVEFVX3lxTE8xUVhGbFM5ZzRTTEdXeEdMaHpiRjdTNngyR1dZbkx1WDhZb1ZiT0FLdVFSUWNVTGZrODR4cjYxelhMQm1EV1A3Z2ZuQWZPeEFyeG53ag?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 06:14:50 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "한경비즈니스 - 매거진한경",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mM2RTeURpT2U2dmhDV3RqVjZzX0dkNzFTT0hIRHdNRUFadjc1UjhKZ0JCeGxIc3JtQVdGUWkxbHgzZHFGX3dieHp0ZDNsZkxCUDFYbHJiX2F4Y183TzdNbGhYXzkzRnBT?oc=5",
-        "pub_date": "Sat, 21 Mar 2026 04:56:15 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "클레이너만 스노우플레이크 부사장 “복잡한 기업 업무 자동화로 ‘에이전틱 엔터프라이즈’ 전환 가속화” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU1Q4NGhORGh1RC1UeVluOHZjNXE1dHFPcmd0MmRYUjBRd1BGcDVQUkJQajZSNnZjMldLeHNxM3FtNDkwUmg5RGMyaDBRWG9LTi1EU0plM3JfUEhHUXBFbFRzeUdLMnMtYlgyTTVQblVaWDJTSnFVZWx5RG5QNVlQTDRB0gGWAUFVX3lxTE1aNW1teG9VdzA4NTJGbS1BLUlUSGpvQVVuZlJIWFlJaEEwNkRKZEh4ZjhPVXltTDhhQ05ON1RBR2tULTRxV0cwTDd0WUhTXzBVUzBvOTFnajRyM01wZ2RQRUJkdEhVUkY5alVOYS1WMmtZejdiN2pBelZ2Ry01RTE1dTg3UllPUGNkSURfMHlxLUdEUk5ZZw?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 06:03:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[사진]2026 동계패럴림픽 폐막식에 등장한 스노우볼 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeF9YOTFDNWVlRUhuTlhwSzFQcGdRVThNb2pIOWZtTGlsdm16eU03TVlnQ0NELW5fYUhsd1ZIN0ZfYXhHc2xxMnhvVXJ2bk5iUzB1dlF2d3hScDMwSDA0akE2anR6NnBzVlhka0lOY3VFR0o2OThrTkx5Uk5PTFBxbndYVHlCYmEt0gGcAUFVX3lxTE54TnVKajlqRVo0eWU5eXUwUjN4U2lwQmtidXh2OUZfSzFlUDB2Ynh2TGFmdl8xSEZ0UFVMQWNhSklTM3JJTzVqR2ZObEVVT2hwMkN3RGFnaThOWDBYdWRfZDV6QkxfLWdTNjJTMDRVS1pUaDVWdEplWGdPQWlIMUJzaWVROTFsR05Ma1N5RWUzcWt3QmtNdk9QYjc2ZQ?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 09:01:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "인천 간석동 간석 래미안자이아파트 119㎡ 6억2500만원에 거래 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM05IRlBPRnRqMVMweWZCWHVZS0pBeTJTT3BWUll6ZDhOLVpqbzZxOXZDa2pKT2xMMlo4UENOVl9POEx3dktlcTZrUjV4NlJnUWNSQjVsc0RDeVRURm1qNmRfM3hXbDlSWTdFSHUyVUczT0NXSXk0YVh2WktORWo2bWl3VDlGYkRaWHl3bnB4RUFHVE4zbW81TW51UdIBmwFBVV95cUxQM05IRlBPRnRqMVMweWZCWHVZS0pBeTJTT3BWUll6ZDhOLVpqbzZxOXZDa2pKT2xMMlo4UENOVl9POEx3dktlcTZrUjV4NlJnUWNSQjVsc0RDeVRURm1qNmRfM3hXbDlSWTdFSHUyVUczT0NXSXk0YVh2WktORWo2bWl3VDlGYkRaWHl3bnB4RUFHVE4zbW81TW51UQ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 06:09:07 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[AI픽] 스노우플레이크 \"AI 데이터 플랫폼으로 혁신 가속\" - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uYUxZa25LVmxlalZDSWg1bDdDX1JISFVQSW1lUHJ6Q1NvcXdGY0dteTlSeU93dG5aNEtORWM3cWd2M1ZweWxIVWZIamJMcjVP?oc=5",
-        "pub_date": "Mon, 08 Sep 2025 07:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "스노우보드 여제 최가온의 반전 일상…기차 쪽잠도 힙하게 소화하는 여행자 모드 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWVZ4M3lGMVB1RS13MDNkamdPblRFdDJoLVAtRFY4RU9qYXhyTDNpeXJqd1BLY1lOYkhkeS0wR0RBdm1hamhnMVZKS2ZwLWZqWDBKaE82MXpUbDdmUGxGSU56QXZ6UkpyRlFpZ0h5TWEtZnhEelRDbGwydEJybXMzMnlxc09pTVphLU5ZQzRDNkN6LUl2d1lYX1RRWE9RUjZQWDJWYVBralDSAagBQVVfeXFMUFlWeDN5RjFQdUUtdzAzZGpnT25URXQyaC1QLURWOEVPamF4ckwzaXlyandQS2NZTmJIZHktMEdEQXZtYWpoZzFWSktmcC1malgwSmhPNjF6VGw3ZlBsRklOekF2elJKckZRaWdIeU1hLWZ4RHpUQ2xsMnRCcm1zMzJ5cXNPaU1aYS1OWUM0QzZDei1JdndZWF9UUVhPUVI2UFgyVmFQa2pQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 23:45:19 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "북코스모스 소개 - 북코스모스",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQXhQeDJhTnpZLVZmdENyYl80dVhOam8zckJyRVlwTzdMekI3VkNzQmdHc2FfR0N5cld1M3dGaUFyMjQ0MGdWaW9XR3NxNktRbnMyYlk2dFRBUTRKTjVNZmJkZklKM0loUGRNNmJ1NXJNdVZQU3h6ckZkdVdiMVZKV2RBcndWWS01LWRtRmlPaXhXN2c?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 11:45:28 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[현장] 스노우플레이크 \"기업 비즈니스 성공 조건, AI·데이터·인력 대통합\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sdjdvV3gybGdxZUh6OGU0VHdsRm93TkFWWTBlRk5oOEcyWDVrX2hvbVFTZExKWldmNHVYNXlFRGx6cGdvQVFheHFlb3Ezcjd4RmlKY1ZB?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:46:17 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "스노우플레이크, 데이터 분석·의사결정 통합 서비스 출시 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BTnNjdzB6Z08xMnFSLXlQdGJqTUJJdE5MUF9LekdKZ0ZGUGZDZ3BsYWNlbDVDZmlYTF9YdjNfR2NKY21tVnVEVFF4NTJJOGcyTUVBODdn?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 01:47:19 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "BTS 팬 잡아라…신세계면세점, ‘K-러브 페스티벌’ 진행 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sM2lzSzVxUnIzb1ZNNFgySUctckt5VmNSLXZyN0hLTk5uVkN3Vk5ZTTluQzdrZER5V01oeHNUWExRUklQWVcybjljUWNZMFRzVXFCZWtn?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 01:21:09 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "롯데온은 매출, 넥슨은 속도…스노우플레이크 'AI' 효과 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4d21ud3k0bXFhZU9NeXRLcFlWVzAwVlJhSTRaWHB1RHdFUUZuVVNQbUxPYXlNOWRTc054UFJUSU9la0dleS02SFJHVmRCNkc3LVNiOElfNHItZktGMFpzektJb2FmVWdu0gFsQVVfeXFMTTBRaXlEd0tPbjlZRllaSEtFSkx4MlFWUlY5TVpKbE1wbENWT2dPMnFRZ2ljdEhmaGZLSFJSaE41Ukx4NVB2eHR2NXFCelZqbGh1X1NBbEVyZllrRVRTU0hUcktueUtTRU9iNlBK?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:58:44 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "SBI저축은행, 교보생명 편입 초읽기…사상 첫 자산 20조 돌파할까 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fUWQ2VzRMWDZUUEdEVGxKQWdnR0RaZ3hKUFRHUnROcXpoOU1IamlBV3Rfam0ydFRtZjFSRGt4R2pPeXF2bTZNMm44MnRBZEdDUFc0bkxReG5MY0FRVFB1X18tdjZzLUls0gFsQVVfeXFMTndLWGtOZGctcHpWSTgzbXNyTzZfM0NwUUxmaWlORnJtMk5UR05oemJmQ0o0c3U1YzZxODJlVURVandyU1NrQzlHcTNna1lBMENib2dxQUJwWDFrSVZwLXdZYWZyZklTQmJKLUlX?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 06:32:53 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "뉴욕타임스 ‘스노우폴’ 제작자, 가디언 수술한다 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54TTJCV05RRnVFREprY25XbDBFZlJRYi1TQkhDSjFiZ3BEa190ZmlfX2o1clpHN3diS2REeWttX041RVhfUEVneUUtODUwdlFobS1VaGtvdGZ0M0dWc1E3YXhlOEctV0nSAWtBVV95cUxOemdqWTRVaHVOYm14NnpnZjlDUXhkN0V6UlVScTRETk9NSEx4R00tTmlUN3ctUXM3QWFEV3d0blFmUDA5blllakJUMEdicUprZTkzTUF1S01WbEhFTHhHZHFmZGl0am93Zkpudw?oc=5",
-        "pub_date": "Wed, 15 Oct 2014 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "스노우플레이크, ‘이그제큐티브 라운드테이블 서울’ 성료 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03enBFcTFTTWNCT0JwT2ZybWQzM0NRV284b09CQjk2RGxyU2ZEZUkwR21jS3B1NVhXTkdXZmdvT3pjVzl1Znk0WER0R01CUVE?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:02:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "스노우플레이크, 데이터 민주화에서 AI 민주화로 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MM29MbU5LTEFxcktkZ0ZobFZkYmZCLUtJTGNwS2NRU3lIdmJFSV93bHM0VTQtQkFiMWdkUVVaTHB5MFJFaXJENkRrRFAxTW8?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 21:55:37 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "스노우플레이크의 진화 ‘AI 에이전트 기업’ - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhX1d4U0ktOWJ6Y19MZ1FoUi1lWXlaZGdzbVA2bjVGOFByVmx6aXQzc013RjJJam5Bb1hhN2hHQ3YzTnJ4TkUzdW5XM0UwR1U?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 07:15:36 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "스노우 주식회사",
+      "company_name_eng": "SNOW Corporation",
+      "stock_name": "스노우",
+      "ceo": "김창욱",
+      "address": "경기도 성남시 분당구 불정로 6 (정자동, 네이버그린팩토리) 15층",
+      "industry_code": "58222",
+      "established": "20160801",
+      "homepage": "www.snowcorp.com",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "brave_web_results": [
+        {
+          "title": "SNOW Careers",
+          "url": "https://recruit.snowcorp.com/",
+          "description": "스노우의 일하는 문화는 계속 진화합니다 More · Financial Wellbeing · 회사의 미래가치와 성과를 함께 나누고, 생활의 안정을 지원합니다. Time &amp; Refresh · 저마다 몰입할 수 있는 환경이 다름을 알기에 시간과 공간 선택의 자율성을 가지며, 리프레시를 위한 충전의 기회도 마련합니다."
+        },
+        {
+          "title": "2025년 스노우 채용 기업정보 | 인크루트",
+          "url": "https://www.incruit.com/company/1678247952/",
+          "description": "스노우(주)는 소프트웨어·솔루션·ASP 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+        },
+        {
+          "title": "스노우 진행 중인 채용정보 총 5건 - 채용 히스토리 통계 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/16152280/recruit",
+          "description": "스노우 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+        },
+        {
+          "title": "스노우 2025년 채용정보 | 캐치",
+          "url": "https://www.catch.co.kr/Comp/RecruitInfo/HS7855",
+          "description": "신입 기획/전략/경영, 네트워크/서버/보안, 빅데이터/AI, 사무/총무/법무, 재무/세무/IR ... 신입 네트워크/서버/보안, 영업관리/지원/영업기획, 일반영업, 채권/보험/보상/심사, B2B영업/기술영업, DBA/데이터베이스 ... 회사소개 캐치 이용가이드 이용약관 개인정보처리방침 채용공고 등록 채용광고 상품 안내 고객센터"
+        },
+        {
+          "title": "[스노우] 2024년 4월 전분야 체험형 인턴 채용 | 공모전 대외활동-링커리어",
+          "url": "https://linkareer.com/activity/172291",
+          "description": "[스노우] 2024년 4월 전분야 체험형 인턴 채용합니다. 모집인원은 00명이며 미디어, 디자인 분야의 인재들은 지원해주세요!"
+        },
+        {
+          "title": "스노우(주) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/TUtzSkY1eWEwdFhLRjhPUHcvdXVvQT09/company_nm/%EC%8A%A4%EB%85%B8%EC%9A%B0(%EC%A3%BC)",
+          "description": "스노우(주) 기업소개 - 업력 : 11년차, 기업형태 : 대기업, 업종 : 응용 소프트웨어 개발 및 공급업 | 스노우(주)의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 확인해보세요."
+        },
+        {
+          "title": "스노우 채용 - 2025년 채용정보, 자기소개서 문항",
+          "url": "https://jasoseol.com/companies/6403/careers",
+          "description": "스노우 신입, 인턴, 경력 최신 채용공고 정보와 자기소개서 항목, 직무별 지원자 수, 합격 스펙까지 한번에 확인하세요."
+        },
+        {
+          "title": "2025년 스노우 채용 | 인크루트",
+          "url": "https://www.incruit.com/company/1678247952/job",
+          "description": "스노우의 최근 3년간 채용정보를 인크루트에서 확인하세요."
+        },
+        {
+          "title": "스노우 채용 2025년 기업정보 - 평균연봉 6,872만원 | 캐치",
+          "url": "https://www.catch.co.kr/Comp/CompSummary/HS7855",
+          "description": "스노우 초봉 3680만원, 스노우의 채용공고, 기업정보, 재무정보부터, 현직자리뷰, 면접후기까지 모두 캐치하세요."
+        },
+        {
+          "title": "기업분석보고서 1. 스노우, 채용 분석 및 기업 정보",
+          "url": "https://www.jobkorea.co.kr/company/16152280/AnalysisView?Inside_No=20870",
+          "description": "스노우의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요."
+        }
+      ],
+      "google_news": [
+        {
+          "title": "스노우플레이크, ‘에이전틱 엔터프라이즈’ 시대 선언…자율형 AI 플랫폼 ‘프로젝트 스노우워크’ 공개 - e4ds news",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xSWJCVDZjQ1VNYUhnQ0hzY0ZJRlBoZzVMN2RsV19VUVp4OTA2WlpxRk56SjRLenNKZ0liV0RwRDE5eGgtSEF4MFd2NFRlY2ljelNJb1FuVjFYRGJIMWJPQl9sOVY?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 03:19:00 GMT",
+          "source": "e4ds news"
+        },
+        {
+          "title": "스노우플레이크, 에이전틱 AI 시대 비즈니스 혁신 전략 제시하는 ‘이그제큐티브 라운드테이블 서울’ 성료 - 뉴스와이어",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXWWZOV0lxME1uLU9xR0xaNjBpaXRVZklVdkJ6TG9lTkhlUmx2cUw0a3J3eDkteER1d2wtVFk1LUg5cTNUdVA4ZXdqNGlkZnNMdGItZFBxNmtwRXlxMjRz?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:18:01 GMT",
+          "source": "뉴스와이어"
+        },
+        {
+          "title": "“데이터 분석 10분으로 단축”… 스노우플레이크, ‘에이전틱 AI’로 기업 혁신 가속 - 스타트업엔",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPVlRWbU9WOWxHbFREY0FjTXlqT2dwWEliN2RzV1VHUU9JQWM5c1Nab1BQRGNLTDNOdHNFR1lfLWRDZU1nUXg2RVdBV25VY044SU5iOE5QUjUwRVBNdXhELVV5Y09qTVk00gFsQVVfeXFMUDltc2FBWnNtbUROWHZOWUlhN0lQbWppbTIySlo4NEh3R04xNXM1WVRHblBCQzB0RnhCSmJQRnpmMTh6ZVh4ZVVYTGhPMk5pY2w1RjQwODF1VEVOekNHOUdpMDVWVkZyeFp6QjZy?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 03:11:58 GMT",
+          "source": "스타트업엔"
+        },
+        {
+          "title": "스노우플레이크, 에이전틱 AI 전략 공개, 서울 라운드테이블 성료 - 데일리경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4TVZNWGVyLVVQaFI2enBPd1V0eDhNVkhZaGpOUm5jUWE1S3dXTTZVMThqT3RwakR4WmVwS0RLV01QS2xMTlpyZzAxeDhLcU96TjcteTVvSFhZblRnSnZUdmpmektjMklVSUw4LQ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 14:51:59 GMT",
+          "source": "데일리경제"
+        },
+        {
+          "title": "“AI 경쟁력은 데이터”… 스노우플레이크, ‘에이전틱 엔터프라이즈’ 제시 - IT조선",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uem5GZzhCd2NpcmROMzN1VS1WQmRmejM1Nm5NTjJuaXoxODFIa2szZTJoUUVnNUE2ampvLUJNdmIzV2lZVV9VblR2c1RNOF9jMFdMeW9ibkpPbmUtNXlOMThDeG9UYzBMREg3ekFHbzDSAXRBVV95cUxNenVWcjlYMFVSWXBvZFpaWmJvajBNVTZ2cHdUTlFjTmRKZmI4eTFFVzlXaUM4cDJlOGRRem5zZHFyWHZDNkYtbXlodHlOR1R5bldzenV3T1NGRVpFMGpkanlNUTdGN2NKSGV6Q2RBUmJJVmJDOQ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:15:42 GMT",
+          "source": "IT조선"
+        },
+        {
+          "title": "스노우플레이크 “AI 도입 기업 77% 고용 증가”…일자리 공포는 기우일까 - 헬로티",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHUFJ0UGNxOHJpTWFpQUtGY2NHODdrTDdNdm1KYmlKQWtZek94cEJQdDRnZmpSOVdSUmdkTGdaUWYtemxMNmFTWmNuRVZRN3dOaW80RG5seDhGZGcyS3ow?oc=5",
+          "pub_date": "Thu, 12 Mar 2026 05:07:32 GMT",
+          "source": "헬로티"
+        },
+        {
+          "title": "스노우플레이크, “AI 도입 기업 77% 고용 오히려 늘었다” - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fSDlwbzJoLVZ6QXlwc2llSmZnZ2xRUVQwUGxvcHRqNkExWFhQUHAtaFJBX2JfQ0w1WnhhWXJISGVKRUZIenpOaGk2TzZTdw?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 01:17:24 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "[#클라우드 월드] 와이즈넛 'AI 바우처 공급'·메가존 '양자기술 전략' 공유·이노그리드 'AI 인프라' 구축·김민준 의장 '대통령 국민포장' 수훈·스노우플레이크 'AI ROI 보고서' 발표·코바코 'AI-DOOH 트렌드 리포트' 발간 - 뉴스웍스",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JOXQyR01mSTVFWTZJUWF3UGJIdWJYSU91MWlKdUtIQVVwQXRHVmVOZjA2Y1h4WFpCWXVjdnlMYlhsQ3pCeXN5eDlqNzJvbUVQZDZudG1jSjZpRHZRWHFSQVhhWVUxZnVqbEJSY3haONIBc0FVX3lxTE1udzkzYzNzakxTd0xWODQ1VnJvXzBuTnpzbVVQSzJac2FsU1k5X2hWeFdfalQtQzQxdVYxblFSblZWQXBuclNnN2xiQVV3eVBTd3ZGY21uc21BODBONUdvdnNKTEF0NkI3QVEyampHTWc5Sjg?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 04:58:17 GMT",
+          "source": "뉴스웍스"
+        },
+        {
+          "title": "오픈AI, 스노우플레이크에 모델 제공 계약...앤트로픽과 B2B 경쟁 치열 - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LTVZLVmlvTjJ3YWdaU256N0VWaG5EWkNzLXFmeHNWZWtMUS1uekgydkZTZy1BakpubzRHdnBMZUNUaGpFczZ2R045UXkyTURrMGFvVDRCNGp0TjZYWjRxd1VZT0dDR0VWcGc?oc=5",
+          "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "AI 도입 기업 77% “채용 늘었다”…확산의 걸림돌은 데이터 - e4ds news",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OcVNHMzhXaG5RMS1mSk00bVJZY0Q4NmZJSkNKVE9GLW1wTk1jVFdoX2RsQVBzMDRJMU83dVJjLXc4QzJiQVV6OFZPQnZ2b1FoakVqU1VDN3RuWXVleW15TlNB?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 00:59:00 GMT",
+          "source": "e4ds news"
+        },
+        {
+          "title": "스노우플레이크 “끝난 모델 경쟁, 에이전틱 AI와 데이터 운영이 관건” - 더에이아이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kZG80eWgwREk3elBuYnVjSElHdjUzVTZvT21acEVjaUJIbzlPS21QNDZTLU02VGRrVWI3LXBVcHBvR2VqekdrVS1UaUxQdUdZbmdXQVhZb1c2QVJvSm9sc0Y4UkdCejl4V2ZR?oc=5",
+          "pub_date": "Fri, 16 Jan 2026 08:00:00 GMT",
+          "source": "더에이아이"
+        },
+        {
+          "title": "[르포] \"韓 스타트업, 美서 사업하라\"…스노우플레이크 'AI 허브' 가보니 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TcnBvMVR2X2NFNE05bVVWZnliYmJQUUtSTnRTN2FxQnlUQkpJVVZqeUZOeXdVUXM3RGxnSGMxeVUydk5UVEJZY2JraUE0a0RNcktEWWdR?oc=5",
+          "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "'AI가 일자리 뺏는다?'... 데이터 클라우드 거인의 답변은 '오히려 채용 증가' - 스타트업엔",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HWUJqOWdQWnRVWUl2djdGREVNM2NfT1FEbkZXUnpnV2pON1pjWERzbTFsV242Yk9BQ0JOMFRIUHRvZEpYQnRJNy0wYWxrTTlyTzBRQklGNVRJYnhYNzhaZ3pYTnFFaUNH0gFsQVVfeXFMTl96cVRUaFozRlZOSHNTUzlBeHg2Z0t2M1ZKdklJOTZSNjZYTUkzaDFPQURtaE92UUlYSUoxQmxkR3JzYjBuTzAwRUx1OUFRWHVmcWM3UjBPMk81NmxZVHA0Y3NpOG5zc1R2QWZu?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 02:42:43 GMT",
+          "source": "스타트업엔"
+        },
+        {
+          "title": "스노우플레이크 코리아, ‘데이터 포 브렉퍼스트’ 개최 - 데이터넷",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GRXNmYmFZU0thdzBDMmFoc1J5a3BhNEJ6clhJblVhWXNfZHpMZDRHR1dzOVozOWtzam82ZUNsYjhhVzhMWFFmSWRsRE9Cdm5zeldYcURVcERYUzFINGo2QjJCdnUyRmkyQkNKdQ?oc=5",
+          "pub_date": "Tue, 24 Feb 2026 08:00:00 GMT",
+          "source": "데이터넷"
+        },
+        {
+          "title": "GS네오텍, AI 사업 강화 위해 신입·경력 채용 - 더에이아이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWGNCbGE3bEJwdEVCakQ0UGpCQU1IcWNtQ0d0Qi10UUNNN0ozczYyREZoTEZySXdfb2hTQ2tQd1N5Rkc5QlBzanJEbmFnSElBakNhMEs1SVdsYkRwVEVFZWc1Q0VmY1FJV0E?oc=5",
+          "pub_date": "Fri, 16 Jan 2026 08:00:00 GMT",
+          "source": "더에이아이"
+        },
+        {
+          "title": "감성코퍼레이션, 4분기 실적 기대 부합…중국 확장 모멘텀 유효 - 프라임경제",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WRE4zaXlPNTFmQ2puVlE1STV2ZHB1QTE1QTRuZlJhZWZmZi1FQ1NaVlJWeW41TmxYUEtpTjBiWGFadF9PMmdWN1U5SXc2UVg2UEVXOGFXZGNMQ25zMExHU1I0RXFkT1BzTFZzcmRPZ2plUQ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 22:15:46 GMT",
+          "source": "프라임경제"
+        },
+        {
+          "title": "[감성코퍼레이션 톺아보기] 스노우피크 매출 의존율 96%...리스크 관리 숙제로 - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aZ29mZDdWRDdnb0dYMW9jVWN4Q20wWExLNzVnZlplOFR2WUNxdW1nN1pBa1dWcGRqdFN6bEhHREV2a1VsYzhBWXFlZzJtM2c?oc=5",
+          "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "[서치 e종목] 감성코퍼레이션, 올해 中 사업 실적 구체화되면서 주가 동력 얻나 - 데일리인베스트",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LNXAwYklwWDJvVDVBRGFZdzBnSUJqSGtqeXVmcTZBY0M2UFZRc3RodDUtZ25sSkZOdS1VYVFTWFZWSUFESG1TUnJscDlmRU5XR1FjQXl3Y0RfWi1vMWIxQVk3Unl0LVVKQ2Z30gFvQVVfeXFMTlNXeFhxbDRDbFdOd0gydGJCSm9OdXZ1a1Q4TU4zbEZuNkhTcjRVZzROQllzM2gyUWQyQzJmM1JDU1NzR0oxRXJzLVJHbHY4M1g2aTN5cUllblRGMUVRb0x0VEEyLW9iYnBZaEp4MmlB?oc=5",
+          "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
+          "source": "데일리인베스트"
+        },
+        {
+          "title": "[감성코퍼레이션] 스노우피크 열풍, 이제는 중국에서 터진다… 감성코퍼레이션의 진짜 시작! - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm5QN1B4blZaM0Myb2JSZ1ZIbmliTU1YNU1DWm5yZ3VkSFRsUzVlbkRYajk3YzlUTnJMSEZDOHpZeDBpVUFIeDUwTnZqWV9ZcUNSZzNtSWdGenRmWXdIQ0NpZGlxNlNoM3Z3U0JIeVBfbWI0MG50Y1hxZDdkNFZfZzNxVmhGQXE0?oc=5",
+          "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
+        },
+        {
+          "title": "‘3분기 견조한 성장’ 감성코퍼레이션, 겨울 성수기 최대 실적 기대 - 패션비즈",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Ta016dm82U2E1Yi1fNlBueVpTNk91LWZOUnFOT2Y4Wm5wdkgyb1k2eUxxaXJJZVRCSF9HQ2JyZ1RzS0RkQmxWSDdrT3J6TWFl?oc=5",
+          "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
+          "source": "패션비즈"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "유럽 시장 공들이는 넥센타이어…핀란드에 시험센터 열어 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN0JHcnFvc3NySXhPWGhxdnlFNWF6UGdnazZNaTFaelk5WDl0ZmZESEc1SnJJU0pXOGVtcTFfRlZKVFo5NXZKWU9zenhiT2NZQnpSeUo1dFJ2NEx5T1QtS2hPUUo3UjJOUWFYaWFfbG8yR3JNcGY3b1RWNnBjdEI2aEJXTDJMLUE?oc=5",
+          "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "'꽃내음 가득' 도심에서 만나는 에버랜드 튤립 축제 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xVmtJWmpkTDFHcmttNGF2M2ZxU01zVGxqajU2Y0NOZjVGdG1LMzdtQ0M3d0lCME5vNkZUZmVOa1kzNlBidHZOdmQ4dzZDRzdTRENIbktELVU3Z9IBVEFVX3lxTE8xUVhGbFM5ZzRTTEdXeEdMaHpiRjdTNngyR1dZbkx1WDhZb1ZiT0FLdVFSUWNVTGZrODR4cjYxelhMQm1EV1A3Z2ZuQWZPeEFyeG53ag?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 06:14:50 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "한경비즈니스 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mM2RTeURpT2U2dmhDV3RqVjZzX0dkNzFTT0hIRHdNRUFadjc1UjhKZ0JCeGxIc3JtQVdGUWkxbHgzZHFGX3dieHp0ZDNsZkxCUDFYbHJiX2F4Y183TzdNbGhYXzkzRnBT?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 04:56:15 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "클레이너만 스노우플레이크 부사장 “복잡한 기업 업무 자동화로 ‘에이전틱 엔터프라이즈’ 전환 가속화” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU1Q4NGhORGh1RC1UeVluOHZjNXE1dHFPcmd0MmRYUjBRd1BGcDVQUkJQajZSNnZjMldLeHNxM3FtNDkwUmg5RGMyaDBRWG9LTi1EU0plM3JfUEhHUXBFbFRzeUdLMnMtYlgyTTVQblVaWDJTSnFVZWx5RG5QNVlQTDRB0gGWAUFVX3lxTE1aNW1teG9VdzA4NTJGbS1BLUlUSGpvQVVuZlJIWFlJaEEwNkRKZEh4ZjhPVXltTDhhQ05ON1RBR2tULTRxV0cwTDd0WUhTXzBVUzBvOTFnajRyM01wZ2RQRUJkdEhVUkY5alVOYS1WMmtZejdiN2pBelZ2Ry01RTE1dTg3UllPUGNkSURfMHlxLUdEUk5ZZw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 06:03:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[사진]2026 동계패럴림픽 폐막식에 등장한 스노우볼 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeF9YOTFDNWVlRUhuTlhwSzFQcGdRVThNb2pIOWZtTGlsdm16eU03TVlnQ0NELW5fYUhsd1ZIN0ZfYXhHc2xxMnhvVXJ2bk5iUzB1dlF2d3hScDMwSDA0akE2anR6NnBzVlhka0lOY3VFR0o2OThrTkx5Uk5PTFBxbndYVHlCYmEt0gGcAUFVX3lxTE54TnVKajlqRVo0eWU5eXUwUjN4U2lwQmtidXh2OUZfSzFlUDB2Ynh2TGFmdl8xSEZ0UFVMQWNhSklTM3JJTzVqR2ZObEVVT2hwMkN3RGFnaThOWDBYdWRfZDV6QkxfLWdTNjJTMDRVS1pUaDVWdEplWGdPQWlIMUJzaWVROTFsR05Ma1N5RWUzcWt3QmtNdk9QYjc2ZQ?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 09:01:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "인천 간석동 간석 래미안자이아파트 119㎡ 6억2500만원에 거래 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM05IRlBPRnRqMVMweWZCWHVZS0pBeTJTT3BWUll6ZDhOLVpqbzZxOXZDa2pKT2xMMlo4UENOVl9POEx3dktlcTZrUjV4NlJnUWNSQjVsc0RDeVRURm1qNmRfM3hXbDlSWTdFSHUyVUczT0NXSXk0YVh2WktORWo2bWl3VDlGYkRaWHl3bnB4RUFHVE4zbW81TW51UdIBmwFBVV95cUxQM05IRlBPRnRqMVMweWZCWHVZS0pBeTJTT3BWUll6ZDhOLVpqbzZxOXZDa2pKT2xMMlo4UENOVl9POEx3dktlcTZrUjV4NlJnUWNSQjVsc0RDeVRURm1qNmRfM3hXbDlSWTdFSHUyVUczT0NXSXk0YVh2WktORWo2bWl3VDlGYkRaWHl3bnB4RUFHVE4zbW81TW51UQ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 06:09:07 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[AI픽] 스노우플레이크 \"AI 데이터 플랫폼으로 혁신 가속\" - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uYUxZa25LVmxlalZDSWg1bDdDX1JISFVQSW1lUHJ6Q1NvcXdGY0dteTlSeU93dG5aNEtORWM3cWd2M1ZweWxIVWZIamJMcjVP?oc=5",
+          "pub_date": "Mon, 08 Sep 2025 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "스노우보드 여제 최가온의 반전 일상…기차 쪽잠도 힙하게 소화하는 여행자 모드 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWVZ4M3lGMVB1RS13MDNkamdPblRFdDJoLVAtRFY4RU9qYXhyTDNpeXJqd1BLY1lOYkhkeS0wR0RBdm1hamhnMVZKS2ZwLWZqWDBKaE82MXpUbDdmUGxGSU56QXZ6UkpyRlFpZ0h5TWEtZnhEelRDbGwydEJybXMzMnlxc09pTVphLU5ZQzRDNkN6LUl2d1lYX1RRWE9RUjZQWDJWYVBralDSAagBQVVfeXFMUFlWeDN5RjFQdUUtdzAzZGpnT25URXQyaC1QLURWOEVPamF4ckwzaXlyandQS2NZTmJIZHktMEdEQXZtYWpoZzFWSktmcC1malgwSmhPNjF6VGw3ZlBsRklOekF2elJKckZRaWdIeU1hLWZ4RHpUQ2xsMnRCcm1zMzJ5cXNPaU1aYS1OWUM0QzZDei1JdndZWF9UUVhPUVI2UFgyVmFQa2pQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 23:45:19 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "북코스모스 소개 - 북코스모스",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQXhQeDJhTnpZLVZmdENyYl80dVhOam8zckJyRVlwTzdMekI3VkNzQmdHc2FfR0N5cld1M3dGaUFyMjQ0MGdWaW9XR3NxNktRbnMyYlk2dFRBUTRKTjVNZmJkZklKM0loUGRNNmJ1NXJNdVZQU3h6ckZkdVdiMVZKV2RBcndWWS01LWRtRmlPaXhXN2c?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 11:45:28 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[현장] 스노우플레이크 \"기업 비즈니스 성공 조건, AI·데이터·인력 대통합\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sdjdvV3gybGdxZUh6OGU0VHdsRm93TkFWWTBlRk5oOEcyWDVrX2hvbVFTZExKWldmNHVYNXlFRGx6cGdvQVFheHFlb3Ezcjd4RmlKY1ZB?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:46:17 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "스노우플레이크, 데이터 분석·의사결정 통합 서비스 출시 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BTnNjdzB6Z08xMnFSLXlQdGJqTUJJdE5MUF9LekdKZ0ZGUGZDZ3BsYWNlbDVDZmlYTF9YdjNfR2NKY21tVnVEVFF4NTJJOGcyTUVBODdn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 01:47:19 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "BTS 팬 잡아라…신세계면세점, ‘K-러브 페스티벌’ 진행 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sM2lzSzVxUnIzb1ZNNFgySUctckt5VmNSLXZyN0hLTk5uVkN3Vk5ZTTluQzdrZER5V01oeHNUWExRUklQWVcybjljUWNZMFRzVXFCZWtn?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 01:21:09 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "롯데온은 매출, 넥슨은 속도…스노우플레이크 'AI' 효과 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wUWl5RHdLT245WUZZWkhLRUpMeDJRVlJWOU1aSmxNcGxDVk9nTzJxUWdpY3RIZmhmS0hSUmhONVJMeDVQdnh0djVxQnpWamxodV9TQWxFcmZZa0VUU1NIVHJLbnlLU0VPYjZQStIBbEFVX3lxTE0wUWl5RHdLT245WUZZWkhLRUpMeDJRVlJWOU1aSmxNcGxDVk9nTzJxUWdpY3RIZmhmS0hSUmhONVJMeDVQdnh0djVxQnpWamxodV9TQWxFcmZZa0VUU1NIVHJLbnlLU0VPYjZQSg?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 09:12:45 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "SBI저축은행, 교보생명 편입 초읽기…사상 첫 자산 20조 돌파할까 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fUWQ2VzRMWDZUUEdEVGxKQWdnR0RaZ3hKUFRHUnROcXpoOU1IamlBV3Rfam0ydFRtZjFSRGt4R2pPeXF2bTZNMm44MnRBZEdDUFc0bkxReG5MY0FRVFB1X18tdjZzLUls0gFsQVVfeXFMTndLWGtOZGctcHpWSTgzbXNyTzZfM0NwUUxmaWlORnJtMk5UR05oemJmQ0o0c3U1YzZxODJlVURVandyU1NrQzlHcTNna1lBMENib2dxQUJwWDFrSVZwLXdZYWZyZklTQmJKLUlX?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 06:32:53 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "뉴욕타임스 ‘스노우폴’ 제작자, 가디언 수술한다 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54TTJCV05RRnVFREprY25XbDBFZlJRYi1TQkhDSjFiZ3BEa190ZmlfX2o1clpHN3diS2REeWttX041RVhfUEVneUUtODUwdlFobS1VaGtvdGZ0M0dWc1E3YXhlOEctV0nSAWtBVV95cUxOemdqWTRVaHVOYm14NnpnZjlDUXhkN0V6UlVScTRETk9NSEx4R00tTmlUN3ctUXM3QWFEV3d0blFmUDA5blllakJUMEdicUprZTkzTUF1S01WbEhFTHhHZHFmZGl0am93Zkpudw?oc=5",
+          "pub_date": "Wed, 15 Oct 2014 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "스노우플레이크, ‘이그제큐티브 라운드테이블 서울’ 성료 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03enBFcTFTTWNCT0JwT2ZybWQzM0NRV284b09CQjk2RGxyU2ZEZUkwR21jS3B1NVhXTkdXZmdvT3pjVzl1Znk0WER0R01CUVE?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:02:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "스노우플레이크, 데이터 민주화에서 AI 민주화로 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MM29MbU5LTEFxcktkZ0ZobFZkYmZCLUtJTGNwS2NRU3lIdmJFSV93bHM0VTQtQkFiMWdkUVVaTHB5MFJFaXJENkRrRFAxTW8?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 21:55:37 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "스노우플레이크의 진화 ‘AI 에이전트 기업’ - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhX1d4U0ktOWJ6Y19MZ1FoUi1lWXlaZGdzbVA2bjVGOFByVmx6aXQzc013RjJJam5Bb1hhN2hHQ3YzTnJ4TkUzdW5XM0UwR1U?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 07:15:36 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+          "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+          "link": "https://blog.naver.com/magicpaul7/224204238038",
+          "pub_date": "20260304"
+        },
+        {
+          "title": "NAVER Z 제페토 결제 사업 운영 채용, 계약직 1년인데 지원할... ",
+          "description": "합격 후 면접 과정에서 직접 확인해 보셔야 해요. 전형 절차는 서류 전형 - 1차 인터뷰 및 기업문화... 참고: NAVER Z의 일반적인 복지 (정규직 기준) NAVER Z는 IT 기업답게 자유롭고 수평적인 조직 문화를 가지고... ",
+          "link": "https://blog.naver.com/cymmcymm/224198426668",
+          "pub_date": "20260304"
+        },
+        {
+          "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+          "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+          "link": "https://blog.naver.com/serohero/224199063326",
+          "pub_date": "20260228"
+        },
+        {
+          "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+          "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+          "link": "https://blog.naver.com/jobpass_/224197697044",
+          "pub_date": "20260227"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        },
+        {
+          "title": "제주항공 채용 승무원 큐피드",
+          "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+          "link": "http://cafe.naver.com/sheiszzz/1214780",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.510752688172043,
+      "positive_themes": [
+        "긍정",
+        "복지",
+        "성장",
+        "수평",
+        "장점",
+        "좋아",
+        "좋은",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "(주)스노우 2026년 기업정보 | 기업리뷰 2건, 4.5 리뷰평점",
+          "description": "장점 : 경쟁력 뛰어난 기술을 갖고 있으며 직원들 모두 자부심을 갖고 일 할 수 있는 회사, 단점 : 중소기업으로 큰 성장을 이루지 못한 단계여서 복지에 대한 부분은 아쉽지만 곧 성장할 것으로 생각됨.",
+          "url": "https://www.jobplanet.co.kr/companies/412913/reviews/%EC%8A%A4%EB%85%B8%EC%9A%B0"
+        },
+        {
+          "source": "naver",
+          "title": "위키드스노우 2026년 기업정보 | 기업리뷰 2건, 3.5 리뷰평점",
+          "description": "장점 : 1. 급여 밀린적 한번도 없음 2. 매출에 따라 인센티브 지급 3. 사장님이 직원에게 편하게 대해줌 4. 근무환경이 적당히 자유로운 곳, 단점 : 1. 근무시간이 너무 길어 개인생활은 거의 못한다고 생각해야됨 2. 주 1회 휴무로 월차도 없이 월 4회휴무인 곳 3. 일이 있어 불가피하게 쉬게되면 살짝 눈치가 보이기는 함",
+          "url": "https://www.jobplanet.co.kr/companies/94332/reviews/%EC%9C%84%ED%82%A4%EB%93%9C%EC%8A%A4%EB%85%B8%EC%9A%B0"
+        },
+        {
+          "source": "naver",
+          "title": "스노우 2026년 기업정보 | 82건의 복지정보 0 전체 복지 통계",
+          "description": "스노우의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 82건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/324866/benefits/%EC%8A%A4%EB%85%B8%EC%9A%B0"
+        },
+        {
+          "source": "naver",
+          "title": "스노우(주) 2026년 기업정보 | 기업리뷰 327건, 4.1 리뷰평점",
+          "description": "얼마전 소개팅을 했는데 썩 마음에 들지는 않았지만 나도 상황이 좋지 않아서 한번 더 만났다. 카페에서 얘기를 하는데 자기는 3번 만났다고 사귀기는 싫고 조금 더 만나면서 알아가고 싶다고 했다. 이거 다른 사람이랑 간 보겠다는거 맞죠? 면접도 같아요. 예의는 지킵시다.58조회",
+          "url": "https://www.jobplanet.co.kr/companies/324866/reviews/%EC%8A%A4%EB%85%B8%EC%9A%B0"
+        },
+        {
+          "source": "naver",
+          "title": "스노우(주) 2026년 기업정보 | 194건 면접후기 3.0 면접난이도",
+          "description": "스노우(주)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.0, 면접경로: 온라인 지원 79%, 면접경험: 긍정적 59%, 부정적 11%, 면접결과: 합격 53%, 불합격 36%, 대기중 11% | 잡플래닛에 등록된 194건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/324866/interviews/%EC%8A%A4%EB%85%B8%EC%9A%B0"
+        },
+        {
+          "source": "naver",
+          "title": "(주)스노우맨커뮤니케이션즈 2026년 기업정보 | 기업리뷰 17건, 2.4 리뷰평점",
+          "description": "장점 : 대표님도 좋고 같이 일하는 동료도 좋아서 괜찮아요 내 스스로 큰 문제 없으면 편하게 오래 다닐 수 있어요, 단점 : 복지가 많아 보이지만, 막상 안되는 복지들이 많아서 잘 알아봐야해요",
+          "url": "https://www.jobplanet.co.kr/companies/334928/reviews/%EC%8A%A4%EB%85%B8%EC%9A%B0%EB%A7%A8%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EC%A6%88"
+        },
+        {
+          "source": "naver",
+          "title": "(주)스노우피그 2026년 기업정보 | 기업리뷰 1건, 5.0 리뷰평점",
+          "description": "장점 : 대표님, 사수님들이 모두 친절하시고 역량이 좋으시기 때문에 신입으로 들어가기에 좋음, 단점 : 굳이 단점이라하면 기업 규모에따른 어쩔 수 없는 연봉 그정도",
+          "url": "https://www.jobplanet.co.kr/companies/434388/reviews/%EC%8A%A4%EB%85%B8%EC%9A%B0%ED%94%BC%EA%B7%B8"
+        },
+        {
+          "source": "naver",
+          "title": "스노우라인(주) 2026년 기업정보 | 기업리뷰 48건, 1.9 리뷰평점",
+          "description": "장점 : 크록스신고~이어폰끼고 일할 수 있음. 장점은 찾을래야 찾을 수 없음. 단점 : 1.경영 할 줄 모르는 경영지원팀 2.쓰레기 같은 제품 3.디자인할줄 모르는 디자인팀. 4. 영업팀인지 물건 회수팀인지 알수 없는 영업팀 5.캠핑 트랜드도 모르고 무조건 인원 정리하라는 대표. 5. 모든걸 초월하는 회사를 경험하고 싶다면 추천합니다.",
+          "url": "https://www.jobplanet.co.kr/companies/226844/reviews/%EC%8A%A4%EB%85%B8%EC%9A%B0%EB%9D%BC%EC%9D%B8"
+        },
+        {
+          "source": "naver",
+          "title": "동탄 스노우의원 2026년 기업정보 | 기업리뷰 1건, 4.0 리뷰평점",
+          "description": "장점 : 칼같은 퇴근과 일하는 사람들이 괜찮았음 식대도 한몫했음, 단점 : 점심시간이 따로 없는 점이 아쉬움. 너무 늦게끝나서 저녁시간을 보내지못함 그 외 따로 아쉬운 점 없음",
+          "url": "https://www.jobplanet.co.kr/companies/454913/reviews/%EB%8F%99%ED%83%84-%EC%8A%A4%EB%85%B8%EC%9A%B0%EC%9D%98%EC%9B%90"
+        },
+        {
+          "source": "naver",
+          "title": "스노우큐브 2026년 기업정보 | 기업리뷰 1건, 2.0 리뷰평점",
+          "description": "장점 : CEO가 직원들을 터치하지 않아 동료들과 진짜 전쟁터에서와의 같은 전우애같은걸 느낄 수 있음, 단점 : 디지털 컨텐츠 제작 회사임에도 불구, 90년대 무대뽀정신같은 느낌으로 돌진함. 하여, 결과물을 기대하기 힘듬",
+          "url": "https://www.jobplanet.co.kr/companies/447836/reviews/%EC%8A%A4%EB%85%B8%EC%9A%B0%ED%81%90%EB%B8%8C"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 기업정보",
+          "description": "스노우 회사소개 ; 업계 IT/소프트웨어 · 본사 경기도 성남시 · 설립 2016 · 직원수 201~500(명) · 연봉정보 2,518만원 ~ 1.4억원",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 리뷰",
+          "description": "장점 : 워라벨 좋음. 직원들 연령대가 어려서 활기가 있음. 복지 좋음. 단점 : 결정권자들이 10대 20대 타겟 앱을 만들기엔 올드함. 그들만의 리그. 수평적으로 일할것같지만 제조업수준의 탑다운.",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0/reviews"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 리뷰",
+          "description": "장점 : 워라벨 좋음. 직원들 연령대가 어려서 활기가 있음. 복지 좋음. 단점 : 결정권자들이 10대 20대 타겟 앱을 만들기엔 올드함. 그들만의 리그. 수평적으로 일할것같지만 제조업수준의 탑다운.",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0/reviews?page=1&jobgroupFilter&currentEmployeeFilter&orderBy=recommend"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 Reviews - &quot;저연차에게 좋은 회사&quot;",
+          "description": "“단기간에 성장할 수 있는 회사” ; “인턴하기 좋은 회사” ; “대기업과 스타트업의 장점을 섞은 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0/review/C_ofWKaV2v8"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 Reviews - &quot;사람들이좋은회사&quot;",
+          "description": "“단기간에 성장할 수 있는 회사” ; “인턴하기 좋은 회사” ; “대기업과 스타트업의 장점을 섞은 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0/review/PCnm-7ZPfBo"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 Reviews - &quot;글로벌로 도전하는 회사&quot;",
+          "description": "“단기간에 성장할 수 있는 회사” ; “인턴하기 좋은 회사” ; “대기업과 스타트업의 장점을 섞은 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0/review/XbzmS9rZa6D"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 Reviews - &quot;자유롭지만 체계성이 부족하다고 느껴지는 회사&quot;",
+          "description": "“단기간에 성장할 수 있는 회사” ; “인턴하기 좋은 회사” ; “대기업과 스타트업의 장점을 섞은 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0/review/EC5krZsch"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 Reviews - &quot;사내 분위기 젊고 복지좋음&quot;",
+          "description": "“단기간에 성장할 수 있는 회사” ; “인턴하기 좋은 회사” ; “대기업과 스타트업의 장점을 섞은 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0/review/lX7orSigN"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스노우 Reviews - &quot;급속도로 바뀌는 트렌드를 몸소 경험하는 회사&quot;",
+          "description": "“단기간에 성장할 수 있는 회사” ; “인턴하기 좋은 회사” ; “대기업과 스타트업의 장점을 섞은 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EB%85%B8%EC%9A%B0/review/-WPuTPxcK"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 야놀자 현직자들의 연봉 정보",
+          "description": "보상 · 유형 · 중앙값 · 범위 · 계약 연봉 · 5,746만원 · 2,500만원 ~ 1.7억원 ; 추가 보상 · 유형 · 중앙값 · 범위 · 보너스 · 400만원 · 20만원 ~ 5,184만원",
+          "url": "https://www.teamblind.com/kr/company/%EC%95%BC%EB%86%80%EC%9E%90/salaries"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "스노우㈜ 채용 - [SNOW] 엔터프라이즈 CMS 서비스 웹 프론트엔드 개발자 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47664044",
+          "text": "스노우㈜ 채용 - [SNOW] 엔터프라이즈 CMS 서비스 웹 프론트엔드 개발자 | 잡코리아\n\n## 스노우㈜\n\n# [SNOW] 엔터프라이즈 CMS 서비스 웹 프론트엔드 개발자\n\n상세요강접수기간∙방법기업정보\n\n채용정보에 잘못된 내용이 있을 경우 문의해주세요.\n\n모집요강\n\n모집분야\n\n엔터프라이즈 CMS 서비스 웹 프론트엔드 개발\n\n모집인원○명\n\n고용형태\n\n정규직\n\n급여회사 내규에 따름 (면접 후 결정)\n\n근무시간\n\n- 탄력근무제\n- 10:00 ~ 19:00\n- 주5일(월~금)\n\n근무지주소\n\n경기 성남시 분당구 불정로 6 (정자동) 그린팩토리지도보기\n\n인근지하철\n\n지원자격\n\n경력\n\n경력(5년이상)\n\n학력\n\n대졸이상\n\n스킬\n\nTOP\n\n궁금해요",
+          "score": 0,
+          "published_date": "2025-09-09T00:00:00.000Z"
+        },
+        {
+          "title": "SNOW Careers",
+          "url": "https://recruit.snowcorp.com/cnts/people_detail?id=9",
+          "text": "SNOW Careers\n\n### 방대한 데이터를 다루며, 성장의 기회가 주어지는 곳\n\n“데이터가 굉장히 많이 쌓이다 보니 방대한 데이터를 다룬다는 것 자체가 데이터 엔지니어로써 아주 만족스러운 점이에요.”\n\n안녕하세요. 스노우입니다. 오늘 만나볼 스노우의 구성원은 올해 경력직으로 입사하신 데이터 엔지니어 강현구님입니다. 스노우 앱에서 수집하는 방대한 데이터를 어떻게 업무에 활용하고 있는지 궁금하시지 않나요?\n\n또 어떤 이유로 스노우에 합류하셨는지, 어떤 점을 가장 만족스럽게 생각하고 있는지, 데이터 엔지니어의 매력과 가장 필요한 자질까지, 커리어와 관련하여 자세한 이야기 들어보겠습니다.\n\nQ. 현구님, 안녕하세요. 간단한 소개 부탁드립니다.\n\n안녕하세요. Server 부서에서 데이터 엔지니어링 업무를 맡고 있는 강현구입니다. 데이터 엔지니어링 업무이라고 하면 포괄적이라, 좀 더 상세히 설명드리자면, 이용자가 앱에서 버튼을 클릭하는 모든 과정들이 로그 데이터로 기록되면 이를 수집하기도",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "[스노우(주)] [SNOW] 8월 전분야 체험형 인턴 - 사람인",
+          "url": "https://m.saramin.co.kr/job-search/view?rec_idx=48522389&t_category=top1000&t_content=noti1",
+          "text": "[스노우(주)] [SNOW] 8월 전분야 체험형 인턴 - 사람인\n\n관심기업 등록 스노우(주)\n\n# [SNOW] 8월 전분야 체험형 인턴\n\n본 채용정보는 마감되었습니다.\n\n마감된 채용정보와유사한 채용정보를 확인해보세요~\n\n## 주요 채용 정보\n\n근무형태 인턴직3개월 경력 신입 학력 학력무관\n\n마감일 ~07/07(일) 마감 급여 면접 후 결정 지역\n\n경기 성남시 분당구\n\n근무일시 주 5일(월~금)10:00~19:00 우대사항\n\n상경계열 외 12건\n\n더보기\n\n- 자격/능력 컴퓨터활용능력 우수, 엑셀 고급능력자, 포토샵 능숙자\n- 외국어 능력 영어가능자, 영어능통자, 일본어 가능자, 중국어 가능자, 스페인어 가능자\n- 보유역량 국가유공자, 장애인우대, 취업보호대상자\n- 전공 상경계열, 예/체능계열\n\n최저임금계산에 대한 알림*하",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "스노우 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
+          "url": "https://jasoseol.com/datalab/6403?ec=81938",
+          "text": "스노우 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n#### 한 줄 소개\n\nAI 및 AR 기반 사진·영상 편집 앱과 크리에이티브 플랫폼을 개발·제공하는 기업\n\n#소프트웨어#콘텐츠#AI#AR#모바일앱\n\n산업(업종)\n\n정보통신업\n\n기업 형태\n\n대기업\n\n대표자\n\n김창욱\n\n사원수\n\n379명\n\n매출액\n\n733억 5천만 원\n\n설립 년도\n\n2016년\n\n주소지\n\n경기 성남시 분당구 불정로 6, 15층 (정자동,그린팩토리)\n\n홈페이지\n\nhttp://www.snowcorp.com\n\n초봉4,515만 원\n\n평균 연봉6,446만 원\n\n각 기업이 공공데이터에 제공한 정보를 활용하여 제공합니다.\n\n[정보 수정 요청](https://ja",
+          "score": 0,
+          "published_date": "2022-04-15T00:00:00.000Z"
+        },
+        {
+          "title": "스노우(SNOW) 기업정보 - 채용 0건, 평균연봉 6,032만원, 인원 383명, 업력 10년, 경기 성남시 | 원티드",
+          "url": "https://www.wanted.co.kr/company/550",
+          "text": "스노우(SNOW) 기업정보 - 채용 0건, 평균연봉 6,032만원, 인원 383명, 업력 10년, 경기 성남시 | 원티드\n\n# 스노우(SNOW)\n\nIT, 컨텐츠경기 성남시11년차(2016)\n\n스노우는 2015년 9월 서비스 출시 이후 한국, 일본, 대만을 비롯한 아시아 시장에서 폭발적 성장을 바탕으로, 출시 이후 약 1년 반만에 1억 가입자를 달성했습니다. 우리는 가장 재미있고 편리하게 소통할 수 있는 방식을 스노우를 통해 만들어 나가고 있습니다. 자신을 표현하고, 즐거운 순간을 공유하며, 함께하는 듯한 생생함을 전달하기 위해 오늘도 치열하게 가슴 뛰는 도전을 펼치고 있습니다. 사용자 니즈에 민감하게 반응하며, 변화에 누구보다 앞서 대응하고 도전을 주저하지 않고, 가장 빠르게 생각하고 움직이는 사람들과 함께합니다. 사람들의 소통 방식을 더욱 즐겁게 표현하고, 순간을 공유하는 스노우에 지금 지원해보세요!\n\n더보기\n\n## 채용중인 포지션\n\n현재 채용중인 포지션이 없습니다.\n\n기업을 팔로",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "생성형 AI 및 LLM에 대한 Snowflake 비전",
+          "description": "엔터프라이즈를 위한 생성형 AI와 대규모 언어 모델(LLM)의 잠재력은 엄청납니다. 우리는 이전에 이들의 기회에 대해 이야기한 바 있으며, Summit 2023에서는 고객이 자신의 독점 데이터에 안전한 단일 플랫폼에서 제공되는 생성형 AI와 LLM을 직접 적용할 수 있도록 지원하는 다양한 기능을 발표했습니다. Snowflake의 단일 플랫폼은 이전부터 고객이 데이터 사일로를 허물고 데이터에 더...",
+          "link": "https://www.snowflake.com/ko/blog/generative-ai-llms-summit-2023/",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;모든 사람이 데이터에 접근할 수 있는 세상&quot; - 스노우플레이크 창업자가 밝힌 AI 데이터 클라우드 비전",
+          "description": "스노우플레이크 공동창업자인 베뉴아 다쥬빌 제품 부문 사장과 티에리 크루아네스 전 CTO가 한국을 방문해 기자간담회를 통해 회사의 비전과 AI 시대의 데이터 전략을 공유했다. 두 창업자는 13년 전 오라클에서 함께 일하던 시절, 클라우드와 데이터의 미래를 내다보고 스노우플레이크를 설립해 AI 기반 데이터 클라우드 플랫폼으로 진화해 글로벌 포춘 2000 기업 중 3분의 1 이상이...",
+          "link": "https://www.techsuda.com/snowflake/",
+          "pub_date": ""
+        },
+        {
+          "title": "“누구나 쓰는 AI 시대 연다... 스노우플레이크, 에이전트 기반 데이터 통합 플랫폼 공개”",
+          "description": "비정형 데이터·AI 자동화·실시간 협업까지... SQL 한 줄로 실행되는 엔터프라이즈 AI 전략 발표 스노우플레이크 인텔리전스·오픈플로·코텍스 AI SQL 등 통합...복잡한 파이프라인 없는 인사이트 제공",
+          "link": "https://www.gttkorea.com/news/articleView.html?idxno=19948",
+          "pub_date": ""
+        },
+        {
+          "title": "스노우플레이크, 'AI 데이터 클라우드'로 기업용 AI 주도 선언",
+          "description": "스노우플레이크가 AI 전략의 핵심인 'AI 데이터 클라우드'를 중심으로 플랫폼 전환을 선언하며 기업용 AI 시장 공략에 나섰다. 서밋 2025에서는 오픈소스 거버넌스와 AI 자동화 대전환이 주요 이슈로 다뤄질 예정이다.",
+          "link": "https://www.tokenpost.kr/news/tech/252629",
+          "pub_date": ""
+        },
+        {
+          "title": "스노우플레이크 &quot;올해 진행한 PoC, 파일럿 사업 기초로 내년엔 비즈니스 성과 낼 것&quot;",
+          "description": "시장에서의 스노우플레이크 전략에 대해 설명하고 있다... 원하는 방향에서 데이터를 모으고 분석해주는 플랫폼이다. 최근에는... 그리고 AI 활용을 위한 고도화에 나서고 있다”고 밝혔다. 이번 미디어 라운드...",
+          "link": "https://www.ddaily.co.kr/page/view/2023121211495720417",
+          "pub_date": ""
+        },
+        {
+          "title": "[현장] 스노우플레이크가 그린 AI 데이터 클라우드의 미래는?",
+          "description": "스노우플레이크가 인공지능(AI) 시대의 데이터 혁신 방향과 비즈니스 활용 전략을 제시했다.스노우플레이크는 9일 삼성동 코엑스 컨벤션센터에서 연례 컨퍼런스 '스노우플레이크 월드 투어 서울'을 개최했다.제조·금융·리테일·스타트업 등 12개 이상 산업군 관계자 약 3천 명이 참...",
+          "link": "https://zdnet.co.kr/view/?no=20250909104748",
+          "pub_date": ""
+        },
+        {
+          "title": "스노우플레이크, 데이터와 AI로 비즈니스 혁신 이끈다",
+          "description": "최 지사장은 &quot;스노우플레이크의 비전은 명확하다. 데이터와 AI를... 데이터 상호운용성과 AI가 스노우플레이크 전략의 핵심이 된 이유는?... 스노우플레이크 플랫폼의 향후 진화 방향은? A. AI 통합 강화, 멀티모달...",
+          "link": "https://www.cadgraphics.co.kr/newsview.php?pages=news&catecode=2&num=76368",
+          "pub_date": ""
+        },
+        {
+          "title": "스노우플레이크, “AI 통합 데이터 플랫폼으로 진화 중”",
+          "description": "데이터 상호운용성을 위한 개방형 플랫폼 전략 스노우플레이크는 데이터 웨어하우징부터 데이터 레이크, 사이언스, 엔지니어링, 애플리케이션 개발에 이르기까지 데이터 전 주기를 아우르는 클라우드 기반 플랫폼을 제공하고 있다. SaaS 애플리케이션, 데이터베이스, IoT 기기 등 다양한 소스의 데이터를 오픈 테이블 형식으로 통합해, 데이터 애플리케이션 간 일관성 있는 트랜잭...",
+          "link": "https://www.gttkorea.com/news/articleView.html?idxno=17890",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 프로젝트 실패하지 않으려면…스노우플레이크 “모델보다 데이터 먼저”[테크체인저] | 블로터",
+          "description": "기업 스노우플레이크가 데이터 전략 중심의 AI 구현 방법론을... 김 전무는 오라클 등에서 데이터·분석 플랫폼 사업을 담당하다 4년 전... 새로운 AI 업무 흐름을 만들고 데이터를 수익화하는 방향으로 나아간다....",
+          "link": "https://v.daum.net/v/ZHlkjtwaDh",
+          "pub_date": ""
+        },
+        {
+          "title": "블로그 | SPH 에스피에이치",
+          "description": "SPH 블로그에서 GIS 솔루션, 공간 데이터 컨설팅, 구글맵스 API 사용법, 구글 클라우드 업데이트 등의 최신 트렌드와 인사이트를 확인하세요. 전문가의 통찰력 있는 글을 만나보세요.",
+          "link": "https://sphinfo.com/blog",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "스노우플레이크, 프로젝트 '스노우워크' 발표... AI 에이전트로 워크플로 자동화 < AI·엔터프라이즈 < 기사본문 - 디지털투데이 (DigitalToday)",
+          "url": "https://cms.digitaltoday.co.kr/news/articleView.html?idxno=642690",
+          "text": "스노우플레이크, 프로젝트 '스노우워크' 발표... AI 에이전트로 워크플로 자동화\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n\n\n스노우플레이크, 프로젝트 '스노우워크' 발표... AI 에이전트로 워크플로 자동화\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n스노우플레이크 로고.\n\n[디지털투데이 황치규 기자]클라우드 데이터 플랫폼 스노우플레이크가 18일(현지시간) AI 에이전트를 활용해 기업 업무를 자동화하는 '프로젝트 스노우워크'(Project SnowWork)를 발표했다.\n\n회사 측에 따르면 프로젝트 스노우워크는 단순한 데이터 쿼리에서 벗어나 기업 데이터를 기반으로 다단계 워크플로를 계획하고 실행하도록 지원하는데 초점이 맞춰져 있다.\n\n스노우플레이크의 개발 및 AI 경험 부문 부사장 발라 카시비스와나단은 \"스노우워크는 데이터 거버넌스, 정의된 워크플로, 비즈니스 운영에 대한 이해가 ",
+          "score": 0,
+          "published_date": "2026-03-18T00:00:00.000Z"
+        },
+        {
+          "title": "스노우플레이크, AI + 데이터 예측 2026 보고서 발표",
+          "url": "https://www.venturesquare.net/1032961/",
+          "text": "스노우플레이크, AI + 데이터 예측 2026 보고서 발표 -- -- -- --\n\nAI 데이터 클라우드 기업 스노우플레이크(Snowflake)는 ‘AI + 데이터 예측 2026 보고서’를 발간하고 2026년은 에이전틱 AI와 데이터 전략이 기업 AI 성과를 좌우할 것이라고 전망했다.\n\n보고서에 따르면 에이전틱 AI는 기존 대규모 언어 모델을 넘어 정교한 추론과 실행 능력을 갖춘 구조로 진화하며, 기업의 AI 활용은 전사적 AI 생태계 구축 단계로 진입할 전망이다. 신뢰성 확보를 위해 자체 검증 메커니즘과 사용자 피드백 기반 피드백 루프가 중요해지며, 특정 업무에 특화된 마이크로 에이전트가 단계적으로 도입될 것으로 예측됐다.\n\n기업 시스템 전반으로 확산되는 에이전틱 AI의 효율적 활용을 위해서는 표준화된 AI 프로토콜, 오픈소스 모델, 실시간 처리 중심의 운영 인프라가 필요하며, Postgres와 같은 실시간 데이터 처리 시스템이 핵심 역할을 할 것으로 분석됐다. 또한 에이전틱 AI의",
+          "score": 0,
+          "published_date": "2026-01-15T00:00:00.000Z"
+        },
+        {
+          "title": "스노우플레이크 \"에이전틱 AI·데이터 전략, 엔터프라이즈 AI 성과 가를 것\"",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03519446645318048",
+          "text": "스노우플레이크 \"에이전틱 AI·데이터 전략, 엔터프라이즈 AI 성과 가를 것\"\n\n실시간뉴스\n\n새 이란 최고지도자 모즈타바 \"미군 기지 공격 계속...호르무즈 해협 봉쇄 압박\"\n\n[[美특징주]넷스코프, 보호예수 물량 우려에 주가 22%↓]\n\n[이란 새 최고지도자 첫 메시지 “호르무즈 해협 폐쇄 계속 유지해야\"](https://www.edaily.co.kr/News/Read?newsId=06323846645382664",
+          "score": 0,
+          "published_date": "2026-01-15T00:00:00.000Z"
+        },
+        {
+          "title": "플랫폼 전선 넓힌 스노우플레이크 < 일반 < IT/스타트업 < IT < 기사본문 - ER 이코노믹리뷰",
+          "url": "https://www.econovill.com/news/articleView.html?idxno=733874",
+          "text": "플랫폼 전선 넓힌 스노우플레이크 -- -- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-35318383-1', 'auto'); ga('send', 'pageview'); -- (function(){adtive_targetpush_ad.start('OA444448','ILLLLLLF')}(document)) --\n\n## 본문영역\n\n[](https:/",
+          "score": 0,
+          "published_date": "2026-03-19T00:00:00.000Z"
+        },
+        {
+          "title": "스노우플레이크(SNOW.N), 매출 전망 상향…'AI 투자 결실' : 네이트 뉴스",
+          "url": "http://news.nate.com/view/20260226n04193",
+          "text": "스노우플레이크(SNOW.N), 매출 전망 상향…'AI 투자 결실' : 네이트 뉴스\n\n경제 --\n\n경제\n\n- 경제 일반\n- 국제경제\n- 취업/창업\n- 산업/기업\n- 금융/증권\n- 부동산\n- 생활 경제\n- [최신뉴스](http://news.nate.com/re",
+          "score": 0,
+          "published_date": ""
+        }
+      ],
+      "international_news": [
+        {
+          "title": "What is Donald Trump’s approval rating? - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oWHJ3MWNNX2NVdkx5Uzd6Tnl1X1YydjUxZnYzUi1IRlJMUW0tTEd0S2hPRGgxOGRLakxlbUkxd3hSb29IN1dVZnVBT3lieXFoUm5WRl81eXRDN2FaTkV6cUEwdFpFRjlGSnR4VVdjUTY?oc=5",
+          "pub_date": "Tue, 21 Jan 2025 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "From spa treatments to vacations: a look at the lavish gift bags Oscar nominees receive - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQk84d1NaQU9vdmszdTZodW1vZUxNem9rcENiOEpfX0lBYm5wOWU3VTlZUjFycm9nMERHTzJSclJTenlHWWdJTFQyT243VzVpN1pjaUs3dEZ2VENYX01RcVlyaEYybTBBbmNRTUEya2NzYzFkNGQtdHQxTE1HLVRSVG9jQ3U4YzJVMi1JMGxZZWpOWVpTX0I3Y1FzdWRsa0t5TDRIWTlKckZpTkJyeHFPVTNMMmZ0QQ?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "'Great crackdown': Russia tightens the screws on the internet - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV3pLM0wwRUw4d0JUUXFLekhUODdaY3ppbEpna2RQQ0hwdHBGX0o4aXE0VEppNkxjZllmSVl1ZnJQaDV2aktFaWlFdHhCS1JiZHo2TXBqQW1PZ0x1T3JYOUNva3dRY0l4eUNodDJ1ck9GdEExUWFKRU9VcFNLNlNoakViUFNSOVRiSk9rMDlBMUZBZ3I5aFJXWXlxd2w?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 05:01:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "The Colorado River’s Problems Are About to Get Deeper - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb04zY1l0QTc0ZzVVckNxUHBzeTJSbFBCazZSOHlwRUM3dXBXWFhyUlQtaGhuTUhEcjBLbWFjTEtWd29XZ1hLMFV6TnVjc09WUXA0a2NISFBGUi1QMFVrd2lqQmJHYmRGZFBvU0hFcm5xMGpfNldPZkFnQmtXaElMMExWZ3JjUUNtdTVYOFBTMEJrZ2hHcDQ0cDJtUlhDTU5WQ3FLR1JiTEwxRzA?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 11:30:02 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Small Businesses Are Pushing Back Against Private Equity - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUGtmbmgyN3ZXdUliRjU4d25xT0Fua0M5eW9hQzN2ekMtc1dWLWZEU0FaUVZZVXN3OW8yNGxjZ0JPVjVoNnJIRUdYR2JPcFBndEVkU0tzMXR6b3BfSjhMUUVyQUF1LTR2RDZGYTVzcWpRd2JCNVBoMzZvRVpyUWVmUHRDWldTQnRhbThKTmVjRHF6dEVqOG4yb3JKZUo0dFJkX0V1NmFXSTkxdFMtdXEycElENUZUeUFPbnhpYkliQQ?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 09:00:04 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "UK's Nationalized Railway Aims to Get ‘Broken’ Train Network Back on Track - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY3NWS3d2bVlpNDVSSHlscG5rS2pXS1AyZ3BzU01ZWjJ1WmgwMlB3MWN4LUNGMl9LakQxTXBuNUNBSGRkUUQ3RlhqTXVEOGhsLWo2Um1JMDQyVXk1ZHNVYnpFMEZaYnBRSzdveXRpdlNIMjNtakgyRzhzMlhWTEgyQmEwWXBqUnFieW1FeG9lX2Izek1HWVFnRk4xUC1wZXNxczZwUml4RV9BUzExbERUb3ZmRkFTSGs?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 05:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "What happened at Nvidia GTC: NemoClaw, Robot Olaf, and a $1 trillion bet - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZlhhalhleGtuM2xHSWtNbW94NmQ5bVhwT0R0eXhka2dVSG1xWGFFdVJlTFFZRjNPLUR3NVhPM016UVVIWDd0WU9ndzhpRjNaS0tJMS1HcFlCbjNOd1ZNb1N0VzY5bGY1bVhEdTRJQUhLdE04NC1aVmN3US1FUkZabVY2dC1OZThoVWs5ZXRLNWpTZlJpeUZuX1RzNElUaFE?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 20:02:35 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Arc expands into electric commercial and defense boats with $50M raise - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQczBReVlzNXVWeG9Ud0lKRzI5ekFZQ0E3LWk1cUtyNUpvWkREc3ctOEY3MjB5MlA1dWd1bVoxQ2JKVnFDaERFMFVvaGFOU0dZYVJFU2NfeUZRR2dYNUlaQXV0MjZSR2NnQ21vRk55ak9BNE50UHdLc0c0RTBVZEhHdlhJdXhJSGJKU2pFX3JmN0VmTnFhYVEwM1oxbkItaG1ha2tEUndsaw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 13:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Cluely CEO Roy Lee admits to publicly lying about revenue numbers last year - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUk0dzlrM3pGV2FiZmotME5oY0ltYmFoR0pFa1h3YlhBeE90bzhRbW0xSGFRWkdBdzgyLWFsTFUtdFk0Y2pMajdmeVBLQXhlSmJRVTZDZkdiYUdFbkNXUVpLUFhyS3ViekJRTmJvMFJ3TlhlcUoxX1lmUUtvakNiZ05mbHdiLXUzRHFFemZtR0k5Sm5TOUZkRWVYVnVIdmZleGliLXpnNng5anNIRFVV?oc=5",
+          "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "The $40 Billion Game of Youth Sports Has Only One Winner: Dick’s Sporting Goods - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPUXJvcHEwckpGeVhwTWxPaS0wczNhTmtGTFpKZnhtM2JxWXVLV1ZTLWlyN042VE5ZbFNXLVZTRmFFV01LZHUta1BYbWxkSW1YRzU0dWU3UGhhYU9Pc1k4U0NVT1Y0elFDYmdmT0pNOEwxZzROZ3l3MFVmTWd0Mll1RE1YMmxTVTR6cFFqX2RNNG1OeTM2djdrcUdsVEhFX01PLUlEZjhUS010eFFubUxReHFfLWNVT2JIS3V1VHE2eS11TVpUNWJSS0tINDVXYU14TG5FVVhWQlRlVnRVNzUwLWgtVFRqc2gtNjhLcFY3cUN4ZV9LbFJOQnlBRlZVa1ljVHg2OGZpVHdEQm4zUTI3MnhUOUxubjVGbVM5LW1uVEFRcEFwNEJjZmNqanBURXNDa2J6dTMwRzg0Y3ZVNFJfRFQ4RjlIc0o2WlJSbEtXWmwwNHJtUnAzV1g2bXFQNTYyd0ZPX2diUmRzX1lmcjZyMEpyaXlRVHBfWGNpTmtNbFd5SGdQbDV4dU5qQ1pRcEE?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Opinion | An Ally’s Guide to Understanding Trump - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMihANBVV95cUxPRVVqZm55UjFtN3RsN01Ed0hmV2FjLWtqMnphcE5aRlNvSFRFWC1VbHpwUUhwTEN2QWlCTkR6ZXg0VElzbFJaRmxFRVVlY2xsLTRRZGU1Sm5pRU1ZejhCalZlR2tHbXJRRHRZYnl5ZVlpOURMdDEyVW5iZjYxMV9KdUw4NVVGdHNiV1doX3puUWJtMzNBY0ZvSUhGWVV1dlZaSkVNY1owaDlyRzFDLXYycmhEa3pfczhXaXhsb0FOaWszckVDQlZOc1d3X2U3OWg4dGdzbEUyY1YtcWRjXzBEeGpSLU9qUjNieXU1VmNrdk1LYXprV05TMFBDNVUtbW1BMnppLVJZUlQ2XzMzS3Z3ejQyM0VRZVhka2xKYUZGS2xpa0N4Rl9qemdDZVRoQjV2SEdpeC1ublJXOHhXLUVyRlNmd0ZVTE56LUQwSU5ZTWVsbEV0ZjYzZGdVcG0zUjR0X1ZiVVA1dkVRa1hWMDFsLURPMlNIVkZqWWpiWkRpSTE0Wnhi?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 20:36:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Panama City Beach Is Done With Rowdy Spring Break Parties - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxNZlRKY3ZNUzBNUTJab0tzNExKZGNfcDJ4NjB0RVVsMWdKWDYybXItVVlZZzFKdHZuQkx4MXlhVGx6WndmOXJ5QVR3Qm1wdFBPdHhSWTVVVjFzQnJYZzdhOUpuLW16emF5elhGNzVfa1ZSOXh2STNDZEtoc1VTUVJSY2hCNXdCeGxma1VubGZ4b1JPRzRXSDM1QUpBelcxVERZUFFRRW8xbG1Sb2p3bnZKX0JPOEVCM1JJS3h4dmJ4czNyNjBfNDdYYmhONXd3cHBmNkJhTDFiMk5xOVZTTG5DMWtSeTN5WE5aQmZQemx3S3N5SEFGa19TcS1NSmZDTUowQ1VoMEYzeFNFRVhoU0VBRE0wRUtOS09zRDl0OVhoU1VuTDdzTDh1LTFLVmpwN25zWGoxYUY5Q3UxLXFEZ0NVMS1jMWFHdFhqNFlYUTBqSTZXNlA5QjZDQzRaM0huekY4RFgxWEc1N01tZ2JZMDNMNGR1TWJrTmRoVnloS2czcUViNGhmZlhyODZrdkI3cmZQWWZfeXBDb0N6YXVCMF92RzQ4cw?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Jeffrey Epstein asked for Snow White costume weeks before Jes Staley email - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUW5Qak1wUDlSQ1VtbXl5aFVPSXBDSHVYa2wzeEQya0pSWmhxbk5BdkloV3NfNF9wWFN2amM4VnFZa0FfVHhrM1FQWnJidjFGSW5VeFk0WHVDLUVlTjFZNm1yMjhmM0k2QThIYkNDRjdCN1NBMnBzLW44UTk5WjRUVXhHREg?oc=5",
+          "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Greenland ice melt opens sea routes for critical minerals - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ1ljYU9Rb1VnNDZiMk81OUZ0dmJ6aDE3TS1qTl9hVnpGQkh1cnF3RV91V0JSLTA1ZVBDdVNMRFJqV2QzQmZlY1JuTzBUSDlYUFBJTHJ6QndxWXZtTUk3alI5ZmcyS0VVYmFSQS05SENxRGRnVHdLNnQzSnRGMnVuY1FGUjM?oc=5",
+          "pub_date": "Tue, 10 Feb 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "The UK’s meningitis outbreak and the grim legacy of Covid - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPazJ0RGhiMEFVTFp0U0Rkb0R3cnlpVmJNRUFORWQtaTFJNWQzTk5GcnQ3OUNiLXJvNVpUbGhjWm9EVDFNTlp6VW5FaEF6bXVVSzRSeU9qQ0RWTzNEUmFEWUFJWEZsOFNsUzV2cVZ2eGZHX0JLbGQxbWhVWUhnZUVJbWRMc2k?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 16:38:12 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "South Korean marriages jump 8% in 2025 as attitudes change - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa0s0bDVLQng5cktHU29ZalJpaVdCZ1Mwem1MMXZVeHBvTEM0aXpCMVVQMlJYbDJhOE1iSU5ZQ1Y3UVNjNVo1aVB6dlhTQUVXQ2tUd1c0aGVWMVB0MUl0NC0yYWM5TFR2V0UwSWtkTFJBdkU5UlBZUEF6VG1BUzI0dzVRTHJoTWxaSDN3UUpxVldOS0J6MERtN0lzTUZOcFlPZkE?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 05:59:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Labubu set for big-screen debut as Pop Mart, Sony Pictures team up - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcDgwUVl4T2h0R2N3MnJiZmpJQ2xuVEd4VW9jalpGTDgzY1JIV2VuOV9MWjIySGhkYmxuRUYzcVc0eDZkUnk5MXlYZnRwZm5pdFQwN3dRUTcyR2FPX2Y0VDRla3BtMzRmV1dGRzd6YldUY3F3QlRidzJ0eG1SZWxwV0k4MUhSWXV4NkVDa0IwOXBDNnRUVzRReTBDNGVvYlZmWk5iMGFhNmRtdGdHWDZSWnU4WVhOOHRoTGc?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 04:28:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Nvidia predicts $1tn revenue through 2027 as AI inference demand surges - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTHd3OVdvZ3Q2dnRIRjdCTndVM09EN3NRSWl0R1ZkeDJpVFRrMUR3WlZBdXd1VDdyN2xtYUVoaHZjWHVsT1FfdE1jSFVFSG9xNDdsczBvajBTcGJCLXlOV213Q0E3UTEyN0Q1c2FyeVVTc1d5WjRXeEFMYmVvaTV2dlhyY3U1ai1rY3BFcE5jQ0w4SEJndmlpODRZNm1GR3JhaTBjWkZTZlExSkVQY3VGS0ZXVFVjSjdtcklpM09BTVJOVHlPbVBTNjhBQy1IdkNSSU42NQ?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 20:12:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "The New Snow Toys That Tech Moguls Love - The Information",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOWhQS1pILVdwU29Cd2p2WlQxOWhiNEp3TE02N0dDX0JWdzI3MHhlZHFWbEZraS1LLVNhWUZPZU9mSGV5SlkyeHFJaFhGenNVMmVHSF8zTmdWZ3VOZ3NMNGRNX1lJbWoyVE9semh4SFBsRlJXdWZYdmNQMWlkaDREYm9xam9iUQ?oc=5",
+          "pub_date": "Sat, 22 Feb 2025 08:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "The Best High-Tech Protective Gear for Skiers and Snowboarders - The Information",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMEhNT1NGOWcyVHRVemhkOWUtOTRZRHRjbW9ITlN6Q283TFNKWHNlRmxlLWRaWFN5TURnZEFhaHgyVE1qTGlRNmhSM1Fxb1NsUnZQUHhyU1AwbTNHZlRSaGJHVnNYWlpWTlRmX040NEhtUnlCYkNVb1ltd2xzcF83NXp5T2xwMFVneWc2WTZUNXVYeGRXRjhPbHVsVkRjaG1ZM05MdQ?oc=5",
+          "pub_date": "Sat, 08 Feb 2025 08:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "An Emergency Guide for Salvaging Ski Season - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDdfaFJkSVZvem82WHYxMURuaWNPbGUyNVloTHFyRnpDTWw4bUxmWEl6WmFlWnRHUGhCLVFtVnJ5VUR3QXBERWNsRHFheVNBYnlRal9ZeVNad0V0ektkbDdlM2Q4Y3dHZXdKeGRfMHo4UzdaX1VyZ1ViWFJJVS0xeVhR?oc=5",
+          "pub_date": "Sat, 14 Feb 2026 08:00:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "스노우플레이크, 업계 최고 수준의 개방성 갖춘 엔터프라이즈급 LLM ‘아크틱(Arctic)’ 출시",
+          "url": "https://snowflake.com/ko/news/press-releases/snowflake-launches-arctic-the-most-open-enterprise-grade-large-language-model",
+          "text": "내용으로 건너뛰기\n###### &lt; ALL PRESS RELEASES\n\n# 스노우플레이크, 업계최고수준의개방성갖춘엔터프라이즈급LLM ‘아크틱(Arctic)’ 출시## April 25, 2024\n\nSnowflake logo\n- 스노우플레이크아크틱모델군에동급최고성능·효율갖춘개방형대규모언어",
+          "score": 0,
+          "published_date": "2025-01-01T00:00:00.000Z"
+        },
+        {
+          "title": "How to build an open source data engineering stack",
+          "url": "https://www.linkedin.com/posts/eczachly_expensive-platforms-like-databricks-and-snowflake-activity-7343702573440241664-tBHZ",
+          "text": "How to build an open source data engineering stack | Zach Wilson posted on the topic | LinkedIn\n\nAgree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and [Cookie Policy](https://www.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie",
+          "score": 0,
+          "published_date": "2025-07-21T15:56:03.851Z"
+        },
+        {
+          "title": "Empowering Data Engineering Today for Tomorrow's ...",
+          "url": "https://www.snowflake.com/ko/blog/empowering-data-engineers/",
+          "text": "Empowering Data Engineering Today for Tomorrow’s Challenges",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "스노우플레이크, 개방성 갖춘 엔터프라이즈급 LLM ‘아크틱’ 출시",
+          "url": "https://cio.com/article/3520080/%EC%8A%A4%EB%85%B8%EC%9A%B0%ED%94%8C%EB%A0%88%EC%9D%B4%ED%81%AC-%EA%B0%9C%EB%B0%A9%EC%84%B1-%EA%B0%96%EC%B6%98-%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88%EA%B8%89-llm-%EC%95%84.html",
+          "text": "스노우플레이크, 개방성갖춘엔터프라이즈급LLM ‘아크틱’출시| CIO\n\n닫기* 애널리틱스\n* 인공지능\n* 생성형 AI\n* 비즈니스 운영\n* 경력 관리\n* 클라우드 컴퓨팅\n* 데이터센터\n* 데이터 관리\n* [미래기술](https://www.cio.c",
+          "score": 0,
+          "published_date": "2024-04-25T00:00:00.000Z"
+        },
+        {
+          "title": "스노우플레이크, 자체 개발 오픈소스 LLM ‘아크틱’공개 - 매일경제",
+          "url": "https://www.mk.co.kr/news/world/10999377",
+          "text": "스노우플레이크, 자체 개발 오픈소스 LLM ‘아크틱’공개 - 매일경제\n\n댓글정책\n\n공감순 최신순 오래된순\n\n뉴스 바로가기\n\n# 기사 상세\n\nAI 테크\n\n## 스노우플레이크, 자체 개발 오픈소스 LLM ‘아크틱’공개\n\n매개변수 170억개 엔터프라이즈 특화학습비용 200만달러 불과해 효율성 높아\n\n사진 확대\n\n주요 AI 모델의 학습비용과 성능. <자료=스노우플레이크>\n\n미국의 대표적인 데이터 클라우드 기업인 스노우플레이크가 자체적으로 개발한 거대언어모델(LLM)인 아크틱(Arctic)을 공개했다.\n\n24일(현지시간) 스노우플레이크는 홈페이지를 통해 아틱을 공개하고 자세한 성능을 공개했다. 아크틱은 매개변수가 170억개로 전문가 혼합(MoE) 방식으로 만들어졌다. 스노우플레이크에 따르면 학습에 약 3개월, 1000개의 GPU로 200만달러 밖에 비용이 들지 않았다. 특히 엔터프라이즈에 초점을 맞춰서 데이터베이스 코드 생성에 특화됐다.\n\n아크틱은 오픈소스인 아파치 2.0 라이선스로 제공되며",
+          "score": 0,
+          "published_date": "2024-04-24T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.42857142857143,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.357142857142858,
+        "evidence": "13 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01213832"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=스노우"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=스노우+잡플래닛"
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=스노우"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%8A%A4%EB%85%B8%EC%9A%B0"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=스노우 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=스노우 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=스노우 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=스노우 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EC%8A%A4%EB%85%B8%EC%9A%B0"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

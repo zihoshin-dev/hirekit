@@ -1,697 +1,933 @@
 {
   "company": "카카오페이증권",
-  "sources_used": [
-    "google_news",
-    "naver_search",
-    "brave_search",
-    "exa_search",
-    "credible_news",
-    "dart"
-  ],
-  "result_count": 13,
-  "sections": [
-    "financials",
-    "tech",
-    "strategy",
-    "culture",
-    "overview"
-  ],
-  "data": {
-    "company_name": "(주)카카오",
-    "company_name_eng": "Kakao Corp.",
-    "stock_name": "카카오",
-    "ceo": "정신아",
-    "address": "제주특별자치도 제주시 첨단로 242",
-    "industry_code": "63120",
-    "established": "19950216",
-    "homepage": "www.kakaocorp.com",
-    "ir_url": "https://www.kakaocorp.com/ir/main",
-    "stock_code": "035720",
-    "corp_class": "Y",
-    "employees": [
-      {
-        "position": "전사",
-        "gender": "남",
-        "headcount": "2,166",
-        "contract_workers": "20",
-        "total": "2,186",
-        "avg_tenure_year": "6년 4개월",
-        "total_salary": "122,000,000",
-        "avg_salary": ""
-      },
-      {
-        "position": "전사",
-        "gender": "여",
-        "headcount": "1,587",
-        "contract_workers": "149",
-        "total": "1,736",
-        "avg_tenure_year": "6년 3개월",
-        "total_salary": "92,000,000",
-        "avg_salary": ""
-      }
-    ],
-    "financials": [
-      {
-        "account": "자산총계",
-        "current_amount": "11590369398820",
-        "previous_amount": "11607486907579",
-        "two_years_ago": "11354868024171"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "7477584262907",
-        "previous_amount": "7214324930736",
-        "two_years_ago": "7183172116575"
-      },
-      {
-        "account": "부채총계",
-        "current_amount": "4112785135913",
-        "previous_amount": "4393161976843",
-        "two_years_ago": "4171695907596"
-      },
-      {
-        "account": "영업이익",
-        "current_amount": "440242465351",
-        "previous_amount": "491969958048",
-        "two_years_ago": "533021659728"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "1608637288456",
-        "previous_amount": "1401810048845",
-        "two_years_ago": "1391076211720"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "5933966163819",
-        "previous_amount": "5821850796030",
-        "two_years_ago": "5744620766690"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "44299522000",
-        "previous_amount": "44416211700",
-        "two_years_ago": "44534987800"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "-26929676338",
-        "previous_amount": "-19673062884",
-        "two_years_ago": "-4630358666"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "-82389035030",
-        "previous_amount": "-34079062955",
-        "two_years_ago": "7570509031"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "7477584262907",
-        "previous_amount": "7214324930736",
-        "two_years_ago": "7183172116575"
-      }
-    ],
-    "naver_blog": [
-      {
-        "title": "(26-03-21) 매크로 정리 - 오전 10시까지",
-        "description": "5%, 카카오페이 +6.8%) 3)우크라재건: 내일 美서 미국-우크라 종전 회담 개최 예정(SG +4.6%, 대동기어 +7.... 한신공영(+29.99%): 저PBR 공개에 따른 기업가치 제고 노력 전망 속 수혜관련주 주가 상한가 3. 우리로... ",
-        "link": "https://blog.naver.com/mobidic25/224224376157",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "토스 어시스턴트 서류 합격 후기 [토스 인턴 지원_GA... ",
-        "description": "합격 수기 토스는 계열사가 정말 많은데요 뱅크, 증권, 페이먼츠, 플레이스, 인슈어런스 등등 네카라쿠배당토? 중에 카카오와 함께 계열사가 많은 기업입니다 제가 현재 근무하고 있는 곳 오늘 후기를 적는... ",
-        "link": "https://blog.naver.com/pkm1328/224224078870",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "[수강생 후기 ] 모어게임사운드 수강생 실제 후기... ",
-        "description": "✅ 레슨 혜택 ✔ 카카오톡 비대면 무제한 피드백 ✔ 자체 제작 샘플 라이브러리 제공 ✔ 수업 녹화... 블로그 후기 + 수업 뒷모습 사진 업로드 시  첫 달 3만원 추가 할인  취업 성공 페이백 대기업 합격... ",
-        "link": "https://blog.naver.com/thunderstormclass/224223614557",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "하나증권 면접학원 1차 실무진 면접을 관통하는 합격 로직",
-        "description": "지금 이 시기에 수많은 하나증권 면접후기 정보를 찾아보며 정답을 갈구하고 계실 텐데요. 하지만... 커리어허브 윤상설 선생님 직강 하나증권 면접대비반 신청하기 카카오톡 실시간 상담",
-        "link": "https://blog.naver.com/119taxi/224223514215",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "하나증권 면접후기와 올바른 준비 방법",
-        "description": "당신의 간절함이 합격이라는 결과로 이어지길 많은 하나증권 면접후기 속에서 길을 잃지 마세요.... 커리어허브와 함께 준비하시기 바랍니다. 커리어허브 하나증권 면접반 빠른 상담 신청하기 카카오톡 실시간 상담",
-        "link": "https://blog.naver.com/healingmam2/224222605825",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "하나증권 면접후기 분석으로 알아본 커리어허브의 필승 전략",
-        "description": "커리어허브 윤상설 선생님의 직강이 만드는 마법 같은 합격 에너지 하나증권 면접후기를 아무리 많이... 하나증권 면접 대비반 윤상설 선생님 직강 클래스 신청하기 카카오톡 실시간 채팅 상담",
-        "link": "https://blog.naver.com/airtrd/224222554629",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "하나증권 면접 후기 1차 실무 2차 최종 임원 기출 질문 정보",
-        "description": "어필만으로는 합격하기 힘든 것이죠. 그러니 고득점을 받으려면, 자세한 기업 분석과 직무 분석이 필요합니다. 또한 하나증권의 사업과 이슈 그리고 현안에 대한 자신만의 생각을 준비해야 합니다. 또한 면접... ",
-        "link": "https://blog.naver.com/jinsiri2191/224222310166",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "하나증권 면접 후기 1차 실무 2차 임원 기출 6급 준비 컨설팅",
-        "description": "하나증권 1차/2차 면접 분석 (진행방식, 후기 등) ✅ 1차 실무면접 1) 채용규모에 따라 다대일 or 다대다... 하나증권 면접 준비에 필요한 필수내용 총정리  하나증권 면접 대비 커리큘럼 기업/직무분석... ",
-        "link": "https://blog.naver.com/ehrhdsu/224222087062",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "존버는 승리한다! (인턴 구직기 마감.)",
-        "description": "다이와증권 주식팀인턴 : 서탈 쿠시먼앤드웨이크필드 인턴: 서탈 카카오 정책연구팀 어시: 서탈 이지스자산운용 기업인프라팀: 서합 - (결과 미정, 그러나 탈락할 것 같은 느낌이 옴) 삼정 esg strategy RA: 서합... ",
-        "link": "https://blog.naver.com/makedreamcometrue18/224222895613",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "삼성전자 상반기 3급 신입사원채용 면접준비 기출질문 합격전략",
-        "description": "저와 함께 면접을 준비하신다면 제가 대기업 면접관의 관점에서 합격비법을 전수해 드리겠으나... 이문화권 동료와 업무 방식 차이로 갈등이 생긴다면 어떻게 소통하겠습니까? 마케팅 캠페인의 성공... ",
-        "link": "https://blog.naver.com/jinsimcoach/224222517967",
-        "pub_date": "20260319"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "kr/31Uvuz8 [다올 인터넷·게임·레저 김혜영] 3/20(금) 뉴스 인터넷 [카카오] 카카오·네이버 '웹툰... 한국투자증권 공시링크: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320900145 코스닥 시가총액 2위로 등극한... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "상승세 탄 국내 증시",
-        "description": "대형주 전반이 강세를 보인 가운데, 삼성전자는 사상 처음으로 시가 13:50카카오페이증권, 예탁자산... 인재 채용·기술 강화·조직 개편 등 속도 규제·인력 유출 우려 등 현실적 난관 우려도 인공지능(AI) 기술이... ",
-        "link": "http://cafe.naver.com/greenb0k6k/175852",
-        "pub_date": ""
-      },
-      {
-        "title": "정책뉴스20260319목요일",
-        "description": "인사혁신처(처장 최동석)는 공직사회에 유연하고 합리적인 조직문화를 정착시키기 위해 범정부 혁신... KOREA.KR / 통일부2026.03.18 마약류 고민, 이제 카카오톡으로 상담하세요! 이제 카카오톡으로 상담하세요! 24시간... ",
-        "link": "http://cafe.naver.com/jungamironware/9116",
-        "pub_date": ""
-      },
-      {
-        "title": "️ (주)두산 (Doosan Corporation)",
-        "description": "ㆍ특화 복지 : 사내 카페테리아 및 헬스장 운영, 임직원 대상 계열사 서비스 할인 혜택 4. 채용 기조 및 실무 특징 ㆍ목표 주가 상향 : 하나증권 등 증권사들이 2026년 3월, 두산의 목표가를 167만원으로... ",
-        "link": "http://cafe.naver.com/smilejobs/729",
-        "pub_date": ""
-      },
-      {
-        "title": "불안한 한국경제",
-        "description": "네이버페이·카카오페이·토스 등 주요 핀테 15:53금융위, 중동발 증시 변동에 '100조원+α' 가동…피해기업... 수시·경력 중심 채용문화 확산으로 쉬었음 인구도 증가세를 지속했다. 15일 국가데이터처가 발표한... ",
-        "link": "http://cafe.naver.com/greenb0k6k/175503",
-        "pub_date": ""
-      },
-      {
-        "title": "동학농민혁명기념재단 직원(기간제근로자) 공개채용 공고(안)",
-        "description": "박물관학과, 문화재학과, 민속학과, 인류학과 등 관련 학과 ※ 관련 경력 : 국가, 지자체, 공공기관... 홈페이지(www.1894.or.kr) 게재 및 개별 안내 ㅇ 최종합격자의 채용 포기, 합격 취소, 채용 결격사유, 근무개시일 이후... ",
-        "link": "http://cafe.naver.com/hicurators/26438",
-        "pub_date": ""
-      },
-      {
-        "title": "[한국전력공사] 2026년 3월 12일 오늘의 기관 주요 뉴스브리핑",
-        "description": "문화일보 | 2026.03.11 23:58 | 관련 3건 ▶ 원문보기: https://n.news.naver.com/mnews/article/021/0002776498?sid=101... 91% 상승 마감 11일 KRX 마감 기준, 네이버페이 증권에 따르면 한전산업은 21,350원에 거래를... ",
-        "link": "http://cafe.naver.com/pinkbrgd1/1785",
-        "pub_date": ""
-      },
-      {
-        "title": "정책뉴스20260312목요일",
-        "description": "11 한국문화예술교육진흥원 직원 채용 필기전형 결과 안내(26-1차) 한국문화예술교육진흥원 직원 채용 필기전형 결과 안내(26-1차) 관련 채용정보 내용입니다. 자세한 사항은 링크(https://www.arte.or.kr/notice/job/notice/Job... ",
-        "link": "http://cafe.naver.com/jungamironware/8720",
-        "pub_date": ""
-      },
-      {
-        "title": "AI 쇼크",
-        "description": "스페인 바르셀로나에서 폐막한 세계 최대 모바일 전시회 ‘MWC 2026’에서 글로벌 통신사들은 인공지능... 무신사는 이날 채용 공고를 내고 2~3월 동안 16:12김범수 카카오 창업자, 신입직원 교육 현장 깜짝방문… AI... ",
-        "link": "http://cafe.naver.com/greenb0k6k/175072",
-        "pub_date": ""
-      },
-      {
-        "title": "재계 인사이드",
-        "description": "스페이스X 상장 추진 소식에 미래에셋증권과 미래에셋벤처투자 희비가 엇갈려 주목받는다. 10이상+ 12월... 쿠팡, 평균 근속연수 3년 안팎 대규모 채용 속 잦은 이탈… 이커머스 특성·조직문화 복합 작용 국내 유통... ",
-        "link": "http://cafe.naver.com/greenb0k6k/175068",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "[증권사 AI]⑧ 카카오페이증권, 플랫폼 금융과 결합 '실험'",
-        "description": "카카오페이증권이 인공지능(AI)을 기반으로 한 투자정보 서비스 고도화에 나서며 플랫폼형 증권사의 AI 전략을 강화하고 있다. 전통 증권사들이 리서치와 트레이딩, 내부 업무 효율화 중심으로 AI 도입을 추진하는 것과 달리 카카오페이증권은 플랫폼 데이터와 사용자 경험을 결합한 서비스 중심",
-        "link": "https://www.bloter.net/news/articleView.html?idxno=655952",
-        "pub_date": ""
-      },
-      {
-        "title": "키움증권 “카카오, AI 전략 부재” 이례적 쓴소리",
-        "description": "카카오의 인공지능(AI) 전략 부재가 중장기적으로 기업 가치를 깎아내릴 수 있다는 쓴소리가 증권가에서 나왔다. 김진구 키움증권 연구원은... 김 연구원은 “경영진 교체 후에도 톡비즈 및 주요 버티컬 사업부문...",
-        "link": "https://www.hani.co.kr/arti/economy/finance/1144153.html",
-        "pub_date": ""
-      },
-      {
-        "title": "신호철 대표 &quot;카카오페이證, 자산 형성 플랫폼으로 거듭날 것&quot;",
-        "description": "-- 구상 중인 전략이 있는지. ▲ 우리가 지금까지 잘 해왔던 것은 간편, 쉬움... 올해 사업을 계획 중이다. -- 이미 다른 증권사들이 리서치센터를 통해 많은 양의 투자 정보를 제공하고 있는데 카카오페이증권이...",
-        "link": "https://www.kakaopaysec.com/company/news_page/dynamicNewsDetail.do?id=66",
-        "pub_date": ""
-      },
-      {
-        "title": "카카오페이증권, 여의도에 신규 오피스 개소…네트워크 교두보로 성장 가속한다",
-        "description": "신사업 및 네트워크 강화를 위한 교두보 - 판교-여의도 투트랙 전략…AI·테크 기술과 금융 전문성의 시너지로 비즈니스 확장에 속도 [2025.04.01] 카카오페이증권(대표 신호철)이 어제 서울 여의도파이낸스타워...",
-        "link": "https://www.kakaopaysec.com/company/news_page/dynamicNewsDetail.do?id=69",
-        "pub_date": ""
-      },
-      {
-        "title": "카카오 정신아 &quot;'일단 해보자'는 접근 위험…명확한 방향·속도감 있는 투자 필수적&quot;",
-        "description": "(사진=카카오그룹) 카카오그룹(의장 정신아)이 AI 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로... 카카오모빌리티, 카카오뱅크, 카카오엔터테인먼트, 카카오페이...",
-        "link": "https://m.newspic.kr/view.html?nid=2025031919501975829",
-        "pub_date": ""
-      },
-      {
-        "title": "카카오페이증권 핵심 기업분석",
-        "description": "• 국내 온라인 증권 시장은 키움증권, NH투자증권, 한국투자증권 등 주요 사업자가 모바일 앱 중심으로 경쟁하고 있습니다. • 최근 소액 투자와 해외 주식 거래 증가로 간편성과 글로벌 접근성이 핵심 트렌드가 되고 있습니다. • AI 기반 시황 분석과 자동 투자 서비스가 투자자 유입을 가속화하고 있습니다.",
-        "link": "https://jasoseol.com/companies/10858/insights",
-        "pub_date": ""
-      },
-      {
-        "title": "[마켓人] 신호철 대표 &quot;카카오페이證, 자산 형성 플랫폼으로 거듭날 것&quot;",
-        "description": "-- 구상 중인 전략이 있는지. ▲ 우리가 지금까지 잘 해왔던 것은 간편... 카카오페이증권 제공. 재판매 및 DB 금지 -- 리테일 부문 이외에 다른 사업에 대한 계획은. ▲ 주안점은 리테일 부문에 있다. 기업금융(IB)도...",
-        "link": "https://www.yna.co.kr/view/AKR20250219154300008",
-        "pub_date": ""
-      },
-      {
-        "title": "다올證 &quot;카카오, AI 전략 구체화까지 시간 필요…목표가↓&quot;",
-        "description": "[사진=카카오] 다올투자증권은 10일 카카오에 대해 인공지능(AI) 전략이 구체화되지 않았다며... 부합했다&quot;며 &quot;AI 관련 뉴이니셔티브 사업 적자가 당사 전망을 170억원 하회했고 SM의 영업이익도 부진했지만 별도...",
-        "link": "https://www.ajunews.com/view/20240510081942731",
-        "pub_date": ""
-      },
-      {
-        "title": "위기 맞은 카카오의 승부수 “미래 성장핵심은 카톡과 AI”",
-        "description": "카카오모빌리티·카카오페이 등 플랫폼 사업 매출 성장세에 힘입어 개선된 실적을 공개했다. 김범수 창업자가 시세조종 혐의로 구속기소된 가운데 카카오는 카톡과 인공지능(AI)에 집중하겠다는 계획을 밝혔다....",
-        "link": "https://v.daum.net/v/20240809000237124",
-        "pub_date": ""
-      },
-      {
-        "title": "&quot;카카오, 목표가 상향…톡비즈 중심 AI 전략 등 필요&quot;",
-        "description": "증권은 12일 카카오의 목표주가를 6만3000원에서 7만3000원으로 상향 조정했다. 인공지능(AI) 내재가치, 커머스 적정가치 7조4000억원, 페이... 특히 AI 사업은 동사의 톡 기반 메인 플로우를 관통하는 큰 틀에서 전략이...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=01361206638757064",
-        "pub_date": ""
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "카카오페이증권 채용",
-        "url": "https://career.kakaopaysec.com/",
-        "description": "카카오페이증권의 채용공고와 회사정보를 확인하세요."
-      },
-      {
-        "title": "카카오페이증권(kakaopay증권) 기업정보 - 채용 17건, 평균연봉 6,032만원, 인원 359명, 업력 18년, 경기 성남시 | 원티드",
-        "url": "https://www.wanted.co.kr/company/20947",
-        "description": "카카오페이증권(kakaopay증권) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "2026년 카카오페이증권 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1683722247/",
-        "description": "기타• 자유로운 출퇴근 (시차출퇴근제/카카오 통근버스/스마트오피스) • 균형있는 삶을 위한 휴식 (안식휴가, 휴가자기승인제도, 펜션/리조트 할인 및 포인트) • 소중한 가족을 위한 지원 (자녀학자금, 실손의료비, 건강검진, 예방접종, 생일/출산 선물) • 업무에만 집중할 수 있도록 (업무관련 교육 지원, 업무도서 지원, 영어교육 지원) • 즐거운 소통 문화 (영어이름을 통한 수평커뮤니케이션, 문화데이, 캔미팅) 구직자 인기기업인크루트 관심기업"
-      },
-      {
-        "title": "블라인드 | 카카오페이증권 기업정보",
-        "url": "https://www.teamblind.com/kr/company/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C/",
-        "description": "카카오페이증권, 신규 판매 펀드 14종 추가 ... 채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
-      },
-      {
-        "title": "카카오페이증권 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
-        "url": "https://m.jobkorea.co.kr/company/16152576",
-        "description": "카카오페이증권 기업정보 - 최신 소식 및 기업문화, 근무환경, 채용정보, 인재상 등의 기업정보를 잡코리아에서 공개합니다."
-      },
-      {
-        "title": "카카오페이증권(Kakaopay Securities) | LinkedIn",
-        "url": "https://kr.linkedin.com/company/kakaopay-securities-corp",
-        "description": "어렵고 복잡한 투자의 문턱을 낮추고 생활 속 가장 가까운 금융투자 회사를 함께 만들어 갈 카카오페이증권의 크루를 기다립니다 . 🔊 카카오페이증권 합류하기↓ 👉 채용 페이지: https://career.kakaopaysec.com 👉 문의: recruit@kakaopaysec.com"
-      },
-      {
-        "title": "(주)카카오페이증권 2025년 기업정보 | 기업리뷰 23건, 연봉정보 20건, 면접후기 56건, 복지정보 7건, 채용공고 0건",
-        "url": "https://www.jobplanet.co.kr/companies/375683/landing/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C",
-        "description": "(주)카카오페이증권 기업정보 - 산업: 증권/보험/카드, 기업형태: 대기업 계열사/자회사, 사원수: 310명, 설립: 2008.07.01 | (주)카카오페이증권의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 ..."
-      },
-      {
-        "title": "카카오페이증권 채용 2025년 기업정보 - 평균연봉 5,804만원 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/CompSummary/C50360",
-        "description": "신입 기획/전략/경영, 네트워크/서버/보안, 상품기획/MD, 생산관리/공정관리/품질관리, 일반영업, 재무/세무/IR, B2B영업/기술영업, DBA/데이터베이스"
-      },
-      {
-        "title": "카카오페이 채용",
-        "url": "https://kakaopay.career.greetinghr.com/ko/main",
-        "description": "개인정보 항목: 인적정보(이름, 생년월일, 전화번호, 이메일주소, 성별), 보훈여부, 학력정보, 병역정보, 자격증정보, 사전질문 답변내용(자기소개, 지원동기 등), 이력서(경력기술서) 기재내용, 포트폴리오, 장애정보(장애여부, 장애종류), 사내 추천인 정보(이름, 회사이메일, 소속부서) (이용자가 입력한 정보에 한함.) ... 처리 목적: 채용 전형 진행을 위한 AI 면접 실시, 면접관의 심사 진행을 위한 참고자료(경험 및 역량 분석) 활용, 지원자 본인 확인 및 전형 결과 안내"
-      },
-      {
-        "title": "2025년 카카오페이증권 채용 취업자료 | 인크루트",
-        "url": "https://www.incruit.com/company/1683722247/referenceroom",
-        "description": "카카오페이증권 취업에 꼭 필요한 자료는 인크루트에서 확인하세요."
-      }
-    ],
-    "google_news": [
-      {
-        "title": "장애인 고용보다 벌금이 싸다?…유안타·카카오페이증권이 외면한 사회적 책임 - 녹색경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oMkZSNkRhbGROVGtFQVpVNnpsVS1LaHp6bEJSenVVckhrMElQV1dETnVWV18zbzgtd2lZQkhydFd1eWlGenFEdFN3a2c3MVBwczN1d3RHYlJ5N1ZmNU5BQ21BT3lnTmpI?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 08:46:05 GMT",
-        "source": "녹색경제신문"
-      },
-      {
-        "title": "[증권사 AI]⑧ 카카오페이증권, 플랫폼 금융과 결합 '실험' - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lOExMNFdfdHNoMzdqcDU4dmR5dC1iMWpVZDcwS3hOZmxFNm00YURrVXZSakozS0wxWC01c1hyUjZFMTYxcGFEdUxVMlQ1UGduTXlOeGJWWjR5Q0FESUh6WGtESXY5WmhJ0gFsQVVfeXFMTllvS01DelJlRmlGdGxsaHRaZmtxcGhGWDdoQTZSQ0Q3NVEyOUE2QTdIaEZuQ3d4TDVaSmZRTjZ0Y1h4STdvOTQ5a1BkejB2M2hVR2Jhb3VneDN5bGFtWFBRWUxuQUFScnN5dGRH?oc=5",
-        "pub_date": "Fri, 06 Mar 2026 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "MS, 'AI 투어 서울' 26일 개최...\"AI 프론티어 기업 도약 실전 로드맵 공유\" - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WOEZjRm9td1pWUU1ObDdzNzlWV0kzck5EQnFQMVhGTnZyVUdTaGlJSmFiRFp3eW1EeUFsb2lFd0NSejhTSXc3OHNXTkJMallxV0c4SVZ0a3dtVERIdzFMbVBhdEZjdjgxZVE?oc=5",
-        "pub_date": "Thu, 05 Mar 2026 02:45:25 GMT",
-        "source": "AI타임스"
-      },
-      {
-        "title": "증권사에서 AI를 어떻게 하면 더 잘 쓸 수 있을까? - 브런치",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5CdzFUdjhVRTFWcEdDdkNwVElDYWtqbnUwNmxidS1hUUdQUHBQMXlBYl94T18zRFRaWHQ3djlVVHExY0NBSVQ4QXZ2b2o?oc=5",
-        "pub_date": "Fri, 13 Feb 2026 08:34:16 GMT",
-        "source": "브런치"
-      },
-      {
-        "title": "증권사 CEO 23인 “AI 거버넌스 전략적 접근…PB 고도화·내부통제 강화” [AX, 금융 대변혁의 시대] - 한국금융신문",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GN0ZPaFFGcGxiTnJQSVhVaFhDcVdIT25rY2NPYmRqU2JGVElMZ1UtZHJXY2JaUllQRF82QTJ3TmE4YXdfVGRNODJWT1dtV1NUM0RUYklIYThBc0hLdHo5TjhtWGVueVRpemZxeDdpVk5NVEhzbnhZUGlHZw?oc=5",
-        "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
-        "source": "한국금융신문"
-      },
-      {
-        "title": "두들린 '그리팅', ‘2026 AI 채용 전략 리포트’ 발간 - 헬로티",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iODNnb0NYWXFROTlNRE5qQnBJV1hjcWl4cUR5Y3h6Q2dTMzgtUDB5Rm1tclZlbFRlTVBpNDEwbXVlaGxVTFdsbjNjMlA3eEtyejZiRXpTNFBvVjZWcDJN?oc=5",
-        "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
-        "source": "헬로티"
-      },
-      {
-        "title": "‘해외주식 왕좌’ 토스증권, 자산관리 시장 진출 착수…수익 다각화 포석 - CEO스코어데일리",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwOWhPVGswcDVWUnFmX250MU85VnZMMzJYUGc4ZFNPTUZYMVQyTS1FSFZ6YlNja0JIT2JtYlQyUXhTZ0tZVjVvVkVHRW94elJ0TVNiTWJMX21OMDVleXJydkZHbWN1QnhLM19v?oc=5",
-        "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
-        "source": "CEO스코어데일리"
-      },
-      {
-        "title": "카카오페이, 첫 흑자 기록하며 비상...“스테이블코인·AI 혁신 추진” - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96R3RJUmd1bFF0akMxcUVjRDRHVEFyS0N5VTJJNnNmcXpRUnNOUWJYelJNVjhza1BXRV83c3dNZUNHSzdJcm1oYk85amE2V01VVlZJcg?oc=5",
-        "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[테크스냅] 국정원, AI 분야 전문 경력직 공개 채용 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SdS1zQS0tNzhEa0tEbzN5eUUxM2dvNGhRUktRc1cybVpzZFJ4NDhxNkNwWHhUOEhsT1drYVJIbjFJTktMMmUwT1cxam04NFRQeTl3a09iLXk5bEHSAWBBVV95cUxPNDZySG5XNVVBSVl1MkJLaHV1N1JUWUVkVmtqam9QaEI4M3BXMVluaS1ybVFBcUtlMHRaTVVuaXZWM2VxTHJoYlFPbG9kS25Hc0tXX054cEs0X0c4QllFYjA?oc=5",
-        "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "그리팅, ‘2026 AI 채용 전략 리포트’…채용담당자 73% “가장 기대하는 AI 활용 분야는 이력서 평가” - 퍼블릭타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1dlYxZWZ6R3NsdDlzb3doR2dBY0hFZEhjQzhJT3Uyc190MDRPbXczSUMzRDRUNFdDY3RNck9Tbm5nSm1TNWNkZ19rS0lXVzFfY2dtRnNVYlpoT2diX2dXTk9PT1lhOGtpcWfSAW5BVV95cUxOSnFLdFlRUnVidFdYVW02R1N5SXM5VENDUDFuU1hhVTlHOWdNWFZMRmR6NTNnWkFKSm90cEZRT0VRNmpxR0ZYSF84SFIyZklfVnpxc1pyTzVvYWt2VmdiUDNJQkpaVWZmMmctVmI2Zw?oc=5",
-        "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
-        "source": "퍼블릭타임스"
-      },
-      {
-        "title": "카카오페이증권, 글로벌 투자 인사이트 강화…美 시버트와 콘텐츠 제휴 - 서울경제TV",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwbHVGYldVRDFrZVRfU1VVYlFUOG02SEdaaHJ1aG5fZkxjaXVUZmMyeG1nUXEwdXJfYlA1ajlkMU9OdE52TWhqMTlxSVVtV0dvZ1NGNEkxTldLai15a1BkbjZvc2s?oc=5",
-        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
-        "source": "서울경제TV"
-      },
-      {
-        "title": "카카오페이증권, 11월 투자자 동향 발표 - 뉴스웰",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIWUlGZnJTcDdGcVhtb3JidkxaWjkxLTloMXo4d2hlaWpYQ0ZDdzIzQmJPbWdILUY1ekNKMWM0V0MxclI1c0w2MHF5V1lGRnd0V24wZFYzMHI2eVhReFdBbUl5cVk1Vm1Yc21IVA?oc=5",
-        "pub_date": "Thu, 11 Dec 2025 08:00:00 GMT",
-        "source": "뉴스웰"
-      },
-      {
-        "title": "AI 힘주는 증권가…'맞춤 서비스·고도화' 전략 살펴보니 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1sbl8zRWJhWFVwSElJdEJHN2hHQnNacURsZUt1ZDZCUXlJNm9pX2RhN0szSUJDWDhNXzg4bHVlaWpHQXhiU2c?oc=5",
-        "pub_date": "Tue, 24 Jun 2025 07:00:00 GMT",
-        "source": "v.daum.net"
-      },
-      {
-        "title": "첫 흑자 돌아선 카카오페이···올해 결제 매출 '하이 싱글' 성장 예고(종합) - 뉴스웨이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxbU1EeFpla3dGdDFhc2VCeUNuMGpqSlphRHpVNERRQU5RXzkwZ1A4Sk9UcDF3VlZ4bGdLRlM5WnVBMmV4MjFicG8tdVFNdkdaRmJuR0pFNUM0b0ZSVE0yakNDX2ZLeXhHaUE?oc=5",
-        "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
-        "source": "뉴스웨이"
-      },
-      {
-        "title": "카톡에 챗GPT 붙이고 대규모 채용하고…카카오에 新바람 - 서울경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9hSlpSQUx0UUkyR3d0U2d2Q2M2MGdzdVZTdHpsbGxETkhNT0NodE5QY1E1TkpNOVBOdmItdmdFcXo5NmxjSVNKRXRQLUxqNzI0MGfSAVNBVV95cUxOTU0wNU9iNWRmaWQ5dWozNW9sc1VId1pkY2ljRmhnc2I3cFZydnJHREUwUzlQaHRROEI5M3RLRFlvSGxTWERrODdxLWoxTlFGQWtwUQ?oc=5",
-        "pub_date": "Sat, 06 Sep 2025 07:00:00 GMT",
-        "source": "서울경제신문"
-      },
-      {
-        "title": "카카오페이, 작년 연간 순이익 557억원 흑자 전환…예상치 하회(종합) - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qempSVUt5ZGJDUnJ0WFNDeTFtNEhaY0tLcTE2a0tqTDVFZVkxRjU4amNFX285SjZPSWFXeEItLXNCb3RhUGpsLVRUYmM0bDV1d0dmNjBuUFE5ckJYdllSNDRpcGNKSFk0RmRLb0xudFI?oc=5",
-        "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
-        "source": "연합인포맥스"
-      },
-      {
-        "title": "카카오페이, 첫 연간 흑자 달성… 영업이익 504억 원, 매출 9,584억 원 - 플래텀(Platum)",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RakVOSTZnVENiSWE3SzQ4eWh5a3MzaGxBdFhPcUI4REFFSjFuZWtnQm81WHlDcFEyOUhqLW5zLXkxTS1Gelo4SQ?oc=5",
-        "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
-        "source": "플래텀(Platum)"
-      },
-      {
-        "title": "[재무제표 분석 201] 카카오페이 - '덩치'만 큰 핀테크는 끝났다. 수익성을 장착해라! - 네이버 프리미엄콘텐츠",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaXVTUzZNQU80RXI4eXEyWjEwTTdCNXdsdlVNdVJuQW9XQ1doa1lQb0lVeFdJalBRNHFyZjM5ek1rMTl4NkFrRF9NN2FEU081MkQxdHF2YnFvMHZ5NkpzR0VQZDlPOXB3WmJLbUhQSl9od1l6T1l4ejFaVmVFYm5KbW9RaldXZw?oc=5",
-        "pub_date": "Wed, 10 Dec 2025 08:00:00 GMT",
-        "source": "네이버 프리미엄콘텐츠"
-      },
-      {
-        "title": "[종목 포커스] 카카오페이, 성장의 서막 알린 첫 흑자전환…주가 상승 탄력? - 데일리인베스트",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IQjNleGxaUDVuZmpCRDNaVUNvS1FUbmxsQ0s3RjNTVnFzTlBsRnhIV29UcFFwM1k3SGViV2dQVzFtM1ZiTGJEd1ZmeWQ5eWw5eEQ1MXpsWGZyNHRRZGh4TlZVZ184Z3loVlln0gFvQVVfeXFMUDhKOUlqQXA0ZDdIVGtvVkU4aExqVDVtYW0xWUFBTXZGMnptLVhLWWN0N2Z0UXFPRGlhVXd5SlkxYUQtejRNTDd0d254SGxMSGU1TVA3WDZ4bzlidDktVVRISUdja2E2UUxCT2VXaWpJ?oc=5",
-        "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT",
-        "source": "데일리인베스트"
-      },
-      {
-        "title": "﻿카카오페이, 지난해 영업이익 504억… 사상 첫 연간 흑자 달성 - 한국보험신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOd1p0NF9xbG5oWDVXdGVEcDdSRUY1UmNndE1yMjBBX0diQVlBamhhZTIzVTBCcTFGNVZqNFdtTVpxWkxWQnhianFBTlozTkRqSUhDdTcyRjd2NHJLWTF5c2NROEJMang0MzZn0gFvQVVfeXFMUFhmeExTeDNzWUFVTUM3dzh6SnFHU0RKSTQ5R19pbXlpYmtGR1dsZlo5UXlYWm8ta2tJcnB4el80cUd0UW9odDY0eEFLa2ptZG1QMWwyaTBXOWVhNFRNbVNEaXN3bnNFQjIzalE4cjJv?oc=5",
-        "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
-        "source": "한국보험신문"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "서비스 운영 담당자(계약직) | 카카오페이증권",
-        "url": "https://career.kakaopaysec.com/job_posting/Uu6P9AgU",
-        "text": "서비스 운영 담당자(계약직) | 카카오페이증권\n\n# 서비스 운영 담당자(계약직) | 카카오페이증권\n\n## 서비스 운영 담당자(계약직) | 카카오페이증권\n\n## 운영 지원 | 경력 무관 | 카카오페이증권(판교 오피스)\n\n### 포지션 안내 &bull; 고용형태 : 계약직(1년) 직무소개 업무내용 &bull; 카카오페이증권 사용자 조사 보조 업무 (인터뷰 대상자 모집을 위한 알림 발송 / 대상자 선정 / 일정 조율 등)를 담당해요.&bull;증권 서비스 내 배너 관리, 알림 발\n\nCompany\n\nJobs\n\nStory\n\nCulture & Benefit\n\n[FAQ](https://career.kakaopays",
-        "score": 0,
-        "published_date": "2026-01-30T00:00:00.000Z"
-      },
-      {
-        "title": "카카오페이증권 채용 카카오페이증권의 채용공고와 회사정보를 확인하세요.",
-        "url": "https://career.kakaopaysec.com/",
-        "text": "카카오페이증권 채용# 카카오페이증권채용카카오페이증권의채용공고와회사정보를확인하세요.\n## 카카오페이증권채용## 카카오페이증권의채용공고와회사정보를확인하세요.\n## 메인- 1\n## 채용프로세스- 2\n### kakaopay securities 일상과투자를연결하여기존의투자문화를바꿉니다.\n### 채용공고바로가기### 대한민국에없던새로운플랫폼금융회사, 생활금융플랫폼과만나새로운금융투자문화를만듭니다.\n## 제목없음## 블로그미리보기### Culture\n카카오페이증권문화이야기### 또다른하루가시작되는곳, 여의도오피스카카오페이증권여의도오피스를소개합니다### 제대로도전하는조직DevOps팀\n사내AI 챗봇&amp;lsquo;춘시리&amp;rsquo;를 만든DevOps팀의 여정### 우리만의Why를 찾아서, 브랜드TF를 만나다&#x27;제대로&#x27;라는 북극성을만들어낸브랜드TF의 여정### 더많은이야기보러가기## 블로그미리보기### News\n카카오페이증권소식### 카카오페이증권, 여의도에신규오피스개소&am",
-        "score": 0,
-        "published_date": "2022-08-19T00:00:00.000Z"
-      },
-      {
-        "title": "카카오페이증권 채용공고",
-        "url": "https://career.kakaopaysec.com/job_posting",
-        "text": "카카오페이증권 채용공고\n\n# 카카오페이증권 채용공고 카카오페이증권에서 현재 채용중인 포지션을 확인하세요.\n\n## 카카오페이증권 채용공고\n\n## 카카오페이증권에서 현재 채용중인 포지션을 확인하세요.\n\n## Jobs배너\n\n## 제목없음\n\n## 채용 프로세스 - 1\n\n## 채용 프로세스 - 2\n\n### PROCESS 카카오페이증권 채용 프로세스는 이렇게 진행되고 있어요.\n\n### 주의사항\n\n### &middot; 위 내용은 기본 프로세스로 경우에 따라 절차가 추가될 수 있어요. (과제전형, 레퍼런스 체크 등) &middot; 1차 현업 인터뷰는 60분가량 직무역량에 관해 이야기 나누고 있어요. &middot; 2차 최종 인터뷰는 60분가량 컬쳐핏/성장가능성에 대해 포괄적으로 이야기 나누고 있어요.&middot; 레퍼런스 체크는 필요시 별도 서비스를 이용하여 진행될 예정이에요. &middot; 이력서에 기재된 학력 및 경력 사항이 거짓일 경우 합격이 취소될 수 있어요. &middot; 국가",
-        "score": 0,
-        "published_date": "2022-08-19T00:00:00.000Z"
-      },
-      {
-        "title": "투자금융총괄 경력직 상시채용 | 카카오페이증권",
-        "url": "https://career.kakaopaysec.com/job_posting/WojGqii3",
-        "text": "투자금융총괄 경력직 상시채용 | 카카오페이증권\n\n# 투자금융총괄 경력직 상시채용 | 카카오페이증권\n\n## 투자금융총괄 경력직 상시채용 | 카카오페이증권\n\n## 카카오페이증권 | 수시채용 | 경력 무관 | 카카오페이증권(여의도 오피스2)\n\n### 포지션 상세 &bull; 고용형태 : 전문영업직 (계약직) 직무소개 &bull; 부동산금융, FICC, 기업금융/ECM/IPO 등 업무 전반에서 전문성과 역량을 갖춘 인재를 찾아요. 분야별 업무내용 부동산금융 부동산 프로젝트 금융(PF) 주선\n\nCompany\n\nJobs\n\nStory\n\nCulture & Benefit\n\n[FAQ](https://career.kaka",
-        "score": 0,
-        "published_date": "2023-04-06T00:00:00.000Z"
-      },
-      {
-        "title": "카카오페이증권 블로그",
-        "url": "https://career.kakaopaysec.com/blog",
-        "text": "카카오페이증권 블로그\n\n# 카카오페이증권 블로그 제대로 일하고 제대로 성장하는 카카오페이증권 크루들의 이야기를 전합니다.\n\n## 카카오페이증권 블로그\n\n## 제대로 일하고 제대로 성장하는 카카오페이증권 크루들의 이야기를 전합니다.\n\n## 배너\n\n### 카카오페이증권 블로그 제대로 일하고 제대로 성장하는 카카오페이증권 크루들의 이야기를 전합니다.\n\n### 카카오페이증권이 새 크루를 제대로 맞이하는 방법 크루의 시작이 덜 낯설도록! 온보딩 프로그램을 소개합니다. 2025-07-15\n\n### 주식 거래를 완성하는 사람들, 결제팀을 만나다 제대로 인터뷰 - 결제 자동화로 안정과 효율을 만드는 결제팀을 소개합니다. 2025-06-23\n\n### 전국 팔도를 누비며 고객의 목소리를 듣다 제대로 인터뷰 - CEO Simon의 &lsquo;제대로&rsquo; 듣고 온 이야기를 소개합니다 2025-05-13\n\n### 카카오페이증권의 또 다른 하루가 시작되는 곳, 여의도 오피스 카카오페이증권의 새로운 ",
-        "score": 0,
-        "published_date": "2022-08-19T00:00:00.000Z"
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "[테크/금융] 카카오페이증권 AI 전략, '개미'의 무기를 바꾸다",
-        "url": "https://panggeria.tistory.com/entry/%ED%85%8C%ED%81%AC%EA%B8%88%EC%9C%B5-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C-AI-%EC%A0%84%EB%9E%B5-%EA%B0%9C%EB%AF%B8%EC%9D%98-%EB%AC%B4%EA%B8%B0%EB%A5%BC-%EB%B0%94%EA%BE%B8%EB%8B%A4",
-        "text": "[테크/금융] 카카오페이증권 AI 전략, '개미'의 무기를 바꾸다\n\n본문 바로가기\n\n시장분석.산업동향\n\n# [테크/금융] 카카오페이증권 AI 전략, '개미'의 무기를 바꾸다\n\n### Meta Description\n\n카카오페이증권이 AI 기반 투자 서비스로 2026년 금융 판도를 흔듭니다. 흑자 전환 성공과 주식 거래액 159% 성장의 비결, 그리고 당신의 수익률을 바꿀 AI 전략을 30년 전문가 나솔길이 분석합니다.\n\n### Prologue: 당신의 주식 앱이 '비서'가 되는 순간\n\n최근 증권 앱을 열어보고 \"도대체 무슨 말이야?\"라며 창을 닫아본 적 없으신가요? 쏟아지는 뉴스, 복잡한 차트, 읽기 힘든 리포트까지. 정보는 넘치지만 정작 내 계좌에 도움이 되는 정보는 찾기 힘든 것이 현실입니다.\n\n결론부터 말씀드리겠습니다. **카카오페이증권($377300)**은 기술을 자랑하기보다 **'당신의 시간을 아껴주는 AI'**에 집중하기 시작했습니다. 2025년 사상 첫 흑자 전환에 성공하",
-        "score": 0,
-        "published_date": "2026-03-10T00:00:00.000Z"
-      },
-      {
-        "title": "[2026년 증권가⑧] 핀테크 증권사 성장 전략…카카오페이증권 '수익 다각화', 토스증권 '리테일 집중' < 증권 < 금융·증권 < 기사본문 - 중앙이코노미뉴스",
-        "url": "https://www.joongangenews.com/news/articleView.html?idxno=494389",
-        "text": "[2026년 증권가⑧] 핀테크 증권사 성장 전략…카카오페이증권 '수익 다각화', 토스증권 '리테일 집중' -- --\n\n이전 기사보기 다음 기사보기\n\n[2026년 증권가⑧] 핀테크 증권사 성장 전략…카카오페이증권 '수익 다각화', 토스증권 '리테일 집중'\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n- 댓글 0\n- 입력 2026.02.10 07:00\n- 기자명 김수현 기자\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n## 양대 핀테크 증권사 흑자 체제 굳혀…경영 전략은 엇갈려 카카오페이증권, 리테일 벗어나 WM·IB부문 영역 확장 시도 토스증권, 지난해 늘린 해외 법인 중심으로 리테일 확장에 집중\n\n카카오페이증권이 지난해 흑자 전환에 성공하고 토스증권 역시 역대 최대 실적 달성이 유력해진 가운데, 양사의 성장 전략이 뚜렷하게 엇갈리는 모습이다. 카카오페이증권은 그간 리테일에 쏠렸던 사업구조를 자산관리(WM)와 기업금융(IB)으로 확장하며 ",
-        "score": 0,
-        "published_date": "2026-02-09T00:00:00.000Z"
-      },
-      {
-        "title": "KakaoPay targets expansion across brokerage, payments and AI ...",
-        "url": "https://www.digitaltoday.co.kr/en/view/3576/kakaopay-first-full-year-profit-brokerage-payments-ai-expansion",
-        "text": "KakaoPay targets expansion across brokerage, payments and AI after first full-year profit\n\nKakaoPay targets expansion across brokerage, payments and AI after first full-year profit\n\nKakaoPay, which achieved its first full-year profit last year, plans a broad expansion this year across retail, investment banking, AI, payments and digital assets.\n\nKakaoPay posted 50.4 billion won in operating profit and 55.7 billion won in net profit last year, achieving its first full-year profit. All business di",
-        "score": 0,
-        "published_date": "2026-02-11T00:00:00.000Z"
-      },
-      {
-        "title": "‘첫 연간 흑자’ 카카오페이…올해 전략으로 ‘스테이블코인·AI’ 무게 < 금융·증권 < 경제 < 기사본문 - 이코노미톡뉴스",
-        "url": "http://www.economytalk.kr/news/articleView.html?idxno=417539",
-        "text": "‘첫 연간 흑자’ 카카오페이…올해 전략으로 ‘스테이블코인·AI’ 무게 --\n\n전체기사 포토뉴스 인기기사\n\n2026-03-01 00:15 (일)\n\nISSN 2636-0519\n\n--\n\n- 모바일웹 --\n- 독자투고\n- 회원가입\n- 로그인\n\n[금융·",
-        "score": 0,
-        "published_date": "2026-02-08T00:00:00.000Z"
-      },
-      {
-        "title": "성장 궤도 오른 카카오페이, '스테이블코인·AI' 판 키운다(종합) < 이노베이션 < 뉴스 < 기사본문 - 테크M",
-        "url": "https://www.techm.kr/news/articleView.html?idxno=149212",
-        "text": "성장 궤도 오른 카카오페이, '스테이블코인·AI' 판 키운다(종합)\n\n전체메뉴 버튼 테크M\n\n테크M 테크M검색 버튼\n\n로그인메뉴닫기\n\nyoutube 유튜브 채널 facebook instagram instagram -- [twitter](https://t",
-        "score": 0,
-        "published_date": "2026-02-06T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "일 41TB, 200억 건의 로그를 ClickStack으로 실시간 처리하기",
-        "url": "https://tech.kakaopay.com/post/pallas-v2-log-platform/",
-        "text": "일 41TB, 200억 건의 로그를 ClickStack으로 실시간 처리하기 - 호그와트 도서관 프로젝트 | 카카오페이 기술 블로그\n\n## 시작하며\n\n안녕하세요. 카카오페이증권 DevOps 팀 Sean.baek (션), Lina.a (리나)에요.\n\n우리는 전사 Cloud, redis, kafka, 로깅 플랫폼, AI Chatbot(춘시리), FinOps와 다양한 오픈소스 플랫폼을 운영하고 있어요.\n\n2022년 9월에 입사했을 때, 하루에 쌓이는 로그는 약 100GB였어요. 그때는 로깅 시스템이 큰 고민거리가 아니었죠. 그런데 카카오페이증권의 서비스가 빠르게 성장하면서 상황이 달라졌어요. 로그가 폭발적으로 늘어나기 시작한 거예요.\n\n로그 증가 추이 그래프\n\n지금은 하루에 41TB, 200억 건 이상의 로그가 쌓이고 있어요. 3년 만에 410배 이상 증가한 거죠. 문제는 로그량만이 아니었어요. 개발크루들로부터 피드백이 쏟아지기 시작했거든요.\n\n“로그 조회가 너무 느려요. 5분 넘게 걸릴 ",
-        "score": 0,
-        "published_date": "2026-02-23T00:00:00.000Z"
-      },
-      {
-        "title": "[if(kakaoAI)2024] 카카오페이증권의 Kubernetes 지능형 리소스 최적화 (feat. Dr.Pym Project 공유) | 카카오페이 기술 블로그",
-        "url": "https://tech.kakaopay.com/post/ifkakao2024-dr-pym-project/",
-        "text": "[if(kakaoAI)2024] 카카오페이증권의 Kubernetes 지능형 리소스 최적화 (feat. Dr.Pym Project 공유) | 카카오페이 기술 블로그\n\n## 시작하며\n\n안녕하세요. 카카오페이증권 DevOps팀의 스티브입니다.\n\n이번 글에서는 if(kakaoAI)2024에서 발표한 “Kubernetes 지능형 리소스 최적화 (feat. Dr.Pym Project 공유)”세션의 내용과 함께 발표 시간 상 하지 못했던 이야기들까지 함께 공유하려고 합니다.\n\n클라우드 환경에서 Kubernetes를 운영하며 리소스 비용 절감과 서비스 안정성 향상에 고민하는 분들을 위한 글입니다.\n\n## 프로젝트 탄생 비화\n\n“Kubernetes 클러스터에 구성된 서비스의 리소스들을 어떻게 관리하고 계신가요?”\n\n카카오페이증권 k8s Cluster\n\n카카오페이증권 DevOps팀에서는 Wallga라는 CI/CD 플랫폼 위에 EKS, 카카",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "AI 플랫폼 GPU 도입부터 Kubeflow까지 도입기 | 카카오페이 기술 블로그",
-        "url": "https://tech.kakaopay.com/post/ai-platform/",
-        "text": "AI 플랫폼 GPU 도입부터 Kubeflow까지 도입기 | 카카오페이 기술 블로그\n\n요약: 카카오페이는 기존 AI 시스템의 반복적인 수작업과 비효율 문제를 해결하기 위해 AI 플랫폼 구축을 결정했어요. 표준화, 확장성, 통합을 핵심 가치로 삼아 Kubeflow 기반 플랫폼을 도입하고, 고성능 GPU(H200, MIG) 및 하이브리드 클러스터 등 기술적 난제를 극복하며 안정적인 AI 개발 환경을 완성했어요. 이 과정은 금융 환경의 제약 속에서 카카오페이에 맞는 최적의 기술적 해답을 찾아나가는 여정이었어요.\n\n💡 리뷰어 한줄평\n\nwayne.cai AI 모델이 어떻게 작동하는지와 어떤 어려움을 겪으며 환경을 구축했는지에 대한 고민과 답을 볼 수 있는 글이라고 생각됩니다.\n\n## 시작하며\n\n안녕하세요. 카카오페이 DevOps팀의 스텔라입니다. 이번 글에서는 if(kakao)25에서 발표한 [“AI 플랫폼 하드웨어부터 코드까지”](http",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "카카오페이 서버 개발자로 일한다는 것 (feat. 연진아 나 지금 되게 신나)",
-        "url": "https://tech.kakaopay.com/post/happy-server-engineer/",
-        "text": "카카오페이 서버 개발자로 일한다는 것 (feat. 연진아 나 지금 되게 신나) | 카카오페이 기술 블로그\n\n## 시작하며\n\n🔗 if(kakao) 발표 영상 보러 가기: 카카오페이 서버 개발자로 일한다는 것\n\n안녕하세요. if(kakao)에서 ‘카카오페이 서버 개발자로 일한다는 것’ 세션을 진행한 오프라인결제서비스유닛 백엔드 개발자 해피입니다. 세션 내용과 담지 못했던 비하인드 스토리를 함께 들려 드리려고 합니다. 이 글에서 다루는 내용은 결제 서비스 개발자의 관점에 가깝다는 점을 참고하여 읽어주시면 좋을 것 같습니다.\n\n## 카카오페이에서의 경험\n\n### 무에서 유를 창조해낸 2주\n\n제주도에서 프로젝트\n\n입사했던 시기인 2018년 상반기에 카카오페이 오프라인 매장 결제 서비스가 새로 생기면서 이를 정산할 시스템이 필요하게 되었습니다. 난생처음 들어본 PG라는 개념과 구조, 결제/정산 도메인 지식을 ",
-        "score": 0,
-        "published_date": "2023-01-27T00:00:00.000Z"
-      },
-      {
-        "title": "Frontend 개발자 자격요건,우대사항 정리 - DoDo(도도)의 FE 개발",
-        "url": "https://dodokyo.github.io/docs/g-em/em-datas/da001",
-        "text": "Frontend 개발자 자격요건,우대사항 정리 | DoDo(도도)의 FE 개발\n\nOn this page\n\n# Frontend 개발자 자격요건,우대사항 정리\n\n## Guide​\n\n해결하려는 문제 : FE기술들의 특징들을 분석해서 현재 트랜드에 어떤 기술 스택을 준비해야하는지 모니터링 하고자 함.\n\n---\n\n## 카카오페이 - WTS 프론트엔드 개발자(시니어)​\n\nhttps://career.kakaopaysec.com/job_posting/pgnOZGsU\n\n### 주요업무​\n\n조직소개\n\n- 증권 분야의 다양한 전문가들과 협업하면서 신규 서비스를 개발하고 운영해요.\n- 사용자의 피드백에 귀 기울이며 보다 나은 사용자 경험을 제공하기 위해 꾸준히 개선해요.\n- 구성원들이 안정감을 가지고 좋은 퍼포먼스를 낼 수 있도록 함께 일하는 방법을 스터디하고 개선하며 성장해요.\n- 다양한 프론트엔드 기술로",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "카카오페이, 스테이블코인·플랫폼 확장 기대감에 주가 재부각 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51N2c4dlZGeGcwTmZ6bVFYZGdFWEYtY2tvZ0sydVFMOExHUE8wU2ItUHdtX3hlalFyOXFKU0o1RFR2WHY1TExmclZtWUlNMDdSU2hLNndLTENYd9IBVEFVX3lxTE9reWRGaGxLMDZLNWRWLThGWURJTk9BUUF6Z05XWkNNaXNKdlhtaWFGVXNscWJHM2poMkRkRXZhN19BSGVCMFZNdTAya2dZS09PMWl6OA?oc=5",
-        "pub_date": "Wed, 25 Feb 2026 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "카카오페이, 스테이블코인·플랫폼 확장 기대감에 주가 재부각 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY29kXy1mMVEzQmN6S2d4MnFFelVjNTBZLVpVYnlBaEVXbDhWNVZNSHdOanplSGhXZWNZTnJYYnhVLWtia2FlQ3dkMV9CYnlTVnA0bzlXbEVqeDZrd3EwLXlqRGsyYkw5MFozRFgxQXFLS1RaeUVtaXJqU0xmSDh6Sm50cEFYdkk?oc=5",
-        "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "핀테크 플랫폼 성장 본격화…카카오페이, 금융 사업 확장 기대 속 시장 관심 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcTkxdnFFaUJ2NHBTeHVzYUVMNnNweHM1RURhSVROWVNHY0podTV2ZUtkSzVfY0NmdmpsQXFmRlFQYVcycTd6QzZvUVVSdng2YUlvenVST3dtTl9hR1pCWXVnb29SZ05QM0NHMTY0UFhIV2o4Y2Z5ZzNTcVRZNERUZDhnNEpWMU0?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:01:01 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "[강세 토픽] 결제서비스 테마, NHN KCP +9.47%, 카카오페이 +6.61% - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQXzBHb3ZGekNMazQwa2FJbDlYLXVxa1p3ZEs2Y3l6ZUl1T0dtb3UtVFE3LXg3SU1NZDhicDFkd2hJMU1KVnlHYjFfOWs0azlON1lZX1g4eWNSdFZTZlFJQWdQb2E3S2RYdjNTaE1rRGNQUTh2VnZ0YlhvN0RZb2FSUGZZc9IBlwFBVV95cUxQaEVNUFlZUUt5a2JPUHRKTDdQdzVWbENkdU9KYmVQQ1E5R3QzSm91eVBTcUJDZURQN2E5aUgzdWM5YU9mSkg3V3pmbDFRU1l0MkhLaHRPY0JWd1h2VW1TNXN2c1FhREctQllDYWhKMkJVYkFyc3BlcFNpN1A2OFNjTklsVWI5cC1ub3kzRmM0X3JQZXRDVlpF?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 01:41:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "외국계 순매수 금액 상위 20선 - 코스피 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWFpOTFE5ZmZtZDBVX2NHcmpnS3NnNHViTDl5RlBpNzhLbWZoWnJ3UTU3RVgwNHVDbHdmRTVPa2tHam5ob3FlSEJrRmdOclFsdjlNQUxaRUd1d2xyVTJNdDEtbUhsZXNpZ2NHWkZ5anhfVFpicndJUmJDZ0MwT0xGc2YtQdIBlwFBVV95cUxPd2xnem1iOTFKWmhiZnk3d2hXVjlGNGhqb1FvUWlHcDJmVEFPRmZXSi1yZzNmcGlqV3NOLUpFbnJoWkppOVlZcTBzN0IxcGxQam1GOHVhYUMyNjhNdi13SnNpemZwNFk3a2NzNFF4dkgxMXFWNUVWMDgwbllPeXF0WGVDekhJS1k1aEs3LUN2WE03Z0FmSmdr?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 06:08:34 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "상승률 상위 50선 - 코스피 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZGhtZUF4eldWWmlnMmltZktCU1NHc3hQQlVhX3Z1cW5JRHBCdFcyUy1kQklfTHZxdDFqMHpZSkFVSnRxc2tUc2RiYUh1ZEQ4R3hRVGJZTkRtMDVReDRFUS1BU2k2MFd3eTBLTHRTNmJ0Y1hpd1FOVGxFZTl1WV9DeF9nc9IBlwFBVV95cUxPUkU1aHlqRXdQWmIyMGpYQUp6Q0oyZWFCeGN2blp3Z29oQmN1M1VnQlotNnZJNzc1Vkh2akVQWVU0TFd0UEdRbHdKTmN5NHdqOW1jbHNPMmJ0UTFhZHQ5NGI1Tk5RazRqTDhsVDgtVE9hcTR2TE5YbDlSdmFtMmtKd1N0QUtUdXFTeU5leVZCNERTOERuM1BN?oc=5",
-        "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "카카오페이, 임원ㆍ주요주주 특정증권등 소유주식수 변동 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MaWJGR0xFMWs4aFBPRU9XSkJvV0EyZE9MbDVuLVZUUGxmUm9FM2VmOTVnaVpWdG81eFlYdlhiTEh1NFFsMEl3Uk10OE9qb3pJZnc?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:19:51 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "PLUS 미국고배당주액티브(0153X0) - stock12.mk.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfMHJHOUhXWjJQN3VqVmhSQ2VEWl9BeTFkQ0kyYzVpTThaNFJ4ZUQ4V1c1S2JZc1ZzVm00RkpQVEFiLS0tQmxRVkpzZ1pIZmRFRjBMQjBJVk9VMUR5eHJV?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 07:43:25 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "카카오 3분기 영업이익 첫 2천억 돌파…역대 최고 실적(종합2보) - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54eHUxVzlIX3VxcXd4ZGFNTUdZRkV1RDFBckpMa2FXMG4xWnV0YTc2eHJQSUFNeEQ3dS0ybUJhNDM3WjJpaEE3M0l3OHJMdzJj?oc=5",
-        "pub_date": "Fri, 07 Nov 2025 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "카카오페이, ‘개인사업자대출 갈아타기’ 서비스 출시 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtM3FrNEhiM1hKdkFFNE5KTE5nRW9XM2QzamIyQ0tSUXlPbzR5UDd2Si1KWURTR19DdW54ZGg1UHBtbkdfSjJRMFBRV2RGZTBMb2NwTGpn?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 01:06:50 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "한국은행판 스테이블코인, 디지털 바우처에 적용한다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nbmdJZDQ2aEZhVVZDRFpEVXhRRFFWdFRyTWNRbE1JLTRFYllaZGtGRVEza1ZlQ0x2MUN6QTJqaGc1R28zc3JIQkZhaldDOHBMc09zdEFn?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 03:00:04 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "카카오 쇼핑, 2주간 할인 행사 연다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wSDR3MnRWcTFRMTlibjUzZm1oUXhKZkNGWUVqX1EwdTluU083T1dqNjdzMHBFZEJPV3F5cmFkUmdXb0phTE9HcHozTExfRHhqMjJKSXhn?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 02:12:01 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "[인뱅 스테이블코인戰]① 카카오뱅크 '그룹 연합' 결정타, 플랫폼 결제 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VS050UzNiaVVEOE0yU2daSXYycldDUWczY2F3NmtvalNMeGhOQVYwc19qU0ItUmFBWk16bDhaNlZ3QkxLcmFRUk4zVDh2SkdBZlRJMkZvVEQ3dlpsbG04SmtLRExGVDdK0gFsQVVfeXFMUHB6Wm5WeEdwZnM4TlFld29yc3habGdEbTdUNGFodC1oLXFDYzJCbUZFSkppODE0b3lqMU5XT3Q1bmcxeFJkVDMta3lQb2hXSVlrZjZCOGJiNlpETFhSTTJxbTRnUTd6Wm96STF0?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 01:34:34 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[CFO 리포트] 자본시장 파수꾼의 조건 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FRXBlNGE4bVZxNHVfVzRUYW9zWjBlbWlUdXc5NVFUc1NEd253eXp1aHRiRWswcmxtVHhpZTJUSGZTQTFWbF9rR1RYeU5GRXVmYXFJa25WeVlkWlJyMTEtX3g4M1NlZU450gFsQVVfeXFMUHdBbURJUWJ5Qk4xRHAyNGpsNzFyWG5Td2hDUXBMMTVSN0F6M20zNnEydjBZVU9QT0d2bDlOODdiNXVvcUlVZUxiZmgxY0k2RDRyUVNPR3dCcnFnYU81dm5HOEg1RHpCOFN2NFVf?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 21:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[인뱅 스테이블코인戰]③ 토스뱅크, 사업화 신중…급선무는 인프라 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zSG1JUkktdUJkNXpJVk0zZml5d050NHcxVm93QzVmXy1adzlZc29tTW1JS2pjdWRHQnAtYngyQUJqaENlNkxyaU1Tdm9pMzlpcUtFdGdLbzdBdnFrX3VTSVZWSlZSakQy0gFsQVVfeXFMTUpvTHNaNHlnMUZNeXh2eWpUcGxic3I0eDNFVkt0SS1Tc3A5cXNCczVKRmE1clVSSUR3RUdJR0hEbnJoenhFdnVPVXFMNkVScEN1ZkZUZzY1MjdnZlBvVnNXcnJuUllHVWlqWWlv?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 02:02:14 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "토스증권과 카카오페이증권의 차이점 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zVi1GMFJaT2RkN1V2alRSY3NCSWFPUUlMU25fVkRPc29IdTl2bTQ0dzhzeEtWMDdOeWh2SzA3dEY3QnlEYldld3dmVC1qNkU?oc=5",
-        "pub_date": "Fri, 20 Nov 2020 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "출범 2년 맞은 카카오페이증권이 강조한 ‘차별점’ - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XODZoRE1kSGVZeWNaWVMzSUdTUlJSNEp5bnA2YmRoVDRKYnVVYl82SFRiWDNsMGNrNjBvLXdVYlJoUVhmZEx3X3RoN29XZw?oc=5",
-        "pub_date": "Tue, 05 Apr 2022 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "카카오가 증권업에 진출한 이유 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBlMnMtc19yXzNkRkhydDlMeGRWOVlrU2lEcVNtZDA3SkI2SHFaY251MTQxWV9zY2VDbnFtT29wYTlnd0RBbVlsbVExcGhEUQ?oc=5",
-        "pub_date": "Mon, 10 Feb 2020 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "7": {
+      "blog_url": "https://tech.kakao.com",
+      "recent_posts": [
+        {
+          "title": "blog수억 건의 보안 신호 속 진짜 위협 찾기 — AI로 보안 모니터링의 패러다임을 바꾸다작성자jerry.shim/ jackson.c날짜2026.03.16",
+          "link": "https://tech.kakao.com/posts/817",
+          "date": ""
+        },
+        {
+          "title": "blog학생에서 개발자로: 로또 구현부터 레거시 개선까지, 서버의 흐름을 배우다작성자daniel.hoon/ danny.197/ seogi.nam/ frank.jeong날짜2026.03.13",
+          "link": "https://tech.kakao.com/posts/816",
+          "date": ""
+        },
+        {
+          "title": "blog학생에서 개발자로: DB, 보안부터 AI까지, 정답보다 합리적인 선택을 배우다작성자zephy.r/ mint.pearl/ theo.cha/ rowan.ko날짜2026.03.13",
+          "link": "https://tech.kakao.com/posts/815",
+          "date": ""
+        },
+        {
+          "title": "More →",
+          "link": "https://tech.kakao.com/blog",
+          "date": ""
+        }
+      ],
+      "tech_keywords": [],
+      "post_count": 4,
+      "exa_tech": [
+        {
+          "title": "일 41TB, 200억 건의 로그를 ClickStack으로 실시간 처리하기",
+          "url": "https://tech.kakaopay.com/post/pallas-v2-log-platform/",
+          "text": "일 41TB, 200억 건의 로그를 ClickStack으로 실시간 처리하기 - 호그와트 도서관 프로젝트 | 카카오페이 기술 블로그\n\n## 시작하며\n\n안녕하세요. 카카오페이증권 DevOps 팀 Sean.baek (션), Lina.a (리나)에요.\n\n우리는 전사 Cloud, redis, kafka, 로깅 플랫폼, AI Chatbot(춘시리), FinOps와 다양한 오픈소스 플랫폼을 운영하고 있어요.\n\n2022년 9월에 입사했을 때, 하루에 쌓이는 로그는 약 100GB였어요. 그때는 로깅 시스템이 큰 고민거리가 아니었죠. 그런데 카카오페이증권의 서비스가 빠르게 성장하면서 상황이 달라졌어요. 로그가 폭발적으로 늘어나기 시작한 거예요.\n\n로그 증가 추이 그래프\n\n지금은 하루에 41TB, 200억 건 이상의 로그가 쌓이고 있어요. 3년 만에 410배 이상 증가한 거죠. 문제는 로그량만이 아니었어요. 개발크루들로부터 피드백이 쏟아지기 시작했거든요.\n\n“로그 조회가 너무 느려요. 5분 넘게 걸릴 ",
+          "score": 0,
+          "published_date": "2026-02-23T00:00:00.000Z"
+        },
+        {
+          "title": "[if(kakaoAI)2024] 카카오페이증권의 Kubernetes 지능형 리소스 최적화 (feat. Dr.Pym Project 공유) | 카카오페이 기술 블로그",
+          "url": "https://tech.kakaopay.com/post/ifkakao2024-dr-pym-project/",
+          "text": "[if(kakaoAI)2024] 카카오페이증권의 Kubernetes 지능형 리소스 최적화 (feat. Dr.Pym Project 공유) | 카카오페이 기술 블로그\n\n## 시작하며\n\n안녕하세요. 카카오페이증권 DevOps팀의 스티브입니다.\n\n이번 글에서는 if(kakaoAI)2024에서 발표한 “Kubernetes 지능형 리소스 최적화 (feat. Dr.Pym Project 공유)”세션의 내용과 함께 발표 시간 상 하지 못했던 이야기들까지 함께 공유하려고 합니다.\n\n클라우드 환경에서 Kubernetes를 운영하며 리소스 비용 절감과 서비스 안정성 향상에 고민하는 분들을 위한 글입니다.\n\n## 프로젝트 탄생 비화\n\n“Kubernetes 클러스터에 구성된 서비스의 리소스들을 어떻게 관리하고 계신가요?”\n\n카카오페이증권 k8s Cluster\n\n카카오페이증권 DevOps팀에서는 Wallga라는 CI/CD 플랫폼 위에 EKS, 카카",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "AI 플랫폼 GPU 도입부터 Kubeflow까지 도입기 | 카카오페이 기술 블로그",
+          "url": "https://tech.kakaopay.com/post/ai-platform/",
+          "text": "AI 플랫폼 GPU 도입부터 Kubeflow까지 도입기 | 카카오페이 기술 블로그\n\n요약: 카카오페이는 기존 AI 시스템의 반복적인 수작업과 비효율 문제를 해결하기 위해 AI 플랫폼 구축을 결정했어요. 표준화, 확장성, 통합을 핵심 가치로 삼아 Kubeflow 기반 플랫폼을 도입하고, 고성능 GPU(H200, MIG) 및 하이브리드 클러스터 등 기술적 난제를 극복하며 안정적인 AI 개발 환경을 완성했어요. 이 과정은 금융 환경의 제약 속에서 카카오페이에 맞는 최적의 기술적 해답을 찾아나가는 여정이었어요.\n\n💡 리뷰어 한줄평\n\nwayne.cai AI 모델이 어떻게 작동하는지와 어떤 어려움을 겪으며 환경을 구축했는지에 대한 고민과 답을 볼 수 있는 글이라고 생각됩니다.\n\n## 시작하며\n\n안녕하세요. 카카오페이 DevOps팀의 스텔라입니다. 이번 글에서는 if(kakao)25에서 발표한 [“AI 플랫폼 하드웨어부터 코드까지”](http",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "카카오페이 서버 개발자로 일한다는 것 (feat. 연진아 나 지금 되게 신나)",
+          "url": "https://tech.kakaopay.com/post/happy-server-engineer/",
+          "text": "카카오페이 서버 개발자로 일한다는 것 (feat. 연진아 나 지금 되게 신나) | 카카오페이 기술 블로그\n\n## 시작하며\n\n🔗 if(kakao) 발표 영상 보러 가기: 카카오페이 서버 개발자로 일한다는 것\n\n안녕하세요. if(kakao)에서 ‘카카오페이 서버 개발자로 일한다는 것’ 세션을 진행한 오프라인결제서비스유닛 백엔드 개발자 해피입니다. 세션 내용과 담지 못했던 비하인드 스토리를 함께 들려 드리려고 합니다. 이 글에서 다루는 내용은 결제 서비스 개발자의 관점에 가깝다는 점을 참고하여 읽어주시면 좋을 것 같습니다.\n\n## 카카오페이에서의 경험\n\n### 무에서 유를 창조해낸 2주\n\n제주도에서 프로젝트\n\n입사했던 시기인 2018년 상반기에 카카오페이 오프라인 매장 결제 서비스가 새로 생기면서 이를 정산할 시스템이 필요하게 되었습니다. 난생처음 들어본 PG라는 개념과 구조, 결제/정산 도메인 지식을 ",
+          "score": 0,
+          "published_date": "2023-01-27T00:00:00.000Z"
+        },
+        {
+          "title": "Frontend 개발자 자격요건,우대사항 정리 - DoDo(도도)의 FE 개발",
+          "url": "https://dodokyo.github.io/docs/g-em/em-datas/da001",
+          "text": "Frontend 개발자 자격요건,우대사항 정리 | DoDo(도도)의 FE 개발\n\nOn this page\n\n# Frontend 개발자 자격요건,우대사항 정리\n\n## Guide​\n\n해결하려는 문제 : FE기술들의 특징들을 분석해서 현재 트랜드에 어떤 기술 스택을 준비해야하는지 모니터링 하고자 함.\n\n---\n\n## 카카오페이 - WTS 프론트엔드 개발자(시니어)​\n\nhttps://career.kakaopaysec.com/job_posting/pgnOZGsU\n\n### 주요업무​\n\n조직소개\n\n- 증권 분야의 다양한 전문가들과 협업하면서 신규 서비스를 개발하고 운영해요.\n- 사용자의 피드백에 귀 기울이며 보다 나은 사용자 경험을 제공하기 위해 꾸준히 개선해요.\n- 구성원들이 안정감을 가지고 좋은 퍼포먼스를 낼 수 있도록 함께 일하는 방법을 스터디하고 개선하며 성장해요.\n- 다양한 프론트엔드 기술로",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "1": {
+      "company_name": "(주)카카오",
+      "company_name_eng": "Kakao Corp.",
+      "stock_name": "카카오",
+      "ceo": "정신아",
+      "address": "제주특별자치도 제주시 첨단로 242",
+      "industry_code": "63120",
+      "established": "19950216",
+      "homepage": "www.kakaocorp.com",
+      "ir_url": "https://www.kakaocorp.com/ir/main",
+      "stock_code": "035720",
+      "corp_class": "Y",
+      "employees": [
+        {
+          "position": "전사",
+          "gender": "남",
+          "headcount": "2,166",
+          "contract_workers": "20",
+          "total": "2,186",
+          "avg_tenure_year": "6년 4개월",
+          "total_salary": "122,000,000",
+          "avg_salary": ""
+        },
+        {
+          "position": "전사",
+          "gender": "여",
+          "headcount": "1,587",
+          "contract_workers": "149",
+          "total": "1,736",
+          "avg_tenure_year": "6년 3개월",
+          "total_salary": "92,000,000",
+          "avg_salary": ""
+        }
+      ],
+      "meta_description": "누구나 일상에서 AI를 경험할 수 있도록",
+      "page_title": "카카오",
+      "about_text": [
+        "홈 본문 검색어 닫기 스토리텔링 서비스 바로가기 서비스 나의 세계를 바꾸는 카카오 AI 기술 나에게 가장 가까운, 가장 쉬운 AI 채용 함께 나아갈 미래의 크루들에게 ESG 지속가능한 미래를 위한 카카오의 약속과 책임 Service AI/TECH People ESG 카카오의 다양한 모습 바로가기 뉴스 바로가기 카카오가 전하는 가장 빠른 뉴스 투자정보 바로가기 주주와 함께 성장하는 카카오 카카오소식 바로가기 지금 카카오에선 그룹사소식 바로가기 더 나은 미래를 만드는 패밀리 고객센터 바로가기 그 어떤 목소리도 소외되지 않도록 더 나은 세상을 만드는 카카오 서비스 카카오톡 사람과 세상을 연결하는 전 우주 통신규약을 꿈꾸는 메신저 카카오맵 좋은 곳을 함께 찾아가는 지도, 카카오맵 카카오톡 채널 더 편한 모바일 생활의 시작, 카카오톡 채널 카카오페이지 세상 모든 이야기를 담다, 카카오페이지 카카오T 모든 이동을 위한 모빌리티 서비스 카카오페이 마음놓고 금융하다 지그재그 나를 표현하는 쇼핑, 지그재그 멜론 음악이 필요한 순간, 멜론 전체 슬라이드 8 중 1번째 슬라이드",
+        "서비스 이용정보 이용약관 카카오계정 서비스 사이트 바로가기(새창열림) 카카오 서비스 사이트 바로가기(새창열림) 위치정보 이용약관 새창열림 개인정보처리방침 기업사이트 사이트 바로가기(새창열림) 카카오 서비스 사이트 바로가기(새창열림) 운영정책 및 제안 운영정책 사이트 바로가기(새창열림) 안전보건제안 사이트 바로가기(새창열림) 청소년보호정책 새창열림 접근성 안내 새창열림 브랜드보호정책 새창열림 권리침해신고안내 새창열림 공지사항 투자정보 공지 사이트 바로가기(새창열림) 카카오 서비스 사이트 바로가기(새창열림) 사이버윤리실 새창열림 Contact Us 새창열림 관련사이트 카카오 프라이버시 사이트 바로가기(새창열림) 카카오 디벨로퍼스 사이트 바로가기(새창열림) 다음 포털 사이트 사이트 바로가기(새창열림) 동반 성장 사이트 사이트 바로가기(새창열림) 제주 with kakao 사이트 바로가기(새창열림) © Kakao Corp. All rights reserved."
+      ],
+      "career_links": [
+        "https://careers.kakao.com/index",
+        "https://careers.kakao.com/index?t_src=mainpage"
+      ],
+      "google_news": [
+        {
+          "title": "장애인 고용보다 벌금이 싸다?…유안타·카카오페이증권이 외면한 사회적 책임 - 녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oMkZSNkRhbGROVGtFQVpVNnpsVS1LaHp6bEJSenVVckhrMElQV1dETnVWV18zbzgtd2lZQkhydFd1eWlGenFEdFN3a2c3MVBwczN1d3RHYlJ5N1ZmNU5BQ21BT3lnTmpI?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 08:46:05 GMT",
+          "source": "녹색경제신문"
+        },
+        {
+          "title": "[증권사 AI]⑧ 카카오페이증권, 플랫폼 금융과 결합 '실험' - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lOExMNFdfdHNoMzdqcDU4dmR5dC1iMWpVZDcwS3hOZmxFNm00YURrVXZSakozS0wxWC01c1hyUjZFMTYxcGFEdUxVMlQ1UGduTXlOeGJWWjR5Q0FESUh6WGtESXY5WmhJ0gFsQVVfeXFMTllvS01DelJlRmlGdGxsaHRaZmtxcGhGWDdoQTZSQ0Q3NVEyOUE2QTdIaEZuQ3d4TDVaSmZRTjZ0Y1h4STdvOTQ5a1BkejB2M2hVR2Jhb3VneDN5bGFtWFBRWUxuQUFScnN5dGRH?oc=5",
+          "pub_date": "Fri, 06 Mar 2026 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "MS, 'AI 투어 서울' 26일 개최...\"AI 프론티어 기업 도약 실전 로드맵 공유\" - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WOEZjRm9td1pWUU1ObDdzNzlWV0kzck5EQnFQMVhGTnZyVUdTaGlJSmFiRFp3eW1EeUFsb2lFd0NSejhTSXc3OHNXTkJMallxV0c4SVZ0a3dtVERIdzFMbVBhdEZjdjgxZVE?oc=5",
+          "pub_date": "Thu, 05 Mar 2026 02:45:25 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "증권사에서 AI를 어떻게 하면 더 잘 쓸 수 있을까? - 브런치",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5CdzFUdjhVRTFWcEdDdkNwVElDYWtqbnUwNmxidS1hUUdQUHBQMXlBYl94T18zRFRaWHQ3djlVVHExY0NBSVQ4QXZ2b2o?oc=5",
+          "pub_date": "Fri, 13 Feb 2026 08:34:16 GMT",
+          "source": "브런치"
+        },
+        {
+          "title": "증권사 CEO 23인 “AI 거버넌스 전략적 접근…PB 고도화·내부통제 강화” [AX, 금융 대변혁의 시대] - 한국금융신문",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GN0ZPaFFGcGxiTnJQSVhVaFhDcVdIT25rY2NPYmRqU2JGVElMZ1UtZHJXY2JaUllQRF82QTJ3TmE4YXdfVGRNODJWT1dtV1NUM0RUYklIYThBc0hLdHo5TjhtWGVueVRpemZxeDdpVk5NVEhzbnhZUGlHZw?oc=5",
+          "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
+          "source": "한국금융신문"
+        },
+        {
+          "title": "두들린 '그리팅', ‘2026 AI 채용 전략 리포트’ 발간 - 헬로티",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iODNnb0NYWXFROTlNRE5qQnBJV1hjcWl4cUR5Y3h6Q2dTMzgtUDB5Rm1tclZlbFRlTVBpNDEwbXVlaGxVTFdsbjNjMlA3eEtyejZiRXpTNFBvVjZWcDJN?oc=5",
+          "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
+          "source": "헬로티"
+        },
+        {
+          "title": "‘해외주식 왕좌’ 토스증권, 자산관리 시장 진출 착수…수익 다각화 포석 - CEO스코어데일리",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwOWhPVGswcDVWUnFmX250MU85VnZMMzJYUGc4ZFNPTUZYMVQyTS1FSFZ6YlNja0JIT2JtYlQyUXhTZ0tZVjVvVkVHRW94elJ0TVNiTWJMX21OMDVleXJydkZHbWN1QnhLM19v?oc=5",
+          "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
+          "source": "CEO스코어데일리"
+        },
+        {
+          "title": "카카오페이, 첫 흑자 기록하며 비상...“스테이블코인·AI 혁신 추진” - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96R3RJUmd1bFF0akMxcUVjRDRHVEFyS0N5VTJJNnNmcXpRUnNOUWJYelJNVjhza1BXRV83c3dNZUNHSzdJcm1oYk85amE2V01VVlZJcg?oc=5",
+          "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[테크스냅] 국정원, AI 분야 전문 경력직 공개 채용 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SdS1zQS0tNzhEa0tEbzN5eUUxM2dvNGhRUktRc1cybVpzZFJ4NDhxNkNwWHhUOEhsT1drYVJIbjFJTktMMmUwT1cxam04NFRQeTl3a09iLXk5bEHSAWBBVV95cUxPNDZySG5XNVVBSVl1MkJLaHV1N1JUWUVkVmtqam9QaEI4M3BXMVluaS1ybVFBcUtlMHRaTVVuaXZWM2VxTHJoYlFPbG9kS25Hc0tXX054cEs0X0c4QllFYjA?oc=5",
+          "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "그리팅, ‘2026 AI 채용 전략 리포트’…채용담당자 73% “가장 기대하는 AI 활용 분야는 이력서 평가” - 퍼블릭타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1dlYxZWZ6R3NsdDlzb3doR2dBY0hFZEhjQzhJT3Uyc190MDRPbXczSUMzRDRUNFdDY3RNck9Tbm5nSm1TNWNkZ19rS0lXVzFfY2dtRnNVYlpoT2diX2dXTk9PT1lhOGtpcWfSAW5BVV95cUxOSnFLdFlRUnVidFdYVW02R1N5SXM5VENDUDFuU1hhVTlHOWdNWFZMRmR6NTNnWkFKSm90cEZRT0VRNmpxR0ZYSF84SFIyZklfVnpxc1pyTzVvYWt2VmdiUDNJQkpaVWZmMmctVmI2Zw?oc=5",
+          "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
+          "source": "퍼블릭타임스"
+        },
+        {
+          "title": "카카오페이증권, 글로벌 투자 인사이트 강화…美 시버트와 콘텐츠 제휴 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwbHVGYldVRDFrZVRfU1VVYlFUOG02SEdaaHJ1aG5fZkxjaXVUZmMyeG1nUXEwdXJfYlA1ajlkMU9OdE52TWhqMTlxSVVtV0dvZ1NGNEkxTldLai15a1BkbjZvc2s?oc=5",
+          "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+          "source": "서울경제TV"
+        },
+        {
+          "title": "카카오페이증권, 11월 투자자 동향 발표 - 뉴스웰",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIWUlGZnJTcDdGcVhtb3JidkxaWjkxLTloMXo4d2hlaWpYQ0ZDdzIzQmJPbWdILUY1ekNKMWM0V0MxclI1c0w2MHF5V1lGRnd0V24wZFYzMHI2eVhReFdBbUl5cVk1Vm1Yc21IVA?oc=5",
+          "pub_date": "Thu, 11 Dec 2025 08:00:00 GMT",
+          "source": "뉴스웰"
+        },
+        {
+          "title": "AI 힘주는 증권가…'맞춤 서비스·고도화' 전략 살펴보니 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1sbl8zRWJhWFVwSElJdEJHN2hHQnNacURsZUt1ZDZCUXlJNm9pX2RhN0szSUJDWDhNXzg4bHVlaWpHQXhiU2c?oc=5",
+          "pub_date": "Tue, 24 Jun 2025 07:00:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "첫 흑자 돌아선 카카오페이···올해 결제 매출 '하이 싱글' 성장 예고(종합) - 뉴스웨이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxbU1EeFpla3dGdDFhc2VCeUNuMGpqSlphRHpVNERRQU5RXzkwZ1A4Sk9UcDF3VlZ4bGdLRlM5WnVBMmV4MjFicG8tdVFNdkdaRmJuR0pFNUM0b0ZSVE0yakNDX2ZLeXhHaUE?oc=5",
+          "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+          "source": "뉴스웨이"
+        },
+        {
+          "title": "카톡에 챗GPT 붙이고 대규모 채용하고…카카오에 新바람 - 서울경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9hSlpSQUx0UUkyR3d0U2d2Q2M2MGdzdVZTdHpsbGxETkhNT0NodE5QY1E1TkpNOVBOdmItdmdFcXo5NmxjSVNKRXRQLUxqNzI0MGfSAVNBVV95cUxOTU0wNU9iNWRmaWQ5dWozNW9sc1VId1pkY2ljRmhnc2I3cFZydnJHREUwUzlQaHRROEI5M3RLRFlvSGxTWERrODdxLWoxTlFGQWtwUQ?oc=5",
+          "pub_date": "Sat, 06 Sep 2025 07:00:00 GMT",
+          "source": "서울경제신문"
+        },
+        {
+          "title": "카카오페이, 작년 연간 순이익 557억원 흑자 전환…예상치 하회(종합) - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qempSVUt5ZGJDUnJ0WFNDeTFtNEhaY0tLcTE2a0tqTDVFZVkxRjU4amNFX285SjZPSWFXeEItLXNCb3RhUGpsLVRUYmM0bDV1d0dmNjBuUFE5ckJYdllSNDRpcGNKSFk0RmRLb0xudFI?oc=5",
+          "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "카카오페이, 첫 연간 흑자 달성… 영업이익 504억 원, 매출 9,584억 원 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RakVOSTZnVENiSWE3SzQ4eWh5a3MzaGxBdFhPcUI4REFFSjFuZWtnQm81WHlDcFEyOUhqLW5zLXkxTS1Gelo4SQ?oc=5",
+          "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "[재무제표 분석 201] 카카오페이 - '덩치'만 큰 핀테크는 끝났다. 수익성을 장착해라! - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaXVTUzZNQU80RXI4eXEyWjEwTTdCNXdsdlVNdVJuQW9XQ1doa1lQb0lVeFdJalBRNHFyZjM5ek1rMTl4NkFrRF9NN2FEU081MkQxdHF2YnFvMHZ5NkpzR0VQZDlPOXB3WmJLbUhQSl9od1l6T1l4ejFaVmVFYm5KbW9RaldXZw?oc=5",
+          "pub_date": "Wed, 10 Dec 2025 08:00:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
+        },
+        {
+          "title": "[종목 포커스] 카카오페이, 성장의 서막 알린 첫 흑자전환…주가 상승 탄력? - 데일리인베스트",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IQjNleGxaUDVuZmpCRDNaVUNvS1FUbmxsQ0s3RjNTVnFzTlBsRnhIV29UcFFwM1k3SGViV2dQVzFtM1ZiTGJEd1ZmeWQ5eWw5eEQ1MXpsWGZyNHRRZGh4TlZVZ184Z3loVlln0gFvQVVfeXFMUDhKOUlqQXA0ZDdIVGtvVkU4aExqVDVtYW0xWUFBTXZGMnptLVhLWWN0N2Z0UXFPRGlhVXd5SlkxYUQtejRNTDd0d254SGxMSGU1TVA3WDZ4bzlidDktVVRISUdja2E2UUxCT2VXaWpJ?oc=5",
+          "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT",
+          "source": "데일리인베스트"
+        },
+        {
+          "title": "﻿카카오페이, 지난해 영업이익 504억… 사상 첫 연간 흑자 달성 - 한국보험신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOd1p0NF9xbG5oWDVXdGVEcDdSRUY1UmNndE1yMjBBX0diQVlBamhhZTIzVTBCcTFGNVZqNFdtTVpxWkxWQnhianFBTlozTkRqSUhDdTcyRjd2NHJLWTF5c2NROEJMang0MzZn0gFvQVVfeXFMUFhmeExTeDNzWUFVTUM3dzh6SnFHU0RKSTQ5R19pbXlpYmtGR1dsZlo5UXlYWm8ta2tJcnB4el80cUd0UW9odDY0eEFLa2ptZG1QMWwyaTBXOWVhNFRNbVNEaXN3bnNFQjIzalE4cjJv?oc=5",
+          "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+          "source": "한국보험신문"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "카카오페이, 스테이블코인·플랫폼 확장 기대감에 주가 재부각 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51N2c4dlZGeGcwTmZ6bVFYZGdFWEYtY2tvZ0sydVFMOExHUE8wU2ItUHdtX3hlalFyOXFKU0o1RFR2WHY1TExmclZtWUlNMDdSU2hLNndLTENYd9IBVEFVX3lxTE9reWRGaGxLMDZLNWRWLThGWURJTk9BUUF6Z05XWkNNaXNKdlhtaWFGVXNscWJHM2poMkRkRXZhN19BSGVCMFZNdTAya2dZS09PMWl6OA?oc=5",
+          "pub_date": "Wed, 25 Feb 2026 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "카카오페이, 스테이블코인·플랫폼 확장 기대감에 주가 재부각 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY29kXy1mMVEzQmN6S2d4MnFFelVjNTBZLVpVYnlBaEVXbDhWNVZNSHdOanplSGhXZWNZTnJYYnhVLWtia2FlQ3dkMV9CYnlTVnA0bzlXbEVqeDZrd3EwLXlqRGsyYkw5MFozRFgxQXFLS1RaeUVtaXJqU0xmSDh6Sm50cEFYdkk?oc=5",
+          "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "핀테크 플랫폼 성장 본격화…카카오페이, 금융 사업 확장 기대 속 시장 관심 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcTkxdnFFaUJ2NHBTeHVzYUVMNnNweHM1RURhSVROWVNHY0podTV2ZUtkSzVfY0NmdmpsQXFmRlFQYVcycTd6QzZvUVVSdng2YUlvenVST3dtTl9hR1pCWXVnb29SZ05QM0NHMTY0UFhIV2o4Y2Z5ZzNTcVRZNERUZDhnNEpWMU0?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:01:01 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[강세 토픽] 결제서비스 테마, NHN KCP +9.47%, 카카오페이 +6.61% - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQXzBHb3ZGekNMazQwa2FJbDlYLXVxa1p3ZEs2Y3l6ZUl1T0dtb3UtVFE3LXg3SU1NZDhicDFkd2hJMU1KVnlHYjFfOWs0azlON1lZX1g4eWNSdFZTZlFJQWdQb2E3S2RYdjNTaE1rRGNQUTh2VnZ0YlhvN0RZb2FSUGZZc9IBlwFBVV95cUxQaEVNUFlZUUt5a2JPUHRKTDdQdzVWbENkdU9KYmVQQ1E5R3QzSm91eVBTcUJDZURQN2E5aUgzdWM5YU9mSkg3V3pmbDFRU1l0MkhLaHRPY0JWd1h2VW1TNXN2c1FhREctQllDYWhKMkJVYkFyc3BlcFNpN1A2OFNjTklsVWI5cC1ub3kzRmM0X3JQZXRDVlpF?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 01:41:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "외국계 순매수 금액 상위 20선 - 코스피 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWFpOTFE5ZmZtZDBVX2NHcmpnS3NnNHViTDl5RlBpNzhLbWZoWnJ3UTU3RVgwNHVDbHdmRTVPa2tHam5ob3FlSEJrRmdOclFsdjlNQUxaRUd1d2xyVTJNdDEtbUhsZXNpZ2NHWkZ5anhfVFpicndJUmJDZ0MwT0xGc2YtQdIBlwFBVV95cUxPd2xnem1iOTFKWmhiZnk3d2hXVjlGNGhqb1FvUWlHcDJmVEFPRmZXSi1yZzNmcGlqV3NOLUpFbnJoWkppOVlZcTBzN0IxcGxQam1GOHVhYUMyNjhNdi13SnNpemZwNFk3a2NzNFF4dkgxMXFWNUVWMDgwbllPeXF0WGVDekhJS1k1aEs3LUN2WE03Z0FmSmdr?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 06:08:34 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "상승률 상위 50선 - 코스피 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZGhtZUF4eldWWmlnMmltZktCU1NHc3hQQlVhX3Z1cW5JRHBCdFcyUy1kQklfTHZxdDFqMHpZSkFVSnRxc2tUc2RiYUh1ZEQ4R3hRVGJZTkRtMDVReDRFUS1BU2k2MFd3eTBLTHRTNmJ0Y1hpd1FOVGxFZTl1WV9DeF9nc9IBlwFBVV95cUxPUkU1aHlqRXdQWmIyMGpYQUp6Q0oyZWFCeGN2blp3Z29oQmN1M1VnQlotNnZJNzc1Vkh2akVQWVU0TFd0UEdRbHdKTmN5NHdqOW1jbHNPMmJ0UTFhZHQ5NGI1Tk5RazRqTDhsVDgtVE9hcTR2TE5YbDlSdmFtMmtKd1N0QUtUdXFTeU5leVZCNERTOERuM1BN?oc=5",
+          "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "카카오페이, 임원ㆍ주요주주 특정증권등 소유주식수 변동 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MaWJGR0xFMWs4aFBPRU9XSkJvV0EyZE9MbDVuLVZUUGxmUm9FM2VmOTVnaVpWdG81eFlYdlhiTEh1NFFsMEl3Uk10OE9qb3pJZnc?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:19:51 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "PLUS 미국고배당주액티브(0153X0) - stock12.mk.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfMHJHOUhXWjJQN3VqVmhSQ2VEWl9BeTFkQ0kyYzVpTThaNFJ4ZUQ4V1c1S2JZc1ZzVm00RkpQVEFiLS0tQmxRVkpzZ1pIZmRFRjBMQjBJVk9VMUR5eHJV?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 07:43:25 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "카카오 3분기 영업이익 첫 2천억 돌파…역대 최고 실적(종합2보) - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54eHUxVzlIX3VxcXd4ZGFNTUdZRkV1RDFBckpMa2FXMG4xWnV0YTc2eHJQSUFNeEQ3dS0ybUJhNDM3WjJpaEE3M0l3OHJMdzJj?oc=5",
+          "pub_date": "Fri, 07 Nov 2025 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "카카오페이, ‘개인사업자대출 갈아타기’ 서비스 출시 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtM3FrNEhiM1hKdkFFNE5KTE5nRW9XM2QzamIyQ0tSUXlPbzR5UDd2Si1KWURTR19DdW54ZGg1UHBtbkdfSjJRMFBRV2RGZTBMb2NwTGpn?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 01:06:50 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "한국은행판 스테이블코인, 디지털 바우처에 적용한다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nbmdJZDQ2aEZhVVZDRFpEVXhRRFFWdFRyTWNRbE1JLTRFYllaZGtGRVEza1ZlQ0x2MUN6QTJqaGc1R28zc3JIQkZhaldDOHBMc09zdEFn?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 03:00:04 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "카카오 쇼핑, 2주간 할인 행사 연다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wSDR3MnRWcTFRMTlibjUzZm1oUXhKZkNGWUVqX1EwdTluU083T1dqNjdzMHBFZEJPV3F5cmFkUmdXb0phTE9HcHozTExfRHhqMjJKSXhn?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 02:12:01 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[인뱅 스테이블코인戰]① 카카오뱅크 '그룹 연합' 결정타, 플랫폼 결제 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VS050UzNiaVVEOE0yU2daSXYycldDUWczY2F3NmtvalNMeGhOQVYwc19qU0ItUmFBWk16bDhaNlZ3QkxLcmFRUk4zVDh2SkdBZlRJMkZvVEQ3dlpsbG04SmtLRExGVDdK0gFsQVVfeXFMUHB6Wm5WeEdwZnM4TlFld29yc3habGdEbTdUNGFodC1oLXFDYzJCbUZFSkppODE0b3lqMU5XT3Q1bmcxeFJkVDMta3lQb2hXSVlrZjZCOGJiNlpETFhSTTJxbTRnUTd6Wm96STF0?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 01:34:34 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[CFO 리포트] 자본시장 파수꾼의 조건 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FRXBlNGE4bVZxNHVfVzRUYW9zWjBlbWlUdXc5NVFUc1NEd253eXp1aHRiRWswcmxtVHhpZTJUSGZTQTFWbF9rR1RYeU5GRXVmYXFJa25WeVlkWlJyMTEtX3g4M1NlZU450gFsQVVfeXFMUHdBbURJUWJ5Qk4xRHAyNGpsNzFyWG5Td2hDUXBMMTVSN0F6M20zNnEydjBZVU9QT0d2bDlOODdiNXVvcUlVZUxiZmgxY0k2RDRyUVNPR3dCcnFnYU81dm5HOEg1RHpCOFN2NFVf?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 21:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[인뱅 스테이블코인戰]③ 토스뱅크, 사업화 신중…급선무는 인프라 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zSG1JUkktdUJkNXpJVk0zZml5d050NHcxVm93QzVmXy1adzlZc29tTW1JS2pjdWRHQnAtYngyQUJqaENlNkxyaU1Tdm9pMzlpcUtFdGdLbzdBdnFrX3VTSVZWSlZSakQy0gFsQVVfeXFMTUpvTHNaNHlnMUZNeXh2eWpUcGxic3I0eDNFVkt0SS1Tc3A5cXNCczVKRmE1clVSSUR3RUdJR0hEbnJoenhFdnVPVXFMNkVScEN1ZkZUZzY1MjdnZlBvVnNXcnJuUllHVWlqWWlv?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 02:02:14 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "토스증권과 카카오페이증권의 차이점 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zVi1GMFJaT2RkN1V2alRSY3NCSWFPUUlMU25fVkRPc29IdTl2bTQ0dzhzeEtWMDdOeWh2SzA3dEY3QnlEYldld3dmVC1qNkU?oc=5",
+          "pub_date": "Fri, 20 Nov 2020 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "출범 2년 맞은 카카오페이증권이 강조한 ‘차별점’ - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XODZoRE1kSGVZeWNaWVMzSUdTUlJSNEp5bnA2YmRoVDRKYnVVYl82SFRiWDNsMGNrNjBvLXdVYlJoUVhmZEx3X3RoN29XZw?oc=5",
+          "pub_date": "Tue, 05 Apr 2022 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "카카오가 증권업에 진출한 이유 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBlMnMtc19yXzNkRkhydDlMeGRWOVlrU2lEcVNtZDA3SkI2SHFaY251MTQxWV9zY2VDbnFtT29wYTlnd0RBbVlsbVExcGhEUQ?oc=5",
+          "pub_date": "Mon, 10 Feb 2020 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ],
+      "financials": [
+        {
+          "account": "자산총계",
+          "current_amount": "11590369398820",
+          "previous_amount": "11607486907579",
+          "two_years_ago": "11354868024171"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "7477584262907",
+          "previous_amount": "7214324930736",
+          "two_years_ago": "7183172116575"
+        },
+        {
+          "account": "부채총계",
+          "current_amount": "4112785135913",
+          "previous_amount": "4393161976843",
+          "two_years_ago": "4171695907596"
+        },
+        {
+          "account": "영업이익",
+          "current_amount": "440242465351",
+          "previous_amount": "491969958048",
+          "two_years_ago": "533021659728"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "1608637288456",
+          "previous_amount": "1401810048845",
+          "two_years_ago": "1391076211720"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "5933966163819",
+          "previous_amount": "5821850796030",
+          "two_years_ago": "5744620766690"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "44299522000",
+          "previous_amount": "44416211700",
+          "two_years_ago": "44534987800"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "-26929676338",
+          "previous_amount": "-19673062884",
+          "two_years_ago": "-4630358666"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "-82389035030",
+          "previous_amount": "-34079062955",
+          "two_years_ago": "7570509031"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "7477584262907",
+          "previous_amount": "7214324930736",
+          "two_years_ago": "7183172116575"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "(26-03-21) 매크로 정리 - 오전 10시까지",
+          "description": "5%, 카카오페이 +6.8%) 3)우크라재건: 내일 美서 미국-우크라 종전 회담 개최 예정(SG +4.6%, 대동기어 +7.... 한신공영(+29.99%): 저PBR 공개에 따른 기업가치 제고 노력 전망 속 수혜관련주 주가 상한가 3. 우리로... ",
+          "link": "https://blog.naver.com/mobidic25/224224376157",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "토스 어시스턴트 서류 합격 후기 [토스 인턴 지원_GA... ",
+          "description": "합격 수기 토스는 계열사가 정말 많은데요 뱅크, 증권, 페이먼츠, 플레이스, 인슈어런스 등등 네카라쿠배당토? 중에 카카오와 함께 계열사가 많은 기업입니다 제가 현재 근무하고 있는 곳 오늘 후기를 적는... ",
+          "link": "https://blog.naver.com/pkm1328/224224078870",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "[수강생 후기 ] 모어게임사운드 수강생 실제 후기... ",
+          "description": "✅ 레슨 혜택 ✔ 카카오톡 비대면 무제한 피드백 ✔ 자체 제작 샘플 라이브러리 제공 ✔ 수업 녹화... 블로그 후기 + 수업 뒷모습 사진 업로드 시  첫 달 3만원 추가 할인  취업 성공 페이백 대기업 합격... ",
+          "link": "https://blog.naver.com/thunderstormclass/224223614557",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "하나증권 면접학원 1차 실무진 면접을 관통하는 합격 로직",
+          "description": "지금 이 시기에 수많은 하나증권 면접후기 정보를 찾아보며 정답을 갈구하고 계실 텐데요. 하지만... 커리어허브 윤상설 선생님 직강 하나증권 면접대비반 신청하기 카카오톡 실시간 상담",
+          "link": "https://blog.naver.com/119taxi/224223514215",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "하나증권 면접후기와 올바른 준비 방법",
+          "description": "당신의 간절함이 합격이라는 결과로 이어지길 많은 하나증권 면접후기 속에서 길을 잃지 마세요.... 커리어허브와 함께 준비하시기 바랍니다. 커리어허브 하나증권 면접반 빠른 상담 신청하기 카카오톡 실시간 상담",
+          "link": "https://blog.naver.com/healingmam2/224222605825",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "하나증권 면접후기 분석으로 알아본 커리어허브의 필승 전략",
+          "description": "커리어허브 윤상설 선생님의 직강이 만드는 마법 같은 합격 에너지 하나증권 면접후기를 아무리 많이... 하나증권 면접 대비반 윤상설 선생님 직강 클래스 신청하기 카카오톡 실시간 채팅 상담",
+          "link": "https://blog.naver.com/airtrd/224222554629",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "하나증권 면접 후기 1차 실무 2차 최종 임원 기출 질문 정보",
+          "description": "어필만으로는 합격하기 힘든 것이죠. 그러니 고득점을 받으려면, 자세한 기업 분석과 직무 분석이 필요합니다. 또한 하나증권의 사업과 이슈 그리고 현안에 대한 자신만의 생각을 준비해야 합니다. 또한 면접... ",
+          "link": "https://blog.naver.com/jinsiri2191/224222310166",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "하나증권 면접 후기 1차 실무 2차 임원 기출 6급 준비 컨설팅",
+          "description": "하나증권 1차/2차 면접 분석 (진행방식, 후기 등) ✅ 1차 실무면접 1) 채용규모에 따라 다대일 or 다대다... 하나증권 면접 준비에 필요한 필수내용 총정리  하나증권 면접 대비 커리큘럼 기업/직무분석... ",
+          "link": "https://blog.naver.com/ehrhdsu/224222087062",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "존버는 승리한다! (인턴 구직기 마감.)",
+          "description": "다이와증권 주식팀인턴 : 서탈 쿠시먼앤드웨이크필드 인턴: 서탈 카카오 정책연구팀 어시: 서탈 이지스자산운용 기업인프라팀: 서합 - (결과 미정, 그러나 탈락할 것 같은 느낌이 옴) 삼정 esg strategy RA: 서합... ",
+          "link": "https://blog.naver.com/makedreamcometrue18/224222895613",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "삼성전자 상반기 3급 신입사원채용 면접준비 기출질문 합격전략",
+          "description": "저와 함께 면접을 준비하신다면 제가 대기업 면접관의 관점에서 합격비법을 전수해 드리겠으나... 이문화권 동료와 업무 방식 차이로 갈등이 생긴다면 어떻게 소통하겠습니까? 마케팅 캠페인의 성공... ",
+          "link": "https://blog.naver.com/jinsimcoach/224222517967",
+          "pub_date": "20260319"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "kr/31Uvuz8 [다올 인터넷·게임·레저 김혜영] 3/20(금) 뉴스 인터넷 [카카오] 카카오·네이버 '웹툰... 한국투자증권 공시링크: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320900145 코스닥 시가총액 2위로 등극한... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "상승세 탄 국내 증시",
+          "description": "대형주 전반이 강세를 보인 가운데, 삼성전자는 사상 처음으로 시가 13:50카카오페이증권, 예탁자산... 인재 채용·기술 강화·조직 개편 등 속도 규제·인력 유출 우려 등 현실적 난관 우려도 인공지능(AI) 기술이... ",
+          "link": "http://cafe.naver.com/greenb0k6k/175852",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260319목요일",
+          "description": "인사혁신처(처장 최동석)는 공직사회에 유연하고 합리적인 조직문화를 정착시키기 위해 범정부 혁신... KOREA.KR / 통일부2026.03.18 마약류 고민, 이제 카카오톡으로 상담하세요! 이제 카카오톡으로 상담하세요! 24시간... ",
+          "link": "http://cafe.naver.com/jungamironware/9116",
+          "pub_date": ""
+        },
+        {
+          "title": "️ (주)두산 (Doosan Corporation)",
+          "description": "ㆍ특화 복지 : 사내 카페테리아 및 헬스장 운영, 임직원 대상 계열사 서비스 할인 혜택 4. 채용 기조 및 실무 특징 ㆍ목표 주가 상향 : 하나증권 등 증권사들이 2026년 3월, 두산의 목표가를 167만원으로... ",
+          "link": "http://cafe.naver.com/smilejobs/729",
+          "pub_date": ""
+        },
+        {
+          "title": "불안한 한국경제",
+          "description": "네이버페이·카카오페이·토스 등 주요 핀테 15:53금융위, 중동발 증시 변동에 '100조원+α' 가동…피해기업... 수시·경력 중심 채용문화 확산으로 쉬었음 인구도 증가세를 지속했다. 15일 국가데이터처가 발표한... ",
+          "link": "http://cafe.naver.com/greenb0k6k/175503",
+          "pub_date": ""
+        },
+        {
+          "title": "동학농민혁명기념재단 직원(기간제근로자) 공개채용 공고(안)",
+          "description": "박물관학과, 문화재학과, 민속학과, 인류학과 등 관련 학과 ※ 관련 경력 : 국가, 지자체, 공공기관... 홈페이지(www.1894.or.kr) 게재 및 개별 안내 ㅇ 최종합격자의 채용 포기, 합격 취소, 채용 결격사유, 근무개시일 이후... ",
+          "link": "http://cafe.naver.com/hicurators/26438",
+          "pub_date": ""
+        },
+        {
+          "title": "[한국전력공사] 2026년 3월 12일 오늘의 기관 주요 뉴스브리핑",
+          "description": "문화일보 | 2026.03.11 23:58 | 관련 3건 ▶ 원문보기: https://n.news.naver.com/mnews/article/021/0002776498?sid=101... 91% 상승 마감 11일 KRX 마감 기준, 네이버페이 증권에 따르면 한전산업은 21,350원에 거래를... ",
+          "link": "http://cafe.naver.com/pinkbrgd1/1785",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260312목요일",
+          "description": "11 한국문화예술교육진흥원 직원 채용 필기전형 결과 안내(26-1차) 한국문화예술교육진흥원 직원 채용 필기전형 결과 안내(26-1차) 관련 채용정보 내용입니다. 자세한 사항은 링크(https://www.arte.or.kr/notice/job/notice/Job... ",
+          "link": "http://cafe.naver.com/jungamironware/8720",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 쇼크",
+          "description": "스페인 바르셀로나에서 폐막한 세계 최대 모바일 전시회 ‘MWC 2026’에서 글로벌 통신사들은 인공지능... 무신사는 이날 채용 공고를 내고 2~3월 동안 16:12김범수 카카오 창업자, 신입직원 교육 현장 깜짝방문… AI... ",
+          "link": "http://cafe.naver.com/greenb0k6k/175072",
+          "pub_date": ""
+        },
+        {
+          "title": "재계 인사이드",
+          "description": "스페이스X 상장 추진 소식에 미래에셋증권과 미래에셋벤처투자 희비가 엇갈려 주목받는다. 10이상+ 12월... 쿠팡, 평균 근속연수 3년 안팎 대규모 채용 속 잦은 이탈… 이커머스 특성·조직문화 복합 작용 국내 유통... ",
+          "link": "http://cafe.naver.com/greenb0k6k/175068",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.674074074074074,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "성장",
+        "수평",
+        "자율",
+        "장점",
+        "좋아",
+        "좋은",
+        "최고"
+      ],
+      "negative_themes": [
+        "단점",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "(주)카카오페이증권 2026년 기업정보 | 기업리뷰 23건, 2.9 리뷰평점",
+          "description": "(주)카카오페이증권 기업정보 - 장단점 키워드: 재택, 조직, 지향 | 기업리뷰: 기업문화 안좋다 근태 관련 복지는 나쁘지 않음 | (주)카카오페이증권의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 ...",
+          "url": "https://www.jobplanet.co.kr/companies/375683/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "brave",
+          "title": "(주)카카오페이증권 2022년 상반기 채용 | 10건 면접후기 3.0 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 3.0, 면접경로: 온라인 지원 80%, 면접경험: 긍정적 20%, 부정적 30%, 면접결과: <strong>합격 0%, 불합격 70%, 대기중 30%</strong> | 잡플래닛에 등록된 10건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/interviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "brave",
+          "title": "(주)카카오페이 2022년 상반기 채용 | 기업리뷰 147건, 3.8 리뷰평점 | 잡플래닛",
+          "description": "잡플래닛의 원스톱 정보 제공 서비스 노력하면 찾을 수 있는 공채 족보뿐 만 아니라, 선배한테 매달려야 알려주는 인턴 합격수기부터 그 어디에 도 없는 경력직들의 이직 면접 팁까 지. 당신의 모든 &#x27;지원&#x27;이 합격으로 끝나는 방법이 잡플래닛에 있습니다. 2. 잠깐! 기업 리뷰도 보고 싶으신가요? 면접후기를 제출하면 합격을 부르는 수만개의 꿀팁이 열립니다. 기업 리뷰도 보고 싶으시다면 기업 리뷰를 제출해주세요. 열려라 참깨! 의 비밀은 &#x27;기브 앤 테이크&#x27; 입니다. 면접후기의 신뢰성을 높이고 고의적 기업 평점 조작을 방지하기 위해, 작성된 모든 정보는 잡플래닛의 자체적인 검토 과정을 거쳐 등록됩니다.",
+          "url": "https://www.jobplanet.co.kr/companies/326339/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4"
+        },
+        {
+          "source": "brave",
+          "title": "카카오페이증권 2022년 상반기 채용 | 0건의 복지정보 0 전체 복지 통계 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/375683/benefits/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "brave",
+          "title": "(주)카카오페이증권 2022년 상반기 채용 | 3건 연봉정보, 7,173만원 평균연봉 | 잡플래닛",
+          "description": "잡플래닛의 원스톱 정보 제공 서비스 노력하면 찾을 수 있는 공채 족보뿐 만 아니라, 선배한테 매달려야 알려주는 인턴 합격수기부터 그 어디에 도 없는 경력직들의 이직 면접 팁까 지. 당신의 모든 &#x27;지원&#x27;이 합격으로 끝나는 방법이 잡플래닛에 있습니다. 2. 잠깐! 기업 리뷰도 보고 싶으신가요? 면접후기를 제출하면 합격을 부르는 수만개의 꿀팁이 열립니다. 기업 리뷰도 보고 싶으시다면 기업 리뷰를 제출해주세요. 열려라 참깨! 의 비밀은 &#x27;기브 앤 테이크&#x27; 입니다. 면접후기의 신뢰성을 높이고 고의적 기업 평점 조작을 방지하기 위해, 작성된 모든 정보는 잡플래닛의 자체적인 검토 과정을 거쳐 등록됩니다.",
+          "url": "https://www.jobplanet.co.kr/companies/375683/salaries/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "brave",
+          "title": "(주)카카오페이증권 2025년 기업정보 | 기업리뷰 23건, 연봉정보 20건, 면접후기 56건, 복지정보 7건, 채용공고 0건",
+          "description": "(주)카카오페이증권 기업정보 - 산업: 증권/보험/카드, 기업형태: 대기업 계열사/자회사, 사원수: 310명, 설립: 2008.07.01 | (주)카카오페이증권의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/landing/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "brave",
+          "title": "카카오페이 2026년 기업정보 | 119건의 복지정보 0 전체 복지 통계 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 6개월간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/326339/benefits/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4"
+        },
+        {
+          "source": "brave",
+          "title": "카카오페이증권 2025년 기업정보 | 0건의 채용정보",
+          "description": "카카오페이증권의 전/현직원이 전하는 생생한 채용정보! | 잡플래닛에 등록된 0건 채용정보를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/job_postings/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "brave",
+          "title": "카카오페이증권",
+          "description": "투자자는 금융투자상품에 대하여 카카오페이증권으로부터 충분한 설명을 받을 권리가 있으며, 투자전 상품설명서 및 약관을 반드시 읽어보시기 바랍니다.",
+          "url": "https://kakaopaysec.com/"
+        },
+        {
+          "source": "brave",
+          "title": "카카오페이증권 - 나무위키",
+          "description": "2025년 2월, 카카오페이증권은 한국형 &#x27;손안의 블룸버그&#x27;를 표방하며 2040의 자산축적을 돕는 플랫폼으로 거듭나겠다고 밝혔다.출처 다른 증권사 어플리케이션에 비해 오류가 잦고 해당 오류에 대한 공지도 하지 않는 경향이 심하다.",
+          "url": "https://namu.wiki/w/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "naver",
+          "title": "(주)카카오페이증권 2026년 기업정보 | 기업리뷰 23건, 2.9 리뷰평점",
+          "description": "장점 : 근대 노터치가 매우 만족 오후 출근도 문제 없다. (일을 잘하든 못하든..), 단점 : 낙하산 무능력자들이 문제 스스로 자정 불가(외부 높으신 분 영입 후 정리 필요)",
+          "url": "https://www.jobplanet.co.kr/companies/375683/reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "naver",
+          "title": "카카오페이증권 2026년 기업정보 | 44건의 복지정보 0 전체 복지 통계",
+          "description": "카카오페이증권의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 44건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/benefits/(%EC%A3%BC)%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "naver",
+          "title": "(주)카카오페이증권 2026년 기업정보 | 60건 면접후기 3.3 면접난이도",
+          "description": "(주)카카오페이증권의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.3, 면접경로: 온라인 지원 86%, 면접경험: 긍정적 53%, 부정적 15%, 면접결과: 합격 30%, 불합격 43%, 대기중 27% | 잡플래닛에 등록된 60건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/interviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "naver",
+          "title": "카카오페이증권 2026년 기업정보 | 44건의 복지정보 0 전체 복지 통계",
+          "description": "카카오페이증권의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 44건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/benefits/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "naver",
+          "title": "카카오페이증권 2026년 기업정보",
+          "description": "카카오페이증권의 전/현직원이 전하는 생생한 채용정보! | 잡플래닛에 등록된 0건 채용정보를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/job_postings/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "naver",
+          "title": "카카오페이증권 2025년 하반기 36건 프리미엄 기업리뷰",
+          "description": "카카오페이증권의 전/현직원이 전하는 생생한 기업정보! 직무와 커리어 6개, 업무 방식 6개, 기업 문화 6개, 일과 삶의 균형 6개, 복지 및 급여 6개, 기업 만족도 6개 | 잡플래닛에서 더 많은 기업분석을 지금 바로 확인하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/premium_reviews/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "naver",
+          "title": "(주)카카오페이증권 2026년 기업정보 | 20건 연봉정보, 5,186만원 평균연봉",
+          "description": "(주)카카오페이증권의 전/현직원이 전하는 생생한 연봉정보! (주)카카오페이증권 연차별 예상 연봉 - 7년차: 5,843만원, 8년차: 6,223만원 | 등록된 연봉정보 20건, 최고연봉 6,755만원, 평균연봉 5,186만원. 지금 잡플래닛에서 내 연봉과 비교해 보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/375683/salaries/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+        },
+        {
+          "source": "naver",
+          "title": "카카오페이증권 연봉정보 - 평균연봉 5,147만원",
+          "description": "카카오페이증권 좋아요 증권·보험·카드 43위 매출액 1,363억 6천만원 사원 337명 전체 평균 연봉 계약직포함 임원포함 5,147 만원 월 실수령액 3,677,330원 신입사원 초봉 5,000 만원 월 실수령액 3,584,010원 연도별...",
+          "url": "https://www.jobkorea.co.kr/company/16152576/salary"
+        },
+        {
+          "source": "naver",
+          "title": "(주)카카오페이 2026년 기업정보 | 기업리뷰 300건, 연봉정보 224건, 면접후기 386건, 복지정보 50건, 채용공고 ....",
+          "description": "소개글 ; 2014년 9월, 국내 최초 간편 '결제' 서비스를 시작으로 '송금' '청구서' '멤버십' '인증' '페이카드' 까지 - 카카오페이는 생활 곳곳의 다양한 금융 서비스를 통해 '지갑 없는 세상' 을 만들어가고 있습니다. 기술의 발전으로 사람들은 휴대폰으로 결제를 하고, 돈을 주고받거나 생활비를 납부합니다. 일상 속 많은 부분이 편리해졌지만 어렵고 번거로운 것들은 여전히 존재합...",
+          "url": "https://www.jobplanet.co.kr/companies/326339/landing/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4"
+        },
+        {
+          "source": "naver",
+          "title": "카카오페이증권 2026년 기업정보 - 직원수, 근무환경, 복리후생 등",
+          "description": "카카오페이증권 기업정보 - 최신 소식 및 기업문화, 근무환경, 채용정보, 인재상 등의 기업정보를 잡코리아에서 공개합니다.",
+          "url": "https://www.jobkorea.co.kr/company/16152576"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "카카오페이증권 채용 카카오페이증권의 채용공고와 회사정보를 확인하세요.",
+          "url": "https://career.kakaopaysec.com/",
+          "text": "카카오페이증권 채용# 카카오페이증권채용카카오페이증권의채용공고와회사정보를확인하세요.\n## 카카오페이증권채용## 카카오페이증권의채용공고와회사정보를확인하세요.\n## 메인- 1\n## 채용프로세스- 2\n### kakaopay securities 일상과투자를연결하여기존의투자문화를바꿉니다.\n### 채용공고바로가기### 대한민국에없던새로운플랫폼금융회사, 생활금융플랫폼과만나새로운금융투자문화를만듭니다.\n## 제목없음## 블로그미리보기### Culture\n카카오페이증권문화이야기### 또다른하루가시작되는곳, 여의도오피스카카오페이증권여의도오피스를소개합니다### 제대로도전하는조직DevOps팀\n사내AI 챗봇&amp;lsquo;춘시리&amp;rsquo;를 만든DevOps팀의 여정### 우리만의Why를 찾아서, 브랜드TF를 만나다&#x27;제대로&#x27;라는 북극성을만들어낸브랜드TF의 여정### 더많은이야기보러가기## 블로그미리보기### News\n카카오페이증권소식### 카카오페이증권, 여의도에신규오피스개소&am",
+          "score": 0,
+          "published_date": "2022-08-19T00:00:00.000Z"
+        },
+        {
+          "title": "카카오페이증권(Kakaopay Securities) | LinkedIn",
+          "url": "https://kr.linkedin.com/company/kakaopay-securities-corp",
+          "text": "카카오페이 증권은 플랫폼을 통한 새로운 투자문화를 만듭니다.\n생활금융 플랫폼과 만나 새로운 금융 투자 문화를 만듭니다.\n어려운 금융 문법을 깨고 일상에서 누구나 누릴 수 있는 투자서비스를 고민합니다.\n개인금융 고객의 투자자산 관리 뿐만 아니라, 기업금융을 통한 모험 자본의 공급까지\n누구나 안심하고 투자할 수 있는 금융서비스를 만듭니다.\n\n어렵고 복잡한 투자의 문턱을 낮추고 생활 속 가장 가까운 금융투자 회사를 함께 만들어 갈 카카오페이증권의 크루를 기다립니다 .\n\n🔊 카카오페이증권 합류하기↓\n👉 채용 페이지: https://career.kakaopaysec.com\n👉 문의: recruit@kakaopaysec.com\nFinancial Services · 145 employees (+37.5% YoY) · South Korea · Founded 2009 · 6,214 followers (+77.4% this year)",
+          "score": 0,
+          "published_date": "2025-04-16T00:00:00.000Z"
+        },
+        {
+          "title": "서비스 운영 담당자(계약직) | 카카오페이증권",
+          "url": "https://career.kakaopaysec.com/job_posting/Uu6P9AgU",
+          "text": "서비스 운영 담당자(계약직) | 카카오페이증권\n\n# 서비스 운영 담당자(계약직) | 카카오페이증권\n\n## 서비스 운영 담당자(계약직) | 카카오페이증권\n\n## 운영 지원 | 경력 무관 | 카카오페이증권(판교 오피스)\n\n### 포지션 안내 &bull; 고용형태 : 계약직(1년) 직무소개 업무내용 &bull; 카카오페이증권 사용자 조사 보조 업무 (인터뷰 대상자 모집을 위한 알림 발송 / 대상자 선정 / 일정 조율 등)를 담당해요.&bull;증권 서비스 내 배너 관리, 알림 발\n\nCompany\n\nJobs\n\nStory\n\nCulture & Benefit\n\n[FAQ](https://career.kakaopays",
+          "score": 0,
+          "published_date": "2026-01-30T00:00:00.000Z"
+        },
+        {
+          "title": "카카오페이증권 채용공고",
+          "url": "https://career.kakaopaysec.com/job_posting",
+          "text": "카카오페이증권 채용공고\n\n# 카카오페이증권 채용공고 카카오페이증권에서 현재 채용중인 포지션을 확인하세요.\n\n## 카카오페이증권 채용공고\n\n## 카카오페이증권에서 현재 채용중인 포지션을 확인하세요.\n\n## Jobs배너\n\n## 제목없음\n\n## 채용 프로세스 - 1\n\n## 채용 프로세스 - 2\n\n### PROCESS 카카오페이증권 채용 프로세스는 이렇게 진행되고 있어요.\n\n### 주의사항\n\n### &middot; 위 내용은 기본 프로세스로 경우에 따라 절차가 추가될 수 있어요. (과제전형, 레퍼런스 체크 등) &middot; 1차 현업 인터뷰는 60분가량 직무역량에 관해 이야기 나누고 있어요. &middot; 2차 최종 인터뷰는 60분가량 컬쳐핏/성장가능성에 대해 포괄적으로 이야기 나누고 있어요.&middot; 레퍼런스 체크는 필요시 별도 서비스를 이용하여 진행될 예정이에요. &middot; 이력서에 기재된 학력 및 경력 사항이 거짓일 경우 합격이 취소될 수 있어요. &middot; 국가",
+          "score": 0,
+          "published_date": "2022-08-19T00:00:00.000Z"
+        },
+        {
+          "title": "카카오페이증권 블로그",
+          "url": "https://career.kakaopaysec.com/blog",
+          "text": "카카오페이증권 블로그\n\n# 카카오페이증권 블로그 제대로 일하고 제대로 성장하는 카카오페이증권 크루들의 이야기를 전합니다.\n\n## 카카오페이증권 블로그\n\n## 제대로 일하고 제대로 성장하는 카카오페이증권 크루들의 이야기를 전합니다.\n\n## 배너\n\n### 카카오페이증권 블로그 제대로 일하고 제대로 성장하는 카카오페이증권 크루들의 이야기를 전합니다.\n\n### 카카오페이증권이 새 크루를 제대로 맞이하는 방법 크루의 시작이 덜 낯설도록! 온보딩 프로그램을 소개합니다. 2025-07-15\n\n### 주식 거래를 완성하는 사람들, 결제팀을 만나다 제대로 인터뷰 - 결제 자동화로 안정과 효율을 만드는 결제팀을 소개합니다. 2025-06-23\n\n### 전국 팔도를 누비며 고객의 목소리를 듣다 제대로 인터뷰 - CEO Simon의 &lsquo;제대로&rsquo; 듣고 온 이야기를 소개합니다 2025-05-13\n\n### 카카오페이증권의 또 다른 하루가 시작되는 곳, 여의도 오피스 카카오페이증권의 새로운 ",
+          "score": 0,
+          "published_date": "2022-08-19T00:00:00.000Z"
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "[증권사 AI]⑧ 카카오페이증권, 플랫폼 금융과 결합 '실험'",
+          "description": "카카오페이증권이 인공지능(AI)을 기반으로 한 투자정보 서비스 고도화에 나서며 플랫폼형 증권사의 AI 전략을 강화하고 있다. 전통 증권사들이 리서치와 트레이딩, 내부 업무 효율화 중심으로 AI 도입을 추진하는 것과 달리 카카오페이증권은 플랫폼 데이터와 사용자 경험을 결합한 서비스 중심",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=655952",
+          "pub_date": ""
+        },
+        {
+          "title": "키움증권 “카카오, AI 전략 부재” 이례적 쓴소리",
+          "description": "카카오의 인공지능(AI) 전략 부재가 중장기적으로 기업 가치를 깎아내릴 수 있다는 쓴소리가 증권가에서 나왔다. 김진구 키움증권 연구원은... 김 연구원은 “경영진 교체 후에도 톡비즈 및 주요 버티컬 사업부문...",
+          "link": "https://www.hani.co.kr/arti/economy/finance/1144153.html",
+          "pub_date": ""
+        },
+        {
+          "title": "신호철 대표 &quot;카카오페이證, 자산 형성 플랫폼으로 거듭날 것&quot;",
+          "description": "-- 구상 중인 전략이 있는지. ▲ 우리가 지금까지 잘 해왔던 것은 간편, 쉬움... 올해 사업을 계획 중이다. -- 이미 다른 증권사들이 리서치센터를 통해 많은 양의 투자 정보를 제공하고 있는데 카카오페이증권이...",
+          "link": "https://www.kakaopaysec.com/company/news_page/dynamicNewsDetail.do?id=66",
+          "pub_date": ""
+        },
+        {
+          "title": "카카오페이증권, 여의도에 신규 오피스 개소…네트워크 교두보로 성장 가속한다",
+          "description": "신사업 및 네트워크 강화를 위한 교두보 - 판교-여의도 투트랙 전략…AI·테크 기술과 금융 전문성의 시너지로 비즈니스 확장에 속도 [2025.04.01] 카카오페이증권(대표 신호철)이 어제 서울 여의도파이낸스타워...",
+          "link": "https://www.kakaopaysec.com/company/news_page/dynamicNewsDetail.do?id=69",
+          "pub_date": ""
+        },
+        {
+          "title": "카카오 정신아 &quot;'일단 해보자'는 접근 위험…명확한 방향·속도감 있는 투자 필수적&quot;",
+          "description": "(사진=카카오그룹) 카카오그룹(의장 정신아)이 AI 사업을 중심으로 한 미래 성장 전략의 구체적 방향성과 실행 방안에 대해 집중적으로... 카카오모빌리티, 카카오뱅크, 카카오엔터테인먼트, 카카오페이...",
+          "link": "https://m.newspic.kr/view.html?nid=2025031919501975829",
+          "pub_date": ""
+        },
+        {
+          "title": "카카오페이증권 핵심 기업분석",
+          "description": "• 국내 온라인 증권 시장은 키움증권, NH투자증권, 한국투자증권 등 주요 사업자가 모바일 앱 중심으로 경쟁하고 있습니다. • 최근 소액 투자와 해외 주식 거래 증가로 간편성과 글로벌 접근성이 핵심 트렌드가 되고 있습니다. • AI 기반 시황 분석과 자동 투자 서비스가 투자자 유입을 가속화하고 있습니다.",
+          "link": "https://jasoseol.com/companies/10858/insights",
+          "pub_date": ""
+        },
+        {
+          "title": "[마켓人] 신호철 대표 &quot;카카오페이證, 자산 형성 플랫폼으로 거듭날 것&quot;",
+          "description": "-- 구상 중인 전략이 있는지. ▲ 우리가 지금까지 잘 해왔던 것은 간편... 카카오페이증권 제공. 재판매 및 DB 금지 -- 리테일 부문 이외에 다른 사업에 대한 계획은. ▲ 주안점은 리테일 부문에 있다. 기업금융(IB)도...",
+          "link": "https://www.yna.co.kr/view/AKR20250219154300008",
+          "pub_date": ""
+        },
+        {
+          "title": "다올證 &quot;카카오, AI 전략 구체화까지 시간 필요…목표가↓&quot;",
+          "description": "[사진=카카오] 다올투자증권은 10일 카카오에 대해 인공지능(AI) 전략이 구체화되지 않았다며... 부합했다&quot;며 &quot;AI 관련 뉴이니셔티브 사업 적자가 당사 전망을 170억원 하회했고 SM의 영업이익도 부진했지만 별도...",
+          "link": "https://www.ajunews.com/view/20240510081942731",
+          "pub_date": ""
+        },
+        {
+          "title": "위기 맞은 카카오의 승부수 “미래 성장핵심은 카톡과 AI”",
+          "description": "카카오모빌리티·카카오페이 등 플랫폼 사업 매출 성장세에 힘입어 개선된 실적을 공개했다. 김범수 창업자가 시세조종 혐의로 구속기소된 가운데 카카오는 카톡과 인공지능(AI)에 집중하겠다는 계획을 밝혔다....",
+          "link": "https://v.daum.net/v/20240809000237124",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;카카오, 목표가 상향…톡비즈 중심 AI 전략 등 필요&quot;",
+          "description": "증권은 12일 카카오의 목표주가를 6만3000원에서 7만3000원으로 상향 조정했다. 인공지능(AI) 내재가치, 커머스 적정가치 7조4000억원, 페이... 특히 AI 사업은 동사의 톡 기반 메인 플로우를 관통하는 큰 틀에서 전략이...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01361206638757064",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "[테크/금융] 카카오페이증권 AI 전략, '개미'의 무기를 바꾸다",
+          "url": "https://panggeria.tistory.com/entry/%ED%85%8C%ED%81%AC%EA%B8%88%EC%9C%B5-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C-AI-%EC%A0%84%EB%9E%B5-%EA%B0%9C%EB%AF%B8%EC%9D%98-%EB%AC%B4%EA%B8%B0%EB%A5%BC-%EB%B0%94%EA%BE%B8%EB%8B%A4",
+          "text": "[테크/금융] 카카오페이증권 AI 전략, '개미'의 무기를 바꾸다\n\n본문 바로가기\n\n시장분석.산업동향\n\n# [테크/금융] 카카오페이증권 AI 전략, '개미'의 무기를 바꾸다\n\n### Meta Description\n\n카카오페이증권이 AI 기반 투자 서비스로 2026년 금융 판도를 흔듭니다. 흑자 전환 성공과 주식 거래액 159% 성장의 비결, 그리고 당신의 수익률을 바꿀 AI 전략을 30년 전문가 나솔길이 분석합니다.\n\n### Prologue: 당신의 주식 앱이 '비서'가 되는 순간\n\n최근 증권 앱을 열어보고 \"도대체 무슨 말이야?\"라며 창을 닫아본 적 없으신가요? 쏟아지는 뉴스, 복잡한 차트, 읽기 힘든 리포트까지. 정보는 넘치지만 정작 내 계좌에 도움이 되는 정보는 찾기 힘든 것이 현실입니다.\n\n결론부터 말씀드리겠습니다. **카카오페이증권($377300)**은 기술을 자랑하기보다 **'당신의 시간을 아껴주는 AI'**에 집중하기 시작했습니다. 2025년 사상 첫 흑자 전환에 성공하",
+          "score": 0,
+          "published_date": "2026-03-10T00:00:00.000Z"
+        },
+        {
+          "title": "[2026년 증권가⑧] 핀테크 증권사 성장 전략…카카오페이증권 '수익 다각화', 토스증권 '리테일 집중' < 증권 < 금융·증권 < 기사본문 - 중앙이코노미뉴스",
+          "url": "https://www.joongangenews.com/news/articleView.html?idxno=494389",
+          "text": "[2026년 증권가⑧] 핀테크 증권사 성장 전략…카카오페이증권 '수익 다각화', 토스증권 '리테일 집중' -- --\n\n이전 기사보기 다음 기사보기\n\n[2026년 증권가⑧] 핀테크 증권사 성장 전략…카카오페이증권 '수익 다각화', 토스증권 '리테일 집중'\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n- 댓글 0\n- 입력 2026.02.10 07:00\n- 기자명 김수현 기자\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n## 양대 핀테크 증권사 흑자 체제 굳혀…경영 전략은 엇갈려 카카오페이증권, 리테일 벗어나 WM·IB부문 영역 확장 시도 토스증권, 지난해 늘린 해외 법인 중심으로 리테일 확장에 집중\n\n카카오페이증권이 지난해 흑자 전환에 성공하고 토스증권 역시 역대 최대 실적 달성이 유력해진 가운데, 양사의 성장 전략이 뚜렷하게 엇갈리는 모습이다. 카카오페이증권은 그간 리테일에 쏠렸던 사업구조를 자산관리(WM)와 기업금융(IB)으로 확장하며 ",
+          "score": 0,
+          "published_date": "2026-02-09T00:00:00.000Z"
+        },
+        {
+          "title": "KakaoPay targets expansion across brokerage, payments ...",
+          "url": "https://www.digitaltoday.co.kr/en/view/3576/kakaopay-first-full-year-profit-brokerage-payments-ai-expansion",
+          "text": "KakaoPay targets expansion across brokerage, payments and AI after first full-year profit\n\nKakaoPay targets expansion across brokerage, payments and AI after first full-year profit\n\nKakaoPay, which achieved its first full-year profit last year, plans a broad expansion this year across retail, investment banking, AI, payments and digital assets.\n\nKakaoPay posted 50.4 billion won in operating profit and 55.7 billion won in net profit last year, achieving its first full-year profit. All business di",
+          "score": 0,
+          "published_date": "2026-02-11T00:00:00.000Z"
+        },
+        {
+          "title": "What is Growth Strategy and Future Prospects of Kakao ...",
+          "url": "https://portersfiveforce.com/blogs/growth-strategy/kakao",
+          "text": "What is Growth Strategy and Future Prospects of Kakao Company? – PortersFiveForce.com\n\nDecember 2, 2025\n\n# What is Growth Strategy and Future Prospects of Kakao Company?\n\n### Kakao Bundle\n\nGet Full Bundle:\n\n| 5 FORCES | $15 | $10 |\n| --- | --- | --- |\n| BCG | $15 | $10 |\n| CANVAS | $15 | $10 |\n| [4P's MI",
+          "score": 0,
+          "published_date": "2025-12-02T00:00:00.000Z"
+        },
+        {
+          "title": "성장 궤도 오른 카카오페이, '스테이블코인·AI' 판 키운다(종합) < 이노베이션 < 뉴스 < 기사본문 - 테크M",
+          "url": "https://www.techm.kr/news/articleView.html?idxno=149212",
+          "text": "성장 궤도 오른 카카오페이, '스테이블코인·AI' 판 키운다(종합)\n\n전체메뉴 버튼 테크M\n\n테크M 테크M검색 버튼\n\n로그인메뉴닫기\n\nyoutube 유튜브 채널 facebook instagram instagram -- [twitter](https://t",
+          "score": 0,
+          "published_date": "2026-02-06T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 80.5,
+    "grade": "S",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.375,
+        "evidence": "15 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "Financial data available; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 3.5,
+        "evidence": "DART salary data available"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "tech_blog",
+      "section": "tech",
+      "url": "https://tech.kakao.com"
+    },
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=00258801"
+    },
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": ""
+    },
+    {
+      "name": "dart",
+      "section": "financials",
+      "url": ""
+    },
+    {
+      "name": "company_website",
+      "section": "overview",
+      "url": "https://kakaocorp.com"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=카카오페이증권"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=카카오페이증권+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A6%9D%EA%B6%8C"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=카카오페이증권 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=카카오페이증권 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=카카오페이증권 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=카카오페이증권 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

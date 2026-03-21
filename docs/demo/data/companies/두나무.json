@@ -1,659 +1,818 @@
 {
   "company": "두나무",
-  "sources_used": [
-    "exa_search",
-    "naver_search",
-    "brave_search",
-    "google_news",
-    "dart",
-    "credible_news"
-  ],
-  "result_count": 12,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "raw_snippets": [
-    {
-      "source": "naver_search",
-      "section": "culture",
-      "preview": "[블로그] 샘표식품면접학원 PT면접 임원면접 후기\n조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... \n\n[블로그] [HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... "
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+          "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+          "link": "https://blog.naver.com/magicpaul7/224204238038",
+          "pub_date": "20260304"
+        },
+        {
+          "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+          "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+          "link": "https://blog.naver.com/serohero/224199063326",
+          "pub_date": "20260228"
+        },
+        {
+          "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+          "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+          "link": "https://blog.naver.com/jobpass_/224197697044",
+          "pub_date": "20260227"
+        },
+        {
+          "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+          "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+          "link": "https://blog.naver.com/study_edu_/224193834977",
+          "pub_date": "20260224"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        },
+        {
+          "title": "상승세 탄 국내 증시",
+          "description": "꺾이고 두나무 합병 불확실…네이버 주가 시험대 국가대표 AI 1차 심사서 탈락 대주주 지분율 제한에... 인재 채용·기술 강화·조직 개편 등 속도 규제·인력 유출 우려 등 현실적 난관 우려도 인공지능(AI)... ",
+          "link": "http://cafe.naver.com/greenb0k6k/175852",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.2556249999999998,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "성장",
+        "워라밸",
+        "장점",
+        "좋은",
+        "최고"
+      ],
+      "negative_themes": [
+        "단점",
+        "불만",
+        "야근"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "두나무(주) 2026년 기업정보 | 기업리뷰 101건, 4.2 리뷰평점",
+          "description": "개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · 1급여·복지 만족도 상위 0.01% 기업은 뭐가 달라? 2면접에서 ‘일하기 좋은 회사’를 알아보는 법 4가지 ·",
+          "url": "https://www.jobplanet.co.kr/companies/308146/reviews/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "brave",
+          "title": "두나무(주) 2026년 기업정보 | 기업리뷰 101건, 연봉정보 76건, 면접후기 109건, 복지정보 16건, 채용공고 0건",
+          "description": "[2024 Jobplanet Awards] 잡플래닛이 선정한 일하기 좋은 회사입니다. 소개글 · 금융과 기술이 만나는 그 곳에 두나무가 있습니다. 두나무는 가장 신뢰받는 글로벌 표준 디지털 자산 거래소 &#x27;업비트&#x27;와 소셜 트레이딩 기반 주식 플랫폼 &#x27;증권플러스&#x27;를 운영하고 있습니다.",
+          "url": "https://www.jobplanet.co.kr/companies/308146/landing/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "brave",
+          "title": "두나무(주) 2025년 기업정보 | 98건 면접후기 3.3 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 3.3, 면접경로: 온라인 지원 70%, 면접경험: 긍정적 54%, 부정적 10%, 면접결과: <strong>합격 33%, 불합격 35%, 대기중 32%</strong> | 잡플래닛에 등록된 98건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/308146/interviews/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "brave",
+          "title": "두나무 - 나무위키",
+          "description": "두나무의 경우 고객 예탁금도 자산으로 보는데, 가상자산 시장이 위축되어 고객 예탁금이 감소한 것이 큰 영향을 준 것으로 보인다.# 2022년 12월 기준으로 현금성 자산이 3조 원을 넘길 정도로 유동성이 매우 풍부한 비상장기업이기 때문에 가상자산 시장의 불황이 장기간 이어지지 않는 이상 상장할 가능성은 떨어지는 편이다.[4] 2025년 9월, 네이버의 금융 자회사 네이버파이낸셜과 포괄적 주식 교환을 추진한다고 발표했다.",
+          "url": "https://namu.wiki/w/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "brave",
+          "title": "두나무(주) 2025년 기업정보 | 73건 연봉정보, 6,462만원 평균연봉 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/308146/salaries/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "brave",
+          "title": "두나무 2025년 기업정보 | 61건의 복지정보 0 전체 복지 통계 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/308146/benefits/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "brave",
+          "title": "두나무",
+          "description": "두나무 소개서비스IR뉴스룸 채용 ESG 경영투자자보호센터-UDC- KORENG · 두나무 소개비전기업정보 · 서비스블록체인증권 · IR공고공시 · 뉴스룸보도자료 · 채용 두나무 이야기채용공고 · ESG 경영ESG 경영윤리 ·",
+          "url": "https://www.dunamu.com/"
+        },
+        {
+          "source": "brave",
+          "title": "두나무 2022년 하반기 77건 프리미엄 기업리뷰 | 잡플래닛",
+          "description": "두나무의 전/현직원이 전하는 생생한 기업정보! 직무와 커리어 13개, 업무 방식 13개, 기업 문화 13개, 일과 삶의 균형 13개, 복지 및 급여 13개, 기업 만족도 12개 | 잡플래닛에서 더 많은 기업분석을 지금 바로 확인하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/308146/premium_reviews/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "brave",
+          "title": "두나무(주) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "description": "두나무(주) 기업소개 - 업력 : 15년차, 기업형태 : 대기업, 업종 : 컴퓨터시스템 통합 자문 및 구축 서비스업 | 두나무(주)의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 확인해보세요.",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/a2dtWGJtVmFpMFphMzFyRFRrcEVIQT09/company_nm/%EB%91%90%EB%82%98%EB%AC%B4(%EC%A3%BC)"
+        },
+        {
+          "source": "brave",
+          "title": "두나무앤파트너스(주) 2022년 하반기 채용 | 기업리뷰 1건, 연봉정보 0건, 면접후기 0건, 복지정보 0건, 채용공고 0건 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/356754/landing/%EB%91%90%EB%82%98%EB%AC%B4%EC%95%A4%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "연봉 2억 주는 곳 어디? 두나무 vs 빗썸코리아 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스",
+          "description": "국내 2대 가상자산 거래소인 업비트와 빗썸. 각각 두나무와 빗썸코리아가 운영하고 있습니다. 가상자산 산업은 정부 정책이나 시장 흐름에 따라 환경이 크게 달라지는 만큼, 지원 전 회사의 동향을 꼼꼼히 살펴보는 게 중요한데요. 이번 글에서는 실적, 잡플래닛 평점, 연봉까지 한눈에 비교해 봤습니다. 과연, 일하기엔 어디가 더 괜찮을까요?",
+          "url": "https://www.jobplanet.co.kr/contents/news-7751/%EC%97%B0%EB%B4%89-2%EC%96%B5-%EC%A3%BC%EB%8A%94-%EA%B3%B3-%EC%96%B4%EB%94%94-%EB%91%90%EB%82%98%EB%AC%B4-vs-%EB%B9%97%EC%8D%B8%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "두나무(주) 2026년 기업정보 | 기업리뷰 101건, 4.2 리뷰평점",
+          "description": "장점 : 비포괄이라 야근할때 불만이 딱히 없었음 일 외의것에 눈닫고 귀막고다니면 돈은 자동으로 벌어짐, 단점 : 일 외의 아무것도 신경쓰거나 불만을 갖거나 하면 회사생활이 고달파짐",
+          "url": "https://www.jobplanet.co.kr/companies/308146/reviews/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "naver",
+          "title": "두나무앤파트너스(주) 2026년 기업정보 | 기업리뷰 1건, 1.0 리뷰평점",
+          "description": "장점 : 밥 준다… 간식 구비…? 더 적을 말이 없다… 하루에 한번씩 음료수랑 간식 채워짐, 단점 : 최저 임금 주면서 화장실 갈 시간도 없게 일 시킴. 온보딩 프로세스 명확하지 않음",
+          "url": "https://www.jobplanet.co.kr/companies/356754/reviews/%EB%91%90%EB%82%98%EB%AC%B4%EC%95%A4%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "대기업 된 두나무…&quot;돈에서 나오는 스웩?&quot; | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스",
+          "description": "전현직자들의 말하는 모든 데이터를 총동원해 잡플래닛이 알고있는 이야기를 담아봤습니다. 지원을 고민하고 있다면, 면접을 앞두고 있다면 살펴봅시다. 2022년 누구보다 화려하게 떠오른 기업이라면 단연 가상자산 거래소 업비트를 운영하는 두나무(▶리뷰 보러 가기) 아닐까요? 이제는 유니콘이라는 말조차 어색해졌으니 말입니다. 설립 10년 만에 대기업으로 지정됐거든요. 빠...",
+          "url": "https://www.jobplanet.co.kr/contents/news-3027/%EB%8C%80%EA%B8%B0%EC%97%85-%EB%90%9C-%EB%91%90%EB%82%98%EB%AC%B4-%EB%8F%88%EC%97%90%EC%84%9C-%EB%82%98%EC%98%A4%EB%8A%94-%EC%8A%A4%EC%9B%A9"
+        },
+        {
+          "source": "naver",
+          "title": "업계 상위 연봉을 가진 신의직장 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스",
+          "description": "확실한 보상이 있는 만큼, 구성원들의 잡플래닛 평점 또한 4.2로 높았는데요. 두나무의 빠른 성장에는 어떤 기업 문화와 구성원들이 함께하는지 살펴보았습니다. 구성원들의 잡플래닛 리뷰를 통해, 복지 및 급여 만족도는 최고였는데요. “연봉, 복지만 따지면 더 이상의 회사가 없다” “다른 회사들의 복지들? 연봉으로 다 커버됨” “힙함을 어필하려 하지 않음. 돈에서 나오는...",
+          "url": "https://www.jobplanet.co.kr/contents/news-3721/%EC%97%85%EA%B3%84%20%EC%83%81%EC%9C%84%20%EC%97%B0%EB%B4%89%EC%9D%84%20%EA%B0%80%EC%A7%84%20%EC%8B%A0%EC%9D%98%EC%A7%81%EC%9E%A5%20"
+        },
+        {
+          "source": "naver",
+          "title": "두나무씨엑스 2026년 기업정보 | 10건의 복지정보 0 전체 복지 통계",
+          "description": "두나무씨엑스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 10건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/432469/benefits/%EB%91%90%EB%82%98%EB%AC%B4%EC%94%A8%EC%97%91%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "두나무(주) 2026년 기업정보 | 108건 면접후기 3.3 면접난이도",
+          "description": "두나무(주)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.3, 면접경로: 온라인 지원 71%, 면접경험: 긍정적 56%, 부정적 10%, 면접결과: 합격 33%, 불합격 37%, 대기중 30% | 잡플래닛에 등록된 108건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/308146/interviews/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "naver",
+          "title": "평균 연봉 3억9000만원·1억 무이자 대출…파격 복지 스타트업",
+          "description": "평균 연봉 3억9000만원·1억 무이자 대출…파격 복지 스타트업, 잡플래닛 유니콘 대상 기업평가 복지, 급여, 성장성 등 평가 두나무, 토스 등 핀테크 나란히 1, 2위 기록 연봉, 복지포인트 등 파격 지급 금융 치료가 최고의 복지",
+          "url": "https://www.hankyung.com/article/202205314463i"
+        },
+        {
+          "source": "naver",
+          "title": "두나무 2026년 기업정보 | 75건의 복지정보 0 전체 복지 통계",
+          "description": "두나무의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 75건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/308146/benefits/%EB%91%90%EB%82%98%EB%AC%B4"
+        },
+        {
+          "source": "naver",
+          "title": "두나무씨엑스(주) 2026년 기업정보 | 기업리뷰 8건, 3.6 리뷰평점",
+          "description": "장점 : 음료 과자 컵라면등 간식 제공, 얼음 정수기 있음, 고객센터 치고 많은 월급, 단점 : 운영 방식이 자잘하게 계속 바뀌며 습득해야 하는 공지사항 구두 전달이 많음",
+          "url": "https://www.jobplanet.co.kr/companies/432469/reviews/%EB%91%90%EB%82%98%EB%AC%B4%EC%94%A8%EC%97%91%EC%8A%A4"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "채용공고 | 두나무",
+          "url": "https://dunamu.com/careers/jobs",
+          "text": "채용공고 | 두나무\n\n채용\n\n함께 만드는 더 가치있는 미래\n\n채용공고\n\n두나무 이야기 채용공고\n\n### 새로운 미래를 만드는 여정에 함께할 최고의 동료를 찾습니다\n\n채용 프로세스는 상황 및 일정에 따라 변경될 수 있습니다.\n\n전형 중 경력자에 한하여 레퍼런스체크가 진행될 수 있으며, 지원자의 사전 동의를 받고 진행됩니다.\n\n전체(undefined)\n\n전체()\n\n- 일반직군 인재풀Talent Pool\n- 개발직군 인재풀Talent Pool\n- 개인신용정보보호 변호사Security\n- [신사업",
+          "score": 0,
+          "published_date": "2021-07-26T00:00:00.000Z"
+        },
+        {
+          "title": "두나무를 만드는 사람들의 이야기 | 두나무",
+          "url": "https://www.dunamu.com/careers/jobs/1064?category=people",
+          "text": "두나무를 만드는 사람들의 이야기 | 두나무\n\n채용\n\n함께 만드는 더 가치있는 미래\n\n채용공고\n\n두나무 이야기 채용공고\n\n### 새로운 미래를 만드는 여정에 함께할 최고의 동료를 찾습니다\n\n두나무를 만드는 사람들의 이야기\n\n2024.11.22\n\n##### “두나무에선 최대한의 역량을 발휘해 더 큰 성장을 할 수 있어요” - 두나무 서비스 개발자\n\n---\n\n첫 만남\n\n제가 처음 입사했을 당시엔 블록체인이라는 산업 분야는 정말 미지의 세계였어요. 그때부터 지금까지 우리가 실제 사용하는 재화를 디지털화하고, 거래하고, 그리고 또 우리가 실생활에 이용할 수 있는 모든 것들을 블록체인화 할 수 있는 개발 업무들을 맡아 진행하면서 단순히 일을 한다는 개념을 넘어서 제 스스로가 사회에 기여할 수 있는 일을 하고 있다는 느낌을 받고 있어요.\n\n여정\n\n저는 개발",
+          "score": 0,
+          "published_date": "2023-09-05T00:00:00.000Z"
+        },
+        {
+          "title": "블라인드 | 이직·커리어: 두나무 비개발 처우가 어떤지 궁금해요!",
+          "url": "https://www.teamblind.com/kr/post/%EB%91%90%EB%82%98%EB%AC%B4-%EB%B9%84%EA%B0%9C%EB%B0%9C-%EC%B2%98%EC%9A%B0%EA%B0%80-%EC%96%B4%EB%96%A4%EC%A7%80-%EA%B6%81%EA%B8%88%ED%95%B4%EC%9A%94-6NiuYa6y",
+          "text": "블라인드 | 이직·커리어: 두나무 비개발 처우가 어떤지 궁금해요!\n\n블라인드 기업서비스\n\n# 채널이직·커리어 · 팔로우\n\n## 두나무 비개발 처우가 어떤지 궁금해요!\n\n국민은행· i*********\n\n조회수1,678 댓글14\n\n북마크\n\n- 퍼가기\n- 링크복사\n\n메뉴 더보기\n\n안녕하세요 갓 두나무 성님들~전 1금융권 대리급이고 8년차 정도됩니다.원천은 영끌로 1억정도되고, 데이터 및 플랫폼 기확 및 운영 경험은 있어서 지원해보려고합니다.1. 3개월 수습기간에 일 못하면 잘리나요?2. 계약연봉은 어느정도 수준일까요?3. 학벌 많이 보나요??4. 정규직되면 고용 안정성은 어느정도 보장될까요?5. 거기도 초창기 멤버 진공 성골 등 뭔가 모르는 벽이 있을까요?6. 일 있어서 야근하는건 괜찮은데,",
+          "score": 0,
+          "published_date": "2024-06-08T00:00:00.000Z"
+        },
+        {
+          "title": "몸집 키우는 두나무…하반기 60여명 채용한다 - 디지털데일리",
+          "url": "https://m.ddaily.co.kr/page/view/2021101209325446228",
+          "text": "몸집 키우는 두나무…하반기 60여명 채용한다 - 디지털데일리\n\n검색\n\n## 실시간뉴스\n\n- 거버넌스\n- 오피니언\n- 머니 & 코인\n- FUN\n- 리뷰\n- 테크\n- 뉴스\n\n금융IT\n\n## 몸집 키우는 두나무…하반기 60여명 채용한다\n\n박현영\n\n구독중--\n\n- 구독 --\n\n공유하기\n\n- 네이버블로그\n- 트위터\n- 페이스북\n-",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/%EB%91%90%EB%82%98%EB%AC%B4/review/XcY5BLEv9",
+          "text": "블라인드 | 두나무Reviews - &quot;기대가 되는회사이지만계약연봉은짠편&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인두나무\n두나무*Rating Score*4.3*(398개 리뷰)*\n이회사리뷰하기두나무은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*4*커리어 향상*3*업무와 삶의균형*4*급여 및복지*3*사내 문화*3*경영진\n*View detailed rating*\n# “기대가되는회사이지만계약연봉은짠편”***V",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
     },
-    {
-      "source": "naver_search",
-      "section": "culture",
-      "preview": "[카페] [3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.\n외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.\n\n[카페] 서울3대 재즈바 entry55 사당점 바텐더 채용\n[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 o"
+    "3": {
+      "naver_web": [
+        {
+          "title": "이해진 'M&amp;A는 생존 위한 선택…AI·웹3로 글로벌 시장 도전'[네이버·두나무 비전 공개]",
+          "description": "침투해나간다는 전략이다. 송 회장은 “아직 초기 단계지만 AI와 블록체인 기술이 융합하는 방향으로 나아가고 있다”며 “각 사가 가진... 금융 사업으로의 확장도 암시했다. 네이버와 두나무는 AI와 웹3 관련...",
+          "link": "https://www.decenter.kr/NewsView/2H0M9KH6RW",
+          "pub_date": ""
+        },
+        {
+          "title": "[오늘의 CPNT] 카카오, '이프카카오'서 그룹 AI 비전 공개 外",
+          "description": "전체 AI 비전과 방향성을 공개하고 AI 메이트 서비스 '카나나' 출시를... 모바일 전략게임 '라스트워: 서바이벌'의 성공적인 한국 서비스를... 이번 신곡 '너와 이별하는 방법'은 NHN벅스가 음원 유통 사업 확대를...",
+          "link": "https://dealsite.co.kr/articles/129956",
+          "pub_date": ""
+        },
+        {
+          "title": "이해진 &quot;M&amp;A는 생존 위한 선택…AI·웹3로 글로벌 시장 도전&quot;[네이버·두나무 비전 공개]",
+          "description": "결제·AI·블록체인 풀라인업 구축 글로벌 시장서 경쟁할 체급 갖춰 지능형 금융 에이전트 서비스 출시 송치형 &quot;서클과도 경쟁해 볼 만해&quot; GPU·인재 양성에 과감한 투자도",
+          "link": "https://www.sedaily.com/article/14149033",
+          "pub_date": ""
+        },
+        {
+          "title": "이해진 &quot;M&amp;A는 생존 위한 선택···AI·웹3로 글로벌 시장 도전&quot;[네이버·두나무 비전 공개]",
+          "description": "침투해나간다는 전략이다. 송 회장은 “아직 초기 단계지만 AI와 블록체인 기술이 융합하는 방향으로 나아가고 있다”며 “각 사가 가진... 금융 사업으로의 확장도 암시했다. 네이버와 두나무는 AI와 웹3 관련...",
+          "link": "https://v.daum.net/v/20251127173915635",
+          "pub_date": ""
+        },
+        {
+          "title": "두나무, 新생존전략..NFT+AI+ESG",
+          "description": "■ NFT·메타버스 등 신사업으로 ‘웹3.0’ 선제 대응 이용자 중심 데이터 탈중화의 ‘웹3.0’ 시대가 도래할 것이라는 전망 속 두나무가 선제 대응에 힘을 쏟고 있다. 탈중앙화를 지원하는 핵심 기술인 블록체인을 바탕으로 출범한 두나무는 다양한 신사업에 주력하는 모습이다. 특히 대체불가토큰(NFT) 분야에서 성과를 내며 글로벌 영역을 확대하고 있다. 7일 업계에 따르면 두나...",
+          "link": "https://kpenews.com/View.aspx?No=2839191",
+          "pub_date": ""
+        },
+        {
+          "title": "카카오모빌리티, AI와 모빌리티의 융합으로 미래 비전 제시",
+          "description": "미래 비전으로 제시하며, '모빌리티 특화 생성형 AI 기술'로 AI 대전환 시대를 주도할 전략을 공개했습니다. 빠른 모빌리티 서비스를 위한... 돕는 방향으로 나아갈 것입니다. 카카오브레인 CEO의 차세대 언어모델...",
+          "link": "https://datamuseum.tistory.com/68",
+          "pub_date": ""
+        },
+        {
+          "title": "이해진 &quot;M&amp;A는 생존 위한 선택…AI·웹3로 글로벌 시장 도전&quot;[네이버·두나무 비전 공개] | SIGNAL",
+          "description": "결제·AI·블록체인 풀라인업 구축 글로벌 시장서 경쟁할 체급 갖춰 지능형 금융 에이전트 서비스 출시 송치형 &quot;서클과도 경쟁해 볼 만해&quot; GPU·인재 양성에 과감한 투자도",
+          "link": "https://signal.sedaily.com/article/14149033",
+          "pub_date": ""
+        },
+        {
+          "title": "네이버·두나무 초대형 기업 융합…AI·웹3 글로벌 패권 노린다",
+          "description": "사진=연합뉴스 네이버가 두나무와 손잡고 인공지능(AI)과 웹3 시장 공략에 본격 나선다. 두 기업의 기술·사업 역량을 한데 묶어 글로벌... 그는 “양사의 비전과 전략에 대해 시장과 이해관계자들이 충분히...",
+          "link": "https://www.hankyung.com/article/202511278890i",
+          "pub_date": ""
+        },
+        {
+          "title": "두나무의 우리금융지주 인수전 참여가 불러온 혁신의 물결",
+          "description": "두나무의 우리금융지주 인수전 참여가 불러온 혁신의 물결, 막강한 자금력 앞세운 스타트업들, 전략적 M&amp;A 주도 한국 산업 전체가 존속적 혁신보다 파괴적 혁신 시도해야 음병찬 &lt;아르밀라 AI 공동창업자·스탯(STAT) 사업전략고문&gt;",
+          "link": "https://www.hankyung.com/article/202111046544g",
+          "pub_date": ""
+        },
+        {
+          "title": "네이버·두나무 초대형 '기업 융합'…&quot;AI·웹3 글로벌 패권 노린다&quot;",
+          "description": "네이버가 두나무와 손잡고 인공지능(AI)과 웹3 시장 공략에 본격 나선다. 두 기업의 기술·사업 역량을 한데 묶어 글로벌 디지털 금융·AI... 그는 “양사의 비전과 전략에 대해 시장과 이해관계자들이 충분히...",
+          "link": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=202511278890i",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "[현장] 팀네이버·두나무, 한가족 된다…AI·웹3 융합해 5년 10조 투자",
+          "url": "https://www.thevaluenews.co.kr/news/194396",
+          "text": "[현장] 팀네이버·두나무, 한가족 된다…AI·웹3 융합해 5년 10조 투자\n\n- 로그인\n- 회원가입\n\nUpdate2026.02.12(목)\n\n전체뉴스\n\n금융\n\n- 핀테크·디지털금융\n- 저축은행·상호금융\n- [카드·캐피탈](https://",
+          "score": 0,
+          "published_date": "2025-11-27T00:00:00.000Z"
+        },
+        {
+          "title": "[아침밥] 유진증권 \"네이버 커머스·AI·두나무가 2026년 성장 견인\" - 동행미디어 시대",
+          "url": "https://www.moneys.co.kr/article/2026011207571930813",
+          "text": "[아침밥] 유진증권 \"네이버 커머스·AI·두나무가 2026년 성장 견인\" - 동행미디어 시대\n\n# [아침밥] 유진증권 \"네이버 커머스·AI·두나무가 2026년 성장 견인\"\n\n## 목표 주가 34만원… \"커머스 광고와 두나무의 재무적 기여 기대\"\n\n이동영 기자\n\n3,561\n\n## 편집자주\n\n머니S 증권 전문 기자들이 매일 아침 쏟아지는 증권사 리포트 중에서 가장 알찬 리포트의 핵심을 요약해 제공하는 '아침밥'을 통해 든든하게 성공 투자를 시작하세요.\n\n- 0\n\n| 유진투자증권이 네이버 성장을 커머스와 두나무가 이끌 것으로 기대했다. 사진은 경기도 성남시 네이버 사옥. /사진=뉴스1 |\n| --- |\n\n유진투자증권이 네이버의 2026년 성장을 상반기는 커머스와 AI가 하반기는 두나무가 이끌 것으로 내다봤다. 투자 의견은 '매수'를 유지하고 목표 주가는 34만원을 제시했다.12일 유진증권은 네이버의 2025년 4분기 예상 실적으로 매출액은 전년 동기 대비 12% 증가한 3조2200억원을 ",
+          "score": 0,
+          "published_date": "2026-01-12T00:00:00.000Z"
+        },
+        {
+          "title": "네이버·두나무, AI·웹3로 글로벌 향해 '세상에 없던 도전'(종합) - 뉴스1",
+          "url": "http://www.news1.kr/it-science/general-it/5990224",
+          "text": "네이버·두나무, AI·웹3로 글로벌 향해 '세상에 없던 도전'(종합) - 뉴스1\n\n가\n\n# 네이버·두나무, AI·웹3로 글로벌 향해 '세상에 없던 도전'(종합)\n\n업데이트 2025.11.27 오후 02:39\n\n가\n\n## 이해진·송치형 등 네이버·두나무 주요 경영진 총출동\"AI·웹3 거대한 파도…5년간 10조원 투자해 경쟁력 확보\"\n\n27일 오전 경기 성남시 분당구 네이버 사옥 1784에서 네이버·네이버파이낸셜과 두나무가 글로벌 진출 비전을 설명하는 공동 기자간담회를 열었다. 전날에는 각각 이사회를 열고 네이버파이낸셜과 두나무의 포괄적 주식 교환을 통해 두나무를 네이버 계열로 편입하는 안을 의결했다. 사진은 이날 공동 기자회견이 열린 경기 성남시 분당구 네이버 1784의 모습. 2025.11.27/뉴스1 ⓒ News1 김영운 기자\n\n27일 경기도 성남시에 위치한 네이버 1784에서 진행된 네이버-네이버파이낸셜-두나무 3사 공동 기자간담회에서 3사 경영진들이 발표를 진행하고 있다. 왼쪽",
+          "score": 0,
+          "published_date": "2025-11-27T00:00:00.000Z"
+        },
+        {
+          "title": "두나무, ‘AI 퍼스트’ 전략 가속…개발자 비서부터 뉴스 요약까지 서비스 고도화 - 매일경제",
+          "url": "https://www.mk.co.kr/news/stock/11495022",
+          "text": "두나무, ‘AI 퍼스트’ 전략 가속…개발자 비서부터 뉴스 요약까지 서비스 고도화 - 매일경제\n\n뉴스 바로가기\n\n로그인\n\n- 마이페이지\n- 프리미어\n- AI검색\n- 햄버거\n\n로그아웃\n\n매일경제 60\n\n매일경제 60\n\n나만의 AI 비서\n\n##### 뉴스\n\n##### M 유튜브\n\n##### 콘텐츠 Hub\n\n##### 아카이브\n\n##### 독자서비스\n\n##### AI Hub\n\n##### 행사\n\n##### 비즈니스\n\n- 인기뉴스\n- 스포츠\n- 문화\n- 국제\n- 사회\n- 정치\n- 오피니언\n- 테크·과학\n- 부동산\n- 증권\n-",
+          "score": 0,
+          "published_date": "2025-12-18T00:00:00.000Z"
+        },
+        {
+          "title": "네이버-두나무 “5년간 10조 투자” |",
+          "url": "https://heraldk.com/2025/11/26/%eb%84%a4%ec%9d%b4%eb%b2%84-%eb%91%90%eb%82%98%eb%ac%b4-%e2%80%9c5%eb%85%84%ea%b0%84-10%ec%a1%b0-%ed%88%ac%ec%9e%90%e2%80%9d/",
+          "text": "네이버-두나무 “5년간 10조 투자” | (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: \"ca-pub-2087225769357406\", enable_page_level_ads: true }); --\n\n-- --\n\n27일 3사 공동 기자간담회 개최“세계에 없는 AI와 웹3 융합 도전”\n\n한국판 핀테크 ‘빅딜’을 성사시킨 네이버와 두나무가 5년간 10조원을 투자해 세계 ‘블록체인, 웹3, AI’ 시장에 도전장을 던진다. 막강한 시너지를 통한 기술 생태계를 확보해 디지털 자산 패권 경쟁을 선점한다는 목표다. 두 회사의 합병으로 글로벌 시장에서도 보기 드문 AI, 전자상거래, 가상자산 분야를 아우른 초대형 핀테크 기업이 출격하게 됐다. AI와 웹3가 결합한 미래 금융 플랫폼이 현실화 되면서, 세계 무대를 겨냥한 디지털 금융 지각변동이 본격화될 것으로 보인다. ▶관련기사 5면 네이버, 네이버파이낸셜, 두나무는 27일 네이",
+          "score": 0,
+          "published_date": "2025-11-26T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Sierra Leone chimp refuge shuts doors to tourists to protest deforestation - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVWZjeW1OTjdxX1FPbGRqX2JJMEFtb19DaHRXRUl3VnFndzdvYXhqV0pZZjhxQkJTWjh1WmZDRVFzaDVVOVhLVmtSQ1c4OVRFU2o3OXRzckpMZWhzdG1YdGVvR1pPR0dKUWFqWXI4LWVHSnNBTEQyWXJwTkJ2c3VNTDNGM0UwR25QSlJzelliOGhDY0FteDI4UmVlTEdBZ3FiTGVISlM3SGxtX3RaMlpwT3diT3RVZE1TWE45N0xoNnBoMlc5QllHOTJFN3BZWms?oc=5",
+          "pub_date": "Fri, 01 Aug 2025 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "How Argentina took a chainsaw to government, a year before Elon Musk's DOGE - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN3NRTXphSm9GUG1oenVlMFdIWlRXT1pzazYxRzZ3T0pYWmRlMHlhRXVpd0FwYWJackl0ZnRVYUpGa3lDamR4Q19ZV1ZiRlp1Q0NKN1FBNjgxWGFIc091UXFyNHV1ZDRRT2dvYWlyUV9IV0dOaWIzU3ROeEJ4eGhreWJtVG5CREdLdlotd2FnMElNanRoR3BNV2JhSkRucWNTQXl0cVFSSEFvZEVaS3Y2OGhaVVJZcjY5?oc=5",
+          "pub_date": "Wed, 12 Feb 2025 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Men jailed for felling Britain's iconic 'Sycamore Gap' tree - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFpqaUlzWHFYUi1fa0xZVmdfbW05TGJSdkFTQ2djTEEwRS1PMUVnZFAtc25pcGxtbzJxaGFSbWlUWGRsYU56NDZwQnIxS1czUElqbGU2YlhIY2kyX2JrMmROTkdoYjVyV3NoRGtfM1luakJONkxhRzZjbUlfalFKMTRTVnA2M24wVFZ0bVN0Z3FiSF9ET01Lb1Vwa0pkQQ?oc=5",
+          "pub_date": "Tue, 15 Jul 2025 07:00:00 GMT",
+          "source": "Reuters"
+        }
+      ]
     },
-    {
-      "source": "naver_search",
-      "section": "strategy",
-      "preview": "[웹] 이해진 'M&amp;A는 생존 위한 선택…AI·웹3로 글로벌 시장 도전'[네이버·두나무 비전 공개]\n침투해나간다는 전략이다. 송 회장은 “아직 초기 단계지만 AI와 블록체인 기술이 융합하는 방향으로 나아가고 있다”며 “각 사가 가진... 금융 사업으로의 확장도 암시했다. 네이버와 두나무는 AI와 웹3 관련...\n\n[웹] [오늘의 CPNT] 카카오, "
+    "1": {
+      "company_name": "두나무 주식회사",
+      "company_name_eng": "Dunamu Inc.",
+      "stock_name": "두나무",
+      "ceo": "오경석",
+      "address": "서울특별시 서초구 강남대로 369 (서초동, 디에프타워) 8층, 12층, 15층, 17층, 18층",
+      "industry_code": "63",
+      "established": "20120403",
+      "homepage": "www.dunamu.com",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "네이버·카카오 주총 '임박'...AI 수익화·경영 전략 시험대 - 테크M",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KdjFIajFEc3NKZ3A0Skp4eEl4VkxoTm5QTnFMWldVWE5wckc2R3JJSmw4RVBmeElBbHp1X1dVSEhDTm1NS3lScEloSWoydGoyYkU1YTNqV1N0ZUQtZWhlVzRwOWdsQdIBakFVX3lxTE9DYlpmRHpCVDczX0lDNm1BMlNqN2ZmSWIxUHlJNlZSUzdZQ1l3Q0dKNWhWelNmOTNteVhMbmJuaXBUZ3JNUGpIZldjUUFPUWlYa2JNZXlxdmFzUmh5RUkxcnctLXZyNU1fMFE?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 04:49:31 GMT",
+          "source": "테크M"
+        },
+        {
+          "title": "어니스트AI, 전 직군 두 자릿수 채용 - 와우테일",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByQk5faFhYMWRlUmxXN1dBWTB1RklmQXRGaHJPNThLZDJ1ZWZaOHB2X285YmZJODIybUk5N3ZLNExfcTduNTVMMVVuSDB4QUE?oc=5",
+          "pub_date": "Wed, 25 Feb 2026 04:27:56 GMT",
+          "source": "와우테일"
+        },
+        {
+          "title": "[업비트 왕관의 무게] 네이버와 '혈맹'… AI·블록체인 품은 핀테크 공룡 예고 - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WemdJVlFmT181U1d1OTlReWJwdlBvVXRxQ1lNMFBxUFdGV3QwbmtFOTd4SmFEZ29IQWp2U3dzWlBjb2ktR2FIb1hOS1hfbFk?oc=5",
+          "pub_date": "Fri, 23 Jan 2026 08:00:00 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "두나무, ‘AI 퍼스트’ 전략 가속…개발자 비서부터 뉴스 요약까지 서비스 고도화 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5c3VtRmpIVFpDd0hQeU5VakhEWjRoVXBHR2JyM3dNbXpkZU5zWk12SEF1b1Z0dXdJZGc5bWtzbDJ4bnI5RTIyamtVcGQwYlRTOXc?oc=5",
+          "pub_date": "Thu, 18 Dec 2025 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "네이버+두나무, 코인베이스式 금융 플랫폼 동맹 통할까 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01cVhGRTktcDloTzRmZzg1ekZuNHM0VGRhMTJLMjFOR2FvM3VmX1pwQkt1N3F2TVNaaDVMTzR4OWdLeFgzR1IxOFI2cGRmbXJhbTV0QVpsaUw4Y1l4eEZFeDRtSExJeHRwbUZyQTItQm9pMGM?oc=5",
+          "pub_date": "Sun, 30 Nov 2025 08:00:00 GMT",
+          "source": "디지털투데이"
+        },
+        {
+          "title": "두나무, 업비트 법인 서비스 확장 맞춰 개발자 충원 - 디일렉",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UNlRSU0hkTDBPemVlODc3RmZ6cXVveVhPb1FDRlRzZTA4QnZ4dzdJeDhGcW9PSEp1MHYzSTZxc3ltblIybjVlMFVpbFB3VjM2bXBZekhiYTJucU9kb3BmYko3bGhPZw?oc=5",
+          "pub_date": "Mon, 15 Dec 2025 08:00:00 GMT",
+          "source": "디일렉"
+        },
+        {
+          "title": "네이버·두나무 ‘20조 빅딜’ 카운트다운… 디지털금융 판도 바뀐다 - 오늘경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44S05lWWtBTjJON3l2QUtQMWRxZGVRU2pMSTVyaFhKdlRqdzlNMGEwLWxfU3JsbVFpWTdyVk9nbzVxREx4UG5SaGNQV1ZXMlc1eHhuaW5aZ2hLY2ZKY0RZbHJraWlTS3pQUjd4dlZjdk9TLVE?oc=5",
+          "pub_date": "Fri, 21 Nov 2025 08:00:00 GMT",
+          "source": "오늘경제"
+        },
+        {
+          "title": "\"명품시계 넘어 대체투자 플랫폼으로\"…바이버, 신임 CSO 영입 - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBibUVjZWtTMEoycjZUY0FSOHhZa2prZXBWYzRYYXZDeHNzUUJCcFZqY0s4NkVSRFFYMnZFYnJYejBLVzBZcFJjMTkxZ0h1U2oxSFBCMTAwSXZ4bEdEMUpORmM1NDFfZzN0X0loVg?oc=5",
+          "pub_date": "Mon, 19 Jan 2026 08:00:00 GMT",
+          "source": "유니콘팩토리"
+        },
+        {
+          "title": "[현장] 두나무, ‘20조 핀테크 공룡’ 의결권 네이버 위임…10조 투자·AI·웹3 결합 - 파이낸셜투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rc0dzR05lQ2NXR2NRQWI2R1RjaDlZQ3QwNWZTdVFLRmFrakZiQTBLRGFXRTZaUWt5Wi1IZVlWcEw1X0FsV05iVDRkRFMyb1I1cUNpMVl3dy1XXzRkaHdZbzZiTXdUSHNKLUHSAW5BVV95cUxOZ29HRFRxUzM1S0p2dVpfNXdGQ3JicnFzSEtrY0xreElmZDB0TE5MOXp0WlFZRnFkT2JLTkpNLXRIeW8xYTBCbTZCQjNzUEh6NzB6VUR3STk5R3p3a090RVc5eEtYeF9mWVE5TExEdw?oc=5",
+          "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
+          "source": "파이낸셜투데이"
+        },
+        {
+          "title": "두나무, ‘디지털 치유정원 공모전’ 시상식…빗썸, ‘2025 SBS 가요대전’ 스페셜 투표 이벤트 [가상자산오늘] - 시사오늘",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04UG01SDBQUk5sVjF1WkVqTHFjYjVXZlE4b2ZLbXZfR1N6Y2VWV0tqNDAzNEhERFdNOUxiUGpuMzhxejZRNWtjLXBKNjlhX1RKYkRRX0FacGVjU3JpT1RLbXR4QnF0UlYwM1E?oc=5",
+          "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+          "source": "시사오늘"
+        },
+        {
+          "title": "이해진, 두나무 합병·AI 로드맵 직접 설명한다 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Kb3ZMS3owRlEyOElVcW9FdFF4d1Q5alRkQUZPSDZPMVB2dTV5X3RmeWc5SWc0YjN6SWNoTjhhNUdFMGdXTlRONHRSOGxwWjJwYm5QeDE1dW9SZlHSAWBBVV95cUxQdXdEUmZEY1o0OExxaGxjZVBLbzlxWTI3ZXV5NjMyQ1diTFpYRE05eXdUdkliTGIwVFBkeGN6SnJOS2hBN1FGYTVwWFF1LVJGZ2VNYTgzSDdwMzRjMS1WSDM?oc=5",
+          "pub_date": "Tue, 25 Nov 2025 08:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "네이버, 가상화폐도 품어… 20조 ‘핀테크 공룡’ 탄생 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMjRtMm9QamotNWZwVHM2N1Fqak5SSUJ0cDRQOW9tR3poN3NoNkx6a0E3MkdrOTNWYWl3blk4TTIwTWJQekxGV1hFUkRnMEY3d2g1SFktUW9mQmxlSExGVE0zMklONkh0NHQ5T09Bdnc2ekVzSWswSmxvMXN6LXVzaHdIVdIBlwFBVV95cUxPTkhQbGdWN1BHNGxSV1Z3U3N1OUlWajNBT05ERmkxVUtQMHVad3FPc29yMVVKMm5Mc0RjYUN0NEM5ZG1XZkJtM245OVM2OFVkRUpneGhoMUh6cWlIZFN5bzVrcDR4aWZVRWR3dlppb19pQ0lIbzVQNmxBYkRhZ09ScTJVeExGZ0QyUHNHblFvUklKdF9WS2dn?oc=5",
+          "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "두나무·빗썸, 나란히 1250억 썼지만…'내실' vs '공세' 엇갈린 전략 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02b21YOVpEazZJUEZZZFZmU3pXNk9BSjlPZnp5azlYNUM4b0ZQSnducTdMSk8yRWFaYlZYZGRqNi03ZkQxUjlNdk5QSkdyZw?oc=5",
+          "pub_date": "Tue, 18 Nov 2025 08:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "네이버-두나무 `빅딜`, AI 데이터 패권 겨냥한 전략적 결합 [IT클로즈업] - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kMzgwRm5jUVI0X2E2QnFDQWJjSl9hWXRqdUFfQ1BHRDZURDFDOTZKY3licE1udXNQeWFfR2JMNW5OcW52UWxBY2hOYjJhTGlQMTBacVNmc0RIYmkxcWdWUzF3?oc=5",
+          "pub_date": "Mon, 06 Oct 2025 07:00:00 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "네이버, 두나무 전격 인수…웹3·AI 기반 '글로벌 디지털금융' 진출 본격화 - 스페셜경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kUko5clA0Zi1HbkJNUlR1OXdZUHhwN2FySF9WanR5SkFvdVZsUEVhLVY3RVl2RWliNUszcThqNUZ2SFRnb0V1UmRmVkt3Vjd4M0w5Rm5LZ2ozWjNiekdhWmFMTTR4eHN3MjIxaw?oc=5",
+          "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
+          "source": "스페셜경제"
+        },
+        {
+          "title": "두나무·빗썸 사업보고서 공개 임박…거래 위축 속 법인 유치 경쟁 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KeHpUVmJSVWNCSnVEQVdHdGgyZUdaWGdOWjFzUHZjWjYzSkVoMWk3bkZjUS10aDdxNlhUU2ZTX1JNOU5hdkJISC14Q1hXSFB3dU1TNw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 04:51:00 GMT",
+          "source": "이투데이"
+        },
+        {
+          "title": "두나무, 올해 상반기 영업이익 5491억원...전년 대비 11% 상승 - 디일렉",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1DMnE0UEl6RUpremVaLUN4aWdaRWdQaFp3QVBXRjNFaXc0YTlyOVJnRzBtX2pnN05KVUgwWDFza0wtOXcyem02dnBfU0l4S2dZZ0tGOWJueWR1b1Nad05GWjdYWEZvdw?oc=5",
+          "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
+          "source": "디일렉"
+        },
+        {
+          "title": "두나무, 업비트 넘어 실물경제 연계 투자 성과 가시화 - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MREpGbWhORXU5X2JzVDg5OUJVY2tvOG05NTBSMTVEZzByYlFLNEtVVGlHVTZUNmo1VkdXYzhOc2VBTzlfN3M4SjFvc1pxVHM?oc=5",
+          "pub_date": "Fri, 26 Dec 2025 08:00:00 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "두나무·빗썸, 3분기 실적 나란히 껑충…비트코인 등 보유 가상자산 호황 ‘반사이익’ - 시사오늘",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qQUZ2NFNLTmhxZUoxdWJ3VWZHaDJRTUxOZnZobm45M0xURUh1X0Y3TW0yUnhLT0NfdjZmNEh4LVQ0dWFVN2JiaVExb1ZncEIwaHpacEtMRXNTYW9oeWNMUDRua3prWUNEYm9j?oc=5",
+          "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+          "source": "시사오늘"
+        },
+        {
+          "title": "두나무, 가상자산과 사회적 가치의 접점을 넓힌다 [유니콘 기업의 사회공헌] - 더버터",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NTXVBeUtySUc5RlVWaGNjd1Brbmh5amtqMHV6a0NCTUxOanYyR3FmUHpMbGFTbkZBREdIZGRjNGI2LTRjTkRlc1I2QVNqNFJIR0F3b0JhTE1ZMFhGYWpZZTJIQnRlSTAxdmc?oc=5",
+          "pub_date": "Wed, 04 Mar 2026 23:00:00 GMT",
+          "source": "더버터"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "두나무 증권플러스, '미국 주식 실시간 시세' 전 회원 무료 제공 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcDNrMF9ZeHh4YlFDMmdockV1TFkzY3FBOFA3a2ZtXzROMkpGd1I3UWlWZ0xtSWNnVXA1TWttZko1MUZSTkpZRnZmMkNlUlFORGdSYVA4SXh0V3dOelh0dE5YUVdzZDY1eVVLb3JGODEwY3I1T2dYbm96bVZEMDlQN2wxelRzUWc?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 01:43:29 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "네이버·미래에셋까지 흔드는 가상자산 2단계 법…쟁점 3가지 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EdnVqbUt0eXpWYXRVZG5hbHVKY1VkaUllQWkwNlh4ZHZpdFA1UlRQVThBakNzODVQUEZ2Q0FzaEc0Uk96Y0hwMFFIMkpfeE1tM01kaFlpYXdUV3ViT08xelQ3UVVWbWFncFFHSw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 21:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "두나무 증권플러스, '미국 주식 실시간 시세' 전 회원 무료 제공 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kb184aTFwTmgyNzhrVHBXZDVISU9YcndYQVNoNTZmd3FIY1lNWUhUd0lzVlNndlNLMkdsLU84NmxzSmNKZmtOWThrd2NUcDZKeThFMVR4QUNqQdIBVEFVX3lxTE9haEY4eGdPTUlvenVrQ0NENDEwNGZyV0VwS0RPZm9iN044R3V5RnJnOVBtcllRR2cxd0NmbGlCY3IyYVBfYm9VclctRjg1bkdQRHR1NA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 01:43:29 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "금감원, 금융사에서 3535억원 걷는다… 작년보다 200억원 늘어 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUUkxdW9ma05OczA0QXRpYXJqVXNmR2R3WURZd2VTTHRVeGFuR19fTWJDcmRSdXF5aUFWTXdMb3pKMHZSVVAtbm5UcUpnaXR3MVNQUFVEZVVLMS1lSU1JY3laYWtUNzRkbVNqUVBLTFhCRlpNZUFXUlV2MEZVSWxGedIBlAFBVV95cUxQXzdkbUlUSHNmVFZyMDkzZG05R3dkYkoxczBpMTBUZWpDUTlpS1VyaXJtUnlOc2NZckNMNU5JSHpyMkpSXzhVdnFPTlN4YXpGRUFONlJIa3Z2Y3dsdmxCdWJMNWFBSFZybWlqMC0xTDI5T1BheVphWWZkTjhGbzVfUlhabHpZblNqMWtSSFd5dGNuM3Z2?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 03:56:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[강세 토픽] NFT(대체불가능토큰) 테마, 빌리언스 +16.43%, 폴라리스오피스 +14.93% - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORk92bWRZbXZFVnhxcktpNlhyZW1LcDRnU1dJUlZVV1VaazZwLWk3b0UtTlJaWDF4dUFSb2FabGFMTGhBUVhqanE1djZHWk1vMERMUWdTWlE5Nk5GN3E5SDlFT3JVcWJCUm9pWFNjU2w1VHZhQnRwam12LUtpRFF3eTk2c9IBlwFBVV95cUxQMXBUZllfVTlaOE9VUlplamI4dmJoMm1Mel9hc2x1TDkzV2NMdEV6eHk4LUN5SGZrbFM0bTN3Q19FcXBCbTVYN2ZSV1JXQzhQUjlQcnVvdURSTzJXYWdVWlQ2LXg2ZWtLcVAzUU41NGozZE1tUjJKYU9IRkJ2RnRBcGdpZlZEQ2RyTWhNLU5Sei1DTjMzZEZJ?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 03:21:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "미래에셋벤처투자, +7.73% 상승폭 확대 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeEo4MUIxWENIeTdGSWlNeXRjNk5GMnNHWnFXa2tuamNkdW5IelJIRVVwRU1UdjRvVTEzRFMtaDlmbFZfX3pURnpzUkZGTl9FWExSUnNJMHIza20yN3U4ME0yeUcySlR6SmlycjNRcktmR1hxZzYtTmJSNUdJN0VZRkY0ONIBlwFBVV95cUxQRTlrb1JCa01BalkxcmpxX3czZDhlWUxwcVN4Rk1Pb3NFaUFRUndtczhxS0dYT0xPOUtWVWVfa2gybEM3cWRXYmszMkhpbGNNZW01YThSVXAwakE1MDllRjkxRzdxejd0OHFod1RkQjZ5X3BibVVsd2M2SEsyb29yNzMtcXZVdWI1OVpIM2VUOE9kSVZJTXdB?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 01:16:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[속보] 두나무 대 네이버파이낸셜 교환가액 비율 1:2.54 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41eEFoR3BMNjBITFBTM1pHUWNWZHJ6b0lkeWIyNHpPSlFxdjYyZkdDc095NzlCd3p3NEpVQ2dnekMtVld5VFd1elloM3lUNVNr?oc=5",
+          "pub_date": "Wed, 26 Nov 2025 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "특징주, 코오롱-두나무(Dunamu) 테마 상승세에 5.37% ↑ - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GWlNHR0pjNkVnQnFYUTB4ZUdqazVNMXVaU3ZqTGx2amVOOXlvV1F3RllUdVVOejhicW5KeVFFcy1yMmNUTXJuWm9WbFpQSnZaQ2c?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 00:46:25 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[두나무주가] 검색결과 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbWxpUm9aMzVvYlRTay0zaUdGQ19EUzRzU0VDVzdJSkhUOFdNN29UVjVhY0VnQ3JWX2hlZDc4SDBmTTRoa2lYUHR1cGFlazVCWHRqaVpycF85dlJBaUlRdWcxNS1tNkNQZTdoLWo3VU1pTUFzZnRMTk1wYXhJZTBaTHJ5STM?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 14:00:50 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "람다256, '디지털자산 금융 인프라 포럼 2026' 개최 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IejFfN3dUTERpcFNXMXVJNnZSUHdSRDhSX0VwVldFMHVVNHBKUjJoMFFiYTlhM0V4Z0pFUUFsYlFvcW9LZFlCXy1HandVdHZXZlJGdnVn?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:20:53 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "FIU, '자금세탁방지 위반' 빗썸에 과태료 368억원 부과 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YV0RlVHhnQk9yeV90NlY1dmtKNmZIa1FnaGFmcVJOM3hLSFNrcFFCWnQ1b2Z4TE40T3g0N3RHdWM4T01KaG0zTlhkNmRrUUdfc3pVeGd3?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 10:10:17 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "최대 규모 과태료받은 빗썸, 소송갈까 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NYmZ0ZHBvdTZ6NE9EZHhCQzVlWU91VjJ2V2JqRldBQmJ0MHdhdndCanJaOEhiUlpmUDFLRTZ6V2wxN21YT1pRMGpnNkhZSEliNGNEVVZB?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 05:41:49 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[네이버·두나무 빅딜] '공정위·투자자·입법' 삼중 변수 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNGxVTm9Vc2hnQk1RNVZURGcxd3ZaekRURC0wT242ZGpQMGJueGxfRHEyUkdYUXBIYnVqaVlxZG1xZ1EwVVpWeDNReC0tNW41UHlYQjVSazVlUHdTUENKdkZUTnFaMEZEV2wtMdIBbEFVX3lxTE1LNGxVTm9Vc2hnQk1RNVZURGcxd3ZaekRURC0wT242ZGpQMGJueGxfRHEyUkdYUXBIYnVqaVlxZG1xZ1EwVVpWeDNReC0tNW41UHlYQjVSazVlUHdTUENKdkZUTnFaMEZEV2wtMQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:24:43 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[어바웃 C] 차명훈, 3개월 만 단독 복귀…코인원 ‘속도경영’ 전환 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iTmROMEE1UmZYWUNTQ21zazU2VGVISEFnSTdMZVdvRm1tR1pwYTVPUHdZLVpkLXNqcWRvOTVRY1FqOXAwQWpCUTJqbGNRN3ZWb0l2YjBxbl82cmJ2aEZBNEM2NGZpTnRG0gFsQVVfeXFMUDhYUGdBdmlYYlA0SUJjTmcxd2VaVllHTVQ0QlJnYnpaYVh3SlBqa2duZEVSdXU5YlFhVk1uRWpCcEd1b2Z4YW9kWkRVQk9TOFh6TWxTZE9LUl9pbGR1TVhWaVJlU0JmRVA2b21C?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 07:51:44 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "법은 없고 시장만 뛴다…가상자산 2단계법 공회전에 업계 '속앓이' - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yb01zR0FUZGx5N2pTeUVMVTR3Ri13YlNPXzRLbUJhSHd4Zy0wRXM2ak5CVkZNdU1tcXFzOGRiOWR6MkVObGpYX1ZnTDR3NHl3VmQyaFpVVlYwclZLRHN3dkVFbk5UZEpo0gFsQVVfeXFMT3BEcHVhYVBTZENzYmR3cmNIS0VDVC04dlY4cHpOSS1xRjNpMHdDZzB3a2VONTQ4X0hJNUk3ejlGVllMbUw5SGdBSC1DUVRzN3BwZmlLMWQxcVpPNHRmSmhhcS1vSWRTM2g3MjEt?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 08:42:25 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "업비트 ‘두나무’, 네이버 품에 안긴다 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11cnEyTG05NWZMaUFHN3BJSk5UQmYyWUNBWWlXUktVZzBBdGZhbVJyREJ1NjlLSk5jeGNqSmNxclpfNjR4NVRFV2VnUUFVQzAwVDZj?oc=5",
+          "pub_date": "Thu, 25 Sep 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "네이버-두나무, 왜 ‘일등 연합’을 선택 했나 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjanp1M3J2ZEl6Z0E0MG4wZUg5SU9KY1lGNGRmSVhrOVhUR1p6Vm5HT1c2dlNiZ1ZpMnVVVTc2eXoxX2t4MUcteHVtWVVvTmNxUlVIaA?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "두나무·하나금융 블록체인 협업…기와체인, 괜찮을까? - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BY0R1NjdpUi1ZS0tfRF95RlEtUHY4NmlBUTNiSHRZMGNiYndEQnF5NXhrNmpnMC02OGs1bnVVZGxLOGpTWHpFTTBfbDhGekU?oc=5",
+          "pub_date": "Fri, 05 Dec 2025 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
     },
-    {
-      "source": "dart",
-      "section": "overview",
-      "preview": "회사명: 두나무 주식회사 (Dunamu Inc.)\n대표이사: 오경석\n설립일: 20120403\n주소: 서울특별시 서초구 강남대로 369 (서초동, 디에프타워) 8층, 12층, 15층, 17층, 18층\n홈페이지: www.dunamu.com\n종목코드: \n업종코드: 63"
-    },
-    {
-      "source": "brave_search",
-      "section": "overview",
-      "preview": "[채용공고 | 두나무]\n두나무 소개서비스IR뉴스룸 채용 ESG 경영투자자보호센터-UDC- KORENG · 두나무 소개비전기업정보 · 서비스블록체인증권 · IR공고공시 · 뉴스룸보도자료 · 채용 두나무 이야기채용공고 · ESG 경영ESG 경영리 ·\nhttps://www.dunamu.com/careers/jobs\n\n[두나무 채용 | 디지털자산리서치팀 ...]\n"
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Backend Engineer_증권플러스 백엔드 개발 | 두나무",
+          "url": "https://www.dunamu.com/careers/jobs/1630",
+          "text": "Backend Engineer_증권플러스 백엔드 개발 | 두나무\n\n채용\n\n함께 만드는 더 가치있는 미래\n\n채용공고\n\n두나무 이야기 채용공고\n\n### 새로운 미래를 만드는 여정에 함께할 최고의 동료를 찾습니다\n\nBackend Engineer_증권플러스 백엔드 개발\n\n2026.02.11\n\n조직소개\n\n우리 조직은 자산 전반을 아우르는 가치를 제공하는 증권플러스의 백엔드 개발을 담당합니다. 증권플러스는 사용자 중심의 제품 철학을 기반으로 고객에게 더 나은 투자 환경과 투자 판단에 도움이 되는 정보를 제공하기 위해 노력합니다. 금융 도메인의 높은 보안 수준과 원칙을 이해하고 이를 준수하면서도 서비스의 유연함과 생산성을 잃지 않기 위해 치열하게 고민합니다.\n\n우리 조직은 다음과 같이 일합니다.\n\n- 금융 규제와 컴플라이언스 요건을 '제약' 만이 아닌 '기",
+          "score": 0,
+          "published_date": "2026-02-11T00:00:00.000Z"
+        },
+        {
+          "title": "2026 두나무 개발직군 대규모 채용",
+          "url": "https://careers.dunamu.com/tech2026",
+          "text": "2026 두나무 개발직군 대규모 채용\n\nGo Further. Build Bigger.2026 두나무 개발직군 대규모 채용\n\n채용 캠페인이 마감되었습니다. 지원자분들의 많은 관심과 성원에 감사드립니다.\n\n- 성장은 끝없이\n- 배움은 함께\n- 기술은 깊게\n- 도전은 즐겁게\n\n### 두나무가 만든 성장에 더 깊은 성장을 함께해요\n\n당신의 경력 위에 새로운 기술적 도전을 더해보세요.\n\n이상거래탐지시스템 (FDS) 개발\n\n인증/메시징 플랫폼 개발\n\n검색서비스/콘텐츠 관리 시스템 개발\n\n인공지능 변환 모델, 글로벌 평가 지표 1위\n\n일 1,000조 원 규모 디지털 자산 체결엔진 고도화\n\n증권플러스 NXT 통합시세 지원 및 SOR 거래 주문 기능\n\n증권플러스 머신러닝 알고리즘 기반 ‘뉴스룸' 개발\n\n코인 모으기 기능\n\n마켓 인사이트 기능\n\n업비트 실험실\n\n디지털 자산 투자 인덱스 지표 제공 기능\n\n### 두나무 개발팀이 일하는 방식\n\n금융·블록체인·데이터 인프라를 혁신합니다.\n\n- 배움은 함께,",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Dunamu Inc",
+          "url": "https://github.com/dunamu",
+          "text": "Dunamu Inc · GitHub\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\ndunamu\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe read every piece of feedback,",
+          "score": 0,
+          "published_date": "2025-02-17T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - TEAM-DAWM/SHELLIN-SERVER: 서버 둘2 조조2",
+          "url": "https://github.com/team-dawm/shellin-server",
+          "text": "# Repository: TEAM-DAWM/SHELLIN-SERVER\n\n서버 둘2 조조2\n\n- Stars: 12\n- Forks: 0\n- Watchers: 12\n- Open issues: 2\n- Primary language: Java\n- Languages: Java (99.9%), Dockerfile (0.1%)\n- Default branch: develop\n- Created: 2024-06-26T11:51:50Z\n- Last push: 2025-03-31T14:29:53Z\n- Contributors: 2 (top: minwoo0419, choyeongju)\n\n---\n\n \n\n# 🌰 Nutshell 🌰\n\n \n \n ```\n[<Prefix>] #<Issue_Number> <Description>\n``````\n[feat]: 새로운 기능 구현 \n[fix]: 수정 \n[refac]: 내부 로직은 변경하지 않고 기존의 코드를 개선하는 리팩토링 \n[chore]: 패키지 구조 수정, 의존성 추가,",
+          "score": 0,
+          "published_date": "2024-06-26T00:00:00.000Z"
+        },
+        {
+          "title": "두나무, 플랫폼 경쟁력 강화…개발자 50명 채용 < 기업/biz < 뉴스 < 기사본문 - 잡포스트(JOBPOST)",
+          "url": "https://www.job-post.co.kr/news/articleView.html?idxno=196647",
+          "text": "두나무, 플랫폼 경쟁력 강화…개발자 50명 채용\n\n- UPDATED. 2026-03-18 17:46 (수)\n\n- 모바일\n- 회원가입\n- 로그인\n\n이전 기사보기 다음 기사보기\n\n두나무, 플랫폼 경쟁력 강화…개발자 50명 채용\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n두나무는 12월 15일, 개발자 50명 채용을 하며 플랫폼 경쟁력 강화에 박차를 가한다고 밝혔다./사진=두나무\n\n[잡포스트] 손성창 기자=디지털자산 거래소 업비트를 운영하는 두나무는 2026년 1월까지 개발자 50명 이",
+          "score": 0,
+          "published_date": "2025-12-16T00:00:00.000Z"
+        }
+      ]
     }
-  ],
-  "data": {
-    "naver_blog": [
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
-        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
-        "link": "https://blog.naver.com/ytjoo88/224215031143",
-        "pub_date": "20260313"
-      },
-      {
-        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
-        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
-        "link": "https://blog.naver.com/ve_getable/224210299768",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
-        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
-        "link": "https://blog.naver.com/label3548/224210103873",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
-        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
-        "link": "https://blog.naver.com/fusekimo198735/224209926005",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
-        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
-        "link": "https://blog.naver.com/ve_getable/224207830667",
-        "pub_date": "20260307"
-      },
-      {
-        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
-        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
-        "link": "https://blog.naver.com/magicpaul7/224204238038",
-        "pub_date": "20260304"
-      },
-      {
-        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
-        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
-        "link": "https://blog.naver.com/serohero/224199063326",
-        "pub_date": "20260228"
-      },
-      {
-        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
-        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
-        "link": "https://blog.naver.com/jobpass_/224197697044",
-        "pub_date": "20260227"
-      },
-      {
-        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
-        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
-        "link": "https://blog.naver.com/study_edu_/224193834977",
-        "pub_date": "20260224"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      },
-      {
-        "title": "상승세 탄 국내 증시",
-        "description": "꺾이고 두나무 합병 불확실…네이버 주가 시험대 국가대표 AI 1차 심사서 탈락 대주주 지분율 제한에... 인재 채용·기술 강화·조직 개편 등 속도 규제·인력 유출 우려 등 현실적 난관 우려도 인공지능(AI)... ",
-        "link": "http://cafe.naver.com/greenb0k6k/175852",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "이해진 'M&amp;A는 생존 위한 선택…AI·웹3로 글로벌 시장 도전'[네이버·두나무 비전 공개]",
-        "description": "침투해나간다는 전략이다. 송 회장은 “아직 초기 단계지만 AI와 블록체인 기술이 융합하는 방향으로 나아가고 있다”며 “각 사가 가진... 금융 사업으로의 확장도 암시했다. 네이버와 두나무는 AI와 웹3 관련...",
-        "link": "https://www.decenter.kr/NewsView/2H0M9KH6RW",
-        "pub_date": ""
-      },
-      {
-        "title": "[오늘의 CPNT] 카카오, '이프카카오'서 그룹 AI 비전 공개 外",
-        "description": "전체 AI 비전과 방향성을 공개하고 AI 메이트 서비스 '카나나' 출시를... 모바일 전략게임 '라스트워: 서바이벌'의 성공적인 한국 서비스를... 이번 신곡 '너와 이별하는 방법'은 NHN벅스가 음원 유통 사업 확대를...",
-        "link": "https://dealsite.co.kr/articles/129956",
-        "pub_date": ""
-      },
-      {
-        "title": "이해진 &quot;M&amp;A는 생존 위한 선택…AI·웹3로 글로벌 시장 도전&quot;[네이버·두나무 비전 공개]",
-        "description": "결제·AI·블록체인 풀라인업 구축 글로벌 시장서 경쟁할 체급 갖춰 지능형 금융 에이전트 서비스 출시 송치형 &quot;서클과도 경쟁해 볼 만해&quot; GPU·인재 양성에 과감한 투자도",
-        "link": "https://www.sedaily.com/article/14149033",
-        "pub_date": ""
-      },
-      {
-        "title": "이해진 &quot;M&amp;A는 생존 위한 선택···AI·웹3로 글로벌 시장 도전&quot;[네이버·두나무 비전 공개]",
-        "description": "침투해나간다는 전략이다. 송 회장은 “아직 초기 단계지만 AI와 블록체인 기술이 융합하는 방향으로 나아가고 있다”며 “각 사가 가진... 금융 사업으로의 확장도 암시했다. 네이버와 두나무는 AI와 웹3 관련...",
-        "link": "https://v.daum.net/v/20251127173915635",
-        "pub_date": ""
-      },
-      {
-        "title": "두나무, 新생존전략..NFT+AI+ESG",
-        "description": "■ NFT·메타버스 등 신사업으로 ‘웹3.0’ 선제 대응 이용자 중심 데이터 탈중화의 ‘웹3.0’ 시대가 도래할 것이라는 전망 속 두나무가 선제 대응에 힘을 쏟고 있다. 탈중앙화를 지원하는 핵심 기술인 블록체인을 바탕으로 출범한 두나무는 다양한 신사업에 주력하는 모습이다. 특히 대체불가토큰(NFT) 분야에서 성과를 내며 글로벌 영역을 확대하고 있다. 7일 업계에 따르면 두나...",
-        "link": "https://kpenews.com/View.aspx?No=2839191",
-        "pub_date": ""
-      },
-      {
-        "title": "카카오모빌리티, AI와 모빌리티의 융합으로 미래 비전 제시",
-        "description": "미래 비전으로 제시하며, '모빌리티 특화 생성형 AI 기술'로 AI 대전환 시대를 주도할 전략을 공개했습니다. 빠른 모빌리티 서비스를 위한... 돕는 방향으로 나아갈 것입니다. 카카오브레인 CEO의 차세대 언어모델...",
-        "link": "https://datamuseum.tistory.com/68",
-        "pub_date": ""
-      },
-      {
-        "title": "이해진 &quot;M&amp;A는 생존 위한 선택…AI·웹3로 글로벌 시장 도전&quot;[네이버·두나무 비전 공개] | SIGNAL",
-        "description": "결제·AI·블록체인 풀라인업 구축 글로벌 시장서 경쟁할 체급 갖춰 지능형 금융 에이전트 서비스 출시 송치형 &quot;서클과도 경쟁해 볼 만해&quot; GPU·인재 양성에 과감한 투자도",
-        "link": "https://signal.sedaily.com/article/14149033",
-        "pub_date": ""
-      },
-      {
-        "title": "네이버·두나무 초대형 기업 융합…AI·웹3 글로벌 패권 노린다",
-        "description": "사진=연합뉴스 네이버가 두나무와 손잡고 인공지능(AI)과 웹3 시장 공략에 본격 나선다. 두 기업의 기술·사업 역량을 한데 묶어 글로벌... 그는 “양사의 비전과 전략에 대해 시장과 이해관계자들이 충분히...",
-        "link": "https://www.hankyung.com/article/202511278890i",
-        "pub_date": ""
-      },
-      {
-        "title": "두나무의 우리금융지주 인수전 참여가 불러온 혁신의 물결",
-        "description": "두나무의 우리금융지주 인수전 참여가 불러온 혁신의 물결, 막강한 자금력 앞세운 스타트업들, 전략적 M&amp;A 주도 한국 산업 전체가 존속적 혁신보다 파괴적 혁신 시도해야 음병찬 &lt;아르밀라 AI 공동창업자·스탯(STAT) 사업전략고문&gt;",
-        "link": "https://www.hankyung.com/article/202111046544g",
-        "pub_date": ""
-      },
-      {
-        "title": "네이버·두나무 초대형 '기업 융합'…&quot;AI·웹3 글로벌 패권 노린다&quot;",
-        "description": "네이버가 두나무와 손잡고 인공지능(AI)과 웹3 시장 공략에 본격 나선다. 두 기업의 기술·사업 역량을 한데 묶어 글로벌 디지털 금융·AI... 그는 “양사의 비전과 전략에 대해 시장과 이해관계자들이 충분히...",
-        "link": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=202511278890i",
-        "pub_date": ""
-      }
-    ],
-    "company_name": "두나무 주식회사",
-    "company_name_eng": "Dunamu Inc.",
-    "stock_name": "두나무",
-    "ceo": "오경석",
-    "address": "서울특별시 서초구 강남대로 369 (서초동, 디에프타워) 8층, 12층, 15층, 17층, 18층",
-    "industry_code": "63",
-    "established": "20120403",
-    "homepage": "www.dunamu.com",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "brave_web_results": [
-      {
-        "title": "채용공고 | 두나무",
-        "url": "https://www.dunamu.com/careers/jobs",
-        "description": "두나무 소개서비스IR뉴스룸 채용 ESG 경영투자자보호센터-UDC- KORENG · 두나무 소개비전기업정보 · 서비스블록체인증권 · IR공고공시 · 뉴스룸보도자료 · 채용 두나무 이야기채용공고 · ESG 경영ESG 경영리 ·"
-      },
-      {
-        "title": "두나무 채용 | 디지털자산리서치팀 ...",
-        "url": "https://www.superookie.com/jobs/657adfd18b129f049d398cb0",
-        "description": "우리는 또한 끊임없이 변화하는 세상에 빠르게 적응하고 연결되기 위해 노력합니다. <strong>혁신적인 디자인, 아이코닉한 풋웨어과 의류들, 그리고 진정한 파트너십을 통해 우리는 항상 스포츠와 문화 영역을 선도하고자 합니다</strong>."
-      },
-      {
-        "title": "두나무㈜ 진행 중인 채용정보 총 0건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/44304413/recruit",
-        "description": "* 최근 3년 이내, 최대 100개의 채용정보를 확인할 수 있습니다. * 최근 1년 이내의 공고에 대해서만 상세 내용을 확인 할 수 있습니다. ... (주)엘지씨엔에스 두나무(주) 한국마이크로소프트(유) 델인터내셔널(주) 씨제이올리브네트웍스(주) (주)케이티디에스 (주)에티버스 (주)신세계아이앤씨 한국지능정보사회진흥원 (주)디비아이엔씨"
-      },
-      {
-        "title": "두나무그룹 채용공고 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/GroupRecruit/36N",
-        "description": "신입/경력 기획/전략/경영, 사무/총무/법무, 세무/회계/CPA, 재무/세무/IR, 화학/에너지/환경 ... 회사소개 캐치 이용가이드 이용약관 개인정보처리방침 채용공고 등록 채용광고 상품 안내 고객센터"
-      },
-      {
-        "title": "두나무 수시채용 합격 후기 | Yoon Sung's Blog",
-        "url": "https://unluckyjung.github.io/recruit_story/2022/03/22/Dunamu/",
-        "description": "당시 저는 서비스 회사 기준 5개의 회사 채용프로세스를 동시에 진행하고 있었고, 솔직히 말해서 이전까지는 이 5개의 회사중 두나무가 1순위 선호도의 회사가 아니었으나, 면접 이후 마음속 1순위가 되었습니다."
-      },
-      {
-        "title": "두나무(주) 2026년 기업정보 | 기업리뷰 101건, 연봉정보 76건, 면접후기 109건, 복지정보 16건, 채용공고 0건",
-        "url": "https://www.jobplanet.co.kr/companies/308146/landing/%EB%91%90%EB%82%98%EB%AC%B4",
-        "description": "두나무(주) 기업정보 - 산업: 기타 IT/웹/통신, 기업형태: 대기업, 사원수: -, 설립: 2012.04.03 | 두나무(주)의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
-      },
-      {
-        "title": "블라인드 | 두나무 기업정보",
-        "url": "https://www.teamblind.com/kr/company/%EB%91%90%EB%82%98%EB%AC%B4",
-        "description": "채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
-      },
-      {
-        "title": "두나무(업비트/증권플러스) 기업정보 - 채용 7건, 평균연봉 11,176만원, 인원 633명, 업력 14년, 서울 강남구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/384",
-        "description": "두나무(업비트/증권플러스) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "두나무 이야기 | 두나무",
-        "url": "https://www.dunamu.com/careers/story",
-        "description": "두나무 소개서비스IR뉴스룸 채용 ESG 경영투자자보호센터-UDC- KORENG · 두나무 소개비전기업정보 · 서비스블록체인증권 · IR공고공시 · 뉴스룸보도자료 · 채용 두나무 이야기채용공고 · ESG 경영ESG 경영윤리 ·"
-      },
-      {
-        "title": "[두나무(업비트/증권플러스) 채용] Junior DevOps Engineer 채용",
-        "url": "https://www.incu-career.kr/7e6cdcc0-2365-428c-b4c9-689c049ea446",
-        "description": "신입/주니어 채용공고 분석 · 부트캠프 / 국비교육 / 유용한 이야기 · 이력서X모의면접 부트캠프 · 인큐커리어 X 제휴 과정 · Duplicate · Share"
-      }
-    ],
-    "google_news": [
-      {
-        "title": "네이버·카카오 주총 '임박'...AI 수익화·경영 전략 시험대 - 테크M",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KdjFIajFEc3NKZ3A0Skp4eEl4VkxoTm5QTnFMWldVWE5wckc2R3JJSmw4RVBmeElBbHp1X1dVSEhDTm1NS3lScEloSWoydGoyYkU1YTNqV1N0ZUQtZWhlVzRwOWdsQdIBakFVX3lxTE9DYlpmRHpCVDczX0lDNm1BMlNqN2ZmSWIxUHlJNlZSUzdZQ1l3Q0dKNWhWelNmOTNteVhMbmJuaXBUZ3JNUGpIZldjUUFPUWlYa2JNZXlxdmFzUmh5RUkxcnctLXZyNU1fMFE?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 04:49:31 GMT",
-        "source": "테크M"
-      },
-      {
-        "title": "[업비트 왕관의 무게] 네이버와 '혈맹'… AI·블록체인 품은 핀테크 공룡 예고 - 딜사이트",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WemdJVlFmT181U1d1OTlReWJwdlBvVXRxQ1lNMFBxUFdGV3QwbmtFOTd4SmFEZ29IQWp2U3dzWlBjb2ktR2FIb1hOS1hfbFk?oc=5",
-        "pub_date": "Fri, 23 Jan 2026 08:00:00 GMT",
-        "source": "딜사이트"
-      },
-      {
-        "title": "두나무, ‘AI 퍼스트’ 전략 가속…개발자 비서부터 뉴스 요약까지 서비스 고도화 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5c3VtRmpIVFpDd0hQeU5VakhEWjRoVXBHR2JyM3dNbXpkZU5zWk12SEF1b1Z0dXdJZGc5bWtzbDJ4bnI5RTIyamtVcGQwYlRTOXc?oc=5",
-        "pub_date": "Thu, 18 Dec 2025 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "네이버+두나무, 코인베이스式 금융 플랫폼 동맹 통할까 - 디지털투데이",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01cVhGRTktcDloTzRmZzg1ekZuNHM0VGRhMTJLMjFOR2FvM3VmX1pwQkt1N3F2TVNaaDVMTzR4OWdLeFgzR1IxOFI2cGRmbXJhbTV0QVpsaUw4Y1l4eEZFeDRtSExJeHRwbUZyQTItQm9pMGM?oc=5",
-        "pub_date": "Sun, 30 Nov 2025 08:00:00 GMT",
-        "source": "디지털투데이"
-      },
-      {
-        "title": "두나무, 업비트 법인 서비스 확장 맞춰 개발자 충원 - 디일렉",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UNlRSU0hkTDBPemVlODc3RmZ6cXVveVhPb1FDRlRzZTA4QnZ4dzdJeDhGcW9PSEp1MHYzSTZxc3ltblIybjVlMFVpbFB3VjM2bXBZekhiYTJucU9kb3BmYko3bGhPZw?oc=5",
-        "pub_date": "Mon, 15 Dec 2025 08:00:00 GMT",
-        "source": "디일렉"
-      },
-      {
-        "title": "네이버·두나무 ‘20조 빅딜’ 카운트다운… 디지털금융 판도 바뀐다 - 오늘경제",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44S05lWWtBTjJON3l2QUtQMWRxZGVRU2pMSTVyaFhKdlRqdzlNMGEwLWxfU3JsbVFpWTdyVk9nbzVxREx4UG5SaGNQV1ZXMlc1eHhuaW5aZ2hLY2ZKY0RZbHJraWlTS3pQUjd4dlZjdk9TLVE?oc=5",
-        "pub_date": "Fri, 21 Nov 2025 08:00:00 GMT",
-        "source": "오늘경제"
-      },
-      {
-        "title": "\"명품시계 넘어 대체투자 플랫폼으로\"…바이버, 신임 CSO 영입 - 유니콘팩토리",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBibUVjZWtTMEoycjZUY0FSOHhZa2prZXBWYzRYYXZDeHNzUUJCcFZqY0s4NkVSRFFYMnZFYnJYejBLVzBZcFJjMTkxZ0h1U2oxSFBCMTAwSXZ4bEdEMUpORmM1NDFfZzN0X0loVg?oc=5",
-        "pub_date": "Mon, 19 Jan 2026 08:00:00 GMT",
-        "source": "유니콘팩토리"
-      },
-      {
-        "title": "[현장] 두나무, ‘20조 핀테크 공룡’ 의결권 네이버 위임…10조 투자·AI·웹3 결합 - 파이낸셜투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rc0dzR05lQ2NXR2NRQWI2R1RjaDlZQ3QwNWZTdVFLRmFrakZiQTBLRGFXRTZaUWt5Wi1IZVlWcEw1X0FsV05iVDRkRFMyb1I1cUNpMVl3dy1XXzRkaHdZbzZiTXdUSHNKLUHSAW5BVV95cUxOZ29HRFRxUzM1S0p2dVpfNXdGQ3JicnFzSEtrY0xreElmZDB0TE5MOXp0WlFZRnFkT2JLTkpNLXRIeW8xYTBCbTZCQjNzUEh6NzB6VUR3STk5R3p3a090RVc5eEtYeF9mWVE5TExEdw?oc=5",
-        "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
-        "source": "파이낸셜투데이"
-      },
-      {
-        "title": "두나무, ‘디지털 치유정원 공모전’ 시상식…빗썸, ‘2025 SBS 가요대전’ 스페셜 투표 이벤트 [가상자산오늘] - 시사오늘",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04UG01SDBQUk5sVjF1WkVqTHFjYjVXZlE4b2ZLbXZfR1N6Y2VWV0tqNDAzNEhERFdNOUxiUGpuMzhxejZRNWtjLXBKNjlhX1RKYkRRX0FacGVjU3JpT1RLbXR4QnF0UlYwM1E?oc=5",
-        "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "source": "시사오늘"
-      },
-      {
-        "title": "이해진, 두나무 합병·AI 로드맵 직접 설명한다 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Kb3ZMS3owRlEyOElVcW9FdFF4d1Q5alRkQUZPSDZPMVB2dTV5X3RmeWc5SWc0YjN6SWNoTjhhNUdFMGdXTlRONHRSOGxwWjJwYm5QeDE1dW9SZlHSAWBBVV95cUxQdXdEUmZEY1o0OExxaGxjZVBLbzlxWTI3ZXV5NjMyQ1diTFpYRE05eXdUdkliTGIwVFBkeGN6SnJOS2hBN1FGYTVwWFF1LVJGZ2VNYTgzSDdwMzRjMS1WSDM?oc=5",
-        "pub_date": "Tue, 25 Nov 2025 08:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "네이버, 가상화폐도 품어… 20조 ‘핀테크 공룡’ 탄생 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMjRtMm9QamotNWZwVHM2N1Fqak5SSUJ0cDRQOW9tR3poN3NoNkx6a0E3MkdrOTNWYWl3blk4TTIwTWJQekxGV1hFUkRnMEY3d2g1SFktUW9mQmxlSExGVE0zMklONkh0NHQ5T09Bdnc2ekVzSWswSmxvMXN6LXVzaHdIVdIBlwFBVV95cUxPTkhQbGdWN1BHNGxSV1Z3U3N1OUlWajNBT05ERmkxVUtQMHVad3FPc29yMVVKMm5Mc0RjYUN0NEM5ZG1XZkJtM245OVM2OFVkRUpneGhoMUh6cWlIZFN5bzVrcDR4aWZVRWR3dlppb19pQ0lIbzVQNmxBYkRhZ09ScTJVeExGZ0QyUHNHblFvUklKdF9WS2dn?oc=5",
-        "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
-        "source": "조선일보"
-      },
-      {
-        "title": "두나무·빗썸, 나란히 1250억 썼지만…'내실' vs '공세' 엇갈린 전략 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02b21YOVpEazZJUEZZZFZmU3pXNk9BSjlPZnp5azlYNUM4b0ZQSnducTdMSk8yRWFaYlZYZGRqNi03ZkQxUjlNdk5QSkdyZw?oc=5",
-        "pub_date": "Tue, 18 Nov 2025 08:00:00 GMT",
-        "source": "전자신문"
-      },
-      {
-        "title": "네이버-두나무 `빅딜`, AI 데이터 패권 겨냥한 전략적 결합 [IT클로즈업] - 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kMzgwRm5jUVI0X2E2QnFDQWJjSl9hWXRqdUFfQ1BHRDZURDFDOTZKY3licE1udXNQeWFfR2JMNW5OcW52UWxBY2hOYjJhTGlQMTBacVNmc0RIYmkxcWdWUzF3?oc=5",
-        "pub_date": "Mon, 06 Oct 2025 07:00:00 GMT",
-        "source": "디지털데일리"
-      },
-      {
-        "title": "네이버, 두나무 전격 인수…웹3·AI 기반 '글로벌 디지털금융' 진출 본격화 - 스페셜경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kUko5clA0Zi1HbkJNUlR1OXdZUHhwN2FySF9WanR5SkFvdVZsUEVhLVY3RVl2RWliNUszcThqNUZ2SFRnb0V1UmRmVkt3Vjd4M0w5Rm5LZ2ozWjNiekdhWmFMTTR4eHN3MjIxaw?oc=5",
-        "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
-        "source": "스페셜경제"
-      },
-      {
-        "title": "네이버 앞세워 사세 확장 나선 업비트...코인 투자 저변 넓힌다 - 테크M",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLWEVhMC1CRDNadk85YWxicjRTNnZHX3JNcFJOdnZwazVzWENMSFZDelFqVTRleXRUMU9DeGpnTVViVTZRMVdnelNPMF9HeWNTWS1JdTAwSFN0aWZxWmQzcEs0SVJhUdIBakFVX3lxTFBjMWNILXQ4MEpmRzVMTkRjOFlmbG41SGJOV3I4STBaV1F4YTAyLWh2RlgzaDRWWFVyVzNSVHVnakMtVDlWV1B6b0VOSDJnNGxsc0ZaME9VLXdrMzlMZUVRU3FvWVpmb2lwMWc?oc=5",
-        "pub_date": "Fri, 02 Jan 2026 08:00:00 GMT",
-        "source": "테크M"
-      },
-      {
-        "title": "두나무·빗썸 사업보고서 공개 임박…거래 위축 속 법인 유치 경쟁 - 이투데이",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KeHpUVmJSVWNCSnVEQVdHdGgyZUdaWGdOWjFzUHZjWjYzSkVoMWk3bkZjUS10aDdxNlhUU2ZTX1JNOU5hdkJISC14Q1hXSFB3dU1TNw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 04:51:00 GMT",
-        "source": "이투데이"
-      },
-      {
-        "title": "두나무, 올해 상반기 영업이익 5491억원...전년 대비 11% 상승 - 디일렉",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1DMnE0UEl6RUpremVaLUN4aWdaRWdQaFp3QVBXRjNFaXc0YTlyOVJnRzBtX2pnN05KVUgwWDFza0wtOXcyem02dnBfU0l4S2dZZ0tGOWJueWR1b1Nad05GWjdYWEZvdw?oc=5",
-        "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
-        "source": "디일렉"
-      },
-      {
-        "title": "두나무, 업비트 넘어 실물경제 연계 투자 성과 가시화 - 딜사이트",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MREpGbWhORXU5X2JzVDg5OUJVY2tvOG05NTBSMTVEZzByYlFLNEtVVGlHVTZUNmo1VkdXYzhOc2VBTzlfN3M4SjFvc1pxVHM?oc=5",
-        "pub_date": "Fri, 26 Dec 2025 08:00:00 GMT",
-        "source": "딜사이트"
-      },
-      {
-        "title": "두나무·빗썸, 3분기 실적 나란히 껑충…비트코인 등 보유 가상자산 호황 ‘반사이익’ - 시사오늘",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qQUZ2NFNLTmhxZUoxdWJ3VWZHaDJRTUxOZnZobm45M0xURUh1X0Y3TW0yUnhLT0NfdjZmNEh4LVQ0dWFVN2JiaVExb1ZncEIwaHpacEtMRXNTYW9oeWNMUDRua3prWUNEYm9j?oc=5",
-        "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
-        "source": "시사오늘"
-      },
-      {
-        "title": "신한투자증권 \"네이버, 두나무 합병 기존 사업과의 시너지 제한적\" - 글로벌이코노믹",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0prcDczd0NobVlzbkpKYXYxSzNlaUZ5UEFkcG15QV9oeGdzb2QtcThsZ2FJdXItLW05ak5GZzRob0NmMzJLbEI5dHh4cTI0ano4Uzc2REM2akRoNldNNjFPb01oVC1lMVVCd2t0ZC1JbzVqWmNQMVdHTnprZXRjVjJMUUNsOW9J?oc=5",
-        "pub_date": "Mon, 20 Oct 2025 07:00:00 GMT",
-        "source": "글로벌이코노믹"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "채용공고 | 두나무",
-        "url": "https://dunamu.com/careers/jobs",
-        "text": "채용공고 | 두나무\n\n채용\n\n함께 만드는 더 가치있는 미래\n\n채용공고\n\n두나무 이야기 채용공고\n\n### 새로운 미래를 만드는 여정에 함께할 최고의 동료를 찾습니다\n\n채용 프로세스는 상황 및 일정에 따라 변경될 수 있습니다.\n\n전형 중 경력자에 한하여 레퍼런스체크가 진행될 수 있으며, 지원자의 사전 동의를 받고 진행됩니다.\n\n전체(undefined)\n\n전체()\n\n- 일반직군 인재풀Talent Pool\n- 개발직군 인재풀Talent Pool\n- 개인신용정보보호 변호사Security\n- [신사업",
-        "score": 0,
-        "published_date": "2021-07-26T00:00:00.000Z"
-      },
-      {
-        "title": "두나무를 만드는 사람들의 이야기 | 두나무",
-        "url": "https://www.dunamu.com/careers/jobs/1064?category=people",
-        "text": "두나무를 만드는 사람들의 이야기 | 두나무\n\n채용\n\n함께 만드는 더 가치있는 미래\n\n채용공고\n\n두나무 이야기 채용공고\n\n### 새로운 미래를 만드는 여정에 함께할 최고의 동료를 찾습니다\n\n두나무를 만드는 사람들의 이야기\n\n2024.11.22\n\n##### “두나무에선 최대한의 역량을 발휘해 더 큰 성장을 할 수 있어요” - 두나무 서비스 개발자\n\n---\n\n첫 만남\n\n제가 처음 입사했을 당시엔 블록체인이라는 산업 분야는 정말 미지의 세계였어요. 그때부터 지금까지 우리가 실제 사용하는 재화를 디지털화하고, 거래하고, 그리고 또 우리가 실생활에 이용할 수 있는 모든 것들을 블록체인화 할 수 있는 개발 업무들을 맡아 진행하면서 단순히 일을 한다는 개념을 넘어서 제 스스로가 사회에 기여할 수 있는 일을 하고 있다는 느낌을 받고 있어요.\n\n여정\n\n저는 개발",
-        "score": 0,
-        "published_date": "2023-09-05T00:00:00.000Z"
-      },
-      {
-        "title": "블라인드 | 이직·커리어: 두나무 비개발 처우가 어떤지 궁금해요!",
-        "url": "https://www.teamblind.com/kr/post/%EB%91%90%EB%82%98%EB%AC%B4-%EB%B9%84%EA%B0%9C%EB%B0%9C-%EC%B2%98%EC%9A%B0%EA%B0%80-%EC%96%B4%EB%96%A4%EC%A7%80-%EA%B6%81%EA%B8%88%ED%95%B4%EC%9A%94-6NiuYa6y",
-        "text": "블라인드 | 이직·커리어: 두나무 비개발 처우가 어떤지 궁금해요!\n\n블라인드 기업서비스\n\n# 채널이직·커리어 · 팔로우\n\n## 두나무 비개발 처우가 어떤지 궁금해요!\n\n국민은행· i*********\n\n조회수1,678 댓글14\n\n북마크\n\n- 퍼가기\n- 링크복사\n\n메뉴 더보기\n\n안녕하세요 갓 두나무 성님들~전 1금융권 대리급이고 8년차 정도됩니다.원천은 영끌로 1억정도되고, 데이터 및 플랫폼 기확 및 운영 경험은 있어서 지원해보려고합니다.1. 3개월 수습기간에 일 못하면 잘리나요?2. 계약연봉은 어느정도 수준일까요?3. 학벌 많이 보나요??4. 정규직되면 고용 안정성은 어느정도 보장될까요?5. 거기도 초창기 멤버 진공 성골 등 뭔가 모르는 벽이 있을까요?6. 일 있어서 야근하는건 괜찮은데,",
-        "score": 0,
-        "published_date": "2024-06-08T00:00:00.000Z"
-      },
-      {
-        "title": "",
-        "url": "https://teamblind.com/kr/company/%EB%91%90%EB%82%98%EB%AC%B4/review/XcY5BLEv9",
-        "text": "블라인드 | 두나무Reviews - &quot;기대가 되는회사이지만계약연봉은짠편&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인두나무\n두나무*Rating Score*4.3*(398개 리뷰)*\n이회사리뷰하기두나무은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*4*커리어 향상*3*업무와 삶의균형*4*급여 및복지*3*사내 문화*3*경영진\n*View detailed rating*\n# “기대가되는회사이지만계약연봉은짠편”***V",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "",
-        "url": "https://teamblind.com/kr/company/%EB%91%90%EB%82%98%EB%AC%B4/review/DvfUr4zhm",
-        "text": "블라인드 | 두나무Reviews - &quot;괜찮은 회사&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인두나무\n두나무*Rating Score*4.3*(398개 리뷰)*\n이회사리뷰하기두나무은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*4.0**\n*3*커리어 향상*3*업무와 삶의균형*4*급여 및복지*4*사내 문화*3*경영진\n*View detailed rating*\n# “괜찮은회사”***Verified User*현직원**· f\\*\\",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "[아침밥] 유진증권 \"네이버 커머스·AI·두나무가 2026년 성장 견인\" - 동행미디어 시대",
-        "url": "https://www.moneys.co.kr/article/2026011207571930813",
-        "text": "[아침밥] 유진증권 \"네이버 커머스·AI·두나무가 2026년 성장 견인\" - 동행미디어 시대\n\n# [아침밥] 유진증권 \"네이버 커머스·AI·두나무가 2026년 성장 견인\"\n\n## 목표 주가 34만원… \"커머스 광고와 두나무의 재무적 기여 기대\"\n\n이동영 기자\n\n3,561\n\n## 편집자주\n\n머니S 증권 전문 기자들이 매일 아침 쏟아지는 증권사 리포트 중에서 가장 알찬 리포트의 핵심을 요약해 제공하는 '아침밥'을 통해 든든하게 성공 투자를 시작하세요.\n\n- 0\n\n| 유진투자증권이 네이버 성장을 커머스와 두나무가 이끌 것으로 기대했다. 사진은 경기도 성남시 네이버 사옥. /사진=뉴스1 |\n| --- |\n\n유진투자증권이 네이버의 2026년 성장을 상반기는 커머스와 AI가 하반기는 두나무가 이끌 것으로 내다봤다. 투자 의견은 '매수'를 유지하고 목표 주가는 34만원을 제시했다.12일 유진증권은 네이버의 2025년 4분기 예상 실적으로 매출액은 전년 동기 대비 12% 증가한 3조2200억원을 ",
-        "score": 0,
-        "published_date": "2026-01-12T00:00:00.000Z"
-      },
-      {
-        "title": "[현장] 팀네이버·두나무, 한가족 된다…AI·웹3 융합해 5년 10조 투자",
-        "url": "https://www.thevaluenews.co.kr/news/194396",
-        "text": "[현장] 팀네이버·두나무, 한가족 된다…AI·웹3 융합해 5년 10조 투자\n\n- 로그인\n- 회원가입\n\nUpdate2026.02.12(목)\n\n전체뉴스\n\n금융\n\n- 핀테크·디지털금융\n- 저축은행·상호금융\n- [카드·캐피탈](https://",
-        "score": 0,
-        "published_date": "2025-11-27T00:00:00.000Z"
-      },
-      {
-        "title": "[투코현장] 네이버·두나무 “글로벌 경쟁 위해 AI·웹3 결합 필요···5년 간 10조원 투자 계획” < 투코현장 < 기사본문 - 투데이코리아",
-        "url": "http://todaykorea.co.kr/news/articleView.html?idxno=337099",
-        "text": "[투코현장] 네이버·두나무 “글로벌 경쟁 위해 AI·웹3 결합 필요···5년 간 10조원 투자 계획”\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n[투코현장] 네이버·두나무 “글로벌 경쟁 위해 AI·웹3 결합 필요···5년 간 10조원 투자 계획”\n\n바로가기 바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n0\n\n본문 글씨 키우기 본문 글씨 줄이기 바로가기 복사하기\n\n김준혁 기자 news1@todaykorea.co.kr 기자페이지\n\n▲ 27일 경기도 성남시 네이버 1784에서 진행된 네이버-네이버파이낸셜-두나무 3사 공동 기자간담회에서 3사 경영진들이 발표를 진행하고 있다. (왼쪽부터) 박상진 Npay 대표, 최수",
-        "score": 0,
-        "published_date": "2025-11-27T00:00:00.000Z"
-      },
-      {
-        "title": "네이버·두나무, AI·웹3로 글로벌 향해 '세상에 없던 도전'(종합) - 뉴스1",
-        "url": "http://www.news1.kr/it-science/general-it/5990224",
-        "text": "네이버·두나무, AI·웹3로 글로벌 향해 '세상에 없던 도전'(종합) - 뉴스1\n\n가\n\n# 네이버·두나무, AI·웹3로 글로벌 향해 '세상에 없던 도전'(종합)\n\n업데이트 2025.11.27 오후 02:39\n\n가\n\n## 이해진·송치형 등 네이버·두나무 주요 경영진 총출동\"AI·웹3 거대한 파도…5년간 10조원 투자해 경쟁력 확보\"\n\n27일 오전 경기 성남시 분당구 네이버 사옥 1784에서 네이버·네이버파이낸셜과 두나무가 글로벌 진출 비전을 설명하는 공동 기자간담회를 열었다. 전날에는 각각 이사회를 열고 네이버파이낸셜과 두나무의 포괄적 주식 교환을 통해 두나무를 네이버 계열로 편입하는 안을 의결했다. 사진은 이날 공동 기자회견이 열린 경기 성남시 분당구 네이버 1784의 모습. 2025.11.27/뉴스1 ⓒ News1 김영운 기자\n\n27일 경기도 성남시에 위치한 네이버 1784에서 진행된 네이버-네이버파이낸셜-두나무 3사 공동 기자간담회에서 3사 경영진들이 발표를 진행하고 있다. 왼쪽",
-        "score": 0,
-        "published_date": "2025-11-27T00:00:00.000Z"
-      },
-      {
-        "title": "네이버·두나무, AI·웹3 시너지로 글로벌 공략…5년간 10조원 투자",
-        "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03024166642369984",
-        "text": "네이버·두나무, AI·웹3 시너지로 글로벌 공략…5년간 10조원 투자\n\n실시간뉴스\n\n'손메 대전'서 웃은 손흥민\n\n[[생생확대경]1326만명 코인 과세 ‘날벼락’ 없어야]\n\n\"EU·日과 보조 맞춰 협상…대미투자는 합의대로 진행해야\"\n\n[아침 기온 영하권으로 다시 '뚝'…전국 ",
-        "score": 0,
-        "published_date": "2025-11-27T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "Backend Engineer_증권플러스 백엔드 개발 | 두나무",
-        "url": "https://www.dunamu.com/careers/jobs/1630",
-        "text": "Backend Engineer_증권플러스 백엔드 개발 | 두나무\n\n채용\n\n함께 만드는 더 가치있는 미래\n\n채용공고\n\n두나무 이야기 채용공고\n\n### 새로운 미래를 만드는 여정에 함께할 최고의 동료를 찾습니다\n\nBackend Engineer_증권플러스 백엔드 개발\n\n2026.02.11\n\n조직소개\n\n우리 조직은 자산 전반을 아우르는 가치를 제공하는 증권플러스의 백엔드 개발을 담당합니다. 증권플러스는 사용자 중심의 제품 철학을 기반으로 고객에게 더 나은 투자 환경과 투자 판단에 도움이 되는 정보를 제공하기 위해 노력합니다. 금융 도메인의 높은 보안 수준과 원칙을 이해하고 이를 준수하면서도 서비스의 유연함과 생산성을 잃지 않기 위해 치열하게 고민합니다.\n\n우리 조직은 다음과 같이 일합니다.\n\n- 금융 규제와 컴플라이언스 요건을 '제약' 만이 아닌 '기",
-        "score": 0,
-        "published_date": "2026-02-11T00:00:00.000Z"
-      },
-      {
-        "title": "GitHub - TEAM-DAWM/SHELLIN-SERVER: 서버 둘2 조조2",
-        "url": "https://github.com/team-dawm/shellin-server",
-        "text": "# Repository: TEAM-DAWM/SHELLIN-SERVER\n\n서버 둘2 조조2\n\n- Stars: 12\n- Forks: 0\n- Watchers: 12\n- Open issues: 2\n- Primary language: Java\n- Languages: Java (99.9%), Dockerfile (0.1%)\n- Default branch: develop\n- Created: 2024-06-26T11:51:50Z\n- Last push: 2025-03-31T14:29:53Z\n- Contributors: 2 (top: minwoo0419, choyeongju)\n\n---\n\n \n\n# 🌰 Nutshell 🌰\n\n \n \n ```\n[<Prefix>] #<Issue_Number> <Description>\n``````\n[feat]: 새로운 기능 구현 \n[fix]: 수정 \n[refac]: 내부 로직은 변경하지 않고 기존의 코드를 개선하는 리팩토링 \n[chore]: 패키지 구조 수정, 의존성 추가,",
-        "score": 0,
-        "published_date": "2024-06-26T00:00:00.000Z"
-      },
-      {
-        "title": "[AI 시대 새로운 엔지니어링 직업] Forward Deployed Engineer(FDE)",
-        "url": "https://blog.naver.com/beyond-zero/223947158231",
-        "text": "AI개발자 기술 블로그 : 네이버 블로그",
-        "score": 0,
-        "published_date": "2025-07-25T00:00:00.000Z"
-      },
-      {
-        "title": "MLOps Done Right: GitGuardian's Battle-Tested Open-Source Stack",
-        "url": "https://blog.gitguardian.com/open-source-mlops-stack/",
-        "text": "MLOps Done Right: GitGuardian's Battle-Tested Open-Source Stack\n\n#### Michaël Romagné\n\n| Michaël is a Machine Learning Engineer at GitGuardian, focused on integrating advanced NLP models into the platform and implementing MLOps best practices across the company. LinkedIn |\n| --- |\n\nToday's Machine Learning Engineers are no longer confined to experimental notebooks – they are architects of production-ready AI systems that dr",
-        "score": 0,
-        "published_date": "2024-11-27T00:00:00.000Z"
-      },
-      {
-        "title": "[뉴스] 두나무 머신러닝, 국제 학회부터 서비스 적용까지…AI 기반 플랫폼 고도화 | 두나무",
-        "url": "https://www.dunamu.com/news/1592",
-        "text": "[뉴스] 두나무 머신러닝, 국제 학회부터 서비스 적용까지…AI 기반 플랫폼 고도화 | 두나무\n\n뉴스룸\n\n가장 빠르고 정확한 두나무 소식을 전합니다\n\n### 다양한 활동과 새로운 소식을 전합니다\n\n[뉴스] 두나무 머신러닝, 국제 학회부터 서비스 적용까지…AI 기반 플랫폼 고도화\n\n2025.12.18\n\n- 업비트·증권플러스에 AI 기반 서비스 확대 적용\n\n- 콜링 2025·SIGIR 2025 논문 채택으로 AI 연구 성과\n\n[두나무=2025/12/18] 디지털자산 거래소 업비트를 운영하는 두나무(대표 오경석)가 2025년 한 해 동안 인공지능(AI) 분야에서 글로벌 연구 성과와 서비스 고도화를 동시에 이루며 기술 경쟁력을 강화했다.\n\n두나무 머신러닝(ML)팀은 1월 아랍에미리트 아부다비에서 열린 국제전산언어학술대회 ‘콜링 2025(COLING 2025)’ 메인 콘퍼런스에서 텍스트-SQL 변환 관련 연구 논문을 발표했다. 콜링은 자연어 처리(NLP)와 전산언어학 분야에서 세계적으로 권위 ",
-        "score": 0,
-        "published_date": "2025-12-17T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Sierra Leone chimp refuge shuts doors to tourists to protest deforestation - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVWZjeW1OTjdxX1FPbGRqX2JJMEFtb19DaHRXRUl3VnFndzdvYXhqV0pZZjhxQkJTWjh1WmZDRVFzaDVVOVhLVmtSQ1c4OVRFU2o3OXRzckpMZWhzdG1YdGVvR1pPR0dKUWFqWXI4LWVHSnNBTEQyWXJwTkJ2c3VNTDNGM0UwR25QSlJzelliOGhDY0FteDI4UmVlTEdBZ3FiTGVISlM3SGxtX3RaMlpwT3diT3RVZE1TWE45N0xoNnBoMlc5QllHOTJFN3BZWms?oc=5",
-        "pub_date": "Fri, 01 Aug 2025 07:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "How Argentina took a chainsaw to government, a year before Elon Musk's DOGE - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN3NRTXphSm9GUG1oenVlMFdIWlRXT1pzazYxRzZ3T0pYWmRlMHlhRXVpd0FwYWJackl0ZnRVYUpGa3lDamR4Q19ZV1ZiRlp1Q0NKN1FBNjgxWGFIc091UXFyNHV1ZDRRT2dvYWlyUV9IV0dOaWIzU3ROeEJ4eGhreWJtVG5CREdLdlotd2FnMElNanRoR3BNV2JhSkRucWNTQXl0cVFSSEFvZEVaS3Y2OGhaVVJZcjY5?oc=5",
-        "pub_date": "Wed, 12 Feb 2025 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Men jailed for felling Britain's iconic 'Sycamore Gap' tree - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFpqaUlzWHFYUi1fa0xZVmdfbW05TGJSdkFTQ2djTEEwRS1PMUVnZFAtc25pcGxtbzJxaGFSbWlUWGRsYU56NDZwQnIxS1czUElqbGU2YlhIY2kyX2JrMmROTkdoYjVyV3NoRGtfM1luakJONkxhRzZjbUlfalFKMTRTVnA2M24wVFZ0bVN0Z3FiSF9ET01Lb1Vwa0pkQQ?oc=5",
-        "pub_date": "Tue, 15 Jul 2025 07:00:00 GMT",
-        "source": "Reuters"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "두나무 증권플러스, '미국 주식 실시간 시세' 전 회원 무료 제공 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcDNrMF9ZeHh4YlFDMmdockV1TFkzY3FBOFA3a2ZtXzROMkpGd1I3UWlWZ0xtSWNnVXA1TWttZko1MUZSTkpZRnZmMkNlUlFORGdSYVA4SXh0V3dOelh0dE5YUVdzZDY1eVVLb3JGODEwY3I1T2dYbm96bVZEMDlQN2wxelRzUWc?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 01:43:29 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "두나무 증권플러스, '미국 주식 실시간 시세' 전 회원 무료 제공 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kb184aTFwTmgyNzhrVHBXZDVISU9YcndYQVNoNTZmd3FIY1lNWUhUd0lzVlNndlNLMkdsLU84NmxzSmNKZmtOWThrd2NUcDZKeThFMVR4QUNqQdIBVEFVX3lxTE9haEY4eGdPTUlvenVrQ0NENDEwNGZyV0VwS0RPZm9iN044R3V5RnJnOVBtcllRR2cxd0NmbGlCY3IyYVBfYm9VclctRjg1bkdQRHR1NA?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 01:43:29 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "네이버·미래에셋까지 흔드는 가상자산 2단계 법…쟁점 3가지 - 매거진한경",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EdnVqbUt0eXpWYXRVZG5hbHVKY1VkaUllQWkwNlh4ZHZpdFA1UlRQVThBakNzODVQUEZ2Q0FzaEc0Uk96Y0hwMFFIMkpfeE1tM01kaFlpYXdUV3ViT08xelQ3UVVWbWFncFFHSw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 21:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "금감원, 금융사에서 3535억원 걷는다… 작년보다 200억원 늘어 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUUkxdW9ma05OczA0QXRpYXJqVXNmR2R3WURZd2VTTHRVeGFuR19fTWJDcmRSdXF5aUFWTXdMb3pKMHZSVVAtbm5UcUpnaXR3MVNQUFVEZVVLMS1lSU1JY3laYWtUNzRkbVNqUVBLTFhCRlpNZUFXUlV2MEZVSWxGedIBlAFBVV95cUxQXzdkbUlUSHNmVFZyMDkzZG05R3dkYkoxczBpMTBUZWpDUTlpS1VyaXJtUnlOc2NZckNMNU5JSHpyMkpSXzhVdnFPTlN4YXpGRUFONlJIa3Z2Y3dsdmxCdWJMNWFBSFZybWlqMC0xTDI5T1BheVphWWZkTjhGbzVfUlhabHpZblNqMWtSSFd5dGNuM3Z2?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 03:56:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[강세 토픽] NFT(대체불가능토큰) 테마, 빌리언스 +16.43%, 폴라리스오피스 +14.93% - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORk92bWRZbXZFVnhxcktpNlhyZW1LcDRnU1dJUlZVV1VaazZwLWk3b0UtTlJaWDF4dUFSb2FabGFMTGhBUVhqanE1djZHWk1vMERMUWdTWlE5Nk5GN3E5SDlFT3JVcWJCUm9pWFNjU2w1VHZhQnRwam12LUtpRFF3eTk2c9IBlwFBVV95cUxQMXBUZllfVTlaOE9VUlplamI4dmJoMm1Mel9hc2x1TDkzV2NMdEV6eHk4LUN5SGZrbFM0bTN3Q19FcXBCbTVYN2ZSV1JXQzhQUjlQcnVvdURSTzJXYWdVWlQ2LXg2ZWtLcVAzUU41NGozZE1tUjJKYU9IRkJ2RnRBcGdpZlZEQ2RyTWhNLU5Sei1DTjMzZEZJ?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 03:21:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "미래에셋벤처투자, +7.73% 상승폭 확대 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeEo4MUIxWENIeTdGSWlNeXRjNk5GMnNHWnFXa2tuamNkdW5IelJIRVVwRU1UdjRvVTEzRFMtaDlmbFZfX3pURnpzUkZGTl9FWExSUnNJMHIza20yN3U4ME0yeUcySlR6SmlycjNRcktmR1hxZzYtTmJSNUdJN0VZRkY0ONIBlwFBVV95cUxQRTlrb1JCa01BalkxcmpxX3czZDhlWUxwcVN4Rk1Pb3NFaUFRUndtczhxS0dYT0xPOUtWVWVfa2gybEM3cWRXYmszMkhpbGNNZW01YThSVXAwakE1MDllRjkxRzdxejd0OHFod1RkQjZ5X3BibVVsd2M2SEsyb29yNzMtcXZVdWI1OVpIM2VUOE9kSVZJTXdB?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 01:16:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[속보] 두나무 대 네이버파이낸셜 교환가액 비율 1:2.54 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41eEFoR3BMNjBITFBTM1pHUWNWZHJ6b0lkeWIyNHpPSlFxdjYyZkdDc095NzlCd3p3NEpVQ2dnekMtVld5VFd1elloM3lUNVNr?oc=5",
-        "pub_date": "Wed, 26 Nov 2025 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "특징주, 코오롱-두나무(Dunamu) 테마 상승세에 5.37% ↑ - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GWlNHR0pjNkVnQnFYUTB4ZUdqazVNMXVaU3ZqTGx2amVOOXlvV1F3RllUdVVOejhicW5KeVFFcy1yMmNUTXJuWm9WbFpQSnZaQ2c?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 00:46:25 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[두나무주가] 검색결과 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbWxpUm9aMzVvYlRTay0zaUdGQ19EUzRzU0VDVzdJSkhUOFdNN29UVjVhY0VnQ3JWX2hlZDc4SDBmTTRoa2lYUHR1cGFlazVCWHRqaVpycF85dlJBaUlRdWcxNS1tNkNQZTdoLWo3VU1pTUFzZnRMTk1wYXhJZTBaTHJ5STM?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 14:00:50 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "람다256, '디지털자산 금융 인프라 포럼 2026' 개최 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IejFfN3dUTERpcFNXMXVJNnZSUHdSRDhSX0VwVldFMHVVNHBKUjJoMFFiYTlhM0V4Z0pFUUFsYlFvcW9LZFlCXy1HandVdHZXZlJGdnVn?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:20:53 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "FIU, '자금세탁방지 위반' 빗썸에 과태료 368억원 부과 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YV0RlVHhnQk9yeV90NlY1dmtKNmZIa1FnaGFmcVJOM3hLSFNrcFFCWnQ1b2Z4TE40T3g0N3RHdWM4T01KaG0zTlhkNmRrUUdfc3pVeGd3?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 10:10:17 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "최대 규모 과태료받은 빗썸, 소송갈까 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NYmZ0ZHBvdTZ6NE9EZHhCQzVlWU91VjJ2V2JqRldBQmJ0MHdhdndCanJaOEhiUlpmUDFLRTZ6V2wxN21YT1pRMGpnNkhZSEliNGNEVVZB?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 05:41:49 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "[네이버·두나무 빅딜] '공정위·투자자·입법' 삼중 변수 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNGxVTm9Vc2hnQk1RNVZURGcxd3ZaekRURC0wT242ZGpQMGJueGxfRHEyUkdYUXBIYnVqaVlxZG1xZ1EwVVpWeDNReC0tNW41UHlYQjVSazVlUHdTUENKdkZUTnFaMEZEV2wtMdIBbEFVX3lxTE1LNGxVTm9Vc2hnQk1RNVZURGcxd3ZaekRURC0wT242ZGpQMGJueGxfRHEyUkdYUXBIYnVqaVlxZG1xZ1EwVVpWeDNReC0tNW41UHlYQjVSazVlUHdTUENKdkZUTnFaMEZEV2wtMQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 07:24:43 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[어바웃 C] 차명훈, 3개월 만 단독 복귀…코인원 ‘속도경영’ 전환 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iTmROMEE1UmZYWUNTQ21zazU2VGVISEFnSTdMZVdvRm1tR1pwYTVPUHdZLVpkLXNqcWRvOTVRY1FqOXAwQWpCUTJqbGNRN3ZWb0l2YjBxbl82cmJ2aEZBNEM2NGZpTnRG0gFsQVVfeXFMUDhYUGdBdmlYYlA0SUJjTmcxd2VaVllHTVQ0QlJnYnpaYVh3SlBqa2duZEVSdXU5YlFhVk1uRWpCcEd1b2Z4YW9kWkRVQk9TOFh6TWxTZE9LUl9pbGR1TVhWaVJlU0JmRVA2b21C?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 07:51:44 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "법은 없고 시장만 뛴다…가상자산 2단계법 공회전에 업계 '속앓이' - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yb01zR0FUZGx5N2pTeUVMVTR3Ri13YlNPXzRLbUJhSHd4Zy0wRXM2ak5CVkZNdU1tcXFzOGRiOWR6MkVObGpYX1ZnTDR3NHl3VmQyaFpVVlYwclZLRHN3dkVFbk5UZEpo0gFsQVVfeXFMT3BEcHVhYVBTZENzYmR3cmNIS0VDVC04dlY4cHpOSS1xRjNpMHdDZzB3a2VONTQ4X0hJNUk3ejlGVllMbUw5SGdBSC1DUVRzN3BwZmlLMWQxcVpPNHRmSmhhcS1vSWRTM2g3MjEt?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 08:42:25 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "업비트 ‘두나무’, 네이버 품에 안긴다 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11cnEyTG05NWZMaUFHN3BJSk5UQmYyWUNBWWlXUktVZzBBdGZhbVJyREJ1NjlLSk5jeGNqSmNxclpfNjR4NVRFV2VnUUFVQzAwVDZj?oc=5",
-        "pub_date": "Thu, 25 Sep 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "네이버-두나무, 왜 ‘일등 연합’을 선택 했나 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBjanp1M3J2ZEl6Z0E0MG4wZUg5SU9KY1lGNGRmSVhrOVhUR1p6Vm5HT1c2dlNiZ1ZpMnVVVTc2eXoxX2t4MUcteHVtWVVvTmNxUlVIaA?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "두나무·하나금융 블록체인 협업…기와체인, 괜찮을까? - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BY0R1NjdpUi1ZS0tfRF95RlEtUHY4NmlBUTNiSHRZMGNiYndEQnF5NXhrNmpnMC02OGs1bnVVZGxLOGpTWHpFTTBfbDhGekU?oc=5",
-        "pub_date": "Fri, 05 Dec 2025 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  },
+  "scorecard": {
+    "total": 76.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "12 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=두나무"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01310241"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=두나무+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EB%91%90%EB%82%98%EB%AC%B4"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=두나무 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=두나무 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=두나무 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=두나무 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EB%91%90%EB%82%98%EB%AC%B4"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

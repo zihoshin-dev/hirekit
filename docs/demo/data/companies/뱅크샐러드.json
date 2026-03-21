@@ -1,734 +1,977 @@
 {
   "company": "뱅크샐러드",
-  "sources_used": [
-    "exa_search",
-    "google_news",
-    "dart",
-    "credible_news",
-    "brave_search",
-    "naver_search"
-  ],
-  "result_count": 12,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "data": {
-    "company_name": "주식회사 뱅크샐러드",
-    "company_name_eng": "Banksalad Co., Ltd.",
-    "stock_name": "뱅크샐러드",
-    "ceo": "김태훈",
-    "address": "서울특별시 마포구 마포대로 45 (도화동, 일진빌딩) 10층",
-    "industry_code": "66199",
-    "established": "20120702",
-    "homepage": "https://www.banksalad.com/",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "인턴 채용공고 및 일정, 연봉&amp;복지, 합격 자소서",
-        "description": "⛽GS칼텍스 2026 상반기 채용공고 보러가기 전형절차 전형절차는 서류 - 테스트(온라인) - AI면접 및... 정유석화 기업의 합격 자소서 또는 채용 후기가 궁금하시다면 댓글을 남겨주시면... ",
-        "link": "https://blog.naver.com/dufrhd202020/224220887656",
-        "pub_date": "20260318"
-      },
-      {
-        "title": "스웨덴 워홀 3월의 일상 (1)",
-        "description": "그치만 계좌 오픈은 2-3일 카드는 7일 정도 소요예정 그래서 뭐 할수 있는게 없지만 뱅크아디 로그인은... 했더니 ㄴㄴ 전화해 급하면 응급실가래… 속이 터진다 그렇게 뒤로하고 집으로 배고프니 샐러드... ",
-        "link": "https://blog.naver.com/sodooooong/224220423504",
-        "pub_date": "20260318"
-      },
-      {
-        "title": "[캠우리 7기] 이과생의 우리은행 대학생 홍보대사 합격후기... ",
-        "description": "(개인/기업금융)가 운명처럼 다가왔습니다. 결국 3학년이라는 늦은 시기에 과감히 진로를 변경하게... 12) ※ 서류 접수는 1월 7일 09시부터 1월 14일 18시까지 (기한 엄수 !!) ※ 서류를 합격하신 분들은 대면 면접... ",
-        "link": "https://blog.naver.com/gyo3437/224220353787",
-        "pub_date": "20260318"
-      },
-      {
-        "title": "50명, 자소서 이렇게 쓰면 붙습니다!! (기업분석+작성꿀팁 공유)",
-        "description": "합니다 (= 기업분석이 들어간 자소서만 합격합니다) [이스타항공 자소서 항목②] 고객의 기대를... 재방문, 칭찬, 후기 등)  면접관이 가장 중요하게 보는 부분 “그래서 이 지원자는 기내에서 바로 투입... ",
-        "link": "https://blog.naver.com/on_fly/224219727054",
-        "pub_date": "20260317"
-      },
-      {
-        "title": "최종 합격 후기 / 서류부터 면접까지 / 그냥 학생의 현실 팁",
-        "description": "서류 단계 특이하게 서류 지원이 우리 WON 뱅크에서 진행이 되며 저희 7기 서류에서는 3가지 질문이... 합격 후 면접관 분과 이야기를 나눌 기회가 있었는데 일단 말도 안 되는 오타나 실수를 한 글들을 제외를 한... ",
-        "link": "https://blog.naver.com/filmdream_on/224216374077",
-        "pub_date": "20260314"
-      },
-      {
-        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
-        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
-        "link": "https://blog.naver.com/ytjoo88/224215031143",
-        "pub_date": "20260313"
-      },
-      {
-        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
-        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
-        "link": "https://blog.naver.com/ve_getable/224210299768",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
-        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
-        "link": "https://blog.naver.com/label3548/224210103873",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
-        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
-        "link": "https://blog.naver.com/fusekimo198735/224209926005",
-        "pub_date": "20260309"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "충청남도보도자료20260320금요일",
-        "description": "19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자... 천안시 복지재단 ‘따숨푸드뱅크’에서 운영 중인 그냥드림 사업 현장을 방문해 추진 현황을 점검했다고... ",
-        "link": "http://cafe.naver.com/jungamironware/9239",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "뱅크샐러드, 핀테크 위크 2025 참가… 금융 AI 에이전트 비전 공개",
-        "description": "에이전트 비전을 선보인다. 뱅크샐러드 AI 에이전트는 이용자가 해결하고 싶은 금융 문제를 입력하면... 소상공인 AI 에이전트는 사업 데이터를 분석해 지출은 줄이고 매출은 극대화하는 맞춤형 AI 사업비서 역할을...",
-        "link": "https://www.etoday.co.kr/news/view/2529733",
-        "pub_date": ""
-      },
-      {
-        "title": "뱅크샐러드가 선보인 AI 에이전트 비전은? 2025 핀테크 위크로 돌아보기! | 뱅크샐러드",
-        "description": "시각화된 영상 필름으로 뱅크샐러드의 AI 에이전트 비전이 모든... ‘든든한 사업비서’, ‘영리한 소비’ 분야로 나누어 직접 체험해볼 수... 이러한 방향성으로 뱅크샐러드는 대출·보험·카드·자산 등 금융...",
-        "link": "https://blog.banksalad.com/pnc/fintechweek-2025/",
-        "pub_date": ""
-      },
-      {
-        "title": "뱅크샐러드, 핀테크 위크서 금융AI 에이전트 비전 공개",
-        "description": "에이전트 비전을 선보였다. 뱅크샐러드 AI 에이전트는 이용자가 해결하고 싶은 금융 문제를 입력하면... 소상공인 AI 에이전트는 사업 데이터를 분석해 지출은 줄이고 매출은 극대화하는 맞춤형 AI 사업비서...",
-        "link": "https://v.daum.net/v/20251126180148132",
-        "pub_date": ""
-      },
-      {
-        "title": "뱅크샐러드, 핀테크 위크서 금융AI 에이전트 비전 공개",
-        "description": "에이전트 비전을 선보였다. 뱅크샐러드 AI 에이전트는 이용자가 해결하고 싶은 금융 문제를 입력하면... 소상공인 AI 에이전트는 사업 데이터를 분석해 지출은 줄이고 매출은 극대화하는 맞춤형 AI 사업비서 역할을...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=04756006642369656",
-        "pub_date": ""
-      },
-      {
-        "title": "新 데이터 담론 제시한 '뱅크샐러드', 기술력 입증한 'My AI' 공개",
-        "description": "마이데이터 새로운 지향점 'My AI' 비전 제시 공급자 관점 데이터 활용 사용자 중심 전환 My AI 기반 자산관리 서비스 '토핑+' 최초 공개...&quot;1인 1AI 시대 열어나가겠다&quot;",
-        "link": "https://www.newswhoplus.com/news/articleView.html?idxno=13477",
-        "pub_date": ""
-      },
-      {
-        "title": "뱅크샐러드, 핀테크 위크 2025 참가… 금융 AI 에이전트 비전 공개",
-        "description": "에이전트 비전을 선보인다. 뱅크샐러드 AI 에이전트는 이용자가 해결하고 싶은 금융 문제를 입력하면... 소상공인 AI 에이전트는 사업 데이터를 분석해 지출은 줄이고 매출은 극대화하는 맞춤형 AI 사업비서 역할을...",
-        "link": "https://www.38.co.kr/html/news/?o=v&no=1860896",
-        "pub_date": ""
-      },
-      {
-        "title": "뱅크샐러드, 다이어트 유전자 데이터 공개…’이것’ 못 느끼는 사람 많아",
-        "description": "마이데이터 기업 뱅크샐러드(대표이사 김태훈)가 여름철을 맞아 다이어트 유전자 데이터를 분석했다. 뱅크샐러드는 대한민국 2030 다이어트 유전자 데이터를 9일 공개했다. 이번 데이터는 자사 앱을 통해 유전자...",
-        "link": "http://www.thevaluenews.co.kr/m/view.php?idx=177637",
-        "pub_date": ""
-      },
-      {
-        "title": "뱅크샐러드, AI 에이전트 고도화 전략 본격화",
-        "description": "뱅크샐러드가 메가존클라우드와 인공지능(AI) 에이전트 강화를 위한 업무협약(MOU)을 체결했다고 23일 밝혔다.뱅크샐러드와 메가존클라우드는 이번 협약을 통해 AI 시대에 비전을 제시할 수 있는 기술적∙전략적 협력 기반을 마련하고, 클라우드 및 데이터 인프라 분야에서의 상호 기술 교류를",
-        "link": "https://www.newswhoplus.com/news/articleView.html?idxno=52250",
-        "pub_date": ""
-      },
-      {
-        "title": "[스타트업 창업가 15인 에세이 ‘나의 꿈’] 김태훈 뱅크샐러드 대표",
-        "description": "이 자리에서 나는 뱅크샐러드의 비전과 성과, 앞으로 창출 가능한 새로운 미래 전략을 발표했다. 데이터 중심의 금융(Data Driven Finance) 환경을 만들겠다는 방향성을 말하자 현장에 참석한 많은 사람이 우리 이야기에...",
-        "link": "https://www.forbeskorea.co.kr/news/articleView.html?idxno=325109",
-        "pub_date": ""
-      },
-      {
-        "title": "뱅크샐러드, ‘데이터 융합’으로 핀테크의 새 문법 쓰다… 2026년 하반기 IPO 향한 승부수",
-        "description": "현재의 시장 환경은 뱅크샐러드의 IPO 및 성장 전략에 긍정적인 신호를 보내고 있다. 첫째, ‘실적 턴어라운드’의 가시화다. 뱅크샐러드는 2024년 영업수익(매출) 196억 원을 기록하며, 전년(68억 원) 대비 약...",
-        "link": "https://koreabizreview.com/detail.php?number=7512",
-        "pub_date": ""
-      }
-    ],
-    "google_news": [
-      {
-        "title": "[현장리포트] 네이버페이·카카오페이·토스·뱅크샐러드, '코리아 핀테크 위크 2025'서 차세대 AI 금융 서비스 선보여 - investnews.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kWVowOFloamMwRk51ODdsMzEtd2hoaHBwU2luTFRTb2F5bXFGQjlZbWJ1TlV4YVBNU3NjbDI3MkhZRFBRWFZLTDJoNzZ3NVZCN09OWnNOS2YtZUpkRnRSRjNwcV9ua3Q0dkZSTXVKOU1PQdIBdkFVX3lxTFBGaEhfNE9OS1dEcnVHNHFOWXhpZ0U0LXZGb2I1cUhGbVBsWTRzLUNxRGZyQl9leGN5eF9hZWFUVVFUZHM5YjNhSG5iUXRFQnB6N1N3T0UtRzdQa3lYMVMzdXBoVmYwcjd6clY2WktubFRtYnZfS3c?oc=5",
-        "pub_date": "Tue, 02 Dec 2025 08:00:00 GMT",
-        "source": "investnews.co.kr"
-      },
-      {
-        "title": "뱅크샐러드, 전직군 대규모 채용 진행 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53T1RQYTU5REs2cDVpR2l2Ym5QNDlQcUMyWDNPdlFaWDZUYzBZQ3VUMUtHUExwSmhWamh2Z3lLVzdYTk9IckhpX0Y1bWNyZw?oc=5",
-        "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
-        "source": "전자신문"
-      },
-      {
-        "title": "뱅크샐러드, 보험 매출 230% 성장 업고 GA 자회사 채용 나선다 - 뉴스저널리즘",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40dEZ2eDluTUlfWnZLZlF2VUFRVW1ad3VWcTc4LWZjMzlMRkhfelgwMm1YV2ZYV3lUa2lnNklFNHZ1N1dEWTRwa3d5QzMySG55VlNxdmduS2NDN1JpS3RQU0dmRDlaaVJ5Z1A4?oc=5",
-        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
-        "source": "뉴스저널리즘"
-      },
-      {
-        "title": "\"데이터 주권에 진심\"…뱅크샐러드, 연말 대규모 채용 나선 이유[인터뷰] - 데일리머니",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQNEtQYlpwb0pvMDgyeldCOUZWMHRNa1J3aVpjYkhrUnphM3o2RjZCYWJXOU43X2VRcS1PWnFENnN4MWt2cmxmYlJESVlsQnpfV091TjVNQWRCQkRHNGI0UVFfT2NuRmNJNmNGOW1PUkdmdw?oc=5",
-        "pub_date": "Mon, 24 Nov 2025 08:00:00 GMT",
-        "source": "데일리머니"
-      },
-      {
-        "title": "메가존클라우드–뱅크샐러드, 금융 데이터·생성AI 결합한 에이전트 공동 개발 - 지티티코리아",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CTUZoYnNKSGttblFvWXFKVVd0Z0xXQkpuQzBEbVdxcE5TblFJVWFJa3FxQVluRHhiRlc5dFNfa2t0ZUxQaGhuSmx2ZWxiaFY2UHoxOWM3Ml9RUEVta2x0eFNfaG81YTNtTWc?oc=5",
-        "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
-        "source": "지티티코리아"
-      },
-      {
-        "title": "뱅크샐러드금융서비스, 인재 확보 나서…'보험 혁신 파트너 찾는다' - 데일리한국",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80ZkQtem9KSlJVS0M1Vk5MWFNXZl9kbDlpTWJXaWU2QkVjTU9rRkluNGVBYzhkeHJPd3VLcWFFSlJvN1BIUVhSMnBidGNYNk1xUnV2ZDhiU1dCUS15b2xZRHdFenBBUW9NaUxDTjR3MNIBc0FVX3lxTE5hOVVYbHpnQ3VVZjB1Qm1iYmpvRGpnRGxaYXdHZXlUZWZYUWYwQVBKa3p3QjQ2bXdqQnM1ZWttZVFiMFJoS3BqOTZHZmJrUTRHcC1pUHhhaGFpUnhNZ1VWVXkya3lWTGFVeTIyeFNiVGp2ems?oc=5",
-        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
-        "source": "데일리한국"
-      },
-      {
-        "title": "‘핀테크 GA’ 또 나온다…뱅크샐러드, GA 시장 재진입 - 브릿지경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3cTUwdFZmT0ZBQmozYm82ZzFBODctWEEzYUctTUMxQlItSjh0anptNkdETkRpZ3Jic0k3VGdWb3pyREVjQkFHR3JNNi1MbWg3M21XU3NaNWc3QQ?oc=5",
-        "pub_date": "Sun, 21 Dec 2025 08:00:00 GMT",
-        "source": "브릿지경제"
-      },
-      {
-        "title": "뱅크샐러드 GA 자회사, 정규직 채용… 신입·경력 지원 가능 - mt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lenJueFZzd29pT2x6SmpVSnc5dThmSzFQYjBMUTB0RWo4SVZkcnVfOGpfYzM0enpvOWlXWUV6eTBZdng1dUNNRV9tS1FmQjBaRV9yWXY1VktCLXA2dzhVS09UQzFVSFBZWnM4?oc=5",
-        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
-        "source": "mt.co.kr"
-      },
-      {
-        "title": "그룹바이, 코엑스서 스타트업 채용박람회 개최…채용시장에 '활력' - 헬로티",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83MW9YUXRqMTJrbW4yanRqMzd0OGdFV21nNjN5R3R3VW81cXR5LVNPQ2VHX2cwTkd3MnZxeFpvb0VZTE1tcFpxRF9RWENFWmVVdWItcVBzRjZsbjRCNFZv?oc=5",
-        "pub_date": "Mon, 19 Jan 2026 08:00:00 GMT",
-        "source": "헬로티"
-      },
-      {
-        "title": "‘오프라인 결제’ 진출한 네이버와 토스의 UX 전략 비교 (feat. 코리아핀테크위크) - 디지털 인사이트 DIGITAL iNSIGHT",
-        "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPcGxTaExadlh3MnA4cTJ1akg3WWFDVzFYZ08wQ2g3aV9XTDFEeWtvNjFRbmowNHY3eFhHQ1lfT0JSbGFkZ0xxYmVuOWxYUndVTWt3S2JzbjNMa2w4aVZSNlZuMzRPVU1KdHpka29fOVZhUWY2LXc4ckhDNjctRHhuaUVaY0pfZWJqUlZtNFB2bWc1STh2OXktekp6T3E1OG5RZ2dmUDZ3dnBvSjdIRlhYb203M0VmU0xpd2JvT291MGJhUVlpYlh3UGl5Q1cxa0h4UUVHVmJoRnBUb25Gb2F6SHY5Zko1cE1MM21Yc3pGSkc2MXRyTmQ3VHhiMzNzMzRsUkhIYy00UUZWN2JvTzlqNFlaaS1KT05SN2ZLcFE4MnppUHoxWmQ5cg?oc=5",
-        "pub_date": "Wed, 03 Dec 2025 08:00:00 GMT",
-        "source": "디지털 인사이트 DIGITAL iNSIGHT"
-      },
-      {
-        "title": "“진화하는 마이데이터…AI 에이전트 시대 마중물이죠” - 이코노미스트",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01SEdGQ3hkUGY3UDdNQUg2d3FrQ1VtLWh3YWF4TjBuaWt1STIwS1BEdHI5bWYweHhQYUN0b2hxMzYwc19YLUpmZmVOZmE2VHFTSGsycmowVEc2UTVHcTMxeTNn?oc=5",
-        "pub_date": "Mon, 04 Aug 2025 07:00:00 GMT",
-        "source": "이코노미스트"
-      },
-      {
-        "title": "\"AI가 최적 금융 솔루션 찾아드려요\".... 뱅크샐러드 'AI 에이전트' 코리아핀테크위크서 호평 - meconomynews.com",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wN3RwUk8wX254aTlNYlpCd0taUktzUXVsUUtMU1Q3UEhiam5VLTZNaFl1UEhaREZ1WjRWcnFYeTBKaDc4TlFBTEdoTlpSclJkSEJFTTNGWkJubzlJYWROQVBISzZTVGc4WjNJOURjbjM?oc=5",
-        "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
-        "source": "meconomynews.com"
-      },
-      {
-        "title": "[단독] 삼성출신 변리사를 은행이 왜…\"될성부른 기업에 대출\" - 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAybEdienlFOVNaSmdERWhmQnVjSm41eFAzaGtkalFhOHZXekpOdi1QRi1QWHM4YmFubVJPdTBrRUljb1dqRmNEazlMbDRINUhMTkk4?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 08:43:00 GMT",
-        "source": "네이트"
-      },
-      {
-        "title": "스타트업 채용 플랫폼 ‘그룹바이’, ‘2026 스타트업 채용박람회’ 개최 예정 - beSUCCESS",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzOThmTWdWM2VOUHVVV2ZkV00tRW0xMGE4a2tjV0Z1dG5uWEtxeV9SZG1tLWRTY3hySi0tV1hRbUhtYWZLUnc?oc=5",
-        "pub_date": "Wed, 07 Jan 2026 08:00:00 GMT",
-        "source": "beSUCCESS"
-      },
-      {
-        "title": "사전신청 1만 명 몰렸다…그룹바이, ‘2026 스타트업 채용박람회’ 코엑스서 개최 - 스타트업엔",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wU0RPOFlGZnFkRDVHRU9EWkFUQVVFS2t1azNhdWRIdFprOUh5WVNjUXRyczl0dHlqN3BlSWMwS0FvRVN2Vm1HSThpOXpVR0stcWdWVnVPOWJOTGItd1lTZ1h5LW9fRnMx0gFsQVVfeXFMTU1qeGNYWUlHeUNVbXVFWnNNcWNlTE10eXBMX2hMeWlJaXZmXy1JdFlwT1JaMzNKVTByOEFZZUlEdTd3VUJxMHBtbkkta2owa1R6U3ZCNEFrcHUxdVlScnVVVkpLSERLLXlKekFw?oc=5",
-        "pub_date": "Wed, 07 Jan 2026 08:00:00 GMT",
-        "source": "스타트업엔"
-      },
-      {
-        "title": "뱅크샐러드, 사업자 대환대출 출시…포용금융 나선다 - 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xb2N5SWp0RjlmOEJIVl9ldzhFVTltNk5ncGZJaDBiNFVBMGJOaGFvaGs5Sk9zaW5aVkFNNXFUNEJ3R1pGZ09UV0lGT0Q4RURFUWVz?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 07:31:00 GMT",
-        "source": "네이트"
-      },
-      {
-        "title": "SK증권, 뱅크샐러드 실적 개선에 엑시트 '청신호' - IB토마토",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKSWQxZlBpVkhvdV8wM1IyZ0dJbU9BUGYydTNtWWpuM251bHhwQV9QSHQ1T0dxcDcyV1o1eG9wSjhFdEZGbE04ejhBeThRdnVHUWZMWDRVQUV6UU5ScGhFUEF0UlpOQjd2S1ZUN1NYdVhsemRM?oc=5",
-        "pub_date": "Wed, 29 Oct 2025 07:00:00 GMT",
-        "source": "IB토마토"
-      },
-      {
-        "title": "[상장의 꿈] 뱅크샐러드의 코스닥·GA 출사표…과제는 '산적' - 뉴스드림",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wcVhlQm5fSkRXbUZQcGd0bVMtbVpEQk9EOTNiMEcyWXR1QmpzN2NsVlNIUTFiNi04ZUw0ajF4LW9rTlhhS2VOcTc4cGFBXzRDWm9DY080eWlzU3J6ZGdHbzI2OGdHYWRSU1HSAW5BVV95cUxPNE1XSGFqdWlNRUNUbEtFNzZ3X0NfV2djM21yNWt6TG5LYS04MF9PNkZuVjhwVThEWWhhYnlMeHBoMHZwOHFTTlFXREdhMlVRTk45QlVEY2t6Q2J1ZmtUdlRhNVVGNDlVYm1LdW9Mdw?oc=5",
-        "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
-        "source": "뉴스드림"
-      },
-      {
-        "title": "'마이데이터 과금 개선' 강조한 카카오페이, 뱅크샐러드 수혜입나 - 톱데일리",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LUTZscW43bVJwVmN5U1RpWkU4TzdmbkQ4bkpWMG5LS3JQeS1FcmR2NVN2Q3dweWlKSWRRZkd0aXozSXpveTQ1UW1Yb3FxMDhK?oc=5",
-        "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
-        "source": "톱데일리"
-      },
-      {
-        "title": "뱅크샐러드, 분기 흑자 전환 성공…보험 서비스 성장 '쑥쑥' [금융사 2025 상반기 실적] - 한국금융신문",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mM2lrYVV1SjdOaHg1ay1pRmtVcUd5Y2x3ZGJwemxmOVc5dHlMOGd0T3lWSG9iZ0RBYmwxandYejNVd253LUpIS1QtdWVmYjFJeUpwOV9CN2pzZGI3Y3BzR1ZNck9pY3pGWlhMRVlYWV8yTzRFcF9hRzcxZnE?oc=5",
-        "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
-        "source": "한국금융신문"
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "2026년 뱅크샐러드 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1673440435/",
-        "description": "<strong>한계 없이 문제를 해결하는 문화, 데이터를 가장 안전하게 잘 활용하는 프로세스를 함께 만들고, 제품과 비즈니스에서 실질적 성과를 만들고자 하는 도전 정신 충만한 동료들과 함께하고 싶습니다</strong>..."
-      },
-      {
-        "title": "뱅크샐러드 채용 여정 함께하기 | 뱅크샐러드",
-        "url": "https://blog.banksalad.com/pnc/recruiting-process/",
-        "description": "1. 실무 인터뷰에서는 해당 포지션의 실무진이 인터뷰어로 참석하여 지원자님의 직무 역량, 유관 경험 등 직무에 대한 전문성을 중점으로 이야기를 나눠요. 2. 컬쳐 인터뷰에서는 다양한 포지션의 실무진이 인터뷰어로 참석하여 **뱅크샐러드의 핵심 가치**를 기반으로 협업 역량, 문화적합성, 리더십 등에 대해 이야기를 나눠요."
-      },
-      {
-        "title": "뱅크샐러드 채용, 무엇이든 물어보세요 | 뱅크샐러드",
-        "url": "https://blog.banksalad.com/pnc/culture-faq/",
-        "description": "<strong>대면 인터뷰는 지원하신 포지션의 실무자와 진행이 되며, 실무 역량을 검증하는 전문성 인터뷰</strong>입니다. 컬쳐 인터뷰는 뱅크샐러드의 일하는 문화와의 합치 여부를 검증하는 인성 ..."
-      },
-      {
-        "title": "뱅크샐러드 채용 | 메인",
-        "url": "https://corp.banksalad.com/",
-        "description": "금융을 넘어 건강 자산까지 - 뱅크샐러드는 데이터를 기반으로 불균등한 정보의 비대칭을 해결해 자산 관리의 경험을 바꿔나가고 있습니다."
-      },
-      {
-        "title": "뱅크샐러드 기업정보 - 채용 24건, 평균연봉 6,032만원, 인원 137명, 업력 13년, 서울 마포구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/63",
-        "description": "<strong>한계 없이 문제를 해결하는 문화, 데이터를 가장 안전하게 잘 활용하는 프로세스를 함께 만들고, 제품과 비즈니스에서 실질적 성과를 만들고자 하는 도전 정신 충만한 동료들과 함께하고 싶습니다</strong>..."
-      },
-      {
-        "title": "블라인드 | 뱅크샐러드 기업정보",
-        "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/",
-        "description": "뱅크샐러드 전체 직원의 연봉 정보를 확인하세요. ... 채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
-      },
-      {
-        "title": "채용공고 | 뱅크샐러드 채용",
-        "url": "https://corp.banksalad.com/jobs/",
-        "description": "현재 모집 중인 다양한 직군의 채용 공고를 확인하고 지원하세요!"
-      },
-      {
-        "title": "(주)뱅크샐러드 2025년 기업정보 | 174건 면접후기 3.2 면접난이도 | 잡플래닛",
-        "url": "https://www.jobplanet.co.kr/companies/276354/interviews/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C",
-        "description": "최고의 연봉·보상 수평적인 문화 주 4.5일 꿀근무 능력있는 동료 복지 끝판왕 인생 최고 동료 만족스런 문화 인지도하면 여기 분위기 좋아요 요즘 대세 워라밸 직원 존중은 기본 탄탄한 비즈니스"
-      },
-      {
-        "title": "뱅크샐러드 공식 블로그 | 컬쳐 블로그",
-        "url": "https://blog.banksalad.com/pnc/",
-        "description": "뱅크샐러드 채용 프로세스를 소개하면서, 각 전형 구성부터 합격률을 올리는 Tip까지 공개합니다! ... 서비스의 성공과 튼튼한 조직 문화를 위해 분기마다 진행되는 뱅크샐러드만의 행사, &quot;뱅샐러드 Pit Stop&quot;을 소개합니다."
-      },
-      {
-        "title": "뱅크샐러드 진행 중인 채용정보 총 1건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/42245211/recruit",
-        "description": "뱅크샐러드 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "뱅크샐러드 기업정보 - 채용 27건, 평균연봉 6,032만원, 인원 137명, 업력 14년, 서울 마포구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/63",
-        "text": "뱅크샐러드 기업정보 - 채용 22건, 평균연봉 6,032만원, 인원 137명, 업력 14년, 서울 마포구 | 원티드\n\n# 뱅크샐러드\n\n금융서울 마포구15년차(2012)\n\n뱅크샐러드는 데이터 ​서비스로 ​유저들의 ​삶을 이롭고 ​풍요롭게 합니다. 뱅크샐러드의 미션은 유저가 ​자신의 ​정보를 언제 ​어디서나 쓸수 있는 ​환경을 만들고, ​유저 ​이익이 극대화된 ​디지털 ​경험을 ​설계하는 것입니다. 우리는 ​사람들에게 ​가장 중요한 가치인 ​'돈'과 ​'건강' ​분야에 특히 집중하고 ​있습니다. 혁신적인 생각을 ​담은 ​제품을 끊임없이 ​내는 회사가 ​스타트업이라고 ​생각합니다. 우리는 자동 가계부(2017), ​금융 통합 ​조회 (2018), 소비 기반 카드 추천(2018), 대출 비교 서비스(2019), 신용 점수 올리기(2019), 금융 비서 (2020), 마이데이터 (2022), 무료 유전자 검사(2023), 건강 맞춤 보장 분석 (2024) 샐러드 게임(2025), 최저금리 알",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "뱅크샐러드금융서비스 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
-        "url": "https://jasoseol.com/companies/15807",
-        "text": "뱅크샐러드금융서비스 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n산업(업종)\n\n금융 및 보험업. 응용 소프트웨어 개발 및 공급업\n\n기업 형태\n\n기타기업\n\n대표자\n\n박재홍\n\n사원수\n\n-\n\n매출액\n\n-\n\n설립 년도\n\n-\n\n주소지\n\n서울특별시 마포구 마포대로 45, 일진빌딩 10층 뱅크샐러드 금융서비스\n\n홈페이지\n\nhttps://corp.banksalad.com/about/financialservice/\n\n각 기업이 공공데이터에 제공한 정보를 활용하여 제공합니다.\n\n정보 수정 요청\n\n### 지원자 분석 �",
-        "score": 0,
-        "published_date": "2022-05-31T00:00:00.000Z"
-      },
-      {
-        "title": "뱅크샐러드 채용 여정 함께하기 | 뱅크샐러드",
-        "url": "https://blog.banksalad.com/pnc/recruiting-process/",
-        "text": "뱅크샐러드 채용 여정 함께하기 | 뱅크샐러드\n\n# 뱅크샐러드 채용 여정 함께하기\n\n15 Mar, 2022\n\n채용은 기업의 입장에서는 미래를 이끌어나갈 인재를 모시는 일이고, 지원자에게는 커리어 전환이라는 인생의 중요한 결정을 내리는 과정입니다. 그래서 채용 과정은 일방적인 평가가 아니라, 서로의 히스토리를 파악하고 의견을 나누면서 상대가 나에게 적합할지를 가늠해보는 과정이라고 할 수 있는데요.\n\n저희 뱅크샐러드 채용팀은 이 채용 과정에서 지원자가 좋은 경험을 통해 만족스러운 결정을 내리고 이를 통해 저희가 최고의 인재를 모실 수 있도록, 채용 프로세스를 만들고 개선해 왔답니다 :)\n\n오늘은 뱅크샐러드의 채용 프로세스를 소개해드리면서, 각 전형 구성부터 합격률을 올리는 Tip까지 공개하려고합니다!\n\n자, 저와 함께 채용 여정을 떠나볼까요?\n\n## 여정의 첫 걸음 : 서류 지원\n\n여정의 첫 걸음은 서류 지원으로 시작합니다.\n\n현재 뱅크샐러드는 테크, 데이터, 디자인, 경영관리 등 10개",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "엔지니어링 매니저 (Engineering Manager)",
-        "url": "https://banksalad.career.greetinghr.com/o/176380",
-        "text": "Engineering Manager\nEnglish\nEngineering Manager\nJob group\n테크Job Types\nFull-time\nLocations\n뱅크샐러드대한민국서울특별시마포구마포대로45, 일진빌딩10층 뱅크샐러드**뱅크샐러드는 데이터​서비스로​유저들의​삶을이롭고​풍요롭게합니다.**\n뱅크샐러드의미션은유저가​자신의​정보를언제​어디서나쓸수있는​환경을만들고, ​유저​이익이극대화된​디지털​경험을​설계하는것입니다. 우리는​사람들에게​가장중요한가치인​'돈'과 ​'건강' ​분야에특히집중하고​있습니다.\n혁신적인생각을​담은​제품을끊임없이​내는회사가​스타트업이라고​생각합니다.\n우리는자동가계부(2017), ​금융통합​조회(2018), 소비기반카드추천(2018), 대출비교서비스(2019), 신용점수올리기(2019), 금융비서(2020), 마이데이터(2022), 무료유전자검사(2023), 건강맞춤보장분석(2024) 샐러드게임(2025), 최저금리알리미(2025)를 국내최초로출시하며혁신성을입",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "(주)뱅크샐러드 기업정보 ㅣ 채용공고, 연봉, 직원수 - 리멤버",
-        "url": "https://career.rememberapp.co.kr/job/company/1533304",
-        "text": "(주)뱅크샐러드 기업정보 ㅣ 채용공고, 연봉, 직원수 - 리멤버\n\n# (주)뱅크샐러드\n\n관심 기업\n\n뱅크샐러드는 데이터 ​서비스로 ​유저들의 ​삶을 이롭고 ​풍요롭게 합니다. 뱅크샐러드의 미션은 유저가 ​자신의 ​정보를 언제 ​어디서나 쓸수 있는 ​환경을 만들고, ​유저 ​이익이 극대화된 ​디지털 ​경험을 ​설계하는 것입니다. 우리는 ​사람들에게 ​가장 중요한 가치인 ​'돈'과 ​'건강' ​분야에 특히 집중하고 ​있습니다. 혁신적인 생각을 ​담은 ​제품을 끊임없이 ​내는 회사가 ​스타트업이라고 ​생각합니다. 우리는 자동 가계부(2017), ​금융 통합 ​조회 (2018), 소비 기반 카드 추천(2018), 대출 비교 서비스(2019), 신용 점수 올리기(2019), 금융 비서 (2020), 마이데이터 (2022), 무료 유전자 검사(2023), 건강 맞춤 보장 분석 (2024) 샐러드 게임(2025), 최저금리 알리미(2025)를 국내 최초로 출시하며 혁신성을 입증해 왔습니다. 최근",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "뱅크샐러드, AI 기반 금리인하요구권 서비스 출시 < 금융·증권일반 < 금융·증권 < 기사본문 - 데일리한국",
-        "url": "https://daily.hankooki.com/news/articleView.html?idxno=1340026",
-        "text": "뱅크샐러드, AI 기반 금리인하요구권 서비스 출시 window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-221060510-1'); --\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n뱅크샐러드, AI 기반 금리인하요구권 서비스 출시\n\n바로가기 본문 글씨 줄이기 본문 글씨 키우기 -- 본문 글씨 줄이기 본문 글씨 키우기 바로가기 복사하기 다른 공유 찾기\n\n스크롤 이동 상태바\n\n뱅크샐러드가 AI로 자동으로 이자를 줄여주는 금리인하요구권 서비스를 시작한다. 사진=뱅크샐러드\n\n[데일리한국 김민지 기자] 마이데이터 전문 기업 뱅크샐러드는 AI 에이전트가 사용자 대신 이자를 최대로 줄여주는 ‘금리인하요구권’ 서비스를 시작한다고 26일 밝혔다.\n\n금리인하요구권은 소득 증가와 대출 상환 등으로 인해 신용 등급이나 신용 ",
-        "score": 0,
-        "published_date": "2026-02-26T00:00:00.000Z"
-      },
-      {
-        "title": "[아웃스탠딩] 뱅크샐러드, 2분기 첫 흑자 전환..매출 85% 급성장",
-        "url": "https://outstanding.kr/press/1416/20250814",
-        "text": "[아웃스탠딩] 뱅크샐러드, 2분기 첫 흑자 전환..매출 85% 급성장\n\nSkip to main\n\n뱅크샐러드, 2분기 첫 흑자 전환..매출 85% 급성장\n\n이승아 기사\n\n뱅크샐러드가 흑자 전환에 성공했다.뱅크샐러드가 2025년 2분기 매출이 전년 동기 대비 큰 폭으로 증가해 흑자 전환에 성공했다고 14일 밝혔다.2025년 2분기 뱅크샐러드의 영업수익은 77억3000만원으로 전년 동기(41억 7000만원) 대비 약 85% 증가했다. 영업비용은 같은 기간 약 14% 감소해 1억 2000만원의 분기순이익을 기록했으며 주식보상비용을 제외하면 순이익은 6억 원에 달한다.뱅크샐러드는 지난해 11월, 월 손익분기점을 달성했고 2024년 매출은 전년 대비 약 3배 성장하는 등 안정적인 양적 성장 기반을 갖춰 나가고 있다. 대출·카드·보험 등 종합 금융 플랫폼 서비스 고도화로 고속 성장을 이어가고 있으며, 금융과 건강 서비스 전 부문에서 고른 상승세를 보이고 있다.특히 2025년 2분기 성장은 보험 ",
-        "score": 0,
-        "published_date": "2026-02-28T00:00:00.000Z"
-      },
-      {
-        "title": "뱅크샐러드, 2025년 2분기 매출 85%↑…흑자 전환 성공 < no_feed < 라이프 < 뉴스 < 기사본문 - 뉴스탭",
-        "url": "https://www.newstap.co.kr/news/articleView.html?idxno=310546",
-        "text": "뱅크샐러드, 2025년 2분기 매출 85%↑…흑자 전환 성공 --\n\n발행일: 2026-02-28 17:03 (토)\n\n- 광고문의\n- 기사제보\n- 공지사항\n\n기사검색\n\n이전 기사보기 다음 기사보기\n\n뱅크샐러드, 2025년 2분기 매출 85%↑…흑자 전환 성공\n\n--\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n라이프\n\n--\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n마이데이터 전문기업 뱅크샐러드(대표 김태훈)가 2025년 2분기 실적에서 전년 동기 대비 큰 폭의 매출 증가와 함께 흑자 전환에 성공했다. 회사 측은 금융·건강 전 부문에서의 서비스 고도화와 데이터·AI ",
-        "score": 0,
-        "published_date": "2025-08-14T00:00:00.000Z"
-      },
-      {
-        "title": "뱅크샐러드, 마이데이터 2.0 도입… 금융·건강,  AI 서비스 혁신 가속화 - 디지털데일리",
-        "url": "https://www.ddaily.co.kr/page/view/2025061109392454034",
-        "text": "뱅크샐러드, 마이데이터 2.0 도입… 금융·건강, AI 서비스 혁신 가속화 - 디지털데일리\n\n- 창간 기념 이벤트\n- 세미나/콘퍼런스\n- DD튜브\n- 딜라이트닷넷\n- DD테크콘텐츠랩\n\n- 회원가입\n- 로그인\n- DD뉴스레터 보기\n\n2026.03.17\n\n뉴스\n\n## 뉴스\n\n### 뉴스\n\n- [전체기사](https://www.ddaily.co.",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "Q1 2026 Global Outlook: As goes AI... - Barclays Investment Bank",
-        "url": "https://www.ib.barclays/research/global-outlook/q1-2026-as-goes-ai.html",
-        "text": "Q1 2026 Global Outlook | Barclays Investment Bank\n\nDouble click here to edit Header v2 component\n\nParsys 1\n\nDouble click here to edit Hero Media component\n\n```\nRESEARCH  |  3 POINT PERSPECTIVE  |  MACRO SHIFTS\n```\n\n# Q1 2026 Global Outlook: As goes AI...\n\n```\nContributors: Ajay Rajadhyaksha, Zornitsa Todorova, Christian Keller and Will Thompson\n```\n\n```\n20 Nov 2025\n```\n\nArtificial intelligence is now the most important driver of growth in the world’s largest economy and is delivering remarkable ",
-        "score": 0,
-        "published_date": "2025-11-20T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "뱅크샐러드 공식 블로그 | 기술 블로그",
-        "url": "https://blog.banksalad.com/tech",
-        "text": "뱅크샐러드 공식 블로그 | 기술 블로그\n\n뱅크샐러드 기술 블로그\n\n# 더 나은 내가 되는 곳, 뱅크샐러드\n\nStories\n\n16 Jan\n\n#데이터정합성 #일해라김뱅샐\n\n## 뱅크샐러드가 게임을 만들 때 데이터 정합성을 유지하는 법 (feat. 낙관적 락)\n\n뱅크샐러드가 앱테크 서비스를 구현하며 마주했던 데이터 정합성에 대한 고민을 공유합니다.\n\nRead More\n\n15 Jan\n\n[#React](https://blog.banksalad.com/tags/re",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "banksalad/styleguide: Official code style guide of Banksalad - GitHub",
-        "url": "https://github.com/banksalad/styleguide",
-        "text": "GitHub - banksalad/styleguide: Official code style guide of Banksalad\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe r",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "하루에 1000번 배포하는 조직 되기 - 뱅크샐러드",
-        "url": "https://blog.banksalad.com/tech/become-an-organization-that-deploys-1000-times-a-day/",
-        "text": "하루에 1000번 배포하는 조직 되기 | 뱅크샐러드\n\n# 하루에 1000번 배포하는 조직 되기\n\n29 Feb, 2020\n\n안녕하세요, 뱅크샐러드 Engineering Foundation의 Framework Team 소속 Server Engineer 안석찬입니다.\n\n실리콘밸리의 벤처 캐피털은 테크 기업에 투자를 고려할 때 그 기업이 확장 가능한 기술 역량을 보유하고 있는지 판단합니다. 이때 판단에 활용되는 지표 중 하나가 바로 하루에 발생하는 배포 수입니다. 더 잦은 배포는 더 많은 비즈니스 요구의 충족을 뜻하고 이는 사용자에게 더 많은 가치를 더 빠르게 전달할 수 있다는 것을 의미합니다. 이렇게 더 빠르고 더 큰 성장이 가능하다면 당연히 더 높은 잠재적 가치를 인정받게 되겠죠. 실제로 Lyft, Facebook 등 실리콘밸리의 유명 스타트업, 테크 기업들에서는 하루에 1,000번 이상의 크고 작은 배포가 이뤄지고 있다고 합니다.\n\n여러분의 회사는 배포를 어떻게 하고 있나요? 배포가 ",
-        "score": 0,
-        "published_date": "2020-02-29T00:00:00.000Z"
-      },
-      {
-        "title": "뱅크샐러드의 특별한 스펙, '테크 스펙' | 뱅크샐러드",
-        "url": "https://blog.banksalad.com/tech/we-work-by-tech-spec/",
-        "text": "뱅크샐러드의 특별한 스펙, '테크 스펙' | 뱅크샐러드\n\n# 뱅크샐러드의 특별한 스펙, '테크 스펙'\n\n26 Oct, 2020\n\n개발자들이 개발을 시작할 때의 모습은 제각각입니다. 일단 코드부터 두드리고 보는 행동파 개발자도 있고, 눈앞에 보이는 노트 위에 간단한 구조를 그려 보는 개발자도 있죠. 뱅크샐러드에서는 모두 같은 행동을 합니다. 우리는 테크 스펙을 써요.\n\n### 😟 문서를 꼭 써야 돼?\n\n코드 짜기도 바쁜 우리는 문서까지 작성할 시간이 없습니다. 대부분의 소통을 코드로 할 때가 많아 글로 소통하는 방법에 익숙하지 않기도 하고, 한 번 작성된 후 업데이트되지 않는 문서는 시간 들여 필요 없는 문서를 양산해버린 셈이 되니까요. 그럼에도 우리는 쉽게`문서화`라는 마법의 단어를 말하고는 합니다.\n\n🤦 맨땅에 헤딩\n\n🧑‍💻: 안녕하세요, 오늘 입사한 김뱅샐입니다. 전반적인 코드 구조를 살펴보았는데, 자산 연동 코드 구조가 왜 이런지(이따구인지) 모르겠습니다. 도움 주실 수",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "코드 리뷰 in 뱅크샐러드 개발 문화 | 뱅크샐러드",
-        "url": "https://blog.banksalad.com/tech/banksalad-code-review-culture/",
-        "text": "코드 리뷰 in 뱅크샐러드 개발 문화 | 뱅크샐러드\n\n# 코드 리뷰 in 뱅크샐러드 개발 문화\n\n24 Nov, 2020\n\n안녕하세요, 뱅크샐러드 BanksaladX iOS Engineer 정진규입니다.\n\n코드 리뷰란 개발자가 작성한 코드를 다른 사람들이 검토하고 피드백을 전달하며, 다시 작성자가 반영하는 과정을 말합니다. 이 과정을 통해 서비스의 기술적인 구현 부분에 대해 공유·습득할 수 있으며, 일관된 아키텍처를 유지하고, 문제를 해결할 수 있는 새로운 관점을 발견할 수도 있습니다. 더 나아가, 잠재적인 장애·버그를 배포 전에 발견하여 전반적인 서비스 운영 비용을 절약할 수 있습니다.\n\n코드 리뷰가 특별한 것은 아닙니다. ‘코드 리뷰’ 키워드로 구글에 검색하면 다양한 사례들을 찾아볼 수 있을 만큼 이미 코드 리뷰 프로세스를 도입한 IT 기업들이 많이 있습니다. 코드 리뷰를 통해 코드의 품질, 서비스의 품질을 높이려는 목적은 모든 회사가 같겠지만, 그렇다고 모든 회사의 코드 리뷰가 ",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Unilever in talks to sell food business to smaller US rival McCormick - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQzBrS1VPcG1qbmF2SWxQcUNSaGxuanNBYW1ydGY0N3Bsd3VQYXVtd0dPd2RSWkh0Nm5BOGVLUG1wTVJGbmRIYVNmOVRHWGVvdWV6azM5Q3dST2hPX0c5Tkxtbm1wR1FMcjk2X1JZUVlzQW4tUndXQl9WQzNnbWNKOFZKcEhtcEhNOHlxT3RxVkU2cV9oazhDc3lDUFN3aTA4eWhueTF2TWtVX1JOQ1V0Q2NZNGpoMW0xYW1VZEZyVjlCcVUzbjVCS2xXQQ?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 07:08:51 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Facing US oil blockade, Cuban man powers car with charcoal - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa0xQRzBjQ21IWnZHdjlpOTc0aFU4RWNncWMwSWFKN0E5RlVITUZUTVBwaWZScF9oUzNPV0ZpOGhlU2NicTlUWGdSbUwtRzZSWDJHdmJmeUZsSmo2NDN2SU9BUkdySHpVVVYxR3UwRUEzZU9JUi1PMDZGZWJTT1JqYm90WWxWNEY5UnBSa2N4OUhlLXFZZjZoNlpxeThhWFBQWGtfeTg1djNWQzNZdXc?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 10:05:01 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Explainer: Why is Unilever looking to sell its food business? - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM2JPenZTcHFDdmtlMDUtZWoxSFhGVFNyb2tpZFlhdzEzNUhTcGxlNXFVV1k1QVhjczFIaUM2OTN5NV81WkNPaE45Z1NSNmFVaDN5RHQ5SEl1eEt3MlZ2UEFwOWYzTW9XTUhjUThWWW5BQW91bmJoLWF2eTNvVlJINw?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 15:06:52 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "This Is What Wall Street Eats for Lunch - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMHo1NHJ2QjFrTTRsS1FhcEVoekxxR1BRWDI0MEFtc3E5RVdfWWNtQUZjamtLd3dnYl9yWFBiN1hweWdNcXREMURCTk9TREJ2anBJOUt5MTA5aTVHbl9vakI3U2VPamNOaVRHUlZLYVF1VF9HMm1rRHIxcFRXVGdBMVhGM2N4eGVsNkxIQkwwbFFOZVl1SHVpWnpR?oc=5",
-        "pub_date": "Fri, 25 Sep 2015 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Why Salad Giant Sweetgreen Decided to Get Rid of Seed Oils - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONXlrd01wdUc5eEhycDlNekJITEh4d2ZpWDdfM2hFa3lpVnFzeThwNFBsUFgyWE9zNS0yd3FuNzFOWE5kYTVGZlpqOUthYUU2SGhFWm9nODdlSmg2ZWVEd05ZWU9pWEI1YW1SdWJRZWs5cy1aU1R5QWtJd3JWbnZlZHpldFM2ZUhVTV8tMmRORzUza2pUTWx6WTJKZGJXTHFWc1lhTDZhUUdFaHp1?oc=5",
-        "pub_date": "Fri, 15 Dec 2023 08:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Sweetgreen Tests Robots to Make Faster, More Efficient Sad Desk Salads - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnVZZlpjaW1wWC05WWhRU0x3Qk5Bcjd5SGMwLVhmT2lwa3ZlMER3VVRXN2RNVWhpUDh4a0RZQWN5UDV2ZEtqRzZOb0FCMndHMEtld0tINEhvb1RXbjlUMTM1YlBmaDhidkI3WXJMQVA4NkE4cVJxazdiM0ptb2RNWE05Q3hkQ2IxZjZFVEJORnNRbU5WY0pkYVRXOTAzdllHX0tGbWdFUUFEdy1rOUE?oc=5",
-        "pub_date": "Wed, 17 May 2023 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Digital bank Tandem to acquire banking arm of UK's famous luxury department store Harrods - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HeS1Fc0E1QlctYkxRVWd4TEJhT2FseVlySEhIRHpGTWEtM1hzN29wTlJ4dlZUcjBoOXRkM293Q1pIYkllVmZydjQzTjVxOGhIQVE5YVdvelJCWkc2VVE0Z2wxRmE?oc=5",
-        "pub_date": "Mon, 07 Aug 2017 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "An Interview With The Potato Salad King Of Ohio, Zack Danger Brown - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUxtZ0ZuT0todncxOEFxLVZMRnk5dEw3Q3lzS3gwTW1sVjlYdEJNQ1I1VjBzY2VJTTFUdDNxYy1JdS1TSXpkZjVfUlQwd2RqcjViNWh6Ung1TGlGQnpmMUNMOXpBd003MWx4M20zVTZxbmFIbl8wNEpoNFZyaFd1VEdrUkpDSXlHYVJkelFhUmZfSGFpVTZ4V2NaVmVlYUlPR3c?oc=5",
-        "pub_date": "Tue, 02 Sep 2014 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Sweetgreen’s IPO pricing guidance illuminates valuation range for tech-enabled companies - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZzBvQUhHREVXajZqSTBlbFc2bmZmZFpiZlN4Wnc1X0VZcjM0dktzbkJoOWV5eHhlU2hvcy1uc2p3b2kzUUIxaWRXRnhDWnREa055bW4xSHkwNDlYdUdpd3BQcEwxc0R4RUt3UndUbkRpbERSenVXQzF4QkZvUHNzbGRGRjZ0R0tEcVBlRnROcHluLXBOM1MtS1QwVVdTTzAzYVM1SGFGcmpneXJZWW9Xa3RzdFc0SF9SeHBiS3dfMA?oc=5",
-        "pub_date": "Tue, 09 Nov 2021 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "An Easy Weeknight Dinner: Kimchi-Braised Pork Belly With Tofu - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxNSC1Hd09rVTBvcU1MMC1tdlUwMTVzVXQtX0RraHJVeXFPMVdXeGNBNVpXRXNYbWw4THlnZ0hzTy0xT0NfcDlNSVBqZWlsckhpM3ZNUFdKNXFmR1U3Z0ItUE1FeWlveWI5ck1MdjNrM19NSGtIUmk2U0p2dGJtcVFuUjVQYXFCdWRFTnhmb2RUREMxWlREOFBQbi0wdklpTWdDWE10dWRicGlXQmxzWC16M1dIMGZUaURzbnBqdW1PWU95emxEX0pFTjlqRWNKWTlqN2ZTbnI3eXhjRjBvdmRiQ1ktdDl2OEJSOFhGbm1fMTZqc2U2VTJsTlR2ME5laHEwQ0cwUVVBZXpFQ1BuOG9HV0ZSd0FES054ZXdqSWc5N3FjaGpvOEUxaE4xeHM3S204SkdRTkpFSm5wRWhIRnpiSHE4REFEeWVYNmtkaUNoSTFwLVZQUFNPNkJHVG5GNG9WWHhjZk9GVVQxWFpvdkt4YUdlVWtTTWJLSGlieFBjUWs5RmtSaUU0Y0FhSGdSbUYxdU56dXkxNjRBSmFrSFBUb2dURHBjZFVtclMwWndtWlpLakdBNzRkWlJR?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "When the Last Local Bank in Town Turns to a Global Salad Company for Help - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOQk1VWlVVc2RZRVVua2l6X2ppYlhfZnFVdUt0QVBwSk9MUmItTHg2ZEdLRFFaOW5BTDB6YmZ1NGtqQXctTTRNa3J4SmhPc0M0N2loYnI1ZGE4SGhna2hiTC1Bc0hIcTMtWFg1QnNwTDBjNVRqTzB1a0UzVUtieVNYTnJCOE5yUEEzRVVldmZ2cGx1VkMyV2xhdlhTcTNNR0ZBeFVkLUFua0doNmViV1JjcE51NTlTSW1jUHgyc2FnRXVfbmtFalhaVkdsX2lJRDYzOGVNQ1RSM09NZTFHRGNETUZGT3ZteUNjSXZGNHE3bjZpdm9IWDREbGZsM1lURlFVQi1qYk5MeHpTdzFmb2lxaXBPclZTeUpOZUtaSkgyb2dqNzRsYkIyZjRjNnI3LXRGanZhbEFLQVNOSVhvb1dHaFhMbnhHQkpuUmhrU0dSVUNxYl9rcGlnZWRtQUtkNkliVTAwMFlDZUtiSzZVR1RyVFFnQ0xvY1pGNnFrUmJkcnpNb0pFQmxaN0FSWHBUS1U4c2I2X1lIX3VJUjVlZ3F5LWN0RlJvdjRFMEc2QmZUdllmbnZORUtocVNKaUZCWjg?oc=5",
-        "pub_date": "Sun, 01 Feb 2026 08:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "America’s Most Satisfying Salad - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxOX1YybXBiWkw3a3lZNmV0OFpzUkFEbHJkWWlWbzV4MXFXWXNJRDJLTzNNZ2hOU0xqT2R4cDdqZlBRRjlkcm9PVUY2VTVWdzBPX2FER3RWaWhoS0VsQXowZHpFZW1JdlJkdFlJS2JlMjFjOHhILUNhaWFtb3VaaVBCbUpyWG5hSWJCS2RXZlYwc0dvcExYYmZnZjJWTWVfZW0xb1FnXzY3UWlIamxST2k2S01SYTBsbUlwQkhqTDFqeUlEeTBTUkJFMHFBSXozUTl5dUpKWmszQmxWdEZXWW5iX0F6c1FicU1HVjNhWVMwMTlKTHBZWWFBdWFKZTdxRGpWV3d4MVFtb1FCWndHQWtwamN2LWRrbGd6SkJkOVBmNkVTc2RJZHpyaGxUMG5GNk9xTFVFTUtSNHYwQ19uUUZTdDdBUjVRTGQ2NmJub3ItR2F1N0h0ZHJhQUZZRlp0SXlCZGtFbUFkWnFPWkRyRHo3eGU5M3hxT2FUQnk0MWs1MA?oc=5",
-        "pub_date": "Thu, 27 Sep 2018 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Hereditary peer Lord Mancroft: ‘They don’t care about fox hunting. It’s about us’ - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rVnJqY3Z4WXlVSm1uYWNVeFh6RnR1RlNpeUxLbVhVZ05ZYlFhNVRNejZhUjJKX2xPQ091bktqV1F4NVRuczJDa3pJZk84VHVvTVNaaDI1ZklLWFpDb2ZDVzEyX3lXbUJJX0ttejhHTmU?oc=5",
-        "pub_date": "Fri, 06 Mar 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Five of the City of London’s top salad bars - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01MHI1dnZpR09kcXRuOFlvVTd1U2FNeWdxcElObUFxTElZcWFra3MyeUVnb05pT1ZxMTNLRUVLVDFxN29mb1lLcXF2dksyU2RUWjE5SVpoNkFuVmVkUVhiT2t1dkRIUU4tQXAtWTNGSWw?oc=5",
-        "pub_date": "Sun, 14 Jan 2024 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "The Corinthia, Rome: former Bank of Italy building plays it safe - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9icGZNNTRycy1FaTQtV3BEUlRIem1MWTVZRUxfTjFjaUphYzhmWkxIMDFxZG14RU9Xa3VabmZXUFpqTnpjUFpKZ3FCVDF6aWcxT3U2dEdHNDMwRVVaM1kzYm0wUUV6T0U4WldmSFc1WjM?oc=5",
-        "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "How tossing a salad brings sense of unity to Malaysia - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObnBiN0xSS1hiVDVmOUJUU2RqZ0RnOEpfM1Y0Zy1SVHQ5ZGhmR0N3d2NqY3pnTWZLNEVPT0RqdS1aSEhwTE5HWVAxa0hxNUU0WGwzWWdaLVFweE5oaVFlZTJ3bUtJVUh3ZjB5dFhpaG1CSnRONU01OE03c1I0LVlRVWlaODB4N1JWMENJWHVRR2lzSHRienpzVGVzVDlPZFk2OXFnb3d3?oc=5",
-        "pub_date": "Wed, 05 Feb 2025 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Kewpie looks to boost China sales by whipping up salad demand - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeEkzVk0wdVo0bVVWS2JnMVZERmgxMktiMmVTdENnLXczVHN1ZFhEeEZYcTBDdnBMZE1XR3F1bng3QXpTa3BXVzdDVFA0Tk5JTkF0UmVtWkdsOHRUT1dFUWc4QlpLOVRkYmQ4QVptYllQS2x4UDV0UHRzVy1CQVItcm1ob0pnY21LUkQ2bHBVbU0wT2xaLWtJMnZtc3lfcGs1QWxQQzlBbnhmUVBP?oc=5",
-        "pub_date": "Sat, 25 Jan 2025 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Fujio Food to bring Singapore salad chain to Japan - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFZtamxaWWJDeS0xR1o3ZlpzbFlrM3B4QVpWSTdYVDE5MWhNVGg0VWlEd0hpYW5jX3lvZnFTV3BTMi1fcWZ5d3psdUkxTno2Wkdya25HUEZyYWNEck13cE4zSFBtN0hqMmRMTWlRbWY5YTF3ckxybzc5b1R6alRESUNSRFJxRXpCamZZ?oc=5",
-        "pub_date": "Wed, 17 Feb 2016 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "How to Run a Modern Media Company: Bank Crash Edition - The Information",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQajVoQTJXWVd6MGRoTHl2c2UwWUdkNWNDSEgwR3RFNXFSeHhFWmhGTDRuRlV6ZGpXcnhLRmRqNGNvU3RDYTZGd0U3T19DTUN5MGpvNjJfeXFPRnlzekZCSEFBVlJZdkFEUFBjMlFFZVJjQzA3ZnNheS1ldjhGckpQNHpNRGZqTUl4Wks5b2hsQXBRVlZYcW8wdzJYLUhpSkZXeXZ4dld5bGlFY3M?oc=5",
-        "pub_date": "Sat, 11 Mar 2023 08:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "The Solo Venture Capitalist Who Doubles Down Like Andreessen - The Information",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdEJGc1VDUWVVbWdSQXRDX2hBT1gwNnZVNVZXRzBTYWgyMjA3TXkyQ1dQYk5Ya3daVHR1WDdraUdudlVabndQUDlkUXR5eHczWEVuRkhYTVFHcVF5Znk3WmFISldySVhyLXg2RUdBUVpIZ1VpcHA4Z0NsUXRrR1ZlRVpBWFIzNDBRVkR1Q1ROTWszTDg?oc=5",
-        "pub_date": "Thu, 07 Apr 2022 07:00:00 GMT",
-        "source": "The Information"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "개인사업자 '대출 갈아타기' 18일 시작 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fSFNOMHlUVFJjVzJFeHpKV09kck04U3poT0hfZ05fdmdZMjdFdjJvLWI4eFdrMXNLdFlZUDNxSVpZNC11aG9QUGJaTDFzbkRnR295Xy1taF9wd9IBVEFVX3lxTE9RNjctQjE2WTNCZk1UNFBhbWV2ZDlCb3FOdmVBeWJiZUYtU1NaQ2RSZUlTeFl6czE3Y2VkQlEya3JnZFZrbWtPblBMUXQ3OG5ldkVKVg?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:14:13 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "산업 - 매거진한경",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RQ3R1Zmh1dGRPdTZSMnJwWjhQZVhEbVZIU0xPQ2VmRFJrNzlsMTFHNHhXSHFqUUp0dWZLZWpxOFNhMXQyX0o3aXo5cUl2cm52QzBtY2FnVzI2akoydzJfc3Bzd0EyV3cxMUpoUVlVM2Z4b2VPbXY5LQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 15:44:40 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"저렴하게 삼겹살에 소주 한 잔?\"…이런 낭만 끝났다 [김익환의 부처 핸즈업] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3WjFsem9zcHJ6MF9kaVVHXzJsQ0ZyeGs0akozRlpqaEpYSGNRVGRXTWZta1g2U1RSZFc3b2pxcy1xTHZlbFVha0ZvOFhsdG83ak1rTklRczQ5UdIBVEFVX3lxTE16UXNkcnQtUzlxZHBQeG1kczBTYmp3OE1KTU84T241RHpkWk4tNzdrbmZ1NHkxa2pwTzdoTWtra2FvS192RE01UkJJZGc5ZVBmU19TUw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 02:11:04 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "52주 신저가 - 코스피 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWnNFZEV4b2lNMy1ESVhROS1hLWo1Nl9waXMwb2pBaC1KXzd3TFAyRDE4MzA1LXZBcXdsbVpQYzdDbXVGZmRCNGxUZzhvMmFCeUFIcFA0RURoemtqblZONDk4NXVUWDVKc0RUTEhUZ0J4OFVjLWxQZTlLaXA5R1NZTmdiZ0ZqOXEtc0xXcGdfekNScnRkODZr0gGXAUFVX3lxTE9ac0VkRXhvaU0zLURJWFE5LWEtajU2X3BpczBvakFoLUpfN3dMUDJEMTgzMDUtdkFxd2xtWlBjN0NtdUZmZEI0bFRnOG8yYUJ5QUhwUDRFRGh6a2puVk40OTg1dVRYNUpzRFRMSFRnQng4VWMtbFBlOUtpcDlHU1lOZ2JnRmo5cS1zTFdwZ196Q1JydGQ4Nms?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 00:11:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "엑스플러스, +9.81% VI 발동 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNXVzY0lYUno5UmZ3UmhBQ2ppanJaRlZBZzhCYjVtOGZEMDhwT3BpOFMyaGt5RmRKSlNONkZ1eGVYbEp4aTFPdTF0M2R4S0dWSUsyLTQyTDNQekRFOFlZSm9GeWdmT1lYMEZkVkJQd2tSYUw1RG5fNDNZcWNpWjRRREtuTlZ4STZLUUphT2VWWTc0RzhhZHE00gGXAUFVX3lxTE01dXNjSVhSejlSZndSaEFDamlqclpGVkFnOEJiNW04ZkQwOHBPcGk4UzJoa3lGZEpKU042RnV4ZVhsSnhpMU91MXQzZHhLR1ZJSzItNDJMM1B6REU4WVlKb0Z5Z2ZPWVgwRmRWQlB3a1JhTDVEbl80M1lxY2laNFFES25OVnhJNktRSmFPZVZZNzRHOGFkcTQ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 00:12:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "정부 ‘마이데이터’ 5개 과제 수행 기관에 뱅크샐러드·닥터다이어리 등 선정 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaG1BaVpaMVllLURuczJYMWhBc3RodWR6Qy05Z1ktcE9PVzNtejBhUTUxd05Ed2NRN1lhSWJRV1E5RGlWZUthWkdYNlJNcG9GMVd2ZFpPQVdITXcwZFAzbGhLRzY0XzktYVVfam0yNlJDVFhwaW5zM2QxMldQQnJMWTZhUF9SQVF4T2lTbTdNaEbSAaQBQVVfeXFMTVZjbEtEVF91c2dodV94amw0cjBVSTNOS3NVdXhqNmxycDlsU0FBZmZOWDUxQXB0OFNPOW5oWEM0LUFVUUdybXpiY2FGMzhuLWVBb2JyRnJXZHN3LWZmOFZUTDRmMFpJYkswOGpaLWRIQTBDRXN6bURUZTBPLXV6MkFfTHNiWHdtNzlPeUJObkZMZXM4R1RxVVFLY3JHdFhSbUFkc0w?oc=5",
-        "pub_date": "Sun, 11 May 2025 07:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "“은행 돌며 대출받던 신세 탈출”…1분이면 이자 170만원 깎는다는데 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85eUFxbFBROVE4cWhHZTdFVHY2d1hyXzR5NmVEejh5MjNEbExVZWRJTEZZQy1YVWkxeTZZdlJ2STZEaTlWWE9hTmFxZm03bWRxU3c?oc=5",
-        "pub_date": "Wed, 25 Feb 2026 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "https://www.mk.co.kr/sitemap/daily-images/20251207 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtTGtjWEt4anpTcFRRUzRDeVlualppV1J4QXlBOVNQYTZXWHAwT3hndVZ4S2VZbU8yZU1WSURtNm5yZ2JSNmNtUGNNYW5VNFU5ODNHZXViNGFiRXFPSlNv?oc=5",
-        "pub_date": "Sun, 07 Dec 2025 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "“게임하듯 금융서비스 이용” 카뱅, 미션과 MZ인기 많은 샌드위치 브랜딩 결합 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE82MjFQZ1lhVkJSc1ZxcnlPVlZ6ajRrczBId3Zoc3U1dXJEajNjcm5JWThmdVNSdFR0bmdHbDRoNnBGYi15bGc?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 06:28:24 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "메가존클라우드, 국민대와 양자컴퓨팅 전문 인재 양성한다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1RDJzeTU1U0tCZG8wM2QtZjBzanBnNEdJNkpLSnc3amVmRVk4SGdxSDZVUXJCSEx4MV8xNVBWVlZJcG9rckpEOUtpTUFnM1piV2VCS3dn?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 02:26:36 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "뱅크샐러드, AI가 자동으로 이자 줄여주는 ‘금리인하요구권’ 서비스 시작 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vSnZjYmxTWGZvcUNIYW1lZG9PX1pFMmRJdy1EMDdNempackhRcnlSRm80VDhBOThfcEJGRU9KRXVUUVRaVUh4LVprUzFJWEJTaUg3Sktn?oc=5",
-        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "건강데이터 모으는 뱅크샐러드 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tUm9qOUJTa2g4d2pkSmdfRFR2WWpRZm9wN0FhX0o0R3pHZmp1a0sybHoxbVhWWnZ6N1JUalBWYXhYdlhKRmtoWVY1VjJ2NFpLNTdqenBR?oc=5",
-        "pub_date": "Fri, 22 Oct 2021 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "1조 규모 개인사업 대환대출 열린다…은행 '금리 경쟁' 관측은 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zMTVaUVp2eVh2UU94N3c3d3dUa0xuOTRHY3J3ZDQ3cFZLT3Nnck5ZVWJHLUJVcmhqemFDQnRFbG01dEU0X3l4bXY0NHFybXJWMC1RQ2xabjFqdDAyNVU5dnZIa0FCNjd5NU9jR9IBbEFVX3lxTE0zMTVaUVp2eVh2UU94N3c3d3dUa0xuOTRHY3J3ZDQ3cFZLT3Nnck5ZVWJHLUJVcmhqemFDQnRFbG01dEU0X3l4bXY0NHFybXJWMC1RQ2xabjFqdDAyNVU5dnZIa0FCNjd5NU9jRw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 02:26:27 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "뱅크샐러드, ‘마이데이터 맵과 비즈니스 확장성’ 보고서 발간 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wVmZKTklzRGN4VWVYYVJiWlYtdFkxMmNUQm9CWlVUWWJERkl4SjRWRnFWdmRRdTFpUzIycEt2enZMMXFWSEp1aFJINXpMSzVVVUFjTTF1ZFRxR3E4UldaR2I4NFc4a2_SAWtBVV95cUxONU4zSXV3amFkbkNnbHp5SEpCZzFERmNFbHJTeF9VQ3pCNk9RbzNoUDFpQTBuZUdWV085SW53WkJ3c1V1Q1hfWUpDSko3eF9HNTRqNmdLdWl0VGdINDRTanZMMU1wam1zM215SQ?oc=5",
-        "pub_date": "Wed, 25 Aug 2021 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "뱅크샐러드 천인우 리더, 데이터 기반 금융을 말하다 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Hc1VGZk1QTTV0SV9RRUhVN19ia0ZyUlUxcXFwRHZfVFpmTU1Rc2EtcGlYNkVnRS05UU5PbjMwWW5PWV8xTXYwMFc1ci02cXl0aUJJRnhObGl0RGxOX2FBdlFKM041eFnSAWtBVV95cUxNUVlKODhCbWg4Y2VOSkJ6ekNNbUhIN3dHLXhMaXhfRktIekpzenRVY18wcFZCU1d5SjdZYVJ6VHFEUXAxNEMzeHh1R2hLeExieURLUVF6aUJtS0U1VGdpS0c1cjltenZPMXB1NA?oc=5",
-        "pub_date": "Thu, 27 Feb 2020 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[인터뷰] 프로덕트 디자이너가 보는 뱅크샐러드 서비스 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rRHVSb0ZTTmdCZ3ZxMjhRS0tPYXBVbFpEeTZiM21RQ3ZVU09zTnFCTWI0QUZ2MkdjNU5kZnE2OHQzelE1LW9vYjJYZTdGS0U?oc=5",
-        "pub_date": "Sun, 24 Apr 2022 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "삼성이 만든 금융 앱, 생각보다 흥행이 저조한데? - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tLTVEMVZ0TmRaUmFRVnZKU1hIQ25LZmFfcmZ6eklwY2cwNTA2Zmw3NTVDYWtUTDVCRnVkNlRKdURMZFVXMTlPejJJZExDOVE?oc=5",
-        "pub_date": "Tue, 23 Aug 2022 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "파크원에 새둥지 튼 뱅크샐러드의 ‘데이터 인테리어’ - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85eUtKNjBnRy1TN3F2bGF3cFRIbW01OHNnRkhNSFY2RFRBNElGMkZuZHNtUmFHcFVJam9ndzkwUU5YS2tuQk9Qb2Rwc1Z0N0k?oc=5",
-        "pub_date": "Fri, 26 Feb 2021 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 뱅크샐러드",
+      "company_name_eng": "Banksalad Co., Ltd.",
+      "stock_name": "뱅크샐러드",
+      "ceo": "김태훈",
+      "address": "서울특별시 마포구 마포대로 45 (도화동, 일진빌딩) 10층",
+      "industry_code": "66199",
+      "established": "20120702",
+      "homepage": "https://www.banksalad.com/",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "brave_web_results": [
+        {
+          "title": "2026년 뱅크샐러드 채용 기업정보 | 인크루트",
+          "url": "https://www.incruit.com/company/1673440435/",
+          "description": "<strong>한계 없이 문제를 해결하는 문화, 데이터를 가장 안전하게 잘 활용하는 프로세스를 함께 만들고, 제품과 비즈니스에서 실질적 성과를 만들고자 하는 도전 정신 충만한 동료들과 함께하고 싶습니다</strong>..."
+        },
+        {
+          "title": "뱅크샐러드 채용 여정 함께하기 | 뱅크샐러드",
+          "url": "https://blog.banksalad.com/pnc/recruiting-process/",
+          "description": "1. 실무 인터뷰에서는 해당 포지션의 실무진이 인터뷰어로 참석하여 지원자님의 직무 역량, 유관 경험 등 직무에 대한 전문성을 중점으로 이야기를 나눠요. 2. 컬쳐 인터뷰에서는 다양한 포지션의 실무진이 인터뷰어로 참석하여 **뱅크샐러드의 핵심 가치**를 기반으로 협업 역량, 문화적합성, 리더십 등에 대해 이야기를 나눠요."
+        },
+        {
+          "title": "뱅크샐러드 채용, 무엇이든 물어보세요 | 뱅크샐러드",
+          "url": "https://blog.banksalad.com/pnc/culture-faq/",
+          "description": "<strong>대면 인터뷰는 지원하신 포지션의 실무자와 진행이 되며, 실무 역량을 검증하는 전문성 인터뷰</strong>입니다. 컬쳐 인터뷰는 뱅크샐러드의 일하는 문화와의 합치 여부를 검증하는 인성 ..."
+        },
+        {
+          "title": "뱅크샐러드 기업정보 - 채용 24건, 평균연봉 6,032만원, 인원 137명, 업력 13년, 서울 마포구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/63",
+          "description": "<strong>한계 없이 문제를 해결하는 문화, 데이터를 가장 안전하게 잘 활용하는 프로세스를 함께 만들고, 제품과 비즈니스에서 실질적 성과를 만들고자 하는 도전 정신 충만한 동료들과 함께하고 싶습니다</strong>..."
+        },
+        {
+          "title": "채용공고 | 뱅크샐러드 채용",
+          "url": "https://corp.banksalad.com/jobs/",
+          "description": "현재 모집 중인 다양한 직군의 채용 공고를 확인하고 지원하세요!"
+        },
+        {
+          "title": "뱅크샐러드 채용 | 메인",
+          "url": "https://career.banksalad.com/culture/",
+          "description": "금융을 넘어 건강 자산까지 - 뱅크샐러드는 데이터를 기반으로 불균등한 정보의 비대칭을 해결해 자산 관리의 경험을 바꿔나가고 있습니다."
+        },
+        {
+          "title": "블라인드 | 뱅크샐러드 기업정보",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/",
+          "description": "뱅크샐러드 전체 직원의 연봉 정보를 확인하세요. ... 채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
+        },
+        {
+          "title": "(주)뱅크샐러드 2025년 기업정보 | 174건 면접후기 3.2 면접난이도 | 잡플래닛",
+          "url": "https://www.jobplanet.co.kr/companies/276354/interviews/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C",
+          "description": "최고의 연봉·보상 수평적인 문화 주 4.5일 꿀근무 능력있는 동료 복지 끝판왕 인생 최고 동료 만족스런 문화 인지도하면 여기 분위기 좋아요 요즘 대세 워라밸 직원 존중은 기본 탄탄한 비즈니스"
+        },
+        {
+          "title": "뱅크샐러드 공식 블로그 | 컬쳐 블로그",
+          "url": "https://blog.banksalad.com/pnc/",
+          "description": "뱅크샐러드 채용 프로세스를 소개하면서, 각 전형 구성부터 합격률을 올리는 Tip까지 공개합니다! ... 서비스의 성공과 튼튼한 조직 문화를 위해 분기마다 진행되는 뱅크샐러드만의 행사, &quot;뱅샐러드 Pit Stop&quot;을 소개합니다."
+        },
+        {
+          "title": "뱅크샐러드 진행 중인 채용정보 총 1건 - 채용 히스토리 통계 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/42245211/recruit",
+          "description": "뱅크샐러드 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+        }
+      ],
+      "google_news": [
+        {
+          "title": "[현장리포트] 네이버페이·카카오페이·토스·뱅크샐러드, '코리아 핀테크 위크 2025'서 차세대 AI 금융 서비스 선보여 - investnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kWVowOFloamMwRk51ODdsMzEtd2hoaHBwU2luTFRTb2F5bXFGQjlZbWJ1TlV4YVBNU3NjbDI3MkhZRFBRWFZLTDJoNzZ3NVZCN09OWnNOS2YtZUpkRnRSRjNwcV9ua3Q0dkZSTXVKOU1PQdIBdkFVX3lxTFBGaEhfNE9OS1dEcnVHNHFOWXhpZ0U0LXZGb2I1cUhGbVBsWTRzLUNxRGZyQl9leGN5eF9hZWFUVVFUZHM5YjNhSG5iUXRFQnB6N1N3T0UtRzdQa3lYMVMzdXBoVmYwcjd6clY2WktubFRtYnZfS3c?oc=5",
+          "pub_date": "Tue, 02 Dec 2025 08:00:00 GMT",
+          "source": "investnews.co.kr"
+        },
+        {
+          "title": "뱅크샐러드, 전직군 대규모 채용 진행 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53T1RQYTU5REs2cDVpR2l2Ym5QNDlQcUMyWDNPdlFaWDZUYzBZQ3VUMUtHUExwSmhWamh2Z3lLVzdYTk9IckhpX0Y1bWNyZw?oc=5",
+          "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "뱅크샐러드, 보험 매출 230% 성장 업고 GA 자회사 채용 나선다 - 뉴스저널리즘",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40dEZ2eDluTUlfWnZLZlF2VUFRVW1ad3VWcTc4LWZjMzlMRkhfelgwMm1YV2ZYV3lUa2lnNklFNHZ1N1dEWTRwa3d5QzMySG55VlNxdmduS2NDN1JpS3RQU0dmRDlaaVJ5Z1A4?oc=5",
+          "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
+          "source": "뉴스저널리즘"
+        },
+        {
+          "title": "\"데이터 주권에 진심\"…뱅크샐러드, 연말 대규모 채용 나선 이유[인터뷰] - 데일리머니",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQNEtQYlpwb0pvMDgyeldCOUZWMHRNa1J3aVpjYkhrUnphM3o2RjZCYWJXOU43X2VRcS1PWnFENnN4MWt2cmxmYlJESVlsQnpfV091TjVNQWRCQkRHNGI0UVFfT2NuRmNJNmNGOW1PUkdmdw?oc=5",
+          "pub_date": "Mon, 24 Nov 2025 08:00:00 GMT",
+          "source": "데일리머니"
+        },
+        {
+          "title": "메가존클라우드–뱅크샐러드, 금융 데이터·생성AI 결합한 에이전트 공동 개발 - 지티티코리아",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CTUZoYnNKSGttblFvWXFKVVd0Z0xXQkpuQzBEbVdxcE5TblFJVWFJa3FxQVluRHhiRlc5dFNfa2t0ZUxQaGhuSmx2ZWxiaFY2UHoxOWM3Ml9RUEVta2x0eFNfaG81YTNtTWc?oc=5",
+          "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
+          "source": "지티티코리아"
+        },
+        {
+          "title": "뱅크샐러드금융서비스, 인재 확보 나서…'보험 혁신 파트너 찾는다' - 데일리한국",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80ZkQtem9KSlJVS0M1Vk5MWFNXZl9kbDlpTWJXaWU2QkVjTU9rRkluNGVBYzhkeHJPd3VLcWFFSlJvN1BIUVhSMnBidGNYNk1xUnV2ZDhiU1dCUS15b2xZRHdFenBBUW9NaUxDTjR3MNIBc0FVX3lxTE5hOVVYbHpnQ3VVZjB1Qm1iYmpvRGpnRGxaYXdHZXlUZWZYUWYwQVBKa3p3QjQ2bXdqQnM1ZWttZVFiMFJoS3BqOTZHZmJrUTRHcC1pUHhhaGFpUnhNZ1VWVXkya3lWTGFVeTIyeFNiVGp2ems?oc=5",
+          "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
+          "source": "데일리한국"
+        },
+        {
+          "title": "‘핀테크 GA’ 또 나온다…뱅크샐러드, GA 시장 재진입 - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3cTUwdFZmT0ZBQmozYm82ZzFBODctWEEzYUctTUMxQlItSjh0anptNkdETkRpZ3Jic0k3VGdWb3pyREVjQkFHR3JNNi1MbWg3M21XU3NaNWc3QQ?oc=5",
+          "pub_date": "Sun, 21 Dec 2025 08:00:00 GMT",
+          "source": "브릿지경제"
+        },
+        {
+          "title": "뱅크샐러드 GA 자회사, 정규직 채용… 신입·경력 지원 가능 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lenJueFZzd29pT2x6SmpVSnc5dThmSzFQYjBMUTB0RWo4SVZkcnVfOGpfYzM0enpvOWlXWUV6eTBZdng1dUNNRV9tS1FmQjBaRV9yWXY1VktCLXA2dzhVS09UQzFVSFBZWnM4?oc=5",
+          "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
+          "source": "mt.co.kr"
+        },
+        {
+          "title": "그룹바이, 코엑스서 스타트업 채용박람회 개최…채용시장에 '활력' - 헬로티",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83MW9YUXRqMTJrbW4yanRqMzd0OGdFV21nNjN5R3R3VW81cXR5LVNPQ2VHX2cwTkd3MnZxeFpvb0VZTE1tcFpxRF9RWENFWmVVdWItcVBzRjZsbjRCNFZv?oc=5",
+          "pub_date": "Mon, 19 Jan 2026 08:00:00 GMT",
+          "source": "헬로티"
+        },
+        {
+          "title": "‘오프라인 결제’ 진출한 네이버와 토스의 UX 전략 비교 (feat. 코리아핀테크위크) - 디지털 인사이트 DIGITAL iNSIGHT",
+          "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPcGxTaExadlh3MnA4cTJ1akg3WWFDVzFYZ08wQ2g3aV9XTDFEeWtvNjFRbmowNHY3eFhHQ1lfT0JSbGFkZ0xxYmVuOWxYUndVTWt3S2JzbjNMa2w4aVZSNlZuMzRPVU1KdHpka29fOVZhUWY2LXc4ckhDNjctRHhuaUVaY0pfZWJqUlZtNFB2bWc1STh2OXktekp6T3E1OG5RZ2dmUDZ3dnBvSjdIRlhYb203M0VmU0xpd2JvT291MGJhUVlpYlh3UGl5Q1cxa0h4UUVHVmJoRnBUb25Gb2F6SHY5Zko1cE1MM21Yc3pGSkc2MXRyTmQ3VHhiMzNzMzRsUkhIYy00UUZWN2JvTzlqNFlaaS1KT05SN2ZLcFE4MnppUHoxWmQ5cg?oc=5",
+          "pub_date": "Wed, 03 Dec 2025 08:00:00 GMT",
+          "source": "디지털 인사이트 DIGITAL iNSIGHT"
+        },
+        {
+          "title": "“진화하는 마이데이터…AI 에이전트 시대 마중물이죠” - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01SEdGQ3hkUGY3UDdNQUg2d3FrQ1VtLWh3YWF4TjBuaWt1STIwS1BEdHI5bWYweHhQYUN0b2hxMzYwc19YLUpmZmVOZmE2VHFTSGsycmowVEc2UTVHcTMxeTNn?oc=5",
+          "pub_date": "Mon, 04 Aug 2025 07:00:00 GMT",
+          "source": "이코노미스트"
+        },
+        {
+          "title": "\"AI가 최적 금융 솔루션 찾아드려요\".... 뱅크샐러드 'AI 에이전트' 코리아핀테크위크서 호평 - meconomynews.com",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wN3RwUk8wX254aTlNYlpCd0taUktzUXVsUUtMU1Q3UEhiam5VLTZNaFl1UEhaREZ1WjRWcnFYeTBKaDc4TlFBTEdoTlpSclJkSEJFTTNGWkJubzlJYWROQVBISzZTVGc4WjNJOURjbjM?oc=5",
+          "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
+          "source": "meconomynews.com"
+        },
+        {
+          "title": "스타트업 채용 플랫폼 ‘그룹바이’, ‘2026 스타트업 채용박람회’ 개최 예정 - beSUCCESS",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzOThmTWdWM2VOUHVVV2ZkV00tRW0xMGE4a2tjV0Z1dG5uWEtxeV9SZG1tLWRTY3hySi0tV1hRbUhtYWZLUnc?oc=5",
+          "pub_date": "Wed, 07 Jan 2026 08:00:00 GMT",
+          "source": "beSUCCESS"
+        },
+        {
+          "title": "[단독] 삼성출신 변리사를 은행이 왜…\"될성부른 기업에 대출\" - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAybEdienlFOVNaSmdERWhmQnVjSm41eFAzaGtkalFhOHZXekpOdi1QRi1QWHM4YmFubVJPdTBrRUljb1dqRmNEazlMbDRINUhMTkk4?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 08:43:00 GMT",
+          "source": "네이트"
+        },
+        {
+          "title": "사전신청 1만 명 몰렸다…그룹바이, ‘2026 스타트업 채용박람회’ 코엑스서 개최 - 스타트업엔",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wU0RPOFlGZnFkRDVHRU9EWkFUQVVFS2t1azNhdWRIdFprOUh5WVNjUXRyczl0dHlqN3BlSWMwS0FvRVN2Vm1HSThpOXpVR0stcWdWVnVPOWJOTGItd1lTZ1h5LW9fRnMx0gFsQVVfeXFMTU1qeGNYWUlHeUNVbXVFWnNNcWNlTE10eXBMX2hMeWlJaXZmXy1JdFlwT1JaMzNKVTByOEFZZUlEdTd3VUJxMHBtbkkta2owa1R6U3ZCNEFrcHUxdVlScnVVVkpLSERLLXlKekFw?oc=5",
+          "pub_date": "Wed, 07 Jan 2026 08:00:00 GMT",
+          "source": "스타트업엔"
+        },
+        {
+          "title": "뱅크샐러드, 사업자 대환대출 출시…포용금융 나선다 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xb2N5SWp0RjlmOEJIVl9ldzhFVTltNk5ncGZJaDBiNFVBMGJOaGFvaGs5Sk9zaW5aVkFNNXFUNEJ3R1pGZ09UV0lGT0Q4RURFUWVz?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:31:00 GMT",
+          "source": "네이트"
+        },
+        {
+          "title": "SK증권, 뱅크샐러드 실적 개선에 엑시트 '청신호' - IB토마토",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKSWQxZlBpVkhvdV8wM1IyZ0dJbU9BUGYydTNtWWpuM251bHhwQV9QSHQ1T0dxcDcyV1o1eG9wSjhFdEZGbE04ejhBeThRdnVHUWZMWDRVQUV6UU5ScGhFUEF0UlpOQjd2S1ZUN1NYdVhsemRM?oc=5",
+          "pub_date": "Wed, 29 Oct 2025 07:00:00 GMT",
+          "source": "IB토마토"
+        },
+        {
+          "title": "[상장의 꿈] 뱅크샐러드의 코스닥·GA 출사표…과제는 '산적' - 뉴스드림",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wcVhlQm5fSkRXbUZQcGd0bVMtbVpEQk9EOTNiMEcyWXR1QmpzN2NsVlNIUTFiNi04ZUw0ajF4LW9rTlhhS2VOcTc4cGFBXzRDWm9DY080eWlzU3J6ZGdHbzI2OGdHYWRSU1HSAW5BVV95cUxPNE1XSGFqdWlNRUNUbEtFNzZ3X0NfV2djM21yNWt6TG5LYS04MF9PNkZuVjhwVThEWWhhYnlMeHBoMHZwOHFTTlFXREdhMlVRTk45QlVEY2t6Q2J1ZmtUdlRhNVVGNDlVYm1LdW9Mdw?oc=5",
+          "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
+          "source": "뉴스드림"
+        },
+        {
+          "title": "'마이데이터 과금 개선' 강조한 카카오페이, 뱅크샐러드 수혜입나 - 톱데일리",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LUTZscW43bVJwVmN5U1RpWkU4TzdmbkQ4bkpWMG5LS3JQeS1FcmR2NVN2Q3dweWlKSWRRZkd0aXozSXpveTQ1UW1Yb3FxMDhK?oc=5",
+          "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
+          "source": "톱데일리"
+        },
+        {
+          "title": "뱅크샐러드, 분기 흑자 전환 성공…보험 서비스 성장 '쑥쑥' [금융사 2025 상반기 실적] - 한국금융신문",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mM2lrYVV1SjdOaHg1ay1pRmtVcUd5Y2x3ZGJwemxmOVc5dHlMOGd0T3lWSG9iZ0RBYmwxandYejNVd253LUpIS1QtdWVmYjFJeUpwOV9CN2pzZGI3Y3BzR1ZNck9pY3pGWlhMRVlYWV8yTzRFcF9hRzcxZnE?oc=5",
+          "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
+          "source": "한국금융신문"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "뱅크샐러드 \"'신용점수 올리기'로 중·저신용자 신용점수 개선\" - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaFN6QWNsMDdjT2RlUEhZV0JGbWVXN3BqZTgwYktKYllfeEhiVGdFTFYwQVVOSS1mZXJVb2lxN21ub1JNem1nOTdXTjBxR1N4aXpMRlU1VDJLS1Z3WHJmRGtHODJMa3d3UHk2WHQ4cVlRQlBTeV9hb0U3RFMyd3BLbVRnUlVyTUE?oc=5",
+          "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "개인사업자 '대출 갈아타기' 18일 시작 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fSFNOMHlUVFJjVzJFeHpKV09kck04U3poT0hfZ05fdmdZMjdFdjJvLWI4eFdrMXNLdFlZUDNxSVpZNC11aG9QUGJaTDFzbkRnR295Xy1taF9wd9IBVEFVX3lxTE9RNjctQjE2WTNCZk1UNFBhbWV2ZDlCb3FOdmVBeWJiZUYtU1NaQ2RSZUlTeFl6czE3Y2VkQlEya3JnZFZrbWtPblBMUXQ3OG5ldkVKVg?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:14:13 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "산업 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RQ3R1Zmh1dGRPdTZSMnJwWjhQZVhEbVZIU0xPQ2VmRFJrNzlsMTFHNHhXSHFqUUp0dWZLZWpxOFNhMXQyX0o3aXo5cUl2cm52QzBtY2FnVzI2akoydzJfc3Bzd0EyV3cxMUpoUVlVM2Z4b2VPbXY5LQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 15:44:40 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "52주 신저가 - 코스피 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWnNFZEV4b2lNMy1ESVhROS1hLWo1Nl9waXMwb2pBaC1KXzd3TFAyRDE4MzA1LXZBcXdsbVpQYzdDbXVGZmRCNGxUZzhvMmFCeUFIcFA0RURoemtqblZONDk4NXVUWDVKc0RUTEhUZ0J4OFVjLWxQZTlLaXA5R1NZTmdiZ0ZqOXEtc0xXcGdfekNScnRkODZr0gGXAUFVX3lxTE9ac0VkRXhvaU0zLURJWFE5LWEtajU2X3BpczBvakFoLUpfN3dMUDJEMTgzMDUtdkFxd2xtWlBjN0NtdUZmZEI0bFRnOG8yYUJ5QUhwUDRFRGh6a2puVk40OTg1dVRYNUpzRFRMSFRnQng4VWMtbFBlOUtpcDlHU1lOZ2JnRmo5cS1zTFdwZ196Q1JydGQ4Nms?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:11:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "엑스플러스, +9.81% VI 발동 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNXVzY0lYUno5UmZ3UmhBQ2ppanJaRlZBZzhCYjVtOGZEMDhwT3BpOFMyaGt5RmRKSlNONkZ1eGVYbEp4aTFPdTF0M2R4S0dWSUsyLTQyTDNQekRFOFlZSm9GeWdmT1lYMEZkVkJQd2tSYUw1RG5fNDNZcWNpWjRRREtuTlZ4STZLUUphT2VWWTc0RzhhZHE00gGXAUFVX3lxTE01dXNjSVhSejlSZndSaEFDamlqclpGVkFnOEJiNW04ZkQwOHBPcGk4UzJoa3lGZEpKU042RnV4ZVhsSnhpMU91MXQzZHhLR1ZJSzItNDJMM1B6REU4WVlKb0Z5Z2ZPWVgwRmRWQlB3a1JhTDVEbl80M1lxY2laNFFES25OVnhJNktRSmFPZVZZNzRHOGFkcTQ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:12:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "정부 ‘마이데이터’ 5개 과제 수행 기관에 뱅크샐러드·닥터다이어리 등 선정 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaG1BaVpaMVllLURuczJYMWhBc3RodWR6Qy05Z1ktcE9PVzNtejBhUTUxd05Ed2NRN1lhSWJRV1E5RGlWZUthWkdYNlJNcG9GMVd2ZFpPQVdITXcwZFAzbGhLRzY0XzktYVVfam0yNlJDVFhwaW5zM2QxMldQQnJMWTZhUF9SQVF4T2lTbTdNaEbSAaQBQVVfeXFMTVZjbEtEVF91c2dodV94amw0cjBVSTNOS3NVdXhqNmxycDlsU0FBZmZOWDUxQXB0OFNPOW5oWEM0LUFVUUdybXpiY2FGMzhuLWVBb2JyRnJXZHN3LWZmOFZUTDRmMFpJYkswOGpaLWRIQTBDRXN6bURUZTBPLXV6MkFfTHNiWHdtNzlPeUJObkZMZXM4R1RxVVFLY3JHdFhSbUFkc0w?oc=5",
+          "pub_date": "Sun, 11 May 2025 07:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "“은행 돌며 대출받던 신세 탈출”…1분이면 이자 170만원 깎는다는데 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85eUFxbFBROVE4cWhHZTdFVHY2d1hyXzR5NmVEejh5MjNEbExVZWRJTEZZQy1YVWkxeTZZdlJ2STZEaTlWWE9hTmFxZm03bWRxU3c?oc=5",
+          "pub_date": "Wed, 25 Feb 2026 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "https://www.mk.co.kr/sitemap/daily-images/20251207 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtTGtjWEt4anpTcFRRUzRDeVlualppV1J4QXlBOVNQYTZXWHAwT3hndVZ4S2VZbU8yZU1WSURtNm5yZ2JSNmNtUGNNYW5VNFU5ODNHZXViNGFiRXFPSlNv?oc=5",
+          "pub_date": "Sun, 07 Dec 2025 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "“게임하듯 금융서비스 이용” 카뱅, 미션과 MZ인기 많은 샌드위치 브랜딩 결합 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE82MjFQZ1lhVkJSc1ZxcnlPVlZ6ajRrczBId3Zoc3U1dXJEajNjcm5JWThmdVNSdFR0bmdHbDRoNnBGYi15bGc?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 06:28:24 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "메가존클라우드, 국민대와 양자컴퓨팅 전문 인재 양성한다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1RDJzeTU1U0tCZG8wM2QtZjBzanBnNEdJNkpLSnc3amVmRVk4SGdxSDZVUXJCSEx4MV8xNVBWVlZJcG9rckpEOUtpTUFnM1piV2VCS3dn?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 02:26:36 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "뱅크샐러드, AI가 자동으로 이자 줄여주는 ‘금리인하요구권’ 서비스 시작 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vSnZjYmxTWGZvcUNIYW1lZG9PX1pFMmRJdy1EMDdNempackhRcnlSRm80VDhBOThfcEJGRU9KRXVUUVRaVUh4LVprUzFJWEJTaUg3Sktn?oc=5",
+          "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "건강데이터 모으는 뱅크샐러드 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tUm9qOUJTa2g4d2pkSmdfRFR2WWpRZm9wN0FhX0o0R3pHZmp1a0sybHoxbVhWWnZ6N1JUalBWYXhYdlhKRmtoWVY1VjJ2NFpLNTdqenBR?oc=5",
+          "pub_date": "Fri, 22 Oct 2021 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "1조 규모 개인사업 대환대출 열린다…은행 '금리 경쟁' 관측은 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zMTVaUVp2eVh2UU94N3c3d3dUa0xuOTRHY3J3ZDQ3cFZLT3Nnck5ZVWJHLUJVcmhqemFDQnRFbG01dEU0X3l4bXY0NHFybXJWMC1RQ2xabjFqdDAyNVU5dnZIa0FCNjd5NU9jR9IBbEFVX3lxTE0zMTVaUVp2eVh2UU94N3c3d3dUa0xuOTRHY3J3ZDQ3cFZLT3Nnck5ZVWJHLUJVcmhqemFDQnRFbG01dEU0X3l4bXY0NHFybXJWMC1RQ2xabjFqdDAyNVU5dnZIa0FCNjd5NU9jRw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 02:26:27 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "뱅크샐러드, ‘마이데이터 맵과 비즈니스 확장성’ 보고서 발간 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wVmZKTklzRGN4VWVYYVJiWlYtdFkxMmNUQm9CWlVUWWJERkl4SjRWRnFWdmRRdTFpUzIycEt2enZMMXFWSEp1aFJINXpMSzVVVUFjTTF1ZFRxR3E4UldaR2I4NFc4a2_SAWtBVV95cUxONU4zSXV3amFkbkNnbHp5SEpCZzFERmNFbHJTeF9VQ3pCNk9RbzNoUDFpQTBuZUdWV085SW53WkJ3c1V1Q1hfWUpDSko3eF9HNTRqNmdLdWl0VGdINDRTanZMMU1wam1zM215SQ?oc=5",
+          "pub_date": "Wed, 25 Aug 2021 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "뱅크샐러드 천인우 리더, 데이터 기반 금융을 말하다 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Hc1VGZk1QTTV0SV9RRUhVN19ia0ZyUlUxcXFwRHZfVFpmTU1Rc2EtcGlYNkVnRS05UU5PbjMwWW5PWV8xTXYwMFc1ci02cXl0aUJJRnhObGl0RGxOX2FBdlFKM041eFnSAWtBVV95cUxNUVlKODhCbWg4Y2VOSkJ6ekNNbUhIN3dHLXhMaXhfRktIekpzenRVY18wcFZCU1d5SjdZYVJ6VHFEUXAxNEMzeHh1R2hLeExieURLUVF6aUJtS0U1VGdpS0c1cjltenZPMXB1NA?oc=5",
+          "pub_date": "Thu, 27 Feb 2020 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[인터뷰] 프로덕트 디자이너가 보는 뱅크샐러드 서비스 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rRHVSb0ZTTmdCZ3ZxMjhRS0tPYXBVbFpEeTZiM21RQ3ZVU09zTnFCTWI0QUZ2MkdjNU5kZnE2OHQzelE1LW9vYjJYZTdGS0U?oc=5",
+          "pub_date": "Sun, 24 Apr 2022 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "삼성이 만든 금융 앱, 생각보다 흥행이 저조한데? - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tLTVEMVZ0TmRaUmFRVnZKU1hIQ25LZmFfcmZ6eklwY2cwNTA2Zmw3NTVDYWtUTDVCRnVkNlRKdURMZFVXMTlPejJJZExDOVE?oc=5",
+          "pub_date": "Tue, 23 Aug 2022 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "파크원에 새둥지 튼 뱅크샐러드의 ‘데이터 인테리어’ - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85eUtKNjBnRy1TN3F2bGF3cFRIbW01OHNnRkhNSFY2RFRBNElGMkZuZHNtUmFHcFVJam9ndzkwUU5YS2tuQk9Qb2Rwc1Z0N0k?oc=5",
+          "pub_date": "Fri, 26 Feb 2021 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "인턴 채용공고 및 일정, 연봉&amp;복지, 합격 자소서",
+          "description": "⛽GS칼텍스 2026 상반기 채용공고 보러가기 전형절차 전형절차는 서류 - 테스트(온라인) - AI면접 및... 정유석화 기업의 합격 자소서 또는 채용 후기가 궁금하시다면 댓글을 남겨주시면... ",
+          "link": "https://blog.naver.com/dufrhd202020/224220887656",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "스웨덴 워홀 3월의 일상 (1)",
+          "description": "그치만 계좌 오픈은 2-3일 카드는 7일 정도 소요예정 그래서 뭐 할수 있는게 없지만 뱅크아디 로그인은... 했더니 ㄴㄴ 전화해 급하면 응급실가래… 속이 터진다 그렇게 뒤로하고 집으로 배고프니 샐러드... ",
+          "link": "https://blog.naver.com/sodooooong/224220423504",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "[캠우리 7기] 이과생의 우리은행 대학생 홍보대사 합격후기... ",
+          "description": "(개인/기업금융)가 운명처럼 다가왔습니다. 결국 3학년이라는 늦은 시기에 과감히 진로를 변경하게... 12) ※ 서류 접수는 1월 7일 09시부터 1월 14일 18시까지 (기한 엄수 !!) ※ 서류를 합격하신 분들은 대면 면접... ",
+          "link": "https://blog.naver.com/gyo3437/224220353787",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "50명, 자소서 이렇게 쓰면 붙습니다!! (기업분석+작성꿀팁 공유)",
+          "description": "합니다 (= 기업분석이 들어간 자소서만 합격합니다) [이스타항공 자소서 항목②] 고객의 기대를... 재방문, 칭찬, 후기 등)  면접관이 가장 중요하게 보는 부분 “그래서 이 지원자는 기내에서 바로 투입... ",
+          "link": "https://blog.naver.com/on_fly/224219727054",
+          "pub_date": "20260317"
+        },
+        {
+          "title": "최종 합격 후기 / 서류부터 면접까지 / 그냥 학생의 현실 팁",
+          "description": "서류 단계 특이하게 서류 지원이 우리 WON 뱅크에서 진행이 되며 저희 7기 서류에서는 3가지 질문이... 합격 후 면접관 분과 이야기를 나눌 기회가 있었는데 일단 말도 안 되는 오타나 실수를 한 글들을 제외를 한... ",
+          "link": "https://blog.naver.com/filmdream_on/224216374077",
+          "pub_date": "20260314"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "충청남도보도자료20260320금요일",
+          "description": "19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자... 천안시 복지재단 ‘따숨푸드뱅크’에서 운영 중인 그냥드림 사업 현장을 방문해 추진 현황을 점검했다고... ",
+          "link": "http://cafe.naver.com/jungamironware/9239",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 3.1,
+      "positive_themes": [
+        "긍정",
+        "문화",
+        "복지",
+        "성장",
+        "장점",
+        "좋아",
+        "좋은",
+        "최고"
+      ],
+      "negative_themes": [
+        "단점",
+        "스트레스",
+        "힘든",
+        "힘들"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "(주)뱅크샐러드 2026년 기업정보 | 기업리뷰 184건, 3.2 리뷰평점",
+          "description": "장점 : 워라벨 좋고 같이 일하던 동료들이 좋았다. 근데 좋았던 동료들은 점점 떠나는중, 단점 : 검증되지 않은 리더급들이 많음. 대표가 독선적으로 운영함",
+          "url": "https://www.jobplanet.co.kr/companies/276354/reviews/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "뱅크샐러드 2026년 기업정보 | 35건의 복지정보 0 전체 복지 통계",
+          "description": "뱅크샐러드의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 35건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/276354/benefits/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "뱅크샐러드 2026년 기업정보 | 35건의 복지정보 0 전체 복지 통계",
+          "description": "뱅크샐러드의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 35건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/276354/benefits/%EB%A0%88%EC%9D%B4%EB%8B%88%EC%8A%A4%ED%8A%B8"
+        },
+        {
+          "source": "naver",
+          "title": "(주)뱅크샐러드 2026년 기업정보 | 181건 면접후기 3.2 면접난이도",
+          "description": "(주)뱅크샐러드의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.2, 면접경로: 온라인 지원 73%, 면접경험: 긍정적 50%, 부정적 15%, 면접결과: 합격 34%, 불합격 47%, 대기중 19% | 잡플래닛에 등록된 181건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/276354/interviews/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "뱅크샐러드 2026년 기업정보 | 35건의 복지정보 0 전체 복지 통계",
+          "description": "뱅크샐러드의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 35건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/276354/benefits"
+        },
+        {
+          "source": "naver",
+          "title": "(주)뱅크샐러드 2026년 기업정보 | 55건 연봉정보, 5,703만원 평균연봉",
+          "description": "(주)뱅크샐러드의 전/현직원이 전하는 생생한 연봉정보! (주)뱅크샐러드 연차별 예상 연봉 - 7년차: 7,529만원, 8년차: 5,746만원 | 등록된 연봉정보 55건, 최고연봉 8,495만원, 평균연봉 5,703만원. 지금 잡플래닛에서 내 연봉과 비교해 보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/276354/salaries/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "(주)뱅크샐러드 2026년 기업정보 | 기업리뷰 184건, 연봉정보 55건, 면접후기 181건, 복지정보 1건, 채용공고 0건",
+          "description": "소개글 ; 뱅크샐러드는 사람들이 자신의 데이터를 안전하게, 마음껏 활용할 수 있게 함으로써 개인이 문제를 해결하는 방식, 우리 사회가 문제를 해결하는 방식을 바꿉니다. 우리는 온전히 '사용자 관점'으로 디자인된 데이터 서비스와 데이터 활용 도구들을 제공함으로써, 사람들이 자신의 데이터를 뱅크샐러드로 연결하고, 결합하고, 활용하여 세상에 없던 자신만의 서비스를 ...",
+          "url": "https://www.jobplanet.co.kr/companies/276354/landing/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "(주)메이크샐러드 2026년 기업정보 | 기업리뷰 1건, 4.0 리뷰평점",
+          "description": "장점 : 사장님이 열린 마인드이며 매니저님께서 사람이 너무 좋습니다. 일하는 동안 기분 나빴던 적이 한 번도 없어요, 단점 : 기업이 바쁩니다. 따로 식사시간이 없어서 식사를 하기가 힘들어요. 밥을 혼자 먹어야 하는대신 맛있는거를 먹을 수 있습니다.",
+          "url": "https://www.jobplanet.co.kr/companies/383861/reviews/%EB%A9%94%EC%9D%B4%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "토스뱅크(주) 2026년 기업정보 | 기업리뷰 57건, 3.8 리뷰평점",
+          "description": "장점 : 갓오브복지 덕분에 일적인것 이외의 스트레스는 확실히 덜한편, 단점 : 갓오브업무강도, 조절하기 나름이겠지만 업무 속도 따라가려면 쉬기가 애매함",
+          "url": "https://www.jobplanet.co.kr/companies/388392/reviews/%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC"
+        },
+        {
+          "source": "naver",
+          "title": "&quot;카뱅,이미지 좋지만 빠른 성장 후유증도…&quot; | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스",
+          "description": "은 잡플래닛 &lt;컴퍼니 타임스&gt;와 디지털 전문 미디어 &lt;블로터&gt;가 함께 만드는 기획입니다.... 솔직한 평점과 적나라한 리뷰를 통해 파헤쳐봅니다. 카카오뱅크는 인터넷뱅킹 시장을 주도하며 가장...",
+          "url": "https://www.jobplanet.co.kr/contents/news-1676"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 기업정보",
+          "description": "뱅크샐러드의 기업문화, 근무환경 등의 기업 정보와 최신 소식을 블라인드에서 확인하세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 Reviews - &quot;급여는 높은편이나 복지가 없다&quot;",
+          "description": "“그래도 난 좋다 ” ; “성장하는 회사” ; “개발자로써 괜찮은 문화를 경험할 수 있는 곳” ; “좋은 문화를 만들려고 만 함” ; “힘든데 좋아” ; “개발자로 배울 수 있는 회사” ; “실험문화가 잘 정착되어 있는 회사” ; “좋은 동료와 일하기 좋은 기술문화가 갖추어진 회사” ; “분위기 좋고 혁신적인 느낌” ; “빡센만큼 확실하게 성과내고 성장할 수 있는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/review/IS_MSDF75S9"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 Reviews - &quot;정말 잘 됐으면하는 회사&quot;",
+          "description": "“그래도 난 좋다 ” ; “성장하는 회사” ; “개발자로써 괜찮은 문화를 경험할 수 있는 곳” ; “좋은 문화를 만들려고 만 함” ; “힘든데 좋아” ; “개발자로 배울 수 있는 회사” ; “실험문화가 잘 정착되어 있는 회사” ; “좋은 동료와 일하기 좋은 기술문화가 갖추어진 회사” ; “분위기 좋고 혁신적인 느낌” ; “빡센만큼 확실하게 성과내고 성장할 수 있는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/review/UUY9tKfBsI6"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 현직자들의 연봉 정보",
+          "description": "인증된 뱅크샐러드 현직자들이 전하는 실시간 연봉정보를 확인하세요. 평균 연봉, 직군별 연봉도 확인하고 내 연봉도 비교해 볼 수 있어요!",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 리뷰",
+          "description": "인증된 뱅크샐러드 직원들이 평가하는 연봉과 복지는 어떤지 확인해보세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/reviews?page=1&jobgroupFilter&currentEmployeeFilter&orderBy=recommend"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 Reviews - &quot;신입개발자들이 성장하기 좋은 회사&quot;",
+          "description": "“그래도 난 좋다 ” ; “성장하는 회사” ; “개발자로써 괜찮은 문화를 경험할 수 있는 곳” ; “좋은 문화를 만들려고 만 함” ; “힘든데 좋아” ; “개발자로 배울 수 있는 회사” ; “실험문화가 잘 정착되어 있는 회사” ; “좋은 동료와 일하기 좋은 기술문화가 갖추어진 회사” ; “분위기 좋고 혁신적인 느낌” ; “빡센만큼 확실하게 성과내고 성장할 수 있는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/review/NET7nAU2Wpa"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 리뷰",
+          "description": "인증된 뱅크샐러드 직원들이 평가하는 연봉과 복지는 어떤지 확인해보세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/reviews"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 Reviews - &quot;블라인드에 작업글 올리는 것 같은 회사(밑에 별 5개 작업 같다)&quot;",
+          "description": "“그래도 난 좋다 ” ; “성장하는 회사” ; “개발자로써 괜찮은 문화를 경험할 수 있는 곳” ; “좋은 문화를 만들려고 만 함” ; “힘든데 좋아” ; “개발자로 배울 수 있는 회사” ; “실험문화가 잘 정착되어 있는 회사” ; “좋은 동료와 일하기 좋은 기술문화가 갖추어진 회사” ; “분위기 좋고 혁신적인 느낌” ; “빡센만큼 확실하게 성과내고 성장할 수 있는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/review/m_2omT-Sd"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 Reviews - &quot;그냥저냥 거쳐가기 나쁘진 않았다 &quot;",
+          "description": "“그래도 난 좋다 ” ; “성장하는 회사” ; “개발자로써 괜찮은 문화를 경험할 수 있는 곳” ; “좋은 문화를 만들려고 만 함” ; “힘든데 좋아” ; “개발자로 배울 수 있는 회사” ; “실험문화가 잘 정착되어 있는 회사” ; “좋은 동료와 일하기 좋은 기술문화가 갖추어진 회사” ; “분위기 좋고 혁신적인 느낌” ; “빡센만큼 확실하게 성과내고 성장할 수 있는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/review/woXrcX9C-"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 뱅크샐러드 게시글",
+          "description": "인증된 3백만 직장인들이 전하는 뱅크샐러드의 이직·커리어 정보, 기업 리뷰 등 생생한 이야기를 블라인드에서 확인하세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C/posts"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "뱅크샐러드 기업정보 - 채용 27건, 평균연봉 6,032만원, 인원 137명, 업력 14년, 서울 마포구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/63",
+          "text": "뱅크샐러드 기업정보 - 채용 22건, 평균연봉 6,032만원, 인원 137명, 업력 14년, 서울 마포구 | 원티드\n\n# 뱅크샐러드\n\n금융서울 마포구15년차(2012)\n\n뱅크샐러드는 데이터 ​서비스로 ​유저들의 ​삶을 이롭고 ​풍요롭게 합니다. 뱅크샐러드의 미션은 유저가 ​자신의 ​정보를 언제 ​어디서나 쓸수 있는 ​환경을 만들고, ​유저 ​이익이 극대화된 ​디지털 ​경험을 ​설계하는 것입니다. 우리는 ​사람들에게 ​가장 중요한 가치인 ​'돈'과 ​'건강' ​분야에 특히 집중하고 ​있습니다. 혁신적인 생각을 ​담은 ​제품을 끊임없이 ​내는 회사가 ​스타트업이라고 ​생각합니다. 우리는 자동 가계부(2017), ​금융 통합 ​조회 (2018), 소비 기반 카드 추천(2018), 대출 비교 서비스(2019), 신용 점수 올리기(2019), 금융 비서 (2020), 마이데이터 (2022), 무료 유전자 검사(2023), 건강 맞춤 보장 분석 (2024) 샐러드 게임(2025), 최저금리 알",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "뱅크샐러드 채용 여정 함께하기 | 뱅크샐러드",
+          "url": "https://blog.banksalad.com/pnc/recruiting-process/",
+          "text": "뱅크샐러드 채용 여정 함께하기 | 뱅크샐러드\n\n# 뱅크샐러드 채용 여정 함께하기\n\n15 Mar, 2022\n\n채용은 기업의 입장에서는 미래를 이끌어나갈 인재를 모시는 일이고, 지원자에게는 커리어 전환이라는 인생의 중요한 결정을 내리는 과정입니다. 그래서 채용 과정은 일방적인 평가가 아니라, 서로의 히스토리를 파악하고 의견을 나누면서 상대가 나에게 적합할지를 가늠해보는 과정이라고 할 수 있는데요.\n\n저희 뱅크샐러드 채용팀은 이 채용 과정에서 지원자가 좋은 경험을 통해 만족스러운 결정을 내리고 이를 통해 저희가 최고의 인재를 모실 수 있도록, 채용 프로세스를 만들고 개선해 왔답니다 :)\n\n오늘은 뱅크샐러드의 채용 프로세스를 소개해드리면서, 각 전형 구성부터 합격률을 올리는 Tip까지 공개하려고합니다!\n\n자, 저와 함께 채용 여정을 떠나볼까요?\n\n## 여정의 첫 걸음 : 서류 지원\n\n여정의 첫 걸음은 서류 지원으로 시작합니다.\n\n현재 뱅크샐러드는 테크, 데이터, 디자인, 경영관리 등 10개",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "(주)뱅크샐러드 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/TWQxR3poQzNwSFZJMUVEVmNNQjlIdz09/company_nm/(%EC%A3%BC)%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C",
+          "text": "(주)뱅크샐러드 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n관심기업을 설정하여 기업의 최근 소식을 받아보세요\n\n도움말\n\n조회기간 2026.02.18 ~ 2026.03.17\n\n본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다.\n\n조회수\n\n2% 884회\n\n관심기업\n\n7회\n\n기업 키워드 검색 횟수\n\n2% 214회\n\n- 야근 멈춰!\n- 월급을 사수하자!\n- 매출30억이상스타트업\n- 배부른 퇴근길\n- 사람인 핫 스타트업\n- 나의 커리어 첫 시작\n- 매출50억↑★스타트업\n- 경조사 챙겨주는 기업\n- 회식 멈춰!\n- 채용중★스타트업\n- IT통신업종★스타트업\n- 매출40억이상스타트업\n- 초임3천5백↑스타트업\n- 야근 눈치 보지마요\n- 스타트업의 매력★\n- 자기계발비 지원 기업\n- 매출10억이상스타트업\n- 자유 복장 기업 모음\n- 멘토링제도 복지 기업\n- 간식제공 복지 기업!\n- 100억",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "엔지니어링 매니저 (Engineering Manager)",
+          "url": "https://banksalad.career.greetinghr.com/o/176380",
+          "text": "Engineering Manager\nEnglish\nEngineering Manager\nJob group\n테크Job Types\nFull-time\nLocations\n뱅크샐러드대한민국서울특별시마포구마포대로45, 일진빌딩10층 뱅크샐러드**뱅크샐러드는 데이터​서비스로​유저들의​삶을이롭고​풍요롭게합니다.**\n뱅크샐러드의미션은유저가​자신의​정보를언제​어디서나쓸수있는​환경을만들고, ​유저​이익이극대화된​디지털​경험을​설계하는것입니다. 우리는​사람들에게​가장중요한가치인​'돈'과 ​'건강' ​분야에특히집중하고​있습니다.\n혁신적인생각을​담은​제품을끊임없이​내는회사가​스타트업이라고​생각합니다.\n우리는자동가계부(2017), ​금융통합​조회(2018), 소비기반카드추천(2018), 대출비교서비스(2019), 신용점수올리기(2019), 금융비서(2020), 마이데이터(2022), 무료유전자검사(2023), 건강맞춤보장분석(2024) 샐러드게임(2025), 최저금리알리미(2025)를 국내최초로출시하며혁신성을입",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "(주)뱅크샐러드 기업정보 ㅣ 채용공고, 연봉, 직원수 - 리멤버",
+          "url": "https://career.rememberapp.co.kr/job/company/1533304",
+          "text": "(주)뱅크샐러드 기업정보 ㅣ 채용공고, 연봉, 직원수 - 리멤버\n\n# (주)뱅크샐러드\n\n관심 기업\n\n뱅크샐러드는 데이터 ​서비스로 ​유저들의 ​삶을 이롭고 ​풍요롭게 합니다. 뱅크샐러드의 미션은 유저가 ​자신의 ​정보를 언제 ​어디서나 쓸수 있는 ​환경을 만들고, ​유저 ​이익이 극대화된 ​디지털 ​경험을 ​설계하는 것입니다. 우리는 ​사람들에게 ​가장 중요한 가치인 ​'돈'과 ​'건강' ​분야에 특히 집중하고 ​있습니다. 혁신적인 생각을 ​담은 ​제품을 끊임없이 ​내는 회사가 ​스타트업이라고 ​생각합니다. 우리는 자동 가계부(2017), ​금융 통합 ​조회 (2018), 소비 기반 카드 추천(2018), 대출 비교 서비스(2019), 신용 점수 올리기(2019), 금융 비서 (2020), 마이데이터 (2022), 무료 유전자 검사(2023), 건강 맞춤 보장 분석 (2024) 샐러드 게임(2025), 최저금리 알리미(2025)를 국내 최초로 출시하며 혁신성을 입증해 왔습니다. 최근",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "뱅크샐러드, 핀테크 위크 2025 참가… 금융 AI 에이전트 비전 공개",
+          "description": "에이전트 비전을 선보인다. 뱅크샐러드 AI 에이전트는 이용자가 해결하고 싶은 금융 문제를 입력하면... 소상공인 AI 에이전트는 사업 데이터를 분석해 지출은 줄이고 매출은 극대화하는 맞춤형 AI 사업비서 역할을...",
+          "link": "https://www.etoday.co.kr/news/view/2529733",
+          "pub_date": ""
+        },
+        {
+          "title": "뱅크샐러드가 선보인 AI 에이전트 비전은? 2025 핀테크 위크로 돌아보기! | 뱅크샐러드",
+          "description": "시각화된 영상 필름으로 뱅크샐러드의 AI 에이전트 비전이 모든... ‘든든한 사업비서’, ‘영리한 소비’ 분야로 나누어 직접 체험해볼 수... 이러한 방향성으로 뱅크샐러드는 대출·보험·카드·자산 등 금융...",
+          "link": "https://blog.banksalad.com/pnc/fintechweek-2025/",
+          "pub_date": ""
+        },
+        {
+          "title": "뱅크샐러드, 핀테크 위크서 금융AI 에이전트 비전 공개",
+          "description": "에이전트 비전을 선보였다. 뱅크샐러드 AI 에이전트는 이용자가 해결하고 싶은 금융 문제를 입력하면... 소상공인 AI 에이전트는 사업 데이터를 분석해 지출은 줄이고 매출은 극대화하는 맞춤형 AI 사업비서...",
+          "link": "https://v.daum.net/v/20251126180148132",
+          "pub_date": ""
+        },
+        {
+          "title": "뱅크샐러드, 핀테크 위크서 금융AI 에이전트 비전 공개",
+          "description": "에이전트 비전을 선보였다. 뱅크샐러드 AI 에이전트는 이용자가 해결하고 싶은 금융 문제를 입력하면... 소상공인 AI 에이전트는 사업 데이터를 분석해 지출은 줄이고 매출은 극대화하는 맞춤형 AI 사업비서 역할을...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=04756006642369656",
+          "pub_date": ""
+        },
+        {
+          "title": "新 데이터 담론 제시한 '뱅크샐러드', 기술력 입증한 'My AI' 공개",
+          "description": "마이데이터 새로운 지향점 'My AI' 비전 제시 공급자 관점 데이터 활용 사용자 중심 전환 My AI 기반 자산관리 서비스 '토핑+' 최초 공개...&quot;1인 1AI 시대 열어나가겠다&quot;",
+          "link": "https://www.newswhoplus.com/news/articleView.html?idxno=13477",
+          "pub_date": ""
+        },
+        {
+          "title": "뱅크샐러드, 핀테크 위크 2025 참가… 금융 AI 에이전트 비전 공개",
+          "description": "에이전트 비전을 선보인다. 뱅크샐러드 AI 에이전트는 이용자가 해결하고 싶은 금융 문제를 입력하면... 소상공인 AI 에이전트는 사업 데이터를 분석해 지출은 줄이고 매출은 극대화하는 맞춤형 AI 사업비서 역할을...",
+          "link": "https://www.38.co.kr/html/news/?o=v&no=1860896",
+          "pub_date": ""
+        },
+        {
+          "title": "뱅크샐러드, 다이어트 유전자 데이터 공개…’이것’ 못 느끼는 사람 많아",
+          "description": "마이데이터 기업 뱅크샐러드(대표이사 김태훈)가 여름철을 맞아 다이어트 유전자 데이터를 분석했다. 뱅크샐러드는 대한민국 2030 다이어트 유전자 데이터를 9일 공개했다. 이번 데이터는 자사 앱을 통해 유전자...",
+          "link": "http://www.thevaluenews.co.kr/m/view.php?idx=177637",
+          "pub_date": ""
+        },
+        {
+          "title": "뱅크샐러드, AI 에이전트 고도화 전략 본격화",
+          "description": "뱅크샐러드가 메가존클라우드와 인공지능(AI) 에이전트 강화를 위한 업무협약(MOU)을 체결했다고 23일 밝혔다.뱅크샐러드와 메가존클라우드는 이번 협약을 통해 AI 시대에 비전을 제시할 수 있는 기술적∙전략적 협력 기반을 마련하고, 클라우드 및 데이터 인프라 분야에서의 상호 기술 교류를",
+          "link": "https://www.newswhoplus.com/news/articleView.html?idxno=52250",
+          "pub_date": ""
+        },
+        {
+          "title": "[스타트업 창업가 15인 에세이 ‘나의 꿈’] 김태훈 뱅크샐러드 대표",
+          "description": "이 자리에서 나는 뱅크샐러드의 비전과 성과, 앞으로 창출 가능한 새로운 미래 전략을 발표했다. 데이터 중심의 금융(Data Driven Finance) 환경을 만들겠다는 방향성을 말하자 현장에 참석한 많은 사람이 우리 이야기에...",
+          "link": "https://www.forbeskorea.co.kr/news/articleView.html?idxno=325109",
+          "pub_date": ""
+        },
+        {
+          "title": "뱅크샐러드, ‘데이터 융합’으로 핀테크의 새 문법 쓰다… 2026년 하반기 IPO 향한 승부수",
+          "description": "현재의 시장 환경은 뱅크샐러드의 IPO 및 성장 전략에 긍정적인 신호를 보내고 있다. 첫째, ‘실적 턴어라운드’의 가시화다. 뱅크샐러드는 2024년 영업수익(매출) 196억 원을 기록하며, 전년(68억 원) 대비 약...",
+          "link": "https://koreabizreview.com/detail.php?number=7512",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "뱅크샐러드, AI 기반 금리인하요구권 서비스 출시 < 금융·증권일반 < 금융·증권 < 기사본문 - 데일리한국",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1340026",
+          "text": "뱅크샐러드, AI 기반 금리인하요구권 서비스 출시 window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-221060510-1'); --\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\n뱅크샐러드, AI 기반 금리인하요구권 서비스 출시\n\n바로가기 본문 글씨 줄이기 본문 글씨 키우기 -- 본문 글씨 줄이기 본문 글씨 키우기 바로가기 복사하기 다른 공유 찾기\n\n스크롤 이동 상태바\n\n뱅크샐러드가 AI로 자동으로 이자를 줄여주는 금리인하요구권 서비스를 시작한다. 사진=뱅크샐러드\n\n[데일리한국 김민지 기자] 마이데이터 전문 기업 뱅크샐러드는 AI 에이전트가 사용자 대신 이자를 최대로 줄여주는 ‘금리인하요구권’ 서비스를 시작한다고 26일 밝혔다.\n\n금리인하요구권은 소득 증가와 대출 상환 등으로 인해 신용 등급이나 신용 ",
+          "score": 0,
+          "published_date": "2026-02-26T00:00:00.000Z"
+        },
+        {
+          "title": "뱅크샐러드, 마이데이터 2.0 도입… AI 서비스 혁신 가속 - 머니투데이",
+          "url": "https://www.mt.co.kr/finance/2025/06/11/2025061109110234055",
+          "text": "뱅크샐러드, 마이데이터 2.0 도입… AI 서비스 혁신 가속 - 머니투데이\n\n## 뱅크샐러드, 마이데이터 2.0 도입… AI 서비스 혁신 가속\n\n## 국내 유일 금융·건강 마이데이터 고도화로 경쟁력 강화\n\n뱅크샐러드가 '마이데이터 2.0' 시행에 따라 고도화된 마이데이터 인프라를 구축한다.\n\n뱅크샐러드는 마이데이터 2.0 도입에 따라 자사가 제공하는 금융 데이터 범위가 확대됐다고 11일 밝혔다. 마이데이터 제공 정보에 휴면예금과 휴면보험금 정보 등을 추가해 고객 금융 자산 범위를 넓히고 통합적인 자산 관리가 가능하게 됐다.\n\n뱅크샐러드는 금융 데이터 분석에 있어 데이터 해상도를 높여 고객이 최적의 시기에 최대 혜택을 받을 수 있는 금융·건강 자산관리 서비스를 제공한다. 특히 보험진단 서비스에서는 숨겨진 보험금 현황과 자산까지 한눈에 확인할 수 있어 서비스 편의성을 높였다.\n\n추후 마이데이터와 AI를 결합해 선보이는 자산관리 서비스에서도 마이데이터 2.0을 도입해 라이프스타일을 정밀하",
+          "score": 0,
+          "published_date": "2025-06-11T00:00:00.000Z"
+        },
+        {
+          "title": "뱅크샐러드, AI가 자동으로 이자 줄여주는 ‘금리인하요구권’ 서비스 시작 - ZDNet korea",
+          "url": "https://zdnet.co.kr/view/?no=20260226090109",
+          "text": "뱅크샐러드, AI가 자동으로 이자 줄여주는 ‘금리인하요구권’ 서비스 시작 - ZDNet korea\n\n# 뱅크샐러드, AI가 자동으로 이자 줄여주는 ‘금리인하요구권’ 서비스 시작\n\n한 번 등록시 에이전트가 자동으로 금리인하 신청\n\n홍하나 기자 기자 페이지 구독 기자의 다른기사 보기\n\n뱅크샐러드가 인공지능(AI) 에이전트가 사용자 대신 이자를 최대로 줄여주는 ‘금리인하요구권’ 서비스를 시작한다고 26일 밝혔다.\n\n금리인하요구권은 소득 증가, 대출 상환 등으로 인해 신용 등급이나 신용 점수가 오르면 은행 등 금융사에 금리인하를 요구할 수 있는 제도다. 그간 금리인하요구권은 사용자가 직접 금융사별 신청해야 해 제도 자체를 모르거나 시기를 놓치는 경우가 많았다.\n\n뱅크샐러드의 금리인하요구권 서비스는 한 번의 동의 등록으로",
+          "score": 0,
+          "published_date": "2026-02-26T00:00:00.000Z"
+        },
+        {
+          "title": "“AI가 알아서 이자 줄여준다”…뱅크샐러드, ‘금리인하요구권’ 자동 신청 서비스 출시 | 서울경제",
+          "url": "https://sedaily.com/article/20003580",
+          "text": "-- “AI가 알아서 이자 줄여준다”…뱅크샐러드, ‘금리인하요구권’ 자동 신청 서비스 출시 | 서울경제\n\n“AI가 알아서 이자 줄여준다”…뱅크샐러드, ‘금리인하요구권’ 자동 신청 서비스 출시 [코주부]\n\nAI에이전트가 자동으로 금리 인하 신청 4일부터 등록…23일부터 서비스 시행 마이데이터 전문기업 뱅크샐러드는 ‘금리인하 요구권’ 자동 신청 서비스를 선보인다고 2일 밝혔다. 인공지능(AI) 에이전트가 요건 충족시 자동으로 금리 인하를 신청해 대출 고객이 직접 금융사별로 신청해야 하는 불편함을 줄일 수 있을 것으로 기대된다. 금리인하 요구권은 소득이 늘거나 대출을 갚아 신용 등급이나 신용 점수가 오르면 대출 고객이 은행 등 금융사에 금리 인하를 요구할 수 있는 제도다. 다만 고객이 직접 금융사별로 신청해야 해 제도 자체를 모르거나 시기를 놓치는 경우가 많았다. 뱅크샐러드는 이러한 불편함을 해소하기 위해 자동 신청 서비스를 출시했다. 사용자가 뱅크샐러드 앱 내 금리인하 요구권 이용에 동",
+          "score": 0,
+          "published_date": "2026-02-02T00:00:00.000Z"
+        },
+        {
+          "title": "Q1 2026 Global Outlook: As goes AI... - Barclays Investment Bank",
+          "url": "https://www.ib.barclays/research/global-outlook/q1-2026-as-goes-ai.html",
+          "text": "Q1 2026 Global Outlook | Barclays Investment Bank\n\nDouble click here to edit Header v2 component\n\nParsys 1\n\nDouble click here to edit Hero Media component\n\n```\nRESEARCH  |  3 POINT PERSPECTIVE  |  MACRO SHIFTS\n```\n\n# Q1 2026 Global Outlook: As goes AI...\n\n```\nContributors: Ajay Rajadhyaksha, Zornitsa Todorova, Christian Keller and Will Thompson\n```\n\n```\n20 Nov 2025\n```\n\nArtificial intelligence is now the most important driver of growth in the world’s largest economy and is delivering remarkable ",
+          "score": 0,
+          "published_date": "2025-11-20T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Facing US oil blockade, Cuban man powers car with charcoal - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa0xQRzBjQ21IWnZHdjlpOTc0aFU4RWNncWMwSWFKN0E5RlVITUZUTVBwaWZScF9oUzNPV0ZpOGhlU2NicTlUWGdSbUwtRzZSWDJHdmJmeUZsSmo2NDN2SU9BUkdySHpVVVYxR3UwRUEzZU9JUi1PMDZGZWJTT1JqYm90WWxWNEY5UnBSa2N4OUhlLXFZZjZoNlpxeThhWFBQWGtfeTg1djNWQzNZdXc?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 10:05:01 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "JD.com launches Joybuy in Europe, targeting Amazon - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeldOQzVOalZ3bXZPSnZ2Ukd2TmxTZExVNUQ5TFFvbWxmVUZtUjhIbmZKLXNpVEM4N2YtYkY2b3JHZUJHbE1UeGlTTTFfcl9KWE9iR1hZWGtQVlhpOUxyNGVTQVVROThCQzhtY0t5ZXFyTUJHaHhVcFZBQmpCZ0k2WWxKT0ZrNXU3VExCbG1NV3phNnV6SDdUZml5cU1uek1BRS16Tk80OW1vZw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 09:05:29 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Unilever in talks to sell food business to smaller US rival McCormick - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQzBrS1VPcG1qbmF2SWxQcUNSaGxuanNBYW1ydGY0N3Bsd3VQYXVtd0dPd2RSWkh0Nm5BOGVLUG1wTVJGbmRIYVNmOVRHWGVvdWV6azM5Q3dST2hPX0c5Tkxtbm1wR1FMcjk2X1JZUVlzQW4tUndXQl9WQzNnbWNKOFZKcEhtcEhNOHlxT3RxVkU2cV9oazhDc3lDUFN3aTA4eWhueTF2TWtVX1JOQ1V0Q2NZNGpoMW0xYW1VZEZyVjlCcVUzbjVCS2xXQQ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 07:08:51 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "This Is What Wall Street Eats for Lunch - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMHo1NHJ2QjFrTTRsS1FhcEVoekxxR1BRWDI0MEFtc3E5RVdfWWNtQUZjamtLd3dnYl9yWFBiN1hweWdNcXREMURCTk9TREJ2anBJOUt5MTA5aTVHbl9vakI3U2VPamNOaVRHUlZLYVF1VF9HMm1rRHIxcFRXVGdBMVhGM2N4eGVsNkxIQkwwbFFOZVl1SHVpWnpR?oc=5",
+          "pub_date": "Fri, 25 Sep 2015 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Why Salad Giant Sweetgreen Decided to Get Rid of Seed Oils - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONXlrd01wdUc5eEhycDlNekJITEh4d2ZpWDdfM2hFa3lpVnFzeThwNFBsUFgyWE9zNS0yd3FuNzFOWE5kYTVGZlpqOUthYUU2SGhFWm9nODdlSmg2ZWVEd05ZWU9pWEI1YW1SdWJRZWs5cy1aU1R5QWtJd3JWbnZlZHpldFM2ZUhVTV8tMmRORzUza2pUTWx6WTJKZGJXTHFWc1lhTDZhUUdFaHp1?oc=5",
+          "pub_date": "Fri, 15 Dec 2023 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Sweetgreen Tests Robots to Make Faster, More Efficient Sad Desk Salads - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnVZZlpjaW1wWC05WWhRU0x3Qk5Bcjd5SGMwLVhmT2lwa3ZlMER3VVRXN2RNVWhpUDh4a0RZQWN5UDV2ZEtqRzZOb0FCMndHMEtld0tINEhvb1RXbjlUMTM1YlBmaDhidkI3WXJMQVA4NkE4cVJxazdiM0ptb2RNWE05Q3hkQ2IxZjZFVEJORnNRbU5WY0pkYVRXOTAzdllHX0tGbWdFUUFEdy1rOUE?oc=5",
+          "pub_date": "Wed, 17 May 2023 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Digital bank Tandem to acquire banking arm of UK's famous luxury department store Harrods - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HeS1Fc0E1QlctYkxRVWd4TEJhT2FseVlySEhIRHpGTWEtM1hzN29wTlJ4dlZUcjBoOXRkM293Q1pIYkllVmZydjQzTjVxOGhIQVE5YVdvelJCWkc2VVE0Z2wxRmE?oc=5",
+          "pub_date": "Mon, 07 Aug 2017 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "An Interview With The Potato Salad King Of Ohio, Zack Danger Brown - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUxtZ0ZuT0todncxOEFxLVZMRnk5dEw3Q3lzS3gwTW1sVjlYdEJNQ1I1VjBzY2VJTTFUdDNxYy1JdS1TSXpkZjVfUlQwd2RqcjViNWh6Ung1TGlGQnpmMUNMOXpBd003MWx4M20zVTZxbmFIbl8wNEpoNFZyaFd1VEdrUkpDSXlHYVJkelFhUmZfSGFpVTZ4V2NaVmVlYUlPR3c?oc=5",
+          "pub_date": "Tue, 02 Sep 2014 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Sweetgreen’s IPO pricing guidance illuminates valuation range for tech-enabled companies - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZzBvQUhHREVXajZqSTBlbFc2bmZmZFpiZlN4Wnc1X0VZcjM0dktzbkJoOWV5eHhlU2hvcy1uc2p3b2kzUUIxaWRXRnhDWnREa055bW4xSHkwNDlYdUdpd3BQcEwxc0R4RUt3UndUbkRpbERSenVXQzF4QkZvUHNzbGRGRjZ0R0tEcVBlRnROcHluLXBOM1MtS1QwVVdTTzAzYVM1SGFGcmpneXJZWW9Xa3RzdFc0SF9SeHBiS3dfMA?oc=5",
+          "pub_date": "Tue, 09 Nov 2021 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "An Easy Weeknight Dinner: Kimchi-Braised Pork Belly With Tofu - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxOakUtUWtCTG90R0FlQmlwYXJwRC1hOVd2Ym40RjZ6MEkyeFVKSlVyemtPVlhJYlNxczI4a1BVZ0VEbzlTa1R3M1FQMzdScmd4LXE5Qm8yV3Z0MkxWTVlOV2lTUWo0MHVqd2xuMVBKelhLczFDVGJERVo3Rks5c1dLTi1BYUFGeFk1ckJleWpWT2tfbUpUcHMwQzFPeldBRHRLVHR3Y2xRWkM5eXpreEhVWURNRUh3bXNpUDlQdV9lWC00YW5HR2d4UzQtWG5QSzBzbWFrNXFyZVAySVJjQnhONVc2Z0tYcHRwMVJRX0J6d0Z3endXOE83MXdjNWhVdkc3ckdWVEdhRTBQNUx5QmxIcmlXWjVtWkt0R21HbW95aFY5ajBZTWRDelhwbTZkQTJmMWgyY1lFUWJnZE95dlJ2bUJxdFN1dDBYTmxPZllJTVRUb0FMdUJYUW9pc0dhS1ExcENadVVhS3JTSmZ5QlVTTHozREI4bGpsUXROQTY2aW92TWp0a2hQTjNMX2ZUbE1Vclp3dkV5Y0IzSFhSMk1iVUoxMlZ1ZDJCMy10Zlp2VXV3c3kzQjFUcnlR?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "When the Last Local Bank in Town Turns to a Global Salad Company for Help - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOdkhjaVRBVkNSckVrd2NKbTFpWmx2alk1SE9ZMlRZbnptemcyRkR1S0dlRS03Tzh0WTEwZFBna3J3elVjYXRMcUstdWdaZ2VrOXl1UHpXVFVhb2ZlSUNidHlYcE81QWktQVd4NDYxRm8xWFdBOHE0UXJJLUJ5YU9CYTJUWU9TbmN6dUxWNFNWd0xxeFF5MC1sYXphUWQ3LVZKOFpJU1o4TXJfUnhPdEh2alRfZmpwbU1tYmZFQXN0b3BIWDFiTVEwVkNmUHhqVHZVWVJjRFRiWDNUTjFIT2pGcjJJazI3Y1Q5Q1RSbEw0aEVSVEdWbFV2UWFraGdxZDZ0OC1WX2xFNldraWVoRzktV1E4RWxiZlllRlhkRFdFbXR0b2Z4U2poN0dOSzhYdjZjVFZzMjZiTlBFZEhLaXpwVjlBUGN6UlRRMXB3dmx6LWNRWXN5Qk94b05xQWl4aEEtOXpXVGxnR0JCRHJkN0lxZVhmU0ZST1diV00tZHRKMElsV1l1TWlqQzVnTjNwZnp2Xy1BWHB0bVJfZi0yMHVKSXViTjlRdDFHS09vSFNKYlQ4QlM3Z1JOaFFEV2hyX0E?oc=5",
+          "pub_date": "Sun, 01 Feb 2026 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "America’s Most Satisfying Salad - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPRlBfakRMUm81dVBNQ1hhcFEwOWpOaDZZZ2xON2VyaWZrQlJTSDdySy1PN3M0aWpRbXpfakx0bnVVYzlXNjVBUzVRMmZnQi1fZVJsLUhQdVdNelpRbFRGZm9rVHJWR0IxUHhGV1Z6dHJCdzgtYmFOcUlTd0VoZEZpdmdKc3ctUzdEX1hpcDdvbnhCRTU5NXo5NzJiVTlhTWNBRmN1R1N1Z1gyeWZuOVpTYzNYcU9WT2M4ZmFfV0RrUG5nZW5pUW1DOGxkSlVqTHVSSG5JYVRTS0hwUFZDRks3ZFY2LTR1OEV2bjNSSDl1YlZqbXU5c2E4d2poQnZmSnFCTmtMS1VjTFVnRDh2OXQ5ZG8tUktoN01PQ0JFUjNycEs5RTJ2QW5CMDQxbDlRRUM2NnpvU09KYi00UjBmb1dIZnJzQk5pMkx5amxPeDNzY25UbElhN0VyUzFQbjlVT0x5RWhlclBUUWxnSlFSQldNYWdmM2g0Sk9PdFhsM0ViYw?oc=5",
+          "pub_date": "Thu, 27 Sep 2018 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Hereditary peer Lord Mancroft: ‘They don’t care about fox hunting. It’s about us’ - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rVnJqY3Z4WXlVSm1uYWNVeFh6RnR1RlNpeUxLbVhVZ05ZYlFhNVRNejZhUjJKX2xPQ091bktqV1F4NVRuczJDa3pJZk84VHVvTVNaaDI1ZklLWFpDb2ZDVzEyX3lXbUJJX0ttejhHTmU?oc=5",
+          "pub_date": "Fri, 06 Mar 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Five of the City of London’s top salad bars - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01MHI1dnZpR09kcXRuOFlvVTd1U2FNeWdxcElObUFxTElZcWFra3MyeUVnb05pT1ZxMTNLRUVLVDFxN29mb1lLcXF2dksyU2RUWjE5SVpoNkFuVmVkUVhiT2t1dkRIUU4tQXAtWTNGSWw?oc=5",
+          "pub_date": "Sun, 14 Jan 2024 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "The Corinthia, Rome: former Bank of Italy building plays it safe - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9icGZNNTRycy1FaTQtV3BEUlRIem1MWTVZRUxfTjFjaUphYzhmWkxIMDFxZG14RU9Xa3VabmZXUFpqTnpjUFpKZ3FCVDF6aWcxT3U2dEdHNDMwRVVaM1kzYm0wUUV6T0U4WldmSFc1WjM?oc=5",
+          "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "How tossing a salad brings sense of unity to Malaysia - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObnBiN0xSS1hiVDVmOUJUU2RqZ0RnOEpfM1Y0Zy1SVHQ5ZGhmR0N3d2NqY3pnTWZLNEVPT0RqdS1aSEhwTE5HWVAxa0hxNUU0WGwzWWdaLVFweE5oaVFlZTJ3bUtJVUh3ZjB5dFhpaG1CSnRONU01OE03c1I0LVlRVWlaODB4N1JWMENJWHVRR2lzSHRienpzVGVzVDlPZFk2OXFnb3d3?oc=5",
+          "pub_date": "Wed, 05 Feb 2025 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Kewpie looks to boost China sales by whipping up salad demand - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeEkzVk0wdVo0bVVWS2JnMVZERmgxMktiMmVTdENnLXczVHN1ZFhEeEZYcTBDdnBMZE1XR3F1bng3QXpTa3BXVzdDVFA0Tk5JTkF0UmVtWkdsOHRUT1dFUWc4QlpLOVRkYmQ4QVptYllQS2x4UDV0UHRzVy1CQVItcm1ob0pnY21LUkQ2bHBVbU0wT2xaLWtJMnZtc3lfcGs1QWxQQzlBbnhmUVBP?oc=5",
+          "pub_date": "Sat, 25 Jan 2025 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Fujio Food to bring Singapore salad chain to Japan - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFZtamxaWWJDeS0xR1o3ZlpzbFlrM3B4QVpWSTdYVDE5MWhNVGg0VWlEd0hpYW5jX3lvZnFTV3BTMi1fcWZ5d3psdUkxTno2Wkdya25HUEZyYWNEck13cE4zSFBtN0hqMmRMTWlRbWY5YTF3ckxybzc5b1R6alRESUNSRFJxRXpCamZZ?oc=5",
+          "pub_date": "Wed, 17 Feb 2016 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "How to Run a Modern Media Company: Bank Crash Edition - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQajVoQTJXWVd6MGRoTHl2c2UwWUdkNWNDSEgwR3RFNXFSeHhFWmhGTDRuRlV6ZGpXcnhLRmRqNGNvU3RDYTZGd0U3T19DTUN5MGpvNjJfeXFPRnlzekZCSEFBVlJZdkFEUFBjMlFFZVJjQzA3ZnNheS1ldjhGckpQNHpNRGZqTUl4Wks5b2hsQXBRVlZYcW8wdzJYLUhpSkZXeXZ4dld5bGlFY3M?oc=5",
+          "pub_date": "Sat, 11 Mar 2023 08:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "The Solo Venture Capitalist Who Doubles Down Like Andreessen - The Information",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdEJGc1VDUWVVbWdSQXRDX2hBT1gwNnZVNVZXRzBTYWgyMjA3TXkyQ1dQYk5Ya3daVHR1WDdraUdudlVabndQUDlkUXR5eHczWEVuRkhYTVFHcVF5Znk3WmFISldySVhyLXg2RUdBUVpIZ1VpcHA4Z0NsUXRrR1ZlRVpBWFIzNDBRVkR1Q1ROTWszTDg?oc=5",
+          "pub_date": "Thu, 07 Apr 2022 07:00:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "뱅크샐러드 공식 블로그 | 기술 블로그",
+          "url": "https://blog.banksalad.com/tech",
+          "text": "뱅크샐러드 공식 블로그 | 기술 블로그\n\n뱅크샐러드 기술 블로그\n\n# 더 나은 내가 되는 곳, 뱅크샐러드\n\nStories\n\n16 Jan\n\n#데이터정합성 #일해라김뱅샐\n\n## 뱅크샐러드가 게임을 만들 때 데이터 정합성을 유지하는 법 (feat. 낙관적 락)\n\n뱅크샐러드가 앱테크 서비스를 구현하며 마주했던 데이터 정합성에 대한 고민을 공유합니다.\n\nRead More\n\n15 Jan\n\n[#React](https://blog.banksalad.com/tags/re",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "banksalad/styleguide: Official code style guide of Banksalad - GitHub",
+          "url": "https://github.com/banksalad/styleguide",
+          "text": "GitHub - banksalad/styleguide: Official code style guide of Banksalad\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe r",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "하루에 1000번 배포하는 조직 되기 - 뱅크샐러드",
+          "url": "https://blog.banksalad.com/tech/become-an-organization-that-deploys-1000-times-a-day/",
+          "text": "하루에 1000번 배포하는 조직 되기 | 뱅크샐러드\n\n# 하루에 1000번 배포하는 조직 되기\n\n29 Feb, 2020\n\n안녕하세요, 뱅크샐러드 Engineering Foundation의 Framework Team 소속 Server Engineer 안석찬입니다.\n\n실리콘밸리의 벤처 캐피털은 테크 기업에 투자를 고려할 때 그 기업이 확장 가능한 기술 역량을 보유하고 있는지 판단합니다. 이때 판단에 활용되는 지표 중 하나가 바로 하루에 발생하는 배포 수입니다. 더 잦은 배포는 더 많은 비즈니스 요구의 충족을 뜻하고 이는 사용자에게 더 많은 가치를 더 빠르게 전달할 수 있다는 것을 의미합니다. 이렇게 더 빠르고 더 큰 성장이 가능하다면 당연히 더 높은 잠재적 가치를 인정받게 되겠죠. 실제로 Lyft, Facebook 등 실리콘밸리의 유명 스타트업, 테크 기업들에서는 하루에 1,000번 이상의 크고 작은 배포가 이뤄지고 있다고 합니다.\n\n여러분의 회사는 배포를 어떻게 하고 있나요? 배포가 ",
+          "score": 0,
+          "published_date": "2020-02-29T00:00:00.000Z"
+        },
+        {
+          "title": "뱅크샐러드의 특별한 스펙, '테크 스펙' | 뱅크샐러드",
+          "url": "https://blog.banksalad.com/tech/we-work-by-tech-spec/",
+          "text": "뱅크샐러드의 특별한 스펙, '테크 스펙' | 뱅크샐러드\n\n# 뱅크샐러드의 특별한 스펙, '테크 스펙'\n\n26 Oct, 2020\n\n개발자들이 개발을 시작할 때의 모습은 제각각입니다. 일단 코드부터 두드리고 보는 행동파 개발자도 있고, 눈앞에 보이는 노트 위에 간단한 구조를 그려 보는 개발자도 있죠. 뱅크샐러드에서는 모두 같은 행동을 합니다. 우리는 테크 스펙을 써요.\n\n### 😟 문서를 꼭 써야 돼?\n\n코드 짜기도 바쁜 우리는 문서까지 작성할 시간이 없습니다. 대부분의 소통을 코드로 할 때가 많아 글로 소통하는 방법에 익숙하지 않기도 하고, 한 번 작성된 후 업데이트되지 않는 문서는 시간 들여 필요 없는 문서를 양산해버린 셈이 되니까요. 그럼에도 우리는 쉽게`문서화`라는 마법의 단어를 말하고는 합니다.\n\n🤦 맨땅에 헤딩\n\n🧑‍💻: 안녕하세요, 오늘 입사한 김뱅샐입니다. 전반적인 코드 구조를 살펴보았는데, 자산 연동 코드 구조가 왜 이런지(이따구인지) 모르겠습니다. 도움 주실 수",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "코드 리뷰 in 뱅크샐러드 개발 문화 | 뱅크샐러드",
+          "url": "https://blog.banksalad.com/tech/banksalad-code-review-culture/",
+          "text": "코드 리뷰 in 뱅크샐러드 개발 문화 | 뱅크샐러드\n\n# 코드 리뷰 in 뱅크샐러드 개발 문화\n\n24 Nov, 2020\n\n안녕하세요, 뱅크샐러드 BanksaladX iOS Engineer 정진규입니다.\n\n코드 리뷰란 개발자가 작성한 코드를 다른 사람들이 검토하고 피드백을 전달하며, 다시 작성자가 반영하는 과정을 말합니다. 이 과정을 통해 서비스의 기술적인 구현 부분에 대해 공유·습득할 수 있으며, 일관된 아키텍처를 유지하고, 문제를 해결할 수 있는 새로운 관점을 발견할 수도 있습니다. 더 나아가, 잠재적인 장애·버그를 배포 전에 발견하여 전반적인 서비스 운영 비용을 절약할 수 있습니다.\n\n코드 리뷰가 특별한 것은 아닙니다. ‘코드 리뷰’ 키워드로 구글에 검색하면 다양한 사례들을 찾아볼 수 있을 만큼 이미 코드 리뷰 프로세스를 도입한 IT 기업들이 많이 있습니다. 코드 리뷰를 통해 코드의 품질, 서비스의 품질을 높이려는 목적은 모든 회사가 같겠지만, 그렇다고 모든 회사의 코드 리뷰가 ",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.42857142857143,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.357142857142858,
+        "evidence": "13 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01446759"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=뱅크샐러드"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=뱅크샐러드"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=뱅크샐러드+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=뱅크샐러드 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=뱅크샐러드 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=뱅크샐러드 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=뱅크샐러드 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

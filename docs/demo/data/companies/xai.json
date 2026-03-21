@@ -1,728 +1,1025 @@
 {
   "company": "xAI",
-  "sources_used": [
-    "google_news",
-    "brave_search",
-    "naver_search",
-    "exa_search",
-    "credible_news"
-  ],
-  "result_count": 11,
-  "sections": [
-    "strategy",
-    "culture",
-    "overview",
-    "tech"
-  ],
-  "data": {
-    "naver_blog": [
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
-        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
-        "link": "https://blog.naver.com/ytjoo88/224215031143",
-        "pub_date": "20260313"
-      },
-      {
-        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
-        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
-        "link": "https://blog.naver.com/ve_getable/224210299768",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
-        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
-        "link": "https://blog.naver.com/label3548/224210103873",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
-        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
-        "link": "https://blog.naver.com/fusekimo198735/224209926005",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
-        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
-        "link": "https://blog.naver.com/ve_getable/224207830667",
-        "pub_date": "20260307"
-      },
-      {
-        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
-        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
-        "link": "https://blog.naver.com/magicpaul7/224204238038",
-        "pub_date": "20260304"
-      },
-      {
-        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
-        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
-        "link": "https://blog.naver.com/serohero/224199063326",
-        "pub_date": "20260228"
-      },
-      {
-        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
-        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
-        "link": "https://blog.naver.com/jobpass_/224197697044",
-        "pub_date": "20260227"
-      },
-      {
-        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
-        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
-        "link": "https://blog.naver.com/study_edu_/224193834977",
-        "pub_date": "20260224"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      },
-      {
-        "title": "상승세 탄 국내 증시",
-        "description": "5배 더 버는 임직원 속출 이종석 유안타증권 리테일 이사, 74억 '연봉킹' 삼성·다올·하나·NH證 등... 인재 채용·기술 강화·조직 개편 등 속도 규제·인력 유출 우려 등 현실적 난관 우려도 인공지능(AI) 기술이... ",
-        "link": "http://cafe.naver.com/greenb0k6k/175852",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "설명 가능한 AI : 전략적 도구로서의 XAI",
-        "description": "IT 사업자들, Element AI, Fiddler Labs, Truera, Kindi 등 스타트업들도 XAI... 기업의 전략적 도구(Strategic Tool)로서의 XAI와 그 사례 2016년 5월 7일... 컴퓨터 비전 모델을 어떻게 개선해야 할 것인가'가 그다음 질문이 될...",
-        "link": "https://brunch.co.kr/@byoungchaneum/15",
-        "pub_date": ""
-      },
-      {
-        "title": "설명가능한 인공지능(XAI)의 공공분야 활용을 위한 정책 방향 - 대한민국 국회도서관",
-        "description": "표제지 목차 1. 인공지능의 발전과 공공부문 활용을 위한 도전 2 2. 설명가능한 인공지능(XAI)의 이해 4 3. 설명가능한 인공지능 관련 사례 6 4. 공공부문 활용을 위한 정책 방향 8 참고문헌 11 표 1. 설명가능한 인공지능의 종류와 특성 5 그림 1. 딥러닝 모델의 성능과 해석가능성 사이의 상충관계 4",
-        "link": "https://nsp.nanet.go.kr/plan/subject/detail.do?nationalPlanControlNo=PLAN0000049251",
-        "pub_date": ""
-      },
-      {
-        "title": "설명 가능한 AI(XAI)의 부상, 중소기업 정책 방향 | 국내연구자료",
-        "description": "중소벤처기업연구원은 설명 가능한 AI(XAI) 동향을 살펴보고, 중소기업 부문 활용 방안과 정책 방향을... 중소기업 AI 전략·계획 등의 주요 내용으로 반영 (3) (XAI 전문기업 육성) 제조, 금융 부문에서 더욱...",
-        "link": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000197078",
-        "pub_date": ""
-      },
-      {
-        "title": "생성 AI 더해 일하는 방식과 비즈니스의 혁신!...스마트워크의 비전과 미래",
-        "description": ", 스마트워크의 비전과 미래”란 주제로 전자신문인터넷... 위한 방향성과 이를 위한 HP 솔루션을 제시한다. 이어 사이냅 소프트... 대표 XAI기업 인이지 최재식 대표이사가 ’생성형 AI의 원리 및 인공지능의...",
-        "link": "https://www.aitimes.kr/news/articleView.html?idxno=28814",
-        "pub_date": ""
-      },
-      {
-        "title": "[#78.10월4주 비전레터] xAI, '월드 모델(World Model)'로 게임 패러다임을 바꾼다…&quot;AI가 세상을 시뮬레이션한다....",
-        "description": "[#78.10월4주 비전레터] xAI, '월드 모델(World Model)'로 게임 패러다임을 바꾼다…&quot;AI가 세상을 시뮬레이션한다&quot;",
-        "link": "https://maily.so/visionletter/posts/g0zmw847oql",
-        "pub_date": ""
-      },
-      {
-        "title": "[#44.2월4주 비전레터] 일론 머스크의 xAI, ‘Grok-3(그록-3)’ 공개…차세대 AI 경쟁 본격화",
-        "description": "-&gt; AI 경쟁이 기업 간 경쟁을 넘어 국가 주도의 인프라 경쟁으로 확산되면서, AI 슈퍼컴퓨터 및 고성능 GPU 확보가 글로벌 AI 시장의 핵심 전략으로 부상하고 있습니다. -&gt; AI가 단순한 데이터 분석을 넘어 과학적 발견을 돕는 파트너로 진화하며, 연구의 속도와 효율성을 획기적으로 높이는 시대가 열리고 있습니다. 인공지능(AI)은 빠르게 발전하며 우리의 일상과 산업 전반을 변화시...",
-        "link": "https://maily.so/visionletter/posts/w6ovlvemzk5",
-        "pub_date": ""
-      },
-      {
-        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
-        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
-        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
-        "pub_date": ""
-      },
-      {
-        "title": "설명 가능한 AI(XAI)의 부상, 중소기업 정책 방향 - 주제분류-기술/정보화 - KOSI정책연구DB",
-        "description": "◆ 본고는 XAI 동향을 살펴보고, 중소기업 부문 활용 사례와 중소기업 예측 분석에 대한 예시를 소개함. 이후 중소기업 부문의 XAI 활용을 위해 고려가 필요한 정책 방향을 제안 • 인공지능 활용(AI)에 따른 긍정적 기대와 함께 AI 의사결정에 대한 불투명성 등으로 인한 윤리적 이슈도 제시되고 있어 관심을 가질 필요 • 향후 중소기업 분야에서 AI 활용이 확대됨에 따라 이에 따른...",
-        "link": "https://db.kosi.re.kr/kosbiDB/front/subjectResearchDetail?dataSequence=J250730K01",
-        "pub_date": ""
-      },
-      {
-        "title": "[창간26주년기념 특집] AI전쟁 승자는 누구?",
-        "description": "단순한 AI 성능 비교를 넘어, 기술 철학과 미래 비전에 대한 대립이다. 머스크의 xAI와 Grok-3: 반(反)중앙집권적 AI 실험 머스크가 xAI를 출범시킨 것은 단순한 시장 진출이 아니다. OpenAI의 방향성이 빅테크(특히...",
-        "link": "https://www.ceomagazine.co.kr/news/articleView.html?idxno=33253",
-        "pub_date": ""
-      },
-      {
-        "title": "초거대 생성 AI 기반 AI+X 기술, 시장 동향과 유망 산업별 활용, 사업화 전략 IRS 글로벌 홈페이지(www.irsgloba....",
-        "description": "초거대 생성 AI 기반 AI+X 기술, 시장 동향과 유망 산업별 활용, 사업화 전략 Ⅰ. 글로벌 AI... 인공지능(AI) 기술개요와시장전망 1) 인공지능(AI) 기술정의와발전방향 (1) 인공지능(AI) 기술정의 (2)...",
-        "link": "https://www.irsglobal.com/img_up/shop_pds/irsglobal1/design/pdf/814.pdf",
-        "pub_date": ""
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "xAI (기업) - 위키백과, 우리 모두의 백과사전",
-        "url": "https://ko.wikipedia.org/wiki/XAI_(%EA%B8%B0%EC%97%85)",
-        "description": "xAI로 사업을 하고 있는 X.AI Corp.는 일론 머스크가 2023년 3월 설립한 인공지능(AI) 분야의 미국 스타트업 컴퍼니이다. 이 회사의 목표는 &#x27;우주의 본질을 이해하는 것&#x27;이다. 2015년 머스크는 비영리 AI 연구 회사인 OpenAI의 창립 ..."
-      },
-      {
-        "title": "xAI 홀딩스 - 나무위키",
-        "url": "https://namu.wiki/w/xAI%20%ED%99%80%EB%94%A9%EC%8A%A4",
-        "description": "이고르 바부슈킨(Igor Babuschkin) (퇴사) 대학에서 물리학을 공부하였다. OpenAI와 구글 딥마인드에서 근무하였으며 AlphaStar 개발에 참여했다. xAI에 첫 번째로 영입된 멤버이다. 2025년 8월 13일 퇴사. 이후 개인 투자 회사 &#x27;바부슈킨 벤처스&#x27;를 설립했다."
-      },
-      {
-        "title": "xAI 홀딩스/역사 - 나무위키",
-        "url": "https://namu.wiki/w/xAI%20%ED%99%80%EB%94%A9%EC%8A%A4/%EC%97%AD%EC%82%AC",
-        "description": "WSJ과의 인터뷰 내용에 따르면 트위터의 재무 상태가 안정화되었고, 6월 내로 현금흐름 흑자 전환이 가능할 수도 있다고 한다. 또한 혹독했던 구조조정이 막바지에 다가왔고, 다시금 새로운 직원들을 뽑기 시작했다고 한다. 인수 반 년만에 회사가 드디어 정상 궤도에 복귀한 상황."
-      },
-      {
-        "title": "[리크루터뷰] 개발자의 성장과 기업의 성공을 이끄는 데브렐 - 그리팅 블로그",
-        "url": "https://blog.greetinghr.com/recruiterview-4/",
-        "description": "SNS, 뉴스레터, 기술 블로그, 컨퍼런스 등 다양한 채널에서 개발자 분들께 우리 회사의 기술과 개발 문화를 소개하기도 하고, 이외에도 내부 개발자 분들이 몰입해 일할 수 있는 개발 문화를 만들기 위해 지원하고, 기술 역량을 키우기 위한 교육을 기획하기도 해요. 이처럼 데브렐은 개발자와 관련된 채용 브랜딩, 조직문화 서포트, 리텐션 등 모든 일을 다룹니다."
-      },
-      {
-        "title": "\"인재 골든타임 잡는다\"…SK하이닉스, 전방위 채용 드라이브 - The PR 더피알",
-        "url": "https://www.the-pr.co.kr/news/articleView.html?idxno=60549",
-        "description": "더피알=김영순 기자｜SK하이닉스가 13일 새로운 채용 전략 ‘<strong>탤런트 하이웨이</strong>(Talent hy-way)’를 공개했다. 글로벌·지역·인공지능(AI) 전 영역에서 우"
-      },
-      {
-        "title": "설명 가능한 인공지능(XAI)... 왜 주목하나?",
-        "url": "https://www.aitimes.kr/news/articleView.html?idxno=14859",
-        "description": "컴퓨팅 성능 향샹과 잇달은 고성능 AI 칩셋 출시로 엣지에서 수많은 데이터가 생성되면서 인공지능(AI) 모델이 더 정교해지고 뚜렷한 성과도 나오고 있다.기업들은 AI를 새로운 기회로 활용하는 것은 물론 일부 비즈니스의 문제 ..."
-      },
-      {
-        "title": "설명 가능한 AI(XAI)란? - ServiceNow",
-        "url": "https://www.servicenow.com/kr/ai/what-is-explainable-ai.html",
-        "description": "설명 가능한 AI는 기업이 ... 제공합니다. XAI는 <strong>공정성을 다루는 것 외에도 모델 모니터링을 지원하고 규정 준수, 보안및 평판 훼손과 관련된 위험을 완화</strong>합니다...."
-      },
-      {
-        "title": "Kaist",
-        "url": "https://xai.kaist.ac.kr/static/files/2023_xai_workshop/talk3.pdf",
-        "description": "최재식, 김진우, 박천음, 이재호 · 최재식, 신진우, 고영중, 김윤명, 남우정"
-      },
-      {
-        "title": "설명가능한 인공지능(eXplanable AI, XAI)이란? | by Heeyeon Kim | XBrain | Medium",
-        "url": "https://medium.com/daria-blog/%EC%84%A4%EB%AA%85%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-explanable-ai-xai-%EC%9D%B4%EB%9E%80-4e51d9e7bb59",
-        "description": "지금까지 XAI의 정의와 필요성, XAI의 분류와 다양한 접근법에 대하여 알아보았습니다. XAI를 현실 문제에 적용해보고 싶으시다면 주저하지 마시고 apply@xbrain.team으로 연락주세요 :) Machine Learning Engineer 채용 공고 확인하러 가기"
-      },
-      {
-        "title": "xAI 홀딩스 (r82 판) - 나무위키",
-        "url": "https://namu.wiki/w/xAI%20%ED%99%80%EB%94%A9%EC%8A%A4?uuid=c3170fd6-4bfd-46c6-9dff-1dc1ce380b6d",
-        "description": "현재 인공지능 업계는 갑작스러운 수요 증가와는 반대로, 전문적으로 해당 학문에 대한 교육을 받은 인력이 턱없이 부족한 상태이기 때문에 고용 단계에서 큰 어려움을 겪고 있고 기업들은 인재 영입을 위해 제로섬 게임을 벌이고 있다. xAI는 다행히도 일론 머스크의 비전을 내세우며 OpenAI, 구글 딥마인드, 구글 리서치, 마이크로소프트, 테슬라, 토론토 대학교 등에서 업계 전문가들을 섭외했다고 한다."
-      }
-    ],
-    "google_news": [
-      {
-        "title": "일론 머스크 xAI, 월스트리트 인재 영입…금융 AI 경쟁 가속 - 디지털투데이",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCaVBNS21WTUs2dXBwLVVoZzVralMxcTB3dDhCN1lfSnZDWU4zNmNfN2V5Sk9EY3FMOEV5c1kyNzJ3T0dSMXA4Q19Dc0tlNUU2XzhQQU9FSzhaOXAtYUQ3TE1NYzhGdi0xMl9MYzNPY3FibVU?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 11:59:00 GMT",
-        "source": "디지털투데이"
-      },
-      {
-        "title": "머스크 “xAI 처음부터 잘못 설계”…AI 재구축 속 환경 논란 확산 - topstarnews.net",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE14dVlWejBfUDNZZDRYbk56Ujh3RlBOblRQYm1yUnFnRU82eUFadVR2RVBMbV9qb0VyUG5QNDVYWWVDUDN4ekFlQ2hEOTZkdjVkdmJGNkZiSE81VElPUE9VemI3UUhGTm1CZlVmYUh2czR5Zw?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 02:31:40 GMT",
-        "source": "topstarnews.net"
-      },
-      {
-        "title": "[AI는 지금] AI가 일자리 줄인다더니 연봉 11억?…커뮤니케이션 책임자 몸값 급등, 왜 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSS0RjbkJvSE9kcFd3TUJ3cmNOZm9nVXVlaG9zQjl4UlZQNExCSEdGNkc1UjZMSFVCRGpvZVV2aHF6V1VaeFRiNlFva2VOYlJFbGg2NXZB?oc=5",
-        "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "[AI의 종목 이야기] xAI \"그록으로 론딜 짠다\" 월가 인력 대거 영입 - 뉴스핌",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42RUd5bGFHQ0lLUGZRZEgyaUUtWXFPM1FqbjlDWWFlVVA3LV9ibE10Y01oblNPQmhBelpUVGh3Vkh0OUpmaC14YS11WnBvWlcxMUt2WHh3T3FSUThm?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 04:40:00 GMT",
-        "source": "뉴스핌"
-      },
-      {
-        "title": "[빅테크칼럼] 머스크의 xAI·스페이스X 합병 후 암호화폐 전문가 대거 영입…우주-AI 제국, 크립토 퀀트로 무장하다 - 뉴스스페이스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Fc0g1R2lMVlFFNFdTdldrSThMSXRRalM2dHBkRHZDMzdramc5b2xRNllwQ2JTT0dGOFE1R1B5SlU2VWJac1Y2dnNrUloyaGpheTllSXBKOVNtVWdpZnBqaQ?oc=5",
-        "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
-        "source": "뉴스스페이스"
-      },
-      {
-        "title": "머스크의 xAI, 가상자산·퀀트 전문가 채용 나서 - 블루밍비트",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qMmZzWUNLS083YWVBdGFDbmZTVVRwQUxsaVRoQUlyQnFiUko2aHFPbEM1NkgxbFR6c2VKZFJrcG1HMm9MbDluVGlqY2FyWnJE?oc=5",
-        "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
-        "source": "블루밍비트"
-      },
-      {
-        "title": "[일론 머스크의 xAI, 암호화폐 전문가 대거 채용… AI 금융 추론 능력 강화 박차] xAI는 최근 원격 근무가 가능한 '금융 전문가 – 암호화폐(Financial Expert – Crypto)' 직무를 신설했다. - AI넷",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9vUGUtT3JqVDgxOVpFQWJZZjQyRTk2MlRxVVNMWmM5R1hBUXUtdkg5SjV5RzBZbnM0cjdRdXVtWWY?oc=5",
-        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
-        "source": "AI넷"
-      },
-      {
-        "title": "머스크는 바보가 아니다 ‘달 도시 짓자’는 그의 속내 - 테크42",
-        "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOYnoxR2lmbm9UNUlYV1I2eTJ0UjRzSUxxa0g3WVk1Wm81QW12UG5WVEd2cUVFZjFsMlgwbXNSZjRGeGFQZUg0TVI4c2lfeWN2ZkVWb18xQmJwTmNuRHBfYU1PaVBvcVNpdUtBUFJfYzlHUjlIbzM4V21zLVZ0Y1I5dHJjMEowZ2tmamsyb2VfckQ3RHRka2hmSUhQU21QU3owVEJkSVdkc3JuMmJ0V3ZlY2Y2QVRHRFNMN1ctUG9kb29tN1VnSkszZFFDNjQwMzNMNVJPLXR0VHIyTGFETEJHaXBWYWJZQWpTNkRONlpvZGNONGo4VllkNkJyYUhEQlNjd2FEZ3V1TGRqZEpnUUNadE9YaEVUV2d1b3FOQkg3ek1GMG85TkpNMVVYR2M?oc=5",
-        "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-        "source": "테크42"
-      },
-      {
-        "title": "머스크의 xAI, 오픈AI 상대로 영업비밀 탈취 소송 - 마켓인",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PenJoYWtjZWhvVk5KeGNKejRqRkpwaDNwR1lOOWZ5QVBSWE1pUnJGaC1SZ2E1c2Z1bUNNNEJDMHNpM0dJdGp3RHVCSEpIOEUtRVhfdzZmS2pYMFM5Q1YtcEhuSE1rc1I1dTk0UHdpZXVVU0k?oc=5",
-        "pub_date": "Fri, 26 Sep 2025 07:00:00 GMT",
-        "source": "마켓인"
-      },
-      {
-        "title": "일론 머스크 xAI, 암호화폐 전문가 뽑는다 - 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MRjBIXzFud2duMVd2dGE2UXVfT2hpU3BUZkhmVzE4VlNxbzY2TnRsZFEydTQ2bGdHU0dLekJCc2lodU41RlViNEU4a2VYNjJ6dGtR?oc=5",
-        "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
-        "source": "네이트"
-      },
-      {
-        "title": "일론머스크 xAI, 암호화폐 전문가 채용 나선 이유는 - Coinspeaker",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdHJwdXpaRUhuTEx1cTZzX2IyTWtYVUk1clF4NEhXQ2t5c1B5UEVnbmE0NXRRVmlEZGd1VTcwX0ZSWjdxSmt4NU44WmJIZGdfOV9YeDlIZjgxTUxRX29rUWYxQkNhMHZNUXhJNlZWMnJnTldqWnMyMURTY3FjXzVQaW5GQlpBOUdQ0gGQAUFVX3lxTE94eVJCd3BPQW1DWEZocF9xRm9tU29ONVZyVXJra2JlZ3JieUdCSjY1SDNFU3l3MDNVV1A3Ym9RdFBEVlowdEdFenRKQ19qWU5yMW9YY2VRR0hpT19rMjBOUThabVFwa0d3MFVtSVVnOFhEdDhOT1ZvdGFVbWRkSUpBQjBXWlRRaC1GamxMeHRGcw?oc=5",
-        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
-        "source": "Coinspeaker"
-      },
-      {
-        "title": "미 빅테크 간 AI 인력 쟁탈전 갈수록 치열...중국 기업도 가세 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSU1aWDhzWldVUFd2elR5TUZaMFpNZDBNaEUySlBNUm1jOEh5aWpGUGV1V3JBYXMtV0lEVDAtWlpaYmwxc2ZQSVZWaWZwNTZVbG0xYjlJY3lUT29BaUNDTlhwMHFwRnRJWkpJOHFYS0RmWHJydzl5c21hTzFsY2tzU3JSNNIBlwFBVV95cUxQTU4yb3FVUWtvTkV5Sy1NTXI2V3F1VHZlU0dwREJoWVFOang1bnloOEpjY2l0bXJVWUdCTElTdXZoempzaEk0cEZlRUZCcTBVNlB0R1BqZ1hjMC1QbDB5WWxpQ1cwN2M0UHJnY2pySkxnVEQ4aXVCenVCekpKdUs5M280TDRSaU95MVluUUtkX2FnbHJSc0ZN?oc=5",
-        "pub_date": "Sun, 14 Sep 2025 07:00:00 GMT",
-        "source": "조선일보"
-      },
-      {
-        "title": "\"AI계 인형 눈 붙이기는 옛말\"…전문 AI 교사 채용 위해 일반 라벨러 500명 해고한 xAI - AI포스트",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ubm14OVRxejY2YnYwUVdqOHBTV2lTYXRCLUtYc0JKUVNvTGhNWUdoTTdsMjFwZHZ4TVJrYTVzUGxkOVdoeGEzaG5pMHZvSUszTFJLQlBBT0x4NC1fTDVETG9QNkdKZXdEYnp5RdIBcEFVX3lxTFBYMGJtQ2h5V05ISDB3TGxsdWprRlpkY2IyaTFLcUxTRXJMUTh6VnlibEJFQVV3Z3VFY1B3VlFSOUJFY3NnN0prWS0tY0Rmc2pSdGZLR0RWbFl4b0pCVlpPTzJRYVExaDN6VnluX1ViU2I?oc=5",
-        "pub_date": "Sun, 14 Sep 2025 07:00:00 GMT",
-        "source": "AI포스트"
-      },
-      {
-        "title": "일론 머스크의 xAI, 직원 3분의 1 해고…“전략적 전환, 전문 AI 교사 10배 확장” - kmjournal.net",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fd2JwWFdNR1BLT0lTa0VBTzBoVUN0TzZLVTdjbTlHcnVyakkzLXJnQ0pwVFBYQ1ZqaHJvRlg1a3YwQ0VoRV9WU1B6ZVI0cF9vLU9WY1lHcjVxdVJadlU1UE4yTlAwdUFtcVE?oc=5",
-        "pub_date": "Sun, 14 Sep 2025 07:00:00 GMT",
-        "source": "kmjournal.net"
-      },
-      {
-        "title": "[빅테크칼럼] 머스크의 xAI, 데이터 주석자 500명 해고…“전문 AI 튜터 강화” 전략적 전환 - 뉴스스페이스",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5meENqTnotamd4b3JUSUNuY0RDQjhXVmhPMVpaZGdVUU9UeHVUaFJrd015Q0FHWXBSWkFCYmRDeklSakJUY05pbmoteWw0cGxNMS1mVll1TGZ3dS1LdXFR?oc=5",
-        "pub_date": "Sat, 13 Sep 2025 07:00:00 GMT",
-        "source": "뉴스스페이스"
-      },
-      {
-        "title": "테슬라 작년 4분기 매출 3% 감소…\"xAI에 20억달러 투자\"(종합) - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pQjR4MnFqNFpDUnpNUHU0bkE1cDd6VDBRcU9nTXpGenRPeDVudXYta0R3OGgtd0RGdGxSN2NyWlZMMDlKdm9wT1RnWUZhdUdRNmo4VE16Yno5X03SAWBBVV95cUxQLXE2MWlYTk1PSzZXQkc1QVFQUG9CUXp1M3hNbWNfM0dMT2w1TFJabDZCUk0yODdhV0Vyc3I2ZkZpM0JjcGtlWGVvOFN4dE8zMkRMY0VKZU9tQ1lWWnRIejY?oc=5",
-        "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "테슬라, xAI에 2.8조 투자...1분기 중 로봇 업그레이드 공개 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqSXd4TFhFV0FhLWotd3F3TXByV0owNmhKNDJWRDJjeHB1MnFuNkM2OEpNNTNUOU5rRjJ5Z2pxbXl2aGl5LUV3elE1TGJoZjExOUNzSGdWb2owRDBuTDh0N0syNHI5LUQ1YVE?oc=5",
-        "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
-        "source": "AI타임스"
-      },
-      {
-        "title": "테슬라, 인공지능 기업 xAI에 20억달러 투자…AI 협력 강화 - 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tV0xEakh0X3paY2pVLVFfZTh2ZExLVmxpMC1rTV8tNnYwOWRtZ3pFT1JEY3hjQ04taFFnMUNxVUNGaXlDemJ3c191SDVFOFZRdlFJYlRkZnVwaENXQ1pfaE5kYWc?oc=5",
-        "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
-        "source": "디지털데일리"
-      },
-      {
-        "title": "테슬라, xAI에 20억 달러 투자…‘AI 기업’ 전환 가속 - 조세일보",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BajZFSFVvblRnblU0ZkJGalBITlgwTUFSclU3RzNLTDdIMmlqQjRrNE9vU0V0b2Noa0FkSmQ2Rkw5c0RCakI5Vi1OMm91bGxDa01zb0w5RGoxSnotZVVB?oc=5",
-        "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
-        "source": "조세일보"
-      },
-      {
-        "title": "스페이스X, xAI 인수 후 기업가치 테슬라에 근접…’머스코노미’ 지각변동 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zMkRMbDc5ZVhTclRFY25Ld2dDMmpaUDZVa3ZQak1mbjU5bVdLb0h6VzVpaXQ2Sy1OM3h5Ul9oSWhNWV8yWUVXdVhMMA?oc=5",
-        "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
-        "source": "v.daum.net"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "xAI Company Reviews : What's it like to work at xAI? - Blind",
-        "url": "https://www.teamblind.com/company/xAI/reviews",
-        "text": "Community\n\nSalaries\n\nReviews\n\nJobs\n\nFor Business\n\nxAI\n\n3.7\n\n(7 Reviews)\n\nReview this Company\n\n### Work at xAI?\n\nJoin xAI's internal discussion for verified employees only!\n\nJoin xAI\n\nOverview Posts Reviews [Salaries](https://w",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "Member of Technical Staff - AI Experts @ X.ai | 8VC Job Board",
-        "url": "https://jobs.8vc.com/companies/x-ai/jobs/55135936-member-of-technical-staff-ai-experts",
-        "text": "Member of Technical Staff - AI Experts @ X.ai | 8VC Job Board\n\n# Get introduced to the most exciting companies in our portfolio.\n\nJoin our talent networkJoin our talent network\n\n0\n\nJobs currently available\n\n0\n\nPortfolio companies\n\n[Jobs]\n\nstatus: open\n\nSearch jobs\n\nExplore companies\n\nJoin talent networkTalent\n\nMy job alerts\n\n## Member of Technical S",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "Product AI Engineer @ X.ai | Maven Job Board",
-        "url": "https://careers.mavenventures.com/companies/x-ai/jobs/37566497-product-ai-engineer",
-        "text": "Product AI Engineer @ X.ai | Maven Job Board\n\n## Maven Portfolio Company Careers\n\nWork with Bold Founders with a Vision Worth Fighting For\n\nMaven\n\ncompanies\n\nJobs\n\nSearch jobs\n\nExplore companies\n\nJoin talent networkTalent\n\nMy job alerts\n\n## Product AI Engineer\n\nX.ai\n\nThis job is no longer accepting applications\n\n[See open jobs ",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "Applied AI Engineer & Researcher @ X.ai | 8VC Job Board",
-        "url": "https://jobs.8vc.com/companies/x-ai/jobs/43132930-applied-ai-engineer-researcher-post-training",
-        "text": "Applied AI Engineer & Researcher @ X.ai | 8VC Job Board\n\n# Get introduced to the most exciting companies in our portfolio.\n\nJoin our talent networkJoin our talent network\n\n0\n\nJobs currently available\n\n0\n\nPortfolio companies\n\n[Jobs]\n\nstatus: open\n\nSearch jobs\n\nExplore companies\n\nJoin talent networkTalent\n\nMy job alerts\n\n## Applied AI Engineer & Resea",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "AI Engineer & Researcher - Human Data @ X.ai | 8VC Job Board",
-        "url": "https://jobs.8vc.com/companies/x-ai/jobs/38924502-ai-engineer-researcher-human-data",
-        "text": "AI Engineer & Researcher - Human Data @ X.ai | 8VC Job Board\n\n# Get introduced to the most exciting companies in our portfolio.\n\nJoin our talent networkJoin our talent network\n\n0\n\nJobs currently available\n\n0\n\nPortfolio companies\n\n[Jobs]\n\nstatus: open\n\nSearch jobs\n\nExplore companies\n\nJoin talent networkTalent\n\nMy job alerts\n\n## AI Engineer & Research",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "xAI Raises $20B Series E",
-        "url": "https://x.ai/news/series-e",
-        "text": "xAI Raises $20B Series E | xAI\n\nJanuary 06, 2026\n\n# xAI Raises $20B Series E\n\nxAI is rapidly accelerating its progress in building advanced AI.\n\n---\n\nxAI completed its upsized Series E funding round, exceeding the $15 billion targeted round size, and raised $20 billion. Investors participating in the round include Valor Equity Partners, Stepstone Group, Fidelity Management & Research Company, Qatar Investment Authority, MGX and Baron Capital Group, amongst other key partners. Strategic investors",
-        "score": 0,
-        "published_date": "2026-01-06T00:00:00.000Z"
-      },
-      {
-        "title": "xAI Raises $20 Billion to Accelerate AI Development, Infrastructure",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/xai-raises-20-billion-to-accelerate-ai-product-development-and-infrastructure-buildout/",
-        "text": "xAI Raises $20 Billion to Accelerate AI Development, Infrastructure -- -- -- xAI Raises $20 Billion to Accelerate AI Development, Infrastructure --\n\n# xAI Raises $20 Billion to Accelerate AI Product Development and Infrastructure Buildout\n\n--\n\nBy PYMNTS| January 6, 2026\n\nShare: --|\n\n--\n\nxAI raised $20 billion in a Series E funding round to accelerate its progress in building advanced artificial intelligence (AI).\n\n## Get the Full Story\n\nC",
-        "score": 0,
-        "published_date": "2026-01-06T00:00:00.000Z"
-      },
-      {
-        "title": "xAI's $20B Funding and Strategic Position in the AI Ecosystem",
-        "url": "https://www.ainvest.com/news/xai-20b-funding-strategic-position-ai-ecosystem-2601/",
-        "text": "xAI's $20B Funding and Strategic Position in the AI Ecosystem\n\nSymbols\n\nSymbols\n\nAime\n\nProducts\n\nNews\n\nMarkets\n\nWatchlist\n\nBrokers\n\n# xAI's $20B Funding and Strategic Position in the AI Ecosystem\n\nGenerated by AI Agent [Nathaniel Stone](https://www.ainvest.com/news/author/nathaniel-stone",
-        "score": 0,
-        "published_date": "2026-01-06T00:00:00.000Z"
-      },
-      {
-        "title": "XAI Announces $20 Billion Series E To Expand Grok And Construct ...",
-        "url": "https://www.crowdfundinsider.com/2026/01/257160-xai-announces-20-billion-series-e-to-expand-grok-and-construct-large-ai-network/",
-        "text": "XAI Announces $20 Billion Series E To Expand Grok And Construct Large AI Network | Crowdfund Insider\n\n--\n\nxAI has reportedly closed a $20 billion Series E funding round. Announced on January 7, 2026, this infusion of capital is set to propel the company’s ambitious goals, focusing on enhancing its flagship AI model, Grok, and establishing what could become the planet’s most extensive AI infrastructure. Founded by Elon Musk, xAI continues to position itself as a challenger to established players ",
-        "score": 0,
-        "published_date": "2026-01-07T00:00:00.000Z"
-      },
-      {
-        "title": "xAI's $20B Funding Surge: A Strategic Play to Capture AI Infrastructure Dominance",
-        "url": "https://www.ainvest.com/news/xai-20b-funding-surge-strategic-play-capture-ai-infrastructure-dominance-2601/",
-        "text": "xAI's $20B Funding Surge: A Strategic Play to Capture AI Infrastructure Dominance\n\nSymbols\n\nSymbols\n\nAime\n\nProducts\n\nNews\n\nMarkets\n\nWatchlist\n\nBrokers\n\n# xAI's $20B Funding Surge: A Strategic Play to Capture AI Infrastructure Dominance\n\nGenerated by AI Agent [Marcus Lee](https://www.ainv",
-        "score": 0,
-        "published_date": "2026-01-06T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "X Open-Sources Feed Ranking Algorithm GitHub | Harsh Raj posted ...",
-        "url": "https://www.linkedin.com/posts/harshraj-dev_github-xai-orgx-algorithm-algorithm-powering-activity-7419272624259866624-G6Su",
-        "text": "X Open-Sources Feed Ranking Algorithm GitHub | Harsh Raj posted on the topic | LinkedIn\n\nAgree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy",
-        "score": 0,
-        "published_date": "2026-01-19T00:00:00.000Z"
-      },
-      {
-        "title": "How Grok Works Under the Hood: Inside xAI's Infrastructure and ...",
-        "url": "https://medium.com/@saffronhurn651/how-grok-works-under-the-hood-inside-xais-infrastructure-and-training-logic-e36a5a26acb9",
-        "text": "How Grok Works Under the Hood: Inside xAI’s Infrastructure and Training Logic | by Saffron Hurn | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40saffronhurn651%2Fhow-grok-works-und",
-        "score": 0,
-        "published_date": "2025-11-27T00:00:00.000Z"
-      },
-      {
-        "title": "X Algorithm: 12 Proven, Trusted GitHub Mechanics",
-        "url": "https://binaryverseai.com/x-algorithm-github-explained-how-works-feed-xai/",
-        "text": "X Algorithm: 12 Proven, Trusted GitHub Mechanics\n\nX Algorithm GitHub Explained: How X Builds Your “For You” Feed End To End\n\nPlay\n\n## Introduction\n\nX finally did the thing every social platform says is “too sensitive” to share, it published real, runnable code for its For You feed stack. Not a glossy blog post. Not a diagram with inspirational arrows. A repo you can clone, skim, and argue with like an adult.\n\nIf your feed has ever made you mutter, “Why a",
-        "score": 0,
-        "published_date": "2026-01-23T00:00:00.000Z"
-      },
-      {
-        "title": "Breaking Down X's Open Source Algorithm",
-        "url": "https://singhajit.com/system-design/x-twitter-for-you-algorithm/",
-        "text": "Breaking Down X's Open Source Algorithm - Ajit Singh\n\nX just did something rare in the tech industry. They published the complete source code for their For You feed algorithm. Not a simplified version. Not a whitepaper. The actual production code that decides what 500 million daily active users see.\n\nFor engineers, this is a goldmine. We can finally see how a platform at this scale builds a recommendation system. The choices they made. The trade-offs they accepted. The patterns they invented.\n\nI",
-        "score": 0,
-        "published_date": "2026-01-22T00:00:00.000Z"
-      },
-      {
-        "title": "EP146: The Open Source AI Stack - ByteByteGo Newsletter",
-        "url": "https://blog.bytebytego.com/p/ep146-the-open-source-ai-stack",
-        "text": "EP146: The Open Source AI Stack - ByteByteGo Newsletter\n\n# ByteByteGo Newsletter\n\nSubscribeSign in\n\n# EP146: The Open Source AI Stack\n\nByteByteGo\n\nJan 18, 2025\n\n291\n\n1\n\n19\n\nShare\n\nThis week’s system design refresher:\n\nAPI Vs SDK! What's the difference? (Youtube video)\n\nThe Open Source AI Stack\n\nCookies Vs Sessions Vs JWT Vs PASETO\n\nAlgorithms you should know before taking System Design Interviews\n\nTop 6 Load Balancing Algorithms\n\nHow TikTok Manages a 200",
-        "score": 0,
-        "published_date": "2025-01-18T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Tennessee minors sue Musk's xAI, alleging Grok generated sexual images of them - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSjVIUFdMMHFRcF9FQWhnUWNaaXNQNkQ3TUVVUTJPM2xtNzVVZUNoNmxucmdKWFZhemluVXI2Mjc5a1hfLUVrXzZFeW0wckNERGFzODVVV21WcjdBX0hnQkt4ZkprYll6Y1VJck5zZ2YxN3FkZ2N2X0QzdFR6a1FvUmRYX2l0ZW9WbE1tamJXc2ZxdUdkX2dfVGZVbWVBZ1dBTDZzV0w1NEdJNGVvN01tcHJ2Tno0Q1FhVkE?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 10:13:05 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSFJrV0xVbWxrMEFfNDlOYUFlUG1HU29peWJjZkotck9jQkw5VHJPRmxpY2NlUV9YUnVFMEszMHYyVllsdEFwVkk5aF9pdkpHMi0yY1ZhbHBWNmZ3R3RIM0xRTG9rMzdqQVpCa1ZPbEpXS1BxZmlhc2RGbkxELTJkRUV1OUlVWDNKdzdfc0RGQlFmLXM2UHNsYUNMYU1IejVCSEhZSk1HajBNc2J0YkVZWHExMk9RcV8taFFONC1oUVZoYXM?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 10:02:21 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Musk's motives are debated as Twitter shareholder trial nears end - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbmtLckwwbG9GRzZRRzdsRkdQLVB5LUV5RmNUTGttc1ZKc0VtN05PRFpFcFRrWHEyUGN0R1ZvM0FtWW9lRUJ2X25HTTFSa1gxOG16TnlBSDRES3FRZ21DNEZlY25wR2taRTdlQVlJVEp1RkgtaTRiU3dtN0VfVHMwWmhmVUI4RVZic2ZXTC1tX0JUdE8xRW4wUV9YUUVERWZfcy10bUZwa2xYdVEzRmJVMmZyTVBMaDdqM2FBcHVHX2d6LUlxVWhIczQyVFVOaDFYVFk4?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 23:44:57 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "xAI Sends Engineers to Client Sites to Win Business from OpenAI - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjBKUU9iRzZPdnJmYlQydGYtdUJMN01GWERRZFlNTkQ4Xy1KOXFzdDhVZW9WU2NIOUVEQnFHUlRmZGUydmxoNWZSeUU3MklnLWtjb2NQMWZ5RGNsclN6YjU2TkNyS1pEV2EydVU3VW5kaVlGSl9iWkpIWUdyeWtnWjFmYnNsZnE1cjVTbncxY1hOS1l3LXJmU1hMdXdWVGJiZEtCMkVNMkl0S01kSWUzTlNnZ0s?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 13:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Musk’s xAI Hiring Credit Experts, Bankers to Teach Grok Finance - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0ZqNC1pOFNvUnB5SURoRUQtblcwUGpxbU8xeWZXMjViNXJ1Sk4wYkVMVFY1eDFjekZ4RTFjTnVoSkRSLXBIM0sybFBMQWR1RjNiSks2QlF3SGxHZVJyVmZwMUR0aEJqZEI2Z3NGQ1Q5Sm5tS3ZFWnNDNmhvZ1AtUDNKSXhVU2Jja254bzk3MW1TVHJYTFFiMEVsNXVLSlR1cmtVSWt2TUpEN1dIZUdHd0NvMA?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 11:15:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Bloomberg Billionaires Index - Elon Musk - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHLThaSHV6bWtHWlpqX1c1WGhfVUhCRFg1WUtnQVJtd3JvVWRpSkxVTC1ZMlJHUXk5a2FEaDlhSVFudjgzUTRoX2JHT3IzZzhhcTQ2VEFrRi1VcE1BdjdmNl9GTXMxS1l0YjNnZg?oc=5",
-        "pub_date": "Wed, 01 Mar 2017 05:01:03 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Warren presses Pentagon over decision to grant xAI access to classified networks - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQmtadzJyZzBLdmlkMG1yYUduNTBXZlZXVmFNcXlVUlZjWU84RUIyNHdZSmFIRmlZQnJwaUV5VDNsNEo5dVkzZ0hUeFo4cndBZ2w3dHh3NTlPcXhOUUc1VFJEdGhpbTBzcXg0UFhUOGNyQk95OHNKYm53eURDSUZGcmdsX2lzWGM4aHVaZjViYkkyWWtFbzIzMUZaQVlYZl96MG9hRktCVVJ5aU52OFZUbkdUOVN6Zw?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 20:58:36 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "AI startups are eating the venture industry and the returns, so far, are good - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMFlSTlBsYjFyUFVkRVZYVkJNanJVUFJQVy1iMXg1UV9hRjZJM2Y2YUlpbUlKR2dCaUFWMzNGNTVoR1J0dWx1bHE2SHhxSng4SmV6SVhPVUpCYnVBNnE4MXQ2OXdjaDNudjVuY3NUeEdVSThWeXlQWFlaZHZla0E0NExlNFRXbWdhemtYTWRjU2Nhend2MWlrekk3ZzlBX3ZyWnN6QUVTaGFmdDBJRHIw?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 15:41:21 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The Pentagon is developing alternatives to Anthropic, report says - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQjBXYjVKMVlsUW44WWd6VFYtQ09pQm1vYlRqSnR6Q2gxWEFHWXIzMkhJNGRRMFlHdV8yV20wUFczSVpFcVN2SXJ0OEpzamFheGNPT2x4VjNpZEltNzRVSHFQbnhuVVB3V18xSC00dFFINV9GVGs5SmpvNGFKNlRra2ZSZUsxWXdieGNiTnZYdkpkNFVfLXVRZEo5azFqaU9Z?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 18:20:15 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Musk Says xAI Must Be Rebuilt as Co-Founders Exit - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxNSlRjNnB5OE5UQkRSQXFoWEcwRm15ZHA4V2R4Q3hvbEZrT0lwb2lPQmNBVll6d2FZY2ZYdURyMDJ2c2ktaGlQWFVybTZRUkdocFdKZGRVSUdUOUpHYzhtMk5fNVdsQkFxX19Qc1Y5dzFNanprN3luaTVhODlXR0tva19WNUR0dXk3NzdtS0lmODcxdFdMUWpiQkloSV9uMG5oTjU1ZG5HVjVLOUpGQlNQNGZJbkFKN0hTUkdKeURFSThnMWQwTzJtTDAtazNLSkZBQThsUEp1ZG9tNTJCcXlSQlNEZ09xVy1CVkNkWkJ6RS01ZnZteTJ2UHkybG14VWpqNlN4NlJMN1RPemJaSUUyOVRfYnVISmNLNVZWWTZEbERhVWV6bWZJRk1XZ29wQUx4UDVKdHBIalZzTnhTUmt2d0VHQ1NCSk9oQ2ZzX0pzMm80a01QaWdZMTJBanJWdE5XT25oTmJHU0laLUVnWU5NajJuczdiSFpnNmh1bUdXVmoxTk84TElBN2UzVVN4WllX?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 20:07:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Exclusive | Government Agencies Raise Alarm About Use of Elon Musk’s Grok Chatbot - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxNU1lEdng0UG1DU2tIWGxtQmJnZWtxLU1QZnNzZThUTHpJdDZVMzA4RXh1YlJ0LWtHaEROdGZiVHd3YmsxZDI1ZUViOWYyX2lySHMzeUhlLVlyOUphVXRwdlJZek5PTTBjelRrSWRod3gzUTNjUE9iU1ltVV8wM3BaOS1WX1d3aTRpQmFTZEJFbDMxSEN4c0ZzQ0VPWkVZTnR4N05YVzgwRjhtQkMxdFhBTlg2VHBkc3hFS3dRTk9zNGExQ3hGWHk2R3FhbEpfTkd6d1hYek8xbUQ4bHNJdnJNMGU2S2JjVU9JUS1KVDk2d0l4d25xNFJvZTdKdnZYbzNTVjIyYjEwMGhaclU5U2V2ZmRnd3pxTjBMMGd6U3V6WkVWT25vbTNVVDE3ODlfVGJPR3hxVEhSQV95bTJuMkxHTDl3ZGJhZk1BQU1nUFRxZE1VOVAxQWIxa3hEUzNQTjFFN1ZyWHpCM25ndHd5YzhXMVVCd2xCNHd6OTRwcnpBZU1GMzllNnlmOUN4MThHSFltVGpKVjlLQVZabUVYdEhFWWJud3A0RGFN?oc=5",
-        "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Apple Is Way Behind in AI—and Still Making a Fortune From It - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxObzVkQTN5X2FpclpzVno4NVVKVTdZemVyNENjenI1bHpmcGh0R1pFYXl2a1lWMDZBcjVIOGdxTkRGZExqQUZKWTUta3RyT3lQM0tHbTh3aXRuNUFCZV9tSGhWVHhrX0NtOEtSRnZJQ28zWmFIOVJneWpVWC1ZWjBZUElFbldzeU5SR1FER09aUC1SNHp6VC1Jc2RDbm9ZRDI0dDJmcm1qMGFXZnB5a05ueXRUWWVkSzJQVXNMemFOeTZBcjF4WnZWRExZbm9meWFwT3hFQW4tNlo3dUJVMVN6ckN4aDVSc0trQTFEbkVCMDFCaUVzSjFCYzhtYlJhdEhLd0NhemU1QmJpUVYweHdIUi1Gc29oNnYtM19UcHNpNmtybU9ScGFodlpORzdzOGpfOVlLVThHaGdObWk5ZG1zODRITVl5M292eVl6T3R1YzhyZEh4U1RNYTIxZGdfLTFMV0hIam9NNndqVzh4WU8zZ1FTR3pJbk10Y2ZSVg?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 02:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Elon Musk pushes out more xAI founders as AI coding effort falters - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeFdienhxWVpRZDJVSFJHRlp0d1RqMjhJdFB1UTNJU19STlVvUjdIRk1rVDEtRElPemY4anZ0Qkw0cGV1bEo0N2d1WTNhNjRmVmNVSGpJZjZRbWRvdUxGUGdGOGhyd1I4SGxmYk9JMm45SkQ0SlI2eWZVVldxY3hoaGxOS3k?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 15:36:53 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "EU privacy watchdog opens probe into Elon Musk’s X over sexualised AI images - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNlNpVG5zZUwzdzNxdUQ0NEd6TG1uVmdBVGRYSmJsbW9iS0JkTUtFOW12anBPRER5NjhCVlFSUTBKeU5ubFd3aWJCQzFla3dNT1dyLTR3dmJ2VDc5X2pSRzZpNXJLak1xLTJ5NUlpZzE5SWMxUUl3YTVwQmQ5aHF6eDRabGI?oc=5",
-        "pub_date": "Mon, 16 Feb 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "‘The race is on’: will Elon Musk be the first to put a data centre in space? - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWE1sSGx6ZjM3clJEblh2SjJuNndNU1Qwd1Ytb1FrOWNmRmRnQlRIT0xfZkZySkZMcDZLbFpVblJtVzN0WExkaUozRmVVaGJUcTJnNFM5ZkRCdGZFdXlpNkd1UFJCd1V2c0dJN1M2ang0c3JqVFBiNENxLU9uTGtWOHBTSWE?oc=5",
-        "pub_date": "Mon, 09 Feb 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "California demands Musk's xAI stop producing sexual deepfake content - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdDdlbm1QUTRlYUh3c284VHZPQllQZ0VPTWFXN1BGQkhleTJEa0llRFlxckRybEM2NjZmaVNXQ3BWdVFERDBGcXBrUjBjaUVrcGw3Z0dOcHBYTlhRYldSNkZYUXBWN3lFT2UtUDF3LUI2LXlUV05vVS1EY2Mya3hraDcyY2x4Y0VmOWdJNlhFOEhJYWpjaUFQdHU3MTJybG8zNTVHOV9tTGgta3E3V25hMTUwUFNsMHJKNWlhLWswdHk2WFd3TnJDZHktT2t6aUhVOXc?oc=5",
-        "pub_date": "Sat, 17 Jan 2026 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "SpaceX acquires xAI as Musk looks to unify AI and space ambitions - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcTVnTE9FbnZ5d1Mwa0ZLamFVME9fMkpkRU1iLXRaRXhYeHFEdm5GSE9TV2FCVHdqcGxDODRoRGJleEoyOTNrY3U5eVNSVWV3OEJSWVdhZ2F5YTVFUi1Mb01SYXJnQXlRWmFKUTZXR0stWl9PYVNQclVHdmVMX0FZWWtsb1pKWTVOSVk4QTJmeUZ2S0RSOERVcjEzTVdsMkFlRnY0SVRTcVo2UUZWYzhVZFNtb2ZhZnBSR1pzQ3FOamQ1MmhDc3c?oc=5",
-        "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "China's AI tech leaves aside questions of ethics - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaDlqN2duUTA0UDZCVUpsZlJndWJYc1p5MUw4aG1yWnNETERKZEZicnl6Smpua1NpbW5XbE9VdXNEYkV5eG9NT2U5NzZ5V0NZV2NkLWRIWllsbTFkVEltV0hNVUQ5dGItcTVvTFpibFhwMFJpZGRIa1pxbEkxUWtUQXNDLTh4cGNrNzdyaXZXVEhES0Jk?oc=5",
-        "pub_date": "Sun, 23 Aug 2020 07:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "8 Questions Investors Need to Ask About SpaceX’s IPO - The Information",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUU00Z3dkTVE1eEZBU1NGQXFBRm9FSHdPd0JFY0FJZHpKeFdMUFQ3VUNHSDlfSEpiSS1iQmRvRGt1OGV4b042NnI1UjA5NWlKMU5HYVZMTnJLbUtkSzJMWFpieDVxU3dNa3NpLWtlMEtha05sNC1IN25Rblc0cnBNLURxMDhzNEhoekE?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 13:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "What OpenAI Could Owe Elon Musk; An xAI Hiring Spree - The Information",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbUd3Ti15c0EtSkVoUHVqTXppNFNwUkFNU0ItM0x1MV9RVUZfbkUyUC1TeFlmcEp1LUlGdWJkNzcxNGg0ZElybHhQQ0wwd1c3Ty1vdGV0UG54bGx6Z2YtRE9feDljVzhXMlhXdTRaeUxKYnhQcUM3VlltWWJqUTNvQlpRbDQwZ1d3ZXpIbEluYXlwTTg5?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 14:15:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "OpenAI, Musk and Focus - The Information",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxU2M4T2pzci1fSG01TnlxdWVsX0o3ZHBDQzVLTlVRSjFUUmNZeEluSVplaWVMUURNel9Ma0dzU0NhSEpGcVVHa0F5enRRQ3hmNHdMVmZfeUQ5d3pxaUhnSkFMNHVoOGJHbVc5UmI4Sksyd2tlX2RzNGFoWnpIZw?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 00:00:00 GMT",
-        "source": "The Information"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "\"초인적 속도\" 젠슨 황도 감탄…머스크 큰소리친 이유 보니 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0cE5uNngwNXhObVhtdEhWS3FTZTJ2OVc4OF9aYTNLdndZc05IampBYm0tZDhYeHY1dnREYm9BOHRDc21jdUltWmhROXFteXdmd0lHc3JURU9BQdIBVEFVX3lxTE9JODc5VEVHT3c3WGtDYVJZQ3VpVTM0YjZIVTRnYVh2RW9IX1hHV1BDNTVsYjhNYjhkRXJJU09SMGJCVURyTWZFMFl5OTFmME5hd3Uzag?oc=5",
-        "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "두산에너빌, 美에 스팀터빈 첫 공급 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtaENtc1g4dEg4T1o2VFdKRTZWUGNxOTRsSEJva3puWk12Yzg4S1pkUE54RFRMNU9DQU9pRE5ZWnhGNF94b3dURGJsN2luUEY5MnhDUFFTOWRwd9IBVEFVX3lxTE5YajAxYm90S213NXhnQ0h0cjNid25lRVpGX2M1TFE4NzRJQy1JTWtCd0Vsbk9VQkZDZXRBTmVwdS1BNTVBRGZiVkJIZDNfYzZxemx3Qw?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 08:32:01 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "두산에너빌, 美에 스팀터빈 첫 공급 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR3BFSlJ6VUJGYXBQOUs4Tk5md1FuRmkxQkstdVNCM3QtQ3AzU0x2NWtFSC14M29ISW91N1h3WE1yNUhiSndveUt4OWdPSXRobmtOOHNjR0oycEdMT0w5aVJZSjFSaTJLY2FhRk1rclNmSVdEbjFXVWs1eDdXYVhNZGgtaGZlV1ZMNXRlNG1qMm5JcE92cFZINTh6cS02cFZXWGV4SWhPZnhLVjZsMnc?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "[단독] 미래에셋, 스페이스X에 1600억 추가 투자... xAI 통해 지분 확대 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNVhxWU03dzYtQ2VaWnQ2QTlyMUdXR2UxRm5vcE5VNWRqUDFqdENaWWFidlBzQ0Q1TGNXbU9Nb25LS1BjT1RvSi1FSlNJSEhtYVNjYzdBV3BEQlZta2k0TEdtQS1yVU1ORkZRU1VPSzBtN0dBMWJleXRLWHBuTG9VQWcwbkJjQnfSAZsBQVVfeXFMTk1la0FwUWdNZzZnT21qTlNVTTVoUk9RaGhUMEtmekl4amdkMXRhSV9kb1ViMl9FdTBiUkJZc19fSVo1VXFpNldMUV9rYUJmSTZwMmJLV2JGUXpfbkFJTktRR21jdE12THJiUXc2R1FUaE5salV6c24tSHU3MVZEaGRCRHV3NW5EN1RvU0VXQ0RBZUplTEp1TVpEYTA?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 01:46:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "“테슬라, xAI 투자분 스페이스X 지분으로 전환…머스크 기업 구조 재편” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdzY5MVRNb1BlaHFTRGh2dlVmb2tBSHlud0JSaDJ0Ym5HanNDUjNBVzVleV94cmh4enFzS2c5WWljVU5xU0FjZFZHNS1zeVdZRm9MS3p5T2RCUUdBcEZXcUptRm1feElqOTNJTTVEZ0c3b25RZnJoVjFYSElYVUVoNkt30gGWAUFVX3lxTE82RGVQdGktLWQ5Ry1HcGdQQW1rSksxVkpCZVZPdXJFbllpSkxDc3lwbjA1U0lfZXdpMmp1Sk9SQjROT2xTd2NYZ3ZmeF9xNWhtdWl2NVNZMmF6R2g4NkNRU0doTzdaY3djbGJ4X2NhcnA0aVZFOC1LRzh2R2ZVQ3Jka1JJM2VDLTl2eWVBV284aDNuQWJLZw?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 08:32:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "소송만 100건 육박한 빅테크 AI… 저작권·딥페이크 ‘법률 리스크’에 수익성 흔들 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWlXOEU4R1BXdmxyeDZ5WGJKTGNHYWUxY0ZfT1g1YmpKMkViZW9IOC10MDhJOWFhSTNlOEtIMUM4MFBlUWJWVEtmWHdwaEVuZWRlaHZjYi00UjIybThYUUVSRjNEYnh4VjgzRXVTWDVRTW5kYjVJbjFobnB5QlhNNjh30gGWAUFVX3lxTE1DazBGTHc1NVlOckNKdmhCN1NaV0w3M1VHX2pjYTk2YUh5TmItbE5yemlpYkxGcGt5Ujc3Smt6UHQ5d01GN05PSDktNEZYV3NEaVNPTGlNYzhoeE5JZEFwelhiWktVS1Z3RXp1eFp3bDdKbnJBcFQwQWZtaU1za3JoRkw1MjJIbVUybk9BV3FVRDhldm80UQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 05:34:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "미래에셋벤처투자(100790) 소폭 상승세 +4.81%, 3거래일 연속 상승 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KT3VPVWQxd0txOUVVUTkxYXRpTGpCWHRhRG40WktIalB6Sml2UGpTNE13SXVpVHh4TlhjYWZ6T1o2U0pDNGFYdldyaXVSM3lleWc?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 01:32:38 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "AI 빅테크 데이터센터 '빅딜'…WSJ \"수익성 높지만 위험\" - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hcUMxMmtMbHlwcXZLUlRUYmJJTW0xUE9GdWkxOU1KVTJJX241Zk1SZXJDbEt4amF2UE9xaDJINXNpdENxUmRnbmx2cG00djBy?oc=5",
-        "pub_date": "Wed, 12 Nov 2025 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "가스터빈 이어 스팀터빈까지 … 두산에너빌, 북미 공략 확대 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1ncDdVTGRVOXNVbWFGLVZ3b3NSelRQZ0hCOFpMYXIyMk9LRllFY3VrMTZSYjBVcXkwaEtBUmxOdDFNbnhnR3c?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 08:28:44 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "\"TSMC 70% 수준 생산한다\"…테슬라 테라팹, AI 반도체 판을 바꿀까 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnNUdIU08zREM0UGNfQXdCRkZ6QnJnaUxMRkpicEJLYkU5dG9JSjlSZkdIVC1Ub3RuVG0wWm1jOWdwN3EwWHB3NDZEelpkempiUXpXWEJ3?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 13:13:28 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "우주 데이터센터, 엔비디아도 뛰어든다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qOWZrSkVUNmgtZFEtLXVoUkg2Y3REMGJCajNGQk1HQnMtOWRtcnE0Q1Uwem1QY0w3dC1DQkpDSi1laVZLbmozSUp5VmtGekdLeGJNTUtB?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 01:34:49 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "머스크의 도박…테슬라, AI 반도체 공장 '테라팹' 7일 내 출범 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YdWEwVkhwcU5Va084bUZMT0dva2ZweVRaQ1BnWXI1UkJuLVpfakhyeHBocC1BZlBkNXRycDBUT21yUlV5NEgzX29OVlNscXN2TV9FVzVn?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 02:13:30 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "스페이스X, xAI 인수 후 기업가치 테슬라에 근접…’머스코노미’ 지각변동 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuSUFwcXNrU2taeUJ2QjhBdllaR3pSZTNsNksxcXNKSXd2NzBmWmthVjBUdkZBTEpvZ3QzeG14NFBBMWR6bG1nb1NqWFVSY1Y5cEFpdXFEZ3BZNHVhN0VGS2lVRGo0b0Iy0gFsQVVfeXFMTzdkN0JCc2tCXzEzdG44MndPQko0TFN1QzM3SU0taERPU3JqNlZVdTQ1cHRLUGhiOXVlTklDRkk4WmxubXhIOFZDVlB3MHpTdmJlU1N0Q1FBMmZyRTRpQ2pySWVKaDk3c0d3MUtr?oc=5",
-        "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "머스크, AI 챗봇 '그록' 공개…\"유머 감각과 반항적 성향 지녔다\" - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4waGZFa2o0UWN1U2FZaVJhZkUzakhJbjR1NGgyNk1LMWhIS3FWUk4yd1plSE1semZIZUxoVnBoYnViZXUwWVBJSW4xS1RKcUFtQ1RRcURrUGJBZElUZEhFS3VjLW1nWjlr?oc=5",
-        "pub_date": "Mon, 06 Nov 2023 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "머스크의 AI 스타트업 'xAI', 테슬라·트위터와 협업한다…\"자율주행 향상될 것\" - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KV2J1Y0ZXR3ljdXpkRkx3bW1fX1E3ZHJzZXVFR2dYM3lEbzJ4YVRoVDNVcTFhMlY0M0NUaEh3SHFfd05TSWt6TFRpNjN3cktvMlZYTld6YUlqMzZsTHBjSHdVaGZYeVVu?oc=5",
-        "pub_date": "Sat, 15 Jul 2023 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "일론 머스크의 xAI, 29조원 투자유치…딥페이크 성착취 논란도 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90YnNyRURlZlRqbExnal9YbkxMMWtWdmFIOUtzVzNYa1o4T1VlSjcwZ19XTkl3U0x5Y3dJOExPQUl6dVk0bW5HN2ZhOW10Q3M?oc=5",
-        "pub_date": "Wed, 07 Jan 2026 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "xAI, 반독점법 위반으로 애플 고소 “앱스토어 순위 조작했다” - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85T1NnVkhUOVIweVlVanlBYVd0WjVBcnVKTnFjVWM2Yjk3TFAxejU0ZEhwREVOaFVSSDRySkVROFVvS3ZDYWVwRjgwb00?oc=5",
-        "pub_date": "Tue, 26 Aug 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "나이스평가정보가 신용평가에 XAI를 활용한 방법 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jMjloM1VzVV9JQnNvd2pBdWRGZGJhVnN1SDFxT0lPQy1VbXNnRXpJckE0V0pHTzNIRGZ4RG5ORnExNmJreXN6WnZLSUxVajA?oc=5",
-        "pub_date": "Thu, 23 Mar 2023 07:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+          "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+          "link": "https://blog.naver.com/magicpaul7/224204238038",
+          "pub_date": "20260304"
+        },
+        {
+          "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+          "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+          "link": "https://blog.naver.com/serohero/224199063326",
+          "pub_date": "20260228"
+        },
+        {
+          "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+          "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+          "link": "https://blog.naver.com/jobpass_/224197697044",
+          "pub_date": "20260227"
+        },
+        {
+          "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+          "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+          "link": "https://blog.naver.com/study_edu_/224193834977",
+          "pub_date": "20260224"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        },
+        {
+          "title": "상승세 탄 국내 증시",
+          "description": "5배 더 버는 임직원 속출 이종석 유안타증권 리테일 이사, 74억 '연봉킹' 삼성·다올·하나·NH證 등... 인재 채용·기술 강화·조직 개편 등 속도 규제·인력 유출 우려 등 현실적 난관 우려도 인공지능(AI) 기술이... ",
+          "link": "http://cafe.naver.com/greenb0k6k/175852",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.4702702702702704,
+      "positive_themes": [
+        "문화",
+        "복지",
+        "장점",
+        "좋은"
+      ],
+      "negative_themes": [
+        "낮아",
+        "단점",
+        "야근",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "헤드헌터한테 연락이 왔는데 잡플래닛 평점이 너무 낮아요.",
+          "description": "제 직무랑 경력이 원하는 포지션과 정확하게 맞는다고, 연봉은 20%정도 올려보고. 입사일도 최대한 맞출수있게 해본다고는 합니다. 나름 소프트웨어 유통쪽에서 이름있는 회사라 좋은가..? 해서 잡플래닛을 봤는데, 와 이거 처참하네요? 리뷰는 40개에 평점은 1.8점입니다. 장점이 사무실과 화장실이 깨끗한게 장점이고, 나머지는 어후.. 지금회사보다 더 하네...",
+          "url": "https://www.clien.net/service/board/park/15951443"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 2.8점 중견기업인데 - 직장/알바/사업",
+          "description": "잡플래닛 리뷰는 보고 싶은데못보고 평점 2.8점인 중견기업인 물류회사인데 후기가 알고싶어요 초봉은 3500 하는일은 사무기술직으로 지원할건데요 3명이서 대기업(Lg화학.한화)안에서 화물차 시간배치를 주로 한다는데옮겨도 괜찮을 회사일지 해서요 총 직원수는 153명인데 물류센터는 여러곳이고 본사는 서울에 있구요물류업 종사하는 분들 혹시 아시는분들 없을까요...",
+          "url": "https://www.fmkorea.com/3660127960"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점1.8회사 오바임? - 직장/알바/사업",
+          "description": "집에서 20~30분 거리 중견 기업이라 좋다 생각해서 찾아 봤는데 잡플 평점 1.8에 퇴사율 30%정도 되는데 괜찮아보임? 연봉이나 복지 그런거는 그냥 중소기업 수준이라 생각하면 됨",
+          "url": "https://www.fmkorea.com/5470029324"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 1.3인 곳도 떨어지냐 - 직장/알바/사업",
+          "description": "방금 전에 전화로 면접 불합격 통보 받은 곳임 (모 새마을금고)월요일 오후에 면접보고 뒤늦게 잡플래닛 평점 봤는데 1.3점이더라고 ㄷㄷ내가 어지간해선 2.0이어도 봐줄만하다고 생각했는데... 1.8, 1.9도 아니고 1.3은 진짜 블랙기업급 아닌가 싶긴한데... 리뷰에 단점 적힌거 보니까 1. 업무 인수인계 전무 2. 80년대 군대문화 3. 아침 8시...",
+          "url": "https://www.fmkorea.com/3883593570"
+        },
+        {
+          "source": "naver",
+          "title": "더쿠 - 잡플래닛 평점 2점대 초중반이면 많이 안 좋은지 궁금한 후기",
+          "description": "직원수가 2백명 후반대이고 국내 업계에서 제일 잘 나가고 해외에서도 탑3인 중견인데 잡 플래닛이 2점대 초중반이야.. 이렇게 낮으면 지원하는 거 비추야?? 전환형 인턴 넣을까 고민 중이거든..",
+          "url": "https://theqoo.net/review/2632137865"
+        },
+        {
+          "source": "naver",
+          "title": "강형욱 회사 잡플래닛 평점",
+          "description": "그냥 이거만 봐도 답 나옴 1점대 회사들중에 정상적인 회사를 못봤음 보통 3점 부터가 다닐만한 회사라고 보면 됩니다. 2점은 안좋지만 참고 다니는 정도고 1점부터 폐급임. 4점 이상이면 매우 우수한거고.",
+          "url": "https://www.issuya.com/bbs/board.php?bo_table=issue&wr_id=1086572"
+        },
+        {
+          "source": "naver",
+          "title": "더쿠 - 잡플래닛 평점은 3.6인데....",
+          "description": "리뷰에 꾸준히 경영난이 올 수 있음, 월급이 특정 날짜가 아닌 대표 재량으로 들어온다, 월급이 밀린적이 있다, 야근수당/출장비 좀 챙겨달라 이런식의 내용이 있으면... 합격해도 거르는게 답일까? 분위기는 좋고...",
+          "url": "https://theqoo.net/job/2060975438"
+        },
+        {
+          "source": "naver",
+          "title": "더쿠 - 잡플래닛 평점 몇점부터 괜찮아??",
+          "description": "외국계 대기업 IT회사 가고싶은데 내가 알기로는 한국지사에 100명 넘게 있다고 들었는데 잡플래닛 평점은 3.n에 리뷰 남긴사람이 9명 밖에 없더라고.. 회사 주소도 옛날 주소로 나와있고.... 외국계라서...",
+          "url": "https://theqoo.net/job/1724630162"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 1.0대의 회사를 다니고 있습니다.",
+          "description": "2.5점 이하라면 도망치라고 했던 잡플래닛 평점. 생각보다 괜찮은 회사. | 잡플래닛 평점 1.0대의 회사를 다니고 있습니다.정확히 언급하기엔 그러니 1점대 초반 흔히들 2.5점 미만의 회사라면 걸러야 한다는데 지금의 이회사는 1.0대에 근접합니다. 그럼에도 불구하고 이직을 하게 되었습니다. 물론, 모든 채용 프로세스가 끝난뒤에 검색해서 알게 되었습니...",
+          "url": "https://brunch.co.kr/@gakugo/384"
+        },
+        {
+          "source": "naver",
+          "title": "중소 잡플래닛 평점 2.5 이상이면 평타야?? - 인스티즈(instiz) 일상 카테고리",
+          "description": "ㅈㄱㄴ??",
+          "url": "https://www.instiz.net/name/60793158"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 브랜드엑스코퍼레이션 현직자들의 연봉 정보",
+          "description": "보상 · 유형 · 중앙값 · 범위 · 계약 연봉 · 4,700만원 · 2,458만원 ~ 1.1억원 ; 추가 보상 · 유형 · 중앙값 · 범위 · 보너스 · 300만원 · 20만원 ~ 1,000만원",
+          "url": "https://www.teamblind.com/kr/company/%EB%B8%8C%EB%9E%9C%EB%93%9C%EC%97%91%EC%8A%A4%EC%BD%94%ED%8D%BC%EB%A0%88%EC%9D%B4%EC%85%98/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 후이즈 현직자들의 연봉 정보",
+          "description": "후이즈 2.5 (28개 리뷰) 이 회사 리뷰하기 후이즈은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 뉴스 갤러리 후이즈 연봉 정보 후이즈에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%ED%9B%84%EC%9D%B4%EC%A6%88/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 그라운드엑스 현직자들의 연봉 정보",
+          "description": "보상 · 유형 · 중앙값 · 범위 · 계약 연봉 · 7,100만원 · 3,862만원 ~ 4.8억원 ; 추가 보상 · 유형 · 중앙값 · 범위 · 보너스 · 1,000만원 · 40만원 ~ 9.5억원",
+          "url": "https://www.teamblind.com/kr/company/%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%EC%97%91%EC%8A%A4/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 플러스엑스 현직자들의 연봉 정보",
+          "description": "플러스엑스 3.4 (45개 리뷰) 이 회사 리뷰하기 플러스엑스은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 갤러리 플러스엑스 연봉 정보 플러스엑스에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%97%91%EC%8A%A4/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 엑스소프트 현직자들의 연봉 정보",
+          "description": "엑스소프트 2.7 (3개 리뷰) 이 회사 리뷰하기 엑스소프트은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 갤러리 엑스소프트 연봉 정보 엑스소프트에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%97%91%EC%8A%A4%EC%86%8C%ED%94%84%ED%8A%B8/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 인터엑스 현직자들의 연봉 정보",
+          "description": "인터엑스 2.2 (62개 리뷰) 이 회사 리뷰하기 인터엑스은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 갤러리 인터엑스 연봉 정보 인터엑스에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%9D%B8%ED%84%B0%EC%97%91%EC%8A%A4/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 엑스아이커뮤니케이션즈 현직자들의 연봉 정보",
+          "description": "엑스아이커뮤니케이션즈에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%97%91%EC%8A%A4%EC%95%84%EC%9D%B4%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EC%A6%88/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 엑스오소프트 현직자들의 연봉 정보",
+          "description": "엑스오소프트에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%97%91%EC%8A%A4%EC%98%A4%EC%86%8C%ED%94%84%ED%8A%B8/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 에임드 현직자들의 연봉 정보",
+          "description": "보상 · 유형 · 중앙값 · 범위 · 계약 연봉 · 4,070만원 · 3,000만원 ~ 1.8억원 ; 추가 보상 · 유형 · 중앙값 · 범위 · 보너스 · 300만원 · 20만원 ~ 2,000만원",
+          "url": "https://www.teamblind.com/kr/company/%EC%97%90%EC%9E%84%EB%93%9C/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 엑스오비스 현직자들의 연봉 정보",
+          "description": "엑스오비스 2.6 (9개 리뷰) 이 회사 리뷰하기 엑스오비스은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 뉴스 갤러리 엑스오비스 연봉 정보 엑스오비스에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%97%91%EC%8A%A4%EC%98%A4%EB%B9%84%EC%8A%A4/salaries"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "Member of Technical Staff - AI Experts @ X.ai | 8VC Job Board",
+          "url": "https://jobs.8vc.com/companies/x-ai/jobs/55135936-member-of-technical-staff-ai-experts",
+          "text": "Member of Technical Staff - AI Experts @ X.ai | 8VC Job Board\n\n# Get introduced to the most exciting companies in our portfolio.\n\nJoin our talent networkJoin our talent network\n\n0\n\nJobs currently available\n\n0\n\nPortfolio companies\n\n[Jobs]\n\nstatus: open\n\nSearch jobs\n\nExplore companies\n\nJoin talent networkTalent\n\nMy job alerts\n\n## Member of Technical S",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Product AI Engineer @ X.ai | Maven Job Board",
+          "url": "https://careers.mavenventures.com/companies/x-ai/jobs/37566497-product-ai-engineer",
+          "text": "Product AI Engineer @ X.ai | Maven Job Board\n\n## Maven Portfolio Company Careers\n\nWork with Bold Founders with a Vision Worth Fighting For\n\nMaven\n\ncompanies\n\nJobs\n\nSearch jobs\n\nExplore companies\n\nJoin talent networkTalent\n\nMy job alerts\n\n## Product AI Engineer\n\nX.ai\n\nThis job is no longer accepting applications\n\n[See open jobs ",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Applied AI Engineer & Researcher @ X.ai | 8VC Job Board",
+          "url": "https://jobs.8vc.com/companies/x-ai/jobs/43132930-applied-ai-engineer-researcher-post-training",
+          "text": "Applied AI Engineer & Researcher @ X.ai | 8VC Job Board\n\n# Get introduced to the most exciting companies in our portfolio.\n\nJoin our talent networkJoin our talent network\n\n0\n\nJobs currently available\n\n0\n\nPortfolio companies\n\n[Jobs]\n\nstatus: open\n\nSearch jobs\n\nExplore companies\n\nJoin talent networkTalent\n\nMy job alerts\n\n## Applied AI Engineer & Resea",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "AI Engineer & Researcher - Human Data @ X.ai | 8VC Job Board",
+          "url": "https://jobs.8vc.com/companies/x-ai/jobs/38924502-ai-engineer-researcher-human-data",
+          "text": "AI Engineer & Researcher - Human Data @ X.ai | 8VC Job Board\n\n# Get introduced to the most exciting companies in our portfolio.\n\nJoin our talent networkJoin our talent network\n\n0\n\nJobs currently available\n\n0\n\nPortfolio companies\n\n[Jobs]\n\nstatus: open\n\nSearch jobs\n\nExplore companies\n\nJoin talent networkTalent\n\nMy job alerts\n\n## AI Engineer & Research",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "xAI Company Reviews : What's it like to work at xAI? - Blind",
+          "url": "https://www.teamblind.com/company/xAI/reviews",
+          "text": "Community\n\nSalaries\n\nReviews\n\nJobs\n\nFor Business\n\nxAI\n\n3.7\n\n(7 Reviews)\n\nReview this Company\n\n### Work at xAI?\n\nJoin xAI's internal discussion for verified employees only!\n\nJoin xAI\n\nOverview Posts Reviews [Salaries](https://w",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "설명 가능한 AI : 전략적 도구로서의 XAI",
+          "description": "IT 사업자들, Element AI, Fiddler Labs, Truera, Kindi 등 스타트업들도 XAI... 기업의 전략적 도구(Strategic Tool)로서의 XAI와 그 사례 2016년 5월 7일... 컴퓨터 비전 모델을 어떻게 개선해야 할 것인가'가 그다음 질문이 될...",
+          "link": "https://brunch.co.kr/@byoungchaneum/15",
+          "pub_date": ""
+        },
+        {
+          "title": "설명가능한 인공지능(XAI)의 공공분야 활용을 위한 정책 방향 - 대한민국 국회도서관",
+          "description": "표제지 목차 1. 인공지능의 발전과 공공부문 활용을 위한 도전 2 2. 설명가능한 인공지능(XAI)의 이해 4 3. 설명가능한 인공지능 관련 사례 6 4. 공공부문 활용을 위한 정책 방향 8 참고문헌 11 표 1. 설명가능한 인공지능의 종류와 특성 5 그림 1. 딥러닝 모델의 성능과 해석가능성 사이의 상충관계 4",
+          "link": "https://nsp.nanet.go.kr/plan/subject/detail.do?nationalPlanControlNo=PLAN0000049251",
+          "pub_date": ""
+        },
+        {
+          "title": "설명 가능한 AI(XAI)의 부상, 중소기업 정책 방향 | 국내연구자료",
+          "description": "중소벤처기업연구원은 설명 가능한 AI(XAI) 동향을 살펴보고, 중소기업 부문 활용 방안과 정책 방향을... 중소기업 AI 전략·계획 등의 주요 내용으로 반영 (3) (XAI 전문기업 육성) 제조, 금융 부문에서 더욱...",
+          "link": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000197078",
+          "pub_date": ""
+        },
+        {
+          "title": "생성 AI 더해 일하는 방식과 비즈니스의 혁신!...스마트워크의 비전과 미래",
+          "description": ", 스마트워크의 비전과 미래”란 주제로 전자신문인터넷... 위한 방향성과 이를 위한 HP 솔루션을 제시한다. 이어 사이냅 소프트... 대표 XAI기업 인이지 최재식 대표이사가 ’생성형 AI의 원리 및 인공지능의...",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=28814",
+          "pub_date": ""
+        },
+        {
+          "title": "[#78.10월4주 비전레터] xAI, '월드 모델(World Model)'로 게임 패러다임을 바꾼다…&quot;AI가 세상을 시뮬레이션한다....",
+          "description": "[#78.10월4주 비전레터] xAI, '월드 모델(World Model)'로 게임 패러다임을 바꾼다…&quot;AI가 세상을 시뮬레이션한다&quot;",
+          "link": "https://maily.so/visionletter/posts/g0zmw847oql",
+          "pub_date": ""
+        },
+        {
+          "title": "[#44.2월4주 비전레터] 일론 머스크의 xAI, ‘Grok-3(그록-3)’ 공개…차세대 AI 경쟁 본격화",
+          "description": "-&gt; AI 경쟁이 기업 간 경쟁을 넘어 국가 주도의 인프라 경쟁으로 확산되면서, AI 슈퍼컴퓨터 및 고성능 GPU 확보가 글로벌 AI 시장의 핵심 전략으로 부상하고 있습니다. -&gt; AI가 단순한 데이터 분석을 넘어 과학적 발견을 돕는 파트너로 진화하며, 연구의 속도와 효율성을 획기적으로 높이는 시대가 열리고 있습니다. 인공지능(AI)은 빠르게 발전하며 우리의 일상과 산업 전반을 변화시...",
+          "link": "https://maily.so/visionletter/posts/w6ovlvemzk5",
+          "pub_date": ""
+        },
+        {
+          "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+          "pub_date": ""
+        },
+        {
+          "title": "설명 가능한 AI(XAI)의 부상, 중소기업 정책 방향 - 주제분류-기술/정보화 - KOSI정책연구DB",
+          "description": "◆ 본고는 XAI 동향을 살펴보고, 중소기업 부문 활용 사례와 중소기업 예측 분석에 대한 예시를 소개함. 이후 중소기업 부문의 XAI 활용을 위해 고려가 필요한 정책 방향을 제안 • 인공지능 활용(AI)에 따른 긍정적 기대와 함께 AI 의사결정에 대한 불투명성 등으로 인한 윤리적 이슈도 제시되고 있어 관심을 가질 필요 • 향후 중소기업 분야에서 AI 활용이 확대됨에 따라 이에 따른...",
+          "link": "https://db.kosi.re.kr/kosbiDB/front/subjectResearchDetail?dataSequence=J250730K01",
+          "pub_date": ""
+        },
+        {
+          "title": "[창간26주년기념 특집] AI전쟁 승자는 누구?",
+          "description": "단순한 AI 성능 비교를 넘어, 기술 철학과 미래 비전에 대한 대립이다. 머스크의 xAI와 Grok-3: 반(反)중앙집권적 AI 실험 머스크가 xAI를 출범시킨 것은 단순한 시장 진출이 아니다. OpenAI의 방향성이 빅테크(특히...",
+          "link": "https://www.ceomagazine.co.kr/news/articleView.html?idxno=33253",
+          "pub_date": ""
+        },
+        {
+          "title": "초거대 생성 AI 기반 AI+X 기술, 시장 동향과 유망 산업별 활용, 사업화 전략 IRS 글로벌 홈페이지(www.irsgloba....",
+          "description": "초거대 생성 AI 기반 AI+X 기술, 시장 동향과 유망 산업별 활용, 사업화 전략 Ⅰ. 글로벌 AI... 인공지능(AI) 기술개요와시장전망 1) 인공지능(AI) 기술정의와발전방향 (1) 인공지능(AI) 기술정의 (2)...",
+          "link": "https://www.irsglobal.com/img_up/shop_pds/irsglobal1/design/pdf/814.pdf",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "xAI Raises $20B Series E",
+          "url": "https://x.ai/news/series-e",
+          "text": "xAI Raises $20B Series E | xAI\n\n\n\nJanuary 06, 2026\n\n# xAI Raises $20B Series E\n\nxAI is rapidly accelerating its progress in building advanced AI.\n\n---\n\nxAI completed its upsized Series E funding round, exceeding the $15 billion targeted round size, and raised $20 billion. Investors participating in the round include Valor Equity Partners, Stepstone Group, Fidelity Management & Research Company, Qatar Investment Authority, MGX and Baron Capital Group, amongst other key partne",
+          "score": 0,
+          "published_date": "2026-01-06T00:00:00.000Z"
+        },
+        {
+          "title": "xAI Raises $20 Billion to Accelerate AI Development, Infrastructure",
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2026/xai-raises-20-billion-to-accelerate-ai-product-development-and-infrastructure-buildout/",
+          "text": "xAI Raises $20 Billion to Accelerate AI Development, Infrastructure -- -- -- xAI Raises $20 Billion to Accelerate AI Development, Infrastructure --\n\n# xAI Raises $20 Billion to Accelerate AI Product Development and Infrastructure Buildout\n\n--\n\nBy PYMNTS| January 6, 2026\n\nShare: --|\n\n--\n\nxAI raised $20 billion in a Series E funding round to accelerate its progress in building advanced artificial intelligence (AI).\n\n## Get the Full Story\n\nC",
+          "score": 0,
+          "published_date": "2026-01-06T00:00:00.000Z"
+        },
+        {
+          "title": "xAI's $20B Funding and Strategic Position in the AI Ecosystem",
+          "url": "https://www.ainvest.com/news/xai-20b-funding-strategic-position-ai-ecosystem-2601/",
+          "text": "xAI's $20B Funding and Strategic Position in the AI Ecosystem\n\nSymbols\n\nSymbols\n\nAime\n\nProducts\n\nNews\n\nMarkets\n\nWatchlist\n\nBrokers\n\n# xAI's $20B Funding and Strategic Position in the AI Ecosystem\n\nGenerated by AI Agent [Nathaniel Stone](https://www.ainvest.com/news/author/nathaniel-stone",
+          "score": 0,
+          "published_date": "2026-01-06T00:00:00.000Z"
+        },
+        {
+          "title": "XAI Announces $20 Billion Series E To Expand Grok And Construct ...",
+          "url": "https://www.crowdfundinsider.com/2026/01/257160-xai-announces-20-billion-series-e-to-expand-grok-and-construct-large-ai-network/",
+          "text": "XAI Announces $20 Billion Series E To Expand Grok And Construct Large AI Network | Crowdfund Insider\n\n--\n\nxAI has reportedly closed a $20 billion Series E funding round. Announced on January 7, 2026, this infusion of capital is set to propel the company’s ambitious goals, focusing on enhancing its flagship AI model, Grok, and establishing what could become the planet’s most extensive AI infrastructure. Founded by Elon Musk, xAI continues to position itself as a challenger to established players ",
+          "score": 0,
+          "published_date": "2026-01-07T00:00:00.000Z"
+        },
+        {
+          "title": "Musk's XAI Closes a $20 Billion Funding Round to Build AI Infrastructure - Business Insider",
+          "url": "https://www.businessinsider.com/musks-xai-closes-funding-round-to-build-ai-infrastructure-2026-1?rand=868",
+          "text": "Musk's XAI Closes a $20 Billion Funding Round to Build AI Infrastructure - Business Insider\n\nBy Business Insider AI News Desk\n\nxAI raised $20 billion in an upsized Series E to fund AI infrastructure and products. Illustration by Jonathan Raa/NurPhoto via Getty Images\n\n2026-01-07T01:14:51.872Z\n\nShare\n\nCopy link [Email](mailto:?subject&#x3D;Elon%20Musk&#x27;s%20xAI%20closes%20a%20$20%20billion%20funding%20round%20to%20supercha",
+          "score": 0,
+          "published_date": "2026-01-07T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Tennessee minors sue Musk's xAI, alleging Grok generated sexual images of them - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSjVIUFdMMHFRcF9FQWhnUWNaaXNQNkQ3TUVVUTJPM2xtNzVVZUNoNmxucmdKWFZhemluVXI2Mjc5a1hfLUVrXzZFeW0wckNERGFzODVVV21WcjdBX0hnQkt4ZkprYll6Y1VJck5zZ2YxN3FkZ2N2X0QzdFR6a1FvUmRYX2l0ZW9WbE1tamJXc2ZxdUdkX2dfVGZVbWVBZ1dBTDZzV0w1NEdJNGVvN01tcHJ2Tno0Q1FhVkE?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 10:13:05 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSFJrV0xVbWxrMEFfNDlOYUFlUG1HU29peWJjZkotck9jQkw5VHJPRmxpY2NlUV9YUnVFMEszMHYyVllsdEFwVkk5aF9pdkpHMi0yY1ZhbHBWNmZ3R3RIM0xRTG9rMzdqQVpCa1ZPbEpXS1BxZmlhc2RGbkxELTJkRUV1OUlVWDNKdzdfc0RGQlFmLXM2UHNsYUNMYU1IejVCSEhZSk1HajBNc2J0YkVZWHExMk9RcV8taFFONC1oUVZoYXM?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 10:02:21 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Musk's motives are debated as Twitter shareholder trial nears end - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbmtLckwwbG9GRzZRRzdsRkdQLVB5LUV5RmNUTGttc1ZKc0VtN05PRFpFcFRrWHEyUGN0R1ZvM0FtWW9lRUJ2X25HTTFSa1gxOG16TnlBSDRES3FRZ21DNEZlY25wR2taRTdlQVlJVEp1RkgtaTRiU3dtN0VfVHMwWmhmVUI4RVZic2ZXTC1tX0JUdE8xRW4wUV9YUUVERWZfcy10bUZwa2xYdVEzRmJVMmZyTVBMaDdqM2FBcHVHX2d6LUlxVWhIczQyVFVOaDFYVFk4?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 23:44:57 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "xAI Sends Engineers to Client Sites to Win Business from OpenAI - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjBKUU9iRzZPdnJmYlQydGYtdUJMN01GWERRZFlNTkQ4Xy1KOXFzdDhVZW9WU2NIOUVEQnFHUlRmZGUydmxoNWZSeUU3MklnLWtjb2NQMWZ5RGNsclN6YjU2TkNyS1pEV2EydVU3VW5kaVlGSl9iWkpIWUdyeWtnWjFmYnNsZnE1cjVTbncxY1hOS1l3LXJmU1hMdXdWVGJiZEtCMkVNMkl0S01kSWUzTlNnZ0s?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 13:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Musk’s xAI Hiring Credit Experts, Bankers to Teach Grok Finance - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0ZqNC1pOFNvUnB5SURoRUQtblcwUGpxbU8xeWZXMjViNXJ1Sk4wYkVMVFY1eDFjekZ4RTFjTnVoSkRSLXBIM0sybFBMQWR1RjNiSks2QlF3SGxHZVJyVmZwMUR0aEJqZEI2Z3NGQ1Q5Sm5tS3ZFWnNDNmhvZ1AtUDNKSXhVU2Jja254bzk3MW1TVHJYTFFiMEVsNXVLSlR1cmtVSWt2TUpEN1dIZUdHd0NvMA?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 11:15:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Bloomberg Billionaires Index - Elon Musk - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHLThaSHV6bWtHWlpqX1c1WGhfVUhCRFg1WUtnQVJtd3JvVWRpSkxVTC1ZMlJHUXk5a2FEaDlhSVFudjgzUTRoX2JHT3IzZzhhcTQ2VEFrRi1VcE1BdjdmNl9GTXMxS1l0YjNnZg?oc=5",
+          "pub_date": "Wed, 01 Mar 2017 05:01:03 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Warren presses Pentagon over decision to grant xAI access to classified networks - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQmtadzJyZzBLdmlkMG1yYUduNTBXZlZXVmFNcXlVUlZjWU84RUIyNHdZSmFIRmlZQnJwaUV5VDNsNEo5dVkzZ0hUeFo4cndBZ2w3dHh3NTlPcXhOUUc1VFJEdGhpbTBzcXg0UFhUOGNyQk95OHNKYm53eURDSUZGcmdsX2lzWGM4aHVaZjViYkkyWWtFbzIzMUZaQVlYZl96MG9hRktCVVJ5aU52OFZUbkdUOVN6Zw?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 20:58:36 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "AI startups are eating the venture industry and the returns, so far, are good - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMFlSTlBsYjFyUFVkRVZYVkJNanJVUFJQVy1iMXg1UV9hRjZJM2Y2YUlpbUlKR2dCaUFWMzNGNTVoR1J0dWx1bHE2SHhxSng4SmV6SVhPVUpCYnVBNnE4MXQ2OXdjaDNudjVuY3NUeEdVSThWeXlQWFlaZHZla0E0NExlNFRXbWdhemtYTWRjU2Nhend2MWlrekk3ZzlBX3ZyWnN6QUVTaGFmdDBJRHIw?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 15:41:21 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "The Pentagon is developing alternatives to Anthropic, report says - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQjBXYjVKMVlsUW44WWd6VFYtQ09pQm1vYlRqSnR6Q2gxWEFHWXIzMkhJNGRRMFlHdV8yV20wUFczSVpFcVN2SXJ0OEpzamFheGNPT2x4VjNpZEltNzRVSHFQbnhuVVB3V18xSC00dFFINV9GVGs5SmpvNGFKNlRra2ZSZUsxWXdieGNiTnZYdkpkNFVfLXVRZEo5azFqaU9Z?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 18:20:15 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Musk Says xAI Must Be Rebuilt as Co-Founders Exit - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxNdmtzX2FFQ2VKSkktc1JiQ0d2MjJBQ2JORjFfRm9Tc0p2Q1FJUFJfM0h0NlhDXzA5TUtBSkJEZy1ZWXh1Y3NCYm5NNndVcXpMeENDU1dWeUtWYzJ6SmEydGdMSmN1MVBuRUtXUjRlOUVLUHlvaTdqdG5TVWU1c2V0dktkSkVMa3hWMFhJcThmTnBNbnNvQXBuRm1iSGtKZUhvbUhWdmN1clliZTgxTmEwcXFLZUhGWFFOLXFiV2M2MUdDa011enFVbDhtdTFjem5ZOUZnTUtGLXN3YU1WSU9TcUZuWVZBbHZqV1hFb2FYbU9DampyRldmN3VudVVtZVVvb0Q4LUZ3Q1ZmWXJZNzNXSlhoRkd3dmhXdkVDV1A4MW5wa0NFOUtCMDVVeXdWU1NJRjVsNlZ5WmM1RWNjVDdtM0o0UWZhNGowdFBlN0RQbk5qakJ6d2FSMmRjc0RVemdOTWUyT0l1VnVpZXpQdjV6SENQSy1yb3I0X1FyanpCNExsYjd3aXlpSWhWVmhOeGVm?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 20:07:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Exclusive | Government Agencies Raise Alarm About Use of Elon Musk’s Grok Chatbot - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxOcjU2VUZ6dDRJaEdPanRwLWZueDh1T0R5bnZzMkVka01oQ2p2WElEZi1BQXVhdm1Yck5WT0ZvNUlPVEg2OGdJNm9Wak02dUFJdzFqT2hmV0p4RDllOVZFWjJkNGN1czhSYUlXTUsxUUNtVk51WWJPLThFZER0dFhCTTdQV1hqLXV5bnZfR0MycmRmWEUxQll3RmM0TE85QWNLYVNiTDNQdjUyWXdWdUZLRXY3aUx5elBfRzlTVUZULVhiMnNSbmY3dGI3TE1FY1lhWHV1eGNKcjA2UnMwdlBsWWo0eEhuaEFKOEx6Vzc1bmZkUnNrdlY5dVkwWmFvcWdDX1lvN3NRT25qU0VBUkNSRm1sZ2EyTkdma3B0cG1OblpkeFNsUnVXVW5HX24xNVBvOUVubjlNV3ZTa21taFNBeERzTXhkWmFXV25pZVV1YWdvbVp5amdTaURNVnpGMVdPeV9yS3puRjlGV20wajFvUVhYekhobGQ5WHZndHd0aWxUSWlIRHFLc2NKMGNQYm9XVzRYTmJYUFhLd19ZdEc4SzUyWW5KSDNj?oc=5",
+          "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Apple Is Way Behind in AI—and Still Making a Fortune From It - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxOSkN5alNkMDFiUlJ6eW9UZ3F4Wk5IcUhCTmNnNHFMZWxCWlRpRVU3d0ZWTXRqSy1vOFdLZ1k5d0JJR19Jd3BQemZPNHQyQUZFUURsc2djLXc1V1JKWHJ0YnNLMmg2czMtMGtkQkxtdHB2VFRYWUhzeTBiQ3ZPWF80bWVZNGdINFJqOTVHdFJTNzVSV19XS2UtaWZzUEFKdGpsbmRRbEVZVUp2ai1hQUNWVmRMNk9IVXdHTGtCYmJxeFloNWpOMkduOWkwdVJkTkZoRF9fdl9QY203M3ZoYzR2cVZlaEplWXM3XzNjT2RvWmdwQ3VVd1Q5c1ZPQm5tZjhUc3VFeGE5TzFZUFRYcDdFZDVHVDU0R3V5dnA2ZEd3YmxzQU1KMHVHVl9qcFF1OG1neWt6SGVQd0NmZE1aM2dldldxNWZiN2hYX3hCMG04WWxweWc1MllhQ2dFMHFjci1fdXdCc1VibnRYZngyVEI2c01yZUxLOS1VdlgtWg?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 02:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Elon Musk pushes out more xAI founders as AI coding effort falters - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeFdienhxWVpRZDJVSFJHRlp0d1RqMjhJdFB1UTNJU19STlVvUjdIRk1rVDEtRElPemY4anZ0Qkw0cGV1bEo0N2d1WTNhNjRmVmNVSGpJZjZRbWRvdUxGUGdGOGhyd1I4SGxmYk9JMm45SkQ0SlI2eWZVVldxY3hoaGxOS3k?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 15:36:53 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "EU privacy watchdog opens probe into Elon Musk’s X over sexualised AI images - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNlNpVG5zZUwzdzNxdUQ0NEd6TG1uVmdBVGRYSmJsbW9iS0JkTUtFOW12anBPRER5NjhCVlFSUTBKeU5ubFd3aWJCQzFla3dNT1dyLTR3dmJ2VDc5X2pSRzZpNXJLak1xLTJ5NUlpZzE5SWMxUUl3YTVwQmQ5aHF6eDRabGI?oc=5",
+          "pub_date": "Mon, 16 Feb 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "‘The race is on’: will Elon Musk be the first to put a data centre in space? - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWE1sSGx6ZjM3clJEblh2SjJuNndNU1Qwd1Ytb1FrOWNmRmRnQlRIT0xfZkZySkZMcDZLbFpVblJtVzN0WExkaUozRmVVaGJUcTJnNFM5ZkRCdGZFdXlpNkd1UFJCd1V2c0dJN1M2ang0c3JqVFBiNENxLU9uTGtWOHBTSWE?oc=5",
+          "pub_date": "Mon, 09 Feb 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "California demands Musk's xAI stop producing sexual deepfake content - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdDdlbm1QUTRlYUh3c284VHZPQllQZ0VPTWFXN1BGQkhleTJEa0llRFlxckRybEM2NjZmaVNXQ3BWdVFERDBGcXBrUjBjaUVrcGw3Z0dOcHBYTlhRYldSNkZYUXBWN3lFT2UtUDF3LUI2LXlUV05vVS1EY2Mya3hraDcyY2x4Y0VmOWdJNlhFOEhJYWpjaUFQdHU3MTJybG8zNTVHOV9tTGgta3E3V25hMTUwUFNsMHJKNWlhLWswdHk2WFd3TnJDZHktT2t6aUhVOXc?oc=5",
+          "pub_date": "Sat, 17 Jan 2026 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "SpaceX acquires xAI as Musk looks to unify AI and space ambitions - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcTVnTE9FbnZ5d1Mwa0ZLamFVME9fMkpkRU1iLXRaRXhYeHFEdm5GSE9TV2FCVHdqcGxDODRoRGJleEoyOTNrY3U5eVNSVWV3OEJSWVdhZ2F5YTVFUi1Mb01SYXJnQXlRWmFKUTZXR0stWl9PYVNQclVHdmVMX0FZWWtsb1pKWTVOSVk4QTJmeUZ2S0RSOERVcjEzTVdsMkFlRnY0SVRTcVo2UUZWYzhVZFNtb2ZhZnBSR1pzQ3FOamQ1MmhDc3c?oc=5",
+          "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "China's AI tech leaves aside questions of ethics - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaDlqN2duUTA0UDZCVUpsZlJndWJYc1p5MUw4aG1yWnNETERKZEZicnl6Smpua1NpbW5XbE9VdXNEYkV5eG9NT2U5NzZ5V0NZV2NkLWRIWllsbTFkVEltV0hNVUQ5dGItcTVvTFpibFhwMFJpZGRIa1pxbEkxUWtUQXNDLTh4cGNrNzdyaXZXVEhES0Jk?oc=5",
+          "pub_date": "Sun, 23 Aug 2020 07:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "8 Questions Investors Need to Ask About SpaceX’s IPO - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUU00Z3dkTVE1eEZBU1NGQXFBRm9FSHdPd0JFY0FJZHpKeFdMUFQ3VUNHSDlfSEpiSS1iQmRvRGt1OGV4b042NnI1UjA5NWlKMU5HYVZMTnJLbUtkSzJMWFpieDVxU3dNa3NpLWtlMEtha05sNC1IN25Rblc0cnBNLURxMDhzNEhoekE?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 13:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "What OpenAI Could Owe Elon Musk; An xAI Hiring Spree - The Information",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbUd3Ti15c0EtSkVoUHVqTXppNFNwUkFNU0ItM0x1MV9RVUZfbkUyUC1TeFlmcEp1LUlGdWJkNzcxNGg0ZElybHhQQ0wwd1c3Ty1vdGV0UG54bGx6Z2YtRE9feDljVzhXMlhXdTRaeUxKYnhQcUM3VlltWWJqUTNvQlpRbDQwZ1d3ZXpIbEluYXlwTTg5?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 14:15:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "OpenAI, Musk and Focus - The Information",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxU2M4T2pzci1fSG01TnlxdWVsX0o3ZHBDQzVLTlVRSjFUUmNZeEluSVplaWVMUURNel9Ma0dzU0NhSEpGcVVHa0F5enRRQ3hmNHdMVmZfeUQ5d3pxaUhnSkFMNHVoOGJHbVc5UmI4Sksyd2tlX2RzNGFoWnpIZw?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 00:00:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "1": {
+      "brave_web_results": [
+        {
+          "title": "xAI (기업) - 위키백과, 우리 모두의 백과사전",
+          "url": "https://ko.wikipedia.org/wiki/XAI_(%EA%B8%B0%EC%97%85)",
+          "description": "xAI로 사업을 하고 있는 X.AI Corp.는 일론 머스크가 2023년 3월 설립한 인공지능(AI) 분야의 미국 스타트업 컴퍼니이다. 이 회사의 목표는 &#x27;우주의 본질을 이해하는 것&#x27;이다. 2015년 머스크는 비영리 AI 연구 회사인 OpenAI의 창립 ..."
+        },
+        {
+          "title": "xAI 홀딩스 - 나무위키",
+          "url": "https://namu.wiki/w/xAI%20%ED%99%80%EB%94%A9%EC%8A%A4",
+          "description": "이고르 바부슈킨(Igor Babuschkin) (퇴사) 대학에서 물리학을 공부하였다. OpenAI와 구글 딥마인드에서 근무하였으며 AlphaStar 개발에 참여했다. xAI에 첫 번째로 영입된 멤버이다. 2025년 8월 13일 퇴사. 이후 개인 투자 회사 &#x27;바부슈킨 벤처스&#x27;를 설립했다."
+        },
+        {
+          "title": "xAI 홀딩스/역사 - 나무위키",
+          "url": "https://namu.wiki/w/xAI%20%ED%99%80%EB%94%A9%EC%8A%A4/%EC%97%AD%EC%82%AC",
+          "description": "WSJ과의 인터뷰 내용에 따르면 트위터의 재무 상태가 안정화되었고, 6월 내로 현금흐름 흑자 전환이 가능할 수도 있다고 한다. 또한 혹독했던 구조조정이 막바지에 다가왔고, 다시금 새로운 직원들을 뽑기 시작했다고 한다. 인수 반 년만에 회사가 드디어 정상 궤도에 복귀한 상황."
+        },
+        {
+          "title": "[리크루터뷰] 개발자의 성장과 기업의 성공을 이끄는 데브렐 - 그리팅 블로그",
+          "url": "https://blog.greetinghr.com/recruiterview-4/",
+          "description": "SNS, 뉴스레터, 기술 블로그, 컨퍼런스 등 다양한 채널에서 개발자 분들께 우리 회사의 기술과 개발 문화를 소개하기도 하고, 이외에도 내부 개발자 분들이 몰입해 일할 수 있는 개발 문화를 만들기 위해 지원하고, 기술 역량을 키우기 위한 교육을 기획하기도 해요. 이처럼 데브렐은 개발자와 관련된 채용 브랜딩, 조직문화 서포트, 리텐션 등 모든 일을 다룹니다."
+        },
+        {
+          "title": "\"인재 골든타임 잡는다\"…SK하이닉스, 전방위 채용 드라이브 - The PR 더피알",
+          "url": "https://www.the-pr.co.kr/news/articleView.html?idxno=60549",
+          "description": "더피알=김영순 기자｜SK하이닉스가 13일 새로운 채용 전략 ‘<strong>탤런트 하이웨이</strong>(Talent hy-way)’를 공개했다. 글로벌·지역·인공지능(AI) 전 영역에서 우"
+        },
+        {
+          "title": "설명 가능한 인공지능(XAI)... 왜 주목하나?",
+          "url": "https://www.aitimes.kr/news/articleView.html?idxno=14859",
+          "description": "컴퓨팅 성능 향샹과 잇달은 고성능 AI 칩셋 출시로 엣지에서 수많은 데이터가 생성되면서 인공지능(AI) 모델이 더 정교해지고 뚜렷한 성과도 나오고 있다.기업들은 AI를 새로운 기회로 활용하는 것은 물론 일부 비즈니스의 문제 ..."
+        },
+        {
+          "title": "Kaist",
+          "url": "https://xai.kaist.ac.kr/static/files/2023_xai_workshop/talk3.pdf",
+          "description": "최재식, 김진우, 박천음, 이재호 · 최재식, 신진우, 고영중, 김윤명, 남우정"
+        },
+        {
+          "title": "설명 가능한 AI(XAI)란? - ServiceNow",
+          "url": "https://www.servicenow.com/kr/ai/what-is-explainable-ai.html",
+          "description": "설명 가능한 AI는 기업이 ... 제공합니다. XAI는 <strong>공정성을 다루는 것 외에도 모델 모니터링을 지원하고 규정 준수, 보안및 평판 훼손과 관련된 위험을 완화</strong>합니다...."
+        },
+        {
+          "title": "설명가능한 인공지능(eXplanable AI, XAI)이란? | by Heeyeon Kim | XBrain | Medium",
+          "url": "https://medium.com/daria-blog/%EC%84%A4%EB%AA%85%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-explanable-ai-xai-%EC%9D%B4%EB%9E%80-4e51d9e7bb59",
+          "description": "지금까지 XAI의 정의와 필요성, XAI의 분류와 다양한 접근법에 대하여 알아보았습니다. XAI를 현실 문제에 적용해보고 싶으시다면 주저하지 마시고 apply@xbrain.team으로 연락주세요 :) Machine Learning Engineer 채용 공고 확인하러 가기"
+        },
+        {
+          "title": "xAI 홀딩스 (r82 판) - 나무위키",
+          "url": "https://namu.wiki/w/xAI%20%ED%99%80%EB%94%A9%EC%8A%A4?uuid=c3170fd6-4bfd-46c6-9dff-1dc1ce380b6d",
+          "description": "현재 인공지능 업계는 갑작스러운 수요 증가와는 반대로, 전문적으로 해당 학문에 대한 교육을 받은 인력이 턱없이 부족한 상태이기 때문에 고용 단계에서 큰 어려움을 겪고 있고 기업들은 인재 영입을 위해 제로섬 게임을 벌이고 있다. xAI는 다행히도 일론 머스크의 비전을 내세우며 OpenAI, 구글 딥마인드, 구글 리서치, 마이크로소프트, 테슬라, 토론토 대학교 등에서 업계 전문가들을 섭외했다고 한다."
+        }
+      ],
+      "linkedin_url": "https://www.linkedin.com/company/xai",
+      "slug": "xai",
+      "employee_count": "50명",
+      "industry": "",
+      "headquarters": "",
+      "snippets": [
+        {
+          "title": "xAI | LinkedIn",
+          "description": "Report this company · Understand the Universe · Website · https://x.ai · External link for xAI · Industry · <strong>Technology, Information and Internet</strong> · Company size · 11-50 employees · Type · Privately Held · See all employees · Technology, ...",
+          "url": "https://www.linkedin.com/company/xai"
+        },
+        {
+          "title": "Xai Games",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/xai-games"
+        },
+        {
+          "title": "XAI technologies | LinkedIn",
+          "description": "| SUCCESS AND GROWTH FOR TECH VENTURES ... future ideas and business models: XAI technologies <strong>accompanies start-up teams and young companies on their way to growth and success</strong>....",
+          "url": "https://www.linkedin.com/company/xai-technologies"
+        },
+        {
+          "title": "xAI Official",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/xai-official"
+        },
+        {
+          "title": "xAI",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/xaifoo"
+        },
+        {
+          "title": "xAI: Jobs",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/xai/jobs"
+        },
+        {
+          "title": "XAI Technology and Investments",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/xai-technology"
+        },
+        {
+          "title": "XAI Asset Management | LinkedIn",
+          "description": "Explainable AI for Asset Management and Research | We are <strong>a boutique asset management firm, producing Macro and AI driven systematic investment products</strong>. In addition, we also provide custom indices, advisory, and research services.",
+          "url": "https://www.linkedin.com/company/xaiassetmanagement"
+        },
+        {
+          "title": "xAI: Culture",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/xai/life"
+        },
+        {
+          "title": "Xai Consulting",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://in.linkedin.com/company/xai-consulting"
+        }
+      ],
+      "google_news": [
+        {
+          "title": "일론 머스크 xAI, 월스트리트 인재 영입…금융 AI 경쟁 가속 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCaVBNS21WTUs2dXBwLVVoZzVralMxcTB3dDhCN1lfSnZDWU4zNmNfN2V5Sk9EY3FMOEV5c1kyNzJ3T0dSMXA4Q19Dc0tlNUU2XzhQQU9FSzhaOXAtYUQ3TE1NYzhGdi0xMl9MYzNPY3FibVU?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 11:59:00 GMT",
+          "source": "디지털투데이"
+        },
+        {
+          "title": "머스크 “xAI 처음부터 잘못 설계”…AI 재구축 속 환경 논란 확산 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE14dVlWejBfUDNZZDRYbk56Ujh3RlBOblRQYm1yUnFnRU82eUFadVR2RVBMbV9qb0VyUG5QNDVYWWVDUDN4ekFlQ2hEOTZkdjVkdmJGNkZiSE81VElPUE9VemI3UUhGTm1CZlVmYUh2czR5Zw?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 02:31:40 GMT",
+          "source": "톱스타뉴스"
+        },
+        {
+          "title": "[AI는 지금] AI가 일자리 줄인다더니 연봉 11억?…커뮤니케이션 책임자 몸값 급등, 왜 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSS0RjbkJvSE9kcFd3TUJ3cmNOZm9nVXVlaG9zQjl4UlZQNExCSEdGNkc1UjZMSFVCRGpvZVV2aHF6V1VaeFRiNlFva2VOYlJFbGg2NXZB?oc=5",
+          "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "[AI의 종목 이야기] xAI \"그록으로 론딜 짠다\" 월가 인력 대거 영입 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42RUd5bGFHQ0lLUGZRZEgyaUUtWXFPM1FqbjlDWWFlVVA3LV9ibE10Y01oblNPQmhBelpUVGh3Vkh0OUpmaC14YS11WnBvWlcxMUt2WHh3T3FSUThm?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 04:40:00 GMT",
+          "source": "뉴스핌"
+        },
+        {
+          "title": "[빅테크칼럼] 머스크의 xAI·스페이스X 합병 후 암호화폐 전문가 대거 영입…우주-AI 제국, 크립토 퀀트로 무장하다 - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Fc0g1R2lMVlFFNFdTdldrSThMSXRRalM2dHBkRHZDMzdramc5b2xRNllwQ2JTT0dGOFE1R1B5SlU2VWJac1Y2dnNrUloyaGpheTllSXBKOVNtVWdpZnBqaQ?oc=5",
+          "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+          "source": "뉴스스페이스"
+        },
+        {
+          "title": "머스크의 xAI, 가상자산·퀀트 전문가 채용 나서 - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qMmZzWUNLS083YWVBdGFDbmZTVVRwQUxsaVRoQUlyQnFiUko2aHFPbEM1NkgxbFR6c2VKZFJrcG1HMm9MbDluVGlqY2FyWnJE?oc=5",
+          "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+          "source": "블루밍비트"
+        },
+        {
+          "title": "[일론 머스크의 xAI, 암호화폐 전문가 대거 채용… AI 금융 추론 능력 강화 박차] xAI는 최근 원격 근무가 가능한 '금융 전문가 – 암호화폐(Financial Expert – Crypto)' 직무를 신설했다. - AI넷",
+          "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9vUGUtT3JqVDgxOVpFQWJZZjQyRTk2MlRxVVNMWmM5R1hBUXUtdkg5SjV5RzBZbnM0cjdRdXVtWWY?oc=5",
+          "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+          "source": "AI넷"
+        },
+        {
+          "title": "머스크는 바보가 아니다 ‘달 도시 짓자’는 그의 속내 - 테크42",
+          "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOYnoxR2lmbm9UNUlYV1I2eTJ0UjRzSUxxa0g3WVk1Wm81QW12UG5WVEd2cUVFZjFsMlgwbXNSZjRGeGFQZUg0TVI4c2lfeWN2ZkVWb18xQmJwTmNuRHBfYU1PaVBvcVNpdUtBUFJfYzlHUjlIbzM4V21zLVZ0Y1I5dHJjMEowZ2tmamsyb2VfckQ3RHRka2hmSUhQU21QU3owVEJkSVdkc3JuMmJ0V3ZlY2Y2QVRHRFNMN1ctUG9kb29tN1VnSkszZFFDNjQwMzNMNVJPLXR0VHIyTGFETEJHaXBWYWJZQWpTNkRONlpvZGNONGo4VllkNkJyYUhEQlNjd2FEZ3V1TGRqZEpnUUNadE9YaEVUV2d1b3FOQkg3ek1GMG85TkpNMVVYR2M?oc=5",
+          "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+          "source": "테크42"
+        },
+        {
+          "title": "일론 머스크, 韓 반도체 인재 영입 직접 나서…AI 기술 내재화 전략의 일환 - 알파경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zcGswU2RqYU5hNklFZkRkaWE0LTVXQk1pak41UlVUeXUyOWt6dHdOMWFSZld5ak1CNHFIVV90Nlprd1kyYW5tYUVOckk2eEZBd21PVk1WcHVMa2VtT0HSAW5BVV95cUxNRDh5SUVPMG9vM0ZLY3Q3dl9QM2tSVmZ4dHhNdm5lekpCTWpiWnF5NXkxVzVXZHh6T0FqNFJyczN3MWpiek5QQ2JUYTI4OC16LXN2cUI0Z3Z4dWduMFdhV2ZSXzlKemF2dGxrXzhsQQ?oc=5",
+          "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
+          "source": "알파경제"
+        },
+        {
+          "title": "머스크의 xAI, ‘암호화폐 전문가’ 대거 영입 중···”금융 특화 차세대 AI 모델 키운다” - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQNTRDUXZhR2puN0RwUzVRSzlUMkZMZW42MDdBY05WYnNJQUhENXp4aVd3cUQ1YTY5RDFZZWRERmdmalJZSDZXMEo2bXFqVWJWeDZUVzZPcWozZklZT1QxeTBXd21Fd1BVU0VoN01iLXRURkpEQ2NseGF2ci1laEJtbGR2c1ZwMzlZU28wamd6d0liU0NXMWtYOUxsRmlsbWlDeGhCTTMxSE9jb0tzLU1tUDJza1lka2pacVJwcHppNHFBSDgzc3ZzTWRKbzItUHZjelNyTVdrejQ1dUtPdUhYaTZ3SzFmREVSUG5Fc3cyWFV1aFZJRElzdHhsTzVab1l4cWVZNUpUSWxHVTcyd3NPQWlMMHlrZWxiNkVKT0NWcmtlYkJwY1NfUTQ5RjZiSU03Q014c09nVWcwZ1V1dGZn?oc=5",
+          "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+          "source": "Benzinga"
+        },
+        {
+          "title": "일론 머스크 xAI, 암호화폐 전문가 뽑는다 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MRjBIXzFud2duMVd2dGE2UXVfT2hpU3BUZkhmVzE4VlNxbzY2TnRsZFEydTQ2bGdHU0dLekJCc2lodU41RlViNEU4a2VYNjJ6dGtR?oc=5",
+          "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+          "source": "네이트"
+        },
+        {
+          "title": "일론머스크 xAI, 암호화폐 전문가 채용 나선 이유는 - Coinspeaker",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdHJwdXpaRUhuTEx1cTZzX2IyTWtYVUk1clF4NEhXQ2t5c1B5UEVnbmE0NXRRVmlEZGd1VTcwX0ZSWjdxSmt4NU44WmJIZGdfOV9YeDlIZjgxTUxRX29rUWYxQkNhMHZNUXhJNlZWMnJnTldqWnMyMURTY3FjXzVQaW5GQlpBOUdQ0gGQAUFVX3lxTE94eVJCd3BPQW1DWEZocF9xRm9tU29ONVZyVXJra2JlZ3JieUdCSjY1SDNFU3l3MDNVV1A3Ym9RdFBEVlowdEdFenRKQ19qWU5yMW9YY2VRR0hpT19rMjBOUThabVFwa0d3MFVtSVVnOFhEdDhOT1ZvdGFVbWRkSUpBQjBXWlRRaC1GamxMeHRGcw?oc=5",
+          "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+          "source": "Coinspeaker"
+        },
+        {
+          "title": "미 빅테크 간 AI 인력 쟁탈전 갈수록 치열...중국 기업도 가세 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSU1aWDhzWldVUFd2elR5TUZaMFpNZDBNaEUySlBNUm1jOEh5aWpGUGV1V3JBYXMtV0lEVDAtWlpaYmwxc2ZQSVZWaWZwNTZVbG0xYjlJY3lUT29BaUNDTlhwMHFwRnRJWkpJOHFYS0RmWHJydzl5c21hTzFsY2tzU3JSNNIBlwFBVV95cUxQTU4yb3FVUWtvTkV5Sy1NTXI2V3F1VHZlU0dwREJoWVFOang1bnloOEpjY2l0bXJVWUdCTElTdXZoempzaEk0cEZlRUZCcTBVNlB0R1BqZ1hjMC1QbDB5WWxpQ1cwN2M0UHJnY2pySkxnVEQ4aXVCenVCekpKdUs5M280TDRSaU95MVluUUtkX2FnbHJSc0ZN?oc=5",
+          "pub_date": "Sun, 14 Sep 2025 07:00:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "\"AI계 인형 눈 붙이기는 옛말\"…전문 AI 교사 채용 위해 일반 라벨러 500명 해고한 xAI - AI포스트",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ubm14OVRxejY2YnYwUVdqOHBTV2lTYXRCLUtYc0JKUVNvTGhNWUdoTTdsMjFwZHZ4TVJrYTVzUGxkOVdoeGEzaG5pMHZvSUszTFJLQlBBT0x4NC1fTDVETG9QNkdKZXdEYnp5RdIBcEFVX3lxTFBYMGJtQ2h5V05ISDB3TGxsdWprRlpkY2IyaTFLcUxTRXJMUTh6VnlibEJFQVV3Z3VFY1B3VlFSOUJFY3NnN0prWS0tY0Rmc2pSdGZLR0RWbFl4b0pCVlpPTzJRYVExaDN6VnluX1ViU2I?oc=5",
+          "pub_date": "Sun, 14 Sep 2025 07:00:00 GMT",
+          "source": "AI포스트"
+        },
+        {
+          "title": "[xAI, 공격적 인프라 확장으로 분기 손실 14억 6천만 달러 기록] xAI의 손실 확대는 데이터 센터 건설과 우수 인력 채용에 막대한 자금을 투입한 결과 - AI넷",
+          "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9sdHFRLVJ2b2Jrb2ZVWkM4bzJEQ2QybjkxWE00c1BVcnRETWxteC1adWpGQ0xGRWpLREd2bFRiTFo?oc=5",
+          "pub_date": "Sun, 11 Jan 2026 08:00:00 GMT",
+          "source": "AI넷"
+        },
+        {
+          "title": "테슬라 작년 4분기 매출 3% 감소…\"xAI에 20억달러 투자\"(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pQjR4MnFqNFpDUnpNUHU0bkE1cDd6VDBRcU9nTXpGenRPeDVudXYta0R3OGgtd0RGdGxSN2NyWlZMMDlKdm9wT1RnWUZhdUdRNmo4VE16Yno5X03SAWBBVV95cUxQLXE2MWlYTk1PSzZXQkc1QVFQUG9CUXp1M3hNbWNfM0dMT2w1TFJabDZCUk0yODdhV0Vyc3I2ZkZpM0JjcGtlWGVvOFN4dE8zMkRMY0VKZU9tQ1lWWnRIejY?oc=5",
+          "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "테슬라, xAI에 2.8조 투자...1분기 중 로봇 업그레이드 공개 - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqSXd4TFhFV0FhLWotd3F3TXByV0owNmhKNDJWRDJjeHB1MnFuNkM2OEpNNTNUOU5rRjJ5Z2pxbXl2aGl5LUV3elE1TGJoZjExOUNzSGdWb2owRDBuTDh0N0syNHI5LUQ1YVE?oc=5",
+          "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "테슬라, 인공지능 기업 xAI에 20억달러 투자…AI 협력 강화 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tV0xEakh0X3paY2pVLVFfZTh2ZExLVmxpMC1rTV8tNnYwOWRtZ3pFT1JEY3hjQ04taFFnMUNxVUNGaXlDemJ3c191SDVFOFZRdlFJYlRkZnVwaENXQ1pfaE5kYWc?oc=5",
+          "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "테슬라, xAI에 20억 달러 투자…‘AI 기업’ 전환 가속 - 조세일보",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BajZFSFVvblRnblU0ZkJGalBITlgwTUFSclU3RzNLTDdIMmlqQjRrNE9vU0V0b2Noa0FkSmQ2Rkw5c0RCakI5Vi1OMm91bGxDa01zb0w5RGoxSnotZVVB?oc=5",
+          "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "source": "조세일보"
+        },
+        {
+          "title": "스페이스X, xAI 인수 후 기업가치 테슬라에 근접…’머스코노미’ 지각변동 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBlNFAwN09ENmdQOWpYZ21tNmx3NWt6TFNycUVPYUlnako3a1M5czVsQlZwd3dKbVI4UmpPRm5TOFR0NDRhTnc?oc=5",
+          "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+          "source": "v.daum.net"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "\"초인적 속도\" 젠슨 황도 감탄…머스크 큰소리친 이유 보니 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0cE5uNngwNXhObVhtdEhWS3FTZTJ2OVc4OF9aYTNLdndZc05IampBYm0tZDhYeHY1dnREYm9BOHRDc21jdUltWmhROXFteXdmd0lHc3JURU9BQdIBVEFVX3lxTE9JODc5VEVHT3c3WGtDYVJZQ3VpVTM0YjZIVTRnYVh2RW9IX1hHV1BDNTVsYjhNYjhkRXJJU09SMGJCVURyTWZFMFl5OTFmME5hd3Uzag?oc=5",
+          "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "두산에너빌, 美에 스팀터빈 첫 공급 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtaENtc1g4dEg4T1o2VFdKRTZWUGNxOTRsSEJva3puWk12Yzg4S1pkUE54RFRMNU9DQU9pRE5ZWnhGNF94b3dURGJsN2luUEY5MnhDUFFTOWRwd9IBVEFVX3lxTE5YajAxYm90S213NXhnQ0h0cjNid25lRVpGX2M1TFE4NzRJQy1JTWtCd0Vsbk9VQkZDZXRBTmVwdS1BNTVBRGZiVkJIZDNfYzZxemx3Qw?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 08:32:01 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "두산에너빌, 美에 스팀터빈 첫 공급 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR3BFSlJ6VUJGYXBQOUs4Tk5md1FuRmkxQkstdVNCM3QtQ3AzU0x2NWtFSC14M29ISW91N1h3WE1yNUhiSndveUt4OWdPSXRobmtOOHNjR0oycEdMT0w5aVJZSjFSaTJLY2FhRk1rclNmSVdEbjFXVWs1eDdXYVhNZGgtaGZlV1ZMNXRlNG1qMm5JcE92cFZINTh6cS02cFZXWGV4SWhPZnhLVjZsMnc?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[단독] 미래에셋, 스페이스X에 1600억 추가 투자... xAI 통해 지분 확대 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNVhxWU03dzYtQ2VaWnQ2QTlyMUdXR2UxRm5vcE5VNWRqUDFqdENaWWFidlBzQ0Q1TGNXbU9Nb25LS1BjT1RvSi1FSlNJSEhtYVNjYzdBV3BEQlZta2k0TEdtQS1yVU1ORkZRU1VPSzBtN0dBMWJleXRLWHBuTG9VQWcwbkJjQnfSAZsBQVVfeXFMTk1la0FwUWdNZzZnT21qTlNVTTVoUk9RaGhUMEtmekl4amdkMXRhSV9kb1ViMl9FdTBiUkJZc19fSVo1VXFpNldMUV9rYUJmSTZwMmJLV2JGUXpfbkFJTktRR21jdE12THJiUXc2R1FUaE5salV6c24tSHU3MVZEaGRCRHV3NW5EN1RvU0VXQ0RBZUplTEp1TVpEYTA?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 01:46:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "“테슬라, xAI 투자분 스페이스X 지분으로 전환…머스크 기업 구조 재편” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdzY5MVRNb1BlaHFTRGh2dlVmb2tBSHlud0JSaDJ0Ym5HanNDUjNBVzVleV94cmh4enFzS2c5WWljVU5xU0FjZFZHNS1zeVdZRm9MS3p5T2RCUUdBcEZXcUptRm1feElqOTNJTTVEZ0c3b25RZnJoVjFYSElYVUVoNkt30gGWAUFVX3lxTE82RGVQdGktLWQ5Ry1HcGdQQW1rSksxVkpCZVZPdXJFbllpSkxDc3lwbjA1U0lfZXdpMmp1Sk9SQjROT2xTd2NYZ3ZmeF9xNWhtdWl2NVNZMmF6R2g4NkNRU0doTzdaY3djbGJ4X2NhcnA0aVZFOC1LRzh2R2ZVQ3Jka1JJM2VDLTl2eWVBV284aDNuQWJLZw?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 08:32:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "소송만 100건 육박한 빅테크 AI… 저작권·딥페이크 ‘법률 리스크’에 수익성 흔들 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWlXOEU4R1BXdmxyeDZ5WGJKTGNHYWUxY0ZfT1g1YmpKMkViZW9IOC10MDhJOWFhSTNlOEtIMUM4MFBlUWJWVEtmWHdwaEVuZWRlaHZjYi00UjIybThYUUVSRjNEYnh4VjgzRXVTWDVRTW5kYjVJbjFobnB5QlhNNjh30gGWAUFVX3lxTE1DazBGTHc1NVlOckNKdmhCN1NaV0w3M1VHX2pjYTk2YUh5TmItbE5yemlpYkxGcGt5Ujc3Smt6UHQ5d01GN05PSDktNEZYV3NEaVNPTGlNYzhoeE5JZEFwelhiWktVS1Z3RXp1eFp3bDdKbnJBcFQwQWZtaU1za3JoRkw1MjJIbVUybk9BV3FVRDhldm80UQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 05:34:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "방미통위, 딥페이크 양산 논란 AI 그록에 청소년 보호 요청 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vNWxWUHhSNVdXZjNhV2paSmgzNUFMOXdQT1g0Wmw3NnFKWUllcHhGTXdHS2trUHZaU29IbV9OR1FObE5mMVk5bzNaVnBXQXNM?oc=5",
+          "pub_date": "Wed, 14 Jan 2026 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "미래에셋벤처투자(100790) 소폭 상승세 +4.81%, 3거래일 연속 상승 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KT3VPVWQxd0txOUVVUTkxYXRpTGpCWHRhRG40WktIalB6Sml2UGpTNE13SXVpVHh4TlhjYWZ6T1o2U0pDNGFYdldyaXVSM3lleWc?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 01:32:38 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "AI 빅테크 데이터센터 '빅딜'…WSJ \"수익성 높지만 위험\" - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hcUMxMmtMbHlwcXZLUlRUYmJJTW0xUE9GdWkxOU1KVTJJX241Zk1SZXJDbEt4amF2UE9xaDJINXNpdENxUmRnbmx2cG00djBy?oc=5",
+          "pub_date": "Wed, 12 Nov 2025 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "\"TSMC 70% 수준 생산한다\"…테슬라 테라팹, AI 반도체 판을 바꿀까 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnNUdIU08zREM0UGNfQXdCRkZ6QnJnaUxMRkpicEJLYkU5dG9JSjlSZkdIVC1Ub3RuVG0wWm1jOWdwN3EwWHB3NDZEelpkempiUXpXWEJ3?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 13:13:28 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "우주 데이터센터, 엔비디아도 뛰어든다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qOWZrSkVUNmgtZFEtLXVoUkg2Y3REMGJCajNGQk1HQnMtOWRtcnE0Q1Uwem1QY0w3dC1DQkpDSi1laVZLbmozSUp5VmtGekdLeGJNTUtB?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 01:34:49 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "머스크의 도박…테슬라, AI 반도체 공장 '테라팹' 7일 내 출범 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YdWEwVkhwcU5Va084bUZMT0dva2ZweVRaQ1BnWXI1UkJuLVpfakhyeHBocC1BZlBkNXRycDBUT21yUlV5NEgzX29OVlNscXN2TV9FVzVn?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 02:13:30 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "스페이스X, xAI 인수 후 기업가치 테슬라에 근접…’머스코노미’ 지각변동 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuSUFwcXNrU2taeUJ2QjhBdllaR3pSZTNsNksxcXNKSXd2NzBmWmthVjBUdkZBTEpvZ3QzeG14NFBBMWR6bG1nb1NqWFVSY1Y5cEFpdXFEZ3BZNHVhN0VGS2lVRGo0b0Iy0gFsQVVfeXFMTzdkN0JCc2tCXzEzdG44MndPQko0TFN1QzM3SU0taERPU3JqNlZVdTQ1cHRLUGhiOXVlTklDRkk4WmxubXhIOFZDVlB3MHpTdmJlU1N0Q1FBMmZyRTRpQ2pySWVKaDk3c0d3MUtr?oc=5",
+          "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "머스크, AI 챗봇 '그록' 공개…\"유머 감각과 반항적 성향 지녔다\" - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4waGZFa2o0UWN1U2FZaVJhZkUzakhJbjR1NGgyNk1LMWhIS3FWUk4yd1plSE1semZIZUxoVnBoYnViZXUwWVBJSW4xS1RKcUFtQ1RRcURrUGJBZElUZEhFS3VjLW1nWjlr?oc=5",
+          "pub_date": "Mon, 06 Nov 2023 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "머스크의 AI 스타트업 'xAI', 테슬라·트위터와 협업한다…\"자율주행 향상될 것\" - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KV2J1Y0ZXR3ljdXpkRkx3bW1fX1E3ZHJzZXVFR2dYM3lEbzJ4YVRoVDNVcTFhMlY0M0NUaEh3SHFfd05TSWt6TFRpNjN3cktvMlZYTld6YUlqMzZsTHBjSHdVaGZYeVVu?oc=5",
+          "pub_date": "Sat, 15 Jul 2023 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "일론 머스크의 xAI, 29조원 투자유치…딥페이크 성착취 논란도 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90YnNyRURlZlRqbExnal9YbkxMMWtWdmFIOUtzVzNYa1o4T1VlSjcwZ19XTkl3U0x5Y3dJOExPQUl6dVk0bW5HN2ZhOW10Q3M?oc=5",
+          "pub_date": "Wed, 07 Jan 2026 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "xAI, 반독점법 위반으로 애플 고소 “앱스토어 순위 조작했다” - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85T1NnVkhUOVIweVlVanlBYVd0WjVBcnVKTnFjVWM2Yjk3TFAxejU0ZEhwREVOaFVSSDRySkVROFVvS3ZDYWVwRjgwb00?oc=5",
+          "pub_date": "Tue, 26 Aug 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "나이스평가정보가 신용평가에 XAI를 활용한 방법 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jMjloM1VzVV9JQnNvd2pBdWRGZGJhVnN1SDFxT0lPQy1VbXNnRXpJckE0V0pHTzNIRGZ4RG5ORnExNmJreXN6WnZLSUxVajA?oc=5",
+          "pub_date": "Thu, 23 Mar 2023 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "How Grok Works Under the Hood: Inside xAI's Infrastructure and ...",
+          "url": "https://medium.com/@saffronhurn651/how-grok-works-under-the-hood-inside-xais-infrastructure-and-training-logic-e36a5a26acb9",
+          "text": "How Grok Works Under the Hood: Inside xAI’s Infrastructure and Training Logic | by Saffron Hurn | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40saffronhurn651%2Fhow-grok-works-und",
+          "score": 0,
+          "published_date": "2025-11-27T00:00:00.000Z"
+        },
+        {
+          "title": "Elon Musk And xAI Open Source Grok 2.5, Grok 3 To Follow In 2026",
+          "url": "https://www.opensourceforu.com/2025/08/elon-musk-and-xai-open-source-grok-2-5-grok-3-to-follow-in-2026/",
+          "text": "Elon Musk And xAI Open Source Grok 2.5, Grok 3 To Follow In 2026 - Open Source For You\n\nFacebook Linkedin Twitter\n\nFor U & Me\n\n- Open Journies\n- [Expert Users](https://www.opensourceforu.com/category/type-of",
+          "score": 0,
+          "published_date": "2025-08-26T00:00:00.000Z"
+        },
+        {
+          "title": "Opensource Grok-1: A New Frontier in AI by xAI - Towards AI",
+          "url": "https://pub.towardsai.net/opensource-grok-1-a-new-frontier-in-ai-by-xai-2567f01700f1",
+          "text": "Opensource Grok-1: A New Frontier in AI by xAI | by Mandar Karhade, MD. PhD. | Towards AI\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fpub.towardsai.net%2Fopensource-grok-1-a-new-frontier-in-ai-",
+          "score": 0,
+          "published_date": "2024-03-17T00:00:00.000Z"
+        },
+        {
+          "title": "X Algorithm: 12 Proven, Trusted GitHub Mechanics",
+          "url": "https://binaryverseai.com/x-algorithm-github-explained-how-works-feed-xai/",
+          "text": "X Algorithm: 12 Proven, Trusted GitHub Mechanics\n\nX Algorithm GitHub Explained: How X Builds Your “For You” Feed End To End\n\nPlay\n\n## Introduction\n\nX finally did the thing every social platform says is “too sensitive” to share, it published real, runnable code for its For You feed stack. Not a glossy blog post. Not a diagram with inspirational arrows. A repo you can clone, skim, and argue with like an adult.\n\nIf your feed has ever made you mutter, “Why a",
+          "score": 0,
+          "published_date": "2026-01-23T00:00:00.000Z"
+        },
+        {
+          "title": "Under the Hood of XAI Router",
+          "url": "https://xaixapi.com/en/blog/router",
+          "text": "Under the Hood of XAI Router | 𝐗𝐀𝐈𝐗𝐀𝐏𝐈𝐗𝐀𝐈 𝐗𝐀𝐏𝐈\n* ZH\n* X\n* GitHub\n* 𝐗𝐀𝐈 admin\n* 𝐗𝐀𝐈 manager\n* 𝑫𝒐𝒄𝒔\n* 𝑩𝒍𝒐𝒈\n* 𝑵𝒆𝒘𝒔\n* 𝑷𝒓𝒊𝒄𝒊𝒏𝒈\n* [𝑷𝒓𝒐𝒅𝒖𝒄𝒕𝒔",
+          "score": 0,
+          "published_date": "2025-07-03T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.42857142857143,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.357142857142858,
+        "evidence": "13 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=xAI"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=xAI"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=xAI+잡플래닛"
+    },
+    {
+      "name": "linkedin_search",
+      "section": "overview",
+      "url": "https://www.linkedin.com/company/xai"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=xAI"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=xAI company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=xAI business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=xAI hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=xAI tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=xAI"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

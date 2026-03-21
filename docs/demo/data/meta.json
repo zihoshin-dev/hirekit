@@ -1,828 +1,482 @@
 [
   {
     "name": "AWS코리아",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 14,
+    "score": 75.0,
+    "grade": "A"
   },
   {
     "name": "CJ ENM",
-    "sources": 14,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 16,
+    "score": 81.0,
+    "grade": "S"
   },
   {
     "name": "CJ올리브영",
-    "sources": 14,
-    "sections": [
-      "strategy",
-      "financials",
-      "tech",
-      "culture",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 80.5,
+    "grade": "S"
   },
   {
     "name": "JYP엔터테인먼트",
-    "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "KT",
     "sources": 13,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "LG CNS",
-    "sources": 15,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 17,
+    "score": 80.55555555555556,
+    "grade": "S"
   },
   {
     "name": "SK텔레콤",
-    "sources": 15,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 17,
+    "score": 80.55555555555556,
+    "grade": "S"
   },
   {
     "name": "SK하이닉스",
-    "sources": 15,
-    "sections": [
-      "strategy",
-      "financials",
-      "tech",
-      "culture",
-      "overview"
-    ]
+    "sources": 17,
+    "score": 80.55555555555556,
+    "grade": "S"
   },
   {
     "name": "SM엔터테인먼트",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "SSG닷컴",
     "sources": 14,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "score": 82.33333333333334,
+    "grade": "S"
   },
   {
     "name": "xAI",
-    "sources": 11,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "구글코리아",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "그린랩스",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "네이버",
-    "sources": 15,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "financials",
-      "overview"
-    ]
+    "sources": 17,
+    "score": 80.55555555555556,
+    "grade": "S"
   },
   {
     "name": "네이버웹툰",
-    "sources": 14,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 81.57142857142857,
+    "grade": "S"
   },
   {
     "name": "네이버클라우드",
-    "sources": 14,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 81.57142857142857,
+    "grade": "S"
   },
   {
     "name": "네이버파이낸셜",
-    "sources": 15,
-    "sections": [
-      "strategy",
-      "financials",
-      "tech",
-      "culture",
-      "overview"
-    ]
+    "sources": 16,
+    "score": 81.0,
+    "grade": "S"
   },
   {
     "name": "넥슨코리아",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "넷마블",
     "sources": 14,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "score": 82.33333333333334,
+    "grade": "S"
   },
   {
     "name": "당근",
-    "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 74.66666666666667,
+    "grade": "A"
   },
   {
     "name": "두나무",
     "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "딥마인드코리아",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "라인플러스",
-    "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "뤼튼",
     "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "score": 75.33333333333333,
+    "grade": "A"
   },
   {
     "name": "리디",
-    "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "리벨리온",
     "sources": 13,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "리턴제로",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "마이리얼트립",
-    "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "마키나락스",
-    "sources": 11,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 12,
+    "score": 74.85714285714286,
+    "grade": "A"
   },
   {
     "name": "메이크스타",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "메타코리아",
-    "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "무신사",
-    "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 14,
+    "score": 75.0,
+    "grade": "A"
   },
   {
     "name": "밀리의서재",
-    "sources": 11,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 12,
+    "score": 74.85714285714286,
+    "grade": "A"
   },
   {
     "name": "뱅크샐러드",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "버킷플레이스",
-    "sources": 14,
-    "sections": [
-      "strategy",
-      "financials",
-      "tech",
-      "culture",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 81.57142857142857,
+    "grade": "S"
   },
   {
     "name": "비바리퍼블리카",
     "sources": 10,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "빗썸",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "삼성SDS",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 14,
+    "score": 75.0,
+    "grade": "A"
   },
   {
     "name": "삼성전자",
-    "sources": 15,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "financials",
-      "overview"
-    ]
+    "sources": 16,
+    "score": 81.0,
+    "grade": "S"
   },
   {
     "name": "세일즈포스코리아",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "센드버드",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "스노우",
-    "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "스캐터랩",
-    "sources": 11,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 12,
+    "score": 74.85714285714286,
+    "grade": "A"
   },
   {
     "name": "쏘카",
-    "sources": 13,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 14,
+    "score": 81.0,
+    "grade": "S"
   },
   {
     "name": "애플코리아",
-    "sources": 13,
-    "sections": [
-      "tech",
-      "strategy",
-      "culture",
-      "industry",
-      "overview"
-    ]
+    "sources": 12,
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "앤트로픽코리아",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "야놀자",
-    "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 14,
+    "score": 75.0,
+    "grade": "A"
   },
   {
     "name": "업스테이지",
     "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "에이프로젠",
     "sources": 11,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 75.33333333333333,
+    "grade": "A"
   },
   {
     "name": "엔비디아코리아",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "엔씨소프트",
-    "sources": 14,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 81.57142857142857,
+    "grade": "S"
   },
   {
     "name": "오픈AI코리아",
     "sources": 13,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "왓챠",
-    "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "우아한형제들",
-    "sources": 10,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 11,
+    "score": 75.33333333333333,
+    "grade": "A"
   },
   {
     "name": "원티드랩",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "지마켓",
-    "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "직방",
     "sources": 11,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 75.33333333333333,
+    "grade": "A"
   },
   {
     "name": "채널코퍼레이션",
-    "sources": 14,
-    "sections": [
-      "strategy",
-      "financials",
-      "tech",
-      "culture",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 81.57142857142857,
+    "grade": "S"
   },
   {
     "name": "카카오",
-    "sources": 15,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "financials",
-      "overview"
-    ]
+    "sources": 18,
+    "score": 80.19999999999999,
+    "grade": "S"
   },
   {
     "name": "카카오뱅크",
-    "sources": 15,
-    "sections": [
-      "strategy",
-      "financials",
-      "tech",
-      "culture",
-      "overview"
-    ]
+    "sources": 17,
+    "score": 80.55555555555556,
+    "grade": "S"
   },
   {
     "name": "카카오스타일",
-    "sources": 14,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 16,
+    "score": 81.0,
+    "grade": "S"
   },
   {
     "name": "카카오엔터테인먼트",
-    "sources": 14,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 16,
+    "score": 81.0,
+    "grade": "S"
   },
   {
     "name": "카카오페이",
-    "sources": 14,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "financials",
-      "overview"
-    ]
+    "sources": 16,
+    "score": 81.0,
+    "grade": "S"
   },
   {
     "name": "카카오페이증권",
-    "sources": 13,
-    "sections": [
-      "financials",
-      "tech",
-      "strategy",
-      "culture",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 80.5,
+    "grade": "S"
   },
   {
     "name": "컬리",
     "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "코인원",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "쿠팡",
-    "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 14,
+    "score": 75.0,
+    "grade": "A"
   },
   {
     "name": "크래프톤",
-    "sources": 14,
-    "sections": [
-      "strategy",
-      "financials",
-      "tech",
-      "culture",
-      "overview"
-    ]
+    "sources": 15,
+    "score": 81.57142857142857,
+    "grade": "S"
   },
   {
     "name": "클래스101",
     "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "테슬라코리아",
-    "sources": 14,
-    "sections": [
-      "strategy",
-      "tech",
-      "industry",
-      "culture",
-      "overview"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "토스",
-    "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 14,
+    "score": 75.0,
+    "grade": "A"
   },
   {
     "name": "토스랩",
-    "sources": 11,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 12,
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "토스뱅크",
-    "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 12,
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "토스증권",
-    "sources": 11,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 12,
+    "score": 76.0,
+    "grade": "A"
   },
   {
     "name": "토스페이먼츠",
-    "sources": 10,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 11,
+    "score": 75.33333333333333,
+    "grade": "A"
   },
   {
     "name": "포티투마루",
-    "sources": 11,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 12,
+    "score": 74.85714285714286,
+    "grade": "A"
   },
   {
     "name": "퓨리오사AI",
-    "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "sources": 14,
+    "score": 75.0,
+    "grade": "A"
   },
   {
     "name": "핀다",
-    "sources": 12,
-    "sections": [
-      "strategy",
-      "culture",
-      "overview",
-      "tech"
-    ]
+    "sources": 13,
+    "score": 75.42857142857143,
+    "grade": "A"
   },
   {
     "name": "하이브",
-    "sources": 14,
-    "sections": [
-      "strategy",
-      "financials",
-      "tech",
-      "culture",
-      "overview"
-    ]
+    "sources": 16,
+    "score": 81.0,
+    "grade": "S"
   },
   {
     "name": "한국마이크로소프트",
     "sources": 12,
-    "sections": [
-      "culture",
-      "strategy",
-      "tech",
-      "overview"
-    ]
+    "score": 76.0,
+    "grade": "A"
   }
 ]

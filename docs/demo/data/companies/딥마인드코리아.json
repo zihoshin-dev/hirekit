@@ -1,722 +1,963 @@
 {
   "company": "딥마인드코리아",
-  "sources_used": [
-    "exa_search",
-    "google_news",
-    "dart",
-    "credible_news",
-    "brave_search",
-    "naver_search"
-  ],
-  "result_count": 12,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "data": {
-    "company_name": "주식회사 코리아",
-    "company_name_eng": "korea co,.ltd.",
-    "stock_name": "코리아",
-    "ceo": "김승곤",
-    "address": "대구광역시 중구 동덕로 115 (삼덕동2가, 진석타워) 1711호",
-    "industry_code": "68112",
-    "established": "20121026",
-    "homepage": "www.picassocon.com",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
-        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
-        "link": "https://sibauchi.tistory.com/1205",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
-        "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
-        "link": "https://ilovefamily.tistory.com/527",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
-        "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
-        "link": "https://lefthusband.tistory.com/1565",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "대구 취업 성공 잡코리아 활용 전략으로 꿈을 이루세요",
-        "description": "단순히 채용 공고만 보는 것이 아니라, 회사의 사업 분야, 기업 문화, 근무 환경 등을 파악하여 자신에게... 잡코리아에 있는 기업 정보와 후기를 참고하여 회사 분위기와 면접 방식을 파악하는 것도 잊지 마세요.... ",
-        "link": "https://sibauchi.tistory.com/837",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "정규직 대규모 채용 | 14개 직무 총정리 + 면접 족보까지 공개",
-        "description": "퇴사율 및 조직 문화 - 현직자 후기 솔직 정리 크레딧잡 데이터 기준, SK하이닉스의 최근 1년 퇴사율은 약 10%대 초반으로 대기업 평균 수준이에요. 반도체 업계 특성상 이직 시장이 활발한 것을 고려하면... ",
-        "link": "https://blog.naver.com/cymmcymm/224215480910",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "어플라이드 머티리얼즈 면접 후기 (엔지니어) 결과, 기출질문",
-        "description": "각 기업, 직무별 합격자를 배출하고 있습니다. 특히 Applied Materials 출신 코치진, 반도체... 실제 합격하신 지원자 후기 어플라이드 머티리얼즈 코리아 석사/ 신입 ▼ 면접 합격 후기 보러... ",
-        "link": "https://blog.naver.com/ve_getable/224220697925",
-        "pub_date": "20260318"
-      },
-      {
-        "title": "제약산업분석 4 주차 강의: 바이오의약품 산업 채용 동향 분석",
-        "description": "CDMO 기업들은 외국어 능력(OPIc AL 이상 등)이 뛰어나고 제약 산업 전반의 밸류체인을 이해하는 인재를 확보하는 데 사활을 걸고 있다.11 공정 개발(PD) 및 기술 이전(Tech Transfer)의 전문화 CDMO의 핵심... ",
-        "link": "https://blog.naver.com/potatoschool/224218820717",
-        "pub_date": "20260316"
-      },
-      {
-        "title": "ASML 코리아 비디오 레코딩 면접 (HireVue) video... ",
-        "description": "합격자 배출 이력이 있습니다. 각 기업별 직무별 면접을 대비합니다. ASML 채용공고  ASML코리아... 미국, 유럽, 국내 기업을 모두 거친 20년 경력의 인사 전문가로서, ASML 특유의 외국계 기업 문화와... ",
-        "link": "https://blog.naver.com/fusekimo198735/224218339072",
-        "pub_date": "20260316"
-      },
-      {
-        "title": "코스트코 채용공고 대구 세종 신청 후기",
-        "description": "합격자가 들려주는 면접 및 근무 후기 실제 합격자들의 후기를 살펴보면 코스트코 채용공고 면접은 1차와 2차에 걸쳐 꼼꼼하게 진행됩니다. 면접 분위기는 대체로 편안하지만, 지원자가 코스트코의 기업 문화... ",
-        "link": "https://blog.naver.com/srdw59340/224216620706",
-        "pub_date": "20260315"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "정책뉴스20260321토요일",
-        "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 보건복지부(장관 정은경)는「메디컬코리아 2026」참석차 한국을 방문한 몽골 친부렝 직찌드수렝(Chinburen... ",
-        "link": "http://cafe.naver.com/jungamironware/9268",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "2026년 3월 20일 금요일 정책키워드 총정리",
-        "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-20 오후 3:00:00 엔브이에이치코리아㈜의 하도급법 위반행위 제재 엔브이에이치코리아㈜의 불공정하도급거래행위... ",
-        "link": "http://cafe.naver.com/magicbank/3332",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "[경력] ~26.04.09 / 일레븐플러스코리아 - Frontend Developer (React)",
-        "description": "채용 공고 - URL (공고 링크) : https://zighang.com/recruitment/ef6c7bd3-f485-4d4e-a189-51991728cc31?utm_source=naver&amp;utm... 혜택 및 복지 ?자율적이고 주도적인 업무 문화 • 유연한 근무 시간 및 휴가 사용 ?수평적인 조직... ",
-        "link": "http://cafe.naver.com/workhub/32402",
-        "pub_date": ""
-      },
-      {
-        "title": "충청남도보도자료20260320금요일",
-        "description": "엔터테인먼트 코리아 이스포츠 매니저), ▲OGN의 남윤승 대표 ▲한국전자통신연구원 이상광 박사... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자 박람회... ",
-        "link": "http://cafe.naver.com/jungamironware/9239",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "(광고)&quot;형이 거기서 왜 나와&quot; 구글 딥마인드 연구에 등장한 ㅇㅇㅇ",
-        "description": "이를 위해서는 어떤 전략이 필요할까요. IT, 실리콘밸리 등의 이야기를 다루는 미라클레터에서 뜬금없이 축구 얘기 냐고요? 이유가 있습니다. 이들은 AI를 이용해 코너킥 전술을 만들었는데 영국의 축구 명가가 함께 했습니다. 과연 어디일까요. 이번 레터에서는 딥마인드의 새로운 성과와 함께 이들이 AI를 이용해서 축구에서 얻으려 하는 것들을 알아보도록 하겠습니다.",
-        "link": "https://m.mk.co.kr/newsletter/pageHTML/1424",
-        "pub_date": ""
-      },
-      {
-        "title": "ABOUT | 임팩티브AI 기업 소개",
-        "description": "우리의 미션(Mission)은 기술에 대한 전문성으로 세상의 중대한 문제를 해결하여 주목할만한 가치(Remarkable Value)를 창출하는 것입니다.",
-        "link": "https://www.impactive-ai.com/about-us",
-        "pub_date": ""
-      },
-      {
-        "title": "[AI는 지금] &quot;딥마인드만으론 부족해&quot;…英 정부, 韓과 'AI 전략동맹' 모색",
-        "description": "이 같은 방향성은 한국과의 기술·산업 협력 확대 전략과도 맞물리며 양국 간 AI 공조 구도가 재편되는 흐름이다. 11일 업계에 따르면 영국... 또 오픈AI의 경쟁자로 꼽히는 구글 딥마인드를 배출한 국가로...",
-        "link": "https://zdnet.co.kr/view/?no=20250411094017",
-        "pub_date": ""
-      },
-      {
-        "title": "선수 멘탈까지 이해하는 AI를 기대하며",
-        "description": "연구를 주도한 딥마인드의 AI 연구원 칼 투일스(Karl Tuyls) 박사는... 컴퓨터 비전 기반의 대상 추적(Object tracking) 카메라 등을 통해 선수... 높은 방향을 포지션별로 예측한 부분이었다. ADVERTISEMENT 경기장 안팎...",
-        "link": "https://www.hankyung.com/article/202109305235i",
-        "pub_date": ""
-      },
-      {
-        "title": "실리콘밸리, AI 개발 방향 두고 갈등…'안전 vs 속도'",
-        "description": "기본 방향으로 채택하는 분위기다. 22일 소프트웨어 컨설팅 회사 세로켈에 따르면 오픈AI, 앤트로픽, 딥마인드 등 글로벌 선도 AI 기업들은... 이는 기술에 의한 '초월'처럼 통제 불가능한 비전보다는 인류가...",
-        "link": "https://zdnet.co.kr/view/?no=20250621230512",
-        "pub_date": ""
-      },
-      {
-        "title": "KPMG’s AI Insight",
-        "description": "자율주행의 서막, 로보택시 시장의 경쟁 전략 ; K-디지털 헬스케어 대전환 대응을 위한 현황 점검 ; AX를 통한 가치 창출 전략 시리즈",
-        "link": "https://kpmg.com/kr/ko/ai/kpmg-ai-insight.html",
-        "pub_date": ""
-      },
-      {
-        "title": "폐창고서 AI기술 수출 꿈 키우는 '스켈터랩스'",
-        "description": "바둑 기사인 이세돌 9단과 구글 딥마인드가 개발한 알파고와의 2년전... 저희의 사업 방향입니다.” 조원규 대표는 최근 뜨거워진 블록체인 기술에도 많은 관심을 드러냈다. AI 기술을 발전시켜 나가다 보면 결국엔...",
-        "link": "https://zdnet.co.kr/view/?no=20180315155843",
-        "pub_date": ""
-      },
-      {
-        "title": "‘이스라엘의 오픈AI’ AI21랩스가 전하는 생성형 AI의 미래",
-        "description": "한국에는 잘 알려지지 않았지만 빅테크 기업과 어깨를 나란히 하는 이스라엘의 스타트업이 있다. AI21랩스(AI21 Labs)가 그 주인공이다. AI21랩스는 특히 연구 조직이 탄탄하고 학계에 여러 AI 주제의 논문을 발표하고 있다는 점에서 미국의 오픈AI(OpenAI), 영국의 딥마인드(Deepmind)와 자주 비교되곤 한다.",
-        "link": "https://www.itworld.co.kr/article/3555720/%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98%EC%9D%98-%EC%98%A4%ED%94%88ai-ai21%EB%9E%A9%EC%8A%A4%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-%EC%83%9D%EC%84%B1%ED%98%95-ai%EC%9D%98-%EB%AF%B8.html",
-        "pub_date": ""
-      },
-      {
-        "title": "&quot;AI시대 新 전략 모색 나서&quot;... 글로벌 스타트업 대축제 ‘Try Everything’ 개최",
-        "description": "구글 딥마인드의 최고운영책임자(COO)인 ‘라일라 이브라힘(Lila... 생성형 AI인 제미나이(Gemini)의 개발 현황과 전략도 함께 소개할 예정으로, 이를 통해 스타트업들에게 새로운 방향성과 기회를 제시하며...",
-        "link": "https://www.aitimes.kr/news/articleView.html?idxno=32028",
-        "pub_date": ""
-      },
-      {
-        "title": "[#56.5월3주 비전레터] 오픈AI, 차세대 코딩 에이전트 '코덱스(Codex)' 출시 ⋯ 소프트웨어 개발의 새로운 시대",
-        "description": "[#56.5월3주 비전레터] 오픈AI, 차세대 코딩 에이전트 '코덱스(Codex)' 출시 ⋯ 소프트웨어 개발의 새로운 시대",
-        "link": "https://maily.so/visionletter/posts/g1o4kew6rve",
-        "pub_date": ""
-      }
-    ],
-    "google_news": [
-      {
-        "title": "[현장리포트] 2025 스타트업콘 - 'AI 시대' K-콘텐츠의 생존 전략... 핵심은 '실효성' - investnews.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFByS2dXQ003aHNadHpuMTJEZ0RoRHhHc1NFdzFtT0tmQmhtbFNfWmNaM29QZlJWVmtNWXZRMFN3Z3BZcElTVkhnclpOYzhGVjFGZlNxZjRzaHlPcng4TUxfMXVKbXNJeHRrMkRKU3hXMVp3QdIBdkFVX3lxTE8yNFdWUTMxNHhNT0txZzdfWVpoLUNpWEdId3Q5c0p3MXVCN1A4NGU5T3RFVWlZSnQtM0t4MU9lY0NEdG9mb0xPUTlpR3FkTDhEQmRLMkhfSUJNX3k4RlpsQ2hWa3I4THFrT1ZMLXJfQVNkT2VmelE?oc=5",
-        "pub_date": "Tue, 30 Sep 2025 07:00:00 GMT",
-        "source": "investnews.co.kr"
-      },
-      {
-        "title": "마이크로소프트 AI CEO, 메타의 인재 확보 전쟁 격화에 과도한 보상 패키지 비판 - Benzinga",
-        "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNYmtwLVNrdC1SNlZuN2wtSlQxbEtYdGJhYm9URDJlSlBscG9jaXUtaDRYSk1KYmd6elJGMmhzLWlZSXlCaUVMbWh3VEFqYnhBWGlRTTZla1JTQjktUTdyTk5fbTY2NTdURk9NeV9vMWU3NWM1N3gzT0FZNzI4cHA4TUhxSll5U0ZlZTJVV0g0NThLS3RWSU5ub09IcXloOVlSelpWa0lLSWRmMXpJaGVqbVJWR2pxeHpERk11YWwzek5zOHZPWFFYMERrYTBDcC1RNWRPZkJpdW1HWDgwWUVXRDRyTEdrc3UzWEg3Y3lBSWlrMkJoTF8tcUZ1QVVpeE9ONkV1ckVDY0hTaXhzVkw3d3BnUXVmQmZ1eE5CQTE0dXBfZjVCY2RPVnhlWTBhcWlUT1NmYUE5eDd3U2xmVFczNG9fZnM3UnhZTS1UaWRVajd5dFQxMm45eGd3MF8?oc=5",
-        "pub_date": "Sun, 14 Dec 2025 08:00:00 GMT",
-        "source": "Benzinga"
-      },
-      {
-        "title": "오픈AI·앤트로픽, 나란히 한국 상륙…고객 확보 '경쟁' - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1weFUtbUxoYkg2ajBqal9Gel9zWG5tY1p2VWFmYnRUMlFMN1ZnUnhfd3hiMnVFSFRDN05LNy1PQ0h4U3pfa19TREh0dVJ0a1Y5R1pzLURB?oc=5",
-        "pub_date": "Wed, 06 Aug 2025 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "수천억 오가는 AI인재 쟁탈전…‘파격연봉’ 없는 앤트로픽이 최후 승자라는데 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wZUNnVktHcGpfaEdYQzdzTmFFeFZ6TzJDeDgwYmlvM0szd3ZvX2U3enJYWkw5c1FaZDltTnBOdG93S1N3UFlDXzJIemtBQQ?oc=5",
-        "pub_date": "Sat, 09 Aug 2025 07:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "中 바이트댄스, 미국서 AI 인재 100명 채용…실리콘밸리 정조준 - kmjournal.net",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JU25IT0o1UHBNY3BOUWdyblpLME9LZ3VLYWd1ZlpRLWEzbUw2X2pQeWE5aUprOVB4RktIT281YndnNUJQTzZVN3hYcXZ5NkJiMXYwWkVqS0hrQjFRTXJoZExLT2NTQUh1SHc?oc=5",
-        "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
-        "source": "kmjournal.net"
-      },
-      {
-        "title": "“연봉 3억 5천만원, 너도나도 난리였는데” 충격적인 ‘실상’…알고 보니 - 헤럴드경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RMU9iVWtfR1hTV2tpWnBfNE5qdU9sMlc2M3ZyVkdieHFDVzlVd2Q4NGowUFVvTzVNcmxBYVVrdWdoRkNINXNBaU13OW5XM3FWSkJDclh3?oc=5",
-        "pub_date": "Tue, 17 Jun 2025 07:00:00 GMT",
-        "source": "헤럴드경제"
-      },
-      {
-        "title": "\"1371억 줄게\" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLWW9sNmlfSkhOWE16dFhqZWxlSWg1R0VQU1RKM2E4WU9jUEFyVnhqOVBZMHBsU0d3ZHd6ZG5tRC1BaGh1Y0NZM1BWR1ZsRWNjTGN1d09BWlcxQdIBVEFVX3lxTE4tQmM0UE5YN1FYdzNUbE4xb0ppVU5NV09ERmJtVjB1M0YtSVlHMHAtOXAzNkpCMy1DY20zOTNiUGpBSFBETXVPN29sOHJnNTd4TWdYbg?oc=5",
-        "pub_date": "Fri, 25 Jul 2025 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "[AI웨이브] “AI 전환, 기술보다 사람이 먼저”…‘인재 전쟁’ 나선 IT기업들 - 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hUkhsc3Nwd3hielhGQnUzdE1WQjBJYWVETlpHYXoyb3VYcjBlRi1vWFNZdTBZcTAwS1pQNlV1U0lLZ3dONHM5T3dmVUJTUVRKV1QyVHdtY0c5eWpKLVVGdmJR?oc=5",
-        "pub_date": "Tue, 27 May 2025 07:00:00 GMT",
-        "source": "디지털데일리"
-      },
-      {
-        "title": "\"AI계 인형 눈 붙이기는 옛말\"…전문 AI 교사 채용 위해 일반 라벨러 500명 해고한 xAI - AI포스트",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ubm14OVRxejY2YnYwUVdqOHBTV2lTYXRCLUtYc0JKUVNvTGhNWUdoTTdsMjFwZHZ4TVJrYTVzUGxkOVdoeGEzaG5pMHZvSUszTFJLQlBBT0x4NC1fTDVETG9QNkdKZXdEYnp5RdIBcEFVX3lxTFBYMGJtQ2h5V05ISDB3TGxsdWprRlpkY2IyaTFLcUxTRXJMUTh6VnlibEJFQVV3Z3VFY1B3VlFSOUJFY3NnN0prWS0tY0Rmc2pSdGZLR0RWbFl4b0pCVlpPTzJRYVExaDN6VnluX1ViU2I?oc=5",
-        "pub_date": "Sun, 14 Sep 2025 07:00:00 GMT",
-        "source": "AI포스트"
-      },
-      {
-        "title": "구글 딥마인드, \"AI 기술 노출 꺼린다!\"...논문 발표 제한하며, '제품 중심' 전략 강화로 AI 주도권 수성한다 - 인공지능신문",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ET1BfVDRUOUdxVkoweTRicTJRTnhZUklTeXFITFBWSmw3LUtLLTMyT0xqejJkNmszbHIza2EyYWNVcXV6UUFtSHVnbGc0YWhrSk9qY2RXNDZCY0xZRGkyMkdmTHB6Qlk?oc=5",
-        "pub_date": "Wed, 02 Apr 2025 07:00:00 GMT",
-        "source": "인공지능신문"
-      },
-      {
-        "title": "구글, AI 코딩 기업 '윈드서프' 인재·라이선스 확보에 3.3조원 베팅 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PNGJuOC1JX1dZbTJKOTh5bHpYRW5TS2dqLXJ2QlV2bzhmVHl4YUtCWHZoeHN4dkFjZVNHeXNEdVluUHI5Ri05ZUJVRnNTajVPc2tLNWNn?oc=5",
-        "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "'AI 인재' 전쟁 불붙인 메타… LG CNS·삼성·SK·쿠팡도 총력전 - investnews.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96aFgzZzBBcng5Qll4V0xONmc2STlZajVNcjhfRmp6VlZhbkNLeF9NZ2xVZ2Q3c1FuRmJuZHZlczY0MjIyLXBSSlNaODJ4NmljcjNzSmY1SVVIOHN5d09nVnNfUkhDeWtjSmdkLTZBa1pRd9IBdkFVX3lxTE5PU1RpaUFJaUkydDRQOUVLdHN0TEJsSmtjeTJ5SmV0aFRJQ1VjTFRoaWRlaWZqWklGOGQ5SExoTkUzMnZ2X2UtOS1UOGEtMld1Q09BNWNELS1FMHExR0RuTlVHNFFWalpfNTNkaFNLMmRibjNUclE?oc=5",
-        "pub_date": "Fri, 26 Sep 2025 07:00:00 GMT",
-        "source": "investnews.co.kr"
-      },
-      {
-        "title": "구글 딥마인드, AI 연구 공개 제한…경쟁사 견제한다 - 디지털투데이",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hd2VxcU1lMDVtb3Y4MHYzY2pzcHdZRVlnbHhoWG5sQXNSRl9qTjZaR05sYkozRDA0dlZveWRjZDQ5dDF3X2pWbXFxc0pGakh6WHlmNjByV3RETDRXYUp1M0tjcFZxaXBBV0VwNlBpZGZDNmc?oc=5",
-        "pub_date": "Wed, 02 Apr 2025 07:00:00 GMT",
-        "source": "디지털투데이"
-      },
-      {
-        "title": "LG CNS, 실리콘밸리에 AI·로봇 연구기지 만든다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82MlBaTEVXNVAyV1lpX3pVVHRfc1ktX0EyUDNjWlQxY3BuUnhrd2RhR3BKOXFYRjN4czJ5VnJSM29ScnVYNTNMcDVMbk1uUkN2SDN2b19VdWk2d9IBVEFVX3lxTE1JTUkwdy1RTlU0bXo3VWNtSVd0UmwzU09obHJhVzNRQ1V2Q1Jzb1ltVlFnaUhZR1QzYWREUWh1cWx1SXF3SG1VSWFWQWZvb2xYSnFSbg?oc=5",
-        "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "'구글 클라우드 온보드' 성료…\"한국 인재 AI 성장 지원\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zSlBKLWthSnNFZWNnZVNTMUpXeklsekYwQ0tUYm1wOHhqRWx2NURJS0E3bUtXODlSamM3bWRSNFJudG84enhrWUUtQ296VkV5NF9Pa0NCa3BzeDdKUnlxQdIBYEFVX3lxTE9zSlBKLWthSnNFZWNnZVNTMUpXeklsekYwQ0tUYm1wOHhqRWx2NURJS0E3bUtXODlSamM3bWRSNFJudG84enhrWUUtQ296VkV5NF9Pa0NCa3BzeDdKUnlxQQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 02:31:41 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "구글 딥마인드 \"AI 스타트업, 제품 없이 투자만 받아…지속 가능성 의문\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mZWc0V0lIc3dCTklXVU90Q3RqQlNQYmNjejVRMEtfNkY1YlNwaHpQYng1Wm1EeHU3QUx5RjFjdUNqRFd0QXNfQ21SbkVqUWVMMlFUbnV3?oc=5",
-        "pub_date": "Sun, 25 Jan 2026 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "유니콘 등극 일주일 만에 연간 매출 1370억원 돌파한 AI 스타트업…어떤 기업이길래? - AI포스트",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03dVBqV0FpRm9iMkU1TnEyQllBVGl6czF1U2YtTG9xMWY4c2JjNVVzeUhEc0FITTdfdHkzN29iNGZFaURWaVZMXzZ0OTdheWI2cWxPclNQeDNaSkp2ZTMyVXRLeEgxVkFoNG1QQdIBcEFVX3lxTE52X0lUZzFsN000LThNODRLOTlsV1pvanRCQ01uM0RmUzJ1empZR3p4blo4bVI0LTRENWMwclJCRmw5SWNJTlgyMTgyTmpfU2xYR2VLTTc2NThBbmNFZ2tPV25odFBKa0lHLW1RckJIMGs?oc=5",
-        "pub_date": "Thu, 24 Jul 2025 07:00:00 GMT",
-        "source": "AI포스트"
-      },
-      {
-        "title": "'M&A 전문가' 김병진 회장, 이번엔 피피아이 인수한다 - 톱데일리",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnTmk5emFQOElRdnVZVmd0ajhMVnJqbDc1eXcyTl8zd213alF2MndScTVOUF9NMnhXUndGQlZzNzkxZkFib25TcEo4VmFqSHc?oc=5",
-        "pub_date": "Tue, 16 Jul 2024 07:00:00 GMT",
-        "source": "톱데일리"
-      },
-      {
-        "title": "MS, 딥마인드 공동창업자 술레이만 영입…AI 사업부 맡겨 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zd3A4VlFpZHJtbWJnQk1GTHFWM2Jxemp1bXI0Rk8wem1kc1k3eFAzMlB6LXBmWC1ya0JjcDBPeXBjNlc0RjZZb3NObngxZFFBVERzcU5QOXJXUzTSAWBBVV95cUxPN0FRc0FSbFloVlk0c0thcjUyQm5RbzJjUDRwU19rTVNjQ1Q1bDREMkpxdW5aZHgyNUtRUF92bzFfXzRGXzhQTExjUXNVcTFmNXNaOF9kUkJRQ2xzcXVkcy0?oc=5",
-        "pub_date": "Wed, 20 Mar 2024 07:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "[ET시론] 인공지능, 이제는 비즈니스 모델이 중요하다 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1vRURlYjRhX05rYjdQWV9tanlRNXlZejRubFFoT1NxeWE5c3o5b3BMQWNhWHFubm5NYUtkOEY2OERsY21GRHhHVEJ6anBBdw?oc=5",
-        "pub_date": "Thu, 10 Oct 2024 07:00:00 GMT",
-        "source": "전자신문"
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "(주)딥마인드 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/QndlQXdKbTJBeXdWaXFheW5nZzJzQT09/company_nm/(%EC%A3%BC)%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C",
-        "description": "(주)딥마인드 기업소개 - 업력 : 9년차, 기업형태 : 중소기업, 업종 : 건물 및 토목 엔지니어링 서비스업 | (주)딥마인드의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 ..."
-      },
-      {
-        "title": "2025년 딥마인드 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1688715246",
-        "description": "딥마인드의 최신 기업정보, 채용, 연봉 등 취업에 필요한 정보를 인크루트에서 확인하세요."
-      },
-      {
-        "title": "딥마인드 엔지니어가 알려준 입사 지원 팁 5가지",
-        "url": "http://www.aitimes.com/news/articleView.html?idxno=129770",
-        "description": "딥마인드 인터뷰는 크게 네 가지 과정을 거친다. 채용팀 인터뷰, 전문성 시험, 연구 인터뷰, 문화 인터뷰다. 30분 가량 소요되는 세번째 면접 절차는 면접자가 이끈 경험이 있는 연구를 구체적으로 물어본다."
-      },
-      {
-        "title": "딥마인드플랫폼(주) 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/VE5XV3JiU0syQTVQOUc1S0h4UFRmQT09/company_nm/%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C%ED%94%8C%EB%9E%AB%ED%8F%BC(%EC%A3%BC)",
-        "description": "딥마인드플랫폼(주) 기업소개 - 업력 : 15년차, 기업형태 : 중소기업, 업종 : 상품 종합 도매업 | 딥마인드플랫폼(주)의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 ..."
-      },
-      {
-        "title": "[리크루터뷰] 개발자의 성장과 기업의 성공을 이끄는 데브렐 - 그리팅 블로그",
-        "url": "https://blog.greetinghr.com/recruiterview-4/",
-        "description": "SNS, 뉴스레터, 기술 블로그, 컨퍼런스 등 다양한 채널에서 개발자 분들께 우리 회사의 기술과 개발 문화를 소개하기도 하고, 이외에도 내부 개발자 분들이 몰입해 일할 수 있는 개발 문화를 만들기 위해 지원하고, 기술 역량을 키우기 위한 교육을 기획하기도 해요. 이처럼 데브렐은 개발자와 관련된 채용 브랜딩, 조직문화 서포트, 리텐션 등 모든 일을 다룹니다."
-      },
-      {
-        "title": "선단 반도체를 위한 “리소그래피” 공정을 통제하는 인프라 유사 성장 기업 ASML은 누구인가? – Deep Dive Investing",
-        "url": "https://ko.ddio.org/us-asml/",
-        "description": "조직 문화와 인재의 마모: <strong>현장 램프, 유지보수, 지속적 개선이 핵심</strong>이기 때문에, 채용 난이도, 이직률 상승, 번아웃은 수년의 시차를 두고 리드타임과 품질에 나타날 수 있다."
-      },
-      {
-        "title": "구글 딥마인드 - 위키백과, 우리 모두의 백과사전",
-        "url": "https://ko.wikipedia.org/wiki/%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C",
-        "description": "미리 프로그램이 짜여져 있는 기존 인공지능과 달리 머신러닝으로 스스로 정보를 처리함으로써 특정 분야에 국한되지 않고 다양한 분야에서 활용할 수 있는 &#x27;범용 학습 알고리즘&#x27;을 만드는 것을 목표로 하고 있다. 구글이 근래 인공지능 분야에 대한 투자를 확대하였고, 이 회사의 가치를 알아본 구글이 2014년 4억 달러(약 4800억원)에 인수해 현재의 사명이 되었다."
-      },
-      {
-        "title": "2026년 DeepSeek 채용 가이드: 직업, 연봉 및 채용 동향",
-        "url": "https://www.iweaver.ai/ko/blog/deepseek-recruitment-guide/",
-        "description": "V4 시리즈 출시와 완벽하게 ... 전략은 <strong>빠른 확장에서 &quot;극도의 밀집도&quot;로 전환되어, AI를 근본적으로 재구상할 수 있는 최고의 인재 11명(TP3T)만을 채용할 계획</strong>입니다..."
-      },
-      {
-        "title": "2025년 딥세일즈 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1684346746/",
-        "description": "(주)딥세일즈는 소프트웨어·솔루션·ASP 업종의 중소기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
-      },
-      {
-        "title": "구글 딥마인드 - 나무위키",
-        "url": "https://namu.wiki/w/%EA%B5%AC%EA%B8%80%20%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C",
-        "description": "<strong>부서 통합으로 프로젝트를 통합하고 인재들을 한 부서에 집중시킴으로서 오픈AI로 인해 촉발된 생성형 인공지능 경쟁에서 우위를 확보하겠다는 전략</strong>으로 해석된다."
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "구글 딥마인드(Google DeepMind)의 AI 선도 전략과 성공 요인, 취업 안내",
-        "url": "https://one.krush.co.kr/entry/%EA%B5%AC%EA%B8%80-%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9CGoogle-DeepMind%EC%9D%98-AI-%EC%84%A0%EB%8F%84-%EC%A0%84%EB%9E%B5%EA%B3%BC-%EC%84%B1%EA%B3%B5-%EC%9A%94%EC%9D%B8-%EC%B7%A8%EC%97%85-%EC%95%88%EB%82%B4",
-        "text": "구글 딥마인드(Google DeepMind)의 AI 선도 전략과 성공 요인, 취업 안내\n\n본문 바로가기\n\n사업ㆍ조직 운영, 경제&법률\n\n# 구글 딥마인드(Google DeepMind)의 AI 선도 전략과 성공 요인, 취업 안내\n\n구글 딥마인드(Google DeepMind)는 AI 연구와 발전에 있어 최전선에 위치한 기업입니다. 생성형 AI와 강화 학습을 기반으로 한 다양한 연구 및 솔루션 제공을 통해 기술의 미래를 이끌어가고 있습니다. 이 글에서는 딥마인드의 브랜드 구축, 마케팅 전략, 성공 사례, 그리고 AI 기반 디자인 및 조직 운영 관점에서 살펴보겠습니다. 또한, 관련 학위, 취업 가이드, 그리고 인터뷰 팁을 함께 다뤄보겠습니다.\n\n#### 🌟 브랜드 구축의 핵심: 신뢰와 혁신의 상징\n\n구글 딥마인드는 구글이라는 대형 플랫폼의 지원을 받으며 혁신적인 AI 솔루션을 제공하는 기업으로 자리매김했습니다. 이들은 특히 **알파고(AlphaGo)**와 같은 대형 프로젝트를 통해 일반 ",
-        "score": 0,
-        "published_date": "2024-09-30T00:00:00.000Z"
-      },
-      {
-        "title": "한국딥러닝(주) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-salary/csn/SUdEZmdTNDRnMEJFQzMwZFZnNDNhZz09/company_nm/%ED%95%9C%EA%B5%AD%EB%94%A5%EB%9F%AC%EB%8B%9D?nomo=1%3Futm_medium%3Dorganic",
-        "text": "한국딥러닝(주) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n관심기업 25% 증가! 인기 많은 기업을 놓치지 말아요\n\n도움말\n\n조회기간 2026.02.10 ~ 2026.03.09\n\n본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다.\n\n조회수\n\n2% 756회\n\n관심기업\n\n25% 10회\n\n기업 키워드 검색 횟수\n\n113회\n\n- 명절선물/귀향비\n- 나의 커리어 첫 시작\n- 자유 복장 기업 모음\n- 간식제공 복지 기업!\n- 장기근속수당제공 기업\n- 월급+보너스=행복2배\n- 경조사 챙겨주는 기업\n- 슬기로운 육아휴직기업\n- 회식 멈춰!\n- Refresh 휴가\n- 포상휴가를 주는 기업\n- 깜짝! 업계신흥강자\n- 역세권 기업\n\n## 한눈에 보는 우리 회사, 미리 확인해 보세요!\n\n#역세권\n\n#논현역\n\n#지하철신분당 신분당\n\n#지하철7호선 7\n\n영상\n\nkdl 아지트\n\n+ 2\n\nkdl 아지",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "분 기 보 고 서",
-        "url": "https://kind.krx.co.kr/external/2024/05/16/002350/20240516005541/11013.htm",
-        "text": "# 분 기 보 고 서\n\n(제 14 기 1분기)\n\n| 사업연도 | 2024년 01월 01일 | 부터 |\n| --- | --- | --- |\n| 2024년 03월 31일 | 까지 |\n\n| 금융위원회 |\n| --- |\n| 한국거래소 귀중 | 2024년 5월 16 일 |\n\n| 제출대상법인 유형 : | 주권상장법인 |\n| --- | --- |\n| 면제사유발생 : | 해당사항 없음 |\n\n| 회 사 명 : | 딥마인드플랫폼 주식회사 |\n| --- | --- |\n| 대 표 이 사 : | 유 병 길 |\n| 본 점 소 재 지 : | 서울시 강남구 언주로 702, 10층(논현동,경남제약타워) |\n| (전 화) 02-3012-0033 |\n| (홈페이지) http://www.deepmind.im |\n| 작 성 책 임 자 : | (직 책) 이 사 (성 명) 윤 재 설 |\n| (전 화) 070-4211-0775 |\n\n## 【 대표이사 등의 확인 】\n\n대표이사 등의 확인_2024 05 16\n\n## I. 회사의 ",
-        "score": 0,
-        "published_date": "2024-05-16T00:00:00.000Z"
-      },
-      {
-        "title": "분 기 보 고 서",
-        "url": "https://kind.krx.co.kr/external/2025/05/15/002887/20250515006771/11013.htm",
-        "text": "# 분 기 보 고 서\n\n(제 15 기)\n\n| 사업연도 | 2025년 01월 01일 | 부터 |\n| --- | --- | --- |\n| 2025년 03월 31일 | 까지 |\n\n| 금융위원회 |\n| --- |\n| 한국거래소 귀중 | 2025년 05월 15일 |\n\n| 제출대상법인 유형 : | 주권상장법인 |\n| --- | --- |\n| 면제사유발생 : | 해당사항 없음 |\n\n| 회 사 명 : | 딥마인드플랫폼 주식회사 |\n| --- | --- |\n| 대 표 이 사 : | 홍상혁, 유병길(공동대표이사) |\n| 본 점 소 재 지 : | 서울시 강남구 선릉로135길 5(논현동) |\n| (전 화) 02-3012-0033 |\n| (홈페이지) http://www.deepmind.im |\n| 작 성 책 임 자 : | (직 책) 대 표 이 사 (성 명) 홍 상 혁 |\n| (전 화) 070-4211-0750 |\n\n## 【 대표이사 등의 확인 】\n\n대표이사확인서\n\n## I. 회사의 개요\n\n### 1. 회사",
-        "score": 0,
-        "published_date": "2025-05-15T00:00:00.000Z"
-      },
-      {
-        "title": "딥네츄럴 기업정보",
-        "url": "https://www.teamblind.com/kr/company/%EB%94%A5%EB%84%A4%EC%B8%84%EB%9F%B4/",
-        "text": "블라인드 | 딥네츄럴기업정보**블라인드**기업서비스\n# blind*Topic*\n# 검색검색글쓰기로그인딥네츄럴\n딥네츄럴*Rating Score*4.0*(40개 리뷰)*\n이회사리뷰하기딥네츄럴은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n# 딥네츄럴회사소개* **홈페이지**deepnatural.ai\n* **업계**IT/소프트웨어\n* **본사**서울특별시 강남구* **설립**2017\n* **직원수**-\n* **연봉정보**-\nAdvanced LLMOps, DeepNatural\n딥네츄럴은&quot;컴퓨터가 사람말을못한다&quot;는 문제",
-        "score": 0,
-        "published_date": "2024-01-05T00:00:00.000Z"
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "'투자 보증수표' 된 딥마인드…그들이 세운 AI 스타트업에 엔비디아·MS 줄섰다",
-        "url": "https://plus.hankyung.com/apps/newsinside.view?aid=2026030490481&category=",
-        "text": "'투자 보증수표' 된 딥마인드…그들이 세운 AI 스타트업에 엔비디아·MS 줄섰다\n\n콘텐츠바로가기\n\n# 뉴스인사이드\n\n김인엽2026-03-04 17:03:19\n\n음성지원 서비스 듣기 본문듣기 글자작게 글자크게 인쇄 목록으로\n\n### DEEP INSIGHT 상용 제품조차 없는 인에퍼블 10억달러 '역대급 시드' 조달 연구 내용도 공개 안한 SSI도 기업가치 320억달러로 고평가 \"투자경쟁 과도…지속 불가능\"\n\n구글 딥마인드 출신 연구자들이 창업한 인공지능(AI) 스타트업에 천문학적인 자금이 몰리고 있다. 차세대 AI 모델 패러다임을 선점해 초과 수익을 노리려는 투자 경쟁이 본격화했다는 분석이 나온다. 4일 테크업계에 따르면 데이비드 실버 전 구글 딥마인드 수석 리서치 사이언티스트가 창업한 인에퍼블 인텔리전스는 지난달 시드 단계에서 10억달러(약 1조4000억원)를 조달했다. 유럽 스타트업 시드 투자 가운데 역대 최대 규모다. 아직 상용 제품조차 없는 신생 기업이지만, 알파고 논문의 제1",
-        "score": 0,
-        "published_date": "2026-03-04T00:00:00.000Z"
-      },
-      {
-        "title": "[빅테크칼럼] 딥마인드 CEO \"AI가 이끄는 '황금시대' 15년 내 실현 가능\"… 의학 혁신과 에너지위기 해결 '예측'",
-        "url": "https://www.newsspace.kr/news/article.html?no=12517",
-        "text": "[빅테크칼럼] 딥마인드 CEO \"AI가 이끄는 '황금시대' 15년 내 실현 가능\"… 의학 혁신과 에너지위기 해결 '예측'\n\n- 본문 바로가기\n- 주메뉴 바로가기\n\n2026.02.16 (월)\n\n- 네이버클립\n- 틱톡\n- 네이버블로그\n- 인스타그램\n- 유튜브\n\n- 구름많음거제 10.6℃\n- 흐림경주시 5.1℃\n- 맑음강진군 6.1℃\n- 맑음금산 6.7℃\n- 맑음보은 7.1℃\n- 맑음강화 4.8℃\n- 구름많음제주 7.8℃\n- 구름많음고창 2.7℃\n- 구름많음부산 10.3℃\n- 맑음광주 6.4℃\n- 비울산 5.4℃\n- 맑음대구 8.1℃\n- 맑음",
-        "score": 0,
-        "published_date": "2026-02-12T00:00:00.000Z"
-      },
-      {
-        "title": "딥마인드 CEO “AGI 파급력, 산업혁명의 10배···100년 아닌 ‘10년’ 내 닥칠 것” - Benzinga Korea 한국",
-        "url": "https://kr.benzinga.com/news/usa/othermarkets/%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C-ceo-agi-%ED%8C%8C%EA%B8%89%EB%A0%A5-%EC%82%B0%EC%97%85%ED%98%81%EB%AA%85%EC%9D%98-10%EB%B0%B0100%EB%85%84-%EC%95%84%EB%8B%8C-1/",
-        "text": "딥마인드 CEO “AGI 파급력, 산업혁명의 10배···100년 아닌 ‘10년’ 내 닥칠 것” - Benzinga Korea 한국\n\nClose Menu\n\nFacebook X (Twitter)\n\nTrending\n\n- [수요일 주목해야 할 주식: 애버크롬비, 로스 스토어스, 박스, 다이컴 및 브로드컴](https://kr.benzinga.com/news/usa/trading/%EC%88%98%EC%9A%94%EC%9D%BC-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-%EC%A3%BC%EC%8B%9D-%EC%95%A0%EB%B2%84%ED%81%AC%EB%A1%AC%EB%B9%84-%EB%A1%9C%EC%8A%A4-%EC%8A%A4%ED%86%A0%EC%96%B4%EC%8A%A4/",
-        "score": 0,
-        "published_date": "2026-02-19T00:00:00.000Z"
-      },
-      {
-        "title": "'투자 보증수표' 된 딥마인드…그들이 세운 AI 스타트업에 엔비디아·MS 줄섰다 | 한국경제TV",
-        "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=2026030490481",
-        "text": "'투자 보증수표' 된 딥마인드…그들이 세운 AI 스타트업에 엔비디아·MS 줄섰다 | 한국경제TV\n\n- HOME\n\n​\n\n# '투자 보증수표' 된 딥마인드…그들이 세운 AI 스타트업에 엔비디아·MS 줄섰다\n\n페이스북 노출 0\n\n입력 2026-03-04 17:03 수정 2026-03-04 23:59\n\n구독\n\n닫기\n\n재미있게 보셨나요?-\n\n구독은 기자에게 큰 힘이 됩니다.\n\n한경TV는 귀하의 경제 습관에 도움을 드립니다. 지금 경제 소식 구독하고 소중한 자산을 모으고 불리세요.\n\n- 한경TV픽(구독)! - 지금 보시는 기사의 기자를 구독하세요. 새로운 뉴스를 이메일로 알려 드립니다.\n- 한경TV 유튜브 채널\n- 한경TV 네이버 뉴스 홈\n- [한경TV 다음 뉴스 홈](https:/",
-        "score": 0,
-        "published_date": "2026-03-04T00:00:00.000Z"
-      },
-      {
-        "title": "구글 딥마인드 CEO “AI 투자 일부 거품…조정 가능성\" 경고",
-        "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01416966645321328",
-        "text": "구글 딥마인드 CEO “AI 투자 일부 거품…조정 가능성\" 경고\n\n실시간뉴스\n\n손경식 경총 회장 “AI 투자 위해 법·제도 속도감 있게 개혁해야”\n\n무협, ‘한일 신산업 무역회의’…\"미래 통상질서 공동 설계\"\n\n[‘5극3특’ 발맞추는 농협금융, 동남권 해양·항공산업 지원센터 운영](https://www.edaily.co.kr/News/Read?newsId=03739206645383976&mediaCodeNo=2",
-        "score": 0,
-        "published_date": "2026-01-25T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "구글 딥마인드, 개발자 위한 새로운 오픈 소스 AI 모델 '젬마' 출시 - 테크42",
-        "url": "https://www.tech42.co.kr/%EA%B5%AC%EA%B8%80-%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-ai-%EB%AA%A8%EB%8D%B8/",
-        "text": "구글 딥마인드, 개발자 위한 새로운 오픈 소스 AI 모델 '젬마' 출시 - 테크42 구글 딥마인드, 개발자 위한 새로운 오픈 소스 AI 모델 '젬마' 출시 - 테크42\n\npost\n\nAI요약\n\n## 구글 딥마인드, 개발자 위한 새로운 오픈 소스 AI 모델 '젬마' 출시\n\n앨리스\n\n가\n\nGoogle DeepMind has launched Gemma, a new suite of open-source AI models for developers and researchers. \"Named 'Gemma,' the models are lightweight, state-of-the-art models built with the same technol",
-        "score": 0,
-        "published_date": "2024-02-21T00:00:00.000Z"
-      },
-      {
-        "title": "News — Google DeepMind",
-        "url": "https://deepmind.google/blog/",
-        "text": "News — Google DeepMind\n\n# News\n\nDiscover our latest AI breakthroughs, projects, and updates\n\n\n\n### Project Genie: Experimenting with infinite, interactive worlds\n\nYour browser does not support the video tag.\n\n\n\n### Measuring progress toward AGI: A cognitive framework\n\n[](https://deepmind.google/bl",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "Google DeepMind Introduces CodeMender, an AI Agent for ... - InfoQ",
-        "url": "https://www.infoq.com/news/2025/10/codemender/",
-        "text": "Google DeepMind Introduces CodeMender, an AI Agent for Automated Code Repair - InfoQ\n\nBT\n\n## InfoQ Software Architects' Newsletter\n\nA monthly overview of things you need to know as an architect or aspiring architect.\n\nView an example\n\nClose\n\nInfoQ Homepage News Google DeepMind Introduces CodeMender, an AI Agent for Automated Code R",
-        "score": 0,
-        "published_date": "2025-10-11T00:00:00.000Z"
-      },
-      {
-        "title": "[Google DeepMind] 스스로 발전하는 체화된 파운데이션 모델 (Self-Improving Embodied Foundation Models) | by YouShin kim | Medium",
-        "url": "https://medium.com/@mdpman/google-deepmind-%EC%8A%A4%EC%8A%A4%EB%A1%9C-%EB%B0%9C%EC%A0%84%ED%95%98%EB%8A%94-%EC%B2%B4%ED%99%94%EB%90%9C-%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98-%EB%AA%A8%EB%8D%B8-self-improving-embodied-foundation-models-1cf395ef4acd",
-        "text": "[Google DeepMind] 스스로 발전하는 체화된 파운데이션 모델 (Self-Improving Embodied Foundation Models) | by YouShin kim | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40mdpman%2Fgoogle-deepmind-%25EC",
-        "score": 0,
-        "published_date": "2025-10-04T00:00:00.000Z"
-      },
-      {
-        "title": "딥마인드가 AlphaFold 3를 오픈 소스로 공개하여 단백질 예측을 변화시키고 생물학 연구를 가속화합니다.",
-        "url": "https://xrayinterpreter.com/ko/resource/deepmind-opensources-alphafold-3",
-        "text": "딥마인드가 AlphaFold 3를 오픈 소스로 공개하여 단백질 예측을 변화시키고 생물학 연구를 가속화합니다.\n\n# 딥마인드가 AlphaFold 3를 오픈 소스로 공개하여 단백질 예측을 변화시키고 생물학 연구를 가속화합니다.\n\nNovember 12, 2024\n\nImage from Official Github Repository\n\n과학 커뮤니티에 대한 혁신적인 조치로, 구글 딥마인드는 세 번째 세대 AlphaFold 모델을 오픈 소스화하여 학술 연구자들이 코드와 훈련 가중치에 처음으로 접근할 수 있게 하였습니다. AlphaFold 3는 최첨단 단백질 예측 도구로, 이를 무료로 제공함으로써 딥마인드는 생물학",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Articles sitemap of 2026-03-18 - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01bzc3M0NjZ1dNMnZiWkdXNXJfMkZUb0tlTWdMZndHcm5Sc2E3NVo1MURUckpzVEJrRDlkSFAydWpfYUlFMW9NZUJjZzEwejNkX3d4REVMWHQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 07:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "https://www.reuters.com/static/video-sitemap/us/video-2026-03.xml - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMM0hNOVUzQ19pZHZJUVdELXRudHI1RGl2WXJPaHM4cjlYLWJwZGRXbWZneElLT1U3SWdTS1o4bm0tUzYxbDZFOWlXVlU1VVY0aGdTUVNvdklUcXNaUUlCTWFVdGtIdFZOMzh0ZVZZSGlESXM?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 14:50:28 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "https://www.reuters.com/static/video-sitemap/us/video-2025-11.xml - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSeUxMUzNpdXdmbG5vYkhtaUxjQWgyblpIajFDV3pvQWdVNk5ndGJXZHBLU2RWZG9rVWpZS180ak1xYTBBdE54QzEzUU1YSENvSFB0RWVOXzNWZmZsT003ZF82RzRMZzdLVG9fNGdXb0RYNkU?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 14:16:54 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Markets - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pNktuQlgwVHhZeDU2dy1rU1VSOVhXNzlOZlJlbmxhTHJISGc4bW44c3p5elhUaG1iRnlMTFE1VXgtRmtGM0JlTA?oc=5",
-        "pub_date": "Sat, 21 Mar 2026 12:51:23 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Japan Defense Minister Says No Plans to Send Ship to Hormuz After Trump Comments - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdUZMWG95T0tZckhrTnV3N3RZZ01vdUNqTWlQalRGb1JzelVIQzZMSGNJQmFaTUc2Z3hHMWItR1NpT1RmME00bm9rdE1Pa1VRT0hmRjdKdEV1QmU2THc2anUzUE5ETXdlOF9IcXA2VU5icV9hRlB6WmFFLWhaZGJjWDUtUG43bW1zVlYycnV2WE9rSXdkLTdvNjBlaTB2SXBlT1N3N1ZucDJpci1rOTBuMQ?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 05:48:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Busting the Myth of Treasuries as a Haven - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOVpxcXo4NEhvV3JkbW5VTXpaMmZSa0pvcThvaUN1TWVfUVExQ01jRGhVVm81NUF1d2trdnNkSTFSMjJwVC1MNnpBMENrSWhLb21xbDNqMTNUNWt2NjFVNEhmWVphbENoRmhoVnc0dUtuc3A2X3VWMExfZ0RBcmxyWmYwS1BYQzJCWllyQkRsTGdjbC0tSS10NnFBbFRJZFRRS1V2aEU0UQ?oc=5",
-        "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "TechCrunch | Startup and Technology News - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5oc1hqR1YwYi1VQTM1alk2dEVDNS1TaXp1SnlRdHdNQzBINUZvN0hxaDdWeEhSUGoxWm5v?oc=5",
-        "pub_date": "Tue, 09 Feb 2010 10:17:04 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Leading robotics VCs talk about where they’re investing - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWGFXOWs0RWlqWnBaTm5fTnpJdGtMcTJuT2RzMHJpd2d0TGtuMEMwSGFJTDFtUGdkbnJLaGVmMWkyUTRIRzY1YTl3WjZSbG5HSkNtX2IwZnNUcWRZbFNGbTJEc2NmYU50R1I0MWduZ2RRT2pGNlE3eHVCNnZoTm94UlNKYS0xNV9GUzItaHoxamNUeWs?oc=5",
-        "pub_date": "Tue, 26 Nov 2019 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Porsche adds all-electric flagship SUV to its growing EV lineup - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcE1XR2hyZm8zUzNoT2FmOWdOb0x4M3ZZaXJWZjBkQXZVaXhLYmhqUmw0WXlZSlNHZlVBQXIwMDF2b0tsYlpIUlVpcVNrd2xZZnptbFBrU040Z1pQQjZwOEwxQ0R0dnl6Z3RFV0RuWTM3WnYyREVESmplSVZ5OVdTZHRkdFY5THFFWUNsMzNDOHU4Y1BNcGpVei0zanZXQkU?oc=5",
-        "pub_date": "Mon, 13 Mar 2023 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Iran’s Battered Security Forces Step Up Repression Campaign - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxQQWhrZnNkelRvY1VPQnpmeGJrMVNiTHNFaXNpRkh6S3dIQlNYSVR3M0xXSG9YZEpiQWg4Tm9ISzluMmthemZLdTRJQ0lBeUVNWVBrcUtaWXdNSTA5eGVTQnNWaElSZlF0clpDSHdZSE9oQ3FSaFh4UHRacmpJWFJRb2JpSTMxNmVwUUtGWGNybWFuU0xfblpXcG9VQ1B0bnBJZVZBb0hEbXVHZTJaZWJVekdrS3RralhHZzFtdXVCdF9HVEp2a2c4a1RjTWtuMXpybHlob1dMYnE4NjlzOTRKdldKY0w3Zi1abXhPVVBVSllES1pEZTlRTjFqcGdMTy1NSGRlWUY0Z00zRjVJOU1Kd1NfM3VnSzd0SUtjSHMxQ3dibEpqRHJ6RkFMUHc0TlZIcUs2Njl2MlAxXzVBVC02T0ZaN3l5TVNnZ3N5RklsdjdMamJBbHdBNXZYcWpLemNkUjF5V3M0dlZWVHQ4TXVBUjBLVFlZRW1pNkt2M1dlYW9LU0hRcTFOM0dkaGpsMmEzOHJYcmQzZzRqc3JIRkpv?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Strikes on Gulf Energy Escalate - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxPY3RXVXh3SERndkxJQ0k3Z0tJZENVenN3UWNibXNXNE03OUx4VVVkYmNzcG1EYWtxcG5QVmZfeThNVTIweFVYbFIyYUlNc1VoVWUzYUJTZnZNN2pLdXhiX0dEdllmTEJDdFJMdFdJaVpqQ2FIT1gtYnMxYVRwSXVIaXNERXFGVU9abkp6MW1qWlpUcXZNajBIX2M0MWgyS21QaFVyOEZuZGp2VzdxbkJRcTBDUHI4Yy1TWTkxRDBEaVVpaDJaRFVEdk9SYS1wdjlsY0VQcmRWUWJuaXVwYlVPWnpFaTJXcDVrTVBUWk1WOThQaWtTNVYxeXVoVnBTc0NaeVRTWVVNWHRFck5zVnRmX3BVS29kTTZXSkdEc1JSMXNteUZkNTFESy1PUm4xa2ZOQldyYUV6Yjl6aXY0TzZaOWpmdkx1SHlYT1Z2OTRRUTVGRVRtZER1SjVaQ1dySHJvdFNRYktTZmsxLXc3ZEFIYVRrLU56azQyN1B3WnVYamJOZ1ZaWWFzaUVOdDV3Z3RFd2VIaElRUVBCUVBmbDVN?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 15:50:16 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Iran Sees an Opening to Control Mideast Energy Over Long Run - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxNbUZiQ2tEeFZJUFY2cjg3S3QtTW5McE9OeGFiWGpvdFRobkxPY3lzSHlObDUzcWRZSnRfYnBBSDhaVXZHQndFREhqUHk3bUFmX01ReEdObjhELXFnZ21ZcW81aTVSallJRUh2dW1vakREUkYzUnFpUWxfOXNkM09EVW0zSHloNmluTWR5YmkwOGNONnJWTFVBTmVJaE5jX0tydTYtN1ZiY3VNOWI4M0pZbERWcGlqTmFueG11bXFCcmhOWV9WLVlJZ2lBV25nWURhcXphNkFJNVJnbXNkbl9EM2VpcnM4ZXNGdmJ4M0FzOGE3YjRfNEJCWmdmV3RYdGVPVUpYQ2Y5TzdxeDFKVUM2VlNRLVN5MW5oZkxaLVZBYUR3dE5JMWNZRFZpYVhjWlZ3RjlaV1VxMjI4cWFhZFE0R2FEM25UeTBOSTZpRWt6Ym9ramZVMmlFcXNIMHU3SzBreXlWUGcxd3Jvc08wbnA4ZkQ5Rm9PbnVTX3Nta3M4MW9WZlJMcGFJOUpMS2laMUdWdUdGRTJxMWxzOFl1dFFF?oc=5",
-        "pub_date": "Sat, 21 Mar 2026 06:20:47 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "The irrepressible Nigel Farage - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Cb2pUTWNxcHgtNmdjRU50LVotZHlvVFR6dDlWRjVqSmxNaENmd1IzN0RNVDBzU3hfc3RyYktfVEtnSkhEczc3ZUJKLV9vX09RZ2tRT3hEVzg0dVZoelU2QUxxN3dFckJ0OHV1dDFHUXg?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 05:00:55 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "The US consumer is OK - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EVWRHM2U3el9SVWJNaFBSc3EyOU94Y1U2X19ITFp6a0N6MXpLYmpKWDlfdHhFSEdWLVIxaFFpa3BSdHBua0tkbFlQR2VQd1NEV1NLOGktMGg4YmxRY3p3anpRU3VyNzgtOGRmQlJpaUY?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 06:30:24 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "AI and the potential for a revolution in healthcare - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkZXRaYmt0UUVPOEhTajE0aGJEQ3BZQk1HTExPcWtETnZ0dkxXUmlqamxmclZXaWFQelJITTZ0WHk2cklTOFNiYzdJTGJfbVo5d1ltZm1WY04xTkxCRGs5V2Q3TzUxM042U3MtdjZn?oc=5",
-        "pub_date": "Wed, 22 Jan 2025 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Okinawa reels in tuna lovers - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTkdSTndhVkhvc2V3ZnFBdlVIcGNXOWlwd0JEWTJoOGxxbWpoMHl0Ni1QQjlVUGtid05LTm5abUpObTR0UW1LZzBMWmRzNE1sQlJfSVJydlJrOHNYMFdFOUR6VWZwV0FVMjVGNmpuMTB6MjROQlQzOGlxblh3Q0JGYg?oc=5",
-        "pub_date": "Sat, 26 Aug 2017 07:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "South Korea vows to prop up the won as currency slides - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRHFqY0k4MVMyMlVISGJ3QzAxRXA1dG8tcFhxZS1zdFdlLWstbnVVWHZ4TWpLYXlaTXhHMnFsYnBHVlVIM2NMQ0ZSLWJkd3NBbmJ1Q0xZMnpSRDZ3bU41OXJxWThnOVh0N0pENUQxRWJQMVRNUVpBWVpza2tPM285ejJ5VDBxMDlnSVFPdzh1TDhnaVo4X3IzTzE5bw?oc=5",
-        "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Japan sees spiritual experience in the humble bath - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMkZVVVlGOThEMFpyNE5IU3ljV1ROQklPSnRpbzE1V2d5aW4xMm5HRWp3V2JpSGpBcXlfX1lnWEFncmR1M1hFaHhZSVc4VEFmaWQyUWpKZE0zTWVvWHJTOWFJTHlHY2xkdER2TEZvTVd6UTRxS3kzYUtpczQwSFVyMXNzdjR6bVhCd0xYeUhiNV9EUjFIbTRjUVN4X3g2dE9OcUE?oc=5",
-        "pub_date": "Wed, 09 Feb 2022 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80Xy1PSGNHZy1OUG83anp3Mlp4NHJOUmlkTFBUV1VkczVPRnlCYTZqX3pTYnM1VHZtelU1YTgyWHVvVzliWHRKOVdaRUJpM3dSeXVjdmgzeTBBZ9IBVEFVX3lxTE1MYzZvQjU1ZmUxY19sRU5JTGMtQTJlNVhjamZpVnBVZXl6d0E2cC1PbXJHcFh3X25OWElXVlRmUVJBVGowUHdRcVcwSE9WNDd6SFhwQw?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:28:15 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZXhLMWtzTG9NMDZjU1VnNFpGcGQyUV80NzB3dUtMOWRQVng0YnJyTFNkR3BVcUVBeHNOaDkxWEVXNmZLajZqbjZucjZQcThMWGVZcGRidGhLd0EwNEVjdU15Z3pHVlltenVKcWRCS0ZvUENHSEl2MXF4Z3NGa3c2UGJVOVMxRU0?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:28:15 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"인간보다 똑똑한 AI 만들겠다\"는 이 사람, 10년 만에 한국에 온다 [김인엽의 퓨처 디스패치] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GN1RXc1gtbjUxMC1mR1d1V0FHUVRrdnRCODZ1SjRScmd6R3lncFRuM01DUmltSS15ay16SFI2S1ctbUVCUXk4dUdYZm12Y1lhY3cyTNIBVEFVX3lxTE1GN1RXc1gtbjUxMC1mR1d1V0FHUVRrdnRCODZ1SjRScmd6R3lncFRuM01DUmltSS15ay16SFI2S1ctbUVCUXk4dUdYZm12Y1lhY3cyTA?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 23:55:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "구글 클라우드, 온보드 행사에 2900명 참여… “AI 역량 교육 확대” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNm1yYXRjdlZVVjY0RmgtTndSSWpiUDA1Q0NwczNrREpJOFY4eGVUT0Z3YjFHVnR1RFlQdW9tR2lMSDBNbzBEQU1kMk9iMDZWNTZhSUYzdXVmX2NKd1Jtd18zM0s5S09hTUxuYU4ta2JFZ0I1N196alZHS3BaanBLSUxR0gGWAUFVX3lxTFBSeTVGXzhRRWdCaVFNTEl5Ym9iVW9rdUY2LVNNVFpteFI4emFlR29ZUXNaNWJmR0JkLWlTN0tCTHNXZno5T1pLNlExdDZpVk5OdWVYLWZ3eGJHRklqeUw4MjZXekZ6aWh4SDhkbUxYcS02UE5LM0RwWGRPOUt0dE5INE1vODhZNjd5UnFwdWNpR2ktd1YyQQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 01:34:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "무뇨스 현대차 사장 “中 20종·印 26종 등 공격적으로 신차 투입” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HMUVVelEzMlVFRm93LXhHcHR3QnE1U215VjZYS0Vad0x4Qi1mVTJudXhvMkdrSjBENXlWVktMVDRFd1JKUHprOHpVczFtak1vaVBHY3NvWk1HMk5pLXNOY1VSS3ExNVR5bG94NjZqdVNoeU9KeTUyOUo1WFZ0NzDSAZMBQVVfeXFMTllWOHl1NWxPcTFFZW9QQ1R3bktGeFJ1SVl6QUdYWDhHU0txMXI2dHlibkFiVjRCX0NUNUIwLUxNZmdRRlZqQjlsYUNyWlU0MEZFZ0dOeUVOM3hJOXFXdC1YMm13RW1UWUlKSnBSOGpfZ1ZwMnFwSzVUcUN4RDBMbXFON0NndXg2WkpwaGNsQ2h1Qzdr?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 05:34:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[특징주] 구글 딥마인드 뉴스에 韓 딥마인드가 ‘들썩’ - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcWZBdzJ6aHhzLXJIYjFMUW9LSGdVUUMtM1k0VU40ckJqWWVBLVlVTTdHZnIzLWxMcUhvSUFfT0ZEVWk4YjA5eVpISS1RN0c4WUZfNnZfSk5Tb0NCdDYwU1J2N2xpS0M4Y0JBWG12Q3hiTWllZUcyYmh5a3l6cDlDTzUwbUtLMGfSAZsBQVVfeXFMUDRTSGZmeG9ZYUIzOHg0R0IydVNWQ1J4MGYxbUZ4ekJ4UDRMWWhYSlAwSl9FTGswNmMzOXdBcFhfa0RRYTgzRVI3d21hVndqNWwwcFFGVXQ3UW9tVElyNGZyS3d1Umhnc1U4cUZ5d2hxSkZ1RWxfOGFCZW9YbXJGWG81ai1XTnp4aWROamJhVEZJb0gxY1pYLWVtMEE?oc=5",
-        "pub_date": "Fri, 11 Apr 2025 07:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "‘구글 클라우드 온보드’ 성료… “한국 AI 인재 성장 지원” - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFByVWVuZjFaeFY4QkFvUnlZNUlwSEMzNm1jZTMwMHVlY2tLMzVIV3RDT0o5TjN3ZkJjRUw4QTZkZzY1bVFZRWc?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 04:44:34 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "'알파고 아버지' 허사비스 10년 만에 한국 온다 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96T1RGY2I1Q2lTLUIwcTN5RDBobnRpY1BqYlVrcDdHdDdKRFZYNmEwd2Zwd1RWRmF3cndoYXlYYWVlcjZBZGhMdGhkQ1RWUQ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 10:14:14 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "‘구글 클라우드 온보드’ 성료… “한국 AI 인재 성장 지원” - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56ang4NWx6bHBSSmZUWGpsRlVmVC1YdHptbzFnNmR5d1c1X1ZJc3JEaVdkV2NTQk9EcVFGaEI3Vk1lRExhTlRuSW5WdF9UZw?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 04:44:34 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[유미's 픽] \"테스트베드 끝났다\"…판 바뀐 韓, 글로벌 AI 격전지로 급부상 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xbWdoUjlOc0pJck9sRWhsRUlrN2tMQVFpeUQzbFdrVnVPaFZFeFRZNzQtdFRQT3c2MXUxeTMzLVJxbG9iVTlpVFFKS0JxODFRRXpuZTJn?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 01:14:34 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "[AI는 지금] 美 실리콘밸리서 주목한 리플렉션AI, 신세계와 손잡은 까닭은 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tWXhyUy1WUlpfQ2Y1dnctTkt1LUQxOG4yc180Znd6MmV1MTlVTGdtWk9uejd3SnZNdE93YU1iVUVSUmQtODlxYkxPWEd1RVhXSjlXLXdR?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:33:28 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "신세계, 국내 최대 규모 AI 데이터센터 짓는다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53SG9BMTVpeG1RU0JaRTRNVEZ0bEhnRHVuNklkUlVBaGUtSmxFSVpzejJWWTQzclBlWEo3STRGeFBUemRjRkEyS1RFN1cwVVVwbVRobkJB?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 22:34:42 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "빅테크 종속 끊는다…정부·기업, AI 주권 확보 총력 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03eWtGS0RYQndfZ3NCY0VsYjBBODR1bUtrVUNrQ3NGamtyd19tcUNLbktXTkxKODVCV3F2M2xhTjFyYW1UZGFDckFXLThuYy1jUlAxVElpNE9qMHhmaGg3U09INmxFRmFS0gFsQVVfeXFMTlVwcXRNX3J4RjJhZUZscUdsc0dYSXVCTXI5dEFxbjYyc2NTbkRlOHA0dHJyTTdYMzg0SXZSZ1lNX2VyOXlMWEl2bWV6a2k2ak1hem5TVTRMYms0bFllTEtnOUJxZzN2Y1BTYlZ1?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 07:11:48 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "신세계, 美 리플렉션AI와 국내 최대 AI 전용 데이터센터 짓는다 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPTWlGZHJOWG91elF4VllVeUNlcU9XRU8tSWo4a2lfbHJ0VlUwOWFQcUdFT0FpdlNoUk82bnc3NlhCS3hWTTctYmlrN1huZkw1RnR2TE52eGIyWEx3RFBqclpWVm1vcXdH0gFsQVVfeXFMTzdzZUN2cFNmZlJ2UzI4a1dpUkl5YUJSTUY4UktQd01NSkNfQ1BEZ0syNmpfVWpvV2tqYllpeWZrMkQ0ckpVQ1o2QWNoRkEwVW0zSFQtS3NzSjZTWVVCRVB5NXdkOGRVTExjZmJN?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 21:34:27 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[IT열쇳말] 알파고 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VSzRacTgyOE9yWTJGQ3J4LU1qRmYySjEzTmlJNnpyNW55ckVnVXBtLWZubXNBb3R5UmJ4R29QVUhma0JoWVpYSENhbFVrMmJZN3NIU3dPMG1tTUdOUS1ZM2Z6VGU1bGvSAWtBVV95cUxOdE9sNG1sblhWUmJaVmJYVTZ2eWZGMm5BdWdhNTZRSEZXTDBSUzFJRU13UjhjVmlCcTV0Mk4yd1Z4dkZ2Tmx3dG04SlZZTUVLcENtc3pFRF9pRkFLVzdLZ1BKV2V6azd3OUlQZw?oc=5",
-        "pub_date": "Thu, 18 Feb 2016 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "구글 딥마인드, 코딩하는 AI 알파코드 공개 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ra2VBMlNSZGE4d0RPczQtT2RSMUYyZUNIeHNlVDRHOXlrNS1KVVhORjRPNDZVcFZVVXBvTFFhVmVXUHJGb0NCd1MzMTBCQQ?oc=5",
-        "pub_date": "Thu, 03 Feb 2022 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "구글 딥마인드, ‘DNA 암흑물질’ 해독…알파게놈 공개 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01SU9hcWo0dGRxcG9SNzlxcnJ5b0VlWnUxMTNlWHdXbllLaERMb01Mb2VQRVdKR1E0Z05mRUo3Rzh0S2tRSTY5bW5pRWVFWTdWMDVGQ3BB?oc=5",
-        "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "[IT TMI] 알파고 만든 회사, 코딩하는 AI도 만들었다 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96bEFndjhhRHdhMl9RY0J5Q01BSTl6UVBFdW52dDVDSHBvbGpsWGVQZGFaY0xUNlpfMHk4SkpMeWRXR1pFWGc4ZV9XZTAtMVU?oc=5",
-        "pub_date": "Wed, 23 Feb 2022 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 코리아",
+      "company_name_eng": "korea co,.ltd.",
+      "stock_name": "코리아",
+      "ceo": "김승곤",
+      "address": "대구광역시 중구 동덕로 115 (삼덕동2가, 진석타워) 1711호",
+      "industry_code": "68112",
+      "established": "20121026",
+      "homepage": "www.picassocon.com",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "brave_web_results": [
+        {
+          "title": "(주)딥마인드 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/QndlQXdKbTJBeXdWaXFheW5nZzJzQT09/company_nm/(%EC%A3%BC)%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C",
+          "description": "(주)딥마인드 기업소개 - 업력 : 9년차, 기업형태 : 중소기업, 업종 : 건물 및 토목 엔지니어링 서비스업 | (주)딥마인드의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 ..."
+        },
+        {
+          "title": "2025년 딥마인드 채용 기업정보 | 인크루트",
+          "url": "https://www.incruit.com/company/1688715246",
+          "description": "딥마인드의 최신 기업정보, 채용, 연봉 등 취업에 필요한 정보를 인크루트에서 확인하세요."
+        },
+        {
+          "title": "딥마인드 엔지니어가 알려준 입사 지원 팁 5가지",
+          "url": "http://www.aitimes.com/news/articleView.html?idxno=129770",
+          "description": "딥마인드 인터뷰는 크게 네 가지 과정을 거친다. 채용팀 인터뷰, 전문성 시험, 연구 인터뷰, 문화 인터뷰다. 30분 가량 소요되는 세번째 면접 절차는 면접자가 이끈 경험이 있는 연구를 구체적으로 물어본다."
+        },
+        {
+          "title": "딥마인드플랫폼(주) 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/VE5XV3JiU0syQTVQOUc1S0h4UFRmQT09/company_nm/%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C%ED%94%8C%EB%9E%AB%ED%8F%BC(%EC%A3%BC)",
+          "description": "딥마인드플랫폼(주) 기업소개 - 업력 : 15년차, 기업형태 : 중소기업, 업종 : 상품 종합 도매업 | 딥마인드플랫폼(주)의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 정보를 ..."
+        },
+        {
+          "title": "[리크루터뷰] 개발자의 성장과 기업의 성공을 이끄는 데브렐 - 그리팅 블로그",
+          "url": "https://blog.greetinghr.com/recruiterview-4/",
+          "description": "SNS, 뉴스레터, 기술 블로그, 컨퍼런스 등 다양한 채널에서 개발자 분들께 우리 회사의 기술과 개발 문화를 소개하기도 하고, 이외에도 내부 개발자 분들이 몰입해 일할 수 있는 개발 문화를 만들기 위해 지원하고, 기술 역량을 키우기 위한 교육을 기획하기도 해요. 이처럼 데브렐은 개발자와 관련된 채용 브랜딩, 조직문화 서포트, 리텐션 등 모든 일을 다룹니다."
+        },
+        {
+          "title": "구글 딥마인드 - 위키백과, 우리 모두의 백과사전",
+          "url": "https://ko.wikipedia.org/wiki/%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C",
+          "description": "미리 프로그램이 짜여져 있는 기존 인공지능과 달리 머신러닝으로 스스로 정보를 처리함으로써 특정 분야에 국한되지 않고 다양한 분야에서 활용할 수 있는 &#x27;범용 학습 알고리즘&#x27;을 만드는 것을 목표로 하고 있다. 구글이 근래 인공지능 분야에 대한 투자를 확대하였고, 이 회사의 가치를 알아본 구글이 2014년 4억 달러(약 4800억원)에 인수해 현재의 사명이 되었다."
+        },
+        {
+          "title": "선단 반도체를 위한 “리소그래피” 공정을 통제하는 인프라 유사 성장 기업 ASML은 누구인가? – Deep Dive Investing",
+          "url": "https://ko.ddio.org/us-asml/",
+          "description": "조직 문화와 인재의 마모: <strong>현장 램프, 유지보수, 지속적 개선이 핵심</strong>이기 때문에, 채용 난이도, 이직률 상승, 번아웃은 수년의 시차를 두고 리드타임과 품질에 나타날 수 있다."
+        },
+        {
+          "title": "2026년 DeepSeek 채용 가이드: 직업, 연봉 및 채용 동향",
+          "url": "https://www.iweaver.ai/ko/blog/deepseek-recruitment-guide/",
+          "description": "V4 시리즈 출시와 완벽하게 ... 전략은 <strong>빠른 확장에서 &quot;극도의 밀집도&quot;로 전환되어, AI를 근본적으로 재구상할 수 있는 최고의 인재 11명(TP3T)만을 채용할 계획</strong>입니다..."
+        },
+        {
+          "title": "2025년 딥세일즈 채용 기업정보 | 인크루트",
+          "url": "https://www.incruit.com/company/1684346746/",
+          "description": "(주)딥세일즈는 소프트웨어·솔루션·ASP 업종의 중소기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+        },
+        {
+          "title": "구글 딥마인드 - 나무위키",
+          "url": "https://namu.wiki/w/%EA%B5%AC%EA%B8%80%20%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C",
+          "description": "<strong>부서 통합으로 프로젝트를 통합하고 인재들을 한 부서에 집중시킴으로서 오픈AI로 인해 촉발된 생성형 인공지능 경쟁에서 우위를 확보하겠다는 전략</strong>으로 해석된다."
+        }
+      ],
+      "google_news": [
+        {
+          "title": "中 바이트댄스, 미국서 AI 인재 100명 채용…실리콘밸리 정조준 - kmjournal.net",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JU25IT0o1UHBNY3BOUWdyblpLME9LZ3VLYWd1ZlpRLWEzbUw2X2pQeWE5aUprOVB4RktIT281YndnNUJQTzZVN3hYcXZ5NkJiMXYwWkVqS0hrQjFRTXJoZExLT2NTQUh1SHc?oc=5",
+          "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+          "source": "kmjournal.net"
+        },
+        {
+          "title": "마이크로소프트 AI CEO, 메타의 인재 확보 전쟁 격화에 과도한 보상 패키지 비판 - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNYmtwLVNrdC1SNlZuN2wtSlQxbEtYdGJhYm9URDJlSlBscG9jaXUtaDRYSk1KYmd6elJGMmhzLWlZSXlCaUVMbWh3VEFqYnhBWGlRTTZla1JTQjktUTdyTk5fbTY2NTdURk9NeV9vMWU3NWM1N3gzT0FZNzI4cHA4TUhxSll5U0ZlZTJVV0g0NThLS3RWSU5ub09IcXloOVlSelpWa0lLSWRmMXpJaGVqbVJWR2pxeHpERk11YWwzek5zOHZPWFFYMERrYTBDcC1RNWRPZkJpdW1HWDgwWUVXRDRyTEdrc3UzWEg3Y3lBSWlrMkJoTF8tcUZ1QVVpeE9ONkV1ckVDY0hTaXhzVkw3d3BnUXVmQmZ1eE5CQTE0dXBfZjVCY2RPVnhlWTBhcWlUT1NmYUE5eDd3U2xmVFczNG9fZnM3UnhZTS1UaWRVajd5dFQxMm45eGd3MF8?oc=5",
+          "pub_date": "Sun, 14 Dec 2025 08:00:00 GMT",
+          "source": "Benzinga"
+        },
+        {
+          "title": "[현장리포트] 2025 스타트업콘 - 'AI 시대' K-콘텐츠의 생존 전략... 핵심은 '실효성' - investnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFByS2dXQ003aHNadHpuMTJEZ0RoRHhHc1NFdzFtT0tmQmhtbFNfWmNaM29QZlJWVmtNWXZRMFN3Z3BZcElTVkhnclpOYzhGVjFGZlNxZjRzaHlPcng4TUxfMXVKbXNJeHRrMkRKU3hXMVp3QdIBdkFVX3lxTE8yNFdWUTMxNHhNT0txZzdfWVpoLUNpWEdId3Q5c0p3MXVCN1A4NGU5T3RFVWlZSnQtM0t4MU9lY0NEdG9mb0xPUTlpR3FkTDhEQmRLMkhfSUJNX3k4RlpsQ2hWa3I4THFrT1ZMLXJfQVNkT2VmelE?oc=5",
+          "pub_date": "Tue, 30 Sep 2025 07:00:00 GMT",
+          "source": "investnews.co.kr"
+        },
+        {
+          "title": "'AI 인재' 전쟁 불붙인 메타… LG CNS·삼성·SK·쿠팡도 총력전 - investnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96aFgzZzBBcng5Qll4V0xONmc2STlZajVNcjhfRmp6VlZhbkNLeF9NZ2xVZ2Q3c1FuRmJuZHZlczY0MjIyLXBSSlNaODJ4NmljcjNzSmY1SVVIOHN5d09nVnNfUkhDeWtjSmdkLTZBa1pRd9IBdkFVX3lxTE5PU1RpaUFJaUkydDRQOUVLdHN0TEJsSmtjeTJ5SmV0aFRJQ1VjTFRoaWRlaWZqWklGOGQ5SExoTkUzMnZ2X2UtOS1UOGEtMld1Q09BNWNELS1FMHExR0RuTlVHNFFWalpfNTNkaFNLMmRibjNUclE?oc=5",
+          "pub_date": "Fri, 26 Sep 2025 07:00:00 GMT",
+          "source": "investnews.co.kr"
+        },
+        {
+          "title": "오픈AI·앤트로픽, 나란히 한국 상륙…고객 확보 '경쟁' - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1weFUtbUxoYkg2ajBqal9Gel9zWG5tY1p2VWFmYnRUMlFMN1ZnUnhfd3hiMnVFSFRDN05LNy1PQ0h4U3pfa19TREh0dVJ0a1Y5R1pzLURB?oc=5",
+          "pub_date": "Wed, 06 Aug 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "수천억 오가는 AI인재 쟁탈전…‘파격연봉’ 없는 앤트로픽이 최후 승자라는데 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wZUNnVktHcGpfaEdYQzdzTmFFeFZ6TzJDeDgwYmlvM0szd3ZvX2U3enJYWkw5c1FaZDltTnBOdG93S1N3UFlDXzJIemtBQQ?oc=5",
+          "pub_date": "Sat, 09 Aug 2025 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "“연봉 3억 5천만원, 너도나도 난리였는데” 충격적인 ‘실상’…알고 보니 - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RMU9iVWtfR1hTV2tpWnBfNE5qdU9sMlc2M3ZyVkdieHFDVzlVd2Q4NGowUFVvTzVNcmxBYVVrdWdoRkNINXNBaU13OW5XM3FWSkJDclh3?oc=5",
+          "pub_date": "Tue, 17 Jun 2025 07:00:00 GMT",
+          "source": "헤럴드경제"
+        },
+        {
+          "title": "\"1371억 줄게\" 연봉 쇼크…채용시장 발칵 뒤집어놓은 직업 [글로벌 머니 X파일] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLWW9sNmlfSkhOWE16dFhqZWxlSWg1R0VQU1RKM2E4WU9jUEFyVnhqOVBZMHBsU0d3ZHd6ZG5tRC1BaGh1Y0NZM1BWR1ZsRWNjTGN1d09BWlcxQdIBVEFVX3lxTE4tQmM0UE5YN1FYdzNUbE4xb0ppVU5NV09ERmJtVjB1M0YtSVlHMHAtOXAzNkpCMy1DY20zOTNiUGpBSFBETXVPN29sOHJnNTd4TWdYbg?oc=5",
+          "pub_date": "Fri, 25 Jul 2025 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[AI웨이브] “AI 전환, 기술보다 사람이 먼저”…‘인재 전쟁’ 나선 IT기업들 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hUkhsc3Nwd3hielhGQnUzdE1WQjBJYWVETlpHYXoyb3VYcjBlRi1vWFNZdTBZcTAwS1pQNlV1U0lLZ3dONHM5T3dmVUJTUVRKV1QyVHdtY0c5eWpKLVVGdmJR?oc=5",
+          "pub_date": "Tue, 27 May 2025 07:00:00 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "구글 딥마인드, \"AI 기술 노출 꺼린다!\"...논문 발표 제한하며, '제품 중심' 전략 강화로 AI 주도권 수성한다 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ET1BfVDRUOUdxVkoweTRicTJRTnhZUklTeXFITFBWSmw3LUtLLTMyT0xqejJkNmszbHIza2EyYWNVcXV6UUFtSHVnbGc0YWhrSk9qY2RXNDZCY0xZRGkyMkdmTHB6Qlk?oc=5",
+          "pub_date": "Wed, 02 Apr 2025 07:00:00 GMT",
+          "source": "인공지능신문"
+        },
+        {
+          "title": "\"AI계 인형 눈 붙이기는 옛말\"…전문 AI 교사 채용 위해 일반 라벨러 500명 해고한 xAI - AI포스트",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ubm14OVRxejY2YnYwUVdqOHBTV2lTYXRCLUtYc0JKUVNvTGhNWUdoTTdsMjFwZHZ4TVJrYTVzUGxkOVdoeGEzaG5pMHZvSUszTFJLQlBBT0x4NC1fTDVETG9QNkdKZXdEYnp5RdIBcEFVX3lxTFBYMGJtQ2h5V05ISDB3TGxsdWprRlpkY2IyaTFLcUxTRXJMUTh6VnlibEJFQVV3Z3VFY1B3VlFSOUJFY3NnN0prWS0tY0Rmc2pSdGZLR0RWbFl4b0pCVlpPTzJRYVExaDN6VnluX1ViU2I?oc=5",
+          "pub_date": "Sun, 14 Sep 2025 07:00:00 GMT",
+          "source": "AI포스트"
+        },
+        {
+          "title": "'구글 클라우드 온보드' 성료…\"한국 인재 AI 성장 지원\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zSlBKLWthSnNFZWNnZVNTMUpXeklsekYwQ0tUYm1wOHhqRWx2NURJS0E3bUtXODlSamM3bWRSNFJudG84enhrWUUtQ296VkV5NF9Pa0NCa3BzeDdKUnlxQdIBYEFVX3lxTE9zSlBKLWthSnNFZWNnZVNTMUpXeklsekYwQ0tUYm1wOHhqRWx2NURJS0E3bUtXODlSamM3bWRSNFJudG84enhrWUUtQ296VkV5NF9Pa0NCa3BzeDdKUnlxQQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 02:31:41 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[CES 2026]현대차그룹, 구글 딥마인드와 맞손…휴머노이드 상용화 가속 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9VMmpyaE5yazRjeVRMUzJ6UU5vZUJvTlBoWFRrNmxfYWNOWTk3U1JtWXVuRWJBRW1henhaUUhmRGlDODhjZmwtVkE3U2JmZw?oc=5",
+          "pub_date": "Tue, 06 Jan 2026 08:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "구글 딥마인드, AI 연구 공개 제한…경쟁사 견제한다 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hd2VxcU1lMDVtb3Y4MHYzY2pzcHdZRVlnbHhoWG5sQXNSRl9qTjZaR05sYkozRDA0dlZveWRjZDQ5dDF3X2pWbXFxc0pGakh6WHlmNjByV3RETDRXYUp1M0tjcFZxaXBBV0VwNlBpZGZDNmc?oc=5",
+          "pub_date": "Wed, 02 Apr 2025 07:00:00 GMT",
+          "source": "디지털투데이"
+        },
+        {
+          "title": "구글, AI 코딩 기업 '윈드서프' 인재·라이선스 확보에 3.3조원 베팅 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PNGJuOC1JX1dZbTJKOTh5bHpYRW5TS2dqLXJ2QlV2bzhmVHl4YUtCWHZoeHN4dkFjZVNHeXNEdVluUHI5Ri05ZUJVRnNTajVPc2tLNWNn?oc=5",
+          "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "구글 딥마인드 \"AI 스타트업, 제품 없이 투자만 받아…지속 가능성 의문\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mZWc0V0lIc3dCTklXVU90Q3RqQlNQYmNjejVRMEtfNkY1YlNwaHpQYng1Wm1EeHU3QUx5RjFjdUNqRFd0QXNfQ21SbkVqUWVMMlFUbnV3?oc=5",
+          "pub_date": "Sun, 25 Jan 2026 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "유니콘 등극 일주일 만에 연간 매출 1370억원 돌파한 AI 스타트업…어떤 기업이길래? - AI포스트",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03dVBqV0FpRm9iMkU1TnEyQllBVGl6czF1U2YtTG9xMWY4c2JjNVVzeUhEc0FITTdfdHkzN29iNGZFaURWaVZMXzZ0OTdheWI2cWxPclNQeDNaSkp2ZTMyVXRLeEgxVkFoNG1QQdIBcEFVX3lxTE52X0lUZzFsN000LThNODRLOTlsV1pvanRCQ01uM0RmUzJ1empZR3p4blo4bVI0LTRENWMwclJCRmw5SWNJTlgyMTgyTmpfU2xYR2VLTTc2NThBbmNFZ2tPV25odFBKa0lHLW1RckJIMGs?oc=5",
+          "pub_date": "Thu, 24 Jul 2025 07:00:00 GMT",
+          "source": "AI포스트"
+        },
+        {
+          "title": "'M&A 전문가' 김병진 회장, 이번엔 피피아이 인수한다 - 톱데일리",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnTmk5emFQOElRdnVZVmd0ajhMVnJqbDc1eXcyTl8zd213alF2MndScTVOUF9NMnhXUndGQlZzNzkxZkFib25TcEo4VmFqSHc?oc=5",
+          "pub_date": "Tue, 16 Jul 2024 07:00:00 GMT",
+          "source": "톱데일리"
+        },
+        {
+          "title": "MS, 딥마인드 공동창업자 술레이만 영입…AI 사업부 맡겨 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zd3A4VlFpZHJtbWJnQk1GTHFWM2Jxemp1bXI0Rk8wem1kc1k3eFAzMlB6LXBmWC1ya0JjcDBPeXBjNlc0RjZZb3NObngxZFFBVERzcU5QOXJXUzTSAWBBVV95cUxPN0FRc0FSbFloVlk0c0thcjUyQm5RbzJjUDRwU19rTVNjQ1Q1bDREMkpxdW5aZHgyNUtRUF92bzFfXzRGXzhQTExjUXNVcTFmNXNaOF9kUkJRQ2xzcXVkcy0?oc=5",
+          "pub_date": "Wed, 20 Mar 2024 07:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "[ET시론] 인공지능, 이제는 비즈니스 모델이 중요하다 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1vRURlYjRhX05rYjdQWV9tanlRNXlZejRubFFoT1NxeWE5c3o5b3BMQWNhWHFubm5NYUtkOEY2OERsY21GRHhHVEJ6anBBdw?oc=5",
+          "pub_date": "Thu, 10 Oct 2024 07:00:00 GMT",
+          "source": "전자신문"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80Xy1PSGNHZy1OUG83anp3Mlp4NHJOUmlkTFBUV1VkczVPRnlCYTZqX3pTYnM1VHZtelU1YTgyWHVvVzliWHRKOVdaRUJpM3dSeXVjdmgzeTBBZ9IBVEFVX3lxTE1MYzZvQjU1ZmUxY19sRU5JTGMtQTJlNVhjamZpVnBVZXl6d0E2cC1PbXJHcFh3X25OWElXVlRmUVJBVGowUHdRcVcwSE9WNDd6SFhwQw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:28:15 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZXhLMWtzTG9NMDZjU1VnNFpGcGQyUV80NzB3dUtMOWRQVng0YnJyTFNkR3BVcUVBeHNOaDkxWEVXNmZLajZqbjZucjZQcThMWGVZcGRidGhLd0EwNEVjdU15Z3pHVlltenVKcWRCS0ZvUENHSEl2MXF4Z3NGa3c2UGJVOVMxRU0?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:28:15 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"인간보다 똑똑한 AI 만들겠다\"는 이 사람, 10년 만에 한국에 온다 [김인엽의 퓨처 디스패치] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GN1RXc1gtbjUxMC1mR1d1V0FHUVRrdnRCODZ1SjRScmd6R3lncFRuM01DUmltSS15ay16SFI2S1ctbUVCUXk4dUdYZm12Y1lhY3cyTNIBVEFVX3lxTE1GN1RXc1gtbjUxMC1mR1d1V0FHUVRrdnRCODZ1SjRScmd6R3lncFRuM01DUmltSS15ay16SFI2S1ctbUVCUXk4dUdYZm12Y1lhY3cyTA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 23:55:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "구글 클라우드, 온보드 행사에 2900명 참여… “AI 역량 교육 확대” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNm1yYXRjdlZVVjY0RmgtTndSSWpiUDA1Q0NwczNrREpJOFY4eGVUT0Z3YjFHVnR1RFlQdW9tR2lMSDBNbzBEQU1kMk9iMDZWNTZhSUYzdXVmX2NKd1Jtd18zM0s5S09hTUxuYU4ta2JFZ0I1N196alZHS3BaanBLSUxR0gGWAUFVX3lxTFBSeTVGXzhRRWdCaVFNTEl5Ym9iVW9rdUY2LVNNVFpteFI4emFlR29ZUXNaNWJmR0JkLWlTN0tCTHNXZno5T1pLNlExdDZpVk5OdWVYLWZ3eGJHRklqeUw4MjZXekZ6aWh4SDhkbUxYcS02UE5LM0RwWGRPOUt0dE5INE1vODhZNjd5UnFwdWNpR2ktd1YyQQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 01:34:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "무뇨스 현대차 사장 “中 20종·印 26종 등 공격적으로 신차 투입” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HMUVVelEzMlVFRm93LXhHcHR3QnE1U215VjZYS0Vad0x4Qi1mVTJudXhvMkdrSjBENXlWVktMVDRFd1JKUHprOHpVczFtak1vaVBHY3NvWk1HMk5pLXNOY1VSS3ExNVR5bG94NjZqdVNoeU9KeTUyOUo1WFZ0NzDSAZMBQVVfeXFMTllWOHl1NWxPcTFFZW9QQ1R3bktGeFJ1SVl6QUdYWDhHU0txMXI2dHlibkFiVjRCX0NUNUIwLUxNZmdRRlZqQjlsYUNyWlU0MEZFZ0dOeUVOM3hJOXFXdC1YMm13RW1UWUlKSnBSOGpfZ1ZwMnFwSzVUcUN4RDBMbXFON0NndXg2WkpwaGNsQ2h1Qzdr?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 05:34:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[특징주] 구글 딥마인드 뉴스에 韓 딥마인드가 ‘들썩’ - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcWZBdzJ6aHhzLXJIYjFMUW9LSGdVUUMtM1k0VU40ckJqWWVBLVlVTTdHZnIzLWxMcUhvSUFfT0ZEVWk4YjA5eVpISS1RN0c4WUZfNnZfSk5Tb0NCdDYwU1J2N2xpS0M4Y0JBWG12Q3hiTWllZUcyYmh5a3l6cDlDTzUwbUtLMGfSAZsBQVVfeXFMUDRTSGZmeG9ZYUIzOHg0R0IydVNWQ1J4MGYxbUZ4ekJ4UDRMWWhYSlAwSl9FTGswNmMzOXdBcFhfa0RRYTgzRVI3d21hVndqNWwwcFFGVXQ3UW9tVElyNGZyS3d1Umhnc1U4cUZ5d2hxSkZ1RWxfOGFCZW9YbXJGWG81ai1XTnp4aWROamJhVEZJb0gxY1pYLWVtMEE?oc=5",
+          "pub_date": "Fri, 11 Apr 2025 07:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "‘구글 클라우드 온보드’ 성료… “한국 AI 인재 성장 지원” - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFByVWVuZjFaeFY4QkFvUnlZNUlwSEMzNm1jZTMwMHVlY2tLMzVIV3RDT0o5TjN3ZkJjRUw4QTZkZzY1bVFZRWc?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 04:44:34 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "'알파고 아버지' 허사비스 10년 만에 한국 온다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96T1RGY2I1Q2lTLUIwcTN5RDBobnRpY1BqYlVrcDdHdDdKRFZYNmEwd2Zwd1RWRmF3cndoYXlYYWVlcjZBZGhMdGhkQ1RWUQ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 10:14:14 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "‘구글 클라우드 온보드’ 성료… “한국 AI 인재 성장 지원” - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56ang4NWx6bHBSSmZUWGpsRlVmVC1YdHptbzFnNmR5d1c1X1ZJc3JEaVdkV2NTQk9EcVFGaEI3Vk1lRExhTlRuSW5WdF9UZw?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 04:44:34 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[유미's 픽] \"테스트베드 끝났다\"…판 바뀐 韓, 글로벌 AI 격전지로 급부상 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xbWdoUjlOc0pJck9sRWhsRUlrN2tMQVFpeUQzbFdrVnVPaFZFeFRZNzQtdFRQT3c2MXUxeTMzLVJxbG9iVTlpVFFKS0JxODFRRXpuZTJn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 01:14:34 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[AI는 지금] 美 실리콘밸리서 주목한 리플렉션AI, 신세계와 손잡은 까닭은 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tWXhyUy1WUlpfQ2Y1dnctTkt1LUQxOG4yc180Znd6MmV1MTlVTGdtWk9uejd3SnZNdE93YU1iVUVSUmQtODlxYkxPWEd1RVhXSjlXLXdR?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:33:28 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "신세계, 국내 최대 규모 AI 데이터센터 짓는다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53SG9BMTVpeG1RU0JaRTRNVEZ0bEhnRHVuNklkUlVBaGUtSmxFSVpzejJWWTQzclBlWEo3STRGeFBUemRjRkEyS1RFN1cwVVVwbVRobkJB?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 22:34:42 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "빅테크 종속 끊는다…정부·기업, AI 주권 확보 총력 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03eWtGS0RYQndfZ3NCY0VsYjBBODR1bUtrVUNrQ3NGamtyd19tcUNLbktXTkxKODVCV3F2M2xhTjFyYW1UZGFDckFXLThuYy1jUlAxVElpNE9qMHhmaGg3U09INmxFRmFS0gFsQVVfeXFMTlVwcXRNX3J4RjJhZUZscUdsc0dYSXVCTXI5dEFxbjYyc2NTbkRlOHA0dHJyTTdYMzg0SXZSZ1lNX2VyOXlMWEl2bWV6a2k2ak1hem5TVTRMYms0bFllTEtnOUJxZzN2Y1BTYlZ1?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:11:48 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "신세계, 美 리플렉션AI와 국내 최대 AI 전용 데이터센터 짓는다 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPTWlGZHJOWG91elF4VllVeUNlcU9XRU8tSWo4a2lfbHJ0VlUwOWFQcUdFT0FpdlNoUk82bnc3NlhCS3hWTTctYmlrN1huZkw1RnR2TE52eGIyWEx3RFBqclpWVm1vcXdH0gFsQVVfeXFMTzdzZUN2cFNmZlJ2UzI4a1dpUkl5YUJSTUY4UktQd01NSkNfQ1BEZ0syNmpfVWpvV2tqYllpeWZrMkQ0ckpVQ1o2QWNoRkEwVW0zSFQtS3NzSjZTWVVCRVB5NXdkOGRVTExjZmJN?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 21:34:27 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[IT열쇳말] 알파고 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VSzRacTgyOE9yWTJGQ3J4LU1qRmYySjEzTmlJNnpyNW55ckVnVXBtLWZubXNBb3R5UmJ4R29QVUhma0JoWVpYSENhbFVrMmJZN3NIU3dPMG1tTUdOUS1ZM2Z6VGU1bGvSAWtBVV95cUxOdE9sNG1sblhWUmJaVmJYVTZ2eWZGMm5BdWdhNTZRSEZXTDBSUzFJRU13UjhjVmlCcTV0Mk4yd1Z4dkZ2Tmx3dG04SlZZTUVLcENtc3pFRF9pRkFLVzdLZ1BKV2V6azd3OUlQZw?oc=5",
+          "pub_date": "Thu, 18 Feb 2016 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "구글 딥마인드, 코딩하는 AI 알파코드 공개 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ra2VBMlNSZGE4d0RPczQtT2RSMUYyZUNIeHNlVDRHOXlrNS1KVVhORjRPNDZVcFZVVXBvTFFhVmVXUHJGb0NCd1MzMTBCQQ?oc=5",
+          "pub_date": "Thu, 03 Feb 2022 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "구글 딥마인드, ‘DNA 암흑물질’ 해독…알파게놈 공개 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01SU9hcWo0dGRxcG9SNzlxcnJ5b0VlWnUxMTNlWHdXbllLaERMb01Mb2VQRVdKR1E0Z05mRUo3Rzh0S2tRSTY5bW5pRWVFWTdWMDVGQ3BB?oc=5",
+          "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "[IT TMI] 알파고 만든 회사, 코딩하는 AI도 만들었다 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96bEFndjhhRHdhMl9RY0J5Q01BSTl6UVBFdW52dDVDSHBvbGpsWGVQZGFaY0xUNlpfMHk4SkpMeWRXR1pFWGc4ZV9XZTAtMVU?oc=5",
+          "pub_date": "Wed, 23 Feb 2022 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+          "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+          "link": "https://sibauchi.tistory.com/1205",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+          "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
+          "link": "https://ilovefamily.tistory.com/527",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
+          "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
+          "link": "https://lefthusband.tistory.com/1565",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "대구 취업 성공 잡코리아 활용 전략으로 꿈을 이루세요",
+          "description": "단순히 채용 공고만 보는 것이 아니라, 회사의 사업 분야, 기업 문화, 근무 환경 등을 파악하여 자신에게... 잡코리아에 있는 기업 정보와 후기를 참고하여 회사 분위기와 면접 방식을 파악하는 것도 잊지 마세요.... ",
+          "link": "https://sibauchi.tistory.com/837",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "정규직 대규모 채용 | 14개 직무 총정리 + 면접 족보까지 공개",
+          "description": "퇴사율 및 조직 문화 - 현직자 후기 솔직 정리 크레딧잡 데이터 기준, SK하이닉스의 최근 1년 퇴사율은 약 10%대 초반으로 대기업 평균 수준이에요. 반도체 업계 특성상 이직 시장이 활발한 것을 고려하면... ",
+          "link": "https://blog.naver.com/cymmcymm/224215480910",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "어플라이드 머티리얼즈 면접 후기 (엔지니어) 결과, 기출질문",
+          "description": "각 기업, 직무별 합격자를 배출하고 있습니다. 특히 Applied Materials 출신 코치진, 반도체... 실제 합격하신 지원자 후기 어플라이드 머티리얼즈 코리아 석사/ 신입 ▼ 면접 합격 후기 보러... ",
+          "link": "https://blog.naver.com/ve_getable/224220697925",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "제약산업분석 4 주차 강의: 바이오의약품 산업 채용 동향 분석",
+          "description": "CDMO 기업들은 외국어 능력(OPIc AL 이상 등)이 뛰어나고 제약 산업 전반의 밸류체인을 이해하는 인재를 확보하는 데 사활을 걸고 있다.11 공정 개발(PD) 및 기술 이전(Tech Transfer)의 전문화 CDMO의 핵심... ",
+          "link": "https://blog.naver.com/potatoschool/224218820717",
+          "pub_date": "20260316"
+        },
+        {
+          "title": "ASML 코리아 비디오 레코딩 면접 (HireVue) video... ",
+          "description": "합격자 배출 이력이 있습니다. 각 기업별 직무별 면접을 대비합니다. ASML 채용공고  ASML코리아... 미국, 유럽, 국내 기업을 모두 거친 20년 경력의 인사 전문가로서, ASML 특유의 외국계 기업 문화와... ",
+          "link": "https://blog.naver.com/fusekimo198735/224218339072",
+          "pub_date": "20260316"
+        },
+        {
+          "title": "코스트코 채용공고 대구 세종 신청 후기",
+          "description": "합격자가 들려주는 면접 및 근무 후기 실제 합격자들의 후기를 살펴보면 코스트코 채용공고 면접은 1차와 2차에 걸쳐 꼼꼼하게 진행됩니다. 면접 분위기는 대체로 편안하지만, 지원자가 코스트코의 기업 문화... ",
+          "link": "https://blog.naver.com/srdw59340/224216620706",
+          "pub_date": "20260315"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260321토요일",
+          "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 보건복지부(장관 정은경)는「메디컬코리아 2026」참석차 한국을 방문한 몽골 친부렝 직찌드수렝(Chinburen... ",
+          "link": "http://cafe.naver.com/jungamironware/9268",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+          "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-20 오후 3:00:00 엔브이에이치코리아㈜의 하도급법 위반행위 제재 엔브이에이치코리아㈜의 불공정하도급거래행위... ",
+          "link": "http://cafe.naver.com/magicbank/3332",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "[경력] ~26.04.09 / 일레븐플러스코리아 - Frontend Developer (React)",
+          "description": "채용 공고 - URL (공고 링크) : https://zighang.com/recruitment/ef6c7bd3-f485-4d4e-a189-51991728cc31?utm_source=naver&amp;utm... 혜택 및 복지 ?자율적이고 주도적인 업무 문화 • 유연한 근무 시간 및 휴가 사용 ?수평적인 조직... ",
+          "link": "http://cafe.naver.com/workhub/32402",
+          "pub_date": ""
+        },
+        {
+          "title": "충청남도보도자료20260320금요일",
+          "description": "엔터테인먼트 코리아 이스포츠 매니저), ▲OGN의 남윤승 대표 ▲한국전자통신연구원 이상광 박사... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자 박람회... ",
+          "link": "http://cafe.naver.com/jungamironware/9239",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.526744186046512,
+      "positive_themes": [
+        "긍정",
+        "성장",
+        "워라밸",
+        "장점",
+        "좋아",
+        "좋은",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점",
+        "야근",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "(주)에이치알딥마인드 2026년 기업정보 | 기업리뷰 3건, 3.0 리뷰평점",
+          "description": "장점 : 업계 평균 대비 높은 연봉 가까운 지하철역 무난한가? 싶은 분위기, 단점 : 야근 자기가 잘못해도 성질내는 과장 하나, 그 과장을 컨트롤 안하는 경영진",
+          "url": "https://www.jobplanet.co.kr/companies/392221/reviews/%EC%97%90%EC%9D%B4%EC%B9%98%EC%95%8C%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "(주)에이치알딥마인드 2026년 기업정보 | 11건 면접후기 2.2 면접난이도",
+          "description": "(주)에이치알딥마인드의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 2.2, 면접경로: 온라인 지원 89%, 면접경험: 긍정적 27%, 부정적 37%, 면접결과: 합격 27%, 불합격 37%, 대기중 36% | 잡플래닛에 등록된 11건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/392221/interviews/%EC%97%90%EC%9D%B4%EC%B9%98%EC%95%8C%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "캐논코리아(주) 2026년 기업정보 | 기업리뷰 1,052건, 2.7 리뷰평점",
+          "description": "장점 : 다른건 없고 시설이 깔끔하다 정도 인것 같다 기숙사는 너무 더럽기도 하고, 단점 : 기숙사청소및 정리가 잘되어서 불쾌감이 좀있었다 말곤없음",
+          "url": "https://www.jobplanet.co.kr/companies/7947/reviews/%EC%BA%90%EB%85%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "취준할 때 유용한 기타 사이트: 457 deep, 링커리어, 잡이룸, 잡플래닛, 코멘토, 한경 컨센서스, 서울시 일자리카....",
+          "description": "잡플래닛 ⭐⭐⭐⭐ : 기업 평가 및 면접 질문 참고 가능 잡플래닛은... 물론 퇴사하는 분들이 보통 써서 나쁜 평도 많고, 평점도... 잡코리아 ⭐⭐: 중소/중견 직무 인터뷰, 기업분석보고서 예전엔 잡 매거진이...",
+          "url": "https://blog.naver.com/enthusiasm_12/222833740320"
+        },
+        {
+          "source": "naver",
+          "title": "채용 정보와 기업 리뷰를 한 번에!",
+          "description": "회사소개 | 이용약관 | 개인정보처리방침 | 리뷰 운영 정책 | 공지사항 | 광고 및 제휴문의 | 고객 문의 | FAQ 잡플래닛 유한회사 서울특별시 서초구 서초대로 301, 16층(서초동, 동익성봉빌딩)...",
+          "url": "https://www.jobplanet.co.kr/companies/3000/reviews/%EC%A1%B0%EC%9D%B4%EC%8A%A8%EC%84%B8%EC%9D%B4%ED%94%84%ED%8B%B0%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84(%EC%A3%BC)"
+        },
+        {
+          "source": "naver",
+          "title": "중소 잡플래닛 평점 2.5 이상이면 평타야?? - 인스티즈(instiz) 일상 카테고리",
+          "description": "ㅈㄱㄴ??",
+          "url": "https://www.instiz.net/name/60793158"
+        },
+        {
+          "source": "naver",
+          "title": "㈜에이치알딥마인드 2026년 기업정보 - 직원수, 근무환경, 복리후생 등",
+          "description": "기업정보 ; 산업 : 컨설팅·연구·조사, 사원수 : 20명, 기업구분 : 중소기업, 설립일 : 2017.12.15(10년차), 자본금 : 2억원, 매출액 : 15억 2천만원(2024.12.31), 대표자 : 김현익, 대졸초임 : 3,500만원, 주요사업 : 기업인사컨설팅, 교육, 온라인정보 제공, 학술연구 용역, 행사 대행, 4대보험 : 국민연금, 건강보험, 고용보험, 산재보험, 홈페이지 : https://www.hrdeepmind.com, 주소 : 서울 영등포구 선유...",
+          "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/C/hrdm9537/Company_name/%E3%88%9C%EC%97%90%EC%9D%B4%EC%B9%98%EC%95%8C%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 2.5 정도면 어떤 회사냐 - 취업 갤러리",
+          "description": "걍 보통임?",
+          "url": "https://gall.dcinside.com/board/view/?id=employment&no=1928801"
+        },
+        {
+          "source": "naver",
+          "title": "한국딥러닝(주) 2026년 상반기 채용 | 33건 면접후기 2.9 면접난이도",
+          "description": "면접경로 ; 온라인 지원 : 83%, 직원추천 : 0%, 헤드헌터 : 17%, 공개채용 : 0%, 학교 취업지원 센터 : 0%, 기타 : 0%",
+          "url": "https://www.jobplanet.co.kr/companies/404731/interviews/%ED%95%9C%EA%B5%AD%EB%94%A5%EB%9F%AC%EB%8B%9D"
+        },
+        {
+          "source": "naver",
+          "title": "맥킨지인코포레이티드한국지점 2026년 기업정보 | 기업리뷰 150건, 4.3 리뷰평점",
+          "description": "장점 : 빠른 승진, 문제 해결 능력, 정리 능력 등 기를수 있음 연봉 상승 속도, 단점 : 펄셉션 기반의 평가, 극악의 워라벨, 가끔 이게 클라를 위한 일인가에 대한 근본적 의문",
+          "url": "https://www.jobplanet.co.kr/companies/34841/reviews/%EB%A7%A5%ED%82%A8%EC%A7%80%EC%9D%B8%EC%BD%94%ED%8F%AC%EB%A0%88%EC%9D%B4%ED%8B%B0%EB%93%9C%ED%95%9C%EA%B5%AD%EC%A7%80%EC%A0%90"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 딥서치 현직자들의 연봉 정보",
+          "description": "딥서치 4.0 (22개 리뷰) 이 회사 리뷰하기 딥서치은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 갤러리 딥서치 연봉 정보 딥서치에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EB%94%A5%EC%84%9C%EC%B9%98/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 딥서치 Reviews - &quot;직원 뒤통수치는 회사&quot;",
+          "description": "“새롭게 도전하는 회사” ; “기업 플랫폼의 강자” ; “분위기가 좋은 회사” ; “이런 회사 또 없습니다” ; “꾸준히 성장하는 회사” ; “좋아 자유로워” ; “워라밸 좋고 멤버들의 수준이 높음” ; “나름 괜찮음” ; “AI 기업 중 자기 도메인이 있는 몇 안되는 회사” ; “앞으로가 더 기대되는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EB%94%A5%EC%84%9C%EC%B9%98/review/JsB-uDhOr"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 코리아엑스퍼트 현직자들의 연봉 정보",
+          "description": "코리아엑스퍼트에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%BD%94%EB%A6%AC%EC%95%84%EC%97%91%EC%8A%A4%ED%8D%BC%ED%8A%B8/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 그랙션 기업정보",
+          "description": "그랙션 회사소개 ; 업계 IT/소프트웨어 · 본사 경기도 안양시 · 설립 2014 · 직원수 1~50(명) · 연봉정보 -",
+          "url": "https://www.teamblind.com/kr/company/%EA%B7%B8%EB%9E%99%EC%85%98/"
+        },
+        {
+          "source": "naver",
+          "title": "(주)에이치알딥마인드 2026년 기업정보 | 기업리뷰 3건, 3.0 리뷰평점",
+          "description": "장점 : 업계 평균 대비 높은 연봉 가까운 지하철역 무난한가? 싶은 분위기, 단점 : 야근 자기가 잘못해도 성질내는 과장 하나, 그 과장을 컨트롤 안하는 경영진",
+          "url": "https://www.jobplanet.co.kr/companies/392221/reviews/%EC%97%90%EC%9D%B4%EC%B9%98%EC%95%8C%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 발카코리아 현직자들의 연봉 정보",
+          "description": "발카코리아 2.6 (17개 리뷰) 이 회사 리뷰하기 발카코리아은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 갤러리 발카코리아 연봉 정보 발카코리아에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EB%B0%9C%EC%B9%B4%EC%BD%94%EB%A6%AC%EC%95%84/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 딥세일즈 현직자들의 연봉 정보",
+          "description": "딥세일즈 3.0 (2개 리뷰) 이 회사 리뷰하기 딥세일즈은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 뉴스 갤러리 딥세일즈 연봉 정보 딥세일즈에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EB%94%A5%EC%84%B8%EC%9D%BC%EC%A6%88/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 딥서치 Reviews - &quot;이런 회사 또 없습니다&quot;",
+          "description": "“새롭게 도전하는 회사” ; “기업 플랫폼의 강자” ; “분위기가 좋은 회사” ; “꾸준히 성장하는 회사” ; “좋아 자유로워” ; “워라밸 좋고 멤버들의 수준이 높음” ; “나름 괜찮음” ; “AI 기업 중 자기 도메인이 있는 몇 안되는 회사” ; “앞으로가 더 기대되는 회사” ; “인생을 베팅해볼만한 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EB%94%A5%EC%84%9C%EC%B9%98/review/EoxhBQGlt"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 리저스코리아 현직자들의 연봉 정보",
+          "description": "리저스코리아에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EB%A6%AC%EC%A0%80%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 아이아이컴바인드 현직자들의 연봉 정보",
+          "description": "보상 · 유형 · 중앙값 · 범위 · 계약 연봉 · 5,000만원 · 2,553만원 ~ 2.9억원 ; 추가 보상 · 유형 · 중앙값 · 범위 · 보너스 · 600만원 · 92만원 ~ 2,000만원",
+          "url": "https://www.teamblind.com/kr/company/%EC%95%84%EC%9D%B4%EC%95%84%EC%9D%B4%EC%BB%B4%EB%B0%94%EC%9D%B8%EB%93%9C/salaries"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "구글 딥마인드(Google DeepMind)의 AI 선도 전략과 성공 요인, 취업 안내",
+          "url": "https://one.krush.co.kr/entry/%EA%B5%AC%EA%B8%80-%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9CGoogle-DeepMind%EC%9D%98-AI-%EC%84%A0%EB%8F%84-%EC%A0%84%EB%9E%B5%EA%B3%BC-%EC%84%B1%EA%B3%B5-%EC%9A%94%EC%9D%B8-%EC%B7%A8%EC%97%85-%EC%95%88%EB%82%B4",
+          "text": "구글 딥마인드(Google DeepMind)의 AI 선도 전략과 성공 요인, 취업 안내\n\n본문 바로가기\n\n사업ㆍ조직 운영, 경제&법률\n\n# 구글 딥마인드(Google DeepMind)의 AI 선도 전략과 성공 요인, 취업 안내\n\n구글 딥마인드(Google DeepMind)는 AI 연구와 발전에 있어 최전선에 위치한 기업입니다. 생성형 AI와 강화 학습을 기반으로 한 다양한 연구 및 솔루션 제공을 통해 기술의 미래를 이끌어가고 있습니다. 이 글에서는 딥마인드의 브랜드 구축, 마케팅 전략, 성공 사례, 그리고 AI 기반 디자인 및 조직 운영 관점에서 살펴보겠습니다. 또한, 관련 학위, 취업 가이드, 그리고 인터뷰 팁을 함께 다뤄보겠습니다.\n\n#### 🌟 브랜드 구축의 핵심: 신뢰와 혁신의 상징\n\n구글 딥마인드는 구글이라는 대형 플랫폼의 지원을 받으며 혁신적인 AI 솔루션을 제공하는 기업으로 자리매김했습니다. 이들은 특히 **알파고(AlphaGo)**와 같은 대형 프로젝트를 통해 일반 ",
+          "score": 0,
+          "published_date": "2024-09-30T00:00:00.000Z"
+        },
+        {
+          "title": "한국딥러닝(주) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-salary/csn/SUdEZmdTNDRnMEJFQzMwZFZnNDNhZz09/company_nm/%ED%95%9C%EA%B5%AD%EB%94%A5%EB%9F%AC%EB%8B%9D?nomo=1%3Futm_medium%3Dorganic",
+          "text": "한국딥러닝(주) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n관심기업 25% 증가! 인기 많은 기업을 놓치지 말아요\n\n도움말\n\n조회기간 2026.02.10 ~ 2026.03.09\n\n본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다.\n\n조회수\n\n2% 756회\n\n관심기업\n\n25% 10회\n\n기업 키워드 검색 횟수\n\n113회\n\n- 명절선물/귀향비\n- 나의 커리어 첫 시작\n- 자유 복장 기업 모음\n- 간식제공 복지 기업!\n- 장기근속수당제공 기업\n- 월급+보너스=행복2배\n- 경조사 챙겨주는 기업\n- 슬기로운 육아휴직기업\n- 회식 멈춰!\n- Refresh 휴가\n- 포상휴가를 주는 기업\n- 깜짝! 업계신흥강자\n- 역세권 기업\n\n## 한눈에 보는 우리 회사, 미리 확인해 보세요!\n\n#역세권\n\n#논현역\n\n#지하철신분당 신분당\n\n#지하철7호선 7\n\n영상\n\nkdl 아지트\n\n+ 2\n\nkdl 아지",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "분 기 보 고 서",
+          "url": "https://kind.krx.co.kr/external/2024/05/16/002350/20240516005541/11013.htm",
+          "text": "# 분 기 보 고 서\n\n(제 14 기 1분기)\n\n| 사업연도 | 2024년 01월 01일 | 부터 |\n| --- | --- | --- |\n| 2024년 03월 31일 | 까지 |\n\n| 금융위원회 |\n| --- |\n| 한국거래소 귀중 | 2024년 5월 16 일 |\n\n| 제출대상법인 유형 : | 주권상장법인 |\n| --- | --- |\n| 면제사유발생 : | 해당사항 없음 |\n\n| 회 사 명 : | 딥마인드플랫폼 주식회사 |\n| --- | --- |\n| 대 표 이 사 : | 유 병 길 |\n| 본 점 소 재 지 : | 서울시 강남구 언주로 702, 10층(논현동,경남제약타워) |\n| (전 화) 02-3012-0033 |\n| (홈페이지) http://www.deepmind.im |\n| 작 성 책 임 자 : | (직 책) 이 사 (성 명) 윤 재 설 |\n| (전 화) 070-4211-0775 |\n\n## 【 대표이사 등의 확인 】\n\n대표이사 등의 확인_2024 05 16\n\n## I. 회사의 ",
+          "score": 0,
+          "published_date": "2024-05-16T00:00:00.000Z"
+        },
+        {
+          "title": "분 기 보 고 서",
+          "url": "https://kind.krx.co.kr/external/2025/05/15/002887/20250515006771/11013.htm",
+          "text": "# 분 기 보 고 서\n\n(제 15 기)\n\n| 사업연도 | 2025년 01월 01일 | 부터 |\n| --- | --- | --- |\n| 2025년 03월 31일 | 까지 |\n\n| 금융위원회 |\n| --- |\n| 한국거래소 귀중 | 2025년 05월 15일 |\n\n| 제출대상법인 유형 : | 주권상장법인 |\n| --- | --- |\n| 면제사유발생 : | 해당사항 없음 |\n\n| 회 사 명 : | 딥마인드플랫폼 주식회사 |\n| --- | --- |\n| 대 표 이 사 : | 홍상혁, 유병길(공동대표이사) |\n| 본 점 소 재 지 : | 서울시 강남구 선릉로135길 5(논현동) |\n| (전 화) 02-3012-0033 |\n| (홈페이지) http://www.deepmind.im |\n| 작 성 책 임 자 : | (직 책) 대 표 이 사 (성 명) 홍 상 혁 |\n| (전 화) 070-4211-0750 |\n\n## 【 대표이사 등의 확인 】\n\n대표이사확인서\n\n## I. 회사의 개요\n\n### 1. 회사",
+          "score": 0,
+          "published_date": "2025-05-15T00:00:00.000Z"
+        },
+        {
+          "title": "딥네츄럴 기업정보",
+          "url": "https://www.teamblind.com/kr/company/%EB%94%A5%EB%84%A4%EC%B8%84%EB%9F%B4/",
+          "text": "블라인드 | 딥네츄럴기업정보**블라인드**기업서비스\n# blind*Topic*\n# 검색검색글쓰기로그인딥네츄럴\n딥네츄럴*Rating Score*4.0*(40개 리뷰)*\n이회사리뷰하기딥네츄럴은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n# 딥네츄럴회사소개* **홈페이지**deepnatural.ai\n* **업계**IT/소프트웨어\n* **본사**서울특별시 강남구* **설립**2017\n* **직원수**-\n* **연봉정보**-\nAdvanced LLMOps, DeepNatural\n딥네츄럴은&quot;컴퓨터가 사람말을못한다&quot;는 문제",
+          "score": 0,
+          "published_date": "2024-01-05T00:00:00.000Z"
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "(광고)&quot;형이 거기서 왜 나와&quot; 구글 딥마인드 연구에 등장한 ㅇㅇㅇ",
+          "description": "이를 위해서는 어떤 전략이 필요할까요. IT, 실리콘밸리 등의 이야기를 다루는 미라클레터에서 뜬금없이 축구 얘기 냐고요? 이유가 있습니다. 이들은 AI를 이용해 코너킥 전술을 만들었는데 영국의 축구 명가가 함께 했습니다. 과연 어디일까요. 이번 레터에서는 딥마인드의 새로운 성과와 함께 이들이 AI를 이용해서 축구에서 얻으려 하는 것들을 알아보도록 하겠습니다.",
+          "link": "https://m.mk.co.kr/newsletter/pageHTML/1424",
+          "pub_date": ""
+        },
+        {
+          "title": "ABOUT | 임팩티브AI 기업 소개",
+          "description": "우리의 미션(Mission)은 기술에 대한 전문성으로 세상의 중대한 문제를 해결하여 주목할만한 가치(Remarkable Value)를 창출하는 것입니다.",
+          "link": "https://www.impactive-ai.com/about-us",
+          "pub_date": ""
+        },
+        {
+          "title": "[AI는 지금] &quot;딥마인드만으론 부족해&quot;…英 정부, 韓과 'AI 전략동맹' 모색",
+          "description": "이 같은 방향성은 한국과의 기술·산업 협력 확대 전략과도 맞물리며 양국 간 AI 공조 구도가 재편되는 흐름이다. 11일 업계에 따르면 영국... 또 오픈AI의 경쟁자로 꼽히는 구글 딥마인드를 배출한 국가로...",
+          "link": "https://zdnet.co.kr/view/?no=20250411094017",
+          "pub_date": ""
+        },
+        {
+          "title": "선수 멘탈까지 이해하는 AI를 기대하며",
+          "description": "연구를 주도한 딥마인드의 AI 연구원 칼 투일스(Karl Tuyls) 박사는... 컴퓨터 비전 기반의 대상 추적(Object tracking) 카메라 등을 통해 선수... 높은 방향을 포지션별로 예측한 부분이었다. ADVERTISEMENT 경기장 안팎...",
+          "link": "https://www.hankyung.com/article/202109305235i",
+          "pub_date": ""
+        },
+        {
+          "title": "실리콘밸리, AI 개발 방향 두고 갈등…'안전 vs 속도'",
+          "description": "기본 방향으로 채택하는 분위기다. 22일 소프트웨어 컨설팅 회사 세로켈에 따르면 오픈AI, 앤트로픽, 딥마인드 등 글로벌 선도 AI 기업들은... 이는 기술에 의한 '초월'처럼 통제 불가능한 비전보다는 인류가...",
+          "link": "https://zdnet.co.kr/view/?no=20250621230512",
+          "pub_date": ""
+        },
+        {
+          "title": "KPMG’s AI Insight",
+          "description": "자율주행의 서막, 로보택시 시장의 경쟁 전략 ; K-디지털 헬스케어 대전환 대응을 위한 현황 점검 ; AX를 통한 가치 창출 전략 시리즈",
+          "link": "https://kpmg.com/kr/ko/ai/kpmg-ai-insight.html",
+          "pub_date": ""
+        },
+        {
+          "title": "폐창고서 AI기술 수출 꿈 키우는 '스켈터랩스'",
+          "description": "바둑 기사인 이세돌 9단과 구글 딥마인드가 개발한 알파고와의 2년전... 저희의 사업 방향입니다.” 조원규 대표는 최근 뜨거워진 블록체인 기술에도 많은 관심을 드러냈다. AI 기술을 발전시켜 나가다 보면 결국엔...",
+          "link": "https://zdnet.co.kr/view/?no=20180315155843",
+          "pub_date": ""
+        },
+        {
+          "title": "‘이스라엘의 오픈AI’ AI21랩스가 전하는 생성형 AI의 미래",
+          "description": "한국에는 잘 알려지지 않았지만 빅테크 기업과 어깨를 나란히 하는 이스라엘의 스타트업이 있다. AI21랩스(AI21 Labs)가 그 주인공이다. AI21랩스는 특히 연구 조직이 탄탄하고 학계에 여러 AI 주제의 논문을 발표하고 있다는 점에서 미국의 오픈AI(OpenAI), 영국의 딥마인드(Deepmind)와 자주 비교되곤 한다.",
+          "link": "https://www.itworld.co.kr/article/3555720/%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98%EC%9D%98-%EC%98%A4%ED%94%88ai-ai21%EB%9E%A9%EC%8A%A4%EA%B0%80-%EC%A0%84%ED%95%98%EB%8A%94-%EC%83%9D%EC%84%B1%ED%98%95-ai%EC%9D%98-%EB%AF%B8.html",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;AI시대 新 전략 모색 나서&quot;... 글로벌 스타트업 대축제 ‘Try Everything’ 개최",
+          "description": "구글 딥마인드의 최고운영책임자(COO)인 ‘라일라 이브라힘(Lila... 생성형 AI인 제미나이(Gemini)의 개발 현황과 전략도 함께 소개할 예정으로, 이를 통해 스타트업들에게 새로운 방향성과 기회를 제시하며...",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=32028",
+          "pub_date": ""
+        },
+        {
+          "title": "[#56.5월3주 비전레터] 오픈AI, 차세대 코딩 에이전트 '코덱스(Codex)' 출시 ⋯ 소프트웨어 개발의 새로운 시대",
+          "description": "[#56.5월3주 비전레터] 오픈AI, 차세대 코딩 에이전트 '코덱스(Codex)' 출시 ⋯ 소프트웨어 개발의 새로운 시대",
+          "link": "https://maily.so/visionletter/posts/g1o4kew6rve",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "'투자 보증수표' 된 딥마인드…그들이 세운 AI 스타트업에 엔비디아·MS 줄섰다",
+          "url": "https://plus.hankyung.com/apps/newsinside.view?aid=2026030490481&category=",
+          "text": "'투자 보증수표' 된 딥마인드…그들이 세운 AI 스타트업에 엔비디아·MS 줄섰다\n\n콘텐츠바로가기\n\n# 뉴스인사이드\n\n김인엽2026-03-04 17:03:19\n\n음성지원 서비스 듣기 본문듣기 글자작게 글자크게 인쇄 목록으로\n\n### DEEP INSIGHT 상용 제품조차 없는 인에퍼블 10억달러 '역대급 시드' 조달 연구 내용도 공개 안한 SSI도 기업가치 320억달러로 고평가 \"투자경쟁 과도…지속 불가능\"\n\n구글 딥마인드 출신 연구자들이 창업한 인공지능(AI) 스타트업에 천문학적인 자금이 몰리고 있다. 차세대 AI 모델 패러다임을 선점해 초과 수익을 노리려는 투자 경쟁이 본격화했다는 분석이 나온다. 4일 테크업계에 따르면 데이비드 실버 전 구글 딥마인드 수석 리서치 사이언티스트가 창업한 인에퍼블 인텔리전스는 지난달 시드 단계에서 10억달러(약 1조4000억원)를 조달했다. 유럽 스타트업 시드 투자 가운데 역대 최대 규모다. 아직 상용 제품조차 없는 신생 기업이지만, 알파고 논문의 제1",
+          "score": 0,
+          "published_date": "2026-03-04T00:00:00.000Z"
+        },
+        {
+          "title": "[빅테크칼럼] 딥마인드 CEO \"AI가 이끄는 '황금시대' 15년 내 실현 가능\"… 의학 혁신과 에너지위기 해결 '예측'",
+          "url": "https://www.newsspace.kr/news/article.html?no=12517",
+          "text": "[빅테크칼럼] 딥마인드 CEO \"AI가 이끄는 '황금시대' 15년 내 실현 가능\"… 의학 혁신과 에너지위기 해결 '예측'\n\n- 본문 바로가기\n- 주메뉴 바로가기\n\n2026.02.16 (월)\n\n- 네이버클립\n- 틱톡\n- 네이버블로그\n- 인스타그램\n- 유튜브\n\n- 구름많음거제 10.6℃\n- 흐림경주시 5.1℃\n- 맑음강진군 6.1℃\n- 맑음금산 6.7℃\n- 맑음보은 7.1℃\n- 맑음강화 4.8℃\n- 구름많음제주 7.8℃\n- 구름많음고창 2.7℃\n- 구름많음부산 10.3℃\n- 맑음광주 6.4℃\n- 비울산 5.4℃\n- 맑음대구 8.1℃\n- 맑음",
+          "score": 0,
+          "published_date": "2026-02-12T00:00:00.000Z"
+        },
+        {
+          "title": "딥마인드 CEO “AGI 파급력, 산업혁명의 10배···100년 아닌 ‘10년’ 내 닥칠 것” - Benzinga Korea 한국",
+          "url": "https://kr.benzinga.com/news/usa/othermarkets/%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C-ceo-agi-%ED%8C%8C%EA%B8%89%EB%A0%A5-%EC%82%B0%EC%97%85%ED%98%81%EB%AA%85%EC%9D%98-10%EB%B0%B0100%EB%85%84-%EC%95%84%EB%8B%8C-1/",
+          "text": "딥마인드 CEO “AGI 파급력, 산업혁명의 10배···100년 아닌 ‘10년’ 내 닥칠 것” - Benzinga Korea 한국\n\nClose Menu\n\nFacebook X (Twitter)\n\nTrending\n\n- [수요일 주목해야 할 주식: 애버크롬비, 로스 스토어스, 박스, 다이컴 및 브로드컴](https://kr.benzinga.com/news/usa/trading/%EC%88%98%EC%9A%94%EC%9D%BC-%EC%A3%BC%EB%AA%A9%ED%95%B4%EC%95%BC-%ED%95%A0-%EC%A3%BC%EC%8B%9D-%EC%95%A0%EB%B2%84%ED%81%AC%EB%A1%AC%EB%B9%84-%EB%A1%9C%EC%8A%A4-%EC%8A%A4%ED%86%A0%EC%96%B4%EC%8A%A4/",
+          "score": 0,
+          "published_date": "2026-02-19T00:00:00.000Z"
+        },
+        {
+          "title": "구글 딥마인드 CEO “AI 투자 일부 거품…조정 가능성\" 경고",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01416966645321328",
+          "text": "구글 딥마인드 CEO “AI 투자 일부 거품…조정 가능성\" 경고\n\n실시간뉴스\n\n손경식 경총 회장 “AI 투자 위해 법·제도 속도감 있게 개혁해야”\n\n무협, ‘한일 신산업 무역회의’…\"미래 통상질서 공동 설계\"\n\n[‘5극3특’ 발맞추는 농협금융, 동남권 해양·항공산업 지원센터 운영](https://www.edaily.co.kr/News/Read?newsId=03739206645383976&mediaCodeNo=2",
+          "score": 0,
+          "published_date": "2026-01-25T00:00:00.000Z"
+        },
+        {
+          "title": "구글 딥마인드 CEO “15년 내 AI가 이끄는 ‘발견의 황금기’ 온다··· 의료·에너지·우주 대전환” - Benzinga Korea 한국",
+          "url": "https://kr.benzinga.com/news/usa/othermarkets/%EA%B5%AC%EA%B8%80-%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C-ceo-15%EB%85%84-%EB%82%B4-ai%EA%B0%80-%EC%9D%B4%EB%81%84%EB%8A%94-%EB%B0%9C%EA%B2%AC%EC%9D%98-%ED%99%A9%EA%B8%88%EA%B8%B0/",
+          "text": "구글 딥마인드 CEO “15년 내 AI가 이끄는 ‘발견의 황금기’ 온다··· 의료·에너지·우주 대전환” - Benzinga Korea 한국\n\nClose Menu\n\nFacebook X (Twitter)\n\nTrending\n\n- 비트코인·이더리움· XRP·도지코인, 기술주 약세 속 하락···“BTC 저점은 어디?”\n- [캐시 우드",
+          "score": 0,
+          "published_date": "2026-02-12T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Articles sitemap of 2026-03-18 - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01bzc3M0NjZ1dNMnZiWkdXNXJfMkZUb0tlTWdMZndHcm5Sc2E3NVo1MURUckpzVEJrRDlkSFAydWpfYUlFMW9NZUJjZzEwejNkX3d4REVMWHQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "https://www.reuters.com/static/video-sitemap/us/video-2026-03.xml - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMM0hNOVUzQ19pZHZJUVdELXRudHI1RGl2WXJPaHM4cjlYLWJwZGRXbWZneElLT1U3SWdTS1o4bm0tUzYxbDZFOWlXVlU1VVY0aGdTUVNvdklUcXNaUUlCTWFVdGtIdFZOMzh0ZVZZSGlESXM?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 14:50:28 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "https://www.reuters.com/static/video-sitemap/us/video-2025-11.xml - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSeUxMUzNpdXdmbG5vYkhtaUxjQWgyblpIajFDV3pvQWdVNk5ndGJXZHBLU2RWZG9rVWpZS180ak1xYTBBdE54QzEzUU1YSENvSFB0RWVOXzNWZmZsT003ZF82RzRMZzdLVG9fNGdXb0RYNkU?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 14:16:54 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Japan Defense Minister Says No Plans to Send Ship to Hormuz After Trump Comments - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdUZMWG95T0tZckhrTnV3N3RZZ01vdUNqTWlQalRGb1JzelVIQzZMSGNJQmFaTUc2Z3hHMWItR1NpT1RmME00bm9rdE1Pa1VRT0hmRjdKdEV1QmU2THc2anUzUE5ETXdlOF9IcXA2VU5icV9hRlB6WmFFLWhaZGJjWDUtUG43bW1zVlYycnV2WE9rSXdkLTdvNjBlaTB2SXBlT1N3N1ZucDJpci1rOTBuMQ?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 05:48:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Busting the Myth of Treasuries as a Haven - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOVpxcXo4NEhvV3JkbW5VTXpaMmZSa0pvcThvaUN1TWVfUVExQ01jRGhVVm81NUF1d2trdnNkSTFSMjJwVC1MNnpBMENrSWhLb21xbDNqMTNUNWt2NjFVNEhmWVphbENoRmhoVnc0dUtuc3A2X3VWMExfZ0RBcmxyWmYwS1BYQzJCWllyQkRsTGdjbC0tSS10NnFBbFRJZFRRS1V2aEU0UQ?oc=5",
+          "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "How to Ride Out a Brush With Market Panic - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUGJoRWFzTVBiVlJzRW9sVFpOR25pMDl5eGRSLTdCa3RZa3BUaEs3THlSRkpLTmJjRk1vSlFQOVowVktLWkhqczB6ZW9yQXlpSjNveFotWi1Ta2haMmFTWjk5R1VlOHIxVE5laTlYY1BzNUl5YzRjQXVTcDJMQ092aUd5RFRKVGdPaFJwcTd2ZC1nM3ZLSjFRX0ZIR3VqQ2VMTUJFWE9uaEtGQQ?oc=5",
+          "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5oc1hqR1YwYi1VQTM1alk2dEVDNS1TaXp1SnlRdHdNQzBINUZvN0hxaDdWeEhSUGoxWm5v?oc=5",
+          "pub_date": "Tue, 09 Feb 2010 10:17:04 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Leading robotics VCs talk about where they’re investing - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWGFXOWs0RWlqWnBaTm5fTnpJdGtMcTJuT2RzMHJpd2d0TGtuMEMwSGFJTDFtUGdkbnJLaGVmMWkyUTRIRzY1YTl3WjZSbG5HSkNtX2IwZnNUcWRZbFNGbTJEc2NmYU50R1I0MWduZ2RRT2pGNlE3eHVCNnZoTm94UlNKYS0xNV9GUzItaHoxamNUeWs?oc=5",
+          "pub_date": "Tue, 26 Nov 2019 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Porsche adds all-electric flagship SUV to its growing EV lineup - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcE1XR2hyZm8zUzNoT2FmOWdOb0x4M3ZZaXJWZjBkQXZVaXhLYmhqUmw0WXlZSlNHZlVBQXIwMDF2b0tsYlpIUlVpcVNrd2xZZnptbFBrU040Z1pQQjZwOEwxQ0R0dnl6Z3RFV0RuWTM3WnYyREVESmplSVZ5OVdTZHRkdFY5THFFWUNsMzNDOHU4Y1BNcGpVei0zanZXQkU?oc=5",
+          "pub_date": "Mon, 13 Mar 2023 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Iran’s Battered Security Forces Step Up Repression Campaign - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxPYU5vOWNlTWtLVDdKNnU2UWpmR2V3VmxzZm5ibXNNaE1mQk5hVzg2Tlo0Tm9QUUxNb2g0VnZVcnF3aUpMLWZzbmVSaXd4TlF2TGtqdklMSWlhUjBMVDdKbDN1NEFBMGZNVnN4VEh5aTd2cXFqc290TnJ3OUFrTlRxNk9fdjJtREk5aUFEN21TUVY3Y2pHWmVfYWQ1T2tvUFlNTlY5bndsOTRJNVhCTXh6YndIWmlreHFLRktLNTZ0Y1pBTFNsRXZ4U0VZQ3FNRm5LdHpsYUZqZ0taYXpqdmQzVWpIR01MT21qbkpielM1RDZZMGVoZU45R0VEclVIUDhoOXdZZzNyYThpQm5keTJTY05yQ3RfT2xvekExNTlVN1g3bGF4QVBzc0pNUVducnRUN2VyTVdTUkN0aWdmOHhlSEVFTkJKLTBuNlJTMWFWdlRveENFZklJQ0Fpa0dINnVyM24yR043WjJ2THk2OGprUVEwSTU2NFRPeXBROFpCOFk2aW1xU1RTTndXM2V4RkNTdUlHY25UdDB3anBzWC04?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Strikes on Gulf Energy Escalate - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxQXy0zUVYzZzBQNi0xdDd4cWF0S0hudHdUM09vSFdiNzRZTGxDUzdja1ExYXIwMGZ4MVhVWmIzcHVqZUxzaGlTTmpFdWN0czN1TW5WX3RVSFVJRUNJeUh0U2dZVGR4V3JGTFNINmNkQ1hxY0RKVjhfSDRKRUxvMU5UdWxDd0N2cHBFT19vbV9LYzNqTnFoUldTVVduaERrTFRPVlNfTjRUTU1ObFBXNDFzR2hHZ0kyNU02UVJmaUdBYktrTVZnZTFTVF9kTXFYOU1MRC1EOW0xY2ZXOTd0MVNWaHlfSml6Rm5kdXJ3ZEtNbXVCdnhib2NiV0tHWEdJajFva3R2Q3d1T1I5dGZxQXIzRG9FelNrcGFlNzRKQXdFZ3lUaTNBRGRaZXNJaWZkY01QYVQ0LWV2T2c5b0phQjA4VmRndlc0TnppYWFCNGNNSnRob3ZDZGl4RmpLX1Vaa3dOSGRCVlpwM1JLNzNvc0NjTW9BbC0tVVVBTm13Zy1MMjVyUVJJWVVCS1VnRlVYRzZEb1Q5elVYMGJUSmExY19j?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 15:50:16 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Iran Sees an Opening to Control Mideast Energy Over Long Run - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxQNXZJLTExcFlMX3hnUG92aUxTb0RkcG5JZmpXaTkxcmxjejBObksybUFwdlBCZzh4V2ZhZHpOS3YtWmpzd2xzeDgzNHViWTdnaEJETDBIc2pzMTBQTkJKY1p3SmF3QUF5NlNEOTVFN1JyU3BUVnJZajBSb2o3dlMyM0ZfLU5EN19YMndTVXNTRTNlbG1ZbnNoVTgxQmRvWm55ZGZKSTE1MEpIWk1xdUxNNWRWTENxaDRYRmVjRF9UZ1ppNV9sQ3UyVjdyWG56NjNmVExGX2FfZ25RWlBXanJqMEhUbFhGbkt2bEczb2tjREF3TzlFUjd4VUVMUFFqYU85eV90XzdadlpOeEtkRGxVdHEzdDVTcF9ybnN4NHhJMExCTnkzeHgxai11b2Ftd2loa0o3RU1PaEE5V21RaVo5Wm9qWFBReXN3SGlWbHJUUVU2NXR3cktKeXVzbWNFUldOa1hxb2RKMEZHRmxON3VTc29EWFV5WWFCb0VQeG1hYndDOXJkd1FCNVJJaWRaNHkzSUtRWWpPdVRpbVpkZjM4?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 06:20:47 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "The irrepressible Nigel Farage - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Cb2pUTWNxcHgtNmdjRU50LVotZHlvVFR6dDlWRjVqSmxNaENmd1IzN0RNVDBzU3hfc3RyYktfVEtnSkhEczc3ZUJKLV9vX09RZ2tRT3hEVzg0dVZoelU2QUxxN3dFckJ0OHV1dDFHUXg?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 05:00:55 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "The US consumer is OK - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EVWRHM2U3el9SVWJNaFBSc3EyOU94Y1U2X19ITFp6a0N6MXpLYmpKWDlfdHhFSEdWLVIxaFFpa3BSdHBua0tkbFlQR2VQd1NEV1NLOGktMGg4YmxRY3p3anpRU3VyNzgtOGRmQlJpaUY?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 06:30:24 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "AI and the potential for a revolution in healthcare - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkZXRaYmt0UUVPOEhTajE0aGJEQ3BZQk1HTExPcWtETnZ0dkxXUmlqamxmclZXaWFQelJITTZ0WHk2cklTOFNiYzdJTGJfbVo5d1ltZm1WY04xTkxCRGs5V2Q3TzUxM042U3MtdjZn?oc=5",
+          "pub_date": "Wed, 22 Jan 2025 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Okinawa reels in tuna lovers - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTkdSTndhVkhvc2V3ZnFBdlVIcGNXOWlwd0JEWTJoOGxxbWpoMHl0Ni1QQjlVUGtid05LTm5abUpObTR0UW1LZzBMWmRzNE1sQlJfSVJydlJrOHNYMFdFOUR6VWZwV0FVMjVGNmpuMTB6MjROQlQzOGlxblh3Q0JGYg?oc=5",
+          "pub_date": "Sat, 26 Aug 2017 07:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "South Korea vows to prop up the won as currency slides - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRHFqY0k4MVMyMlVISGJ3QzAxRXA1dG8tcFhxZS1zdFdlLWstbnVVWHZ4TWpLYXlaTXhHMnFsYnBHVlVIM2NMQ0ZSLWJkd3NBbmJ1Q0xZMnpSRDZ3bU41OXJxWThnOVh0N0pENUQxRWJQMVRNUVpBWVpza2tPM285ejJ5VDBxMDlnSVFPdzh1TDhnaVo4X3IzTzE5bw?oc=5",
+          "pub_date": "Wed, 24 Dec 2025 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Japan sees spiritual experience in the humble bath - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMkZVVVlGOThEMFpyNE5IU3ljV1ROQklPSnRpbzE1V2d5aW4xMm5HRWp3V2JpSGpBcXlfX1lnWEFncmR1M1hFaHhZSVc4VEFmaWQyUWpKZE0zTWVvWHJTOWFJTHlHY2xkdER2TEZvTVd6UTRxS3kzYUtpczQwSFVyMXNzdjR6bVhCd0xYeUhiNV9EUjFIbTRjUVN4X3g2dE9OcUE?oc=5",
+          "pub_date": "Wed, 09 Feb 2022 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Google DeepMind",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/",
+          "text": "Google DeepMind\n\n# Google DeepMind\n\nNews from Google DeepMind about how we're building AI responsibly to benefit everyone.\n\nGoogle DeepMind\n\n## Create new worlds in Project Genie with these 4 tips\n\n[Learn more about Google DeepMind’s Project Genie and how to write prompts to create your own worlds.](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "구글 딥마인드, 개발자 위한 새로운 오픈 소스 AI 모델 '젬마' 출시 - 테크42",
+          "url": "https://www.tech42.co.kr/%EA%B5%AC%EA%B8%80-%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9C%84%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-ai-%EB%AA%A8%EB%8D%B8/",
+          "text": "구글 딥마인드, 개발자 위한 새로운 오픈 소스 AI 모델 '젬마' 출시 - 테크42 구글 딥마인드, 개발자 위한 새로운 오픈 소스 AI 모델 '젬마' 출시 - 테크42\n\npost\n\nAI요약\n\n## 구글 딥마인드, 개발자 위한 새로운 오픈 소스 AI 모델 '젬마' 출시\n\n앨리스\n\n가\n\nGoogle DeepMind has launched Gemma, a new suite of open-source AI models for developers and researchers. \"Named 'Gemma,' the models are lightweight, state-of-the-art models built with the same technol",
+          "score": 0,
+          "published_date": "2024-02-21T00:00:00.000Z"
+        },
+        {
+          "title": "Google DeepMind Introduces CodeMender, an AI Agent for ... - InfoQ",
+          "url": "https://www.infoq.com/news/2025/10/codemender/",
+          "text": "Google DeepMind Introduces CodeMender, an AI Agent for Automated Code Repair - InfoQ\n\nBT\n\n## InfoQ Software Architects' Newsletter\n\nA monthly overview of things you need to know as an architect or aspiring architect.\n\nView an example\n\nClose\n\nInfoQ Homepage News Google DeepMind Introduces CodeMender, an AI Agent for Automated Code R",
+          "score": 0,
+          "published_date": "2025-10-11T00:00:00.000Z"
+        },
+        {
+          "title": "[Google DeepMind] 스스로 발전하는 체화된 파운데이션 모델 (Self-Improving Embodied Foundation Models) | by YouShin kim | Medium",
+          "url": "https://medium.com/@mdpman/google-deepmind-%EC%8A%A4%EC%8A%A4%EB%A1%9C-%EB%B0%9C%EC%A0%84%ED%95%98%EB%8A%94-%EC%B2%B4%ED%99%94%EB%90%9C-%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98-%EB%AA%A8%EB%8D%B8-self-improving-embodied-foundation-models-1cf395ef4acd",
+          "text": "[Google DeepMind] 스스로 발전하는 체화된 파운데이션 모델 (Self-Improving Embodied Foundation Models) | by YouShin kim | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40mdpman%2Fgoogle-deepmind-%25EC",
+          "score": 0,
+          "published_date": "2025-10-04T00:00:00.000Z"
+        },
+        {
+          "title": "딥마인드가 AlphaFold 3를 오픈 소스로 공개하여 단백질 예측을 변화시키고 생물학 연구를 가속화합니다.",
+          "url": "https://xrayinterpreter.com/ko/resource/deepmind-opensources-alphafold-3",
+          "text": "딥마인드가 AlphaFold 3를 오픈 소스로 공개하여 단백질 예측을 변화시키고 생물학 연구를 가속화합니다.\n\n# 딥마인드가 AlphaFold 3를 오픈 소스로 공개하여 단백질 예측을 변화시키고 생물학 연구를 가속화합니다.\n\nNovember 12, 2024\n\nImage from Official Github Repository\n\n과학 커뮤니티에 대한 혁신적인 조치로, 구글 딥마인드는 세 번째 세대 AlphaFold 모델을 오픈 소스화하여 학술 연구자들이 코드와 훈련 가중치에 처음으로 접근할 수 있게 하였습니다. AlphaFold 3는 최첨단 단백질 예측 도구로, 이를 무료로 제공함으로써 딥마인드는 생물학",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.42857142857143,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.357142857142858,
+        "evidence": "13 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01098871"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=딥마인드코리아"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=딥마인드코리아"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=딥마인드코리아+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=딥마인드코리아 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=딥마인드코리아 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=딥마인드코리아 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=딥마인드코리아 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EB%94%A5%EB%A7%88%EC%9D%B8%EB%93%9C%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

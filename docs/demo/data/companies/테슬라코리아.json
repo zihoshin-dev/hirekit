@@ -1,792 +1,890 @@
 {
   "company": "테슬라코리아",
-  "sources_used": [
-    "exa_search",
-    "google_news",
-    "dart",
-    "naver_news",
-    "credible_news",
-    "brave_search",
-    "naver_search"
-  ],
-  "result_count": 14,
-  "sections": [
-    "strategy",
-    "tech",
-    "industry",
-    "culture",
-    "overview"
-  ],
-  "data": {
-    "recent_news": [
-      {
-        "title": "머스크, 태극기와 함께 한국 반도체 인재 공개 구인 나서(종합)",
-        "description": "테슬라 코리아 측은 AI 칩 디자인 엔지니어 채용 공고에서 &quot;세계 최고 수준의 대량 생산 AI 칩 개발에... 테슬라의 AI 칩은 자율주행 차량과 휴머노이드 로봇 '옵티머스' 등에 탑재된다. 머스크 CEO는 최근 실적... ",
-        "link": "https://view.asiae.co.kr/article/2026021810492448853",
-        "pub_date": "Wed, 18 Feb 2026 10:49:00 +0900"
-      }
-    ],
-    "company_name": "테슬라코리아 유한회사",
-    "company_name_eng": "Tesla Korea Limited",
-    "stock_name": "테슬라코리아",
-    "ceo": "마크해수스썰다, 데이비드존파인스타인",
-    "address": "서울특별시 강남구 영동대로 730 (청담동) 지하1층,1층,2층",
-    "industry_code": "45110",
-    "established": "20151201",
-    "homepage": "https://www.tesla.com/ko_kr",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
-        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
-        "link": "https://sibauchi.tistory.com/1205",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
-        "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
-        "link": "https://ilovefamily.tistory.com/527",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "(26-03-21) 매크로 정리 - 오전 10시까지",
-        "description": "81%)과 테슬라(3.24%), 알파벳(2.00%) 등 주요 빅테크 기업들의 동반 하락을 부추겼습니다. 반면... 재고 소진 or 전술적 조정 구간. ✅ Day 9~10 (드론 반등) : 미사일은 여전히 낮은 수준이지만 드론이 12기 -&gt; 134... ",
-        "link": "https://blog.naver.com/mobidic25/224224376157",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
-        "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
-        "link": "https://lefthusband.tistory.com/1565",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "대구 취업 성공 잡코리아 활용 전략으로 꿈을 이루세요",
-        "description": "단순히 채용 공고만 보는 것이 아니라, 회사의 사업 분야, 기업 문화, 근무 환경 등을 파악하여 자신에게... 잡코리아에 있는 기업 정보와 후기를 참고하여 회사 분위기와 면접 방식을 파악하는 것도 잊지 마세요.... ",
-        "link": "https://sibauchi.tistory.com/837",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "정규직 대규모 채용 | 14개 직무 총정리 + 면접 족보까지 공개",
-        "description": "퇴사율 및 조직 문화 - 현직자 후기 솔직 정리 크레딧잡 데이터 기준, SK하이닉스의 최근 1년 퇴사율은 약 10%대 초반으로 대기업 평균 수준이에요. 반도체 업계 특성상 이직 시장이 활발한 것을 고려하면... ",
-        "link": "https://blog.naver.com/cymmcymm/224215480910",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "어플라이드 머티리얼즈 면접 후기 (엔지니어) 결과, 기출질문",
-        "description": "각 기업, 직무별 합격자를 배출하고 있습니다. 특히 Applied Materials 출신 코치진, 반도체... 실제 합격하신 지원자 후기 어플라이드 머티리얼즈 코리아 석사/ 신입 ▼ 면접 합격 후기 보러... ",
-        "link": "https://blog.naver.com/ve_getable/224220697925",
-        "pub_date": "20260318"
-      },
-      {
-        "title": "제약산업분석 4 주차 강의: 바이오의약품 산업 채용 동향 분석",
-        "description": "CDMO 기업들은 외국어 능력(OPIc AL 이상 등)이 뛰어나고 제약 산업 전반의 밸류체인을 이해하는 인재를 확보하는 데 사활을 걸고 있다.11 공정 개발(PD) 및 기술 이전(Tech Transfer)의 전문화 CDMO의 핵심... ",
-        "link": "https://blog.naver.com/potatoschool/224218820717",
-        "pub_date": "20260316"
-      },
-      {
-        "title": "ASML 코리아 비디오 레코딩 면접 (HireVue) video... ",
-        "description": "합격자 배출 이력이 있습니다. 각 기업별 직무별 면접을 대비합니다. ASML 채용공고  ASML코리아... 미국, 유럽, 국내 기업을 모두 거친 20년 경력의 인사 전문가로서, ASML 특유의 외국계 기업 문화와... ",
-        "link": "https://blog.naver.com/fusekimo198735/224218339072",
-        "pub_date": "20260316"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "[[[스페셜코리아 - 해외감동사연@스페셜코리아•구독자 8.65만명•동영상 395개매일 아침 7시 하루도 빠짐없...",
-        "description": "스페셜코리아 - 해외감동사연 @스페셜코리아•구독자 8.65만명•동영상 395개 매일 아침 7시 하루도... &quot; 엔디비아·구글·테슬라 전부 패닉에 빠뜨린 한국인 3인조 기업! 미국 실리콘밸리 충격!ㅣ해외감동사연 조회수... ",
-        "link": "http://cafe.naver.com/jmsong0829/65471",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "정책뉴스20260321토요일",
-        "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 보건복지부(장관 정은경)는「메디컬코리아 2026」참석차 한국을 방문한 몽골 친부렝 직찌드수렝(Chinburen... ",
-        "link": "http://cafe.naver.com/jungamironware/9268",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "2026년 3월 20일 금요일 정책키워드 총정리",
-        "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-20 오후 3:00:00 엔브이에이치코리아㈜의 하도급법 위반행위 제재 엔브이에이치코리아㈜의 불공정하도급거래행위... ",
-        "link": "http://cafe.naver.com/magicbank/3332",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "[경력] ~26.04.09 / 일레븐플러스코리아 - Frontend Developer (React)",
-        "description": "채용 공고 - URL (공고 링크) : https://zighang.com/recruitment/ef6c7bd3-f485-4d4e-a189-51991728cc31?utm_source=naver&amp;utm... 혜택 및 복지 ?자율적이고 주도적인 업무 문화 • 유연한 근무 시간 및 휴가 사용 ?수평적인 조직... ",
-        "link": "http://cafe.naver.com/workhub/32402",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
-        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
-        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
-        "pub_date": ""
-      },
-      {
-        "title": "[영상] 테슬라의 AI 비전, 현실이 될 수 있을까? | 글로벌오토뉴스",
-        "description": "테슬라의 AI 비전이 자동차 산업을 넘어 혁신의 아이콘으로 자리 잡을 수 있을지, 아니면 머스크의 장기적인 청사진에 불과할지에 대한 논쟁은 여전히 뜨겁다. 이 영상에서는 테슬라가 추진하는 AI 기반 자율주행...",
-        "link": "https://v.daum.net/v/zJNuLGloOY",
-        "pub_date": ""
-      },
-      {
-        "title": "테슬라, 마스터 플랜 4 발표 — AI 중심 전략으로 대전환",
-        "description": "테슬라가 최근 발표한 **“Master Plan Part 4”**는 단순히 전기차 기업을 넘어, 인공지능(AI)과 로봇 사업을 핵심 성장축으로 삼겠다는 강력한... 하지만 이번 4단계 계획은 한층 다른 방향성을 제시합니다. 핵심은...",
-        "link": "https://blog.naver.com/theone1dental/223999982678",
-        "pub_date": ""
-      },
-      {
-        "title": "“로보택시가 미래” 머스크의 위험한 직감 경영",
-        "description": "일론 머스크가 테슬라의 차세대 모델 전략으로 소형 전기차 대신... 머스크는 같은 가격대에서 완전 자율주행 로보택시를 개발하는 방향... 하지만 대중이 과연 그런 비전을 원할지는 미지수다. / 글 Christiaan...",
-        "link": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=47779",
-        "pub_date": ""
-      },
-      {
-        "title": "Korea 신뢰성 있는 고성능 인공지능 기술 확산을 위한 전략",
-        "description": "글로벌 AI산업 및 시장 경쟁이 치열한 가운데, 주요국은 AI 육성을 위해 다양한 정책을 추진해왔다. 최근에는 AI 육성뿐만 아니라 안전하고 신뢰성 있는 AI 기술에 대한 요구도 커지고 있는 추세다. 이에 글로벌 AI 선도국들과 우리나라의 AI 육성정책을 살펴보고, 신뢰할 수 있는 고성능 AI의 활용·확산을 위해 필요한 전략과 비전을 검토해보고자 한다.",
-        "link": "https://tongsangnews.kr/webzine/1532312/special_4.html",
-        "pub_date": ""
-      },
-      {
-        "title": "테슬라 주가 분석: 전기차 시장 침체 속 로보택시와 AI 로봇이 미래를 결정할까?",
-        "description": "그러나 일론 머스크 최고경영자(CEO)는 이러한 상황에서도 흔들림 없는 태도를 보이며, 자율주행 기술과 인공지능(AI) 기반 로봇 사업을 미래 성장 동력으로 제시하고 있다. 과연 테슬라의 운명은 전기차 시장의 침체를 딛고, 로보택시와 AI 로봇이라는 새로운 비전 속에서 다시 한번 도약할 수 있을지 심층 분석한다. 미국 텍사스주 오스틴에 위치한 테슬라 본사 전경. 로보택시와 ...",
-        "link": "https://www.koreabizreview.com/detail.php?number=6456",
-        "pub_date": ""
-      },
-      {
-        "title": "“현실에서 진화 중”… 테슬라 AI 전략의 진짜 목적지 | EV-Hotissue",
-        "description": "기술적 접근 방식과 데이터 전략, 그리고 최종 목표까지 완전히 다른 두... 사업 확장이 불가능하다. 결국 웨이모의 서비스는 ‘무인택시’ 수준에 머물 가능성이 크다. 한편, 테슬라는 자율주행 기술을 넘어서 AI...",
-        "link": "https://v.daum.net/v/YwUradNfz3",
-        "pub_date": ""
-      },
-      {
-        "title": "테슬라 마케팅 전략 분석 및 향후 발전 방향",
-        "description": "브랜드 이미지와 혁신성을 앞세운 마케팅 전략으로 소셜 미디어와 온라인 채널을 활발히 활용하며 전통적 광고보다는 고객 경험과 기술력을 중심으로 소비자와 소통하는 방식을 채택하고 있다. 쉽게 접근할 수 있는 오픈소스 소프트웨어와 친환경 가치 전달을 통해 전 세계 소비자와의 연결고리를 강화하는 것이 주요 전략이다. 앞으로 테슬라는 배터리 에너지 저장, AI 기반 자...",
-        "link": "https://www.reportworld.co.kr/social/s2585467",
-        "pub_date": ""
-      },
-      {
-        "title": "&quot;심상치 않은 상승세&quot; 테슬라 주가 상승 이유와 투자 전망 / 테슬라주가전망",
-        "description": "‘AI5’, ‘AI6’ 개발에 집중하는 방향으로 전략을 전환했는데요. 한국투자증권 이지수 연구원은 “테슬라는 차량 제조부터 플랫폼까지... 미래 비전을 반영한 구조적인 상승의 시작일지는 향후 실적과 사업...",
-        "link": "https://blog.naver.com/etoday12/224040775300",
-        "pub_date": ""
-      },
-      {
-        "title": "[한방이슈]테슬라 FSD, 한국 주행 성공…현대차 자율주행 전략 재편",
-        "description": "최근 테슬라와 유사한 비전 기반의 '엔드 투 엔드(End-to-End)' 자율주행 시스템 '아트리아(Atria) AI'를 공개했습니다. 즉, 현대차는 '단기적으로는 협력, 중장기적으로는 독자 기술 확보’라는 이중 전략을 취하고...",
-        "link": "https://www.ytn.co.kr/_ln/0134_202512130800053866",
-        "pub_date": ""
-      }
-    ],
-    "google_news": [
-      {
-        "title": "글로벌 반도체업계, 핵심인재 확보전 치열...차세대 메모리·AI 칩 개발 좌우한다 - mstoday.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtVTE2a0pPeFBELW9wX0dLMjRMZ1RwR1BpYVlQV3IwV0d2T29aYjFaaVdwcmJwY29KY1JJdjdDUlpLbTJ1VFN1aURkQVFOS2tVdHBLdlJqeGlQN01JRi1YbjdKWVJxZkFraUNfUFJR?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 02:14:40 GMT",
-        "source": "mstoday.co.kr"
-      },
-      {
-        "title": "반도체 업계는 인재 확보 전쟁 중… TSMC·삼성전자·SK하이닉스 등 대규모 인력 수급 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRGtVa19BTjR3YUtGR3NHVTZWZkZmZWdGd2dYSjdUbkoxYjdkWXpVMk1HV1l4QkpTd2hoTUpYX2V6cWJsbndMQ1JLVWlPM3VIVlc1WUIzLXg1dkoxcmhSUW44NHBBQ2Z0RnBfX3dwVUMxRFhUUmJwZGpSNHBsX1pMMC1n0gGWAUFVX3lxTE1vZGdIT3pSVmkzcFlVTGZJSGowUVpGSTBmVUU2Zml1Wm9IN1E2a2U0OEcxMHI5c3h5aHdnUG1oblZlbXlUb0dIWUFCcTY2MVVSby03UEdPeXV1ZVVPQ2NUaWM2Tl9tYUItRzZGQUFMWXBkUjR6aTAwb2VyaUN2TGVBeE44VkxpOEJxQ2NVR2N5ak1VWER4QQ?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
-        "source": "Chosunbiz"
-      },
-      {
-        "title": "일론 머스크, 韓 반도체 인재 영입 직접 나서…AI 기술 내재화 전략의 일환 - 뉴스통",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNWhJbXlqVXJadW02R3d6X05iYmFNSHN0Q1FvM2JSZk5JWFhjU3kwUF81VXI2RkpCYmJPTURBSi1GTVVhV1JyTjQ2OWF2TVYtM1ZBMDBUUklGQVRVbVQ4VGRwS1NEbUY4dTgxOFd0Q2g1OUUxdUhhRTNkbl9iTlhHV3hPck01dHdycUM0OWM4cWtUcHV2andsdFZnYklhUUVQMkhZSzJyYkU4UTdWNmpYRjRyUU9UVU84?oc=5",
-        "pub_date": "Thu, 12 Mar 2026 23:46:13 GMT",
-        "source": "뉴스통"
-      },
-      {
-        "title": "AI 칩 키우는 머스크…“한국 인재, 테슬라 합류하라” - the-pr.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zRzdhOXRMRkpOZnJja3FqeHVzZG5UMVZ3SkFoYTlhWG1SNkdEdFhBTjR5VnM4Q19LSDFRc0ZjR2p5V1p0Ti1qVVUzR0NlLVhKeV9LU01oUmNQNmRvS0lXUlpRMkZ1TWxNOEHSAW5BVV95cUxQb2RqcjNQMzRjX2d3ZndLM1d1Y2g3MlR4aUc3Uk1uRjRhWDJEcUVwZDd2X3U2Y09heElWNlNLZGVaR2FoNExJLTMzeEQ2bWhQUmpsOUZEYVJhUXdxWVliN2JWOHNiSkIwbmU3WFpFUQ?oc=5",
-        "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-        "source": "the-pr.co.kr"
-      },
-      {
-        "title": "테슬라 코리아, AI 칩 인재 모집…머스크도 공개 독려 - topstarnews.net",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EOGwxM0ZCZDlZV0JPUVlCaTdSOEhHQTFSTUswdFc5cGhQQmVhZjJQQkJhRFcxNkpwUk5vR1lYMzIwU3YzcUlEUjJIMXF6cDliZHQzQXhnUkFUVDJHRFAtOGpCWkVuZ3lmT2RiU3FBektZQQ?oc=5",
-        "pub_date": "Tue, 17 Feb 2026 08:00:00 GMT",
-        "source": "topstarnews.net"
-      },
-      {
-        "title": "테슬라 \"韓 반도체 인재 모십니다\"…삼성·SK와 경쟁 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHaDY5VTFtUE96bGlGekxZUk5rMXZhSnRQUEMyOGlYT1dUUW9wVHBST2ZMbnowRmExbkVOenBIdVlSZDg2a3BFYXhldk9FM1JZVEptQmh3cFFOaU3SAWBBVV95cUxNODc3RW5HbndNalJMZkZJU1NENi1wT2dtWkJLYmlFQmJJVWN3dUxrWTVzM0g2UExITk45NGZMTl93MVVxVzJHNjBuNFdmUFdDc21vUUZKY3VNSDZINjVIeDk?oc=5",
-        "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "머스크 ‘태극기 채용’ 파격…한국 반도체 인재 정조준 - mstoday.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQTy1XUDJnRXZkLVpqYkpMX3kwX1p2dTB4R0pFNnZ1ODJDa0VpeFJrMEt0em1tUTVhd25URFNYZVU4eHFzdHotQlpicEJxM2ZPYzNlQ3VxVzVNVUNBamlfWHA2cHZaZHR1TWYzUg?oc=5",
-        "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-        "source": "mstoday.co.kr"
-      },
-      {
-        "title": "머스크, 태극기 걸고 韓 반도체 인재 직접 모집…테슬라 칩 전략 본격화 - 헤럴드경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LcjgwY0VXc1RRamloN05kLVFKT21QSm5vZ2VzaE5CQ0xzWWlxWmVkbEdKaUJMNE1iZTF3ZkZHX05VNVY3QVplWWVWSE5PRDdkZnV1OVRB?oc=5",
-        "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "헤럴드경제"
-      },
-      {
-        "title": "머스크, 태극기 걸고 韓 반도체 인재 직접 모집…테슬라 칩 전략 본격화 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wT1ZpWlljR1doNHBGYjhXa0F5YXc3b194MXdoUHE4Tlp1UHB6UWM0QlJhWGdzcFNvVGpmdmh1a1I5NHZDSGt5MTRrNFdmTl9RckY3Ng?oc=5",
-        "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "v.daum.net"
-      },
-      {
-        "title": "머스크, 테슬라코리아 채용 공유…한국 반도체 인재 공략 - 스페셜경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UT3B6Zjh0cEx2dW5FUUdMVjdjdGhNS0pISlFsc08zMFdSbXE2R1FzYjdLeTRhM3pmRXRNZV9nSEJNYXpFUmhoOEVSek9rNjhWWEpHLWdQU19VNVVEcGRRNEdWdGRpeUJROUpjdA?oc=5",
-        "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "스페셜경제"
-      },
-      {
-        "title": "머스크의 ‘태극기 호출’… 글로벌 AI 칩 패권 경쟁, 한국 엔지니어를 향하다 - 코리아비즈니스리뷰",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ZZ2UtVE5KdWlwUFVWaDhvN0liWjd6ZVZFMGE3NEdCc1VvanM1WWxfT1RncHZtMXlPdGpMVG5LMkNEMXhSVDZ1Qmx5aTJIWTNXX0g0MFlNTENkU2FRUkR3OGpUd0MydC1ZeFdMeFgzWQ?oc=5",
-        "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-        "source": "코리아비즈니스리뷰"
-      },
-      {
-        "title": "직접 ‘태극기’ 16개 올린 머스크…“K반도체 인재, 테슬라 오라” - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBWFY0Y2IzRnFFZHVIWmd1LUJqU3lqY01GRFZjZnRrN3dIMndTbGQwdWZ0RXNiX1U3VGZIXzA2emxXcmlta0NtalBCYVowLUZQYXJibEJxMnZUYUdpZVgxc193ZWROV1N0X0E?oc=5",
-        "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "한겨레"
-      },
-      {
-        "title": "일론 머스크, 韓 반도체 인재 영입 직접 나서…AI 기술 내재화 전략의 일환 - 알파경제",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zcGswU2RqYU5hNklFZkRkaWE0LTVXQk1pak41UlVUeXUyOWt6dHdOMWFSZld5ak1CNHFIVV90Nlprd1kyYW5tYUVOckk2eEZBd21PVk1WcHVMa2VtT0HSAW5BVV95cUxNRDh5SUVPMG9vM0ZLY3Q3dl9QM2tSVmZ4dHhNdm5lekpCTWpiWnF5NXkxVzVXZHh6T0FqNFJyczN3MWpiek5QQ2JUYTI4OC16LXN2cUI0Z3Z4dWduMFdhV2ZSXzlKemF2dGxrXzhsQQ?oc=5",
-        "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "알파경제"
-      },
-      {
-        "title": "머스크, 한국 반도체 인재 직접 구인…테슬라, 삼성과 AI 칩 동맹 강화 - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XaW8zdGpsS1dIMGp5Qk9CTTAweU5nbXpQemM2cl9NdkRRRHJBT0gwei1JcG9GMmNsT0hTTUhuRF9tc1BuMXlaSHVSLTlXRHB5T2psS085dFZ1bGFPc3ZMStIBeEFVX3lxTE52X3VRNm92NElLbFVxZVk2cjFRamVocXBnd3YxX21iWnBkcGd0bkUzQWhFNjVBTzJFUTRuM2R5WmRjYy1TR24tVTJLUnlneEM3WTR2S0s2elpyZ1BUakJBQ1BxVlRoRFVfVWt1OVIxZG1CakFkc0hsag?oc=5",
-        "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "뉴시스"
-      },
-      {
-        "title": "일론 머스크, 한국 반도체 인력 공개 구인 - 중부매일",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ndm1YaDc3NnpLbkVfQkFKUkxJcjlRSUFKRGF6bG84MVJDdkloVW02cnNpVTJ5eEZmc0hLb0JIdEZ1WDVGbWk5eHRiYVhiX3NnejRPQUtPNUI3WU9ybUpaeTJzV1k0cmRRRVHSAW5BVV95cUxQcTl4LTNVYW9ISnh0djRpVDlXTWZEc0EyOXk2ZU9rZDRfOUtHS0NJTENfdDJhWW5VMHJnbS1hY3dZWklKTVZuQ3BjS29LVTZGcnlzWjVLVEFaeDNWUUxMMlJGTWRiR1d6b0dsdHZ4dw?oc=5",
-        "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "중부매일"
-      },
-      {
-        "title": "테슬라코리아, 4월부터 모델S·X 단종…국내 FSD 가능 모델 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKa0gwQWpHeTctRXZaNXk1SDM2WmplcEZ0Z1RQcHVRVFVlM1ltNjFRaTVvMUJyTmQ2REVwbnpsYmk3cjJoN01pVlczMWJ0ZW5VV3NtWVp3?oc=5",
-        "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "시장판도 바꾼 전기차 단종 수순…테슬라코리아, 플래그십 '모델S·모델X' 이달까지만 판매 - 네이트",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02aHRRREZ1M09SV2JoUG4xSkpCLTVDaDFrYlNxMjN2QzVXNGV5V3J1NFJGRnJrZmd5TXZXN29TVVZ6bXFSc2tvM1ptbnpQZF9ybzBNclhUUWhPV3VHdmhMVFJQRkg4eWNOM0Y0eGRZcUlmbGZ5OXd1Rw?oc=5",
-        "pub_date": "Thu, 12 Mar 2026 05:28:00 GMT",
-        "source": "네이트"
-      },
-      {
-        "title": "[The Numbers] 테슬라코리아, 매출·이익 '사상최대'에도 회계·재무 '빨간불'…순이익보다 많은 배당 379억·소송 4건 - 뉴스스페이스",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ncHNWUTdoNmlOR1ZYQno2MlQtV05tcmZXVEhyNWNfX1JDRFdTRmhSN1dFUm1OeWZ5ZXkyVXhGMlJjbjk2RHdYRlZacEpsN0gya211ZlhJeWxPdlQySF8w?oc=5",
-        "pub_date": "Sat, 12 Apr 2025 07:00:00 GMT",
-        "source": "뉴스스페이스"
-      },
-      {
-        "title": "테슬라, 모델 S·X 중단으로 전략 전환…“차 판매서 소프트웨어 기업으로”-현대차증권 - PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzTDNCWHEycG8zdmdPQWgxUTlUakNwaVlkdWQtTTdjZkc0cmlZM1NvUWgzTDg5bkJxc3l3eHJMZTE5NHVkd3dEREVYUVpoMFVCdzR3U3Z1UU9zUFlfWVBxblJXdFo?oc=5",
-        "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
-        "source": "PRESS9"
-      },
-      {
-        "title": "테슬라, 1분기 ‘예상 밖 부진’…매출·순익 모두 기대에 못 미쳐 - 스페셜경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tRUE1XzY5VkI1THVEdG5uQ2xWSGp0VTR3MHVxSnhBbUdwOGpURUFsWmdKZzhjeGU2U0xVTDdGOVU1ZVFURHcwUDBIMW1PWTJUaFdwRVhTWUxaaXlyQkJxaUg4bUtSWGdIQ2Z4aA?oc=5",
-        "pub_date": "Wed, 23 Apr 2025 07:00:00 GMT",
-        "source": "스페셜경제"
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "채용 정보 | Tesla 대한민국",
-        "url": "https://www.tesla.com/ko_kr/careers",
-        "description": "Tesla의 미래를 열어 갈 엔지니어링, 제조 및 운영 솔루션을 함께 찾을 새로운 동료를 기다립니다."
-      },
-      {
-        "title": "블라인드 | 테슬라코리아 게시글",
-        "url": "https://www.teamblind.com/kr/company/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84/posts",
-        "description": "테슬라코리아 채용공고가 요새 많이 뜨는데 개인적으로 좋아하는 브랜드라 눈여겨 보고 있었는데 세일즈총괄부터 마케팅, 테슬라샵 담당 등 본사 근무 포지션 공고가 단기간에 많이 뜨네요."
-      },
-      {
-        "title": "2026년 테슬라코리아 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1679344647/",
-        "description": "테슬라코리아(유)는 기계·조선·자동차·운송장비 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
-      },
-      {
-        "title": "테슬라코리아 기업정보 - 2026년 연봉, 사업, 채용, 지원자 스펙 분석",
-        "url": "https://jasoseol.com/companies/11435",
-        "description": "테슬라코리아 연봉, 사업 분석, 합격 스펙, 채용공고 등 최신 기업정보를 한눈에. 직무별 지원자 분석부터 합격 후기까지 테슬라코리아 상세 취업 정보를 확인하세요."
-      },
-      {
-        "title": "2025년 테슬라코리아 채용 취업자료 | 인크루트",
-        "url": "https://www.incruit.com/company/1679344647/referenceroom",
-        "description": "테슬라코리아 취업에 꼭 필요한 자료는 인크루트에서 확인하세요."
-      },
-      {
-        "title": "취업정보 - [테슬라] Tesla Korea 2025년 하반기 공개 채용",
-        "url": "https://bigdata.kmu.ac.kr/bbs/bigdata/189/219666/artclView.do?layout=unknown",
-        "description": "... : Tesla는 전 세계를 변화시키고자 하는 우리의 열정에 공감하는 우수한 인재들과 함께 중요한 문제를 해결해 가고 있습니다. Tesla는 <strong>신속하고 열정적이며 혁신적인 기업 문화</strong>를 가지고 있습니다."
-      },
-      {
-        "title": "테슬라코리아 2026년 진행 중 채용공고 1건",
-        "url": "https://www.catch.co.kr/Comp/RecruitInfo/HK6557",
-        "description": "테슬라코리아 채용이 궁금하다면? 인턴·신입·경력 공고와 함께, 이 공고에 관심 있는 회원 통계와 자소서 문항을 한눈에 확인하세요."
-      },
-      {
-        "title": "테슬라코리아 채용 - 2026년 채용정보, 자기소개서 문항",
-        "url": "https://jasoseol.com/companies/11435/careers",
-        "description": "테슬라코리아 신입, 인턴, 경력 최신 채용공고 정보와 자기소개서 항목, 직무별 지원자 수, 합격 스펙까지 한번에 확인하세요."
-      },
-      {
-        "title": "테슬라코리아(유) 진행 중인 채용정보 총 1건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/recruit/co_read/recruit/c/teslakorea1",
-        "description": "테슬라코리아(유) 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      },
-      {
-        "title": "테슬라코리아(유) 2026년 기업정보 | 기업리뷰 166건, 연봉정보 131건, 면접후기 162건, 복지정보 23건, 채용공고 0건",
-        "url": "https://www.jobplanet.co.kr/companies/324204/landing/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84",
-        "description": "테슬라코리아(유) 기업정보 - 산업: 판매유통, 기업형태: 외국계 (외국 법인기업), 사원수: 425명, 설립: 2015.12.01 | 테슬라코리아(유)의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
-      }
-    ],
-    "brave_news": [
-      {
-        "title": "\"경고도 없이 충돌\"…테슬라 320만대 완전자율주행 조사 강화 | 미주중앙일보",
-        "url": "https://www.koreadaily.com/article/20260319235238194",
-        "description": "엔지니어링 분석 단계로 격상 카메라기반 시스템 성능 검증",
-        "age": "1 day ago",
-        "source": "www.koreadaily.com"
-      },
-      {
-        "title": "'혁신 아이콘' 테슬라 어쩌다...美 교통당국 '이것' 고강도 조사 - 머니투데이",
-        "url": "https://www.mt.co.kr/world/2026/03/21/2026032016192318990",
-        "description": "미국 전기차업체 테슬라가 미 교통당국으로부터 자율주행 시스템 관련 고강도 조사를 받게 됐다는 소식에 주가가 3%대 급락했다. 이번 조사에 따라서 테슬라 일부 모델에 한해선 리콜이 이뤄질 가능성도 제기된다.",
-        "age": "17 hours ago",
-        "source": "www.mt.co.kr"
-      },
-      {
-        "title": "카메라 하나만 믿었다가… 따스한 3월, 320만 테슬라 오너들 불안에 떠는 이유",
-        "url": "https://news-wa.com/article/automobiles/2026/03/21/20260321500015",
-        "description": "미국 도로교통안전국(NHTSA), 테슬라 FSD ‘엔지니어링 분석’ 돌입. 1건의 사망 사고를 포함한 충돌 원인으로 ‘카메라’ 시스템이 지목되면서 320만 대 리콜 가능성이 수면 위로 떠올랐다. 따스한 봄기운이 완연한 3월, 테슬라 ...",
-        "age": "8 hours ago",
-        "source": "news-wa.com"
-      },
-      {
-        "title": "\"테슬라는 잊어라\"···엔비디아·루시드·우버 연합, 자율주행의 새로운 표준 제시 - Benzinga Korea 한국",
-        "url": "https://kr.benzinga.com/news/usa/othermarkets/%ED%85%8C%EC%8A%AC%EB%9D%BC%EB%8A%94-%EC%9E%8A%EC%96%B4%EB%9D%BC%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%EB%A3%A8%EC%8B%9C%EB%93%9C%EC%9A%B0%EB%B2%84-%EC%97%B0%ED%95%A9/",
-        "description": "테슬라(NASDAQ:TSLA)는 모든 것을 직접 하려고 한다. 하지만 차세대 로보택시 네트워크는 단일 기업의 소유가 아닐 수도 있다. 오히려 는 ‘스택(stack)’ 형태로 구축될 조짐을 보이고 있다.엔비디아(NASDAQ:NVDA)는 AI 두뇌를 제공하고, ...",
-        "age": "3 days ago",
-        "source": "kr.benzinga.com"
-      },
-      {
-        "title": "[스타트렌드] 테슬라발 '가격 파괴' 확산... EV 대중화 시대 급물살 | 스타뉴스",
-        "url": "https://www.starnewskorea.com/business-life/2026/03/20/2026032009564769176",
-        "description": "2026년 전기차 시장이 테슬라에서 시작된 공격적인 가격 인하 경쟁, 이른바 '치킨게임'의 영향으로 전례 없는 대전환기를 맞이하고 있다. 글로벌 완성차 업체들이 시장 점유율 방어를 위해 일제히 판매가를 낮추거나 보급",
-        "age": "2 days ago",
-        "source": "www.starnewskorea.com"
-      },
-      {
-        "title": "\"테슬라, LG엔솔과 ESS 6조원 계약\"…비공개 관행 깨고 이례적으로 공개",
-        "url": "https://v.daum.net/v/20260317175745978",
-        "description": "LG에너지솔루션이 지난해 7월 체결한 6조원대 에너지저장장치(ESS) 배터리 공급 계약의 고객사가 테슬라인 것으로 17일 공식 확인됐다. 테슬라가 ESS 배터리 납품 회사를 공개적으로 밝힌 것은 이번이 처음이다.",
-        "age": "4 days ago",
-        "source": "v.daum.net"
-      },
-      {
-        "title": "미국 NHTSA, '테슬라 FSD' 리콜 결정 전 최종 분석 돌입",
-        "url": "https://theguru.co.kr/news/article.html?no=99486",
-        "description": "[더구루=홍성일 기자] 미국 교통당국이 테슬라의 자율주행 기능인 '풀 셀프 드라이빙(Full Self-Driving, FSD)'에 대한 리콜 전 최종 분석 단계에 돌입했다. 조사 결과에 따라 FSD가 적용된 모든 차량에 대해 리콜 명령이 떨어질 수 있다.",
-        "age": "1 day ago",
-        "source": "theguru.co.kr"
-      },
-      {
-        "title": "테슬라, 29억 달러 상당 중국산 태양광 장비 구매 협상 중: 보도 - Benzinga Korea 한국",
-        "url": "https://kr.benzinga.com/news/usa/othermarkets/%ED%85%8C%EC%8A%AC%EB%9D%BC-29%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EC%83%81%EB%8B%B9-%EC%A4%91%EA%B5%AD%EC%82%B0-%ED%83%9C%EC%96%91%EA%B4%91-%EC%9E%A5%EB%B9%84-%EA%B5%AC%EB%A7%A4-%ED%98%91%EC%83%81/",
-        "description": "테슬라(NASDAQ:TSLA)는 29억 달러 규모의 태양광 제조 장비를 도입하기 위해 여러 중국 기업들과 협상을 진행 중인 것으로 알려졌다.로이터 통신은 금요일 보도에서, 태양전지 제조용 스크린 인쇄 장비의 선도적 제조사인 쑤저우 ...",
-        "age": "1 day ago",
-        "source": "kr.benzinga.com"
-      },
-      {
-        "title": "테슬라 FSD, 가시성 결함 논란…美 교통당국 '리콜' 검토",
-        "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=643317",
-        "description": "[디지털투데이 AI리포터] 미국 고속도로교통안전국(NHTSA)이 테슬라 '완전자율주행'(FSD) 시스템의 안전성에 대해 본격적인 조사에 나섰다. 시야가 제한된 상황에서 충돌 사고를 유발할 가능성이 핵심 쟁점이다.19일(현지시간) ...",
-        "age": "2 days ago",
-        "source": "www.digitaltoday.co.kr"
-      },
-      {
-        "title": "테슬라 3.24%-리비안 7.51%, 전기차 일제 급락(상보) - 뉴스1",
-        "url": "https://www.news1.kr/world/usa-canada/6108963",
-        "description": "미증시가 중동 위기 고조로 나스닥이 2% 이상 급락하는 등 일제히 하락하자 전기차도 모두 급락했다.20일(현지 시각) 뉴욕증시에서 테슬라는 3.24%, 리비안은 …",
-        "age": "17 hours ago",
-        "source": "www.news1.kr"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "[테슬라코리아 채용] 합격을 부르는 자기소개서 작성 가이드",
-        "url": "https://jcbah.tistory.com/976",
-        "text": "[테슬라코리아 채용] 합격을 부르는 자기소개서 작성 가이드\n\n본문 바로가기\n\n회사별 자기소개서 항목 및 작성.TIP\n\n# [테슬라코리아 채용] 합격을 부르는 자기소개서 작성 가이드\n\n안녕하세요! 오늘은 전 세계 전기차 시장과 에너지 혁신을 주도하는 테슬라코리아 채용 준비의 핵심, 자기소개서 작성법에 대해 심도 있게 다뤄보겠습니다. 테슬라는 정해진 문항이 없는 '자유양식' 자기소개서를 요구하는 경우가 많아 많은 지원자가 갈피를 잡기 어려워합니다. 하지만 테슬라만의 독특한 기업 문화와 사고방식을 이해한다면, 오히려 여러분의 강점을 가장 강력하게 어필할 수 있는 기회가 됩니다.\n\n1. 테슬라가 원하는 인재상: \"Mission Driven & Hard Core\"\n\n테슬라 자기소개서를 쓰기 전, 반드시 머릿속에 새겨야 할 키워드는 \"지속 가능한 에너지로의 전 세계적 전환 가속화\"라는 미션입니다. First Principles Thinking: 기존의 관습에 얽매이지 않고 근본부터 파헤쳐 문제",
-        "score": 0,
-        "published_date": "2026-03-15T00:00:00.000Z"
-      },
-      {
-        "title": "Build your Career at Tesla",
-        "url": "https://www.tesla.com/careers/search",
-        "text": "Powered and protected by\n\nPrivacy\n\nPowered and protected by\nAkamai\nPrivacy",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "테슬라코리아 면접후기 8건, 기출질문 20건 - 2025년 합격TIP 추천답변 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/InterviewReview/HK6557",
-        "text": "테슬라코리아 면접후기 8건, 기출질문 20건 - 2025년 합격TIP 추천답변 | 캐치\n\n메인메뉴 바로가기 본문 바로가기\n\n---\n\nCATCH\n\n전체메뉴 보기\n\n채용공고\n\n- 캘린더\n- AI매칭 공고\n- MY카테고리\n- 전체 공고\n\n기업정보\n\n- 분석리포트\n-",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "[테슬라코리아] 대규모 공개 채용 #공채 (~03/16) | 캐치",
-        "url": "https://www.catch.co.kr/NCS/RecruitInfoDetails/542079",
-        "text": "[테슬라코리아] 대규모 공개 채용 #공채 (~03/16) | 캐치\n\n메인메뉴 바로가기 본문 바로가기\n\n---\n\nCATCH\n\n전체메뉴 보기\n\n채용공고\n\n- 캘린더\n- AI매칭 공고\n- MY카테고리\n- 전체 공고\n\n기업정보\n\n- 분석리포트\n- [기업리뷰](http",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "테슬라코리아(유) 채용 - 2026 대규모 공개 채용 | 잡코리아",
-        "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/48665598",
-        "text": "테슬라코리아(유) 채용 - 2026 대규모 공개 채용 | 잡코리아\n\n채용공고\n\n테슬라코리아(유)\n\n2026 대규모 공개 채용\n\n마감\n\n믿고보는 대기업\n\n신입·경력(직무별 상이 (상세요강 참고))\n\n상세요강\n\n기업 정보\n\n추천 공고\n\n##### 모집요강\n\n모집분야\n\n홈페이지 지원\n\n모집인원\n\n○명\n\n고용형태\n\n정규직\n\n급여\n\n회사 내규에 따름\n\n근무지\n\n서울 강남구 테헤란로 419 (삼성동, 강남파이낸스플라자) 9층 테슬라코리아지도\n\n##### 지원자격\n\n경력\n\n신입·경력\n\n학력\n\n(직무별 상이)\n\n##### 접수기간/방법\n\n마감되었습니다.\n\n기간\n\n2026.02.26(목) ~ 2026.03.04(수)\n\n방법\n\n홈페이지 지원\n\n##### 지원자 현황\n\n로그인\n\n하고 지원자 현황을 확인해보세요!\n\n##### 테슬라코리아(유)\n\n산업\n\n전기·전자·제어\n\n직원수\n\n-\n\n기업구분\n\n대기업 (비상장)\n\n주소\n\n서울 강남구 테헤란로 419 (삼성동, 강남파이낸스플라자)\n\n지도\n\n더보기\n\n해당공고",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "테슬라, AI에 투자하며 ‘다음 주요 성장 물결’ 기대",
-        "url": "https://neuron.expert/news/tesla-invests-in-ai-anticipates-next-major-growth-wave/7920/ko/",
-        "text": "테슬라, AI에 투자하며 ‘다음 주요 성장 물결’ 기대\n\nJuly 23, 2024, 6:38 p.m.\n\n4874\n\n# 테슬라의 미래 성장: AI와 자율주행에 중점\n\n## Brief news summary\n\n테슬라가 미래 성장을 위해 인공지능(AI)에 강력한 집중을 하고 있다고 CEO 엘론 머스크가 최근 발표했습니다. 회사는 AI 교육 및 추론 능력과 필요한 인프라에 투자할 예정입니다. 테슬라의 AI 기반 자율주행 제공 서비스에는 운전자 지원 기능, 옵티머스라는 휴머노이드 로봇, 그리고 곧 출시될 자율주행 및 로보택시 서비스가 포함됩니다. 옵티머스는 2025년 초 내부 사용을 위한 생산에 들어갈 예정이며, 테슬라 직원이 운전자 지원 기능 사용에 대한 안내를 제공할 것입니다. 자동차 수익이 감소했음에도 불구하고 에너지 저장 및 차량 배송의 성장으로 테슬라는 2분기에 사상 최대 분기 수익을 달성했습니다.\n\n테슬라는 미래 성장 물결을 대비하며 인공지능(AI)에 중점을 두고 있습니다. 최근 ",
-        "score": 0,
-        "published_date": "2026-02-17T00:00:00.000Z"
-      },
-      {
-        "title": "테슬라, 2026년 AI 베팅 본격화…로보택시·옵티머스에 200억 달러 승부수 | 김윤교 기자 | 톱스타뉴스",
-        "url": "https://www.topstarnews.net/news/articleView.html?idxno=15952956",
-        "text": "-- 테슬라, 2026년 AI 베팅 본격화…로보택시·옵티머스에 200억 달러 승부수 | 김윤교 기자 | 톱스타뉴스 -- --\n\n- 인터넷신문위원회 윤리강령을 준수합니다\n- 2026-02-12 00:47 (목)\n- 회원가입 --\n- 로그인\n- 스포츠\n- 국제\n- 경제\n- [사회](https://www.topstarnews.net/news/a",
-        "score": 0,
-        "published_date": "2026-02-03T00:00:00.000Z"
-      },
-      {
-        "title": "테슬라, 역대 최대 투자…AI·자율주행·로봇 중심 사업 재편 가속화 - 머니투데이",
-        "url": "https://www.mt.co.kr/world/2026/01/29/2026012915051430176",
-        "text": "테슬라, 역대 최대 투자…AI·자율주행·로봇 중심 사업 재편 가속화 - 머니투데이\n\n로그인| 회원가입\n\n닫기\n\n## 테슬라, 역대 최대 투자…AI·자율주행·로봇 중심 사업 재편 가속화\n\n## 모델 S·X 단종하고 로봇 생상 준비…xAI에 20억달러 투자\n\n테슬라가 올해 역대 최대 규모인 200억달러의 투자 계획을 밝히며 자동차 제조회사에서 AI(인공지능)와 로보틱스 등 다각화된 기술기업으로의 전환을 가속화했다.\n\n테슬라의 연도별 투자 규모/그래픽=김현정\n\n올해 200억달러 투자…역대 최대\n\n테슬라는 28일(현지시간) 장 마감 후 실적 발표에서 올해 자본지출이 역대 최대 규모였던 2024년의 110억달러를 크게 상회하는 200억달러에 이를 것이라고 밝혔다. 이는 애널리스트들이 예상한 100억달러의 2배 규모로 지난해",
-        "score": 0,
-        "published_date": "2026-01-29T00:00:00.000Z"
-      },
-      {
-        "title": "Tesla Bets Big On AI With $2 Billion XAI Deal - Evrim Ağacı",
-        "url": "https://evrimagaci.org/gpt/tesla-bets-big-on-ai-with-2-billion-xai-deal-525898",
-        "text": "Tesla Bets Big On AI With $2 Billion XAI Deal - Grand Pinnacle Tribune\n\nTesla, the electric vehicle giant led by Elon Musk, has made a bold move to secure its future in the rapidly evolving world of artificial intelligence and autonomous vehicles. On January 28, 2026, Tesla announced a $2 billion investment in xAI, Musk’s private AI company, marking a significant step toward realizing its ambitions for self-driving technology and robotics. The announcement comes at a pivotal moment for Tesla, as",
-        "score": 0,
-        "published_date": "2026-01-28T00:00:00.000Z"
-      },
-      {
-        "title": "테슬라, ‘AI 로봇 기업’으로 변신?…월가서 다시 \"매수\" 외치는 이유는",
-        "url": "https://m1.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01820406645381024",
-        "text": "테슬라, ‘AI 로봇 기업’으로 변신?…월가서 다시 \"매수\" 외치는 이유는\n\nX\n\n# 테슬라, ‘AI 로봇 기업’으로 변신?…월가서 다시 \"매수\" 외치는 이유는\n\n구독\n\n신하연 기자I 2026.03.07 08:00:04\n\n글씨 크게/작게\n\n23px 21px 19px 17px 15px\n\nSNS공유하기\n\n- URL\n- BAND\n- 트위터\n- 페이스북\n- 카카오\n\n[주목!e해외주식] TESLA전기차 성장 둔화 속 AI·로봇 사업이 새로운 성장 스토리모델S·X 생산 축소, 휴머노이드 로봇 ‘옵티머스’ 투자 확대“테슬라 가치 절반은 로보택",
-        "score": 0,
-        "published_date": "2026-03-07T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "Tesla's Tech Stack: Pioneering Open Source Solutions ... - Talent500",
-        "url": "https://talent500.com/blog/tesla-tech-stack-open-source-advantage/",
-        "text": "Tesla&#039;s Tech Stack: Pioneering Open Source Solutions in Automotive IndustrySkip to content\n\nMenu\nSearch\nSearch\n## Tesla&#8217;s Tech Stack: A Testament to Open Source Solutions\n* Prachi Kothiyal\n* February 4, 2025\n#### Jump to\nTesla&#8217;s tech stack, particularly its custom-built En",
-        "score": 0,
-        "published_date": "2025-02-04T00:00:00.000Z"
-      },
-      {
-        "title": "Tesla's Stack Shows That Real‑Time Systems Need Fewer ... - Medium",
-        "url": "https://medium.com/@yashbatra11111/teslas-stack-shows-that-real-time-systems-need-fewer-abstractions-6af885a25872",
-        "text": "Tesla’s Stack Shows That Real‑Time Systems Need Fewer Abstractions | by Yash Batra | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40yashbatra11111%2Fteslas-stack-shows-that-real-ti",
-        "score": 0,
-        "published_date": "2025-11-17T00:00:00.000Z"
-      },
-      {
-        "title": "Tesla Expands AI Chip Team in South Korea: What It Means - basenor",
-        "url": "https://www.basenor.com/blogs/news/tesla-expands-ai-chip-team-in-south-korea-what-it-means",
-        "text": "Tesla Expands AI Chip Team in South Korea: What It Means\n\nFree Shipping in the USA - Shop now\n\nShare\n\n- PRODUCT REVIEWS\n\n⚡ BREAKING — 0h ago\n\n### 30-Second Brief\n\nThe News: Tesla's AI division announced recruitment for chip design engineers in South Korea, marking a strategic expansion into one of the world's premier semiconductor talent markets.\n\nWhy It Matters: This hiring push strengthens Tesla's in-house sili",
-        "score": 0,
-        "published_date": "2026-02-14T00:00:00.000Z"
-      },
-      {
-        "title": "NVIDIA Alpamayo - Open Models for Autonomous Vehicles",
-        "url": "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/alpamayo/",
-        "text": "# NVIDIA Alpamayo\n\nOpen AI models, simulation, and datasets for reasoning-based autonomous vehicles.\n\nBlog |  For Developers\n\nOverview\n\n## What Is NVIDIA Alpamayo?\n\nNVIDIA Alpamayo is an open portfolio of AI models, simulation frameworks, and physical AI datasets designed to accelerate the development of safe, transparent, and reasoning-based [autonomous vehicles](https://www.nv",
-        "score": 0,
-        "published_date": "2026-01-05T00:00:00.000Z"
-      },
-      {
-        "title": "How Tesla's Tech Stack is a Testimony to the Need for Open Source ...",
-        "url": "https://medusajs.com/blog/tesla-open-source/",
-        "text": "Medusa - How Tesla’s Tech Stack is a Testimony to the Need for Open Source Solutions\n\nTry out Bloom: Build commerce with AI\n\n- Docs· Get started\n\nBlog\n\nApril 21, 2022·Company\n\n# How Tesla’s Tech Stack is a Testimony to the Need for Open Source Solutions\n\nShahed Nasser\n\nShahed Nasser\n\nWhy did Tesla create their own ERP software and how does this show the need for open so",
-        "score": 0,
-        "published_date": "2022-04-21T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Exclusive: South Korea's Yoon ready to offer 'tailored' benefits to attract Tesla gigafactory - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRGo4R3ZoMXMwdjUtUzhIckc5QWplY1ZqMWdRNVF2NWkzYW51N1M5UzlTWVZUTWNCaElvb2QwWWtJZm9tN2w4R0xzeDdBdWdxanZ5UWxVVVU3aVJWdFdxYThMbGF0VUFwWktQNHZOQnFJdnFLOVl3cjg5M285RFZTWnB0bFk5MXhYRVUzT0NuYkNINHc1MEJJc1pib1BRMlF6WVplSTJ6T0FwaFNHMHNEUzZrRHUzWGMxZGlDNGk0RnNIZ0p2ZHdLd2tGZmlLZ2E3N19wTGln?oc=5",
-        "pub_date": "Mon, 28 Nov 2022 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Tesla to buy $2 bln of ESS batteries from Samsung SDI over 3 years, newspaper says - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaGtULU5XODQyODg1YWFIYWRjV2dabUs1ajc4U0d6R2d4dU5rTDVYOVRyXzlrXzRFY2JqQW1nWGVnM1hkRXlSbkNtMWk2cmJVQmJGLUJIQ2ROUzZWVllBNXR3M2xLRlZ6UFB2dWllWmF3QVh1MUdnZzl3emh5RTdmS3FoWURKcXZjeG44UWtqM3FnNmJSNVlQdGtHejBQUHViUXhaMTVGY1dfWVMwaXNmX1Z0WkFVM0NhX2lvT3ZYVDJ5SUhoblFjV3NYX0ZWcGIy?oc=5",
-        "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Tesla stock extends rally as Musk-Trump alliance fuels gains - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDdKaTZEOTdwOFRWZjMya3NiTk1WRXdPVUl3cDFOYWo3aXBUbnBNSFozc3ZvNVZiRDRaSE1MRllKeWlNR3BKS05zd2RxaEMwVWVaVzM2QTVtMklRT1ZuY0tJZU82ZWJORDlBTHVnYzlyazVOdUNZS3NsSW9TRjQycWNOY1dJR2tzWE1TZUZqQVRuNVkxQjFfbUZMS2ZLRmxZSE1VSFZFRQ?oc=5",
-        "pub_date": "Mon, 11 Nov 2024 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Bloomberg Billionaires Index - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUa1lZWm1DSjJFUXdYU1lIQjNoNS1MQlNfU0F4elNZRkZpMmxlcFdPV2lrUzZVT0NGX3dNX3RFYWUwOXRuSHcxSDJiTk9WcWk4?oc=5",
-        "pub_date": "Fri, 14 Mar 2014 15:57:02 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Chinese EV Maker BYD Aims to Conquer World Markets as the Un-Tesla - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ2U3RHFNQ0ZPNVZZLTNYbWQwOXk2OG1iTjBLUjY1YjJZNkxCTGpYTEs5U1JYYnYwTGdPbldmMVZwOUlmSkljZ2tqQmE1OXdIN2otTEhSRmdUeWE1SkxySHdMN1pQTk1BMVdFeHVxOGNaX2x2Qk1TaTlMTTFETmpOR1lPWnFRRWF4dmNJbnJvbXpQWlRPckNlRnhuLXhmbVdHdnJMVGNaU0JZWFNrRENPaw?oc=5",
-        "pub_date": "Wed, 17 Aug 2022 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "TSLA: Tesla Inc Stock Price Quote - NASDAQ GS - Bloomberg - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fd01vejRCa0ltOGdNbGJLcjBwZ2gzazZKQ1c0bTNodUFiMHpiNlVEeV9PTUxKMWVFbExmNXFqVElxWW9wTExsUXdnTkxILXBj?oc=5",
-        "pub_date": "Fri, 14 Mar 2014 23:57:40 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Tesla has a range inflation problem - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GWVVaR3ZRUjcyNGw5Z3hfMk1HSlRkUXlvajV3M1ZZWGhUX2c1RlpMZGR6SzRjR3NSdzh5LVptVFdURW05OWNjVXlFQVR1NnVzM09sRkp0ZFotVWhLeDFaTFRQcThHZkJsNngweTJNSVMwS3FfSTRVMTl3?oc=5",
-        "pub_date": "Thu, 27 Jul 2023 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "We Drove Tesla’s Crazy Fast Model X SUV - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qUWotSXZwbXlRNnFlcTVlbE5rQWVPb2wxeVg1R0wxQVJjajVxWjZzUkIzZ2thYkZNNTA2OWFXcEIxWGV2NFZPWDMzWmViOXBTb2F4dW9fRE1ZSHZibVp0VXlya2J6Ukp6ODdqbzRXdTNRNG5pZ3AzZElvX2hNUQ?oc=5",
-        "pub_date": "Tue, 29 Sep 2015 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "This virtual garage sale lets you haggle with AIs to buy Tesla stock, a PS5 or a toilet magazine - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNGRENk1seUJMV0ZLcllLT2hackYydldycWMxSTkxbUlDUlhyU3hrbkN4VXhaYXpwWUVFaGJndGg0TTBQMG1fUXBCTGZpdzd1bnlfR2NITU1pbGNwU3FGM2hYaUxkbko4cUo5NHROZkhYdXBOeFFCSHNwcUhxYm92ZklfcE5qQlFtUlFwUHVMeDV0X0hqSnMwd1VYSDV4ci1rdW5XY1U5d1M1eUN4bTJ5cHp5Zk5wQnBSSHpmV3JxT2xMYU9aR0hKY1h3?oc=5",
-        "pub_date": "Mon, 27 Nov 2023 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Exclusive | Robinhood to Launch 24-Hour Trading on Weekdays in Stocks and ETFs - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxOQXlNOVdQcHlyTDB2LTUzR0J6RUlVYUQ0Rkl4NlBob3I2RXF6Nm9ienBpVWxiU0pVMWRpcXU4eUZVTUdleG50NUZhYVVmei1NRjZyQkxzcE9MQ0g4R0lsYnQ4OG5YTmxPanNVQ2hmWFJfZGJTSTlwekg3OGdRWldjLWlZeFpPQ19DdXZ3TXA1d0k0Y0hWakJjNVZJOG5BTVQ2V1d2YkJiQnc2MEFmOHRNeXpkZ2RYbXNJb0tZN05HRGdzcTMxZ1JDaC1kWHhHclBHdkhVaUwxM1NhS3VvV3R0TzAxNUtXOUtOYXh0anRJUE9pT3hpdXRRMXdVRXhWcG5xbGNnUERmV3llejFHTEh4X0NpeG9CcV9EdldfbmcxUVdmN2I2VEhmMDZaSkEwNWZtME9uekpfN0dJTlQwVlhpanhSQ0ZzdWloZFlRN2RGSG02MmhuY2U5MUtyZ0tGdGxSTS1OS29XT2VQQXgxSktsV2h5Z0F1b29QUXBkWXhOQ2hGSGppS0s5T2wzeEtXZFVlYS15NEtkR2tpQWJ5TXRaLU95Y00tWFNUdXc?oc=5",
-        "pub_date": "Wed, 10 May 2023 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "China’s Battery Champion Says Geopolitical Tensions Won’t Derail U.S. Expansion - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNamZNODhLQWxDTW9sN185eWozMkhQOTNvTEVGQ2thdUdqWnpLYXF6NlFNVm9ZUkd2Vl92c0x1QnBBVWpSNG1TV0RaZGg0WkJ3bTYwSmlmYk9ZV1AwX21zZXk0RlNDc1FVcFRzUmt3Q1RjS05PSXFaLXV1eXM2Z200NEpyZTVoNkxianJMeVN6WDEyWVVDWEltdlhkNFhFMzFTM25sZWVuX3NCTWxnX0hwc0lycEQxY1VYMEtKU3pXbl9nX0w5Mm5SVGpVOWN1R2ZXcV9fTFhjaldnOW5LMWgxa05xaWsxZmxKUEkyTjF4ZFFMaXlIc2MydXFfcHVqZWo3YjBOLVpQbjZEZTQ0U1NrTnZsOTZGU2RXY2I0cFRnQmlIazQza0lCWGtNVWVod05LYVhrLXBIbWZPVU5ia0kxaW1FYm1QN2x0RVNVVjNTVnR5RnlQUVJtTG5vSVp3Z2J0VDBKUlRoenRTY3I0VlVlZUJwMFZSekpSaVU2aXJMOTJCWkFoa19NRkRta2hnZHVnRmlrckk3bHNVQzhLbTRvazVORXR1Sk9MZWMwdWo5UVJGVXc4bkVDckdSSFRiQlVlUmc?oc=5",
-        "pub_date": "Tue, 26 Mar 2024 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Cathie Wood, Meme-Stock Champion Who Bet Big on Tesla and Bitcoin, Stands Her Ground - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxOajBYTTctQmFBRUF2WWZYUXl2R005c1VVSlB0S3Q3OUg4OVJMZS1vekRvU3h2eW1aR3J4SF9mUUJCSTFpbWFhZkpSMkRDNUZsRUduc1JHRmlKamU4Nms1Y0w1OHNuRVJMWG1ibllsaThLWFFJRUY5ZWdfWmNwOGM3dW8ydzZNLW05dGpibzNadDltcEN3eXEtQzFhM19PeDNsaFI0R2UwZFVsQUhZcjNTZ3ZWZ1VDWENBUVFHVUZZczBMMF90SktFZFh5R0NIWW9qUDAyQzB5WDBnSmxhLVRLN2xsWmRMZVhSaGlUUHc4ODJFOGYwLWcwRTltSzJGMVhPallyQ1BVN3JXOFlVZVFwNnJfeHhGT2FCLVItN3NGT1ktMWJpaDUxeEpSY0VWU0ljYWZIdTItSkhlTllkRUY3NEFiMFVfOXVJYVk1bkFWRm1hb3NYQVpqMERaZ2YtTVc4SnZ6dERZNjlra0N3cHk5VnNHLTFlWUNwWC01azlHUkFjQnV3UTB3OHg2T3BxZTRvWVhjMW9ZUXVIQVBUQ1JmQjJUaEhISWc?oc=5",
-        "pub_date": "Fri, 06 Aug 2021 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Elon Musk plans artificial intelligence start-up to rival OpenAI - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sTG02enhRemZDaHVZVG5DSXNSMVRPdDU0RnpNM1RJb3dMUkFBMUhXYkJUSU9mOGRHMEd3STVBdWluLXpRa2habl9fczFuX05wcVFaeHN1bW5xeGpBSlNaNlJ3TGlyWDZ6V3pyRU1YWGU?oc=5",
-        "pub_date": "Fri, 14 Apr 2023 07:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "How China’s BYD played catch-up with Tesla - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yS0RLMnJDUndZcmJZQVN6Q0JQTEFYaDByRF9rRl93SzZzdU5URnhsMmJia1RvWHlMXzZocnlrZzVGYmZxaTdVZGxQb3VUWlYtb1k2bjZUbThvaG9TYmlrdDRrdWZNMHJSNlZKSzliTkw?oc=5",
-        "pub_date": "Wed, 06 Jul 2022 07:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Cutting-edge pressure and BYD leads Tesla - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92UUsyOGE0U0l4anp2YUVUdXpHaDRRVWZiMjNlbWtrX1MwR0JoLXhSTG5NZUdZS2lEVWJmSzRqRWZkelppVXhsODlXcC13VGF6dTB6MHNUSEhzQWF4Sl9GbW5YNWJCVU5palhkUVpBelQ?oc=5",
-        "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Tesla Replaces South Korea Chief as Musk Meets With Head of State - The Information",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNclBqcnpwUGdpQ0trVUZvb0RRbXV1X0NiNFZyMERHTi01dmxzNWYtMTRnSV9qdW1ncmN4d3d1YnEyM05SNVRVSXcwZnBfT0xzbmVaUUthOHlhYWlVQk5nMXVPYTZjbWxXSGdkLW95WHY3UWRSVDZzTGVqLXRsNTlnZnZBRGRPWUt4ZlZoVk8wNnpRbXAwWC1kVVJKR2ZoaHg1ZDlZMXZJNS0?oc=5",
-        "pub_date": "Thu, 27 Apr 2023 07:00:00 GMT",
-        "source": "The Information"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "피지컬AI 기업 변신한 정의선號…中·테슬라와 패권 격돌 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NQ1oxaml1aFYyT2JhUnA3M28zOEhtZ2FreldndW9VLXNwcnVSRFZlUDdQQkJ2VzdId2tLa2p2WDltbTA3b0o0TjhCSmJkZVRhV21CUdIBVEFVX3lxTE1NQ1oxaml1aFYyT2JhUnA3M28zOEhtZ2FreldndW9VLXNwcnVSRFZlUDdQQkJ2VzdId2tLa2p2WDltbTA3b0o0TjhCSmJkZVRhV21CUQ?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 08:24:01 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"테슬라 자율주행 기술은 구식\"…엔비디아 '도전장' 던졌다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zb3g3bEtBWVBLV0xkd0stQUU2M2hSNjJ3UUM4NC1kMUE5czRtRlhTZzJZOXk0Q2Zqc2w2b1Jlc05ieGpJTEpELTJXVDFwck01dmlscNIBVEFVX3lxTE0zb3g3bEtBWVBLV0xkd0stQUU2M2hSNjJ3UUM4NC1kMUE5czRtRlhTZzJZOXk0Q2Zqc2w2b1Jlc05ieGpJTEpELTJXVDFwck01dmlscA?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 01:41:48 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"자율주행도 AI 추론 시대…테슬라 구식됐다\" - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCNlBpZS1yeEJSRmFtaVBOMU90N2g1MkMwbmxUTHZYOC1IOHo1NTlKNmQ3a1h1eElNa1pRb2NlQTl3UUt2UGRINkg1RWlOYnh6cFBTQdIBVEFVX3lxTFBCNlBpZS1yeEJSRmFtaVBOMU90N2g1MkMwbmxUTHZYOC1IOHo1NTlKNmQ3a1h1eElNa1pRb2NlQTl3UUt2UGRINkg1RWlOYnh6cFBTQQ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:10:34 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "[대한민국주류대상 Best of 2026] 디아지오코리아 ‘돈 훌리오 1942′, 스피릿 부문 최고상 수상 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmdtUWxqNDQ1akhNcXpfV1lCN3prUDM5VFVUQlJLOUcycTBzdUJxTUh6WTBBMXdBdVkzb1FLUXV3RlRPMHozM2RKQkdaejZIcHJtUTlTd0s4T1Y3aTdhTUNtTmtmSEpaQ05KcGNGaU5CWnFtWm9DVXMtQzBLY0FtTy1yREpXd9IBmgFBVV95cUxPU2hHS0hpSXpYV3VJWWNfSFlwNkE1MzhreW5wR0lic3cwM0gya3kxbnotTmpPLTl3dDRmSHljT2ctVG9uOFZJTkpGeUV0TmhRVnEtVGdCRjJ4MFZFNHRlSnVyZ2MyRUJ4TGhEMy1OX2l3UWNHNERnUk9uWnNtTEJ1alBrRHRwazhsSHozUkNYY3Z3NXh5Wm5TcXJn?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 03:32:34 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "뉴트리시아 코리아, 압타밀 제품 안전성 재확인 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT2cwZDQ2dS13VmpCdnZabFUwZkNjYXIwOUtNMVdVM0ZtU3RBenR2Q0F0azd5RmlUUnFVNXJfeWRYallTYjF1dGg5a3c1Q09HTlZFZlQ1ZkpJUHpSSDhRRC1rTTNUU2hUdWRZMFZfcnVFM2FpdGZBTTlHMlE3d2gxaEF0cDl6VnktQ0FhOdIBoAFBVV95cUxPczhtd1U1MkFqVlN5bmtiVHBWNk9VT2R0c2lfaUxJTi1obTdVVzFoQVlCLUxNVGk3aGJlRXhYZFVTZ2c2SXN1Z3RXdVN1cndHeWp0N3dBbmU5UDRjdlJpLUFua1QzZDB4WEVlLTJNYUpBLWlDeVJxMExHcHdVOC1WdVkwZWRLdTdhMlgtVVhGZWRLWWpYMzE3YmF5VXA2NThZ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 06:58:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "㈜한화, ‘2025 탄소정보공개 프로젝트 코리아 어워드’ 수상 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdmtsVURwUlh4MVpsTkVyU2h0OWRiR0U3OERTOUdXdEEzUUVvcHdMSGk0dTBubEVPQ01qYkM2X05ZWWg4aEI3QlZ5TW1iU21xekIzRDVEZ0IwV3NVa1BaMHhkMnZNOXl6aW04YWdselQ0d0EweTZuMk0tWmpjRW1wamVCeVZzWlFYTm9OOHVWUUNYZmlqVFV2Z9IBrAFBVV95cUxNNkRjOUZSQ1pRb3duckZxOHY4bmNlT1piQzlHemVSTDEzaFJTREtIb0l6YjhSZV9aSXhrTTJKckpNbVdhTVNhM3oyVmdzeDM3QlFtMkV3MUZwUUhBNFRiamJVMUtNLXdJME4weDlFemREZXNtcHF2eTNJWWloRTZHWGM5bUgzOUFrV3gzNGtITG5Fd2llQV8zbDZiRm92WmZJMEZFOE1IMGl5cVZw?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 21:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[테슬라 전기차 증정 이벤트] 검색결과 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWDNMSlE1bElWeTNFb0hvRFFqTGk2NTQyR1hPSGx1TzRRdFh2TFUzV1AxSEVDY25lUDdzSXFSZHIwLVdPT1h6SjAweWxNWFdISXFHZ19IdVhpbHE3aUlwcFZkejY4NEtOOHkxR2trLWJTcjd3aFNaR2UweWc2VFQ1MnpHVzNzNDBsdnRib19pb3M0YW5KTGpRMkFXT1BwZ09JQU9vZjktYzBnUzc2U0FENDU1eWJWcDhqZUNWa1NVb3hvMDBnRVdkRnIzMkZNcXJoS0F1WkhfS2M?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 19:47:12 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "트랙맨 코리아, 고양CC에 국내 최대 규모 ‘트랙맨 레인지’ 구축 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uMWNPWVhDN0szbWJkVzhmVDVZMGpGeVFIZUZpM3NuUlNpY3lmejBJNV9jTUJOdDdvUVczbzk0Yzd1b01uelk3QjZDZWpDZWpVaEtv?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 05:54:35 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "BMW코리아, 우수딜러에 포상 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMUxrNVJSVTNMWnFERUc0MnhwVEFfVG1OZmcwVlYtbUJTcWpRdWhCT05HQU5qS05pM0NLNnE3T0UzQU9pbG9TX05MRExENnNZQ293bE1B?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 08:28:01 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "SKT, 광화문 BTS 공연 대비 AI네트워크 'A-One' 첫 가동 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9taU0taXN2NDZlSHpRZjVJVHlJSWdxSWdHbGpFNk43ZlNKMTk1ZXMtbi1PSjNFZllwSEpUVk90UTNXNEJmN29GdkFpLVpBc3lzejZWZi1R?oc=5",
-        "pub_date": "Sat, 14 Mar 2026 23:12:41 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "\"FSD 믿다가 추락할 뻔\"… 테슬라 소송 당했다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56bkJ1MVNQa2kyRWNudjBtTFlZSWZNU2YyVUYxcDVOb09LOUp5ZHd2Vm9vcUZoNDVWTGpmVWNqUlgzNWh2T083MFAtQ3BGNzdvNTZhYmhB?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 08:06:44 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "채비, 테슬라 300kW 초급속 충전 지원…이용 개선 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPNDJkUVFuWU4yeWtNOURBRkxILTV3OHFaWEV3dkVEQW90MHB1RDR2NDJZTXdPWmh5V3BFeHk0VGl3VnAtcVdQNUVrUFlMc2RRX2F2M0tB?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 02:16:31 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "BMW iX3, 국내 판매 8690만원부터...“고심 끝 책정”[현장+] - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DWkdVRzY5OGM0ZzdOUVB6MWN6alMzTkJUWmk2dVVOZmxmVVRHVnhhUVRQWEd4VkNraWo2VkNWeFd0TjIxaE11OUlsa0JQb3E5bk5VMmFjekp0clhsMV9qWDlBM2ptNkNk0gFsQVVfeXFMUDEtRy0yemhsbUpFQVI1VnNHQ0NQZ19NbGxYQU1yYlAtUENRSDdtM1BOQk1TMkhvTFpOSE1PNWVCNTFxbFNUWHlpNFhMbGE3Q3djMDdEbGdBUmZIcWlSOGxrQ0xGOUVCZzRfZEg3?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 04:08:12 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "테슬라 모델Y RWD, 300㎾ 충전기 써보니 “출력 100㎾ 이상” - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3VmtNVzVTSDQzelg1R0xMbEpYUGc5aXp4b21jN2JjWDBqdkhiMjRubGE3cDdTUlpCemVVcUY2R2R2S2VJMlIzRUFFWFZVeHRVdlhFalRJYzE3ZFhHVkpIWHlUdXktUHJW0gFsQVVfeXFMUGJEYTV1U2pKT3Q0VWxOMGZjZWJhbUltSzQxSUZSQzQ0S0txbUZaT184bGRqUVhWRlZscHRpZzFsZFlXaEwyNUlURzNmczIxWlpjeWhkY1pHOVY4WFAyQy1zMUEtbjVKN0l4SDVK?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 04:51:08 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "블로터 - 편견없는 경제뉴스, 몰입하는 자본시장 정보 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBpeV94VC1HUVRuSmUzdU1XQjk1QS1rMnFwM1JVUTFMcEx5S21HTkp0bXlfc1dQSkFLV29V?oc=5",
-        "pub_date": "Wed, 20 Aug 2014 21:37:02 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[까다로운 대결 MAN VS. TECH] 인간과 테슬라 봇의 가상 대결 한판 승부! - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OaU5DT1pSd2p6T3MzVUtzV2xFc3BHNkR0NnFtNlc4dlMtZ0pnTkFSajVqQy1BX0JmenNoSk8zem10bzRDNWlzUFU2cnNJVFk?oc=5",
-        "pub_date": "Mon, 13 Sep 2021 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "드디어 우리 곁에 온 테슬라…SW로 확 뒤바꾼 자동차 패러다임 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBibWc2bXdsWmV3WF9NcGdLbDd4S3JENnl4WklUUU1xUWNDeW8zNkJZS2NrNVd1T29KN1c0eXMyTkhXWjZrbFZfVDdrb3h1Zw?oc=5",
-        "pub_date": "Wed, 15 Mar 2017 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "안개 낀 날도 자율주행 가능? 테슬라와 다른 길 가는 딥퓨전에이아이의 기술 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwXzRpUmpxeFIxZXdLWmVxQS1vZWR5bnFuV3hxZ2JkYmg0aWJkR1lkMVJLOFgzQ1R6M2ZDbjg5cHVsVXNlUEdhVUp2enMwZ2s?oc=5",
-        "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "recent_news": [
+        {
+          "title": "머스크, 태극기와 함께 한국 반도체 인재 공개 구인 나서(종합)",
+          "description": "테슬라 코리아 측은 AI 칩 디자인 엔지니어 채용 공고에서 &quot;세계 최고 수준의 대량 생산 AI 칩 개발에... 테슬라의 AI 칩은 자율주행 차량과 휴머노이드 로봇 '옵티머스' 등에 탑재된다. 머스크 CEO는 최근 실적... ",
+          "link": "https://view.asiae.co.kr/article/2026021810492448853",
+          "pub_date": "Wed, 18 Feb 2026 10:49:00 +0900"
+        }
+      ],
+      "company_name": "테슬라코리아 유한회사",
+      "company_name_eng": "Tesla Korea Limited",
+      "stock_name": "테슬라코리아",
+      "ceo": "마크해수스썰다, 데이비드존파인스타인",
+      "address": "서울특별시 강남구 영동대로 730 (청담동) 지하1층,1층,2층",
+      "industry_code": "45110",
+      "established": "20151201",
+      "homepage": "https://www.tesla.com/ko_kr",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "글로벌 반도체업계, 핵심인재 확보전 치열...차세대 메모리·AI 칩 개발 좌우한다 - mstoday.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtVTE2a0pPeFBELW9wX0dLMjRMZ1RwR1BpYVlQV3IwV0d2T29aYjFaaVdwcmJwY29KY1JJdjdDUlpLbTJ1VFN1aURkQVFOS2tVdHBLdlJqeGlQN01JRi1YbjdKWVJxZkFraUNfUFJR?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 02:14:40 GMT",
+          "source": "mstoday.co.kr"
+        },
+        {
+          "title": "AI 칩 키우는 머스크…“한국 인재, 테슬라 합류하라” - the-pr.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zRzdhOXRMRkpOZnJja3FqeHVzZG5UMVZ3SkFoYTlhWG1SNkdEdFhBTjR5VnM4Q19LSDFRc0ZjR2p5V1p0Ti1qVVUzR0NlLVhKeV9LU01oUmNQNmRvS0lXUlpRMkZ1TWxNOEHSAW5BVV95cUxQb2RqcjNQMzRjX2d3ZndLM1d1Y2g3MlR4aUc3Uk1uRjRhWDJEcUVwZDd2X3U2Y09heElWNlNLZGVaR2FoNExJLTMzeEQ2bWhQUmpsOUZEYVJhUXdxWVliN2JWOHNiSkIwbmU3WFpFUQ?oc=5",
+          "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+          "source": "the-pr.co.kr"
+        },
+        {
+          "title": "테슬라 코리아, AI 칩 인재 모집…머스크도 공개 독려 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EOGwxM0ZCZDlZV0JPUVlCaTdSOEhHQTFSTUswdFc5cGhQQmVhZjJQQkJhRFcxNkpwUk5vR1lYMzIwU3YzcUlEUjJIMXF6cDliZHQzQXhnUkFUVDJHRFAtOGpCWkVuZ3lmT2RiU3FBektZQQ?oc=5",
+          "pub_date": "Tue, 17 Feb 2026 08:00:00 GMT",
+          "source": "톱스타뉴스"
+        },
+        {
+          "title": "테슬라 \"韓 반도체 인재 모십니다\"…삼성·SK와 경쟁 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zYXp4SzVQSkhXczNaMFJaY0pLVExoOUQyUXZXU29wckJ6S3BsT1pnS1RZOHRyeUtVd3ZvY2lCUmpPVF9tdTZCbHZ0akFnX1FsTFU5TU1YNGFzOFI4akphR2R6TkdXMTA?oc=5",
+          "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+          "source": "연합뉴스TV"
+        },
+        {
+          "title": "머스크 ‘태극기 채용’ 파격…한국 반도체 인재 정조준 - mstoday.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQTy1XUDJnRXZkLVpqYkpMX3kwX1p2dTB4R0pFNnZ1ODJDa0VpeFJrMEt0em1tUTVhd25URFNYZVU4eHFzdHotQlpicEJxM2ZPYzNlQ3VxVzVNVUNBamlfWHA2cHZaZHR1TWYzUg?oc=5",
+          "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+          "source": "mstoday.co.kr"
+        },
+        {
+          "title": "머스크, 태극기 걸고 韓 반도체 인재 직접 모집…테슬라 칩 전략 본격화 - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LcjgwY0VXc1RRamloN05kLVFKT21QSm5vZ2VzaE5CQ0xzWWlxWmVkbEdKaUJMNE1iZTF3ZkZHX05VNVY3QVplWWVWSE5PRDdkZnV1OVRB?oc=5",
+          "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
+          "source": "헤럴드경제"
+        },
+        {
+          "title": "머스크, 태극기 걸고 韓 반도체 인재 직접 모집…테슬라 칩 전략 본격화 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wT1ZpWlljR1doNHBGYjhXa0F5YXc3b194MXdoUHE4Tlp1UHB6UWM0QlJhWGdzcFNvVGpmdmh1a1I5NHZDSGt5MTRrNFdmTl9RckY3Ng?oc=5",
+          "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "반도체 업계는 인재 확보 전쟁 중… TSMC·삼성전자·SK하이닉스 등 대규모 인력 수급 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRGtVa19BTjR3YUtGR3NHVTZWZkZmZWdGd2dYSjdUbkoxYjdkWXpVMk1HV1l4QkpTd2hoTUpYX2V6cWJsbndMQ1JLVWlPM3VIVlc1WUIzLXg1dkoxcmhSUW44NHBBQ2Z0RnBfX3dwVUMxRFhUUmJwZGpSNHBsX1pMMC1n0gGWAUFVX3lxTE1vZGdIT3pSVmkzcFlVTGZJSGowUVpGSTBmVUU2Zml1Wm9IN1E2a2U0OEcxMHI5c3h5aHdnUG1oblZlbXlUb0dIWUFCcTY2MVVSby03UEdPeXV1ZVVPQ2NUaWM2Tl9tYUItRzZGQUFMWXBkUjR6aTAwb2VyaUN2TGVBeE44VkxpOEJxQ2NVR2N5ak1VWER4QQ?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "머스크, 테슬라코리아 채용 공유…한국 반도체 인재 공략 - 스페셜경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UT3B6Zjh0cEx2dW5FUUdMVjdjdGhNS0pISlFsc08zMFdSbXE2R1FzYjdLeTRhM3pmRXRNZV9nSEJNYXpFUmhoOEVSek9rNjhWWEpHLWdQU19VNVVEcGRRNEdWdGRpeUJROUpjdA?oc=5",
+          "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
+          "source": "스페셜경제"
+        },
+        {
+          "title": "일론 머스크, 韓 반도체 인재 영입 직접 나서…AI 기술 내재화 전략의 일환 - 뉴스통",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNWhJbXlqVXJadW02R3d6X05iYmFNSHN0Q1FvM2JSZk5JWFhjU3kwUF81VXI2RkpCYmJPTURBSi1GTVVhV1JyTjQ2OWF2TVYtM1ZBMDBUUklGQVRVbVQ4VGRwS1NEbUY4dTgxOFd0Q2g1OUUxdUhhRTNkbl9iTlhHV3hPck01dHdycUM0OWM4cWtUcHV2andsdFZnYklhUUVQMkhZSzJyYkU4UTdWNmpYRjRyUU9UVU84?oc=5",
+          "pub_date": "Thu, 12 Mar 2026 23:46:13 GMT",
+          "source": "뉴스통"
+        },
+        {
+          "title": "머스크의 ‘태극기 호출’… 글로벌 AI 칩 패권 경쟁, 한국 엔지니어를 향하다 - 코리아비즈니스리뷰",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ZZ2UtVE5KdWlwUFVWaDhvN0liWjd6ZVZFMGE3NEdCc1VvanM1WWxfT1RncHZtMXlPdGpMVG5LMkNEMXhSVDZ1Qmx5aTJIWTNXX0g0MFlNTENkU2FRUkR3OGpUd0MydC1ZeFdMeFgzWQ?oc=5",
+          "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+          "source": "코리아비즈니스리뷰"
+        },
+        {
+          "title": "일론 머스크, 韓 반도체 인재 영입 직접 나서…AI 기술 내재화 전략의 일환 - 알파경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zcGswU2RqYU5hNklFZkRkaWE0LTVXQk1pak41UlVUeXUyOWt6dHdOMWFSZld5ak1CNHFIVV90Nlprd1kyYW5tYUVOckk2eEZBd21PVk1WcHVMa2VtT0HSAW5BVV95cUxNRDh5SUVPMG9vM0ZLY3Q3dl9QM2tSVmZ4dHhNdm5lekpCTWpiWnF5NXkxVzVXZHh6T0FqNFJyczN3MWpiek5QQ2JUYTI4OC16LXN2cUI0Z3Z4dWduMFdhV2ZSXzlKemF2dGxrXzhsQQ?oc=5",
+          "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
+          "source": "알파경제"
+        },
+        {
+          "title": "머스크, 한국 반도체 인재 직접 구인…테슬라, 삼성과 AI 칩 동맹 강화 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XaW8zdGpsS1dIMGp5Qk9CTTAweU5nbXpQemM2cl9NdkRRRHJBT0gwei1JcG9GMmNsT0hTTUhuRF9tc1BuMXlaSHVSLTlXRHB5T2psS085dFZ1bGFPc3ZMStIBeEFVX3lxTE52X3VRNm92NElLbFVxZVk2cjFRamVocXBnd3YxX21iWnBkcGd0bkUzQWhFNjVBTzJFUTRuM2R5WmRjYy1TR24tVTJLUnlneEM3WTR2S0s2elpyZ1BUakJBQ1BxVlRoRFVfVWt1OVIxZG1CakFkc0hsag?oc=5",
+          "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
+          "source": "뉴시스"
+        },
+        {
+          "title": "일론 머스크, 한국 반도체 인력 공개 구인 - 중부매일",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ndm1YaDc3NnpLbkVfQkFKUkxJcjlRSUFKRGF6bG84MVJDdkloVW02cnNpVTJ5eEZmc0hLb0JIdEZ1WDVGbWk5eHRiYVhiX3NnejRPQUtPNUI3WU9ybUpaeTJzV1k0cmRRRVHSAW5BVV95cUxQcTl4LTNVYW9ISnh0djRpVDlXTWZEc0EyOXk2ZU9rZDRfOUtHS0NJTENfdDJhWW5VMHJnbS1hY3dZWklKTVZuQ3BjS29LVTZGcnlzWjVLVEFaeDNWUUxMMlJGTWRiR1d6b0dsdHZ4dw?oc=5",
+          "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
+          "source": "중부매일"
+        },
+        {
+          "title": "[이슈+]글로벌 빅테크, 한국 반도체·AI 인재 모시기에 총력 - 비즈니스플러스",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSZ2NyRXRNZ1pBSVdVMHhfUFZVQ1pDbEFqOUc2T2tseW1BZTh4QUtFV2FSc25pQlhmNGhxQmtrbU1EaWRLUVgzamVRWXlOandGVzUwQnlUeWk2SFhFSktHM2NVSW5hV01vOE9LM1hOOA?oc=5",
+          "pub_date": "Wed, 18 Feb 2026 00:47:11 GMT",
+          "source": "비즈니스플러스"
+        },
+        {
+          "title": "테슬라코리아, 4월부터 모델S·X 단종…국내 FSD 가능 모델 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKa0gwQWpHeTctRXZaNXk1SDM2WmplcEZ0Z1RQcHVRVFVlM1ltNjFRaTVvMUJyTmQ2REVwbnpsYmk3cjJoN01pVlczMWJ0ZW5VV3NtWVp3?oc=5",
+          "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "시장판도 바꾼 전기차 단종 수순…테슬라코리아, 플래그십 '모델S·모델X' 이달까지만 판매 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02aHRRREZ1M09SV2JoUG4xSkpCLTVDaDFrYlNxMjN2QzVXNGV5V3J1NFJGRnJrZmd5TXZXN29TVVZ6bXFSc2tvM1ptbnpQZF9ybzBNclhUUWhPV3VHdmhMVFJQRkg4eWNOM0Y0eGRZcUlmbGZ5OXd1Rw?oc=5",
+          "pub_date": "Thu, 12 Mar 2026 05:28:00 GMT",
+          "source": "네이트"
+        },
+        {
+          "title": "[The Numbers] 테슬라코리아, 매출·이익 '사상최대'에도 회계·재무 '빨간불'…순이익보다 많은 배당 379억·소송 4건 - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ncHNWUTdoNmlOR1ZYQno2MlQtV05tcmZXVEhyNWNfX1JDRFdTRmhSN1dFUm1OeWZ5ZXkyVXhGMlJjbjk2RHdYRlZacEpsN0gya211ZlhJeWxPdlQySF8w?oc=5",
+          "pub_date": "Sat, 12 Apr 2025 07:00:00 GMT",
+          "source": "뉴스스페이스"
+        },
+        {
+          "title": "테슬라, 모델 S·X 중단으로 전략 전환…“차 판매서 소프트웨어 기업으로”-현대차증권 - PRESS9",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzTDNCWHEycG8zdmdPQWgxUTlUakNwaVlkdWQtTTdjZkc0cmlZM1NvUWgzTDg5bkJxc3l3eHJMZTE5NHVkd3dEREVYUVpoMFVCdzR3U3Z1UU9zUFlfWVBxblJXdFo?oc=5",
+          "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
+          "source": "PRESS9"
+        },
+        {
+          "title": "테슬라, 1분기 ‘예상 밖 부진’…매출·순익 모두 기대에 못 미쳐 - 스페셜경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tRUE1XzY5VkI1THVEdG5uQ2xWSGp0VTR3MHVxSnhBbUdwOGpURUFsWmdKZzhjeGU2U0xVTDdGOVU1ZVFURHcwUDBIMW1PWTJUaFdwRVhTWUxaaXlyQkJxaUg4bUtSWGdIQ2Z4aA?oc=5",
+          "pub_date": "Wed, 23 Apr 2025 07:00:00 GMT",
+          "source": "스페셜경제"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "피지컬AI 기업 변신한 정의선號…中·테슬라와 패권 격돌 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NQ1oxaml1aFYyT2JhUnA3M28zOEhtZ2FreldndW9VLXNwcnVSRFZlUDdQQkJ2VzdId2tLa2p2WDltbTA3b0o0TjhCSmJkZVRhV21CUdIBVEFVX3lxTE1NQ1oxaml1aFYyT2JhUnA3M28zOEhtZ2FreldndW9VLXNwcnVSRFZlUDdQQkJ2VzdId2tLa2p2WDltbTA3b0o0TjhCSmJkZVRhV21CUQ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 08:24:01 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"테슬라 자율주행 기술은 구식\"…엔비디아 '도전장' 던졌다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zb3g3bEtBWVBLV0xkd0stQUU2M2hSNjJ3UUM4NC1kMUE5czRtRlhTZzJZOXk0Q2Zqc2w2b1Jlc05ieGpJTEpELTJXVDFwck01dmlscNIBVEFVX3lxTE0zb3g3bEtBWVBLV0xkd0stQUU2M2hSNjJ3UUM4NC1kMUE5czRtRlhTZzJZOXk0Q2Zqc2w2b1Jlc05ieGpJTEpELTJXVDFwck01dmlscA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 01:41:48 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"자율주행도 AI 추론 시대…테슬라 구식됐다\" - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCNlBpZS1yeEJSRmFtaVBOMU90N2g1MkMwbmxUTHZYOC1IOHo1NTlKNmQ3a1h1eElNa1pRb2NlQTl3UUt2UGRINkg1RWlOYnh6cFBTQdIBVEFVX3lxTFBCNlBpZS1yeEJSRmFtaVBOMU90N2g1MkMwbmxUTHZYOC1IOHo1NTlKNmQ3a1h1eElNa1pRb2NlQTl3UUt2UGRINkg1RWlOYnh6cFBTQQ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:10:34 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[대한민국주류대상 Best of 2026] 디아지오코리아 ‘돈 훌리오 1942′, 스피릿 부문 최고상 수상 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmdtUWxqNDQ1akhNcXpfV1lCN3prUDM5VFVUQlJLOUcycTBzdUJxTUh6WTBBMXdBdVkzb1FLUXV3RlRPMHozM2RKQkdaejZIcHJtUTlTd0s4T1Y3aTdhTUNtTmtmSEpaQ05KcGNGaU5CWnFtWm9DVXMtQzBLY0FtTy1yREpXd9IBmgFBVV95cUxPU2hHS0hpSXpYV3VJWWNfSFlwNkE1MzhreW5wR0lic3cwM0gya3kxbnotTmpPLTl3dDRmSHljT2ctVG9uOFZJTkpGeUV0TmhRVnEtVGdCRjJ4MFZFNHRlSnVyZ2MyRUJ4TGhEMy1OX2l3UWNHNERnUk9uWnNtTEJ1alBrRHRwazhsSHozUkNYY3Z3NXh5Wm5TcXJn?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 03:32:34 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "뉴트리시아 코리아, 압타밀 제품 안전성 재확인 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT2cwZDQ2dS13VmpCdnZabFUwZkNjYXIwOUtNMVdVM0ZtU3RBenR2Q0F0azd5RmlUUnFVNXJfeWRYallTYjF1dGg5a3c1Q09HTlZFZlQ1ZkpJUHpSSDhRRC1rTTNUU2hUdWRZMFZfcnVFM2FpdGZBTTlHMlE3d2gxaEF0cDl6VnktQ0FhOdIBoAFBVV95cUxPczhtd1U1MkFqVlN5bmtiVHBWNk9VT2R0c2lfaUxJTi1obTdVVzFoQVlCLUxNVGk3aGJlRXhYZFVTZ2c2SXN1Z3RXdVN1cndHeWp0N3dBbmU5UDRjdlJpLUFua1QzZDB4WEVlLTJNYUpBLWlDeVJxMExHcHdVOC1WdVkwZWRLdTdhMlgtVVhGZWRLWWpYMzE3YmF5VXA2NThZ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 06:58:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "㈜한화, ‘2025 탄소정보공개 프로젝트 코리아 어워드’ 수상 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdmtsVURwUlh4MVpsTkVyU2h0OWRiR0U3OERTOUdXdEEzUUVvcHdMSGk0dTBubEVPQ01qYkM2X05ZWWg4aEI3QlZ5TW1iU21xekIzRDVEZ0IwV3NVa1BaMHhkMnZNOXl6aW04YWdselQ0d0EweTZuMk0tWmpjRW1wamVCeVZzWlFYTm9OOHVWUUNYZmlqVFV2Z9IBrAFBVV95cUxNNkRjOUZSQ1pRb3duckZxOHY4bmNlT1piQzlHemVSTDEzaFJTREtIb0l6YjhSZV9aSXhrTTJKckpNbVdhTVNhM3oyVmdzeDM3QlFtMkV3MUZwUUhBNFRiamJVMUtNLXdJME4weDlFemREZXNtcHF2eTNJWWloRTZHWGM5bUgzOUFrV3gzNGtITG5Fd2llQV8zbDZiRm92WmZJMEZFOE1IMGl5cVZw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 21:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[테슬라 전기차 증정 이벤트] 검색결과 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWDNMSlE1bElWeTNFb0hvRFFqTGk2NTQyR1hPSGx1TzRRdFh2TFUzV1AxSEVDY25lUDdzSXFSZHIwLVdPT1h6SjAweWxNWFdISXFHZ19IdVhpbHE3aUlwcFZkejY4NEtOOHkxR2trLWJTcjd3aFNaR2UweWc2VFQ1MnpHVzNzNDBsdnRib19pb3M0YW5KTGpRMkFXT1BwZ09JQU9vZjktYzBnUzc2U0FENDU1eWJWcDhqZUNWa1NVb3hvMDBnRVdkRnIzMkZNcXJoS0F1WkhfS2M?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 19:47:12 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "트랙맨 코리아, 고양CC에 국내 최대 규모 ‘트랙맨 레인지’ 구축 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uMWNPWVhDN0szbWJkVzhmVDVZMGpGeVFIZUZpM3NuUlNpY3lmejBJNV9jTUJOdDdvUVczbzk0Yzd1b01uelk3QjZDZWpDZWpVaEtv?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 05:54:35 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "BMW코리아, 우수딜러에 포상 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMUxrNVJSVTNMWnFERUc0MnhwVEFfVG1OZmcwVlYtbUJTcWpRdWhCT05HQU5qS05pM0NLNnE3T0UzQU9pbG9TX05MRExENnNZQ293bE1B?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 08:28:01 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "BMW iX3, 국내 판매 8690만원부터...“고심 끝 책정”[현장+] - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DWkdVRzY5OGM0ZzdOUVB6MWN6alMzTkJUWmk2dVVOZmxmVVRHVnhhUVRQWEd4VkNraWo2VkNWeFd0TjIxaE11OUlsa0JQb3E5bk5VMmFjekp0clhsMV9qWDlBM2ptNkNk0gFsQVVfeXFMUDEtRy0yemhsbUpFQVI1VnNHQ0NQZ19NbGxYQU1yYlAtUENRSDdtM1BOQk1TMkhvTFpOSE1PNWVCNTFxbFNUWHlpNFhMbGE3Q3djMDdEbGdBUmZIcWlSOGxrQ0xGOUVCZzRfZEg3?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 04:08:12 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "테슬라 모델Y RWD, 300㎾ 충전기 써보니 “출력 100㎾ 이상” - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3VmtNVzVTSDQzelg1R0xMbEpYUGc5aXp4b21jN2JjWDBqdkhiMjRubGE3cDdTUlpCemVVcUY2R2R2S2VJMlIzRUFFWFZVeHRVdlhFalRJYzE3ZFhHVkpIWHlUdXktUHJW0gFsQVVfeXFMUGJEYTV1U2pKT3Q0VWxOMGZjZWJhbUltSzQxSUZSQzQ0S0txbUZaT184bGRqUVhWRlZscHRpZzFsZFlXaEwyNUlURzNmczIxWlpjeWhkY1pHOVY4WFAyQy1zMUEtbjVKN0l4SDVK?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 04:51:08 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "블로터 - 편견없는 경제뉴스, 몰입하는 자본시장 정보 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBpeV94VC1HUVRuSmUzdU1XQjk1QS1rMnFwM1JVUTFMcEx5S21HTkp0bXlfc1dQSkFLV29V?oc=5",
+          "pub_date": "Wed, 20 Aug 2014 21:37:02 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[까다로운 대결 MAN VS. TECH] 인간과 테슬라 봇의 가상 대결 한판 승부! - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OaU5DT1pSd2p6T3MzVUtzV2xFc3BHNkR0NnFtNlc4dlMtZ0pnTkFSajVqQy1BX0JmenNoSk8zem10bzRDNWlzUFU2cnNJVFk?oc=5",
+          "pub_date": "Mon, 13 Sep 2021 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "드디어 우리 곁에 온 테슬라…SW로 확 뒤바꾼 자동차 패러다임 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBibWc2bXdsWmV3WF9NcGdLbDd4S3JENnl4WklUUU1xUWNDeW8zNkJZS2NrNVd1T29KN1c0eXMyTkhXWjZrbFZfVDdrb3h1Zw?oc=5",
+          "pub_date": "Wed, 15 Mar 2017 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "안개 낀 날도 자율주행 가능? 테슬라와 다른 길 가는 딥퓨전에이아이의 기술 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwXzRpUmpxeFIxZXdLWmVxQS1vZWR5bnFuV3hxZ2JkYmg0aWJkR1lkMVJLOFgzQ1R6M2ZDbjg5cHVsVXNlUEdhVUp2enMwZ2s?oc=5",
+          "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+          "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+          "link": "https://sibauchi.tistory.com/1205",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+          "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
+          "link": "https://ilovefamily.tistory.com/527",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "(26-03-21) 매크로 정리 - 오전 10시까지",
+          "description": "81%)과 테슬라(3.24%), 알파벳(2.00%) 등 주요 빅테크 기업들의 동반 하락을 부추겼습니다. 반면... 재고 소진 or 전술적 조정 구간. ✅ Day 9~10 (드론 반등) : 미사일은 여전히 낮은 수준이지만 드론이 12기 -&gt; 134... ",
+          "link": "https://blog.naver.com/mobidic25/224224376157",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
+          "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
+          "link": "https://lefthusband.tistory.com/1565",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "대구 취업 성공 잡코리아 활용 전략으로 꿈을 이루세요",
+          "description": "단순히 채용 공고만 보는 것이 아니라, 회사의 사업 분야, 기업 문화, 근무 환경 등을 파악하여 자신에게... 잡코리아에 있는 기업 정보와 후기를 참고하여 회사 분위기와 면접 방식을 파악하는 것도 잊지 마세요.... ",
+          "link": "https://sibauchi.tistory.com/837",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "정규직 대규모 채용 | 14개 직무 총정리 + 면접 족보까지 공개",
+          "description": "퇴사율 및 조직 문화 - 현직자 후기 솔직 정리 크레딧잡 데이터 기준, SK하이닉스의 최근 1년 퇴사율은 약 10%대 초반으로 대기업 평균 수준이에요. 반도체 업계 특성상 이직 시장이 활발한 것을 고려하면... ",
+          "link": "https://blog.naver.com/cymmcymm/224215480910",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "어플라이드 머티리얼즈 면접 후기 (엔지니어) 결과, 기출질문",
+          "description": "각 기업, 직무별 합격자를 배출하고 있습니다. 특히 Applied Materials 출신 코치진, 반도체... 실제 합격하신 지원자 후기 어플라이드 머티리얼즈 코리아 석사/ 신입 ▼ 면접 합격 후기 보러... ",
+          "link": "https://blog.naver.com/ve_getable/224220697925",
+          "pub_date": "20260318"
+        },
+        {
+          "title": "제약산업분석 4 주차 강의: 바이오의약품 산업 채용 동향 분석",
+          "description": "CDMO 기업들은 외국어 능력(OPIc AL 이상 등)이 뛰어나고 제약 산업 전반의 밸류체인을 이해하는 인재를 확보하는 데 사활을 걸고 있다.11 공정 개발(PD) 및 기술 이전(Tech Transfer)의 전문화 CDMO의 핵심... ",
+          "link": "https://blog.naver.com/potatoschool/224218820717",
+          "pub_date": "20260316"
+        },
+        {
+          "title": "ASML 코리아 비디오 레코딩 면접 (HireVue) video... ",
+          "description": "합격자 배출 이력이 있습니다. 각 기업별 직무별 면접을 대비합니다. ASML 채용공고  ASML코리아... 미국, 유럽, 국내 기업을 모두 거친 20년 경력의 인사 전문가로서, ASML 특유의 외국계 기업 문화와... ",
+          "link": "https://blog.naver.com/fusekimo198735/224218339072",
+          "pub_date": "20260316"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "[[[스페셜코리아 - 해외감동사연@스페셜코리아•구독자 8.65만명•동영상 395개매일 아침 7시 하루도 빠짐없...",
+          "description": "스페셜코리아 - 해외감동사연 @스페셜코리아•구독자 8.65만명•동영상 395개 매일 아침 7시 하루도... &quot; 엔디비아·구글·테슬라 전부 패닉에 빠뜨린 한국인 3인조 기업! 미국 실리콘밸리 충격!ㅣ해외감동사연 조회수... ",
+          "link": "http://cafe.naver.com/jmsong0829/65471",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260321토요일",
+          "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 보건복지부(장관 정은경)는「메디컬코리아 2026」참석차 한국을 방문한 몽골 친부렝 직찌드수렝(Chinburen... ",
+          "link": "http://cafe.naver.com/jungamironware/9268",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+          "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-20 오후 3:00:00 엔브이에이치코리아㈜의 하도급법 위반행위 제재 엔브이에이치코리아㈜의 불공정하도급거래행위... ",
+          "link": "http://cafe.naver.com/magicbank/3332",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "[경력] ~26.04.09 / 일레븐플러스코리아 - Frontend Developer (React)",
+          "description": "채용 공고 - URL (공고 링크) : https://zighang.com/recruitment/ef6c7bd3-f485-4d4e-a189-51991728cc31?utm_source=naver&amp;utm... 혜택 및 복지 ?자율적이고 주도적인 업무 문화 • 유연한 근무 시간 및 휴가 사용 ?수평적인 조직... ",
+          "link": "http://cafe.naver.com/workhub/32402",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.347540983606557,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "워라밸",
+        "장점",
+        "좋은",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점",
+        "수직",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "테슬라코리아(유) 2025년 기업정보 | 기업리뷰 161건, 3.3 리뷰평점",
+          "description": "테슬라코리아(유) 기업정보 - 장단점 키워드: rsu, 복지, 부여 | 기업리뷰: 발전가능성이 무궁무진 합니다 회사가 잘되야 연봉 및 승진 가능성이 많이 생기니까요 | 테슬라코리아(유)의 관련 뉴스, 기업리뷰와 생생한 면접후기를 ...",
+          "url": "https://www.jobplanet.co.kr/companies/324204/reviews/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "전기차, 태양광, 그리고 청정 에너지 혁신 | Tesla 코리아",
+          "description": "Tesla는 AI, 전기차, 태양광 에너지, 가정용 배터리, 그리고 가정 및 기업을 위한 통합 재생 에너지 솔루션으로 놀랍도록 풍요로운 세계를 구축하고 있습니다.",
+          "url": "https://www.tesla.com/ko_kr"
+        },
+        {
+          "source": "brave",
+          "title": "테슬라코리아(유) 2026년 기업정보 | 기업리뷰 166건, 연봉정보 131건, 면접후기 162건, 복지정보 23건, 채용공고 0건",
+          "description": "테슬라코리아(유) 기업정보 - 산업: 판매유통, 기업형태: 외국계 (외국 법인기업), 사원수: 425명, 설립: 2015.12.01 | 테슬라코리아(유)의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/324204/landing/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "테슬라코리아(유) 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "description": "테슬라코리아(유)의 직원수, 매출액, 연봉, 채용, 복리후생 등이 궁금하시다면, 사람인에서 더 많은 정보를 확인해보세요.",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/U09NbmJxZHYrQTdjeVZzK0pDdXRnUT09/company_nm/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84(%EC%9C%A0)"
+        },
+        {
+          "source": "brave",
+          "title": "테슬라코리아(유) 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+          "description": "테슬라코리아(유)의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요.",
+          "url": "https://www.jobkorea.co.kr/recruit/co_read/c/teslakorea1"
+        },
+        {
+          "source": "brave",
+          "title": "2026년 테슬라코리아 채용 기업정보 | 인크루트",
+          "description": "테슬라코리아(유)는 기계·조선·자동차·운송장비 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다.",
+          "url": "https://www.incruit.com/company/1679344647/"
+        },
+        {
+          "source": "brave",
+          "title": "테슬라코리아 2022년 하반기 133건 프리미엄 기업리뷰 | 잡플래닛",
+          "description": "테슬라코리아의 전/현직원이 전하는 생생한 기업정보! 직무와 커리어 23개, 업무 방식 22개, 기업 문화 22개, 일과 삶의 균형 22개, 복지 및 급여 22개, 기업 만족도 22개 | 잡플래닛에서 더 많은 기업분석을 지금 바로 확인하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/324204/premium_reviews/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84?questionnaire_id=145"
+        },
+        {
+          "source": "brave",
+          "title": "테슬라(기업) - 나무위키",
+          "description": "8.1. 제로백8.2. 스마트카 &amp; 커넥티드카8.3. 자체 개발9. <strong>테슬라코리아</strong>10.",
+          "url": "https://namu.wiki/w/%ED%85%8C%EC%8A%AC%EB%9D%BC(%EA%B8%B0%EC%97%85)"
+        },
+        {
+          "source": "brave",
+          "title": "테슬라코리아 - 나무위키",
+          "description": "현대자동차, 기아, 제네시스의 경우 공식 홈페이지의 스펙시트에 상온/저온, 도심/고속도로, 휠사이즈에 따른 전비, 주행거리를 모두 고지해놓은 것과 많이 비교된다. 결국, 공정거래위원회가 이에 대해 28억원 가량의 과징금을 테슬라코리아 유한회사에 부과하였다.YTN 기사",
+          "url": "https://namu.wiki/w/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "brave",
+          "title": "“잡플래닛 평점 4.5”… 현직자들이 극찬한 진짜 좋은 회사 | 데일리웰니스",
+          "description": "잡플래닛이 집계한 ‘직원들이 가장 추천하고 싶은 회사’ 순위에서는 예상치 못한 기업들이 등장했다. 잡플래닛은 현직자들의 리뷰를 기반으로 연봉, 복지, 워라밸, 사내문화, CEO 리더십 등을 종합 평가해 평점을 매긴다.",
+          "url": "https://v.daum.net/v/Km36zyBW8K"
+        },
+        {
+          "source": "naver",
+          "title": "테슬라코리아 2026년 기업정보 | 68건의 복지정보 0 전체 복지 통계",
+          "description": "테슬라코리아의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 68건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/324204/benefits/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84(%EC%9C%A0)"
+        },
+        {
+          "source": "naver",
+          "title": "테슬라코리아 2026년 기업정보 | 68건의 복지정보 0 전체 복지 통계",
+          "description": "테슬라코리아의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 68건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/324204/benefits/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "테슬라코리아(유) 2026년 기업정보 | 기업리뷰 167건, 3.3 리뷰평점",
+          "description": "도망가야 할까요 ? 일단 수습기간 입니다. 1. 매일아침 사장 커피 타드려야 함. 2. 문서나 서류 정리가 처음이라 아직 많이 서툰데 -&gt; 이런 부분에서 사수가 자꾸 알려주지만 뭐라고 하는 듯한 느낌 3. 출퇴근 시간 왕복 2시간 4. 수직적인 문화 5. 업무 과다 (신입 기준 배울 수 있는 건 많음) 18100조회",
+          "url": "https://www.jobplanet.co.kr/companies/324204/reviews/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "테슬라코리아(유) 2026년 기업정보 | 164건 면접후기 3.0 면접난이도",
+          "description": "테슬라코리아(유)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.0, 면접경로: 온라인 지원 74%, 면접경험: 긍정적 47%, 부정적 13%, 면접결과: 합격 44%, 불합격 27%, 대기중 29% | 잡플래닛에 등록된 164건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/324204/interviews/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "(주)테슬라시스템 2026년 기업정보 | 5건 면접후기 2.4 면접난이도",
+          "description": "(주)테슬라시스템의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 2.4, 면접경로: 온라인 지원 100%, 면접경험: 긍정적 40%, 부정적 20%, 면접결과: 합격 60%, 불합격 20%, 대기중 20% | 잡플래닛에 등록된 5건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/179887/interviews/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 2.8점 중견기업인데 - 직장/알바/사업",
+          "description": "잡플래닛 리뷰는 보고 싶은데못보고 평점 2.8점인 중견기업인 물류회사인데 후기가 알고싶어요 초봉은 3500 하는일은 사무기술직으로 지원할건데요 3명이서 대기업(Lg화학.한화)안에서 화물차 시간배치를 주로 한다는데옮겨도 괜찮을 회사일지 해서요 총 직원수는 153명인데 물류센터는 여러곳이고 본사는 서울에 있구요물류업 종사하는 분들 혹시 아시는분들 없을까요...",
+          "url": "https://www.fmkorea.com/3660127960"
+        },
+        {
+          "source": "naver",
+          "title": "재미로 보는 LCK 구단별 잡플래닛 평점 - 롤: 리그 오브 레전드",
+          "description": "디플러스기아 티원 OK브리온 젠지 케이티 디알엑스 한화,샌박,프릭스,케이티는 모기업 소속 부서단위인듯해서 따로 없고 (한화이글스는 자회사단위인듯하나 이스포츠는 아직인듯) 농심은 농심이스포츠 별도회사...",
+          "url": "https://www.fmkorea.com/6149357481"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점1.8회사 오바임? - 직장/알바/사업",
+          "description": "집에서 20~30분 거리 중견 기업이라 좋다 생각해서 찾아 봤는데 잡플 평점 1.8에 퇴사율 30%정도 되는데 괜찮아보임? 연봉이나 복지 그런거는 그냥 중소기업 수준이라 생각하면 됨",
+          "url": "https://www.fmkorea.com/5470029324"
+        },
+        {
+          "source": "naver",
+          "title": "캐논코리아(주) 2026년 기업정보 | 기업리뷰 1,052건, 2.7 리뷰평점",
+          "description": "장점 : 다른건 없고 시설이 깔끔하다 정도 인것 같다 기숙사는 너무 더럽기도 하고, 단점 : 기숙사청소및 정리가 잘되어서 불쾌감이 좀있었다 말곤없음",
+          "url": "https://www.jobplanet.co.kr/companies/7947/reviews/%EC%BA%90%EB%85%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 1.3인 곳도 떨어지냐 - 직장/알바/사업",
+          "description": "방금 전에 전화로 면접 불합격 통보 받은 곳임 (모 새마을금고)월요일 오후에 면접보고 뒤늦게 잡플래닛 평점 봤는데 1.3점이더라고 ㄷㄷ내가 어지간해선 2.0이어도 봐줄만하다고 생각했는데... 1.8, 1.9도 아니고 1.3은 진짜 블랙기업급 아닌가 싶긴한데... 리뷰에 단점 적힌거 보니까 1. 업무 인수인계 전무 2. 80년대 군대문화 3. 아침 8시...",
+          "url": "https://www.fmkorea.com/3883593570"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "[테슬라코리아 채용] 합격을 부르는 자기소개서 작성 가이드",
+          "url": "https://jcbah.tistory.com/976",
+          "text": "[테슬라코리아 채용] 합격을 부르는 자기소개서 작성 가이드\n\n본문 바로가기\n\n회사별 자기소개서 항목 및 작성.TIP\n\n# [테슬라코리아 채용] 합격을 부르는 자기소개서 작성 가이드\n\n안녕하세요! 오늘은 전 세계 전기차 시장과 에너지 혁신을 주도하는 테슬라코리아 채용 준비의 핵심, 자기소개서 작성법에 대해 심도 있게 다뤄보겠습니다. 테슬라는 정해진 문항이 없는 '자유양식' 자기소개서를 요구하는 경우가 많아 많은 지원자가 갈피를 잡기 어려워합니다. 하지만 테슬라만의 독특한 기업 문화와 사고방식을 이해한다면, 오히려 여러분의 강점을 가장 강력하게 어필할 수 있는 기회가 됩니다.\n\n1. 테슬라가 원하는 인재상: \"Mission Driven & Hard Core\"\n\n테슬라 자기소개서를 쓰기 전, 반드시 머릿속에 새겨야 할 키워드는 \"지속 가능한 에너지로의 전 세계적 전환 가속화\"라는 미션입니다. First Principles Thinking: 기존의 관습에 얽매이지 않고 근본부터 파헤쳐 문제",
+          "score": 0,
+          "published_date": "2026-03-15T00:00:00.000Z"
+        },
+        {
+          "title": "테슬라코리아(유) 기업리뷰 | 14명이 참여한 통계 & 리뷰 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-review/view/csn/U09NbmJxZHYrQTdjeVZzK0pDdXRnUT09/company_nm/%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84(%EC%9C%A0)",
+          "text": "테슬라코리아(유) 기업리뷰 | 14명이 참여한 통계 & 리뷰 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n# 테슬라코리아(유)채용중1\n\n관심기업 등록 3.6천+ 공유하기\n\n공유하기\n\n- URL 공유하기\n- 트위터 공유하기\n- 페이스북 공유하기\n\n자동차 신품 판매업 대기업 업력 12년차 데이비드존파인스타인/케네스어니스트무어\n\n직원들이 뽑은 BEST 기업문화\n\n자유로운 연차 프리한 복장 가능 커리어 발전 기회 간단한 식사회식 평균 연령 30대\n\n현재 369,509개의 기업리뷰가 사람인에 등록됐어요!우리 회사 리뷰 남기고, 나와 맞는 기업을 내 마음에 저 - 장하세요!\n\n#### 전체 리뷰 통계\n\n- 자기개발\n- 급여 및 복지\n- 근무환경\n- 경영진\n- 조직문화\n- 전체\n\n직무·직업 선택 기획·전략 마케팅·홍보·조사 회계·세무·재무 인사·노무·HRD 총무·법무·사무 IT개발·데이터 디자인 영업·판매·무역 고객상담·TM 구매·자재·",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "테슬라코리아 면접후기 8건, 기출질문 20건 - 2025년 합격TIP 추천답변 | 캐치",
+          "url": "https://www.catch.co.kr/Comp/InterviewReview/HK6557",
+          "text": "테슬라코리아 면접후기 8건, 기출질문 20건 - 2025년 합격TIP 추천답변 | 캐치\n\n메인메뉴 바로가기 본문 바로가기\n\n---\n\nCATCH\n\n전체메뉴 보기\n\n채용공고\n\n- 캘린더\n- AI매칭 공고\n- MY카테고리\n- 전체 공고\n\n기업정보\n\n- 분석리포트\n-",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "테슬라코리아(유) 채용 - 2026 대규모 공개 채용 | 잡코리아",
+          "url": "https://m.jobkorea.co.kr/Recruit/GI_Read/48665598",
+          "text": "테슬라코리아(유) 채용 - 2026 대규모 공개 채용 | 잡코리아\n\n채용공고\n\n테슬라코리아(유)\n\n2026 대규모 공개 채용\n\n마감\n\n믿고보는 대기업\n\n신입·경력(직무별 상이 (상세요강 참고))\n\n상세요강\n\n기업 정보\n\n추천 공고\n\n##### 모집요강\n\n모집분야\n\n홈페이지 지원\n\n모집인원\n\n○명\n\n고용형태\n\n정규직\n\n급여\n\n회사 내규에 따름\n\n근무지\n\n서울 강남구 테헤란로 419 (삼성동, 강남파이낸스플라자) 9층 테슬라코리아지도\n\n##### 지원자격\n\n경력\n\n신입·경력\n\n학력\n\n(직무별 상이)\n\n##### 접수기간/방법\n\n마감되었습니다.\n\n기간\n\n2026.02.26(목) ~ 2026.03.04(수)\n\n방법\n\n홈페이지 지원\n\n##### 지원자 현황\n\n로그인\n\n하고 지원자 현황을 확인해보세요!\n\n##### 테슬라코리아(유)\n\n산업\n\n전기·전자·제어\n\n직원수\n\n-\n\n기업구분\n\n대기업 (비상장)\n\n주소\n\n서울 강남구 테헤란로 419 (삼성동, 강남파이낸스플라자)\n\n지도\n\n더보기\n\n해당공고",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Tesla Reviews (11,791): Pros & Cons of Working At Tesla | Glassdoor",
+          "url": "https://www.glassdoor.com/Reviews/Tesla-Reviews-E43129.htm",
+          "text": "Tesla Reviews: What Is It Like to Work At Tesla? | Glassdoor\nSkip to contentSkip to footer\n\n* Community\n* Jobs\n* Companies\n* Salaries\n* For Employers\n* [Community](https://www.glassdoo",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+          "pub_date": ""
+        },
+        {
+          "title": "[영상] 테슬라의 AI 비전, 현실이 될 수 있을까? | 글로벌오토뉴스",
+          "description": "테슬라의 AI 비전이 자동차 산업을 넘어 혁신의 아이콘으로 자리 잡을 수 있을지, 아니면 머스크의 장기적인 청사진에 불과할지에 대한 논쟁은 여전히 뜨겁다. 이 영상에서는 테슬라가 추진하는 AI 기반 자율주행...",
+          "link": "https://v.daum.net/v/zJNuLGloOY",
+          "pub_date": ""
+        },
+        {
+          "title": "테슬라, 마스터 플랜 4 발표 — AI 중심 전략으로 대전환",
+          "description": "테슬라가 최근 발표한 **“Master Plan Part 4”**는 단순히 전기차 기업을 넘어, 인공지능(AI)과 로봇 사업을 핵심 성장축으로 삼겠다는 강력한... 하지만 이번 4단계 계획은 한층 다른 방향성을 제시합니다. 핵심은...",
+          "link": "https://blog.naver.com/theone1dental/223999982678",
+          "pub_date": ""
+        },
+        {
+          "title": "“로보택시가 미래” 머스크의 위험한 직감 경영",
+          "description": "일론 머스크가 테슬라의 차세대 모델 전략으로 소형 전기차 대신... 머스크는 같은 가격대에서 완전 자율주행 로보택시를 개발하는 방향... 하지만 대중이 과연 그런 비전을 원할지는 미지수다. / 글 Christiaan...",
+          "link": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=47779",
+          "pub_date": ""
+        },
+        {
+          "title": "Korea 신뢰성 있는 고성능 인공지능 기술 확산을 위한 전략",
+          "description": "글로벌 AI산업 및 시장 경쟁이 치열한 가운데, 주요국은 AI 육성을 위해 다양한 정책을 추진해왔다. 최근에는 AI 육성뿐만 아니라 안전하고 신뢰성 있는 AI 기술에 대한 요구도 커지고 있는 추세다. 이에 글로벌 AI 선도국들과 우리나라의 AI 육성정책을 살펴보고, 신뢰할 수 있는 고성능 AI의 활용·확산을 위해 필요한 전략과 비전을 검토해보고자 한다.",
+          "link": "https://tongsangnews.kr/webzine/1532312/special_4.html",
+          "pub_date": ""
+        },
+        {
+          "title": "테슬라 주가 분석: 전기차 시장 침체 속 로보택시와 AI 로봇이 미래를 결정할까?",
+          "description": "그러나 일론 머스크 최고경영자(CEO)는 이러한 상황에서도 흔들림 없는 태도를 보이며, 자율주행 기술과 인공지능(AI) 기반 로봇 사업을 미래 성장 동력으로 제시하고 있다. 과연 테슬라의 운명은 전기차 시장의 침체를 딛고, 로보택시와 AI 로봇이라는 새로운 비전 속에서 다시 한번 도약할 수 있을지 심층 분석한다. 미국 텍사스주 오스틴에 위치한 테슬라 본사 전경. 로보택시와 ...",
+          "link": "https://www.koreabizreview.com/detail.php?number=6456",
+          "pub_date": ""
+        },
+        {
+          "title": "“현실에서 진화 중”… 테슬라 AI 전략의 진짜 목적지 | EV-Hotissue",
+          "description": "기술적 접근 방식과 데이터 전략, 그리고 최종 목표까지 완전히 다른 두... 사업 확장이 불가능하다. 결국 웨이모의 서비스는 ‘무인택시’ 수준에 머물 가능성이 크다. 한편, 테슬라는 자율주행 기술을 넘어서 AI...",
+          "link": "https://v.daum.net/v/YwUradNfz3",
+          "pub_date": ""
+        },
+        {
+          "title": "테슬라 마케팅 전략 분석 및 향후 발전 방향",
+          "description": "브랜드 이미지와 혁신성을 앞세운 마케팅 전략으로 소셜 미디어와 온라인 채널을 활발히 활용하며 전통적 광고보다는 고객 경험과 기술력을 중심으로 소비자와 소통하는 방식을 채택하고 있다. 쉽게 접근할 수 있는 오픈소스 소프트웨어와 친환경 가치 전달을 통해 전 세계 소비자와의 연결고리를 강화하는 것이 주요 전략이다. 앞으로 테슬라는 배터리 에너지 저장, AI 기반 자...",
+          "link": "https://www.reportworld.co.kr/social/s2585467",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;심상치 않은 상승세&quot; 테슬라 주가 상승 이유와 투자 전망 / 테슬라주가전망",
+          "description": "‘AI5’, ‘AI6’ 개발에 집중하는 방향으로 전략을 전환했는데요. 한국투자증권 이지수 연구원은 “테슬라는 차량 제조부터 플랫폼까지... 미래 비전을 반영한 구조적인 상승의 시작일지는 향후 실적과 사업...",
+          "link": "https://blog.naver.com/etoday12/224040775300",
+          "pub_date": ""
+        },
+        {
+          "title": "[한방이슈]테슬라 FSD, 한국 주행 성공…현대차 자율주행 전략 재편",
+          "description": "최근 테슬라와 유사한 비전 기반의 '엔드 투 엔드(End-to-End)' 자율주행 시스템 '아트리아(Atria) AI'를 공개했습니다. 즉, 현대차는 '단기적으로는 협력, 중장기적으로는 독자 기술 확보’라는 이중 전략을 취하고...",
+          "link": "https://www.ytn.co.kr/_ln/0134_202512130800053866",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "Tesla Solidifies AI Ecosystem with Strategic 2 Billion Dollar Investme",
+          "url": "https://www.tesery.com/blogs/news/tesla-solidifies-ai-ecosystem-with-strategic-2-billion-dollar-investment-in-xai",
+          "text": "Tesla Solidifies AI Ecosystem with Strategic 2 Billion Dollar Investme\n\n🌿Spring Escape 2026! Leave the Grid, Keep the Glow. Your Tesla, Reimagined.\n\n📦 Free worldwide shipping for orders over US$149 | No lmport Tax 🚚\n\n⭐️⭐️⭐️⭐️⭐️ Tesery.com serves more than 150,000+ Tesla owners worldwide!\n\n### Search our store\n\n\"\"\n\nAccount Cart 0\n\nPopular Searches:\n\nsunshade floor mats yoke ",
+          "score": 0,
+          "published_date": "2026-01-28T00:00:00.000Z"
+        },
+        {
+          "title": "Tesla's (TSLA) 'Investment Year' Strategy Is Turning Heads on Wall ...",
+          "url": "https://finance.yahoo.com/news/tesla-tsla-investment-strategy-turning-142216389.html",
+          "text": "Tesla’s (TSLA) ‘Investment Year’ Strategy Is Turning Heads on Wall Street\n\nOops, something went wrong\n\n# Tesla’s (TSLA) ‘Investment Year’ Strategy Is Turning Heads on Wall Street\n\nTSLA +3.44%\n\nTesla, Inc. (NASDAQ:TSLA) is one of the AI stocks currently on Wall Street’s radar.\n\nBenchmark has framed 2026 as an investment year for Tesla, b",
+          "score": 0,
+          "published_date": "2026-02-14T00:00:00.000Z"
+        },
+        {
+          "title": "Tesla Bets Big On AI With $2 Billion XAI Deal - Evrim Ağacı",
+          "url": "https://evrimagaci.org/gpt/tesla-bets-big-on-ai-with-2-billion-xai-deal-525898",
+          "text": "Tesla Bets Big On AI With $2 Billion XAI Deal - Grand Pinnacle Tribune\n\nTesla, the electric vehicle giant led by Elon Musk, has made a bold move to secure its future in the rapidly evolving world of artificial intelligence and autonomous vehicles. On January 28, 2026, Tesla announced a $2 billion investment in xAI, Musk’s private AI company, marking a significant step toward realizing its ambitions for self-driving technology and robotics. The announcement comes at a pivotal moment for Tesla, as",
+          "score": 0,
+          "published_date": "2026-01-28T00:00:00.000Z"
+        },
+        {
+          "title": "[PDF] 2025 Q4 Quarterly Update Deck - Tesla",
+          "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q4-2025-Update.pdf",
+          "text": "Q4 and FY 2025 Update\n1\nHighlights 03\nFinancial Summary 04\nOperational Summary 06\nManufacturing & Hardware 08\nSupporting Infrastructure 09\nAI & Software 10\nServices 11\nOther Updates 12\nOutlook 13\nPhotos & Charts 14\nKey Metrics 24\nFinancial Statements 27\nAdditional Information 34\n2\nH I G H L I G H T S S U M M A R Y\n(1) Excludes SBC (stock-based compensation) & Digital assets gains and losses, net of tax; (2) Free cash flow = operating cash flow less capex; (3) Includes cash, cash equivalents and ",
+          "score": 0,
+          "published_date": "2026-01-28T00:00:00.000Z"
+        },
+        {
+          "title": "테슬라, 역대 최대 투자…AI·자율주행·로봇 중심 사업 재편 가속화 - 머니투데이",
+          "url": "https://www.mt.co.kr/world/2026/01/29/2026012915051430176",
+          "text": "테슬라, 역대 최대 투자…AI·자율주행·로봇 중심 사업 재편 가속화 - 머니투데이\n\n로그인| 회원가입\n\n닫기\n\n## 테슬라, 역대 최대 투자…AI·자율주행·로봇 중심 사업 재편 가속화\n\n## 모델 S·X 단종하고 로봇 생상 준비…xAI에 20억달러 투자\n\n테슬라가 올해 역대 최대 규모인 200억달러의 투자 계획을 밝히며 자동차 제조회사에서 AI(인공지능)와 로보틱스 등 다각화된 기술기업으로의 전환을 가속화했다.\n\n테슬라의 연도별 투자 규모/그래픽=김현정\n\n올해 200억달러 투자…역대 최대\n\n테슬라는 28일(현지시간) 장 마감 후 실적 발표에서 올해 자본지출이 역대 최대 규모였던 2024년의 110억달러를 크게 상회하는 200억달러에 이를 것이라고 밝혔다. 이는 애널리스트들이 예상한 100억달러의 2배 규모로 지난해",
+          "score": 0,
+          "published_date": "2026-01-29T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Exclusive: South Korea's Yoon ready to offer 'tailored' benefits to attract Tesla gigafactory - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRGo4R3ZoMXMwdjUtUzhIckc5QWplY1ZqMWdRNVF2NWkzYW51N1M5UzlTWVZUTWNCaElvb2QwWWtJZm9tN2w4R0xzeDdBdWdxanZ5UWxVVVU3aVJWdFdxYThMbGF0VUFwWktQNHZOQnFJdnFLOVl3cjg5M285RFZTWnB0bFk5MXhYRVUzT0NuYkNINHc1MEJJc1pib1BRMlF6WVplSTJ6T0FwaFNHMHNEUzZrRHUzWGMxZGlDNGk0RnNIZ0p2ZHdLd2tGZmlLZ2E3N19wTGln?oc=5",
+          "pub_date": "Mon, 28 Nov 2022 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Tesla to buy $2 bln of ESS batteries from Samsung SDI over 3 years, newspaper says - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaGtULU5XODQyODg1YWFIYWRjV2dabUs1ajc4U0d6R2d4dU5rTDVYOVRyXzlrXzRFY2JqQW1nWGVnM1hkRXlSbkNtMWk2cmJVQmJGLUJIQ2ROUzZWVllBNXR3M2xLRlZ6UFB2dWllWmF3QVh1MUdnZzl3emh5RTdmS3FoWURKcXZjeG44UWtqM3FnNmJSNVlQdGtHejBQUHViUXhaMTVGY1dfWVMwaXNmX1Z0WkFVM0NhX2lvT3ZYVDJ5SUhoblFjV3NYX0ZWcGIy?oc=5",
+          "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Exclusive: Tesla signs $4.3 billion LGES battery deal, source says, reducing China reliance - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONEdaT0lBLWx0M01FMzZxbzlqa2daa1VxdXNqeG5vUWlUU0RMVWM4Z2FUUU5xYzJNN0IxbnRtRGhiSjhvZ01VMGVlejFpZFd3SUZrYVc3eGN4aUV1bFZLQTRHeFM0YzNRdl9KZUkxb0I5QVhRZFAzT19iREwxUm5aaDVCWHJ4WTdCMHFndWRoamFKdDhWVWhUUlFQQWY3MnJZaUtuR0VwNWc0djBKSi1aRjI1U1F1d3BlblFZdFNBemJfdV9LSmlB?oc=5",
+          "pub_date": "Tue, 29 Jul 2025 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Bloomberg Billionaires Index - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUa1lZWm1DSjJFUXdYU1lIQjNoNS1MQlNfU0F4elNZRkZpMmxlcFdPV2lrUzZVT0NGX3dNX3RFYWUwOXRuSHcxSDJiTk9WcWk4?oc=5",
+          "pub_date": "Fri, 14 Mar 2014 15:57:02 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Chinese EV Maker BYD Aims to Conquer World Markets as the Un-Tesla - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ2U3RHFNQ0ZPNVZZLTNYbWQwOXk2OG1iTjBLUjY1YjJZNkxCTGpYTEs5U1JYYnYwTGdPbldmMVZwOUlmSkljZ2tqQmE1OXdIN2otTEhSRmdUeWE1SkxySHdMN1pQTk1BMVdFeHVxOGNaX2x2Qk1TaTlMTTFETmpOR1lPWnFRRWF4dmNJbnJvbXpQWlRPckNlRnhuLXhmbVdHdnJMVGNaU0JZWFNrRENPaw?oc=5",
+          "pub_date": "Wed, 17 Aug 2022 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "TSLA: Tesla Inc Stock Price Quote - NASDAQ GS - Bloomberg - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fd01vejRCa0ltOGdNbGJLcjBwZ2gzazZKQ1c0bTNodUFiMHpiNlVEeV9PTUxKMWVFbExmNXFqVElxWW9wTExsUXdnTkxILXBj?oc=5",
+          "pub_date": "Fri, 14 Mar 2014 23:57:40 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Tesla has a range inflation problem - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GWVVaR3ZRUjcyNGw5Z3hfMk1HSlRkUXlvajV3M1ZZWGhUX2c1RlpMZGR6SzRjR3NSdzh5LVptVFdURW05OWNjVXlFQVR1NnVzM09sRkp0ZFotVWhLeDFaTFRQcThHZkJsNngweTJNSVMwS3FfSTRVMTl3?oc=5",
+          "pub_date": "Thu, 27 Jul 2023 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "We Drove Tesla’s Crazy Fast Model X SUV - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qUWotSXZwbXlRNnFlcTVlbE5rQWVPb2wxeVg1R0wxQVJjajVxWjZzUkIzZ2thYkZNNTA2OWFXcEIxWGV2NFZPWDMzWmViOXBTb2F4dW9fRE1ZSHZibVp0VXlya2J6Ukp6ODdqbzRXdTNRNG5pZ3AzZElvX2hNUQ?oc=5",
+          "pub_date": "Tue, 29 Sep 2015 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "This virtual garage sale lets you haggle with AIs to buy Tesla stock, a PS5 or a toilet magazine - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNGRENk1seUJMV0ZLcllLT2hackYydldycWMxSTkxbUlDUlhyU3hrbkN4VXhaYXpwWUVFaGJndGg0TTBQMG1fUXBCTGZpdzd1bnlfR2NITU1pbGNwU3FGM2hYaUxkbko4cUo5NHROZkhYdXBOeFFCSHNwcUhxYm92ZklfcE5qQlFtUlFwUHVMeDV0X0hqSnMwd1VYSDV4ci1rdW5XY1U5d1M1eUN4bTJ5cHp5Zk5wQnBSSHpmV3JxT2xMYU9aR0hKY1h3?oc=5",
+          "pub_date": "Mon, 27 Nov 2023 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Exclusive | Robinhood to Launch 24-Hour Trading on Weekdays in Stocks and ETFs - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxQbktDZXd6bjgxb2RncGdXLTlLRTA5WmlVSVRmc2ZZYjJISGdqUEY1b3JfZkQ4V1JZSHZobFpET1Fod0lTczNpeGhzQVVBSXU1OV9NYlZtMEoyUElvZ1VlNmdtakdUTUZkVk1kRERXRUZpcVptUk1EeXMzN0xSSDJWcl9yb21BSWRrd0JuMVhjd0hsUFV2Zmg1dDdzQU5odkdMcG1iV25SZjNmdk5GR1lvdllhbVRwczBnRzVENFZmSWxKMHF3V3NuSVBwT09NWHczZ2NGZUJrR0h1YWp6Zk10dFlIQkxZdGNkY3VZV2hwNmxrOXdKUDZtNDRsQ0dIcnljdFVTQjNKN1U3QVBOYUpvTjZlbGplbE1uaDR1RnVSVnExNnIxZDFOX0daemVyZXdka1VVdHJQc1ZmMllRTlNURHRDTzloQUxDZ3JSdUJPbTFBYXhRY0FkYmtHZmRiN3A1bjZfb3VrMm9teF91MGo5RTBxbVhtVC1jM21FYUNabm5GWW9TOXNOSno2cHZqYUdRc0ZrVDFNV1VLMzQyaFRnN2NxcmpyamdpWEE?oc=5",
+          "pub_date": "Wed, 10 May 2023 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "China’s Battery Champion Says Geopolitical Tensions Won’t Derail U.S. Expansion - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxONlQtYnlQVEhNb0JoOUFoMUtHNGE0VUplNG5NVmtNM3VfcnF4QkhXbUt3dDh2S3NRSEt1T0RzOUdmcHhJaEhGaGtabzdhYW4yQVlUakZCR2FNa2xoOTBfcmZJZWhaRmk4a1FSRUppNERvcDAxb0hVX25SdkxKNFZybG5pUU5DZlpCSzRXYTJBV2JlblZFMGhGYW9JWWs0TUF2S2NBSE9tQzU4NEUta0swUlk4a2NQTldvQ1B1UmNKM1JrRksySk1BeTFQOW9fTXBZTW5xOEhGTmNxVHQtaks0dTdEQ1RFZVc2STB3V1dlNFF1bWJ1ZmFMVkdTbnVLVTgxVEE2ck5mN0pzdkJEQTNGeEZoLVhWdV85SEZOTzlMOFlVUDB2QlZCUHE0RXB0UmNscDRyc0c4NWg3aGlYWTJFeXlHWHdsYlVVdS1OMmtBaVVsSEwyNkw4U0Ywb0JCY25LNVdWSVo0SnBOVGlTQmVBbTVlcTVzd0tJejVJcWZORW9DeHVnUVJIX21DcVoyT0Fkc3AwQm9Nc3VpR3A1ajhxRkZXcjU5LS1ETmNocFREV1Q1WXU1UmtTaldjSmpwWnh6M2c?oc=5",
+          "pub_date": "Tue, 26 Mar 2024 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Cathie Wood, Meme-Stock Champion Who Bet Big on Tesla and Bitcoin, Stands Her Ground - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxNbWI5aU1UbkMwOGdDZno2bmZfVUhxZl9EN1BoaHQ1bzAtREY0NzhSQU1pbjRIWDlLOEg0MnBvcXl4Q1pSMUlXcWFaSmVvVHBDTVpEd1ZmTklmVzF2OTJoTHNvUlQydFEtci1HT2d0a3Q4eHhTMXRsS3Y2aDR1YVVfbG5GdjRWVXB6TTYwZVhZSWtEZ0NMNFdOeEwwcHRKaHAzc0hwRE5pVzdSUDhOOEhGUTBBZ2pwbnZGa2tSUFRrTUs4NXVXemFnY1M1TDFST0otUVVfVzRRVjhsbDJGbkNPdk9sanZqcGNPM080S29FWDloLTlRYTdPSTZSckFzN19jZWJhQWpsZ1drdmxDZHpLMVVocXpQMGdrZHNtZi0tTWtSNVQxMm5ZNUtBNEM2d0pfY3RtT0VSMm1HSS1FaHVMZWJnSUFyanB6LXZCdTc2THJWZFU4dF9PTFRzU29UbmZxRkZncWgzVWdTc2Y0bjlIUElZUWtVWDFKbXdzbE1XMWVfS0pKQTd2TkJBVkhmdW5JM1BEcGZhUVVHRU96YlFHUGROT213WHM?oc=5",
+          "pub_date": "Fri, 06 Aug 2021 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Elon Musk plans artificial intelligence start-up to rival OpenAI - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sTG02enhRemZDaHVZVG5DSXNSMVRPdDU0RnpNM1RJb3dMUkFBMUhXYkJUSU9mOGRHMEd3STVBdWluLXpRa2habl9fczFuX05wcVFaeHN1bW5xeGpBSlNaNlJ3TGlyWDZ6V3pyRU1YWGU?oc=5",
+          "pub_date": "Fri, 14 Apr 2023 07:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "How China’s BYD played catch-up with Tesla - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yS0RLMnJDUndZcmJZQVN6Q0JQTEFYaDByRF9rRl93SzZzdU5URnhsMmJia1RvWHlMXzZocnlrZzVGYmZxaTdVZGxQb3VUWlYtb1k2bjZUbThvaG9TYmlrdDRrdWZNMHJSNlZKSzliTkw?oc=5",
+          "pub_date": "Wed, 06 Jul 2022 07:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Cutting-edge pressure and BYD leads Tesla - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92UUsyOGE0U0l4anp2YUVUdXpHaDRRVWZiMjNlbWtrX1MwR0JoLXhSTG5NZUdZS2lEVWJmSzRqRWZkelppVXhsODlXcC13VGF6dTB6MHNUSEhzQWF4Sl9GbW5YNWJCVU5palhkUVpBelQ?oc=5",
+          "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Tesla Replaces South Korea Chief as Musk Meets With Head of State - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNclBqcnpwUGdpQ0trVUZvb0RRbXV1X0NiNFZyMERHTi01dmxzNWYtMTRnSV9qdW1ncmN4d3d1YnEyM05SNVRVSXcwZnBfT0xzbmVaUUthOHlhYWlVQk5nMXVPYTZjbWxXSGdkLW95WHY3UWRSVDZzTGVqLXRsNTlnZnZBRGRPWUt4ZlZoVk8wNnpRbXAwWC1kVVJKR2ZoaHg1ZDlZMXZJNS0?oc=5",
+          "pub_date": "Thu, 27 Apr 2023 07:00:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Tesla's Stack Shows That Real‑Time Systems Need Fewer ... - Medium",
+          "url": "https://medium.com/@yashbatra11111/teslas-stack-shows-that-real-time-systems-need-fewer-abstractions-6af885a25872",
+          "text": "Tesla’s Stack Shows That Real‑Time Systems Need Fewer Abstractions | by Yash Batra | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40yashbatra11111%2Fteslas-stack-shows-that-real-ti",
+          "score": 0,
+          "published_date": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "title": "How Tesla's Tech Stack is a Testimony to the Need for Open Source ...",
+          "url": "https://medusajs.com/blog/tesla-open-source/",
+          "text": "Medusa - How Tesla’s Tech Stack is a Testimony to the Need for Open Source Solutions\n\nTry out Bloom: Build commerce with AI\n\n- Docs· Get started\n\nBlog\n\nApril 21, 2022·Company\n\n# How Tesla’s Tech Stack is a Testimony to the Need for Open Source Solutions\n\nShahed Nasser\n\nShahed Nasser\n\nWhy did Tesla create their own ERP software and how does this show the need for open so",
+          "score": 0,
+          "published_date": "2022-04-21T00:00:00.000Z"
+        },
+        {
+          "title": "Tesla Expands AI Chip Team in South Korea: What It Means - basenor",
+          "url": "https://www.basenor.com/blogs/news/tesla-expands-ai-chip-team-in-south-korea-what-it-means",
+          "text": "Tesla Expands AI Chip Team in South Korea: What It Means\n\nFree Shipping in the USA - Shop now\n\nShare\n\n- PRODUCT REVIEWS\n\n⚡ BREAKING — 0h ago\n\n### 30-Second Brief\n\nThe News: Tesla's AI division announced recruitment for chip design engineers in South Korea, marking a strategic expansion into one of the world's premier semiconductor talent markets.\n\nWhy It Matters: This hiring push strengthens Tesla's in-house sili",
+          "score": 0,
+          "published_date": "2026-02-14T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - devkoriel/teslalarm-kr: 🚀 Teslalarm KR Real-time, AI-powered Tesla news & price alerts tailored for the Korean market. Stay updated on price changes, new model releases, and more – delivered directly to your Telegram. 🔔 Join us and help revolutionize Tesla news in Korea!",
+          "url": "https://github.com/devkoriel/teslalarm-kr",
+          "text": "# Repository: devkoriel/teslalarm-kr\n\n🚀 Teslalarm KR Real-time, AI-powered Tesla news & price alerts tailored for the Korean market. Stay updated on price changes, new model releases, and more – delivered directly to your Telegram. 🔔 Join us and help revolutionize Tesla news in Korea!\n\n- Stars: 2\n- Forks: 1\n- Watchers: 2\n- Open issues: 7\n- Primary language: Python\n- Languages: Python (99.7%), Dockerfile (0.2%), Procfile\n- License: MIT License (MIT)\n- Topics: crawler, telegram-bot, tesla\n- Defa",
+          "score": 0,
+          "published_date": "2025-03-11T00:00:00.000Z"
+        },
+        {
+          "title": "HydraNet",
+          "url": "https://velog.io/@cosmicdev/HydraNet",
+          "text": "HydraNet\n\ncosmicdev.log\n\n로그인\n\ncosmicdev.log\n\n로그인\n\n# HydraNet\n\npark paul·2022년 1월 21일\n\n팔로우\n\n0\n\nCV DL\n\n# Intro\n\n테슬라 AI Day에서 발표된 기술을 정리를 해나갑니다. 우선 Deep Understanding Tesla FSD의 Part1인 HydraNet을 살펴보겠습니다. 참고) [https://saneryee-studio.medium.com/deep-understanding-tesla-fsd-part-1-hydranet-1b46106d57](https://saneryee-studio.medium.com/",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.42857142857143,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.357142857142858,
+        "evidence": "13 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "naver_news",
+      "section": "overview",
+      "url": "https://search.naver.com/search.naver?query=테슬라코리아"
+    },
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01475371"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=테슬라코리아"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=테슬라코리아+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=테슬라코리아 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=테슬라코리아 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=테슬라코리아 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=테슬라코리아 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%ED%85%8C%EC%8A%AC%EB%9D%BC%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

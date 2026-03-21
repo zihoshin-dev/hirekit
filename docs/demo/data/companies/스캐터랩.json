@@ -1,612 +1,850 @@
 {
   "company": "스캐터랩",
-  "sources_used": [
-    "google_news",
-    "naver_search",
-    "brave_search",
-    "exa_search",
-    "credible_news",
-    "dart"
-  ],
-  "result_count": 11,
-  "sections": [
-    "strategy",
-    "culture",
-    "overview",
-    "tech"
-  ],
-  "data": {
-    "company_name": "주식회사 터",
-    "company_name_eng": "Teo Co.,Ltd",
-    "stock_name": "터",
-    "ceo": "양행열",
-    "address": "전라남도 순천시 연향동 1468-6번지 3층",
-    "industry_code": "68111",
-    "established": "20110603",
-    "homepage": "",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
-        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
-        "link": "https://blog.naver.com/ytjoo88/224215031143",
-        "pub_date": "20260313"
-      },
-      {
-        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
-        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
-        "link": "https://blog.naver.com/ve_getable/224210299768",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
-        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
-        "link": "https://blog.naver.com/label3548/224210103873",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
-        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
-        "link": "https://blog.naver.com/fusekimo198735/224209926005",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
-        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
-        "link": "https://blog.naver.com/ve_getable/224207830667",
-        "pub_date": "20260307"
-      },
-      {
-        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
-        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
-        "link": "https://blog.naver.com/magicpaul7/224204238038",
-        "pub_date": "20260304"
-      },
-      {
-        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
-        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
-        "link": "https://blog.naver.com/serohero/224199063326",
-        "pub_date": "20260228"
-      },
-      {
-        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
-        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
-        "link": "https://blog.naver.com/jobpass_/224197697044",
-        "pub_date": "20260227"
-      },
-      {
-        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
-        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
-        "link": "https://blog.naver.com/study_edu_/224193834977",
-        "pub_date": "20260224"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      },
-      {
-        "title": "제주항공 채용 승무원 큐피드",
-        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
-        "link": "http://cafe.naver.com/sheiszzz/1214780",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "Product Owner",
-        "description": "• 한 사이클(1~2개월)마다 ‘풀어야 할 문제’ 혹은 ‘개선하고자 하는 지표’를 트랙 리드/DA와 함께 정의하고, 목표 달성을 위한 전략 및 실험 계획을 수립해요. • PO로서, 매 이터레이션(3일~2주)마다 구현할 기능을 선정하고, 스쿼드원들과 함께 방향성을 조율하며 실제 성과까지 이끌어내요. • 상위 기획(‘기능의 타겟 유저, 제품적인 가치, 지표적인 목표 등’)부터 구체적인...",
-        "link": "https://www.scatterlab.co.kr/ko/o/140006",
-        "pub_date": ""
-      },
-      {
-        "title": "2020년 AI 바우처 지원사업 공급기업 Pool",
-        "description": "2020년 AI 바우처 지원사업 공급기업 Pool 자연어 처리 스크립트+목적 기반의 자연어 처리 예측... 분석 AI 비전 솔루션 제품 품질 불량 검증 및 수치 측정 솔루션 제공 기술 컨설팅 IoT, Big Data...",
-        "link": "https://www.nipa.kr/comm/getFile?srvcId=BBSTY1&upperNo=EyTSUfa0zBqsmMZAe6osHQ==&fileTy=ATTACH&fileNo=iXl5zL1Ure9B6grVXziy0Q==",
-        "pub_date": ""
-      },
-      {
-        "title": "[커버스토리] 신뢰할 수 있는 AI를 위한 여정",
-        "description": "AI는 산업 분야를 막론하고 혁신을 가속화시키기 위한 필수요소로 자리잡았다. 그러나 한편으로 AI의 역할이 커질수록 오작동을 일으켰을 때 발생할 수 있는 사고 규모도 커지고 있다. 마치 불이 인류 문명의 발전에 크게 공헌했지만 때로는 화재를 일으켜 심각한 피해를 입히기도 하는 것처럼 말이다. 특히 딥러닝을 통해 개발된 AI는 여전히 블랙박스 문제를 안고 있...",
-        "link": "http://www.comworld.co.kr/news/articleView.html?idxno=50561",
-        "pub_date": ""
-      },
-      {
-        "title": "IRS 글로벌 홈페이지(www.irsglobal.com)에서는 보다 다양한 산업 보고서 정보를 제공하고 있습니다.",
-        "description": "추진방향 (5) 비전 및 추진 전략 (6) 세부 추진 과제 (7) 추진체계 및 향후 일정 3. AI 시장과 AI 반도체시장동향과전망 3-1. AI 시장... (5) 스캐터랩, ‘이루다’, ‘강다온’ (6) 튜닙, ‘블루니’...",
-        "link": "https://www.irsglobal.com/img_up/shop_pds/irsglobal1/design/pdf/691.pdf",
-        "pub_date": ""
-      },
-      {
-        "title": "AI 프로젝트 600개 2030년까지의 혁신 비전!",
-        "description": "AI와 데이터 기반 산업 혁신의 새로운 방향 ; 정부는 인공지능(AI)과 데이터를 활용하여 산업기술 혁신을 가속화하고 있습니다. 앞으로 2030년까지 600개의 프로젝트를 통해 AI 기술을 적용한 혁신 사례를 만들어 가기를 목표로 하고 있습니다. 이러한 전략은 산업 현장에서 AI의 역할이 점점 중요해진다는 것을 반영하며, 조기에 투자와 연구개발을 통해 기술 경쟁력을 높이고자 합니...",
-        "link": "https://mbalance.co.kr/1085",
-        "pub_date": ""
-      },
-      {
-        "title": "슈퍼휴먼 AI를 만드는 핑퐁팀의 10가지 컬처 코드",
-        "description": "핑퐁팀 문화의 기반이 되는 10가지 컬처코드에 대해 알아볼까요? 스캐터랩 핑퐁팀은 일상대화(Open-domain conversation) AI 기술을 기반으로 5년 안에 영화 &lt;Her&gt;의 ‘사만다’와 같이 사람만큼 좋은 대화 상대, 더 나아가서 사람보다 대화 상대로서 더 선호되는 슈퍼휴먼 AI를 만들겠다는 비전을 가지고 있습니다. 이 비전에 한 발짝씩 다가가기 위해 핑퐁팀은 올해 6월 일상 대화 챗봇 ‘이...",
-        "link": "https://blog.scatterlab.co.kr/culture-code",
-        "pub_date": ""
-      },
-      {
-        "title": "2023년 글로벌 인공지능(AI) 기술개발 동향과 사업화 전략 - 챗GPT가 불러온 AI혁명, 초거대AI, 생성AI기반",
-        "description": "공인인증서가 없어도 법인 및 연구비 (신용)카드로 결제가 가능합니다. 문의: *******@techforum.co.kr 전화: 070-7169-5396 www.techforum.co.kr [계산서 발행안내] - 사업자등록증 사본을 이메일(*******@techforum.co.kr) 로 보내주시기 바랍니다. * 현금결제(계좌이체, 무통장입금)건에 한해서 발행됩니다. [견적서 및 거래명세서 발행안내] - 이메일(*******@techforum.co.kr) 또는 주문 시 '요구사항'란에 메모...",
-        "link": "https://www.techforum.co.kr/goods/26891",
-        "pub_date": ""
-      },
-      {
-        "title": "AI 오케스트레이션을 통한 조직 내 AI 접근성 확대 전략",
-        "description": "04 AI 오케스트레이션을 통한 조직 내 AI 접근성 확대 전략 □ AI가... 맞추었지만, 비전문가 중에는 3분의 1 미만이 정답을 맞춘 세트 4... 향후 AI 에이전트가 나아갈 방향을 제시 • 마누스 AI는 멀티모달...",
-        "link": "https://www.kbfg.com/kbresearch/cmm/fms/FileDown.do?atchFileId=FILE_000000002001452&fileSn=0",
-        "pub_date": ""
-      },
-      {
-        "title": "DeNA는 어떻게 AI트랜스포메이션을 추진하고있는가? -DeNA의 AI 전략과 미래 비전: AI 혁신을 통한 경영 및 비즈....",
-        "description": "일본의 대표적인 IT 기업인 DeNA 역시 이러한 흐름을 반영하여 AI를 경영의 중심에 두고, 효율성 증대와 신사업 창출을 목표로 적극적인 AI 도입 전략을 추진하고 있다. 특히, AI를 활용한 업무 자동화 및...",
-        "link": "https://contents.premium.naver.com/aidx/aix/contents/250220112145006ci",
-        "pub_date": ""
-      },
-      {
-        "title": "전략 수정 필요한 데이터 라벨링, 생성 AI 최적화 전략 대두",
-        "description": "대표적인 것이 지난 정부 '한국판 뉴딜' 사업의 하나인 디지털 뉴딜에서 시작한 데이터 라벨링 사업이다. 과학기술정보통신부는 이 사업을 생성 AI 시대에 맞춰 혁신하는 방안을 추진 중이다. 12일 정부의 디지털 뉴딜 정책 설명(2020년 발표)에 따르면, 정부는 데이터 라벨링에 대해 &quot;옷의 안쪽에 천 조각으로 상표나 품명, 취급 주의사항이 적혀있는 것처럼 화면 속 객체가 개인지,...",
-        "link": "https://www.hellot.net/mobile/article.html?no=77045",
-        "pub_date": ""
-      }
-    ],
-    "google_news": [
-      {
-        "title": "스캐터랩 ‘제타’, 일본 엔터테인먼트형 AI 앱 이용자 수 1위 - 플래텀(Platum)",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11eWJGbEhmN1hrOXRDQ0t0LU16VXVKQkdJd1VBbUp1VnZ4OE0zTXZ6X1MyM2xaQlV3Y01Hamlzc0FoT1EzUDJURA?oc=5",
-        "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
-        "source": "플래텀(Platum)"
-      },
-      {
-        "title": "[엔터프라이즈핫이슈] 칩·에이전트까지...AI판 빅테크 M&A 대공세 - 디지털투데이",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53OUMxTDBZMmNpam14Mkc2VnpRanhndFM1RGwxRFNPSWxTNjF0V2YtN3JMUmtzcmZtZ0h0c09CekVRemNYbHg5UkRNbzk2aTFjWWttTVpHNy15N0M3eHhRbjFMSlY0enZCSTJ3MG9idVF3ZzA?oc=5",
-        "pub_date": "Thu, 01 Jan 2026 08:00:00 GMT",
-        "source": "디지털투데이"
-      },
-      {
-        "title": "딥시크 DeepSeek 가 가져온 AI 프로덕트 시장의 변화 | 인사이트리포트 | 삼성SDS - Samsung SDS",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYU5mRlRsQ2Q0TFNndWRQM3phUkQybTExVkUyckJfUFV3SW9oUmx0TV9SUEtGRmI2bW42cGdOaXdtMmpYU09INDdkQlBhRWFBMnJrNVMzdVJLTXhIY3lJSDZ5cVg4MnJTeW90aGNlcDNlaEdSVVlhS3BoRExrX2JpbUtYYzhmeGJZNlkxUw?oc=5",
-        "pub_date": "Wed, 21 May 2025 07:00:00 GMT",
-        "source": "Samsung SDS"
-      },
-      {
-        "title": "[최앤리의 스타트업×법] 이루다’ 사건으로 본 AI와 개인정보 처리의 문제 - 플래텀(Platum)",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1nMFRaWkxNUGNWN25venZWMWNVc3htRmpHZjNleVNOM1lBYTVVN3hlWmVoSTZrMVlGMXlsQjJmY3EweENuU3pBRA?oc=5",
-        "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
-        "source": "플래텀(Platum)"
-      },
-      {
-        "title": "스캐터랩, 데이터브릭스와 협업으로 자체 LLM 구축 성공 - Databricks",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3VXB3ZzNISGhwWDhuanJiSENJeXEzUVdEeUdtMzVFcS1ScXlFREFGRjAyTTlYZjNHNkJ0UUNXdHhNT3VNVVp4TFNmRHpZcF93Z3dKSUNqUzUxbWFLTkZaRQ?oc=5",
-        "pub_date": "Tue, 18 Mar 2025 19:11:01 GMT",
-        "source": "Databricks"
-      },
-      {
-        "title": "AI로 일자리 줄어든다는데…K-AI기업, 직원 최대 2배 증가 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBtT2xmcWpEQ0RtbHh6WUJIUUpLZVBKVFNxaGtTaXJhaUszX09QV3ZGaUtpdjN6T3dMcDRYWmFPSkpIZ3Z5Z2ZqYVlDdlZiZw?oc=5",
-        "pub_date": "Mon, 29 Dec 2025 08:00:00 GMT",
-        "source": "전자신문"
-      },
-      {
-        "title": "스캐터랩, K-AI 엔터테인먼트 플랫폼 ‘제타’로 3분기 연속 흑자 - 플래텀(Platum)",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BN1IwYlozRXVvZUJ6V3QzZDNHanlRdDNCU0FVenNPWk9XVFBOclBmUGdNNENvMGc0amFNQ2w5MENWbW1wLVRTWQ?oc=5",
-        "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
-        "source": "플래텀(Platum)"
-      },
-      {
-        "title": "“AI 챗봇, 외로움·불안감 완화에 도움” 스캐터랩-유니스트 연구 결과 - itworld.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPdTdHd3FCRjJ0WHdnd1hPWmJfUmxreHVKLUxvWFFpbnZyTnhxSnowV3RCVmtQWjNfQkh2NHJNNkF2UERHNk1VbG5SQ3U1R3FnVk5wM2NmYm8xcEEtTE1zeXVVYU03NkVrYk9iLThjNGxaM3dUNEJBN2docXBwM1lMelNPbVdiS00xeDY3NEJnUkVGN0NfQXo3Y2cxZHpQa181NkpzRUNaNWVueWpNYWVQdVJvbnJCYzVJWThGMzZDLXhGN3JXZmVZR2RYT25USWVteVlheVhkdzdPSjdhZ1d5NFpIVmhOalgyaUZ3bFpkNjN6dVVvcW5sRkdnTXpzTG1GM0VsRjByRE1IUXNSVHdXWkUzMU5iTU5acFpLTVhWVk1PLVhmd092bUV2MUV2Qm05OFk0d3JGaUNYTV9LX2JBbmhLQjlCdw?oc=5",
-        "pub_date": "Wed, 22 Jan 2025 08:00:00 GMT",
-        "source": "itworld.co.kr"
-      },
-      {
-        "title": "AI 기업들이 응답했다 “인공지능 신뢰성 확보 필요하다” - 더에이아이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRZWE4VUNEZDZIel9ZT2xYeHB2NWpsQmEtUUtoc2xsY0xPeVhDczVyMUlzZFJ3RFJBV01zMVdkVXRISHBBWWlOY3F3TVppdDhUbVVudGhZQldhTkJrS3JuMkhHdWEwQWtp?oc=5",
-        "pub_date": "Thu, 01 Jun 2023 07:00:00 GMT",
-        "source": "더에이아이"
-      },
-      {
-        "title": "일잘러의 AI는 다르다 - 브런치",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KZjRQS2w2bFo1aXplQTBWeDRULXpzNWIxeXR5UnJHdmtuRnRQRnY4T2RseHVVcHAxUERsYXlkaE54UGt2N2hIY1BmSzloVGdzMHhLc3k3Wi0?oc=5",
-        "pub_date": "Sun, 18 Jan 2026 00:54:03 GMT",
-        "source": "브런치"
-      },
-      {
-        "title": "'AI 파트너' 찾기에 진심…유영상의 SKT, 연간 3500억원 배팅 - 유니콘팩토리",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56amNhNW9JYldOdWU0Sk5ocjlWT1dSYVJrWWUwTUFhUkh2Y1pkVWN1UUZHWVBVRDU1c2I0VG5NR2xEV3p3TmMweFotT1dZQmZ6M3lLVl9GSW1SNHd4OExwczd1WHJIM1VsOGk4Vg?oc=5",
-        "pub_date": "Tue, 19 Mar 2024 07:00:00 GMT",
-        "source": "유니콘팩토리"
-      },
-      {
-        "title": "\"큰 손 잡아 보릿고개 넘자\"…'기업 손님' 찾아나선 B2C 플랫폼 [긱스] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rbldDVHdzbVU2WWgtU3JtU21jX0dmR015Q0JscFpYdS1oNzJfanVkRW1CRTVYOWhEbDRRemM2TXZYSzktR0MyVDJWcmhLa0cxT3JycmgxVFZXUdIBVEFVX3lxTFAtNG82RGhYY2ZXX2l1MmNLRWJWSFFtWFVFclpicmZxaHNDaUQwTmhPdEFTbXZXWmFmc290SVJGWUJCUEdycERTZzVkb1FqTzV4N1I4WA?oc=5",
-        "pub_date": "Wed, 20 Sep 2023 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "SKT, AI 컨택센터 전문 페르소나 AI에 투자...사업 영역 확대 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtdkt5VW9aQkEzbUpoUi1hTl9DNFhMb3dBM1h1czJ3RzdEVzJfWERhbVVXR19zaG5qMTgzZmctcTR6X2VmVDNONDNSZktrcl9QSXhVQ0pYeXhnTzNLT2ZkSzgtbmFVa19CYUE?oc=5",
-        "pub_date": "Mon, 21 Aug 2023 07:00:00 GMT",
-        "source": "AI타임스"
-      },
-      {
-        "title": "[Opinion] AI에게 차별 당하는 사람들? [문화 전반] - 아트인사이트",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBva0hvNEtNakJEb01vcDZRY05LVXQ1Y2RvZFZhdmRzdE9GeEdOblY3SVBqcVFwOGFhSmxwck96WDlQdXVFdWZtS0phbmFtZ0pHV1dHbjMyLXNHZDhMS082cw?oc=5",
-        "pub_date": "Fri, 07 Jan 2022 08:00:00 GMT",
-        "source": "아트인사이트"
-      },
-      {
-        "title": "AI투자 사활건 통신업계…SKT는 AI스타트업 발굴, KT·LG유플은 글로벌 기업과 맞손 - 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OUUNZcUYyN1ZZejVja3M1WlhOdXhuU1ZkVG5KaXlQNWd6NExiYTFPN3RkZi1CRGFWdE5ORGVuUVFUdHVjcE8yZ1NKYS1jTGhsd0k0?oc=5",
-        "pub_date": "Thu, 13 Mar 2025 07:00:00 GMT",
-        "source": "네이트"
-      },
-      {
-        "title": "스캐터랩, 日서 '제타' 월 매출 11억 돌파…수익화 '기대' - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02ZFlhRUgyWFhpaWFuWUd3a3ZTZWRHWU9pSWJLMGZJbkxaMVJKSWtnNFhSZkVFdlNBRE1LSEt4RVhWQ0tXbjFhSXBqQkhVM3plYUIxZndR?oc=5",
-        "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "스캐터랩 ‘제타’, 최대 매출 기록…일본내 1위 이어가 - BI KOREA",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vT3FWNkV0M2Z2Nk5DWEJkZXVKM1FFMlcwNmpkblpsUGdvbExfZHlabHc1b0tpZVo1UVpMeDZHS0w2TGxVS2xFcnVQaHpGbnF6M01HUk9rOWFqOUlZXzVKYkJTTHFiUQ?oc=5",
-        "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
-        "source": "BI KOREA"
-      },
-      {
-        "title": "서울시 AI 에이전트부터 제타까지…국감서 `인공지능 서비스` 도마 위 - 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11UGJrT3VubnlxUHFiczNKMDBNRG85QlBqdExQVjJIUXRjVThLTzhDLW9ZeXVrRWxiZ3JCOWlBeG1qYzR4SEV4QXpKbUVja1d3T2Z2WUJUSHJ3SlBuanlPTHZB?oc=5",
-        "pub_date": "Fri, 10 Oct 2025 07:00:00 GMT",
-        "source": "디지털데일리"
-      },
-      {
-        "title": "스캐터랩, '이루다' 개인정보 소송 1심 패소…\"사업엔 영향 없어\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IU3lpbmZjUE1ic3RUUzlDcXB5NGJXT19Ob000SHBjSVhMcVExOEZXeXpTamVhR01qTU1Cc01TYk16NTQyYVM1M2taeXhlUklQSGl1TmtR?oc=5",
-        "pub_date": "Tue, 15 Jul 2025 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "'이루다'의 스캐터랩, 기업용 AI 시장에 도전장 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oS1Q3emd2TXpwSnozVDBwOU1iRHlRSHQ4V2VoYURvb1lOLUZ3QVlJZGNVd29TUjJSdWU1WTBEcG1mM0dTbFdDbmdVYzNZYjgwdjl4NW9nZ1Q5Q2hXTTJZZEpDVEhDd0FhWWc?oc=5",
-        "pub_date": "Thu, 14 Sep 2023 07:00:00 GMT",
-        "source": "AI타임스"
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "㈜스캐터랩 2025년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/recruit/co_read/c/scatterlab",
-        "description": "㈜스캐터랩의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요."
-      },
-      {
-        "title": "블라인드 | 스캐터랩 기업정보",
-        "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/",
-        "description": "스캐터랩의 기업문화, 근무환경 등의 기업 정보와 최신 소식을 블라인드에서 확인하세요."
-      },
-      {
-        "title": "스캐터랩(Scatterlab) 기업정보 - 채용 7건, 평균연봉 5,882만원, 인원 42명, 업력 14년, 서울 성동구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/2977",
-        "description": "스캐터랩(Scatterlab) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "스캐터랩(연애의 과학) 채용 정보",
-        "url": "https://www.rocketpunch.com/companies/scatterlab/jobs",
-        "description": "더 보기 근무환경 - 단순히 직장을 다닌다는 느낌 보다, 우리가 믿는 바를 실현하기 위해 함께 일하는 경험 - 능력있는 동료와 서로 배우며 성장하는 경험 - 많은 사람들이 사랑하는 서비스를 만들고 성장시키는 경험 - 경쟁력 있는 연봉 (경력/역량에 따라 책정) - 뚝섬역 걸어서 2분 거리에 있는 패스트파이브 서울숲점 - 스캐터랩의 색깔에 맞게 구성한 커스텀 오피스 공간 - 크고 아름다운 27인치 iMac (혹은 맥북 프로) - 12분마다 한 번씩 터지는 각종 드립"
-      },
-      {
-        "title": "(주)스캐터랩 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WE5PbXBYaE1CUy9NakkxWXdPcklDZz09/company_nm/(%EC%A3%BC)%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
-        "description": "(주)스캐터랩 기업소개 - 업력 : 15년차, 기업형태 : 중소기업, 스타트업, 업종 : 응용 소프트웨어 개발 및 공급업 | (주)스캐터랩의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 ..."
-      },
-      {
-        "title": "(주)스캐터랩 2025년 기업정보 | 26건 면접후기 3.1 면접난이도 | 잡플래닛",
-        "url": "https://www.jobplanet.co.kr/companies/92214/interviews/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
-        "description": "<strong>수평적인 문화 분위기 좋아요</strong> 만족스런 문화 능력있는 동료 주 4.5일 꿀근무 인지도하면 여기 최고의 연봉·보상 탄탄한 비즈니스 복지 끝판왕 직원 존중은 기본 요즘 대세 워라밸 인생 ..."
-      },
-      {
-        "title": "Scatter Lab - 스캐터랩",
-        "url": "https://www.scatterlab.co.kr/ko/recruiting",
-        "description": "문화 · 블로그 · 채용 · AI 윤리 · English · 日本語 · 채용 관련해 궁금하 점이 있으시다면 [email protected] 로 연락주세요. 1-2일 내로 답변 드릴 수 있도록 하겠습니다. 구분 (2) 부문 (2) 직군 (7) 직무 (3) 경력사항 (2) 고용형태 (3) 근무지 (2) 1:1 티타임 요청 · 인재풀 · 경력 무관 · 스캐터랩 ·"
-      },
-      {
-        "title": "(주)스캐터랩 2025년 기업정보 | 기업리뷰 27건, 연봉정보 23건, 면접후기 27건, 복지정보 16건, 채용공고 0건",
-        "url": "https://www.jobplanet.co.kr/companies/92214/landing/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
-        "description": "(주)스캐터랩 기업정보 - 산업: 솔루션/SI/ERP/CRM, 기업형태: 중소기업, 사원수: 55명, 설립: 2011.08.01 | (주)스캐터랩의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
-      },
-      {
-        "title": "Scatter Lab - 스캐터랩 채용",
-        "url": "https://www.scatterlab.co.kr/ko/intro",
-        "description": "문화 · 블로그 · 채용 · AI 윤리 · English · 日本語 · 2024년 4월 1일 세상에 첫선을 보인 제타는 놀라운 속도로 성장해왔습니다. 겉으로 보기에는 제타가 단순한 ‘AI 채팅앱’이라고 생각하실 수 있지만, 스캐터랩은 제타를 AI가 이끄는 새로운 엔터테인먼트 패러다임으로 보고 있습니다."
-      },
-      {
-        "title": "㈜스캐터랩 진행 중인 채용정보 총 0건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/recruit/co_read/recruit/c/27685853",
-        "description": "㈜스캐터랩 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "스캐터랩 (Scatter Lab) | LinkedIn",
-        "url": "https://kr.linkedin.com/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
-        "text": "Scatter Lab is an AI startup dedicated to building AI native entertainment products.\n\nOur main product 'zeta' is an innovative fantasy experience platform that seamlessly blends interaction and narrative to create immersive storytelling. Currently, 2.5M users across Korea and Japan playing 'zeta' over 12 hours per week. Unlike traditional media where you're just watching or playing within set boundaries, zeta lets you become the main character in your own personalized story. Think of it as a gam",
-        "score": 0,
-        "published_date": "2024-12-17T00:00:00.000Z"
-      },
-      {
-        "title": "스캐터랩(scatterlab) | 채용, 회사소개, 연봉, 매출, 직원",
-        "url": "https://www.rocketpunch.com/companies/scatterlab",
-        "text": "로그인 후 검색 가능\n\n홈가장 빠른 소식\n\n네트워킹이벤트 · 컨퍼런스업데이트\n\n채용새로운 기회 탐색\n\n교육부트캠프 · 직무 역량강화\n\n채팅나를 위한 소식\n\n허브기업 · 학교 · 사람 모아보기\n\n접기\n\n개인정보와 약관\n\n기업 서비스\n\n지원센터\n\n쿠키 맞춤 설정\n\n본 서비스에서 제공하는 사용자의 개인정보 데이터를 포함하여 각 정보주체의 동의 없이 데이터를 무단으로 수집하는 행위를 금지 및 거부합니다. 공개된 데이터도 크롤링 등 기술적 장치를 이용해 ",
-        "score": 0,
-        "published_date": "2014-01-07T00:00:00.000Z"
-      },
-      {
-        "title": "스캐터랩 채용 | 진행 중인 채용 3건",
-        "url": "https://www.rocketpunch.com/companies/scatterlab/jobs",
-        "text": "로그인 후 검색 가능\n\n홈가장 빠른 소식\n\n네트워킹이벤트 · 컨퍼런스업데이트\n\n채용새로운 기회 탐색\n\n교육부트캠프 · 직무 역량강화\n\n채팅나를 위한 소식\n\n허브기업 · 학교 · 사람 모아보기\n\n접기\n\n개인정보와 약관\n\n기업 서비스\n\n지원센터\n\n쿠키 맞춤 설정\n\n본 서비스에서 제공하는 사용자의 개인정보 데이터를 포함하여 각 정보주체의 동의 없이 데이터를 무단으로 수집하는 행위를 금지 및 거부합니다. 공개된 데이터도 크롤링 등 기술적 장치를 이용해 ",
-        "score": 0,
-        "published_date": "2014-01-07T00:00:00.000Z"
-      },
-      {
-        "title": "스캐터랩(Scatterlab) 기업정보 - 채용 3건, 평균연봉 5,882만원, 인원 42명, 업력 15년, 서울 성동구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/2977",
-        "text": "스캐터랩(Scatterlab) 기업정보 - 채용 5건, 평균연봉 5,882만원, 인원 42명, 업력 15년, 서울 성동구 | 원티드\n\n# 스캐터랩(Scatterlab)\n\nIT, 컨텐츠서울 성동구16년차(2011)\n\n회사 소개 스캐터랩은 국내 최고의 일상대화 AI 기술을 바탕으로 재미있고 말랑말랑한 제품을 만드는 AI 스타트업입니다. 한국에서 가장 유명한 챗봇 ‘이루다’는 지금까지 200만 유저와 10억 건 이상의 대화를 나눴으며, 스캐터랩은 뛰어난 AI 기술과 유저의 마음을 사로잡는 제품 기획 역량을 인정받아 현재까지 SK텔레콤, 소프트뱅크, NC소프트, 크래프톤 등으로부터 누적 410억 원 규모의 투자를 유치하였습니다. 제품 소개 - 제타 스캐터랩은 24년 4월 1일 새로운 AI B2C 서비스인 ‘제타’를 출시했어요. ‘제타’는 유저가 주인공이 되어 원하는 캐릭터, 세계관, 상황에 몰입하며 대화하고 나만의 스토리를 만들어갈 수 있는 새로운 엔터테인먼트 서비스예요. 출시한지 1년도 ",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "(주)스캐터랩 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WE5PbXBYaE1CUy9NakkxWXdPcklDZz09/company_nm/(%EC%A3%BC)%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
-        "text": "(주)스캐터랩 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n관심기업을 설정하여 기업의 최근 소식을 받아보세요\n\n도움말\n\n조회기간 2026.02.13 ~ 2026.03.12\n\n본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다.\n\n조회수\n\n3% 241회\n\n관심기업\n\n3회\n\n기업 키워드 검색 횟수\n\n41회\n\n- 노동조합有 기업 모음\n- 휴식시간 필요해요\n- 채용중★스타트업\n- 야근 눈치 보지마요\n- 남성출산휴가 기업!\n- 간식제공 복지 기업!\n- 나의 커리어 첫 시작\n- 슬기로운 육아휴직기업\n- Refresh 휴가\n- 수면실 보유 기업모음\n- 월급을 사수하자!\n- 웰컴키트 지급 기업\n- 자유 복장 기업 모음\n- 초임3천5백↑스타트업\n- 포상휴가를 주는 기업\n- 회사에서 즐기는 게임\n- 무제한 연차 기업!\n- IT통신업종★스타트업\n- 명절선물/귀향비\n- 스타트업의 매력★\n- 출산의",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "Scatter Lab - Products, Competitors, Financials, Employees ...",
-        "url": "https://www.cbinsights.com/company/scatter-lab",
-        "text": "Scatter Lab - Products, Competitors, Financials, Employees, Headquarters Locations\n* Technology Vendors\n* Recent Research\n* Newsletter\n* Media Support\n* Login\n[![CB Insights](https://public-pages.cbinsights.com/public-site/545560/_next/static/public/images/CBI_Logo_White.s",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "스캐터랩, AI 플랫폼 ‘제타’로 3분기 연속 흑자… 매출 52억 원 돌파 < no_feed < 컴퓨팅 < 뉴스 < 기사본문 - 뉴스탭",
-        "url": "https://www.newstap.co.kr/news/articleView.html?idxno=308525",
-        "text": "스캐터랩, AI 플랫폼 ‘제타’로 3분기 연속 흑자… 매출 52억 원 돌파 --\n\n발행일: 2026-02-20 17:14 (금)\n\n- 광고문의\n- 기사제보\n- 공지사항\n\n기사검색\n\n이전 기사보기 다음 기사보기\n\n스캐터랩, AI 플랫폼 ‘제타’로 3분기 연속 흑자… 매출 52억 원 돌파\n\n--\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n컴퓨팅\n\n--\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n생성형 인공지능(AI) 스타트업 스캐터랩이 자사 AI 엔터테인먼트 플랫폼 ‘제타(zeta)’의 고속 성장에 힘입어 2024년 4분기부터 2025년 2분기까지 3개 분기 연속 흑",
-        "score": 0,
-        "published_date": "2025-07-16T00:00:00.000Z"
-      },
-      {
-        "title": "김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다 - 매일경제",
-        "url": "https://m.mk.co.kr/amp/11968899",
-        "text": "김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다 - 매일경제\n\n# 기사 상세\n\n사회\n\n## 김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다\n\n한국, 일본 넘어 미국 진출하는 K-스타트업\n\n국내 인공지능(AI) 스타트업 스캐터랩(ScatterLab)이 ‘돈 버는 AI’의 가능성을 증명하며 글로벌 시장의 문을 두드리고 있다. 스캐터랩의 핵심 프로덕트는 2024년 4월 출시된 ‘제타(zeta)’로, AI와 사용자가 대화하며 개인화된 서사(Narrative)를 즐기는 서비스다. 대부분의 AI 기업이 천문학적인 모델 운영 비용으로 적자에 허덕이는 가운데, 스캐터랩은 2025년 2분기 매출 52억원, 영업이익률 17%를 달성하며 흑자 구조를 공고히 했다. 국내 시장과 비슷한 시기 진출했던 일본 시장에서는 그야말로 ‘대박’이 났다. 별다른 홍보 없이 입소문만으로 누적 35만 명 사용자를 확보했으며, 일본 엔터테인먼트형 AI 앱 분야 1위를 차지한 것이다",
-        "score": 0,
-        "published_date": "2026-02-23T00:00:00.000Z"
-      },
-      {
-        "title": "2026 AI Business Predictions",
-        "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html",
-        "text": "2026 AI Business Predictions: PwC --\n\nMenu\n\nFeatured insights\n\n\n\nMenu\n\nFeatured insights\n\n\n\nMenu\n\nFeatured insights\n\n\n\nMenu\n\nFeatured insights\n\n\n\nMenu\n\nFeatured insights\n\n[](https://www.pwc.com/us/en/library",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다- 매경LUXMEN",
-        "url": "https://luxmen.mk.co.kr/m/news/main/11968899",
-        "text": "김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다- 매경LUXMEN\n\n기사 검색\n\n검색하기\n\n로그인\n\n로그아웃\n\n섹션\n\nCover&Special\n\nLeaders\n\nMoney\n\nBusiness\n\nGlobal\n\n[Trend&Lifestyle](https://luxmen.mk.co.kr/m/list/",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "GitHub - scalar/scalar: Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern Rest API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　✨ 1st-Class OpenAPI/Swagger Support · GitHub",
-        "url": "https://togithub.com/scalar/scalar",
-        "text": "GitHub - scalar/scalar: Scalar is an open-source API platform: 🌐 Modern Rest API Client 📖 Beautiful API References ✨ 1st-Class OpenAPI/Swagger Support · GitHub\n\n/ scalar Public\n\nStar 14.3k\n\n- Fork 782\n- Notifications\n- Pricing\n\nmain\n\n[Branches](https://",
-        "score": 0,
-        "published_date": "2023-08-16T00:00:00.000Z"
-      },
-      {
-        "title": "feat: Vite8 migration · Pull Request #8466 · scalar/scalar",
-        "url": "https://github.com/scalar/scalar/pull/8466",
-        "text": "# Pull Request: scalar/scalar #8466\n\n- Repository: scalar/scalar | Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern Rest API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　✨ 1st-Class OpenAPI/Swagger Support | 14K stars | TypeScript\n\n## feat: Vite 8\n\n- Author: @geoffgscott\n- Association: MEMBER\n- State: merged\n- Labels: priority\n- Source branch: geoff/vite-8\n-",
-        "score": 0,
-        "published_date": "2026-03-16T00:00:00.000Z"
-      },
-      {
-        "title": "How we extended the OpenAPI specification",
-        "url": "https://blog.scalar.com/p/how-we-extended-the-openapi-specification",
-        "text": "How we extended the OpenAPI specification - by Ian - Scalar\n\n# Scalar\n\nSubscribeSign in\n\n# How we extended the OpenAPI specification\n\n### Environments, code samples, internal endpoints, and more.\n\nIan\n\nApr 06, 2025\n\n3\n\nShare\n\nWe love OpenAPI, but as a team that develops a suite of tools built around it, sometimes we can find it limited. Luckily, because we control how the OpenAPI document is processed and displayed, we can do something about this.\n\nWe recently [ex",
-        "score": 0,
-        "published_date": "2025-04-06T00:00:00.000Z"
-      },
-      {
-        "title": "How .NET 9 and Scalar solve the problem of under-documented APIs",
-        "url": "https://blog.scalar.com/p/how-net-9-and-scalar-solve-the-problem",
-        "text": "How .NET 9 and Scalar solve the problem of under-documented APIs\n\n# Scalar\n\nSubscribeSign in\n\n# How .NET 9 and Scalar solve the problem of under-documented APIs\n\n### .NET 9 🤝 Scalar\n\nIan\n\nMar 05, 2025\n\n2\n\nShare\n\nStop me if you’ve heard this one before:\n\nYou finish and ship a change to your API.\n\nYou don’t bother to document it.\n\nYou forget to generate and/or update the API docs.\n\nYou definitely don’t publish the newly updated API docs so others can actually use i",
-        "score": 0,
-        "published_date": "2025-03-05T00:00:00.000Z"
-      },
-      {
-        "title": "A Simple Tech Stack for your Engineering Blog",
-        "url": "https://underthehood.meltwater.com/blog/2019/11/25/a-simple-tech-stack-for-your-engineering-blog/",
-        "text": "A Simple Tech Stack for your Engineering Blog - Meltwater Engineering Blog\n\nFor quite a while I am maintaining the Engineering blog for Meltwater at underthehood.meltwater.com. What flew under the radar for a number of years as a side project, is now pushing out multiple blog posts every month, and is helping the company both externally and internally. The blog attracts 50k unique page views per year, so it looks like the content we share is useful for the ",
-        "score": 0,
-        "published_date": "2019-11-25T00:00:00.000Z"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "사이트맵 - 매거진한경",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUUkZRQW1yNE90d21JZndYc1drbXZ3YVF3SmJXR0otbEVzbGN2M21vVUZSeUh2UzlVeUt6bllqYnlOT3BfcGFjNmtJWUZlTGZDNVhYR0JlemdEZVVj?oc=5",
-        "pub_date": "Mon, 29 Dec 2025 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "SKT, 에이닷에 '이루다 감성' 담는다…스캐터랩에 150억 투자 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUnJ6Z3k0d1BlYkRDX1paazZUb1Awc3h1UlpVbEFoTUhBbXljRHoxOENwekZ0Z0NzT2JzOXAwUVRUUmhLVmFUTVAxX0RjakpQVjdqNkcxZ1hQNTR2dDAxS2dtX0NTT0FMMjVfVW1qMzdVYXRlQ2VNbHUtYm9FRW9xaWFyTlJUbDg?oc=5",
-        "pub_date": "Mon, 24 Apr 2023 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "스캐터랩이 수집한 카톡 대화…'이루다'에만 쓰지 않았다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMaTJnU2RZcXlZeUxhR3N0TzVHem9LTzU3T2xWSnJ2YkJqLU1LQ1hhRm9fX2wxZm1xMnJ0ZWFKc0ttOUs5cGdfaWdGeFpFUlNqZlh1aWhBbWhJUdIBVEFVX3lxTE9qNkJNNDZPZnFYZTJqaFNYeXREdFlSUzJ5UW1xeW42SnZqbHBSUW9KQm1FeHJVNEpGWDJGaXJIY1RqdnFCdngyMTQzdGFjbFp0UHZ2ZA?oc=5",
-        "pub_date": "Tue, 12 Jan 2021 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "AI 챗봇 이루다, 17일 돌아온다… “개인정보 보호·어뷰징 대응 강화” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaTM5ZTlFM2dncExnZ2JTSTBJakJ1cDhKX0pMTlNaYUNEby14OTYyYlBVeUIxX1BBSk1jLTg3bzA4bjVpdmZGRzdNc3ROUUlQNGdyTDdUY0V3WTd1OThLRG1pcnZ2UE1pSjkzVFhicE8wQmVtUGlKTHFnMGVOdzJsc3V30gGWAUFVX3lxTE44c3A3S2h4MkN3WEJqS0ZReE5NZHFFeVhsSmxBdi1wS3U1VzZBczV6MjQweldoY3V6Rm5HblRlbG9semV0QzFVWFJOWExJXzV6SllwMXlkclR1OUNnaHdqT2NnRUpGbEtocERhZVgyWEpCQ0s3S0h4YjM4NDM0QkxqMkxGTTdRR1laalVCVDJMM0dqVmtiZw?oc=5",
-        "pub_date": "Mon, 14 Mar 2022 07:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "제타, 일본서 월 매출 11억원 돌파 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcjdneHo4RnoxcDl3RkJ6OEhnbXpuclRMaXJNOTAtNEEza0dQVFpHd1o2MTlLYzdySnl0dmtaSlBzRHo2WjBoNm1OYWtNLXY4SHh5eHNDWWZZRlpoaEhsN1N4c1RxU2lkRDNoanhSQjFEeVByZXVtV0Y2TUVTbFBTdmd30gGWAUFVX3lxTFBZY0R2RmtZOUlFVWg3eXBfNEVPQnlYaGdKQkFTakR3Q1N5M2NGSGNHX2cxekd0TE01NGdoWmxEcnRCNzczdkwzUWhUcG4zQjR5RlVkcVZFall4TGRWY1hTRzNoOHJsTFUzdVJGLW5WSTZvU0NaNDV5TEJhU3BOMkVZXy13ekltWExVQTZ5TkE0TDBfSDdZZw?oc=5",
-        "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "스캐터랩 “AI와의 대화, 외로움·사회 불안 완화 효과” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaXNlRVBNTG9PZkVxaFRnMWM4anhvWU83SDBTRmE3RTUwMkp2RExMVVVPQ1Q3X0xmTW8xQU9CSVlXbGIweXNmem5BOEUydUZkYnFMSTRWUFYwOTQwWTNMT0VDWUpaN21KSjlMWl9ONmdXbnowVmU5LWlFU1BPWXFaS0RB0gGWAUFVX3lxTFBNSTRZRTE1YnotRThBRVpicHhCNHVxeUpWSUFDeWlmMzlJZmlBYVJYTjZPRGVNMGhkR3pIanM2VDB3S2pSeGhqdVA5NnhUQmxvU05tbi1BcjRnMnRsS2VwSnozU0YxdVZvdHhKTWZYNExoYzdkMzY1ek5FeTlRM0g3WGd4alJ0ckxnLUtQSmFMYktoTmhXUQ?oc=5",
-        "pub_date": "Wed, 22 Jan 2025 08:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "3월 FOMC 앞둔 한국증시 2중고 ‘중동리스크·인플레’ - mk.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qNG5XSGloemFObHJtTE93ZzJBVU41YVJCczVHMnZVTlNqUHpaQ1JoNkd1UUNYVk9DS0hCbk1UYlItZGJqbEFiZ2RRZnZMNGxveW5R?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 00:00:06 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "https://www.mk.co.kr/sitemap/daily-images/20260113 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wTHpOS1NaWHRqMkt2R09hSEpFNlBaX1U2aHdoWXpJV2kxandyVGQ0YkJnSzJTX0hNS1ExbU1NRmdqT3l2OXAwSFE5WVRKcHNQMFp2V0Y3NTlyUmM5SEpr?oc=5",
-        "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다 - mk.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1veURFb2lWekhocDYxaXNEOEpEdlpDeVRGdmtmUTd2dnIyeWllLWNMVHFsalpoUkphT1V1dDBhVXpONlpMSnpfNFJ3T2RjanROWVlGcA?oc=5",
-        "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[일문일답] \"이루다, 아동·성생활 정보 불법수집…법 8건 위반\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40cG9SRkNxeWoxRzkxd3NsLW1GVFE1VE9kVkVHRUx1V0lUcFJLUWNrMG9Qd3g3Mld0OTYyUUZfdWlLNnkwbTRMZkY5T3gyTHlBUnhDaVFn?oc=5",
-        "pub_date": "Wed, 28 Apr 2021 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "이루다 개발사, 이용자 카톡 100건 노출 인정...\"조사 성실히 임할 것\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZS3RYUDNpWG1FQ0dZSHk4ZldtRFBSZm00SDZ4bWM0bUEzRngwQlNwRWtlN1FlZG9mVXFPbnQya094ZEtySWIwaVdlc190Y09IZmZzMmVR?oc=5",
-        "pub_date": "Thu, 14 Jan 2021 08:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "\"사람과 AI가 이야기 제작\"…스캐터랩, 창작 플랫폼 '제타' 출시 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Fb0tUNlVZal9ianhhZG1yRHZCYmRYb01JaG02elNRTFVBWHRYWXVwNnhWNHNHRjdVR2pWT1gtN2h0eVBESndZZUN4WnFzVDRkRldhWVNB?oc=5",
-        "pub_date": "Tue, 02 Apr 2024 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "[넘버스]많고 많은 AI 기업, ‘스켈터랩스’의 경쟁력은 뭘까 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvNWNWNl80aDZwSWtiTG5PVlU5N0Uyazk5eG5jRFBIWFk2Y3VwWmNhblNyS00zdXg0aU9VcTBBOWlJaG9wV2w1S2M2cklUYTNpT3RyMGtMYW5RcVJYZFZHTVlYejJDcDDSAWtBVV95cUxNZXJ1TVhyN05ha0ppajl2dzhzMFg5TnRSNVdhNjNwUHM5VnhDdG1LSzdNTGRHbTdjNk5sTFgxU2hIYkJZZmo0WUF5NEpOQm56aU5adWYtX3ZnSnhIanA1T0VZQnlDWk1vVUwyRQ?oc=5",
-        "pub_date": "Mon, 19 Dec 2022 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "개발까지 단 하루…'그림일기 AI'로 세계 무대 찢은 한국 청년들 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rTGlWa3lkalZrLUptOVJHZklWWkpfcGpjRzRNWTVuRVo2OGE4MVBvMkcwTGhlMGc0NEJSaHhDYy1YbnNKUEl0NHdUcTk2emZoNzlSVHUyeGl6eUxWVXdaV19kN2Fxa0nSAWtBVV95cUxPQkRkTUh4QVBtVmc3ZDVyZHJ1WmJ1VDdVUmMtYUhqZWY5MWttQklrTDNaZ085aG1PVXhjTEJxcFVaanJfRmFVUWFCam9ZU3o1TFVzRXdjUnRBNWd0bkphNUpNV21Ec3dEZGZZaw?oc=5",
-        "pub_date": "Sun, 04 Dec 2022 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "프렌들리AI, 캡스톤파트너스 주도로 275억 투자 유치 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92Tm9DaU03N25VLTJnMHVJUXpwdlFwSkhLalJQRDRUMjdZcGdMcGZybFh5Nlk2WFZ0TWFnQ1Jsc2tISndsRUw2dUUzMHFySmVSQzJqNVRzUVRuWTlTVHI4Z09IOWoyS2pu0gFsQVVfeXFMTmZVSkxKd0k5b1RKSGtFNWNHdXVoSUZibDdKLXdVdmZIYzVRZmlKZjBLMnlITHpqTWlsU01SR0g1RExONHpGaWZqSm1Ec3BraEVEaWZOdlpwTXJKTWl6czZnOW1LREhmelZpQ2pH?oc=5",
-        "pub_date": "Sun, 31 Aug 2025 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "두 기자가 만난 이루다, 그리고 뒷담화 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DODE4bDZlMlpCeEkwOU5PbjBLcGsteDRfbGFDbDFoajAtMjllbERBWkhnT2ZtRTlyTHNzZ3lEcEN4cDIyM0dQNnhfUHNsR3M?oc=5",
-        "pub_date": "Fri, 18 Mar 2022 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "[바스리] AI 챗봇 ‘루다’와 랜선 친구가 됐다 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pcV9Zbzh5SzdlRGhZekRiNG1uMTh3Z1VNZVUyVnNtVFd3VzVSMVRBelJlcjAycjg1cE5sMUN5bDlNTkhrQkI1ejRYOWJ5QQ?oc=5",
-        "pub_date": "Sat, 25 Jul 2020 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "챗GPT 시대, AI스타트업은 어떻게 살아남을 수 있나 (feat.스캐터랩) - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEdy0zUkFWSlRNUldVRW8zeWhCRm1GOVhEV05XLXd6RVJBTGNYQ3VsWGhXVTdralRxRkk4SDB3cGlFUXhoWl84OUtXTGMzN0E?oc=5",
-        "pub_date": "Fri, 17 Feb 2023 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 터",
+      "company_name_eng": "Teo Co.,Ltd",
+      "stock_name": "터",
+      "ceo": "양행열",
+      "address": "전라남도 순천시 연향동 1468-6번지 3층",
+      "industry_code": "68111",
+      "established": "20110603",
+      "homepage": "",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "brave_web_results": [
+        {
+          "title": "블라인드 | 스캐터랩 기업정보",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/",
+          "description": "스캐터랩의 기업문화, 근무환경 등의 기업 정보와 최신 소식을 블라인드에서 확인하세요."
+        },
+        {
+          "title": "㈜스캐터랩 2025년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/recruit/co_read/c/scatterlab",
+          "description": "㈜스캐터랩의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요."
+        },
+        {
+          "title": "스캐터랩(Scatterlab) 기업정보 - 채용 7건, 평균연봉 5,882만원, 인원 42명, 업력 14년, 서울 성동구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/2977",
+          "description": "스캐터랩(Scatterlab) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+        },
+        {
+          "title": "스캐터랩 – 서울잡스",
+          "url": "https://seouljobs.net/recruit/scatter_lab/",
+          "description": "그렇지만 그만큼 실패에도 관대한 문화죠. 빠르게 해보고 실패하고 배우고 다시 시도하는 게 더 빠르다고 생각해요. 그래서 빨리해보고 보자는 주의예요. ... Q. 채용 과정에 대해 알려주세요. A. 포지션에 따라 절차가 조금 다를 수 있겠지만 에디터 같은 경우 과제와 서류를 보고 면접을 봐요. 그리고 모든 포지션은 수습 기간 3개월을 거쳐요. 회사와 본인을 맞춰 보는 기간이 있어야 한다고 생각하기 때문이에요."
+        },
+        {
+          "title": "스캐터랩(연애의 과학) 채용 정보",
+          "url": "https://www.rocketpunch.com/companies/scatterlab/jobs",
+          "description": "더 보기 근무환경 - 단순히 직장을 다닌다는 느낌 보다, 우리가 믿는 바를 실현하기 위해 함께 일하는 경험 - 능력있는 동료와 서로 배우며 성장하는 경험 - 많은 사람들이 사랑하는 서비스를 만들고 성장시키는 경험 - 경쟁력 있는 연봉 (경력/역량에 따라 책정) - 뚝섬역 걸어서 2분 거리에 있는 패스트파이브 서울숲점 - 스캐터랩의 색깔에 맞게 구성한 커스텀 오피스 공간 - 크고 아름다운 27인치 iMac (혹은 맥북 프로) - 12분마다 한 번씩 터지는 각종 드립"
+        },
+        {
+          "title": "(주)스캐터랩 2025년 기업정보 | 기업리뷰 27건, 연봉정보 23건, 면접후기 27건, 복지정보 16건, 채용공고 0건",
+          "url": "https://www.jobplanet.co.kr/companies/92214/landing/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
+          "description": "(주)스캐터랩 기업정보 - 산업: 솔루션/SI/ERP/CRM, 기업형태: 중소기업, 사원수: 55명, 설립: 2011.08.01 | (주)스캐터랩의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
+        },
+        {
+          "title": "(주)스캐터랩 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WE5PbXBYaE1CUy9NakkxWXdPcklDZz09/company_nm/(%EC%A3%BC)%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
+          "description": "(주)스캐터랩 기업소개 - 업력 : 15년차, 기업형태 : 중소기업, 스타트업, 업종 : 응용 소프트웨어 개발 및 공급업 | (주)스캐터랩의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 ..."
+        },
+        {
+          "title": "Scatter Lab - 스캐터랩",
+          "url": "https://www.scatterlab.co.kr/ko/recruiting",
+          "description": "문화 · 블로그 · 채용 · AI 윤리 · English · 日本語 · 채용 관련해 궁금하 점이 있으시다면 [email protected] 로 연락주세요. 1-2일 내로 답변 드릴 수 있도록 하겠습니다. 구분 (2) 부문 (2) 직군 (7) 직무 (3) 경력사항 (2) 고용형태 (3) 근무지 (2) 1:1 티타임 요청 · 인재풀 · 경력 무관 · 스캐터랩 ·"
+        },
+        {
+          "title": "(주)스캐터랩 2025년 기업정보 | 26건 면접후기 3.1 면접난이도 | 잡플래닛",
+          "url": "https://www.jobplanet.co.kr/companies/92214/interviews/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
+          "description": "<strong>수평적인 문화 분위기 좋아요</strong> 만족스런 문화 능력있는 동료 주 4.5일 꿀근무 인지도하면 여기 최고의 연봉·보상 탄탄한 비즈니스 복지 끝판왕 직원 존중은 기본 요즘 대세 워라밸 인생 ..."
+        },
+        {
+          "title": "㈜스캐터랩 진행 중인 채용정보 총 0건 - 채용 히스토리 통계 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/recruit/co_read/recruit/c/27685853",
+          "description": "㈜스캐터랩 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+        }
+      ],
+      "google_news": [
+        {
+          "title": "스캐터랩 ‘제타’, 일본 엔터테인먼트형 AI 앱 이용자 수 1위 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11eWJGbEhmN1hrOXRDQ0t0LU16VXVKQkdJd1VBbUp1VnZ4OE0zTXZ6X1MyM2xaQlV3Y01Hamlzc0FoT1EzUDJURA?oc=5",
+          "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "[엔터프라이즈핫이슈] 칩·에이전트까지...AI판 빅테크 M&A 대공세 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53OUMxTDBZMmNpam14Mkc2VnpRanhndFM1RGwxRFNPSWxTNjF0V2YtN3JMUmtzcmZtZ0h0c09CekVRemNYbHg5UkRNbzk2aTFjWWttTVpHNy15N0M3eHhRbjFMSlY0enZCSTJ3MG9idVF3ZzA?oc=5",
+          "pub_date": "Thu, 01 Jan 2026 08:00:00 GMT",
+          "source": "디지털투데이"
+        },
+        {
+          "title": "딥시크 DeepSeek 가 가져온 AI 프로덕트 시장의 변화 | 인사이트리포트 | 삼성SDS - Samsung SDS",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYU5mRlRsQ2Q0TFNndWRQM3phUkQybTExVkUyckJfUFV3SW9oUmx0TV9SUEtGRmI2bW42cGdOaXdtMmpYU09INDdkQlBhRWFBMnJrNVMzdVJLTXhIY3lJSDZ5cVg4MnJTeW90aGNlcDNlaEdSVVlhS3BoRExrX2JpbUtYYzhmeGJZNlkxUw?oc=5",
+          "pub_date": "Wed, 21 May 2025 07:00:00 GMT",
+          "source": "Samsung SDS"
+        },
+        {
+          "title": "[최앤리의 스타트업×법] 이루다’ 사건으로 본 AI와 개인정보 처리의 문제 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1nMFRaWkxNUGNWN25venZWMWNVc3htRmpHZjNleVNOM1lBYTVVN3hlWmVoSTZrMVlGMXlsQjJmY3EweENuU3pBRA?oc=5",
+          "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "스캐터랩, 데이터브릭스와 협업으로 자체 LLM 구축 성공 - Databricks",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3VXB3ZzNISGhwWDhuanJiSENJeXEzUVdEeUdtMzVFcS1ScXlFREFGRjAyTTlYZjNHNkJ0UUNXdHhNT3VNVVp4TFNmRHpZcF93Z3dKSUNqUzUxbWFLTkZaRQ?oc=5",
+          "pub_date": "Tue, 18 Mar 2025 19:11:01 GMT",
+          "source": "Databricks"
+        },
+        {
+          "title": "AI로 일자리 줄어든다는데…K-AI기업, 직원 최대 2배 증가 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBtT2xmcWpEQ0RtbHh6WUJIUUpLZVBKVFNxaGtTaXJhaUszX09QV3ZGaUtpdjN6T3dMcDRYWmFPSkpIZ3Z5Z2ZqYVlDdlZiZw?oc=5",
+          "pub_date": "Mon, 29 Dec 2025 08:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "스캐터랩, K-AI 엔터테인먼트 플랫폼 ‘제타’로 3분기 연속 흑자 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BN1IwYlozRXVvZUJ6V3QzZDNHanlRdDNCU0FVenNPWk9XVFBOclBmUGdNNENvMGc0amFNQ2w5MENWbW1wLVRTWQ?oc=5",
+          "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "“AI 챗봇, 외로움·불안감 완화에 도움” 스캐터랩-유니스트 연구 결과 - itworld.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPdTdHd3FCRjJ0WHdnd1hPWmJfUmxreHVKLUxvWFFpbnZyTnhxSnowV3RCVmtQWjNfQkh2NHJNNkF2UERHNk1VbG5SQ3U1R3FnVk5wM2NmYm8xcEEtTE1zeXVVYU03NkVrYk9iLThjNGxaM3dUNEJBN2docXBwM1lMelNPbVdiS00xeDY3NEJnUkVGN0NfQXo3Y2cxZHpQa181NkpzRUNaNWVueWpNYWVQdVJvbnJCYzVJWThGMzZDLXhGN3JXZmVZR2RYT25USWVteVlheVhkdzdPSjdhZ1d5NFpIVmhOalgyaUZ3bFpkNjN6dVVvcW5sRkdnTXpzTG1GM0VsRjByRE1IUXNSVHdXWkUzMU5iTU5acFpLTVhWVk1PLVhmd092bUV2MUV2Qm05OFk0d3JGaUNYTV9LX2JBbmhLQjlCdw?oc=5",
+          "pub_date": "Wed, 22 Jan 2025 08:00:00 GMT",
+          "source": "itworld.co.kr"
+        },
+        {
+          "title": "AI 기업들이 응답했다 “인공지능 신뢰성 확보 필요하다” - 더에이아이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRZWE4VUNEZDZIel9ZT2xYeHB2NWpsQmEtUUtoc2xsY0xPeVhDczVyMUlzZFJ3RFJBV01zMVdkVXRISHBBWWlOY3F3TVppdDhUbVVudGhZQldhTkJrS3JuMkhHdWEwQWtp?oc=5",
+          "pub_date": "Thu, 01 Jun 2023 07:00:00 GMT",
+          "source": "더에이아이"
+        },
+        {
+          "title": "일잘러의 AI는 다르다 - 브런치",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KZjRQS2w2bFo1aXplQTBWeDRULXpzNWIxeXR5UnJHdmtuRnRQRnY4T2RseHVVcHAxUERsYXlkaE54UGt2N2hIY1BmSzloVGdzMHhLc3k3Wi0?oc=5",
+          "pub_date": "Sun, 18 Jan 2026 00:54:03 GMT",
+          "source": "브런치"
+        },
+        {
+          "title": "'AI 파트너' 찾기에 진심…유영상의 SKT, 연간 3500억원 배팅 - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56amNhNW9JYldOdWU0Sk5ocjlWT1dSYVJrWWUwTUFhUkh2Y1pkVWN1UUZHWVBVRDU1c2I0VG5NR2xEV3p3TmMweFotT1dZQmZ6M3lLVl9GSW1SNHd4OExwczd1WHJIM1VsOGk4Vg?oc=5",
+          "pub_date": "Tue, 19 Mar 2024 07:00:00 GMT",
+          "source": "유니콘팩토리"
+        },
+        {
+          "title": "\"큰 손 잡아 보릿고개 넘자\"…'기업 손님' 찾아나선 B2C 플랫폼 [긱스] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rbldDVHdzbVU2WWgtU3JtU21jX0dmR015Q0JscFpYdS1oNzJfanVkRW1CRTVYOWhEbDRRemM2TXZYSzktR0MyVDJWcmhLa0cxT3JycmgxVFZXUdIBVEFVX3lxTFAtNG82RGhYY2ZXX2l1MmNLRWJWSFFtWFVFclpicmZxaHNDaUQwTmhPdEFTbXZXWmFmc290SVJGWUJCUEdycERTZzVkb1FqTzV4N1I4WA?oc=5",
+          "pub_date": "Wed, 20 Sep 2023 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "SKT, AI 컨택센터 전문 페르소나 AI에 투자...사업 영역 확대 - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtdkt5VW9aQkEzbUpoUi1hTl9DNFhMb3dBM1h1czJ3RzdEVzJfWERhbVVXR19zaG5qMTgzZmctcTR6X2VmVDNONDNSZktrcl9QSXhVQ0pYeXhnTzNLT2ZkSzgtbmFVa19CYUE?oc=5",
+          "pub_date": "Mon, 21 Aug 2023 07:00:00 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "[Opinion] AI에게 차별 당하는 사람들? [문화 전반] - 아트인사이트",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBva0hvNEtNakJEb01vcDZRY05LVXQ1Y2RvZFZhdmRzdE9GeEdOblY3SVBqcVFwOGFhSmxwck96WDlQdXVFdWZtS0phbmFtZ0pHV1dHbjMyLXNHZDhMS082cw?oc=5",
+          "pub_date": "Fri, 07 Jan 2022 08:00:00 GMT",
+          "source": "아트인사이트"
+        },
+        {
+          "title": "AI투자 사활건 통신업계…SKT는 AI스타트업 발굴, KT·LG유플은 글로벌 기업과 맞손 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OUUNZcUYyN1ZZejVja3M1WlhOdXhuU1ZkVG5KaXlQNWd6NExiYTFPN3RkZi1CRGFWdE5ORGVuUVFUdHVjcE8yZ1NKYS1jTGhsd0k0?oc=5",
+          "pub_date": "Thu, 13 Mar 2025 07:00:00 GMT",
+          "source": "네이트"
+        },
+        {
+          "title": "스캐터랩, 日서 '제타' 월 매출 11억 돌파…수익화 '기대' - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02ZFlhRUgyWFhpaWFuWUd3a3ZTZWRHWU9pSWJLMGZJbkxaMVJKSWtnNFhSZkVFdlNBRE1LSEt4RVhWQ0tXbjFhSXBqQkhVM3plYUIxZndR?oc=5",
+          "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "스캐터랩 ‘제타’, 최대 매출 기록…일본내 1위 이어가 - BI KOREA",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vT3FWNkV0M2Z2Nk5DWEJkZXVKM1FFMlcwNmpkblpsUGdvbExfZHlabHc1b0tpZVo1UVpMeDZHS0w2TGxVS2xFcnVQaHpGbnF6M01HUk9rOWFqOUlZXzVKYkJTTHFiUQ?oc=5",
+          "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
+          "source": "BI KOREA"
+        },
+        {
+          "title": "서울시 AI 에이전트부터 제타까지…국감서 `인공지능 서비스` 도마 위 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11UGJrT3VubnlxUHFiczNKMDBNRG85QlBqdExQVjJIUXRjVThLTzhDLW9ZeXVrRWxiZ3JCOWlBeG1qYzR4SEV4QXpKbUVja1d3T2Z2WUJUSHJ3SlBuanlPTHZB?oc=5",
+          "pub_date": "Fri, 10 Oct 2025 07:00:00 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "스캐터랩, '이루다' 개인정보 소송 1심 패소…\"사업엔 영향 없어\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IU3lpbmZjUE1ic3RUUzlDcXB5NGJXT19Ob000SHBjSVhMcVExOEZXeXpTamVhR01qTU1Cc01TYk16NTQyYVM1M2taeXhlUklQSGl1TmtR?oc=5",
+          "pub_date": "Tue, 15 Jul 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "SK텔레콤, 포티투닷 등 15개社와 국가 AI모델 만든다 - 디일렉",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DWEFVdHg4Y1VSSkwxYi1OVmdFdklMSno1TFFla0JlS29nNnpER3N3QXlzR2F6MU9Rdkh3elhvOUtuX0lqZldNWU5xYmxXRGNoY3FqMFBYSXU3U05BTWZ3RHo3ZEdWUQ?oc=5",
+          "pub_date": "Thu, 24 Jul 2025 07:00:00 GMT",
+          "source": "디일렉"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "사이트맵 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUUkZRQW1yNE90d21JZndYc1drbXZ3YVF3SmJXR0otbEVzbGN2M21vVUZSeUh2UzlVeUt6bllqYnlOT3BfcGFjNmtJWUZlTGZDNVhYR0JlemdEZVVj?oc=5",
+          "pub_date": "Mon, 29 Dec 2025 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "SKT, 에이닷에 '이루다 감성' 담는다…스캐터랩에 150억 투자 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUnJ6Z3k0d1BlYkRDX1paazZUb1Awc3h1UlpVbEFoTUhBbXljRHoxOENwekZ0Z0NzT2JzOXAwUVRUUmhLVmFUTVAxX0RjakpQVjdqNkcxZ1hQNTR2dDAxS2dtX0NTT0FMMjVfVW1qMzdVYXRlQ2VNbHUtYm9FRW9xaWFyTlJUbDg?oc=5",
+          "pub_date": "Mon, 24 Apr 2023 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "스캐터랩이 수집한 카톡 대화…'이루다'에만 쓰지 않았다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMaTJnU2RZcXlZeUxhR3N0TzVHem9LTzU3T2xWSnJ2YkJqLU1LQ1hhRm9fX2wxZm1xMnJ0ZWFKc0ttOUs5cGdfaWdGeFpFUlNqZlh1aWhBbWhJUdIBVEFVX3lxTE9qNkJNNDZPZnFYZTJqaFNYeXREdFlSUzJ5UW1xeW42SnZqbHBSUW9KQm1FeHJVNEpGWDJGaXJIY1RqdnFCdngyMTQzdGFjbFp0UHZ2ZA?oc=5",
+          "pub_date": "Tue, 12 Jan 2021 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "AI 챗봇 이루다, 17일 돌아온다… “개인정보 보호·어뷰징 대응 강화” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaTM5ZTlFM2dncExnZ2JTSTBJakJ1cDhKX0pMTlNaYUNEby14OTYyYlBVeUIxX1BBSk1jLTg3bzA4bjVpdmZGRzdNc3ROUUlQNGdyTDdUY0V3WTd1OThLRG1pcnZ2UE1pSjkzVFhicE8wQmVtUGlKTHFnMGVOdzJsc3V30gGWAUFVX3lxTE44c3A3S2h4MkN3WEJqS0ZReE5NZHFFeVhsSmxBdi1wS3U1VzZBczV6MjQweldoY3V6Rm5HblRlbG9semV0QzFVWFJOWExJXzV6SllwMXlkclR1OUNnaHdqT2NnRUpGbEtocERhZVgyWEpCQ0s3S0h4YjM4NDM0QkxqMkxGTTdRR1laalVCVDJMM0dqVmtiZw?oc=5",
+          "pub_date": "Mon, 14 Mar 2022 07:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "제타, 일본서 월 매출 11억원 돌파 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcjdneHo4RnoxcDl3RkJ6OEhnbXpuclRMaXJNOTAtNEEza0dQVFpHd1o2MTlLYzdySnl0dmtaSlBzRHo2WjBoNm1OYWtNLXY4SHh5eHNDWWZZRlpoaEhsN1N4c1RxU2lkRDNoanhSQjFEeVByZXVtV0Y2TUVTbFBTdmd30gGWAUFVX3lxTFBZY0R2RmtZOUlFVWg3eXBfNEVPQnlYaGdKQkFTakR3Q1N5M2NGSGNHX2cxekd0TE01NGdoWmxEcnRCNzczdkwzUWhUcG4zQjR5RlVkcVZFall4TGRWY1hTRzNoOHJsTFUzdVJGLW5WSTZvU0NaNDV5TEJhU3BOMkVZXy13ekltWExVQTZ5TkE0TDBfSDdZZw?oc=5",
+          "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "스캐터랩 “AI와의 대화, 외로움·사회 불안 완화 효과” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaXNlRVBNTG9PZkVxaFRnMWM4anhvWU83SDBTRmE3RTUwMkp2RExMVVVPQ1Q3X0xmTW8xQU9CSVlXbGIweXNmem5BOEUydUZkYnFMSTRWUFYwOTQwWTNMT0VDWUpaN21KSjlMWl9ONmdXbnowVmU5LWlFU1BPWXFaS0RB0gGWAUFVX3lxTFBNSTRZRTE1YnotRThBRVpicHhCNHVxeUpWSUFDeWlmMzlJZmlBYVJYTjZPRGVNMGhkR3pIanM2VDB3S2pSeGhqdVA5NnhUQmxvU05tbi1BcjRnMnRsS2VwSnozU0YxdVZvdHhKTWZYNExoYzdkMzY1ek5FeTlRM0g3WGd4alJ0ckxnLUtQSmFMYktoTmhXUQ?oc=5",
+          "pub_date": "Wed, 22 Jan 2025 08:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "3월 FOMC 앞둔 한국증시 2중고 ‘중동리스크·인플레’ - mk.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qNG5XSGloemFObHJtTE93ZzJBVU41YVJCczVHMnZVTlNqUHpaQ1JoNkd1UUNYVk9DS0hCbk1UYlItZGJqbEFiZ2RRZnZMNGxveW5R?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 00:00:06 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "https://www.mk.co.kr/sitemap/daily-images/20260113 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wTHpOS1NaWHRqMkt2R09hSEpFNlBaX1U2aHdoWXpJV2kxandyVGQ0YkJnSzJTX0hNS1ExbU1NRmdqT3l2OXAwSFE5WVRKcHNQMFp2V0Y3NTlyUmM5SEpr?oc=5",
+          "pub_date": "Tue, 13 Jan 2026 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다 - mk.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1veURFb2lWekhocDYxaXNEOEpEdlpDeVRGdmtmUTd2dnIyeWllLWNMVHFsalpoUkphT1V1dDBhVXpONlpMSnpfNFJ3T2RjanROWVlGcA?oc=5",
+          "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[일문일답] \"이루다, 아동·성생활 정보 불법수집…법 8건 위반\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40cG9SRkNxeWoxRzkxd3NsLW1GVFE1VE9kVkVHRUx1V0lUcFJLUWNrMG9Qd3g3Mld0OTYyUUZfdWlLNnkwbTRMZkY5T3gyTHlBUnhDaVFn?oc=5",
+          "pub_date": "Wed, 28 Apr 2021 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "이루다 개발사, 이용자 카톡 100건 노출 인정...\"조사 성실히 임할 것\" - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZS3RYUDNpWG1FQ0dZSHk4ZldtRFBSZm00SDZ4bWM0bUEzRngwQlNwRWtlN1FlZG9mVXFPbnQya094ZEtySWIwaVdlc190Y09IZmZzMmVR?oc=5",
+          "pub_date": "Thu, 14 Jan 2021 08:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "\"사람과 AI가 이야기 제작\"…스캐터랩, 창작 플랫폼 '제타' 출시 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Fb0tUNlVZal9ianhhZG1yRHZCYmRYb01JaG02elNRTFVBWHRYWXVwNnhWNHNHRjdVR2pWT1gtN2h0eVBESndZZUN4WnFzVDRkRldhWVNB?oc=5",
+          "pub_date": "Tue, 02 Apr 2024 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[넘버스]많고 많은 AI 기업, ‘스켈터랩스’의 경쟁력은 뭘까 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvNWNWNl80aDZwSWtiTG5PVlU5N0Uyazk5eG5jRFBIWFk2Y3VwWmNhblNyS00zdXg0aU9VcTBBOWlJaG9wV2w1S2M2cklUYTNpT3RyMGtMYW5RcVJYZFZHTVlYejJDcDDSAWtBVV95cUxNZXJ1TVhyN05ha0ppajl2dzhzMFg5TnRSNVdhNjNwUHM5VnhDdG1LSzdNTGRHbTdjNk5sTFgxU2hIYkJZZmo0WUF5NEpOQm56aU5adWYtX3ZnSnhIanA1T0VZQnlDWk1vVUwyRQ?oc=5",
+          "pub_date": "Mon, 19 Dec 2022 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "개발까지 단 하루…'그림일기 AI'로 세계 무대 찢은 한국 청년들 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rTGlWa3lkalZrLUptOVJHZklWWkpfcGpjRzRNWTVuRVo2OGE4MVBvMkcwTGhlMGc0NEJSaHhDYy1YbnNKUEl0NHdUcTk2emZoNzlSVHUyeGl6eUxWVXdaV19kN2Fxa0nSAWtBVV95cUxPQkRkTUh4QVBtVmc3ZDVyZHJ1WmJ1VDdVUmMtYUhqZWY5MWttQklrTDNaZ085aG1PVXhjTEJxcFVaanJfRmFVUWFCam9ZU3o1TFVzRXdjUnRBNWd0bkphNUpNV21Ec3dEZGZZaw?oc=5",
+          "pub_date": "Sun, 04 Dec 2022 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "프렌들리AI, 캡스톤파트너스 주도로 275억 투자 유치 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92Tm9DaU03N25VLTJnMHVJUXpwdlFwSkhLalJQRDRUMjdZcGdMcGZybFh5Nlk2WFZ0TWFnQ1Jsc2tISndsRUw2dUUzMHFySmVSQzJqNVRzUVRuWTlTVHI4Z09IOWoyS2pu0gFsQVVfeXFMTmZVSkxKd0k5b1RKSGtFNWNHdXVoSUZibDdKLXdVdmZIYzVRZmlKZjBLMnlITHpqTWlsU01SR0g1RExONHpGaWZqSm1Ec3BraEVEaWZOdlpwTXJKTWl6czZnOW1LREhmelZpQ2pH?oc=5",
+          "pub_date": "Sun, 31 Aug 2025 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "두 기자가 만난 이루다, 그리고 뒷담화 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DODE4bDZlMlpCeEkwOU5PbjBLcGsteDRfbGFDbDFoajAtMjllbERBWkhnT2ZtRTlyTHNzZ3lEcEN4cDIyM0dQNnhfUHNsR3M?oc=5",
+          "pub_date": "Fri, 18 Mar 2022 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "[바스리] AI 챗봇 ‘루다’와 랜선 친구가 됐다 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pcV9Zbzh5SzdlRGhZekRiNG1uMTh3Z1VNZVUyVnNtVFd3VzVSMVRBelJlcjAycjg1cE5sMUN5bDlNTkhrQkI1ejRYOWJ5QQ?oc=5",
+          "pub_date": "Sat, 25 Jul 2020 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "챗GPT 시대, AI스타트업은 어떻게 살아남을 수 있나 (feat.스캐터랩) - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEdy0zUkFWSlRNUldVRW8zeWhCRm1GOVhEV05XLXd6RVJBTGNYQ3VsWGhXVTdralRxRkk4SDB3cGlFUXhoWl84OUtXTGMzN0E?oc=5",
+          "pub_date": "Fri, 17 Feb 2023 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+          "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+          "link": "https://blog.naver.com/magicpaul7/224204238038",
+          "pub_date": "20260304"
+        },
+        {
+          "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+          "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+          "link": "https://blog.naver.com/serohero/224199063326",
+          "pub_date": "20260228"
+        },
+        {
+          "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+          "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+          "link": "https://blog.naver.com/jobpass_/224197697044",
+          "pub_date": "20260227"
+        },
+        {
+          "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+          "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+          "link": "https://blog.naver.com/study_edu_/224193834977",
+          "pub_date": "20260224"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        },
+        {
+          "title": "제주항공 채용 승무원 큐피드",
+          "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+          "link": "http://cafe.naver.com/sheiszzz/1214780",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.3310344827586205,
+      "positive_themes": [
+        "긍정",
+        "복지",
+        "성장",
+        "워라밸",
+        "장점",
+        "좋아",
+        "좋은",
+        "추천"
+      ],
+      "negative_themes": [
+        "낮아",
+        "단점",
+        "야근",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "(주)스캐터랩 2026년 기업정보 | 기업리뷰 27건, 4.3 리뷰평점",
+          "description": "장점 : 대단한 동료들롸 함께 개인적으로 성장할 수 있는 환경이 잘 갖춰져있음. 분위기 및 복지가 좋아서 편하게 다닐 수 있음, 단점 : 굳이 따지자면 다들 애사심도 넘치고 하고 싶은게 많아서 야근을 많이 함",
+          "url": "https://www.jobplanet.co.kr/companies/92214/reviews/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9"
+        },
+        {
+          "source": "naver",
+          "title": "(주)스캐터랩 2026년 기업정보 | 27건 면접후기 3.2 면접난이도",
+          "description": "(주)스캐터랩의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.2, 면접경로: 온라인 지원 76%, 면접경험: 긍정적 37%, 부정적 30%, 면접결과: 합격 30%, 불합격 63%, 대기중 7% | 잡플래닛에 등록된 27건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/92214/interviews/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9"
+        },
+        {
+          "source": "naver",
+          "title": "스캐터랩 2025년 기업정보 | 6건의 복지정보 0 전체 복지 통계",
+          "description": "스캐터랩의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 6건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/92214/benefits/(%EC%A3%BC)%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9"
+        },
+        {
+          "source": "naver",
+          "title": "헤드헌터한테 연락이 왔는데 잡플래닛 평점이 너무 낮아요.",
+          "description": "제 직무랑 경력이 원하는 포지션과 정확하게 맞는다고, 연봉은 20%정도 올려보고. 입사일도 최대한 맞출수있게 해본다고는 합니다. 나름 소프트웨어 유통쪽에서 이름있는 회사라 좋은가..? 해서 잡플래닛을 봤는데, 와 이거 처참하네요? 리뷰는 40개에 평점은 1.8점입니다. 장점이 사무실과 화장실이 깨끗한게 장점이고, 나머지는 어후.. 지금회사보다 더 하네...",
+          "url": "https://www.clien.net/service/board/park/15951443"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 진짜 믿을만함?",
+          "description": "사람들이 잡플래닛 평점 3점 미만은 무조건 거르라는 이야기들을 많이 하던데 구직중에 깨달은 건 잡플 3점대 이상 넘어가는 회사는 채용을 잘 안하던가[아마 좋으니까 잘 안나가서?] 진짜 미친 괴물들만 지원하는 갓기업들 밖에 없는 거 같음... 나한테 평점 2점대 중견기업이 학교취업추천으로 들어왔는데 취업 담당자 말로는 성적 자격증 다 요건이 돼서 넣어볼...",
+          "url": "https://web.humoruniv.com/board/humor/read.html?table=pdswait&number=9607143"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 2.7점 회사 어떤데?",
+          "description": "연봉과 인상률이 짜다 라고 적혀있어 근데 충격적인건 잡플래닛 기준 1년차 연봉이 2800 이다... 3200 받으며 일하다 퇴사해서 재취업 알아보는데 진짜 2800 주면 갈 이유가 없잖아 입사 지원 취소 고민중임",
+          "url": "https://www.dogdrip.net/464144458"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 1.0대의 회사를 다니고 있습니다.",
+          "description": "2.5점 이하라면 도망치라고 했던 잡플래닛 평점. 생각보다 괜찮은 회사. | 잡플래닛 평점 1.0대의 회사를 다니고 있습니다.정확히 언급하기엔 그러니 1점대 초반 흔히들 2.5점 미만의 회사라면 걸러야 한다는데 지금의 이회사는 1.0대에 근접합니다. 그럼에도 불구하고 이직을 하게 되었습니다. 물론, 모든 채용 프로세스가 끝난뒤에 검색해서 알게 되었습니...",
+          "url": "https://brunch.co.kr/@gakugo/384"
+        },
+        {
+          "source": "naver",
+          "title": "중소 잡플래닛 평점 2.5 이상이면 평타야?? - 인스티즈(instiz) 일상 카테고리",
+          "description": "ㅈㄱㄴ??",
+          "url": "https://www.instiz.net/name/60793158"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 때문에 갈지말지 고민되요",
+          "description": "자취는 할 생각이 없어서 이 근방에 원하는 직무로 붙은 게 운이 좋은것같아서 갈까말까 고민이에요ㅠㅠ 1.조건 다 좋은데 잡플래닛리뷰가 별로인데 갈까요말까요ㅠ 2.잡플래닛 평점이 엉망이어도 사수만...",
+          "url": "https://comento.kr/job-questions/%EB%AA%A8%EB%93%A0%ED%9A%8C%EC%82%AC/%EB%AA%A8%EB%93%A0%EC%A7%81%EB%AC%B4/%EC%9E%A1%ED%94%8C%EB%9E%98%EB%8B%9B_%ED%8F%89%EC%A0%90_%EB%95%8C%EB%AC%B8%EC%97%90_%EA%B0%88%EC%A7%80%EB%A7%90%EC%A7%80_%EA%B3%A0%EB%AF%BC%EB%90%98%EC%9A%94-559303"
+        },
+        {
+          "source": "naver",
+          "title": "(주)에임드 2026년 상반기 채용 | 100건 면접후기 3.0 면접난이도",
+          "description": "면접경로 ; 온라인 지원 : 80%, 직원추천 : 7%, 헤드헌터 : 1%, 공개채용 : 5%, 학교 취업지원 센터 : 1%, 기타 : 6%",
+          "url": "https://www.jobplanet.co.kr/companies/85783/interviews/%EC%97%90%EC%9E%84%EB%93%9C"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 Reviews - &quot;열정있고 능력있는 사람들이 모여있는 회사&quot;",
+          "description": "“뛰어난 팀원들과 함께 빠르게 성장할 수 있는 회사. 업계 최상위 연봉과 복지. 일을 즐길 수 있는 사람에게는 너무 좋은 곳.”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/review/9qvDWPlAVta"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 기업정보",
+          "description": "스캐터랩 회사소개 ; 업계 IT/소프트웨어 · 본사 서울특별시 성동구 · 설립 2011 · 직원수 51~200(명) · 연봉정보 -",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 현직자들의 연봉 정보",
+          "description": "스캐터랩 4.2 (41개 리뷰) 이 회사 리뷰하기 스캐터랩은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 갤러리 스캐터랩 연봉 정보 스캐터랩에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 Reviews - &quot;대체 불가능한 회사&quot;",
+          "description": "“뛰어난 팀원들과 함께 빠르게 성장할 수 있는 회사. 업계 최상위 연봉과 복지. 일을 즐길 수 있는 사람에게는 너무 좋은 곳.”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/review/CT-lDAQNiCO"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 Reviews - &quot;성장과 동시에 성공의 기회를 얻을 수 있는 곳&quot;",
+          "description": "“뛰어난 팀원들과 함께 빠르게 성장할 수 있는 회사. 업계 최상위 연봉과 복지. 일을 즐길 수 있는 사람에게는 너무 좋은 곳.”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/review/cGkFeAvqs"
+        },
+        {
+          "source": "naver",
+          "title": "(주)스캐터랩 2026년 기업정보 | 기업리뷰 27건, 4.3 리뷰평점",
+          "description": "장점 : 대단한 동료들롸 함께 개인적으로 성장할 수 있는 환경이 잘 갖춰져있음. 분위기 및 복지가 좋아서 편하게 다닐 수 있음, 단점 : 굳이 따지자면 다들 애사심도 넘치고 하고 싶은게 많아서 야근을 많이 함",
+          "url": "https://www.jobplanet.co.kr/companies/92214/reviews/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 Reviews - &quot;알아서 잘 해야 하는 동아리 같은 회사&quot;",
+          "description": "“대체 불가능한 회사” ; “뛰어난 팀원들과 함께 빠르게 성장할 수 있는 회사. 업계 최상위 연봉과 복지. 일을 즐길 수 있는 사람에게는 너무 좋은 곳.” ; “업무에만 집중할 수 있는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/review/Du01KSI9r"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 Reviews - &quot;과거의 영광 이루다, 현재는 고전중인 회사&quot;",
+          "description": "“대체 불가능한 회사” ; “뛰어난 팀원들과 함께 빠르게 성장할 수 있는 회사. 업계 최상위 연봉과 복지. 일을 즐길 수 있는 사람에게는 너무 좋은 곳.” ; “업무에만 집중할 수 있는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/review/ThVBiSVqD"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 리뷰",
+          "description": "장점 : 좋은 동료들 연봉 아주 쎔 떡상이 확실시되는 스톡옵션 워라밸 나쁘지 않음, 단점 : 시니어가 없는건 아니지만 아직 부족하다 BM이 아직 탄탄하지 않다, 이직 사유 : 엑싯하고 미국에서 창업하기 위해 나갑니다 퇴사하지만 앞으로도 좋은 관계로 회사를 돕겠습니다",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/reviews"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 스캐터랩 Reviews - &quot;뛰어난 팀원들과 함께 빠르게 성장할 수 있는 회사. 업계 최상위 연봉과 복지. ....",
+          "description": "“뛰어난 팀원들과 함께 빠르게 성장할 수 있는 회사. 업계 최상위 연봉과 복지. 일을 즐길 수 있는 사람에게는 너무 좋은 곳.”",
+          "url": "https://www.teamblind.com/kr/company/%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9/review/kx3HU_DxbE3"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "(주)스캐터랩 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WE5PbXBYaE1CUy9NakkxWXdPcklDZz09/company_nm/(%EC%A3%BC)%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9",
+          "text": "(주)스캐터랩 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n관심기업을 설정하여 기업의 최근 소식을 받아보세요\n\n도움말\n\n조회기간 2026.02.13 ~ 2026.03.12\n\n본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다.\n\n조회수\n\n3% 241회\n\n관심기업\n\n3회\n\n기업 키워드 검색 횟수\n\n41회\n\n- 노동조합有 기업 모음\n- 휴식시간 필요해요\n- 채용중★스타트업\n- 야근 눈치 보지마요\n- 남성출산휴가 기업!\n- 간식제공 복지 기업!\n- 나의 커리어 첫 시작\n- 슬기로운 육아휴직기업\n- Refresh 휴가\n- 수면실 보유 기업모음\n- 월급을 사수하자!\n- 웰컴키트 지급 기업\n- 자유 복장 기업 모음\n- 초임3천5백↑스타트업\n- 포상휴가를 주는 기업\n- 회사에서 즐기는 게임\n- 무제한 연차 기업!\n- IT통신업종★스타트업\n- 명절선물/귀향비\n- 스타트업의 매력★\n- 출산의",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "zeta Global Team Intern - 스캐터랩",
+          "url": "https://www.scatterlab.co.kr/ko/o/167785",
+          "text": "zeta Global Team Intern\n\nzeta Global Team Intern\n\n구분\n\nzeta\n\n부문\n\nzeta\n\n직군\n\nzeta Global Team Intern\n\n직무\n\nzeta Global Team Intern\n\n경력사항\n\n경력 무관\n\n고용형태\n\n인턴\n\n근무지\n\n스캐터랩 - ScatterLab대한민국 서울특별시 성동구 왕십리로 125, 9층 스캐터랩\n\nzeta, created ​by ​Scatter ​Lab, is ​a next-gen AI entertainment ​service ​where users ​become the main ​characters of ​their ​own stories ​fully ​immersed ​in rich narratives ​and ​emotional experiences.\n\nAs of ​July ​2025, ​zeta has 3 ​million users ​in ​Korea and ​500,000 in ​Japan, ​with ",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "스캐터랩(Scatterlab) 기업정보 - 채용 3건, 평균연봉 5,882만원, 인원 42명, 업력 15년, 서울 성동구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/2977",
+          "text": "스캐터랩(Scatterlab) 기업정보 - 채용 5건, 평균연봉 5,882만원, 인원 42명, 업력 15년, 서울 성동구 | 원티드\n\n# 스캐터랩(Scatterlab)\n\nIT, 컨텐츠서울 성동구16년차(2011)\n\n회사 소개 스캐터랩은 국내 최고의 일상대화 AI 기술을 바탕으로 재미있고 말랑말랑한 제품을 만드는 AI 스타트업입니다. 한국에서 가장 유명한 챗봇 ‘이루다’는 지금까지 200만 유저와 10억 건 이상의 대화를 나눴으며, 스캐터랩은 뛰어난 AI 기술과 유저의 마음을 사로잡는 제품 기획 역량을 인정받아 현재까지 SK텔레콤, 소프트뱅크, NC소프트, 크래프톤 등으로부터 누적 410억 원 규모의 투자를 유치하였습니다. 제품 소개 - 제타 스캐터랩은 24년 4월 1일 새로운 AI B2C 서비스인 ‘제타’를 출시했어요. ‘제타’는 유저가 주인공이 되어 원하는 캐릭터, 세계관, 상황에 몰입하며 대화하고 나만의 스토리를 만들어갈 수 있는 새로운 엔터테인먼트 서비스예요. 출시한지 1년도 ",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "스캐터랩(scatterlab) | 채용, 회사소개, 연봉, 매출, 직원",
+          "url": "https://www.rocketpunch.com/companies/scatterlab",
+          "text": "로그인 후 검색 가능\n\n홈가장 빠른 소식\n\n네트워킹이벤트 · 컨퍼런스업데이트\n\n채용새로운 기회 탐색\n\n교육부트캠프 · 직무 역량강화\n\n채팅나를 위한 소식\n\n허브기업 · 학교 · 사람 모아보기\n\n접기\n\n개인정보와 약관\n\n기업 서비스\n\n지원센터\n\n쿠키 맞춤 설정\n\n본 서비스에서 제공하는 사용자의 개인정보 데이터를 포함하여 각 정보주체의 동의 없이 데이터를 무단으로 수집하는 행위를 금지 및 거부합니다. 공개된 데이터도 크롤링 등 기술적 장치를 이용해 ",
+          "score": 0,
+          "published_date": "2014-01-07T00:00:00.000Z"
+        },
+        {
+          "title": "[스캐터랩(Scatterlab)] 전략팀 리드 (5년 이상) 채용 공고 | 원티드",
+          "url": "https://www.wanted.co.kr/wd/216020",
+          "text": "[스캐터랩(Scatterlab)] 전략팀 리드 (5년 이상) 채용 공고 | 원티드\n\n## 포지션 상세\n\n[스캐터랩 소개]스캐터랩은 국내 최고의 일상대화 AI 기술을 바탕으로 재미있고 말랑말랑한 제품을 만드는 AI 스타트업입니다. 한국에서 가장 유명한 챗봇 ‘이루다’는 지금까지 200만 유저와 10억 건 이상의 대화를 나눴으며, 스캐터랩은 뛰어난 AI 기술과 유저의 마음을 사로잡는 제품 기획 역량을 인정받아 현재까지 SK텔레콤, 소프트뱅크, NC소프트, 크래프톤 등으로부터 누적 410억 원 규모의 투자를 유치하였습니다.24년 4월 1일 새로운 AI B2C 서비스인 '제타'를 출시하여 제타의 성장에 집중하고 있습니다. 제타는 유저가 주인공이 되어 원하는 캐릭터, 세계관, 상황에 몰입하며 대화하고 나만의 스토리를 만들어갈 수 있는 새로운 엔터테인먼트 서비스입니다. 현재 제타는 유저당 하루 평균 2시간이 넘는 사용시간을 기록하고 있으며, PMF(Product-Market-Fit) 을 찾은 ",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "Product Owner",
+          "description": "• 한 사이클(1~2개월)마다 ‘풀어야 할 문제’ 혹은 ‘개선하고자 하는 지표’를 트랙 리드/DA와 함께 정의하고, 목표 달성을 위한 전략 및 실험 계획을 수립해요. • PO로서, 매 이터레이션(3일~2주)마다 구현할 기능을 선정하고, 스쿼드원들과 함께 방향성을 조율하며 실제 성과까지 이끌어내요. • 상위 기획(‘기능의 타겟 유저, 제품적인 가치, 지표적인 목표 등’)부터 구체적인...",
+          "link": "https://www.scatterlab.co.kr/ko/o/140006",
+          "pub_date": ""
+        },
+        {
+          "title": "2020년 AI 바우처 지원사업 공급기업 Pool",
+          "description": "2020년 AI 바우처 지원사업 공급기업 Pool 자연어 처리 스크립트+목적 기반의 자연어 처리 예측... 분석 AI 비전 솔루션 제품 품질 불량 검증 및 수치 측정 솔루션 제공 기술 컨설팅 IoT, Big Data...",
+          "link": "https://www.nipa.kr/comm/getFile?srvcId=BBSTY1&upperNo=EyTSUfa0zBqsmMZAe6osHQ==&fileTy=ATTACH&fileNo=iXl5zL1Ure9B6grVXziy0Q==",
+          "pub_date": ""
+        },
+        {
+          "title": "[커버스토리] 신뢰할 수 있는 AI를 위한 여정",
+          "description": "AI는 산업 분야를 막론하고 혁신을 가속화시키기 위한 필수요소로 자리잡았다. 그러나 한편으로 AI의 역할이 커질수록 오작동을 일으켰을 때 발생할 수 있는 사고 규모도 커지고 있다. 마치 불이 인류 문명의 발전에 크게 공헌했지만 때로는 화재를 일으켜 심각한 피해를 입히기도 하는 것처럼 말이다. 특히 딥러닝을 통해 개발된 AI는 여전히 블랙박스 문제를 안고 있...",
+          "link": "http://www.comworld.co.kr/news/articleView.html?idxno=50561",
+          "pub_date": ""
+        },
+        {
+          "title": "IRS 글로벌 홈페이지(www.irsglobal.com)에서는 보다 다양한 산업 보고서 정보를 제공하고 있습니다.",
+          "description": "추진방향 (5) 비전 및 추진 전략 (6) 세부 추진 과제 (7) 추진체계 및 향후 일정 3. AI 시장과 AI 반도체시장동향과전망 3-1. AI 시장... (5) 스캐터랩, ‘이루다’, ‘강다온’ (6) 튜닙, ‘블루니’...",
+          "link": "https://www.irsglobal.com/img_up/shop_pds/irsglobal1/design/pdf/691.pdf",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 프로젝트 600개 2030년까지의 혁신 비전!",
+          "description": "AI와 데이터 기반 산업 혁신의 새로운 방향 ; 정부는 인공지능(AI)과 데이터를 활용하여 산업기술 혁신을 가속화하고 있습니다. 앞으로 2030년까지 600개의 프로젝트를 통해 AI 기술을 적용한 혁신 사례를 만들어 가기를 목표로 하고 있습니다. 이러한 전략은 산업 현장에서 AI의 역할이 점점 중요해진다는 것을 반영하며, 조기에 투자와 연구개발을 통해 기술 경쟁력을 높이고자 합니...",
+          "link": "https://mbalance.co.kr/1085",
+          "pub_date": ""
+        },
+        {
+          "title": "슈퍼휴먼 AI를 만드는 핑퐁팀의 10가지 컬처 코드",
+          "description": "핑퐁팀 문화의 기반이 되는 10가지 컬처코드에 대해 알아볼까요? 스캐터랩 핑퐁팀은 일상대화(Open-domain conversation) AI 기술을 기반으로 5년 안에 영화 &lt;Her&gt;의 ‘사만다’와 같이 사람만큼 좋은 대화 상대, 더 나아가서 사람보다 대화 상대로서 더 선호되는 슈퍼휴먼 AI를 만들겠다는 비전을 가지고 있습니다. 이 비전에 한 발짝씩 다가가기 위해 핑퐁팀은 올해 6월 일상 대화 챗봇 ‘이...",
+          "link": "https://blog.scatterlab.co.kr/culture-code",
+          "pub_date": ""
+        },
+        {
+          "title": "2023년 글로벌 인공지능(AI) 기술개발 동향과 사업화 전략 - 챗GPT가 불러온 AI혁명, 초거대AI, 생성AI기반",
+          "description": "공인인증서가 없어도 법인 및 연구비 (신용)카드로 결제가 가능합니다. 문의: *******@techforum.co.kr 전화: 070-7169-5396 www.techforum.co.kr [계산서 발행안내] - 사업자등록증 사본을 이메일(*******@techforum.co.kr) 로 보내주시기 바랍니다. * 현금결제(계좌이체, 무통장입금)건에 한해서 발행됩니다. [견적서 및 거래명세서 발행안내] - 이메일(*******@techforum.co.kr) 또는 주문 시 '요구사항'란에 메모...",
+          "link": "https://www.techforum.co.kr/goods/26891",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 오케스트레이션을 통한 조직 내 AI 접근성 확대 전략",
+          "description": "04 AI 오케스트레이션을 통한 조직 내 AI 접근성 확대 전략 □ AI가... 맞추었지만, 비전문가 중에는 3분의 1 미만이 정답을 맞춘 세트 4... 향후 AI 에이전트가 나아갈 방향을 제시 • 마누스 AI는 멀티모달...",
+          "link": "https://www.kbfg.com/kbresearch/cmm/fms/FileDown.do?atchFileId=FILE_000000002001452&fileSn=0",
+          "pub_date": ""
+        },
+        {
+          "title": "DeNA는 어떻게 AI트랜스포메이션을 추진하고있는가? -DeNA의 AI 전략과 미래 비전: AI 혁신을 통한 경영 및 비즈....",
+          "description": "일본의 대표적인 IT 기업인 DeNA 역시 이러한 흐름을 반영하여 AI를 경영의 중심에 두고, 효율성 증대와 신사업 창출을 목표로 적극적인 AI 도입 전략을 추진하고 있다. 특히, AI를 활용한 업무 자동화 및...",
+          "link": "https://contents.premium.naver.com/aidx/aix/contents/250220112145006ci",
+          "pub_date": ""
+        },
+        {
+          "title": "전략 수정 필요한 데이터 라벨링, 생성 AI 최적화 전략 대두",
+          "description": "대표적인 것이 지난 정부 '한국판 뉴딜' 사업의 하나인 디지털 뉴딜에서 시작한 데이터 라벨링 사업이다. 과학기술정보통신부는 이 사업을 생성 AI 시대에 맞춰 혁신하는 방안을 추진 중이다. 12일 정부의 디지털 뉴딜 정책 설명(2020년 발표)에 따르면, 정부는 데이터 라벨링에 대해 &quot;옷의 안쪽에 천 조각으로 상표나 품명, 취급 주의사항이 적혀있는 것처럼 화면 속 객체가 개인지,...",
+          "link": "https://www.hellot.net/mobile/article.html?no=77045",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "Scatter Lab - Products, Competitors, Financials, Employees ...",
+          "url": "https://www.cbinsights.com/company/scatter-lab",
+          "text": "Scatter Lab - Products, Competitors, Financials, Employees, Headquarters Locations\n* Technology Vendors\n* Recent Research\n* Newsletter\n* Media Support\n* Login\n[![CB Insights](https://public-pages.cbinsights.com/public-site/545560/_next/static/public/images/CBI_Logo_White.s",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "스캐터랩, AI 플랫폼 ‘제타’로 3분기 연속 흑자… 매출 52억 원 돌파 < no_feed < 컴퓨팅 < 뉴스 < 기사본문 - 뉴스탭",
+          "url": "https://www.newstap.co.kr/news/articleView.html?idxno=308525",
+          "text": "스캐터랩, AI 플랫폼 ‘제타’로 3분기 연속 흑자… 매출 52억 원 돌파 --\n\n발행일: 2026-02-20 17:14 (금)\n\n- 광고문의\n- 기사제보\n- 공지사항\n\n기사검색\n\n이전 기사보기 다음 기사보기\n\n스캐터랩, AI 플랫폼 ‘제타’로 3분기 연속 흑자… 매출 52억 원 돌파\n\n--\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n컴퓨팅\n\n--\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n생성형 인공지능(AI) 스타트업 스캐터랩이 자사 AI 엔터테인먼트 플랫폼 ‘제타(zeta)’의 고속 성장에 힘입어 2024년 4분기부터 2025년 2분기까지 3개 분기 연속 흑",
+          "score": 0,
+          "published_date": "2025-07-16T00:00:00.000Z"
+        },
+        {
+          "title": "김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다 - 매일경제",
+          "url": "https://m.mk.co.kr/amp/11968899",
+          "text": "김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다 - 매일경제\n\n# 기사 상세\n\n사회\n\n## 김종윤 스캐터랩 대표 | 한국형 AI픽션 플랫폼으로 일본 시장 뚫었다\n\n한국, 일본 넘어 미국 진출하는 K-스타트업\n\n국내 인공지능(AI) 스타트업 스캐터랩(ScatterLab)이 ‘돈 버는 AI’의 가능성을 증명하며 글로벌 시장의 문을 두드리고 있다. 스캐터랩의 핵심 프로덕트는 2024년 4월 출시된 ‘제타(zeta)’로, AI와 사용자가 대화하며 개인화된 서사(Narrative)를 즐기는 서비스다. 대부분의 AI 기업이 천문학적인 모델 운영 비용으로 적자에 허덕이는 가운데, 스캐터랩은 2025년 2분기 매출 52억원, 영업이익률 17%를 달성하며 흑자 구조를 공고히 했다. 국내 시장과 비슷한 시기 진출했던 일본 시장에서는 그야말로 ‘대박’이 났다. 별다른 홍보 없이 입소문만으로 누적 35만 명 사용자를 확보했으며, 일본 엔터테인먼트형 AI 앱 분야 1위를 차지한 것이다",
+          "score": 0,
+          "published_date": "2026-02-23T00:00:00.000Z"
+        },
+        {
+          "title": "The 3 AI strategy investments leaders should make in 2026",
+          "url": "https://www.sectionai.com/blog/the-3-ai-strategy-investments-leaders-should-make-in-2026",
+          "text": "The 3 AI strategy investments leaders should make in 2026\n\nmember log in\n\nDownload Now\n\nFebruary 25, 2026\n\n# We Analyzed 4,500 AI Use Cases. Here's What We Found.\n\nMost employees use AI regularly, but only 2% report use cases that involve meaningful automations, because companies aren’t helping people figure out what to use AI for.\n\n‍\n\nRead The Article\n\nSection Staff\n\nFor compani",
+          "score": 0,
+          "published_date": "2025-12-11T00:00:00.000Z"
+        },
+        {
+          "title": "AI took investors on a date in 2025. In 2026, analysts say it's time to ...",
+          "url": "https://finance.yahoo.com/news/ai-took-investors-on-a-date-in-2025-in-2026-analysts-say-its-time-to-foot-the-bill-140012067.html",
+          "text": "AI took investors on a date in 2025. In 2026, analysts say it's time to foot the bill.\n\nOops, something went wrong\n\n# AI took investors on a date in 2025. In 2026, analysts say it's time to foot the bill.\n\nStockStory Top Pick\n\nMU +3.68%\n\nAVGO +0.86%\n\n[",
+          "score": 0,
+          "published_date": "2026-01-05T00:00:00.000Z"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Backend - 스캐터랩 블로그",
+          "url": "https://blog.scatterlab.co.kr/category/backend",
+          "text": "Backend - 스캐터랩 블로그\n\n# 스캐터랩 블로그\n\n슼랩인들의 고군분투 스토리.zip\n\n구독하기\n\n## Featured\n\n## 루다 서버에서 루다의 개인화 메시지를 처리하는 방법\n\n\"루다 서버에서 루다의 개인화 메시지를 처리하는 방법과, 그 과정에서 주의가 필요했던 점들에 대한 글입니다.\" Backend Oct 19, 2023\n\n## 루다 선톡을 대비하는법\n\nBackend Oct 19, 2023\n\n## Karpenter와 Spot으로 저렴하고 유연하게 노드 프로비저닝하기\n\nBackend Mar 20, 2023\n\n## 이루다 서버의 모니터링 스택을 소개합니다\n\n[Backend Dec 21, 2022](h",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "루다 선톡을 대비하는법 - 스캐터랩 블로그",
+          "url": "https://tech.scatterlab.co.kr/prescaler/",
+          "text": "루다 선톡을 대비하는법 - 스캐터랩 블로그\n\nBackend\n\n# 루다 선톡을 대비하는법\n\n트래픽이 갑자기 증가할 때 어떻게 대응할까요?\"\n\nOct 19, 2023\n\nContents\n\n기존 시스템의 문제점트래픽 증가 대응마무리\n\n먼저 메시지를 보내는 기능(aka 선톡)은 서비스의 중요한 기능 중 하나로, 루다를 조금 더 사람처럼 느껴질 수 있도록합니다. 이 때문에 선톡을 보내면 순간적으로 많은 사용자가 루다와 대화하려고 하죠.\n\n핑퐁팀은 순간적으로 사용자가 증가하는 상황에서도 안정적인 서비스 운영을 하기 위해 다양한 노력을 하고 있습니다. 이번 글에서는 선톡을 보내기 전에 증가할 트래픽에 대비하는 방법에 대해 설명하겠습니다.\n\n### 기존 시스템의 문제점\n\n---\n\n선톡으로 인해 사용자가 증가하게 되면 서버는 부하가 높아지게 됩니다. 이를 방치한다면 사용자가 예상치 못한 장애를 겪을 수 있기 때문",
+          "score": 0,
+          "published_date": "2023-10-19T00:00:00.000Z"
+        },
+        {
+          "title": "쿠버네티스(Kubernetes)를 활용한 안정적이고 효율적인 운영 환경 구성하기",
+          "url": "https://blog.scatterlab.co.kr/kubernetes-in-pingpong",
+          "text": "쿠버네티스(Kubernetes)를 활용한안정적이고효율적인운영환경구성하기- 스캐터랩블로그Backend\n# 쿠버네티스(Kubernetes)를 활용한안정적이고효율적인운영환경구성하기배포? 더이상두렵지않아요Sep 25, 2020\n쿠버네티스(Kubernetes)를 활용한안정적이고효율적인운영환경구성하기\nContents\nContinuous DeliveryWorkflowGithub Actions[배포 현",
+          "score": 0,
+          "published_date": "2020-09-25T00:00:00.000Z"
+        },
+        {
+          "title": "이루다 서버의 모니터링 스택을 소개합니다",
+          "url": "https://blog.scatterlab.co.kr/spring-boot-monitoring-with-prometheus",
+          "text": "이루다 서버의 모니터링 스택을 소개합니다 - 스캐터랩 블로그\n\nBackend\n\n# 이루다 서버의 모니터링 스택을 소개합니다\n\nSpring Boot 서버 모니터링하기. 근데 이제 Prometheus를 곁들인\n\nDec 21, 2022\n\nContents\n\n모니터링 시스템PrometheusKubernetes + PrometheusPrometheus + BigQueryGrafanaSpring Boot 서버 모니터링Spring Boot ActuatorMicrometer Application Monitoring모니터링 핵심 지표HTTP 요청HTTP 클라이언트DB 클라이언트JVM 스레드(JVM) 메모리마치며\n\n이정민| 2022년 12월 21일 | [#Engineering](https://tech.scatterlab.co.kr/?tag=Engineerin",
+          "score": 0,
+          "published_date": "2022-12-21T00:00:00.000Z"
+        },
+        {
+          "title": "Karpenter와 Spot으로 저렴하고 유연하게 노드 프로비저닝하기 - 스캐터랩 블로그",
+          "url": "https://blog.scatterlab.co.kr/spot-karpenter",
+          "text": "Karpenter와 Spot으로 저렴하고 유연하게 노드 프로비저닝하기 - 스캐터랩 블로그\n\nBackend\n\n# Karpenter와 Spot으로 저렴하고 유연하게 노드 프로비저닝하기\n\nSpot을 이용한 서버 비용 절감기\n\nMar 20, 2023\n\nContents\n\nKarpenter 설치Node TemplateProvisionerNode Termination Handler\n\n홍연준| 2023년 03월 20일 | #Engineering #Kubernetes\n\n핑퐁팀에서는 루다 서비스를 제공하기 위한 서버를 AWS EKS에서 운영하고 있어요. 운영하는 서버 중 상당수",
+          "score": 0,
+          "published_date": "2023-03-20T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 74.85714285714286,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.214285714285714,
+        "evidence": "12 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=00985570"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=스캐터랩"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=스캐터랩"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=스캐터랩+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%8A%A4%EC%BA%90%ED%84%B0%EB%9E%A9"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=스캐터랩 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=스캐터랩 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=스캐터랩 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=스캐터랩 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

@@ -1,627 +1,788 @@
 {
   "company": "우아한형제들",
-  "sources_used": [
-    "exa_search",
-    "naver_search",
-    "brave_search",
-    "google_news",
-    "credible_news"
-  ],
-  "result_count": 10,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "raw_snippets": [
-    {
-      "source": "naver_search",
-      "section": "culture",
-      "preview": "[블로그] 빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨\n맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... \n\n[블로그] 경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음\n✅ 장점"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "meta_description": "세상 모든 것이 식지 않도록",
+      "page_title": "우아한형제들",
+      "career_links": [
+        "https://career.woowahan.com/"
+      ],
+      "google_news": [
+        {
+          "title": "잡코리아, 30주년 기념 컨퍼런스 29일 개최...AI 시대 채용 플랫폼 전략 공유 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5sZ19OVnE1VEI1dmNGR1R4QmZXWlFkYVExT1J2MW80SlkzbjI3bVJFdFpRdkhSUEtURThrRDRLa0N5YkI2TmhuVThyUF9mUW5OZ29tS1VaZ09wQ1ljNndKbDl5ZlRoTnVxUnA4RGFXQmR0OUk?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "디지털투데이"
+        },
+        {
+          "title": "잡코리아, 창립 30주년 컨퍼런스 ′THE REBOOT′ 개최 - KPI뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zbkVhcXFZYjMwUDZ2R0tGYVVNSWN0OHVBelYyTU5McXlJUk9ad2tEc3dtNl9DRmZ5QjRnWkZRbmFmbVFDQjUwWF9kTlZjNUswTnB0ZnNDNNIBU0FVX3lxTE55ay1MWkJlUTdNVGJ3ZGZJVi0ya29zTEExWWlfa0ctelZKR0NZLWtPUDE2VG05VVVobFpIcTZJTDlQS1pTQWZleEFqWFNMSkdoYVFZ?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "KPI뉴스"
+        },
+        {
+          "title": "우아한형제들, 브랜드·커뮤니케이션 전략부문 신설···총괄에 윤석준 전 제일기획 부사장 선임 - cio.com",
+          "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNTGJEU01mR2pCZ3FaWEY4MTBqbUlrZk5rYmRNOHlZdVE3NlduM2cyNkVBZkx2LVM5c254YkRDY0YtYmhVUGVmaE51T1RIdHBWckN5TWpwVk1XZnlXd1FWQ0pXelJNWUY1U1JSc0NXdXd6YlpFRU1VZEpNeDJpeUgtVXpCQlAtTlBzd1F3RUM3bFdnZzNSVzQwWnRkaDltTC1vQmU2SXFYRk5YYTdzdEJOcVZMRGlKWFdaX1AyeEtQUWh6ZjdBYXRuRDhFTXdZMFJ2RW5oVzN6YmVyMVVrUmlLRUt0bzUtVGhFcXUxT0xYOVF0b3NnYXVCWVhzYmZJVnhadHdHMTR3NU1KX3VfUVpTZklsM0RNOUZpU1UxUUgxOE1vYXF6M1p4Q2htRllGZlFGQWJyNzZZa2dmTDNMXzBubjhPYWQ3LWVkNVNIR1F4Rjl4UVVEVnBIbUZfWQ?oc=5",
+          "pub_date": "Thu, 18 Sep 2025 07:00:00 GMT",
+          "source": "cio.com"
+        },
+        {
+          "title": "잡코리아, 창립 30주년 맞아 AI 채용 전략 공유하는 ‘JOBKOREA THE REBOOT’ 개최 - 뉴스탭",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pX2RRaW1LWXl3Mkd4dDNmajRRcVVJaTBQQzhsRHV0U0l3d2s0eFd6RnZYMUk2ODM3RlFlOUlTRkdZMWFMLUdzb2FuQzB5cGFOSmpQdFBrLUJXT0FRcHdIeHNJM3hWSDd4QnJQVA?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "뉴스탭"
+        },
+        {
+          "title": "잡코리아, 창립 30주년 기념 컨퍼런스 개최 - 프라임경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FRk5LcHlDSEhJaUp2ZnJDbC1xNEtSSnZ6bnhRUVVVS0d3RGQ4N29KbC1VUl9rU3JEQUpXLWwtUXhfT1czZ0VFcC01NHlqbnRyZnpZb1VhNUdNQW1EQk9kRFQyWHFDYndIWnNyaA?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "프라임경제"
+        },
+        {
+          "title": "[취업뉴스] ‘흐레카(Hreka) 컨퍼런스’, 잡코리아가 전하는 AI 시대 HR 혁신 전략 - 아웃소싱타임스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4aHc0TTFZSUI0bW44UWFtTTF6SlRCTFluYXg2YzdBa1REckJBV1pRcEV2dXBzQmE0Ym9jbGtEV21GWTJfNHBSOEVCcDZkYnRiNUJHa0FjWmltUE9lQmd4SDR1ZVFLUUlaZkJlTmlVV092Zw?oc=5",
+          "pub_date": "Thu, 16 Oct 2025 07:00:00 GMT",
+          "source": "아웃소싱타임스"
+        },
+        {
+          "title": "잡코리아, 내달 ‘흐레카 컨퍼런스’ 개최… AI 시대 HR 전략은? - 디지털 인사이트 DIGITAL iNSIGHT",
+          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUE1CenltWkl0MXA2N3hjVVZYNU9uT1JyVDJXaVNxNzl1VjZtemt4QVBvVkZ2eFhQNnNPcUhtRTl6QmtqMjRncEJCWUpLV3NXbXl5WXFBeHdWVTFhbS04RmJoVTRDTjQtRUZQZmEwalc2VURIVk5oQ0o4LWhXU2dRSTVjRVVEVE5CYjEzNXJET2pzS3ROR1ZnTE1IV0tuTmYwUk8yaXpaNkFSa2t1LUVwTjVQWVpac1dGcHBBZHE4dFVycEs3TnZQZHlvTFFOekhRaU5pTnoyVGVRSlFta1ZaSVZYMEVva1hnVXJvMS1QTHQ5NXBrbnZzVS05dWlhZWhzRWpiRjZWQU9Ob21hRWNsUDZyUQ?oc=5",
+          "pub_date": "Thu, 16 Oct 2025 07:00:00 GMT",
+          "source": "디지털 인사이트 DIGITAL iNSIGHT"
+        },
+        {
+          "title": "김범석 우아한형제들 대표 “파트너가 장사에만 집중하도록 할 것… AI 적극 도입” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0loY18xWW1CUjQweEVTOWxubEdOeVU1MV9VT29nQWd1d3hXNm1QeWxwNUdzYi01YTdXeWY2X1ZRYnV3SUNQVlA5QmRhOVJ1ejRQN01fQWxpWTdwZFVVanFvOVlLUHFSenRINXVkZUh6N1RXUU0ydFFkUnhrZ3F1SEJCX2xYZ9IBmgFBVV95cUxPSjBicTFaYnV3SFMtRmNBd3FfVnBhUDFyVDJHS3N5R3QxWXZTMFFldGJYMmN4eTRoV2FRUDFZcTYxRi1kTEVGcjlpVVRTbWVMRHdlMDhiLWxMeEp0ZEE1WGx5M1JxeE5nWTNMUERqTW1YQVJEd2FVZTBvanBJS0FfZEZkQk1BTHpLVl9wbDhUV2M2TUpBall1eFVB?oc=5",
+          "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "잡코리아, AI 시대 HR 전략 제시...'흐레카 컨퍼런스' 개최 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uYVpBNWYyb1JLVW44UzJXekNqaHVQNTBVb3Rtd0lkSEJmR25PRkVyS29zcnBrT0RYTlUtWHFMLUdZUmJpNXhNYVR3bnBvWkgtaFJ3Q0FBVFItQdIBXkFVX3lxTE05UDQyR1haal9KNUFIcFFoNUd1TnpOd1YxSl9wSHJuTGpIeWJ4dkZZODNZLUxkenUwM0FfcjZud21WWXRHVHVNZ0ZWTUNwMFRudWhHMlZuZEsyQ00zQkE?oc=5",
+          "pub_date": "Thu, 16 Oct 2025 07:00:00 GMT",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "title": "배민, ‘우아한테크코스 2026’ 신입생 모집···차세대 개발자 양성 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSVlF3VlM5S0tTMXE3bTRhaFZTODhaTko2MkR3NUpqR2lqdDdZb1FWeDFYck1SYzk1VnQ5bDUtWFBad01KakxKTTdIbENsQUxJVDlRZkhn?oc=5",
+          "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "잡플래닛 품은 잡코리아, AI 네이티브 전략으로 채용 시장 30년 룰 바꾼다 - ER 이코노믹리뷰",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sVlFNOFpfRWtoYXJWZHVlS0VBSFMtUC1ROVBjSGVOTjdlYmZwTGtFcGZzdFFkY2VYSTVpMEhlZmU1LXlHRzFpZnRVYWZhOWFuZGxNTjE2dFlWSnQ3OGFfTXVrMS1Ta0JfSlAydA?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "ER 이코노믹리뷰"
+        },
+        {
+          "title": "잡코리아, 창립 30주년 컨퍼런스 연다… “AI로 채용 기준 다시 쓴다” - 한국면세뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLUHNNNVJBR3doLWY5cy1uQm9jUVlLZmJqUDhYWmpyZXVjc25Rb0J0cTdFaXdGLW1xbHRTeVNweDZQaGEtV29uc1hxQU9kc2w4RHJGTjJ5THh4YjZraTZ4SGdKZHlSS1FuMWc?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "한국면세뉴스"
+        },
+        {
+          "title": "잡코리아, 창립 30주년 기념 컨퍼런스 ‘JOBKOREA THE REBOOT’ 개최 - 이코노미사이언스",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15Vk9zQzhvWWpBbDlHN2RjQ2ZXLVlPVE96V01TZUl4VkZTcVR3UmFGVXlRZFppU0hKakh0MmR5THk1dDhsUUFPamc1STNQa2FaUnhHTmoyaUFXS1RHOGNSYmVad3gzSnR0MTY4dG53NA?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "이코노미사이언스"
+        },
+        {
+          "title": "잡코리아, 창립 30주년 기념 컨퍼런스 ‘JOBKOREA THE REBOOT’ 개최 - segye.com",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6TF9iVkZZeENuOF84M2FtWGJIbDRnX3o1Y3dfVHhxdlRBUFRZS3ktWUZ6Z2tuamoxZzFtZXBiN01zdG5hdHprdDd2cUYzWXVxdGdwV0ZzdnfSAVRBVV95cUxOU3V0UnQtNGJQd1dpeG03YzJOa1ktSnVvRk1JaUs0d0FPTHUzS21NUTdSbTIyR2FQQW52QWo1SkZod1ZYdzhJTGxxaDRoOHFSX1ZJSzA?oc=5",
+          "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
+          "source": "segye.com"
+        },
+        {
+          "title": "[현장] 배민, 파트너 성장 비전 제시…AI·한그릇·운영솔루션 등 공개 - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13MTJ6NW11ZDVVYTJFQW5pOU10NjFQTkIzN1NDWTFlMy1ucGN2VEZrNkhROHp1OEprMlZUZWJ6dXp0VExhdzRRS3J5dWx5S01fQnpwbmdnemhtNlVIZlE?oc=5",
+          "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
+          "source": "뉴스투데이"
+        },
+        {
+          "title": "우아한형제들, 사상 첫 매출 4조 넘겨 - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9XdDlic2x1cFlnTkRxbkQwN2lPbzlfUHBfNWZDWjJLV2d2eEVNN0U1dW9Obm1yQWNVeE95R2hxNUtld2lwcXVoNzd3Ui1KM0lnVF9lQnVCVkE?oc=5",
+          "pub_date": "Wed, 04 Feb 2026 20:43:04 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "배민, '경쟁 환경 악화+규제 압박'에 고심↑ - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WYTl1cHQ3MEJlQnJCWTVGWElmTnp6d3VtTHA4WEkxaXE0VXNzT2hvVzE0TURrSVc5d0FHbC00NUVOeFhfZ1ZHamNhOVhDbzBXQ1d3a0dn?oc=5",
+          "pub_date": "Fri, 28 Nov 2025 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "월드비전·우아한형제들, ‘배민 겨울방학 도시락’ 지원 사업 성료 - 시선뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aSHo1RmJidHVGWUFRWFQtd1hIQzJlV2JyMXJ4WFdZV0hwR1RvbDNnRGtiWUxEbGFsalFvNHFidDNnRG1KZmgzQTA5R0RyREdaUms1S1ZZV2Nwc0Y1V0Z0bU1pa2lvUUZXUDh5XzJn0gFyQVVfeXFMTWJPOHNBZmRJb0d0MnhfSURFOGZvYTVrTUN0a1l1R1hBdnBfa0UtWF9XWjhJY0djc0NRcG1HR2hyR2c2QldMWW5VN1QwNWlDYWtiR3BGN3RwMFhoMDllNEJkZlExVHk1dkhaRXVxQlR5MlZn?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 02:31:24 GMT",
+          "source": "시선뉴스"
+        },
+        {
+          "title": "우아한형제들, '배민스타트업스퀘어 Ignition Day’서 스타트업 육성 사업 시동 - 더밸류뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VMW5qUThHU1BFS1NGWnhuQjVnQTdHZjZlUllzOVVodjJjS0JiMlpRZl9QaTJtSXp2Y3h2T3RKRUFsV3plcjBiZTBRdlNzamJnMzhFVA?oc=5",
+          "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
+          "source": "더밸류뉴스"
+        },
+        {
+          "title": "우아한형제들, 12개 스타트업 육성 지원기관과 업무협약 체결 - 비즈월드",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsUm1JUl9oVDRJR2k3allXQUM3emM1cmJSMkNvN1NBcmJqTERnZEFKVlBCaXlCNDJFT1p2T1VtVFFxeFBBMkRRcjZ6X1Mzcmt5d0lhNjhtUjNMaDhmVS1hU3RuR2dEYW1rS0Nz?oc=5",
+          "pub_date": "Tue, 15 Jul 2025 07:00:00 GMT",
+          "source": "비즈월드"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "월드비전X배달의민족, ‘비전스토어’ 캠페인 참여 가게 확산 위한 업무협약 체결 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhWFBreDBfZFlvTjBrVE8xb0dNV2YxY0F5NVVZOGNhdlhqVjVqd0ZXUm9IVHRXVjd0cTZwRENUSWNGdzdXTG00dy1CM3k2UENxWWExa3dPeFM3TXpyblRTaXR2aXB1U0k?oc=5",
+          "pub_date": "Wed, 26 Feb 2025 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"지난해보다 41% 늘었다\"…배민페스타, 2주 만에 제공 혜택 254억 돌파 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FMmFfMTJjY2NMVkt6ampDLVFHSVUxT2RzNXF6N1dLTUFZN3dGamQ0VVduRlliU1RRdzZRQ0NjOVhkLWRMMExSb3ludHhaUjhQa1hhTEQ0ZFE2d9IBVEFVX3lxTE9qT25hR0FfR2w0Y2pDcDY0SHRubWFLeGktQXJhMmtham1qa1hMa3NZODhnd0F0Slo2bjJSUTNzMlM3MUdkUERUbnVoakVMNGotanBJMQ?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 23:53:35 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"종이빨대업체 지원\"…배민, 소공연과 종이빨대 공동구매 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQkFlWWZzWUNZOERlTVVQWUZ1R3d6M2xLUndseHljSXdIMzEtWGx1T19GcXQ2bUVzNU11UTlFMm9yaDJKcVFpNmVXeTRfZExTQjFzRWd3NHJlRjBJbHRLeTNiXzFTSExla3VHMnhhTm9PblJRelZqei1mRmRoNV90aGF2dS1HU0E?oc=5",
+          "pub_date": "Thu, 21 Mar 2024 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[사진]문근영,'부드러운 미소' - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcEtySE1sWHhhQW1Vd1dUcFl5RVpITnc4ako4WUlZLU0xaG1OczVHOWJtc3lZWDBiejh3dzB6T1hWNjhYOUFnRDR6RjZLRWxTMm1KMUhEN3ZNZ1RQSkJKSUNqaHdINTJqV2RqLXNEMVcxc3lxeXpmM3V2WU5rMGR2cVk1TGs2eE5TeEJrbUphNi1LeVJkTXJReEd6TdIBrwFBVV95cUxQU210X0hkSVgtZEpoWEtXeVJyNU15QmJLbURJSEQ0d3pMUV9Ha25jUmRTQVREbDVVc0JIRHpQOFJQb2E2TDltQ1htTDlCalR5ci03am9VM1plbnU0VkpDYVluWm5kc2Q0eDFrYnBlYURhOVo1V00xU25HRFJ1RnVDVVV2LUlieVFaaWRTeC1TSW5uRDlGYkdLcVliMVpXQy1ZTXp3endqYlBqbTEzRjF3?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 06:43:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[사진]김단이,'소독약은 무서워' - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnRKOTI3LUVERzUxOGp6RFUyYzQxSnI2UC1qZ0l5QVVZYldYVlphcDUzY2ZKQlhHTVBpWWgxbVpJQTVycUI5VEFfb2RnNXhob1duaXRkRGtqY1kweW80YVVTd0QwQkNIY1NXYk9UZEtrWlluRUoyZnJVSjdHTGJnSmxLY2dRMHJnU2o1amRwUGFUN1VNeTY1UXFNY9IBrwFBVV95cUxPcGhDRjlFcE1abTloeDF3VERwOVFqVlB5NjVMNEhBU1NZaHFMR1YxNEo0LTE2YXlfdVJHc3BleVZORGtMaW54bjRUQmhQa3JPbTdneTI4VzR6bDljaTIxbUdGeGE5SXZ2VXNtNDdWTlZmeHZGYy1XelBWX1ZZWDlnSzk1RG9HT3RmQkRNZXdVcFQyNDlub3RVZ2pNM2pKYlIwR3ZQd2ZBZUtqd2dJUTcw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 05:51:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "배달의민족, 현대카드와 만든 다회용 ‘에코용기’ 12월 중순부터 판매 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ1B1MlhSdUFmamNRTGhFbXdpeVc5MS0zbmc1VldPSnhxTzRHMW4zbmVZSVJES1J5a21EbGR1b3hGVU1SQWpLQ1dMWlF1T3VUa3ZKelN0UDl6RzBielJrSXprNmdfQ0lwc0hGNm5HSGdpemFPQ293b2xiWnN3SFZmWXBqUUpEd2FmcUHSAZ4BQVVfeXFMTnVXTUZZOXJkYXBvdUxhT2M3Mk42dXFsSkNrd2Y2UEZvaUNrZzRFU3VGOE02VklFZ2JaQ0J2eDM3MFhob0dXMTZjV0Y1a0hRdTNhNGlHTkNDSjVYSllVNnpiVTVDYmFUWGtEM2piY2xLSnVxYnlwWkl3VnVFU2h0VFNVa1NFYnRfRWJYVC1sMDlJTFRuQ291LTRQajBnVWc?oc=5",
+          "pub_date": "Fri, 18 Nov 2022 08:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "배민, 작은 카페서 ‘한정판 BTS 음료’ 판매 돕는다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mTGhDaURqMnE1WHl4dUhhTnJyY1NsbThhOHNZS0NJWHlHNlNlbl9ONUxFNGJUcVlsSTFyLTFoS3ZYbmt6YWZ4ZEwwRWRlYTZqZ1pVcGhB?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 06:50:06 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[고침] 경제(배민 \"배민페스타 2주 만에 고객 할인혜택 25…) - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSamN0a2RYSjZfUDdWRWJXX3p0cVZhd1lreEx1eXR3dnhuSWxXcVp5MmxZbHBMSmZfQjNQRENTMGJoSEhGSFV1bWZ5NUtfeE1kTUE?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 02:33:29 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "배민, 경기·강원 소상공인에 협약보증대출 지원 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Td3AtWGZoalV0dkFmSEp4c1VndjBsTmVrNm5rU1plOVFTaEJWRW5EVG12d0RLZGlJVW5kX0NwTGtZSnM2VGt4X0lLdDIySkdp?oc=5",
+          "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "배민, 광고학회 ‘올해의 광고상’ 브랜디드콘텐츠 부문 대상 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uNlZsc3BGZDk0UFhEYS1HWnJ4MG5kU2w0M2RHeVJiTnVoaEpyQmY3RUl4ckcwTkdGZ1h5eF9RWDFVaVR6MnJhY3JqRmEyVzJTeU1aSGx3?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 05:10:55 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "배민 모회사 딜리버리히어로, 부채 상환 위해 14억달러 대출 추진 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBVVAxRUpNSVBkbS1yV1ozVU9qa0xWMWJDTnhHdUFpck4wZk42aUpCejJUc2RWc0cyNldxMFNoNDJXZDFobFNxRWpfa19jUl8xR1FhaDNB?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 00:45:14 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "배민, 종로구·중구 소규모 카페에 BTS 음료 레시피 제공 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qeHdWRllFaFkyQTQ3YTRxTmZCMTNCMDhPLTB6aFlqZkhlejNUY19JcXhkeldYM2dJZlRULWFSdkVRcHFOM2tsdy1oU1l1UUpXYVZrYnhB?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 23:52:41 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "\"치킨 왔습니다\" 배민 개발자가 말하는 추천 배차 알고리즘 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFcV9DQzItLVhzb1g2Y3FhdEkzZVQxUE44dWNvb2JoRDFvUGpZYlJMbERMYVBOc0xkSFpYd0t6OUdwa0FWcnZpOVo5Ml93eFAxTENBcUdveElkSFktekQxTHloajVUVHc?oc=5",
+          "pub_date": "Wed, 16 Dec 2020 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[CFO 리포트] 플랫폼 ‘독점지대'와 ‘우아한 형제들’ - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11LVdsaGdFNXU1SGVWLU5vRTVydGMzWmIyRVpfaE85UWdtbHd0VFZhT0F5MWF4NFdBc3dFR0hhZ0piWjVJQ05SVjVhd3RoOVIzYm5CUldXc3hJSFY4NTB1bmdzQWZGLWRB0gFsQVVfeXFMT2lCektnSkhzb0JDZVdackhhSnJrTkFpdElTRmQ2ZlRoQk1lQ0tsd2tMQnlZY2xEajRRb3h0b0tJUjY5Mk4zbWNIZlZid2Z2VHdQdzB2bkxYUkNQYmo1VWk0SG1UNW4wd3FlQWJu?oc=5",
+          "pub_date": "Tue, 24 Jun 2025 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "우아한형제들, 근무 장소부터 시간까지 '자율'에 맡긴다 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ha2JWYzdfN1hqbkVSU1d0QkdCa2R6ckpPQmNaQVU5MXRURFdZTnZsSDYtVXNzbDZDTXh1Z1RYWHAxbEhhVkhMTnIzTmZVSlhfcUhMMXJ2WHhwdkpQejEtYVBoTDNDbmfSAWtBVV95cUxQdkRFUnFTVnFKOTF1VTZTeFVBWmo0WGxSWnZWektDSEJ5MTN6UGNpNVBvVzRNekFzWUlaR0lHYXc3R3JEdkNpbTN2MlFKYlIyS1B6Y3h3TUs4blVjNkRiSkRtN1FEWEdNckh2Zw?oc=5",
+          "pub_date": "Thu, 14 Jul 2022 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "우아한형제 서버 개발자가 AI를 받아들이는 방법론 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8xcE9GeVAtVGNGYlBWVzBQSVJlN3hQVWNDd2xmZFFLSzFkeF9XYnk1NzF2ajRMTUl4cC01LW41dUI4WUlrQU9IV1FPeUU?oc=5",
+          "pub_date": "Thu, 30 Oct 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "‘우아한형제들’의 클라우드(AWS) 보안 생생 경험담 – Pain Point - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yMm1rNmVRV2N5QXVwWENndkJQenItRG04cEFZTGd4eUNIc3UzVEJBOE1xcGJjMFVuSXEtRzBZa0FkTzFyX0VtYWV5RUk?oc=5",
+          "pub_date": "Wed, 06 Mar 2019 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "우아콘2024: 배달의민족은 글로벌로 간다, 기술로 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Hbkg1LVNfVFdJbHFFbVJ0TUNjQVRNb2pPN3kyR0RuWk91cGlkMGptYU1Obm5HVm5IRmtQZTh2R0VMVzhhcWM1ZTItM0ZaTGpLQ0ttTmVB?oc=5",
+          "pub_date": "Wed, 30 Oct 2024 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
     },
-    {
-      "source": "naver_search",
-      "section": "culture",
-      "preview": "[카페] [3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.\n외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.\n\n[카페] 서울3대 재즈바 entry55 사당점 바텐더 채용\n[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 o"
+    "4": {
+      "naver_blog": [
+        {
+          "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
+          "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
+          "link": "https://blog.naver.com/blrol_blrol/224224956373",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+          "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+          "link": "https://sibauchi.tistory.com/1205",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
+          "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
+          "link": "https://think-tank.tistory.com/1035",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
+          "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
+          "link": "https://blog.naver.com/kcl3598/224224791593",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
+          "description": "기업 문화 기획, 인사 데이터 분석) 지원 자격 2026년 8월 졸업 예정자 및 기졸업자 (전공 무관) 근무지 경기도 광명시 유플래닛타워 (광명역 인근) 전형 절차 서류전형 → 인성검사 → 면접전형 → 합격자... ",
+          "link": "https://blog.naver.com/goodlife_92/224224618278",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+          "description": "실제 사용자들의 후기를 살펴보면, &quot;채용 공고 내용과 실제 업무 환경이 다른 경우가 많다&quot;, &quot;연봉 정보가 명확하게 제시되지 않아 어려움을 겪었다&quot;, &quot;면접 과정에서 기업 문화에 대한 충분한 정보를 얻지... ",
+          "link": "https://ilovefamily.tistory.com/527",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "현대자동차 3월 채용 취업 이직 대비 (자소서/면접)",
+          "description": "면접 준비가 될겁니다 현대자동차 PT면접 * 전 직무 자기소개 PT 진행 * 지원 직무에 따라 사전과제PT or... 모의 면접으로 감점 요인 종합점검 / 최종 피드백 바로코칭 실제 합격 후기 기업은 우리들에게... ",
+          "link": "https://blog.naver.com/bashinga197939/224224525166",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
+          "description": "오늘은 취준생이라면 한 번쯤 목표로 하는 기업, SK AX에 합격한 신입사원분과 인터뷰를 진행해봤습니다  ✔ 합격 스펙은 어땠는지 ✔ 채용 과정은 어떻게 진행되는지 ✔ 자소서·면접은 어떻게 준비했는지... ",
+          "link": "https://blog.naver.com/ttooooriiii/224224472695",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "안국약품 채용공고 2026 - 영업부터 R&amp;D까지, 지금 지원해도... ",
+          "description": "문화가 남아있다는 후기가 있어요. - 업무 강도 편차: 특히 영업직은 실적 압박과 업무 강도가 상당하고, 부서나 팀에 따라 편차가 크다는 의견이 많아요. 이런 부분들은 입사 전에 충분히 고려하고, 면접... ",
+          "link": "https://blog.naver.com/cymmcymm/224218688799",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "만도브로제 HR 정규직 채용 2026 | 복지·면접 꿀팁까지 한... ",
+          "description": "독일 브로제(Brose)와 HL만도가 함께 설립한 합작법인답게 외국계 합리적 문화와 국내 대기업 수준의 안정성을 동시에 갖춘 곳이라 주목받고 있어요. 지원 마감까지 얼마 안 남았으니, 복지부터 면접 예상... ",
+          "link": "https://blog.naver.com/cymmcymm/224218685362",
+          "pub_date": "20260321"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "4조 고영운 - 이직/잔류",
+          "description": "노력함 -보수 =&gt; 복지 향상 (저금리 사내대출, 복지 혜택 증가 등) -업무 만족도, 근무 환경 개선 =&gt; 재택... suni,우아한 형제들 우아한 테크코스 등) -이외에도 다양한 조직문화 제도 도입 ***비자발적 잔류 -외부... ",
+          "link": "http://cafe.naver.com/kwhrs/307",
+          "pub_date": ""
+        },
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.2914027149321265,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "성장",
+        "수평",
+        "워라밸",
+        "자율",
+        "장점",
+        "좋은",
+        "최고"
+      ],
+      "negative_themes": [
+        "꼰대",
+        "단점"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "(주)우아한형제들 2026년 기업정보 | 기업리뷰 1,127건, 3.8 리뷰평점",
+          "description": "개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · 1급여·복지 만족도 상위 0.01% 기업은 뭐가 달라? 2면접에서 ‘일하기 좋은 회사’를 알아보는 법 4가지 ·",
+          "url": "https://www.jobplanet.co.kr/companies/61420/reviews/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+        },
+        {
+          "source": "brave",
+          "title": "(주)우아한형제들 2024년 기업정보 | 1,110건 면접후기 3.2 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 3.2, 면접경로: 온라인 지원 81%, 면접경험: 긍정적 55%, 부정적 12%, 면접결과: <strong>합격 30%, 불합격 50%, 대기중 20%</strong> | 잡플래닛에 등록된 1,110건 면접후기를 지금 ...",
+          "url": "https://www.jobplanet.co.kr/companies/61420/interviews/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+        },
+        {
+          "source": "brave",
+          "title": "(주)우아한형제들 2026년 기업정보 | 622건 연봉정보, 5,538만원 평균연봉",
+          "description": "(주)우아한형제들 연차별 예상 연봉 - 7년차: 5,953만원, 8년차: 5,831만원 | 등록된 연봉정보 622건, 최고연봉 7,286만원, <strong>평균연봉 5,538만원</strong>. 지금 잡플래닛에서 내 연봉과 비교해 보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/61420/salaries/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+        },
+        {
+          "source": "brave",
+          "title": "우아한형제들 2023년 상반기 790건 프리미엄 기업리뷰 | 잡플래닛",
+          "description": "우아한형제들의 전/현직원이 전하는 생생한 기업정보! 직무와 커리어 131개, 업무 방식 133개, 기업 문화 132개, 일과 삶의 균형 132개, 복지 및 급여 131개, 기업 만족도 131개 | 잡플래닛에서 더 많은 기업분석을 지금 바로 확인하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/61420/premium_reviews/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+        },
+        {
+          "source": "brave",
+          "title": "(주)우아한형제들 2026년 기업정보 | 기업리뷰 1,129건, 연봉정보 637건, 면접후기 1,241건, 복지정보 52건, 채용공고 0건",
+          "description": "(주)우아한형제들 기업정보 - 산업: 솔루션/SI/ERP/CRM, 기업형태: 중견기업, 사원수: 2,250명, 설립: 2011.03.10 | (주)우아한형제들의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/61420/landing/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+        },
+        {
+          "source": "brave",
+          "title": "(주)우아한형제들 2025년 기업정보 | 기업리뷰 1,006건, 3.8 리뷰평점",
+          "description": "개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · ad같은 팀 과장한테 고백공격 당했는데, 어떡하지? 1두 배로 돌려받는 적금이 있다? 사회초년생 주목!",
+          "url": "https://www.jobplanet.co.kr/companies/61420/reviews/%EB%B0%B0%EB%8B%AC%EC%9D%98%EB%AF%BC%EC%A1%B1"
+        },
+        {
+          "source": "brave",
+          "title": "(주)우아한형제들 | (주)우아한형제들 동영상 5개, 리포트 3개, IT/웹/통신 | 잡플래닛",
+          "description": "7뽑고 싶은 기획자(PM)는 이런 것 [잡플래닛 커리어 성장문답] 동영상00:20:27 · 8파견직은 경력에 도움이 될까?_사중고 EP11 · 동영상00:09:16 · 9개발자 커리어 시작하기 [개발자 커리어 성장문답 EP.03] 동영상01:31:47 ·",
+          "url": "https://www.jobplanet.co.kr/contents/videos-1"
+        },
+        {
+          "source": "brave",
+          "title": "우아한형제들 사내 문화 - 기업 소식 | 잡플래닛",
+          "description": "2019년 대한상공회의소 &amp; 잡플래닛이 주최한 일하기 좋은 중소기업에 선정된 기업입니다. ... 우아한형제들에게 회사란 ‘평범한 사람들이 모여 비범한 성과를 만들어내는 곳’입니다.",
+          "url": "https://www.jobplanet.co.kr/companies/61420/feeds/2298"
+        },
+        {
+          "source": "brave",
+          "title": "우아한형제들 2026년 기업정보 - 주요사업·최신연봉 | 캐치",
+          "description": "우아한형제들 초봉 4634만원, 평균연봉 6,288만원, <strong>재무평가 상위 1%</strong>, 공고에 없던 핵심 정보는 캐치에서 ㅣ #복장자유 #성과중심 #눈치안보고퇴근",
+          "url": "https://www.catch.co.kr/Comp/CompSummary/H46722"
+        },
+        {
+          "source": "brave",
+          "title": "2026년 주식회사 우아한형제들 채용 기업정보 | 인크루트",
+          "description": "2018.09 2018 대한민국 브랜드대상&#x27;디자인 경영&#x27; 부문 대상 2018.08 자율주행 서빙로봇&#x27;딜리 플레이트&#x27; 시범 운영 2018.07 월간 주문수2,000만 건 돌파 2018.07 벤처기업협회 주관‘2018 대한민국 우수 벤처기업’ 선정 2018.06 2018 대한민국 일자리 으뜸 기업 선정 대통령 표창 2018.04 ‘2018 배달앱 효율성 조사’ 결과 소상공인 만족도1위 2018.03 ‘2018 iF 디자인 어워드’ 사무공간 부문 위너(Winner) 수상 2017.12 배달의민족, 배민찬 앱스토어 선정 올해의 앱 2017.10 네이버로부",
+          "url": "https://www.incruit.com/company/1659975715/"
+        },
+        {
+          "source": "naver",
+          "title": "우아한형제들 2026년 기업정보 | 421건의 복지정보 0 전체 복지 통계",
+          "description": "우아한형제들의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 421건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/61420/benefits/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)우아한형제들 2026년 기업정보 | 기업리뷰 1,129건, 3.8 리뷰평점",
+          "description": "장점 : 월요일 1시출근 최고의 동료 재택근무 롯데타워 인프라 굿, 단점 : 재택이라 워라밸 좋을 것 같지만 퇴근 후에도 업무 생각을 놓을 수 없어요 생각보다 체계 안잡히고 주먹구구",
+          "url": "https://www.jobplanet.co.kr/companies/61420/reviews/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)우아한형제들 2026년 기업정보 | 1,242건 면접후기 3.2 면접난이도",
+          "description": "(주)우아한형제들의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.2, 면접경로: 온라인 지원 81%, 면접경험: 긍정적 57%, 부정적 11%, 면접결과: 합격 34%, 불합격 47%, 대기중 19% | 잡플래닛에 등록된 1,242건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/61420/interviews/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+        },
+        {
+          "source": "naver",
+          "title": "우아한형제들 2026년 기업정보 | 420건의 복지정보 0 전체 복지 통계",
+          "description": "우아한형제들의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 420건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/61420/benefits"
+        },
+        {
+          "source": "naver",
+          "title": "우아한형제들 2026년 기업정보 | 419건의 복지정보 0 전체 복지 통계",
+          "description": "우아한형제들의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 419건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/61420/benefits/%EB%B0%B0%EB%8B%AC%EC%9D%98%EB%AF%BC%EC%A1%B1"
+        },
+        {
+          "source": "naver",
+          "title": "HR임원이 말하는 '우아한' 문화의 비밀 | 컴퍼니 타임스의 생생한 인터뷰 확인하기, IT/웹/통신 0.0 평점",
+          "description": "우아한형제들은 어떤 다국적 기업과 비교해도 훌륭한 조직문화와 경영철학이 있다고 생각해요. 자부심을... &quot; ◇ '우아한 면접관'부터 '우아한 평가'까지…&quot;철학이 액자에서 나올 때 문화가 된다&quot; 문화는 곧 사람에서...",
+          "url": "https://www.jobplanet.co.kr/contents/news-1202"
+        },
+        {
+          "source": "naver",
+          "title": "포춘-잡플래닛 일하기 좋은 기업 선정…우아한 형제들 1위 비결은",
+          "description": "좋은 직장에 대한 바람은 결코 높은 월급만이 아닐 것이다. 최근 모항공사의 임원이 자사 직원에게 가한 어처구니없는 행태를 지켜보면서 사람에 대한 ‘가치 존중’이야말로 기업문화에서 간과할 수 없는 주된 것임을 목격했을 것이다. 고용주와 피고용인 사이에는 더이상 갑과을이 아닌 어떠한 상호적 유대관계가 성립될 때 올바른 것일까? 지난 18일 그랜드 하얏트 호텔 그랜...",
+          "url": "https://www.venturesquare.net/564571/"
+        },
+        {
+          "source": "naver",
+          "title": "기업 비교 - 잡플래닛",
+          "description": "복지 및 급여 : 4.0, 워라밸 : 3.4, 사내문화 : 3.9, 승진 기회 : 3.2, 경영진 : 3.1",
+          "url": "https://www.jobplanet.co.kr/analytics/result"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛",
+          "description": "복지 및 급여 : 4.1, 워라밸 : 3.6, 사내문화 : 3.8, 승진 기회 : 3.5, 경영진 : 3.2",
+          "url": "https://www.jobplanet.co.kr/analytics/result?gad_source=1&%243p=a_google_adwords&%24always_deeplink=false&~ad_set_id=164515257983&~campaign_id=21568405818&~channel=g&~keyword&~placement&%24web_only=true&_branch_match_id=1218831648555529094"
+        },
+        {
+          "source": "naver",
+          "title": "(주)우아한청년들 2026년 상반기 채용 | 기업리뷰 1,058건, 3.3 리뷰평점",
+          "description": "장점 : 그래도 여러가지 챙겨주면서 더 좋은쪽우로 제시하는방향로 할려고함, 단점 : 대표진 임원진 수평조직처럼 보여주지만 진짜 꼰대들 많은 회사",
+          "url": "https://www.jobplanet.co.kr/companies/366659/reviews/%EC%9A%B0%EC%95%84%ED%95%9C%EC%B2%AD%EB%85%84%EB%93%A4"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "(주)우아한형제들 기업리뷰 | 50명이 참여한 통계 & 리뷰 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-review/view/csn/MUtLY0NLcDhMQkRmWEdBclBnalFLdz09/company_nm/(%EC%A3%BC)%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4",
+          "text": "(주)우아한형제들 기업리뷰 | 50명이 참여한 통계 & 리뷰 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n# (주)우아한형제들채용중18\n\n관심기업 등록 3만+ 공유하기\n\n공유하기\n\n- URL 공유하기\n- 트위터 공유하기\n- 페이스북 공유하기\n\n응용 소프트웨어 개발 및 공급업 중견기업,스타트업 직원수 2,140명 업력 16년차 김범석\n\n직원들이 뽑은 BEST 기업문화\n\n프리한 복장 가능 자유로운 연차 평균 연령 30대 커리어 발전 기회 평균근속 2~5년\n\n현재 369,276개의 기업리뷰가 사람인에 등록됐어요!우리 회사 리뷰 남기고, 나와 맞는 기업을 내 마음에 저 - 장하세요!\n\n#### 전체 리뷰 통계\n\n- 자기개발\n- 급여 및 복지\n- 근무환경\n- 경영진\n- 조직문화\n- 전체\n\n직무·직업 선택 기획·전략 마케팅·홍보·조사 회계·세무·재무 인사·노무·HRD 총무·법무·사무 IT개발·데이터 디자인 영업·판매·무역 고객상담·TM",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "일할맛 : 우아한형제들 편ㅣ이곳에서 가능한 개발자의 우아한 성장 경험 | 원티드",
+          "url": "https://www.wanted.co.kr/events/con-workrecipe02-woowahan2",
+          "text": "일할맛 : 우아한형제들 편ㅣ이곳에서 가능한 개발자의 우아한 성장 경험 | 원티드\n\n## 일할맛 : 우아한형제들 편ㅣ이곳에서 가능한 개발자의 우아한 성장 경험\n\n유형\n\n아티클\n\n태그\n\n- #원티드 추천 기업\n- #취업/이직\n\n이 아티클은 <일할맛> 시리즈의 4화입니다. ‘달리는 열차의 바퀴를 갈아끼우는 일’. 우아한형제들 정산플랫폼팀은 그들이 하는 업무를 이와 같이 설명했다. 정산 도메인을 둘러싼 외부의 편견, 이를테면 ‘같은 업무를 반복해야 하는 정적인 곳’이라는 이미지와는 사뭇 다른 비유다. 정산플랫폼팀에서 가장 오래된 팀원 권세희 개발자와, 이곳에서 정산 도메인이 처음인 강성효 개발자에게 정산의 실제 이야기와 개발자로서 어떤 성장을 기대할 수 있는지 물었다.\n\n#### 경험할수록 매력적인 정산의 세계\n\n정산 업무에 대한 평면적인 편견에도 불구하고, 권세희 개발자는 팀 이동 없이 5년 동안 우아한형제",
+          "score": 0,
+          "published_date": "2024-03-06T00:00:00.000Z"
+        },
+        {
+          "title": "우아한형제들, 대규모 개발자 채용…\"주 32시간 운영 중\" | 연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20220228030500003",
+          "text": "우아한형제들, 대규모 개발자 채용…\"주 32시간 운영 중\" | 연합뉴스\n\n연합뉴스본문 바로가기 메뉴 바로가기\n\n마이페이지검색창 열기 메뉴 열기\n\n우아한형제들, 대규모 개발자 채용…\"주 32시간 운영 중\"\n\n북마크 공유 댓글 글자크기 프린트 제보\n\n마이페이지검색창 열기 메뉴 열기\n\n배달앱 배달의민족을 운영하는 ㈜우아한형제들은 28일부터 올해 상반기 대규모 개발자 채용을 시작한다고 밝혔다.\n\n우아한형제들 관계자는 \"우아한형제들은 올해부터 주 32시간 근무제도를 도입했고, 정규직 임직원에게 독일 증시에 상장한 모회사 딜리버리히어로의 주식을 제공하고 있다\"며 \"아울러 정규직 입사자에게는 근속 2년을 조건으로 기본 연봉의 20%를 사이",
+          "score": 0,
+          "published_date": "2022-02-27T00:00:00.000Z"
+        },
+        {
+          "title": "",
+          "url": "https://techblog.woowahan.com/10538/",
+          "text": "Developers of Woowa, how do they grow? (a.k.a. system and culture of the development organization) | 우아한형제들 기술블로그\n\n검색어--돌아가기\n\nOpen main menu\n\n-- {{item.name}}\n\n우아한Tech에 문의하기\n\n[개발자 채용](https://career.woowahan.com/?utm_source=techblog&utm_medium=display&utm_campaign=2022_1h_developer_recuiting_da&utm_content=techhr&jobCodes&employmentTypeCodes=&serviceSectionCodes=&careerPeriod=&keyword=&category=jobGroupCodes%3ABA005001&fbclid=IwAR1SDMBF6WjfUZ1WV-Jr",
+          "score": 0,
+          "published_date": "2023-02-09T00:00:00.000Z"
+        },
+        {
+          "title": "[(주)우아한형제들] 부문별 신입/경력 채용 - 사람인",
+          "url": "https://m.saramin.co.kr/job-search/view?rec_idx=37265899",
+          "text": "[(주)우아한형제들] 부문별 신입/경력 채용 - 사람인\n\n관심기업 등록 (주)우아한형제들\n\n# 부문별 신입/경력 채용\n\n본 채용정보는 마감되었습니다.\n\n마감된 채용정보와유사한 채용정보를 확인해보세요~\n\n## 주요 채용 정보\n\n근무형태 정규직계약직 경력 신입/경력 학력 학력무관\n\n근무형태 정규직계약직(기간제)\n\n더보기\n\n마감일 ~06/01(월) 마감 급여 회사내규에 따름 지역\n\n서울전체\n\n더보기\n\n- 인천 > 인천전체\n- 울산 > 울산전체\n- 경기 > 수원시\n- 서울 > 서울전체, 강남구, 광진구, 송파구\n\n직급/직책 면접 후 결정 근무일시 주4.5일/35시간 근무제월요일은 1시 출근\n\n최저임금계산에 대한 알림*하단에 명시된 급여, 근무 내용 등이 최저임금에 미달하는 경우 위 내용이 우선합니다.\n\n본 채용정보는 2026년",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
     },
-    {
-      "source": "naver_search",
-      "section": "strategy",
-      "preview": "[웹] [우아한형제들] 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드\nThe MAXONOMY 2024에서는 국내외 다양한 전문가들을 모시고 변화하는 마케팅 환경에서 진정한 데이터 마케팅을 완성하기 위한 방향과 단계별 전략을 논의합니다. The MAXONOMY 2024에서 지속 가능한 마케팅을 위한 데이터 활용 방법과 전략 수립의 인사이트"
+    "3": {
+      "naver_web": [
+        {
+          "title": "[우아한형제들] 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드",
+          "description": "The MAXONOMY 2024에서는 국내외 다양한 전문가들을 모시고 변화하는 마케팅 환경에서 진정한 데이터 마케팅을 완성하기 위한 방향과 단계별 전략을 논의합니다. The MAXONOMY 2024에서 지속 가능한 마케팅을 위한 데이터 활용 방법과 전략 수립의 인사이트를 확인하시길 바랍니다. 세션 다시보기 ❤️ 우아한형제들 ❤️ 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드 빅...",
+          "link": "https://maxonomy.net/resource/video/750",
+          "pub_date": ""
+        },
+        {
+          "title": "[우아한형제들] 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드",
+          "description": "The MAXONOMY 2024에서는 국내외 다양한 전문가들을 모시고 변화하는 마케팅 환경에서 진정한 데이터 마케팅을 완성하기 위한 방향과 단계별 전략 을 논의합니다. The MAXONOMY 2024에서 지속 가능한 마케팅을 위한 데이터 활용 방법과 전략 수립의 인사이트를 확인하시길 바랍니다. 세션 다시보기 ❤️ 우아한형제들 ❤️ 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드 빅...",
+          "link": "https://maxonomy.net/resource/video/750?from=%2Fresource%2Fvideo%3Fpage%3D1",
+          "pub_date": ""
+        },
+        {
+          "title": "2021 우아한형제들 경력 개발자 인터뷰 #2편",
+          "description": "이번 인터뷰에서는 우아한 개발자의 도전과 기회, 그리고 성장 노하우를 공개합니다! 빠르게 변화하고 성장하는 우아한형제들의 서비스를... 성장 방향이 존재합니다. 그렇지만 성장을 가속화하기 위한 롤...",
+          "link": "https://techblog.woowahan.com/5345/",
+          "pub_date": ""
+        },
+        {
+          "title": "배민, '우아콘2025'서 AI·로봇 기술 공개…미래 배달 비전 제시",
+          "description": "배민의 AI 네이티브 적용, 로봇, 배달 서비스를 위한 프론트·백엔드... 우아한테크콘퍼런스2025(우아콘)'를 개최하고 자사 기술·서비스 개발 성과와 향후 방향에 대해 공개했다. 김범석 우아한형제들 대표는...",
+          "link": "https://www.etnews.com/20251028000279",
+          "pub_date": ""
+        },
+        {
+          "title": "AI·디지털 혁신성장 전략",
+          "description": "&lt;AI G3 도약을 위한 AI·디지털 혁신성장 전략(요약)&gt; - 대한민국 디지털 전략 2.0 - 1. 비전: AI G3 국가 대한민국 도약 2. 중점 추진과제: 1) (혁신) AI 기술혁신 - (기술) AI 기술력 도약을 위한 대형 R&amp;D 프로젝트 - (인재) 산업계 AI 전문가 교원 활용 등 AI 분야 고급인재 양성, 산·학 공동연구, 국제공동연구, 특성화 대학원 강화 등 추진 - (인프라) AI 데이터 등 트래픽 폭증, 초공간 서비스...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=76947",
+          "pub_date": ""
+        },
+        {
+          "title": "회사소개 - 우아한형제들",
+          "description": "고객이 필요로 하는 그 순간 바로 달려갈 수 있도록, AI 기술로 최적의 라이더를 연결합니다. 더 나은 내일로 나아갈 수 있도록 미래와 경쟁하며 로봇도 개발합니다. 그뿐인가요. 사장님의 가게가 안정적으로 운영되도록 배민상회를 통해 식재료와 소모품을 공급하고, 배민아카데미에서 성장을 돕습니다. 우아한형제들은 이 모든 것이 식지 않도록 오늘도 가장 앞서 달리고 있습니...",
+          "link": "https://www.woowahan.com/company/culture",
+          "pub_date": ""
+        },
+        {
+          "title": "[2025 KDA Winner] 기업가치혁신상 우아한형제들",
+          "description": "com 배민라이더웨어 제품 디자인 우아한형제들의 자회사인 ‘우아한청년들’의 브랜드확산팀은 리브랜딩... 위치를 세심하게 조정했다. 가볍고 튼튼한 강화 플라스틱으로 제작한 배달 박스는 어느 방향에서도 열 수",
+          "link": "https://design.co.kr/article/140088/",
+          "pub_date": ""
+        },
+        {
+          "title": "[현장] 김범석 우아한형제들 대표 &quot;배민, AI 적극 도입…파트너 성장기회 만들 것&quot;",
+          "description": "AI 활용에 대해서는 &quot;'챗GPT'나 '제미나이'에 조언을 구하듯이 외식업에서는 배민이 그 역할을 대신하는 게 목표&quot;라면서 &quot;AI가 데이터를 스스로 분석해 각 가게에 맞는 운영 전략을 제안하고 손쉽게 적용할 수 있는 환경을 만들겠다&quot;고 말했다. 아울러 광고, 고객서비스 등에도 AI를 활용해 직관적이고 고도화된 서비스를 제공할 계획이다. 백인범 최고제품책임자(CPO)는 '배민이 만들...",
+          "link": "https://www.newsis.com/view/NISX20251208_0003432057",
+          "pub_date": ""
+        },
+        {
+          "title": "배달의 민족 (우아한 형제들) '배달 서비스' 분석_1",
+          "description": "1 서비스 비전 1.2 서비스 목표 2. '배달 서비스'의 전략과 분석 2.1... 1 서비스 비전 (우아한 형제들 서비스 비전 3.0) &quot;퀵 커머스&quot; 문 앞으로... 많은 사업 기회와 서비스를 앱 안에 잘 담기 위해 더 구체적으로는 기존...",
+          "link": "https://brunch.co.kr/@a2a065aafa134f9/1",
+          "pub_date": ""
+        },
+        {
+          "title": "[현장] 배민, 파트너 성장 비전 제시…AI·한그릇·운영솔루션 등 공개 - 뉴스투데이 ,경제 라이프 종합 미디어",
+          "description": "행사는 비전 스테이지, 노하우 스테이지, 라이브 쿠킹 스테이지 등으로 구성돼 다양한 운영 전략을 한자리에서 확인할 수 있도록 했다. 행사의 문을 연 김범석 우아한형제들 대표는 “배민을 통해 성장할 수...",
+          "link": "https://www.news2day.co.kr/article/20251208500235",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "Woowa Brothers Establishes 'AI Way of Working'... One-Third of All Employees Use Agents < English news < 기사본문 - 더에이아이",
+          "url": "http://www.newstheai.com/news/articleView.html?idxno=10197",
+          "text": "Woowa Brothers Establishes 'AI Way of Working'... One-Third of All Employees Use Agents --\n\nSearch for Articles\n\n2026-02-12 02:19 (목)\n\n- Login\n- Join\n\nPrevious article Next article\n\nWoowa Brothers Establishes 'AI Way of Working'... One-Third of All Employees Use Agents\n\nA\n\nA\n\nWill be changed to this font size.\n\n스크롤 이동 상태바\n\nA\n\nA\n\nWill be changed to this font size.\n\n## AI Agent Platform Achieves 95% Posit",
+          "score": 0,
+          "published_date": "2025-12-15T00:00:00.000Z"
+        },
+        {
+          "title": "우아한형제 서버 개발자가 AI를 받아들이는 방법론 – 바이라인네트워크",
+          "url": "https://byline.network/2025/10/1030/",
+          "text": "우아한형제 서버 개발자가 AI를 받아들이는 방법론 – 바이라인네트워크\n\n배달의민족을 운영하는 우아한형제들(이하 우형)이 자사 개발 조직의 AI 도입 여정을 공개했다. 지난 28일 서울 삼성동 그랜드 인터콘티넨탈 호텔 파르나스에서 열린 연계 개발자 컨퍼런스 ‘우아콘 2025’에서 박경태 서버그룹 기술이사는 “AI가 생산성을 50%, 100% 높일 것이라는 외부 기대와 달리, 실제 현장에서는 그만큼의 효과를 체감하지 못했다”고 털어놨다.\n\n그는 “코파일럿을 도입한 초기에는 개발자 만족도가 높았지만, 시간이 지나도 테스트·리뷰·자동화 영역에서 근본적인 병목은 해소되지 않았다”며 “오히려 AI를 써야한다는 ‘의무감’으로 인해 AI가 필요 없는 부분도 억지로 AI를 쓰는 억지스러운 모습도 있어 생산성 증대 효과는 미미했다”고 진단했다.\n\n생산성 향상에 큰 도움이 되지 않았다고 해서 AI를 무시할 수는 없었다. 이 때문에 AI를 적용하는 전략을 바꿨다. 거창하게 도입하지 않고 작게 계획을 세우",
+          "score": 0,
+          "published_date": "2025-10-30T00:00:00.000Z"
+        },
+        {
+          "title": "카카오그룹, 2026년 ‘응축’을 넘어 ‘증폭’으로… \nAI·글로벌로 성장 기어 전환 | 카카오",
+          "url": "https://www.kakaocorp.com/page/detail/11870",
+          "text": "카카오그룹, 2026년 ‘응축’을 넘어 ‘증폭’으로… AI·글로벌로 성장 기어 전환 | 카카오\n\n본문 바로가기 메뉴 바로가기\n\n## 상세페이지 본문\n\n소식\n\n뉴스 2026년 01월 02일\n\n### 카카오그룹, 2026년 ‘응축’을 넘어 ‘증폭’으로… AI·글로벌로 성장 기어 전환\n\n공유하기\n\n- ‘응축’ 마무리하며 ‘증폭’으로…2026년 ‘방향성 있는 성장’ 선언\n\n- ‘사람 중심의 AI’와 ‘글로벌 팬덤 OS’를 양대 축으로 새로운 도약 예고\n\n- 정신아 의장 “AI는 개인의 역량 높이는 ‘창의적 승수’… 담대한 도전 나서자”\n\n[2026-01-02] 카카오그룹이 2026년에 대해 ‘응축의 시간’을 마무리하고 ‘방향성 있는 성장’을 본격화하는 원년임을 선언했다. 카카오그룹은 지난 2024년 초 CA협의체 정신아 의장 취임 이래, 내실 다지기를 통한 기초 체력 축적에 힘써왔다. 새해에는 이를 발판 삼아, AI와 글로벌 팬덤을 새 성장 동력으로 그룹의 가치를 높여나간다는 전략이다.\n\n",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "카카오그룹, 2026년 ‘응축’에서 ‘증폭’으로… AI·글로벌 성장 본격화 < 통신·IT·게임 < 산업 < 기사본문 - 웹이코노미",
+          "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2045174",
+          "text": "카카오그룹, 2026년 ‘응축’에서 ‘증폭’으로… AI·글로벌 성장 본격화 --\n\n발행일: 2026-02-22 12:50 (일)\n\n- 회원가입\n- 로그인\n\n이전 기사보기 다음 기사보기\n\n카카오그룹, 2026년 ‘응축’에서 ‘증폭’으로… AI·글로벌 성장 본격화\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n카카오그룹 정신아 의장 (출처: 카카오그룹) / 2026.01.02\n\n[웹이코노미 윤혜인 기자] 카카오그룹이 2026년을 ‘방향성 있는 성장’의 원년으로 삼겠다고 2일 밝혔다.\n\n정신아 의장은 신년사에서 “응축의 시간을 지나 이제는 성장으로 전환할 시점”이라고 말했다.\n\n카카오그룹은 2년간 거버넌스 효율화로 계열",
+          "score": 0,
+          "published_date": "2026-01-02T00:00:00.000Z"
+        },
+        {
+          "title": "[컨콜] 정신아 카카오 대표 올해 AI로의 전략적 전환을 완수할 것 | 경제일보",
+          "url": "https://www.economidaily.com/view/20260212101123432",
+          "text": "[컨콜] 정신아 카카오 대표 올해 AI로의 전략적 전환을 완수할 것 | 경제일보\n\n검색 검색 버튼\n\nIT\n\n# [컨콜] 정신아 카카오 대표 \"올해 AI로의 전략적 전환을 완수할 것\"\n\n기자정보, 기사등록일 류청빛 기자\n\n## 정신아 대표 \"계열사 94개로 효율화 완료, 올해는 AI 성장 에너지 분출하는 해\"\n\n## 카카오톡 체류시간 4분 증가…'카나나' 안드로이드 정식 출시 및 글로벌 협업 가속\n\n정신아 카카오 대표 [사진=카카오]\n\n[이코노믹데일리] 카카오가 지난 1년간의 내부 전열 정비를 마치고 올해를 'AI로의 전략적 전환'을 위한 원년으로 선포했다. 구글, 오픈AI 등 글로벌 빅테크들과의 파트너십을 통해 온디바이스 AI와 B2C 서비스를 동시에 공략하고 카카오톡을 대화형 AI 에이전트 생태계의 허브로 진화시키겠다는 구상이다. 12일 정신아 카카오 대표는 2025년 4분기 실적 발표 컨퍼런스 콜에서 \"지난 1년간 중장기 성장을 위해 핵심 사업 중심으로 그룹 역량 밀도를 높이는 ",
+          "score": 0,
+          "published_date": "2026-02-12T00:00:00.000Z"
+        }
+      ]
     },
-    {
-      "source": "brave_search",
-      "section": "overview",
-      "preview": "[블라인드 | 우아한형제들 신입]\n우아한형제들 신입에 대한 최신 정보를 블라인드에서 찾아보세요. 3백만 직장인들이 솔직하게 전하는 기업문화, 연봉정보, 면접 팁 등도 확인할 수 있어요.\nhttps://www.teamblind.com/kr/company/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4/post"
-    },
-    {
-      "source": "google_news",
-      "section": "overview",
-      "preview": "[잡코리아, 30주년 기념 컨퍼런스 29일 개최...AI 시대 채용 플랫폼 전략 공유 - 디지털투데이] (Thu, 08 Jan 2026 08:00:00 GMT)\n디지털투데이\n\n[잡코리아, 창립 30주년 컨퍼런스 ′THE REBOOT′ 개최 - KPI뉴스] (Thu, 08 Jan 2026 08:00:00 GMT)\nKPI뉴스\n\n[잡코리아, 창립 30주년 맞아 "
+    "7": {
+      "exa_tech": [
+        {
+          "title": "우리는 코드처럼 문화도 리팩토링한다",
+          "url": "https://techblog.woowahan.com/24820/",
+          "text": "우리는 코드처럼 문화도 리팩토링한다\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n개발자 채용\n\n# 우리는 코드처럼 문화도 리팩토링한다\n\n2025.",
+          "score": 0,
+          "published_date": "2025-12-10T00:00:00.000Z"
+        },
+        {
+          "title": "LLMOps로 확장하는 AI플랫폼 2.0 | 우아한형제들 기술블로그",
+          "url": "https://techblog.woowahan.com/22839/",
+          "text": "LLMOps로 확장하는 AI플랫폼 2.0 | 우아한형제들 기술블로그\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n개발자 채용\n\n# LLMOps로 ",
+          "score": 0,
+          "published_date": "2025-09-29T00:00:00.000Z"
+        },
+        {
+          "title": "100만 TPS 로그 시스템, KEDA를 이용한 오토스케일링 적용기 | 우아한형제들 기술블로그",
+          "url": "https://techblog.woowahan.com/24405/",
+          "text": "100만 TPS 로그 시스템, KEDA를 이용한 오토스케일링 적용기 | 우아한형제들 기술블로그\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n[개발자 채용](https://career.woowahan.com/?utm_source=techblog&amp;utm_medium=display&amp;utm_campaign=2022_1h_developer_recuiting_da&amp;utm_content=techhr&amp;jobCodes&amp;employmentTypeCodes=&amp;serviceSectionCodes=&amp;careerPeriod=&amp;keyword=&amp;category=jobGroupCodes%3ABA005001&amp;fbclid=IwAR1SDMBF6WjfUZ1WV-JrCYxYyAGBf92r-Au1TQ0seGgOuT0ZuAT7XUilsGg#recruit-li",
+          "score": 0,
+          "published_date": "2025-11-27T00:00:00.000Z"
+        },
+        {
+          "title": "우리 팀은 카프카를 어떻게 사용하고 있을까 | 우아한형제들 기술블로그",
+          "url": "https://techblog.woowahan.com/17386/",
+          "text": "우리 팀은 카프카를 어떻게 사용하고 있을까 | 우아한형제들 기술블로그\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n개발자 채용\n\n# 우리 팀은 카",
+          "score": 0,
+          "published_date": "2024-05-30T00:00:00.000Z"
+        },
+        {
+          "title": "사이드 프로젝트는 사이드가 아니다 | 우아한형제들 기술블로그",
+          "url": "https://techblog.woowahan.com/16158/",
+          "text": "사이드 프로젝트는 사이드가 아니다 | 우아한형제들 기술블로그\n\nOpen main menu\n\n-- {{item.name}}\n\n우아한Tech에 문의하기\n\n개발자 채용\n\n# 사이드 프로젝트는 사이드가 아니다\n\n2024. 03. 12. ",
+          "score": 0,
+          "published_date": "2024-03-12T00:00:00.000Z"
+        }
+      ]
     }
-  ],
-  "data": {
-    "naver_blog": [
-      {
-        "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
-        "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
-        "link": "https://blog.naver.com/blrol_blrol/224224956373",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
-        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
-        "link": "https://sibauchi.tistory.com/1205",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
-        "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
-        "link": "https://think-tank.tistory.com/1035",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
-        "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
-        "link": "https://blog.naver.com/kcl3598/224224791593",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
-        "description": "기업 문화 기획, 인사 데이터 분석) 지원 자격 2026년 8월 졸업 예정자 및 기졸업자 (전공 무관) 근무지 경기도 광명시 유플래닛타워 (광명역 인근) 전형 절차 서류전형 → 인성검사 → 면접전형 → 합격자... ",
-        "link": "https://blog.naver.com/goodlife_92/224224618278",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
-        "description": "실제 사용자들의 후기를 살펴보면, &quot;채용 공고 내용과 실제 업무 환경이 다른 경우가 많다&quot;, &quot;연봉 정보가 명확하게 제시되지 않아 어려움을 겪었다&quot;, &quot;면접 과정에서 기업 문화에 대한 충분한 정보를 얻지... ",
-        "link": "https://ilovefamily.tistory.com/527",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "현대자동차 3월 채용 취업 이직 대비 (자소서/면접)",
-        "description": "면접 준비가 될겁니다 현대자동차 PT면접 * 전 직무 자기소개 PT 진행 * 지원 직무에 따라 사전과제PT or... 모의 면접으로 감점 요인 종합점검 / 최종 피드백 바로코칭 실제 합격 후기 기업은 우리들에게... ",
-        "link": "https://blog.naver.com/bashinga197939/224224525166",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
-        "description": "오늘은 취준생이라면 한 번쯤 목표로 하는 기업, SK AX에 합격한 신입사원분과 인터뷰를 진행해봤습니다  ✔ 합격 스펙은 어땠는지 ✔ 채용 과정은 어떻게 진행되는지 ✔ 자소서·면접은 어떻게 준비했는지... ",
-        "link": "https://blog.naver.com/ttooooriiii/224224472695",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "안국약품 채용공고 2026 - 영업부터 R&amp;D까지, 지금 지원해도... ",
-        "description": "문화가 남아있다는 후기가 있어요. - 업무 강도 편차: 특히 영업직은 실적 압박과 업무 강도가 상당하고, 부서나 팀에 따라 편차가 크다는 의견이 많아요. 이런 부분들은 입사 전에 충분히 고려하고, 면접... ",
-        "link": "https://blog.naver.com/cymmcymm/224218688799",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "만도브로제 HR 정규직 채용 2026 | 복지·면접 꿀팁까지 한... ",
-        "description": "독일 브로제(Brose)와 HL만도가 함께 설립한 합작법인답게 외국계 합리적 문화와 국내 대기업 수준의 안정성을 동시에 갖춘 곳이라 주목받고 있어요. 지원 마감까지 얼마 안 남았으니, 복지부터 면접 예상... ",
-        "link": "https://blog.naver.com/cymmcymm/224218685362",
-        "pub_date": "20260321"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      },
-      {
-        "title": "제주항공 채용 승무원 큐피드",
-        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
-        "link": "http://cafe.naver.com/sheiszzz/1214780",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "[우아한형제들] 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드",
-        "description": "The MAXONOMY 2024에서는 국내외 다양한 전문가들을 모시고 변화하는 마케팅 환경에서 진정한 데이터 마케팅을 완성하기 위한 방향과 단계별 전략을 논의합니다. The MAXONOMY 2024에서 지속 가능한 마케팅을 위한 데이터 활용 방법과 전략 수립의 인사이트를 확인하시길 바랍니다. 세션 다시보기 ❤️ 우아한형제들 ❤️ 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드 빅...",
-        "link": "https://maxonomy.net/resource/video/750",
-        "pub_date": ""
-      },
-      {
-        "title": "[우아한형제들] 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드",
-        "description": "The MAXONOMY 2024에서는 국내외 다양한 전문가들을 모시고 변화하는 마케팅 환경에서 진정한 데이터 마케팅을 완성하기 위한 방향과 단계별 전략 을 논의합니다. The MAXONOMY 2024에서 지속 가능한 마케팅을 위한 데이터 활용 방법과 전략 수립의 인사이트를 확인하시길 바랍니다. 세션 다시보기 ❤️ 우아한형제들 ❤️ 생성 AI 시대에 고객경험 제고를 위한 AI프로덕트 활용법 가이드 빅...",
-        "link": "https://maxonomy.net/resource/video/750?from=%2Fresource%2Fvideo%3Fpage%3D1",
-        "pub_date": ""
-      },
-      {
-        "title": "2021 우아한형제들 경력 개발자 인터뷰 #2편",
-        "description": "이번 인터뷰에서는 우아한 개발자의 도전과 기회, 그리고 성장 노하우를 공개합니다! 빠르게 변화하고 성장하는 우아한형제들의 서비스를... 성장 방향이 존재합니다. 그렇지만 성장을 가속화하기 위한 롤...",
-        "link": "https://techblog.woowahan.com/5345/",
-        "pub_date": ""
-      },
-      {
-        "title": "배민, '우아콘2025'서 AI·로봇 기술 공개…미래 배달 비전 제시",
-        "description": "배민의 AI 네이티브 적용, 로봇, 배달 서비스를 위한 프론트·백엔드... 우아한테크콘퍼런스2025(우아콘)'를 개최하고 자사 기술·서비스 개발 성과와 향후 방향에 대해 공개했다. 김범석 우아한형제들 대표는...",
-        "link": "https://www.etnews.com/20251028000279",
-        "pub_date": ""
-      },
-      {
-        "title": "AI·디지털 혁신성장 전략",
-        "description": "&lt;AI G3 도약을 위한 AI·디지털 혁신성장 전략(요약)&gt; - 대한민국 디지털 전략 2.0 - 1. 비전: AI G3 국가 대한민국 도약 2. 중점 추진과제: 1) (혁신) AI 기술혁신 - (기술) AI 기술력 도약을 위한 대형 R&amp;D 프로젝트 - (인재) 산업계 AI 전문가 교원 활용 등 AI 분야 고급인재 양성, 산·학 공동연구, 국제공동연구, 특성화 대학원 강화 등 추진 - (인프라) AI 데이터 등 트래픽 폭증, 초공간 서비스...",
-        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=76947",
-        "pub_date": ""
-      },
-      {
-        "title": "회사소개 - 우아한형제들",
-        "description": "고객이 필요로 하는 그 순간 바로 달려갈 수 있도록, AI 기술로 최적의 라이더를 연결합니다. 더 나은 내일로 나아갈 수 있도록 미래와 경쟁하며 로봇도 개발합니다. 그뿐인가요. 사장님의 가게가 안정적으로 운영되도록 배민상회를 통해 식재료와 소모품을 공급하고, 배민아카데미에서 성장을 돕습니다. 우아한형제들은 이 모든 것이 식지 않도록 오늘도 가장 앞서 달리고 있습니...",
-        "link": "https://www.woowahan.com/company/culture",
-        "pub_date": ""
-      },
-      {
-        "title": "[현장] 김범석 우아한형제들 대표 &quot;배민, AI 적극 도입…파트너 성장기회 만들 것&quot;",
-        "description": "AI 활용에 대해서는 &quot;'챗GPT'나 '제미나이'에 조언을 구하듯이 외식업에서는 배민이 그 역할을 대신하는 게 목표&quot;라면서 &quot;AI가 데이터를 스스로 분석해 각 가게에 맞는 운영 전략을 제안하고 손쉽게 적용할 수 있는 환경을 만들겠다&quot;고 말했다. 아울러 광고, 고객서비스 등에도 AI를 활용해 직관적이고 고도화된 서비스를 제공할 계획이다. 백인범 최고제품책임자(CPO)는 '배민이 만들...",
-        "link": "https://www.newsis.com/view/NISX20251208_0003432057",
-        "pub_date": ""
-      },
-      {
-        "title": "배달의 민족 (우아한 형제들) '배달 서비스' 분석_1",
-        "description": "1 서비스 비전 1.2 서비스 목표 2. '배달 서비스'의 전략과 분석 2.1... 1 서비스 비전 (우아한 형제들 서비스 비전 3.0) &quot;퀵 커머스&quot; 문 앞으로... 많은 사업 기회와 서비스를 앱 안에 잘 담기 위해 더 구체적으로는 기존...",
-        "link": "https://brunch.co.kr/@a2a065aafa134f9/1",
-        "pub_date": ""
-      },
-      {
-        "title": "[현장] 배민, 파트너 성장 비전 제시…AI·한그릇·운영솔루션 등 공개 - 뉴스투데이 ,경제 라이프 종합 미디어",
-        "description": "행사는 비전 스테이지, 노하우 스테이지, 라이브 쿠킹 스테이지 등으로 구성돼 다양한 운영 전략을 한자리에서 확인할 수 있도록 했다. 행사의 문을 연 김범석 우아한형제들 대표는 “배민을 통해 성장할 수...",
-        "link": "https://www.news2day.co.kr/article/20251208500235",
-        "pub_date": ""
-      },
-      {
-        "title": "“IT 기업 맞네”…개발자들 고개 끄덕이게 한 배민 ‘우아콘2025’",
-        "description": "미래와 비전에 대해 나누는 장이어서다. 28일 서울 강남구 그랜드... 이다나 우아한형제들 PM이 28일 우아한테크컨퍼런스 2025 ‘배민 퀵커머스 성장을 위한 프로덕트 전략’ 세션에서 발표하고 있다. (사진...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=04572326642337512",
-        "pub_date": ""
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "블라인드 | 우아한형제들 신입",
-        "url": "https://www.teamblind.com/kr/company/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4/posts/%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4%20%EC%8B%A0%EC%9E%85",
-        "description": "우아한형제들 신입에 대한 최신 정보를 블라인드에서 찾아보세요. 3백만 직장인들이 솔직하게 전하는 기업문화, 연봉정보, 면접 팁 등도 확인할 수 있어요."
-      },
-      {
-        "title": "우아한형제들 채용",
-        "url": "https://www.superookie.com/jobs/5e9521958b129f585e692bd1",
-        "description": "업무내용 [조직소개] 우아한형제들의 피플실은 ‘우리의 다음 세대에도 물려주고 싶은 기업 문화를 남기는 것’을 비전으로 우아한형제들의 조직문화를 가꾸어 갑니다. 피플행복팀은 우아한형제들의 임직원 한 사람 한사람을 ..."
-      },
-      {
-        "title": "2026년 주식회사 우아한형제들 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1659975715/",
-        "description": "주식회사 우아한형제들은 소프트웨어·솔루션·ASP 업종의 중견기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
-      },
-      {
-        "title": "우아한형제들(배달의민족) 기업정보 - 채용 57건, 평균연봉 6,082만원, 인원 2,154명, 업력 15년, 서울 송파구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/102",
-        "description": "- 배경음악(BGM)이 흐르는 카페 같은 오피스(업무몰입도 UP, 잡담 UP) - 좋아하는 일을 하고 싶은 공간에서, 영감을 주는 스마트오피스 - 대표와 구성원이 우아한형제들의 이모저모를 진솔하게 대화하며 공감과 이해를 톡톡 쌓아가는 소통의 시간, 공감톡톡! - 관심과 애정으로 구성원을 챙깁니다, 피플실! 배민다운 문화를 구성원과 함께 가꿔가요~ - 자기성장에 필요한 도서구입비 무제한 지원."
-      },
-      {
-        "title": "우아한형제들, ‘자율 속 책임’ 다하는 문화 만드는 데 집중",
-        "url": "https://www.abouthr.co.kr/news/articleView.html?idxno=5124",
-        "description": "더구나 지금과 같은 제약이 있는 비대면 상황에서 일을 잘하기 위해서는 더더욱 협동, 배려라는 가치가 더욱 중요하기에 채용 전반의 과정에서 이 부분을 주의 깊게 살피고 있다. 특히 면접과정에 실무 면접관 외 우아한 면접관이 참여, 지원자의 조직문화 적합도를 심층적으로 확인하고 있다. 우아한 면접관을 뽑는 내부적인 기준이 있나. 우아한형제들의 인재상에 가장 부합하면서 성과도 잘 내는 모범이 되는 인재들로 리더들로부터 추천을 받는다."
-      },
-      {
-        "title": "대기업이 배운다는 우아한형제들 ‘피플팀’",
-        "url": "https://jmagazine.joins.com/forbes/view/323884",
-        "description": "인사팀처럼 구성원을 평가하는게 아니라, 구성원이 우아한형제들의 기업문화와 비전을 공유하고 구성원의 어려움을 해결해주는 역할을 하는 팀이라고 했다. 이 말을 듣고 있던 안 팀장은 “좋다”라고 화답했다. 안 팀장은 “회사의 방향은 구성원이 일하기 좋은 회사를 만드는 것인데, 비전이 명확하고 구성원이 공유해야 가능한 일이라고 생각했다”면서 “예전 회사에서도 비슷한 역할을 해본 적이 있어서 거부감이 없었다”고 설명했다."
-      },
-      {
-        "title": "우아한형제들 인재영입",
-        "url": "https://career.woowahan.com/",
-        "description": "우아한형제들 인재영입 사이트. 일의 맛을 아는 사람들이 모인 이곳에 합류할 기회를 확인해 보세요."
-      },
-      {
-        "title": "(주)우아한형제들 (Woowa Bros.) | LinkedIn",
-        "url": "https://kr.linkedin.com/company/woowa-bros-",
-        "description": "규율위의 자율ㆍ스타보다 팀웍ㆍ진지함과 위트ㆍ열심만큼 성과를 4대 핵심가치로 삼고 있는 우아한형제들은 ‘<strong>구성원을 행복하게 만들면 행복한 구성원이 더 좋은 서비스를 만든다</strong>’라..."
-      },
-      {
-        "title": "(주)우아한형제들 진행 중인 채용정보 총 5건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/1450187/recruit",
-        "description": "(주)우아한형제들 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      },
-      {
-        "title": "직원 한 사람 한 사람에게 기업문화를 이해시켜라: 우아한형제들 - PUBLY",
-        "url": "https://publy.co/content/3929",
-        "description": "하지만 이렇게 회사가 주는 특전과 회사에서 누릴 수 있는 혜택에만 관심을 갖는 지원자는 &#x27;광탈&#x27;의 수순을 밟게 된다. 이같은 채용 면접 과정은 구성원*이 1000명을 넘어 중견기업으로 성장하고 있는 우아한형제들이 &#x27;배민(배달의민족)다움**&#x27;을 유지하기 위해 고심하고 있는 문제 중 하나를 담고 있다."
-      }
-    ],
-    "google_news": [
-      {
-        "title": "잡코리아, 30주년 기념 컨퍼런스 29일 개최...AI 시대 채용 플랫폼 전략 공유 - 디지털투데이",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5sZ19OVnE1VEI1dmNGR1R4QmZXWlFkYVExT1J2MW80SlkzbjI3bVJFdFpRdkhSUEtURThrRDRLa0N5YkI2TmhuVThyUF9mUW5OZ29tS1VaZ09wQ1ljNndKbDl5ZlRoTnVxUnA4RGFXQmR0OUk?oc=5",
-        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "디지털투데이"
-      },
-      {
-        "title": "잡코리아, 창립 30주년 컨퍼런스 ′THE REBOOT′ 개최 - KPI뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zbkVhcXFZYjMwUDZ2R0tGYVVNSWN0OHVBelYyTU5McXlJUk9ad2tEc3dtNl9DRmZ5QjRnWkZRbmFmbVFDQjUwWF9kTlZjNUswTnB0ZnNDNNIBU0FVX3lxTE55ay1MWkJlUTdNVGJ3ZGZJVi0ya29zTEExWWlfa0ctelZKR0NZLWtPUDE2VG05VVVobFpIcTZJTDlQS1pTQWZleEFqWFNMSkdoYVFZ?oc=5",
-        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "KPI뉴스"
-      },
-      {
-        "title": "잡코리아, 창립 30주년 맞아 AI 채용 전략 공유하는 ‘JOBKOREA THE REBOOT’ 개최 - 뉴스탭",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pX2RRaW1LWXl3Mkd4dDNmajRRcVVJaTBQQzhsRHV0U0l3d2s0eFd6RnZYMUk2ODM3RlFlOUlTRkdZMWFMLUdzb2FuQzB5cGFOSmpQdFBrLUJXT0FRcHdIeHNJM3hWSDd4QnJQVA?oc=5",
-        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "뉴스탭"
-      },
-      {
-        "title": "잡코리아, 창립 30주년 기념 컨퍼런스 개최 - 프라임경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FRk5LcHlDSEhJaUp2ZnJDbC1xNEtSSnZ6bnhRUVVVS0d3RGQ4N29KbC1VUl9rU3JEQUpXLWwtUXhfT1czZ0VFcC01NHlqbnRyZnpZb1VhNUdNQW1EQk9kRFQyWHFDYndIWnNyaA?oc=5",
-        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "프라임경제"
-      },
-      {
-        "title": "[취업뉴스] ‘흐레카(Hreka) 컨퍼런스’, 잡코리아가 전하는 AI 시대 HR 혁신 전략 - 아웃소싱타임스",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4aHc0TTFZSUI0bW44UWFtTTF6SlRCTFluYXg2YzdBa1REckJBV1pRcEV2dXBzQmE0Ym9jbGtEV21GWTJfNHBSOEVCcDZkYnRiNUJHa0FjWmltUE9lQmd4SDR1ZVFLUUlaZkJlTmlVV092Zw?oc=5",
-        "pub_date": "Thu, 16 Oct 2025 07:00:00 GMT",
-        "source": "아웃소싱타임스"
-      },
-      {
-        "title": "‘AI OS 전환’…카카오 정신아의 C레벨 리빌딩 - 한국금융신문",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1lU1JnYVlKcW1iMzRwMTE1a0tjaldhaXh2bzVDVzBWclVKSHV5RlZOZm9yWUpoS0lwUUcxSlV1X2g4UFlEdDd5eUg2UFItR2M3b2VPNjllRGlzMm1yR0lmSUIzb3gzOFJUV1M4UjVMd0xSX2JGX0hGYUFocw?oc=5",
-        "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
-        "source": "한국금융신문"
-      },
-      {
-        "title": "잡코리아, 내달 ‘흐레카 컨퍼런스’ 개최… AI 시대 HR 전략은? - 디지털 인사이트 DIGITAL iNSIGHT",
-        "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUE1CenltWkl0MXA2N3hjVVZYNU9uT1JyVDJXaVNxNzl1VjZtemt4QVBvVkZ2eFhQNnNPcUhtRTl6QmtqMjRncEJCWUpLV3NXbXl5WXFBeHdWVTFhbS04RmJoVTRDTjQtRUZQZmEwalc2VURIVk5oQ0o4LWhXU2dRSTVjRVVEVE5CYjEzNXJET2pzS3ROR1ZnTE1IV0tuTmYwUk8yaXpaNkFSa2t1LUVwTjVQWVpac1dGcHBBZHE4dFVycEs3TnZQZHlvTFFOekhRaU5pTnoyVGVRSlFta1ZaSVZYMEVva1hnVXJvMS1QTHQ5NXBrbnZzVS05dWlhZWhzRWpiRjZWQU9Ob21hRWNsUDZyUQ?oc=5",
-        "pub_date": "Thu, 16 Oct 2025 07:00:00 GMT",
-        "source": "디지털 인사이트 DIGITAL iNSIGHT"
-      },
-      {
-        "title": "김범석 우아한형제들 대표 “파트너가 장사에만 집중하도록 할 것… AI 적극 도입” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0loY18xWW1CUjQweEVTOWxubEdOeVU1MV9VT29nQWd1d3hXNm1QeWxwNUdzYi01YTdXeWY2X1ZRYnV3SUNQVlA5QmRhOVJ1ejRQN01fQWxpWTdwZFVVanFvOVlLUHFSenRINXVkZUh6N1RXUU0ydFFkUnhrZ3F1SEJCX2xYZ9IBmgFBVV95cUxPSjBicTFaYnV3SFMtRmNBd3FfVnBhUDFyVDJHS3N5R3QxWXZTMFFldGJYMmN4eTRoV2FRUDFZcTYxRi1kTEVGcjlpVVRTbWVMRHdlMDhiLWxMeEp0ZEE1WGx5M1JxeE5nWTNMUERqTW1YQVJEd2FVZTBvanBJS0FfZEZkQk1BTHpLVl9wbDhUV2M2TUpBall1eFVB?oc=5",
-        "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
-        "source": "Chosunbiz"
-      },
-      {
-        "title": "잡코리아, AI 시대 HR 전략 제시...'흐레카 컨퍼런스' 개최 - 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uYVpBNWYyb1JLVW44UzJXekNqaHVQNTBVb3Rtd0lkSEJmR25PRkVyS29zcnBrT0RYTlUtWHFMLUdZUmJpNXhNYVR3bnBvWkgtaFJ3Q0FBVFItQdIBXkFVX3lxTE05UDQyR1haal9KNUFIcFFoNUd1TnpOd1YxSl9wSHJuTGpIeWJ4dkZZODNZLUxkenUwM0FfcjZud21WWXRHVHVNZ0ZWTUNwMFRudWhHMlZuZEsyQ00zQkE?oc=5",
-        "pub_date": "Thu, 16 Oct 2025 07:00:00 GMT",
-        "source": "파이낸셜뉴스"
-      },
-      {
-        "title": "배민, ‘우아한테크코스 2026’ 신입생 모집···차세대 개발자 양성 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSVlF3VlM5S0tTMXE3bTRhaFZTODhaTko2MkR3NUpqR2lqdDdZb1FWeDFYck1SYzk1VnQ5bDUtWFBad01KakxKTTdIbENsQUxJVDlRZkhn?oc=5",
-        "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "잡플래닛 품은 잡코리아, AI 네이티브 전략으로 채용 시장 30년 룰 바꾼다 - ER 이코노믹리뷰",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sVlFNOFpfRWtoYXJWZHVlS0VBSFMtUC1ROVBjSGVOTjdlYmZwTGtFcGZzdFFkY2VYSTVpMEhlZmU1LXlHRzFpZnRVYWZhOWFuZGxNTjE2dFlWSnQ3OGFfTXVrMS1Ta0JfSlAydA?oc=5",
-        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "ER 이코노믹리뷰"
-      },
-      {
-        "title": "잡코리아, 창립 30주년 컨퍼런스 연다… “AI로 채용 기준 다시 쓴다” - 한국면세뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLUHNNNVJBR3doLWY5cy1uQm9jUVlLZmJqUDhYWmpyZXVjc25Rb0J0cTdFaXdGLW1xbHRTeVNweDZQaGEtV29uc1hxQU9kc2w4RHJGTjJ5THh4YjZraTZ4SGdKZHlSS1FuMWc?oc=5",
-        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "한국면세뉴스"
-      },
-      {
-        "title": "잡코리아, 창립 30주년 기념 컨퍼런스 ‘JOBKOREA THE REBOOT’ 개최 - 이코노미사이언스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15Vk9zQzhvWWpBbDlHN2RjQ2ZXLVlPVE96V01TZUl4VkZTcVR3UmFGVXlRZFppU0hKakh0MmR5THk1dDhsUUFPamc1STNQa2FaUnhHTmoyaUFXS1RHOGNSYmVad3gzSnR0MTY4dG53NA?oc=5",
-        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "이코노미사이언스"
-      },
-      {
-        "title": "잡코리아, 창립 30주년 기념 컨퍼런스 ‘JOBKOREA THE REBOOT’ 개최 - segye.com",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6TF9iVkZZeENuOF84M2FtWGJIbDRnX3o1Y3dfVHhxdlRBUFRZS3ktWUZ6Z2tuamoxZzFtZXBiN01zdG5hdHprdDd2cUYzWXVxdGdwV0ZzdnfSAVRBVV95cUxOU3V0UnQtNGJQd1dpeG03YzJOa1ktSnVvRk1JaUs0d0FPTHUzS21NUTdSbTIyR2FQQW52QWo1SkZod1ZYdzhJTGxxaDRoOHFSX1ZJSzA?oc=5",
-        "pub_date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "segye.com"
-      },
-      {
-        "title": "[현장] 배민, 파트너 성장 비전 제시…AI·한그릇·운영솔루션 등 공개 - 뉴스투데이",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13MTJ6NW11ZDVVYTJFQW5pOU10NjFQTkIzN1NDWTFlMy1ucGN2VEZrNkhROHp1OEprMlZUZWJ6dXp0VExhdzRRS3J5dWx5S01fQnpwbmdnemhtNlVIZlE?oc=5",
-        "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
-        "source": "뉴스투데이"
-      },
-      {
-        "title": "우아한형제들, 사상 첫 매출 4조 넘겨 - 딜사이트",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9XdDlic2x1cFlnTkRxbkQwN2lPbzlfUHBfNWZDWjJLV2d2eEVNN0U1dW9Obm1yQWNVeE95R2hxNUtld2lwcXVoNzd3Ui1KM0lnVF9lQnVCVkE?oc=5",
-        "pub_date": "Wed, 04 Feb 2026 20:43:04 GMT",
-        "source": "딜사이트"
-      },
-      {
-        "title": "배민, '경쟁 환경 악화+규제 압박'에 고심↑ - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WYTl1cHQ3MEJlQnJCWTVGWElmTnp6d3VtTHA4WEkxaXE0VXNzT2hvVzE0TURrSVc5d0FHbC00NUVOeFhfZ1ZHamNhOVhDbzBXQ1d3a0dn?oc=5",
-        "pub_date": "Fri, 28 Nov 2025 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "월드비전·우아한형제들, ‘배민 겨울방학 도시락’ 지원 사업 성료 - 시선뉴스",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aSHo1RmJidHVGWUFRWFQtd1hIQzJlV2JyMXJ4WFdZV0hwR1RvbDNnRGtiWUxEbGFsalFvNHFidDNnRG1KZmgzQTA5R0RyREdaUms1S1ZZV2Nwc0Y1V0Z0bU1pa2lvUUZXUDh5XzJn0gFyQVVfeXFMTWJPOHNBZmRJb0d0MnhfSURFOGZvYTVrTUN0a1l1R1hBdnBfa0UtWF9XWjhJY0djc0NRcG1HR2hyR2c2QldMWW5VN1QwNWlDYWtiR3BGN3RwMFhoMDllNEJkZlExVHk1dkhaRXVxQlR5MlZn?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 02:31:24 GMT",
-        "source": "시선뉴스"
-      },
-      {
-        "title": "우아한형제들, '배민스타트업스퀘어 Ignition Day’서 스타트업 육성 사업 시동 - 더밸류뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VMW5qUThHU1BFS1NGWnhuQjVnQTdHZjZlUllzOVVodjJjS0JiMlpRZl9QaTJtSXp2Y3h2T3RKRUFsV3plcjBiZTBRdlNzamJnMzhFVA?oc=5",
-        "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
-        "source": "더밸류뉴스"
-      },
-      {
-        "title": "우아한형제들, 12개 스타트업 육성 지원기관과 업무협약 체결 - 비즈월드",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsUm1JUl9oVDRJR2k3allXQUM3emM1cmJSMkNvN1NBcmJqTERnZEFKVlBCaXlCNDJFT1p2T1VtVFFxeFBBMkRRcjZ6X1Mzcmt5d0lhNjhtUjNMaDhmVS1hU3RuR2dEYW1rS0Nz?oc=5",
-        "pub_date": "Tue, 15 Jul 2025 07:00:00 GMT",
-        "source": "비즈월드"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "(주)우아한형제들 (Woowa Bros.) - Highperformr",
-        "url": "https://www.highperformr.ai/company/woowa-bros-",
-        "text": "Where is (주)우아한형제들 (Woowa Bros.) Located? HQ, Global Offices & Company Insights\n\n(\n\n# (주)우아한형제들 (Woowa Bros.)\n\nVerify or Modify Company\n\n# What Does (주)우아한형제들 (Woowa Bros.) Do?\n\nTotal employees1570\n\nHeadquartersSeoul\n\nFounded2011\n\nWoowa Brothers Corp. is a South Korean technology company best known for operating 'Baedal Minjok' (배달의민족), the country's most popular food delivery application. Founded with a vision to leverage technology for good food experiences, Woowa Brothers has significantly sh",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "일할맛 : 우아한형제들 편ㅣ이곳에서 가능한 개발자의 우아한 성장 경험 | 원티드",
-        "url": "https://www.wanted.co.kr/events/con-workrecipe02-woowahan2",
-        "text": "일할맛 : 우아한형제들 편ㅣ이곳에서 가능한 개발자의 우아한 성장 경험 | 원티드\n\n## 일할맛 : 우아한형제들 편ㅣ이곳에서 가능한 개발자의 우아한 성장 경험\n\n유형\n\n아티클\n\n태그\n\n- #원티드 추천 기업\n- #취업/이직\n\n이 아티클은 <일할맛> 시리즈의 4화입니다. ‘달리는 열차의 바퀴를 갈아끼우는 일’. 우아한형제들 정산플랫폼팀은 그들이 하는 업무를 이와 같이 설명했다. 정산 도메인을 둘러싼 외부의 편견, 이를테면 ‘같은 업무를 반복해야 하는 정적인 곳’이라는 이미지와는 사뭇 다른 비유다. 정산플랫폼팀에서 가장 오래된 팀원 권세희 개발자와, 이곳에서 정산 도메인이 처음인 강성효 개발자에게 정산의 실제 이야기와 개발자로서 어떤 성장을 기대할 수 있는지 물었다.\n\n#### 경험할수록 매력적인 정산의 세계\n\n정산 업무에 대한 평면적인 편견에도 불구하고, 권세희 개발자는 팀 이동 없이 5년 동안 우아한형제",
-        "score": 0,
-        "published_date": "2024-03-06T00:00:00.000Z"
-      },
-      {
-        "title": "(주)우아한형제들 기업리뷰 | 50명이 참여한 통계 & 리뷰 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-review/view/csn/MUtLY0NLcDhMQkRmWEdBclBnalFLdz09/company_nm/(%EC%A3%BC)%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4",
-        "text": "(주)우아한형제들 기업리뷰 | 50명이 참여한 통계 & 리뷰 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n# (주)우아한형제들채용중18\n\n관심기업 등록 3만+ 공유하기\n\n공유하기\n\n- URL 공유하기\n- 트위터 공유하기\n- 페이스북 공유하기\n\n응용 소프트웨어 개발 및 공급업 중견기업,스타트업 직원수 2,140명 업력 16년차 김범석\n\n직원들이 뽑은 BEST 기업문화\n\n프리한 복장 가능 자유로운 연차 평균 연령 30대 커리어 발전 기회 평균근속 2~5년\n\n현재 369,276개의 기업리뷰가 사람인에 등록됐어요!우리 회사 리뷰 남기고, 나와 맞는 기업을 내 마음에 저 - 장하세요!\n\n#### 전체 리뷰 통계\n\n- 자기개발\n- 급여 및 복지\n- 근무환경\n- 경영진\n- 조직문화\n- 전체\n\n직무·직업 선택 기획·전략 마케팅·홍보·조사 회계·세무·재무 인사·노무·HRD 총무·법무·사무 IT개발·데이터 디자인 영업·판매·무역 고객상담·TM",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "",
-        "url": "https://techblog.woowahan.com/10538/",
-        "text": "Developers of Woowa, how do they grow? (a.k.a. system and culture of the development organization) | 우아한형제들 기술블로그\n\n검색어--돌아가기\n\nOpen main menu\n\n-- {{item.name}}\n\n우아한Tech에 문의하기\n\n[개발자 채용](https://career.woowahan.com/?utm_source=techblog&utm_medium=display&utm_campaign=2022_1h_developer_recuiting_da&utm_content=techhr&jobCodes&employmentTypeCodes=&serviceSectionCodes=&careerPeriod=&keyword=&category=jobGroupCodes%3ABA005001&fbclid=IwAR1SDMBF6WjfUZ1WV-Jr",
-        "score": 0,
-        "published_date": "2023-02-09T00:00:00.000Z"
-      },
-      {
-        "title": "[(주)우아한형제들] 부문별 신입/경력 채용 - 사람인",
-        "url": "https://m.saramin.co.kr/job-search/view?rec_idx=37265899",
-        "text": "[(주)우아한형제들] 부문별 신입/경력 채용 - 사람인\n\n관심기업 등록 (주)우아한형제들\n\n# 부문별 신입/경력 채용\n\n본 채용정보는 마감되었습니다.\n\n마감된 채용정보와유사한 채용정보를 확인해보세요~\n\n## 주요 채용 정보\n\n근무형태 정규직계약직 경력 신입/경력 학력 학력무관\n\n근무형태 정규직계약직(기간제)\n\n더보기\n\n마감일 ~06/01(월) 마감 급여 회사내규에 따름 지역\n\n서울전체\n\n더보기\n\n- 인천 > 인천전체\n- 울산 > 울산전체\n- 경기 > 수원시\n- 서울 > 서울전체, 강남구, 광진구, 송파구\n\n직급/직책 면접 후 결정 근무일시 주4.5일/35시간 근무제월요일은 1시 출근\n\n최저임금계산에 대한 알림*하단에 명시된 급여, 근무 내용 등이 최저임금에 미달하는 경우 위 내용이 우선합니다.\n\n본 채용정보는 2026년",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "Woowa Brothers Establishes 'AI Way of Working'... One-Third of All Employees Use Agents < English news < 기사본문 - 더에이아이",
-        "url": "http://www.newstheai.com/news/articleView.html?idxno=10197",
-        "text": "Woowa Brothers Establishes 'AI Way of Working'... One-Third of All Employees Use Agents --\n\nSearch for Articles\n\n2026-02-12 02:19 (목)\n\n- Login\n- Join\n\nPrevious article Next article\n\nWoowa Brothers Establishes 'AI Way of Working'... One-Third of All Employees Use Agents\n\nA\n\nA\n\nWill be changed to this font size.\n\n스크롤 이동 상태바\n\nA\n\nA\n\nWill be changed to this font size.\n\n## AI Agent Platform Achieves 95% Posit",
-        "score": 0,
-        "published_date": "2025-12-15T00:00:00.000Z"
-      },
-      {
-        "title": "우아한형제 서버 개발자가 AI를 받아들이는 방법론 – 바이라인네트워크",
-        "url": "https://byline.network/2025/10/1030/",
-        "text": "우아한형제 서버 개발자가 AI를 받아들이는 방법론 – 바이라인네트워크\n\n배달의민족을 운영하는 우아한형제들(이하 우형)이 자사 개발 조직의 AI 도입 여정을 공개했다. 지난 28일 서울 삼성동 그랜드 인터콘티넨탈 호텔 파르나스에서 열린 연계 개발자 컨퍼런스 ‘우아콘 2025’에서 박경태 서버그룹 기술이사는 “AI가 생산성을 50%, 100% 높일 것이라는 외부 기대와 달리, 실제 현장에서는 그만큼의 효과를 체감하지 못했다”고 털어놨다.\n\n그는 “코파일럿을 도입한 초기에는 개발자 만족도가 높았지만, 시간이 지나도 테스트·리뷰·자동화 영역에서 근본적인 병목은 해소되지 않았다”며 “오히려 AI를 써야한다는 ‘의무감’으로 인해 AI가 필요 없는 부분도 억지로 AI를 쓰는 억지스러운 모습도 있어 생산성 증대 효과는 미미했다”고 진단했다.\n\n생산성 향상에 큰 도움이 되지 않았다고 해서 AI를 무시할 수는 없었다. 이 때문에 AI를 적용하는 전략을 바꿨다. 거창하게 도입하지 않고 작게 계획을 세우",
-        "score": 0,
-        "published_date": "2025-10-30T00:00:00.000Z"
-      },
-      {
-        "title": "카카오그룹, 2026년 ‘응축’에서 ‘증폭’으로… AI·글로벌 성장 본격화 < 통신·IT·게임 < 산업 < 기사본문 - 웹이코노미",
-        "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2045174",
-        "text": "카카오그룹, 2026년 ‘응축’에서 ‘증폭’으로… AI·글로벌 성장 본격화 --\n\n발행일: 2026-02-22 12:50 (일)\n\n- 회원가입\n- 로그인\n\n이전 기사보기 다음 기사보기\n\n카카오그룹, 2026년 ‘응축’에서 ‘증폭’으로… AI·글로벌 성장 본격화\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n카카오그룹 정신아 의장 (출처: 카카오그룹) / 2026.01.02\n\n[웹이코노미 윤혜인 기자] 카카오그룹이 2026년을 ‘방향성 있는 성장’의 원년으로 삼겠다고 2일 밝혔다.\n\n정신아 의장은 신년사에서 “응축의 시간을 지나 이제는 성장으로 전환할 시점”이라고 말했다.\n\n카카오그룹은 2년간 거버넌스 효율화로 계열",
-        "score": 0,
-        "published_date": "2026-01-02T00:00:00.000Z"
-      },
-      {
-        "title": "[컨콜] 정신아 카카오 대표 올해 AI로의 전략적 전환을 완수할 것 | 경제일보",
-        "url": "https://www.economidaily.com/view/20260212101123432",
-        "text": "[컨콜] 정신아 카카오 대표 올해 AI로의 전략적 전환을 완수할 것 | 경제일보\n\n검색 검색 버튼\n\nIT\n\n# [컨콜] 정신아 카카오 대표 \"올해 AI로의 전략적 전환을 완수할 것\"\n\n기자정보, 기사등록일 류청빛 기자\n\n## 정신아 대표 \"계열사 94개로 효율화 완료, 올해는 AI 성장 에너지 분출하는 해\"\n\n## 카카오톡 체류시간 4분 증가…'카나나' 안드로이드 정식 출시 및 글로벌 협업 가속\n\n정신아 카카오 대표 [사진=카카오]\n\n[이코노믹데일리] 카카오가 지난 1년간의 내부 전열 정비를 마치고 올해를 'AI로의 전략적 전환'을 위한 원년으로 선포했다. 구글, 오픈AI 등 글로벌 빅테크들과의 파트너십을 통해 온디바이스 AI와 B2C 서비스를 동시에 공략하고 카카오톡을 대화형 AI 에이전트 생태계의 허브로 진화시키겠다는 구상이다. 12일 정신아 카카오 대표는 2025년 4분기 실적 발표 컨퍼런스 콜에서 \"지난 1년간 중장기 성장을 위해 핵심 사업 중심으로 그룹 역량 밀도를 높이는 ",
-        "score": 0,
-        "published_date": "2026-02-12T00:00:00.000Z"
-      },
-      {
-        "title": "[컨콜] 카카오 “올해 ‘에이전틱 AI’ 원년…상반기 글로벌 플레이어 3곳 합류 기대” < 기업일반 < 통신·미디어 < 전자ICT < 기사본문 - 이비엔(EBN)뉴스센터",
-        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1699584",
-        "text": "[컨콜] 카카오 “올해 ‘에이전틱 AI’ 원년…상반기 글로벌 플레이어 3곳 합류 기대” --\n\n## [단독]샤힌 프로젝트서 추가 공사비 정산 놓고 원청·하도급 마찰\n\n## [데스크 칼럼] 화담숲 앞에 선 LG家 세 모녀의 갈림길\n\n## 구글·애플 러브콜…로보티즈 '휴머노이드 손' 주문 몰린다\n\n## 전쟁 여파에 2차전지 흔들리자…알테오젠, ‘코스닥 왕좌’ 재탈환 시동\n\n## 알테오젠·에이비엘에 삼천당도 ‘성과 뻥튀기’…K바이오 ‘신뢰 시험대’\n\n## 엔켐, 해외 생산 확대...전해액 승부는 '가동률' 아닌 '공급 안정성'\n\n## 중형 조선사 '조용한 반등'…탱커 호황에 수주 엔진 점화\n\n## [단독] 엔씨소프트, '분기 배당' 검토한다\n\n## [방산 랠리, 한화의 시간] 한화오션 ‘바다 전장’ 맡는다…60조원 캐나다 잠수함 도전\n\n## 스테이블코인·로봇 쌍엔진…LG CNS, 차기 성장동력 시동\n\nSNS 기사보내기\n\n다른 공유 찾기 기사스크랩하기 인쇄\n\n이 기사를 공유합니다\n\n닫기\n\n",
-        "score": 0,
-        "published_date": "2026-02-12T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "우아한형제들 기술블로그",
-        "url": "https://techblog.woowahan.com/",
-        "text": "우아한형제들 기술블로그\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n개발자 채용\n\n## AI로 바뀐 건 업무가 아니라 사람이었습니다\n\n[2026.",
-        "score": 0,
-        "published_date": "2020-05-04T00:00:00.000Z"
-      },
-      {
-        "title": "우리는 코드처럼 문화도 리팩토링한다",
-        "url": "https://techblog.woowahan.com/24820/",
-        "text": "우리는 코드처럼 문화도 리팩토링한다\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n개발자 채용\n\n# 우리는 코드처럼 문화도 리팩토링한다\n\n2025.",
-        "score": 0,
-        "published_date": "2025-12-10T00:00:00.000Z"
-      },
-      {
-        "title": "LLMOps로 확장하는 AI플랫폼 2.0 | 우아한형제들 기술블로그",
-        "url": "https://techblog.woowahan.com/22839/",
-        "text": "LLMOps로 확장하는 AI플랫폼 2.0 | 우아한형제들 기술블로그\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n개발자 채용\n\n# LLMOps로 ",
-        "score": 0,
-        "published_date": "2025-09-29T00:00:00.000Z"
-      },
-      {
-        "title": "100만 TPS 로그 시스템, KEDA를 이용한 오토스케일링 적용기 | 우아한형제들 기술블로그",
-        "url": "https://techblog.woowahan.com/24405/",
-        "text": "100만 TPS 로그 시스템, KEDA를 이용한 오토스케일링 적용기 | 우아한형제들 기술블로그\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n[개발자 채용](https://career.woowahan.com/?utm_source=techblog&amp;utm_medium=display&amp;utm_campaign=2022_1h_developer_recuiting_da&amp;utm_content=techhr&amp;jobCodes&amp;employmentTypeCodes=&amp;serviceSectionCodes=&amp;careerPeriod=&amp;keyword=&amp;category=jobGroupCodes%3ABA005001&amp;fbclid=IwAR1SDMBF6WjfUZ1WV-JrCYxYyAGBf92r-Au1TQ0seGgOuT0ZuAT7XUilsGg#recruit-li",
-        "score": 0,
-        "published_date": "2025-11-27T00:00:00.000Z"
-      },
-      {
-        "title": "우리 팀은 카프카를 어떻게 사용하고 있을까 | 우아한형제들 기술블로그",
-        "url": "https://techblog.woowahan.com/17386/",
-        "text": "우리 팀은 카프카를 어떻게 사용하고 있을까 | 우아한형제들 기술블로그\n\nOpen main menu\n\n우아한Tech에 문의하기\n\n개발자 채용\n\n# 우리 팀은 카",
-        "score": 0,
-        "published_date": "2024-05-30T00:00:00.000Z"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "월드비전X배달의민족, ‘비전스토어’ 캠페인 참여 가게 확산 위한 업무협약 체결 - 매거진한경",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhWFBreDBfZFlvTjBrVE8xb0dNV2YxY0F5NVVZOGNhdlhqVjVqd0ZXUm9IVHRXVjd0cTZwRENUSWNGdzdXTG00dy1CM3k2UENxWWExa3dPeFM3TXpyblRTaXR2aXB1U0k?oc=5",
-        "pub_date": "Wed, 26 Feb 2025 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"지난해보다 41% 늘었다\"…배민페스타, 2주 만에 제공 혜택 254억 돌파 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FMmFfMTJjY2NMVkt6ampDLVFHSVUxT2RzNXF6N1dLTUFZN3dGamQ0VVduRlliU1RRdzZRQ0NjOVhkLWRMMExSb3ludHhaUjhQa1hhTEQ0ZFE2d9IBVEFVX3lxTE9qT25hR0FfR2w0Y2pDcDY0SHRubWFLeGktQXJhMmtham1qa1hMa3NZODhnd0F0Slo2bjJSUTNzMlM3MUdkUERUbnVoakVMNGotanBJMQ?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 23:53:35 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"종이빨대업체 지원\"…배민, 소공연과 종이빨대 공동구매 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQkFlWWZzWUNZOERlTVVQWUZ1R3d6M2xLUndseHljSXdIMzEtWGx1T19GcXQ2bUVzNU11UTlFMm9yaDJKcVFpNmVXeTRfZExTQjFzRWd3NHJlRjBJbHRLeTNiXzFTSExla3VHMnhhTm9PblJRelZqei1mRmRoNV90aGF2dS1HU0E?oc=5",
-        "pub_date": "Thu, 21 Mar 2024 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "[사진]문근영,'부드러운 미소' - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcEtySE1sWHhhQW1Vd1dUcFl5RVpITnc4ako4WUlZLU0xaG1OczVHOWJtc3lZWDBiejh3dzB6T1hWNjhYOUFnRDR6RjZLRWxTMm1KMUhEN3ZNZ1RQSkJKSUNqaHdINTJqV2RqLXNEMVcxc3lxeXpmM3V2WU5rMGR2cVk1TGs2eE5TeEJrbUphNi1LeVJkTXJReEd6TdIBrwFBVV95cUxQU210X0hkSVgtZEpoWEtXeVJyNU15QmJLbURJSEQ0d3pMUV9Ha25jUmRTQVREbDVVc0JIRHpQOFJQb2E2TDltQ1htTDlCalR5ci03am9VM1plbnU0VkpDYVluWm5kc2Q0eDFrYnBlYURhOVo1V00xU25HRFJ1RnVDVVV2LUlieVFaaWRTeC1TSW5uRDlGYkdLcVliMVpXQy1ZTXp3endqYlBqbTEzRjF3?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 06:43:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[사진]김단이,'소독약은 무서워' - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnRKOTI3LUVERzUxOGp6RFUyYzQxSnI2UC1qZ0l5QVVZYldYVlphcDUzY2ZKQlhHTVBpWWgxbVpJQTVycUI5VEFfb2RnNXhob1duaXRkRGtqY1kweW80YVVTd0QwQkNIY1NXYk9UZEtrWlluRUoyZnJVSjdHTGJnSmxLY2dRMHJnU2o1amRwUGFUN1VNeTY1UXFNY9IBrwFBVV95cUxPcGhDRjlFcE1abTloeDF3VERwOVFqVlB5NjVMNEhBU1NZaHFMR1YxNEo0LTE2YXlfdVJHc3BleVZORGtMaW54bjRUQmhQa3JPbTdneTI4VzR6bDljaTIxbUdGeGE5SXZ2VXNtNDdWTlZmeHZGYy1XelBWX1ZZWDlnSzk1RG9HT3RmQkRNZXdVcFQyNDlub3RVZ2pNM2pKYlIwR3ZQd2ZBZUtqd2dJUTcw?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 05:51:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "배달의민족, 현대카드와 만든 다회용 ‘에코용기’ 12월 중순부터 판매 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ1B1MlhSdUFmamNRTGhFbXdpeVc5MS0zbmc1VldPSnhxTzRHMW4zbmVZSVJES1J5a21EbGR1b3hGVU1SQWpLQ1dMWlF1T3VUa3ZKelN0UDl6RzBielJrSXprNmdfQ0lwc0hGNm5HSGdpemFPQ293b2xiWnN3SFZmWXBqUUpEd2FmcUHSAZ4BQVVfeXFMTnVXTUZZOXJkYXBvdUxhT2M3Mk42dXFsSkNrd2Y2UEZvaUNrZzRFU3VGOE02VklFZ2JaQ0J2eDM3MFhob0dXMTZjV0Y1a0hRdTNhNGlHTkNDSjVYSllVNnpiVTVDYmFUWGtEM2piY2xLSnVxYnlwWkl3VnVFU2h0VFNVa1NFYnRfRWJYVC1sMDlJTFRuQ291LTRQajBnVWc?oc=5",
-        "pub_date": "Fri, 18 Nov 2022 08:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "배민, 작은 카페서 ‘한정판 BTS 음료’ 판매 돕는다 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mTGhDaURqMnE1WHl4dUhhTnJyY1NsbThhOHNZS0NJWHlHNlNlbl9ONUxFNGJUcVlsSTFyLTFoS3ZYbmt6YWZ4ZEwwRWRlYTZqZ1pVcGhB?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 06:50:06 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[고침] 경제(배민 \"배민페스타 2주 만에 고객 할인혜택 25…) - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSamN0a2RYSjZfUDdWRWJXX3p0cVZhd1lreEx1eXR3dnhuSWxXcVp5MmxZbHBMSmZfQjNQRENTMGJoSEhGSFV1bWZ5NUtfeE1kTUE?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 02:33:29 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "배민, 경기·강원 소상공인에 협약보증대출 지원 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Td3AtWGZoalV0dkFmSEp4c1VndjBsTmVrNm5rU1plOVFTaEJWRW5EVG12d0RLZGlJVW5kX0NwTGtZSnM2VGt4X0lLdDIySkdp?oc=5",
-        "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "배민, 광고학회 ‘올해의 광고상’ 브랜디드콘텐츠 부문 대상 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uNlZsc3BGZDk0UFhEYS1HWnJ4MG5kU2w0M2RHeVJiTnVoaEpyQmY3RUl4ckcwTkdGZ1h5eF9RWDFVaVR6MnJhY3JqRmEyVzJTeU1aSGx3?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 05:10:55 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "배민 모회사 딜리버리히어로, 부채 상환 위해 14억달러 대출 추진 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBVVAxRUpNSVBkbS1yV1ozVU9qa0xWMWJDTnhHdUFpck4wZk42aUpCejJUc2RWc0cyNldxMFNoNDJXZDFobFNxRWpfa19jUl8xR1FhaDNB?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 00:45:14 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "배민, 종로구·중구 소규모 카페에 BTS 음료 레시피 제공 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qeHdWRllFaFkyQTQ3YTRxTmZCMTNCMDhPLTB6aFlqZkhlejNUY19JcXhkeldYM2dJZlRULWFSdkVRcHFOM2tsdy1oU1l1UUpXYVZrYnhB?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 23:52:41 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "\"치킨 왔습니다\" 배민 개발자가 말하는 추천 배차 알고리즘 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFcV9DQzItLVhzb1g2Y3FhdEkzZVQxUE44dWNvb2JoRDFvUGpZYlJMbERMYVBOc0xkSFpYd0t6OUdwa0FWcnZpOVo5Ml93eFAxTENBcUdveElkSFktekQxTHloajVUVHc?oc=5",
-        "pub_date": "Wed, 16 Dec 2020 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[CFO 리포트] 플랫폼 ‘독점지대'와 ‘우아한 형제들’ - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11LVdsaGdFNXU1SGVWLU5vRTVydGMzWmIyRVpfaE85UWdtbHd0VFZhT0F5MWF4NFdBc3dFR0hhZ0piWjVJQ05SVjVhd3RoOVIzYm5CUldXc3hJSFY4NTB1bmdzQWZGLWRB0gFsQVVfeXFMT2lCektnSkhzb0JDZVdackhhSnJrTkFpdElTRmQ2ZlRoQk1lQ0tsd2tMQnlZY2xEajRRb3h0b0tJUjY5Mk4zbWNIZlZid2Z2VHdQdzB2bkxYUkNQYmo1VWk0SG1UNW4wd3FlQWJu?oc=5",
-        "pub_date": "Tue, 24 Jun 2025 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "우아한형제들, 근무 장소부터 시간까지 '자율'에 맡긴다 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ha2JWYzdfN1hqbkVSU1d0QkdCa2R6ckpPQmNaQVU5MXRURFdZTnZsSDYtVXNzbDZDTXh1Z1RYWHAxbEhhVkhMTnIzTmZVSlhfcUhMMXJ2WHhwdkpQejEtYVBoTDNDbmfSAWtBVV95cUxQdkRFUnFTVnFKOTF1VTZTeFVBWmo0WGxSWnZWektDSEJ5MTN6UGNpNVBvVzRNekFzWUlaR0lHYXc3R3JEdkNpbTN2MlFKYlIyS1B6Y3h3TUs4blVjNkRiSkRtN1FEWEdNckh2Zw?oc=5",
-        "pub_date": "Thu, 14 Jul 2022 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "우아한형제 서버 개발자가 AI를 받아들이는 방법론 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8xcE9GeVAtVGNGYlBWVzBQSVJlN3hQVWNDd2xmZFFLSzFkeF9XYnk1NzF2ajRMTUl4cC01LW41dUI4WUlrQU9IV1FPeUU?oc=5",
-        "pub_date": "Thu, 30 Oct 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "‘우아한형제들’의 클라우드(AWS) 보안 생생 경험담 – Pain Point - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yMm1rNmVRV2N5QXVwWENndkJQenItRG04cEFZTGd4eUNIc3UzVEJBOE1xcGJjMFVuSXEtRzBZa0FkTzFyX0VtYWV5RUk?oc=5",
-        "pub_date": "Wed, 06 Mar 2019 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "우아콘2024: 배달의민족은 글로벌로 간다, 기술로 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Hbkg1LVNfVFdJbHFFbVJ0TUNjQVRNb2pPN3kyR0RuWk91cGlkMGptYU1Obm5HVm5IRmtQZTh2R0VMVzhhcWM1ZTItM0ZaTGpLQ0ttTmVB?oc=5",
-        "pub_date": "Wed, 30 Oct 2024 07:00:00 GMT",
-        "source": "바이라인네트워크"
+  },
+  "scorecard": {
+    "total": 75.33333333333333,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.333333333333333,
+        "evidence": "11 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "company_website",
+      "section": "overview",
+      "url": "https://woowahan.com"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=우아한형제들"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=우아한형제들+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=우아한형제들 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=우아한형제들 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=우아한형제들 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=우아한형제들 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

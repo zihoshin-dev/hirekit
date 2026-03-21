@@ -1,801 +1,1070 @@
 {
   "company": "버킷플레이스",
-  "sources_used": [
-    "exa_search",
-    "google_news",
-    "dart",
-    "credible_news",
-    "brave_search",
-    "naver_search"
-  ],
-  "result_count": 14,
-  "sections": [
-    "strategy",
-    "financials",
-    "tech",
-    "culture",
-    "overview"
-  ],
-  "data": {
-    "company_name": "주식회사 레이",
-    "company_name_eng": "Ray Co., Ltd.",
-    "stock_name": "레이",
-    "ceo": "이상철",
-    "address": "경기도 성남시 분당구 판교역로 221 (삼평동 672) 투썬월드빌딩 12층",
-    "industry_code": "27111",
-    "established": "20041006",
-    "homepage": "www.raymedical.co.kr/",
-    "ir_url": "",
-    "stock_code": "228670",
-    "corp_class": "K",
-    "employees": [
-      {
-        "position": "-",
-        "gender": "남",
-        "headcount": "136",
-        "contract_workers": "-",
-        "total": "136",
-        "avg_tenure_year": "5.89",
-        "total_salary": "62,550,000",
-        "avg_salary": ""
-      },
-      {
-        "position": "-",
-        "gender": "여",
-        "headcount": "32",
-        "contract_workers": "-",
-        "total": "32",
-        "avg_tenure_year": "4.87",
-        "total_salary": "51,921,000",
-        "avg_salary": ""
-      }
-    ],
-    "financials": [
-      {
-        "account": "자산총계",
-        "current_amount": "166280498089",
-        "previous_amount": "147257133505",
-        "two_years_ago": "229472747759"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "74737819193",
-        "previous_amount": "54947565997",
-        "two_years_ago": "138814656469"
-      },
-      {
-        "account": "부채총계",
-        "current_amount": "91542678896",
-        "previous_amount": "92309567508",
-        "two_years_ago": "90658091290"
-      },
-      {
-        "account": "매출액",
-        "current_amount": "68172780774",
-        "previous_amount": "56904898279",
-        "two_years_ago": "110797920515"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "74737819193",
-        "previous_amount": "54947565997",
-        "two_years_ago": "138814656469"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "14087894227",
-        "previous_amount": "13312869616",
-        "two_years_ago": "6806886774"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "-39332520121",
-        "previous_amount": "-58349447772",
-        "two_years_ago": "32210186490"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "7812416500",
-        "previous_amount": "7794617500",
-        "two_years_ago": "7748817000"
-      },
-      {
-        "account": "자본총계",
-        "current_amount": "92170028587",
-        "previous_amount": "92189526653",
-        "two_years_ago": "92048766205"
-      }
-    ],
-    "naver_blog": [
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
-        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
-        "link": "https://blog.naver.com/ytjoo88/224215031143",
-        "pub_date": "20260313"
-      },
-      {
-        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
-        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
-        "link": "https://blog.naver.com/ve_getable/224210299768",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
-        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
-        "link": "https://blog.naver.com/label3548/224210103873",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
-        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
-        "link": "https://blog.naver.com/fusekimo198735/224209926005",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
-        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
-        "link": "https://blog.naver.com/ve_getable/224207830667",
-        "pub_date": "20260307"
-      },
-      {
-        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
-        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
-        "link": "https://blog.naver.com/magicpaul7/224204238038",
-        "pub_date": "20260304"
-      },
-      {
-        "title": "[면접기록] 25년 12월 패션 온라인MD 면접 후기 - 플랫폼 1회... ",
-        "description": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 평소에 외향적인 성향이고 친구들이랑 있을 때도 넌 면접보면 무조건 합격하겠... 12월 초에 이틀 동안 3개의 회사 면접을 연달아 봤는데요 하고하우스(패션플러스) 원더플레이스... ",
-        "link": "https://blog.naver.com/lucky_240321/224201392944",
-        "pub_date": "20260302"
-      },
-      {
-        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
-        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
-        "link": "https://blog.naver.com/serohero/224199063326",
-        "pub_date": "20260228"
-      },
-      {
-        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
-        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
-        "link": "https://blog.naver.com/jobpass_/224197697044",
-        "pub_date": "20260227"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "2026년 3월 20일 금요일 정책키워드 총정리",
-        "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-19 오후 12:00:00 기획재정부 재경부 &quot;범정부 공공개혁TF 결정된 바 없어&quot; [보도 내용] ㅇ 정부가 공공기관 조직개편... ",
-        "link": "http://cafe.naver.com/magicbank/3332",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "글로벌 AI 기업들의 전략 키워드 A to Z",
-        "description": "주요 AI 기업 전략을 알아보겠습니다. 이동자의 요구에 맞춰... 그 예로 5G 이동통신 기지국은 AI를 이용해 상황에 따라 안테나 방향... 수행하는 AI 애플리케이션과 조립 라인, 로봇 팔이나 픽 앤 플레이스...",
-        "link": "https://blog.naver.com/hyundai-transys/223786885108",
-        "pub_date": ""
-      },
-      {
-        "title": "오늘의집, 공간 라이프스타일 완전체가 되기까지…9년간 회고 푼다",
-        "description": "혁신 전략 등 공유 ‘오늘의집’을 운영 중인 버킷플레이스(대표... 신사업 영역의 매출도 크게 상승했다. 당시 이승재 버킷플레이스... 보는 비전, 궁극적 지향점을 제시한다. 급변하는 외부 환경에 대비한...",
-        "link": "https://byline.network/2024/01/26-311/",
-        "pub_date": ""
-      },
-      {
-        "title": "AI의 시대를 위한 준비 가이드",
-        "description": "193% 이전 이전 다음 다음 홈 홈 1 리더는 AI를 성공적으로 활용하려면 명확한 비전, 강력한 전략, 신뢰할... 다양한 사업부 전반의 AI 전략 커뮤니케이션 및 실행 03 05 실현 조직과 여러 사업부 전반에서 일관된 AI...",
-        "link": "https://www.cloocus.com/storage/2024/12/03.-MSXCloocus-Ebook-.AI.pdf",
-        "pub_date": ""
-      },
-      {
-        "title": "인공지능 기반 사업 계획 작성 방법: 챗GPT와 함께하는 성공적인 사업 전략",
-        "description": "마케팅 전략 및 고객 확보 방안 인공지능의 한계와 보완점 사업 성공을 위한 추가적인 고려 사항... 위한 방향을 제시합니다. 인공지능(AI)이 사업 계획에 미치는 영향 최근 몇 년간 인공지능 기술은 급속도로...",
-        "link": "https://www.toolify.ai/ko/ai-news-kr/gpt-3385383",
-        "pub_date": ""
-      },
-      {
-        "title": "AI 프로젝트 600개 2030년까지의 혁신 비전!",
-        "description": "AI와 데이터 기반 산업 혁신의 새로운 방향 ; 정부는 인공지능(AI)과 데이터를 활용하여 산업기술 혁신을 가속화하고 있습니다. 앞으로 2030년까지 600개의 프로젝트를 통해 AI 기술을 적용한 혁신 사례를 만들어 가기를 목표로 하고 있습니다. 이러한 전략은 산업 현장에서 AI의 역할이 점점 중요해진다는 것을 반영하며, 조기에 투자와 연구개발을 통해 기술 경쟁력을 높이고자 합니...",
-        "link": "https://mbalance.co.kr/1085",
-        "pub_date": ""
-      },
-      {
-        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
-        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
-        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
-        "pub_date": ""
-      },
-      {
-        "title": "SK텔레콤, AI 스타트업 육성에 진심인 이유 &quot;ESG 2.0으로 진화&quot;",
-        "description": "AI 스타트업 액셀러레이터에 대해선 &quot;1기때 경험을 바탕으로 2기는 사업 연계가 더 많이 이뤄지도록 할 것&quot;이라고 밝혔다. 버킷플레이스 회원전용 사업분야 엔터∙라이프스타일, 유통∙물류∙커머스...",
-        "link": "https://www.unicornfactory.co.kr/article/2024072213123377992",
-        "pub_date": ""
-      },
-      {
-        "title": "Key To Way",
-        "description": "최근 ‘인공지능 중심 산업융합집적단지 조성사업’이 국무회의 예비타당성 조사 면제대상 사업으로... 지향해야할 방향성을 도출하여 비전과 전략을 수립하였습니다.Agile 기반의 단계적 추진으로...",
-        "link": "https://keytoway.kr/ai-vision",
-        "pub_date": ""
-      },
-      {
-        "title": "SK텔레콤, AI 스타트업 육성에 진심인 이유 &quot;ESG 2.0으로 진화&quot;",
-        "description": "강세원 SKT ESG 추진담당은 머니투데이와 만나 &quot;SKT의 ESG 활동은 핵심사업과 기술을 AI 대전환과 연계하는 ESG 2.0으로 진화중&quot;이라며 &quot;스타트업과 함께 성장하고 함께 가치를 만들어 가는 것도 그 방향&quot;이라고 설명했다. SKT는 이투온과 함께 데이터 기반 범죄예측모델을, 투아트와 장애인활동보조서비스를 위한 AI 서비스를 각각 개발한 바 있다. 아울러 SKT 등 통신3사는 ESG 관련 스타트...",
-        "link": "https://www.mt.co.kr/future/2024/07/22/2024072213123377992",
-        "pub_date": ""
-      },
-      {
-        "title": "AI로 비즈니스 계획 작성하기: 전략적 계획의 미래",
-        "description": "BizPlanner.ai와 같은 도구를 사용하면 포괄적인 비즈니스 전략을 매끄럽고 효율적이며 맞춤화된 방식으로 작성할 수 있습니다. 비즈니스 계획의 본질은 회사의 목표, 이를 달성하기 위한 방법, 그리고 이러한 목표를 달성할 시간 프레임을 전달하는 것입니다. 전통적인 방법은 효과적이지만 시간이 많이 걸리고 수동적인 노력이 필요합니다. 바로 여기서 AI 기반 접근 방식이 빛을 발...",
-        "link": "https://bizplanner.ai/ko/blog/business-plan-by-ai",
-        "pub_date": ""
-      }
-    ],
-    "google_news": [
-      {
-        "title": "\"성장엔진 더 키운다\"…스타트업들이 택한 '리브랜딩' 전략 보니 - mt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fa254MVlIMkhnR1M5WG9VNEozTF81U3RfbC10ck0wby1CYlpyVFMwTU1LODYtOWtiX1hBRHU4NkFXNGJDc3RFZkdPb1lMbzRyOGMydG1UUGdSMkV2d3NTdWZxekN1dm5lbHc?oc=5",
-        "pub_date": "Mon, 20 Oct 2025 07:00:00 GMT",
-        "source": "mt.co.kr"
-      },
-      {
-        "title": "노션·캔바·피그마의 한국 전략에서 발견되는 공통점 - 디지털 인사이트 DIGITAL iNSIGHT",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11bnAtNmtWQTVQcm9RRm5SX3gwQk5SaXhRN3UzcTBndUZJblBqZXQ3eEJmZWF0S1VsTmFhNC1FQTVQbzZmUnVWZm42OGVtaG5xLXpHQnlxekE?oc=5",
-        "pub_date": "Fri, 14 Nov 2025 08:00:00 GMT",
-        "source": "디지털 인사이트 DIGITAL iNSIGHT"
-      },
-      {
-        "title": "슈퍼브에이아이, 신용보증기금 ‘혁신아이콘 14기’ 선정… “비전 AI 넘어 피지컬 AI로 확장” - 스타트업엔",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42NlQySlNXckhxWnAySUNVcGVqSmhYTjJPaVZrVDVYLXppRTY1eTcwNzE0a2xwNWFiZlRCRWNua21vdXh0VERfeXBhX1plMjZxanFWdnVXS05xOXJDci1DSlZ4SEZSV08z0gFsQVVfeXFMUGZ1WkJ3U19JQXJtUTA5RzNRMXF5YTlwbUJuVUNhRTF4YUtKNXYtVXZRWkZyX3hFcDVONTd5T1Jxc1pCeE51UXJVVkd5RE9ZT3FIV0NHck1Wbkszb1pQaUlXa045NUdYaXRfOUo3?oc=5",
-        "pub_date": "Mon, 10 Nov 2025 08:00:00 GMT",
-        "source": "스타트업엔"
-      },
-      {
-        "title": "2023 EY 최우수 기업가상 라이징 스타(Rising Star) 이승재 버킷플레이스 대표 | EY - Korea - EY",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ2lxUThicTUydWRVS29pU1MwZXlTUTA3djRfLVlXMi1UOUo0TENlY0ZERm8tRnQxdDh4ZUpRcUFSWkp1V1dhYWlTYldTYnAwZ3BaZEpveDQ4WkRJd1FnOHpZRjA2M195cVB3OWNjOUY5NnFUb0JBZnBCdkFvUllzMlBnLXhEaWh6?oc=5",
-        "pub_date": "Thu, 21 Nov 2024 16:06:26 GMT",
-        "source": "EY"
-      },
-      {
-        "title": "오늘의집 모르는 MZ 없지?…일하기엔 어떨까 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 - 잡플래닛",
-        "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPYi1GUkZ2ODh6dXA1RTdOc2NRbldETGhHclJ5YmVpMVpJUXRnOWNCV1prSE9ZRFp5Z0M0SzZpTlI4YUMzNkN0OXNCdTFKeko0ZHRESW1TMjFxYlVzTzRXT1NQaUpfejdleTFYWEZXeE9oS3Y3Wm1uZXhKdGwwTjFBOUxYYmduZUM2ZFhyaEJ1UXAxcmNOT1JiUUZjZGpCRGM1ZkxzWXFvdS04SGd3UGt1Z2NTNDJhYjRWRTl0cmNJbXdsd0lfdC1oOTdmYURhTGp5OVR4ZEpCenFRX0cwNUpYNXVzNTA0d1RsOWpZZ093RGlHUDl6MmFyU1hsbkRjTjU0d2wxN1hUWW9USEdXWERyYVdSaEhXdU5abDlPVW16bXpjTkZL?oc=5",
-        "pub_date": "Wed, 11 May 2022 07:00:00 GMT",
-        "source": "잡플래닛"
-      },
-      {
-        "title": "이택경 대표 \"AI로 창업 문턱 낮아져…3명만 있어도 유니콘 만든다\" - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80aEFrZlRxcHBBZURuYktxcGN4b3NHaHFNb2lsc1FvSm9jd3ZtYmIzZGlCbzU3cUNiTlFBbllzU2dHU3NvWDBBaEtka0g3WGExcWxnR1FoRTBoZ9IBVEFVX3lxTE51VFlqVDVRb0pXRXlvTHUxVW5mcEpjcmVKXzMyZ0hTdVF1NmhFTFlEellhUTZtd3hIaVFvYkNOcHYxWUdoVGQxcXVORThMZkttNzE2eA?oc=5",
-        "pub_date": "Fri, 15 Nov 2024 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "원티드랩, 채용연계형 해커톤 개최...1500명 참가 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5QkZpVDdBS3I4WGhvRW0tMmFnUlJnUG1kNzhrYTFmQVg1azQ5VWxadjJta2FWejFWLWZPdEVnR1R5dTgzUE04cS1ub05HdEZTZHdGVUpHOUh3YklrZ3I4Sk5GNzlDNFVpWnc?oc=5",
-        "pub_date": "Thu, 16 Dec 2021 08:00:00 GMT",
-        "source": "AI타임스"
-      },
-      {
-        "title": "원티드랩, '여름 인턴십 전용관' 운영 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WTEJNUkltUEtDZVg4M2hsZkNSMUt0NGQyN182WG5UTEdfV1BBQnRDaHRpUXZDLUFtWDVBNGNCY1pKRjhjYUlyTjJLdHNRaXE2R283Q3hR?oc=5",
-        "pub_date": "Thu, 03 Aug 2023 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "'몸값 2조' 오늘의집, 日 이어 美 공략...앱 출시, 현지 인력 채용 - 테크M",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tbm8yQlcwaURkc2k4TndwYk9DakxuNmtnU3lwNElZWW1nN25IaHE1Z1ZQSGdyT18xOUxOamJSS1J5RnZDZkR5NXBwdjN4QS1vWEJaZk8wUjNOMllMMFpTbWJGZUxOd9IBakFVX3lxTE9IU3luUzFzQ2R4eDljdkUtOWozczdMQU9tSGJMWXMtMlo2TEMxMVEzTUdidlBZdTVkMUwxajFMdnZRWWdPaGNJcFBGaEV5dV9FZ2M2R0tGdDdteG04UXVZR2F5ZE1maTc0Umc?oc=5",
-        "pub_date": "Fri, 14 Apr 2023 07:00:00 GMT",
-        "source": "테크M"
-      },
-      {
-        "title": "원티드랩, ‘여름 인턴십 전용관’ 운영 새창으로 읽기 - 디지털투데이",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ISUdUQzhRWEo4Vi10ZG5Vc1lBcm50NzJ1aFloUnYwTUNpWllBZTFBc2pSUHhqWDBoUzl6Qk9yYmdlVFNHS0dXYlh4QTFTQnJ6ZjUzZ2ZjWk9aeHBRNWszQWFCRl94UGRtbXE5a3A4RC1rekU?oc=5",
-        "pub_date": "Wed, 16 Aug 2023 07:00:00 GMT",
-        "source": "디지털투데이"
-      },
-      {
-        "title": "‘The Art of Entrepreneurship’으로 세상을 바꾼 2023 EY 최우수 기업가상 수상자들 | EY - Korea - EY",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSRnlUdzBMUzItekJyOWR0RWZBT1d6NndpQUtmLTluNFhia2s2NVVhdl9GTmdyLU1VWGNzTnlXb3hnb0VBVFZnQ3NfZEhuMkVkQlNTVndMWm41eFFlc1BBUTlYY1JLS2VBQjY2WTBla2pnLU40TWJ6STh3?oc=5",
-        "pub_date": "Fri, 22 Nov 2024 00:27:14 GMT",
-        "source": "EY"
-      },
-      {
-        "title": "月 500만명이 찾는 오늘의집...비결은 '3C'에 있었다 - 테크M",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uaVdHcVF1cFdkNFYwM3hjSXByTzd1S21ZZlMwZWROVzh4QWlNWFQyMGFQQmp4SThxbG9CUXJ6OG9ZRWptVkFYbm8tamt2Y0tEWTgweTBjeEhPR3o0VElCSzZDVXXSAWhBVV95cUxQQzZYTjMyc05pZHRldzJFQ1dSUnY0NlpUdkZFN3NlTnMwSWFoMERfM29sTTcwZ2FMVmd0cmRjMGo3MVRZbVZpaUhNVjd4ZUJBTmtCQU1salp6WVo2Q24yVE5kdXBxQWk3Tg?oc=5",
-        "pub_date": "Tue, 12 Jul 2022 07:00:00 GMT",
-        "source": "테크M"
-      },
-      {
-        "title": "2023 EY 최우수 기업가상 마스터 부문에 방시혁 하이브 의장 선정 | EY - Korea - EY",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0UkZaUjRRMHdjZVhuMzhyalhOVnJ2SmpLVW80Z0h6SlVqWWp0djJuY0R5WmozbXE5RV9zUF9RdlowNE1laFZrUGhWcVh0bmdJTmRkWmR2S1hRcTB5WWY2UVNFTVN0eksxcW1KWVRZZkxHaGhSRmhMSHoxamJpMkE?oc=5",
-        "pub_date": "Wed, 08 Nov 2023 08:00:00 GMT",
-        "source": "EY"
-      },
-      {
-        "title": "오늘의집, 시공사업 직진출...이해충돌 '불씨' - 딜사이트",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TTnRwNGd6cVdRamNlaTVvTjFxODQ5dmJhZUhWRFhiN2lxTFlDamh0UFBWOFhaU0Q2S2hkWVhhVWowM0Y4MU9DZEt0MkZ4SVU?oc=5",
-        "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "source": "딜사이트"
-      },
-      {
-        "title": "오늘의집, 리뉴얼·확장·해외 진출 ‘3트랙 성장 전략’ 가동 - 경제타임스",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ENmV0ZkE1ZmxJc2g1SmJ2VUdzM0hEYmlXV1YxbEhDcjdBWHBOVm4wTmwxQkQ4a3UxS25yTnpyTU94eG92ZWVBYWVFVElTamE2Ny1iZTJZeEk?oc=5",
-        "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
-        "source": "경제타임스"
-      },
-      {
-        "title": "[단독]시장 꽁꽁 얼어붙었는데...오늘의집 시공 자회사 설립에 업계 '주목' - 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PSnZrZ2Z1VWtPNGM2MlFrUkVxMUZaaHJhbzlkY1ZfVUJ1MVZrbDlqVUdIbGd3b1lnOE9Fb1I5WFJZWmFNMTFLOUctY2dTYlQzTmxZdXZqb1RNUm9KTkxoeQ?oc=5",
-        "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
-        "source": "아시아경제"
-      },
-      {
-        "title": "랜선 집들이가 현실로···오늘의집, 앱 밖으로 나온 이유 - 시사저널e",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xaTUxaEUwR2JmYVoyaEdELWQ1enRCUFpHNDBTaWJXd1h4N0NQTktlWEhaLXZuakJYUS1VMGQ4a3lxZE5Wa0F3S0daVVZGU0lib0ozazJiZjAwTlR2YWJtMzljWkVkRE5fbXoyNzljNjQtd9IBdkFVX3lxTFBIRy1sVk1adHNGR1FDM0s2NEFXbmRSamZobTB0SDhfMVZMaGRoZEZ5Nlp6TXREZERFSmdyYjJWS3hiT3B4eWE1d3pibXIxSlZSN2lVTE1SZU1fNlB3VzBsVDNSSFBTdFc1cVdIeUtMejlIV215UGc?oc=5",
-        "pub_date": "Thu, 17 Jul 2025 07:00:00 GMT",
-        "source": "시사저널e"
-      },
-      {
-        "title": "오늘의집, 첫 연간 영업이익 흑자…창업 10년만에 처음 - mt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IVE54aUctc3U5MVZXQjMwellqMjFRb3A4Wkt5MzBhYzBSVHBZY18yQTA5X3BnT293anI2aC1GUVJoRnBqcll3QU9samtEY0NhVVBaLUNoOTRsV0lzck91MVJiTVVJeUVhc2c?oc=5",
-        "pub_date": "Tue, 01 Apr 2025 07:00:00 GMT",
-        "source": "mt.co.kr"
-      },
-      {
-        "title": "당근·오늘의집, 적자 탈출 성공…컬리는 ‘아직’ - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XaERLVFNGQzd1NVpfSlk2bUYxbHRuX2xSd3dLdFZtUUxJeXNNVmRvQTlNVXExd0hwZGlHc0x2bkw1U3JQRkxIa1BBM2NNby1ZNmJyNF9R?oc=5",
-        "pub_date": "Tue, 15 Apr 2025 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "오늘의집, 창사 10년 만에 첫 흑자…매출 3000억 '눈앞' - 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9icE5pY2JwR1NlRjRxaVVUMVdMZzN1MjdFejhwQWQ5WVo4V2RFQk5rMEZGVkwtRDFRQU1xN2xrVUpxLXRnbkVHUkU5QVNDTFN1VzBCVTI5WUk0NmhS?oc=5",
-        "pub_date": "Mon, 31 Mar 2025 07:00:00 GMT",
-        "source": "뉴스1"
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "(주)버킷플레이스 2026년 상반기 채용 | 기업리뷰 345건, 연봉정보 202건, 면접후기 441건, 복지정보 0건, 채용공고 22건",
-        "url": "https://www.jobplanet.co.kr/companies/274319/landing/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
-        "description": "Tech 기업 버킷플레이스의 개발 문화 · 오늘의집 퍼포먼스 마케팅의 비밀 · 퀀텀점프하는 개발자 3인에게 듣는 오늘의집 · 시니어 개발자의 이유있는 오늘의집 선택 · 구글, 아마존을 떠나 오늘의집에 합류한 이유 · 네카라쿠 출신 오늘의집 테크 리드와의 만남 · 12 · 채용 공고 ·"
-      },
-      {
-        "title": "블라인드 | 버킷플레이스 기업정보",
-        "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/",
-        "description": "채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
-      },
-      {
-        "title": "오늘의집 채용",
-        "url": "https://www.bucketplace.com/careers/",
-        "description": "사업 개발/전략Business Development Manager (Life Service)CEO Staff Assistant (인턴)"
-      },
-      {
-        "title": "2025년 버킷플레이스 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1682190468/",
-        "description": "(주)버킷플레이스는 인터넷·포털·컨텐츠·게임 업종의 중소기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
-      },
-      {
-        "title": "㈜버킷플레이스 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/16154394",
-        "description": "㈜버킷플레이스의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요."
-      },
-      {
-        "title": "버킷플레이스(오늘의집) 기업정보 - 채용 4건, 평균연봉 6,032만원, 인원 734명, 업력 12년, 서울 서초구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/179",
-        "description": "버킷플레이스(오늘의집) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "(주)버킷플레이스 2025년 하반기 채용 | 377건 면접후기 3.3 면접난이도 | 잡플래닛",
-        "url": "https://www.jobplanet.co.kr/companies/274319/interviews/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
-        "description": "주 4.5일 꿀근무 만족스런 문화 능력있는 동료 탄탄한 비즈니스 복지 끝판왕 직원 존중은 기본 최고의 연봉·보상 분위기 좋아요 수평적인 문화 요즘 대세 워라밸 인지도하면 여기 인생 최고 동료"
-      },
-      {
-        "title": "㈜버킷플레이스 진행 중인 채용정보 총 6건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/16154394/recruit",
-        "description": "㈜버킷플레이스 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      },
-      {
-        "title": "버킷플레이스(누구나 예쁜 집에 살 수 있어, 오늘의집) 기업, 채용, 투자, 뉴스",
-        "url": "https://www.rocketpunch.com/companies/bucketplace",
-        "description": "로켓펀치에 가입하고 버킷플레이스를 소개받을 수 있는 지인을 찾아보세요."
-      },
-      {
-        "title": "버킷플레이스 2025년 기업정보 - 주요사업·최신연봉 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/CompSummary/A0418",
-        "description": "기업의 모든 정보를 한 눈에. 사원수, 평균연봉, 이직률, 매출액, 주요제품 및 사업구성까지"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "Bucketplace (오늘의집): 채용공고 | LinkedIn",
-        "url": "https://kr.linkedin.com/company/bucketplace/jobs",
-        "text": "Developed by Bucketplace, Ohouse is the No.1 lifestyle super-app that solves all problems related to the interior space by offering a myriad of services inspired by content including: an e-commerce store, home remodeling, furniture delivery, home tasks (repairing & installation) and moving services. As a leader in the lifestyle industry, Ohouse combines innovative lifestyle services with the best-in-class customer experience to change peoples’ lives for the better.\n\n[Websites]\nhttps://www.bucket",
-        "score": 0,
-        "published_date": "2025-06-06T00:00:00.000Z"
-      },
-      {
-        "title": "Bucketplace (오늘의집) Technical Lead & Manager, Backend(서울, 대한민국) 채용중 | LinkedIn",
-        "url": "https://kr.linkedin.com/jobs/view/technical-lead-manager-backend-at-bucketplace-ohouse-4068035141",
-        "text": "Bucketplace (오늘의집) Technical Lead & Manager, Backend(서울, 대한민국) 채용중 | LinkedIn\n\n### Technical Lead & Manager, Backend\n\nBucketplace (오늘의집)서울, 대한민국\n\n# Technical Lead & Manager, Backend\n\n#### Bucketplace (오늘의집) 서울, 대한민국 9개월 전 지원자 25명 미만 Bucketplace (오늘의집)에서 이 자리인 사람이 누구인지 보기 채용공고 마감됨\n\n- [채용공고 신고](https://www.linkedin.com/uas/login?fromSignIn=true&amp;session_redirect=https%3A%2F%2Fkr.linkedin.com%2Fjobs%2Fview%2F",
-        "score": 0,
-        "published_date": "2025-05-17T00:00:00.000Z"
-      },
-      {
-        "title": "Bucketplace (오늘의집) Content Growth Manager (Junior)(서울) 채용중 | LinkedIn",
-        "url": "https://kr.linkedin.com/jobs/view/content-growth-manager-junior-at-bucketplace-ohouse-3977864296",
-        "text": "Bucketplace (오늘의집) Content Growth Manager (Junior)(서울) 채용중 | LinkedIn\n\n### Content Growth Manager (Junior)\n\nBucketplace (오늘의집)서울\n\n# Content Growth Manager (Junior)\n\n#### Bucketplace (오늘의집) 서울 1년 전 지원자 25명 미만 Bucketplace (오늘의집)에서 이 자리인 사람이 누구인지 보기 채용공고 마감됨\n\n- [채용공고 신고](https://www.linkedin.com/uas/login?fromSignIn=true&amp;session_redirect=https%3A%2F%2Fkr.linkedin.com%2Fjobs%2Fview%2Fcontent-growth-manager-ju",
-        "score": 0,
-        "published_date": "2025-06-04T00:00:00.000Z"
-      },
-      {
-        "title": "Bucketplace (오늘의집): 라이프 | LinkedIn",
-        "url": "https://kr.linkedin.com/company/bucketplace/life/313702b9-4535-4058-9143-b2a832a8e329",
-        "text": "Developed by Bucketplace, Ohouse is the No.1 lifestyle super-app that solves all problems related to the interior space by offering a myriad of services inspired by content including: an e-commerce store, home remodeling, furniture delivery, home tasks (repairing & installation) and moving services. As a leader in the lifestyle industry, Ohouse combines innovative lifestyle services with the best-in-class customer experience to change peoples’ lives for the better.\n\n[Websites]\nhttps://www.bucket",
-        "score": 0,
-        "published_date": "2025-01-01T00:00:00.000Z"
-      },
-      {
-        "title": "OPM on track to eliminate 1000 positions by the end of the year",
-        "url": "https://federalnewsnetwork.com/management/2025/07/opm-on-track-to-eliminate-1000-positions-by-the-end-of-the-year/",
-        "text": "OPM on track to eliminate 1,000 positions by the end of the year | Federal News Network .async-hide { opacity: 0 !important}\n\n--\n\nManagement\n\n# OPM on track to eliminate 1,000 positions by the end of the year\n\nNow at the helm of what will be a much smaller agency workforce, new OPM Director Scott Kupor's priorities include \"finding ways to be more efficient.\"\n\nDrew Friedman [@dfriedmanW",
-        "score": 0,
-        "published_date": "2025-07-21T00:00:00.000Z"
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "Bucket Place - 2026 Company Profile, Team, Funding, Competitors & Financials - Tracxn",
-        "url": "http://tracxn.com/d/companies/bucketplace/__NVxw3snyK4HI4j606weqshd8QKC2kHHoQUU52gJGoHs",
-        "text": "Bucket Place - 2026 Company Profile, Team, Funding, Competitors & Financials - Tracxn\n\nYour browser was unable to load all of Tracxn resources. They may have been blocked by your firewall, proxy or browser configuration. Press Ctrl+F5 or Ctrl+Shift+R to have your browser try again and if that doesn't work, click here to retry or mail us at hi@tracxn.com\n\nInternal Server Error\n\n[](https://www.bucketplace.co",
-        "score": 0,
-        "published_date": "2022-09-30T00:00:00.000Z"
-      },
-      {
-        "title": "[PDF] Mapping AI's Rate of Change - Morgan Stanley",
-        "url": "https://www.morganstanley.com/content/dam/msdotcom/en/assets/pdfs/Research_AI-Rate-of-Change.pdf",
-        "text": "M Global Insight\nThematics\nMapping AI's Rate of Change: \nWhere the Rubber Meets the Road\nIn our 5th global AI stock mapping across 3,600 stocks, the market’s focus is shifting from \n“AI exposure” to proof of ROI — and the fundamental gap between winners and losers is \nwidening. \nMorgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of \ninterest that could affect the objectivity of M",
-        "score": 0,
-        "published_date": "2026-02-11T00:00:00.000Z"
-      },
-      {
-        "title": "AI Business Strategy for 2026: Focus on Realistic Applications",
-        "url": "https://www.linkedin.com/posts/gabrielaramsey_match-your-ai-strategy-to-your-organization-activity-7424851745987641344-O1Tu",
-        "text": "AI Business Strategy for 2026: Focus on Realistic Applications | Gabby Ramsey posted on the topic | LinkedIn\n\nAgree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and [Cookie Policy](https://www.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-",
-        "score": 0,
-        "published_date": "2026-02-04T00:00:00.000Z"
-      },
-      {
-        "title": "Where to Invest in AI: Robotaxis, Health Care, Copper - Bloomberg",
-        "url": "https://www.bloomberg.com/news/features/2025-12-12/where-to-invest-in-ai-robotaxis-health-care-copper",
-        "text": "Where to Invest in AI: Robotaxis, Health Care, Copper - Bloomberg\n\nIllustration: Raven Jiang for Bloomberg\n\nWealth\n\nInvesting\n\nBy Suzanne Woolley\n\nDecember 12, 2025 at 12:00 PM UTC\n\nSave\n\nWith artificial intelligence evolving at warp speed, betting on its future can feel both exciting and perilous.\n\nAI’s impact on portfolios, the economy and everyday lives is getting bigger by the ",
-        "score": 0,
-        "published_date": "2025-12-12T00:00:00.000Z"
-      },
-      {
-        "title": "버킷플레이스 2026년 기업정보 - 주요사업·최신연봉 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/CompSummary/A0418",
-        "text": "버킷플레이스 2026년 기업정보 - 주요사업·최신연봉 | 캐치\n\n메인메뉴 바로가기 본문 바로가기\n\n---\n\nCATCH\n\n전체메뉴 보기\n\n채용공고\n\n- 캘린더\n- AI매칭 공고\n- MY카테고리\n- 전체 공고\n\n기업정보\n\n- 분석리포트\n- [기업리뷰](https:",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "Ohouse Spark - 오늘의집의 통합 Spark 환경 - 버킷플레이스",
-        "url": "https://www.bucketplace.com/post/2025-06-13-ohouse-spark-%EC%98%A4%EB%8A%98%EC%9D%98%EC%A7%91%EC%9D%98-%ED%86%B5%ED%95%A9-spark-%ED%99%98%EA%B2%BD/",
-        "text": "Ohouse Spark - 오늘의집의 통합 Spark 환경 - 오늘의집 블로그\n\nTech\n\nOhouse Spark - 오늘의집의 통합 Spark 환경\n\n확장성 높은 Spark 실행 환경을 위한 통합 이미지 플랫폼 구축기\n\n2025년 6월 13일Kyeom, QQ\n\n## Introduction\n\n지난 글 [[오늘의집 Spark on Kubernetes 도입 및 개선 여정]]에서는 기존 EMR 환경에서 Spark On Kubernetes 기반 환경으로 전환한 여정을 소개해 드렸습니다. 이 전환을 통해 오늘의집 데이터 플랫폼은 Kubernetes 환경 위에서 다양한 Apache Spark a",
-        "score": 0,
-        "published_date": "2025-06-12T00:00:00.000Z"
-      },
-      {
-        "title": "기술스택",
-        "url": "https://bucketplace-eng.oopy.io/techstack",
-        "text": "기술스택\n\nHome\n\nTeam\n\nCareer\n\nTech blog\n\n팀별 소개\n\n기술 스택\n\n팀 문화\n\n채용 포지션\n\n채용 프로세스\n\n자주 묻는 질문\n\nShare\n\nHome\n\nTeam\n\n[팀별 소개](h",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "오늘의집 Engineering팀 (개발팀)",
-        "url": "https://bucketplace-eng.oopy.io/",
-        "text": "오늘의집 Engineering팀 (개발팀)\n\nHome\n\nTeam\n\nCareer\n\nTech blog\n\n팀별 소개\n\n기술 스택\n\n팀 문화\n\n채용 포지션\n\n채용 프로세스\n\n자주 묻는 질문\n\n[Duplicate](https://notion.so/db54e590838546f",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "40+ Data Engineering Projects with Source Code [Solved] - ProjectPro",
-        "url": "https://www.projectpro.io/article/real-world-data-engineering-projects-/472",
-        "text": "40+ Data Engineering Projects with Source Code [Solved] @layer utilities { .content-auto { content-visibility: auto; } } --\n\n@layer utilities { .content-auto { content-visibility: auto; } } -- --\n\n# 40+ Data Engineering Projects with Source Code [Solved]\n\n40+ solved data engineering projects with source code - portfolio-ready pipelines using Kafka, Spark, Airflow, dbt, AWS & Azure. Build real-world ETL projects.\n\n[Get Solved Code + Solutions](https://www.projectpro.io/project/project-demo?source",
-        "score": 0,
-        "published_date": "2026-01-23T00:00:00.000Z"
-      },
-      {
-        "title": "Full Stack Projects to Upskill & Build a Job-Ready Resume - Scaler",
-        "url": "https://www.scaler.com/blog/full-stack-projects-to-upskill-build-a-job-ready-resume/",
-        "text": "Full Stack Projects to Upskill & Build a Job-Ready Resume - Scaler\n\nfull-stack-development\n\n# Full Stack Projects to Upskill & Build a Job-Ready Resume\n\nLast updated: February 19, 2026 1:19 pm\n\nWritten by: Team Scaler\n\nShare\n\n21 Min Read\n\nBreaking into full stack development in 2026 is less about collecting certificates and more about demonstrating that you can ship real, end-to-end",
-        "score": 0,
-        "published_date": "2026-02-19T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "US federal jury convicts Assad-era Syrian official of torture - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTFqc0ZpbmpUaVFVbllRSzhJYW9FUjRVcEVNdTFTN0ZCRnlBTjRnTEhEN0IzUGwyNl9KTmhrNFZ0OVpDd1ZEaFNENHdQTkJmNlcyV0VEUjF0WHBXa3pQQ21Hd25tSUVILUlmdkZMOWoyTl9jVHF0bDc0WXhudWZPVEpNT0JlN0lPVVVuWlVUTEo2ZFJybkJnVDVFWndaUUltQlE?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 02:07:02 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Five US Air Force refueling planes hit in Iranian strike on Saudi Arabia, WSJ reports - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNay1OYk1XSDBJU0RfNGZMLXRMWUN2VE5KcHhpSDJNV1NYVzB1NVRkQTMxcnEtWnJWYkpkNlN5S0Jac0E3cURTOTdXdDh2dFRqY2tLV0l1NHhDUUE0RkhYblNCWE01dEdSQ0Rmd0hycnBTcDk3NGJJR0lWUmVtZTRiSm5jU0E1MWFjMV8wTnZzY3RMR05uMTl5d2VyeEF6YUd6Y3o0c0YwOUJtbmh6b1c0bHpfaE9wd0w0SkdKSQ?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 23:25:45 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Spain v Argentina 'Finalissima' match in Qatar cancelled amid conflict - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeFVJd0xDaXVKMHlTbkI3ZTlpeGlEWThFX2lDLWlDVnJsb2hQR2pwZXExR2U0V2JXRGh4YjNpWnlfdW5hRFpQeFpsTzgwSUthLWdWN3JicWxYNi1zVGxTc1VyQzVxSUFpRE44c2o2YTVLem9rUFBhVzBSdVk2bjlMc2tQWEsweV9mRlV0cFFRblEwNlRRSHYxM1lTeWhWNHJCYzJpRWxIcVF3Qm8?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 13:12:33 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Meet the Rich Retirees Moving Onto Cruise Ships Full Time - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaGs4LTVleXdubDdBZXBCWlN2Q2tvbUpXMmVtek1xXzlBbXljS0NHYTRNVDFZdkhyaEZGTHNFOE81TTVqeXNyWUxBeTV6RWljU1VGdWQyaFloTDBMOGlHQ0JKVmdROVRVUUtSQTNvVGU4eWpQWWNyUVlTd29OUnM1RnBNTEdsczVrcUpJcVAwaWd1ZHlBVGQzZEFucC15T0prdXRMYU9UV0ZLX1EyQ3FiNG5YX3JNZw?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 09:00:04 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "The Secrets to Retirement Success - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS0FRUjZTNG5aOGZIaTNiY2lHRnBKa0tGM1YzN2V6X1VmNlNKM0ZJMWp6MERYOXFjTVBzdEU4eVhhNlhRSnFqNVZLUjVwN29ZeG5keWI2ZzVydWFaLVZ1bXF4WHRnckNUdTlTWmlMbTRpcHJBY2w0bUotc1M3cFg4REVMTTZpQQ?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 10:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Bloomberg - Business News, Stock Markets, Finance, Breaking & World News - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9qYU5Fb2FhR3RmNHZUdG1PZFRYOVdvalpTcXd4VjBBME5WRmxTaGphdzFWb2hGTGJVeUU1UVpLOA?oc=5",
-        "pub_date": "Sat, 18 Jul 2009 21:47:35 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Former Apple engineer raises $5M for a note-taking pendant that only records your voice - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWUExbGg2eEFERG1LanZIUGY4bEQ5b1ViWkdXSmNFdS1rUFVOc1pQSGVZVlpOLUJDNVdzOHVhU0JKMzhIdTJ4QnNFWXFhTmNTbndrbHo1dzlKUzh6bGlVWC1CR1FIakcxU2tMbjY1bkF0ejE3SlFhV1I2YUZ2aGw1OXZNdXRSYi1xbWRZdjV3cUdtM25kbnB3Sk5rcXh4RTR3bTVjUEQzRTV4dVpjbnNhLWJVLWNxQUdNaFhtd0JR?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "A Sprint contractor left thousands of US cell phone bills on the internet by mistake - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVJ1RTl0RGxLYzJ1TU04cncySUx6alNzNllMQ01Md1luZFVQVmFBREpMZC0zNWNCeFk2TnpxUUZqc2lPOVVlMld5T1lKdVZWRktyZ1AyNmxLR0pkeUR2aXp0TEtDdWZWdDV6N1UyRHdmZ19FSDhJWkoxMDdQYzNObkpmSQ?oc=5",
-        "pub_date": "Wed, 04 Dec 2019 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "The future of diversity and inclusion in tech - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObFZOd25GTnN0RDA2ZHJScmtpSVUwYm9iNVh6SEd5X0xMSFBTTjAzS253RTBRWHZhN1UyV0VidGNQZmpEY2lYNTRCUDlUWFlkZlVBczE4aEpfdWhKaEgxbHZGMFNIeHkyMFJZeFJ1YUxiQ3NhanJ3Q1pnRjlVb09xOWxMMFltWmM?oc=5",
-        "pub_date": "Mon, 17 Jun 2019 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "How Popcorn Took Over the Movies - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPRTdHN0NyTWdiQWZnMVc4REVvRV9CMzBqa1VDaW5ERXJEb3VEOHlJeHZVMnlETXN6V0tUSnFvSXUzNGZPR2hTWHpQNW1NOFEzbGZjUml6T0l3MzBxMXBMc1VuUXhNY3RrWjk3U3owazNfTlltOXB6cnVNUWdmOTQ5T1llbHMwLTF2aGkzX2VCNW9Ca0JXTzBlYzJLRjJETnR3VmIwTHJYVjY4Z01ZaF9OZWVBVEJidzNsY0RMZm9taGpPWHJZVTFseUVPYVBlc21YQXJ2cU5Yd29WMzhOWURlRmt1Z1ByV245VEk4WkNzRG9WSW5YdEF0LXpTVkpNR0pHbmQzVkwzOGN4TFJxX1hIMzIzamtyX2lMUEV4VFVYdFUwZDBfTVFsRUxPVVYxOHUyblFiaVFHMUg2RGQ5VmdVekRkR2N5c2VfUWtsREJRNC1sM0VQNWtmMElSeFhNNXlDSmlUQ2ozRTVndHJVci1wYlpDeHdyUjRlQW10N1o0VlhIZjNqRlJJekhudm5iVUZPd2JXc2d2X3RlczYtbm81V3FMaFFiMHJm?oc=5",
-        "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Is Cuba on the Brink of Collapse? - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMitANBVV95cUxQZm12N1F5UTJLQXhHbDF5Zi1UeEhqREtXNHNHMnlVckpIcWs1YWktbjhHVlAyQ3pvckx1aUx4M1ZSZ1hRVGxSTVllQm8zVmVHb2htX05TY3BWNVY2VHFsLW9GR0FlTDJValpnTkRkUWVhbWY5cUZYdWlyUmNwSGlSMjZfQzZ2dUFSdGdIZUl5M0FYNFhrTkJ4NzJ1YXhJenlkR0VkZlc1R21QQmdGbExWNUl6VVB0cHFBaGFZYjlJMEhna1pjZ0NZVXRzOWdmVXBMN25mZUJMLU96Sm5PMGlsTWlET2RxRW1wb3NFOU9kSVhLTEZDa1lwbGxGMm9mbk5KNWxTckNtcWdURjNENld4aUl3R29WSzdnTUVFTXF0eFVVTG5fbXFPaUlJbUY5RF9nS29LVG56NGRyUVp0U3BOeXpGVnNsNnV6RU53Y2dJeG9TcXJsSXhUcVN0NEhiZkdVTE9UV2FWZEFDNk9RNExiOU9pQ3ltWFdaUmlVaThjM29zWGhuZjE1QWlsdE45VjJzaGYxV3ZMbi1oc3lESzJkQlFaT1VDcVNoak1zQzdFc0t1M0lL?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 20:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "We Tested Cold-Brew Coffee Makers—Here Are Our 3 Favorites - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxQOTl6SFBydjBudnJRaVJ0RE1mVzEzeU5vRTdubmdMZ3pLYVJxbHpscEdzZ0tnZmZ6OU5MbkJFcXVTbXEwcGFLdzY2N1lxcTlJNTJ3am92blRZV1BKVEhIZTluX0JPNXBlbkNiWlNzZFFmcmdSLXBZelBaT0RJNWl5N2VDdlljUk9mbW1reGxnTHJ5TloyUWtReWxocGpIeDFZNFFzWm5lTTJOZXdSZE10ci10OVc2MEFEaGdiM2ZZbi1UVlNyZE5WU0dJR0tORFNFcXBTUHNBQ0N0NVdPMEdzUDkyVU9fVGVCTWhGZFg0NmY1WnhFV1I0NmswbjRLalByN283SnU0dktzOVNsdVF3Mzg1Sko2QVZrTEZNMk1rdFVLU0VZM2kwaWc4cjhwb09RV3JKbkNfU0txczFNZFdaMDNnb1BSdjVaUm5QRjlwQ3JQT3J6Rkl3Zmx4cFZIa1NMMG9nSGVMZTM5dDVaQ0pvMUdhRVdMcU9mcmlBZlpaVDVMZUEzZHpoc25B?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "For accountants, the ‘squeezed middle’ is a sweet spot - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc3V0Q2IxTVF6MFhIT0lHSWRSWDByV2thMllXZm1PQ19LNDZHOVozWUNnQWxreDU0bC1nVkx3bmFobDRrMkc4VVN0UFJBeEVIVXU2RVo4VVBGQVlkSUpGSkFETjhjODY4bVBaR1o2Uk1OcjBvNlM0TVZVdHdPWUl2Q1N0QU0?oc=5",
-        "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Bin the bucket list in 2026 - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TN2tlS3Azb2lER1lpNUdWbHpMY3RDdlNPWUlPdHhTZGNKLUZNc1ZMWFZtaXJlZVlHNHFRZWdtUEdXT1MxY0lIckVaRGlrSm5yWElnYS12dUhQa1dqdDl1NjN5LWg0ejVNOG80YzlOajg?oc=5",
-        "pub_date": "Sat, 03 Jan 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "St James's Place PLC - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtcnpsYnFtelp5NzlOUjBMY0VqTDZKX3cwMUx3MEwyUzNLa2tCTTNTUlJDaG9pQ3BFZnNSX3dGbEEwS3hLdXREZTVPSUFjNmRQVEVtdjdWM0lEUmhLb3REenpCUDZQQnJOeTBoUWczWQ?oc=5",
-        "pub_date": "Fri, 08 Jun 2018 12:02:21 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "China's EV battery makers widen lead to over 70% global share - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUF9sU0hDR3F3SzItVkxOSngwMGVzLUs0TVBMN1pRQ29IN1ZGSG1zV05WMFhRM09LT1lBSU9oUGhCd0VJd1RmNG0zd2VwY1I4N0ItUHN4N1NVV19kY3kweURKMC1acWl3MHhxQ00wUVJWenp4alN4SmkyWVNfS2ZydTVPMldad0JQZ2syeWI4YjV2R0swU3M3VzFQOVRRNTREWThLR05XSkhrbGczVGkzX2hRRDloQWkzQmNvbzR3TTQ?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 20:22:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Singapore's costly car culture roars on as Porsche, BYD pile in - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONm5Jc3ZxRWVpZFdfQUNtcTA1TE9qNjEtUG5aejQ4VFJuenNsZWM1SG9pdlc4UTA4Tk84U0xFVGdHM1lxSzJIbWl3ZkxrLTZWdTV5c3FQWkNfNmU2ejhnc0ZOaFRja2Nobl9GUGFSWHd5V0U3ZHlRek8zV2QxWUtHVTBZRDV5bjBIVFllRHk5VjJIZHhrUHFpdHNWMFRtM2cyaU14RV9fRnd4UnZ4?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 21:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Israel launches new wave of attacks on Iran as crisis deepens - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb3pyRUVNSmREcXpWR0VyNHVMSGh2aEtnY0tQNU5sbXNmZmJIT05kdVZHWU40M0RhVHN6bWdqblFTYUlwZ2hEYjZvekpmQS12VGVOay1kSGhwSk5IaGdFd0dxRHZJZzdWOGY3MkJzRlhNdXlsVkN2SHh5T1lEbV9nUXFPVFhJeUE5S01nbVBkWWVpZW5TbmVDMGpyMkRSZnVQM3JtRVkyb3lqUDBiaHc?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 03:19:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "What (and Who) Mustafa Suleyman is Working With at Microsoft; What Perplexity’s Google Dependence Tells Us About the AI Race - The Information",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWXJURGxCVDhfUUtSUDQzTDk2dXRkYmwtQ0h4SzJTdXJ5U0pQVWtvanY0cHNCZThMdDhER0ZjQ1Q3QURfOUZaWHViaElXVnVpc0lVTC1reklSY1luaEgxdU1fZWFobF80dlFfcVZwZ005MFBsWklrS3R1Z2czaWV3TzQ1RWtlcXlYZmt2NWhpMXdKQmZTd3BiTUQ3UHlMU0RrZFBlSjdVQmlLVkZEZDlQQXhuQ2g0YVFIRWtpeVNpS09Wbkx0b3JzZm9VaV9iSXZfdEhvWnZRLXZyMU9HS29BVjJKdzlVTGE0YmFFZFFQY0Z4MHlxbXVHWGRCdDQ2NTYtLUN3?oc=5",
-        "pub_date": "Wed, 20 Mar 2024 07:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "General Atlantic and Mubadala Send Positive Signals About Market - The Information",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUW9Vd21KRzQ1RGVnLXJmQTg1Z2xPWHJpZGxaaHZBNEJvemtPanZwci1xREZrekdZVFB5UzFJcU9PZklTRDFCejlqYlE0TEJKRnhDN3I4Y0xpdno1WDNMbk5OLXNna29zVWpkT2owV3RGSDhMT25Ea2FlN2JCQXBsbDVjYy1DNmstWEliZk5ITHlOSzJpNkVRbXJENU5QOXhGSjJTbjcwWnQ3ckExVlI0OEUtYVFhelFYTDFSVg?oc=5",
-        "pub_date": "Tue, 09 Apr 2024 07:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "Pete Buttigieg Has Become America’s Electric Car Czar. So Why Has He Never Gotten Together With Elon Musk? - The Information",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOUV1bnQ5VmV1VmdyQlVkemloZ0lVS3FDVmFHQUdQbHlGbk5oLWprQ0lCYTAxOTNiazJBNVNCMVpvLS12REJZR2FWc2xLTEJINWpnMmlpb0JQR3VGbnQ4VUw2al82VEZYR2FwX1RqNXVKMTFnVmVrX0FOTS10NHlpdGNzak1TOVYtQUlSSWlacGpCZzNEVl9PNENpR1puLUhvOW9HS1V4MWlRVkFfRW9YM1ozX1d1WGczcm1xVGxsempOcUlD?oc=5",
-        "pub_date": "Fri, 13 May 2022 07:00:00 GMT",
-        "source": "The Information"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "산업 - 매거진한경",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56aU5lMTEwLVlqS1IySG5zb3RmbG5CWDYyNXQzd0t0Ni1oRHFIZ2JsU183RDRrakxlWDJlaTlzOGtTaDNUVld4bDdZYnVodE9rOW5iS3JDXzdNNTl1YXB6ZTBCakUzQjVjdkZSWllOWmJ3aVRsQzJMVg?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 12:39:41 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"'블프' 할인 통했다\"…오늘의집, 이틀간 누적 거래액 200억 달성 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wUXB5UGNRQTdVekxUN2g3UDJOdGhPZ2o0eXdTMWp5eG1MdUZFN09TUkVacGZFTVRIeU1WR1VVVEhwX1ltWGJYRlhRVzNWVS14aEZqNklXQmh0d9IBVEFVX3lxTFBMb2ZiX0laeEhuZ2FzdkMteXJjUWxwcVlLcWFfbDVFUHJybmJ4MFFvc2xqRzZGVk56X0cxcWFlLXV5ZG1GUU05N0VBZHYtTlV2djQtWA?oc=5",
-        "pub_date": "Thu, 20 Nov 2025 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "오늘의집, 플랫폼에 녹여낸 ‘연결 경험’ - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ldHRxR0JZUE9laU9JOXMtSVFYNEFGNkRUS1FQdHNZVkNwQWZkb1VZalQ4dGxWYXFRejFZY0hoTU9Qd0xoMDB6dk1sbEJGdmtUb2dJYWNGbTBaUdIBVEFVX3lxTFBsejlWWlRKMEJnM0NrYnFybE1pNzZIbW5FVFhHLU1KWnp6dnR2cDNuY0Zod0pNUXhrbUREQ3Mtd3gzY2VXcWxEX0dHS29QVG94aVd6LQ?oc=5",
-        "pub_date": "Fri, 03 Dec 2021 08:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "“K-스포츠 관광의 핵심은 ‘팬덤’…야구장 응원은 킬러 콘텐츠” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNl9lMkxPTTlMeU5wNVFTbl85UThXdTctOEptbk4xam9uM1EyaFhKekNIb2diREQwREF6ZE1xWHY5WG5qaDFQOE5FNXpHaUNVSjNKa2QwT0FYQklJU044cUZGSC1tczFpTnBGRnVVZTUtYnhZdV9pMXBlUjZwR0tTUmt2M23SAZgBQVVfeXFMUE5yaG0xaS1tUkdNczNOMFpDVnlnLWYzSmdKNVZQVjBWTGprZzJXRnA1S1dKazVDblJCU3FSQkVpWm9WLUxQUHQ0dUFJbGdDOExwRURwRlc3WWVwNUV3bUVPSXVKQ3pZRXJoVUdES1NqeUE5UUdReW56V1AtaXRJa1A1aW5KU1FmYXVuOURUN2h6U3Fubi02OTA?oc=5",
-        "pub_date": "Sat, 14 Mar 2026 21:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "'대세' 고윤정 \"예뻐서 좋은 점? 인생 편해\"...박명수·홍진경에 날린 '팩폭' ('마니또')[순간포착] - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR0QxNEJLdEFMNGNPMC1qLVNoWXlaVVpoeDNXS2ZHZlZEUGFCbWIxZjdQWFEtOHBCU1NmMTZvemZPT25zamNrRjdWbjVYMTE2Rk1KUURIVXhVRnlJdFctZTFQclc3X01SQzFtOUF5d1Q4NFdsTzBQMVV2eTdoUjZZckxOR3Byak8tMEhsYVBFMzhEd2PSAacBQVVfeXFMUG92VkpBdjVIV0RTRFhOZDliTHU1Z1Q4WWJhUGc3YTJfeHZqQmp5Qk8yV0xYZVF5QXJMdkVJc0VENzV0U08yYVdxeGd2MjY3Yk5zMTJwWW1UTHQxQnVmWnd3bWVzMV9RZVlVWUVNY1l3QmZIUFFGSzI0Y1ZaMERxc2xCSXdnNHY0a1BsVXllZjVIbENrTk5XYW9fLVVxUkZJYXBxWGpOdDA?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 21:01:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "버킷플레이스 “오늘의집, 9월부터 입점사업자에 정산금 매일 지급” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQm12anRHQ1EzSC1Wb0pBRTJiaGdPRGdiR3FWajNHaVllUHFJSFpSeC1JVklCR1N4MzhpUXRIR1pLODRXWnZNNHQxZnN0c0poOXFpaE5idXRoMDR2VlZkbkp4Sk9nRzNOQ2E1MW00SU5lMk9tNEh6b0NJNGp4SHZQVFNuLUo3WXR3SWfSAZ4BQVVfeXFMT1JmLWc2QTZnWWZBVmVjTHBDblJ6dXBPeDNLV1dmTEJrN09LRFhBYVpIMi1RMW10TzNKcllUbUVlaWhpdjF5LUVPbUZFWjYxUHB4dTZoTm1CWDB1bmRaX2lOem9WOEtiU2FVT0tkTXdfMnZXeWY4NXlXNF9zbzRFbXBXYVBDdGxwdjBNQ182cWpqelFJY25CdXZueDJIU2c?oc=5",
-        "pub_date": "Wed, 28 Aug 2024 07:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[카드뉴스] 이란국경, 왜 위험해졌을까 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11M3ZpV3JZSDJ1RzRFeWFoaXV0M0VsUkN4ekdXUk82YWZDemNSQldmeGk0T2ZBTDJWMWtrYW9oZnI2M3h5RmpUZDU2dUVpZWM1b2hIMVVB?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 12:00:40 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "오늘의집, 지난해 영업익 5.7억원…창사 첫 연간 흑자 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ycTN4U01oVjZodVZTWmlHb3BJb2dtUERwN1NFU1FTYUZCVkJHLVZUWUZUeElFV21pbTBBTXlua1JxajcySGVMSDdEcFh5bDh0NmZqb3RB?oc=5",
-        "pub_date": "Mon, 31 Mar 2025 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "오늘의집, 개발자 최저 연봉 '5천만원' 보장 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DUkRlcTF4bTZOU2t1M29CRnFUZ1pHeC1ITnFNUHc3T2VCc0NTSmhiZk5weTAteG5rWUxnb1ZHTThhMGplTWdCOEtFVk56Ry1QYmhrNjBn?oc=5",
-        "pub_date": "Mon, 02 Aug 2021 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "현장 경영 나선 홍범식 LGU+ 대표 \"안전 타협할 수 없는 가치\" - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5STlRGcm1ITDBMVXdCN3lnUmlqN1ppUTVObDkxR1JBWWE3aVRmVUpYTFc4d1dWeC1wSTdvNGRhVnJaNDNBSzROdjNPeWk5anVrVlVGdFRtOUdnNmozZm1PLXlXSm9vN19Q?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 00:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "﻿[안희철의 M&A 나침반] 신주인수 투자계약상 상환권의 성격과 법적 쟁점 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZdGNzWnJiQWRhSnh0akh2ZUNNdFUtX0RuODJUQW95TWs4R1pZU1l2T1RNcDMwVXhHZ3dUNUVPcDJFX2NielJFMGVUblE4THpYTi11QTJWTjZzM1F0OE9GazBuNFVseTJa0gFsQVVfeXFMT2EzY3BNdF9UQkNoQl9FWjRFRlZxemNUTzlZRXBVZTRHQm96T2dpUy03U3NKSTJrQm10eXc2Q2Z3blZtLTJaU0xkZjhkRUNqX2RvLTlPdWpHdnk4UXpPQTB3anp5OFUtT01wemRS?oc=5",
-        "pub_date": "Mon, 10 Nov 2025 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "미래에셋벤처투자, '역대 최대 규모' 투자 회수…영업이익은 감소 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13TXliWGwybG1IS3BMWjVHdjJRbUNrY1dHcmt3enl3REJ2cU1PWmlHVEN0ckdsLUQ4dFVZZDd5c3dsWEw4YmhMZjYxNVY1dlNCd0xGRDUtVVpiLWIwTWl5TnRDYzJnOXM00gFsQVVfeXFMTWx1dEFQVEhXQTNQZGVnNXB1TlYyc1pSTFpqNlAxV2s5LWxaUV84clNCMTNGZ09ENU1oRUtvaE51VnEtNHFHMzN4QUxfZEtNVGZEX0VUbkFhYi1sR1NzYmxDMk95RUdEMXc3MVZV?oc=5",
-        "pub_date": "Tue, 18 Mar 2025 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[커머스BN] 물류 없이 잘 나가던 오늘의집이 물류를 품는 이유 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kazlmaW1uWHhnVk84VWJtYVlfU0g4ZVQ2TEI3ZUVPRklVT09xVmtJZUF3dkhQdnRvYlY1eEJHWUtmY3V3VlNzRVdMLVh1bXM?oc=5",
-        "pub_date": "Wed, 26 May 2021 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "오늘의집, 창사이래 첫 연간 영업이익 흑자 달성 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BQWRmS1RWVXkzYkY1d2I1WXdXd3dEdExCNFpvV21kaURnQ1h4S1pMN1lPbVBsVXRiOVAzZGpJbjZJbzBwM2FFTmUxNmh1dG9xbF9ldG4yNHlrdw?oc=5",
-        "pub_date": "Mon, 31 Mar 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "2000배 성장한 오늘의집 커머스 비결은 ‘정체성’ - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1oUmJiOHEtWFdxY19wNXlGcEhHckJqMUVDVlViUHh4OTRRa3VXNzZhZFVzT3p4UXVmTGZ3VnVfWlA1SjZCWWJINTQwMlUtdWc?oc=5",
-        "pub_date": "Fri, 02 Feb 2024 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 레이",
+      "company_name_eng": "Ray Co., Ltd.",
+      "stock_name": "레이",
+      "ceo": "이상철",
+      "address": "경기도 성남시 분당구 판교역로 221 (삼평동 672) 투썬월드빌딩 12층",
+      "industry_code": "27111",
+      "established": "20041006",
+      "homepage": "www.raymedical.co.kr/",
+      "ir_url": "",
+      "stock_code": "228670",
+      "corp_class": "K",
+      "employees": [
+        {
+          "position": "-",
+          "gender": "남",
+          "headcount": "136",
+          "contract_workers": "-",
+          "total": "136",
+          "avg_tenure_year": "5.89",
+          "total_salary": "62,550,000",
+          "avg_salary": ""
+        },
+        {
+          "position": "-",
+          "gender": "여",
+          "headcount": "32",
+          "contract_workers": "-",
+          "total": "32",
+          "avg_tenure_year": "4.87",
+          "total_salary": "51,921,000",
+          "avg_salary": ""
+        }
+      ],
+      "brave_web_results": [
+        {
+          "title": "(주)버킷플레이스 2026년 상반기 채용 | 기업리뷰 345건, 연봉정보 202건, 면접후기 441건, 복지정보 0건, 채용공고 22건",
+          "url": "https://www.jobplanet.co.kr/companies/274319/landing/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+          "description": "Tech 기업 버킷플레이스의 개발 문화 · 오늘의집 퍼포먼스 마케팅의 비밀 · 퀀텀점프하는 개발자 3인에게 듣는 오늘의집 · 시니어 개발자의 이유있는 오늘의집 선택 · 구글, 아마존을 떠나 오늘의집에 합류한 이유 · 네카라쿠 출신 오늘의집 테크 리드와의 만남 · 12 · 채용 공고 ·"
+        },
+        {
+          "title": "블라인드 | 버킷플레이스 기업정보",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/",
+          "description": "채용 고민과 브랜딩 전략, 모두 블라인드 기업서비스와 함께면 간단해집니다. 지금 바로 시작하세요!"
+        },
+        {
+          "title": "오늘의집 채용",
+          "url": "https://www.bucketplace.com/careers/",
+          "description": "사업 개발/전략Business Development Manager (Life Service)CEO Staff Assistant (인턴)"
+        },
+        {
+          "title": "2025년 버킷플레이스 채용 기업정보 | 인크루트",
+          "url": "https://www.incruit.com/company/1682190468/",
+          "description": "(주)버킷플레이스는 인터넷·포털·컨텐츠·게임 업종의 중소기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+        },
+        {
+          "title": "㈜버킷플레이스 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/16154394",
+          "description": "㈜버킷플레이스의 최신 소식 및 기업문화, 근무환경, 고용현황, 직원수 등의 기업정보를 확인해보세요."
+        },
+        {
+          "title": "버킷플레이스(오늘의집) 기업정보 - 채용 4건, 평균연봉 6,032만원, 인원 734명, 업력 12년, 서울 서초구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/179",
+          "description": "버킷플레이스(오늘의집) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+        },
+        {
+          "title": "(주)버킷플레이스 2025년 하반기 채용 | 377건 면접후기 3.3 면접난이도 | 잡플래닛",
+          "url": "https://www.jobplanet.co.kr/companies/274319/interviews/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+          "description": "주 4.5일 꿀근무 만족스런 문화 능력있는 동료 탄탄한 비즈니스 복지 끝판왕 직원 존중은 기본 최고의 연봉·보상 분위기 좋아요 수평적인 문화 요즘 대세 워라밸 인지도하면 여기 인생 최고 동료"
+        },
+        {
+          "title": "㈜버킷플레이스 진행 중인 채용정보 총 6건 - 채용 히스토리 통계 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/16154394/recruit",
+          "description": "㈜버킷플레이스 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+        },
+        {
+          "title": "버킷플레이스 2025년 기업정보 - 주요사업·최신연봉 | 캐치",
+          "url": "https://www.catch.co.kr/Comp/CompSummary/A0418",
+          "description": "기업의 모든 정보를 한 눈에. 사원수, 평균연봉, 이직률, 매출액, 주요제품 및 사업구성까지"
+        },
+        {
+          "title": "버킷플레이스(누구나 예쁜 집에 살 수 있어, 오늘의집) 기업, 채용, 투자, 뉴스",
+          "url": "https://www.rocketpunch.com/companies/bucketplace",
+          "description": "로켓펀치에 가입하고 버킷플레이스를 소개받을 수 있는 지인을 찾아보세요."
+        }
+      ],
+      "google_news": [
+        {
+          "title": "\"성장엔진 더 키운다\"…스타트업들이 택한 '리브랜딩' 전략 보니 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fa254MVlIMkhnR1M5WG9VNEozTF81U3RfbC10ck0wby1CYlpyVFMwTU1LODYtOWtiX1hBRHU4NkFXNGJDc3RFZkdPb1lMbzRyOGMydG1UUGdSMkV2d3NTdWZxekN1dm5lbHc?oc=5",
+          "pub_date": "Mon, 20 Oct 2025 07:00:00 GMT",
+          "source": "mt.co.kr"
+        },
+        {
+          "title": "노션·캔바·피그마의 한국 전략에서 발견되는 공통점 - 디지털 인사이트 DIGITAL iNSIGHT",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11bnAtNmtWQTVQcm9RRm5SX3gwQk5SaXhRN3UzcTBndUZJblBqZXQ3eEJmZWF0S1VsTmFhNC1FQTVQbzZmUnVWZm42OGVtaG5xLXpHQnlxekE?oc=5",
+          "pub_date": "Fri, 14 Nov 2025 08:00:00 GMT",
+          "source": "디지털 인사이트 DIGITAL iNSIGHT"
+        },
+        {
+          "title": "슈퍼브에이아이, 신용보증기금 ‘혁신아이콘 14기’ 선정… “비전 AI 넘어 피지컬 AI로 확장” - 스타트업엔",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42NlQySlNXckhxWnAySUNVcGVqSmhYTjJPaVZrVDVYLXppRTY1eTcwNzE0a2xwNWFiZlRCRWNua21vdXh0VERfeXBhX1plMjZxanFWdnVXS05xOXJDci1DSlZ4SEZSV08z0gFsQVVfeXFMUGZ1WkJ3U19JQXJtUTA5RzNRMXF5YTlwbUJuVUNhRTF4YUtKNXYtVXZRWkZyX3hFcDVONTd5T1Jxc1pCeE51UXJVVkd5RE9ZT3FIV0NHck1Wbkszb1pQaUlXa045NUdYaXRfOUo3?oc=5",
+          "pub_date": "Mon, 10 Nov 2025 08:00:00 GMT",
+          "source": "스타트업엔"
+        },
+        {
+          "title": "2023 EY 최우수 기업가상 라이징 스타(Rising Star) 이승재 버킷플레이스 대표 | EY - Korea - EY",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ2lxUThicTUydWRVS29pU1MwZXlTUTA3djRfLVlXMi1UOUo0TENlY0ZERm8tRnQxdDh4ZUpRcUFSWkp1V1dhYWlTYldTYnAwZ3BaZEpveDQ4WkRJd1FnOHpZRjA2M195cVB3OWNjOUY5NnFUb0JBZnBCdkFvUllzMlBnLXhEaWh6?oc=5",
+          "pub_date": "Thu, 21 Nov 2024 16:06:26 GMT",
+          "source": "EY"
+        },
+        {
+          "title": "오늘의집 모르는 MZ 없지?…일하기엔 어떨까 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 - 잡플래닛",
+          "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPYi1GUkZ2ODh6dXA1RTdOc2NRbldETGhHclJ5YmVpMVpJUXRnOWNCV1prSE9ZRFp5Z0M0SzZpTlI4YUMzNkN0OXNCdTFKeko0ZHRESW1TMjFxYlVzTzRXT1NQaUpfejdleTFYWEZXeE9oS3Y3Wm1uZXhKdGwwTjFBOUxYYmduZUM2ZFhyaEJ1UXAxcmNOT1JiUUZjZGpCRGM1ZkxzWXFvdS04SGd3UGt1Z2NTNDJhYjRWRTl0cmNJbXdsd0lfdC1oOTdmYURhTGp5OVR4ZEpCenFRX0cwNUpYNXVzNTA0d1RsOWpZZ093RGlHUDl6MmFyU1hsbkRjTjU0d2wxN1hUWW9USEdXWERyYVdSaEhXdU5abDlPVW16bXpjTkZL?oc=5",
+          "pub_date": "Wed, 11 May 2022 07:00:00 GMT",
+          "source": "잡플래닛"
+        },
+        {
+          "title": "이택경 대표 \"AI로 창업 문턱 낮아져…3명만 있어도 유니콘 만든다\" - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80aEFrZlRxcHBBZURuYktxcGN4b3NHaHFNb2lsc1FvSm9jd3ZtYmIzZGlCbzU3cUNiTlFBbllzU2dHU3NvWDBBaEtka0g3WGExcWxnR1FoRTBoZ9IBVEFVX3lxTE51VFlqVDVRb0pXRXlvTHUxVW5mcEpjcmVKXzMyZ0hTdVF1NmhFTFlEellhUTZtd3hIaVFvYkNOcHYxWUdoVGQxcXVORThMZkttNzE2eA?oc=5",
+          "pub_date": "Fri, 15 Nov 2024 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "원티드랩, 채용연계형 해커톤 개최...1500명 참가 - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5QkZpVDdBS3I4WGhvRW0tMmFnUlJnUG1kNzhrYTFmQVg1azQ5VWxadjJta2FWejFWLWZPdEVnR1R5dTgzUE04cS1ub05HdEZTZHdGVUpHOUh3YklrZ3I4Sk5GNzlDNFVpWnc?oc=5",
+          "pub_date": "Thu, 16 Dec 2021 08:00:00 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "원티드랩, '여름 인턴십 전용관' 운영 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WTEJNUkltUEtDZVg4M2hsZkNSMUt0NGQyN182WG5UTEdfV1BBQnRDaHRpUXZDLUFtWDVBNGNCY1pKRjhjYUlyTjJLdHNRaXE2R283Q3hR?oc=5",
+          "pub_date": "Thu, 03 Aug 2023 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "'몸값 2조' 오늘의집, 日 이어 美 공략...앱 출시, 현지 인력 채용 - 테크M",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tbm8yQlcwaURkc2k4TndwYk9DakxuNmtnU3lwNElZWW1nN25IaHE1Z1ZQSGdyT18xOUxOamJSS1J5RnZDZkR5NXBwdjN4QS1vWEJaZk8wUjNOMllMMFpTbWJGZUxOd9IBakFVX3lxTE9IU3luUzFzQ2R4eDljdkUtOWozczdMQU9tSGJMWXMtMlo2TEMxMVEzTUdidlBZdTVkMUwxajFMdnZRWWdPaGNJcFBGaEV5dV9FZ2M2R0tGdDdteG04UXVZR2F5ZE1maTc0Umc?oc=5",
+          "pub_date": "Fri, 14 Apr 2023 07:00:00 GMT",
+          "source": "테크M"
+        },
+        {
+          "title": "원티드랩, ‘여름 인턴십 전용관’ 운영 새창으로 읽기 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ISUdUQzhRWEo4Vi10ZG5Vc1lBcm50NzJ1aFloUnYwTUNpWllBZTFBc2pSUHhqWDBoUzl6Qk9yYmdlVFNHS0dXYlh4QTFTQnJ6ZjUzZ2ZjWk9aeHBRNWszQWFCRl94UGRtbXE5a3A4RC1rekU?oc=5",
+          "pub_date": "Wed, 16 Aug 2023 07:00:00 GMT",
+          "source": "디지털투데이"
+        },
+        {
+          "title": "‘The Art of Entrepreneurship’으로 세상을 바꾼 2023 EY 최우수 기업가상 수상자들 | EY - Korea - EY",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSRnlUdzBMUzItekJyOWR0RWZBT1d6NndpQUtmLTluNFhia2s2NVVhdl9GTmdyLU1VWGNzTnlXb3hnb0VBVFZnQ3NfZEhuMkVkQlNTVndMWm41eFFlc1BBUTlYY1JLS2VBQjY2WTBla2pnLU40TWJ6STh3?oc=5",
+          "pub_date": "Fri, 22 Nov 2024 00:27:14 GMT",
+          "source": "EY"
+        },
+        {
+          "title": "月 500만명이 찾는 오늘의집...비결은 '3C'에 있었다 - 테크M",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uaVdHcVF1cFdkNFYwM3hjSXByTzd1S21ZZlMwZWROVzh4QWlNWFQyMGFQQmp4SThxbG9CUXJ6OG9ZRWptVkFYbm8tamt2Y0tEWTgweTBjeEhPR3o0VElCSzZDVXXSAWhBVV95cUxQQzZYTjMyc05pZHRldzJFQ1dSUnY0NlpUdkZFN3NlTnMwSWFoMERfM29sTTcwZ2FMVmd0cmRjMGo3MVRZbVZpaUhNVjd4ZUJBTmtCQU1salp6WVo2Q24yVE5kdXBxQWk3Tg?oc=5",
+          "pub_date": "Tue, 12 Jul 2022 07:00:00 GMT",
+          "source": "테크M"
+        },
+        {
+          "title": "2023 EY 최우수 기업가상 마스터 부문에 방시혁 하이브 의장 선정 | EY - Korea - EY",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0UkZaUjRRMHdjZVhuMzhyalhOVnJ2SmpLVW80Z0h6SlVqWWp0djJuY0R5WmozbXE5RV9zUF9RdlowNE1laFZrUGhWcVh0bmdJTmRkWmR2S1hRcTB5WWY2UVNFTVN0eksxcW1KWVRZZkxHaGhSRmhMSHoxamJpMkE?oc=5",
+          "pub_date": "Wed, 08 Nov 2023 08:00:00 GMT",
+          "source": "EY"
+        },
+        {
+          "title": "오늘의집, 시공사업 직진출...이해충돌 '불씨' - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TTnRwNGd6cVdRamNlaTVvTjFxODQ5dmJhZUhWRFhiN2lxTFlDamh0UFBWOFhaU0Q2S2hkWVhhVWowM0Y4MU9DZEt0MkZ4SVU?oc=5",
+          "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "오늘의집, 리뉴얼·확장·해외 진출 ‘3트랙 성장 전략’ 가동 - 경제타임스",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ENmV0ZkE1ZmxJc2g1SmJ2VUdzM0hEYmlXV1YxbEhDcjdBWHBOVm4wTmwxQkQ4a3UxS25yTnpyTU94eG92ZWVBYWVFVElTamE2Ny1iZTJZeEk?oc=5",
+          "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
+          "source": "경제타임스"
+        },
+        {
+          "title": "[단독]시장 꽁꽁 얼어붙었는데...오늘의집 시공 자회사 설립에 업계 '주목' - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PSnZrZ2Z1VWtPNGM2MlFrUkVxMUZaaHJhbzlkY1ZfVUJ1MVZrbDlqVUdIbGd3b1lnOE9Fb1I5WFJZWmFNMTFLOUctY2dTYlQzTmxZdXZqb1RNUm9KTkxoeQ?oc=5",
+          "pub_date": "Tue, 11 Nov 2025 08:00:00 GMT",
+          "source": "아시아경제"
+        },
+        {
+          "title": "랜선 집들이가 현실로···오늘의집, 앱 밖으로 나온 이유 - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xaTUxaEUwR2JmYVoyaEdELWQ1enRCUFpHNDBTaWJXd1h4N0NQTktlWEhaLXZuakJYUS1VMGQ4a3lxZE5Wa0F3S0daVVZGU0lib0ozazJiZjAwTlR2YWJtMzljWkVkRE5fbXoyNzljNjQtd9IBdkFVX3lxTFBIRy1sVk1adHNGR1FDM0s2NEFXbmRSamZobTB0SDhfMVZMaGRoZEZ5Nlp6TXREZERFSmdyYjJWS3hiT3B4eWE1d3pibXIxSlZSN2lVTE1SZU1fNlB3VzBsVDNSSFBTdFc1cVdIeUtMejlIV215UGc?oc=5",
+          "pub_date": "Thu, 17 Jul 2025 07:00:00 GMT",
+          "source": "시사저널e"
+        },
+        {
+          "title": "오늘의집, 첫 연간 영업이익 흑자…창업 10년만에 처음 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IVE54aUctc3U5MVZXQjMwellqMjFRb3A4Wkt5MzBhYzBSVHBZY18yQTA5X3BnT293anI2aC1GUVJoRnBqcll3QU9samtEY0NhVVBaLUNoOTRsV0lzck91MVJiTVVJeUVhc2c?oc=5",
+          "pub_date": "Tue, 01 Apr 2025 07:00:00 GMT",
+          "source": "mt.co.kr"
+        },
+        {
+          "title": "당근·오늘의집, 적자 탈출 성공…컬리는 ‘아직’ - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XaERLVFNGQzd1NVpfSlk2bUYxbHRuX2xSd3dLdFZtUUxJeXNNVmRvQTlNVXExd0hwZGlHc0x2bkw1U3JQRkxIa1BBM2NNby1ZNmJyNF9R?oc=5",
+          "pub_date": "Tue, 15 Apr 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "오늘의집, 창사 10년 만에 첫 흑자…매출 3000억 '눈앞' - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9icE5pY2JwR1NlRjRxaVVUMVdMZzN1MjdFejhwQWQ5WVo4V2RFQk5rMEZGVkwtRDFRQU1xN2xrVUpxLXRnbkVHUkU5QVNDTFN1VzBCVTI5WUk0NmhS?oc=5",
+          "pub_date": "Mon, 31 Mar 2025 07:00:00 GMT",
+          "source": "뉴스1"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "산업 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE56aU5lMTEwLVlqS1IySG5zb3RmbG5CWDYyNXQzd0t0Ni1oRHFIZ2JsU183RDRrakxlWDJlaTlzOGtTaDNUVld4bDdZYnVodE9rOW5iS3JDXzdNNTl1YXB6ZTBCakUzQjVjdkZSWllOWmJ3aVRsQzJMVg?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 12:39:41 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"'블프' 할인 통했다\"…오늘의집, 이틀간 누적 거래액 200억 달성 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wUXB5UGNRQTdVekxUN2g3UDJOdGhPZ2o0eXdTMWp5eG1MdUZFN09TUkVacGZFTVRIeU1WR1VVVEhwX1ltWGJYRlhRVzNWVS14aEZqNklXQmh0d9IBVEFVX3lxTFBMb2ZiX0laeEhuZ2FzdkMteXJjUWxwcVlLcWFfbDVFUHJybmJ4MFFvc2xqRzZGVk56X0cxcWFlLXV5ZG1GUU05N0VBZHYtTlV2djQtWA?oc=5",
+          "pub_date": "Thu, 20 Nov 2025 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "오늘의집, 플랫폼에 녹여낸 ‘연결 경험’ - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ldHRxR0JZUE9laU9JOXMtSVFYNEFGNkRUS1FQdHNZVkNwQWZkb1VZalQ4dGxWYXFRejFZY0hoTU9Qd0xoMDB6dk1sbEJGdmtUb2dJYWNGbTBaUdIBVEFVX3lxTFBsejlWWlRKMEJnM0NrYnFybE1pNzZIbW5FVFhHLU1KWnp6dnR2cDNuY0Zod0pNUXhrbUREQ3Mtd3gzY2VXcWxEX0dHS29QVG94aVd6LQ?oc=5",
+          "pub_date": "Fri, 03 Dec 2021 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "“K-스포츠 관광의 핵심은 ‘팬덤’…야구장 응원은 킬러 콘텐츠” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNl9lMkxPTTlMeU5wNVFTbl85UThXdTctOEptbk4xam9uM1EyaFhKekNIb2diREQwREF6ZE1xWHY5WG5qaDFQOE5FNXpHaUNVSjNKa2QwT0FYQklJU044cUZGSC1tczFpTnBGRnVVZTUtYnhZdV9pMXBlUjZwR0tTUmt2M23SAZgBQVVfeXFMUE5yaG0xaS1tUkdNczNOMFpDVnlnLWYzSmdKNVZQVjBWTGprZzJXRnA1S1dKazVDblJCU3FSQkVpWm9WLUxQUHQ0dUFJbGdDOExwRURwRlc3WWVwNUV3bUVPSXVKQ3pZRXJoVUdES1NqeUE5UUdReW56V1AtaXRJa1A1aW5KU1FmYXVuOURUN2h6U3Fubi02OTA?oc=5",
+          "pub_date": "Sat, 14 Mar 2026 21:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "'대세' 고윤정 \"예뻐서 좋은 점? 인생 편해\"...박명수·홍진경에 날린 '팩폭' ('마니또')[순간포착] - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR0QxNEJLdEFMNGNPMC1qLVNoWXlaVVpoeDNXS2ZHZlZEUGFCbWIxZjdQWFEtOHBCU1NmMTZvemZPT25zamNrRjdWbjVYMTE2Rk1KUURIVXhVRnlJdFctZTFQclc3X01SQzFtOUF5d1Q4NFdsTzBQMVV2eTdoUjZZckxOR3Byak8tMEhsYVBFMzhEd2PSAacBQVVfeXFMUG92VkpBdjVIV0RTRFhOZDliTHU1Z1Q4WWJhUGc3YTJfeHZqQmp5Qk8yV0xYZVF5QXJMdkVJc0VENzV0U08yYVdxeGd2MjY3Yk5zMTJwWW1UTHQxQnVmWnd3bWVzMV9RZVlVWUVNY1l3QmZIUFFGSzI0Y1ZaMERxc2xCSXdnNHY0a1BsVXllZjVIbENrTk5XYW9fLVVxUkZJYXBxWGpOdDA?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 21:01:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "버킷플레이스 “오늘의집, 9월부터 입점사업자에 정산금 매일 지급” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQm12anRHQ1EzSC1Wb0pBRTJiaGdPRGdiR3FWajNHaVllUHFJSFpSeC1JVklCR1N4MzhpUXRIR1pLODRXWnZNNHQxZnN0c0poOXFpaE5idXRoMDR2VlZkbkp4Sk9nRzNOQ2E1MW00SU5lMk9tNEh6b0NJNGp4SHZQVFNuLUo3WXR3SWfSAZ4BQVVfeXFMT1JmLWc2QTZnWWZBVmVjTHBDblJ6dXBPeDNLV1dmTEJrN09LRFhBYVpIMi1RMW10TzNKcllUbUVlaWhpdjF5LUVPbUZFWjYxUHB4dTZoTm1CWDB1bmRaX2lOem9WOEtiU2FVT0tkTXdfMnZXeWY4NXlXNF9zbzRFbXBXYVBDdGxwdjBNQ182cWpqelFJY25CdXZueDJIU2c?oc=5",
+          "pub_date": "Wed, 28 Aug 2024 07:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "오늘의 집, ‘先 커뮤니티 後 커머스’로 나 홀로 성장 [천억클럽] - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUblpqdXJvLWRyeFJ2MVZUVlBFTzEteEJENWpnQ0c2Qnh0NmRjUzMxMGhzSGtjcmRldUZpMjdTVVBVbEozdldQSjRfSjludUQ1TEpVSjRR?oc=5",
+          "pub_date": "Fri, 14 Jun 2024 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "두 얼굴의 ‘RCPS’…부채냐 자본이냐 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VblpGc0VkaG9UTWVWeFdhZzBhYWZlT2g2S2FyZ29tdEZaNHRhcVJYNkt0aDNWR0ZwUVNSUExpWlJPamlWZ1BWSV9odkRmVmdWeC1oUXBB?oc=5",
+          "pub_date": "Tue, 03 Sep 2024 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "랜선 집들이의 힘…‘오늘의집’, 10년 만에 흑자냈다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NNllCZDU0ZDJhNDhoWmJsckE0c2tNY0Y3OGh4aWR2TVN3TnhOeVBCRk5aZlliWXZobU5EbGlXbFEtbjYxOVJnTzVhWFl2M21obFU1eU5B?oc=5",
+          "pub_date": "Mon, 31 Mar 2025 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[카드뉴스] 이란국경, 왜 위험해졌을까 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11M3ZpV3JZSDJ1RzRFeWFoaXV0M0VsUkN4ekdXUk82YWZDemNSQldmeGk0T2ZBTDJWMWtrYW9oZnI2M3h5RmpUZDU2dUVpZWM1b2hIMVVB?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 12:00:40 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "오늘의집, 지난해 영업익 5.7억원…창사 첫 연간 흑자 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ycTN4U01oVjZodVZTWmlHb3BJb2dtUERwN1NFU1FTYUZCVkJHLVZUWUZUeElFV21pbTBBTXlua1JxajcySGVMSDdEcFh5bDh0NmZqb3RB?oc=5",
+          "pub_date": "Mon, 31 Mar 2025 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "오늘의집, 개발자 최저 연봉 '5천만원' 보장 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DUkRlcTF4bTZOU2t1M29CRnFUZ1pHeC1ITnFNUHc3T2VCc0NTSmhiZk5weTAteG5rWUxnb1ZHTThhMGplTWdCOEtFVk56Ry1QYmhrNjBn?oc=5",
+          "pub_date": "Mon, 02 Aug 2021 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "현장 경영 나선 홍범식 LGU+ 대표 \"안전 타협할 수 없는 가치\" - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5STlRGcm1ITDBMVXdCN3lnUmlqN1ppUTVObDkxR1JBWWE3aVRmVUpYTFc4d1dWeC1wSTdvNGRhVnJaNDNBSzROdjNPeWk5anVrVlVGdFRtOUdnNmozZm1PLXlXSm9vN19Q?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 00:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "﻿[안희철의 M&A 나침반] 신주인수 투자계약상 상환권의 성격과 법적 쟁점 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZdGNzWnJiQWRhSnh0akh2ZUNNdFUtX0RuODJUQW95TWs4R1pZU1l2T1RNcDMwVXhHZ3dUNUVPcDJFX2NielJFMGVUblE4THpYTi11QTJWTjZzM1F0OE9GazBuNFVseTJa0gFsQVVfeXFMT2EzY3BNdF9UQkNoQl9FWjRFRlZxemNUTzlZRXBVZTRHQm96T2dpUy03U3NKSTJrQm10eXc2Q2Z3blZtLTJaU0xkZjhkRUNqX2RvLTlPdWpHdnk4UXpPQTB3anp5OFUtT01wemRS?oc=5",
+          "pub_date": "Mon, 10 Nov 2025 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "미래에셋벤처투자, '역대 최대 규모' 투자 회수…영업이익은 감소 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13TXliWGwybG1IS3BMWjVHdjJRbUNrY1dHcmt3enl3REJ2cU1PWmlHVEN0ckdsLUQ4dFVZZDd5c3dsWEw4YmhMZjYxNVY1dlNCd0xGRDUtVVpiLWIwTWl5TnRDYzJnOXM00gFsQVVfeXFMTWx1dEFQVEhXQTNQZGVnNXB1TlYyc1pSTFpqNlAxV2s5LWxaUV84clNCMTNGZ09ENU1oRUtvaE51VnEtNHFHMzN4QUxfZEtNVGZEX0VUbkFhYi1sR1NzYmxDMk95RUdEMXc3MVZV?oc=5",
+          "pub_date": "Tue, 18 Mar 2025 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[커머스BN] 물류 없이 잘 나가던 오늘의집이 물류를 품는 이유 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kazlmaW1uWHhnVk84VWJtYVlfU0g4ZVQ2TEI3ZUVPRklVT09xVmtJZUF3dkhQdnRvYlY1eEJHWUtmY3V3VlNzRVdMLVh1bXM?oc=5",
+          "pub_date": "Wed, 26 May 2021 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "오늘의집, 창사이래 첫 연간 영업이익 흑자 달성 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BQWRmS1RWVXkzYkY1d2I1WXdXd3dEdExCNFpvV21kaURnQ1h4S1pMN1lPbVBsVXRiOVAzZGpJbjZJbzBwM2FFTmUxNmh1dG9xbF9ldG4yNHlrdw?oc=5",
+          "pub_date": "Mon, 31 Mar 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "2000배 성장한 오늘의집 커머스 비결은 ‘정체성’ - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1oUmJiOHEtWFdxY19wNXlGcEhHckJqMUVDVlViUHh4OTRRa3VXNzZhZFVzT3p4UXVmTGZ3VnVfWlA1SjZCWWJINTQwMlUtdWc?oc=5",
+          "pub_date": "Fri, 02 Feb 2024 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ],
+      "financials": [
+        {
+          "account": "자산총계",
+          "current_amount": "166280498089",
+          "previous_amount": "147257133505",
+          "two_years_ago": "229472747759"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "74737819193",
+          "previous_amount": "54947565997",
+          "two_years_ago": "138814656469"
+        },
+        {
+          "account": "부채총계",
+          "current_amount": "91542678896",
+          "previous_amount": "92309567508",
+          "two_years_ago": "90658091290"
+        },
+        {
+          "account": "매출액",
+          "current_amount": "68172780774",
+          "previous_amount": "56904898279",
+          "two_years_ago": "110797920515"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "74737819193",
+          "previous_amount": "54947565997",
+          "two_years_ago": "138814656469"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "14087894227",
+          "previous_amount": "13312869616",
+          "two_years_ago": "6806886774"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "-39332520121",
+          "previous_amount": "-58349447772",
+          "two_years_ago": "32210186490"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "7812416500",
+          "previous_amount": "7794617500",
+          "two_years_ago": "7748817000"
+        },
+        {
+          "account": "자본총계",
+          "current_amount": "92170028587",
+          "previous_amount": "92189526653",
+          "two_years_ago": "92048766205"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+          "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+          "link": "https://blog.naver.com/magicpaul7/224204238038",
+          "pub_date": "20260304"
+        },
+        {
+          "title": "[면접기록] 25년 12월 패션 온라인MD 면접 후기 - 플랫폼 1회... ",
+          "description": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 평소에 외향적인 성향이고 친구들이랑 있을 때도 넌 면접보면 무조건 합격하겠... 12월 초에 이틀 동안 3개의 회사 면접을 연달아 봤는데요 하고하우스(패션플러스) 원더플레이스... ",
+          "link": "https://blog.naver.com/lucky_240321/224201392944",
+          "pub_date": "20260302"
+        },
+        {
+          "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+          "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+          "link": "https://blog.naver.com/serohero/224199063326",
+          "pub_date": "20260228"
+        },
+        {
+          "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+          "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+          "link": "https://blog.naver.com/jobpass_/224197697044",
+          "pub_date": "20260227"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+          "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-19 오후 12:00:00 기획재정부 재경부 &quot;범정부 공공개혁TF 결정된 바 없어&quot; [보도 내용] ㅇ 정부가 공공기관 조직개편... ",
+          "link": "http://cafe.naver.com/magicbank/3332",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.5303370786516854,
+      "positive_themes": [
+        "긍정",
+        "문화",
+        "복지",
+        "성장",
+        "워라밸",
+        "장점",
+        "좋은",
+        "최고"
+      ],
+      "negative_themes": [
+        "단점",
+        "수직",
+        "힘들"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "버킷플레이스 2026년 상반기 채용 | 192건의 복지정보 0 전체 복지 통계",
+          "description": "버킷플레이스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 192건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/274319/benefits/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)버킷플레이스 2026년 상반기 채용 | 기업리뷰 346건, 3.7 리뷰평점",
+          "description": "도망가야 할까요 ? 일단 수습기간 입니다. 1. 매일아침 사장 커피 타드려야 함. 2. 문서나 서류 정리가 처음이라 아직 많이 서툰데 -&gt; 이런 부분에서 사수가 자꾸 알려주지만 뭐라고 하는 듯한 느낌 3. 출퇴근 시간 왕복 2시간 4. 수직적인 문화 5. 업무 과다 (신입 기준 배울 수 있는 건 많음) 1587조회",
+          "url": "https://www.jobplanet.co.kr/companies/274319/reviews/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)버킷플레이스 2026년 상반기 채용 | 436건 면접후기 3.3 면접난이도",
+          "description": "(주)버킷플레이스의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.3, 면접경로: 온라인 지원 83%, 면접경험: 긍정적 48%, 부정적 21%, 면접결과: 합격 35%, 불합격 45%, 대기중 20% | 잡플래닛에 등록된 436건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/274319/interviews/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "버킷플레이스 2026년 상반기 채용 | 192건의 복지정보 0 전체 복지 통계",
+          "description": "버킷플레이스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 192건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/274319/benefits"
+        },
+        {
+          "source": "naver",
+          "title": "버킷플레이스 2026년 상반기 채용 | 192건의 복지정보 0 전체 복지 통계",
+          "description": "버킷플레이스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 192건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/274319/benefits/(%EC%A3%BC)%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 4점 이상이면 '신의 직장?'",
+          "description": "흔히 돌아다니는 잡플래닛 평점 요약본은 이렇습니다. 그렇다면 트레드링스는 어떨까요? 네, 사실 이거 보여드리려고 앞에 말이 길었습니다. 자랑 좀 하자면 트레드링스의 전체 평점은 무려 4.4, 인터넷 커뮤니티...",
+          "url": "https://blog.naver.com/tradlinx0522/223030333425"
+        },
+        {
+          "source": "naver",
+          "title": "(주)플레이스 2026년 기업정보 | 기업리뷰 13건, 2.3 리뷰평점",
+          "description": "장점 : 1. 회사 근처 음식점이나 카페 많음 2. 바로 앞에 버장 있음 3. 엘베 있음 4. 월급 따박따박 나옴, 단점 : 쉬는 시간 외에는 움직이기 약간 눈치보임 그리고 배우면 아무나 할 수 있는 일이라 물경력 그들만의 리그도 좀 잇는듯 그리고 전체적으로 분위기가 고등학교 너낌? 뭔 뜻인지는 다녀보면 알듯!!",
+          "url": "https://www.jobplanet.co.kr/companies/428470/reviews/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "토스플레이스(주) 2026년 기업정보 | 기업리뷰 2건, 4.5 리뷰평점",
+          "description": "장점 : 복지가 아주 좋았습니다.. 편의점과 카페 등등을 사용할 수 있습니다. 단점 : 어시스턴트가 혼자라 일이 몰리면 힘들었어요 그리고 비슷한 일들을 많이 했어요",
+          "url": "https://www.jobplanet.co.kr/companies/430109/reviews/%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4(%EC%A3%BC)"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 1.0대의 회사를 다니고 있습니다.",
+          "description": "2.5점 이하라면 도망치라고 했던 잡플래닛 평점. 생각보다 괜찮은 회사. | 잡플래닛 평점 1.0대의 회사를 다니고 있습니다.정확히 언급하기엔 그러니 1점대 초반 흔히들 2.5점 미만의 회사라면 걸러야 한다는데 지금의 이회사는 1.0대에 근접합니다. 그럼에도 불구하고 이직을 하게 되었습니다. 물론, 모든 채용 프로세스가 끝난뒤에 검색해서 알게 되었습니...",
+          "url": "https://brunch.co.kr/@gakugo/384"
+        },
+        {
+          "source": "naver",
+          "title": "퀀텀점프하는 개발자 3인에게 듣는 오늘의집 | (주)버킷플레이스의 생생한 인터뷰 확인하기, IT/웹/통신 3.7 평점",
+          "description": "“안정적인 서비스와 기술적 도전 과제 모두 경험할 수 있는 최고의 환경이죠” 비약적인 성장이나 발전을 이야기할 때 '퀀텀점프'라는 단어를 사용하고는 합니다. 점진적으로 발전하는 것이 아니라 마치 계단을...",
+          "url": "https://www.jobplanet.co.kr/contents/news-2653"
+        },
+        {
+          "source": "naver",
+          "title": "㈜버킷플레이스 기업 리뷰 - 전·현직자의 생생한 후기",
+          "description": "당신이 궁금한 ㈜버킷플레이스의 모든 것이 한 곳에! 연봉 정보, 복리 후생, 조직 문화 등 전·현직자들의 리얼 근무 후기를 지금 잡코리아에서 확인해 보세요!",
+          "url": "https://www.jobkorea.co.kr/Review/ServiceView?ucoNo=16154394"
+        },
+        {
+          "source": "naver",
+          "title": "(주)버킷플레이스 2026년 상반기 채용 | 201건 연봉정보, 5,087만원 평균연봉",
+          "description": "(주)버킷플레이스의 전/현직원이 전하는 생생한 연봉정보! (주)버킷플레이스 연차별 예상 연봉 - 7년차: 5,137만원, 8년차: 5,903만원 | 등록된 연봉정보 201건, 최고연봉 7,497만원, 평균연봉 5,087만원. 지금 잡플래닛에서 내 연봉과 비교해 보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/274319/salaries/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 버킷플레이스 현직자들의 연봉 정보",
+          "description": "인증된 버킷플레이스 현직자들이 전하는 실시간 연봉정보를 확인하세요. 평균 연봉, 직군별 연봉도 확인하고 내 연봉도 비교해 볼 수 있어요!",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 버킷플레이스 기업정보",
+          "description": "버킷플레이스의 기업문화, 근무환경 등의 기업 정보와 최신 소식을 블라인드에서 확인하세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 버킷플레이스 리뷰",
+          "description": "인증된 버킷플레이스 직원들이 평가하는 연봉과 복지는 어떤지 확인해보세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/reviews"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 버킷플레이스 리뷰",
+          "description": "인증된 버킷플레이스 직원들이 평가하는 연봉과 복지는 어떤지 확인해보세요.",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/reviews?page=1&jobgroupFilter&currentEmployeeFilter&orderBy=recommend"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 버킷플레이스 Reviews - &quot;워라밸 박살. 낮은 연봉. 탑다운 심화&quot;",
+          "description": "“면학분위기가 잘 조성된 학교같은 곳 20명이 하드캐리하고 80명이 따라가는 곳이 아니라 80명이 다같이 고군분투하는 곳”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/review/nMUUPl_WA47"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 버킷플레이스 Reviews - &quot;분위기가 좋은 듯 안 좋은 듯...&quot;",
+          "description": "“면학분위기가 잘 조성된 학교같은 곳 20명이 하드캐리하고 80명이 따라가는 곳이 아니라 80명이 다같이 고군분투하는 곳”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/review/KQBlMkxl0"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 버킷플레이스 Reviews - &quot;좋은동료와 조직문화를 바탕으로 성장하는 회사&quot;",
+          "description": "“면학분위기가 잘 조성된 학교같은 곳 20명이 하드캐리하고 80명이 따라가는 곳이 아니라 80명이 다같이 고군분투하는 곳”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/review/R50LhbEHN"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 버킷플레이스 Reviews - &quot;커리어 성장 기회가 낮은 회사&quot;",
+          "description": "“면학분위기가 잘 조성된 학교같은 곳 20명이 하드캐리하고 80명이 따라가는 곳이 아니라 80명이 다같이 고군분투하는 곳”",
+          "url": "https://www.teamblind.com/kr/company/%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4/review/iz0TGRQDk"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "Bucketplace (오늘의집): 채용공고 | LinkedIn",
+          "url": "https://kr.linkedin.com/company/bucketplace/jobs",
+          "text": "Developed by Bucketplace, Ohouse is the No.1 lifestyle super-app that solves all problems related to the interior space by offering a myriad of services inspired by content including: an e-commerce store, home remodeling, furniture delivery, home tasks (repairing & installation) and moving services. As a leader in the lifestyle industry, Ohouse combines innovative lifestyle services with the best-in-class customer experience to change peoples’ lives for the better.\n\n[Websites]\nhttps://www.bucket",
+          "score": 0,
+          "published_date": "2025-06-06T00:00:00.000Z"
+        },
+        {
+          "title": "오늘의집 채용 - 버킷플레이스",
+          "url": "https://www.bucketplace.com/careers/",
+          "text": "오늘의집 채용\n\n# 모두의 삶을 함께 바꿔나갈 기회\n\n콘텐츠 - 커뮤니티 - 커머스가 연결된 독보적인 서비스를 통해, 누군가의 꿈을 현실로 바꾸는 여정에 함께할 동료를 기다립니다.\n\n채용 중인 직무\n\nEngineering\n\nSenior Backend Engineer, Tech Lead & Manager, Commerce Senior Frontend Engineer, Tech Lead & Manager, Commerce Senior Backend Engineer, Ads [Senior Backend Engineer, Core Platform](https://bucketplace.car",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Bucketplace (오늘의집) Technical Lead & Manager, Backend(서울, 대한민국) 채용중 | LinkedIn",
+          "url": "https://kr.linkedin.com/jobs/view/technical-lead-manager-backend-at-bucketplace-ohouse-4068035141",
+          "text": "Bucketplace (오늘의집) Technical Lead & Manager, Backend(서울, 대한민국) 채용중 | LinkedIn\n\n### Technical Lead & Manager, Backend\n\nBucketplace (오늘의집)서울, 대한민국\n\n# Technical Lead & Manager, Backend\n\n#### Bucketplace (오늘의집) 서울, 대한민국 9개월 전 지원자 25명 미만 Bucketplace (오늘의집)에서 이 자리인 사람이 누구인지 보기 채용공고 마감됨\n\n- [채용공고 신고](https://www.linkedin.com/uas/login?fromSignIn=true&amp;session_redirect=https%3A%2F%2Fkr.linkedin.com%2Fjobs%2Fview%2F",
+          "score": 0,
+          "published_date": "2025-05-17T00:00:00.000Z"
+        },
+        {
+          "title": "Bucketplace (오늘의집) Recruiting Coordinator (인턴)(서울, 대한민국) 채용중 | LinkedIn",
+          "url": "https://kr.linkedin.com/jobs/view/recruiting-coordinator-%EC%9D%B8%ED%84%B4-at-bucketplace-ohouse-4070488188",
+          "text": "Bucketplace (오늘의집) Recruiting Coordinator (인턴)(서울, 대한민국) 채용중 | LinkedIn\n\nBucketplace (오늘의집) Recruiting Coordinator (인턴)(서울, 대한민국) 채용중 | LinkedIn\n\n본문 내용으로 가기\n\nBucketplace (오늘의집)\n### Recruiting Coordinator (인턴)\nBucketplace (오늘의집)\n서울, 대한민국\n[\nBucketplace (오늘의집)\n]",
+          "score": 0,
+          "published_date": "2025-01-01T00:00:00.000Z"
+        },
+        {
+          "title": "Bucketplace (오늘의집): 라이프 | LinkedIn",
+          "url": "https://kr.linkedin.com/company/bucketplace/life/313702b9-4535-4058-9143-b2a832a8e329",
+          "text": "Developed by Bucketplace, Ohouse is the No.1 lifestyle super-app that solves all problems related to the interior space by offering a myriad of services inspired by content including: an e-commerce store, home remodeling, furniture delivery, home tasks (repairing & installation) and moving services. As a leader in the lifestyle industry, Ohouse combines innovative lifestyle services with the best-in-class customer experience to change peoples’ lives for the better.\n\n[Websites]\nhttps://www.bucket",
+          "score": 0,
+          "published_date": "2025-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "글로벌 AI 기업들의 전략 키워드 A to Z",
+          "description": "주요 AI 기업 전략을 알아보겠습니다. 이동자의 요구에 맞춰... 그 예로 5G 이동통신 기지국은 AI를 이용해 상황에 따라 안테나 방향... 수행하는 AI 애플리케이션과 조립 라인, 로봇 팔이나 픽 앤 플레이스...",
+          "link": "https://blog.naver.com/hyundai-transys/223786885108",
+          "pub_date": ""
+        },
+        {
+          "title": "오늘의집, 공간 라이프스타일 완전체가 되기까지…9년간 회고 푼다",
+          "description": "혁신 전략 등 공유 ‘오늘의집’을 운영 중인 버킷플레이스(대표... 신사업 영역의 매출도 크게 상승했다. 당시 이승재 버킷플레이스... 보는 비전, 궁극적 지향점을 제시한다. 급변하는 외부 환경에 대비한...",
+          "link": "https://byline.network/2024/01/26-311/",
+          "pub_date": ""
+        },
+        {
+          "title": "AI의 시대를 위한 준비 가이드",
+          "description": "193% 이전 이전 다음 다음 홈 홈 1 리더는 AI를 성공적으로 활용하려면 명확한 비전, 강력한 전략, 신뢰할... 다양한 사업부 전반의 AI 전략 커뮤니케이션 및 실행 03 05 실현 조직과 여러 사업부 전반에서 일관된 AI...",
+          "link": "https://www.cloocus.com/storage/2024/12/03.-MSXCloocus-Ebook-.AI.pdf",
+          "pub_date": ""
+        },
+        {
+          "title": "인공지능 기반 사업 계획 작성 방법: 챗GPT와 함께하는 성공적인 사업 전략",
+          "description": "마케팅 전략 및 고객 확보 방안 인공지능의 한계와 보완점 사업 성공을 위한 추가적인 고려 사항... 위한 방향을 제시합니다. 인공지능(AI)이 사업 계획에 미치는 영향 최근 몇 년간 인공지능 기술은 급속도로...",
+          "link": "https://www.toolify.ai/ko/ai-news-kr/gpt-3385383",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 프로젝트 600개 2030년까지의 혁신 비전!",
+          "description": "AI와 데이터 기반 산업 혁신의 새로운 방향 ; 정부는 인공지능(AI)과 데이터를 활용하여 산업기술 혁신을 가속화하고 있습니다. 앞으로 2030년까지 600개의 프로젝트를 통해 AI 기술을 적용한 혁신 사례를 만들어 가기를 목표로 하고 있습니다. 이러한 전략은 산업 현장에서 AI의 역할이 점점 중요해진다는 것을 반영하며, 조기에 투자와 연구개발을 통해 기술 경쟁력을 높이고자 합니...",
+          "link": "https://mbalance.co.kr/1085",
+          "pub_date": ""
+        },
+        {
+          "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+          "pub_date": ""
+        },
+        {
+          "title": "SK텔레콤, AI 스타트업 육성에 진심인 이유 &quot;ESG 2.0으로 진화&quot;",
+          "description": "AI 스타트업 액셀러레이터에 대해선 &quot;1기때 경험을 바탕으로 2기는 사업 연계가 더 많이 이뤄지도록 할 것&quot;이라고 밝혔다. 버킷플레이스 회원전용 사업분야 엔터∙라이프스타일, 유통∙물류∙커머스...",
+          "link": "https://www.unicornfactory.co.kr/article/2024072213123377992",
+          "pub_date": ""
+        },
+        {
+          "title": "Key To Way",
+          "description": "최근 ‘인공지능 중심 산업융합집적단지 조성사업’이 국무회의 예비타당성 조사 면제대상 사업으로... 지향해야할 방향성을 도출하여 비전과 전략을 수립하였습니다.Agile 기반의 단계적 추진으로...",
+          "link": "https://keytoway.kr/ai-vision",
+          "pub_date": ""
+        },
+        {
+          "title": "SK텔레콤, AI 스타트업 육성에 진심인 이유 &quot;ESG 2.0으로 진화&quot;",
+          "description": "강세원 SKT ESG 추진담당은 머니투데이와 만나 &quot;SKT의 ESG 활동은 핵심사업과 기술을 AI 대전환과 연계하는 ESG 2.0으로 진화중&quot;이라며 &quot;스타트업과 함께 성장하고 함께 가치를 만들어 가는 것도 그 방향&quot;이라고 설명했다. SKT는 이투온과 함께 데이터 기반 범죄예측모델을, 투아트와 장애인활동보조서비스를 위한 AI 서비스를 각각 개발한 바 있다. 아울러 SKT 등 통신3사는 ESG 관련 스타트...",
+          "link": "https://www.mt.co.kr/future/2024/07/22/2024072213123377992",
+          "pub_date": ""
+        },
+        {
+          "title": "AI로 비즈니스 계획 작성하기: 전략적 계획의 미래",
+          "description": "BizPlanner.ai와 같은 도구를 사용하면 포괄적인 비즈니스 전략을 매끄럽고 효율적이며 맞춤화된 방식으로 작성할 수 있습니다. 비즈니스 계획의 본질은 회사의 목표, 이를 달성하기 위한 방법, 그리고 이러한 목표를 달성할 시간 프레임을 전달하는 것입니다. 전통적인 방법은 효과적이지만 시간이 많이 걸리고 수동적인 노력이 필요합니다. 바로 여기서 AI 기반 접근 방식이 빛을 발...",
+          "link": "https://bizplanner.ai/ko/blog/business-plan-by-ai",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "Bucket Place - 2026 Company Profile, Team, Funding, Competitors & Financials - Tracxn",
+          "url": "http://tracxn.com/d/companies/bucketplace/__NVxw3snyK4HI4j606weqshd8QKC2kHHoQUU52gJGoHs",
+          "text": "Bucket Place - 2026 Company Profile, Team, Funding, Competitors & Financials - Tracxn\n\nYour browser was unable to load all of Tracxn resources. They may have been blocked by your firewall, proxy or browser configuration. Press Ctrl+F5 or Ctrl+Shift+R to have your browser try again and if that doesn't work, click here to retry or mail us at hi@tracxn.com\n\nInternal Server Error\n\n[](https://www.bucketplace.co",
+          "score": 0,
+          "published_date": "2022-09-30T00:00:00.000Z"
+        },
+        {
+          "title": "[PDF] Mapping AI's Rate of Change - Morgan Stanley",
+          "url": "https://www.morganstanley.com/content/dam/msdotcom/en/assets/pdfs/Research_AI-Rate-of-Change.pdf",
+          "text": "M Global Insight\nThematics\nMapping AI's Rate of Change: \nWhere the Rubber Meets the Road\nIn our 5th global AI stock mapping across 3,600 stocks, the market’s focus is shifting from \n“AI exposure” to proof of ROI — and the fundamental gap between winners and losers is \nwidening. \nMorgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of \ninterest that could affect the objectivity of M",
+          "score": 0,
+          "published_date": "2026-02-11T00:00:00.000Z"
+        },
+        {
+          "title": "AI Business Strategy 2026 for Growth Leaders | PCG - Prime Concepts",
+          "url": "https://primeconcepts.com/ai-business-strategy-2026/",
+          "text": "AI Business Strategy 2026 for Growth Leaders | PCG\n\n## AI Event for Business Leaders 2026 What Makes It Worth Attending\n\nAI Event for Business Leaders 2026 options are everywhere. Conferences, summits, webinars, and workshops promise insight and transformation. Yet many leaders walk away with more ideas than action and more tools than clarity. The issue is not a lack of information. The...\n\nread more\n\n## Cost Per Lead 2026 Is Risin",
+          "score": 0,
+          "published_date": "2026-02-18T00:00:00.000Z"
+        },
+        {
+          "title": "The 3 AI strategy investments leaders should make in 2026",
+          "url": "https://www.sectionai.com/blog/the-3-ai-strategy-investments-leaders-should-make-in-2026",
+          "text": "The 3 AI strategy investments leaders should make in 2026\n\nmember log in\n\nDownload Now\n\nFebruary 25, 2026\n\n# We Analyzed 4,500 AI Use Cases. Here's What We Found.\n\nMost employees use AI regularly, but only 2% report use cases that involve meaningful automations, because companies aren’t helping people figure out what to use AI for.\n\n‍\n\nRead The Article\n\nSection Staff\n\nFor compani",
+          "score": 0,
+          "published_date": "2025-12-11T00:00:00.000Z"
+        },
+        {
+          "title": "버킷플레이스 2026년 기업정보 - 주요사업·최신연봉 | 캐치",
+          "url": "https://www.catch.co.kr/Comp/CompSummary/A0418",
+          "text": "버킷플레이스 2026년 기업정보 - 주요사업·최신연봉 | 캐치\n\n메인메뉴 바로가기 본문 바로가기\n\n---\n\nCATCH\n\n전체메뉴 보기\n\n채용공고\n\n- 캘린더\n- AI매칭 공고\n- MY카테고리\n- 전체 공고\n\n기업정보\n\n- 분석리포트\n- [기업리뷰](https:",
+          "score": 0,
+          "published_date": ""
+        }
+      ],
+      "international_news": [
+        {
+          "title": "US federal jury convicts Assad-era Syrian official of torture - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTFqc0ZpbmpUaVFVbllRSzhJYW9FUjRVcEVNdTFTN0ZCRnlBTjRnTEhEN0IzUGwyNl9KTmhrNFZ0OVpDd1ZEaFNENHdQTkJmNlcyV0VEUjF0WHBXa3pQQ21Hd25tSUVILUlmdkZMOWoyTl9jVHF0bDc0WXhudWZPVEpNT0JlN0lPVVVuWlVUTEo2ZFJybkJnVDVFWndaUUltQlE?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 02:07:02 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Five US Air Force refueling planes hit in Iranian strike on Saudi Arabia, WSJ reports - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNay1OYk1XSDBJU0RfNGZMLXRMWUN2VE5KcHhpSDJNV1NYVzB1NVRkQTMxcnEtWnJWYkpkNlN5S0Jac0E3cURTOTdXdDh2dFRqY2tLV0l1NHhDUUE0RkhYblNCWE01dEdSQ0Rmd0hycnBTcDk3NGJJR0lWUmVtZTRiSm5jU0E1MWFjMV8wTnZzY3RMR05uMTl5d2VyeEF6YUd6Y3o0c0YwOUJtbmh6b1c0bHpfaE9wd0w0SkdKSQ?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 23:25:45 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Spain v Argentina 'Finalissima' match in Qatar cancelled amid conflict - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeFVJd0xDaXVKMHlTbkI3ZTlpeGlEWThFX2lDLWlDVnJsb2hQR2pwZXExR2U0V2JXRGh4YjNpWnlfdW5hRFpQeFpsTzgwSUthLWdWN3JicWxYNi1zVGxTc1VyQzVxSUFpRE44c2o2YTVLem9rUFBhVzBSdVk2bjlMc2tQWEsweV9mRlV0cFFRblEwNlRRSHYxM1lTeWhWNHJCYzJpRWxIcVF3Qm8?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 13:12:33 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Meet the Rich Retirees Moving Onto Cruise Ships Full Time - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaGs4LTVleXdubDdBZXBCWlN2Q2tvbUpXMmVtek1xXzlBbXljS0NHYTRNVDFZdkhyaEZGTHNFOE81TTVqeXNyWUxBeTV6RWljU1VGdWQyaFloTDBMOGlHQ0JKVmdROVRVUUtSQTNvVGU4eWpQWWNyUVlTd29OUnM1RnBNTEdsczVrcUpJcVAwaWd1ZHlBVGQzZEFucC15T0prdXRMYU9UV0ZLX1EyQ3FiNG5YX3JNZw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 09:00:04 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "The Secrets to Retirement Success - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS0FRUjZTNG5aOGZIaTNiY2lHRnBKa0tGM1YzN2V6X1VmNlNKM0ZJMWp6MERYOXFjTVBzdEU4eVhhNlhRSnFqNVZLUjVwN29ZeG5keWI2ZzVydWFaLVZ1bXF4WHRnckNUdTlTWmlMbTRpcHJBY2w0bUotc1M3cFg4REVMTTZpQQ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 10:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Bloomberg - Business News, Stock Markets, Finance, Breaking & World News - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9qYU5Fb2FhR3RmNHZUdG1PZFRYOVdvalpTcXd4VjBBME5WRmxTaGphdzFWb2hGTGJVeUU1UVpLOA?oc=5",
+          "pub_date": "Sat, 18 Jul 2009 21:47:35 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Former Apple engineer raises $5M for a note-taking pendant that only records your voice - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWUExbGg2eEFERG1LanZIUGY4bEQ5b1ViWkdXSmNFdS1rUFVOc1pQSGVZVlpOLUJDNVdzOHVhU0JKMzhIdTJ4QnNFWXFhTmNTbndrbHo1dzlKUzh6bGlVWC1CR1FIakcxU2tMbjY1bkF0ejE3SlFhV1I2YUZ2aGw1OXZNdXRSYi1xbWRZdjV3cUdtM25kbnB3Sk5rcXh4RTR3bTVjUEQzRTV4dVpjbnNhLWJVLWNxQUdNaFhtd0JR?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "A Sprint contractor left thousands of US cell phone bills on the internet by mistake - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVJ1RTl0RGxLYzJ1TU04cncySUx6alNzNllMQ01Md1luZFVQVmFBREpMZC0zNWNCeFk2TnpxUUZqc2lPOVVlMld5T1lKdVZWRktyZ1AyNmxLR0pkeUR2aXp0TEtDdWZWdDV6N1UyRHdmZ19FSDhJWkoxMDdQYzNObkpmSQ?oc=5",
+          "pub_date": "Wed, 04 Dec 2019 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "The future of diversity and inclusion in tech - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObFZOd25GTnN0RDA2ZHJScmtpSVUwYm9iNVh6SEd5X0xMSFBTTjAzS253RTBRWHZhN1UyV0VidGNQZmpEY2lYNTRCUDlUWFlkZlVBczE4aEpfdWhKaEgxbHZGMFNIeHkyMFJZeFJ1YUxiQ3NhanJ3Q1pnRjlVb09xOWxMMFltWmM?oc=5",
+          "pub_date": "Mon, 17 Jun 2019 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "How Popcorn Took Over the Movies - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxNRHlId2VVTWh6TGRFa2Rsck82RUFOSzNFQnBwbFZ4a3VuQ2tIc3QtazJXYlZpTjd2MUdDd1pFeUg0ME5mOVR3aG84cnFKVHJSN3BHMzVsZHNXUVdDa2pCMnA3TURDZXpwNnRzb2QyZWdrSVd1aUVpMndLSTNkT1ZEcjRjYnlzcjlHWjhPMi1ldWpha0dpVkhjTDliYms1amlXdHVfUGRQdHRNVExvRXNYREpVdWxRb0FHaGhDRnRUZFF3RzV6amJiV2tmai10alhZdGdBSHlab2JzMmZZMU9rSnhTVFBHeFRuckc3aUVvVW1GVzRMQUJjaTRzSnhyLW0yZ0cwVWlTSXRGSnJNRnBpZEtvRVFXOVJLYUx5ZGQzQ3RlOW5TUjlRUkR4Y05kcTZNenE4b2QxdzAxT3FIX0pHaEZpM2lVQi1jYnRnaGJmNlV3elE3SWx2ZG1VVjJzUzJtS2xUdVA0dDBxQlFLRTJHS25YSmhSNnhNRnV1ZUpUVlpfMWJjNlh4R3FCSlFsay1KcGNFaF8zNzE1X3pIU0EtcnJ3YUNRRXBK?oc=5",
+          "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Is Cuba on the Brink of Collapse? - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMitANBVV95cUxPc0JzR25yc2x0NXZLZms3QkdLdml0bnc1eXNWOXVvTFgxclNzSTVsRVhrNTk2NkVvak9BRzU0MnFpcWEwa0ZmQXpoaUp5Nm9ZamVNanpaVklvVms2aHAyRE5nQWJvS0Zwc3hVOHBDUjdQMTc1TEUxcl9aV1NnSi1MejFDTnhVbFNEUWJaNGtqazRWVEh2elMzQ0c0MnZqU251c1p6eThqd1pGUGhhR1VQSllMT2hGWkQ2ZjJ5NE9BeDNGMkF2TVRZMy05QlV3NmRkTld4Y3JyN2dpRGQ5UkQwamdac0I2S0JCaEswbkc1MGhBVlY4bXd1Y1c2VmlzcXZuMHJhaEVUZzJ1OFNROUtFTW1Fd0NEN1ctODdlLVB3WUEzSjZTNFpTeWZVam9qRlBKYUVZR3lXQzlnUGJ1WVpUVWJrRTB3MUFmRUx6d2Z1NU9SaFBiZnBQcjZ2eXhpV1pKUmdWa1hVYUZ2cWY0Zmh1aTB2Yk1jMmFBZGZqWk1ldms5M3lfWkxOUzU4Wm96T19sOTJCNFViNmdHdTJ0d2dCdGdvV2NUcjcwajdCMTNBZ1FDQ19y?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 20:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "We Tested Cold-Brew Coffee Makers—Here Are Our 3 Favorites - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOZG01ZzByaE1JVlVQTE9ETmZtVW16bTQxUmFtaTVzeUxrSTA1N19fbVZka0NoZlVrQWYzNEpmbEZFeW16TGJDeTZXUmRQcnAycVcwSFdyX01rbXRYVk80cXhGTWJLQmRSaXFjeERkdHFlcElsdnN5Y2NMUlRfcnRISWUyNmFyQjZUN3JOMjhMU0IzTmp3LTNLVjV2cGN6QUNwQzhZeUlqTldWU2dpUkpka0pMdnRhcTE5SHp4YUJKYkRKWktHUXM5bmtndWNlWS1EZ0dTVEFvUTlReTNTcEJ5UU9ZamcxM05jYk9ISXZweWVzUDllSnlrVUJ1UHhyaHNxSXF1bjNfb3Rpdk9VbG5BYXZSLWk0M0QwdngzemotYVpoSHNJSHgtR0xHaktsRDcyU3hXM2o0Zm1mV3A2d01wRk1HR0JXWUpZc3RpTGllSG13azJrQzc4Rkg1dmdWZ3U4djNiMXFsWC03Wm1iR0tNZGRaSThwVVZuUS1OZmlxWUxpbXpKU0p1MWFB?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "For accountants, the ‘squeezed middle’ is a sweet spot - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc3V0Q2IxTVF6MFhIT0lHSWRSWDByV2thMllXZm1PQ19LNDZHOVozWUNnQWxreDU0bC1nVkx3bmFobDRrMkc4VVN0UFJBeEVIVXU2RVo4VVBGQVlkSUpGSkFETjhjODY4bVBaR1o2Uk1OcjBvNlM0TVZVdHdPWUl2Q1N0QU0?oc=5",
+          "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Bin the bucket list in 2026 - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TN2tlS3Azb2lER1lpNUdWbHpMY3RDdlNPWUlPdHhTZGNKLUZNc1ZMWFZtaXJlZVlHNHFRZWdtUEdXT1MxY0lIckVaRGlrSm5yWElnYS12dUhQa1dqdDl1NjN5LWg0ejVNOG80YzlOajg?oc=5",
+          "pub_date": "Sat, 03 Jan 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "St James's Place PLC - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtcnpsYnFtelp5NzlOUjBMY0VqTDZKX3cwMUx3MEwyUzNLa2tCTTNTUlJDaG9pQ3BFZnNSX3dGbEEwS3hLdXREZTVPSUFjNmRQVEVtdjdWM0lEUmhLb3REenpCUDZQQnJOeTBoUWczWQ?oc=5",
+          "pub_date": "Fri, 08 Jun 2018 12:02:21 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "China's EV battery makers widen lead to over 70% global share - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUF9sU0hDR3F3SzItVkxOSngwMGVzLUs0TVBMN1pRQ29IN1ZGSG1zV05WMFhRM09LT1lBSU9oUGhCd0VJd1RmNG0zd2VwY1I4N0ItUHN4N1NVV19kY3kweURKMC1acWl3MHhxQ00wUVJWenp4alN4SmkyWVNfS2ZydTVPMldad0JQZ2syeWI4YjV2R0swU3M3VzFQOVRRNTREWThLR05XSkhrbGczVGkzX2hRRDloQWkzQmNvbzR3TTQ?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 20:22:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Singapore's costly car culture roars on as Porsche, BYD pile in - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONm5Jc3ZxRWVpZFdfQUNtcTA1TE9qNjEtUG5aejQ4VFJuenNsZWM1SG9pdlc4UTA4Tk84U0xFVGdHM1lxSzJIbWl3ZkxrLTZWdTV5c3FQWkNfNmU2ejhnc0ZOaFRja2Nobl9GUGFSWHd5V0U3ZHlRek8zV2QxWUtHVTBZRDV5bjBIVFllRHk5VjJIZHhrUHFpdHNWMFRtM2cyaU14RV9fRnd4UnZ4?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 21:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Israel launches new wave of attacks on Iran as crisis deepens - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb3pyRUVNSmREcXpWR0VyNHVMSGh2aEtnY0tQNU5sbXNmZmJIT05kdVZHWU40M0RhVHN6bWdqblFTYUlwZ2hEYjZvekpmQS12VGVOay1kSGhwSk5IaGdFd0dxRHZJZzdWOGY3MkJzRlhNdXlsVkN2SHh5T1lEbV9nUXFPVFhJeUE5S01nbVBkWWVpZW5TbmVDMGpyMkRSZnVQM3JtRVkyb3lqUDBiaHc?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 03:19:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "What (and Who) Mustafa Suleyman is Working With at Microsoft; What Perplexity’s Google Dependence Tells Us About the AI Race - The Information",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWXJURGxCVDhfUUtSUDQzTDk2dXRkYmwtQ0h4SzJTdXJ5U0pQVWtvanY0cHNCZThMdDhER0ZjQ1Q3QURfOUZaWHViaElXVnVpc0lVTC1reklSY1luaEgxdU1fZWFobF80dlFfcVZwZ005MFBsWklrS3R1Z2czaWV3TzQ1RWtlcXlYZmt2NWhpMXdKQmZTd3BiTUQ3UHlMU0RrZFBlSjdVQmlLVkZEZDlQQXhuQ2g0YVFIRWtpeVNpS09Wbkx0b3JzZm9VaV9iSXZfdEhvWnZRLXZyMU9HS29BVjJKdzlVTGE0YmFFZFFQY0Z4MHlxbXVHWGRCdDQ2NTYtLUN3?oc=5",
+          "pub_date": "Wed, 20 Mar 2024 07:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "General Atlantic and Mubadala Send Positive Signals About Market - The Information",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUW9Vd21KRzQ1RGVnLXJmQTg1Z2xPWHJpZGxaaHZBNEJvemtPanZwci1xREZrekdZVFB5UzFJcU9PZklTRDFCejlqYlE0TEJKRnhDN3I4Y0xpdno1WDNMbk5OLXNna29zVWpkT2owV3RGSDhMT25Ea2FlN2JCQXBsbDVjYy1DNmstWEliZk5ITHlOSzJpNkVRbXJENU5QOXhGSjJTbjcwWnQ3ckExVlI0OEUtYVFhelFYTDFSVg?oc=5",
+          "pub_date": "Tue, 09 Apr 2024 07:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "Pete Buttigieg Has Become America’s Electric Car Czar. So Why Has He Never Gotten Together With Elon Musk? - The Information",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOUV1bnQ5VmV1VmdyQlVkemloZ0lVS3FDVmFHQUdQbHlGbk5oLWprQ0lCYTAxOTNiazJBNVNCMVpvLS12REJZR2FWc2xLTEJINWpnMmlpb0JQR3VGbnQ4VUw2al82VEZYR2FwX1RqNXVKMTFnVmVrX0FOTS10NHlpdGNzak1TOVYtQUlSSWlacGpCZzNEVl9PNENpR1puLUhvOW9HS1V4MWlRVkFfRW9YM1ozX1d1WGczcm1xVGxsempOcUlD?oc=5",
+          "pub_date": "Fri, 13 May 2022 07:00:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Ohouse Spark - 오늘의집의 통합 Spark 환경 - 버킷플레이스",
+          "url": "https://www.bucketplace.com/post/2025-06-13-ohouse-spark-%EC%98%A4%EB%8A%98%EC%9D%98%EC%A7%91%EC%9D%98-%ED%86%B5%ED%95%A9-spark-%ED%99%98%EA%B2%BD/",
+          "text": "Ohouse Spark - 오늘의집의 통합 Spark 환경 - 오늘의집 블로그\n\nTech\n\nOhouse Spark - 오늘의집의 통합 Spark 환경\n\n확장성 높은 Spark 실행 환경을 위한 통합 이미지 플랫폼 구축기\n\n2025년 6월 13일Kyeom, QQ\n\n## Introduction\n\n지난 글 [[오늘의집 Spark on Kubernetes 도입 및 개선 여정]]에서는 기존 EMR 환경에서 Spark On Kubernetes 기반 환경으로 전환한 여정을 소개해 드렸습니다. 이 전환을 통해 오늘의집 데이터 플랫폼은 Kubernetes 환경 위에서 다양한 Apache Spark a",
+          "score": 0,
+          "published_date": "2025-06-12T00:00:00.000Z"
+        },
+        {
+          "title": "기술스택",
+          "url": "https://bucketplace-eng.oopy.io/techstack",
+          "text": "기술스택\n\nHome\n\nTeam\n\nCareer\n\nTech blog\n\n팀별 소개\n\n기술 스택\n\n팀 문화\n\n채용 포지션\n\n채용 프로세스\n\n자주 묻는 질문\n\nShare\n\nHome\n\nTeam\n\n[팀별 소개](h",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "오늘의집 Engineering팀 (개발팀)",
+          "url": "https://bucketplace-eng.oopy.io/",
+          "text": "오늘의집 Engineering팀 (개발팀)\n\nHome\n\nTeam\n\nCareer\n\nTech blog\n\n팀별 소개\n\n기술 스택\n\n팀 문화\n\n채용 포지션\n\n채용 프로세스\n\n자주 묻는 질문\n\n[Duplicate](https://notion.so/db54e590838546f",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "40+ Data Engineering Projects with Source Code [Solved] - ProjectPro",
+          "url": "https://www.projectpro.io/article/real-world-data-engineering-projects-/472",
+          "text": "40+ Data Engineering Projects with Source Code [Solved] @layer utilities { .content-auto { content-visibility: auto; } } --\n\n@layer utilities { .content-auto { content-visibility: auto; } } -- --\n\n# 40+ Data Engineering Projects with Source Code [Solved]\n\n40+ solved data engineering projects with source code - portfolio-ready pipelines using Kafka, Spark, Airflow, dbt, AWS & Azure. Build real-world ETL projects.\n\n[Get Solved Code + Solutions](https://www.projectpro.io/project/project-demo?source",
+          "score": 0,
+          "published_date": "2026-01-23T00:00:00.000Z"
+        },
+        {
+          "title": "101 real-world gen AI use cases with technical blueprints",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/real-world-gen-ai-use-cases-with-technical-blueprints",
+          "text": "101 real-world gen AI use cases with technical blueprints | Google Cloud Blog\n\nAI & Machine Learning\n\n# 101 gen AI use cases with technical blueprints\n\nAugust 21, 2025\n\n- Transform with Google Cloud\n- \n- [](https://www.linkedin.co",
+          "score": 0,
+          "published_date": "2025-08-21T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 81.57142857142857,
+    "grade": "S",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.642857142857142,
+        "evidence": "15 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "Financial data available; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 3.5,
+        "evidence": "DART salary data available"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=00828761"
+    },
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": ""
+    },
+    {
+      "name": "dart",
+      "section": "financials",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=버킷플레이스"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=버킷플레이스"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=버킷플레이스+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=버킷플레이스 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=버킷플레이스 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=버킷플레이스 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=버킷플레이스 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EB%B2%84%ED%82%B7%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

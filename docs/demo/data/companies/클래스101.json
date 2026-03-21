@@ -1,740 +1,909 @@
 {
   "company": "클래스101",
-  "sources_used": [
-    "google_news",
-    "naver_search",
-    "brave_search",
-    "exa_search",
-    "credible_news",
-    "dart"
-  ],
-  "result_count": 12,
-  "sections": [
-    "strategy",
-    "culture",
-    "overview",
-    "tech"
-  ],
-  "data": {
-    "company_name": "주식회사 클래스101",
-    "company_name_eng": "CLASS101 Inc.",
-    "stock_name": "클래스101",
-    "ceo": "공대선",
-    "address": "서울특별시 강남구 테헤란로 302 (역삼동, 위워크타워) 1-12, 13층",
-    "industry_code": "58222",
-    "established": "20150901",
-    "homepage": "",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "[클래스101] 실무경험 없이 콘텐츠 마케터 인턴 붙은 꿀팁 공개",
-        "description": "있는 기업 ‘클래스101 인턴 합격자’ 인터뷰를 들고 왔어요! 이제부터 자세히 소개드릴게요! Q1.... 전형별 준비 꿀팁 ✅ 면접 전형 면접 꿀팁도 많이 알려주셨는데요. 면접 스킬보다는 “이 사람이 어떤 자세로... ",
-        "link": "https://blog.naver.com/rnjsdbswl04/224224920387",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "원데이클래스 (죠스전용/유료)... 단번에 합격!! 면접 전 태도... ",
-        "description": "원데이클래스 오픈 공지입니다! ✔️영상과는 다른 2차 대면 면접, 임원 합격전략 미리 알고 준비할... 수업/첨삭 후기 5줄 이상 후기 작성하셔야 해요♀️ 죠스 인강 온라인 마스트클래스 수강생은 인강... ",
-        "link": "https://blog.naver.com/doublejo01/224224372397",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "[에디터의 취업] AI 시대, 살아남는 에디터가 되기 위하여 1편",
-        "description": "지원하고 합격할 확률은 지극히 낮아 오히려 여러 공고에 지원하고 면접을 통해 업무 핏을 확인하고... 나는 이제껏 정말 많은 회사 면접을 봤었는데 (우아한형제들, 토스, 당근, 챌린저스, 클래스101, 다노... ",
-        "link": "https://blog.naver.com/editor_kkuri/224218797472",
-        "pub_date": "20260316"
-      },
-      {
-        "title": "전략컨설팅 면접 준비: Fit Interview에서 자주 나오는... ",
-        "description": "다양한 합격 후기 살펴보기 [MBB 합격후기] Bain 경력직 합격자 후기(BCG, McKinsey도 인터뷰 진행... 회사 문화는 어떤 특징이 있는가? 전략컨설팅 면접에서 Fit Interview 준비가 중요한 이유 많은... ",
-        "link": "https://blog.naver.com/ecareer/224218239993",
-        "pub_date": "20260316"
-      },
-      {
-        "title": "코테 합격! &amp; 클래스 101 에서... 최종면접용 포트폴리오... ",
-        "description": "그리고 클래스 101 에서 강의 제안이 왔다! 오호... 뭔가 새로운걸 도전 해볼 수 있겠구만 미팅은 3월 27일(금) 최종합격 발표 이후로 잡았다! --- 최종면접에 노션으로 포트폴리오를 제출해야 하는데... ",
-        "link": "https://blog.naver.com/lifedesigner88/224217945833",
-        "pub_date": "20260316"
-      },
-      {
-        "title": "오프닝모먼트 승무원과외 [4월 수강신청 OPEN!]",
-        "description": "영상이라는 문앞에 고배를 마시는 친구들도 합격의 기쁨을 누리는 친구들도 있겠지만. 멈추지말고... 모의면접 위주로 진행됩니다. 기초부터 원하시는 분들은 원데이 or 프라이빗 클래스 수강 후... ",
-        "link": "https://blog.naver.com/eemeeeso/224217548541",
-        "pub_date": "20260315"
-      },
-      {
-        "title": "취업 사이트 총정리 - 취준생, 이직러 주목!",
-        "description": "기업 정보, 연봉 데이터, 면접 후기 등 다양한 취업 정보를 확인할 수 있습니다. 3) 원티드 스타트업과... 3) Glassdoor 기업 리뷰와 연봉 정보를 제공하는 플랫폼입니다. 기업 문화와 근무 환경을 파악할 때... ",
-        "link": "https://blog.naver.com/kym3994/224216560267",
-        "pub_date": "20260314"
-      },
-      {
-        "title": "사우디아항공 합격후기(2023-2024) | SV Saudia",
-        "description": "- 문제 결과는 총 문제 중에 얼마 맞았는지 화면이 뜨는데(예: 83/101), 일정 점수 이상은 &quot;b1 or above&quot;로 똑같이 뜸. 그 아래는 A2라고 뜨는 것 같음(익명 후기에서 본 거라 확실치는 않음). 나중에 파이널 면접 때... ",
-        "link": "https://blog.naver.com/jaeyoungjung_/224216537471",
-        "pub_date": "20260314"
-      },
-      {
-        "title": "외항사 승무원 면접합격 후기, 에어아시아 엑스(Airasia X)",
-        "description": "이게 뭔 질문이야 이 날을 위해서 기출을 101번 읽고 연습하고 갔었는데 엄마랑 아빠중에 누가 더... 승무원 면접합격은 못하겠구나,,,, 미쳤다(P) 진즉에 포기하고, 또 다른 곳 서류지원 한 트럭 하고... ",
-        "link": "https://blog.naver.com/yuuin__/224216355022",
-        "pub_date": "20260314"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "국회의원SNS소식20260321토요일",
-        "description": "전체회의에서 복지부에 주식, 채권, 대체투자 부문장 신설 등 국민연금 기금운용본부 조직 재편 필요성에 대해 서면질의를 했다. https://n.news.naver.com/article/015/0005264213?sid=101 국회의원 김상욱 21시간전 우리 울산이 미래를... ",
-        "link": "http://cafe.naver.com/jungamironware/9266",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "일본어 능력시험(JLPT) 4급(N4) 필수단어 1000",
-        "description": "문화 682 習慣（しゅうかん）습관 683 伝統（でんとう）전통 684 歴史（れきし）역사 685 宗教（しゅうきょう）종교 686 教育（きょういく）교육 687 医療（いりょう）의료 688 福祉（ふくし）복지 689 環境... ",
-        "link": "http://cafe.naver.com/bucheonmeetup/2482",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "CLASS101 | 콘텐츠 크리에이터의 지속 성장을 위한 6가지 경영 비법!",
-        "description": "해야할 게 참 많으시죠? 장사에서 사업으로, 사업에서 경영으로 넘어가기 위해서는 목소리를 키우는 게 아니라 시스템을 키워야 합니다. 대표처럼 일하고자 하는 직원은 만들 수 없지만 대표처럼 일하도록 만드는 시스템은 만들 수 있습니다. 그래서 1인기업, 스타트업, 작은 중소기업일 때부터 우리는 하루 빨리 시스템을 만들어야 합니다. 여러분의 사업을 빠르게 성장시키기 위...",
-        "link": "https://class101.net/ko/products/6405689834cdf3000e4f8a11",
-        "pub_date": ""
-      },
-      {
-        "title": "AI로 설계하는 10년 ETF 포트폴리오: 실수 없는 장기투자 전략 | 호기심청년",
-        "description": "함께 비교해 보세요 ; [입문] 소수몽키와 함께하는 미국주식 기초 클래스(A to Z) ; 왕초보도 할 수 있는 미국주식 투자, 배당금으로 제2의 월급 만들기 ; 🔥HOT🔥금리, 섹터, 차트, 패턴까지 한 번에 끝내는 2026 미국 주식 실전 로드맵",
-        "link": "https://class101.net/ko/products/6902e0b81b47451c7d5f5249",
-        "pub_date": ""
-      },
-      {
-        "title": "CLASS101 | “일 잘하는 사람들의 AI 비밀 무기 대공개”",
-        "description": "함께 비교해 보세요 ; AI 전문 방송 섭외 1순위 김덕진 소장의 2024 AI 트렌드 &amp; 활용 전략 ; AI를 이용해 나만의 그림, 동영상 오디오북 만들기, 실전 완전정복! ; 일 잘하는 사람들의 비밀 루틴: 직장인 필수 AI 업무 자동화 실전",
-        "link": "https://class101.net/ko/products/68adae5fd4fcc41704bd210b",
-        "pub_date": ""
-      },
-      {
-        "title": "[MAX Summit 2021 어워드] 모두가 사랑하는 일을 하며 살 수 있도록 '클래스101'이 돕는다",
-        "description": "차별화된 전략으로, 서비스 론칭 3년 반 만에 약 2,700개의 국내 최대... 클래스101은 올해 명확한 브랜드 방향성을 전하고 차별화된... 또한 클래스101의 비전은 앞에서 이야기한 것처럼 ‘모두가 사랑하는 일을...",
-        "link": "https://www.mobiinside.co.kr/2021/12/21/max-summit-2021-award-class101/",
-        "pub_date": ""
-      },
-      {
-        "title": "2025: Rebuilding Our Company Vision–Mission–Strategy",
-        "description": "클래스101은 ‘모두가 사랑하는 일을 하며 살 수 있도록’이라는 비전으로 시작해 크리에이터 이코노미를 선도해 왔습니다. 그러나 고객의 니즈와 세상은 빠르게 변했고, 우리는 이제 ‘더 나은 삶을 위한 배움’이라는 본질적 가치를 향해 나아가고자 합니다. 클래스101이 새롭게 재정립한 비전·미션·전략을 소개합니다.",
-        "link": "https://class101.ghost.io/2025-rebuilding-our-company-vision-mission-strategy/",
-        "pub_date": ""
-      },
-      {
-        "title": "클래스101의 전략분석 및 이러닝 시장",
-        "description": "나는 전략적 분석을 간단히 해보도록 하겠다. 우선 창업 초기에 클래스101이 빠르게 성장할 수 있었던 비결을 나는 크게 3가지 차별화된... 기업교육으로 사업을 확장하지 않을 수 없게 된다. 온라인 직무교육을...",
-        "link": "https://brunch.co.kr/@choihs0228/395",
-        "pub_date": ""
-      },
-      {
-        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
-        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
-        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
-        "pub_date": ""
-      },
-      {
-        "title": "19,000원으로 달성하는 자아실현 ‘클래스101+’",
-        "description": "기존 사업 방향성을 전환해 구독 비즈니스 모델을 선보이게 됐다”며... 연내 클래스101+를 글로벌로 확대, AI 자동 번역 기능 등의 도입 및 현지화 전략 등으로 장소와 시간의 한계 없이 국가의 경계를 넘어...",
-        "link": "https://ditoday.com/19000%EC%9B%90%EC%9C%BC%EB%A1%9C-%EB%8B%AC%EC%84%B1%ED%95%98%EB%8A%94-%EC%9E%90%EC%95%84%EC%8B%A4%ED%98%84-%ED%81%B4%EB%9E%98%EC%8A%A4101/",
-        "pub_date": ""
-      },
-      {
-        "title": "데이터를 지배하는 사고력, 강양석의 데이터 리터러시 마스터 코스 | 강양석 DeepSkill대표",
-        "description": "행복은 소유한것(물질, 정신적인것 포함)에 대한 만족감이라고 한다면 행복= 만족감/ 소유 정도가 될거 같고 실망은 성과( 결과)에 대한 기대치라고 본다면 실망은 기대치/성과 &gt;1 일거 같습니다. 후회는 가보지 않은 선택에 대한 비교같은데 이것은 수식으로 나타내면 어떻게 될까요?( if 함수가 잠시 생각났다가 수학과 영 거리가 먼 문과라 일단 후퇴ㅜㅜ ) 후회는 선택되지 않은...",
-        "link": "https://class101.net/ko/products/61b6e1aa2931970014206e06",
-        "pub_date": ""
-      },
-      {
-        "title": "비전 및 추진전략 | 인공지능융합전공",
-        "description": "비전 : AI for A Better World, 보다 더 나은 세상을 위한 AI, AI 기초 교과목 운영 : AI 기술 기초 교육과정을 폭넓게 제공하여 비전공자·재직자들의 AI 진입 장벽 완화, 산학협력 교과목 운영 : 산업체 인턴 및 공동 연구를 통한 산업계 현안 문제 해결형 AI 인재 양성, 대학원 운영 : 산학·공공 운영위원회 · 교육·연구·융합 운영위원회 · 글로벌 인턴십·창업 위원회 · 위원장:윤송...",
-        "link": "https://aix.ewha.ac.kr/aix/intro/vision.do",
-        "pub_date": ""
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "주식회사 클래스101 채용",
-        "url": "https://jobs.class101.net/ko/intro",
-        "description": "A. 2018년 이후 클래스101은 ... 문화를 도입하였으나, 2024년 현재에는 <strong>공식적인 업무 자리 포함하여 경어를 사용하는 문화가 정착</strong>하였습니다...."
-      },
-      {
-        "title": "클래스101(클래스101 - 모두가 사랑하는 일을 하며 살도록) 채용 정보",
-        "url": "https://www.rocketpunch.com/companies/class101/jobs",
-        "description": "<strong>과정과 절차보다는 임팩트있는 뛰어난 결과를 내는데에 집중</strong>… 더 보기 페달링 주식회사는 &#x27;모두가 사랑하는 일을 하면서 살 수 있도록&#x27;이라는 미션을 가지고 빠르게 실험하고 빠르게 ..."
-      },
-      {
-        "title": "클래스101(Class101) 기업정보 - 채용 12건, 인원 88명, 업력 11년, 서울 강남구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/3257",
-        "description": "클래스101(Class101) 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "블라인드 | 클래스101 기업정보",
-        "url": "https://www.teamblind.com/kr/company/class101/",
-        "description": "클래스101의 기업문화, 근무환경 등의 기업 정보와 최신 소식을 블라인드에서 확인하세요."
-      },
-      {
-        "title": "CLASS101 - 채용 홈페이지",
-        "url": "https://jobs.class101.net/",
-        "description": "CLASS101 채용 홈페이지입니다"
-      },
-      {
-        "title": "CLASS101 채용 - 랠릿",
-        "url": "https://www.rallit.com/companies/32/class101",
-        "description": "클래스101은 비즈니스 뿐 아니라 문화적으로도 &#x27;클래스101 3.0&#x27; 시대로의 진입을 하고 있고 다시 한 번 대한민국 내 업무 문화의 트렌드를 이끌어갈 것입니다. 지금이 바로 클래스101에 합류할 최적의 시점입니다.클래스101은 여러 어려움을 통하여 클래스101만이 가지고 있는 미션의 본질, 비즈니스의 본질을 이제는 너무 잘 이해하고 있습니다. 오직 크리에이터들의 성공만을 기원하는 미션에 몰입한 뛰어난 팀원들이 모여 다시 한 번 위대한 회사를 만들기 위해 최선을 다하고 있습니다.이제 안정적인 성장 기반을 바탕으로 더 큰 도전을 할 시점입니다."
-      },
-      {
-        "title": "클래스101(class101) | 채용, 회사소개, 연봉, 매출, 직원",
-        "url": "https://www.rocketpunch.com/companies/class101",
-        "description": "<strong>채용 공고 · 사람 찾기 · 클래스101 · 관련 사람 · 더보기 · 민리유 · 마케팅/PR · C레벨팔로우 · 김관영 · HR/인사 · C레벨팔로우 · 이태경 · 디자인/UX · C레벨팔로우 · 유주연 · SW 개발 · C레벨팔로우 · 김수양 · 마케팅/PR · 시니어팔로우 · 박정이 · 시니어팔로우 · 박상권 · 기획/전략</strong> ..."
-      },
-      {
-        "title": "(주)클래스101 2026년 기업정보 | 기업리뷰 444건, 연봉정보 177건, 면접후기 284건, 복지정보 3건, 채용공고 0건",
-        "url": "https://www.jobplanet.co.kr/companies/344239/landing/%ED%81%B4%EB%9E%98%EC%8A%A4101",
-        "description": "(주)클래스101 기업정보 - 산업: 포털/인터넷/콘텐츠, 기업형태: 중소기업, 사원수: 80명, 설립: 2015.09.01 | (주)클래스101의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
-      },
-      {
-        "title": "CLASS101의 10년 비전과 문화 | 대표 다이슨의 메시지",
-        "url": "https://class101.ghost.io/ceo-mission-culture/",
-        "description": "• 위대한 회사가 되기 위해서는, 구성원 모두가 공통된 문화적 지향점을 갖고 있어야 합니다. 그 문화는 때로 외부에서 보기엔 배타적으로 느껴질 수 있습니다. 그러나 이는 내부 구성원에게는 오히려 예측 가능하고, 일하기 편하며, 깊이 몰입할 수 있는 환경을 제공하는 기반이 됩니다. • 이번 선언문을 통해, 클래스101의 일하는 방식과 우리가 함께하고자 하는 인재상을 명확히 정의하고자 합니다."
-      },
-      {
-        "title": "클래스101 채용 2025년 기업정보 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/CompSummary/AB886",
-        "description": "클래스101의 채용공고, 기업정보, 재무정보부터, 현직자리뷰, 면접후기까지 모두 캐치하세요."
-      }
-    ],
-    "google_news": [
-      {
-        "title": "2025 대한민국 고속성장 스타트업 50 - 포브스코리아",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xQXZOLWhNT3BITHM5MmtEakZXUllGVF9wQy1nTVJVVndZWng5dnBvMGRIa25pY192eVcxb2p5OURjNXJJalB1TU5uQzY5dmtaXzBoNngzUzFXeTVmU3VXb25BbXhzTTJkN2l2ZnRDWlY2dw?oc=5",
-        "pub_date": "Mon, 28 Jul 2025 07:00:00 GMT",
-        "source": "포브스코리아"
-      },
-      {
-        "title": "[도전기업 백서] ‘명함 앱’ 리멤버, 헤드헌팅시장 돌풍의 핵(上) - 한스경제",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5SYkxpM29HU1dvQ3ZqNms2dDl5YTVtaTdPaEk4dDdic3pxNnJQak5ZY2pqM1hiMFUxQW5yZFl2TFR0Mk1ZTGFnaW5EbFpRZTdqQXlocmM1bllNN1VFLXVhZkVGMFB5WEhLNy1j0gFvQVVfeXFMTnNSODF0cmxtd0J1c09VbmFDVk1jYmhWQzgyRlhVNGdJdmZ4U1BSWDRlSmpvVDlpVER4Y1Rzc3FDd1lfOUM2LTJNUHNXSTFoYWVmVm1kN1lGejdtRjJHSmJpMTAxV2k3TDBaR0xpQm1z?oc=5",
-        "pub_date": "Tue, 29 Jul 2025 07:00:00 GMT",
-        "source": "한스경제"
-      },
-      {
-        "title": "잡코리아·알바몬, 대학생 위한 하반기 취업 특강 ‘잡코온(JOBKO:N) 드림즈클래스’ 개최 - 뉴스투데이",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NUDBpdGxIVFJnWWlER2lXWFpScEp6dEhXNWl1aTBWU0l5TGtyRnNMYll1Z1VOV0RuaFNyRkNmZVI1MzdrdEVGekNRcjVKMVNtM09lSXpZZnJWUzRudnc?oc=5",
-        "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
-        "source": "뉴스투데이"
-      },
-      {
-        "title": "잡코리아·알바몬, 여름방학 취업 특강 개최… “대학생 대상 실전 멘토링 제공” - 한국면세뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11ZHM3OTF6MHpFckhWYk81ZGRNU3l5czQ5bTJsaWNjZkNNOENwcFlVVGhhRkFTUzdoUXZCcmdXN1ljMG4tdHRxREtXSndMdDhVd3RPU0VjeFBCM1gwMzN5Ql9heWRjb1ZNc0E?oc=5",
-        "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
-        "source": "한국면세뉴스"
-      },
-      {
-        "title": "[도전기업 백서] 리멤버 흑자 기대...수익-투자 균형이 관건(下) - 한스경제",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EQlRVR2xRdndEWl9udnFEejkwR3BteHRFYUM1ZmRYdmhiX0Y3blM5dEVxZnZLMVBGbF9oN0tYS2hYdFNQZUxrS0dPeVQwQ2pWT3d0cFhMWHNtSFJJQVhLVGVrNHhtbWNnNXZR0gFvQVVfeXFMT0VWQTZYcEZiWUtWWXJ4WmRQX3hTUE9nd3JVUkl2NnJ3YXA2RFB4eWE4Y1JfU1REaGFOWXd4bmtacERTY2l1eHV3dmN2QWpLRjFlWF9FVHU5QnU2emQ3Sm5VZ1JtVldiSkhtRjA5SHFN?oc=5",
-        "pub_date": "Sun, 03 Aug 2025 07:00:00 GMT",
-        "source": "한스경제"
-      },
-      {
-        "title": "IT 채용 반토막에도 'AI 개발자' 수요는 증가…\"중고신입 선호\" - 유니콘팩토리",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Ma21sYXNURkszODhvQ09RV1FuYVlQQmNpMDNDeFg3LU44UXhCQWJnYXpVeVVwX21XZkpvVEt2TUF5T0RUbWVjbVpRYXd6VWZBYi15MU55cUpsMktzcHU5UVBoNEhVOU1kdWQwbA?oc=5",
-        "pub_date": "Tue, 04 Feb 2025 08:00:00 GMT",
-        "source": "유니콘팩토리"
-      },
-      {
-        "title": "글로벌 리더 꿈꾸는 K-스타트업, 해외로 ‘껑충’ 도약한다 - 디지털 인사이트 DIGITAL iNSIGHT",
-        "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNaFNXc1o1SGxmTDJOR2l4cmRwYUNhZjF5M2ZFdWd2ZExRLS14a3hBdEMzUkFCUjIzclhneEZTTVR1Zld1dU5MYzFUVzFCQmhOTUV6azBNQ3dQQVQzcHB4b1ZOZERrTF9NMkJzcElfMTFEc0V4Qk9nVl9uYmFHUUU4cktyc2RXcFBPWnAzOHcyeEFrWFdhZ2RUZ2Y0ZmtIWXdmN25ITHBBUklfRWJCQUNkN2wzbm15c2d6M3hfamNlWmZSU1puWXZzV3MxdUNXSjVPQlotU2FiSlhtbnRhZ29scXAxalF5em9VZWJTdnJiM3p3OUZsal9iMlhxTUVGWTdlanF1bWR2NXZEWmxWWlYxanIwMzZIemtCTmRHTGZfaTRKMW42eXhj?oc=5",
-        "pub_date": "Tue, 21 Feb 2023 08:00:00 GMT",
-        "source": "디지털 인사이트 DIGITAL iNSIGHT"
-      },
-      {
-        "title": "\"큰 손 잡아 보릿고개 넘자\"…'기업 손님' 찾아나선 B2C 플랫폼 [긱스] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rbldDVHdzbVU2WWgtU3JtU21jX0dmR015Q0JscFpYdS1oNzJfanVkRW1CRTVYOWhEbDRRemM2TXZYSzktR0MyVDJWcmhLa0cxT3JycmgxVFZXUdIBVEFVX3lxTFAtNG82RGhYY2ZXX2l1MmNLRWJWSFFtWFVFclpicmZxaHNDaUQwTmhPdEFTbXZXWmFmc290SVJGWUJCUEdycERTZzVkb1FqTzV4N1I4WA?oc=5",
-        "pub_date": "Wed, 20 Sep 2023 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "이직·취업 고민? 똑똑하게 준비해야 성공한다 - 디지털 인사이트 DIGITAL iNSIGHT",
-        "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxORldoSmZ1Sm5CcHhsczJjTmdTYjhMU1FPdGpNS3ZBZWhyY3M0b3E3V2lXZkxoNEpvM3Q1MURfLThNUjRvM0h0U1hFUXczdzV1dlMtMUNjOGdVSmtSbWRWTUgxdW9SVkZraW1rOV9URWIxcDVOYUoyckFHd29NNWlkOEdqSHRFY1k3UFdMNFpRM2wtUFdMNWpleFVTV0tNbHY1cFZnMElreTBLakZWSDBQNFlIbGZwRkNCQUtFcEVwU1FvQlI0b3JOOEhOVDFGLVFTZ1RlRGk5SzdyWGpFS3VWak9DcTF1MnE5Qmt1bFR4TEoyeHh1VEF5eFJpZDdvVXBXUEVDMnAtcEJLSGM5VF8ta1NKNVpHVzJWY2dPUTZR?oc=5",
-        "pub_date": "Tue, 14 Mar 2023 07:00:00 GMT",
-        "source": "디지털 인사이트 DIGITAL iNSIGHT"
-      },
-      {
-        "title": "[도전기업 백서] ‘첫 흑자’ 클래스101, 유니콘 도약 준비 마쳤다 - 한스경제",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wY1RfTnNGa2ZWekZoZ0tKRVBaMGJEcm0zZ2MwLWsybHJCN3JJN1Foalo1ZWF5WkphYS1PNFMtMGZLSXRFRVllNXM4LXBEZE9WTGQ1VWJFYUZMTnd6MzR4bXJsRkhJUnVKemdV0gFvQVVfeXFMT0JWbFdqZ3VTMWtqeTNDWTVpX2pJWVVsSGNoQXA1Y2lSTWZEVW9lcG1GSDJhMW04ZmxuTE1kV3JZVzY3eC1IQXRuTVIxczBERlJ2ZFEzMm42dzI0UG9Wb2NJREpzLVYxRUJaaDI2bnNr?oc=5",
-        "pub_date": "Sun, 15 Jun 2025 07:00:00 GMT",
-        "source": "한스경제"
-      },
-      {
-        "title": "클래스101, 국방부 군 문화예술 강의 사업 5년 연속 선정 - 플래텀(Platum)",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1vQ2hJTWRsbHZ3aFlhMWYxcmlaY1lBUWlYdmNrOFJ6QlotUi1oTmVxRlFXcDhYT0ctLUVTZEk5NzRTMnR6eEFmeQ?oc=5",
-        "pub_date": "Fri, 13 Jun 2025 07:00:00 GMT",
-        "source": "플래텀(Platum)"
-      },
-      {
-        "title": "월급쟁이부자들 vs 클래스101 - 브런치",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9FWVd1N2VWcWR0d1BZWENHZzB3SmJtTzhMV2hWaUx2WWZ5d2ZuczJMSFhiTXpwSnlSNTBmSDV5VWZmTGR3cEE?oc=5",
-        "pub_date": "Thu, 22 Jan 2026 20:31:53 GMT",
-        "source": "브런치"
-      },
-      {
-        "title": "클래스101, ‘2025 군 온라인 문화예술 체험형 강의콘텐츠 사업’ 5년 연속 선정 - 벤처스퀘어",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WOTZIbFdraXQ0b09CTDJzeUVvNWlIekI1aXVwMjJPSkgwbGs0N0lQQURkcll2elU5Yl9DZUZ4TzVRdkt1dmlPTGZPMm9Bdw?oc=5",
-        "pub_date": "Fri, 13 Jun 2025 07:00:00 GMT",
-        "source": "벤처스퀘어"
-      },
-      {
-        "title": "불황에도 빛난 플랫폼…미리디·클래스101·마이리얼트립, 나란히 ‘흑자’ - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BYXVYVlg5MmUySlYtSXN4SUtxbVNzVzBUVDlNSUc5TmFxMTlhUWdaTHVrTVMzeEFRX05DNDI0c216ellWMUx3dExXb2VPUUhES29lOHhKeVBqTFp4OEVfVUVyNXVuOWZh0gFsQVVfeXFMUGRZV0Y3S2tuVE02X181aTVvUmZlaXVIVWVYZ0VUeDlxMWhOUUJpNW1DUzR4THJSa1I3NUJmaDRpUWZlTnNKOFk2cHJnZGJXdjc2NXhVRXNqdWRSZnlIdHNmQkhiSUZnRS1hZ21K?oc=5",
-        "pub_date": "Sun, 27 Apr 2025 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "클래스101, 국방부 ‘군 온라인 문화예술 강의’ 5년 연속 운영사 선정 - 뉴스탭",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpcnRrQzlfNkd2NlVZVEUwNl9ZdVJFbGxkeFBoTks0M2RrMHlhSjQ1ZTlKSlVvUDdtaFd4ZlFzUXBETmtsUjJVUkdvUzZiZTFwb0piVkN2Y3lzZU5pUU5ySDBTa2FQZmE5aVFUSw?oc=5",
-        "pub_date": "Fri, 13 Jun 2025 07:00:00 GMT",
-        "source": "뉴스탭"
-      },
-      {
-        "title": "클래스101, 군장병·군무원에 문화예술 온라인강의 제공 - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KVVM0dGtBY0FYVi1NRU9RMk5Cc2tPZFFyVnYxMVh5QS0yS3F5R0FFX25aVmo0YTAteFFjVVV6UWxncXhmblVwOWxocUtubWR1eXNjYXdGRmRKVE9ROXQ1NNIBeEFVX3lxTE5TaERtaGpNemVoajlmRW0xbVRaRS02anA3bDJyTmdZQmg0d2JCclJsS3RNYWF3RElvbU1ybC05LXJKY1hheHdLaEQ2dFBEdHdNTmhuU1RNVnFZeGphTk1jekNDcmhnbjZWTndqQUlhcy1qME5lb1FFbQ?oc=5",
-        "pub_date": "Sun, 15 Jun 2025 07:00:00 GMT",
-        "source": "뉴시스"
-      },
-      {
-        "title": "[진단_B2C교육 ①클래스101] 구조조정 끝에 얻은 첫 흑자…공대선 대표, 위기를 기회삼아 혁신과 상생의 길로 나아갈 수 있을까? - 뉴스워커",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVck83WFlQcXBNWVdVMk5GQWdqcWlGNmYxU3FsS1VXT1A4eW9iaHo1MUhEQnkwTFU5ZmtoYnlVRDlTUG5wVHdlV05FdmMwMEI3WnNES3k0T2diRDJkWVZVdGw2VGRicm5BS0I3VEwyY9IBc0FVX3lxTE5JS2NVT2lzeUJMNmVrNDNVdjZGRHUtcTVXTkc0MThBZWx5T3RpMmc1VTdrdkIzUFpVbDBWaVhJYV8yV2o2OUtlZ01wMU42Y2pQNzJLNGtqV2hRUktNOFIyV25FRW5QWEtEbXdNU21WZHVCTG8?oc=5",
-        "pub_date": "Thu, 08 May 2025 07:00:00 GMT",
-        "source": "뉴스워커"
-      },
-      {
-        "title": "[뉴스줌인] '클래스101' 보다 많이 버는 '월급쟁이부자들'..피라미드 구조 위에 올린 성공? - 데일리팝",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BbEc2Y1F1eUlma3k0UkI2dDNmNFpKSEVVb1paTDZId1FWQVhfdHY2Z1hkTkJPblNxa0YyX2hURWNIUGNfazJUSU9mX2xjeENuQVZud2ctREpQUDVBS3ZFOF9FVERXcV8z?oc=5",
-        "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
-        "source": "데일리팝"
-      },
-      {
-        "title": "클래스101, 전속 크리에이터 버추얼 휴먼 ‘백하나’ 공개 - 어패럴뉴스",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51Y3FTaXZVOEhGV25IZERkQVBZSHV5ZVBSSDZ6cXo2YmdPbDhiM3kyank5WlRrbGVKdG93azJVaHI0aVZUWGVDRWZuTDBHWUtrUTlqLU9Dd3lOUklKbHhFTnNjM2Z1MzBXSWlpR0tUdWhaZmlUb2JGQw?oc=5",
-        "pub_date": "Thu, 29 May 2025 18:21:52 GMT",
-        "source": "어패럴뉴스"
-      },
-      {
-        "title": "클래스101, 잘 살아남고 있는 건가? - 브런치",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBPY2FROURKOTNlNEtxMkZCU2ViODcyWjYwRnJwRlhfOWVRWXhVZ2R6QjlIdUZHLVhOSi03TWdzck8yQ0x6OUxuWkRsR0E?oc=5",
-        "pub_date": "Wed, 16 Apr 2025 07:00:00 GMT",
-        "source": "브런치"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "CLASS101 - 채용 홈페이지",
-        "url": "https://jobs.class101.net/",
-        "text": "CLASS101 - 채용 홈페이지\n\n# CLASS101 - 채용 홈페이지 CLASS101 채용 홈페이지입니다\n\n## CLASS101 - 채용 홈페이지\n\n## CLASS101 채용 홈페이지입니다\n\n## 제목없음\n\n### 더 나은 내일을 꿈꿀 수 있도록\n\n### 클래스101은 더 나은 나, 더 나은 삶을 위해 배우는 모든 이들을 위한 플랫폼을 만들어가고 있습니다.우리는 누구나 꾸준히 배우고 성장하는 습관을 가질 수 있도록 돕습니다. 이 여정을 함께할 동료를 찾습니다.\n\n### 지금 채용 포지션 보기↗︎\n\n## 제목없음\n\n### 우리가 만들고 싶은 세상\n\n### 지난 10년 동안 클래스101은 &ldquo;크리에이터가 사랑하는 일을 가르치며 수익을 만들고, 클래스메이트가 사랑하는 일을 찾고 배우는 플랫폼&rdquo;을 만들기 위해 달려왔습니다. 하지만 지금 클래스101을 찾는 사람들은 조금 더 분명합니다.\n\n## 제목없음\n\n### 함께 세상을 바꿀 미친 사람들을 찾습니다.\n\n### Joi",
-        "score": 0,
-        "published_date": "2025-09-04T00:00:00.000Z"
-      },
-      {
-        "title": "CLASS101 - 채용 홈페이지",
-        "url": "https://jobs.class101.net/faq",
-        "text": "CLASS101 - 채용 홈페이지\n\n# CLASS101 - 채용 홈페이지 CLASS101 채용 홈페이지입니다\n\n## CLASS101 - 채용 홈페이지\n\n## CLASS101 채용 홈페이지입니다\n\n## 제목없음\n\n### FAQ\n\n## 제목없음\n\n### 지원 관련\n\n### Q1. 여러 포지션에 중복 지원이 가능한가요?\n\n#### A. 네, 복수 지원 가능합니다. 각 포지션별로 별도 검토가 진행됩니다.\n\n### Q2. 이전에 지원했던 공고에 다시 지원할 수 있나요?\n\n#### A. 동일 공고에 대한 재지원은 최소 6개월 이후를 권장합니다.\n\n### Q3. 제출 후 지원서를 수정하거나 삭제할 수 있나요?\n\n#### 다만 최신 이력서나 포트폴리오 변경본을 채용팀 메일로 보내주시면 해당 버전으로 검토합니다. 👉 보내실 곳: rosa@101.inc (메일 제목 예: [수정본 제출] 홍길동_프론트엔드_이력서 업데이트) *지원 철회를 원하실 경우에도 rosa@101.inc로 문의해주세요.\n\n###",
-        "score": 0,
-        "published_date": "2025-09-04T00:00:00.000Z"
-      },
-      {
-        "title": "[(주)클래스101] [CLASS101] 부문별 수시채용 모음 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=44657834",
-        "text": "[(주)클래스101] [CLASS101] 부문별 수시채용 모음 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n--\n\n로그인 회원가입\n\n(주)클래스101 관심기업\n\n# [CLASS101] 부문별 수시채용 모음\n\n스크랩\n\n접수마감\n\n## 핵심 정보\n\n경력 신입·경력 학력 학력무관 근무형태 정규직, 인턴직\n\n급여 회사내규에 따름 근무지역 서울 강남구\n\n본 채용정보는 마감되었습니다.\n\n(주)클래스101에서 채용공고가 시작되면 이메일로 알려드립니다.\n\n관심기업 등록\n\n## 상세요강\n\n| (주)클래스101 |\n| --- |\n| [CLASS101] 부문별 수시채용 모음 |\n| 함께 일하고 싶어요 |\n| 새로운",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "㈜클래스101 채용 - 2026년 진행 중인 공고 총 5건 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/45790545/recruit",
-        "text": "㈜클래스101 채용 - 2026년 진행 중인 공고 총 5건 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n\n\n채용중\n\n㈜클래스101\n\n솔루션·SI·CRM·ERP\n\n1269\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유공유--\n\n\n\n# 채용 정보\n\n## 리스트 정렬 순서 선택\n\n- 전체 15건\n- 진행중 5건\n- 마감 10건\n\n등록순 등록순 마감순\n\n## 채용 진행 중 직무\n\n- [직무전체](javas",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "클래스101 채용 - 2026년 채용정보, 자기소개서 문항",
-        "url": "https://jasoseol.com/companies/11230/careers",
-        "text": "클래스101 채용 - 2026년 채용정보, 자기소개서 문항\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n### 자소서 문항 분석 리포트 💡\n\n### 로그인하고 문항 분석을 확인하세요 🔍\n\n다른 방법으로 시작하기\n\n### 이 기업의 공고\n\n34건\n\n### 클래스101\n\n## [인턴] 영어 번역/검수 AD\n\n영어 번역/검수 AD\n\n22/11/04 - 22/11/25 (21일)\n\n수시\n\n### 클래스101\n\n## [인턴] 영어 번역/검수 AD\n\n영어 번역/검수 AD\n\n22/09/19 - 22/10/19 (1개월 0일)\n\n수시\n\n### 클래스101\n\n## 키트 운영 담당자\n\n키트 운영 담당자\n\n22/09/08 - 22/09/16 (8일)\n\n수시\n\n### 클래스101\n\n## [인턴] 일본어 번역/검수 AD\n\n일본어 번역/검수",
-        "score": 0,
-        "published_date": "2022-12-13T00:00:00.000Z"
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "7 AI Strategy Playbooks for 2026 Success | Sam Burrett posted on ...",
-        "url": "https://www.linkedin.com/posts/sam-burrett_ai-strategy-toolkit-for-leaders-world-economic-activity-7407635666504683520-yEIy",
-        "text": "7 AI Strategy Playbooks for 2026 Success | Sam Burrett posted on the topic | LinkedIn\n\nAgree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.\n",
-        "score": 0,
-        "published_date": "2025-12-18T00:00:00.000Z"
-      },
-      {
-        "title": "Korea Business Review가 바라본 클래스101의 전환과 다음 챕터",
-        "url": "https://class101.ghost.io/class101-global-knowledge-entertainment-kbr/",
-        "text": "Korea Business Review가 바라본 클래스101의 전환과 다음 챕터\n\n최근 Korea Business Review(KBR)의 Weekly Company Scan을 통해클래스101이 하나의 사례로 소개되었습니다.\n\n이번 콘텐츠는 어떠한 대가나 요청 없이,Korea Business Review의 언론 윤리 강령과 저널리즘 원칙에 따라객관적인 시각에서 분석·발행된 기사라는 점에서 더욱 의미가 큽니다.\n\nKBR은 이번 분석에서 클래스101을 단순한 교육 플랫폼이 아니라,적자의 국면을 넘어 ‘글로벌 지식 엔터테인먼트 플랫폼’으로 전환을 시도하고 있는 기업으로 조명했습니다.\n\n특히\n\n- AI를 활용한 글로벌 확장 전략과 콘텐츠 운영 방식\n- B2B 확장을 통해 비즈니스 포트폴리오를 넓혀온 흐름\n- 비용 구조를 재정비하며 지속 가능한 성장 기반을 만든 과정\n\n등을 중심으로,지난 몇 년간 클래스101이 어떤 선택을 해왔고앞으로 어떤 방향을 향하고 있는지를 차분하게 짚어주었습니다.\n\n이",
-        "score": 0,
-        "published_date": "2026-01-27T00:00:00.000Z"
-      },
-      {
-        "title": "비즈니스리포트",
-        "url": "http://www.businessreport.kr/news/articleView.html?idxno=50735",
-        "text": "비즈니스리포트\n\n[Tomorrow is decacorn] [클래스101] AI 기반 강의 시스템 도입‧구독 확대 고도화 추진\n\n글씨키우기\n\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n\n---\n\n콘텐츠 통합‧브랜드 구축 지원 ‘크리에이터 홈’ 출시 셀프 마케팅·AI 챗봇·정산 시스템 개선 등 기능 강화\n\n[사진=픽사베이 제공] 특정기사와 직접관련없음.\n\n[사진= 클래스101]\n\n■ 클래스101은 어떤 회사\n\n클래스101(대표 공대선)은 ‘크리에이터 홈’ 기능을 중심으로 클래스 개설부터 굿즈 판매, 소통까지 통합 제공하고 있다.\n\n현재 크리에이터 약 13만 명이 클래스 6000여 개를 운영한다.\n\n최근 AI 기반 강의 추천 시스템 도입과 기업 대상 구독 서비스 확대 등으로 수익 접점을 넓히고 ‘크리에이터 홈’ 기능 고도화도 함께 추진하고 있다.\n\n특히 온라인교육 시장에서 가장 주목받았던 소식은 월 19000원으로 5300개",
-        "score": 0,
-        "published_date": "2026-01-01T00:00:00.000Z"
-      },
-      {
-        "title": "클래스101, 창립 이래 첫 연간 흑자 달성…영업이익 39억원 < 중소벤처기업 < 뉴스 < 기사본문 - 중소기업뉴스",
-        "url": "http://www.kbiznews.co.kr/news/articleView.html?idxno=108278",
-        "text": "클래스101, 창립 이래 첫 연간 흑자 달성…영업이익 39억원 --\n\n## 본문영역\n\nPDF 보기 --\n\n이전 기사보기 다음 기사보기\n\n클래스101, 창립 이래 첫 연간 흑자 달성…영업이익 39억원\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n- 댓글 0\n- 입력 2025.03.17 16:32\n- 기자명 중소기업뉴스\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n#### 올해 AI 기반 맞춤형 강의 추천 서비스 도입과 기업 대상 구독 서비스 확대\n\n올인원 크리에이터 콘텐츠 플랫폼 (주)클래스101(대표 공대선)은 창사 이래 최초로 연간 영업이익 흑자를 달성하며 재무 건전성을 확보했다고 17일 밝혔다.\n\n2024년 클래스101은 영업이익 39억원과 순이익 18억원을 기록했다. 이는 전년도와 비교해 각각 270억원, 273억원이 개선된 결과다.\n\n클래스101은 크리에이터들의 지속적인 성장과 수익 창출 견인을 위해 플랫폼 운영 방식을 최적화했다",
-        "score": 0,
-        "published_date": "2025-03-17T00:00:00.000Z"
-      },
-      {
-        "title": "클래스101, 위기를 기회로: 150억원 추가 투자 유치와 성공적인 턴어라운드 - 10년차 직장인",
-        "url": "https://inblog.ai/ringo/%ED%81%B4%EB%9E%98%EC%8A%A4101-%EC%9C%84%EA%B8%B0%EB%A5%BC-%EA%B8%B0%ED%9A%8C%EB%A1%9C-150%EC%96%B5%EC%9B%90-%EC%B6%94%EA%B0%80-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98%EC%99%80-%EC%84%B1%EA%B3%B5%EC%A0%81%EC%9D%B8-%ED%84%B4%EC%96%B4%EB%9D%BC%EC%9A%B4%EB%93%9C-32909",
-        "text": "클래스101, 위기를 기회로: 150억원 추가 투자 유치와 성공적인 턴어라운드 - 10년차 직장인\n\nAI 뉴스\n\n# 클래스101, 위기를 기회로: 150억원 추가 투자 유치와 성공적인 턴어라운드\n\n온라인 교육 플랫폼 클래스101이 최근 150억원의 추가 투자를 유치하며 새로운 도약의 발판을 마련했습니다. 이번 투자로 클래스101의 누적 투자금은 약 790억원에 달하게 되었습니다.\n\n10년차 직장인\n\nOct 23, 2024\n\nContents\n\n참여 투자사클래스101의 성장과 위기턴어라운드 전략과 성과클래스101의 차별점굿워터캐피탈 : 실리콘밸리 VC굿워터캐피탈의 주요 포트폴리오 회사클래스101 기업 개요인기 클래스클래스101의 재도약\n\n## 참여 투자사\n\n리드 투자사: 미국 실리콘밸리 기반 VC",
-        "score": 0,
-        "published_date": "2024-10-23T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "기술부채가 쌓여있는 상황에서 서비스 성능 임팩트 있게 개선하기",
-        "url": "https://class101.ghost.io/challenges003/",
-        "text": "기술부채가 쌓여있는 상황에서 서비스 성능 임팩트 있게 개선하기\n\n클래스101에서는 지난 세달간 광고 이탈율 개선 및 레거시 코드 청산을 목표로 겁나빠른클원 프로젝트를 진행하였습니다. 이 글에서는 거대한 기술부채가 쌓여있는 상황에서 어떻게 임팩트있게 서비스 성능을 개선 했는지 에 대한 경험을 공유합니다.\n\n프로젝트 참여자: 이현우, 네롤리(박성민), 서재우, retn0, GeonHo Tony Han\n\n# Context\n\n클래스101은 2018년 3월에 첫 런칭을 한 이후 굉장히 많은 기능들을 굉장히 빠른속도로 추가해 왔습니다. 그 과정에서 수많은 기술 부채들이 쌓여왔고 이 부채들이 성능저하로 이어져 유저들의 불만이 쌓이기도 했습니다. 또한 퍼포먼스 마케팅 성과에도 영향이 있지 않을까? 하는 의심들이 커져갔습니다. 이제는, 제품의 품질에 위기의식을 가지고 개선을 해야겠다는 마음가짐으로 프로젝트가 킥오프 되었습니다.\n\n# How to\n\n출처: Software Engineering at G",
-        "score": 0,
-        "published_date": "2024-10-18T00:00:00.000Z"
-      },
-      {
-        "title": "Welcome to the Docs",
-        "url": "https://class101.dev/docs",
-        "text": "Welcome to the DocsSkip to Content\n* Documentation\n* Home\n* Quick Start\n* 브랜치 전략과개발흐름\n* 장비 설정과라이센스\n* Feature Flag\n* GraphQL\n* Federation\n* [SDL 작성가이드](https://class101.dev/docs/",
-        "score": 0,
-        "published_date": "2025-05-27T00:00:00.000Z"
-      },
-      {
-        "title": "How Class 101 developers transformed the way they worked internally with Hackle’s feature flags",
-        "url": "https://medium.com/@jaeyoon_46467/how-class-101-transformed-the-way-they-worked-internally-with-the-introduction-of-hackles-feature-c12ca619c86e",
-        "text": "How Class 101 developers transformed the way they worked internally with Hackle’s feature flags | by Jamie Lee | Medium\nOpen in app\nSign up\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https://medium.com/@jaeyoon_46467/how-class-101-transformed-the-way-they-worked-intern",
-        "score": 0,
-        "published_date": "2022-03-15T00:00:00.000Z"
-      },
-      {
-        "title": "CLASS101 Blog",
-        "url": "https://class101.ghost.io/",
-        "text": "CLASS101 Blog\n\n## Latest\n\n기업 교육 업체를 선택할 때 무엇을 기준으로 봐야 할까요? 교육 효과가 나오지 않는 이유부터, 교육 파트너를 고르는 6단계 체크리스트와 실제 성과로 이어지는 사내 교육 설계 방법까지 정리했습니다. 이청신 2026년 2월 26일\n\n이청신 2026년 2월 26일\n\n이청신 2026년 2월 24일\n\n이청신 2026년 1월 27일\n\n[이청신 2026년 1월",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "코딩 인터뷰부터 레벨제까지: 클래스101의 개발자 성장 시스템",
-        "url": "https://class101.ghost.io/developer-growth-system-class101/",
-        "text": "코딩 인터뷰부터 레벨제까지: 클래스101의 개발자 성장 시스템\n\n안녕하세요, 클래스101 채용팀입니다.이번 글에서는 우리 회사의 채용, 평가, 성장 시스템에 대해 이야기해보려고 합니다.\n\n## 💡\" 좋은 채용이 모든 문제의 해결책이다\"\n\n넷플릭스가 오래전부터 주장해 왔듯이, 기업의 많은 문제는 채용을 잘하는 것만으로도 해결될 수 있습니다. 문제의 근본 원인(root cause)을 따라가보면, 그 시작이 잘못된 채용인 경우가 많습니다. 특히 스타트업들은 급한 마음에 판단력이 흐려져서 채용을 그르치는 경우가 많죠. 성공한 조직들을 보면 대부분 채용에 많은 신경을 쓴다는 것을 알 수 있습니다.\n\n## 🔍 \"실시간 코딩 인터뷰가 왜 필요한가요?\"\n\n많은 개발자분들이 코딩 테스트나 코딩 인터뷰의 필요성에 대해 의문을 제기하십니다. 실제로 이를 통해 확인할 수 있는 역량은 제한적입니다. 하지만 여러 가지 이유로 채용에 많은 시간을 쓸 수 없는 스타트업들에게는 가장 효율적인 스크리닝 도구이기",
-        "score": 0,
-        "published_date": "2024-11-08T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Berkshire awards CEO Abel $22 million for 2025, confirms it resumed stock buybacks - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNc25ySGc4aExVb0hOSlVjbjhnci15QnpSUUpmQl9rMDFkODlrMkNHODJmYnRWY19fanBTZGZDYnlHZ2gtT2ZIM2ZaZmltNEZ0cV9JZzJoVXBCa2NZZG1jVHhSSUxQRHhUVDY2bnhscnBvZndISlltYXRtXzNhU1JISFlDaVFjaUN1UExibEUzTEV4ZnJURllsZzl4Z2lCdk1maEREWm5mWlZDSTd5R21rS2ZHRmdUUW1HeVQ4cWloMC1XQXQ3NWtnb0lITU1XSUROWmFYTnYzOVJENmFpMkM5SXdhS1MtUjJfY0FZ?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 20:50:02 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Air India crash to challenge 'world class airline' ambitions - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRDA1WU55TDJvdk5sZjFnQzI1WGFaX0trclRkeTdyWmFZeWxBQmpZUDJKN2IwZGlKV3ZLWVRQd2E2MlA2WDhMcXNaSVVST0VSWlkwNXg1cUowR1dTNlpJX2lNVGx1UmI4Mk53SDhEa1pqbURlcDc3YXNYWWQ5ZTBobUVuR3VWLVdEd2dBZkREamlvbzU4UjlwUzFvSXI0ZTRka3JOSmRIVWtFUzJfRGFQbkFn?oc=5",
-        "pub_date": "Thu, 12 Jun 2025 07:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Prices for new cars have soared. Here’s one big reason why. - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOXVJNHMxNVFXRHd3aW00b2U5YkZBd2NzQlAzSVNWSC1sSzJuRUlaT0VtTVRJSWtuLTJVVFdDZWdJUDQ4M3J5YXAzZ2F4cnJneFl4cklWSm9JU3JiYjQwT004ZmJ3b3lMNXJFWkNjRXJkOU1uVVVSZktpYnRTSF9FZlFNdmlpRVl0X3dTV0JHbzl6MGR3TzlvX0NSQWh0dDhKWFpZR1d1WjJEZTNfSlQtcm8xWXdkeEsxSHc?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 07:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Hedge Funds Eye Exotic Options to Play Huge Cross-Asset Swings - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOalpIUVpheW5IczRCUU5GeFNqUnZxM0dob0d2NXMxV3RnQkNQQ3RjaHA4dUkwZzlnT0k4SUFYYjFLaGp6bl9pMnNzRnpxTTlISWZzaTZQS0FmVVpQODJXWUY2TkpqRExmdHFLLXhKb3otOEVodExDSzl4ZGJZUzhoemhKNXNBNFQtYS1rWklhNHZ2eE5ZcnQ0Zmw2d1U4clRwRGpPYS04OFN6em5CM0d5c0xFYw?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 14:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Why Is Econ 101 So Bad? - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfSkZPUm9uOHoxMXlwRnBpb3ZQYkRGc3hWNzF2ZHJPUzJlWmFpWjBmVU5CNDlfWklaRkdUd0FYSzZXZ1Nhb1JNQzcxeGN3YWxEVm1yckdnWmwxLVA5a3UxVlFwY0lCVmxvTlhGVTBzLTZmTHo1RzdCQ2lFZy1Odw?oc=5",
-        "pub_date": "Thu, 22 May 2014 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "The Best Undergraduate B-Schools - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZjBjWk1xY2RvcEkxZTRiMkg2c3lVWVZhakZ3MmpjZm9RMUpmTlJ6M3BNSU92ZnFCUGpwNnVRczJpUzBBOEVQR2lLaXY3ZUxhcm9vZHZVZ3ktak5KYjVfcC1oR0RTWE5SWWVsVWRkUUdhUkFTUS1xRnpyRnRhNDg0c0tzWTJwWkF0VWJz?oc=5",
-        "pub_date": "Sun, 07 May 2006 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Online learning platform CLASS101 bags $26M Series B to support growth - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZWJFeWI1ZEp3ME1MVUx0VTlleUQyZzgtOXVjTjV2RHEzTWFZYmxVdGd6ZzVaX09DdGF0S0pseFlnMkprclFHcG5MSWNSanRsTVF3aXlJSHA4cUl3MHRlakFJNFNURGM3LWJWUjRGWmEzTnNXNnpEMm8yY3huU3pFUXlvMVB2bUs1ZmhnNXFOTlRlNzlacURSa2N6ZHJlTWRQYU1iT1JnUWQ?oc=5",
-        "pub_date": "Thu, 02 Sep 2021 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "First drive: 2021 Mercedes-Benz S-Class - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yWnhQLW9yUzVfX3hGRnZkNjBUdEd4SHR6ckhqR0FBMFR3QVo5bGxfbmJEcGppbzQycGhWWm11b3dvLUNjUksyMWpOYVoxR1lRTzI1d3pPM3pMRUNuRVYwTjcyUlFBNWs4TnBVU3I0cktMS052dEV3RFFVc19rdw?oc=5",
-        "pub_date": "Tue, 22 Jun 2021 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Washington’s political class doesn’t know Y Combinator exists — yet - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3YxZWY4eVFETmZ3Z0NUbVphQllqUFJvUGpYREdhVU5OQWhpUWtURWVHa0JZRTlhX3g0dkZRV3dCOXFGdjZoOUhSVGhUdkQ4WmRINVYyY1VWbkJ3Q08zZmVLQS04bzNINzJuQk55QWthbUlnRXJUOUVzX0ExSkpXcE5yTm9pU3JTU04wRFVES2U2V2xpVkkyQjNlUXdtVUpQdC0tbG1iV1FJdWQxWmxPV1RXZXdhbGM?oc=5",
-        "pub_date": "Tue, 11 Jun 2024 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Epstein Files Exposed Her Name. Now Svetlana Pozhidaeva Tells Her Story. - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxOMlg0ZGpXQVVvSW5jdWZDNUtCNmZ4QVlRVXpSWVcxQ081bUszV1dGWWc5bEVNalZEcnU0aGU0dEhJdENDYkI1T3RGbmVUbEU0TjJGc0xzd3VIX3B0Sno0Yk5TR2IxQUZfU3Z4RGp5RjkyQWZyWHJhblFxa3NaMUNkUHdMaVJvN3piU0wtLU04QThNeEFpaGNWZWxMc1dYSkxKaFMzUy1Da1JYSEJZcTB2UlJmUU1Cb01YbGRjYlNxT3NubFZVdEE5VDVpcXlWcmJKZkxTekc5Zm5FQ0todzZOTHJ6cTBpeXJhWGdDeHdqOXFPOFNYc2lRYUZtN3V4bmVCUWp2YlVBQTNpdlBneUtlYVpIWXBReFhkbmszSVJodmNhSTNSMy1SbTU4REUxaTVDNklraHJXcHhfcDA5WWN1azNDSndSa3VNSFZLNWFoc0RtYUNGcDBfMFRaYU1aaEFqSTM1Y2hxbl9MQzJuY1NGU2pHX1JXZmQtTmNBVGF0c2Q?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 01:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Taiwan’s All-Hands-on-Deck Plan to Fend Off China - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQZU9ua09jWFl0Zi1PY3dWT0hqVUJ0T2VkVVdTQWkyN1o2bjdweHNMRU1QZkpzMWxwWWJ2QWIzMHZ6RG0xZEpjcF83R19NNExjWHZSY0RzdU1aY1hUUGEwZ3ZFd2tLcVV2UGdrYXhObHJsMmd5c1JWeUdqTW9MTkFSV1JmanJiRDMzNUJVQXU2Und1WmIyYXRxV3Z3Zk51a0ZGME9FejdjQTZvZU1YZENNal9kc0g5NjloOXJUcUNGbGZCLURkNWU0dGZMc0JFcThUMmpuR0k1S2k0dG1jaU5GWkpVWWVEY1ZhWDFmY1VfZGtTdGpkb1lJZWNEMzg2NktNb0ZtMFk3Tlpwb19xbnhwUUJRSllCdDFBS1NtTVpxLVAzemJfcFFVMFNDeDdaOFFaX2JJMnFjWmF3a2hQdEczeW5CaVJBeHV5QnJtZ3k1cjM4TlJldVhWRENoRXYyWEZKSjhuWkRoeVc1dmk4Vkh6UzdFQ1RjZ2R6NWxWRUdVSk55TjR1NVZzU2hlUU9wc0thbzU5cE41aw?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 00:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "The Most Interesting Team in College Basketball? It’s the Economists, Stupid - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOcGpTUm8tQUxhYVJqb2dNRzVwdUN2T1pFLWQwTE9NOUpmVjFtZkVkTWMyQnNTR0ZrMlpsYmlzXy1QWGlBRFUtNkdIczlKWFlncHI2THE3ak5TMVRGeWhHdVN6UkhrQ01SSEk2cmZhbHI2RTBCQ2lhd1BYSFFtVlEtRUtLRjlxbkVlV0F4M0NXMDhqVzdFcW1LQTM1UEw2bTNJaXQ0Q044enlSTzZQSFNMMW5fWXN1elRlV3AzeU9ta1MwT1ZhQTg4NjExV0oyNDV6Q2U4SkMwRk1vVUFMRXJ5Rm1xUHp2UVpiMENxNDhuS0I1UlRHNmttNExkOVZzLXN0OTVMN3FLNVNhakYzMWtFWHFCRzZpOW1pNVo0TllKbl8yNzVnTUdmeDExckZZQ183YkJ5MHRNanVDVERDU3FKM2QtYnE0dEg1cURGVVN6eC1HQUVfQXVsb0s1TmpzcGM4VFkyQ3FrQkF3UmZfaFZBamFzWXdMdnhGa21JWWN5U0pHd2FZVTNVNmgza1BhTV8zNC02MndVcC1jUQ?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 13:15:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Home - Financial Times - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE04T1d2QWFkS3BlS042NlZ0bThVc3hFeU5xTFF0d25TdDFhSURHT00tRWhSOGVpZw?oc=5",
-        "pub_date": "Wed, 15 Mar 2006 23:46:59 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "How Iran’s fightback surprised the US - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS2VGQlFUWlJ5b0JyM0hOU3Fya3ZlTHJMd3lXUVRoNEdFam5oVDlqc3NPaTBqRW5KbzhINUg0eGwtY2xVYmZVaGhNRGkzeWhSUnN4c0lqOG1Eem5STFE3Mmg4MzlmVi1Ya2JKRlE3WVkwUWh5T1k5eW1qYktpUDlBcFBUWDM?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 13:00:01 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "GAM Star Fund plc - GAM Star European Equity Class R GBP Income, IE00BKPHW101:GBP assets and holdings - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwamdVRWZUMEl5YjZYYnhHZmxaNUYtZUF4SUtNYmpTeTUtY2xYMjB2WWdnUnVZRVMya01QeUlOUEctUFdHMTluYnRlblhUNmJaU0tSU0pEdlJramdFRDNhSnZlTWdWdVNVLTJ2UWdfR1lMS21XUUNad19EMA?oc=5",
-        "pub_date": "Thu, 27 May 2021 21:19:10 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Former Japanese Prime Minister Nakasone dies at 101 - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVHJwMmdwWGVJeHQ5VmdEeFM5aU45SUhyUnltRnExU3hvVldQNEtNTGl6Y3BOTzliY2dHWmFNdDh4UjVlclYwSW9qUmc1eGV6YTlhcl95TWVKaGJEUGc3bllQUjdDaEdya0lVbjVxUFUtZGkxa2hZb0xfbDNaMlkxREowMEdVbXlvZjZJSWFNbmRRQzY5LXh6cFdoVDg?oc=5",
-        "pub_date": "Fri, 29 Nov 2019 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Philippines' Hotel 101 seeks cash abroad to fuel global rise - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaHQtX1VfYWdPbURUVWdUZXpmNGtZMkZiNXBZemc4TThzMm4zNVpvNE9zVEtIbko3Wk1tak5LV045UkxZd0Z3dzZBQzF4ZlpuOGV3Qi1IYlVzLXk1WUs5dGtFQWhPM0ZHU0JyalhMSXpzbWlldHlOTldXMlpwNWZhMGhNYzdWaG9ERmNFbzFWRU1zbzc0OWw3WnoyajVjWFhlREo5Uw?oc=5",
-        "pub_date": "Wed, 30 Jan 2019 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Analysis: Xi floats 2027 as new milestone year - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTWNlNXE2X1FWT2F4VnBfVzk3YklzYjdHaFliS21YaUxqRDA2dDFKTVNDbzRQcVNFT1c4VURaODRMWGYtQ05LamtsM2wxUGFqTTZFbU5iS09ucXZ0MTd6OUFWZmw2Qld2dElqbXg2X1VyNXNiMGZCWDl5UlNqX3N3Z3Q3aHVaNmJpbTFXTHZwTkItOGNVZC1EUzlQaUZYVjlt?oc=5",
-        "pub_date": "Thu, 10 Dec 2020 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "If Teslas Had a Kickstand: Premium Electric Motorcycles Are Finally Ready to Ride - The Information",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUkVGbzk1dW1SaFpjYUZucWtqNWdha1dRalEwQjA0OVI5bzlkVWV4OEs5aS1KRGItYXoyNFFEVjhUcHdRNHJEdlV5dnpnS21NS2puNkZna01XZFJYaXdFaTRXT2dXQVBCX2V6NENLZkR3YmJQWnNVdlFQX1FINWpWd0M4NzdyUnptOTNjUUxpSWRyZG9QLU5mM2hoQmwwVDZxZ29leHI5SF9GeDk0MDNJR1FKQ2U0ejQ3S0toWQ?oc=5",
-        "pub_date": "Sat, 18 Feb 2023 08:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "Tech Goes Cold Turkey: Inside Silicon Valley’s New Temperance Society - The Information",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYkZ3b0ZSZ3VURmRmU2t6dWJsU2M1b3FPVnJzX0V1MnJaUTNPWDA2MnJDTC1ZalJIUEdvbWFTTlFmRjZoLTRjMTIwU3pSNlRwM1ZsUW4tc0dkVlB5M2h2eU9lYjNzVVVIQmZRQld6WHcxMGU4UlhqaThXSHdrZGhNaVBDaDNrajhWXzFiTlJHYzF6amJjS0ZEWGFuNlRzMTdwQmJMajI0b25UWVk?oc=5",
-        "pub_date": "Fri, 11 Nov 2022 08:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "How to Regain Control Over Your Data - The Information",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQck5NMTFZMWZTd01sSmpHaXliZFdnQzc3cWktSi1GWXpySGhmbGVjNFAtSnFvaWpIZ25NaThjNnMycmp3SEF5c2lpRmhNZFlITzE4Sm9SQ2tUVGtMbkl1SGp6Ty1pcEFxTVJpNHhqZ2p3cm1hMUhVcUd4MVc1dVFyRkJB?oc=5",
-        "pub_date": "Wed, 03 Apr 2024 07:00:00 GMT",
-        "source": "The Information"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "코넥스트, 시리즈C 150억 투자 유치…파마리서치 참여 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lWWU5QWxRSzJMX1poZTNla2I5dEIyaEhNdDBBMGsxdWZRM3lhNWVkTWJBaVdfLXpLS0xjc2JIazdlT1I2OHdXM04wa3YtUXZQZDU5SFBFQ2ZHQQ?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 01:33:59 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "경영·재계 뉴스 130 페이지 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13NkdfM0NHZGZoUUVTUWc1SjJpdHlWbGVjZXhZN00yUm0wVHJTanBKUTExWlkwNEpVVWs0Ynh3YTc0Z1U5bUxYMTBXT09VVUEzLTVXc0tEVE9vYWxHOVZKQUFmakk5Mm9fQ1E?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 22:17:29 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "지연 이자 안주고 부당 반품까지…공정위, 롯데마트에 '갑질' 과징금 5.7억 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5SmxGVUdJQ0xRMEVEbmZRNWNIc2ZYbkZsX3ZvWHJETEdfVXVuZklHeU1yMWN2aG5EdkpvNFRJZEtQWWdrR2xncUdzQzlKeVMweGtPUTF6czB5QdIBVEFVX3lxTE5UcVgwMUxnMklXUS1iV0cycDc1OFEzWWJnWC1Udnd2YXV0YWdvcmV2dXFrT2ZYUllsb25JR0l6bGJobHdhTEFCejI4cnVnRlk5R1hYQw?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 03:00:12 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "호르무즈 개방 기대감에 뉴욕증시 상승 마감 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNlR3LTVUdDctbVM5dFRwVFJaQ19tX0l3QXhRTUZRbEJMWl9nRUk1Q2pHSmppRjVSTUNwZGViclEwMk9wZ0dqR1FHMkJSOHNnbnIyQXRRNlBENmwwMVhHWklVcWNSbTVwVER0Uk0xUXpNQWVxVHpabWN6ZHBuUkhpNTVtaXVKUEs0MWVHZ2RtVUJldnNEQi1fMnhhS2NrZ9IBsgFBVV95cUxNbWZhcXVQdDRnTVlDOHJrUzJQMDh0NG0xMDdmUTlacG9iMVdDQVlUSllTcmxVRE85WGFFQ0ZicFNKYkFJTFQ3dDZqX244SWllV1lKd2tPc25FbE45bi1aeDhGS0Z3MDdYS3hHV3E2djFNWmZNXzV0U1hYNnlfaFdLS21wcGpBZjhpYkJKdnE1Snd0Z3RwZU41enlWX2RvQm03WXhOaFpscXlFOU9uWi01RndB?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 21:21:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[공식발표] '노팅엄 101경기' 대형 수비수, 韓 축구 입성! 제주, '스포르팅 출신' 피게이레두 영입...\"K리그 열기에 매료됐다\" - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd0pvWDBEaUtvX0ZiLWNHSVdvcnk1Q3V1VF9jYlg5WmRZT2hIU2dzYUF0QmdWdUZLbmZoUjh4Qm5mRkEtcmZXMldkV0VSNXRIRy16SzdCdk9iMWZfOHBIc3Q2ajZvZ1N0NzEySE9JQzZkY0l0bUpfRUE3aXp3N0lrektJONIBlwFBVV95cUxOQkMtTjBYLTJiWjE1N1ZhWGlfTEVTX0JIZExRNGVaTExpSUpZV1BJWHAzODJ0ZUh5cHd0YWFpREhhSFlZM1Rva3FyZGhWM3hRUmRFd3hFeW9EcDAtYmFxcDhvNm9VUmdlb2NxdUdjblFxcEljQUFSbmF4Z1gxWXJmN1hYNGJ6enE0VFo2aUw1M0tlaEVlYW9n?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 04:49:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "용인 신봉동 엘지자이1차 115㎡ 6억6000만원에 거래 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSklsVEpDbnlQNjd6MWItZ2Nja1FwaHlNRlA5WnpFVGIzTDZwdVc3R09BcUJaanNXa01sNmpHYWNIdkljay1CazJDUDVJWk1qdUhYY2VfRlhNUU5EZ1Y4V1hPWlAyTU5lSVozd29QYXhwUm9vREp2akZ3ZWZ4OUF3aVdJS05rVDlDdE10UlNXTzYya1hQblJkc3h4MNIBmwFBVV95cUxNSklsVEpDbnlQNjd6MWItZ2Nja1FwaHlNRlA5WnpFVGIzTDZwdVc3R09BcUJaanNXa01sNmpHYWNIdkljay1CazJDUDVJWk1qdUhYY2VfRlhNUU5EZ1Y4V1hPWlAyTU5lSVozd29QYXhwUm9vREp2akZ3ZWZ4OUF3aVdJS05rVDlDdE10UlNXTzYya1hQblJkc3h4MA?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 04:18:35 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "카나프테라퓨틱스(0082N0) 상승폭 확대 +7.10% - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpYkUxYkswbVJWX054OEVBeS10N3lnWnlLMHBEblM2Vm9kRUMyRWl2XzMtNGtzX1ZfeVhRS3NlRTNFeUROaXJ3ZV9KaUJDNWFocWc?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 00:45:05 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "큐라클(365270) 소폭 상승세 +4.51%, 5거래일 연속 상승 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aZDJtaWlwak52UTRGR1JLbE9aVUJoZllYM3daQUJ6SVhmQjBYODNpUGRjd1FNVGNoNEctbkljTXhRR1FiMVZZR2RfSU5JS0ppeEE?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 00:13:37 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "카나프테라퓨틱스(0082N0) 급등 출발 +220.00%, 금일 신규 상장 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ORklmd09yQXYxUjZGaDlmbGxiOTh2V2VDbVQxNWFkUGtpYVp5NWY2bE51Q1U1YWpHQUg3eEZnUUpDNklDTWdHc3hDMElTWUgyYkE?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 00:02:25 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "클래스101-스튜디오바이블 합병...페이커·박찬욱 등 콘텐츠 강화 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14RDZjYnF0ck12OFpOZW1pS2ExV3loX3dQbC00N1E4XzNGMUJwNHpfNXBCY1NVWkE4S0FqMXJJQ2NIdDdSY0RoNWRyYXdKbWhrY243Y2d3?oc=5",
-        "pub_date": "Wed, 21 Feb 2024 08:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "클래스101, 장전 김유진의 ‘장사사관학교101 3기’ 모집 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9maW5WMGREb0lESW43LXZYLWZKakZZZzBpSUJwMjROQXhDMUpxUUhGVnMxOEE2ZHhPa0kyTEFTRnRSU0N3NWR5TmhUTGtFbW90QWNYODFR?oc=5",
-        "pub_date": "Fri, 23 Feb 2024 08:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "클래스101, 2020 보상원정대 이벤트 진행 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95THUyZXNNM0JEc0FmSFRrM3FYS2dLcjFnNDVEM1UxeGR6RTJRYmtPeU9JaE1IazFKS1NsWWhOV3RDVmhXWEVob3BNSUNDWHczaFdNYW9R?oc=5",
-        "pub_date": "Tue, 08 Dec 2020 08:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "불황에도 빛난 플랫폼…미리디·클래스101·마이리얼트립, 나란히 ‘흑자’ - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BYXVYVlg5MmUySlYtSXN4SUtxbVNzVzBUVDlNSUc5TmFxMTlhUWdaTHVrTVMzeEFRX05DNDI0c216ellWMUx3dExXb2VPUUhES29lOHhKeVBqTFp4OEVfVUVyNXVuOWZh0gFsQVVfeXFMUGRZV0Y3S2tuVE02X181aTVvUmZlaXVIVWVYZ0VUeDlxMWhOUUJpNW1DUzR4THJSa1I3NUJmaDRpUWZlTnNKOFk2cHJnZGJXdjc2NXhVRXNqdWRSZnlIdHNmQkhiSUZnRS1hZ21K?oc=5",
-        "pub_date": "Sun, 27 Apr 2025 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "클래스101, '구독 경제 플랫폼' 전환한 이유 뜯어보니 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fOUxZRm9LSW5hNVpsdUttcFE4bF93cmJ4amlnN0JCYjZ5YUczcjJPNWROOUN3OUFveFgxTDlvZF82TTB4Zk1tOVdZVEVDTmR6ZGFLOVluSkl0cnptQzJaaUlUY1NoY3PSAWtBVV95cUxNVzVGak5Jczh0OTRudDNIUnc1ZUZxaVh0MzRQQTBMLXhhS3dGWEpMT2ZUX0pxR3g0d0hDS0RibUZaVHViSE1rX0c0c1FDa3JLOVVWRzVfMmswQXZsbjJET3FOTm91RC1fNFFwZw?oc=5",
-        "pub_date": "Wed, 31 Aug 2022 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[클래스101 픽]선한부자 오가닉 \"애드센스, 레드오션이어도 괜찮아\" - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51SGhWaTViTzRwM1FzeUZuQVFOcVF5RlRnUVdPLUlKQ2kzazd5TWNLQUVfcXRna3VtVUpsZ0R5UFBtdFBIVUNVSzVmZmtqZTdXTTBOaEctaEl2cWdNcmtwZ1R4b3gtT0E?oc=5",
-        "pub_date": "Fri, 10 Feb 2023 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "클래스101, ‘크리에이터 홈’ 론칭…브랜딩부터 수익화까지 원스톱 지원 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qZ1ZTRDF4M3VCZnE5S2ZvSzFrVDBmcTVqLVF3ajNNYXdmN2tDTmZBeXdta0p0YTg2M0owelFoNURDRzh4ZFJuOUFfSDJBWVk?oc=5",
-        "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "피처링, 황서림 일본 사업 리드 영입 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82VHdlUHY2ZDZpaldmYURHNVVvTzVLZ1dZLXFhcFQ3RWl4YmRVbEJRSGFlT0hZei1xSVFJQmozQXdrN21URzRGaFgzZDlxU3c?oc=5",
-        "pub_date": "Mon, 21 Jul 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "[인터뷰] 대화가 필요한 사람을 구합니다 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5jb2F0bUdXQzVOU21yYWxGaFZJT1QxWDZ6cDdrU2hsd19hRHpJOEV4MHVKM2RJSGtZcUlxSks4ZXNMeW9EOE5yWEtlNk1iYWRV?oc=5",
-        "pub_date": "Wed, 17 Aug 2022 07:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 클래스101",
+      "company_name_eng": "CLASS101 Inc.",
+      "stock_name": "클래스101",
+      "ceo": "공대선",
+      "address": "서울특별시 강남구 테헤란로 302 (역삼동, 위워크타워) 1-12, 13층",
+      "industry_code": "58222",
+      "established": "20150901",
+      "homepage": "",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "2025 대한민국 고속성장 스타트업 50 - 포브스코리아",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xQXZOLWhNT3BITHM5MmtEakZXUllGVF9wQy1nTVJVVndZWng5dnBvMGRIa25pY192eVcxb2p5OURjNXJJalB1TU5uQzY5dmtaXzBoNngzUzFXeTVmU3VXb25BbXhzTTJkN2l2ZnRDWlY2dw?oc=5",
+          "pub_date": "Mon, 28 Jul 2025 07:00:00 GMT",
+          "source": "포브스코리아"
+        },
+        {
+          "title": "[도전기업 백서] ‘명함 앱’ 리멤버, 헤드헌팅시장 돌풍의 핵(上) - 한스경제",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5SYkxpM29HU1dvQ3ZqNms2dDl5YTVtaTdPaEk4dDdic3pxNnJQak5ZY2pqM1hiMFUxQW5yZFl2TFR0Mk1ZTGFnaW5EbFpRZTdqQXlocmM1bllNN1VFLXVhZkVGMFB5WEhLNy1j0gFvQVVfeXFMTnNSODF0cmxtd0J1c09VbmFDVk1jYmhWQzgyRlhVNGdJdmZ4U1BSWDRlSmpvVDlpVER4Y1Rzc3FDd1lfOUM2LTJNUHNXSTFoYWVmVm1kN1lGejdtRjJHSmJpMTAxV2k3TDBaR0xpQm1z?oc=5",
+          "pub_date": "Tue, 29 Jul 2025 07:00:00 GMT",
+          "source": "한스경제"
+        },
+        {
+          "title": "잡코리아·알바몬, 대학생 위한 하반기 취업 특강 ‘잡코온(JOBKO:N) 드림즈클래스’ 개최 - 뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NUDBpdGxIVFJnWWlER2lXWFpScEp6dEhXNWl1aTBWU0l5TGtyRnNMYll1Z1VOV0RuaFNyRkNmZVI1MzdrdEVGekNRcjVKMVNtM09lSXpZZnJWUzRudnc?oc=5",
+          "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
+          "source": "뉴스투데이"
+        },
+        {
+          "title": "잡코리아·알바몬, 여름방학 취업 특강 개최… “대학생 대상 실전 멘토링 제공” - 한국면세뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11ZHM3OTF6MHpFckhWYk81ZGRNU3l5czQ5bTJsaWNjZkNNOENwcFlVVGhhRkFTUzdoUXZCcmdXN1ljMG4tdHRxREtXSndMdDhVd3RPU0VjeFBCM1gwMzN5Ql9heWRjb1ZNc0E?oc=5",
+          "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
+          "source": "한국면세뉴스"
+        },
+        {
+          "title": "[도전기업 백서] 리멤버 흑자 기대...수익-투자 균형이 관건(下) - 한스경제",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EQlRVR2xRdndEWl9udnFEejkwR3BteHRFYUM1ZmRYdmhiX0Y3blM5dEVxZnZLMVBGbF9oN0tYS2hYdFNQZUxrS0dPeVQwQ2pWT3d0cFhMWHNtSFJJQVhLVGVrNHhtbWNnNXZR0gFvQVVfeXFMT0VWQTZYcEZiWUtWWXJ4WmRQX3hTUE9nd3JVUkl2NnJ3YXA2RFB4eWE4Y1JfU1REaGFOWXd4bmtacERTY2l1eHV3dmN2QWpLRjFlWF9FVHU5QnU2emQ3Sm5VZ1JtVldiSkhtRjA5SHFN?oc=5",
+          "pub_date": "Sun, 03 Aug 2025 07:00:00 GMT",
+          "source": "한스경제"
+        },
+        {
+          "title": "IT 채용 반토막에도 'AI 개발자' 수요는 증가…\"중고신입 선호\" - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Ma21sYXNURkszODhvQ09RV1FuYVlQQmNpMDNDeFg3LU44UXhCQWJnYXpVeVVwX21XZkpvVEt2TUF5T0RUbWVjbVpRYXd6VWZBYi15MU55cUpsMktzcHU5UVBoNEhVOU1kdWQwbA?oc=5",
+          "pub_date": "Tue, 04 Feb 2025 08:00:00 GMT",
+          "source": "유니콘팩토리"
+        },
+        {
+          "title": "글로벌 리더 꿈꾸는 K-스타트업, 해외로 ‘껑충’ 도약한다 - 디지털 인사이트 DIGITAL iNSIGHT",
+          "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNaFNXc1o1SGxmTDJOR2l4cmRwYUNhZjF5M2ZFdWd2ZExRLS14a3hBdEMzUkFCUjIzclhneEZTTVR1Zld1dU5MYzFUVzFCQmhOTUV6azBNQ3dQQVQzcHB4b1ZOZERrTF9NMkJzcElfMTFEc0V4Qk9nVl9uYmFHUUU4cktyc2RXcFBPWnAzOHcyeEFrWFdhZ2RUZ2Y0ZmtIWXdmN25ITHBBUklfRWJCQUNkN2wzbm15c2d6M3hfamNlWmZSU1puWXZzV3MxdUNXSjVPQlotU2FiSlhtbnRhZ29scXAxalF5em9VZWJTdnJiM3p3OUZsal9iMlhxTUVGWTdlanF1bWR2NXZEWmxWWlYxanIwMzZIemtCTmRHTGZfaTRKMW42eXhj?oc=5",
+          "pub_date": "Tue, 21 Feb 2023 08:00:00 GMT",
+          "source": "디지털 인사이트 DIGITAL iNSIGHT"
+        },
+        {
+          "title": "\"큰 손 잡아 보릿고개 넘자\"…'기업 손님' 찾아나선 B2C 플랫폼 [긱스] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rbldDVHdzbVU2WWgtU3JtU21jX0dmR015Q0JscFpYdS1oNzJfanVkRW1CRTVYOWhEbDRRemM2TXZYSzktR0MyVDJWcmhLa0cxT3JycmgxVFZXUdIBVEFVX3lxTFAtNG82RGhYY2ZXX2l1MmNLRWJWSFFtWFVFclpicmZxaHNDaUQwTmhPdEFTbXZXWmFmc290SVJGWUJCUEdycERTZzVkb1FqTzV4N1I4WA?oc=5",
+          "pub_date": "Wed, 20 Sep 2023 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "이직·취업 고민? 똑똑하게 준비해야 성공한다 - 디지털 인사이트 DIGITAL iNSIGHT",
+          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxORldoSmZ1Sm5CcHhsczJjTmdTYjhMU1FPdGpNS3ZBZWhyY3M0b3E3V2lXZkxoNEpvM3Q1MURfLThNUjRvM0h0U1hFUXczdzV1dlMtMUNjOGdVSmtSbWRWTUgxdW9SVkZraW1rOV9URWIxcDVOYUoyckFHd29NNWlkOEdqSHRFY1k3UFdMNFpRM2wtUFdMNWpleFVTV0tNbHY1cFZnMElreTBLakZWSDBQNFlIbGZwRkNCQUtFcEVwU1FvQlI0b3JOOEhOVDFGLVFTZ1RlRGk5SzdyWGpFS3VWak9DcTF1MnE5Qmt1bFR4TEoyeHh1VEF5eFJpZDdvVXBXUEVDMnAtcEJLSGM5VF8ta1NKNVpHVzJWY2dPUTZR?oc=5",
+          "pub_date": "Tue, 14 Mar 2023 07:00:00 GMT",
+          "source": "디지털 인사이트 DIGITAL iNSIGHT"
+        },
+        {
+          "title": "월급쟁이부자들 vs 클래스101 - 브런치",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9FWVd1N2VWcWR0d1BZWENHZzB3SmJtTzhMV2hWaUx2WWZ5d2ZuczJMSFhiTXpwSnlSNTBmSDV5VWZmTGR3cEE?oc=5",
+          "pub_date": "Thu, 22 Jan 2026 20:31:53 GMT",
+          "source": "브런치"
+        },
+        {
+          "title": "[도전기업 백서] ‘첫 흑자’ 클래스101, 유니콘 도약 준비 마쳤다 - 한스경제",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wY1RfTnNGa2ZWekZoZ0tKRVBaMGJEcm0zZ2MwLWsybHJCN3JJN1Foalo1ZWF5WkphYS1PNFMtMGZLSXRFRVllNXM4LXBEZE9WTGQ1VWJFYUZMTnd6MzR4bXJsRkhJUnVKemdV0gFvQVVfeXFMT0JWbFdqZ3VTMWtqeTNDWTVpX2pJWVVsSGNoQXA1Y2lSTWZEVW9lcG1GSDJhMW04ZmxuTE1kV3JZVzY3eC1IQXRuTVIxczBERlJ2ZFEzMm42dzI0UG9Wb2NJREpzLVYxRUJaaDI2bnNr?oc=5",
+          "pub_date": "Sun, 15 Jun 2025 07:00:00 GMT",
+          "source": "한스경제"
+        },
+        {
+          "title": "클래스101, 국방부 군 문화예술 강의 사업 5년 연속 선정 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1vQ2hJTWRsbHZ3aFlhMWYxcmlaY1lBUWlYdmNrOFJ6QlotUi1oTmVxRlFXcDhYT0ctLUVTZEk5NzRTMnR6eEFmeQ?oc=5",
+          "pub_date": "Fri, 13 Jun 2025 07:00:00 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "클래스101, ‘2025 군 온라인 문화예술 체험형 강의콘텐츠 사업’ 5년 연속 선정 - 벤처스퀘어",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WOTZIbFdraXQ0b09CTDJzeUVvNWlIekI1aXVwMjJPSkgwbGs0N0lQQURkcll2elU5Yl9DZUZ4TzVRdkt1dmlPTGZPMm9Bdw?oc=5",
+          "pub_date": "Fri, 13 Jun 2025 07:00:00 GMT",
+          "source": "벤처스퀘어"
+        },
+        {
+          "title": "불황에도 빛난 플랫폼…미리디·클래스101·마이리얼트립, 나란히 ‘흑자’ - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BYXVYVlg5MmUySlYtSXN4SUtxbVNzVzBUVDlNSUc5TmFxMTlhUWdaTHVrTVMzeEFRX05DNDI0c216ellWMUx3dExXb2VPUUhES29lOHhKeVBqTFp4OEVfVUVyNXVuOWZh0gFsQVVfeXFMUGRZV0Y3S2tuVE02X181aTVvUmZlaXVIVWVYZ0VUeDlxMWhOUUJpNW1DUzR4THJSa1I3NUJmaDRpUWZlTnNKOFk2cHJnZGJXdjc2NXhVRXNqdWRSZnlIdHNmQkhiSUZnRS1hZ21K?oc=5",
+          "pub_date": "Sun, 27 Apr 2025 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[단독] 클래스101, 사업 적자로 부서 조정 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MWEU1ZUt6cjhoaXI0NzM2aE8yb3FCWENEQlMyR09zd1dhWDJ0ZDJPUlFRU2pidFpYZHpMOXhvbDBldF9lVUpaQ0RLNnctemhCblVvRQ?oc=5",
+          "pub_date": "Tue, 21 Feb 2023 08:00:00 GMT",
+          "source": "이투데이"
+        },
+        {
+          "title": "\"위기설 돌았는데 160억 유치\"…클래스101은 어떻게 살아났을까[긱스] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Bbk1lZDRhNlNtbU5QNjR3T2J5NXZlU0hBam5RUUJQVXl0OUY2UWdyVzNveWRSc29LZDJjVUJfVjk1NGtSRFhjemt3OV9RQXpJdmlhNVNRaGk5Z9IBVEFVX3lxTE01TU5qYjBXVFZISG1JWkczVFBsZEZoUnFrWXVTaUNXa2drdVZ5cVFOZDdPUDhwTkNndnVxZER1aXRfYVpaLWV4ZlpoRDQydmNBTDllXw?oc=5",
+          "pub_date": "Thu, 09 Nov 2023 08:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[단독] 몸값 3000억 찍었던 클래스101, 10분의 1 가격에 자금 조달 추진… 계속되는 혹한기 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcTh1UXBXclRLcVBlUVdvYTBFaG1jWDhsWUduTFRWNUF2REJkZnJ5VzFma1dibUM4TWxBSWZuX3BPVDJpT0U4aHdMQ0plUlpoTlQ1b3JiWG1PMGM2TzQwdnQ2bkpVWUN3MGNsOTF2MkRibWo3THM4eElJT0tIYXFEaTl2RHBHR3M?oc=5",
+          "pub_date": "Fri, 24 May 2024 07:00:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "클래스101, 국방부 ‘군 온라인 문화예술 강의’ 5년 연속 운영사 선정 - 뉴스탭",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpcnRrQzlfNkd2NlVZVEUwNl9ZdVJFbGxkeFBoTks0M2RrMHlhSjQ1ZTlKSlVvUDdtaFd4ZlFzUXBETmtsUjJVUkdvUzZiZTFwb0piVkN2Y3lzZU5pUU5ySDBTa2FQZmE5aVFUSw?oc=5",
+          "pub_date": "Fri, 13 Jun 2025 07:00:00 GMT",
+          "source": "뉴스탭"
+        },
+        {
+          "title": "플랫폼을 넘어 브랜드로, 크리에이터 이코노미의 대전환 - 월간 CEO&",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JSklyd0pDdzN6a0llZmJ5QUlISzl4a2pnT1h5U3VPSWNBdHh5Vkx3c1NhZHdkRFQ3RmJEUmJERGk3VFhSemg5cXJQTFVxSzhId0VwaHlxNDNXcmctcTBRWTNvRGdJbzk2dGFoZjJWbTI?oc=5",
+          "pub_date": "Mon, 05 Jan 2026 08:00:00 GMT",
+          "source": "월간 CEO&"
+        },
+        {
+          "title": "클래스101, 창립 후 첫 연간 흑자…2024년 영업이익 39억원 - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FT1NaYnQyOVpCY00ydGxVSm9ocVRjdUdnVmNLMVNvQ1BjNGVJRE80aFVPOFV4ZVRwczM4NFJYbDJqY1poODVMWVNQRWljbDk0R0RFMXhyc2FuNkUxZVREVUpmdzRvZE40VVJzVw?oc=5",
+          "pub_date": "Mon, 17 Mar 2025 07:00:00 GMT",
+          "source": "유니콘팩토리"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "코넥스트, 시리즈C 150억 투자 유치…파마리서치 참여 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lWWU5QWxRSzJMX1poZTNla2I5dEIyaEhNdDBBMGsxdWZRM3lhNWVkTWJBaVdfLXpLS0xjc2JIazdlT1I2OHdXM04wa3YtUXZQZDU5SFBFQ2ZHQQ?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 01:33:59 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "경영·재계 뉴스 130 페이지 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13NkdfM0NHZGZoUUVTUWc1SjJpdHlWbGVjZXhZN00yUm0wVHJTanBKUTExWlkwNEpVVWs0Ynh3YTc0Z1U5bUxYMTBXT09VVUEzLTVXc0tEVE9vYWxHOVZKQUFmakk5Mm9fQ1E?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 22:17:29 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "지연 이자 안주고 부당 반품까지…공정위, 롯데마트에 '갑질' 과징금 5.7억 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5SmxGVUdJQ0xRMEVEbmZRNWNIc2ZYbkZsX3ZvWHJETEdfVXVuZklHeU1yMWN2aG5EdkpvNFRJZEtQWWdrR2xncUdzQzlKeVMweGtPUTF6czB5QdIBVEFVX3lxTE5UcVgwMUxnMklXUS1iV0cycDc1OFEzWWJnWC1Udnd2YXV0YWdvcmV2dXFrT2ZYUllsb25JR0l6bGJobHdhTEFCejI4cnVnRlk5R1hYQw?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 03:00:12 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "호르무즈 개방 기대감에 뉴욕증시 상승 마감 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNlR3LTVUdDctbVM5dFRwVFJaQ19tX0l3QXhRTUZRbEJMWl9nRUk1Q2pHSmppRjVSTUNwZGViclEwMk9wZ0dqR1FHMkJSOHNnbnIyQXRRNlBENmwwMVhHWklVcWNSbTVwVER0Uk0xUXpNQWVxVHpabWN6ZHBuUkhpNTVtaXVKUEs0MWVHZ2RtVUJldnNEQi1fMnhhS2NrZ9IBsgFBVV95cUxNbWZhcXVQdDRnTVlDOHJrUzJQMDh0NG0xMDdmUTlacG9iMVdDQVlUSllTcmxVRE85WGFFQ0ZicFNKYkFJTFQ3dDZqX244SWllV1lKd2tPc25FbE45bi1aeDhGS0Z3MDdYS3hHV3E2djFNWmZNXzV0U1hYNnlfaFdLS21wcGpBZjhpYkJKdnE1Snd0Z3RwZU41enlWX2RvQm03WXhOaFpscXlFOU9uWi01RndB?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 21:21:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[공식발표] '노팅엄 101경기' 대형 수비수, 韓 축구 입성! 제주, '스포르팅 출신' 피게이레두 영입...\"K리그 열기에 매료됐다\" - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd0pvWDBEaUtvX0ZiLWNHSVdvcnk1Q3V1VF9jYlg5WmRZT2hIU2dzYUF0QmdWdUZLbmZoUjh4Qm5mRkEtcmZXMldkV0VSNXRIRy16SzdCdk9iMWZfOHBIc3Q2ajZvZ1N0NzEySE9JQzZkY0l0bUpfRUE3aXp3N0lrektJONIBlwFBVV95cUxOQkMtTjBYLTJiWjE1N1ZhWGlfTEVTX0JIZExRNGVaTExpSUpZV1BJWHAzODJ0ZUh5cHd0YWFpREhhSFlZM1Rva3FyZGhWM3hRUmRFd3hFeW9EcDAtYmFxcDhvNm9VUmdlb2NxdUdjblFxcEljQUFSbmF4Z1gxWXJmN1hYNGJ6enE0VFo2aUw1M0tlaEVlYW9n?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 04:49:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "용인 신봉동 엘지자이1차 115㎡ 6억6000만원에 거래 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSklsVEpDbnlQNjd6MWItZ2Nja1FwaHlNRlA5WnpFVGIzTDZwdVc3R09BcUJaanNXa01sNmpHYWNIdkljay1CazJDUDVJWk1qdUhYY2VfRlhNUU5EZ1Y4V1hPWlAyTU5lSVozd29QYXhwUm9vREp2akZ3ZWZ4OUF3aVdJS05rVDlDdE10UlNXTzYya1hQblJkc3h4MNIBmwFBVV95cUxNSklsVEpDbnlQNjd6MWItZ2Nja1FwaHlNRlA5WnpFVGIzTDZwdVc3R09BcUJaanNXa01sNmpHYWNIdkljay1CazJDUDVJWk1qdUhYY2VfRlhNUU5EZ1Y4V1hPWlAyTU5lSVozd29QYXhwUm9vREp2akZ3ZWZ4OUF3aVdJS05rVDlDdE10UlNXTzYya1hQblJkc3h4MA?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 04:18:35 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "카나프테라퓨틱스(0082N0) 상승폭 확대 +7.10% - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpYkUxYkswbVJWX054OEVBeS10N3lnWnlLMHBEblM2Vm9kRUMyRWl2XzMtNGtzX1ZfeVhRS3NlRTNFeUROaXJ3ZV9KaUJDNWFocWc?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:45:05 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "큐라클(365270) 소폭 상승세 +4.51%, 5거래일 연속 상승 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aZDJtaWlwak52UTRGR1JLbE9aVUJoZllYM3daQUJ6SVhmQjBYODNpUGRjd1FNVGNoNEctbkljTXhRR1FiMVZZR2RfSU5JS0ppeEE?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 00:13:37 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "압타바이오(293780) 소폭 상승세 +5.37% - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QQUJSQVlVeFFjejVCQ0RpbkhJc1UtOGYxQU0tWEFBT1ZCWHZBWXpDMDRiU0l3UXdpV0hsM0p0SnhhMDdocVk1YlRuRUJNczQ4UlE?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 05:11:07 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "클래스101-스튜디오바이블 합병...페이커·박찬욱 등 콘텐츠 강화 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14RDZjYnF0ck12OFpOZW1pS2ExV3loX3dQbC00N1E4XzNGMUJwNHpfNXBCY1NVWkE4S0FqMXJJQ2NIdDdSY0RoNWRyYXdKbWhrY243Y2d3?oc=5",
+          "pub_date": "Wed, 21 Feb 2024 08:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "클래스101, 장전 김유진의 ‘장사사관학교101 3기’ 모집 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9maW5WMGREb0lESW43LXZYLWZKakZZZzBpSUJwMjROQXhDMUpxUUhGVnMxOEE2ZHhPa0kyTEFTRnRSU0N3NWR5TmhUTGtFbW90QWNYODFR?oc=5",
+          "pub_date": "Fri, 23 Feb 2024 08:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "클래스101, 2020 보상원정대 이벤트 진행 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95THUyZXNNM0JEc0FmSFRrM3FYS2dLcjFnNDVEM1UxeGR6RTJRYmtPeU9JaE1IazFKS1NsWWhOV3RDVmhXWEVob3BNSUNDWHczaFdNYW9R?oc=5",
+          "pub_date": "Tue, 08 Dec 2020 08:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "불황에도 빛난 플랫폼…미리디·클래스101·마이리얼트립, 나란히 ‘흑자’ - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BYXVYVlg5MmUySlYtSXN4SUtxbVNzVzBUVDlNSUc5TmFxMTlhUWdaTHVrTVMzeEFRX05DNDI0c216ellWMUx3dExXb2VPUUhES29lOHhKeVBqTFp4OEVfVUVyNXVuOWZh0gFsQVVfeXFMUGRZV0Y3S2tuVE02X181aTVvUmZlaXVIVWVYZ0VUeDlxMWhOUUJpNW1DUzR4THJSa1I3NUJmaDRpUWZlTnNKOFk2cHJnZGJXdjc2NXhVRXNqdWRSZnlIdHNmQkhiSUZnRS1hZ21K?oc=5",
+          "pub_date": "Sun, 27 Apr 2025 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "클래스101, '구독 경제 플랫폼' 전환한 이유 뜯어보니 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fOUxZRm9LSW5hNVpsdUttcFE4bF93cmJ4amlnN0JCYjZ5YUczcjJPNWROOUN3OUFveFgxTDlvZF82TTB4Zk1tOVdZVEVDTmR6ZGFLOVluSkl0cnptQzJaaUlUY1NoY3PSAWtBVV95cUxNVzVGak5Jczh0OTRudDNIUnc1ZUZxaVh0MzRQQTBMLXhhS3dGWEpMT2ZUX0pxR3g0d0hDS0RibUZaVHViSE1rX0c0c1FDa3JLOVVWRzVfMmswQXZsbjJET3FOTm91RC1fNFFwZw?oc=5",
+          "pub_date": "Wed, 31 Aug 2022 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[클래스101 픽]선한부자 오가닉 \"애드센스, 레드오션이어도 괜찮아\" - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51SGhWaTViTzRwM1FzeUZuQVFOcVF5RlRnUVdPLUlKQ2kzazd5TWNLQUVfcXRna3VtVUpsZ0R5UFBtdFBIVUNVSzVmZmtqZTdXTTBOaEctaEl2cWdNcmtwZ1R4b3gtT0E?oc=5",
+          "pub_date": "Fri, 10 Feb 2023 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "클래스101, ‘크리에이터 홈’ 론칭…브랜딩부터 수익화까지 원스톱 지원 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qZ1ZTRDF4M3VCZnE5S2ZvSzFrVDBmcTVqLVF3ajNNYXdmN2tDTmZBeXdta0p0YTg2M0owelFoNURDRzh4ZFJuOUFfSDJBWVk?oc=5",
+          "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "피처링, 황서림 일본 사업 리드 영입 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82VHdlUHY2ZDZpaldmYURHNVVvTzVLZ1dZLXFhcFQ3RWl4YmRVbEJRSGFlT0hZei1xSVFJQmozQXdrN21URzRGaFgzZDlxU3c?oc=5",
+          "pub_date": "Mon, 21 Jul 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "[인터뷰] 대화가 필요한 사람을 구합니다 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5jb2F0bUdXQzVOU21yYWxGaFZJT1QxWDZ6cDdrU2hsd19hRHpJOEV4MHVKM2RJSGtZcUlxSks4ZXNMeW9EOE5yWEtlNk1iYWRV?oc=5",
+          "pub_date": "Wed, 17 Aug 2022 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "[클래스101] 실무경험 없이 콘텐츠 마케터 인턴 붙은 꿀팁 공개",
+          "description": "있는 기업 ‘클래스101 인턴 합격자’ 인터뷰를 들고 왔어요! 이제부터 자세히 소개드릴게요! Q1.... 전형별 준비 꿀팁 ✅ 면접 전형 면접 꿀팁도 많이 알려주셨는데요. 면접 스킬보다는 “이 사람이 어떤 자세로... ",
+          "link": "https://blog.naver.com/rnjsdbswl04/224224920387",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "원데이클래스 (죠스전용/유료)... 단번에 합격!! 면접 전 태도... ",
+          "description": "원데이클래스 오픈 공지입니다! ✔️영상과는 다른 2차 대면 면접, 임원 합격전략 미리 알고 준비할... 수업/첨삭 후기 5줄 이상 후기 작성하셔야 해요♀️ 죠스 인강 온라인 마스트클래스 수강생은 인강... ",
+          "link": "https://blog.naver.com/doublejo01/224224372397",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[에디터의 취업] AI 시대, 살아남는 에디터가 되기 위하여 1편",
+          "description": "지원하고 합격할 확률은 지극히 낮아 오히려 여러 공고에 지원하고 면접을 통해 업무 핏을 확인하고... 나는 이제껏 정말 많은 회사 면접을 봤었는데 (우아한형제들, 토스, 당근, 챌린저스, 클래스101, 다노... ",
+          "link": "https://blog.naver.com/editor_kkuri/224218797472",
+          "pub_date": "20260316"
+        },
+        {
+          "title": "전략컨설팅 면접 준비: Fit Interview에서 자주 나오는... ",
+          "description": "다양한 합격 후기 살펴보기 [MBB 합격후기] Bain 경력직 합격자 후기(BCG, McKinsey도 인터뷰 진행... 회사 문화는 어떤 특징이 있는가? 전략컨설팅 면접에서 Fit Interview 준비가 중요한 이유 많은... ",
+          "link": "https://blog.naver.com/ecareer/224218239993",
+          "pub_date": "20260316"
+        },
+        {
+          "title": "코테 합격! &amp; 클래스 101 에서... 최종면접용 포트폴리오... ",
+          "description": "그리고 클래스 101 에서 강의 제안이 왔다! 오호... 뭔가 새로운걸 도전 해볼 수 있겠구만 미팅은 3월 27일(금) 최종합격 발표 이후로 잡았다! --- 최종면접에 노션으로 포트폴리오를 제출해야 하는데... ",
+          "link": "https://blog.naver.com/lifedesigner88/224217945833",
+          "pub_date": "20260316"
+        },
+        {
+          "title": "오프닝모먼트 승무원과외 [4월 수강신청 OPEN!]",
+          "description": "영상이라는 문앞에 고배를 마시는 친구들도 합격의 기쁨을 누리는 친구들도 있겠지만. 멈추지말고... 모의면접 위주로 진행됩니다. 기초부터 원하시는 분들은 원데이 or 프라이빗 클래스 수강 후... ",
+          "link": "https://blog.naver.com/eemeeeso/224217548541",
+          "pub_date": "20260315"
+        },
+        {
+          "title": "취업 사이트 총정리 - 취준생, 이직러 주목!",
+          "description": "기업 정보, 연봉 데이터, 면접 후기 등 다양한 취업 정보를 확인할 수 있습니다. 3) 원티드 스타트업과... 3) Glassdoor 기업 리뷰와 연봉 정보를 제공하는 플랫폼입니다. 기업 문화와 근무 환경을 파악할 때... ",
+          "link": "https://blog.naver.com/kym3994/224216560267",
+          "pub_date": "20260314"
+        },
+        {
+          "title": "사우디아항공 합격후기(2023-2024) | SV Saudia",
+          "description": "- 문제 결과는 총 문제 중에 얼마 맞았는지 화면이 뜨는데(예: 83/101), 일정 점수 이상은 &quot;b1 or above&quot;로 똑같이 뜸. 그 아래는 A2라고 뜨는 것 같음(익명 후기에서 본 거라 확실치는 않음). 나중에 파이널 면접 때... ",
+          "link": "https://blog.naver.com/jaeyoungjung_/224216537471",
+          "pub_date": "20260314"
+        },
+        {
+          "title": "외항사 승무원 면접합격 후기, 에어아시아 엑스(Airasia X)",
+          "description": "이게 뭔 질문이야 이 날을 위해서 기출을 101번 읽고 연습하고 갔었는데 엄마랑 아빠중에 누가 더... 승무원 면접합격은 못하겠구나,,,, 미쳤다(P) 진즉에 포기하고, 또 다른 곳 서류지원 한 트럭 하고... ",
+          "link": "https://blog.naver.com/yuuin__/224216355022",
+          "pub_date": "20260314"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "국회의원SNS소식20260321토요일",
+          "description": "전체회의에서 복지부에 주식, 채권, 대체투자 부문장 신설 등 국민연금 기금운용본부 조직 재편 필요성에 대해 서면질의를 했다. https://n.news.naver.com/article/015/0005264213?sid=101 국회의원 김상욱 21시간전 우리 울산이 미래를... ",
+          "link": "http://cafe.naver.com/jungamironware/9266",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "일본어 능력시험(JLPT) 4급(N4) 필수단어 1000",
+          "description": "문화 682 習慣（しゅうかん）습관 683 伝統（でんとう）전통 684 歴史（れきし）역사 685 宗教（しゅうきょう）종교 686 教育（きょういく）교육 687 医療（いりょう）의료 688 福祉（ふくし）복지 689 環境... ",
+          "link": "http://cafe.naver.com/bucheonmeetup/2482",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.104029304029304,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "성장",
+        "워라밸",
+        "장점",
+        "최고",
+        "추천"
+      ],
+      "negative_themes": [
+        "꼰대",
+        "단점",
+        "야근",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "(주)클래스101 2026년 기업정보 | 기업리뷰 444건, 연봉정보 177건, 면접후기 284건, 복지정보 3건, 채용공고 0건",
+          "description": "(주)클래스101 기업정보 - 산업: 포털/인터넷/콘텐츠, 기업형태: 중소기업, 사원수: 80명, 설립: 2015.09.01 | (주)클래스101의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/344239/landing/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "brave",
+          "title": "(주)클래스101 2023년 상반기 채용 | 227건 면접후기 2.8 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 2.8, 면접경로: 온라인 지원 73%, 면접경험: 긍정적 35%, 부정적 27%, 면접결과: <strong>합격 46%, 불합격 36%, 대기중 18%</strong> | 잡플래닛에 등록된 227건 면접후기를 지금 바로 ...",
+          "url": "https://www.jobplanet.co.kr/companies/344239/interviews/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "brave",
+          "title": "(주)클래스101 2026년 기업정보 | 기업리뷰 443건, 2.5 리뷰평점",
+          "description": "(주)클래스101 기업정보 - 장단점 키워드: 성장, 시차, 장점 | 기업리뷰: 최악의 경험, 최악의 시간이였던 회사 | (주)클래스101의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/344239/reviews/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "brave",
+          "title": "(주)클래스101 2022년 상반기 채용 | 20건 연봉정보, ...",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/344239/salaries/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "brave",
+          "title": "클래스 101 51건 평균 리뷰 평점 3.02점 기업리뷰 | 잡플래닛",
+          "description": "<strong>별 하나도 아깝다 젋은 아니 어린 꼰대들이 판치고 자신들이 짱인 줄 아는 우물 안 개구리들의 회사</strong>. 부대표도 기가 차서 나간 사실 상 성장의 한계가 보이는 회사 (장점) 연차가 자유롭다.",
+          "url": "https://www.jobplanet.co.kr/companies/344239/reviews?page=5"
+        },
+        {
+          "source": "brave",
+          "title": "클래스 101 2023년 상반기 채용 | 0건의 채용정보 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/344239/job_postings/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "brave",
+          "title": "클래스 101 2023년 상반기 560건 프리미엄 기업리뷰 | 잡플래닛",
+          "description": "직무와 커리어 94개, 업무 방식 94개, 기업 문화 93개, 일과 삶의 균형 93개, 복지 및 급여 93개, <strong>기업 만족도 93개</strong> | 잡플래닛에서 더 많은 기업분석을 지금 바로 확인하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/344239/premium_reviews/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "brave",
+          "title": "클래스101 - 기업정보 - 인텔리픽",
+          "description": "잡플래닛 평점 · <strong>2.4</strong> · 퇴사율(%) 49.8 · 매출성장세 · 비공개 · 업데이트 일시 · 2023/04/17 05:27 · [Job 보는 눈] 100% 활용하는 방법 인텔리픽에서는 지원자들이 필요한 기업 정보를 한 눈에 ...",
+          "url": "https://jobeyes.oopy.io/a965337c-f434-4327-ae06-af2b6bf6cd0a"
+        },
+        {
+          "source": "brave",
+          "title": "블라인드에서 '클래스101' 비판하면 생기는 일 - 지구인사이드",
+          "description": "회사 비판 글 쓰자 날아온 메시지 “누구야…사무실 돌면서 찾겠다” 클래스101은 사람들이 유료로 원하는 것을 수강할 수 있는 온라인 교육 서비스 업체다. 다양한 분야의 클래스가 있으며 직접 클래스를 개설할 수도 있다.",
+          "url": "https://g9inside.com/?p=4482"
+        },
+        {
+          "source": "brave",
+          "title": "클래스101의 3.0이 기대되는 이유",
+          "description": "전략형 C레벨의 합류 그리고 &#x27;루키 크리에이터&#x27;에 대한 초점. | 이 글의 BGM으로는 에스파의 를 권합니다. 손끝으로 세상을 두드려 움직여I bring all the Drama-ma-ma-maI break Trauma-ma-ma-ma한계를 뛰어넘어 Every day - Drama 가사 中 잡플래닛 Flag.",
+          "url": "https://brunch.co.kr/@positive-kim/382"
+        },
+        {
+          "source": "naver",
+          "title": "(주)클래스101 2026년 기업정보 | 285건 면접후기 2.8 면접난이도",
+          "description": "(주)클래스101의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 2.8, 면접경로: 온라인 지원 75%, 면접경험: 긍정적 38%, 부정적 24%, 면접결과: 합격 53%, 불합격 32%, 대기중 15% | 잡플래닛에 등록된 285건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/344239/interviews_by_filter"
+        },
+        {
+          "source": "naver",
+          "title": "클래스 101 2026년 기업정보 | 134건의 복지정보 0 전체 복지 통계",
+          "description": "클래스 101의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 134건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/344239/benefits/(%EC%A3%BC)%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "naver",
+          "title": "(주)클래스101 2026년 기업정보 | 기업리뷰 444건, 2.5 리뷰평점",
+          "description": "장점 : 의욕넘치는 동료들, 저녁 식대, 사무실 환경, 최신기기 사용, 마케팅의 다양한 부분 경험 가능, 단점 : 스타트업 특유의 젊은 꼰대 문화, 워라밸 붕괴, 조직 변화가 잦아서 적응하기 힘듦",
+          "url": "https://www.jobplanet.co.kr/companies/344239/reviews/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "naver",
+          "title": "클래스 101 2026년 기업정보 | 137건의 복지정보 0 전체 복지 통계",
+          "description": "클래스 101의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 137건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/344239/benefits/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "naver",
+          "title": "(주)클래스101 2026년 기업정보 | 283건 면접후기 2.8 면접난이도",
+          "description": "(주)클래스101의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 2.8, 면접경로: 온라인 지원 74%, 면접경험: 긍정적 38%, 부정적 24%, 면접결과: 합격 52%, 불합격 32%, 대기중 16% | 잡플래닛에 등록된 283건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/344239/interviews/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "naver",
+          "title": "클래스 101 2026년 상반기 773건 프리미엄 기업리뷰",
+          "description": "클래스 101의 전/현직원이 전하는 생생한 기업정보! 직무와 커리어 128개, 업무 방식 129개, 기업 문화 129개, 일과 삶의 균형 129개, 복지 및 급여 129개, 기업 만족도 129개 | 잡플래닛에서 더 많은 기업분석을 지금 바로 확인하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/344239/premium_reviews/%ED%81%B4%EB%9E%98%EC%8A%A4101"
+        },
+        {
+          "source": "naver",
+          "title": "하반기에 부는 취업·이직 바람 이곳 통해야 합격 가능성 ↑",
+          "description": "클래스101, 취업·이직 클래스 구직자들에게 인기 클래스101은 5월 취업... 잡플래닛의 기업 평가 5대 항목인 △복지·급여 △승진 기회·가능성 △워라밸 △사내문화 △경영진 평가를 반영해 평점 3.0 이상 우수...",
+          "url": "https://magazine.hankyung.com/job-joy/article/202206216126d"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 클래스101 리뷰",
+          "description": "장점 ; 포괄임금제 폐지 저녁 식대 무제한(물론 흥청망청 쓰진 않는다.) 사택제공(하지만 대기가 있다) 야근시 택시 탈 수 있다. 그 외엔 채용 페이지에 나온 내용들 참고하시면 될 듯?",
+          "url": "https://www.teamblind.com/kr/company/class101/reviews"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드에서 '클래스101' 비판하면 생기는 일",
+          "description": "잡플래닛 캡쳐 클래스101에 대한 재직자들의 평가는 좋지 않다. 또 다른 익명 직장인 커뮤니티 ‘잡플래닛’에 따르면 이 회사 전현직자들이 남긴 400여개 리뷰에 따르면 종합 평점은 5점 만점에 2.4점이다. 한...",
+          "url": "https://g9inside.com/?p=4482"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 클래스101 리뷰",
+          "description": "장점 ; 포괄임금제 폐지 저녁 식대 무제한(물론 흥청망청 쓰진 않는다.) 사택제공(하지만 대기가 있다) 야근시 택시 탈 수 있다. 그 외엔 채용 페이지에 나온 내용들 참고하시면 될 듯?",
+          "url": "https://www.teamblind.com/kr/company/class101/reviews?page=1&jobgroupFilter&currentEmployeeFilter&orderBy=recommend"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "CLASS101 - 채용 홈페이지",
+          "url": "https://jobs.class101.net/",
+          "text": "CLASS101 - 채용 홈페이지\n\n# CLASS101 - 채용 홈페이지 CLASS101 채용 홈페이지입니다\n\n## CLASS101 - 채용 홈페이지\n\n## CLASS101 채용 홈페이지입니다\n\n## 제목없음\n\n### 더 나은 내일을 꿈꿀 수 있도록\n\n### 클래스101은 더 나은 나, 더 나은 삶을 위해 배우는 모든 이들을 위한 플랫폼을 만들어가고 있습니다.우리는 누구나 꾸준히 배우고 성장하는 습관을 가질 수 있도록 돕습니다. 이 여정을 함께할 동료를 찾습니다.\n\n### 지금 채용 포지션 보기↗︎\n\n## 제목없음\n\n### 우리가 만들고 싶은 세상\n\n### 지난 10년 동안 클래스101은 &ldquo;크리에이터가 사랑하는 일을 가르치며 수익을 만들고, 클래스메이트가 사랑하는 일을 찾고 배우는 플랫폼&rdquo;을 만들기 위해 달려왔습니다. 하지만 지금 클래스101을 찾는 사람들은 조금 더 분명합니다.\n\n## 제목없음\n\n### 함께 세상을 바꿀 미친 사람들을 찾습니다.\n\n### Joi",
+          "score": 0,
+          "published_date": "2025-09-04T00:00:00.000Z"
+        },
+        {
+          "title": "CLASS101 - 채용 홈페이지",
+          "url": "https://jobs.class101.net/faq",
+          "text": "CLASS101 - 채용 홈페이지\n\n# CLASS101 - 채용 홈페이지 CLASS101 채용 홈페이지입니다\n\n## CLASS101 - 채용 홈페이지\n\n## CLASS101 채용 홈페이지입니다\n\n## 제목없음\n\n### FAQ\n\n## 제목없음\n\n### 지원 관련\n\n### Q1. 여러 포지션에 중복 지원이 가능한가요?\n\n#### A. 네, 복수 지원 가능합니다. 각 포지션별로 별도 검토가 진행됩니다.\n\n### Q2. 이전에 지원했던 공고에 다시 지원할 수 있나요?\n\n#### A. 동일 공고에 대한 재지원은 최소 6개월 이후를 권장합니다.\n\n### Q3. 제출 후 지원서를 수정하거나 삭제할 수 있나요?\n\n#### 다만 최신 이력서나 포트폴리오 변경본을 채용팀 메일로 보내주시면 해당 버전으로 검토합니다. 👉 보내실 곳: rosa@101.inc (메일 제목 예: [수정본 제출] 홍길동_프론트엔드_이력서 업데이트) *지원 철회를 원하실 경우에도 rosa@101.inc로 문의해주세요.\n\n###",
+          "score": 0,
+          "published_date": "2025-09-04T00:00:00.000Z"
+        },
+        {
+          "title": "CLASS101 | LinkedIn",
+          "url": "https://kr.linkedin.com/company/class101",
+          "text": "세상에 없던 길을 만들어온 팀, CLASS101입니다.\n\n2018년, 준비물까지 챙겨주는 온라인 취미 클래스에서 시작한 CLASS101은\n이제 6,000개 이상의 콘텐츠와 업계 1위 Learning MAU를 기록한 크리에이터·지식교육 플랫폼으로 성장했습니다.\n처음 우리는 “모두가 사랑하는 일을 하며 살 수 있도록”이라는 비전을 향해 달려왔고,\n그 과정에서 수많은 크리에이터가 재능을 콘텐츠로 만들어 수익을 창출할 수 있는 길을 넓혀왔습니다.\n\n하지만 세상은 다시 한 번 바뀌었습니다.\n지금 사람들은 단순히 ‘취미’를 배우기 위해 CLASS101을 찾지 않습니다.\nAI, 부업, 재테크, 커리어, 디자인, 마케팅…\n모든 선택지의 근원에는 단 하나의 욕망이 있습니다.\n\n“지금보다 더 나은 나, 더 나은 내일을 살고 싶다.”\n\n우리는 다시 근본적인 질문으로 돌아왔습니다.\n고객이 진짜 원하는 것은 단순히 강의를 듣는 경험이 아니라,\n삶이 실제로 달라지는 결과라는 것을.\n\n그래서 CLASS101은",
+          "score": 0,
+          "published_date": "2025-03-02T00:00:00.000Z"
+        },
+        {
+          "title": "클래스101(Class101) 기업정보 - 채용 9건, 인원 88명, 업력 11년, 서울 강남구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/3257",
+          "text": "클래스101(Class101) 기업정보 - 채용 9건, 인원 88명, 업력 11년, 서울 강남구 | 원티드\n\n# 클래스101(Class101)\n\nIT, 컨텐츠서울 강남구12년차(2015)\n\n세상에 없던 길을 만들어온 팀, CLASS101입니다. 2018년, 준비물까지 챙겨주는 온라인 취미 클래스에서 시작한 CLASS101은 이제 6,000개 이상의 콘텐츠와 업계 1위 Learning MAU를 기록한 크리에이터·지식교육 플랫폼으로 성장했습니다. 처음 우리는 “모두가 사랑하는 일을 하며 살 수 있도록”이라는 비전을 향해 달려왔고, 그 과정에서 수많은 크리에이터가 재능을 콘텐츠로 만들어 수익을 창출할 수 있는 길을 넓혀왔습니다. 하지만 세상은 다시 한 번 바뀌었습니다. 지금 사람들은 단순히 ‘취미’를 배우기 위해 CLASS101을 찾지 않습니다. AI, 부업, 재테크, 커리어, 디자인, 마케팅… 모든 선택지의 근원에는 단 하나의 욕망이 있습니다. “지금보다 더 나은 나, 더 나은 내일을 ",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "[클래스101(Class101)] [Growth Squad]] QA Manager 채용 공고 | 원티드",
+          "url": "https://www.wanted.co.kr/wd/262152",
+          "text": "[클래스101(Class101)] [Growth Squad]] QA Manager 채용 공고 | 원티드\n\n## 포지션 상세\n\n클래스101은 '모두가 사랑하는 일을 하며 살 수 있도록'이라는 비전을 가진 팀입니다.불과 한 세대 전까지만 해도 자신이 사랑하는 일을 하고 싶다는 사람들에게 \"그게 돈이 돼?\" \"그걸로 어떻게 먹고 살아?\"라는 반문을 쉽게 들을 수 있었습니다. 우리는 이러한 세상의 편견에도 불구하고 그 일을 시작한 사람들을 '크리에이터'라고 부릅니다.우리는 크리에이터들이 사랑하는 일을 하면서도 멋지게 살 수 있는 세상을 만들고 싶습니다. 한 명이 '가죽공예를 하면서도 충분히 성공할 수 있어' 하면 다른 누군가는 ‘내가 사랑하는 일을 하면서도 멋지게 살 거야.’라고 자연스럽게 말하는 세상을 꿈꿉니다. 그리고 그 범위를 주식, 직무, 게임, 부동산, 영어, 드로잉 등 세상 모든 분야로 확장하고 있습니다.2025년, 왜 지금 클래스101에 합류해야 할까요?1.클래스101은 여전히",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "CLASS101 | 콘텐츠 크리에이터의 지속 성장을 위한 6가지 경영 비법!",
+          "description": "해야할 게 참 많으시죠? 장사에서 사업으로, 사업에서 경영으로 넘어가기 위해서는 목소리를 키우는 게 아니라 시스템을 키워야 합니다. 대표처럼 일하고자 하는 직원은 만들 수 없지만 대표처럼 일하도록 만드는 시스템은 만들 수 있습니다. 그래서 1인기업, 스타트업, 작은 중소기업일 때부터 우리는 하루 빨리 시스템을 만들어야 합니다. 여러분의 사업을 빠르게 성장시키기 위...",
+          "link": "https://class101.net/ko/products/6405689834cdf3000e4f8a11",
+          "pub_date": ""
+        },
+        {
+          "title": "AI로 설계하는 10년 ETF 포트폴리오: 실수 없는 장기투자 전략 | 호기심청년",
+          "description": "함께 비교해 보세요 ; [입문] 소수몽키와 함께하는 미국주식 기초 클래스(A to Z) ; 왕초보도 할 수 있는 미국주식 투자, 배당금으로 제2의 월급 만들기 ; 🔥HOT🔥금리, 섹터, 차트, 패턴까지 한 번에 끝내는 2026 미국 주식 실전 로드맵",
+          "link": "https://class101.net/ko/products/6902e0b81b47451c7d5f5249",
+          "pub_date": ""
+        },
+        {
+          "title": "CLASS101 | “일 잘하는 사람들의 AI 비밀 무기 대공개”",
+          "description": "함께 비교해 보세요 ; AI 전문 방송 섭외 1순위 김덕진 소장의 2024 AI 트렌드 &amp; 활용 전략 ; AI를 이용해 나만의 그림, 동영상 오디오북 만들기, 실전 완전정복! ; 일 잘하는 사람들의 비밀 루틴: 직장인 필수 AI 업무 자동화 실전",
+          "link": "https://class101.net/ko/products/68adae5fd4fcc41704bd210b",
+          "pub_date": ""
+        },
+        {
+          "title": "[MAX Summit 2021 어워드] 모두가 사랑하는 일을 하며 살 수 있도록 '클래스101'이 돕는다",
+          "description": "차별화된 전략으로, 서비스 론칭 3년 반 만에 약 2,700개의 국내 최대... 클래스101은 올해 명확한 브랜드 방향성을 전하고 차별화된... 또한 클래스101의 비전은 앞에서 이야기한 것처럼 ‘모두가 사랑하는 일을...",
+          "link": "https://www.mobiinside.co.kr/2021/12/21/max-summit-2021-award-class101/",
+          "pub_date": ""
+        },
+        {
+          "title": "2025: Rebuilding Our Company Vision–Mission–Strategy",
+          "description": "클래스101은 ‘모두가 사랑하는 일을 하며 살 수 있도록’이라는 비전으로 시작해 크리에이터 이코노미를 선도해 왔습니다. 그러나 고객의 니즈와 세상은 빠르게 변했고, 우리는 이제 ‘더 나은 삶을 위한 배움’이라는 본질적 가치를 향해 나아가고자 합니다. 클래스101이 새롭게 재정립한 비전·미션·전략을 소개합니다.",
+          "link": "https://class101.ghost.io/2025-rebuilding-our-company-vision-mission-strategy/",
+          "pub_date": ""
+        },
+        {
+          "title": "클래스101의 전략분석 및 이러닝 시장",
+          "description": "나는 전략적 분석을 간단히 해보도록 하겠다. 우선 창업 초기에 클래스101이 빠르게 성장할 수 있었던 비결을 나는 크게 3가지 차별화된... 기업교육으로 사업을 확장하지 않을 수 없게 된다. 온라인 직무교육을...",
+          "link": "https://brunch.co.kr/@choihs0228/395",
+          "pub_date": ""
+        },
+        {
+          "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+          "pub_date": ""
+        },
+        {
+          "title": "19,000원으로 달성하는 자아실현 ‘클래스101+’",
+          "description": "기존 사업 방향성을 전환해 구독 비즈니스 모델을 선보이게 됐다”며... 연내 클래스101+를 글로벌로 확대, AI 자동 번역 기능 등의 도입 및 현지화 전략 등으로 장소와 시간의 한계 없이 국가의 경계를 넘어...",
+          "link": "https://ditoday.com/19000%EC%9B%90%EC%9C%BC%EB%A1%9C-%EB%8B%AC%EC%84%B1%ED%95%98%EB%8A%94-%EC%9E%90%EC%95%84%EC%8B%A4%ED%98%84-%ED%81%B4%EB%9E%98%EC%8A%A4101/",
+          "pub_date": ""
+        },
+        {
+          "title": "데이터를 지배하는 사고력, 강양석의 데이터 리터러시 마스터 코스 | 강양석 DeepSkill대표",
+          "description": "행복은 소유한것(물질, 정신적인것 포함)에 대한 만족감이라고 한다면 행복= 만족감/ 소유 정도가 될거 같고 실망은 성과( 결과)에 대한 기대치라고 본다면 실망은 기대치/성과 &gt;1 일거 같습니다. 후회는 가보지 않은 선택에 대한 비교같은데 이것은 수식으로 나타내면 어떻게 될까요?( if 함수가 잠시 생각났다가 수학과 영 거리가 먼 문과라 일단 후퇴ㅜㅜ ) 후회는 선택되지 않은...",
+          "link": "https://class101.net/ko/products/61b6e1aa2931970014206e06",
+          "pub_date": ""
+        },
+        {
+          "title": "비전 및 추진전략 | 인공지능융합전공",
+          "description": "비전 : AI for A Better World, 보다 더 나은 세상을 위한 AI, AI 기초 교과목 운영 : AI 기술 기초 교육과정을 폭넓게 제공하여 비전공자·재직자들의 AI 진입 장벽 완화, 산학협력 교과목 운영 : 산업체 인턴 및 공동 연구를 통한 산업계 현안 문제 해결형 AI 인재 양성, 대학원 운영 : 산학·공공 운영위원회 · 교육·연구·융합 운영위원회 · 글로벌 인턴십·창업 위원회 · 위원장:윤송...",
+          "link": "https://aix.ewha.ac.kr/aix/intro/vision.do",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "7 AI Strategy Playbooks for 2026 Success | Sam Burrett posted on ...",
+          "url": "https://www.linkedin.com/posts/sam-burrett_ai-strategy-toolkit-for-leaders-world-economic-activity-7407635666504683520-yEIy",
+          "text": "7 AI Strategy Playbooks for 2026 Success | Sam Burrett posted on the topic | LinkedIn\n\nAgree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.\n",
+          "score": 0,
+          "published_date": "2025-12-18T00:00:00.000Z"
+        },
+        {
+          "title": "Korea Business Review가 바라본 클래스101의 전환과 다음 챕터",
+          "url": "https://class101.ghost.io/class101-global-knowledge-entertainment-kbr/",
+          "text": "Korea Business Review가 바라본 클래스101의 전환과 다음 챕터\n\n최근 Korea Business Review(KBR)의 Weekly Company Scan을 통해클래스101이 하나의 사례로 소개되었습니다.\n\n이번 콘텐츠는 어떠한 대가나 요청 없이,Korea Business Review의 언론 윤리 강령과 저널리즘 원칙에 따라객관적인 시각에서 분석·발행된 기사라는 점에서 더욱 의미가 큽니다.\n\nKBR은 이번 분석에서 클래스101을 단순한 교육 플랫폼이 아니라,적자의 국면을 넘어 ‘글로벌 지식 엔터테인먼트 플랫폼’으로 전환을 시도하고 있는 기업으로 조명했습니다.\n\n특히\n\n- AI를 활용한 글로벌 확장 전략과 콘텐츠 운영 방식\n- B2B 확장을 통해 비즈니스 포트폴리오를 넓혀온 흐름\n- 비용 구조를 재정비하며 지속 가능한 성장 기반을 만든 과정\n\n등을 중심으로,지난 몇 년간 클래스101이 어떤 선택을 해왔고앞으로 어떤 방향을 향하고 있는지를 차분하게 짚어주었습니다.\n\n이",
+          "score": 0,
+          "published_date": "2026-01-27T00:00:00.000Z"
+        },
+        {
+          "title": "비즈니스리포트",
+          "url": "http://www.businessreport.kr/news/articleView.html?idxno=50735",
+          "text": "비즈니스리포트\n\n[Tomorrow is decacorn] [클래스101] AI 기반 강의 시스템 도입‧구독 확대 고도화 추진\n\n글씨키우기\n\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n- 가나다라마바사\n\n---\n\n콘텐츠 통합‧브랜드 구축 지원 ‘크리에이터 홈’ 출시 셀프 마케팅·AI 챗봇·정산 시스템 개선 등 기능 강화\n\n[사진=픽사베이 제공] 특정기사와 직접관련없음.\n\n[사진= 클래스101]\n\n■ 클래스101은 어떤 회사\n\n클래스101(대표 공대선)은 ‘크리에이터 홈’ 기능을 중심으로 클래스 개설부터 굿즈 판매, 소통까지 통합 제공하고 있다.\n\n현재 크리에이터 약 13만 명이 클래스 6000여 개를 운영한다.\n\n최근 AI 기반 강의 추천 시스템 도입과 기업 대상 구독 서비스 확대 등으로 수익 접점을 넓히고 ‘크리에이터 홈’ 기능 고도화도 함께 추진하고 있다.\n\n특히 온라인교육 시장에서 가장 주목받았던 소식은 월 19000원으로 5300개",
+          "score": 0,
+          "published_date": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "title": "클래스101, 창립 이래 첫 연간 흑자 달성…영업이익 39억원 < 중소벤처기업 < 뉴스 < 기사본문 - 중소기업뉴스",
+          "url": "http://www.kbiznews.co.kr/news/articleView.html?idxno=108278",
+          "text": "클래스101, 창립 이래 첫 연간 흑자 달성…영업이익 39억원 --\n\n## 본문영역\n\nPDF 보기 --\n\n이전 기사보기 다음 기사보기\n\n클래스101, 창립 이래 첫 연간 흑자 달성…영업이익 39억원\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n- 댓글 0\n- 입력 2025.03.17 16:32\n- 기자명 중소기업뉴스\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n#### 올해 AI 기반 맞춤형 강의 추천 서비스 도입과 기업 대상 구독 서비스 확대\n\n올인원 크리에이터 콘텐츠 플랫폼 (주)클래스101(대표 공대선)은 창사 이래 최초로 연간 영업이익 흑자를 달성하며 재무 건전성을 확보했다고 17일 밝혔다.\n\n2024년 클래스101은 영업이익 39억원과 순이익 18억원을 기록했다. 이는 전년도와 비교해 각각 270억원, 273억원이 개선된 결과다.\n\n클래스101은 크리에이터들의 지속적인 성장과 수익 창출 견인을 위해 플랫폼 운영 방식을 최적화했다",
+          "score": 0,
+          "published_date": "2025-03-17T00:00:00.000Z"
+        },
+        {
+          "title": "클래스101, 위기를 기회로: 150억원 추가 투자 유치와 성공적인 턴어라운드 - 10년차 직장인",
+          "url": "https://inblog.ai/ringo/%ED%81%B4%EB%9E%98%EC%8A%A4101-%EC%9C%84%EA%B8%B0%EB%A5%BC-%EA%B8%B0%ED%9A%8C%EB%A1%9C-150%EC%96%B5%EC%9B%90-%EC%B6%94%EA%B0%80-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98%EC%99%80-%EC%84%B1%EA%B3%B5%EC%A0%81%EC%9D%B8-%ED%84%B4%EC%96%B4%EB%9D%BC%EC%9A%B4%EB%93%9C-32909",
+          "text": "클래스101, 위기를 기회로: 150억원 추가 투자 유치와 성공적인 턴어라운드 - 10년차 직장인\n\nAI 뉴스\n\n# 클래스101, 위기를 기회로: 150억원 추가 투자 유치와 성공적인 턴어라운드\n\n온라인 교육 플랫폼 클래스101이 최근 150억원의 추가 투자를 유치하며 새로운 도약의 발판을 마련했습니다. 이번 투자로 클래스101의 누적 투자금은 약 790억원에 달하게 되었습니다.\n\n10년차 직장인\n\nOct 23, 2024\n\nContents\n\n참여 투자사클래스101의 성장과 위기턴어라운드 전략과 성과클래스101의 차별점굿워터캐피탈 : 실리콘밸리 VC굿워터캐피탈의 주요 포트폴리오 회사클래스101 기업 개요인기 클래스클래스101의 재도약\n\n## 참여 투자사\n\n리드 투자사: 미국 실리콘밸리 기반 VC",
+          "score": 0,
+          "published_date": "2024-10-23T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Air India crash to challenge 'world class airline' ambitions - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRDA1WU55TDJvdk5sZjFnQzI1WGFaX0trclRkeTdyWmFZeWxBQmpZUDJKN2IwZGlKV3ZLWVRQd2E2MlA2WDhMcXNaSVVST0VSWlkwNXg1cUowR1dTNlpJX2lNVGx1UmI4Mk53SDhEa1pqbURlcDc3YXNYWWQ5ZTBobUVuR3VWLVdEd2dBZkREamlvbzU4UjlwUzFvSXI0ZTRka3JOSmRIVWtFUzJfRGFQbkFn?oc=5",
+          "pub_date": "Thu, 12 Jun 2025 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Berkshire awards CEO Abel $22 million for 2025, confirms it resumed stock buybacks - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNc25ySGc4aExVb0hOSlVjbjhnci15QnpSUUpmQl9rMDFkODlrMkNHODJmYnRWY19fanBTZGZDYnlHZ2gtT2ZIM2ZaZmltNEZ0cV9JZzJoVXBCa2NZZG1jVHhSSUxQRHhUVDY2bnhscnBvZndISlltYXRtXzNhU1JISFlDaVFjaUN1UExibEUzTEV4ZnJURllsZzl4Z2lCdk1maEREWm5mWlZDSTd5R21rS2ZHRmdUUW1HeVQ4cWloMC1XQXQ3NWtnb0lITU1XSUROWmFYTnYzOVJENmFpMkM5SXdhS1MtUjJfY0FZ?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 20:50:02 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Prices for new cars have soared. Here’s one big reason why. - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOXVJNHMxNVFXRHd3aW00b2U5YkZBd2NzQlAzSVNWSC1sSzJuRUlaT0VtTVRJSWtuLTJVVFdDZWdJUDQ4M3J5YXAzZ2F4cnJneFl4cklWSm9JU3JiYjQwT004ZmJ3b3lMNXJFWkNjRXJkOU1uVVVSZktpYnRTSF9FZlFNdmlpRVl0X3dTV0JHbzl6MGR3TzlvX0NSQWh0dDhKWFpZR1d1WjJEZTNfSlQtcm8xWXdkeEsxSHc?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Hedge Funds Eye Exotic Options to Play Huge Cross-Asset Swings - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOalpIUVpheW5IczRCUU5GeFNqUnZxM0dob0d2NXMxV3RnQkNQQ3RjaHA4dUkwZzlnT0k4SUFYYjFLaGp6bl9pMnNzRnpxTTlISWZzaTZQS0FmVVpQODJXWUY2TkpqRExmdHFLLXhKb3otOEVodExDSzl4ZGJZUzhoemhKNXNBNFQtYS1rWklhNHZ2eE5ZcnQ0Zmw2d1U4clRwRGpPYS04OFN6em5CM0d5c0xFYw?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 14:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Why Is Econ 101 So Bad? - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfSkZPUm9uOHoxMXlwRnBpb3ZQYkRGc3hWNzF2ZHJPUzJlWmFpWjBmVU5CNDlfWklaRkdUd0FYSzZXZ1Nhb1JNQzcxeGN3YWxEVm1yckdnWmwxLVA5a3UxVlFwY0lCVmxvTlhGVTBzLTZmTHo1RzdCQ2lFZy1Odw?oc=5",
+          "pub_date": "Thu, 22 May 2014 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "The Best Undergraduate B-Schools - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZjBjWk1xY2RvcEkxZTRiMkg2c3lVWVZhakZ3MmpjZm9RMUpmTlJ6M3BNSU92ZnFCUGpwNnVRczJpUzBBOEVQR2lLaXY3ZUxhcm9vZHZVZ3ktak5KYjVfcC1oR0RTWE5SWWVsVWRkUUdhUkFTUS1xRnpyRnRhNDg0c0tzWTJwWkF0VWJz?oc=5",
+          "pub_date": "Sun, 07 May 2006 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Online learning platform CLASS101 bags $26M Series B to support growth - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZWJFeWI1ZEp3ME1MVUx0VTlleUQyZzgtOXVjTjV2RHEzTWFZYmxVdGd6ZzVaX09DdGF0S0pseFlnMkprclFHcG5MSWNSanRsTVF3aXlJSHA4cUl3MHRlakFJNFNURGM3LWJWUjRGWmEzTnNXNnpEMm8yY3huU3pFUXlvMVB2bUs1ZmhnNXFOTlRlNzlacURSa2N6ZHJlTWRQYU1iT1JnUWQ?oc=5",
+          "pub_date": "Thu, 02 Sep 2021 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "First drive: 2021 Mercedes-Benz S-Class - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yWnhQLW9yUzVfX3hGRnZkNjBUdEd4SHR6ckhqR0FBMFR3QVo5bGxfbmJEcGppbzQycGhWWm11b3dvLUNjUksyMWpOYVoxR1lRTzI1d3pPM3pMRUNuRVYwTjcyUlFBNWs4TnBVU3I0cktMS052dEV3RFFVc19rdw?oc=5",
+          "pub_date": "Tue, 22 Jun 2021 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Washington’s political class doesn’t know Y Combinator exists — yet - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3YxZWY4eVFETmZ3Z0NUbVphQllqUFJvUGpYREdhVU5OQWhpUWtURWVHa0JZRTlhX3g0dkZRV3dCOXFGdjZoOUhSVGhUdkQ4WmRINVYyY1VWbkJ3Q08zZmVLQS04bzNINzJuQk55QWthbUlnRXJUOUVzX0ExSkpXcE5yTm9pU3JTU04wRFVES2U2V2xpVkkyQjNlUXdtVUpQdC0tbG1iV1FJdWQxWmxPV1RXZXdhbGM?oc=5",
+          "pub_date": "Tue, 11 Jun 2024 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Epstein Files Exposed Her Name. Now Svetlana Pozhidaeva Tells Her Story. - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxQR21rSEhVd0d1eEdaS0d0OEhqcV9MTUQ0T1gyeEt0NkQ3bWJPV3NiTWlJT29fTVR6ZVBSVEZFcy1LSUVhaW1fdjNrT3YtNjNEYU5yZExDOTNMdGU4VDR3LVJoU2JXLWttSXR1THVDZGxyZmhLMnE3eF9ndXVRT19sTndLQlhJd0xTZ3U4NlUwX2lWdTlkZC1handGQVBMb21JbVlJR05UY2hsdnFHMmZVNGZ5U2JtU3lKeTlId200ZnZqeDMyOFNUcWtGN25vT3lRQVlIZWNaMDFZeWdXWkNsVklybVpoQzZsT3RKbGxmZ183STZtSWROSTJ2WFRZa0ktUEJOMXMteDdKNHVmMEh1Zlpxc21WUmU3X0g4Tnd0aThtbTFDY29JMzRVVjg5bUVqU1BTOUxIaV9kZ0p3QjNDdEhnVlBCc0UxdU81QllxTm5kdVNxMDN2STdLWWlyUHIyMS1uT00tOU5ydk9naDl4TER4aDRhS2NsdVZYbUV6X3Q?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 01:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Taiwan’s All-Hands-on-Deck Plan to Fend Off China - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNMzFaN3RWN2hsUV81aWpOQjlDaG9qR2F3bGpwS1l4TEF0OGxRRm9Dek04Uzc2WV95UzNCZGR2OXlYcjM5bXp0V0VlOWF0TzVZd1pQMEtpRU5Uc1JVMDlvNFkwazl1MzR4UEE1V013V2JTSm5UbmNqWVFiTWJPd0ZuS1BYN2NzS1ZacmZoc2RTcGtxU2pZeHhSZWwwZ0pNaUE4ZzE3ZC01b3BIWEw3ZU8wQkNYWVN5SlZCSF8wOHdfc0ZPZkZabk5FZXQ1dk8tOWw2U1A0aDBzXzNKT2EyRXB2a0pBaXpFb2ZaQUVVU1hJdVF3NEZPU0hEMmZmU2pTYlZrektMam53b0ZmSk9DWDg4WlEyYXVXY1k3YUlyMDZ6QVhWVmVXVFlMWUc2N0JYUEs2NVpMelRwRThHUTZfM1k5SjhOa2hqRUNwYzhXOFFOckpZUVVHYlJrS1BmQWVfN2ZRcGJlSEhFWUdJMW9XVmd0WTRHcl9MSVNHekExaFgyRC1DNkVPZDZRTlhzeXN0WWdBOV83TkZUSQ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 00:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "The Most Interesting Team in College Basketball? It’s the Economists, Stupid - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMimgNBVV95cUxPRGNzUE5FRHRRck56ajFYTmoxOVJ1RW5pMTd1Tmd6VlpfNEpxeU9LR0NkVWtEQjNwckt1Zk1iNWMxdDFtczBjT2x1ZW43NUtEem9HTkxLYUZuY1dRV1NXcHg1UGF2azB1b0RMemJQNl9sS1pDQ2FYelIwN1Rub1kzRkZWRTVvb0ZxeEIyRGVpYUZKVkRVSEtXcVZobjliX0ttazFjZlM5MHRSUnRtWndfbllUNHVrb3pDY3hVYUlESm82NXdvM2F3NUZhZHZIbkttaElWR3JoYzZ2SExXU2F2NTQxQVlySldyTXhpNnpxZEFFUXRYM3ozOXNBRWI0WS1vSXI4VjQ1dHBrdkpCLUh2WjJReUxtV1dTdVdQZERDNjlNRTFqa2hrMzZ6UmU3akNYLWNhbEE3X2VJNFJEY05CTXUzbDZVcFpSSGpKcHpSTWNWSy1iNUhod1l0NVowR1UwM21WQkJvNEpkeS1ES1EzYWpUMW1tZzZyUjFrbGhvbEdKYUtGenZvM2tfNmdyTDdYLTJoUm1xRWdsdw?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 13:15:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Former Japanese Prime Minister Nakasone dies at 101 - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVHJwMmdwWGVJeHQ5VmdEeFM5aU45SUhyUnltRnExU3hvVldQNEtNTGl6Y3BOTzliY2dHWmFNdDh4UjVlclYwSW9qUmc1eGV6YTlhcl95TWVKaGJEUGc3bllQUjdDaEdya0lVbjVxUFUtZGkxa2hZb0xfbDNaMlkxREowMEdVbXlvZjZJSWFNbmRRQzY5LXh6cFdoVDg?oc=5",
+          "pub_date": "Fri, 29 Nov 2019 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Philippines' Hotel 101 seeks cash abroad to fuel global rise - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaHQtX1VfYWdPbURUVWdUZXpmNGtZMkZiNXBZemc4TThzMm4zNVpvNE9zVEtIbko3Wk1tak5LV045UkxZd0Z3dzZBQzF4ZlpuOGV3Qi1IYlVzLXk1WUs5dGtFQWhPM0ZHU0JyalhMSXpzbWlldHlOTldXMlpwNWZhMGhNYzdWaG9ERmNFbzFWRU1zbzc0OWw3WnoyajVjWFhlREo5Uw?oc=5",
+          "pub_date": "Wed, 30 Jan 2019 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Analysis: Xi floats 2027 as new milestone year - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTWNlNXE2X1FWT2F4VnBfVzk3YklzYjdHaFliS21YaUxqRDA2dDFKTVNDbzRQcVNFT1c4VURaODRMWGYtQ05LamtsM2wxUGFqTTZFbU5iS09ucXZ0MTd6OUFWZmw2Qld2dElqbXg2X1VyNXNiMGZCWDl5UlNqX3N3Z3Q3aHVaNmJpbTFXTHZwTkItOGNVZC1EUzlQaUZYVjlt?oc=5",
+          "pub_date": "Thu, 10 Dec 2020 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "If Teslas Had a Kickstand: Premium Electric Motorcycles Are Finally Ready to Ride - The Information",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUkVGbzk1dW1SaFpjYUZucWtqNWdha1dRalEwQjA0OVI5bzlkVWV4OEs5aS1KRGItYXoyNFFEVjhUcHdRNHJEdlV5dnpnS21NS2puNkZna01XZFJYaXdFaTRXT2dXQVBCX2V6NENLZkR3YmJQWnNVdlFQX1FINWpWd0M4NzdyUnptOTNjUUxpSWRyZG9QLU5mM2hoQmwwVDZxZ29leHI5SF9GeDk0MDNJR1FKQ2U0ejQ3S0toWQ?oc=5",
+          "pub_date": "Sat, 18 Feb 2023 08:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "Tech Goes Cold Turkey: Inside Silicon Valley’s New Temperance Society - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYkZ3b0ZSZ3VURmRmU2t6dWJsU2M1b3FPVnJzX0V1MnJaUTNPWDA2MnJDTC1ZalJIUEdvbWFTTlFmRjZoLTRjMTIwU3pSNlRwM1ZsUW4tc0dkVlB5M2h2eU9lYjNzVVVIQmZRQld6WHcxMGU4UlhqaThXSHdrZGhNaVBDaDNrajhWXzFiTlJHYzF6amJjS0ZEWGFuNlRzMTdwQmJMajI0b25UWVk?oc=5",
+          "pub_date": "Fri, 11 Nov 2022 08:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "How to Regain Control Over Your Data - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQck5NMTFZMWZTd01sSmpHaXliZFdnQzc3cWktSi1GWXpySGhmbGVjNFAtSnFvaWpIZ25NaThjNnMycmp3SEF5c2lpRmhNZFlITzE4Sm9SQ2tUVGtMbkl1SGp6Ty1pcEFxTVJpNHhqZ2p3cm1hMUhVcUd4MVc1dVFyRkJB?oc=5",
+          "pub_date": "Wed, 03 Apr 2024 07:00:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Welcome to the Docs",
+          "url": "https://class101.dev/docs",
+          "text": "Welcome to the DocsSkip to Content\n* Documentation\n* Home\n* Quick Start\n* 브랜치 전략과개발흐름\n* 장비 설정과라이센스\n* Feature Flag\n* GraphQL\n* Federation\n* [SDL 작성가이드](https://class101.dev/docs/",
+          "score": 0,
+          "published_date": "2025-05-27T00:00:00.000Z"
+        },
+        {
+          "title": "기술부채가 쌓여있는 상황에서 서비스 성능 임팩트 있게 개선하기",
+          "url": "https://class101.ghost.io/challenges003/",
+          "text": "기술부채가 쌓여있는 상황에서 서비스 성능 임팩트 있게 개선하기\n\n클래스101에서는 지난 세달간 광고 이탈율 개선 및 레거시 코드 청산을 목표로 겁나빠른클원 프로젝트를 진행하였습니다. 이 글에서는 거대한 기술부채가 쌓여있는 상황에서 어떻게 임팩트있게 서비스 성능을 개선 했는지 에 대한 경험을 공유합니다.\n\n프로젝트 참여자: 이현우, 네롤리(박성민), 서재우, retn0, GeonHo Tony Han\n\n# Context\n\n클래스101은 2018년 3월에 첫 런칭을 한 이후 굉장히 많은 기능들을 굉장히 빠른속도로 추가해 왔습니다. 그 과정에서 수많은 기술 부채들이 쌓여왔고 이 부채들이 성능저하로 이어져 유저들의 불만이 쌓이기도 했습니다. 또한 퍼포먼스 마케팅 성과에도 영향이 있지 않을까? 하는 의심들이 커져갔습니다. 이제는, 제품의 품질에 위기의식을 가지고 개선을 해야겠다는 마음가짐으로 프로젝트가 킥오프 되었습니다.\n\n# How to\n\n출처: Software Engineering at G",
+          "score": 0,
+          "published_date": "2024-10-18T00:00:00.000Z"
+        },
+        {
+          "title": "How Class 101 developers transformed the way they worked internally with Hackle’s feature flags",
+          "url": "https://medium.com/@jaeyoon_46467/how-class-101-transformed-the-way-they-worked-internally-with-the-introduction-of-hackles-feature-c12ca619c86e",
+          "text": "How Class 101 developers transformed the way they worked internally with Hackle’s feature flags | by Jamie Lee | Medium\nOpen in app\nSign up\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https://medium.com/@jaeyoon_46467/how-class-101-transformed-the-way-they-worked-intern",
+          "score": 0,
+          "published_date": "2022-03-15T00:00:00.000Z"
+        },
+        {
+          "title": "Tech stack 101 | Ep-35 | What is a Spring boot application and how ...",
+          "url": "https://nagarjungopalaswamy.medium.com/tech-stack-101-ep-35-what-is-a-spring-boot-application-and-how-to-understand-it-b74a3cddde73",
+          "text": "Tech stack 101 | Ep-35 | What is a Spring boot application and how to understand it ? | by Nagarjun Gopalaswamy | Towards Dev\nSitemap\nOpen in app\nSign up\n[Sign in](https://medium.com/m/sig",
+          "score": 0,
+          "published_date": "2025-05-05T00:00:00.000Z"
+        },
+        {
+          "title": "101 real-world gen AI use cases with technical blueprints",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/real-world-gen-ai-use-cases-with-technical-blueprints",
+          "text": "101 real-world gen AI use cases with technical blueprints | Google Cloud Blog\n\nAI & Machine Learning\n\n# 101 gen AI use cases with technical blueprints\n\nAugust 21, 2025\n\n- Transform with Google Cloud\n- \n- [](https://www.linkedin.co",
+          "score": 0,
+          "published_date": "2025-08-21T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 76.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.5,
+        "evidence": "12 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01543821"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=클래스101"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=클래스101+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%ED%81%B4%EB%9E%98%EC%8A%A4101"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=클래스101 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=클래스101 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=클래스101 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=클래스101 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%ED%81%B4%EB%9E%98%EC%8A%A4101"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

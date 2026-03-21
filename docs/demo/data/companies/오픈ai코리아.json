@@ -1,761 +1,948 @@
 {
   "company": "오픈AI코리아",
-  "sources_used": [
-    "exa_search",
-    "google_news",
-    "dart",
-    "naver_news",
-    "credible_news",
-    "brave_search",
-    "naver_search"
-  ],
-  "result_count": 13,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "data": {
-    "recent_news": [
-      {
-        "title": "유한양행, 전립선 비대장애 개선 일반의약품 '카리포맨연질캡슐' 출시 ...",
-        "description": "◇유한양행, 비판텐ㆍ카네스텐 도입 첫 달 30만 개 판매 돌파 ▲ 유한양행은 지난 2월 바이엘 코리아와... 출구 전략(BW Biomed 우정훈 대표) △AIㆍ빅데이터를 활용한 신약개발 전략(아이겐드럭 김선 대표) △정부의... ",
-        "link": "http://www.newsmp.com/news/articleView.html?idxno=246168",
-        "pub_date": "Fri, 11 Apr 2025 16:52:00 +0900"
-      },
-      {
-        "title": "송파구 통합도서관 홈페이지 새 단장",
-        "description": "구는 향후 오픈 이벤트 등을 마련해 이용자들의 의견을 듣고, 운영에 적극 반영할 계획이다. 박성수... 11월 코리아세일페스타 중 100억 원 규모의 지역 화폐를 발행했다. 또 오는 21일 낮 12시 e서울사랑상품권을 12억 원... ",
-        "link": "https://view.asiae.co.kr/article/2021120909411172228",
-        "pub_date": "Thu, 09 Dec 2021 09:43:00 +0900"
-      },
-      {
-        "title": "[핀테크핫이슈] 금융권의 역습...각종 IT 서비스 전면 배치",
-        "description": "인공지능(AI) 서비스 개발 협력 및 공동 비즈니스 발굴을 위해 전략적 업무협약을 체결했다. 삼성전자가... 이 협약으로 세 기관은 2021년 5월부터 KOTRA가 운영 중인 기업용(B2B) e커머스 플랫폼 '바이코리아(www.buykorea.org)... ",
-        "link": "http://www.digitaltoday.co.kr/news/articleView.html?idxno=252566",
-        "pub_date": "Tue, 10 Nov 2020 08:03:00 +0900"
-      }
-    ],
-    "company_name": "주식회사 코리아",
-    "company_name_eng": "korea co,.ltd.",
-    "stock_name": "코리아",
-    "ceo": "김승곤",
-    "address": "대구광역시 중구 동덕로 115 (삼덕동2가, 진석타워) 1711호",
-    "industry_code": "68112",
-    "established": "20121026",
-    "homepage": "www.picassocon.com",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "영국 MBA 준비과정: 떠나기로 결심한 이유 &amp; Programme... ",
-        "description": "나에게는 너무 큰 부분이라 그냥 고민 없이 지원하게 됐다 일부 석사 지원 후기를 찾아보면 Reference 에 대해 중요하게 생각을 안하는건지 Reference 받지 않았는데도 합격한 case 가... ",
-        "link": "https://blog.naver.com/setsunai24/224214759107",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "‘AI 활용 디지털 마케팅... 경기도 일자리 사업 면접 후기",
-        "description": "&lt;면접 질문&gt; 1. 간단한 자기소개와 지원동기 2. AI 활용해서 작업이나 sns 게시 경험이 있는지. 3. 수료 후에 진로. 취업 or 창업. 4. 이 교육 후 취업까지 연계 될 때 걸림돌이 있다면 무엇일지. 1,3번은 준비했는데 2... ",
-        "link": "https://blog.naver.com/sssss293/224224875009",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
-        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
-        "link": "https://sibauchi.tistory.com/1205",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "서류합격 + 면접답변코칭 / 모의면접 까지 함께 한 면접컨설팅... ",
-        "description": "서류합격 및 면접코칭후기를 준비해보았습니다 보안검색부터 민원대응, 안전확보까지 모든 과정을... com/o/gFIFIhkc &lt;&gt; 2) 자소설메이트 현직자/경력직 커뮤니티 &lt;패스파인더&gt; 대기업/공기업부터 의료, 문화... ",
-        "link": "https://blog.naver.com/karaface/224224727404",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
-        "description": "또는 기업이 바뀌는 경우에는 별도 재의뢰가 필요합니다. 문의하기 : 오픈채팅방 https://open.kakao.com/o/scra0j8h 전문가 정보, 서비스 후기 보기 : 크몽/자소설닷컴 클릭 https://kmong.com/gig/371909 &lt;&gt;&lt; &quot; &amp; https... ",
-        "link": "https://blog.naver.com/goodlife_92/224224618278",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
-        "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
-        "link": "https://ilovefamily.tistory.com/527",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "워크넷 이력서 수정 및 재등록 방법 취업 성공 팁",
-        "description": "전문가의 조언과 생생한 후기: 성공적인 이력서 작성을 위한 나침반 💭 취업 컨설턴트들은 &quot;이력서 작성 시 직무 관련 경험과 역량을 구체적으로 기술하고, 지원하는 기업의 가치와 문화에 부합하는 인재임을... ",
-        "link": "https://think-tank.tistory.com/1073",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "정공법으로 하이닉스 취업한 방법 | 신입 최종 합격 후기",
-        "description": "꿈의 기업과도 같은 존재입니다. 오늘 모신 인터뷰이님과 함께 SK하이닉스 합격의 모든 것을... 특히 A!SK는 이전까지 없다가 새롭게 도입된 AI 면접이라고 하니 표본이 많이 없어 어려움을 겪을 수도 있겠네요.... ",
-        "link": "https://blog.naver.com/9uroxivv/224224551468",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "경력 단절 걱정 없는 평생 직장? 세무회계 · 법률행정... ",
-        "description": "kr) 또는 노인일자리여기(seniorro.or.kr) ② 민간 직접 취업 → 잡코리아 / 세무잡(semoojob.co.kr) / 고용24... 매칭 기업 안내 5 면접 → 합격 → 업무 시작 합격 후 근로계약 체결 → 인턴십은 3개월 후 정규직 전환... ",
-        "link": "https://blog.naver.com/seniorwise/224224479853",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
-        "description": "오늘은 취준생이라면 한 번쯤 목표로 하는 기업, SK AX에 합격한 신입사원분과 인터뷰를 진행해봤습니다  ✔ 합격 스펙은 어땠는지 ✔ 채용 과정은 어떻게 진행되는지 ✔ 자소서·면접은 어떻게 준비했는지... ",
-        "link": "https://blog.naver.com/ttooooriiii/224224472695",
-        "pub_date": "20260321"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "정책뉴스20260321토요일",
-        "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 인재추천·채용지원 서비스 선호 - AI가 추천한 일자리에 2.1만 명 취업, 전년 대비 61% 증가 AI 기반 일자리... ",
-        "link": "http://cafe.naver.com/jungamironware/9268",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "2026년 3월 20일 금요일 정책키워드 총정리",
-        "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 인재추천·채용지원 서비스 선호 - AI가 추천한 일자리에 2.1만 명 취업, 전년 대비 61% 증가 AI 기반 일자리 매칭 서비스가... ",
-        "link": "http://cafe.naver.com/magicbank/3332",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "아니라 ‘조직 문화에 적응시키는 감정 노동’을 수반합니다. 세대 간 가치관 차이가 극명해진 상황에서, 기업은 관리하기 까다로운 주니어 인력 대신 말을 완벽하게 알아듣고 감정 소모가 없는 AI를 채용(구독)하는... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "충청남도보도자료20260320금요일",
-        "description": "엔터테인먼트 코리아 이스포츠 매니저), ▲OGN의 남윤승 대표 ▲한국전자통신연구원 이상광 박사... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자 박람회... ",
-        "link": "http://cafe.naver.com/jungamironware/9239",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "비축유 추가 방출 가능성도&quot; - 삼성전자, 오픈AI도 뚫었다…8억Gb 'HBM4' 단독 공급…엔비디아·AMD... 리노공업, 코리아써키트, 두산, 티이엠씨, 기가비스, 심텍, 제이스텍, 디아이, 피에스케이홀딩스... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "[AI픽] 오픈AI 코리아 출범…삼성·SK와 파트너십 시사(종합)",
-        "description": "최고전략책임자(CSO)가 10일 오전 서울 광진구 파이팩토리 스튜디오에서 열린 오픈AI 코리아 기자회견에서 향후 활동 방향 및 비전에 대해 소개하고 있다. 2025.9.10 *******@yna.co.kr (서울=연합뉴스) 오지은...",
-        "link": "https://www.yna.co.kr/view/AKR20250910038751017",
-        "pub_date": ""
-      },
-      {
-        "title": "대한민국의 AI - OpenAI 경제 청사진 보고서",
-        "description": "이 청사진 보고서는 한국이 인공지능의 이점을 극대화하고 경제 성장을 촉진하는 데 도움이 될 정책 제안을 담고 있습니다.",
-        "link": "https://openai.com/ko-KR/index/south-korea-economic-blueprint/",
-        "pub_date": ""
-      },
-      {
-        "title": "인터넷 강국에서 이제는 AI 강국으로…오픈AI, 한국지사 출범",
-        "description": "최고전략책임자(CSO)가 10일 오전 서울 광진구 파이팩토리 스튜디오에서 열린 오픈AI 코리아 기자회견에서 향후 활동 방향과 비전을 설명하고 있다. 오픈AI 코리아 제공 생성형 인공지능(AI) ‘챗GPT’ 개발사...",
-        "link": "https://www.segye.com/newsView/20250910505689",
-        "pub_date": ""
-      },
-      {
-        "title": "오픈AI &quot;한국은 AI 리더십 확보의 결정적 시점&quot;… 경제 청사진 보고서 공개",
-        "description": "오픈AI가 23일 '한국에서의 AI: 오픈AI의 경제 청사진' 보고서를 공개하고, 한국이 포용적 AI 성장을 통해 글로벌 리더십을 확보할 수 있는 전략 방향을 제시했다. 보고서는 GPU·컴퓨팅 인프라 강화...",
-        "link": "https://blog.naver.com/ittimesnews/224051026911",
-        "pub_date": ""
-      },
-      {
-        "title": "오픈AI, 새로운 이니셔티브 ‘오픈AI 포 컨트리’ ...민주적 AI 기반 구축하고자 하는 전 세계 국가 지원",
-        "description": "글로벌 전략을 7일(현지시간) 공개했다. 이날 오픈AI는 ‘오픈AI 포 컨트리(OpenAI for Countries)’라는 새... 더불어, 민주주의 원칙과 인권을 존중하는 글로벌 규범을 반영해 AI 발전 방향을 조율하는 시스템을 함께...",
-        "link": "https://www.aitimes.kr/news/articleView.html?idxno=34859",
-        "pub_date": ""
-      },
-      {
-        "title": "오픈AI 비전 소개하는 제이슨 권 CSO",
-        "description": "제이슨 권 최고전략책임자(CSO)가 10일 오전 서울 광진구 파이팩토리 스튜디오에서 열린 오픈AI 코리아 기자...",
-        "link": "https://www.yna.co.kr/view/PYH20250910050700013",
-        "pub_date": ""
-      },
-      {
-        "title": "&quot;한국이 AI의 리더 되려면...&quot; 오픈AI가 제안한 두 가지 비법은",
-        "description": "독립적 AI 생태계 구축과 글로벌 AI 기업과의 협력이라는 '투 트랙' 전략을 추진해야 한다는 것이다. 오픈AI는 23일 '한국에서의 AI: 오픈AI의 경제 청사진' 보고서를 공개했다. 보고서는 &quot;한국은 현재 진행 중인...",
-        "link": "https://www.hankookilbo.com/News/Read/A2025102316030000902",
-        "pub_date": ""
-      },
-      {
-        "title": "[리셋 코리아] AI 모델로 산업 혁신 이끌 전략이 없다",
-        "description": "미국의 오픈AI·구글·앤스로픽 등이 조 단위 투자를 앞세워 시장을... 이끌 전략과 비전의 부재에 있다. AI 생태계는 모델에 국한되지... 편집 방향과 다를 수 있습니다. 김주호 KAIST 전산학부 교수·리셋 코리아...",
-        "link": "https://www.joongang.co.kr/article/25244101",
-        "pub_date": ""
-      },
-      {
-        "title": "Korea 신뢰성 있는 고성능 인공지능 기술 확산을 위한 전략",
-        "description": "글로벌 AI산업 및 시장 경쟁이 치열한 가운데, 주요국은 AI 육성을 위해 다양한 정책을 추진해왔다. 최근에는 AI 육성뿐만 아니라 안전하고 신뢰성 있는 AI 기술에 대한 요구도 커지고 있는 추세다. 이에 글로벌 AI 선도국들과 우리나라의 AI 육성정책을 살펴보고, 신뢰할 수 있는 고성능 AI의 활용·확산을 위해 필요한 전략과 비전을 검토해보고자 한다.",
-        "link": "https://tongsangnews.kr/webzine/1532312/special_4.html",
-        "pub_date": ""
-      },
-      {
-        "title": "오픈AI “한국, 기술 독립 생태계 - 글로벌 협력 ‘투트랙’ 필요”",
-        "description": "오픈AI는 보고서를 통해 한국이 디지털 주권을 확보하는 동시에 글로벌 프런티어(최첨단) AI 기업과 협력을 병행하는 ‘듀얼 트랙’ 전략이 필요하다고 제안했다. 오픈AI는 이날 오전 크리스 리헤인(사진)...",
-        "link": "https://v.daum.net/v/20251023130146557",
-        "pub_date": ""
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "[단독] 오픈AI, 한국 사무소 채용공고 냈다...5년차 이상·6개 직무",
-        "url": "https://v.daum.net/v/20250529084308680",
-        "description": "오픈AI의 한국 진출 배경으로는 <strong>△한국의 경쟁력 있는 기술 산업 △기업과 학계를 아우르는 혁신 문화 △일반 대중의 일상생활 속 AI 도구 활용에 대한 높은 관심</strong> 등이 꼽힌다."
-      },
-      {
-        "title": "오픈AI 한국 첫 채용 시작, 어떤 인재 원하나? | 요즘IT",
-        "url": "https://yozm.wishket.com/magazine/detail/3158/",
-        "description": "오픈AI 측은 한국이 경쟁력 있는 기술 산업, 기업과 학계를 아우르는 혁신 문화, 그리고 일상생활 속 AI 도구 활용에 대한 높은 관심을 바탕으로 세계에서 가장 AI 도입이 활발한 국가 중 하나라고 평가했습니다. 또한, 한국은 반도체부터 소프트웨어까지 AI의 전 과정을 아우르는 통합 생태계를 갖추고 있는 AI 선도국이라고 언급했어요. 이런 이유들로 OpenAI에게 한국은 정말 중요한 전략적 요충지로 평가받고 있죠."
-      },
-      {
-        "title": "[OpenAI] 2025년 OpenAI 한국지사 채용 (경력) | 공모전 대외활동-링커리어",
-        "url": "https://linkareer.com/activity/245208",
-        "description": "[OpenAI] 2025년 OpenAI 한국지사 채용 (경력)합니다. 모집인원은 0명이며 B2B영업/기술영업, 일반영업 분야의 인재들은 지원해주세요!"
-      },
-      {
-        "title": "Careers | OpenAI",
-        "url": "https://openai.com/careers/search/",
-        "description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission."
-      },
-      {
-        "title": "오픈AI, 서울 지사 인재 뽑는다…6개 직군 동시 채용 - ZDNet korea",
-        "url": "https://zdnet.co.kr/view/?no=20250529010800",
-        "description": "<strong>고객 접점에서 인공지능(AI) 모델을 실질적으로 구현할 수 있는 인력 풀을 확보해 글로벌 시장 중 전략 요충지인 한국 내 영향력을 넓히려는 움직임</strong>으로 읽힌다."
-      },
-      {
-        "title": "한국 지사 채용 시작한 오픈AI...면접 예상질문 살펴보니 - 매일경제",
-        "url": "https://www.mk.co.kr/news/it/11331656",
-        "description": "<strong>기술적인 질문보다는 지원자의 학업이나 경력, 지원 동기 등의 정보를 파악하면서 지원자와 기업 조직 문화의 핏(fit)이 맞는지 판단하는 과정</strong>이다."
-      },
-      {
-        "title": "오픈AI, 한국에서 채용 시작...서울 지사 설립 본격화 - KMJ",
-        "url": "https://www.kmjournal.net/news/articleView.html?idxno=1425",
-        "description": "오픈AI는 <strong>주 3일 오피스 근무 + 주 2일 재택근무를 선택할 수 있는 하이브리드 근무제를 도입해, 글로벌 테크 기업다운 유연한 근무 문화를 반영</strong>하고 있다."
-      },
-      {
-        "title": "[단독] 오픈AI, 한국 사무소 채용공고 냈다…5년차 이상·6개 직무 : 네이트 뉴스",
-        "url": "https://news.nate.com/view/20250529n07317",
-        "description": "오픈AI의 한국 진출 배경으로는 <strong>△한국의 경쟁력 있는 기술 산업 △기업과 학계를 아우르는 혁신 문화 △일반 대중의 일상생활 속 AI 도구 활용에 대한 높은 관심</strong> 등이 꼽힌다."
-      },
-      {
-        "title": "오픈AI, 한국 법인 채용 시작…6개 직군서 경력직 중심 | 연합뉴스",
-        "url": "https://www.yna.co.kr/view/AKR20250529174900017",
-        "description": "전략 부문의 경우 &#x27;<strong>연간 200만 달러 이상의 매출 성과를 3년 이상 연속으로 달성한 경험</strong>&#x27;, &#x27;서비스형 소프트웨어(SaaS), 서비스형 플랫폼(PaaS) 분야에서 14년 이상 영업한 경험&#x27; 등이 지원 ..."
-      },
-      {
-        "title": "'openai' 관련 📢 채용공고 | 총 65건의 검색결과",
-        "url": "https://www.jobkorea.co.kr/Search/?stext=openai",
-        "description": "&#x27;openai&#x27; 검색결과 총 65건- 2025 openai 채용정보가 더 알고 싶다면? 기업정보, 취업정보를 No.1 커리어 플랫폼 잡코리아에서 확인해보세요."
-      }
-    ],
-    "google_news": [
-      {
-        "title": "엔비디아의 인재 영입에서 배우는 채용 전략 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9paHQycldjZTdEVl9RclF4RlprUDROMURtNHRmdllGWHFlV0FLSVR0cUo0elEyeE9UdFlGVU8yR3BwMzBJbVVrSVhPZGxJbl84OGs5emtB?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:38:25 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "오픈AI 전세계 조직, 샌프란서 전략회의…\"코드레드 아직 발령중\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vYmZMMEZyTFZBYWZVa2VwLUNXbVhsS3JGMGYyS0xMZjhKUG1RQ2RLVGRlQmNYVEFKWk9JUGpic0NITkprQjJZOVdIUXZDcjJuU3dNNzhrNWNfVjTSAWBBVV95cUxOOEg2RktydUM1T1RwM284TUQ0NkU1ZGhYNVNBN0FIOTNQX2VJYVk0U1ZxUmRmSkJFMUxYcHYyMEhVRDduUFFidkgyOXY2c1FQLU5rWVRyMFRrNDVnWGhDNE4?oc=5",
-        "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "오픈AI코리아 \"첫 공식파트너 삼성SDS, 韓조직 채용 내년 계속\" - 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vOW9YUlQtTTBCeTB6NHVHeklsZmhJb0tHUXVtZUU2UTEyc0Fva3lVYlFBOUtJeUtTRVMzWkdJWUpPVVZFRE1pLXNiU2dHelpoX1VfM1ROdjhTNzdndzh3?oc=5",
-        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "source": "뉴스1"
-      },
-      {
-        "title": "오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야 - 디일렉",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83Y09LNjFwdzc3UjdGZkh3YmhZdXBrdmlOU3Rkd3EzazBhbWVQbHFXSU5oSTFkbG9nTXR4bXJjWno3dTlkQllZMWJUemRYdXdxYVhMdmFXWVdCT01XbFFSUVhnenkxdw?oc=5",
-        "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
-        "source": "디일렉"
-      },
-      {
-        "title": "오픈AI, 국내 인재 찾는다…아키텍트·엔지니어 동시 채용 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvejRRZFFQWUIyRTZiTG8wSkZKRzRCM3VVQkJZREJhUS0xTmdfekd1YVBQSGZBMklFUUJYZk9hX0xJTTJZRlg2RVJKQlpmSnJsT19iSkZB?oc=5",
-        "pub_date": "Fri, 09 Jan 2026 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "\"코드레드는 현재 진행 중\"… 오픈AI, 샌프란 본진서 1,000명 집결 전략회의 - kmjournal.net",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4c2hROXhfQ2dIc0MxWXA4WUh6TnFRb0dyWUJkUy1vQjdHNGs3UldCQ21Oa1BQOHRKazRYOW5tY1o0RWFWUG1TMnRfOEhZSlpTLTh5cFVxal9WMGI4VGVNdVFQQVVGMm4ySWc?oc=5",
-        "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT",
-        "source": "kmjournal.net"
-      },
-      {
-        "title": "\"챗GPT 도입 후 건설현장에서 바로 PPT가 날아온다\" 오픈AI, GS건설∙LG유플러스 혁신 사례 공유 - AI 매터스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fSDB2bHFvU0lBcWRfWklNaTByOWxSQ19JZjZ3MzFnWFhXVllOR0hPMTZQWHdnOUFXYzRSeHJIZUZIWDRPcGdHRUxUZDJLd0hUR2ViT0ZVWjc1NFpzZzVHY1VrSjNia3J1N0E?oc=5",
-        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "source": "AI 매터스"
-      },
-      {
-        "title": "오픈AI의 인재 곡선에서 배우는 채용 전략 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13SnpGbjZQNzVteDROZmhtUC16OW4yVTNKaVpJa0hhbzVobTFnUzdQXzlsX04zYnF1bDdQaWd4VmstSjN5OU5MMzlDbldacHlmNkRiVTRB?oc=5",
-        "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "[현장] 오픈AI 코리아 공식 출범…“지사장은 아직” - 녹색경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByWGhGcFBFNlZPVEFQS01SQkYtUnc1Wkg2VDhOTnBrNUlHM2E3eTNrS21DSEowdmhNQ2NSemluYmpaYmlGNmJFbEY2MUE1TGpLX2xGZFJKaU1LaEp5ejJQUE1kd0xTSm1M?oc=5",
-        "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
-        "source": "녹색경제신문"
-      },
-      {
-        "title": "오픈AI 한국 첫 채용 시작, 어떤 인재 원하나? - 요즘IT",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SUHlfOHZCVFdta2Qwc0R2UzAxTHZ6WG11QUI5RDRCTUkxckxycmxNc1Q1UEtic29xMUk5QTgwOWJyRmhVMzhCaUs5VDNNcFdsQm1lQ0R1enduQQ?oc=5",
-        "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
-        "source": "요즘IT"
-      },
-      {
-        "title": "오픈AI, 서울서 근무할 경력직 6개 직무 채용 '돌입'…'AI 한류' 열어갈 글로벌 인재 뽑는다 - 뉴스스페이스",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5R3o0d3JTUWJGU1gzakpRSjJ6QkhRUjVkWU1qb3h0NUtpUGxIdEJQS0tRQmVBZ0NEVUNYMWdES2xJQ1RKS2ZxOEV5MXpRTG0wRlhzc2pTZkJ1cjZZbFJN?oc=5",
-        "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
-        "source": "뉴스스페이스"
-      },
-      {
-        "title": "[단독] 오픈AI 韓지사장에 'AI 맞수' 구글 인사 유력 - 서울경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSdXh2S284YUZmU0xtMk9aS1V5Z3E2VVNzZERETmt1QVdRNUhHNFl6ZTRucVB0WG9qNmtmUGZuQnBvclZ3X2dtTzFHbHJlYVFjSUHSAVNBVV95cUxOUUNOejhjbVJXSDByZWZIX1NGUEJ3RTBtc2FJYjBvYi05Rk9hUDZXQjBXZGEyZGpFM3ZzWEhmSUlQcmQ4TlVkSkJ3ZWx4OVJMWEQ0bw?oc=5",
-        "pub_date": "Fri, 12 Sep 2025 07:00:00 GMT",
-        "source": "서울경제신문"
-      },
-      {
-        "title": "[현장] “챗GPT 더 정확해질까” 오픈AI 코리아 출범…삼성・SK 협업 시사도 - 한국금융신문",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55TGN0OFpvbHN6NngwS0YzdFRweTFEQ1lvM05PdzZCT2FPMTZacV9hOVJaVzFHTnVISFlQMFg2OF9TSlFaTVRuYTFTQTBBdFcxcW8xOFkxRVZkb2M0RE1EZklkam90MmU3RjY1NVpuNXBNcURqQ194dkxhWkg?oc=5",
-        "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
-        "source": "한국금융신문"
-      },
-      {
-        "title": "오픈AI 코리아 내달 10일 출범 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zQ01YcmMwMDdDa3IyUzdxSFRVdERKSXBGdG9WT0d1UUptUnlzYjVDYUVSVUlmY0V4bDcwOG90cGl6SGxScUNROFdfWnVHdw?oc=5",
-        "pub_date": "Thu, 28 Aug 2025 07:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[AI픽] 오픈AI, 서울에 아시아 3번째 지사 연다(종합) - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VdzRnX05wN1pIR240QlMzSkxwZmhoQ2E1ZGNLUk1lejVPbHRnMzlnYXJFMzd6SzJYOHVmSlZRQ2lLdnhFYmhnN0FwYlpORlNDZ0ZZV3BXamlfOEXSAWBBVV95cUxPMlhhTmM2LTFjRk5tM2RrNTRZckV5S3lYSzZuMTN6eThncnNfZkFndTRzaGVxbUdGYkhlTVVxbklhVkFhS2Z6Wk9LSHZwS0ZmZ3FnWjFMaXdtanAycFlmR1c?oc=5",
-        "pub_date": "Thu, 28 Aug 2025 07:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "김경훈 오픈AI코리아 대표, “B2B 사업 집중…韓 기술개발 조직 희망” - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81M1Ztd2lNZGFUTXRZR0Q0QTlGU29ZbVZLbFhaNzU3ODdheU9iYjdMTFY2YWl5M1cyaXg1RTlXbndIZ1VRYV9qNlpMUU45Zw?oc=5",
-        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "source": "전자신문"
-      },
-      {
-        "title": "김경훈 오픈AI 코리아 \"한국 기업 AI 전환 파트너 되겠다\" - 뉴스스페이스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0X2RkZDBJODY2ZlBDUUkzWEtUMTlRNnJZaDMxQmVxaW5oNGY2T2VYb1EzbnRyX1VYS2dUSVNXZEJLcFpNeWxTT0pXcklvX296a241eTVFY0VpajJDckl6NQ?oc=5",
-        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "source": "뉴스스페이스"
-      },
-      {
-        "title": "오픈AI코리아, 국내 B2B AI 전환 시장 ‘정조준’…사업 확대 ‘속도’ - 아이티데일리",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNcndhWXE3ZU5zLUtfZXVjT25JVl94LWwzMTlFQUtkeEFvNE1TMjFRMUtSR3BheU9QQldwWFZ2NjdvQUxobjF2emVtbHBZRHVCQUFCRmIwSlVPaW0xaVVtY1FGTHZhbWs?oc=5",
-        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "source": "아이티데일리"
-      },
-      {
-        "title": "김경훈 오픈AI 코리아 대표 “우리는 우리 로드맵대로 가는 게 중요. 조만간 좋은 소식” - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSHg2UHJLTWxpRzNpS2JfU0NlQXpWZjhPTnhYMGJqVjNUeUgtcU5OOVVIWjFSdHZRTVctT2t0VnM5alZZY2Nocnpyc09XbllXczRDWmJKLWlpU2NxWWxwVzFQdHNCQzd1UWVobklvVTZLdVpDZXVVN1BvMWFJTVpFZTRjVdIBlwFBVV95cUxNTjdpV0NiS2s5cmZZRDlHbEFnSk85c2MtaVk4ZUc1Z3laODBSNERya1poVUhGd3JTVVNuLVcxbi1nQS04V0tlRFZmTEdmUHFJMjZIYndaT0xmbGI2dlVQZXhMN251eWVqaFppMWgyMnJ6MExOSEt3dWdUYWVkQVEwejI5dUVWWnByOHNmM0RrWTctanBXSDRv?oc=5",
-        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "source": "조선일보"
-      },
-      {
-        "title": "오픈AI “한국인, 챗GPT 업무 목적 사용 1위···B2B 사업 확장 발판될 것” - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53WHByTFB3NkUyRHFaRGxPMExWQmhEdE1nd2hiQ0pqekpjTGhhMG1ScWJ2aGcxaTlyNldjaWZ3ck40N3pucFJGYlQ4Wm5Na1pQX3pjcWUwbS1tQdIBX0FVX3lxTE5GY0d4cFhpVXJpcUlQLWZsamk0YjFDMV9EMFVYVXNyNC14NHZHUVZleWRuektpcWM3aUJLQmhpeUVZLURQQWdtSktaUVJnZy1sOTRlc2FiQTAtX0tpWnh3?oc=5",
-        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "source": "경향신문"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "53 OpenAI jobs in South Korea (3 new) - LinkedIn",
-        "url": "https://www.linkedin.com/jobs/search/?currentJobId=4236084499&geoId=105149562&keywords=OpenAI&origin=JOB_SEARCH_PAGE_KEYWORD_AUTOCOMPLETE&refresh=true",
-        "text": "33 OpenAI jobs in South Korea\nSkip to main content\n* Any time\nAny time (33)\nPast month (33)\nPast week (6)\nPast 24 hours (3)\nDone\n* Company\n``````\n* Clear text\nOutlier (14)\nSpeak (7)\nOpenAI (6)\nNotion (4)\nKT (1)\nDone\n* Job type\nFull-time (18)\nContract (14)\nOther (1)\nDone\n* Experience level\nEntry level (17)\nMid-Senior level (10)\nDirector (1)\nDone\n* Location\n``````\n* Clear text\nSeoul (18)\nDone\n* Remote\nRemote (14)\nHybrid (11)\nOn-site (8)\nDone\nGet notified about newOpenAIjobs in**So",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "오픈AI, 오픈크로 개발자 영입… “많은 아이디어 가진 천재” < 일반 < 기업 < 기사본문 - IT조선",
-        "url": "https://m.it.chosun.com/news/articleView.html?idxno=2023092157205",
-        "text": "오픈AI, 오픈크로 개발자 영입… “많은 아이디어 가진 천재”\n\n전체메뉴\n\n기사검색\n\n기사검색 검색 닫기\n\n기사검색\n\n기사검색 검색 닫기\n\n- 회원가입 --\n- 로그인\n\nfacebook talk -- post youtube\n\nUPDATED. 2026-03-05 07:00 (목)\n\n기사검색\n\n챗GPT 개발사인 오픈AI가 개방형(오픈소스) 인공지능(AI) 에이전트 ‘오픈클로’ 개발자 피터 스타인버거를 영입했다.\n\n2025년 11월 3일 오전 서울 강남구 코엑스에서 열린 ‘SK AI서밋 2025’에서 샘 올트먼 오픈AI CEO의 영상 축사가 나타나고 있다. / 뉴스1\n\n샘 올트먼 오픈AI 최고경영자(CEO)는 16일(",
-        "score": 0,
-        "published_date": "2026-02-18T00:00:00.000Z"
-      },
-      {
-        "title": "[OpenAI] Sales Lead, Korea 채용 | 영업",
-        "url": "https://zighang.com/recruitment/040df4ad-35c5-4b58-8d39-8ef4f7f95d60",
-        "text": "[OpenAI] Sales Lead, Korea 채용 | 영업\n\n# Sales Lead, Korea\n\nOpenAI|2026. 1. 23. 게시|\n\n2\n\n## 공고 요약\n\n오류 제보\n\n경력15년 이상\n\n채용 유형정규직\n\n학력무관\n\n지역서울\n\n마감일상시채용\n\n출처직행수집\n\n## 공고 원문\n\n오류 제보\n\n### OpenAI\n\n회사 소개가 없습니다.\n\n홈페이지 오류제보\n\n이 공고도 지원중!\n\n지원 마감\n\n이 공고도 함께 지원중!\n\n커리어 AI로 합격률 높이기합격 데이터를 학습한 AI와 지원 준비해보세요!",
-        "score": 0,
-        "published_date": "2026-01-23T00:00:00.000Z"
-      },
-      {
-        "title": "오픈AI, 기업 매출 증대 위해 '전방 배치 엔지니어' 수백명 채용 < 산업일반 < AI산업 < 기사본문 - AI타임스",
-        "url": "https://www.aitimes.com/news/articleView.html?idxno=206546",
-        "text": "오픈AI, 기업 매출 증대 위해 '전방 배치 엔지니어' 수백명 채용 --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-02-11 20:10 (수)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n오픈AI, 기업 매출 증대 위해 '전방 배치 엔지니어' 수백명 채용\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n(사진=셔터스톡)\n\n오픈AI가 대기업의 맞춤형 AI 앱과 에이전트 구축을 지원하는 기술 컨설팅 조직을 대폭 확충한다. 기업에 파견돼 업무 자동화를 직접 돕는 ‘전방 배치 엔지니어(FDE)’를",
-        "score": 0,
-        "published_date": "2026-02-07T00:00:00.000Z"
-      },
-      {
-        "title": "OpenAI Reviews (88): Pros & Cons of Working At ... - Glassdoor",
-        "url": "https://www.glassdoor.com/Reviews/OpenAI-Reviews-E2210885.htm",
-        "text": "OpenAI Reviews: What Is It Like to Work At OpenAI? | Glassdoor\nSkip to contentSkip to footer\n\n* Community\n* Jobs\n* Companies\n* Salaries\n* For Employers\n* [Community](https://www.glassd",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "오픈AI, 연매출 36조로 빠르게 증가…앤트로픽과 격차는 좁아져 < 산업일반 < AI산업 < 기사본문 - AI타임스",
-        "url": "https://www.aitimes.com/news/articleView.html?idxno=207650",
-        "text": "오픈AI, 연매출 36조로 빠르게 증가…앤트로픽과 격차는 좁아져 --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-03-21 07:14 (토)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n\n\n오픈AI, 연매출 36조로 빠르게 증가…앤트로픽과 격차는 좁아져\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n(사진=셔터스톡)\n\n오픈AI가 연간 반복 매출(ARR) 250억달러(약 356조원)를 돌파하며 성장세를 이어가고 있다. 하지만 경쟁사 앤트로픽의",
-        "score": 0,
-        "published_date": "2026-03-06T00:00:00.000Z"
-      },
-      {
-        "title": "오픈AI, B2B 공략 가속 “기업 매출 비중 50% 목표” < 일반 < 컴퓨팅·AI < 기사본문 - IT조선",
-        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092155589",
-        "text": "오픈AI, B2B 공략 가속 “기업 매출 비중 50% 목표”\n\n전체메뉴\n\n기사검색\n\n기사검색 검색 닫기\n\n기사검색\n\n기사검색 검색 닫기\n\n- 회원가입 --\n- 로그인\n\nfacebook talk -- post youtube\n\nUPDATED. 2026-03-13 12:00 (금)\n\n기사검색\n\n챗GPT 개발사 오픈AI가 기업 고객 대상 인공지능(AI) 사업 확대에 본격 나섰다. 개인 이용자 중심 사업 구조에서 벗어나 B2B 사업을 핵심 성장 축으로 삼아 수익 기반을 다변화하겠다는 전략이다.\n\n오픈AI CEO 샘 올트먼 / 뉴스1\n\n24일(현지시각) 미 IT 전문매체 디인포메이션에 따르면 샘 올트먼 오픈AI 최고경영자(",
-        "score": 0,
-        "published_date": "2026-01-25T00:00:00.000Z"
-      },
-      {
-        "title": "오픈AI \"2025년 매출 29조 돌파...컴퓨팅 확장 전략 주효\"",
-        "url": "https://www.aitimes.com/news/articleView.html?idxno=205739",
-        "text": "오픈AI \"2025년 매출 29조 돌파...컴퓨팅 확장 전략 주효\" --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-01-21 08:11 (수)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n오픈AI \"2025년 매출 29조 돌파...컴퓨팅 확장 전략 주효\"\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n사라 프라이어 CFO (사진=링크드인, Sarah Fraiar)\n\n오픈AI가 지난해 연간 반복 매출(ARR) 200억달러(약 29조원)를 기록했다고 밝혔다. 불과 1년 전 약 60억달러 수준",
-        "score": 0,
-        "published_date": "2026-01-20T00:00:00.000Z"
-      },
-      {
-        "title": "오픈AI, 1000억달러 조달 가시화…기업가치 8500억달러 웃돌 듯",
-        "url": "http://www.asiae.co.kr/article/2026021914393816512",
-        "text": "오픈AI, 1000억달러 조달 가시화…기업가치 8500억달러 웃돌 듯\n\n본문 바로가기\n\n2026년 03월 18일(수)\n\n- 소셜 아이콘영역 님\n- 로그인 / 회원가입\n\nEN 검색창 열기\n\n검색창 열기닫기버튼\n\nDim영역\n\nAD\n\n원본보기 아이콘\n\n오픈AI의 신규 투자 라운드 1차 유치가 마무리 단계에 근접하는 가운데 1000억달러(약 145조원) 이상의 자금이 조달될 가능성이 제기됐다. 전체 기업가치도 예상보다 큰 8500억달러(약 1233조원)을 넘어설 것이란 전망이 나오고 있다.\n\n블룸",
-        "score": 0,
-        "published_date": "2026-02-19T00:00:00.000Z"
-      },
-      {
-        "title": "오픈AI 코리아 공식 출범...“한국의 AI 대전환을 위한 파트너 될 것” < 보도자료 < 산업일반 < AI산업 < 기사본문 - AI타임스",
-        "url": "https://www.aitimes.com/news/articleView.html?idxno=202276",
-        "text": "오픈AI 코리아 공식 출범...“한국의 AI 대전환을 위한 파트너 될 것” --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-02-23 11:36 (월)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n오픈AI 코리아 공식 출범...“한국의 AI 대전환을 위한 파트너 될 것”\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n제이슨 권 CSO가 오픈AI 서비스를 소개하고 있다.\n\n오픈AI가 10일 국내 지사인 오픈AI 코리아의 공식 출범을 발표했다. 이는 아시아에서 세번째, 전 세계에서 열두번째 지",
-        "score": 0,
-        "published_date": "2025-09-10T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "오픈AI, 코딩 에이전트 관리 프레임워크 ‘심포니’ 공개…“개발자는 관리만” < 산업일반 < AI산업 < 기사본문 - AI타임스",
-        "url": "https://www.aitimes.com/news/articleView.html?idxno=207683",
-        "text": "오픈AI, 코딩 에이전트 관리 프레임워크 ‘심포니’ 공개…“개발자는 관리만” --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-03-17 19:26 (화)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n오픈AI, 코딩 에이전트 관리 프레임워크 ‘심포니’ 공개…“개발자는 관리만”\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n(사진=오픈AI)\n\n오픈AI가 개별 코딩 작업을 AI에게 지시하는 수준을 넘어 프로젝트 관리 자체를 자동화하는 기술을 선보였다.\n\n오픈AI는 5일(현지시간) 여러 AI 코딩",
-        "score": 0,
-        "published_date": "2026-03-08T00:00:00.000Z"
-      },
-      {
-        "title": "OpenAI and NVIDIA Propel AI Innovation With New Open Models ...",
-        "url": "https://blogs.nvidia.com/blog/openai-gpt-oss/",
-        "text": "OpenAI and NVIDIA Propel AI Innovation With New Open Models Optimized for the World’s Largest AI Inference Infrastructure | NVIDIA Blog\n\nTwo new open-weight AI reasoning models from OpenAI released today bring cutting-edge AI development directly into the hands of developers, enthusiasts, enterprises, startups and governments everywhere — across every industry and at every scale.\n\nNVIDIA’s collaboration with OpenAI on these open models — [gpt-oss-120b](https://build.nvidia.com/openai/gpt-oss-120",
-        "score": 0,
-        "published_date": "2025-08-05T00:00:00.000Z"
-      },
-      {
-        "title": "EP146: The Open Source AI Stack - ByteByteGo Newsletter",
-        "url": "https://blog.bytebytego.com/p/ep146-the-open-source-ai-stack",
-        "text": "EP146: The Open Source AI Stack - ByteByteGo Newsletter\n\n# ByteByteGo Newsletter\n\nSubscribeSign in\n\n# EP146: The Open Source AI Stack\n\nByteByteGo\n\nJan 18, 2025\n\n291\n\n1\n\n19\n\nShare\n\nThis week’s system design refresher:\n\nAPI Vs SDK! What's the difference? (Youtube video)\n\nThe Open Source AI Stack\n\nCookies Vs Sessions Vs JWT Vs PASETO\n\nAlgorithms you should know before taking System Design Interviews\n\nTop 6 Load Balancing Algorithms\n\nHow TikTok Manages a 200",
-        "score": 0,
-        "published_date": "2025-01-18T00:00:00.000Z"
-      },
-      {
-        "title": "Understanding Generative AI: A Tech Stack Breakdown",
-        "url": "https://www.orioninc.com/blog/understanding-generative-ai-a-tech-stack-breakdown/",
-        "text": "Understanding Generative AI: A Tech Stack Breakdown | Orion Innovation\n\nWant to learn more?\n\nCONTACT US\n\nContact Us\n\nFirst Name*\n\nLast Name*\n\nCompany*\n\nWork Email*\n\nWhat can we help you with?*\n\nHow did you hear about us?\n\nI agree to receive marketing communications from Orion Innovation.*\n\n- I agree to receive marketing communications from Orion Innovation.\n\nWe are committed to protecting and respecting your privacy. Please review our privacy policy for more information. If you consent to us con",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "OpenCode 완벽 가이드: 오픈소스 AI 코딩 에이전트의 모든 것 | 준서의 기술 연구소",
-        "url": "https://jstechlog.com/posts/opencode-ai-coding-agent/",
-        "text": "OpenCode 완벽 가이드: 오픈소스 AI 코딩 에이전트의 모든 것 | 준서의 기술 연구소\n\n---\n\n터미널에서 AI와 함께 코딩하는 시대가 왔다. Claude Code가 시장을 선점했지만, 특정 모델에 종속되는 것이 불편한 개발자들에게 OpenCode라는 대안이 등장했다. 2026년 1월 현재 GitHub에서 7만 개 이상의 스타를 받으며 가장 빠르게 성장하는 개발자 도구 중 하나로 자리 잡았다.\n\n출처: github.com/anomalyco/opencode\n\n## OpenCode가 주목받는 이유\n\nOpenCode의 핵심 경쟁력은 세 가지로 요약된다.\n\n### 모델 중립성 (Model Agnostic)\n\nClaude Code는 Claude 모델에만 종속되지만, OpenCode는 Claude, GPT, Gemini, Grok, 로컬 모델 등 75개 이상의 AI 모델을 자유롭게 선택할 수 있다. 벤더 종속(vendor lock-in)을 피할 수 있어 비용 효율적이고, 작업 특성에 따",
-        "score": 0,
-        "published_date": "2026-01-19T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Samsung Elec to supply HBM4 chips to OpenAI, South Korean paper says - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU1hWU0wxUkczREItOC1YN2xxQWZZazJZSXNzODZkRzRUYUNMMmppemF0cE5zblJGRnVQbGZEbTNtT2NpRGswc0hyWjAySEJvZ2NrUjJEdXVSeVVoaEZrbEY2Z09Dd0pETFl0ZEhGWWlyNjhOU1NXaFlTenhQTWhRT19vRFBvdzNFVVpGcDN5dzNoX01pTWY4dmFRVmk1VGtQOXdweWM5SklGMU1GeC05VlNLRExTZkE?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 09:59:37 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "OpenAI to sell AI to US agencies through Amazon cloud unit - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYUc0dXdFRWFQOF9vUVZrVERpM3E1eW5JQTVSdWM1dnRTdVIwcmVpMUZadlY2bTJIdVZkUWV3S2RRbjBQdUtsYXdQaUhEQmFfSndvU1RlbEU3dmNDYllWbGNoOE8yZlZNdW92X0dIaVRrSU1UYnlLTXU4X002WF8xTXViOUg4Y3EyZHJ2UVpwa21QbXE5S0szTk5ydHlEbHQ0ZDczbzFXSl81bENsT0RFM2R1TEM0MUE4SDBzOUktM0tsaTNpWnBSOGgzYTRmdw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 13:12:41 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Rubio, South Korea's Cho agree Strait of Hormuz key to global economy, Seoul says - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa1ZFNXJtc2R6SEVNX1J1VUNHV0lDMU9McVlZU21QMU5XUGFSdlIwRjVYWVhnOFRnRjFVX1o3enBMczVVR3VSVkt1V1dmWURGb0g0eGhnT2pDb0FTVlN1Y1lUZHg5aGh3cE5Tb1plQ2gyUkQ4VV9YdHhnQ1pZR0FYLTNKM29BMmpzYkJmVUlZYTBSWUpvYnZJbUJMUUVnSDNxVUdaM3JGN0l4bEhzZWxjdUNWSkVLX3hXbVlmQnJtVDlQR1dMMV9TQWlCZ2U?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 07:02:14 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "North Korea FX Revenue Boosted by Russia Arms Sales, Cyber Crime - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV1lJQ2dwRmc0OGFNV3NSalVtUGNLNDJLY3BzU19zSkJCZEVqNlEwNTZXb3BvSzd5eFR4TFhVaUJWQk03VVJZWFYwQ2F0Rk4zbzFBWVhHV2VSdHZzMk9YVkt0eE1WaEJLeTlWWnBESmc2WFVoaXpvNDI5VVFXalZLRUVqZWJvNjdqUmU0Y3NqcHZpbDI1alc1NHN5NHVRVEs3VFEzVlR5TGwzUWxVcFRka2taOTM?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 06:29:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Samsung to Stop Selling $2,899 TriFold Phone After Three Months - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMVNZUGR6LTU2NlN4NnE2aHV0Q21UTC0tQ1B6ZDd1THl1N1hROTVqN2lsZWlCYUdIejNib3pScmFHMEtYQXhRcmNnTVN3U0JKSm5IUFJOVzdXd1M1WEE0eXpTaGJwTFdBYnFhdUlmeExpTTJuaVFqNzVrdGJ5Y29aQUxYWnZ2U1lHNmUyMzJYcl95c0prdDhza0toWWcwVzVyZHhURV9VZThJTHMxLUFSUG9LOA?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 06:22:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Trump Hopes China and Other Nations Will Send Ships to Hormuz - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLWpkcmtqYzI0cXJScEJHRlg3cVFPODkzR1c0bEpKTHBBeExZcTlFWUlYNjFaT3hrZ3VMbFdERzk4YVRWajJrM0VCcm9JeHNxODd6clhNdm8tdVVjXzN5Rlkyc04wNzRtSTFERDR5MFFvMmtJT3hMX0dNb2RyamZaMDdxWmhQM1VZY1ljNVBSaXBXbnlnVjI0RmdkOWQtMjZCN293aW5nQ0lzaEJBT0RXS2pR?oc=5",
-        "pub_date": "Sat, 14 Mar 2026 14:20:11 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Startup Battlefield 200 nominations are still open - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSzlaUGJJNVRidW55bEFSaUh0cmU3WDNTS2NJMnBNY0tyaWhFTTZnSFlNRnlCa0I5SExOaXJnTW8wTEF0cTVaRmY2NmFLOUd0aTg5a0Y3ZUpYMUVLck1FVHlaQXdOeWgxTGR3Q3dFT0I1WG1naU4tSXY1Z0kyeGc5TGxDb3Q5bnVGRkwxRHJaNzd5bUZKdk1zZjMwZkU?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 15:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "TechCrunch | Startup and Technology News - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5oc1hqR1YwYi1VQTM1alk2dEVDNS1TaXp1SnlRdHdNQzBINUZvN0hxaDdWeEhSUGoxWm5v?oc=5",
-        "pub_date": "Tue, 09 Feb 2010 10:17:04 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "OpenAI partners with Korea’s Kakao after inking SoftBank Japanese JV - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR3hBbWxYOHlUZnp3V0phZGw3VXNjcTVLeG9DV2VRRFU4cmx6a2UwLWN5TC1tMm5QSklYRGJQb1FmVDVVTzNVMUVnZXpuNW9uNjZxN2dKbDdSTkduczl4R3VfckJvQVhVcmoydjFlZUVxQ0RBQmFqQmU0X1Rzd1RCR29pRk8wRU5ybmJSNVE2dTVvYWhDcmtTTjB0SnNVVXZmVXNobWFFRS1Ca051NHQydG04WEVvZw?oc=5",
-        "pub_date": "Tue, 04 Feb 2025 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxNMFhKSEVPZ2VYSVVwb1pXTnVHbm94U2RoN0d6ZTl0REx6b1RnLTlacTgwejFYRjNjeU9ma1FaQjRreEdqSXNKZXppaUdIeDVsdmpkekFyZ1dMSEFSNWlqYllhalJXZkRjdms1eUtvYUNvYnRKOEJPRkppblNJc3l3R3gxOGFjY1RLWFdOSWNtN0FHckxTTFNVVmFxaDZzQTBXT2xLZC1ZdzBYTGtpN3NJZks0U1JpRElmNTlzeTJDaWV1MWl4R0JfTldNYklPMUMtTlNWQVNDNS1XTmUxZEtodTMtbGotcEszaVZJSVVieTNVZ1h5TWxLVXNnaEtTTU9RNHBKcFZOWWNBdWc3d3B3MjAzcjQ0a0N3SWxubmlWZ1pFenkwU1RSaDdEU2FGNzAzREJMOVdKX243OFBMazM4STdTWTgzLWRKWk9tbU5RUGx1Q045LXRYdjY1M05reUJpRE5sZ1UyeHJ6b2N3VDdqWUZmS19tZDc1YjltdDNVcmt5bWR2MEdvQUN5NmZ5YXZKSEcxMTltLWVmRDJCWjJfbjdzSjM3Z2ZLcHBjejB0a0hDb0NwbTVLdWRUbWI?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 06:32:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Exclusive | DHL Supply Chain Powers Up Warehouses to Supply Data Centers - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMirwNBVV95cUxNNXJCMTFaenpZaDFwZ1E2T1laZnRfY2VDa2toVml6bl9INGxDejF2ZEVNbVBuMkIzUFl4TVZISXFielN2TktwN3NVNHRCdjdSOHpRTE02Ul95R1laZElOcExDM1FIVVdfbTZ3TlFYVUlJeUN4cXFPanF4UkE5N1RYWUM3am12RlJGS1gwVm9yQjdKbkFYOTJxQ0lUVndsYllxbXNaYVd5bWJ3U0xnWjhxTGs1enI1QkUyUFhGd3RqckgyR1JBMC1BRGRzWVNGbTM4MF8xTVFaWTc3Z2NDLUdsQW9jbGZYU3lzakxSRlY3bVJ2OG5Td1NKWFFPdlNUMFVGOFJuX1ZIQU9hUGNOeHBvRjFlS1c5dmY3U2Z3cS1WLUppdHQwUkZ2QXJhQWZvaWtxWUVvUHU5YzhNM25kc2ZsLUp2ay1IY1BGUXp4bTBXcjZBOUVFM3ctdUI0S1RldnoxMDdpLURVWXVDcjFOQTN0T01qd3ExT3BzTVZBU1JaZzdFZUROc3UwWGpKTkZhWUl6N21rUGQwNjN4ejJtZzFBUDMzWWpsX216d01BM3NYOA?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 10:30:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Nvidia’s Next Act Will Be Its Biggest—and Toughest - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxNTlY4UkNZdEluV1hKclhhOFQyV3UtZkZuSml0T1czWWFSVmktS0tLdDdNVjZiMnVIMVljTlc5M1BMN1l4NDRUQjRUQzlfMXMtbnljRENuV3JCOUhOOFFLWGwtcTgxOFRUZDJ3cU1PRlBJTHEza1plX25xaWk1bjlVM0hNMVI0OWJBY3ZIYTVHTXZJMnB4MXNiNWFhYWR0TjhxakQ5RERzVTVDaGZqeHhINjg0VjkzWFVOcTZpd253b1RxUGpzbFp2RkluTDBzcDgwZWhBX2tseVR0Ty1DODRDWnN0bzFkWmtqaG1BRHZxcExYdWo5Z2pRX1lyX2RnQkNKeU9mX29VZGpjcER0TC1QX2VjLTJNTmF6SEdBYkxjZEkyZmVOMm12WmprQk8yWl83UXdFUGZZUHhWR0ZvTGJjbHlOUE02RUhCYjVoZ3k4SEdsdkZGRGlqOHFXOUNNOXQyaFY2dFBmcy1jUXB6Sk9DWUJXbDBkU3pMYUh1dzBwdEM0QTJ3YTU1M0lzUmhFdE5MRWFzbldUWUp0SUJI?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 09:30:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "‘Fake workers’ from North Korea use AI to exploit European companies - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPekxKa0dqcW9RcnFmdmgwWGkzU2kwa1RqLWN0SFJfMzRCTDFuSnAxMFo1TWRyd3BHUktjWTV1eWNUQktrQTZieXEwSVNQT0hUMjJCSmpIM2ota2RYYlpHeGdaelNkRWh3R0lwM2Jyb3VpdE1mTk54R2QwWmJyZ3NkZjdfR3k?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 05:00:32 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "How the oil shock might spread - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMGFFczltUWNDM2hsMkx4YmdBbER0andObEpXZTB1VGszZlNVUjhWTnBTRmxfWVV1NnB4NXh4Sm95QjJzbk16RUYtdGEtY0dnMlNTeTJjcHNab0J2dktUVnA5UWluOUgzYmh2ZjlmRmxBdmQzcTQ5Mk9INDNFbnktNVBXd0I?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 17:23:59 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Britain must be more vigilant to the risk of sabotage by hostile states - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGFKTXFuVnU5czZ0eDFyc0E4bFE3b0R1VlVaY0hrOU1MMDF3cnEyci1sMG1xNUxtSXNXVXRYbmtRZ0YzRWNSb01GZjhsTDJVSXZuX05kWm1xNGFjQnE1YzdUQlJnZHRnQi0xbVpOY3R4V19QTUtKZHk5YW9kMXBMTUxIUnE?oc=5",
-        "pub_date": "Sat, 21 Mar 2026 05:00:52 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "In India, Honda doubles down on a market where it is slipping - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOUhZZGtjb0ZqYTZ2RjMwX09GSGs2NHhjZGQySW0xYnJETENmclhiVUVGUHNkak4wQlA0TnZIZjh3Q2RNMXRmd1RDQ19MN1RKeV9VaDVoa0FNdjhqNm1rWDRjZDhYd2Jlb1REbmNPanlSc0VOc0hOSURoTnR3NnRLbFRDVWthdXFRR2k5U0EtNEZWaFdGeXhGZ0FMSkMwdGhzMnNOT0doSGI?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 02:32:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "China's mediation efforts falter in Pakistan-Afghanistan clashes - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYlA4OFQ0TlQ5bllNSVZiUUJ1bFo2VTFxS1ZuWkZJdmctT09uRW0zM0p5ZjBOSVhSVjlDYVlpU1poNWxGUjdraUdVc0g2ejJLbHlkcE5uRmRlTFVwUU1fMDhlS19Gb0JFWGZYZTRheGdaZ2RQNGgzRzNKWTBSYnljX09TMlExTG5Tc1daTFVuZnRDMDNXUlp4Qy0xeXJqaWpKa3pLYlI0OC1aVlAtV3Nyd0xUenkxWE5MWk5McWxn?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 01:25:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "BYD plans $57m R&D center in Brazil to put EVs to the test - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUNFM2d1bk5YU0xQRDFEaS14T0NuRFRfenNTamtkdzBQeFpBYXFWcVFYRVpjTm9sQU0tSk9jb1pyWWFNLTA1VmlNMnRVYkVOTm5yLTV0MjI0SFM5ZkpJcVdmaTg0NEhfUFRLSjYzSVRnV2x1V2JTX3EteWRlNEU4NWF2b1NqMlBRMWJtZkJaZjZpNDB3Y0UyLVpFQlg4eWRlTW1MZjlJVFhsNk1BUzJvZFdJVEI?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 21:30:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Nvidia Needed Groq After All - The Information",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjYmRLV3lTdS16TXhONk5VcDV6RUFfVUowOTFSejBSVUJwWW1vZ1g1UlFtTEpQSWhsVVAyazk2SUhzX09oc1VFNkUzamRyRnZjaVFtV1BsOHA0RURNb3NaTTNKeW5LeXVPb01tU2gwTzhpbzJiWmZaWVB6QQ?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 14:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "OpenAI Pilots Group Chats in ChatGPT - The Information",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yQ05qT19QeFVlODBrbUdWNkVoX1poajZxb2c2a1ZVSTZLQ25KMktZV1pEMXdYQ1dRZk14TF9PSXpNOHFoS281bVBsSWZCX0gwYnRlT1hFQ2I5ZWNmYUw3bWl5eTZYTG5zUWFHTFFyTFFhMHFwdFo3a1lFWGM4aFU?oc=5",
-        "pub_date": "Fri, 14 Nov 2025 08:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "OpenAI’s Next AI Model Will Have ‘Extreme’ Reasoning - The Information",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcEhwUnRPVTlWdURYTmt4TlB0djZNU1k1dlpiY0xaZXVOTi12SGZyOG5Ub0JPMlRpczlmcnBfVGVZMUhFLVFtdU1ZWk1ic2JnUkF4bmxBUnF2aVR3RTRta2RwTHRSYW5pLTJTVnpqVjFpaEdDY3cxSWZmYW16ZlM5ZHFDS1Bnb0dJWHl4aktCNHpBd2VvMTAwWUJOc2FEUQ?oc=5",
-        "pub_date": "Wed, 04 Mar 2026 08:00:00 GMT",
-        "source": "The Information"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "삼성전자, 오픈AI도 뚫었다…'HBM4' 단독 공급 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52WkJnclYzNU1BZjRHUVpkQUZ1WnR5UWVEbXZjUGh5ejVxNTRWd0QwbGlKYXAyV1k3SDZ0b1lqeGFrQkxtank0MFpTMy1TV1QtaTI4U2xIRjBSQdIBVEFVX3lxTE5NMzVjbFNyNjQ4aEpNSTVOd1ludnRNRDhHcEVWbDlNc3Y3NDFYZkk1SmhyOTRWZGI5NWdJRTNNcS1jaTAzTjVSNGZBQ3VFWF83ZklIbQ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:38:03 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "르노코리아, '르노 부산오픈테니스대회 2026' 타이틀 스폰서 참여 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91bHFoeUQ1LTVOdzk2dXl4MFY4bWNMREEzRk16ZUY2MElMZTlYMW1nRFRXZm1yM182VDFGWWpBLWx2ZERrRGNVTDROSVBHRnNRb0VoRjd4c2RpZ9IBVEFVX3lxTE5TaU1RMzJ5c1VINTNyU3dJUUZ1YmNmUy1qQWw2b3FpZVJRT0xxTWZqT2dudWpOUDdLcWpwWDRQTi1oMXVHdXJlUkRkZi1RUlV3VjZoSg?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 05:49:18 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "삼성생명·화재, 삼성전자 주식 1.5조 매각 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FaDMwUlVqRm1wUFRKWW12ODRReDk5N0ItaUFiQi03NDhGYzkxbGItbGx3Z25hMVFOVmktQ3ljeloyYTRDS2FRSHJ1b3U2R05TN3AxbEVLRS1EUdIBVEFVX3lxTFB6elNqU0JQekVfLXJLZEU3QnFxc2I5bThUZGgtN2Uxc2x6SEpQcVlreHlKQXMtcUNLb0d2Mjd1bWJ0cF9zTm55QTg2VE1tUVd6ZGM0aA?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 11:45:47 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "정부, 앤트로픽과 MOU 체결 검토…오픈AI 중심 협력 구조 확대 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZzQ4UmJUeVd0R1lKQkxqeGctRmUxcGRobDI0UXZ0TjJvMm9Tb1IwNWhBSGdtazZpc1EwZDFDQzlIaVY4NXZBcVJramxDNTVlMENHQ1didFBJN254NWxGRGhnWG5CQ3kwZjhRN3ZOdE5COWJxTWZhQXdPQ1VYSG1yMjBR0gGWAUFVX3lxTE9pOXJmYXVfWmZOeDllLWZ4QUFnMXpVMTVPLVJCUEtSa3V4STZsbjIzMlFrNExhTkh4d1p1bXRfd084TEN1dEU5MTA4R1hFNm1KR2VoWEdkbWZLVFJlZmZQTUYxNzEwb0kxWG9sRGU0Qk5GZDZuVGRZaXQyYl9GUmNhT3c0c0ZoS0RWTFNScEJwZHN1dWFHZw?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 00:01:52 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "오픈AI, 아스트랄 인수…코딩 강화해 기업용 AI 시장 공략 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM2RDTkxvRGR2eGdCZlhXdVVXbFNTcDdXT0Qxb1lGUV9sX0NUNHNjc25qNk5hQTRUb2xBT3QtejNRTVJXQ0pBT1pTcVVOVlc4QUljSE1VQWo1T2FwOTlBY0EwUFdHSDVHUUplWjZWWWhEQTBBMktDb0RnaEtKLWN2SHdB0gGWAUFVX3lxTE15WXlmcmRTMFZXcUVYdElJOHZPR2dHaWpxeUF6T0J3bldSV0U5b0pzOVBlVVVUV0RPTklFa3Z3TDVwZGRtTHFwRm9xbUwyWFdzYXVTYlB0Tkl3V05xRTJ0UWlBX2xENkd6ZF8zMUdkZXRqSGZMWTA1YWlvRGNmbVBDeGxEUko1aHRuVi1kbTRLR2FOUmVfUQ?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:18:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "“오픈AI, 앤트로픽 추격 속 전략 재편…기업용 AI 집중 강화” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbG13N2xiTlo4SjFtc1J2d3B1YVBpSk01ZUlGT0k3a0UxejNEOXlZVDg1RXlGVTIxMmVIaTlVQzUyVVJRM3gweU1rUnVkUm9LMUNNUXJGSE9KREFZS1EwbzlYLWhlM2I4NU1LZ0Q0WWViRk1qN19LUy0yY1BjM2ZCMkZB0gGWAUFVX3lxTE1ZYkMzVDVTekl1TV90OVdwaS1OT1BMQzZ2eEI2RXZka1pPN3YwbEpzQXRsRTVoQ3N1RzBSWkkwZVZYd3F1dGRWUWstRGR2Y01Ka0N2SlJiUF9Qalh4NGdUa21jQ3Bvd0ZMcmh3UzQ2TWhRNjkyRTkxWTBDdHhaNlhua0g4MllLcl8xUy1XTXpNbDhlQUhaZw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:14:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[말랑말랑 톡] 구윤철 부총리 'AI저서' 전남도 간부들에게 전달된 까닭은 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmRXp4NWhZWkhZam5jbE1qemcxQ1lpaUUwV1FYYnByNVozNEU3Zk55akVCZkN5VlRISk1nLWdOTlE1TGp4VTNJSmRvVUxxdlph?oc=5",
-        "pub_date": "Wed, 26 Nov 2025 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "52주 신고가 종목 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrZjVjd3kwaUlEa1lObm9CbTY2VElNUUdfdHNaeEdTSG5QanZFZXJMX09tbkd0QXAwbVNzN2ptTzZVNkp6WktxcXF1ejRwanRH?oc=5",
-        "pub_date": "Thu, 02 Oct 2025 07:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "르노코리아, 4월 개최 ‘부산오픈테니스대회 2026’ 타이틀 스폰서로 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBenF5RmxZbzBBWWE2TmptUkdkMnVQSF9YX1U1dndVel9JNU1Mb1d6bjhaRnp1aHZaWlZqOV9VXzFmVHhnWjQxeF9JZHZVYXlZUVM3Q2hB?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 07:09:26 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[단독] 오픈AI CFO, 비공개 방한…SK네트웍스·업스테이지 수장 한 자리서 만난 이유는 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IWjF0V2l4ckdPYzgtaENhWFQ4VUFFLXJZb1dfNlZFOWdHWUFlaUl1U3I5TDMycm54bE4tZVEzcWFDcjlLaHFpclRJZlBiMUFUdzI2bExB?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "과기정통부, 앤트로픽과 MOU 추진…오픈AI 일변도 AI 협력 다각화 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Jb2N1bXdUSXQxdzdYMzRRQ1plT1dSM2hSeXVZYzFWLUNqU3BlZzBhTTRZamhXLVp0ZFI4SWVoQnVHZW5raldrQnZIVm85RVd5bzJLNE5R?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 05:21:55 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "챗GPT·코덱스·브라우저 하나로…오픈AI, '슈퍼앱' 승부수 띄운다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kWG9fUkZrQ1BUdjJUSXVGMUNPdnJ2dEpoTi15OG5nZ3BOU2FIOEhpeXB1cnFEQ3FzVFlLNGQxT0VEVllRRkxwQ1RNUXdvQmNhSEZGaF9n?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:34:05 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "블로터 - 편견없는 경제뉴스, 몰입하는 자본시장 정보 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBpeV94VC1HUVRuSmUzdU1XQjk1QS1rMnFwM1JVUTFMcEx5S21HTkp0bXlfc1dQSkFLV29V?oc=5",
-        "pub_date": "Wed, 20 Aug 2014 21:37:02 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "중국·국내 매각 동시에…롯데쇼핑 '자산 다이어트' 지속 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03c1JIS3EzUXByVUVWX3J5TEVtc1FJN2hSTGt1VUpGNHJVOTRtdG1JSnRtRUxUWWZxd3M4UVl4ektRLUYtZWh0eFhqa2dnaUNFTUdYWmZydlgybjRuVGI4azFkeUYwVDVO0gFsQVVfeXFMUGhFTV9henBkRzR1M19TTkE4bVZpQlNMQ0dsMk93TVRmOXZ3cDJMQm1aVU5MTEM4UEh4TzN5OU95MHBHa3FSMF9xVHNPd2ZtMkM1VUN2WWxaTDFoWEFoNzdFSml5TFNla0JNdkpy?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 07:07:53 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[현장+] 리사 수 만난 네이버 최수연…'멀티벤더' 전략 가속화 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QVUItQmZzUFFzbUhBVXY3WDI2eVRNcmR5MzBwR1lNeEhqLVNnekd6S2VNc3owdFhENjdwSlFOLWhOak5nMXBiWG96YzZ4NkV0NDVaMDNtVS1aZUJLblNlSi1OVy0xWnpw0gFsQVVfeXFMT1U3ZkNBUkM0NF9WcXZsUVdQOVphcV9oY1lpaGV2cGxEcTZFU3NkVDhjN0hRclA0ZzZDNnVVci10djB4Ni11NFUxU0NsTmxWUUZiUll1QVdwN2VrRWlQOEhzMGY4RGhBTTRjaVd5?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 09:32:02 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "오픈AI 코리아 공식 출범…“한국은 AI 풀스택 생태계 갖춘 곳” - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBSGZYNEc3ZTRXU0I2UVpYLU54d1R5bGd0bmlWTVZYekptbXdsS2NGVUp4VTAxb2tTcmUtNHRMRXNHOVF4ZGd1SFBSRndhUQ?oc=5",
-        "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "오픈AI, 한국 기업 시장 공략 본격화 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05TkRId3JMUlFkT096TW91dXRWSHR1Q3NvUWhab3ZtdU9pTGdwY0hfMmh4eDdNaVc0eFZ5b09PWlVDbWgxZGx5RzJPekJ3LVk?oc=5",
-        "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "오픈AI, 초대 오픈AI 코리아 총괄 대표로 김경훈 선임 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mQTlaSTFoMXY0UWk2TldPVXA3RXRTcl8wVnVib3Y0SEN6SktYNlpHQjZTcDNHWEVRdkRVVkdDM3FpeUJhMmVYUkQ1Umg?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "recent_news": [
+        {
+          "title": "유한양행, 전립선 비대장애 개선 일반의약품 '카리포맨연질캡슐' 출시 ...",
+          "description": "◇유한양행, 비판텐ㆍ카네스텐 도입 첫 달 30만 개 판매 돌파 ▲ 유한양행은 지난 2월 바이엘 코리아와... 출구 전략(BW Biomed 우정훈 대표) △AIㆍ빅데이터를 활용한 신약개발 전략(아이겐드럭 김선 대표) △정부의... ",
+          "link": "http://www.newsmp.com/news/articleView.html?idxno=246168",
+          "pub_date": "Fri, 11 Apr 2025 16:52:00 +0900"
+        },
+        {
+          "title": "송파구 통합도서관 홈페이지 새 단장",
+          "description": "구는 향후 오픈 이벤트 등을 마련해 이용자들의 의견을 듣고, 운영에 적극 반영할 계획이다. 박성수... 11월 코리아세일페스타 중 100억 원 규모의 지역 화폐를 발행했다. 또 오는 21일 낮 12시 e서울사랑상품권을 12억 원... ",
+          "link": "https://view.asiae.co.kr/article/2021120909411172228",
+          "pub_date": "Thu, 09 Dec 2021 09:43:00 +0900"
+        },
+        {
+          "title": "[핀테크핫이슈] 금융권의 역습...각종 IT 서비스 전면 배치",
+          "description": "인공지능(AI) 서비스 개발 협력 및 공동 비즈니스 발굴을 위해 전략적 업무협약을 체결했다. 삼성전자가... 이 협약으로 세 기관은 2021년 5월부터 KOTRA가 운영 중인 기업용(B2B) e커머스 플랫폼 '바이코리아(www.buykorea.org)... ",
+          "link": "http://www.digitaltoday.co.kr/news/articleView.html?idxno=252566",
+          "pub_date": "Tue, 10 Nov 2020 08:03:00 +0900"
+        }
+      ],
+      "company_name": "주식회사 코리아",
+      "company_name_eng": "korea co,.ltd.",
+      "stock_name": "코리아",
+      "ceo": "김승곤",
+      "address": "대구광역시 중구 동덕로 115 (삼덕동2가, 진석타워) 1711호",
+      "industry_code": "68112",
+      "established": "20121026",
+      "homepage": "www.picassocon.com",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "google_news": [
+        {
+          "title": "엔비디아의 인재 영입에서 배우는 채용 전략 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9paHQycldjZTdEVl9RclF4RlprUDROMURtNHRmdllGWHFlV0FLSVR0cUo0elEyeE9UdFlGVU8yR3BwMzBJbVVrSVhPZGxJbl84OGs5emtB?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:38:25 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "[현장] 오픈AI 코리아 공식 출범…“지사장은 아직” - 녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByWGhGcFBFNlZPVEFQS01SQkYtUnc1Wkg2VDhOTnBrNUlHM2E3eTNrS21DSEowdmhNQ2NSemluYmpaYmlGNmJFbEY2MUE1TGpLX2xGZFJKaU1LaEp5ejJQUE1kd0xTSm1M?oc=5",
+          "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "source": "녹색경제신문"
+        },
+        {
+          "title": "오픈AI코리아 \"첫 공식파트너 삼성SDS, 韓조직 채용 내년 계속\" - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vOW9YUlQtTTBCeTB6NHVHeklsZmhJb0tHUXVtZUU2UTEyc0Fva3lVYlFBOUtJeUtTRVMzWkdJWUpPVVZFRE1pLXNiU2dHelpoX1VfM1ROdjhTNzdndzh3?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "[AI픽] 오픈AI, 서울에 아시아 3번째 지사 연다(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VdzRnX05wN1pIR240QlMzSkxwZmhoQ2E1ZGNLUk1lejVPbHRnMzlnYXJFMzd6SzJYOHVmSlZRQ2lLdnhFYmhnN0FwYlpORlNDZ0ZZV3BXamlfOEXSAWBBVV95cUxPMlhhTmM2LTFjRk5tM2RrNTRZckV5S3lYSzZuMTN6eThncnNfZkFndTRzaGVxbUdGYkhlTVVxbklhVkFhS2Z6Wk9LSHZwS0ZmZ3FnWjFMaXdtanAycFlmR1c?oc=5",
+          "pub_date": "Thu, 28 Aug 2025 07:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "오픈AI·앤트로픽, 국내서 엔지니어 최초 채용…‘솔루션 아키텍트’ 분야 - 디일렉",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83Y09LNjFwdzc3UjdGZkh3YmhZdXBrdmlOU3Rkd3EzazBhbWVQbHFXSU5oSTFkbG9nTXR4bXJjWno3dTlkQllZMWJUemRYdXdxYVhMdmFXWVdCT01XbFFSUVhnenkxdw?oc=5",
+          "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
+          "source": "디일렉"
+        },
+        {
+          "title": "오픈AI 한국 첫 채용 시작, 어떤 인재 원하나? - 요즘IT",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SUHlfOHZCVFdta2Qwc0R2UzAxTHZ6WG11QUI5RDRCTUkxckxycmxNc1Q1UEtic29xMUk5QTgwOWJyRmhVMzhCaUs5VDNNcFdsQm1lQ0R1enduQQ?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "요즘IT"
+        },
+        {
+          "title": "오픈AI, 서울서 근무할 경력직 6개 직무 채용 '돌입'…'AI 한류' 열어갈 글로벌 인재 뽑는다 - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5R3o0d3JTUWJGU1gzakpRSjJ6QkhRUjVkWU1qb3h0NUtpUGxIdEJQS0tRQmVBZ0NEVUNYMWdES2xJQ1RKS2ZxOEV5MXpRTG0wRlhzc2pTZkJ1cjZZbFJN?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "뉴스스페이스"
+        },
+        {
+          "title": "[단독] 오픈AI 韓지사장에 'AI 맞수' 구글 인사 유력 - 서울경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSdXh2S284YUZmU0xtMk9aS1V5Z3E2VVNzZERETmt1QVdRNUhHNFl6ZTRucVB0WG9qNmtmUGZuQnBvclZ3X2dtTzFHbHJlYVFjSUHSAVNBVV95cUxOUUNOejhjbVJXSDByZWZIX1NGUEJ3RTBtc2FJYjBvYi05Rk9hUDZXQjBXZGEyZGpFM3ZzWEhmSUlQcmQ4TlVkSkJ3ZWx4OVJMWEQ0bw?oc=5",
+          "pub_date": "Fri, 12 Sep 2025 07:00:00 GMT",
+          "source": "서울경제신문"
+        },
+        {
+          "title": "[현장] “챗GPT 더 정확해질까” 오픈AI 코리아 출범…삼성・SK 협업 시사도 - 한국금융신문",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55TGN0OFpvbHN6NngwS0YzdFRweTFEQ1lvM05PdzZCT2FPMTZacV9hOVJaVzFHTnVISFlQMFg2OF9TSlFaTVRuYTFTQTBBdFcxcW8xOFkxRVZkb2M0RE1EZklkam90MmU3RjY1NVpuNXBNcURqQ194dkxhWkg?oc=5",
+          "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "source": "한국금융신문"
+        },
+        {
+          "title": "오픈AI 코리아 내달 10일 출범 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zQ01YcmMwMDdDa3IyUzdxSFRVdERKSXBGdG9WT0d1UUptUnlzYjVDYUVSVUlmY0V4bDcwOG90cGl6SGxScUNROFdfWnVHdw?oc=5",
+          "pub_date": "Thu, 28 Aug 2025 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "오픈AI는 서울, 앤트로픽은 도쿄… 아시아 발 넓히는 AI 빅테크 - 더에이아이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Ha2E1eDY0MEZfUjJFTzBlUi1CQ2FKU0JQYXdaaDdrVEotNG1oRzhfR3BGdUdzQk9Cc3R1dXpOZzV4NjVneG91QzFyRno3cWVQdTZSWEJkQzBBNXFKMDROSWotQXp6V2Fq?oc=5",
+          "pub_date": "Thu, 07 Aug 2025 07:00:00 GMT",
+          "source": "더에이아이"
+        },
+        {
+          "title": "오픈AI, 서울 지사 인재 뽑는다…6개 직군 동시 채용 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOVk9CNVBYMkY2dUI0dTFMMjVVNzBsZmwxd29qQjY5Qmk3T0htX214OW5qejhfUV9NT3k3Q1hCa2ZUNnhRT1ZjZG1GOXFYUnYzX1kxSzhB?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "오픈AI 코리아, 내달 10일 공식 출범…제이슨 권 CSO 비전 발표 - kyungjeilbo.com",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Cb2JzSTJlNHV0T0d4aEU2WWpEYWlsaUpuU1puM0M3OHZ4dF9OeFF2RVA5UnRoMVB3Y1VuX0xGQ0FNR3FKcndPLTY1WWM0M2pxZmdIUlc4ZEE2aWttMlBPd9IBXEFVX3lxTE04d3ZRTHhTV3AzTGpINHJNc0s0WVlnZWFNdF9SVEppaDBkSHQxeWJGR3VlZWlxZnd5VDZzTld0REpKSkYtUUJMZmZocEYtTU8tOXJJWmJKOC1leXNK?oc=5",
+          "pub_date": "Thu, 28 Aug 2025 07:00:00 GMT",
+          "source": "kyungjeilbo.com"
+        },
+        {
+          "title": "오픈AI 전세계 조직, 샌프란서 전략회의…\"코드레드 아직 발령중\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vYmZMMEZyTFZBYWZVa2VwLUNXbVhsS3JGMGYyS0xMZjhKUG1RQ2RLVGRlQmNYVEFKWk9JUGpic0NITkprQjJZOVdIUXZDcjJuU3dNNzhrNWNfVjTSAWBBVV95cUxOOEg2RktydUM1T1RwM284TUQ0NkU1ZGhYNVNBN0FIOTNQX2VJYVk0U1ZxUmRmSkJFMUxYcHYyMEhVRDduUFFidkgyOXY2c1FQLU5rWVRyMFRrNDVnWGhDNE4?oc=5",
+          "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "오픈AI 서울사무소 9월 개소…제이슨 권 CSO 직접 비전 소개 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtWVBoaWl5dkltRGtpUG5TNko5eFJmdXBpUll6ZWNkZHBPNy10dWtFZXNQa0pFRTNwNlczb3dHc0VlM3hNem50QTFUa0RSWVZZcTNwS1JDbFNFVF9KZ3lj?oc=5",
+          "pub_date": "Thu, 28 Aug 2025 07:00:00 GMT",
+          "source": "뉴스1"
+        },
+        {
+          "title": "김경훈 오픈AI코리아 대표, “B2B 사업 집중…韓 기술개발 조직 희망” - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81M1Ztd2lNZGFUTXRZR0Q0QTlGU29ZbVZLbFhaNzU3ODdheU9iYjdMTFY2YWl5M1cyaXg1RTlXbndIZ1VRYV9qNlpMUU45Zw?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "김경훈 오픈AI 코리아 \"한국 기업 AI 전환 파트너 되겠다\" - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0X2RkZDBJODY2ZlBDUUkzWEtUMTlRNnJZaDMxQmVxaW5oNGY2T2VYb1EzbnRyX1VYS2dUSVNXZEJLcFpNeWxTT0pXcklvX296a241eTVFY0VpajJDckl6NQ?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "뉴스스페이스"
+        },
+        {
+          "title": "오픈AI코리아, 국내 B2B AI 전환 시장 ‘정조준’…사업 확대 ‘속도’ - 아이티데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNcndhWXE3ZU5zLUtfZXVjT25JVl94LWwzMTlFQUtkeEFvNE1TMjFRMUtSR3BheU9QQldwWFZ2NjdvQUxobjF2emVtbHBZRHVCQUFCRmIwSlVPaW0xaVVtY1FGTHZhbWs?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "아이티데일리"
+        },
+        {
+          "title": "김경훈 오픈AI 코리아 대표 “우리는 우리 로드맵대로 가는 게 중요. 조만간 좋은 소식” - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSHg2UHJLTWxpRzNpS2JfU0NlQXpWZjhPTnhYMGJqVjNUeUgtcU5OOVVIWjFSdHZRTVctT2t0VnM5alZZY2Nocnpyc09XbllXczRDWmJKLWlpU2NxWWxwVzFQdHNCQzd1UWVobklvVTZLdVpDZXVVN1BvMWFJTVpFZTRjVdIBlwFBVV95cUxNTjdpV0NiS2s5cmZZRDlHbEFnSk85c2MtaVk4ZUc1Z3laODBSNERya1poVUhGd3JTVVNuLVcxbi1nQS04V0tlRFZmTEdmUHFJMjZIYndaT0xmbGI2dlVQZXhMN251eWVqaFppMWgyMnJ6MExOSEt3dWdUYWVkQVEwejI5dUVWWnByOHNmM0RrWTctanBXSDRv?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "오픈AI “한국인, 챗GPT 업무 목적 사용 1위···B2B 사업 확장 발판될 것” - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53WHByTFB3NkUyRHFaRGxPMExWQmhEdE1nd2hiQ0pqekpjTGhhMG1ScWJ2aGcxaTlyNldjaWZ3ck40N3pucFJGYlQ4Wm5Na1pQX3pjcWUwbS1tQdIBX0FVX3lxTE5GY0d4cFhpVXJpcUlQLWZsamk0YjFDMV9EMFVYVXNyNC14NHZHUVZleWRuektpcWM3aUJLQmhpeUVZLURQQWdtSktaUVJnZy1sOTRlc2FiQTAtX0tpWnh3?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "경향신문"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "삼성전자, 오픈AI도 뚫었다…'HBM4' 단독 공급 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52WkJnclYzNU1BZjRHUVpkQUZ1WnR5UWVEbXZjUGh5ejVxNTRWd0QwbGlKYXAyV1k3SDZ0b1lqeGFrQkxtank0MFpTMy1TV1QtaTI4U2xIRjBSQdIBVEFVX3lxTE5NMzVjbFNyNjQ4aEpNSTVOd1ludnRNRDhHcEVWbDlNc3Y3NDFYZkk1SmhyOTRWZGI5NWdJRTNNcS1jaTAzTjVSNGZBQ3VFWF83ZklIbQ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:38:03 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "르노코리아, '르노 부산오픈테니스대회 2026' 타이틀 스폰서 참여 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91bHFoeUQ1LTVOdzk2dXl4MFY4bWNMREEzRk16ZUY2MElMZTlYMW1nRFRXZm1yM182VDFGWWpBLWx2ZERrRGNVTDROSVBHRnNRb0VoRjd4c2RpZ9IBVEFVX3lxTE5TaU1RMzJ5c1VINTNyU3dJUUZ1YmNmUy1qQWw2b3FpZVJRT0xxTWZqT2dudWpOUDdLcWpwWDRQTi1oMXVHdXJlUkRkZi1RUlV3VjZoSg?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 05:49:18 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "삼성생명·화재, 삼성전자 주식 1.5조 매각 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FaDMwUlVqRm1wUFRKWW12ODRReDk5N0ItaUFiQi03NDhGYzkxbGItbGx3Z25hMVFOVmktQ3ljeloyYTRDS2FRSHJ1b3U2R05TN3AxbEVLRS1EUdIBVEFVX3lxTFB6elNqU0JQekVfLXJLZEU3QnFxc2I5bThUZGgtN2Uxc2x6SEpQcVlreHlKQXMtcUNLb0d2Mjd1bWJ0cF9zTm55QTg2VE1tUVd6ZGM0aA?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 11:45:47 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "정부, 앤트로픽과 MOU 체결 검토…오픈AI 중심 협력 구조 확대 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZzQ4UmJUeVd0R1lKQkxqeGctRmUxcGRobDI0UXZ0TjJvMm9Tb1IwNWhBSGdtazZpc1EwZDFDQzlIaVY4NXZBcVJramxDNTVlMENHQ1didFBJN254NWxGRGhnWG5CQ3kwZjhRN3ZOdE5COWJxTWZhQXdPQ1VYSG1yMjBR0gGWAUFVX3lxTE9pOXJmYXVfWmZOeDllLWZ4QUFnMXpVMTVPLVJCUEtSa3V4STZsbjIzMlFrNExhTkh4d1p1bXRfd084TEN1dEU5MTA4R1hFNm1KR2VoWEdkbWZLVFJlZmZQTUYxNzEwb0kxWG9sRGU0Qk5GZDZuVGRZaXQyYl9GUmNhT3c0c0ZoS0RWTFNScEJwZHN1dWFHZw?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 00:01:52 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "오픈AI, 아스트랄 인수…코딩 강화해 기업용 AI 시장 공략 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM2RDTkxvRGR2eGdCZlhXdVVXbFNTcDdXT0Qxb1lGUV9sX0NUNHNjc25qNk5hQTRUb2xBT3QtejNRTVJXQ0pBT1pTcVVOVlc4QUljSE1VQWo1T2FwOTlBY0EwUFdHSDVHUUplWjZWWWhEQTBBMktDb0RnaEtKLWN2SHdB0gGWAUFVX3lxTE15WXlmcmRTMFZXcUVYdElJOHZPR2dHaWpxeUF6T0J3bldSV0U5b0pzOVBlVVVUV0RPTklFa3Z3TDVwZGRtTHFwRm9xbUwyWFdzYXVTYlB0Tkl3V05xRTJ0UWlBX2xENkd6ZF8zMUdkZXRqSGZMWTA1YWlvRGNmbVBDeGxEUko1aHRuVi1kbTRLR2FOUmVfUQ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:18:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "“오픈AI, 앤트로픽 추격 속 전략 재편…기업용 AI 집중 강화” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbG13N2xiTlo4SjFtc1J2d3B1YVBpSk01ZUlGT0k3a0UxejNEOXlZVDg1RXlGVTIxMmVIaTlVQzUyVVJRM3gweU1rUnVkUm9LMUNNUXJGSE9KREFZS1EwbzlYLWhlM2I4NU1LZ0Q0WWViRk1qN19LUy0yY1BjM2ZCMkZB0gGWAUFVX3lxTE1ZYkMzVDVTekl1TV90OVdwaS1OT1BMQzZ2eEI2RXZka1pPN3YwbEpzQXRsRTVoQ3N1RzBSWkkwZVZYd3F1dGRWUWstRGR2Y01Ka0N2SlJiUF9Qalh4NGdUa21jQ3Bvd0ZMcmh3UzQ2TWhRNjkyRTkxWTBDdHhaNlhua0g4MllLcl8xUy1XTXpNbDhlQUhaZw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:14:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[말랑말랑 톡] 구윤철 부총리 'AI저서' 전남도 간부들에게 전달된 까닭은 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmRXp4NWhZWkhZam5jbE1qemcxQ1lpaUUwV1FYYnByNVozNEU3Zk55akVCZkN5VlRISk1nLWdOTlE1TGp4VTNJSmRvVUxxdlph?oc=5",
+          "pub_date": "Wed, 26 Nov 2025 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "52주 신고가 종목 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrZjVjd3kwaUlEa1lObm9CbTY2VElNUUdfdHNaeEdTSG5QanZFZXJMX09tbkd0QXAwbVNzN2ptTzZVNkp6WktxcXF1ejRwanRH?oc=5",
+          "pub_date": "Thu, 02 Oct 2025 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "르노코리아, 4월 개최 ‘부산오픈테니스대회 2026’ 타이틀 스폰서로 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBenF5RmxZbzBBWWE2TmptUkdkMnVQSF9YX1U1dndVel9JNU1Mb1d6bjhaRnp1aHZaWlZqOV9VXzFmVHhnWjQxeF9JZHZVYXlZUVM3Q2hB?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:09:26 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[단독] 오픈AI CFO, 비공개 방한…SK네트웍스·업스테이지 수장 한 자리서 만난 이유는 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IWjF0V2l4ckdPYzgtaENhWFQ4VUFFLXJZb1dfNlZFOWdHWUFlaUl1U3I5TDMycm54bE4tZVEzcWFDcjlLaHFpclRJZlBiMUFUdzI2bExB?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "과기정통부, 앤트로픽과 MOU 추진…오픈AI 일변도 AI 협력 다각화 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Jb2N1bXdUSXQxdzdYMzRRQ1plT1dSM2hSeXVZYzFWLUNqU3BlZzBhTTRZamhXLVp0ZFI4SWVoQnVHZW5raldrQnZIVm85RVd5bzJLNE5R?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 05:21:55 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[AI는 지금] \"모델 개발만으론 부족\"…사모펀드 손잡는 오픈AI·앤트로픽, 왜? - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jLUxId251cUhFNHljX1lTS21mZGhyMDdZTzRhVHdudVFNMXM1UE9ZdWpXZTFYR3h0S2RPdTFhWk1YazNMNERwNklYVC0xOVlSeHFDTkhR?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 01:01:54 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "블로터 - 편견없는 경제뉴스, 몰입하는 자본시장 정보 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBpeV94VC1HUVRuSmUzdU1XQjk1QS1rMnFwM1JVUTFMcEx5S21HTkp0bXlfc1dQSkFLV29V?oc=5",
+          "pub_date": "Wed, 20 Aug 2014 21:37:02 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "중국·국내 매각 동시에…롯데쇼핑 '자산 다이어트' 지속 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03c1JIS3EzUXByVUVWX3J5TEVtc1FJN2hSTGt1VUpGNHJVOTRtdG1JSnRtRUxUWWZxd3M4UVl4ektRLUYtZWh0eFhqa2dnaUNFTUdYWmZydlgybjRuVGI4azFkeUYwVDVO0gFsQVVfeXFMUGhFTV9henBkRzR1M19TTkE4bVZpQlNMQ0dsMk93TVRmOXZ3cDJMQm1aVU5MTEM4UEh4TzN5OU95MHBHa3FSMF9xVHNPd2ZtMkM1VUN2WWxaTDFoWEFoNzdFSml5TFNla0JNdkpy?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 07:07:53 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[현장+] 리사 수 만난 네이버 최수연…'멀티벤더' 전략 가속화 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QVUItQmZzUFFzbUhBVXY3WDI2eVRNcmR5MzBwR1lNeEhqLVNnekd6S2VNc3owdFhENjdwSlFOLWhOak5nMXBiWG96YzZ4NkV0NDVaMDNtVS1aZUJLblNlSi1OVy0xWnpw0gFsQVVfeXFMT1U3ZkNBUkM0NF9WcXZsUVdQOVphcV9oY1lpaGV2cGxEcTZFU3NkVDhjN0hRclA0ZzZDNnVVci10djB4Ni11NFUxU0NsTmxWUUZiUll1QVdwN2VrRWlQOEhzMGY4RGhBTTRjaVd5?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 09:32:02 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "오픈AI 코리아 공식 출범…“한국은 AI 풀스택 생태계 갖춘 곳” - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBSGZYNEc3ZTRXU0I2UVpYLU54d1R5bGd0bmlWTVZYekptbXdsS2NGVUp4VTAxb2tTcmUtNHRMRXNHOVF4ZGd1SFBSRndhUQ?oc=5",
+          "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "오픈AI, 한국 기업 시장 공략 본격화 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05TkRId3JMUlFkT096TW91dXRWSHR1Q3NvUWhab3ZtdU9pTGdwY0hfMmh4eDdNaVc0eFZ5b09PWlVDbWgxZGx5RzJPekJ3LVk?oc=5",
+          "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "오픈AI, 초대 오픈AI 코리아 총괄 대표로 김경훈 선임 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mQTlaSTFoMXY0UWk2TldPVXA3RXRTcl8wVnVib3Y0SEN6SktYNlpHQjZTcDNHWEVRdkRVVkdDM3FpeUJhMmVYUkQ1Umg?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "0",
+          "description": "https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 산림청에서 지정한 국가산림문화자산(2016년)으로, 맑은 물이 솟아나는 생태적 가치가 높은 곳.... ",
+          "link": "https://blog.naver.com/bwiwd/224225015464",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "0",
+          "description": "https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 산림청에서 지정한 국가산림문화자산(2016년)으로, 맑은 물이 솟아나는 생태적 가치가 높은 곳.... ",
+          "link": "https://blog.naver.com/arangjoeul/224225010230",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "0",
+          "description": "https://www.hani.co.kr/arti/culture/book/719303.html 문화책과 생각 ‘서북청년’에 뿌리 둔 한국 개신교의... 산림청에서 지정한 국가산림문화자산(2016년)으로, 맑은 물이 솟아나는 생태적 가치가 높은 곳.... ",
+          "link": "https://blog.naver.com/yjsjhs/224224992913",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "영국 MBA 준비과정: 떠나기로 결심한 이유 &amp; Programme... ",
+          "description": "나에게는 너무 큰 부분이라 그냥 고민 없이 지원하게 됐다 일부 석사 지원 후기를 찾아보면 Reference 에 대해 중요하게 생각을 안하는건지 Reference 받지 않았는데도 합격한 case 가... ",
+          "link": "https://blog.naver.com/setsunai24/224214759107",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "‘AI 활용 디지털 마케팅... 경기도 일자리 사업 면접 후기",
+          "description": "&lt;면접 질문&gt; 1. 간단한 자기소개와 지원동기 2. AI 활용해서 작업이나 sns 게시 경험이 있는지. 3. 수료 후에 진로. 취업 or 창업. 4. 이 교육 후 취업까지 연계 될 때 걸림돌이 있다면 무엇일지. 1,3번은 준비했는데 2... ",
+          "link": "https://blog.naver.com/sssss293/224224875009",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+          "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+          "link": "https://sibauchi.tistory.com/1205",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "서류합격 + 면접답변코칭 / 모의면접 까지 함께 한 면접컨설팅... ",
+          "description": "서류합격 및 면접코칭후기를 준비해보았습니다 보안검색부터 민원대응, 안전확보까지 모든 과정을... com/o/gFIFIhkc &lt;&gt; 2) 자소설메이트 현직자/경력직 커뮤니티 &lt;패스파인더&gt; 대기업/공기업부터 의료, 문화... ",
+          "link": "https://blog.naver.com/karaface/224224727404",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
+          "description": "또는 기업이 바뀌는 경우에는 별도 재의뢰가 필요합니다. 문의하기 : 오픈채팅방 https://open.kakao.com/o/scra0j8h 전문가 정보, 서비스 후기 보기 : 크몽/자소설닷컴 클릭 https://kmong.com/gig/371909 &lt;&gt;&lt; &quot; &amp; https... ",
+          "link": "https://blog.naver.com/goodlife_92/224224618278",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+          "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
+          "link": "https://ilovefamily.tistory.com/527",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "워크넷 이력서 수정 및 재등록 방법 취업 성공 팁",
+          "description": "전문가의 조언과 생생한 후기: 성공적인 이력서 작성을 위한 나침반 💭 취업 컨설턴트들은 &quot;이력서 작성 시 직무 관련 경험과 역량을 구체적으로 기술하고, 지원하는 기업의 가치와 문화에 부합하는 인재임을... ",
+          "link": "https://think-tank.tistory.com/1073",
+          "pub_date": "20260321"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260321토요일",
+          "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 인재추천·채용지원 서비스 선호 - AI가 추천한 일자리에 2.1만 명 취업, 전년 대비 61% 증가 AI 기반 일자리... ",
+          "link": "http://cafe.naver.com/jungamironware/9268",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+          "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 인재추천·채용지원 서비스 선호 - AI가 추천한 일자리에 2.1만 명 취업, 전년 대비 61% 증가 AI 기반 일자리 매칭 서비스가... ",
+          "link": "http://cafe.naver.com/magicbank/3332",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "아니라 ‘조직 문화에 적응시키는 감정 노동’을 수반합니다. 세대 간 가치관 차이가 극명해진 상황에서, 기업은 관리하기 까다로운 주니어 인력 대신 말을 완벽하게 알아듣고 감정 소모가 없는 AI를 채용(구독)하는... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "충청남도보도자료20260320금요일",
+          "description": "엔터테인먼트 코리아 이스포츠 매니저), ▲OGN의 남윤승 대표 ▲한국전자통신연구원 이상광 박사... 19(목) 09:23:47 담당자 태안국제원예치유박람회조직위원회 (https://2026taeanexpo.or.kr) ▲ 숙박외식업 종사자 박람회... ",
+          "link": "http://cafe.naver.com/jungamironware/9239",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "비축유 추가 방출 가능성도&quot; - 삼성전자, 오픈AI도 뚫었다…8억Gb 'HBM4' 단독 공급…엔비디아·AMD... 리노공업, 코리아써키트, 두산, 티이엠씨, 기가비스, 심텍, 제이스텍, 디아이, 피에스케이홀딩스... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.3689655172413793,
+      "positive_themes": [
+        "성장",
+        "장점",
+        "좋은",
+        "최고",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점",
+        "야근",
+        "퇴사",
+        "힘들"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "OpenAI - 나무위키",
+          "description": "미국 의 비영리 단체 . 인공지능 을 개발하며 안전한 AGI 개발을 추구한다. 대형 언어 모델 (LLM",
+          "url": "https://namu.wiki/w/OpenAI"
+        },
+        {
+          "source": "brave",
+          "title": "오픈AI 한국 첫 채용 시작, 어떤 인재 원하나? | 요즘IT",
+          "description": "OpenAI가 서울에 사무소를 열고 솔루션 엔지니어, 어카운트 디렉터 등 6개 포지션을 채용 중인데요. 한국 IT 기술력과 AI에 대한 높은 관심이 주요 요인으로 꼽혔습니다. 국내 AI 생태계에 어떤 변화를 가져올지 기대가 큽니다.",
+          "url": "https://yozm.wishket.com/magazine/detail/3158/"
+        },
+        {
+          "source": "brave",
+          "title": "챗GPT 개발사 韓 법인 '오픈AI코리아' 설립…초대 한국 지사장 누구? :: 공감언론 뉴시스 ::",
+          "description": "[서울=뉴시스]윤정민 기자 = 오픈AI가 한국 법인을 설립하고 국내 인공지능(AI) 사업에 본격 나섰다. 법인 등기상 본점은 서울 신용산역 인근으로 등록됐으며 본사 법률 고문이 초대 대표이사로 기재됐다.",
+          "url": "https://www.newsis.com/view/NISX20250526_0003190202"
+        },
+        {
+          "source": "brave",
+          "title": "오픈AI, 한국법인 세우고 韓공식 진출…조만간 서울에 사무소 | 중앙일보",
+          "description": "제이슨 권 오픈AI 최고전략책임자(CSO)는 이날 서울 종로구 포시즌스 호텔에서 국내 언론과 만나 한국에 법인을 공식 설립했으며 향후 몇 달 내 서울에 첫 번째 사무소를 열어 국내 사업을 본격화한다고 밝혔다.",
+          "url": "https://www.joongang.co.kr/article/25338831"
+        },
+        {
+          "source": "brave",
+          "title": "잡플래닛 - Google Play 앱",
+          "description": "프리미엄 멤버십에서만 볼 수 있는 전문가의 커리어 강좌로 합격률을 120% 높여보세요. [취업사이트와 잡플래닛이 뭐가 다른가요?] ✔ 철저한 익명이 보장되는 100% 솔직 리뷰 – 작성자와 리뷰의 연결을 끊어 안심할 수 있습니다.",
+          "url": "https://play.google.com/store/apps/details?id=com.jobplanet.kr.android&hl=ko"
+        },
+        {
+          "source": "brave",
+          "title": "잡플래닛, 일하기 좋은 회사 31곳 발표 - ZDNet korea",
+          "description": "지난해부터는 단순 순위 ... 축적된 부문별 평점 데이터를 기반으로 <strong>전국 47만 개 기업 중 상위 0.01%에 해당하는 31개사를 선정</strong>했다....",
+          "url": "https://zdnet.co.kr/view/?no=20260310112232"
+        },
+        {
+          "source": "brave",
+          "title": "챗GPT 개발사 韓 법인 '오픈AI코리아' 설립…초대 한국 지사장 누구? : 네이트 뉴스",
+          "description": "한눈에 보는 오늘 : IT/과학 - 뉴스 : [서울=뉴시스] 정병혁 기자 = 샘 올트먼 오픈AI 최고경영자가 4일 서울 중구 플라자호텔에서 열린 카카오 기자간담회에서 취재진 질문에 답하고 있다. 2025.02.04. jhope@newsis.com [서울=뉴시스]윤정민 기자 = 오픈AI가 한국 법",
+          "url": "https://news.nate.com/view/20250526n31945"
+        },
+        {
+          "source": "brave",
+          "title": "잡플래닛 평점 3점대 회사 다니는 직장인들의 고충",
+          "description": "회사 맘에 안 들어서 이직하고 싶어도이직할만한 회사 찾기가 힘들어짐어딜 가도 대부분 옆그레이드임",
+          "url": "https://bbs.ruliweb.com/community/board/300143/read/61560793"
+        },
+        {
+          "source": "brave",
+          "title": "대한민국에 있는 38명 Openai 채용공고 (New 2)",
+          "description": "We cannot provide <strong>a</strong> description for this page right now",
+          "url": "https://kr.linkedin.com/jobs/openai-jobs"
+        },
+        {
+          "source": "brave",
+          "title": "잡플 평점 1점대 회사 찍먹해본 썰: 생존일기",
+          "description": "집과도 가깝고, 식대 절약도 되고... 잡플래닛 리뷰를 미리 확인했지만 <strong>1년만 버티면 성장이 확실히 보장된다 여겨저 입사를 덜컥 결정</strong>했다.",
+          "url": "https://www.postype.com/@eleventhstar/post/19565134"
+        },
+        {
+          "source": "naver",
+          "title": "내 일의 임팩트가 보이는 AI 개발팀 찾기 | 한국딥러닝(주)의 생생한 인터뷰 확인하기, IT/웹/통신 3.9 평점",
+          "description": "개발자마다 기준은 다를 수 있지만, AI분야 개발자가 일하고 싶은... 하지만 이것은 비단 우리 팀만의 문제가 아니라, AI 비즈니스 업계... 다양성과 성장 가능성 면에서는 꽤 괜찮은 AI 솔루션개발팀이라고 자부할 수...",
+          "url": "https://www.jobplanet.co.kr/contents/news-7232"
+        },
+        {
+          "source": "naver",
+          "title": "&quot;고객이 원하는 건 단순히 AI 모델이 아니잖아요?&quot; | 한국딥러닝(주)의 생생한 인터뷰 확인하기, IT/웹/통신 3.9....",
+          "description": "한국딥러닝 개발팀에서 '진짜' 문제 해결을 경험하세요! 저희는 Vision AI 기술을 활용하여 다양한 산업 분야의 문제 해결을 돕는 AI회사입니다. 많은 AI 회사들이 고객이 요구하는 기술을 개발하는 데 집중하지만, 저희는 근본적인 문제 해결에 더욱 집중합니다. 왜냐하면 &quot;고객이 원하는 건 단순히 AI 모델이 아니잖아요?&quot; 저희는 고객의 진짜 문제가 무엇인지 파악하기 위해 각자 문...",
+          "url": "https://www.jobplanet.co.kr/contents/news-7084/%22%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%EC%9B%90%ED%95%98%EB%8A%94%20%EA%B1%B4%20%EB%8B%A8%EC%88%9C%ED%9E%88%20AI%20%EB%AA%A8%EB%8D%B8%EC%9D%B4%20%EC%95%84%EB%8B%88%EC%9E%96%EC%95%84%EC%9A%94?%22"
+        },
+        {
+          "source": "naver",
+          "title": "맞춤 채용정보만 쏙쏙… 취업플랫폼, 구직자 눈높이 맞춰 ‘진화’",
+          "description": "인공지능(AI) 기반 매칭, 기업 평점 기준 우수기업 공고 모음 서비스 등... 잡코리아도 최근 구직자들이 필요로 하는 핵심정보만 모아 제공하는 '퓨처랩' 서비스를 오픈했다. 퓨처랩 서비스는 기업분석 보고서, 합격...",
+          "url": "https://www.fnnews.com/news/202203151802535901"
+        },
+        {
+          "source": "naver",
+          "title": "더쿠 - 잡플래닛 평점 몇점부터 괜찮아??",
+          "description": "외국계 대기업 IT회사 가고싶은데 내가 알기로는 한국지사에 100명 넘게 있다고 들었는데 잡플래닛 평점은 3.n에 리뷰 남긴사람이 9명 밖에 없더라고.. 회사 주소도 옛날 주소로 나와있고.... 외국계라서...",
+          "url": "https://theqoo.net/job/1724630162"
+        },
+        {
+          "source": "naver",
+          "title": "채용 정보와 기업 리뷰를 한 번에!",
+          "description": "잡플래닛 유한회사 서울특별시 서초구 서초대로 301, 16층(서초동, 동익성봉빌딩) | 대표... co.kr ©Jobplanet. All rights reserved. 모든 컨텐츠의 무단 전재, 무단 수집, 재배포 및 AI 학습 이용 금지",
+          "url": "https://www.jobplanet.co.kr/companies/3000/reviews/%EC%A1%B0%EC%9D%B4%EC%8A%A8%EC%84%B8%EC%9D%B4%ED%94%84%ED%8B%B0%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84(%EC%A3%BC)"
+        },
+        {
+          "source": "naver",
+          "title": "(주)오픈노트 2026년 기업정보 | 기업리뷰 70건, 3.1 리뷰평점",
+          "description": "장점 : 매주 금요일 휴무 제도가 가장 큰 장점이며, 전반적인 회사 분위기가 좋고 구성원분들도 대체로 친하고 협조적인 편이라 업무하기에 큰 어려움이 없음, 단점 : 직원 간 업무 편차가 다소 있는 편, 일부 인원의 업무 기여도에 차이가 있어 상대적으로 업무 부단이 몰리는 경우가 있으며, 성실하게 일하는 입장에서는 아쉬움을 느낄 수 있음.",
+          "url": "https://www.jobplanet.co.kr/companies/329032/reviews/%EC%98%A4%ED%94%88%EB%85%B8%ED%8A%B8"
+        },
+        {
+          "source": "naver",
+          "title": "오픈코리아 2026년 기업정보 | 기업리뷰 0건, 0.0 리뷰평점",
+          "description": "경력직인데 회사랑 너무 안맞아서 퇴사할려고하는데 어떻게 말하면 좋을까요 이직했는데 원래 업무 외에 일을 너무 시키고 1달 정도 됐는데 회사 전반적인 일을 완벽히 적응 하길 원하시네요 너무 정신이 없어서 다른 회사에 합격 통보 받고 바로 퇴사할려구요68조회 3283 대기업 정규직 신입으로 취직했었습니다. 덕분에 다른 합격한곳 전부 취소하고 들어갔습니다. 제 위에 상사...",
+          "url": "https://www.jobplanet.co.kr/companies/17478/reviews/%EC%98%A4%ED%94%88%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "오픈코리아(주) 2026년 기업정보 | 기업리뷰 3건, 3.0 리뷰평점",
+          "description": "장점 : 연차눈치안보고사용가능 복장자유로움 애기 키우면서 다니기 시간대괜찮음, 단점 : 잔잔바리로 일거리가 많음 자꾸 생겨남 굳이 필요도 없는데 자꾸 생김 그러다가 아닌거같으면 또 변경 적은 월급으로 여기저기 다 불려나감 월급이 기준이 없음 ..;월급도 안올려줌 절.대 최저임금으로 하는건 겁나게 많음",
+          "url": "https://www.jobplanet.co.kr/companies/62229/reviews/%EC%98%A4%ED%94%88%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "(주)오픈베이스 2026년 기업정보 | 115건 면접후기 3.2 면접난이도",
+          "description": "면접경로 ; 온라인 지원 : 62%, 직원추천 : 7%, 헤드헌터 : 0%, 공개채용 : 12%, 학교 취업지원 센터 : 9%, 기타 : 10%",
+          "url": "https://www.jobplanet.co.kr/companies/62243/interviews/%EC%98%A4%ED%94%88%EB%B2%A0%EC%9D%B4%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)오픈마인드코리아 2026년 기업정보 | 기업리뷰 2건, 1.0 리뷰평점",
+          "description": "장점 : 장점은..... 음.... 칼퇴근! 늦어도 5분 10분 야근은 없다. 이거 말고는 장점이 없다. 밥값은 지맘. 줬다 안줬다, 단점 : 일하는사람만 일하고 일하는사람만 욕함. 오합지졸 모아놨음. 체계없음. 니일도 내일 내일도내일ㅋㅋㅋㅋ 자기돈 쓰면서 일하는건 당연하고 당연한것도 눈치보고 사야함. 대표 기분나쁘면 욕쳐먹음.",
+          "url": "https://www.jobplanet.co.kr/companies/367740/reviews/%EC%98%A4%ED%94%88%EB%A7%88%EC%9D%B8%EB%93%9C%EC%BD%94%EB%A6%AC%EC%95%84"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "53 OpenAI jobs in South Korea (3 new) - LinkedIn",
+          "url": "https://www.linkedin.com/jobs/search/?currentJobId=4236084499&geoId=105149562&keywords=OpenAI&origin=JOB_SEARCH_PAGE_KEYWORD_AUTOCOMPLETE&refresh=true",
+          "text": "33 OpenAI jobs in South Korea\nSkip to main content\n* Any time\nAny time (33)\nPast month (33)\nPast week (6)\nPast 24 hours (3)\nDone\n* Company\n``````\n* Clear text\nOutlier (14)\nSpeak (7)\nOpenAI (6)\nNotion (4)\nKT (1)\nDone\n* Job type\nFull-time (18)\nContract (14)\nOther (1)\nDone\n* Experience level\nEntry level (17)\nMid-Senior level (10)\nDirector (1)\nDone\n* Location\n``````\n* Clear text\nSeoul (18)\nDone\n* Remote\nRemote (14)\nHybrid (11)\nOn-site (8)\nDone\nGet notified about newOpenAIjobs in**So",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "[OpenAI] Sales Lead, Korea 채용 | 영업",
+          "url": "https://zighang.com/recruitment/040df4ad-35c5-4b58-8d39-8ef4f7f95d60",
+          "text": "[OpenAI] Sales Lead, Korea 채용 | 영업\n\n# Sales Lead, Korea\n\nOpenAI|2026. 1. 23. 게시|\n\n2\n\n## 공고 요약\n\n오류 제보\n\n경력15년 이상\n\n채용 유형정규직\n\n학력무관\n\n지역서울\n\n마감일상시채용\n\n출처직행수집\n\n## 공고 원문\n\n오류 제보\n\n### OpenAI\n\n회사 소개가 없습니다.\n\n홈페이지 오류제보\n\n이 공고도 지원중!\n\n지원 마감\n\n이 공고도 함께 지원중!\n\n커리어 AI로 합격률 높이기합격 데이터를 학습한 AI와 지원 준비해보세요!",
+          "score": 0,
+          "published_date": "2026-01-23T00:00:00.000Z"
+        },
+        {
+          "title": "오픈AI, 오픈크로 개발자 영입… “많은 아이디어 가진 천재” < 일반 < 기업 < 기사본문 - IT조선",
+          "url": "https://m.it.chosun.com/news/articleView.html?idxno=2023092157205",
+          "text": "오픈AI, 오픈크로 개발자 영입… “많은 아이디어 가진 천재”\n\n전체메뉴\n\n기사검색\n\n기사검색 검색 닫기\n\n기사검색\n\n기사검색 검색 닫기\n\n- 회원가입 --\n- 로그인\n\nfacebook talk -- post youtube\n\nUPDATED. 2026-03-05 07:00 (목)\n\n기사검색\n\n챗GPT 개발사인 오픈AI가 개방형(오픈소스) 인공지능(AI) 에이전트 ‘오픈클로’ 개발자 피터 스타인버거를 영입했다.\n\n2025년 11월 3일 오전 서울 강남구 코엑스에서 열린 ‘SK AI서밋 2025’에서 샘 올트먼 오픈AI CEO의 영상 축사가 나타나고 있다. / 뉴스1\n\n샘 올트먼 오픈AI 최고경영자(CEO)는 16일(",
+          "score": 0,
+          "published_date": "2026-02-18T00:00:00.000Z"
+        },
+        {
+          "title": "오픈AI, 기업 매출 증대 위해 '전방 배치 엔지니어' 수백명 채용 < 산업일반 < AI산업 < 기사본문 - AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=206546",
+          "text": "오픈AI, 기업 매출 증대 위해 '전방 배치 엔지니어' 수백명 채용 --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-02-11 20:10 (수)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n오픈AI, 기업 매출 증대 위해 '전방 배치 엔지니어' 수백명 채용\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n(사진=셔터스톡)\n\n오픈AI가 대기업의 맞춤형 AI 앱과 에이전트 구축을 지원하는 기술 컨설팅 조직을 대폭 확충한다. 기업에 파견돼 업무 자동화를 직접 돕는 ‘전방 배치 엔지니어(FDE)’를",
+          "score": 0,
+          "published_date": "2026-02-07T00:00:00.000Z"
+        },
+        {
+          "title": "OpenAI begins hiring for Seoul office following Korea subsidiary launch < Business < K·Economy < 기사본문 - The Korea Post",
+          "url": "http://www.koreapost.com/news/articleView.html?idxno=44862",
+          "text": "OpenAI begins hiring for Seoul office following Korea subsidiary launch\n\n이전 기사보기 다음 기사보기\n\nOpenAI begins hiring for Seoul office following Korea subsidiary launch\n\n페이스북(으)로 기사보내기 트위터(으)로 기사보내기 URL복사(으)로 기사보내기\n\n스크롤 이동 상태바\n\n- 댓글 0\n- 입력 2025.05.30 15:34\n- 기자명 Hyein Shim\n\n페이스북(으)로 기사보내기 트위터(으)로 기사보내기 URL복사(으)로 기사보내기 이메일(으)로 기사보내기 다른 공유 찾기 기사저장\n\n바로가기 메일보내기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n이 기사를 공유합니다\n\n페이스북(으)로 기사보내기 트위터(으)로 기사보내기 URL복사(으)로 기사보내기\n\n닫기\n\n## 6 positions open; Hybrid work and relocation support av",
+          "score": 0,
+          "published_date": "2025-05-30T00:00:00.000Z"
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "[AI픽] 오픈AI 코리아 출범…삼성·SK와 파트너십 시사(종합)",
+          "description": "최고전략책임자(CSO)가 10일 오전 서울 광진구 파이팩토리 스튜디오에서 열린 오픈AI 코리아 기자회견에서 향후 활동 방향 및 비전에 대해 소개하고 있다. 2025.9.10 *******@yna.co.kr (서울=연합뉴스) 오지은...",
+          "link": "https://www.yna.co.kr/view/AKR20250910038751017",
+          "pub_date": ""
+        },
+        {
+          "title": "대한민국의 AI - OpenAI 경제 청사진 보고서",
+          "description": "이 청사진 보고서는 한국이 인공지능의 이점을 극대화하고 경제 성장을 촉진하는 데 도움이 될 정책 제안을 담고 있습니다.",
+          "link": "https://openai.com/ko-KR/index/south-korea-economic-blueprint/",
+          "pub_date": ""
+        },
+        {
+          "title": "인터넷 강국에서 이제는 AI 강국으로…오픈AI, 한국지사 출범",
+          "description": "최고전략책임자(CSO)가 10일 오전 서울 광진구 파이팩토리 스튜디오에서 열린 오픈AI 코리아 기자회견에서 향후 활동 방향과 비전을 설명하고 있다. 오픈AI 코리아 제공 생성형 인공지능(AI) ‘챗GPT’ 개발사...",
+          "link": "https://www.segye.com/newsView/20250910505689",
+          "pub_date": ""
+        },
+        {
+          "title": "오픈AI &quot;한국은 AI 리더십 확보의 결정적 시점&quot;… 경제 청사진 보고서 공개",
+          "description": "오픈AI가 23일 '한국에서의 AI: 오픈AI의 경제 청사진' 보고서를 공개하고, 한국이 포용적 AI 성장을 통해 글로벌 리더십을 확보할 수 있는 전략 방향을 제시했다. 보고서는 GPU·컴퓨팅 인프라 강화...",
+          "link": "https://blog.naver.com/ittimesnews/224051026911",
+          "pub_date": ""
+        },
+        {
+          "title": "오픈AI, 새로운 이니셔티브 ‘오픈AI 포 컨트리’ ...민주적 AI 기반 구축하고자 하는 전 세계 국가 지원",
+          "description": "글로벌 전략을 7일(현지시간) 공개했다. 이날 오픈AI는 ‘오픈AI 포 컨트리(OpenAI for Countries)’라는 새... 더불어, 민주주의 원칙과 인권을 존중하는 글로벌 규범을 반영해 AI 발전 방향을 조율하는 시스템을 함께...",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=34859",
+          "pub_date": ""
+        },
+        {
+          "title": "오픈AI 비전 소개하는 제이슨 권 CSO",
+          "description": "제이슨 권 최고전략책임자(CSO)가 10일 오전 서울 광진구 파이팩토리 스튜디오에서 열린 오픈AI 코리아 기자...",
+          "link": "https://www.yna.co.kr/view/PYH20250910050700013",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;한국이 AI의 리더 되려면...&quot; 오픈AI가 제안한 두 가지 비법은",
+          "description": "독립적 AI 생태계 구축과 글로벌 AI 기업과의 협력이라는 '투 트랙' 전략을 추진해야 한다는 것이다. 오픈AI는 23일 '한국에서의 AI: 오픈AI의 경제 청사진' 보고서를 공개했다. 보고서는 &quot;한국은 현재 진행 중인...",
+          "link": "https://www.hankookilbo.com/News/Read/A2025102316030000902",
+          "pub_date": ""
+        },
+        {
+          "title": "[리셋 코리아] AI 모델로 산업 혁신 이끌 전략이 없다",
+          "description": "미국의 오픈AI·구글·앤스로픽 등이 조 단위 투자를 앞세워 시장을... 이끌 전략과 비전의 부재에 있다. AI 생태계는 모델에 국한되지... 편집 방향과 다를 수 있습니다. 김주호 KAIST 전산학부 교수·리셋 코리아...",
+          "link": "https://www.joongang.co.kr/article/25244101",
+          "pub_date": ""
+        },
+        {
+          "title": "Korea 신뢰성 있는 고성능 인공지능 기술 확산을 위한 전략",
+          "description": "글로벌 AI산업 및 시장 경쟁이 치열한 가운데, 주요국은 AI 육성을 위해 다양한 정책을 추진해왔다. 최근에는 AI 육성뿐만 아니라 안전하고 신뢰성 있는 AI 기술에 대한 요구도 커지고 있는 추세다. 이에 글로벌 AI 선도국들과 우리나라의 AI 육성정책을 살펴보고, 신뢰할 수 있는 고성능 AI의 활용·확산을 위해 필요한 전략과 비전을 검토해보고자 한다.",
+          "link": "https://tongsangnews.kr/webzine/1532312/special_4.html",
+          "pub_date": ""
+        },
+        {
+          "title": "오픈AI “한국, 기술 독립 생태계 - 글로벌 협력 ‘투트랙’ 필요”",
+          "description": "오픈AI는 보고서를 통해 한국이 디지털 주권을 확보하는 동시에 글로벌 프런티어(최첨단) AI 기업과 협력을 병행하는 ‘듀얼 트랙’ 전략이 필요하다고 제안했다. 오픈AI는 이날 오전 크리스 리헤인(사진)...",
+          "link": "https://v.daum.net/v/20251023130146557",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "오픈AI 코리아 공식 출범...“한국의 AI 대전환을 위한 파트너 될 것” < 보도자료 < 산업일반 < AI산업 < 기사본문 - AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=202276",
+          "text": "오픈AI 코리아 공식 출범...“한국의 AI 대전환을 위한 파트너 될 것” --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-02-23 11:36 (월)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n오픈AI 코리아 공식 출범...“한국의 AI 대전환을 위한 파트너 될 것”\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n제이슨 권 CSO가 오픈AI 서비스를 소개하고 있다.\n\n오픈AI가 10일 국내 지사인 오픈AI 코리아의 공식 출범을 발표했다. 이는 아시아에서 세번째, 전 세계에서 열두번째 지",
+          "score": 0,
+          "published_date": "2025-09-10T00:00:00.000Z"
+        },
+        {
+          "title": "오픈AI, 연매출 36조로 빠르게 증가…앤트로픽과 격차는 좁아져 < 산업일반 < AI산업 < 기사본문 - AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=207650",
+          "text": "오픈AI, 연매출 36조로 빠르게 증가…앤트로픽과 격차는 좁아져 --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-03-21 07:14 (토)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n\n\n오픈AI, 연매출 36조로 빠르게 증가…앤트로픽과 격차는 좁아져\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n(사진=셔터스톡)\n\n오픈AI가 연간 반복 매출(ARR) 250억달러(약 356조원)를 돌파하며 성장세를 이어가고 있다. 하지만 경쟁사 앤트로픽의",
+          "score": 0,
+          "published_date": "2026-03-06T00:00:00.000Z"
+        },
+        {
+          "title": "오픈AI, 1000억달러 조달 가시화…기업가치 8500억달러 웃돌 듯",
+          "url": "http://www.asiae.co.kr/article/2026021914393816512",
+          "text": "오픈AI, 1000억달러 조달 가시화…기업가치 8500억달러 웃돌 듯\n\n본문 바로가기\n\n2026년 03월 18일(수)\n\n- 소셜 아이콘영역 님\n- 로그인 / 회원가입\n\nEN 검색창 열기\n\n검색창 열기닫기버튼\n\nDim영역\n\nAD\n\n원본보기 아이콘\n\n오픈AI의 신규 투자 라운드 1차 유치가 마무리 단계에 근접하는 가운데 1000억달러(약 145조원) 이상의 자금이 조달될 가능성이 제기됐다. 전체 기업가치도 예상보다 큰 8500억달러(약 1233조원)을 넘어설 것이란 전망이 나오고 있다.\n\n블룸",
+          "score": 0,
+          "published_date": "2026-02-19T00:00:00.000Z"
+        },
+        {
+          "title": "오픈AI, 매출 200억 달러 돌파의 역설···233% 폭발적 성장 속 170억 달러 현금소모 - Benzinga Korea 한국",
+          "url": "https://kr.benzinga.com/news/usa/othermarkets/%EC%98%A4%ED%94%88ai-%EB%A7%A4%EC%B6%9C-200%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%8F%8C%ED%8C%8C%EC%9D%98-%EC%97%AD%EC%84%A4233-%ED%8F%AD%EB%B0%9C%EC%A0%81-%EC%84%B1%EC%9E%A5-%EC%86%8D-17/",
+          "text": "오픈AI, 매출 200억 달러 돌파의 역설···233% 폭발적 성장 속 170억 달러 현금소모 - Benzinga Korea 한국\n\nClose Menu\n\nFacebook X (Twitter)\n\nTrending\n\n- 주간 소비자 테크 뉴스: AI 에너지 추진, 기술 기업 실적 혼조세 등\n- [",
+          "score": 0,
+          "published_date": "2026-01-19T00:00:00.000Z"
+        },
+        {
+          "title": "오픈AI, 2029년 매출 170조 전망…‘AI 에이전트’가 성장 동력 < 산업일반 < AI산업 < 기사본문 - AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=169925",
+          "text": "오픈AI, 2029년 매출 170조 전망…‘AI 에이전트’가 성장 동력 --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-02-19 19:25 (목)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n오픈AI, 2029년 매출 170조 전망…‘AI 에이전트’가 성장 동력\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n(사진=셔터스톡)\n\n오픈AI가 현재 핵심 수익원인 '챗GPT'를 뛰어넘는 새로운 성장 엔진으로 ‘AI 에이전트’를 지목했다.\n\n디 인포메이션은 23일(현지시간) 오픈AI가 일부 투자자",
+          "score": 0,
+          "published_date": "2025-04-24T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Samsung Elec to supply HBM4 chips to OpenAI, South Korean paper says - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU1hWU0wxUkczREItOC1YN2xxQWZZazJZSXNzODZkRzRUYUNMMmppemF0cE5zblJGRnVQbGZEbTNtT2NpRGswc0hyWjAySEJvZ2NrUjJEdXVSeVVoaEZrbEY2Z09Dd0pETFl0ZEhGWWlyNjhOU1NXaFlTenhQTWhRT19vRFBvdzNFVVpGcDN5dzNoX01pTWY4dmFRVmk1VGtQOXdweWM5SklGMU1GeC05VlNLRExTZkE?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 09:59:37 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "OpenAI to sell AI to US agencies through Amazon cloud unit - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYUc0dXdFRWFQOF9vUVZrVERpM3E1eW5JQTVSdWM1dnRTdVIwcmVpMUZadlY2bTJIdVZkUWV3S2RRbjBQdUtsYXdQaUhEQmFfSndvU1RlbEU3dmNDYllWbGNoOE8yZlZNdW92X0dIaVRrSU1UYnlLTXU4X002WF8xTXViOUg4Y3EyZHJ2UVpwa21QbXE5S0szTk5ydHlEbHQ0ZDczbzFXSl81bENsT0RFM2R1TEM0MUE4SDBzOUktM0tsaTNpWnBSOGgzYTRmdw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 13:12:41 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Rubio, South Korea's Cho agree Strait of Hormuz key to global economy, Seoul says - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa1ZFNXJtc2R6SEVNX1J1VUNHV0lDMU9McVlZU21QMU5XUGFSdlIwRjVYWVhnOFRnRjFVX1o3enBMczVVR3VSVkt1V1dmWURGb0g0eGhnT2pDb0FTVlN1Y1lUZHg5aGh3cE5Tb1plQ2gyUkQ4VV9YdHhnQ1pZR0FYLTNKM29BMmpzYkJmVUlZYTBSWUpvYnZJbUJMUUVnSDNxVUdaM3JGN0l4bEhzZWxjdUNWSkVLX3hXbVlmQnJtVDlQR1dMMV9TQWlCZ2U?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 07:02:14 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "North Korea FX Revenue Boosted by Russia Arms Sales, Cyber Crime - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV1lJQ2dwRmc0OGFNV3NSalVtUGNLNDJLY3BzU19zSkJCZEVqNlEwNTZXb3BvSzd5eFR4TFhVaUJWQk03VVJZWFYwQ2F0Rk4zbzFBWVhHV2VSdHZzMk9YVkt0eE1WaEJLeTlWWnBESmc2WFVoaXpvNDI5VVFXalZLRUVqZWJvNjdqUmU0Y3NqcHZpbDI1alc1NHN5NHVRVEs3VFEzVlR5TGwzUWxVcFRka2taOTM?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 06:29:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Samsung to Stop Selling $2,899 TriFold Phone After Three Months - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMVNZUGR6LTU2NlN4NnE2aHV0Q21UTC0tQ1B6ZDd1THl1N1hROTVqN2lsZWlCYUdIejNib3pScmFHMEtYQXhRcmNnTVN3U0JKSm5IUFJOVzdXd1M1WEE0eXpTaGJwTFdBYnFhdUlmeExpTTJuaVFqNzVrdGJ5Y29aQUxYWnZ2U1lHNmUyMzJYcl95c0prdDhza0toWWcwVzVyZHhURV9VZThJTHMxLUFSUG9LOA?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 06:22:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Trump Hopes China and Other Nations Will Send Ships to Hormuz - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLWpkcmtqYzI0cXJScEJHRlg3cVFPODkzR1c0bEpKTHBBeExZcTlFWUlYNjFaT3hrZ3VMbFdERzk4YVRWajJrM0VCcm9JeHNxODd6clhNdm8tdVVjXzN5Rlkyc04wNzRtSTFERDR5MFFvMmtJT3hMX0dNb2RyamZaMDdxWmhQM1VZY1ljNVBSaXBXbnlnVjI0RmdkOWQtMjZCN293aW5nQ0lzaEJBT0RXS2pR?oc=5",
+          "pub_date": "Sat, 14 Mar 2026 14:20:11 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Startup Battlefield 200 nominations are still open - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSzlaUGJJNVRidW55bEFSaUh0cmU3WDNTS2NJMnBNY0tyaWhFTTZnSFlNRnlCa0I5SExOaXJnTW8wTEF0cTVaRmY2NmFLOUd0aTg5a0Y3ZUpYMUVLck1FVHlaQXdOeWgxTGR3Q3dFT0I1WG1naU4tSXY1Z0kyeGc5TGxDb3Q5bnVGRkwxRHJaNzd5bUZKdk1zZjMwZkU?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 15:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5oc1hqR1YwYi1VQTM1alk2dEVDNS1TaXp1SnlRdHdNQzBINUZvN0hxaDdWeEhSUGoxWm5v?oc=5",
+          "pub_date": "Tue, 09 Feb 2010 10:17:04 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "OpenAI partners with Korea’s Kakao after inking SoftBank Japanese JV - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR3hBbWxYOHlUZnp3V0phZGw3VXNjcTVLeG9DV2VRRFU4cmx6a2UwLWN5TC1tMm5QSklYRGJQb1FmVDVVTzNVMUVnZXpuNW9uNjZxN2dKbDdSTkduczl4R3VfckJvQVhVcmoydjFlZUVxQ0RBQmFqQmU0X1Rzd1RCR29pRk8wRU5ybmJSNVE2dTVvYWhDcmtTTjB0SnNVVXZmVXNobWFFRS1Ca051NHQydG04WEVvZw?oc=5",
+          "pub_date": "Tue, 04 Feb 2025 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxNNW44UXFfZUwyZFhBN1BJaG9QN3E5THFGY2oyQXQ1TTVXLUM1UzdzanZ6NHdrWjdDRV9VSVJCUUI0TkdpVTVwU3doMXlZX2R6eVpEWUV6Y014aEloay1jb19qWHhYT3MzUV9HdjJocmhYS2JJOXpjNlRxYmg1SUM5bVJiN0VYeG53Q0JiMm90WG5qX3ZKelVFaDFJQzJHTzJuamhnTDRwQllkdnFucmI1OUdNaGtSYXdxcHVzZjRwSkdsOWxEbWFhR3hGUHFFTVdlM0gzTzdzd243N1JoSnRGWS1RWmlwMGM0bk8zb21BZmZrM3V5b0RnUW1QRjJGOHE1VUhxNnkwbThTRW9lanNpaWlFWlBDdHk4a3htT1p0dmE0cEgtdnFPM0U2MXlxUFBwVTFzbEltWmlGbVJpTktRN3dfRXlMVGpwN2tpUXhhcE5iUG1QOHBEcFBPbll5LWZINUNmZ1hiOVBkUjhVU1dYXzdSMmdJZG5TTzRZR0JnekpvY0kzV0h3b3hJQXEzZ19lRGo3WnZDYjlBc3M4UmJmYW1hZEo1cVB1N2VXd1Fubm02ZXMwRFRERzdBYUk?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 06:32:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Nvidia’s Next Act Will Be Its Biggest—and Toughest - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxNdVkwYnk3VjhQR2RkajVPYnc4Z0F3UXlURHFGNHJUWHZJblIyWEtoZU9GQjRiSkZ4dk5xbDNJc3dOY0ZFZ1pSZFlvVkxmanRYcFV6Q21Kbm1lMmNKWTBIUG1DWG5yd0NaNEhKZHNkb3pLeWpkSmlISnYzalZIOGFrY1ducDZlVUNmMzY3bGtjY3hydDdQM3h0bWZORUpBSmQ2M1JXVml1dk1QbXk0bHhZUDVDMDRFald3bkxpaWd1WXZuZlhpUWtZWFFfUlJROVRCMnVNUnZkYmQ3a1BWeTI1Z0tPUTRjbmhDbTU0eGxyZ0dpQ05MTWRYckFYY3VoSFA2S0ktRUU1dGtCeDNYdEM0bkNnVDQxcDJLcXhoNUpNYzVGZi05U0pXVFJGMmZVSGVNT0pySjFSS0pQRXBjQkdrbXJzZUJSOEMxaHJ3ZXRyWGRCVlB5NlNkRmlpTy0yMVNzUnRXbW9KUDhLeUg3a2o2OVZlal9XT0RwS2UzUkRnLVhDaDdyQ0VRdU1DeUtITDhkTmtrTDF3dzN2aXJF?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 09:30:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Taiwan’s All-Hands-on-Deck Plan to Fend Off China - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMilwNBVV95cUxPOEZqLXE5MXNwbDV4Vlh3V3k1OE5pRHZVZklpVHNLZUM5LTJfMXNVZFFaZFNabFEwYWdUV0JSaGdvVmRBQkplMVJDamsxVHNaWkJpRVlQRTdsUkN5X2M3QXFwQUQ4c1JNRG04S2dmYW42SlF5WnF5UDNjbmQ0dzBFMzg0M3BJWnNvVUxFOHNPMTdBY01mREN6QjNVaXo1VFhqQTNQWnVZSkEtUGxkWGhydG5uZVJ5R0szaTBDOEZmVXdIbl91d2lYZFhfRl94dUtDSThBTHRkQjRSRUlpcmtHY3BYbWtkZS0xbEo1bjRHc0ZmeG1KTGpLejVsMDlCSl9OUUlfTVhySWNXQXFodGZ3ZG9qdmFDanpwdEJEN2hnak05QXBnY0ZsXzA1MUNOcUlIYkRKY0tiMExITVJhR2w3MFVDQy1iNHFhODJBQm03TDdVcDY5bFhiN1dIM0VzNGhHM19pVlhIWWJQVXNzZFM0ZWhrNzYzUkxhLUxNTzJSbHh3eEFOd1M1Y0Z2V2dVX3pDR3hpVFVGZw?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 00:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "‘Fake workers’ from North Korea use AI to exploit European companies - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wSzZVXzNmcUxTNDlmRTNOTWFtdURFYUVQamYxWkVob21iNkNQSlo1TXRlYjRXTW9McDluQjNoRGdGeFd1TDgtZDgxUzNWcFJ1Y1hKMWdRU0pCXzhJVWNZN0NWamdxQURFS01fYUpFYmk?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 05:00:32 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "How the oil shock might spread - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMGFFczltUWNDM2hsMkx4YmdBbER0andObEpXZTB1VGszZlNVUjhWTnBTRmxfWVV1NnB4NXh4Sm95QjJzbk16RUYtdGEtY0dnMlNTeTJjcHNab0J2dktUVnA5UWluOUgzYmh2ZjlmRmxBdmQzcTQ5Mk9INDNFbnktNVBXd0I?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 17:23:59 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Britain must be more vigilant to the risk of sabotage by hostile states - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGFKTXFuVnU5czZ0eDFyc0E4bFE3b0R1VlVaY0hrOU1MMDF3cnEyci1sMG1xNUxtSXNXVXRYbmtRZ0YzRWNSb01GZjhsTDJVSXZuX05kWm1xNGFjQnE1YzdUQlJnZHRnQi0xbVpOY3R4V19QTUtKZHk5YW9kMXBMTUxIUnE?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 05:00:32 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "In India, Honda doubles down on a market where it is slipping - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOUhZZGtjb0ZqYTZ2RjMwX09GSGs2NHhjZGQySW0xYnJETENmclhiVUVGUHNkak4wQlA0TnZIZjh3Q2RNMXRmd1RDQ19MN1RKeV9VaDVoa0FNdjhqNm1rWDRjZDhYd2Jlb1REbmNPanlSc0VOc0hOSURoTnR3NnRLbFRDVWthdXFRR2k5U0EtNEZWaFdGeXhGZ0FMSkMwdGhzMnNOT0doSGI?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 02:32:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "BYD plans $57m R&D center in Brazil to put EVs to the test - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUNFM2d1bk5YU0xQRDFEaS14T0NuRFRfenNTamtkdzBQeFpBYXFWcVFYRVpjTm9sQU0tSk9jb1pyWWFNLTA1VmlNMnRVYkVOTm5yLTV0MjI0SFM5ZkpJcVdmaTg0NEhfUFRLSjYzSVRnV2x1V2JTX3EteWRlNEU4NWF2b1NqMlBRMWJtZkJaZjZpNDB3Y0UyLVpFQlg4eWRlTW1MZjlJVFhsNk1BUzJvZFdJVEI?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 21:30:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Physical AI to impact 41% of companies in 3 years, Deloitte says - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNc2w2Q0t4a2hmV0RYSEh3ZGNXbHN1MWJOU3hlZEJwVVZFUGtsQnZMWkd6eGIyMl9BU2t3eDJ4eTM1RHpMRWpRc2RaRnhnSkRUeXVLTmduZDBxSFZHWHhCcWdQMnZOWEczLVdLNE9YTzBSWFM5aWVyR0tUWG1TcGZfcmpMTjVJcHpnbHJva2RYUkZDRHBSX1ZHXzBZVkZxajQ5d0w4WmsxMFZ5anNBX0MtdjVaYl9aU1lKTW9BaWJEZHlQUkNjZEpJNWFR?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 23:20:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Nvidia Needed Groq After All - The Information",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjYmRLV3lTdS16TXhONk5VcDV6RUFfVUowOTFSejBSVUJwWW1vZ1g1UlFtTEpQSWhsVVAyazk2SUhzX09oc1VFNkUzamRyRnZjaVFtV1BsOHA0RURNb3NaTTNKeW5LeXVPb01tU2gwTzhpbzJiWmZaWVB6QQ?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 14:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "OpenAI Pilots Group Chats in ChatGPT - The Information",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yQ05qT19QeFVlODBrbUdWNkVoX1poajZxb2c2a1ZVSTZLQ25KMktZV1pEMXdYQ1dRZk14TF9PSXpNOHFoS281bVBsSWZCX0gwYnRlT1hFQ2I5ZWNmYUw3bWl5eTZYTG5zUWFHTFFyTFFhMHFwdFo3a1lFWGM4aFU?oc=5",
+          "pub_date": "Fri, 14 Nov 2025 08:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "OpenAI’s Next AI Model Will Have ‘Extreme’ Reasoning - The Information",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcEhwUnRPVTlWdURYTmt4TlB0djZNU1k1dlpiY0xaZXVOTi12SGZyOG5Ub0JPMlRpczlmcnBfVGVZMUhFLVFtdU1ZWk1ic2JnUkF4bmxBUnF2aVR3RTRta2RwTHRSYW5pLTJTVnpqVjFpaEdDY3cxSWZmYW16ZlM5ZHFDS1Bnb0dJWHl4aktCNHpBd2VvMTAwWUJOc2FEUQ?oc=5",
+          "pub_date": "Wed, 04 Mar 2026 08:00:00 GMT",
+          "source": "The Information"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Engineering - OpenAI Newsroom",
+          "url": "https://openai.com/news/engineering/",
+          "text": "OpenAI Newsroom | Engineering | OpenAI\n\n## Engineering\n\nStories about the technology and builders at OpenAI.\n\nOpenAI Newsroom | Engineering | OpenAI\n\nLog inTry ChatGPT(opens in a new window)\n* Research\n* Products\n* Business\n* Developers\n* Company\n* Foundation\nTry ChatGPT(opens in a new window)Login\nOpenAI\n## Engineering\nStories about the technology and builders at OpenAI.",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "터미널을 떠나지 않는 개발자의 꿈: AI 에이전트 'OpenCode' 완벽 분석 | OPSOAI",
+          "url": "https://www.opsoai.com/posts/OpenCode-The-Terminal-AI-Agent/",
+          "text": "터미널을 떠나지 않는 개발자의 꿈: AI 에이전트 'OpenCode' 완벽 분석 | OPSOAI\n\nContents\n\n터미널을 떠나지 않는 개발자의 꿈: AI 에이전트 'OpenCode' 완벽 분석\n\n# 터미널을 떠나지 않는 개발자의 꿈: AI 에이전트 ‘OpenCode’ 완벽 분석\n\n최근 AI 코딩 도구들이 쏟아져 나오고 있습니다. VS Code의 Cursor, 터미널 기반의 Aider 등 다양한 선택지가 존재하지만, “진짜 터미널 덕후(Terminal Native)”들을 완벽하게 만족시키는 도구는 드물었습니다. 어떤 도구는 특정 AI 모델만 강제하고, 어떤 도구는 UI가 너무 무거워 터미널의 경쾌함을 해치곤 합니다.\n\n오늘 소개할 OpenCode(오픈코드)는 이 모든 갈증을 해소해 줄 강력한 오픈소스 프로젝트입니다. GitHub Copilot, Claude, OpenAI, 심지어 로컬 LLM(Ollama)까지 모든 모델을 지원하며, Go 언어로 작성되어 믿을 수 없을 만큼 빠릅니다",
+          "score": 0,
+          "published_date": "2026-02-19T00:00:00.000Z"
+        },
+        {
+          "title": "OpenClaw를 뜯어보고, 홈서버에 24/7 AI 에이전트를 올린 이야기 | by Sangwoo, Yang (DAN) | Feb, 2026 | Medium",
+          "url": "https://medium.com/@dndb3599/openclaw%EB%A5%BC-%EB%9C%AF%EC%96%B4%EB%B3%B4%EA%B3%A0-%ED%99%88%EC%84%9C%EB%B2%84%EC%97%90-24-7-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A5%BC-%EC%98%AC%EB%A6%B0-%EC%9D%B4%EC%95%BC%EA%B8%B0-1ba281919e23",
+          "text": "OpenClaw를 뜯어보고, 홈서버에 24/7 AI 에이전트를 올린 이야기 | by Sangwoo, Yang (DAN) | Feb, 2026 | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40dndb3599%2Fopenclaw%25EB%25A5%25BC-%25EB%259C%25AF%2",
+          "score": 0,
+          "published_date": "2026-02-24T00:00:00.000Z"
+        },
+        {
+          "title": "오픈코드(OpenCode) 사용법, 기존 CLI 기반 AI 코딩 툴과 무엇이 다를까? I 이랜서 블로그",
+          "url": "https://www.elancer.co.kr/blog/detail/1048",
+          "text": "오픈코드(OpenCode) 사용법, 기존 CLI 기반 AI 코딩 툴과 무엇이 다를까? I 이랜서 블로그\n\n# 오픈코드(OpenCode) 사용법, 기존 CLI 기반 AI 코딩 툴과 무엇이 다를까?\n\n개발 테크\n\n22일 전\n\n조회수\n\n7,866\n\nOpenCode는 터미널 환경에서 실행되는 오픈소스 AI 코딩 CLI 도구입니다. IDE 플러그인 중심이 아닌 쉘 기반 구조로 설계되어, 개발자의 기존 작업 흐름을 끊지 않고 코드 작성과 수정, 분석을 이어갈 수 있도록 돕습니다.\n\nOpenAI, Gemini, Claude 등 다양한 AI 모델을 하나의 환경에서 연동할 수 있어, 작업 목적과 스타일에 맞게 모델을 선택하고 조합하는 멀티 모델 구조를 구현할 수 있습니다.\n\n이 글에서는 OpenCode가 어떤 방식으로 동작하는지, 기존 AI 코딩 도구와 무엇이 다른지, 그리고 실제 개발 환경에서 어떻게 활용할 수 있는지를 정리해보겠습니다.\n\n## 오픈코드(Opencode)란?\n\nOpenCode는 터",
+          "score": 0,
+          "published_date": "2026-02-23T00:00:00.000Z"
+        },
+        {
+          "title": "OpenCode가 Claude Code 수준에 도달할 수 있을까? 오픈소스 vs 상용화 AI 코딩 도구 심층 비교 - Apiyi.com Blog",
+          "url": "https://help.apiyi.com/ko/opencode-vs-claude-code-comparison-ko.html",
+          "text": "OpenCode가 Claude Code 수준에 도달할 수 있을까? 오픈소스 vs 상용화 AI 코딩 도구 심층 비교 - Apiyi.com Blog\n\n## OpenCode vs Claude Code: 두 AI 코딩 어시스턴트 심층 비교\n\n2026년 1월, AI 코딩 도구 분야에서 치열한 경쟁이 펼쳐지고 있습니다: OpenCode는 오픈소스 후발주자로서 단 5일 만에 GitHub 스타가 44,714개에서 48,324개로 급증하며 Claude Code (Anthropic 공식 제품, 47,000+ 스타)의 지위에 직접 도전하고 있습니다.\n\n핵심 질문: OpenCode가 Claude Code 수준에 도달할 수 있을까요? 이 질문은 오픈소스 AI 도구가 상용 제품의 기술 장벽 하에서 돌파구를 마련할 수 있는지, 그리고 개발자가 자신에게 가장 적합한 AI 코딩 어시스턴트를 어떻게 선택해야 하는지를 결정합니다.\n\n핵심 가치: 이 글을 읽으면 OpenCode와 Claude Code의 핵심 차이점, ",
+          "score": 0,
+          "published_date": "2026-01-12T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.42857142857143,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.357142857142858,
+        "evidence": "13 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "naver_news",
+      "section": "overview",
+      "url": "https://search.naver.com/search.naver?query=오픈AI코리아"
+    },
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01098871"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=오픈AI코리아"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=오픈AI코리아+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%98%A4%ED%94%88AI%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=오픈AI코리아 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=오픈AI코리아 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=오픈AI코리아 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=오픈AI코리아 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EC%98%A4%ED%94%88AI%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

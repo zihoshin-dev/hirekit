@@ -1,755 +1,1080 @@
 {
   "company": "쿠팡",
-  "sources_used": [
-    "exa_search",
-    "naver_search",
-    "brave_search",
-    "google_news",
-    "credible_news"
-  ],
-  "result_count": 11,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "raw_snippets": [
-    {
-      "source": "naver_search",
-      "section": "culture",
-      "preview": "[블로그] 샘표식품면접학원 PT면접 임원면접 후기\n조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... \n\n[블로그] [Texas] 5박 7일 Texas A&amp;M Univ. 반도체 공정실"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[Texas] 5박 7일 Texas A&amp;M Univ. 반도체 공정실습 미국... ",
+          "description": "쓰고, 면접 준비하고 ʚ₍ᐢ˶ᵔ ᵕ ᵔ˶ꕤᐢ₎ɞ 해외연수고 뭐고 새로운 나라에 간다는 게 더 두근거렸던 합격 연락의 순간 !! 시간이 지나고 지나고 지나고.. [출국 당일] 인천 사람 좋은 점 인천 공항이 있음... ",
+          "link": "https://blog.naver.com/heyjude777_/224218898992",
+          "pub_date": "20260316"
+        },
+        {
+          "title": "애경산업 화장품마케팅 인턴 채용 2026 - AGE 20's 브랜드... ",
+          "description": "전반적으로 편안한 분위기라는 후기가 많아요. 전형 절차 서류 접수 → 1차 면접 → 최종 합격 지원자... 반면 보수적인 기업 문화가 남아있다는 점, 마케팅·영업 직무의 높은 업무 강도, 동종업계 대비... ",
+          "link": "https://blog.naver.com/cymmcymm/224214204760",
+          "pub_date": "20260316"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "정책지식 2026.3.9.",
+          "description": "뽑는 기업들 ㅇ 사회 노란봉투법 D-1, 노동계 원청 상대 대규모 교섭 요구 예고 - &lt;중앙 톱&gt; 사법3법 통과되자 “(판결로 허용된) 남편 면접권 못 뺏나” 금일 사설 ￭ 대통령 “집권세력 맘대로 다 못해”... ",
+          "link": "https://blog.naver.com/trim9134/224209525068",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+          "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+          "link": "https://blog.naver.com/magicpaul7/224204238038",
+          "pub_date": "20260304"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "장례 지도사 구인을 위한 자기소개서",
+          "description": "사회보험과 퇴직금 등 복지 제공 여부, 직무 교육과 개발 기회, 그리고 장기적인 경력 성장 가능성을 평가할 것입니다. 마지막으로, 근무 환경과 조직 문화도 중요한 요소입니다. 팀원들과의 협업 문화, 상사의 리더십... ",
+          "link": "http://cafe.naver.com/uworldexam/152154",
+          "pub_date": ""
+        },
+        {
+          "title": "[플랜지] CNC가공 조작원 모집을 위한 자기소개서",
+          "description": "이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. ?? 상품 보러가기... ** 채용공고요약 대성기계는 서울 구로구에 위치한 금속 제품 제조업체로 CNC 선반 조작원(경력자) 1명을... ",
+          "link": "http://cafe.naver.com/uworldexam/152047",
+          "pub_date": ""
+        },
+        {
+          "title": "현장관리 및 시공, A/S 신입&amp;경력직 모집을 위한 자기소개서",
+          "description": "이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. ?? 상품 보러가기... 연봉은 최소 3000만원부터 협의 가능하며, 경기도 남양주시에서 주간 근무(9시~18시, 주40시간)로 상용직 채용입니... ",
+          "link": "http://cafe.naver.com/uworldexam/152014",
+          "pub_date": ""
+        },
+        {
+          "title": "제조업 경리 및 재무관리 사무원을 위한 자기소개서",
+          "description": "등 복지혜택이 제공됩니다. 오산 인근 거주자 및 차량소지자도 환영하며, 근무시간은 주간 40시간(오전 8시 30분~오후 5시 30분)입니다. 상용직 채용으로 사회보험 및 퇴직금이 보장되며, 서류 및 면접을 통해 전형이... ",
+          "link": "http://cafe.naver.com/uworldexam/151956",
+          "pub_date": ""
+        },
+        {
+          "title": "설계(Cad및 3D필수) 신입 및 경력사원 모집을 위한 자기소개서",
+          "description": "이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. ?? 상품 보러가기... 급여는 최소연봉 3000만원(협의 가능)으로, 4대보험·퇴직연금·명절 상여금 등 안정적인 복지혜택을... ",
+          "link": "http://cafe.naver.com/uworldexam/151906",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "주식회사 용천 배송직원 모집합니다.를 위한 자기소개서",
+          "description": "이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. ?? 상품 보러가기... 정식 채용됩니다. 최소 연봉 3600만원과 사회보험(고용보험, 산재보험, 건강보험, 국민연금) 및 퇴직금 제공으로... ",
+          "link": "http://cafe.naver.com/uworldexam/151612",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260321토요일",
+          "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 42회, 조직 운영부터 정책 실무까지 섭렵한 '지식재산 실전 전략가' - - 운영지원과장, 대변인... ",
+          "link": "http://cafe.naver.com/jungamironware/9268",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.3612403100775197,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "성장",
+        "유연",
+        "장점",
+        "최고"
+      ],
+      "negative_themes": [
+        "단점",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "쿠팡(주) 2025년 기업정보 | 기업리뷰 7,991건, 3.2 리뷰평점",
+          "description": "쿠팡(주) 기업정보 - 장단점 키워드: 사내, 돈, 생각 | 기업리뷰: 미래지향적이고 젊은 마인드의 회사 때로는 거침없으며 인간적으로도 괜찮은 회사라고 생각됨 | 쿠팡(주)의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 ...",
+          "url": "https://www.jobplanet.co.kr/companies/87444/reviews/%EC%BF%A0%ED%8C%A1"
+        },
+        {
+          "source": "brave",
+          "title": "쿠팡 2763건 평균 리뷰 평점 3.13점 기업리뷰 | 잡플래닛",
+          "description": "잡플래닛의 원스톱 정보 제공 서비스 노력하면 찾을 수 있는 공채 족보뿐 만 아니라, 선배한테 매달려야 알려주는 인턴 합격수기부터 그 어디에 도 없는 경력직들의 이직 면접 팁까 지. 당신의 모든 &#x27;지원&#x27;이 합격으로 끝나는 방법이 잡플래닛에 있습니다. 2. 잠깐! 기업 리뷰도 보고 싶으신가요? 면접후기를 제출하면 합격을 부르는 수만개의 꿀팁이 열립니다. 기업 리뷰도 보고 싶으시다면 기업 리뷰를 제출해주세요. 열려라 참깨! 의 비밀은 &#x27;기브 앤 테이크&#x27; 입니다. 면접후기의 신뢰성을 높이고 고의적 기업 평점 조작을 방지하기 위해, 작성된 모든 정보는 잡플래닛의 자체적인 검토 과정을 거쳐 등록됩니다.",
+          "url": "https://www.jobplanet.co.kr/companies/87444/reviews?by_occupation=&by_currently_employed=&review_type="
+        },
+        {
+          "source": "brave",
+          "title": "쿠팡로지스틱스서비스(유) 2026년 기업정보 | 기업리뷰 333건, 2.8 리뷰평점",
+          "description": "개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · 13년 모으면 400만원 얹어주는 청년미래적금 나온다 · 226년 연봉협상 전 필독! 현실 평균연봉 모음.zip · 3잡플 평점 ⭐2점대→3점대로 오른 회사, 어디?",
+          "url": "https://www.jobplanet.co.kr/companies/376944/reviews/%EC%BF%A0%ED%8C%A1%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%EC%8A%A4%EC%84%9C%EB%B9%84%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "쿠팡(주) 2026년 기업정보 | 2,980건 연봉정보, 5,272만원 평균연봉",
+          "description": "잡플래닛 데이터 중 &#x27;5년 내&#x27; 등록된 정규직 데이터만을 사용합니다. 과거 데이터는 현재 물가 상승률에 맞게 가공하여 정확도를 상승 시킵니다. 연봉정보 작성하고 전체보기멤버십 가입하고 전체보기제휴 대학 확인하고 전체보기 · 선택한 직종의 업계 평균 연봉은 ???만원입니다. 쿠팡(주)은(는) 해당 업계에서 상위???%에 해당하는 연봉을 제공하고 있습니다.",
+          "url": "https://www.jobplanet.co.kr/companies/87444/salaries/%EC%BF%A0%ED%8C%A1"
+        },
+        {
+          "source": "brave",
+          "title": "Jobplanet",
+          "description": "등록된 기업 리뷰가 없어요 · 혹시 조금씩 이직 준비 중 이신가요",
+          "url": "https://www.jobplanet.co.kr/companies/329630/reviews/%EC%BF%A0%ED%8C%A1%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4"
+        },
+        {
+          "source": "brave",
+          "title": "쿠팡풀필먼트서비스/비판 및 사건 사고 - 나무위키",
+          "description": "쿠팡에서 비정규직의 처우는 노예, 소모품 그 자체라고 봐도 무방한데 사실상 쓰고 버리는 일회용 소모품이다. 그 기저는 사람이 전산에 맞추는 전산중심주의 체제와 업계 최고의 고용 유연성이라는 두 축이 떠받치고 있다.",
+          "url": "https://namu.wiki/w/%EC%BF%A0%ED%8C%A1%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4/%EB%B9%84%ED%8C%90%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%20%EC%82%AC%EA%B3%A0"
+        },
+        {
+          "source": "brave",
+          "title": "쿠팡풀필먼트서비스/공정 - 나무위키",
+          "description": "허브, 반품 공정과 입고/출고 공정의 워터, 리빈, 리배치는 쿠팡 물류 중에서 피로도가 높아 인력이 항상 부족하기 때문에, 노동강도가 높더라도 일용직으로 채용확정을 꼭 받고 싶다면 최대한 이쪽으로 지원해야 채용 확률이 높을 것이다.",
+          "url": "https://namu.wiki/w/%EC%BF%A0%ED%8C%A1%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4/%EA%B3%B5%EC%A0%95"
+        },
+        {
+          "source": "brave",
+          "title": "잡플래닛 - Google Play 앱",
+          "description": "이제 채용 사이트에서 취업정보 보고, 기업 정보를 따로 찾아볼 필요 없어요. 잡플래닛에서 실제 직원들의 솔직한 리뷰와 연봉, 복지를 확인하고 마음에 드는 회사에 바로 지원하면 끝! 취업/이직 준비가 어렵다면?",
+          "url": "https://play.google.com/store/apps/details?id=com.jobplanet.kr.android&hl=ko"
+        },
+        {
+          "source": "brave",
+          "title": "쿠팡의 구매후기",
+          "description": "제품의 특징별 만족도는 상품마다 고객이 중요시하는 특징은 다를 수 밖에 없고, 이를 종합 평점으로만 판단할 수는 없다는 문제점을 해결합니다. 사용자는 특징별 평가결과를 통해 자신이 중요시하는 특성에 대한 상품의 성능을 예측하여 구매 실패 확률을 더욱 낮출 수 있게 됩니다. 또한 쿠팡은 &#x27;베스트순&#x27;을 통해 후기를 정렬하여 보여줍니다.",
+          "url": "https://brunch.co.kr/@dldudtjr2205/29"
+        },
+        {
+          "source": "brave",
+          "title": "쿠팡 - 나무위키",
+          "description": "이 과정에서 기한의 이익을 보는데, 쿠팡이 매입한 물건을 판매해도 대금 지급은 통상적으로 두세 달[11] 가까이 걸리기 때문에 그 기간 동안 창출한 단기 현금 흐름으로 사업에 투자를 할 수 있는 구조다.",
+          "url": "https://namu.wiki/w/%EC%BF%A0%ED%8C%A1"
+        },
+        {
+          "source": "naver",
+          "title": "쿠팡(주) 2026년 기업정보 | 기업리뷰 8,578건, 3.2 리뷰평점",
+          "description": "장점 : 외국계라 복지나 근무환경이 다른곳에 비해 자유로운 느낌이다, 단점 : 외국계지먼 한국회사에서 다니는 높은직급들이 들어와서 제자리",
+          "url": "https://www.jobplanet.co.kr/companies/87444/reviews/%EC%BF%A0%ED%8C%A1"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 4점 이상이면 '신의 직장?'",
+          "description": "흔히 돌아다니는 잡플래닛 평점 요약본은 이렇습니다. 그렇다면 트레드링스는 어떨까요? 네, 사실 이거 보여드리려고 앞에 말이 길었습니다. 자랑 좀 하자면 트레드링스의 전체 평점은 무려 4.4, 인터넷 커뮤니티...",
+          "url": "https://blog.naver.com/tradlinx0522/223030333425"
+        },
+        {
+          "source": "naver",
+          "title": "&quot;개발자에겐 최고인 쿠팡, 비개발자는…&quot; | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스",
+          "description": "밖에서 보이지 않는 기업의 깊은 속사정을 외형적 수치가 아닌 직원들의 솔직한 평점과 적나라한... 쿠팡에서 일한다는 것은 어떨까? 기업 정보 플랫폼 잡플래닛에 남겨진 전현직자들의 리뷰를 바탕으로...",
+          "url": "https://www.jobplanet.co.kr/contents/news-1275"
+        },
+        {
+          "source": "naver",
+          "title": "쿠팡(주) 2026년 기업정보 | 4,481건 면접후기 3.1 면접난이도",
+          "description": "쿠팡(주)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.1, 면접경로: 온라인 지원 69%, 면접경험: 긍정적 46%, 부정적 10%, 면접결과: 합격 62%, 불합격 24%, 대기중 14% | 잡플래닛에 등록된 4,481건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/87444/interviews/%EC%BF%A0%ED%8C%A1"
+        },
+        {
+          "source": "naver",
+          "title": "쿠팡로지스틱스서비스 2026년 기업정보 | 119건의 복지정보 0 전체 복지 통계",
+          "description": "쿠팡로지스틱스서비스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 119건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/376944/benefits/%EC%BF%A0%ED%8C%A1%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%EC%8A%A4%EC%84%9C%EB%B9%84%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점1.8회사 오바임? - 직장/알바/사업",
+          "description": "집에서 20~30분 거리 중견 기업이라 좋다 생각해서 찾아 봤는데 잡플 평점 1.8에 퇴사율 30%정도 되는데 괜찮아보임? 연봉이나 복지 그런거는 그냥 중소기업 수준이라 생각하면 됨",
+          "url": "https://www.fmkorea.com/5470029324"
+        },
+        {
+          "source": "naver",
+          "title": "쿠팡풀필먼트서비스 2026년 기업정보 | 1687건의 복지정보 0 전체 복지 통계",
+          "description": "쿠팡풀필먼트서비스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 1687건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/329630/benefits/%EC%BF%A0%ED%8C%A1%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "쿠팡이츠서비스 2026년 기업정보 | 179건의 복지정보 0 전체 복지 통계",
+          "description": "쿠팡이츠서비스의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 179건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/383270/benefits/%EC%BF%A0%ED%8C%A1%EC%9D%B4%EC%B8%A0%EC%84%9C%EB%B9%84%EC%8A%A4"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 1점대 회사 1주일 다녀본 후기 기존회사 경영악화로 팀반토..",
+          "description": "잡플래닛 평점 1점대 회사 1주일 다녀본 후기 기존회사 경영악화로 팀반토막 나서 갑자기 이직하게됐어요. 기존에 다녔던 회사들이 잡플 기준 2-3점대인데만 다녀서 그런가 1점대는 상상초월이네요. 1. 면접을 토요일 오후에 봄. 일정 조정 불가 2. 본인 5년차 경력직인데...",
+          "url": "https://www.jobplanet.co.kr/community/posts/6215/%EC%9E%A1%ED%94%8C%EB%9E%98%EB%8B%9B-%ED%8F%89%EC%A0%90-1%EC%A0%90%EB%8C%80-%ED%9A%8C%EC%82%AC-1%EC%A3%BC%EC%9D%BC-%EB%8B%A4%EB%85%80%EB%B3%B8-%ED%9B%84%EA%B8%B0"
+        },
+        {
+          "source": "naver",
+          "title": "쿠팡 2026년 기업정보 | 1928건의 복지정보 0 전체 복지 통계",
+          "description": "쿠팡의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 1928건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/87444/benefits/%EC%BF%A0%ED%8C%A1"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "Coupang Employee Reviews | Comparably",
+          "url": "https://www.comparably.com/companies/coupang/reviews",
+          "text": "Coupang Employee Reviews | Comparably\n\nCoupang Claimed Company\n\nCoupang is an e-commerce company based in South Korea. read more\n\nEMPLOYEE PARTICIPANTS\n\n98\n\nTOTAL RATINGS702\n\nCEOBom Kim\n\n- Outlook\n- [Environment](https://www.comparably.com/companies/coupang/reviews/environ",
+          "score": 0,
+          "published_date": "2024-09-08T00:00:00.000Z"
+        },
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/COUPANG/review/xQDaeefDKvJ",
+          "text": "블라인드 | 쿠팡Reviews - &quot;쿠친을 지원입사후퇴사부터생각하실겁니다&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인쿠팡\n쿠팡*Rating Score*3.4*(5,724개 리뷰)*\n이회사리뷰하기쿠팡은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*1.0**\n*1*커리어 향상*4*업무와 삶의균형*1*급여 및복지*1*사내 문화*1*경영진\n*View detailed rating*\n# “쿠친을지원입사후퇴사부터생각하실겁니다”***Verifi",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Greater convenience to more people — The story of Edwin",
+          "url": "https://www.coupang.jobs/en/life-at-coupang/employee-stories/greater-convenience-to-more-people-the-story-of-edwin/",
+          "text": "Greater convenience to more people &#x2014; The story of Edwin | Coupang CareersSkip to main content\nCoupang Careers\n# Greater convenience to more people —The story of Edwin\nSunday, August 28, 2022minute read\nShare\n* \n* \n* [](https://www.linke",
+          "score": 0,
+          "published_date": "2024-08-19T00:00:00.000Z"
+        },
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/COUPANG/review/b1SoMLCUFmO",
+          "text": "블라인드 | 쿠팡Reviews - &quot;개발자나 경력직만오세요&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인쿠팡\n쿠팡*Rating Score*3.4*(5,725개 리뷰)*\n이회사리뷰하기쿠팡은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*2.0**\n*4*커리어 향상*1*업무와 삶의균형*1*급여 및복지*1*사내 문화*4*경영진\n*View detailed rating*\n# “개발자나경력직만오세요”***Verified User*현직원**· 8",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "",
+          "url": "https://teamblind.com/kr/company/COUPANG/review/5T5j73xmw",
+          "text": "블라인드 | 쿠팡Reviews - &quot;신입으로써 모든면에서만족중&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인쿠팡\n쿠팡*Rating Score*3.4*(5,728개 리뷰)*\n이회사리뷰하기쿠팡은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*5.0**\n*5*커리어 향상*5*업무와 삶의균형*5*급여 및복지*5*사내 문화*5*경영진\n*View detailed rating*\n# “신입으로써모든면에서만족중”***Verified User*현직원*",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
     },
-    {
-      "source": "naver_search",
-      "section": "culture",
-      "preview": "[카페] [3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.\n외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.\n\n[카페] 서울3대 재즈바 entry55 사당점 바텐더 채용\n[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 o"
+    "3": {
+      "naver_web": [
+        {
+          "title": "AI스마트 광고 캠페인 성장미션 - Coupang Ads",
+          "description": "#ai스마트광고 #캠페인성장미션 #성공권장사항 #성공전략 #광고최적화 #광고꿀팁 #운영꿀팁 #운영전략 #광고운영전략 #예산변경 #예산등록 #목표광고수익률 #roas #매출성장 #광고성과 #광고방법 #운영방법 #운영방식 #일예산 #상품효율지수 #구매데이터 #광고효율 #상품추가 #광고효율업 #광고효율UP #중복상품 #목표광고수익률 #수익율",
+          "link": "https://ads.coupang.com/videoclass/05",
+          "pub_date": ""
+        },
+        {
+          "title": "캠페인 효율 증대를 위한 전략 – AI스마트 광고 - Coupang Ads",
+          "description": "광고효율 #효율전략 #자동광고전략 #자동광고효율 #자동캠페인 #AI캠페인 #AI광고효율 #AI광고전략 #AI스마트광고효율 #AI스마트광고전략 #캠페인개선 #캠페인관리 #효율증대 #효율증가 #목표광고수익률 #캠페인예산 #상세페이지 #학습기간",
+          "link": "https://ads.coupang.com/videoclass/45",
+          "pub_date": ""
+        },
+        {
+          "title": "① AI는 쿠팡을 어떻게 바꿀까? - 비즈니스 모델과 AI",
+          "description": "AI의 도입은 쿠팡의 물류 시스템, 고객 경험, 그리고 전반적인 비즈니스 전략에 큰 영향을 미치고 있습니다. 다음은 AI가 쿠팡에 미치는 주요 변화입니다. 쿠팡은 AI와 머신러닝 기술을 통해 물류센터의 운영을 자동화하고 있습니다. AI는 수천만 건의 상품 수요를 예측하여 재고를 최적화하고, 고객의 주문이 들어오기 전에 필요한 상품을 미리 물류센터로 이동시킵니다. 이러한 시...",
+          "link": "https://wikidocs.net/307377",
+          "pub_date": ""
+        },
+        {
+          "title": "쿠팡의 혁신적 경영전략 분석 성공을 향한 새로운 방향성 탐구",
+          "description": "쿠팡의 혁신적 경영전략 분석 성공을 향한 새로운 방향성 탐구목차1. 기업의 비전과 미션2. 외부 및 내부 환경 분석(1) 외부 요인 검토(2) 내부 요인 검토(3) SWOT 분석의 중요성3. 경영 목표 설정4. 전략적 사업 운영 방안(1) 쿠팡의 사업 부문(2) BCG",
+          "link": "https://www.reportshop.co.kr/socials/2214218",
+          "pub_date": ""
+        },
+        {
+          "title": "AI스마트광고 - Coupang Ads",
+          "description": "AI 스마트 광고를 처음 시작하는 분이라면 가이드에 맞춰 광고 등록을 쉽고 빠르게 시작해 보세요. 적합한 예산과 목표 광고수익률을 입력하는 방법 등 놓치지 말아야 할 꿀팁을 찾을 수 있습니다. 선택 옵션⚙️ 만약 특정 상품을 제외하고 싶다면? &lt;특정 상품 제외하기&gt;를 통해 광고하고 싶지 않은 상품은 빼고 광고가 가능합니다. 제거하는 방법은 (1) &lt;개별 제외&gt; 상품 리스트를...",
+          "link": "https://ads.coupang.com/settings/aps",
+          "pub_date": ""
+        },
+        {
+          "title": "인스웨이브시스템즈, AI 및 클라우드 사업 확장 방향 제시",
+          "description": "인스웨이브시스템즈(대표 어세룡)는 19일 모든 임직원이 참석한 가운데 신년 사업계획 워크숍을 개최했다고 밝혔다.이번 워크숍은 ‘넥스트 스테이지(Next Stage)’라는 주제로 열렸다. 회사의 미래 비전과 전략적 로드맵을 공유하고 논의하는 자리로 마련됐다. 인스웨이브시스템즈는 올해 주요 사업 목표로 AI와 클라우드 사업 분야의 확대 및...",
+          "link": "http://www.itdaily.kr/news/articleView.html?idxno=219777",
+          "pub_date": ""
+        },
+        {
+          "title": "[고객 중심 AI: 시리즈 2부] AI 데이터계 쿠팡을 향하여: 빠르고 편리한 플랫폼 DroPai",
+          "description": "시리즈: 고객 중심 AI ; 업계 전문가들은 '모델 중심 AI(Model Centric AI)', '데이터 중심 AI(Data Centric AI)' 등 기술 흐름을 설명하는 다양한 용어를 제시합니다. 하지만 기술이 아무리 발전해도 변하지 않는 본질이 있습니다. 바로 AI를 사용하는 '고객'입니다. 바운드포는 어떠한 상황에서도 고객이 원하는 AI, 고객에게 진짜 필요한 AI를 만드는 것이 가장 중요하다고 믿습니다. 이 시리즈는...",
+          "link": "https://bound4.co.kr/blog-deprecated/whats-new",
+          "pub_date": ""
+        },
+        {
+          "title": "쿠팡이츠의 비즈니스 모델 분석과 향후 성장 전략의 방향성 탐구",
+          "description": "쿠팡이츠의 비즈니스 모델 분석과 향후 성장 전략의 방향성 탐구목차1. 쿠팡이츠의 전반적인 소개2. 쿠팡이츠의 주요 경쟁력3. 쿠팡이츠의 산업 환경 분석4. 쿠팡이츠의 경영전략1) 차별화된 경쟁 우위2) 사업 다각화 접근법3) 인재 관리 및 조직 문화5. 미래 경쟁력을",
+          "link": "https://www.reportshop.co.kr/socials/2214352",
+          "pub_date": ""
+        },
+        {
+          "title": "쿠팡 기업성공전략과 쿠팡 마케팅 사례연구및 쿠팡 미래방향제언",
+          "description": "쿠팡은 상품의 다양성과 신속한 배송, 고객 서비스 강화를 통해 고객 충성도를 확보하였으며, AI와 빅데이터 분석기술을 활용하여 맞춤형 추천 서비스와 운영 효율성을 극대화하였다. 2014년 쿠팡은 ‘쿠팡플렉스’라는 자원봉사 및 프리랜서 배송 인력 시스템을 도입하여 배송 시간을 단축시켰으며, 이를 통해 평균 배송 시간을 24시간 이내로 구현하였다. 또한, 2021년에는 미국 증...",
+          "link": "https://www.reportworld.co.kr/business/b1402262",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 상품 기획 7가지 성공 전략",
+          "description": "치열한 시장 경쟁에서 이기려면 이제 감과 경험만으로는 부족합니다. AI 상품 기획은 빅데이터와 인공지능으로 소비자 니즈를 정확히 파악하고 시장 트렌드를 예측하는 혁신적 방법론 입니다. 최근 조사에 따르면 AI 기반 상품 기획을 도입한 기업의 신제품 성공률은 68%로, 기존 방식(32%)보다 두 배 이상 높습니다. 이 글에서는 AI 상품 기획의 핵심 요소와 실제 적용 방법을 단계별...",
+          "link": "https://oscsnm.com/ai-product-planning-guide/",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "Coupang, Inc. | Coupang and NVIDIA highlight new AI innovations",
+          "url": "https://www.aboutcoupang.com/English/news/news-details/2026/coupang-nvidia-ai-logistics-collaboration/",
+          "text": "Coupang, Inc. | Coupang and NVIDIA highlight new AI innovations\n\nAshish Suryavanshi, Coupang’s VP of Engineering, speaks at the NVIDIA AI Conference & Expo.\n\nSEATTLE, WA – March 17, 2026 – Coupang, a U.S.-based technology leader, announced at the NVIDIA AI Conference & Expo today that its collaboration with NVIDIA has helped Coupang create an “AI factory” which is accelerating new innovations across the company’s e-commerce log",
+          "score": 0,
+          "published_date": "2026-03-17T00:00:00.000Z"
+        },
+        {
+          "title": "Coupang is speeding up the construction of an \"AI Factory\" in partnership with global AI semiconduct.. - MK",
+          "url": "https://www.mk.co.kr/en/business/11991625",
+          "text": "Coupang is speeding up the construction of an \"AI Factory\" in partnership with global AI semiconduct.. - MK\n\ngo to news\n\n# detail\n\n* It has been translated using AI\n\nUsing AI Factory to improve GPU utilization by 95% AI control target for the entire logistics and delivery process\n\n사진 확대\n\nAshish Suryavanshi, Vice President of Coupang Engineering. \n\nCoupang is speeding up the construction of an \"AI Factory\" in partnership with global AI semiconductor giant Nvidia. Beyond simple automation, the str",
+          "score": 0,
+          "published_date": "2026-03-18T00:00:00.000Z"
+        },
+        {
+          "title": "Coupang NVIDIA Collaboration on \"AI Factory\" Is Powering the Future of E-Commerce Logistics",
+          "url": "https://finance.yahoo.com/news/coupang-nvidia-collaboration-ai-factory-003600480.html",
+          "text": "Coupang NVIDIA Collaboration on \"AI Factory\" Is Powering the Future of E-Commerce Logistics\n\nOops, something went wrong\n\nThis is a paid press release. Contact the press release distributor directly with any inquiries.\n\n# Coupang NVIDIA Collaboration on \"AI Factory\" Is Powering the Future of E-Commerce Logistics\n\n[StockStory Top Pick](https://stockstory.org/high-quality/top-6-to-buy-this-week?partner=yahoo&amp;utm_source=yahoo&amp;utm_medium=content_ticker&amp;utm_campaign=contenthighqualitystock",
+          "score": 0,
+          "published_date": "2026-03-18T00:00:00.000Z"
+        },
+        {
+          "title": "Coupang Outlines AI Commerce Vision, $3B APEC Investment",
+          "url": "https://www.stocktitan.net/news/CPNG/u-s-technology-company-coupang-presents-its-vision-to-accelerate-ai-ld9nv6d63z1q.html",
+          "text": "Coupang Outlines AI Commerce Vision, $3B APEC Investment | CPNG Stock News (function () { var savedTheme = localStorage.getItem('theme') || 'dark'; if (savedTheme === 'dark') { document.body.classList.add(\"dark-mode\"); } })(); --\n\n##### Trending News\n\nBHAT\n\nBlue Hat Interactive Entertainment Technology Announces the Compa...\n\n[AVGO",
+          "score": 0,
+          "published_date": "2025-10-28T00:00:00.000Z"
+        },
+        {
+          "title": "Coupang's Strategic Expansion and Diversification: A Path ... - AInvest",
+          "url": "https://www.ainvest.com/news/coupang-strategic-expansion-diversification-path-sustained-growth-2026-2512/",
+          "text": "Coupang's Strategic Expansion and Diversification: A Path to Sustained Growth in 2026\n\nSymbols\n\nSymbols\n\nAime\n\nProducts\n\nNews\n\nMarkets\n\nWatchlist\n\nBrokers\n\n# Coupang's Strategic Expansion and Diversification: A Path to Sustained Growth in 2026\n\nGenerated by AI Agent [Harrison Brooks](htt",
+          "score": 0,
+          "published_date": "2025-12-08T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "South Korea watchdog fines Coupang $1.6 million for pressuring suppliers, delaying payments - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbHZMQWktSUVjTDUyOTVXUzRTenVjRW1Hc2NucXB6SUtMUGNUUmpGWkR4dUFUbFhqYjBzWlhHLXo4T0djRXp1d2VYRGU0SUNyZ21LbTl3MXpKSWpWOHRveWlVXzYxYlVMeGR1Z3d3MDNBdHpMRDYxbEQ4dEl0Y2M4MEJXWG5wZGJfekhQYWxmbExqOVdzWW5OVkxoU01kZXlJaXIzWHZTUGk4OGZFc1hlakdRN29lZkVQWXZET3Y1cEM0SnF4WEtPb3BvS3RCOGwyMF9MRDN4cWd3TkROOVQ1Y1BwanAzZw?oc=5",
+          "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Coupang braces for increased competition amid fallout from South Korea data breach - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNFZjXy1PYkJVb0xFLUdtaHh0dXhSUWxkWEZfUWRiS3lzaW1jbmFuM1h4TjRXYnY4VnFIQm1WY1dYSldoNXFWQmlXbHE2czZkbmhMSnljdEJvQ1FfQ1V0T0k2MVJyRUZGcXVmQkFoWG5TU2piOFotb1ZROW4tc1Z5WXFUTWFKY1lpR3hDenR0ajdxcWI3cFZoRnN6SEREYWwzX2M2Mm1xYkN4QUdGa1g3aTdqU1pLekJTYXh3N2dJUEFvTnlUZl9ZNGxkYXIyckU?oc=5",
+          "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Coupang swings to loss as data breach dents Q4; sees muted near-term growth - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYUYtSm90eGg0aEhCeXJNTW9xWU1ycGhSd09LWGg2X3ZNSmZOTl9mMFB6LWM2eUlsRGZPeWFtYkZ3ZDFJOXVUSVFhRHlXdVRYY3pMdjhvMktXVURFcVMzVTAyVVE5OFl2eXNuOGZ0Wi1MVERVWTlMS2U0UjEyV1JNMlR6TldzYjd3NE1EVFZNUWxPcnF6MGVYTkNkWURGRW5JQWM1aUZFODloX2hMWVBEUzdmM2N5Y2hudGlPbzdwSlIyR3lla0E?oc=5",
+          "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "US Premarket Movers: CF Industries, Coupang, Duolingo, Swarmer - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTFBmaXkwVGFOZDJzM0xib3FBNWVVS1MxTUpkVEVEYW1CMW51VEhBSWFkSHl3LXJyRUxMdkhxLWJ3ZDhweGt5SmVYYWJDaXdGWE14OHJRMTlIc2xOQnpzR3ZIU19pZU9nVzRab0FOYlIzV25RbnRqT3NDRHlseXZLelBhWHY5V1BxbzhXY1Jyb3IwRi1PelBNWll1c0hfYTB3OWd2WnVxVFNHOThaZUFueU42UHlRTUstTmc?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 11:50:52 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Coupang Posts Surprise Loss After Data Breach Fallout Deepens - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYWJOZDViWkZOWTZjZWR2X3hxRjl0dUQxUE13YzRpc2JGakZfWEh1U2k5Z0FrNUxiekd2ZG5NblpQUVpRMU5NQTc1anFMVWdpcUxIOFNEalJaZ3FyLUszZHhQNUo3REdIdi1rWUpOUDFka2R3RjdaNlBYNnBjb2ZpMGZkTl9uRTBCZnljOUFLMVZUTC1JLXlpZGdzTUs0QkQ5ZGtYaWU0R0hvTUwyemt3U3hR?oc=5",
+          "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Billionaire Coupang Founder Rejects Summons to Data Leak Hearing - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZVpMU3VEWnkzTi12R2RRR19Md3pwX1Jqd0gtVVJEN3VqdThzQWNuZVJjR0hUbDF3UXoyQ0dsQUE0bHVSYUt3YUhtUFpMLVhPMHBhVEdveTIxb1VFakJZay15QVA1MlBXa2Q5RlNDWXFVSDJ1dmZCekFyUEM1UVFGRVBpZHV4ZmtIYUg5LWRnZTdUdzNhTWROc1E4TXhuR2Q4ajhSQVRvSHhxbmZoWkNtYW41b29fdw?oc=5",
+          "pub_date": "Sun, 14 Dec 2025 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Coupang - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hczJDY2VYdHUxMElPN3czSElVOHM0Wll4TURhR0wtOGF6UFl2MC15SUFxbUo0ZjJzSFBYZE9fTTMxUUhsTXVkRllpbw?oc=5",
+          "pub_date": "Fri, 10 Jun 2016 21:03:33 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Vision Fund startups Fanatics and Coupang unite to sell US sports merch in Korea - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zUm9DUDFQUEJMeTZ2N0R4RTYxa3pLcWQxa1BmaHdhOXAxVVJHLXJfd2ZucGRjTV9jRFhDcXNHbTdpYkJuaW1lOGZFY1U3bHdwREZHaUJsQkxnTFoxYk5PZQ?oc=5",
+          "pub_date": "Thu, 28 Feb 2019 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Korean e-commerce firm Coupang raises $2 billion from SoftBank’s Vision Fund - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUVhaejBrQ2tvUDdvdS0zcGJfak5lWjZTVWJweTVRam9OS1dUWG5RdnBFOXUzOV9zNlZCYTJNWjdfVXhZanJqdkNpNmV0TzZFajFYV1hmQVRBYkVMamJGQjhxZk9fYjZNY0hHRFpIQVVsZDBDZkNiZ0p4SkdqNU5lMjFvUTNIbVZ6TjdwZzdhMA?oc=5",
+          "pub_date": "Tue, 20 Nov 2018 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Breach at South Korea’s Equivalent of Amazon Exposed Data of Almost Every Adult - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOa2lINTBmWEJPRVN4UVpJSjZvRG5BNEZab2xWZ09DVGxSY3pKLU83VlJsQXZLWlBucFdJSWdwd2xyRkJHdWs4U1BSYk5zY05LRHQwbW5ISFBLZnRoWlhrbUhSYnpPeFFMOFFTRkE0Y280QUlyZF9WMjlic1pRczhZVXZ2OExNRDdrdVlmRGhlVWtKTlpHS3h3S2hUNnVzNHlUalBMQ211OURjYUlqZ1RleFlJVG5pNjViV1hQOGhpSkVwakpSTU5mWVk4OHc0a3BVbHJTV1I0RmZISTZyNDBfRVNzN0VJTDQyOE1sSS15QmZaQjhTR29Ea05CRnk1QzR6VGRlVE5TWmxLMlRhTFk0a2dLa3BQa2ppVUw4bFFYblgzLXR4X2xKUGpCZlpXc200aHB0TjdVMEZkR3hyUHhObEpPR1pPRThrNHBkZjR6cVB3aTFKUjdJTVVwZTUzS3J6VHRmOXI1UTZoMUs2djlEak91X1Znc2xWVWJJdUo3YndfSWJSS09URS01QmVITGhQOEtkWVpSdGlQLWljQ3U0UUZBMG95Y3Z1WU5jTkRTRWh0WVFVdi1IZ1B4MG5Cc3M?oc=5",
+          "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Exclusive | U.S. Warns Korea Against Targeting American Tech Firms Amid Trade Escalation - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxPM2hHbERYSGV0WXJLRTYySmhGVlZfblhOUmRicENQVkpUSXpzczR2UTBaQWJOWnFEUGljWTFQc1R2TENQellWTUlIX092QXVRczBna0VwenY0aWd0eVA2cjJkYzZpTU9lRkdZRF9BbUc1MmZVODRoNUJTSDA5R200cktuNU5wQXRuYjlUVEtGVlNXb01wQTJOb2duc1hRTXh6cTcxWnJ2LVlYbEZmaVFsdlBBSGotTGY1WUt2QkVmV2NoT1g1cEZDVWg0TlVid1J5bFNweFdTVS1jSXBEcmU1Z21KdF9MaTY1UjJyTzRmUzg3MG1qS1lkTjFQMWp4bHhGTFhXeEtybXpSc25jMkF6STd4c0pfcHJ0T3d3V2p1UzcxSjFnYkc5UzJud0JiWlgxMXlLLUpSQTV3VjNHR1hYME5jT2VrVWdsWWFkS3ZyREMwOS1XVFZzMk55S290YTZBdHRRT2N4MDE0Y1hCYzZqS01naXgzM1BkZ0hHa3JFMWlXNlpLc3dmbEtKZjhsdHJyclNmRzZMWWlfbFA3bDhMdWZscGM4ZUtiSTBXLWQ1OVB3OTAxcEgwTHEtNA?oc=5",
+          "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Exclusive | After Coupang, Another South Korean Delivery Company Catches U.S. IPO Fever - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxNVDQtWU5TenZpZEJoc3VfNVlZcjRUV00yQVVWRTRvMFJBZkljRTMwQm9uaF9VN0xkVnZDSElDak9aX2Rnc0VmOURuYTdrVUVMbEtHcEZneFZEb3ZBTkR0WWhOS2lmMmlmSEZOdm9KSHVGQkhVbXlXM3JiTG1aTDZreFVYVTNFQWhhUzJWclpHOUtqbXRxbmZWcGJ5dHBucDNCLVRLdzNGRS15RGJzX0ZqT3VQX0xyVDVhQXhEY205NUU4X1J4UndwOXZzd0NfdE1vVzU3ZlhhMU1PdUYza0xjT0RGQ3BRdF9PNl9xSkRQOC14ZnFzTENCMjRsMnVLalBrU21vQUo0VC1XaURGM25IWXRKR0ZoUkN2UzFKNlZSb01aWnljQmlGdGpCLWc0ZEJ5Qm05ZXJXUGt2ei1YUUdydGhNM2Q5V2pRQ2dDU09lSk0xZVFNekRVWHRkTjhoV0FRekF0X1pPZUlaamZhc2N3Wk1hV05IaVVZenhtZmJrTG1pV2NvbENNeFB1eEVYR0pGYl9mRmo4UmVCUjMweGpmOXdmNlpLSlB2WEp5X09Zd3NCNlRhU1FOamx0UUhYdTRidXA4?oc=5",
+          "pub_date": "Thu, 11 Mar 2021 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Is South Korea’s dominant online retailer an American company? - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSzJtVW9pU1RUMjZnckVodVRMZmhVd3VjeDYwTm95X05OZUVfYktOLVBtcDlncmtscTRJUDRNaDhPcDdESk15c1lSS3J6cXJ4NjRLemFZYi1VOUdNUmVYTmwwZjV5a3IyYVdaUEFMU2VVRjZBVEtDdTJZaWtZR3hlcEVIVGY?oc=5",
+          "pub_date": "Sun, 08 Mar 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "SoftBank-backed Coupang jumps in Wall Street debut after $3.5bn IPO - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VMlNieFVab2NRZC1hX0IzbzZGc01Qb3BjWDg2aXlYdHZqbEJIM29YNEhEZ3cyRW8zNGE3M1RTandIOVJDTkVkNVhhRGlFTnRNUmpkVkpOYjF4LUhEQklHYk5YcDJ3T1lydUswS3BHeDM?oc=5",
+          "pub_date": "Wed, 10 Mar 2021 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "South Korean CEO quits after huge online data breach - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xc2N1dVBiaGdYSGhPZjhLNFlNY2U2VGJEdWRfNVhBeHZlU2xyRDRtbEh2dGoybGtnZHBUcDVYMVZSLUVYaE9sQi04MS1kVGMxZjhGYmZWd3c2X2g1UmNXNlVPcTRKakV6RDdvRUxabG0?oc=5",
+          "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "SoftBank Group shares lose steam as investors have qualms on big OpenAI bet - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1dMLWFVTE0wWXdSYTdVSHZscXcxOUlCcVRYdWVhS2llek5ubm5OSDdSanItMlFab294cjEzVDBSeHhRMl9VYm94YUY5OE53UExWZXMycHJOTHJEU2FwZG4yYlZvVUVPZXhHZXhvaThidHY5OURKaXg0SFZZelhxNnVaakt3aFJpOFVzamxid2ZmTGdnUU1YcnhPWWFUMTBZNGhGZE5ySzBJazd0UWRYejRwbzBSdmViOG91dnB2clZuUHZxTlM3bw?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 21:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Coupang profit falls 97% after major data breach - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPczVRUDhVa1dtWlZPT2ZQT1ZPZUlseVcyMXlwVXNHTmppbUxWdnFEekRwNkNVUnpIbTVXQzdmUDR0ektGSVpoYnVXbWZwR2ZQWk1sWm5xd0ZUNUtTVnpVSl9TOHhBbUZFc18wT2s5ZVFGdWptem9DSVY5Y1lYalE2OXlaT2w4ak5UMkVnU1dUOFJCX0lRNXc?oc=5",
+          "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "South Korean government pressures Coupang over major data leak - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3B6UVBENUdYeUtSc08wandMNGpyUXlQcTY5VmRSMDZIbWlxSFBTSGRzOGlwamI4SDlFU2FCeDVxR0M0YnVianVSSGFpR0NJTXJyaThmLTlVS3FTQTA2OXJsZkdaa2RUdVhBRkN6WHBsdW12bmtTa09jVlFuXzVNUWdBUWpLeVRHVmdfRS1uYnVoX0EtZjRVYWhQZzhYYXc1TWVsNFdOSGR1QQ?oc=5",
+          "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "A Rising Star at Microsoft Promises a Restored Xbox—and No ‘Soulless AI Slop’ - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT09Ram42eEs4a1h2a1JObTZqLXVRVGpfMUtmTjVqdEhjLWc1VnBwZ0E3dlQ4UnVfdXBhTktQTEJWUzNMV1lWSk56a093bUZLbXl3a0FhYjdlMTZfaFJNcy1jV1RZbDFjenQybnR1YkpRUmJuWjJUWlVJcFpWR0hRdUoxZGNwVW1NZ1dFenYtT1p2bmJ1RU9uX3dqYnVCUm5qS2FJ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 16:06:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "Coupang Co-Founder’s $100 Million VC Fund Wants to Fund the ‘Korea Graph’ - The Information",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS0xMZDN6VzhaNXdnd2c4YUdZc1BRbmxQTFdFdmFRUlVVOVgyX2VNRy1HMzFEN01BR0dHUzBOdFFtdDQyaUZBbmp1d3pHVl9MczZwZlRRX3JaNkFQcm5aUTNLY2JyRE0zY0hkUkJoYjZqWVRVekoxeHdZUF9IWDhNQlUtUjFTZzBTVXJ4WnB2cXh4T09oWnZWUm5HUWhtWW9DNTZ2LU9qRWtueGZoUDVkQzVGeWQ2eFQ5aFN6ZUVnaw?oc=5",
+          "pub_date": "Thu, 24 Oct 2024 07:00:00 GMT",
+          "source": "The Information"
+        },
+        {
+          "title": "Harshal Wanjari - The Information",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jamVjLTJyUVZtVFlqLXk5Mzl5bzl0U1dNWlFkXzlTM24yR3N6aUk0UVpFZjNFNXd4ZVlyMGFtZlhiTGI4ZWpseW04NDNqbUhVcG44?oc=5",
+          "pub_date": "Sat, 14 Jun 2025 23:05:33 GMT",
+          "source": "The Information"
+        }
+      ]
     },
-    {
-      "source": "naver_search",
-      "section": "strategy",
-      "preview": "[웹] 캠페인 효율 증대를 위한 전략 – AI스마트 광고 - Coupang Ads\n광고효율 #효율전략 #자동광고전략 #자동광고효율 #자동캠페인 #AI캠페인 #AI광고효율 #AI광고전략 #AI스마트광고효율 #AI스마트광고전략 #캠페인개선 #캠페인관리 #효율증대 #효율증가 #목표광고수익률 #캠페인예산 #상세페이지 #학습기간\n\n[웹] ① AI는 쿠팡을 어떻게 바"
+    "1": {
+      "page_title": "Coupang, Inc. | Coupang Newsroom",
+      "about_text": [
+        "Company About Us Innovations News Investor Relations",
+        "Your browser does not support the video tag. Your browser does not support the video tag.",
+        "Coupang is a U.S. technology and Fortune 150 company shaping the future of global commerce. We fuel American economic growth by connecting thousands of U.S. companies and brands to international markets, exporting billions in American goods annually to Asia and beyond."
+      ],
+      "career_links": [
+        "https://www.coupang.jobs/en/"
+      ],
+      "google_news": [
+        {
+          "title": "쿠팡·네이버 양강 구도에 AI까지… 향후 생존 전략은 [2026 온라인유통산업 웨비나] - IT조선",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56MXdPbzdtdjRfdGZtZVFhVS13ZkY2RktwaWV0UHZLNGNHS1dBY1doVjh3UFRDVDBaTlFCQm5PUlp1aFM0N3VRT2d1LUtwNmJnSXFZZU9Nc3NDb3hkUTBlVnhYQzFmaUtyX3lwa0l2WmnSAXRBVV95cUxOV3FVcllhSkNYR25Pb1U3ZnY4SF8zcjNmc3FKc1EtS0ZVSENPV3prc3JiZXEyckhxaWZra0VnVUtXN19WWFZsNVo2RVpKQlVkcXdKMnRhNFlENkR6XzFYdldLOGdDc2lPS01vcTc3d0dUY2VTMQ?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+          "source": "IT조선"
+        },
+        {
+          "title": "[보도자료] 쿠팡, 산업부 ‘제조 AX 얼라이언스’ 참여…AI 기반 유통·물류 혁신 선도 - 쿠팡 뉴스룸",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44eTlUQkUxZTJRSndRcVJLM0dQZjZUOVc5UE5GaDVmUEN3aXhJaXdVMHFpWHNEYnFFTW5zRHFNR2U1dGdYNldiOG5TaXV2ckxwTEE?oc=5",
+          "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "source": "쿠팡 뉴스룸"
+        },
+        {
+          "title": "'AI 인재' 전쟁 불붙인 메타… LG CNS·삼성·SK·쿠팡도 총력전 - investnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96aFgzZzBBcng5Qll4V0xONmc2STlZajVNcjhfRmp6VlZhbkNLeF9NZ2xVZ2Q3c1FuRmJuZHZlczY0MjIyLXBSSlNaODJ4NmljcjNzSmY1SVVIOHN5d09nVnNfUkhDeWtjSmdkLTZBa1pRd9IBdkFVX3lxTE5PU1RpaUFJaUkydDRQOUVLdHN0TEJsSmtjeTJ5SmV0aFRJQ1VjTFRoaWRlaWZqWklGOGQ5SExoTkUzMnZ2X2UtOS1UOGEtMld1Q09BNWNELS1FMHExR0RuTlVHNFFWalpfNTNkaFNLMmRibjNUclE?oc=5",
+          "pub_date": "Fri, 26 Sep 2025 07:00:00 GMT",
+          "source": "investnews.co.kr"
+        },
+        {
+          "title": "AI 클라우드로 아마존 따라가는 쿠팡…카카오 넘어 네이버도 경쟁 타깃에 포함 - 인베스트조선",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQW9FQUF5YTF6MjBPOHBxMWwwbUJRUUdtd1ZIWGtPTVU4M0dmUG9HQ3pwbVlRd19mX2hQb1FMN1E4ZkpqdVhsa1FzUmhMVXktQk1pQVBtdnp6RTBfRTM0dGZmd3pNZE1ZR3FpRzVjWVhOQmlXR3I1dUZRcXBtYjhYTUM0cw?oc=5",
+          "pub_date": "Tue, 22 Jul 2025 07:00:00 GMT",
+          "source": "인베스트조선"
+        },
+        {
+          "title": "김범석 쿠팡 의장 \"AI가 핵심 성장동력...투자 확대할 것\" - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tX2xXM0hTQy1NOFJ6RnNZd2ZIUW9RZUpXcTMzUHhubWRsUEZTLU0tblRJSTE4aXEta2FGUmxkSlNlU2ZwSmUtZU13MUh5c240U1R6YlUwbmpIUGZlT3lZeUNWRjFPTGw2eWVfZw?oc=5",
+          "pub_date": "Wed, 06 Aug 2025 07:00:00 GMT",
+          "source": "유니콘팩토리"
+        },
+        {
+          "title": "쿠팡, AI퍼스트 선언 …\"로봇으로 물류혁신\" - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XZXBCQWw1UHczRk9rQWdUeEgwNURzMEZVVFFYSlAxSkU4LVphbU5nMnd5eE1zNmM2cTZ4b2VLc1JYa0NCOEFHRkhwVDlScWdUdzV1U29R?oc=5",
+          "pub_date": "Thu, 04 Sep 2025 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[Tech/Biz Trend] 쿠팡의 아마존 따라잡기, 이번에도 성공할까? - mobiinside.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16aEVqTVQzLVVHNlo0LXM2bE1kRERESjRzVlNMWjFtSkVrUTNtQW5VbS03ODdOcUcxcFhCbU1hckh4cUk4bHFOTk8tUW9GQWNXb2ZLOFBDYzlIbklmM2xMVGhXeTI?oc=5",
+          "pub_date": "Tue, 22 Jul 2025 07:00:00 GMT",
+          "source": "mobiinside.co.kr"
+        },
+        {
+          "title": "영등포농협 하나로마트, 쿠팡이츠 퀵커머스 입점…신선식품 즉시배송 서비스 개시 - 농민신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ubXlWbnFtNTlYQVVheURRSHBaVy1BV2ZpTTdpX2RybG1NU19rSklVX2ZNQUJjRjU4TTF1WVVGWEMwNGxNd1ZuNEs5LXJ2X3Q0VGhwbDdlcmwydw?oc=5",
+          "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "source": "농민신문"
+        },
+        {
+          "title": "쿠팡풀필먼트서비스, 인천 재능대서 대규모 채용박람회 개최 - 헬로티",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkMHJMbjZfaUZNSDJ4VGpuU19yUHhCbS0tSXNtUUtHTkdHQ2tpVHJUaGFXNExUZEd0OUtYQUFOcXJzU1dlYTFzYldzQV9YS3FjcThDSVJFa1FyeG5hVzQw?oc=5",
+          "pub_date": "Fri, 31 Oct 2025 07:00:00 GMT",
+          "source": "헬로티"
+        },
+        {
+          "title": "쿠팡, AI 클라우드 승부수…GPU 국책사업은 '고배' - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YNlV1Snh3V2dMRFVDZGRjamgwaFlYT0ZmN3pDS0RSeGpGSUtMV1FLWW9DLWJoXzNTbV80dF8xS0JMTDdQS3AzRzlfSDlJMUE?oc=5",
+          "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "클라우드 시장 진출 선언한 '쿠팡'…AI·솔루션 파트너 생태계 확장 속도 낼까 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtYms2Rm04Y1lqQ3NROXVZLWJCaHlMblNTaTNzQW0yQi1jUnpsaXJjM2F6d2RpeC1fQ3M3RXhvX2hWZF92aTA5b0QwVnBaaXF0V1l6VF9B?oc=5",
+          "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "쿠팡, AI·로봇 자동화 인력 750명 돌파…1년 새 50% 이상 증가 - 투데이e코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UNUlvTnNPUmN3aFk3MU1Jb0N4ZGtyMWUyWWJpaDdYc3Zrak4zUWFOVlAtbWpfVVg3ZDdSMVB5WGRoU1hfbVZmOGw1OTBoWURrRVMxUXJiYW9KRTZNRFBQdjd2b19lX3M?oc=5",
+          "pub_date": "Tue, 23 Sep 2025 07:00:00 GMT",
+          "source": "투데이e코노믹"
+        },
+        {
+          "title": "“로봇이 대신하니 훨씬 수월해졌어요”, 쿠팡 FC ‘AI 자동화 현장’ 공개 - 대학저널",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lQXNzRlJ1emxKaGt6OXJxd1E0TlgyaTFYS1B5MnFSY0xDaDlGRFpDaktyNUNoa1BrTUlXYndtTXh3VG9hOEM1ZVhxU19sYzNZS041YUVWTm44OEpyUVHSAWpBVV95cUxOc3pjeW5SRVVZNXAtaVpIVW9XdDM0dFVUWHliamU3WFdxWnhvTnVBazFWcnpKN1p5V0xIRDlNdUdzMG93NUdXRklnNlhDSlRFVkcxWVBndUt3TkVfR0ZTaGswZFE4VW1nU3VR?oc=5",
+          "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "source": "대학저널"
+        },
+        {
+          "title": "쿠팡 올해만 18명 고위 공직자 채용 … '대관 전략' 논란 - 세이프타임즈",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Yb2NKR2kzRnZ6c3lHc09VaU5oRDNwcWQ5OGdMU29BMThDcGduNHdsdmZEU2hKMnFSOUlqYW04SG9xc3dmbHVOUVJqaUE0ckdWeWJoODZUN0l6SVdoeXA1cVAyYzM1SEVtaUZxT3JtRdIBc0FVX3lxTE5hWmdtZkxobm0tRXRscnhvYkNtVi0yaE9OMWpEVEw3cjhuTjJZNGlGMFJWTFo2ek50aUtfejdfYzdZVnpUYlBBeUFWX3UwNnB3RFBxSDJZXzZ0S2x2SkljQ3huMEhGazFETmpCSHZ3OTRSWm8?oc=5",
+          "pub_date": "Mon, 01 Dec 2025 08:00:00 GMT",
+          "source": "세이프타임즈"
+        },
+        {
+          "title": "쿠팡, 산업부 '제조 AX 얼라이언스' 참여…\"물류 AI 대전환 기여\" - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kSFUzZ1h0MkR4MlhuQWhsOVNqeXpJaVE1WU1DVkxKZjVTRXdhb0hqdy15bnU3aVpGMUdTenhoVm95akQ0aE9nWFZ3QTEtN1RWbEhwTFgzWEItUdIBVEFVX3lxTE9PLWMxSEFyemZVUjNWLVl3VnVMQWNjaWRKVExnOGstam5KMXJWSXZzOERBaUZNZklZMTU3REZZdTNEQlFyb21NOVlPUUFUclozUXJQbw?oc=5",
+          "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[기업실적]쿠팡, 3분기 역대 최대 매출…대만 등 ‘글로벌’ 사업 호조에 지속 ‘성장세’ - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxOaHhpT056N0FUQjhpaXFpTVNTRklJWTFBNHpMWXZhLXZ5bXFvZHpvU2pGWnBuUE5OXzBDODRhb3JCcWctd0RCVXZRcEM1MGczRU9NZmNwLTd4M2xtRkVnYlh3WXJLMjF4RFZHS1dZZjQ3a3VHVmQ2VW53VTNYQ3hNV0Ezdy02aHl3LTU5RURsZXllSGdfVjVVZ29wTnJPTTVIZGhsbnJ3MV9jT2hFSTNvUzNTcUV3S3JSdnNsMmpBVmtPNzB3TU1UcEJWdnVjcUxjMm83YXY3enR0YkxNYm9MN2U1S2RxQ0JCSnNqV0dkdFRHMXMyN2EzdDlTenJBMjVOdG5OZmJaSEZHR3YxNHppaXdmc3ZNRTE5Qkc2cXFOSjZsQ0dyNlhSdjc4Z1g0MVZDNFdXUExfa093ZjJrdjlwc0J6M25BQlFBX1ZNbW1GcmVuZlIwSVZyNE9HTmJWNTBHc1ZPRGJZZS1CR0s4Rlc5RUlFOFNyaFhucWpmd0dVWVlCTmhkdDBVQVMtbDRoa1JsenBvWTg2OHVsMkhqVm9MeFVGM3ZPWHljWDRCQ2tCLTNCcFVfN2ZZZnladm5Sd0FEQTdmc0pkMWZRbk5ZMzZrb1oxc2FNemtBNFJZQTA2VXh1YlBWSjlVQUFLSVNMNnU4WVhDQmlOOVRtLUhrOVl1VWducTJQNGxQQU5XcE4wWjBtS2dtT0kyaWwzbWtJQ09HY3NqRzJVSE1RVk1JeGxiaHdISzBNYlBsdFZDSHg1UzlaX1JfMy1UcG0zYkVJRGY5elVCcGJ2aW9jczEzOXdqSzlXdS01WU1JMWV0U29B?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 02:09:35 GMT",
+          "source": "MSN"
+        },
+        {
+          "title": "쿠팡 4분기 실적 분석: 대만에 베팅했지만, 이익 97% 하락 그리고 잉여 현금은 반토막 - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQREEwa1FLdmJjWXRsR2F1WU1qV2ZjTWZBVS1KRm1ZU3RjTEdnTTlQMXJJakd6QXBHemtkZGdaZTRad2RiNWVGbEVZU0F0dXJxWm1nTG9nNGFTekk5UXExajNXLXM5S2dXaDZFd1ZWY0FlSHdSUTY0OExoWTRtY0NDanozQm5tZ1Vz?oc=5",
+          "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
+        },
+        {
+          "title": "[쿠팡 실적프리뷰] 불러도 대답 없는 김범석…발언 수준 '주목' - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xYVBCZ0dJbnV4ejFJZjcwWmFscmZsaGRFX0twZ0VKY2Nod3JQVlVQZ25fUkl6VnVvMHMxRHI0TW5ZQXc2R3dNa3JSNHJhNVo4MVdsTjE2aG5VOVZTRnY3dzNhbExvRXI5aUozbWg2LS0?oc=5",
+          "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "source": "연합인포맥스"
+        },
+        {
+          "title": "쿠팡, 신사업 덕에 3분기 역대 최대 실적...수익성 개선은 과제 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWNFE3MmU0dGxTdGFBUTRVV1l6eVJNYVNQbFYwb3hKV21QSEFJZnVhRHdYdXVrUnlhM3lmdDdTNTJsVEUyR1RyYVlkX1pFMTg3R0d1RDh3?oc=5",
+          "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "쿠팡, 지난해 매출 사상 최대치 신기록…‘고객 신뢰 회복’ 시험대 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IV3hjUHNWNF9teV9FNlB1T3Z1ejJZN1lRZm5lVnZibXdmQUJfN2Z0MWMyaG5LMFFocUFacFJXeHN5UWE1b3MtRThCaHUtOGs?oc=5",
+          "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
+          "source": "v.daum.net"
+        }
+      ],
+      "linkedin_url": "https://www.linkedin.com/company/coupang",
+      "slug": "coupang",
+      "employee_count": "",
+      "industry": "",
+      "headquarters": "",
+      "snippets": [
+        {
+          "title": "Coupang | LinkedIn",
+          "description": "We know we’re doing the right ... reputation for being one of many high-performing companies and reliable force in <strong>South Korean</strong> commerce....",
+          "url": "https://www.linkedin.com/company/coupang"
+        },
+        {
+          "title": "Coupang: Jobs | LinkedIn",
+          "description": "We know we’re doing the right ... reputation for being one of many high-performing companies and reliable force in <strong>South Korean</strong> commerce....",
+          "url": "https://www.linkedin.com/company/coupang/jobs"
+        },
+        {
+          "title": "Coupang Fulfillment Services | LinkedIn",
+          "description": "<strong>Coupang Fulfillment Services</strong> | 696 followers on LinkedIn. <strong>Coupang Fulfillment Services</strong> (CFS) operates the network of in-house fulfillment centers | Coupang boasts an extensive network of its own logistics centers, capable of accommodating millions ...",
+          "url": "https://www.linkedin.com/company/coupang-fulfillment-services"
+        },
+        {
+          "title": "Coupang: Life | LinkedIn",
+          "description": "We know we’re doing the right ... reputation for being one of many high-performing companies and reliable force in <strong>South Korean</strong> commerce....",
+          "url": "https://www.linkedin.com/company/coupang/life"
+        },
+        {
+          "title": "COUPANG GLOBAL LLC | LinkedIn",
+          "description": "<strong>COUPANG GLOBAL LLC</strong> | 28 followers on LinkedIn.",
+          "url": "https://www.linkedin.com/company/coupang-global-llc"
+        },
+        {
+          "title": "Coupang: Culture",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/coupang/life/c9db3a86-2050-4654-abd0-2a7173cfa857?trk=org-guest_content-selector-option"
+        },
+        {
+          "title": "Coupang Pay | LinkedIn",
+          "description": "Welcome to Coupang, Vivek Jain We’re thrilled to welcome Vivek as the Chief Product Officer of <strong>Coupang Pay</strong>, our fintech division focused on delivering simple, trusted, and innovative financial services to customers across Korea, Japan, and Taiwan.",
+          "url": "https://kr.linkedin.com/company/coupangpay"
+        },
+        {
+          "title": "Coupang Financial",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/coupangfinancial"
+        },
+        {
+          "title": "Coupang: Culture | LinkedIn",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/coupang/life/0639bba5-ae5b-48ec-b00a-5ec16343b86f?trk=org-guest_content-selector-option"
+        },
+        {
+          "title": "Coupang Logistics Services",
+          "description": "We cannot provide a description for this page right now",
+          "url": "https://www.linkedin.com/company/coupang-logistics-services?trk=ppro_cprof"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "'탈팡족' 컴백...쿠팡 이용자 보니 '헉' - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rT0ZQdUh2b1ZWYW1TX2VPVF9rcmtzaWtQSlRJdTh2WUxlY2dNOHZ3ZTZDaTdkZXVZS25yNWxJc1ZpZHU2LUJtdjgybVplQ0dTZl96SGc4UXBoN09BeVpPR1FKbW0taWN0b2pWRg?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 19:41:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "\"약속 지켰다\" 쿠팡 로저스 대표, 성남시 일대 새벽배송 나서 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Dd2plOHltZnh0ODFTejZrUndIT2k0RFRLRUxPZGM5QkZkc1hGMHRVYVpmdkZhSjJHU1JrajQwSVU5TDFDUUwyS0RjbExSaHh5N2JzZEhvMDNVUdIBVEFVX3lxTFAzZGJ1RVd0UGYyNHRrR2V3eVFfNElJRDBhNGFYMEtXdmIyR3hrRjdqMnVfb0hnLXNXMk9DdHNGcTNNUHVQWmoxSDBnZVRpZENESTVHNA?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 05:17:08 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "밤새 상차·배송에 사진까지…'쿠팡맨' 변신한 외국인 대표 [영상] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41Slhid3hGWE12ZjM2dk51Rkxab19ZNkRlYlBJVks5a0h6cFNKWnBGdkRSVVphem1UUVYxYzlSWV9Cb05rNC1ZTG11ZFF4RjIyTU9UV3ZpZ3JnUdIBVEFVX3lxTE9valVHNlI2T2w2OElMaHY1bWxoT3FnOFhIT3k1WmFySERrVENUcXZVazVUd0NVbExwVDJyYl9PVmdzR3djM3QyMzVPQmFfVFFlb25nMw?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 02:04:14 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "로저스 쿠팡 임시 대표, 성남서 10시간 새벽배송… 청문회 약속 이행 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcGdLWU52T0RoOGNEdTdFN2tMcWVmeUdPWVR6VUVnVll1WGVsOXhTdXAzc0JwWWZsYTN6akl2ZmhYTC1XbWxJMFRzNW9mVm1LUUhZbTRXcmNlMEgyeXJMa21xdGcxclpzTU5XanZ4MkJqSXotcHVMSzZtc2RNRXpWWEI0aWcteTJWWXfSAZ4BQVVfeXFMT3RaRWliZ2VDbWJyeHFXbVBENW0wQ09WSVVDZE4xVGZtMWo4TU9zY1hTdVBucEI3bmYtYUJ1M1BoWHV0ZGxkcnJHb3ktOXNUYlBwX1MybnpBSkd5UVVsWThEUmoxZVI1U3pwLWljRUs1ZmRTeVN3VmNkWHFwLVVBTGtlM2k5V2kxTDk0dG9CamZJQk5EamxMR1BoSmN2UHc?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:52:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "쿠팡, 엔비디아와 AI 협력…로켓배송 효율 강화 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMmRNUEdHSEE1d1ZUSDMxUXd0WTc5dHFVRXM1VzRCdHA3cHd4WnpFZDR6bGFob0tselBtTHpOQmRkYVVDV3pVaXZncmJ0OTZrcko1TU1XRlM4alVnTDUtS1dxSzhPMWhvMHF2UFZ2TXE5c1pyTjZDNFFubk1pS1FoVlFaa0QzaC0tcFHSAZ4BQVVfeXFMTmxoVDJUaHhJVFM3SWttRTk0eG8tSUpZYk5Yamw4Z1pYOFZwbjZJNXdLa014YWNPWGhmNjhucldwZGhRX1o5VDBOWS1zbkVXVHBSVkd5RXhfdHNhWW1JWjVxekJSREp5d0VVdWVaN0I5am9lcUtnakRDYU15VjJSQkdlNEpnMV9TY0RiZEtCdDFieUhQaUg5TTg4ZDlhN3c?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 06:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "쿠팡, 엔비디아와 AI 협력…로켓배송 효율 강화 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObGhUMlRoeElUUzdJa21FOTR4by1JSlliTlhqbDhnWlg4VnBuNkk1d0trTXhhY09YaGY2OG5yV3BkaFFfWjlUME5ZLXNuRVdUcFJWR3lFeF90c2FZbUlaNXF6QlJESnl3RVV1ZVo3Qjlqb2VxS2dqRENhTXlWMlJCR2U0SmcxX1NjRGJkS0J0MWJ5SFBpSDlNODhkOWE3d9IBngFBVV95cUxObGhUMlRoeElUUzdJa21FOTR4by1JSlliTlhqbDhnWlg4VnBuNkk1d0trTXhhY09YaGY2OG5yV3BkaFFfWjlUME5ZLXNuRVdUcFJWR3lFeF90c2FZbUlaNXF6QlJESnl3RVV1ZVo3Qjlqb2VxS2dqRENhTXlWMlJCR2U0SmcxX1NjRGJkS0J0MWJ5SFBpSDlNODhkOWE3dw?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 06:02:21 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "‘심야배송’ 로저스 쿠팡 대표·염태영 의원…10시간 노동 후 고른 식사 메뉴가 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91bWktc1YtTVo1bFpLanMxZVViLWJFY2xVRkhmWDhlUVMyWnBqbm9ncmtFXzg5bTBNRWFxb2VfNUU4b05iNEdWZXA4LU9TbF9NdXVfTk53?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 04:45:56 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "운동화 신고 ‘쿠팡맨’ 변신한 쿠팡 대표…정부와 갈등 뒤 유화 제스처 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBRnVUSFgyNklyYjYwZjlxT2pQTzAzX3FZNTFaemlVTFlXZFQ0WVdsSUpLQ1NvbV9qUmlRU2JxcFlfUVBiaFVQRjZBdjVQX0kyNHQ2Yw?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:34:28 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "쿠팡 대표 새벽배송 10시간 체험...“선진적 업무여건 조성에 최선” - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WVEoyQ0hqck9oU1ZHNENKTE92M1UyZ2EwcUZuMEI2c2hUZnp3YkIxVnRNTlhfYTZIbWZUV296NkhOZzJ4b2tQYVZDclpSdTlzcnVaMmdB?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 06:28:35 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "로저스 쿠팡 대표, 새벽배송 10시간 뛰더니...근무여건 강화 약속 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwTXM3QVZhMjR0Q2xqQXNyX2Z6WXVmTXJsWUxya2hlTk1nLW5JLUVEX3ZVcVdwaDRLMGE1YnloUkVWbW41Q1BwQVBHdDJ6SEp6SmMwMGNR?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:36:18 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "로저스 쿠팡 대표, 염태영 의원과 새벽배송 직접 해본다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55UWpPUVZtaVR1TDkzcnRUNEI5Z0ZBRjgybFRfdG5VdzBQRlI4VmI0UmpnV0U3RlB5V2Y0MTRTSFlSTlpMZGNwZVBhYjBvLUY2VGRBdnhn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 07:24:11 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "BTS 광화문 공연 도심 통제에 이커머스 배송 '빨간불' - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43QVZZdTZBRVVLcDhDMndxVjlYS0ZIdndEWHVfSzVlZlZmdFNjeUY4YlVRcTlPT0lOWk54djJ3Z2ZmVm5iSFBvQWQwMFNmY2JaUHlwRndn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:00:11 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "비회원 문턱 높인 쿠팡...멤버십 강화 '승부수'일까 '악수'일까 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQRWh1VEJVaktWcjdzbDBZaGtvYjhPY3ZaUEhPMWYzZ2ZqaFZkVHJYVzREeGx5OUxaWkM1OVVMTHB3RlJmQzdmbEU1Y0tfc3VNeEhadFpKbVFSNXlRT2JxSE5nNFZuYm9q0gFsQVVfeXFMTWxqMmVtSDVxOXdkUjhQemxXRWpWNUNFRDNSNUhMYU9pUzhnMDY2MmRsLUR0SHZoUElOYlMyZDlZcWRkT3JkS294eEdId1RyVmU4WFdFakt0SG1wb2l6R01MVjZQeWZNS1c5YzY3?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 07:55:52 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "CJ대한통운, 사업구조 흔들리나…노란봉투법에 택배업계 '긴장 고조' - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HYndodGVGWWF4OHo5U1UyQWYwdDlTeVUyQ18tcU5rNnQ2OFB2amo0TTNyVDJwRHZKZnNlSlFPb1ROUnlvNVRnYkdENXIwZENMYk5rM2IwMkYza0ZQb0piQ1I2X2lPN19VSy16ONIBbEFVX3lxTE5HYndodGVGWWF4OHo5U1UyQWYwdDlTeVUyQ18tcU5rNnQ2OFB2amo0TTNyVDJwRHZKZnNlSlFPb1ROUnlvNVRnYkdENXIwZENMYk5rM2IwMkYza0ZQb0piQ1I2X2lPN19VSy16OA?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 08:04:09 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "쿠팡 대규모 개인정보 유출에 정부 긴급 대응…민관합동조사단 출범 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52aDVQR2t1TEpZcVpvN3ZabFVCSDBTWVZiM1pQNWtVbE9JRGx5Ni1FWG45OUdtM2ZDZ1c1TjQzX1RCemsySTNJekdUUlRPUVM2VlZIdDdYNlhtRE5NQ3RDckNvMUQ4bVND0gFsQVVfeXFMUGpXa0hlbF9aMjczSjZrVlFleGpVRmpyUWtPVXpkX25OdmtWMEhoRDZlN1J6RzNEZERoWm9FRHZhY2hDdWxyUmQ1RENWeUlORnY1dU1Ic081MVEwblZ6UEpsYm9Mb01NdXVibGdE?oc=5",
+          "pub_date": "Sun, 30 Nov 2025 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "2026년 이커머스 3대 키워드는 무엇 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pb2toTF9pcVF6Xy1uT2dXNU91RVdUajRsQVZneVFYYUlyb3U2aUF4VWcybEZBb3JqbktkbFZwQzBMU0hKQkY0dzFuTU9TSEd5MERv?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 13:48:56 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "[주간 리포트] 숫자로 보는 탈쿠팡 트렌드 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyVnRfZlQzWkR2cWYxYWZ0clQxYnNDREdhRFhmV2EwVV9TQWFXcmZOWDk3VVdlTmNPZ3dvRnFtUjdHN2UxY1Q5TUFTaXZnQQ?oc=5",
+          "pub_date": "Mon, 09 Mar 2026 09:16:14 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "쿠팡Inc, 대만 20만개 계정 개인정보 유출 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iOW1mNjF3OGF6OU1rdHZnczlneUU3d1lNQk1rVzl4cjlhQ3JmRGYzMGNWR2VkSXg1SlNieEtDSVNsU05MNklyVjBWQlY5VWc3dlR4ekEyMA?oc=5",
+          "pub_date": "Wed, 25 Feb 2026 04:54:09 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
     },
-    {
-      "source": "brave_search",
-      "section": "overview",
-      "preview": "[쿠팡 채용 사이트 | Coupang Careers]\n쿠팡 채용 사이트, 쿠팡에서 일한다는 것, 쿠팡의 문화와 복지제도, 쿠팡 채용공고 소개\nhttps://www.coupang.jobs/kr/\n\n[쿠팡 기업정보 - 채용 30건, 평균연봉 5,135만원, 인원 11,001명, 업력 13년, 서울 송파구 | 원티드]\n쿠팡 채용 공고와 회사 소식을 확인하세요. "
+    "5": {
+      "career_page_url": "https://coupang.jobs/kr/jobs",
+      "total_positions": 21,
+      "departments": [],
+      "jobs": [
+        {
+          "title": "Why Coupang",
+          "department": ""
+        },
+        {
+          "title": "Teams",
+          "department": ""
+        },
+        {
+          "title": "Locations",
+          "department": ""
+        },
+        {
+          "title": "Life at Coupang",
+          "department": ""
+        },
+        {
+          "title": "0저장된 채용 공고",
+          "department": ""
+        },
+        {
+          "title": "한국어",
+          "department": ""
+        },
+        {
+          "title": "마운틴뷰",
+          "department": ""
+        },
+        {
+          "title": "시애틀",
+          "department": ""
+        },
+        {
+          "title": "타이베이",
+          "department": ""
+        },
+        {
+          "title": "About us",
+          "department": ""
+        },
+        {
+          "title": "DE&I",
+          "department": ""
+        },
+        {
+          "title": "Subsidiaries (자회사)",
+          "department": ""
+        },
+        {
+          "title": "Engineering Blog",
+          "department": ""
+        },
+        {
+          "title": "About Coupang",
+          "department": ""
+        },
+        {
+          "title": "Newsroom",
+          "department": ""
+        },
+        {
+          "title": "FAQ",
+          "department": ""
+        },
+        {
+          "title": "Interview tips",
+          "department": ""
+        },
+        {
+          "title": "Fraud Alert",
+          "department": ""
+        },
+        {
+          "title": "Privacy Policy",
+          "department": ""
+        },
+        {
+          "title": "Cookies",
+          "department": ""
+        },
+        {
+          "title": "Sitemap",
+          "department": ""
+        }
+      ]
     },
-    {
-      "source": "google_news",
-      "section": "overview",
-      "preview": "[쿠팡·네이버 양강 구도에 AI까지… 향후 생존 전략은 [2026 온라인유통산업 웨비나] - IT조선] (Wed, 11 Mar 2026 07:00:00 GMT)\nIT조선\n\n[[보도자료] 쿠팡, 산업부 ‘제조 AX 얼라이언스’ 참여…AI 기반 유통·물류 혁신 선도 - 쿠팡 뉴스룸] (Wed, 10 Sep 2025 07:00:00 GMT)\n쿠팡 뉴스룸\n\n['A"
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Meet Coupang’s Machine Learning Platform - Coupang Engineering Blog - Medium",
+          "url": "https://medium.com/coupang-engineering/meet-coupangs-machine-learning-platform-cd00e9ccc172",
+          "text": "Meet Coupang’s Machine Learning Platform | by Coupang Engineering | Coupang Engineering Blog | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fcoupang-engineering%2Fmeet-coupangs-machi",
+          "score": 0,
+          "published_date": "2024-11-14T00:00:00.000Z"
+        },
+        {
+          "title": "Accelerating Coupang's AI Journey with LLMs - Medium",
+          "url": "https://medium.com/coupang-engineering/accelerating-coupangs-ai-journey-with-llms-2817d55004d3",
+          "text": "Accelerating Coupang’s AI Journey with LLMs | by Coupang Engineering | Coupang Engineering Blog | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fcoupang-engineering%2Faccelerating-cou",
+          "score": 0,
+          "published_date": "2024-10-14T00:00:00.000Z"
+        },
+        {
+          "title": "How Coupang Leverages Distributed Cache to Accelerate ML ...",
+          "url": "https://www.alluxio.io/events/tech-talk-how-coupang-leverages-distributed-cache-to-accelerate-ml-model-training",
+          "text": "Tech Talk: How Coupang Leverages Distributed Cache to Accelerate ML Model Training\n\nAI/ML Infra Meetup with AMD, Alluxio, & ML Trading Expert (San Francisco & Virtual)RSVP Now\n\n# Events\n\nAchieving Sub-Millisecond Latency and 5× Faster Data Access on OCI With Alluxio\n\nUnlock the full performance of your AI/ML infrastructure on Oracle Cloud Infrastructure (OCI).\n\nJoin Oracle's Master Principal Cloud Architect Xinghong He and Alluxio's VP of Technol",
+          "score": 0,
+          "published_date": "2025-04-22T00:00:00.000Z"
+        },
+        {
+          "title": "Rocket Growth’s ML platform: handling high traffic and more than 20 models cost-efficiently | Coupang Engineering | Coupang Engineering Blog",
+          "url": "https://medium.com/coupang-engineering/simplifying-large-scale-ml-training-with-an-orchestration-layer-9b90d8d28e39",
+          "text": "Rocket Growth’s ML platform: handling high traffic and more than 20 models cost-efficiently | Coupang Engineering | Coupang Engineering Blog\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fco",
+          "score": 0,
+          "published_date": "2024-11-14T00:00:00.000Z"
+        },
+        {
+          "title": "Meet Coupang's Machine Learning Platform",
+          "url": "https://www.coupang.jobs/en/life-at-coupang/engineering-blog/meet-coupang-s-machine-learning-platform/",
+          "text": "Meet Coupang’s Machine Learning Platform | Coupang Careers Skip to main content\n\nBy Hyun Jung Baek, Hara Ketha, Jaideep Ray, Justina Min, Mohamed Sabbah, Ronak Panchal, [Seshu Adunuthula](https://www.linkedin",
+          "score": 0,
+          "published_date": "2023-09-08T00:00:00.000Z"
+        }
+      ]
     }
-  ],
-  "data": {
-    "naver_blog": [
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "[Texas] 5박 7일 Texas A&amp;M Univ. 반도체 공정실습 미국... ",
-        "description": "쓰고, 면접 준비하고 ʚ₍ᐢ˶ᵔ ᵕ ᵔ˶ꕤᐢ₎ɞ 해외연수고 뭐고 새로운 나라에 간다는 게 더 두근거렸던 합격 연락의 순간 !! 시간이 지나고 지나고 지나고.. [출국 당일] 인천 사람 좋은 점 인천 공항이 있음... ",
-        "link": "https://blog.naver.com/heyjude777_/224218898992",
-        "pub_date": "20260316"
-      },
-      {
-        "title": "애경산업 화장품마케팅 인턴 채용 2026 - AGE 20's 브랜드... ",
-        "description": "전반적으로 편안한 분위기라는 후기가 많아요. 전형 절차 서류 접수 → 1차 면접 → 최종 합격 지원자... 반면 보수적인 기업 문화가 남아있다는 점, 마케팅·영업 직무의 높은 업무 강도, 동종업계 대비... ",
-        "link": "https://blog.naver.com/cymmcymm/224214204760",
-        "pub_date": "20260316"
-      },
-      {
-        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
-        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
-        "link": "https://blog.naver.com/ytjoo88/224215031143",
-        "pub_date": "20260313"
-      },
-      {
-        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
-        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
-        "link": "https://blog.naver.com/ve_getable/224210299768",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
-        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
-        "link": "https://blog.naver.com/label3548/224210103873",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
-        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
-        "link": "https://blog.naver.com/fusekimo198735/224209926005",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "정책지식 2026.3.9.",
-        "description": "뽑는 기업들 ㅇ 사회 노란봉투법 D-1, 노동계 원청 상대 대규모 교섭 요구 예고 - &lt;중앙 톱&gt; 사법3법 통과되자 “(판결로 허용된) 남편 면접권 못 뺏나” 금일 사설 ￭ 대통령 “집권세력 맘대로 다 못해”... ",
-        "link": "https://blog.naver.com/trim9134/224209525068",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
-        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
-        "link": "https://blog.naver.com/ve_getable/224207830667",
-        "pub_date": "20260307"
-      },
-      {
-        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
-        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
-        "link": "https://blog.naver.com/magicpaul7/224204238038",
-        "pub_date": "20260304"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "장례 지도사 구인을 위한 자기소개서",
-        "description": "사회보험과 퇴직금 등 복지 제공 여부, 직무 교육과 개발 기회, 그리고 장기적인 경력 성장 가능성을 평가할 것입니다. 마지막으로, 근무 환경과 조직 문화도 중요한 요소입니다. 팀원들과의 협업 문화, 상사의 리더십... ",
-        "link": "http://cafe.naver.com/uworldexam/152154",
-        "pub_date": ""
-      },
-      {
-        "title": "[플랜지] CNC가공 조작원 모집을 위한 자기소개서",
-        "description": "이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. ?? 상품 보러가기... ** 채용공고요약 대성기계는 서울 구로구에 위치한 금속 제품 제조업체로 CNC 선반 조작원(경력자) 1명을... ",
-        "link": "http://cafe.naver.com/uworldexam/152047",
-        "pub_date": ""
-      },
-      {
-        "title": "현장관리 및 시공, A/S 신입&amp;경력직 모집을 위한 자기소개서",
-        "description": "이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. ?? 상품 보러가기... 연봉은 최소 3000만원부터 협의 가능하며, 경기도 남양주시에서 주간 근무(9시~18시, 주40시간)로 상용직 채용입니... ",
-        "link": "http://cafe.naver.com/uworldexam/152014",
-        "pub_date": ""
-      },
-      {
-        "title": "제조업 경리 및 재무관리 사무원을 위한 자기소개서",
-        "description": "등 복지혜택이 제공됩니다. 오산 인근 거주자 및 차량소지자도 환영하며, 근무시간은 주간 40시간(오전 8시 30분~오후 5시 30분)입니다. 상용직 채용으로 사회보험 및 퇴직금이 보장되며, 서류 및 면접을 통해 전형이... ",
-        "link": "http://cafe.naver.com/uworldexam/151956",
-        "pub_date": ""
-      },
-      {
-        "title": "설계(Cad및 3D필수) 신입 및 경력사원 모집을 위한 자기소개서",
-        "description": "이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. ?? 상품 보러가기... 급여는 최소연봉 3000만원(협의 가능)으로, 4대보험·퇴직연금·명절 상여금 등 안정적인 복지혜택을... ",
-        "link": "http://cafe.naver.com/uworldexam/151906",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "주식회사 용천 배송직원 모집합니다.를 위한 자기소개서",
-        "description": "이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. ?? 상품 보러가기... 정식 채용됩니다. 최소 연봉 3600만원과 사회보험(고용보험, 산재보험, 건강보험, 국민연금) 및 퇴직금 제공으로... ",
-        "link": "http://cafe.naver.com/uworldexam/151612",
-        "pub_date": ""
-      },
-      {
-        "title": "정책뉴스20260321토요일",
-        "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 42회, 조직 운영부터 정책 실무까지 섭렵한 '지식재산 실전 전략가' - - 운영지원과장, 대변인... ",
-        "link": "http://cafe.naver.com/jungamironware/9268",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "캠페인 효율 증대를 위한 전략 – AI스마트 광고 - Coupang Ads",
-        "description": "광고효율 #효율전략 #자동광고전략 #자동광고효율 #자동캠페인 #AI캠페인 #AI광고효율 #AI광고전략 #AI스마트광고효율 #AI스마트광고전략 #캠페인개선 #캠페인관리 #효율증대 #효율증가 #목표광고수익률 #캠페인예산 #상세페이지 #학습기간",
-        "link": "https://ads.coupang.com/videoclass/45",
-        "pub_date": ""
-      },
-      {
-        "title": "① AI는 쿠팡을 어떻게 바꿀까? - 비즈니스 모델과 AI",
-        "description": "AI의 도입은 쿠팡의 물류 시스템, 고객 경험, 그리고 전반적인 비즈니스 전략에 큰 영향을 미치고 있습니다. 다음은 AI가 쿠팡에 미치는 주요 변화입니다. 쿠팡은 AI와 머신러닝 기술을 통해 물류센터의 운영을 자동화하고 있습니다. AI는 수천만 건의 상품 수요를 예측하여 재고를 최적화하고, 고객의 주문이 들어오기 전에 필요한 상품을 미리 물류센터로 이동시킵니다. 이러한 시...",
-        "link": "https://wikidocs.net/307377",
-        "pub_date": ""
-      },
-      {
-        "title": "쿠팡의 혁신적 경영전략 분석 성공을 향한 새로운 방향성 탐구",
-        "description": "쿠팡의 혁신적 경영전략 분석 성공을 향한 새로운 방향성 탐구목차1. 기업의 비전과 미션2. 외부 및 내부 환경 분석(1) 외부 요인 검토(2) 내부 요인 검토(3) SWOT 분석의 중요성3. 경영 목표 설정4. 전략적 사업 운영 방안(1) 쿠팡의 사업 부문(2) BCG",
-        "link": "https://www.reportshop.co.kr/socials/2214218",
-        "pub_date": ""
-      },
-      {
-        "title": "AI스마트광고 - Coupang Ads",
-        "description": "AI 스마트 광고를 처음 시작하는 분이라면 가이드에 맞춰 광고 등록을 쉽고 빠르게 시작해 보세요. 적합한 예산과 목표 광고수익률을 입력하는 방법 등 놓치지 말아야 할 꿀팁을 찾을 수 있습니다. 선택 옵션⚙️ 만약 특정 상품을 제외하고 싶다면? &lt;특정 상품 제외하기&gt;를 통해 광고하고 싶지 않은 상품은 빼고 광고가 가능합니다. 제거하는 방법은 (1) &lt;개별 제외&gt; 상품 리스트를...",
-        "link": "https://ads.coupang.com/settings/aps",
-        "pub_date": ""
-      },
-      {
-        "title": "인스웨이브시스템즈, AI 및 클라우드 사업 확장 방향 제시",
-        "description": "인스웨이브시스템즈(대표 어세룡)는 19일 모든 임직원이 참석한 가운데 신년 사업계획 워크숍을 개최했다고 밝혔다.이번 워크숍은 ‘넥스트 스테이지(Next Stage)’라는 주제로 열렸다. 회사의 미래 비전과 전략적 로드맵을 공유하고 논의하는 자리로 마련됐다. 인스웨이브시스템즈는 올해 주요 사업 목표로 AI와 클라우드 사업 분야의 확대 및...",
-        "link": "http://www.itdaily.kr/news/articleView.html?idxno=219777",
-        "pub_date": ""
-      },
-      {
-        "title": "[고객 중심 AI: 시리즈 2부] AI 데이터계 쿠팡을 향하여: 빠르고 편리한 플랫폼 DroPai",
-        "description": "시리즈: 고객 중심 AI ; 업계 전문가들은 '모델 중심 AI(Model Centric AI)', '데이터 중심 AI(Data Centric AI)' 등 기술 흐름을 설명하는 다양한 용어를 제시합니다. 하지만 기술이 아무리 발전해도 변하지 않는 본질이 있습니다. 바로 AI를 사용하는 '고객'입니다. 바운드포는 어떠한 상황에서도 고객이 원하는 AI, 고객에게 진짜 필요한 AI를 만드는 것이 가장 중요하다고 믿습니다. 이 시리즈는...",
-        "link": "https://bound4.co.kr/blog-deprecated/whats-new",
-        "pub_date": ""
-      },
-      {
-        "title": "쿠팡이츠의 비즈니스 모델 분석과 향후 성장 전략의 방향성 탐구",
-        "description": "쿠팡이츠의 비즈니스 모델 분석과 향후 성장 전략의 방향성 탐구목차1. 쿠팡이츠의 전반적인 소개2. 쿠팡이츠의 주요 경쟁력3. 쿠팡이츠의 산업 환경 분석4. 쿠팡이츠의 경영전략1) 차별화된 경쟁 우위2) 사업 다각화 접근법3) 인재 관리 및 조직 문화5. 미래 경쟁력을",
-        "link": "https://www.reportshop.co.kr/socials/2214352",
-        "pub_date": ""
-      },
-      {
-        "title": "쿠팡 기업성공전략과 쿠팡 마케팅 사례연구및 쿠팡 미래방향제언",
-        "description": "쿠팡은 상품의 다양성과 신속한 배송, 고객 서비스 강화를 통해 고객 충성도를 확보하였으며, AI와 빅데이터 분석기술을 활용하여 맞춤형 추천 서비스와 운영 효율성을 극대화하였다. 2014년 쿠팡은 ‘쿠팡플렉스’라는 자원봉사 및 프리랜서 배송 인력 시스템을 도입하여 배송 시간을 단축시켰으며, 이를 통해 평균 배송 시간을 24시간 이내로 구현하였다. 또한, 2021년에는 미국 증...",
-        "link": "https://www.reportworld.co.kr/business/b1402262",
-        "pub_date": ""
-      },
-      {
-        "title": "AI 상품 기획 7가지 성공 전략",
-        "description": "치열한 시장 경쟁에서 이기려면 이제 감과 경험만으로는 부족합니다. AI 상품 기획은 빅데이터와 인공지능으로 소비자 니즈를 정확히 파악하고 시장 트렌드를 예측하는 혁신적 방법론 입니다. 최근 조사에 따르면 AI 기반 상품 기획을 도입한 기업의 신제품 성공률은 68%로, 기존 방식(32%)보다 두 배 이상 높습니다. 이 글에서는 AI 상품 기획의 핵심 요소와 실제 적용 방법을 단계별...",
-        "link": "https://oscsnm.com/ai-product-planning-guide/",
-        "pub_date": ""
-      },
-      {
-        "title": "강한승 쿠팡 대표, “고객경험 혁신 만들자”",
-        "description": "쿠팡이 3일 2분기 주요 성과 및 하반기 전략 과제를 공유하기 위해 리더십 타운홀 미팅을 개최했다.강한승 대표가 진행한 첫 타운홀 미팅으로 쿠팡의 현재 성과를 진단하고 앞으로의 전략 방향과 비전을 리더들과 공유하기 위해 마련된 자리다.강한승 대표가 주관하고 해",
-        "link": "http://www.ezyeconomy.com/news/articleView.html?idxno=112686",
-        "pub_date": ""
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "쿠팡 채용 사이트 | Coupang Careers",
-        "url": "https://www.coupang.jobs/kr/",
-        "description": "쿠팡 채용 사이트, 쿠팡에서 일한다는 것, 쿠팡의 문화와 복지제도, 쿠팡 채용공고 소개"
-      },
-      {
-        "title": "쿠팡 기업정보 - 채용 30건, 평균연봉 5,135만원, 인원 11,001명, 업력 13년, 서울 송파구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/53",
-        "description": "쿠팡 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "쿠팡 인터뷰 프로세스 | Coupang Careers",
-        "url": "https://www.coupang.jobs/kr/interview-tips/",
-        "description": "쿠팡은 모든 임직원이 리더라는 믿음을 가지고 있습니다. 쿠팡의 15개 리더십 원칙은 쿠팡의 문화를 정의합니다."
-      },
-      {
-        "title": "Corporate Functions 채용정보 | Coupang Careers",
-        "url": "https://www.coupang.jobs/kr/teams/corporate-functions/",
-        "description": "쿠팡 채용 프로세스와 지원분야를 위한 과제 및 인터뷰에 대해 알아보세요. 쿠팡이 도와드리겠습니다."
-      },
-      {
-        "title": "쿠팡 주식회사 진행 중인 채용정보 총 2건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/1532033/recruit",
-        "description": "쿠팡 주식회사 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      },
-      {
-        "title": "쿠팡/직원 - 나무위키",
-        "url": "https://namu.wiki/w/%EC%BF%A0%ED%8C%A1/%EC%A7%81%EC%9B%90",
-        "description": "쿠팡은 계약직, 파견직, 용역 등의 비정규직을 합한 직간접 고용 인원이 약 10,000명 규모이며, 여러 가지 형태의 노동자를 채용하고 있다. 미국에 본사를 두고 있기 때문에 한국어의 존비어 문화 측면에서 볼 때 색다른 방침을 고수하고 있다. 회사내에서는 &#x27;하는 일이 다르다&#x27;는 수평적 개념인 직무의 차이는 있을지언정, 직원들간에는 상하 위계 질서를 강조하는 수직적 개념을 추구하지 않는다."
-      },
-      {
-        "title": "2026년 쿠팡 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/10662912/",
-        "description": "쿠팡은 쇼핑몰·전자상거래·오픈마켓 업종의 대기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
-      },
-      {
-        "title": "[쿠팡] 회계 경력직 채용",
-        "url": "https://www.coupang.jobs/en/jobs/2132962/%EC%BF%A0%ED%8C%A1-%ED%9A%8C%EA%B3%84-%EA%B2%BD%EB%A0%A5%EC%A7%81-%EC%B1%84%EC%9A%A9/",
-        "description": "<strong>주저 없이 일에 뛰어들어 성과를 이루고자 하는 과감성이</strong>, 바로 쿠팡이 일하는 방식의 본질입니다. 쿠팡에서는 여러분 자신, 동료, 팀 그리고 회사 전체가 매일 성장하는 모습을 목격할 ..."
-      },
-      {
-        "title": "블라인드 | 쿠팡 채용",
-        "url": "https://www.teamblind.com/kr/browse/%EC%BF%A0%ED%8C%A1-%EC%B1%84%EC%9A%A9-1152",
-        "description": "결국 지금 오퍼받은 사람들도 희생당할까봐 걱정이다. 쿠팡지원할때는 <strong>무조건 메일로 커뮤니케이션하세요 말바꾸는게 숨쉬는 것 보다 쉬운 곳</strong>이거든요."
-      },
-      {
-        "title": "2025년 쿠팡 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1683173976/",
-        "description": "이 모두는 한국 이커머스 시장의 수백 만 고객을 위한 쿠팡의 노력입니다. 한국은 세계 어느 나라 보다 크고 빠르게 성장하는 이커머스 기회를 가진 시장입니다. ... 동일 기업이라도 타지역 채용의 경우, 회사 주소와 인근 지하철 정보가 상이할 수 있습니다."
-      }
-    ],
-    "google_news": [
-      {
-        "title": "쿠팡·네이버 양강 구도에 AI까지… 향후 생존 전략은 [2026 온라인유통산업 웨비나] - IT조선",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56MXdPbzdtdjRfdGZtZVFhVS13ZkY2RktwaWV0UHZLNGNHS1dBY1doVjh3UFRDVDBaTlFCQm5PUlp1aFM0N3VRT2d1LUtwNmJnSXFZZU9Nc3NDb3hkUTBlVnhYQzFmaUtyX3lwa0l2WmnSAXRBVV95cUxOV3FVcllhSkNYR25Pb1U3ZnY4SF8zcjNmc3FKc1EtS0ZVSENPV3prc3JiZXEyckhxaWZra0VnVUtXN19WWFZsNVo2RVpKQlVkcXdKMnRhNFlENkR6XzFYdldLOGdDc2lPS01vcTc3d0dUY2VTMQ?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
-        "source": "IT조선"
-      },
-      {
-        "title": "[보도자료] 쿠팡, 산업부 ‘제조 AX 얼라이언스’ 참여…AI 기반 유통·물류 혁신 선도 - 쿠팡 뉴스룸",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44eTlUQkUxZTJRSndRcVJLM0dQZjZUOVc5UE5GaDVmUEN3aXhJaXdVMHFpWHNEYnFFTW5zRHFNR2U1dGdYNldiOG5TaXV2ckxwTEE?oc=5",
-        "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
-        "source": "쿠팡 뉴스룸"
-      },
-      {
-        "title": "'AI 인재' 전쟁 불붙인 메타… LG CNS·삼성·SK·쿠팡도 총력전 - investnews.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96aFgzZzBBcng5Qll4V0xONmc2STlZajVNcjhfRmp6VlZhbkNLeF9NZ2xVZ2Q3c1FuRmJuZHZlczY0MjIyLXBSSlNaODJ4NmljcjNzSmY1SVVIOHN5d09nVnNfUkhDeWtjSmdkLTZBa1pRd9IBdkFVX3lxTE5PU1RpaUFJaUkydDRQOUVLdHN0TEJsSmtjeTJ5SmV0aFRJQ1VjTFRoaWRlaWZqWklGOGQ5SExoTkUzMnZ2X2UtOS1UOGEtMld1Q09BNWNELS1FMHExR0RuTlVHNFFWalpfNTNkaFNLMmRibjNUclE?oc=5",
-        "pub_date": "Fri, 26 Sep 2025 07:00:00 GMT",
-        "source": "investnews.co.kr"
-      },
-      {
-        "title": "AI 클라우드로 아마존 따라가는 쿠팡…카카오 넘어 네이버도 경쟁 타깃에 포함 - 인베스트조선",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQW9FQUF5YTF6MjBPOHBxMWwwbUJRUUdtd1ZIWGtPTVU4M0dmUG9HQ3pwbVlRd19mX2hQb1FMN1E4ZkpqdVhsa1FzUmhMVXktQk1pQVBtdnp6RTBfRTM0dGZmd3pNZE1ZR3FpRzVjWVhOQmlXR3I1dUZRcXBtYjhYTUM0cw?oc=5",
-        "pub_date": "Tue, 22 Jul 2025 07:00:00 GMT",
-        "source": "인베스트조선"
-      },
-      {
-        "title": "김범석 쿠팡 의장 \"AI가 핵심 성장동력...투자 확대할 것\" - 유니콘팩토리",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tX2xXM0hTQy1NOFJ6RnNZd2ZIUW9RZUpXcTMzUHhubWRsUEZTLU0tblRJSTE4aXEta2FGUmxkSlNlU2ZwSmUtZU13MUh5c240U1R6YlUwbmpIUGZlT3lZeUNWRjFPTGw2eWVfZw?oc=5",
-        "pub_date": "Wed, 06 Aug 2025 07:00:00 GMT",
-        "source": "유니콘팩토리"
-      },
-      {
-        "title": "쿠팡, AI퍼스트 선언 …\"로봇으로 물류혁신\" - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XZXBCQWw1UHczRk9rQWdUeEgwNURzMEZVVFFYSlAxSkU4LVphbU5nMnd5eE1zNmM2cTZ4b2VLc1JYa0NCOEFHRkhwVDlScWdUdzV1U29R?oc=5",
-        "pub_date": "Thu, 04 Sep 2025 07:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[Tech/Biz Trend] 쿠팡의 아마존 따라잡기, 이번에도 성공할까? - mobiinside.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16aEVqTVQzLVVHNlo0LXM2bE1kRERESjRzVlNMWjFtSkVrUTNtQW5VbS03ODdOcUcxcFhCbU1hckh4cUk4bHFOTk8tUW9GQWNXb2ZLOFBDYzlIbklmM2xMVGhXeTI?oc=5",
-        "pub_date": "Tue, 22 Jul 2025 07:00:00 GMT",
-        "source": "mobiinside.co.kr"
-      },
-      {
-        "title": "쿠팡풀필먼트서비스, 인천 재능대서 대규모 채용박람회 개최 - 헬로티",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkMHJMbjZfaUZNSDJ4VGpuU19yUHhCbS0tSXNtUUtHTkdHQ2tpVHJUaGFXNExUZEd0OUtYQUFOcXJzU1dlYTFzYldzQV9YS3FjcThDSVJFa1FyeG5hVzQw?oc=5",
-        "pub_date": "Fri, 31 Oct 2025 07:00:00 GMT",
-        "source": "헬로티"
-      },
-      {
-        "title": "쿠팡, AI 클라우드 승부수…GPU 국책사업은 '고배' - 딜사이트",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YNlV1Snh3V2dMRFVDZGRjamgwaFlYT0ZmN3pDS0RSeGpGSUtMV1FLWW9DLWJoXzNTbV80dF8xS0JMTDdQS3AzRzlfSDlJMUE?oc=5",
-        "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
-        "source": "딜사이트"
-      },
-      {
-        "title": "탐색의 네이버플러스 스토어 vs 전환의 쿠팡, 플랫폼별 브랜드 가이드 - 뉴닉",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xYTdpSG1uSEJsc3pPeHpUTDV5Q19wYXFYWkF3WmdPUDZqeDFxZUN2ZDdBdjY2WDgwck5jZTBiaGNzWkxURzIzcjZVRGtTWU41M1djcQ?oc=5",
-        "pub_date": "Wed, 17 Dec 2025 08:00:00 GMT",
-        "source": "뉴닉"
-      },
-      {
-        "title": "클라우드 시장 진출 선언한 '쿠팡'…AI·솔루션 파트너 생태계 확장 속도 낼까 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtYms2Rm04Y1lqQ3NROXVZLWJCaHlMblNTaTNzQW0yQi1jUnpsaXJjM2F6d2RpeC1fQ3M3RXhvX2hWZF92aTA5b0QwVnBaaXF0V1l6VF9B?oc=5",
-        "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "쿠팡, AI·로봇 자동화 인력 750명 돌파…1년 새 50% 이상 증가 - 투데이e코노믹",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UNUlvTnNPUmN3aFk3MU1Jb0N4ZGtyMWUyWWJpaDdYc3Zrak4zUWFOVlAtbWpfVVg3ZDdSMVB5WGRoU1hfbVZmOGw1OTBoWURrRVMxUXJiYW9KRTZNRFBQdjd2b19lX3M?oc=5",
-        "pub_date": "Tue, 23 Sep 2025 07:00:00 GMT",
-        "source": "투데이e코노믹"
-      },
-      {
-        "title": "인재가 회사 다 키운다…'인재 사냥꾼' TA 키운다 - 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwNTZtc21wcm04SzlkMVljSHZhZUlqaW1aWjNTSUFwdUxxLWVkUE9VMGFKUjk3UVJTVHFhTzRaeVZtVUdwSHEtQ2NGMk9ZVEcwVHgxWHh3?oc=5",
-        "pub_date": "Mon, 11 Aug 2025 07:00:00 GMT",
-        "source": "중앙일보"
-      },
-      {
-        "title": "“로봇이 대신하니 훨씬 수월해졌어요”, 쿠팡 FC ‘AI 자동화 현장’ 공개 - 대학저널",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lQXNzRlJ1emxKaGt6OXJxd1E0TlgyaTFYS1B5MnFSY0xDaDlGRFpDaktyNUNoa1BrTUlXYndtTXh3VG9hOEM1ZVhxU19sYzNZS041YUVWTm44OEpyUVHSAWpBVV95cUxOc3pjeW5SRVVZNXAtaVpIVW9XdDM0dFVUWHliamU3WFdxWnhvTnVBazFWcnpKN1p5V0xIRDlNdUdzMG93NUdXRklnNlhDSlRFVkcxWVBndUt3TkVfR0ZTaGswZFE4VW1nU3VR?oc=5",
-        "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
-        "source": "대학저널"
-      },
-      {
-        "title": "쿠팡 올해만 18명 고위 공직자 채용 … '대관 전략' 논란 - 세이프타임즈",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Yb2NKR2kzRnZ6c3lHc09VaU5oRDNwcWQ5OGdMU29BMThDcGduNHdsdmZEU2hKMnFSOUlqYW04SG9xc3dmbHVOUVJqaUE0ckdWeWJoODZUN0l6SVdoeXA1cVAyYzM1SEVtaUZxT3JtRdIBc0FVX3lxTE5hWmdtZkxobm0tRXRscnhvYkNtVi0yaE9OMWpEVEw3cjhuTjJZNGlGMFJWTFo2ek50aUtfejdfYzdZVnpUYlBBeUFWX3UwNnB3RFBxSDJZXzZ0S2x2SkljQ3huMEhGazFETmpCSHZ3OTRSWm8?oc=5",
-        "pub_date": "Mon, 01 Dec 2025 08:00:00 GMT",
-        "source": "세이프타임즈"
-      },
-      {
-        "title": "[기업실적]쿠팡, 3분기 역대 최대 매출…대만 등 ‘글로벌’ 사업 호조에 지속 ‘성장세’ - MSN",
-        "link": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxOaHhpT056N0FUQjhpaXFpTVNTRklJWTFBNHpMWXZhLXZ5bXFvZHpvU2pGWnBuUE5OXzBDODRhb3JCcWctd0RCVXZRcEM1MGczRU9NZmNwLTd4M2xtRkVnYlh3WXJLMjF4RFZHS1dZZjQ3a3VHVmQ2VW53VTNYQ3hNV0Ezdy02aHl3LTU5RURsZXllSGdfVjVVZ29wTnJPTTVIZGhsbnJ3MV9jT2hFSTNvUzNTcUV3S3JSdnNsMmpBVmtPNzB3TU1UcEJWdnVjcUxjMm83YXY3enR0YkxNYm9MN2U1S2RxQ0JCSnNqV0dkdFRHMXMyN2EzdDlTenJBMjVOdG5OZmJaSEZHR3YxNHppaXdmc3ZNRTE5Qkc2cXFOSjZsQ0dyNlhSdjc4Z1g0MVZDNFdXUExfa093ZjJrdjlwc0J6M25BQlFBX1ZNbW1GcmVuZlIwSVZyNE9HTmJWNTBHc1ZPRGJZZS1CR0s4Rlc5RUlFOFNyaFhucWpmd0dVWVlCTmhkdDBVQVMtbDRoa1JsenBvWTg2OHVsMkhqVm9MeFVGM3ZPWHljWDRCQ2tCLTNCcFVfN2ZZZnladm5Sd0FEQTdmc0pkMWZRbk5ZMzZrb1oxc2FNemtBNFJZQTA2VXh1YlBWSjlVQUFLSVNMNnU4WVhDQmlOOVRtLUhrOVl1VWducTJQNGxQQU5XcE4wWjBtS2dtT0kyaWwzbWtJQ09HY3NqRzJVSE1RVk1JeGxiaHdISzBNYlBsdFZDSHg1UzlaX1JfMy1UcG0zYkVJRGY5elVCcGJ2aW9jczEzOXdqSzlXdS01WU1JMWV0U29B?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 02:09:35 GMT",
-        "source": "MSN"
-      },
-      {
-        "title": "쿠팡 4분기 실적 분석: 대만에 베팅했지만, 이익 97% 하락 그리고 잉여 현금은 반토막 - 네이버 프리미엄콘텐츠",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQREEwa1FLdmJjWXRsR2F1WU1qV2ZjTWZBVS1KRm1ZU3RjTEdnTTlQMXJJakd6QXBHemtkZGdaZTRad2RiNWVGbEVZU0F0dXJxWm1nTG9nNGFTekk5UXExajNXLXM5S2dXaDZFd1ZWY0FlSHdSUTY0OExoWTRtY0NDanozQm5tZ1Vz?oc=5",
-        "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "source": "네이버 프리미엄콘텐츠"
-      },
-      {
-        "title": "[쿠팡 실적프리뷰] 불러도 대답 없는 김범석…발언 수준 '주목' - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xYVBCZ0dJbnV4ejFJZjcwWmFscmZsaGRFX0twZ0VKY2Nod3JQVlVQZ25fUkl6VnVvMHMxRHI0TW5ZQXc2R3dNa3JSNHJhNVo4MVdsTjE2aG5VOVZTRnY3dzNhbExvRXI5aUozbWg2LS0?oc=5",
-        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "source": "연합인포맥스"
-      },
-      {
-        "title": "쿠팡, 신사업 덕에 3분기 역대 최대 실적...수익성 개선은 과제 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWNFE3MmU0dGxTdGFBUTRVV1l6eVJNYVNQbFYwb3hKV21QSEFJZnVhRHdYdXVrUnlhM3lmdDdTNTJsVEUyR1RyYVlkX1pFMTg3R0d1RDh3?oc=5",
-        "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "쿠팡, 지난해 매출 사상 최대치 신기록…‘고객 신뢰 회복’ 시험대 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IV3hjUHNWNF9teV9FNlB1T3Z1ejJZN1lRZm5lVnZibXdmQUJfN2Z0MWMyaG5LMFFocUFacFJXeHN5UWE1b3MtRThCaHUtOGs?oc=5",
-        "pub_date": "Tue, 03 Mar 2026 08:00:00 GMT",
-        "source": "v.daum.net"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "Coupang Employee Reviews | Comparably",
-        "url": "https://www.comparably.com/companies/coupang/reviews",
-        "text": "Coupang Employee Reviews | Comparably\n\nCoupang Claimed Company\n\nCoupang is an e-commerce company based in South Korea. read more\n\nEMPLOYEE PARTICIPANTS\n\n98\n\nTOTAL RATINGS702\n\nCEOBom Kim\n\n- Outlook\n- [Environment](https://www.comparably.com/companies/coupang/reviews/environ",
-        "score": 0,
-        "published_date": "2024-09-08T00:00:00.000Z"
-      },
-      {
-        "title": "",
-        "url": "https://teamblind.com/kr/company/COUPANG/review/xQDaeefDKvJ",
-        "text": "블라인드 | 쿠팡Reviews - &quot;쿠친을 지원입사후퇴사부터생각하실겁니다&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인쿠팡\n쿠팡*Rating Score*3.4*(5,724개 리뷰)*\n이회사리뷰하기쿠팡은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*1.0**\n*1*커리어 향상*4*업무와 삶의균형*1*급여 및복지*1*사내 문화*1*경영진\n*View detailed rating*\n# “쿠친을지원입사후퇴사부터생각하실겁니다”***Verifi",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "Greater convenience to more people — The story of Edwin",
-        "url": "https://www.coupang.jobs/en/life-at-coupang/employee-stories/greater-convenience-to-more-people-the-story-of-edwin/",
-        "text": "Greater convenience to more people &#x2014; The story of Edwin | Coupang CareersSkip to main content\nCoupang Careers\n# Greater convenience to more people —The story of Edwin\nSunday, August 28, 2022minute read\nShare\n* \n* \n* [](https://www.linke",
-        "score": 0,
-        "published_date": "2024-08-19T00:00:00.000Z"
-      },
-      {
-        "title": "",
-        "url": "https://teamblind.com/kr/company/COUPANG/review/b1SoMLCUFmO",
-        "text": "블라인드 | 쿠팡Reviews - &quot;개발자나 경력직만오세요&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인쿠팡\n쿠팡*Rating Score*3.4*(5,725개 리뷰)*\n이회사리뷰하기쿠팡은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*2.0**\n*4*커리어 향상*1*업무와 삶의균형*1*급여 및복지*1*사내 문화*4*경영진\n*View detailed rating*\n# “개발자나경력직만오세요”***Verified User*현직원**· 8",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "",
-        "url": "https://teamblind.com/kr/company/COUPANG/review/5T5j73xmw",
-        "text": "블라인드 | 쿠팡Reviews - &quot;신입으로써 모든면에서만족중&quot;\n**블라인드**기업서비스\n# 블라인드 - 직장인기업연봉, 이직커리어*Blind LOGO**Blind BI*\n# 검색검색로그인쿠팡\n쿠팡*Rating Score*3.4*(5,728개 리뷰)*\n이회사리뷰하기쿠팡은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n***Rating Score*5.0**\n*5*커리어 향상*5*업무와 삶의균형*5*급여 및복지*5*사내 문화*5*경영진\n*View detailed rating*\n# “신입으로써모든면에서만족중”***Verified User*현직원*",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "Coupang, Inc. | Coupang and NVIDIA highlight new AI innovations",
-        "url": "https://www.aboutcoupang.com/English/news/news-details/2026/coupang-nvidia-ai-logistics-collaboration/",
-        "text": "Coupang, Inc. | Coupang and NVIDIA highlight new AI innovations\n\nAshish Suryavanshi, Coupang’s VP of Engineering, speaks at the NVIDIA AI Conference & Expo.\n\nSEATTLE, WA – March 17, 2026 – Coupang, a U.S.-based technology leader, announced at the NVIDIA AI Conference & Expo today that its collaboration with NVIDIA has helped Coupang create an “AI factory” which is accelerating new innovations across the company’s e-commerce log",
-        "score": 0,
-        "published_date": "2026-03-17T00:00:00.000Z"
-      },
-      {
-        "title": "Coupang is speeding up the construction of an \"AI Factory\" in partnership with global AI semiconduct.. - MK",
-        "url": "https://www.mk.co.kr/en/business/11991625",
-        "text": "Coupang is speeding up the construction of an \"AI Factory\" in partnership with global AI semiconduct.. - MK\n\ngo to news\n\n# detail\n\n* It has been translated using AI\n\nUsing AI Factory to improve GPU utilization by 95% AI control target for the entire logistics and delivery process\n\n사진 확대\n\nAshish Suryavanshi, Vice President of Coupang Engineering. \n\nCoupang is speeding up the construction of an \"AI Factory\" in partnership with global AI semiconductor giant Nvidia. Beyond simple automation, the str",
-        "score": 0,
-        "published_date": "2026-03-18T00:00:00.000Z"
-      },
-      {
-        "title": "Coupang Accelerates AI Push as $1.2 bn Cyber Recovery Plan ...",
-        "url": "https://infotechlead.com/cio/coupang-accelerates-ai-push-as-1-2-bn-cyber-recovery-plan-reshapes-growth-strategy-94018",
-        "text": "Coupang Accelerates AI Push as $1.2 bn Cyber Recovery Plan Reshapes Growth Strategy - InfotechLead Coupang Accelerates AI Push as $1.2 bn Cyber Recovery Plan Reshapes Growth Strategy - InfotechLead\n\nX\n\n- Security\n- Software\n- Network\n- Gaming\n- [Digital](https://infotechlead.com/",
-        "score": 0,
-        "published_date": "2026-02-28T00:00:00.000Z"
-      },
-      {
-        "title": "Coupang NVIDIA Collaboration on “AI Factory” Is Powering the ...",
-        "url": "https://www.barchart.com/story/news/807855/coupang-nvidia-collaboration-on-ai-factory-is-powering-the-future-of-e-commerce-logistics",
-        "text": "Coupang NVIDIA Collaboration on “AI Factory” Is Powering the Future of E-Commerce Logistics\n\nYour browser of choice has not been tested for use with Barchart.com. If you have issues, please download one of the browsers listed here.\n\nJoin Barchart Premier and get daily trading ideas and historical data downloads. FREE 30 Day Trial\n\nLog In Menu\n\nStocks| Futures|",
-        "score": 0,
-        "published_date": "2026-03-17T14:19:07.741Z"
-      },
-      {
-        "title": "Coupang NVIDIA Collaboration on \"AI Factory\" Is Powering the Future of E-Commerce Logistics",
-        "url": "https://finance.yahoo.com/news/coupang-nvidia-collaboration-ai-factory-003600480.html",
-        "text": "Coupang NVIDIA Collaboration on \"AI Factory\" Is Powering the Future of E-Commerce Logistics\n\nOops, something went wrong\n\nThis is a paid press release. Contact the press release distributor directly with any inquiries.\n\n# Coupang NVIDIA Collaboration on \"AI Factory\" Is Powering the Future of E-Commerce Logistics\n\n[StockStory Top Pick](https://stockstory.org/high-quality/top-6-to-buy-this-week?partner=yahoo&amp;utm_source=yahoo&amp;utm_medium=content_ticker&amp;utm_campaign=contenthighqualitystock",
-        "score": 0,
-        "published_date": "2026-03-18T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "Meet Coupang’s Machine Learning Platform - Coupang Engineering Blog - Medium",
-        "url": "https://medium.com/coupang-engineering/meet-coupangs-machine-learning-platform-cd00e9ccc172",
-        "text": "Meet Coupang’s Machine Learning Platform | by Coupang Engineering | Coupang Engineering Blog | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fcoupang-engineering%2Fmeet-coupangs-machi",
-        "score": 0,
-        "published_date": "2024-11-14T00:00:00.000Z"
-      },
-      {
-        "title": "Accelerating Coupang's AI Journey with LLMs - Medium",
-        "url": "https://medium.com/coupang-engineering/accelerating-coupangs-ai-journey-with-llms-2817d55004d3",
-        "text": "Accelerating Coupang’s AI Journey with LLMs | by Coupang Engineering | Coupang Engineering Blog | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fcoupang-engineering%2Faccelerating-cou",
-        "score": 0,
-        "published_date": "2024-10-14T00:00:00.000Z"
-      },
-      {
-        "title": "How Coupang Leverages Distributed Cache to Accelerate ML ...",
-        "url": "https://www.alluxio.io/events/tech-talk-how-coupang-leverages-distributed-cache-to-accelerate-ml-model-training",
-        "text": "Tech Talk: How Coupang Leverages Distributed Cache to Accelerate ML Model Training\n\nAI/ML Infra Meetup with AMD, Alluxio, & ML Trading Expert (San Francisco & Virtual)RSVP Now\n\n# Events\n\nAchieving Sub-Millisecond Latency and 5× Faster Data Access on OCI With Alluxio\n\nUnlock the full performance of your AI/ML infrastructure on Oracle Cloud Infrastructure (OCI).\n\nJoin Oracle's Master Principal Cloud Architect Xinghong He and Alluxio's VP of Technol",
-        "score": 0,
-        "published_date": "2025-04-22T00:00:00.000Z"
-      },
-      {
-        "title": "Rocket Growth’s ML platform: handling high traffic and more than 20 models cost-efficiently | Coupang Engineering | Coupang Engineering Blog",
-        "url": "https://medium.com/coupang-engineering/simplifying-large-scale-ml-training-with-an-orchestration-layer-9b90d8d28e39",
-        "text": "Rocket Growth’s ML platform: handling high traffic and more than 20 models cost-efficiently | Coupang Engineering | Coupang Engineering Blog\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fco",
-        "score": 0,
-        "published_date": "2024-11-14T00:00:00.000Z"
-      },
-      {
-        "title": "Meet Coupang's Machine Learning Platform",
-        "url": "https://www.coupang.jobs/en/life-at-coupang/engineering-blog/meet-coupang-s-machine-learning-platform/",
-        "text": "Meet Coupang’s Machine Learning Platform | Coupang Careers Skip to main content\n\nBy Hyun Jung Baek, Hara Ketha, Jaideep Ray, Justina Min, Mohamed Sabbah, Ronak Panchal, [Seshu Adunuthula](https://www.linkedin",
-        "score": 0,
-        "published_date": "2023-09-08T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "South Korea watchdog fines Coupang $1.6 million for pressuring suppliers, delaying payments - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbHZMQWktSUVjTDUyOTVXUzRTenVjRW1Hc2NucXB6SUtMUGNUUmpGWkR4dUFUbFhqYjBzWlhHLXo4T0djRXp1d2VYRGU0SUNyZ21LbTl3MXpKSWpWOHRveWlVXzYxYlVMeGR1Z3d3MDNBdHpMRDYxbEQ4dEl0Y2M4MEJXWG5wZGJfekhQYWxmbExqOVdzWW5OVkxoU01kZXlJaXIzWHZTUGk4OGZFc1hlakdRN29lZkVQWXZET3Y1cEM0SnF4WEtPb3BvS3RCOGwyMF9MRDN4cWd3TkROOVQ1Y1BwanAzZw?oc=5",
-        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Coupang braces for increased competition amid fallout from South Korea data breach - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNFZjXy1PYkJVb0xFLUdtaHh0dXhSUWxkWEZfUWRiS3lzaW1jbmFuM1h4TjRXYnY4VnFIQm1WY1dYSldoNXFWQmlXbHE2czZkbmhMSnljdEJvQ1FfQ1V0T0k2MVJyRUZGcXVmQkFoWG5TU2piOFotb1ZROW4tc1Z5WXFUTWFKY1lpR3hDenR0ajdxcWI3cFZoRnN6SEREYWwzX2M2Mm1xYkN4QUdGa1g3aTdqU1pLekJTYXh3N2dJUEFvTnlUZl9ZNGxkYXIyckU?oc=5",
-        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Coupang swings to loss as data breach dents Q4; sees muted near-term growth - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYUYtSm90eGg0aEhCeXJNTW9xWU1ycGhSd09LWGg2X3ZNSmZOTl9mMFB6LWM2eUlsRGZPeWFtYkZ3ZDFJOXVUSVFhRHlXdVRYY3pMdjhvMktXVURFcVMzVTAyVVE5OFl2eXNuOGZ0Wi1MVERVWTlMS2U0UjEyV1JNMlR6TldzYjd3NE1EVFZNUWxPcnF6MGVYTkNkWURGRW5JQWM1aUZFODloX2hMWVBEUzdmM2N5Y2hudGlPbzdwSlIyR3lla0E?oc=5",
-        "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "US Premarket Movers: CF Industries, Coupang, Duolingo, Swarmer - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTFBmaXkwVGFOZDJzM0xib3FBNWVVS1MxTUpkVEVEYW1CMW51VEhBSWFkSHl3LXJyRUxMdkhxLWJ3ZDhweGt5SmVYYWJDaXdGWE14OHJRMTlIc2xOQnpzR3ZIU19pZU9nVzRab0FOYlIzV25RbnRqT3NDRHlseXZLelBhWHY5V1BxbzhXY1Jyb3IwRi1PelBNWll1c0hfYTB3OWd2WnVxVFNHOThaZUFueU42UHlRTUstTmc?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 11:50:52 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Coupang Posts Surprise Loss After Data Breach Fallout Deepens - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYWJOZDViWkZOWTZjZWR2X3hxRjl0dUQxUE13YzRpc2JGakZfWEh1U2k5Z0FrNUxiekd2ZG5NblpQUVpRMU5NQTc1anFMVWdpcUxIOFNEalJaZ3FyLUszZHhQNUo3REdIdi1rWUpOUDFka2R3RjdaNlBYNnBjb2ZpMGZkTl9uRTBCZnljOUFLMVZUTC1JLXlpZGdzTUs0QkQ5ZGtYaWU0R0hvTUwyemt3U3hR?oc=5",
-        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Billionaire Coupang Founder Rejects Summons to Data Leak Hearing - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZVpMU3VEWnkzTi12R2RRR19Md3pwX1Jqd0gtVVJEN3VqdThzQWNuZVJjR0hUbDF3UXoyQ0dsQUE0bHVSYUt3YUhtUFpMLVhPMHBhVEdveTIxb1VFakJZay15QVA1MlBXa2Q5RlNDWXFVSDJ1dmZCekFyUEM1UVFGRVBpZHV4ZmtIYUg5LWRnZTdUdzNhTWROc1E4TXhuR2Q4ajhSQVRvSHhxbmZoWkNtYW41b29fdw?oc=5",
-        "pub_date": "Sun, 14 Dec 2025 08:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Coupang - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hczJDY2VYdHUxMElPN3czSElVOHM0Wll4TURhR0wtOGF6UFl2MC15SUFxbUo0ZjJzSFBYZE9fTTMxUUhsTXVkRllpbw?oc=5",
-        "pub_date": "Fri, 10 Jun 2016 21:03:33 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Vision Fund startups Fanatics and Coupang unite to sell US sports merch in Korea - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zUm9DUDFQUEJMeTZ2N0R4RTYxa3pLcWQxa1BmaHdhOXAxVVJHLXJfd2ZucGRjTV9jRFhDcXNHbTdpYkJuaW1lOGZFY1U3bHdwREZHaUJsQkxnTFoxYk5PZQ?oc=5",
-        "pub_date": "Thu, 28 Feb 2019 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Korean e-commerce firm Coupang raises $2 billion from SoftBank’s Vision Fund - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUVhaejBrQ2tvUDdvdS0zcGJfak5lWjZTVWJweTVRam9OS1dUWG5RdnBFOXUzOV9zNlZCYTJNWjdfVXhZanJqdkNpNmV0TzZFajFYV1hmQVRBYkVMamJGQjhxZk9fYjZNY0hHRFpIQVVsZDBDZkNiZ0p4SkdqNU5lMjFvUTNIbVZ6TjdwZzdhMA?oc=5",
-        "pub_date": "Tue, 20 Nov 2018 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Breach at South Korea’s Equivalent of Amazon Exposed Data of Almost Every Adult - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxPSVZHUlF5bVNMeUFGTVJ2QmM5cG9objNYT2pVQkFKR25wcTl3ZkVCc2pHZGtMczFJazBETjFlVk5MRUc1c0FHUU5UMkRDWHNYUWFCWHhEeDU1SmpIYXkxem51dlItNzhNS2hiU2cweFBIR05pQmN4cjllZzZEM09JYjlpVlVhbXh2bGRwdy1xcTBhYUVZd1ZGdi1HZVFDNzlxUk5sRzl5cmd3MmJ0OG9fdjVHNDRBMHRrRENPaGdReHBQdjJ0b2ZLR3V6SnZmRGxfX3dxT1pRLVo5QkR1aXQtWnJaUGlfRFc2eGtMWEdsTThXdDN4WUxTZ2NPTWM2NzFqYUNsMWdNbjBGa3BNN0dNOWExQTNyMW54aDB4dHA4YUpOS1ExTVJoa1F2YlQ1TnRWM3AtNkZKU1F0dUp4V1VVNDVxOTZuQjNuVUtqTmlhb21rTHJudDZNamxUdVZncmpzTk1LTGs0SUpfQ0VYdGY2dHBUZ2U5d0hsNjQ1cjJ5NHFJSmVuYUJVZmdieGUtZmpQcUNXVXVFZjdkdHFVYm5MZ2Rhd2tRdTdNSVFndW1fS0NfVlVydnpvTFhvZFFXclk?oc=5",
-        "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Exclusive | U.S. Warns Korea Against Targeting American Tech Firms Amid Trade Escalation - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxNSkpRcm9ucVpVamc1QjFJbXJtU3ZZTmhtam44VWxndmRFcjZiNVYzOS1HYklrTjhqZmJRRl9rV2FsU3JCbHlsZjhoNWFla2gyeTkzUXBxQVNNMHMtNGJXakc2QmlnMENwSUtBaVZDLWtVSENBWG16UTJRX3o5OEtxaW9ENHNCVzEwaFZ3UHFVT2lrUC1IODdCZ1RIc0dCVVZYeU5nVHM1VW0ySThGVVZtSDRoREdQLTVMNGRBUEtCaXVOaEdTY01BN25jQTNyZzg0SXFOQkRUR0UtSmJSeS1zNlIwS0xaRHVERzNJTFNoREdsZC0zWWZtWWlTUmhleFJkcmVvdTBCcGNnNkFhUzZYV29LekF5bWdxVjlCVnBWc3R1cDJZVjZTSzIwQUsyMG9ZR2cyLWhoSHNEemwxczZVdEJfLTJLUTFhS1JLdlNiaTJDcjFMS1c2Y1dQaUVQMzRRWWFJTWVWc1NONUVxTXVaUTMxSVBQaUNIbjFFZGwzcmZwOUdITlZ5Q0thY1JHRE0xRjZGaG9DaDBrc2IwTExiWVdrSDlvMVhQS29RR1hBSUY3SDJGU1lqX1M3bw?oc=5",
-        "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Exclusive | After Coupang, Another South Korean Delivery Company Catches U.S. IPO Fever - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxOWW9YQUx4VGJjWGFIaUE1bE9aZGpCZUlRamNDc252MDcxeGRJRTI0enBoUlVnNFRaVmF4cmdjTDBJNEg3QkdORWlyLXZPR1dZczRxNko4b1I2RjdtUDk3bUxJUlFwUjVxeElZOFZEb3dtYjlFTDJkUksyMTlBbHVJWFFqOFpRV0hXbUtXNlhUMTJfVG51b2ZuQng0ODVyb09zcmV6Nk5RZHVnVUI4MlFJVkdISjc1NUJpQ3RuT3pBdVgycVM5YkhIV0xYaDFrenhoSTJOTENBeDBrZzI3UWpQOWV2ODJrVmczcnF0NGdUZUQxTTQ1SGw0U3ZMREVGT1k0azlxdTBmSTJlNzU2NDVxOGlEYmVvRUpUSm9xdUtFUGhTdUJkLXZETkNkazBQTDkzdktXMjI3VndRREIzdmxib2pndEdzbWl0Y0phdzBZcUJTWkJMZklSMHRfUUxNMWx3aVRpSWhKMEdnNHo0MVdlTG9nN1Vxc25KZHJJaVV2QnlyelpIV0RiOXcyZW9JZ0NGZDFfVmVWWXN0TTdGSlhaRW02cXAybDJ0V0laTTk2X3lQMU41YWhoOUJKb25LekdMWjNv?oc=5",
-        "pub_date": "Thu, 11 Mar 2021 08:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Is South Korea’s dominant online retailer an American company? - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSzJtVW9pU1RUMjZnckVodVRMZmhVd3VjeDYwTm95X05OZUVfYktOLVBtcDlncmtscTRJUDRNaDhPcDdESk15c1lSS3J6cXJ4NjRLemFZYi1VOUdNUmVYTmwwZjV5a3IyYVdaUEFMU2VVRjZBVEtDdTJZaWtZR3hlcEVIVGY?oc=5",
-        "pub_date": "Sun, 08 Mar 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "SoftBank-backed Coupang jumps in Wall Street debut after $3.5bn IPO - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VMlNieFVab2NRZC1hX0IzbzZGc01Qb3BjWDg2aXlYdHZqbEJIM29YNEhEZ3cyRW8zNGE3M1RTandIOVJDTkVkNVhhRGlFTnRNUmpkVkpOYjF4LUhEQklHYk5YcDJ3T1lydUswS3BHeDM?oc=5",
-        "pub_date": "Wed, 10 Mar 2021 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "South Korean CEO quits after huge online data breach - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xc2N1dVBiaGdYSGhPZjhLNFlNY2U2VGJEdWRfNVhBeHZlU2xyRDRtbEh2dGoybGtnZHBUcDVYMVZSLUVYaE9sQi04MS1kVGMxZjhGYmZWd3c2X2g1UmNXNlVPcTRKakV6RDdvRUxabG0?oc=5",
-        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "SoftBank Group shares lose steam as investors have qualms on big OpenAI bet - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1dMLWFVTE0wWXdSYTdVSHZscXcxOUlCcVRYdWVhS2llek5ubm5OSDdSanItMlFab294cjEzVDBSeHhRMl9VYm94YUY5OE53UExWZXMycHJOTHJEU2FwZG4yYlZvVUVPZXhHZXhvaThidHY5OURKaXg0SFZZelhxNnVaakt3aFJpOFVzamxid2ZmTGdnUU1YcnhPWWFUMTBZNGhGZE5ySzBJazd0UWRYejRwbzBSdmViOG91dnB2clZuUHZxTlM3bw?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 21:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "Coupang profit falls 97% after major data breach - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPczVRUDhVa1dtWlZPT2ZQT1ZPZUlseVcyMXlwVXNHTmppbUxWdnFEekRwNkNVUnpIbTVXQzdmUDR0ektGSVpoYnVXbWZwR2ZQWk1sWm5xd0ZUNUtTVnpVSl9TOHhBbUZFc18wT2s5ZVFGdWptem9DSVY5Y1lYalE2OXlaT2w4ak5UMkVnU1dUOFJCX0lRNXc?oc=5",
-        "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "South Korean government pressures Coupang over major data leak - Nikkei Asia",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3B6UVBENUdYeUtSc08wandMNGpyUXlQcTY5VmRSMDZIbWlxSFBTSGRzOGlwamI4SDlFU2FCeDVxR0M0YnVianVSSGFpR0NJTXJyaThmLTlVS3FTQTA2OXJsZkdaa2RUdVhBRkN6WHBsdW12bmtTa09jVlFuXzVNUWdBUWpLeVRHVmdfRS1uYnVoX0EtZjRVYWhQZzhYYXc1TWVsNFdOSGR1QQ?oc=5",
-        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
-        "source": "Nikkei Asia"
-      },
-      {
-        "title": "A Rising Star at Microsoft Promises a Restored Xbox—and No ‘Soulless AI Slop’ - The Information",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT09Ram42eEs4a1h2a1JObTZqLXVRVGpfMUtmTjVqdEhjLWc1VnBwZ0E3dlQ4UnVfdXBhTktQTEJWUzNMV1lWSk56a093bUZLbXl3a0FhYjdlMTZfaFJNcy1jV1RZbDFjenQybnR1YkpRUmJuWjJUWlVJcFpWR0hRdUoxZGNwVW1NZ1dFenYtT1p2bmJ1RU9uX3dqYnVCUm5qS2FJ?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 16:06:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "Coupang Co-Founder’s $100 Million VC Fund Wants to Fund the ‘Korea Graph’ - The Information",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS0xMZDN6VzhaNXdnd2c4YUdZc1BRbmxQTFdFdmFRUlVVOVgyX2VNRy1HMzFEN01BR0dHUzBOdFFtdDQyaUZBbmp1d3pHVl9MczZwZlRRX3JaNkFQcm5aUTNLY2JyRE0zY0hkUkJoYjZqWVRVekoxeHdZUF9IWDhNQlUtUjFTZzBTVXJ4WnB2cXh4T09oWnZWUm5HUWhtWW9DNTZ2LU9qRWtueGZoUDVkQzVGeWQ2eFQ5aFN6ZUVnaw?oc=5",
-        "pub_date": "Thu, 24 Oct 2024 07:00:00 GMT",
-        "source": "The Information"
-      },
-      {
-        "title": "Harshal Wanjari - The Information",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jamVjLTJyUVZtVFlqLXk5Mzl5bzl0U1dNWlFkXzlTM24yR3N6aUk0UVpFZjNFNXd4ZVlyMGFtZlhiTGI4ZWpseW04NDNqbUhVcG44?oc=5",
-        "pub_date": "Sat, 14 Jun 2025 23:05:33 GMT",
-        "source": "The Information"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "'탈팡족' 컴백...쿠팡 이용자 보니 '헉' - 매거진한경",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rT0ZQdUh2b1ZWYW1TX2VPVF9rcmtzaWtQSlRJdTh2WUxlY2dNOHZ3ZTZDaTdkZXVZS25yNWxJc1ZpZHU2LUJtdjgybVplQ0dTZl96SGc4UXBoN09BeVpPR1FKbW0taWN0b2pWRg?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 19:41:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"약속 지켰다\" 쿠팡 로저스 대표, 성남시 일대 새벽배송 나서 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Dd2plOHltZnh0ODFTejZrUndIT2k0RFRLRUxPZGM5QkZkc1hGMHRVYVpmdkZhSjJHU1JrajQwSVU5TDFDUUwyS0RjbExSaHh5N2JzZEhvMDNVUdIBVEFVX3lxTFAzZGJ1RVd0UGYyNHRrR2V3eVFfNElJRDBhNGFYMEtXdmIyR3hrRjdqMnVfb0hnLXNXMk9DdHNGcTNNUHVQWmoxSDBnZVRpZENESTVHNA?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 05:17:08 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "밤새 상차·배송에 사진까지…'쿠팡맨' 변신한 외국인 대표 [영상] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41Slhid3hGWE12ZjM2dk51Rkxab19ZNkRlYlBJVks5a0h6cFNKWnBGdkRSVVphem1UUVYxYzlSWV9Cb05rNC1ZTG11ZFF4RjIyTU9UV3ZpZ3JnUdIBVEFVX3lxTE9valVHNlI2T2w2OElMaHY1bWxoT3FnOFhIT3k1WmFySERrVENUcXZVazVUd0NVbExwVDJyYl9PVmdzR3djM3QyMzVPQmFfVFFlb25nMw?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 02:04:14 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "로저스 쿠팡 임시 대표, 성남서 10시간 새벽배송… 청문회 약속 이행 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcGdLWU52T0RoOGNEdTdFN2tMcWVmeUdPWVR6VUVnVll1WGVsOXhTdXAzc0JwWWZsYTN6akl2ZmhYTC1XbWxJMFRzNW9mVm1LUUhZbTRXcmNlMEgyeXJMa21xdGcxclpzTU5XanZ4MkJqSXotcHVMSzZtc2RNRXpWWEI0aWcteTJWWXfSAZ4BQVVfeXFMT3RaRWliZ2VDbWJyeHFXbVBENW0wQ09WSVVDZE4xVGZtMWo4TU9zY1hTdVBucEI3bmYtYUJ1M1BoWHV0ZGxkcnJHb3ktOXNUYlBwX1MybnpBSkd5UVVsWThEUmoxZVI1U3pwLWljRUs1ZmRTeVN3VmNkWHFwLVVBTGtlM2k5V2kxTDk0dG9CamZJQk5EamxMR1BoSmN2UHc?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:52:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "쿠팡, 엔비디아와 AI 협력…로켓배송 효율 강화 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMmRNUEdHSEE1d1ZUSDMxUXd0WTc5dHFVRXM1VzRCdHA3cHd4WnpFZDR6bGFob0tselBtTHpOQmRkYVVDV3pVaXZncmJ0OTZrcko1TU1XRlM4alVnTDUtS1dxSzhPMWhvMHF2UFZ2TXE5c1pyTjZDNFFubk1pS1FoVlFaa0QzaC0tcFHSAZ4BQVVfeXFMTmxoVDJUaHhJVFM3SWttRTk0eG8tSUpZYk5Yamw4Z1pYOFZwbjZJNXdLa014YWNPWGhmNjhucldwZGhRX1o5VDBOWS1zbkVXVHBSVkd5RXhfdHNhWW1JWjVxekJSREp5d0VVdWVaN0I5am9lcUtnakRDYU15VjJSQkdlNEpnMV9TY0RiZEtCdDFieUhQaUg5TTg4ZDlhN3c?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 06:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "쿠팡, 엔비디아와 AI 협력…로켓배송 효율 강화 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObGhUMlRoeElUUzdJa21FOTR4by1JSlliTlhqbDhnWlg4VnBuNkk1d0trTXhhY09YaGY2OG5yV3BkaFFfWjlUME5ZLXNuRVdUcFJWR3lFeF90c2FZbUlaNXF6QlJESnl3RVV1ZVo3Qjlqb2VxS2dqRENhTXlWMlJCR2U0SmcxX1NjRGJkS0J0MWJ5SFBpSDlNODhkOWE3d9IBngFBVV95cUxObGhUMlRoeElUUzdJa21FOTR4by1JSlliTlhqbDhnWlg4VnBuNkk1d0trTXhhY09YaGY2OG5yV3BkaFFfWjlUME5ZLXNuRVdUcFJWR3lFeF90c2FZbUlaNXF6QlJESnl3RVV1ZVo3Qjlqb2VxS2dqRENhTXlWMlJCR2U0SmcxX1NjRGJkS0J0MWJ5SFBpSDlNODhkOWE3dw?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 06:02:21 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "‘심야배송’ 로저스 쿠팡 대표·염태영 의원…10시간 노동 후 고른 식사 메뉴가 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91bWktc1YtTVo1bFpLanMxZVViLWJFY2xVRkhmWDhlUVMyWnBqbm9ncmtFXzg5bTBNRWFxb2VfNUU4b05iNEdWZXA4LU9TbF9NdXVfTk53?oc=5",
-        "pub_date": "Sat, 21 Mar 2026 04:45:56 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "운동화 신고 ‘쿠팡맨’ 변신한 쿠팡 대표…정부와 갈등 뒤 유화 제스처 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBRnVUSFgyNklyYjYwZjlxT2pQTzAzX3FZNTFaemlVTFlXZFQ0WVdsSUpLQ1NvbV9qUmlRU2JxcFlfUVBiaFVQRjZBdjVQX0kyNHQ2Yw?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:34:28 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "쿠팡 대표 새벽배송 10시간 체험...“선진적 업무여건 조성에 최선” - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WVEoyQ0hqck9oU1ZHNENKTE92M1UyZ2EwcUZuMEI2c2hUZnp3YkIxVnRNTlhfYTZIbWZUV296NkhOZzJ4b2tQYVZDclpSdTlzcnVaMmdB?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 06:28:35 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "로저스 쿠팡 대표, 새벽배송 10시간 뛰더니...근무여건 강화 약속 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwTXM3QVZhMjR0Q2xqQXNyX2Z6WXVmTXJsWUxya2hlTk1nLW5JLUVEX3ZVcVdwaDRLMGE1YnloUkVWbW41Q1BwQVBHdDJ6SEp6SmMwMGNR?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:36:18 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "로저스 쿠팡 대표, 염태영 의원과 새벽배송 직접 해본다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55UWpPUVZtaVR1TDkzcnRUNEI5Z0ZBRjgybFRfdG5VdzBQRlI4VmI0UmpnV0U3RlB5V2Y0MTRTSFlSTlpMZGNwZVBhYjBvLUY2VGRBdnhn?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 07:24:11 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "BTS 광화문 공연 도심 통제에 이커머스 배송 '빨간불' - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43QVZZdTZBRVVLcDhDMndxVjlYS0ZIdndEWHVfSzVlZlZmdFNjeUY4YlVRcTlPT0lOWk54djJ3Z2ZmVm5iSFBvQWQwMFNmY2JaUHlwRndn?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:00:11 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "비회원 문턱 높인 쿠팡...멤버십 강화 '승부수'일까 '악수'일까 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQRWh1VEJVaktWcjdzbDBZaGtvYjhPY3ZaUEhPMWYzZ2ZqaFZkVHJYVzREeGx5OUxaWkM1OVVMTHB3RlJmQzdmbEU1Y0tfc3VNeEhadFpKbVFSNXlRT2JxSE5nNFZuYm9q0gFsQVVfeXFMTWxqMmVtSDVxOXdkUjhQemxXRWpWNUNFRDNSNUhMYU9pUzhnMDY2MmRsLUR0SHZoUElOYlMyZDlZcWRkT3JkS294eEdId1RyVmU4WFdFakt0SG1wb2l6R01MVjZQeWZNS1c5YzY3?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 07:55:52 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "CJ대한통운, 사업구조 흔들리나…노란봉투법에 택배업계 '긴장 고조' - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HYndodGVGWWF4OHo5U1UyQWYwdDlTeVUyQ18tcU5rNnQ2OFB2amo0TTNyVDJwRHZKZnNlSlFPb1ROUnlvNVRnYkdENXIwZENMYk5rM2IwMkYza0ZQb0piQ1I2X2lPN19VSy16ONIBbEFVX3lxTE5HYndodGVGWWF4OHo5U1UyQWYwdDlTeVUyQ18tcU5rNnQ2OFB2amo0TTNyVDJwRHZKZnNlSlFPb1ROUnlvNVRnYkdENXIwZENMYk5rM2IwMkYza0ZQb0piQ1I2X2lPN19VSy16OA?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 08:04:09 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "쿠팡 대규모 개인정보 유출에 정부 긴급 대응…민관합동조사단 출범 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52aDVQR2t1TEpZcVpvN3ZabFVCSDBTWVZiM1pQNWtVbE9JRGx5Ni1FWG45OUdtM2ZDZ1c1TjQzX1RCemsySTNJekdUUlRPUVM2VlZIdDdYNlhtRE5NQ3RDckNvMUQ4bVND0gFsQVVfeXFMUGpXa0hlbF9aMjczSjZrVlFleGpVRmpyUWtPVXpkX25OdmtWMEhoRDZlN1J6RzNEZERoWm9FRHZhY2hDdWxyUmQ1RENWeUlORnY1dU1Ic081MVEwblZ6UEpsYm9Mb01NdXVibGdE?oc=5",
-        "pub_date": "Sun, 30 Nov 2025 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "2026년 이커머스 3대 키워드는 무엇 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pb2toTF9pcVF6Xy1uT2dXNU91RVdUajRsQVZneVFYYUlyb3U2aUF4VWcybEZBb3JqbktkbFZwQzBMU0hKQkY0dzFuTU9TSEd5MERv?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 13:48:56 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "[주간 리포트] 숫자로 보는 탈쿠팡 트렌드 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyVnRfZlQzWkR2cWYxYWZ0clQxYnNDREdhRFhmV2EwVV9TQWFXcmZOWDk3VVdlTmNPZ3dvRnFtUjdHN2UxY1Q5TUFTaXZnQQ?oc=5",
-        "pub_date": "Mon, 09 Mar 2026 09:16:14 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "쿠팡Inc, 대만 20만개 계정 개인정보 유출 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iOW1mNjF3OGF6OU1rdHZnczlneUU3d1lNQk1rVzl4cjlhQ3JmRGYzMGNWR2VkSXg1SlNieEtDSVNsU05MNklyVjBWQlY5VWc3dlR4ekEyMA?oc=5",
-        "pub_date": "Wed, 25 Feb 2026 04:54:09 GMT",
-        "source": "바이라인네트워크"
+  },
+  "scorecard": {
+    "total": 75.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.25,
+        "evidence": "14 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=쿠팡"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "company_website",
+      "section": "overview",
+      "url": "https://aboutcoupang.com"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=쿠팡+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%BF%A0%ED%8C%A1"
+    },
+    {
+      "name": "linkedin_search",
+      "section": "overview",
+      "url": "https://www.linkedin.com/company/coupang"
+    },
+    {
+      "name": "career_page",
+      "section": "job",
+      "url": "https://coupang.jobs/kr/jobs"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=쿠팡 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=쿠팡 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=쿠팡 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=쿠팡 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EC%BF%A0%ED%8C%A1"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

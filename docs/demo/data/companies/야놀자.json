@@ -1,632 +1,947 @@
 {
   "company": "야놀자",
-  "sources_used": [
-    "exa_search",
-    "google_news",
-    "credible_news",
-    "brave_search",
-    "naver_search"
-  ],
-  "result_count": 11,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "data": {
-    "naver_blog": [
-      {
-        "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
-        "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
-        "link": "https://blog.naver.com/blrol_blrol/224224956373",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
-        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
-        "link": "https://sibauchi.tistory.com/1205",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "11",
-        "description": "우선 기업이 되기 위해 10억 달러 이상을 약속했습니다. 저는 10억 달러가... When you adopt AI, well, you don't just change adoption or productivity, You change how power is perceived and... ",
-        "link": "https://blog.naver.com/calcutt/224224839164",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
-        "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
-        "link": "https://think-tank.tistory.com/1035",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
-        "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
-        "link": "https://blog.naver.com/kcl3598/224224791593",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "[대학별 Q&amp;A 100선] 연세대학교 3편: 연세대, 과연 비싼 만큼... ",
-        "description": "합격의 기쁨을 누리는 것도 잠시, 고지서를 받아든 부모님의 표정은 사뭇 진지해집니다. 사립대... 야놀자, 쏘카 등)가 매우 많습니다. Q58. 외국계 기업이나 해외 취업은 어떤가요?  Real Talk: &quot;영어 잘하는... ",
-        "link": "https://blog.naver.com/dt_info/224224712827",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
-        "description": "기업 문화 기획, 인사 데이터 분석) 지원 자격 2026년 8월 졸업 예정자 및 기졸업자 (전공 무관) 근무지 경기도 광명시 유플래닛타워 (광명역 인근) 전형 절차 서류전형 → 인성검사 → 면접전형 → 합격자... ",
-        "link": "https://blog.naver.com/goodlife_92/224224618278",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
-        "description": "실제 사용자들의 후기를 살펴보면, &quot;채용 공고 내용과 실제 업무 환경이 다른 경우가 많다&quot;, &quot;연봉 정보가 명확하게 제시되지 않아 어려움을 겪었다&quot;, &quot;면접 과정에서 기업 문화에 대한 충분한 정보를 얻지... ",
-        "link": "https://ilovefamily.tistory.com/527",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "현대자동차 3월 채용 취업 이직 대비 (자소서/면접)",
-        "description": "면접 준비가 될겁니다 현대자동차 PT면접 * 전 직무 자기소개 PT 진행 * 지원 직무에 따라 사전과제PT or... 모의 면접으로 감점 요인 종합점검 / 최종 피드백 바로코칭 실제 합격 후기 기업은 우리들에게... ",
-        "link": "https://blog.naver.com/bashinga197939/224224525166",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
-        "description": "오늘은 취준생이라면 한 번쯤 목표로 하는 기업, SK AX에 합격한 신입사원분과 인터뷰를 진행해봤습니다  ✔ 합격 스펙은 어땠는지 ✔ 채용 과정은 어떻게 진행되는지 ✔ 자소서·면접은 어떻게 준비했는지... ",
-        "link": "https://blog.naver.com/ttooooriiii/224224472695",
-        "pub_date": "20260321"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      },
-      {
-        "title": "제주항공 채용 승무원 큐피드",
-        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
-        "link": "http://cafe.naver.com/sheiszzz/1214780",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉",
-        "description": "버티컬 AI 전문성, 방향 인정 글로벌 트래블 테크 기업 야놀자(총괄대표 이수진)의 김종윤 사업전략총괄(이하 CSO) 및 야놀자클라우드... 인공지능 전략의 중장기 비전을 제시하고 주요 정책을 자문한다. 이번...",
-        "link": "https://www.yanoljagroup.com/ko/press_release/view?id=1504",
-        "pub_date": ""
-      },
-      {
-        "title": "[취준생을 위하여(264)] 야놀자, '버티컬 AI'와 '놀유니버스'에 실린 글로벌 테크 기업 비전을 통찰하라 - 뉴스투....",
-        "description": "성장 전략을 면밀히 분석하고, 새롭게 출범한 '놀유니버스'를 통해 글로벌 트래블 테크 기업으로서의 역량 강화 방향성을 파악해 기업의 미래 비전에 기여할 수 있는 역량을 강화해야 한다. 이처럼 야놀자가...",
-        "link": "https://www.news2day.co.kr/article/20251021500009",
-        "pub_date": ""
-      },
-      {
-        "title": "리더십 개편 100일…야놀자, ‘비전 3.0’으로 AI 여행 시대 연다",
-        "description": "동안 야놀자가 기술 중심 성장 전략과 글로벌 확장 방향을 보다 명확히 했다는 평가가 나온다. 기존 플랫폼 사업을 넘어 데이터와 AI... 新 성장 비전 ‘야놀자 3.0’ 야놀자 CI. /사진제공=야놀자 야놀자는 올해...",
-        "link": "https://www.fntimes.com/html/view.php?ud=202603111557391031b5b890e35c_18",
-        "pub_date": ""
-      },
-      {
-        "title": "야놀자, ‘AI·빅데이터쇼’서 글로벌 여행 테크 전략 공유",
-        "description": "전환: 야놀자의 버티컬 AI 전략’을 주제로 발표에 나선다. 이번 세션을 통해 장 CTO는 여행자에게... 제공하는 AI 에이전트 기반 고객 서비스 등의 방향성을 현장에서 공개할 예정이다. 야놀자 관계자는...",
-        "link": "https://www.ceoscoredaily.com/page/view/2025061009325630790",
-        "pub_date": ""
-      },
-      {
-        "title": "야놀자, 플랫폼 넘어 테크 리더로…AI 혁신 가속",
-        "description": "중장기 비전 실현을 위한 ‘제2의 도약’을 선포했다. 이는 급변하는... 27일 야놀자에 따르면 가장 핵심적인 변화는 B2B(기업간 거래) 사업... 자리에서 야놀자의 AI 기술 기반 확장 전략과 운영 방향에 대한 강한...",
-        "link": "https://v.daum.net/v/20260227162630893",
-        "pub_date": ""
-      },
-      {
-        "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉",
-        "description": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉, AI 산업 발전 및 국가 전략 자문 역할 수행…야놀자의 여행 특화 버티컬 AI 전문성, 방향 인정",
-        "link": "https://www.hankyung.com/article/202511217597P",
-        "pub_date": ""
-      },
-      {
-        "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉",
-        "description": "야놀자는 김종윤 사업전략총괄(CSO) 겸 야놀자클라우드 대표가 국가인공지능전략위원회 자문위원으로 위촉됐다고 21일 밝혔다.국가인공지능전략위원회는 국가 인공지능(AI) 경쟁력 강화를 위한 범정부 정책의 수립과 추진 방향을 심의·조정하는 최고 수준의 AI 정책 기구다. 산업계·학계·연구계 등 각 분야 전문가가 참여해 국가 AI...",
-        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1299484",
-        "pub_date": ""
-      },
-      {
-        "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉",
-        "description": "글로벌 트래블 테크 기업 야놀자의 김종윤 사업전략총괄(CSO) 및 야놀자클라우드 대표가 국가인공지능전략위원회 자문위원으로 위촉됐다고 21일 밝혔다.국가인공지능전략위원회는 국가 AI 경쟁력 강화를 위한 범정부 정책의 수립과 추진 방향을 심의·조정하는 최고 수준의 AI 정책 기구로 산업계·학계·연구계 등 각 분야 전문가가 참여해 국가 인공지능 전략의 중장...",
-        "link": "https://www.businessplus.kr/news/articleView.html?idxno=102481",
-        "pub_date": ""
-      },
-      {
-        "title": "리더십 개편 100일…야놀자, ‘비전 3.0’으로 AI 여행 시대 연다",
-        "description": "동안 야놀자가 기술 중심 성장 전략과 글로벌 확장 방향을 보다 명확히 했다는 평가가 나온다. 기존 플랫폼 사업을 넘어 데이터와 AI... 新 성장 비전 ‘야놀자 3.0’ 야놀자 CI. /사진제공=야놀자 야놀자는 올해...",
-        "link": "https://v.daum.net/v/20260311163452990",
-        "pub_date": ""
-      },
-      {
-        "title": "김종윤 야놀자 CSO, 국가AI전략위원회 자문위원 위촉",
-        "description": "야놀자는 김종윤 사업전략총괄(CSO) 겸 야놀자클라우드 대표가 국가인공지능전략위원회 자문위원으로 위촉됐다고 21일 밝혔다.국가인공지능전략위원회는 국가 AI(인공지",
-        "link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2150316",
-        "pub_date": ""
-      }
-    ],
-    "google_news": [
-      {
-        "title": "'여행을 10배 더 쉽게 만들자' 야놀자, R&D 조직 '야놀자넥스트' 띄운다 - 테크M",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14XzlpNjhfOEFsS25aSWZsV1NpM2FsbW45bnNwRTYyVUZvd2xhRlhBREhkcThzT1BxbEI4M0ZTOHlNcUNoVVB1QkZjYzRJcWw1b3NORGZnMDV2UHBNbUZfYWJwRHBaZ9IBakFVX3lxTE5QR0w4QmJuVWtxV2pzQTBPNnB6S3VlMHNPeUFOdjEta05LQUFkNkw0cWdMb3dNQjdyOEdndTBaUWNMZ3F3Z1BUY180S2dWWnF1LWIwWFpUZVh2aEZjazVqdXNKdXY5aVhVNXc?oc=5",
-        "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
-        "source": "테크M"
-      },
-      {
-        "title": "“여전히 수작업인 여행 산업”… 야놀자는 왜 AI를 택했나 [AI리더스 2025] - IT조선",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZb0otNndFR0hMSXVpYWlvT0xWMXctQTZGcHloS2NHUzQ3SDlxdHhpeldFZG1Vdl8zMzJGVUpINktNTlFwM2lKRFowNmo2R0JXSHE1Uk9XVnBCa3NsWnVyM1RkeTFna180TWo4QzJJSDHSAXRBVV95cUxQQkQ0TGFDdTlfRTJiOWUwUFZkS2JVVm51WTdaZmxPeDNTdldIZDRYRlI1Nl8zYVBHbVRkREQ5RjdpdWt0Vm00T1prSGJXMm1zZ0FOc3JwcExJNG96Rkk0RW14am80eXZwekg0OTBYQllsVGtJMg?oc=5",
-        "pub_date": "Thu, 25 Dec 2025 08:00:00 GMT",
-        "source": "IT조선"
-      },
-      {
-        "title": "야놀자 ‘이브 로제타’, 글로벌 번역 모델 경쟁서 상위권 기록 - 플래텀(Platum)",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VTjhhdVF2azg2UW9pSnd3MnBMV09BUjRHQy1RU29EdF96cmJSSTJISzRyeDZnejZmR1NWcUR2anBlT00yS05VaQ?oc=5",
-        "pub_date": "Fri, 24 Oct 2025 07:00:00 GMT",
-        "source": "플래텀(Platum)"
-      },
-      {
-        "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉 - 월간인물",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kMVZMcWxWUDBQd1FOMVI2NkJSYlZZbGgzeGl0azkwemhyU3BhZ29wUlhzWjJhaU9wYzdORTFYUWwySWhFVzM3U2NSVC0zM3NKNWFLaXhxbzVUZld2MTBwQ3dZd2NteVB6SnNKWXpjUkozUdIBdkFVX3lxTE1tME5oS1RYczY0OHRHb1BiSDM3LVNqYWZSbFZSUFBaUTZrdVJESDFRclI0cHl5MUZvUURsRWVqaWFvY0dIVXNHbTZhOFUwSjNFbF9mSUltZTBoX2JiakgyMGl4OUhpUEFrRUFnU1FLX09ZNkJuZHc?oc=5",
-        "pub_date": "Fri, 21 Nov 2025 08:00:00 GMT",
-        "source": "월간인물"
-      },
-      {
-        "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉 - 더퍼스트미디어",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xTjFmWFA0S1AwTVZDR2k5SUpXbGRxSzhrbDJjTmw3ZDVqT1Z6OWZ5aXROY09RTUliX0JITGVmU3RlUkhwT0dwaVNVTTNlVjVHdENlelZia2w4ZGREN0g0MnA0c3RWSXhQY191NVNSQmzSAXRBVV95cUxOR3Y4NVk3LTNOWUxWRFhQMnh2LXl4a0NmSHBzaGxmTUNLOHVVaFJaVTloX2ItYzhUSVcyS1h5UFhrWHdQZGgyQ1hqbE1hWVdEd0JYN3J4bVRCNVZwQlJZOXpraFdyRGlYX1JnclVrLUZYVnJMWQ?oc=5",
-        "pub_date": "Fri, 21 Nov 2025 08:00:00 GMT",
-        "source": "더퍼스트미디어"
-      },
-      {
-        "title": "야놀자, 국내 여행업계 최초 챗GPT 엔터프라이즈 도입…\"고객 맞춤형·초개인화 경험 제공\" - 뉴스스페이스",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Xb0ZxeTJxUllHTnNITzhWaDE4N2RqeDAwNXVQcUFYOTF1V0NJanRmbGI0MDZFbEhBWUVDRGpfUDBXUmIwdjk2Yml2NXVLZUotYmZPWUlVU0U3djhwdnZr?oc=5",
-        "pub_date": "Fri, 05 Sep 2025 07:00:00 GMT",
-        "source": "뉴스스페이스"
-      },
-      {
-        "title": "아투, 오픈AI코리아 개소식서 AI 혁신 스타트업으로 소개돼 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkY2FDX0IzS0J2SkI1d2kxZGVUZGtxdHN5VlhpTjl3Zm5mb3A3M1R3akFGOUw0Z1htdnFOZ3FrZTZpZHdWWEh4SkNLSzdvamI4WlZlZXRB?oc=5",
-        "pub_date": "Mon, 15 Sep 2025 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "[CHAI AI 인사이트] 광고회사의 판을 다시 짜다 - 매드타임스",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxcTA4cDNGRDMzRHk3ZU05ZnlydC0yRmxDTTZZdmFETktrdlZBN1VJVkxIQVZEOVRFV3YteHZmY1lTLXFUNU1KWnBobVE2RjRUcW1IOTI5VzZkMEFZZ19KLTBWRWZ6RGtiY2s3Tw?oc=5",
-        "pub_date": "Mon, 08 Sep 2025 07:00:00 GMT",
-        "source": "매드타임스"
-      },
-      {
-        "title": "쇼피파이가 AI와 하나가 될 수 있었던 건 - 뉴닉",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aWHgwQlNWM2Z2MnR5dnV4NWNsbEY1M2t2LXhod1FuVG9NVGlucHVOTWFHWUhNRVFHOE9tRVZ1N1JDWkRnQ29nb1RXcjNHZ1A2cUROeUhR?oc=5",
-        "pub_date": "Fri, 19 Sep 2025 07:00:00 GMT",
-        "source": "뉴닉"
-      },
-      {
-        "title": "잡코리아, AI 기술∙상생 서비스로 일자리 연결 강화 - 한국면세뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TekpIRU4tM1FVWlVrMTJVQmFjU0dnRmppTUZZSndUeXI4elRkQXBzWGpYZW5ualItUmQ1M1JZbk02SWxWV3JBUVN2dmdTVnJxT21WcTRBTFRqZWkwMlA5Z3lCa2VhZVU4VFE?oc=5",
-        "pub_date": "Fri, 23 Jan 2026 08:00:00 GMT",
-        "source": "한국면세뉴스"
-      },
-      {
-        "title": "사업확장 속도내는 네이버… 구조조정 집중하는 카카오 - 대한경제",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jS1dTYmFkUVJ5YXlqQkVRU1ctQVN4WWJzTnVIXzVRUi1pYU9kUVRrdklUcmZpQ2dRQ2g0THp3dGNvRmZxLXNpTFFPM2hBU1d3MU0xRTd6TElBWDE1d0ZfREZmX0t1VDZNdUs2RUVhLWotZkkt?oc=5",
-        "pub_date": "Fri, 05 Sep 2025 07:00:00 GMT",
-        "source": "대한경제"
-      },
-      {
-        "title": "야놀자, 특화 AI로 글로벌 공략… ‘에이전틱 AI’ 시대 대비 - IT조선",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YNmhRT2xqSUVaOV9iUmY3NlZDRE5ueDh0WVg5WEtlR0VraTFSbG5ZbnZiVVg1SGFfT3RzalJTbmVnRm9JQkhtT2NlMUV5R2x1SjdsWENmT3cwQVJscTJRcUhZVHJlWF9Md05rbnFCNEfSAXRBVV95cUxOTTIybUVaczJuWW4zcDZ5WHlVZjlqMXNoSGFNSURwWVMxOHdEOF9OV0FzakFIQnpmTnR1Mzh3VnVoMmxTQ0c4TlVXVmpiOXRMWFhGT0hKd2VyYmUzZEEzWUh1dExUZVhTdVd6dzBhdEM3ZDZlag?oc=5",
-        "pub_date": "Tue, 28 Oct 2025 07:00:00 GMT",
-        "source": "IT조선"
-      },
-      {
-        "title": "야놀자, R&D 조직 '야놀자넥스트' 공식 웹사이트 선봬 - 디지털투데이",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DbFRudldfR0FZbG9fT1dSaEd0UVNtU0ZERlFjTkNxd1VVZ3VWYUtpb2l6UkJRdEgtVUs4cXNGQ0hnc184bElRakllUGRnSEZMam5EYXhwX3lFQklZa3pIQW95aUpjTk5CVktZa1hvSF9wOXM?oc=5",
-        "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
-        "source": "디지털투데이"
-      },
-      {
-        "title": "구글 \"AI 솔루션 활용해 국내 기업 광고·마케팅 효과 극대화\" - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMRW9YVkpUN3FzbkdHeUlGZEQ4Q2FLa2NRQ1NnRC02ZXVjSE9aRTExTnFldXlpdzhqbVZQSkdQMmkwc1poczRVZnlZemFTalYyRHAwU05KSkNNOXZiZmxNZDgwd0Jlc0VibUE?oc=5",
-        "pub_date": "Tue, 22 Apr 2025 07:00:00 GMT",
-        "source": "AI타임스"
-      },
-      {
-        "title": "‘TechCon 2025’, 6월 11일 개막…로봇·AI·보안 기술 선보인다 - 플래텀(Platum)",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOWmMzc1c5Ny1LOW12ZlBKNVdoMzktM2x6ZDFCbHVKYjdPNmdhRkR4emhSM2tndWh6M0FmNk5HSTE1QmRfMk5URA?oc=5",
-        "pub_date": "Mon, 02 Jun 2025 07:00:00 GMT",
-        "source": "플래텀(Platum)"
-      },
-      {
-        "title": "‘야놀자’ AI 잘하는 여행사… ‘투 트랙’ 전략으로 역대 최고 실적 - 더밸류뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OczFwY0dMZHZWaFQ0dFpseFprQW9QbmpJMjFzSVJXQmRSZVdacTNWYkpYeF9nNFlUSmhYWGk0Z2F2cVl5YUVZc1UwVlh5T25HVWlSUw?oc=5",
-        "pub_date": "Thu, 04 Sep 2025 07:00:00 GMT",
-        "source": "더밸류뉴스"
-      },
-      {
-        "title": "야놀자, '사업' '지원' 조직 분리 재편…글로벌·AI 공략 가속 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ZM1JYMlZqeEpUVWF0WGNuR1U4bDhnaWtoNlRlNTVfbzYzcHVHeklnMFo4TFhxd0dPNEp6bFNJa1ozXzUwQlNjOE5UVQ?oc=5",
-        "pub_date": "Wed, 11 Mar 2026 05:38:02 GMT",
-        "source": "v.daum.net"
-      },
-      {
-        "title": "아득해진 야놀자의 나스닥 꿈···수익성 장벽에 발목? - 시사저널e",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9LcFYzSWRYbGlMbWxYVDdBR1JJTnJNZVNiMXdUamZPN1JZbHE1bkNvNk5oU0I4WWhiV2gwSmNaQ011dHdiUHd6bHd3NGxlOUZnbk1qeEpqc1ZOeDBENDdLN09DUzEydFNXSkdldnFXMGFEQdIBdkFVX3lxTE4yQk93a0NFdlpUZTFSZG1CUUJ2eG0wbS1ra05vNDk1NEwwVm92d1Q5RnNueS1jRU9HNDVUVUtyZHdKaDVmU3cwMktQX1hxRzR4Tk0zcVNhZkF6YzRVclgxMGltbUF3dHpBb2UwRWdsT1F2OHZxcFE?oc=5",
-        "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
-        "source": "시사저널e"
-      },
-      {
-        "title": "놀유니버스, 해외 투어·액티비티 키운다 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yTlhZaDN2eUM2eXQwWkprSGt1UTllWl9MdHdjNzJxVnQtaDRma0xiWV9EcGpPYkM0SmJUWmszcDd4T3ZXVXdYRDR4YmJKQQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 06:50:00 GMT",
-        "source": "전자신문"
-      },
-      {
-        "title": "야놀자, 상반기 영업이익 25억원…임직원 무상증여 영향 92% ↓ - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwbFhXaFFabTYtWDZ0OHFFWER3djY3ZTdIeGdkNkNKRnRnM3o0SkJIX0JrTlNNZTZjZmRBTkFyc0dWQ0hscVpQc2FxMEpLLVNYdzdNQlVsd0pmTUXSAWBBVV95cUxQdEoxNE0zQmVCZ2YtQmpnYmtzZlpaVFJXa05DNTdTeDI3ZGUyRHc5dFVEUnd3OFh4UEZEdXhEaVpraWs2VFlQVENTdGVQQlE4NXdUYXpMTE54Tll6YnVYcVc?oc=5",
-        "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
-        "source": "연합뉴스"
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "야놀자 채용",
-        "url": "https://careers.yanolja.co/ko/home",
-        "description": "야놀자의 채용 사이트&amp;블로그입니다. 야놀자의 채용 소식과 조직문화(Culture)/구성원(People)의 이야기를 확인하실 수 있습니다."
-      },
-      {
-        "title": "블라인드 | 야놀자 채용",
-        "url": "https://www.teamblind.com/kr/company/%EC%95%BC%EB%86%80%EC%9E%90/posts/%EC%95%BC%EB%86%80%EC%9E%90%20%EC%B1%84%EC%9A%A9",
-        "description": "야놀자 채용에 대한 최신 정보를 블라인드에서 찾아보세요. 3백만 직장인들이 솔직하게 전하는 기업문화, 연봉정보, 면접 팁 등도 확인할 수 있어요."
-      },
-      {
-        "title": "2026년 주식회사 야놀자 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1660626023/",
-        "description": "주식회사 야놀자는 인터넷·포털·컨텐츠·게임 업종의 중견기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
-      },
-      {
-        "title": "야놀자 기업정보 - 채용 6건, 평균연봉 6,032만원, 인원 201명, 업력 19년, 서울 강남구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/52",
-        "description": "야놀자 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "(주)야놀자 진행 중인 채용정보 총 4건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/1484977/recruit",
-        "description": "(주)야놀자 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      },
-      {
-        "title": "Software Engineering Intern (채용 연계형 인턴) - 야놀자 채용",
-        "url": "https://yanolja.career.greetinghr.com/o/63558",
-        "description": "<strong>채용 절차 진행 시 구직자에게 수령한 서류는 구직자의 채용 여부 확정일 이후 1년 동안 보관하고 이후 파기</strong>합니다. 각 전형에서 허위 사실이나 부정행위 발견 시 즉시 영입 절차가 ..."
-      },
-      {
-        "title": "[야놀자] Software Engineering Intern (채용 연계형 인턴)",
-        "url": "https://cs.yonsei.ac.kr/bbs/board.php?bo_table=sub5_5&wr_id=303",
-        "description": "• 채용 절차 진행 시 구직자에게 수령한 서류는 구직자의 채용 여부 확정일 이후 1년 동안 보관하고 이후 파기합니다. • 각 전형에서 허위 사실이나 부정행위 발견 시 즉시 영입 절차가 중단/취소될 수 있습니다. ... • 야놀자 블로그: 야놀자의 직무, 조직문화 그리고 Tech에 대한 이야기를 담습니다."
-      },
-      {
-        "title": "인재가 미래…야놀자 작년 이어 올해도 400여명 대규모 직원 채용 | 한경닷컴",
-        "url": "https://www.hankyung.com/life/article/2019103138231",
-        "description": "<strong>연구개발(R&amp;D) 핵심 인력을 중점적으로 확보하는 것은 물론 △마케팅 △전략기획 △재무회계 △영업기획 △경영지원 등 전사 차원의 인력 보강을 목표로 하고 있다</strong>."
-      },
-      {
-        "title": "2024년 주식회사 야놀자 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/2826372/",
-        "description": "주식회사 야놀자의 최신 기업정보, 채용, 연봉 등 취업에 필요한 정보를 인크루트에서 확인하세요."
-      },
-      {
-        "title": "야놀자 경력 및 채용 | Indeed.com",
-        "url": "https://kr.indeed.com/cmp/%EC%95%BC%EB%86%80%EC%9E%90",
-        "description": "야놀자에 대해 잘 아는 사람들에게서 채용 중인 공고, 급여, 사무실 위치, CEO의 성향 등에 대한 내부 정보를 얻어보세요. 인기있는 직무들의 급여를 비교하거나 각 팀의 문화 및 워라밸에 대해 알아보고 야놀자이(가) 귀하에게 딱 맞는 기업인 이유를 알아보세요."
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "야놀자 채용",
-        "url": "https://careers.yanolja.co/en/next-interview-2",
-        "text": "야놀자 채용\n\n# Unlocking the Power of Data\n\nAn Interview with Youngjin Kim, Head of Data Engineering at Yanolja NEXT\n\n### \"My goal is to build a company where all team members have the skills to get a job in Silicon Valley within two years, yet still choose to stay.\"\n\nMeet the engineer who built a system at Google that handled 2 million calls per second. After his time with Yanolja's data organization, he now leads DIA (Data Intelligence and Analytics), a core technology unit within Yanolja NEXT. Dri",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "야놀자 채용",
-        "url": "https://careers.yanolja.co/",
-        "text": "야놀자 채용\n\n# Benefits\n\n마음 편히 몰입하고 성장할 수 있도록 지원합니다\n\n## Work and Life, All as a Journey\n\n여행을 떠날 때 가장 설레는 순간은 언제인가요?\n\n짐을 꾸릴 때? 공항에 도착했을 때? 아니면 목적지에 발을 디딜 때?\n\n야놀자에서는 일도, 일상도 모두 여행처럼 특별해질 수 있다고 믿습니다.\n\n출근부터 퇴근까지, 그리고 그 이후의 시간까지.\n\n구성원의 모든 순간이 더 자유롭고 풍요로워질 수 있도록 야놀자는 다양한 제도와 지원을 준비했습니다.\n\n당신의 Work와 Life, 모든 여정을 더 특별하게 만들어줄 키트들이 기다리고 있습니다.\n\n## FREEDOM KIT\n\n일상의 작은 행복\n\nSupport for Your Journey : NOL 포인트\n\n여행자의 필수품, 바로 여행 자금이죠. 야놀자의 시그니처 복지 'NOL 포인트'는 연 100만 원이 매년 지급되고, 5주년을 맞으면 +50만 원이 추가됩니다! 숙박, 레저, 액티비티, 맛집까지",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "야놀자 채용",
-        "url": "https://careers.yanolja.co/en/yanoljanext",
-        "text": "야놀자 채용\n\n# Join Us Be the NEXT\n\nApply Now\n\n## Who We Are\n\nYanolja NEXT is a research and development organization dedicated to driving our vision of\n\nbecoming the No.1 global travel tech company.\n\nWe create practical and sustainable innovative technologies powered by AI and data to transform the future of travel.\n\nBy pioneering the 'NEXT' in travel, we aim to make journeys 10x easier for everyone.\n\n## Preparing for NEXT DAY with Ya",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "야놀자 채용",
-        "url": "https://careers.yanolja.co/benefit1",
-        "text": "야놀자 채용\n\n# Benefit\n\n마음 편히 몰입하고 성장할 수 있도록 지원합니다\n\n## Work and Life, All as a Journey\n\n여행을 떠날 때 가장 설레는 순간은 언제인가요?\n\n짐을 꾸릴 때? 공항에 도착했을 때? 아니면 목적지에 발을 디딜 때?\n\n야놀자에서는 일도, 일상도 모두 여행처럼 특별해질 수 있다고 믿습니다.\n\n출근부터 퇴근까지, 그리고 그 이후의 시간까지.\n\n구성원의 모든 순간이 더 자유롭고 풍요로워질 수 있도록 야놀자는 다양한 제도와 지원을 준비했습니다.\n\n당신의 Work와 Life, 모든 여정을 더 특별하게 만들어줄 키트들이 기다리고 있습니다.\n\n## FREEDOM KIT\n\n일상의 작은 행복\n\nSupport for Your Journey : NOL 포인트\n\n여행자의 필수품, 바로 여행 자금이죠. 야놀자의 시그니처 복지 'NOL 포인트'는 연 100만 원이 매년 지급되고, 5주년을 맞으면 +50만 원이 추가됩니다! 숙박, 레저, 액티비티, 맛집까지 ",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "야놀자 채용",
-        "url": "https://careers.yanolja.co/people5",
-        "text": "야놀자 채용\n\n### 야놀자의 미래 서비스를 만드는 인턴을 소개합니다\n\nInfrastructure 유닛 Search Quality Eval, Software Engineer 김건\n\n### 자기소개 부탁드려요.\n\n안녕하세요, Software Engineering(이하 SWE) 인턴 김건입니다.\n\n기계공학과를 졸업했고, 학교 연구실에서 기계 제어 관련 연구를 하던 중 Computer Science에 대한 흥미가 생겼어요.\n\n네이버 부스트 캠프에 참여해 여러 프로젝트를 진행하며 Software Engineering에 더욱 몰입하게 되었고, 현재는 야놀자에서 인턴으로 근무하고 있습니다.\n\n### 현재는 어떤 업무를 하고 계신가요?\n\nProduct Management, UX Design 인턴분들과 한 팀을 이뤄 야놀자의 기존 프로덕트와는 별개로 미래 서비스와 관련된 프로젝트를 진행 중이에요.\n\nSoftware Engineer는 정해진 요구사항들을 우선순위에 맞게 건져낸 후, 이것들을 SWE ",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "야놀자, AI 시대 대응한 글로벌 여행 전략 ‘야놀자 3.0’ 발표",
-        "url": "https://www.venturesquare.net/1043341/",
-        "text": "야놀자, AI 시대 대응한 글로벌 여행 전략 ‘야놀자 3.0’ 발표 -- -- -- --\n\n야놀자(총괄대표 이수진)가 창립 21주년을 기념하며 AI 시대에 맞춘 새로운 성장 전략인 ‘야놀자 3.0’을 발표했다. 2005년 설립된 야놀자는 지난 20년 동안 기술 중심의 서비스 혁신을 통해 국내외 여행 및 여가 산업의 디지털 전환을 주도해 왔다.\n\n야놀자는 창립 초기 생존과 기반 구축에 집중했던 ‘야놀자 1.0’, 모바일 중심 혁신을 통해 빠른 성장을 이룬 ‘야놀자 2.0’을 거쳐, 이제 AI 기반 산업 재편에 대응하는 새로운 단계로 나아가고 있다. ‘야놀자 3.0’은 글로벌 트래블 테크 기업으로서의 정체성을 강화하고, 향후 기업의 전략적 방향성을 구체화하는 데 목적을 두고 있다. 핵심 가치로는 ‘고객 중심’, ‘기술 선도’, ‘원 팀(One Team) 조직문화’를 설정해 기술 혁신과 고객 경험 차별화를 동시에 추구한다.\n\n이를 위해 야",
-        "score": 0,
-        "published_date": "2026-03-10T00:00:00.000Z"
-      },
-      {
-        "title": "Yanolja Unveils 'Yanolja 3.0' Vision to Become AI-Powered Global Tech Leader - Seoul Economic Daily",
-        "url": "https://en.sedaily.com/news/2026/03/10/yanolja-unveils-yanolja-30-vision-to-become-ai-powered",
-        "text": "Yanolja Unveils 'Yanolja 3.0' Vision to Become AI-Powered Global Tech Leader - Seoul Economic Daily\n\nSeoul Economic Daily\n\nSeoul Economic Daily\n\nKST\n\nSeoul Economic DailyKorea's Leading Business News Since 1960\n\n한국어\n\n|Summary\n\nAAA\n\nYanolja \"Leaping to Global Tech Company with AI\"... Announces 'Yanolja 3.0' on 21st Anniversary\n\nGlobal travel tech company Yanolja announced on the 10th that ",
-        "score": 0,
-        "published_date": "2026-03-10T00:00:00.000Z"
-      },
-      {
-        "title": "Yanolja announced on the 10th that it has declared \"Yanolja 3.0,\" a new growth vision to lead the pa.. - MK",
-        "url": "https://www.mk.co.kr/en/it/11983856",
-        "text": "Yanolja announced on the 10th that it has declared \"Yanolja 3.0,\" a new growth vision to lead the pa.. - MK\n\ngo to news\n\n# detail\n\n* It has been translated using AI\n\nDeclaration of 'Yanolja 3.0' for new growth visionCustomers, technology, and one team as core values\n\n사진 확대\n\nLet's play together. CI\n\nYanolja announced on the 10th that it has declared \"Yanolja 3.0,\" a new growth vision to lead the paradigm shift in the travel industry in the era of artificial intelligence (AI).\n\nYanolja, which was ",
-        "score": 0,
-        "published_date": "2026-03-10T00:00:00.000Z"
-      },
-      {
-        "title": "[네카쿠배놀 해부⑤] AI·B2B로 판 키우는 야놀자…\"모델 구체화가 상장 관건\"",
-        "url": "https://m.thebigdata.co.kr/view.php?ud=2026031915312932790a47484cf8_23",
-        "text": "[네카쿠배놀 해부⑤] AI·B2B로 판 키우는 야놀자…\"모델 구체화가 상장 관건\"\n\n메뉴\n\n## \n\n검색\n\n- 전체기사\n- 데이터이슈\n- 경제\n- 산업\n- 테크놀로지\n- 정치·사회\n- [연예·스포츠](ht",
-        "score": 0,
-        "published_date": "2026-03-19T00:00:00.000Z"
-      },
-      {
-        "title": "AI took investors on a date in 2025. In 2026, analysts say it's time to ...",
-        "url": "https://finance.yahoo.com/news/ai-took-investors-on-a-date-in-2025-in-2026-analysts-say-its-time-to-foot-the-bill-140012067.html",
-        "text": "AI took investors on a date in 2025. In 2026, analysts say it's time to foot the bill.\n\nOops, something went wrong\n\n# AI took investors on a date in 2025. In 2026, analysts say it's time to foot the bill.\n\nStockStory Top Pick\n\nMU +3.68%\n\nAVGO +0.86%\n\n[",
-        "score": 0,
-        "published_date": "2026-01-05T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "국내 유명 기업 기술 블로그 30선 (Tech Blog) - QA여행",
-        "url": "https://qajourney.tistory.com/41",
-        "text": "국내 유명 기업 기술 블로그 30선 (Tech Blog)\n\n본문 바로가기\n\n기술자료\n\n# 국내 유명 기업 기술 블로그 30선 (Tech Blog)\n\n유명 기업들의 기술 블로그를 읽으면 최신 트렌드를 접할 수 있습니다. (AI 이미지 생성)\n\n안녕하세요, QA여행 블로그에 (https://qajourney.tistory.com/) 오신 걸 환영합니다.\n\n국내 주요 IT 기업들은 개발 문화와 기술 역량을 공유하기 위해 활발하게 기술 블로그를 운영하고 있는걸 아시죠?\n\n이들 블로그는 현업 개발자들의 생생한 경험과 문제 해결 과정을 엿볼 수 있는 좋은 자료이며,\n\n최신 기술 트렌드를 파악하는 데에도 큰 도움이 됩니다.\n\n아래는 국내 유명 기업들의 기술 블로그 30곳을 기업명, 블로그명, 특징, URL 순으로 정리해 보았습니다.\n\n어떤 기업들에서 어떤 테크 블로그를 운영하고 있는지 같이 한 번 확인해 보시죠.\n\n### 플랫폼 & 포",
-        "score": 0,
-        "published_date": "2025-09-24T00:00:00.000Z"
-      },
-      {
-        "title": "GitHub - Yanolza-Miniproject/Heynolja_FE: 사용자 위치 기반 숙소 예약 서비스",
-        "url": "https://github.com/yanolza-miniproject/heynolja_fe",
-        "text": "# Repository: Yanolza-Miniproject/Heynolja_FE\n\n사용자 위치 기반 숙소 예약 서비스\n\n- Stars: 3\n- Forks: 2\n- Watchers: 3\n- Open issues: 0\n- Primary language: TypeScript\n- Languages: TypeScript (96.8%), JavaScript (2.4%), CSS (0.7%), HTML, Shell\n- Default branch: main\n- Homepage: https://heynolja-mini-4.vercel.app/\n- Created: 2023-11-17T09:44:27Z\n- Last push: 2023-12-15T01:05:44Z\n- Contributors: 5 (top: LikeFireAndSky, 2YH02, suyeonnnnnnn, mysdpy30s, ewinkite)\n\n---\n\n# ✨미니프로젝트 4조 - 아버지날보고있다면정답을알려조✨\n\n## _🏖️ 행복한 여행",
-        "score": 0,
-        "published_date": "2023-11-17T00:00:00.000Z"
-      },
-      {
-        "title": "GitHub - f-lab-edu/yanolja-clone",
-        "url": "https://github.com/f-lab-edu/yanolja-clone",
-        "text": "GitHub - f-lab-edu/yanolja-clone\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \nWe read every piece of feedback, and t",
-        "score": 0,
-        "published_date": "2022-05-26T00:00:00.000Z"
-      },
-      {
-        "title": "GitHub - CoolPeace-yanolza/backend: 야놀자 파이널 프로젝트 쿨피스팀의 백엔드 레포지토리입니다.",
-        "url": "https://github.com/CoolPeace-yanolza/backend",
-        "text": "GitHub - CoolPeace-yanolza/backend: 야놀자 파이널 프로젝트 쿨피스팀의 백엔드 레포지토리입니다.\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n \nSearch\nClear\n\nSearch syntax tips\n\n#\nProvide feedback\n \n",
-        "score": 0,
-        "published_date": "2023-12-28T00:00:00.000Z"
-      },
-      {
-        "title": "Chanjun Park",
-        "url": "https://parkchanjun.github.io/",
-        "text": "Biography\n\n---\n\n## Biography\n\nChanjun Park is an Assistant Professor in the School of Software at Soongsil University, where he serves as the Principal Investigator of the Natural Language Processing Lab. Prior to joining Soongsil University, he was a Research Professor at Korea University. Before that, he served as ",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "international_news": [
-      {
-        "title": "SoftBank Vision Fund invests $1.7 bln in S.Korean travel firm Yanolja - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZ3NmMFNzYXQ3M2UzMzMtZmU2ekR5OG1FajZNT2VLSWlDSXZwZnotM1F6NFNudU9yUjhqbnE2WnQ5QjRleGdsckxlenQ2ZXhWUEphbUV3XzRWZ3FvYmR6SE5fMC1QNkdsa2F2YldTSWtBRGFtYXBJNVp0X0dPQWFWNU1MVWFQZEY0ZVlXeGhVN2M1aG5jU0JDb19oZTA4NWQwS0VvZENzYUtSQ2N6STNzV1RwUERmOFpmLW5wNkRvaWR0VUFOZjJCQjduRm4?oc=5",
-        "pub_date": "Wed, 14 Jul 2021 07:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "SoftBank-Backed Unicorn Yanolja Buys Israeli Travel-Tech Company - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNckR4eEQ0NkZuTjgySmNkcVZwNzhwaTVzTmZpQ3NKdG5qN1hrRllKWkw4UDFJcmVUX3hTYmI3eVVSRldiV0Z1OVhBZUZqcEdsRjY1bkJuZmVVenFGamc2dkRLQkgzUDdzY1dHZ1BRY2MzOWMxLTBNVERTZ18zdm5UbzdYdW1QTTdvNHhUcVduV0o1N2Z2NUNRbXdXaEpGOXR4bDB3OHc1VWs0YmlxVWxsZGhBX3ZuZw?oc=5",
-        "pub_date": "Sun, 14 May 2023 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "digital transformation - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15TWxpY3QzQWtvWG9XTjFXZWxrM3BqUVBFa184dTg3dVZSUWxGX3Zta0VZU2pHOGtJbHBJWkhpLVpoSFRIVEd6a1NJbkhkekI0eUNRNHZrdHZQN3RWdnc0?oc=5",
-        "pub_date": "Sun, 12 Jun 2016 10:09:01 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "SoftBank-backed travel tech startup Yanolja acquires Korean e-commerce company Interpark - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOXl0TnJYNnVaakYzeTlKUmdqNFJNWDZlUlFCQ3VfUmxEMzk2VnVlaW5maFR6WTE4bFRPZUp3eFVnNU9VZU9YaDVILXR1aUFlZHhFV1BaQ1VURUNHVHhGSmMzdU5ZdW0xNEFyTHNxTGVidlNUZFJGZGJFUktsY0VGOUtXWTI0ZUxFaGxMTS1DcGR2MlItSmlscWhxakZvTXoyRGNhUDg0WW9FaEk5SllWU3RvLU16Y2NyakgxRnQxRVE?oc=5",
-        "pub_date": "Thu, 14 Oct 2021 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "travel tech - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tMzR2cWtJXzZlQkJpUmxIOTR0N2ExUXVWN1UtV3B4Smg5TlRkQk1DQUs0RC1rWGgtUHM0aDl4N0tuNnUxYS1HemtSYVdubzJQ?oc=5",
-        "pub_date": "Tue, 14 Jun 2016 22:17:21 GMT",
-        "source": "TechCrunch"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "[경제야 놀자] 맥도날드 버거 값으로 각국 화폐가치 알 수 있죠 - 생글생글",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HS3NYUzhBWHUtZzlNRnpUREpnb2tGeGVZbUFYUEJWY3hVSlFEaUgxSC1kNDd5VDZEVEt3d0xZQl9JYUdCRHpqRFZvN2xxSjc3LUtRTE41STVlS1U?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "2 0 2 6 0 3 1 6 (월) - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaHF3YnE2eUVCVUNOa01ESlJydUgweWNOWUF6S1kweEJUSDZkcFNQZHF2aExua1RidDVMbEd3bnJsYUswaGs4alJEd2ZLRW9jaU1UTHR6WnlodEVvNFFIS2ZETEJUM19zMHhYOVZfd053ZTVaa1o5RXZpVW00TVlMbzJB?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 03:21:24 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "2 0 2 6 0 3 1 6 (월) - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1VlhxTUdNUWlEWTJHRFB1NXlhaVFhYk43UkpockVfWl9WOS1JYlBOdV95TUJPRlZINUQzcXJ3bFRpbjFMQXNlWVZ2dkYzSXhpRGY5OUlhelkxVUlPX1VlQWVGRjBwYVlPakpJTmhCY2IxU25nMGZ6Tw?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 10:35:23 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "[강세 토픽] 야놀자 관련주 테마, 한화투자증권 +5.83%, 한화생명 +4.06% - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOTBzOHc5UEI3TmlaR2JCLXlscWdjQlBhZ1Fxb0hlMGJoRTFvaWZhYnFZcUFxS2NTQzZIbFJjM1JEcll1WVJuR0djcDBzelR4dHRRYk11eWdLZG1NUElvZjFsaWRIQ0czc3NrUjhuZy1UUk16SVo4Wl9PNVc4QU9QUGNBTdIBlwFBVV95cUxPRVpjbFpLN1dnSVAyaFM1ZlUtSFdwalh5NmU4RnpTN1BJX0hrdzhrUWpQeHRfLUJPV25Pcm41bjRsVm81b3NyNC1BZm9PQ1JnX25zZ1FoazdiYnBBZlJ4ZlF3R1NNTWZqTjVGZVVKZWo3Mm5pWW81LUhSMndPckZwQ2hpTHFJUEMxenFpYnZpRVpiamZZSnNJ?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 01:22:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "그래디언트, +29.99% 상한가 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkZ2eHF4WElsd3V2bGhvdDBqSHVGdVpmUmdfN25ya0dRcW85eHFoUmFsU21SMmpkZUw0QzRBckJObG9DdGQ5Xy0yazZRbkNjU0FPaktHTXkxZWxxOVJaNzJCR19rNDhCMFZXbzFpNS1qRTFuU2dYNHJnU2lkNFBSaXpwa9IBlwFBVV95cUxNQWhtS0VpRzNEdkM1enY5QlFxWm02NU5iRTYtVXVwMUNuZnRXaHlNTTRlMkVTWU9JQmJRMURnR01UQjVPb1dyVUNWMzByWUJ3bzZIbVJXalliUFNLOHBuR1dNZW1BTUhqN0ZKc2N1WVJIYjZyb253cGo1Ym1vTEY1VHFiUkRaalNrTkdzNGEyQVh5STJZUGxz?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 02:52:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "“여행도 ‘경험 소비’ 시대”… 놀유니버스, 해외 투어·액티비티 사업 확장 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWC1OTlVWTGxMazl3UE9MUVp4NHFaZGg4aVZBek5kWGNqQ0xJcGZJYmdWSjA5aVVUSm9Hc0ZFVm1UeFhnM2xwdTFJRmRtUXVyYkZwWGNJYlNaZW5BV2hHX21HMU5NZnhMVDdEQVZvMkRCelAtU244VHNRVVJ1QmZXNU52STF5TEN5M1JMYkVNdVptRUdWLUlHdE13Vl8wd9IBngFBVV95cUxPWC1OTlVWTGxMazl3UE9MUVp4NHFaZGg4aVZBek5kWGNqQ0xJcGZJYmdWSjA5aVVUSm9Hc0ZFVm1UeFhnM2xwdTFJRmRtUXVyYkZwWGNJYlNaZW5BV2hHX21HMU5NZnhMVDdEQVZvMkRCelAtU244VHNRVVJ1QmZXNU52STF5TEN5M1JMYkVNdVptRUdWLUlHdE13Vl8wdw?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 06:26:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[글로벌 여가 플랫폼 기업 야놀자] 검색결과 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUWg2SEkwRGdrbWJja21RUmRDM2dQSE1BY3B0eklkaVNkd0pJbW9YQk9pSk1oaU5nb08ya1Y5bVJJV2R5LUVMdk53c1lYNENfbzk5ZTRaS3lPZmdxS2l1UEM1S01jNUZTNVlyelZ0TXBNZmxpNU52dE5abmhZQlF4SGdRem9mc1JrRHNOa1ZUc1A3RFdBenA2dUFra0RpcUZXZGtBaUxPczRRbVNJSDNyeV9XVElabmJNd0Z6U2M1TmFHZ1BHV2ZmdTkxUnhhNVllcTdxNWpnN1FGREFVTVdnWFVUQWtLdWY2QXpwOUZPREJTY2UwaTNj?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 17:16:58 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "오후장★테마동향 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lNTdneXA2eDV0NUI1YkdwMW5remEzbGoyekNMZFgtQUFrR3h0b0xQUXhvamd3blB1VnBHa1Rod3FSUDhPZFYyXzV3V0x0WjcyblE?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 05:40:38 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "모두투어(080160) 소폭 상승세 +4.18%, 외국계 매수 유입 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DNnBRMlF3azVlemtYSnVhQzByTHk4bGU3ZDlGTDlpblpURmVwSXBTb0x6TDdReUgtOEU0RTBPSGNnX1NQVU5QRS1qeDJTdnpTWVE?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 04:31:28 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "야놀자-씨티, 글로벌 여행 결제 혁신한다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ieEJDOG41UzlPWnNFZXdUODd1TGptVkhMdXoxUmpqNlRCZ0ZSOE5KN1FlNXJTN2NEZUk2Vmh3TU1SdjlyMDBqelRER0h2TFdBZVhaUG53?oc=5",
-        "pub_date": "Fri, 13 Mar 2026 02:00:53 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "\"여행을 10배 더 쉽고 편리하게\"...야놀자, 새 비전 선언 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GblVTZGVjaGc3bFMxQTB6UFhqYzk0cElEbGp3SDhmcHpCT1d5MHZZaEtCNU1DcmJoRFh2REFTQnFMRFNKbzBzR1NlNTlmRUxhdnI4VXp3?oc=5",
-        "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "검찰, 야놀자 3.0 비전 발표날 압수수색...사법리스크↑ - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vei1KWDlUUnF0eVg1aGx4cW1aSmJrNjZJNjZGaWx4MmhUSkt4OXM5cFJsRUc3azA2cmt1ZFVHQVh1T1pZZHI0cUpJWm83Q1VCWGhobWh3?oc=5",
-        "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "[야놀자 IPO 방정식]② 예기치 못한 사법 리스크 '걸림돌' - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEdWFKYjVXWFp3TzF5UVZHRFpWNV9CR3RxV2xNWjdXc0ppdEdzaEV0Zk1yOGJsLUJZczItNWR2d0pfSmh0cDk5elA3TEhZYU5XQ3FVdFF0VWNrT2NYdlNuR3FkWFM3N2x40gFsQVVfeXFMTlBEVEVHd2tEbFhabW10a3BLX1hHUWQ0U1BEY0o3Z2U1OWFaand0QkN1bHFCc19hQ2gtbVpLS3VjdmU1SDVHWFhHX0h5bXI1eXdKbk9IeGtaWVlrQ0tPZGw3YUd3Q0JCU2hSdkd0?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 00:32:52 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[야놀자 IPO 방정식]① '상장 안갯속' 첫 회사채로 자금 조달 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EZ1IxZF93enRCdmRlczJGVXZ1R1NITW1za0xPaVlRN1BUd1V6NjJUc0ZraXlvUWdQb3pudGg2amRwWlpmLTBLUThzUk9pR0R5N29yZFd6enFYdGUtNy03a3lyMG1PbUR30gFsQVVfeXFMTXgwZVQzVHMzanAtYTAydFQ1djZPdkZPVHI3RFg1R1UzNnJKOUNHeGFSVUtBazljRjBkNmp4aFZ0ZUhlLUFrdDVpNHRjM0xpbGFlMXR5UUNoTkJDb0ZXVDlRU0dZX0pxaHJ2UEFD?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 02:48:15 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "시큐레터, 감사보고서 제출 지연 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDUW1jV210ZG1ncHRyUmVWWTFDOE9sUlRWZzhNOTNVWXpYRi0yMmNrZVJwakRLTDJEU1YyZ0lDMmdITjFEMG9wSFNkeDlyc3dOeFJPdkd2Q3FRMjIxcURYRjA5VUpGMlI10gFsQVVfeXFMUEF5eXk3VnNxSjVMdW5ZRjZlZURBdmNiaUpFNTR2QjdtaGtUZWw1SXRvdjVvQ3o3S2I5eWVMSDNSQjhjVXI1b3ZNRDhubFdWMURXNERPUXJ3ejhCRkp2WHRBem8xSl9hbnM2QktF?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 00:57:25 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "창립 21주년 맞은 야놀자, ‘야놀자 3.0’ 선언…“AI 시대 여행 산업 패러다임 변화 선도” - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yUkpVbmlHNk5ENUYxM3lYYXFXbUtidmxCWllCU3p6UjBDNUdBaXg0UmxQdzR1ejcwbU5aRm04V3pIS2I0QUZKT3F4bjNjSlI3ZHFxVw?oc=5",
-        "pub_date": "Tue, 10 Mar 2026 05:01:47 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "엄마 품 떠나 밖으로, 큰 무대에서 놀아보겠다는 스무 살 ‘야놀자’ - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUeVFqVVl0UmtoNDRxU2JiZTV4U3otek1GQlNEOU1zV3FvR1RrZTlqUjVnbEtpZ25TcUJrNHo1ZlhJYmFneS1lekJfOXRZQ1E?oc=5",
-        "pub_date": "Mon, 07 Apr 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "[주스바] 돈 먹는 하마 ‘클라우드’가 야놀자의 핵심이 되기까지 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNcmpJZ2xkczZhZnA2ekpMMXpyV19ZNmx0REtKTEFEa3EwOS11NnZDSTZ4eUg3YXN0SkxwRDJYMFRHb28ybkpLSHJydEplM3dFMkpDYQ?oc=5",
-        "pub_date": "Wed, 23 Jul 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "meta_description": "Discover Yanolja Group's innovative travel solutions, global presence, and cutting-edge data technology.",
+      "page_title": "Yanolja Official Website",
+      "about_text": [
+        "Transforming Travel with AI Innovation Yanolja is a travel enablement platform powered by data, providing innovative solutions for travel enterprises and travelers. Make Everyone’s Travel Dreams a Reality We enable seamless and personalized travel for you in every journey Hyper-connect the global travel ecosystem We hyper-connect global travel enterprises and help drive operational efficiency through our innovative data solutions.",
+        "Latest News Yanolja 3.0 & One Team Ritual: Heading Toward a New Decade Blog Meet the Leaders | Yanolja’s Women in Tech #2 Meital Ahdot, Yanolja Go Global Blog \"Preparing for the Next 10 Years as a Global Travel Tech Company in the AI Era\" Yanolja Declares 'Yanolja 3.0' on Its 21st Anniversary Press Release Yanolja Strengthens Global Collaboration and Execution Strategy Across Subsidiary Network Press Release How NOL’s AI Nori is Redefining Travel through the AI Agent Revolution Blog JOBPLUSTV ｜ How Yanolja & NOL UNIVERSE Work Together as \"One Team\" Blog"
+      ],
+      "career_links": [
+        "https://yanolja.wd102.myworkdayjobs.com/en-US/External_Yanolja",
+        "https://yanolja.in/en/blog/view?id=102"
+      ],
+      "google_news": [
+        {
+          "title": "'여행을 10배 더 쉽게 만들자' 야놀자, R&D 조직 '야놀자넥스트' 띄운다 - 테크M",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14XzlpNjhfOEFsS25aSWZsV1NpM2FsbW45bnNwRTYyVUZvd2xhRlhBREhkcThzT1BxbEI4M0ZTOHlNcUNoVVB1QkZjYzRJcWw1b3NORGZnMDV2UHBNbUZfYWJwRHBaZ9IBakFVX3lxTE5QR0w4QmJuVWtxV2pzQTBPNnB6S3VlMHNPeUFOdjEta05LQUFkNkw0cWdMb3dNQjdyOEdndTBaUWNMZ3F3Z1BUY180S2dWWnF1LWIwWFpUZVh2aEZjazVqdXNKdXY5aVhVNXc?oc=5",
+          "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
+          "source": "테크M"
+        },
+        {
+          "title": "“여전히 수작업인 여행 산업”… 야놀자는 왜 AI를 택했나 [AI리더스 2025] - IT조선",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZb0otNndFR0hMSXVpYWlvT0xWMXctQTZGcHloS2NHUzQ3SDlxdHhpeldFZG1Vdl8zMzJGVUpINktNTlFwM2lKRFowNmo2R0JXSHE1Uk9XVnBCa3NsWnVyM1RkeTFna180TWo4QzJJSDHSAXRBVV95cUxQQkQ0TGFDdTlfRTJiOWUwUFZkS2JVVm51WTdaZmxPeDNTdldIZDRYRlI1Nl8zYVBHbVRkREQ5RjdpdWt0Vm00T1prSGJXMm1zZ0FOc3JwcExJNG96Rkk0RW14am80eXZwekg0OTBYQllsVGtJMg?oc=5",
+          "pub_date": "Thu, 25 Dec 2025 08:00:00 GMT",
+          "source": "IT조선"
+        },
+        {
+          "title": "야놀자 ‘이브 로제타’, 글로벌 번역 모델 경쟁서 상위권 기록 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VTjhhdVF2azg2UW9pSnd3MnBMV09BUjRHQy1RU29EdF96cmJSSTJISzRyeDZnejZmR1NWcUR2anBlT00yS05VaQ?oc=5",
+          "pub_date": "Fri, 24 Oct 2025 07:00:00 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉 - 월간인물",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kMVZMcWxWUDBQd1FOMVI2NkJSYlZZbGgzeGl0azkwemhyU3BhZ29wUlhzWjJhaU9wYzdORTFYUWwySWhFVzM3U2NSVC0zM3NKNWFLaXhxbzVUZld2MTBwQ3dZd2NteVB6SnNKWXpjUkozUdIBdkFVX3lxTE1tME5oS1RYczY0OHRHb1BiSDM3LVNqYWZSbFZSUFBaUTZrdVJESDFRclI0cHl5MUZvUURsRWVqaWFvY0dIVXNHbTZhOFUwSjNFbF9mSUltZTBoX2JiakgyMGl4OUhpUEFrRUFnU1FLX09ZNkJuZHc?oc=5",
+          "pub_date": "Fri, 21 Nov 2025 08:00:00 GMT",
+          "source": "월간인물"
+        },
+        {
+          "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉 - 더퍼스트미디어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xTjFmWFA0S1AwTVZDR2k5SUpXbGRxSzhrbDJjTmw3ZDVqT1Z6OWZ5aXROY09RTUliX0JITGVmU3RlUkhwT0dwaVNVTTNlVjVHdENlelZia2w4ZGREN0g0MnA0c3RWSXhQY191NVNSQmzSAXRBVV95cUxOR3Y4NVk3LTNOWUxWRFhQMnh2LXl4a0NmSHBzaGxmTUNLOHVVaFJaVTloX2ItYzhUSVcyS1h5UFhrWHdQZGgyQ1hqbE1hWVdEd0JYN3J4bVRCNVZwQlJZOXpraFdyRGlYX1JnclVrLUZYVnJMWQ?oc=5",
+          "pub_date": "Fri, 21 Nov 2025 08:00:00 GMT",
+          "source": "더퍼스트미디어"
+        },
+        {
+          "title": "야놀자, 국내 여행업계 최초 챗GPT 엔터프라이즈 도입…\"고객 맞춤형·초개인화 경험 제공\" - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Xb0ZxeTJxUllHTnNITzhWaDE4N2RqeDAwNXVQcUFYOTF1V0NJanRmbGI0MDZFbEhBWUVDRGpfUDBXUmIwdjk2Yml2NXVLZUotYmZPWUlVU0U3djhwdnZr?oc=5",
+          "pub_date": "Fri, 05 Sep 2025 07:00:00 GMT",
+          "source": "뉴스스페이스"
+        },
+        {
+          "title": "아투, 오픈AI코리아 개소식서 AI 혁신 스타트업으로 소개돼 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkY2FDX0IzS0J2SkI1d2kxZGVUZGtxdHN5VlhpTjl3Zm5mb3A3M1R3akFGOUw0Z1htdnFOZ3FrZTZpZHdWWEh4SkNLSzdvamI4WlZlZXRB?oc=5",
+          "pub_date": "Mon, 15 Sep 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "[CHAI AI 인사이트] 광고회사의 판을 다시 짜다 - 매드타임스",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxcTA4cDNGRDMzRHk3ZU05ZnlydC0yRmxDTTZZdmFETktrdlZBN1VJVkxIQVZEOVRFV3YteHZmY1lTLXFUNU1KWnBobVE2RjRUcW1IOTI5VzZkMEFZZ19KLTBWRWZ6RGtiY2s3Tw?oc=5",
+          "pub_date": "Mon, 08 Sep 2025 07:00:00 GMT",
+          "source": "매드타임스"
+        },
+        {
+          "title": "쇼피파이가 AI와 하나가 될 수 있었던 건 - 뉴닉",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aWHgwQlNWM2Z2MnR5dnV4NWNsbEY1M2t2LXhod1FuVG9NVGlucHVOTWFHWUhNRVFHOE9tRVZ1N1JDWkRnQ29nb1RXcjNHZ1A2cUROeUhR?oc=5",
+          "pub_date": "Fri, 19 Sep 2025 07:00:00 GMT",
+          "source": "뉴닉"
+        },
+        {
+          "title": "잡코리아, AI 기술∙상생 서비스로 일자리 연결 강화 - 한국면세뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TekpIRU4tM1FVWlVrMTJVQmFjU0dnRmppTUZZSndUeXI4elRkQXBzWGpYZW5ualItUmQ1M1JZbk02SWxWV3JBUVN2dmdTVnJxT21WcTRBTFRqZWkwMlA5Z3lCa2VhZVU4VFE?oc=5",
+          "pub_date": "Fri, 23 Jan 2026 08:00:00 GMT",
+          "source": "한국면세뉴스"
+        },
+        {
+          "title": "사업확장 속도내는 네이버… 구조조정 집중하는 카카오 - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jS1dTYmFkUVJ5YXlqQkVRU1ctQVN4WWJzTnVIXzVRUi1pYU9kUVRrdklUcmZpQ2dRQ2g0THp3dGNvRmZxLXNpTFFPM2hBU1d3MU0xRTd6TElBWDE1d0ZfREZmX0t1VDZNdUs2RUVhLWotZkkt?oc=5",
+          "pub_date": "Fri, 05 Sep 2025 07:00:00 GMT",
+          "source": "대한경제"
+        },
+        {
+          "title": "야놀자, 특화 AI로 글로벌 공략… ‘에이전틱 AI’ 시대 대비 - IT조선",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YNmhRT2xqSUVaOV9iUmY3NlZDRE5ueDh0WVg5WEtlR0VraTFSbG5ZbnZiVVg1SGFfT3RzalJTbmVnRm9JQkhtT2NlMUV5R2x1SjdsWENmT3cwQVJscTJRcUhZVHJlWF9Md05rbnFCNEfSAXRBVV95cUxOTTIybUVaczJuWW4zcDZ5WHlVZjlqMXNoSGFNSURwWVMxOHdEOF9OV0FzakFIQnpmTnR1Mzh3VnVoMmxTQ0c4TlVXVmpiOXRMWFhGT0hKd2VyYmUzZEEzWUh1dExUZVhTdVd6dzBhdEM3ZDZlag?oc=5",
+          "pub_date": "Tue, 28 Oct 2025 07:00:00 GMT",
+          "source": "IT조선"
+        },
+        {
+          "title": "야놀자, R&D 조직 '야놀자넥스트' 공식 웹사이트 선봬 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DbFRudldfR0FZbG9fT1dSaEd0UVNtU0ZERlFjTkNxd1VVZ3VWYUtpb2l6UkJRdEgtVUs4cXNGQ0hnc184bElRakllUGRnSEZMam5EYXhwX3lFQklZa3pIQW95aUpjTk5CVktZa1hvSF9wOXM?oc=5",
+          "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
+          "source": "디지털투데이"
+        },
+        {
+          "title": "구글 \"AI 솔루션 활용해 국내 기업 광고·마케팅 효과 극대화\" - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMRW9YVkpUN3FzbkdHeUlGZEQ4Q2FLa2NRQ1NnRC02ZXVjSE9aRTExTnFldXlpdzhqbVZQSkdQMmkwc1poczRVZnlZemFTalYyRHAwU05KSkNNOXZiZmxNZDgwd0Jlc0VibUE?oc=5",
+          "pub_date": "Tue, 22 Apr 2025 07:00:00 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "‘TechCon 2025’, 6월 11일 개막…로봇·AI·보안 기술 선보인다 - 플래텀(Platum)",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOWmMzc1c5Ny1LOW12ZlBKNVdoMzktM2x6ZDFCbHVKYjdPNmdhRkR4emhSM2tndWh6M0FmNk5HSTE1QmRfMk5URA?oc=5",
+          "pub_date": "Mon, 02 Jun 2025 07:00:00 GMT",
+          "source": "플래텀(Platum)"
+        },
+        {
+          "title": "‘야놀자’ AI 잘하는 여행사… ‘투 트랙’ 전략으로 역대 최고 실적 - 더밸류뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OczFwY0dMZHZWaFQ0dFpseFprQW9QbmpJMjFzSVJXQmRSZVdacTNWYkpYeF9nNFlUSmhYWGk0Z2F2cVl5YUVZc1UwVlh5T25HVWlSUw?oc=5",
+          "pub_date": "Thu, 04 Sep 2025 07:00:00 GMT",
+          "source": "더밸류뉴스"
+        },
+        {
+          "title": "야놀자, '사업' '지원' 조직 분리 재편…글로벌·AI 공략 가속 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ZM1JYMlZqeEpUVWF0WGNuR1U4bDhnaWtoNlRlNTVfbzYzcHVHeklnMFo4TFhxd0dPNEp6bFNJa1ozXzUwQlNjOE5UVQ?oc=5",
+          "pub_date": "Wed, 11 Mar 2026 05:38:02 GMT",
+          "source": "v.daum.net"
+        },
+        {
+          "title": "아득해진 야놀자의 나스닥 꿈···수익성 장벽에 발목? - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9LcFYzSWRYbGlMbWxYVDdBR1JJTnJNZVNiMXdUamZPN1JZbHE1bkNvNk5oU0I4WWhiV2gwSmNaQ011dHdiUHd6bHd3NGxlOUZnbk1qeEpqc1ZOeDBENDdLN09DUzEydFNXSkdldnFXMGFEQdIBdkFVX3lxTE4yQk93a0NFdlpUZTFSZG1CUUJ2eG0wbS1ra05vNDk1NEwwVm92d1Q5RnNueS1jRU9HNDVUVUtyZHdKaDVmU3cwMktQX1hxRzR4Tk0zcVNhZkF6YzRVclgxMGltbUF3dHpBb2UwRWdsT1F2OHZxcFE?oc=5",
+          "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "source": "시사저널e"
+        },
+        {
+          "title": "놀유니버스, 해외 투어·액티비티 키운다 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yTlhZaDN2eUM2eXQwWkprSGt1UTllWl9MdHdjNzJxVnQtaDRma0xiWV9EcGpPYkM0SmJUWmszcDd4T3ZXVXdYRDR4YmJKQQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 06:50:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "야놀자, 상반기 영업이익 25억원…임직원 무상증여 영향 92% ↓ - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwbFhXaFFabTYtWDZ0OHFFWER3djY3ZTdIeGdkNkNKRnRnM3o0SkJIX0JrTlNNZTZjZmRBTkFyc0dWQ0hscVpQc2FxMEpLLVNYdzdNQlVsd0pmTUXSAWBBVV95cUxQdEoxNE0zQmVCZ2YtQmpnYmtzZlpaVFJXa05DNTdTeDI3ZGUyRHc5dFVEUnd3OFh4UEZEdXhEaVpraWs2VFlQVENTdGVQQlE4NXdUYXpMTE54Tll6YnVYcVc?oc=5",
+          "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
+          "source": "연합뉴스"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "[경제야 놀자] 맥도날드 버거 값으로 각국 화폐가치 알 수 있죠 - 생글생글",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HS3NYUzhBWHUtZzlNRnpUREpnb2tGeGVZbUFYUEJWY3hVSlFEaUgxSC1kNDd5VDZEVEt3d0xZQl9JYUdCRHpqRFZvN2xxSjc3LUtRTE41STVlS1U?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "2 0 2 6 0 3 1 6 (월) - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaHF3YnE2eUVCVUNOa01ESlJydUgweWNOWUF6S1kweEJUSDZkcFNQZHF2aExua1RidDVMbEd3bnJsYUswaGs4alJEd2ZLRW9jaU1UTHR6WnlodEVvNFFIS2ZETEJUM19zMHhYOVZfd053ZTVaa1o5RXZpVW00TVlMbzJB?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 03:21:24 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "2 0 2 6 0 3 1 6 (월) - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1VlhxTUdNUWlEWTJHRFB1NXlhaVFhYk43UkpockVfWl9WOS1JYlBOdV95TUJPRlZINUQzcXJ3bFRpbjFMQXNlWVZ2dkYzSXhpRGY5OUlhelkxVUlPX1VlQWVGRjBwYVlPakpJTmhCY2IxU25nMGZ6Tw?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 10:35:23 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "[강세 토픽] 야놀자 관련주 테마, 한화투자증권 +5.83%, 한화생명 +4.06% - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOTBzOHc5UEI3TmlaR2JCLXlscWdjQlBhZ1Fxb0hlMGJoRTFvaWZhYnFZcUFxS2NTQzZIbFJjM1JEcll1WVJuR0djcDBzelR4dHRRYk11eWdLZG1NUElvZjFsaWRIQ0czc3NrUjhuZy1UUk16SVo4Wl9PNVc4QU9QUGNBTdIBlwFBVV95cUxPRVpjbFpLN1dnSVAyaFM1ZlUtSFdwalh5NmU4RnpTN1BJX0hrdzhrUWpQeHRfLUJPV25Pcm41bjRsVm81b3NyNC1BZm9PQ1JnX25zZ1FoazdiYnBBZlJ4ZlF3R1NNTWZqTjVGZVVKZWo3Mm5pWW81LUhSMndPckZwQ2hpTHFJUEMxenFpYnZpRVpiamZZSnNJ?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 01:22:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "그래디언트, +29.99% 상한가 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkZ2eHF4WElsd3V2bGhvdDBqSHVGdVpmUmdfN25ya0dRcW85eHFoUmFsU21SMmpkZUw0QzRBckJObG9DdGQ5Xy0yazZRbkNjU0FPaktHTXkxZWxxOVJaNzJCR19rNDhCMFZXbzFpNS1qRTFuU2dYNHJnU2lkNFBSaXpwa9IBlwFBVV95cUxNQWhtS0VpRzNEdkM1enY5QlFxWm02NU5iRTYtVXVwMUNuZnRXaHlNTTRlMkVTWU9JQmJRMURnR01UQjVPb1dyVUNWMzByWUJ3bzZIbVJXalliUFNLOHBuR1dNZW1BTUhqN0ZKc2N1WVJIYjZyb253cGo1Ym1vTEY1VHFiUkRaalNrTkdzNGEyQVh5STJZUGxz?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 02:52:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "“여행도 ‘경험 소비’ 시대”… 놀유니버스, 해외 투어·액티비티 사업 확장 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWC1OTlVWTGxMazl3UE9MUVp4NHFaZGg4aVZBek5kWGNqQ0xJcGZJYmdWSjA5aVVUSm9Hc0ZFVm1UeFhnM2xwdTFJRmRtUXVyYkZwWGNJYlNaZW5BV2hHX21HMU5NZnhMVDdEQVZvMkRCelAtU244VHNRVVJ1QmZXNU52STF5TEN5M1JMYkVNdVptRUdWLUlHdE13Vl8wd9IBngFBVV95cUxPWC1OTlVWTGxMazl3UE9MUVp4NHFaZGg4aVZBek5kWGNqQ0xJcGZJYmdWSjA5aVVUSm9Hc0ZFVm1UeFhnM2xwdTFJRmRtUXVyYkZwWGNJYlNaZW5BV2hHX21HMU5NZnhMVDdEQVZvMkRCelAtU244VHNRVVJ1QmZXNU52STF5TEN5M1JMYkVNdVptRUdWLUlHdE13Vl8wdw?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 06:26:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[글로벌 여가 플랫폼 기업 야놀자] 검색결과 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUWg2SEkwRGdrbWJja21RUmRDM2dQSE1BY3B0eklkaVNkd0pJbW9YQk9pSk1oaU5nb08ya1Y5bVJJV2R5LUVMdk53c1lYNENfbzk5ZTRaS3lPZmdxS2l1UEM1S01jNUZTNVlyelZ0TXBNZmxpNU52dE5abmhZQlF4SGdRem9mc1JrRHNOa1ZUc1A3RFdBenA2dUFra0RpcUZXZGtBaUxPczRRbVNJSDNyeV9XVElabmJNd0Z6U2M1TmFHZ1BHV2ZmdTkxUnhhNVllcTdxNWpnN1FGREFVTVdnWFVUQWtLdWY2QXpwOUZPREJTY2UwaTNj?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 17:16:58 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "오후장★테마동향 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lNTdneXA2eDV0NUI1YkdwMW5remEzbGoyekNMZFgtQUFrR3h0b0xQUXhvamd3blB1VnBHa1Rod3FSUDhPZFYyXzV3V0x0WjcyblE?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 05:40:38 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "모두투어(080160) 소폭 상승세 +4.18%, 외국계 매수 유입 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DNnBRMlF3azVlemtYSnVhQzByTHk4bGU3ZDlGTDlpblpURmVwSXBTb0x6TDdReUgtOEU0RTBPSGNnX1NQVU5QRS1qeDJTdnpTWVE?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 04:31:28 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "야놀자-씨티, 글로벌 여행 결제 혁신한다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ieEJDOG41UzlPWnNFZXdUODd1TGptVkhMdXoxUmpqNlRCZ0ZSOE5KN1FlNXJTN2NEZUk2Vmh3TU1SdjlyMDBqelRER0h2TFdBZVhaUG53?oc=5",
+          "pub_date": "Fri, 13 Mar 2026 02:00:53 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "\"여행을 10배 더 쉽고 편리하게\"...야놀자, 새 비전 선언 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GblVTZGVjaGc3bFMxQTB6UFhqYzk0cElEbGp3SDhmcHpCT1d5MHZZaEtCNU1DcmJoRFh2REFTQnFMRFNKbzBzR1NlNTlmRUxhdnI4VXp3?oc=5",
+          "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "검찰, 야놀자 3.0 비전 발표날 압수수색...사법리스크↑ - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vei1KWDlUUnF0eVg1aGx4cW1aSmJrNjZJNjZGaWx4MmhUSkt4OXM5cFJsRUc3azA2cmt1ZFVHQVh1T1pZZHI0cUpJWm83Q1VCWGhobWh3?oc=5",
+          "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[야놀자 IPO 방정식]② 예기치 못한 사법 리스크 '걸림돌' - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEdWFKYjVXWFp3TzF5UVZHRFpWNV9CR3RxV2xNWjdXc0ppdEdzaEV0Zk1yOGJsLUJZczItNWR2d0pfSmh0cDk5elA3TEhZYU5XQ3FVdFF0VWNrT2NYdlNuR3FkWFM3N2x40gFsQVVfeXFMTlBEVEVHd2tEbFhabW10a3BLX1hHUWQ0U1BEY0o3Z2U1OWFaand0QkN1bHFCc19hQ2gtbVpLS3VjdmU1SDVHWFhHX0h5bXI1eXdKbk9IeGtaWVlrQ0tPZGw3YUd3Q0JCU2hSdkd0?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 00:32:52 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[야놀자 IPO 방정식]① '상장 안갯속' 첫 회사채로 자금 조달 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EZ1IxZF93enRCdmRlczJGVXZ1R1NITW1za0xPaVlRN1BUd1V6NjJUc0ZraXlvUWdQb3pudGg2amRwWlpmLTBLUThzUk9pR0R5N29yZFd6enFYdGUtNy03a3lyMG1PbUR30gFsQVVfeXFMTXgwZVQzVHMzanAtYTAydFQ1djZPdkZPVHI3RFg1R1UzNnJKOUNHeGFSVUtBazljRjBkNmp4aFZ0ZUhlLUFrdDVpNHRjM0xpbGFlMXR5UUNoTkJDb0ZXVDlRU0dZX0pxaHJ2UEFD?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 02:48:15 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "시큐레터, 감사보고서 제출 지연 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDUW1jV210ZG1ncHRyUmVWWTFDOE9sUlRWZzhNOTNVWXpYRi0yMmNrZVJwakRLTDJEU1YyZ0lDMmdITjFEMG9wSFNkeDlyc3dOeFJPdkd2Q3FRMjIxcURYRjA5VUpGMlI10gFsQVVfeXFMUEF5eXk3VnNxSjVMdW5ZRjZlZURBdmNiaUpFNTR2QjdtaGtUZWw1SXRvdjVvQ3o3S2I5eWVMSDNSQjhjVXI1b3ZNRDhubFdWMURXNERPUXJ3ejhCRkp2WHRBem8xSl9hbnM2QktF?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 00:57:25 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "창립 21주년 맞은 야놀자, ‘야놀자 3.0’ 선언…“AI 시대 여행 산업 패러다임 변화 선도” - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yUkpVbmlHNk5ENUYxM3lYYXFXbUtidmxCWllCU3p6UjBDNUdBaXg0UmxQdzR1ejcwbU5aRm04V3pIS2I0QUZKT3F4bjNjSlI3ZHFxVw?oc=5",
+          "pub_date": "Tue, 10 Mar 2026 05:01:47 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "엄마 품 떠나 밖으로, 큰 무대에서 놀아보겠다는 스무 살 ‘야놀자’ - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUeVFqVVl0UmtoNDRxU2JiZTV4U3otek1GQlNEOU1zV3FvR1RrZTlqUjVnbEtpZ25TcUJrNHo1ZlhJYmFneS1lekJfOXRZQ1E?oc=5",
+          "pub_date": "Mon, 07 Apr 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "[주스바] 돈 먹는 하마 ‘클라우드’가 야놀자의 핵심이 되기까지 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNcmpJZ2xkczZhZnA2ekpMMXpyV19ZNmx0REtKTEFEa3EwOS11NnZDSTZ4eUg3YXN0SkxwRDJYMFRHb28ybkpLSHJydEplM3dFMkpDYQ?oc=5",
+          "pub_date": "Wed, 23 Jul 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "7": {
+      "blog_url": "https://medium.com/yanolja",
+      "recent_posts": [
+        {
+          "title": "구성원의 가족들에게 의미 있고 뜻깊은 시간을 선물할 Y-Family Program II",
+          "link": "https://medium.com/yanolja/%EA%B5%AC%EC%84%B1%EC%9B%90%EC%9D%98-%EA%B0%80%EC%A1%B1%EB%93%A4%EC%97%90%EA%B2%8C-%EC%9D%98%EB%AF%B8-%EC%9E%88%EA%B3%A0-%EB%9C%BB%EA%B9%8A%EC%9D%80-%EC%8B%9C%EA%B0%84%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%A0-y-family-program-ii-ff63ec8da5ae?source=rss----783f6bf2cd83---4",
+          "date": "Thu, 29 Dec 2022 09:03:39 GMT"
+        },
+        {
+          "title": "[야놀자 R&D] 데일리FE개발팀 & 검색개발팀 직무인터뷰",
+          "link": "https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-r-d-%EB%8D%B0%EC%9D%BC%EB%A6%ACfe%EA%B0%9C%EB%B0%9C%ED%8C%80-%EA%B2%80%EC%83%89%EA%B0%9C%EB%B0%9C%ED%8C%80-%EC%A7%81%EB%AC%B4%EC%9D%B8%ED%84%B0%EB%B7%B0-4af505a2d3f4?source=rss----783f6bf2cd83---4",
+          "date": "Fri, 18 Nov 2022 06:41:48 GMT"
+        },
+        {
+          "title": "Y-OWN workshop, 일하는 방식을 함께 만들어가는 와이플레이어의 이야기",
+          "link": "https://medium.com/yanolja/y-own-workshop-%EC%9D%BC%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D%EC%9D%84-%ED%95%A8%EA%BB%98-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EC%99%80%EC%9D%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0-9ea5fb9399c2?source=rss----783f6bf2cd83---4",
+          "date": "Mon, 10 Oct 2022 15:40:10 GMT"
+        },
+        {
+          "title": "[야놀자 R&D] 데일리호텔의 성장을 위해 끊임없이 개발 중! 상품개발팀&주문개발팀!",
+          "link": "https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-r-d-%EB%8D%B0%EC%9D%BC%EB%A6%AC%ED%98%B8%ED%85%94%EC%9D%98-%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%B4-%EB%81%8A%EC%9E%84%EC%97%86%EC%9D%B4-%EA%B0%9C%EB%B0%9C-%EC%A4%91-%EC%83%81%ED%92%88%EA%B0%9C%EB%B0%9C%ED%8C%80-%EC%A3%BC%EB%AC%B8%EA%B0%9C%EB%B0%9C%ED%8C%80-d3e94636638c?source=rss----783f6bf2cd83---4",
+          "date": "Tue, 04 Oct 2022 05:06:04 GMT"
+        },
+        {
+          "title": "야놀자 구성원의 가족들에게 의미 있고 뜻깊은 시간을 선물할 Y-Family Program I",
+          "link": "https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-%EA%B5%AC%EC%84%B1%EC%9B%90%EC%9D%98-%EA%B0%80%EC%A1%B1%EB%93%A4%EC%97%90%EA%B2%8C-%EC%9D%98%EB%AF%B8-%EC%9E%88%EA%B3%A0-%EB%9C%BB%EA%B9%8A%EC%9D%80-%EC%8B%9C%EA%B0%84%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%A0-y-family-program-i-5545f0de64d7?source=rss----783f6bf2cd83---4",
+          "date": "Mon, 05 Sep 2022 14:39:14 GMT"
+        },
+        {
+          "title": "트러스테이 ‘홈노크’ 런칭 이벤트",
+          "link": "https://medium.com/yanolja/%ED%8A%B8%EB%9F%AC%EC%8A%A4%ED%85%8C%EC%9D%B4-%ED%99%88%EB%85%B8%ED%81%AC-%EB%9F%B0%EC%B9%AD-%EC%9D%B4%EB%B2%A4%ED%8A%B8-8ac4a8cc61d7?source=rss----783f6bf2cd83---4",
+          "date": "Tue, 21 Jun 2022 05:16:34 GMT"
+        },
+        {
+          "title": "커뮤니케이션 콘텐츠 시장을 평정할 야놀자 오리지널스, Y-CUS (와이커스)",
+          "link": "https://medium.com/yanolja/%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%8B%9C%EC%9E%A5%EC%9D%84-%ED%8F%89%EC%A0%95%ED%95%A0-%EC%95%BC%EB%86%80%EC%9E%90-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90%EC%8A%A4-y-cus-%EC%99%80%EC%9D%B4%EC%BB%A4%EC%8A%A4-7d3d8e12aef9?source=rss----783f6bf2cd83---4",
+          "date": "Fri, 17 Jun 2022 08:59:26 GMT"
+        },
+        {
+          "title": "오직 야놀자인만! 마음 편히 놀 수 있는 성장 놀이터, Culture&Grow Homepage",
+          "link": "https://medium.com/yanolja/%EC%98%A4%EC%A7%81-%EC%95%BC%EB%86%80%EC%9E%90%EC%9D%B8%EB%A7%8C-%EB%A7%88%EC%9D%8C-%ED%8E%B8%ED%9E%88-%EB%86%80-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%84%B1%EC%9E%A5-%EB%86%80%EC%9D%B4%ED%84%B0-culture-grow-homepage-ae4b585cb90f?source=rss----783f6bf2cd83---4",
+          "date": "Wed, 15 Jun 2022 07:31:29 GMT"
+        },
+        {
+          "title": "LD@Y 스토리",
+          "link": "https://medium.com/yanolja/ld-y-1-2%EA%B8%B0-%EC%8A%A4%ED%86%A0%EB%A6%AC-b3ef2e52f705?source=rss----783f6bf2cd83---4",
+          "date": "Mon, 13 Jun 2022 14:24:38 GMT"
+        },
+        {
+          "title": "[야놀자 R&D] 야놀자 데이터의 숨겨진 의미를 찾아내는, DI팀 Data Analyst",
+          "link": "https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-r-d-%EC%95%BC%EB%86%80%EC%9E%90-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%88%A8%EA%B2%A8%EC%A7%84-%EC%9D%98%EB%AF%B8%EB%A5%BC-%EC%B0%BE%EC%95%84%EB%82%B4%EB%8A%94-di%ED%8C%80-data-analyst-fdb00049d7df?source=rss----783f6bf2cd83---4",
+          "date": "Tue, 31 May 2022 00:10:00 GMT"
+        }
+      ],
+      "tech_keywords": [],
+      "post_count": 10,
+      "source": "medium",
+      "publication": "yanolja",
+      "posts": [
+        {
+          "title": "구성원의 가족들에게 의미 있고 뜻깊은 시간을 선물할 Y-Family Program II",
+          "link": "https://medium.com/yanolja/%EA%B5%AC%EC%84%B1%EC%9B%90%EC%9D%98-%EA%B0%80%EC%A1%B1%EB%93%A4%EC%97%90%EA%B2%8C-%EC%9D%98%EB%AF%B8-%EC%9E%88%EA%B3%A0-%EB%9C%BB%EA%B9%8A%EC%9D%80-%EC%8B%9C%EA%B0%84%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%A0-y-family-program-ii-ff63ec8da5ae?source=rss----783f6bf2cd83---4",
+          "date": "Thu, 29 Dec 2022 09:03:39 GMT"
+        },
+        {
+          "title": "[야놀자 R&D] 데일리FE개발팀 & 검색개발팀 직무인터뷰",
+          "link": "https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-r-d-%EB%8D%B0%EC%9D%BC%EB%A6%ACfe%EA%B0%9C%EB%B0%9C%ED%8C%80-%EA%B2%80%EC%83%89%EA%B0%9C%EB%B0%9C%ED%8C%80-%EC%A7%81%EB%AC%B4%EC%9D%B8%ED%84%B0%EB%B7%B0-4af505a2d3f4?source=rss----783f6bf2cd83---4",
+          "date": "Fri, 18 Nov 2022 06:41:48 GMT"
+        },
+        {
+          "title": "Y-OWN workshop, 일하는 방식을 함께 만들어가는 와이플레이어의 이야기",
+          "link": "https://medium.com/yanolja/y-own-workshop-%EC%9D%BC%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D%EC%9D%84-%ED%95%A8%EA%BB%98-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EC%99%80%EC%9D%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0-9ea5fb9399c2?source=rss----783f6bf2cd83---4",
+          "date": "Mon, 10 Oct 2022 15:40:10 GMT"
+        },
+        {
+          "title": "[야놀자 R&D] 데일리호텔의 성장을 위해 끊임없이 개발 중! 상품개발팀&주문개발팀!",
+          "link": "https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-r-d-%EB%8D%B0%EC%9D%BC%EB%A6%AC%ED%98%B8%ED%85%94%EC%9D%98-%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%B4-%EB%81%8A%EC%9E%84%EC%97%86%EC%9D%B4-%EA%B0%9C%EB%B0%9C-%EC%A4%91-%EC%83%81%ED%92%88%EA%B0%9C%EB%B0%9C%ED%8C%80-%EC%A3%BC%EB%AC%B8%EA%B0%9C%EB%B0%9C%ED%8C%80-d3e94636638c?source=rss----783f6bf2cd83---4",
+          "date": "Tue, 04 Oct 2022 05:06:04 GMT"
+        },
+        {
+          "title": "야놀자 구성원의 가족들에게 의미 있고 뜻깊은 시간을 선물할 Y-Family Program I",
+          "link": "https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-%EA%B5%AC%EC%84%B1%EC%9B%90%EC%9D%98-%EA%B0%80%EC%A1%B1%EB%93%A4%EC%97%90%EA%B2%8C-%EC%9D%98%EB%AF%B8-%EC%9E%88%EA%B3%A0-%EB%9C%BB%EA%B9%8A%EC%9D%80-%EC%8B%9C%EA%B0%84%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%A0-y-family-program-i-5545f0de64d7?source=rss----783f6bf2cd83---4",
+          "date": "Mon, 05 Sep 2022 14:39:14 GMT"
+        },
+        {
+          "title": "트러스테이 ‘홈노크’ 런칭 이벤트",
+          "link": "https://medium.com/yanolja/%ED%8A%B8%EB%9F%AC%EC%8A%A4%ED%85%8C%EC%9D%B4-%ED%99%88%EB%85%B8%ED%81%AC-%EB%9F%B0%EC%B9%AD-%EC%9D%B4%EB%B2%A4%ED%8A%B8-8ac4a8cc61d7?source=rss----783f6bf2cd83---4",
+          "date": "Tue, 21 Jun 2022 05:16:34 GMT"
+        },
+        {
+          "title": "커뮤니케이션 콘텐츠 시장을 평정할 야놀자 오리지널스, Y-CUS (와이커스)",
+          "link": "https://medium.com/yanolja/%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%8B%9C%EC%9E%A5%EC%9D%84-%ED%8F%89%EC%A0%95%ED%95%A0-%EC%95%BC%EB%86%80%EC%9E%90-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90%EC%8A%A4-y-cus-%EC%99%80%EC%9D%B4%EC%BB%A4%EC%8A%A4-7d3d8e12aef9?source=rss----783f6bf2cd83---4",
+          "date": "Fri, 17 Jun 2022 08:59:26 GMT"
+        },
+        {
+          "title": "오직 야놀자인만! 마음 편히 놀 수 있는 성장 놀이터, Culture&Grow Homepage",
+          "link": "https://medium.com/yanolja/%EC%98%A4%EC%A7%81-%EC%95%BC%EB%86%80%EC%9E%90%EC%9D%B8%EB%A7%8C-%EB%A7%88%EC%9D%8C-%ED%8E%B8%ED%9E%88-%EB%86%80-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%84%B1%EC%9E%A5-%EB%86%80%EC%9D%B4%ED%84%B0-culture-grow-homepage-ae4b585cb90f?source=rss----783f6bf2cd83---4",
+          "date": "Wed, 15 Jun 2022 07:31:29 GMT"
+        },
+        {
+          "title": "LD@Y 스토리",
+          "link": "https://medium.com/yanolja/ld-y-1-2%EA%B8%B0-%EC%8A%A4%ED%86%A0%EB%A6%AC-b3ef2e52f705?source=rss----783f6bf2cd83---4",
+          "date": "Mon, 13 Jun 2022 14:24:38 GMT"
+        },
+        {
+          "title": "[야놀자 R&D] 야놀자 데이터의 숨겨진 의미를 찾아내는, DI팀 Data Analyst",
+          "link": "https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-r-d-%EC%95%BC%EB%86%80%EC%9E%90-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%88%A8%EA%B2%A8%EC%A7%84-%EC%9D%98%EB%AF%B8%EB%A5%BC-%EC%B0%BE%EC%95%84%EB%82%B4%EB%8A%94-di%ED%8C%80-data-analyst-fdb00049d7df?source=rss----783f6bf2cd83---4",
+          "date": "Tue, 31 May 2022 00:10:00 GMT"
+        }
+      ],
+      "exa_tech": [
+        {
+          "title": "IT기업 기술 블로그 [국내/해외] - 禹",
+          "url": "https://sjwoo1999.tistory.com/93",
+          "text": "IT기업 기술 블로그 [국내/해외]\n\n본문 바로가기\n\n---\n\n취업\n\n# IT기업 기술 블로그 [국내/해외]\n\n[국내]\n\n1) 무신사\n\nhttps://medium.com/musinsa-tech\n\nMUSINSA tech – Medium무신사 기술 블로그.medium.com\n\n2) 야놀자\n\nhttps://yanolja.github.io/\n\n야놀자 기술블로그 - 누구나 마음 편히 놀 수 있게{% include gnb.html%} {{ site.title }} {{ site.description }} Scroll Down {% include loop.html %}yanolja.github.io\n\n3) 직방\n\n[https://medium.com/zigbang](h",
+          "score": 0,
+          "published_date": "2022-02-11T00:00:00.000Z"
+        },
+        {
+          "title": "국내 유명 기업 기술 블로그 30선 (Tech Blog) - QA여행",
+          "url": "https://qajourney.tistory.com/41",
+          "text": "국내 유명 기업 기술 블로그 30선 (Tech Blog)\n\n본문 바로가기\n\n기술자료\n\n# 국내 유명 기업 기술 블로그 30선 (Tech Blog)\n\n유명 기업들의 기술 블로그를 읽으면 최신 트렌드를 접할 수 있습니다. (AI 이미지 생성)\n\n안녕하세요, QA여행 블로그에 (https://qajourney.tistory.com/) 오신 걸 환영합니다.\n\n국내 주요 IT 기업들은 개발 문화와 기술 역량을 공유하기 위해 활발하게 기술 블로그를 운영하고 있는걸 아시죠?\n\n이들 블로그는 현업 개발자들의 생생한 경험과 문제 해결 과정을 엿볼 수 있는 좋은 자료이며,\n\n최신 기술 트렌드를 파악하는 데에도 큰 도움이 됩니다.\n\n아래는 국내 유명 기업들의 기술 블로그 30곳을 기업명, 블로그명, 특징, URL 순으로 정리해 보았습니다.\n\n어떤 기업들에서 어떤 테크 블로그를 운영하고 있는지 같이 한 번 확인해 보시죠.\n\n### 플랫폼 & 포",
+          "score": 0,
+          "published_date": "2025-09-24T00:00:00.000Z"
+        },
+        {
+          "title": "한국 대표 트래블 테크 플랫폼 야놀자, 멀티 클라우드 혁신 위한 최적의 데이터베이스를 찾다",
+          "url": "https://mongodb.com/blog/post/yanolja-finds-optimal-database-for-multi-cloud-innovation-kr",
+          "text": "한국 대표 트래블 테크 플랫폼 야놀자, 멀티 클라우드 혁신 위한 최적의 데이터베이스를 찾다 | MongoDB Blog\n\nMongoDB\n\n활기찬 여행 산업의 중심에 선 야놀자는 디지털 시대로의 도약을 통해 여행의 미래를 혁신하고 있습니다. 지난 2007년 국내 온라인 호텔 예약 서비스로 시작한 야놀자는 현재 전 세계 206개국에서 숙박, F&B, 레저, 광고 솔루션 등 다양한 서비스를 제공하며 글로벌 여행 테크 기업으로 성장했습니다.\n\n야놀자가 오늘날의 스마트한 여행객들에게 최고의 편의성과 혁신적인 서비스를 제공할 수 있는 비결은 바로 데이터베이스 현대화입니다. 최근 야놀자 클라우드기술전략실의 김지환 실장이 MongoDB.local Seoul 행사에 참석해 MongoDB Atlas를 도입한 경험을 공유했습",
+          "score": 0,
+          "published_date": "2024-10-14T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - Yanolza-Miniproject/Heynolja_FE: 사용자 위치 기반 숙소 예약 서비스",
+          "url": "https://github.com/yanolza-miniproject/heynolja_fe",
+          "text": "# Repository: Yanolza-Miniproject/Heynolja_FE\n\n사용자 위치 기반 숙소 예약 서비스\n\n- Stars: 3\n- Forks: 2\n- Watchers: 3\n- Open issues: 0\n- Primary language: TypeScript\n- Languages: TypeScript (96.8%), JavaScript (2.4%), CSS (0.7%), HTML, Shell\n- Default branch: main\n- Homepage: https://heynolja-mini-4.vercel.app/\n- Created: 2023-11-17T09:44:27Z\n- Last push: 2023-12-15T01:05:44Z\n- Contributors: 5 (top: LikeFireAndSky, 2YH02, suyeonnnnnnn, mysdpy30s, ewinkite)\n\n---\n\n# ✨미니프로젝트 4조 - 아버지날보고있다면정답을알려조✨\n\n## _🏖️ 행복한 여행",
+          "score": 0,
+          "published_date": "2023-11-17T00:00:00.000Z"
+        },
+        {
+          "title": "Yanolja Case Study",
+          "url": "https://aws.amazon.com/solutions/case-studies/yanolja-case-study/",
+          "text": "Customer Success Stories: Case Studies, Videos, Podcasts, Innovator stories Skip to main content\n\n- Solutions\n- AWS›\n\nSOLUTIONS\n\n# Customer Success Stories\n\nDiscover how customers across industries increase agility, optimize costs, and accelerate innovation using AWS\n\n## How Blue Origin Built the First AI Agent-Designed Hardware for the Moon in Days, Not Years\n\nAt Blue Origin, the mission is existential: to build a road to space, enabling millions of people to live and",
+          "score": 0,
+          "published_date": "2025-05-07T00:00:00.000Z"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "빅데이터 분석 학회 BDAI 8기 서벤트팀 운영진 합격후기✨",
+          "description": "맞춤형 기업 현직자 초청 직무교육, 학회 교육 수강 등 자신에게 필요한 역량을 발전시킬 기회를... 강해야 면접에서도 강점이 보이는 듯 합니다! 지금까지의 운영진 활동 후기 온보딩 기간 합치면 두 달... ",
+          "link": "https://blog.naver.com/blrol_blrol/224224956373",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+          "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+          "link": "https://sibauchi.tistory.com/1205",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "11",
+          "description": "우선 기업이 되기 위해 10억 달러 이상을 약속했습니다. 저는 10억 달러가... When you adopt AI, well, you don't just change adoption or productivity, You change how power is perceived and... ",
+          "link": "https://blog.naver.com/calcutt/224224839164",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "알바천국 이력서 작성법과 면접 성공 꿀팁 한눈에",
+          "description": "면접 시에는 적극적인 자세로 질문에 답변하고, 기업 문화에 대한 이해도를 보여주는 것이 중요합니다. 문제점으로는 경쟁률이 높은 알바의 경우 합격 가능성이 낮다는 점이 있으며, 이를 해결하기 위해서는... ",
+          "link": "https://think-tank.tistory.com/1035",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "당신의 다음 커리어를 위한 완벽한 이직 준비 팁",
+          "description": "이직 준비 팁을 찾을 때, 단순히 합격 후기를 읽는 것을 넘어, 그 안에 담긴 전략과 노력을 깊이 이해하는 것이 중요하다고 느꼈습니다. 4. 면접 준비: 답변 구조화와 실전 대응 능력 #이직준비팁 #이직 #준비",
+          "link": "https://blog.naver.com/kcl3598/224224791593",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "[대학별 Q&amp;A 100선] 연세대학교 3편: 연세대, 과연 비싼 만큼... ",
+          "description": "합격의 기쁨을 누리는 것도 잠시, 고지서를 받아든 부모님의 표정은 사뭇 진지해집니다. 사립대... 야놀자, 쏘카 등)가 매우 많습니다. Q58. 외국계 기업이나 해외 취업은 어떤가요?  Real Talk: &quot;영어 잘하는... ",
+          "link": "https://blog.naver.com/dt_info/224224712827",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "[11번가 채용] HR 전환형 인턴 공고 분석 &amp; 자소서 필승 가이드",
+          "description": "기업 문화 기획, 인사 데이터 분석) 지원 자격 2026년 8월 졸업 예정자 및 기졸업자 (전공 무관) 근무지 경기도 광명시 유플래닛타워 (광명역 인근) 전형 절차 서류전형 → 인성검사 → 면접전형 → 합격자... ",
+          "link": "https://blog.naver.com/goodlife_92/224224618278",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+          "description": "실제 사용자들의 후기를 살펴보면, &quot;채용 공고 내용과 실제 업무 환경이 다른 경우가 많다&quot;, &quot;연봉 정보가 명확하게 제시되지 않아 어려움을 겪었다&quot;, &quot;면접 과정에서 기업 문화에 대한 충분한 정보를 얻지... ",
+          "link": "https://ilovefamily.tistory.com/527",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "현대자동차 3월 채용 취업 이직 대비 (자소서/면접)",
+          "description": "면접 준비가 될겁니다 현대자동차 PT면접 * 전 직무 자기소개 PT 진행 * 지원 직무에 따라 사전과제PT or... 모의 면접으로 감점 요인 종합점검 / 최종 피드백 바로코칭 실제 합격 후기 기업은 우리들에게... ",
+          "link": "https://blog.naver.com/bashinga197939/224224525166",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
+          "description": "오늘은 취준생이라면 한 번쯤 목표로 하는 기업, SK AX에 합격한 신입사원분과 인터뷰를 진행해봤습니다  ✔ 합격 스펙은 어땠는지 ✔ 채용 과정은 어떻게 진행되는지 ✔ 자소서·면접은 어떻게 준비했는지... ",
+          "link": "https://blog.naver.com/ttooooriiii/224224472695",
+          "pub_date": "20260321"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        },
+        {
+          "title": "제주항공 채용 승무원 큐피드",
+          "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+          "link": "http://cafe.naver.com/sheiszzz/1214780",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 30,
+      "avg_rating": 2.5839416058394162,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "워라밸",
+        "장점",
+        "좋은",
+        "최고",
+        "추천"
+      ],
+      "negative_themes": [
+        "구식",
+        "단점"
+      ],
+      "snippets": [
+        {
+          "source": "brave",
+          "title": "(주)야놀자 2026년 기업정보 | 851건 면접후기 3.0 면접난이도 | 잡플래닛",
+          "description": "면접난이도: 3.0, 면접경로: 온라인 지원 80%, 면접경험: 긍정적 38%, 부정적 16%, 면접결과: <strong>합격 49%, 불합격 34%, 대기중 17%</strong> | 잡플래닛에 등록된 851건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/89637/interviews/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "brave",
+          "title": "(주)야놀자 2025년 기업정보 | 기업리뷰 1,361건, 2.8 리뷰평점",
+          "description": "개인정보 걱정 없이 잡플래닛에서 가볍게 포지션 제안을 받을 수 있어요. 맞아요아니요 · 뉴스 · 영상 · ad챗GPT보다 기특한 업무 상황별 AI 툴 추천해드림! 1잘생긴 사람 보면 업무 능력 오른다 · 2직무별 신입 연봉 대공개!",
+          "url": "https://www.jobplanet.co.kr/companies/89637/reviews/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "brave",
+          "title": "(주)야놀자 2025년 기업정보 | 793건 연봉정보, 4,480만원 평균연봉 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/89637/salaries/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "brave",
+          "title": "야놀자 2025년 기업정보 | 352건의 복지정보 0 전체 복지 통계 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/89637/benefits/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "brave",
+          "title": "(주)야놀자 2025년 기업정보 | 기업리뷰 1,340건, 연봉정보 809건, 면접후기 835건, 복지정보 122건, 채용공고 0건",
+          "description": "(주)야놀자 기업정보 - 산업: 포털/인터넷/콘텐츠, 기업형태: 중견기업, 사원수: 1,000명, 설립: 2007.02.01 | (주)야놀자의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/89637/landing/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "brave",
+          "title": "야놀자 2024년 기업정보 | 322건의 복지정보 0 전체 복지 통계 | 잡플래닛",
+          "description": "1. 리뷰 하나로 열람권 획득 리뷰 하나만 써도 모든 기업 리뷰를 승인된 날로부터 1년간 볼 수 있습니다. 잡플래닛은 당신이 가장 만족스러운 직장을 고를 수 있도록 도와줍니다.",
+          "url": "https://www.jobplanet.co.kr/companies/89637/benefits/%EC%95%BC%EB%86%80%EC%9E%90?page=3"
+        },
+        {
+          "source": "brave",
+          "title": "(주)야놀자클라우드코리아 2025년 기업정보 | 기업리뷰 6건, 2.5 리뷰평점",
+          "description": "(주)야놀자클라우드코리아 기업정보 - 장단점 키워드: - | 기업리뷰: 복지는 좋고, 복지만 좋고 또 복지만 좋음 | (주)야놀자클라우드코리아의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 ...",
+          "url": "https://www.jobplanet.co.kr/companies/409263/reviews"
+        },
+        {
+          "source": "brave",
+          "title": "야놀자 - 나무위키",
+          "description": "이는 글로벌 트래블 테크(Travel+Technology) 기업으로서의 방향성을 본격화한 것으로, 야놀자와 인터파크의 풍부한 여행 관련 인벤토리, 트리플의 AI 기술, 야놀자클라우드의 글로벌 네트워크를 활용해 비전을 달성하는 것을 목표로 한다.",
+          "url": "https://namu.wiki/w/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "brave",
+          "title": "(주)야놀자에프앤지 2025년 기업정보 | 기업리뷰 91건, 2.1 리뷰평점",
+          "description": "(주)야놀자에프앤지 기업정보 - 장단점 키워드: 스타트업, 장점, 저녁 | 기업리뷰: 나름 괜찮았지만 정치가 있는듯 했어요 | (주)야놀자에프앤지의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 ...",
+          "url": "https://www.jobplanet.co.kr/companies/320113/reviews/%EC%95%BC%EB%86%80%EC%9E%90%EC%97%90%ED%94%84%EC%95%A4%EC%A7%80"
+        },
+        {
+          "source": "brave",
+          "title": "(주)문구야놀자 2025년 기업정보 | 기업리뷰 8건, 2.3 리뷰평점",
+          "description": "(주)문구야놀자 기업정보 - 장단점 키워드: - | 기업리뷰: 복지란 하나도 없는 회사. 하다못해 커피믹스 까지도 내돈내산해야 되는 회사. | (주)문구야놀자의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 ...",
+          "url": "https://www.jobplanet.co.kr/companies/388774/reviews/%EB%AC%B8%EA%B5%AC%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "naver",
+          "title": "(주)야놀자 2026년 기업정보 | 기업리뷰 1,410건, 2.8 리뷰평점",
+          "description": "(주)야놀자 기업정보 - 장단점 키워드: 동료, 눈치, 사내 | 기업리뷰: 매우 만족 전체적으로 체계가 잡혀가고 있는 회사 | (주)야놀자의 관련 뉴스, 기업리뷰와 생생한 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!",
+          "url": "https://www.jobplanet.co.kr/companies/89637/reviews/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "naver",
+          "title": "야놀자 2026년 기업정보 | 360건의 복지정보 0 전체 복지 통계",
+          "description": "야놀자의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 360건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/89637/benefits/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "naver",
+          "title": "(주)야놀자 2026년 기업정보 | 855건 면접후기 3.0 면접난이도",
+          "description": "(주)야놀자의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.0, 면접경로: 온라인 지원 81%, 면접경험: 긍정적 38%, 부정적 16%, 면접결과: 합격 49%, 불합격 34%, 대기중 17% | 잡플래닛에 등록된 855건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/89637/interviews/%EC%95%BC%EB%86%80%EC%9E%90"
+        },
+        {
+          "source": "naver",
+          "title": "야놀자트래블(주) 2026년 기업정보 | 기업리뷰 42건, 3.3 리뷰평점",
+          "description": "장점 : 복지가 전반적으로 괜찮았고 구식이 맛있었음. 부서 바이 부서지만 대체로 열린 분위기 였던 듯. 단점 : 사내 정치질이 너무 심했음. 뒷담도 심하고 정규직 비정규직 차별도 심하고...",
+          "url": "https://www.jobplanet.co.kr/companies/318142/reviews/%EC%95%BC%EB%86%80%EC%9E%90%ED%8A%B8%EB%9E%98%EB%B8%94"
+        },
+        {
+          "source": "naver",
+          "title": "🏠야놀자vs여기어때, 어디가 더 연봉 높을까?",
+          "description": "때마다 가장 맛있는 제철 음식이 있듯이, 모든 비즈니스에도 한껏 물오르는 제철이 있는 법! 휴가철에는 단연 여행·레저 관련 시장이 활기를 띠겠죠. 그중에서도 오늘은 숙박플랫폼 업계 빅2, 야놀자와 여기어때가 대결을 펼칩니다⚔️ 비슷한 듯 다른 두 기업, 지난해 실적 대결에서는 수익성(영업이익)으로 여기어때가 야놀자의 코를 눌렀는데요. 매출 규모는 오히려 야놀자가...",
+          "url": "https://stibee.com/api/v1.0/emails/share/NEWdnnBQQsO2rPGD8vohl6mDRpdTpcw"
+        },
+        {
+          "source": "naver",
+          "title": "야놀자트래블 2026년 기업정보 | 3건의 복지정보 0 전체 복지 통계",
+          "description": "야놀자트래블의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 3건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/318142/benefits/%EC%95%BC%EB%86%80%EC%9E%90%ED%8A%B8%EB%9E%98%EB%B8%94"
+        },
+        {
+          "source": "naver",
+          "title": "여행업계 이직·취업준비생 주목! 전현직자가 뽑은 일하기 좋은 여행사·항공사는?",
+          "description": "해외여행시장이 회복세로 접어들면서 여행업계에도 채용 바람이 불고 있다. 여행업계에서 일하기 좋은 회사는 어디일까? 기업정보 공유 플랫폼 잡플래닛의 ▲복지·급여 ▲승진 기회·가능성 ▲워라밸 ▲사내문화 ▲경영진 평가 5대 항목 리뷰를 바탕으로 일하기 좋은 여행사와 항공사 순위를 매겼다. 다만 각사별로 참여자 수와 리뷰 작성 시기가 상이하므로 평점에도 영향...",
+          "url": "https://www.traveltimes.co.kr/news/articleView.html?idxno=405795"
+        },
+        {
+          "source": "naver",
+          "title": "(주)야놀자플랫폼 2026년 기업정보 | 기업리뷰 4건, 3.0 리뷰평점",
+          "description": "장점 : 워라밸은 좋다 물론 이건 부바부 식대 지원해준다 재택근무 하게 해줬음(과거) 분위기 자유롭고 나름 현금성 복지 괜찮았음, 단점 : 현금성 복지를 해주면 연봉을 적게 줘도 생각하나봄 신입으로 가면 오래 다녀도 믿을 수 없는 연봉 수준 잉여 인력들이 꽤 많다..그런데 별로 회사에서 관리 안함",
+          "url": "https://www.jobplanet.co.kr/companies/452494/reviews/%EC%95%BC%EB%86%80%EC%9E%90%ED%94%8C%EB%9E%AB%ED%8F%BC"
+        },
+        {
+          "source": "naver",
+          "title": "야놀자에프앤지 2026년 기업정보 | 10건의 복지정보 0 전체 복지 통계",
+          "description": "야놀자에프앤지의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 10건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/320113/benefits/%EC%95%BC%EB%86%80%EC%9E%90%EC%97%90%ED%94%84%EC%95%A4%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "야놀자트래블(주) 2025년 기업정보 | 34건 면접후기 2.6 면접난이도",
+          "description": "야놀자트래블(주)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 2.6, 면접경로: 온라인 지원 67%, 면접경험: 긍정적 38%, 부정적 9%, 면접결과: 합격 47%, 불합격 44%, 대기중 9% | 잡플래닛에 등록된 34건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/318142/interviews/%EC%95%BC%EB%86%80%EC%9E%90%ED%8A%B8%EB%9E%98%EB%B8%94"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "야놀자 기업 리뷰 - 전·현직자의 생생한 후기 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/Review/ServiceView?ucoNo=1484977",
+          "text": "㈜야놀자 기업 리뷰 - 전·현직자의 생생한 후기 | 잡코리아\n\n메뉴 건너뛰기\n\n---\n\n## 검색\n\nSmart Match 통합검색\n\n지역 전체\n\n삭제\n\n열림\n\n키워드를 입력하시면 검색어를 추천해드립니다.\n\n자동완성 켜기 닫기\n\n닫힘\n\n### 검색어 자동완성\n\n자동완성 끄기 | 닫기\n\n### 최근검색\n\n전체 삭제\n\n자동완성 끄기 닫기\n\n기업 서비스\n\n기업회원 로그인\n\n- 기업라운지\n- 서치펌 서비스 안내\n- [기업회원 서비스 안내](https://www.jobkorea.co.kr/service/company/option",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "야놀자 채용",
+          "url": "https://careers.yanolja.co/en/yanoljanext",
+          "text": "야놀자 채용\n\n# Join Us Be the NEXT\n\nApply Now\n\n## Who We Are\n\nYanolja NEXT is a research and development organization dedicated to driving our vision of\n\nbecoming the No.1 global travel tech company.\n\nWe create practical and sustainable innovative technologies powered by AI and data to transform the future of travel.\n\nBy pioneering the 'NEXT' in travel, we aim to make journeys 10x easier for everyone.\n\n## Preparing for NEXT DAY with Ya",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "야놀자 채용",
+          "url": "https://careers.yanolja.co/",
+          "text": "야놀자 채용\n\n# Benefits\n\n마음 편히 몰입하고 성장할 수 있도록 지원합니다\n\n## Work and Life, All as a Journey\n\n여행을 떠날 때 가장 설레는 순간은 언제인가요?\n\n짐을 꾸릴 때? 공항에 도착했을 때? 아니면 목적지에 발을 디딜 때?\n\n야놀자에서는 일도, 일상도 모두 여행처럼 특별해질 수 있다고 믿습니다.\n\n출근부터 퇴근까지, 그리고 그 이후의 시간까지.\n\n구성원의 모든 순간이 더 자유롭고 풍요로워질 수 있도록 야놀자는 다양한 제도와 지원을 준비했습니다.\n\n당신의 Work와 Life, 모든 여정을 더 특별하게 만들어줄 키트들이 기다리고 있습니다.\n\n## FREEDOM KIT\n\n일상의 작은 행복\n\nSupport for Your Journey : NOL 포인트\n\n여행자의 필수품, 바로 여행 자금이죠. 야놀자의 시그니처 복지 'NOL 포인트'는 연 100만 원이 매년 지급되고, 5주년을 맞으면 +50만 원이 추가됩니다! 숙박, 레저, 액티비티, 맛집까지",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Yanolja | LinkedIn",
+          "url": "https://kr.linkedin.com/company/yanolja",
+          "text": "Yanolja co., Ltd. is a leading global enablement and data platform transforming the travel and experiences industry. Built on the vision to create technology that connects people to their unique travel dreams, Yanolja delivers hyper-connected travel technology, guided by data and inspired by people. By providing services across more than 200 countries worldwide, Yanolja’s foundation lies in its unique technology solutions and comprehensive data lake of suppliers and consumer interactions. Levera",
+          "score": 0,
+          "published_date": "2021-08-15T00:00:00.000Z"
+        },
+        {
+          "title": "야놀자 채용 - 2026년 채용정보, 자기소개서 문항",
+          "url": "https://jasoseol.com/companies/4244/careers",
+          "text": "야놀자 채용 - 2026년 채용정보, 자기소개서 문항\n\n채용공고 기업정보 채팅\n\n앱 다운로드\n\n### 자소서 문항 분석 리포트 💡\n\n### 로그인하고 문항 분석을 확인하세요 🔍\n\n다른 방법으로 시작하기\n\n### 이 기업의 공고\n\n823건\n\n### 야놀자\n\n## Global Sales Strategy & Operations Sales Analyst\n\nGlobal Sales Strategy & Operations Sales Analyst\n\n26/03/04 -\n\n2026년 3월 4일 00:43 ~\n\n수시\n\n### 야놀자\n\n## DevOps Engineer (3년 이상)\n\nDevOps Engineer (3년 이상)\n\n26/02/24 - 26/03/05 (9일)\n\n2026년 2월 24일 01:06 ~ 2026년 3월 5일",
+          "score": 0,
+          "published_date": "2022-05-26T00:00:00.000Z"
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉",
+          "description": "버티컬 AI 전문성, 방향 인정 글로벌 트래블 테크 기업 야놀자(총괄대표 이수진)의 김종윤 사업전략총괄(이하 CSO) 및 야놀자클라우드... 인공지능 전략의 중장기 비전을 제시하고 주요 정책을 자문한다. 이번...",
+          "link": "https://www.yanoljagroup.com/ko/press_release/view?id=1504",
+          "pub_date": ""
+        },
+        {
+          "title": "[취준생을 위하여(264)] 야놀자, '버티컬 AI'와 '놀유니버스'에 실린 글로벌 테크 기업 비전을 통찰하라 - 뉴스투....",
+          "description": "성장 전략을 면밀히 분석하고, 새롭게 출범한 '놀유니버스'를 통해 글로벌 트래블 테크 기업으로서의 역량 강화 방향성을 파악해 기업의 미래 비전에 기여할 수 있는 역량을 강화해야 한다. 이처럼 야놀자가...",
+          "link": "https://www.news2day.co.kr/article/20251021500009",
+          "pub_date": ""
+        },
+        {
+          "title": "리더십 개편 100일…야놀자, ‘비전 3.0’으로 AI 여행 시대 연다",
+          "description": "동안 야놀자가 기술 중심 성장 전략과 글로벌 확장 방향을 보다 명확히 했다는 평가가 나온다. 기존 플랫폼 사업을 넘어 데이터와 AI... 新 성장 비전 ‘야놀자 3.0’ 야놀자 CI. /사진제공=야놀자 야놀자는 올해...",
+          "link": "https://www.fntimes.com/html/view.php?ud=202603111557391031b5b890e35c_18",
+          "pub_date": ""
+        },
+        {
+          "title": "야놀자, ‘AI·빅데이터쇼’서 글로벌 여행 테크 전략 공유",
+          "description": "전환: 야놀자의 버티컬 AI 전략’을 주제로 발표에 나선다. 이번 세션을 통해 장 CTO는 여행자에게... 제공하는 AI 에이전트 기반 고객 서비스 등의 방향성을 현장에서 공개할 예정이다. 야놀자 관계자는...",
+          "link": "https://www.ceoscoredaily.com/page/view/2025061009325630790",
+          "pub_date": ""
+        },
+        {
+          "title": "야놀자, 플랫폼 넘어 테크 리더로…AI 혁신 가속",
+          "description": "중장기 비전 실현을 위한 ‘제2의 도약’을 선포했다. 이는 급변하는... 27일 야놀자에 따르면 가장 핵심적인 변화는 B2B(기업간 거래) 사업... 자리에서 야놀자의 AI 기술 기반 확장 전략과 운영 방향에 대한 강한...",
+          "link": "https://v.daum.net/v/20260227162630893",
+          "pub_date": ""
+        },
+        {
+          "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉",
+          "description": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉, AI 산업 발전 및 국가 전략 자문 역할 수행…야놀자의 여행 특화 버티컬 AI 전문성, 방향 인정",
+          "link": "https://www.hankyung.com/article/202511217597P",
+          "pub_date": ""
+        },
+        {
+          "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉",
+          "description": "야놀자는 김종윤 사업전략총괄(CSO) 겸 야놀자클라우드 대표가 국가인공지능전략위원회 자문위원으로 위촉됐다고 21일 밝혔다.국가인공지능전략위원회는 국가 인공지능(AI) 경쟁력 강화를 위한 범정부 정책의 수립과 추진 방향을 심의·조정하는 최고 수준의 AI 정책 기구다. 산업계·학계·연구계 등 각 분야 전문가가 참여해 국가 AI...",
+          "link": "https://daily.hankooki.com/news/articleView.html?idxno=1299484",
+          "pub_date": ""
+        },
+        {
+          "title": "김종윤 야놀자 CSO, 국가인공지능전략위원회 자문위원 위촉",
+          "description": "글로벌 트래블 테크 기업 야놀자의 김종윤 사업전략총괄(CSO) 및 야놀자클라우드 대표가 국가인공지능전략위원회 자문위원으로 위촉됐다고 21일 밝혔다.국가인공지능전략위원회는 국가 AI 경쟁력 강화를 위한 범정부 정책의 수립과 추진 방향을 심의·조정하는 최고 수준의 AI 정책 기구로 산업계·학계·연구계 등 각 분야 전문가가 참여해 국가 인공지능 전략의 중장...",
+          "link": "https://www.businessplus.kr/news/articleView.html?idxno=102481",
+          "pub_date": ""
+        },
+        {
+          "title": "리더십 개편 100일…야놀자, ‘비전 3.0’으로 AI 여행 시대 연다",
+          "description": "동안 야놀자가 기술 중심 성장 전략과 글로벌 확장 방향을 보다 명확히 했다는 평가가 나온다. 기존 플랫폼 사업을 넘어 데이터와 AI... 新 성장 비전 ‘야놀자 3.0’ 야놀자 CI. /사진제공=야놀자 야놀자는 올해...",
+          "link": "https://v.daum.net/v/20260311163452990",
+          "pub_date": ""
+        },
+        {
+          "title": "김종윤 야놀자 CSO, 국가AI전략위원회 자문위원 위촉",
+          "description": "야놀자는 김종윤 사업전략총괄(CSO) 겸 야놀자클라우드 대표가 국가인공지능전략위원회 자문위원으로 위촉됐다고 21일 밝혔다.국가인공지능전략위원회는 국가 AI(인공지",
+          "link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2150316",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "야놀자, AI 시대 대응한 글로벌 여행 전략 ‘야놀자 3.0’ 발표",
+          "url": "https://www.venturesquare.net/1043341/",
+          "text": "야놀자, AI 시대 대응한 글로벌 여행 전략 ‘야놀자 3.0’ 발표 -- -- -- --\n\n야놀자(총괄대표 이수진)가 창립 21주년을 기념하며 AI 시대에 맞춘 새로운 성장 전략인 ‘야놀자 3.0’을 발표했다. 2005년 설립된 야놀자는 지난 20년 동안 기술 중심의 서비스 혁신을 통해 국내외 여행 및 여가 산업의 디지털 전환을 주도해 왔다.\n\n야놀자는 창립 초기 생존과 기반 구축에 집중했던 ‘야놀자 1.0’, 모바일 중심 혁신을 통해 빠른 성장을 이룬 ‘야놀자 2.0’을 거쳐, 이제 AI 기반 산업 재편에 대응하는 새로운 단계로 나아가고 있다. ‘야놀자 3.0’은 글로벌 트래블 테크 기업으로서의 정체성을 강화하고, 향후 기업의 전략적 방향성을 구체화하는 데 목적을 두고 있다. 핵심 가치로는 ‘고객 중심’, ‘기술 선도’, ‘원 팀(One Team) 조직문화’를 설정해 기술 혁신과 고객 경험 차별화를 동시에 추구한다.\n\n이를 위해 야",
+          "score": 0,
+          "published_date": "2026-03-10T00:00:00.000Z"
+        },
+        {
+          "title": "Yanolja Unveils 'Yanolja 3.0' Vision to Become AI-Powered Global Tech Leader - Seoul Economic Daily",
+          "url": "https://en.sedaily.com/news/2026/03/10/yanolja-unveils-yanolja-30-vision-to-become-ai-powered",
+          "text": "Yanolja Unveils 'Yanolja 3.0' Vision to Become AI-Powered Global Tech Leader - Seoul Economic Daily\n\nSeoul Economic Daily\n\nSeoul Economic Daily\n\nKST\n\nSeoul Economic DailyKorea's Leading Business News Since 1960\n\n한국어\n\n|Summary\n\nAAA\n\nYanolja \"Leaping to Global Tech Company with AI\"... Announces 'Yanolja 3.0' on 21st Anniversary\n\nGlobal travel tech company Yanolja announced on the 10th that ",
+          "score": 0,
+          "published_date": "2026-03-10T00:00:00.000Z"
+        },
+        {
+          "title": "Yanolja announced on the 10th that it has declared \"Yanolja 3.0,\" a new growth vision to lead the pa.. - MK",
+          "url": "https://www.mk.co.kr/en/it/11983856",
+          "text": "Yanolja announced on the 10th that it has declared \"Yanolja 3.0,\" a new growth vision to lead the pa.. - MK\n\ngo to news\n\n# detail\n\n* It has been translated using AI\n\nDeclaration of 'Yanolja 3.0' for new growth visionCustomers, technology, and one team as core values\n\n사진 확대\n\nLet's play together. CI\n\nYanolja announced on the 10th that it has declared \"Yanolja 3.0,\" a new growth vision to lead the paradigm shift in the travel industry in the era of artificial intelligence (AI).\n\nYanolja, which was ",
+          "score": 0,
+          "published_date": "2026-03-10T00:00:00.000Z"
+        },
+        {
+          "title": "[네카쿠배놀 해부⑤] AI·B2B로 판 키우는 야놀자…\"모델 구체화가 상장 관건\"",
+          "url": "https://m.thebigdata.co.kr/view.php?ud=2026031915312932790a47484cf8_23",
+          "text": "[네카쿠배놀 해부⑤] AI·B2B로 판 키우는 야놀자…\"모델 구체화가 상장 관건\"\n\n메뉴\n\n## \n\n검색\n\n- 전체기사\n- 데이터이슈\n- 경제\n- 산업\n- 테크놀로지\n- 정치·사회\n- [연예·스포츠](ht",
+          "score": 0,
+          "published_date": "2026-03-19T00:00:00.000Z"
+        },
+        {
+          "title": "AI took investors on a date in 2025. In 2026, analysts say ...",
+          "url": "https://finance.yahoo.com/news/ai-took-investors-on-a-date-in-2025-in-2026-analysts-say-its-time-to-foot-the-bill-140012067.html",
+          "text": "AI took investors on a date in 2025. In 2026, analysts say it's time to foot the bill.\n\nOops, something went wrong\n\n# AI took investors on a date in 2025. In 2026, analysts say it's time to foot the bill.\n\nStockStory Top Pick\n\nMU +3.68%\n\nAVGO +0.86%\n\n[",
+          "score": 0,
+          "published_date": "2026-01-05T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "SoftBank Vision Fund invests $1.7 bln in S.Korean travel firm Yanolja - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZ3NmMFNzYXQ3M2UzMzMtZmU2ekR5OG1FajZNT2VLSWlDSXZwZnotM1F6NFNudU9yUjhqbnE2WnQ5QjRleGdsckxlenQ2ZXhWUEphbUV3XzRWZ3FvYmR6SE5fMC1QNkdsa2F2YldTSWtBRGFtYXBJNVp0X0dPQWFWNU1MVWFQZEY0ZVlXeGhVN2M1aG5jU0JDb19oZTA4NWQwS0VvZENzYUtSQ2N6STNzV1RwUERmOFpmLW5wNkRvaWR0VUFOZjJCQjduRm4?oc=5",
+          "pub_date": "Wed, 14 Jul 2021 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "SoftBank-Backed Unicorn Yanolja Buys Israeli Travel-Tech Company - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNckR4eEQ0NkZuTjgySmNkcVZwNzhwaTVzTmZpQ3NKdG5qN1hrRllKWkw4UDFJcmVUX3hTYmI3eVVSRldiV0Z1OVhBZUZqcEdsRjY1bkJuZmVVenFGamc2dkRLQkgzUDdzY1dHZ1BRY2MzOWMxLTBNVERTZ18zdm5UbzdYdW1QTTdvNHhUcVduV0o1N2Z2NUNRbXdXaEpGOXR4bDB3OHc1VWs0YmlxVWxsZGhBX3ZuZw?oc=5",
+          "pub_date": "Sun, 14 May 2023 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "digital transformation - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15TWxpY3QzQWtvWG9XTjFXZWxrM3BqUVBFa184dTg3dVZSUWxGX3Zta0VZU2pHOGtJbHBJWkhpLVpoSFRIVEd6a1NJbkhkekI0eUNRNHZrdHZQN3RWdnc0?oc=5",
+          "pub_date": "Sun, 12 Jun 2016 10:09:01 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "travel tech - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tMzR2cWtJXzZlQkJpUmxIOTR0N2ExUXVWN1UtV3B4Smg5TlRkQk1DQUs0RC1rWGgtUHM0aDl4N0tuNnUxYS1HemtSYVdubzJQ?oc=5",
+          "pub_date": "Tue, 14 Jun 2016 22:17:21 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "SoftBank-backed travel tech startup Yanolja acquires Korean e-commerce company Interpark - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOXl0TnJYNnVaakYzeTlKUmdqNFJNWDZlUlFCQ3VfUmxEMzk2VnVlaW5maFR6WTE4bFRPZUp3eFVnNU9VZU9YaDVILXR1aUFlZHhFV1BaQ1VURUNHVHhGSmMzdU5ZdW0xNEFyTHNxTGVidlNUZFJGZGJFUktsY0VGOUtXWTI0ZUxFaGxMTS1DcGR2MlItSmlscWhxakZvTXoyRGNhUDg0WW9FaEk5SllWU3RvLU16Y2NyakgxRnQxRVE?oc=5",
+          "pub_date": "Thu, 14 Oct 2021 07:00:00 GMT",
+          "source": "TechCrunch"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.25,
+        "evidence": "14 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "company_website",
+      "section": "overview",
+      "url": "https://yanolja.in"
+    },
+    {
+      "name": "tech_blog",
+      "section": "tech",
+      "url": "https://medium.com/yanolja"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=야놀자"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "medium_velog",
+      "section": "tech",
+      "url": "https://medium.com/yanolja"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=야놀자+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%95%BC%EB%86%80%EC%9E%90"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=야놀자 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=야놀자 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=야놀자 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=야놀자 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EC%95%BC%EB%86%80%EC%9E%90"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

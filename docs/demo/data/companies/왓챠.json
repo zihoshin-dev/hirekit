@@ -1,650 +1,890 @@
 {
   "company": "왓챠",
-  "sources_used": [
-    "google_news",
-    "naver_search",
-    "brave_search",
-    "exa_search",
-    "credible_news",
-    "dart"
-  ],
-  "result_count": 12,
-  "sections": [
-    "strategy",
-    "culture",
-    "overview",
-    "tech"
-  ],
-  "data": {
-    "company_name": "주식회사 왓챠",
-    "company_name_eng": "Watcha, Inc.",
-    "stock_name": "왓챠",
-    "ceo": "박태훈",
-    "address": "서울특별시 서초구 강남대로 343 (서초동, 신덕빌딩) 3층",
-    "industry_code": "59130",
-    "established": "20110921",
-    "homepage": "team.watcha.com",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
-        "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
-        "link": "https://blog.naver.com/ytjoo88/224215031143",
-        "pub_date": "20260313"
-      },
-      {
-        "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
-        "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
-        "link": "https://blog.naver.com/ve_getable/224210299768",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
-        "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
-        "link": "https://blog.naver.com/label3548/224210103873",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
-        "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
-        "link": "https://blog.naver.com/fusekimo198735/224209926005",
-        "pub_date": "20260309"
-      },
-      {
-        "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
-        "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
-        "link": "https://blog.naver.com/ve_getable/224207830667",
-        "pub_date": "20260307"
-      },
-      {
-        "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
-        "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
-        "link": "https://blog.naver.com/magicpaul7/224204238038",
-        "pub_date": "20260304"
-      },
-      {
-        "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
-        "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
-        "link": "https://blog.naver.com/serohero/224199063326",
-        "pub_date": "20260228"
-      },
-      {
-        "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
-        "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
-        "link": "https://blog.naver.com/jobpass_/224197697044",
-        "pub_date": "20260227"
-      },
-      {
-        "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
-        "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
-        "link": "https://blog.naver.com/study_edu_/224193834977",
-        "pub_date": "20260224"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      },
-      {
-        "title": "[20260320] copilot / chatgpt / gemini 대화록",
-        "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
-        "link": "http://cafe.naver.com/woodmanwriting/207",
-        "pub_date": ""
-      },
-      {
-        "title": "인천적십자병원 물리치료사 채용공고",
-        "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
-        "link": "http://cafe.naver.com/pinklqgzd/1923",
-        "pub_date": ""
-      },
-      {
-        "title": "2026-03-20 뉴스 정리",
-        "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
-        "link": "http://cafe.naver.com/todaybigboss/4858",
-        "pub_date": ""
-      },
-      {
-        "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
-        "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
-        "link": "http://cafe.naver.com/uworldexam/149566",
-        "pub_date": ""
-      },
-      {
-        "title": "제주항공 채용 승무원 큐피드",
-        "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
-        "link": "http://cafe.naver.com/sheiszzz/1214780",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "&quot;스타트업, AI 비서 시장 기회 있어…맞춤화·연결 중요&quot;",
-        "description": "김영무(왼쪽부터) 카카오벤처스 심사역과 신재민 트릴리온랩스 대표, 박지혁 와들 대표가 AI 에이전트 발전 방향을 논의하고 있다. 사진제공=카카오벤처스",
-        "link": "https://www.sedaily.com/article/13982169",
-        "pub_date": ""
-      },
-      {
-        "title": "왓챠의 혁신적인 비즈니스 모델 분석과 미래 전략에 대한 심층적 고찰",
-        "description": "전략적 방향을 결정하는 데 도움을 받을 수 있다. 비즈니스에서 이러한 산업구조분석모델을 적용하면 기업은 경쟁업체와의 관계를 이해하고, 핵심 경쟁 요소를 파악할 수 있다. 예를 들어, 신규 진입자의 위협이 낮은 산업에서는 기업이 가격 경쟁에 더 집중할 수 있으며, 대체 상품의 위협이 높은 경우 차별화된 제품이나 서비스 개발에 노력을 기울일 필요가 있다. 이와 같은 분...",
-        "link": "https://www.reportshop.co.kr/socials/2203605",
-        "pub_date": ""
-      },
-      {
-        "title": "AI와 디지털 기반의 미래 미디어 계획 - 경제정책 시계열서비스 | 정책시계열서비스",
-        "description": "이번 계획은 ‘글로벌 미디어 강국 실현(국정과제27번)’을 달성하기 위해 국내 미디어·콘텐츠 산업의 AI 접목과 디지털 전환을 가속화하고자 하는 맞춤형 실천전략임. ’22년 9월 정부가 경제·사회 전 분야에서 디지털 대혁신과 구조적 전환을 본격적으로 추진하기 위해 마련한 「대한민국 디지털 전략」의 미디어 분야 세부전략이자, ’22년 11월 발표한 「디지털 미디어·콘텐...",
-        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=75648",
-        "pub_date": ""
-      },
-      {
-        "title": "왓챠, 상장 숨 고르기…'프리 IPO' 먼저 시동",
-        "description": "박태훈 왓챠 대표는 지난 2월 '2022 왓챠 미디어데이'를 통해 &quot;왓챠는 왓챠 2.0 전략을 통해 음악, 웹툰 사업에 새롭게 뛰어든다&quot;며 &quot;콘텐츠 개인화를 강화해 기존 플랫폼과는 다른 왓챠만의 서비스를 내놓겠다&quot;고 말한 바 있다.",
-        "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1531837",
-        "pub_date": ""
-      },
-      {
-        "title": "[2021 콘텐츠산업포럼] DAY5. 디지털 전환기, 방송영상산업의 ‘빅뱅’",
-        "description": "대표는 ‘AI와 데이터를 기반으로 고도화된 콘텐츠 추천 전략을... OTT 사업을 시작했다고 말했습니다. 지금까지 590억 가량의 투자를... 또한, ‘개인의 취향이 존중받는 세상을 만들자’ 라는 비전으로 왓챠의...",
-        "link": "https://blog.naver.com/koccablog15/223734068057",
-        "pub_date": ""
-      },
-      {
-        "title": "빅데이터 기업 '왓챠2.0'...&quot;웹툰·음악·영상 모두 모여!&quot;",
-        "description": "비즈니스 사업을 하는 ‘왓챠’의 비전과 미래 전략 등을 공유했다. 이어, 왓챠 투자사인 카카오벤처스... 모바일 데이터 및 분석 플랫폼 data.ai(앱애니)에 따르면, 왓챠는 국내 OTT 중 7일, 30일 리텐션 비율이 가장...",
-        "link": "https://it.donga.com/101793/",
-        "pub_date": ""
-      },
-      {
-        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
-        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
-        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
-        "pub_date": ""
-      },
-      {
-        "title": "콘텐츠 크리에이터 관점: 2024 Apple Intelligence와 뉴 Siri 활용전략",
-        "description": "혁신적인 방향으로 이끄는 지적 동반자로 진화했습니다. 창작의... 4  창의성 증폭 메커니즘 AI는 단순한 보조 도구를 넘어 창의성의 촉매제로 진화했습니다. ● 창의성 지원 전략 - 다각도 아이디어...",
-        "link": "https://contents.premium.naver.com/itransformlabs/aisolocontents/contents/241214141204120nj",
-        "pub_date": ""
-      },
-      {
-        "title": "넷플릭스 콘텐츠 분석을 통한 미래 콘텐츠 기획과 서비스 디자인 전략",
-        "description": "디자인 전략 저자 : 위디엑스 신지영 실장 *****@wedesignx.com * 본 글의... 제작 방식과 릴리즈 프로세스 또한 넷플릭스의 치밀한 전략에 따라... 디지털 기반 기술의 적극적 도입과 디지털 콘텐츠 전략, 멀티 플랫폼...",
-        "link": "https://www.wedesignx.com/knowledge/netflix-content-strategy-new-series",
-        "pub_date": ""
-      },
-      {
-        "title": "2024 연합인포맥스 창사24주년 컨퍼런스 기조연설.hwp",
-        "description": "2024 연합인포맥스 창사24주년 컨퍼런스 (2024.5.30) 기조연설 - 정부의 AI 전략 및 정책방향 - 2024. 5. 30.... 오늘 AI의 글로벌 생태계를 짚어보고, 우리 정부는 어떠한 비전과 전략을 가지고 이에 대응하고 있는지를...",
-        "link": "https://www.moef.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000026357&fileSn=1",
-        "pub_date": ""
-      }
-    ],
-    "google_news": [
-      {
-        "title": "왓챠는 왜 실패했을까? - 요즘IT",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02Z19pcmxKbjlFLWFxVUFvaW9SREwwQ0xmeWlHNmtESjRtMDctYU5MWmloT1NxTzM5MjhJUU9wTWVOV2I1bndNY0gxMzNGMzdqZlNMT0FoTjhaZw?oc=5",
-        "pub_date": "Mon, 08 Sep 2025 07:00:00 GMT",
-        "source": "요즘IT"
-      },
-      {
-        "title": "감사인 '의견거절', 왓챠가 어쩌다…490억 상환 폭탄 그대로 - mt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LbER5aDFkR3BCNkxOYmg3ZjR4ZlJ2MjBES3IyRjNRQ3psSW45d3lYcTdacHo5Mm1wdElZSzNKZTRtRy1jbHJFbnFqcEJQRE1iS1FJMUJtbmZLOXBIb3ZjN29JalFWOG8?oc=5",
-        "pub_date": "Sun, 15 Jun 2025 07:00:00 GMT",
-        "source": "mt.co.kr"
-      },
-      {
-        "title": "‘좋좋소 신화’ 종말? 기업회생 신청한 OTT 왓챠 앞 위험한 변수들 - 더스쿠프",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91a3BGc1Fody1YYjhLM1JmX0lad1hRT2pPTGRtYTFreTRJODIwdG50dWttQ212a053RFdfQW1lMDk0elR4UWRocE9KYWkybmVScjgwMFNhczFYYlRsOHFwZzdmZTJ6Z3VRNGt1UVJn?oc=5",
-        "pub_date": "Tue, 12 Aug 2025 07:00:00 GMT",
-        "source": "더스쿠프"
-      },
-      {
-        "title": "회생 기로 선 OTT 왓챠, 채권자 설득할까 - 뉴스톱",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45VVlYbzloa1pqRmt4ZHdfemNOTzdndjhkWFBVcFpQREtoR29FT1ZNeTROWmZVQWIycmlmU1JnbFZQZGtqM1dNeTZHT0xjZl9LLV93ckJERWEtbVhQUFBTYnhaQTNHbDNuSEVNN1hsaw?oc=5",
-        "pub_date": "Wed, 09 Jul 2025 07:00:00 GMT",
-        "source": "뉴스톱"
-      },
-      {
-        "title": "[OTT지각변동 下] 수익개선 시급한 토종플랫폼…“내수 한계 뛰어넘으려면” - 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wenhkclUxVWc1UDA3bUt5UE5IWVp5WXBwSmVwZjMzRUVwNUtSeG12b1R3YWc5SEhTMmJoUWNxRVhtQkl2dUZnU3o4X1A4cURlNmNrUWVmRlc1WFBRZEhaTV9n?oc=5",
-        "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
-        "source": "디지털데일리"
-      },
-      {
-        "title": "존폐위기 '1세대 토종 OTT' 왓챠, 박태훈 고객 이탈·악화된 재무·투자자 불신 '삼중 악재' - 비즈니스포스트",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TZTU2YlZVQjJuZnFqRWU3cW5ueVZMNUNCemx5bG1jbjZObVBpSGRLRlFzRlZSMDExbGtXOFlKeF9qLUV2cFF3TGJ1bk9PRTFjT25NQm9sdFhJNlRwTkNwR2VMcFh0SXMxeWtlMUpqdkFrbkU?oc=5",
-        "pub_date": "Thu, 10 Jul 2025 07:00:00 GMT",
-        "source": "비즈니스포스트"
-      },
-      {
-        "title": "넷플릭스 1500만 ‘공룡’ 될 때 토종 1세대 왓챠는 매각 수순 - 데일리팝",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTVENrN3F2YTQ3TlpXN3NObW55WkdmUUtleG9qNWNWSnNHOUs3Rmc5RGNUaW5OYmxoZkxsUUJ3eXUySXA1NHV0MVhZemJicWpwby16cDNOaWRrYmFkZkZ0OUJZZ3kwUGZj?oc=5",
-        "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
-        "source": "데일리팝"
-      },
-      {
-        "title": "OTT 한파 속 라프텔, 코어 팬덤 힘으로 홀로 흑자 - 한스경제",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02MnBoU1VPWGpXalVMZlhZMHdhNXMyT3RZRkQ1c2wtY2J2SmF2bF9NcUNUZzRFNldXdU00ZGNQZDdsemQ1XzFoVVl5WXpIMkJPR1gtRVRqNzZKOG1KMWRiQkhFeFVvQmR0T3Aw0gFvQVVfeXFMTnJNSDE3SUx3S3N5UEZnN01yZUQ3TTI2bGZrajJhUXFsZ185YU9lMFlYOURxVGlRSXprUlFGUXotRVNEOUNWRkN1bnhYOFktSDJSZmszdVh0R1ZNZVpYSGxTUE9PbFZOZ21DY2RWYW5N?oc=5",
-        "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
-        "source": "한스경제"
-      },
-      {
-        "title": "위기의 왓챠, 월 이용자 49만명 불과···반등 키는? - 뉴스웨이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fRlJIZXAzT2ZSXzQyLThrNVFRaFBfc2YwQ25hbzZyeFN3QkYtZHE1WUcyOVpIdzJhS0E3UG13WmFJMnNHT1ByRzRiT3RDRnQ0ZHpLQmllLXllcU43bm56WjctclpNci1YRFE?oc=5",
-        "pub_date": "Fri, 11 Apr 2025 07:00:00 GMT",
-        "source": "뉴스웨이"
-      },
-      {
-        "title": "폐업 위기 왓챠의 부활, 비결은 '올드 무비' - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtbXRPOHNISmEwajFKeXNtbU9FX0ZhdG5VQ1EwR3FpbEsyWDZ6MzY4LWk2VXptM0JYOUZINTVxUDdkcEdYY1k5UG9vVlc0SnktMXBNTkgySjRTQdIBVEFVX3lxTFBsVUI5NjFKVV8tMXY3Wk1pWndabnFRbnNhX2VmSW5Ea1VibXBVZE1fUTF3WDl6WFVpRXZ5YU5NNUhmMUNnZUM3MUFKaUxqMFFsaFJQTg?oc=5",
-        "pub_date": "Fri, 12 Jul 2024 07:00:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "LG유플러스는 왓챠를 얼마나 '싸게' 살 수 있을까 - 인베스트조선",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWGxORG9hTjRKbnA2dFhwSHF4TVFfU1l4YmdQSXBCUE9tT0F0VlRyU0FLaE40UUxLLUY3Ml9jcE9vRnZzRF9uaWJSalZiMlhlYVd6YnVsRG8yWkIxSUMzaFkxbXU2N3NEZFlCbzBSZ293MHpROXlhSC1MTDVFT2NXUmtOOA?oc=5",
-        "pub_date": "Thu, 25 May 2023 07:00:00 GMT",
-        "source": "인베스트조선"
-      },
-      {
-        "title": "광고요금제로 활로 찾는 OTT…기술 고도화·개인정보 보호 관건 - 에너지경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00dTRzV3ozS25zaWFzQ2FsS2FlOFBqelVIR3U0U2pMOXh0dHllOXVtNUFTcWZPU1cxRFp0a3hOSS16WEp5MTVTQWdfQ0plQmlDbUt6WE84aUh4dkU?oc=5",
-        "pub_date": "Thu, 27 Mar 2025 07:00:00 GMT",
-        "source": "에너지경제신문"
-      },
-      {
-        "title": "'적자 수렁' 왓챠, 사업 존속 '비상등' - 톱데일리",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQdVdmYUstTjR3Z1p2Q0hJRU85Z0ttX3ltdWc5MWRYem05WHFIS3R1OEhWelNVTGVCNElJd0ZXRnhDN3QtVmtNd0otUFFLcDg?oc=5",
-        "pub_date": "Mon, 17 Apr 2023 07:00:00 GMT",
-        "source": "톱데일리"
-      },
-      {
-        "title": "지난해 적자 60% 줄인 왓챠, 올해 흑자 전환 가능할까 - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFLUFHcnpES2dQeTNkUHNHaXUxM0ktWGQzMkhFQzRIRUYxN2RRTkh3d1Atc0ZmLVFlOVA5QTlrSmpyeDVkbkNaaEtubHFWejVGVzd0NXhVczVUbFBwaWFWa9IBeEFVX3lxTE9hdFdGb3BHTFYxNEQwX24yT0tQUkFQd2lTOThDSVhCYmJZVnBueUlxMVBTUkZsSm54MXV5WnVLX0w1T0xEYzJxNkx1MlRuM1FISndKOXFoMXFpOFJZRDY4SDJCVG9CU3BPekR2d1hYbW5EdXdrckYwRQ?oc=5",
-        "pub_date": "Fri, 12 Apr 2024 07:00:00 GMT",
-        "source": "뉴시스"
-      },
-      {
-        "title": "매각작업 차질, 왓챠…카카오가 눈독 들인다 - CEO스코어데일리",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uT1RaU1VDd3VoQng1ZVducFZiWUlNekNMRDFQUllVYWtvWjVJS1NzVnoyX0ZxN2ppM05EZzVYRk0xR3FCbjhaVG5YNkYzTFJyLUJTZ0twREFreXY3UWxPcHNIa1FYTjZWdmQw?oc=5",
-        "pub_date": "Wed, 28 Dec 2022 08:00:00 GMT",
-        "source": "CEO스코어데일리"
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "왓챠 기업정보 - 채용 4건, 평균연봉 4,723만원, 인원 90명, 업력 15년, 서울 서초구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/29",
-        "description": "왓챠 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "왓챠 채용 정보",
-        "url": "https://www.rocketpunch.com/companies/watcha/jobs",
-        "description": "# <strong>왓챠의 모든 서비스는 더 많은 사람들이 자신의 취향을 깨닫고, 취향에 맞는 콘텐츠를 발견할 수 있도록 하는 것을 목표</strong>로 합니다."
-      },
-      {
-        "title": "㈜왓챠 2025년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/C/frograms/Company_name/%E3%88%9C%EC%99%93%EC%B1%A0",
-        "description": "왓챠는 더 많은 사람이 ... 더 다양한 세상을 만들어 나갑니다. <strong>전 분야에서 상시채용 중이며, 채용이 완료되는 대로 해당 공고 삭제</strong>됩니다...."
-      },
-      {
-        "title": "블라인드 | 왓챠 기업정보",
-        "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/",
-        "description": "팀블라인드 채용 · 검색 · 글쓰기 로그인 · 왓챠 · Rating Score3.5 (127개 리뷰) 이 회사 리뷰하기 · 홈페이지 watcha.com · 업계 IT/소프트웨어 · 본사 서울특별시 서초구 · 설립 2010 · 직원수 · 연봉정보 - 접기 · Rating Score3.5 127개 리뷰 · Ratings by Category · 3.5 커리어 향상 · 3.9 업무와 삶의 균형 · 3.7 급여 및 복지 · 3.8 사내 문화 ·"
-      },
-      {
-        "title": "멋진 동료를 구하고 있어요 - 왓챠 WATCHA",
-        "url": "https://watcha.team/81b8ab72-1a44-4d6c-a418-bbaed702c429",
-        "description": "지금 보시는 채용 공고는 2026년 2월에 업데이트된 왓챠의 최신 정보입니다! 😊"
-      },
-      {
-        "title": "왓챠 진행 중인 채용정보 총 0건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/43998662/recruit",
-        "description": "왓챠 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
-      },
-      {
-        "title": "왓챠 채용 | DB 인턴",
-        "url": "https://www.superookie.com/jobs/5ee323268b129f046608d659",
-        "description": "우대사항 -일본어를 jlpt2급 이상으로 하시면서 일본 콘텐츠를 많이 보신분 -영어권 국가의 거주 경험이 있으시면서 영어 콘텐츠를 많이 보신분 -다양한 국가와 장르의 영화, 드라마 감상을 즐기시는 분 -영화, 드라마 감상 편수가 1,000편 이상인 분 -해외 영화제 소식이나 쇼비지니스쪽 이슈들을 팔로업하고 계신 분 -문화 전반에 대한 제반 지식이 풍부하신 분 문장 구사력, 언어 능력이 좋으신 분"
-      },
-      {
-        "title": "왓챠 2026년 기업정보 | 140건 면접후기 3.3 면접난이도 | 잡플래닛",
-        "url": "https://www.jobplanet.co.kr/companies/87452/interviews/%EC%99%93%EC%B1%A0",
-        "description": "요즘 대세 워라밸 만족스런 문화 인생 최고 동료 수평적인 문화 최고의 연봉·보상 복지 끝판왕 분위기 좋아요 탄탄한 비즈니스 인지도하면 여기 직원 존중은 기본 주 4.5일 꿀근무 능력있는 동료"
-      },
-      {
-        "title": "왓챠 채용 | 신사업 TF RA (리서치 인턴)",
-        "url": "https://www.superookie.com/jobs/5a8bf6f48b129f703b1ed061",
-        "description": "왓챠는 모두의 다름이 인정받고 개인의 취향이 존중받는, 더 다양한 세상을 만드는 회사입니다. • &quot;왓챠&quot;는 영화, 드라마, 예능, 다큐, 애니메이션까지 8만여 편의 작품을 무제한으로 감상할 수 있는 온라인 동영상 스트리밍 ..."
-      },
-      {
-        "title": "왓챠 2026년 기업정보 | 기업리뷰 134건, 연봉정보 91건, 면접후기 140건, 복지정보 54건, 채용공고 0건",
-        "url": "https://www.jobplanet.co.kr/companies/87452/landing/%EC%99%93%EC%B1%A0",
-        "description": "왓챠 기업정보 - 산업: 포털/인터넷/콘텐츠, 기업형태: 중소기업, 사원수: 110명, 설립: 2011.09.21 | 왓챠의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "왓챠 채용 - 2026년 진행 중인 공고 확인하기 - 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/43998662/recruit",
-        "text": "왓챠 채용 - 2026년 진행 중인 공고 확인하기 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n왓챠\n\n솔루션·SI·CRM·ERP\n\n2738\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유공유--\n\n# 채용 정보\n\n## 리스트 정렬 순서 선택\n\n- 마감 9건\n- 진행중 0건\n- 전체 9건\n\n등록순 등록순 마감순\n\n## 채용 진행 중 직무\n\n- 인바운드상담원\n- DBA\n- 영상디자이너\n- 콘텐츠마케터\n- [회계담당자](ja",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "왓챠 채용 | 채용공고",
-        "url": "https://www.rocketpunch.com/companies/watcha/recruit",
-        "text": "로그인 후 검색 가능\n\n홈가장 빠른 소식\n\n네트워킹이벤트 · 컨퍼런스업데이트\n\n채용새로운 기회 탐색\n\n교육부트캠프 · 직무 역량강화\n\n채팅나를 위한 소식\n\n허브기업 · 학교 · 사람 모아보기\n\n접기\n\n개인정보와 약관\n\n기업 서비스\n\n지원센터\n\n쿠키 맞춤 설정\n\n본 서비스에서 제공하는 사용자의 개인정보 데이터를 포함하여 각 정보주체의 동의 없이 데이터를 무단으로 수집하는 행위를 금지 및 거부합니다. 공개된 데이터도 크롤링 등 기술적 장치를 이용해 ",
-        "score": 0,
-        "published_date": "2013-01-10T00:00:00.000Z"
-      },
-      {
-        "title": "블라인드 | 왓챠 기업정보",
-        "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0",
-        "text": "블라인드 | 왓챠 기업정보\n\n블라인드 기업서비스\n\n# 왓챠 회사소개\n\n- 연봉정보 -\n- 직원수 -\n- 설립 2010\n- 본사 서울특별시 서초구\n- 업계 IT/소프트웨어\n- 홈페이지 watcha.com\n- 갤러리\n\n더보기\n\n## 왓챠 리뷰\n\nRating Score3.5 144개 리뷰\n\nRatings by Category\n\n- 3.0 경영진\n- 3.8 사내 문화\n- 3.6 급여 및 복지\n- 3.9 업무와 삶의 균형\n- 3.5 커리어 향상\n\n인기\n\n가장 많이 본 리뷰들 중 임의로 선정된 리뷰입니다.\n\nWhat it means...\n\nRating Score2.0\n\n2커리어 향상\n\n4업무와 삶의 균형\n\n3급여 및 복지\n\n4사내 문화\n\n1경영진\n\nView detailed rat",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "㈜와탭랩스 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/recruit/co_read/c/whatap",
-        "text": "㈜와탭랩스 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n채용중\n\n㈜와탭랩스\n\n솔루션·SI·CRM·ERP\n\n681\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유\n\n## 기업 사진/동영상\n\n--\n\n## 기업정보\n\n솔루션·SI·CRM·ERP\n\n72명\n\n벤처기업\n\n2015.07.01\n\n(12년차)\n\n이동인\n\nIT 모니터링 서비스\n\n국민연금, 건강보험, 고용보험, 산재보험\n\nhttps://www.whatap.io\n\n서울 서초구 서초대로77길 17 (서초동, BLOCK77) 13층 1303호\n\n| 기업 상세 정보 | 산업 | 사원수 |\n| --- | --- | --- |\n| 기업구분 | 설립일 |\n| 대표자 |",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "[채용중] 와탭랩스와 함께 성장할 인재를 찾습니다.",
-        "url": "https://kr.linkedin.com/posts/whatap-labs_%EC%99%80%ED%83%AD%EB%9E%A9%EC%8A%A4whataplabs-%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4-%EC%B1%84%EC%9A%A9-8%EA%B1%B4-%ED%8F%89%EA%B7%A0%EC%97%B0%EB%B4%89-5932%EB%A7%8C%EC%9B%90-activity-7376537851288670208-U_Dw",
-        "text": "와탭랩스(WhaTapLabs) 기업정보- 채용8건, 평균연봉5,932만원, 인원91명, 업력10년, 서울서초구| 원티드| WhaTap Labs(와탭랩스)\nLinkedIn 동의후가입가입이나로그인을하기위해계속버튼을클릭하면LinkedIn사용자약관,개인정보 처리방침,쿠키정책에 동의하게됩니다.\n````````````본문 내용으로가기\n# WhaTap Labs(와탭랩스)님의 업데이트[![W",
-        "score": 0,
-        "published_date": "2025-09-24T00:00:00.000Z"
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "Structural Deficits Behind Growth Narratives Overreliance on ...",
-        "url": "https://dbr.donga.com/casestudyhub/view/article_eng_no/91/",
-        "text": "Structural Deficits Behind Growth Narratives Overreliance on Investment Without Profitability | DBR --\n\n로그인| 회원가입| 고객센터| HBR Korea\n\n##### DBR의 교육솔루션\n\nDBR과 함께하는\n\n-- 로그인 / 회원가입\n\nmenu --\n\n[로그인](https://dbr.donga.com/login?re_url=/casestudyhub/view/article_eng_no",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "와이즈넛 “올해 IPO 예정…AI 에이전트로 2026년 매출 850억 목표” < AI 기업 < AI산업 < 기사본문 - AI타임스",
-        "url": "https://www.aitimes.com/news/articleView.html?idxno=166945",
-        "text": "와이즈넛 “올해 IPO 예정…AI 에이전트로 2026년 매출 850억 목표” --\n\n-- --\n\nwww.aitimes.com\n\n발행일: 2026-02-28 21:39 (토)\n\n로그인\n\n한국어KR 영어EN 일본어JP 중국어CH\n\n뉴스레터 신청\n\n이전 기사보기 다음 기사보기\n\n와이즈넛 “올해 IPO 예정…AI 에이전트로 2026년 매출 850억 목표”\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n스크롤 이동 상태바\n\n가\n\n가\n\n기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n이 기사를 공유합니다\n\n강용성 와이즈넛 대표가 기업 소개를 발표하고 있다.\n\n24년 업력의 국내 대표 인공지능(AI) 기업 와이즈넛이 기업공개(IPO)를 앞두고 ‘AI 에이전트’로 확장하겠다고 밝",
-        "score": 0,
-        "published_date": "2025-01-08T00:00:00.000Z"
-      },
-      {
-        "title": "실적은 역대급, 승부는 AI…네이버·카카오의 ‘성장 전환’ 전략 < AI·클라우드 < AI·보안·SW < 기사본문 - 테크월드뉴스- 김승기 기자",
-        "url": "https://www.epnc.co.kr/news/articleView.html?idxno=328668",
-        "text": "실적은 역대급, 승부는 AI…네이버·카카오의 ‘성장 전환’ 전략 --\n\n456호 --\n\n###### 월간 EPNC\n\n삼성·SK하이닉스, 2026년 AI 메모리 승부수는 ‘HBM4’ 3개월 무료구독-- 월간지 구독하기\n\n278호 --\n\n###### 월간 Embedded\n\n2030년 AI 글로벌 시장 규모 1800조…“2023년 9배 달할 것” 3개월 무료구독-- 월간지 구독하기\n\n205호 --\n\n###### 월간 SecuN\n\n금융 혁신의 시대, 안전 거래 그날까지 3개월 무료구독-- 월간지 구독하기\n\n이전 기사보기 다음 기사보기\n\n실적은",
-        "score": 0,
-        "published_date": "2026-02-12T00:00:00.000Z"
-      },
-      {
-        "title": "The 3 AI strategy investments leaders should make in 2026",
-        "url": "https://www.sectionai.com/blog/the-3-ai-strategy-investments-leaders-should-make-in-2026",
-        "text": "The 3 AI strategy investments leaders should make in 2026\n\nmember log in\n\nDownload Now\n\nFebruary 25, 2026\n\n# We Analyzed 4,500 AI Use Cases. Here's What We Found.\n\nMost employees use AI regularly, but only 2% report use cases that involve meaningful automations, because companies aren’t helping people figure out what to use AI for.\n\n‍\n\nRead The Article\n\nSection Staff\n\nFor compani",
-        "score": 0,
-        "published_date": "2025-12-11T00:00:00.000Z"
-      },
-      {
-        "title": "와이즈넛, 기업 변모 가속화...유안타증권, \"가장 커질 수도 있는 기업\"",
-        "url": "https://www.globalepic.co.kr/view.php?ud=2025060210303598045ebfd494dd_29",
-        "text": "와이즈넛, 기업 변모 가속화...유안타증권, \"가장 커질 수도 있는 기업\"\n\n- Company PR\n- Network\n- Entertainment\n- epic-Column\n- epic-Life\n- Pension Economy\n- [epic-Tv](https://www.youtube.com/@%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90%",
-        "score": 0,
-        "published_date": "2025-06-02T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "멀티클라우드를 이용한 로그 분석 플랫폼 개발하기 - WATCHA - Medium",
-        "url": "https://medium.com/watcha/%EB%A9%80%ED%8B%B0%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%A1%9C%EA%B7%B8-%EB%B6%84%EC%84%9D-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0-8c5f671df559",
-        "text": "멀티클라우드를 이용한로그분석플랫폼개발하기. WATCHA 로그분석플랫폼에대해간략히공유하고자합니다| by Allan Bae | WATCHA | Medium\nOpen in app\nSign up\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https://medium.com/watcha/%EB%A9%80%ED%8B%B0%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%",
-        "score": 0,
-        "published_date": "2019-10-30T00:00:00.000Z"
-      },
-      {
-        "title": "Building an Open-Source WhatsApp Customer Support Stack (n8n + Chatwoot + WAHA) - DEV Community",
-        "url": "https://dev.to/achiya-automation/building-an-open-source-whatsapp-customer-support-stack-n8n-chatwoot-waha-3o86",
-        "text": "Building an Open-Source WhatsApp Customer Support Stack (n8n + Chatwoot + WAHA) - DEV Community\n\nMost WhatsApp automation guides end with \"sign up for this SaaS.\" This one doesn't. I'll walk you through setting up a fully self-hosted WhatsApp customer support system using three open-source tools — no per-message fees, no per-seat pricing, no vendor lock-in.\n\n## The Stack\n\n| Tool | Role | Replaces |\n| --- | --- | --- |\n| n8n | Workflow automation | Zapier, Make.com |\n| [Chatwoo",
-        "score": 0,
-        "published_date": "2026-03-13T00:00:00.000Z"
-      },
-      {
-        "title": "GitHub - hsy2493/Watcha",
-        "url": "https://github.com/hsy2493/watcha",
-        "text": "# Repository: hsy2493/Watcha\n\n- Stars: 1\n- Forks: 0\n- Watchers: 1\n- Open issues: 1\n- Primary language: HTML\n- Languages: HTML\n- Default branch: master\n- Created: 2024-09-03T08:00:40Z\n- Last push: 2024-09-21T12:30:19Z\n- Contributors: 2 (top: hsy2493, Seoyounggit)\n\n---\n\n# `Watcha` - 📺 \n\n1. 작업 기간 : 2024. 03. 27 ~ 2024. 04. 03 \n2. 주제 : TV 프로그램 시청 사이트 \n3. 목적: 고객이 온라인에서 왓챠 사이트를 통하여 영화, 드라마, 예능 프로그램 등의 다양한 TV 프로그램 시청을 주목적으로 진행된 TV 프로그램 시청 사이트 프로젝트 입니다. \n\n왓챠 사이트 (https://watcha.com/)를 참조하여 진행하였습니다. \n\n1",
-        "score": 0,
-        "published_date": "2024-09-03T00:00:00.000Z"
-      },
-      {
-        "title": "currenjin/site-for-developers: 개발자를 위한 북마크 모음집 - GitHub",
-        "url": "https://github.com/currenjin/site-for-developers",
-        "text": "# Repository: currenjin/site-for-developers\n\n🌏🇰🇷 개발자를 위한 북마크 모음집\n\n- Stars: 1138\n- Forks: 110\n- Watchers: 1138\n- Open issues: 1\n- License: MIT License (MIT)\n- Topics: awesome-list, bookmark, bookmarks, coding-tools, curated-list, developer-resources, developers, documents, english, korean, learning-resources, open-source, programming, references, site, useful\n- Default branch: main\n- Created: 2022-11-19T04:35:10Z\n- Last push: 2026-03-14T14:28:38Z\n- Contributors: 30 (top: currenjin, corydalis10",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "WATCHAPEDIA, 1차 프로젝트 후기",
-        "url": "https://velog.io/@choonghee-lee/WATCHAPEDIA-1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9B%84%EA%B8%B0",
-        "text": "WATCHAPEDIA, 1차 프로젝트 후기\n\nbyebye\n\n로그인\n\nbyebye\n\n로그인\n\n# WATCHAPEDIA, 1차 프로젝트 후기\n\n폐쇄맨·2020년 9월 5일\n\n팔로우\n\n19\n\nTIL WATCHAPEDIA WeCha WeCode project [왓챠피디아](https://velog.io/tags/%EC%99%93%EC%B1%A0%ED%94%BC%EB%94%94%EC%95%8",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "international_news": [
-      {
-        "title": "'Netflix Effect' lifts Korean content but market control worries grow - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVUJjdlBCMEpzOHF6MUdKVHk1UWhVUG41dzJsMEt3LUZ3dng3RW44Q3FQLVE3YTlCQk1sN28yTk1EUlYwVjNqaVYzWXE2bjVub3pVOUs3VjlhZng0NG1TY1FuUmZzT1VEVXdGbzNmVlZBYm43SllqeGR3RzB3SGlVWGJJUE9VZFR0NzFTQ0oyb0tEOFFvWlNUS21iVnNWOG4yWDc4SGlZeGdrRUpvMkxHXzdhZE16THpRRkpLQ0VjNA?oc=5",
-        "pub_date": "Mon, 19 Jun 2023 07:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Haitians protest against Haiti's Prime Minister Ariel Henry, in Port-au-Prince - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUDZxYV82OS03bU4yencxMEhMZllYZlhjMUIySUVuUW1zVlVNVEw0cXBIdzJsT0hrbGxlcGFicEtKV3hXWTBHcmNaVFQzeTZ1OUJIRU5rWjZEaXJ5M3RZZlhJQlZjQmZSYTJkWHpxNzRZQ3BSVm9PSFZ4T19iRERoYmQzUFJXaUhyQmpIc3UyNFRGS2wxNlhmS0ZyZlhSeXpoMC11WkMyQ1BzU0xxejFsX1RWVFRpY2lZckE?oc=5",
-        "pub_date": "Wed, 07 Feb 2024 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Beastie Boys win $1.7 mln in copyright case vs. Monster Beverage - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVTBqYlRNdTZwUFE3YmJTeWhmQmNGUUhWZ2UtMTN5bFdQRHZvRHBNSklvVzJsNjFySXFQSUtSdXVLNG4tLWxkSE1heTFuRmFMVWJuSzc4alJoWmIwNWJpd2d0ZThqXzJGY2lZRVIyUFVrWks5ZmRCcnhrSkY2RWZ6SUI3Uzd3MFhJMHFkaFZJb1h5SXlIZ3FIMW5jdjdHVG0tckVRMllYYUdUWk5Bb093RlcwUGg5VG1fcEE?oc=5",
-        "pub_date": "Thu, 05 Jun 2014 07:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Swiss Watch Fortune Heir Joins $5 Billion Monaco Wealth Firm - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ0w2Z1h1OUlKTGZJenAxZW9sRnpmZ2RLdk80dmlFVnQzX0lWa05udFllRThneEhMbXZndFRuZXdOMFlJWTBmN0FicW45SkRjc2FuRjY4akhIYUFObFBHc3Q3UkxseExVbWozeTRBemRsLUZuQ0lUQXYxc0ZmblhhMGozTjRudE1tQTYza2NTZ1RaaFZhNnNhVzZ3YUpveHRIVWxrdUhNNWZlTnEwSldpejR6MA?oc=5",
-        "pub_date": "Wed, 26 Mar 2025 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "TikTok launches Jump, a third-party integration tool - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU1l0ZXpoblpzN3JOZE12OGMyVkVEZ2VMbGJCYkMyekx4Y0hHZmpJQllrR2tJUXVoNXBIVEpYa0o0eWUzYVQzNkJIY1Y0RDZRUVh5dVFuRi0yOUNrRkpPUVZtS3RJamhNZzJZRzRneXBNTkMzTDBoY21FdE1ScDBZUDNwMVNTT0l1b2dIdjg3dw?oc=5",
-        "pub_date": "Mon, 21 Jun 2021 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Flush with new capital, Foxtrot’s ‘convenience store of the future’ is coming to a location near you - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42amVTZ0tWN1ZMRk94bXU0ZEtqVW5qT21RTUpQYUlXaXJwTVAtZ0NVQ3UtMWJCWGthcFBISndwT2oyVjNBMlE4NzdpcE5WV0JZWnNDZXNEZnRyLTZmcUpvTm5iOWluUllBQTY2S0VjZlIxWmZ5a19ndDh4Vl9YU2M?oc=5",
-        "pub_date": "Tue, 11 Jan 2022 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "This Week in Apps: Android apps on Windows 11, App Store Search Ads hit China, Apple argues against sideloading - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcEtBZlFKTlVrSzhTWDZGUjkycWk0YkNoOEMwdHZ4cDFjOWZUQ0R2RkR1dExPcDMxM250U0oxTy11Q2JrZGZhZDg4UjZtZnREUTRLZzd0Y1ZsZHFoamFWeWJIVjk2UnNheHdZdVhvNGVTRWRpcnU2dDh1STVfWFhSNi11TEFwOXZYX2dodi0zRkdkTl9GTnF6b0ZtTmdTdF9YSFhscC1vazdoU0ppYUl6aGpqYzN6T2tRWkxwRHZ6bGVGVjYxcWNsdWhaMm8zNDlmY1JxcklLNjdKWmM?oc=5",
-        "pub_date": "Sat, 26 Jun 2021 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Front Runners in the Hunt for the Apple Watch Killer App - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiogNBVV95cUxObzhNTnI4UHhWWWtCcTNNUXZGSUNaemtDZzZoSk43aUhoVUtTVjRJd0hnTlRnQklTRG1jQUNyWkFZSTNwaEFjM3NFS2FoSnhTanRSVEJBdHJiNy1UQXlUS0ttX0hTOWJSYU8tZkxkcmdyejd3ZEtvZHdSU2VNSm9YcG53NVVkSExCUDNiZmt1N2IyeFVnaUtDTHB3NkRWelhxbTZ1elV0MXB0Z2xaWWlTVTM2VWhJMS1FTGdGOFl3Mmp1Y3dnMUFYdHBwai1RRS15aEJSTkwzUEMyWVFkQjZ0WFpUcWExcDdtZFBuTzhiTzhhaDBxTVM5cXFHTGQ3N2NOYWhqeU00OC1mRGdaZVZsQlM2V0IwM1FaTzFVSXdUcWhCc3RKLUM0MzVxVGYxRDVGaWNnUW1aaTNkRWtpZGlPY1FxajlBa1BPOVcxM3RIdHdaOEZ1X2JSYWVybndQTm5vWWNHckttNTk2VTZVTW1vdndVbXZESU83YmV6OENRd1JtaVdsNTZZOHZydUE0YVhqM0RncERfSEY2NE5Pd01Vcm5B?oc=5",
-        "pub_date": "Fri, 24 Apr 2015 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Im Nin’Alu — how Israeli singer Ofra Haza brought a Hebrew poem to a global audience - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3S2RrSk1kenF0Vzg1QTZua2J5MjBabWdYRUtIVUxTZVdwYV8xM3hsNkNfZXJRd1VjYjBKdUt3ZFdVT0V1MGdobXJLU1I2Sjhmei1qdnRxQ3NGcG5NRnpod3o0TWpGR0xNSmVldG51eHk?oc=5",
-        "pub_date": "Sat, 01 Mar 2025 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "Digital Assets Summit 2026 | 13-14 May | FT Live - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9MVWJtTUU1c2VET0t4bDFOMXJtNlVFNVBreVp6SDVDckRkRkl0Q0I4RlVUQkVPVU9URF81TFR6S1JNUGFkcDZwOU5n?oc=5",
-        "pub_date": "Tue, 15 Oct 2024 09:01:11 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "FT ranking: Asia-Pacific High-Growth Companies - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xRnlDTlZhTjByaWdKTXpVdXh2Tm1kYUp2aDZ4TlRoaHUzZTNsNW5KS1J0bm1UN2FJVkJreS16RDltZ1hCbGV2WldYdFZqTXk4UE52ZUFiS2JoVXBFT3FCNzdsS2d4dUU?oc=5",
-        "pub_date": "Mon, 20 Apr 2020 07:00:00 GMT",
-        "source": "Financial Times"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "토종 OTT 티빙·웨이브…오리지널 콘텐츠 맞교환 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNXy1MRDhvbjZ0NURQcUdmZmZtNlJIX1V1REUzbVlGd3FuaHowZkhLS2hqNTFMOGdob19tTUFndElIYXhKbWV0Qkp4bFN3UUZ1MGFxU2FiOEdRdk4zS2t3clFUakxXVHA4Qm1wZ2ZTb1RXbUt1NzFGSWtLQVpRb21UUWcxazRIYU0?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:08:10 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "산업 - 매거진한경",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9TNG5tVkl4UDR1WU45RXNFVDBMMlBjUWNQVGMxTFY1V0FPUU4zajUwSjhpdE1sazY1R05XSGlDUUpoNXpOYzFXSERoQk1GYVpDRjVuclZkeUpraG92ekJKeE10NEpxU2NBVTZITEEzTXJKdVVOVHhEQQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 12:09:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "아이돌 서바이벌 2번 출연→BL 배우 활동…8년 차에 첫 단독 화보 찍은 김준서 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUzdrOGFkY1lIZXR5VXYwb0VKcWFlMzR0RTdkRnRXU2w4NnF2VWt0LTc4bHpKem1TM1hoTWZha0FzUnRhY0t4VEU4cjdHT1BJMmpLZENnbnRWb1F6QUh3X01nNXM1X1RqWURtZXhjbXdmZWVsd0JOdVB4N05TTWh5ejMtbXFHVkU?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 09:59:03 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "'클라이맥스', 공개 동시 디즈니+ 1위 싹쓸이 \"한국인도 어지러울 고자극 서사\" - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNN19XSWpRN2JDNEdMa2RKX2FZWGVZYXFiU1pZRTRDRTc4Njl2N2xObjRqTWhkckpWaDBYNnRzeV92V0JIZ25BUUJNa0pVU2dNSWQ1a3d2RWRybmpndU1XOWlZNjI4TGMycmxheU9MUGZvQ3VnY1VsX0p6UEY1RGVJNm1lVThBZlpvYklwTTBvVEJsU1nSAacBQVVfeXFMTURueWQwX3JmTjBqYzNSRzFqeDdYbjV2Tk9PbU91NU5HcUIwUU91aml1aGs4dmFIR0Z4NjhwbnUwZjI2a1NlXzUwNW9Ram9URFdQdHhUaU81QTJRZTB2OUJSdjM5d09rT0hXUHVsNVJ0ZVFjazJWQzZFWVlmMmstRF8ycjBFX09weVhnY3lXT0x5MEF2NzQzUlYtZXJURGNDWWNmeEdJTVU?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 05:14:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[단독] 구글, 한국 앱에 1000억 쏜다… \"제2의 왓챠·토도수학 지원\" - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94WVlwZm1xakpteGRTR254OTIxbXk4eWhHdUUwS3RYYklOcWFJb2I2Z0pQYzRVOTVwUUVwdk5PVFFfLV9scTM2QzdQUGI4WlN5S1Jsakk1MS1qLTVzQk91YXJfcTFLOEh6YlVTOXFNSEUtQ1BQU3ZfM3J6TdIBjwFBVV95cUxQaTlMNVRiY2JvV0VqSTR1bXdfVkNHRVNuek9zcG94Q3h6ZjZWZkMxRnRSUkZtR01YeE1TLVlDWXNRNXlRS0VUd0RkZzdUNVZqeW1zcW1aX0I2X0ZiZWFaTXhFVkZncGRFa3RpaVZfQ0YxZ1hoa2MxY3B5LTc2RW9lajdjVWFQaFNlcnlUbGhScw?oc=5",
-        "pub_date": "Tue, 29 Sep 2020 07:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "1세대 ‘토종 OTT’ 왓챠, 기업회생 절차 개시…서비스는 정상 운영 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUDF1eFpzbHhaWEZTd3FFWHlyQ3JVT2lHYktpNURjMklPQUZ0Z2ZYNkVMbDlLZEZLMWpkRmdRZGljZ1phNkhCajI3eGhuSHdaam9ZWC1wVzVvWEJtazdFRTBCTi1XM0w0ZzZTdnc4eDlqVjJlMzQ2SDRmNTFEWUJsbU9tRWZKdEJGNktObGVVOFLSAaQBQVVfeXFMTkVjZkpDXzlKYnNOR1Ryc3dqMEhSaFpZVndkRkNTb3EyMnpzTE1ObjVxVlgyRURRSmFST29uWTB1NDBMS3BoTm5CdWJyRGU0bFNUZllCVFlqaGZGOHRxcjFXa0JiUE5UZGdXWUxsa0lWZHFkZTlkMHVUWEJULWpTTzBrS1RUcS1FTHpYT28yczVuZzJYWmhHaXZPZU9NUnowc0lyOTE?oc=5",
-        "pub_date": "Wed, 06 Aug 2025 07:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "‘클라이맥스’, 화제성 1위 싹쓸이…시청률은 아직 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1URjFPS3BjQUNxU05udDFDWFBzeTFGcFNST0FveVNURFB3NV9rVUMtZUlvMVdiQkpPV1hOVm5OdEtDbnZ5YVE?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 00:30:42 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "'적자 수렁' 왓챠, 사업 존속 '비상등' - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16STBKTXg3YnpwbGpSbC04Tkl0MjByUEtGS1I1NndzZEVzMHBxYXIyODB4TWdDVkRfbHZZdGhsY3o0dmlZdHY2ZWNfVVRZX28?oc=5",
-        "pub_date": "Mon, 17 Apr 2023 07:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "웹툰 AI 스타트업 리얼드로우, 22억 투자 유치 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xdnhTa1R0SV9UZ3JZTlR0cldFYVlRX0FBTkdYaHNnRDdFa2lYaHdBVTRCZEU1NkNpa243X1R2UkR0bHl0T0VscnVMTU1Rdw?oc=5",
-        "pub_date": "Tue, 12 Dec 2023 08:00:00 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "왓챠, 4년 연속 OTT 부문 고객충성도 대상 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TM3ZWNlBlWWNhZmhqMkF4OGFUckRaSm11S3o5UzBTRGJQRVlQaWlPUmQyQ2tTd1R2VFJXQTFEMGRSdVJScEUyV2wyU0pFdDYwVW4xWjB3?oc=5",
-        "pub_date": "Wed, 28 Apr 2021 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "왓챠, 개별 결제 콘텐츠 서비스 확대...볼거리 다양화 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wRVhNR0JwSGJZc0ZHRkJ0THdWRFNmZk51RWxGQVhJbmVqRy0zLWVEblQzSlN4MENHSnBwRlp1UDZfX3p4eVQ1RUE0QjJZankxbkp5Nlhn?oc=5",
-        "pub_date": "Tue, 12 Sep 2023 07:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "왓챠플레이, 미드 ‘뉴 암스테르담’ NBC와 동시 방영 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EVzRTdGlwV2RkTEhSR1VYaGhTb1VJVzhjZ2FQRHJDekw3cE5ZN19TN1B6a2ZPQm56M1REM1J2eUZ4ODJGNnQyXzlWcUJuUExfbllkaUdn?oc=5",
-        "pub_date": "Fri, 23 Nov 2018 08:00:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "[왓챠 M&A]② '빅4' 주관사 신청…스토킹호스에 걸린 성패 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UZ29xUTRpeFFacG1ZaFlxeGhtNXhtc2otWmlsdkhYUWltSTJubVdqNXYzZFk0cXUwbHotWFlJSG83QkstekRHMllfT0h3UG45NDByRTc4Y2YwRWVfUWtjZzBnbk5HdDZW0gFsQVVfeXFMTVg4SGJrTmtUVzh3SUpfTUwtbFdZeWJOamlZZ1pVUFJ2Wl93RGdCZ2ItMF9IdGxJMFZMYVYzY3poS2VOU1VUcTZfd29rUGxTcnVMU2wtbEZfb0h0U2VKekdtNUkzQ3NBQkhJd0Zf?oc=5",
-        "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[왓챠 M&A]① 3300억 몸값의 허상…골든타임 놓친 투자자 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSaHVHbFdxcmtpbkdTbWJkaUNDVXpLRDBzZlp6VzcyVFRHYWhwTVVNNTl1dHdlTGE0RjlKTm9KckZXRVdod2VQanlCX2c3ay0zMVBHaWMwa083ZEdleUhENHdLcEc2bjlR0gFsQVVfeXFMTkotREpvM3VDeDAyeTBuU3NBb0x3bEZ5YlctUFpBeFdUSXlodmlPTktwWE5ERGRLamdGM1d4cVpHRFdmTWNHVlBSZTc1bmZ2NVd6UUM0a2ZlQm1Vb3RGRFNmYkg2dHVIbEhZdjlm?oc=5",
-        "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "'CB 만기일' 다가오는 왓챠, 상환 부담 현실화되나 [넘버스] - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13X2J5T1I4MU5ETFBfeEtDUzRYaDM4YUNuUDNjMUZrUHp5UEQ4MEd4TVVhRVNlekQ5QlJsS2FEZzgxNjA2M2xCY053bFFQQTFudXZ2b2JkM3ZXTlhTVlp0X0FnZ1FjdTZH0gFsQVVfeXFMT1BnQ19MajVzQmJJdC1Ga1ZLUzVlR1ZzSjRTbE5DUEd1RVptRFVnUW5ZM0V0ZW1VblVQTTk0a3FHVk1hMnUySzh5cFBacjlWcFM3WkZheHdLODRPVEc4M19KOXRBTVh4VDRENW4x?oc=5",
-        "pub_date": "Tue, 12 Nov 2024 08:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "박태훈 Archives - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lUWFCaEpnbXNkS0FKN0hNby1qaTNRVjlodUFud2Rfb2JIMVdJcXRxenliWTdjUFQtT3hnbFo5MFg5RVZnVzVtMGxfZm1zNi1CQXBfSlBacGgtXzhmaG85T0hPc1YyZw?oc=5",
-        "pub_date": "Wed, 15 Jan 2020 20:16:30 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "왓챠, 음원사용료는 얼마가 적당할까? - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ydGVQSzI3OHk4Umh3Y2lXUW9xd2NUc1U5bTBjUHFnQUNQQUxnNmEzWTRqR2RZeWdfdVZZaXhVWW8yR0JoYnVzbW92NmFCUm8?oc=5",
-        "pub_date": "Wed, 17 Feb 2021 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "360억원 수혈받은 왓챠, 오리지널 시리즈 만든다 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmMUxiVGFTbXdyWDM4MV9SR3d6eGhBd3Q4UWtHbWNwNUpuMVZqTldZNjBLbVBWOEI5M2J1RXItLTZQY1h0WG1kT2k2aVhYa0U?oc=5",
-        "pub_date": "Mon, 21 Dec 2020 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 왓챠",
+      "company_name_eng": "Watcha, Inc.",
+      "stock_name": "왓챠",
+      "ceo": "박태훈",
+      "address": "서울특별시 서초구 강남대로 343 (서초동, 신덕빌딩) 3층",
+      "industry_code": "59130",
+      "established": "20110921",
+      "homepage": "team.watcha.com",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "brave_web_results": [
+        {
+          "title": "왓챠 기업정보 - 채용 4건, 평균연봉 4,723만원, 인원 90명, 업력 15년, 서울 서초구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/29",
+          "description": "왓챠 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+        },
+        {
+          "title": "왓챠 채용 정보",
+          "url": "https://www.rocketpunch.com/companies/watcha/jobs",
+          "description": "# <strong>왓챠의 모든 서비스는 더 많은 사람들이 자신의 취향을 깨닫고, 취향에 맞는 콘텐츠를 발견할 수 있도록 하는 것을 목표</strong>로 합니다."
+        },
+        {
+          "title": "㈜왓챠 2025년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/C/frograms/Company_name/%E3%88%9C%EC%99%93%EC%B1%A0",
+          "description": "왓챠는 더 많은 사람이 ... 더 다양한 세상을 만들어 나갑니다. <strong>전 분야에서 상시채용 중이며, 채용이 완료되는 대로 해당 공고 삭제</strong>됩니다...."
+        },
+        {
+          "title": "멋진 동료를 구하고 있어요 - 왓챠 WATCHA",
+          "url": "https://watcha.team/81b8ab72-1a44-4d6c-a418-bbaed702c429",
+          "description": "지금 보시는 채용 공고는 2026년 2월에 업데이트된 왓챠의 최신 정보입니다! 😊"
+        },
+        {
+          "title": "블라인드 | 왓챠 기업정보",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/",
+          "description": "팀블라인드 채용 · 검색 · 글쓰기 로그인 · 왓챠 · Rating Score3.5 (127개 리뷰) 이 회사 리뷰하기 · 홈페이지 watcha.com · 업계 IT/소프트웨어 · 본사 서울특별시 서초구 · 설립 2010 · 직원수 · 연봉정보 - 접기 · Rating Score3.5 127개 리뷰 · Ratings by Category · 3.5 커리어 향상 · 3.9 업무와 삶의 균형 · 3.7 급여 및 복지 · 3.8 사내 문화 ·"
+        },
+        {
+          "title": "왓챠 진행 중인 채용정보 총 0건 - 채용 히스토리 통계 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/43998662/recruit",
+          "description": "왓챠 신입 채용, 경력 채용 등 실제 채용한 과거 통계 정보를 잡코리아에서 확인해보세요."
+        },
+        {
+          "title": "왓챠 채용 | 신사업 TF RA (리서치 인턴)",
+          "url": "https://www.superookie.com/jobs/5a8bf6f48b129f703b1ed061",
+          "description": "왓챠는 모두의 다름이 인정받고 개인의 취향이 존중받는, 더 다양한 세상을 만드는 회사입니다. • &quot;왓챠&quot;는 영화, 드라마, 예능, 다큐, 애니메이션까지 8만여 편의 작품을 무제한으로 감상할 수 있는 온라인 동영상 스트리밍 ..."
+        },
+        {
+          "title": "왓챠 채용 | DB 인턴",
+          "url": "https://www.superookie.com/jobs/5ee323268b129f046608d659",
+          "description": "우대사항 -일본어를 jlpt2급 이상으로 하시면서 일본 콘텐츠를 많이 보신분 -영어권 국가의 거주 경험이 있으시면서 영어 콘텐츠를 많이 보신분 -다양한 국가와 장르의 영화, 드라마 감상을 즐기시는 분 -영화, 드라마 감상 편수가 1,000편 이상인 분 -해외 영화제 소식이나 쇼비지니스쪽 이슈들을 팔로업하고 계신 분 -문화 전반에 대한 제반 지식이 풍부하신 분 문장 구사력, 언어 능력이 좋으신 분"
+        },
+        {
+          "title": "왓챠 채용 2025년 기업정보 - 평균연봉 4,544만원 | 캐치",
+          "url": "https://www.catch.co.kr/Comp/CompSummary/E96887",
+          "description": "왓챠의 채용공고, 기업정보, 재무정보부터, 현직자리뷰, 면접후기까지 모두 캐치하세요."
+        },
+        {
+          "title": "왓챠 2026년 기업정보 | 기업리뷰 134건, 연봉정보 91건, 면접후기 140건, 복지정보 54건, 채용공고 0건",
+          "url": "https://www.jobplanet.co.kr/companies/87452/landing/%EC%99%93%EC%B1%A0",
+          "description": "왓챠 기업정보 - 산업: 포털/인터넷/콘텐츠, 기업형태: 중소기업, 사원수: 110명, 설립: 2011.09.21 | 왓챠의 관련 뉴스, 기업리뷰와 면접후기를 통하여 원하시는 기업에 대한 정보를 미리 체험하세요!"
+        }
+      ],
+      "google_news": [
+        {
+          "title": "왓챠는 왜 실패했을까? - 요즘IT",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02Z19pcmxKbjlFLWFxVUFvaW9SREwwQ0xmeWlHNmtESjRtMDctYU5MWmloT1NxTzM5MjhJUU9wTWVOV2I1bndNY0gxMzNGMzdqZlNMT0FoTjhaZw?oc=5",
+          "pub_date": "Mon, 08 Sep 2025 07:00:00 GMT",
+          "source": "요즘IT"
+        },
+        {
+          "title": "감사인 '의견거절', 왓챠가 어쩌다…490억 상환 폭탄 그대로 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LbER5aDFkR3BCNkxOYmg3ZjR4ZlJ2MjBES3IyRjNRQ3psSW45d3lYcTdacHo5Mm1wdElZSzNKZTRtRy1jbHJFbnFqcEJQRE1iS1FJMUJtbmZLOXBIb3ZjN29JalFWOG8?oc=5",
+          "pub_date": "Sun, 15 Jun 2025 07:00:00 GMT",
+          "source": "mt.co.kr"
+        },
+        {
+          "title": "‘좋좋소 신화’ 종말? 기업회생 신청한 OTT 왓챠 앞 위험한 변수들 - 더스쿠프",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91a3BGc1Fody1YYjhLM1JmX0lad1hRT2pPTGRtYTFreTRJODIwdG50dWttQ212a053RFdfQW1lMDk0elR4UWRocE9KYWkybmVScjgwMFNhczFYYlRsOHFwZzdmZTJ6Z3VRNGt1UVJn?oc=5",
+          "pub_date": "Tue, 12 Aug 2025 07:00:00 GMT",
+          "source": "더스쿠프"
+        },
+        {
+          "title": "회생 기로 선 OTT 왓챠, 채권자 설득할까 - 뉴스톱",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45VVlYbzloa1pqRmt4ZHdfemNOTzdndjhkWFBVcFpQREtoR29FT1ZNeTROWmZVQWIycmlmU1JnbFZQZGtqM1dNeTZHT0xjZl9LLV93ckJERWEtbVhQUFBTYnhaQTNHbDNuSEVNN1hsaw?oc=5",
+          "pub_date": "Wed, 09 Jul 2025 07:00:00 GMT",
+          "source": "뉴스톱"
+        },
+        {
+          "title": "[OTT지각변동 下] 수익개선 시급한 토종플랫폼…“내수 한계 뛰어넘으려면” - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wenhkclUxVWc1UDA3bUt5UE5IWVp5WXBwSmVwZjMzRUVwNUtSeG12b1R3YWc5SEhTMmJoUWNxRVhtQkl2dUZnU3o4X1A4cURlNmNrUWVmRlc1WFBRZEhaTV9n?oc=5",
+          "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "존폐위기 '1세대 토종 OTT' 왓챠, 박태훈 고객 이탈·악화된 재무·투자자 불신 '삼중 악재' - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TZTU2YlZVQjJuZnFqRWU3cW5ueVZMNUNCemx5bG1jbjZObVBpSGRLRlFzRlZSMDExbGtXOFlKeF9qLUV2cFF3TGJ1bk9PRTFjT25NQm9sdFhJNlRwTkNwR2VMcFh0SXMxeWtlMUpqdkFrbkU?oc=5",
+          "pub_date": "Thu, 10 Jul 2025 07:00:00 GMT",
+          "source": "비즈니스포스트"
+        },
+        {
+          "title": "넷플릭스 1500만 ‘공룡’ 될 때 토종 1세대 왓챠는 매각 수순 - 데일리팝",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTVENrN3F2YTQ3TlpXN3NObW55WkdmUUtleG9qNWNWSnNHOUs3Rmc5RGNUaW5OYmxoZkxsUUJ3eXUySXA1NHV0MVhZemJicWpwby16cDNOaWRrYmFkZkZ0OUJZZ3kwUGZj?oc=5",
+          "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT",
+          "source": "데일리팝"
+        },
+        {
+          "title": "OTT 한파 속 라프텔, 코어 팬덤 힘으로 홀로 흑자 - 한스경제",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02MnBoU1VPWGpXalVMZlhZMHdhNXMyT3RZRkQ1c2wtY2J2SmF2bF9NcUNUZzRFNldXdU00ZGNQZDdsemQ1XzFoVVl5WXpIMkJPR1gtRVRqNzZKOG1KMWRiQkhFeFVvQmR0T3Aw0gFvQVVfeXFMTnJNSDE3SUx3S3N5UEZnN01yZUQ3TTI2bGZrajJhUXFsZ185YU9lMFlYOURxVGlRSXprUlFGUXotRVNEOUNWRkN1bnhYOFktSDJSZmszdVh0R1ZNZVpYSGxTUE9PbFZOZ21DY2RWYW5N?oc=5",
+          "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
+          "source": "한스경제"
+        },
+        {
+          "title": "위기의 왓챠, 월 이용자 49만명 불과···반등 키는? - 뉴스웨이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fRlJIZXAzT2ZSXzQyLThrNVFRaFBfc2YwQ25hbzZyeFN3QkYtZHE1WUcyOVpIdzJhS0E3UG13WmFJMnNHT1ByRzRiT3RDRnQ0ZHpLQmllLXllcU43bm56WjctclpNci1YRFE?oc=5",
+          "pub_date": "Fri, 11 Apr 2025 07:00:00 GMT",
+          "source": "뉴스웨이"
+        },
+        {
+          "title": "폐업 위기 왓챠의 부활, 비결은 '올드 무비' - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtbXRPOHNISmEwajFKeXNtbU9FX0ZhdG5VQ1EwR3FpbEsyWDZ6MzY4LWk2VXptM0JYOUZINTVxUDdkcEdYY1k5UG9vVlc0SnktMXBNTkgySjRTQdIBVEFVX3lxTFBsVUI5NjFKVV8tMXY3Wk1pWndabnFRbnNhX2VmSW5Ea1VibXBVZE1fUTF3WDl6WFVpRXZ5YU5NNUhmMUNnZUM3MUFKaUxqMFFsaFJQTg?oc=5",
+          "pub_date": "Fri, 12 Jul 2024 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "위기의 왓챠, 생존 돌파구 찾을까 - 톱데일리",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SdGhnUUZKWEplcWFjREZsS0FMQWtNSW9xZzlHSWhYRndET1FqbG81Z0RkYS0tQmxuNEZXcUhsZGd3SlFFbkY2WG1tU1VhQVk?oc=5",
+          "pub_date": "Fri, 10 May 2024 07:00:00 GMT",
+          "source": "톱데일리"
+        },
+        {
+          "title": "LG유플러스는 왓챠를 얼마나 '싸게' 살 수 있을까 - 인베스트조선",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWGxORG9hTjRKbnA2dFhwSHF4TVFfU1l4YmdQSXBCUE9tT0F0VlRyU0FLaE40UUxLLUY3Ml9jcE9vRnZzRF9uaWJSalZiMlhlYVd6YnVsRG8yWkIxSUMzaFkxbXU2N3NEZFlCbzBSZ293MHpROXlhSC1MTDVFT2NXUmtOOA?oc=5",
+          "pub_date": "Thu, 25 May 2023 07:00:00 GMT",
+          "source": "인베스트조선"
+        },
+        {
+          "title": "광고요금제로 활로 찾는 OTT…기술 고도화·개인정보 보호 관건 - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00dTRzV3ozS25zaWFzQ2FsS2FlOFBqelVIR3U0U2pMOXh0dHllOXVtNUFTcWZPU1cxRFp0a3hOSS16WEp5MTVTQWdfQ0plQmlDbUt6WE84aUh4dkU?oc=5",
+          "pub_date": "Thu, 27 Mar 2025 07:00:00 GMT",
+          "source": "에너지경제신문"
+        },
+        {
+          "title": "지난해 적자 60% 줄인 왓챠, 올해 흑자 전환 가능할까 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFLUFHcnpES2dQeTNkUHNHaXUxM0ktWGQzMkhFQzRIRUYxN2RRTkh3d1Atc0ZmLVFlOVA5QTlrSmpyeDVkbkNaaEtubHFWejVGVzd0NXhVczVUbFBwaWFWa9IBeEFVX3lxTE9hdFdGb3BHTFYxNEQwX24yT0tQUkFQd2lTOThDSVhCYmJZVnBueUlxMVBTUkZsSm54MXV5WnVLX0w1T0xEYzJxNkx1MlRuM1FISndKOXFoMXFpOFJZRDY4SDJCVG9CU3BPekR2d1hYbW5EdXdrckYwRQ?oc=5",
+          "pub_date": "Fri, 12 Apr 2024 07:00:00 GMT",
+          "source": "뉴시스"
+        },
+        {
+          "title": "매각작업 차질, 왓챠…카카오가 눈독 들인다 - CEO스코어데일리",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uT1RaU1VDd3VoQng1ZVducFZiWUlNekNMRDFQUllVYWtvWjVJS1NzVnoyX0ZxN2ppM05EZzVYRk0xR3FCbjhaVG5YNkYzTFJyLUJTZ0twREFreXY3UWxPcHNIa1FYTjZWdmQw?oc=5",
+          "pub_date": "Wed, 28 Dec 2022 08:00:00 GMT",
+          "source": "CEO스코어데일리"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "토종 OTT 티빙·웨이브…오리지널 콘텐츠 맞교환 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqdWtPMzBFOHA5Y1JHS0U5cEtnS0FFLTlEZ1JXRmR3eVFEMkh1MmVzX01kbFNFTVBhRTRtdGxPYldzdEIyWEt5Ymt6TGZzcldISGhNetIBVEFVX3lxTFBqdWtPMzBFOHA5Y1JHS0U5cEtnS0FFLTlEZ1JXRmR3eVFEMkh1MmVzX01kbFNFTVBhRTRtdGxPYldzdEIyWEt5Ymt6TGZzcldISGhNeg?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:08:10 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "잡앤조이 - 매거진한경",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SWHZxX0w3NF9KREZ5b2VpRDJPT0JESEFWalVTd2g3bXMydElWOG1OLTlGaUIwalgxZnZpYnNIRkVjdjBLblY1WjFLdVpIdXNYc0xjRFJnd3Z0QWVyLWZNZW0yLTVpc1E?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 10:14:56 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "토종 OTT '왓챠' 생사 갈림길…적자 늘고, 이용자 반토막 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PdndTamlxOHdEdGc4M3FaUGd5Q3diQjhISDlyZVJaMWx1a0Jxb0I1VV9rRlYyTkdJRk5QR2lSdXdRWV82WXNnNzYxWFliVDI2eUZzd0hHWDBEUdIBVEFVX3lxTFByN1V1Q3RRTjVrSU03aFJPYXJDRFpxcVI2eFVFdTEzMzBMYm5kTEFsYU00bWZzN01iUEo1LXc4VGZnZHNYVzE2RU1aUW9xQTR5NVFiZg?oc=5",
+          "pub_date": "Fri, 14 Apr 2023 07:00:00 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "'클라이맥스', 공개 동시 디즈니+ 1위 싹쓸이 \"한국인도 어지러울 고자극 서사\" - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNN19XSWpRN2JDNEdMa2RKX2FZWGVZYXFiU1pZRTRDRTc4Njl2N2xObjRqTWhkckpWaDBYNnRzeV92V0JIZ25BUUJNa0pVU2dNSWQ1a3d2RWRybmpndU1XOWlZNjI4TGMycmxheU9MUGZvQ3VnY1VsX0p6UEY1RGVJNm1lVThBZlpvYklwTTBvVEJsU1nSAacBQVVfeXFMTURueWQwX3JmTjBqYzNSRzFqeDdYbjV2Tk9PbU91NU5HcUIwUU91aml1aGs4dmFIR0Z4NjhwbnUwZjI2a1NlXzUwNW9Ram9URFdQdHhUaU81QTJRZTB2OUJSdjM5d09rT0hXUHVsNVJ0ZVFjazJWQzZFWVlmMmstRF8ycjBFX09weVhnY3lXT0x5MEF2NzQzUlYtZXJURGNDWWNmeEdJTVU?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 05:14:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[단독] 구글, 한국 앱에 1000억 쏜다… \"제2의 왓챠·토도수학 지원\" - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94WVlwZm1xakpteGRTR254OTIxbXk4eWhHdUUwS3RYYklOcWFJb2I2Z0pQYzRVOTVwUUVwdk5PVFFfLV9scTM2QzdQUGI4WlN5S1Jsakk1MS1qLTVzQk91YXJfcTFLOEh6YlVTOXFNSEUtQ1BQU3ZfM3J6TdIBjwFBVV95cUxQaTlMNVRiY2JvV0VqSTR1bXdfVkNHRVNuek9zcG94Q3h6ZjZWZkMxRnRSUkZtR01YeE1TLVlDWXNRNXlRS0VUd0RkZzdUNVZqeW1zcW1aX0I2X0ZiZWFaTXhFVkZncGRFa3RpaVZfQ0YxZ1hoa2MxY3B5LTc2RW9lajdjVWFQaFNlcnlUbGhScw?oc=5",
+          "pub_date": "Tue, 29 Sep 2020 07:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "1세대 ‘토종 OTT’ 왓챠, 기업회생 절차 개시…서비스는 정상 운영 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUDF1eFpzbHhaWEZTd3FFWHlyQ3JVT2lHYktpNURjMklPQUZ0Z2ZYNkVMbDlLZEZLMWpkRmdRZGljZ1phNkhCajI3eGhuSHdaam9ZWC1wVzVvWEJtazdFRTBCTi1XM0w0ZzZTdnc4eDlqVjJlMzQ2SDRmNTFEWUJsbU9tRWZKdEJGNktObGVVOFLSAaQBQVVfeXFMTkVjZkpDXzlKYnNOR1Ryc3dqMEhSaFpZVndkRkNTb3EyMnpzTE1ObjVxVlgyRURRSmFST29uWTB1NDBMS3BoTm5CdWJyRGU0bFNUZllCVFlqaGZGOHRxcjFXa0JiUE5UZGdXWUxsa0lWZHFkZTlkMHVUWEJULWpTTzBrS1RUcS1FTHpYT28yczVuZzJYWmhHaXZPZU9NUnowc0lyOTE?oc=5",
+          "pub_date": "Wed, 06 Aug 2025 07:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "‘클라이맥스’, 화제성 1위 싹쓸이…시청률은 아직 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1URjFPS3BjQUNxU05udDFDWFBzeTFGcFNST0FveVNURFB3NV9rVUMtZUlvMVdiQkpPV1hOVm5OdEtDbnZ5YVE?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 00:30:42 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "'적자 수렁' 왓챠, 사업 존속 '비상등' - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16STBKTXg3YnpwbGpSbC04Tkl0MjByUEtGS1I1NndzZEVzMHBxYXIyODB4TWdDVkRfbHZZdGhsY3o0dmlZdHY2ZWNfVVRZX28?oc=5",
+          "pub_date": "Mon, 17 Apr 2023 07:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "웹툰 AI 스타트업 리얼드로우, 22억 투자 유치 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xdnhTa1R0SV9UZ3JZTlR0cldFYVlRX0FBTkdYaHNnRDdFa2lYaHdBVTRCZEU1NkNpa243X1R2UkR0bHl0T0VscnVMTU1Rdw?oc=5",
+          "pub_date": "Tue, 12 Dec 2023 08:00:00 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "왓챠, 4년 연속 OTT 부문 고객충성도 대상 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TM3ZWNlBlWWNhZmhqMkF4OGFUckRaSm11S3o5UzBTRGJQRVlQaWlPUmQyQ2tTd1R2VFJXQTFEMGRSdVJScEUyV2wyU0pFdDYwVW4xWjB3?oc=5",
+          "pub_date": "Wed, 28 Apr 2021 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "왓챠, 개별 결제 콘텐츠 서비스 확대...볼거리 다양화 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wRVhNR0JwSGJZc0ZHRkJ0THdWRFNmZk51RWxGQVhJbmVqRy0zLWVEblQzSlN4MENHSnBwRlp1UDZfX3p4eVQ1RUE0QjJZankxbkp5Nlhn?oc=5",
+          "pub_date": "Tue, 12 Sep 2023 07:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "왓챠플레이, 미드 ‘뉴 암스테르담’ NBC와 동시 방영 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EVzRTdGlwV2RkTEhSR1VYaGhTb1VJVzhjZ2FQRHJDekw3cE5ZN19TN1B6a2ZPQm56M1REM1J2eUZ4ODJGNnQyXzlWcUJuUExfbllkaUdn?oc=5",
+          "pub_date": "Fri, 23 Nov 2018 08:00:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[왓챠 M&A]② '빅4' 주관사 신청…스토킹호스에 걸린 성패 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UZ29xUTRpeFFacG1ZaFlxeGhtNXhtc2otWmlsdkhYUWltSTJubVdqNXYzZFk0cXUwbHotWFlJSG83QkstekRHMllfT0h3UG45NDByRTc4Y2YwRWVfUWtjZzBnbk5HdDZW0gFsQVVfeXFMTVg4SGJrTmtUVzh3SUpfTUwtbFdZeWJOamlZZ1pVUFJ2Wl93RGdCZ2ItMF9IdGxJMFZMYVYzY3poS2VOU1VUcTZfd29rUGxTcnVMU2wtbEZfb0h0U2VKekdtNUkzQ3NBQkhJd0Zf?oc=5",
+          "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[왓챠 M&A]① 3300억 몸값의 허상…골든타임 놓친 투자자 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSaHVHbFdxcmtpbkdTbWJkaUNDVXpLRDBzZlp6VzcyVFRHYWhwTVVNNTl1dHdlTGE0RjlKTm9KckZXRVdod2VQanlCX2c3ay0zMVBHaWMwa083ZEdleUhENHdLcEc2bjlR0gFsQVVfeXFMTkotREpvM3VDeDAyeTBuU3NBb0x3bEZ5YlctUFpBeFdUSXlodmlPTktwWE5ERGRLamdGM1d4cVpHRFdmTWNHVlBSZTc1bmZ2NVd6UUM0a2ZlQm1Vb3RGRFNmYkg2dHVIbEhZdjlm?oc=5",
+          "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "'CB 만기일' 다가오는 왓챠, 상환 부담 현실화되나 [넘버스] - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13X2J5T1I4MU5ETFBfeEtDUzRYaDM4YUNuUDNjMUZrUHp5UEQ4MEd4TVVhRVNlekQ5QlJsS2FEZzgxNjA2M2xCY053bFFQQTFudXZ2b2JkM3ZXTlhTVlp0X0FnZ1FjdTZH0gFsQVVfeXFMT1BnQ19MajVzQmJJdC1Ga1ZLUzVlR1ZzSjRTbE5DUEd1RVptRFVnUW5ZM0V0ZW1VblVQTTk0a3FHVk1hMnUySzh5cFBacjlWcFM3WkZheHdLODRPVEc4M19KOXRBTVh4VDRENW4x?oc=5",
+          "pub_date": "Tue, 12 Nov 2024 08:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "박태훈 Archives - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lUWFCaEpnbXNkS0FKN0hNby1qaTNRVjlodUFud2Rfb2JIMVdJcXRxenliWTdjUFQtT3hnbFo5MFg5RVZnVzVtMGxfZm1zNi1CQXBfSlBacGgtXzhmaG85T0hPc1YyZw?oc=5",
+          "pub_date": "Wed, 15 Jan 2020 20:16:30 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "왓챠, 음원사용료는 얼마가 적당할까? - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ydGVQSzI3OHk4Umh3Y2lXUW9xd2NUc1U5bTBjUHFnQUNQQUxnNmEzWTRqR2RZeWdfdVZZaXhVWW8yR0JoYnVzbW92NmFCUm8?oc=5",
+          "pub_date": "Wed, 17 Feb 2021 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "360억원 수혈받은 왓챠, 오리지널 시리즈 만든다 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmMUxiVGFTbXdyWDM4MV9SR3d6eGhBd3Q4UWtHbWNwNUpuMVZqTldZNjBLbVBWOEI5M2J1RXItLTZQY1h0WG1kT2k2aVhYa0U?oc=5",
+          "pub_date": "Mon, 21 Dec 2020 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "조직 문화 속에서 선배들의 조언을 스펀지처럼 흡수할 수 있는 &quot;겸손함과 배우려는 자세&quot;를 증명하시는 것이 합격으로 향하는 가장 확실한 지름길이랍니다. 샘표식품면접코칭은 대기업 면접관출신 코치님께서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "[HOT]SK하이닉스 2026년 상반기 채용공고 자소서(자기소개서)... ",
+          "description": "[ 취업리딩방 오픈카톡방] 취업 특강, 무료 이벤트, 대기업/공기업 정보 공유방이니 반드시 참여!... 구매 기업문화 - 기업문화 Tech R&amp;D - System Arch./Solution SW 영업 - 영업/마케팅/상품기획/신제품사업화 Tech... ",
+          "link": "https://blog.naver.com/ytjoo88/224215031143",
+          "pub_date": "20260313"
+        },
+        {
+          "title": "한화에어로스페이스 면접 질문 (PGM사업부)",
+          "description": "코치진 기업 내 채용절차와 조직문화 실무 경력 직무 과제 주제 도출 및 직무역량 평가 코칭 후 합격하신 수강생 후기 모음 최근 합격후기를 허위로 만들어서 합격생이 많은 척하는 곳들이 생겨나고... ",
+          "link": "https://blog.naver.com/ve_getable/224210299768",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 1차 PT 역량 인성 2차 임원 신입 경력... ",
+          "description": "한국콜마 기업문화 평가 • 최근 화장품·뷰티 업계 트렌드에 대해 말해주세요 • 4성 5행 중 본인을... 420개 기업, 8000회 이상의 합격 노하우 현직 면접관 출신 코치진 직무별 산업 전문가 매칭 개인별 맞춤형... ",
+          "link": "https://blog.naver.com/label3548/224210103873",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "고려아연 면접 후기 (AI역량검사, 1차 영어질문)",
+          "description": "workplace or work environment.  2차 면접 - 다대다 방식/ 그룹별 진행 - 기업 전체의 방향성 및 기업문화... 실제 합격생 인증 후기 고려아연 전문 컨설팅 컨설턴트 이력과 프로필 코치님께서는 고려아연 합격자는... ",
+          "link": "https://blog.naver.com/fusekimo198735/224209926005",
+          "pub_date": "20260309"
+        },
+        {
+          "title": "한국콜마 면접 후기 (글로벌 영업) 1차, 2차 합격",
+          "description": "다른 기업 후기가 궁금하다면? ▼ &amp; 한국콜마 면접 서류와 AI역량검사 합격 후 1차면접은 PT... 한국콜마의 기업문화나 채용 체계에 맞춰서 수정하면서 연습을 계속 해나갔습니다. 수강생을 많이 받는 것보다 단... ",
+          "link": "https://blog.naver.com/ve_getable/224207830667",
+          "pub_date": "20260307"
+        },
+        {
+          "title": "2026년 ANA 아나 항공 승무원 채용 발표 (서류 마감 04.09까지)",
+          "description": "제출 or GTEC 응시 최종 합격 발표 1차 영상 면접 적성 검사 (SPI시험) 최종면접 신체검사 *일본 항공사... 그들만의 문화, 기업 정신을 잘 이해한 지원자를 선호할 수 밖에 없습니다. &lt;공홈 내, 각 직업별 인터뷰... ",
+          "link": "https://blog.naver.com/magicpaul7/224204238038",
+          "pub_date": "20260304"
+        },
+        {
+          "title": "워홀로 캐나다 빅5 은행 정규직 취업하기",
+          "description": "8-10): 4군데 인터뷰 (한국대기업, finance회사, Intact, 빅5은행) -&gt; 한국대기업 합격, 나머지 Reject 2025.10-12... 이유는 상상 이상으로 여러방면으로 (언어, 취업문화, 기업문화, 인간관계, 불안함, 금전, 네트워킹... ",
+          "link": "https://blog.naver.com/serohero/224199063326",
+          "pub_date": "20260228"
+        },
+        {
+          "title": "LX MMA면접후기 다대다면접 학원 헙격전략",
+          "description": "면접 방식으로 치 러지는 전형이라 다른 지원자들과 비교될까 봐 걱정이 많으실 겁니다. -기업 문화의... 시중에 떠도는 얕은 정보 대신 진짜 합격을 향한 LX MMA면접후기 및 학원 합격전략 핵심을 자세히... ",
+          "link": "https://blog.naver.com/jobpass_/224197697044",
+          "pub_date": "20260227"
+        },
+        {
+          "title": "세아제강면접학원 신입 경력 1차 실무 PT면접 후기",
+          "description": "-'정직'과 '실력' 강조- 세아그룹은 화려함보다는 내실과 정직을 중시하는 기업 문화를 가지고... 수많은 합격 후기에서 공통으로 언급되는 비결입니다. ↓↓면접 준비 하는 방법↓↓ 1. 철강 산업의 메가 트렌드... ",
+          "link": "https://blog.naver.com/study_edu_/224193834977",
+          "pub_date": "20260224"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        },
+        {
+          "title": "[20260320] copilot / chatgpt / gemini 대화록",
+          "description": "조직이 Z세대를 ‘키워야 하는 인력’이 아니라 ‘관리하기 까다로운 인력’으로 인식하는 순간, 신입 채용 축소는 기술의 문제가 아니라 문화의 문제까지 겹친 구조가 된다. 이렇게 보면 ‘세대 특이점’ 논란은... ",
+          "link": "http://cafe.naver.com/woodmanwriting/207",
+          "pub_date": ""
+        },
+        {
+          "title": "인천적십자병원 물리치료사 채용공고",
+          "description": "후생복지 ○ 교육비 지원(보수교육, 사이버교육 등) ○ 연극, 영화관람 등 각종 문화생활비 지원 ○ 생일... 응급구조사 채용 시 사회복지사 및 응급구조사 자격증은 제외 * 채용공고 개시일 이전 취득(최종합격)한... ",
+          "link": "http://cafe.naver.com/pinklqgzd/1923",
+          "pub_date": ""
+        },
+        {
+          "title": "2026-03-20 뉴스 정리",
+          "description": "보상의 제4의 축으로 급부상 실리콘밸리에서는 이제 연봉, 보너스, 주식(Equity)에 이어 '토큰 예산(Token Budget)'**이 인재 영입의 핵심 조건이 되고 있습니다. 엔지니어들이 채용 면접에서 &quot;업무에... ",
+          "link": "http://cafe.naver.com/todaybigboss/4858",
+          "pub_date": ""
+        },
+        {
+          "title": "법인(플라스틱 필름) 영업 채용의 건을 위한 자기소개서",
+          "description": "** 채용공고요약 한서씨앤에프는 경기도 광주시에서 플라스틱 필름 영업 분야에 2명의 상용직을 모집합니다.... 종합적인 복지 제공이 가능하며, 영업 성과에 대한 공정한 평가와 보상이 이루어지는 문화가 있다는 점도 큰... ",
+          "link": "http://cafe.naver.com/uworldexam/149566",
+          "pub_date": ""
+        },
+        {
+          "title": "제주항공 채용 승무원 큐피드",
+          "description": "글 제목 : 제주항공 채용 승무원 큐피드 1. 수평적 조직문화 토대로 승무원들의 업무 환경을 개선시켜나가는... #전현차#승무원카페#승무원연봉#승무원복지#승무원직급#승무원스펙#승무원경쟁률#승무원되는법#승무원키... ",
+          "link": "http://cafe.naver.com/sheiszzz/1214780",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.4566037735849053,
+      "positive_themes": [
+        "긍정",
+        "복지",
+        "성장",
+        "장점",
+        "좋은",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점",
+        "야근",
+        "퇴사"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 관련.",
+          "description": "잡플래닛 기업 평점에 대해 궁금해하시는 분들이 많은데, 경험에 비추어 간단히 말씀드리겠습니다. 일단 2점 밑은 무조건 피하시는 게 상책입니다. 1~2점대 기업은 최악 of 최악이라고 봐도 무방하고요, 아무리...",
+          "url": "https://blog.naver.com/passion83j/221586201926"
+        },
+        {
+          "source": "naver",
+          "title": "왓챠 2026년 기업정보 | 기업리뷰 136건, 3.5 리뷰평점",
+          "description": "장점 : 사무실 위치, 근무 환경, 사람들 모두 좋았습니다. 말 통하는 사람들이 모여있는 곳, 단점 : 비즈니스적인 성과만 아쉬웠습니다. 돈이 좀만 더 있었더라면",
+          "url": "https://www.jobplanet.co.kr/companies/87452/reviews/%EC%99%93%EC%B1%A0"
+        },
+        {
+          "source": "naver",
+          "title": "올해 두 배로 커지는 왓챠...직원 평가는? | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스",
+          "description": "밖에서 보기에 빠르게 커가는 스타트업 왓챠, 안에서 일하는 직원들은 왓챠를 어떻게 평가하고 있을까? &lt;컴퍼니타임스&gt;가 잡플래닛 리뷰 속 왓챠의 모습을 살펴봤다. 여기에 왓챠 입사를 고민 중인 이들을 위해 선배 면접자들의 목소리도 살짝 엿들어 봤다. ◇경쟁 속 왓챠 직원들의 평가는? &lt;컴퍼니 타임스&gt;는 2018년부터 최근까지 남겨진 리뷰를 통해 왓챠 전·현직자들의 기업추...",
+          "url": "https://www.jobplanet.co.kr/contents/news-1503/%EC%98%AC%ED%95%B4%20%EB%91%90%20%EB%B0%B0%EB%A1%9C%20%EC%BB%A4%EC%A7%80%EB%8A%94%20%EC%99%93%EC%B1%A0...%EC%A7%81%EC%9B%90%20%ED%8F%89%EA%B0%80%EB%8A%94%3F"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 1.0대의 회사를 다니고 있습니다.",
+          "description": "2.5점 이하라면 도망치라고 했던 잡플래닛 평점. 생각보다 괜찮은 회사. | 잡플래닛 평점 1.0대의 회사를 다니고 있습니다.정확히 언급하기엔 그러니 1점대 초반 흔히들 2.5점 미만의 회사라면 걸러야 한다는데 지금의 이회사는 1.0대에 근접합니다. 그럼에도 불구하고 이직을 하게 되었습니다. 물론, 모든 채용 프로세스가 끝난뒤에 검색해서 알게 되었습니...",
+          "url": "https://brunch.co.kr/@gakugo/384"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점1.8회사 오바임? - 직장/알바/사업",
+          "description": "집에서 20~30분 거리 중견 기업이라 좋다 생각해서 찾아 봤는데 잡플 평점 1.8에 퇴사율 30%정도 되는데 괜찮아보임? 연봉이나 복지 그런거는 그냥 중소기업 수준이라 생각하면 됨",
+          "url": "https://www.fmkorea.com/5470029324"
+        },
+        {
+          "source": "naver",
+          "title": "왓챠 2026년 기업정보 | 64건의 복지정보 0 전체 복지 통계",
+          "description": "왓챠의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 64건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/87452/benefits/%EC%99%93%EC%B1%A0"
+        },
+        {
+          "source": "naver",
+          "title": "왓챠 2026년 기업정보 | 140건 면접후기 3.3 면접난이도",
+          "description": "왓챠의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.3, 면접경로: 온라인 지원 81%, 면접경험: 긍정적 44%, 부정적 24%, 면접결과: 합격 39%, 불합격 45%, 대기중 16% | 잡플래닛에 등록된 140건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/87452/interviews/%EC%99%93%EC%B1%A0"
+        },
+        {
+          "source": "naver",
+          "title": "재미로 보는 LCK 구단별 잡플래닛 평점 - 롤: 리그 오브 레전드",
+          "description": "디플러스기아 티원 OK브리온 젠지 케이티 디알엑스 한화,샌박,프릭스,케이티는 모기업 소속 부서단위인듯해서 따로 없고 (한화이글스는 자회사단위인듯하나 이스포츠는 아직인듯) 농심은 농심이스포츠 별도회사...",
+          "url": "https://www.fmkorea.com/6149357481"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 진짜 믿을만함?",
+          "description": "사람들이 잡플래닛 평점 3점 미만은 무조건 거르라는 이야기들을 많이 하던데 구직중에 깨달은 건 잡플 3점대 이상 넘어가는 회사는 채용을 잘 안하던가[아마 좋으니까 잘 안나가서?] 진짜 미친 괴물들만 지원하는 갓기업들 밖에 없는 거 같음... 나한테 평점 2점대 중견기업이 학교취업추천으로 들어왔는데 취업 담당자 말로는 성적 자격증 다 요건이 돼서 넣어볼...",
+          "url": "https://web.humoruniv.com/board/humor/read.html?table=pdswait&number=9607143"
+        },
+        {
+          "source": "naver",
+          "title": "더쿠 - 잡플래닛 평점 2점대 초중반이면 많이 안 좋은지 궁금한 후기",
+          "description": "직원수가 2백명 후반대이고 국내 업계에서 제일 잘 나가고 해외에서도 탑3인 중견인데 잡 플래닛이 2점대 초중반이야.. 이렇게 낮으면 지원하는 거 비추야?? 전환형 인턴 넣을까 고민 중이거든..",
+          "url": "https://theqoo.net/review/2632137865"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 기업정보",
+          "description": "장점 ; - 따뜻하고 좋은 마음을 가진 일부 동료들 - 적극적으로 임하는 개발팀의 업무 에티튜드 - 재택, 연차로 눈치 주지 않는 분위기 - 위트 강조하는 회사답게 유머러스한 분위기도 있음",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 현직자들의 연봉 정보",
+          "description": "왓챠 3.5 (144개 리뷰) 이 회사 리뷰하기 왓챠은(는) 일해 보고 싶은 회사인가요? 소개 리뷰 게시글 연봉 갤러리 왓챠 연봉 정보 왓챠에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 리뷰",
+          "description": "장점 ; - 따뜻하고 좋은 마음을 가진 일부 동료들 - 적극적으로 임하는 개발팀의 업무 에티튜드 - 재택, 연차로 눈치 주지 않는 분위기 - 위트 강조하는 회사답게 유머러스한 분위기도 있음",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/reviews"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 Reviews - &quot;사람은 참 잘 뽑는데, 바보같이 다 놓치는 회사&quot;",
+          "description": "“정말 좋은 회사인데 체계가 진짜 없다” ; “스타트업의 표본” ; “다음 스테이지를 준비하는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/review/9OC9PqtEbg7"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 Reviews - &quot;더 성장할 가능성이 많았던 회사였습니다.&quot;",
+          "description": "“정말 좋은 회사인데 체계가 진짜 없다” ; “스타트업의 표본” ; “다음 스테이지를 준비하는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/review/gYfFd5oxx"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 Reviews - &quot;사람만 남는 회사&quot;",
+          "description": "“정말 좋은 회사인데 체계가 진짜 없다” ; “스타트업의 표본” ; “다음 스테이지를 준비하는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/review/8w3y38EfN7"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 Reviews - &quot;체계에 관심이 없는가 싶은 회사&quot;",
+          "description": "“정말 좋은 회사인데 체계가 진짜 없다” ; “스타트업의 표본” ; “다음 스테이지를 준비하는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/review/aE9kBnKQ3FX"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 Reviews - &quot;어중간한 단계에 와있는 회사&quot;",
+          "description": "“정말 좋은 회사인데 체계가 진짜 없다” ; “스타트업의 표본” ; “다음 스테이지를 준비하는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/review/-JZvX5S1E"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 자세한 정보",
+          "description": "소개 리뷰 게시글 연봉 갤러리 자세한 정보 왓챠 복지 수당/포상(0) 퇴직연금 인센티브 장기근속 포상 우수사원 포상 스톡옵션 야근수당 휴일(특근) 수당 연차수당 직책수당 자격증수당 위험수당 우리사주제도...",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/details"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 왓챠 Reviews - &quot;다음 스테이지를 준비하는 회사&quot;",
+          "description": "“정말 좋은 회사인데 체계가 진짜 없다” ; “스타트업의 표본” ; “요즘 보기 드물게 도전을 해보는 회사”",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0/review/no9mwBbYR"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "왓챠 채용 - 2026년 진행 중인 공고 확인하기 - 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/43998662/recruit",
+          "text": "왓챠 채용 - 2026년 진행 중인 공고 확인하기 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n왓챠\n\n솔루션·SI·CRM·ERP\n\n2738\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유공유--\n\n# 채용 정보\n\n## 리스트 정렬 순서 선택\n\n- 마감 9건\n- 진행중 0건\n- 전체 9건\n\n등록순 등록순 마감순\n\n## 채용 진행 중 직무\n\n- 인바운드상담원\n- DBA\n- 영상디자이너\n- 콘텐츠마케터\n- [회계담당자](ja",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "왓챠 채용 | 채용공고",
+          "url": "https://www.rocketpunch.com/companies/watcha/recruit",
+          "text": "로그인 후 검색 가능\n\n홈가장 빠른 소식\n\n네트워킹이벤트 · 컨퍼런스업데이트\n\n채용새로운 기회 탐색\n\n교육부트캠프 · 직무 역량강화\n\n채팅나를 위한 소식\n\n허브기업 · 학교 · 사람 모아보기\n\n접기\n\n개인정보와 약관\n\n기업 서비스\n\n지원센터\n\n쿠키 맞춤 설정\n\n본 서비스에서 제공하는 사용자의 개인정보 데이터를 포함하여 각 정보주체의 동의 없이 데이터를 무단으로 수집하는 행위를 금지 및 거부합니다. 공개된 데이터도 크롤링 등 기술적 장치를 이용해 ",
+          "score": 0,
+          "published_date": "2013-01-10T00:00:00.000Z"
+        },
+        {
+          "title": "블라인드 | 왓챠 기업정보",
+          "url": "https://www.teamblind.com/kr/company/%EC%99%93%EC%B1%A0",
+          "text": "블라인드 | 왓챠 기업정보\n\n블라인드 기업서비스\n\n# 왓챠 회사소개\n\n- 연봉정보 -\n- 직원수 -\n- 설립 2010\n- 본사 서울특별시 서초구\n- 업계 IT/소프트웨어\n- 홈페이지 watcha.com\n- 갤러리\n\n더보기\n\n## 왓챠 리뷰\n\nRating Score3.5 144개 리뷰\n\nRatings by Category\n\n- 3.0 경영진\n- 3.8 사내 문화\n- 3.6 급여 및 복지\n- 3.9 업무와 삶의 균형\n- 3.5 커리어 향상\n\n인기\n\n가장 많이 본 리뷰들 중 임의로 선정된 리뷰입니다.\n\nWhat it means...\n\nRating Score2.0\n\n2커리어 향상\n\n4업무와 삶의 균형\n\n3급여 및 복지\n\n4사내 문화\n\n1경영진\n\nView detailed rat",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "㈜와탭랩스 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/recruit/co_read/c/whatap",
+          "text": "㈜와탭랩스 2026년 기업정보 - 직원수, 근무환경, 복리후생 등 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n채용중\n\n㈜와탭랩스\n\n솔루션·SI·CRM·ERP\n\n681\n\n관심기업 추가하고 채용소식 받기\n\n닫기\n\n공유\n\n## 기업 사진/동영상\n\n--\n\n## 기업정보\n\n솔루션·SI·CRM·ERP\n\n72명\n\n벤처기업\n\n2015.07.01\n\n(12년차)\n\n이동인\n\nIT 모니터링 서비스\n\n국민연금, 건강보험, 고용보험, 산재보험\n\nhttps://www.whatap.io\n\n서울 서초구 서초대로77길 17 (서초동, BLOCK77) 13층 1303호\n\n| 기업 상세 정보 | 산업 | 사원수 |\n| --- | --- | --- |\n| 기업구분 | 설립일 |\n| 대표자 |",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "멋진 동료를 구하고 있어요",
+          "url": "https://watcha.team/81b8ab72-1a44-4d6c-a418-bbaed702c429",
+          "text": "멋진 동료를 구하고 있어요\n\n왓챠 WATCHA\n\n/\n\n멋진 동료를 구하고 있어요\n\n# 멋진 동료를 구하고 있어요\n\n지금 보시는 채용 공고는 2026년 2월에 업데이트된 왓챠의 최신 정보입니다!\n\n### 왓챠와 왓챠피디아 서비스를 개발하고 운영하는 기업 왓챠에서 이직/구직을 고려하고 계신 심란한 A급 인재를 모십니다.\n\n많은 분들이 주로 궁금해 하는 부분에 대해 안내드려요.\n\n채용 절차가 어떻게 되나요?\n\n지원서 작성 시 참고사항\n\n[개인정보 처리방침](https",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "&quot;스타트업, AI 비서 시장 기회 있어…맞춤화·연결 중요&quot;",
+          "description": "김영무(왼쪽부터) 카카오벤처스 심사역과 신재민 트릴리온랩스 대표, 박지혁 와들 대표가 AI 에이전트 발전 방향을 논의하고 있다. 사진제공=카카오벤처스",
+          "link": "https://www.sedaily.com/article/13982169",
+          "pub_date": ""
+        },
+        {
+          "title": "왓챠의 혁신적인 비즈니스 모델 분석과 미래 전략에 대한 심층적 고찰",
+          "description": "전략적 방향을 결정하는 데 도움을 받을 수 있다. 비즈니스에서 이러한 산업구조분석모델을 적용하면 기업은 경쟁업체와의 관계를 이해하고, 핵심 경쟁 요소를 파악할 수 있다. 예를 들어, 신규 진입자의 위협이 낮은 산업에서는 기업이 가격 경쟁에 더 집중할 수 있으며, 대체 상품의 위협이 높은 경우 차별화된 제품이나 서비스 개발에 노력을 기울일 필요가 있다. 이와 같은 분...",
+          "link": "https://www.reportshop.co.kr/socials/2203605",
+          "pub_date": ""
+        },
+        {
+          "title": "AI와 디지털 기반의 미래 미디어 계획 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "이번 계획은 ‘글로벌 미디어 강국 실현(국정과제27번)’을 달성하기 위해 국내 미디어·콘텐츠 산업의 AI 접목과 디지털 전환을 가속화하고자 하는 맞춤형 실천전략임. ’22년 9월 정부가 경제·사회 전 분야에서 디지털 대혁신과 구조적 전환을 본격적으로 추진하기 위해 마련한 「대한민국 디지털 전략」의 미디어 분야 세부전략이자, ’22년 11월 발표한 「디지털 미디어·콘텐...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=75648",
+          "pub_date": ""
+        },
+        {
+          "title": "왓챠, 상장 숨 고르기…'프리 IPO' 먼저 시동",
+          "description": "박태훈 왓챠 대표는 지난 2월 '2022 왓챠 미디어데이'를 통해 &quot;왓챠는 왓챠 2.0 전략을 통해 음악, 웹툰 사업에 새롭게 뛰어든다&quot;며 &quot;콘텐츠 개인화를 강화해 기존 플랫폼과는 다른 왓챠만의 서비스를 내놓겠다&quot;고 말한 바 있다.",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1531837",
+          "pub_date": ""
+        },
+        {
+          "title": "[2021 콘텐츠산업포럼] DAY5. 디지털 전환기, 방송영상산업의 ‘빅뱅’",
+          "description": "대표는 ‘AI와 데이터를 기반으로 고도화된 콘텐츠 추천 전략을... OTT 사업을 시작했다고 말했습니다. 지금까지 590억 가량의 투자를... 또한, ‘개인의 취향이 존중받는 세상을 만들자’ 라는 비전으로 왓챠의...",
+          "link": "https://blog.naver.com/koccablog15/223734068057",
+          "pub_date": ""
+        },
+        {
+          "title": "빅데이터 기업 '왓챠2.0'...&quot;웹툰·음악·영상 모두 모여!&quot;",
+          "description": "비즈니스 사업을 하는 ‘왓챠’의 비전과 미래 전략 등을 공유했다. 이어, 왓챠 투자사인 카카오벤처스... 모바일 데이터 및 분석 플랫폼 data.ai(앱애니)에 따르면, 왓챠는 국내 OTT 중 7일, 30일 리텐션 비율이 가장...",
+          "link": "https://it.donga.com/101793/",
+          "pub_date": ""
+        },
+        {
+          "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+          "pub_date": ""
+        },
+        {
+          "title": "콘텐츠 크리에이터 관점: 2024 Apple Intelligence와 뉴 Siri 활용전략",
+          "description": "혁신적인 방향으로 이끄는 지적 동반자로 진화했습니다. 창작의... 4  창의성 증폭 메커니즘 AI는 단순한 보조 도구를 넘어 창의성의 촉매제로 진화했습니다. ● 창의성 지원 전략 - 다각도 아이디어...",
+          "link": "https://contents.premium.naver.com/itransformlabs/aisolocontents/contents/241214141204120nj",
+          "pub_date": ""
+        },
+        {
+          "title": "넷플릭스 콘텐츠 분석을 통한 미래 콘텐츠 기획과 서비스 디자인 전략",
+          "description": "디자인 전략 저자 : 위디엑스 신지영 실장 *****@wedesignx.com * 본 글의... 제작 방식과 릴리즈 프로세스 또한 넷플릭스의 치밀한 전략에 따라... 디지털 기반 기술의 적극적 도입과 디지털 콘텐츠 전략, 멀티 플랫폼...",
+          "link": "https://www.wedesignx.com/knowledge/netflix-content-strategy-new-series",
+          "pub_date": ""
+        },
+        {
+          "title": "2024 연합인포맥스 창사24주년 컨퍼런스 기조연설.hwp",
+          "description": "2024 연합인포맥스 창사24주년 컨퍼런스 (2024.5.30) 기조연설 - 정부의 AI 전략 및 정책방향 - 2024. 5. 30.... 오늘 AI의 글로벌 생태계를 짚어보고, 우리 정부는 어떠한 비전과 전략을 가지고 이에 대응하고 있는지를...",
+          "link": "https://www.moef.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000026357&fileSn=1",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "실적은 역대급, 승부는 AI…네이버·카카오의 ‘성장 전환’ 전략 < AI·클라우드 < AI·보안·SW < 기사본문 - 테크월드뉴스- 김승기 기자",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=328668",
+          "text": "실적은 역대급, 승부는 AI…네이버·카카오의 ‘성장 전환’ 전략 --\n\n456호 --\n\n###### 월간 EPNC\n\n삼성·SK하이닉스, 2026년 AI 메모리 승부수는 ‘HBM4’ 3개월 무료구독-- 월간지 구독하기\n\n278호 --\n\n###### 월간 Embedded\n\n2030년 AI 글로벌 시장 규모 1800조…“2023년 9배 달할 것” 3개월 무료구독-- 월간지 구독하기\n\n205호 --\n\n###### 월간 SecuN\n\n금융 혁신의 시대, 안전 거래 그날까지 3개월 무료구독-- 월간지 구독하기\n\n이전 기사보기 다음 기사보기\n\n실적은",
+          "score": 0,
+          "published_date": "2026-02-12T00:00:00.000Z"
+        },
+        {
+          "title": "[컨콜] 정신아 카카오 대표 올해 AI로의 전략적 전환을 완수할 것 | 경제일보",
+          "url": "https://www.economidaily.com/view/20260212101123432",
+          "text": "[컨콜] 정신아 카카오 대표 올해 AI로의 전략적 전환을 완수할 것 | 경제일보\n\n검색 검색 버튼\n\nIT\n\n# [컨콜] 정신아 카카오 대표 \"올해 AI로의 전략적 전환을 완수할 것\"\n\n기자정보, 기사등록일 류청빛 기자\n\n## 정신아 대표 \"계열사 94개로 효율화 완료, 올해는 AI 성장 에너지 분출하는 해\"\n\n## 카카오톡 체류시간 4분 증가…'카나나' 안드로이드 정식 출시 및 글로벌 협업 가속\n\n정신아 카카오 대표 [사진=카카오]\n\n[이코노믹데일리] 카카오가 지난 1년간의 내부 전열 정비를 마치고 올해를 'AI로의 전략적 전환'을 위한 원년으로 선포했다. 구글, 오픈AI 등 글로벌 빅테크들과의 파트너십을 통해 온디바이스 AI와 B2C 서비스를 동시에 공략하고 카카오톡을 대화형 AI 에이전트 생태계의 허브로 진화시키겠다는 구상이다. 12일 정신아 카카오 대표는 2025년 4분기 실적 발표 컨퍼런스 콜에서 \"지난 1년간 중장기 성장을 위해 핵심 사업 중심으로 그룹 역량 밀도를 높이는 ",
+          "score": 0,
+          "published_date": "2026-02-12T00:00:00.000Z"
+        },
+        {
+          "title": "콴타 서비스(PWR.N), AI 인프라 투자 확대에 실적 자신감…2026년 이익 전망 상향",
+          "url": "https://alphabiz.co.kr/news/view/1065565632523979?_ref=nate",
+          "text": "콴타 서비스(PWR.N), AI 인프라 투자 확대에 실적 자신감…2026년 이익 전망 상향\n\n# 알파경제 - 콴타 서비스(PWR.N), AI 인프라 투자 확대에 실적 자신감…2026년 이익 전망 상향\n\n속초12.4℃\n\n북춘천15.8℃\n\n철원14.0℃\n\n동두천15.5℃\n\n파주14.3℃\n\n대관령10.2℃\n\n춘천15.6℃\n\n백령도9.2℃\n\n북강릉14.0℃\n\n강릉15.7℃\n\n동해14.8℃\n\n서울15.4℃\n\n인천11.3℃\n\n원주14.9℃\n\n울릉도11.0℃\n\n수원14.1℃\n\n영월16.4℃\n\n충주15.6℃\n\n서산13.6℃\n\n울진14.2℃\n\n청주15.9℃\n\n대전17.4℃\n\n추풍령15.8℃\n\n안동16.0℃\n\n상주18.1℃\n\n포항17.5℃\n\n군산10.7℃\n\n대구18.2℃\n\n전주16.3℃\n\n울산17.2℃\n\n창원15.6℃\n\n광주18.3℃\n\n부산16.3℃\n\n통영17.0℃\n\n목포13.7℃\n\n여수16.2℃\n\n흑산도11.0℃\n\n완도17.5℃\n\n고창15.2℃\n\n순천16.1℃\n\n홍성15.7℃\n\n서청주15.9℃\n\n제",
+          "score": 0,
+          "published_date": "2026-02-19T00:00:00.000Z"
+        },
+        {
+          "title": "와이즈넛, 기업 변모 가속화...유안타증권, \"가장 커질 수도 있는 기업\"",
+          "url": "https://www.globalepic.co.kr/view.php?ud=2025060210303598045ebfd494dd_29",
+          "text": "와이즈넛, 기업 변모 가속화...유안타증권, \"가장 커질 수도 있는 기업\"\n\n- Company PR\n- Network\n- Entertainment\n- epic-Column\n- epic-Life\n- Pension Economy\n- [epic-Tv](https://www.youtube.com/@%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90%",
+          "score": 0,
+          "published_date": "2025-06-02T00:00:00.000Z"
+        },
+        {
+          "title": "Our six business predictions for AI in 2026 - PwC",
+          "url": "https://www.pwc.com/gh/en/publications/business-predictions-for-ai-in-2026.html",
+          "text": "Our six business predictions for AI in 2026 --\n\nMenu\n\nIndustries\n\nMenu\n\nIndustries\n\nMenu\n\nIndustries\n\nMenu\n\nIndustries\n\nMenu\n\nIndustries\n\nFeatured\n\nAfrica oil and gas\n\nGhana banking survey report\n\nMenu\n\nServices\n\nMenu\n\nServices\n\nMenu\n\nServices\n\nMenu\n\nServices\n\nMenu\n\nServices\n\nFeatured\n\n[Doing business and investing in Ghana](https://www.pwc.com/gh/en/publications/doing-busines",
+          "score": 0,
+          "published_date": "2026-02-02T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "'Netflix Effect' lifts Korean content but market control worries grow - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVUJjdlBCMEpzOHF6MUdKVHk1UWhVUG41dzJsMEt3LUZ3dng3RW44Q3FQLVE3YTlCQk1sN28yTk1EUlYwVjNqaVYzWXE2bjVub3pVOUs3VjlhZng0NG1TY1FuUmZzT1VEVXdGbzNmVlZBYm43SllqeGR3RzB3SGlVWGJJUE9VZFR0NzFTQ0oyb0tEOFFvWlNUS21iVnNWOG4yWDc4SGlZeGdrRUpvMkxHXzdhZE16THpRRkpLQ0VjNA?oc=5",
+          "pub_date": "Mon, 19 Jun 2023 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Haitians protest against Haiti's Prime Minister Ariel Henry, in Port-au-Prince - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUDZxYV82OS03bU4yencxMEhMZllYZlhjMUIySUVuUW1zVlVNVEw0cXBIdzJsT0hrbGxlcGFicEtKV3hXWTBHcmNaVFQzeTZ1OUJIRU5rWjZEaXJ5M3RZZlhJQlZjQmZSYTJkWHpxNzRZQ3BSVm9PSFZ4T19iRERoYmQzUFJXaUhyQmpIc3UyNFRGS2wxNlhmS0ZyZlhSeXpoMC11WkMyQ1BzU0xxejFsX1RWVFRpY2lZckE?oc=5",
+          "pub_date": "Wed, 07 Feb 2024 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Beastie Boys win $1.7 mln in copyright case vs. Monster Beverage - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVTBqYlRNdTZwUFE3YmJTeWhmQmNGUUhWZ2UtMTN5bFdQRHZvRHBNSklvVzJsNjFySXFQSUtSdXVLNG4tLWxkSE1heTFuRmFMVWJuSzc4alJoWmIwNWJpd2d0ZThqXzJGY2lZRVIyUFVrWks5ZmRCcnhrSkY2RWZ6SUI3Uzd3MFhJMHFkaFZJb1h5SXlIZ3FIMW5jdjdHVG0tckVRMllYYUdUWk5Bb093RlcwUGg5VG1fcEE?oc=5",
+          "pub_date": "Thu, 05 Jun 2014 07:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Swiss Watch Fortune Heir Joins $5 Billion Monaco Wealth Firm - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ0w2Z1h1OUlKTGZJenAxZW9sRnpmZ2RLdk80dmlFVnQzX0lWa05udFllRThneEhMbXZndFRuZXdOMFlJWTBmN0FicW45SkRjc2FuRjY4akhIYUFObFBHc3Q3UkxseExVbWozeTRBemRsLUZuQ0lUQXYxc0ZmblhhMGozTjRudE1tQTYza2NTZ1RaaFZhNnNhVzZ3YUpveHRIVWxrdUhNNWZlTnEwSldpejR6MA?oc=5",
+          "pub_date": "Wed, 26 Mar 2025 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "TikTok launches Jump, a third-party integration tool - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU1l0ZXpoblpzN3JOZE12OGMyVkVEZ2VMbGJCYkMyekx4Y0hHZmpJQllrR2tJUXVoNXBIVEpYa0o0eWUzYVQzNkJIY1Y0RDZRUVh5dVFuRi0yOUNrRkpPUVZtS3RJamhNZzJZRzRneXBNTkMzTDBoY21FdE1ScDBZUDNwMVNTT0l1b2dIdjg3dw?oc=5",
+          "pub_date": "Mon, 21 Jun 2021 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Flush with new capital, Foxtrot’s ‘convenience store of the future’ is coming to a location near you - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42amVTZ0tWN1ZMRk94bXU0ZEtqVW5qT21RTUpQYUlXaXJwTVAtZ0NVQ3UtMWJCWGthcFBISndwT2oyVjNBMlE4NzdpcE5WV0JZWnNDZXNEZnRyLTZmcUpvTm5iOWluUllBQTY2S0VjZlIxWmZ5a19ndDh4Vl9YU2M?oc=5",
+          "pub_date": "Tue, 11 Jan 2022 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "This Week in Apps: Android apps on Windows 11, App Store Search Ads hit China, Apple argues against sideloading - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcEtBZlFKTlVrSzhTWDZGUjkycWk0YkNoOEMwdHZ4cDFjOWZUQ0R2RkR1dExPcDMxM250U0oxTy11Q2JrZGZhZDg4UjZtZnREUTRLZzd0Y1ZsZHFoamFWeWJIVjk2UnNheHdZdVhvNGVTRWRpcnU2dDh1STVfWFhSNi11TEFwOXZYX2dodi0zRkdkTl9GTnF6b0ZtTmdTdF9YSFhscC1vazdoU0ppYUl6aGpqYzN6T2tRWkxwRHZ6bGVGVjYxcWNsdWhaMm8zNDlmY1JxcklLNjdKWmM?oc=5",
+          "pub_date": "Sat, 26 Jun 2021 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Front Runners in the Hunt for the Apple Watch Killer App - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiogNBVV95cUxOcGsxdE5CT1pBaWNqdnpKQmY5c2tFcnNYNXc0Y1ViSU54bGRrTzdNQS1VSkdST0pQZ3BYYU5QT0gtV0prZV9MM2o2MjRId1g0a0tpbG5va2V2N2ZmMWV0XzlfM3UyaW1rcnJ6aV9fdjAxaVVJMWtiZVRUWGg0UmZ1VExKQW8xWDRnMkRoNWNuSmsyRE5aNEJNWkFmLXZKc1NjTWZrWEFRaFpnWVBqRVhhQk9Bb3dBcmZEcVlLZ0NzbVJrVHlOUlU1dTJMazJ6a3VmZVFGS0UzZm11SERKejF0a3VRaXNvSkxkR0hqa2czUmN3VkZPd3BFRTVIZk9lcTN1ejI2VnhPUG1RM2d4RS1MSzluQUkyeDU4S1VTbmNxeHFDVXFFeFY4dU91RVpHbXYzT2NlaXN3TnJSVEVoQzRHTm8wRlc5UkM4bXBDdnNSa3ZjNFJtc3YyUGZIM3Y0WFF6Tk1uNGt6WXgyUUdxU3ZwaTlmRzI1OFU3cTZSU3pwTm45bGdJbjRiM1BZNWZPR2JZdUxKVmFMOHNkVm10a1FqdmdB?oc=5",
+          "pub_date": "Fri, 24 Apr 2015 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Im Nin’Alu — how Israeli singer Ofra Haza brought a Hebrew poem to a global audience - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3S2RrSk1kenF0Vzg1QTZua2J5MjBabWdYRUtIVUxTZVdwYV8xM3hsNkNfZXJRd1VjYjBKdUt3ZFdVT0V1MGdobXJLU1I2Sjhmei1qdnRxQ3NGcG5NRnpod3o0TWpGR0xNSmVldG51eHk?oc=5",
+          "pub_date": "Sat, 01 Mar 2025 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Digital Assets Summit 2026 | 13-14 May | FT Live - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9MVWJtTUU1c2VET0t4bDFOMXJtNlVFNVBreVp6SDVDckRkRkl0Q0I4RlVUQkVPVU9URF81TFR6S1JNUGFkcDZwOU5n?oc=5",
+          "pub_date": "Tue, 15 Oct 2024 09:01:11 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "FT ranking: Asia-Pacific High-Growth Companies - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xRnlDTlZhTjByaWdKTXpVdXh2Tm1kYUp2aDZ4TlRoaHUzZTNsNW5KS1J0bm1UN2FJVkJreS16RDltZ1hCbGV2WldYdFZqTXk4UE52ZUFiS2JoVXBFT3FCNzdsS2d4dUU?oc=5",
+          "pub_date": "Mon, 20 Apr 2020 07:00:00 GMT",
+          "source": "Financial Times"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "기술블로그 소개 - Ssabum's Devlog",
+          "url": "https://ssabum.github.io/content/%EA%B8%B0%EC%88%A0%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%86%8C%EA%B0%9C/",
+          "text": "기술블로그 소개\n\nBack\n\n## 국내 IT기업 기술 블로그\n\n1) Naver D2\n\n· 국내 최대 포털사이트 네이버의 기술블로그 Naver D2입니다. NAVER 개발자들이 직접 정리한 실전 개발 경험과 지식, 주요 개발자 행사 소식과 후기를 업로드합니다.\n\n2) kakao Tech\n\n· 카카오의 기술 블로그로, 카카오 서비스를 만드는 개발자들의 실제 개발 사례를 중심으로 기술과 노하우를 전달합니다. 이벤트와 오픈소스, 채용 정보도 확인할 수 있습니다.\n\n3) 쿠팡 기술블로그\n\n· 국내 온라인 쇼핑 사이트 쿠팡의 기술블로그입니다. 쿠팡 글로벌 개발팀이 쿠팡을 만들고 진화시키면서 배운 점과 얻은 교훈을 비롯해 다양한 테크 관련 이야기를 전",
+          "score": 0,
+          "published_date": "2021-03-26T00:00:00.000Z"
+        },
+        {
+          "title": "Building an Open-Source WhatsApp Customer Support Stack (n8n + Chatwoot + WAHA) - DEV Community",
+          "url": "https://dev.to/achiya-automation/building-an-open-source-whatsapp-customer-support-stack-n8n-chatwoot-waha-3o86",
+          "text": "Building an Open-Source WhatsApp Customer Support Stack (n8n + Chatwoot + WAHA) - DEV Community\n\nMost WhatsApp automation guides end with \"sign up for this SaaS.\" This one doesn't. I'll walk you through setting up a fully self-hosted WhatsApp customer support system using three open-source tools — no per-message fees, no per-seat pricing, no vendor lock-in.\n\n## The Stack\n\n| Tool | Role | Replaces |\n| --- | --- | --- |\n| n8n | Workflow automation | Zapier, Make.com |\n| [Chatwoo",
+          "score": 0,
+          "published_date": "2026-03-13T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - hsy2493/Watcha",
+          "url": "https://github.com/hsy2493/watcha",
+          "text": "# Repository: hsy2493/Watcha\n\n- Stars: 1\n- Forks: 0\n- Watchers: 1\n- Open issues: 1\n- Primary language: HTML\n- Languages: HTML\n- Default branch: master\n- Created: 2024-09-03T08:00:40Z\n- Last push: 2024-09-21T12:30:19Z\n- Contributors: 2 (top: hsy2493, Seoyounggit)\n\n---\n\n# `Watcha` - 📺 \n\n1. 작업 기간 : 2024. 03. 27 ~ 2024. 04. 03 \n2. 주제 : TV 프로그램 시청 사이트 \n3. 목적: 고객이 온라인에서 왓챠 사이트를 통하여 영화, 드라마, 예능 프로그램 등의 다양한 TV 프로그램 시청을 주목적으로 진행된 TV 프로그램 시청 사이트 프로젝트 입니다. \n\n왓챠 사이트 (https://watcha.com/)를 참조하여 진행하였습니다. \n\n1",
+          "score": 0,
+          "published_date": "2024-09-03T00:00:00.000Z"
+        },
+        {
+          "title": "GitHub - wafflestudio/22-5-team8-server",
+          "url": "https://github.com/wafflestudio/22-5-team8-server",
+          "text": "# Repository: wafflestudio/22-5-team8-server\n\n- Stars: 2\n- Forks: 2\n- Watchers: 2\n- Open issues: 4\n- Primary language: Python\n- Languages: Python (99.7%), Mako (0.2%), Dockerfile (0.1%)\n- Default branch: main\n- Created: 2024-12-22T08:39:43Z\n- Last push: 2025-02-02T13:05:47Z\n- Contributors: 5 (top: deveroskp, arcstone09, anandashin, minchok125, kevin990222)\n\n---\n\n \n \n \n \n \n\n \n 🧇Wachapedia \n WaffleStudio 22-5 Team 8 토이프로젝트 \n \n\n## 배포 링크\n\n프론트엔드 배포 링크: https://d2vsqxcvld4zf7.cloudfront.net (모바일로 들어가",
+          "score": 0,
+          "published_date": "2024-12-22T00:00:00.000Z"
+        },
+        {
+          "title": "A Simple Tech Stack for your Engineering Blog",
+          "url": "https://underthehood.meltwater.com/blog/2019/11/25/a-simple-tech-stack-for-your-engineering-blog/",
+          "text": "A Simple Tech Stack for your Engineering Blog - Meltwater Engineering Blog\n\nFor quite a while I am maintaining the Engineering blog for Meltwater at underthehood.meltwater.com. What flew under the radar for a number of years as a side project, is now pushing out multiple blog posts every month, and is helping the company both externally and internally. The blog attracts 50k unique page views per year, so it looks like the content we share is useful for the ",
+          "score": 0,
+          "published_date": "2019-11-25T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.42857142857143,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.357142857142858,
+        "evidence": "13 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01450424"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=왓챠"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=왓챠"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=왓챠+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EC%99%93%EC%B1%A0"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=왓챠 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=왓챠 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=왓챠 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=왓챠 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EC%99%93%EC%B1%A0"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

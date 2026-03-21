@@ -1,704 +1,942 @@
 {
   "company": "구글코리아",
-  "sources_used": [
-    "exa_search",
-    "google_news",
-    "dart",
-    "credible_news",
-    "brave_search",
-    "naver_search"
-  ],
-  "result_count": 12,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "data": {
-    "company_name": "구글코리아 유한회사",
-    "company_name_eng": "Google Korea LLC",
-    "stock_name": "구글코리아",
-    "ceo": "낸시메이블워커 ",
-    "address": "서울특별시 강남구 테헤란로 152 (역삼동, 강남파이낸스센터) 22층",
-    "industry_code": "71399",
-    "established": "20040315",
-    "homepage": "https://about.google",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
-        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
-        "link": "https://sibauchi.tistory.com/1205",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
-        "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
-        "link": "https://ilovefamily.tistory.com/527",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "(26-03-21) 매크로 정리 - 오전 10시까지",
-        "description": "한신공영(+29.99%): 저PBR 공개에 따른 기업가치 제고 노력 전망 속 수혜관련주 주가 상한가 3. 우리로... 재고 소진 or 전술적 조정 구간. ✅ Day 9~10 (드론 반등) : 미사일은 여전히 낮은 수준이지만 드론이... ",
-        "link": "https://blog.naver.com/mobidic25/224224376157",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "임원도 단번에 합격!! 면접 전 태도/답변/마인드까지 최종 점검",
-        "description": "✔ 새롭게 바뀐 대한항공 기업 분석 ✔ 직전 합격생 스펙 &amp; 공통점 ✔ 영상전형 합격 팁 (답변/태도) ✔ 최신 자기소개서 작성법 &amp; 예시 ✔ 대한항공 면접 합격 전략 ✔ 최신 면접 질문 리스트... ",
-        "link": "https://blog.naver.com/doublejo01/224224372397",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
-        "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
-        "link": "https://lefthusband.tistory.com/1565",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "도쿄일렉트론코리아 면접 학원 인턴 1차 직무 인성면접 기출 후기",
-        "description": "취업패스 맞춤 커리큘럼 남들 밤새워 구글링하며 검증 안 된 후기 뒤질 때 취업패스 수강생들은 합격 답안지를 외우고 들어갑니다. ✅ TEL 장비 완벽 해부 현직자 급 지식 주입으로 면접관 기선 제압 ✅ 1:1 압박... ",
-        "link": "https://blog.naver.com/itmentor365/224223758129",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "도쿄일렉트론코리아 면접후기 인턴 1차 2차 예상 질문 답변",
-        "description": "대기업 면접관 &gt;&gt; 출신 코치님께서 직접 지도해 주십니다! (도쿄일렉트론코리아 코칭 담당) ★ 수업 진행 방식 ★ ✅ 대면: 서울 시청점(시청역) ✅ 비대면: Zoom 또는 구글 Meet  대표번호 : 02-6206-9413 ▼ 일대일... ",
-        "link": "https://blog.naver.com/gourt1/224223578797",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "대구 취업 성공 잡코리아 활용 전략으로 꿈을 이루세요",
-        "description": "단순히 채용 공고만 보는 것이 아니라, 회사의 사업 분야, 기업 문화, 근무 환경 등을 파악하여 자신에게... 잡코리아에 있는 기업 정보와 후기를 참고하여 회사 분위기와 면접 방식을 파악하는 것도 잊지 마세요.... ",
-        "link": "https://sibauchi.tistory.com/837",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "샘표식품면접학원 PT면접 임원면접 후기",
-        "description": "특히 교육생의 성향과 직무 역량을 연결하는 정교한 스토리텔링으로 연결하여 최단기간 합격률을 최대치로 올려 드리고 있습니다. 대면 : 서울시청점 비대면 : 줌 OR 구글MEET 추가적으로 샘표식품면접학원에서... ",
-        "link": "https://blog.naver.com/jobpass_/224222106115",
-        "pub_date": "20260319"
-      },
-      {
-        "title": "정규직 대규모 채용 | 14개 직무 총정리 + 면접 족보까지 공개",
-        "description": "퇴사율 및 조직 문화 - 현직자 후기 솔직 정리 크레딧잡 데이터 기준, SK하이닉스의 최근 1년 퇴사율은 약 10%대 초반으로 대기업 평균 수준이에요. 반도체 업계 특성상 이직 시장이 활발한 것을 고려하면... ",
-        "link": "https://blog.naver.com/cymmcymm/224215480910",
-        "pub_date": "20260319"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "[[[스페셜코리아 - 해외감동사연@스페셜코리아•구독자 8.65만명•동영상 395개매일 아침 7시 하루도 빠짐없...",
-        "description": "스페셜코리아 - 해외감동사연 @스페셜코리아•구독자 8.65만명•동영상 395개 매일 아침 7시 하루도... 구글 채용자가 본 전세계 유학생들의 로망 1위 국가 한국에 경악한 이유ㅣ해외감동사연 조회수 2.3만회3개월 전... ",
-        "link": "http://cafe.naver.com/jmsong0829/65471",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "회사에서 비용처리가 가능한 복리후생비",
-        "description": "업무관련성 회사의 복지·근로환경 개선 목적이 분명 사회통념상 타당성 금액과 내용이 과도하지 않음... ➊ 직장체육비 ➋ 직장문화비 ➌ 직장회식비 ➍ 우리사주조합 운영비 ➎ 건강보험·노인장기요양보험 사용자... ",
-        "link": "http://cafe.naver.com/aclove/658514",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "한때 세계를 지배했던 일본, 왜 지금은 추락했을까? 1989년 --무한돈전",
-        "description": "지금 우리가 우러로 보는 애플,구글, 마이크로소프트를 전부 합친 위상을 당시 일본의 시중 은행들과 전자... 연봉이 5천만 원인 사람이 있는데 빚이 무려 1억 3천만 원이나 있는 상황입니다. 이 상태에서 은행이 대출... ",
-        "link": "http://cafe.naver.com/truthdaily/12298",
-        "pub_date": ""
-      },
-      {
-        "title": "정책뉴스20260321토요일",
-        "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 보건복지부(장관 정은경)는「메디컬코리아 2026」참석차 한국을 방문한 몽골 친부렝 직찌드수렝(Chinburen... ",
-        "link": "http://cafe.naver.com/jungamironware/9268",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "2026년 3월 20일 금요일 정책키워드 총정리",
-        "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-20 오후 3:00:00 엔브이에이치코리아㈜의 하도급법 위반행위 제재 엔브이에이치코리아㈜의 불공정하도급거래행위... ",
-        "link": "http://cafe.naver.com/magicbank/3332",
-        "pub_date": ""
-      },
-      {
-        "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
-        "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
-        "link": "http://cafe.naver.com/grayjuinb/23",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
-        "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
-        "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
-        "pub_date": ""
-      },
-      {
-        "title": "구글의 AI 개발에 대한 전략은 무엇인가요? | 상식닷컴 - sangseek.com",
-        "description": "Q4: 구글의 AI 연구 개발은 어떻게 이루어지고 있나요? A4: 구글은 딥마인드, 구글 리서치, 브레인 팀 등 다양한 연구 조직을 통해 자연어 처리, 컴퓨터 비전, 머신러닝 등 핵심 AI 분야에서 최첨단 연구를 수행하고 있으며, 내부 협업과 외부 학계, 산업계 파트너십도 활발히 진행합니다. Q5: 구글은 AI 기술을 어떤 서비스에 적용하고 있나요? A5: 구글 검색, 구글 어시스턴트, 구글 번역...",
-        "link": "https://sangseek.com/communities/197120",
-        "pub_date": ""
-      },
-      {
-        "title": "&quot;구글도 5년 뒤는 몰라요. 중요한 건 방향성이죠&quot; 구글코리아 HR 총괄이 전하는 미래 개척의 역량",
-        "description": "그러나 방향성은 확실하죠. 향후 몇년 간은 인공지능(AI)이에요. 인재... 불확실성의 시대엔 구글과 같은 미래 전략이 개인에게도... 중요한 건 방향성이죠&quot; 구글코리아 HR 총괄이 전하는 미래 개척의 역량...",
-        "link": "https://www.joongang.co.kr/article/23027847",
-        "pub_date": ""
-      },
-      {
-        "title": "Korea 신뢰성 있는 고성능 인공지능 기술 확산을 위한 전략",
-        "description": "글로벌 AI산업 및 시장 경쟁이 치열한 가운데, 주요국은 AI 육성을 위해 다양한 정책을 추진해왔다. 최근에는 AI 육성뿐만 아니라 안전하고 신뢰성 있는 AI 기술에 대한 요구도 커지고 있는 추세다. 이에 글로벌 AI 선도국들과 우리나라의 AI 육성정책을 살펴보고, 신뢰할 수 있는 고성능 AI의 활용·확산을 위해 필요한 전략과 비전을 검토해보고자 한다.",
-        "link": "https://tongsangnews.kr/webzine/1532312/special_4.html",
-        "pub_date": ""
-      },
-      {
-        "title": "[주니어전자]구글 부사장 “한국의 AI 전략, 구글과 잘 맞아요”",
-        "description": "부사장 / 구글코리아 “한국 정부가 추진하는 '소버린 AI ' 전략이... 하지만 AI 혁신을 촉진하는 방향으로 더 보완할 필요가 있다고도... 한편, 화이트 부사장은 구글의 플랫폼·디바이스 사업 부문과 아시아...",
-        "link": "https://www.etnews.com/20250703000089",
-        "pub_date": ""
-      },
-      {
-        "title": "[리셋 코리아] AI 모델로 산업 혁신 이끌 전략이 없다",
-        "description": "미국의 오픈AI·구글·앤스로픽 등이 조 단위 투자를 앞세워 시장을... 이끌 전략과 비전의 부재에 있다. AI 생태계는 모델에 국한되지... 편집 방향과 다를 수 있습니다. 김주호 KAIST 전산학부 교수·리셋 코리아...",
-        "link": "https://www.joongang.co.kr/article/25244101",
-        "pub_date": ""
-      },
-      {
-        "title": "[Interview] 카란 바티아 구글 글로벌 정책협력 부사장 “AI 강국 되려면 '3 I' 필요… ‘혁신·인프라·투자’ ....",
-        "description": "Bhatia) 구글 글로벌 정책협력 부사장은 8월 6일 인터뷰에서 AI 시대에... 등 AI 관련 비전과 정책 방향을 명확히 제시하고 있다. 이처럼 4개국이 접근 방식은 모두 다르지만, 한국이 참고할 만한 전략을 보여주고...",
-        "link": "https://economychosun.com/site/data/html_dir/2025/08/08/2025080800011.html",
-        "pub_date": ""
-      },
-      {
-        "title": "[사고] &quot;치열해지는 AI 패권전쟁…한국 기업 생존 전략은?&quot; [GAIF 2024]",
-        "description": "치열해지는 AI(인공지능) 패권전쟁에서 한국이 나아가야 할 방향은... 퍼플렉시티 사업 개발 총괄이 연단에 섭니다. 퍼플렉시티는 검색 원톱인 구글의 자리를 위협하는 ‘AI 검색 스타트업’입니다. 젠슨 황...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=03378406639085720",
-        "pub_date": ""
-      },
-      {
-        "title": "“AI혁신, 대담하되 책임 있게”…구글, 지속가능한 AI 비전 제시 [경주 APEC]",
-        "description": "구글은 AI 기술 교육 사업에 뛰어들고 있다고 칸 부사장은 밝혔다. 그는 “구글은 2015년 이후 각국... 중”이라며 “AI는 현지를 이해하고 지역별 문제를 해결하는 방향으로 발전해야 한다”고 말했다....",
-        "link": "https://v.daum.net/v/20251030153900453",
-        "pub_date": ""
-      },
-      {
-        "title": "구글CEO, 오픈AI와 경쟁에 &quot;큰 그림 봐야…혁신은 발전 촉진&quot; (종합)",
-        "description": "구글CEO, 오픈AI와 경쟁에 &quot;큰 그림 봐야…혁신은 발전 촉진&quot; (종합)... 같은 방향으로 나아가고 있다&quot;고 했다. 그는 &quot;검색 엔진이 복잡한... 지난달 이스라엘에 클라우드를 제공하는 '프로젝트 님부스' 사업에...",
-        "link": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20240516046651091",
-        "pub_date": ""
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "구글/조직문화 - 나무위키",
-        "url": "https://namu.wiki/w/%EA%B5%AC%EA%B8%80/%EC%A1%B0%EC%A7%81%EB%AC%B8%ED%99%94",
-        "description": "<strong>인턴 대졸, MBA 채용은 인턴으로 한다</strong>. 예를 들어 보자. 구글코리아 온라인 광고 사업팀에서 광고 운영 담당자[4]를 대졸 인턴 직급으로 모집한다고 하자."
-      },
-      {
-        "title": "구글코리아(유) 기업정보 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/1801432",
-        "description": "직장 내 포용성이란 공정하고 평등한 채용 절차에서 시작합니다."
-      },
-      {
-        "title": "2026년 구글코리아 채용 | 인크루트",
-        "url": "https://www.incruit.com/company/1176521/job",
-        "description": "구글코리아의 최근 3년간 채용정보를 인크루트에서 확인하세요."
-      },
-      {
-        "title": "구글코리아 채용 프로세스 - 외국계기업 취업컨설팅 레쥬메이크 ⎪ Resumake.co.kr",
-        "url": "https://resumake.co.kr/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84-%EC%B1%84%EC%9A%A9-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4/",
-        "description": "예를 들어 마케팅 직무라면 구글에서 진행하고 있는 마케팅 형태부터 최신 트렌드, 시장점유율을 확대하기 위한 전략 제시 등을 알고 있는지부터 시작하여 지원자의 과거 경력이 어떤 도움을 줄 수 있을지를 질문합니다. 이때 두루뭉술한 의견을 제시하는 것은 금물이며 조사한 내용이나 과거 실무 경험을 바탕으로 구체적으로 답변해야 합니다. 4) Googleyness ‘구글다움’이라고 하여 기업 문화와 잘 어울리는지를 평가합니다."
-      },
-      {
-        "title": "2026년 구글코리아 채용 기업정보 | 인크루트",
-        "url": "https://www.incruit.com/company/1176521/",
-        "description": "구글코리아(유)는 인터넷·포털·컨텐츠·게임 업종의 중소기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
-      },
-      {
-        "title": "구글코리아 2025년 채용정보 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/RecruitInfo/496999",
-        "description": "신입 기획/전략/경영, 마케팅/PR/분석, 바이오/제약/식품, 생산/제조/설비/조립, 생산관리/공정관리/품질관리, 영업관리/지원/영업기획, 재무/세무/IR, 화학/에너지/환경, B2B영업/기술영업 ... 신입 마케팅/PR/분석, 빅데이터/AI, 일반영업, B2B영업/기술영업, DBA/데이터베이스 ... 회사소개 캐치 이용가이드 이용약관 개인정보처리방침 채용공고 등록 채용광고 상품 안내 고객센터"
-      },
-      {
-        "title": "구글, 넷플릭스 등 글로벌 기업은 어떻게 채용하고 있을까?",
-        "url": "https://contents.h.place/acca/hrtopic/23/global-recruit",
-        "description": "그만큼 <strong>자유와 책임을 중시하는 기업 문화</strong>를 가지고 있는 것이죠. 직원 관리에 있어서도 실제로 관리와 통제에 초점을 맞추기 보다는 자율적이고 주체적으로 직원들이 행동할 수 있도록 ..."
-      },
-      {
-        "title": "블라인드 | 구글 채용",
-        "url": "https://www.teamblind.com/kr/browse/%EA%B5%AC%EA%B8%80-%EC%B1%84%EC%9A%A9-1584",
-        "description": "(문과) 클라우드 핵심 인재가 아니다보니, 그나마 비지니스 고민을 더 많이 할 수 있는 구글코리아 가고 싶은데 채용 프로세스가 어떤가요? 1. 이력서 보내면 리쿠르터가 아닌 해당 팀에서 바로 연락오기도 하나요?"
-      },
-      {
-        "title": "[해외취업] 구글/구글코리아에서 일하고 싶은사람들을 위한 조언 : 네이버 블로그",
-        "url": "https://m.blog.naver.com/eun9179/220840595413",
-        "description": "흔히 이걸 &#x27;네트워킹&#x27;이라 하는데 <strong>회사 내 직원들의 추천(referral)을 통해 공채를 거치지 않고 사람을 채용하는게 일반적</strong>이다. ... 구글코리아 초창기 멤버들은 인터뷰를 20번 봤다고 한다."
-      },
-      {
-        "title": "구글 코리아 면접 후기",
-        "url": "https://velog.io/@gomjellie/%EA%B5%AC%EA%B8%80-%EC%BD%94%EB%A6%AC%EC%95%84-%EB%A9%B4%EC%A0%91%ED%9B%84%EA%B8%B0",
-        "description": "이번 학기에는 흔히 말하는 ... 생각이였다. 그런 생각에서 <strong>취업 공지방에 올라오는 채용공고중에서 엄청 마음에 드는 회사들만 지원서를 넣었다</strong>...."
-      }
-    ],
-    "google_news": [
-      {
-        "title": "엔지니어·컨설턴트 출신 김경훈 전 구글코리아 사장, 오픈AI 코리아 첫 대표로 - cio.com",
-        "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxQTEJyYVhMZXhKTk1zaE1PUDB5NmM3clJVLXN6dll6d2YwUi1MdkdPemtEREJaUU85VWpHMWpkLTNmVVJnbV9JcGt6THY0NnNrZ2gzNlJDWUo4OFNKMmt2cVppRXZsc1BKZlBBUWUzT0pSV1p0VmVPUHkwUGJDT3k5MnoxR1RBcENvNHo2VlpLNXkzRnpxaFJnYU9SbmV3UjZYbUtEdGlCdTEwcU16V28wY0d1dFZ5czZzRHVleGNpeWJJSldRQUlGTUtUWFZUWDNTMjZuZkkzcnEwUl9YQll1eHotRXJPeGd1THZOMW1OYnBBbWhzY0ZKWDlUR19LaWdxVHhWZndGT0NLVVpKbmFUVEVrclk1NVBycGZQVlZWSnMyX19NbC04VVBvaW1odWNvcnlpWGtoWnhNTFdMd1ZXZEg3XzZtMzRPUUk0Ukg4Qkw0OFZLVmQ3SWM3elJZdw?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "cio.com"
-      },
-      {
-        "title": "신입 채용 비중 14% 바늘구멍… 글로벌 AI 3강, 한국서 격돌 [캠퍼스 뉴스] - 서울경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51UHctNEpVdGFMZnAyWVlJNzVCb0Y1OHR3bFFtamxpMTFmcHl5djEzSElnalQyUDlTQmpDeXBMRDJ1SkpmT2JTMkRWVWZWSmVfenfSAVNBVV95cUxOcnZDV0dMTjMwUHBEME9JT0VBUVE2VkszOXpRbGtsNk95dGhPLXYxbDVqTG1iaHVuMnRsWXhXOUJQenVMWTJocERHbWhEZ1NqVzJpMA?oc=5",
-        "pub_date": "Tue, 10 Feb 2026 08:00:00 GMT",
-        "source": "서울경제신문"
-      },
-      {
-        "title": "구글코리아 첫 번째 PM이 국회의원 된 사연 - 요즘IT",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8teHlDVlVCZk9teW80OUp5TUJiWmFreXNNLWR3SEFXM1JzeG4zM2lVUGxBMklGd2tvQmhjMjFvVjdqcWVmMXJYZGRxLWZFbi1LTGlpd1pDSHY4QQ?oc=5",
-        "pub_date": "Tue, 12 Aug 2025 07:00:00 GMT",
-        "source": "요즘IT"
-      },
-      {
-        "title": "오픈AI 코리아 초대 대표에 김경훈 전 구글코리아 사장 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtT05OVmEtd0gxellhUWZwLV96Rkx1NlJBNWwwcG9LUktIZnQ2LW8tazVFaUEwc0YxQy1JRS1taTdtOUMxUDc1YzgzYi1SQWJEMTZ3YUVqSHhEZ3PSAWBBVV95cUxQb21TMEtUanlueDJ6VEU2UjNvV0VRbWk2NkdaVm1uZENkZTVRaVZXcXl3bXFWMklqdGtYdHN3MnY0TVFWcUdacWRZRnlvdUlFWHhGR1BrVEUyUTZuYkpNRUM?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "오픈AI의 인재 곡선에서 배우는 채용 전략 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13SnpGbjZQNzVteDROZmhtUC16OW4yVTNKaVpJa0hhbzVobTFnUzdQXzlsX04zYnF1bDdQaWd4VmstSjN5OU5MMzlDbldacHlmNkRiVTRB?oc=5",
-        "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "‘오픈AI 코리아’ 초대 총괄 대표에 김경훈 전 구글 코리아 사장 선임 - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40NkVqcUtSWDExRTZPaExRQS0xNXVLclZrWkE5X1NrVE5jcVhsZWJ5TmZmSlRZN0tzb3pRRzU0aXhhTFZaVURCakluNFJuRE9WcC1kbFJUdG96UdIBX0FVX3lxTE1zRFlSU2h6NC1hQU9SQmtxSlZyeE5OSEtuTXEyYlBfS1IxT1hRaGZabVVZTXB6RUlBNWZvTXpUMWRKSUlZLUlEVEl1b1dhZ01RMTkyRHFSVjRObVI2NnMw?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "경향신문"
-      },
-      {
-        "title": "오픈AI, 한국 첫 지사장에 김경훈 구글코리아 전 사장 선임 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQVl5NmdzNmFnVURLa2RfTTV6bGdmWGN0WUZMdTNuanJ0eGNQeFdxSW1icGIySzFyYkxVcFdIeGlBSDRyMFRRVXl2NWhXWEdjeXZYelNscDVUV2ltV2JWZERORE5tUHZDQ0hPajF2Tk4wYXg2bGxVS2N6SVd5M25TOWJn0gGWAUFVX3lxTFBDM19zY2hITVBZSWFKbnBsY0UxUFdCTzNsTFFvWE5CRlFvLUhzM3hNZU9RQkxLLXdvelhXRUJMSmpuU1ljZDFnSldMUnljdkxiVWJPWV9LUVA3S0wxUlpMZHBRajRsNE9zbk00cFBTTEJOaFlBNi1IN1p5aVQ0SUI5WkVlSXU3ZjNoN29JRW80c2M2dUF3UQ?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "Chosunbiz"
-      },
-      {
-        "title": "오픈AI, 초대 韓 대표에 김경훈 전 구글코리아 사장 선임 - 딜사이트",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mWEhXSHBqNjItTmtkZWphaDBDY09uODdXTUJPaWJhWXBDRUlfX0VRSFBGVl9rTGVscEVhUVJiX1JhUzFuTmdYT2hVRXhFTms?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "딜사이트"
-      },
-      {
-        "title": "[박수연 칼럼]오픈AI코리아 공식 출범...글로벌 AI 기업들이 한국을 주목하는 이유 - 더밸류뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Vc0F1VnlYZzZEeElQU01pVEx0czdDQ2xoN290YXNYeHJhRzROQ3BGTkxJVm5pM1VhenVxQ1B5MHROQmt3TzkyNjBWRm9tZGZjTGUzOA?oc=5",
-        "pub_date": "Mon, 15 Sep 2025 07:00:00 GMT",
-        "source": "더밸류뉴스"
-      },
-      {
-        "title": "오픈AI, 전 구글코리아 김경훈 사장 ‘초대 OpenAI 코리아 총괄 대표로 선임 - 인공지능신문",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ja0VOWmNNc0k5cFUzZmxuZnAzZFNOVWNfRHRMbG1YMWJmU2xXOEZtaElZSmZtTnRSSmhqWFFTc3ZQTXR5M284Qnl2R1BRaFBhdWk1Mk43X0VjdXZ1VHN4QXhkX3VqU1k?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "인공지능신문"
-      },
-      {
-        "title": "오픈AI 코리아 첫 총괄 대표로, 김경훈 전 구글코리아 사장 - mt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aYzRFUGF4Zkl5VVlwMngwMmNFQ3JtNXQtNDh1cnl3dldNTHVJUnA0cXdZSTVReGh0REI4c2l1bWRpQ0ItU3pWaFo5YjFreTl0d3dtRDdYV3pzZzN5NkkwVzFQOXFsaWs?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "mt.co.kr"
-      },
-      {
-        "title": "구글 떠나는 김경훈, 오픈AI 한국 법인 첫 지사장 유력 - 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11Tm1tcVQzRlFaMktGTVZ4TVZMQWU1ZnQ0d0NISmhlVnc3TFE3aWU4R09CVDRJblJab24wcDk3MXM2YmFnbGtKN2Y3MzJpWTJjU3hhNlZTcGhMQ0J6YnZjR0FB?oc=5",
-        "pub_date": "Sat, 13 Sep 2025 07:00:00 GMT",
-        "source": "디지털데일리"
-      },
-      {
-        "title": "구글 \"한국, 세계 AI 생태계 출발점 될 수 있어\" - 인더스트리뉴스",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ub0ExQVJkcURTNUlIakxFNmhXMTlHeHoyYmMwSmJ2ZmdVbFFrMGl4dHJ5a2d0RWJyUGhDODF3TnREQTB0QUY2R051Mmw3R216Y0FTb3RFYlBqbEd5Tm8yNWtoN2l3S18wUzN3bm9xRE1ZZw?oc=5",
-        "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
-        "source": "인더스트리뉴스"
-      },
-      {
-        "title": "김경훈 오픈AI 코리아 대표, ‘IT 공룡’ 구글 떠나 ‘AI 중심’ 서다 - 한국금융신문",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CY1ZfRmQzeV9VOFFYSF9GT1RQNUtFR1BhY1gzQk5haVd4aHFkdzNEN2FQOEdqY2ZrS0FBdG9fTVB4Ml81WkR3M0gzSTliY2tFRzRYU2NYNUw5VzlXd21lWW5ycDZYZ1dTRDZzNUpsR1hrMjF3dExZbDd2S04?oc=5",
-        "pub_date": "Tue, 14 Oct 2025 07:00:00 GMT",
-        "source": "한국금융신문"
-      },
-      {
-        "title": "김경훈 구글코리아 사장 퇴사…오픈AI 한국 법인 사장行 유력 - 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sd3JkSVJsT25tV0E5VmNId1Q2WFR0YVpsNldQbkgwQUVCa2I0YTNTYzl1UkRpbldmTFdzYk1zN0NtMG9hM1BmM1BVSHMwMXJZZnZ3?oc=5",
-        "pub_date": "Fri, 12 Sep 2025 07:00:00 GMT",
-        "source": "네이트"
-      },
-      {
-        "title": "구글코리아가 21년 동안 떼먹은 세금 최대 18조 원. - 슬로우뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5wWWJYbHhzcmEzZEE4aWp3Uk51aVdNaVJvVE5yam5LU3JUSnpfbTFqVHdWTy1KQ2xmR1ZHZllObw?oc=5",
-        "pub_date": "Thu, 15 May 2025 07:00:00 GMT",
-        "source": "슬로우뉴스"
-      },
-      {
-        "title": "구글코리아, 윤구 신임 사장 선임…광고 사업 총괄 - ebn.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1ZTE4VEhDTlRvc3hqNWxMdXhhREQtWW45aEZpTUJzM3lTeHBDTUk3Yk14SVMwZjQxdVRhUWp0X0h2VXRKNUNRMkZxV19KQ21oaWJFY1F2RHp0cFRHM2RDU3RBSi0tbmgy?oc=5",
-        "pub_date": "Fri, 12 Dec 2025 08:00:00 GMT",
-        "source": "ebn.co.kr"
-      },
-      {
-        "title": "\"경쟁사 인재도 OK\"…구글 대표 모신 오픈AI, 첫 韓 지사장 통해 국내 사업 확대 속도낼까 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NcnlqOE13YjNfdHBubXp2WU9FczdaLWhRVVc0UHpabm5ZWm9NOW02b3R3Ym1Na0lyNlZwVjVtYTBfX1lDQWhnV25hb2tCOTdhOEtWMzB3?oc=5",
-        "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "구글 연 매출 10조 추정되는데... 세금은 155억뿐, 네이버의 3% 수준 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2RpWjN1NzJlLTZiWjliWkJlck1hNGlDVDBnTFNRbVd6bFRBY2J3SnZSRlFITVlNcUVfUGdYb2t3U01DbmZVTUV6Zk5oRFdOWnA1R2JSZEZMQzNKQVA5UTFoa2toNXI3M0xZQ0IxUFZOMHd4TFFFWUE3Y2RLcDI4YXUwMNIBlwFBVV95cUxOQVh1OXpjTHU1TTF1b3FlN1dLcFI4OXhTaTFYTUpVbE53N25RUlhWMURsY01tWFNOMlFjcTVUbFVtazJiV0hTelVSVUJia1VkQlBCVGliNGdQQ296TTJoTUFIb3ZFNnJqeG1ZaDRYMlgzVk44V0lGblVxc2RiR0ZWY3JBUE5xd2lBTjBqelRxdzAtNWFXMnA4?oc=5",
-        "pub_date": "Sat, 13 Apr 2024 07:00:00 GMT",
-        "source": "조선일보"
-      },
-      {
-        "title": "구글코리아, 6천억 벌고 법인세 240억…韓 '세금 기피처' 활용? - 뉴스후플러스",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14SW1sY25kRmh1X0J2UUttYkhtaG03VUVLUzhRdEFXYjJwQWFCV3pZbHZNLS1FS0tlbFdNRUFNdWZKMk1YODZZTS1KWVRiUEhwSWtzOVA5SFVvMEh2c2lTY3NYbURrM0tqMjdsWUNR?oc=5",
-        "pub_date": "Thu, 17 Apr 2025 07:00:00 GMT",
-        "source": "뉴스후플러스"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "[구글 코리아] Growth Manager, App Sales 채용",
-        "url": "https://careerbrdg.tistory.com/3432",
-        "text": "[구글 코리아] Growth Manager, App Sales 채용\n\n검색 메뉴\n\n## 고정 헤더 영역\n\n글 제목\n\n메뉴\n\n좋아요 -\n\n댓글달기 - 공유하기\n\n## 메뉴 레이어\n\n### 메뉴 리스트\n\n- 홈\n\n커리어브릿지 (3065)\n\n커리어브릿지 (91)\n\n- 소소한 이야기 (29)\n- [커브 동영",
-        "score": 0,
-        "published_date": "2026-03-03T00:00:00.000Z"
-      },
-      {
-        "title": "",
-        "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/",
-        "text": "블라인드 | 구글코리아기업정보**블라인드**기업서비스\n# blind*Topic*\n# 검색검색글쓰기로그인구글코리아\n구글코리아*Rating Score*4.6*(564개 리뷰)*\n이회사리뷰하기구글코리아은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n# 구글코리아회사소개* **홈페이지**www.google.co.kr\n* **업계**정보서비스업\n* **본사**서울특별시 강남구* **설립**2004\n* **직원수**-\n* **연봉정보**-\n구글코리아는검색및탐색, 미디어및엔터테인먼트, 기기, 업무처리, 일정및데이터관리등의다양한방면에서제품과",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "Working at Google: 3,906 Reviews | Indeed.com",
-        "url": "https://www.indeed.com/cmp/Google/reviews",
-        "text": "Working at Google: 3,905 Reviews | Indeed.com\n\nWant to work here?\n\nView jobs\n\n# Google Employee Reviews\n\nUpdated March 14, 2026\n\nJob title\n\nSoftware Engineer\n\nProgram Manager\n\nWarehouse Worker\n\nIntern\n\nCustomer Service Representative\n\nSoftware Development\n\nManagement\n\nSales\n\nAdministrative Assistance\n\nMathematics\n\nLocation\n\nUnited States\n\nUnited States Air Force Acad, CO\n\nKeywords\n\nTopics\n\n- [Culture](https://www.indeed.com/cmp/Google/reviews?fcountry=US",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "구글 코리아 인턴십 인터뷰 회고록 - point of view.",
-        "url": "https://jaewook.me/google-korea-interview-review",
-        "text": "구글 코리아 인턴십 인터뷰 회고록 - point of view.\n\n# 구글 코리아 인턴십 인터뷰 회고록\n\nJaewook Ahn⸺1 June, 2024\n\n# 글을 시작하며\n\n내가 중학생일 2011년 무렵, 학교에서 꿈을 주제로 만들기 수업을 했는데 이때 \"30살 전에 구글 입사\"를 적었다. 저 때부터 구글은 꼭 가고 싶은 기업이었다. 하지만 저 당시는 프로그래밍을 시작한 지 얼마 되지 않았던 때였고, 구글이라는 회사는 천재 프로그래머들만 가는 회사라는 이미지가 있어서 더더욱 막연하고 대단하게 느껴졌다. 그로부터 10여 년이 지난 지금, 이렇게 구글 인터뷰 후기를 쓰게 되어 감회가 새롭다.\n\n2022년, 구글 코리아에서 대학생을 대상으로 gReach, STEP 프로그램으로 인턴십을 진행한다는 사실을 알게 되었다. 하지만 나는 취업 준비에 안일했고, 영문 이력서 작성에 대한 막연한 두려움이 있던 탓에 4학년 2학기를 마치고 나서야 냉혹한 취업 현실을 깨달을 수 있었다. 이후 부랴부랴 레쥬",
-        "score": 0,
-        "published_date": "2024-06-01T00:00:00.000Z"
-      },
-      {
-        "title": "블라인드 | 구글코리아 이직",
-        "url": "https://www.teamblind.com/kr/browse/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84-%EC%9D%B4%EC%A7%81-2653",
-        "text": "블라인드 | 구글코리아 이직\n\n블라인드 기업서비스\n\n디렉토리\n\n구글코리아 Rating Score4.6\n\n- 연봉\n- 게시글\n- [리뷰](https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%9",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "Google Doubles AI Investment to $185 Billion, Backed by Cloud and ...",
-        "url": "https://www.chosun.com/english/industry-en/2026/02/05/MOG2SR6WTFDWZM6TCVKJCX5ZB4/",
-        "text": "Google Doubles AI Investment to $185 Billion, Backed by Cloud and Ads\n\n# Google Doubles AI Investment to $185 Billion, Backed by Cloud and Ads\n\nRecord spending targets AI leadership, leveraging steady cloud and advertising revenue to outpace rivals\n\nBy Kang Da-eun\n\nPublished 2026.02.05. 15:51Updated 2026.02.05. 18:40\n\nLogo of Google's headquarters building in Mountain View, California, USA. /Chosunilbo DB\n\nGoogle announced it will invest up to",
-        "score": 0,
-        "published_date": "2026-02-05T00:00:00.000Z"
-      },
-      {
-        "title": "구글 “올해 AI에 270조 투자”…압도적 자본으로 경쟁자 털어내기 - 매일경제",
-        "url": "https://www.mk.co.kr/article/11955134",
-        "text": "구글 “올해 AI에 270조 투자”…압도적 자본으로 경쟁자 털어내기 - 매일경제\n\n댓글정책\n\n공감순 최신순 오래된순\n\n뉴스 바로가기\n\n# 기사 상세\n\n비즈 인사이트\n\n## 구글 “올해 AI에 270조 투자”…압도적 자본으로 경쟁자 털어내기\n\n피차이 CEO 실적·비전 발표검색·유튜브·클라우드에 제미나이 접목데이터센터·인프라증설등 투자액 2배로\n\n사진 확대\n\n2026년 2월 4일 캘리포니아주 마운틴뷰에 위치한 구글 본사 전경. [AFP연합뉴스]\n\n구글이 인공지능(AI) 패권 경쟁에서 사실상 ‘올인’에 가까운 승부수를 던졌다. 검색과 유튜브, 클라우드 전반에서 AI 효과가 본격적으로 매출로 이어지자, 공격적인 인프라스트럭처 확충과 차세대 제품 확산으로 AI 주도권을 굳히겠다는 전략이다.\n\n구글 모회사 알파벳은 4일(현지시간) 발표한 지난해 4분기 실적에서 2026년 자본지출을 1750억~1850억달러로 제시했다. 2025년에 집행한 설비·부동산 투자 규모(약 910억달러)의 거의 두 배에",
-        "score": 0,
-        "published_date": "2026-02-05T00:00:00.000Z"
-      },
-      {
-        "title": "구글 실적 서프라이즈⋯AI 투자 두 배 확대 | 블록미디어",
-        "url": "https://www.blockmedia.co.kr/archives/1041944",
-        "text": "구글 실적 서프라이즈⋯AI 투자 두 배 확대 | 블록미디어\n\nClose Menu\n\nYouTube Telegram X (Twitter)\n\nTelegram YouTube X (Twitter)\n\n2026년 2월 19일(목)\n\n요약\n\n알파벳은 2025년 4분기 매출과 순이익이 모두 전년 대비 크게 증가하며 사상 첫 연간 매출 4,000억달러를 돌파했다.\n\n인공지능(AI) 및 데이터센터 설비투자를 2026년에 두 배 가까이 확대할 계획을 밝혔고, 클라우드 사업은 4분기 매출이 48% 성장하며 핵심 동력으로 자리 잡았다.",
-        "score": 0,
-        "published_date": "2026-02-04T00:00:00.000Z"
-      },
-      {
-        "title": "구글 모회사 알파벳 “AI 경쟁력 강화 위해 270조원 투자” < 게임·인터넷 < 게임·콘텐츠 < 기사본문 - IT조선",
-        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092156391",
-        "text": "구글 모회사 알파벳 “AI 경쟁력 강화 위해 270조원 투자”\n\n전체메뉴\n\n기사검색\n\n기사검색 검색 닫기\n\n기사검색\n\n기사검색 검색 닫기\n\n- 회원가입 --\n- 로그인\n\nfacebook talk -- post youtube\n\nUPDATED. 2026-03-04 17:01 (수)\n\n기사검색\n\n지난해 4분기 시장 기대치를 웃도는 실적을 기록한 구글 모회사 알파벳이 올해 AI 경쟁력 강화를 위한 대규모 투자를 단행할 계획이다. 알파벳은 AI 시대 주도권 확보를 위해 데이터센터와 인프라 확장에 집중하고 있다.\n\n/ 제미나이 생성 이미지\n\n5일 블룸버그 등 외신에 의하면 알파벳은 올해 최대 1850억달러(약 270조원) ",
-        "score": 0,
-        "published_date": "2026-02-05T00:00:00.000Z"
-      },
-      {
-        "title": "Google Approved to Export High-Precision Maps from South Korea ...",
-        "url": "https://www.techi.com/google-approved-export-high-precision-maps-south-korea/",
-        "text": "Google Approved to Export High-Precision Maps from South Korea After 20-Year Ban\n\nFebruary 27, 2026 · 1:55 AM EDT\n\nDr Layloma Rashid\n\n• 3 min read\n\nGoogle Approved to Export High-Precision Maps from South Korea After 20-Year Ban\n\nSouth Korea has just opened access to a protected market. The country approved Google’s program to sell high-precision maps to other co",
-        "score": 0,
-        "published_date": "2026-02-27T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "Google Open Source Blog",
-        "url": "https://opensource.googleblog.com/",
-        "text": "Google Open Source Blog\n\nJoin Google Summer of Code (GSoC) and start contributing to the world of open source development! Applications for GSoC are open from now - March 31, 2026 at 18:00 UTC.\n\nGoogle Summer of Code is celebrating its 22nd year in 2026! GSoC started back in 2005 and has brought over 22,000 new contributors from 123 countries into the open source community. This is an exciting opportunity for students and beginners to open source (18+) to gain real-world exp",
-        "score": 0,
-        "published_date": "2026-03-16T14:25:59.564Z"
-      },
-      {
-        "title": "Awesome Google Developer and Engineering Blogs - GitHub",
-        "url": "https://github.com/androiddevnotes/awesome-google-engineering-blogs",
-        "text": "GitHub - androiddevnotes/awesome-google-engineering-blogs: 👓 A collection of all the Google developer and engineering blogs related to programming, security, opensource, testing, android, youtube, etc.\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "Inside Google's Engineering Culture: the Tech Stack (Part 2)",
-        "url": "https://newsletter.pragmaticengineer.com/p/google-part-2",
-        "text": "Inside Google’s Engineering Culture: the Tech Stack (Part 2)\n\n# The Pragmatic Engineer\n\nSubscribeSign in\n\nDeepdives\n\n# Inside Google’s Engineering Culture: the Tech Stack (Part 2)\n\n### Deepdive into how Google works from SWEs’ perspectives at the Tech Giant: planet-scale infra, tech stack, internal tools, and more\n\nGergely Orosz and [Elin Nilsson](https://su",
-        "score": 0,
-        "published_date": "2025-09-30T00:00:00.000Z"
-      },
-      {
-        "title": "Open Source | Google Cloud Blog",
-        "url": "https://cloud.google.com/blog/products/open-source",
-        "text": "Open Source | Google Cloud Blog\nJump to Content\n\nCloud\nBlog\nContact salesGet started for free\n\nCloud\nBlog\nContact salesGet started for free\n# Open Source\nHow Google Cloud is supporting the open ",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "GoogleCloudPlatform/generative-ai: Google 공식 생성형 AI 깃헙 리포지토리 완벽 가이드 - DEV Community",
-        "url": "https://dev.to/_46ea277e677b888e0cd13/googlecloudplatformgenerative-ai-google-gongsig-saengseonghyeong-ai-gisheob-ripojitori-wanbyeog-gaideu-81",
-        "text": "GoogleCloudPlatform/generative-ai: Google 공식 생성형 AI 깃헙 리포지토리 완벽 가이드 - DEV Community\n\n## TL;DR\n\nGoogle Cloud 공식 생성형 AI 깃헙 리포지토리(15,800+ 스타)는 Vertex AI 플랫폼 위에서 Gemini를 중심으로 텍스트, 이미지, 음성, 에이전트 등 생성형 AI 전 영역의 실행 가능한 Jupyter 노트북을 제공합니다. 공식 문서를 읽은 후 \"실제로 어떻게 구현하지?\"라는 질문에 답해주는 살아있는 코드 저장소예요.\n\n---\n\n## 상황: 공식 문서의 한계\n\nGoogle Cloud 공식 문서는 개념 설명과 API 레퍼런스에는 탁월하지만, 실제 프로젝트에 적용할 때 나타나는 간극이 있어요. 몇 가지 예를 들어볼게요:\n\n- Gemini 새 버전이 나올 때마다 API가 조금씩 바뀌는데, 공식 예제가 따라가지 못할 때가 있어요.\n- Vertex AI Search 같은 고급 기능은 개념 설명만 있고, ",
-        "score": 0,
-        "published_date": "2026-03-11T00:00:00.000Z"
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Reuters | Breaking International News & Views - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE8tZ2hNa2FhcURvbGFUZGY4clA5d1FnWlJWbnIzV2dfOFVDdDRNQ25lY2s2dzFLV2ZYRHBldA?oc=5",
-        "pub_date": "Sat, 10 Sep 2005 07:49:43 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "South Korea set to finally get a fully functioning Google Maps - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVTRwQlB6aDZPalp4cWhmWGZSNnRPQ0Y0WWN1ZTVfd21IMGxvOXM2M0NJV0pOckdoSi1zVzYwY1JMeE5WZlB2XzNHMGE1QnNVQUlyb1ROOHBLZkdkeG00YkhFeElHZHc1MEREenRNbXRJYnd0VWRxbFdNbDg5RkpzUEZWelppcEZfWnp0aHQ3UEFfc2xXeWRrQnJabTJXRUdtZXlGME4zbHZvUXRQSVpfUDF2WXk2enlj?oc=5",
-        "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "South Korea delays decision on Google's request to export map data - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZDJpbG5YX1RyVldKNmFkVGZVNGFVd0swTHBldlQ5TjBfTlhxNmsyTGMtY2s4S3pqQTJKQXNBX0NpbE1QdDJ4dEdvc2FGSVFLam5SZmtZN3lVVmlRZENaYjNrX2lpZVFKSnVMNnV4S1JYOVJ0elpYRXFwSVpyVkh5TjlHVGxBTm5YNWlFaG1KdDBqVEpDM0h3aU8tald1dE1YeUhvS1JKTi1ubDlhS0RjRkw1LVhXM3l5b2I0aW1qeDg0ejd5UEpCa2tR?oc=5",
-        "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "KOSPI Quote - Korea Stock Exchange KOSPI Index - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fV1pzRzM1QmhKMkFnN1JtWUhNaGFvM09vQWdfTHRNc0pKdGhQUXF0QjhBNVZ5U0VXbUhrTEstQWFGaFBpS01MVmVTRm5xcGhGWU9v?oc=5",
-        "pub_date": "Thu, 20 Mar 2014 03:47:26 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Great Moments in Executive Goofiness - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ3BVelZtZ1JaUHJPTkh2dWsyd29TXzBQbExxeDR2UWVHRjI5aUlPVG45c29WUmg1Q2xxQWtkaV9XZ3BWRV9zaDdHdldtNTBLYVNScHBCbFVRRTIyd0JGendVU21OQjM3M1lhNlB0d09NSHNHcjY5SkhxWEJzdGN1WHNPLWZxVXFYUlN1cDFmNkRKc2lVeVE?oc=5",
-        "pub_date": "Mon, 01 Oct 2012 07:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Google Wins Conditional Nod From Seoul to Offer Precision Maps - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbjdUdWU1U0d2SV9QSWVHX0lMa25UNzFSOVpkQ1ZPc1VDaGNNekxLc2dNbmNHbUNUQk9NVGpib3U2b2RaUnpUTUtTeWgyS2o1NmJsVnFDQ0ZjS2hObjExTTgxNXphMEZ1eUVERkxIZ2hFRW1JcnYzX2s1azlGVkF3Nnp5ZldZM1FSbXdNNElDQ1VheTdtYW4zWlRYaDFuOEswcmlvMjVIbG5aVVRWd1BHWA?oc=5",
-        "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Seoul weighs approval for Google, Apple high-resolution map requests - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTFnWkcyWWNaVS0yZmc5RG55QXBPNFlYTVdaaFpydFdRTjM0TUhpaEppVEc4YjNLWTdhSmJGNDZSYjBVcmNLSlcwTDFqazJUbW9BNWFTUlJyLUx1eFdUVm1Ob1RaRWZqRWdNODdKMWhkUm1WeDlmXzc4SEFOMFJaTzZlWHZ4dzhOdjdoT3RkbThndllOSDE0OWtxeUZiOVk3SWlabg?oc=5",
-        "pub_date": "Wed, 15 Oct 2025 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "South Korean antitrust regulator fines Google $177M for abusing market dominance - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcF9LRVE0dFZaZzZ4aUZJdnI4RjRkZnVzMURsWUo1WUtvV0xvSFJzUlNhXzRxWVF1dW5acTRLY2VnVU5LYWZCckEtWWVCTFhxVlZCSEtSYUc5LVRWM3VHcmxQOWtSalg2LVo0VzhPajM2c25kSnhsOVFkV3puSXpnTmE3THVkejZiTnV0N2Naa2lIVF96dXZCU3dkNWNtc3c1NEVRNkFIWjV4czZFeHNSSlh6Ynk?oc=5",
-        "pub_date": "Tue, 14 Sep 2021 07:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "South Korea opens the door to let Google Maps operate fully - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR1l4T3owRVdOYlNYeG50d3A4V0ctSUlLN1BLV096NEV5V3NiTzJsRzhDU3BZTmRXaUl1SmF2NFl4UmgtVGJLVUFlaUpUelUzalJCVXVYeGpUdVZmb0FtTk9lWlhXTGxqUXA2cEpNVU1nYV9JLUNqMzFMc3dsb3R0N3BzNUh6bGVEUFJMVTlsZW1CRVY1YUJDTmJn?oc=5",
-        "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Google Challenges South Korea Over Mapping Restrictions - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxOUDRtY25uOU5pQkc0TXd1UlRqOGNjU1A1WURkVG9FYjlfZGt2SVRuNjY4X3NVNmNFbGJXOFQtbXlCRlNOTEtpc0xRemhZeDZoa0gzQkpVVGVqaVZtOW40MERYTms4aW96YndjZ3V5X1YwUVdtVFc1T0dhZHpsTVVFOU9UdUs2d0hPOG5ZQ3RuOEhjeDdlWllfUmJuNnN5dTZ6X2JJZlk0eUJpM2M3MjlxRGs0SlhxX3lOZURpQlhrT3gxbU1teXh2d2xWVTU4T0JFUjJYb1ZvWDBmOWRwQXdrMkNUWXpaU3pNa3ZSOGdsdTE0X0FmOGZFbmFXWHpySUp5QnFDSHRWWm5YMW4tcDdEUGYwT1FnZTJ3a2EzOTZidUxfQjhRY000ZTVHUkVFNFA2LUNpMlktTER5WHliRmZKbVJ5RUtPWDNvVExUSnVKVzhkc1RXMlpaU1paYlRmWHRlQnQ5ZDJ0RWkzOFZsY0xMcjd6SHgxeW5OX0RIRVZhdzMyWnJVaTVsVWtjVXp2Z0JoNnJ1ZGFkaTFXNGZsSllmbQ?oc=5",
-        "pub_date": "Tue, 17 May 2016 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Google Changes Korea Home Page - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQYXNUOVc2cVZnNDhwSloxdkw1V3Y0eXAwREpHRHVOaHRqRWhJNVVvSUNjZnY3aHI0eXozSkN5bmo0TVN3MHMzemFzZjBoQVFoT0VLeDdvRWE1R0RSTVF2blBvSDZZdm4xbEVkMnJWei0tTV9QVXRYN3lZUDdRMXlDT3FFeFhxZHhCYjAyYVB3RUhtVDZCbDdGQVVacXVya0xLemZLSnlyVXJtRTBVZ1VyMHZGNVJScXN0R1VxSVBwQldlWmpJR2oyb19sX2t3VXpJaWVtRjdfSUViNU91d0RKNnowZXN3UkZfellUdjVYUmZXcFFVRHlicDhqNHlDVFdOSUlRcWV5LWdST0RXM1R4RmNlb1h5Uk9ubGlFNTR3ODhDcGozQjY4RDFjVEtxZUNMclpJcFljVnRnSG80TVpxSlBkNng1SFJsc1c5VnZaU21ZNTMyTFNlS3BDaXY4d2JBVGwyWkZGNk5WRXZqYWlKZG5JRTRwbVRzX3FVc0NpSlQtUQ?oc=5",
-        "pub_date": "Fri, 11 Dec 2009 08:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "South Korea Fines Google $32 Million for Squeezing Out Local Rival - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOVUNOVDBhbE54VW1GNHBEclNOeURJNU1TamFFUDF5LWFHYkpzaTRHMEFJY0FjYldEeFktYW1KenIwTWh5cEltR1NGTUU2Q2ZQRGd2TlAxT3pUcXlBWFVremRWaWFYd0VJWDRnTVBoZVB4Yk5mVUg1RGppRXlUemw1Qm5IZldMZ09MNS1zQ1FOX3RCelRBUk1qcVhCM21mYm5NSEFBS25XRG5VSXQxYzVvXzdzMlZ6U01SZmJoTUxqS1FuMjRHcl9rS3doTWY3VHJrMlpJYU95X3ZEWlRmVlRUa1Y0VTFzUTd2aHhLdjBwYi0tWU9Od00zck9XbTRZcFl1N3hDbzJOYlFBV2JXdWZBMUE3QWFDai1ZRWVVQ2sxX2ZUYjVMYjB3NWUwOFBoZExDeFpJSDFEekJULUVIa09Ka0lESDQ2SDZ5U0FEWHhCelBZRHdSZllXNFBzTmpuVUZ0X2I1SGhqMFdKejYtWXdhYnlwOUd4d0JrLXlvS3VfRG9CQ3FvanI2c2lhSUxydTllcnJhTEVrU2JxSWhYU21JLTJMbkZlNmNIUGNn?oc=5",
-        "pub_date": "Tue, 11 Apr 2023 07:00:00 GMT",
-        "source": "Wall Street Journal"
-      },
-      {
-        "title": "Google Maps wins access to South Korea — one of last countries where app does not work - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92ak5rcWNyZngzNmdCdS0weHFjSU9YR3F4VFBiWWItbGFFRmJTbC1YaTJBLTRwUnZ1LW5qa0tycC1maDhZMldneU93SkxQT0oybmxXQk5NLUZsYzJoWFJIcFBDZkphR05VWmNhRnF3UGI?oc=5",
-        "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "‘South Korea’s Google’ pitches AI alternative to US and China - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nOTh1VlNjX3RwSklGdzhhaTR5dEFKWGhkSDdlSVpnNmhudFc4cFJ5UlhKZWdkNm1QTm5sTjJab01sU0Q4b2c1eEJkOGpyRDN4V3ZUYXZ3dUFFdjljT2RUVWI4OG9kbXV6d1lfM2JKSFg?oc=5",
-        "pub_date": "Sat, 10 Jan 2026 08:00:00 GMT",
-        "source": "Financial Times"
-      },
-      {
-        "title": "South Korea - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9qUGxOWjVIOFFCVjM5TWpCWERRS1VPRno3S0p6eGw0eXFPN29IbTVPTGlGZjZGeFlod3FCLXFNTWM2V1Zn?oc=5",
-        "pub_date": "Mon, 26 Sep 2022 19:07:56 GMT",
-        "source": "Financial Times"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80Xy1PSGNHZy1OUG83anp3Mlp4NHJOUmlkTFBUV1VkczVPRnlCYTZqX3pTYnM1VHZtelU1YTgyWHVvVzliWHRKOVdaRUJpM3dSeXVjdmgzeTBBZ9IBVEFVX3lxTE1MYzZvQjU1ZmUxY19sRU5JTGMtQTJlNVhjamZpVnBVZXl6d0E2cC1PbXJHcFh3X25OWElXVlRmUVJBVGowUHdRcVcwSE9WNDd6SFhwQw?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 08:28:15 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWDdpUElsOENSZWF6TkU5bG9RMVNScHRUYmJSS1h6WHdrdDl2RXd4ZGs1MmlnT0x6RnkwaFoyWVdLREs5WlBXc3NGaFVsbE5yLVN1RlZlaS1EQWh6aUlfRWlHcjFjazh2aWNMQ0NlQS04NjMtcEh0bEpNcUdFTUlYcDJ1WmgxY1VzT0VtZHQ1dDBFOFEyVEp3d2R1REE2dnJfV1NYUmREY01LSjBV?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 16:21:30 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "\"'신적 AI' 만들겠다\"는 이 사람, 10년 만에 한국에 온다 [김인엽의 퓨처 디스패치] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Nb0dPdElnV1cwc3JvX0JYWnY3ZE9Tb0xPZUtzZGltLXlPcm5MZnRZcTFzRFhJYzVDX3NmbVd1RW00eC1VajVWRmQ1T01jellQRHRpbmtTR2hVZ9IBVEFVX3lxTE1GN1RXc1gtbjUxMC1mR1d1V0FHUVRrdnRCODZ1SjRScmd6R3lncFRuM01DUmltSS15ay16SFI2S1ctbUVCUXk4dUdYZm12Y1lhY3cyTA?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 23:55:00 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "구글 클라우드, 온보드 행사에 2900명 참여… “AI 역량 교육 확대” - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNm1yYXRjdlZVVjY0RmgtTndSSWpiUDA1Q0NwczNrREpJOFY4eGVUT0Z3YjFHVnR1RFlQdW9tR2lMSDBNbzBEQU1kMk9iMDZWNTZhSUYzdXVmX2NKd1Jtd18zM0s5S09hTUxuYU4ta2JFZ0I1N196alZHS3BaanBLSUxR0gGWAUFVX3lxTFBSeTVGXzhRRWdCaVFNTEl5Ym9iVW9rdUY2LVNNVFpteFI4emFlR29ZUXNaNWJmR0JkLWlTN0tCTHNXZno5T1pLNlExdDZpVk5OdWVYLWZ3eGJHRklqeUw4MjZXekZ6aWh4SDhkbUxYcS02UE5LM0RwWGRPOUt0dE5INE1vODhZNjd5UnFwdWNpR2ktd1YyQQ?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 01:34:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "르노코리아, 쿠페형 SUV ‘아르카나’ 2027년형 출시 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQkpnUTJQamxkVlNyeTVNWk9KMFB0VWNXXzdWRmJJTExpZ1VPVGJDdXVxUGJzQlV6SnhrM01KdmxYUUV3aGNjMVZKV1lUQUh3WGJiVHBrR1Z0allpVW5JOXc2TW5jRndHekpIU2hTekg3bVBvbE9zbXRINTJTVW5yUC1YLWPSAZgBQVVfeXFMT09uQU9vV0hJTUJsc05DVXM0OGoyT1FkaEFIcnRBaGp0bUtXS2dscTlTNTZvTzdhaEM5OEtCMGFXcmt1QkRGbG1vT3NoaTFzUzNzX2VjTG15Sjd6MmRQRWtKQjZ5S0tiUkEzZTNvMVVvcDVOTlFndVVBd2JsUDUyZHBhc1FHdGNoR00tVndQaVU5UVUxVm51N20?oc=5",
-        "pub_date": "Sun, 15 Mar 2026 00:45:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "[BTS 귀환] BTS 뮤비, 공개 20시간 만에 3100만뷰…넷플릭스 앱 설치량 급증 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWjQwaDkwU3hlQmlvY2RkM2RyWUNqNF9NeHVBdEVZOGdCTFpCa2xLRmVlb21mSHl4VUtEVGhJTHlpNzBKdXVPNEhqM2VFNFdYMi1PUU1zRkZfSHBhRW9KWkFyem5odDhFUERNMHlGU3ZyT0RLVS1IMzBWSTZnTlJYSk43dEhSNmI3UFE?oc=5",
-        "pub_date": "Sat, 21 Mar 2026 01:20:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "today-paper - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwVjA0ME1iSGhKakhhNU16bVEwZWZQeWozdjNqNU5PS1VjV2NRREZhMFlGeG52ZnZFZ3RncmNoV01OSU5BX2RNcjdVdFdVUXl2NW1iVm9Genp5N3I0MlZJZ0c3WVNIN0E?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 15:14:01 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "‘구글 클라우드 온보드’ 성료… “한국 AI 인재 성장 지원” - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFByVWVuZjFaeFY4QkFvUnlZNUlwSEMzNm1jZTMwMHVlY2tLMzVIV3RDT0o5TjN3ZkJjRUw4QTZkZzY1bVFZRWc?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 04:44:34 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "'알파고 아버지' 허사비스 10년 만에 한국 온다 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96T1RGY2I1Q2lTLUIwcTN5RDBobnRpY1BqYlVrcDdHdDdKRFZYNmEwd2Zwd1RWRmF3cndoYXlYYWVlcjZBZGhMdGhkQ1RWUQ?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 10:14:14 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[유미's 픽] \"테스트베드 끝났다\"…판 바뀐 韓, 글로벌 AI 격전지로 급부상 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xbWdoUjlOc0pJck9sRWhsRUlrN2tMQVFpeUQzbFdrVnVPaFZFeFRZNzQtdFRQT3c2MXUxeTMzLVJxbG9iVTlpVFFKS0JxODFRRXpuZTJn?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 01:14:34 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "구글, 바이브 코딩 앱 '스티치' 공개…피그마 주가 12% 급락 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Wa050c2tDMFhEdzZncE5wcGlIUUt3QmJiYkttWEh0SHJMVjFkTDB1NDJUQ1ozT01xa3VlSFBVTzNNNG5kak95VVY1eG03ZXU5Y0QxWVBn?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 00:51:47 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "[유미's 픽] 클라우드 생태계 만든 AWS, 스무살 됐다…MS·구글 추격 속 전략 시험대 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UMFd4YWtkUVVhZWZqRVQ1a3d3WkNWRXFNQU5Zc2RyXzVCSGl0UWlobXRDSlRwaXllck1FSlh2dGs4RnhxTkdDS09MaE95UUlZbGhoZkJB?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 08:06:52 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "[SKT 이사회 리빌딩]② '재무통' 전면 배치… AI 투자 새판 짠다 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51Y2Rrakx5S0NQV1NOOGIxeGlCWTNnWmEwN1J2anMyaGRmdDVrSUljR196dGNqenJSZ2JCUm1LcWpfNmd4THpZbk9YR2hFelhnbFY2NmtCSkVpZUFOeTNIVXA4N0E0VktRbmZuMtIBbEFVX3lxTE51Y2Rrakx5S0NQV1NOOGIxeGlCWTNnWmEwN1J2anMyaGRmdDVrSUljR196dGNqenJSZ2JCUm1LcWpfNmd4THpZbk9YR2hFelhnbFY2NmtCSkVpZUFOeTNIVXA4N0E0VktRbmZuMg?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 00:10:30 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[앱마켓 수수료 인하]② 북미·유럽 먼저…컴투스 수혜 선반영 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LQmcteWZseTRTSTRqbnpiakxuSDZvNERyMEtJeF9NWldfcUlxYzNfWTBzd3NTZ3c2VllWYmFiQXUtR1FYZktGc1kwNWN3QzlXS3NEUW1oWGJyY1FrVlFaR3UtaFhkQUlN0gFsQVVfeXFMTVlZZDlPV0oydXQyeTQ0X0xUTVBOaS1yaHVhbk8xTDE0OXItMWVEZlpSc1FtN3JMMTBjUG45VzhoeHJpN2FSU2hadnlKSW84SXNENUppRlowLWFscC1XM0ZjdENVamlGOEZJRG5q?oc=5",
-        "pub_date": "Fri, 20 Mar 2026 07:52:51 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[하림 해운업 진출 10년]‘1조 베팅’에 가려진 팬오션 인수의 진실 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JTUxnQldwQ0F5SGx2Q1NpUEZZdVJGNnR2X1B6dldDdW1PV3JwS3pJamxtS0VleUxxb3ZHNGxvU0F5MUR1QTNuWG5pUktScVdSemdkdnJpVDB1d2UxVWZFZ3VCdGRqQ1ow0gFsQVVfeXFMT2dKN2piVkdTN2hHWGFlSGNSWVFOak43MXduVWY1S2Q5RzZockNnSFZ4V3NTS1JJSFlUOTl3WExTVGItRlJncm02U2ZCUzF4ZGwwNGN0WTFWZTNnbFRtbEhodzVpTzUtdDV0QlBO?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 05:26:47 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "[바스리] 구글코리아 전 대표가 만든 AI 스타트업 ‘스켈터랩스’ - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9uc0FFejhFUjlBX2xKTldnSnphQ1ZhRS12VFRYQnNsb2w5cXI3bFdaczYycXNOOGx0eE5mdUZOaXpWanp1RGxiX19ZczRPdw?oc=5",
-        "pub_date": "Wed, 18 Sep 2019 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "한국에 서버 생긴 구글, 법인세 내게 될까? - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvRWpKaVlqVlRSMW9PTi04eXN1MmlLVjlYY2VaMWYwNlJYM0dnaUdwVVY2MXcxcW94aGJZQ0EzamV1OWV5bnRsbGpGQ0NXZw?oc=5",
-        "pub_date": "Thu, 20 Feb 2020 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "구글, 한국에서 얼마나 벌어갈까 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RdXVQRkRObk1kb2RZMDh6ZkhoS2VMWENHTlFrMjIxa2dVWk5BQVVORk95c2VTUzU1VUo3Tno0ckh6b3dVTG9LVDNhOTlaZw?oc=5",
-        "pub_date": "Thu, 20 Sep 2018 07:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "구글코리아 유한회사",
+      "company_name_eng": "Google Korea LLC",
+      "stock_name": "구글코리아",
+      "ceo": "낸시메이블워커 ",
+      "address": "서울특별시 강남구 테헤란로 152 (역삼동, 강남파이낸스센터) 22층",
+      "industry_code": "71399",
+      "established": "20040315",
+      "homepage": "https://about.google",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "brave_web_results": [
+        {
+          "title": "구글/조직문화 - 나무위키",
+          "url": "https://namu.wiki/w/%EA%B5%AC%EA%B8%80/%EC%A1%B0%EC%A7%81%EB%AC%B8%ED%99%94",
+          "description": "<strong>인턴 대졸, MBA 채용은 인턴으로 한다</strong>. 예를 들어 보자. 구글코리아 온라인 광고 사업팀에서 광고 운영 담당자[4]를 대졸 인턴 직급으로 모집한다고 하자."
+        },
+        {
+          "title": "구글코리아(유) 기업정보 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/1801432",
+          "description": "직장 내 포용성이란 공정하고 평등한 채용 절차에서 시작합니다."
+        },
+        {
+          "title": "2026년 구글코리아 채용 | 인크루트",
+          "url": "https://www.incruit.com/company/1176521/job",
+          "description": "구글코리아의 최근 3년간 채용정보를 인크루트에서 확인하세요."
+        },
+        {
+          "title": "구글코리아 채용 프로세스 - 외국계기업 취업컨설팅 레쥬메이크 ⎪ Resumake.co.kr",
+          "url": "https://resumake.co.kr/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84-%EC%B1%84%EC%9A%A9-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4/",
+          "description": "예를 들어 마케팅 직무라면 구글에서 진행하고 있는 마케팅 형태부터 최신 트렌드, 시장점유율을 확대하기 위한 전략 제시 등을 알고 있는지부터 시작하여 지원자의 과거 경력이 어떤 도움을 줄 수 있을지를 질문합니다. 이때 두루뭉술한 의견을 제시하는 것은 금물이며 조사한 내용이나 과거 실무 경험을 바탕으로 구체적으로 답변해야 합니다. 4) Googleyness ‘구글다움’이라고 하여 기업 문화와 잘 어울리는지를 평가합니다."
+        },
+        {
+          "title": "2026년 구글코리아 채용 기업정보 | 인크루트",
+          "url": "https://www.incruit.com/company/1176521/",
+          "description": "구글코리아(유)는 인터넷·포털·컨텐츠·게임 업종의 중소기업으로 채용, 연봉, 기업정보 등 취업에 필요한 모든 정보를 확인할 수 있습니다."
+        },
+        {
+          "title": "구글코리아 2025년 채용정보 | 캐치",
+          "url": "https://www.catch.co.kr/Comp/RecruitInfo/496999",
+          "description": "신입 기획/전략/경영, 마케팅/PR/분석, 바이오/제약/식품, 생산/제조/설비/조립, 생산관리/공정관리/품질관리, 영업관리/지원/영업기획, 재무/세무/IR, 화학/에너지/환경, B2B영업/기술영업 ... 신입 마케팅/PR/분석, 빅데이터/AI, 일반영업, B2B영업/기술영업, DBA/데이터베이스 ... 회사소개 캐치 이용가이드 이용약관 개인정보처리방침 채용공고 등록 채용광고 상품 안내 고객센터"
+        },
+        {
+          "title": "구글, 넷플릭스 등 글로벌 기업은 어떻게 채용하고 있을까?",
+          "url": "https://contents.h.place/acca/hrtopic/23/global-recruit",
+          "description": "그만큼 <strong>자유와 책임을 중시하는 기업 문화</strong>를 가지고 있는 것이죠. 직원 관리에 있어서도 실제로 관리와 통제에 초점을 맞추기 보다는 자율적이고 주체적으로 직원들이 행동할 수 있도록 ..."
+        },
+        {
+          "title": "블라인드 | 구글 채용",
+          "url": "https://www.teamblind.com/kr/browse/%EA%B5%AC%EA%B8%80-%EC%B1%84%EC%9A%A9-1584",
+          "description": "(문과) 클라우드 핵심 인재가 아니다보니, 그나마 비지니스 고민을 더 많이 할 수 있는 구글코리아 가고 싶은데 채용 프로세스가 어떤가요? 1. 이력서 보내면 리쿠르터가 아닌 해당 팀에서 바로 연락오기도 하나요?"
+        },
+        {
+          "title": "[해외취업] 구글/구글코리아에서 일하고 싶은사람들을 위한 조언 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/eun9179/220840595413",
+          "description": "흔히 이걸 &#x27;네트워킹&#x27;이라 하는데 <strong>회사 내 직원들의 추천(referral)을 통해 공채를 거치지 않고 사람을 채용하는게 일반적</strong>이다. ... 구글코리아 초창기 멤버들은 인터뷰를 20번 봤다고 한다."
+        },
+        {
+          "title": "구글 코리아 면접 후기",
+          "url": "https://velog.io/@gomjellie/%EA%B5%AC%EA%B8%80-%EC%BD%94%EB%A6%AC%EC%95%84-%EB%A9%B4%EC%A0%91%ED%9B%84%EA%B8%B0",
+          "description": "이번 학기에는 흔히 말하는 ... 생각이였다. 그런 생각에서 <strong>취업 공지방에 올라오는 채용공고중에서 엄청 마음에 드는 회사들만 지원서를 넣었다</strong>...."
+        }
+      ],
+      "google_news": [
+        {
+          "title": "엔지니어·컨설턴트 출신 김경훈 전 구글코리아 사장, 오픈AI 코리아 첫 대표로 - cio.com",
+          "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxQTEJyYVhMZXhKTk1zaE1PUDB5NmM3clJVLXN6dll6d2YwUi1MdkdPemtEREJaUU85VWpHMWpkLTNmVVJnbV9JcGt6THY0NnNrZ2gzNlJDWUo4OFNKMmt2cVppRXZsc1BKZlBBUWUzT0pSV1p0VmVPUHkwUGJDT3k5MnoxR1RBcENvNHo2VlpLNXkzRnpxaFJnYU9SbmV3UjZYbUtEdGlCdTEwcU16V28wY0d1dFZ5czZzRHVleGNpeWJJSldRQUlGTUtUWFZUWDNTMjZuZkkzcnEwUl9YQll1eHotRXJPeGd1THZOMW1OYnBBbWhzY0ZKWDlUR19LaWdxVHhWZndGT0NLVVpKbmFUVEVrclk1NVBycGZQVlZWSnMyX19NbC04VVBvaW1odWNvcnlpWGtoWnhNTFdMd1ZXZEg3XzZtMzRPUUk0Ukg4Qkw0OFZLVmQ3SWM3elJZdw?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "cio.com"
+        },
+        {
+          "title": "신입 채용 비중 14% 바늘구멍… 글로벌 AI 3강, 한국서 격돌 [캠퍼스 뉴스] - 서울경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51UHctNEpVdGFMZnAyWVlJNzVCb0Y1OHR3bFFtamxpMTFmcHl5djEzSElnalQyUDlTQmpDeXBMRDJ1SkpmT2JTMkRWVWZWSmVfenfSAVNBVV95cUxOcnZDV0dMTjMwUHBEME9JT0VBUVE2VkszOXpRbGtsNk95dGhPLXYxbDVqTG1iaHVuMnRsWXhXOUJQenVMWTJocERHbWhEZ1NqVzJpMA?oc=5",
+          "pub_date": "Tue, 10 Feb 2026 08:00:00 GMT",
+          "source": "서울경제신문"
+        },
+        {
+          "title": "구글코리아 첫 번째 PM이 국회의원 된 사연 - 요즘IT",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8teHlDVlVCZk9teW80OUp5TUJiWmFreXNNLWR3SEFXM1JzeG4zM2lVUGxBMklGd2tvQmhjMjFvVjdqcWVmMXJYZGRxLWZFbi1LTGlpd1pDSHY4QQ?oc=5",
+          "pub_date": "Tue, 12 Aug 2025 07:00:00 GMT",
+          "source": "요즘IT"
+        },
+        {
+          "title": "오픈AI 코리아 초대 대표에 김경훈 전 구글코리아 사장 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtT05OVmEtd0gxellhUWZwLV96Rkx1NlJBNWwwcG9LUktIZnQ2LW8tazVFaUEwc0YxQy1JRS1taTdtOUMxUDc1YzgzYi1SQWJEMTZ3YUVqSHhEZ3PSAWBBVV95cUxQb21TMEtUanlueDJ6VEU2UjNvV0VRbWk2NkdaVm1uZENkZTVRaVZXcXl3bXFWMklqdGtYdHN3MnY0TVFWcUdacWRZRnlvdUlFWHhGR1BrVEUyUTZuYkpNRUM?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "오픈AI의 인재 곡선에서 배우는 채용 전략 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13SnpGbjZQNzVteDROZmhtUC16OW4yVTNKaVpJa0hhbzVobTFnUzdQXzlsX04zYnF1bDdQaWd4VmstSjN5OU5MMzlDbldacHlmNkRiVTRB?oc=5",
+          "pub_date": "Thu, 27 Nov 2025 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "‘오픈AI 코리아’ 초대 총괄 대표에 김경훈 전 구글 코리아 사장 선임 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40NkVqcUtSWDExRTZPaExRQS0xNXVLclZrWkE5X1NrVE5jcVhsZWJ5TmZmSlRZN0tzb3pRRzU0aXhhTFZaVURCakluNFJuRE9WcC1kbFJUdG96UdIBX0FVX3lxTE1zRFlSU2h6NC1hQU9SQmtxSlZyeE5OSEtuTXEyYlBfS1IxT1hRaGZabVVZTXB6RUlBNWZvTXpUMWRKSUlZLUlEVEl1b1dhZ01RMTkyRHFSVjRObVI2NnMw?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "경향신문"
+        },
+        {
+          "title": "오픈AI, 한국 첫 지사장에 김경훈 구글코리아 전 사장 선임 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQVl5NmdzNmFnVURLa2RfTTV6bGdmWGN0WUZMdTNuanJ0eGNQeFdxSW1icGIySzFyYkxVcFdIeGlBSDRyMFRRVXl2NWhXWEdjeXZYelNscDVUV2ltV2JWZERORE5tUHZDQ0hPajF2Tk4wYXg2bGxVS2N6SVd5M25TOWJn0gGWAUFVX3lxTFBDM19zY2hITVBZSWFKbnBsY0UxUFdCTzNsTFFvWE5CRlFvLUhzM3hNZU9RQkxLLXdvelhXRUJMSmpuU1ljZDFnSldMUnljdkxiVWJPWV9LUVA3S0wxUlpMZHBRajRsNE9zbk00cFBTTEJOaFlBNi1IN1p5aVQ0SUI5WkVlSXU3ZjNoN29JRW80c2M2dUF3UQ?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "Chosunbiz"
+        },
+        {
+          "title": "오픈AI, 초대 韓 대표에 김경훈 전 구글코리아 사장 선임 - 딜사이트",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mWEhXSHBqNjItTmtkZWphaDBDY09uODdXTUJPaWJhWXBDRUlfX0VRSFBGVl9rTGVscEVhUVJiX1JhUzFuTmdYT2hVRXhFTms?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "딜사이트"
+        },
+        {
+          "title": "[박수연 칼럼]오픈AI코리아 공식 출범...글로벌 AI 기업들이 한국을 주목하는 이유 - 더밸류뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Vc0F1VnlYZzZEeElQU01pVEx0czdDQ2xoN290YXNYeHJhRzROQ3BGTkxJVm5pM1VhenVxQ1B5MHROQmt3TzkyNjBWRm9tZGZjTGUzOA?oc=5",
+          "pub_date": "Mon, 15 Sep 2025 07:00:00 GMT",
+          "source": "더밸류뉴스"
+        },
+        {
+          "title": "오픈AI, 전 구글코리아 김경훈 사장 ‘초대 OpenAI 코리아 총괄 대표로 선임 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ja0VOWmNNc0k5cFUzZmxuZnAzZFNOVWNfRHRMbG1YMWJmU2xXOEZtaElZSmZtTnRSSmhqWFFTc3ZQTXR5M284Qnl2R1BRaFBhdWk1Mk43X0VjdXZ1VHN4QXhkX3VqU1k?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "인공지능신문"
+        },
+        {
+          "title": "오픈AI 코리아 첫 총괄 대표로, 김경훈 전 구글코리아 사장 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aYzRFUGF4Zkl5VVlwMngwMmNFQ3JtNXQtNDh1cnl3dldNTHVJUnA0cXdZSTVReGh0REI4c2l1bWRpQ0ItU3pWaFo5YjFreTl0d3dtRDdYV3pzZzN5NkkwVzFQOXFsaWs?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "mt.co.kr"
+        },
+        {
+          "title": "구글 떠나는 김경훈, 오픈AI 한국 법인 첫 지사장 유력 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11Tm1tcVQzRlFaMktGTVZ4TVZMQWU1ZnQ0d0NISmhlVnc3TFE3aWU4R09CVDRJblJab24wcDk3MXM2YmFnbGtKN2Y3MzJpWTJjU3hhNlZTcGhMQ0J6YnZjR0FB?oc=5",
+          "pub_date": "Sat, 13 Sep 2025 07:00:00 GMT",
+          "source": "디지털데일리"
+        },
+        {
+          "title": "구글 \"한국, 세계 AI 생태계 출발점 될 수 있어\" - 인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ub0ExQVJkcURTNUlIakxFNmhXMTlHeHoyYmMwSmJ2ZmdVbFFrMGl4dHJ5a2d0RWJyUGhDODF3TnREQTB0QUY2R051Mmw3R216Y0FTb3RFYlBqbEd5Tm8yNWtoN2l3S18wUzN3bm9xRE1ZZw?oc=5",
+          "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
+          "source": "인더스트리뉴스"
+        },
+        {
+          "title": "김경훈 오픈AI 코리아 대표, ‘IT 공룡’ 구글 떠나 ‘AI 중심’ 서다 - 한국금융신문",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CY1ZfRmQzeV9VOFFYSF9GT1RQNUtFR1BhY1gzQk5haVd4aHFkdzNEN2FQOEdqY2ZrS0FBdG9fTVB4Ml81WkR3M0gzSTliY2tFRzRYU2NYNUw5VzlXd21lWW5ycDZYZ1dTRDZzNUpsR1hrMjF3dExZbDd2S04?oc=5",
+          "pub_date": "Tue, 14 Oct 2025 07:00:00 GMT",
+          "source": "한국금융신문"
+        },
+        {
+          "title": "김경훈 구글코리아 사장 퇴사…오픈AI 한국 법인 사장行 유력 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sd3JkSVJsT25tV0E5VmNId1Q2WFR0YVpsNldQbkgwQUVCa2I0YTNTYzl1UkRpbldmTFdzYk1zN0NtMG9hM1BmM1BVSHMwMXJZZnZ3?oc=5",
+          "pub_date": "Fri, 12 Sep 2025 07:00:00 GMT",
+          "source": "네이트"
+        },
+        {
+          "title": "구글코리아가 21년 동안 떼먹은 세금 최대 18조 원. - 슬로우뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5wWWJYbHhzcmEzZEE4aWp3Uk51aVdNaVJvVE5yam5LU3JUSnpfbTFqVHdWTy1KQ2xmR1ZHZllObw?oc=5",
+          "pub_date": "Thu, 15 May 2025 07:00:00 GMT",
+          "source": "슬로우뉴스"
+        },
+        {
+          "title": "\"경쟁사 인재도 OK\"…구글 대표 모신 오픈AI, 첫 韓 지사장 통해 국내 사업 확대 속도낼까 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NcnlqOE13YjNfdHBubXp2WU9FczdaLWhRVVc0UHpabm5ZWm9NOW02b3R3Ym1Na0lyNlZwVjVtYTBfX1lDQWhnV25hb2tCOTdhOEtWMzB3?oc=5",
+          "pub_date": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "구글 연 매출 10조 추정되는데... 세금은 155억뿐, 네이버의 3% 수준 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2RpWjN1NzJlLTZiWjliWkJlck1hNGlDVDBnTFNRbVd6bFRBY2J3SnZSRlFITVlNcUVfUGdYb2t3U01DbmZVTUV6Zk5oRFdOWnA1R2JSZEZMQzNKQVA5UTFoa2toNXI3M0xZQ0IxUFZOMHd4TFFFWUE3Y2RLcDI4YXUwMNIBlwFBVV95cUxOQVh1OXpjTHU1TTF1b3FlN1dLcFI4OXhTaTFYTUpVbE53N25RUlhWMURsY01tWFNOMlFjcTVUbFVtazJiV0hTelVSVUJia1VkQlBCVGliNGdQQ296TTJoTUFIb3ZFNnJqeG1ZaDRYMlgzVk44V0lGblVxc2RiR0ZWY3JBUE5xd2lBTjBqelRxdzAtNWFXMnA4?oc=5",
+          "pub_date": "Sat, 13 Apr 2024 07:00:00 GMT",
+          "source": "조선일보"
+        },
+        {
+          "title": "구글코리아, 6천억 벌고 법인세 240억…韓 '세금 기피처' 활용? - 뉴스후플러스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14SW1sY25kRmh1X0J2UUttYkhtaG03VUVLUzhRdEFXYjJwQWFCV3pZbHZNLS1FS0tlbFdNRUFNdWZKMk1YODZZTS1KWVRiUEhwSWtzOVA5SFVvMEh2c2lTY3NYbURrM0tqMjdsWUNR?oc=5",
+          "pub_date": "Thu, 17 Apr 2025 07:00:00 GMT",
+          "source": "뉴스후플러스"
+        },
+        {
+          "title": "\"구글코리아 작년매출 12조원 추정…법인세 6천229억 냈어야\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wdVo4WGk2SkJhaGFwcW9KNk4wdndkd1RhWDk3TlV6STVrdl9Qa3lCWWw3RWs2VjRaMFFyN21qZ18zWFd2bkk1ZWpveDZwcEpJMjllOEVYaEg0aTDSAWBBVV95cUxQQWNOelhmNUx0SlJIUENUSlI4cTBrX1dqMllucU83YTlld3MzcEI1bWRLcVZiSTVybHI2WHRWMmpUbG96NXlWeE9iS2Znd3pMV1hXbnc1ZmEzR3RNbjI1TTI?oc=5",
+          "pub_date": "Mon, 23 Sep 2024 07:00:00 GMT",
+          "source": "연합뉴스"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80Xy1PSGNHZy1OUG83anp3Mlp4NHJOUmlkTFBUV1VkczVPRnlCYTZqX3pTYnM1VHZtelU1YTgyWHVvVzliWHRKOVdaRUJpM3dSeXVjdmgzeTBBZ9IBVEFVX3lxTE1MYzZvQjU1ZmUxY19sRU5JTGMtQTJlNVhjamZpVnBVZXl6d0E2cC1PbXJHcFh3X25OWElXVlRmUVJBVGowUHdRcVcwSE9WNDd6SFhwQw?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:28:15 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWDdpUElsOENSZWF6TkU5bG9RMVNScHRUYmJSS1h6WHdrdDl2RXd4ZGs1MmlnT0x6RnkwaFoyWVdLREs5WlBXc3NGaFVsbE5yLVN1RlZlaS1EQWh6aUlfRWlHcjFjazh2aWNMQ0NlQS04NjMtcEh0bEpNcUdFTUlYcDJ1WmgxY1VzT0VtZHQ1dDBFOFEyVEp3d2R1REE2dnJfV1NYUmREY01LSjBV?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 16:21:30 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "'알파고 아버지' 10년 만에 방한…이세돌과 다시 만난다 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZXhLMWtzTG9NMDZjU1VnNFpGcGQyUV80NzB3dUtMOWRQVng0YnJyTFNkR3BVcUVBeHNOaDkxWEVXNmZLajZqbjZucjZQcThMWGVZcGRidGhLd0EwNEVjdU15Z3pHVlltenVKcWRCS0ZvUENHSEl2MXF4Z3NGa3c2UGJVOVMxRU0?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 08:28:15 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "구글 클라우드, 온보드 행사에 2900명 참여… “AI 역량 교육 확대” - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNm1yYXRjdlZVVjY0RmgtTndSSWpiUDA1Q0NwczNrREpJOFY4eGVUT0Z3YjFHVnR1RFlQdW9tR2lMSDBNbzBEQU1kMk9iMDZWNTZhSUYzdXVmX2NKd1Jtd18zM0s5S09hTUxuYU4ta2JFZ0I1N196alZHS3BaanBLSUxR0gGWAUFVX3lxTFBSeTVGXzhRRWdCaVFNTEl5Ym9iVW9rdUY2LVNNVFpteFI4emFlR29ZUXNaNWJmR0JkLWlTN0tCTHNXZno5T1pLNlExdDZpVk5OdWVYLWZ3eGJHRklqeUw4MjZXekZ6aWh4SDhkbUxYcS02UE5LM0RwWGRPOUt0dE5INE1vODhZNjd5UnFwdWNpR2ktd1YyQQ?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 01:34:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "르노코리아, 쿠페형 SUV ‘아르카나’ 2027년형 출시 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQkpnUTJQamxkVlNyeTVNWk9KMFB0VWNXXzdWRmJJTExpZ1VPVGJDdXVxUGJzQlV6SnhrM01KdmxYUUV3aGNjMVZKV1lUQUh3WGJiVHBrR1Z0allpVW5JOXc2TW5jRndHekpIU2hTekg3bVBvbE9zbXRINTJTVW5yUC1YLWPSAZgBQVVfeXFMT09uQU9vV0hJTUJsc05DVXM0OGoyT1FkaEFIcnRBaGp0bUtXS2dscTlTNTZvTzdhaEM5OEtCMGFXcmt1QkRGbG1vT3NoaTFzUzNzX2VjTG15Sjd6MmRQRWtKQjZ5S0tiUkEzZTNvMVVvcDVOTlFndVVBd2JsUDUyZHBhc1FHdGNoR00tVndQaVU5UVUxVm51N20?oc=5",
+          "pub_date": "Sun, 15 Mar 2026 00:45:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "[BTS 귀환] BTS 뮤비, 공개 20시간 만에 3100만뷰…넷플릭스 앱 설치량 급증 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWjQwaDkwU3hlQmlvY2RkM2RyWUNqNF9NeHVBdEVZOGdCTFpCa2xLRmVlb21mSHl4VUtEVGhJTHlpNzBKdXVPNEhqM2VFNFdYMi1PUU1zRkZfSHBhRW9KWkFyem5odDhFUERNMHlGU3ZyT0RLVS1IMzBWSTZnTlJYSk43dEhSNmI3UFE?oc=5",
+          "pub_date": "Sat, 21 Mar 2026 01:20:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "today-paper - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwVjA0ME1iSGhKakhhNU16bVEwZWZQeWozdjNqNU5PS1VjV2NRREZhMFlGeG52ZnZFZ3RncmNoV01OSU5BX2RNcjdVdFdVUXl2NW1iVm9Genp5N3I0MlZJZ0c3WVNIN0E?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 15:14:01 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "‘구글 클라우드 온보드’ 성료… “한국 AI 인재 성장 지원” - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFByVWVuZjFaeFY4QkFvUnlZNUlwSEMzNm1jZTMwMHVlY2tLMzVIV3RDT0o5TjN3ZkJjRUw4QTZkZzY1bVFZRWc?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 04:44:34 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "'알파고 아버지' 허사비스 10년 만에 한국 온다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96T1RGY2I1Q2lTLUIwcTN5RDBobnRpY1BqYlVrcDdHdDdKRFZYNmEwd2Zwd1RWRmF3cndoYXlYYWVlcjZBZGhMdGhkQ1RWUQ?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 10:14:14 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[유미's 픽] \"테스트베드 끝났다\"…판 바뀐 韓, 글로벌 AI 격전지로 급부상 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xbWdoUjlOc0pJck9sRWhsRUlrN2tMQVFpeUQzbFdrVnVPaFZFeFRZNzQtdFRQT3c2MXUxeTMzLVJxbG9iVTlpVFFKS0JxODFRRXpuZTJn?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 01:14:34 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "구글, 바이브 코딩 앱 '스티치' 공개…피그마 주가 12% 급락 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Wa050c2tDMFhEdzZncE5wcGlIUUt3QmJiYkttWEh0SHJMVjFkTDB1NDJUQ1ozT01xa3VlSFBVTzNNNG5kak95VVY1eG03ZXU5Y0QxWVBn?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 00:51:47 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[유미's 픽] 클라우드 생태계 만든 AWS, 스무살 됐다…MS·구글 추격 속 전략 시험대 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UMFd4YWtkUVVhZWZqRVQ1a3d3WkNWRXFNQU5Zc2RyXzVCSGl0UWlobXRDSlRwaXllck1FSlh2dGs4RnhxTkdDS09MaE95UUlZbGhoZkJB?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 08:06:52 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "[SKT 이사회 리빌딩]② '재무통' 전면 배치… AI 투자 새판 짠다 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51Y2Rrakx5S0NQV1NOOGIxeGlCWTNnWmEwN1J2anMyaGRmdDVrSUljR196dGNqenJSZ2JCUm1LcWpfNmd4THpZbk9YR2hFelhnbFY2NmtCSkVpZUFOeTNIVXA4N0E0VktRbmZuMtIBbEFVX3lxTE51Y2Rrakx5S0NQV1NOOGIxeGlCWTNnWmEwN1J2anMyaGRmdDVrSUljR196dGNqenJSZ2JCUm1LcWpfNmd4THpZbk9YR2hFelhnbFY2NmtCSkVpZUFOeTNIVXA4N0E0VktRbmZuMg?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 00:10:30 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[앱마켓 수수료 인하]② 북미·유럽 먼저…컴투스 수혜 선반영 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LQmcteWZseTRTSTRqbnpiakxuSDZvNERyMEtJeF9NWldfcUlxYzNfWTBzd3NTZ3c2VllWYmFiQXUtR1FYZktGc1kwNWN3QzlXS3NEUW1oWGJyY1FrVlFaR3UtaFhkQUlN0gFsQVVfeXFMTVlZZDlPV0oydXQyeTQ0X0xUTVBOaS1yaHVhbk8xTDE0OXItMWVEZlpSc1FtN3JMMTBjUG45VzhoeHJpN2FSU2hadnlKSW84SXNENUppRlowLWFscC1XM0ZjdENVamlGOEZJRG5q?oc=5",
+          "pub_date": "Fri, 20 Mar 2026 07:52:51 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[하림 해운업 진출 10년]‘1조 베팅’에 가려진 팬오션 인수의 진실 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JTUxnQldwQ0F5SGx2Q1NpUEZZdVJGNnR2X1B6dldDdW1PV3JwS3pJamxtS0VleUxxb3ZHNGxvU0F5MUR1QTNuWG5pUktScVdSemdkdnJpVDB1d2UxVWZFZ3VCdGRqQ1ow0gFsQVVfeXFMT2dKN2piVkdTN2hHWGFlSGNSWVFOak43MXduVWY1S2Q5RzZockNnSFZ4V3NTS1JJSFlUOTl3WExTVGItRlJncm02U2ZCUzF4ZGwwNGN0WTFWZTNnbFRtbEhodzVpTzUtdDV0QlBO?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 05:26:47 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[바스리] 구글코리아 전 대표가 만든 AI 스타트업 ‘스켈터랩스’ - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9uc0FFejhFUjlBX2xKTldnSnphQ1ZhRS12VFRYQnNsb2w5cXI3bFdaczYycXNOOGx0eE5mdUZOaXpWanp1RGxiX19ZczRPdw?oc=5",
+          "pub_date": "Wed, 18 Sep 2019 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "한국에 서버 생긴 구글, 법인세 내게 될까? - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvRWpKaVlqVlRSMW9PTi04eXN1MmlLVjlYY2VaMWYwNlJYM0dnaUdwVVY2MXcxcW94aGJZQ0EzamV1OWV5bnRsbGpGQ0NXZw?oc=5",
+          "pub_date": "Thu, 20 Feb 2020 08:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "구글, 한국에서 얼마나 벌어갈까 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RdXVQRkRObk1kb2RZMDh6ZkhoS2VMWENHTlFrMjIxa2dVWk5BQVVORk95c2VTUzU1VUo3Tno0ckh6b3dVTG9LVDNhOTlaZw?oc=5",
+          "pub_date": "Thu, 20 Sep 2018 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+          "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+          "link": "https://sibauchi.tistory.com/1205",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+          "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
+          "link": "https://ilovefamily.tistory.com/527",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "(26-03-21) 매크로 정리 - 오전 10시까지",
+          "description": "한신공영(+29.99%): 저PBR 공개에 따른 기업가치 제고 노력 전망 속 수혜관련주 주가 상한가 3. 우리로... 재고 소진 or 전술적 조정 구간. ✅ Day 9~10 (드론 반등) : 미사일은 여전히 낮은 수준이지만 드론이... ",
+          "link": "https://blog.naver.com/mobidic25/224224376157",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "임원도 단번에 합격!! 면접 전 태도/답변/마인드까지 최종 점검",
+          "description": "✔ 새롭게 바뀐 대한항공 기업 분석 ✔ 직전 합격생 스펙 &amp; 공통점 ✔ 영상전형 합격 팁 (답변/태도) ✔ 최신 자기소개서 작성법 &amp; 예시 ✔ 대한항공 면접 합격 전략 ✔ 최신 면접 질문 리스트... ",
+          "link": "https://blog.naver.com/doublejo01/224224372397",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
+          "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
+          "link": "https://lefthusband.tistory.com/1565",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "도쿄일렉트론코리아 면접 학원 인턴 1차 직무 인성면접 기출 후기",
+          "description": "취업패스 맞춤 커리큘럼 남들 밤새워 구글링하며 검증 안 된 후기 뒤질 때 취업패스 수강생들은 합격 답안지를 외우고 들어갑니다. ✅ TEL 장비 완벽 해부 현직자 급 지식 주입으로 면접관 기선 제압 ✅ 1:1 압박... ",
+          "link": "https://blog.naver.com/itmentor365/224223758129",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "도쿄일렉트론코리아 면접후기 인턴 1차 2차 예상 질문 답변",
+          "description": "대기업 면접관 &gt;&gt; 출신 코치님께서 직접 지도해 주십니다! (도쿄일렉트론코리아 코칭 담당) ★ 수업 진행 방식 ★ ✅ 대면: 서울 시청점(시청역) ✅ 비대면: Zoom 또는 구글 Meet  대표번호 : 02-6206-9413 ▼ 일대일... ",
+          "link": "https://blog.naver.com/gourt1/224223578797",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "대구 취업 성공 잡코리아 활용 전략으로 꿈을 이루세요",
+          "description": "단순히 채용 공고만 보는 것이 아니라, 회사의 사업 분야, 기업 문화, 근무 환경 등을 파악하여 자신에게... 잡코리아에 있는 기업 정보와 후기를 참고하여 회사 분위기와 면접 방식을 파악하는 것도 잊지 마세요.... ",
+          "link": "https://sibauchi.tistory.com/837",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "샘표식품면접학원 PT면접 임원면접 후기",
+          "description": "특히 교육생의 성향과 직무 역량을 연결하는 정교한 스토리텔링으로 연결하여 최단기간 합격률을 최대치로 올려 드리고 있습니다. 대면 : 서울시청점 비대면 : 줌 OR 구글MEET 추가적으로 샘표식품면접학원에서... ",
+          "link": "https://blog.naver.com/jobpass_/224222106115",
+          "pub_date": "20260319"
+        },
+        {
+          "title": "정규직 대규모 채용 | 14개 직무 총정리 + 면접 족보까지 공개",
+          "description": "퇴사율 및 조직 문화 - 현직자 후기 솔직 정리 크레딧잡 데이터 기준, SK하이닉스의 최근 1년 퇴사율은 약 10%대 초반으로 대기업 평균 수준이에요. 반도체 업계 특성상 이직 시장이 활발한 것을 고려하면... ",
+          "link": "https://blog.naver.com/cymmcymm/224215480910",
+          "pub_date": "20260319"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "[[[스페셜코리아 - 해외감동사연@스페셜코리아•구독자 8.65만명•동영상 395개매일 아침 7시 하루도 빠짐없...",
+          "description": "스페셜코리아 - 해외감동사연 @스페셜코리아•구독자 8.65만명•동영상 395개 매일 아침 7시 하루도... 구글 채용자가 본 전세계 유학생들의 로망 1위 국가 한국에 경악한 이유ㅣ해외감동사연 조회수 2.3만회3개월 전... ",
+          "link": "http://cafe.naver.com/jmsong0829/65471",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "회사에서 비용처리가 가능한 복리후생비",
+          "description": "업무관련성 회사의 복지·근로환경 개선 목적이 분명 사회통념상 타당성 금액과 내용이 과도하지 않음... ➊ 직장체육비 ➋ 직장문화비 ➌ 직장회식비 ➍ 우리사주조합 운영비 ➎ 건강보험·노인장기요양보험 사용자... ",
+          "link": "http://cafe.naver.com/aclove/658514",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "한때 세계를 지배했던 일본, 왜 지금은 추락했을까? 1989년 --무한돈전",
+          "description": "지금 우리가 우러로 보는 애플,구글, 마이크로소프트를 전부 합친 위상을 당시 일본의 시중 은행들과 전자... 연봉이 5천만 원인 사람이 있는데 빚이 무려 1억 3천만 원이나 있는 상황입니다. 이 상태에서 은행이 대출... ",
+          "link": "http://cafe.naver.com/truthdaily/12298",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260321토요일",
+          "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 보건복지부(장관 정은경)는「메디컬코리아 2026」참석차 한국을 방문한 몽골 친부렝 직찌드수렝(Chinburen... ",
+          "link": "http://cafe.naver.com/jungamironware/9268",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+          "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 2026-03-20 오후 3:00:00 엔브이에이치코리아㈜의 하도급법 위반행위 제재 엔브이에이치코리아㈜의 불공정하도급거래행위... ",
+          "link": "http://cafe.naver.com/magicbank/3332",
+          "pub_date": ""
+        },
+        {
+          "title": "SK하이닉스 vs 삼성 연봉 인센티브 복지 비교",
+          "description": "반대로 안정적인 복지와 다양한 사업 경험, 그리고 거대한 조직 안에서 커리어를 쌓고 싶다면 삼성전자가... 연봉과 인센티브, 복지는 물론, 직무, 기업 문화, 개인의 성장 가능성 등 다양한 요소를 종합적으로 고려해서... ",
+          "link": "http://cafe.naver.com/grayjuinb/23",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.447222222222222,
+      "positive_themes": [
+        "긍정",
+        "만족",
+        "문화",
+        "복지",
+        "워라밸",
+        "좋은",
+        "최고",
+        "추천"
+      ],
+      "negative_themes": [],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "구글코리아(유) 2026년 기업정보 | 기업리뷰 276건, 4.4 리뷰평점",
+          "description": "긍정 답변 : 100%, 중립 답변 : 0%, 부정 답변 : 0% ; 이력서 100개씩 난사한다는 분들은 어떻게 그게가능해요?? 그직무에 맞는 공고에만 만들어논거에 지원하는식인가요? 저는 직무가 구인하는회사가 거의 없는듯이해서 몇개뿐인데 저도 지원여러군데 하고싶습니다",
+          "url": "https://www.jobplanet.co.kr/companies/44566/reviews/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "구글코리아에 다니는 직원이 직접 밝힌 구글이 선망받는 기업인 3가지 이유",
+          "description": "기업 정보 플랫폼 잡플래닛은 잡플래닛에 올린 평점에 근거해 올해 ‘2021 주목할 기업’ 30개사를 선정 및 발표했다.잡플래닛이 선정한 ‘2021 주목할 기업’ 30개 사에서 KB신용정보(9.6점)가 1위를, 카카오엔터프라이즈(8.73점)가 2위를 구글코리아(8.65점)가 3위에 선정됐다.기업별 점수는 각 회사의 전, 현직 직원이 2020년 한 해 동...",
+          "url": "http://www.casenews.co.kr/news/articleView.html?idxno=10013"
+        },
+        {
+          "source": "naver",
+          "title": "구글코리아, 2025 잡플래닛 어워즈 수상 | 구글코리아(유)의 비즈니스 뉴스 | 구글코리아(유)",
+          "description": "완벽한 직장이라는 평가를 받은 구글코리아. 잡플래닛 평점 9대 항목 중 '급여·복지'와 '기업추천율' 항목에서 특히 높은 점수를 기록했습니다. 2024년 1년간 임직원이 평가한 기업추천율은 93%로, 전체 기업...",
+          "url": "https://www.jobplanet.co.kr/contents/news-7152"
+        },
+        {
+          "source": "naver",
+          "title": "구글 인사총괄이 말하는 구글 입사하는 법 | 컴퍼니 타임스의 생생한 인터뷰 확인하기, IT/웹/통신 0.0 평점",
+          "description": "“혹시 내 자리도 있는지 물어봐 줘” 구글코리아 민혜경 인사 총괄과의 인터뷰를 앞두고 IT 업계... 잡플래닛에 전현직자들이 남긴 리뷰와 평가 데이터를 집계해서 발표하는 ‘2022년 주목할 기업’ 순위에서 구글은...",
+          "url": "https://www.jobplanet.co.kr/contents/news-2949"
+        },
+        {
+          "source": "naver",
+          "title": "구글코리아 2026년 기업정보 | 37건의 복지정보 0 전체 복지 통계",
+          "description": "구글코리아의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 37건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/44566/benefits/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "구글코리아 2026년 기업정보 | 37건의 복지정보 0 전체 복지 통계",
+          "description": "구글코리아의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 37건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/44566/benefits/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84(%EC%9C%A0)"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 4점 이상이면 '신의 직장?'",
+          "description": "흔히 돌아다니는 잡플래닛 평점 요약본은 이렇습니다. 그렇다면 트레드링스는 어떨까요? 네, 사실 이거 보여드리려고 앞에 말이 길었습니다. 자랑 좀 하자면 트레드링스의 전체 평점은 무려 4.4, 인터넷 커뮤니티...",
+          "url": "https://blog.naver.com/tradlinx0522/223030333425"
+        },
+        {
+          "source": "naver",
+          "title": "구글코리아 2026년 기업정보 | 37건의 복지정보 0 전체 복지 통계",
+          "description": "구글코리아의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 37건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/44566/benefits"
+        },
+        {
+          "source": "naver",
+          "title": "구글코리아(유) 2026년 기업정보 | 281건 면접후기 3.7 면접난이도",
+          "description": "구글코리아(유)의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.7, 면접경로: 온라인 지원 55%, 면접경험: 긍정적 57%, 부정적 10%, 면접결과: 합격 26%, 불합격 50%, 대기중 24% | 잡플래닛에 등록된 281건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/44566/interviews/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84"
+        },
+        {
+          "source": "naver",
+          "title": "구글코리아·네이버웹툰도 제쳤다...'일하기 좋은 회사 1위' 클라쓰",
+          "description": "기업정보 플랫폼 잡플래닛이 최근 발표한 일하기 좋은 회사 관련 '2022 주목할 기업'에서 구글코리아나 네이버웹툰 등을 제치고 1위에 오른 스타트업이 있다. 잡플래닛은 현재 근무 중이거나 과거 근무했던 직원들이 올린 회사 평점을 근거로 순위를 매겼다. 총만족도 점수에 △복지·급여 △승진 기회·가능성 △워라밸(업무와 삶의 균형) △사내문화 △경영진 평가 등",
+          "url": "https://www.unicornfactory.co.kr/article/2022022010483562633"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 현직자들의 연봉 정보",
+          "description": "인증된 구글코리아 현직자들이 전하는 실시간 연봉정보를 확인하세요. 평균 연봉, 직군별 연봉도 확인하고 내 연봉도 비교해 볼 수 있어요!",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 기업정보",
+          "description": "구글코리아의 기업문화, 근무환경 등의 기업 정보와 최신 소식을 블라인드에서 확인하세요.",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 연봉",
+          "description": "구글코리아 연봉에 대한 구글코리아 임직원들의 익명 대화를 지금 확인해보세요. 연봉에 대한 26117건의 검색 결과가 있습니다.",
+          "url": "https://www.teamblind.com/kr/browse/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84-%EC%97%B0%EB%B4%89-2118"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 리뷰",
+          "description": "인증된 구글코리아 직원들이 평가하는 연봉과 복지는 어떤지 확인해보세요.",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/reviews"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 Reviews - &quot;올수있으면 무조건 거쳐가는게 좋음&quot;",
+          "description": "“국내 직장이라는 범주 안에서 대체불가한 회사” ; “기업 총점은 높으나 그만큼 부담과 실적을 내야 하는 회사” ; “공돌이 천국”",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/review/yvQ4dw1Fl"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 Reviews - &quot;최고의 회사&quot;",
+          "description": "“국내 직장이라는 범주 안에서 대체불가한 회사” ; “기업 총점은 높으나 그만큼 부담과 실적을 내야 하는 회사” ; “공돌이 천국”",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/review/QSD-ADvpV"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 Reviews - &quot;워라밸 빼고 모든게 완벽한 회사- &quot;",
+          "description": "“국내 직장이라는 범주 안에서 대체불가한 회사” ; “기업 총점은 높으나 그만큼 부담과 실적을 내야 하는 회사” ; “공돌이 천국”",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/review/pFzKb2Cu4"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 Reviews - &quot;좋았던 회사&quot;",
+          "description": "“국내 직장이라는 범주 안에서 대체불가한 회사” ; “기업 총점은 높으나 그만큼 부담과 실적을 내야 하는 회사” ; “공돌이 천국”",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/review/QiS9zdmwp"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 게시글",
+          "description": "인증된 3백만 직장인들이 전하는 구글코리아의 이직·커리어 정보, 기업 리뷰 등 생생한 이야기를 블라인드에서 확인하세요.",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/posts"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 구글코리아 Reviews - &quot;보상이 확실하고 몸은 편하나 멘탈이 갈릴 수 있음&quot;",
+          "description": "“국내 직장이라는 범주 안에서 대체불가한 회사” ; “기업 총점은 높으나 그만큼 부담과 실적을 내야 하는 회사” ; “공돌이 천국”",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/review/ZuOS7qB5c"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "Working at Google: 3,906 Reviews | Indeed.com",
+          "url": "https://www.indeed.com/cmp/Google/reviews",
+          "text": "Working at Google: 3,905 Reviews | Indeed.com\n\nWant to work here?\n\nView jobs\n\n# Google Employee Reviews\n\nUpdated March 14, 2026\n\nJob title\n\nSoftware Engineer\n\nProgram Manager\n\nWarehouse Worker\n\nIntern\n\nCustomer Service Representative\n\nSoftware Development\n\nManagement\n\nSales\n\nAdministrative Assistance\n\nMathematics\n\nLocation\n\nUnited States\n\nUnited States Air Force Acad, CO\n\nKeywords\n\nTopics\n\n- [Culture](https://www.indeed.com/cmp/Google/reviews?fcountry=US",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "[구글 코리아] Growth Manager, App Sales 채용",
+          "url": "https://careerbrdg.tistory.com/3432",
+          "text": "[구글 코리아] Growth Manager, App Sales 채용\n\n검색 메뉴\n\n## 고정 헤더 영역\n\n글 제목\n\n메뉴\n\n좋아요 -\n\n댓글달기 - 공유하기\n\n## 메뉴 레이어\n\n### 메뉴 리스트\n\n- 홈\n\n커리어브릿지 (3065)\n\n커리어브릿지 (91)\n\n- 소소한 이야기 (29)\n- [커브 동영",
+          "score": 0,
+          "published_date": "2026-03-03T00:00:00.000Z"
+        },
+        {
+          "title": "",
+          "url": "https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84/",
+          "text": "블라인드 | 구글코리아기업정보**블라인드**기업서비스\n# blind*Topic*\n# 검색검색글쓰기로그인구글코리아\n구글코리아*Rating Score*4.6*(564개 리뷰)*\n이회사리뷰하기구글코리아은(는) 일해보고싶은회사인가요?\n****\n*What it means...*\n*Upvote**Downvote*\n# 구글코리아회사소개* **홈페이지**www.google.co.kr\n* **업계**정보서비스업\n* **본사**서울특별시 강남구* **설립**2004\n* **직원수**-\n* **연봉정보**-\n구글코리아는검색및탐색, 미디어및엔터테인먼트, 기기, 업무처리, 일정및데이터관리등의다양한방면에서제품과",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "구글 코리아 인턴십 인터뷰 회고록 - point of view.",
+          "url": "https://jaewook.me/google-korea-interview-review",
+          "text": "구글 코리아 인턴십 인터뷰 회고록 - point of view.\n\n# 구글 코리아 인턴십 인터뷰 회고록\n\nJaewook Ahn⸺1 June, 2024\n\n# 글을 시작하며\n\n내가 중학생일 2011년 무렵, 학교에서 꿈을 주제로 만들기 수업을 했는데 이때 \"30살 전에 구글 입사\"를 적었다. 저 때부터 구글은 꼭 가고 싶은 기업이었다. 하지만 저 당시는 프로그래밍을 시작한 지 얼마 되지 않았던 때였고, 구글이라는 회사는 천재 프로그래머들만 가는 회사라는 이미지가 있어서 더더욱 막연하고 대단하게 느껴졌다. 그로부터 10여 년이 지난 지금, 이렇게 구글 인터뷰 후기를 쓰게 되어 감회가 새롭다.\n\n2022년, 구글 코리아에서 대학생을 대상으로 gReach, STEP 프로그램으로 인턴십을 진행한다는 사실을 알게 되었다. 하지만 나는 취업 준비에 안일했고, 영문 이력서 작성에 대한 막연한 두려움이 있던 탓에 4학년 2학기를 마치고 나서야 냉혹한 취업 현실을 깨달을 수 있었다. 이후 부랴부랴 레쥬",
+          "score": 0,
+          "published_date": "2024-06-01T00:00:00.000Z"
+        },
+        {
+          "title": "블라인드 | 구글코리아 이직",
+          "url": "https://www.teamblind.com/kr/browse/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84-%EC%9D%B4%EC%A7%81-2653",
+          "text": "블라인드 | 구글코리아 이직\n\n블라인드 기업서비스\n\n디렉토리\n\n구글코리아 Rating Score4.6\n\n- 연봉\n- 게시글\n- [리뷰](https://www.teamblind.com/kr/company/%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%9",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "국가 AI전략 정책방향 - 경제정책 시계열서비스 | 정책시계열서비스",
+          "description": "전례없이 빠르고 광범위한 AI기술 혁명이 진행되며 전 세계가 AI시대로 빠르게 진입하고 있음. 이제 AI가 기술을 넘어, 국가 경제·안보를 좌우하는 시대적 대전환기로, 미·중·EU 등 주요국은 국가 생존과 직결된 AI 경쟁력 확보를 위해 AI 혁신 가속화와 글로벌 AI리더십 구축에 사활을 걸고있음. 우리나라는 자체 생성형 AI모델을 다수 개발하는 등 AI SW 생태계를 구축하고, 세계 최...",
+          "link": "https://epts.kdi.re.kr/polcTmsesSrvc/them?SEARCH_CTE_SEQ=78311",
+          "pub_date": ""
+        },
+        {
+          "title": "구글의 AI 개발에 대한 전략은 무엇인가요? | 상식닷컴 - sangseek.com",
+          "description": "Q4: 구글의 AI 연구 개발은 어떻게 이루어지고 있나요? A4: 구글은 딥마인드, 구글 리서치, 브레인 팀 등 다양한 연구 조직을 통해 자연어 처리, 컴퓨터 비전, 머신러닝 등 핵심 AI 분야에서 최첨단 연구를 수행하고 있으며, 내부 협업과 외부 학계, 산업계 파트너십도 활발히 진행합니다. Q5: 구글은 AI 기술을 어떤 서비스에 적용하고 있나요? A5: 구글 검색, 구글 어시스턴트, 구글 번역...",
+          "link": "https://sangseek.com/communities/197120",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;구글도 5년 뒤는 몰라요. 중요한 건 방향성이죠&quot; 구글코리아 HR 총괄이 전하는 미래 개척의 역량",
+          "description": "그러나 방향성은 확실하죠. 향후 몇년 간은 인공지능(AI)이에요. 인재... 불확실성의 시대엔 구글과 같은 미래 전략이 개인에게도... 중요한 건 방향성이죠&quot; 구글코리아 HR 총괄이 전하는 미래 개척의 역량...",
+          "link": "https://www.joongang.co.kr/article/23027847",
+          "pub_date": ""
+        },
+        {
+          "title": "Korea 신뢰성 있는 고성능 인공지능 기술 확산을 위한 전략",
+          "description": "글로벌 AI산업 및 시장 경쟁이 치열한 가운데, 주요국은 AI 육성을 위해 다양한 정책을 추진해왔다. 최근에는 AI 육성뿐만 아니라 안전하고 신뢰성 있는 AI 기술에 대한 요구도 커지고 있는 추세다. 이에 글로벌 AI 선도국들과 우리나라의 AI 육성정책을 살펴보고, 신뢰할 수 있는 고성능 AI의 활용·확산을 위해 필요한 전략과 비전을 검토해보고자 한다.",
+          "link": "https://tongsangnews.kr/webzine/1532312/special_4.html",
+          "pub_date": ""
+        },
+        {
+          "title": "[주니어전자]구글 부사장 “한국의 AI 전략, 구글과 잘 맞아요”",
+          "description": "부사장 / 구글코리아 “한국 정부가 추진하는 '소버린 AI ' 전략이... 하지만 AI 혁신을 촉진하는 방향으로 더 보완할 필요가 있다고도... 한편, 화이트 부사장은 구글의 플랫폼·디바이스 사업 부문과 아시아...",
+          "link": "https://www.etnews.com/20250703000089",
+          "pub_date": ""
+        },
+        {
+          "title": "[리셋 코리아] AI 모델로 산업 혁신 이끌 전략이 없다",
+          "description": "미국의 오픈AI·구글·앤스로픽 등이 조 단위 투자를 앞세워 시장을... 이끌 전략과 비전의 부재에 있다. AI 생태계는 모델에 국한되지... 편집 방향과 다를 수 있습니다. 김주호 KAIST 전산학부 교수·리셋 코리아...",
+          "link": "https://www.joongang.co.kr/article/25244101",
+          "pub_date": ""
+        },
+        {
+          "title": "[Interview] 카란 바티아 구글 글로벌 정책협력 부사장 “AI 강국 되려면 '3 I' 필요… ‘혁신·인프라·투자’ ....",
+          "description": "Bhatia) 구글 글로벌 정책협력 부사장은 8월 6일 인터뷰에서 AI 시대에... 등 AI 관련 비전과 정책 방향을 명확히 제시하고 있다. 이처럼 4개국이 접근 방식은 모두 다르지만, 한국이 참고할 만한 전략을 보여주고...",
+          "link": "https://economychosun.com/site/data/html_dir/2025/08/08/2025080800011.html",
+          "pub_date": ""
+        },
+        {
+          "title": "[사고] &quot;치열해지는 AI 패권전쟁…한국 기업 생존 전략은?&quot; [GAIF 2024]",
+          "description": "치열해지는 AI(인공지능) 패권전쟁에서 한국이 나아가야 할 방향은... 퍼플렉시티 사업 개발 총괄이 연단에 섭니다. 퍼플렉시티는 검색 원톱인 구글의 자리를 위협하는 ‘AI 검색 스타트업’입니다. 젠슨 황...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=03378406639085720",
+          "pub_date": ""
+        },
+        {
+          "title": "구글CEO, 오픈AI와 경쟁에 &quot;큰 그림 봐야…혁신은 발전 촉진&quot; (종합)",
+          "description": "구글CEO, 오픈AI와 경쟁에 &quot;큰 그림 봐야…혁신은 발전 촉진&quot; (종합)... 같은 방향으로 나아가고 있다&quot;고 했다. 그는 &quot;검색 엔진이 복잡한... 지난달 이스라엘에 클라우드를 제공하는 '프로젝트 님부스' 사업에...",
+          "link": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20240516046651091",
+          "pub_date": ""
+        },
+        {
+          "title": "“AI혁신, 대담하되 책임 있게”…구글, 지속가능한 AI 비전 제시 [경주 APEC]",
+          "description": "구글은 AI 기술 교육 사업에 뛰어들고 있다고 칸 부사장은 밝혔다. 그는 “구글은 2015년 이후 각국... 중”이라며 “AI는 현지를 이해하고 지역별 문제를 해결하는 방향으로 발전해야 한다”고 말했다....",
+          "link": "https://v.daum.net/v/20251030153900453",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "Google Doubles AI Investment to $185 Billion, Backed by ...",
+          "url": "https://www.chosun.com/english/industry-en/2026/02/05/MOG2SR6WTFDWZM6TCVKJCX5ZB4/",
+          "text": "Google Doubles AI Investment to $185 Billion, Backed by Cloud and Ads\n\n# Google Doubles AI Investment to $185 Billion, Backed by Cloud and Ads\n\nRecord spending targets AI leadership, leveraging steady cloud and advertising revenue to outpace rivals\n\nBy Kang Da-eun\n\nPublished 2026.02.05. 15:51Updated 2026.02.05. 18:40\n\nLogo of Google's headquarters building in Mountain View, California, USA. /Chosunilbo DB\n\nGoogle announced it will invest up to",
+          "score": 0,
+          "published_date": "2026-02-05T00:00:00.000Z"
+        },
+        {
+          "title": "구글 “올해 AI에 270조 투자”…압도적 자본으로 경쟁자 털어내기 - 매일경제",
+          "url": "https://www.mk.co.kr/article/11955134",
+          "text": "구글 “올해 AI에 270조 투자”…압도적 자본으로 경쟁자 털어내기 - 매일경제\n\n댓글정책\n\n공감순 최신순 오래된순\n\n뉴스 바로가기\n\n# 기사 상세\n\n비즈 인사이트\n\n## 구글 “올해 AI에 270조 투자”…압도적 자본으로 경쟁자 털어내기\n\n피차이 CEO 실적·비전 발표검색·유튜브·클라우드에 제미나이 접목데이터센터·인프라증설등 투자액 2배로\n\n사진 확대\n\n2026년 2월 4일 캘리포니아주 마운틴뷰에 위치한 구글 본사 전경. [AFP연합뉴스]\n\n구글이 인공지능(AI) 패권 경쟁에서 사실상 ‘올인’에 가까운 승부수를 던졌다. 검색과 유튜브, 클라우드 전반에서 AI 효과가 본격적으로 매출로 이어지자, 공격적인 인프라스트럭처 확충과 차세대 제품 확산으로 AI 주도권을 굳히겠다는 전략이다.\n\n구글 모회사 알파벳은 4일(현지시간) 발표한 지난해 4분기 실적에서 2026년 자본지출을 1750억~1850억달러로 제시했다. 2025년에 집행한 설비·부동산 투자 규모(약 910억달러)의 거의 두 배에",
+          "score": 0,
+          "published_date": "2026-02-05T00:00:00.000Z"
+        },
+        {
+          "title": "Overview of Google's (Alphabet's) Strategy in 2025–2026",
+          "url": "https://medium.com/@anmolkohli/google-strategy-series-part-2-overview-of-googles-alphabet-s-strategy-in-2025-2026-68d5b32f253c",
+          "text": "Google Strategy Series Part 2— Overview of Google’s (Alphabet’s) Strategy in 2025–2026 | by Anmol Kohli | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\n[Sign in](https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40anmolkohli%2Fgoogle-strateg",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Alphabet plans record $185 billion AI spending—but CEO ...",
+          "url": "https://fortune.com/2026/02/04/alphabet-google-ai-spending-supply-constraints/",
+          "text": "Alphabet plans record $185 billion AI spending—but CEO says it still won't be enough | Fortune\n\nBig Tech Alphabet\n\n# Alphabet plans to double capex spending to a possible $185 billion—but it’s keeping CEO Sundar Pichai up at night\n\nBy\n\nAmanda Gerut\n\nAmanda Gerut\n\nNews Editor, West Coast\n\nBy\n\nAmanda Gerut\n\nAmanda Gerut\n\nNews Editor, ",
+          "score": 0,
+          "published_date": "2026-02-04T00:00:00.000Z"
+        },
+        {
+          "title": "Google's $180 Billion AI Bet for 2026 (GOOGL)",
+          "url": "https://www.youtube.com/watch?v=If5YizFnJao",
+          "text": "Google's $180 Billion AI Bet for 2026 (GOOGL) - YouTube\n\nAbout Press Copyright Contact us Creators Advertise Developers Terms Privacy [Policy & Safety](https:/",
+          "score": 0,
+          "published_date": "2026-02-21T15:50:29.278Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Reuters | Breaking International News & Views - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE8tZ2hNa2FhcURvbGFUZGY4clA5d1FnWlJWbnIzV2dfOFVDdDRNQ25lY2s2dzFLV2ZYRHBldA?oc=5",
+          "pub_date": "Sat, 10 Sep 2005 07:49:43 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "South Korea set to finally get a fully functioning Google Maps - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVTRwQlB6aDZPalp4cWhmWGZSNnRPQ0Y0WWN1ZTVfd21IMGxvOXM2M0NJV0pOckdoSi1zVzYwY1JMeE5WZlB2XzNHMGE1QnNVQUlyb1ROOHBLZkdkeG00YkhFeElHZHc1MEREenRNbXRJYnd0VWRxbFdNbDg5RkpzUEZWelppcEZfWnp0aHQ3UEFfc2xXeWRrQnJabTJXRUdtZXlGME4zbHZvUXRQSVpfUDF2WXk2enlj?oc=5",
+          "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "South Korea delays decision on Google's request to export map data - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZDJpbG5YX1RyVldKNmFkVGZVNGFVd0swTHBldlQ5TjBfTlhxNmsyTGMtY2s4S3pqQTJKQXNBX0NpbE1QdDJ4dEdvc2FGSVFLam5SZmtZN3lVVmlRZENaYjNrX2lpZVFKSnVMNnV4S1JYOVJ0elpYRXFwSVpyVkh5TjlHVGxBTm5YNWlFaG1KdDBqVEpDM0h3aU8tald1dE1YeUhvS1JKTi1ubDlhS0RjRkw1LVhXM3l5b2I0aW1qeDg0ejd5UEpCa2tR?oc=5",
+          "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "KOSPI Quote - Korea Stock Exchange KOSPI Index - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fV1pzRzM1QmhKMkFnN1JtWUhNaGFvM09vQWdfTHRNc0pKdGhQUXF0QjhBNVZ5U0VXbUhrTEstQWFGaFBpS01MVmVTRm5xcGhGWU9v?oc=5",
+          "pub_date": "Thu, 20 Mar 2014 03:47:26 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Great Moments in Executive Goofiness - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ3BVelZtZ1JaUHJPTkh2dWsyd29TXzBQbExxeDR2UWVHRjI5aUlPVG45c29WUmg1Q2xxQWtkaV9XZ3BWRV9zaDdHdldtNTBLYVNScHBCbFVRRTIyd0JGendVU21OQjM3M1lhNlB0d09NSHNHcjY5SkhxWEJzdGN1WHNPLWZxVXFYUlN1cDFmNkRKc2lVeVE?oc=5",
+          "pub_date": "Mon, 01 Oct 2012 07:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Google Wins Conditional Nod From Seoul to Offer Precision Maps - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbjdUdWU1U0d2SV9QSWVHX0lMa25UNzFSOVpkQ1ZPc1VDaGNNekxLc2dNbmNHbUNUQk9NVGpib3U2b2RaUnpUTUtTeWgyS2o1NmJsVnFDQ0ZjS2hObjExTTgxNXphMEZ1eUVERkxIZ2hFRW1JcnYzX2s1azlGVkF3Nnp5ZldZM1FSbXdNNElDQ1VheTdtYW4zWlRYaDFuOEswcmlvMjVIbG5aVVRWd1BHWA?oc=5",
+          "pub_date": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Seoul weighs approval for Google, Apple high-resolution map requests - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTFnWkcyWWNaVS0yZmc5RG55QXBPNFlYTVdaaFpydFdRTjM0TUhpaEppVEc4YjNLWTdhSmJGNDZSYjBVcmNLSlcwTDFqazJUbW9BNWFTUlJyLUx1eFdUVm1Ob1RaRWZqRWdNODdKMWhkUm1WeDlmXzc4SEFOMFJaTzZlWHZ4dzhOdjdoT3RkbThndllOSDE0OWtxeUZiOVk3SWlabg?oc=5",
+          "pub_date": "Wed, 15 Oct 2025 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "South Korean antitrust regulator fines Google $177M for abusing market dominance - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcF9LRVE0dFZaZzZ4aUZJdnI4RjRkZnVzMURsWUo1WUtvV0xvSFJzUlNhXzRxWVF1dW5acTRLY2VnVU5LYWZCckEtWWVCTFhxVlZCSEtSYUc5LVRWM3VHcmxQOWtSalg2LVo0VzhPajM2c25kSnhsOVFkV3puSXpnTmE3THVkejZiTnV0N2Naa2lIVF96dXZCU3dkNWNtc3c1NEVRNkFIWjV4czZFeHNSSlh6Ynk?oc=5",
+          "pub_date": "Tue, 14 Sep 2021 07:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "South Korea opens the door to let Google Maps operate fully - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR1l4T3owRVdOYlNYeG50d3A4V0ctSUlLN1BLV096NEV5V3NiTzJsRzhDU3BZTmRXaUl1SmF2NFl4UmgtVGJLVUFlaUpUelUzalJCVXVYeGpUdVZmb0FtTk9lWlhXTGxqUXA2cEpNVU1nYV9JLUNqMzFMc3dsb3R0N3BzNUh6bGVEUFJMVTlsZW1CRVY1YUJDTmJn?oc=5",
+          "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Google Challenges South Korea Over Mapping Restrictions - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQQzhQRVU2OVNGbUZGbnh4cENqMk1TMkF5WEJYak4tVDdIeVg1cUhLLWVBS3NLcVNVUWJmUnVka0RxNmVVX1lYSngxVkl0djVQQXFoYm9UQmFLM3NhV3I1OXJlVTJsbTVGb0g1SGhUSU00SG56bjkxTFBNXzZQa2dnVWNKX3ZJOTRqdGJOMXVXelZ1S3J0MUVjWkx2TlVRcjF6Wlo5WGJjak5VVEJveHVCV0NVdEtDRGNIWVZJU0pGWS1vemdmZVRaS0tCN1FqcW1JRU93UWxvNUFuV3hOVktiekcyWmI1YnNReTZEd2NucVM0bEVxSGY4QllPZTFhN2NHc2xQcXdybndwc0t3NUlJQ20tZWtMUW54QzA0NHg2RnRKT0E5Z1BKREhmWDNJa3cyZ3pQMS1DYi1SRzg2dlRGX3BLTzQ1LWlYdy1DTUlKMUU5TGpKRWlyYk01NlhTcUxtcFFCMWNKLWdIWmhsNVhwRkh0b1pweEVIZTFSWnM3Y20wMEdsdVEwTDhNV296LXREYUhzd1dDSFB4czFZR0U4MA?oc=5",
+          "pub_date": "Tue, 17 May 2016 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Google Changes Korea Home Page - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQQmZpNjN6Vk5xbDNycHl0aDM4VWI1b0hveC1uNEMwbmhpaE1WYTBqcUstVXlJdzROSDVYeTNEUUl5a01qeUZoWkh2dmtwT3FKZ3doYlBjVHF4Yjg2ZG53TUFpODdUQ3g1TjVsOXBLcGdTdlI3Z1hoOE1yNFlaMTdLdmtSTVZOcnN5Njl6WGdjQ0NUUUJxckhMa2doaTloeURSRzBqUUVnWkVSeDVXbWdGbVZtdWpMdEpQcWdIY21lRUtza0JDSUJXaGwwNlpyMWMwZFpXOXg1UVBuTkNtOFpEVlVDZEZHNF9YcGQxZlVySHJsMTUydEM4YUd6UldHaFNmS3BGdEVnU0JRZHFpY0RPMDNzdEZjN0pGNldjbnBUa0Y3aTl2c1ZLdEhPM3o4OUstbmxseTlkWFQ3RlVnSTZKQTJoaHdKMW00RXdva1lteElIUmdFTjNRMUVPNnl3WHo3VEswLVRGT0JjNzE2RVAzc1ZFbjVWYWR5cHppNUdWQ2VHZw?oc=5",
+          "pub_date": "Fri, 11 Dec 2009 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "South Korea Fines Google $32 Million for Squeezing Out Local Rival - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxNQURUdV9tNVgzQlRPbGhOUExJVTJtN1FaLUdpelFRTGhBQ2FETkJQNV9Mc3p3S3gtOVNiNlJRUWdEVTZ1TlRxbEcyLXdWcXk4azZfQ2xraWRQSm9STEVCckUxbWRwUDFlaWJ4bWszVHhESFZOenUzUlduZXo3Z1psVFAzVG9uMGo3S2wtVV8xSC1rME9tdGt2MUtJS2tDRWlvcTdrcGlnUENJZGZPVWNkZEZxM2RIclBydWYyUXVaZzFkeDJBTWFHWjFueTdiYUZRal9FUlBMdkE4U2hNMWtJQjJ2eThPZkhFMzlFd1AxSFJUVkNENTJFd0g0RElOY2l1ZnZwRmxaOHh3M0p1NW9HanFiU3VraUY3b2w0aXVpRTFxa1RhOGdHd1FneW4zbGQ4QnpvY1p4Y0gzX200YThMOXlHdEJBRVROdHp3Qy1CejhiVWFpeGRxTFQxcUlXcjU5YW5Jek9RMW1ILWpfeHh6Q3VEQWdfX1NSeXg4dnhtZldURHJkVlFzZTVtZnBZU2l6YzZJSGVQWk5jd1lmaVFsQXJsS3BRWEY4b1Vj?oc=5",
+          "pub_date": "Tue, 11 Apr 2023 07:00:00 GMT",
+          "source": "Wall Street Journal"
+        },
+        {
+          "title": "Google Maps wins access to South Korea — one of last countries where app does not work - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92ak5rcWNyZngzNmdCdS0weHFjSU9YR3F4VFBiWWItbGFFRmJTbC1YaTJBLTRwUnZ1LW5qa0tycC1maDhZMldneU93SkxQT0oybmxXQk5NLUZsYzJoWFJIcFBDZkphR05VWmNhRnF3UGI?oc=5",
+          "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "‘South Korea’s Google’ pitches AI alternative to US and China - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nOTh1VlNjX3RwSklGdzhhaTR5dEFKWGhkSDdlSVpnNmhudFc4cFJ5UlhKZWdkNm1QTm5sTjJab01sU0Q4b2c1eEJkOGpyRDN4V3ZUYXZ3dUFFdjljT2RUVWI4OG9kbXV6d1lfM2JKSFg?oc=5",
+          "pub_date": "Sat, 10 Jan 2026 08:00:00 GMT",
+          "source": "Financial Times"
+        },
+        {
+          "title": "South Korea - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9qUGxOWjVIOFFCVjM5TWpCWERRS1VPRno3S0p6eGw0eXFPN29IbTVPTGlGZjZGeFlod3FCLXFNTWM2V1Zn?oc=5",
+          "pub_date": "Mon, 26 Sep 2022 19:07:56 GMT",
+          "source": "Financial Times"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "Awesome Google Developer and Engineering Blogs - GitHub",
+          "url": "https://github.com/androiddevnotes/awesome-google-engineering-blogs",
+          "text": "GitHub - androiddevnotes/awesome-google-engineering-blogs: 👓 A collection of all the Google developer and engineering blogs related to programming, security, opensource, testing, android, youtube, etc.\nSkip to content\n## Navigation Menu\nToggle navigation\n\n\n\nSign in\n\nSearch or jump to...\n# Search code, repositories, users, issues, pull requests...\n",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "Projects | Google Open Source",
+          "url": "https://opensource.google/projects",
+          "text": "Projects | Google Open Source\n\n### Projects\n\nAt Google, we use open source to innovate and we release open source to share our innovations. We encourage you to browse through our featured projects to find work to use, share, and build on!\n\nMobile Java\n\n### Android\n\nAndroid is an operating system and software stack created for an array of devices with different form factors, including phones, tablets, wearables, TVs, automobiles, and connected devices. The primary purposes of Android are to creat",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "구글의 최첨단 오픈 모델 ‘젬마(Gemma)’를 공개합니다",
+          "url": "https://blog.google/intl/ko-kr/products/explore-get-answers/-gemma-open-models-kr",
+          "text": "구글의 최첨단오픈모델‘젬마(Gemma)’를 공개합니다메인 메뉴바로가기\n\n구글코리아블로그\n구글의최첨단오픈모델‘젬마(Gemma)’를 공개합니다공유하기\n트위터\n페이스북\n링크드인\n이메일\n링크복사Global (English)Africa (English)Australia (English)Brasil (Português)Canada (English)Canada (Français)Česko (Čeština)Deutschland (Deutsch)España (Español)France (Français)India (English)Indonesia (Bahasa Indonesia)日本 (日本語)대한민국 (한국어)Latinoamérica (Español)الشرق الأوسطوشمالأفريقيا(اللغة العربية)Nederlands (Nederland)Polska (Pols",
+          "score": 0,
+          "published_date": "2024-02-21T00:00:00.000Z"
+        },
+        {
+          "title": "개발자를 위한 Gemini 시대의 다음 장\n            \n            \n            - Google Developers Blog",
+          "url": "https://developers.googleblog.com/ko/the-next-chapter-of-the-gemini-era-for-developers",
+          "text": "개발자를 위한 Gemini 시대의 다음 장 - Google Developers Blog\n\nGemini\n\n# 개발자를 위한 Gemini 시대의 다음 장\n\n2024년 12월 11일\n\nShrestha Basu Mallick Product Google DeepMind\n\nKathy Korevec Director of Product Google Labs\n\n공유\n\n- [Mail](mailto:name@example.com?subject=Check%20out%20this%20site&body=Check%20ou",
+          "score": 0,
+          "published_date": "2024-12-11T00:00:00.000Z"
+        },
+        {
+          "title": "LangExtract 소개: Gemini 기반 정보 추출 라이브러리",
+          "url": "https://developers.googleblog.com/ko/introducing-langextract-a-gemini-powered-information-extraction-library/",
+          "text": "LangExtract 소개: Gemini 기반 정보 추출 라이브러리 - Google Developers Blog\n\nGemini\n\n# LangExtract 소개: Gemini 기반 정보 추출 라이브러리\n\n2025년 7월 30일\n\nAkshay Goel ML Software Engineer\n\nAtilla Kiraly ML Software Engineer\n\n공유\n\n- [Mail](mailto:name@example.com?subject=Check%20out%20this%20site&body=Check%20out%20{ur",
+          "score": 0,
+          "published_date": "2025-07-30T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.42857142857143,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.357142857142858,
+        "evidence": "13 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01473717"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=구글코리아"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=구글코리아"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=구글코리아+잡플래닛"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=구글코리아 company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=구글코리아 business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=구글코리아 hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=구글코리아 tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%EA%B5%AC%EA%B8%80%EC%BD%94%EB%A6%AC%EC%95%84"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }

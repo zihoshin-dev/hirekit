@@ -1,632 +1,924 @@
 {
   "company": "퓨리오사AI",
-  "sources_used": [
-    "exa_search",
-    "google_news",
-    "dart",
-    "credible_news",
-    "brave_search",
-    "naver_search"
-  ],
-  "result_count": 12,
-  "sections": [
-    "culture",
-    "strategy",
-    "tech",
-    "overview"
-  ],
-  "data": {
-    "company_name": "주식회사 리오",
-    "company_name_eng": "RIO",
-    "stock_name": "리오",
-    "ceo": "문정숙",
-    "address": "서울특별시 강남구 언주로 120 70(고덕동)",
-    "industry_code": "68121",
-    "established": "20180307",
-    "homepage": "",
-    "ir_url": "",
-    "stock_code": "",
-    "corp_class": "E",
-    "naver_blog": [
-      {
-        "title": "‘AI 활용 디지털 마케팅... 경기도 일자리 사업 면접 후기",
-        "description": "&lt;면접 질문&gt; 1. 간단한 자기소개와 지원동기 2. AI 활용해서 작업이나 sns 게시 경험이 있는지. 3. 수료 후에 진로. 취업 or 창업. 4. 이 교육 후 취업까지 연계 될 때 걸림돌이 있다면 무엇일지. 1,3번은 준비했는데 2... ",
-        "link": "https://blog.naver.com/sssss293/224224875009",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
-        "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
-        "link": "https://sibauchi.tistory.com/1205",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
-        "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
-        "link": "https://ilovefamily.tistory.com/527",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
-        "description": "오늘은 취준생이라면 한 번쯤 목표로 하는 기업, SK AX에 합격한 신입사원분과 인터뷰를 진행해봤습니다  ✔ 합격 스펙은 어땠는지 ✔ 채용 과정은 어떻게 진행되는지 ✔ 자소서·면접은 어떻게 준비했는지... ",
-        "link": "https://blog.naver.com/ttooooriiii/224224472695",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "2026 합격 가이드 (ft. 서류, SKCT, 면접 분석/합격 후기)",
-        "description": "26 2023 상반기 신입사원 채용공고 2023 하반기 신입사원 채용공고 더 많은 2026 대기업 채용 예상일정 보러가기 (클릭) SK하이닉스 최신 합격스펙  2026 SK하이닉스 최신 합격스펙   SK하이닉스 최소 합격... ",
-        "link": "https://blog.naver.com/afsangdo/224224434718",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
-        "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
-        "link": "https://lefthusband.tistory.com/1565",
-        "pub_date": "20260321"
-      },
-      {
-        "title": "신입 채용! 기업분석 및 자소서 작성법!(~3/23 17:00)",
-        "description": "SK하이닉스 최종합격후기 https://blog.naver.com/darddong/224119808364 &quot; &quot; https://blog.naver.com/darddong/224135095562 &quot; &quot; 확실히 작년 하반기 면접에서도 화두는 '인성'이었던 것 같습니다. 심지어 원데이에 '한 번... ",
-        "link": "https://blog.naver.com/darddong/224223529198",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "유한킴벌리 데이터 사이언티스트 정규직 채용 - 연봉·면접... ",
-        "description": "중시하는 문화 - 브랜드 자부심: 오랜 역사와 탄탄한 브랜드 파워 솔직하게 말하는 단점도 있어요 - 외국계 기업이지만 한국 기업 문화가 혼재되어 다소 보수적인 측면이 있다는 의견도 있어요 - 의사결정... ",
-        "link": "https://blog.naver.com/cymmcymm/224215509608",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "한국특허기술진흥원 면접 후기 기출 준비 컨설팅",
-        "description": "공기업 임원 출신 or 면접관 출신 멘토진 직접 인사채용 업무를 담당했던 전문가들로 구성 특허기술진흥원 컨설팅 이력 다수 보유 기존 합격데이터 기반의 전문 수업으로 진행 진흥원 평가포인트 + 질문... ",
-        "link": "https://blog.naver.com/ehrhdsu/224222237329",
-        "pub_date": "20260320"
-      },
-      {
-        "title": "하나증권 면접 후기 1차 실무 2차 최종 임원 기출 질문 정보",
-        "description": "하나증권 면접 후기 정보 1차 실무 면접 다대일 개별 구술 질의응답 형식으로 진행 (다대다 면접 후... 디지털 (AI), IT, 본사관리 채용 일정 26년 3월 20일: 서류 합격 발표 26년 3월 23일~4월 3일: 1차 실무 면접 26년... ",
-        "link": "https://blog.naver.com/jinsiri2191/224222310166",
-        "pub_date": "20260320"
-      }
-    ],
-    "naver_cafe": [
-      {
-        "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
-        "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
-        "link": "http://cafe.naver.com/inhadigital/306",
-        "pub_date": ""
-      },
-      {
-        "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
-        "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
-        "link": "http://cafe.naver.com/ibartender/110690",
-        "pub_date": ""
-      },
-      {
-        "title": "[플랜지] CNC가공 조작원 모집을 위한 자기소개서",
-        "description": "** 채용공고요약 대성기계는 서울 구로구에 위치한 금속 제품 제조업체로 CNC 선반 조작원(경력자) 1명을... 이러한 경험을 통해 책임감은 단순히 개인적인 의무가 아니라, 다른 사람들과 조직의 성공을 위한 필수적인... ",
-        "link": "http://cafe.naver.com/uworldexam/152047",
-        "pub_date": ""
-      },
-      {
-        "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
-        "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
-        "link": "http://cafe.naver.com/uworldexam/151745",
-        "pub_date": ""
-      },
-      {
-        "title": "건설현장 추락사고에 대한 관리감독자 책임 확대와 전략적 대응 방안",
-        "description": "보고 문화 부재에 있음을 분석하였다. 연구에 따르면 관리자가 안전 문제 보고를 능동적으로... 인력·조직 안전보건관리책임자(현장소장급) 선임 및 역할 문서화 산안법§15 ★★★ 06 인력·조직... ",
-        "link": "http://cafe.naver.com/kmsr21/136505",
-        "pub_date": ""
-      },
-      {
-        "title": "정책뉴스20260321토요일",
-        "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 인재추천·채용지원 서비스 선호 - AI가 추천한 일자리에 2.1만 명 취업, 전년 대비 61% 증가 AI 기반 일자리... ",
-        "link": "http://cafe.naver.com/jungamironware/9268",
-        "pub_date": ""
-      },
-      {
-        "title": "국회의원SNS소식20260321토요일",
-        "description": "아니라 AI, 반도체 기업들이 입주하는 업무시설, 청년에 특화된 주거시설, 주민들을 위한 생활문화센터... 전체회의에서 복지부에 주식, 채권, 대체투자 부문장 신설 등 국민연금 기금운용본부 조직 재편 필요성에 대해... ",
-        "link": "http://cafe.naver.com/jungamironware/9266",
-        "pub_date": ""
-      },
-      {
-        "title": "한국은행 (Bank of Korea)",
-        "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
-        "link": "http://cafe.naver.com/smilejobs/768",
-        "pub_date": ""
-      },
-      {
-        "title": "2026년 3월 20일 금요일 정책키워드 총정리",
-        "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 인재추천·채용지원 서비스 선호 - AI가 추천한 일자리에 2.1만 명 취업, 전년 대비 61% 증가 AI 기반 일자리 매칭 서비스가... ",
-        "link": "http://cafe.naver.com/magicbank/3332",
-        "pub_date": ""
-      },
-      {
-        "title": "(주)대동 (DAEDONG)",
-        "description": "탄탄한 복지 보유 4. 채용 기조 및 실무 특징 ㆍ특수 환경 로봇 개발 : 포스코와 협력하여 제철소 내 위험 작업을 수행하는 '특수 임무 로봇'을 개발, 농업을 넘어 산업용 로봇 시장으로 진출 중입니다. ㆍAI 데이터... ",
-        "link": "http://cafe.naver.com/smilejobs/763",
-        "pub_date": ""
-      }
-    ],
-    "naver_web": [
-      {
-        "title": "LG AI연구원-퓨리오사AI, AI반도체 개발 협력",
-        "description": "LG가 국내 인공지능(AI) 생태계를 지원한다.LG AI연구원은 퓨리오사AI와 ‘차세대 AI 반도체와 생성형 AI 관련 공동 연구 및 사업화를 위한 전략적 파트너",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=21447",
-        "pub_date": ""
-      },
-      {
-        "title": "퓨리오사AI 상장 일정 및 관련 주가 급등 이유",
-        "description": "사업 방향성 차이 메타는 퓨리오사AI를 자사 AI 모델 학습·추론에... AI는 다양한 AI 환경에서 사용 가능한 범용 칩을 만들겠다는 비전을... 퓨리오사AI 상장 일정과 전략적 미루기 퓨리오사AI는 코스닥...",
-        "link": "https://blog.naver.com/isshoko/223966296680",
-        "pub_date": ""
-      },
-      {
-        "title": "&quot;퓨리오사AI의 하드웨어는 완성형··· 전세계 소비자 위한 디자인 준비할 것&quot;",
-        "description": "(컴퓨터 비전과 패턴 인식 콘퍼런스)도 디자인 기획을 맡았다. 약 6개월... 퓨리오사AI가 글로벌 기업들과 같은 방향으로 나아가고 있음을 느꼈다. 국내외 동종업계와 차별점을 주기 위해서는 어떤 디자인 전략을...",
-        "link": "https://it.donga.com/104186/",
-        "pub_date": ""
-      },
-      {
-        "title": "국내 인공지능 시장은 좁다!... 기술 앞세워 글로벌 시장 공략에 나서는 AI 스타트업들",
-        "description": "대한 전략 및 내용을 간략하게 소개해 본다. ▷ 퓨리오사AI실리콘밸리와 서울에 본사를 두고 올해... 분야로 사업을 확장한다. 마크비전은 LA를 거점으로 웹툰, 게임, 엔터테인먼트, 방송 등 다양한 분야의...",
-        "link": "https://www.aitimes.kr/news/articleView.html?idxno=21461",
-        "pub_date": ""
-      },
-      {
-        "title": "`퓨리오사AI의 하드웨어는 완성형··· 전세계 소비자 위한 디자인 준비할 것`",
-        "description": "현재 퓨리오사AI의 디자인 전략 및 기획, 관리 업무 등을 추진하고... (컴퓨터 비전과 패턴 인식 콘퍼런스)도 디자인 기획을 맡았다. 약... 이 대목에서 퓨리오사AI가 글로벌 기업들과 같은 방향으로 나아가고...",
-        "link": "https://www.donga.com/news/article/all/20230811/120668385/1",
-        "pub_date": ""
-      },
-      {
-        "title": "AI 반도체 혁신의 선두주자 퓨리오사AI의 비전과 특허 전략",
-        "description": "최근 제8회 지식재산의 날 기념식에서 백준호 퓨리오사AI 대표가 국무총리 표창을 수상했다. 이는 그가 국내 최초로 데이터센터용 인공지능(AI) 반도체를 개발하고, 고대역폭 메모리(HBM)를 통합한 차세대 AI 칩을 선보이며 AI 인프라스트럭처의 기술 주권에 기여한 공로를 인정받은 결과다. 퓨리오사AI가 출시한 AI 반도체는 세계 최고 수준의 연산 속도와 효율을 자랑하며, 특히 지난...",
-        "link": "https://www.doochang.co.kr/blog/ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%ED%98%81%EC%8B%A0%EC%9D%98-%EC%84%A0%EB%91%90%EC%A3%BC%EC%9E%90-%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACai%EC%9D%98-%EB%B9%84%EC%A0%84%EA%B3%BC-%ED%8A%B9%ED%97%88-%EC%A0%84/",
-        "pub_date": ""
-      },
-      {
-        "title": "퓨리오사AI, 1조원 메타 인수 제안 거절",
-        "description": "이후 사업 방향이나 조직 구성 등에서 이견을 좁히지 못하면서 협상이 최종 결렬된 것으로 전해진다. 퓨리오사AI 펀딩 현황. (그래픽... 코리아오메가투자금융 ▲비전벤처스 등으로부터 시리즈B로...",
-        "link": "https://dealsite.co.kr/articles/138741",
-        "pub_date": ""
-      },
-      {
-        "title": "&quot;퓨리오사AI의 개발 철학, 핵심은 하드웨어·소프트웨어의 유기적 결합입니다&quot;",
-        "description": "LSI 사업부에 입사해 시스템 반도체 등과 관련된 설계부터... 인연들과 퓨리오사AI의 방향성에 대한 확신을 갖고 NPU 아키텍트라는 길을... 덕분에 하드웨어 가용량이나 소비전력, 메모리 등을 관리하는데 훨씬...",
-        "link": "https://it.donga.com/104363/",
-        "pub_date": ""
-      },
-      {
-        "title": "퓨리오사AI(FuriosaAI)는 대한민국 서울에 본사를 둔 인공지능(AI) 칩 설계 및 개발 전문 스타트업",
-        "description": "제품 퓨리오사AI의 대표 제품은 다음과 같습니다: 1세대 비전 NPU... 성장 전략을 선택하며 이를 거절했습니다. 현재 기업 가치는 약... 위해 퓨리오사AI의 기술을 활용하려 했으나, 사업 방향과 조직...",
-        "link": "https://blog.naver.com/tteonamat/223814859955",
-        "pub_date": ""
-      },
-      {
-        "title": "엑스페릭스, 주요 계열사와 퓨리오사AI에 투자 &quot;AI 생태계 구축&quot;",
-        "description": "엑스페릭스는 최근 AI 사업실을 신설하며 디지털 신원확인, 보안, 헬스케어 등 다양한 분야에서 AI 솔루션 기반 사업 확장을 본격화하고 있다. 엑스플러스도 AI 기반 사용자 인터페이스(UI) 및 스마트 액세서리 분야로의 확장을 준비하며 AI 기술과의 접점을 확대할 계획이다. 인텔렉추얼디스커버리는 퓨리오사AI의 주주이면서 지식재산권(IP) 자문사로서 국내·외 특허 자문과 라이...",
-        "link": "https://www.mt.co.kr/future/2025/05/30/2025053009462523370",
-        "pub_date": ""
-      }
-    ],
-    "brave_web_results": [
-      {
-        "title": "퓨리오사에이아이 진행 중인 채용정보 총 1건 - 채용 히스토리 통계 | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/company/42969739/recruit",
-        "description": "[퓨리오사AI] 정부과제 사업개발 담당자 (신입/인턴) 신입 서울 대졸↑ · 마감 (~2023.03.20) 경영·비즈니스기획 · * 최근 3년 이내, 최대 100개의 채용정보를 확인할 수 있습니다. * 최근 1년 이내의 공고에 대해서만 상세 내용을 확인 할 수 있습니다."
-      },
-      {
-        "title": "퓨리오사에이아이 채용 정보",
-        "url": "https://www.rocketpunch.com/companies/furiosaai/jobs",
-        "description": "최고 기술을 갖춘 인공지능 반도체 스타트업"
-      },
-      {
-        "title": "퓨리오사에이아이 2025년 채용정보 | 캐치",
-        "url": "https://www.catch.co.kr/Comp/RecruitInfo/IP0865",
-        "description": "퓨리오사에이아이 채용이 궁금하다면? 인턴·신입·경력 공고와 함께, 이 공고에 관심 있는 회원 통계와 자소서 문항을 한눈에 확인하세요."
-      },
-      {
-        "title": "(주)퓨리오사에이아이 기업정보 ㅣ 채용공고, 연봉, 직원수 - 리멤버",
-        "url": "https://career.rememberapp.co.kr/job/company/1405896",
-        "description": "(주)퓨리오사에이아이 경력직 채용 공고. 연봉, 직원수 등 이직에 필요한 모든 정보를 한눈에 확인하세요."
-      },
-      {
-        "title": "(주)퓨리오사에이아이 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WmY1czBkOVgzVUM3b05JbWpISGtBQT09/company_nm/(%EC%A3%BC)%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4",
-        "description": "(주)퓨리오사에이아이 기업소개 - 업력 : 9년차, 기업형태 : 중소기업, 업종 : 기타 반도체소자 제조업 | (주)퓨리오사에이아이의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 ..."
-      },
-      {
-        "title": "\"밤에 출근할게요\" \"그러시죠\"…AI반도체 스타트업, 인재총력전 [팩플] | 중앙일보",
-        "url": "https://www.joongang.co.kr/article/25243105",
-        "description": "① <strong>상장 노린 스톡옵션</strong> ‘한 방’: 높은 상장 가능성은 AI반도체 스타트업들이 가진 가장 큰 무기. 직원들이 부여받은 스톡옵션 효과를 극대화할 수 있어서다."
-      },
-      {
-        "title": "[퓨리오사AI] 채용공고 홍보 - 성동구",
-        "url": "https://econ.hanyang.ac.kr/sub/sub05_01.php?boardid=notice&mode=view&idx=877&category=%EC%B7%A8%EC%97%85",
-        "description": "Finance Associate(재무, 신입) 포지션을 졸업예정 혹은 최근 1년 내 졸업하신 분들 대상으로 채용하고 있습니다. ... 회사소개: 퓨리오사AI는 고성능 AI 반도체 팹리스 스타트업으로, 대규모 언어 모델 및 생성형 AI 추론을 위한 반도체를 설계하고 있으며, 현재 2세대 제품인 RNGD (레니게이드) 중심으로 국내외 인공지능 생태계 구축에 적극적으로 임하고 있습니다."
-      },
-      {
-        "title": "퓨리오사에이아이 기업정보 - 채용 0건, 평균연봉 6,032만원, 인원 132명, 업력 8년, 서울 강남구 | 원티드",
-        "url": "https://www.wanted.co.kr/company/22032",
-        "description": "퓨리오사에이아이 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
-      },
-      {
-        "title": "Sogang",
-        "url": "https://cs.sogang.ac.kr/Download?pathStr=NTYjIzUyIyM1NSMjNDkjIzEyNCMjMTA0IyMxMTYjIzk3IyM4MCMjMTAxIyMxMDgjIzEwNSMjMTAyIyMzNSMjMzMjIzM1IyM1MCMjMTI0IyMxMjAjIzEwMSMjMTAwIyMxMTAjIzEwNSMjMzUjIzMzIyMzNSMjNTUjIzQ5IyM1NSMjNTcjIzU0IyM1NiMjMTI0IyMxMDAjIzEwNSMjMTA3IyMxMTI%3D&fileName=Join_FuriosaAI_.pdf&gubun=board",
-        "description": "We cannot provide a description for this page right now"
-      },
-      {
-        "title": "(주)퓨리오사에이아이 2025년 기업정보 | 5건 면접후기 3.8 면접난이도 | 잡플래닛",
-        "url": "https://www.jobplanet.co.kr/companies/376056/interviews/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4",
-        "description": "채용정보부터 직장인이 직접 남긴 기업리뷰, 연봉정보, 면접후기, 복지정보, 기업분석까지"
-      }
-    ],
-    "google_news": [
-      {
-        "title": "\"AI는 기술 아닌 경영 정보\"…한국AI서비스학회, 현장 중심 사례 공유 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BZEVqZjN3Vm1IYlE0SC1vODJKYnFvZEtlRzlTNDFSbThnUHAzMks5WEVTOEZPN2dKRE5fVDB1S1RSS1JEUURaaGFISE0xci1aQ1lTb0ZB?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:29:35 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "AI 팹리스 4사, 인력 확충 '사활'…2세대 칩 전면전 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9YYWotYU10TzgtRGJ0MnlvczBLTFJCdmNHS1Y2MEhEQk1qR2VZblJMRlBtdWhEaUV4UVNUTHBWRThsRUNHX0VHU2dNWHZ4dw?oc=5",
-        "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
-        "source": "전자신문"
-      },
-      {
-        "title": "엔비디아가 29조 쓴 이유…AI 반도체 판 흔들린다 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lS191Zk5NdGU5aVk3a1Q0cVdhMTk3V25JNGZuU0FXR0ZWdEpLMnRuYmFMSkRFZEZvN2xfNFBRaXI3dWxxN2dacWNFR1R5R21wT19LTVdCdEQzNHPSAWBBVV95cUxQQzJDMXktcW5TU2Y5Y2hwd21TUEFkc3cyZjJMMHRYbWZyMG9ZN09MU09NQjd5MzBGblhnT1I4UnFsRWgzQTNhdklodWttN05lUVpaRlpQd01uNjZYOGpSWks?oc=5",
-        "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "AI 스타트업 현직자 3인이 부닥치는 현재 AI는, AI 전략은.... - 스마트투데이",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE55TjU1WnY5OTV1VG5QZzhXcUdHejhzVzl6aEJIUWNYcHNpSU5iQUJxVldsd0VmdnRTbVA4a2IzYWdGTkU4T3NRbGVYRjVJeGN3b1NicWYzTVNOeHJMZmc?oc=5",
-        "pub_date": "Sun, 21 Sep 2025 07:00:00 GMT",
-        "source": "스마트투데이"
-      },
-      {
-        "title": "재단법인 미래와 소프트웨어, 울산대에서 ‘2025 AI 트렌드 특강’ 개최 - 아이티데일리",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzeHFmbnpXQUtUSlFKTkR0bDUzMFV2YXdNQlljTzl3SmY5VWlzcFl2ZDRKdG8xSnVGUVo1dkFaQkZoZUI4TEtEd3JYMTVxamlHYnY2TjJxZFlfRnRzT3p4cC1BTHdCLTA?oc=5",
-        "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
-        "source": "아이티데일리"
-      },
-      {
-        "title": "\"대기업 투자는 약? 독?\" 상반된 전략의 두 라이벌 [비하인드 칩스] - 유니콘팩토리",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xRDJITmZSd0JrUjBQSEZESnhqblVlT1B5RnRhSFREb3BLNU5GM2psa2pkRkp6cW94M193SC1raFVTZzhTSjNQSTVxUC1XZWY2a01WV2hUaTdTTUdUYWVzV1RVakFTYkpJTU9qTw?oc=5",
-        "pub_date": "Fri, 11 Jul 2025 07:00:00 GMT",
-        "source": "유니콘팩토리"
-      },
-      {
-        "title": "[빅테크칼럼] 저커버그의 “수프 외교”로 달군 AI 인재 영입술…메타와 오픈AI의 '은밀한 고공작전' - 뉴스스페이스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiSm1GVTZqUHc5V19aMGt6V3pRcHlnOWxMNW1IQWZVTUVoajFzLUZjMU9NQ24zVjQxTko1dTdUVEVNUE1BZV81Um54bHFGb29UeXlRMU91S2R6ZHdWS1ktSg?oc=5",
-        "pub_date": "Sat, 06 Dec 2025 08:00:00 GMT",
-        "source": "뉴스스페이스"
-      },
-      {
-        "title": "[AI 반도체 스타트업은 지금 ①] “내 길 가겠다”는 퓨리오사AI, 독자생존 방법론 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YeWlXcks5U3dkQjQtSEJBZk92OGhFMGd1c3hyc3VMTHNwQ29sWFpFWGxjejh3SktwSW1PZG0wQUkxTUFRTXM4TXp3TGdMbXM?oc=5",
-        "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "코트라, 싱가포르서 글로벌 첨단인재 유치…AI·반도체 인재 600명 매칭 - 더밸류뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40bUZ2UUNNdTc2Z19Nc2JUYThTUHQyX1dWSlNHQXVtYW95c1NjdHFCeVpIcVVSX0hIRWpOYzJkQmZuSG1DNVVUZWdBaC1jem5ua3dZWg?oc=5",
-        "pub_date": "Fri, 17 Oct 2025 07:00:00 GMT",
-        "source": "더밸류뉴스"
-      },
-      {
-        "title": "국가전략기술 육성 가속…IBK기업은행, 퓨리오사AI에 금융·투자 전방위 지원 - 일요주간",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rRXVsRUVwWVhLS0JJMXFQZ3N6X2RsRmlwbTZUWlhfWGVPd3F5YmFqQ1ctRmJNcDVmenF0MHdnUFdXWFl5cFNiR1ZXRXJRUkJmQkdZbHBQQ3FRbnBvUnNGVFd4c2xIRWFPdkRlczd6VE1GT1RrTlE?oc=5",
-        "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
-        "source": "일요주간"
-      },
-      {
-        "title": "[AI 생존법 찾아라] 'AI 3대 강국' 내세운 이재명 정부, '100조 투자'보다 중요한 것 - 비즈한국",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mXzJBbldnRUVaZTVHeDdlYmpXTXBHOGoySjJvQXItNlg2NjJ0OUh2WVlseVVpdTVmY0NRTUszVzJIOEJRQVAxbUhvcm1rb3J3RFFuYmhB?oc=5",
-        "pub_date": "Tue, 10 Jun 2025 07:00:00 GMT",
-        "source": "비즈한국"
-      },
-      {
-        "title": "조강원 모레 CEO \"딥시크 '진짜 경쟁력', 비용 구조 혁신 소프트웨어에 있어\" - 퍼블릭뉴스통신",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tbnJUMXpjTGY1c2pKdmRUREV6MEpZX2owOENEcXU2YkRLS2pfaW1STm9BSGpKQnF6NXlSbU5sX2Jja1dKTXl5dm1rUDhNSU41aUdSNmJidV9mWndjT2Nhdng0TXVHMTlsZDNr?oc=5",
-        "pub_date": "Sun, 21 Sep 2025 07:00:00 GMT",
-        "source": "퍼블릭뉴스통신"
-      },
-      {
-        "title": "[사람과 보안] 이재명 정부 AI 전략을 다시 묻다④ “AI가 잘못했다면, 누가 책임지는가?” - 보안뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lUkswUjRIaTBNWWpZT202OWEzbWlJcmM1QmJFUVZLaUdGcDNSMlhqa0lRQVQ3b0p3NUJjbmJkOTNpbkNWVXBmYXdHZ29tcnl2bUpEUDZpYmNjcDRkd1E?oc=5",
-        "pub_date": "Fri, 18 Jul 2025 07:00:00 GMT",
-        "source": "보안뉴스"
-      },
-      {
-        "title": "미래와 소프트웨어, 다음달 13일 울산대서 '2025 AI 트렌드 특강' 개최 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tYW1RcDRLOGVrSE9FMy1MWUdQS2JvamlOcXFGM2NueXAwYzhxc1VlNlpFWGp3UVA1eVB0TzdnU21sOGRPZVVWZm9JOXQ2WTRoNVl4WTZn?oc=5",
-        "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "광주시 \"2030년까지 AI 등 전략산업 인재 81만명 양성\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4ZmxMVGVkNkVZNzdhWGQ3MlR2dUJ3aGFvcjNpVGFkYjRIajAtMXA2SnZkYTRwR3R4Q1BST1JDNlp0UHFNUk9Vblp6bnVKWEMzZ3l3bko1M2tKMk3SAWBBVV95cUxQMmlUeUZXTlVOUUl0cFBQU3hyai1QVjBjYjFnM0VHSklaT2lKNEdwOThWbmRNVmk4dGRpLU9FUmJZM3V5V2RBZDFtazZCS2pKVkFfUmdKY01pNGtVODktMXk?oc=5",
-        "pub_date": "Wed, 09 Jul 2025 07:00:00 GMT",
-        "source": "연합뉴스"
-      },
-      {
-        "title": "에코아이티-퓨리오사AI 맞손… 국산 NPU로 공공·국방 AX 시장 정조준 - mt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Dcjh4ZXpfLU11cUxBQllVQ0dfLUttNXZFVDFXMGxScmFiVU9IUGtXSkNUZjkwZlN5U3F0QzBqWjZvWDVlamtnS0h5aWhaSkFYUzI4S05TM0RuU1p3cG1Qc1czaWNiTlNsVFVhWGdacw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 07:45:00 GMT",
-        "source": "mt.co.kr"
-      },
-      {
-        "title": "에코아이티-퓨리오사AI 맞손…국산 NPU로 공공·국방 AX 시장 정조준 - 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wVEhTd3BjOVd4Y0lRXzlKSDVBczhfaUpVbEVIekVNa25tZlp3S2VSS3JMMzNvaHdRNDc3Nnk1alBLOFlEVDBWR2JfeEllZU5EUG01dGZ4UHloaG5pa0RQWA?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 07:45:00 GMT",
-        "source": "네이트"
-      },
-      {
-        "title": "[국산NPU] 정부 1조원 K-NPU 상용화 프로젝트: '퓨리오사AI & 국산NPU' 관련주 정리 - 네이버 프리미엄콘텐츠",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaEpvNmdTck1EbUhLRDY1bEVvRDlQR1V3YWt0TzhJOGNONHhSemVPTW55cDBPeWdVZ0xlbWZBZHBHR1lTYjZKWUlYbzl2bW9rcF9HRjltTENRcVA0b1FOWWh4SkVIYWVZbmFzcF9Xc0Z4QXNLdkx2ZWJkT010TG9obE50cVRTV0lqanc?oc=5",
-        "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
-        "source": "네이버 프리미엄콘텐츠"
-      },
-      {
-        "title": "더존비즈온-퓨리오사AI, 국산 NPU로 공공·금융 AI 판 키운다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qbGJVb0g5dUtJX1RsSkVQdUhobkRMZUxYWXpvVms1dXdRcnZHS2JrU0JIaUxNT3FUaW9pM2didV9tM0IwY3d5djkxR2hWOFJXQmxYazlB?oc=5",
-        "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-        "source": "지디넷코리아"
-      },
-      {
-        "title": "DSC인베스트먼트, 퓨리오사AI 투자 재조명…'국산 NPU' 국가사업 탑재 검토 - 리드경제",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kWTBzVkNreTBTTkR2TXVjOEJJdmVIdWtBa2s0eTVoQzA1TUlfUU0wVXZGRXFrT1ZNUUNwb3FWemZWRjBBWC1aV3lrd0tBRWJ5MTdNNktiYWdIX3VDVzZCRjEwNTFWWjFleXQzbWYxWQ?oc=5",
-        "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
-        "source": "리드경제"
-      }
-    ],
-    "exa_culture": [
-      {
-        "title": "Join us in building the future of AI — FuriosaAI",
-        "url": "https://furiosa.ai/careers",
-        "text": "Join us in building the future of AI — FuriosaAI --\n\nIt's official: RNGD enters mass production.Read the announcement.\n\n# We came together to really reinvent AI computing from the ground up and at every level.\n\n– Hanjoon, Furiosa CTO\n\n## FURIOSA WAY\n\n### Shared vision\n\nSince day 1, our hardware and software team have worked together as a single team toward a shared vision.\n\n### Fierce e",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "퓨리오사AI 채용 정보 및 직무 리스트(+재무, 반도체엔지니어) - 민민스 블로그",
-        "url": "https://minmins.kr/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACai-%EC%B1%84%EC%9A%A9-%EC%A0%95%EB%B3%B4-%EB%B0%8F-%EC%A7%81%EB%AC%B4-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9E%AC%EB%AC%B4-%EB%B0%98%EB%8F%84%EC%B2%B4%EC%97%94%EC%A7%80/",
-        "text": "퓨리오사AI 채용 정보 및 직무 리스트(+재무, 반도체엔지니어) - 민민스 블로그\n\nHome» 퓨리오사AI 채용 정보 및 직무 리스트(+재무, 반도체엔지니어)\n\n# 퓨리오사AI 채용 정보 및 직무 리스트(+재무, 반도체엔지니어)\n\n- INFO\n- 8월 16, 2025\n- by 민민스\n\n요즘 IT업계에서 많은 분들이 퓨리오사AI의 채용 소식과 직무, 특히 재무, 반도체엔지니어 분야에 대해 궁금해하고 있어요.\n\n그 궁금증을 해결할 수 있도록, 최신 정보를 바탕으로 쉽고 자세하게 설명해 드릴게요.\n\n아래에서 퓨리오사AI의 공식 홈페이지와 공식 SNS도 확인할 수 있으니 필요할 때 참고해보세요.\n\n✅ 공식 홈페이지\n\n✅ [공식 SNS](https://www.linkedin.c",
-        "score": 0,
-        "published_date": "2025-08-16T00:00:00.000Z"
-      },
-      {
-        "title": "[퓨리오사에이아이] Security Engineer (DevSecOps) 채용 공고 | 원티드",
-        "url": "https://www.wanted.co.kr/wd/76742",
-        "text": "[퓨리오사에이아이] Security Engineer (DevSecOps) 채용 공고 | 원티드\n\n## 포지션 상세\n\nFuriosaAI 는 데이터센터 및 자율주행 시장을 타겟으로 AI 연산에 최적화된 반도체 NPU (Neural Processing Unit)를 만드는 반도체 스타트업입니다. 비전 모델 부터 자연어 처리 모델까지 가속하는 반도체 개발을 목표로 합니다. 어려운 문제를 해결하기 위해 딥 뉴럴 네트워크 모델 연구, 소프트웨어 스택 개발, 하드웨어 아키텍쳐 디자인까지 모든 영역에서 전문가들이 협력하고 있습니다.FuriosaAI에서 NPU 클라우드 플랫폼 서비스 개발을 함께하실 분을 모집합니다. 플랫폼 팀은 FuriosaAI NPU 어플리케이션 개발을 위해 제공될 SDK 컴포넌트(Python SDK, Runtime, 모델 서빙 프레임워크, 프로파일러, Kubernetes 디바이스 플러그인 등)를 개발하고 있습니다. 더 나아가 SDK 컴포넌트와 플랫폼, 인프라를 통합해 컨테이너 기",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "㈜퓨리오사에이아이 채용 - [퓨리오사AI] HR Manager | 잡코리아",
-        "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47641190",
-        "text": "㈜퓨리오사에이아이 채용 - [퓨리오사AI] HR Manager | 잡코리아\n\n## ㈜퓨리오사에이아이\n\n# [퓨리오사AI] HR Manager\n\n상세요강접수기간∙방법기업정보\n\n채용정보에 잘못된 내용이 있을 경우 문의해주세요.\n\n모집요강\n\n모집분야\n\nHR Manager\n\n모집인원○명\n\n고용형태\n\n정규직(수습 3개월)\n\n직급/직책\n\n급여회사 내규에 따름 (면접 후 결정)\n\n근무시간\n\n- 탄력근무제\n- 10:00 ~ 19:00\n- 주5일(월~금)\n\n근무지주소\n\n서울 강남구 도산대로 145 (신사동, 인우빌딩) 14층, 퓨리오사에이아이지도보기\n\n인근지하철\n\n지원자격\n\n경력\n\n경력(3년이상)\n\n학력\n\n학력무관\n\n우대조건\n\n기본우대관련 자격증 보유자, 유관업무 경력자\n\nTOP\n\n궁금해요\n\n공지사항\n\n전문채용관\n\n[슈퍼기업관](https://www.j",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "(주)퓨리오사에이아이 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
-        "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WmY1czBkOVgzVUM3b05JbWpISGtBQT09/company_nm/(%EC%A3%BC)%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4",
-        "text": "(주)퓨리오사에이아이 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n관심기업을 설정하여 기업의 최근 소식을 받아보세요\n\n도움말\n\n조회기간 2026.01.21 ~ 2026.02.20\n\n본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다.\n\n조회수\n\n1% 2,210회\n\n관심기업\n\n27회\n\n기업 키워드 검색 횟수\n\n68회\n\n- 나의 커리어 첫 시작\n- 역세권 기업\n- 시리즈B 투자유치\n- 500억 이상 투자유치\n\n## 한눈에 보는 우리 회사, 미리 확인해 보세요!\n\n기업 개요--\n\n업력 10년차\n\n2017년 4월 4일 설립\n\n중소기업\n\n기업형태\n\n155 명\n\n출처: 국민연금\n\n사원수\n\n29억 5,585만원\n\n매출액\n\n업종 기타 반도체소자 제조업\n\n대표자명 백준호\n\n홈페이지 https://furiosa.ai/\n\n사업내용\n\n비메모리용,전자집적회로",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "exa_strategy": [
-      {
-        "title": "퓨리오사AI, 7400억 프리IPO 투자유치 추진…몸값 '3조' 거론 - 머니투데이",
-        "url": "https://www.mt.co.kr/future/2026/01/21/2026012116041340861",
-        "text": "퓨리오사AI, 7400억 프리IPO 투자유치 추진…몸값 '3조' 거론 - 머니투데이\n\n## 퓨리오사AI, 7400억 프리IPO 투자유치 추진…몸값 '3조' 거론\n\n[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ' 데이터랩'에서 볼 수 있습니다.]\n\n이재명 대통령이 지난해 4월 더불어민주당 대선후보 시절 서울 강남구 퓨리오사AI에서 백준호 퓨리오사AI 대표와 기념촬영을 하고 있다 /사진=뉴시스\n\nAI(인공지능) 반도체 팹리스 스타트업 퓨리오사AI가 5억달러(7400억원) 규모의 프리IPO 투자유치에 나선다. ",
-        "score": 0,
-        "published_date": "2026-01-21T00:00:00.000Z"
-      },
-      {
-        "title": "AI반도체 스타트업 퓨리오사AI, 최대 5억달러 투자 유치 추진 &lt; AI·엔터프라이즈 &lt; 기사본문 - 디지털투데이 (DigitalToday)",
-        "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=622649",
-        "text": "AI반도체 스타트업 퓨리오사AI, 최대 5억달러 투자 유치 추진\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\nAI반도체 스타트업 퓨리오사AI, 최대 5억달러 투자 유치 추진\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n퓨리오사AI RNGD 제품 [사진: 퓨리오사AI]\n\n[디지털투데이 황치규 기자]한국 AI 반도체 개발사 퓨리오사AI가 3~5억달러 규모 투자 유치를 추진하고 있다고 블룸버그통신이 20일(현지시간) 보도했다.\n\n퓨리오사AI는 모건스탠리와 미래에셋증권을 영입하고 시리즈 D 투자 라운드를 준비 중이다. 구체적인 기업가치는 공개되지 않았다. 퓨리오사AI는 지난해 7월 1억2500만달러 투자를 유치하면서 회사 가치를 7억3500만달러로 평가받았다.\n\n또 메타로부터 8억달러 규모에 인수 제안을 받았으나 거절한 것으로 알려졌다.\n\n퓨리오사AI 핵심 기술은 RNGD 칩이다. 기존 AI 칩이 행렬 곱셈에 최적화된 반면, RNGD는 텐서 수축(Ten",
-        "score": 0,
-        "published_date": "2026-01-20T00:00:00.000Z"
-      },
-      {
-        "title": "국산 AI칩 퓨리오사AI, 최대 5억달러 투자유치 목표...엔비디아 도전장",
-        "url": "https://www.g-enews.com/article/Global-Biz/2026/01/202601200948512004fbbec65dfb_1",
-        "text": "국산 AI칩 퓨리오사AI, 최대 5억달러 투자유치 목표...엔비디아 도전장 - 글로벌이코노믹\n\n닫기\n\n## Search\n\n- #카드뉴스\n- #유럽\n- #삼성전자\n- #애플\n- #시승기\n- [#글로벌](https://www.g-enews.com/sea",
-        "score": 0,
-        "published_date": "2026-01-20T00:00:00.000Z"
-      },
-      {
-        "title": "퓨리오사AI 7000억 프리-IPO…미래에셋·모건스탠리 주관 | 서울경제",
-        "url": "https://www.sedaily.com/article/14173203",
-        "text": "-- 퓨리오사AI 7000억 프리-IPO…미래에셋·모건스탠리 주관 | 서울경제\n\n퓨리오사AI 7000억 프리-IPO…미래에셋·모건스탠리 주관 [시그널]\n\n미래에셋증권과 모건스탠리가 인공지능(AI) 반도체 개발 기업 퓨리오사AI의 최대 7000억 원 규모 자금 조달을 주관한다. 퓨리오사AI는 지난해 글로벌 빅테크 메타의 인수합병(M＆A) 제안을 거절하고 독자 노선을 걸으며 2027년 기업공개(IPO)에 나서는 것을 목표로 하고 있다. 20일 투자은행(IB) 업계에 따르면 퓨리오사AI는 최근 미래에셋증권과 모건스탠리를 펀딩 주관사로 선정하고 3억~5억 달러(4430억~7384억 원) 규모 자금 조달 작업에 착수했다. 이번 투자는 상장 전 지분 투자(프리IPO) 성격으로 퓨리오사AI는 2027년께 IPO를 진행하려는 계획을 세웠다. 미래에셋증권은 국내 기관투자자, 모건스탠리는 해외 기관을 각각 맡아 펀딩을 돕는다. IB 업계는 과거 밸류에이션(기업가치) 등을 고려했을 때 퓨리오사AI가 2",
-        "score": 0,
-        "published_date": "2026-01-20T00:00:00.000Z"
-      },
-      {
-        "title": "퓨리오사AI, 기업가치 1조원 유니콘 등극...1700억 투자 유치 < IT/게임 < 경제/라이프 < 기사본문 - 생생비즈플러스",
-        "url": "https://www.livebiz.today/news/articleView.html?idxno=8934",
-        "text": "퓨리오사AI, 기업가치 1조원 유니콘 등극...1700억 투자 유치 --\n\n- 제보\n- 회원가입\n- 로그인\n- 발행일: 2026-02-14 08:30 (토)\n\n실시간\n\n## 미래에셋, 코빗 지분 92% 취득...디지털자산 기반 밸류 체인 구축\n\n금융\n\n## 발품 팔아 할인받던 시대 끝난다… 빨라지는 수입차 시장 '직판 체제' 전환\n\n수입차\n\n## [포토] '팬텀 아라베스크'...롤스로이스의 중동 건축 유산에 대한 헌사\n\n포토\n\n## 중국산 자동차 수출, 내수와 비슷할 정도로 성장...유럽과 동남아시아 시장서 수요증가\n\n자동차뉴스\n\n## LIG넥스원, 작년 영업익 전년 대비 44.5％ 증가한 3229억원…전년 대비 44.5％↑\n\n경제일반\n\n## 런",
-        "score": 0,
-        "published_date": "2025-07-31T00:00:00.000Z"
-      }
-    ],
-    "exa_tech": [
-      {
-        "title": "FuriosaAI 소프트웨어 스택 소개 — FuriosaAI NPU 및 Software 문서 furiosa-docs 문서",
-        "url": "http://developer.furiosa.ai/docs/v0.6.0/ko/software/intro.html",
-        "text": "FuriosaAI 소프트웨어 스택 소개 — FuriosaAI NPU 및 Software 문서 furiosa-docs 문서\n\n# FuriosaAI 소프트웨어 스택 소개\n\nFuriosaAI는 NPU가 다양한 응용과 환경에서 사용될 수 있도록 다양한 소프트웨어 컴포넌트를 제공하고 있다. 이 장은 FuriosaAI가 제공하는 전반적인 소프트웨어 스택을 소개하고 각 컴포넌트의 역할과 컴포넌트 활용을 위한 설명서와 튜토리얼을 소개한다.\n\n위 그림은 FuriosaAI가 제공하는 소프트웨어 스택을 레이어에 따라 추상적으로 표현한 것이다. 가장 아래는 FuriosaAI의 1세대 NPU인 FuriosaAI Warboy가 있다. 아래는 주요한 컴포넌트에 대해 소개한다.\n\n## 커널 장치 드라이버(Kernel Driver), 펌웨어(Firmware)\n\n커널 장치 드라이",
-        "score": 0,
-        "published_date": ""
-      },
-      {
-        "title": "The AI Engineering Stack - by Gergely Orosz and Chip Huyen",
-        "url": "https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack",
-        "text": "The AI Engineering Stack - by Gergely Orosz and Chip Huyen\n\n# The Pragmatic Engineer\n\nSubscribeSign in\n\nDeepdives\n\n# The AI Engineering Stack\n\n### Three layers of the AI stack, how AI engineering is different from ML engineering and fullstack engineering, and more. An excerpt from the book AI Engineering by Chip Huyen\n\nGergely Orosz and [Chip Huyen](https://",
-        "score": 0,
-        "published_date": "2025-05-20T00:00:00.000Z"
-      },
-      {
-        "title": "Open source AI stack components - DEV Community",
-        "url": "https://dev.to/tak089/open-source-ai-stack-components-2lnf",
-        "text": "Open source AI stack components - DEV Community\n\nHere’s a comprehensive and categorized list of open source AI stack components that you can mix and match when building GenAI applications — especially when focusing on modularity, scalability, and performance. This includes components for data processing, model serving, retrieval-augmented generation (RAG), vector search, and orchestration.\n\n---\n\n### 🧠 Foundational Model Alternatives\n\nModels you can self-host or fine-tune:\n\nLLMs\n\n- [WizardLM](ht",
-        "score": 0,
-        "published_date": "2025-05-22T00:00:00.000Z"
-      },
-      {
-        "title": "퓨리오사 AI의 오픈소스 정책: AI 반도체 생태계 확장을 위한 전략",
-        "url": "https://econaura.tistory.com/entry/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC-AI%EC%9D%98-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%A0%95%EC%B1%85-AI-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%83%9D%ED%83%9C%EA%B3%84-%ED%99%95%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A0%84%EB%9E%B5",
-        "text": "퓨리오사 AI의 오픈소스 정책: AI 반도체 생태계 확장을 위한 전략\n\n본문 바로가기\n\n카테고리 없음\n\n# 퓨리오사 AI의 오픈소스 정책: AI 반도체 생태계 확장을 위한 전략\n\n퓨리오사 AI는 한국을 대표하는 AI 반도체 팹리스 기업으로, 고성능 AI 추론용 칩(RNGD)과 이를 구동하는 소프트웨어 스택(Furiosa SDK)을 개발해 주목받고 있다. 특히 FuriosaAI는 독자적인 칩 성능을 극대화하고 개발자 친화적 생태계를 조성하기 위해 오픈소스 전략을 적극 채택하고 있으며, 이는 AI 칩 시장에서 엔비디아에 대응할 수 있는 핵심 차별화 요소로 작용한다.\n\n이 글에서는 FuriosaAI의 오픈소스 정책의 철학, 기술적 구성, 적용 범위, 커뮤니티 전략, 산업 내 효과 등을 상세히 분석한다.\n\nFuriosaAI의 오픈소스 정책: AI 반도체 생태계 확장을 위한 전략\n\n1. 오픈소스 정책의 철학과 배경\n\nFuriosaAI는 창립 초기부터 \"개방형 생태계(Open Ecosystem",
-        "score": 0,
-        "published_date": "2025-04-18T00:00:00.000Z"
-      },
-      {
-        "title": "RNGD Product Page — FuriosaAI",
-        "url": "https://furiosa.ai/rngd",
-        "text": "RNGD Product Page — FuriosaAI --\n\nIt's official: RNGD enters mass production.Read the announcement.\n\nFuriosa RNGD - Gen 2 data center accelerator\n\n# Powerfully efficient AI inference for enterprise and cloud\n\nView specs\n\n​\n\nGet notified first\n\n## #1 EFFICIENT LLAMA INFERENCE\n\ntoken/s/W\n\nLlama 3.1 70B\n\n2,048 input tokens / ",
-        "score": 0,
-        "published_date": ""
-      }
-    ],
-    "international_news": [
-      {
-        "title": "Warner Bros Discovery posts bigger-than-expected loss ahead of potential sale or split - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObDZpVFBmaGFraUd4SHBxbzJHS2UtOTFHQWhMVHVRc2J5Q3dxeDNHdDc1a1pWeUptSlJRSnNIVWZEX1hFazdmSzF1MVZ1VktJMXFBOTlhUndtVW9BZ1UtSF96c2NYZEhkVC12Vk9KLWFxYlRlRlJTdUF3QWZ0ZjFxaDRKR25fbUZqeTExV3NDSU5xSjFDa2k5cjBIMlBRSEYway1Z?oc=5",
-        "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Meta in talks to acquire AI chip firm FuriosaAI, according to report - TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR3J2M1VPNWx0MjBtYkxKODhuenI4ZFhabWxGTXhEdmJHMktNRzhVYU12TnlzbUJzYkg1X0xfT3lpdnhEQjZLZktVMkVwcGxWWm1qZGlaZFhBaTdjOEdTUmxaWTlvQkY0X29jUmxFelQ2YlZfVE9KYzNHZjRsN0dHQm1wZHpFalhWMC04NlYxWDAxaHE4U3N0Y2x4NnozUEE5MEZzNg?oc=5",
-        "pub_date": "Wed, 12 Feb 2025 08:00:00 GMT",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Meet the ‘Mad Max’-Loving CEO Challenging Nvidia With a Renegade Chip - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNWE1nbzgwSDMxSm9URWdvd2J0MHBfcWZBM0dvSmhOOEJTQlJpcC1LY3BaQXhLZWVRQVh4MGhkaUg0amVoMWF6LTNXb2hrOXpUc1ZSLWJjcDc5clBXeW16RW9mUTNFYWV2dEN2SHdRQzhXRlBxUUhUdEJ2VjZCVnloOHVEOHFsSWxjMXdkRHhTTzVfVmZ6REZGQWIzcDh3T3ptZmRpNlJEVDNhUVkzak1MZVhfc1dhcHNtM3FPTHV3NW42RG4wVjlITkFndUI3LW5NNV9PRjlHdzJQbFRPSlE5NTl4a29aOENudFkzLXBrb3lwNTBEdUk1QVJhZmIxd2VfVWdScGpob2FzbElZMmF6T25xZ1liTjFmWU5uYjgzM0Y5UEVlVjJRQjF5eWpNQjJ2Tl9idUtDV01fRWlFNjY2MUNHX1haQnFRY1ZMZG1lVjJOUXhmSGFKeS1UMERRRWVhMGpqSXp5SUZlMVhEd2xBblU5OG1JeUVsTjlSaE1pd09ZR1oxeE5N?oc=5",
-        "pub_date": "Fri, 02 Jan 2026 08:00:00 GMT",
-        "source": "Wall Street Journal"
-      }
-    ],
-    "korean_credible_news": [
-      {
-        "title": "정부, K엔비디아 육성 잰걸음…올해만 10조 쏟는다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14UjlabHAzOWpySVduSmFJU0lxUHdQcXY5SHpzc3h4XzJxeFg4R0JaZUZvV0VCVkF6d0dmNzM5ZXg5Yi1sQ3luMjl0WHdsNllVMThFOEIxNzUtQdIBVEFVX3lxTE1vVlNLUVlmX0E1SnpreHNvdEppOWE5Nk9OcjlwbVRhZW81RUpNMk1GVW8tZUl3SkYxSnVIQk80YWtzalJWVS1hU2tETUZiZ0ZXWm8zQw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:42:39 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "정부, K엔비디아 육성 잰걸음…올해만 10조 쏟는다 - 모바일한경",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYnA2SWxyLTA5RUhCWnlQaThnUk96cGcyNkZjbUpPMDM0VHhfVHhMNXZzSzh5NnQxZFJscUNQWE9EMFpFZEJ0NHJyTks0cFFsRzluT2tnSktpUmpnbHk3TDJEYnpoWlZjLVhoSXcwZU4wVW9qMlQ3REpTeWpXeVZEQ2lYZ0xkbkk?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:42:39 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "50조 투입 'K엔비디아 프로젝트', AI 반도체 주권 발판 돼야 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qVGpuRGhBMXJYUXJGVHlrRkpkSzB0MGxUeVJMU2JiN0t2SXh2R1NEbEtUdjhMSEtzaWl6U0JEOVhmNFpsMHI3Y0Y0RTJHUHdFblpNOGZCaVV3QdIBVEFVX3lxTE9GYkFIM3ZxX0ttY25JdUFwaExncUQ0LTgwV1BzZEk2R1Qwc2I3UHBxV0tmek9SRlVSQm9hVVRoY1hjUjJKYjZJcTdqN2I5Q2xaTnozSQ?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:23:28 GMT",
-        "source": "한국경제"
-      },
-      {
-        "title": "금융위, ‘K-엔비디아’ 육성에 올해 10조·5년간 50조 투입 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWDBEVE1fLXdxd29lRUJCUnVVX2p1bHlLaGd5SU00UGlUV2FIc01DWGVCX2YxQWdtWURoS0lTUDlkS3ZqQkxkLUtLM0VjQXBmY0VqOHNQMURiSlYwUk1NNVJ5UG1vejFRajYyQkdjdE9pMHJaX19BdVc1ZEFyYXJTd9IBlAFBVV95cUxOQUF4S3dCbnBmVl9HY1ZxQWVyVzNqQzdqR0tlbHVRY3d0MThaU0dIVS1kdVJ3dWRHdktRRlpSbmlTcTFNMGI5QXJObjd2ZGR1NVhGRi1fV0piamFvb01jTVdlQWxWSTU5Y2N3dUd1YjZQUW1ZUVlHTDB1QkxEcmZxVVA2NE1iOTdjRFA2OFNLcXVKbEhx?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 06:30:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "금융위, 이달말 ‘K-엔비디아’ 투자 결정… 1호는 리벨리온 유력 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdlVla1FDaE4wckdicERvMkJUVVNzWmY1MkhJaGVZV3VUV0RLcTlTbWU3Z0ZxVEFHYkV5cjdjdjZWME9yZTBYM1k4dnJOaEx3RXBUNWs5WWg0cEhlUzBSeU5WYmdJWk91eTZnTExZWmloU25DVXNFdGZIT0l6bmkyR9IBlAFBVV95cUxPZ3gtSktDdHlWOF9Ba1Rrb2RUbHV3R1cxRVdqMWN1eExiYURqNGFWU0tnX3NKZUhLcHdLSWM0X1JlRnVfbVdPRm84clRudXJma0Y5WXFYRE9pZ3hwY3lwQXJIV0hnSGs0bEJ4R3l6a2EzWkJXcmZJZkZXVG5XUjY3dFRyWFN2QW51TjhUYXJLT09Iakw5?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 02:00:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "컴퍼니케이, +4.32% 상승폭 확대 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5FbzI3eURFSWI0ZnVtT0hpSjZTTnN3UUxIYXFUVGE4YjZYOFlVOWdGTTNRRE91R2FGMlJzcURyT3d0RUxZcGpLekhGWkVJWmdGREJfUlJreERlc2dBY0NWcVRZR01mVV90UUJvZUttX21sQTViUXM5a2JYNG9MNmlSZ9IBlwFBVV95cUxOVU5PVlNnbmQzSl9Vd2Y0SlhMYmQ3dmo3d0wtVks5N1JtWlN2d1NxVWNDRmgyNkwtOGVwck5iUmp1Q2kwMG1ZTVpuRjlpcDMwOXIwNkd3T25VV1d2cU0tTUdhdU1PLWZUaFI2ZTgtT3FzVVJxR2xDeEJwcXYzZFpMcnNPZEoxckp2QlhBQjRIZHdabGp1MGtv?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 03:12:00 GMT",
-        "source": "조선비즈"
-      },
-      {
-        "title": "‘K-엔비디아’ 첫 투자 대상 곧 발표...유력후보는? - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rSVowZmlCbVI2Z1ZYSFNveFcyb0FEN2FKLUlDNjFvRFd3aFpHdW9CcWlGMXZqOW5QYVNrbHlJdE9vQ2NXOGM2OEpqOUYtMGYzWS1RaA?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 08:03:19 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "AI·반도체 육성에 2030년까지 50조 쏜다 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4aERycWVKdm1CU1lPMnN5SVFxb0VrdFRVTWo4RkIzSWF1ZE9qejZNWWlNZFZ4bmwtUXNJd21xazFRZ2ZiMU5Bazk3dWZuZw?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:14:06 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "[단독] ‘국민성장펀드 지분투자 1호’ 유력 리벨리온 프리IPO에…IMM·인터베스트 합류 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQUFota2hxM0VmNkJvZHhvRFhkcEtWZWcxVUtJR042M0xabjh6NFRtczdRdDUtSExRS0gyR0NUcDlZSXNzNlJTOUlFUFRwbVB3UlE?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 08:00:52 GMT",
-        "source": "매일경제"
-      },
-      {
-        "title": "AI 추론칩 꺼낸 엔비디아...韓 NPU, 위기인가 기회인가 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NbzNoWER0RXJ2a2s2cjRsTjdCMVVxSTA2ekFfaWw4TlFxb2NWTEtTUXpYT1JBeFhfSTYyMnpaQUcwcTZxa2VFd2NCLUIwZWtsblhtV25R?oc=5",
-        "pub_date": "Thu, 19 Mar 2026 07:13:00 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "국방 AI 경쟁력, 반도체 주권에 달렸다…국산 NPU·생태계 구축 시급 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GdXB1UXFkYVNBS2trNGoyb1dGcjlBX0w4Y2RXUG1CZ0dZdmg0NkYwazBQaWpKV2FNSFk1V0JmYzNjUk8tNnRZdURhNE1NdHpiSVQwZVRB?oc=5",
-        "pub_date": "Wed, 18 Mar 2026 04:06:05 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "'9년 뚝심' 퓨리오사AI, 양산 칩 내놓고 실증 시험대 올라 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYaWtPSnZGS0FNa3VpRkdvU0YwQWpXUmEtU3VzT1hILWtqcnA3b0JLanZqUVdXREQ5Zkh6N0JWd1pFM3pwZlFQYjE1bUVWdFdab0tfUVZR?oc=5",
-        "pub_date": "Mon, 16 Mar 2026 08:18:37 GMT",
-        "source": "ZDNet Korea"
-      },
-      {
-        "title": "과기부·금융위 \"K-엔비디아 키운다\"…AI에 5년간 '50조' 집중투입 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RaTVEWEZNMW1iTWdjTXBmdU5fbjVFSjE5a29Zd2lac2FyUVU5SGwzV1VDN2JUQWw4eUlGQm5ta1l5bC1Gb2tHU1BxMkRpcWJ6dDhrbjZMN1ctUDMzN3JsNXY4UVRBcGlM?oc=5",
-        "pub_date": "Tue, 17 Mar 2026 08:08:13 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "LGU+, 퓨리오사AI와 '소버린 AI 장비' 개발…'공공·국방 진출' - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PWW9JWXZMVlFSQnlrNTZrR2VvWjFQR1VZazZodVRwRk9JRWlWS1k4eVczRVpuaXVaZnA1ZW12dm9WcWRqU3RuQUFvZV9zZDk2SlhXUXJLOUszM0Y4R3dqeGVrbW5hb2xB0gFsQVVfeXFMT3JtdWNsbFNsQmR0VTJZQ0U4dnhHRFZhYXhLam4xdkE1QTkyb0FtOFh0T2VQdXZWM0ZKU2NzZ0R3c180NlJMWHI3WWxUOGk3SXAwbjk0R18tYjNJNDRURUZZbmc2ZDBwYzFBOUN1?oc=5",
-        "pub_date": "Sun, 08 Mar 2026 06:55:52 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "퓨리오사AI, 시리즈 C 브릿지 1700억 투자 유치 - 블로터",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HcXRnTmRLR25rdUN3dW1rRHdfTHk3bGNULW90eWJkTWVfVnlKTmJ4ZXNSTWNUM0lkWm50V1NsMUFCNU5jQ0pUSGFUOUNUdk1ibkdmS25pVlh2NzVkaVczODk3SEdSd0hk0gFsQVVfeXFMT0wyNm5WRUJDMTJMT1pxMjFHV3JQMnVBLUdsVzRBSWk3UVdRX002dHZHSkdEMWNIVG5LUWF3VlkxQ283LXhnTjNQLWNISEpxLV9taF9WSmVLZGN1RE5odnl5NUQ0RGpuaTMyTE15?oc=5",
-        "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
-        "source": "블로터"
-      },
-      {
-        "title": "퓨리오사AI, 1700억원 투자 유치 완료…기업가치 1조원 ‘유니콘’ 됐다 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01bjBZNVN1Zlg3eVRVczdMbWpmQVJjLWRoWHFsem5Id0pZQlJhVm9OeHJGWXVHUkxWMGQ0U09HWTNseEhRY0Y0Z1UtNGpaUGs?oc=5",
-        "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "퓨리오사AI, 인텔·웨스턴디지털 VP 영입… “북미 사업 강화한다” - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zMVlJLUN0M3NuMzM1bVdKcjZqWU1UdEhJZlo3em5uTkNvOFE1bzVDMmlQTWppVzZGLTRjZW5wdUFpQlhPRGwwaDhvQ1BrT1k?oc=5",
-        "pub_date": "Wed, 14 Dec 2022 08:00:00 GMT",
-        "source": "바이라인네트워크"
-      },
-      {
-        "title": "퓨리오사AI는 왜 메타와 손 잡으려 하나 - 바이라인네트워크",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CbFEtVWRvUWRLZlhfN3VLVktDLWI2dDZ1dE02eU1udmo1LTdnT0NzckF1RlBPMWVQbElTQ1FQdGVualJSVzVsQXpyMUc0aTBZTmc?oc=5",
-        "pub_date": "Fri, 14 Feb 2025 08:00:00 GMT",
-        "source": "바이라인네트워크"
+  "region": "kr",
+  "tier": 1,
+  "sections": {
+    "1": {
+      "company_name": "주식회사 리오",
+      "company_name_eng": "RIO",
+      "stock_name": "리오",
+      "ceo": "문정숙",
+      "address": "서울특별시 강남구 언주로 120 70(고덕동)",
+      "industry_code": "68121",
+      "established": "20180307",
+      "homepage": "",
+      "ir_url": "",
+      "stock_code": "",
+      "corp_class": "E",
+      "brave_web_results": [
+        {
+          "title": "퓨리오사에이아이 진행 중인 채용정보 총 1건 - 채용 히스토리 통계 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/42969739/recruit",
+          "description": "[퓨리오사AI] 정부과제 사업개발 담당자 (신입/인턴) 신입 서울 대졸↑ · 마감 (~2023.03.20) 경영·비즈니스기획 · * 최근 3년 이내, 최대 100개의 채용정보를 확인할 수 있습니다. * 최근 1년 이내의 공고에 대해서만 상세 내용을 확인 할 수 있습니다."
+        },
+        {
+          "title": "퓨리오사에이아이 채용 정보",
+          "url": "https://www.rocketpunch.com/companies/furiosaai/jobs",
+          "description": "최고 기술을 갖춘 인공지능 반도체 스타트업"
+        },
+        {
+          "title": "퓨리오사에이아이 2025년 채용정보 | 캐치",
+          "url": "https://www.catch.co.kr/Comp/RecruitInfo/IP0865",
+          "description": "퓨리오사에이아이 채용이 궁금하다면? 인턴·신입·경력 공고와 함께, 이 공고에 관심 있는 회원 통계와 자소서 문항을 한눈에 확인하세요."
+        },
+        {
+          "title": "(주)퓨리오사에이아이 기업정보 ㅣ 채용공고, 연봉, 직원수 - 리멤버",
+          "url": "https://career.rememberapp.co.kr/job/company/1405896",
+          "description": "(주)퓨리오사에이아이 경력직 채용 공고. 연봉, 직원수 등 이직에 필요한 모든 정보를 한눈에 확인하세요."
+        },
+        {
+          "title": "Sogang",
+          "url": "https://cs.sogang.ac.kr/Download?pathStr=NTYjIzUyIyM1NSMjNDkjIzEyNCMjMTA0IyMxMTYjIzk3IyM4MCMjMTAxIyMxMDgjIzEwNSMjMTAyIyMzNSMjMzMjIzM1IyM1MCMjMTI0IyMxMjAjIzEwMSMjMTAwIyMxMTAjIzEwNSMjMzUjIzMzIyMzNSMjNTUjIzQ5IyM1NSMjNTcjIzU0IyM1NiMjMTI0IyMxMDAjIzEwNSMjMTA3IyMxMTI%3D&fileName=Join_FuriosaAI_.pdf&gubun=board",
+          "description": "We cannot provide a description for this page right now"
+        },
+        {
+          "title": "(주)퓨리오사에이아이 2025년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WmY1czBkOVgzVUM3b05JbWpISGtBQT09/company_nm/(%EC%A3%BC)%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4",
+          "description": "(주)퓨리오사에이아이 기업소개 - 업력 : 9년차, 기업형태 : 중소기업, 업종 : 기타 반도체소자 제조업 | (주)퓨리오사에이아이의 직원수, 연봉, 채용, 근무환경, 복리후생, 재무정보 등이 궁금하시다면, 사람인에서 더 많은 ..."
+        },
+        {
+          "title": "[퓨리오사AI] 채용공고 홍보 - 성동구",
+          "url": "https://econ.hanyang.ac.kr/sub/sub05_01.php?boardid=notice&mode=view&idx=877&category=%EC%B7%A8%EC%97%85",
+          "description": "Finance Associate(재무, 신입) 포지션을 졸업예정 혹은 최근 1년 내 졸업하신 분들 대상으로 채용하고 있습니다. ... 회사소개: 퓨리오사AI는 고성능 AI 반도체 팹리스 스타트업으로, 대규모 언어 모델 및 생성형 AI 추론을 위한 반도체를 설계하고 있으며, 현재 2세대 제품인 RNGD (레니게이드) 중심으로 국내외 인공지능 생태계 구축에 적극적으로 임하고 있습니다."
+        },
+        {
+          "title": "\"밤에 출근할게요\" \"그러시죠\"…AI반도체 스타트업, 인재총력전 [팩플] | 중앙일보",
+          "url": "https://www.joongang.co.kr/article/25243105",
+          "description": "① <strong>상장 노린 스톡옵션</strong> ‘한 방’: 높은 상장 가능성은 AI반도체 스타트업들이 가진 가장 큰 무기. 직원들이 부여받은 스톡옵션 효과를 극대화할 수 있어서다."
+        },
+        {
+          "title": "퓨리오사에이아이 기업정보 - 채용 0건, 평균연봉 6,032만원, 인원 132명, 업력 8년, 서울 강남구 | 원티드",
+          "url": "https://www.wanted.co.kr/company/22032",
+          "description": "퓨리오사에이아이 채용 공고와 회사 소식을 확인하세요. 원티드로 취업·이직 시 최대 100만원의 합격보상금을 드려요."
+        },
+        {
+          "title": "(주)퓨리오사에이아이 2025년 기업정보 | 5건 면접후기 3.8 면접난이도 | 잡플래닛",
+          "url": "https://www.jobplanet.co.kr/companies/376056/interviews/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4",
+          "description": "채용정보부터 직장인이 직접 남긴 기업리뷰, 연봉정보, 면접후기, 복지정보, 기업분석까지"
+        }
+      ],
+      "linkedin_url": "https://www.linkedin.com/company/ai",
+      "slug": "ai",
+      "employee_count": "50명",
+      "industry": "",
+      "headquarters": "",
+      "snippets": [
+        {
+          "title": "AI Business | LinkedIn",
+          "description": "Informing, educating and connecting the global AI community. Next up: #AISummit London, June 2024 | <strong>AI Business is the leading content portal for artificial intelligence and its real-world applications</strong>.",
+          "url": "https://www.linkedin.com/company/ai-business"
+        },
+        {
+          "title": "Ai | LinkedIn",
+          "description": "Ai | 851 followers on LinkedIn. Ai - <strong>Artificial Intelligence</strong>",
+          "url": "https://www.linkedin.com/company/ai"
+        },
+        {
+          "title": "AI Technologies | LinkedIn",
+          "description": "We design and implement enterprise solutions and next-generation virtual assistants to improve and facilitate companies transition from traditional models to data driven ones based on AI and Machine Learning (ML) algorithms in strategic areas such as customer management, transactions processing, IT security and optimization.",
+          "url": "https://www.linkedin.com/company/aitechnologies"
+        },
+        {
+          "title": "AI LA | LinkedIn",
+          "description": "<strong>AI LA</strong> | 2,638 followers on LinkedIn. Democratizing AI using a human-centered approach | The <strong>AI LA</strong> Community is a non-profit organization supporting the research, development, ethical application, and public education of artificial intelligence ...",
+          "url": "https://www.linkedin.com/company/ai-la"
+        },
+        {
+          "title": "AI CERTs | LinkedIn",
+          "description": "🌟 Our mission is audacious, our ambition is unmatched, and our commitment to lifelong learning is unwavering. 🔗💡 🌐 To gain a deeper understanding of AI CERTs™ and the impactful work we do, please visit our website: <strong>www.aicerts.io</strong>.",
+          "url": "https://www.linkedin.com/company/ai-certs"
+        },
+        {
+          "title": "AI Digital Transformation | LinkedIn",
+          "description": "Welcoming your company into the future with our qualified team of AI experts, data scientists and web gurus, designers, image consultants... The first call is FREE. Call us to estimate the amount of consulting and research needed with the data you have or will have to revolutionize your company and welcome it into the digital age.",
+          "url": "https://www.linkedin.com/company/ai-digital-transformation"
+        },
+        {
+          "title": "AI.COM | LinkedIn",
+          "description": "Report this company · Industry · <strong>Software Development</strong> · Headquarters · CASTELMAUROU · 1 RUE DU BEARN · CASTELMAUROU, 31180, FR Get directions · See all employees · <strong>Software Development</strong> · Mountain View, CA · 70,888 open jobs · 49,922 ...",
+          "url": "https://www.linkedin.com/company/ai.com/"
+        },
+        {
+          "title": "AI Infrastructure Alliance | LinkedIn",
+          "description": "The AI Infrastructure Alliance is helping make the canonical stack in AI/ML a reality, by bringing together the essential building blocks for the Artificial Intelligence applications of today and tomorrow. We represent some of the top venture backed companies, projects and service providers in the rapidly developing AI/ML space.",
+          "url": "https://www.linkedin.com/company/ai-infrastructure-alliance"
+        },
+        {
+          "title": "AI Accelerator Institute | LinkedIn",
+          "description": "https://aiacceleratorinstitute.com/ External link for <strong>AI Accelerator Institute</strong> · Industry · Higher Education · Company size · 11-50 employees · Headquarters · San Francisco, California · Type · Educational · Founded · 2018 · Specialties ...",
+          "url": "https://www.linkedin.com/company/ai-accelerator-institute"
+        },
+        {
+          "title": "AI.Associates | LinkedIn",
+          "description": "DELIVERED. | AI.<strong>Associates GmbH</strong> offers artificial Intelligence and big data analytics products and services that transform the way global companies make decisions. We fuse data, technology, and machine learning to give our clients ...",
+          "url": "https://www.linkedin.com/company/ai-associates"
+        }
+      ],
+      "google_news": [
+        {
+          "title": "\"AI는 기술 아닌 경영 정보\"…한국AI서비스학회, 현장 중심 사례 공유 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BZEVqZjN3Vm1IYlE0SC1vODJKYnFvZEtlRzlTNDFSbThnUHAzMks5WEVTOEZPN2dKRE5fVDB1S1RSS1JEUURaaGFISE0xci1aQ1lTb0ZB?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:29:35 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "AI 팹리스 4사, 인력 확충 '사활'…2세대 칩 전면전 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9YYWotYU10TzgtRGJ0MnlvczBLTFJCdmNHS1Y2MEhEQk1qR2VZblJMRlBtdWhEaUV4UVNUTHBWRThsRUNHX0VHU2dNWHZ4dw?oc=5",
+          "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+          "source": "전자신문"
+        },
+        {
+          "title": "엔비디아가 29조 쓴 이유…AI 반도체 판 흔들린다 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lS191Zk5NdGU5aVk3a1Q0cVdhMTk3V25JNGZuU0FXR0ZWdEpLMnRuYmFMSkRFZEZvN2xfNFBRaXI3dWxxN2dacWNFR1R5R21wT19LTVdCdEQzNHPSAWBBVV95cUxQQzJDMXktcW5TU2Y5Y2hwd21TUEFkc3cyZjJMMHRYbWZyMG9ZN09MU09NQjd5MzBGblhnT1I4UnFsRWgzQTNhdklodWttN05lUVpaRlpQd01uNjZYOGpSWks?oc=5",
+          "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
+          "source": "연합뉴스"
+        },
+        {
+          "title": "김정관 산업장관 \"AI반도체, 국가 전략자산…정책·예산 총동원 지원\" - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QTUQtWHZmYVlIUkVsa0p4c0hKNVlaX1FLNDhleVI2Vjd1VUV4WjY2OUQ3NEltMjQzbW5Zd3BJMTNMeTFBX2oxdkdDMVhLckxvR2h6NXdfNEV3MTdHUndVQQ?oc=5",
+          "pub_date": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "source": "아시아경제"
+        },
+        {
+          "title": "AI 스타트업 현직자 3인이 부닥치는 현재 AI는, AI 전략은.... - 스마트투데이",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE55TjU1WnY5OTV1VG5QZzhXcUdHejhzVzl6aEJIUWNYcHNpSU5iQUJxVldsd0VmdnRTbVA4a2IzYWdGTkU4T3NRbGVYRjVJeGN3b1NicWYzTVNOeHJMZmc?oc=5",
+          "pub_date": "Sun, 21 Sep 2025 07:00:00 GMT",
+          "source": "스마트투데이"
+        },
+        {
+          "title": "재단법인 미래와 소프트웨어, 울산대에서 ‘2025 AI 트렌드 특강’ 개최 - 아이티데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzeHFmbnpXQUtUSlFKTkR0bDUzMFV2YXdNQlljTzl3SmY5VWlzcFl2ZDRKdG8xSnVGUVo1dkFaQkZoZUI4TEtEd3JYMTVxamlHYnY2TjJxZFlfRnRzT3p4cC1BTHdCLTA?oc=5",
+          "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
+          "source": "아이티데일리"
+        },
+        {
+          "title": "[빅테크칼럼] 저커버그의 “수프 외교”로 달군 AI 인재 영입술…메타와 오픈AI의 '은밀한 고공작전' - 뉴스스페이스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiSm1GVTZqUHc5V19aMGt6V3pRcHlnOWxMNW1IQWZVTUVoajFzLUZjMU9NQ24zVjQxTko1dTdUVEVNUE1BZV81Um54bHFGb29UeXlRMU91S2R6ZHdWS1ktSg?oc=5",
+          "pub_date": "Sat, 06 Dec 2025 08:00:00 GMT",
+          "source": "뉴스스페이스"
+        },
+        {
+          "title": "\"대기업 투자는 약? 독?\" 상반된 전략의 두 라이벌 [비하인드 칩스] - 유니콘팩토리",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xRDJITmZSd0JrUjBQSEZESnhqblVlT1B5RnRhSFREb3BLNU5GM2psa2pkRkp6cW94M193SC1raFVTZzhTSjNQSTVxUC1XZWY2a01WV2hUaTdTTUdUYWVzV1RVakFTYkpJTU9qTw?oc=5",
+          "pub_date": "Fri, 11 Jul 2025 07:00:00 GMT",
+          "source": "유니콘팩토리"
+        },
+        {
+          "title": "[AI 반도체 스타트업은 지금 ①] “내 길 가겠다”는 퓨리오사AI, 독자생존 방법론 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YeWlXcks5U3dkQjQtSEJBZk92OGhFMGd1c3hyc3VMTHNwQ29sWFpFWGxjejh3SktwSW1PZG0wQUkxTUFRTXM4TXp3TGdMbXM?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "광주 “AI·반도체 전문인력 등 81만명 키우겠다” - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44Ui1JWk1mUWR4YVBIMHpYeFFUQU5kZnU5U2Y2WUlLYktKSHo1a0d3N1RhdEtQSWJhd3Y4Snp6Yl9sTVdla052YVRscng0VHJ3WW1ETnhIcVl4VXluUkhibDlSdzFyZHYxQ0E?oc=5",
+          "pub_date": "Thu, 10 Jul 2025 07:00:00 GMT",
+          "source": "AI타임스"
+        },
+        {
+          "title": "코트라, 싱가포르서 글로벌 첨단인재 유치…AI·반도체 인재 600명 매칭 - 더밸류뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40bUZ2UUNNdTc2Z19Nc2JUYThTUHQyX1dWSlNHQXVtYW95c1NjdHFCeVpIcVVSX0hIRWpOYzJkQmZuSG1DNVVUZWdBaC1jem5ua3dZWg?oc=5",
+          "pub_date": "Fri, 17 Oct 2025 07:00:00 GMT",
+          "source": "더밸류뉴스"
+        },
+        {
+          "title": "국가전략기술 육성 가속…IBK기업은행, 퓨리오사AI에 금융·투자 전방위 지원 - 일요주간",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rRXVsRUVwWVhLS0JJMXFQZ3N6X2RsRmlwbTZUWlhfWGVPd3F5YmFqQ1ctRmJNcDVmenF0MHdnUFdXWFl5cFNiR1ZXRXJRUkJmQkdZbHBQQ3FRbnBvUnNGVFd4c2xIRWFPdkRlczd6VE1GT1RrTlE?oc=5",
+          "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
+          "source": "일요주간"
+        },
+        {
+          "title": "[AI 생존법 찾아라] 'AI 3대 강국' 내세운 이재명 정부, '100조 투자'보다 중요한 것 - 비즈한국",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mXzJBbldnRUVaZTVHeDdlYmpXTXBHOGoySjJvQXItNlg2NjJ0OUh2WVlseVVpdTVmY0NRTUszVzJIOEJRQVAxbUhvcm1rb3J3RFFuYmhB?oc=5",
+          "pub_date": "Tue, 10 Jun 2025 07:00:00 GMT",
+          "source": "비즈한국"
+        },
+        {
+          "title": "조강원 모레 CEO \"딥시크 '진짜 경쟁력', 비용 구조 혁신 소프트웨어에 있어\" - 퍼블릭뉴스통신",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tbnJUMXpjTGY1c2pKdmRUREV6MEpZX2owOENEcXU2YkRLS2pfaW1STm9BSGpKQnF6NXlSbU5sX2Jja1dKTXl5dm1rUDhNSU41aUdSNmJidV9mWndjT2Nhdng0TXVHMTlsZDNr?oc=5",
+          "pub_date": "Sun, 21 Sep 2025 07:00:00 GMT",
+          "source": "퍼블릭뉴스통신"
+        },
+        {
+          "title": "미래와 소프트웨어, 다음달 13일 울산대서 '2025 AI 트렌드 특강' 개최 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tYW1RcDRLOGVrSE9FMy1MWUdQS2JvamlOcXFGM2NueXAwYzhxc1VlNlpFWGp3UVA1eVB0TzdnU21sOGRPZVVWZm9JOXQ2WTRoNVl4WTZn?oc=5",
+          "pub_date": "Mon, 17 Nov 2025 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "에코아이티-퓨리오사AI 맞손… 국산 NPU로 공공·국방 AX 시장 정조준 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Dcjh4ZXpfLU11cUxBQllVQ0dfLUttNXZFVDFXMGxScmFiVU9IUGtXSkNUZjkwZlN5U3F0QzBqWjZvWDVlamtnS0h5aWhaSkFYUzI4S05TM0RuU1p3cG1Qc1czaWNiTlNsVFVhWGdacw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 07:45:00 GMT",
+          "source": "mt.co.kr"
+        },
+        {
+          "title": "에코아이티-퓨리오사AI 맞손…국산 NPU로 공공·국방 AX 시장 정조준 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wVEhTd3BjOVd4Y0lRXzlKSDVBczhfaUpVbEVIekVNa25tZlp3S2VSS3JMMzNvaHdRNDc3Nnk1alBLOFlEVDBWR2JfeEllZU5EUG01dGZ4UHloaG5pa0RQWA?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 07:45:00 GMT",
+          "source": "네이트"
+        },
+        {
+          "title": "[국산NPU] 정부 1조원 K-NPU 상용화 프로젝트: '퓨리오사AI & 국산NPU' 관련주 정리 - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaEpvNmdTck1EbUhLRDY1bEVvRDlQR1V3YWt0TzhJOGNONHhSemVPTW55cDBPeWdVZ0xlbWZBZHBHR1lTYjZKWUlYbzl2bW9rcF9HRjltTENRcVA0b1FOWWh4SkVIYWVZbmFzcF9Xc0Z4QXNLdkx2ZWJkT010TG9obE50cVRTV0lqanc?oc=5",
+          "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "source": "네이버 프리미엄콘텐츠"
+        },
+        {
+          "title": "더존비즈온-퓨리오사AI, 국산 NPU로 공공·금융 AI 판 키운다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qbGJVb0g5dUtJX1RsSkVQdUhobkRMZUxYWXpvVms1dXdRcnZHS2JrU0JIaUxNT3FUaW9pM2didV9tM0IwY3d5djkxR2hWOFJXQmxYazlB?oc=5",
+          "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+          "source": "지디넷코리아"
+        },
+        {
+          "title": "DSC인베스트먼트, 퓨리오사AI 투자 재조명…'국산 NPU' 국가사업 탑재 검토 - 리드경제",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kWTBzVkNreTBTTkR2TXVjOEJJdmVIdWtBa2s0eTVoQzA1TUlfUU0wVXZGRXFrT1ZNUUNwb3FWemZWRjBBWC1aV3lrd0tBRWJ5MTdNNktiYWdIX3VDVzZCRjEwNTFWWjFleXQzbWYxWQ?oc=5",
+          "pub_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+          "source": "리드경제"
+        }
+      ],
+      "korean_credible_news": [
+        {
+          "title": "정부, K엔비디아 육성 잰걸음…올해만 10조 쏟는다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14UjlabHAzOWpySVduSmFJU0lxUHdQcXY5SHpzc3h4XzJxeFg4R0JaZUZvV0VCVkF6d0dmNzM5ZXg5Yi1sQ3luMjl0WHdsNllVMThFOEIxNzUtQdIBVEFVX3lxTE1vVlNLUVlmX0E1SnpreHNvdEppOWE5Nk9OcjlwbVRhZW81RUpNMk1GVW8tZUl3SkYxSnVIQk80YWtzalJWVS1hU2tETUZiZ0ZXWm8zQw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:42:39 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "정부, K엔비디아 육성 잰걸음…올해만 10조 쏟는다 - 모바일한경",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYnA2SWxyLTA5RUhCWnlQaThnUk96cGcyNkZjbUpPMDM0VHhfVHhMNXZzSzh5NnQxZFJscUNQWE9EMFpFZEJ0NHJyTks0cFFsRzluT2tnSktpUmpnbHk3TDJEYnpoWlZjLVhoSXcwZU4wVW9qMlQ3REpTeWpXeVZEQ2lYZ0xkbkk?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:42:39 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "50조 투입 'K엔비디아 프로젝트', AI 반도체 주권 발판 돼야 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qVGpuRGhBMXJYUXJGVHlrRkpkSzB0MGxUeVJMU2JiN0t2SXh2R1NEbEtUdjhMSEtzaWl6U0JEOVhmNFpsMHI3Y0Y0RTJHUHdFblpNOGZCaVV3QdIBVEFVX3lxTE9GYkFIM3ZxX0ttY25JdUFwaExncUQ0LTgwV1BzZEk2R1Qwc2I3UHBxV0tmek9SRlVSQm9hVVRoY1hjUjJKYjZJcTdqN2I5Q2xaTnozSQ?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:23:28 GMT",
+          "source": "한국경제"
+        },
+        {
+          "title": "금융위, ‘K-엔비디아’ 육성에 올해 10조·5년간 50조 투입 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWDBEVE1fLXdxd29lRUJCUnVVX2p1bHlLaGd5SU00UGlUV2FIc01DWGVCX2YxQWdtWURoS0lTUDlkS3ZqQkxkLUtLM0VjQXBmY0VqOHNQMURiSlYwUk1NNVJ5UG1vejFRajYyQkdjdE9pMHJaX19BdVc1ZEFyYXJTd9IBlAFBVV95cUxOQUF4S3dCbnBmVl9HY1ZxQWVyVzNqQzdqR0tlbHVRY3d0MThaU0dIVS1kdVJ3dWRHdktRRlpSbmlTcTFNMGI5QXJObjd2ZGR1NVhGRi1fV0piamFvb01jTVdlQWxWSTU5Y2N3dUd1YjZQUW1ZUVlHTDB1QkxEcmZxVVA2NE1iOTdjRFA2OFNLcXVKbEhx?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 06:30:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "금융위, 이달말 ‘K-엔비디아’ 투자 결정… 1호는 리벨리온 유력 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdlVla1FDaE4wckdicERvMkJUVVNzWmY1MkhJaGVZV3VUV0RLcTlTbWU3Z0ZxVEFHYkV5cjdjdjZWME9yZTBYM1k4dnJOaEx3RXBUNWs5WWg0cEhlUzBSeU5WYmdJWk91eTZnTExZWmloU25DVXNFdGZIT0l6bmkyR9IBlAFBVV95cUxPZ3gtSktDdHlWOF9Ba1Rrb2RUbHV3R1cxRVdqMWN1eExiYURqNGFWU0tnX3NKZUhLcHdLSWM0X1JlRnVfbVdPRm84clRudXJma0Y5WXFYRE9pZ3hwY3lwQXJIV0hnSGs0bEJ4R3l6a2EzWkJXcmZJZkZXVG5XUjY3dFRyWFN2QW51TjhUYXJLT09Iakw5?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 02:00:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "컴퍼니케이, +4.32% 상승폭 확대 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5FbzI3eURFSWI0ZnVtT0hpSjZTTnN3UUxIYXFUVGE4YjZYOFlVOWdGTTNRRE91R2FGMlJzcURyT3d0RUxZcGpLekhGWkVJWmdGREJfUlJreERlc2dBY0NWcVRZR01mVV90UUJvZUttX21sQTViUXM5a2JYNG9MNmlSZ9IBlwFBVV95cUxOVU5PVlNnbmQzSl9Vd2Y0SlhMYmQ3dmo3d0wtVks5N1JtWlN2d1NxVWNDRmgyNkwtOGVwck5iUmp1Q2kwMG1ZTVpuRjlpcDMwOXIwNkd3T25VV1d2cU0tTUdhdU1PLWZUaFI2ZTgtT3FzVVJxR2xDeEJwcXYzZFpMcnNPZEoxckp2QlhBQjRIZHdabGp1MGtv?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 03:12:00 GMT",
+          "source": "조선비즈"
+        },
+        {
+          "title": "‘K-엔비디아’ 첫 투자 대상 곧 발표...유력후보는? - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rSVowZmlCbVI2Z1ZYSFNveFcyb0FEN2FKLUlDNjFvRFd3aFpHdW9CcWlGMXZqOW5QYVNrbHlJdE9vQ2NXOGM2OEpqOUYtMGYzWS1RaA?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 08:03:19 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "AI·반도체 육성에 2030년까지 50조 쏜다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4aERycWVKdm1CU1lPMnN5SVFxb0VrdFRVTWo4RkIzSWF1ZE9qejZNWWlNZFZ4bmwtUXNJd21xazFRZ2ZiMU5Bazk3dWZuZw?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:14:06 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "[단독] ‘국민성장펀드 지분투자 1호’ 유력 리벨리온 프리IPO에…IMM·인터베스트 합류 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQUFota2hxM0VmNkJvZHhvRFhkcEtWZWcxVUtJR042M0xabjh6NFRtczdRdDUtSExRS0gyR0NUcDlZSXNzNlJTOUlFUFRwbVB3UlE?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 08:00:52 GMT",
+          "source": "매일경제"
+        },
+        {
+          "title": "AI 추론칩 꺼낸 엔비디아...韓 NPU, 위기인가 기회인가 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NbzNoWER0RXJ2a2s2cjRsTjdCMVVxSTA2ekFfaWw4TlFxb2NWTEtTUXpYT1JBeFhfSTYyMnpaQUcwcTZxa2VFd2NCLUIwZWtsblhtV25R?oc=5",
+          "pub_date": "Thu, 19 Mar 2026 07:13:00 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "국방 AI 경쟁력, 반도체 주권에 달렸다…국산 NPU·생태계 구축 시급 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GdXB1UXFkYVNBS2trNGoyb1dGcjlBX0w4Y2RXUG1CZ0dZdmg0NkYwazBQaWpKV2FNSFk1V0JmYzNjUk8tNnRZdURhNE1NdHpiSVQwZVRB?oc=5",
+          "pub_date": "Wed, 18 Mar 2026 04:06:05 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "'9년 뚝심' 퓨리오사AI, 양산 칩 내놓고 실증 시험대 올라 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYaWtPSnZGS0FNa3VpRkdvU0YwQWpXUmEtU3VzT1hILWtqcnA3b0JLanZqUVdXREQ5Zkh6N0JWd1pFM3pwZlFQYjE1bUVWdFdab0tfUVZR?oc=5",
+          "pub_date": "Mon, 16 Mar 2026 08:18:37 GMT",
+          "source": "ZDNet Korea"
+        },
+        {
+          "title": "과기부·금융위 \"K-엔비디아 키운다\"…AI에 5년간 '50조' 집중투입 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RaTVEWEZNMW1iTWdjTXBmdU5fbjVFSjE5a29Zd2lac2FyUVU5SGwzV1VDN2JUQWw4eUlGQm5ta1l5bC1Gb2tHU1BxMkRpcWJ6dDhrbjZMN1ctUDMzN3JsNXY4UVRBcGlM?oc=5",
+          "pub_date": "Tue, 17 Mar 2026 08:08:13 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "LGU+, 퓨리오사AI와 '소버린 AI 장비' 개발…'공공·국방 진출' - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PWW9JWXZMVlFSQnlrNTZrR2VvWjFQR1VZazZodVRwRk9JRWlWS1k4eVczRVpuaXVaZnA1ZW12dm9WcWRqU3RuQUFvZV9zZDk2SlhXUXJLOUszM0Y4R3dqeGVrbW5hb2xB0gFsQVVfeXFMT3JtdWNsbFNsQmR0VTJZQ0U4dnhHRFZhYXhLam4xdkE1QTkyb0FtOFh0T2VQdXZWM0ZKU2NzZ0R3c180NlJMWHI3WWxUOGk3SXAwbjk0R18tYjNJNDRURUZZbmc2ZDBwYzFBOUN1?oc=5",
+          "pub_date": "Sun, 08 Mar 2026 06:55:52 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "퓨리오사AI, 시리즈 C 브릿지 1700억 투자 유치 - 블로터",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HcXRnTmRLR25rdUN3dW1rRHdfTHk3bGNULW90eWJkTWVfVnlKTmJ4ZXNSTWNUM0lkWm50V1NsMUFCNU5jQ0pUSGFUOUNUdk1ibkdmS25pVlh2NzVkaVczODk3SEdSd0hk0gFsQVVfeXFMT0wyNm5WRUJDMTJMT1pxMjFHV3JQMnVBLUdsVzRBSWk3UVdRX002dHZHSkdEMWNIVG5LUWF3VlkxQ283LXhnTjNQLWNISEpxLV9taF9WSmVLZGN1RE5odnl5NUQ0RGpuaTMyTE15?oc=5",
+          "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
+          "source": "블로터"
+        },
+        {
+          "title": "[AI 반도체 스타트업은 지금 ①] “내 길 가겠다”는 퓨리오사AI, 독자생존 방법론 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YeWlXcks5U3dkQjQtSEJBZk92OGhFMGd1c3hyc3VMTHNwQ29sWFpFWGxjejh3SktwSW1PZG0wQUkxTUFRTXM4TXp3TGdMbXM?oc=5",
+          "pub_date": "Thu, 29 May 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "새 장관이 가장 먼저 AI반도체 스타트업을 찾아간 이유 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NRkVrRjUzUEVBOUJyMzZtMk5BeUx6NTNTUFNWeFBDZ0lCLXhYa0Y0LUQwVGd5YWlHVEhnMnFxMlh1VTVDdFFYeFlJdjN1MlU?oc=5",
+          "pub_date": "Tue, 24 May 2022 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        },
+        {
+          "title": "[AI 반도체 스타트업은 지금 ②] 사피온 품은 리벨리온, 사업 본궤도에 한 발짝 - 바이라인네트워크",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ReFZPSUhwQ3hhODU5dUdNWFJqd09nQmd3Qk9IRWo3QW5WTEEwajJrZDdOTjIzR19ic3R2STNjcE52MnJSSHhBVHJXWE5hZw?oc=5",
+          "pub_date": "Wed, 04 Jun 2025 07:00:00 GMT",
+          "source": "바이라인네트워크"
+        }
+      ]
+    },
+    "4": {
+      "naver_blog": [
+        {
+          "title": "‘AI 활용 디지털 마케팅... 경기도 일자리 사업 면접 후기",
+          "description": "&lt;면접 질문&gt; 1. 간단한 자기소개와 지원동기 2. AI 활용해서 작업이나 sns 게시 경험이 있는지. 3. 수료 후에 진로. 취업 or 창업. 4. 이 교육 후 취업까지 연계 될 때 걸림돌이 있다면 무엇일지. 1,3번은 준비했는데 2... ",
+          "link": "https://blog.naver.com/sssss293/224224875009",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "경력이력서 양식 무료다운로드 방법과 이력서 작성 꿀팁 모음",
+          "description": "✅ 장점: 합격률 향상: 기업이 원하는 인재상에 맞춰 내용을 구성하여 서류 통과율을 높입니다. 차별화된 경쟁력: 자신의 경험을 효과적으로 강조하여 다른 지원자들과의 차별점을 만듭니다. 면접 기회 확대... ",
+          "link": "https://sibauchi.tistory.com/1205",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "사람인 대구지역 최신 채용공고와 인기 직종 한눈에",
+          "description": "특히, 젊은 세대는 단순히 급여뿐만 아니라, 워라밸, 성장 가능성, 기업 문화 등을 중요하게 고려하며... 또한, 기업 정보, 연봉 정보, 면접 후기 등 구직 활동에 유용한 정보를 제공하여 구직자들의 의사 결정을... ",
+          "link": "https://ilovefamily.tistory.com/527",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "[SK AX] 대기업 마케팅 신입... 스펙 꿀팁! | SK AX 합격후기",
+          "description": "오늘은 취준생이라면 한 번쯤 목표로 하는 기업, SK AX에 합격한 신입사원분과 인터뷰를 진행해봤습니다  ✔ 합격 스펙은 어땠는지 ✔ 채용 과정은 어떻게 진행되는지 ✔ 자소서·면접은 어떻게 준비했는지... ",
+          "link": "https://blog.naver.com/ttooooriiii/224224472695",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "2026 합격 가이드 (ft. 서류, SKCT, 면접 분석/합격 후기)",
+          "description": "26 2023 상반기 신입사원 채용공고 2023 하반기 신입사원 채용공고 더 많은 2026 대기업 채용 예상일정 보러가기 (클릭) SK하이닉스 최신 합격스펙  2026 SK하이닉스 최신 합격스펙   SK하이닉스 최소 합격... ",
+          "link": "https://blog.naver.com/afsangdo/224224434718",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "워크넷 이력서 작성 및 수정하는 방법 자세히 알아보기",
+          "description": "또한, 개인의 성장 가능성을 중요하게 평가하는 문화가 확산될 것입니다. 주요 기업들의 전략 분석 많은... 또한, 인턴십 프로그램을 확대하여 잠재적 인재를 확보하고 있으며, 기업 문화와 가치를 공유할 수... ",
+          "link": "https://lefthusband.tistory.com/1565",
+          "pub_date": "20260321"
+        },
+        {
+          "title": "신입 채용! 기업분석 및 자소서 작성법!(~3/23 17:00)",
+          "description": "SK하이닉스 최종합격후기 https://blog.naver.com/darddong/224119808364 &quot; &quot; https://blog.naver.com/darddong/224135095562 &quot; &quot; 확실히 작년 하반기 면접에서도 화두는 '인성'이었던 것 같습니다. 심지어 원데이에 '한 번... ",
+          "link": "https://blog.naver.com/darddong/224223529198",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "유한킴벌리 데이터 사이언티스트 정규직 채용 - 연봉·면접... ",
+          "description": "중시하는 문화 - 브랜드 자부심: 오랜 역사와 탄탄한 브랜드 파워 솔직하게 말하는 단점도 있어요 - 외국계 기업이지만 한국 기업 문화가 혼재되어 다소 보수적인 측면이 있다는 의견도 있어요 - 의사결정... ",
+          "link": "https://blog.naver.com/cymmcymm/224215509608",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "한국특허기술진흥원 면접 후기 기출 준비 컨설팅",
+          "description": "공기업 임원 출신 or 면접관 출신 멘토진 직접 인사채용 업무를 담당했던 전문가들로 구성 특허기술진흥원 컨설팅 이력 다수 보유 기존 합격데이터 기반의 전문 수업으로 진행 진흥원 평가포인트 + 질문... ",
+          "link": "https://blog.naver.com/ehrhdsu/224222237329",
+          "pub_date": "20260320"
+        },
+        {
+          "title": "하나증권 면접 후기 1차 실무 2차 최종 임원 기출 질문 정보",
+          "description": "하나증권 면접 후기 정보 1차 실무 면접 다대일 개별 구술 질의응답 형식으로 진행 (다대다 면접 후... 디지털 (AI), IT, 본사관리 채용 일정 26년 3월 20일: 서류 합격 발표 26년 3월 23일~4월 3일: 1차 실무 면접 26년... ",
+          "link": "https://blog.naver.com/jinsiri2191/224222310166",
+          "pub_date": "20260320"
+        }
+      ],
+      "naver_cafe": [
+        {
+          "title": "[3주차 실습2] 외국 기업의 복리 후생 제도에 대해 조사해보세요.",
+          "description": "외국 기업의 복리 후생 제도에 대해 10가지 이상 조사해보고 댓글로 남겨주세요.",
+          "link": "http://cafe.naver.com/inhadigital/306",
+          "pub_date": ""
+        },
+        {
+          "title": "서울3대 재즈바 entry55 사당점 바텐더 채용",
+          "description": "[entry55]는 문화생활 플랫폼 기업 (주)더긱이 첫 번째로 기획한 브랜드입니다. 마치 영화관처럼... 급여 - 급여 : 3600만원 or 직전 연봉 이상(최종 합격 후 처우 협의) - 4대보험 및 연차 제공 - 퇴직금 제공... ",
+          "link": "http://cafe.naver.com/ibartender/110690",
+          "pub_date": ""
+        },
+        {
+          "title": "[플랜지] CNC가공 조작원 모집을 위한 자기소개서",
+          "description": "** 채용공고요약 대성기계는 서울 구로구에 위치한 금속 제품 제조업체로 CNC 선반 조작원(경력자) 1명을... 이러한 경험을 통해 책임감은 단순히 개인적인 의무가 아니라, 다른 사람들과 조직의 성공을 위한 필수적인... ",
+          "link": "http://cafe.naver.com/uworldexam/152047",
+          "pub_date": ""
+        },
+        {
+          "title": "요양원 간호사(RN) 선생님 모십니다.를 위한 자기소개서",
+          "description": "회사의 노인복지 및 건강관리에 대한 철학과 실천이 가장 중요합니다. 어르신들의 건강과 삶의 질을 향상시키는 데 적극적으로 기여하는 조직이라면, 그 조직의 문화와 가치에 공감하고 동기부여를 받을 수 있습니다. 또한... ",
+          "link": "http://cafe.naver.com/uworldexam/151745",
+          "pub_date": ""
+        },
+        {
+          "title": "건설현장 추락사고에 대한 관리감독자 책임 확대와 전략적 대응 방안",
+          "description": "보고 문화 부재에 있음을 분석하였다. 연구에 따르면 관리자가 안전 문제 보고를 능동적으로... 인력·조직 안전보건관리책임자(현장소장급) 선임 및 역할 문서화 산안법§15 ★★★ 06 인력·조직... ",
+          "link": "http://cafe.naver.com/kmsr21/136505",
+          "pub_date": ""
+        },
+        {
+          "title": "정책뉴스20260321토요일",
+          "description": "20 &quot;예술활동준비금 신청하세요&quot;…인당 300만 원 지원 문화체육관광부는 한국예술인복지재단과 함께 오는... 인재추천·채용지원 서비스 선호 - AI가 추천한 일자리에 2.1만 명 취업, 전년 대비 61% 증가 AI 기반 일자리... ",
+          "link": "http://cafe.naver.com/jungamironware/9268",
+          "pub_date": ""
+        },
+        {
+          "title": "국회의원SNS소식20260321토요일",
+          "description": "아니라 AI, 반도체 기업들이 입주하는 업무시설, 청년에 특화된 주거시설, 주민들을 위한 생활문화센터... 전체회의에서 복지부에 주식, 채권, 대체투자 부문장 신설 등 국민연금 기금운용본부 조직 재편 필요성에 대해... ",
+          "link": "http://cafe.naver.com/jungamironware/9266",
+          "pub_date": ""
+        },
+        {
+          "title": "한국은행 (Bank of Korea)",
+          "description": "연구하는 문화로, 학구적이고 진지한 조직 분위기를 보유하고 있습니다. ㆍ근무 인프라 : 최근 본관... 탄탄한 복지 체계를 자랑합니다. ㆍ유연한 근무 : 자율 및 탄력 근무제, 재택 근무 제도를 적극 운영하여 업무... ",
+          "link": "http://cafe.naver.com/smilejobs/768",
+          "pub_date": ""
+        },
+        {
+          "title": "2026년 3월 20일 금요일 정책키워드 총정리",
+          "description": "지원 문화체육관광부는 한국예술인복지재단과 함께 오는 23일부터 내달 17일까지 ''2026년... 인재추천·채용지원 서비스 선호 - AI가 추천한 일자리에 2.1만 명 취업, 전년 대비 61% 증가 AI 기반 일자리 매칭 서비스가... ",
+          "link": "http://cafe.naver.com/magicbank/3332",
+          "pub_date": ""
+        },
+        {
+          "title": "(주)대동 (DAEDONG)",
+          "description": "탄탄한 복지 보유 4. 채용 기조 및 실무 특징 ㆍ특수 환경 로봇 개발 : 포스코와 협력하여 제철소 내 위험 작업을 수행하는 '특수 임무 로봇'을 개발, 농업을 넘어 산업용 로봇 시장으로 진출 중입니다. ㆍAI 데이터... ",
+          "link": "http://cafe.naver.com/smilejobs/763",
+          "pub_date": ""
+        }
+      ],
+      "snippet_count": 20,
+      "avg_rating": 2.7362637362637363,
+      "positive_themes": [
+        "긍정",
+        "복지",
+        "장점",
+        "좋은",
+        "추천"
+      ],
+      "negative_themes": [
+        "단점"
+      ],
+      "snippets": [
+        {
+          "source": "naver",
+          "title": "(주)퓨리오사에이아이 2026년 기업정보 | 기업리뷰 7건, 4.1 리뷰평점",
+          "description": "장점 : 신사역 주변 맛집을 자유롭게 먹으며 다닐 수 있음. 자유로운 의사 결정 가능, 단점 : 근무 시간이나 의사 결정이 자유로운 만큼 책임감을 가져야하는 구조. 꿀빨러가 잘 없음.",
+          "url": "https://www.jobplanet.co.kr/companies/376056/reviews/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)퓨리오사에이아이 2026년 기업정보 | 8건 면접후기 3.6 면접난이도",
+          "description": "(주)퓨리오사에이아이의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.6, 면접경로: 온라인 지원 100%, 면접경험: 긍정적 62%, 부정적 13%, 면접결과: 합격 25%, 불합격 37%, 대기중 38% | 잡플래닛에 등록된 8건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/376056/interviews_by_filter"
+        },
+        {
+          "source": "naver",
+          "title": "(주)퓨리오사에이아이 2026년 기업정보 | 7건 면접후기 3.9 면접난이도",
+          "description": "(주)퓨리오사에이아이의 전/현직원이 전하는 생생한 면접정보! 면접난이도: 3.9, 면접경로: 온라인 지원 100%, 면접경험: 긍정적 57%, 부정적 14%, 면접결과: 합격 14%, 불합격 43%, 대기중 43% | 잡플래닛에 등록된 7건 면접후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/376056/interviews/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4"
+        },
+        {
+          "source": "naver",
+          "title": "퓨리오사에이아이 2026년 기업정보 | 7건의 복지정보 0 전체 복지 통계",
+          "description": "퓨리오사에이아이의 전/현직원이 전하는 생생한 복지정보! 전체 복지 통계 0 | 잡플래닛에 등록 된 7건 복지후기를 지금 바로 만나보세요!",
+          "url": "https://www.jobplanet.co.kr/companies/376056/benefits/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4"
+        },
+        {
+          "source": "naver",
+          "title": "평점 ⭐3.5 이상 기업 채용공고만 AI가 추천해드림! | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스",
+          "description": "잡플래닛 평점 ⭐3.5점 이상 기업의 채용공고만 AI요원이 모아봤어요. 평점이 좋은 건 기본, 빵빵한 복지 및 혜택까지 함께 살펴보실 수 있습니다. 하반기 이직 준비는 지금이 기회! (주)화이트큐브는 어떤 회사? 사용자 습관 형성을 돕는 앱 '챌린저스'를 운영하는 데이터베이스 및 온라인 정보 제공업체로, 건강하고 긍정적인 변화를 만드는 데 주력하는 기업입니다. AI요원의 추천...",
+          "url": "https://www.jobplanet.co.kr/contents/news-6439/%ED%8F%89%EC%A0%90-3-5-%EC%9D%B4%EC%83%81-%EA%B8%B0%EC%97%85-%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0%EB%A7%8C-AI%EA%B0%80-%EC%B6%94%EC%B2%9C%ED%95%B4%EB%93%9C%EB%A6%BC"
+        },
+        {
+          "source": "naver",
+          "title": "와이즈넛 개발자가 일하는 법 | (주)와이즈넛의 생생한 인터뷰 확인하기, IT/웹/통신 2.7 평점",
+          "description": "연구개발, AI 서비스 개발) 팀장님 세분을 모셔봤습니다. 그럼, 이제... 최근에는 AI관련 사업의 다양한 부분에 대응하기 위해 부서 내부의 확장이 이뤄졌습니다. 입사초기 AI팀, 2개의 검색팀으로 운영되던...",
+          "url": "https://www.jobplanet.co.kr/contents/news-3241"
+        },
+        {
+          "source": "naver",
+          "title": "AI면접, 지원자한텐 뭐가 좋나요? | 컴퍼니 타임스의 생생한 인터뷰 확인하기, IT/웹/통신 0.0 평점",
+          "description": "면접. 누군가의 앞에서 나의 쓸모와 가치를 증명해보이는 일이란, 숨막히게 부담되는 일이다. 그럼에도 ‘면접’의 기회를 얻기 위해 매번 수천 수만 명의 치열한 인생을 담은 지원 서류가 한 회사로 모이고, 그중 대다수는 서류 탈락이라는 쓴 잔을 받아든다. 이토록 어렵게 면접의 기회를 손에 쥔다 해도 난관은 계속된다. 지나치게 깐깐한 잣대를 들이밀거나, 압박질문으로 곤...",
+          "url": "https://www.jobplanet.co.kr/contents/news-6198/AI%EB%A9%B4%EC%A0%91-%EC%A7%80%EC%9B%90%EC%9E%90%ED%95%9C%ED%85%90-%EB%AD%90%EA%B0%80-%EC%A2%8B%EB%82%98%EC%9A%94"
+        },
+        {
+          "source": "naver",
+          "title": "🚀 퓨리오사에이아이(FuriosaAI) 직급별 연봉 완전 공개! 1조원 유니콘 AI 반도체 기업의 2025년 최신 보너스 정....",
+          "description": "📋 목차 🌟 퓨리오사AI, 1조원 유니콘의 탄생! 💰 퓨리오사AI 연봉 현실 완전 분석 📊 직급별... 잡플래닛: 평균 연봉 6,069만원 (2건 데이터)[253] 신입사원 초봉: 5,700만원[256] 직원 수: 104명 (2023년...",
+          "url": "https://researchking.tistory.com/1655"
+        },
+        {
+          "source": "naver",
+          "title": "잡플래닛 평점 2.5 정도면 어떤 회사냐 - 취업 갤러리",
+          "description": "걍 보통임?",
+          "url": "https://gall.dcinside.com/board/view/?id=employment&no=1928801"
+        },
+        {
+          "source": "naver",
+          "title": "퓨리오사AI 채용 일정 및 연봉 한눈에 정리 2025 (+ 관련주 상장일 분석)",
+          "description": "퓨리오사AI 채용 일정 및 연봉 한눈에 정리 2025 (+ 관련주 상장일 분석) 퓨리오사AI는 2025년 상장 예정으로 관련주가 주목받고 있으며, 업계 평균을 상회하는 연봉과 채용일정에 대한 관심도 높습니다. 이 글에서는 퓨리오사AI의 기업 정보, 채용 일정, 연봉 수준, 상장 이슈와 관련주까지 핵심 내용을 정리합니다. 퓨리오사AI는 2017년 설립된 AI 반도체 스타트업으로, 고성능·저전력...",
+          "url": "https://info.woowell.co.kr/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACai-%EC%B1%84%EC%9A%A9-%EC%9D%BC%EC%A0%95-%EB%B0%8F-%EC%97%B0%EB%B4%89-%ED%95%9C%EB%88%88%EC%97%90-%EC%A0%95%EB%A6%AC/"
+        },
+        {
+          "source": "naver",
+          "title": "퓨리오사AI 연봉 수준은? 블라인드에서 본 실제 급여와 복지",
+          "description": "AI 반도체 스타트업 퓨리오사AI의 연봉과 복지, 실제 분위기는 어떨까요?블라인드 등 커뮤니티에 올라온 후기를 통해 실질적인 정보와 업계 평균과의 비교까지 정리해 드립니다. 퓨리오사AI 연봉 정보👆 퓨리오사AI, 기술만큼 연봉도 뛰어날까?AI 반도체 스타트업 퓨리오사AI(FuriosaAI)는 기술력만큼이나 연봉 수준도 업계에서 관심을 끌고 있습니다...",
+          "url": "https://yenabin.com/entry/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACAI-%EC%97%B0%EB%B4%89-%EC%88%98%EC%A4%80%EC%9D%80-%EB%B8%94%EB%9D%BC%EC%9D%B8%EB%93%9C%EC%97%90%EC%84%9C-%EB%B3%B8-%EC%8B%A4%EC%A0%9C-%EA%B8%89%EC%97%AC%EC%99%80-%EB%B3%B5%EC%A7%80"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 퓨리오사에이아이 기업정보",
+          "description": "퓨리오사에이아이 회사소개 ; 업계 IT/소프트웨어 · 본사 서울특별시 강남구 · 설립 2017 · 직원수 51~200(명) · 연봉정보 -",
+          "url": "https://www.teamblind.com/kr/company/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4/"
+        },
+        {
+          "source": "naver",
+          "title": "(주)퓨리오사에이아이 2026년 기업정보 | 3건 연봉정보, 5,656만원 평균연봉",
+          "description": "(주)퓨리오사에이아이 4.1 IT/웹/통신 뉴스룸 프리미엄 리뷰22 리뷰7 연봉3 면접7 복지 채용0 팔로우 기업 비교 직종 선택 전체 직종 2차 직종 선택 전체 직종평균 연봉 ??? 만원 연봉 출처 : 사용자 입력 데이터...",
+          "url": "https://www.jobplanet.co.kr/companies/376056/salaries/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4"
+        },
+        {
+          "source": "naver",
+          "title": "(주)퓨리오사에이아이 기업정보 ㅣ 채용공고, 연봉, 직원수 - 리멤버",
+          "description": "기업 정보 ; 대표자 : 백준호, 설립일 : 2017년 05월 설립, 업종 : 반도체·전지·신소재·나노기술 &gt; 반도체 &gt; 소자/부품, 기업유형 : 스타트업, 홈페이지 : 바로가기, 위치 : 서울 강남구 도산대로 145, 14층 (신사동,인우빌딩)",
+          "url": "https://career.rememberapp.co.kr/job/company/1405896"
+        },
+        {
+          "source": "naver",
+          "title": "퓨리오사AI 상장 가능성? AI 반도체 선두주자의 매출, 연봉, 주가 전망 분석",
+          "description": "퓨리오사AI 관련 키워드 #퓨리오사AI #퓨리오사AI상장 #퓨리오사AI관련주 #퓨리오사AI주가 #퓨리오사AI채용 #퓨리오사AI블라인드 #퓨리오사AI연봉 #퓨리오사AI기업가치 #퓨리오사AI매출 #퓨리오사AI대표",
+          "url": "https://blog.naver.com/hyeon_1k/223758536669"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 주식·투자: 퓨리오사ai 업계사람 계시면 좀 알려 주세요",
+          "description": "어떨 것 같아요?장외주식 있어요?",
+          "url": "https://www.teamblind.com/kr/post/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACai-%EC%97%85%EA%B3%84%EC%82%AC%EB%9E%8C-%EA%B3%84%EC%8B%9C%EB%A9%B4-%EC%A2%80-%EC%95%8C%EB%A0%A4-%EC%A3%BC%EC%84%B8%EC%9A%94-ZHZNAGtm"
+        },
+        {
+          "source": "naver",
+          "title": "(주)퓨리오사에이아이 2026년 기업정보 | 8건 면접후기 3.6 면접난이도",
+          "description": "면접경로 ; 온라인 지원 : 100%, 직원추천 : 0%, 헤드헌터 : 0%, 공개채용 : 0%, 학교 취업지원 센터 : 0%, 기타 : 0%",
+          "url": "https://www.jobplanet.co.kr/companies/376056/interviews_by_filter"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 퓨리오사에이아이 현직자들의 연봉 정보",
+          "description": "퓨리오사에이아이에 대한 연봉 정보를 수집중입니다.",
+          "url": "https://www.teamblind.com/kr/company/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4/salaries"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 직장인 기업 연봉 &amp; 이직 커리어",
+          "description": "딥엑스 뿐 아니라 반도체 쪽 스타트업 연봉 어느정도인지도 궁금합니다. #리벨리온 #퓨리오사AI #사피온 #딥엑스 #반도체 오늘 엄청 강한 뉴스는 잘 안보이네. 시간외에 강했던 종목이 이어 가주면 좋겠네....",
+          "url": "https://www.teamblind.com/kr/tag/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACAI"
+        },
+        {
+          "source": "naver",
+          "title": "블라인드 | 이직·커리어: AI 반도체 스타트업(퓨리오사, 사피온, 리벨리온) 어떰?",
+          "description": "FuriosaAI 퓨리오사 Sapeon 사피온 Rebellions 리벨리온 근무 분위기나 장 단점 현직자 입장에서 솔직히 현실이 궁금합니다.",
+          "url": "https://www.teamblind.com/kr/post/AI-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC-%EC%82%AC%ED%94%BC%EC%98%A8-%EB%A6%AC%EB%B2%A8%EB%A6%AC%EC%98%A8-%EC%96%B4%EB%96%B0-qjCh8xQF"
+        }
+      ],
+      "exa_culture": [
+        {
+          "title": "Join us in building the future of AI — FuriosaAI",
+          "url": "https://furiosa.ai/careers",
+          "text": "Join us in building the future of AI — FuriosaAI --\n\nIt's official: RNGD enters mass production.Read the announcement.\n\n# We came together to really reinvent AI computing from the ground up and at every level.\n\n– Hanjoon, Furiosa CTO\n\n## FURIOSA WAY\n\n### Shared vision\n\nSince day 1, our hardware and software team have worked together as a single team toward a shared vision.\n\n### Fierce e",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "퓨리오사AI 채용 정보 및 직무 리스트(+재무, 반도체엔지니어) - 민민스 블로그",
+          "url": "https://minmins.kr/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACai-%EC%B1%84%EC%9A%A9-%EC%A0%95%EB%B3%B4-%EB%B0%8F-%EC%A7%81%EB%AC%B4-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9E%AC%EB%AC%B4-%EB%B0%98%EB%8F%84%EC%B2%B4%EC%97%94%EC%A7%80/",
+          "text": "퓨리오사AI 채용 정보 및 직무 리스트(+재무, 반도체엔지니어) - 민민스 블로그\n\nHome» 퓨리오사AI 채용 정보 및 직무 리스트(+재무, 반도체엔지니어)\n\n# 퓨리오사AI 채용 정보 및 직무 리스트(+재무, 반도체엔지니어)\n\n- INFO\n- 8월 16, 2025\n- by 민민스\n\n요즘 IT업계에서 많은 분들이 퓨리오사AI의 채용 소식과 직무, 특히 재무, 반도체엔지니어 분야에 대해 궁금해하고 있어요.\n\n그 궁금증을 해결할 수 있도록, 최신 정보를 바탕으로 쉽고 자세하게 설명해 드릴게요.\n\n아래에서 퓨리오사AI의 공식 홈페이지와 공식 SNS도 확인할 수 있으니 필요할 때 참고해보세요.\n\n✅ 공식 홈페이지\n\n✅ [공식 SNS](https://www.linkedin.c",
+          "score": 0,
+          "published_date": "2025-08-16T00:00:00.000Z"
+        },
+        {
+          "title": "퓨리오사에이아이 채용 - 2026년 진행 중인 공고 총 1건 | 잡코리아",
+          "url": "https://www.jobkorea.co.kr/company/42969739/recruit",
+          "text": "퓨리오사에이아이 채용 - 2026년 진행 중인 공고 총 1건 | 잡코리아\n\n본문 바로가기\n\n# JOBKOREA\n\n검색 검색\n\n채용중\n\n퓨리오사에이아이\n\n컨설팅·연구·조사\n\n공유공유--\n\n# 채용 정보\n\n## 리스트 정렬 순서 선택\n\n- 마감 17건\n- 진행중 1건\n- 전체 18건\n\n등록순 등록순 마감순\n\n## 채용 진행 중 직무\n\n- 하드웨어엔지니어\n- 반도체엔지니어\n- 설계엔지니어\n- 시스템엔지니어\n- IR·공시\n- 회계담당자\n- [재무",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "(주)퓨리오사에이아이 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/WmY1czBkOVgzVUM3b05JbWpISGtBQT09/company_nm/(%EC%A3%BC)%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC%EC%97%90%EC%9D%B4%EC%95%84%EC%9D%B4",
+          "text": "(주)퓨리오사에이아이 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인\n\n본문 바로가기\n\n검색 폼\n\n검색어입력 검색 닫기\n\n관심기업을 설정하여 기업의 최근 소식을 받아보세요\n\n도움말\n\n조회기간 2026.01.21 ~ 2026.02.20\n\n본 정보는 사람인 빅데이터를 분석한 결과이며, 실제 정보와는 차이가 발생할 수 있습니다.\n\n조회수\n\n1% 2,210회\n\n관심기업\n\n27회\n\n기업 키워드 검색 횟수\n\n68회\n\n- 나의 커리어 첫 시작\n- 역세권 기업\n- 시리즈B 투자유치\n- 500억 이상 투자유치\n\n## 한눈에 보는 우리 회사, 미리 확인해 보세요!\n\n기업 개요--\n\n업력 10년차\n\n2017년 4월 4일 설립\n\n중소기업\n\n기업형태\n\n155 명\n\n출처: 국민연금\n\n사원수\n\n29억 5,585만원\n\n매출액\n\n업종 기타 반도체소자 제조업\n\n대표자명 백준호\n\n홈페이지 https://furiosa.ai/\n\n사업내용\n\n비메모리용,전자집적회로",
+          "score": 0,
+          "published_date": ""
+        }
+      ]
+    },
+    "3": {
+      "naver_web": [
+        {
+          "title": "LG AI연구원-퓨리오사AI, AI반도체 개발 협력",
+          "description": "LG가 국내 인공지능(AI) 생태계를 지원한다.LG AI연구원은 퓨리오사AI와 ‘차세대 AI 반도체와 생성형 AI 관련 공동 연구 및 사업화를 위한 전략적 파트너",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=21447",
+          "pub_date": ""
+        },
+        {
+          "title": "퓨리오사AI 상장 일정 및 관련 주가 급등 이유",
+          "description": "사업 방향성 차이 메타는 퓨리오사AI를 자사 AI 모델 학습·추론에... AI는 다양한 AI 환경에서 사용 가능한 범용 칩을 만들겠다는 비전을... 퓨리오사AI 상장 일정과 전략적 미루기 퓨리오사AI는 코스닥...",
+          "link": "https://blog.naver.com/isshoko/223966296680",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;퓨리오사AI의 하드웨어는 완성형··· 전세계 소비자 위한 디자인 준비할 것&quot;",
+          "description": "(컴퓨터 비전과 패턴 인식 콘퍼런스)도 디자인 기획을 맡았다. 약 6개월... 퓨리오사AI가 글로벌 기업들과 같은 방향으로 나아가고 있음을 느꼈다. 국내외 동종업계와 차별점을 주기 위해서는 어떤 디자인 전략을...",
+          "link": "https://it.donga.com/104186/",
+          "pub_date": ""
+        },
+        {
+          "title": "국내 인공지능 시장은 좁다!... 기술 앞세워 글로벌 시장 공략에 나서는 AI 스타트업들",
+          "description": "대한 전략 및 내용을 간략하게 소개해 본다. ▷ 퓨리오사AI실리콘밸리와 서울에 본사를 두고 올해... 분야로 사업을 확장한다. 마크비전은 LA를 거점으로 웹툰, 게임, 엔터테인먼트, 방송 등 다양한 분야의...",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=21461",
+          "pub_date": ""
+        },
+        {
+          "title": "`퓨리오사AI의 하드웨어는 완성형··· 전세계 소비자 위한 디자인 준비할 것`",
+          "description": "현재 퓨리오사AI의 디자인 전략 및 기획, 관리 업무 등을 추진하고... (컴퓨터 비전과 패턴 인식 콘퍼런스)도 디자인 기획을 맡았다. 약... 이 대목에서 퓨리오사AI가 글로벌 기업들과 같은 방향으로 나아가고...",
+          "link": "https://www.donga.com/news/article/all/20230811/120668385/1",
+          "pub_date": ""
+        },
+        {
+          "title": "AI 반도체 혁신의 선두주자 퓨리오사AI의 비전과 특허 전략",
+          "description": "최근 제8회 지식재산의 날 기념식에서 백준호 퓨리오사AI 대표가 국무총리 표창을 수상했다. 이는 그가 국내 최초로 데이터센터용 인공지능(AI) 반도체를 개발하고, 고대역폭 메모리(HBM)를 통합한 차세대 AI 칩을 선보이며 AI 인프라스트럭처의 기술 주권에 기여한 공로를 인정받은 결과다. 퓨리오사AI가 출시한 AI 반도체는 세계 최고 수준의 연산 속도와 효율을 자랑하며, 특히 지난...",
+          "link": "https://www.doochang.co.kr/blog/ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%ED%98%81%EC%8B%A0%EC%9D%98-%EC%84%A0%EB%91%90%EC%A3%BC%EC%9E%90-%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACai%EC%9D%98-%EB%B9%84%EC%A0%84%EA%B3%BC-%ED%8A%B9%ED%97%88-%EC%A0%84/",
+          "pub_date": ""
+        },
+        {
+          "title": "퓨리오사AI, 1조원 메타 인수 제안 거절",
+          "description": "이후 사업 방향이나 조직 구성 등에서 이견을 좁히지 못하면서 협상이 최종 결렬된 것으로 전해진다. 퓨리오사AI 펀딩 현황. (그래픽... 코리아오메가투자금융 ▲비전벤처스 등으로부터 시리즈B로...",
+          "link": "https://dealsite.co.kr/articles/138741",
+          "pub_date": ""
+        },
+        {
+          "title": "&quot;퓨리오사AI의 개발 철학, 핵심은 하드웨어·소프트웨어의 유기적 결합입니다&quot;",
+          "description": "LSI 사업부에 입사해 시스템 반도체 등과 관련된 설계부터... 인연들과 퓨리오사AI의 방향성에 대한 확신을 갖고 NPU 아키텍트라는 길을... 덕분에 하드웨어 가용량이나 소비전력, 메모리 등을 관리하는데 훨씬...",
+          "link": "https://it.donga.com/104363/",
+          "pub_date": ""
+        },
+        {
+          "title": "퓨리오사AI(FuriosaAI)는 대한민국 서울에 본사를 둔 인공지능(AI) 칩 설계 및 개발 전문 스타트업",
+          "description": "제품 퓨리오사AI의 대표 제품은 다음과 같습니다: 1세대 비전 NPU... 성장 전략을 선택하며 이를 거절했습니다. 현재 기업 가치는 약... 위해 퓨리오사AI의 기술을 활용하려 했으나, 사업 방향과 조직...",
+          "link": "https://blog.naver.com/tteonamat/223814859955",
+          "pub_date": ""
+        },
+        {
+          "title": "엑스페릭스, 주요 계열사와 퓨리오사AI에 투자 &quot;AI 생태계 구축&quot;",
+          "description": "엑스페릭스는 최근 AI 사업실을 신설하며 디지털 신원확인, 보안, 헬스케어 등 다양한 분야에서 AI 솔루션 기반 사업 확장을 본격화하고 있다. 엑스플러스도 AI 기반 사용자 인터페이스(UI) 및 스마트 액세서리 분야로의 확장을 준비하며 AI 기술과의 접점을 확대할 계획이다. 인텔렉추얼디스커버리는 퓨리오사AI의 주주이면서 지식재산권(IP) 자문사로서 국내·외 특허 자문과 라이...",
+          "link": "https://www.mt.co.kr/future/2025/05/30/2025053009462523370",
+          "pub_date": ""
+        }
+      ],
+      "exa_strategy": [
+        {
+          "title": "퓨리오사AI, 7400억 프리IPO 투자유치 추진…몸값 '3조' 거론 - 머니투데이",
+          "url": "https://www.mt.co.kr/future/2026/01/21/2026012116041340861",
+          "text": "퓨리오사AI, 7400억 프리IPO 투자유치 추진…몸값 '3조' 거론 - 머니투데이\n\n## 퓨리오사AI, 7400억 프리IPO 투자유치 추진…몸값 '3조' 거론\n\n[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ' 데이터랩'에서 볼 수 있습니다.]\n\n이재명 대통령이 지난해 4월 더불어민주당 대선후보 시절 서울 강남구 퓨리오사AI에서 백준호 퓨리오사AI 대표와 기념촬영을 하고 있다 /사진=뉴시스\n\nAI(인공지능) 반도체 팹리스 스타트업 퓨리오사AI가 5억달러(7400억원) 규모의 프리IPO 투자유치에 나선다. ",
+          "score": 0,
+          "published_date": "2026-01-21T00:00:00.000Z"
+        },
+        {
+          "title": "AI반도체 스타트업 퓨리오사AI, 최대 5억달러 투자 유치 추진 &lt; AI·엔터프라이즈 &lt; 기사본문 - 디지털투데이 (DigitalToday)",
+          "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=622649",
+          "text": "AI반도체 스타트업 퓨리오사AI, 최대 5억달러 투자 유치 추진\n\n## 본문영역\n\n이전 기사보기 다음 기사보기\n\nAI반도체 스타트업 퓨리오사AI, 최대 5억달러 투자 유치 추진\n\n바로가기 복사하기 본문 글씨 줄이기 본문 글씨 키우기\n\n스크롤 이동 상태바\n\n퓨리오사AI RNGD 제품 [사진: 퓨리오사AI]\n\n[디지털투데이 황치규 기자]한국 AI 반도체 개발사 퓨리오사AI가 3~5억달러 규모 투자 유치를 추진하고 있다고 블룸버그통신이 20일(현지시간) 보도했다.\n\n퓨리오사AI는 모건스탠리와 미래에셋증권을 영입하고 시리즈 D 투자 라운드를 준비 중이다. 구체적인 기업가치는 공개되지 않았다. 퓨리오사AI는 지난해 7월 1억2500만달러 투자를 유치하면서 회사 가치를 7억3500만달러로 평가받았다.\n\n또 메타로부터 8억달러 규모에 인수 제안을 받았으나 거절한 것으로 알려졌다.\n\n퓨리오사AI 핵심 기술은 RNGD 칩이다. 기존 AI 칩이 행렬 곱셈에 최적화된 반면, RNGD는 텐서 수축(Ten",
+          "score": 0,
+          "published_date": "2026-01-20T00:00:00.000Z"
+        },
+        {
+          "title": "국산 AI칩 퓨리오사AI, 최대 5억달러 투자유치 목표...엔비디아 도전장",
+          "url": "https://www.g-enews.com/article/Global-Biz/2026/01/202601200948512004fbbec65dfb_1",
+          "text": "국산 AI칩 퓨리오사AI, 최대 5억달러 투자유치 목표...엔비디아 도전장 - 글로벌이코노믹\n\n닫기\n\n## Search\n\n- #카드뉴스\n- #유럽\n- #삼성전자\n- #애플\n- #시승기\n- [#글로벌](https://www.g-enews.com/sea",
+          "score": 0,
+          "published_date": "2026-01-20T00:00:00.000Z"
+        },
+        {
+          "title": "퓨리오사AI, 5000억원 규모 프리IPO 추진…기업가치 2조 이상 거론-인베스트조선",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/01/19/2026011980137.html",
+          "text": "퓨리오사AI, 5000억원 규모 프리IPO 추진…기업가치 2조 이상 거론-인베스트조선\n\n입력 2026.01.19 15:42\n\n펀딩 주관사에 모건스탠리 선정상장 시점은 내후년 이후 전망\n\n이미지 크게보기(그래픽=윤수민 기자)\n\n인공지능(AI) 반도체 설계 전문(팹리스) 기업 퓨리오사AI가 프리IPO(상장 전 투자유치)에 나선다.\n\n19일 투자은행(IB) 업계에 따르면 퓨리오사AI는 최근 해외 펀딩 주관사로 모건스탠리를 선정하고 시리즈D 라운드 준비에 착수했다. 국내 펀딩의 경우 앞선 투자를 통해 기관투자자들과 회사 측 네트워크가 형성되어 있어, 별도의 펀딩 주관사를 선정할지 여부를 두고 고심 중인 것으로 알려졌다.\n\n이번 라운드의 모집 규모는 5000억원 이상으로 파악된다. 구체적인 기업가치는 확정되지 않았으나, 장외가 등을 고려할 때 약 2",
+          "score": 0,
+          "published_date": "2026-01-19T00:00:00.000Z"
+        },
+        {
+          "title": "퓨리오사AI, 기업가치 1조원 유니콘 등극...1700억 투자 유치 < IT/게임 < 경제/라이프 < 기사본문 - 생생비즈플러스",
+          "url": "https://www.livebiz.today/news/articleView.html?idxno=8934",
+          "text": "퓨리오사AI, 기업가치 1조원 유니콘 등극...1700억 투자 유치 --\n\n- 제보\n- 회원가입\n- 로그인\n- 발행일: 2026-02-14 08:30 (토)\n\n실시간\n\n## 미래에셋, 코빗 지분 92% 취득...디지털자산 기반 밸류 체인 구축\n\n금융\n\n## 발품 팔아 할인받던 시대 끝난다… 빨라지는 수입차 시장 '직판 체제' 전환\n\n수입차\n\n## [포토] '팬텀 아라베스크'...롤스로이스의 중동 건축 유산에 대한 헌사\n\n포토\n\n## 중국산 자동차 수출, 내수와 비슷할 정도로 성장...유럽과 동남아시아 시장서 수요증가\n\n자동차뉴스\n\n## LIG넥스원, 작년 영업익 전년 대비 44.5％ 증가한 3229억원…전년 대비 44.5％↑\n\n경제일반\n\n## 런",
+          "score": 0,
+          "published_date": "2025-07-31T00:00:00.000Z"
+        }
+      ],
+      "international_news": [
+        {
+          "title": "Warner Bros Discovery posts bigger-than-expected loss ahead of potential sale or split - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObDZpVFBmaGFraUd4SHBxbzJHS2UtOTFHQWhMVHVRc2J5Q3dxeDNHdDc1a1pWeUptSlJRSnNIVWZEX1hFazdmSzF1MVZ1VktJMXFBOTlhUndtVW9BZ1UtSF96c2NYZEhkVC12Vk9KLWFxYlRlRlJTdUF3QWZ0ZjFxaDRKR25fbUZqeTExV3NDSU5xSjFDa2k5cjBIMlBRSEYway1Z?oc=5",
+          "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
+          "source": "Reuters"
+        },
+        {
+          "title": "Meta in talks to acquire AI chip firm FuriosaAI, according to report - TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR3J2M1VPNWx0MjBtYkxKODhuenI4ZFhabWxGTXhEdmJHMktNRzhVYU12TnlzbUJzYkg1X0xfT3lpdnhEQjZLZktVMkVwcGxWWm1qZGlaZFhBaTdjOEdTUmxaWTlvQkY0X29jUmxFelQ2YlZfVE9KYzNHZjRsN0dHQm1wZHpFalhWMC04NlYxWDAxaHE4U3N0Y2x4NnozUEE5MEZzNg?oc=5",
+          "pub_date": "Wed, 12 Feb 2025 08:00:00 GMT",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Meet the ‘Mad Max’-Loving CEO Challenging Nvidia With a Renegade Chip - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxOaXhveGRpOU94TXh2S2V6WFVDLWNCSHJjUUY4TGxIeWRYbFREdVpFcldNMlhOTDlzbEhudnpjdzhiYXNoSnZreGVNMlNWcnctVy1RWGZNeG1kVnMyTGI3NjdMNmRoY3hGY0tlTTJNNF94RU5raVpYaG1sU0lKYVRMUlVka09fRGJiLXdTZUNJeXNUWUh5aHBQZUg2S3V5OVMyaGJUcGlJbE1rUXlRUnQ2T0lTMENScDBicFp2amtZblR2cGFITUhDMURkMm04OS1UZFZLVjZPanZCcVNqVWNycjFWLWdKOTNPYTQ3YnV1NFQwZWhBMjVfZUQyYmEtWXNrS3NxeDJHRmpVMVdkWG1iSVljS181WVhrOFljTmlzNWRtYXFHQWJzbnp6Z0gzdXVXbkhHWU9zeDNoSmdnS0pGd0RMRFRKaXFDZ3ptVVVvSUg3aldlVUdDM0FoUUJfYUFrMTJ3VWx1dDFVa1BZS1VHOUV6UWF1R2F2UmhONlBmVU5sZGROX3pV?oc=5",
+          "pub_date": "Fri, 02 Jan 2026 08:00:00 GMT",
+          "source": "Wall Street Journal"
+        }
+      ]
+    },
+    "7": {
+      "exa_tech": [
+        {
+          "title": "FuriosaAI 소프트웨어 스택 소개 — FuriosaAI NPU 및 Software 문서 furiosa-docs 문서",
+          "url": "http://developer.furiosa.ai/docs/v0.6.0/ko/software/intro.html",
+          "text": "FuriosaAI 소프트웨어 스택 소개 — FuriosaAI NPU 및 Software 문서 furiosa-docs 문서\n\n# FuriosaAI 소프트웨어 스택 소개\n\nFuriosaAI는 NPU가 다양한 응용과 환경에서 사용될 수 있도록 다양한 소프트웨어 컴포넌트를 제공하고 있다. 이 장은 FuriosaAI가 제공하는 전반적인 소프트웨어 스택을 소개하고 각 컴포넌트의 역할과 컴포넌트 활용을 위한 설명서와 튜토리얼을 소개한다.\n\n위 그림은 FuriosaAI가 제공하는 소프트웨어 스택을 레이어에 따라 추상적으로 표현한 것이다. 가장 아래는 FuriosaAI의 1세대 NPU인 FuriosaAI Warboy가 있다. 아래는 주요한 컴포넌트에 대해 소개한다.\n\n## 커널 장치 드라이버(Kernel Driver), 펌웨어(Firmware)\n\n커널 장치 드라이",
+          "score": 0,
+          "published_date": ""
+        },
+        {
+          "title": "What I learned from looking at 900 most popular open source AI tools",
+          "url": "https://huyenchip.com/2024/03/14/ai-oss.html",
+          "text": "What I learned from looking at 900 most popular open source AI tools let ccid = \"huyenchip.com\"; cc(ccid); -- What I learned from looking at 900 most popular open source AI tools | Chip Huyen\n\nTable of Contents\n\n[Hacker News discussion, LinkedIn discussion, Twitter thread]\n\nUpdate",
+          "score": 0,
+          "published_date": "2024-03-14T00:00:00.000Z"
+        },
+        {
+          "title": "The AI Engineering Stack - by Gergely Orosz and Chip Huyen",
+          "url": "https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack",
+          "text": "The AI Engineering Stack - by Gergely Orosz and Chip Huyen\n\n# The Pragmatic Engineer\n\nSubscribeSign in\n\nDeepdives\n\n# The AI Engineering Stack\n\n### Three layers of the AI stack, how AI engineering is different from ML engineering and fullstack engineering, and more. An excerpt from the book AI Engineering by Chip Huyen\n\nGergely Orosz and [Chip Huyen](https://",
+          "score": 0,
+          "published_date": "2025-05-20T00:00:00.000Z"
+        },
+        {
+          "title": "Open source AI stack components - DEV Community",
+          "url": "https://dev.to/tak089/open-source-ai-stack-components-2lnf",
+          "text": "Open source AI stack components - DEV Community\n\nHere’s a comprehensive and categorized list of open source AI stack components that you can mix and match when building GenAI applications — especially when focusing on modularity, scalability, and performance. This includes components for data processing, model serving, retrieval-augmented generation (RAG), vector search, and orchestration.\n\n---\n\n### 🧠 Foundational Model Alternatives\n\nModels you can self-host or fine-tune:\n\nLLMs\n\n- [WizardLM](ht",
+          "score": 0,
+          "published_date": "2025-05-22T00:00:00.000Z"
+        },
+        {
+          "title": "퓨리오사 AI의 오픈소스 정책: AI 반도체 생태계 확장을 위한 전략",
+          "url": "https://econaura.tistory.com/entry/%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%AC-AI%EC%9D%98-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%A0%95%EC%B1%85-AI-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%83%9D%ED%83%9C%EA%B3%84-%ED%99%95%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%A0%84%EB%9E%B5",
+          "text": "퓨리오사 AI의 오픈소스 정책: AI 반도체 생태계 확장을 위한 전략\n\n본문 바로가기\n\n카테고리 없음\n\n# 퓨리오사 AI의 오픈소스 정책: AI 반도체 생태계 확장을 위한 전략\n\n퓨리오사 AI는 한국을 대표하는 AI 반도체 팹리스 기업으로, 고성능 AI 추론용 칩(RNGD)과 이를 구동하는 소프트웨어 스택(Furiosa SDK)을 개발해 주목받고 있다. 특히 FuriosaAI는 독자적인 칩 성능을 극대화하고 개발자 친화적 생태계를 조성하기 위해 오픈소스 전략을 적극 채택하고 있으며, 이는 AI 칩 시장에서 엔비디아에 대응할 수 있는 핵심 차별화 요소로 작용한다.\n\n이 글에서는 FuriosaAI의 오픈소스 정책의 철학, 기술적 구성, 적용 범위, 커뮤니티 전략, 산업 내 효과 등을 상세히 분석한다.\n\nFuriosaAI의 오픈소스 정책: AI 반도체 생태계 확장을 위한 전략\n\n1. 오픈소스 정책의 철학과 배경\n\nFuriosaAI는 창립 초기부터 \"개방형 생태계(Open Ecosystem",
+          "score": 0,
+          "published_date": "2025-04-18T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "scorecard": {
+    "total": 75.0,
+    "grade": "A",
+    "dimensions": [
+      {
+        "name": "job_fit",
+        "label": "Job Fit",
+        "weight": 0.3,
+        "score": 3.5,
+        "evidence": "Tech stack data available"
+      },
+      {
+        "name": "career_leverage",
+        "label": "Career Leverage",
+        "weight": 0.2,
+        "score": 4.25,
+        "evidence": "14 data points collected"
+      },
+      {
+        "name": "growth",
+        "label": "Growth Potential",
+        "weight": 0.2,
+        "score": 4.0,
+        "evidence": "; Strategy data collected; Active news coverage"
+      },
+      {
+        "name": "compensation",
+        "label": "Compensation & Benefits",
+        "weight": 0.15,
+        "score": 2.5,
+        "evidence": "No salary data"
+      },
+      {
+        "name": "culture_fit",
+        "label": "Culture Fit",
+        "weight": 0.15,
+        "score": 4.5,
+        "evidence": "Culture data from reviews; Exa deep search data; Blog/cafe reviews"
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/corp/summary.ax?cmpCd=01762204"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?where=blog&query=퓨리오사AI"
+    },
+    {
+      "name": "naver_search",
+      "section": "culture",
+      "url": ""
+    },
+    {
+      "name": "naver_search",
+      "section": "strategy",
+      "url": ""
+    },
+    {
+      "name": "brave_search",
+      "section": "overview",
+      "url": "https://search.brave.com/search?q=퓨리오사AI"
+    },
+    {
+      "name": "community_review",
+      "section": "culture",
+      "url": "https://search.naver.com/search.naver?query=퓨리오사AI+잡플래닛"
+    },
+    {
+      "name": "linkedin_search",
+      "section": "overview",
+      "url": "https://www.linkedin.com/company/ai"
+    },
+    {
+      "name": "google_news",
+      "section": "overview",
+      "url": "https://news.google.com/search?q=%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACAI"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=퓨리오사AI company culture engineering team work environment"
+    },
+    {
+      "name": "exa_search",
+      "section": "strategy",
+      "url": "https://exa.ai/search?q=퓨리오사AI business strategy growth AI investment 2025 2026"
+    },
+    {
+      "name": "exa_search",
+      "section": "culture",
+      "url": "https://exa.ai/search?q=퓨리오사AI hiring jobs career employee reviews"
+    },
+    {
+      "name": "exa_search",
+      "section": "tech",
+      "url": "https://exa.ai/search?q=퓨리오사AI tech stack engineering blog open source"
+    },
+    {
+      "name": "credible_news",
+      "section": "strategy",
+      "url": "https://news.google.com/search?q=%ED%93%A8%EB%A6%AC%EC%98%A4%EC%82%ACAI"
+    },
+    {
+      "name": "credible_news",
+      "section": "overview",
+      "url": ""
+    }
+  ]
 }
