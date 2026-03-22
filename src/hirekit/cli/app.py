@@ -903,5 +903,14 @@ def _load_profile(path: str) -> dict | None:
         return None
 
 
+@app.command(name="mcp-serve")
+def mcp_serve() -> None:
+    """MCP 서버 실행 — Claude Code 네이티브 도구로 HireKit을 사용해요 (stdio JSON-RPC)."""
+    from hirekit.mcp_server import main as _mcp_main
+
+    _load_env()
+    _mcp_main()
+
+
 if __name__ == "__main__":
     app()
