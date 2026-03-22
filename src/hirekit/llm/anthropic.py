@@ -11,8 +11,23 @@ from hirekit.llm.base import BaseLLM, LLMResponse
 class AnthropicAdapter(BaseLLM):
     """Anthropic Claude API adapter (claude-sonnet, claude-haiku, etc.)."""
 
+    _client: Any = None  # class-level singleton cache
+
     def __init__(self, model: str = "claude-sonnet-4-20250514"):
         self.model = model
+
+    @classmethod
+    def _get_client(cls) -> Any:
+        """Return cached client, creating it on first call."""
+        if cls._client is None:
+            try:
+                import anthropic
+            except ImportError:
+                return None
+            cls._client = anthropic.Anthropic(
+                api_key=os.environ.get("ANTHROPIC_API_KEY"),
+            )
+        return cls._client
 
     def generate(
         self,
@@ -22,14 +37,9 @@ class AnthropicAdapter(BaseLLM):
         max_tokens: int = 4096,
         json_schema: dict[str, Any] | None = None,
     ) -> LLMResponse:
-        try:
-            import anthropic
-        except ImportError:
+        client = self._get_client()
+        if client is None:
             return LLMResponse(text="", model=self.model)
-
-        client = anthropic.Anthropic(
-            api_key=os.environ.get("ANTHROPIC_API_KEY"),
-        )
 
         kwargs: dict[str, Any] = {
             "model": self.model,

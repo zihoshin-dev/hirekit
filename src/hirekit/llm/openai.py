@@ -11,8 +11,21 @@ from hirekit.llm.base import BaseLLM, LLMResponse
 class OpenAIAdapter(BaseLLM):
     """OpenAI API adapter (GPT-4o-mini, GPT-4o, etc.)."""
 
+    _client: Any = None  # class-level singleton cache
+
     def __init__(self, model: str = "gpt-4o-mini"):
         self.model = model
+
+    @classmethod
+    def _get_client(cls) -> Any:
+        """Return cached client, creating it on first call."""
+        if cls._client is None:
+            try:
+                from openai import OpenAI
+            except ImportError:
+                return None
+            cls._client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+        return cls._client
 
     def generate(
         self,
@@ -22,12 +35,9 @@ class OpenAIAdapter(BaseLLM):
         max_tokens: int = 4096,
         json_schema: dict[str, Any] | None = None,
     ) -> LLMResponse:
-        try:
-            from openai import OpenAI
-        except ImportError:
+        client = self._get_client()
+        if client is None:
             return LLMResponse(text="", model=self.model)
-
-        client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
         messages: list[dict[str, str]] = []
         if system:

@@ -70,6 +70,9 @@ medium_velog = "hirekit.sources.global_.medium_velog:MediumVelogSource"
 career_page = "hirekit.sources.global_.career_page:CareerPageSource"
 community_review = "hirekit.sources.kr.community_review:CommunityReviewSource"
 linkedin_search = "hirekit.sources.global_.linkedin_search:LinkedInSearchSource"
+military_service = "hirekit.sources.kr.military_service:MilitaryServiceSource"
+pension = "hirekit.sources.kr.pension:PensionSource"
+job_postings = "hirekit.sources.kr.job_postings:JobPostingsSource"
 
 [project.entry-points."hirekit.outputs"]
 markdown = "hirekit.output.markdown:MarkdownRenderer"

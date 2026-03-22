@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -13,7 +14,14 @@ from hirekit.core.config import HireKitConfig
 from hirekit.core.parallel import collect_parallel
 from hirekit.engine.scorer import Scorecard, create_default_scorecard
 from hirekit.llm.base import BaseLLM, NoLLM
-from hirekit.sources.base import SourceRegistry, SourceResult
+from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
+
+
+def _source_hash(sources: list[BaseSource]) -> str:
+    """Return a short hash of the active source names for cache key versioning."""
+    names = ",".join(sorted(s.name for s in sources))
+    return hashlib.md5(names.encode()).hexdigest()[:8]
+
 
 # Section mapping for tier-based analysis
 TIER_SECTIONS = {
@@ -123,8 +131,11 @@ class CompanyAnalyzer:
             )
             from hirekit.sources.kr import (  # noqa: F401
                 dart,
+                job_postings,
+                military_service,
                 naver_news,
                 naver_search,
+                pension,
                 tech_blog,
             )
         except ImportError:
@@ -166,8 +177,9 @@ class CompanyAnalyzer:
         disabled = set(self.config.sources.disabled)
         sources = [s for s in sources if s.name not in disabled]
 
-        # 2. Check cache
-        cache_key = f"analysis:{company}:{region}:{tier}"
+        # 2. Check cache (key includes source hash so config changes bust the cache)
+        source_hash = _source_hash(sources)
+        cache_key = f"analysis:{company}:{region}:{tier}:{source_hash}"
         cached = self.cache.get(cache_key)
         if cached:
             # to_dict() serializes 'sources' (metadata list) and 'scorecard' (dict),
