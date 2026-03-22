@@ -1,0 +1,202 @@
+{
+  "CJ올리브영": {
+    "corp_code": "00429870",
+    "corp_name": "씨제이올리브영",
+    "stock_code": " "
+  },
+  "JYP엔터테인먼트": {
+    "corp_code": "00258689",
+    "corp_name": "JYP Ent.",
+    "stock_code": "035900"
+  },
+  "KT": {
+    "corp_code": "00186461",
+    "corp_name": "케이티",
+    "stock_code": " "
+  },
+  "SK텔레콤": {
+    "corp_code": "01413496",
+    "corp_name": "에스케이텔레콤씨에스티원",
+    "stock_code": " "
+  },
+  "SM엔터테인먼트": {
+    "corp_code": "00193595",
+    "corp_name": "SMEC",
+    "stock_code": " "
+  },
+  "SSG닷컴": {
+    "corp_code": "01346404",
+    "corp_name": "에스에스지닷컴",
+    "stock_code": " "
+  },
+  "넥슨코리아": {
+    "corp_code": "00547033",
+    "corp_name": "넥슨코리아",
+    "stock_code": " "
+  },
+  "넷마블": {
+    "corp_code": "00441854",
+    "corp_name": "넷마블",
+    "stock_code": " "
+  },
+  "두나무": {
+    "corp_code": "01310241",
+    "corp_name": "두나무",
+    "stock_code": " "
+  },
+  "뤼튼": {
+    "corp_code": "01921445",
+    "corp_name": "뤼튼테크놀로지스",
+    "stock_code": " "
+  },
+  "리디": {
+    "corp_code": "01083587",
+    "corp_name": "리디",
+    "stock_code": " "
+  },
+  "리벨리온": {
+    "corp_code": "01735486",
+    "corp_name": "리벨리온",
+    "stock_code": " "
+  },
+  "리턴제로": {
+    "corp_code": "01651227",
+    "corp_name": "리턴제로",
+    "stock_code": " "
+  },
+  "마이리얼트립": {
+    "corp_code": "01451043",
+    "corp_name": "마이리얼트립",
+    "stock_code": " "
+  },
+  "마키나락스": {
+    "corp_code": "01709065",
+    "corp_name": "마키나락스",
+    "stock_code": " "
+  },
+  "메이크스타": {
+    "corp_code": "01629963",
+    "corp_name": "메이크스타",
+    "stock_code": " "
+  },
+  "밀리의서재": {
+    "corp_code": "01467451",
+    "corp_name": "KT밀리의서재",
+    "stock_code": "418470"
+  },
+  "뱅크샐러드": {
+    "corp_code": "01446759",
+    "corp_name": "뱅크샐러드",
+    "stock_code": " "
+  },
+  "버킷플레이스": {
+    "corp_code": "01381054",
+    "corp_name": "버킷플레이스",
+    "stock_code": " "
+  },
+  "빗썸": {
+    "corp_code": "01214044",
+    "corp_name": "빗썸",
+    "stock_code": " "
+  },
+  "센드버드": {
+    "corp_code": "01459805",
+    "corp_name": "센드버드코리아",
+    "stock_code": " "
+  },
+  "스노우": {
+    "corp_code": "01213832",
+    "corp_name": "스노우",
+    "stock_code": " "
+  },
+  "쏘카": {
+    "corp_code": "01026157",
+    "corp_name": "쏘카",
+    "stock_code": "403550"
+  },
+  "업스테이지": {
+    "corp_code": "01786541",
+    "corp_name": "업스테이지",
+    "stock_code": " "
+  },
+  "에이프로젠": {
+    "corp_code": "00549059",
+    "corp_name": "에이프로젠",
+    "stock_code": " "
+  },
+  "엔씨소프트": {
+    "corp_code": "00261443",
+    "corp_name": "엔씨소프트",
+    "stock_code": "036570"
+  },
+  "왓챠": {
+    "corp_code": "01450424",
+    "corp_name": "왓챠",
+    "stock_code": " "
+  },
+  "원티드랩": {
+    "corp_code": "01441611",
+    "corp_name": "원티드랩",
+    "stock_code": "376980"
+  },
+  "지마켓": {
+    "corp_code": "00310280",
+    "corp_name": "지마켓",
+    "stock_code": " "
+  },
+  "직방": {
+    "corp_code": "01134766",
+    "corp_name": "직방",
+    "stock_code": " "
+  },
+  "채널코퍼레이션": {
+    "corp_code": "01648560",
+    "corp_name": "채널코퍼레이션",
+    "stock_code": " "
+  },
+  "컬리": {
+    "corp_code": "01153956",
+    "corp_name": "컬리",
+    "stock_code": " "
+  },
+  "코인원": {
+    "corp_code": "01263378",
+    "corp_name": "코인원",
+    "stock_code": " "
+  },
+  "크래프톤": {
+    "corp_code": "00760971",
+    "corp_name": "크래프톤",
+    "stock_code": "259960"
+  },
+  "클래스101": {
+    "corp_code": "01543821",
+    "corp_name": "클래스101",
+    "stock_code": " "
+  },
+  "포티투마루": {
+    "corp_code": "01585915",
+    "corp_name": "포티투마루",
+    "stock_code": " "
+  },
+  "퓨리오사AI": {
+    "corp_code": "01649675",
+    "corp_name": "퓨리오사에이아이",
+    "stock_code": " "
+  },
+  "핀다": {
+    "corp_code": "01646915",
+    "corp_name": "핀다",
+    "stock_code": " "
+  },
+  "하이브": {
+    "corp_code": "01652129",
+    "corp_name": "하이브",
+    "stock_code": " "
+  },
+  "그린랩스": {
+    "corp_code": "01540639",
+    "corp_name": "그린랩스",
+    "stock_code": " "
+  }
+}
