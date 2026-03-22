@@ -13933,11 +13933,11 @@
       "revenue_3y": [
         {
           "year": 2024,
-          "amount": 56670000000
+          "amount": 2945621000000
         },
         {
           "year": 2023,
-          "amount": 29879000000
+          "amount": 2494045000000
         },
         {
           "year": 2022,
@@ -13975,8 +13975,8 @@
       "total_assets": 62805282000000,
       "total_debt": 56265151000000,
       "debt_ratio": 860.3,
-      "revenue_growth_yoy": "+89.7%",
-      "profit_margin": "1070.9%",
+      "revenue_growth_yoy": "+18.1%",
+      "profit_margin": "20.6%",
       "employee_total": 1663,
       "employee_avg_salary": 117558628,
       "employee_avg_tenure": "3년 6개월"
