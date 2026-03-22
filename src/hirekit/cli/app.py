@@ -627,6 +627,175 @@ def resume(
         console.print(f"[green]리포트 저장:[/green] {out_path}")
 
 
+@app.command()
+def strategy(
+    target: str = typer.Argument(help="목표 기업명"),
+    current: str = typer.Option(None, "--current", "-c", help="현재 재직 회사"),
+    role: str = typer.Option(None, "--role", "-r", help="목표 직군 (예: 백엔드, PM)"),
+    experience: int = typer.Option(0, "--experience", "-e", help="경력 연차"),
+    skills: str = typer.Option("", "--skills", "-s", help="보유 기술 (쉼표 구분, 예: python,aws,react)"),
+    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, markdown"),
+) -> None:
+    """커리어 전략 분석 — 목표 기업에 맞는 이직/취업 전략을 제안해요."""
+    from hirekit.engine.career_strategy import CareerProfile, CareerStrategyEngine
+    from hirekit.core.config import load_config
+
+    config = load_config()
+
+    skills_list = [s.strip() for s in skills.split(",") if s.strip()] if skills else []
+
+    profile = CareerProfile(
+        target_company=target,
+        current_company=current,
+        years_of_experience=experience,
+        current_role="",
+        target_role=role or "",
+        skills=skills_list,
+    )
+
+    console.print(Panel(
+        f"[bold]목표 기업:[/bold] {target}\n"
+        f"[bold]현재 회사:[/bold] {current or '미지정'}  "
+        f"[bold]목표 직군:[/bold] {role or '미지정'}  "
+        f"[bold]경력:[/bold] {experience}년",
+        title="[bold blue]HireKit 커리어 전략[/bold blue]",
+        border_style="blue",
+    ))
+
+    engine = CareerStrategyEngine()
+    with console.status("[bold green]전략 분석 중..."):
+        result = engine.analyze(profile)
+
+    if output == "markdown":
+        from hirekit.core.config import load_config as _lc
+        out_path = Path(config.output.directory) / f"{target}_strategy.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        lines = [
+            f"# 커리어 전략: {target}",
+            f"**적합도:** {result.fit_score:.0f}/100",
+            "",
+            f"## 접근 전략\n{result.approach_strategy}",
+            "",
+            "## 이력서 강조 포인트",
+            *[f"- {f}" for f in result.resume_focus],
+            "",
+            "## 면접 준비",
+            *[f"- {p}" for p in result.interview_prep],
+            "",
+            f"## 준비 기간\n{result.timeline}",
+            "",
+            f"## 커리어 경로\n{result.career_path}",
+            "",
+            f"## 리스크 평가\n{result.risk_assessment}",
+        ]
+        if result.gap_analysis:
+            lines += [
+                "",
+                "## 스킬 갭 분석",
+                "| 기술 | 카테고리 | 중요도 | 학습 제안 |",
+                "|------|----------|--------|-----------|",
+                *[
+                    f"| {g.skill} | {g.category} | {g.importance} | {g.learning_suggestion} |"
+                    for g in result.gap_analysis
+                ],
+            ]
+        if result.alternative_companies:
+            lines += [
+                "",
+                f"## 대안 기업\n{', '.join(result.alternative_companies)}",
+            ]
+        out_path.write_text("\n".join(lines), encoding="utf-8")
+        console.print(f"[green]전략 리포트 저장:[/green] {out_path}")
+    else:
+        # Terminal output
+        console.print(f"\n[bold cyan]적합도 점수:[/bold cyan] {result.fit_score:.0f}/100")
+        console.print(f"\n[bold]접근 전략:[/bold]\n{result.approach_strategy}")
+
+        if result.gap_analysis:
+            console.print("\n[bold red]스킬 갭:[/bold red]")
+            for g in result.gap_analysis:
+                importance_style = "red" if g.importance == "required" else "yellow"
+                console.print(
+                    f"  [{importance_style}]•[/{importance_style}] "
+                    f"[bold]{g.skill}[/bold] ({g.category}) — {g.learning_suggestion}"
+                )
+
+        console.print("\n[bold green]이력서 강조 포인트:[/bold green]")
+        for f in result.resume_focus:
+            console.print(f"  • {f}")
+
+        console.print("\n[bold blue]면접 준비:[/bold blue]")
+        for p in result.interview_prep:
+            console.print(f"  • {p}")
+
+        console.print(f"\n[bold]준비 기간:[/bold] {result.timeline}")
+        console.print(f"\n[bold]커리어 경로:[/bold] {result.career_path}")
+        console.print(f"\n[bold]리스크 평가:[/bold]\n{result.risk_assessment}")
+
+        if result.alternative_companies:
+            console.print(
+                f"\n[bold]대안 기업:[/bold] {', '.join(result.alternative_companies)}"
+            )
+
+
+@app.command()
+def compare(
+    companies: list[str] = typer.Argument(help="비교할 기업 2-3개 (예: 토스 카카오 네이버)"),
+    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, markdown"),
+) -> None:
+    """기업 비교 — 여러 기업을 나란히 비교해요."""
+    from hirekit.engine.company_comparator import CompanyComparator
+    from hirekit.core.config import load_config
+
+    if len(companies) < 2:
+        console.print("[red]최소 2개 기업을 입력해주세요.[/red]")
+        raise typer.Exit(1)
+
+    config = load_config()
+    comparator = CompanyComparator()
+
+    console.print(Panel(
+        f"[bold]비교 기업:[/bold] {' vs '.join(companies)}",
+        title="[bold blue]HireKit 기업 비교[/bold blue]",
+        border_style="blue",
+    ))
+
+    with console.status("[bold green]기업 비교 중..."):
+        result = comparator.compare_many(companies)
+
+    if output == "markdown":
+        out_path = Path(config.output.directory) / f"{'_vs_'.join(companies)}_compare.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(result.to_markdown(), encoding="utf-8")
+        console.print(f"[green]비교 리포트 저장:[/green] {out_path}")
+    else:
+        from hirekit.engine.company_comparator import _DIMENSION_LABELS
+        from hirekit.core.scoring import score_to_grade
+
+        table = Table(title=f"기업 비교: {' vs '.join(result.companies)}")
+        table.add_column("차원", style="cyan")
+        for name in result.companies:
+            table.add_column(name, justify="right")
+        table.add_column("승자", style="green")
+
+        for dim_key, label in _DIMENSION_LABELS.items():
+            scores = result.dimensions.get(dim_key, [])
+            score_cells = [f"{s:.1f}/5" for s in scores]
+            winner = result.winner_by_dimension.get(dim_key, "-")
+            table.add_row(label, *score_cells, winner)
+
+        # Overall row
+        overall_cells = [
+            f"[bold]{result.overall_scores.get(n, 0):.0f}/100[/bold] "
+            f"(등급 {score_to_grade(result.overall_scores.get(n, 0))})"
+            for n in result.companies
+        ]
+        table.add_row("[bold]종합[/bold]", *overall_cells, f"[bold]{result.winner}[/bold]")
+        console.print(table)
+
+        console.print(f"\n[bold]추천:[/bold]\n{result.overall_recommendation}")
+
+
 # --- Helpers ---
 
 def _get_llm(config: HireKitConfig) -> BaseLLM:  # noqa: F821
