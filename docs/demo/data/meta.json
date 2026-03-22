@@ -427,7 +427,7 @@
       "Stray Kids"
     ],
     "founded_year": 1997,
-    "employee_count": 700,
+    "employee_count": 453,
     "hq_location": "마포",
     "description": "TWICE, Stray Kids, ITZY 등 글로벌 K-POP 아티스트를 보유한 엔터테인먼트 기업입니다. 자체 팬 플랫폼 NEON을 개발하며 테크 역량을 강화하고 있습니다.",
     "scorecard": {
@@ -1125,7 +1125,7 @@
       "EXO·aespa·NCT"
     ],
     "founded_year": 1995,
-    "employee_count": 1200,
+    "employee_count": 649,
     "hq_location": "성수",
     "description": "K-POP 산업의 선구자로 EXO, aespa, NCT, SHINee 등 글로벌 아티스트를 보유합니다. 버블 등 자체 팬 플랫폼을 운영하며 엔터 테크 기업으로 진화 중입니다.",
     "scorecard": {
@@ -1256,7 +1256,7 @@
       "새벽배송",
       "쓱배송"
     ],
-    "founded_year": 2014,
+    "founded_year": 2019,
     "employee_count": 1500,
     "hq_location": "강남",
     "description": "신세계그룹의 통합 온라인 쇼핑 플랫폼으로, 이마트·신세계백화점과 연계한 O2O 서비스를 제공합니다. 새벽배송과 쓱배송 물류 혁신을 통해 프리미엄 이커머스 시장을 공략하고 있습니다.",
@@ -1295,7 +1295,7 @@
     "global_presence": [
       "한국"
     ],
-    "ceo": "최훈학",
+    "ceo": "최택원",
     "core_business": "신세계그룹의 통합 온라인 쇼핑 플랫폼으로 이마트·신세계백화점·스타벅스 등 그룹 계열 상품을 온라인으로 판매한다. 신선식품·뷰티·패션 카테고리가 핵심이며, 새벽배송(쓱배송)이 차별점이다.",
     "key_metrics": {
       "revenue": "약 1조 5,755억 원 (2024년 추정)",
@@ -1513,7 +1513,7 @@
       "Google Cloud",
       "YouTube"
     ],
-    "founded_year": 2006,
+    "founded_year": 2004,
     "employee_count": 800,
     "hq_location": "강남",
     "description": "구글의 한국 법인으로 검색, 광고, 클라우드, YouTube 등 서비스를 운영합니다. 한국 시장 특화 비즈니스와 구글 글로벌 제품 개발에 참여하는 엔지니어링 포지션을 채용합니다.",
@@ -1553,7 +1553,7 @@
     "global_presence": [
       "전세계 (모회사 Alphabet 기준 200개국+)"
     ],
-    "ceo": "김경훈",
+    "ceo": "윤구",
     "is_foreign": true,
     "parent_company": "Alphabet Inc.",
     "parent_ticker": "GOOGL",
@@ -1771,7 +1771,7 @@
       "네이버 쇼핑"
     ],
     "founded_year": 1999,
-    "employee_count": 4600,
+    "employee_count": 3495,
     "hq_location": "판교",
     "description": "국내 최대 인터넷 기업으로 검색, 커머스, 금융, 웹툰, 클라우드 등 다양한 서비스를 운영합니다. 자체 LLM HyperCLOVA X를 보유하고 글로벌 AI 기업 도약을 목표로 하고 있습니다.",
     "scorecard": {
@@ -2352,7 +2352,7 @@
       "유럽",
       "동남아시아"
     ],
-    "ceo": "이정헌",
+    "ceo": "강대현, 김정욱",
     "core_business": "국내 게임 매출 1위 기업(일본 NEXON Co. Ltd 자회사)으로 메이플스토리·던전앤파이터·FC온라인 등 장수 IP를 중심으로 PC·모바일·콘솔 게임을 개발·서비스한다. 핵심 수익원은 아이템 부분유료화 매출과 중국 던전앤파이터 라이선스다.",
     "key_metrics": {
       "revenue": "2조 4,173억 원 (넥슨코리아 한국법인, 2024년), 그룹 전체 약 4조 91억 원",
@@ -3300,7 +3300,7 @@
       "리디페이퍼",
       "리디셀렉트"
     ],
-    "founded_year": 2009,
+    "founded_year": 2008,
     "employee_count": 500,
     "hq_location": "마포",
     "description": "국내 최대 전자책·웹소설 플랫폼으로, B2C 독서 서비스와 전자 기기 리디페이퍼를 운영합니다. 콘텐츠 IP 비즈니스와 글로벌 웹소설 시장 진출을 추진 중입니다.",
@@ -3561,7 +3561,7 @@
       "VITO (AI 통화 녹음·요약)",
       "클로바노트 경쟁사"
     ],
-    "founded_year": 2019,
+    "founded_year": 2018,
     "employee_count": 100,
     "hq_location": "강남",
     "description": "AI 음성인식 기반 통화 녹음·요약 서비스 VITO를 운영하는 스타트업입니다. 국내 최고 수준의 한국어 STT(음성→텍스트) 기술을 보유하고 B2B로 사업을 확장하고 있습니다.",
@@ -4105,7 +4105,7 @@
       "전 세계 (글로벌)",
       "한국 포함 아시아태평양"
     ],
-    "ceo": "옥재윤",
+    "ceo": "김진아",
     "is_foreign": true,
     "parent_company": "Meta Platforms Inc.",
     "parent_ticker": "META",
@@ -4351,7 +4351,7 @@
     ],
     "founded_year": 2016,
     "employee_count": 200,
-    "hq_location": "강남",
+    "hq_location": "마포",
     "description": "월정액 전자책·오디오북 구독 서비스로, 12만권 이상의 콘텐츠를 제공합니다. KT의 자회사로 편입되어 통신 플랫폼과 연계한 구독 확대를 추진하고 있습니다.",
     "scorecard": {
       "job_fit": {
@@ -4476,7 +4476,7 @@
     ],
     "founded_year": 2012,
     "employee_count": 350,
-    "hq_location": "강남",
+    "hq_location": "마포",
     "description": "국내 대표 마이데이터 플랫폼으로 자산·대출·보험을 한 곳에서 관리하는 서비스를 제공합니다. 데이터 기반 금융 혁신을 추구하며 API 공개와 오픈소스 기여로 개발 문화가 우수합니다.",
     "scorecard": {
       "job_fit": {
@@ -5138,7 +5138,7 @@
       "MuleSoft",
       "Einstein AI"
     ],
-    "founded_year": 2000,
+    "founded_year": 2006,
     "employee_count": 400,
     "hq_location": "강남",
     "description": "글로벌 CRM SaaS 1위 기업 세일즈포스의 한국 법인으로, 기업 고객에게 세일즈·마케팅·서비스 자동화 솔루션을 제공합니다. Slack 인수 이후 협업 플랫폼 사업도 병행합니다.",
@@ -5283,7 +5283,7 @@
     ],
     "founded_year": 2013,
     "employee_count": 500,
-    "hq_location": "판교",
+    "hq_location": "강남",
     "description": "글로벌 채팅·음성 API SaaS 기업으로, 앱 내 채팅 기능 구축을 위한 SDK와 API를 제공합니다. 포춘500 기업을 포함한 전 세계 4000개+ 고객사를 보유한 B2B SaaS 스타트업입니다.",
     "scorecard": {
       "job_fit": {
@@ -5410,8 +5410,8 @@
       "NAVER ZEPETO",
       "B612"
     ],
-    "founded_year": 2015,
-    "employee_count": 500,
+    "founded_year": 2016,
+    "employee_count": 378,
     "hq_location": "판교",
     "description": "네이버 계열 카메라·AR 앱 기업으로 SNOW, B612, ZEPETO 등 글로벌 히트 앱을 보유합니다. ZEPETO는 전 세계 4억 명 이상의 사용자를 보유한 메타버스 플랫폼으로 성장했습니다.",
     "scorecard": {
@@ -5544,8 +5544,8 @@
       "연애의 과학",
       "텍스트앳"
     ],
-    "founded_year": 2014,
-    "employee_count": 120,
+    "founded_year": 2011,
+    "employee_count": 42,
     "hq_location": "성수",
     "description": "국내 대표 대화형 AI 스타트업으로, AI 친구 서비스 '이루다'를 개발합니다. 한국어 감성 대화 AI 기술에 특화되어 있으며, 데이터 수집·처리·모델 학습까지 전 파이프라인을 보유합니다.",
     "scorecard": {
@@ -5662,7 +5662,7 @@
       "VCNC (타다)"
     ],
     "founded_year": 2011,
-    "employee_count": 800,
+    "employee_count": 466,
     "hq_location": "강남",
     "description": "국내 1위 카셰어링 플랫폼으로, 전국 4500개+ 존에서 1만 6000대 차량을 운영합니다. 코스닥 상장 기업으로, 타다·쏘카플랜 등 모빌리티 생태계 확장에 주력합니다.",
     "scorecard": {
@@ -5781,8 +5781,8 @@
       "Mac",
       "App Store"
     ],
-    "founded_year": 1993,
-    "employee_count": 500,
+    "founded_year": 1998,
+    "employee_count": 1224,
     "hq_location": "강남",
     "description": "애플의 한국 법인으로, 리테일·영업·마케팅·기술 지원을 담당합니다. 글로벌 애플 제품의 국내 운영과 일부 엔지니어링 포지션을 채용합니다.",
     "scorecard": {
@@ -6046,7 +6046,7 @@
       "인터파크 트리플",
       "야놀자 클라우드"
     ],
-    "founded_year": 2005,
+    "founded_year": 2007,
     "employee_count": 4000,
     "hq_location": "강남",
     "description": "국내 1위 숙박·여행 플랫폼으로, 야놀자·인터파크·트리플을 운영합니다. 소프트뱅크 투자를 받은 유니콘으로 글로벌 여행 테크 기업을 지향하며, 호텔 솔루션 SaaS도 제공합니다.",
@@ -6095,7 +6095,7 @@
       "중동",
       "유럽 (28개국 69개 오피스, 200개국 서비스)"
     ],
-    "ceo": "최찬석 (사업전략·경영 총괄 CEO)",
+    "ceo": "이수진 (총괄대표)",
     "core_business": "국내 1위 여가·숙박 예약 플랫폼에서 글로벌 여행 테크 기업으로 전환 중. 야놀자앱(국내 숙박·레저 예약), 인터파크트리플(여행 종합), 야놀자클라우드(호텔 SaaS 솔루션)가 3대 사업 축. 예약 수수료 + 클라우드 SaaS 구독 + 광고가 수익원.",
     "key_metrics": {
       "revenue": "2023년 그룹 매출 약 7,000억 원(추정)",
@@ -6593,7 +6593,7 @@
       "쓰론앤리버티"
     ],
     "founded_year": 1997,
-    "employee_count": 4500,
+    "employee_count": 2175,
     "hq_location": "판교",
     "description": "국내 3대 게임사 중 하나로 리니지·블레이드앤소울 등 장수 MMORPG IP를 보유합니다. AI 기술을 게임에 접목한 'NC AI'를 내세우며 다음 세대 게임 엔진 개발에 투자하고 있습니다.",
     "scorecard": {
@@ -6640,7 +6640,7 @@
       "대만",
       "유럽"
     ],
-    "ceo": "박병무",
+    "ceo": "김택진, 박병무 (공동대표)",
     "core_business": "리니지·블레이드&소울·아이온 등 MMORPG IP를 보유한 국내 3대 게임사. 모바일·PC 게임 과금(인앱 구매·배틀패스)이 주 수익원. AI 기반 게임 NPC·콘텐츠 생성과 신규 IP 개발로 전환 추진 중.",
     "key_metrics": {
       "revenue": "2023년 매출 약 1조 7,000억 원",
@@ -6736,7 +6736,7 @@
       "DALL-E",
       "Sora"
     ],
-    "founded_year": 2015,
+    "founded_year": 2025,
     "employee_count": null,
     "hq_location": "강남",
     "description": "생성형 AI 시대를 연 OpenAI의 한국 법인으로, ChatGPT·GPT-4 등 글로벌 AI 서비스의 국내 파트너십과 세일즈를 담당합니다. 한국 기업용 AI 도입을 지원합니다.",
@@ -6874,7 +6874,7 @@
       "왓챠피디아 (콘텐츠 평점)"
     ],
     "founded_year": 2011,
-    "employee_count": 200,
+    "employee_count": 110,
     "hq_location": "강남",
     "description": "국내 독립 OTT 플랫폼으로, 영화·드라마 스트리밍과 콘텐츠 평점 서비스 왓챠피디아를 운영합니다. 넷플릭스 등 글로벌 OTT와 경쟁 중이며 경영 효율화를 추진하고 있습니다.",
     "scorecard": {
@@ -6970,7 +6970,7 @@
     "sources": 11,
     "score": 75.33333333333333,
     "grade": "A",
-    "industry": "이커머스",
+    "industry": "푸드테크/배달",
     "sub_industry": "음식배달 플랫폼",
     "size": "대기업",
     "tech_stack": [
@@ -7034,7 +7034,7 @@
       "한국",
       "글로벌 진출 준비 중"
     ],
-    "ceo": "김재영",
+    "ceo": "김범석",
     "core_business": "국내 1위 배달 플랫폼 배달의민족 운영사. 음식 배달 중개 수수료·광고(울트라콜·오픈리스트)·자체배달(배민라이더스)이 주 수익원. 독일 딜리버리히어로(DH) 자회사로 글로벌 배달 플랫폼 생태계 일원. B마트(즉시 배송 퀵커머스)도 확장 중.",
     "key_metrics": {
       "revenue": "2023년 매출 약 3조 5,000억 원(추정)",
@@ -7132,7 +7132,7 @@
       "원티드 긱스"
     ],
     "founded_year": 2015,
-    "employee_count": 350,
+    "employee_count": 180,
     "hq_location": "강남",
     "description": "AI 기반 채용 플랫폼으로, 지인 추천 채용과 커리어 인사이트 서비스를 제공합니다. 코스닥 상장 HR테크 기업으로 기업 HR 솔루션과 프리랜서 플랫폼으로 사업을 확장하고 있습니다.",
     "scorecard": {
@@ -7273,8 +7273,8 @@
       "옥션",
       "G9"
     ],
-    "founded_year": 1998,
-    "employee_count": 2000,
+    "founded_year": 2000,
+    "employee_count": 905,
     "hq_location": "강남",
     "description": "국내 최초 오픈마켓으로 신세계그룹에 인수된 이커머스 플랫폼입니다. 지마켓·옥션을 통합 운영하며 SSG닷컴과 연계한 신세계 이커머스 생태계를 구축하고 있습니다.",
     "scorecard": {
@@ -7693,7 +7693,7 @@
       "KakaoAI"
     ],
     "founded_year": 2010,
-    "employee_count": 12000,
+    "employee_count": 3823,
     "hq_location": "판교",
     "description": "국민 메신저 카카오톡을 운영하는 국내 2위 인터넷 기업입니다. 카카오뱅크·카카오페이·카카오엔터 등 계열사와 함께 금융·콘텐츠·모빌리티 전반의 디지털 생활 플랫폼을 운영합니다.",
     "scorecard": {
@@ -7978,7 +7978,7 @@
       "지그재그 (패션 앱)",
       "포스티 (패션 플랫폼)"
     ],
-    "founded_year": 2015,
+    "founded_year": 2012,
     "employee_count": 500,
     "hq_location": "강남",
     "description": "카카오 계열의 패션 이커머스 플랫폼으로, 여성 패션 앱 지그재그를 운영합니다. AI 추천 기반 개인화 쇼핑 경험을 제공하며 MAU 700만의 국내 최대 여성 패션 플랫폼입니다.",
@@ -8132,7 +8132,7 @@
       "일본",
       "동남아시아"
     ],
-    "ceo": "이제욱",
+    "ceo": "권기수, 장윤중",
     "core_business": "웹툰·웹소설 플랫폼(카카오페이지·카카오웹툰)과 음악 스트리밍(멜론), 아티스트 매니지먼트가 3대 수익 축입니다. IP 기반 OSMU(One Source Multi Use) 전략으로 드라마·영화·굿즈로 확장하며 글로벌 K-콘텐츠 수출을 확대합니다.",
     "key_metrics": {
       "revenue": "약 1.7조 원 (2023년)",
@@ -8353,7 +8353,7 @@
       "소수점 투자",
       "해외주식"
     ],
-    "founded_year": 2019,
+    "founded_year": 2008,
     "employee_count": 500,
     "hq_location": "판교",
     "description": "카카오페이 계열의 인터넷 증권사로, 소수점 매매·해외주식 등 MZ세대 투자자를 위한 서비스를 제공합니다. 쉽고 직관적인 UX로 개인 투자자를 확보하고 있습니다.",
@@ -8985,7 +8985,7 @@
       "클래스101+ (구독)"
     ],
     "founded_year": 2018,
-    "employee_count": 300,
+    "employee_count": 86,
     "hq_location": "강남",
     "description": "크리에이터와 수강생을 연결하는 온라인 클래스 플랫폼으로, 취미·커리어·재테크 등 다양한 분야의 강의를 제공합니다. 월정액 구독 모델로 전환하며 에듀테크 시장을 선도합니다.",
     "scorecard": {
@@ -9379,8 +9379,8 @@
       "잔디 (기업 메신저)",
       "Jandi Connect"
     ],
-    "founded_year": 2013,
-    "employee_count": 150,
+    "founded_year": 2014,
+    "employee_count": 34,
     "hq_location": "강남",
     "description": "기업용 협업 메신저 '잔디'를 운영하는 B2B SaaS 기업입니다. 국내외 30만+ 기업이 사용하는 업무용 메신저로, 아시아 기업 시장에 특화된 협업 툴을 제공합니다.",
     "scorecard": {
@@ -9492,7 +9492,7 @@
       "토스뱅크 대출",
       "먼저 이자 주는 적금"
     ],
-    "founded_year": 2021,
+    "founded_year": 2020,
     "employee_count": 600,
     "hq_location": "강남",
     "description": "비바리퍼블리카 계열의 인터넷전문은행으로, 혁신적인 금융 상품과 UX로 빠르게 성장하고 있습니다. 출범 2년 만에 흑자 전환에 성공하며 3호 인터넷전문은행의 가능성을 증명했습니다.",
@@ -9857,9 +9857,9 @@
       "LLM 기반 문서 검색",
       "기업용 AI 챗봇"
     ],
-    "founded_year": 2018,
+    "founded_year": 2015,
     "employee_count": 100,
-    "hq_location": "성수",
+    "hq_location": "서초",
     "description": "기계독해(MRC)와 질의응답(QA) AI 기술 특화 스타트업으로, 기업용 문서 검색과 AI 챗봇 솔루션을 제공합니다. 삼성·현대 등 대기업에 엔터프라이즈 AI를 공급하고 있습니다.",
     "scorecard": {
       "job_fit": {
