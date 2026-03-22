@@ -1,0 +1,84 @@
+{
+  "카카오": {
+    "week52_high": 71600,
+    "week52_low": 36300,
+    "stock_code": "035720",
+    "corp_name": "(주)카카오",
+    "trade_date": "20260320"
+  },
+  "카카오페이": {
+    "week52_high": 114000,
+    "week52_low": 0,
+    "stock_code": "377300",
+    "corp_name": "주식회사 카카오페이",
+    "trade_date": "20260320"
+  },
+  "카카오뱅크": {
+    "week52_high": 38750,
+    "week52_low": 19800,
+    "stock_code": "323410",
+    "corp_name": "주식회사 카카오뱅크",
+    "trade_date": "20260320"
+  },
+  "카카오게임즈": {
+    "week52_high": 23600,
+    "week52_low": 12100,
+    "stock_code": "293490",
+    "corp_name": "(주)카카오게임즈",
+    "trade_date": "20260320"
+  },
+  "카카오엔터테인먼트": {
+    "stock_code": "016170",
+    "corp_name": "(주)카카오엠",
+    "trade_date": "20260320"
+  },
+  "네이버": {
+    "week52_high": 295000,
+    "week52_low": 176200,
+    "stock_code": "035420",
+    "corp_name": "네이버(주)",
+    "trade_date": "20260320"
+  },
+  "삼성전자": {
+    "week52_high": 223000,
+    "week52_low": 52900,
+    "stock_code": "005930",
+    "corp_name": "삼성전자(주)",
+    "trade_date": "20260320"
+  },
+  "삼성SDS": {
+    "week52_high": 198800,
+    "week52_low": 109000,
+    "stock_code": "018260",
+    "corp_name": "삼성에스디에스(주)",
+    "trade_date": "20260320"
+  },
+  "LG전자": {
+    "week52_high": 151900,
+    "week52_low": 64100,
+    "stock_code": "066570",
+    "corp_name": "LG전자(주)",
+    "trade_date": "20260320"
+  },
+  "SK하이닉스": {
+    "week52_high": 1099000,
+    "week52_low": 162700,
+    "stock_code": "000660",
+    "corp_name": "에스케이하이닉스(주)",
+    "trade_date": "20260320"
+  },
+  "현대자동차": {
+    "week52_high": 687000,
+    "week52_low": 175800,
+    "stock_code": "005380",
+    "corp_name": "현대자동차(주)",
+    "trade_date": "20260320"
+  },
+  "CJ ENM": {
+    "week52_high": 82300,
+    "week52_low": 53700,
+    "stock_code": "035760",
+    "corp_name": "(주)씨제이이엔엠",
+    "trade_date": "20260320"
+  }
+}

@@ -16,7 +16,13 @@
     "fax_no": "02-6718-3647",
     "induty_code": "63120",
     "est_dt": "19950216",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "3922",
+    "auditor": "삼정회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "카카오페이": {
     "corp_code": "01244601",
@@ -35,7 +41,13 @@
     "fax_no": "",
     "induty_code": "66199",
     "est_dt": "20170403",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "1282",
+    "auditor": "삼일회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "카카오뱅크": {
     "corp_code": "01133217",
@@ -54,7 +66,13 @@
     "fax_no": "02-6288-6010",
     "induty_code": "64121",
     "est_dt": "20160122",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "1806",
+    "auditor": "안진회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "카카오게임즈": {
     "corp_code": "01137383",
@@ -73,7 +91,13 @@
     "fax_no": "",
     "induty_code": "5821",
     "est_dt": "20130822",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "473",
+    "auditor": "삼정회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "카카오엔터테인먼트": {
     "corp_code": "00130949",
@@ -92,7 +116,13 @@
     "fax_no": "02-2280-7799",
     "induty_code": "182",
     "est_dt": "19820707",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "391",
+    "auditor": "삼일회계법인",
+    "biz_status": "폐업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "토스": {
     "corp_code": "01212921",
@@ -111,7 +141,13 @@
     "fax_no": "02-566-7017",
     "induty_code": "66199",
     "est_dt": "20130423",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "1126",
+    "auditor": "한영회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "비바리퍼블리카": {
     "corp_code": "01212921",
@@ -130,7 +166,13 @@
     "fax_no": "02-566-7017",
     "induty_code": "66199",
     "est_dt": "20130423",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "1126",
+    "auditor": "한영회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "토스뱅크": {
     "corp_code": "01529195",
@@ -149,7 +191,13 @@
     "fax_no": "070-4335-0619",
     "induty_code": "64121",
     "est_dt": "20200131",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "토스증권": {
     "corp_code": "01527984",
@@ -168,7 +216,13 @@
     "fax_no": "",
     "induty_code": "66",
     "est_dt": "20181127",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "네이버": {
     "corp_code": "00266961",
@@ -187,7 +241,13 @@
     "fax_no": "031-784-4175",
     "induty_code": "63120",
     "est_dt": "19990602",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "5047",
+    "auditor": "삼정회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "네이버클라우드": {
     "corp_code": "00777272",
@@ -206,7 +266,13 @@
     "fax_no": "031-784-1000",
     "induty_code": "6312",
     "est_dt": "20090501",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "네이버웹툰": {
     "corp_code": "01485846",
@@ -225,7 +291,13 @@
     "fax_no": "031-784-1000",
     "induty_code": "6312",
     "est_dt": "20200529",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "쿠팡": {
     "corp_code": "01019166",
@@ -244,7 +316,13 @@
     "fax_no": "02-3441-7011",
     "induty_code": "4791",
     "est_dt": "20130215",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "우아한형제들": {
     "corp_code": "01063273",
@@ -263,7 +341,13 @@
     "fax_no": "050-6050-0402",
     "induty_code": "58222",
     "est_dt": "20110310",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "배달의민족": {
     "corp_code": "01063273",
@@ -282,7 +366,13 @@
     "fax_no": "050-6050-0402",
     "induty_code": "58222",
     "est_dt": "20110310",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "당근": {
     "corp_code": "01547845",
@@ -301,7 +391,13 @@
     "fax_no": "",
     "induty_code": "58222",
     "est_dt": "20150715",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "541",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "당근마켓": {
     "corp_code": "01547845",
@@ -320,7 +416,13 @@
     "fax_no": "",
     "induty_code": "58222",
     "est_dt": "20150715",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "541",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "무신사": {
     "corp_code": "01137727",
@@ -339,7 +441,13 @@
     "fax_no": "070-8220-3325",
     "induty_code": "4791",
     "est_dt": "20120625",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "1604",
+    "auditor": "안진회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "라인플러스": {
     "corp_code": "01026731",
@@ -358,7 +466,13 @@
     "fax_no": "031-784-1000",
     "induty_code": "63120",
     "est_dt": "20130228",
-    "acc_mt": "03"
+    "acc_mt": "03",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "라인": {
     "corp_code": "01026731",
@@ -377,7 +491,13 @@
     "fax_no": "031-784-1000",
     "induty_code": "63120",
     "est_dt": "20130228",
-    "acc_mt": "03"
+    "acc_mt": "03",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "야놀자": {
     "corp_code": "00907864",
@@ -396,7 +516,13 @@
     "fax_no": "02-558-4336",
     "induty_code": "63991",
     "est_dt": "20070201",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "207",
+    "auditor": "삼정회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "삼성전자": {
     "corp_code": "00126380",
@@ -415,7 +541,13 @@
     "fax_no": "031-200-7538",
     "induty_code": "264",
     "est_dt": "19690113",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "128881",
+    "auditor": "삼정회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "삼성SDS": {
     "corp_code": "00126186",
@@ -434,7 +566,13 @@
     "fax_no": "02-6155-0257",
     "induty_code": "62021",
     "est_dt": "19850501",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "11219",
+    "auditor": "삼일회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "LG전자": {
     "corp_code": "00401731",
@@ -453,7 +591,13 @@
     "fax_no": "3777-3428",
     "induty_code": "264",
     "est_dt": "20020401",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "34144",
+    "auditor": "한영회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "SK하이닉스": {
     "corp_code": "00164779",
@@ -472,7 +616,13 @@
     "fax_no": "031-645-8078",
     "induty_code": "2612",
     "est_dt": "19491015",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "34549",
+    "auditor": "삼정회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "현대자동차": {
     "corp_code": "00164742",
@@ -491,7 +641,13 @@
     "fax_no": "02-3464-8719",
     "induty_code": "30121",
     "est_dt": "19671229",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "72598",
+    "auditor": "한영회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "CJ ENM": {
     "corp_code": "00265324",
@@ -510,7 +666,13 @@
     "fax_no": "02-2107-1014",
     "induty_code": "602",
     "est_dt": "19941216",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "3105",
+    "auditor": "삼일회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "두나무": {
     "corp_code": "01310241",
@@ -529,7 +691,13 @@
     "fax_no": "02-567-8455",
     "induty_code": "63",
     "est_dt": "20120403",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "647",
+    "auditor": "삼일회계법인",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   },
   "뤼튼": {
     "corp_code": "01921445",
@@ -548,6 +716,12 @@
     "fax_no": "",
     "induty_code": "58222",
     "est_dt": "20210413",
-    "acc_mt": "12"
+    "acc_mt": "12",
+    "is_sme": "",
+    "main_business": "",
+    "employee_count_fsc": "0",
+    "auditor": "",
+    "biz_status": "계속사업자",
+    "tax_type": "부가가치세 일반과세자"
   }
 }
