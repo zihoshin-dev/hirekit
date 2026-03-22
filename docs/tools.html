@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>커리어 도구 — HireKit</title>
+  <meta name="description" content="취업/이직 준비를 위한 무료 도구. JD 분석기, 이력서 점수 체크, 자소서 클리셰 감지, 기업 비교기." />
+  <meta property="og:title" content="커리어 도구 — HireKit" />
+  <meta property="og:description" content="취업/이직 준비를 위한 무료 도구. JD 분석, 이력서 점수, 자소서 클리셰, 기업 비교." />
+  <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
+  <meta property="og:image:width" content="1400" />
+  <meta property="og:image:height" content="763" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+            mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #FFFFFF;
+      --bg-secondary: #F4F5F7;
+      --bg-tertiary: #EAEBEE;
+      --text-primary: #191F28;
+      --text-secondary: #4E5968;
+      --text-tertiary: #8B95A1;
+      --border: #E5E8EB;
+      --primary: #3182F6;
+      --primary-hover: #1B64DA;
+      --primary-light: #EBF3FE;
+      --success: #22C55E;
+      --warning: #F59E0B;
+      --danger: #EF4444;
+    }
+    html.dark {
+      --bg: #17171C;
+      --bg-secondary: #1E1E24;
+      --bg-tertiary: #2C2C35;
+      --text-primary: #F2F4F6;
+      --text-secondary: #B0B8C1;
+      --text-tertiary: #6B7684;
+      --border: #2C2C35;
+      --primary-light: rgba(49,130,246,0.12);
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-primary);
+      transition: background-color 0.3s ease, color 0.3s ease;
+      -webkit-font-smoothing: antialiased;
+    }
+    pre, code, .font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+
+    nav {
+      background-color: color-mix(in srgb, var(--bg) 85%, transparent);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .t-primary   { color: var(--text-primary); }
+    .t-secondary { color: var(--text-secondary); }
+    .t-tertiary  { color: var(--text-tertiary); }
+    .surface          { background-color: var(--bg); }
+    .surface-secondary{ background-color: var(--bg-secondary); }
+    .border-theme { border-color: var(--border); }
+    .btn-click:active { transform: scale(0.97); }
+
+    /* Mobile menu */
+    #mobileMenu {
+      display: none;
+      position: fixed;
+      top: 64px;
+      left: 0; right: 0;
+      background-color: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 16px 16px;
+      flex-direction: column;
+      gap: 4px;
+      z-index: 40;
+    }
+    #mobileMenu.open { display: flex; }
+    .mob-link {
+      display: block;
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: background 0.15s, color 0.15s;
+    }
+    .mob-link:hover { background: var(--bg-secondary); color: var(--text-primary); }
+
+    /* Tool cards */
+    .tool-card {
+      background-color: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .tool-card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+      border-color: #CBD5E1;
+    }
+    html.dark .tool-card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      border-color: #3C3C48;
+    }
+
+    /* Textarea & input */
+    textarea, input[type="text"], input[type="url"], select {
+      background-color: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 14px;
+      width: 100%;
+      padding: 10px 14px;
+      outline: none;
+      transition: border-color 0.15s ease;
+      resize: vertical;
+    }
+    textarea:focus, input[type="text"]:focus, input[type="url"]:focus, select:focus {
+      border-color: var(--primary);
+    }
+    select { resize: none; }
+
+    /* Result area */
+    .result-area {
+      background-color: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      min-height: 80px;
+    }
+
+    /* Tag badge */
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      background-color: var(--primary-light);
+      color: var(--primary);
+    }
+    .tag-gray {
+      background-color: var(--bg-tertiary);
+      color: var(--text-secondary);
+    }
+    .tag-green {
+      background-color: #DCFCE7;
+      color: #16A34A;
+    }
+    html.dark .tag-green { background-color: rgba(34,197,94,0.15); color: #4ADE80; }
+    .tag-red {
+      background-color: #FEE2E2;
+      color: #DC2626;
+    }
+    html.dark .tag-red { background-color: rgba(239,68,68,0.15); color: #F87171; }
+    .tag-amber {
+      background-color: #FEF3C7;
+      color: #D97706;
+    }
+    html.dark .tag-amber { background-color: rgba(245,158,11,0.15); color: #FCD34D; }
+
+    /* Score ring */
+    .score-ring {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column;
+      font-weight: 700;
+      font-size: 22px;
+      background: conic-gradient(var(--primary) var(--pct), var(--bg-tertiary) 0);
+      position: relative;
+    }
+    .score-ring::before {
+      content: '';
+      position: absolute;
+      inset: 10px;
+      border-radius: 50%;
+      background: var(--bg);
+    }
+    .score-ring span { position: relative; z-index: 1; }
+
+    /* Progress bar */
+    .prog-bar {
+      height: 6px;
+      border-radius: 3px;
+      background-color: var(--bg-tertiary);
+      overflow: hidden;
+    }
+    .prog-fill {
+      height: 100%;
+      border-radius: 3px;
+      background-color: var(--primary);
+      transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    /* Compare table */
+    .cmp-table { border-collapse: collapse; width: 100%; }
+    .cmp-table th, .cmp-table td {
+      padding: 10px 12px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+    }
+    .cmp-table th { font-weight: 600; background-color: var(--bg-secondary); }
+    .cmp-table td:first-child { text-align: left; font-weight: 500; color: var(--text-secondary); }
+    .cmp-table tr:last-child td { border-bottom: none; }
+
+    /* Cliche highlight */
+    mark.cliche {
+      background-color: #FEF3C7;
+      color: #92400E;
+      border-radius: 3px;
+      padding: 1px 2px;
+    }
+    html.dark mark.cliche { background-color: rgba(245,158,11,0.2); color: #FCD34D; }
+
+    /* Fade-up */
+    .fade-up { opacity: 0; transform: translateY(20px); transition: opacity 0.45s ease, transform 0.45s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+    .fade-up-d1 { transition-delay: 0.06s; }
+    .fade-up-d2 { transition-delay: 0.12s; }
+    .fade-up-d3 { transition-delay: 0.18s; }
+    .fade-up-d4 { transition-delay: 0.24s; }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ Navigation ═══ -->
+  <nav class="fixed top-0 left-0 right-0 z-50" style="height:64px;">
+    <div class="max-w-[1080px] mx-auto px-5 h-full flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 font-bold t-primary tracking-tight" style="font-size:17px; text-decoration:none;">
+        <span style="color:var(--primary);">⬡</span> HireKit
+      </a>
+      <div class="hidden md:flex items-center gap-7">
+        <a href="index.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">홈</a>
+        <a href="demo.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">데모</a>
+        <span class="text-sm font-semibold" style="color:var(--primary);">도구</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="themeToggle" class="w-9 h-9 rounded-xl flex items-center justify-center t-secondary hover:surface-secondary transition-colors" aria-label="다크모드 전환">
+          <svg id="iconSun" class="hidden" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path stroke-linecap="round" d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg id="iconMoon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="hidden sm:flex items-center gap-1.5 text-sm font-medium t-secondary hover:t-primary transition-colors px-3 py-1.5 rounded-xl" style="border:1px solid var(--border); text-decoration:none;">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+        <button id="hamburger" class="md:hidden w-9 h-9 rounded-xl flex items-center justify-center t-secondary" aria-label="메뉴 열기">
+          <svg id="hambIcon" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="closeIcon" class="hidden" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" role="dialog" aria-modal="true" aria-label="모바일 메뉴">
+    <a href="index.html" class="mob-link" onclick="closeMobileMenu()">홈</a>
+    <a href="demo.html" class="mob-link" onclick="closeMobileMenu()">데모</a>
+    <span class="mob-link font-semibold" style="color:var(--primary);">도구</span>
+    <div style="margin-top:8px; border-top:1px solid var(--border); padding-top:16px;">
+      <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="mob-link flex items-center gap-2">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        GitHub에서 보기
+      </a>
+    </div>
+  </div>
+
+  <!-- ═══ Main ═══ -->
+  <main class="pt-24 pb-24 px-4 sm:px-5">
+    <div class="max-w-[1080px] mx-auto">
+
+      <!-- Page header -->
+      <div class="mb-12 fade-up">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium mb-4" style="background:var(--primary-light); color:var(--primary);">
+          무료 도구
+        </div>
+        <h1 class="font-bold t-primary mb-3" style="font-size:clamp(26px,4vw,36px); letter-spacing:-0.02em; line-height:1.2;">
+          커리어 도구
+        </h1>
+        <p class="t-secondary" style="font-size:16px; max-width:520px; line-height:1.6;">
+          취업/이직 준비를 위한 무료 도구. 서버 없이 브라우저에서 바로 실행돼요.
+        </p>
+      </div>
+
+      <!-- ── Tool Grid ── -->
+      <div class="flex flex-col gap-8">
+
+        <!-- ────────────────────────────────────────────
+             카드 1: JD 분석기
+        ─────────────────────────────────────────────── -->
+        <div class="tool-card fade-up fade-up-d1" id="card-jd">
+          <div class="p-6 pb-4" style="border-bottom:1px solid var(--border);">
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center text-xl" style="background:var(--primary-light);">
+                🔍
+              </div>
+              <div>
+                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">JD 분석기</h2>
+                <p class="text-sm t-secondary" style="line-height:1.6;">채용공고 URL 또는 텍스트를 붙여넣으면 자동으로 기술 요구사항, 경력 수준, 핵심 역량을 분석해요</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <!-- Input -->
+              <div class="flex flex-col gap-3">
+                <label class="text-xs font-semibold t-tertiary uppercase tracking-wider">입력</label>
+                <input type="url" id="jd-url" placeholder="채용공고 URL (선택)" />
+                <textarea id="jd-text" rows="7" placeholder="또는 채용공고 전문을 여기에 붙여넣으세요&#10;&#10;예) Python, AWS, 3년 이상 경력, React..."></textarea>
+                <button onclick="analyzeJD()" class="btn-click inline-flex items-center justify-center gap-2 text-sm font-semibold text-white transition-colors" style="height:42px; background:var(--primary); border-radius:10px; border:none; cursor:pointer; width:100%;">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                  분석하기
+                </button>
+              </div>
+              <!-- Output -->
+              <div class="flex flex-col gap-3">
+                <label class="text-xs font-semibold t-tertiary uppercase tracking-wider">분석 결과</label>
+                <div id="jd-result" class="result-area flex flex-col gap-4" style="min-height:220px;">
+                  <p class="text-sm t-tertiary" style="margin:auto; text-align:center; padding-top:60px;">채용공고를 입력하고 분석 버튼을 눌러주세요</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ────────────────────────────────────────────
+             카드 2: 이력서 점수 체크
+        ─────────────────────────────────────────────── -->
+        <div class="tool-card fade-up fade-up-d2" id="card-resume">
+          <div class="p-6 pb-4" style="border-bottom:1px solid var(--border);">
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center text-xl" style="background:#DCFCE7;">
+                📋
+              </div>
+              <div>
+                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">이력서 점수 체크</h2>
+                <p class="text-sm t-secondary" style="line-height:1.6;">이력서 텍스트를 붙여넣으면 완성도 점수, 개선 포인트, ATS 최적화 팁을 제공해요</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="flex flex-col gap-3">
+                <label class="text-xs font-semibold t-tertiary uppercase tracking-wider">이력서 텍스트</label>
+                <textarea id="resume-text" rows="10" placeholder="이력서 내용을 여기에 붙여넣으세요&#10;&#10;팁: 경력사항, 기술스택, 학력, 프로젝트, 수상 섹션을 모두 포함하면 더 정확해요"></textarea>
+                <button onclick="scoreResume()" class="btn-click inline-flex items-center justify-center gap-2 text-sm font-semibold text-white" style="height:42px; background:#16A34A; border-radius:10px; border:none; cursor:pointer; width:100%;">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  점수 체크
+                </button>
+              </div>
+              <div class="flex flex-col gap-3">
+                <label class="text-xs font-semibold t-tertiary uppercase tracking-wider">결과</label>
+                <div id="resume-result" class="result-area flex flex-col gap-4" style="min-height:260px;">
+                  <p class="text-sm t-tertiary" style="margin:auto; text-align:center; padding-top:80px;">이력서를 붙여넣고 점수 체크를 눌러주세요</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ────────────────────────────────────────────
+             카드 3: 자소서 클리셰 감지
+        ─────────────────────────────────────────────── -->
+        <div class="tool-card fade-up fade-up-d3" id="card-cliche">
+          <div class="p-6 pb-4" style="border-bottom:1px solid var(--border);">
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center text-xl" style="background:#FEF3C7;">
+                ✍️
+              </div>
+              <div>
+                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">자소서 클리셰 감지</h2>
+                <p class="text-sm t-secondary" style="line-height:1.6;">자소서에서 식상한 표현을 찾아내고 대안을 제안해요</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="flex flex-col gap-3">
+                <label class="text-xs font-semibold t-tertiary uppercase tracking-wider">자소서 텍스트</label>
+                <textarea id="cliche-text" rows="10" placeholder="자기소개서 내용을 여기에 붙여넣으세요&#10;&#10;예) 저는 어릴 때부터 도전정신이 넘치는 사람이었습니다. 최선을 다해 노력하면 반드시 이룰 수 있다고 믿습니다..."></textarea>
+                <button onclick="detectCliches()" class="btn-click inline-flex items-center justify-center gap-2 text-sm font-semibold text-white" style="height:42px; background:#D97706; border-radius:10px; border:none; cursor:pointer; width:100%;">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                  클리셰 감지
+                </button>
+              </div>
+              <div class="flex flex-col gap-3">
+                <label class="text-xs font-semibold t-tertiary uppercase tracking-wider">감지 결과</label>
+                <div id="cliche-result" class="result-area" style="min-height:260px;">
+                  <p class="text-sm t-tertiary" style="text-align:center; padding-top:80px;">자소서를 붙여넣고 감지 버튼을 눌러주세요</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ────────────────────────────────────────────
+             카드 4: 기업 비교기
+        ─────────────────────────────────────────────── -->
+        <div class="tool-card fade-up fade-up-d4" id="card-compare">
+          <div class="p-6 pb-4" style="border-bottom:1px solid var(--border);">
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center text-xl" style="background:#EDE9FE;">
+                ⚖️
+              </div>
+              <div>
+                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">기업 비교기</h2>
+                <p class="text-sm t-secondary" style="line-height:1.6;">관심 기업 2–3개를 선택하면 5개 차원으로 비교하고 추천 순위를 알려줘요</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 flex flex-col gap-5">
+            <div>
+              <label class="text-xs font-semibold t-tertiary uppercase tracking-wider block mb-2">기업 선택 (최대 3개)</label>
+              <div class="grid sm:grid-cols-3 gap-3">
+                <select id="cmp-a" onchange="renderCompare()">
+                  <option value="">기업 A 선택</option>
+                </select>
+                <select id="cmp-b" onchange="renderCompare()">
+                  <option value="">기업 B 선택</option>
+                </select>
+                <select id="cmp-c" onchange="renderCompare()">
+                  <option value="">기업 C 선택 (선택사항)</option>
+                </select>
+              </div>
+            </div>
+            <div id="compare-result">
+              <p class="text-sm t-tertiary text-center py-8">기업을 2개 이상 선택하면 비교 결과가 나타나요</p>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /tool grid -->
+
+      <!-- ── CTA ── -->
+      <div class="mt-16 fade-up" style="border-radius:16px; background:linear-gradient(135deg, var(--primary-light) 0%, var(--bg-secondary) 100%); border:1px solid var(--border); padding:40px 32px; text-align:center;">
+        <p class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-3">더 강력한 분석이 필요하다면</p>
+        <h3 class="font-bold t-primary mb-2" style="font-size:20px;">로컬에서 전체 기능을 사용해보세요</h3>
+        <p class="t-secondary text-sm mb-6" style="line-height:1.6;">14개 소스 자동 수집 · 100점 스코어카드 · AI 매칭 분석 · PDF 리포트</p>
+        <div class="inline-flex items-center gap-3 px-5 py-3 rounded-xl font-mono text-sm" style="background:#0D1117; color:#58A6FF; border:1px solid #2D333B;">
+          <span style="color:#4EC9B0;">$</span>
+          <span>pip install hirekit</span>
+          <button onclick="navigator.clipboard.writeText('pip install hirekit')" class="btn-click ml-2 px-2 py-0.5 rounded text-xs" style="background:#21262D; color:#8B949E; border:1px solid #2D333B; cursor:pointer; font-family:inherit;">복사</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ═══ Footer ═══ -->
+  <footer class="py-10 px-5" style="border-top:1px solid var(--border);">
+    <div class="max-w-[1080px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2 font-bold t-primary mb-1" style="font-size:15px;"><span style="color:var(--primary);">⬡</span> HireKit</div>
+        <div class="text-xs t-tertiary">MIT License · Python 3.9+</div>
+      </div>
+      <div class="flex items-center gap-6 flex-wrap justify-center">
+        <a href="index.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">메인</a>
+        <a href="demo.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">데모</a>
+        <a href="tools.html" class="text-sm font-semibold" style="color:var(--primary); text-decoration:none;">도구</a>
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+        <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">PyPI</a>
+      </div>
+    </div>
+  </footer>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// Theme toggle
+// ═══════════════════════════════════════════════════════
+const html = document.documentElement;
+const stored = localStorage.getItem('hk-theme');
+if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  html.classList.add('dark');
+}
+function updateThemeIcons() {
+  const dark = html.classList.contains('dark');
+  document.getElementById('iconSun').classList.toggle('hidden', !dark);
+  document.getElementById('iconMoon').classList.toggle('hidden', dark);
+}
+updateThemeIcons();
+document.getElementById('themeToggle').addEventListener('click', () => {
+  html.classList.toggle('dark');
+  localStorage.setItem('hk-theme', html.classList.contains('dark') ? 'dark' : 'light');
+  updateThemeIcons();
+});
+
+// ═══════════════════════════════════════════════════════
+// Mobile menu
+// ═══════════════════════════════════════════════════════
+let menuOpen = false;
+const mobileMenu = document.getElementById('mobileMenu');
+const hambIcon   = document.getElementById('hambIcon');
+const closeIcon  = document.getElementById('closeIcon');
+function openMobileMenu()  { menuOpen=true;  mobileMenu.classList.add('open');    hambIcon.classList.add('hidden');    closeIcon.classList.remove('hidden'); document.body.style.overflow='hidden'; }
+function closeMobileMenu() { menuOpen=false; mobileMenu.classList.remove('open'); hambIcon.classList.remove('hidden'); closeIcon.classList.add('hidden');    document.body.style.overflow=''; }
+document.getElementById('hamburger').addEventListener('click', () => menuOpen ? closeMobileMenu() : openMobileMenu());
+
+// ═══════════════════════════════════════════════════════
+// Fade-up observer
+// ═══════════════════════════════════════════════════════
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+}, { threshold: 0.08 });
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+// ═══════════════════════════════════════════════════════
+// JD 분석기 — 기술 스택 키워드 목록
+// ═══════════════════════════════════════════════════════
+const TECH_TAXONOMY = {
+  '언어': ['Python','Java','Kotlin','JavaScript','TypeScript','Go','Rust','C++','C#','Swift','Scala','Ruby','PHP','Dart','R'],
+  '프론트엔드': ['React','Vue','Angular','Next.js','Nuxt','Svelte','HTML','CSS','Tailwind','Sass','Redux','Zustand','GraphQL','REST'],
+  '백엔드': ['Spring','Django','FastAPI','Flask','Node.js','Express','NestJS','Rails','Laravel','gRPC','Kafka','RabbitMQ'],
+  '클라우드/인프라': ['AWS','GCP','Azure','Docker','Kubernetes','Terraform','Ansible','CI/CD','Jenkins','GitHub Actions','ArgoCD','Helm'],
+  '데이터/AI': ['TensorFlow','PyTorch','scikit-learn','Spark','Hadoop','Airflow','dbt','Databricks','MLflow','LangChain','Pandas','NumPy','SQL','NoSQL','Elasticsearch'],
+  '데이터베이스': ['MySQL','PostgreSQL','MongoDB','Redis','DynamoDB','Cassandra','BigQuery','Snowflake','Oracle'],
+  '협업/방법론': ['Agile','Scrum','Jira','Git','GitHub','GitLab','Linux','Bash','Figma'],
+};
+
+const LEVEL_KEYWORDS = {
+  '신입': ['신입','0년','인턴','졸업'],
+  '주니어(1-3년)': ['1년','2년','3년','주니어','Jr.'],
+  '미드레벨(3-5년)': ['3년 이상','4년','5년','미드'],
+  '시니어(5년+)': ['5년 이상','6년','7년','8년','시니어','Senior','Sr.','리드','Lead','10년'],
+};
+
+function analyzeJD() {
+  const url  = document.getElementById('jd-url').value.trim();
+  const text = document.getElementById('jd-text').value.trim();
+  const combined = (url + ' ' + text).toLowerCase();
+  if (!text && !url) { showJDEmpty(); return; }
+
+  // Tech extraction
+  const found = {};
+  for (const [cat, items] of Object.entries(TECH_TAXONOMY)) {
+    const hits = items.filter(t => combined.includes(t.toLowerCase()));
+    if (hits.length) found[cat] = hits;
+  }
+
+  // Level detection
+  let detectedLevel = '명시되지 않음';
+  for (const [level, kws] of Object.entries(LEVEL_KEYWORDS)) {
+    if (kws.some(k => combined.includes(k.toLowerCase()))) { detectedLevel = level; break; }
+  }
+
+  // Key requirements (simple sentence extraction)
+  const reqPatterns = ['경력','책임','우대','필수','주요','담당','역할','역량','기술','능력'];
+  const lines = (url + '\n' + text).split(/[.\n]/).map(s => s.trim()).filter(s => s.length > 10 && s.length < 120);
+  const keyReqs = lines.filter(l => reqPatterns.some(p => l.includes(p))).slice(0, 5);
+
+  const totalTechs = Object.values(found).flat().length;
+
+  const el = document.getElementById('jd-result');
+  el.innerHTML = `
+    <div class="flex flex-col gap-4">
+      <div class="flex items-center justify-between">
+        <span class="text-xs font-semibold t-tertiary uppercase tracking-wider">감지된 기술 (${totalTechs}개)</span>
+        <span class="tag tag-${detectedLevel === '명시되지 않음' ? 'gray' : ''}">경력: ${detectedLevel}</span>
+      </div>
+      ${Object.entries(found).length ? Object.entries(found).map(([cat, techs]) => `
+        <div>
+          <div class="text-xs t-tertiary mb-1.5 font-medium">${cat}</div>
+          <div class="flex flex-wrap gap-1.5">${techs.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+        </div>
+      `).join('') : '<p class="text-sm t-tertiary">기술 스택을 찾지 못했어요. 텍스트를 더 추가해보세요.</p>'}
+      ${keyReqs.length ? `
+        <div>
+          <div class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-2">핵심 요구사항</div>
+          <ul class="flex flex-col gap-1.5">${keyReqs.map(r => `<li class="flex items-start gap-2 text-sm t-secondary"><span style="color:var(--primary); flex-shrink:0;">•</span>${r}</li>`).join('')}</ul>
+        </div>
+      ` : ''}
+    </div>
+  `;
+}
+
+function showJDEmpty() {
+  document.getElementById('jd-result').innerHTML = '<p class="text-sm" style="color:var(--danger); text-align:center; padding-top:60px;">URL 또는 채용공고 텍스트를 입력해주세요</p>';
+}
+
+// ═══════════════════════════════════════════════════════
+// 이력서 점수 체크
+// ═══════════════════════════════════════════════════════
+const RESUME_SECTIONS = [
+  { key: '연락처/기본정보', patterns: ['이메일','email','phone','전화','@','github','linkedin','포트폴리오'], weight: 10 },
+  { key: '경력사항', patterns: ['경력','재직','근무','담당','회사','corp','inc','ltd'], weight: 25 },
+  { key: '기술스택', patterns: ['python','java','react','aws','sql','docker','기술','스택','skill','tech'], weight: 20 },
+  { key: '학력', patterns: ['대학교','대학원','학사','석사','박사','졸업','university','college'], weight: 10 },
+  { key: '프로젝트', patterns: ['프로젝트','project','개발','구현','배포','서비스','앱'], weight: 20 },
+  { key: '정량적 성과', patterns: [/\d+%/, /\d+배/, /\d+만/, /\d+억/, /\d+명/, /MAU/, /DAU/], weight: 10, isRegex: true },
+  { key: '자격증/수상', patterns: ['자격증','수상','award','certificate','정보처리기사','opic','토익'], weight: 5 },
+];
+
+const ACTION_VERBS = ['개발','구현','설계','운영','개선','도입','구축','리드','분석','최적화','자동화','배포','기여','협업','관리','향상','제안','수행','진행','달성'];
+
+function scoreResume() {
+  const text = document.getElementById('resume-text').value.trim();
+  if (!text) { document.getElementById('resume-result').innerHTML = '<p class="text-sm" style="color:var(--danger); text-align:center; padding-top:80px;">이력서 텍스트를 입력해주세요</p>'; return; }
+  const lower = text.toLowerCase();
+
+  let score = 0;
+  const checks = RESUME_SECTIONS.map(s => {
+    let hit = false;
+    if (s.isRegex) {
+      hit = s.patterns.some(p => p instanceof RegExp ? p.test(text) : lower.includes(p));
+    } else {
+      hit = s.patterns.some(p => lower.includes(p.toLowerCase()));
+    }
+    if (hit) score += s.weight;
+    return { key: s.key, hit, weight: s.weight };
+  });
+
+  // ATS bonus: length
+  const wordCount = text.split(/\s+/).length;
+  const lenBonus = wordCount > 300 ? 0 : wordCount > 150 ? 0 : -5;
+  score = Math.max(0, Math.min(100, score + lenBonus));
+
+  // Action verbs
+  const verbCount = ACTION_VERBS.filter(v => text.includes(v)).length;
+  const verbRatio = Math.min(verbCount / 8, 1);
+
+  // Tips
+  const missing = checks.filter(c => !c.hit).map(c => c.key);
+  const tips = [];
+  if (missing.includes('정량적 성과')) tips.push('숫자로 성과를 표현하세요 (예: 응답속도 40% 개선, MAU 1만 달성)');
+  if (missing.includes('프로젝트')) tips.push('프로젝트 섹션을 추가하면 기술 역량이 더 명확해져요');
+  if (verbCount < 4) tips.push('액션 동사를 더 사용하세요 (개발, 설계, 구축, 최적화...)');
+  if (wordCount < 200) tips.push('내용이 부족해요. 더 자세한 경력/프로젝트 설명을 추가하세요');
+  if (!lower.includes('github') && !lower.includes('포트폴리오')) tips.push('GitHub 링크나 포트폴리오 URL을 추가하세요');
+
+  const grade = score >= 80 ? { label: '우수', cls: 'tag-green' } : score >= 60 ? { label: '보통', cls: 'tag-amber' } : { label: '개선 필요', cls: 'tag-red' };
+  const pct = score + '%';
+
+  document.getElementById('resume-result').innerHTML = `
+    <div class="flex flex-col gap-4">
+      <div class="flex items-center gap-4">
+        <div class="score-ring" style="--pct:${pct}">
+          <span style="font-size:18px; font-weight:700; color:var(--text-primary);">${score}</span>
+        </div>
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="font-bold t-primary" style="font-size:22px;">${score}<span class="text-sm t-tertiary font-normal">/100</span></span>
+            <span class="tag ${grade.cls}">${grade.label}</span>
+          </div>
+          <p class="text-xs t-tertiary">액션 동사 ${verbCount}개 · ${wordCount}단어</p>
+        </div>
+      </div>
+      <div>
+        <div class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-2">섹션 체크리스트</div>
+        <div class="flex flex-col gap-1.5">
+          ${checks.map(c => `
+            <div class="flex items-center gap-2 text-sm">
+              <span style="color:${c.hit ? 'var(--success)' : 'var(--danger)'};">${c.hit ? '✓' : '✗'}</span>
+              <span class="${c.hit ? 't-primary' : 't-tertiary'}">${c.key}</span>
+              <span class="text-xs t-tertiary ml-auto">${c.weight}점</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+      ${tips.length ? `
+        <div>
+          <div class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-2">개선 포인트</div>
+          <ul class="flex flex-col gap-1.5">${tips.map(t => `<li class="flex items-start gap-2 text-xs t-secondary"><span style="color:var(--warning); flex-shrink:0;">→</span>${t}</li>`).join('')}</ul>
+        </div>
+      ` : '<p class="text-xs t-secondary">주요 섹션이 모두 포함되어 있어요!</p>'}
+    </div>
+  `;
+}
+
+// ═══════════════════════════════════════════════════════
+// 자소서 클리셰 감지
+// ═══════════════════════════════════════════════════════
+const CLICHE_MAP = [
+  { pattern: '열정적', alt: '구체적 사례로 대체 (예: "3개 사이드 프로젝트를 병행하며")' },
+  { pattern: '도전정신', alt: '"실패했지만 다시 도전한 경험" 등 구체적 에피소드로' },
+  { pattern: '최선을 다해', alt: '어떻게 최선을 다했는지 수치나 행동으로' },
+  { pattern: '성장하고 싶', alt: '무엇을, 어떻게, 얼마나 성장할지 구체화' },
+  { pattern: '팀플레이어', alt: '팀에서 내가 맡은 역할과 기여를 서술' },
+  { pattern: '꼼꼼한', alt: '꼼꼼함으로 방지한 구체적 문제 사례로' },
+  { pattern: '책임감', alt: '책임을 지고 해결한 구체적 상황으로' },
+  { pattern: '소통 능력', alt: '어떤 방식으로 소통했는지 행동 서술' },
+  { pattern: '글로벌', alt: '실제 글로벌 경험(언어, 협업 국가 등)으로' },
+  { pattern: '항상 노력', alt: '노력의 결과를 수치로 표현' },
+  { pattern: '인생의 목표', alt: '5년, 10년 단위 구체적 커리어 플랜으로' },
+  { pattern: '긍정적인 마인드', alt: '긍정적 태도가 성과에 미친 영향을 서술' },
+  { pattern: '어릴 때부터', alt: '가장 최근 관련 경험으로 교체' },
+  { pattern: '반드시 이루', alt: '실행 계획과 마일스톤으로 구체화' },
+  { pattern: '회사에 기여', alt: '어떤 역량으로, 어떤 문제를 해결할지 명시' },
+  { pattern: '배움을 멈추지', alt: '최근 학습한 것과 적용 결과로' },
+  { pattern: '창의적인', alt: '창의성을 발휘한 실제 아이디어·결과물로' },
+  { pattern: '끊임없이', alt: '빈도·횟수·기간을 수치로 표현' },
+  { pattern: '꿈을 가지고', alt: '구체적 직무 목표와 연결' },
+  { pattern: '포기하지 않', alt: '무엇을, 얼마나 지속했는지 구체화' },
+  { pattern: '인재가 되고 싶', alt: '어떤 전문성을 갖춘 인재인지 명시' },
+  { pattern: '다양한 경험', alt: '경험의 종류와 규모를 나열' },
+  { pattern: '함께 성장', alt: '협업 방식과 결과를 서술' },
+  { pattern: '사회에 기여', alt: '구체적 impact 목표로 교체' },
+  { pattern: '열심히 하겠', alt: '어떻게 성과를 낼지 계획으로' },
+  { pattern: '고객 중심', alt: '고객 피드백을 반영한 실제 사례로' },
+  { pattern: '혁신적', alt: '기존과 다른 접근법과 그 결과로' },
+  { pattern: '리더십', alt: '몇 명을, 어떤 방식으로 이끌었는지로' },
+  { pattern: '자기계발', alt: '최근 6개월 학습 내용과 적용으로' },
+  { pattern: '완벽주의', alt: '완벽함을 추구해서 얻은/잃은 트레이드오프로' },
+];
+
+function detectCliches() {
+  const text = document.getElementById('cliche-text').value.trim();
+  if (!text) { document.getElementById('cliche-result').innerHTML = '<p class="text-sm" style="color:var(--danger); text-align:center; padding-top:80px;">자소서 텍스트를 입력해주세요</p>'; return; }
+
+  const found = CLICHE_MAP.filter(c => text.includes(c.pattern));
+  const total = text.length;
+  const clicheCharCount = found.reduce((acc, c) => acc + c.pattern.length, 0);
+  const originScore = Math.max(0, Math.round(100 - (found.length / CLICHE_MAP.length) * 100));
+
+  // Highlight text
+  let highlighted = text;
+  found.forEach(c => {
+    const escaped = c.pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    highlighted = highlighted.replace(new RegExp(escaped, 'g'), `<mark class="cliche">${c.pattern}</mark>`);
+  });
+
+  const scoreCls = originScore >= 70 ? 'tag-green' : originScore >= 40 ? 'tag-amber' : 'tag-red';
+
+  document.getElementById('cliche-result').innerHTML = `
+    <div class="flex flex-col gap-4">
+      <div class="flex items-center gap-3">
+        <span class="font-bold t-primary" style="font-size:20px;">${found.length}<span class="text-sm t-tertiary font-normal">개 발견</span></span>
+        <span class="tag ${scoreCls}">차별화 점수 ${originScore}점</span>
+      </div>
+      ${found.length === 0 ? '<p class="text-sm t-secondary">클리셰 표현이 감지되지 않았어요. 훌륭해요!</p>' : `
+        <div>
+          <div class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-2">감지된 표현 & 대안</div>
+          <div class="flex flex-col gap-2">
+            ${found.map(c => `
+              <div class="rounded-lg p-3" style="background:var(--bg-tertiary);">
+                <div class="flex items-start gap-2">
+                  <span class="tag tag-amber flex-shrink-0" style="margin-top:1px;">${c.pattern}</span>
+                  <span class="text-xs t-secondary" style="line-height:1.6;">${c.alt}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+        <div>
+          <div class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-2">하이라이트</div>
+          <div class="rounded-lg p-3 text-sm t-secondary" style="background:var(--bg-secondary); line-height:1.8; max-height:160px; overflow-y:auto;">${highlighted.substring(0, 600)}${text.length > 600 ? '...' : ''}</div>
+        </div>
+      `}
+    </div>
+  `;
+}
+
+// ═══════════════════════════════════════════════════════
+// 기업 비교기
+// ═══════════════════════════════════════════════════════
+let META = [];
+const SCORE_LABELS = {
+  job_fit: '직무 적합도',
+  growth: '성장 가능성',
+  compensation: '보상 수준',
+  culture_fit: '문화 적합도',
+  career_leverage: '커리어 레버리지',
+};
+
+async function loadMeta() {
+  try {
+    const res = await fetch('demo/data/meta.json');
+    META = await res.json();
+    const selects = ['cmp-a','cmp-b','cmp-c'];
+    selects.forEach(id => {
+      const el = document.getElementById(id);
+      const placeholder = el.options[0].text;
+      META.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c.name;
+        opt.textContent = c.name;
+        el.appendChild(opt);
+      });
+    });
+  } catch(e) {
+    document.getElementById('compare-result').innerHTML = '<p class="text-sm t-tertiary text-center py-4">기업 데이터를 불러오지 못했어요</p>';
+  }
+}
+
+function renderCompare() {
+  const a = document.getElementById('cmp-a').value;
+  const b = document.getElementById('cmp-b').value;
+  const c = document.getElementById('cmp-c').value;
+  const selected = [a, b, c].filter(Boolean);
+  if (selected.length < 2) {
+    document.getElementById('compare-result').innerHTML = '<p class="text-sm t-tertiary text-center py-8">기업을 2개 이상 선택하면 비교 결과가 나타나요</p>';
+    return;
+  }
+
+  const companies = selected.map(name => META.find(m => m.name === name)).filter(Boolean);
+  const dims = Object.keys(SCORE_LABELS);
+
+  // Best company overall
+  const totals = companies.map(c => ({
+    name: c.name,
+    total: dims.reduce((sum, d) => sum + (c.scorecard[d]?.score || 0), 0),
+  }));
+  totals.sort((a, b) => b.total - a.total);
+  const best = totals[0];
+
+  const headerCols = companies.map(c => `<th>${c.name}<br><span class="text-xs font-normal t-tertiary">${c.industry || ''}</span></th>`).join('');
+  const rows = dims.map(dim => {
+    const scores = companies.map(c => c.scorecard[dim]?.score || 0);
+    const max = Math.max(...scores);
+    const cells = companies.map(c => {
+      const s = c.scorecard[dim]?.score || 0;
+      const isBest = s === max && max > 0;
+      return `<td><span class="font-semibold ${isBest ? '' : 't-secondary'}" style="${isBest ? 'color:var(--primary)' : ''}">${s.toFixed(1)}</span></td>`;
+    }).join('');
+    return `<tr><td>${SCORE_LABELS[dim]}</td>${cells}</tr>`;
+  }).join('');
+
+  const totalRow = totals.map(t => `<td><span class="font-bold">${t.total.toFixed(1)}</span></td>`);
+  // reorder by company order
+  const totalRowOrdered = companies.map(c => {
+    const t = totals.find(t => t.name === c.name);
+    const isBest = t.name === best.name;
+    return `<td><span class="font-bold" style="${isBest ? 'color:var(--primary)' : ''}">${t.total.toFixed(1)}</span></td>`;
+  }).join('');
+
+  document.getElementById('compare-result').innerHTML = `
+    <div class="flex flex-col gap-4">
+      <div class="overflow-x-auto rounded-xl" style="border:1px solid var(--border);">
+        <table class="cmp-table">
+          <thead><tr><th style="text-align:left;">차원</th>${headerCols}</tr></thead>
+          <tbody>
+            ${rows}
+            <tr style="background:var(--bg-secondary);">
+              <td style="font-weight:700;">총점 (25점 만점)</td>
+              ${totalRowOrdered}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-xl" style="background:var(--primary-light); border:1px solid rgba(49,130,246,0.2);">
+        <span style="font-size:20px; flex-shrink:0;">🏆</span>
+        <div>
+          <div class="font-semibold t-primary mb-0.5" style="font-size:14px;">${best.name} 추천</div>
+          <p class="text-xs t-secondary" style="line-height:1.6;">5개 차원 합산 <strong>${best.total.toFixed(1)}점</strong>으로 가장 높아요. 단, 개인 상황(직무·연봉·워라밸 우선순위)에 따라 결과가 달라질 수 있어요.</p>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// Boot
+loadMeta();
+</script>
+</body>
+</html>
