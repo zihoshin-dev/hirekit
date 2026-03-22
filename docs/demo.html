@@ -761,13 +761,19 @@ function renderCompanyGrid(companies) {
     const aiBadge = c.ai_strategy
       ? `<span class="ai-badge" style="font-size:10px; padding:2px 6px; margin-left:auto;"><svg width="9" height="9" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>AI</span>`
       : '';
+    const metaParts = [];
+    if (c.industry) metaParts.push(c.industry);
+    if (c.hq_location) metaParts.push(c.hq_location);
+    if (c.employee_count) metaParts.push(Number(c.employee_count).toLocaleString() + '명');
+    const metaLine = metaParts.join(' · ');
     return `
       <div class="company-card${isSelected ? ' selected' : ''}"
            data-name="${escHtml(c.name)}"
            onclick="selectCompany('${c.name.replace(/'/g, "\\'")}', this)"
            role="button" tabindex="0"
            aria-label="${escHtml(c.name)} 분석하기">
-        <div class="font-semibold t-primary leading-tight mb-1.5 truncate" style="font-size:13px;">${escHtml(c.name)}</div>
+        <div class="font-semibold t-primary leading-tight truncate" style="font-size:13px;">${escHtml(c.name)}</div>
+        ${metaLine ? `<div class="text-xs t-tertiary truncate mt-0.5 mb-1" style="font-size:11px;">${escHtml(metaLine)}</div>` : '<div class="mb-1.5"></div>'}
         <div class="flex items-center gap-1.5">
           <span class="font-mono text-xs font-bold" style="color:${gradeColor};">${c.grade || '—'}</span>
           <span class="text-xs t-tertiary">${Math.round(c.score || 0)}점</span>
@@ -837,29 +843,27 @@ function buildPanelShell(name, loading) {
 
     <!-- Tabs -->
     <div class="flex gap-0 px-2 scroll-thin" style="border-bottom:1px solid var(--border); overflow-x:auto;">
-      <button class="tab-btn active" onclick="switchDetailTab('scorecard', this)">스코어카드</button>
-      <button class="tab-btn" onclick="switchDetailTab('overview', this)">기업 개요</button>
-      <button class="tab-btn" onclick="switchDetailTab('financials', this)">재무</button>
-      <button class="tab-btn" onclick="switchDetailTab('news', this)">뉴스</button>
-      <button class="tab-btn" onclick="switchDetailTab('culture', this)">문화</button>
-      <button class="tab-btn" onclick="switchDetailTab('business', this)">사업 부문</button>
-      <button class="tab-btn" onclick="switchDetailTab('vision', this)">비전/철학</button>
-      <button class="tab-btn" onclick="switchDetailTab('aistrategy', this)">AI 전략</button>
+      <button class="tab-btn active" onclick="switchDetailTab('overview', this)">개요</button>
+      <button class="tab-btn" onclick="switchDetailTab('keymetrics', this)">핵심 지표</button>
+      <button class="tab-btn" onclick="switchDetailTab('business', this)">사업/제품</button>
+      <button class="tab-btn" onclick="switchDetailTab('competitors', this)">경쟁 구도</button>
+      <button class="tab-btn" onclick="switchDetailTab('aistrategy', this)">기술/AI</button>
+      <button class="tab-btn" onclick="switchDetailTab('jobguide', this)">입사 가이드</button>
+      <button class="tab-btn" onclick="switchDetailTab('scorecard', this)">스코어카드</button>
       <button id="tabJdMatchBtn" class="tab-btn" onclick="switchDetailTab('jdmatch', this)" style="display:none;">JD 매칭</button>
       <button id="tabResumeBtn" class="tab-btn" onclick="switchDetailTab('resumematch', this)" style="display:none;">이력서 분석</button>
     </div>
 
     <!-- Tab contents -->
     <div class="p-5">
-      <div id="dp-scorecard" class="tab-panel active"><div id="dpScorecardContent">${loading ? loadingHtml() : ''}</div></div>
-      <div id="dp-overview"   class="tab-panel"><div id="dpOverviewContent"></div></div>
-      <div id="dp-financials" class="tab-panel"><div id="dpFinancialsContent"></div></div>
-      <div id="dp-news"       class="tab-panel"><div id="dpNewsContent"></div></div>
-      <div id="dp-culture"    class="tab-panel"><div id="dpCultureContent"></div></div>
-      <div id="dp-business"   class="tab-panel"><div id="dpBusinessContent"></div></div>
-      <div id="dp-vision"     class="tab-panel"><div id="dpVisionContent"></div></div>
-      <div id="dp-aistrategy" class="tab-panel"><div id="dpAiStrategyContent"></div></div>
-      <div id="dp-jdmatch"    class="tab-panel"><div id="dpJdMatchContent"></div></div>
+      <div id="dp-overview"    class="tab-panel active"><div id="dpOverviewContent">${loading ? loadingHtml() : ''}</div></div>
+      <div id="dp-keymetrics"  class="tab-panel"><div id="dpKeyMetricsContent"></div></div>
+      <div id="dp-business"    class="tab-panel"><div id="dpBusinessContent"></div></div>
+      <div id="dp-competitors" class="tab-panel"><div id="dpCompetitorsContent"></div></div>
+      <div id="dp-aistrategy"  class="tab-panel"><div id="dpAiStrategyContent"></div></div>
+      <div id="dp-jobguide"    class="tab-panel"><div id="dpJobGuideContent"></div></div>
+      <div id="dp-scorecard"   class="tab-panel"><div id="dpScorecardContent"></div></div>
+      <div id="dp-jdmatch"     class="tab-panel"><div id="dpJdMatchContent"></div></div>
       <div id="dp-resumematch" class="tab-panel"><div id="dpResumeContent"></div></div>
     </div>
 
@@ -918,14 +922,13 @@ function renderDetailPanel(data, name, metaEntry) {
   badgeEl.style.backgroundColor = getGradeBg(grade);
   badgeEl.style.color           = getGradeColor(grade);
 
-  renderScorecard(sc, name);
   renderOverview(s1, meta);
-  renderFinancials(s1);
-  renderNews(s1);
-  renderCulture(s4, name);
+  renderKeyMetrics(meta);
   renderBusiness(meta);
-  renderVision(meta);
+  renderCompetitors(meta);
   renderAiStrategy(meta);
+  renderJobGuide(meta);
+  renderScorecard(sc, name);
   // AI 전략 뱃지 표시/숨김
   const aiHeaderBadge = document.getElementById('dpAiBadge');
   if (aiHeaderBadge) aiHeaderBadge.style.display = meta.ai_strategy ? 'inline-flex' : 'none';
@@ -1611,6 +1614,206 @@ function renderAiStrategy(meta) {
   }
 
   el.innerHTML = `<div>${aiHtml}${techHtml}${industryHtml}</div>`;
+}
+
+// ═══════════════════════════════════════════════════════
+// Key Metrics tab
+// ═══════════════════════════════════════════════════════
+function renderKeyMetrics(meta) {
+  const el = document.getElementById('dpKeyMetricsContent');
+  const km = meta.key_metrics || {};
+  const coreB = meta.core_business || '';
+  const pos = meta.market_position || '';
+
+  const metricDefs = [
+    { key: 'revenue',      label: '매출' },
+    { key: 'growth_rate',  label: '성장률' },
+    { key: 'profit',       label: '영업이익' },
+    { key: 'users',        label: '사용자/고객' },
+    { key: 'market_share', label: '시장 점유율' },
+  ];
+
+  const hasMetrics = metricDefs.some(d => km[d.key]);
+
+  if (!hasMetrics && !coreB && !pos) {
+    el.innerHTML = '<div class="text-sm t-tertiary py-10 text-center">데이터 수집 중...</div>';
+    return;
+  }
+
+  const metricCards = metricDefs.filter(d => km[d.key]).map(d => `
+    <div class="p-4 rounded-xl" style="background:var(--bg-secondary);">
+      <div class="text-xs t-tertiary mb-1">${d.label}</div>
+      <div class="text-sm font-bold font-mono t-primary leading-snug">${escHtml(km[d.key])}</div>
+    </div>
+  `).join('');
+
+  const metricsHtml = hasMetrics ? `
+    <div class="mb-5">
+      <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+        핵심 수치
+      </h4>
+      <div class="grid grid-cols-2 gap-3">${metricCards}</div>
+    </div>
+  ` : '';
+
+  const coreBHtml = coreB ? `
+    <div class="mb-5">
+      <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        핵심 사업
+      </h4>
+      <div class="p-4 rounded-xl text-sm t-secondary leading-relaxed" style="background:var(--bg-secondary);">${escHtml(coreB)}</div>
+    </div>
+  ` : '';
+
+  const posHtml = pos ? `
+    <div class="mb-5">
+      <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/></svg>
+        시장 포지션
+      </h4>
+      <div class="p-4 rounded-xl text-sm t-secondary leading-relaxed" style="background:var(--bg-secondary);">${escHtml(pos)}</div>
+    </div>
+  ` : '';
+
+  el.innerHTML = `<div>${metricsHtml}${coreBHtml}${posHtml}</div>`;
+}
+
+// ═══════════════════════════════════════════════════════
+// Competitors tab
+// ═══════════════════════════════════════════════════════
+function renderCompetitors(meta) {
+  const el = document.getElementById('dpCompetitorsContent');
+  const competitors = Array.isArray(meta.competitors) ? meta.competitors : [];
+  const pos = meta.market_position || '';
+
+  if (!competitors.length && !pos) {
+    el.innerHTML = '<div class="text-sm t-tertiary py-10 text-center">데이터 수집 중...</div>';
+    return;
+  }
+
+  const direct   = competitors.filter(c => (c.relationship || '').includes('직접'));
+  const indirect = competitors.filter(c => !(c.relationship || '').includes('직접'));
+
+  function compCard(c, isDirect) {
+    const borderColor = isDirect ? '#FF4545' : 'var(--border)';
+    const labelColor  = isDirect ? '#FF4545' : 'var(--text-tertiary)';
+    const labelBg     = isDirect ? 'rgba(255,69,69,0.08)' : 'var(--bg-secondary)';
+    const rel = (c.relationship || '').replace('직접경쟁', '').replace('간접경쟁', '').trim();
+    return `
+      <div class="p-3.5 rounded-xl" style="border:1px solid var(--border); border-left:3px solid ${borderColor};">
+        <div class="flex items-center justify-between gap-2">
+          <span class="font-semibold text-sm t-primary">${escHtml(c.name || '')}</span>
+          <span class="text-xs font-medium px-2 py-0.5 rounded-full flex-shrink-0" style="background:${labelBg}; color:${labelColor};">${isDirect ? '직접경쟁' : '간접경쟁'}</span>
+        </div>
+        ${rel ? `<div class="text-xs t-tertiary mt-1">${escHtml(rel)}</div>` : ''}
+      </div>
+    `;
+  }
+
+  const directHtml = direct.length ? `
+    <div class="mb-5">
+      <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full flex-shrink-0" style="background:#FF4545;"></span>
+        직접 경쟁사 <span class="font-normal t-tertiary">(${direct.length}개)</span>
+      </h4>
+      <div class="space-y-2">${direct.map(c => compCard(c, true)).join('')}</div>
+    </div>
+  ` : '';
+
+  const indirectHtml = indirect.length ? `
+    <div class="mb-5">
+      <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full flex-shrink-0" style="background:var(--text-tertiary);"></span>
+        간접 경쟁사 <span class="font-normal t-tertiary">(${indirect.length}개)</span>
+      </h4>
+      <div class="space-y-2">${indirect.map(c => compCard(c, false)).join('')}</div>
+    </div>
+  ` : '';
+
+  const posHtml = pos ? `
+    <div class="mb-5">
+      <h4 class="text-sm font-semibold t-primary mb-3">시장 포지션</h4>
+      <div class="p-4 rounded-xl text-sm t-secondary leading-relaxed" style="background:var(--bg-secondary);">${escHtml(pos)}</div>
+    </div>
+  ` : '';
+
+  el.innerHTML = `<div>${posHtml}${directHtml}${indirectHtml}</div>`;
+}
+
+// ═══════════════════════════════════════════════════════
+// Job Guide tab
+// ═══════════════════════════════════════════════════════
+function renderJobGuide(meta) {
+  const el = document.getElementById('dpJobGuideContent');
+  const whyJoin    = meta.why_join    || '';
+  const whyNot     = meta.why_not_join || '';
+  const strengths  = Array.isArray(meta.strengths) ? meta.strengths : [];
+  const risks      = Array.isArray(meta.risks)     ? meta.risks     : [];
+  const tip        = meta.interview_tip || '';
+
+  if (!whyJoin && !whyNot && !strengths.length && !risks.length && !tip) {
+    el.innerHTML = '<div class="text-sm t-tertiary py-10 text-center">데이터 수집 중...</div>';
+    return;
+  }
+
+  const whyJoinHtml = whyJoin ? `
+    <div class="p-4 rounded-xl" style="background:rgba(0,196,113,0.07); border-left:3px solid #00C471;">
+      <h4 class="text-sm font-semibold mb-2" style="color:#00C471;">가야 하는 이유</h4>
+      <p class="text-sm t-secondary leading-relaxed">${escHtml(whyJoin)}</p>
+    </div>
+  ` : '';
+
+  const whyNotHtml = whyNot ? `
+    <div class="p-4 rounded-xl" style="background:rgba(255,149,0,0.07); border-left:3px solid #FF9500;">
+      <h4 class="text-sm font-semibold mb-2" style="color:#FF9500;">알아둬야 할 점</h4>
+      <p class="text-sm t-secondary leading-relaxed">${escHtml(whyNot)}</p>
+    </div>
+  ` : '';
+
+  const strengthsHtml = strengths.length ? `
+    <div>
+      <h4 class="text-sm font-semibold t-primary mb-2">강점</h4>
+      <ul class="space-y-1.5">
+        ${strengths.map(s => `
+          <li class="flex items-start gap-2 text-sm t-secondary">
+            <span class="flex-shrink-0 mt-1 font-bold" style="color:#00C471;">+</span>
+            ${escHtml(s)}
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+  ` : '';
+
+  const risksHtml = risks.length ? `
+    <div>
+      <h4 class="text-sm font-semibold t-primary mb-2">리스크</h4>
+      <ul class="space-y-1.5">
+        ${risks.map(r => `
+          <li class="flex items-start gap-2 text-sm t-secondary">
+            <span class="flex-shrink-0 mt-1 font-bold" style="color:#FF4545;">−</span>
+            ${escHtml(r)}
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+  ` : '';
+
+  const strengthsRisksHtml = (strengths.length || risks.length) ? `
+    <div class="p-4 rounded-xl space-y-4" style="background:var(--bg-secondary);">
+      ${strengthsHtml}${risksHtml}
+    </div>
+  ` : '';
+
+  const tipHtml = tip ? `
+    <div class="p-4 rounded-xl" style="background:rgba(49,130,246,0.07); border-left:3px solid var(--primary);">
+      <h4 class="text-sm font-semibold mb-2" style="color:var(--primary);">면접 팁</h4>
+      <p class="text-sm t-secondary leading-relaxed">${escHtml(tip)}</p>
+    </div>
+  ` : '';
+
+  el.innerHTML = `<div class="space-y-4">${whyJoinHtml}${whyNotHtml}${strengthsRisksHtml}${tipHtml}</div>`;
 }
 
 // ═══════════════════════════════════════════════════════
