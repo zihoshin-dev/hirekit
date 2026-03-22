@@ -1,0 +1,932 @@
+{
+  "AWS코리아": {
+    "active_job_postings": 269,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[메이플스토리] 서버 프로그래머",
+      "[여의도/성과급多]나이스평가정보 서비스데스크 운영 채용",
+      "(주)베네통코리아 / IT Infra Specialist 채용",
+      "시스템 업그레이드 및 프로젝트 관리",
+      "Back End 개발자 채용 (Java/Spring Boot)"
+    ],
+    "source": "saramin"
+  },
+  "CJ ENM": {
+    "active_job_postings": 84,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[신규] CJ ENM 라꼰즈 신규 예능팀에서 프리랜서 PD / 편집자님",
+      "홈쇼핑 영상 편집 가능한 프리랜서 모집",
+      "[CJ ENM/영상편집/방송사/신입O] 영상편집자,콘텐츠에디터 채용",
+      "[CJ ENM/방송사/신입O] 디지털 콘텐츠 제작 및 마케팅 지원",
+      "[CJ ENM] 방송 프로그램 영상 번역 영어 근무자 모집"
+    ],
+    "source": "saramin"
+  },
+  "CJ올리브영": {
+    "active_job_postings": 1238,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[CJ올리브영] 뷰티 카테고리 MD",
+      "[CJ올리브영] PB화장품 구매 담당자",
+      "[CJ올리브영] 브랜딩 커뮤니케이션 &amp; IMC 캠페인 매니저",
+      "[CJ올리브영] 도심물류매장 MFC 운영(계약직) - 인천점",
+      "[CJ올리브영] 광고 PM (시니어)"
+    ],
+    "source": "saramin"
+  },
+  "JYP엔터테인먼트": {
+    "active_job_postings": 18,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "JYP엔터테인먼트 2026년 상반기 수시채용",
+      "[그리팅] 필드 세일즈 매니저",
+      "[스탠포드호텔 서울] F&amp;B 연회서비스 경력직(주임,대리) 채용",
+      "[스탠포드호텔코리아 서울] 조리팀 주임/대리 채용",
+      "[스탠포드호텔코리아 서울] 베이커리 파티셰 채용 (사원/주임)"
+    ],
+    "source": "saramin"
+  },
+  "KT": {
+    "active_job_postings": 1043,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "KTV 뉴 사이다 (사실은 이렇습니다) PD 추가 채용공고",
+      "[kt cs정규직] 메리츠화재 부활 상담사 모집 (영업X)",
+      "[안양/정규직] kt엠모바일 알뜰폰 고객센터 교육강사 채용",
+      "[kt cs정규직] 메리츠화재 고객센터 관리자(실장) 모집",
+      "[ktcs/공공기관] 화성시청 콜센터 상담사 채용"
+    ],
+    "source": "saramin"
+  },
+  "LG CNS": {
+    "active_job_postings": 72,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[LG CNS] AI 전 영역 전문가 모집 경력 (Data Engineer)",
+      "[LG CNS] AI 전 영역 전문가 모집 (AI Solution Architecture)",
+      "[LG CNS] AI 전 영역 전문가 모집 경력 (AI Scientist)",
+      "[LG CNS] AI 전 영역 전문가 모집 경력 (AI PM/PL)",
+      "[LG CNS] AI 전 영역 전문가 모집 경력"
+    ],
+    "source": "saramin"
+  },
+  "SK텔레콤": {
+    "active_job_postings": 341,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "인센티브 정산 및 판매통계 담당자",
+      "임차사옥 관리 및 사무 지원 담당자",
+      "정산 및 통계 담당자",
+      "SK Honors Lounge 회계 및 서무 담당자",
+      "건설 현장 C/S관리 촉탁직 채용"
+    ],
+    "source": "saramin"
+  },
+  "SK하이닉스": {
+    "active_job_postings": 542,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "SK하이닉스 청주사업장 부속의원 간호사 채용",
+      "['26년 상반기] Talent hy-way 신입 (경영전략)",
+      "['26년 상반기] Talent hy-way 신입 (양산기술)",
+      "['26년 상반기] Talent hy-way 신입 (Product Engineering)",
+      "['26년 상반기] Talent hy-way 신입 (Application Engineering)"
+    ],
+    "source": "saramin"
+  },
+  "SM엔터테인먼트": {
+    "active_job_postings": 37,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "MD 유통 담당자 채용 (경력)",
+      "아티스트 마케팅 전략 담당자 채용 (경력)",
+      "생산 MD 담당자 채용 (경력)",
+      "브랜드파트너십 운영 및 관리 담당자 채용 (신입/경력)",
+      "연결회계 담당자 채용 (경력 5-8년차)"
+    ],
+    "source": "saramin"
+  },
+  "SSG닷컴": {
+    "active_job_postings": 12,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[재택가능/시간선택] SSG닷컴 이용 문의 단순 상담 MSo7",
+      "[관리자/관악] SSG닷컴 고객센터 팀장/강사/DA총무 채용  Mb6G",
+      "[가산디지털단지역,LGU+자회사 CS, 정규직]",
+      "(주)칸그림 상반기 패션 온라인 MD / AMD 정규직 채용",
+      "[라로제코리아] 프랑스 뷰티 브랜드 기획팀 채용"
+    ],
+    "source": "saramin"
+  },
+  "xAI": {
+    "active_job_postings": 6,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "Data Analyst 채용",
+      "[NARA SPACE] 각 부문별 직원모집",
+      "[위성기술] 나라스페이스테크놀로지 각 부문별 신입/경력 모집",
+      "AI 기반 기획/마케팅 업무에 관심있는 인재를 채용합니다",
+      "[신용평가사] AI개발자를 모십니다"
+    ],
+    "source": "saramin"
+  },
+  "구글코리아": {
+    "active_job_postings": 81,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[올록담/강남본사] 국내영업 오프라인 AMD",
+      "[올록담/강남본사] 총무담당자",
+      "[올록담] 부문별 경력직원 채용",
+      "[머크] Medical Advisor, Rare Tumors(12개월 계약직, 2년 경력)",
+      "[머크] Corporate Affairs Specialist (1년 계약직, 서울 근무)"
+    ],
+    "source": "saramin"
+  },
+  "그린랩스": {
+    "active_job_postings": 1,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[모딩 플랫폼] UXUI 프로덕트 디자이너(Product Designer) 채용"
+    ],
+    "source": "saramin"
+  },
+  "네이버": {
+    "active_job_postings": 10200,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[네이버웹툰] Disney 디지털 코믹스 플랫폼 iOS 개발 (경력)",
+      "[네이버웹툰] TH Webtoon Regional Operations (경력)",
+      "[네이버웹툰] US SoX (경력)",
+      "[네이버웹툰] 네이버 시리즈 콘텐츠 기획 마케터 (체험형 인턴)",
+      "[네이버웹툰] 시리즈 그로스 마케터 (체험형 인턴)"
+    ],
+    "source": "saramin"
+  },
+  "네이버웹툰": {
+    "active_job_postings": 54,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[네이버웹툰] Disney 디지털 코믹스 플랫폼 iOS 개발 (경력)",
+      "[네이버웹툰] TH Webtoon Regional Operations (경력)",
+      "[네이버웹툰] US SoX (경력)",
+      "[네이버웹툰] 네이버 시리즈 콘텐츠 기획 마케터 (체험형 인턴)",
+      "[네이버웹툰] 시리즈 그로스 마케터 (체험형 인턴)"
+    ],
+    "source": "saramin"
+  },
+  "네이버클라우드": {
+    "active_job_postings": 253,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[NAVER Cloud] AI/Cloud 비즈니스 전략·사업개발 (체험형 인턴)",
+      "[NAVER Cloud] 클라우드 IaaS 상품 기획 및 관리 (체험형 인턴)",
+      "임직원 성장 경험 및 온보딩 프로그램 기획·운영 (체험형 인턴)",
+      "세종 네이버클라우드 데이터센터 소방/안전 파트장(관리자) 채용",
+      "네이버클라우드 게임플랫폼 기술지원 담당자"
+    ],
+    "source": "saramin"
+  },
+  "네이버파이낸셜": {
+    "active_job_postings": 12,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[네이버페이] 정보보호 업무 운영 지원 담당자 (계약직)",
+      "[네이버페이] 대출비교 서비스 운영 담당자 (계약직)",
+      "[네이버페이] 현장 결제 서비스 운영 담당자 (계약직)",
+      "[네이버페이] 제휴 포인트 운영 및 CS 업무 담당자 (계약직)",
+      "[이지팩토리] JAVA 웹 개발자 경력직 채용 공고"
+    ],
+    "source": "saramin"
+  },
+  "넥슨코리아": {
+    "active_job_postings": 50,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[프라시아 전기] 월드 빌더",
+      "[프라시아 전기] 테크니컬 아티스트",
+      "[프라시아 전기] 서버 프로그래머",
+      "[플랫폼본부] 던파시너지실 AI 워크플로우 엔지니어 (계약직)",
+      "[플랫폼본부] AI Hub실 AI 백엔드 엔지니어"
+    ],
+    "source": "saramin"
+  },
+  "넷마블": {
+    "active_job_postings": 51,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "크리에이터 전략 기획 담당자",
+      "사내 시스템 개발(e-HR) 담당자 모집",
+      "IT 감사 담당자 모집",
+      "정보보호 정책담당자 모집",
+      "게임 데이터 분석 담당자 모집"
+    ],
+    "source": "saramin"
+  },
+  "당근": {
+    "active_job_postings": 171,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[당근서비스] CX Specialist, 버티컬팀",
+      "[당근서비스] CX Specialist, 중고거래팀",
+      "[당근서비스] Sr. L&amp;D Manager(교육), 성장문화팀",
+      "[당근서비스] CX Specialist, 사업심사팀",
+      "[당근서비스] CX Specialist, 페이팀"
+    ],
+    "source": "saramin"
+  },
+  "두나무": {
+    "active_job_postings": 6,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[두나무] 사회공헌 교육사업 기획/운영 담당자",
+      "[두나무] 공공·비영리 디지털자산 연계 사업 기획/운영 담당자",
+      "두나무 계열사 바이버 사무보조 채용",
+      "(주)크리에이티브그룹 아더  신입/경력  BTL 마케팅 기획자 채용",
+      "[삼성DS] 대기업 사내 피트니스센터 사무보조 직원 모집"
+    ],
+    "source": "saramin"
+  },
+  "딥마인드코리아": {
+    "active_job_postings": 12,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[위버스그룹] AI Lab - AI/ML Engineer 모집 (경력)",
+      "[로봇스타트업] 로보틱스 영업 모집",
+      "[로봇 기업] 품질관리(QC) 경력 모집",
+      "로보틱스 하드웨어 (설계) 엔지니어 모집 (신입/경력)",
+      "[로봇기업] 회계 경력 사원 모집"
+    ],
+    "source": "saramin"
+  },
+  "라인플러스": {
+    "active_job_postings": 7,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[라인플러스] 문구 영업지원 및 출고 담당 모집",
+      "[라인플러스] 문구 자재관리직 모집",
+      "[라인플러스] 문구 영남,호남 영업 담당자 모집",
+      "[라인플러스] 문구 수도권 영업 소장 모집",
+      "[라인플러스] 문구 해외영업부  채용"
+    ],
+    "source": "saramin"
+  },
+  "뤼튼": {
+    "active_job_postings": 18,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[뤼튼테크놀로지스] Community Manager",
+      "Agent Developer 인턴",
+      "AI Contents Creator",
+      "제품전략실 인턴",
+      "Mobile App Engineer 인턴"
+    ],
+    "source": "saramin"
+  },
+  "리디": {
+    "active_job_postings": 30,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[리디] Senior Product Designer",
+      "[리디] BL 웹툰 PD",
+      "Backend Engineer",
+      "일본 만화 출판 디자이너",
+      "Product Manager (추천/탐색)"
+    ],
+    "source": "saramin"
+  },
+  "리벨리온": {
+    "active_job_postings": 8,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "공공/국방 SI 프로젝트 사업 PM 공고",
+      "네트워크 구축 및 유지보수 엔지니어팀 신입[대구]",
+      "국가정보자원관리원 대전 상주(네트워크 시스템 운영/경력 7년~)",
+      "네트워크 구축 및 유지보수 엔지니어팀 신입[대전 본사]",
+      "SI 사업 지원/관리 (경력) 인원 채용 공고"
+    ],
+    "source": "saramin"
+  },
+  "리턴제로": {
+    "active_job_postings": 0,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "제주 드림타워 복합리조트 [카지노&amp;호텔] 대규모 신입/경력 공채",
+      "3월 신입 및 경력직 채용",
+      "2026년 본사 및 관계사 채용",
+      "2026년 상반기 각 부문별 신입/경력 채용공고",
+      "2026년 1분기 분야별 공개채용"
+    ],
+    "source": "saramin"
+  },
+  "마이리얼트립": {
+    "active_job_postings": 21,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[마이리얼트립] T&amp;A실 해외사업개발 매니저(신입채용)",
+      "[마이리얼트립] 일본팀 콘텐츠마케터(계약직)",
+      "[마이리얼트립] People&amp;Comms실 GA/IT Manager(신입)",
+      "[마이리얼트립] 크리에이터 마케팅 매니저",
+      "[마이리얼트립] 미주팀 콘텐츠마케터(계약직)"
+    ],
+    "source": "saramin"
+  },
+  "마키나락스": {
+    "active_job_postings": 2,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "General Affairs Manager",
+      "IR Manager"
+    ],
+    "source": "saramin"
+  },
+  "메이크스타": {
+    "active_job_postings": 57,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "3PL 물류 운영관리자",
+      "물류센터 운영 매니저",
+      "K-POP 굿즈(포토카드) 물류운영담당자",
+      "[누아엔터테인먼트] 배우매니지먼트팀 현장매니저 채용",
+      "[스킨79] 영업기획팀 온라인MD 채용"
+    ],
+    "source": "saramin"
+  },
+  "메타코리아": {
+    "active_job_postings": 0,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "제주 드림타워 복합리조트 [카지노&amp;호텔] 대규모 신입/경력 공채",
+      "3월 신입 및 경력직 채용",
+      "2026년 본사 및 관계사 채용",
+      "2026년 상반기 각 부문별 신입/경력 채용공고",
+      "2026년 1분기 분야별 공개채용"
+    ],
+    "source": "saramin"
+  },
+  "무신사": {
+    "active_job_postings": 504,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[MUSINSA] 팝업 기획 담당자 (무신사오프라인커머스)",
+      "[무신사 스탠다드] Retail Operation Manager",
+      "[MUSINSA] 운영 MD (무신사 슈즈 오프라인)",
+      "Account Manager (무신사스튜디오)",
+      "물류 수출입 운영 담당자 (MUSINSA JAPAN)"
+    ],
+    "source": "saramin"
+  },
+  "밀리의서재": {
+    "active_job_postings": 15,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "오리지널 종이책 시니어 마케터",
+      "[주5일/10시출근] 밀리의서재 고객센터 상담사 모집",
+      "[가산디지털단지역,LGU+자회사 CS, 정규직]",
+      "[아파트멘터리] 리모델링 매니저 운영·관리 담당자",
+      "[아파트멘터리] Arckit(주방/수납 제작가구) 디자인/설계 담당자"
+    ],
+    "source": "saramin"
+  },
+  "뱅크샐러드": {
+    "active_job_postings": 28,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[신입/경력] 퍼포먼스 마케터 (페이드 그로스 마케터)- 디지털AE",
+      "[신입/경력] 페이드 그로스 마케터(퍼포먼스 마케터 / 디지털AE)",
+      "[어라운드] Lead Chef, Chef : 신입 / 경력 정규직 채용 공고",
+      "[디자인 스튜디오 태도] 브랜드, 그래픽 디자이너 채용",
+      "[금천구] 방사선사 선생님 구인(주5일근무)"
+    ],
+    "source": "saramin"
+  },
+  "버킷플레이스": {
+    "active_job_postings": 6,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "Creator Product Marketing Assistant (인턴)",
+      "인테리어 디자이너 (전환형)",
+      "커머스 AMD (계약직)",
+      "O2O Operations Manager",
+      "소셜마케터 (계약직)"
+    ],
+    "source": "saramin"
+  },
+  "빗썸": {
+    "active_job_postings": 12,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[빗썸나눔] 사회공헌 활동 지원 담당자",
+      "[빗썸서비스] CS전문상담(14-23시, 정규직)",
+      "[빗썸서비스] CS전문상담(10-19시, 정규직)",
+      "[영업X/초보가능] 가상자산 거래소 빗썸 이용관련 단순상담 MHw2",
+      "[NAVER Cloud] AI/Cloud 비즈니스 전략·사업개발 (체험형 인턴)"
+    ],
+    "source": "saramin"
+  },
+  "삼성SDS": {
+    "active_job_postings": 99,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "계약직 채용(판교직장예비군중대 사무원)",
+      "[삼성SDS/잠실]인사시스템 계열사 문의응대(시스템,메일,메신등)",
+      "[삼성SDS]그룹 인사시스템 운영지원(인사,급여,4대보험 경력)",
+      "[삼성SDS자회사] (주)시큐아이 경력사원 채용(기획)",
+      "[삼성SDS자회사] (주)시큐아이 경력사원 채용(보안컨설팅)"
+    ],
+    "source": "saramin"
+  },
+  "삼성전자": {
+    "active_job_postings": 1641,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "(주)삼성전자와이케이 온라인 판매 영업·보조",
+      "삼성전자어린이집 보건교사·간호사 대체직을 찾고 있어요",
+      "삼성전자광주어린이집 미술 전담 교사  채용",
+      "어린이집 조리사 채용",
+      "물류관리.재고관리 및 배송."
+    ],
+    "source": "saramin"
+  },
+  "세일즈포스코리아": {
+    "active_job_postings": 37,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[Gruve Korea] Salesforce Developer 세일즈포스 개발 경력 채용",
+      "[머크] Production Planner (계약직, 2년 이상, 안성 근무)",
+      "[닥터지] Domestic부문 Brand Marketing Director",
+      "트레이드 마케팅 매니저 채용",
+      "[강남구청역] 글로벌 신발 의류 브랜드 'D'사 AR Accountant"
+    ],
+    "source": "saramin"
+  },
+  "센드버드": {
+    "active_job_postings": 0,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "제주 드림타워 복합리조트 [카지노&amp;호텔] 대규모 신입/경력 공채",
+      "3월 신입 및 경력직 채용",
+      "2026년 본사 및 관계사 채용",
+      "2026년 상반기 각 부문별 신입/경력 채용공고",
+      "2026년 1분기 분야별 공개채용"
+    ],
+    "source": "saramin"
+  },
+  "스노우": {
+    "active_job_postings": 57,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "제조부 직원 경력/ 신입 채용합니다.",
+      "[SNOW] 남미 콘텐츠 마케팅 체험형 인턴",
+      "스노우라인 마케팅팀 채용 공고 (경력 / 신입)",
+      "(주)스노우라인 시각디자인(디자이너) 채용공고를 안내해요",
+      "[Snow Peak] 스노우피크 직영 스토어/레스토랑/물류/오피스 정직원 채용"
+    ],
+    "source": "saramin"
+  },
+  "스캐터랩": {
+    "active_job_postings": 1,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "zeta 일본 CS담당자 (오퍼레이션)"
+    ],
+    "source": "saramin"
+  },
+  "쏘카": {
+    "active_job_postings": 55,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[쏘카]모두의주차장 에이전트(제휴영업 프리랜서)모집(서울/경기",
+      "[쏘카]모두의주차장 에이전트(제휴영업 프리랜서)모집(광주/전남",
+      "[쏘카]모두의주차장 에이전트(제휴영업 프리랜서)모집(경남/강원",
+      "[쏘카]모두의주차장 에이전트(제휴영업 프리랜서)모집(대전/전북",
+      "[쏘카]모두의주차장 에이전트(제휴영업 프리랜서)모집(부산/제주"
+    ],
+    "source": "saramin"
+  },
+  "애플코리아": {
+    "active_job_postings": 18,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[글로벌/뷰티제품] Product Manager (Skincare Product)",
+      "[글로벌/ 의료기기기업] Product Specialist (English Speaking)",
+      "[가산디지털단지역,LGU+자회사 CS, 정규직]",
+      "(주)엠디에스코리아 회계부 경력직 채용 공고",
+      "(주)엠디에스코리아 영업지원팀 신입 및 경력직 채용 공고"
+    ],
+    "source": "saramin"
+  },
+  "앤트로픽코리아": {
+    "active_job_postings": 0,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "제주 드림타워 복합리조트 [카지노&amp;호텔] 대규모 신입/경력 공채",
+      "3월 신입 및 경력직 채용",
+      "2026년 본사 및 관계사 채용",
+      "2026년 상반기 각 부문별 신입/경력 채용공고",
+      "2026년 1분기 분야별 공개채용"
+    ],
+    "source": "saramin"
+  },
+  "야놀자": {
+    "active_job_postings": 52,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[Yanolja NEXT] Software Engineer - IAB Platform Solution",
+      "[Yanolja NEXT] Lead Software Engineer - IAB",
+      "Front-End Engineering",
+      "[Yanolja NEXT] Software Engineer - Search",
+      "Global Leader, Product Management - Enterprise Solution"
+    ],
+    "source": "saramin"
+  },
+  "업스테이지": {
+    "active_job_postings": 23,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "AI Tech Data Manager",
+      "[독파모] AI Model Production - LLM",
+      "AI DevOps",
+      "AI Product Data Manager",
+      "Software Engineer-Launching Platform"
+    ],
+    "source": "saramin"
+  },
+  "에이프로젠": {
+    "active_job_postings": 0,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "제주 드림타워 복합리조트 [카지노&amp;호텔] 대규모 신입/경력 공채",
+      "3월 신입 및 경력직 채용",
+      "2026년 본사 및 관계사 채용",
+      "2026년 상반기 각 부문별 신입/경력 채용공고",
+      "2026년 1분기 분야별 공개채용"
+    ],
+    "source": "saramin"
+  },
+  "엔비디아코리아": {
+    "active_job_postings": 18,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "자율주행 플랫폼 소프트웨어 엔지니어",
+      "AIR 부문 AI 전문 Engineer 채용 (경력)",
+      "NVIDIA Ops 인턴 채용",
+      "NVIDIA 세일즈, 테크 채용",
+      "ML Engineer/Researcher (경력)"
+    ],
+    "source": "saramin"
+  },
+  "엔씨소프트": {
+    "active_job_postings": 109,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "엔씨소프트 전 부문 수시 채용",
+      "[NC][리니지W] DBA / DB Programmer 모집",
+      "[NC][계약직][AION2] 캐릭터 모델러 모집",
+      "[NC][AION2] 클라이언트 프로그래머 모집",
+      "[NC][단기계약직][리니지W] 배경 에셋제작 지원자 모집"
+    ],
+    "source": "saramin"
+  },
+  "오픈AI코리아": {
+    "active_job_postings": 147,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "AI 모델러 경력 채용",
+      "[NHN Cloud] AI/ML 리서치 및 개발",
+      "[디스트릭트] AI 기반 2D/3D 모션 그래픽 제작자 채용",
+      "윈도우 응용 프로그래머(C++, C#) 신입~초중급 개발자 모집",
+      "AI 서비스 백엔드 개발자(경력)"
+    ],
+    "source": "saramin"
+  },
+  "왓챠": {
+    "active_job_postings": 33,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[삼우CM / 포항시 북구] 감리단 사원 채용",
+      "[SK에코플랜트/이천 부발읍] 사무직 채용",
+      "삼성중공업 사무직 채용",
+      "[SK에코플랜트/용인 처인구] 사무직 채용",
+      "[SK쉴더스/판교] 정보보안구매팀 사무직 직원 채용"
+    ],
+    "source": "saramin"
+  },
+  "우아한형제들": {
+    "active_job_postings": 311,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[부산/경남] 배달의민족 영업 지원 담당자(계약직)",
+      "자율주행 로봇관제 및 현장 담당 요원",
+      "인사기획/운영(평가/보상)",
+      "CX운영(CX시스템 운영관리)",
+      "배달의민족 공식협력사(SM) 영업사원으로 함께 성장해요"
+    ],
+    "source": "saramin"
+  },
+  "원티드랩": {
+    "active_job_postings": 5,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[원티드긱스][마곡] 다크웹 보안 담당자 구인",
+      "[원티드긱스][강서구] 대기업 보안 운영 담당자 모집",
+      "[원티드긱스] 증권 주식매매 시스템 개발 및 운영",
+      "[원티드긱스] 컨택센터 CTI/상담APP/통합통계 관리 개발",
+      "[원티드긱스] 삼성생명 WFMS시스템 구축(SI)"
+    ],
+    "source": "saramin"
+  },
+  "지마켓": {
+    "active_job_postings": 248,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[지마켓/경력]  Seller Growth Manager",
+      "[지마켓/신입] 검색기술 Backend Engineer",
+      "[지마켓/경력] 글로벌 역직구 운영 매니저",
+      "[지마켓/경력] 검색 트래픽 전략 및 최적화 매니저",
+      "[지마켓] 취약점 관리 Manager"
+    ],
+    "source": "saramin"
+  },
+  "직방": {
+    "active_job_postings": 66,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[직방]광고 캠페인 운영(계약직)",
+      "[직방] 중개사무소(APT) 광고 영업매니저 (계약직)",
+      "[직방] 도어락 이커머스 영업관리(1년 계약)",
+      "[직방] 도어락 이커머스 MD",
+      "[직방] QA Engineer (계약직)"
+    ],
+    "source": "saramin"
+  },
+  "채널코퍼레이션": {
+    "active_job_postings": 210,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[채널톡] AX Consultant",
+      "[펄스코퍼레이션] 유튜브 채널 관리자 채용",
+      "마케팅팀 마케팅/MD(PM) 담당자 모집",
+      "커뮤니케이션·PR 매니저 채용",
+      "Autodesk 영업 담당 경력"
+    ],
+    "source": "saramin"
+  },
+  "카카오": {
+    "active_job_postings": 1856,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "카카오 쇼핑라이브 상품 운영_어시스턴트",
+      "카카오 선물하기 멀티IP CM_어시스턴트",
+      "카카오프렌즈 온라인스토어 AMD_어시스턴트",
+      "카카오맵 콘텐츠 마케팅&amp;기획_어시스턴트",
+      "카카오맵 학습 데이터 구축_어시스턴트"
+    ],
+    "source": "saramin"
+  },
+  "카카오뱅크": {
+    "active_job_postings": 71,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "금융업무 지원 담당자 - 국가보훈대상자 전형 (계약직)",
+      "STR 모니터링 담당자 (계약직)",
+      "금융업무 지원 담당자 (계약직)",
+      "서비스 기획자 - 여신서비스",
+      "AI 상담 챗봇 운영 어시스턴트 (체험형 인턴)"
+    ],
+    "source": "saramin"
+  },
+  "카카오스타일": {
+    "active_job_postings": 196,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[카카오스타일] '글로벌 물류 기획 매니저' 채용",
+      "[카카오스타일] '자금 담당자 (산휴 대체 계약직)' 채용",
+      "[카카오스타일]지그재그 브랜드패션 AMD 채용(판교/재택병행)",
+      "[지그재그/재택] 카카오스타일 본사 브랜드패션 AMD 채용",
+      "[ 메타엠/연봉협의 ] 지그재그 고객센터 운영실장 채용"
+    ],
+    "source": "saramin"
+  },
+  "카카오엔터테인먼트": {
+    "active_job_postings": 75,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "카카오페이지 서비스 운영 및 CRM 캠페인 지원 어시스턴트",
+      "네일 아티스트 어시스턴트",
+      "티켓플랫폼팀 멜론티켓 티켓 발권/배송 담당 어시스턴트",
+      "Global Live Business &amp; IP Strategy (Lead 급)",
+      "[KAKAO ENT.] 글링크미디어(경력) SA/DA 퍼포먼스 마케터 채용"
+    ],
+    "source": "saramin"
+  },
+  "카카오페이": {
+    "active_job_postings": 52,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "사업 담당자-Stablecoin Business Strategy&amp;Global Partnership",
+      "경영 전략 담당자",
+      "[어시스턴트] 오프라인 결제 서비스 운영 지원",
+      "[어시스턴트] 콘텐츠 마케팅 업무 지원",
+      "[어시스턴트] 대출 마케팅 업무 지원"
+    ],
+    "source": "saramin"
+  },
+  "카카오페이증권": {
+    "active_job_postings": 4,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[카카오페이증권] 콘텐츠 기획자(계약직)",
+      "[카카오페이증권] IT구매 업무 지원 담당자(계약직)",
+      "[영등포역] 카카오페이증권 콜센터 관리자 (상담실장) 모집 -MM",
+      "[엔디소프트] 웹개발자(PHP&amp;MySQL) 신입/경력 모집 공고"
+    ],
+    "source": "saramin"
+  },
+  "컬리": {
+    "active_job_postings": 178,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[컬리] 창원 물류센터 현장 운영 담당자 채용",
+      "[컬리] 김포 물류센터 현장 운영 담당자 채용",
+      "[컬리] 김포 물류센터 현장사원 대규모 채용(국가보훈대상자)",
+      "[컬리] 창원 물류센터 현장사원 대규모 채용(국가보훈대상자)",
+      "[컬리] 평택 물류센터 현장사원 대규모 채용(국가보훈대상자)"
+    ],
+    "source": "saramin"
+  },
+  "코인원": {
+    "active_job_postings": 0,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "제주 드림타워 복합리조트 [카지노&amp;호텔] 대규모 신입/경력 공채",
+      "3월 신입 및 경력직 채용",
+      "2026년 본사 및 관계사 채용",
+      "2026년 상반기 각 부문별 신입/경력 채용공고",
+      "2026년 1분기 분야별 공개채용"
+    ],
+    "source": "saramin"
+  },
+  "쿠팡": {
+    "active_job_postings": 2093,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[쿠팡 CPLB] 제품 검수 담당자 (계약직)",
+      "[쿠팡 파이낸셜] 자금담당자(1년 계약직)",
+      "[쿠팡이츠서비스] CS/CX 부문별 상시 채용",
+      "[쿠팡로지스틱스서비스] 캠프 물류 장비 개발 및 운영 담당자",
+      "[쿠팡] 셀러 서포트 컨설턴트 (계약직/재택)"
+    ],
+    "source": "saramin"
+  },
+  "크래프톤": {
+    "active_job_postings": 12,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[KRAFTON JUNGLE] 정글 교육과정 운영지원 (2~5년 / 계약직)",
+      "[HR Div.] 자회사 HR Specialist (8년 이상)",
+      "[Infra Div.] IT 구매 및 경영 지원 담당자 (2년 이상 / 계약직)",
+      "[Finance Div.] 공시 담당자 (3년 이상 / 계약직)",
+      "H5사업팀 사업개발"
+    ],
+    "source": "saramin"
+  },
+  "클래스101": {
+    "active_job_postings": 65,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "교육 상담 세일즈 매니저",
+      "퍼포먼스 마케터(Growth)",
+      "Finance Manager",
+      "[미리캔버스] 프롬프트 엔지니어 (Prompt Engineer)",
+      "[미리캔버스] 글로벌 디자인 디렉터"
+    ],
+    "source": "saramin"
+  },
+  "테슬라코리아": {
+    "active_job_postings": 11,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[Tesla] 2026 Tesla Korea 대규모 공개 채용",
+      "용인물류센터 PDI 담당 신입/경력 모집",
+      "인천물류센터 PDI 담당 신입/경력 모집",
+      "김해물류센터 PDI 담당 신입/경력 모집",
+      "[두산퓨얼셀 협력사] RMS 생산 조립 담당자 채용"
+    ],
+    "source": "saramin"
+  },
+  "토스 (비바리퍼블리카)": {
+    "active_job_postings": 357,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[토스증권] 전 직군 대규모 채용",
+      "토스페이먼츠 Sales Specialist 대규모 채용",
+      "ML Engineer [Commerce]",
+      "ML Manager",
+      "AI Engineer(Serving)"
+    ],
+    "source": "saramin"
+  },
+  "토스랩": {
+    "active_job_postings": 10,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "자산관리 상품 개발 및 운영 Manager (투자전략)",
+      "[시원스쿨랩] 브랜드 마케터 채용",
+      "[NICE그룹계열사] 퍼포먼스마케터 신입/경력 채용",
+      "쏘피컴퍼니(주) [이커머스] 화장품 국내 판매 채널 운영",
+      "[디지털광고대행사]전략 기획 운영 영업  AE/AM 정규직(신입)"
+    ],
+    "source": "saramin"
+  },
+  "토스뱅크": {
+    "active_job_postings": 73,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[Business] Loan Operations Manager (전세대출)",
+      "[Business] Loan Operations Manager (부동산담보대출)",
+      "[Business] 카드 상품 Manager",
+      "[Business] 여신 상품 Manager (기업여신 심사)",
+      "[Business] WM 상품 Manager"
+    ],
+    "source": "saramin"
+  },
+  "토스증권": {
+    "active_job_postings": 50,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[토스증권] PS Team Assistant (양도소득세 신고 자료 검수)",
+      "Marketing Manager (Growth)",
+      "Marketing Manager(Japan Creative)",
+      "Retail Operations Manager (투자 권유 자문)",
+      "IT Planning Manager"
+    ],
+    "source": "saramin"
+  },
+  "토스페이먼츠": {
+    "active_job_postings": 36,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "Merchant Onboarding Specialist (PG 계약/심사)",
+      "Business Partnership Manager",
+      "Technical Product Manager (전문통신 플랫폼)",
+      "Frontend Developer(공통)",
+      "Frontend Developer(4년이상)"
+    ],
+    "source": "saramin"
+  },
+  "포티투마루": {
+    "active_job_postings": 3,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[포티투마루] RAG/LLM 솔루션 영업 (경력 3년 이상)",
+      "[디자인] 마케팅 디자이너, UI/UX (경력5년 이상)",
+      "AI 솔루션 및 서비스 개발: Front-end (경력 3년 이상)"
+    ],
+    "source": "saramin"
+  },
+  "퓨리오사AI": {
+    "active_job_postings": 1,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[MangoBoost(망고부스트)] Design Verification Engineer"
+    ],
+    "source": "saramin"
+  },
+  "핀다": {
+    "active_job_postings": 15,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "DBA [경력]",
+      "AI Product Owner (오픈업)",
+      "네트워크 엔지니어",
+      "보안 솔루션 엔지니어 (시니어)",
+      "AI Agent 개발자"
+    ],
+    "source": "saramin"
+  },
+  "하이브": {
+    "active_job_postings": 196,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "[HYBE NEB] 스토리 IP 사업 기획 / 개발",
+      "[HYBE] 기업 CSR 및 아티스트 사회공헌 실무 담당",
+      "[HYBE] 스트리밍사업(계약직)",
+      "[HYBE IPX] IP 마케팅/소셜미디어 기획",
+      "[HYBE IPX] 응원봉 연출 운영 PM"
+    ],
+    "source": "saramin"
+  },
+  "한국마이크로소프트": {
+    "active_job_postings": 132,
+    "recent_posting_date": null,
+    "hiring_positions": [
+      "MS 상업 영업 경력",
+      "MS 상업 영업 경력",
+      "에스코토스컨설팅 2026 언론 PR 신입 및 사원 채용",
+      "IT Application 운영 담당자",
+      "[쿠팡 CPLB] 제품 검수 담당자 (계약직)"
+    ],
+    "source": "saramin"
+  }
+}
