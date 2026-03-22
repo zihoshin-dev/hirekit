@@ -1,0 +1,397 @@
+{
+  "AWS코리아": {
+    "pension_members": 2000,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "CJ ENM": {
+    "pension_members": 3500,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "CJ올리브영": {
+    "pension_members": 3000,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (본사+직영점 포함)"
+  },
+  "JYP엔터테인먼트": {
+    "pension_members": 400,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "KT": {
+    "pension_members": 22000,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "LG CNS": {
+    "pension_members": 7000,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "SK텔레콤": {
+    "pension_members": 5500,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "SK하이닉스": {
+    "pension_members": 30000,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "SM엔터테인먼트": {
+    "pension_members": 1200,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "SSG닷컴": {
+    "pension_members": 1500,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "xAI": {
+    "pension_members": null,
+    "pension_date": null,
+    "pension_source": "한국 법인 미설립"
+  },
+  "구글코리아": {
+    "pension_members": 1500,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "그린랩스": {
+    "pension_members": 150,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "네이버": {
+    "pension_members": 4500,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023 (정규직 남+여)"
+  },
+  "네이버웹툰": {
+    "pension_members": 800,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "네이버클라우드": {
+    "pension_members": 1200,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (네이버클라우드 분사 인원)"
+  },
+  "네이버파이낸셜": {
+    "pension_members": 600,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "넥슨코리아": {
+    "pension_members": 5000,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (넥슨코리아 한국 법인)"
+  },
+  "넷마블": {
+    "pension_members": 4500,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "당근": {
+    "pension_members": 700,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "두나무": {
+    "pension_members": 900,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "딥마인드코리아": {
+    "pension_members": 100,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "라인플러스": {
+    "pension_members": 3000,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "뤼튼": {
+    "pension_members": 200,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "리디": {
+    "pension_members": 400,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "리벨리온": {
+    "pension_members": 200,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "리턴제로": {
+    "pension_members": 80,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "마이리얼트립": {
+    "pension_members": 200,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "마키나락스": {
+    "pension_members": 80,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "메이크스타": {
+    "pension_members": 100,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "메타코리아": {
+    "pension_members": 300,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "무신사": {
+    "pension_members": 2000,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "밀리의서재": {
+    "pension_members": 200,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "뱅크샐러드": {
+    "pension_members": 300,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "버킷플레이스": {
+    "pension_members": 500,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "빗썸": {
+    "pension_members": 500,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "삼성SDS": {
+    "pension_members": 13000,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "삼성전자": {
+    "pension_members": 125000,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "세일즈포스코리아": {
+    "pension_members": 500,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "센드버드": {
+    "pension_members": 300,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (한국 법인)"
+  },
+  "스노우": {
+    "pension_members": 500,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "스캐터랩": {
+    "pension_members": 100,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "쏘카": {
+    "pension_members": 700,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "애플코리아": {
+    "pension_members": 600,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "앤트로픽코리아": {
+    "pension_members": 50,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (신규 설립)"
+  },
+  "야놀자": {
+    "pension_members": 2000,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "업스테이지": {
+    "pension_members": 150,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "에이프로젠": {
+    "pension_members": 700,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "엔비디아코리아": {
+    "pension_members": 200,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "엔씨소프트": {
+    "pension_members": 5000,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "오픈AI코리아": {
+    "pension_members": 30,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (신규 설립)"
+  },
+  "왓챠": {
+    "pension_members": 200,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "우아한형제들": {
+    "pension_members": 3000,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (배달의민족 본사)"
+  },
+  "원티드랩": {
+    "pension_members": 250,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "지마켓": {
+    "pension_members": 1200,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "직방": {
+    "pension_members": 400,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "채널코퍼레이션": {
+    "pension_members": 300,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "카카오": {
+    "pension_members": 3750,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023 (남2166+여1587)"
+  },
+  "카카오뱅크": {
+    "pension_members": 1800,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "카카오스타일": {
+    "pension_members": 300,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "카카오엔터테인먼트": {
+    "pension_members": 1500,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "카카오페이": {
+    "pension_members": 1200,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "카카오페이증권": {
+    "pension_members": 400,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "컬리": {
+    "pension_members": 3000,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "코인원": {
+    "pension_members": 300,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "쿠팡": {
+    "pension_members": 70000,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (물류 포함 전체, 정규직 기준)"
+  },
+  "크래프톤": {
+    "pension_members": 4000,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "클래스101": {
+    "pension_members": 150,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "테슬라코리아": {
+    "pension_members": 400,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "토스 (비바리퍼블리카)": {
+    "pension_members": 2500,
+    "pension_date": "2024-12",
+    "pension_source": "추정 (전체 토스 그룹 ~5000명 중 본사 비중)"
+  },
+  "토스랩": {
+    "pension_members": 150,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "토스뱅크": {
+    "pension_members": 800,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "토스증권": {
+    "pension_members": 300,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "토스페이먼츠": {
+    "pension_members": 400,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "포티투마루": {
+    "pension_members": 100,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "퓨리오사AI": {
+    "pension_members": 150,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "핀다": {
+    "pension_members": 150,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  },
+  "하이브": {
+    "pension_members": 2500,
+    "pension_date": "2024-12",
+    "pension_source": "DART 사업보고서 2023"
+  },
+  "한국마이크로소프트": {
+    "pension_members": 1200,
+    "pension_date": "2024-12",
+    "pension_source": "추정"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "네이버": {
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
+  },
+  "카카오": {
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
+  },
+  "SK텔레콤": {
+    "paper_count": 35,
+    "top_venues": [
+      "ICML"
+    ],
+    "total_citations": 62,
+    "top_papers": [
+      {
+        "title": "Large-Scale AI in Telecom: Charting the Roadmap for Innovation, Scalability, and Enhanced Digital Experiences",
+        "year": 2025,
+        "venue": "arXiv.org",
+        "citations": 30
+      },
+      {
+        "title": "Privacy-Aware AI in cloud-telecom convergence: A federated learning framework for secure data sharing",
+        "year": 2025,
+        "venue": "International Journal of Science and Research Archive",
+        "citations": 10
+      },
+      {
+        "title": "Liquid Neural Networks: Next-Generation AI for Telecom from First Principles",
+        "year": 2025,
+        "venue": "arXiv.org",
+        "citations": 6
+      }
+    ]
+  },
+  "업스테이지": {
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
+  },
+  "LG전자": {
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
+  },
+  "삼성전자": {
+    "paper_count": 35,
+    "top_venues": [],
+    "total_citations": 609,
+    "top_papers": [
+      {
+        "title": "AI Transparency in the Age of LLMs: A Human-Centered Research Roadmap",
+        "year": 2023,
+        "venue": "Special Issue 4: Grappling With the Generative AI Revolution",
+        "citations": 257
+      },
+      {
+        "title": "Artificial intelligence in public health: the potential of epidemic early warning systems",
+        "year": 2023,
+        "venue": "Journal of International Medical Research",
+        "citations": 99
+      },
+      {
+        "title": "AI and its implications for research in higher education: a critical dialogue",
+        "year": 2024,
+        "venue": "Higher Education Research &amp; Development",
+        "citations": 73
+      }
+    ]
+  },
+  "리벨리온": {
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
+  },
+  "뤼튼": {
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
+  },
+  "현대자동차": {
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
+  },
+  "SK하이닉스": {
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
+  }
+}

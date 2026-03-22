@@ -1,0 +1,476 @@
+{
+  "AWS코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "CJ ENM": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정"
+  },
+  "CJ올리브영": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "유통업 미지정"
+  },
+  "JYP엔터테인먼트": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정"
+  },
+  "KT": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 30,
+    "military_service_note": "IT 직군 한정"
+  },
+  "LG CNS": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 30,
+    "military_service_note": "IT서비스 개발 직군"
+  },
+  "SK텔레콤": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 20,
+    "military_service_note": "AI/연구소 직군"
+  },
+  "SK하이닉스": {
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 80,
+    "military_service_note": "반도체 R&D 전문연구요원"
+  },
+  "SM엔터테인먼트": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정"
+  },
+  "SSG닷컴": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "이커머스 IT 직군"
+  },
+  "xAI": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "구글코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "그린랩스": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "애그테크, 소규모"
+  },
+  "네이버": {
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 50,
+    "military_service_note": "NAVER Labs 전문연구요원 포함"
+  },
+  "네이버웹툰": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "병역특례 미지정"
+  },
+  "네이버클라우드": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "클라우드 엔지니어링 직군"
+  },
+  "네이버파이낸셜": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "별도 신청 불명확"
+  },
+  "넥슨코리아": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 20,
+    "military_service_note": "게임 개발 직군"
+  },
+  "넷마블": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 15,
+    "military_service_note": "게임 개발 직군"
+  },
+  "당근": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "IT 개발 직군, 2023년 지정"
+  },
+  "두나무": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 8,
+    "military_service_note": "핀테크/블록체인 개발"
+  },
+  "딥마인드코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "라인플러스": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 15,
+    "military_service_note": "IT 개발 직군"
+  },
+  "뤼튼": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "스타트업, 규모 미충족"
+  },
+  "리디": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 5,
+    "military_service_note": "플랫폼 개발 직군"
+  },
+  "리벨리온": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 5,
+    "military_service_note": "반도체 AI 칩 연구"
+  },
+  "리턴제로": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 3,
+    "military_service_note": "음성 AI 연구"
+  },
+  "마이리얼트립": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "여행 플랫폼, 미지정"
+  },
+  "마키나락스": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 3,
+    "military_service_note": "산업 AI 연구"
+  },
+  "메이크스타": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "K-컨텐츠 플랫폼, 미지정"
+  },
+  "메타코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "무신사": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 8,
+    "military_service_note": "플랫폼 개발 직군"
+  },
+  "밀리의서재": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "전자책, 소규모"
+  },
+  "뱅크샐러드": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 5,
+    "military_service_note": "핀테크 개발 직군"
+  },
+  "버킷플레이스": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 5,
+    "military_service_note": "오늘의집 플랫폼 개발"
+  },
+  "빗썸": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "가상자산 업종 미지정"
+  },
+  "삼성SDS": {
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 40,
+    "military_service_note": "IT서비스/물류 시스템 개발"
+  },
+  "삼성전자": {
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 200,
+    "military_service_note": "삼성리서치 전문연구요원 포함"
+  },
+  "세일즈포스코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "센드버드": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "글로벌 B2B, 미지정"
+  },
+  "스노우": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 5,
+    "military_service_note": "소규모 TO"
+  },
+  "스캐터랩": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 3,
+    "military_service_note": "AI 대화 연구"
+  },
+  "쏘카": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "모빌리티, 미지정"
+  },
+  "애플코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "앤트로픽코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "야놀자": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "플랫폼 개발 직군"
+  },
+  "업스테이지": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 5,
+    "military_service_note": "AI 연구 직군, 벤처 전문연구요원"
+  },
+  "에이프로젠": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 10,
+    "military_service_note": "바이오 의약품 연구"
+  },
+  "엔비디아코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "엔씨소프트": {
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 30,
+    "military_service_note": "NC Research 전문연구요원 포함"
+  },
+  "오픈AI코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "왓챠": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "OTT, 소규모"
+  },
+  "우아한형제들": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 15,
+    "military_service_note": "배달의민족 IT 개발 직군"
+  },
+  "원티드랩": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "HR 플랫폼, 소규모"
+  },
+  "지마켓": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "eBay 인수 후 구조 변경"
+  },
+  "직방": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "부동산 플랫폼, 미지정"
+  },
+  "채널코퍼레이션": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "B2B SaaS, 소규모"
+  },
+  "카카오": {
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 40,
+    "military_service_note": "카카오 AI Lab 전문연구요원 포함"
+  },
+  "카카오뱅크": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "IT 개발 직군"
+  },
+  "카카오스타일": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "규모 미충족 가능성"
+  },
+  "카카오엔터테인먼트": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정"
+  },
+  "카카오페이": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 8,
+    "military_service_note": "핀테크 개발 직군"
+  },
+  "카카오페이증권": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "금융업 미지정"
+  },
+  "컬리": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "미지정"
+  },
+  "코인원": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "가상자산 업종 미지정"
+  },
+  "쿠팡": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 25,
+    "military_service_note": "IT/물류 시스템 개발"
+  },
+  "크래프톤": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 20,
+    "military_service_note": "게임 개발 직군"
+  },
+  "클래스101": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "에듀테크, 소규모"
+  },
+  "테슬라코리아": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  },
+  "토스 (비바리퍼블리카)": {
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 15,
+    "military_service_note": "핀테크 IT 직군, 2024년 신규 지정"
+  },
+  "토스랩": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "소규모 법인"
+  },
+  "토스뱅크": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "인터넷 은행, 별도 지정 없음"
+  },
+  "토스증권": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "금융업 미지정"
+  },
+  "토스페이먼츠": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "별도 법인, 미지정"
+  },
+  "포티투마루": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 3,
+    "military_service_note": "NLP/AI 연구"
+  },
+  "퓨리오사AI": {
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 5,
+    "military_service_note": "NPU 반도체 연구"
+  },
+  "핀다": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "핀테크 소규모"
+  },
+  "하이브": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정"
+  },
+  "한국마이크로소프트": {
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가"
+  }
+}

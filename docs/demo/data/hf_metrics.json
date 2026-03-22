@@ -1,0 +1,124 @@
+{
+  "네이버": {
+    "hf_orgs": [
+      "naver",
+      "NAVER-CLOVA-X"
+    ],
+    "hf_model_count": 53,
+    "hf_dataset_count": 2,
+    "hf_total_downloads": 816422,
+    "hf_top_models": [
+      {
+        "name": "naver/splade-cocondenser-ensembledistil",
+        "downloads": 479952,
+        "task": "feature-extraction"
+      },
+      {
+        "name": "naver/splade-v3",
+        "downloads": 96999,
+        "task": "feature-extraction"
+      },
+      {
+        "name": "naver/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric",
+        "downloads": 79274,
+        "task": "image-to-3d"
+      }
+    ]
+  },
+  "카카오": {
+    "hf_orgs": [
+      "kakaobrain",
+      "kakaoenterprise"
+    ],
+    "hf_model_count": 12,
+    "hf_dataset_count": 4,
+    "hf_total_downloads": 7057,
+    "hf_top_models": [
+      {
+        "name": "kakaobrain/align-base",
+        "downloads": 6723,
+        "task": "zero-shot-image-classification"
+      },
+      {
+        "name": "kakaobrain/kogpt",
+        "downloads": 189,
+        "task": ""
+      },
+      {
+        "name": "kakaobrain/karlo-v1-alpha",
+        "downloads": 91,
+        "task": "text-to-image"
+      }
+    ]
+  },
+  "SK텔레콤": {
+    "hf_orgs": [
+      "SKT"
+    ],
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": []
+  },
+  "업스테이지": {
+    "hf_orgs": [
+      "upstage"
+    ],
+    "hf_model_count": 22,
+    "hf_dataset_count": 5,
+    "hf_total_downloads": 101440,
+    "hf_top_models": [
+      {
+        "name": "upstage/SOLAR-10.7B-Instruct-v1.0",
+        "downloads": 27461,
+        "task": "text-generation"
+      },
+      {
+        "name": "upstage/SOLAR-0-70b-16bit",
+        "downloads": 26748,
+        "task": "text-generation"
+      },
+      {
+        "name": "upstage/solar-pro-preview-instruct",
+        "downloads": 18925,
+        "task": "text-generation"
+      }
+    ]
+  },
+  "LG전자": {
+    "hf_orgs": [
+      "lg-ai-research"
+    ],
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": []
+  },
+  "삼성전자": {
+    "hf_orgs": [
+      "samsung"
+    ],
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": []
+  },
+  "리벨리온": {
+    "hf_orgs": [
+      "rebellions"
+    ],
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": []
+  },
+  "뤼튼": {
+    "hf_orgs": [
+      "riiid"
+    ],
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": []
+  }
+}

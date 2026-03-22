@@ -138,7 +138,13 @@
     ],
     "why_join": "글로벌 최대 클라우드 기업에서 최신 인프라·AI 기술을 다루며 한국 최대 기업들의 DX를 직접 리드할 수 있다. 이력서 브랜딩 효과가 국내 IT 기업 중 최상급이며, 글로벌 이동 경로가 열려 있다.",
     "why_not_join": "한국 법인은 영업·지원 조직 중심이라 순수 개발 포지션이 적다. 본사 방침에 따른 레이오프 리스크가 있으며, Leadership Principles 문화가 경직돼 보일 수 있다.",
-    "interview_tip": "AWS Leadership Principles 16개를 숙지하고, STAR 방식으로 각 원칙에 맞는 경험을 준비해야 한다. 특히 'Customer Obsession'과 'Dive Deep' 원칙 관련 질문이 빈번하다."
+    "interview_tip": "AWS Leadership Principles 16개를 숙지하고, STAR 방식으로 각 원칙에 맞는 경험을 준비해야 한다. 특히 'Customer Obsession'과 'Dive Deep' 원칙 관련 질문이 빈번하다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 2000,
+    "pension_date": "2024-12"
   },
   {
     "name": "CJ ENM",
@@ -282,7 +288,13 @@
     "per": 10.87,
     "foreign_ownership_pct": 12.6,
     "week52_high": 82300.0,
-    "week52_low": 53700.0
+    "week52_low": 53700.0,
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정",
+    "pension_members": 3500,
+    "pension_date": "2024-12"
   },
   {
     "name": "CJ올리브영",
@@ -411,7 +423,13 @@
     ],
     "why_join": "4조 매출의 리테일 테크 기업에서 O2O·이커머스·글로벌 확장 전반을 경험할 수 있다. K-뷰티 글로벌 확산 흐름을 타고 데이터·물류·플랫폼 영역에서 성장 과제가 풍부하다.",
     "why_not_join": "상장 전 기업이라 스톡옵션 불확실성이 있다. 리테일 도메인 특성상 연봉 성장 속도가 빅테크보다 느리고, 오프라인 사업 비중이 높아 기술 난이도가 상대적으로 낮을 수 있다.",
-    "interview_tip": "올리브영의 O2O 전략(오늘드림 배송, 옴니채널)과 글로벌몰 확장 전략을 반드시 파악해야 한다. 리테일 데이터를 활용한 구체적 경험이나 아이디어를 준비하면 효과적이다."
+    "interview_tip": "올리브영의 O2O 전략(오늘드림 배송, 옴니채널)과 글로벌몰 확장 전략을 반드시 파악해야 한다. 리테일 데이터를 활용한 구체적 경험이나 아이디어를 준비하면 효과적이다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "유통업 미지정",
+    "pension_members": 3000,
+    "pension_date": "2024-12"
   },
   {
     "name": "JYP엔터테인먼트",
@@ -536,7 +554,13 @@
     ],
     "why_join": "글로벌 K-POP IP를 다루는 엔터 테크 도메인에서 팬덤 플랫폼·데이터·글로벌 유통 경험을 쌓을 수 있다. 규모 대비 기술팀이 작아 오너십이 크다.",
     "why_not_join": "개발팀 규모가 작아 기술 성장 속도가 제한될 수 있다. 연봉 수준이 중견기업 수준으로 빅테크보다 낮고, 엔터 산업 특성상 아티스트 일정에 따른 업무 불규칙성이 있다.",
-    "interview_tip": "JYP의 아티스트 포트폴리오와 NEON 플랫폼 전략을 파악해야 한다. 엔터 테크에서 팬덤 데이터를 어떻게 수익화할지에 대한 관점을 준비하면 차별화된다."
+    "interview_tip": "JYP의 아티스트 포트폴리오와 NEON 플랫폼 전략을 파악해야 한다. 엔터 테크에서 팬덤 데이터를 어떻게 수익화할지에 대한 관점을 준비하면 차별화된다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정",
+    "pension_members": 400,
+    "pension_date": "2024-12"
   },
   {
     "name": "KT",
@@ -681,7 +705,13 @@
       "recent_news": "2024년 AICT 전략 선포 / MS 애저와 AI 파트너십 / KT클라우드 외부 상장 준비",
       "funding_history": "코스피 상장(1998)",
       "ipo_status": "코스피 상장(종목코드 030200), 시총 약 7조 원"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 30,
+    "military_service_note": "IT 직군 한정",
+    "pension_members": 22000,
+    "pension_date": "2024-12"
   },
   {
     "name": "LG CNS",
@@ -825,7 +855,13 @@
       "recent_news": "2025년 1월 코스피 상장(IPO 완료) / 2024년 역대 최대 매출 5.9조 / AI 팩토리·스마트물류 수주 확대",
       "funding_history": "LG 계열 (코스피 상장 2025년 1월)",
       "ipo_status": "코스피 상장(종목코드 064400, 2025년 1월)"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 30,
+    "military_service_note": "IT서비스 개발 직군",
+    "pension_members": 7000,
+    "pension_date": "2024-12"
   },
   {
     "name": "SK텔레콤",
@@ -970,7 +1006,42 @@
       "recent_news": "2025년 1월 해킹 보안사고 대응 / 에이닷 MAU 800만 돌파 / SKT AI 피라미드 전략 발표",
       "funding_history": "코스피 상장(1994)",
       "ipo_status": "코스피 상장(종목코드 017670), 시총 약 11조 원"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 20,
+    "military_service_note": "AI/연구소 직군",
+    "pension_members": 5500,
+    "pension_date": "2024-12",
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": [],
+    "paper_count": 35,
+    "top_venues": [
+      "ICML"
+    ],
+    "total_citations": 62,
+    "top_papers": [
+      {
+        "title": "Large-Scale AI in Telecom: Charting the Roadmap for Innovation, Scalability, and Enhanced Digital Experiences",
+        "year": 2025,
+        "venue": "arXiv.org",
+        "citations": 30
+      },
+      {
+        "title": "Privacy-Aware AI in cloud-telecom convergence: A federated learning framework for secure data sharing",
+        "year": 2025,
+        "venue": "International Journal of Science and Research Archive",
+        "citations": 10
+      },
+      {
+        "title": "Liquid Neural Networks: Next-Generation AI for Telecom from First Principles",
+        "year": 2025,
+        "venue": "arXiv.org",
+        "citations": 6
+      }
+    ]
   },
   {
     "name": "SK하이닉스",
@@ -1118,7 +1189,17 @@
     "dividend_yield": 0.3,
     "foreign_ownership_pct": 45.4,
     "week52_high": 1099000.0,
-    "week52_low": 162700.0
+    "week52_low": 162700.0,
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 80,
+    "military_service_note": "반도체 R&D 전문연구요원",
+    "pension_members": 30000,
+    "pension_date": "2024-12",
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
   },
   {
     "name": "SM엔터테인먼트",
@@ -1248,7 +1329,13 @@
     ],
     "why_join": "K-POP 가장 많은 IP를 보유한 엔터사에서 팬덤 플랫폼·글로벌 유통·데이터 분석 경험을 쌓을 수 있다. 창립 30주년 리브랜딩 시기에 합류해 변화를 주도할 수 있다.",
     "why_not_join": "경영권 분쟁 후유증으로 조직 문화가 아직 안정화 중이다. 음반 판매 감소 트렌드가 구조적이라 성장 재원 확보가 불확실하다.",
-    "interview_tip": "SM의 멀티 레이블 전략과 에스파 IP의 글로벌 확장 방향을 파악해야 한다. Bubble 같은 팬 플랫폼 수익화 모델과 엔터 테크에 대한 관점을 준비하면 유리하다."
+    "interview_tip": "SM의 멀티 레이블 전략과 에스파 IP의 글로벌 확장 방향을 파악해야 한다. Bubble 같은 팬 플랫폼 수익화 모델과 엔터 테크에 대한 관점을 준비하면 유리하다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정",
+    "pension_members": 1200,
+    "pension_date": "2024-12"
   },
   {
     "name": "SSG닷컴",
@@ -1374,7 +1461,13 @@
     ],
     "why_join": "이커머스 구조적 과제(물류, 신선식품 MD, 그룹사 연계)를 직접 해결하는 경험을 쌓을 수 있다. 실적 턴어라운드 과제가 많아 영향력 있는 문제를 다룰 수 있다.",
     "why_not_join": "3년 연속 적자 상태로 투자 여력이 제한되어 있다. 쿠팡·네이버 대비 기술 인프라 투자 수준이 낮을 수 있으며, 조직 문화가 오프라인 대기업 중심일 수 있다.",
-    "interview_tip": "SSG닷컴이 쿠팡과 차별화할 수 있는 강점(신세계 계열 MD, 오프라인 연계)과 현재 어떤 돌파구를 모색하는지를 사전에 분석해야 한다. 적자 상황에서 어떤 기여를 할 수 있는지 구체적 방안을 제시하면 강점이 된다."
+    "interview_tip": "SSG닷컴이 쿠팡과 차별화할 수 있는 강점(신세계 계열 MD, 오프라인 연계)과 현재 어떤 돌파구를 모색하는지를 사전에 분석해야 한다. 적자 상황에서 어떤 기여를 할 수 있는지 구체적 방안을 제시하면 강점이 된다.",
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "이커머스 IT 직군",
+    "pension_members": 1500,
+    "pension_date": "2024-12"
   },
   {
     "name": "xAI",
@@ -1505,7 +1598,13 @@
     ],
     "why_join": "프론티어 AI 연구·개발 최전선에서 LLM 개발·인프라·제품화를 경험할 수 있다. 빠른 성장 단계의 AI 기업에서 높은 임팩트와 학습 속도를 기대할 수 있다.",
     "why_not_join": "머스크 정치 활동 관련 브랜드 리스크가 커서 이직 시 이력서 설명이 필요할 수 있다. SpaceX 편입 후 조직 방향성이 불명확하고, 스타트업 특유의 불안정성이 있다.",
-    "interview_tip": "Grok의 기술적 차별점(대형 컨텍스트 윈도우, X 데이터 활용)과 xAI의 개발 철학을 파악해야 한다. AI 연구 직군이라면 최신 LLM 논문 리뷰와 실제 구현 경험을 구체적으로 준비해야 한다."
+    "interview_tip": "Grok의 기술적 차별점(대형 컨텍스트 윈도우, X 데이터 활용)과 xAI의 개발 철학을 파악해야 한다. AI 연구 직군이라면 최신 LLM 논문 리뷰와 실제 구현 경험을 구체적으로 준비해야 한다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": null,
+    "pension_date": null
   },
   {
     "name": "구글코리아",
@@ -1638,7 +1737,13 @@
     ],
     "why_join": "세계 최고 수준의 AI·클라우드·광고 기술을 다루는 환경에서 일할 수 있다. 외국계 최고 연봉과 Work-Life Balance, 글로벌 커리어 이동 가능성이 매력적이다.",
     "why_not_join": "한국법인 포지션 대부분이 개발이 아닌 영업·마케팅·지원이다. 핵심 기술 개발직은 미국 본사에 있어 한국에서 기술 커리어를 쌓기 제한적이다.",
-    "interview_tip": "지원 직무가 영업·마케팅인지 기술인지에 따라 준비가 완전히 달라진다. 기술 직군은 구글 코딩 인터뷰(알고리즘·자료구조)를 집중 준비하고, 비기술 직군은 Google Ads·유튜브 비즈니스 생태계 이해도를 어필해야 한다."
+    "interview_tip": "지원 직무가 영업·마케팅인지 기술인지에 따라 준비가 완전히 달라진다. 기술 직군은 구글 코딩 인터뷰(알고리즘·자료구조)를 집중 준비하고, 비기술 직군은 Google Ads·유튜브 비즈니스 생태계 이해도를 어필해야 한다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 1500,
+    "pension_date": "2024-12"
   },
   {
     "name": "그린랩스",
@@ -1762,7 +1867,13 @@
     ],
     "why_join": "농업 디지털화라는 사회적 임팩트와 기술을 동시에 추구할 수 있다. 초기 스타트업 단계는 넘어 Series C+ 단계로, 높은 오너십과 다양한 역할을 맡을 수 있다.",
     "why_not_join": "농업 도메인 특성상 성장 속도가 일반 테크 스타트업보다 느리다. 연봉과 스톡옵션 조건이 서울 주요 스타트업 대비 낮을 수 있다.",
-    "interview_tip": "팜모닝 앱을 직접 사용해보고, 그린랩스가 농업 데이터를 어떻게 수익화하는지(유통 연계, SaaS 전환)를 이해하고 가야 한다. 사회적 임팩트와 기술적 기여 방향을 함께 어필하면 효과적이다."
+    "interview_tip": "팜모닝 앱을 직접 사용해보고, 그린랩스가 농업 데이터를 어떻게 수익화하는지(유통 연계, SaaS 전환)를 이해하고 가야 한다. 사회적 임팩트와 기술적 기여 방향을 함께 어필하면 효과적이다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "애그테크, 소규모",
+    "pension_members": 150,
+    "pension_date": "2024-12"
   },
   {
     "name": "네이버",
@@ -1945,7 +2056,37 @@
         "stars": 679,
         "language": "Python"
       }
-    ]
+    ],
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 50,
+    "military_service_note": "NAVER Labs 전문연구요원 포함",
+    "pension_members": 4500,
+    "pension_date": "2024-12",
+    "hf_model_count": 53,
+    "hf_dataset_count": 2,
+    "hf_total_downloads": 816422,
+    "hf_top_models": [
+      {
+        "name": "naver/splade-cocondenser-ensembledistil",
+        "downloads": 479952,
+        "task": "feature-extraction"
+      },
+      {
+        "name": "naver/splade-v3",
+        "downloads": 96999,
+        "task": "feature-extraction"
+      },
+      {
+        "name": "naver/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric",
+        "downloads": 79274,
+        "task": "image-to-3d"
+      }
+    ],
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
   },
   {
     "name": "네이버웹툰",
@@ -2098,7 +2239,13 @@
         "stars": 679,
         "language": "Python"
       }
-    ]
+    ],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "병역특례 미지정",
+    "pension_members": 800,
+    "pension_date": "2024-12"
   },
   {
     "name": "네이버클라우드",
@@ -2252,7 +2399,13 @@
         "stars": 6,
         "language": null
       }
-    ]
+    ],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "클라우드 엔지니어링 직군",
+    "pension_members": 1200,
+    "pension_date": "2024-12"
   },
   {
     "name": "네이버파이낸셜",
@@ -2404,7 +2557,13 @@
         "stars": 679,
         "language": "Python"
       }
-    ]
+    ],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "별도 신청 불명확",
+    "pension_members": 600,
+    "pension_date": "2024-12"
   },
   {
     "name": "넥슨코리아",
@@ -2554,7 +2713,13 @@
       "recent_news": "2025년 던전앤파이터 모바일 글로벌 출시 / 메이플스토리 월드 메타버스 확장 / 신작 퍼스트 디센던트 글로벌 흥행",
       "funding_history": "일본 NEXON Co.,Ltd 100% 자회사(코스닥 상장 모회사)",
       "ipo_status": "비상장 (모회사 도쿄증권거래소 상장)"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 20,
+    "military_service_note": "게임 개발 직군",
+    "pension_members": 5000,
+    "pension_date": "2024-12"
   },
   {
     "name": "넷마블",
@@ -2690,7 +2855,13 @@
     ],
     "why_join": "글로벌 180개국에 서비스하는 게임사에서 국제적 관점의 게임 개발·서비스 경험을 쌓을 수 있다. 2024년 흑자 전환 이후 성장 재투자 시기로 개선 과제가 많다.",
     "why_not_join": "3년 적자 후 겨우 흑자 전환한 구간이라 투자 여력이 제한적이다. 오너 경영 의존도가 높아 전략 일관성이 낮을 수 있다.",
-    "interview_tip": "넷마블의 글로벌 전략(북미 소셜카지노 스핀엑스, 아시아 RPG)과 2025년 신작 라인업을 파악해야 한다. 모바일 게임 글로벌 런칭 경험이나 다국어 서비스 운영 경험이 있으면 강점이 된다."
+    "interview_tip": "넷마블의 글로벌 전략(북미 소셜카지노 스핀엑스, 아시아 RPG)과 2025년 신작 라인업을 파악해야 한다. 모바일 게임 글로벌 런칭 경험이나 다국어 서비스 운영 경험이 있으면 강점이 된다.",
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 15,
+    "military_service_note": "게임 개발 직군",
+    "pension_members": 4500,
+    "pension_date": "2024-12"
   },
   {
     "name": "당근",
@@ -2855,7 +3026,13 @@
         "stars": 1,
         "language": null
       }
-    ]
+    ],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "IT 개발 직군, 2023년 지정",
+    "pension_members": 700,
+    "pension_date": "2024-12"
   },
   {
     "name": "두나무",
@@ -3002,7 +3179,13 @@
       "ipo_status": "비상장"
     },
     "address": "서울특별시 서초구 강남대로 369 (서초동, 디에프타워) 8층, 12층, 15층, 17층, 18층",
-    "homepage": "www.dunamu.com"
+    "homepage": "www.dunamu.com",
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 8,
+    "military_service_note": "핀테크/블록체인 개발",
+    "pension_members": 900,
+    "pension_date": "2024-12"
   },
   {
     "name": "딥마인드코리아",
@@ -3124,7 +3307,13 @@
     ],
     "why_join": "세계 최고 수준의 AI 연구 환경에서 구글 DeepMind 브랜드를 달고 커리어를 쌓을 수 있는 국내 유일의 기회다. 글로벌 탑티어 연구자와 협업하며 논문·특허를 통해 학계와 산업계 모두에서 인정받는 연구 커리어를 구축할 수 있다.",
     "why_not_join": "제품 개발·사업화보다 기초 연구 중심이라 '내 코드가 실제 서비스에 반영된다'는 경험이 적다. 구글 본사 방침에 따라 팀 규모와 연구 방향이 급변할 수 있으며, 공개된 정보가 적어 합류 전 충분한 검증이 어렵다.",
-    "interview_tip": "구글 DeepMind의 주요 연구 성과(AlphaFold, AlphaCode, Gemini)를 깊이 이해하고, 지원 직무와 연결되는 자신의 연구 기여 가능성을 논문·프로젝트 기반으로 구체적으로 제시해야 한다. Research Scientist라면 최근 1~2년 내 퍼스트 오서 논문이 사실상 필수다."
+    "interview_tip": "구글 DeepMind의 주요 연구 성과(AlphaFold, AlphaCode, Gemini)를 깊이 이해하고, 지원 직무와 연결되는 자신의 연구 기여 가능성을 논문·프로젝트 기반으로 구체적으로 제시해야 한다. Research Scientist라면 최근 1~2년 내 퍼스트 오서 논문이 사실상 필수다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 100,
+    "pension_date": "2024-12"
   },
   {
     "name": "라인플러스",
@@ -3295,7 +3484,13 @@
         "stars": 46,
         "language": null
       }
-    ]
+    ],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 15,
+    "military_service_note": "IT 개발 직군",
+    "pension_members": 3000,
+    "pension_date": "2024-12"
   },
   {
     "name": "뤼튼",
@@ -3437,7 +3632,21 @@
       "ipo_status": "비상장"
     },
     "address": "서울특별시 서초구 서초대로77길 17 1401~1404호, 1408호, 1412~1413호, 1415호 (서초동, BLOCK77)",
-    "homepage": "wrtn.io"
+    "homepage": "wrtn.io",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "스타트업, 규모 미충족",
+    "pension_members": 200,
+    "pension_date": "2024-12",
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": [],
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
   },
   {
     "name": "리디",
@@ -3567,7 +3776,13 @@
     ],
     "why_join": "콘텐츠 IP 사업을 전자책·웹소설·웹툰·글로벌 플랫폼으로 수직 확장하는 전략의 핵심 실행 단계에 합류할 수 있다. 만타를 통한 글로벌 콘텐츠 플랫폼 경험은 국내에서 매우 드문 커리어 자산이다.",
     "why_not_join": "영업손실 구조가 아직 완전 해소되지 않았으며, 웹툰 시장에서 네이버·카카오 대비 뚜렷한 트래픽 격차가 있다. 콘텐츠 사업 특성상 IP 흥행 리스크가 크다.",
-    "interview_tip": "리디의 수익 구조(콘텐츠 판매 + 구독 + 단말기 + 글로벌)를 파악하고, 만타의 글로벌 전략과 국내외 웹툰 시장 경쟁 구도를 이해할 것. 콘텐츠 도메인 관심사와 데이터 기반 큐레이션 경험을 어필하면 유리하다."
+    "interview_tip": "리디의 수익 구조(콘텐츠 판매 + 구독 + 단말기 + 글로벌)를 파악하고, 만타의 글로벌 전략과 국내외 웹툰 시장 경쟁 구도를 이해할 것. 콘텐츠 도메인 관심사와 데이터 기반 큐레이션 경험을 어필하면 유리하다.",
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 5,
+    "military_service_note": "플랫폼 개발 직군",
+    "pension_members": 400,
+    "pension_date": "2024-12"
   },
   {
     "name": "리벨리온",
@@ -3700,7 +3915,21 @@
       "recent_news": "2024년 사피온코리아 합병 완료 / REBEL Quad 칩 출하 / Series C 투자 유치(기업가치 1.9조)",
       "funding_history": "누적 투자 약 3,000억 원 이상 (KT·현대차·SK하이닉스·알토스 등)",
       "ipo_status": "비상장 (기업가치 1.9조 원)"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 5,
+    "military_service_note": "반도체 AI 칩 연구",
+    "pension_members": 200,
+    "pension_date": "2024-12",
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": [],
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
   },
   {
     "name": "리턴제로",
@@ -3813,7 +4042,13 @@
     ],
     "why_join": "한국어 AI 음성인식 분야에서 가장 실질적인 사용자 기반과 데이터를 보유한 스타트업이다. 소규모 팀에서 AI 엔진부터 서비스까지 전체 스택을 경험하며 음성 AI 도메인 전문가로 성장할 수 있는 기회다.",
     "why_not_join": "초기 스타트업 수준의 규모(23명)로 조직 안정성이 낮고, 매출 및 수익성 정보가 공개되지 않아 재무 상태 파악이 어렵다. 음성인식 단일 기술 도메인에 집중된 서비스라 시장 확장성이 제한적일 수 있다.",
-    "interview_tip": "VITO의 유료화 전략(통화 녹음 → 변환 → 요약)과 CALLABO의 B2B 시장 확장 전략을 이해할 것. 음성 AI 엔진 관련 직무라면 ASR·TTS·NLP 기술 스택 경험을, 프로덕트 직무라면 STT 기반 서비스의 UX 개선 사례를 구체적으로 준비해야 한다."
+    "interview_tip": "VITO의 유료화 전략(통화 녹음 → 변환 → 요약)과 CALLABO의 B2B 시장 확장 전략을 이해할 것. 음성 AI 엔진 관련 직무라면 ASR·TTS·NLP 기술 스택 경험을, 프로덕트 직무라면 STT 기반 서비스의 UX 개선 사례를 구체적으로 준비해야 한다.",
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 3,
+    "military_service_note": "음성 AI 연구",
+    "pension_members": 80,
+    "pension_date": "2024-12"
   },
   {
     "name": "마이리얼트립",
@@ -3943,7 +4178,13 @@
     ],
     "why_join": "여행 산업의 디지털화를 주도하는 국내 최대 여행 플랫폼으로, 데이터·AI 기반 여행 큐레이션의 최전선을 경험할 수 있다. 첫 흑자 전환 이후 본격 성장 국면에서 합류하는 타이밍이 커리어 관점에서 유리하다.",
     "why_not_join": "여행 플랫폼 특성상 코로나 같은 외부 충격에 매우 취약하며, 순이익 규모(3.1억 원)가 아직 매우 작아 재무적 체력이 한계다. 클룩 등 글로벌 OTA와의 경쟁에서 장기 차별화가 과제다.",
-    "interview_tip": "마이리얼트립의 비즈니스 모델(C2C 마켓플레이스 수수료 → 종합 OTA)과 총거래액 2.3조 원의 의미를 이해할 것. 여행 도메인에 대한 진심 어린 관심을 보여주는 것이 중요하며, AI 내재화 전략(럭키글라이드, AI 검색)에 대한 기여 가능성을 직무와 연결해 어필하면 효과적이다."
+    "interview_tip": "마이리얼트립의 비즈니스 모델(C2C 마켓플레이스 수수료 → 종합 OTA)과 총거래액 2.3조 원의 의미를 이해할 것. 여행 도메인에 대한 진심 어린 관심을 보여주는 것이 중요하며, AI 내재화 전략(럭키글라이드, AI 검색)에 대한 기여 가능성을 직무와 연결해 어필하면 효과적이다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "여행 플랫폼, 미지정",
+    "pension_members": 200,
+    "pension_date": "2024-12"
   },
   {
     "name": "마키나락스",
@@ -4069,7 +4310,13 @@
     ],
     "why_join": "국내 제조 대기업 전체를 고객으로 두고 IPO를 앞둔 산업 AI 스타트업으로, 제조·에너지 도메인 AI 경험을 쌓기에 국내 최적이다. 상장 전 합류로 스톡옵션 레버리지가 있으며, 한국지멘스와 글로벌 파트너십 및 일본 법인 설립으로 글로벌 확장 기회도 있다.",
     "why_not_join": "산업 AI 특성상 영업 사이클이 길고(프로젝트 기반), 수익 안정성이 낮다. 2023년 매출 52억 원으로 아직 성장 초기 단계이며, 대기업 구축형 프로젝트 위주라 제품 스타트업과는 다른 업무 방식이 요구된다.",
-    "interview_tip": "제조·산업 AI 솔루션 시장의 Pain Point(설비 고장, 품질 불량, 데이터 사일로)를 이해하고, MLOps·이상탐지·컴퓨터비전 기술 경험을 산업 현장 적용 관점으로 설명할 것. 런웨이 플랫폼이 왜 오픈소스 대비 차별화되는지 자신의 언어로 설명할 수 있어야 한다."
+    "interview_tip": "제조·산업 AI 솔루션 시장의 Pain Point(설비 고장, 품질 불량, 데이터 사일로)를 이해하고, MLOps·이상탐지·컴퓨터비전 기술 경험을 산업 현장 적용 관점으로 설명할 것. 런웨이 플랫폼이 왜 오픈소스 대비 차별화되는지 자신의 언어로 설명할 수 있어야 한다.",
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 3,
+    "military_service_note": "산업 AI 연구",
+    "pension_members": 80,
+    "pension_date": "2024-12"
   },
   {
     "name": "메이크스타",
@@ -4202,7 +4449,13 @@
     ],
     "why_join": "글로벌 K-POP 팬덤 경제의 성장과 함께 스케일업 중인 플랫폼으로, 해외 200개국+ 사용자를 상대로 글로벌 커머스·팬덤 플랫폼 경험을 쌓을 수 있다. K-POP과 테크를 결합한 독창적 비즈니스 모델에 기여하고 싶은 이에게 최적이다.",
     "why_not_join": "K-POP 의존도가 높아 산업 사이클 리스크에 노출되어 있으며, 수익 구조가 공개되지 않아 재무 안정성 파악이 제한적이다. 하이브·카카오 등 대형 플랫폼 대비 아티스트 수급 협상력이 열위에 있다.",
-    "interview_tip": "K-POP 팬덤 소비 생태계(앨범·굿즈·팬사인회·스트리밍)와 메이크스타의 크라우드펀딩 모델이 기존 유통 구조와 어떻게 다른지 이해할 것. 글로벌 커머스·결제·물류 관련 직무라면 해외 팬 대상 B2C 경험을 어필하고, '팬덤 경제'에 대한 진정성 있는 관심을 보여주는 것이 중요하다."
+    "interview_tip": "K-POP 팬덤 소비 생태계(앨범·굿즈·팬사인회·스트리밍)와 메이크스타의 크라우드펀딩 모델이 기존 유통 구조와 어떻게 다른지 이해할 것. 글로벌 커머스·결제·물류 관련 직무라면 해외 팬 대상 B2C 경험을 어필하고, '팬덤 경제'에 대한 진정성 있는 관심을 보여주는 것이 중요하다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "K-컨텐츠 플랫폼, 미지정",
+    "pension_members": 100,
+    "pension_date": "2024-12"
   },
   {
     "name": "메타코리아",
@@ -4339,7 +4592,13 @@
     ],
     "why_join": "글로벌 빅테크 외국계 환경에서 세계 수억 명이 쓰는 광고 플랫폼의 한국 사업을 직접 담당할 수 있다. 외국계 수준의 보상 패키지와 글로벌 커리어 네트워크를 동시에 확보할 수 있으며, 특히 광고·마케팅·AI 광고 기술 분야에서 최전선 경험이 가능하다.",
     "why_not_join": "한국 법인은 영업·마케팅·정책 중심으로 엔지니어링 기회가 제한적이다. 본사 전략 변화(메타버스 집중 등)에 따라 한국 조직 역할이 수시로 바뀔 수 있으며, 의사결정 권한이 본사에 집중되어 로컬 자율성이 낮다.",
-    "interview_tip": "메타의 광고 사업 구조(Facebook·Instagram 광고 경매 시스템)와 AI 광고(Advantage+)의 작동 원리를 이해할 것. '한국 시장에서 메타의 기회와 위협'을 데이터(광고 지출 17.5억 달러, 인스타그램 MAU 등) 기반으로 논할 수 있어야 한다. 영어 구사력과 글로벌 협업 경험을 반드시 어필할 것."
+    "interview_tip": "메타의 광고 사업 구조(Facebook·Instagram 광고 경매 시스템)와 AI 광고(Advantage+)의 작동 원리를 이해할 것. '한국 시장에서 메타의 기회와 위협'을 데이터(광고 지출 17.5억 달러, 인스타그램 MAU 등) 기반으로 논할 수 있어야 한다. 영어 구사력과 글로벌 협업 경험을 반드시 어필할 것.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 300,
+    "pension_date": "2024-12"
   },
   {
     "name": "무신사",
@@ -4492,7 +4751,13 @@
     "homepage": "https://newsroom.musinsa.com",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 8,
+    "military_service_note": "플랫폼 개발 직군",
+    "pension_members": 2000,
+    "pension_date": "2024-12"
   },
   {
     "name": "밀리의서재",
@@ -4616,7 +4881,13 @@
     ],
     "why_join": "국내 디지털 독서 플랫폼 1위로 AI 기반 독서 서비스의 혁신을 주도하는 환경이다. 전자책·오디오북·웹소설로의 콘텐츠 다각화와 AI 기술 도입이 동시에 이루어지는 시점으로, 콘텐츠+테크 융합 경험을 쌓기에 적합하다.",
     "why_not_join": "전자책 시장 자체의 성장성이 제한적이며, KT 자회사로 독자적 전략보다 모회사 방침에 종속될 수 있다. 영업이익 110억 원으로 수익성이 개선되고 있으나, 콘텐츠 비용 증가로 수익 압박이 올 수 있다.",
-    "interview_tip": "밀리의서재의 수익 구조(월정액 구독 + 광고 + KT 번들)와 오디오북 성장 드라이버를 이해할 것. 콘텐츠·AI 관련 직무라면 AI TTS·AI 챗봇 서비스 개선 아이디어를, 데이터 직무라면 구독자 이탈 예측·콘텐츠 추천 알고리즘 경험을 어필하면 효과적이다."
+    "interview_tip": "밀리의서재의 수익 구조(월정액 구독 + 광고 + KT 번들)와 오디오북 성장 드라이버를 이해할 것. 콘텐츠·AI 관련 직무라면 AI TTS·AI 챗봇 서비스 개선 아이디어를, 데이터 직무라면 구독자 이탈 예측·콘텐츠 추천 알고리즘 경험을 어필하면 효과적이다.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "전자책, 소규모",
+    "pension_members": 200,
+    "pension_date": "2024-12"
   },
   {
     "name": "뱅크샐러드",
@@ -4743,7 +5014,13 @@
     ],
     "why_join": "마이데이터 기반 금융 AI 플랫폼의 수익화 성공 초기 단계에 합류하는 기회다. 대규모 금융 데이터를 AI로 분석해 실제 사용자 금융 결정에 영향을 주는 서비스를 만들며, 핀테크 도메인 전문성을 쌓기에 국내 최고 환경 중 하나다.",
     "why_not_join": "토스·카카오뱅크 대비 사용자 규모 격차가 크고, 2024년 기준 당기순손실 136억 원으로 완전 흑자 전환 전이다. 마이데이터 플랫폼 자체의 수익화 한계를 어떻게 극복할지 사업 방향이 아직 진화 중이다.",
-    "interview_tip": "마이데이터 제도와 뱅크샐러드의 수익화 전략(대출·보험 중개)을 정확히 이해하고, '금융 데이터로 어떻게 사용자의 의사결정을 돕는가'를 직무 관점으로 설명할 것. 데이터 직무라면 금융 데이터 분석 경험, 프로덕트 직무라면 금융 UX 개선 사례를 구체적으로 준비해야 한다."
+    "interview_tip": "마이데이터 제도와 뱅크샐러드의 수익화 전략(대출·보험 중개)을 정확히 이해하고, '금융 데이터로 어떻게 사용자의 의사결정을 돕는가'를 직무 관점으로 설명할 것. 데이터 직무라면 금융 데이터 분석 경험, 프로덕트 직무라면 금융 UX 개선 사례를 구체적으로 준비해야 한다.",
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 5,
+    "military_service_note": "핀테크 개발 직군",
+    "pension_members": 300,
+    "pension_date": "2024-12"
   },
   {
     "name": "버킷플레이스",
@@ -4876,7 +5153,13 @@
     ],
     "why_join": "국내 홈인테리어 시장 1위 플랫폼으로, 오프라인 인테리어 산업의 디지털 전환을 주도하는 환경이다. UGC+커머스+시공 서비스 통합 플랫폼에서 풀스택 서비스 경험을 쌓을 수 있으며, 첫 흑자 달성 이후 IPO를 향한 성장 국면이다.",
     "why_not_join": "부동산 경기에 직결되는 사업 구조로 외부 환경 변화에 취약하다. 첫 흑자 달성이지만 영업이익 5.7억 원으로 수익성 기반이 여전히 약하며, 쿠팡 등 대형 커머스의 인테리어 카테고리 진입이 위협이다.",
-    "interview_tip": "오늘의집의 성장 동력(UGC→커머스→시공 서비스 확장)과 부동산 경기 사이클과의 연관성을 이해할 것. '인테리어 플랫폼에서 기술이 어떻게 차별화를 만드는가'(공간 AI·3D 시각화·시공 매칭 알고리즘 등)를 직무 관점으로 구체화하면 유리하다."
+    "interview_tip": "오늘의집의 성장 동력(UGC→커머스→시공 서비스 확장)과 부동산 경기 사이클과의 연관성을 이해할 것. '인테리어 플랫폼에서 기술이 어떻게 차별화를 만드는가'(공간 AI·3D 시각화·시공 매칭 알고리즘 등)를 직무 관점으로 구체화하면 유리하다.",
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 5,
+    "military_service_note": "오늘의집 플랫폼 개발",
+    "pension_members": 500,
+    "pension_date": "2024-12"
   },
   {
     "name": "빗썸",
@@ -4994,7 +5277,13 @@
     ],
     "why_join": "국내 2위 가상자산 거래소로 업비트 대비 도전자 포지션에서 더 다양한 역할을 맡을 수 있다. 2024년 흑자 전환 이후 법인 투자 서비스·글로벌 확장 등 새로운 사업 기회가 열리고 있으며, 가상자산 도메인 커리어를 쌓기에 안정적 환경이다.",
     "why_not_join": "업비트 대비 시장 점유율 격차가 구조적으로 크고, 가상자산 시장 사이클에 100% 종속된 수익 구조다. 2022~2023년 대규모 손실 이후 조직 축소 이력이 있어 시장 침체 재발 시 불안정할 수 있다.",
-    "interview_tip": "빗썸의 포지션(국내 2위, 도전자)과 2024년 흑자 전환의 배경(가상자산 시장 반등 + 프로모션 전략)을 이해할 것. '업비트와의 차별화 전략'을 자신의 직무 관점으로 제시할 수 있어야 하며, 가상자산 규제(이용자보호법·FATF)에 대한 기본 이해도를 보여주면 가점."
+    "interview_tip": "빗썸의 포지션(국내 2위, 도전자)과 2024년 흑자 전환의 배경(가상자산 시장 반등 + 프로모션 전략)을 이해할 것. '업비트와의 차별화 전략'을 자신의 직무 관점으로 제시할 수 있어야 하며, 가상자산 규제(이용자보호법·FATF)에 대한 기본 이해도를 보여주면 가점.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "가상자산 업종 미지정",
+    "pension_members": 500,
+    "pension_date": "2024-12"
   },
   {
     "name": "삼성SDS",
@@ -5134,7 +5423,13 @@
     "dividend_yield": 1.96,
     "foreign_ownership_pct": 23.09,
     "week52_high": 198800.0,
-    "week52_low": 109000.0
+    "week52_low": 109000.0,
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 40,
+    "military_service_note": "IT서비스/물류 시스템 개발",
+    "pension_members": 13000,
+    "pension_date": "2024-12"
   },
   {
     "name": "삼성전자",
@@ -5298,7 +5593,40 @@
     "dividend_yield": 1.14,
     "foreign_ownership_pct": 47.96,
     "week52_high": 223000.0,
-    "week52_low": 52900.0
+    "week52_low": 52900.0,
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 200,
+    "military_service_note": "삼성리서치 전문연구요원 포함",
+    "pension_members": 125000,
+    "pension_date": "2024-12",
+    "hf_model_count": 0,
+    "hf_dataset_count": 0,
+    "hf_total_downloads": 0,
+    "hf_top_models": [],
+    "paper_count": 35,
+    "top_venues": [],
+    "total_citations": 609,
+    "top_papers": [
+      {
+        "title": "AI Transparency in the Age of LLMs: A Human-Centered Research Roadmap",
+        "year": 2023,
+        "venue": "Special Issue 4: Grappling With the Generative AI Revolution",
+        "citations": 257
+      },
+      {
+        "title": "Artificial intelligence in public health: the potential of epidemic early warning systems",
+        "year": 2023,
+        "venue": "Journal of International Medical Research",
+        "citations": 99
+      },
+      {
+        "title": "AI and its implications for research in higher education: a critical dialogue",
+        "year": 2024,
+        "venue": "Higher Education Research &amp; Development",
+        "citations": 73
+      }
+    ]
   },
   {
     "name": "세일즈포스코리아",
@@ -5441,7 +5769,13 @@
     ],
     "why_join": "글로벌 1위 CRM 기업에서 AI 에이전트 전환기의 최전선 경험 가능. 외국계 보상 체계(RSU 포함)와 글로벌 커리어 네트워크. Trailhead 학습 문화로 자기계발 지원 강함.",
     "why_not_join": "한국 법인은 세일즈·마케팅 중심 조직으로 기술 개발 포지션 극히 제한적. 글로벌 본사 방향이 현지 전략을 좌우하는 구조적 한계.",
-    "interview_tip": "Agentforce 전략과 AI 에이전트가 기존 CRM을 대체하는 방식을 반드시 숙지. 국내 주요 고객사(금융·통신) 사례 연구 필수. 'Ohana 문화'와 트레일블레이저 커뮤니티에 대한 이해도 표현."
+    "interview_tip": "Agentforce 전략과 AI 에이전트가 기존 CRM을 대체하는 방식을 반드시 숙지. 국내 주요 고객사(금융·통신) 사례 연구 필수. 'Ohana 문화'와 트레일블레이저 커뮤니티에 대한 이해도 표현.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 500,
+    "pension_date": "2024-12"
   },
   {
     "name": "센드버드",
@@ -5571,7 +5905,13 @@
     ],
     "why_join": "글로벌 B2B SaaS의 실전 경험(Product, Eng, GTM 모두). 서울-샌프란시스코 투 허브 구조로 영어 업무 환경과 글로벌 커리어 경로. AI 인프라 전환기 핵심 포지션.",
     "why_not_join": "비상장 스타트업으로 IPO 타임라인 불확실. 글로벌 경쟁 심화로 성장 모멘텀 유지 부담. 본사(SF) 주도 의사결정으로 서울 팀 자율성 제한될 수 있음.",
-    "interview_tip": "WebSocket·WebRTC 등 실시간 통신 기술 기본 이해 필수. AI Chatbot 전략과 LLM 연동 방식 준비. '왜 B2B 인프라인가'에 대한 본인 동기 명확히."
+    "interview_tip": "WebSocket·WebRTC 등 실시간 통신 기술 기본 이해 필수. AI Chatbot 전략과 LLM 연동 방식 준비. '왜 B2B 인프라인가'에 대한 본인 동기 명확히.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "글로벌 B2B, 미지정",
+    "pension_members": 300,
+    "pension_date": "2024-12"
   },
   {
     "name": "스노우",
@@ -5705,7 +6045,13 @@
     ],
     "why_join": "글로벌 수억 명 사용자 대상 소비자 앱 경험. AI 이미지·아바타 기술 최전선. 네이버 계열사 안정성 + 스타트업 속도감 공존.",
     "why_not_join": "메타버스·AR 카메라 시장 성장성 둔화 우려. 비상장으로 보상 체계 투명성 제한. 소비자 앱 특성상 트렌드 변동성 큼.",
-    "interview_tip": "ZEPETO와 Epik의 비즈니스 모델 차이 이해 필수. 글로벌 소비자 앱 트렌드(GenAI 이미지, 아바타) 준비. 왜 B2C 글로벌 앱인지 본인 경험과 연결."
+    "interview_tip": "ZEPETO와 Epik의 비즈니스 모델 차이 이해 필수. 글로벌 소비자 앱 트렌드(GenAI 이미지, 아바타) 준비. 왜 B2C 글로벌 앱인지 본인 경험과 연결.",
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 5,
+    "military_service_note": "소규모 TO",
+    "pension_members": 500,
+    "pension_date": "2024-12"
   },
   {
     "name": "스캐터랩",
@@ -5821,7 +6167,13 @@
     ],
     "why_join": "한국어 대화 AI의 최전선에서 연구·제품 양쪽 경험 가능. 소규모 팀으로 넓은 오너십과 빠른 실험 사이클. LLM 시대 대화 특화 기술 전문성 구축.",
     "why_not_join": "소규모 스타트업으로 리소스 제한. 이루다 논란 관련 사회적 시선 여전. B2C 대화 AI 수익화 모델 불확실성.",
-    "interview_tip": "이루다 서비스 직접 사용 후 UX 분석 필수. 대화 AI 안전성·윤리 문제에 대한 본인 관점 준비. Luxia LLM 방향성과 Character.AI 대비 차별화 포인트 이해."
+    "interview_tip": "이루다 서비스 직접 사용 후 UX 분석 필수. 대화 AI 안전성·윤리 문제에 대한 본인 관점 준비. Luxia LLM 방향성과 Character.AI 대비 차별화 포인트 이해.",
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 3,
+    "military_service_note": "AI 대화 연구",
+    "pension_members": 100,
+    "pension_date": "2024-12"
   },
   {
     "name": "쏘카",
@@ -5942,7 +6294,13 @@
     ],
     "why_join": "국내 모빌리티 전환의 핵심 플레이어에서 데이터·플랫폼 경험. 코스닥 상장사로 투명한 재무 정보. 전기차·자율주행 연계 미래 기술 접점.",
     "why_not_join": "지속 적자 구조로 재무 불안정성. 카셰어링 시장 성숙기로 드라마틱한 성장 기대 어려움. 하드웨어(차량) 의존 비즈니스로 소프트웨어 중심 커리어와 거리.",
-    "interview_tip": "쏘카 앱 직접 사용 후 UX 개선점 분석 필수. 모빌리티 시장 트렌드(전기차, MaaS) 이해. 흑자 전환 전략과 쏘카플랜 비즈니스 모델에 대한 관점 준비."
+    "interview_tip": "쏘카 앱 직접 사용 후 UX 개선점 분석 필수. 모빌리티 시장 트렌드(전기차, MaaS) 이해. 흑자 전환 전략과 쏘카플랜 비즈니스 모델에 대한 관점 준비.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "모빌리티, 미지정",
+    "pension_members": 700,
+    "pension_date": "2024-12"
   },
   {
     "name": "애플코리아",
@@ -6073,7 +6431,13 @@
     ],
     "why_join": "세계 최고 브랜드에서 리테일·마케팅·채널 영업 경험. 애플 내부 운영 프로세스와 글로벌 기준 직무 경험. 외국계 복리후생·보상 체계.",
     "why_not_join": "한국 법인은 기술 개발 직군 거의 없음(엔지니어링 포지션 극히 제한). 본사 주도 의사결정으로 현지 자율성 매우 낮음. 커리어 성장 경로가 세일즈·운영 중심.",
-    "interview_tip": "애플의 프라이버시 철학과 Apple Intelligence 전략 숙지. 애플 리테일 경험(Genius Bar, Today at Apple) 이해. '고객 경험 최우선' 철학에 대한 구체적 본인 사례 준비."
+    "interview_tip": "애플의 프라이버시 철학과 Apple Intelligence 전략 숙지. 애플 리테일 경험(Genius Bar, Today at Apple) 이해. '고객 경험 최우선' 철학에 대한 구체적 본인 사례 준비.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 600,
+    "pension_date": "2024-12"
   },
   {
     "name": "앤트로픽코리아",
@@ -6206,7 +6570,13 @@
     ],
     "why_join": "AI 안전·정렬 연구의 세계적 선도 기업. Claude API 생태계 성장기 초기 합류 기회. 한국 법인 초기 멤버로 높은 오너십과 영향력.",
     "why_not_join": "한국 법인 역사 짧고 조직 불안정. OpenAI 대비 국내 브랜드 인지도 낮아 엔터프라이즈 세일즈 난이도 높음. 샌프란시스코 본사 주도 제품 로드맵.",
-    "interview_tip": "Constitutional AI와 RLHF 차이점 이해. Claude 모델 시리즈(Opus·Sonnet·Haiku) 특성과 경쟁 모델 비교 준비. AI 안전성에 대한 본인 철학과 앤트로픽 가치관 연결."
+    "interview_tip": "Constitutional AI와 RLHF 차이점 이해. Claude 모델 시리즈(Opus·Sonnet·Haiku) 특성과 경쟁 모델 비교 준비. AI 안전성에 대한 본인 철학과 앤트로픽 가치관 연결.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 50,
+    "pension_date": "2024-12"
   },
   {
     "name": "야놀자",
@@ -6356,7 +6726,13 @@
     "homepage": "www.yanolja.com",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "플랫폼 개발 직군",
+    "pension_members": 2000,
+    "pension_date": "2024-12"
   },
   {
     "name": "업스테이지",
@@ -6501,7 +6877,37 @@
       "recent_news": "2025년 3월 Upstage Studio 프리뷰 공개 / $100M+ 누적 투자 완료 / Solar Pro API 글로벌 출시",
       "funding_history": "시리즈B $100M+(소프트뱅크벤처스·SK네트웍스·KT 등 참여)",
       "ipo_status": "비상장"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 5,
+    "military_service_note": "AI 연구 직군, 벤처 전문연구요원",
+    "pension_members": 150,
+    "pension_date": "2024-12",
+    "hf_model_count": 22,
+    "hf_dataset_count": 5,
+    "hf_total_downloads": 101440,
+    "hf_top_models": [
+      {
+        "name": "upstage/SOLAR-10.7B-Instruct-v1.0",
+        "downloads": 27461,
+        "task": "text-generation"
+      },
+      {
+        "name": "upstage/SOLAR-0-70b-16bit",
+        "downloads": 26748,
+        "task": "text-generation"
+      },
+      {
+        "name": "upstage/solar-pro-preview-instruct",
+        "downloads": 18925,
+        "task": "text-generation"
+      }
+    ],
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
   },
   {
     "name": "에이프로젠",
@@ -6621,7 +7027,13 @@
     ],
     "why_join": "바이오시밀러 전 밸류체인(개발→임상→제조→허가) 경험 가능. 글로벌 규제(FDA·EMA) 대응 실무 역량 습득. 제약·바이오 커리어 기반 구축.",
     "why_not_join": "중소형 바이오 기업 특성상 보상 체계 대기업 대비 제한. 바이오시밀러 가격 경쟁 심화로 마진 압박. IT 직군 포지션 극히 제한적.",
-    "interview_tip": "바이오시밀러와 제네릭 차이점 이해 필수. 주요 파이프라인(인플릭시맙·아달리무맙) 오리지널 약물과 시장 이해. 글로벌 바이오시밀러 시장 트렌드(가격·규제) 조사."
+    "interview_tip": "바이오시밀러와 제네릭 차이점 이해 필수. 주요 파이프라인(인플릭시맙·아달리무맙) 오리지널 약물과 시장 이해. 글로벌 바이오시밀러 시장 트렌드(가격·규제) 조사.",
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 10,
+    "military_service_note": "바이오 의약품 연구",
+    "pension_members": 700,
+    "pension_date": "2024-12"
   },
   {
     "name": "엔비디아코리아",
@@ -6757,7 +7169,13 @@
     ],
     "why_join": "AI 인프라 최정점 기업에서 글로벌 기술 최전선 경험. 외국계 최고 수준 보상(RSU 가치 극대화). 국내 최대 AI·반도체 고객군 네트워크.",
     "why_not_join": "한국 법인은 세일즈·기술지원(SE) 중심, 연구·개발 포지션 없음. 본사(산타클라라) 주도 의사결정으로 현지 자율성 낮음. GPU 공급 제한으로 영업 스트레스.",
-    "interview_tip": "H100·Blackwell 아키텍처 차이와 AI 학습·추론 워크로드 이해 필수. CUDA vs ROCm 비교 준비. 국내 주요 AI 고객사(네이버·카카오·SKT) 사용 사례 조사."
+    "interview_tip": "H100·Blackwell 아키텍처 차이와 AI 학습·추론 워크로드 이해 필수. CUDA vs ROCm 비교 준비. 국내 주요 AI 고객사(네이버·카카오·SKT) 사용 사례 조사.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 200,
+    "pension_date": "2024-12"
   },
   {
     "name": "엔씨소프트",
@@ -6901,7 +7319,13 @@
       "recent_news": "2024년 TL(스론과 자유) 글로벌 출시·Amazon 퍼블리싱 / AION2 출시 / 조직 슬림화 리스트럭처링",
       "funding_history": "코스피 상장(2000)",
       "ipo_status": "코스피 상장(종목코드 036570), 시총 약 4조 원"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 30,
+    "military_service_note": "NC Research 전문연구요원 포함",
+    "pension_members": 5000,
+    "pension_date": "2024-12"
   },
   {
     "name": "오픈AI코리아",
@@ -7039,7 +7463,13 @@
     ],
     "why_join": "생성 AI 글로벌 1위 기업 한국 초기 팀 합류 기회. AI 산업 최전선 네트워크와 브랜드 경력. 한국 시장 AI 도입 확산의 핵심 역할.",
     "why_not_join": "한국 법인 극초기로 역할 모호, 안정성 낮음. 샌프란시스코 본사 의사결정 집중. 세일즈·파트너십 중심 조직으로 기술 직군 기회 제한.",
-    "interview_tip": "GPT-4o·o1·o3 모델 특성과 활용 사례 깊이 준비. 한국 기업의 AI 도입 장벽(데이터·보안·비용) 분석. OpenAI의 'AGI 안전한 개발' 미션에 대한 본인 관점."
+    "interview_tip": "GPT-4o·o1·o3 모델 특성과 활용 사례 깊이 준비. 한국 기업의 AI 도입 장벽(데이터·보안·비용) 분석. OpenAI의 'AGI 안전한 개발' 미션에 대한 본인 관점.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 30,
+    "pension_date": "2024-12"
   },
   {
     "name": "왓챠",
@@ -7153,7 +7583,13 @@
     ],
     "why_join": "취향 추천 알고리즘과 콘텐츠 데이터 분석 실전 경험. 소규모 팀으로 높은 오너십. OTT 비즈니스 전반 이해.",
     "why_not_join": "재무 위기 지속으로 고용 안정성 우려. 넷플릭스 대비 콘텐츠·보상 경쟁력 낮음. 생존 자체가 불확실한 단계.",
-    "interview_tip": "왓챠 vs 왓챠피디아 비즈니스 모델 차이 이해. 취향 기반 추천 알고리즘(협업 필터링 등) 기본 지식 준비. OTT 시장 생존 전략에 대한 본인 의견 명확히."
+    "interview_tip": "왓챠 vs 왓챠피디아 비즈니스 모델 차이 이해. 취향 기반 추천 알고리즘(협업 필터링 등) 기본 지식 준비. OTT 시장 생존 전략에 대한 본인 의견 명확히.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "OTT, 소규모",
+    "pension_members": 200,
+    "pension_date": "2024-12"
   },
   {
     "name": "우아한형제들",
@@ -7301,7 +7737,13 @@
     "homepage": "www.woowahan.com/",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 15,
+    "military_service_note": "배달의민족 IT 개발 직군",
+    "pension_members": 3000,
+    "pension_date": "2024-12"
   },
   {
     "name": "원티드랩",
@@ -7443,7 +7885,13 @@
       "recent_news": "2024년 채용 시장 회복세 수혜 / 원티드 스페이스 HR SaaS 계약 확대 / AI 매칭 알고리즘 고도화",
       "funding_history": "코스닥 상장(2022)",
       "ipo_status": "코스닥 상장(종목코드 376980)"
-    }
+    },
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "HR 플랫폼, 소규모",
+    "pension_members": 250,
+    "pension_date": "2024-12"
   },
   {
     "name": "지마켓",
@@ -7573,7 +8021,13 @@
     ],
     "why_join": "신세계그룹 계열 대기업 안정성. 이커머스 오픈마켓 풀스택 경험. 온·오프라인 통합 유통 데이터 접근.",
     "why_not_join": "쿠팡 대비 구조적 열위로 성장 모멘텀 약함. 지속 영업손실로 조직 효율화 압박. 이커머스 시장 내 혁신보다 방어적 운영 모드.",
-    "interview_tip": "G마켓·옥션·스마일배송 구조와 신세계 편입 시너지 이해. 쿠팡 대비 지마켓 차별화 전략 본인 관점 준비. 오픈마켓 수수료·광고 비즈니스 모델 이해."
+    "interview_tip": "G마켓·옥션·스마일배송 구조와 신세계 편입 시너지 이해. 쿠팡 대비 지마켓 차별화 전략 본인 관점 준비. 오픈마켓 수수료·광고 비즈니스 모델 이해.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "eBay 인수 후 구조 변경",
+    "pension_members": 1200,
+    "pension_date": "2024-12"
   },
   {
     "name": "직방",
@@ -7719,7 +8173,13 @@
       "recent_news": "2024년 부동산 경기 침체로 광고 매출 감소 / 스마트홈 B2B 확장 / 버추얼 홈 서비스 론칭",
       "funding_history": "누적 약 3,000억 원 투자(소프트뱅크벤처스·골드만삭스 등), 기업가치 약 3조 원",
       "ipo_status": "비상장"
-    }
+    },
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "부동산 플랫폼, 미지정",
+    "pension_members": 400,
+    "pension_date": "2024-12"
   },
   {
     "name": "채널코퍼레이션",
@@ -7861,7 +8321,13 @@
       "recent_news": "2024년 ARR 500억 돌파 / 미국·일본 시장 확장 / AI 상담 어시스턴트 기능 강화",
       "funding_history": "누적 약 350억 원 투자(SV인베스트먼트·카카오벤처스 등)",
       "ipo_status": "비상장"
-    }
+    },
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "B2B SaaS, 소규모",
+    "pension_members": 300,
+    "pension_date": "2024-12"
   },
   {
     "name": "카카오",
@@ -8036,7 +8502,37 @@
         "stars": 3,
         "language": "Python"
       }
-    ]
+    ],
+    "military_service_available": true,
+    "military_service_type": "양쪽 모두",
+    "military_service_quota": 40,
+    "military_service_note": "카카오 AI Lab 전문연구요원 포함",
+    "pension_members": 3750,
+    "pension_date": "2024-12",
+    "hf_model_count": 12,
+    "hf_dataset_count": 4,
+    "hf_total_downloads": 7057,
+    "hf_top_models": [
+      {
+        "name": "kakaobrain/align-base",
+        "downloads": 6723,
+        "task": "zero-shot-image-classification"
+      },
+      {
+        "name": "kakaobrain/kogpt",
+        "downloads": 189,
+        "task": ""
+      },
+      {
+        "name": "kakaobrain/karlo-v1-alpha",
+        "downloads": 91,
+        "task": "text-to-image"
+      }
+    ],
+    "paper_count": 0,
+    "top_venues": [],
+    "total_citations": 0,
+    "top_papers": []
   },
   {
     "name": "카카오뱅크",
@@ -8204,7 +8700,13 @@
         "stars": 3,
         "language": "Python"
       }
-    ]
+    ],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 10,
+    "military_service_note": "IT 개발 직군",
+    "pension_members": 1800,
+    "pension_date": "2024-12"
   },
   {
     "name": "카카오스타일",
@@ -8344,7 +8846,13 @@
         "stars": 3,
         "language": "Python"
       }
-    ]
+    ],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "규모 미충족 가능성",
+    "pension_members": 300,
+    "pension_date": "2024-12"
   },
   {
     "name": "카카오엔터테인먼트",
@@ -8490,7 +8998,13 @@
         "stars": 3,
         "language": "Python"
       }
-    ]
+    ],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정",
+    "pension_members": 1500,
+    "pension_date": "2024-12"
   },
   {
     "name": "카카오페이",
@@ -8639,7 +9153,13 @@
     "week52_low": 26350.0,
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 8,
+    "military_service_note": "핀테크 개발 직군",
+    "pension_members": 1200,
+    "pension_date": "2024-12"
   },
   {
     "name": "카카오페이증권",
@@ -8780,7 +9300,13 @@
         "stars": 3,
         "language": "Python"
       }
-    ]
+    ],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "금융업 미지정",
+    "pension_members": 400,
+    "pension_date": "2024-12"
   },
   {
     "name": "컬리",
@@ -8905,7 +9431,13 @@
       "recent_news": "2024년 흑자 전환 목표 / 뷰티컬리 카테고리 강화 / 코스피 IPO 재도전 검토",
       "funding_history": "누적 약 1조 원 투자(DST Global·앵커에쿼티파트너스 등), 기업가치 약 4조 원",
       "ipo_status": "비상장 (IPO 재추진 중)"
-    }
+    },
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "미지정",
+    "pension_members": 3000,
+    "pension_date": "2024-12"
   },
   {
     "name": "코인원",
@@ -9016,7 +9548,13 @@
     ],
     "why_join": "블록체인·가상자산 거래 시스템의 기술적 깊이(고빈도 매칭 엔진, 지갑 보안)를 경험. 핀테크와 블록체인의 교차점에서 희귀 도메인 전문성 확보.",
     "why_not_join": "시장 변동성에 따라 회사 실적·분위기가 극단적으로 바뀜. 업비트·빗썸 대비 규모 작아 커리어 레버리지 낮음. 가상자산 규제 환경 불확실.",
-    "interview_tip": "고가용성 거래 시스템, 보안(콜드월렛·멀티시그) 이해 어필. 가상자산 거래소 특유의 기술 과제(매칭 엔진, 시세 처리)에 대한 사전 학습 필수."
+    "interview_tip": "고가용성 거래 시스템, 보안(콜드월렛·멀티시그) 이해 어필. 가상자산 거래소 특유의 기술 과제(매칭 엔진, 시세 처리)에 대한 사전 학습 필수.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "가상자산 업종 미지정",
+    "pension_members": 300,
+    "pension_date": "2024-12"
   },
   {
     "name": "쿠팡",
@@ -9166,7 +9704,13 @@
     "homepage": "www.coupang.com",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 25,
+    "military_service_note": "IT/물류 시스템 개발",
+    "pension_members": 70000,
+    "pension_date": "2024-12"
   },
   {
     "name": "크래프톤",
@@ -9304,7 +9848,13 @@
       "recent_news": "2024년 인조이(inZOI) 라이프 시뮬레이션 출시 준비 / 배그 모바일 인도 복귀 성공 / 딥마인드 출신 AI팀 강화",
       "funding_history": "코스피 상장(2021)",
       "ipo_status": "코스피 상장(종목코드 259960), 시총 약 13조 원"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 20,
+    "military_service_note": "게임 개발 직군",
+    "pension_members": 4000,
+    "pension_date": "2024-12"
   },
   {
     "name": "클래스101",
@@ -9421,7 +9971,13 @@
     ],
     "why_join": "에듀테크 구독 플랫폼의 전환 과정에서 프로덕트·데이터 경험. 소규모 조직으로 빠른 의사결정과 넓은 업무 범위. 크리에이터 이코노미 성장 파도 탑승 기회.",
     "why_not_join": "스타트업 재무 불안정(지속 적자), IPO 계획 불투명. 구독 모델 전환 성공 여부 불확실. 상대적으로 낮은 시장 임팩트.",
-    "interview_tip": "구독 비즈니스 모델(CAC, LTV, 전환율) 이해 필수. 플랫폼의 크리에이터-수강생 매칭 알고리즘이나 추천 시스템 아이디어 준비. 글로벌 에듀테크 트렌드(Coursera, Skillshare) 비교 분석."
+    "interview_tip": "구독 비즈니스 모델(CAC, LTV, 전환율) 이해 필수. 플랫폼의 크리에이터-수강생 매칭 알고리즘이나 추천 시스템 아이디어 준비. 글로벌 에듀테크 트렌드(Coursera, Skillshare) 비교 분석.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "에듀테크, 소규모",
+    "pension_members": 150,
+    "pension_date": "2024-12"
   },
   {
     "name": "테슬라코리아",
@@ -9547,7 +10103,13 @@
     ],
     "why_join": "자율주행·AI·에너지 기술의 최전선에서 글로벌 수준의 SW 엔지니어링 경험. 한국 법인은 소규모지만 글로벌 본사와 직결된 프로젝트 참여. 전기차·에너지 전환 시대 핵심 커리어.",
     "why_not_join": "한국 법인은 주로 영업·서비스 인력, 순수 개발 포지션 제한적. 일론 머스크 리더십 스타일(극한 속도 문화)에 대한 적응 필요. 본사 결정 의존도 높아 자율성 제한.",
-    "interview_tip": "자율주행 시스템(컴퓨터 비전, 센서 퓨전) 또는 임베디드 SW 경험 어필. 테슬라의 수직 통합 전략(배터리·반도체·소프트웨어) 이해 필수. 에너지 효율·지속가능성에 대한 개인적 신념 표현."
+    "interview_tip": "자율주행 시스템(컴퓨터 비전, 센서 퓨전) 또는 임베디드 SW 경험 어필. 테슬라의 수직 통합 전략(배터리·반도체·소프트웨어) 이해 필수. 에너지 효율·지속가능성에 대한 개인적 신념 표현.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 400,
+    "pension_date": "2024-12"
   },
   {
     "name": "토스 (비바리퍼블리카)",
@@ -9704,7 +10266,13 @@
     "homepage": "https://toss.im/",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": true,
+    "military_service_type": "산업기능요원",
+    "military_service_quota": 15,
+    "military_service_note": "핀테크 IT 직군, 2024년 신규 지정",
+    "pension_members": 2500,
+    "pension_date": "2024-12"
   },
   {
     "name": "토스랩",
@@ -9821,7 +10389,13 @@
     "homepage": "https://toss.im/",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "소규모 법인",
+    "pension_members": 150,
+    "pension_date": "2024-12"
   },
   {
     "name": "토스뱅크",
@@ -9953,7 +10527,13 @@
     "address": "서울특별시 강남구 테헤란로 131 (역삼동, 한국지식재산센터) 13층",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "인터넷 은행, 별도 지정 없음",
+    "pension_members": 800,
+    "pension_date": "2024-12"
   },
   {
     "name": "토스증권",
@@ -10072,7 +10652,13 @@
     "homepage": "https://corp.tossinvest.com",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "금융업 미지정",
+    "pension_members": 300,
+    "pension_date": "2024-12"
   },
   {
     "name": "토스페이먼츠",
@@ -10200,7 +10786,13 @@
     "homepage": "https://toss.im/",
     "ai_repos_count": 0,
     "ai_total_stars": 0,
-    "top_ai_repos": []
+    "top_ai_repos": [],
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "별도 법인, 미지정",
+    "pension_members": 400,
+    "pension_date": "2024-12"
   },
   {
     "name": "포티투마루",
@@ -10318,7 +10910,13 @@
     ],
     "why_join": "NLP/LLM 연구와 실제 엔터프라이즈 적용 사이 최전선 경험. RAG·정보 검색·기계독해 등 AI 핵심 기술 깊이 있게 연구. 작은 조직에서 AI 제품 전 과정 참여.",
     "why_not_join": "소규모 스타트업으로 재무 불안정, 처우 제한. 글로벌 LLM 발전 속도에 따라 차별화 유지 불확실. 대기업 고객 의존 B2B 특성상 성장 예측 어려움.",
-    "interview_tip": "RAG 파이프라인 설계, 임베딩 모델 선택, 정보 검색 최적화 경험 필수. MRC 벤치마크(KorQuAD 등) 이해. '포티투마루의 솔루션이 ChatGPT와 다른 점'에 대한 명확한 답변 준비."
+    "interview_tip": "RAG 파이프라인 설계, 임베딩 모델 선택, 정보 검색 최적화 경험 필수. MRC 벤치마크(KorQuAD 등) 이해. '포티투마루의 솔루션이 ChatGPT와 다른 점'에 대한 명확한 답변 준비.",
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 3,
+    "military_service_note": "NLP/AI 연구",
+    "pension_members": 100,
+    "pension_date": "2024-12"
   },
   {
     "name": "퓨리오사AI",
@@ -10448,7 +11046,13 @@
       "recent_news": "2024년 2세대 RNGD 칩 출시 / 해외 클라우드 고객 수주 확대 / 미국 AI 반도체 수출 규제 대응 전략 수립",
       "funding_history": "누적 약 2,000억 원 투자(KDB산업은행·현대차·SK하이닉스·글로벌 VC)",
       "ipo_status": "비상장"
-    }
+    },
+    "military_service_available": true,
+    "military_service_type": "전문연구요원",
+    "military_service_quota": 5,
+    "military_service_note": "NPU 반도체 연구",
+    "pension_members": 150,
+    "pension_date": "2024-12"
   },
   {
     "name": "핀다",
@@ -10561,7 +11165,13 @@
     ],
     "why_join": "대출 중개 플랫폼의 신용평가·대출 추천 알고리즘 경험. 마이데이터 기반 개인화 금융 서비스 구축. 핀테크 특화 도메인 전문성 확보.",
     "why_not_join": "대형 슈퍼앱 대비 플랫폼 규모 열세, 장기 생존 불확실. 대출 시장 경기 민감성. 스타트업 규모로 처우·자원 한계.",
-    "interview_tip": "신용평가 모델(대안 신용 스코어링), 개인정보 처리(마이데이터 규정) 이해 어필. '핀다의 차별화 전략'에 대한 비판적 분석. 금융 API 연동 경험과 컴플라이언스 이해 준비."
+    "interview_tip": "신용평가 모델(대안 신용 스코어링), 개인정보 처리(마이데이터 규정) 이해 어필. '핀다의 차별화 전략'에 대한 비판적 분석. 금융 API 연동 경험과 컴플라이언스 이해 준비.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "핀테크 소규모",
+    "pension_members": 150,
+    "pension_date": "2024-12"
   },
   {
     "name": "하이브",
@@ -10700,7 +11310,13 @@
       "recent_news": "2024년 어도어-하이브 분쟁(뉴진스 사태) / 위버스 글로벌 MAU 성장 / BTS 전원 전역 후 완전체 컴백 준비",
       "funding_history": "코스피 상장(2020)",
       "ipo_status": "코스피 상장(종목코드 352820), 시총 약 8조 원"
-    }
+    },
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "엔터테인먼트 업종 미지정",
+    "pension_members": 2500,
+    "pension_date": "2024-12"
   },
   {
     "name": "한국마이크로소프트",
@@ -10832,6 +11448,12 @@
     ],
     "why_join": "글로벌 최대 소프트웨어·클라우드·AI 기업의 국내 최전선 경험. Azure OpenAI 도입 지원으로 국내 AI 전환 파도의 중심 역할. 외국계 기업 특유의 글로벌 스탠다드 커리어 개발.",
     "why_not_join": "한국 법인은 주로 영업·SE 역할, 순수 제품 개발 포지션 매우 제한적. 본사 결정 의존으로 자율성 낮음. 외국계 특성상 한국 시장 중요도 감소 시 구조조정 가능성.",
-    "interview_tip": "Azure 아키텍처(컴퓨트·스토리지·네트워크)와 AI 서비스(Azure OpenAI, Copilot) 실제 경험 필수. 'Azure vs AWS vs GCP' 비교 분석 준비. Microsoft의 Growth Mindset 문화 내면화 표현. GitHub Copilot 실무 활용 경험 어필."
+    "interview_tip": "Azure 아키텍처(컴퓨트·스토리지·네트워크)와 AI 서비스(Azure OpenAI, Copilot) 실제 경험 필수. 'Azure vs AWS vs GCP' 비교 분석 준비. Microsoft의 Growth Mindset 문화 내면화 표현. GitHub Copilot 실무 활용 경험 어필.",
+    "military_service_available": false,
+    "military_service_type": null,
+    "military_service_quota": null,
+    "military_service_note": "외국계 법인, 병역특례 불가",
+    "pension_members": 1200,
+    "pension_date": "2024-12"
   }
 ]
