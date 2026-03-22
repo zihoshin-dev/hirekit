@@ -796,6 +796,55 @@ def compare(
         console.print(f"\n[bold]추천:[/bold]\n{result.overall_recommendation}")
 
 
+@app.command()
+def serve(
+    port: int = typer.Option(8080, "--port", "-p", help="포트 번호"),
+    host: str = typer.Option("127.0.0.1", "--host", help="호스트"),
+) -> None:
+    """로컬 웹 서버 — 데모 사이트를 브라우저에서 바로 열어요."""
+    import functools
+    import http.server
+    import threading
+    import webbrowser
+
+    # docs/ 디렉토리 찾기: 소스 루트 기준
+    docs_dir = Path(__file__).parent.parent.parent.parent / "docs"
+    if not docs_dir.exists():
+        # pip install된 경우 패키지 내부에서 찾기
+        import importlib.resources
+        docs_dir = Path(str(importlib.resources.files("hirekit"))) / ".." / ".." / "docs"
+
+    if not docs_dir.exists():
+        console.print("[red]docs/ 디렉토리를 찾을 수 없어요. 소스에서 실행해주세요.[/red]")
+        raise typer.Exit(code=1)
+
+    handler = functools.partial(
+        http.server.SimpleHTTPRequestHandler,
+        directory=str(docs_dir.resolve()),
+    )
+
+    console.print(Panel(
+        f"[bold]주소:[/bold] http://{host}:{port}\n"
+        f"[bold]디렉토리:[/bold] {docs_dir.resolve()}\n"
+        "[dim]Ctrl+C로 종료[/dim]",
+        title="[bold blue]HireKit 로컬 서버[/bold blue]",
+        border_style="blue",
+    ))
+
+    def open_browser() -> None:
+        import time
+        time.sleep(1)
+        webbrowser.open(f"http://{host}:{port}")
+
+    threading.Thread(target=open_browser, daemon=True).start()
+
+    with http.server.HTTPServer((host, port), handler) as server:
+        try:
+            server.serve_forever()
+        except KeyboardInterrupt:
+            console.print("\n[dim]서버 종료[/dim]")
+
+
 # --- Helpers ---
 
 def _get_llm(config: HireKitConfig) -> BaseLLM:  # noqa: F821
