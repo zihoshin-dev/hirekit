@@ -312,7 +312,59 @@
       "[CJ ENM/영상편집/방송사/신입O] 영상편집자,콘텐츠에디터 채용",
       "[CJ ENM/방송사/신입O] 디지털 콘텐츠 제작 및 마케팅 지원",
       "[CJ ENM] 방송 프로그램 영상 번역 영어 근무자 모집"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 2787218125859
+        },
+        {
+          "year": 2023,
+          "amount": 2639555514483
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 175871886184
+        },
+        {
+          "year": 2023,
+          "amount": 159322967570
+        },
+        {
+          "year": 2022,
+          "amount": 238195157575
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": -722758369224
+        },
+        {
+          "year": 2023,
+          "amount": 26529991694
+        },
+        {
+          "year": 2022,
+          "amount": 80682238169
+        }
+      ],
+      "total_assets": 5465395079070,
+      "total_debt": 2944926176326,
+      "debt_ratio": 116.8,
+      "revenue_growth_yoy": "+5.6%",
+      "profit_margin": "6.3%",
+      "employee_total": 3023,
+      "employee_avg_salary": 90472047,
+      "employee_avg_tenure": "112개월"
+    }
   },
   {
     "name": "CJ올리브영",
@@ -756,7 +808,43 @@
       "[안양/정규직] kt엠모바일 알뜰폰 고객센터 교육강사 채용",
       "[kt cs정규직] 메리츠화재 고객센터 관리자(실장) 모집",
       "[ktcs/공공기관] 화성시청 콜센터 상담사 채용"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "김영섭 대표 — LG CNS CEO 출신, 외부 영입형 혁신 리더, 2023년 8월 취임",
+      "leadership_style": "AICT(AI+ICT) 컴퍼니 전환, '고객·역량·내실·화합' 4대 키워드, 임원 20% 축소 단행",
+      "core_values": [
+        "고객(Customer)",
+        "역량(Capability)",
+        "내실(Substantiality)"
+      ],
+      "notable_quotes": "\"KT의 미래는 AICT — AI와 ICT를 융합한 디지털 혁신 파트너가 되겠다\" — 김영섭 대표"
+    },
+    "organization": {
+      "structure_type": "사업부제 (통신·AICT·미디어·B2B)",
+      "key_divisions": [
+        "통신(5G·유선)",
+        "AI/빅데이터",
+        "클라우드·IDC",
+        "미디어(스카이라이프)",
+        "B2B솔루션"
+      ],
+      "engineering_culture": "기술혁신부문 신설(IT+R&D 통합), AI 내재화, 클라우드 전환 가속",
+      "work_style": "하이브리드 (직군별 상이)",
+      "core_hours": "코어타임 10:00~15:00",
+      "decision_making": "CEO 직할 강화 + 사업부 자율"
+    },
+    "employee_experience": {
+      "onboarding": "KT 공통 신입 교육 3개월 + 직무 OJT",
+      "growth_support": "사내 대학원 지원, AI/클라우드 자격증 교육, 해외 연수",
+      "notable_benefits": [
+        "구내식당 지원",
+        "직원 대출 제도",
+        "통신 요금 할인",
+        "종합 의료 검진",
+        "사내 어린이집"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.3점 — '공기업 수준 안정성, AICT 전환 과정 내부 혼란 체감'"
+    }
   },
   {
     "name": "LG CNS",
@@ -915,7 +1003,43 @@
       "[LG CNS] AI 전 영역 전문가 모집 경력 (AI Scientist)",
       "[LG CNS] AI 전 영역 전문가 모집 경력 (AI PM/PL)",
       "[LG CNS] AI 전 영역 전문가 모집 경력"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "현신균 대표 — AT커니·UN·액센츄어 글로벌 혁신 전문가 → LG디스플레이 → LG CNS CTO → 대표, 2024년 사장 승진",
+      "leadership_style": "솔직한 소통·조직 신뢰 구축, DX(디지털 전환) 체질 개선, IPO 추진",
+      "core_values": [
+        "고객 가치",
+        "디지털 혁신",
+        "신뢰"
+      ],
+      "notable_quotes": "\"금융·제조를 모두 꿰는 DX 전문가로서 AX(AI전환) 시대를 선도하겠다\" — 현신균 대표"
+    },
+    "organization": {
+      "structure_type": "사업부제 (금융·제조·공공·클라우드)",
+      "key_divisions": [
+        "금융DX",
+        "제조DX",
+        "공공DX",
+        "클라우드",
+        "AI/데이터"
+      ],
+      "engineering_culture": "LG그룹 계열사 DX 프로젝트 중심, 클라우드·AI 역량 강화, 사내 기술 공유",
+      "work_style": "하이브리드 (주 3일 출근)",
+      "core_hours": "코어타임 10:00~15:00",
+      "decision_making": "사업부 책임제 + C레벨 조율"
+    },
+    "employee_experience": {
+      "onboarding": "LG 그룹 공통 교육 + IT 직무 교육 3개월",
+      "growth_support": "클라우드·AI 자격증 지원, 해외 연수, 사내 교육 플랫폼",
+      "notable_benefits": [
+        "LG그룹 수준 종합 복지",
+        "사내 어린이집",
+        "주택자금 지원",
+        "임직원 할인",
+        "동호회 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.6점 — '안정적 대기업 복지, DX 성장세 기대, SI 특성 프로젝트 야근 존재'"
+    }
   },
   {
     "name": "SK텔레콤",
@@ -1075,7 +1199,43 @@
       "정산 및 통계 담당자",
       "SK Honors Lounge 회계 및 서무 담당자",
       "건설 현장 C/S관리 촉탁직 채용"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "유영상 대표 — SKT 2000년 입사 20년 이상 내부 성장, 2021년 CEO 취임",
+      "leadership_style": "AI피라미드 전략 2.0, 전 임직원 AI·글로벌 역량 강화, 타운홀 소통 강조",
+      "core_values": [
+        "AI 혁신",
+        "글로벌",
+        "고객 행복"
+      ],
+      "notable_quotes": "\"SKT의 르네상스를 위하여 — 통신을 넘어 AI 컴퍼니로 도약한다\" — 유영상 대표"
+    },
+    "organization": {
+      "structure_type": "7대 사업부 (통신 3·AI 4)",
+      "key_divisions": [
+        "MNO(모바일)",
+        "AI서비스",
+        "AI인프라",
+        "글로벌AI",
+        "에이닷(AI비서)"
+      ],
+      "engineering_culture": "AI피라미드 전략, 사내 AI 교육 전 직원 대상, T타워 스마트오피스",
+      "work_style": "하이브리드 (주 3일 출근)",
+      "core_hours": "코어타임 10:00~15:00",
+      "decision_making": "CEO 주도 전략 + 사업부 자율 실행"
+    },
+    "employee_experience": {
+      "onboarding": "신입 타운홀 미팅(CEO 직접 소통), 직무별 3개월 OJT",
+      "growth_support": "AI·글로벌 역량 교육, 사내 대학원, 해외 파견",
+      "notable_benefits": [
+        "구내식당",
+        "직원 대출 제도",
+        "통신 요금 무료",
+        "종합 의료 검진",
+        "주니어 탤런트 성장 프로그램"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.5점 — '통신 1위 안정성·높은 연봉, AI 전환 과도기 혼란 있음'"
+    }
   },
   {
     "name": "SK하이닉스",
@@ -1238,7 +1398,95 @@
       "['26년 상반기] Talent hy-way 신입 (양산기술)",
       "['26년 상반기] Talent hy-way 신입 (Product Engineering)",
       "['26년 상반기] Talent hy-way 신입 (Application Engineering)"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 55736287000000
+        },
+        {
+          "year": 2023,
+          "amount": 27639997000000
+        },
+        {
+          "year": 2022,
+          "amount": 37878699000000
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 21331452000000
+        },
+        {
+          "year": 2023,
+          "amount": -4672124000000
+        },
+        {
+          "year": 2022,
+          "amount": 7660947000000
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": 17640396000000
+        },
+        {
+          "year": 2023,
+          "amount": -4836170000000
+        },
+        {
+          "year": 2022,
+          "amount": 2790457000000
+        }
+      ],
+      "total_assets": 112412580000000,
+      "total_debt": 41185493000000,
+      "debt_ratio": 57.8,
+      "revenue_growth_yoy": "+101.7%",
+      "profit_margin": "38.3%",
+      "employee_total": 32390,
+      "employee_avg_salary": 113910497,
+      "employee_avg_tenure": "15.6"
+    },
+    "management_philosophy": {
+      "ceo_background": "곽노정 대표 — SK하이닉스 32년 내부 경력, D램·낸드 수율 전문가, 엔지니어 출신 CEO",
+      "leadership_style": "스킨십 경영·현장 소통 리더십, '안전과 행복' 최우선, 부드러운 카리스마",
+      "core_values": [
+        "안전(Safety)",
+        "행복(Happiness)",
+        "기술혁신(Innovation)"
+      ],
+      "notable_quotes": "\"다치면서 만들어야 할 반도체는 없다\" — 곽노정 대표 취임 일성"
+    },
+    "organization": {
+      "structure_type": "사업부제 (DRAM·NAND·MFG·R&D 부문)",
+      "key_divisions": [
+        "DRAM개발",
+        "NAND개발",
+        "제조(MFG)",
+        "솔루션개발",
+        "AI인프라"
+      ],
+      "engineering_culture": "HBM·AI 메모리 기술 선도, 현장 엔지니어 중심 문화, 사내 기술 세미나",
+      "work_style": "주 5일 출근 (제조직 교대근무, 연구직 일부 유연)",
+      "core_hours": "코어타임 09:00~17:00",
+      "decision_making": "톱다운 + 기술 검토 후 합의"
+    },
+    "employee_experience": {
+      "onboarding": "신입 6개월 OJT, 현장 실습·기술 교육 병행",
+      "growth_support": "사내 대학원 학비 지원, 해외 컨퍼런스 참가, 특허 인센티브",
+      "notable_benefits": [
+        "초과이익분배금(PS) — 기본급 1,500% 지급(2024)",
+        "자사주 30주 지급",
+        "사내 기숙사·복지관",
+        "종합 의료 검진",
+        "자녀 학자금 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.8점 — 'AI 메모리 수혜로 역대 최대 PS, 제조업 특성상 야근·교대 불가피'"
+    }
   },
   {
     "name": "SM엔터테인먼트",
@@ -2151,7 +2399,95 @@
       "[네이버웹툰] US SoX (경력)",
       "[네이버웹툰] 네이버 시리즈 콘텐츠 기획 마케터 (체험형 인턴)",
       "[네이버웹툰] 시리즈 그로스 마케터 (체험형 인턴)"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 6180892084942
+        },
+        {
+          "year": 2023,
+          "amount": 5609799005883
+        },
+        {
+          "year": 2022,
+          "amount": 5512586322305
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 1905258322935
+        },
+        {
+          "year": 2023,
+          "amount": 1713205368367
+        },
+        {
+          "year": 2022,
+          "amount": 1553794848099
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": 1968704486363
+        },
+        {
+          "year": 2023,
+          "amount": 1414312847932
+        },
+        {
+          "year": 2022,
+          "amount": 1092157607856
+        }
+      ],
+      "total_assets": 17597111016833,
+      "total_debt": 4350455464928,
+      "debt_ratio": 32.8,
+      "revenue_growth_yoy": "+10.2%",
+      "profit_margin": "30.8%",
+      "employee_total": 4583,
+      "employee_avg_salary": 127089242,
+      "employee_avg_tenure": "7.1"
+    },
+    "management_philosophy": {
+      "ceo_background": "최수연 대표 — 서울대 지구환경공학 + 연세대 법학전문대학원 + 하버드 로스쿨, 전 네이버 법무팀장",
+      "leadership_style": "애자일 조직 전환·실패 허용 문화, 'AI+글로벌' 투트랙 성장 전략",
+      "core_values": [
+        "도전(Challenge)",
+        "연결(Connection)",
+        "기술(Technology)"
+      ],
+      "notable_quotes": "\"경영 키워드는 AI와 글로벌 — 네이버 서비스를 AI 기반으로 바꿔내는 일이 가장 중요하다\" — 최수연 대표 2024 주주총회"
+    },
+    "organization": {
+      "structure_type": "매트릭스 (CIC + 사업부 혼합) → 2024년 전사 AI 중심 재편",
+      "key_divisions": [
+        "서치&클로바(AI)",
+        "커머스",
+        "핀테크",
+        "콘텐츠(웹툰·웹소설)",
+        "클라우드"
+      ],
+      "engineering_culture": "DEVIEW 개발자 컨퍼런스, GitHub 기반 코드리뷰, 사내 오픈소스 기여 장려",
+      "work_style": "하이브리드 (주 3일 출근, 2일 재택)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "쓰리톱(최수연·김남선·김범준) 합의 체제 + 사업부 자율"
+    },
+    "employee_experience": {
+      "onboarding": "신입 공채 NIT(Naver IT) 교육과정 + 멘토링 6개월",
+      "growth_support": "NAVER D2SF 기술창업 지원, 연간 교육비 지원, DEVIEW 발표 장려",
+      "notable_benefits": [
+        "분당 그린팩토리 사내 헬스장·수영장",
+        "사내 어린이집",
+        "주택자금 저금리 대출",
+        "스톡옵션·RSU",
+        "유연근무제"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.7점 — '복지·기술 환경 우수, 성과 압박은 팀마다 상이'"
+    }
   },
   {
     "name": "네이버웹툰",
@@ -2319,7 +2655,95 @@
       "[네이버웹툰] US SoX (경력)",
       "[네이버웹툰] 네이버 시리즈 콘텐츠 기획 마케터 (체험형 인턴)",
       "[네이버웹툰] 시리즈 그로스 마케터 (체험형 인턴)"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    },
+    "management_philosophy": {
+      "ceo_background": "최수연 대표 — 서울대 지구환경공학 + 연세대 법학전문대학원 + 하버드 로스쿨, 전 네이버 법무팀장",
+      "leadership_style": "애자일 조직 전환·실패 허용 문화, 'AI+글로벌' 투트랙 성장 전략",
+      "core_values": [
+        "도전(Challenge)",
+        "연결(Connection)",
+        "기술(Technology)"
+      ],
+      "notable_quotes": "\"경영 키워드는 AI와 글로벌 — 네이버 서비스를 AI 기반으로 바꿔내는 일이 가장 중요하다\" — 최수연 대표 2024 주주총회"
+    },
+    "organization": {
+      "structure_type": "매트릭스 (CIC + 사업부 혼합) → 2024년 전사 AI 중심 재편",
+      "key_divisions": [
+        "서치&클로바(AI)",
+        "커머스",
+        "핀테크",
+        "콘텐츠(웹툰·웹소설)",
+        "클라우드"
+      ],
+      "engineering_culture": "DEVIEW 개발자 컨퍼런스, GitHub 기반 코드리뷰, 사내 오픈소스 기여 장려",
+      "work_style": "하이브리드 (주 3일 출근, 2일 재택)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "쓰리톱(최수연·김남선·김범준) 합의 체제 + 사업부 자율"
+    },
+    "employee_experience": {
+      "onboarding": "신입 공채 NIT(Naver IT) 교육과정 + 멘토링 6개월",
+      "growth_support": "NAVER D2SF 기술창업 지원, 연간 교육비 지원, DEVIEW 발표 장려",
+      "notable_benefits": [
+        "분당 그린팩토리 사내 헬스장·수영장",
+        "사내 어린이집",
+        "주택자금 저금리 대출",
+        "스톡옵션·RSU",
+        "유연근무제"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.7점 — '복지·기술 환경 우수, 성과 압박은 팀마다 상이'"
+    }
   },
   {
     "name": "네이버클라우드",
@@ -2488,7 +2912,95 @@
       "임직원 성장 경험 및 온보딩 프로그램 기획·운영 (체험형 인턴)",
       "세종 네이버클라우드 데이터센터 소방/안전 파트장(관리자) 채용",
       "네이버클라우드 게임플랫폼 기술지원 담당자"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    },
+    "management_philosophy": {
+      "ceo_background": "최수연 대표 — 서울대 지구환경공학 + 연세대 법학전문대학원 + 하버드 로스쿨, 전 네이버 법무팀장",
+      "leadership_style": "애자일 조직 전환·실패 허용 문화, 'AI+글로벌' 투트랙 성장 전략",
+      "core_values": [
+        "도전(Challenge)",
+        "연결(Connection)",
+        "기술(Technology)"
+      ],
+      "notable_quotes": "\"경영 키워드는 AI와 글로벌 — 네이버 서비스를 AI 기반으로 바꿔내는 일이 가장 중요하다\" — 최수연 대표 2024 주주총회"
+    },
+    "organization": {
+      "structure_type": "매트릭스 (CIC + 사업부 혼합) → 2024년 전사 AI 중심 재편",
+      "key_divisions": [
+        "서치&클로바(AI)",
+        "커머스",
+        "핀테크",
+        "콘텐츠(웹툰·웹소설)",
+        "클라우드"
+      ],
+      "engineering_culture": "DEVIEW 개발자 컨퍼런스, GitHub 기반 코드리뷰, 사내 오픈소스 기여 장려",
+      "work_style": "하이브리드 (주 3일 출근, 2일 재택)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "쓰리톱(최수연·김남선·김범준) 합의 체제 + 사업부 자율"
+    },
+    "employee_experience": {
+      "onboarding": "신입 공채 NIT(Naver IT) 교육과정 + 멘토링 6개월",
+      "growth_support": "NAVER D2SF 기술창업 지원, 연간 교육비 지원, DEVIEW 발표 장려",
+      "notable_benefits": [
+        "분당 그린팩토리 사내 헬스장·수영장",
+        "사내 어린이집",
+        "주택자금 저금리 대출",
+        "스톡옵션·RSU",
+        "유연근무제"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.7점 — '복지·기술 환경 우수, 성과 압박은 팀마다 상이'"
+    }
   },
   {
     "name": "네이버파이낸셜",
@@ -2655,7 +3167,43 @@
       "[네이버페이] 현장 결제 서비스 운영 담당자 (계약직)",
       "[네이버페이] 제휴 포인트 운영 및 CS 업무 담당자 (계약직)",
       "[이지팩토리] JAVA 웹 개발자 경력직 채용 공고"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "최수연 대표 — 서울대 지구환경공학 + 연세대 법학전문대학원 + 하버드 로스쿨, 전 네이버 법무팀장",
+      "leadership_style": "애자일 조직 전환·실패 허용 문화, 'AI+글로벌' 투트랙 성장 전략",
+      "core_values": [
+        "도전(Challenge)",
+        "연결(Connection)",
+        "기술(Technology)"
+      ],
+      "notable_quotes": "\"경영 키워드는 AI와 글로벌 — 네이버 서비스를 AI 기반으로 바꿔내는 일이 가장 중요하다\" — 최수연 대표 2024 주주총회"
+    },
+    "organization": {
+      "structure_type": "매트릭스 (CIC + 사업부 혼합) → 2024년 전사 AI 중심 재편",
+      "key_divisions": [
+        "서치&클로바(AI)",
+        "커머스",
+        "핀테크",
+        "콘텐츠(웹툰·웹소설)",
+        "클라우드"
+      ],
+      "engineering_culture": "DEVIEW 개발자 컨퍼런스, GitHub 기반 코드리뷰, 사내 오픈소스 기여 장려",
+      "work_style": "하이브리드 (주 3일 출근, 2일 재택)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "쓰리톱(최수연·김남선·김범준) 합의 체제 + 사업부 자율"
+    },
+    "employee_experience": {
+      "onboarding": "신입 공채 NIT(Naver IT) 교육과정 + 멘토링 6개월",
+      "growth_support": "NAVER D2SF 기술창업 지원, 연간 교육비 지원, DEVIEW 발표 장려",
+      "notable_benefits": [
+        "분당 그린팩토리 사내 헬스장·수영장",
+        "사내 어린이집",
+        "주택자금 저금리 대출",
+        "스톡옵션·RSU",
+        "유연근무제"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.7점 — '복지·기술 환경 우수, 성과 압박은 팀마다 상이'"
+    }
   },
   {
     "name": "넥슨코리아",
@@ -2820,7 +3368,43 @@
       "[프라시아 전기] 서버 프로그래머",
       "[플랫폼본부] 던파시너지실 AI 워크플로우 엔지니어 (계약직)",
       "[플랫폼본부] AI Hub실 AI 백엔드 엔지니어"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "강대현 공동대표 — 2004년 넥슨 입사·내부 성장, 던파·인텔리전스랩스 총괄 출신 / 김정욱 공동대표 — 중앙일보 출신, CCO 역임",
+      "leadership_style": "'넥슨다운 문화' 정착, 창립 30주년 글로벌 도약, 게임성·창의성 중심",
+      "core_values": [
+        "창의성(Creativity)",
+        "도전(Challenge)",
+        "상생(Coexistence)"
+      ],
+      "notable_quotes": "\"구성원 및 사회와 함께 성장하는 회사 — 넥슨만의 문화를 정착시키겠다\" — 김정욱 공동대표"
+    },
+    "organization": {
+      "structure_type": "스튜디오제 (IP별 독립 스튜디오)",
+      "key_divisions": [
+        "메이플스토리",
+        "던전앤파이터",
+        "피파온라인",
+        "인텔리전스랩스(AI)",
+        "글로벌"
+      ],
+      "engineering_culture": "스튜디오 자율 개발, AI NPC 연구(인텔리전스랩스), 게임 잼 문화",
+      "work_style": "하이브리드 (주 3일 출근)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "스튜디오 자율 + 퍼블리싱 협의"
+    },
+    "employee_experience": {
+      "onboarding": "게임 체험 + 팀 배치 온보딩, 멘토링",
+      "growth_support": "GDC 등 글로벌 게임 컨퍼런스 지원, 사내 기술 교육",
+      "notable_benefits": [
+        "사내 게임 무료 플레이",
+        "복지 포인트",
+        "식비 지원",
+        "주택자금 지원",
+        "동호회 활동비"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.6점 — '안정적 복지·게임 산업 프리미엄, 레거시 IP 의존도 우려'"
+    }
   },
   {
     "name": "넷마블",
@@ -3151,7 +3735,95 @@
       "[당근서비스] Sr. L&amp;D Manager(교육), 성장문화팀",
       "[당근서비스] CX Specialist, 사업심사팀",
       "[당근서비스] CX Specialist, 페이팀"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": 541,
+      "employee_avg_salary": 82927911,
+      "employee_avg_tenure": "1년 9개월"
+    },
+    "management_philosophy": {
+      "ceo_background": "황도연 대표(국내) / 김용현 대표(북미) — 각자대표 체제, 김용현은 삼성물산·네이버·카카오 거쳐 당근 공동창업",
+      "leadership_style": "지역 커뮤니티 철학, 소수 정예 자율 문화, '이웃과 연결' 미션 중심",
+      "core_values": [
+        "연결(Connection)",
+        "신뢰(Trust)",
+        "지역성(Local)"
+      ],
+      "notable_quotes": "\"페이스북 같은 글로벌 기업을 만드는 일은 수 세대에 걸쳐 해야 할 과제\" — 김용현 대표"
+    },
+    "organization": {
+      "structure_type": "스쿼드 기반 소규모 팀",
+      "key_divisions": [
+        "프로덕트",
+        "엔지니어링",
+        "비즈니스(광고·부동산)",
+        "글로벌",
+        "커뮤니티"
+      ],
+      "engineering_culture": "GitHub 기반 코드리뷰, 자율 기술 선택, 기술 블로그 활성화",
+      "work_style": "완전 원격 근무 가능 (하이브리드 선택제)",
+      "core_hours": "코어타임 없음 (완전 자율)",
+      "decision_making": "바텀업 — 팀 단위 자율 결정"
+    },
+    "employee_experience": {
+      "onboarding": "버디 매칭, 2주 온보딩 키트 + 제품 사용 체험",
+      "growth_support": "컨퍼런스·도서비 전액 지원, 해외 워크샵",
+      "notable_benefits": [
+        "완전 원격 근무(휴양지 근무 가능)",
+        "자율 출퇴근",
+        "최신 장비 지원",
+        "식비 지원",
+        "자기계발비"
+      ],
+      "glassdoor_sentiment": "잡플래닛 4.0점 — '자유로운 문화·좋은 동료, 작은 조직 특성상 방향성 변화 잦음'"
+    }
   },
   {
     "name": "두나무",
@@ -3313,7 +3985,95 @@
       "두나무 계열사 바이버 사무보조 채용",
       "(주)크리에이티브그룹 아더  신입/경력  BTL 마케팅 기획자 채용",
       "[삼성DS] 대기업 사내 피트니스센터 사무보조 직원 모집"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 1709580837278
+        },
+        {
+          "year": 2023,
+          "amount": 986280323037
+        },
+        {
+          "year": 2022,
+          "amount": 1219393078300
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 1251756950839
+        },
+        {
+          "year": 2023,
+          "amount": 677714327692
+        },
+        {
+          "year": 2022,
+          "amount": 811371378457
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": 988170741835
+        },
+        {
+          "year": 2023,
+          "amount": 781191355738
+        },
+        {
+          "year": 2022,
+          "amount": 270907553506
+        }
+      ],
+      "total_assets": 14699309486110,
+      "total_debt": 8987279168731,
+      "debt_ratio": 157.3,
+      "revenue_growth_yoy": "+73.3%",
+      "profit_margin": "73.2%",
+      "employee_total": 647,
+      "employee_avg_salary": 193069174,
+      "employee_avg_tenure": "2.89"
+    },
+    "management_philosophy": {
+      "ceo_background": "송치형 회장(창업자) / 후임 CEO(2025년 7월 선임 예정) — 이석우 전 대표는 2025년 7월 건강 이유로 사임, 전 판사·회계사 출신 '3박자 인재' 후임 내정",
+      "leadership_style": "자긍심 기반 혁신 문화, 블록체인·가상자산 생태계 주도, UDC 컨퍼런스 무수익 운영",
+      "core_values": [
+        "혁신(Innovation)",
+        "신뢰(Trust)",
+        "성과(Performance)"
+      ],
+      "notable_quotes": "\"내가 멋진 서비스를 만들고, 의미 있는 일을 한다는 자긍심\" — 이석우 전 대표"
+    },
+    "organization": {
+      "structure_type": "기능조직 + 사업부 혼합",
+      "key_divisions": [
+        "업비트(가상자산거래소)",
+        "증권플러스",
+        "람다256(블록체인)",
+        "미술품(XXBLUE)",
+        "글로벌"
+      ],
+      "engineering_culture": "UDC(업비트 D 컨퍼런스) 매년 개최, 블록체인 기술 선도, 보안 중심 개발",
+      "work_style": "자율 근무 (성과 중심)",
+      "core_hours": "코어타임 없음",
+      "decision_making": "성과 중심 분산 자율"
+    },
+    "employee_experience": {
+      "onboarding": "가상자산·블록체인 도메인 교육 + 팀 배치",
+      "growth_support": "UDC 발표 기회, 블록체인 컨퍼런스 지원",
+      "notable_benefits": [
+        "평균 연봉 1억 4,647만원(업계 최상위)",
+        "복장 자유",
+        "성과 중심 보상",
+        "자율 근무",
+        "점심 식사 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.9점 — '업계 최고 연봉·자유로운 문화, 가상자산 시장 변동성 리스크'"
+    }
   },
   {
     "name": "딥마인드코리아",
@@ -3636,7 +4396,95 @@
       "[라인플러스] 문구 영남,호남 영업 담당자 모집",
       "[라인플러스] 문구 수도권 영업 소장 모집",
       "[라인플러스] 문구 해외영업부  채용"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    },
+    "management_philosophy": {
+      "ceo_background": "이은정 대표(2021년 취임) — 라인 내부 출신, 글로벌 IT 서비스 경력",
+      "leadership_style": "글로벌 성과 중심, 수평적 젊은 조직, 하이브리드 워크 선도",
+      "core_values": [
+        "글로벌(Global)",
+        "혁신(Innovation)",
+        "다양성(Diversity)"
+      ],
+      "notable_quotes": "\"글로벌 기준의 서비스와 조직 문화로 아시아 No.1 메신저를 이끈다\""
+    },
+    "organization": {
+      "structure_type": "글로벌 매트릭스 (한국·일본·대만·태국 거점)",
+      "key_divisions": [
+        "LINE앱",
+        "LINE Pay",
+        "LINE Music",
+        "AI/데이터",
+        "인프라"
+      ],
+      "engineering_culture": "하이브리드 워크 공식화(2021), 일본 LINE 연계 기술 공유, 글로벌 코드리뷰",
+      "work_style": "하이브리드 선택제 (재택·휴양지 원격 가능)",
+      "core_hours": "코어타임 팀 협의",
+      "decision_making": "글로벌 본사(일본) 연계 + 한국 법인 자율"
+    },
+    "employee_experience": {
+      "onboarding": "글로벌 팀 소개 + 서비스 체험 온보딩",
+      "growth_support": "외국어 교육 지원, 글로벌 이동 기회, 컨퍼런스 지원",
+      "notable_benefits": [
+        "콘도·리조트 지원",
+        "사내 어린이집",
+        "복지카드",
+        "커피 무료 제공",
+        "자유 복장"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.7점 — '글로벌 근무 환경·좋은 복지, 네이버-소프트뱅크 지배구조 불확실성'"
+    }
   },
   {
     "name": "뤼튼",
@@ -3793,7 +4641,59 @@
       "AI Contents Creator",
       "제품전략실 인턴",
       "Mobile App Engineer 인턴"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    }
   },
   {
     "name": "리디",
@@ -4965,7 +5865,95 @@
       "[MUSINSA] 운영 MD (무신사 슈즈 오프라인)",
       "Account Manager (무신사스튜디오)",
       "물류 수출입 운영 담당자 (MUSINSA JAPAN)"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 11173114614
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": 2154760991856,
+      "total_debt": 1391956201558,
+      "debt_ratio": 182.5,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": 1604,
+      "employee_avg_salary": 92110972,
+      "employee_avg_tenure": "2년 5개월"
+    },
+    "management_philosophy": {
+      "ceo_background": "조만호 총괄대표(창업자, 2024년 복귀) + 박준모 각자대표 — 공동 경영 체제",
+      "leadership_style": "선택과 집중(비핵심 사업 정리), IPO 준비, 패션 플랫폼 본업 강화",
+      "core_values": [
+        "패션(Fashion)",
+        "커뮤니티(Community)",
+        "성장(Growth)"
+      ],
+      "notable_quotes": "\"국내 최대 패션 플랫폼에서 글로벌 패션 생태계로 — 10조 밸류를 향한 도전\""
+    },
+    "organization": {
+      "structure_type": "기능조직 + 사업부 혼합",
+      "key_divisions": [
+        "무신사스토어",
+        "무신사스탠다드(PB)",
+        "솔드아웃",
+        "무신사글로벌",
+        "개발"
+      ],
+      "engineering_culture": "무신사 기술 블로그 운영(Medium), 개발 문화 공유, 트래픽 대응 기술 노하우",
+      "work_style": "하이브리드 (주 3일 출근)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "창업자 복귀 후 톱다운 강화"
+    },
+    "employee_experience": {
+      "onboarding": "신규 입사자 OJT, 팀 배치 후 온보딩 키트",
+      "growth_support": "사내 기술 세미나, 컨퍼런스 지원, 도서비",
+      "notable_benefits": [
+        "퇴직연금",
+        "인센티브제",
+        "저녁 식사 제공",
+        "워크샵 지원",
+        "복지 논란 이후 개선 중"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.3점 — '패션 업계 독보적 지위, 복지 축소 논란 이후 개선 중'"
+    }
   },
   {
     "name": "밀리의서재",
@@ -5682,7 +6670,59 @@
       "[삼성SDS]그룹 인사시스템 운영지원(인사,급여,4대보험 경력)",
       "[삼성SDS자회사] (주)시큐아이 경력사원 채용(기획)",
       "[삼성SDS자회사] (주)시큐아이 경력사원 채용(보안컨설팅)"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 5447352234920
+        },
+        {
+          "year": 2023,
+          "amount": 5166838958290
+        },
+        {
+          "year": 2022,
+          "amount": 5174554117525
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 507423177759
+        },
+        {
+          "year": 2023,
+          "amount": 351192242730
+        },
+        {
+          "year": 2022,
+          "amount": 296153499254
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": 1131927184412
+        },
+        {
+          "year": 2023,
+          "amount": 409508814562
+        },
+        {
+          "year": 2022,
+          "amount": 530145587281
+        }
+      ],
+      "total_assets": 8373409692440,
+      "total_debt": 1391589962303,
+      "debt_ratio": 19.9,
+      "revenue_growth_yoy": "+5.4%",
+      "profit_margin": "9.3%",
+      "employee_total": 22774,
+      "employee_avg_salary": 67888557,
+      "employee_avg_tenure": "16.7"
+    }
   },
   {
     "name": "삼성전자",
@@ -5861,7 +6901,95 @@
       "삼성전자광주어린이집 미술 전담 교사  채용",
       "어린이집 조리사 채용",
       "물류관리.재고관리 및 배송."
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 209052241000000
+        },
+        {
+          "year": 2023,
+          "amount": 170374090000000
+        },
+        {
+          "year": 2022,
+          "amount": 211867483000000
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 12361034000000
+        },
+        {
+          "year": 2023,
+          "amount": -11526297000000
+        },
+        {
+          "year": 2022,
+          "amount": 25319329000000
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": 23582565000000
+        },
+        {
+          "year": 2023,
+          "amount": 25397099000000
+        },
+        {
+          "year": 2022,
+          "amount": 25418778000000
+        }
+      ],
+      "total_assets": 324966127000000,
+      "total_debt": 88569470000000,
+      "debt_ratio": 37.5,
+      "revenue_growth_yoy": "+22.7%",
+      "profit_margin": "5.9%",
+      "employee_total": 258960,
+      "employee_avg_salary": 62832553,
+      "employee_avg_tenure": "12.2"
+    },
+    "management_philosophy": {
+      "ceo_background": "한종희 부회장(DX부문장) + 전영현 부회장(DS부문장) — 투톱 체제, 한종희는 삼성 TV 사업 30년 베테랑",
+      "leadership_style": "기술 품질 중심, 성별·국적 불문 역량 기반 발탁, 품질혁신위원회 신설",
+      "core_values": [
+        "인재제일",
+        "최고지향",
+        "변화선도"
+      ],
+      "notable_quotes": "\"다치면서 만들어야 할 반도체는 없다 — 안전과 품질이 최우선이다\" — 삼성전자 경영 원칙"
+    },
+    "organization": {
+      "structure_type": "사업부제 (DX부문·DS부문·Harman)",
+      "key_divisions": [
+        "MX(스마트폰)",
+        "VD/DA(TV·가전)",
+        "반도체(메모리·파운드리)",
+        "디스플레이",
+        "Harman"
+      ],
+      "engineering_culture": "사내 기술 컨퍼런스 SAMSUNG TECH, 글로벌 R&D 센터 연계, 특허 출원 장려",
+      "work_style": "주 5일 출근 (일부 R&D 직군 하이브리드)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "톱다운 (사업부장→팀장→담당) + 연구 직군 자율"
+    },
+    "employee_experience": {
+      "onboarding": "삼성 GSAT + 직무별 교육 3~6개월, 멘토링 제도",
+      "growth_support": "해외 연수(지역전문가 제도), 사내 대학원 학비 지원, 특허 인센티브",
+      "notable_benefits": [
+        "지역전문가 파견(1년 해외 거주·탐방)",
+        "사내 어린이집·초등학교",
+        "종합 의료 지원",
+        "저금리 주택자금 대출",
+        "임직원 할인"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.5점 — '안정적 복지·글로벌 브랜드 프리미엄, 수직적 문화·느린 의사결정'"
+    }
   },
   {
     "name": "세일즈포스코리아",
@@ -7035,7 +8163,95 @@
       "Front-End Engineering",
       "[Yanolja NEXT] Software Engineer - Search",
       "Global Leader, Product Management - Enterprise Solution"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 307167114000
+        },
+        {
+          "year": 2023,
+          "amount": 375357291340
+        },
+        {
+          "year": 2022,
+          "amount": 363958945287
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 17885800000
+        },
+        {
+          "year": 2023,
+          "amount": 32150644939
+        },
+        {
+          "year": 2022,
+          "amount": 52423798934
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": -52441518440
+        },
+        {
+          "year": 2022,
+          "amount": 18401471999
+        }
+      ],
+      "total_assets": 1593908650000,
+      "total_debt": 221363416000,
+      "debt_ratio": 16.1,
+      "revenue_growth_yoy": "-18.2%",
+      "profit_margin": "5.8%",
+      "employee_total": 207,
+      "employee_avg_salary": 379521739,
+      "employee_avg_tenure": "1.7"
+    },
+    "management_philosophy": {
+      "ceo_background": "이수진 대표 — 숙박업소 청소부 출신 자수성가 창업가, 야놀자 창립자, 유일한 여성 유니콘 창업자",
+      "leadership_style": "테크 올인·AI 중심 혁신, 고객·기술·조직 3축 혁신, 글로벌 확장",
+      "core_values": [
+        "혁신(Innovation)",
+        "고객(Customer)",
+        "기술(Tech)"
+      ],
+      "notable_quotes": "\"누구나 마음 편히 즐길 수 있게 — 여행 여가 산업의 패러다임을 바꾼다\" — 이수진 대표"
+    },
+    "organization": {
+      "structure_type": "테크 중심 기능조직 + 글로벌 사업부",
+      "key_divisions": [
+        "야놀자클라우드(B2B)",
+        "여기어때·숙박앱",
+        "글로벌SaaS",
+        "데이터/AI",
+        "인터파크"
+      ],
+      "engineering_culture": "R&D 역량 강화·글로벌 인재 영입, AI·빅데이터 기반 여행 솔루션",
+      "work_style": "하이브리드",
+      "core_hours": "코어타임 팀 협의",
+      "decision_making": "CEO 주도 비전 + 사업부 자율"
+    },
+    "employee_experience": {
+      "onboarding": "여가 서비스 체험 + 팀 온보딩",
+      "growth_support": "직무 관련 도서비(마이북), 컨퍼런스 지원",
+      "notable_benefits": [
+        "연 100만원 NOL 포인트(여가 사용)",
+        "5주년 추가 50만원",
+        "점심 식대 연 288만원",
+        "heyy홍천 워크샵 시설",
+        "생일 축하금·조기퇴근권"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.5점 — '독특한 여가 복지·창업자 드라마, 기업 방향 전환 잦아 혼란 있음'"
+    }
   },
   {
     "name": "업스테이지",
@@ -7640,7 +8856,43 @@
       "[NC][계약직][AION2] 캐릭터 모델러 모집",
       "[NC][AION2] 클라이언트 프로그래머 모집",
       "[NC][단기계약직][리니지W] 배경 에셋제작 지원자 모집"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "박병무 공동대표 — 변호사·M&A 전문가·PEF 출신, 2024년 3월 취임, 구조조정 전문가",
+      "leadership_style": "고강도 체질 개선·15% 인력 조정, 게임 평가위원회 신설, '벤처 정신으로 다시 시작'",
+      "core_values": [
+        "게이머 신뢰",
+        "게임성",
+        "혁신"
+      ],
+      "notable_quotes": "\"2024년은 준비, 2025년은 완전히 새로운 엔씨소프트를 보여주겠다\" — 박병무 대표"
+    },
+    "organization": {
+      "structure_type": "스튜디오제 전환 + 기능조직",
+      "key_divisions": [
+        "리니지 시리즈",
+        "TL(쓰론앤리버티)",
+        "프로젝트G",
+        "AI연구(NC AI Lab)",
+        "배틀크러쉬"
+      ],
+      "engineering_culture": "NC AI Lab 운영, 게임 평가위원회 도입, 개발 효율화 체계 구축",
+      "work_style": "하이브리드 (판교 본사 중심)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "공동대표 체제 + 게임별 개발팀 자율"
+    },
+    "employee_experience": {
+      "onboarding": "게임 도메인 교육 + 팀 배치",
+      "growth_support": "GDC 지원, AI 교육, 사내 기술 컨퍼런스",
+      "notable_benefits": [
+        "판교 엔씨 타워 최상급 사옥",
+        "사내 식당·카페",
+        "헬스장·수영장",
+        "자녀 학자금 지원",
+        "의료 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.4점 — '최상급 복지 시설, 구조조정·실적 부진 불안감 공존'"
+    }
   },
   {
     "name": "오픈AI코리아",
@@ -8085,7 +9337,95 @@
       "인사기획/운영(평가/보상)",
       "CX운영(CX시스템 운영관리)",
       "배달의민족 공식협력사(SM) 영업사원으로 함께 성장해요"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    },
+    "management_philosophy": {
+      "ceo_background": "현재 CEO — DH(Delivery Hero) 산하 경영 체제, 김범준 전 대표는 2024년 네이버 COO로 이동",
+      "leadership_style": "개발 문화·시스템 안정성 최우선, 잡담·소통 활성화 통한 수평 문화",
+      "core_values": [
+        "고객 중심",
+        "기술력",
+        "즐거운 일터"
+      ],
+      "notable_quotes": "\"이제 우아한형제들은 개발문화가 가장 중요한 회사 — 시스템 안정성이 사업의 핵심\" — 김범준 전 대표"
+    },
+    "organization": {
+      "structure_type": "스쿼드 기반 애자일",
+      "key_divisions": [
+        "배달의민족 앱",
+        "배민라이더스",
+        "배민상회",
+        "배민아카데미",
+        "B마트"
+      ],
+      "engineering_culture": "우아콘(연간 개발 컨퍼런스), 우아한테크코스(개발자 양성), 페어프로그래밍·코드리뷰",
+      "work_style": "하이브리드 (주 3일 출근)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "바텀업 스쿼드 자율 + C레벨 전략 방향"
+    },
+    "employee_experience": {
+      "onboarding": "우아한테크코스 연계 개발자 온보딩, 팀별 버디 제도",
+      "growth_support": "우아콘 발표 장려, 컨퍼런스 지원, 사내 스터디 그룹 지원",
+      "notable_benefits": [
+        "송파구 본사 식당 지원",
+        "자율복장",
+        "성과 인센티브",
+        "야근 택시비 지원",
+        "동호회 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.6점 — '개발 문화 우수·좋은 동료, DH 편입 이후 글로벌 기준 압박 증가'"
+    }
   },
   {
     "name": "원티드랩",
@@ -8895,7 +10235,95 @@
       "카카오프렌즈 온라인스토어 AMD_어시스턴트",
       "카카오맵 콘텐츠 마케팅&amp;기획_어시스턴트",
       "카카오맵 학습 데이터 구축_어시스턴트"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 2595101463079
+        },
+        {
+          "year": 2023,
+          "amount": 2499599504613
+        },
+        {
+          "year": 2022,
+          "amount": 2456590805969
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 491969958048
+        },
+        {
+          "year": 2023,
+          "amount": 533021659728
+        },
+        {
+          "year": 2022,
+          "amount": 543978112016
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": 38156547286
+        },
+        {
+          "year": 2023,
+          "amount": 102108806408
+        },
+        {
+          "year": 2022,
+          "amount": 1611790174060
+        }
+      ],
+      "total_assets": 11607486907579,
+      "total_debt": 4393161976843,
+      "debt_ratio": 60.9,
+      "revenue_growth_yoy": "+3.8%",
+      "profit_margin": "19.0%",
+      "employee_total": 4028,
+      "employee_avg_salary": 101657894,
+      "employee_avg_tenure": "5년 6개월"
+    },
+    "management_philosophy": {
+      "ceo_background": "정신아 대표 — 카카오벤처스 대표 출신, 연세대 경영학 + 하버드 MBA",
+      "leadership_style": "전문경영인 리더십 선언, 조직 효율화·AI 일상화 중심의 실용적 경영",
+      "core_values": [
+        "신뢰(Trust)",
+        "다양성(Diversity)",
+        "기술혁신(Innovation)"
+      ],
+      "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
+    },
+    "organization": {
+      "structure_type": "사업부제 + 계열사 분리 구조",
+      "key_divisions": [
+        "카카오톡 플랫폼",
+        "AI/데이터",
+        "커머스",
+        "콘텐츠",
+        "금융(카카오페이·뱅크)"
+      ],
+      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
+      "work_style": "하이브리드 (주 3일 출근 기준)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+    },
+    "employee_experience": {
+      "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
+      "growth_support": "컨퍼런스 참가비·도서비 지원, 사내 기술 교육 플랫폼",
+      "notable_benefits": [
+        "선택적 근로시간제",
+        "리프레시 휴가",
+        "사내 카페테리아 식사 지원",
+        "주택자금 대출 지원",
+        "자녀 돌봄 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    }
   },
   {
     "name": "카카오뱅크",
@@ -9078,7 +10506,95 @@
       "금융업무 지원 담당자 (계약직)",
       "서비스 기획자 - 여신서비스",
       "AI 상담 챗봇 운영 어시스턴트 (체험형 인턴)"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 2399865000000
+        },
+        {
+          "year": 2023,
+          "amount": 2048170000000
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": 62805282000000,
+      "total_debt": 56265151000000,
+      "debt_ratio": 860.3,
+      "revenue_growth_yoy": "+17.2%",
+      "profit_margin": null,
+      "employee_total": 1663,
+      "employee_avg_salary": 113286229,
+      "employee_avg_tenure": "3년 6개월"
+    },
+    "management_philosophy": {
+      "ceo_background": "정신아 대표 — 카카오벤처스 대표 출신, 연세대 경영학 + 하버드 MBA",
+      "leadership_style": "전문경영인 리더십 선언, 조직 효율화·AI 일상화 중심의 실용적 경영",
+      "core_values": [
+        "신뢰(Trust)",
+        "다양성(Diversity)",
+        "기술혁신(Innovation)"
+      ],
+      "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
+    },
+    "organization": {
+      "structure_type": "사업부제 + 계열사 분리 구조",
+      "key_divisions": [
+        "카카오톡 플랫폼",
+        "AI/데이터",
+        "커머스",
+        "콘텐츠",
+        "금융(카카오페이·뱅크)"
+      ],
+      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
+      "work_style": "하이브리드 (주 3일 출근 기준)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+    },
+    "employee_experience": {
+      "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
+      "growth_support": "컨퍼런스 참가비·도서비 지원, 사내 기술 교육 플랫폼",
+      "notable_benefits": [
+        "선택적 근로시간제",
+        "리프레시 휴가",
+        "사내 카페테리아 식사 지원",
+        "주택자금 대출 지원",
+        "자녀 돌봄 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    }
   },
   {
     "name": "카카오스타일",
@@ -9233,7 +10749,43 @@
       "[카카오스타일]지그재그 브랜드패션 AMD 채용(판교/재택병행)",
       "[지그재그/재택] 카카오스타일 본사 브랜드패션 AMD 채용",
       "[ 메타엠/연봉협의 ] 지그재그 고객센터 운영실장 채용"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "정신아 대표 — 카카오벤처스 대표 출신, 연세대 경영학 + 하버드 MBA",
+      "leadership_style": "전문경영인 리더십 선언, 조직 효율화·AI 일상화 중심의 실용적 경영",
+      "core_values": [
+        "신뢰(Trust)",
+        "다양성(Diversity)",
+        "기술혁신(Innovation)"
+      ],
+      "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
+    },
+    "organization": {
+      "structure_type": "사업부제 + 계열사 분리 구조",
+      "key_divisions": [
+        "카카오톡 플랫폼",
+        "AI/데이터",
+        "커머스",
+        "콘텐츠",
+        "금융(카카오페이·뱅크)"
+      ],
+      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
+      "work_style": "하이브리드 (주 3일 출근 기준)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+    },
+    "employee_experience": {
+      "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
+      "growth_support": "컨퍼런스 참가비·도서비 지원, 사내 기술 교육 플랫폼",
+      "notable_benefits": [
+        "선택적 근로시간제",
+        "리프레시 휴가",
+        "사내 카페테리아 식사 지원",
+        "주택자금 대출 지원",
+        "자녀 돌봄 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    }
   },
   {
     "name": "카카오엔터테인먼트",
@@ -9394,7 +10946,95 @@
       "티켓플랫폼팀 멜론티켓 티켓 발권/배송 담당 어시스턴트",
       "Global Live Business &amp; IP Strategy (Lead 급)",
       "[KAKAO ENT.] 글링크미디어(경력) SA/DA 퍼포먼스 마케터 채용"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    },
+    "management_philosophy": {
+      "ceo_background": "정신아 대표 — 카카오벤처스 대표 출신, 연세대 경영학 + 하버드 MBA",
+      "leadership_style": "전문경영인 리더십 선언, 조직 효율화·AI 일상화 중심의 실용적 경영",
+      "core_values": [
+        "신뢰(Trust)",
+        "다양성(Diversity)",
+        "기술혁신(Innovation)"
+      ],
+      "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
+    },
+    "organization": {
+      "structure_type": "사업부제 + 계열사 분리 구조",
+      "key_divisions": [
+        "카카오톡 플랫폼",
+        "AI/데이터",
+        "커머스",
+        "콘텐츠",
+        "금융(카카오페이·뱅크)"
+      ],
+      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
+      "work_style": "하이브리드 (주 3일 출근 기준)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+    },
+    "employee_experience": {
+      "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
+      "growth_support": "컨퍼런스 참가비·도서비 지원, 사내 기술 교육 플랫폼",
+      "notable_benefits": [
+        "선택적 근로시간제",
+        "리프레시 휴가",
+        "사내 카페테리아 식사 지원",
+        "주택자금 대출 지원",
+        "자녀 돌봄 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    }
   },
   {
     "name": "카카오페이",
@@ -9558,7 +11198,95 @@
       "[어시스턴트] 오프라인 결제 서비스 운영 지원",
       "[어시스턴트] 콘텐츠 마케팅 업무 지원",
       "[어시스턴트] 대출 마케팅 업무 지원"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 618855436828
+        },
+        {
+          "year": 2023,
+          "amount": 555634950638
+        },
+        {
+          "year": 2022,
+          "amount": 482768977272
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": 32828133824
+        },
+        {
+          "year": 2022,
+          "amount": 33207554252
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": 66103045007
+        },
+        {
+          "year": 2022,
+          "amount": 96341815766
+        }
+      ],
+      "total_assets": 3360852690170,
+      "total_debt": 1238925019289,
+      "debt_ratio": 58.4,
+      "revenue_growth_yoy": "+11.4%",
+      "profit_margin": null,
+      "employee_total": 1198,
+      "employee_avg_salary": 83824707,
+      "employee_avg_tenure": "3년 4개월"
+    },
+    "management_philosophy": {
+      "ceo_background": "정신아 대표 — 카카오벤처스 대표 출신, 연세대 경영학 + 하버드 MBA",
+      "leadership_style": "전문경영인 리더십 선언, 조직 효율화·AI 일상화 중심의 실용적 경영",
+      "core_values": [
+        "신뢰(Trust)",
+        "다양성(Diversity)",
+        "기술혁신(Innovation)"
+      ],
+      "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
+    },
+    "organization": {
+      "structure_type": "사업부제 + 계열사 분리 구조",
+      "key_divisions": [
+        "카카오톡 플랫폼",
+        "AI/데이터",
+        "커머스",
+        "콘텐츠",
+        "금융(카카오페이·뱅크)"
+      ],
+      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
+      "work_style": "하이브리드 (주 3일 출근 기준)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+    },
+    "employee_experience": {
+      "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
+      "growth_support": "컨퍼런스 참가비·도서비 지원, 사내 기술 교육 플랫폼",
+      "notable_benefits": [
+        "선택적 근로시간제",
+        "리프레시 휴가",
+        "사내 카페테리아 식사 지원",
+        "주택자금 대출 지원",
+        "자녀 돌봄 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    }
   },
   {
     "name": "카카오페이증권",
@@ -9713,7 +11441,43 @@
       "[카카오페이증권] IT구매 업무 지원 담당자(계약직)",
       "[영등포역] 카카오페이증권 콜센터 관리자 (상담실장) 모집 -MM",
       "[엔디소프트] 웹개발자(PHP&amp;MySQL) 신입/경력 모집 공고"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "정신아 대표 — 카카오벤처스 대표 출신, 연세대 경영학 + 하버드 MBA",
+      "leadership_style": "전문경영인 리더십 선언, 조직 효율화·AI 일상화 중심의 실용적 경영",
+      "core_values": [
+        "신뢰(Trust)",
+        "다양성(Diversity)",
+        "기술혁신(Innovation)"
+      ],
+      "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
+    },
+    "organization": {
+      "structure_type": "사업부제 + 계열사 분리 구조",
+      "key_divisions": [
+        "카카오톡 플랫폼",
+        "AI/데이터",
+        "커머스",
+        "콘텐츠",
+        "금융(카카오페이·뱅크)"
+      ],
+      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
+      "work_style": "하이브리드 (주 3일 출근 기준)",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+    },
+    "employee_experience": {
+      "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
+      "growth_support": "컨퍼런스 참가비·도서비 지원, 사내 기술 교육 플랫폼",
+      "notable_benefits": [
+        "선택적 근로시간제",
+        "리프레시 휴가",
+        "사내 카페테리아 식사 지원",
+        "주택자금 대출 지원",
+        "자녀 돌봄 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    }
   },
   {
     "name": "컬리",
@@ -10144,7 +11908,95 @@
       "[쿠팡이츠서비스] CS/CX 부문별 상시 채용",
       "[쿠팡로지스틱스서비스] 캠프 물류 장비 개발 및 운영 담당자",
       "[쿠팡] 셀러 서포트 컨설턴트 (계약직/재택)"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    },
+    "management_philosophy": {
+      "ceo_background": "박대준 대표 — 쿠팡 창립 멤버 출신, 전 쿠팡 CTO, 내부 승진형 리더 (2025년 단독 대표 체제)",
+      "leadership_style": "고객 중심(Wow the Customer), 데이터 기반 의사결정, 15가지 리더십 원칙",
+      "core_values": [
+        "Wow the Customer",
+        "Influence without Authority",
+        "Think Big"
+      ],
+      "notable_quotes": "\"모든 의사결정의 기준은 '고객에게 놀라운 경험을 주는가'이다\" — 쿠팡 리더십 원칙"
+    },
+    "organization": {
+      "structure_type": "애자일 스쿼드 + 기능조직 혼합",
+      "key_divisions": [
+        "이커머스",
+        "로켓배송(물류)",
+        "쿠팡이츠",
+        "쿠팡플레이",
+        "파이낸셜"
+      ],
+      "engineering_culture": "국내 최초 애자일 도입 기업 중 하나, 닉네임 호칭 문화, 데이터 기반 A/B 테스트",
+      "work_style": "주 5일 출근 (tech 직군 일부 하이브리드)",
+      "core_hours": "코어타임 10:00~15:00",
+      "decision_making": "바텀업 + 리더십 원칙 기반 분산 의사결정"
+    },
+    "employee_experience": {
+      "onboarding": "잡레벨(Job Level) 기반 온보딩, 글로벌 기준 역량 교육",
+      "growth_support": "글로벌 이동 기회, 사내 교육 플랫폼, 영어 교육 지원",
+      "notable_benefits": [
+        "쿠팡케어(유급 건강관리 프로그램)",
+        "닉네임 수평 문화",
+        "글로벌 커리어 경로",
+        "성과 기반 보상",
+        "사내 식당"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.3점 — '글로벌 성장 경험 우수, 복지 수준은 IT 대비 낮다는 평'"
+    }
   },
   {
     "name": "크래프톤",
@@ -10297,7 +12149,43 @@
       "[Infra Div.] IT 구매 및 경영 지원 담당자 (2년 이상 / 계약직)",
       "[Finance Div.] 공시 담당자 (3년 이상 / 계약직)",
       "H5사업팀 사업개발"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "김창한 대표 — 크래프톤 내부 출신, PUBG 개발 총괄 → 대표 승진, 게임 개발자 출신 CEO",
+      "leadership_style": "'Pioneer the Undiscovered' 비전, 제작 명가 DNA, AI 퍼스트 전환",
+      "core_values": [
+        "도전(Pioneer)",
+        "창의성",
+        "글로벌"
+      ],
+      "notable_quotes": "\"게임업계 특성상 자율 환경에서 경쟁력이 나온다 — 그에 맞는 제도를 택한다\" — 김창한 대표"
+    },
+    "organization": {
+      "structure_type": "스튜디오제 (PUBG·인디·AI 스튜디오 분리)",
+      "key_divisions": [
+        "PUBG스튜디오",
+        "라이징윙스",
+        "블루홀스튜디오",
+        "인도스튜디오",
+        "AI연구"
+      ],
+      "engineering_culture": "GPU 클러스터 구축·AI 퍼스트, 엔비디아 협업 CPC 개발, 스튜디오 자율",
+      "work_style": "하이브리드 (스튜디오별 자율)",
+      "core_hours": "코어타임 스튜디오별 협의",
+      "decision_making": "스튜디오 자율 + CEO 비전 방향 정렬"
+    },
+    "employee_experience": {
+      "onboarding": "PUBG/게임 도메인 온보딩, 스튜디오 배치",
+      "growth_support": "GDC·글로벌 컨퍼런스 지원, AI 교육, 사내 기술 세미나",
+      "notable_benefits": [
+        "스톡옵션·성과 인센티브",
+        "글로벌 근무 기회",
+        "식비 지원",
+        "자율 근무 환경",
+        "복지 포인트"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.8점 — 'PUBG 글로벌 성과·높은 연봉, 원툴 의존 리스크 인식'"
+    }
   },
   {
     "name": "클래스101",
@@ -10742,7 +12630,95 @@
       "ML Engineer [Commerce]",
       "ML Manager",
       "AI Engineer(Serving)"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": 587050896385
+        },
+        {
+          "year": 2023,
+          "amount": 336172173673
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": 11515328330
+        },
+        {
+          "year": 2023,
+          "amount": -108553048744
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": 48061623458
+        },
+        {
+          "year": 2023,
+          "amount": -85732380300
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": 1805504869546,
+      "total_debt": 972038752410,
+      "debt_ratio": 116.6,
+      "revenue_growth_yoy": "+74.6%",
+      "profit_margin": "2.0%",
+      "employee_total": 1126,
+      "employee_avg_salary": 112825044,
+      "employee_avg_tenure": "1년 9개월"
+    },
+    "management_philosophy": {
+      "ceo_background": "이승건 대표 — 연세대 치의학과 졸업 후 8번의 사업 실패를 거쳐 토스 창업, 치과의사 출신 창업가",
+      "leadership_style": "DRI(직접 책임자) 체계, '스포츠팀' 비유 고성과 조직, 무타협 채용 원칙",
+      "core_values": [
+        "Aim Higher(높은 기준 추구)",
+        "Mission Over Individual(팀 미션 우선)",
+        "Move Fast(빠른 실행)"
+      ],
+      "notable_quotes": "\"우리는 가족이 아닌 스포츠팀이다 — 최고의 선수들이 모여 최고의 성과를 내는 팀\" — 이승건 대표"
+    },
+    "organization": {
+      "structure_type": "사일로(Silo) + 독립 팀 구조",
+      "key_divisions": [
+        "토스뱅크",
+        "토스증권",
+        "토스페이먼츠",
+        "토스인슈어런스",
+        "토스플레이스"
+      ],
+      "engineering_culture": "DRI 기반 자율 의사결정, 코드리뷰 필수, 토스 NEXT 신입 개발자 양성 프로그램",
+      "work_style": "주 5일 출근 (일부 직군 하이브리드)",
+      "core_hours": "코어타임 있음 (팀별 협의)",
+      "decision_making": "바텀업 — DRI가 실무 단위에서 최종 결정"
+    },
+    "employee_experience": {
+      "onboarding": "토스 문화·핵심가치 집중 교육 후 팀 배치, 온보딩 버디 제도",
+      "growth_support": "컨퍼런스 전액 지원, 도서비 무제한, 해외 연수 기회",
+      "notable_benefits": [
+        "업계 최상위 연봉",
+        "스톡옵션",
+        "점심·저녁 식사 제공",
+        "최신 장비 지원",
+        "팀별 워크샵 비용 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.8점 — '높은 연봉·성장 환경, 고강도 업무·높은 기준이 양날의 검'"
+    }
   },
   {
     "name": "토스랩",
@@ -11021,7 +12997,95 @@
       "[Business] 카드 상품 Manager",
       "[Business] 여신 상품 Manager (기업여신 심사)",
       "[Business] WM 상품 Manager"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    },
+    "management_philosophy": {
+      "ceo_background": "이은미 대표 — HSBC 홍콩 CFO·아태 16개국 총괄, 도이치은행 서울 CFO 출신 글로벌 금융 전문가, 2026년 연임 확정",
+      "leadership_style": "실행형 리더십·흑자 전환 주도, 고객 관점 문제 해결, 투명성·신뢰 기반 조직",
+      "core_values": [
+        "고객 중심",
+        "신뢰",
+        "기술 내재화"
+      ],
+      "notable_quotes": "\"변하지 않는 금융의 본질은 신뢰 — 모든 문제를 고객 관점에서 풀겠다\" — 이은미 대표"
+    },
+    "organization": {
+      "structure_type": "기능조직 + 개발자 중심 애자일",
+      "key_divisions": [
+        "여신",
+        "수신·외환",
+        "플랫폼개발",
+        "AI/데이터",
+        "리스크"
+      ],
+      "engineering_culture": "기술 내재화 추구, 생성형 AI 내부 업무 자동화(4건 혁신금융서비스), 개발자 비중 높음",
+      "work_style": "하이브리드",
+      "core_hours": "코어타임 10:00~16:00",
+      "decision_making": "바텀업 + CEO 중심 전략 결정"
+    },
+    "employee_experience": {
+      "onboarding": "토스 공통 온보딩 + 금융 규제 교육",
+      "growth_support": "AI 역량 교육, 금융 전문 자격증 지원",
+      "notable_benefits": [
+        "토스 공통 복지 패키지",
+        "성과 인센티브",
+        "식비·교통비 지원",
+        "유연근무",
+        "도서비 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.9점 — '흑자 전환 모멘텀·성장 기대감, 인터넷은행 규제 리스크'"
+    }
   },
   {
     "name": "토스증권",
@@ -11155,7 +13219,95 @@
       "Marketing Manager(Japan Creative)",
       "Retail Operations Manager (투자 권유 자문)",
       "IT Planning Manager"
-    ]
+    ],
+    "financial_deep": {
+      "revenue_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "operating_profit_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "net_income_3y": [
+        {
+          "year": 2024,
+          "amount": null
+        },
+        {
+          "year": 2023,
+          "amount": null
+        },
+        {
+          "year": 2022,
+          "amount": null
+        }
+      ],
+      "total_assets": null,
+      "total_debt": null,
+      "debt_ratio": null,
+      "revenue_growth_yoy": null,
+      "profit_margin": null,
+      "employee_total": null,
+      "employee_avg_salary": null,
+      "employee_avg_tenure": null
+    },
+    "management_philosophy": {
+      "ceo_background": "김규빈 대표 — 토스 내부 출신, 증권 서비스 빌드업 주도",
+      "leadership_style": "위대한 프로덕트 중심, 기술·문화 기반 조직 성장",
+      "core_values": [
+        "프로덕트 우선",
+        "기술 중심",
+        "고성과 문화"
+      ],
+      "notable_quotes": "\"위대한 프로덕트를 만들고, 그 바탕에 훌륭한 문화가 뒷받침 되어야 한다\" — 토스증권 CEO"
+    },
+    "organization": {
+      "structure_type": "스쿼드 기반 (전사 60~70% 개발 직군)",
+      "key_divisions": [
+        "주식거래",
+        "해외주식",
+        "데이터분석",
+        "개발",
+        "UX디자인"
+      ],
+      "engineering_culture": "개발자 비중 60~70%, 토스 NEXT 프로그램, 코드리뷰 강조",
+      "work_style": "주 4.5일 근무",
+      "core_hours": "코어타임 있음 (팀 협의)",
+      "decision_making": "바텀업 스쿼드 자율"
+    },
+    "employee_experience": {
+      "onboarding": "토스 공통 온보딩 + 증권 도메인 집중 교육",
+      "growth_support": "토스 NEXT 개발자 성장 프로그램, 컨퍼런스 지원",
+      "notable_benefits": [
+        "주 4.5일 근무",
+        "경쟁력 있는 연봉",
+        "수평적 문화",
+        "워라밸",
+        "최신 장비 지원"
+      ],
+      "glassdoor_sentiment": "잡플래닛 4.0점 — '수평 문화·연봉 우수, 빠른 성장세 만큼 업무 강도도 높음'"
+    }
   },
   {
     "name": "토스페이먼츠",
@@ -11852,7 +14004,43 @@
       "[HYBE] 스트리밍사업(계약직)",
       "[HYBE IPX] IP 마케팅/소셜미디어 기획",
       "[HYBE IPX] 응원봉 연출 운영 PM"
-    ]
+    ],
+    "management_philosophy": {
+      "ceo_background": "이재상 대표 — 연세대 졸업, 모니터그룹·현대차·구글 → 빅히트 2018년 합류, CSO → 2024년 9월 CEO 취임",
+      "leadership_style": "'팀 하이브' 강조·타운홀 소통, 멀티레이블 고도화·AI 기반 IP 사업 다변화",
+      "core_values": [
+        "음악(Music)",
+        "혁신(Innovation)",
+        "글로벌(Global)"
+      ],
+      "notable_quotes": "\"우리는 팀 하이브 — 서로를 위해 힘이 되는 따뜻한 조직을 만들겠다\" — 이재상 대표"
+    },
+    "organization": {
+      "structure_type": "멀티레이블제 (독립 레이블 + 공통 솔루션)",
+      "key_divisions": [
+        "BIGHIT MUSIC",
+        "BELIFT LAB",
+        "ADOR",
+        "SOURCE MUSIC",
+        "Weverse(플랫폼)"
+      ],
+      "engineering_culture": "Weverse 플랫폼 기술 내재화, AI 프로슈머 마켓 개발, 팬 데이터 분석",
+      "work_style": "하이브리드",
+      "core_hours": "코어타임 팀 협의",
+      "decision_making": "레이블 자율 + CEO 전략 정렬"
+    },
+    "employee_experience": {
+      "onboarding": "아티스트·IP 도메인 교육, 팀 배치",
+      "growth_support": "글로벌 엔터산업 컨퍼런스 지원, 음악·콘텐츠 교육",
+      "notable_benefits": [
+        "아티스트 공연 관람 지원",
+        "글로벌 근무 기회",
+        "식비 지원",
+        "성과 인센티브",
+        "자유 복장"
+      ],
+      "glassdoor_sentiment": "잡플래닛 3.7점 — 'K팝 글로벌 선도·자긍심 높음, 어도어 사태 등 내부 갈등 이슈'"
+    }
   },
   {
     "name": "한국마이크로소프트",
