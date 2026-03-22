@@ -1481,7 +1481,15 @@ function renderScorecard(sc, name) {
         <p class="text-sm t-secondary">${getScorecardSummary(grade, name)}</p>
       </div>
     </div>
-    ${dims.length > 0 ? `<div class="space-y-4">${dimHtml}</div>` : ''}
+    ${dims.length > 0 ? `
+      <div class="mb-5">
+        <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">차원 분석</div>
+        <div class="flex justify-center">
+          <canvas id="radarChart" width="240" height="240" style="display:block;"></canvas>
+        </div>
+      </div>
+      <div class="space-y-4">${dimHtml}</div>
+    ` : ''}
   `;
 
   // Animate ring
@@ -1506,6 +1514,106 @@ function renderScorecard(sc, name) {
       b.style.width = b.dataset.target + '%';
     });
   }, 160);
+
+  // Draw radar chart
+  if (dims.length > 0) {
+    setTimeout(() => {
+      const dimLabel = {
+        job_fit: 'Job Fit',
+        career_leverage: '커리어',
+        growth: '성장',
+        compensation: '보상',
+        culture_fit: '문화',
+      };
+      const radarDims = dims.map(d => ({
+        label: dimLabel[d.name] || d.label || d.name,
+        score: d.score,
+      }));
+      drawRadarChart('radarChart', radarDims);
+    }, 200);
+  }
+}
+
+function drawRadarChart(canvasId, dimensions) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const cx = 120, cy = 120, r = 90;
+  const n = dimensions.length;
+  if (n < 3) return;
+
+  ctx.clearRect(0, 0, 240, 240);
+
+  // 배경 격자 (3단계)
+  [0.33, 0.66, 1.0].forEach(scale => {
+    ctx.beginPath();
+    for (let i = 0; i <= n; i++) {
+      const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
+      const x = cx + r * scale * Math.cos(angle);
+      const y = cy + r * scale * Math.sin(angle);
+      i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.closePath();
+    ctx.strokeStyle = '#E4E4E7';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  });
+
+  // 축 선
+  for (let i = 0; i < n; i++) {
+    const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(cx + r * Math.cos(angle), cy + r * Math.sin(angle));
+    ctx.strokeStyle = '#E4E4E7';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  }
+
+  // 데이터 영역
+  ctx.beginPath();
+  dimensions.forEach((dim, i) => {
+    const score = Math.min(Math.max(dim.score / 5, 0), 1);
+    const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
+    const x = cx + r * score * Math.cos(angle);
+    const y = cy + r * score * Math.sin(angle);
+    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+  });
+  ctx.closePath();
+  ctx.fillStyle = 'rgba(49, 130, 246, 0.15)';
+  ctx.fill();
+  ctx.strokeStyle = '#3182F6';
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  // 데이터 점
+  dimensions.forEach((dim, i) => {
+    const score = Math.min(Math.max(dim.score / 5, 0), 1);
+    const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
+    const x = cx + r * score * Math.cos(angle);
+    const y = cy + r * score * Math.sin(angle);
+    ctx.beginPath();
+    ctx.arc(x, y, 3.5, 0, Math.PI * 2);
+    ctx.fillStyle = '#3182F6';
+    ctx.fill();
+  });
+
+  // 축 라벨
+  ctx.font = '11px Pretendard, -apple-system, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  dimensions.forEach((dim, i) => {
+    const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
+    const labelR = r + 18;
+    const lx = cx + labelR * Math.cos(angle);
+    const ly = cy + labelR * Math.sin(angle);
+    ctx.fillStyle = '#8B95A1';
+    ctx.fillText(dim.label, lx, ly - 6);
+    ctx.fillStyle = '#3182F6';
+    ctx.font = 'bold 10px JetBrains Mono, monospace';
+    ctx.fillText(String(Math.round(dim.score * 20)), lx, ly + 6);
+    ctx.font = '11px Pretendard, -apple-system, sans-serif';
+  });
 }
 
 function getScorecardSummary(grade, name) {
@@ -1629,19 +1737,50 @@ function renderOverview(s1, meta) {
   let financialHtml = '';
   if (fd.revenue_3y || fd.debt_ratio || fd.profit_margin || fd.employee_avg_salary) {
     const revItems = (fd.revenue_3y || []).filter(r => r.amount).slice(0, 3);
-    const revHtml = revItems.length > 0 ? `
-      <div class="mb-3">
-        <div class="text-xs t-tertiary mb-1.5">매출 추이</div>
-        <div class="flex gap-2">
-          ${revItems.map(r => `
-            <div class="flex-1 text-center p-2 rounded-lg" style="background:var(--bg-tertiary);">
-              <div class="text-xs font-bold font-mono t-primary">${formatAmount(r.amount)}</div>
-              <div class="text-xs t-tertiary">${r.year}년</div>
+    const revHtml = revItems.length > 0 ? (() => {
+      const amounts = revItems.map(r => typeof r.amount === 'number' ? r.amount : parseFloat(String(r.amount).replace(/[^0-9.]/g, '')) || 0);
+      const maxAmt = Math.max(...amounts, 1);
+      const opItems = (fd.operating_profit_3y || []).filter(r => r.amount).slice(0, 3);
+      const opAmounts = opItems.map(r => typeof r.amount === 'number' ? r.amount : parseFloat(String(r.amount).replace(/[^0-9.]/g, '')) || 0);
+      const maxOp = Math.max(...opAmounts, 1);
+      const hasOp = opItems.length > 0;
+      return `
+        <div class="mb-4">
+          <div class="text-xs t-tertiary mb-2">매출 추이</div>
+          <div class="flex items-end gap-3" style="height:80px;">
+            ${revItems.map((r, i) => {
+              const pct = Math.max(Math.round((amounts[i] / maxAmt) * 100), 8);
+              return `
+                <div class="flex flex-col items-center gap-1 flex-1">
+                  <div class="text-xs font-mono t-primary" style="font-size:9px; white-space:nowrap;">${formatAmount(r.amount)}</div>
+                  <div class="w-full rounded-t" style="height:${Math.round(pct * 0.6)}px; background:#3182F6; min-height:4px;"></div>
+                  <div class="text-xs t-tertiary" style="font-size:10px;">${r.year}</div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+          ${hasOp ? `
+            <div class="text-xs t-tertiary mt-3 mb-2">영업이익 추이</div>
+            <div class="flex items-end gap-3" style="height:56px;">
+              ${opItems.map((r, i) => {
+                const pct = Math.max(Math.round((opAmounts[i] / maxOp) * 100), 8);
+                return `
+                  <div class="flex flex-col items-center gap-1 flex-1">
+                    <div class="text-xs font-mono t-primary" style="font-size:9px; white-space:nowrap;">${formatAmount(r.amount)}</div>
+                    <div class="w-full rounded-t" style="height:${Math.round(pct * 0.38)}px; background:#00C471; min-height:4px;"></div>
+                    <div class="text-xs t-tertiary" style="font-size:10px;">${r.year}</div>
+                  </div>
+                `;
+              }).join('')}
             </div>
-          `).join('')}
+          ` : ''}
+          <div class="flex items-center gap-3 mt-2">
+            <div class="flex items-center gap-1"><div style="width:10px;height:10px;border-radius:2px;background:#3182F6;"></div><span class="text-xs t-tertiary">매출</span></div>
+            ${hasOp ? `<div class="flex items-center gap-1"><div style="width:10px;height:10px;border-radius:2px;background:#00C471;"></div><span class="text-xs t-tertiary">영업이익</span></div>` : ''}
+          </div>
         </div>
-      </div>
-    ` : '';
+      `;
+    })() : '';
     const statsItems = [];
     if (fd.profit_margin) statsItems.push({ label: '영업이익률', value: fd.profit_margin });
     if (fd.debt_ratio) statsItems.push({ label: '부채비율', value: fd.debt_ratio + '%' });
