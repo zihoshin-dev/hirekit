@@ -21,16 +21,67 @@ from hirekit.llm.base import BaseLLM, NoLLM
 # ---------------------------------------------------------------------------
 
 _LEARNING_ROADMAP: dict[str, str] = {
+    # DevOps / Cloud
     "docker": "Docker 공식 튜토리얼 → Docker Compose 실습 (1-2주)",
     "kubernetes": "K8s 공식 튜토리얼 → CKA 준비 (2-3개월)",
     "aws": "AWS Free Tier 실습 → AWS SAA 자격증 (1-2개월)",
-    "react": "React 공식 문서 → 토이 프로젝트 1개 (2-4주)",
-    "typescript": "TypeScript Handbook → 기존 JS 프로젝트 마이그레이션 (1-2주)",
-    "pytorch": "PyTorch 튜토리얼 → Kaggle 참여 (1개월)",
     "terraform": "Terraform 공식 튜토리얼 → 인프라 코드화 실습 (2-3주)",
-    "graphql": "How to GraphQL 튜토리얼 → API 실습 (1주)",
+    "ansible": "Ansible 공식 문서 → Playbook 실습 (1-2주)",
+    "jenkins": "Jenkins 공식 튜토리얼 → CI 파이프라인 구축 (1주)",
+    "github actions": "GitHub Actions 공식 문서 → 오픈소스 CI 적용 (1주)",
+    "gitlab ci": "GitLab CI/CD 공식 문서 → 파이프라인 실습 (1주)",
+    "gcp": "GCP Free Tier 실습 → Google Cloud ACE 자격증 (1-2개월)",
+    "azure": "Azure Free 실습 → AZ-900 자격증 (3-4주)",
+    # Frontend
+    "react": "React 공식 문서 → 토이 프로젝트 1개 (2-4주)",
+    "vue": "Vue 공식 가이드 → Nuxt.js 실습 (2-3주)",
+    "angular": "Angular Tour of Heroes → 실무 프로젝트 (3-4주)",
+    "svelte": "Svelte 공식 튜토리얼 → SvelteKit 앱 제작 (2주)",
+    "typescript": "TypeScript Handbook → 기존 JS 프로젝트 마이그레이션 (1-2주)",
+    "next.js": "Next.js 공식 튜토리얼 → App Router 실습 (2주)",
+    "nextjs": "Next.js 공식 튜토리얼 → App Router 실습 (2주)",
+    # Backend
+    "spring": "Spring 공식 가이드 → Spring Boot 프로젝트 (3-4주)",
+    "django": "Django Girls 튜토리얼 → DRF API 서버 구축 (2-3주)",
+    "fastapi": "FastAPI 공식 문서 → 비동기 API 서버 실습 (1-2주)",
+    "express": "Express.js 공식 문서 → REST API 구축 (1-2주)",
+    "nestjs": "NestJS 공식 문서 → 모듈형 API 서버 실습 (2-3주)",
+    "rails": "Rails Guides → Ruby on Rails 앱 제작 (3-4주)",
+    "flask": "Flask Mega-Tutorial → REST API 구축 (1-2주)",
+    "go": "Go Tour → 고루틴 실습 → 마이크로서비스 (4-6주)",
+    # Databases
+    "postgresql": "PostgreSQL 튜토리얼 → 인덱스·쿼리 최적화 실습 (2주)",
+    "mongodb": "MongoDB University 무료 강의 → Aggregation 실습 (2주)",
+    "redis": "Redis 공식 튜토리얼 → 캐싱·세션 관리 실습 (1주)",
     "kafka": "Confluent Kafka 101 → 스트리밍 파이프라인 실습 (2주)",
+    "elasticsearch": "Elastic 공식 튜토리얼 → 검색 엔진 구축 실습 (2-3주)",
+    "mysql": "MySQL 공식 문서 → 쿼리 최적화 실습 (1-2주)",
+    "dynamodb": "AWS DynamoDB 공식 가이드 → NoSQL 설계 실습 (2주)",
+    # Data / ML / AI
+    "pytorch": "PyTorch 튜토리얼 → Kaggle 참여 (1개월)",
+    "tensorflow": "TensorFlow 공식 튜토리얼 → Keras 모델 학습 (3-4주)",
+    "scikit-learn": "Scikit-learn 공식 문서 → Kaggle 입문 (2주)",
+    "langchain": "LangChain 공식 문서 → RAG 파이프라인 실습 (2-3주)",
     "spark": "Spark 공식 퀵스타트 → PySpark 실습 (2주)",
+    "airflow": "Airflow 공식 튜토리얼 → DAG 파이프라인 구축 (2주)",
+    "dbt": "dbt Learn → 데이터 모델링 실습 (1-2주)",
+    "mlflow": "MLflow 공식 문서 → 실험 추적 파이프라인 구축 (1주)",
+    "pandas": "Pandas 공식 문서 → 데이터 분석 프로젝트 (1-2주)",
+    # AI/LLM
+    "huggingface": "HuggingFace 튜토리얼 → fine-tuning 실습 (2-3주)",
+    "openai": "OpenAI API Docs → GPT 앱 제작 실습 (1주)",
+    # Mobile
+    "flutter": "Flutter 공식 코드랩 → 크로스플랫폼 앱 제작 (3-4주)",
+    "react native": "React Native 공식 문서 → Expo 앱 제작 (2-3주)",
+    "swift": "Swift 공식 가이드 → SwiftUI 앱 제작 (4-6주)",
+    "kotlin": "Kotlin 공식 문서 → Android 앱 제작 (4-6주)",
+    # Other
+    "graphql": "How to GraphQL 튜토리얼 → API 실습 (1주)",
+    "grpc": "gRPC 공식 문서 → 마이크로서비스 통신 실습 (1-2주)",
+    "rust": "The Rust Book → 시스템 프로그래밍 실습 (6-8주)",
+    "java": "Java 공식 튜토리얼 → 객체지향 설계 실습 (3-4주)",
+    "linux": "Linux Command Line 책 → 서버 관리 실습 (2-3주)",
+    "git": "Pro Git Book → 오픈소스 기여 실습 (1주)",
 }
 
 
@@ -214,9 +265,11 @@ class JDMatcher:
         if profile:
             self._match_profile(analysis, profile)
 
-        # 5. Generate strategy (LLM)
+        # 5. Generate strategy (LLM or rule-based)
         if self.llm.is_available():
             self._generate_strategy(analysis, profile)
+        elif profile:
+            self._generate_rule_based_strategy(analysis, profile)
 
         return analysis
 
@@ -520,3 +573,68 @@ class JDMatcher:
         resp = self.llm.generate(prompt=prompt, temperature=0.3)
         if resp.text:
             analysis.strategy = resp.text
+
+    # ------------------------------------------------------------------
+    # Rule-based strategy (NoLLM fallback)
+    # ------------------------------------------------------------------
+
+    def _generate_rule_based_strategy(
+        self,
+        analysis: JDAnalysis,
+        profile: dict[str, Any],
+    ) -> None:
+        """Generate application strategy without LLM using rule-based templates."""
+        score = analysis.match_score
+        strengths = analysis.strengths
+        gaps = analysis.gaps
+        grade = analysis.match_grade
+
+        lines: list[str] = ["## 지원 전략 (Rule-based)"]
+        lines.append(f"\n**매치 점수:** {score:.0f}/100 (등급 {grade})")
+
+        # 1. Appeal points from strengths
+        lines.append("\n### 1. 자기소개서 강조 포인트")
+        if strengths:
+            for s in strengths[:3]:
+                lines.append(f"- **{s}** 경험을 구체적 수치와 함께 서술하세요")
+        else:
+            lines.append("- 관련 프로젝트·오픈소스 기여 경험을 발굴해 서술하세요")
+            lines.append("- 학습 역량과 빠른 온보딩 사례를 강조하세요")
+
+        # 2. Gap framing strategy
+        lines.append("\n### 2. 갭 보완 전략")
+        if not gaps:
+            lines.append("- 요구 기술 전부 보유 — 실전 적용 사례를 깊이 있게 어필하세요")
+        else:
+            critical_gaps = gaps[:3]
+            for g in critical_gaps:
+                roadmap = analysis.gap_roadmaps.get(g, "")
+                if roadmap:
+                    lines.append(f"- **{g}**: {roadmap}")
+                else:
+                    lines.append(f"- **{g}**: 사이드 프로젝트 또는 온라인 강의로 보완 후 GitHub에 공개하세요")
+            if score >= 60:
+                lines.append("- 갭이 있지만 점수가 양호해요. 학습 의지와 속도를 면접에서 강조하세요")
+
+        # 3. Expected interview questions based on gaps and strengths
+        lines.append("\n### 3. 예상 면접 질문")
+        q_count = 1
+        for s in strengths[:2]:
+            lines.append(f"{q_count}. '{s}' 기술을 실무에서 어떻게 활용했나요?")
+            q_count += 1
+        for g in gaps[:2]:
+            lines.append(f"{q_count}. '{g}'을 사용해본 경험이 없는데, 어떻게 학습할 계획인가요?")
+            q_count += 1
+        if q_count <= 3:
+            lines.append(f"{q_count}. 이 포지션에 지원한 이유와 커리어 목표를 설명해주세요.")
+
+        # 4. Recommendation
+        lines.append("\n### 4. 지원 추천 여부")
+        if score >= 75:
+            lines.append(f"✅ **지원 추천** — 점수 {score:.0f}점으로 경쟁력이 높아요.")
+        elif score >= 50:
+            lines.append(f"⚠️ **조건부 추천** — 점수 {score:.0f}점. 갭 스킬을 보완하며 지원하세요.")
+        else:
+            lines.append(f"❌ **신중히 검토** — 점수 {score:.0f}점. 필수 기술 격차가 커요.")
+
+        analysis.strategy = "\n".join(lines)

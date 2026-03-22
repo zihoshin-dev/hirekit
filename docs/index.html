@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HireKit — 취업 준비, 데이터로 시작하세요</title>
-  <meta name="description" content="8개 소스에서 자동 수집하고, 100점 스코어카드로 판단해요. 취업 준비생을 위한 기업 분석 CLI 도구." />
+  <meta name="description" content="14개 소스에서 자동 수집하고, 100점 스코어카드로 판단해요. 취업 준비생을 위한 기업 분석 CLI 도구." />
   <meta property="og:title" content="HireKit — 취업 준비, 데이터로 시작하세요" />
-  <meta property="og:description" content="8개 소스에서 자동 수집하고, 100점 스코어카드로 판단해요." />
+  <meta property="og:description" content="14개 소스에서 자동 수집하고, 100점 스코어카드로 판단해요." />
   <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
   <meta property="og:image:width" content="1400" />
   <meta property="og:image:height" content="763" />
@@ -369,34 +369,63 @@
           <!-- Badge -->
           <div class="inline-flex items-center gap-2 mb-7" style="background:var(--primary-light); color:var(--primary); padding:6px 14px; border-radius:100px; font-size:12px; font-weight:600; letter-spacing:0.03em;">
             <span style="width:6px; height:6px; border-radius:50%; background:var(--primary); display:inline-block;"></span>
-            오픈소스 · MIT License · Python 3.9+
+            오픈소스 · MIT License · Python 3.11+
           </div>
 
-          <h1 class="font-bold t-primary mb-5" style="font-size:clamp(34px,5vw,52px); line-height:1.2; letter-spacing:-0.02em;">
+          <h1 class="font-bold t-primary mb-4" style="font-size:clamp(34px,5vw,52px); line-height:1.2; letter-spacing:-0.02em;">
             취업 준비,<br />데이터로 시작하세요
           </h1>
 
+          <!-- Hero stat highlight -->
+          <div class="flex items-center gap-4 mb-5 flex-wrap">
+            <div class="flex items-baseline gap-1.5">
+              <span class="font-mono font-bold" style="font-size:28px; color:var(--primary); line-height:1;">79</span>
+              <span class="text-sm t-secondary font-medium">개 한국 테크 기업</span>
+            </div>
+            <span class="t-tertiary" style="font-size:18px;">·</span>
+            <div class="flex items-baseline gap-1.5">
+              <span class="font-mono font-bold" style="font-size:28px; color:var(--primary); line-height:1;">55+</span>
+              <span class="text-sm t-secondary font-medium">데이터 포인트</span>
+            </div>
+          </div>
+
           <p class="t-secondary mb-8" style="font-size:17px; line-height:1.75; max-width:440px;">
             기업 조사에 반나절 쓰는 시대는 끝났어요.<br />
-            8개 소스를 2분 만에 수집하고, 100점 스코어카드로 지원 우선순위를 결정해요.
+            11개 공공데이터를 교차검증하고, 100점 스코어카드로 지원 우선순위를 결정해요.
           </p>
 
           <!-- CTA buttons -->
-          <div class="flex flex-wrap gap-3 mb-8">
-            <a href="#quickstart" class="btn-click inline-flex items-center justify-center gap-2 font-semibold text-white transition-colors" style="height:48px; padding:0 28px; background:var(--primary); border-radius:12px; font-size:15px; text-decoration:none;">
-              지금 시작하기
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-            </a>
-            <a href="demo.html" class="btn-click inline-flex items-center justify-center gap-2 font-semibold t-primary transition-colors" style="height:48px; padding:0 24px; background:var(--bg-secondary); border-radius:12px; font-size:15px; border:1px solid var(--border); text-decoration:none;">
+          <div class="flex flex-wrap gap-3 mb-6">
+            <a href="demo.html" class="btn-click inline-flex items-center justify-center gap-2 font-semibold text-white transition-colors" style="height:48px; padding:0 28px; background:var(--primary); border-radius:12px; font-size:15px; text-decoration:none;">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              80개 기업 데모
+              데모 체험하기
+            </a>
+            <a href="#quickstart" class="btn-click inline-flex items-center justify-center gap-2 font-semibold t-primary transition-colors" style="height:48px; padding:0 24px; background:var(--bg-secondary); border-radius:12px; font-size:15px; border:1px solid var(--border); text-decoration:none;">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+              pip install hirekit
             </a>
           </div>
 
-          <!-- Install command -->
+          <!-- Install command + copy -->
           <div class="inline-flex items-center gap-3 px-4 py-3 rounded-xl" style="background:var(--bg-secondary); border:1px solid var(--border);">
             <code class="font-mono text-sm t-primary">$ pip install hirekit</code>
             <button id="copyInstall" class="copy-btn" onclick="copyInstall()" aria-label="명령어 복사">복사</button>
+          </div>
+
+          <!-- Mini scorecard preview (hero right-side on mobile, hidden on lg) -->
+          <div class="lg:hidden mt-8 rounded-2xl overflow-hidden" style="border:1px solid var(--border);">
+            <div style="background:#0D1117; padding:10px 14px; display:flex; align-items:center; gap:6px; border-bottom:1px solid #2D333B;">
+              <span style="width:10px;height:10px;border-radius:50%;background:#FF5F57;display:inline-block;"></span>
+              <span style="width:10px;height:10px;border-radius:50%;background:#FEBC2E;display:inline-block;"></span>
+              <span style="width:10px;height:10px;border-radius:50%;background:#28C840;display:inline-block;"></span>
+              <span class="font-mono text-xs ml-2" style="color:#6B7684;">hirekit analyze 카카오</span>
+            </div>
+            <div style="background:#0D1117; padding:16px 18px; font-family:'JetBrains Mono',monospace; font-size:12px; line-height:1.9;">
+              <div style="color:#3182F6; font-weight:600;">  종합 점수   81 / 100   [S]</div>
+              <div style="color:#8B95A1; margin-top:4px;">  Job Fit        <span style="color:#00C471;">████████████░░░</span>  84</div>
+              <div style="color:#8B95A1;">  성장 잠재력   <span style="color:#3182F6;">███████████░░░░</span>  76</div>
+              <div style="color:#8B95A1;">  보상·복지     <span style="color:#00C471;">████████████░░░</span>  82</div>
+            </div>
           </div>
         </div>
 
@@ -407,7 +436,7 @@
               <span class="terminal-dot term-red"></span>
               <span class="terminal-dot term-amber"></span>
               <span class="terminal-dot term-green"></span>
-              <span class="ml-3 font-mono text-xs" style="color:#6B7684;">hirekit score 카카오</span>
+              <span class="ml-3 font-mono text-xs" style="color:#6B7684;">hirekit analyze 카카오</span>
             </div>
             <div class="terminal-body" id="heroTerminal" aria-live="polite" aria-label="HireKit 터미널 출력 예시">
               <!-- filled by JS -->
@@ -424,20 +453,55 @@
     <div class="max-w-[1080px] mx-auto">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div class="stat-card fade-up">
-          <div class="stat-num">80+</div>
-          <div class="text-sm t-tertiary mt-1.5">분석된 기업</div>
+          <div class="stat-num">79</div>
+          <div class="text-sm t-tertiary mt-1.5">한국 테크 기업</div>
         </div>
         <div class="stat-card fade-up fade-up-d1">
-          <div class="stat-num">8</div>
-          <div class="text-sm t-tertiary mt-1.5">데이터 소스</div>
+          <div class="stat-num">55+</div>
+          <div class="text-sm t-tertiary mt-1.5">데이터 포인트</div>
         </div>
         <div class="stat-card fade-up fade-up-d2">
+          <div class="stat-num">11</div>
+          <div class="text-sm t-tertiary mt-1.5">공공데이터 소스</div>
+        </div>
+        <div class="stat-card fade-up fade-up-d3">
           <div class="stat-num">2분</div>
           <div class="text-sm t-tertiary mt-1.5">평균 분석 시간</div>
         </div>
-        <div class="stat-card fade-up fade-up-d3">
-          <div class="stat-num">7</div>
-          <div class="text-sm t-tertiary mt-1.5">CLI 명령어</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ VALUE PROPS ═══ -->
+  <section class="py-16 px-5" style="background:var(--bg);">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="grid md:grid-cols-3 gap-5">
+        <!-- Trust -->
+        <div class="fade-up feature-card" style="border-left:3px solid var(--primary);">
+          <div class="feature-icon" style="background:var(--primary-light);">
+            <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="font-bold t-primary mb-2" style="font-size:16px;">11개 공공데이터 교차검증</h3>
+          <p class="text-sm t-secondary leading-relaxed">DART 공시, 고용보험 DB, 특허청, 공정거래위원회까지. 기업이 숨기고 싶은 데이터까지 확인해요.</p>
+          <div class="mt-4 font-mono text-xs" style="color:var(--primary); font-weight:600;">신뢰 기반 분석</div>
+        </div>
+        <!-- Convenience -->
+        <div class="fade-up fade-up-d1 feature-card" style="border-left:3px solid #00C471;">
+          <div class="feature-icon" style="background:rgba(0,196,113,0.1);">
+            <svg class="w-5 h-5" style="color:#00C471;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="font-bold t-primary mb-2" style="font-size:16px;">JD 매칭 → 면접 → 이력서 원스톱</h3>
+          <p class="text-sm t-secondary leading-relaxed">채용공고 URL 하나만 넣으면 매칭 분석, 예상 질문, 이력서 개선안까지 한 번에 나와요.</p>
+          <div class="mt-4 font-mono text-xs" style="color:#00C471; font-weight:600;">취업 준비 전 과정 커버</div>
+        </div>
+        <!-- Privacy -->
+        <div class="fade-up fade-up-d2 feature-card" style="border-left:3px solid #FF9500;">
+          <div class="feature-icon" style="background:rgba(255,149,0,0.1);">
+            <svg class="w-5 h-5" style="color:#FF9500;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          </div>
+          <h3 class="font-bold t-primary mb-2" style="font-size:16px;">오픈소스 + 프라이버시 퍼스트</h3>
+          <p class="text-sm t-secondary leading-relaxed">모든 데이터는 내 컴퓨터에서만 처리돼요. 이력서가 외부 서버에 저장되지 않아요. MIT 라이선스.</p>
+          <div class="mt-4 font-mono text-xs" style="color:#FF9500; font-weight:600;">로컬 처리 · 완전 오픈소스</div>
         </div>
       </div>
     </div>
@@ -490,7 +554,7 @@
           <ul class="space-y-4">
             <li class="flex items-start gap-3">
               <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:#00C471;"></span>
-              <div><p class="font-medium t-primary text-sm">명령어 하나로 자동 수집</p><p class="text-xs t-tertiary mt-0.5">8개 소스를 병렬로 긁어서 통합 리포트 생성</p></div>
+              <div><p class="font-medium t-primary text-sm">명령어 하나로 자동 수집</p><p class="text-xs t-tertiary mt-0.5">14개 소스를 병렬로 긁어서 통합 리포트 생성</p></div>
             </li>
             <li class="flex items-start gap-3">
               <span class="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0" style="background:#00C471;"></span>
@@ -526,14 +590,14 @@
           </div>
           <div class="cmd-tag">hirekit analyze</div>
           <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">기업 분석</h3>
-          <p class="text-sm t-secondary leading-relaxed">재무, 전략, 기술, 문화를 한 번에 분석해요. 8개 소스에서 데이터를 모아 종합 리포트로 정리해요.</p>
+          <p class="text-sm t-secondary leading-relaxed">재무, 전략, 기술, 문화를 한 번에 분석해요. 14개 소스에서 데이터를 모아 종합 리포트로 정리해요.</p>
         </div>
         <!-- score -->
         <div class="feature-card">
           <div class="feature-icon">
             <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
           </div>
-          <div class="cmd-tag">hirekit score</div>
+          <div class="cmd-tag">hirekit analyze</div>
           <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">스코어카드</h3>
           <p class="text-sm t-secondary leading-relaxed">100점 만점 스코어와 S~D 등급으로 지원 우선순위를 결정해요. 5개 차원을 수치로 비교해요.</p>
         </div>
@@ -542,9 +606,9 @@
           <div class="feature-icon">
             <svg class="w-5 h-5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
           </div>
-          <div class="cmd-tag">hirekit compare</div>
-          <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">기업 비교</h3>
-          <p class="text-sm t-secondary leading-relaxed">여러 기업을 나란히 비교해요. 어느 회사가 나에게 더 맞는지 수치로 판단할 수 있어요.</p>
+          <div class="cmd-tag">hirekit pipeline</div>
+          <h3 class="font-semibold t-primary mb-2" style="font-size:16px;">통합 파이프라인</h3>
+          <p class="text-sm t-secondary leading-relaxed">분석·매칭·전략을 한 번에 실행해요. JD URL만 넣으면 지원 전략까지 자동으로 생성해요.</p>
         </div>
         <!-- match -->
         <div class="feature-card">
@@ -594,7 +658,7 @@
   <section id="sources" class="py-20 px-5" style="background:var(--bg-secondary);">
     <div class="max-w-[1080px] mx-auto">
       <div class="text-center mb-12 fade-up">
-        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">8개 소스, 하나의 리포트</h2>
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">14개 소스, 하나의 리포트</h2>
         <p class="t-secondary" style="font-size:16px;">국내외 핵심 데이터를 병렬로 수집해서 빠짐없이 보여줘요</p>
       </div>
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 fade-up">
@@ -666,113 +730,130 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════ DEMO PREVIEW ═══ -->
+  <!-- ═══════════════════════════════════════════ COMPANY PREVIEW ═══ -->
   <section class="py-20 px-5">
     <div class="max-w-[1080px] mx-auto">
       <div class="text-center mb-12 fade-up">
-        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">실제 분석 결과를 보세요</h2>
-        <p class="t-secondary" style="font-size:16px;">80개 기업 데이터가 준비되어 있어요. 클릭 한 번으로 스코어카드를 확인해요.</p>
+        <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">인기 기업 스코어카드</h2>
+        <p class="t-secondary" style="font-size:16px;">클릭하면 전체 분석 결과를 데모에서 바로 확인해요</p>
       </div>
-      <div class="demo-mock fade-up">
-        <div class="demo-mock-bar">
-          <span class="mock-dot"></span>
-          <span class="mock-dot"></span>
-          <span class="mock-dot"></span>
-          <span class="ml-3 font-mono text-xs t-tertiary">hirekit.demo</span>
-          <div class="flex-1"></div>
-          <a href="demo.html" class="text-xs font-semibold" style="color:var(--primary); text-decoration:none;">전체 데모 보기 →</a>
-        </div>
-        <div class="p-6" style="background:var(--bg-secondary);">
-          <!-- Mini company cards preview -->
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 mb-5">
-            <div class="surface rounded-xl p-3" style="border:1.5px solid var(--primary);">
-              <div class="text-xs font-semibold t-primary truncate mb-1">카카오</div>
-              <div class="flex items-center gap-1">
-                <span class="font-mono text-xs font-bold" style="color:#3182F6;">S</span>
-                <span class="text-xs t-tertiary">81점</span>
+
+      <!-- 3 featured company cards -->
+      <div class="grid md:grid-cols-3 gap-5 mb-10 fade-up">
+
+        <!-- 카카오 -->
+        <a href="demo.html?company=카카오" class="card-hover surface rounded-2xl p-5 block" style="border:1.5px solid var(--primary); text-decoration:none; cursor:pointer;">
+          <div class="flex items-start justify-between mb-4">
+            <div>
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="font-bold t-primary" style="font-size:17px;">카카오</span>
+                <span class="font-mono text-xs font-bold px-2 py-0.5 rounded-md" style="background:rgba(49,130,246,0.1); color:#3182F6;">S</span>
               </div>
+              <span class="text-xs t-tertiary">IT서비스 · 판교</span>
             </div>
-            <div class="surface rounded-xl p-3" style="border:1px solid var(--border);">
-              <div class="text-xs font-semibold t-primary truncate mb-1">네이버</div>
-              <div class="flex items-center gap-1">
-                <span class="font-mono text-xs font-bold" style="color:#3182F6;">S</span>
-                <span class="text-xs t-tertiary">80점</span>
-              </div>
-            </div>
-            <div class="surface rounded-xl p-3" style="border:1px solid var(--border);">
-              <div class="text-xs font-semibold t-primary truncate mb-1">SK하이닉스</div>
-              <div class="flex items-center gap-1">
-                <span class="font-mono text-xs font-bold" style="color:#3182F6;">S</span>
-                <span class="text-xs t-tertiary">80점</span>
-              </div>
-            </div>
-            <div class="surface rounded-xl p-3" style="border:1px solid var(--border);">
-              <div class="text-xs font-semibold t-primary truncate mb-1">LG CNS</div>
-              <div class="flex items-center gap-1">
-                <span class="font-mono text-xs font-bold" style="color:#3182F6;">S</span>
-                <span class="text-xs t-tertiary">80점</span>
-              </div>
-            </div>
-            <div class="surface rounded-xl p-3" style="border:1px solid var(--border);">
-              <div class="text-xs font-semibold t-primary truncate mb-1">AWS코리아</div>
-              <div class="flex items-center gap-1">
-                <span class="font-mono text-xs font-bold" style="color:#00C471;">A</span>
-                <span class="text-xs t-tertiary">75점</span>
-              </div>
+            <div class="text-right">
+              <div class="font-mono font-bold" style="color:var(--primary); font-size:26px; line-height:1;">81</div>
+              <div class="text-xs t-tertiary">/ 100</div>
             </div>
           </div>
-          <!-- Inline scorecard preview -->
-          <div class="surface rounded-2xl p-5" style="border:1px solid var(--border);">
-            <div class="flex items-start justify-between mb-4">
-              <div>
-                <div class="flex items-center gap-2 mb-0.5">
-                  <span class="font-bold t-primary" style="font-size:18px;">카카오</span>
-                  <span class="font-mono text-xs font-bold px-2 py-0.5 rounded-lg grade-s">Grade S</span>
-                </div>
-                <span class="text-xs t-tertiary">IT서비스 · 설립 2010년</span>
-              </div>
-              <div class="text-right">
-                <div class="font-bold" style="color:var(--primary); font-size:28px; line-height:1; font-family:'JetBrains Mono',monospace;">81</div>
-                <div class="text-xs t-tertiary">/ 100</div>
-              </div>
+          <div class="space-y-2.5">
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">Job Fit</span><span class="text-xs font-mono font-semibold t-primary">84</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:84%; background:#00C471;"></div></div>
             </div>
-            <div class="space-y-3">
-              <div>
-                <div class="flex items-center justify-between mb-1">
-                  <span class="text-xs t-secondary">Job Fit</span>
-                  <span class="text-xs font-medium t-primary">84</span>
-                </div>
-                <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);">
-                  <div class="h-1.5 rounded-full" style="width:84%; background:#00C471;"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex items-center justify-between mb-1">
-                  <span class="text-xs t-secondary">성장 잠재력</span>
-                  <span class="text-xs font-medium t-primary">76</span>
-                </div>
-                <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);">
-                  <div class="h-1.5 rounded-full" style="width:76%; background:#3182F6;"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex items-center justify-between mb-1">
-                  <span class="text-xs t-secondary">보상 · 복지</span>
-                  <span class="text-xs font-medium t-primary">82</span>
-                </div>
-                <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);">
-                  <div class="h-1.5 rounded-full" style="width:82%; background:#00C471;"></div>
-                </div>
-              </div>
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">성장 잠재력</span><span class="text-xs font-mono font-semibold t-primary">76</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:76%; background:#3182F6;"></div></div>
             </div>
-            <div class="mt-4 pt-4 flex justify-end" style="border-top:1px solid var(--border);">
-              <a href="demo.html" class="btn-click inline-flex items-center gap-1.5 text-sm font-semibold text-white" style="height:36px; padding:0 16px; background:var(--primary); border-radius:10px; text-decoration:none;">
-                전체 분석 보기
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-              </a>
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">보상·복지</span><span class="text-xs font-mono font-semibold t-primary">82</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:82%; background:#00C471;"></div></div>
             </div>
           </div>
-        </div>
+          <div class="mt-4 pt-3 flex items-center justify-between" style="border-top:1px solid var(--border);">
+            <span class="text-xs t-tertiary">전체 분석 보기</span>
+            <svg class="w-4 h-4" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </div>
+        </a>
+
+        <!-- 네이버 -->
+        <a href="demo.html?company=네이버" class="card-hover surface rounded-2xl p-5 block" style="border:1px solid var(--border); text-decoration:none; cursor:pointer;">
+          <div class="flex items-start justify-between mb-4">
+            <div>
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="font-bold t-primary" style="font-size:17px;">네이버</span>
+                <span class="font-mono text-xs font-bold px-2 py-0.5 rounded-md" style="background:rgba(49,130,246,0.1); color:#3182F6;">S</span>
+              </div>
+              <span class="text-xs t-tertiary">IT서비스 · 성남</span>
+            </div>
+            <div class="text-right">
+              <div class="font-mono font-bold" style="color:var(--primary); font-size:26px; line-height:1;">80</div>
+              <div class="text-xs t-tertiary">/ 100</div>
+            </div>
+          </div>
+          <div class="space-y-2.5">
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">Job Fit</span><span class="text-xs font-mono font-semibold t-primary">82</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:82%; background:#00C471;"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">성장 잠재력</span><span class="text-xs font-mono font-semibold t-primary">79</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:79%; background:#3182F6;"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">보상·복지</span><span class="text-xs font-mono font-semibold t-primary">80</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:80%; background:#00C471;"></div></div>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 flex items-center justify-between" style="border-top:1px solid var(--border);">
+            <span class="text-xs t-tertiary">전체 분석 보기</span>
+            <svg class="w-4 h-4 t-tertiary" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </div>
+        </a>
+
+        <!-- 토스 -->
+        <a href="demo.html?company=토스" class="card-hover surface rounded-2xl p-5 block" style="border:1px solid var(--border); text-decoration:none; cursor:pointer;">
+          <div class="flex items-start justify-between mb-4">
+            <div>
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="font-bold t-primary" style="font-size:17px;">토스</span>
+                <span class="font-mono text-xs font-bold px-2 py-0.5 rounded-md" style="background:rgba(0,196,113,0.1); color:#00C471;">A</span>
+              </div>
+              <span class="text-xs t-tertiary">핀테크 · 서울</span>
+            </div>
+            <div class="text-right">
+              <div class="font-mono font-bold" style="color:#00C471; font-size:26px; line-height:1;">77</div>
+              <div class="text-xs t-tertiary">/ 100</div>
+            </div>
+          </div>
+          <div class="space-y-2.5">
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">Job Fit</span><span class="text-xs font-mono font-semibold t-primary">80</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:80%; background:#00C471;"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">성장 잠재력</span><span class="text-xs font-mono font-semibold t-primary">85</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:85%; background:#3182F6;"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1"><span class="text-xs t-secondary">보상·복지</span><span class="text-xs font-mono font-semibold t-primary">72</span></div>
+              <div class="h-1.5 rounded-full overflow-hidden" style="background:var(--bg-secondary);"><div class="h-1.5 rounded-full score-bar" style="width:72%; background:#FF9500;"></div></div>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 flex items-center justify-between" style="border-top:1px solid var(--border);">
+            <span class="text-xs t-tertiary">전체 분석 보기</span>
+            <svg class="w-4 h-4 t-tertiary" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- CTA to full demo -->
+      <div class="text-center fade-up fade-up-d1">
+        <a href="demo.html" class="btn-click inline-flex items-center gap-2 font-semibold text-white" style="height:48px; padding:0 32px; background:var(--primary); border-radius:12px; font-size:15px; text-decoration:none;">
+          79개 기업 전체 보기
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
       </div>
     </div>
   </section>
@@ -782,7 +863,7 @@
     <div class="max-w-[680px] mx-auto">
       <div class="text-center mb-12 fade-up">
         <h2 class="font-bold t-primary mb-3" style="font-size:28px; letter-spacing:-0.01em;">3단계로 시작해요</h2>
-        <p class="t-secondary" style="font-size:16px;">Python 3.9 이상이면 바로 사용할 수 있어요</p>
+        <p class="t-secondary" style="font-size:16px;">Python 3.11 이상이면 바로 사용할 수 있어요</p>
       </div>
       <div class="space-y-4 fade-up">
         <!-- Step 1 -->
@@ -830,11 +911,75 @@
             <div class="code-block-header">
               <span class="font-mono text-xs" style="color:#6B7684;">bash</span>
               <div class="flex-1"></div>
-              <button class="copy-btn" onclick="copyCode(this, 'hirekit analyze 카카오\nhirekit score 카카오\nhirekit compare 카카오 네이버 토스')" aria-label="코드 복사">복사</button>
+              <button class="copy-btn" onclick="copyCode(this, 'hirekit analyze 카카오\nhirekit pipeline 카카오 --jd https://...\nhirekit match --jd https://...')" aria-label="코드 복사">복사</button>
             </div>
             <pre><code><span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit analyze 카카오</span>
-<span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit score 카카오</span>
-<span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit compare 카카오 네이버 토스</span></code></pre>
+<span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit pipeline 카카오 --jd https://...</span>
+<span style="color:#6B7684;">$ </span><span style="color:#3182F6;">hirekit match --jd https://...</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ CLAUDE CODE ═══ -->
+  <section class="py-20 px-5" style="background:var(--bg-secondary);">
+    <div class="max-w-[1080px] mx-auto">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="fade-up">
+          <div class="inline-flex items-center gap-2 mb-6" style="background:rgba(49,130,246,0.08); color:var(--primary); padding:5px 12px; border-radius:100px; font-size:12px; font-weight:600;">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            Claude Code 통합
+          </div>
+          <h2 class="font-bold t-primary mb-4" style="font-size:28px; letter-spacing:-0.01em; line-height:1.3;">
+            한마디로<br />분석 시작
+          </h2>
+          <p class="t-secondary mb-6" style="font-size:16px; line-height:1.75;">
+            Claude Code에서 <code class="font-mono text-sm" style="background:var(--bg-tertiary); padding:2px 6px; border-radius:5px; color:var(--primary);">/analyze 카카오</code> 한 마디면 돼요. MCP 서버로 연결하거나 CLI로 직접 실행해요.
+          </p>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background:var(--primary-light);">
+                <svg class="w-3.5 h-3.5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <span class="text-sm t-secondary">자연어 쿼리 → 자동으로 적절한 hirekit 명령 실행</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background:var(--primary-light);">
+                <svg class="w-3.5 h-3.5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <span class="text-sm t-secondary">분석 결과를 AI가 해석해서 핵심만 요약</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background:var(--primary-light);">
+                <svg class="w-3.5 h-3.5" style="color:var(--primary);" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <span class="text-sm t-secondary">이력서 개선안 · 면접 준비까지 대화로 진행</span>
+            </div>
+          </div>
+        </div>
+        <!-- Claude terminal mock -->
+        <div class="fade-up fade-up-d1">
+          <div class="rounded-2xl overflow-hidden" style="background:#0D1117; border:1px solid #2D333B; box-shadow:0 20px 60px rgba(0,0,0,0.25);">
+            <div style="background:#161B22; padding:12px 16px; display:flex; align-items:center; gap:8px; border-bottom:1px solid #2D333B;">
+              <span style="width:12px;height:12px;border-radius:50%;background:#FF5F57;display:inline-block;"></span>
+              <span style="width:12px;height:12px;border-radius:50%;background:#FEBC2E;display:inline-block;"></span>
+              <span style="width:12px;height:12px;border-radius:50%;background:#28C840;display:inline-block;"></span>
+              <span class="font-mono text-xs ml-2" style="color:#6B7684;">Claude Code</span>
+            </div>
+            <div style="padding:20px 22px; font-family:'JetBrains Mono',monospace; font-size:13px; line-height:1.9;">
+              <div style="color:#6B7684; margin-bottom:6px;">You</div>
+              <div style="color:#E2E8F0; background:#1E2430; padding:10px 14px; border-radius:10px; margin-bottom:14px; border-left:2px solid #3182F6;">카카오랑 토스 비교해서 어디 먼저 지원할지 알려줘</div>
+              <div style="color:#6B7684; margin-bottom:6px;">Claude + HireKit</div>
+              <div style="color:#8B95A1; margin-bottom:4px;"><span style="color:#3182F6;">▶</span> hirekit pipeline 카카오 --jd https://... --detailed</div>
+              <div style="color:#6B7684; font-size:11px; margin-bottom:8px;">  수집 중... 14개 소스 · 2m 14s</div>
+              <div style="color:#E2E8F0;">카카오가 <span style="color:#3182F6; font-weight:600;">보상·복지(82점)</span>에서 앞서고,</div>
+              <div style="color:#E2E8F0;">토스는 <span style="color:#00C471; font-weight:600;">성장 잠재력(85점)</span>이 더 높아요.</div>
+              <div style="color:#8B95A1; margin-top:6px; font-size:12px;">→ 시리즈 성장 원하면 토스, 안정성 중시면 카카오</div>
+              <div style="display:flex; align-items:center; gap:6px; margin-top:14px;">
+                <input style="background:#1E2430; border:1px solid #2D333B; border-radius:8px; padding:8px 12px; color:#8B95A1; font-family:inherit; font-size:12px; flex:1; outline:none;" placeholder="질문을 입력하세요..." disabled />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -895,17 +1040,45 @@
   </section>
 
   <!-- ═══════════════════════════════════════════ FOOTER ═══ -->
-  <footer class="py-12 px-5" style="border-top:1px solid var(--border);">
+  <footer class="py-14 px-5" style="border-top:1px solid var(--border);">
     <div class="max-w-[1080px] mx-auto">
+
+      <!-- Footer stats row -->
+      <div class="grid grid-cols-3 gap-4 mb-10 pb-10" style="border-bottom:1px solid var(--border);">
+        <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="text-center card-hover rounded-2xl py-5" style="background:var(--bg-secondary); border:1px solid var(--border); text-decoration:none; display:block;">
+          <div class="font-mono font-bold mb-1" style="font-size:22px; color:var(--primary);" id="footerStars">—</div>
+          <div class="text-xs t-tertiary flex items-center justify-center gap-1">
+            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            GitHub Stars
+          </div>
+        </a>
+        <a href="https://pypi.org/project/hirekit/" target="_blank" rel="noopener" class="text-center card-hover rounded-2xl py-5" style="background:var(--bg-secondary); border:1px solid var(--border); text-decoration:none; display:block;">
+          <div class="font-mono font-bold mb-1" style="font-size:22px; color:var(--primary);" id="footerDownloads">—</div>
+          <div class="text-xs t-tertiary flex items-center justify-center gap-1">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            PyPI 다운로드
+          </div>
+        </a>
+        <a href="https://github.com/zihoshin-dev/hirekit/graphs/contributors" target="_blank" rel="noopener" class="text-center card-hover rounded-2xl py-5" style="background:var(--bg-secondary); border:1px solid var(--border); text-decoration:none; display:block;">
+          <div class="font-mono font-bold mb-1" style="font-size:22px; color:var(--primary);" id="footerContribs">—</div>
+          <div class="text-xs t-tertiary flex items-center justify-center gap-1">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            기여자
+          </div>
+        </a>
+      </div>
+
       <div class="flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
           <div class="flex items-center gap-2 font-bold t-primary mb-1" style="font-size:16px;">
             <span style="color:var(--primary);">⬡</span> HireKit
           </div>
-          <div class="text-xs t-tertiary">MIT License · Python 3.9+ · 오픈소스</div>
+          <div class="text-xs t-tertiary">MIT License · Python 3.11+ · 오픈소스</div>
         </div>
         <div class="flex items-center gap-6 flex-wrap justify-center">
           <a href="demo.html" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">데모</a>
+          <a href="#features" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">기능</a>
+          <a href="#quickstart" class="text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">시작하기</a>
           <a href="https://github.com/zihoshin-dev/hirekit" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-sm t-secondary hover:text-[#3182F6] transition-colors" style="text-decoration:none;">
             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
             GitHub
@@ -988,7 +1161,7 @@ document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
 // ═══ Terminal typewriter ═══
 const lines = [
-  { text: '$ hirekit score 카카오', color: '#3182F6', delay: 0, type: 'cmd' },
+  { text: '$ hirekit analyze 카카오', color: '#3182F6', delay: 0, type: 'cmd' },
   { text: '', delay: 400, type: 'blank' },
   { text: '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', color: '#F2F4F6', delay: 500, type: 'instant' },
   { text: '  HireKit Scorecard — 카카오', color: '#F2F4F6', delay: 600, type: 'instant', bold: true },
@@ -1058,6 +1231,33 @@ function escHtmlTerm(s) {
 setTimeout(() => {
   if (lineIndex < lines.length) addLine(lines[lineIndex]);
 }, 600);
+
+// ═══ Footer stats ═══
+(async function loadFooterStats() {
+  try {
+    const r = await fetch('https://api.github.com/repos/zihoshin-dev/hirekit');
+    if (r.ok) {
+      const d = await r.json();
+      const stars = d.stargazers_count ?? 0;
+      document.getElementById('footerStars').textContent = stars >= 1000 ? (stars/1000).toFixed(1)+'k' : (stars ? String(stars) : '—');
+    }
+  } catch(_) {}
+  try {
+    const r2 = await fetch('https://api.github.com/repos/zihoshin-dev/hirekit/contributors?per_page=100');
+    if (r2.ok) {
+      const d2 = await r2.json();
+      document.getElementById('footerContribs').textContent = Array.isArray(d2) ? String(d2.length) : '—';
+    }
+  } catch(_) {}
+  try {
+    const r3 = await fetch('https://pypistats.org/api/packages/hirekit/recent');
+    if (r3.ok) {
+      const d3 = await r3.json();
+      const dl = d3.data?.last_month ?? d3.data?.last_week ?? 0;
+      document.getElementById('footerDownloads').textContent = dl >= 1000 ? (dl/1000).toFixed(1)+'k' : (dl ? String(dl) : '—');
+    }
+  } catch(_) {}
+})();
 
 // ═══ Copy buttons ═══
 function copyInstall() {
