@@ -327,8 +327,133 @@
       gap: 12px;
     }
 
+    /* ── Company card selected: left border highlight ── */
+    .company-card.selected {
+      border-color: var(--primary);
+      background-color: var(--primary-light);
+      border-left: 3px solid var(--primary);
+    }
+
+    /* ── Sort select ── */
+    .sort-select {
+      background: var(--bg-secondary);
+      color: var(--text-secondary);
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      padding: 4px 8px;
+      font-size: 12px;
+      font-weight: 500;
+      outline: none;
+      cursor: pointer;
+      font-family: inherit;
+      transition: border-color 0.15s;
+    }
+    .sort-select:focus { border-color: var(--primary); }
+
+    /* ── Grade badge in card ── */
+    .grade-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      font-size: 10px;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+      flex-shrink: 0;
+    }
+
+    /* ── Industry tag in card ── */
+    .ind-tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 500;
+      background: var(--bg-tertiary);
+      color: var(--text-tertiary);
+    }
+
+    /* ── Accordion ── */
+    .accordion-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background 0.15s;
+      user-select: none;
+    }
+    .accordion-header:hover { background: var(--bg-secondary); }
+    .accordion-content {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.25s cubic-bezier(0.4,0,0.2,1);
+    }
+    .accordion-content.open { max-height: 1000px; }
+    .accordion-chevron {
+      transition: transform 0.2s ease;
+      flex-shrink: 0;
+    }
+    .accordion-header.open .accordion-chevron { transform: rotate(180deg); }
+
+    /* ── File upload drop zone ── */
+    .upload-zone {
+      border: 2px dashed var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .upload-zone:hover, .upload-zone.drag-over {
+      border-color: var(--primary);
+      background: var(--primary-light);
+    }
+    .upload-zone .upload-icon { color: var(--text-tertiary); transition: color 0.2s; }
+    .upload-zone:hover .upload-icon { color: var(--primary); }
+
+    /* ── Detail panel fade-in ── */
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    #detailPanel.open { animation: fadeSlideIn 0.28s cubic-bezier(0.4,0,0.2,1); }
+
+    /* ── Tab slide effect ── */
+    .tab-panel { display: none; }
+    .tab-panel.active {
+      display: block;
+      animation: fadeSlideIn 0.18s ease;
+    }
+
+    /* ── Count up number ── */
+    .count-up { font-variant-numeric: tabular-nums; }
+
+    /* ── Mobile: company selector dropdown ── */
+    #mobileCompanyBar {
+      display: none;
+    }
+    @media (max-width: 767px) {
+      #mobileCompanyBar { display: block; }
+      #leftPanel { display: none !important; }
+      #demoLayout { display: block !important; }
+      .modal-fullscreen {
+        border-radius: 0 !important;
+        max-width: 100% !important;
+        max-height: 100vh !important;
+        height: 100vh;
+        margin: 0;
+      }
+      #modalOverlay { align-items: flex-end !important; padding: 0 !important; }
+      .tab-btn { min-height: 44px; }
+    }
+
     /* ── Desktop: side-by-side layout ── */
-    @media (min-width: 900px) {
+    @media (min-width: 768px) {
       #demoLayout {
         display: grid;
         grid-template-columns: 300px 1fr;
@@ -456,10 +581,33 @@
         </div>
       </div>
 
+      <!-- Mobile company selector bar (768px 미만) -->
+      <div id="mobileCompanyBar" class="mb-4 rounded-2xl overflow-hidden" style="border:1px solid var(--border); background:var(--bg);">
+        <div class="p-3" style="border-bottom:1px solid var(--border);">
+          <div class="relative">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 t-tertiary pointer-events-none" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/></svg>
+            <input id="mobileSearch" type="text" placeholder="기업명 검색..." autocomplete="off"
+              style="background:var(--bg-secondary); color:var(--text-primary); border:2px solid transparent; border-radius:10px; padding:9px 12px 9px 36px; width:100%; font-size:14px; outline:none; font-family:inherit;"
+              oninput="applyMobileSearch(this.value)" />
+          </div>
+        </div>
+        <div class="px-3 py-2.5 flex items-center justify-between" style="border-bottom:1px solid var(--border);">
+          <span id="mobileCount" class="text-xs font-semibold t-secondary">로딩 중...</span>
+          <div class="flex gap-1.5">
+            <button class="filter-chip active" style="font-size:11px; padding:3px 8px;" data-mfilter="all" onclick="setMobileGradeFilter('all', this)">전체</button>
+            <button class="filter-chip" style="font-size:11px; padding:3px 8px; color:var(--primary);" data-mfilter="S" onclick="setMobileGradeFilter('S', this)">S</button>
+            <button class="filter-chip" style="font-size:11px; padding:3px 8px; color:#00C471;" data-mfilter="A" onclick="setMobileGradeFilter('A', this)">A</button>
+          </div>
+        </div>
+        <div id="mobileCompanyList" class="scroll-thin" style="max-height:200px; overflow-y:auto; padding:6px;">
+          <!-- JS rendered -->
+        </div>
+      </div>
+
       <!-- Demo layout: left panel + right detail -->
       <div id="demoLayout">
 
-        <!-- ── Left panel: search + filters + company grid ── -->
+        <!-- ── Left panel: search + filters + company list ── -->
         <div id="leftPanel">
           <div class="rounded-2xl overflow-hidden" style="border:1px solid var(--border); background:var(--bg);">
 
@@ -467,40 +615,42 @@
             <div class="p-4" style="border-bottom:1px solid var(--border);">
               <div class="relative">
                 <svg class="absolute left-3 top-1/2 -translate-y-1/2 t-tertiary pointer-events-none" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/></svg>
-                <input id="companySearch" type="text" placeholder="기업명, 산업, CEO, 기술스택 검색..." autocomplete="off" />
+                <input id="companySearch" type="text" placeholder="기업명, 산업, 기술스택 검색..." autocomplete="off" />
               </div>
             </div>
 
-            <!-- Filter chips: grade -->
-            <div class="px-4 py-3 flex gap-2 flex-wrap" style="border-bottom:1px solid var(--border);">
-              <button class="filter-chip active" data-filter="all" onclick="setGradeFilter('all', this)">전체</button>
-              <button class="filter-chip" data-filter="S" onclick="setGradeFilter('S', this)">
-                <span style="color:var(--primary); font-family:'JetBrains Mono',monospace;">S</span> 등급
-              </button>
-              <button class="filter-chip" data-filter="A" onclick="setGradeFilter('A', this)">
-                <span style="color:#00C471; font-family:'JetBrains Mono',monospace;">A</span> 등급
-              </button>
+            <!-- Grade filter + Sort -->
+            <div class="px-4 py-3 flex items-center justify-between gap-2" style="border-bottom:1px solid var(--border);">
+              <div class="flex gap-1.5 flex-wrap">
+                <button class="filter-chip active" data-filter="all" onclick="setGradeFilter('all', this)">전체</button>
+                <button class="filter-chip" data-filter="S" onclick="setGradeFilter('S', this)">
+                  <span style="color:var(--primary); font-family:'JetBrains Mono',monospace; font-size:11px;">S</span>
+                </button>
+                <button class="filter-chip" data-filter="A" onclick="setGradeFilter('A', this)">
+                  <span style="color:#00C471; font-family:'JetBrains Mono',monospace; font-size:11px;">A</span>
+                </button>
+                <button class="filter-chip" data-filter="B" onclick="setGradeFilter('B', this)">
+                  <span style="color:#FF9500; font-family:'JetBrains Mono',monospace; font-size:11px;">B</span>
+                </button>
+              </div>
+              <select id="sortSelect" class="sort-select" onchange="applyFilterAndSearch()">
+                <option value="name">이름순</option>
+                <option value="grade">등급순</option>
+                <option value="employees">직원수순</option>
+              </select>
             </div>
 
-            <!-- Filter chips: industry + AI toggle -->
-            <div class="px-4 py-2.5 flex gap-2 flex-wrap items-center" style="border-bottom:1px solid var(--border);">
-              <div id="industryChips" class="flex gap-1.5 flex-wrap flex-1">
-                <!-- populated by JS -->
-              </div>
+            <!-- AI toggle + Count -->
+            <div class="px-4 py-2.5 flex items-center justify-between" style="border-bottom:1px solid var(--border);">
+              <span id="companyCount" class="text-xs font-semibold t-secondary">로딩 중...</span>
               <label class="toggle-wrap" id="aiToggleWrap" onclick="toggleAiFilter()">
                 <div class="toggle-dot"></div>
                 <span>AI 전략</span>
               </label>
             </div>
 
-            <!-- Count -->
-            <div class="px-4 py-2.5 flex items-center justify-between" style="border-bottom:1px solid var(--border);">
-              <span id="companyCount" class="text-xs t-tertiary">로딩 중...</span>
-              <span class="text-xs t-tertiary">클릭하여 분석</span>
-            </div>
-
-            <!-- Company grid -->
-            <div id="companyGrid" class="p-3 grid grid-cols-2 gap-2 scroll-thin" style="max-height:420px; overflow-y:auto;">
+            <!-- Industry accordion groups -->
+            <div id="industryAccordion" class="scroll-thin" style="max-height: calc(100vh - 340px); overflow-y:auto;">
               <!-- JS rendered -->
             </div>
             <div id="noResults" class="hidden text-center py-10 t-tertiary text-sm p-4">검색 결과가 없어요</div>
@@ -517,10 +667,42 @@
           </div>
 
           <!-- Empty state before selection -->
-          <div id="emptyState" class="empty-panel rounded-2xl" style="border:1.5px dashed var(--border);">
-            <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--text-tertiary); opacity:0.5;"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
-            <p class="font-medium t-secondary" style="font-size:15px;">기업을 선택하세요</p>
-            <p class="text-sm t-tertiary">왼쪽 목록에서 분석할 기업을 클릭하면<br/>스코어카드와 상세 분석이 표시돼요.</p>
+          <div id="emptyState" class="empty-panel rounded-2xl" style="border:1.5px dashed var(--border); min-height:480px;">
+            <!-- Illustration -->
+            <div style="position:relative; width:120px; height:120px; margin-bottom:8px;">
+              <div style="position:absolute; inset:0; border-radius:50%; background:var(--primary-light); opacity:0.6;"></div>
+              <div style="position:absolute; inset:16px; border-radius:50%; background:var(--primary-light);"></div>
+              <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
+                <svg width="52" height="52" fill="none" viewBox="0 0 24 24" style="color:var(--primary);">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                </svg>
+              </div>
+            </div>
+            <p class="font-bold t-primary" style="font-size:17px; letter-spacing:-0.02em;">기업을 선택해보세요</p>
+            <p class="text-sm t-tertiary" style="max-width:240px; line-height:1.6;">왼쪽 목록에서 분석할 기업을 클릭하면<br/>스코어카드 · JD 매칭 · 이력서 분석이 바로 열려요.</p>
+            <div style="margin-top:16px; display:flex; flex-direction:column; gap:8px; width:100%; max-width:240px;">
+              <div class="flex items-center gap-3 p-3 rounded-xl" style="background:var(--bg-secondary); text-align:left;">
+                <span style="font-size:18px;">📊</span>
+                <div>
+                  <div class="text-xs font-semibold t-primary">스코어카드</div>
+                  <div class="text-xs t-tertiary">5개 차원 종합 평가</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 p-3 rounded-xl" style="background:var(--bg-secondary); text-align:left;">
+                <span style="font-size:18px;">🎯</span>
+                <div>
+                  <div class="text-xs font-semibold t-primary">JD 매칭</div>
+                  <div class="text-xs t-tertiary">채용공고 URL 또는 텍스트 붙여넣기</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 p-3 rounded-xl" style="background:var(--bg-secondary); text-align:left;">
+                <span style="font-size:18px;">📄</span>
+                <div>
+                  <div class="text-xs font-semibold t-primary">이력서 분석</div>
+                  <div class="text-xs t-tertiary">파일 업로드 또는 링크 입력</div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -531,7 +713,7 @@
 
   <!-- ═══ JD / Resume Modal ═══ -->
   <div id="modalOverlay" onclick="closeModalIfOutside(event)">
-    <div id="modalBox">
+    <div id="modalBox" class="modal-fullscreen">
       <!-- JD Modal -->
       <div id="modalJd">
         <div class="flex items-center justify-between mb-5">
@@ -543,8 +725,16 @@
             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
         </div>
-        <p class="text-sm t-secondary mb-3">채용 공고 텍스트를 붙여넣으세요. 기업 기술 스택과 키워드를 자동으로 매칭해요.</p>
-        <textarea id="jdText" rows="9" placeholder="채용 공고 전문을 붙여넣으세요...
+        <div class="space-y-3">
+          <div>
+            <label class="text-sm font-semibold t-primary block mb-1.5">채용공고 URL</label>
+            <input type="url" id="jdUrl" placeholder="https://careers.kakao.com/..." style="background:var(--bg-secondary); color:var(--text-primary); border:2px solid transparent; border-radius:12px; padding:12px 16px; width:100%; font-family:inherit; font-size:14px; outline:none; transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='transparent'" />
+            <p class="text-xs t-tertiary mt-1">원티드, 잡코리아, 사람인, 회사 채용페이지 등의 URL을 입력하세요</p>
+          </div>
+          <div class="flex items-center gap-3"><div style="flex:1;height:1px;background:var(--border);"></div><span class="text-xs t-tertiary font-medium">또는</span><div style="flex:1;height:1px;background:var(--border);"></div></div>
+          <div>
+            <label class="text-sm font-semibold t-primary block mb-1.5">JD 텍스트 직접 입력</label>
+            <textarea id="jdText" rows="7" placeholder="채용공고 내용을 붙여넣기하세요...
 
 예시:
 [카카오] 백엔드 개발자 채용
@@ -556,11 +746,14 @@
 우대사항
 - Kafka, Redis 운영 경험
 - AI 서비스 개발 경험"></textarea>
+          </div>
+        </div>
         <div class="flex justify-end gap-2 mt-4">
           <button onclick="closeModal()" class="btn-click text-sm font-medium t-secondary" style="height:40px; padding:0 18px; background:var(--bg-secondary); border-radius:10px; border:none; cursor:pointer;">취소</button>
           <button onclick="runJdMatch()" class="btn-click text-sm font-semibold text-white" style="height:40px; padding:0 20px; background:var(--primary); border-radius:10px; border:none; cursor:pointer;">분석하기</button>
         </div>
       </div>
+
       <!-- Resume Modal -->
       <div id="modalResume" style="display:none;">
         <div class="flex items-center justify-between mb-5">
@@ -572,21 +765,34 @@
             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
         </div>
-        <p class="text-sm t-secondary mb-3">이력서 텍스트를 붙여넣으면 JD 키워드와 자동으로 비교해요.</p>
-        <textarea id="resumeText" rows="11" placeholder="이력서 내용을 붙여넣으세요...
+        <div class="space-y-3">
+          <div class="upload-zone" id="resumeDropZone"
+               onclick="document.getElementById('resumeFile').click()"
+               ondragover="event.preventDefault(); this.classList.add('drag-over')"
+               ondragleave="this.classList.remove('drag-over')"
+               ondrop="handleResumeDrop(event)">
+            <svg class="upload-icon mx-auto" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            <p class="text-sm font-semibold t-primary mt-2" id="resumeFileName">파일을 드래그하거나 클릭해서 업로드</p>
+            <p class="text-xs t-tertiary mt-0.5">.pdf, .docx, .txt, .md 지원</p>
+            <input type="file" id="resumeFile" hidden accept=".pdf,.docx,.txt,.md" onchange="handleResumeFile(this)" />
+          </div>
+          <div class="flex items-center gap-3"><div style="flex:1;height:1px;background:var(--border);"></div><span class="text-xs t-tertiary font-medium">또는</span><div style="flex:1;height:1px;background:var(--border);"></div></div>
+          <div>
+            <label class="text-sm font-semibold t-primary block mb-1.5">포트폴리오 / 이력서 링크</label>
+            <input type="url" id="resumeUrl" placeholder="Notion, Google Docs, GitHub 링크 등..." style="background:var(--bg-secondary); color:var(--text-primary); border:2px solid transparent; border-radius:12px; padding:12px 16px; width:100%; font-family:inherit; font-size:14px; outline:none; transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='transparent'" />
+          </div>
+          <div class="flex items-center gap-3"><div style="flex:1;height:1px;background:var(--border);"></div><span class="text-xs t-tertiary font-medium">또는</span><div style="flex:1;height:1px;background:var(--border);"></div></div>
+          <div>
+            <label class="text-sm font-semibold t-primary block mb-1.5">이력서 직접 입력</label>
+            <textarea id="resumeText" rows="6" placeholder="이력서 내용을 붙여넣으세요...
 
 예시:
 이름: 홍길동 | 경력: 4년
 
 [기술 스택]
-Java, Kotlin, Spring Boot, MySQL, Redis, Kafka, Docker
-
-[경력]
-- 카카오페이 백엔드 개발 (2021~2025)
-  결제 API 개발, 일 100만 건 트랜잭션 처리
-
-[학력]
-- 서울대학교 컴퓨터공학과 졸업"></textarea>
+Java, Kotlin, Spring Boot, MySQL, Redis, Kafka, Docker"></textarea>
+          </div>
+        </div>
         <div class="flex justify-end gap-2 mt-4">
           <button onclick="closeModal()" class="btn-click text-sm font-medium t-secondary" style="height:40px; padding:0 18px; background:var(--bg-secondary); border-radius:10px; border:none; cursor:pointer;">취소</button>
           <button onclick="runResumeMatch()" class="btn-click text-sm font-semibold text-white" style="height:40px; padding:0 20px; background:var(--primary); border-radius:10px; border:none; cursor:pointer;">분석하기</button>
@@ -661,6 +867,9 @@ let resumeKeywords    = [];
 let activeFilter      = 'all';   // grade filter
 let activeIndustry    = 'all';   // industry filter
 let aiFilterOn        = false;   // AI strategy toggle
+let activeSortKey     = 'name';  // sort key
+let accordionState    = {};      // industry → open/closed
+let mobileGradeFilter = 'all';
 
 // ═══════════════════════════════════════════════════════
 // Slug / fetch
@@ -689,24 +898,22 @@ async function loadCompanies() {
     buildIndustryChips();
     applyFilterAndSearch();
   } catch (e) {
-    document.getElementById('companyGrid').innerHTML =
-      '<div class="col-span-2 text-center py-8 text-sm t-tertiary">기업 데이터를 불러올 수 없어요</div>';
+    document.getElementById('industryAccordion').innerHTML =
+      '<div class="text-center py-8 text-sm t-tertiary p-4">기업 데이터를 불러올 수 없어요</div>';
   }
 }
 
 function buildIndustryChips() {
+  // 아코디언 초기 상태 설정
   const industries = [...new Set(allCompanies.map(c => c.industry).filter(Boolean))].sort();
-  const wrap = document.getElementById('industryChips');
-  wrap.innerHTML = [
-    `<button class="filter-chip active" data-ind="all" onclick="setIndustryFilter('all', this)" style="font-size:11px; padding:4px 10px;">전체 산업</button>`,
-    ...industries.map(ind =>
-      `<button class="filter-chip" data-ind="${escHtml(ind)}" onclick="setIndustryFilter('${ind.replace(/'/g,"\\'")}', this)" style="font-size:11px; padding:4px 10px;">${escHtml(ind)}</button>`
-    )
-  ].join('');
+  industries.forEach(ind => { if (accordionState[ind] === undefined) accordionState[ind] = true; });
+  applyFilterAndSearch();
 }
 
 function applyFilterAndSearch() {
   const q = document.getElementById('companySearch').value.trim().toLowerCase();
+  activeSortKey = document.getElementById('sortSelect')?.value || 'name';
+
   filteredCompanies = allCompanies.filter(c => {
     const gradeOk    = activeFilter === 'all' || c.grade === activeFilter;
     const industryOk = activeIndustry === 'all' || c.industry === activeIndustry;
@@ -718,7 +925,150 @@ function applyFilterAndSearch() {
       (c.tech_stack || []).some(t => t.toLowerCase().includes(q));
     return gradeOk && industryOk && aiOk && searchOk;
   });
-  renderCompanyGrid(filteredCompanies);
+
+  // Sort
+  const gradeOrder = { S:0, A:1, B:2, C:3, D:4 };
+  filteredCompanies.sort((a, b) => {
+    if (activeSortKey === 'grade') return (gradeOrder[a.grade]??9) - (gradeOrder[b.grade]??9);
+    if (activeSortKey === 'employees') return (b.employee_count||0) - (a.employee_count||0);
+    return a.name.localeCompare(b.name, 'ko');
+  });
+
+  document.getElementById('companyCount').textContent = `${filteredCompanies.length}개 기업`;
+
+  if (filteredCompanies.length === 0) {
+    document.getElementById('industryAccordion').innerHTML = '';
+    document.getElementById('noResults').classList.remove('hidden');
+    renderMobileList(filteredCompanies);
+    return;
+  }
+  document.getElementById('noResults').classList.add('hidden');
+  renderAccordion(filteredCompanies);
+  renderMobileList(filteredCompanies);
+}
+
+function renderAccordion(companies) {
+  const container = document.getElementById('industryAccordion');
+  // Group by industry
+  const groups = {};
+  companies.forEach(c => {
+    const ind = c.industry || '기타';
+    if (!groups[ind]) groups[ind] = [];
+    groups[ind].push(c);
+  });
+
+  const isSearching = document.getElementById('companySearch').value.trim().length > 0;
+
+  container.innerHTML = Object.entries(groups).map(([ind, list]) => {
+    const isOpen = isSearching ? true : (accordionState[ind] !== false);
+    const indId = 'acc-' + ind.replace(/[^a-zA-Z0-9가-힣]/g, '_');
+    const cards = list.map(c => buildCompanyCard(c)).join('');
+    return `
+      <div class="accordion-group" style="border-bottom:1px solid var(--border);">
+        <div class="accordion-header${isOpen ? ' open' : ''}" onclick="toggleAccordion('${ind.replace(/'/g,"\\'")}', '${indId}', this)">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-semibold t-secondary">${escHtml(ind)}</span>
+            <span class="text-xs t-tertiary" style="background:var(--bg-secondary); padding:1px 7px; border-radius:100px;">${list.length}</span>
+          </div>
+          <svg class="accordion-chevron t-tertiary" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </div>
+        <div class="accordion-content${isOpen ? ' open' : ''}" id="${indId}">
+          <div class="p-2 grid grid-cols-1 gap-1.5">
+            ${cards}
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function toggleAccordion(ind, contentId, headerEl) {
+  const content = document.getElementById(contentId);
+  const isOpen = content.classList.contains('open');
+  content.classList.toggle('open', !isOpen);
+  headerEl.classList.toggle('open', !isOpen);
+  accordionState[ind] = !isOpen;
+}
+
+function buildCompanyCard(c) {
+  const gradeColor = getGradeColor(c.grade);
+  const gradeBg    = getGradeBg(c.grade);
+  const isSelected = selectedCompany === c.name;
+  const empText    = c.employee_count ? Number(c.employee_count).toLocaleString() + '명' : '';
+  const aiBadge    = c.ai_strategy
+    ? `<span class="ai-badge" style="font-size:10px; padding:2px 5px;"><svg width="8" height="8" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>AI</span>`
+    : '';
+  return `
+    <div class="company-card${isSelected ? ' selected' : ''}"
+         data-name="${escHtml(c.name)}"
+         onclick="selectCompany('${c.name.replace(/'/g, "\\'")}', this)"
+         role="button" tabindex="0"
+         aria-label="${escHtml(c.name)} 분석하기"
+         style="padding:10px 12px; border-radius:10px;">
+      <div class="flex items-start justify-between gap-2 mb-1">
+        <span class="font-semibold t-primary leading-tight" style="font-size:13px; word-break:keep-all;">${escHtml(c.name)}</span>
+        <span class="grade-badge flex-shrink-0" style="background:${gradeBg}; color:${gradeColor};">${c.grade || '—'}</span>
+      </div>
+      <div class="flex items-center gap-1.5 flex-wrap">
+        ${c.sub_industry ? `<span class="ind-tag">${escHtml(c.sub_industry)}</span>` : ''}
+        ${empText ? `<span class="text-xs t-tertiary">${empText}</span>` : ''}
+        ${aiBadge}
+      </div>
+    </div>
+  `;
+}
+
+function renderMobileList(companies) {
+  const el = document.getElementById('mobileCompanyList');
+  if (!el) return;
+  const filtered = mobileGradeFilter === 'all' ? companies : companies.filter(c => c.grade === mobileGradeFilter);
+  if (filtered.length === 0) {
+    el.innerHTML = '<div class="text-xs t-tertiary text-center py-4">검색 결과가 없어요</div>';
+    document.getElementById('mobileCount').textContent = '0개 기업';
+    return;
+  }
+  document.getElementById('mobileCount').textContent = `${filtered.length}개 기업`;
+  el.innerHTML = filtered.map(c => {
+    const gradeColor = getGradeColor(c.grade);
+    const gradeBg = getGradeBg(c.grade);
+    const isSelected = selectedCompany === c.name;
+    return `
+      <div class="flex items-center gap-2 px-2 py-2 rounded-lg cursor-pointer transition-colors${isSelected ? '' : ''}"
+           style="${isSelected ? 'background:var(--primary-light); border-left:3px solid var(--primary);' : 'border-left:3px solid transparent;'}"
+           onclick="selectCompanyMobile('${c.name.replace(/'/g,"\\'")}', this)">
+        <span class="grade-badge flex-shrink-0" style="background:${gradeBg}; color:${gradeColor}; font-size:9px; width:18px; height:18px;">${c.grade||'—'}</span>
+        <span class="text-sm font-medium t-primary truncate flex-1">${escHtml(c.name)}</span>
+        ${c.industry ? `<span class="text-xs t-tertiary flex-shrink-0">${escHtml(c.industry)}</span>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+function applyMobileSearch(q) {
+  const lower = q.trim().toLowerCase();
+  const filtered = allCompanies.filter(c =>
+    !lower ||
+    c.name.toLowerCase().includes(lower) ||
+    (c.industry||'').toLowerCase().includes(lower)
+  );
+  renderMobileList(filtered);
+}
+
+function setMobileGradeFilter(grade, btn) {
+  mobileGradeFilter = grade;
+  document.querySelectorAll('[data-mfilter]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderMobileList(filteredCompanies);
+}
+
+function selectCompanyMobile(name, el) {
+  selectCompany(name, null);
+  // 모바일 목록 하이라이트 갱신
+  document.querySelectorAll('#mobileCompanyList > div').forEach(d => {
+    const isThis = d.textContent.includes(name);
+    d.style.background = isThis ? 'var(--primary-light)' : '';
+    d.style.borderLeft = isThis ? '3px solid var(--primary)' : '3px solid transparent';
+  });
 }
 
 function setGradeFilter(filter, btn) {
@@ -728,60 +1078,39 @@ function setGradeFilter(filter, btn) {
   applyFilterAndSearch();
 }
 
-function setIndustryFilter(ind, btn) {
-  activeIndustry = ind;
-  document.querySelectorAll('[data-ind]').forEach(c => c.classList.remove('active'));
-  btn.classList.add('active');
-  applyFilterAndSearch();
-}
-
 function toggleAiFilter() {
   aiFilterOn = !aiFilterOn;
-  const wrap = document.getElementById('aiToggleWrap');
-  wrap.classList.toggle('active', aiFilterOn);
+  document.getElementById('aiToggleWrap').classList.toggle('active', aiFilterOn);
   applyFilterAndSearch();
 }
 
-function renderCompanyGrid(companies) {
-  const grid = document.getElementById('companyGrid');
-  const noResults = document.getElementById('noResults');
-  const countEl = document.getElementById('companyCount');
+// File upload handlers
+function handleResumeFile(input) {
+  const file = input.files[0];
+  if (!file) return;
+  document.getElementById('resumeFileName').textContent = file.name;
+  const reader = new FileReader();
+  reader.onload = e => {
+    if (file.name.endsWith('.txt') || file.name.endsWith('.md')) {
+      document.getElementById('resumeText').value = e.target.result;
+    }
+  };
+  reader.readAsText(file);
+}
 
-  countEl.textContent = `${companies.length}개 기업`;
-
-  if (companies.length === 0) {
-    grid.innerHTML = '';
-    noResults.classList.remove('hidden');
-    return;
-  }
-  noResults.classList.add('hidden');
-  grid.innerHTML = companies.map(c => {
-    const gradeColor = getGradeColor(c.grade);
-    const isSelected = selectedCompany === c.name;
-    const aiBadge = c.ai_strategy
-      ? `<span class="ai-badge" style="font-size:10px; padding:2px 6px; margin-left:auto;"><svg width="9" height="9" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>AI</span>`
-      : '';
-    const metaParts = [];
-    if (c.industry) metaParts.push(c.industry);
-    if (c.hq_location) metaParts.push(c.hq_location);
-    if (c.employee_count) metaParts.push(Number(c.employee_count).toLocaleString() + '명');
-    const metaLine = metaParts.join(' · ');
-    return `
-      <div class="company-card${isSelected ? ' selected' : ''}"
-           data-name="${escHtml(c.name)}"
-           onclick="selectCompany('${c.name.replace(/'/g, "\\'")}', this)"
-           role="button" tabindex="0"
-           aria-label="${escHtml(c.name)} 분석하기">
-        <div class="font-semibold t-primary leading-tight truncate" style="font-size:13px;">${escHtml(c.name)}</div>
-        ${metaLine ? `<div class="text-xs t-tertiary truncate mt-0.5 mb-1" style="font-size:11px;">${escHtml(metaLine)}</div>` : '<div class="mb-1.5"></div>'}
-        <div class="flex items-center gap-1.5">
-          <span class="font-mono text-xs font-bold" style="color:${gradeColor};">${c.grade || '—'}</span>
-          <span class="text-xs t-tertiary">${Math.round(c.score || 0)}점</span>
-          ${aiBadge}
-        </div>
-      </div>
-    `;
-  }).join('');
+function handleResumeDrop(e) {
+  e.preventDefault();
+  document.getElementById('resumeDropZone').classList.remove('drag-over');
+  const file = e.dataTransfer.files[0];
+  if (!file) return;
+  document.getElementById('resumeFileName').textContent = file.name;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    if (file.name.endsWith('.txt') || file.name.endsWith('.md')) {
+      document.getElementById('resumeText').value = ev.target.result;
+    }
+  };
+  reader.readAsText(file);
 }
 
 // Search input
@@ -794,6 +1123,8 @@ async function selectCompany(name, el) {
   selectedCompany = name;
   document.querySelectorAll('.company-card').forEach(c => c.classList.remove('selected'));
   if (el) el.classList.add('selected');
+  // 모바일 리스트 하이라이트
+  renderMobileList(filteredCompanies);
 
   // Hide empty state, show detail panel
   document.getElementById('emptyState').style.display = 'none';
@@ -1855,11 +2186,14 @@ function closeModalIfOutside(e) {
 // ═══════════════════════════════════════════════════════
 function runJdMatch() {
   const text = document.getElementById('jdText').value.trim();
-  if (!text) { alert('JD 텍스트를 입력해주세요.'); return; }
-  jdKeywords = extractJdKeywords(text);
+  const url  = document.getElementById('jdUrl')?.value.trim() || '';
+  if (!text && !url) { alert('채용공고 URL 또는 JD 텍스트를 입력해주세요.'); return; }
+  // URL만 입력된 경우 URL을 텍스트에 포함해 키워드 추출에 활용
+  const combined = text || url;
+  jdKeywords = extractJdKeywords(combined);
   closeModal();
   document.getElementById('tabJdMatchBtn').style.display = '';
-  renderJdMatch(companyData, selectedCompany, text, jdKeywords);
+  renderJdMatch(companyData, selectedCompany, combined, jdKeywords);
   switchDetailTab('jdmatch', document.getElementById('tabJdMatchBtn'));
 }
 
