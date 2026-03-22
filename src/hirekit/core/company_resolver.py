@@ -38,13 +38,13 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "카카오페이": CompanyInfo(
         name="카카오페이",
-        dart_code="01445295",
+        dart_code="01244601",
         github_orgs=["kakaopay"],
         aliases=["kakaopay"],
     ),
     "카카오뱅크": CompanyInfo(
         name="카카오뱅크",
-        dart_code="01456825",
+        dart_code="01133217",
         github_orgs=[],
         aliases=["kakaobank"],
     ),
@@ -62,7 +62,7 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "토스": CompanyInfo(
         name="토스",
-        dart_code="00783965",
+        dart_code="01212921",
         github_orgs=["toss"],
         aliases=["비바리퍼블리카", "viva republica", "toss"],
         corp_name="비바리퍼블리카",
@@ -70,7 +70,7 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "비바리퍼블리카": CompanyInfo(
         name="비바리퍼블리카",
-        dart_code="00783965",
+        dart_code="01212921",
         github_orgs=["toss"],
         aliases=["토스", "toss"],
         corp_name="비바리퍼블리카",
@@ -78,13 +78,13 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "토스뱅크": CompanyInfo(
         name="토스뱅크",
-        dart_code="01652068",
+        dart_code="01529195",
         github_orgs=[],
         aliases=["tossbank"],
     ),
     "토스증권": CompanyInfo(
         name="토스증권",
-        dart_code="00264498",
+        dart_code="01527984",
         github_orgs=[],
         aliases=["tosssecurities"],
     ),
@@ -96,25 +96,25 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "네이버클라우드": CompanyInfo(
         name="네이버클라우드",
-        dart_code="01347498",
+        dart_code="00777272",
         github_orgs=["NaverCloudPlatform"],
         aliases=["naver cloud"],
     ),
     "네이버웹툰": CompanyInfo(
         name="네이버웹툰",
-        dart_code="01655498",
+        dart_code="01485846",
         github_orgs=[],
         aliases=["webtoon"],
     ),
     "쿠팡": CompanyInfo(
         name="쿠팡",
-        dart_code="01347901",
+        dart_code="01019166",
         github_orgs=["coupang"],
         aliases=["coupang"],
     ),
     "우아한형제들": CompanyInfo(
         name="우아한형제들",
-        dart_code="00832628",
+        dart_code="01063273",
         github_orgs=["woowabros"],
         aliases=["배달의민족", "baemin", "woowahan"],
         corp_name="우아한형제들",
@@ -122,7 +122,7 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "배달의민족": CompanyInfo(
         name="배달의민족",
-        dart_code="00832628",
+        dart_code="01063273",
         github_orgs=["woowabros"],
         aliases=["우아한형제들", "baemin"],
         corp_name="우아한형제들",
@@ -130,7 +130,7 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "당근": CompanyInfo(
         name="당근",
-        dart_code="01444039",
+        dart_code="01547845",
         github_orgs=["daangn"],
         aliases=["당근마켓", "daangn", "karrot"],
         corp_name="당근마켓",
@@ -138,7 +138,7 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "당근마켓": CompanyInfo(
         name="당근마켓",
-        dart_code="01444039",
+        dart_code="01547845",
         github_orgs=["daangn"],
         aliases=["당근", "daangn", "karrot"],
         corp_name="당근마켓",
@@ -146,25 +146,25 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "무신사": CompanyInfo(
         name="무신사",
-        dart_code="01203942",
+        dart_code="01137727",
         github_orgs=["musinsa"],
         aliases=["musinsa"],
     ),
     "라인플러스": CompanyInfo(
         name="라인플러스",
-        dart_code="01231396",
+        dart_code="01026731",
         github_orgs=["line"],
         aliases=["라인", "line"],
     ),
     "라인": CompanyInfo(
         name="라인",
-        dart_code="01231396",
+        dart_code="01026731",
         github_orgs=["line"],
         aliases=["라인플러스", "line"],
     ),
     "야놀자": CompanyInfo(
         name="야놀자",
-        dart_code="00991498",
+        dart_code="00907864",
         github_orgs=["yanolja"],
         aliases=["yanolja"],
     ),
@@ -176,9 +176,9 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "삼성SDS": CompanyInfo(
         name="삼성SDS",
-        dart_code="00260155",
+        dart_code="00126186",
         github_orgs=[],
-        aliases=["samsung sds"],
+        aliases=["samsung sds", "삼성에스디에스"],
     ),
     "LG전자": CompanyInfo(
         name="LG전자",
@@ -200,9 +200,25 @@ _REGISTRY: dict[str, CompanyInfo] = {
     ),
     "CJ ENM": CompanyInfo(
         name="CJ ENM",
-        dart_code="00105464",
+        dart_code="00265324",
         github_orgs=[],
-        aliases=["cj enm"],
+        aliases=["cj enm", "씨제이이엔엠"],
+    ),
+    "두나무": CompanyInfo(
+        name="두나무",
+        dart_code="01310241",
+        github_orgs=[],
+        aliases=["dunamu", "업비트"],
+        corp_name="두나무",
+        brand_name="업비트",
+    ),
+    "뤼튼": CompanyInfo(
+        name="뤼튼",
+        dart_code="01921445",
+        github_orgs=[],
+        aliases=["wrtn", "뤼튼테크놀로지스", "wrtn technologies"],
+        corp_name="뤼튼테크놀로지스",
+        brand_name="뤼튼",
     ),
     # ── 외국계 한국 지사 ──────────────────────────────────────────────────────
     "구글코리아": CompanyInfo(

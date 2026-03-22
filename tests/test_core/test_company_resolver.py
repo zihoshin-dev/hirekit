@@ -34,18 +34,18 @@ class TestResolveCompany:
     def test_canonical_name_with_suffix(self):
         info = resolve_company("카카오페이")
         assert info is not None
-        assert info.dart_code == "01445295"
+        assert info.dart_code == "01244601"
 
     def test_alias_resolution(self):
         # "비바리퍼블리카" is an alias for 토스
         info = resolve_company("비바리퍼블리카")
         assert info is not None
-        assert info.dart_code == "00783965"
+        assert info.dart_code == "01212921"
 
     def test_english_alias(self):
         info = resolve_company("toss")
         assert info is not None
-        assert info.dart_code == "00783965"
+        assert info.dart_code == "01212921"
 
     def test_name_with_juja_stripped(self):
         info = resolve_company("(주)카카오")
