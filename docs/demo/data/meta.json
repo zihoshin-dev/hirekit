@@ -277,7 +277,12 @@
     "interview_tip": "티빙의 넷플릭스 대비 차별점과 CJ ENM의 IP 전략을 미리 파악해야 한다. 콘텐츠 도메인 이해도(OTT 비즈니스 모델, K-콘텐츠 해외 유통 구조)를 어필하면 유리하다.",
     "address": "서울특별시 서초구  과천대로 870-13",
     "homepage": "www.cjmall.com",
-    "stock_code": "035760"
+    "stock_code": "035760",
+    "market_cap": 1290329522176,
+    "per": 10.87,
+    "foreign_ownership_pct": 12.6,
+    "week52_high": 82300.0,
+    "week52_low": 53700.0
   },
   {
     "name": "CJ올리브영",
@@ -1107,7 +1112,13 @@
     },
     "address": "경기도 이천시  부발읍 경충대로 2091",
     "homepage": "www.skhynix.com",
-    "stock_code": "000660"
+    "stock_code": "000660",
+    "market_cap": 695288499011584,
+    "per": 4.61,
+    "dividend_yield": 0.3,
+    "foreign_ownership_pct": 45.4,
+    "week52_high": 1099000.0,
+    "week52_low": 162700.0
   },
   {
     "name": "SM엔터테인먼트",
@@ -1909,7 +1920,32 @@
     },
     "address": "경기도 성남시 분당구 정자일로 95 1784",
     "homepage": "www.navercorp.com",
-    "stock_code": "035420"
+    "stock_code": "035420",
+    "market_cap": 33110886449152,
+    "per": 14.17,
+    "dividend_yield": 1.19,
+    "foreign_ownership_pct": 39.56,
+    "week52_high": 295000.0,
+    "week52_low": 176200.0,
+    "ai_repos_count": 9,
+    "ai_total_stars": 3142,
+    "top_ai_repos": [
+      {
+        "name": "splade",
+        "stars": 984,
+        "language": "Python"
+      },
+      {
+        "name": "biobert-pretrained",
+        "stars": 706,
+        "language": null
+      },
+      {
+        "name": "deep-image-retrieval",
+        "stars": 679,
+        "language": "Python"
+      }
+    ]
   },
   {
     "name": "네이버웹툰",
@@ -2037,7 +2073,32 @@
     "why_join": "글로벌 콘텐츠 플랫폼에서 북미·일본·한국 시장을 동시에 다루는 경험을 쌓을 수 있다. 나스닥 상장사로 글로벌 기준의 IR·기술 프로세스를 경험하기 좋다.",
     "why_not_join": "적자 구조에서 비용 효율화 압박이 있어 투자보다 절약에 집중하는 환경일 수 있다. 나스닥 주가 부진으로 스톡옵션 가치가 기대보다 낮을 수 있다.",
     "interview_tip": "웹툰·만화 콘텐츠 산업 구조(유료화 모델, IP 라이선싱)와 네이버웹툰의 일본 전략을 이해해야 한다. 글로벌 서비스 운영 경험이나 다국어 환경 개발 경험이 있으면 어필 포인트가 된다.",
-    "address": "경기도 성남시 분당구 불정로 6 6층, 7층, 8층, 9층, 10층 (정자동, 네이버그린팩토리)"
+    "address": "경기도 성남시 분당구 불정로 6 6층, 7층, 8층, 9층, 10층 (정자동, 네이버그린팩토리)",
+    "market_cap": 33110886449152,
+    "per": 14.17,
+    "dividend_yield": 1.19,
+    "foreign_ownership_pct": 39.56,
+    "week52_high": 295000.0,
+    "week52_low": 176200.0,
+    "ai_repos_count": 9,
+    "ai_total_stars": 3142,
+    "top_ai_repos": [
+      {
+        "name": "splade",
+        "stars": 984,
+        "language": "Python"
+      },
+      {
+        "name": "biobert-pretrained",
+        "stars": 706,
+        "language": null
+      },
+      {
+        "name": "deep-image-retrieval",
+        "stars": 679,
+        "language": "Python"
+      }
+    ]
   },
   {
     "name": "네이버클라우드",
@@ -2166,7 +2227,32 @@
     "why_not_join": "AWS·Azure 대비 글로벌 인지도가 낮아 해외 커리어로 연결하기 어렵다. 네이버 자회사로 독립적 의사결정보다 본사 전략에 종속적일 수 있다.",
     "interview_tip": "NCP의 주요 서비스와 하이퍼클로바X 기반 AI 서비스 구조를 파악해야 한다. CSAP 인증, 공공 클라우드 특수 요구사항에 대한 이해를 어필하면 유리하다.",
     "address": "경기도 성남시 분당구 불정로 6 (정자동, 네이버그린팩토리)",
-    "homepage": "www.navercloudcorp.com"
+    "homepage": "www.navercloudcorp.com",
+    "market_cap": 33110886449152,
+    "per": 14.17,
+    "dividend_yield": 1.19,
+    "foreign_ownership_pct": 39.56,
+    "week52_high": 295000.0,
+    "week52_low": 176200.0,
+    "ai_repos_count": 8,
+    "ai_total_stars": 31,
+    "top_ai_repos": [
+      {
+        "name": "android-ai-sample",
+        "stars": 11,
+        "language": "Java"
+      },
+      {
+        "name": "ai-python-sample",
+        "stars": 9,
+        "language": "Python"
+      },
+      {
+        "name": "naverspeech-sdk-android",
+        "stars": 6,
+        "language": null
+      }
+    ]
   },
   {
     "name": "네이버파이낸셜",
@@ -2293,7 +2379,32 @@
     "interview_tip": "네이버페이의 온·오프라인 결제 생태계 전략과 토스·카카오페이 대비 차별화 포인트를 이해해야 한다. 대규모 결제 트랜잭션 처리 관련 기술 경험(분산 시스템, 이벤트 소싱 등)을 구체적으로 준비하면 유리하다.",
     "address": "경기도 성남시 분당구 정자일로 95 1784",
     "homepage": "www.navercorp.com",
-    "stock_code": "035420"
+    "stock_code": "035420",
+    "market_cap": 33110886449152,
+    "per": 14.17,
+    "dividend_yield": 1.19,
+    "foreign_ownership_pct": 39.56,
+    "week52_high": 295000.0,
+    "week52_low": 176200.0,
+    "ai_repos_count": 9,
+    "ai_total_stars": 3142,
+    "top_ai_repos": [
+      {
+        "name": "splade",
+        "stars": 984,
+        "language": "Python"
+      },
+      {
+        "name": "biobert-pretrained",
+        "stars": 706,
+        "language": null
+      },
+      {
+        "name": "deep-image-retrieval",
+        "stars": 679,
+        "language": "Python"
+      }
+    ]
   },
   {
     "name": "넥슨코리아",
@@ -2735,7 +2846,16 @@
       "ipo_status": "비상장 (IPO 미정)"
     },
     "address": "서울 서초구 강남대로 465 10, 11, 12층",
-    "homepage": "www.daangn.com"
+    "homepage": "www.daangn.com",
+    "ai_repos_count": 1,
+    "ai_total_stars": 1,
+    "top_ai_repos": [
+      {
+        "name": "rag-practice",
+        "stars": 1,
+        "language": null
+      }
+    ]
   },
   {
     "name": "두나무",
@@ -3156,7 +3276,26 @@
       "ipo_status": "비상장"
     },
     "address": "경기도 성남시 분당구 황새울로360번길 42 (서현동, AK플라자)",
-    "homepage": "line.me"
+    "homepage": "line.me",
+    "ai_repos_count": 8,
+    "ai_total_stars": 347,
+    "top_ai_repos": [
+      {
+        "name": "open-universe",
+        "stars": 112,
+        "language": "Python"
+      },
+      {
+        "name": "promptttspp",
+        "stars": 85,
+        "language": "Python"
+      },
+      {
+        "name": "LINE-DistilBERT-Japanese",
+        "stars": 46,
+        "language": null
+      }
+    ]
   },
   {
     "name": "뤼튼",
@@ -4350,7 +4489,10 @@
       "ipo_status": "비상장 (IPO 준비 중)"
     },
     "address": "서울특별시 성동구 아차산로13길 11 (성수동2가) 무신사캠퍼스 N1 1층",
-    "homepage": "https://newsroom.musinsa.com"
+    "homepage": "https://newsroom.musinsa.com",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "밀리의서재",
@@ -4986,7 +5128,13 @@
     "interview_tip": "삼성SDS의 사업 구조(IT서비스 vs 물류 BPO)와 클라우드 사업의 성장 드라이버(Brity AI, 그룹사 클라우드 전환)를 명확히 이해할 것. 엔터프라이즈 SW 개발·클라우드 아키텍처 경험을 강조하고, '삼성 그룹사 레퍼런스를 활용한 외부 사업 확장'에 기여할 수 있는 역량을 어필하면 유리하다.",
     "address": "서울특별시 송파구 올림픽로35길 125(신천동)",
     "homepage": "www.samsungsds.com",
-    "stock_code": "018260"
+    "stock_code": "018260",
+    "market_cap": 12577139589120,
+    "per": 13.64,
+    "dividend_yield": 1.96,
+    "foreign_ownership_pct": 23.09,
+    "week52_high": 198800.0,
+    "week52_low": 109000.0
   },
   {
     "name": "삼성전자",
@@ -5144,7 +5292,13 @@
     },
     "address": "경기도 수원시 영통구  삼성로 129 (매탄동)",
     "homepage": "www.samsung.com/sec",
-    "stock_code": "005930"
+    "stock_code": "005930",
+    "market_cap": 1333204959100928,
+    "per": 6.94,
+    "dividend_yield": 1.14,
+    "foreign_ownership_pct": 47.96,
+    "week52_high": 223000.0,
+    "week52_low": 52900.0
   },
   {
     "name": "세일즈포스코리아",
@@ -6199,7 +6353,10 @@
       "ipo_status": "비상장 (2024~2025 코스피 IPO 준비 중)"
     },
     "address": "서울특별시 강남구 테헤란로108길 42",
-    "homepage": "www.yanolja.com"
+    "homepage": "www.yanolja.com",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "업스테이지",
@@ -7141,7 +7298,10 @@
       "ipo_status": "비상장"
     },
     "address": "서울특별시 송파구 위례성대로 2 (방이동) 장은빌딩",
-    "homepage": "www.woowahan.com/"
+    "homepage": "www.woowahan.com/",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "원티드랩",
@@ -7851,7 +8011,32 @@
     },
     "address": "제주특별자치도 제주시 첨단로 242",
     "homepage": "www.kakaocorp.com",
-    "stock_code": "035720"
+    "stock_code": "035720",
+    "market_cap": 21993871114240,
+    "per": 28.7,
+    "dividend_yield": 0.15,
+    "foreign_ownership_pct": 21.94,
+    "week52_high": 71600.0,
+    "week52_low": 36300.0,
+    "ai_repos_count": 4,
+    "ai_total_stars": 2038,
+    "top_ai_repos": [
+      {
+        "name": "khaiii",
+        "stars": 1453,
+        "language": "Python"
+      },
+      {
+        "name": "n2",
+        "stars": 580,
+        "language": "Jupyter Notebook"
+      },
+      {
+        "name": "llmog",
+        "stars": 3,
+        "language": "Python"
+      }
+    ]
   },
   {
     "name": "카카오뱅크",
@@ -7994,7 +8179,32 @@
       "ipo_status": "코스닥 상장(종목코드 323410), 시총 약 12조 원"
     },
     "address": "경기도 성남시 분당구 분당내곡로 131 (백현동, 판교테크원)",
-    "stock_code": "323410"
+    "stock_code": "323410",
+    "market_cap": 11959098408960,
+    "per": 19.89,
+    "dividend_yield": 1.83,
+    "foreign_ownership_pct": 18.98,
+    "week52_high": 38750.0,
+    "week52_low": 19800.0,
+    "ai_repos_count": 4,
+    "ai_total_stars": 2038,
+    "top_ai_repos": [
+      {
+        "name": "khaiii",
+        "stars": 1453,
+        "language": "Python"
+      },
+      {
+        "name": "n2",
+        "stars": 580,
+        "language": "Jupyter Notebook"
+      },
+      {
+        "name": "llmog",
+        "stars": 3,
+        "language": "Python"
+      }
+    ]
   },
   {
     "name": "카카오스타일",
@@ -8109,7 +8319,32 @@
     "interview_tip": "추천 시스템·개인화 알고리즘 경험 중심으로 포트폴리오 구성. 패션 이커머스 사용자 행동 데이터에 대한 인사이트 준비. '지그재그 DAU 올리기' 같은 제품 센스 질문 대비.",
     "address": "제주특별자치도 제주시 첨단로 242",
     "homepage": "www.kakaocorp.com",
-    "stock_code": "035720"
+    "stock_code": "035720",
+    "market_cap": 21993871114240,
+    "per": 28.7,
+    "dividend_yield": 0.15,
+    "foreign_ownership_pct": 21.94,
+    "week52_high": 71600.0,
+    "week52_low": 36300.0,
+    "ai_repos_count": 4,
+    "ai_total_stars": 2038,
+    "top_ai_repos": [
+      {
+        "name": "khaiii",
+        "stars": 1453,
+        "language": "Python"
+      },
+      {
+        "name": "n2",
+        "stars": 580,
+        "language": "Jupyter Notebook"
+      },
+      {
+        "name": "llmog",
+        "stars": 3,
+        "language": "Python"
+      }
+    ]
   },
   {
     "name": "카카오엔터테인먼트",
@@ -8236,7 +8471,26 @@
     "interview_tip": "콘텐츠 플랫폼의 추천·검색·개인화 시스템 경험 강조. 글로벌 IP 유통 전략에 대한 이해 필수. 픽코마 성공 요인을 본인 분석으로 설명할 준비.",
     "address": "서울특별시 강남구 테헤란로103길 17",
     "homepage": "www.iloen.com",
-    "stock_code": "016170"
+    "stock_code": "016170",
+    "ai_repos_count": 4,
+    "ai_total_stars": 2038,
+    "top_ai_repos": [
+      {
+        "name": "khaiii",
+        "stars": 1453,
+        "language": "Python"
+      },
+      {
+        "name": "n2",
+        "stars": 580,
+        "language": "Jupyter Notebook"
+      },
+      {
+        "name": "llmog",
+        "stars": 3,
+        "language": "Python"
+      }
+    ]
   },
   {
     "name": "카카오페이",
@@ -8377,7 +8631,15 @@
     },
     "address": "경기도 성남시 분당구 판교역로 166 카카오페이판교아지트 B동 15층",
     "homepage": "www.kakaopay.com",
-    "stock_code": "377300"
+    "stock_code": "377300",
+    "market_cap": 8694918545408,
+    "per": 68.02,
+    "foreign_ownership_pct": 7.35,
+    "week52_high": 114000.0,
+    "week52_low": 26350.0,
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "카카오페이증권",
@@ -8493,7 +8755,32 @@
     "interview_tip": "실시간 시세 처리, 트랜잭션 시스템 경험 어필. 금융투자업 규정(자본시장법) 기본 이해. 소수점 매매 아키텍처에 대한 기술 질문 대비.",
     "address": "제주특별자치도 제주시 첨단로 242",
     "homepage": "www.kakaocorp.com",
-    "stock_code": "035720"
+    "stock_code": "035720",
+    "market_cap": 21993871114240,
+    "per": 28.7,
+    "dividend_yield": 0.15,
+    "foreign_ownership_pct": 21.94,
+    "week52_high": 71600.0,
+    "week52_low": 36300.0,
+    "ai_repos_count": 4,
+    "ai_total_stars": 2038,
+    "top_ai_repos": [
+      {
+        "name": "khaiii",
+        "stars": 1453,
+        "language": "Python"
+      },
+      {
+        "name": "n2",
+        "stars": 580,
+        "language": "Jupyter Notebook"
+      },
+      {
+        "name": "llmog",
+        "stars": 3,
+        "language": "Python"
+      }
+    ]
   },
   {
     "name": "컬리",
@@ -8876,7 +9163,10 @@
       "ipo_status": "NYSE 상장(CPNG), 시총 약 $30B"
     },
     "address": "서울특별시 송파구 송파대로 570 , 18층(신천동)",
-    "homepage": "www.coupang.com"
+    "homepage": "www.coupang.com",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "크래프톤",
@@ -9411,7 +9701,10 @@
       "ipo_status": "비상장 (IPO 준비 중, 기업가치 약 8조 원 추정)"
     },
     "address": "서울특별시 강남구 테헤란로 142 12층 (역삼동, 캐피탈타워)",
-    "homepage": "https://toss.im/"
+    "homepage": "https://toss.im/",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "토스랩",
@@ -9525,7 +9818,10 @@
     "why_not_join": "소규모 회사로 급여·성장 한계 존재. Slack·Teams 대비 약한 제품 경쟁력으로 시장 확대 어려움. AI 협업툴 전환에 뒤처질 리스크.",
     "interview_tip": "B2B SaaS 메트릭(ARR, Churn, NPS) 이해 필수. 다국어·다지역 서비스 운영 경험 어필. 잔디와 Slack의 차별화 포인트에 대한 자기 분석 준비.",
     "address": "서울특별시 강남구 테헤란로 142 12층 (역삼동, 캐피탈타워)",
-    "homepage": "https://toss.im/"
+    "homepage": "https://toss.im/",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "토스뱅크",
@@ -9654,7 +9950,10 @@
       "funding_history": "비바리퍼블리카(토스) 100% 자회사",
       "ipo_status": "비상장 (IPO 준비 중)"
     },
-    "address": "서울특별시 강남구 테헤란로 131 (역삼동, 한국지식재산센터) 13층"
+    "address": "서울특별시 강남구 테헤란로 131 (역삼동, 한국지식재산센터) 13층",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "토스증권",
@@ -9770,7 +10069,10 @@
     "why_not_join": "주식 시장 변동성에 수익 직결. 비바리퍼블리카 그룹 성과 압박. 카카오페이증권과의 차별화가 불명확해지는 시점.",
     "interview_tip": "실시간 시세 처리(WebSocket, 매칭 엔진), 트랜잭션 정합성 경험 필수. 자본시장법 기본 이해. '토스증권이 키움을 어떻게 이겼는가'에 대한 UX·기술 분석 준비.",
     "address": "서울특별시 강남구 테헤란로 133 (역삼동, 한국타이어), 3층",
-    "homepage": "https://corp.tossinvest.com"
+    "homepage": "https://corp.tossinvest.com",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "토스페이먼츠",
@@ -9895,7 +10197,10 @@
     "why_not_join": "PG 사업 특성상 혁신보다 안정성·컴플라이언스 우선. 비바리퍼블리카 내 위상이 토스·토스뱅크 대비 낮음. 수수료 경쟁으로 성장 천장 보임.",
     "interview_tip": "결제 보안(PCI-DSS, 토큰화), 정산 시스템 설계 경험 어필. 결제 장애 대응(고가용성, 페일오버) 시나리오 준비. 토스페이먼츠 개발자 센터 문서를 직접 써보고 개선점 제안.",
     "address": "서울특별시 강남구 테헤란로 142 12층 (역삼동, 캐피탈타워)",
-    "homepage": "https://toss.im/"
+    "homepage": "https://toss.im/",
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
   },
   {
     "name": "포티투마루",

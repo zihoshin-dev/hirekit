@@ -14,29 +14,20 @@ AI_KEYWORDS = {"ai", "ml", "llm", "deep", "neural", "nlp", "gpt", "bert",
 
 
 def gh_api(path: str) -> list | dict | None:
-    """gh CLI로 GitHub API 호출."""
+    """gh CLI로 GitHub API 호출 (paginate 없이 per_page=100 사용)."""
+    # path에 ? 포함 여부에 따라 쿼리 파라미터 추가
+    sep = "&" if "?" in path else "?"
+    full_path = f"{path}{sep}per_page=100"
     try:
         result = subprocess.run(
-            ["gh", "api", path, "--paginate"],
+            ["gh", "api", full_path],
             capture_output=True, text=True, timeout=30
         )
         if result.returncode != 0:
             return None
-        # --paginate는 여러 JSON 배열을 출력할 수 있음 → 합산
         text = result.stdout.strip()
         if not text:
             return None
-        # 여러 JSON 배열이 연속으로 나올 때 합산
-        import re
-        arrays = re.findall(r'\[.*?\]', text, re.DOTALL)
-        if arrays:
-            combined = []
-            for a in arrays:
-                try:
-                    combined.extend(json.loads(a))
-                except Exception:
-                    pass
-            return combined if combined else json.loads(text)
         return json.loads(text)
     except Exception as e:
         print(f"    [gh error] {path}: {e}")

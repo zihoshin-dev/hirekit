@@ -1,0 +1,215 @@
+{
+  "카카오": {
+    "github_orgs": [
+      "kakao"
+    ],
+    "ai_repos_count": 4,
+    "ai_total_stars": 2038,
+    "top_ai_repos": [
+      {
+        "name": "khaiii",
+        "stars": 1453,
+        "language": "Python"
+      },
+      {
+        "name": "n2",
+        "stars": 580,
+        "language": "Jupyter Notebook"
+      },
+      {
+        "name": "llmog",
+        "stars": 3,
+        "language": "Python"
+      }
+    ]
+  },
+  "카카오페이": {
+    "github_orgs": [
+      "kakaopay"
+    ],
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
+  },
+  "토스": {
+    "github_orgs": [
+      "toss"
+    ],
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
+  },
+  "비바리퍼블리카": {
+    "github_orgs": [
+      "toss"
+    ],
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
+  },
+  "네이버": {
+    "github_orgs": [
+      "naver",
+      "navercorp"
+    ],
+    "ai_repos_count": 9,
+    "ai_total_stars": 3142,
+    "top_ai_repos": [
+      {
+        "name": "splade",
+        "stars": 984,
+        "language": "Python"
+      },
+      {
+        "name": "biobert-pretrained",
+        "stars": 706,
+        "language": null
+      },
+      {
+        "name": "deep-image-retrieval",
+        "stars": 679,
+        "language": "Python"
+      }
+    ]
+  },
+  "네이버클라우드": {
+    "github_orgs": [
+      "NaverCloudPlatform"
+    ],
+    "ai_repos_count": 8,
+    "ai_total_stars": 31,
+    "top_ai_repos": [
+      {
+        "name": "android-ai-sample",
+        "stars": 11,
+        "language": "Java"
+      },
+      {
+        "name": "ai-python-sample",
+        "stars": 9,
+        "language": "Python"
+      },
+      {
+        "name": "naverspeech-sdk-android",
+        "stars": 6,
+        "language": null
+      }
+    ]
+  },
+  "쿠팡": {
+    "github_orgs": [
+      "coupang"
+    ],
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
+  },
+  "우아한형제들": {
+    "github_orgs": [
+      "woowabros"
+    ],
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
+  },
+  "배달의민족": {
+    "github_orgs": [
+      "woowabros"
+    ],
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
+  },
+  "당근": {
+    "github_orgs": [
+      "daangn"
+    ],
+    "ai_repos_count": 1,
+    "ai_total_stars": 1,
+    "top_ai_repos": [
+      {
+        "name": "rag-practice",
+        "stars": 1,
+        "language": null
+      }
+    ]
+  },
+  "당근마켓": {
+    "github_orgs": [
+      "daangn"
+    ],
+    "ai_repos_count": 1,
+    "ai_total_stars": 1,
+    "top_ai_repos": [
+      {
+        "name": "rag-practice",
+        "stars": 1,
+        "language": null
+      }
+    ]
+  },
+  "무신사": {
+    "github_orgs": [
+      "musinsa"
+    ],
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
+  },
+  "라인플러스": {
+    "github_orgs": [
+      "line"
+    ],
+    "ai_repos_count": 8,
+    "ai_total_stars": 347,
+    "top_ai_repos": [
+      {
+        "name": "open-universe",
+        "stars": 112,
+        "language": "Python"
+      },
+      {
+        "name": "promptttspp",
+        "stars": 85,
+        "language": "Python"
+      },
+      {
+        "name": "LINE-DistilBERT-Japanese",
+        "stars": 46,
+        "language": null
+      }
+    ]
+  },
+  "라인": {
+    "github_orgs": [
+      "line"
+    ],
+    "ai_repos_count": 8,
+    "ai_total_stars": 347,
+    "top_ai_repos": [
+      {
+        "name": "open-universe",
+        "stars": 112,
+        "language": "Python"
+      },
+      {
+        "name": "promptttspp",
+        "stars": 85,
+        "language": "Python"
+      },
+      {
+        "name": "LINE-DistilBERT-Japanese",
+        "stars": 46,
+        "language": null
+      }
+    ]
+  },
+  "야놀자": {
+    "github_orgs": [
+      "yanolja"
+    ],
+    "ai_repos_count": 0,
+    "ai_total_stars": 0,
+    "top_ai_repos": []
+  }
+}
