@@ -15,6 +15,7 @@ class ScoreDimension:
     score: float = 0.0  # 1-5 raw score
     evidence: str = ""  # data-backed justification
     source: str = ""  # which data source provided this
+    confidence: str = ""  # "high" / "medium" / "low"
 
 
 @dataclass

@@ -83,7 +83,8 @@ class AnalysisReport:
                 "grade": self.scorecard.grade if self.scorecard else "N/A",
                 "dimensions": [
                     {"name": d.name, "label": d.label, "weight": d.weight,
-                     "score": d.score, "evidence": d.evidence}
+                     "score": d.score, "evidence": d.evidence,
+                     "confidence": d.confidence}
                     for d in (self.scorecard.dimensions if self.scorecard else [])
                 ],
             },
@@ -247,6 +248,24 @@ class CompanyAnalyzer:
     # ------------------------------------------------------------------
 
     @staticmethod
+    def _confidence_from_sources(
+        expected_sources: list[str],
+        source_data: dict[str, object],
+    ) -> str:
+        """Return confidence level based on cross-validation source count.
+
+        - 3+ expected sources present → "high"
+        - 1-2 sources present        → "medium"
+        - 0 sources present          → "low"
+        """
+        matched = sum(1 for s in expected_sources if s in source_data)
+        if matched >= 3:
+            return "high"
+        if matched >= 1:
+            return "medium"
+        return "low"
+
+    @staticmethod
     def _parse_financial_amount(s: str | int | float) -> int:
         """Parse raw financial string (e.g. '1,234,567') to int."""
         if isinstance(s, (int, float)):
@@ -278,19 +297,34 @@ class CompanyAnalyzer:
         for dim in report.scorecard.dimensions:
             if dim.name == "growth":
                 dim.score, dim.evidence = self._score_growth(overview)
+                dim.confidence = self._confidence_from_sources(
+                    ["dart", "ir_report"], source_data,
+                )
             elif dim.name == "compensation":
                 dim.score, dim.evidence = self._score_compensation(overview)
+                dim.confidence = self._confidence_from_sources(
+                    ["dart", "pension", "nts_biz"], source_data,
+                )
             elif dim.name == "culture_fit":
                 dim.score, dim.evidence = self._score_culture(
                     sections_filled, source_data,
+                )
+                dim.confidence = self._confidence_from_sources(
+                    ["naver_search", "exa_search", "community_review"], source_data,
                 )
             elif dim.name == "job_fit":
                 dim.score, dim.evidence = self._score_job_fit(
                     sections_filled, source_data,
                 )
+                dim.confidence = self._confidence_from_sources(
+                    ["github", "tech_blog", "medium_velog"], source_data,
+                )
             elif dim.name == "career_leverage":
                 dim.score, dim.evidence = self._score_career_leverage(
                     overview, n_sources, source_data,
+                )
+                dim.confidence = self._confidence_from_sources(
+                    ["dart", "google_news", "credible_news", "naver_news"], source_data,
                 )
 
     def _score_growth(self, overview: dict) -> tuple[float, str]:
