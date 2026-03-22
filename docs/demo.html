@@ -1178,6 +1178,7 @@ function buildPanelShell(name, loading) {
       <button class="tab-btn" onclick="switchDetailTab('keymetrics', this)">핵심 지표</button>
       <button class="tab-btn" onclick="switchDetailTab('business', this)">사업/제품</button>
       <button class="tab-btn" onclick="switchDetailTab('competitors', this)">경쟁 구도</button>
+      <button class="tab-btn" onclick="switchDetailTab('news', this)">뉴스</button>
       <button class="tab-btn" onclick="switchDetailTab('aistrategy', this)">기술/AI</button>
       <button class="tab-btn" onclick="switchDetailTab('jobguide', this)">입사 가이드</button>
       <button class="tab-btn" onclick="switchDetailTab('scorecard', this)">스코어카드</button>
@@ -1191,6 +1192,7 @@ function buildPanelShell(name, loading) {
       <div id="dp-keymetrics"  class="tab-panel"><div id="dpKeyMetricsContent"></div></div>
       <div id="dp-business"    class="tab-panel"><div id="dpBusinessContent"></div></div>
       <div id="dp-competitors" class="tab-panel"><div id="dpCompetitorsContent"></div></div>
+      <div id="dp-news"        class="tab-panel"><div id="dpNewsContent"></div></div>
       <div id="dp-aistrategy"  class="tab-panel"><div id="dpAiStrategyContent"></div></div>
       <div id="dp-jobguide"    class="tab-panel"><div id="dpJobGuideContent"></div></div>
       <div id="dp-scorecard"   class="tab-panel"><div id="dpScorecardContent"></div></div>
@@ -1257,6 +1259,7 @@ function renderDetailPanel(data, name, metaEntry) {
   renderKeyMetrics(meta);
   renderBusiness(meta);
   renderCompetitors(meta);
+  renderNews(s1);
   renderAiStrategy(meta);
   renderJobGuide(meta);
   renderScorecard(sc, name);
@@ -1395,18 +1398,26 @@ function renderOverview(s1, meta) {
   const segments     = Array.isArray(meta?.business_segments) ? meta.business_segments : [];
   const globalPres   = Array.isArray(meta?.global_presence)   ? meta.global_presence   : [];
 
-  const rows = [
-    ['법인 명칭', corpName],
-    ['영문 명칭', s1.company_name_eng],
-    ['대표이사',  ceo],
-    ['설립일',    s1.established ? formatDate(s1.established) : null],
-    ['주소',      s1.address],
-    ['홈페이지',  s1.homepage ? `<a href="https://${s1.homepage}" target="_blank" style="color:var(--primary);" class="hover:underline">${s1.homepage}</a>` : null],
-    ['종목코드',  s1.stock_code ? `<span class="font-mono">${s1.stock_code}</span>` : null],
-    ['IR',        s1.ir_url ? `<a href="${s1.ir_url}" target="_blank" style="color:var(--primary);" class="hover:underline">IR 페이지</a>` : null],
-  ].filter(([, v]) => v);
+  // 필수 8개 항목 — 모든 기업에 동일하게, 없으면 "—"
+  const foundedYear  = meta?.founded_year || (s1.established ? String(s1.established).slice(0, 4) : null);
+  const hqLocation   = meta?.hq_location  || s1.address || null;
+  const empCount     = meta?.employee_count || meta?.pension_members || s1.employee_count || null;
+  const industry     = meta?.industry     || s1.industry || null;
+  const subIndustry  = meta?.sub_industry || null;
+  const industryVal  = industry ? (subIndustry ? `${industry} / ${subIndustry}` : industry) : null;
+  const size         = meta?.size         || null;
+  const isListed     = meta?.stock_code   ? '상장' : '비상장';
 
-  if (rows.length === 0 && !vision && !aiStrategy) { el.innerHTML = emptyState('개요 데이터가 없어요.'); return; }
+  const companyInfoItems = [
+    { label: '법인명',   value: corpName },
+    { label: 'CEO',      value: ceo },
+    { label: '설립일',   value: foundedYear ? foundedYear + '년' : null },
+    { label: '본사 위치', value: hqLocation },
+    { label: '직원수',   value: empCount ? Number(String(empCount).replace(/,/g,'')).toLocaleString() + '명' : null },
+    { label: '산업',     value: industryVal },
+    { label: '기업규모', value: size },
+    { label: '상장여부', value: isListed },
+  ];
 
   // 비전 섹션
   const visionHtml = vision ? `
@@ -1475,23 +1486,21 @@ function renderOverview(s1, meta) {
     `;
   }
 
-  // 기본 정보 그리드
-  const infoGridHtml = rows.length > 0 ? `
+  // 기업 정보 그리드 — 8개 항목 고정, 없으면 "—"
+  const infoGridHtml = `
     <div class="mb-5">
-      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">기본 정보</div>
-      <div class="rounded-2xl p-4" style="border:1px solid var(--border);">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3.5 gap-x-6 text-sm">
-          ${rows.map(([k, v]) => `
-            <div>
-              <div class="text-xs t-tertiary mb-0.5">${k}</div>
-              <div class="t-primary font-medium">${v}</div>
-            </div>
-          `).join('')}
-        </div>
-        ${empHtml}
+      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">기업 정보</div>
+      <div class="grid grid-cols-2 gap-2">
+        ${companyInfoItems.map(it => `
+          <div class="p-3 rounded-xl" style="background:var(--bg-secondary);">
+            <div class="text-xs t-tertiary">${escHtml(it.label)}</div>
+            <div class="text-sm font-medium t-primary mt-0.5" style="word-break:keep-all;">${it.value ? escHtml(String(it.value)) : '—'}</div>
+          </div>
+        `).join('')}
       </div>
+      ${empHtml}
     </div>
-  ` : '';
+  `;
 
   el.innerHTML = `
     <div>
@@ -1881,15 +1890,150 @@ function renderVision(meta) {
 function renderAiStrategy(meta) {
   const el = document.getElementById('dpAiStrategyContent');
   const aiStrategy = meta.ai_strategy || '';
-  const techStack = meta.tech_stack || [];
-  const industry = meta.industry || '';
+  const techStack  = meta.tech_stack  || [];
+  const industry   = meta.industry    || '';
   const subIndustry = meta.sub_industry || '';
 
-  if (!aiStrategy && !techStack.length) {
+  // HuggingFace 데이터
+  const hfModelCount    = meta.hf_model_count    || null;
+  const hfTotalDownloads = meta.hf_total_downloads || null;
+  const hfTopModels     = Array.isArray(meta.hf_top_models) ? meta.hf_top_models : [];
+
+  // GitHub AI 데이터
+  const aiReposCount  = meta.ai_repos_count  || null;
+  const aiTotalStars  = meta.ai_total_stars  || null;
+  const topAiRepos    = Array.isArray(meta.top_ai_repos)  ? meta.top_ai_repos  : [];
+
+  // 논문 데이터
+  const paperCount  = meta.paper_count  || null;
+  const topVenues   = Array.isArray(meta.top_venues)   ? meta.top_venues   : [];
+  const topPapers   = Array.isArray(meta.top_papers)   ? meta.top_papers   : [];
+
+  // 병역특례
+  const milAvailable = meta.military_service_available || false;
+  const milType      = meta.military_service_type      || '';
+
+  const hasAiData = hfModelCount || aiReposCount || paperCount;
+
+  if (!aiStrategy && !techStack.length && !hasAiData) {
     el.innerHTML = emptyState('AI 전략 데이터가 없어요.');
     return;
   }
 
+  // AI 역량 대시보드
+  let dashboardHtml = '';
+  if (hasAiData) {
+    const formatNum = n => {
+      if (!n && n !== 0) return '—';
+      const num = typeof n === 'string' ? parseInt(n.replace(/,/g,'')) : n;
+      if (isNaN(num)) return escHtml(String(n));
+      if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + 'M';
+      if (num >= 1_000) return (num / 1_000).toFixed(1) + 'K';
+      return num.toLocaleString();
+    };
+    const statCard = (val, label) => `
+      <div class="text-center p-4 rounded-xl" style="background:var(--bg-secondary);">
+        <div class="text-2xl font-bold font-mono" style="color:var(--primary);">${val}</div>
+        <div class="text-xs t-tertiary mt-1">${label}</div>
+      </div>`;
+    const stats = [];
+    if (hfModelCount  !== null) stats.push(statCard(formatNum(hfModelCount),    'HF 모델'));
+    if (hfTotalDownloads !== null) stats.push(statCard(formatNum(hfTotalDownloads), '다운로드'));
+    if (aiReposCount  !== null) stats.push(statCard(formatNum(aiReposCount),    'AI 레포'));
+    if (aiTotalStars  !== null) stats.push(statCard(formatNum(aiTotalStars),    'GitHub Stars'));
+    if (paperCount    !== null) stats.push(statCard(formatNum(paperCount),      '논문'));
+    dashboardHtml = `
+      <div class="mb-6">
+        <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          AI 역량 대시보드
+        </h4>
+        <div class="grid grid-cols-3 gap-3">${stats.join('')}</div>
+      </div>`;
+  }
+
+  // Top HF 모델
+  let hfModelsHtml = '';
+  if (hfTopModels.length) {
+    hfModelsHtml = `
+      <div class="mb-5">
+        <h4 class="text-sm font-semibold t-primary mb-3">주요 HuggingFace 모델</h4>
+        <div class="space-y-2">
+          ${hfTopModels.slice(0, 5).map(m => {
+            const name = typeof m === 'string' ? m : (m.name || m.id || '');
+            const dl   = typeof m === 'object' && m.downloads ? ` · ${Number(m.downloads).toLocaleString()} 다운로드` : '';
+            return `<div class="flex items-center gap-2 text-sm p-2.5 rounded-lg" style="background:var(--bg-secondary);">
+              <span class="font-mono text-xs px-2 py-0.5 rounded" style="background:rgba(49,130,246,0.12); color:var(--primary);">HF</span>
+              <span class="t-primary flex-1 truncate">${escHtml(name)}</span>
+              ${dl ? `<span class="text-xs t-tertiary flex-shrink-0">${dl}</span>` : ''}
+            </div>`;
+          }).join('')}
+        </div>
+      </div>`;
+  }
+
+  // Top AI Repos
+  let reposHtml = '';
+  if (topAiRepos.length) {
+    reposHtml = `
+      <div class="mb-5">
+        <h4 class="text-sm font-semibold t-primary mb-3">주요 AI GitHub 레포</h4>
+        <div class="space-y-2">
+          ${topAiRepos.slice(0, 5).map(r => {
+            const name  = typeof r === 'string' ? r : (r.name || r.full_name || '');
+            const stars = typeof r === 'object' && r.stars ? ` ⭐ ${Number(r.stars).toLocaleString()}` : '';
+            return `<div class="flex items-center gap-2 text-sm p-2.5 rounded-lg" style="background:var(--bg-secondary);">
+              <svg class="flex-shrink-0 t-tertiary" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              <span class="t-primary flex-1 truncate">${escHtml(name)}</span>
+              ${stars ? `<span class="text-xs t-tertiary flex-shrink-0">${stars}</span>` : ''}
+            </div>`;
+          }).join('')}
+        </div>
+      </div>`;
+  }
+
+  // 논문 & 학술 활동
+  let papersHtml = '';
+  if (topPapers.length || topVenues.length) {
+    const venuesHtml = topVenues.length ? `
+      <div class="flex flex-wrap gap-1.5 mb-3">
+        ${topVenues.map(v => `<span class="tag-chip">${escHtml(v)}</span>`).join('')}
+      </div>` : '';
+    const paperListHtml = topPapers.slice(0, 5).map(p => {
+      const title = typeof p === 'string' ? p : (p.title || '');
+      const venue = typeof p === 'object' && p.venue ? ` · ${p.venue}` : '';
+      return `<div class="text-sm t-secondary p-2.5 rounded-lg leading-snug" style="background:var(--bg-secondary);">${escHtml(title)}${venue ? `<span class="text-xs t-tertiary">${escHtml(venue)}</span>` : ''}</div>`;
+    }).join('');
+    papersHtml = `
+      <div class="mb-5">
+        <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          논문 · 학술 활동
+        </h4>
+        ${venuesHtml}
+        <div class="space-y-2">${paperListHtml}</div>
+      </div>`;
+  }
+
+  // 병역특례
+  let militaryHtml = '';
+  if (milAvailable) {
+    const typeText = milType || '전문연구요원 / 산업기능요원';
+    militaryHtml = `
+      <div class="mb-5">
+        <div class="p-4 rounded-xl" style="background:rgba(0,196,113,0.07); border-left:3px solid #00C471;">
+          <div class="flex items-center gap-2">
+            <span class="text-lg">🎖️</span>
+            <div>
+              <div class="font-semibold t-primary text-sm">${escHtml(typeText)} 가능</div>
+              <div class="text-xs t-tertiary mt-0.5">병역특례 TO 보유 기업</div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  // AI 전략 텍스트
   let aiHtml = '';
   if (aiStrategy) {
     const isAiCompany = (industry || '').includes('AI') || (subIndustry || '').includes('AI');
@@ -1906,11 +2050,11 @@ function renderAiStrategy(meta) {
       </div>`;
   }
 
+  // 기술 스택
   let techHtml = '';
   if (techStack.length) {
-    const aiTechs = techStack.filter(t => /ai|ml|llm|gpt|bert|tensorflow|pytorch|cuda|gpu|deep/i.test(t));
+    const aiTechs   = techStack.filter(t => /ai|ml|llm|gpt|bert|tensorflow|pytorch|cuda|gpu|deep/i.test(t));
     const otherTechs = techStack.filter(t => !/ai|ml|llm|gpt|bert|tensorflow|pytorch|cuda|gpu|deep/i.test(t));
-
     if (aiTechs.length) {
       techHtml += `
         <div class="mb-5">
@@ -1920,7 +2064,6 @@ function renderAiStrategy(meta) {
           </div>
         </div>`;
     }
-
     if (otherTechs.length) {
       techHtml += `
         <div class="mb-5">
@@ -1932,6 +2075,7 @@ function renderAiStrategy(meta) {
     }
   }
 
+  // 산업 분류
   let industryHtml = '';
   if (industry) {
     industryHtml = `
@@ -1944,7 +2088,7 @@ function renderAiStrategy(meta) {
       </div>`;
   }
 
-  el.innerHTML = `<div>${aiHtml}${techHtml}${industryHtml}</div>`;
+  el.innerHTML = `<div>${dashboardHtml}${militaryHtml}${aiHtml}${techHtml}${hfModelsHtml}${reposHtml}${papersHtml}${industryHtml}</div>`;
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1955,6 +2099,9 @@ function renderKeyMetrics(meta) {
   const km = meta.key_metrics || {};
   const coreB = meta.core_business || '';
   const pos = meta.market_position || '';
+  const bd = meta.business_deep || {};
+  const revenueBreakdown = bd.revenue_breakdown || km.revenue_breakdown || null;
+  const businessModel    = bd.business_model    || km.business_model    || null;
 
   const metricDefs = [
     { key: 'revenue',      label: '매출' },
@@ -1966,7 +2113,7 @@ function renderKeyMetrics(meta) {
 
   const hasMetrics = metricDefs.some(d => km[d.key]);
 
-  if (!hasMetrics && !coreB && !pos) {
+  if (!hasMetrics && !coreB && !pos && !revenueBreakdown && !businessModel) {
     el.innerHTML = '<div class="text-sm t-tertiary py-10 text-center">데이터 수집 중...</div>';
     return;
   }
@@ -1985,6 +2132,54 @@ function renderKeyMetrics(meta) {
         핵심 수치
       </h4>
       <div class="grid grid-cols-2 gap-3">${metricCards}</div>
+    </div>
+  ` : '';
+
+  // 매출 구성비 — revenue_breakdown이 객체/배열 모두 지원
+  let revenueHtml = '';
+  if (revenueBreakdown) {
+    let items = [];
+    if (Array.isArray(revenueBreakdown)) {
+      items = revenueBreakdown;
+    } else if (typeof revenueBreakdown === 'object') {
+      items = Object.entries(revenueBreakdown).map(([name, pct]) => ({ name, pct }));
+    }
+    if (items.length > 0) {
+      const barColors = ['#3182F6','#00C471','#FF9500','#8B5CF6','#06B6D4','#FF4545'];
+      revenueHtml = `
+        <div class="mb-5">
+          <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/></svg>
+            매출 구성
+          </h4>
+          <div class="space-y-2">
+            ${items.map((item, i) => {
+              const name = escHtml(item.name || item.segment || item.label || '');
+              const pct  = parseFloat(item.pct || item.ratio || item.percent || 0) || 0;
+              const color = barColors[i % barColors.length];
+              return `
+                <div class="flex items-center gap-2">
+                  <span class="text-xs t-secondary flex-shrink-0" style="width:120px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="${name}">${name} ${pct ? Math.round(pct) + '%' : ''}</span>
+                  <div class="flex-1 h-4 rounded-full overflow-hidden" style="background:var(--bg-secondary);">
+                    <div class="h-4 rounded-full" style="width:${Math.min(100, pct)}%; background:${color};"></div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    }
+  }
+
+  // 수익 모델 섹션
+  const bizModelHtml = businessModel ? `
+    <div class="mb-5">
+      <h4 class="text-sm font-semibold t-primary mb-3 flex items-center gap-2">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        수익 모델
+      </h4>
+      <div class="p-4 rounded-xl text-sm t-secondary leading-relaxed" style="background:var(--bg-secondary);">${escHtml(businessModel)}</div>
     </div>
   ` : '';
 
@@ -2008,7 +2203,7 @@ function renderKeyMetrics(meta) {
     </div>
   ` : '';
 
-  el.innerHTML = `<div>${metricsHtml}${coreBHtml}${posHtml}</div>`;
+  el.innerHTML = `<div>${metricsHtml}${revenueHtml}${bizModelHtml}${coreBHtml}${posHtml}</div>`;
 }
 
 // ═══════════════════════════════════════════════════════
