@@ -362,7 +362,7 @@
       "revenue_growth_yoy": "+5.6%",
       "profit_margin": "6.3%",
       "employee_total": 3023,
-      "employee_avg_salary": 90472047,
+      "employee_avg_salary": 90707244,
       "employee_avg_tenure": "112개월"
     }
   },
@@ -820,18 +820,38 @@
       "notable_quotes": "\"KT의 미래는 AICT — AI와 ICT를 융합한 디지털 혁신 파트너가 되겠다\" — 김영섭 대표"
     },
     "organization": {
-      "structure_type": "사업부제 (통신·AICT·미디어·B2B)",
+      "structure_type": "사업부제",
       "key_divisions": [
-        "통신(5G·유선)",
-        "AI/빅데이터",
-        "클라우드·IDC",
-        "미디어(스카이라이프)",
-        "B2B솔루션"
+        {
+          "name": "네트워크부문",
+          "role": "통신망 구축/운영",
+          "headcount_estimate": "5000+"
+        },
+        {
+          "name": "AI사업부문",
+          "role": "AI/클라우드 사업",
+          "headcount_estimate": "2000+"
+        },
+        {
+          "name": "미디어사업부",
+          "role": "지니TV/콘텐츠",
+          "headcount_estimate": "1000+"
+        }
       ],
-      "engineering_culture": "기술혁신부문 신설(IT+R&D 통합), AI 내재화, 클라우드 전환 가속",
-      "work_style": "하이브리드 (직군별 상이)",
-      "core_hours": "코어타임 10:00~15:00",
-      "decision_making": "CEO 직할 강화 + 사업부 자율"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 40%",
+        "tech_culture": "통신 대기업 문화, 사내 기술 연구소, 자격증 취득 지원"
+      },
+      "decision_making": "톱다운",
+      "work_style": "오피스 중심 (광화문/분당)",
+      "notable_benefits": [
+        "통신 요금 할인",
+        "KT 복지포인트",
+        "사내대학원",
+        "주택자금 대출",
+        "건강검진"
+      ]
     },
     "employee_experience": {
       "onboarding": "KT 공통 신입 교육 3개월 + 직무 OJT",
@@ -844,6 +864,135 @@
         "사내 어린이집"
       ],
       "glassdoor_sentiment": "잡플래닛 3.3점 — '공기업 수준 안정성, AICT 전환 과정 내부 혼란 체감'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Python",
+          "C",
+          "C++",
+          "JavaScript",
+          "OpenStack",
+          "Kubernetes",
+          "Hadoop"
+        ],
+        "team_size_estimate": "8000+(IT 포함)",
+        "hiring_focus": "AI/ML, 클라우드, 네트워크 SW",
+        "salary_range": "5000~1억2000",
+        "growth_path": "사원→대리→과장→차장→부장→임원"
+      },
+      "product": {
+        "pm_count_estimate": "500+",
+        "methodology": "워터폴/애자일 혼용",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "SAP"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Figma",
+          "Adobe XD"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Hadoop",
+          "Python",
+          "Airflow",
+          "TensorFlow"
+        ],
+        "ai_ml_focus": "KT AI연구소, AICC(AI컨택센터), 통신 네트워크 AI 최적화"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "KT AI 콜봇 (AICC)",
+        "KT 믿음 (자체 LLM)",
+        "KT Cloud AI 서비스",
+        "AI 추천 시스템",
+        "AI 네트워크 최적화"
+      ],
+      "ai_team_size": "AICT 사업부 포함 AI 인력 500명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "LangChain",
+        "vLLM",
+        "Kubernetes",
+        "KT Cloud",
+        "Conan LLM"
+      ],
+      "ai_investment": "AI 인프라 수천억 원 투자, AICT 전략 중심 전환",
+      "ai_partnerships": [
+        "Microsoft Azure OpenAI 서비스 협력",
+        "Conan Technology (LLM)",
+        "NVIDIA GPU 파트너"
+      ],
+      "ai_open_source": [
+        "해당 없음"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/IT 약 20~25%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "AI 콜봇 기반 고객센터 자동화 (연간 수천만 건)",
+        "KT 믿음 LLM 기반 B2B 기업 AI 솔루션",
+        "AI 기반 5G 네트워크 이상탐지 및 품질 최적화"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "KT 통신 서비스",
+      "service_portfolio": [
+        {
+          "name": "5G/LTE 통신",
+          "category": "플랫폼",
+          "target_user": "B2C/B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "주력",
+          "tech_stack_hint": "C, Java, 통신 프로토콜"
+        },
+        {
+          "name": "KT 클라우드",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "사용료",
+          "mau": null,
+          "launch_year": 2011,
+          "status": "주력",
+          "tech_stack_hint": "OpenStack, Kubernetes, Python"
+        },
+        {
+          "name": "지니TV",
+          "category": "콘텐츠",
+          "target_user": "B2C",
+          "monetization": "구독",
+          "mau": "900만+",
+          "launch_year": 2012,
+          "status": "주력",
+          "tech_stack_hint": "Java, React, CDN"
+        },
+        {
+          "name": "AI 에이전트(믿음)",
+          "category": "SaaS",
+          "target_user": "B2B/B2C",
+          "monetization": "라이센스",
+          "mau": null,
+          "launch_year": 2024,
+          "status": "신규",
+          "tech_stack_hint": "Python, LLM, Kubernetes"
+        }
+      ],
+      "upcoming_services": [
+        "KT AI 사업 확대",
+        "AICT(AI+ICT) 전환 전략"
+      ]
     }
   },
   {
@@ -1015,18 +1164,37 @@
       "notable_quotes": "\"금융·제조를 모두 꿰는 DX 전문가로서 AX(AI전환) 시대를 선도하겠다\" — 현신균 대표"
     },
     "organization": {
-      "structure_type": "사업부제 (금융·제조·공공·클라우드)",
+      "structure_type": "사업부제",
       "key_divisions": [
-        "금융DX",
-        "제조DX",
-        "공공DX",
-        "클라우드",
-        "AI/데이터"
+        {
+          "name": "클라우드사업부",
+          "role": "클라우드 전환/MSP",
+          "headcount_estimate": "1000+"
+        },
+        {
+          "name": "AI빅데이터사업부",
+          "role": "AI/데이터 플랫폼",
+          "headcount_estimate": "800+"
+        },
+        {
+          "name": "금융사업부",
+          "role": "금융 IT SI/SM",
+          "headcount_estimate": "1000+"
+        }
       ],
-      "engineering_culture": "LG그룹 계열사 DX 프로젝트 중심, 클라우드·AI 역량 강화, 사내 기술 공유",
-      "work_style": "하이브리드 (주 3일 출근)",
-      "core_hours": "코어타임 10:00~15:00",
-      "decision_making": "사업부 책임제 + C레벨 조율"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 65%",
+        "tech_culture": "LG 계열사 IT 수행, 프로젝트 기반, 자격증 취득 지원"
+      },
+      "decision_making": "톱다운",
+      "work_style": "오피스/현장 혼용 (마곡 본사)",
+      "notable_benefits": [
+        "LG 계열사 복지",
+        "자격증 지원",
+        "사내대학원",
+        "주택자금 대출"
+      ]
     },
     "employee_experience": {
       "onboarding": "LG 그룹 공통 교육 + IT 직무 교육 3개월",
@@ -1039,6 +1207,133 @@
         "동호회 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.6점 — '안정적 대기업 복지, DX 성장세 기대, SI 특성 프로젝트 야근 존재'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Spring",
+          "Python",
+          "JavaScript",
+          "Kubernetes",
+          "Terraform",
+          "Oracle",
+          "AWS"
+        ],
+        "team_size_estimate": "5000+",
+        "hiring_focus": "클라우드, AI/ML, 금융IT",
+        "salary_range": "5000~1억2000",
+        "growth_path": "사원→대리→과장→차장→부장 (직급제)"
+      },
+      "product": {
+        "pm_count_estimate": "500+",
+        "methodology": "워터폴/애자일 혼용",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "MS Project"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Figma",
+          "PowerPoint"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Airflow",
+          "Python",
+          "Hadoop",
+          "Tableau"
+        ],
+        "ai_ml_focus": "AI빅데이터사업부, FusionAI LLM 플랫폼 개발 중"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "LG CNS AI Platform",
+        "스마트팩토리 AI 솔루션",
+        "AI OCR/RPA 자동화",
+        "LLM 기반 기업 AI 어시스턴트"
+      ],
+      "ai_team_size": "CTO 산하 AI LAB 포함 AI 인력 300명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "TensorFlow",
+        "LangChain",
+        "LLM (ExaOne/GPT)",
+        "Azure ML",
+        "Kubernetes"
+      ],
+      "ai_investment": "AI 사업 부문 별도 육성, 스마트 물류·팩토리 AI 투자",
+      "ai_partnerships": [
+        "LG전자/LG화학 그룹 내 AI 협력",
+        "Microsoft Azure 파트너",
+        "AWS 파트너"
+      ],
+      "ai_open_source": [
+        "ExaOne 3.0 (LG AI 연구원 공동, 오픈소스)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI 약 20~25%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "스마트팩토리 AI 불량 검출 및 예지정비",
+        "LLM 기반 기업 문서 자동화 및 컴플라이언스 AI",
+        "AI OCR/RPA 기반 백오피스 업무 자동화"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "DX 컨설팅/SI",
+      "service_portfolio": [
+        {
+          "name": "엔트루(ENTRUE) 클라우드",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독/구축",
+          "mau": null,
+          "launch_year": 2020,
+          "status": "주력",
+          "tech_stack_hint": "Kubernetes, Terraform, AWS/Azure/GCP"
+        },
+        {
+          "name": "DAP(Data Analytics Platform)",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "라이센스",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "주력",
+          "tech_stack_hint": "Spark, Airflow, Python"
+        },
+        {
+          "name": "FusionAI",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "라이센스",
+          "mau": null,
+          "launch_year": 2023,
+          "status": "성장",
+          "tech_stack_hint": "Python, LLM, Kubernetes"
+        },
+        {
+          "name": "스마트물류",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구축/구독",
+          "mau": null,
+          "launch_year": 2018,
+          "status": "주력",
+          "tech_stack_hint": "Java, Python, IoT"
+        }
+      ],
+      "upcoming_services": [
+        "FusionAI 엔터프라이즈 확대",
+        "클라우드 MSP 사업 강화"
+      ]
     }
   },
   {
@@ -1211,18 +1506,37 @@
       "notable_quotes": "\"SKT의 르네상스를 위하여 — 통신을 넘어 AI 컴퍼니로 도약한다\" — 유영상 대표"
     },
     "organization": {
-      "structure_type": "7대 사업부 (통신 3·AI 4)",
+      "structure_type": "매트릭스",
       "key_divisions": [
-        "MNO(모바일)",
-        "AI서비스",
-        "AI인프라",
-        "글로벌AI",
-        "에이닷(AI비서)"
+        {
+          "name": "MNO사업부",
+          "role": "통신 핵심 사업",
+          "headcount_estimate": "5000+"
+        },
+        {
+          "name": "SKT AI사업부",
+          "role": "에이닷/AI 서비스",
+          "headcount_estimate": "1500+"
+        },
+        {
+          "name": "엔터프라이즈",
+          "role": "기업 B2B",
+          "headcount_estimate": "1000+"
+        }
       ],
-      "engineering_culture": "AI피라미드 전략, 사내 AI 교육 전 직원 대상, T타워 스마트오피스",
-      "work_style": "하이브리드 (주 3일 출근)",
-      "core_hours": "코어타임 10:00~15:00",
-      "decision_making": "CEO 주도 전략 + 사업부 자율 실행"
+      "tech_org": {
+        "cto_or_vp": "류탁기 (ICT기술센터장)",
+        "engineering_ratio": "약 45%",
+        "tech_culture": "AI 피라미드 조직, 사내 스타트업(코드), 오픈소스 기여"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (을지로)",
+      "notable_benefits": [
+        "T멤버십 최상위",
+        "통신 무료",
+        "SKT 그룹 복지",
+        "사내벤처 프로그램"
+      ]
     },
     "employee_experience": {
       "onboarding": "신입 타운홀 미팅(CEO 직접 소통), 직무별 3개월 OJT",
@@ -1235,6 +1549,132 @@
         "주니어 탤런트 성장 프로그램"
       ],
       "glassdoor_sentiment": "잡플래닛 3.5점 — '통신 1위 안정성·높은 연봉, AI 전환 과도기 혼란 있음'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Python",
+          "Java",
+          "C++",
+          "Go",
+          "React",
+          "Kubernetes",
+          "Spark",
+          "PyTorch"
+        ],
+        "team_size_estimate": "6000+(IT 포함)",
+        "hiring_focus": "AI/ML(에이닷), 네트워크 SW, 클라우드",
+        "salary_range": "5500~1억3000",
+        "growth_path": "사원→대리→과장→차장→부장 (일부 레벨제 전환 중)"
+      },
+      "product": {
+        "pm_count_estimate": "400+",
+        "methodology": "애자일/스크럼 (AI 조직 중심)",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma"
+        ]
+      },
+      "design": {
+        "design_system": "에이닷 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Airflow",
+          "Python",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "ai_ml_focus": "SKT AI연구원(AIML), 에이닷 LLM, 통신 네트워크 AI 최적화"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "에이닷 (A., AI 개인비서)",
+        "A.X (자체 LLM)",
+        "글로벌 PAA Ester (Perplexity 협력)",
+        "SKT AI 추천 시스템"
+      ],
+      "ai_team_size": "AI Tech Lab 포함 AI 인력 400명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "vLLM",
+        "LangChain",
+        "멀티 LLM (GPT-4/Claude/Perplexity/A.X)",
+        "Kubernetes"
+      ],
+      "ai_investment": "Anthropic 1,400억 원 투자, Together AI 투자, AI 인프라 수천억 원",
+      "ai_partnerships": [
+        "Anthropic (1,400억 원 투자·협력)",
+        "Perplexity (Ester 공동개발)",
+        "Together AI (AI 최적화)"
+      ],
+      "ai_open_source": [
+        "해당 없음"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 25~30%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "에이닷 멀티 LLM AI 개인비서 (500만 사용자)",
+        "Anthropic 협력 텔코 LLM 개발",
+        "AI Agent 기반 통신망 자율 최적화"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "T멤버십/통신",
+      "service_portfolio": [
+        {
+          "name": "5G 통신 서비스",
+          "category": "플랫폼",
+          "target_user": "B2C/B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "주력",
+          "tech_stack_hint": "C, Java, 3GPP 프로토콜"
+        },
+        {
+          "name": "에이닷(A.)",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "구독",
+          "mau": "700만+",
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Python, LLM, iOS/Android"
+        },
+        {
+          "name": "T우주",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "성장",
+          "tech_stack_hint": "Java, React"
+        },
+        {
+          "name": "SK텔레콤 클라우드",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "사용료",
+          "mau": null,
+          "launch_year": 2015,
+          "status": "주력",
+          "tech_stack_hint": "OpenStack, Kubernetes"
+        }
+      ],
+      "upcoming_services": [
+        "에이닷 AI 에이전트 고도화",
+        "글로벌 AI 통신 사업"
+      ]
     }
   },
   {
@@ -1448,7 +1888,7 @@
       "revenue_growth_yoy": "+101.7%",
       "profit_margin": "38.3%",
       "employee_total": 32390,
-      "employee_avg_salary": 113910497,
+      "employee_avg_salary": 117589225,
       "employee_avg_tenure": "15.6"
     },
     "management_philosophy": {
@@ -1462,18 +1902,38 @@
       "notable_quotes": "\"다치면서 만들어야 할 반도체는 없다\" — 곽노정 대표 취임 일성"
     },
     "organization": {
-      "structure_type": "사업부제 (DRAM·NAND·MFG·R&D 부문)",
+      "structure_type": "사업부제",
       "key_divisions": [
-        "DRAM개발",
-        "NAND개발",
-        "제조(MFG)",
-        "솔루션개발",
-        "AI인프라"
+        {
+          "name": "DRAM개발",
+          "role": "DRAM 설계/공정",
+          "headcount_estimate": "5000+"
+        },
+        {
+          "name": "NAND개발",
+          "role": "낸드/SSD 개발",
+          "headcount_estimate": "3000+"
+        },
+        {
+          "name": "AI인프라솔루션",
+          "role": "HBM/CXL AI 메모리",
+          "headcount_estimate": "1000+"
+        }
       ],
-      "engineering_culture": "HBM·AI 메모리 기술 선도, 현장 엔지니어 중심 문화, 사내 기술 세미나",
-      "work_style": "주 5일 출근 (제조직 교대근무, 연구직 일부 유연)",
-      "core_hours": "코어타임 09:00~17:00",
-      "decision_making": "톱다운 + 기술 검토 후 합의"
+      "tech_org": {
+        "cto_or_vp": "김주선 (AI인프라솔루션담당 부사장)",
+        "engineering_ratio": "약 60%",
+        "tech_culture": "반도체 공정 중심 R&D 문화, 해외 학회 발표 장려"
+      },
+      "decision_making": "톱다운",
+      "work_style": "오피스 중심 (이천/청주/성남)",
+      "notable_benefits": [
+        "성과급(PI/PS)",
+        "주택자금대출",
+        "기숙사",
+        "사내대학원",
+        "자녀학비지원"
+      ]
     },
     "employee_experience": {
       "onboarding": "신입 6개월 OJT, 현장 실습·기술 교육 병행",
@@ -1486,6 +1946,130 @@
         "자녀 학자금 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.8점 — 'AI 메모리 수혜로 역대 최대 PS, 제조업 특성상 야근·교대 불가피'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "C",
+          "C++",
+          "Python",
+          "VHDL",
+          "Verilog",
+          "CUDA",
+          "펌웨어"
+        ],
+        "team_size_estimate": "1만5000+(연구개발)",
+        "hiring_focus": "HBM 설계, AI메모리, 공정개발",
+        "salary_range": "5500~1억3000 (직급별)",
+        "growth_path": "선임→책임→수석 (직급제)"
+      },
+      "product": {
+        "pm_count_estimate": "200+",
+        "methodology": "워터폴",
+        "tools": [
+          "SAP",
+          "Jira",
+          "자체 PLM"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Cadence",
+          "Synopsys EDA 툴"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "R",
+          "Spark",
+          "자체 분석 플랫폼"
+        ],
+        "ai_ml_focus": "PIM 연구팀, AI 기반 공정 최적화 팀 운영"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "HBM3E (AI 가속기용 메모리)",
+        "CXL 메모리 (AI 서버용)",
+        "공정 불량 AI 검사 시스템"
+      ],
+      "ai_team_size": "AI 적용 인력 200명+ 추정",
+      "ai_tech_stack": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "자체 AI 분석 플랫폼",
+        "NVIDIA GPU"
+      ],
+      "ai_investment": "HBM AI 메모리 개발 수조 원 투자, AI 반도체 인재 대규모 확보",
+      "ai_partnerships": [
+        "NVIDIA (HBM 주요 공급사)",
+        "AMD",
+        "Intel"
+      ],
+      "ai_open_source": [
+        "해당 없음 (반도체 IP 보안)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/SW 약 10~15%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "HBM3E AI 가속기 메모리 양산 공급 (엔비디아 H100/H200)",
+        "반도체 공정 AI 수율 예측 최적화",
+        "CXL 기반 AI 서버 메모리 확장"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "HBM(고대역폭메모리)",
+      "service_portfolio": [
+        {
+          "name": "HBM (High Bandwidth Memory)",
+          "category": "하드웨어",
+          "target_user": "B2B",
+          "monetization": "판매",
+          "mau": null,
+          "launch_year": 2013,
+          "status": "주력",
+          "tech_stack_hint": "반도체 공정, EDA"
+        },
+        {
+          "name": "DRAM",
+          "category": "하드웨어",
+          "target_user": "B2B",
+          "monetization": "판매",
+          "mau": null,
+          "launch_year": 1983,
+          "status": "주력",
+          "tech_stack_hint": "VLSI, C, Python"
+        },
+        {
+          "name": "NAND Flash / SSD",
+          "category": "하드웨어",
+          "target_user": "B2B/B2C",
+          "monetization": "판매",
+          "mau": null,
+          "launch_year": 1989,
+          "status": "주력",
+          "tech_stack_hint": "펌웨어 C, FPGA"
+        },
+        {
+          "name": "CXL 메모리",
+          "category": "하드웨어",
+          "target_user": "B2B",
+          "monetization": "판매",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "신규",
+          "tech_stack_hint": "C, 프로토콜 설계"
+        }
+      ],
+      "upcoming_services": [
+        "HBM4 양산",
+        "PIM(Processing In Memory) 상용화",
+        "CXL 생태계 확장"
+      ]
     }
   },
   {
@@ -2449,7 +3033,7 @@
       "revenue_growth_yoy": "+10.2%",
       "profit_margin": "30.8%",
       "employee_total": 4583,
-      "employee_avg_salary": 127089242,
+      "employee_avg_salary": 129336897,
       "employee_avg_tenure": "7.1"
     },
     "management_philosophy": {
@@ -2463,18 +3047,38 @@
       "notable_quotes": "\"경영 키워드는 AI와 글로벌 — 네이버 서비스를 AI 기반으로 바꿔내는 일이 가장 중요하다\" — 최수연 대표 2024 주주총회"
     },
     "organization": {
-      "structure_type": "매트릭스 (CIC + 사업부 혼합) → 2024년 전사 AI 중심 재편",
+      "structure_type": "사업부제",
       "key_divisions": [
-        "서치&클로바(AI)",
-        "커머스",
-        "핀테크",
-        "콘텐츠(웹툰·웹소설)",
-        "클라우드"
+        {
+          "name": "서치&클로바",
+          "role": "검색 및 AI 기술",
+          "headcount_estimate": "2000+"
+        },
+        {
+          "name": "커머스",
+          "role": "쇼핑/결제/물류",
+          "headcount_estimate": "1500+"
+        },
+        {
+          "name": "핀테크",
+          "role": "네이버파이낸셜",
+          "headcount_estimate": "500+"
+        }
       ],
-      "engineering_culture": "DEVIEW 개발자 컨퍼런스, GitHub 기반 코드리뷰, 사내 오픈소스 기여 장려",
-      "work_style": "하이브리드 (주 3일 출근, 2일 재택)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "쓰리톱(최수연·김남선·김범준) 합의 체제 + 사업부 자율"
+      "tech_org": {
+        "cto_or_vp": "김유원 (기술총괄)",
+        "engineering_ratio": "약 40%",
+        "tech_culture": "오픈소스 기여, 사내 기술공유 컨퍼런스(DEVIEW), TDD/코드리뷰 문화"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (주 3~4일 출근, 분당/성남 본사)",
+      "notable_benefits": [
+        "스톡옵션",
+        "네이버 서비스 무료",
+        "사내 카페테리아",
+        "자기계발비",
+        "건강검진 강화"
+      ]
     },
     "employee_experience": {
       "onboarding": "신입 공채 NIT(Naver IT) 교육과정 + 멘토링 6개월",
@@ -2487,6 +3091,144 @@
         "유연근무제"
       ],
       "glassdoor_sentiment": "잡플래닛 3.7점 — '복지·기술 환경 우수, 성과 압박은 팀마다 상이'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "C++",
+          "Python",
+          "Go",
+          "React",
+          "Kafka",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "5000+",
+        "hiring_focus": "AI/ML, 검색, 클라우드 인프라",
+        "salary_range": "6000~1억5000+",
+        "growth_path": "Junior→Senior→Principal→Distinguished Engineer"
+      },
+      "product": {
+        "pm_count_estimate": "700+",
+        "methodology": "애자일/스크럼",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Confluence"
+        ]
+      },
+      "design": {
+        "design_system": "네이버 디자인 시스템 운영",
+        "tools": [
+          "Figma",
+          "Zeplin"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Hadoop",
+          "Airflow",
+          "PyTorch",
+          "TensorFlow"
+        ],
+        "ai_ml_focus": "CLOVA AI 연구소, HyperCLOVA X LLM 팀 운영"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "HyperCLOVA X (자체 LLM)",
+        "CLOVA X (AI 챗봇)",
+        "CLOVA Studio (LLMOps 플랫폼)",
+        "CLOVA Note (AI 회의록)",
+        "CLOVA Carecall (AI 돌봄)"
+      ],
+      "ai_team_size": "CLOVA 조직 포함 AI 인력 800명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "JAX",
+        "Kubernetes",
+        "자체 NPU",
+        "Megatron-LM",
+        "vLLM",
+        "Ray"
+      ],
+      "ai_investment": "HyperCLOVA X 개발 수천억 원, 인텔과 AI 칩 생태계 공동연구",
+      "ai_partnerships": [
+        "인텔 AI 칩 생태계 공동연구",
+        "NAVER Cloud B2B 파트너사 2000+"
+      ],
+      "ai_open_source": [
+        "HyperCLOVA X SEED (오픈소스 경량 모델 Hugging Face 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 25~30%",
+      "ai_maturity": "선도",
+      "ai_use_cases": [
+        "네이버 검색 AI 랭킹/생성형 답변",
+        "스마트스토어 AI 상품 추천",
+        "CLOVA X 기업용 LLM 서비스"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "네이버 포털",
+      "service_portfolio": [
+        {
+          "name": "네이버 검색",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고",
+          "mau": "4400만+",
+          "launch_year": 1999,
+          "status": "주력",
+          "tech_stack_hint": "C++, Java, Elasticsearch"
+        },
+        {
+          "name": "네이버 쇼핑",
+          "category": "커머스",
+          "target_user": "B2C/B2B",
+          "monetization": "수수료/광고",
+          "mau": "2000만+",
+          "launch_year": 2012,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring, MySQL"
+        },
+        {
+          "name": "클로바(CLOVA)",
+          "category": "SaaS",
+          "target_user": "B2B/B2C",
+          "monetization": "라이센스/API",
+          "mau": null,
+          "launch_year": 2017,
+          "status": "성장",
+          "tech_stack_hint": "Python, PyTorch, Kubernetes"
+        },
+        {
+          "name": "네이버웹툰",
+          "category": "콘텐츠",
+          "target_user": "B2C",
+          "monetization": "코인/구독",
+          "mau": "8200만(글로벌)",
+          "launch_year": 2004,
+          "status": "주력",
+          "tech_stack_hint": "Java, Kotlin, React"
+        },
+        {
+          "name": "네이버클라우드",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "사용료",
+          "mau": null,
+          "launch_year": 2017,
+          "status": "성장",
+          "tech_stack_hint": "Go, Kubernetes, Terraform"
+        }
+      ],
+      "upcoming_services": [
+        "HyperCLOVA X 기반 AI 서비스 확대",
+        "네이버 1784 로봇 서비스"
+      ]
     }
   },
   {
@@ -2743,6 +3485,101 @@
         "유연근무제"
       ],
       "glassdoor_sentiment": "잡플래닛 3.7점 — '복지·기술 환경 우수, 성과 압박은 팀마다 상이'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "Go",
+          "C++",
+          "Spring Boot",
+          "React",
+          "Vue.js",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "전체 개발자 약 4,000명+ (네이버 + 계열사)",
+        "hiring_focus": [
+          "AI/ML",
+          "검색 엔지니어링",
+          "인프라/클라우드",
+          "웹 풀스택"
+        ],
+        "salary_range": "주니어 5500~7500 / 시니어 9000~1억5000+",
+        "interview_process": "코딩테스트 → 기술면접 2회 → 컬처핏 → 처우협의",
+        "growth_path": "주니어→시니어→테크리드→Staff Engineer→VP of Engineering"
+      },
+      "product": {
+        "methodology": "스크럼/OKR",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma",
+          "Works Mobile"
+        ],
+        "pm_role": "검색/커머스/AI 중심 데이터 기반 PM"
+      },
+      "design": {
+        "design_system": "NAVER Design System (NDS)",
+        "tools": [
+          "Figma",
+          "Zeplin"
+        ]
+      },
+      "data": {
+        "data_infra": [
+          "Spark",
+          "Flink",
+          "Kafka",
+          "HBase",
+          "Presto",
+          "Airflow",
+          "자체 HDFS 클러스터"
+        ],
+        "ai_ml_team": "CLOVA AI 연구소 + 각 사업부 ML팀, 전체 AI 인력 800명+ 추정",
+        "research_focus": [
+          "LLM/HyperCLOVA X",
+          "검색 AI",
+          "추천시스템",
+          "컴퓨터비전",
+          "음성인식"
+        ]
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "HyperCLOVA X (자체 LLM)",
+        "CLOVA X (AI 챗봇)",
+        "CLOVA Studio (LLMOps 플랫폼)",
+        "CLOVA Note (AI 회의록)",
+        "CLOVA Carecall (AI 돌봄)"
+      ],
+      "ai_team_size": "CLOVA 조직 포함 AI 인력 800명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "JAX",
+        "Kubernetes",
+        "자체 NPU",
+        "Megatron-LM",
+        "vLLM",
+        "Ray"
+      ],
+      "ai_investment": "HyperCLOVA X 개발 수천억 원, 인텔과 AI 칩 생태계 공동연구",
+      "ai_partnerships": [
+        "인텔 AI 칩 생태계 공동연구",
+        "NAVER Cloud B2B 파트너사 2000+"
+      ],
+      "ai_open_source": [
+        "HyperCLOVA X SEED (오픈소스 경량 모델 Hugging Face 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 25~30%",
+      "ai_maturity": "선도",
+      "ai_use_cases": [
+        "네이버 검색 AI 랭킹/생성형 답변",
+        "스마트스토어 AI 상품 추천",
+        "CLOVA X 기업용 LLM 서비스"
+      ]
     }
   },
   {
@@ -3000,6 +3837,101 @@
         "유연근무제"
       ],
       "glassdoor_sentiment": "잡플래닛 3.7점 — '복지·기술 환경 우수, 성과 압박은 팀마다 상이'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "Go",
+          "C++",
+          "Spring Boot",
+          "React",
+          "Vue.js",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "전체 개발자 약 4,000명+ (네이버 + 계열사)",
+        "hiring_focus": [
+          "AI/ML",
+          "검색 엔지니어링",
+          "인프라/클라우드",
+          "웹 풀스택"
+        ],
+        "salary_range": "주니어 5500~7500 / 시니어 9000~1억5000+",
+        "interview_process": "코딩테스트 → 기술면접 2회 → 컬처핏 → 처우협의",
+        "growth_path": "주니어→시니어→테크리드→Staff Engineer→VP of Engineering"
+      },
+      "product": {
+        "methodology": "스크럼/OKR",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma",
+          "Works Mobile"
+        ],
+        "pm_role": "검색/커머스/AI 중심 데이터 기반 PM"
+      },
+      "design": {
+        "design_system": "NAVER Design System (NDS)",
+        "tools": [
+          "Figma",
+          "Zeplin"
+        ]
+      },
+      "data": {
+        "data_infra": [
+          "Spark",
+          "Flink",
+          "Kafka",
+          "HBase",
+          "Presto",
+          "Airflow",
+          "자체 HDFS 클러스터"
+        ],
+        "ai_ml_team": "CLOVA AI 연구소 + 각 사업부 ML팀, 전체 AI 인력 800명+ 추정",
+        "research_focus": [
+          "LLM/HyperCLOVA X",
+          "검색 AI",
+          "추천시스템",
+          "컴퓨터비전",
+          "음성인식"
+        ]
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "HyperCLOVA X (자체 LLM)",
+        "CLOVA X (AI 챗봇)",
+        "CLOVA Studio (LLMOps 플랫폼)",
+        "CLOVA Note (AI 회의록)",
+        "CLOVA Carecall (AI 돌봄)"
+      ],
+      "ai_team_size": "CLOVA 조직 포함 AI 인력 800명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "JAX",
+        "Kubernetes",
+        "자체 NPU",
+        "Megatron-LM",
+        "vLLM",
+        "Ray"
+      ],
+      "ai_investment": "HyperCLOVA X 개발 수천억 원, 인텔과 AI 칩 생태계 공동연구",
+      "ai_partnerships": [
+        "인텔 AI 칩 생태계 공동연구",
+        "NAVER Cloud B2B 파트너사 2000+"
+      ],
+      "ai_open_source": [
+        "HyperCLOVA X SEED (오픈소스 경량 모델 Hugging Face 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 25~30%",
+      "ai_maturity": "선도",
+      "ai_use_cases": [
+        "네이버 검색 AI 랭킹/생성형 답변",
+        "스마트스토어 AI 상품 추천",
+        "CLOVA X 기업용 LLM 서비스"
+      ]
     }
   },
   {
@@ -3203,6 +4135,101 @@
         "유연근무제"
       ],
       "glassdoor_sentiment": "잡플래닛 3.7점 — '복지·기술 환경 우수, 성과 압박은 팀마다 상이'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "Go",
+          "C++",
+          "Spring Boot",
+          "React",
+          "Vue.js",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "전체 개발자 약 4,000명+ (네이버 + 계열사)",
+        "hiring_focus": [
+          "AI/ML",
+          "검색 엔지니어링",
+          "인프라/클라우드",
+          "웹 풀스택"
+        ],
+        "salary_range": "주니어 5500~7500 / 시니어 9000~1억5000+",
+        "interview_process": "코딩테스트 → 기술면접 2회 → 컬처핏 → 처우협의",
+        "growth_path": "주니어→시니어→테크리드→Staff Engineer→VP of Engineering"
+      },
+      "product": {
+        "methodology": "스크럼/OKR",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma",
+          "Works Mobile"
+        ],
+        "pm_role": "검색/커머스/AI 중심 데이터 기반 PM"
+      },
+      "design": {
+        "design_system": "NAVER Design System (NDS)",
+        "tools": [
+          "Figma",
+          "Zeplin"
+        ]
+      },
+      "data": {
+        "data_infra": [
+          "Spark",
+          "Flink",
+          "Kafka",
+          "HBase",
+          "Presto",
+          "Airflow",
+          "자체 HDFS 클러스터"
+        ],
+        "ai_ml_team": "CLOVA AI 연구소 + 각 사업부 ML팀, 전체 AI 인력 800명+ 추정",
+        "research_focus": [
+          "LLM/HyperCLOVA X",
+          "검색 AI",
+          "추천시스템",
+          "컴퓨터비전",
+          "음성인식"
+        ]
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "HyperCLOVA X (자체 LLM)",
+        "CLOVA X (AI 챗봇)",
+        "CLOVA Studio (LLMOps 플랫폼)",
+        "CLOVA Note (AI 회의록)",
+        "CLOVA Carecall (AI 돌봄)"
+      ],
+      "ai_team_size": "CLOVA 조직 포함 AI 인력 800명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "JAX",
+        "Kubernetes",
+        "자체 NPU",
+        "Megatron-LM",
+        "vLLM",
+        "Ray"
+      ],
+      "ai_investment": "HyperCLOVA X 개발 수천억 원, 인텔과 AI 칩 생태계 공동연구",
+      "ai_partnerships": [
+        "인텔 AI 칩 생태계 공동연구",
+        "NAVER Cloud B2B 파트너사 2000+"
+      ],
+      "ai_open_source": [
+        "HyperCLOVA X SEED (오픈소스 경량 모델 Hugging Face 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 25~30%",
+      "ai_maturity": "선도",
+      "ai_use_cases": [
+        "네이버 검색 AI 랭킹/생성형 답변",
+        "스마트스토어 AI 상품 추천",
+        "CLOVA X 기업용 LLM 서비스"
+      ]
     }
   },
   {
@@ -3380,18 +4407,38 @@
       "notable_quotes": "\"구성원 및 사회와 함께 성장하는 회사 — 넥슨만의 문화를 정착시키겠다\" — 김정욱 공동대표"
     },
     "organization": {
-      "structure_type": "스튜디오제 (IP별 독립 스튜디오)",
+      "structure_type": "스튜디오제",
       "key_divisions": [
-        "메이플스토리",
-        "던전앤파이터",
-        "피파온라인",
-        "인텔리전스랩스(AI)",
-        "글로벌"
+        {
+          "name": "메이플스토리 스튜디오",
+          "role": "메이플 개발/운영",
+          "headcount_estimate": "500+"
+        },
+        {
+          "name": "비엔사이 스튜디오",
+          "role": "FC온라인 개발",
+          "headcount_estimate": "300+"
+        },
+        {
+          "name": "넥슨인텔리전스랩스",
+          "role": "AI/데이터 연구",
+          "headcount_estimate": "200+"
+        }
       ],
-      "engineering_culture": "스튜디오 자율 개발, AI NPC 연구(인텔리전스랩스), 게임 잼 문화",
-      "work_style": "하이브리드 (주 3일 출근)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "스튜디오 자율 + 퍼블리싱 협의"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 55%",
+        "tech_culture": "사내 개발자 컨퍼런스(NDC) 운영, 게임 특화 기술 심화"
+      },
+      "decision_making": "스튜디오 자율",
+      "work_style": "오피스 중심 (판교)",
+      "notable_benefits": [
+        "게임 무료 플레이",
+        "성과급",
+        "유연근무제",
+        "자기계발비",
+        "사내 복지시설"
+      ]
     },
     "employee_experience": {
       "onboarding": "게임 체험 + 팀 배치 온보딩, 멘토링",
@@ -3404,6 +4451,141 @@
         "동호회 활동비"
       ],
       "glassdoor_sentiment": "잡플래닛 3.6점 — '안정적 복지·게임 산업 프리미엄, 레거시 IP 의존도 우려'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "C++",
+          "Java",
+          "Python",
+          "Unreal Engine",
+          "Unity",
+          "AWS"
+        ],
+        "team_size_estimate": "2000+",
+        "hiring_focus": "게임 클라이언트(C++), 서버, AI",
+        "salary_range": "5500~1억3000",
+        "growth_path": "주니어→중급→시니어→리드 프로그래머"
+      },
+      "product": {
+        "pm_count_estimate": "200+",
+        "methodology": "게임 개발 사이클",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Google Workspace"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Photoshop",
+          "Maya",
+          "ZBrush",
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "Spark",
+          "Hadoop",
+          "Airflow",
+          "PyTorch"
+        ],
+        "ai_ml_focus": "넥슨 인텔리전스랩스(NIL) — 게임AI, 어뷰징 탐지, NPC AI 연구"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "AI 리서치 엔지니어링 (게임 AI)",
+        "강화학습 기반 게임 NPC",
+        "AI 기반 게임 어뷰징 탐지",
+        "AI 게임 어시스턴트"
+      ],
+      "ai_team_size": "AI 인력 150명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "강화학습 프레임워크 (자체)",
+        "C++",
+        "Unreal Engine AI 모듈"
+      ],
+      "ai_investment": "게임 AI 연구 지속 투자, NVIDIA 협력",
+      "ai_partnerships": [
+        "NVIDIA (AI 게임 기술)",
+        "AWS 파트너"
+      ],
+      "ai_open_source": [
+        "MapleStory Universe (Web3 일부 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 10~15%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "강화학습 기반 게임 테스트 자동화 AI",
+        "실시간 게임 어뷰징·핵 탐지 ML",
+        "AI 게임 NPC 행동 패턴 생성"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "메이플스토리",
+      "service_portfolio": [
+        {
+          "name": "메이플스토리",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": "400만+(국내)",
+          "launch_year": 2003,
+          "status": "주력",
+          "tech_stack_hint": "C++, Java, 자체 엔진"
+        },
+        {
+          "name": "던전앤파이터",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": "2000만+(중국)",
+          "launch_year": 2005,
+          "status": "주력",
+          "tech_stack_hint": "C++, 자체 엔진"
+        },
+        {
+          "name": "FC온라인",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": "300만+",
+          "launch_year": 2014,
+          "status": "주력",
+          "tech_stack_hint": "C++, Unreal"
+        },
+        {
+          "name": "메이플스토리 월드",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "인앱결제/수수료",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Unity, Lua"
+        },
+        {
+          "name": "프로젝트 AK(신작)",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": null,
+          "launch_year": null,
+          "status": "신규",
+          "tech_stack_hint": "Unreal Engine 5"
+        }
+      ],
+      "upcoming_services": [
+        "던전앤파이터 모바일 글로벌",
+        "메이플스토리 AI NPC"
+      ]
     }
   },
   {
@@ -3785,7 +4967,7 @@
       "revenue_growth_yoy": null,
       "profit_margin": null,
       "employee_total": 541,
-      "employee_avg_salary": 82927911,
+      "employee_avg_salary": 89931608,
       "employee_avg_tenure": "1년 9개월"
     },
     "management_philosophy": {
@@ -3799,18 +4981,38 @@
       "notable_quotes": "\"페이스북 같은 글로벌 기업을 만드는 일은 수 세대에 걸쳐 해야 할 과제\" — 김용현 대표"
     },
     "organization": {
-      "structure_type": "스쿼드 기반 소규모 팀",
+      "structure_type": "스쿼드",
       "key_divisions": [
-        "프로덕트",
-        "엔지니어링",
-        "비즈니스(광고·부동산)",
-        "글로벌",
-        "커뮤니티"
+        {
+          "name": "제품/엔지니어링",
+          "role": "서비스 개발",
+          "headcount_estimate": "400+"
+        },
+        {
+          "name": "비즈니스",
+          "role": "광고/수익화",
+          "headcount_estimate": "100+"
+        },
+        {
+          "name": "글로벌",
+          "role": "해외 서비스",
+          "headcount_estimate": "50+"
+        }
       ],
-      "engineering_culture": "GitHub 기반 코드리뷰, 자율 기술 선택, 기술 블로그 활성화",
-      "work_style": "완전 원격 근무 가능 (하이브리드 선택제)",
-      "core_hours": "코어타임 없음 (완전 자율)",
-      "decision_making": "바텀업 — 팀 단위 자율 결정"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 50%",
+        "tech_culture": "수평 문화, 코드리뷰 필수, 사내 기술블로그 운영, 자율/책임"
+      },
+      "decision_making": "바텀업",
+      "work_style": "하이브리드 (자율, 판교 오피스)",
+      "notable_benefits": [
+        "스톡옵션",
+        "자율출퇴근",
+        "원격근무",
+        "점심식사 지원",
+        "장비 자율선택"
+      ]
     },
     "employee_experience": {
       "onboarding": "버디 매칭, 2주 온보딩 키트 + 제품 사용 체험",
@@ -3823,6 +5025,129 @@
         "자기계발비"
       ],
       "glassdoor_sentiment": "잡플래닛 4.0점 — '자유로운 문화·좋은 동료, 작은 조직 특성상 방향성 변화 잦음'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Go",
+          "Ruby on Rails",
+          "Kotlin",
+          "Swift",
+          "TypeScript",
+          "React",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "team_size_estimate": "300+",
+        "hiring_focus": "백엔드(Go), iOS/Android, 데이터",
+        "salary_range": "6000~1억5000",
+        "growth_path": "Junior→Senior→Staff Engineer"
+      },
+      "product": {
+        "pm_count_estimate": "50+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Notion",
+          "Figma",
+          "Jira"
+        ]
+      },
+      "design": {
+        "design_system": "당근 디자인 시스템(Seed) 오픈소스 공개",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Airflow",
+          "Spark",
+          "BigQuery",
+          "dbt",
+          "Python"
+        ],
+        "ai_ml_focus": "추천/검색/광고 ML팀, 소규모 집중 운영"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "AI 기반 어뷰징/사기 탐지 시스템",
+        "AI 게시글 카테고리 자동분류",
+        "당근 AI 채팅 어시스턴트"
+      ],
+      "ai_team_size": "ML 인력 50~80명 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "BigQuery ML",
+        "Kubernetes",
+        "Airflow"
+      ],
+      "ai_investment": "AI 네이티브 서비스 전환 투자 확대",
+      "ai_partnerships": [
+        "AWS 파트너",
+        "Google Cloud 활용"
+      ],
+      "ai_open_source": [
+        "Karrot Design System (오픈소스)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 15~20%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "중고거래 사기 패턴 ML 실시간 탐지",
+        "하이퍼로컬 동네 생활 AI 게시글 분류",
+        "AI 기반 당근알바 매칭 최적화"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "당근마켓 앱",
+      "service_portfolio": [
+        {
+          "name": "당근마켓",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고/수수료",
+          "mau": "2000만+",
+          "launch_year": 2015,
+          "status": "주력",
+          "tech_stack_hint": "Ruby on Rails, Go, Kotlin, Swift"
+        },
+        {
+          "name": "당근 비즈니스",
+          "category": "플랫폼",
+          "target_user": "B2B",
+          "monetization": "광고",
+          "mau": null,
+          "launch_year": 2020,
+          "status": "성장",
+          "tech_stack_hint": "Go, React"
+        },
+        {
+          "name": "동네생활",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "성장",
+          "tech_stack_hint": "Go, PostgreSQL"
+        },
+        {
+          "name": "당근페이",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "신규",
+          "tech_stack_hint": "Kotlin, Java"
+        }
+      ],
+      "upcoming_services": [
+        "글로벌 확장 (Karrot 브랜드)",
+        "지역 커머스 강화"
+      ]
     }
   },
   {
@@ -4035,7 +5360,7 @@
       "revenue_growth_yoy": "+73.3%",
       "profit_margin": "73.2%",
       "employee_total": 647,
-      "employee_avg_salary": 193069174,
+      "employee_avg_salary": 198533119,
       "employee_avg_tenure": "2.89"
     },
     "management_philosophy": {
@@ -4049,18 +5374,37 @@
       "notable_quotes": "\"내가 멋진 서비스를 만들고, 의미 있는 일을 한다는 자긍심\" — 이석우 전 대표"
     },
     "organization": {
-      "structure_type": "기능조직 + 사업부 혼합",
+      "structure_type": "기능조직",
       "key_divisions": [
-        "업비트(가상자산거래소)",
-        "증권플러스",
-        "람다256(블록체인)",
-        "미술품(XXBLUE)",
-        "글로벌"
+        {
+          "name": "업비트 개발",
+          "role": "거래소 플랫폼",
+          "headcount_estimate": "400+"
+        },
+        {
+          "name": "보안",
+          "role": "거래소 보안",
+          "headcount_estimate": "100+"
+        },
+        {
+          "name": "증권플러스",
+          "role": "주식 정보 서비스",
+          "headcount_estimate": "100+"
+        }
       ],
-      "engineering_culture": "UDC(업비트 D 컨퍼런스) 매년 개최, 블록체인 기술 선도, 보안 중심 개발",
-      "work_style": "자율 근무 (성과 중심)",
-      "core_hours": "코어타임 없음",
-      "decision_making": "성과 중심 분산 자율"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 45%",
+        "tech_culture": "보안 최우선, 고가용성 시스템, 금융 규제 준수"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (강남)",
+      "notable_benefits": [
+        "높은 성과급",
+        "스톡옵션",
+        "유연근무제",
+        "복지포인트"
+      ]
     },
     "employee_experience": {
       "onboarding": "가상자산·블록체인 도메인 교육 + 팀 배치",
@@ -4073,6 +5417,130 @@
         "점심 식사 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.9점 — '업계 최고 연봉·자유로운 문화, 가상자산 시장 변동성 리스크'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Spring Boot",
+          "Kotlin",
+          "React",
+          "Redis",
+          "Kafka",
+          "MySQL",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "400+",
+        "hiring_focus": "백엔드, 보안, 블록체인",
+        "salary_range": "7000~1억8000 (불장 시 성과급 고)",
+        "growth_path": "Junior→Senior→Lead→Principal"
+      },
+      "product": {
+        "pm_count_estimate": "50+",
+        "methodology": "애자일",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Confluence"
+        ]
+      },
+      "design": {
+        "design_system": "업비트 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "Spark",
+          "ClickHouse",
+          "Airflow"
+        ],
+        "ai_ml_focus": "이상거래탐지(FDS), 시장분석 ML팀"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "AI AML (자금세탁방지) 시스템",
+        "업비트 AI 이상거래탐지",
+        "기와(GIWA) Web3 인프라",
+        "AI 기반 가상자산 분석"
+      ],
+      "ai_team_size": "AI/ML 인력 50~80명 추정",
+      "ai_tech_stack": [
+        "Python",
+        "PyTorch",
+        "Go",
+        "Kafka",
+        "ClickHouse",
+        "자체 블록체인 분석 도구"
+      ],
+      "ai_investment": "Web3 인프라 및 보안 AI 투자 확대",
+      "ai_partnerships": [
+        "카카오 그룹 기술 협력",
+        "글로벌 블록체인 파트너"
+      ],
+      "ai_open_source": [
+        "해당 없음 (금융 보안)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 10~15%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "업비트 실시간 AI AML 자금세탁 탐지",
+        "블록체인 온체인 AI 이상거래 분석",
+        "가상자산 시장 AI 기반 리스크 모니터링"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "업비트",
+      "service_portfolio": [
+        {
+          "name": "업비트",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": "800만+",
+          "launch_year": 2017,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring, Redis, Kafka"
+        },
+        {
+          "name": "증권플러스",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2014,
+          "status": "주력",
+          "tech_stack_hint": "Java, React"
+        },
+        {
+          "name": "업비트 글로벌",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "성장",
+          "tech_stack_hint": "Java, Kubernetes"
+        },
+        {
+          "name": "두나무 NFT",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "축소",
+          "tech_stack_hint": "Solidity, Java"
+        }
+      ],
+      "upcoming_services": [
+        "업비트 글로벌 확장",
+        "Web3 금융 서비스"
+      ]
     }
   },
   {
@@ -4460,18 +5928,37 @@
       "notable_quotes": "\"글로벌 기준의 서비스와 조직 문화로 아시아 No.1 메신저를 이끈다\""
     },
     "organization": {
-      "structure_type": "글로벌 매트릭스 (한국·일본·대만·태국 거점)",
+      "structure_type": "매트릭스",
       "key_divisions": [
-        "LINE앱",
-        "LINE Pay",
-        "LINE Music",
-        "AI/데이터",
-        "인프라"
+        {
+          "name": "메신저개발",
+          "role": "LINE 앱 개발",
+          "headcount_estimate": "500+(한국)"
+        },
+        {
+          "name": "플랫폼",
+          "role": "LINE 플랫폼 인프라",
+          "headcount_estimate": "300+"
+        },
+        {
+          "name": "AI/ML",
+          "role": "LINE AI 서비스",
+          "headcount_estimate": "200+"
+        }
       ],
-      "engineering_culture": "하이브리드 워크 공식화(2021), 일본 LINE 연계 기술 공유, 글로벌 코드리뷰",
-      "work_style": "하이브리드 선택제 (재택·휴양지 원격 가능)",
-      "core_hours": "코어타임 팀 협의",
-      "decision_making": "글로벌 본사(일본) 연계 + 한국 법인 자율"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 50%",
+        "tech_culture": "일본계 글로벌 문화, 코드리뷰, 영어/일본어 혼용, 자체 인프라 운영"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (성남 분당)",
+      "notable_benefits": [
+        "글로벌 전근 기회",
+        "LINE 복지포인트",
+        "유연근무제",
+        "어학 지원"
+      ]
     },
     "employee_experience": {
       "onboarding": "글로벌 팀 소개 + 서비스 체험 온보딩",
@@ -4484,6 +5971,134 @@
         "자유 복장"
       ],
       "glassdoor_sentiment": "잡플래닛 3.7점 — '글로벌 근무 환경·좋은 복지, 네이버-소프트뱅크 지배구조 불확실성'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Swift",
+          "Go",
+          "React",
+          "TypeScript",
+          "Kafka",
+          "MySQL",
+          "Redis"
+        ],
+        "team_size_estimate": "1500+(한국)",
+        "hiring_focus": "백엔드, iOS/Android, AI",
+        "salary_range": "6000~1억5000",
+        "growth_path": "Junior→Senior→Principal (글로벌 레벨 시스템)"
+      },
+      "product": {
+        "pm_count_estimate": "200+",
+        "methodology": "애자일/스크럼",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma"
+        ]
+      },
+      "design": {
+        "design_system": "LINE Design System",
+        "tools": [
+          "Figma",
+          "Zeplin"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Hadoop",
+          "Spark",
+          "Kafka",
+          "Flink",
+          "Python"
+        ],
+        "ai_ml_focus": "LINE AI (클로바 협력), 추천/번역/음성인식 팀"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "LINE Ads AI 광고 추천",
+        "LINE AI 번역",
+        "LINE CLOVA (AI 어시스턴트)",
+        "LINE OpenChat AI"
+      ],
+      "ai_team_size": "AI 인력 200명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "C++",
+        "TensorFlow Serving",
+        "Kubernetes",
+        "Kafka"
+      ],
+      "ai_investment": "라인야후 그룹 AI 투자 공유, 광고 AI 고도화 집중",
+      "ai_partnerships": [
+        "야후재팬 AI 기술 공유 (라인야후)",
+        "NAVER HyperCLOVA 협력"
+      ],
+      "ai_open_source": [
+        "LINE Bot SDK 오픈소스",
+        "일부 ML 도구 공개"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 15~20%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "LINE Ads AI 광고 CTR/CVR 예측 최적화",
+        "LINE 다국어 AI 실시간 번역",
+        "LINE 메시지 스팸/악성 AI 탐지"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "LINE 메신저",
+      "service_portfolio": [
+        {
+          "name": "LINE 메신저",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고/스탬프",
+          "mau": "2억+(글로벌)",
+          "launch_year": 2011,
+          "status": "주력",
+          "tech_stack_hint": "Java, Kotlin, Swift, Kafka"
+        },
+        {
+          "name": "LINE Pay",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2014,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring"
+        },
+        {
+          "name": "LINE Games",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": null,
+          "launch_year": 2013,
+          "status": "주력",
+          "tech_stack_hint": "Unity, C++"
+        },
+        {
+          "name": "LINE Man (태국)",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2016,
+          "status": "성장",
+          "tech_stack_hint": "Go, React"
+        }
+      ],
+      "upcoming_services": [
+        "LINE AI 에이전트",
+        "Web3/NFT 서비스 (DOSI)"
+      ]
     }
   },
   {
@@ -4693,6 +6308,154 @@
       "employee_total": null,
       "employee_avg_salary": null,
       "employee_avg_tenure": null
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Python",
+          "FastAPI",
+          "React",
+          "TypeScript",
+          "LangChain",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "team_size_estimate": "100+",
+        "hiring_focus": "백엔드, AI 엔지니어링, 프론트엔드",
+        "salary_range": "5500~1억3000",
+        "growth_path": "Junior→Senior→Lead"
+      },
+      "product": {
+        "pm_count_estimate": "20+",
+        "methodology": "애자일",
+        "tools": [
+          "Notion",
+          "Figma",
+          "Linear"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "BigQuery",
+          "Airflow"
+        ],
+        "ai_ml_focus": "LLM 프롬프트 엔지니어링, RAG, 파인튜닝 팀"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "뤼튼 AI 툴 허브 (생성형 AI 올인원)",
+        "뤼튼 캐릭터 AI",
+        "뤼튼 AI 검색",
+        "기업용 AI 어시스턴트"
+      ],
+      "ai_team_size": "AI 인력 60~80명 추정 (전체 40%+)",
+      "ai_tech_stack": [
+        "PyTorch",
+        "LangChain",
+        "RLHF/RLAIF",
+        "Reward Modeling",
+        "LLM (GPT/Claude/Gemini 멀티)",
+        "vLLM",
+        "RAG"
+      ],
+      "ai_investment": "시리즈 B 이상 투자 유치, AI 집중 채용 (합격 보너스 2,000만원)",
+      "ai_partnerships": [
+        "OpenAI (GPT API)",
+        "Anthropic (Claude API)",
+        "Google (Gemini API)",
+        "멀티 LLM 전략"
+      ],
+      "ai_open_source": [
+        "해당 없음 (비공개 모델 전략)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 50~60%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "뤼튼 AI 툴 허브 - 월 MAU 100만+ AI 생산성 도구",
+        "LLM Autonomous Agent 기반 작업 자동화",
+        "캐릭터 AI 기반 대화형 AI 서비스"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "뤼튼 AI 포털",
+      "service_portfolio": [
+        {
+          "name": "뤼튼 AI 포털",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고/프리미엄",
+          "mau": "600만+",
+          "launch_year": 2022,
+          "status": "주력",
+          "tech_stack_hint": "Python, FastAPI, React, GPT API"
+        },
+        {
+          "name": "뤼튼 for Business",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2023,
+          "status": "성장",
+          "tech_stack_hint": "Python, LangChain, React"
+        },
+        {
+          "name": "AI 캐릭터/챗봇",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "구독/프리미엄",
+          "mau": null,
+          "launch_year": 2024,
+          "status": "신규",
+          "tech_stack_hint": "Python, LLM API"
+        }
+      ],
+      "upcoming_services": [
+        "뤼튼 AI 에이전트",
+        "버티컬 AI 서비스 확장"
+      ]
+    },
+    "organization": {
+      "structure_type": "스쿼드",
+      "key_divisions": [
+        {
+          "name": "제품개발",
+          "role": "AI 포털/서비스 개발",
+          "headcount_estimate": "100+"
+        },
+        {
+          "name": "AI Research",
+          "role": "LLM/멀티모달 연구",
+          "headcount_estimate": "30+"
+        },
+        {
+          "name": "B2B",
+          "role": "기업 솔루션",
+          "headcount_estimate": "50+"
+        }
+      ],
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 55%",
+        "tech_culture": "빠른 실험, 오픈AI 등 외부 LLM 적극 활용, 제품 중심"
+      },
+      "decision_making": "바텀업",
+      "work_style": "하이브리드 (강남)",
+      "notable_benefits": [
+        "스톡옵션",
+        "자율출퇴근",
+        "장비 지원",
+        "AI 툴 무제한 사용"
+      ]
     }
   },
   {
@@ -4986,7 +6749,120 @@
       "국가정보자원관리원 대전 상주(네트워크 시스템 운영/경력 7년~)",
       "네트워크 구축 및 유지보수 엔지니어팀 신입[대전 본사]",
       "SI 사업 지원/관리 (경력) 인원 채용 공고"
-    ]
+    ],
+    "service_analysis": {
+      "flagship_service": "ATOM AI 반도체",
+      "service_portfolio": [
+        {
+          "name": "ATOM (AI 추론 칩)",
+          "category": "하드웨어",
+          "target_user": "B2B",
+          "monetization": "판매",
+          "mau": null,
+          "launch_year": 2023,
+          "status": "주력",
+          "tech_stack_hint": "VLSI, RTL, CUDA 대체"
+        },
+        {
+          "name": "REBEL SDK",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "라이센스",
+          "mau": null,
+          "launch_year": 2023,
+          "status": "신규",
+          "tech_stack_hint": "C++, Python, 컴파일러"
+        },
+        {
+          "name": "AI 클라우드 서비스",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "사용료",
+          "mau": null,
+          "launch_year": 2024,
+          "status": "신규",
+          "tech_stack_hint": "Kubernetes, Python"
+        }
+      ],
+      "upcoming_services": [
+        "ATOM2 차세대 칩",
+        "데이터센터 AI 가속기 공급"
+      ]
+    },
+    "organization": {
+      "structure_type": "기능조직",
+      "key_divisions": [
+        {
+          "name": "칩 설계",
+          "role": "RTL/검증/물리설계",
+          "headcount_estimate": "200+"
+        },
+        {
+          "name": "소프트웨어",
+          "role": "컴파일러/SDK/드라이버",
+          "headcount_estimate": "100+"
+        },
+        {
+          "name": "사업개발",
+          "role": "고객사 확보",
+          "headcount_estimate": "30+"
+        }
+      ],
+      "tech_org": {
+        "cto_or_vp": "박성현 (CEO, 칩 설계 전문가)",
+        "engineering_ratio": "약 80%",
+        "tech_culture": "딥테크 스타트업, 반도체+AI 융합, 빠른 테이프아웃 사이클"
+      },
+      "decision_making": "바텀업",
+      "work_style": "오피스 중심 (판교)",
+      "notable_benefits": [
+        "스톡옵션(핵심)",
+        "경쟁력 있는 연봉",
+        "최신 장비",
+        "컨퍼런스 지원"
+      ]
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "C++",
+          "Python",
+          "SystemVerilog",
+          "CUDA",
+          "LLVM",
+          "TensorRT"
+        ],
+        "team_size_estimate": "300+",
+        "hiring_focus": "칩 설계(RTL), 컴파일러, ML 프레임워크",
+        "salary_range": "7000~2억 (스타트업 스톡옵션 포함)",
+        "growth_path": "Engineer→Senior→Staff→Principal"
+      },
+      "product": {
+        "pm_count_estimate": "10+",
+        "methodology": "하드웨어 개발 사이클",
+        "tools": [
+          "Jira",
+          "Confluence"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Cadence",
+          "Synopsys"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "PyTorch",
+          "TensorFlow",
+          "자체 ML 툴"
+        ],
+        "ai_ml_focus": "AI 추론 최적화 팀, 모델 컴파일러 팀 핵심"
+      }
+    }
   },
   {
     "name": "리턴제로",
@@ -5870,7 +7746,7 @@
       "revenue_3y": [
         {
           "year": 2024,
-          "amount": 11173114614
+          "amount": 1100509264046
         },
         {
           "year": 2023,
@@ -5884,7 +7760,7 @@
       "operating_profit_3y": [
         {
           "year": 2024,
-          "amount": null
+          "amount": 112386710315
         },
         {
           "year": 2023,
@@ -5898,7 +7774,7 @@
       "net_income_3y": [
         {
           "year": 2024,
-          "amount": null
+          "amount": -26248755188
         },
         {
           "year": 2023,
@@ -5913,9 +7789,9 @@
       "total_debt": 1391956201558,
       "debt_ratio": 182.5,
       "revenue_growth_yoy": null,
-      "profit_margin": null,
+      "profit_margin": "10.2%",
       "employee_total": 1604,
-      "employee_avg_salary": 92110972,
+      "employee_avg_salary": 92052369,
       "employee_avg_tenure": "2년 5개월"
     },
     "management_philosophy": {
@@ -5929,18 +7805,37 @@
       "notable_quotes": "\"국내 최대 패션 플랫폼에서 글로벌 패션 생태계로 — 10조 밸류를 향한 도전\""
     },
     "organization": {
-      "structure_type": "기능조직 + 사업부 혼합",
+      "structure_type": "기능조직",
       "key_divisions": [
-        "무신사스토어",
-        "무신사스탠다드(PB)",
-        "솔드아웃",
-        "무신사글로벌",
-        "개발"
+        {
+          "name": "무신사 스토어",
+          "role": "핵심 커머스 플랫폼",
+          "headcount_estimate": "500+"
+        },
+        {
+          "name": "29CM",
+          "role": "라이프스타일 커머스",
+          "headcount_estimate": "200+"
+        },
+        {
+          "name": "기술본부",
+          "role": "플랫폼/인프라 개발",
+          "headcount_estimate": "300+"
+        }
       ],
-      "engineering_culture": "무신사 기술 블로그 운영(Medium), 개발 문화 공유, 트래픽 대응 기술 노하우",
-      "work_style": "하이브리드 (주 3일 출근)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "창업자 복귀 후 톱다운 강화"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 30%",
+        "tech_culture": "코드리뷰, 사내 기술공유, 빠른 실험 문화"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (성수 오피스)",
+      "notable_benefits": [
+        "스톡옵션",
+        "패션 임직원 할인",
+        "자기계발비",
+        "유연근무제"
+      ]
     },
     "employee_experience": {
       "onboarding": "신규 입사자 OJT, 팀 배치 후 온보딩 키트",
@@ -5953,6 +7848,131 @@
         "복지 논란 이후 개선 중"
       ],
       "glassdoor_sentiment": "잡플래닛 3.3점 — '패션 업계 독보적 지위, 복지 축소 논란 이후 개선 중'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "Spring Boot",
+          "React",
+          "TypeScript",
+          "MySQL",
+          "Redis"
+        ],
+        "team_size_estimate": "300+",
+        "hiring_focus": "백엔드, 프론트엔드",
+        "salary_range": "5000~1억2000",
+        "growth_path": "Junior→Senior→Lead Engineer"
+      },
+      "product": {
+        "pm_count_estimate": "80+",
+        "methodology": "애자일/스크럼",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Notion"
+        ]
+      },
+      "design": {
+        "design_system": "자체 디자인 시스템 운영",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Airflow",
+          "BigQuery",
+          "Python",
+          "dbt"
+        ],
+        "ai_ml_focus": "추천/검색 ML팀, 패션 AI 트렌드 분석"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "AI 패션 스타일 추천 엔진",
+        "AI 의류 이미지 분류/태깅",
+        "무신사 AI 검색",
+        "AI 네이티브 개발자 프로그램 (MUKIE)"
+      ],
+      "ai_team_size": "AI 인력 60~100명 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "TensorFlow",
+        "BigQuery ML",
+        "Kubernetes",
+        "Airflow"
+      ],
+      "ai_investment": "AI 네이티브 전환 선언, AI 신입 채용 프로그램 운영",
+      "ai_partnerships": [
+        "AWS 파트너",
+        "Google Cloud AI"
+      ],
+      "ai_open_source": [
+        "해당 없음"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 15~20%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "개인화 패션 추천 AI (취향 기반 스타일링)",
+        "의류 이미지 AI 자동 카테고리 태깅",
+        "비주얼 서치 (이미지로 유사 상품 검색)"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "무신사 스토어",
+      "service_portfolio": [
+        {
+          "name": "무신사 스토어",
+          "category": "커머스",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": "1000만+",
+          "launch_year": 2012,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring, React, MySQL"
+        },
+        {
+          "name": "29CM",
+          "category": "커머스",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": "400만+",
+          "launch_year": 2012,
+          "status": "주력",
+          "tech_stack_hint": "Python, Django, React"
+        },
+        {
+          "name": "스타일쉐어",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고/수수료",
+          "mau": null,
+          "launch_year": 2011,
+          "status": "축소",
+          "tech_stack_hint": "Python, React"
+        },
+        {
+          "name": "솔드아웃",
+          "category": "커머스",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2020,
+          "status": "성장",
+          "tech_stack_hint": "Kotlin, Spring Boot"
+        }
+      ],
+      "upcoming_services": [
+        "글로벌 패션 플랫폼 확장",
+        "무신사 오프라인 스토어"
+      ]
     }
   },
   {
@@ -6720,7 +8740,7 @@
       "revenue_growth_yoy": "+5.4%",
       "profit_margin": "9.3%",
       "employee_total": 22774,
-      "employee_avg_salary": 67888557,
+      "employee_avg_salary": 67223237,
       "employee_avg_tenure": "16.7"
     }
   },
@@ -6951,7 +8971,7 @@
       "revenue_growth_yoy": "+22.7%",
       "profit_margin": "5.9%",
       "employee_total": 258960,
-      "employee_avg_salary": 62832553,
+      "employee_avg_salary": 65095030,
       "employee_avg_tenure": "12.2"
     },
     "management_philosophy": {
@@ -6965,18 +8985,38 @@
       "notable_quotes": "\"다치면서 만들어야 할 반도체는 없다 — 안전과 품질이 최우선이다\" — 삼성전자 경영 원칙"
     },
     "organization": {
-      "structure_type": "사업부제 (DX부문·DS부문·Harman)",
+      "structure_type": "사업부제",
       "key_divisions": [
-        "MX(스마트폰)",
-        "VD/DA(TV·가전)",
-        "반도체(메모리·파운드리)",
-        "디스플레이",
-        "Harman"
+        {
+          "name": "MX사업부",
+          "role": "모바일/갤럭시",
+          "headcount_estimate": "1만+"
+        },
+        {
+          "name": "DS부문",
+          "role": "반도체 설계/제조",
+          "headcount_estimate": "6만+"
+        },
+        {
+          "name": "VD/DA사업부",
+          "role": "TV/가전",
+          "headcount_estimate": "1만+"
+        }
       ],
-      "engineering_culture": "사내 기술 컨퍼런스 SAMSUNG TECH, 글로벌 R&D 센터 연계, 특허 출원 장려",
-      "work_style": "주 5일 출근 (일부 R&D 직군 하이브리드)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "톱다운 (사업부장→팀장→담당) + 연구 직군 자율"
+      "tech_org": {
+        "cto_or_vp": "전경훈 (DX부문 CTO)",
+        "engineering_ratio": "약 50% (전 직군 포함 연구개발 인력)",
+        "tech_culture": "삼성 소프트웨어 아카데미(SSAFY) 운영, 내부 기술 표준화, 글로벌 R&D 센터 보유"
+      },
+      "decision_making": "톱다운",
+      "work_style": "오피스 중심 (수원/화성/서초)",
+      "notable_benefits": [
+        "삼성 복지포인트",
+        "기숙사/사택",
+        "자녀학비지원",
+        "의료비지원",
+        "사내 대학원"
+      ]
     },
     "employee_experience": {
       "onboarding": "삼성 GSAT + 직무별 교육 3~6개월, 멘토링 제도",
@@ -6989,6 +9029,144 @@
         "임직원 할인"
       ],
       "glassdoor_sentiment": "잡플래닛 3.5점 — '안정적 복지·글로벌 브랜드 프리미엄, 수직적 문화·느린 의사결정'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "C++",
+          "Java",
+          "Python",
+          "Android",
+          "Tizen",
+          "CUDA",
+          "VHDL"
+        ],
+        "team_size_estimate": "4만+(SW 개발자)",
+        "hiring_focus": "AI/온디바이스ML, 반도체 설계, 안드로이드 SW",
+        "salary_range": "5000~1억2000 (직급별)",
+        "growth_path": "CL1→CL2→CL3→CL4 (직급제)"
+      },
+      "product": {
+        "pm_count_estimate": "1000+",
+        "methodology": "워터폴/애자일 혼용",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Samsung Internal Tools"
+        ]
+      },
+      "design": {
+        "design_system": "One UI 디자인 시스템",
+        "tools": [
+          "Figma",
+          "Sketch",
+          "자체 툴"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "PyTorch",
+          "TensorFlow",
+          "Spark",
+          "자체 플랫폼"
+        ],
+        "ai_ml_focus": "삼성리서치 AI 센터, 온디바이스 AI, Bixby LLM 개발"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "삼성 가우스 (자체 LLM)",
+        "Galaxy AI (온디바이스 AI)",
+        "Bixby (AI 어시스턴트)",
+        "삼성 가우스2 (멀티모달)"
+      ],
+      "ai_team_size": "삼성리서치 포함 AI 인력 1,000명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "CUDA",
+        "TensorRT",
+        "자체 NPU",
+        "Qualcomm AI SDK",
+        "Samsung Exynos AI"
+      ],
+      "ai_investment": "자체 NPU 개발 투자, OpenAI GPT 사내 도입, AI R&D 수조 원 규모",
+      "ai_partnerships": [
+        "OpenAI (GPT 사내 도입)",
+        "Google (Gemini 협력)",
+        "Qualcomm (온디바이스 AI)"
+      ],
+      "ai_open_source": [
+        "삼성 오픈소스 프로젝트 일부",
+        "Tizen 오픈소스"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/SW 약 25%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "Galaxy S 시리즈 온디바이스 AI 번역/요약/Circle to Search",
+        "삼성 가우스 기반 사내 코드 자동완성",
+        "반도체 공정 불량 검출 AI"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "갤럭시 스마트폰",
+      "service_portfolio": [
+        {
+          "name": "갤럭시 스마트폰",
+          "category": "하드웨어",
+          "target_user": "B2C",
+          "monetization": "판매",
+          "mau": null,
+          "launch_year": 2009,
+          "status": "주력",
+          "tech_stack_hint": "C++, Java, Android, One UI"
+        },
+        {
+          "name": "반도체(메모리/시스템)",
+          "category": "하드웨어",
+          "target_user": "B2B",
+          "monetization": "판매",
+          "mau": null,
+          "launch_year": 1974,
+          "status": "주력",
+          "tech_stack_hint": "C, VHDL, EDA 툴"
+        },
+        {
+          "name": "Bixby",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "번들",
+          "mau": null,
+          "launch_year": 2017,
+          "status": "주력",
+          "tech_stack_hint": "Python, TensorFlow, C++"
+        },
+        {
+          "name": "SmartThings",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "생태계 판매",
+          "mau": "2억+",
+          "launch_year": 2014,
+          "status": "성장",
+          "tech_stack_hint": "Java, Kotlin, AWS"
+        },
+        {
+          "name": "삼성 파운드리",
+          "category": "하드웨어",
+          "target_user": "B2B",
+          "monetization": "판매",
+          "mau": null,
+          "launch_year": 2017,
+          "status": "주력",
+          "tech_stack_hint": "EDA, VLSI"
+        }
+      ],
+      "upcoming_services": [
+        "갤럭시AI 온디바이스",
+        "3nm 파운드리 양산",
+        "삼성 HBM4"
+      ]
     }
   },
   {
@@ -7704,7 +9882,133 @@
       "[쏘카]모두의주차장 에이전트(제휴영업 프리랜서)모집(경남/강원",
       "[쏘카]모두의주차장 에이전트(제휴영업 프리랜서)모집(대전/전북",
       "[쏘카]모두의주차장 에이전트(제휴영업 프리랜서)모집(부산/제주"
-    ]
+    ],
+    "service_analysis": {
+      "flagship_service": "쏘카 앱",
+      "service_portfolio": [
+        {
+          "name": "쏘카",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "사용료",
+          "mau": "600만+",
+          "launch_year": 2012,
+          "status": "주력",
+          "tech_stack_hint": "Java, Kotlin, Spring Boot, React Native"
+        },
+        {
+          "name": "쏘카 패스",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2020,
+          "status": "성장",
+          "tech_stack_hint": "Java, React"
+        },
+        {
+          "name": "VCNC(타다)",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2018,
+          "status": "성장",
+          "tech_stack_hint": "Kotlin, Go, React Native"
+        },
+        {
+          "name": "쏘카 비즈니스",
+          "category": "플랫폼",
+          "target_user": "B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2020,
+          "status": "성장",
+          "tech_stack_hint": "Java, React"
+        }
+      ],
+      "upcoming_services": [
+        "자율주행 카쉐어링",
+        "AI 차량 예약 최적화"
+      ]
+    },
+    "organization": {
+      "structure_type": "스쿼드",
+      "key_divisions": [
+        {
+          "name": "플랫폼개발",
+          "role": "쏘카 앱/서버",
+          "headcount_estimate": "200+"
+        },
+        {
+          "name": "데이터/AI",
+          "role": "차량 최적화/추천",
+          "headcount_estimate": "80+"
+        },
+        {
+          "name": "모빌리티",
+          "role": "차량관리/타다",
+          "headcount_estimate": "100+"
+        }
+      ],
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 35%",
+        "tech_culture": "사내 기술블로그 운영, 코드리뷰, 데이터 드리븐, 사내 해커톤"
+      },
+      "decision_making": "바텀업",
+      "work_style": "하이브리드 (강남)",
+      "notable_benefits": [
+        "쏘카 이용권 제공",
+        "스톡옵션",
+        "유연근무제",
+        "점심 지원"
+      ]
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Spring Boot",
+          "Go",
+          "React Native",
+          "TypeScript",
+          "MySQL",
+          "Redis"
+        ],
+        "team_size_estimate": "200+",
+        "hiring_focus": "백엔드, 모바일, 데이터",
+        "salary_range": "5500~1억3000",
+        "growth_path": "Junior→Senior→Lead"
+      },
+      "product": {
+        "pm_count_estimate": "30+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Notion"
+        ]
+      },
+      "design": {
+        "design_system": "자체 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "Airflow",
+          "BigQuery",
+          "dbt",
+          "Spark"
+        ],
+        "ai_ml_focus": "차량 배치 최적화 ML, 수요예측, 가격 동적 책정 팀"
+      }
+    }
   },
   {
     "name": "애플코리아",
@@ -8213,7 +10517,7 @@
       "revenue_growth_yoy": "-18.2%",
       "profit_margin": "5.8%",
       "employee_total": 207,
-      "employee_avg_salary": 379521739,
+      "employee_avg_salary": 95299516,
       "employee_avg_tenure": "1.7"
     },
     "management_philosophy": {
@@ -8227,18 +10531,37 @@
       "notable_quotes": "\"누구나 마음 편히 즐길 수 있게 — 여행 여가 산업의 패러다임을 바꾼다\" — 이수진 대표"
     },
     "organization": {
-      "structure_type": "테크 중심 기능조직 + 글로벌 사업부",
+      "structure_type": "사업부제",
       "key_divisions": [
-        "야놀자클라우드(B2B)",
-        "여기어때·숙박앱",
-        "글로벌SaaS",
-        "데이터/AI",
-        "인터파크"
+        {
+          "name": "야놀자 플랫폼",
+          "role": "숙박/여행 앱",
+          "headcount_estimate": "500+"
+        },
+        {
+          "name": "야놀자클라우드",
+          "role": "B2B SaaS",
+          "headcount_estimate": "1000+"
+        },
+        {
+          "name": "인터파크트리플",
+          "role": "여행 종합 플랫폼",
+          "headcount_estimate": "400+"
+        }
       ],
-      "engineering_culture": "R&D 역량 강화·글로벌 인재 영입, AI·빅데이터 기반 여행 솔루션",
-      "work_style": "하이브리드",
-      "core_hours": "코어타임 팀 협의",
-      "decision_making": "CEO 주도 비전 + 사업부 자율"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 35%",
+        "tech_culture": "빠른 실험, 글로벌 서비스 경험, MSA 전환 중"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (강남)",
+      "notable_benefits": [
+        "야놀자 포인트 지급",
+        "숙박 할인",
+        "유연근무제",
+        "스톡옵션"
+      ]
     },
     "employee_experience": {
       "onboarding": "여가 서비스 체험 + 팀 온보딩",
@@ -8251,6 +10574,132 @@
         "생일 축하금·조기퇴근권"
       ],
       "glassdoor_sentiment": "잡플래닛 3.5점 — '독특한 여가 복지·창업자 드라마, 기업 방향 전환 잦아 혼란 있음'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Spring Boot",
+          "React",
+          "TypeScript",
+          "AWS",
+          "Kafka",
+          "MySQL"
+        ],
+        "team_size_estimate": "800+",
+        "hiring_focus": "백엔드, 클라우드, 글로벌 플랫폼",
+        "salary_range": "5500~1억3000",
+        "growth_path": "Junior→Senior→Lead→Principal"
+      },
+      "product": {
+        "pm_count_estimate": "100+",
+        "methodology": "애자일/스크럼",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Notion"
+        ]
+      },
+      "design": {
+        "design_system": "자체 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Airflow",
+          "BigQuery",
+          "Python",
+          "dbt"
+        ],
+        "ai_ml_focus": "여행 추천/가격 최적화 ML팀, AI 사업부 별도 운영"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "야놀자 Revenue Management System (AI 가격최적화)",
+        "AI 기반 숙박 추천",
+        "야놀자 AI 검색",
+        "글로벌 호텔 AI 솔루션"
+      ],
+      "ai_team_size": "AI/ML 인력 80~120명 추정",
+      "ai_tech_stack": [
+        "Python",
+        "PyTorch",
+        "Elasticsearch",
+        "Go (gRPC)",
+        "AWS SageMaker",
+        "Airflow"
+      ],
+      "ai_investment": "소프트뱅크 투자 유치 후 AI 여행 기술 글로벌 확장",
+      "ai_partnerships": [
+        "소프트뱅크 그룹 협력",
+        "Booking Holdings 파트너십",
+        "인터파크 인수"
+      ],
+      "ai_open_source": [
+        "해당 없음"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 15%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "호텔 객실 AI 동적 가격 최적화 (Revenue Management)",
+        "AI 기반 여행 패키지 개인화 추천",
+        "야놀자 검색 AI 기반 숙박/레저 검색 랭킹"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "야놀자 앱",
+      "service_portfolio": [
+        {
+          "name": "야놀자 앱",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": "1000만+",
+          "launch_year": 2007,
+          "status": "주력",
+          "tech_stack_hint": "Java, Kotlin, Spring, React"
+        },
+        {
+          "name": "야놀자클라우드",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독/라이센스",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "주력",
+          "tech_stack_hint": "Java, Kubernetes, AWS"
+        },
+        {
+          "name": "Yanolja (글로벌)",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Java, React Native"
+        },
+        {
+          "name": "인터파크트리플",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": "700만+",
+          "launch_year": 2023,
+          "status": "성장",
+          "tech_stack_hint": "Java, React"
+        }
+      ],
+      "upcoming_services": [
+        "글로벌 여행 플랫폼 통합",
+        "AI 여행 추천 서비스"
+      ]
     }
   },
   {
@@ -8411,7 +10860,168 @@
       "AI DevOps",
       "AI Product Data Manager",
       "Software Engineer-Launching Platform"
-    ]
+    ],
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Python",
+          "PyTorch",
+          "CUDA",
+          "FastAPI",
+          "Kubernetes",
+          "React",
+          "TypeScript"
+        ],
+        "team_size_estimate": "200+",
+        "hiring_focus": "LLM 연구, MLOps, 백엔드",
+        "salary_range": "6000~1억8000 (AI 연구직 상위)",
+        "growth_path": "Researcher→Senior Researcher→Principal Researcher"
+      },
+      "product": {
+        "pm_count_estimate": "20+",
+        "methodology": "애자일",
+        "tools": [
+          "Notion",
+          "Figma",
+          "Slack"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "PyTorch",
+          "Hugging Face",
+          "vLLM",
+          "CUDA",
+          "Python"
+        ],
+        "ai_ml_focus": "전사가 AI 조직, Solar LLM 개발이 핵심"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "Solar Pro/Mini (자체 LLM)",
+        "Solar Pro 2 (추론형 LLM)",
+        "Document Parse (문서 AI)",
+        "풀스택 LLM 서비스 (API)",
+        "AskUp (카카오톡 AI)"
+      ],
+      "ai_team_size": "AI 인력 100명+ (전체의 50% 이상)",
+      "ai_tech_stack": [
+        "PyTorch",
+        "vLLM",
+        "CUDA",
+        "Transformers",
+        "RLHF/DPO",
+        "RAG",
+        "Kubernetes"
+      ],
+      "ai_investment": "시리즈 B 400억 원 투자 유치, 2025년 채용 확대 + 스톡 인센티브",
+      "ai_partnerships": [
+        "Hugging Face (Solar 모델 공개)",
+        "Upstage x Kakao (AskUp)",
+        "글로벌 엔터프라이즈 LLM 파트너"
+      ],
+      "ai_open_source": [
+        "Solar 10.7B (Hugging Face 오픈소스 공개)",
+        "Solar Pro SEED 계열 오픈소스"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 60~70%",
+      "ai_maturity": "선도",
+      "ai_use_cases": [
+        "Solar Pro 2 - 글로벌 AI 성능 12위 LLM 서비스",
+        "Document Parse - OCR+LLM 결합 문서 분석 (법률/금융/의료)",
+        "풀스택 LLM API - 프라이빗 온프레미스 기업 배포"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "Solar LLM",
+      "service_portfolio": [
+        {
+          "name": "Solar LLM",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "API/라이센스",
+          "mau": null,
+          "launch_year": 2023,
+          "status": "주력",
+          "tech_stack_hint": "PyTorch, CUDA, vLLM"
+        },
+        {
+          "name": "AskUp",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "구독",
+          "mau": "500만+",
+          "launch_year": 2023,
+          "status": "성장",
+          "tech_stack_hint": "Python, FastAPI, React"
+        },
+        {
+          "name": "Document AI",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "API/라이센스",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "주력",
+          "tech_stack_hint": "Python, PyTorch, OCR"
+        },
+        {
+          "name": "Solar API",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "API 과금",
+          "mau": null,
+          "launch_year": 2024,
+          "status": "신규",
+          "tech_stack_hint": "FastAPI, CUDA, Kubernetes"
+        }
+      ],
+      "upcoming_services": [
+        "Solar 멀티모달",
+        "엔터프라이즈 AI 에이전트"
+      ]
+    },
+    "organization": {
+      "structure_type": "스쿼드",
+      "key_divisions": [
+        {
+          "name": "LLM Research",
+          "role": "Solar 모델 연구/개발",
+          "headcount_estimate": "100+"
+        },
+        {
+          "name": "Product",
+          "role": "AskUp/Document AI",
+          "headcount_estimate": "80+"
+        },
+        {
+          "name": "Engineering",
+          "role": "플랫폼/인프라",
+          "headcount_estimate": "100+"
+        }
+      ],
+      "tech_org": {
+        "cto_or_vp": "김성훈 (CEO 겸 AI 리더)",
+        "engineering_ratio": "약 70%",
+        "tech_culture": "논문-제품 연결 문화, Kaggle 그랜드마스터 다수, 오픈소스 기여"
+      },
+      "decision_making": "바텀업",
+      "work_style": "하이브리드 (강남)",
+      "notable_benefits": [
+        "스톡옵션",
+        "연구비 지원",
+        "컨퍼런스 참가 지원",
+        "장비 최신화"
+      ]
+    }
   },
   {
     "name": "에이프로젠",
@@ -8868,18 +11478,38 @@
       "notable_quotes": "\"2024년은 준비, 2025년은 완전히 새로운 엔씨소프트를 보여주겠다\" — 박병무 대표"
     },
     "organization": {
-      "structure_type": "스튜디오제 전환 + 기능조직",
+      "structure_type": "스튜디오제",
       "key_divisions": [
-        "리니지 시리즈",
-        "TL(쓰론앤리버티)",
-        "프로젝트G",
-        "AI연구(NC AI Lab)",
-        "배틀크러쉬"
+        {
+          "name": "리니지M TF",
+          "role": "리니지M 개발/운영",
+          "headcount_estimate": "500+"
+        },
+        {
+          "name": "AI센터",
+          "role": "VARCO LLM 연구",
+          "headcount_estimate": "300+"
+        },
+        {
+          "name": "글로벌사업부",
+          "role": "해외 서비스",
+          "headcount_estimate": "200+"
+        }
       ],
-      "engineering_culture": "NC AI Lab 운영, 게임 평가위원회 도입, 개발 효율화 체계 구축",
-      "work_style": "하이브리드 (판교 본사 중심)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "공동대표 체제 + 게임별 개발팀 자율"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 60%",
+        "tech_culture": "대규모 MMORPG 기술 축적, AI NPC 연구 선도, 사내 AI 컨퍼런스"
+      },
+      "decision_making": "톱다운",
+      "work_style": "오피스 중심 (판교 R&D센터)",
+      "notable_benefits": [
+        "성과급",
+        "게임 무료",
+        "사내 복지시설(판교)",
+        "자녀 학비 지원",
+        "건강검진"
+      ]
     },
     "employee_experience": {
       "onboarding": "게임 도메인 교육 + 팀 배치",
@@ -8892,6 +11522,134 @@
         "의료 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.4점 — '최상급 복지 시설, 구조조정·실적 부진 불안감 공존'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "C++",
+          "Java",
+          "Python",
+          "Unreal Engine",
+          "PyTorch",
+          "CUDA",
+          "AWS"
+        ],
+        "team_size_estimate": "3000+",
+        "hiring_focus": "게임 클라이언트, AI/ML, 서버",
+        "salary_range": "5500~1억3000",
+        "growth_path": "사원→주임→대리→과장→차장→부장"
+      },
+      "product": {
+        "pm_count_estimate": "300+",
+        "methodology": "게임 개발 사이클/워터폴",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "자체 툴"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Photoshop",
+          "Maya",
+          "ZBrush",
+          "Houdini"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "PyTorch",
+          "Spark",
+          "Hadoop",
+          "Airflow"
+        ],
+        "ai_ml_focus": "NC AI센터 — VARCO LLM, 게임AI, 자연어처리, 음성합성(VITS)"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "NC AI Vision AI 서비스",
+        "AI 기반 게임 NPC",
+        "생성형 AI 게임 콘텐츠",
+        "AI 자동화 게임 테스트"
+      ],
+      "ai_team_size": "NC AI 포함 AI 인력 300명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "C++",
+        "Unreal Engine",
+        "CUDA",
+        "자체 강화학습 프레임워크"
+      ],
+      "ai_investment": "NC AI 별도 법인 운영, AI 게임 기술 R&D 수백억 원",
+      "ai_partnerships": [
+        "NVIDIA (AI 게임 기술)",
+        "글로벌 AI 파트너"
+      ],
+      "ai_open_source": [
+        "해당 없음"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20~25%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "Vision AI 기반 게임 캐릭터 이미지 분류/생성",
+        "강화학습 기반 게임 자동화 테스트 봇",
+        "생성형 AI 기반 게임 대화 NPC 시스템"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "리니지M",
+      "service_portfolio": [
+        {
+          "name": "리니지M",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": "150만+",
+          "launch_year": 2017,
+          "status": "주력",
+          "tech_stack_hint": "C++, Java, Unreal"
+        },
+        {
+          "name": "리니지2M",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "주력",
+          "tech_stack_hint": "Unreal Engine 4"
+        },
+        {
+          "name": "블레이드앤소울2",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "주력",
+          "tech_stack_hint": "Unreal Engine"
+        },
+        {
+          "name": "VARCO(엔씨AI)",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "라이센스",
+          "mau": null,
+          "launch_year": 2023,
+          "status": "신규",
+          "tech_stack_hint": "PyTorch, CUDA, Python"
+        }
+      ],
+      "upcoming_services": [
+        "TL(Throne and Liberty) 글로벌",
+        "VARCO LLM 상용화",
+        "Project G"
+      ]
     }
   },
   {
@@ -9401,18 +12159,38 @@
       "notable_quotes": "\"이제 우아한형제들은 개발문화가 가장 중요한 회사 — 시스템 안정성이 사업의 핵심\" — 김범준 전 대표"
     },
     "organization": {
-      "structure_type": "스쿼드 기반 애자일",
+      "structure_type": "스쿼드",
       "key_divisions": [
-        "배달의민족 앱",
-        "배민라이더스",
-        "배민상회",
-        "배민아카데미",
-        "B마트"
+        {
+          "name": "플랫폼실",
+          "role": "배달의민족 핵심",
+          "headcount_estimate": "500+"
+        },
+        {
+          "name": "인프라실",
+          "role": "클라우드/플랫폼",
+          "headcount_estimate": "200+"
+        },
+        {
+          "name": "배민로봇",
+          "role": "자율주행 배달로봇",
+          "headcount_estimate": "100+"
+        }
       ],
-      "engineering_culture": "우아콘(연간 개발 컨퍼런스), 우아한테크코스(개발자 양성), 페어프로그래밍·코드리뷰",
-      "work_style": "하이브리드 (주 3일 출근)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "바텀업 스쿼드 자율 + C레벨 전략 방향"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 40%",
+        "tech_culture": "사내 기술블로그 우아콘 운영, 코드리뷰 필수, 오픈소스 기여, TDD 문화"
+      },
+      "decision_making": "바텀업",
+      "work_style": "하이브리드 (송파)",
+      "notable_benefits": [
+        "배달 할인 쿠폰",
+        "스톡옵션",
+        "유연근무제",
+        "점심 지원",
+        "자기계발비"
+      ]
     },
     "employee_experience": {
       "onboarding": "우아한테크코스 연계 개발자 온보딩, 팀별 버디 제도",
@@ -9425,6 +12203,135 @@
         "동호회 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.6점 — '개발 문화 우수·좋은 동료, DH 편입 이후 글로벌 기준 압박 증가'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Spring Boot",
+          "Go",
+          "React",
+          "MSA",
+          "Kafka",
+          "MySQL",
+          "Redis"
+        ],
+        "team_size_estimate": "1000+",
+        "hiring_focus": "백엔드, 프론트엔드, 로봇SW",
+        "salary_range": "6000~1억5000",
+        "growth_path": "Junior→Senior→Lead→Principal"
+      },
+      "product": {
+        "pm_count_estimate": "120+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Confluence",
+          "Notion"
+        ]
+      },
+      "design": {
+        "design_system": "배민 디자인 시스템(BDS) 운영",
+        "tools": [
+          "Figma",
+          "Zeplin"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Flink",
+          "Airflow",
+          "ClickHouse",
+          "Python"
+        ],
+        "ai_ml_focus": "배달 최적화 ML, 라이더 매칭 알고리즘, 수요예측 팀"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "AI 배차 최적화 엔진",
+        "배달 수요예측 AI",
+        "자율주행 배달로봇 (실내/야외)",
+        "AI 음식 추천"
+      ],
+      "ai_team_size": "AI/ML 인력 150명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "ROS2 (로봇)",
+        "Kubernetes",
+        "Airflow",
+        "Spark"
+      ],
+      "ai_investment": "자율주행 로봇 기술 개발 수백억 원 투자 (DH 그룹)",
+      "ai_partnerships": [
+        "Delivery Hero (DH) 글로벌 AI 협력",
+        "NVIDIA (로봇 AI)"
+      ],
+      "ai_open_source": [
+        "우아한테크코스 교육 자료 공개",
+        "일부 오픈소스 기여"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 15%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "실시간 라이더 배차 최적화 AI (수백만 건/일)",
+        "배달 도착시간 예측 AI",
+        "자율주행 로봇 실내외 배달 서비스"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "배달의민족",
+      "service_portfolio": [
+        {
+          "name": "배달의민족",
+          "category": "플랫폼",
+          "target_user": "B2C/B2B",
+          "monetization": "수수료/광고",
+          "mau": "2400만+",
+          "launch_year": 2010,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring Boot, Kotlin, MSA, Kafka"
+        },
+        {
+          "name": "배민1플러스",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "주력",
+          "tech_stack_hint": "Java, Go"
+        },
+        {
+          "name": "배민가게",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Java, React"
+        },
+        {
+          "name": "배민로봇배달",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2023,
+          "status": "신규",
+          "tech_stack_hint": "ROS, Python, C++"
+        }
+      ],
+      "upcoming_services": [
+        "AI 배달 최적화",
+        "로봇 배달 확대"
+      ]
     }
   },
   {
@@ -9582,7 +12489,133 @@
       "[원티드긱스] 증권 주식매매 시스템 개발 및 운영",
       "[원티드긱스] 컨택센터 CTI/상담APP/통합통계 관리 개발",
       "[원티드긱스] 삼성생명 WFMS시스템 구축(SI)"
-    ]
+    ],
+    "service_analysis": {
+      "flagship_service": "원티드",
+      "service_portfolio": [
+        {
+          "name": "원티드",
+          "category": "플랫폼",
+          "target_user": "B2C/B2B",
+          "monetization": "수수료",
+          "mau": "300만+",
+          "launch_year": 2015,
+          "status": "주력",
+          "tech_stack_hint": "Python, Django, React, PostgreSQL"
+        },
+        {
+          "name": "원티드 긱스",
+          "category": "플랫폼",
+          "target_user": "B2B",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Python, React"
+        },
+        {
+          "name": "원티드 인사이트",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "성장",
+          "tech_stack_hint": "Python, React, BigQuery"
+        },
+        {
+          "name": "원티드 스페이스",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "신규",
+          "tech_stack_hint": "Python, React"
+        }
+      ],
+      "upcoming_services": [
+        "AI 채용 어시스턴트",
+        "글로벌 HR 플랫폼"
+      ]
+    },
+    "organization": {
+      "structure_type": "스쿼드",
+      "key_divisions": [
+        {
+          "name": "플랫폼팀",
+          "role": "원티드 핵심 서비스",
+          "headcount_estimate": "100+"
+        },
+        {
+          "name": "데이터/AI팀",
+          "role": "매칭 알고리즘",
+          "headcount_estimate": "30+"
+        },
+        {
+          "name": "B2B팀",
+          "role": "기업 HR 솔루션",
+          "headcount_estimate": "50+"
+        }
+      ],
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 40%",
+        "tech_culture": "수평 문화, 코드리뷰, 자율출퇴근, 빠른 실험"
+      },
+      "decision_making": "바텀업",
+      "work_style": "하이브리드 (강남)",
+      "notable_benefits": [
+        "스톡옵션",
+        "자율출퇴근",
+        "원격근무",
+        "점심 지원",
+        "컨퍼런스 지원"
+      ]
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Python",
+          "Django",
+          "React",
+          "TypeScript",
+          "PostgreSQL",
+          "Redis",
+          "AWS",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "100+",
+        "hiring_focus": "백엔드, 프론트엔드, 데이터",
+        "salary_range": "5000~1억2000",
+        "growth_path": "Junior→Senior→Lead"
+      },
+      "product": {
+        "pm_count_estimate": "20+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Notion",
+          "Figma",
+          "Linear"
+        ]
+      },
+      "design": {
+        "design_system": "자체 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "BigQuery",
+          "Airflow",
+          "dbt"
+        ],
+        "ai_ml_focus": "채용 매칭 ML, 연봉 예측 모델, 추천 알고리즘 팀"
+      }
+    }
   },
   {
     "name": "지마켓",
@@ -9888,7 +12921,132 @@
       "[직방] 도어락 이커머스 영업관리(1년 계약)",
       "[직방] 도어락 이커머스 MD",
       "[직방] QA Engineer (계약직)"
-    ]
+    ],
+    "service_analysis": {
+      "flagship_service": "직방 앱",
+      "service_portfolio": [
+        {
+          "name": "직방",
+          "category": "플랫폼",
+          "target_user": "B2C/B2B",
+          "monetization": "광고/수수료",
+          "mau": "700만+",
+          "launch_year": 2012,
+          "status": "주력",
+          "tech_stack_hint": "TypeScript, Node.js, React Native, GraphQL"
+        },
+        {
+          "name": "호갱노노",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고",
+          "mau": "300만+",
+          "launch_year": 2016,
+          "status": "주력",
+          "tech_stack_hint": "TypeScript, React"
+        },
+        {
+          "name": "삼성SDS 부동산 솔루션",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "라이센스",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "신규",
+          "tech_stack_hint": "Java, TypeScript"
+        },
+        {
+          "name": "직방 3D 홈",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고",
+          "mau": null,
+          "launch_year": 2020,
+          "status": "성장",
+          "tech_stack_hint": "Three.js, WebGL, TypeScript"
+        }
+      ],
+      "upcoming_services": [
+        "AI 부동산 추천",
+        "스마트홈 연동 서비스"
+      ]
+    },
+    "organization": {
+      "structure_type": "스쿼드",
+      "key_divisions": [
+        {
+          "name": "제품개발",
+          "role": "직방/호갱노노 개발",
+          "headcount_estimate": "200+"
+        },
+        {
+          "name": "스마트홈",
+          "role": "월패드/IoT 연동",
+          "headcount_estimate": "100+"
+        },
+        {
+          "name": "데이터",
+          "role": "부동산 데이터 분석",
+          "headcount_estimate": "50+"
+        }
+      ],
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 45%",
+        "tech_culture": "풀리모트(100% 원격근무), TypeScript 전사 표준, 코드리뷰 필수"
+      },
+      "decision_making": "바텀업",
+      "work_style": "100% 원격근무",
+      "notable_benefits": [
+        "100% 재택",
+        "장비 지원(고사양)",
+        "스톡옵션",
+        "자율출퇴근",
+        "통신비 지원"
+      ]
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "TypeScript",
+          "Node.js",
+          "React",
+          "React Native",
+          "GraphQL",
+          "PostgreSQL",
+          "AWS"
+        ],
+        "team_size_estimate": "200+",
+        "hiring_focus": "풀스택(TS), 모바일, 인프라",
+        "salary_range": "5500~1억3000",
+        "growth_path": "Junior→Senior→Lead"
+      },
+      "product": {
+        "pm_count_estimate": "30+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Notion",
+          "Figma",
+          "Linear"
+        ]
+      },
+      "design": {
+        "design_system": "자체 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "BigQuery",
+          "Airflow",
+          "dbt"
+        ],
+        "ai_ml_focus": "부동산 가격 예측 ML, 추천 알고리즘, 시장 분석 팀"
+      }
+    }
   },
   {
     "name": "채널코퍼레이션",
@@ -10045,7 +13203,113 @@
       "마케팅팀 마케팅/MD(PM) 담당자 모집",
       "커뮤니케이션·PR 매니저 채용",
       "Autodesk 영업 담당 경력"
-    ]
+    ],
+    "service_analysis": {
+      "flagship_service": "채널톡",
+      "service_portfolio": [
+        {
+          "name": "채널톡",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2017,
+          "status": "주력",
+          "tech_stack_hint": "Kotlin, React, TypeScript, WebSocket"
+        },
+        {
+          "name": "채널톡 AI(알프)",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독",
+          "mau": null,
+          "launch_year": 2023,
+          "status": "성장",
+          "tech_stack_hint": "Python, LLM, RAG"
+        }
+      ],
+      "upcoming_services": [
+        "AI 고객상담 에이전트 고도화",
+        "글로벌 SaaS 확장"
+      ]
+    },
+    "organization": {
+      "structure_type": "스쿼드",
+      "key_divisions": [
+        {
+          "name": "제품개발",
+          "role": "채널톡 플랫폼",
+          "headcount_estimate": "200+"
+        },
+        {
+          "name": "AI팀",
+          "role": "알프 AI 서비스",
+          "headcount_estimate": "50+"
+        },
+        {
+          "name": "글로벌",
+          "role": "해외 영업/서비스",
+          "headcount_estimate": "80+"
+        }
+      ],
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 55%",
+        "tech_culture": "SaaS 스타트업 문화, 글로벌 제품, 영어 사용, 코드리뷰 필수"
+      },
+      "decision_making": "바텀업",
+      "work_style": "하이브리드 (강남)",
+      "notable_benefits": [
+        "스톡옵션",
+        "자율출퇴근",
+        "원격근무",
+        "장비 지원",
+        "컨퍼런스 지원"
+      ]
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Kotlin",
+          "Java",
+          "React",
+          "TypeScript",
+          "Python",
+          "WebSocket",
+          "Redis",
+          "PostgreSQL"
+        ],
+        "team_size_estimate": "200+",
+        "hiring_focus": "백엔드, 프론트엔드, AI 엔지니어링",
+        "salary_range": "6000~1억5000",
+        "growth_path": "Junior→Senior→Staff Engineer"
+      },
+      "product": {
+        "pm_count_estimate": "30+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Notion",
+          "Figma",
+          "Linear"
+        ]
+      },
+      "design": {
+        "design_system": "자체 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "BigQuery",
+          "dbt",
+          "Airflow"
+        ],
+        "ai_ml_focus": "알프(AI 상담봇) LLM 파인튜닝, RAG 시스템 개발"
+      }
+    }
   },
   {
     "name": "카카오",
@@ -10285,7 +13549,7 @@
       "revenue_growth_yoy": "+3.8%",
       "profit_margin": "19.0%",
       "employee_total": 4028,
-      "employee_avg_salary": 101657894,
+      "employee_avg_salary": 101814299,
       "employee_avg_tenure": "5년 6개월"
     },
     "management_philosophy": {
@@ -10299,18 +13563,38 @@
       "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
     },
     "organization": {
-      "structure_type": "사업부제 + 계열사 분리 구조",
+      "structure_type": "사업부제",
       "key_divisions": [
-        "카카오톡 플랫폼",
-        "AI/데이터",
-        "커머스",
-        "콘텐츠",
-        "금융(카카오페이·뱅크)"
+        {
+          "name": "카카오톡사업부",
+          "role": "메신저 플랫폼 운영 및 수익화",
+          "headcount_estimate": "1000+"
+        },
+        {
+          "name": "AI기술부문",
+          "role": "LLM/ML 연구개발",
+          "headcount_estimate": "500+"
+        },
+        {
+          "name": "광고플랫폼",
+          "role": "카카오모먼트 등 광고 상품",
+          "headcount_estimate": "300+"
+        }
       ],
-      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
-      "work_style": "하이브리드 (주 3일 출근 기준)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 35%",
+        "tech_culture": "코드리뷰 필수, 사내 기술블로그 운영, TDD 권장"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (주 3일 출근)",
+      "notable_benefits": [
+        "카카오 계열 서비스 무료/할인",
+        "유연근무제",
+        "스톡옵션(일부)",
+        "자기계발비 지원",
+        "리프레시 휴가"
+      ]
     },
     "employee_experience": {
       "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
@@ -10323,6 +13607,144 @@
         "자녀 돌봄 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Go",
+          "Python",
+          "React",
+          "Kafka",
+          "Redis",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "3000+",
+        "hiring_focus": "AI/ML, 백엔드",
+        "salary_range": "6000~1억5000 (직급별)",
+        "growth_path": "Junior→Senior→Staff→Principal Engineer"
+      },
+      "product": {
+        "pm_count_estimate": "500+",
+        "methodology": "애자일/스크럼",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Confluence",
+          "Notion"
+        ]
+      },
+      "design": {
+        "design_system": "카카오 디자인 시스템(KDS) 운영",
+        "tools": [
+          "Figma",
+          "Zeplin"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Airflow",
+          "Hive",
+          "Presto",
+          "TensorFlow"
+        ],
+        "ai_ml_focus": "AI Lab 별도 운영, LLM/추천/광고 타겟팅 집중"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "KoGPT (한국어 LLM)",
+        "칼로 (이미지 생성 AI)",
+        "카카오 i (AI 어시스턴트)",
+        "Kakao AI (채팅봇 플랫폼)"
+      ],
+      "ai_team_size": "카카오브레인 포함 AI 인력 500명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "TensorFlow",
+        "JAX",
+        "Kubernetes",
+        "Airflow",
+        "Ray"
+      ],
+      "ai_investment": "카카오브레인 누적 수천억 원 투자",
+      "ai_partnerships": [
+        "Hugging Face 협력",
+        "NVIDIA GPU 파트너십"
+      ],
+      "ai_open_source": [
+        "KoGPT (GitHub 공개)",
+        "Karlo (이미지 생성 모델 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20~25%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "KoGPT 기반 카카오톡 AI 답변 추천",
+        "카카오맵 AI 경로 최적화",
+        "카카오쇼핑 개인화 추천 엔진"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "카카오톡",
+      "service_portfolio": [
+        {
+          "name": "카카오톡",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고/수수료",
+          "mau": "4800만",
+          "launch_year": 2010,
+          "status": "주력",
+          "tech_stack_hint": "Netty, Kafka, Redis, MySQL"
+        },
+        {
+          "name": "카카오맵",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "광고",
+          "mau": "1000만+",
+          "launch_year": 2012,
+          "status": "주력",
+          "tech_stack_hint": "C++, Java, PostgreSQL"
+        },
+        {
+          "name": "카카오모빌리티",
+          "category": "플랫폼",
+          "target_user": "B2C/B2B",
+          "monetization": "수수료",
+          "mau": "1500만+",
+          "launch_year": 2017,
+          "status": "성장",
+          "tech_stack_hint": "Go, Kotlin, gRPC"
+        },
+        {
+          "name": "카카오엔터프라이즈",
+          "category": "SaaS",
+          "target_user": "B2B",
+          "monetization": "구독/라이센스",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "성장",
+          "tech_stack_hint": "Kubernetes, Kafka, Python"
+        },
+        {
+          "name": "카카오게임즈",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": null,
+          "launch_year": 2016,
+          "status": "주력",
+          "tech_stack_hint": "Unity, Unreal, Java"
+        }
+      ],
+      "upcoming_services": [
+        "카카오AI 어시스턴트",
+        "카나나(AI 캐릭터 서비스)"
+      ]
     }
   },
   {
@@ -10511,11 +13933,11 @@
       "revenue_3y": [
         {
           "year": 2024,
-          "amount": 2399865000000
+          "amount": 56670000000
         },
         {
           "year": 2023,
-          "amount": 2048170000000
+          "amount": 29879000000
         },
         {
           "year": 2022,
@@ -10525,11 +13947,11 @@
       "operating_profit_3y": [
         {
           "year": 2024,
-          "amount": null
+          "amount": 606880000000
         },
         {
           "year": 2023,
-          "amount": null
+          "amount": 478485000000
         },
         {
           "year": 2022,
@@ -10539,11 +13961,11 @@
       "net_income_3y": [
         {
           "year": 2024,
-          "amount": null
+          "amount": 440065000000
         },
         {
           "year": 2023,
-          "amount": null
+          "amount": 354912000000
         },
         {
           "year": 2022,
@@ -10553,10 +13975,10 @@
       "total_assets": 62805282000000,
       "total_debt": 56265151000000,
       "debt_ratio": 860.3,
-      "revenue_growth_yoy": "+17.2%",
-      "profit_margin": null,
+      "revenue_growth_yoy": "+89.7%",
+      "profit_margin": "1070.9%",
       "employee_total": 1663,
-      "employee_avg_salary": 113286229,
+      "employee_avg_salary": 117558628,
       "employee_avg_tenure": "3년 6개월"
     },
     "management_philosophy": {
@@ -10570,18 +13992,37 @@
       "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
     },
     "organization": {
-      "structure_type": "사업부제 + 계열사 분리 구조",
+      "structure_type": "기능조직",
       "key_divisions": [
-        "카카오톡 플랫폼",
-        "AI/데이터",
-        "커머스",
-        "콘텐츠",
-        "금융(카카오페이·뱅크)"
+        {
+          "name": "IT본부",
+          "role": "앱/서버/인프라",
+          "headcount_estimate": "600+"
+        },
+        {
+          "name": "데이터본부",
+          "role": "신용평가/데이터분석",
+          "headcount_estimate": "200+"
+        },
+        {
+          "name": "금융본부",
+          "role": "여수신/카드",
+          "headcount_estimate": "300+"
+        }
       ],
-      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
-      "work_style": "하이브리드 (주 3일 출근 기준)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 35%",
+        "tech_culture": "금융 규제 준수 + 인터넷은행 혁신 균형, 코드리뷰, CI/CD 자동화"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (판교)",
+      "notable_benefits": [
+        "은행원 복리후생",
+        "주택자금대출",
+        "스톡옵션(상장사)",
+        "유연근무제"
+      ]
     },
     "employee_experience": {
       "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
@@ -10594,6 +14035,131 @@
         "자녀 돌봄 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Spring Boot",
+          "Kotlin",
+          "React Native",
+          "Oracle",
+          "Kafka",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "600+",
+        "hiring_focus": "백엔드, 모바일, 데이터/AI",
+        "salary_range": "6000~1억4000",
+        "growth_path": "Junior→Senior→Lead→Principal"
+      },
+      "product": {
+        "pm_count_estimate": "80+",
+        "methodology": "애자일/스크럼",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Confluence"
+        ]
+      },
+      "design": {
+        "design_system": "카카오뱅크 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "Spark",
+          "Hadoop",
+          "Airflow",
+          "TensorFlow"
+        ],
+        "ai_ml_focus": "신용평가 AI팀, 이상탐지(FDS), 금융 추천 ML"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "KoGPT (한국어 LLM)",
+        "칼로 (이미지 생성 AI)",
+        "카카오 i (AI 어시스턴트)",
+        "Kakao AI (채팅봇 플랫폼)"
+      ],
+      "ai_team_size": "카카오브레인 포함 AI 인력 500명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "TensorFlow",
+        "JAX",
+        "Kubernetes",
+        "Airflow",
+        "Ray"
+      ],
+      "ai_investment": "카카오브레인 누적 수천억 원 투자",
+      "ai_partnerships": [
+        "Hugging Face 협력",
+        "NVIDIA GPU 파트너십"
+      ],
+      "ai_open_source": [
+        "KoGPT (GitHub 공개)",
+        "Karlo (이미지 생성 모델 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20~25%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "KoGPT 기반 카카오톡 AI 답변 추천",
+        "카카오맵 AI 경로 최적화",
+        "카카오쇼핑 개인화 추천 엔진"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "카카오뱅크 앱",
+      "service_portfolio": [
+        {
+          "name": "카카오뱅크 앱",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "이자/수수료",
+          "mau": "2200만+",
+          "launch_year": 2017,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring Boot, React Native, Kafka"
+        },
+        {
+          "name": "26주 적금",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "이자",
+          "mau": null,
+          "launch_year": 2017,
+          "status": "주력",
+          "tech_stack_hint": "Java, Oracle"
+        },
+        {
+          "name": "카카오뱅크 주식계좌",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "성장",
+          "tech_stack_hint": "Java, Spring"
+        },
+        {
+          "name": "소호대출",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "이자",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Java, ML 신용평가"
+        }
+      ],
+      "upcoming_services": [
+        "카카오뱅크 AI 금융비서",
+        "글로벌 인터넷뱅킹 수출"
+      ]
     }
   },
   {
@@ -10785,6 +14351,98 @@
         "자녀 돌봄 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "React",
+          "Go",
+          "Spring Boot",
+          "Kafka",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "전체 개발자 약 3,000명+ (카카오그룹 합산)",
+        "hiring_focus": [
+          "백엔드",
+          "AI/ML",
+          "인프라/SRE",
+          "iOS/Android"
+        ],
+        "salary_range": "주니어 5000~7000 / 시니어 8000~1억3000+",
+        "interview_process": "코딩테스트 → 기술면접 → 문화면접 → 처우협의",
+        "growth_path": "주니어(1-3년)→시니어(4-7년)→리드(8년+)→Staff/Principal"
+      },
+      "product": {
+        "methodology": "스크럼/OKR",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma",
+          "Notion"
+        ],
+        "pm_role": "서비스 기획 중심, 데이터 기반 의사결정"
+      },
+      "design": {
+        "design_system": "Kale (카카오 통합 디자인 시스템)",
+        "tools": [
+          "Figma",
+          "Zeplin",
+          "Sketch"
+        ]
+      },
+      "data": {
+        "data_infra": [
+          "Spark",
+          "Kafka",
+          "Airflow",
+          "Hadoop",
+          "ClickHouse",
+          "Presto"
+        ],
+        "ai_ml_team": "카카오브레인 (별도 법인) + 각 서비스 AI팀, 전체 AI 인력 500명+",
+        "research_focus": [
+          "NLP/LLM",
+          "추천시스템",
+          "컴퓨터비전",
+          "음성인식"
+        ]
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "KoGPT (한국어 LLM)",
+        "칼로 (이미지 생성 AI)",
+        "카카오 i (AI 어시스턴트)",
+        "Kakao AI (채팅봇 플랫폼)"
+      ],
+      "ai_team_size": "카카오브레인 포함 AI 인력 500명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "TensorFlow",
+        "JAX",
+        "Kubernetes",
+        "Airflow",
+        "Ray"
+      ],
+      "ai_investment": "카카오브레인 누적 수천억 원 투자",
+      "ai_partnerships": [
+        "Hugging Face 협력",
+        "NVIDIA GPU 파트너십"
+      ],
+      "ai_open_source": [
+        "KoGPT (GitHub 공개)",
+        "Karlo (이미지 생성 모델 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20~25%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "KoGPT 기반 카카오톡 AI 답변 추천",
+        "카카오맵 AI 경로 최적화",
+        "카카오쇼핑 개인화 추천 엔진"
+      ]
     }
   },
   {
@@ -11034,6 +14692,98 @@
         "자녀 돌봄 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "React",
+          "Go",
+          "Spring Boot",
+          "Kafka",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "전체 개발자 약 3,000명+ (카카오그룹 합산)",
+        "hiring_focus": [
+          "백엔드",
+          "AI/ML",
+          "인프라/SRE",
+          "iOS/Android"
+        ],
+        "salary_range": "주니어 5000~7000 / 시니어 8000~1억3000+",
+        "interview_process": "코딩테스트 → 기술면접 → 문화면접 → 처우협의",
+        "growth_path": "주니어(1-3년)→시니어(4-7년)→리드(8년+)→Staff/Principal"
+      },
+      "product": {
+        "methodology": "스크럼/OKR",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma",
+          "Notion"
+        ],
+        "pm_role": "서비스 기획 중심, 데이터 기반 의사결정"
+      },
+      "design": {
+        "design_system": "Kale (카카오 통합 디자인 시스템)",
+        "tools": [
+          "Figma",
+          "Zeplin",
+          "Sketch"
+        ]
+      },
+      "data": {
+        "data_infra": [
+          "Spark",
+          "Kafka",
+          "Airflow",
+          "Hadoop",
+          "ClickHouse",
+          "Presto"
+        ],
+        "ai_ml_team": "카카오브레인 (별도 법인) + 각 서비스 AI팀, 전체 AI 인력 500명+",
+        "research_focus": [
+          "NLP/LLM",
+          "추천시스템",
+          "컴퓨터비전",
+          "음성인식"
+        ]
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "KoGPT (한국어 LLM)",
+        "칼로 (이미지 생성 AI)",
+        "카카오 i (AI 어시스턴트)",
+        "Kakao AI (채팅봇 플랫폼)"
+      ],
+      "ai_team_size": "카카오브레인 포함 AI 인력 500명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "TensorFlow",
+        "JAX",
+        "Kubernetes",
+        "Airflow",
+        "Ray"
+      ],
+      "ai_investment": "카카오브레인 누적 수천억 원 투자",
+      "ai_partnerships": [
+        "Hugging Face 협력",
+        "NVIDIA GPU 파트너십"
+      ],
+      "ai_open_source": [
+        "KoGPT (GitHub 공개)",
+        "Karlo (이미지 생성 모델 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20~25%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "KoGPT 기반 카카오톡 AI 답변 추천",
+        "카카오맵 AI 경로 최적화",
+        "카카오쇼핑 개인화 추천 엔진"
+      ]
     }
   },
   {
@@ -11248,7 +14998,7 @@
       "revenue_growth_yoy": "+11.4%",
       "profit_margin": null,
       "employee_total": 1198,
-      "employee_avg_salary": 83824707,
+      "employee_avg_salary": 87336393,
       "employee_avg_tenure": "3년 4개월"
     },
     "management_philosophy": {
@@ -11262,18 +15012,37 @@
       "notable_quotes": "\"수익모델이 명확하지 않은 LLM 연구 중심에서 벗어나, 관계 기반 플랫폼에 AI를 결합하는 AI 일상화에 집중하겠다\" — 정신아 대표 주주서한 2024"
     },
     "organization": {
-      "structure_type": "사업부제 + 계열사 분리 구조",
+      "structure_type": "스쿼드",
       "key_divisions": [
-        "카카오톡 플랫폼",
-        "AI/데이터",
-        "커머스",
-        "콘텐츠",
-        "금융(카카오페이·뱅크)"
+        {
+          "name": "결제플랫폼",
+          "role": "결제/송금 핵심 서비스",
+          "headcount_estimate": "400+"
+        },
+        {
+          "name": "금융서비스",
+          "role": "보험/대출/증권",
+          "headcount_estimate": "300+"
+        },
+        {
+          "name": "기술본부",
+          "role": "인프라/보안/데이터",
+          "headcount_estimate": "200+"
+        }
       ],
-      "engineering_culture": "if(kakao) 연간 개발자 컨퍼런스, 코드리뷰 문화, 사내 기술 공유 세미나",
-      "work_style": "하이브리드 (주 3일 출근 기준)",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "바텀업 + CEO 직접 승인 (경영 효율화 이후 중앙집중 강화)"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 40%",
+        "tech_culture": "카카오 문화 기반, 코드리뷰, 금융 보안 우선, MSA 아키텍처"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (판교)",
+      "notable_benefits": [
+        "스톡옵션(상장사)",
+        "카카오페이 포인트",
+        "유연근무제",
+        "건강검진"
+      ]
     },
     "employee_experience": {
       "onboarding": "신입·경력 공통 온보딩 프로그램, 부서 배치 전 1~2주 공통 교육",
@@ -11286,6 +15055,132 @@
         "자녀 돌봄 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Spring Boot",
+          "React",
+          "TypeScript",
+          "Kafka",
+          "Redis",
+          "MySQL"
+        ],
+        "team_size_estimate": "500+",
+        "hiring_focus": "백엔드, 결제 시스템, 데이터",
+        "salary_range": "6000~1억4000",
+        "growth_path": "Junior→Senior→Lead→Principal"
+      },
+      "product": {
+        "pm_count_estimate": "80+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Confluence"
+        ]
+      },
+      "design": {
+        "design_system": "카카오페이 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Airflow",
+          "BigQuery",
+          "Python",
+          "TensorFlow"
+        ],
+        "ai_ml_focus": "이상탐지(FDS), 신용평가, 결제 추천 ML팀"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "KoGPT (한국어 LLM)",
+        "칼로 (이미지 생성 AI)",
+        "카카오 i (AI 어시스턴트)",
+        "Kakao AI (채팅봇 플랫폼)"
+      ],
+      "ai_team_size": "카카오브레인 포함 AI 인력 500명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "TensorFlow",
+        "JAX",
+        "Kubernetes",
+        "Airflow",
+        "Ray"
+      ],
+      "ai_investment": "카카오브레인 누적 수천억 원 투자",
+      "ai_partnerships": [
+        "Hugging Face 협력",
+        "NVIDIA GPU 파트너십"
+      ],
+      "ai_open_source": [
+        "KoGPT (GitHub 공개)",
+        "Karlo (이미지 생성 모델 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20~25%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "KoGPT 기반 카카오톡 AI 답변 추천",
+        "카카오맵 AI 경로 최적화",
+        "카카오쇼핑 개인화 추천 엔진"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "카카오페이 앱",
+      "service_portfolio": [
+        {
+          "name": "카카오페이 결제",
+          "category": "금융",
+          "target_user": "B2C/B2B",
+          "monetization": "수수료",
+          "mau": "2400만+",
+          "launch_year": 2014,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring Boot, Kafka"
+        },
+        {
+          "name": "카카오페이 보험",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "성장",
+          "tech_stack_hint": "Java, React"
+        },
+        {
+          "name": "카카오페이증권",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "성장",
+          "tech_stack_hint": "Java, Kotlin"
+        },
+        {
+          "name": "카카오페이 대출",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2018,
+          "status": "주력",
+          "tech_stack_hint": "Java, ML"
+        }
+      ],
+      "upcoming_services": [
+        "카카오페이AI 금융비서",
+        "글로벌 결제 확장"
+      ]
     }
   },
   {
@@ -11477,6 +15372,98 @@
         "자녀 돌봄 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.4점 — '자율적 분위기지만 최근 구조조정·계열사 매각 불안감'이 공존"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "React",
+          "Go",
+          "Spring Boot",
+          "Kafka",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "전체 개발자 약 3,000명+ (카카오그룹 합산)",
+        "hiring_focus": [
+          "백엔드",
+          "AI/ML",
+          "인프라/SRE",
+          "iOS/Android"
+        ],
+        "salary_range": "주니어 5000~7000 / 시니어 8000~1억3000+",
+        "interview_process": "코딩테스트 → 기술면접 → 문화면접 → 처우협의",
+        "growth_path": "주니어(1-3년)→시니어(4-7년)→리드(8년+)→Staff/Principal"
+      },
+      "product": {
+        "methodology": "스크럼/OKR",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma",
+          "Notion"
+        ],
+        "pm_role": "서비스 기획 중심, 데이터 기반 의사결정"
+      },
+      "design": {
+        "design_system": "Kale (카카오 통합 디자인 시스템)",
+        "tools": [
+          "Figma",
+          "Zeplin",
+          "Sketch"
+        ]
+      },
+      "data": {
+        "data_infra": [
+          "Spark",
+          "Kafka",
+          "Airflow",
+          "Hadoop",
+          "ClickHouse",
+          "Presto"
+        ],
+        "ai_ml_team": "카카오브레인 (별도 법인) + 각 서비스 AI팀, 전체 AI 인력 500명+",
+        "research_focus": [
+          "NLP/LLM",
+          "추천시스템",
+          "컴퓨터비전",
+          "음성인식"
+        ]
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "KoGPT (한국어 LLM)",
+        "칼로 (이미지 생성 AI)",
+        "카카오 i (AI 어시스턴트)",
+        "Kakao AI (채팅봇 플랫폼)"
+      ],
+      "ai_team_size": "카카오브레인 포함 AI 인력 500명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "TensorFlow",
+        "JAX",
+        "Kubernetes",
+        "Airflow",
+        "Ray"
+      ],
+      "ai_investment": "카카오브레인 누적 수천억 원 투자",
+      "ai_partnerships": [
+        "Hugging Face 협력",
+        "NVIDIA GPU 파트너십"
+      ],
+      "ai_open_source": [
+        "KoGPT (GitHub 공개)",
+        "Karlo (이미지 생성 모델 공개)"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20~25%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "KoGPT 기반 카카오톡 AI 답변 추천",
+        "카카오맵 AI 경로 최적화",
+        "카카오쇼핑 개인화 추천 엔진"
+      ]
     }
   },
   {
@@ -11617,7 +15604,123 @@
       "[컬리] 김포 물류센터 현장사원 대규모 채용(국가보훈대상자)",
       "[컬리] 창원 물류센터 현장사원 대규모 채용(국가보훈대상자)",
       "[컬리] 평택 물류센터 현장사원 대규모 채용(국가보훈대상자)"
-    ]
+    ],
+    "service_analysis": {
+      "flagship_service": "마켓컬리",
+      "service_portfolio": [
+        {
+          "name": "마켓컬리",
+          "category": "커머스",
+          "target_user": "B2C",
+          "monetization": "판매/수수료",
+          "mau": "1000만+",
+          "launch_year": 2015,
+          "status": "주력",
+          "tech_stack_hint": "Java, Kotlin, Spring Boot, React"
+        },
+        {
+          "name": "뷰티컬리",
+          "category": "커머스",
+          "target_user": "B2C",
+          "monetization": "판매/수수료",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Java, React"
+        },
+        {
+          "name": "샛별배송",
+          "category": "물류",
+          "target_user": "B2C",
+          "monetization": "무료(서비스)",
+          "mau": null,
+          "launch_year": 2015,
+          "status": "주력",
+          "tech_stack_hint": "Java, Python, 물류최적화"
+        }
+      ],
+      "upcoming_services": [
+        "컬리 AI 큐레이션",
+        "B2B 신선식품 유통"
+      ]
+    },
+    "organization": {
+      "structure_type": "기능조직",
+      "key_divisions": [
+        {
+          "name": "IT개발본부",
+          "role": "플랫폼/앱/인프라",
+          "headcount_estimate": "300+"
+        },
+        {
+          "name": "MD본부",
+          "role": "상품 큐레이션",
+          "headcount_estimate": "200+"
+        },
+        {
+          "name": "물류본부",
+          "role": "새벽배송/풀필먼트",
+          "headcount_estimate": "1000+"
+        }
+      ],
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 20%",
+        "tech_culture": "빠른 실험, 새벽배송 운영 기술, 커머스 도메인 전문성"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (성수)",
+      "notable_benefits": [
+        "컬리 할인 혜택",
+        "스톡옵션",
+        "유연근무제",
+        "자기계발비"
+      ]
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Spring Boot",
+          "React",
+          "TypeScript",
+          "MySQL",
+          "Redis",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "300+",
+        "hiring_focus": "백엔드, 프론트엔드, 데이터",
+        "salary_range": "5500~1억2000",
+        "growth_path": "Junior→Senior→Lead"
+      },
+      "product": {
+        "pm_count_estimate": "50+",
+        "methodology": "애자일",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Notion"
+        ]
+      },
+      "design": {
+        "design_system": "컬리 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "Airflow",
+          "BigQuery",
+          "dbt",
+          "Spark"
+        ],
+        "ai_ml_focus": "상품 추천, 수요예측, 새벽배송 최적화 ML팀"
+      }
+    }
   },
   {
     "name": "코인원",
@@ -11972,18 +16075,37 @@
       "notable_quotes": "\"모든 의사결정의 기준은 '고객에게 놀라운 경험을 주는가'이다\" — 쿠팡 리더십 원칙"
     },
     "organization": {
-      "structure_type": "애자일 스쿼드 + 기능조직 혼합",
+      "structure_type": "기능조직",
       "key_divisions": [
-        "이커머스",
-        "로켓배송(물류)",
-        "쿠팡이츠",
-        "쿠팡플레이",
-        "파이낸셜"
+        {
+          "name": "테크",
+          "role": "플랫폼/인프라/데이터",
+          "headcount_estimate": "5000+(글로벌)"
+        },
+        {
+          "name": "로켓배송",
+          "role": "물류/풀필먼트",
+          "headcount_estimate": "5만+(물류 포함)"
+        },
+        {
+          "name": "쿠팡이츠",
+          "role": "음식배달 플랫폼",
+          "headcount_estimate": "500+"
+        }
       ],
-      "engineering_culture": "국내 최초 애자일 도입 기업 중 하나, 닉네임 호칭 문화, 데이터 기반 A/B 테스트",
-      "work_style": "주 5일 출근 (tech 직군 일부 하이브리드)",
-      "core_hours": "코어타임 10:00~15:00",
-      "decision_making": "바텀업 + 리더십 원칙 기반 분산 의사결정"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 25% (물류 인력 제외 시 높음)",
+        "tech_culture": "글로벌 표준 엔지니어링, 영어 사용, 데이터 드리븐 의사결정"
+      },
+      "decision_making": "톱다운",
+      "work_style": "오피스 중심 (잠실 본사), 일부 하이브리드",
+      "notable_benefits": [
+        "글로벌 수준 연봉",
+        "스톡옵션(RSU)",
+        "건강보험",
+        "장비 지원"
+      ]
     },
     "employee_experience": {
       "onboarding": "잡레벨(Job Level) 기반 온보딩, 글로벌 기준 역량 교육",
@@ -11996,6 +16118,143 @@
         "사내 식당"
       ],
       "glassdoor_sentiment": "잡플래닛 3.3점 — '글로벌 성장 경험 우수, 복지 수준은 IT 대비 낮다는 평'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "Go",
+          "React",
+          "MSA",
+          "Kafka",
+          "AWS"
+        ],
+        "team_size_estimate": "3000+(국내)",
+        "hiring_focus": "백엔드, 데이터, ML",
+        "salary_range": "7000~1억8000 (글로벌 수준)",
+        "growth_path": "SDE I → SDE II → Senior SDE → Principal SDE"
+      },
+      "product": {
+        "pm_count_estimate": "300+",
+        "methodology": "애자일",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Figma"
+        ]
+      },
+      "design": {
+        "design_system": "자체 디자인 시스템 운영",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Flink",
+          "Airflow",
+          "Redshift",
+          "Python"
+        ],
+        "ai_ml_focus": "추천/물류최적화/수요예측 ML팀 운영, 수백명 규모"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "개인화 추천 엔진",
+        "검색 AI 랭킹",
+        "물류 수요예측 AI",
+        "상품 규정준수 AI (CPLB)",
+        "쿠팡플레이 AI 추천"
+      ],
+      "ai_team_size": "ML/AI 인력 300명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "TensorFlow",
+        "HuggingFace",
+        "XGBoost",
+        "MLflow",
+        "Kubernetes",
+        "AWS SageMaker"
+      ],
+      "ai_investment": "AI/ML 조직 지속 확대, 글로벌 ML 인재 채용",
+      "ai_partnerships": [
+        "AWS 전략적 파트너",
+        "NVIDIA GPU 클러스터 운영"
+      ],
+      "ai_open_source": [
+        "일부 데이터 엔지니어링 도구 공개"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20%",
+      "ai_maturity": "성숙기",
+      "ai_use_cases": [
+        "쿠팡 로켓배송 수요예측 및 재고 최적화",
+        "멀티모달 LLM 기반 상품 규정준수 자동화",
+        "개인화 홈피드 추천 CTR 최적화"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "쿠팡 쇼핑 앱",
+      "service_portfolio": [
+        {
+          "name": "쿠팡 마켓플레이스",
+          "category": "커머스",
+          "target_user": "B2C/B2B",
+          "monetization": "수수료",
+          "mau": "3000만+",
+          "launch_year": 2010,
+          "status": "주력",
+          "tech_stack_hint": "Java, Kotlin, MSA, Kafka"
+        },
+        {
+          "name": "쿠팡이츠",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": "700만+",
+          "launch_year": 2019,
+          "status": "성장",
+          "tech_stack_hint": "Java, Go, React Native"
+        },
+        {
+          "name": "쿠팡플레이",
+          "category": "콘텐츠",
+          "target_user": "B2C",
+          "monetization": "구독",
+          "mau": "600만+",
+          "launch_year": 2020,
+          "status": "성장",
+          "tech_stack_hint": "React, AWS, CDN"
+        },
+        {
+          "name": "로켓배송",
+          "category": "물류",
+          "target_user": "B2C",
+          "monetization": "구독(로켓와우)",
+          "mau": null,
+          "launch_year": 2014,
+          "status": "주력",
+          "tech_stack_hint": "Java, Python, 물류최적화 알고리즘"
+        },
+        {
+          "name": "쿠팡페이",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "성장",
+          "tech_stack_hint": "Java, Spring Boot"
+        }
+      ],
+      "upcoming_services": [
+        "쿠팡 대만 확장",
+        "쿠팡AI 쇼핑 추천"
+      ]
     }
   },
   {
@@ -12161,18 +16420,38 @@
       "notable_quotes": "\"게임업계 특성상 자율 환경에서 경쟁력이 나온다 — 그에 맞는 제도를 택한다\" — 김창한 대표"
     },
     "organization": {
-      "structure_type": "스튜디오제 (PUBG·인디·AI 스튜디오 분리)",
+      "structure_type": "스튜디오제",
       "key_divisions": [
-        "PUBG스튜디오",
-        "라이징윙스",
-        "블루홀스튜디오",
-        "인도스튜디오",
-        "AI연구"
+        {
+          "name": "PUBG Studio",
+          "role": "PUBG 개발/운영",
+          "headcount_estimate": "1000+"
+        },
+        {
+          "name": "Bluehole Studio",
+          "role": "신규 IP 개발",
+          "headcount_estimate": "500+"
+        },
+        {
+          "name": "RisingWings",
+          "role": "모바일 게임",
+          "headcount_estimate": "200+"
+        }
       ],
-      "engineering_culture": "GPU 클러스터 구축·AI 퍼스트, 엔비디아 협업 CPC 개발, 스튜디오 자율",
-      "work_style": "하이브리드 (스튜디오별 자율)",
-      "core_hours": "코어타임 스튜디오별 협의",
-      "decision_making": "스튜디오 자율 + CEO 비전 방향 정렬"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 55%",
+        "tech_culture": "언리얼/유니티 전문 개발, 글로벌 라이브 서비스 경험, 게임잼 문화"
+      },
+      "decision_making": "스튜디오 자율",
+      "work_style": "오피스 중심 (성남 판교)",
+      "notable_benefits": [
+        "RSU/스톡옵션",
+        "성과급",
+        "자기계발비",
+        "게임 무료 플레이",
+        "유연근무"
+      ]
     },
     "employee_experience": {
       "onboarding": "PUBG/게임 도메인 온보딩, 스튜디오 배치",
@@ -12185,6 +16464,133 @@
         "복지 포인트"
       ],
       "glassdoor_sentiment": "잡플래닛 3.8점 — 'PUBG 글로벌 성과·높은 연봉, 원툴 의존 리스크 인식'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "C++",
+          "Unreal Engine",
+          "Unity",
+          "Python",
+          "Java",
+          "AWS",
+          "Redis"
+        ],
+        "team_size_estimate": "1500+",
+        "hiring_focus": "게임 클라이언트(C++/UE5), 서버, 그래픽스",
+        "salary_range": "6000~1억5000",
+        "growth_path": "주니어→중급→시니어→리드 (게임 직군별)"
+      },
+      "product": {
+        "pm_count_estimate": "150+",
+        "methodology": "게임 개발 사이클(알파/베타/런칭)",
+        "tools": [
+          "Jira",
+          "Confluence",
+          "Slack"
+        ]
+      },
+      "design": {
+        "design_system": null,
+        "tools": [
+          "Photoshop",
+          "Maya",
+          "ZBrush",
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "Spark",
+          "Redshift",
+          "Airflow"
+        ],
+        "ai_ml_focus": "게임 AI(NPC), 어뷰징 탐지, 매칭 알고리즘 팀 운영"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "PUBG AI 봇/테스트 자동화",
+        "LLM 기반 게임 AI NPC",
+        "AI 게임 콘텐츠 생성",
+        "AI 게임 테크(클라이언트)"
+      ],
+      "ai_team_size": "딥러닝 본부 AI 인력 200명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "C++",
+        "Unreal Engine AI",
+        "vLLM",
+        "Ray",
+        "NVIDIA GPU"
+      ],
+      "ai_investment": "딥러닝 본부 운영, NVIDIA·OpenAI와 게임 AI 협력",
+      "ai_partnerships": [
+        "NVIDIA (AI 게임 기술 협력)",
+        "OpenAI (게임 AI 협력)"
+      ],
+      "ai_open_source": [
+        "해당 없음"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 25~30%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "PUBG LLM 기반 AI NPC 대화 시스템",
+        "강화학습 기반 게임 테스트 자동화 봇",
+        "생성형 AI 게임 아트/콘텐츠 제작 지원"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "PUBG: BATTLEGROUNDS",
+      "service_portfolio": [
+        {
+          "name": "PUBG: BATTLEGROUNDS",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제/판매",
+          "mau": "3000만+(글로벌)",
+          "launch_year": 2017,
+          "status": "주력",
+          "tech_stack_hint": "Unreal Engine, C++, AWS"
+        },
+        {
+          "name": "PUBG MOBILE",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": "1억+(글로벌)",
+          "launch_year": 2018,
+          "status": "주력",
+          "tech_stack_hint": "Unity, C++"
+        },
+        {
+          "name": "배틀그라운드: NEW STATE",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "축소",
+          "tech_stack_hint": "Unity"
+        },
+        {
+          "name": "다크앤다커모바일",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": null,
+          "launch_year": 2024,
+          "status": "신규",
+          "tech_stack_hint": "Unreal Engine 5"
+        }
+      ],
+      "upcoming_services": [
+        "인조이(생활 시뮬레이션)",
+        "Unreal5 기반 신작 IP"
+      ]
     }
   },
   {
@@ -12680,7 +17086,7 @@
       "revenue_growth_yoy": "+74.6%",
       "profit_margin": "2.0%",
       "employee_total": 1126,
-      "employee_avg_salary": 112825044,
+      "employee_avg_salary": 122952042,
       "employee_avg_tenure": "1년 9개월"
     },
     "management_philosophy": {
@@ -12694,18 +17100,38 @@
       "notable_quotes": "\"우리는 가족이 아닌 스포츠팀이다 — 최고의 선수들이 모여 최고의 성과를 내는 팀\" — 이승건 대표"
     },
     "organization": {
-      "structure_type": "사일로(Silo) + 독립 팀 구조",
+      "structure_type": "스쿼드",
       "key_divisions": [
-        "토스뱅크",
-        "토스증권",
-        "토스페이먼츠",
-        "토스인슈어런스",
-        "토스플레이스"
+        {
+          "name": "토스팀(코어)",
+          "role": "토스 앱 핵심 금융 기능",
+          "headcount_estimate": "1000+"
+        },
+        {
+          "name": "토스뱅크",
+          "role": "인터넷전문은행",
+          "headcount_estimate": "600+"
+        },
+        {
+          "name": "토스페이먼츠",
+          "role": "PG사",
+          "headcount_estimate": "300+"
+        }
       ],
-      "engineering_culture": "DRI 기반 자율 의사결정, 코드리뷰 필수, 토스 NEXT 신입 개발자 양성 프로그램",
-      "work_style": "주 5일 출근 (일부 직군 하이브리드)",
-      "core_hours": "코어타임 있음 (팀별 협의)",
-      "decision_making": "바텀업 — DRI가 실무 단위에서 최종 결정"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 45%",
+        "tech_culture": "완전 자율/책임 문화, 코드리뷰 필수, 사내 기술블로그(toss.tech) 운영, 모노레포"
+      },
+      "decision_making": "바텀업",
+      "work_style": "자율 출퇴근, 강남 오피스 기반",
+      "notable_benefits": [
+        "스톡옵션",
+        "탁월한 연봉",
+        "무제한 간식/식사",
+        "장비 지원",
+        "컨퍼런스 지원"
+      ]
     },
     "employee_experience": {
       "onboarding": "토스 문화·핵심가치 집중 교육 후 팀 배치, 온보딩 버디 제도",
@@ -12718,6 +17144,143 @@
         "팀별 워크샵 비용 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.8점 — '높은 연봉·성장 환경, 고강도 업무·높은 기준이 양날의 검'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Kotlin",
+          "Java",
+          "Swift",
+          "React",
+          "TypeScript",
+          "Spring Boot",
+          "Kafka",
+          "Kubernetes"
+        ],
+        "team_size_estimate": "1500+",
+        "hiring_focus": "백엔드, iOS/Android, 프론트엔드",
+        "salary_range": "8000~2억 (레벨별, 업계 최상위)",
+        "growth_path": "Junior→Senior→Staff→Principal (레벨 시스템 운영)"
+      },
+      "product": {
+        "pm_count_estimate": "200+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Notion",
+          "Slack"
+        ]
+      },
+      "design": {
+        "design_system": "토스 디자인 시스템(TDS) 운영 (공개)",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Spark",
+          "Airflow",
+          "Redshift",
+          "dbt",
+          "Python"
+        ],
+        "ai_ml_focus": "ML팀 운영, 신용평가/이상감지/추천 모델 집중"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "AI 이상거래탐지(FDS)",
+        "AI 신용평가 모델",
+        "AI 고객상담 봇",
+        "AI Engineer Platform"
+      ],
+      "ai_team_size": "AI/ML 인력 100~150명 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "LangChain",
+        "LLM (GPT/Claude)",
+        "Kubernetes",
+        "Airflow"
+      ],
+      "ai_investment": "AI Platform 조직 독립 운영, AI 채용 지속 확대",
+      "ai_partnerships": [
+        "OpenAI API 활용",
+        "Anthropic Claude 활용"
+      ],
+      "ai_open_source": [
+        "Slash (오픈소스 UI 라이브러리)",
+        "일부 ML 도구 공개"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 15~20%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "실시간 금융사기 탐지 AI",
+        "대출 심사 AI 신용평가",
+        "토스증권 AI어닝콜·AI시그널 서비스"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "토스 앱",
+      "service_portfolio": [
+        {
+          "name": "토스 앱",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료/광고",
+          "mau": "2400만",
+          "launch_year": 2015,
+          "status": "주력",
+          "tech_stack_hint": "Kotlin, Swift, React Native, Spring"
+        },
+        {
+          "name": "토스뱅크",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "이자/수수료",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "성장",
+          "tech_stack_hint": "Java, Spring Boot, Kafka"
+        },
+        {
+          "name": "토스페이먼츠",
+          "category": "금융",
+          "target_user": "B2B",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2021,
+          "status": "성장",
+          "tech_stack_hint": "Java, Kotlin, gRPC"
+        },
+        {
+          "name": "토스증권",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": "600만+",
+          "launch_year": 2021,
+          "status": "성장",
+          "tech_stack_hint": "Java, Kotlin, React"
+        },
+        {
+          "name": "토스인슈어런스",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "수수료",
+          "mau": null,
+          "launch_year": 2020,
+          "status": "성장",
+          "tech_stack_hint": "Java, Spring"
+        }
+      ],
+      "upcoming_services": [
+        "토스 글로벌 확장 (동남아)",
+        "토스AI 금융 어드바이저"
+      ]
     }
   },
   {
@@ -13061,18 +17624,37 @@
       "notable_quotes": "\"변하지 않는 금융의 본질은 신뢰 — 모든 문제를 고객 관점에서 풀겠다\" — 이은미 대표"
     },
     "organization": {
-      "structure_type": "기능조직 + 개발자 중심 애자일",
+      "structure_type": "스쿼드",
       "key_divisions": [
-        "여신",
-        "수신·외환",
-        "플랫폼개발",
-        "AI/데이터",
-        "리스크"
+        {
+          "name": "프로덕트엔지니어링",
+          "role": "앱/서버 개발",
+          "headcount_estimate": "300+"
+        },
+        {
+          "name": "리스크/AI",
+          "role": "신용평가/이상탐지",
+          "headcount_estimate": "100+"
+        },
+        {
+          "name": "컴플라이언스",
+          "role": "금융규제",
+          "headcount_estimate": "80+"
+        }
       ],
-      "engineering_culture": "기술 내재화 추구, 생성형 AI 내부 업무 자동화(4건 혁신금융서비스), 개발자 비중 높음",
-      "work_style": "하이브리드",
-      "core_hours": "코어타임 10:00~16:00",
-      "decision_making": "바텀업 + CEO 중심 전략 결정"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 45%",
+        "tech_culture": "토스 문화 기반, 자율/책임, 빠른 실험, 금융 안전성 병행"
+      },
+      "decision_making": "바텀업",
+      "work_style": "자율 출퇴근 (강남)",
+      "notable_benefits": [
+        "스톡옵션",
+        "탁월한 연봉",
+        "식사/간식 지원",
+        "장비 최신화"
+      ]
     },
     "employee_experience": {
       "onboarding": "토스 공통 온보딩 + 금융 규제 교육",
@@ -13085,6 +17667,121 @@
         "도서비 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 3.9점 — '흑자 전환 모멘텀·성장 기대감, 인터넷은행 규제 리스크'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Kotlin",
+          "Spring Boot",
+          "Kafka",
+          "React",
+          "TypeScript",
+          "MySQL",
+          "Redis"
+        ],
+        "team_size_estimate": "300+",
+        "hiring_focus": "백엔드, AI/ML(신용평가), 모바일",
+        "salary_range": "7000~1억8000",
+        "growth_path": "Junior→Senior→Staff→Principal"
+      },
+      "product": {
+        "pm_count_estimate": "40+",
+        "methodology": "스쿼드/애자일",
+        "tools": [
+          "Notion",
+          "Figma",
+          "Jira"
+        ]
+      },
+      "design": {
+        "design_system": "토스 디자인 시스템(TDS) 공유",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "Spark",
+          "dbt",
+          "Airflow",
+          "PyTorch"
+        ],
+        "ai_ml_focus": "신용평가 AI, 포용금융 리스크 모델 핵심"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "AI 신용평가 모델",
+        "ML 기반 FDS",
+        "AI 대출 자동심사",
+        "ML Data 라벨링 시스템"
+      ],
+      "ai_team_size": "ML 인력 60~100명 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "Kotlin (ML Backend)",
+        "MLflow",
+        "Kubernetes",
+        "Airflow"
+      ],
+      "ai_investment": "전 직군 대규모 채용 확대, AI 기반 인터넷은행 고도화",
+      "ai_partnerships": [
+        "토스 그룹 AI 인프라 공유",
+        "AWS 파트너"
+      ],
+      "ai_open_source": [
+        "해당 없음"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "비대면 대출 AI 자동심사",
+        "실시간 이상거래 ML 탐지",
+        "신분증 AI OCR 본인인증"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "토스뱅크 앱",
+      "service_portfolio": [
+        {
+          "name": "토스뱅크 통장",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "이자",
+          "mau": "800만+",
+          "launch_year": 2021,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring Boot, Kafka"
+        },
+        {
+          "name": "토스뱅크 대출",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "이자",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Java, ML 신용평가"
+        },
+        {
+          "name": "포용금융 상품",
+          "category": "금융",
+          "target_user": "B2C",
+          "monetization": "이자",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Java, Python"
+        }
+      ],
+      "upcoming_services": [
+        "AI 금융 어드바이저",
+        "기업뱅킹 서비스"
+      ]
     }
   },
   {
@@ -14016,18 +18713,37 @@
       "notable_quotes": "\"우리는 팀 하이브 — 서로를 위해 힘이 되는 따뜻한 조직을 만들겠다\" — 이재상 대표"
     },
     "organization": {
-      "structure_type": "멀티레이블제 (독립 레이블 + 공통 솔루션)",
+      "structure_type": "사업부제",
       "key_divisions": [
-        "BIGHIT MUSIC",
-        "BELIFT LAB",
-        "ADOR",
-        "SOURCE MUSIC",
-        "Weverse(플랫폼)"
+        {
+          "name": "Weverse Company",
+          "role": "팬덤 플랫폼 개발",
+          "headcount_estimate": "500+"
+        },
+        {
+          "name": "레이블(빅히트/쏘스 등)",
+          "role": "아티스트 매니지먼트",
+          "headcount_estimate": "300+"
+        },
+        {
+          "name": "HYBE Solutions",
+          "role": "기술 인프라",
+          "headcount_estimate": "200+"
+        }
       ],
-      "engineering_culture": "Weverse 플랫폼 기술 내재화, AI 프로슈머 마켓 개발, 팬 데이터 분석",
-      "work_style": "하이브리드",
-      "core_hours": "코어타임 팀 협의",
-      "decision_making": "레이블 자율 + CEO 전략 정렬"
+      "tech_org": {
+        "cto_or_vp": null,
+        "engineering_ratio": "약 25%",
+        "tech_culture": "글로벌 팬덤 서비스 경험, 대용량 트래픽 처리, 콘텐츠 테크"
+      },
+      "decision_making": "합의제",
+      "work_style": "하이브리드 (용산 본사)",
+      "notable_benefits": [
+        "콘서트 티켓 혜택",
+        "스톡옵션",
+        "음원 무제한",
+        "유연근무제"
+      ]
     },
     "employee_experience": {
       "onboarding": "아티스트·IP 도메인 교육, 팀 배치",
@@ -14040,6 +18756,133 @@
         "자유 복장"
       ],
       "glassdoor_sentiment": "잡플래닛 3.7점 — 'K팝 글로벌 선도·자긍심 높음, 어도어 사태 등 내부 갈등 이슈'"
+    },
+    "roles_analysis": {
+      "engineering": {
+        "main_stacks": [
+          "Java",
+          "Spring Boot",
+          "Kotlin",
+          "React",
+          "TypeScript",
+          "AWS",
+          "Redis",
+          "Kafka"
+        ],
+        "team_size_estimate": "500+",
+        "hiring_focus": "백엔드, 프론트엔드, 글로벌 서비스",
+        "salary_range": "5000~1억2000",
+        "growth_path": "Junior→Senior→Lead"
+      },
+      "product": {
+        "pm_count_estimate": "80+",
+        "methodology": "애자일/스크럼",
+        "tools": [
+          "Jira",
+          "Figma",
+          "Notion"
+        ]
+      },
+      "design": {
+        "design_system": "Weverse 디자인 시스템",
+        "tools": [
+          "Figma"
+        ]
+      },
+      "data": {
+        "data_team_exists": true,
+        "main_tools": [
+          "Python",
+          "Airflow",
+          "BigQuery",
+          "Spark"
+        ],
+        "ai_ml_focus": "팬덤 추천, 콘텐츠 분석, AI 번역 팀 운영"
+      }
+    },
+    "ai_deep": {
+      "ai_products": [
+        "AI 보컬 커버 서비스",
+        "Weverse AI 콘텐츠 추천",
+        "하이퍼커넥트 AI (비디오 AI/ML)",
+        "AI 아티스트 아바타"
+      ],
+      "ai_team_size": "하이퍼커넥트 포함 AI 인력 200명+ 추정",
+      "ai_tech_stack": [
+        "PyTorch",
+        "Python",
+        "C++",
+        "ONNX",
+        "TensorRT",
+        "Kubernetes",
+        "AWS"
+      ],
+      "ai_investment": "하이퍼커넥트 인수 (약 1.7조 원, AI/ML 기술 확보), AI 엔터테인먼트 기술 R&D 투자",
+      "ai_partnerships": [
+        "NVIDIA (비디오 AI)",
+        "OpenAI API 활용",
+        "글로벌 AI 파트너"
+      ],
+      "ai_open_source": [
+        "하이퍼커넥트 AI 연구 논문 발표 (CVPR/ICCV)",
+        "일부 비디오 AI 모델 공개"
+      ],
+      "ai_hiring_ratio": "전체 채용 중 AI/ML 약 20%",
+      "ai_maturity": "성장기",
+      "ai_use_cases": [
+        "AI 보컬 스타일 변환 및 합성 (팬 서비스)",
+        "Weverse 글로벌 팬 AI 실시간 번역",
+        "하이퍼커넥트 Azar 비디오 AI 실시간 필터/매칭"
+      ]
+    },
+    "service_analysis": {
+      "flagship_service": "Weverse",
+      "service_portfolio": [
+        {
+          "name": "Weverse",
+          "category": "플랫폼",
+          "target_user": "B2C",
+          "monetization": "수수료/구독",
+          "mau": "1000만+(글로벌)",
+          "launch_year": 2019,
+          "status": "주력",
+          "tech_stack_hint": "Java, Spring, React, AWS"
+        },
+        {
+          "name": "Weverse Shop",
+          "category": "커머스",
+          "target_user": "B2C",
+          "monetization": "판매/수수료",
+          "mau": null,
+          "launch_year": 2019,
+          "status": "주력",
+          "tech_stack_hint": "Java, Kotlin, React"
+        },
+        {
+          "name": "음반/음원 사업",
+          "category": "콘텐츠",
+          "target_user": "B2C",
+          "monetization": "판매/스트리밍",
+          "mau": null,
+          "launch_year": 2005,
+          "status": "주력",
+          "tech_stack_hint": null
+        },
+        {
+          "name": "HYBE IM (게임)",
+          "category": "게임",
+          "target_user": "B2C",
+          "monetization": "인앱결제",
+          "mau": null,
+          "launch_year": 2022,
+          "status": "성장",
+          "tech_stack_hint": "Unity, Unreal"
+        }
+      ],
+      "upcoming_services": [
+        "Weverse AI 팬덤 서비스",
+        "IP 기반 메타버스"
+      ]
     }
   },
   {
