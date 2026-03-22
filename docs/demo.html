@@ -515,6 +515,122 @@
       text-decoration: none;
     }
     .dl-btn:hover { border-color: var(--primary); color: var(--primary); background: var(--primary-light); }
+
+    /* ── Watchlist button ── */
+    .watchlist-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 8px;
+      background: transparent;
+      border: 1.5px solid var(--border);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      flex-shrink: 0;
+      color: var(--text-tertiary);
+    }
+    .watchlist-btn:hover { border-color: #FF4545; color: #FF4545; background: rgba(255,69,69,0.06); }
+    .watchlist-btn.active { border-color: #FF4545; color: #FF4545; background: rgba(255,69,69,0.08); }
+
+    /* ── Compare chip ── */
+    .compare-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 600;
+      border: 1.5px solid var(--border);
+      background: var(--bg);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+    .compare-chip:hover { border-color: var(--primary); color: var(--primary); }
+    .compare-chip.active { border-color: var(--primary); background: var(--primary-light); color: var(--primary); }
+
+    /* ── Compare bar ── */
+    #compareBar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 80;
+      background: var(--bg);
+      border-top: 1px solid var(--border);
+      padding: 12px 20px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 -4px 24px rgba(0,0,0,0.08);
+      animation: slideUp 0.2s cubic-bezier(0.4,0,0.2,1);
+    }
+    @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+    #compareBar.show { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+
+    /* ── Compare modal ── */
+    #compareModal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+      z-index: 110;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    #compareModal.open { display: flex; }
+    #compareBox {
+      background: var(--bg);
+      border-radius: 20px;
+      width: 100%;
+      max-width: 860px;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 28px;
+      animation: modalIn 0.22s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    /* ── Autocomplete dropdown ── */
+    #searchDropdown {
+      display: none;
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      right: 0;
+      background: var(--bg);
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      z-index: 60;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    #searchDropdown.open { display: block; }
+    .search-drop-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 14px;
+      cursor: pointer;
+      transition: background 0.12s;
+      font-size: 13px;
+    }
+    .search-drop-item:hover, .search-drop-item.focused { background: var(--bg-secondary); }
+    .search-drop-section {
+      padding: 6px 14px 3px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: var(--text-tertiary);
+      text-transform: uppercase;
+    }
+
+    /* ── Watchlist filter chip ── */
+    #watchlistFilterWrap { display: none; }
   </style>
 </head>
 <body>
@@ -615,7 +731,8 @@
             <div class="p-4" style="border-bottom:1px solid var(--border);">
               <div class="relative">
                 <svg class="absolute left-3 top-1/2 -translate-y-1/2 t-tertiary pointer-events-none" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/></svg>
-                <input id="companySearch" type="text" placeholder="기업명, 산업, 기술스택 검색..." autocomplete="off" />
+                <input id="companySearch" type="text" placeholder="기업명, 산업, 기술스택 검색..." autocomplete="off" onkeydown="handleSearchKey(event)" />
+                <div id="searchDropdown"></div>
               </div>
             </div>
 
@@ -640,13 +757,19 @@
               </select>
             </div>
 
-            <!-- AI toggle + Count -->
-            <div class="px-4 py-2.5 flex items-center justify-between" style="border-bottom:1px solid var(--border);">
+            <!-- AI toggle + Count + Watchlist filter -->
+            <div class="px-4 py-2.5 flex items-center justify-between gap-2" style="border-bottom:1px solid var(--border);">
               <span id="companyCount" class="text-xs font-semibold t-secondary">로딩 중...</span>
-              <label class="toggle-wrap" id="aiToggleWrap" onclick="toggleAiFilter()">
-                <div class="toggle-dot"></div>
-                <span>AI 전략</span>
-              </label>
+              <div class="flex items-center gap-2">
+                <label id="watchlistFilterWrap" class="toggle-wrap" id="watchlistFilterToggle" onclick="toggleWatchlistFilter()">
+                  <svg width="11" height="11" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                  관심
+                </label>
+                <label class="toggle-wrap" id="aiToggleWrap" onclick="toggleAiFilter()">
+                  <div class="toggle-dot"></div>
+                  <span>AI 전략</span>
+                </label>
+              </div>
             </div>
 
             <!-- Industry accordion groups -->
@@ -1013,6 +1136,7 @@ function buildCompanyCard(c) {
         ${c.sub_industry ? `<span class="ind-tag">${escHtml(c.sub_industry)}</span>` : ''}
         ${empText ? `<span class="text-xs t-tertiary">${empText}</span>` : ''}
         ${aiBadge}
+        ${isWatched && isWatched(c.name) ? '<span style="margin-left:auto;color:#FF4545;font-size:10px;">♥</span>' : ''}
       </div>
     </div>
   `;
@@ -1209,6 +1333,14 @@ function buildPanelShell(name, loading) {
       <button onclick="openModal('resume')" class="btn-click inline-flex items-center gap-2 text-sm font-semibold t-secondary" style="height:38px; padding:0 16px; background:var(--bg-secondary); border-radius:10px; border:1px solid var(--border); cursor:pointer;">
         <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
         이력서 분석하기
+      </button>
+      <button onclick="toggleWatchlistCompany()" id="watchlistPanelBtn" class="btn-click inline-flex items-center gap-2 text-sm font-semibold t-secondary" style="height:38px; padding:0 14px; background:var(--bg-secondary); border-radius:10px; border:1.5px solid var(--border); cursor:pointer;">
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" id="watchlistPanelIcon"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        <span id="watchlistPanelLabel">관심 기업 추가</span>
+      </button>
+      <button onclick="addToCompare()" id="comparePanelBtn" class="btn-click inline-flex items-center gap-2 text-sm font-semibold t-secondary" style="height:38px; padding:0 14px; background:var(--bg-secondary); border-radius:10px; border:1.5px solid var(--border); cursor:pointer;">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+        비교에 추가
       </button>
       <button id="downloadBtn" onclick="downloadReport()" class="dl-btn" style="margin-left:auto;">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
@@ -3143,6 +3275,380 @@ function emptyState(msg) {
 // Init
 // ═══════════════════════════════════════════════════════
 loadCompanies();
+
+
+// =======================================================
+// WATCHLIST (localStorage)
+// =======================================================
+let watchlist = JSON.parse(localStorage.getItem('hk-watchlist') || '[]');
+let watchlistFilterOn = false;
+
+function saveWatchlist() {
+  localStorage.setItem('hk-watchlist', JSON.stringify(watchlist));
+}
+
+function isWatched(name) {
+  return watchlist.includes(name);
+}
+
+function toggleWatchlistByName(name) {
+  if (isWatched(name)) {
+    watchlist = watchlist.filter(function(n) { return n !== name; });
+  } else {
+    watchlist.push(name);
+  }
+  saveWatchlist();
+  updateWatchlistPanelBtn(name);
+  var wrap = document.getElementById('watchlistFilterWrap');
+  if (wrap) wrap.style.display = watchlist.length > 0 ? 'inline-flex' : 'none';
+  renderAccordion(filteredCompanies);
+  renderMobileList(filteredCompanies);
+}
+
+function updateWatchlistPanelBtn(name) {
+  var panelBtn   = document.getElementById('watchlistPanelBtn');
+  var panelLabel = document.getElementById('watchlistPanelLabel');
+  var panelIcon  = document.getElementById('watchlistPanelIcon');
+  if (!panelBtn || selectedCompany !== name) return;
+  var watched = isWatched(name);
+  panelBtn.style.borderColor = watched ? '#FF4545' : '';
+  panelBtn.style.color       = watched ? '#FF4545' : '';
+  if (panelLabel) panelLabel.textContent = watched ? '관심 해제' : '관심 기업 추가';
+  if (panelIcon)  panelIcon.style.color  = watched ? '#FF4545' : 'var(--text-tertiary)';
+}
+
+function toggleWatchlistCompany() {
+  if (!selectedCompany) return;
+  toggleWatchlistByName(selectedCompany);
+}
+
+function toggleWatchlistFilter() {
+  watchlistFilterOn = !watchlistFilterOn;
+  var wrap = document.getElementById('watchlistFilterWrap');
+  if (wrap) wrap.classList.toggle('active', watchlistFilterOn);
+  applyFilterAndSearch();
+}
+
+// Show filter toggle on page load if watchlist has items
+window.addEventListener('load', function() {
+  var wrap = document.getElementById('watchlistFilterWrap');
+  if (wrap && watchlist.length > 0) wrap.style.display = 'inline-flex';
+});
+
+// =======================================================
+// COMPANY COMPARISON (max 3)
+// =======================================================
+var compareList = [];
+
+function addToCompare() {
+  if (!selectedCompany) return;
+  if (compareList.indexOf(selectedCompany) !== -1) { showToast(selectedCompany + '은 이미 비교 목록에 있어요'); return; }
+  if (compareList.length >= 3) { showToast('최대 3개 기업까지 비교할 수 있어요'); return; }
+  compareList.push(selectedCompany);
+  updateCompareBar();
+  showToast(selectedCompany + ' 비교에 추가됨');
+}
+
+function removeFromCompare(name) {
+  compareList = compareList.filter(function(n) { return n !== name; });
+  updateCompareBar();
+}
+
+function clearCompare() {
+  compareList = [];
+  updateCompareBar();
+}
+
+function updateCompareBar() {
+  var bar   = document.getElementById('compareBar');
+  var chips = document.getElementById('compareChips');
+  if (!bar || !chips) return;
+  if (compareList.length === 0) { bar.classList.remove('show'); return; }
+  bar.classList.add('show');
+  chips.innerHTML = compareList.map(function(name) {
+    return '<span class="compare-chip active">' + escHtml(name) +
+      '<button onclick="removeFromCompare(\'' + name.replace(/'/g,"\\'") + '\'); event.stopPropagation();" ' +
+      'style="background:none;border:none;cursor:pointer;color:inherit;padding:0;line-height:1;margin-left:3px;">' +
+      '<svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M6 18L18 6M6 6l12 12"/></svg>' +
+      '</button></span>';
+  }).join('');
+}
+
+function openCompareModal() {
+  if (compareList.length < 2) { showToast('2개 이상 기업을 선택해주세요'); return; }
+  document.getElementById('compareModal').classList.add('open');
+  document.getElementById('compareContent').innerHTML = '<div class="text-center py-10 t-tertiary text-sm">데이터 불러오는 중...</div>';
+
+  Promise.all(compareList.map(function(name) { return fetchCompanyData(name); })).then(function(dataArr) {
+    var metas = compareList.map(function(name) { return allCompanies.find(function(c) { return c.name === name; }) || {}; });
+    renderCompareContent(compareList, dataArr, metas);
+  });
+}
+
+function closeCompareModal() {
+  document.getElementById('compareModal').classList.remove('open');
+}
+
+function closeCompareIfOutside(e) {
+  if (e.target === document.getElementById('compareModal')) closeCompareModal();
+}
+
+function renderCompareContent(names, dataArr, metas) {
+  var metricKeys   = ['job_fit','growth_potential','compensation','culture_fit','career_leverage'];
+  var metricLabels = { job_fit:'Job Fit', growth_potential:'성장 잠재력', compensation:'보상·복지', culture_fit:'문화 적합성', career_leverage:'커리어 레버리지' };
+  var gradeColor   = { S:'#3182F6', A:'#00C471', B:'#FF9500', C:'#FF6B00', D:'#FF4545' };
+  var cols = names.length;
+  var colsTemplate = '140px ' + Array(cols).fill('1fr').join(' ');
+
+  // Header
+  var html = '<div style="display:grid;grid-template-columns:' + colsTemplate + ';gap:12px;margin-bottom:20px;align-items:end;">';
+  html += '<div></div>';
+  names.forEach(function(name, i) {
+    var sc    = (dataArr[i] && dataArr[i].scorecard) || {};
+    var grade = sc.grade || metas[i].grade || '—';
+    var total = sc.total ? Math.round(sc.total) : (metas[i].score || 0);
+    var gc    = gradeColor[grade] || 'var(--text-tertiary)';
+    html += '<div class="text-center rounded-2xl p-4" style="background:var(--bg-secondary);border:1px solid var(--border);">' +
+      '<div class="font-bold t-primary mb-1" style="font-size:15px;">' + escHtml(name) + '</div>' +
+      '<div class="font-mono font-bold" style="font-size:26px;color:' + gc + ';line-height:1;">' + (total || '—') + '</div>' +
+      '<div class="text-xs t-tertiary mt-0.5">/ 100 · Grade ' + escHtml(grade) + '</div>' +
+      '</div>';
+  });
+  html += '</div>';
+
+  // Metric rows
+  metricKeys.forEach(function(key) {
+    var label = metricLabels[key] || key;
+    var vals = names.map(function(name, i) {
+      var sc = (dataArr[i] && dataArr[i].scorecard) || {};
+      return sc[key] != null ? Math.round(sc[key]) : null;
+    });
+    var validVals = vals.filter(function(v) { return v !== null; });
+    var max = validVals.length ? Math.max.apply(null, validVals) : 0;
+
+    html += '<div style="display:grid;grid-template-columns:' + colsTemplate + ';gap:12px;margin-bottom:10px;align-items:center;">';
+    html += '<div class="text-xs font-semibold t-secondary" style="text-align:right;padding-right:12px;">' + escHtml(label) + '</div>';
+    vals.forEach(function(v) {
+      var pct      = v ? v : 0;
+      var isTop    = v !== null && v === max && max > 0;
+      var barColor = v >= 80 ? '#00C471' : v >= 60 ? '#3182F6' : '#FF9500';
+      html += '<div>' +
+        '<div class="flex items-center justify-between mb-1">' +
+        '<span class="font-mono text-xs font-semibold" style="color:' + (isTop ? barColor : 'var(--text-primary)') + ';">' + (v !== null ? v : '—') + (isTop ? ' ↑' : '') + '</span>' +
+        '</div>' +
+        '<div class="rounded-full overflow-hidden" style="height:6px;background:var(--bg-secondary);">' +
+        '<div class="rounded-full" style="height:6px;width:' + pct + '%;background:' + barColor + ';transition:width 0.6s cubic-bezier(0.4,0,0.2,1);"></div>' +
+        '</div></div>';
+    });
+    html += '</div>';
+  });
+
+  // Key info row
+  html += '<div class="mt-6 pt-5" style="border-top:1px solid var(--border);">' +
+    '<div class="text-sm font-bold t-primary mb-3">기업 정보</div>' +
+    '<div style="display:grid;grid-template-columns:' + colsTemplate + ';gap:12px;">' +
+    '<div></div>';
+  names.forEach(function(name, i) {
+    var s1      = (dataArr[i] && dataArr[i].sections && dataArr[i].sections['1']) || {};
+    var meta    = metas[i] || {};
+    var industry = s1.industry || meta.industry || '—';
+    var emp     = meta.employee_count ? Number(meta.employee_count).toLocaleString() + '명' : '—';
+    var founded = s1.founded_year || '—';
+    html += '<div class="text-xs space-y-1.5">' +
+      '<div><span class="t-tertiary">업종: </span><span class="t-primary font-medium">' + escHtml(industry) + '</span></div>' +
+      '<div><span class="t-tertiary">직원: </span><span class="t-primary font-medium">' + escHtml(emp) + '</span></div>' +
+      '<div><span class="t-tertiary">설립: </span><span class="t-primary font-medium">' + escHtml(String(founded)) + '년</span></div>' +
+      '</div>';
+  });
+  html += '</div></div>';
+
+  document.getElementById('compareContent').innerHTML = html;
+}
+
+// =======================================================
+// AUTOCOMPLETE + RECENT HISTORY
+// =======================================================
+var recentViewed = JSON.parse(localStorage.getItem('hk-recent') || '[]');
+var dropdownFocusIdx = -1;
+var dropdownItemNames = [];
+
+function saveRecent(name) {
+  recentViewed = [name].concat(recentViewed.filter(function(n) { return n !== name; })).slice(0, 5);
+  localStorage.setItem('hk-recent', JSON.stringify(recentViewed));
+}
+
+function showSearchDropdown(q) {
+  var dropdown = document.getElementById('searchDropdown');
+  if (!dropdown) return;
+  dropdownFocusIdx = -1;
+  dropdownItemNames = [];
+  var gradeColors = { S:'#3182F6', A:'#00C471', B:'#FF9500', C:'#FF6B00', D:'#FF4545' };
+  var html = '';
+
+  if (!q && recentViewed.length > 0) {
+    html += '<div class="search-drop-section">최근 본 기업</div>';
+    recentViewed.forEach(function(name) {
+      var meta = allCompanies.find(function(c) { return c.name === name; });
+      if (!meta) return;
+      dropdownItemNames.push(name);
+      var gc = gradeColors[meta.grade] || 'var(--text-tertiary)';
+      html += '<div class="search-drop-item" onclick="selectFromDropdown(\'' + name.replace(/'/g,"\\'") + '\')">' +
+        '<span class="font-mono text-xs font-bold" style="color:' + gc + ';min-width:14px;">' + escHtml(meta.grade||'—') + '</span>' +
+        '<span class="t-primary font-medium flex-1">' + escHtml(name) + '</span>' +
+        '<span class="text-xs t-tertiary">' + escHtml(meta.industry||'') + '</span>' +
+        '</div>';
+    });
+  }
+
+  if (q) {
+    var ql = q.toLowerCase();
+    var matches = allCompanies.filter(function(c) {
+      return c.name.toLowerCase().indexOf(ql) !== -1 ||
+        (c.industry||'').toLowerCase().indexOf(ql) !== -1 ||
+        (c.tech_stack||[]).some(function(t) { return t.toLowerCase().indexOf(ql) !== -1; });
+    }).slice(0, 8);
+    if (matches.length > 0) {
+      html += '<div class="search-drop-section">검색 결과</div>';
+      matches.forEach(function(c) {
+        dropdownItemNames.push(c.name);
+        var gc = gradeColors[c.grade] || 'var(--text-tertiary)';
+        var highlighted = escHtml(c.name).replace(new RegExp(ql.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'), function(m) {
+          return '<mark style="background:var(--primary-light);color:var(--primary);border-radius:2px;">' + m + '</mark>';
+        });
+        html += '<div class="search-drop-item" onclick="selectFromDropdown(\'' + c.name.replace(/'/g,"\\'") + '\')">' +
+          '<span class="font-mono text-xs font-bold" style="color:' + gc + ';min-width:14px;">' + escHtml(c.grade||'—') + '</span>' +
+          '<span class="t-primary font-medium flex-1">' + highlighted + '</span>' +
+          '<span class="text-xs t-tertiary">' + escHtml(c.industry||'') + '</span>' +
+          '</div>';
+      });
+    }
+  }
+
+  if (!html) { dropdown.classList.remove('open'); return; }
+  dropdown.innerHTML = html;
+  dropdown.classList.add('open');
+}
+
+function hideSearchDropdown() {
+  setTimeout(function() {
+    var d = document.getElementById('searchDropdown');
+    if (d) d.classList.remove('open');
+    dropdownFocusIdx = -1;
+  }, 160);
+}
+
+function selectFromDropdown(name) {
+  document.getElementById('companySearch').value = '';
+  var d = document.getElementById('searchDropdown');
+  if (d) d.classList.remove('open');
+  applyFilterAndSearch();
+  var card = document.querySelector('[data-name="' + name + '"]');
+  if (card) { card.click(); } else { selectCompany(name, null); }
+}
+
+function handleSearchKey(e) {
+  var dropdown = document.getElementById('searchDropdown');
+  var items = dropdown ? dropdown.querySelectorAll('.search-drop-item') : [];
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    dropdownFocusIdx = Math.min(dropdownFocusIdx + 1, items.length - 1);
+    items.forEach(function(el, i) { el.classList.toggle('focused', i === dropdownFocusIdx); });
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    dropdownFocusIdx = Math.max(dropdownFocusIdx - 1, -1);
+    items.forEach(function(el, i) { el.classList.toggle('focused', i === dropdownFocusIdx); });
+  } else if (e.key === 'Enter' && dropdownFocusIdx >= 0 && dropdownItemNames[dropdownFocusIdx]) {
+    e.preventDefault();
+    selectFromDropdown(dropdownItemNames[dropdownFocusIdx]);
+  } else if (e.key === 'Escape') {
+    var d = document.getElementById('searchDropdown');
+    if (d) d.classList.remove('open');
+  }
+}
+
+// Re-wire companySearch to also show dropdown
+var _searchEl = document.getElementById('companySearch');
+if (_searchEl) {
+  _searchEl.addEventListener('focus', function() { showSearchDropdown(this.value.trim().toLowerCase()); });
+  _searchEl.addEventListener('input', function() { showSearchDropdown(this.value.trim().toLowerCase()); });
+  _searchEl.addEventListener('blur', hideSearchDropdown);
+}
+
+// =======================================================
+// PATCH selectCompany to track recents + update watchlist btn
+// =======================================================
+var _origSelectCompany = selectCompany;
+selectCompany = function(name, el) {
+  var result = _origSelectCompany(name, el);
+  saveRecent(name);
+  // After async render completes, update watchlist btn
+  setTimeout(function() { updateWatchlistPanelBtn(name); }, 350);
+  if (result && typeof result.then === 'function') return result;
+};
+
+// =======================================================
+// TOAST
+// =======================================================
+function showToast(msg) {
+  var t = document.getElementById('hkToast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'hkToast';
+    t.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#191F28;color:#fff;padding:10px 20px;border-radius:100px;font-size:13px;font-weight:500;z-index:200;transition:opacity 0.3s;pointer-events:none;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,0.2);';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.style.opacity = '1';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(function() { t.style.opacity = '0'; }, 2200);
+}
+
+// =======================================================
+// URL param: auto-select ?company=카카오
+// =======================================================
+(function checkUrlParam() {
+  var params  = new URLSearchParams(window.location.search);
+  var company = params.get('company');
+  if (!company) return;
+  var tries = 0;
+  var trySelect = function() {
+    if (allCompanies.length > 0) {
+      var found = allCompanies.find(function(c) { return c.name === company; });
+      if (found) selectCompany(company, null);
+    } else if (tries++ < 20) {
+      setTimeout(trySelect, 300);
+    }
+  };
+  setTimeout(trySelect, 500);
+})();
+
 </script>
+  <!-- ═══ Compare Bar ═══ -->
+  <div id="compareBar">
+    <span class="text-sm font-semibold t-primary flex-shrink-0">비교 중:</span>
+    <div id="compareChips" class="flex gap-2 flex-wrap flex-1"></div>
+    <button onclick="openCompareModal()" class="btn-click inline-flex items-center gap-2 text-sm font-semibold text-white flex-shrink-0" style="height:38px; padding:0 18px; background:var(--primary); border-radius:10px; border:none; cursor:pointer;">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+      나란히 비교하기
+    </button>
+    <button onclick="clearCompare()" class="text-xs t-tertiary hover:t-primary transition-colors flex-shrink-0" style="background:none; border:none; cursor:pointer;">초기화</button>
+  </div>
+
+  <!-- ═══ Compare Modal ═══ -->
+  <div id="compareModal" onclick="closeCompareIfOutside(event)">
+    <div id="compareBox">
+      <div class="flex items-center justify-between mb-6">
+        <h3 class="font-bold t-primary" style="font-size:20px;">기업 비교</h3>
+        <button onclick="closeCompareModal()" class="w-8 h-8 rounded-lg flex items-center justify-center t-tertiary hover:t-secondary transition-colors" style="background:var(--bg-secondary); border:none; cursor:pointer;">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div id="compareContent">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </div>
+
+
 </body>
 </html>
