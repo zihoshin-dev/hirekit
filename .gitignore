@@ -20,3 +20,7 @@ coverage.xml
 coverage.json
 htmlcov/
 .github/workflows/
+node_modules/
+package-lock.json
+test-results/
+.DS_Store
