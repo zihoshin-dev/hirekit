@@ -17,6 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -307,6 +308,97 @@
     .grade-b { color: #FF9500; }
     .grade-c { color: #FF6B00; }
     .grade-d { color: #FF4545; }
+
+    /* ── Grade badge (3중 인코딩: 색상+모양+텍스트) ── */
+    .grade-badge-lg {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+      flex-shrink: 0;
+    }
+    .grade-badge-lg.gs { background: rgba(49,130,246,0.1); color: #3182F6; }
+    .grade-badge-lg.ga { background: rgba(0,196,113,0.1); color: #00C471; }
+    .grade-badge-lg.gb { background: rgba(64,196,255,0.1); color: #40C4FF; }
+    .grade-badge-lg.gc { background: rgba(245,158,11,0.1); color: #F59E0B; }
+    .grade-badge-lg.gd { background: rgba(239,68,68,0.1); color: #EF4444; }
+
+    /* ── Verdict badges ── */
+    .verdict-go   { background: rgba(0,196,113,0.12); color: #00C471; padding: 3px 10px; border-radius: 100px; font-size:12px; font-weight:700; }
+    .verdict-hold { background: rgba(255,149,0,0.12); color: #FF9500; padding: 3px 10px; border-radius: 100px; font-size:12px; font-weight:700; }
+    .verdict-pass { background: rgba(255,69,69,0.1); color: #FF4545; padding: 3px 10px; border-radius: 100px; font-size:12px; font-weight:700; }
+
+    /* ── Key stats row (Layer 1) ── */
+    .key-stat-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      text-align: center;
+      min-width: 0;
+    }
+    .key-stat-value { font-size: 17px; font-weight: 700; font-family: 'JetBrains Mono', monospace; color: var(--text-primary); line-height: 1.2; }
+    .key-stat-label { font-size: 10px; color: var(--text-tertiary); margin-top: 2px; white-space: nowrap; }
+
+    /* ── Layer accordion ── */
+    .layer-accordion-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 13px 16px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      transition: background 0.15s;
+      border-radius: 10px;
+    }
+    .layer-accordion-btn:hover { background: var(--bg-secondary); }
+    .layer-accordion-content {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+    .layer-accordion-content.open { max-height: 4000px; }
+    .layer-accordion-chevron { transition: transform 0.2s ease; flex-shrink: 0; }
+    .layer-accordion-btn.open .layer-accordion-chevron { transform: rotate(180deg); }
+
+    /* ── Tech tag cloud ── */
+    .tech-tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      background: var(--bg-secondary);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+      transition: all 0.12s;
+    }
+    .tech-tag:hover { border-color: var(--primary); color: var(--primary); }
+    .tech-tag.ai { background: rgba(49,130,246,0.08); color: var(--primary); border-color: rgba(49,130,246,0.2); }
+
+    /* ── ECharts container ── */
+    .echarts-radar-wrap {
+      width: 100%;
+      min-height: 280px;
+    }
+    @media (max-width: 480px) {
+      .echarts-radar-wrap { min-height: 240px; }
+    }
 
     /* ── Scrollbar thin ── */
     .scroll-thin { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
@@ -966,6 +1058,19 @@ themeToggle.addEventListener('click', () => {
   const isDark = html.classList.contains('dark');
   applyTheme(!isDark);
   localStorage.setItem('hk-theme', isDark ? 'light' : 'dark');
+  // Re-render open radar charts with new theme
+  if (typeof _radarChartInstance !== 'undefined' && _radarChartInstance) {
+    const dpEl = document.getElementById('dpRadarChart');
+    if (dpEl && dpEl._echartsSeriesData) {
+      renderEChartsRadar('dpRadarChart', dpEl._echartsSeriesData, !isDark);
+    }
+  }
+  if (typeof _compareChartInstance !== 'undefined' && _compareChartInstance) {
+    const cmpEl = document.getElementById('compareRadarChart');
+    if (cmpEl && cmpEl._echartsSeriesData) {
+      renderEChartsRadar('compareRadarChart', cmpEl._echartsSeriesData, !isDark);
+    }
+  }
 });
 
 // ═══════════════════════════════════════════════════════
@@ -1281,7 +1386,8 @@ function buildPanelShell(name, loading) {
           <div class="flex flex-wrap items-center gap-2 mb-1">
             <h2 id="dpCompanyName" class="font-bold t-primary leading-tight" style="font-size:20px;">${escHtml(name)}</h2>
             <span id="dpCompanyNameEng" class="text-sm t-tertiary"></span>
-            <span id="dpGradeBadge" class="font-mono text-xs font-bold px-2.5 py-0.5 rounded-lg flex-shrink-0"></span>
+            <span id="dpGradeBadge" class="grade-badge-lg"></span>
+            <span id="dpVerdictBadge"></span>
           </div>
           <div class="flex items-center gap-2 flex-wrap mt-0.5">
             <div id="dpMeta" class="text-xs t-tertiary">${loading ? '데이터 불러오는 중...' : ''}</div>
@@ -1290,10 +1396,61 @@ function buildPanelShell(name, loading) {
               AI 전략
             </span>
           </div>
+          <!-- Layer 1: Key stats row -->
+          <div id="dpKeyStatsRow" class="mt-3 grid grid-cols-3 gap-2" style="display:none!important;">
+            <div class="key-stat-card"><div id="dpStat1Val" class="key-stat-value">—</div><div id="dpStat1Label" class="key-stat-label">직원수</div></div>
+            <div class="key-stat-card"><div id="dpStat2Val" class="key-stat-value">—</div><div id="dpStat2Label" class="key-stat-label">평균연봉</div></div>
+            <div class="key-stat-card"><div id="dpStat3Val" class="key-stat-value">—</div><div id="dpStat3Label" class="key-stat-label">기술스택</div></div>
+          </div>
+          <!-- Layer 1: one-line description -->
+          <div id="dpOneLineDesc" class="mt-2 text-xs t-secondary leading-relaxed" style="display:none;"></div>
         </div>
         <div class="flex-shrink-0 text-right">
           <div id="dpScoreNum" class="font-mono font-bold" style="color:var(--primary); font-size:32px; line-height:1;">${loading ? '—' : ''}</div>
           <div class="text-xs t-tertiary mt-0.5">/ 100</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="px-5 py-4 surface-secondary" style="border-bottom:1px solid var(--border);">
+      <div id="dpWarRoomWarning" class="rounded-xl px-4 py-3 text-sm font-medium mb-3" style="display:none; background:rgba(245,158,11,0.12); color:#B45309;"></div>
+      <div class="grid gap-3 md:grid-cols-3 mb-3">
+        <div class="rounded-2xl p-4 surface" style="border:1px solid var(--border);">
+          <div class="text-xs t-tertiary font-semibold uppercase tracking-wide mb-1">판정</div>
+          <div id="dpHeroVerdict" class="font-mono font-bold" style="font-size:22px; color:var(--primary);">—</div>
+          <div id="dpHeroVerdictNote" class="text-sm t-secondary mt-2"></div>
+        </div>
+        <div class="rounded-2xl p-4 surface" style="border:1px solid var(--border);">
+          <div class="text-xs t-tertiary font-semibold uppercase tracking-wide mb-1">신뢰도</div>
+          <div id="dpHeroConfidence" class="font-mono font-bold" style="font-size:22px; color:var(--text-primary);">—</div>
+          <div id="dpHeroEvidenceMeta" class="text-sm t-secondary mt-2"></div>
+        </div>
+        <div class="rounded-2xl p-4 surface" style="border:1px solid var(--border);">
+          <div class="text-xs t-tertiary font-semibold uppercase tracking-wide mb-1">바로 할 일</div>
+          <ul id="dpHeroActions" class="space-y-1.5 text-sm t-secondary"></ul>
+        </div>
+      </div>
+      <div class="grid gap-3 lg:grid-cols-[1.2fr_0.8fr]">
+        <div class="rounded-2xl p-4 surface" style="border:1px solid var(--border);">
+          <div class="text-xs t-tertiary font-semibold uppercase tracking-wide mb-2">평가 레이어</div>
+          <div class="grid gap-2 sm:grid-cols-3">
+            <div class="rounded-xl p-3 surface-secondary">
+              <div class="text-xs t-tertiary mb-1">Scan</div>
+              <div id="dpScanSummary" class="text-sm t-secondary"></div>
+            </div>
+            <div class="rounded-xl p-3 surface-secondary">
+              <div class="text-xs t-tertiary mb-1">Evaluate</div>
+              <div id="dpEvaluateSummary" class="text-sm t-secondary"></div>
+            </div>
+            <div class="rounded-xl p-3 surface-secondary">
+              <div class="text-xs t-tertiary mb-1">Deep Dive</div>
+              <div id="dpDeepDiveSummary" class="text-sm t-secondary"></div>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-2xl p-4 surface" style="border:1px solid var(--border);">
+          <div class="text-xs t-tertiary font-semibold uppercase tracking-wide mb-2">근거 스냅샷</div>
+          <div id="dpEvidenceSummary" class="space-y-2 text-sm"></div>
         </div>
       </div>
     </div>
@@ -1384,10 +1541,55 @@ function renderDetailPanel(data, name, metaEntry) {
   document.getElementById('dpScoreNum').textContent       = total || '—';
   document.getElementById('dpScoreNum').style.color       = getGradeColor(grade);
 
+  // Grade badge with 3-encoding (색상+모양+텍스트)
   const badgeEl = document.getElementById('dpGradeBadge');
-  badgeEl.textContent           = 'Grade ' + grade;
-  badgeEl.style.backgroundColor = getGradeBg(grade);
-  badgeEl.style.color           = getGradeColor(grade);
+  const gradeSymbol = { S: '◆', A: '●', B: '▲', C: '■', D: '✕' };
+  const gradeClass  = { S: 'gs', A: 'ga', B: 'gb', C: 'gc', D: 'gd' };
+  if (badgeEl) {
+    badgeEl.className = 'grade-badge-lg ' + (gradeClass[grade] || 'gs');
+    badgeEl.textContent = (gradeSymbol[grade] || '') + ' ' + grade;
+  }
+
+  // Verdict badge in header
+  const verdictEl2 = document.getElementById('dpVerdictBadge');
+  if (verdictEl2 && total) {
+    const v = total >= 65 ? 'Go' : total >= 40 ? 'Hold' : 'Pass';
+    const vClass = v === 'Go' ? 'verdict-go' : v === 'Hold' ? 'verdict-hold' : 'verdict-pass';
+    verdictEl2.innerHTML = `<span class="${vClass}">${v}</span>`;
+  }
+
+  // Layer 1: Key stats row
+  const statsRow = document.getElementById('dpKeyStatsRow');
+  if (statsRow) {
+    statsRow.style.removeProperty('display');
+    statsRow.style.display = 'grid';
+    // stat1: employee count
+    const empCount = meta.employee_count || meta.pension_members || null;
+    const empStr = empCount ? Number(String(empCount).replace(/,/g,'')).toLocaleString() + '명' : '—';
+    document.getElementById('dpStat1Val').textContent = empStr;
+    document.getElementById('dpStat1Label').textContent = '직원수';
+    // stat2: avg salary
+    const fd = meta.financial_deep || {};
+    const salStr = fd.employee_avg_salary ? formatAmount(fd.employee_avg_salary) : (meta.key_metrics?.avg_salary || '—');
+    document.getElementById('dpStat2Val').textContent = salStr;
+    document.getElementById('dpStat2Label').textContent = '평균연봉';
+    // stat3: tech stack count
+    const techCount = (meta.tech_stack || []).length;
+    document.getElementById('dpStat3Val').textContent = techCount > 0 ? techCount + '개' : '—';
+    document.getElementById('dpStat3Label').textContent = '기술스택';
+  }
+
+  // Layer 1: one-line description
+  const descEl = document.getElementById('dpOneLineDesc');
+  if (descEl) {
+    const desc = meta.description || meta.core_business || '';
+    if (desc) {
+      descEl.style.display = 'block';
+      descEl.textContent = desc.length > 120 ? desc.slice(0, 120) + '…' : desc;
+    } else {
+      descEl.style.display = 'none';
+    }
+  }
 
   renderOverview(s1, meta);
   renderBusinessAnalysis(meta);
@@ -1396,10 +1598,79 @@ function renderDetailPanel(data, name, metaEntry) {
   renderOrgCulture(meta);
   renderHiringGuide(meta);
   renderNews(s1);
-  renderScorecard(sc, name);
+  renderScorecard(sc, name, meta);
+  renderWarRoomSummary(sc, data, meta);
   // AI 전략 뱃지 표시/숨김
   const aiHeaderBadge = document.getElementById('dpAiBadge');
   if (aiHeaderBadge) aiHeaderBadge.style.display = meta.ai_strategy ? 'inline-flex' : 'none';
+}
+
+function renderWarRoomSummary(sc, data, meta) {
+  const total = sc?.total ? Math.round(sc.total) : 0;
+  const grade = sc?.grade || getGrade(total);
+  const verdict = total >= 65 ? 'Go' : total >= 40 ? 'Hold' : 'Pass';
+  const dims = Array.isArray(sc?.dimensions) ? sc.dimensions : [];
+  const trustFlags = Array.isArray(meta?._meta?.trust_flags) ? meta._meta.trust_flags : [];
+  const lowConfidence = dims.some(d => (d.confidence || '').toLowerCase() === 'low');
+  const staleSource = Array.isArray(data?.sources) && data.sources.some(s => Boolean(s.is_stale));
+  const weakCoverage = trustFlags.length > 0 && trustFlags.length < 4 || !meta?.ceo || !meta?.core_business || !meta?.key_metrics || !meta?.tech_stack;
+  const confidence = lowConfidence ? 'low' : (staleSource || weakCoverage) ? 'medium' : 'high';
+  const sourceCount = Array.isArray(data?.sources) ? data.sources.length : 0;
+  const verdictEl = document.getElementById('dpHeroVerdict');
+  const verdictNoteEl = document.getElementById('dpHeroVerdictNote');
+  const confidenceEl = document.getElementById('dpHeroConfidence');
+  const evidenceMetaEl = document.getElementById('dpHeroEvidenceMeta');
+  const warningEl = document.getElementById('dpWarRoomWarning');
+  const actionsEl = document.getElementById('dpHeroActions');
+  const evidenceEl = document.getElementById('dpEvidenceSummary');
+  const scanEl = document.getElementById('dpScanSummary');
+  const evaluateEl = document.getElementById('dpEvaluateSummary');
+  const deepDiveEl = document.getElementById('dpDeepDiveSummary');
+
+  if (verdictEl) {
+    verdictEl.textContent = verdict;
+    verdictEl.style.color = verdict === 'Go' ? 'var(--success)' : verdict === 'Hold' ? 'var(--warning)' : 'var(--danger)';
+  }
+  if (verdictNoteEl) {
+    verdictNoteEl.textContent = verdict === 'Go'
+      ? '강한 신호가 있지만 여전히 권고용 판단이에요.'
+      : verdict === 'Hold'
+        ? '추가 근거를 확인한 뒤 결정하는 편이 안전해요.'
+        : '현재 근거 기준으로는 우선순위를 낮추는 편이 좋아요.';
+  }
+  if (confidenceEl) confidenceEl.textContent = confidence.toUpperCase();
+  if (evidenceMetaEl) evidenceMetaEl.textContent = `${sourceCount}개 소스 · ${trustFlags.length || 0}개 검증 신호 · Grade ${grade}`;
+  if (warningEl) {
+    if (lowConfidence || staleSource || weakCoverage) {
+      warningEl.style.display = 'block';
+      warningEl.textContent = lowConfidence
+        ? '일부 차원의 신뢰도가 낮아요. 지원 전 추가 근거를 확인하세요.'
+        : staleSource
+          ? '일부 근거가 오래되었어요. 최신 채용/공시 정보로 재확인하세요.'
+          : '핵심 검증 신호가 일부 비어 있어요. 중요한 정보는 원문 근거로 다시 확인하세요.';
+    } else {
+      warningEl.style.display = 'none';
+      warningEl.textContent = '';
+    }
+  }
+  if (actionsEl) {
+    const actions = verdict === 'Go'
+      ? ['지원 근거 숫자 3개 정리', '면접용 강점/리스크 문장화', 'JD와 이력서 연결 문장 준비']
+      : verdict === 'Hold'
+        ? ['최신 JD와 채용 포지션 재확인', '부족한 근거 2개 추가 수집', '지원 전 확인 질문 정리']
+        : ['다른 타깃과 비교', '리스크 감수 이유 점검', '필요시 추가 데이터 확보 후 재평가'];
+    actionsEl.innerHTML = actions.map(item => `<li>• ${escHtml(item)}</li>`).join('');
+  }
+  if (scanEl) scanEl.textContent = `${grade} 등급 · ${sourceCount}개 소스 기준 빠른 판단`; 
+  if (evaluateEl) evaluateEl.textContent = `${dims.length}개 차원에서 신뢰도와 근거를 함께 검토`; 
+  if (deepDiveEl) deepDiveEl.textContent = '탭별 상세 정보와 원문 근거를 내려가며 확인';
+  if (evidenceEl) {
+    const evidenceItems = (Array.isArray(data?.sources) ? data.sources : []).slice(0, 4).map(source => {
+      const stale = source.is_stale ? ', stale' : '';
+      return `<div class="rounded-xl p-3 surface-secondary"><div class="text-xs t-tertiary mb-1">${escHtml(source.section || 'section')}</div><div class="font-medium t-primary">${escHtml(source.name || 'source')}</div><div class="text-xs t-secondary mt-1">${escHtml((source.trust_label || 'unknown') + stale)}</div></div>`;
+    });
+    evidenceEl.innerHTML = evidenceItems.length ? evidenceItems.join('') : '<div class="text-sm t-secondary">표시할 공개 근거 스냅샷이 아직 부족해요.</div>';
+  }
 }
 
 function buildMeta(s1, data) {
@@ -1419,34 +1690,200 @@ function buildMeta(s1, data) {
 }
 
 // ═══════════════════════════════════════════════════════
-// Scorecard tab
+// ECharts radar chart
 // ═══════════════════════════════════════════════════════
-function renderScorecard(sc, name) {
-  const el = document.getElementById('dpScorecardContent');
-  if (!sc || !sc.total) { el.innerHTML = emptyState('스코어카드 데이터가 없어요.'); return; }
+let _radarChartInstance = null;
+let _compareChartInstance = null;
 
-  const total = Math.round(sc.total);
-  const grade = sc.grade || getGrade(total);
-  const color = getGradeColor(grade);
-  const dims  = sc.dimensions || [];
+function renderEChartsRadar(containerId, seriesData, isDark) {
+  const container = document.getElementById(containerId);
+  if (!container) return null;
+  // Destroy old instance if present
+  if (containerId === 'dpRadarChart' && _radarChartInstance) {
+    _radarChartInstance.dispose();
+    _radarChartInstance = null;
+  }
+  if (containerId === 'compareRadarChart' && _compareChartInstance) {
+    _compareChartInstance.dispose();
+    _compareChartInstance = null;
+  }
 
-  const dimLabel = {
-    job_fit: 'Job Fit',
-    career_leverage: '커리어 레버리지',
-    growth: '성장 잠재력',
-    compensation: '보상 · 복지',
-    culture_fit: '문화 적합성',
+  const theme = (isDark !== undefined ? isDark : document.documentElement.classList.contains('dark')) ? 'dark' : null;
+  const chart = theme ? echarts.init(container, 'dark') : echarts.init(container);
+
+  const textColor = isDark ? '#B0B8C1' : '#8B95A1';
+  const splitAreaColors = isDark
+    ? ['rgba(49,130,246,0.03)', 'rgba(49,130,246,0.07)']
+    : ['rgba(49,130,246,0.02)', 'rgba(49,130,246,0.05)'];
+
+  const indicator = [
+    { name: '직무 적합도', max: 5 },
+    { name: '성장성', max: 5 },
+    { name: '보상', max: 5 },
+    { name: '문화 적합도', max: 5 },
+    { name: '커리어 레버리지', max: 5 },
+  ];
+
+  const seriesArr = seriesData.map((sd, idx) => {
+    const colors = ['#3182F6', '#00C471', '#FF9500'];
+    const c = colors[idx % colors.length];
+    return {
+      value: sd.values,
+      name: sd.name,
+      lineStyle: { color: c, width: 2 },
+      areaStyle: { color: c, opacity: 0.15 },
+      itemStyle: { color: c },
+      symbol: 'circle',
+      symbolSize: 6,
+    };
+  });
+
+  const option = {
+    backgroundColor: 'transparent',
+    tooltip: {
+      trigger: 'item',
+      formatter: function(params) {
+        const dimNames = ['직무 적합도', '성장성', '보상', '문화 적합도', '커리어 레버리지'];
+        const rows = params.value.map((v, i) => `${dimNames[i]}: <b>${v.toFixed(1)}</b>`).join('<br/>');
+        return `<div style="font-family:Pretendard,sans-serif;font-size:13px;"><b>${params.name}</b><br/>${rows}</div>`;
+      },
+    },
+    legend: seriesData.length > 1 ? {
+      data: seriesData.map(sd => sd.name),
+      bottom: 0,
+      textStyle: { color: textColor, fontSize: 12 },
+    } : undefined,
+    radar: {
+      indicator,
+      shape: 'circle',
+      splitNumber: 4,
+      axisName: { color: textColor, fontSize: 11, fontFamily: 'Pretendard, sans-serif' },
+      splitArea: { areaStyle: { color: splitAreaColors } },
+      splitLine: { lineStyle: { color: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.08)' } },
+      axisLine: { lineStyle: { color: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.08)' } },
+    },
+    series: [{
+      type: 'radar',
+      data: seriesArr,
+      emphasis: { lineStyle: { width: 3 } },
+    }],
   };
 
-  const dimHtml = dims.map(d => {
+  chart.setOption(option);
+
+  // Store series data on container for dark-mode re-render
+  container._echartsSeriesData = seriesData;
+
+  // Resize observer
+  if (window.ResizeObserver) {
+    const ro = new ResizeObserver(() => chart.resize());
+    ro.observe(container);
+  }
+
+  if (containerId === 'dpRadarChart') _radarChartInstance = chart;
+  if (containerId === 'compareRadarChart') _compareChartInstance = chart;
+  return chart;
+}
+
+function getScorecardDimValues(sc) {
+  // meta.json scorecard: { job_fit:{score,evidence}, growth:{score,evidence}, ... }
+  // company json scorecard: { dimensions:[{name,score,evidence},...] }
+  const dimOrder = ['job_fit', 'growth', 'compensation', 'culture_fit', 'career_leverage'];
+  // Try dimensions array first
+  const dims = sc.dimensions || [];
+  if (dims.length >= 5) {
+    return dimOrder.map(key => {
+      const d = dims.find(d => d.name === key);
+      return d ? d.score : 0;
+    });
+  }
+  // Fallback: flat scorecard keys
+  return dimOrder.map(key => {
+    const entry = sc[key];
+    if (!entry) return 0;
+    return typeof entry === 'object' ? (entry.score || 0) : (typeof entry === 'number' ? entry : 0);
+  });
+}
+
+function getScorecardDimDetails(sc) {
+  const dimOrder = ['job_fit', 'growth', 'compensation', 'culture_fit', 'career_leverage'];
+  const dimLabel = { job_fit: '직무 적합도', growth: '성장성', compensation: '보상', culture_fit: '문화 적합도', career_leverage: '커리어 레버리지' };
+  const dims = sc.dimensions || [];
+  return dimOrder.map(key => {
+    let score = 0, evidence = '';
+    if (dims.length) {
+      const d = dims.find(d => d.name === key);
+      if (d) { score = d.score; evidence = d.evidence || ''; }
+    } else {
+      const entry = sc[key];
+      if (entry && typeof entry === 'object') { score = entry.score || 0; evidence = entry.evidence || ''; }
+      else if (typeof entry === 'number') { score = entry; }
+    }
+    return { key, label: dimLabel[key], score, evidence };
+  });
+}
+
+// ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════
+// Layer 3 accordion helpers
+// ═══════════════════════════════════════════════════════
+function makeAccordion(title, bodyHtml, id) {
+  return `<div class="rounded-xl overflow-hidden" style="border:1px solid var(--border);">
+    <button class="layer-accordion-btn w-full flex items-center justify-between px-4 py-3 text-sm font-semibold t-primary"
+      onclick="toggleLayerAccordion('la-${id}', this)" aria-expanded="false">
+      <span>${escHtml(title)}</span>
+      <svg class="layer-accordion-chevron" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+    </button>
+    <div class="layer-accordion-content" id="la-${id}">
+      <div class="px-4 pb-4 space-y-1.5">${bodyHtml}</div>
+    </div>
+  </div>`;
+}
+
+function toggleLayerAccordion(id, btn) {
+  const content = document.getElementById(id);
+  if (!content) return;
+  const isOpen = content.classList.contains('open');
+  content.classList.toggle('open', !isOpen);
+  if (btn) {
+    btn.classList.toggle('open', !isOpen);
+    btn.setAttribute('aria-expanded', String(!isOpen));
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// Scorecard tab (Layer 2 + Layer 3)
+// ═══════════════════════════════════════════════════════
+function renderScorecard(sc, name, meta) {
+  const el = document.getElementById('dpScorecardContent');
+  if (!sc || (!sc.total && !sc.job_fit && !(sc.dimensions && sc.dimensions.length))) {
+    el.innerHTML = emptyState('스코어카드 데이터가 없어요.');
+    return;
+  }
+
+  // Derive total
+  let total = 0;
+  if (sc.total) {
+    total = Math.round(sc.total);
+  } else {
+    const vals = getScorecardDimValues(sc);
+    total = Math.round((vals.reduce((a, b) => a + b, 0) / (vals.length * 5)) * 100);
+  }
+  const grade = sc.grade || getGrade(total);
+  const color = getGradeColor(grade);
+  const dimDetails = getScorecardDimDetails(sc);
+  const dimValues = getScorecardDimValues(sc);
+  const isDark = document.documentElement.classList.contains('dark');
+
+  // Dim bars HTML
+  const dimHtml = dimDetails.map(d => {
     const score100 = Math.round((d.score / 5) * 100);
-    const dGrade  = getGrade(score100);
-    const dColor  = getGradeColor(dGrade);
-    const label   = dimLabel[d.name] || d.label || d.name;
+    const dGrade = getGrade(score100);
+    const dColor = getGradeColor(dGrade);
     return `
       <div>
         <div class="flex items-center justify-between mb-1.5">
-          <span class="text-sm t-secondary">${label}</span>
+          <span class="text-sm t-secondary">${escHtml(d.label)}</span>
           <div class="flex items-center gap-1.5">
             <span class="text-sm font-semibold t-primary">${score100}</span>
             <span class="font-mono text-xs font-bold px-1.5 py-0.5 rounded" style="background:${getGradeBg(dGrade)}; color:${dColor};">${dGrade}</span>
@@ -1456,43 +1893,160 @@ function renderScorecard(sc, name) {
           <div class="h-2 rounded-full score-bar" style="width:0%; background:${dColor};" data-target="${score100}"></div>
         </div>
         ${d.evidence ? `<p class="text-xs t-tertiary mt-1">${escHtml(d.evidence)}</p>` : ''}
-      </div>
-    `;
+      </div>`;
   }).join('');
 
+  // Tech stack tag cloud
+  const techStack = (meta && meta.tech_stack) || [];
+  const techTagsHtml = techStack.length ? `
+    <div class="mt-4">
+      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">기술 스택</div>
+      <div class="flex flex-wrap gap-1.5">
+        ${techStack.map(t => {
+          const isAi = /ai|ml|llm|gpt|bert|tensorflow|pytorch|cuda|gpu|deep/i.test(t);
+          return `<span class="tech-tag${isAi ? ' ai' : ''}">${escHtml(t)}</span>`;
+        }).join('')}
+      </div>
+    </div>` : '';
+
   el.innerHTML = `
-    <div class="flex items-center gap-5 p-5 rounded-2xl mb-5" style="background:var(--bg-secondary);">
+    <!-- Score summary -->
+    <div class="flex items-center gap-5 p-4 rounded-2xl mb-4" style="background:var(--bg-secondary);">
       <div class="relative flex-shrink-0">
-        <svg width="80" height="80" viewBox="0 0 80 80">
+        <svg width="76" height="76" viewBox="0 0 80 80">
           <circle cx="40" cy="40" r="34" fill="none" stroke="var(--bg-tertiary)" stroke-width="7"/>
           <circle id="scoreRing" cx="40" cy="40" r="34" fill="none" stroke="${color}" stroke-width="7"
             stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="213.6"
             transform="rotate(-90 40 40)" style="transition:stroke-dashoffset 1.1s cubic-bezier(0.4,0,0.2,1);"/>
         </svg>
         <div class="absolute inset-0 flex items-center justify-center">
-          <span id="scoreAnimNum" class="font-bold font-mono" style="font-size:20px; color:${color};">0</span>
+          <span id="scoreAnimNum" class="font-bold font-mono" style="font-size:19px; color:${color};">0</span>
         </div>
       </div>
       <div>
         <div class="text-xs t-tertiary mb-1">종합 점수</div>
         <div class="flex items-center gap-2 mb-1">
-          <span class="font-bold t-primary font-mono" style="font-size:28px; line-height:1;">${total}</span>
+          <span class="font-bold t-primary font-mono" style="font-size:26px; line-height:1;">${total}</span>
           <span class="text-sm t-tertiary">/ 100</span>
-          <span class="font-mono text-sm font-bold px-2 py-0.5 rounded-lg" style="background:${getGradeBg(grade)}; color:${color};">Grade ${grade}</span>
+          <span class="grade-badge-lg ${({'S':'gs','A':'ga','B':'gb','C':'gc','D':'gd'})[grade] || 'gs'}">${({'S':'◆','A':'●','B':'▲','C':'■','D':'✕'})[grade] || ''} ${grade}</span>
         </div>
         <p class="text-sm t-secondary">${getScorecardSummary(grade, name)}</p>
       </div>
     </div>
-    ${dims.length > 0 ? `
-      <div class="mb-5">
-        <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">차원 분석</div>
-        <div class="flex justify-center">
-          <canvas id="radarChart" width="240" height="240" style="display:block;"></canvas>
-        </div>
-      </div>
-      <div class="space-y-4">${dimHtml}</div>
-    ` : ''}
+
+    <!-- Layer 2: Radar chart -->
+    <div class="mb-4">
+      <div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">5차원 레이더</div>
+      <div id="dpRadarChart" class="echarts-radar-wrap" style="height:280px;"></div>
+    </div>
+
+    ${techTagsHtml}
+
+    <!-- Layer 2: Dimension detail bars -->
+    <div class="mt-4 space-y-4">
+      <div class="text-xs t-tertiary mb-1 font-semibold uppercase tracking-wide">차원 분석</div>
+      ${dimHtml}
+    </div>
+
+    <!-- Layer 3: Deep-dive accordions -->
+    <div class="mt-6 space-y-2" id="dpDeepDiveAccordions"></div>
   `;
+
+  // Build Layer 3 deep-dive
+  (function buildDeepDive() {
+    const el3 = document.getElementById('dpDeepDiveAccordions');
+    if (!el3) return;
+    const s1 = (companyData && companyData.sections && companyData.sections['1']) || {};
+    const sections = (companyData && companyData.sections) || {};
+
+    // ── Section: Business Details ──────────────────────────
+    let bizHtml = '';
+    const fields = [
+      ['사업 영역', meta.core_business || s1.business_area || s1.main_business],
+      ['글로벌 진출', meta.global_expansion || s1.global_expansion],
+      ['AI 전략', meta.ai_strategy],
+      ['주요 서비스', meta.key_services || s1.key_products],
+      ['비전', meta.vision],
+    ];
+    fields.forEach(([label, val]) => {
+      if (!val) return;
+      const text = Array.isArray(val) ? val.join(', ') : String(val);
+      bizHtml += `<div class="flex gap-2 text-xs"><span class="t-tertiary flex-shrink-0 w-20">${escHtml(label)}</span><span class="t-primary">${escHtml(text)}</span></div>`;
+    });
+    if (bizHtml) el3.innerHTML += makeAccordion('사업 상세', bizHtml, 'biz');
+
+    // ── Section: Financials ───────────────────────────────
+    const fin = meta.financial_deep || {};
+    const finRows = [
+      ['매출', fin.revenue],
+      ['영업이익', fin.operating_profit],
+      ['순이익', fin.net_income],
+      ['평균 연봉', fin.employee_avg_salary ? fin.employee_avg_salary + '만원' : null],
+      ['직원 수', meta.employee_count ? Number(meta.employee_count).toLocaleString() + '명' : null],
+      ['설립연도', meta.founded_year || s1.founded_year],
+    ];
+    let finHtml = '';
+    finRows.forEach(([label, val]) => {
+      if (!val) return;
+      finHtml += `<div class="flex gap-2 text-xs"><span class="t-tertiary flex-shrink-0 w-24">${escHtml(label)}</span><span class="t-primary font-medium">${escHtml(String(val))}</span></div>`;
+    });
+    // financials array from sections
+    const finArr = s1.financials || [];
+    if (finArr.length) {
+      finHtml += `<div class="mt-2 text-xs t-tertiary font-semibold">재무 추이</div>`;
+      finArr.slice(0, 5).forEach(f => {
+        const year = f.year || f.fiscal_year || '';
+        const rev  = f.revenue || f.매출액 || '';
+        const op   = f.operating_profit || f.영업이익 || '';
+        finHtml += `<div class="flex gap-3 text-xs"><span class="t-tertiary w-14">${escHtml(String(year))}</span><span class="t-secondary">매출 ${escHtml(String(rev))}</span><span class="t-tertiary">영업이익 ${escHtml(String(op))}</span></div>`;
+      });
+    }
+    if (finHtml) el3.innerHTML += makeAccordion('재무 데이터', finHtml, 'fin');
+
+    // ── Section: Full News ────────────────────────────────
+    const allNews = [].concat(s1.recent_news || [], s1.google_news || []).filter(Boolean);
+    let newsHtml = '';
+    allNews.slice(0, 20).forEach(n => {
+      const title = n.title || n.headline || String(n);
+      const date  = n.date || n.published_date || '';
+      const url   = n.url || n.link || '';
+      const src   = n.source || '';
+      newsHtml += `<div class="py-1.5" style="border-bottom:1px solid var(--border);">` +
+        (url
+          ? `<a href="${escHtml(url)}" target="_blank" rel="noopener" class="text-xs font-medium t-primary hover:underline">${escHtml(title)}</a>`
+          : `<div class="text-xs font-medium t-primary">${escHtml(title)}</div>`) +
+        `<div class="text-xs t-tertiary mt-0.5">${escHtml(src)}${src && date ? ' · ' : ''}${escHtml(date)}</div>` +
+        `</div>`;
+    });
+    if (newsHtml) el3.innerHTML += makeAccordion(`전체 뉴스 (${allNews.length}건)`, newsHtml, 'news');
+
+    // ── Section: Data Sources ─────────────────────────────
+    const sources = meta.data_sources || meta.sources || s1.data_sources || [];
+    const trustMap = { high: '높음', medium: '보통', low: '낮음' };
+    const trustColor = { high: '#00C471', medium: '#FF9500', low: '#FF4545' };
+    let srcHtml = '';
+    if (Array.isArray(sources) && sources.length) {
+      sources.forEach(s => {
+        const label = typeof s === 'string' ? s : (s.name || s.source || String(s));
+        const trust = typeof s === 'object' ? (s.trust || s.reliability || '') : '';
+        const trustLabel = trustMap[trust] || trust;
+        const tc = trustColor[trust] || 'var(--text-tertiary)';
+        srcHtml += `<div class="flex items-center justify-between text-xs py-1"><span class="t-secondary">${escHtml(label)}</span>${trustLabel ? `<span class="font-medium" style="color:${tc};">${escHtml(trustLabel)}</span>` : ''}</div>`;
+      });
+    } else {
+      // fallback: list known source types
+      const defaultSrcs = [
+        ['공개 공시 (DART)', 'high'],
+        ['뉴스 기사', 'medium'],
+        ['LinkedIn/잡플래닛', 'medium'],
+        ['회사 공식 홈페이지', 'high'],
+      ];
+      defaultSrcs.forEach(([label, trust]) => {
+        srcHtml += `<div class="flex items-center justify-between text-xs py-1"><span class="t-secondary">${label}</span><span class="font-medium" style="color:${trustColor[trust]};">${trustMap[trust]}</span></div>`;
+      });
+    }
+    if (srcHtml) el3.innerHTML += makeAccordion('데이터 출처', srcHtml, 'src');
+  })();
 
   // Animate ring
   setTimeout(() => {
@@ -1517,105 +2071,13 @@ function renderScorecard(sc, name) {
     });
   }, 160);
 
-  // Draw radar chart
-  if (dims.length > 0) {
-    setTimeout(() => {
-      const dimLabel = {
-        job_fit: 'Job Fit',
-        career_leverage: '커리어',
-        growth: '성장',
-        compensation: '보상',
-        culture_fit: '문화',
-      };
-      const radarDims = dims.map(d => ({
-        label: dimLabel[d.name] || d.label || d.name,
-        score: d.score,
-      }));
-      drawRadarChart('radarChart', radarDims);
-    }, 200);
-  }
-}
-
-function drawRadarChart(canvasId, dimensions) {
-  const canvas = document.getElementById(canvasId);
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d');
-  const cx = 120, cy = 120, r = 90;
-  const n = dimensions.length;
-  if (n < 3) return;
-
-  ctx.clearRect(0, 0, 240, 240);
-
-  // 배경 격자 (3단계)
-  [0.33, 0.66, 1.0].forEach(scale => {
-    ctx.beginPath();
-    for (let i = 0; i <= n; i++) {
-      const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
-      const x = cx + r * scale * Math.cos(angle);
-      const y = cy + r * scale * Math.sin(angle);
-      i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
-    }
-    ctx.closePath();
-    ctx.strokeStyle = '#E4E4E7';
-    ctx.lineWidth = 1;
-    ctx.stroke();
-  });
-
-  // 축 선
-  for (let i = 0; i < n; i++) {
-    const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
-    ctx.beginPath();
-    ctx.moveTo(cx, cy);
-    ctx.lineTo(cx + r * Math.cos(angle), cy + r * Math.sin(angle));
-    ctx.strokeStyle = '#E4E4E7';
-    ctx.lineWidth = 1;
-    ctx.stroke();
-  }
-
-  // 데이터 영역
-  ctx.beginPath();
-  dimensions.forEach((dim, i) => {
-    const score = Math.min(Math.max(dim.score / 5, 0), 1);
-    const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
-    const x = cx + r * score * Math.cos(angle);
-    const y = cy + r * score * Math.sin(angle);
-    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
-  });
-  ctx.closePath();
-  ctx.fillStyle = 'rgba(49, 130, 246, 0.15)';
-  ctx.fill();
-  ctx.strokeStyle = '#3182F6';
-  ctx.lineWidth = 2;
-  ctx.stroke();
-
-  // 데이터 점
-  dimensions.forEach((dim, i) => {
-    const score = Math.min(Math.max(dim.score / 5, 0), 1);
-    const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
-    const x = cx + r * score * Math.cos(angle);
-    const y = cy + r * score * Math.sin(angle);
-    ctx.beginPath();
-    ctx.arc(x, y, 3.5, 0, Math.PI * 2);
-    ctx.fillStyle = '#3182F6';
-    ctx.fill();
-  });
-
-  // 축 라벨
-  ctx.font = '11px Pretendard, -apple-system, sans-serif';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  dimensions.forEach((dim, i) => {
-    const angle = (Math.PI * 2 * i / n) - Math.PI / 2;
-    const labelR = r + 18;
-    const lx = cx + labelR * Math.cos(angle);
-    const ly = cy + labelR * Math.sin(angle);
-    ctx.fillStyle = '#8B95A1';
-    ctx.fillText(dim.label, lx, ly - 6);
-    ctx.fillStyle = '#3182F6';
-    ctx.font = 'bold 10px JetBrains Mono, monospace';
-    ctx.fillText(String(Math.round(dim.score * 20)), lx, ly + 6);
-    ctx.font = '11px Pretendard, -apple-system, sans-serif';
-  });
+  // ECharts radar
+  setTimeout(() => {
+    renderEChartsRadar('dpRadarChart', [{
+      name: name,
+      values: dimValues,
+    }]);
+  }, 200);
 }
 
 function getScorecardSummary(grade, name) {
@@ -3538,24 +4000,34 @@ function renderCompareContent(names, dataArr, metas) {
   var metricKeys   = ['job_fit','growth_potential','compensation','culture_fit','career_leverage'];
   var metricLabels = { job_fit:'Job Fit', growth_potential:'성장 잠재력', compensation:'보상·복지', culture_fit:'문화 적합성', career_leverage:'커리어 레버리지' };
   var gradeColor   = { S:'#3182F6', A:'#00C471', B:'#FF9500', C:'#FF6B00', D:'#FF4545' };
+  var gradeSymbol  = { S:'◆', A:'●', B:'▲', C:'■', D:'✕' };
+  var gradeCls     = { S:'gs', A:'ga', B:'gb', C:'gc', D:'gd' };
   var cols = names.length;
   var colsTemplate = '140px ' + Array(cols).fill('1fr').join(' ');
 
   // Header
-  var html = '<div style="display:grid;grid-template-columns:' + colsTemplate + ';gap:12px;margin-bottom:20px;align-items:end;">';
+  var html = '<div style="display:grid;grid-template-columns:' + colsTemplate + ';gap:12px;margin-bottom:16px;align-items:end;">';
   html += '<div></div>';
   names.forEach(function(name, i) {
     var sc    = (dataArr[i] && dataArr[i].scorecard) || {};
     var grade = sc.grade || metas[i].grade || '—';
     var total = sc.total ? Math.round(sc.total) : (metas[i].score || 0);
     var gc    = gradeColor[grade] || 'var(--text-tertiary)';
+    var sym   = gradeSymbol[grade] || '';
+    var cls   = gradeCls[grade] || 'gs';
     html += '<div class="text-center rounded-2xl p-4" style="background:var(--bg-secondary);border:1px solid var(--border);">' +
       '<div class="font-bold t-primary mb-1" style="font-size:15px;">' + escHtml(name) + '</div>' +
       '<div class="font-mono font-bold" style="font-size:26px;color:' + gc + ';line-height:1;">' + (total || '—') + '</div>' +
-      '<div class="text-xs t-tertiary mt-0.5">/ 100 · Grade ' + escHtml(grade) + '</div>' +
+      '<div class="mt-1"><span class="grade-badge-lg ' + cls + '">' + sym + ' ' + escHtml(grade) + '</span></div>' +
       '</div>';
   });
   html += '</div>';
+
+  // Radar chart overlay
+  html += '<div class="mb-4">' +
+    '<div class="text-xs t-tertiary mb-2 font-semibold uppercase tracking-wide">5차원 레이더 비교</div>' +
+    '<div id="compareRadarChart" class="echarts-radar-wrap" style="height:260px;"></div>' +
+    '</div>';
 
   // Metric rows
   metricKeys.forEach(function(key) {
@@ -3604,6 +4076,15 @@ function renderCompareContent(names, dataArr, metas) {
   html += '</div></div>';
 
   document.getElementById('compareContent').innerHTML = html;
+
+  // Render radar overlay after DOM is updated
+  setTimeout(function() {
+    var seriesData = names.map(function(name, i) {
+      var sc = (dataArr[i] && dataArr[i].scorecard) || metas[i].scorecard || {};
+      return { name: name, values: getScorecardDimValues(sc) };
+    });
+    renderEChartsRadar('compareRadarChart', seriesData);
+  }, 100);
 }
 
 // =======================================================

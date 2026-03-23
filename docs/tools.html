@@ -245,6 +245,23 @@
     .fade-up-d2 { transition-delay: 0.12s; }
     .fade-up-d3 { transition-delay: 0.18s; }
     .fade-up-d4 { transition-delay: 0.24s; }
+  /* Upload zone */
+  .upload-zone {
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    padding: 28px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .upload-zone:hover, .upload-zone.drag-over {
+    border-color: var(--primary);
+    background: var(--primary-light);
+  }
+  .upload-zone.has-file {
+    border-color: var(--success);
+    background: rgba(34,197,94,0.06);
+  }
   </style>
 </head>
 <body>
@@ -305,6 +322,12 @@
         <p class="t-secondary" style="font-size:16px; max-width:520px; line-height:1.6;">
           취업/이직 준비를 위한 무료 도구. 서버 없이 브라우저에서 바로 실행돼요.
         </p>
+        <div class="mt-4 rounded-2xl px-4 py-3 text-sm" style="background:var(--primary-light); color:var(--text-secondary); border:1px solid rgba(49,130,246,0.2); max-width:620px;">
+          이 페이지는 <strong>브라우저 로컬 저장소</strong>만 사용해요. 입력한 JD/이력서 텍스트는 공개 서버로 전송되지 않고, 같은 브라우저에서만 이어서 볼 수 있어요.
+        </div>
+        <div class="mt-3 text-sm t-secondary">
+          분석 결과를 더 입체적으로 보려면 <a href="demo.html" class="font-semibold" style="color:var(--primary); text-decoration:none;">데모 War Room</a>에서 기업 상세 정보를 함께 확인하세요.
+        </div>
       </div>
 
       <!-- ── Tool Grid ── -->
@@ -359,15 +382,26 @@
               </div>
               <div>
                 <h2 class="font-bold t-primary mb-1" style="font-size:17px;">이력서 점수 체크</h2>
-                <p class="text-sm t-secondary" style="line-height:1.6;">이력서 텍스트를 붙여넣으면 완성도 점수, 개선 포인트, ATS 최적화 팁을 제공해요</p>
+                <p class="text-sm t-secondary" style="line-height:1.6;">이력서만 있으면 바로 분석해요 — 회사 선택 없이도 완성도 점수, 개선 포인트, ATS 최적화 팁, 경력 회사 심층 분석까지 한 번에 제공해요</p>
               </div>
             </div>
           </div>
           <div class="p-6">
             <div class="grid md:grid-cols-2 gap-6">
               <div class="flex flex-col gap-3">
-                <label class="text-xs font-semibold t-tertiary uppercase tracking-wider">이력서 텍스트</label>
-                <textarea id="resume-text" rows="10" placeholder="이력서 내용을 여기에 붙여넣으세요&#10;&#10;팁: 경력사항, 기술스택, 학력, 프로젝트, 수상 섹션을 모두 포함하면 더 정확해요"></textarea>
+                <label class="text-xs font-semibold t-tertiary uppercase tracking-wider">이력서 업로드 또는 입력</label>
+
+                <!-- Drop zone -->
+                <div class="upload-zone" id="resumeDropZone" onclick="document.getElementById('resumeFileInput').click()">
+                  <input type="file" id="resumeFileInput" accept=".txt,.md,.pdf" style="display:none;">
+                  <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--text-tertiary); margin:0 auto 8px;"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"/></svg>
+                  <p id="dropZoneLabel" style="margin:0 0 4px; font-weight:500; font-size:14px; color:var(--text-secondary);">이력서 파일을 드래그하거나 클릭하세요</p>
+                  <p style="font-size:12px; color:var(--text-tertiary); margin:0;">.txt, .md, .pdf 지원</p>
+                </div>
+
+                <div style="text-align:center; color:var(--text-tertiary); font-size:13px; margin: 2px 0;">또는</div>
+
+                <textarea id="resume-text" rows="7" placeholder="이력서 내용을 여기에 붙여넣으세요&#10;&#10;팁: 경력사항, 기술스택, 학력, 프로젝트, 수상 섹션을 모두 포함하면 더 정확해요"></textarea>
                 <button onclick="scoreResume()" class="btn-click inline-flex items-center justify-center gap-2 text-sm font-semibold text-white" style="height:42px; background:#16A34A; border-radius:10px; border:none; cursor:pointer; width:100%;">
                   <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                   점수 체크
@@ -551,6 +585,34 @@ const LEVEL_KEYWORDS = {
   '시니어(5년+)': ['5년 이상','6년','7년','8년','시니어','Senior','Sr.','리드','Lead','10년'],
 };
 
+const LOCAL_STATE_KEYS = {
+  jdUrl: 'hk-tools-jd-url',
+  jdText: 'hk-tools-jd-text',
+  resumeText: 'hk-tools-resume-text',
+  compareA: 'hk-tools-cmp-a',
+  compareB: 'hk-tools-cmp-b',
+  compareC: 'hk-tools-cmp-c',
+};
+
+const COMPARE_KEY_BY_ID = {
+  'cmp-a': LOCAL_STATE_KEYS.compareA,
+  'cmp-b': LOCAL_STATE_KEYS.compareB,
+  'cmp-c': LOCAL_STATE_KEYS.compareC,
+};
+
+function persistToolState(key, value) {
+  localStorage.setItem(key, value);
+}
+
+function restoreToolState() {
+  const jdUrl = localStorage.getItem(LOCAL_STATE_KEYS.jdUrl) || '';
+  const jdText = localStorage.getItem(LOCAL_STATE_KEYS.jdText) || '';
+  const resumeText = localStorage.getItem(LOCAL_STATE_KEYS.resumeText) || '';
+  document.getElementById('jd-url').value = jdUrl;
+  document.getElementById('jd-text').value = jdText;
+  document.getElementById('resume-text').value = resumeText;
+}
+
 function analyzeJD() {
   const url  = document.getElementById('jd-url').value.trim();
   const text = document.getElementById('jd-text').value.trim();
@@ -619,7 +681,7 @@ const RESUME_SECTIONS = [
 
 const ACTION_VERBS = ['개발','구현','설계','운영','개선','도입','구축','리드','분석','최적화','자동화','배포','기여','협업','관리','향상','제안','수행','진행','달성'];
 
-function scoreResume() {
+async function scoreResume() {
   const text = document.getElementById('resume-text').value.trim();
   if (!text) { document.getElementById('resume-result').innerHTML = '<p class="text-sm" style="color:var(--danger); text-align:center; padding-top:80px;">이력서 텍스트를 입력해주세요</p>'; return; }
   const lower = text.toLowerCase();
@@ -643,7 +705,6 @@ function scoreResume() {
 
   // Action verbs
   const verbCount = ACTION_VERBS.filter(v => text.includes(v)).length;
-  const verbRatio = Math.min(verbCount / 8, 1);
 
   // Tips
   const missing = checks.filter(c => !c.hit).map(c => c.key);
@@ -656,6 +717,9 @@ function scoreResume() {
 
   const grade = score >= 80 ? { label: '우수', cls: 'tag-green' } : score >= 60 ? { label: '보통', cls: 'tag-amber' } : { label: '개선 필요', cls: 'tag-red' };
   const pct = score + '%';
+
+  // ── Career company analysis ──
+  const careerHtml = await buildCareerAnalysis(text);
 
   document.getElementById('resume-result').innerHTML = `
     <div class="flex flex-col gap-4">
@@ -689,8 +753,110 @@ function scoreResume() {
           <ul class="flex flex-col gap-1.5">${tips.map(t => `<li class="flex items-start gap-2 text-xs t-secondary"><span style="color:var(--warning); flex-shrink:0;">→</span>${t}</li>`).join('')}</ul>
         </div>
       ` : '<p class="text-xs t-secondary">주요 섹션이 모두 포함되어 있어요!</p>'}
+      ${careerHtml}
     </div>
   `;
+}
+
+// ── Career company analysis helpers ──────────────────────
+async function buildCareerAnalysis(resumeText) {
+  if (!META_LOADED) return '';
+
+  // Match companies from meta against resume text
+  const matched = META.filter(c => {
+    const name = c.name;
+    // exact match
+    if (resumeText.includes(name)) return true;
+    // partial: remove common suffixes and try shorter name
+    const short = name.replace(/(코리아|코퍼레이션|그룹|홀딩스|테크놀로지|시스템즈?)$/, '').trim();
+    return short.length >= 2 && resumeText.includes(short);
+  });
+
+  if (matched.length === 0) return '';
+
+  // Build per-company cards
+  const companyCards = matched.map((c, idx) => {
+    const gradeColor = c.grade === 'S' ? '#7C3AED' : c.grade === 'A' ? 'var(--primary)' : c.grade === 'B' ? 'var(--success)' : 'var(--text-tertiary)';
+    const techs = (c.tech_stack || []).slice(0, 5).map(t => `<span class="tag" style="font-size:11px; padding:2px 8px;">${t}</span>`).join('');
+    const totalScore = c.scorecard ? Object.values(c.scorecard).reduce((s, v) => s + (v.score || 0), 0) : 0;
+    return `
+      <div style="border:1px solid var(--border); border-radius:10px; padding:12px 14px; background:var(--bg);">
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <div>
+            <span class="font-semibold t-primary" style="font-size:14px;">${idx + 1}. ${c.name}</span>
+            <span class="text-xs t-tertiary ml-2">${c.size || ''} · ${c.industry || ''}</span>
+          </div>
+          <span style="font-size:12px; font-weight:700; color:${gradeColor}; flex-shrink:0;">Grade ${c.grade || '?'}</span>
+        </div>
+        ${techs ? `<div class="flex flex-wrap gap-1 mb-2">${techs}</div>` : ''}
+        ${c.description ? `<p class="text-xs t-tertiary" style="line-height:1.5; margin:0;">${c.description.slice(0, 80)}...</p>` : ''}
+      </div>`;
+  }).join('');
+
+  // Generate insights
+  const insights = generateCareerInsights(matched);
+
+  return `
+    <div style="border:1px solid var(--border); border-radius:12px; overflow:hidden; margin-top:4px;">
+      <div class="flex items-center gap-2 px-4 py-3" style="background:var(--bg-secondary); border-bottom:1px solid var(--border);">
+        <span style="font-size:16px;">📊</span>
+        <span class="text-xs font-semibold t-secondary uppercase tracking-wider">경력 기업 분석</span>
+        <span class="tag tag-gray" style="margin-left:auto; font-size:11px;">${matched.length}개 기업 감지</span>
+      </div>
+      <div class="flex flex-col gap-3 p-4">
+        <div>
+          <div class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-2">📍 감지된 경력 기업</div>
+          <div class="flex flex-col gap-2">${companyCards}</div>
+        </div>
+        ${insights ? `
+        <div style="border-radius:10px; padding:14px; background:var(--primary-light); border:1px solid rgba(49,130,246,0.15);">
+          <div class="text-xs font-semibold mb-2" style="color:var(--primary);">💡 커리어 인사이트</div>
+          <ul class="flex flex-col gap-1.5">${insights.map(i => `<li class="flex items-start gap-2 text-xs t-secondary" style="line-height:1.6;"><span style="color:var(--primary); flex-shrink:0;">•</span>${i}</li>`).join('')}</ul>
+        </div>` : ''}
+      </div>
+    </div>`;
+}
+
+function generateCareerInsights(companies) {
+  const insights = [];
+  if (companies.length === 0) return insights;
+
+  // Size transition insight
+  const sizes = companies.map(c => c.size).filter(Boolean);
+  const hasLarge = sizes.some(s => s === '대기업');
+  const hasStartup = sizes.some(s => s.includes('스타트업'));
+  const hasMid = sizes.some(s => s === '중견기업');
+  if (hasLarge && hasStartup) {
+    insights.push('대기업→스타트업 이직 경험은 적응력과 기업가 정신을 동시에 보여줘요');
+  } else if (hasStartup && hasLarge) {
+    insights.push('스타트업→대기업 이직 경험은 스케일업 역량과 안정성 추구를 보여줘요');
+  }
+
+  // Industry concentration
+  const industries = companies.map(c => c.industry).filter(Boolean);
+  const industryCounts = {};
+  industries.forEach(i => { industryCounts[i] = (industryCounts[i] || 0) + 1; });
+  const topIndustry = Object.entries(industryCounts).sort((a, b) => b[1] - a[1])[0];
+  if (topIndustry && topIndustry[1] >= 2) {
+    insights.push(`${topIndustry[0]} 도메인 경험이 집중되어 있어 해당 분야 전문성을 강하게 어필할 수 있어요`);
+  } else if (industries.length >= 2) {
+    const unique = [...new Set(industries)];
+    insights.push(`${unique.join(', ')} 등 다양한 산업 경험으로 폭넓은 시각을 보유하고 있어요`);
+  }
+
+  // Tech stack diversity
+  const allTechs = [...new Set(companies.flatMap(c => c.tech_stack || []))];
+  if (allTechs.length >= 5) {
+    insights.push(`${allTechs.slice(0, 4).join(', ')} 등 ${allTechs.length}개 기술 스택 경험으로 멀티 역량을 보여줄 수 있어요`);
+  }
+
+  // Grade insight
+  const topGrades = companies.filter(c => c.grade === 'S' || c.grade === 'A');
+  if (topGrades.length > 0) {
+    insights.push(`${topGrades.map(c => c.name).join(', ')} 등 경쟁력 높은 기업 경력이 이력서의 신뢰도를 높여줘요`);
+  }
+
+  return insights.slice(0, 4);
 }
 
 // ═══════════════════════════════════════════════════════
@@ -780,6 +946,7 @@ function detectCliches() {
 // 기업 비교기
 // ═══════════════════════════════════════════════════════
 let META = [];
+let META_LOADED = false;
 const SCORE_LABELS = {
   job_fit: '직무 적합도',
   growth: '성장 가능성',
@@ -792,6 +959,7 @@ async function loadMeta() {
   try {
     const res = await fetch('demo/data/meta.json');
     META = await res.json();
+    META_LOADED = true;
     const selects = ['cmp-a','cmp-b','cmp-c'];
     selects.forEach(id => {
       const el = document.getElementById(id);
@@ -802,7 +970,10 @@ async function loadMeta() {
         opt.textContent = c.name;
         el.appendChild(opt);
       });
+      const restored = localStorage.getItem(COMPARE_KEY_BY_ID[id]);
+      if (restored) el.value = restored;
     });
+    renderCompare();
   } catch(e) {
     document.getElementById('compare-result').innerHTML = '<p class="text-sm t-tertiary text-center py-4">기업 데이터를 불러오지 못했어요</p>';
   }
@@ -812,6 +983,9 @@ function renderCompare() {
   const a = document.getElementById('cmp-a').value;
   const b = document.getElementById('cmp-b').value;
   const c = document.getElementById('cmp-c').value;
+  persistToolState(LOCAL_STATE_KEYS.compareA, a);
+  persistToolState(LOCAL_STATE_KEYS.compareB, b);
+  persistToolState(LOCAL_STATE_KEYS.compareC, c);
   const selected = [a, b, c].filter(Boolean);
   if (selected.length < 2) {
     document.getElementById('compare-result').innerHTML = '<p class="text-sm t-tertiary text-center py-8">기업을 2개 이상 선택하면 비교 결과가 나타나요</p>';
@@ -874,7 +1048,89 @@ function renderCompare() {
   `;
 }
 
+// ═══════════════════════════════════════════════════════
+// 이력서 파일 업로드 (FileReader + pdf.js)
+// ═══════════════════════════════════════════════════════
+const PDFJS_CDN = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.mjs';
+let pdfjsLib = null;
+
+async function loadPdfJs() {
+  if (pdfjsLib) return pdfjsLib;
+  const mod = await import(PDFJS_CDN);
+  mod.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs';
+  pdfjsLib = mod;
+  return pdfjsLib;
+}
+
+async function extractTextFromPdf(file) {
+  const lib = await loadPdfJs();
+  const arrayBuffer = await file.arrayBuffer();
+  const pdf = await lib.getDocument({ data: arrayBuffer }).promise;
+  const pages = [];
+  for (let i = 1; i <= pdf.numPages; i++) {
+    const page = await pdf.getPage(i);
+    const content = await page.getTextContent();
+    pages.push(content.items.map(item => item.str).join(' '));
+  }
+  return pages.join('\n');
+}
+
+function setResumeFileUploaded(filename, text) {
+  const zone = document.getElementById('resumeDropZone');
+  const label = document.getElementById('dropZoneLabel');
+  zone.classList.add('has-file');
+  label.textContent = `✓ ${filename} 업로드됨`;
+  document.getElementById('resume-text').value = text;
+  persistToolState(LOCAL_STATE_KEYS.resumeText, text);
+  scoreResume();
+}
+
+async function handleResumeFile(file) {
+  if (!file) return;
+  const name = file.name.toLowerCase();
+  try {
+    if (name.endsWith('.pdf')) {
+      const text = await extractTextFromPdf(file);
+      setResumeFileUploaded(file.name, text);
+    } else {
+      const reader = new FileReader();
+      reader.onload = e => setResumeFileUploaded(file.name, e.target.result);
+      reader.readAsText(file, 'utf-8');
+    }
+  } catch (err) {
+    const zone = document.getElementById('resumeDropZone');
+    document.getElementById('dropZoneLabel').textContent = '파일 읽기 실패. 텍스트로 직접 붙여넣어 주세요.';
+    zone.classList.remove('has-file');
+  }
+}
+
+function initResumeUpload() {
+  const fileInput = document.getElementById('resumeFileInput');
+  const dropZone  = document.getElementById('resumeDropZone');
+
+  fileInput.addEventListener('change', e => {
+    if (e.target.files[0]) handleResumeFile(e.target.files[0]);
+  });
+
+  dropZone.addEventListener('dragover', e => {
+    e.preventDefault();
+    dropZone.classList.add('drag-over');
+  });
+  dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+  dropZone.addEventListener('drop', e => {
+    e.preventDefault();
+    dropZone.classList.remove('drag-over');
+    const file = e.dataTransfer.files[0];
+    if (file) handleResumeFile(file);
+  });
+}
+
 // Boot
+restoreToolState();
+document.getElementById('jd-url').addEventListener('input', e => persistToolState(LOCAL_STATE_KEYS.jdUrl, e.target.value));
+document.getElementById('jd-text').addEventListener('input', e => persistToolState(LOCAL_STATE_KEYS.jdText, e.target.value));
+document.getElementById('resume-text').addEventListener('input', e => persistToolState(LOCAL_STATE_KEYS.resumeText, e.target.value));
+initResumeUpload();
 loadMeta();
 </script>
 </body>
