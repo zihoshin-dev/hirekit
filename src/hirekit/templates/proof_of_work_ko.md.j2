@@ -1,0 +1,18 @@
+# {{ company }} — Proof of Work Memo
+
+**판정:** {{ verdict }}
+**신뢰도:** {{ confidence }}
+
+## 핵심 가설
+
+{{ thesis }}
+
+## 근거
+
+{% for item in evidence %}- {{ item }}
+{% endfor %}
+
+## 바로 할 일
+
+{% for item in next_actions %}- {{ item }}
+{% endfor %}

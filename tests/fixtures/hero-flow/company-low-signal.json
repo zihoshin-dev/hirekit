@@ -1,0 +1,21 @@
+{
+  "company": "가상회사",
+  "region": "kr",
+  "sources": [
+    {
+      "source_name": "community_review",
+      "section": "culture",
+      "url": "https://example.com/community-review",
+      "collected_at": "2025-01-01T00:00:00+00:00",
+      "effective_at": "2025-01-01T00:00:00+00:00",
+      "trust_label": "stale",
+      "publication_boundary": "internal_only",
+      "summary": "오래된 익명 리뷰만 존재함"
+    }
+  ],
+  "signals": {
+    "growth": "근거 부족",
+    "compensation": "미확인",
+    "tech": "불명"
+  }
+}

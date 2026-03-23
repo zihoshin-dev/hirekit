@@ -1,0 +1,14 @@
+{
+  "hero_case": {
+    "company_fixture": "company-high-signal.json",
+    "jd_fixture": "jd-high-signal.txt",
+    "resume_fixture": "resume-high-signal.md",
+    "expected_future_verdict": "Go"
+  },
+  "low_signal_case": {
+    "company_fixture": "company-low-signal.json",
+    "jd_fixture": "jd-low-signal.txt",
+    "resume_fixture": "resume-low-signal.md",
+    "expected_future_verdict": "Hold"
+  }
+}

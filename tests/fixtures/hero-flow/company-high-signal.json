@@ -1,0 +1,31 @@
+{
+  "company": "카카오",
+  "region": "kr",
+  "sources": [
+    {
+      "source_name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/",
+      "collected_at": "2026-03-22T00:00:00+00:00",
+      "effective_at": "2026-03-21T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "연매출과 직원 수가 공시 기준으로 확인됨"
+    },
+    {
+      "source_name": "github",
+      "section": "tech",
+      "url": "https://github.com/kakao",
+      "collected_at": "2026-03-22T00:00:00+00:00",
+      "effective_at": "2026-03-22T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "기술 조직 공개 흔적과 저장소 활동이 존재함"
+    }
+  ],
+  "signals": {
+    "growth": "매출 성장 근거가 있는 회사",
+    "compensation": "평균 연봉 데이터가 존재함",
+    "tech": "Python, Kubernetes, Kafka"
+  }
+}
