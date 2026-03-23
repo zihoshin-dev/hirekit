@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from typing import Any, cast
+
 import pytest
 
 from hirekit.engine.career_strategy import (
@@ -54,18 +56,28 @@ class TestCareerProfile:
 
 
 class TestCareerStrategyEngine:
+    engine: CareerStrategyEngine = cast(CareerStrategyEngine, object())
+
     def setup_method(self):
         self.engine = CareerStrategyEngine()
 
     def _make_profile(self, **kwargs) -> CareerProfile:
-        defaults = {
+        defaults: dict[str, Any] = {
             "target_company": "토스",
             "years_of_experience": 3,
             "target_role": "백엔드",
             "skills": [],
         }
         defaults.update(kwargs)
-        return CareerProfile(**defaults)
+        return CareerProfile(
+            target_company=cast(str, defaults["target_company"]),
+            current_company=cast(str | None, defaults.get("current_company")),
+            years_of_experience=cast(int, defaults.get("years_of_experience", 0)),
+            current_role=cast(str, defaults.get("current_role", "")),
+            target_role=cast(str, defaults.get("target_role", "")),
+            skills=cast(list[str], defaults.get("skills", [])),
+            education=cast(str | None, defaults.get("education")),
+        )
 
     def test_returns_career_strategy(self):
         profile = self._make_profile()
@@ -92,8 +104,8 @@ class TestCareerStrategyEngine:
         assert isinstance(result.gap_analysis, list)
 
     def test_gap_analysis_empty_when_all_skills_match(self):
-        # Toss stack: kotlin, spring, react, typescript, aws, kubernetes, kafka
-        all_skills = ["kotlin", "spring", "react", "typescript", "aws", "kubernetes", "kafka"]
+        # Toss stack (from meta.json): aws, java, kafka, kotlin, mysql, react, redis, swift, typescript
+        all_skills = ["aws", "java", "kafka", "kotlin", "mysql", "react", "redis", "swift", "typescript"]
         profile = self._make_profile(skills=all_skills)
         result = self.engine.analyze(profile)
         assert result.gap_analysis == []
@@ -154,7 +166,8 @@ class TestCareerStrategyEngine:
         assert "리스크 수준" in result.risk_assessment
 
     def test_low_risk_for_high_fit(self):
-        all_skills = ["kotlin", "spring", "react", "typescript", "aws", "kubernetes", "kafka"]
+        # Toss stack (from meta.json): aws, java, kafka, kotlin, mysql, react, redis, swift, typescript
+        all_skills = ["aws", "java", "kafka", "kotlin", "mysql", "react", "redis", "swift", "typescript"]
         profile = self._make_profile(
             skills=all_skills, years_of_experience=7, target_role="백엔드"
         )
@@ -224,3 +237,38 @@ class TestCareerStrategyEngine:
         )
         result = self.engine.analyze(profile)
         assert isinstance(result, CareerStrategy)
+
+    def test_adjacent_role_transition_mentions_bridge_strategy(self):
+        profile = CareerProfile(
+            target_company="토스",
+            current_role="데이터 엔지니어",
+            target_role="PM",
+            years_of_experience=5,
+            skills=["python", "sql", "airflow", "analytics"],
+        )
+        result = self.engine.analyze(profile)
+        assert "브리지" in result.approach_strategy or "인접 역할" in result.approach_strategy
+
+    def test_nontraditional_transition_mentions_alternative_path(self):
+        profile = CareerProfile(
+            target_company="카카오",
+            current_role="디자이너",
+            target_role="백엔드",
+            years_of_experience=2,
+            skills=["figma", "ux"],
+        )
+        result = self.engine.analyze(profile)
+        assert "대안 포지션" in result.risk_assessment or "단계적 이동 경로" in result.risk_assessment
+
+    def test_missing_current_company_does_not_break_strategy(self):
+        profile = CareerProfile(
+            target_company="네이버",
+            current_company=None,
+            current_role="백엔드",
+            target_role="백엔드",
+            years_of_experience=4,
+            skills=["java", "spring", "python"],
+        )
+        result = self.engine.analyze(profile)
+        assert isinstance(result, CareerStrategy)
+        assert result.fit_score >= 0

@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+from hirekit.core.company_db import get_default_db
 from hirekit.engine.company_analyzer import AnalysisReport
 from hirekit.engine.interview_questions import (
     QUESTION_BANK,
@@ -321,7 +322,16 @@ def _detect_role_categories(position: str) -> list[QuestionCategory]:
 
 
 def _detect_company_culture(company: str) -> dict[str, Any]:
-    """Return culture hints for known companies."""
+    """Return culture hints for known companies.
+
+    Lookup order: CompanyDB (dynamic JSON) → hardcoded fallback dict.
+    """
+    # 1. Try CompanyDB first
+    db_hints = get_default_db().get_culture_hints(company)
+    if db_hints:
+        return db_hints
+
+    # 2. Fall back to hardcoded dict
     for name, hints in _COMPANY_CULTURE_HINTS.items():
         if name in company:
             return hints

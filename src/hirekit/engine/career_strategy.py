@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
+from hirekit.core.company_db import get_default_db
 from hirekit.core.tech_taxonomy import (
     classify_experience,
     get_category,
@@ -217,7 +218,13 @@ class CareerStrategyEngine:
     # ------------------------------------------------------------------
 
     def _get_company_stack(self, company_key: str) -> list[str]:
-        """Return tech stack for a known company, or empty list."""
+        """Return tech stack for a known company.
+
+        Lookup order: CompanyDB (dynamic JSON) → hardcoded fallback dict.
+        """
+        db_stack = get_default_db().get_tech_stack(company_key)
+        if db_stack:
+            return db_stack
         return _COMPANY_TECH_STACK.get(company_key, [])
 
     def _compute_gaps(
@@ -345,13 +352,26 @@ class CareerStrategyEngine:
         else:
             transition = ""
 
+        # 직무 전환(인접 역할 이동) 감지 및 브리지 전략
+        role_transition = ""
+        if profile.current_role and profile.target_role:
+            curr = profile.current_role.lower()
+            tgt = profile.target_role.lower()
+            if curr != tgt:
+                role_transition = (
+                    f"\n\n인접 역할 전환 ({profile.current_role} → {profile.target_role}): "
+                    f"브리지 스킬(두 역할에 공통으로 필요한 역량)을 중심으로 어필하세요. "
+                    f"현재 역할에서 {profile.target_role} 업무를 일부 수행한 경험이 있다면 "
+                    f"구체적 사례를 강조하세요."
+                )
+
         if required_gaps:
             gap_names = ", ".join(g.skill for g in required_gaps[:3])
             gap_note = f"\n\n핵심 보완 사항: {gap_names}."
         else:
             gap_note = "\n\n기술 스택 커버리지가 우수해요. 경험의 깊이와 임팩트를 중심으로 어필하세요."
 
-        return opening + transition + gap_note
+        return opening + transition + role_transition + gap_note
 
     def _build_resume_focus(
         self, profile: CareerProfile, company_key: str, user_skills: set[str]
@@ -495,6 +515,17 @@ class CareerStrategyEngine:
                 "대안 기업에 먼저 지원해 면접 경험을 쌓거나, "
                 "갭 보완 후 재도전을 권장해요."
             )
+            # 직무 전환(비전통적 경로) 시 대안 포지션 + 단계적 이동 경로 제시
+            if profile.current_role and profile.target_role:
+                curr = profile.current_role.lower()
+                tgt = profile.target_role.lower()
+                if curr != tgt:
+                    detail += (
+                        f"\n\n대안 포지션: {profile.current_role}의 경험을 살릴 수 있는 "
+                        f"하이브리드 역할(예: Technical {profile.target_role}, "
+                        f"{profile.current_role} 출신 {profile.target_role})을 먼저 고려하세요. "
+                        f"단계적 이동 경로를 통해 목표 직무에 점진적으로 접근하는 것이 안전해요."
+                    )
 
         if profile.current_company:
             detail += f" 현재 {profile.current_company}를 재직하며 준비하는 것이 유리해요."

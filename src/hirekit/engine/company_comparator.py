@@ -5,11 +5,13 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+from hirekit.core.company_db import get_default_db
 from hirekit.core.scoring import score_to_grade
 
 
 # ---------------------------------------------------------------------------
 # Known company data (rule-based, no LLM)
+# Kept as fallback for companies not present in demo data JSON.
 # ---------------------------------------------------------------------------
 
 _COMPANY_DATA: dict[str, dict[str, Any]] = {
@@ -317,12 +319,17 @@ class CompanyComparator:
         if len(companies) > 5:
             companies = companies[:5]
 
-        # Load data for each company
+        # Load data for each company — try CompanyDB first, fall back to hardcoded dict
+        db = get_default_db()
         company_data = []
         resolved_names = []
         for name in companies:
             key = name.lower()
-            data = _COMPANY_DATA.get(key, self._default_data(name))
+            db_data = db.get_comparator_data(name)
+            if db_data:
+                data = db_data
+            else:
+                data = _COMPANY_DATA.get(key, self._default_data(name))
             company_data.append(data)
             resolved_names.append(name)
 
