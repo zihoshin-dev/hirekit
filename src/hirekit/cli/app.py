@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+from importlib import import_module
 from pathlib import Path
+from typing import Any
 
 import typer
 from dotenv import load_dotenv
@@ -445,24 +447,25 @@ def pipeline(
         )
     console.print("[green]✓[/green] 자기소개서 초안 완료")
 
-    # Go/Hold/Pass verdict
-    combined = report.scorecard.total_score * 0.6 if report.scorecard else 0.0
-    if jd_analysis:
-        combined += jd_analysis.match_score * 0.4
-    if combined >= 65:
-        verdict = "Go"
+    hero_verdict = import_module("hirekit.engine.hero_verdict")
+    verdict = hero_verdict.compose_hero_verdict(
+        report=report,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
+    )
+    if verdict.label == "Go":
         verdict_style = "bold green"
-    elif combined >= 40:
-        verdict = "Hold"
+    elif verdict.label == "Hold":
         verdict_style = "bold yellow"
     else:
-        verdict = "Pass"
         verdict_style = "bold red"
 
     if output == "terminal":
+        company_score = report.scorecard.total_score if report.scorecard else 0.0
+        company_grade = report.scorecard.grade if report.scorecard else "N/A"
         console.print(Panel(
-            f"[bold]기업 점수:[/bold] {report.scorecard.total_score:.0f}/100 "
-            f"(등급 {report.scorecard.grade})\n"
+            f"[bold]기업 점수:[/bold] {company_score:.0f}/100 "
+            f"(등급 {company_grade})\n"
             + (
                 f"[bold]JD 매칭:[/bold] {jd_analysis.match_score:.0f}/100\n"
                 if jd_analysis else ""
@@ -473,16 +476,27 @@ def pipeline(
             )
             + f"[bold]면접 질문:[/bold] {len(guide.common_questions)}개\n"
             + f"[bold]자소서 점수:[/bold] {cover_draft.overall_score:.0f}/100\n"
-            + f"[{verdict_style}]최종 판정: {verdict}[/{verdict_style}]",
+            + f"[{verdict_style}]최종 판정: {verdict.label}[/{verdict_style}]\n"
+            + f"[bold]판정 신뢰도:[/bold] {verdict.confidence}\n"
+            + f"[dim]{verdict.advisory_note}[/dim]",
             title="[bold blue]파이프라인 결과[/bold blue]",
             border_style="blue",
         ))
+        for reason in verdict.reasons:
+            console.print(f"  - {reason}")
     else:
         # Build integrated markdown report
         lines = [
             f"# HireKit 파이프라인 리포트: {company}",
             f"**포지션:** {position or '미지정'}",
-            f"**최종 판정:** {verdict} (종합 점수: {combined:.0f}/100)",
+            f"**최종 판정:** {verdict.label} (종합 점수: {verdict.combined_score:.0f}/100)",
+            f"**판정 신뢰도:** {verdict.confidence}",
+            f"**권고 메모:** {verdict.advisory_note}",
+            "",
+            "---",
+            "",
+            "## 0. Hero Verdict",
+            *[f"- {reason}" for reason in verdict.reasons],
             "",
             "---",
             "",
@@ -557,8 +571,8 @@ def pipeline(
         )
         table.add_row(
             "[bold]최종 판정[/bold]",
-            f"[{verdict_style}]{verdict}[/{verdict_style}]",
-            f"종합 {combined:.0f}/100",
+            f"[{verdict_style}]{verdict.label}[/{verdict_style}]",
+            f"종합 {verdict.combined_score:.0f}/100 ({verdict.confidence})",
         )
         console.print(table)
 
@@ -847,7 +861,7 @@ def serve(
 
 # --- Helpers ---
 
-def _get_llm(config: HireKitConfig) -> BaseLLM:  # noqa: F821
+def _get_llm(config):
     """Initialize LLM from config.
 
     Supported providers: openai, anthropic, none.
@@ -881,7 +895,7 @@ def _get_llm(config: HireKitConfig) -> BaseLLM:  # noqa: F821
     return NoLLM()
 
 
-def _load_profile(path: str) -> dict | None:
+def _load_profile(path: str) -> dict[str, Any] | None:
     """Load career profile from YAML file."""
     if not path:
         # Check default location
@@ -901,6 +915,67 @@ def _load_profile(path: str) -> dict | None:
     except ImportError:
         # Fallback: basic YAML parsing without pyyaml
         return None
+
+
+@app.command()
+def jobs(
+    company: str = typer.Argument(help="기업명 (예: '쿠팡', '당근', '네이버')"),
+    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, json"),
+) -> None:
+    """기업의 현재 채용 공고를 조회해요."""
+    from hirekit.sources.kr.career_pages import JobPostingCollector
+
+    console.print(f"[bold blue]{company}[/bold blue] 채용 공고 조회 중...")
+
+    with JobPostingCollector() as collector:
+        postings = collector.collect_all(company)
+
+    if not postings:
+        console.print(f"[yellow]{company}의 채용 공고를 찾을 수 없어요.[/yellow]")
+        console.print(
+            "[dim]지원 기업: 쿠팡, 당근, 크래프톤 (Greenhouse) / "
+            "네이버, 네이버웹툰, 네이버클라우드, 네이버파이낸셜 / "
+            "SSG닷컴, 리디, 리벨리온, 마이리얼트립, 마키나락스, 메이크스타, 카카오페이, 컬리 (Greeting)[/dim]"
+        )
+        return
+
+    if output == "json":
+        import json
+        import sys
+        sys.stdout.write(
+            json.dumps(
+                [
+                    {
+                        "title": p.title,
+                        "company": p.company,
+                        "url": p.url,
+                        "location": p.location,
+                        "department": p.department,
+                        "employment_type": p.employment_type,
+                        "posted_at": p.posted_at,
+                    }
+                    for p in postings
+                ],
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n"
+        )
+        return
+
+    # terminal output
+    table = Table(title=f"{company} 채용 공고 ({len(postings)}개)")
+    table.add_column("포지션", style="cyan", max_width=50)
+    table.add_column("부서", max_width=25)
+    table.add_column("위치", max_width=20)
+    table.add_column("게시일", max_width=12)
+
+    for p in postings[:50]:
+        table.add_row(p.title, p.department, p.location, p.posted_at)
+
+    console.print(table)
+    if len(postings) > 50:
+        console.print(f"[dim]... 외 {len(postings) - 50}개 (--output json으로 전체 확인)[/dim]")
 
 
 @app.command(name="mcp-serve")
