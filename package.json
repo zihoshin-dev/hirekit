@@ -1,0 +1,13 @@
+{
+  "name": "hirekit-docs-qa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve:docs": "python3 -m http.server 4173 --directory docs",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
