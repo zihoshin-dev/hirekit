@@ -7,6 +7,8 @@ from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from typing import Any
 
+from hirekit.core.trust_contract import PublicationBoundary, TrustLabel
+
 
 @dataclass
 class SourceResult:
@@ -17,14 +19,40 @@ class SourceResult:
     data: dict[str, Any] = field(default_factory=dict)
     confidence: float = 1.0  # 0.0-1.0
     collected_at: str = field(default_factory=lambda: datetime.now(UTC).isoformat())
+    effective_at: str = ""
     url: str = ""  # provenance URL
+    evidence_id: str = ""
+    cross_validated: bool = False  # True when 2+ independent sources agree on this value
+    trust_label: TrustLabel = "verified"
+    publication_boundary: PublicationBoundary = "internal_only"
     raw: str = ""  # raw text for LLM consumption
+
+    def __post_init__(self) -> None:
+        if not self.effective_at:
+            self.effective_at = self.collected_at
+        if not self.evidence_id:
+            stamp = self.collected_at.replace(":", "").replace("-", "")
+            self.evidence_id = f"{self.source_name}:{self.section}:{stamp}"
 
     @property
     def is_stale(self) -> bool:
         """Check if data is older than 90 days."""
         collected = datetime.fromisoformat(self.collected_at)
         return (datetime.now(UTC) - collected).days > 90
+
+    def as_reference(self) -> dict[str, Any]:
+        return {
+            "name": self.source_name,
+            "section": self.section,
+            "url": self.url,
+            "collected_at": self.collected_at,
+            "effective_at": self.effective_at,
+            "evidence_id": self.evidence_id,
+            "confidence": self.confidence,
+            "trust_label": self.trust_label,
+            "publication_boundary": self.publication_boundary,
+            "is_stale": self.is_stale,
+        }
 
 
 class BaseSource(ABC):
