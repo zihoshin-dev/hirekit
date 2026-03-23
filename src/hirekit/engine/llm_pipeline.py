@@ -82,6 +82,64 @@ _SECTION_LABELS: dict[str, str] = {
     "role": "채용/포지션",
 }
 
+_FACT_SCHEMA: dict[str, Any] = {
+    "name": "fact_extraction",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "facts": {
+                "type": "array",
+                "items": {"type": "string"},
+            },
+        },
+        "required": ["facts"],
+        "additionalProperties": False,
+    },
+    "strict": True,
+}
+
+_SECTION_SCHEMA: dict[str, Any] = {
+    "name": "section_analysis",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "analysis": {"type": "string"},
+        },
+        "required": ["analysis"],
+        "additionalProperties": False,
+    },
+    "strict": True,
+}
+
+_VERDICT_SCHEMA: dict[str, Any] = {
+    "name": "verdict_analysis",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "verdict": {
+                "type": "string",
+                "enum": ["Go", "Hold", "Pass"],
+            },
+            "rationale": {"type": "string"},
+            "strengths": {
+                "type": "array",
+                "items": {"type": "string"},
+            },
+            "risks": {
+                "type": "array",
+                "items": {"type": "string"},
+            },
+            "recommended_positions": {
+                "type": "array",
+                "items": {"type": "string"},
+            },
+        },
+        "required": ["verdict", "rationale", "strengths", "risks", "recommended_positions"],
+        "additionalProperties": False,
+    },
+    "strict": True,
+}
+
 
 class LLMPipeline:
     """섹션별 다단계 LLM 분석."""
@@ -89,12 +147,104 @@ class LLMPipeline:
     def __init__(self, llm: BaseLLM) -> None:
         self.llm = llm
 
+    @staticmethod
+    def _structured_lines(structured: dict[str, Any] | None, key: str) -> str:
+        if not structured:
+            return ""
+        value = structured.get(key)
+        if isinstance(value, list):
+            lines = [str(item).strip() for item in value if str(item).strip()]
+            return "\n".join(lines)
+        if isinstance(value, str):
+            return value.strip()
+        return ""
+
+    @staticmethod
+    def _format_verdict(structured: dict[str, Any] | None) -> str:
+        if not structured:
+            return ""
+        verdict = str(structured.get("verdict", "")).strip()
+        rationale = str(structured.get("rationale", "")).strip()
+        strengths = [str(item).strip() for item in structured.get("strengths", []) if str(item).strip()]
+        risks = [str(item).strip() for item in structured.get("risks", []) if str(item).strip()]
+        positions = [str(item).strip() for item in structured.get("recommended_positions", []) if str(item).strip()]
+        if not verdict or not rationale:
+            return ""
+        parts = [f"판정: {verdict}", rationale]
+        if strengths:
+            parts.append("핵심 강점: " + ", ".join(strengths))
+        if risks:
+            parts.append("주요 리스크: " + ", ".join(risks))
+        if positions:
+            parts.append("추천 포지션: " + ", ".join(positions))
+        return "\n".join(parts)
+
     # ------------------------------------------------------------------
-    # Public API
+    # Public API — 3-CoT phases (FinRobot pattern)
     # ------------------------------------------------------------------
+
+    def extract_facts(self, source_results: list[SourceResult], company: str) -> dict[str, Any]:
+        """Phase 1: Data-CoT — 원시 데이터에서 사실만 추출.
+
+        Returns
+        -------
+        dict[str, Any]
+            ``{"facts": "<newline-separated fact strings>"}``
+            Empty dict when LLM unavailable or extraction fails.
+        """
+        if not self.llm.is_available():
+            return {}
+        facts_text = self._extract_facts(source_results, company)
+        if not facts_text:
+            return {}
+        return {"facts": facts_text}
+
+    def analyze_sections(self, facts: dict[str, Any], company: str) -> dict[int, str]:
+        """Phase 2: Concept-CoT — 사실을 기반으로 섹션별 분석.
+
+        Parameters
+        ----------
+        facts:
+            Output of :meth:`extract_facts`.
+        company:
+            Company name.
+
+        Returns
+        -------
+        dict[int, str]
+            Section number → analysis text. Sections: 1 (overview), 2 (industry), 7 (tech).
+        """
+        facts_text = facts.get("facts", "") if facts else ""
+        sections: dict[int, str] = {}
+        sections[1] = self._analyze_section_overview(facts_text, company)
+        sections[2] = self._analyze_section_industry(facts_text, company)
+        sections[7] = self._analyze_section_tech(facts_text, company)
+        return sections
+
+    def synthesize(self, sections: dict[int, str], facts: dict[str, Any], company: str) -> str:
+        """Phase 3: Thesis-CoT — 분석을 종합하여 판단/verdict.
+
+        Parameters
+        ----------
+        sections:
+            Output of :meth:`analyze_sections`.
+        facts:
+            Output of :meth:`extract_facts`.
+        company:
+            Company name.
+
+        Returns
+        -------
+        str
+            Formatted verdict string, or empty string on failure.
+        """
+        facts_text = facts.get("facts", "") if facts else ""
+        return self._analyze_section_verdict(facts_text, company, sections)
 
     def analyze(self, raw_results: list[SourceResult], company: str) -> dict[int, Any]:
         """수집 데이터 → 구조화 분석 결과 반환.
+
+        Backward-compatible wrapper that calls the 3-CoT phases in sequence.
 
         Returns
         -------
@@ -104,20 +254,18 @@ class LLMPipeline:
         if not self.llm.is_available():
             return {}
 
-        # Step 1: Fact Extraction
-        facts = self._extract_facts(raw_results, company)
+        # Phase 1: Data-CoT
+        facts = self.extract_facts(raw_results, company)
         if not facts:
             return {}
 
-        # Step 2: Section Analysis (핵심 4개 섹션)
-        sections: dict[int, Any] = {}
+        # Phase 2: Concept-CoT
+        sections: dict[int, Any] = self.analyze_sections(facts, company)
 
-        sections[1] = self._analyze_section_overview(facts, company)
-        sections[2] = self._analyze_section_industry(facts, company)
-        sections[7] = self._analyze_section_tech(facts, company)
-        sections[11] = self._analyze_section_verdict(facts, company, sections)
+        # Phase 3: Thesis-CoT
+        sections[11] = self.synthesize(sections, facts, company)
 
-        # Step 3: Speed Sheet
+        # Speed Sheet (derived from phases 1–3)
         sections[0] = self._generate_speed_sheet(company, sections)
 
         return sections
@@ -156,8 +304,11 @@ class LLMPipeline:
                 system=_SYSTEM_FACT_EXTRACTOR,
                 temperature=0.1,
                 max_tokens=1500,
+                json_schema=_FACT_SCHEMA,
             )
-            return resp.text or ""
+            if resp.refusal:
+                return ""
+            return self._structured_lines(resp.structured, "facts") or (resp.text or "")
         except Exception:
             logger.warning("Fact extraction failed", exc_info=True)
             return ""
@@ -226,8 +377,11 @@ class LLMPipeline:
                 system=_SYSTEM_SECTION_VERDICT,
                 temperature=0.2,
                 max_tokens=1500,
+                json_schema=_VERDICT_SCHEMA,
             )
-            return resp.text or ""
+            if resp.refusal:
+                return ""
+            return self._format_verdict(resp.structured) or (resp.text or "")
         except Exception:
             logger.warning("Section 11 (verdict) analysis failed", exc_info=True)
             return ""
@@ -296,8 +450,11 @@ class LLMPipeline:
                 system=system,
                 temperature=0.2,
                 max_tokens=1500,
+                json_schema=_SECTION_SCHEMA,
             )
-            return resp.text or ""
+            if resp.refusal:
+                return ""
+            return self._structured_lines(resp.structured, "analysis") or (resp.text or "")
         except Exception:
             logger.warning("Section '%s' analysis failed", section_name, exc_info=True)
             return ""
