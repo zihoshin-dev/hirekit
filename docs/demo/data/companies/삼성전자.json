@@ -1174,5 +1174,35 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://www.samsungcareers.com/",
+  "ai_strategy": {
+    "has_own_llm": true,
+    "llm_name": "Samsung Gauss2",
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": "Samsung Research",
+    "ai_applications": [
+      "온디바이스 AI (Galaxy AI)",
+      "Gauss2 Compact/Balanced/Supreme",
+      "Exynos NPU"
+    ],
+    "ai_hiring_focus": "온디바이스 AI 연구원, NPU 설계 엔지니어",
+    "ai_partnerships": [
+      "Google",
+      "Microsoft",
+      "OpenAI"
+    ],
+    "ai_native_level": "high",
+    "ai_summary": "자체 LLM Gauss2(Compact/Balanced/Supreme) 3종 운영. 온디바이스 AI 갤럭시 탑재. 외부 AI(GPT·Gemini) 하이브리드 전략 병행.",
+    "last_updated": "2026-03"
+  }
 }

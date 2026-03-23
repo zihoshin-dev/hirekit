@@ -978,5 +978,31 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://myrealtrip.career.greetinghr.com/ko/home",
+  "ai_strategy": {
+    "has_own_llm": false,
+    "llm_name": null,
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": null,
+    "ai_applications": [
+      "여행 일정 AI 추천",
+      "상품 개인화",
+      "다국어 AI 번역"
+    ],
+    "ai_hiring_focus": "ML 엔지니어",
+    "ai_partnerships": [],
+    "ai_native_level": "medium",
+    "ai_summary": "2인 AI Lab + 70인 Product Engineer 분산 AX 모델 운영. AI 여행 일정 추천·개인화·다국어 번역 서비스.",
+    "last_updated": "2026-03"
+  }
 }

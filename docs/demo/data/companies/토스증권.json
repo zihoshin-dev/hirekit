@@ -443,7 +443,9 @@
           "title": "[판 뒤집는 토스증권] ④ AI와 함께 만드는 브랜드 가치 - 스트레이트뉴스",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52dXMwOW11RnRUNFZRWDJrSndDbnJmZC1PVFQxN1dUNkdyUWtnOXhSR2hUb0dLVHB5S0RFTGhVQVA0WlRkLTg5aWNtNXZHWGtQclFncG4xZ3NQcGxzZlZPVHduWlE1Y3B5akY3TG1qUlZibFHSAXdBVV95cUxOZkJ3Y0lMNHFMbU5STnlNZ1B0dF9NejNJM05FbmRHemtZQXRFYXM5RW9XZFBHdkdkZlFPYVROZmNESmdYRmJ4dkxvdkN4QmtPTEE4akRCUkNIS1Q1YnlOSThlWXNhUEtnMG9iU3RQVzlwM1RTVkhYQQ?oc=5",
           "pub_date": "Fri, 20 Mar 2026 01:51:32 GMT",
-          "source": "스트레이트뉴스"
+          "source": "스트레이트뉴스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "실적은 최대인데 채용은 '신중'···증권사 채용 전략 변화 - 서울파이낸스",
@@ -455,37 +457,49 @@
           "title": "[증권사 AI]⑦ 토스증권, 투자정보 플랫폼 전략 '드라이브' - 블로터",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5dXN0RWVUa2N1Rmo4NmZiWWJnb0FhQUZEOGdJWnZFM3BjUzR0QmYxR1MyYjNINjlOdWlRdXh4UmpFSTB6SDVNX0dBTTl5VmtiRTZNNGo0STdlUnBZOXhXUzBGcnA3dVhq0gFsQVVfeXFMTXRoNTE2NDlST3ZmRzdwZjFMZXI0TGY5VlNNbEJ1azZPaVk1akRTSzJVNG5zRzVwS2xvdVZkdUZkSl9DTU1ZandNbXpJSDF3UllUUDhaOVJYejRsVnRsR3pMSUU1cFJieHZLcmdQ?oc=5",
           "pub_date": "Thu, 05 Mar 2026 08:00:00 GMT",
-          "source": "블로터"
+          "source": "블로터",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "토스증권 MTS 5주년…'해외주식 1위' 넘어 4050 자산관리 시장 정조준 - 뉴스투데이",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tRGtlNlZ3ZXc0OVRveUdGREJ5ZnZrQ19SSlVWS09qVHlhX2xfQ21YUWFCa3JhUlRKVHZOWXEtbFZ6dURVM09NUXNGUHE5aGxDZ0tkaUplUVdOVzZpRVF5MGhxcFpPcGF1cnpKUmRncGpYc0JaR1pNY2dpUlk?oc=5",
           "pub_date": "Fri, 13 Mar 2026 00:51:00 GMT",
-          "source": "뉴스투데이"
+          "source": "뉴스투데이",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "‘해외주식 왕좌’ 토스증권, 자산관리 시장 진출 착수…수익 다각화 포석 - CEO스코어데일리",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwOWhPVGswcDVWUnFmX250MU85VnZMMzJYUGc4ZFNPTUZYMVQyTS1FSFZ6YlNja0JIT2JtYlQyUXhTZ0tZVjVvVkVHRW94elJ0TVNiTWJMX21OMDVleXJydkZHbWN1QnhLM19v?oc=5",
           "pub_date": "Thu, 22 Jan 2026 08:00:00 GMT",
-          "source": "CEO스코어데일리"
+          "source": "CEO스코어데일리",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "[단독] 토스증권, 디지털 패밀리 오피스 구축 나서…자산관리 강화 - 시사오늘",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01ODFia3pwRUtlRzFrS2RyU2NoY29KWjduLUhtRFNjeml4Wjh1RkxpNGNHdC14cUhpelV4TDFrUmlGYy04OVB6THpqM2V4Zk5NOWppWW9saWliMlhOVm9BZGd3cXRFbkUyYjhJ?oc=5",
           "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
-          "source": "시사오늘"
+          "source": "시사오늘",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "AI 개발자 대신 데이터 엔지니어 수천명 뽑는 토스 왜 - 중앙일보",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RZEh3QjlSREJEanVqYkNnYWk5VFlXaUZPRDNremdtcUx2Rjg3QTR1SERfUjFmSzk0NkdsVkc0YXk1dkdJaXJGZUIyQlhYVWpRRlNjNzFR?oc=5",
           "pub_date": "Mon, 06 Oct 2025 07:00:00 GMT",
-          "source": "중앙일보"
+          "source": "중앙일보",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "[판 뒤집는 토스증권] ➂ “요즘 애들은 증권앱 ‘토스’밖에 모른다” - 스트레이트뉴스",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvaDdmSzVMU3RqRDdtTTlkcnNUbkM0c2M2ZV9xbk4ta2FWRmlhSk1SS1FIVFc4SEIyZFJYM1FVcWdNR1BnSnJzaG1jdTU1RDI3MV9TY21fT0JSZU1FTUw0THJtUUd6TDhsckQ5Qjd3NGowQ1XSAXdBVV95cUxPc05aNzdIS3hEOUsyMUJPN3VRRVdYeUZxSlVzZHR5d2x4NFR3Rm1leGhQTWJkV3NIdDBHMzVkM3hobGx4ckg5NV9PMHlaZ1R2RDlxeE80WEFwNjF3VHBESEhpbXRVVk5tYTdwSVFCb0N4WXFDZHF6RQ?oc=5",
           "pub_date": "Fri, 13 Mar 2026 06:39:58 GMT",
-          "source": "스트레이트뉴스"
+          "source": "스트레이트뉴스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "[채용중] AI가 골라주는 이번주 알짜 채용공고는 | 컴퍼니 타임스의 비즈니스 뉴스 | 컴퍼니 타임스 - 잡플래닛",
@@ -497,19 +511,25 @@
           "title": "토스증권, AI로 자산관리 판 키운다…WM 서비스 전면 확장 - 이코노미사이언스",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zQnJLQXUxTHQ5dDYwajNqTlU0SnhGenpjODNHSDJiVTAyOHQwelgxRkpmNFV1LWRvNUtXSTI4WlFvcmdITTBoZ3FLd2NUSXhzRU9sWXllZ3lSSFMyRXV0M1BNOEFTOHM3eVItaVNrcw?oc=5",
           "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
-          "source": "이코노미사이언스"
+          "source": "이코노미사이언스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "토스증권, AI 접목 자산관리 퀀텀점프…WM 서비스 전면 확장 정조준 - 파이낸셜포스트",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1tWjdTeDg4eklSTTNsSGp0cVNGZkZEbnVZNy1zQ2I3bEZRMmV6el82eE1POFY1X2Z4cEhXTDhKMjRIa3Frc19oU0lpSlJ0bEhMT3ktM1JseWhIS1lIWEVMMlFXMVUyd183bWxfU19tSWFtbl9Y?oc=5",
           "pub_date": "Thu, 15 Jan 2026 08:00:00 GMT",
-          "source": "파이낸셜포스트"
+          "source": "파이낸셜포스트",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "AI 고도화 나선 토스證 “해외 ETF의 구조와 등락 배경까지 분석” - 매일경제",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZMGRGa3NKMDZjUEdNV2V4cDNnbkNYT0JsOHFXQ3ZaY0NTdlhqNi0tbGp3MlBoY3JDRmRZSjVtTVpEN1RPUUhRSVBCMWVROEY5TlE?oc=5",
           "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
-          "source": "매일경제"
+          "source": "매일경제",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "하나증권, ‘국내주식 옮기기 이벤트’ 진행 - 데일리안",
@@ -521,7 +541,9 @@
           "title": "토스, AI 대규모 채용 나선다…핀테크 본연 정체성 강화·글로벌 공략 박차 - 핀테크투데이",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1IR196b2N0SXhsTTJ3clpQcW1HaGc5eko2MktfNGtXblFuVFRlQU9iR0tuR0V4VUdPLTRFdHhvd2FiS05PTldhMEFGbllxZG1mYWhmNTdPc2JacFZfOHVOVlVwa3pNUHgybUROUldhVdIBc0FVX3lxTE1DOFFSekNlN01mejJjMkFvQ1VPenFoUzZHeC1RWUlLdXg3N2d2bkZSMkhPelRxRlJkY2t2VTZ2eGY1UHlyUDYtWTRkT1JYNDNCWDlrMV91N2VTbHAxVUI4RnF6R3VMMGE1eEFfRTNJaFJUY3M?oc=5",
           "pub_date": "Mon, 09 Jun 2025 07:00:00 GMT",
-          "source": "핀테크투데이"
+          "source": "핀테크투데이",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "'AI 조직관리' 정착, 채용과 인사 관행 크게 바꿔 - 애플경제",
@@ -533,31 +555,41 @@
           "title": "사세 확장하는 토스증권···“WM 사업 키우고 M&A 추진” - 시사저널e",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qaFFJR0pQN2JEQVpGY0xJZ1Y2aVduZHNmSFpfVjdQY254dnFIYUg4Q2lTMGZWYUx1N3NuSTc3R21iSlVweVRzUk56dUZROTJsdWNLeGNidGswMDFLeDFZcW9WRzBRWjFJSTBKblJadmdYdnlTZWfSAXZBVV95cUxPamhRSUdKUDdiREFaRmNMSWdWNmlXbmRzZkhaX1Y3UGNueHZxSGFIOENpUzBmVmFMdTdzbkk3N0dtYkpVcHlUc1JOenVGUTkybHVjS3hjYnRrMDAxS3gxWXFvVkcwUVoxSUkwSm5SWnZnWHZ5U2Vn?oc=5",
           "pub_date": "Tue, 17 Mar 2026 06:44:40 GMT",
-          "source": "시사저널e"
+          "source": "시사저널e",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "해외주식 타고 실적 뛴 토스·카카오페이증권…점유율 격차는 확대 - 아주경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwNmh6aFJzMHVoWGFCOG9vSEJnOGdWb19UT0JPZzdwZ1NMREtpVC1WVGV2dzVublA3c2Fkb2hzeTJjSHNpZ3BKVlhscGFmeE80QUtoNVJrNHZFUdIBWEFVX3lxTFBzY3V3VGJnMU4xcU1rYlk5LXJtdF84Z0NtZFBBS2dGeHM3N2RsUFF3VXRuN01XcWNHSzUzRExuVkdxS01iR0dOR2d4Rms3a0NCdGNOV3A0alM?oc=5",
           "pub_date": "Fri, 13 Mar 2026 10:36:47 GMT",
-          "source": "아주경제"
+          "source": "아주경제",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "토스, 2025년 1분기 연결 영업수익 5,679억 원…전년 동기 대비 29.1% 성장 - 토스",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0ZnRpVExXbnRsTFNZT2IyclBULXZmTjBmVkFVLTdtTGhyeF9ubVBJeDBSN2JaeHpfTUt4NTJfdzdJcmt0V2F6VF9rZzNwdw?oc=5",
           "pub_date": "Thu, 15 May 2025 07:00:00 GMT",
-          "source": "토스"
+          "source": "토스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "[K증권 세계지도-⑥] 토스증권, 해외법인 '브로컬리지' 확보… \"터치 한번에 세계로 확장\" - 오늘경제",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtZTBEQ0JreUl1aXhnRm5hR2NYd0ZtMS1BRmZ2bmhlOThuRlJQZXRSNThqcEtTQ3dyay1xcEszejQtNk5FbGNzcDBvZ1U2c0JJa0MzX2N6eXpTVV9Qdnh3aVNQbjFFS3FGdW5wMnRFbHpVb0k?oc=5",
           "pub_date": "Wed, 05 Nov 2025 08:00:00 GMT",
-          "source": "오늘경제"
+          "source": "오늘경제",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "토스증권, '사상 최대 실적'…해외주식 거래가 이끌었다 - 1코노미뉴스",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ITVFHNzh1aFpaMkwyNFRPSGpPRkZFbm02LVpTVDlSdk1KVzMzcFIwdTU5ME95YVZrcmlYaHlIRHJHb00tWTFVdzAxVnpuYlcwQkpZU010dGlONC1aU2Q5ZXBnblp2cnNfSGZ4TXhNVmM?oc=5",
           "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
-          "source": "1코노미뉴스"
+          "source": "1코노미뉴스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         }
       ],
       "korean_credible_news": [
@@ -813,5 +845,16 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "parent_company": "비바리퍼블리카",
+  "subsidiary_group": "토스",
+  "career_url": "https://recruit.tossinvest.com/"
 }

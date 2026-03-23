@@ -1280,5 +1280,36 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "subsidiary_group": "네이버",
+  "career_url": "https://recruit.navercorp.com/",
+  "ai_strategy": {
+    "has_own_llm": true,
+    "llm_name": "HyperCLOVA X SEED",
+    "llm_params": "32B",
+    "llm_open_source": true,
+    "ai_lab": "네이버 AI Lab / 클로바",
+    "ai_applications": [
+      "검색 AI",
+      "쇼핑 추천",
+      "클로바 스튜디오",
+      "하이퍼클로바X B2B"
+    ],
+    "ai_hiring_focus": "AI 연구원, ML 엔지니어, LLM 엔지니어",
+    "ai_partnerships": [
+      "AMD",
+      "NVIDIA"
+    ],
+    "ai_native_level": "high",
+    "ai_summary": "자체 LLM HyperCLOVA X SEED 32B 보유, Apache 2.0 오픈소스 공개. 수능 전과목 1등급. B2B 2,000개 기업 도입. 옴니모달(음성·영상) 업그레이드 진행 중.",
+    "last_updated": "2026-03"
+  }
 }

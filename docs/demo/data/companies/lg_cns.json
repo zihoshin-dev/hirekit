@@ -1163,5 +1163,34 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://careers.lg.com/apply?c=CNS",
+  "ai_strategy": {
+    "has_own_llm": true,
+    "llm_name": "K-EXAONE",
+    "llm_params": "236B",
+    "llm_open_source": false,
+    "ai_lab": "LG AI Research",
+    "ai_applications": [
+      "DAP AI 플랫폼",
+      "산업별 AI 에이전트",
+      "LG그룹사 AI 전환"
+    ],
+    "ai_hiring_focus": "AI 솔루션 아키텍트, MLOps 엔지니어",
+    "ai_partnerships": [
+      "LG AI Research",
+      "Microsoft Azure"
+    ],
+    "ai_native_level": "high",
+    "ai_summary": "LG AI Research의 K-EXAONE 236B 기반 엔터프라이즈 AI 사업. 자체 AI 플랫폼 DAP 운영. LG그룹사 AI 전환 주도.",
+    "last_updated": "2026-03"
+  }
 }

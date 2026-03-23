@@ -45,7 +45,9 @@
           "title": "[취업뉴스] 토스뱅크, 시중 은행·증권사 제치고 '대학생이 일하고 싶은 금융기업' 2년 연속 1위 - 아웃소싱타임스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qd2ZLeFZXT1hFWmFiQU5ib0ZMcE43dVNJM3pTdkdvUFp0YkZjVmhaTHFiVmlSUG9yaUs4UWhySlRjbFcxVHlSMC0tN2VULUVRaXZ0M0d5NGVuVThUUzBTTHVJa1dRQXQ3YXg2N1Ayc0F4Zw?oc=5",
           "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
-          "source": "아웃소싱타임스"
+          "source": "아웃소싱타임스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스뱅크"
         },
         {
           "title": "[금융 단신] 신한펀드파트너스, 생성형 AI 서비스 ‘신비’ 사내 업무 도입 外 - 데일리팝",
@@ -57,19 +59,25 @@
           "title": "몸집 키우는 토스, 2년새 직원 1700명↑…슈퍼앱전략에 인력 수요 '폭증' - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lWEFINDVnc2UwaEtzbmRxNkJKMDlpYlJsVnRrRmZDUEhFS296ZFBRa1N5ZG1xT3NVR2h5UEN1WWlnWGVKcnhzczRBOWV6Z0xQTnQ0?oc=5",
           "pub_date": "Sat, 29 Nov 2025 08:00:00 GMT",
-          "source": "네이트"
+          "source": "네이트",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "초불확실성 시대, 주도적으로 일하는 조직을 만드는 ’토스식 책임 문화’ - 사례뉴스",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EcHRpUzk5WlRvYnZHWWNQR3EydVNuY05FMFFCNEY4c1RhaG94S0VJak5seWl6dUlDRE1fQ2dwYWR3a2RSZW5PeWdMY3gwNkJqR2MwTjBrbmFYWnhZUFJkV2d4S01zT3pmQjdZ0gFvQVVfeXFMTUk5X280V2hVTEtvODh0RlhsV2Q1OHJ1VXpzM2ZoaUlydExrWlBwWkIxc0xyMldnQ19VTnpLMk5iTVdjZXAyUlkySmpqa3g1bzUtTndEUTJrOE9SdHF4WWVrbHdmcXpiVzVFOU1Mb2Jj?oc=5",
           "pub_date": "Fri, 30 May 2025 07:00:00 GMT",
-          "source": "사례뉴스"
+          "source": "사례뉴스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "잠재 고객은 많지만…‘커머스 원년 선포’ 토스쇼핑 기대와 우려 - 일요신문",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIei02UjZzMDQxY0pQeU5CbEItSnh6TVpEMm1RQlVOekZPNnlXNkVhckloc3ZXTGhqc25RN0NncUEyRnNCUEcxb2JnT3dRZXRyMEptQWdaa1dncXhwWnFuZHZ2MkNKQQ?oc=5",
           "pub_date": "Wed, 21 May 2025 07:00:00 GMT",
-          "source": "일요신문"
+          "source": "일요신문",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "김민표 두산로보틱스 대표 “로봇을 다시 정의해 봅니다” - 포춘코리아",
@@ -81,7 +89,9 @@
           "title": "토스뱅크, 시중 은행 및 증권사 모두 제치고 2년 연속 1위 - 브랜드뉴스",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JWDNrSTBLZ05TM3Z3NnhXUkFsbS1MQ0xWQXg1cTlZZGtHeGFjNGp5eno3UnpGZndzYlZoOVhkeWJVMHZrRlVOTWtXdzRERUF3aUtfRTdBcHRtUzFuUGt5TFRnNEs3U1hFUzhmdg?oc=5",
           "pub_date": "Thu, 31 Jul 2025 07:00:00 GMT",
-          "source": "브랜드뉴스"
+          "source": "브랜드뉴스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스뱅크"
         },
         {
           "title": "\"데이터로 시장 읽고, 커머스까지 아우르는 '원 플랫폼'으로 진화\"… 강인석 스토어링크 CTO - 브랜드브리프",
@@ -99,37 +109,49 @@
           "title": "토스증권 채용 - 토스",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfazFWRTE5RVh5OGJXVzRtYzZCMDloQ3RFX0N1Wlc2ckdtRHBBVDVGcGx1TjhHN2tyZVpoOVUzUU1mX2hWVFVHaU9pX3pRZw?oc=5",
           "pub_date": "Tue, 17 Oct 2023 03:05:03 GMT",
-          "source": "토스"
+          "source": "토스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스증권"
         },
         {
           "title": "토스, 2025년 상반기 연결 기준 영업수익 1.2조 원 돌파… 전년 동기 대비 35% 성 - 토스",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IeVd3UGw2TkpXVGxBN1cwMDlDcGJkTUdsajEtX2NlOU9WenhoNVN4X2g1bURDS3Z5ZklvU1NEdXJKbGJTSkk5SHQtbzBVZw?oc=5",
           "pub_date": "Thu, 14 Aug 2025 07:00:00 GMT",
-          "source": "토스"
+          "source": "토스",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "토스페이먼츠·에스티엘, 물류 정산 체계 자동화 협력 - 물류신문",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lZ3A4TXBMTU4zaFdmYUJVbU1RZ3VYVDdwUGYzSnFPcVpWQkpIcUtjNDh4UldGd3U2eWwwS2JjUm5TZV9qenhSUGsycUlENlBsSVNkeUJyWm9fRTBBRjlSelRHUm0tdjRseWFj?oc=5",
           "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
-          "source": "물류신문"
+          "source": "물류신문",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "토스페이먼츠, 에스티엘과 '구매전용카드 기반' 결제 시스템 MOU 체결 - 뉴스1",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JUkFyYnlLbjlMYUtUWld6SzBOYVpuQWQzSHUtLXpQN0NGUlZUdWVuYnZFN1I0UWFqSmhnOXJaRGdnNTh0cFNWOGFYTzduOW1QaEFtQVVVMlM2QjVLclRLVlVB?oc=5",
           "pub_date": "Thu, 13 Nov 2025 08:00:00 GMT",
-          "source": "뉴스1"
+          "source": "뉴스1",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "에스티엘·토스페이먼츠, 물류정산 시스템 혁신 '맞손' - 마켓인",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02YjAydGkxLWx2VTVjX0VIczJWZkFjak1kV3d6dXJPcmFwWGtOSVRCcDdza25HaDBnS0UtZGhWcUxfWEp5NzI2RkJoTFN3Q1ozLS1CcWZyNmVRM09hWlBHSlhydEN5SVhMOVJXdnJEaWV6ejA?oc=5",
           "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
-          "source": "마켓인"
+          "source": "마켓인",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         },
         {
           "title": "토스, 10년 만에 금융플랫폼 '우뚝'…사업 다각화 성과 - IB토마토",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40T0o0NHVrWlZIRzVFQnFabXBwRUVWa0oyeFJnM0hLellETllCRFM5MjVwT0RPVkRRVDVSLUhUcTRKQTBsa2NUaTJnUHJ4T0ExU3MxaHh3N0NYdEdzN2pKTWJhQ3JIdzFtdUhSUGVoRzJHRk9i?oc=5",
           "pub_date": "Tue, 02 Sep 2025 07:00:00 GMT",
-          "source": "IB토마토"
+          "source": "IB토마토",
+          "mixed_subsidiary": true,
+          "mixed_with": "토스"
         }
       ],
       "korean_credible_news": [
@@ -784,5 +806,16 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "parent_company": "비바리퍼블리카",
+  "subsidiary_group": "토스",
+  "career_url": "https://toss.im/career/tosspayments"
 }

@@ -772,5 +772,32 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "subsidiary_group": "토스",
+  "career_url": "https://careers.toss.im/",
+  "ai_strategy": {
+    "has_own_llm": false,
+    "llm_name": null,
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": null,
+    "ai_applications": [
+      "금융 ML 모델",
+      "오픈소스 LLM 파인튜닝",
+      "사기 탐지 AI"
+    ],
+    "ai_hiring_focus": "ML 엔지니어, 데이터 엔지니어, AI 연구원",
+    "ai_partnerships": [],
+    "ai_native_level": "medium",
+    "ai_summary": "자체 LLM 없음. 금융 특화 ML 모델과 오픈소스 LLM 파인튜닝 중심. ML/데이터 엔지니어 대규모 채용 중.",
+    "last_updated": "2026-03"
+  }
 }

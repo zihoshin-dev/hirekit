@@ -784,5 +784,32 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://career.woowahan.com/",
+  "ai_strategy": {
+    "has_own_llm": false,
+    "llm_name": null,
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": null,
+    "ai_applications": [
+      "배차 최적화 AI",
+      "메뉴 추천 개인화",
+      "LLMOps 2.0",
+      "수요 예측"
+    ],
+    "ai_hiring_focus": "ML 엔지니어, LLMOps 엔지니어",
+    "ai_partnerships": [],
+    "ai_native_level": "medium",
+    "ai_summary": "배차·추천·필터링 전 영역 AI 적용. LLMOps 2.0 플랫폼 구축. 음식 인식 AI 및 배달 수요 예측 모델 운영.",
+    "last_updated": "2026-03"
+  }
 }

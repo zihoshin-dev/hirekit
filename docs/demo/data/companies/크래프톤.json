@@ -1099,5 +1099,33 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://www.krafton.com/en/careers/jobs/",
+  "ai_strategy": {
+    "has_own_llm": false,
+    "llm_name": null,
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": "크래프톤 AI Lab",
+    "ai_applications": [
+      "CPC AI NPC",
+      "딥러닝 게임 AI",
+      "사내 생산성 AI"
+    ],
+    "ai_hiring_focus": "게임 AI 연구원, NPC AI 엔지니어",
+    "ai_partnerships": [
+      "NVIDIA"
+    ],
+    "ai_native_level": "medium",
+    "ai_summary": "CAIO 신설, GTC 2026 AI NPC 기술 발표. CPC(Co-Playable Character) AI NPC 자체 개발. 딥러닝 기반 게임 AI 연구.",
+    "last_updated": "2026-03"
+  }
 }

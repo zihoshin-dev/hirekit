@@ -835,5 +835,32 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://makinarocks.career.greetinghr.com/ko/home",
+  "ai_strategy": {
+    "has_own_llm": false,
+    "llm_name": null,
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": "마키나락스 AI Research",
+    "ai_applications": [
+      "산업 AI 플랫폼 Runway",
+      "예측 유지보수",
+      "이상 탐지",
+      "공정 최적화"
+    ],
+    "ai_hiring_focus": "산업 AI 연구원, MLOps 엔지니어",
+    "ai_partnerships": [],
+    "ai_native_level": "high",
+    "ai_summary": "산업 AI 전문기업. 자체 MLOps 플랫폼 Runway 운영. 제조업 특화 AI(예측 유지보수·이상 탐지) 및 산업용 LLM 개발.",
+    "last_updated": "2026-03"
+  }
 }

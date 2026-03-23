@@ -153,7 +153,20 @@
       "(주)베네통코리아 / IT Infra Specialist 채용",
       "시스템 업그레이드 및 프로젝트 관리",
       "Back End 개발자 채용 (Java/Spring Boot)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363927",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://aws.amazon.com/ko/careers/"
   },
   {
     "name": "CJ ENM",
@@ -364,7 +377,20 @@
       "employee_total": 3023,
       "employee_avg_salary": 90707244,
       "employee_avg_tenure": "112개월"
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363934",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://recruit.cjenm.com/"
   },
   {
     "name": "CJ올리브영",
@@ -508,7 +534,20 @@
       "[CJ올리브영] 브랜딩 커뮤니케이션 &amp; IMC 캠페인 매니저",
       "[CJ올리브영] 도심물류매장 MFC 운영(계약직) - 인천점",
       "[CJ올리브영] 광고 PM (시니어)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363946",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://career.oliveyoung.com/ko/home"
   },
   {
     "name": "JYP엔터테인먼트",
@@ -648,7 +687,20 @@
       "[스탠포드호텔 서울] F&amp;B 연회서비스 경력직(주임,대리) 채용",
       "[스탠포드호텔코리아 서울] 조리팀 주임/대리 채용",
       "[스탠포드호텔코리아 서울] 베이커리 파티셰 채용 (사원/주임)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363954",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://recruit.jype.com/"
   },
   {
     "name": "KT",
@@ -993,7 +1045,20 @@
         "KT AI 사업 확대",
         "AICT(AI+ICT) 전환 전략"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363964",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://recruit.kt.com/"
   },
   {
     "name": "LG CNS",
@@ -1334,7 +1399,21 @@
         "FusionAI 엔터프라이즈 확대",
         "클라우드 MSP 사업 강화"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363972",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.lg.com/apply?c=CNS",
+    "ai_native_level": "high"
   },
   {
     "name": "SK텔레콤",
@@ -1675,7 +1754,21 @@
         "에이닷 AI 에이전트 고도화",
         "글로벌 AI 통신 사업"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363980",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.sktelecom.com/",
+    "ai_native_level": "high"
   },
   {
     "name": "SK하이닉스",
@@ -2070,7 +2163,20 @@
         "PIM(Processing In Memory) 상용화",
         "CXL 생태계 확장"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363981",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://recruit.skhynix.com/"
   },
   {
     "name": "SM엔터테인먼트",
@@ -2215,7 +2321,20 @@
       "생산 MD 담당자 채용 (경력)",
       "브랜드파트너십 운영 및 관리 담당자 채용 (신입/경력)",
       "연결회계 담당자 채용 (경력 5-8년차)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363990",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://recruit.smentertainment.com/ko/home"
   },
   {
     "name": "SSG닷컴",
@@ -2356,7 +2475,20 @@
       "[가산디지털단지역,LGU+자회사 CS, 정규직]",
       "(주)칸그림 상반기 패션 온라인 MD / AMD 정규직 채용",
       "[라로제코리아] 프랑스 뷰티 브랜드 기획팀 채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.363997",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://ssg.career.greetinghr.com/ko/career"
   },
   {
     "name": "xAI",
@@ -2502,7 +2634,20 @@
       "[위성기술] 나라스페이스테크놀로지 각 부문별 신입/경력 모집",
       "AI 기반 기획/마케팅 업무에 관심있는 인재를 채용합니다",
       "[신용평가사] AI개발자를 모십니다"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364005",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://x.ai/careers"
   },
   {
     "name": "구글코리아",
@@ -2650,7 +2795,20 @@
       "[올록담] 부문별 경력직원 채용",
       "[머크] Medical Advisor, Rare Tumors(12개월 계약직, 2년 경력)",
       "[머크] Corporate Affairs Specialist (1년 계약직, 서울 근무)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364012",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.google.com/about/careers/applications/locations/seoul/"
   },
   {
     "name": "그린랩스",
@@ -2785,7 +2943,20 @@
     "recent_posting_date": null,
     "hiring_positions": [
       "[모딩 플랫폼] UXUI 프로덕트 디자이너(Product Designer) 채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364019",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://greenlabs.co.kr/careers/"
   },
   {
     "name": "네이버",
@@ -3229,7 +3400,22 @@
         "HyperCLOVA X 기반 AI 서비스 확대",
         "네이버 1784 로봇 서비스"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364020",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "네이버",
+    "career_url": "https://recruit.navercorp.com/",
+    "ai_native_level": "high"
   },
   {
     "name": "네이버웹툰",
@@ -3580,7 +3766,22 @@
         "스마트스토어 AI 상품 추천",
         "CLOVA X 기업용 LLM 서비스"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364022",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "네이버",
+    "parent_company": "네이버",
+    "career_url": "https://recruit.webtoonscorp.com/"
   },
   {
     "name": "네이버클라우드",
@@ -3932,7 +4133,22 @@
         "스마트스토어 AI 상품 추천",
         "CLOVA X 기업용 LLM 서비스"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364024",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "네이버",
+    "parent_company": "네이버",
+    "career_url": "https://career.navercloudcorp.com/navercloud/"
   },
   {
     "name": "네이버파이낸셜",
@@ -4230,7 +4446,22 @@
         "스마트스토어 AI 상품 추천",
         "CLOVA X 기업용 LLM 서비스"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364028",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "네이버",
+    "parent_company": "네이버",
+    "career_url": "https://recruit.naverfincorp.com/"
   },
   {
     "name": "넥슨코리아",
@@ -4586,7 +4817,20 @@
         "던전앤파이터 모바일 글로벌",
         "메이플스토리 AI NPC"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364036",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.nexon.com/"
   },
   {
     "name": "넷마블",
@@ -4737,7 +4981,20 @@
       "IT 감사 담당자 모집",
       "정보보호 정책담당자 모집",
       "게임 데이터 분석 담당자 모집"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364043",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://career.netmarble.com/"
   },
   {
     "name": "당근",
@@ -5148,7 +5405,21 @@
         "글로벌 확장 (Karrot 브랜드)",
         "지역 커머스 강화"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364044",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://about.daangn.com/jobs/",
+    "ai_native_level": "medium"
   },
   {
     "name": "두나무",
@@ -5541,7 +5812,20 @@
         "업비트 글로벌 확장",
         "Web3 금융 서비스"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364046",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.dunamu.com/"
   },
   {
     "name": "딥마인드코리아",
@@ -5607,6 +5891,8 @@
       "캐나다",
       "프랑스"
     ],
+    "ceo": "데미스 허사비스",
+    "ceo_background": "구글 딥마인드 공동창업자 겸 CEO. AlphaGo·AlphaFold·Gemini 계열 연구를 이끄는 글로벌 AI 리더",
     "is_foreign": true,
     "parent_company": "Alphabet Inc. (Google DeepMind)",
     "parent_ticker": "GOOGL",
@@ -5678,7 +5964,20 @@
       "[로봇 기업] 품질관리(QC) 경력 모집",
       "로보틱스 하드웨어 (설계) 엔지니어 모집 (신입/경력)",
       "[로봇기업] 회계 경력 사원 모집"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364054",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://deepmind.google/about/careers/"
   },
   {
     "name": "라인플러스",
@@ -6099,7 +6398,22 @@
         "LINE AI 에이전트",
         "Web3/NFT 서비스 (DOSI)"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364055",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "네이버",
+    "parent_company": "네이버",
+    "career_url": "https://careers.linecorp.com/ko/"
   },
   {
     "name": "뤼튼",
@@ -6456,7 +6770,20 @@
         "장비 지원",
         "AI 툴 무제한 사용"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364056",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://wrtn.io/career/"
   },
   {
     "name": "리디",
@@ -6601,7 +6928,20 @@
       "Backend Engineer",
       "일본 만화 출판 디자이너",
       "Product Manager (추천/탐색)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364064",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://ridi.career.greetinghr.com/ko/home"
   },
   {
     "name": "리벨리온",
@@ -6862,7 +7202,20 @@
         ],
         "ai_ml_focus": "AI 추론 최적화 팀, 모델 컴파일러 팀 핵심"
       }
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364071",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://rebellions.career.greetinghr.com/ko/accelerate-your-career"
   },
   {
     "name": "리턴제로",
@@ -6990,7 +7343,21 @@
       "2026년 본사 및 관계사 채용",
       "2026년 상반기 각 부문별 신입/경력 채용공고",
       "2026년 1분기 분야별 공개채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364078",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.rtzr.ai/recruit",
+    "ai_native_level": "high"
   },
   {
     "name": "마이리얼트립",
@@ -7135,7 +7502,21 @@
       "[마이리얼트립] People&amp;Comms실 GA/IT Manager(신입)",
       "[마이리얼트립] 크리에이터 마케팅 매니저",
       "[마이리얼트립] 미주팀 콘텐츠마케터(계약직)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364085",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://myrealtrip.career.greetinghr.com/ko/home",
+    "ai_native_level": "medium"
   },
   {
     "name": "마키나락스",
@@ -7273,7 +7654,21 @@
     "hiring_positions": [
       "General Affairs Manager",
       "IR Manager"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364092",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://makinarocks.career.greetinghr.com/ko/home",
+    "ai_native_level": "high"
   },
   {
     "name": "메이크스타",
@@ -7421,7 +7816,20 @@
       "K-POP 굿즈(포토카드) 물류운영담당자",
       "[누아엔터테인먼트] 배우매니지먼트팀 현장매니저 채용",
       "[스킨79] 영업기획팀 온라인MD 채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364099",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://makestar.career.greetinghr.com/process"
   },
   {
     "name": "메타코리아",
@@ -7573,7 +7981,20 @@
       "2026년 본사 및 관계사 채용",
       "2026년 상반기 각 부문별 신입/경력 채용공고",
       "2026년 1분기 분야별 공개채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364106",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.metacareers.com/"
   },
   {
     "name": "무신사",
@@ -7973,7 +8394,20 @@
         "글로벌 패션 플랫폼 확장",
         "무신사 오프라인 스토어"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364107",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://corp.musinsa.com/ko/career/"
   },
   {
     "name": "밀리의서재",
@@ -8112,7 +8546,20 @@
       "[가산디지털단지역,LGU+자회사 CS, 정규직]",
       "[아파트멘터리] 리모델링 매니저 운영·관리 담당자",
       "[아파트멘터리] Arckit(주방/수납 제작가구) 디자인/설계 담당자"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364115",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.millie.town/careers/"
   },
   {
     "name": "뱅크샐러드",
@@ -8254,7 +8701,20 @@
       "[어라운드] Lead Chef, Chef : 신입 / 경력 정규직 채용 공고",
       "[디자인 스튜디오 태도] 브랜드, 그래픽 디자이너 채용",
       "[금천구] 방사선사 선생님 구인(주5일근무)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364122",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://corp.banksalad.com/jobs/"
   },
   {
     "name": "버킷플레이스",
@@ -8402,7 +8862,20 @@
       "커머스 AMD (계약직)",
       "O2O Operations Manager",
       "소셜마케터 (계약직)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364129",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.bucketplace.com/careers/"
   },
   {
     "name": "빗썸",
@@ -8535,7 +9008,20 @@
       "[빗썸서비스] CS전문상담(10-19시, 정규직)",
       "[영업X/초보가능] 가상자산 거래소 빗썸 이용관련 단순상담 MHw2",
       "[NAVER Cloud] AI/Cloud 비즈니스 전략·사업개발 (체험형 인턴)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364136",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.bithumb-careers.com/"
   },
   {
     "name": "삼성SDS",
@@ -8742,7 +9228,20 @@
       "employee_total": 22774,
       "employee_avg_salary": 67223237,
       "employee_avg_tenure": "16.7"
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364137",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.samsungsds.com/en/careers/overview/about_care_over.html"
   },
   {
     "name": "삼성전자",
@@ -9167,7 +9666,21 @@
         "3nm 파운드리 양산",
         "삼성 HBM4"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364138",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.samsungcareers.com/",
+    "ai_native_level": "high"
   },
   {
     "name": "세일즈포스코리아",
@@ -9325,7 +9838,20 @@
       "[닥터지] Domestic부문 Brand Marketing Director",
       "트레이드 마케팅 매니저 채용",
       "[강남구청역] 글로벌 신발 의류 브랜드 'D'사 AR Accountant"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364146",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.salesforce.com/kr/company/careers/"
   },
   {
     "name": "센드버드",
@@ -9470,7 +9996,20 @@
       "2026년 본사 및 관계사 채용",
       "2026년 상반기 각 부문별 신입/경력 채용공고",
       "2026년 1분기 분야별 공개채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364153",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://sendbird.com/ko/careers"
   },
   {
     "name": "스노우",
@@ -9619,7 +10158,22 @@
       "스노우라인 마케팅팀 채용 공고 (경력 / 신입)",
       "(주)스노우라인 시각디자인(디자이너) 채용공고를 안내해요",
       "[Snow Peak] 스노우피크 직영 스토어/레스토랑/물류/오피스 정직원 채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364160",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "네이버",
+    "parent_company": "네이버",
+    "career_url": "https://recruit.snowcorp.com/"
   },
   {
     "name": "스캐터랩",
@@ -9746,7 +10300,21 @@
     "recent_posting_date": null,
     "hiring_positions": [
       "zeta 일본 CS담당자 (오퍼레이션)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364167",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.scatterlab.co.kr/ko/recruiting",
+    "ai_native_level": "high"
   },
   {
     "name": "쏘카",
@@ -10008,7 +10576,20 @@
         ],
         "ai_ml_focus": "차량 배치 최적화 ML, 수요예측, 가격 동적 책정 팀"
       }
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364175",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://corp.socar.me/careers/jobs"
   },
   {
     "name": "애플코리아",
@@ -10154,7 +10735,20 @@
       "[가산디지털단지역,LGU+자회사 CS, 정규직]",
       "(주)엠디에스코리아 회계부 경력직 채용 공고",
       "(주)엠디에스코리아 영업지원팀 신입 및 경력직 채용 공고"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364182",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://jobs.apple.com/en-us/search?location=korea-republic-of-KOR"
   },
   {
     "name": "앤트로픽코리아",
@@ -10302,7 +10896,20 @@
       "2026년 본사 및 관계사 채용",
       "2026년 상반기 각 부문별 신입/경력 채용공고",
       "2026년 1분기 분야별 공개채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364189",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.anthropic.com/careers"
   },
   {
     "name": "야놀자",
@@ -10700,7 +11307,20 @@
         "글로벌 여행 플랫폼 통합",
         "AI 여행 추천 서비스"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364190",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.yanolja.co/"
   },
   {
     "name": "업스테이지",
@@ -11021,7 +11641,21 @@
         "컨퍼런스 참가 지원",
         "장비 최신화"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364198",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.upstage.ai",
+    "ai_native_level": "high"
   },
   {
     "name": "에이프로젠",
@@ -11156,7 +11790,20 @@
       "2026년 본사 및 관계사 채용",
       "2026년 상반기 각 부문별 신입/경력 채용공고",
       "2026년 1분기 분야별 공개채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364204",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://aprogen.recruiter.co.kr/"
   },
   {
     "name": "엔비디아코리아",
@@ -11307,7 +11954,20 @@
       "NVIDIA Ops 인턴 채용",
       "NVIDIA 세일즈, 테크 채용",
       "ML Engineer/Researcher (경력)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364211",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.nvidia.com/en-us/about-nvidia/careers/"
   },
   {
     "name": "엔씨소프트",
@@ -11650,7 +12310,20 @@
         "VARCO LLM 상용화",
         "Project G"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364218",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.ncsoft.com/"
   },
   {
     "name": "오픈AI코리아",
@@ -11803,7 +12476,20 @@
       "[디스트릭트] AI 기반 2D/3D 모션 그래픽 제작자 채용",
       "윈도우 응용 프로그래머(C++, C#) 신입~초중급 개발자 모집",
       "AI 서비스 백엔드 개발자(경력)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364225",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://openai.com/careers/"
   },
   {
     "name": "왓챠",
@@ -11932,7 +12618,20 @@
       "삼성중공업 사무직 채용",
       "[SK에코플랜트/용인 처인구] 사무직 채용",
       "[SK쉴더스/판교] 정보보안구매팀 사무직 직원 채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364231",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://watcha.team/"
   },
   {
     "name": "우아한형제들",
@@ -12332,7 +13031,21 @@
         "AI 배달 최적화",
         "로봇 배달 확대"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364232",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://career.woowahan.com/",
+    "ai_native_level": "medium"
   },
   {
     "name": "원티드랩",
@@ -12615,7 +13328,20 @@
         ],
         "ai_ml_focus": "채용 매칭 ML, 연봉 예측 모델, 추천 알고리즘 팀"
       }
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364240",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.wantedlab.team/"
   },
   {
     "name": "지마켓",
@@ -12760,7 +13486,20 @@
       "[지마켓/경력] 글로벌 역직구 운영 매니저",
       "[지마켓/경력] 검색 트래픽 전략 및 최적화 매니저",
       "[지마켓] 취약점 관리 Manager"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364246",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.gmarket.com/"
   },
   {
     "name": "직방",
@@ -13046,7 +13785,20 @@
         ],
         "ai_ml_focus": "부동산 가격 예측 ML, 추천 알고리즘, 시장 분석 팀"
       }
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364253",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://career.zigbang.com/"
   },
   {
     "name": "채널코퍼레이션",
@@ -13309,7 +14061,20 @@
         ],
         "ai_ml_focus": "알프(AI 상담봇) LLM 파인튜닝, RAG 시스템 개발"
       }
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364261",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://channel.io/ko/jobs"
   },
   {
     "name": "카카오",
@@ -13745,7 +14510,22 @@
         "카카오AI 어시스턴트",
         "카나나(AI 캐릭터 서비스)"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364261",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "카카오",
+    "career_url": "https://careers.kakao.com/",
+    "ai_native_level": "high"
   },
   {
     "name": "카카오뱅크",
@@ -14160,7 +14940,22 @@
         "카카오뱅크 AI 금융비서",
         "글로벌 인터넷뱅킹 수출"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364263",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "카카오",
+    "parent_company": "카카오",
+    "career_url": "https://recruit.kakaobank.com/"
   },
   {
     "name": "카카오스타일",
@@ -14443,7 +15238,22 @@
         "카카오맵 AI 경로 최적화",
         "카카오쇼핑 개인화 추천 엔진"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364264",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "카카오",
+    "parent_company": "카카오",
+    "career_url": "https://career.kakaostyle.com/jobs"
   },
   {
     "name": "카카오엔터테인먼트",
@@ -14784,7 +15594,22 @@
         "카카오맵 AI 경로 최적화",
         "카카오쇼핑 개인화 추천 엔진"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364266",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "카카오",
+    "parent_company": "카카오",
+    "career_url": "https://careers.kakaoent.com/ko/main"
   },
   {
     "name": "카카오페이",
@@ -15181,7 +16006,22 @@
         "카카오페이AI 금융비서",
         "글로벌 결제 확장"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364267",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "카카오",
+    "parent_company": "카카오",
+    "career_url": "https://kakaopay.career.greetinghr.com/ko/main"
   },
   {
     "name": "카카오페이증권",
@@ -15464,7 +16304,22 @@
         "카카오맵 AI 경로 최적화",
         "카카오쇼핑 개인화 추천 엔진"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364269",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "카카오",
+    "parent_company": "카카오",
+    "career_url": "https://career.kakaopaysec.com/"
   },
   {
     "name": "컬리",
@@ -15720,7 +16575,20 @@
         ],
         "ai_ml_focus": "상품 추천, 수요예측, 새벽배송 최적화 ML팀"
       }
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364276",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://kurly.career.greetinghr.com/ko/home"
   },
   {
     "name": "코인원",
@@ -15846,7 +16714,20 @@
       "2026년 본사 및 관계사 채용",
       "2026년 상반기 각 부문별 신입/경력 채용공고",
       "2026년 1분기 분야별 공개채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364283",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://recruit.coinonecorp.com/"
   },
   {
     "name": "쿠팡",
@@ -16255,7 +17136,21 @@
         "쿠팡 대만 확장",
         "쿠팡AI 쇼핑 추천"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364284",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.coupang.jobs/en/",
+    "ai_native_level": "medium"
   },
   {
     "name": "크래프톤",
@@ -16591,7 +17486,21 @@
         "인조이(생활 시뮬레이션)",
         "Unreal5 기반 신작 IP"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364291",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.krafton.com/en/careers/jobs/",
+    "ai_native_level": "medium"
   },
   {
     "name": "클래스101",
@@ -16723,7 +17632,20 @@
       "Finance Manager",
       "[미리캔버스] 프롬프트 엔지니어 (Prompt Engineer)",
       "[미리캔버스] 글로벌 디자인 디렉터"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364298",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://jobs.class101.net/"
   },
   {
     "name": "테슬라코리아",
@@ -16864,7 +17786,20 @@
       "인천물류센터 PDI 담당 신입/경력 모집",
       "김해물류센터 PDI 담당 신입/경력 모집",
       "[두산퓨얼셀 협력사] RMS 생산 조립 담당자 채용"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364305",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.tesla.com/ko_KR/careers"
   },
   {
     "name": "토스 (비바리퍼블리카)",
@@ -17281,7 +18216,22 @@
         "토스 글로벌 확장 (동남아)",
         "토스AI 금융 어드바이저"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364307",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "토스",
+    "career_url": null,
+    "ai_native_level": "medium"
   },
   {
     "name": "토스랩",
@@ -17413,7 +18363,22 @@
       "[NICE그룹계열사] 퍼포먼스마케터 신입/경력 채용",
       "쏘피컴퍼니(주) [이커머스] 화장품 국내 판매 채널 운영",
       "[디지털광고대행사]전략 기획 운영 영업  AE/AM 정규직(신입)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364310",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "토스",
+    "parent_company": "토스",
+    "career_url": "https://team.tosslab.com/"
   },
   {
     "name": "토스뱅크",
@@ -17782,7 +18747,22 @@
         "AI 금융 어드바이저",
         "기업뱅킹 서비스"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364311",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "토스",
+    "parent_company": "토스",
+    "career_url": "https://recruit.tossbank.com/"
   },
   {
     "name": "토스증권",
@@ -18004,7 +18984,22 @@
         "최신 장비 지원"
       ],
       "glassdoor_sentiment": "잡플래닛 4.0점 — '수평 문화·연봉 우수, 빠른 성장세 만큼 업무 강도도 높음'"
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364312",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "토스",
+    "parent_company": "토스",
+    "career_url": "https://recruit.tossinvest.com/"
   },
   {
     "name": "토스페이먼츠",
@@ -18147,7 +19142,22 @@
       "Technical Product Manager (전문통신 플랫폼)",
       "Frontend Developer(공통)",
       "Frontend Developer(4년이상)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364315",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "subsidiary_group": "토스",
+    "parent_company": "토스",
+    "career_url": "https://toss.im/career/tosspayments"
   },
   {
     "name": "포티투마루",
@@ -18278,7 +19288,20 @@
       "[포티투마루] RAG/LLM 솔루션 영업 (경력 3년 이상)",
       "[디자인] 마케팅 디자이너, UI/UX (경력5년 이상)",
       "AI 솔루션 및 서비스 개발: Front-end (경력 3년 이상)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364322",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://www.42maru.ai/kr/about-us/careers/"
   },
   {
     "name": "퓨리오사AI",
@@ -18419,7 +19442,20 @@
     "recent_posting_date": null,
     "hiring_positions": [
       "[MangoBoost(망고부스트)] Design Verification Engineer"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364329",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://furiosa.ai/careers"
   },
   {
     "name": "핀다",
@@ -18547,7 +19583,20 @@
       "네트워크 엔지니어",
       "보안 솔루션 엔지니어 (시니어)",
       "AI Agent 개발자"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364336",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://finda.co.kr/careers"
   },
   {
     "name": "하이브",
@@ -18883,7 +19932,20 @@
         "Weverse AI 팬덤 서비스",
         "IP 기반 메타버스"
       ]
-    }
+    },
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364344",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.hybecorp.com/ko/home"
   },
   {
     "name": "한국마이크로소프트",
@@ -19030,6 +20092,19 @@
       "에스코토스컨설팅 2026 언론 PR 신입 및 사원 채용",
       "IT Application 운영 담당자",
       "[쿠팡 CPLB] 제품 검수 담당자 (계약직)"
-    ]
+    ],
+    "_meta": {
+      "publication_boundary": "public_demo",
+      "cross_validated": true,
+      "confidence": "high",
+      "snapshot_updated_at": "2026-03-23T00:05:58.364353",
+      "trust_flags": [
+        "identity",
+        "business",
+        "metrics",
+        "tech_stack"
+      ]
+    },
+    "career_url": "https://careers.microsoft.com/"
   }
 ]

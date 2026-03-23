@@ -1150,5 +1150,32 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://about.daangn.com/jobs/",
+  "ai_strategy": {
+    "has_own_llm": false,
+    "llm_name": null,
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": null,
+    "ai_applications": [
+      "GenAI 플랫폼",
+      "LLM Router",
+      "AI 상품 등록 자동화",
+      "AI 사기 탐지"
+    ],
+    "ai_hiring_focus": "ML 엔지니어, GenAI 플랫폼 엔지니어",
+    "ai_partnerships": [],
+    "ai_native_level": "medium",
+    "ai_summary": "사내 GenAI 플랫폼 구축, LLM Router 운영. 수백 개 AI 유스케이스 적용. AI 상품 등록 자동화·사기 탐지·개인화 피드 추천.",
+    "last_updated": "2026-03"
+  }
 }

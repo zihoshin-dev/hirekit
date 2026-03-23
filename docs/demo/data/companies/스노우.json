@@ -180,7 +180,9 @@
           "title": "[감성코퍼레이션] 스노우피크 열풍, 이제는 중국에서 터진다… 감성코퍼레이션의 진짜 시작! - 네이버 프리미엄콘텐츠",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm5QN1B4blZaM0Myb2JSZ1ZIbmliTU1YNU1DWm5yZ3VkSFRsUzVlbkRYajk3YzlUTnJMSEZDOHpZeDBpVUFIeDUwTnZqWV9ZcUNSZzNtSWdGenRmWXdIQ0NpZGlxNlNoM3Z3U0JIeVBfbWI0MG50Y1hxZDdkNFZfZzNxVmhGQXE0?oc=5",
           "pub_date": "Tue, 09 Dec 2025 08:00:00 GMT",
-          "source": "네이버 프리미엄콘텐츠"
+          "source": "네이버 프리미엄콘텐츠",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "‘3분기 견조한 성장’ 감성코퍼레이션, 겨울 성수기 최대 실적 기대 - 패션비즈",
@@ -976,5 +978,16 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "parent_company": "네이버",
+  "subsidiary_group": "네이버",
+  "career_url": "https://recruit.snowcorp.com/"
 }

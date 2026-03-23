@@ -47,25 +47,33 @@
           "title": "[#클라우드 월드] 삼성SDS '인더스트리 데이' 개최·SK AX '엑스젠틱와이어' 공개·네이버클라우드 '케어콜 사회적 가치' 창출·CJ올리브넷 '상반기 신입 채용' - 뉴스웍스",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83aUNOODlVNDZBQ1p1THp3Tkh1bXBfSE1CWkxiZnUyVndBeWNvdE81eWlibXZxZnZXVFowblZDQnlWZXVNdDZGckFCNHBvbHo3UVJMajdfeWVxNm5RWjhpb0VLWlc4R3htaXk4SkFuNlJTenfSAXNBVV95cUxPN2lDTjg5VTQ2QUNadUx6d05IdW1wX0hNQlpMYmZ1MlZ3QXljb3RPNXlpYm12cWZ2V1RaMG5WQ0J5VmV1TXQ2RnJBQjRwb2x6N1FSTGo3X3llcTZuUVo4aW9FS1pXOEd4bWl5OEpBbjZSU3p3?oc=5",
           "pub_date": "Thu, 19 Mar 2026 03:57:15 GMT",
-          "source": "뉴스웍스"
+          "source": "뉴스웍스",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "‘소버린 AI’ 수출 속도…네이버클라우드, 경력직 채용 - 서울경제TV",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5GbDRZLWd5ZEphTHNjbm5BSnZ2MVVqdzdrYkl3dEFSZFFka2Vfei1vTGdUcm9HRkNKdXZra0k5ZlZIbWdRWFVxeF9XUUhlSmZLNnJUdmhkcC00bVE3OGNLV0xIOVY?oc=5",
           "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
-          "source": "서울경제TV"
+          "source": "서울경제TV",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "\"코드 짜줘, 결정은 내가\"… AI 네이티브 시대, 당신의 몸값을 결정할 새로운 생존 공식 - 네이버 프리미엄콘텐츠",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZlFDZXRLVmVnc1ROaUVDa1ZXSTVKYk5EYlRBdzJGeWFxaXp6UkN1bVhieHJWRVhtQXNfcHkyZ1F4bkZDUmgtblNIMktHdU5iaDNRMkNZYThvamZTWTk0bnk1bDRBZWpxZ1hhQl8wMEFNaDZNSVhBRzlfM0d1akRyRy1DN2xiQQ?oc=5",
           "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
-          "source": "네이버 프리미엄콘텐츠"
+          "source": "네이버 프리미엄콘텐츠",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "아이티아이즈, 류재준 부사장 영입…네이버클라우드 출신 - 유니콘팩토리",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VTEFybGRDX056M0xyREZtLTVPWlE1Yzk0UFlTX05WSGlqOW9UXzg2aEZWTlFIRHFrTnZ4dm8xM19LdDZ4UjJHSVByM1VWc182bWw1MVRpRjZtSHROWi05eEZ5UzlVVnhxb3hZaQ?oc=5",
           "pub_date": "Wed, 03 Dec 2025 08:00:00 GMT",
-          "source": "유니콘팩토리"
+          "source": "유니콘팩토리",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "단국대, ‘AX·AI 실무 인재 750명’ 양성…5년간 71억 투입 - 공뉴스",
@@ -77,91 +85,121 @@
           "title": "네이버, 사우디 '슈퍼앱' 개발 속도낸다...중동 시장 공략 가속화 - 디일렉",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53dS14RjA3bjBIZVRMV1hXd0ZjcEtNWkVwZTRwR0ttMnF2dVNlRkpPRnlpbkdLRFFpdHhBQkFITXpEbTFFVmpvR3EzTUJzZUU2M3VzdFdxNUhaMUsxeGRIcUR0NGlsQQ?oc=5",
           "pub_date": "Mon, 05 Jan 2026 08:00:00 GMT",
-          "source": "디일렉"
+          "source": "디일렉",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "[대구대 소식] “AI·클라우드 혁신 인재 키운다”. . .대구대, 네이버클라우드와 AI·클라우드 인재 양성 업무협약 - ilyoseoul.co.kr",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ETkJkbnlMeVFJd1pIelN4ZFB4UU9HSklwN2JSOEc3eEFOMmo0Qk1fcXZDY0NXUkJXVF95OGVkNnlRZDRsR0dfMmxTdUI4Z0xDWk4xWm9keHdDMnkxLVBsdEp3QWFFR2VhQUVQNV94VQ?oc=5",
           "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
-          "source": "ilyoseoul.co.kr"
+          "source": "ilyoseoul.co.kr",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "네이버, 사우디 슈퍼 앱 개발 인력 대거 모집…지도·검색·AI 결합한다 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1obWRaNnA1SzVwZGdwMUVOd1AxWGFRcklic1c0aDZvYmVNVDRCRTVjcnNrdjczNzR4QzVCS19sMEZnY3hCbU4zbzRGNnJaQQ?oc=5",
           "pub_date": "Wed, 18 Feb 2026 08:00:00 GMT",
-          "source": "전자신문"
+          "source": "전자신문",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "아이티아이즈, 네이버클라우드 출신 류재준 부사장 전격 영입… 바이오·헬스케어 AI 전략 '속도' - 스타트업엔",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5odWE4cXMwOW5JOW9RZ0lwbXB6OVZRdFNzOE1VSUJFS0VrTlpEWHUyR3BMcWF6WWRDdVJ1RE1WdnluYWN6T1lkM1c5OE1mSnIxYVh3eXpLMDZqaU9rdFhqTlp3WmRNNmhm0gFsQVVfeXFMTTc1enp6MVdOVEh1RWE1amc4ZmQxZFQ1MkNzRzlBWWFBMVdJV19NT3Y0Mm1Mci15bUcweFB1UXk0dTNJU1pDRktmdmZuOE9FWGNJcTY0b3l4MC1tZE44M0JaOGZyTXZmczd2eHd1?oc=5",
           "pub_date": "Wed, 03 Dec 2025 08:00:00 GMT",
-          "source": "스타트업엔"
+          "source": "스타트업엔",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "\"사용자 경험을 현실로\"…네이버, 'On-service AI' 전략 고도화 '에이전트N' 공개 - 청년일보",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqRzM3Uk9Vd05jcnBhXzdxcmwxV2UydHpvYUlJanJwaVRzTWtTbFFCc2pGb1BFT3lJY1ZkVzJ3SHpJbFlsRWJKRlFJQ2dFUkhYUmJ2QTI5cW16N3h6WU9ZTl81YUxmUlk?oc=5",
           "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
-          "source": "청년일보"
+          "source": "청년일보",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "부산항만공사, 네이버클라우드와 ‘AI 전환’ 동맹…부산항 세계 최고 스마트 항만 도전 - 해사신문",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GWUJiWmFHbXBUM1NISHA5T2pHVHktb0paT2ZyMzlHY2gyWGtjTzMwTm05NXVRUHhTbGdFd0lsS3JuRGRIU3hUeWtDVHFlREJleXM1SkMtRy1FTFhNa0U1czZMM21zR1hjQlNJ?oc=5",
           "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
-          "source": "해사신문"
+          "source": "해사신문",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "이동수 네이버클라우드 전무 “공부 안하는 AI 리더는 조직을 지킬 수 없다” - edaily.co.kr",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQlk2c0xWdWhfeS01aXZKVkhRb2pJMjh2OTdRLWE4cVBoTTJ1MVF6czZvM01nS21iVWY1MHV1RGVqUWJJdjdCYmt1TEl5QjJiWGVLYVRwNE5MdkNaSFFsXy12cFRQeVNObXRHSkdTekxFY2NWSkhyall5SUtnOFZoYw?oc=5",
           "pub_date": "Sun, 02 Nov 2025 07:00:00 GMT",
-          "source": "edaily.co.kr"
+          "source": "edaily.co.kr",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "네이버클라우드, 지역별 맞춤 전략으로 해외 진출 채비...'AI 풀스택' 강점 - 블로터",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlbXViMDBPcjVZc25VMmtmdnRkX3lucUlWTjFoU19iclpPUmZISm50b1dlai0tRWc0OFREYnZ0NV9IdnJ6UERpMDI2dkJ4MUtXZ2RhS3daX2xYbVFaU2RjbE1CQng4eW1k0gFsQVVfeXFMT2dDM3V2MDZaMTFGdGZTcGw0RFZnVVlhQnNUeWlIcmR2T0RhVEF4cTdYUXlpaXVfZFo1cHU4YVVyT3hMNDJJZ3lOV2lwV2JZbDROV3h2a1piTHJ0ZWlZeUtjLTFzTnRlX0tNS0tS?oc=5",
           "pub_date": "Fri, 11 Jul 2025 07:00:00 GMT",
-          "source": "블로터"
+          "source": "블로터",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "AI 훈풍 타고 직원 늘린 네이버… 카카오는 조직개편 여파로 감소세 - 조선비즈 - Chosunbiz",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbGdIUW1qSllzNXFiekdPMzQtQVBEZVNGY3NJYnQyMGZVbzJpR3o0UndWcjFVN2NxV1NPVXRtTDV1aFdrZG44NDlHemh2REptQ19vUWpRSlowZHJrYWRaR1psX0dCdmpiRWxtYjE4VmR1T2tZZC1QMTJ4eGdNbmYtc3Zn0gGWAUFVX3lxTE9fOXBmaUs3RFpicnp5WVNCMVREdDN2UDZrQk1Qal9xd29BUDNjNExVSlMtYV9PbVdjM1owMmFtM2lmdUxmeENGUTMxVF9LdmVuZVFGVmd0VHhma2R2NVk2Wmhid3JQVW9zZzhTOWZsWXA5djJWeDNHZVN4b0E3WTI0YlRMRXo4ZEM5YnREbEpWVGRaNm05dw?oc=5",
           "pub_date": "Tue, 19 Aug 2025 07:00:00 GMT",
-          "source": "Chosunbiz"
+          "source": "Chosunbiz",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "‘초대 AI 수석’ 하정우는 누구?···네이버 현장 경험, 국가 정책으로 구현될까 - 경향신문",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SUnV6V3hOdHhRMnQ1OXNvWEZWM1N1Q3Y1TllkVmoxeVkydUZONTlpQ3RIWFR3V2NyR1BiTzNieDl1NTFCUDJRZFRDTVhxZVpJaGpSNnF2eG9UZ9IBX0FVX3lxTE16Tm5oMlhxVFJMelI2NTlPU3RoOTRXejZFVXUzWWpDN2RJT3h4b3FDNFhpcFVOaVJhTXNVaFJnamFhT0Vydm1FMHdQVmR2bGNHQW5ZY1kzTkwzT05tenRr?oc=5",
           "pub_date": "Sun, 15 Jun 2025 07:00:00 GMT",
-          "source": "경향신문"
+          "source": "경향신문",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "네이버, B2B 내부매출 의존 높아...클라우드 수익화 증명할 때 - 디일렉",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FT1l1d0djUzVpMXo3UTJqdHNDaFh4OVJjaWdMX0JQUmpiSFRUZ25KQ2pwdDN6WjBZc0ZwQ3JBdzZYN3pjY2wwY2FfWFd6N25WdWZOWUFsdkVLQ2FrUGtmLTFhSGN6dw?oc=5",
           "pub_date": "Fri, 08 Aug 2025 07:00:00 GMT",
-          "source": "디일렉"
+          "source": "디일렉",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "실적 발표 앞둔 네이버·KT·NHN…클라우드 성장 기대감 '고조' - 지디넷코리아",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41bEVnT0hGRnVab2J3YTVXWnBCLTI2cHdVaGozemFvUlpfcDNGRmFPTVlzU1FjM0NXakVLSWN2OW9rVDM4SmpsZXBuYWpsanVoNnZLdVJn?oc=5",
           "pub_date": "Thu, 07 Aug 2025 07:00:00 GMT",
-          "source": "지디넷코리아"
+          "source": "지디넷코리아",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "네이버·KT·NHN 클라우드 매출 성장 지속...그룹사와 성장 '발맞춤' - 테크M",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Bb1ZHbVlZa19hZDF4eDlSZXhNd3p6U3VsUnZpRDVDTmhkZ3FsaGlHZjNyWkwwV29zMkN1UEZzdzJ4YlFuejNhVjV5TWpGWEV0WVF1MHl0QjlMb3pFY0dScjZUS1BFZ9IBakFVX3lxTFBUMElZajhyTlZORUJ5MHZrdG4wY19HZWl1NTdJbUhTcnBHc0ZPQ09LWGdkT3JEVlEwckoyV2MzOG1iZEE2ZGIzQnVIelRxRnd0VTcyWTNabHBWdDlZT0NCcFNxeC12RUd0ZHc?oc=5",
           "pub_date": "Mon, 10 Nov 2025 08:00:00 GMT",
-          "source": "테크M"
+          "source": "테크M",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "[네이버 AI] 클라우드 '적자늪' 되풀이하나 - DealSite경제TV",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HLTJJUUlTN3lBb3hOWkdfYTNtc2FCOHJXTXBLeW1XU2FaenNLRzVKc0V3VUZFSXJwMF84UWt5ejBKUFlkdjdRM2NYTldJQ1V2M3BzZDl3?oc=5",
           "pub_date": "Mon, 18 Aug 2025 07:00:00 GMT",
-          "source": "DealSite경제TV"
+          "source": "DealSite경제TV",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         },
         {
           "title": "네이버, 국대 AI 탈락에 주가 ‘출렁’…실적·신성장 동력은 확보 - ceodaily.co.kr",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5icjNQMXR2bzNRYnNLR1Rpd1daaWVpSENYbFFULWRnT0JRNkVidlYzektoeVVaUW1XY1lwQzZlMm1Hai1Kd0F2QWluaU1rNVpmZWJaNTR3dl9HdzBobnZtRjVNbzBSaUlVQlRQT9IBcEFVX3lxTFBoVERtNkFRM0s0Zjh0VHpKd0pxWklfc3dXQlhzUWp5WC1icHU5ZXpQNUF3aDZFWm9QeDQ1UmcxdF8zcUR4XzR5TUhvaEg0WHhZVEFITU5yOUlId21lMnh0OElOZkg1OFFiSWVDN3RDNGI?oc=5",
           "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT",
-          "source": "ceodaily.co.kr"
+          "source": "ceodaily.co.kr",
+          "mixed_subsidiary": true,
+          "mixed_with": "네이버"
         }
       ],
       "korean_credible_news": [
@@ -365,6 +403,22 @@
           "previous_amount": "0",
           "two_years_ago": "0"
         }
+      ],
+      "_dart_contaminated_from": "네이버",
+      "_dart_fields_contaminated": [
+        "company_name",
+        "company_name_eng",
+        "stock_name",
+        "ceo",
+        "address",
+        "industry_code",
+        "established",
+        "homepage",
+        "ir_url",
+        "stock_code",
+        "corp_class",
+        "employees",
+        "meta_description"
       ]
     },
     "4": {
@@ -1045,5 +1099,16 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "parent_company": "네이버",
+  "subsidiary_group": "네이버",
+  "career_url": "https://career.navercloudcorp.com/navercloud/"
 }

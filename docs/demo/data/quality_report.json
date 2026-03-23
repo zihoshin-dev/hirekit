@@ -1,0 +1,16 @@
+{
+  "total_companies": 80,
+  "verified_at": "2026-03-23T22:40:32.937599+00:00",
+  "issues": [
+    {
+      "company": "__global__",
+      "issue": "companies/ 파일 수(80) != meta.json 기업 수(79)",
+      "severity": "high"
+    }
+  ],
+  "summary": {
+    "complete": 80,
+    "partial": 0,
+    "incomplete": 0
+  }
+}

@@ -1113,5 +1113,32 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "subsidiary_group": "카카오",
+  "career_url": "https://careers.kakao.com/",
+  "ai_strategy": {
+    "has_own_llm": true,
+    "llm_name": "Kanana-2 MoE",
+    "llm_params": null,
+    "llm_open_source": true,
+    "ai_lab": "카카오 AI Lab",
+    "ai_applications": [
+      "카카오톡 AI 에이전트",
+      "온디바이스 AI",
+      "에이전틱 AI 서비스"
+    ],
+    "ai_hiring_focus": "LLM 연구원, AI 에이전트 엔지니어",
+    "ai_partnerships": [],
+    "ai_native_level": "high",
+    "ai_summary": "AI 브랜드 Kanana로 리브랜딩. Kanana-2 MoE 오픈소스, 한국어 8B 이하 1위. 카카오톡 전면 AI 에이전트 통합 추진.",
+    "last_updated": "2026-03"
+  }
 }

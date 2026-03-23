@@ -923,5 +923,31 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://careers.upstage.ai",
+  "ai_strategy": {
+    "has_own_llm": true,
+    "llm_name": "Solar Pro2",
+    "llm_params": "31B",
+    "llm_open_source": true,
+    "ai_lab": "업스테이지 AI Lab",
+    "ai_applications": [
+      "Solar LLM API",
+      "Document AI (OCR·파싱)",
+      "엔터프라이즈 RAG 플랫폼"
+    ],
+    "ai_hiring_focus": "LLM 연구원, AI 엔지니어, Document AI 엔지니어",
+    "ai_partnerships": [],
+    "ai_native_level": "high",
+    "ai_summary": "자체 LLM Solar Pro2 31B 개발, 글로벌 12위(Chatbot Arena). 문서 파싱·OCR AI 솔루션 국내 1위. 국가대표 AI 기업 선정.",
+    "last_updated": "2026-03"
+  }
 }

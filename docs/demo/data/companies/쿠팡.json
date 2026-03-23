@@ -1076,5 +1076,33 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://www.coupang.jobs/en/",
+  "ai_strategy": {
+    "has_own_llm": false,
+    "llm_name": null,
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": null,
+    "ai_applications": [
+      "물류 AI(AGV·ACR·소팅봇)",
+      "생성형 AI 광고 플랫폼",
+      "AI 상품 추천"
+    ],
+    "ai_hiring_focus": "ML 엔지니어, 로보틱스 AI 엔지니어",
+    "ai_partnerships": [
+      "Amazon Web Services (Bedrock)"
+    ],
+    "ai_native_level": "medium",
+    "ai_summary": "물류 AI·로보틱스 자동화에 3조원 투자. 신규 코드 50% AI 작성. Amazon Bedrock 기반 생성형 AI 광고 플랫폼 출시.",
+    "last_updated": "2026-03"
+  }
 }

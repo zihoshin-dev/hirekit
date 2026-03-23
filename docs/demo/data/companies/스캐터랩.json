@@ -846,5 +846,31 @@
       "section": "overview",
       "url": ""
     }
-  ]
+  ],
+  "_meta": {
+    "collected_at": "2026-03-22T01:03:51+09:00",
+    "verified_at": null,
+    "confidence": 0.5,
+    "staleness_days": 1,
+    "cross_validated": false,
+    "version": 1
+  },
+  "career_url": "https://www.scatterlab.co.kr/ko/recruiting",
+  "ai_strategy": {
+    "has_own_llm": true,
+    "llm_name": "핑퐁-1",
+    "llm_params": null,
+    "llm_open_source": false,
+    "ai_lab": "스캐터랩 AI Lab",
+    "ai_applications": [
+      "이루다 AI 친구 챗봇",
+      "감성 대화 sLLM",
+      "AI 감정 이해 연구"
+    ],
+    "ai_hiring_focus": "대화 AI 연구원, NLP 엔지니어",
+    "ai_partnerships": [],
+    "ai_native_level": "high",
+    "ai_summary": "자체 감성 대화 sLLM 핑퐁-1 보유. AI 친구 챗봇 이루다 유료화 확대. 감정 이해·공감 AI 원천 기술 연구.",
+    "last_updated": "2026-03"
+  }
 }
