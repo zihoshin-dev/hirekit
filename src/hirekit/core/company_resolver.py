@@ -357,12 +357,36 @@ _REGISTRY: dict[str, CompanyInfo] = {
 
 # Build alias lookup on module load
 _ALIAS_INDEX: dict[str, str] = {}
+
+
+def _normalize_company_token(name: str) -> str:
+    normalized = name.strip().lower()
+    for token in (
+        "(주)",
+        "주식회사",
+        "유한회사",
+        "유한책임회사",
+        ".",
+        ",",
+        "(",
+        ")",
+        "-",
+        "_",
+        " ",
+    ):
+        normalized = normalized.replace(token, "")
+    return normalized
+
+
 for _canonical, _info in _REGISTRY.items():
-    _normalized_canonical = _canonical.strip().replace("(주)", "").replace(" ", "").lower()
-    _ALIAS_INDEX[_normalized_canonical] = _canonical
-    for _alias in _info.aliases:
-        _alias_key = _alias.strip().replace("(주)", "").replace(" ", "").lower()
-        if _alias_key not in _ALIAS_INDEX:
+    _candidates = [_canonical, *_info.aliases]
+    if _info.corp_name:
+        _candidates.append(_info.corp_name)
+    if _info.brand_name:
+        _candidates.append(_info.brand_name)
+    for _candidate in _candidates:
+        _alias_key = _normalize_company_token(_candidate)
+        if _alias_key and _alias_key not in _ALIAS_INDEX:
             _ALIAS_INDEX[_alias_key] = _canonical
 
 
@@ -376,14 +400,14 @@ def resolve_company(name: str, region: str = "kr") -> CompanyInfo | None:
 
     Returns None when no match is found.
     """
-    normalized = name.strip().replace("(주)", "").replace(" ", "").lower()
+    normalized = _normalize_company_token(name)
 
     # 1. Exact match (canonical or alias)
     if normalized in _ALIAS_INDEX:
         return _REGISTRY[_ALIAS_INDEX[normalized]]
 
     # 2. Substring match — input contains a known key or vice versa
-    for key, canonical in _ALIAS_INDEX.items():
+    for key, canonical in sorted(_ALIAS_INDEX.items(), key=lambda item: len(item[0]), reverse=True):
         if normalized in key or key in normalized:
             return _REGISTRY[canonical]
 

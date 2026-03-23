@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HireKit — 기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요.</title>
-  <meta name="description" content="취업·이직 준비자를 위한 AI 기업 분석 및 면접 준비 CLI. 기업 리서치, 공고 매칭, 면접 준비까지 — 터미널 하나로 끝내세요." />
+  <title>HireKit — Career Intelligence Terminal</title>
+  <meta name="description" content="기업 리서치, JD 해석, 이력서 판단을 연결하는 Career Intelligence Terminal. 공개 데모는 79개 기업 정적 스냅샷을 제공해요." />
   <meta property="og:title" content="HireKit" />
-  <meta property="og:description" content="기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요." />
+  <meta property="og:description" content="79개 기업 공개 스냅샷과 trust-first verdict 흐름을 제공하는 커리어 리서치 도구." />
   <meta property="og:url" content="https://zihoshin-dev.github.io/hirekit/ko.html" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -248,11 +248,11 @@
         Hire<span class="text-brand-500">Kit</span>
       </h1>
       <p class="text-xl sm:text-2xl font-light text-gray-600 dark:text-gray-400 mb-6">
-        기업을 분석하고. 공고를 매칭하고. 면접을 준비하세요.
+        Career Intelligence Terminal
       </p>
       <p class="text-base text-gray-500 dark:text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-        4~8시간짜리 기업 리서치를 명령어 하나로 끝내는 오픈소스 CLI.
-        8개 소스에서 데이터를 수집해 가중 스코어카드를 만들고, 면접 준비까지 — 모두 터미널에서.
+        기업 리서치, JD 해석, 이력서 판단을 연결하는 오픈소스 터미널이에요.
+        공개 데모는 79개 기업 정적 스냅샷을 보여주고, 실제 분석은 로컬에서 실행돼요. `Go / Hold / Pass`는 권고용 판단이지 합격 보장이 아니에요.
       </p>
 
       <!-- Install command -->
@@ -416,7 +416,7 @@
           <span class="text-2xl">⚡</span>
           <div>
             <div class="font-semibold text-sm text-purple-900 dark:text-purple-300">병렬 수집</div>
-            <div class="text-xs text-purple-700 dark:text-purple-500">8개 소스 동시 수집. 몇 시간이 아닌 몇 분.</div>
+          <div class="text-xs text-purple-700 dark:text-purple-500">다중 소스 수집. 몇 시간이 아닌 몇 분.</div>
           </div>
         </div>
       </div>
@@ -427,8 +427,8 @@
   <section id="sources" class="py-24 px-4 bg-gray-50 dark:bg-[#0d1117]">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-16">
-        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">8개 데이터 소스, 빈틈 없는 분석</h2>
-        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">공시 데이터부터 AI 시맨틱 검색까지 — 모든 각도를 커버합니다.</p>
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">공개 신호를 모아 decision-grade 리서치로</h2>
+        <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">공시 데이터부터 기술 흔적과 검색 신호까지 — 공개 근거를 모아 trust-first 판단을 도와줘요.</p>
       </div>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -545,7 +545,7 @@
 <span class="c-border">│</span> <span class="c-output">Region: <span class="c-blue">kr</span>  Tier: <span class="c-blue">1</span>  LLM: <span class="c-yellow">off</span>                             </span><span class="c-border">│</span>
 <span class="c-border">╰</span><span class="c-border">─────────────────────────────────────────────────────────────</span><span class="c-border">╯</span>
 
-<span class="c-comment">  Collecting from 8 sources in parallel...</span>
+<span class="c-comment">  Collecting trust signals in parallel...</span>
   <span class="c-green">✓</span> DART financials          <span class="c-dim">123ms</span>
   <span class="c-green">✓</span> Naver News (32 articles)  <span class="c-dim">210ms</span>
   <span class="c-green">✓</span> GitHub tech scoring       <span class="c-dim">380ms</span>
@@ -555,7 +555,7 @@
   <span class="c-green">✓</span> Exa semantic search       <span class="c-dim">512ms</span>
   <span class="c-green">✓</span> Glassdoor reviews         <span class="c-dim">340ms</span>
 
-  <span class="c-output">15 results collected across 8 sources in <span class="c-green">512ms</span></span>
+  <span class="c-output">15 results collected across multiple sources in <span class="c-green">512ms</span></span>
 
 <span class="c-header">                     카카오 Scorecard</span>
 <span class="c-border">┌─────────────────────┬────────┬────────┬──────────────────────┐</span>
@@ -575,7 +575,7 @@
       </div>
 
       <p class="text-center text-sm text-gray-500 dark:text-gray-600 mt-4">
-        8개 데이터 소스 · 15개 결과 · 병렬 수집 · LLM 불필요
+ 다중 데이터 소스 · 15개 결과 · 병렬 수집 · LLM 선택 사용
       </p>
     </div>
   </section>

@@ -94,16 +94,21 @@ TOOLS: list[dict[str, Any]] = [
 def _call_analyze_company(params: dict[str, Any]) -> dict[str, Any]:
     from hirekit.core.config import load_config
     from hirekit.engine.company_analyzer import CompanyAnalyzer
+    from importlib import import_module
 
     company = params["company"]
     region = params.get("region", "kr")
     config = load_config()
     analyzer = CompanyAnalyzer(config=config, use_llm=False)
     report = analyzer.analyze(company=company, region=region, tier=2)
+    hero_verdict = import_module("hirekit.engine.hero_verdict").compose_hero_verdict(report=report)
     return {
         "company": report.company,
         "region": report.region,
+        "runtime_mode": "local_mcp",
+        "publication_boundary": "internal_only",
         "scorecard": report.to_dict().get("scorecard", {}),
+        "hero_verdict": hero_verdict.to_dict(),
         "sections": list(report.sections.keys()),
         "source_count": len(report.source_results),
         "markdown_preview": report.to_markdown()[:2000],
@@ -164,7 +169,7 @@ def _call_compare_companies(params: dict[str, Any]) -> dict[str, Any]:
 
     companies: list[str] = params["companies"]
     comparator = CompanyComparator()
-    result = comparator.compare(companies=companies)
+    result = comparator.compare_many(companies)
     return {
         "companies": result.companies,
         "winner": result.winner,

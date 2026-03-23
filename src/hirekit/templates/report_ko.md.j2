@@ -4,6 +4,40 @@
 
 ---
 
+## 0. Hero Verdict
+
+- **판정:** {{ hero_verdict.label }}
+- **종합 점수:** {{ '%.0f'|format(hero_verdict.total) }}/100
+- **등급:** {{ hero_verdict.grade }}
+
+{% if low_confidence_warning %}
+> ⚠️ {{ low_confidence_warning }}
+
+{% endif %}
+
+### 신뢰도 분해
+
+| 항목 | 점수 | 신뢰도 | 근거 |
+|------|------|--------|------|
+{% for item in confidence_breakdown %}| {{ item.label }} | {{ '%.1f'|format(item.score) }} | {{ item.confidence }} | {{ item.evidence or '—' }} |
+{% endfor %}
+
+### 핵심 근거 스냅샷
+
+{% if evidence_summary %}
+{% for item in evidence_summary %}- **{{ item.name }}** ({{ item.section }} / {{ item.trust_label }}{% if item.is_stale %}, stale{% endif %}){% if item.url %} — {{ item.url }}{% endif %}
+{% endfor %}
+{% else %}
+- 공개 근거 요약이 아직 부족해요.
+{% endif %}
+
+### 다음 행동
+
+{% for item in next_actions %}- {{ item }}
+{% endfor %}
+
+---
+
 {% set s1 = sections.get(1, {}) %}
 {% if s1 %}
 ## 1. 회사 개요 & 현황

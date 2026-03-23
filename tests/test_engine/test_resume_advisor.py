@@ -6,6 +6,9 @@ from pathlib import Path
 from hirekit.engine.resume_advisor import ResumeAdvisor, ResumeFeedback
 
 
+FIXTURE_ROOT = Path(__file__).parent.parent / "fixtures" / "hero-flow"
+
+
 class TestResumeFeedback:
     def test_grade_calculation(self):
         fb = ResumeFeedback(overall_score=85)
@@ -100,3 +103,38 @@ Python, SQL, Data Analysis, Product Management
         assert any("short" in issue.lower() or "Too" in issue for issue in fb.ats_issues)
 
         Path(path).unlink()
+
+    def test_high_signal_resume_fixture_beats_low_signal_fixture(self):
+        jd_text = (FIXTURE_ROOT / "jd-high-signal.txt").read_text(encoding="utf-8")
+        advisor = ResumeAdvisor()
+
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False, encoding="utf-8") as high_file:
+            high_file.write((FIXTURE_ROOT / "resume-high-signal.md").read_text(encoding="utf-8"))
+            high_path = high_file.name
+
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False, encoding="utf-8") as low_file:
+            low_file.write((FIXTURE_ROOT / "resume-low-signal.md").read_text(encoding="utf-8"))
+            low_path = low_file.name
+
+        high_feedback = advisor.review(resume_path=high_path, jd_text=jd_text)
+        low_feedback = advisor.review(resume_path=low_path, jd_text=jd_text)
+
+        assert high_feedback.overall_score > low_feedback.overall_score
+
+        Path(high_path).unlink()
+        Path(low_path).unlink()
+
+    def test_low_signal_resume_fixture_exposes_keyword_gaps(self):
+        jd_text = (FIXTURE_ROOT / "jd-high-signal.txt").read_text(encoding="utf-8")
+
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False, encoding="utf-8") as low_file:
+            low_file.write((FIXTURE_ROOT / "resume-low-signal.md").read_text(encoding="utf-8"))
+            low_path = low_file.name
+
+        advisor = ResumeAdvisor()
+        feedback = advisor.review(resume_path=low_path, jd_text=jd_text)
+
+        gaps_lower = [gap.lower() for gap in feedback.keyword_gaps]
+        assert any("kubernetes" in gap for gap in gaps_lower) or any("docker" in gap for gap in gaps_lower)
+
+        Path(low_path).unlink()

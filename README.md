@@ -1,10 +1,10 @@
 <p align="center">
   <h1 align="center">🎯 HireKit</h1>
   <p align="center">
-    <strong>취업 준비, 데이터로 시작하세요</strong>
+    <strong>Career Intelligence Terminal for job seekers</strong>
   </p>
   <p align="center">
-    14개 소스 자동 수집 → 5차원 스코어카드 → 면접까지 원스톱
+    14개 소스 수집 → trust-first scorecard → advisory verdict → proof-of-work
   </p>
 </p>
 
@@ -22,12 +22,14 @@
 
 ---
 
-> 🔗 **[라이브 데모 — 79개 한국 테크 기업 분석 결과 보기](https://zihoshin-dev.github.io/hirekit)**
+> 🔗 **[라이브 데모 — 79개 기업 공개 스냅샷 보기](https://zihoshin-dev.github.io/hirekit)**
 
 ---
 
 기업 하나를 제대로 파악하려면 DART 공시, 뉴스, 기술 블로그, 커뮤니티 리뷰... 탭을 10개 넘게 열어야 해요.
-HireKit은 그 작업을 2분으로 줄여줘요.
+HireKit은 그 과정을 `Career Intelligence Terminal`로 압축해요. 기업 리서치, JD 해석, 이력서 판단을 연결해서 `Go / Hold / Pass` 권고까지 내려줘요.
+
+중요: `Go / Hold / Pass`는 **advisory verdict**예요. 합격을 보장하지 않고, 공개 데모는 **GitHub Pages 정적 스냅샷**만 보여줘요. 이력서/JD 같은 개인 데이터는 공개 경로에 저장하지 않아요.
 
 ```bash
 pip install hirekit
@@ -49,7 +51,8 @@ graph LR
     C2 --> D
     C3 --> D
     C4 --> D
-    D --> E[분석 리포트]
+    D --> E[Trust-aware Report]
+    E --> F[Go/Hold/Pass Advisory Verdict]
 ```
 
 ---
@@ -66,10 +69,11 @@ flowchart TD
     B2 --> C
     B3 --> C
     C --> D{LLM 사용?}
-    D -->|Yes| E[AI 심층 분석]
+    D -->|Yes| E[구조화 + grounded 해석]
     D -->|No| F[데이터 기반 리포트]
-    E --> G[최종 리포트]
+    E --> G[Trust-aware Report]
     F --> G
+    G --> H[Go/Hold/Pass Advisory Verdict]
 ```
 
 ---
@@ -82,7 +86,7 @@ flowchart TD
 pip install hirekit
 ```
 
-Python 3.11 이상이면 충분해요. 기본 기능에 별도 설정은 없어요.
+Python 3.11 이상이면 충분해요. 공개 데모는 정적 스냅샷이고, 실제 분석은 로컬에서 실행돼요.
 
 ### 2. (선택) API 키 설정
 
@@ -136,7 +140,7 @@ hirekit analyze 카카오
 | `hirekit interview 카카오` | 면접 준비 | 200+ 질문, STAR 가이드, 기업별 문화핏 |
 | `hirekit resume --file resume.txt` | 이력서 분석 | 정량 피드백, ATS 최적화, Before→After |
 | `hirekit coverletter --file cl.txt` | 자소서 분석 | 클리셰 감지 100+, 차별화 점수 |
-| `hirekit pipeline 카카오` | 통합 파이프라인 | 5단계 순차 분석 + Go/Hold/Pass 판정 |
+| `hirekit pipeline 카카오` | 통합 파이프라인 | 5단계 순차 분석 + advisory Go/Hold/Pass 판정 |
 
 ### `hirekit analyze` — 기업 분석
 
@@ -154,7 +158,7 @@ hirekit analyze 토스 -o json
 hirekit analyze 쿠팡 --tier 3
 ```
 
-**결과물**: 12섹션 구조화 리포트 + 5차원 100점 스코어카드
+**결과물**: trust-aware 리포트 + 5차원 100점 스코어카드 + advisory verdict
 
 ---
 
@@ -289,6 +293,7 @@ HireKit은 Claude Code 세션 안에서 자연스럽게 동작해요.
 - 수집한 데이터를 외부 서버로 전송하지 않아요
 - API 키는 `~/.hirekit/.env`에 직접 관리해요
 - LLM(AI)을 연결해도 프롬프트만 해당 API에 전달돼요
+- GitHub Pages 데모는 **공개 스냅샷**만 보여줘요. 개인 이력서/JD/메모는 공개 경로에 저장하지 않아요
 
 ---
 

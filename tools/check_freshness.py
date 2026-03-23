@@ -10,21 +10,37 @@ LOG_PATH = ROOT / "docs/demo/data/update_log.json"
 META_PATH = ROOT / "docs/demo/data/meta.json"
 
 
-def check_log() -> int:
-    """갱신 이력 확인. 경과 일수 반환."""
+def load_meta() -> list[dict[str, object]]:
+    if not META_PATH.exists():
+        return []
+    with open(META_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def check_log(meta_count: int) -> tuple[int, list[str]]:
     if not LOG_PATH.exists():
         print("update_log.json 없음 — python tools/update_company_db.py 실행 필요")
-        return 999
+        return 999, ["update_log.json 없음"]
 
     with open(LOG_PATH, encoding="utf-8") as f:
         log = json.load(f)
 
     last_update = datetime.fromisoformat(log["updated_at"])
     age_days = (datetime.now() - last_update).days
+    issues: list[str] = []
 
     print(f"마지막 갱신: {log['updated_at']} ({age_days}일 전)")
     print(f"갱신된 소스: {', '.join(log.get('sources_updated', []))}")
     print(f"갱신 기업 수: {log.get('companies_updated', 'N/A')}")
+
+    if log.get("companies_updated") != meta_count:
+        issues.append(f"update_log 기업 수 불일치: {log.get('companies_updated')} != {meta_count}")
+    if not log.get("sources_updated"):
+        issues.append("sources_updated 비어 있음")
+    if log.get("publication_boundary") != "public_demo":
+        issues.append("publication_boundary 누락 또는 public_demo 아님")
+    if not isinstance(log.get("cross_validated"), bool):
+        issues.append("cross_validated 플래그 누락")
 
     if log.get("errors"):
         print(f"이전 갱신 오류: {len(log['errors'])}건")
@@ -38,7 +54,12 @@ def check_log() -> int:
     else:
         print("\n✅ 데이터 최신 상태")
 
-    return age_days
+    if issues:
+        print("\n⚠️  로그 계약 이슈:")
+        for issue in issues:
+            print(f"  - {issue}")
+
+    return age_days, issues
 
 
 def check_meta() -> list[str]:
@@ -47,8 +68,7 @@ def check_meta() -> list[str]:
         print("meta.json 없음")
         return ["meta.json 없음"]
 
-    with open(META_PATH, encoding="utf-8") as f:
-        companies = json.load(f)
+    companies = load_meta()
 
     print(f"\n기업 수: {len(companies)}개")
 
@@ -83,8 +103,10 @@ def main() -> None:
     print("HireKit 데이터 신선도 체크")
     print("=" * 50)
 
-    age_days = check_log()
+    companies = load_meta()
+    age_days, log_issues = check_log(meta_count=len(companies))
     issues = check_meta()
+    issues = log_issues + issues
 
     print("\n" + "=" * 50)
     if age_days > 30 or len(issues) > 5:

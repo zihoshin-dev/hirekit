@@ -86,6 +86,23 @@ class TestResolveCompany:
         assert info2 is not None
         assert info1.dart_code == info2.dart_code
 
+    def test_foreign_subsidiary_legal_entity_name_resolves(self):
+        info = resolve_company("아마존웹서비스코리아 유한책임회사")
+        assert info is not None
+        assert info.name == "AWS코리아"
+        assert info.parent_company == "Amazon.com Inc."
+
+    def test_foreign_subsidiary_parent_metadata_preserved(self):
+        info = resolve_company("구글코리아")
+        assert info is not None
+        assert info.is_foreign is True
+        assert info.parent_company == "Alphabet Inc."
+        assert info.parent_ticker == "GOOGL"
+
+    def test_recruiter_like_entity_stays_none(self):
+        info = resolve_company("헤드헌터서치펌")
+        assert info is None
+
 
 class TestBackwardsCompatExports:
     def test_known_corps_has_kakao(self):

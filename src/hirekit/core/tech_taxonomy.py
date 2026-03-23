@@ -137,6 +137,33 @@ for _cat, _techs in TECH_CATEGORIES.items():
         _TECH_TO_CATEGORY[_t.lower()] = _cat
 
 
+ROLE_FAMILIES: dict[str, set[str]] = {
+    "backend": {"backend", "백엔드", "server", "서버", "be", "api"},
+    "frontend": {"frontend", "프론트", "fe", "ui", "web"},
+    "fullstack": {"fullstack", "풀스택", "full-stack"},
+    "data": {"data", "데이터", "analytics", "analyst", "data engineer", "data analyst"},
+    "ml": {"ml", "machine learning", "ai", "머신러닝", "ml engineer"},
+    "devops": {"devops", "sre", "infra", "인프라", "platform"},
+    "pm": {"pm", "product manager", "기획", "po", "product owner", "program manager"},
+    "designer": {"designer", "design", "ux", "uiux", "product designer"},
+    "mobile": {"mobile", "android", "ios", "앱"},
+    "security": {"security", "보안"},
+}
+
+ADJACENT_ROLE_FAMILIES: dict[str, set[str]] = {
+    "backend": {"fullstack", "devops", "data"},
+    "frontend": {"fullstack", "designer"},
+    "fullstack": {"backend", "frontend", "devops"},
+    "data": {"backend", "ml", "pm"},
+    "ml": {"data", "backend"},
+    "devops": {"backend", "fullstack", "security"},
+    "pm": {"data", "designer"},
+    "designer": {"frontend", "pm"},
+    "mobile": {"frontend", "backend"},
+    "security": {"devops", "backend"},
+}
+
+
 # ---------------------------------------------------------------------------
 # Seniority levels
 # ---------------------------------------------------------------------------
@@ -213,6 +240,27 @@ def classify_experience(years: int) -> SeniorityLevel:
         if years >= level.min_years:
             return level
     return SENIORITY_LEVELS[0]
+
+
+def normalize_role_family(role: str) -> str | None:
+    normalized = role.strip().lower()
+    for family, keywords in ROLE_FAMILIES.items():
+        if any(keyword in normalized for keyword in keywords):
+            return family
+    return None
+
+
+def role_similarity_score(current_role: str, target_role: str) -> float:
+    current_family = normalize_role_family(current_role)
+    target_family = normalize_role_family(target_role)
+
+    if not current_family or not target_family:
+        return 0.4
+    if current_family == target_family:
+        return 1.0
+    if target_family in ADJACENT_ROLE_FAMILIES.get(current_family, set()):
+        return 0.75
+    return 0.4
 
 
 def parse_experience_requirement(text: str) -> tuple[int, int | None]:

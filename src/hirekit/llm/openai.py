@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import os
 from typing import Any
 
@@ -15,6 +16,37 @@ class OpenAIAdapter(BaseLLM):
 
     def __init__(self, model: str = "gpt-4o-mini"):
         self.model = model
+
+    @staticmethod
+    def _build_response_format(json_schema: dict[str, Any]) -> dict[str, Any]:
+        if "schema" in json_schema:
+            schema = json_schema["schema"]
+            name = json_schema.get("name", "structured_output")
+            strict = json_schema.get("strict", True)
+        else:
+            schema = json_schema
+            name = json_schema.get("name", "structured_output")
+            strict = True
+        return {
+            "type": "json_schema",
+            "json_schema": {
+                "name": name,
+                "strict": strict,
+                "schema": schema,
+            },
+        }
+
+    @staticmethod
+    def _parse_structured_content(content: Any) -> dict[str, Any] | None:
+        if not content:
+            return None
+        if isinstance(content, str):
+            try:
+                parsed = json.loads(content)
+            except json.JSONDecodeError:
+                return None
+            return parsed if isinstance(parsed, dict) else None
+        return None
 
     @classmethod
     def _get_client(cls) -> Any:
@@ -50,12 +82,18 @@ class OpenAIAdapter(BaseLLM):
             "temperature": temperature,
             "max_tokens": max_tokens,
         }
+        if json_schema:
+            kwargs["response_format"] = self._build_response_format(json_schema)
 
         try:
             response = client.chat.completions.create(**kwargs)
             choice = response.choices[0]
+            refusal = bool(getattr(choice.message, "refusal", None))
+            content = choice.message.content or ""
             return LLMResponse(
-                text=choice.message.content or "",
+                text="" if refusal else content,
+                structured=self._parse_structured_content(content) if json_schema and not refusal else None,
+                refusal=refusal,
                 model=response.model,
                 usage={
                     "input_tokens": response.usage.prompt_tokens if response.usage else 0,

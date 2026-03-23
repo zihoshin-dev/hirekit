@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import hashlib
 from dataclasses import dataclass, field
-from typing import Any
+from importlib import import_module
+from typing import Any, Mapping
 
 from rich.panel import Panel
 from rich.text import Text
@@ -12,7 +13,7 @@ from rich.text import Text
 from hirekit.core.cache import Cache
 from hirekit.core.config import HireKitConfig
 from hirekit.core.parallel import collect_parallel
-from hirekit.engine.scorer import Scorecard, create_default_scorecard
+from hirekit.engine.scorer import ScoreDimension, Scorecard, create_default_scorecard
 from hirekit.llm.base import BaseLLM, NoLLM
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
@@ -84,14 +85,11 @@ class AnalysisReport:
                 "dimensions": [
                     {"name": d.name, "label": d.label, "weight": d.weight,
                      "score": d.score, "evidence": d.evidence,
-                     "confidence": d.confidence}
+                     "confidence": d.confidence, "source": d.source}
                     for d in (self.scorecard.dimensions if self.scorecard else [])
                 ],
             },
-            "sources": [
-                {"name": r.source_name, "section": r.section, "url": r.url}
-                for r in self.source_results
-            ],
+            "sources": [r.as_reference() for r in self.source_results],
         }
 
     def to_rich(self) -> Panel:
@@ -107,6 +105,53 @@ class AnalysisReport:
             text.append(f"\n[{section_num}] {name}\n", style="bold yellow")
 
         return Panel(text, title="Analysis Report", border_style="green")
+
+    @classmethod
+    def from_dict(cls, payload: dict[str, Any]) -> "AnalysisReport":
+        scorecard_payload = payload.get("scorecard") or {}
+        scorecard = None
+        dimensions_payload = scorecard_payload.get("dimensions", [])
+        if dimensions_payload:
+            dimensions = [
+                ScoreDimension(
+                    name=d.get("name", ""),
+                    label=d.get("label", ""),
+                    weight=float(d.get("weight", 0.0)),
+                    score=float(d.get("score", 0.0)),
+                    evidence=d.get("evidence", ""),
+                    source=d.get("source", ""),
+                    confidence=d.get("confidence", ""),
+                )
+                for d in dimensions_payload
+            ]
+            scorecard = Scorecard(
+                company=payload.get("company", ""),
+                dimensions=dimensions,
+            )
+
+        source_results = [
+            SourceResult(
+                source_name=s.get("name", ""),
+                section=s.get("section", ""),
+                url=s.get("url", ""),
+                collected_at=s.get("collected_at", ""),
+                effective_at=s.get("effective_at", ""),
+                evidence_id=s.get("evidence_id", ""),
+                confidence=float(s.get("confidence", 1.0)),
+                trust_label=s.get("trust_label", "verified"),
+                publication_boundary=s.get("publication_boundary", "internal_only"),
+            )
+            for s in payload.get("sources", [])
+        ]
+
+        return cls(
+            company=payload.get("company", ""),
+            region=payload.get("region", "kr"),
+            tier=int(payload.get("tier", 1)),
+            sections=payload.get("sections", {}),
+            source_results=source_results,
+            scorecard=scorecard,
+        )
 
 
 class CompanyAnalyzer:
@@ -156,8 +201,8 @@ class CompanyAnalyzer:
                 from hirekit.llm.anthropic import AnthropicAdapter
                 return AnthropicAdapter(model=self.config.llm.model)
             elif provider == "ollama":
-                from hirekit.llm.ollama import OllamaAdapter
-                return OllamaAdapter(model=self.config.llm.model)
+                adapter_module = import_module("hirekit.llm.ollama")
+                return adapter_module.OllamaAdapter(model=self.config.llm.model)
         except ImportError:
             pass
 
@@ -183,12 +228,7 @@ class CompanyAnalyzer:
         cache_key = f"analysis:{company}:{region}:{tier}:{source_hash}"
         cached = self.cache.get(cache_key)
         if cached:
-            # to_dict() serializes 'sources' (metadata list) and 'scorecard' (dict),
-            # but AnalysisReport.__init__ expects 'source_results' (SourceResult objects)
-            # and 'scorecard' (Scorecard object). Restore only the primitive fields.
-            restore_keys = {k: v for k, v in cached.items()
-                            if k not in ("sources", "scorecard")}
-            return AnalysisReport(**restore_keys)
+            return AnalysisReport.from_dict(cached)
 
         # 3. Collect data in parallel
         results = collect_parallel(
@@ -250,14 +290,12 @@ class CompanyAnalyzer:
     @staticmethod
     def _confidence_from_sources(
         expected_sources: list[str],
-        source_data: dict[str, object],
+        source_data: Mapping[str, object],
+        source_results: list[SourceResult] | None = None,
     ) -> str:
-        """Return confidence level based on cross-validation source count.
-
-        - 3+ expected sources present → "high"
-        - 1-2 sources present        → "medium"
-        - 0 sources present          → "low"
-        """
+        if source_results is not None:
+            confidence_rules = import_module("hirekit.engine.confidence_rules")
+            return confidence_rules.derive_confidence(expected_sources, source_results)
         matched = sum(1 for s in expected_sources if s in source_data)
         if matched >= 3:
             return "high"
@@ -289,45 +327,55 @@ class CompanyAnalyzer:
         if not report.scorecard:
             return
 
+        def evidence_refs(expected_sources: list[str]) -> str:
+            return ", ".join(
+                r.evidence_id for r in report.source_results if r.source_name in expected_sources
+            )
+
         overview = report.sections.get(1, {})
-        source_data = {r.source_name: r.data for r in report.source_results}
+        source_data: dict[str, object] = {r.source_name: r.data for r in report.source_results}
         sections_filled = set(report.sections.keys())
         n_sources = len(report.source_results)
 
         for dim in report.scorecard.dimensions:
             if dim.name == "growth":
                 dim.score, dim.evidence = self._score_growth(overview)
+                dim.source = evidence_refs(["dart", "ir_report"])
                 dim.confidence = self._confidence_from_sources(
-                    ["dart", "ir_report"], source_data,
+                    ["dart", "ir_report"], source_data, report.source_results,
                 )
             elif dim.name == "compensation":
                 dim.score, dim.evidence = self._score_compensation(overview)
+                dim.source = evidence_refs(["dart", "pension", "nts_biz"])
                 dim.confidence = self._confidence_from_sources(
-                    ["dart", "pension", "nts_biz"], source_data,
+                    ["dart", "pension", "nts_biz"], source_data, report.source_results,
                 )
             elif dim.name == "culture_fit":
                 dim.score, dim.evidence = self._score_culture(
-                    sections_filled, source_data,
+                    sections_filled, source_data, report.source_results,
                 )
+                dim.source = evidence_refs(["naver_search", "exa_search", "community_review"])
                 dim.confidence = self._confidence_from_sources(
-                    ["naver_search", "exa_search", "community_review"], source_data,
+                    ["naver_search", "exa_search", "community_review"], source_data, report.source_results,
                 )
             elif dim.name == "job_fit":
                 dim.score, dim.evidence = self._score_job_fit(
                     sections_filled, source_data,
                 )
+                dim.source = evidence_refs(["github", "tech_blog", "medium_velog"])
                 dim.confidence = self._confidence_from_sources(
-                    ["github", "tech_blog", "medium_velog"], source_data,
+                    ["github", "tech_blog", "medium_velog"], source_data, report.source_results,
                 )
             elif dim.name == "career_leverage":
                 dim.score, dim.evidence = self._score_career_leverage(
                     overview, n_sources, source_data,
                 )
+                dim.source = evidence_refs(["dart", "google_news", "credible_news", "naver_news"])
                 dim.confidence = self._confidence_from_sources(
-                    ["dart", "google_news", "credible_news", "naver_news"], source_data,
+                    ["dart", "google_news", "credible_news", "naver_news"], source_data, report.source_results,
                 )
 
-    def _score_growth(self, overview: dict) -> tuple[float, str]:
+    def _score_growth(self, overview: dict[str, Any]) -> tuple[float, str]:
         """Score growth from actual revenue/profit growth rates."""
         score = 2.5  # baseline when no data
         evidence_parts: list[str] = []
@@ -379,7 +427,7 @@ class CompanyAnalyzer:
 
         return min(5.0, score), "; ".join(evidence_parts)
 
-    def _score_compensation(self, overview: dict) -> tuple[float, str]:
+    def _score_compensation(self, overview: dict[str, Any]) -> tuple[float, str]:
         """Score compensation from actual salary/tenure data."""
         employees = overview.get("employees", [])
         evidence_parts: list[str] = []
@@ -439,7 +487,8 @@ class CompanyAnalyzer:
         return min(5.0, score), "; ".join(evidence_parts) if evidence_parts else "급여 데이터 파싱 불가"
 
     def _score_culture(
-        self, sections_filled: set, source_data: dict,
+        self, sections_filled: set[int], source_data: dict[str, object],
+        source_results: list[SourceResult],
     ) -> tuple[float, str]:
         """Score culture from review volume and diversity."""
         score = 2.5
@@ -468,12 +517,17 @@ class CompanyAnalyzer:
         # Culture section filled (section 4)
         if 4 in sections_filled:
             culture_data = source_data.get("naver_search", {})
-            # Check actual review volume
-            for key in ("naver_blog", "naver_cafe"):
-                items = culture_data.get(key, [])
-                if isinstance(items, list) and len(items) >= 3:
-                    score = min(5.0, score + 0.3)
-                    evidence_parts.append(f"{key} {len(items)}건")
+            if isinstance(culture_data, dict):
+                for key in ("naver_blog", "naver_cafe"):
+                    items = culture_data.get(key, [])
+                    if isinstance(items, list) and len(items) >= 3:
+                        score = min(5.0, score + 0.3)
+                        evidence_parts.append(f"{key} {len(items)}건")
+
+        confidence_rules = import_module("hirekit.engine.confidence_rules")
+        labels = confidence_rules.culture_signal_labels(source_results)
+        if labels:
+            evidence_parts.append("문화 신호: " + ", ".join(labels))
 
         if not evidence_parts:
             return 2.5, "문화 리뷰 데이터 없음"
@@ -481,7 +535,7 @@ class CompanyAnalyzer:
         return min(5.0, score), "; ".join(evidence_parts)
 
     def _score_job_fit(
-        self, sections_filled: set, source_data: dict,
+        self, sections_filled: set[int], source_data: dict[str, object],
     ) -> tuple[float, str]:
         """Score job fit from GitHub score and tech data."""
         score = 2.5
@@ -489,7 +543,7 @@ class CompanyAnalyzer:
 
         # GitHub tech maturity score (0-100)
         gh_data = source_data.get("github", {})
-        gh_score = gh_data.get("total_score", 0)
+        gh_score = gh_data.get("total_score", 0) if isinstance(gh_data, dict) else 0
         if gh_score:
             if gh_score >= 70:
                 score = 4.5
@@ -502,7 +556,7 @@ class CompanyAnalyzer:
             evidence_parts.append(f"GitHub 기술 성숙도 {gh_score}/100")
 
             # Bonus details
-            repos = gh_data.get("public_repos", 0)
+            repos = gh_data.get("public_repos", 0) if isinstance(gh_data, dict) else 0
             if repos:
                 evidence_parts.append(f"공개 레포 {repos}개")
 
@@ -522,7 +576,7 @@ class CompanyAnalyzer:
         return min(5.0, score), "; ".join(evidence_parts)
 
     def _score_career_leverage(
-        self, overview: dict, n_sources: int, source_data: dict,
+        self, overview: dict[str, Any], n_sources: int, source_data: dict[str, object],
     ) -> tuple[float, str]:
         """Score career leverage from company size, brand, and tech reputation."""
         score = 2.5
@@ -569,7 +623,8 @@ class CompanyAnalyzer:
 
         # GitHub presence = tech brand
         if "github" in source_data:
-            gh_score = source_data["github"].get("total_score", 0)
+            github_data = source_data["github"]
+            gh_score = github_data.get("total_score", 0) if isinstance(github_data, dict) else 0
             if gh_score >= 50:
                 score = min(5.0, score + 0.3)
                 evidence_parts.append("오픈소스 활동 활발")

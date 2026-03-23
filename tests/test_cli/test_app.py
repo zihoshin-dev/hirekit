@@ -215,6 +215,7 @@ class TestPipelineCommand:
 
         mock_report = make_mock_report("카카오")
         # Force high score → verdict should be Go
+        assert mock_report.scorecard is not None
         mock_report.scorecard.dimensions[0].score = 5.0
 
         mock_guide = InterviewGuide(company="카카오")
@@ -245,6 +246,79 @@ class TestPipelineCommand:
 
         assert result.exit_code == 0
         assert "Go" in result.output or "Hold" in result.output or "Pass" in result.output
+
+    def test_pipeline_terminal_output_includes_advisory_note(self, tmp_path):
+        from hirekit.engine.cover_letter import CoverLetterDraft
+        from hirekit.engine.interview_prep import InterviewGuide
+
+        mock_report = make_mock_report("카카오")
+        mock_guide = InterviewGuide(company="카카오")
+        mock_guide.common_questions = []
+        mock_guide.reverse_questions = []
+        mock_guide.technical_questions = []
+        mock_guide.behavioral_questions = []
+        mock_guide.tips = []
+
+        mock_draft = CoverLetterDraft(company="카카오", overall_score=70.0)
+        mock_draft.sections = []
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.interview_prep.InterviewPrep") as MockPrep:
+                    MockPrep.return_value.prepare.return_value = mock_guide
+                    with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
+                        MockCoach.return_value.draft.return_value = mock_draft
+                        result = runner.invoke(app, [
+                            "pipeline", "카카오", "--no-llm", "--output", "terminal"
+                        ])
+
+        assert result.exit_code == 0
+        assert "Advisory only" in result.output
+
+    def test_pipeline_markdown_output_includes_hero_verdict_section(self, tmp_path):
+        from hirekit.engine.cover_letter import CoverLetterDraft
+        from hirekit.engine.interview_prep import InterviewGuide
+
+        mock_report = make_mock_report("카카오")
+        mock_report.to_markdown = MagicMock(return_value="# 기업 분석")
+        mock_guide = InterviewGuide(company="카카오")
+        mock_guide.common_questions = []
+        mock_guide.reverse_questions = []
+        mock_guide.technical_questions = []
+        mock_guide.behavioral_questions = []
+        mock_guide.tips = []
+        mock_guide.to_markdown = MagicMock(return_value="# 면접 준비")
+
+        mock_draft = CoverLetterDraft(company="카카오", overall_score=70.0)
+        mock_draft.sections = []
+        mock_draft.to_markdown = MagicMock(return_value="# 자기소개서")
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.interview_prep.InterviewPrep") as MockPrep:
+                    MockPrep.return_value.prepare.return_value = mock_guide
+                    with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
+                        MockCoach.return_value.draft.return_value = mock_draft
+                        result = runner.invoke(app, [
+                            "pipeline", "카카오", "--no-llm", "--output", "markdown"
+                        ])
+
+        assert result.exit_code == 0
+        saved = (tmp_path / "카카오_pipeline.md").read_text(encoding="utf-8")
+        assert "## 0. Hero Verdict" in saved
+        assert "권고 메모" in saved
 
 
 # ---------------------------------------------------------------------------

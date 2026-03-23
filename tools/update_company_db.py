@@ -126,12 +126,14 @@ def main() -> None:
     except Exception:
         companies_count = 0
 
-    log: dict = {
+    log: dict[str, object] = {
         "updated_at": datetime.now().isoformat(),
         "source": args.source,
-        "sources_updated": sources_updated,
+        "sources_updated": sources_updated or (["snapshot"] if companies_count else []),
         "companies_updated": companies_count,
         "dry_run": args.dry_run,
+        "cross_validated": "sync" in sources_updated,
+        "publication_boundary": "public_demo",
         "errors": errors,
     }
 

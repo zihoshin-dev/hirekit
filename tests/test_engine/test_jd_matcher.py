@@ -1,6 +1,11 @@
 """Tests for JD matcher engine."""
 
+from pathlib import Path
+
 from hirekit.engine.jd_matcher import JDAnalysis, JDMatcher, SkillMatch
+
+
+FIXTURE_ROOT = Path(__file__).parent.parent / "fixtures" / "hero-flow"
 
 
 class TestJDAnalysis:
@@ -88,3 +93,33 @@ class TestJDMatcher:
         matcher = JDMatcher()
         analysis = matcher.analyze(jd_source="자격요건\n- 3년 이상 경력")
         assert "3년" in analysis.experience_years
+
+    def test_high_signal_fixture_with_matching_profile_scores_positive(self):
+        matcher = JDMatcher()
+        jd_text = (FIXTURE_ROOT / "jd-high-signal.txt").read_text(encoding="utf-8")
+        profile = {
+            "skills": {
+                "technical": ["Python", "PostgreSQL", "Docker", "Kubernetes", "Kafka"],
+                "domain": ["Data Pipeline"],
+                "soft": [],
+            },
+            "career_assets": [],
+        }
+        analysis = matcher.analyze(jd_source=jd_text, profile=profile)
+        assert analysis.match_score > 0
+        assert analysis.strengths
+
+    def test_low_signal_fixture_stays_conservative(self):
+        matcher = JDMatcher()
+        jd_text = (FIXTURE_ROOT / "jd-low-signal.txt").read_text(encoding="utf-8")
+        profile = {
+            "skills": {
+                "technical": ["Python", "PostgreSQL"],
+                "domain": [],
+                "soft": [],
+            },
+            "career_assets": [],
+        }
+        analysis = matcher.analyze(jd_source=jd_text, profile=profile)
+        assert analysis.match_score < 50
+        assert not analysis.required_skills

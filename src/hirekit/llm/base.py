@@ -13,6 +13,7 @@ class LLMResponse:
 
     text: str
     structured: dict[str, Any] | None = None
+    refusal: bool = False
     model: str = ""
     usage: dict[str, int] = field(default_factory=dict)
 

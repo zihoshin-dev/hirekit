@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """DART DB 기준으로 meta.json 기본 정보 동기화."""
+
+from __future__ import annotations
+
 import json
+from datetime import datetime
 from pathlib import Path
 
 
-def _match_dart(name: str, dart_db: dict) -> dict | None:
-    """meta.json 기업명을 dart_db 키와 매칭."""
+def _match_dart(name: str, dart_db: dict[str, dict[str, object]]) -> dict[str, object] | None:
     # 1. 직접 키 매칭
     if name in dart_db:
         return dart_db[name]
@@ -18,11 +21,38 @@ def _match_dart(name: str, dart_db: dict) -> dict | None:
             return val
 
         # corp_name 필드로도 매칭 시도
-        corp_name_norm = val.get("corp_name", "").replace(" ", "").lower()
+        corp_name = val.get("corp_name", "")
+        corp_name_norm = corp_name.replace(" ", "").lower() if isinstance(corp_name, str) else ""
         if corp_name_norm and (name_norm in corp_name_norm or corp_name_norm in name_norm):
             return val
 
     return None
+
+
+def _build_snapshot_meta(company: dict[str, object]) -> dict[str, object]:
+    trust_flags: list[str] = []
+    if company.get("ceo"):
+        trust_flags.append("identity")
+    if company.get("core_business"):
+        trust_flags.append("business")
+    if company.get("key_metrics"):
+        trust_flags.append("metrics")
+    if company.get("tech_stack"):
+        trust_flags.append("tech_stack")
+
+    source_count = company.get("sources", 0)
+    if not isinstance(source_count, int):
+        source_count = 0
+
+    confidence = "high" if source_count >= 10 else "medium" if source_count >= 5 else "low"
+
+    return {
+        "publication_boundary": "public_demo",
+        "cross_validated": source_count >= 2,
+        "confidence": confidence,
+        "snapshot_updated_at": datetime.now().isoformat(),
+        "trust_flags": trust_flags,
+    }
 
 
 def sync():
@@ -46,6 +76,8 @@ def sync():
         name = company["name"]
         dart = _match_dart(name, dart_db)
 
+        company["_meta"] = _build_snapshot_meta(company)
+
         if not dart:
             continue
 
@@ -58,7 +90,8 @@ def sync():
         # 설립일 동기화
         if dart.get("est_dt"):
             try:
-                est_year = int(dart["est_dt"][:4])
+                est_dt = dart.get("est_dt", "")
+                est_year = int(est_dt[:4]) if isinstance(est_dt, str) else 0
                 if company.get("founded_year") != est_year:
                     old = company.get("founded_year", "(없음)")
                     changes.append(f"{name}: founded_year {old} → {est_year}")
@@ -71,7 +104,9 @@ def sync():
             old_addr = company.get("address", "")
             if old_addr != dart["adres"]:
                 company["address"] = dart["adres"]
-                changes.append(f"{name}: address 갱신 ('{dart['adres'][:30]}...')")
+                adres = dart.get("adres", "")
+                preview = adres[:30] if isinstance(adres, str) else ""
+                changes.append(f"{name}: address 갱신 ('{preview}...')")
 
         # 홈페이지 (기존에 없을 때만)
         if dart.get("hm_url") and not company.get("homepage"):

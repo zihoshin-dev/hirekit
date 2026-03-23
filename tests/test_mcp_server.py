@@ -40,6 +40,7 @@ async def test_tools_list_schemas_have_required_fields():
     request = {"jsonrpc": "2.0", "id": 2, "method": "tools/list", "params": {}}
     response = await handle_request(request)
 
+    assert response is not None
     for tool in response["result"]["tools"]:
         assert "name" in tool
         assert "description" in tool
@@ -95,16 +96,25 @@ async def test_tools_call_analyze_company_mock():
     mock_analyzer = MagicMock()
     mock_analyzer.analyze.return_value = mock_report
 
-    with patch(
-        "hirekit.mcp_server._call_analyze_company",
-        return_value={
+    with patch.dict(
+        "hirekit.mcp_server._TOOL_HANDLERS",
+        {"analyze_company": MagicMock(return_value={
             "company": "카카오",
             "region": "kr",
+            "runtime_mode": "local_mcp",
+            "publication_boundary": "internal_only",
             "scorecard": {"total": 75.0, "grade": "B", "dimensions": []},
+            "hero_verdict": {
+                "label": "Go",
+                "combined_score": 75.0,
+                "confidence": "medium",
+                "advisory_note": "Advisory only.",
+                "reasons": ["기업 분석 75/100"],
+            },
             "sections": [1, 3],
             "source_count": 0,
             "markdown_preview": "# 카카오 분석 리포트\n...",
-        },
+        })},
     ):
         request = {
             "jsonrpc": "2.0",
@@ -124,7 +134,11 @@ async def test_tools_call_analyze_company_mock():
     assert content[0]["type"] == "text"
     data = json.loads(content[0]["text"])
     assert data["company"] == "카카오"
+    assert data["runtime_mode"] == "local_mcp"
+    assert data["publication_boundary"] == "internal_only"
     assert "scorecard" in data
+    assert data["hero_verdict"]["label"] == "Go"
+    assert "Advisory only" in data["hero_verdict"]["advisory_note"]
 
 
 # ---------------------------------------------------------------------------

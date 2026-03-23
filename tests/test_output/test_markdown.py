@@ -1,5 +1,8 @@
 """Tests for Jinja2 Markdown renderer — snapshot-style behavioral tests."""
 
+from typing import Any
+
+from hirekit.sources.base import SourceResult
 
 from hirekit.engine.company_analyzer import AnalysisReport
 from hirekit.engine.scorer import Scorecard, ScoreDimension
@@ -10,7 +13,7 @@ def make_report(
     company: str = "카카오",
     region: str = "kr",
     tier: int = 1,
-    sections: dict | None = None,
+    sections: dict[int, dict[str, Any]] | None = None,
     score: float = 80.0,
 ) -> AnalysisReport:
     """Factory for minimal AnalysisReport."""
@@ -59,6 +62,39 @@ class TestMarkdownRendererRender:
         md = renderer.render(report)
         # score=80/20=4.0 → total=80 → grade S
         assert "S" in md
+
+    def test_verdict_first_section_rendered(self):
+        renderer = MarkdownRenderer()
+        report = make_report(score=80.0)
+        md = renderer.render(report)
+        assert "## 0. Hero Verdict" in md
+        assert "**판정:** Go" in md
+
+    def test_low_confidence_warning_rendered(self):
+        renderer = MarkdownRenderer()
+        report = make_report(score=45.0)
+        assert report.scorecard is not None
+        report.scorecard.dimensions[0].confidence = "low"
+        report.scorecard.dimensions[0].evidence = "근거 부족"
+        md = renderer.render(report)
+        assert "⚠️" in md
+        assert "신뢰도가 낮아요" in md
+
+    def test_evidence_summary_renders_sources(self):
+        renderer = MarkdownRenderer()
+        report = make_report(score=70.0)
+        report.source_results = [
+            SourceResult(
+                source_name="dart",
+                section="overview",
+                url="https://dart.fss.or.kr/",
+                trust_label="verified",
+                collected_at="2026-03-22T00:00:00+00:00",
+            )
+        ]
+        md = renderer.render(report)
+        assert "핵심 근거 스냅샷" in md
+        assert "dart" in md
 
     def test_empty_sections_renders_without_error(self):
         renderer = MarkdownRenderer()
