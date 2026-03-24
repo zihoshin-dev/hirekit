@@ -533,6 +533,60 @@ class TestPipelineCommand:
         assert "### 기업 비교 (전략 추천)" in saved
         MockComparator.return_value.compare_many.assert_called_once_with(["카카오", "네이버", "당근"])
 
+    def test_pipeline_proof_artifact_keeps_war_room_context(self, tmp_path):
+        from hirekit.engine.cover_letter import CoverLetterDraft
+        from hirekit.engine.interview_prep import InterviewGuide
+
+        mock_report = make_mock_report("카카오")
+        mock_report.to_markdown = MagicMock(return_value="# 기업 분석")
+        mock_guide = InterviewGuide(company="카카오")
+        mock_guide.common_questions = []
+        mock_guide.reverse_questions = []
+        mock_guide.technical_questions = []
+        mock_guide.behavioral_questions = []
+        mock_guide.tips = []
+        mock_guide.to_markdown = MagicMock(return_value="# 면접 준비")
+
+        mock_draft = CoverLetterDraft(company="카카오", overall_score=70.0)
+        mock_draft.sections = []
+        mock_draft.to_markdown = MagicMock(return_value="# 자기소개서")
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.interview_prep.InterviewPrep") as MockPrep:
+                    MockPrep.return_value.prepare.return_value = mock_guide
+                    with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
+                        MockCoach.return_value.draft.return_value = mock_draft
+                        with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockStrategy:
+                            MockStrategy.return_value.analyze.return_value = make_mock_strategy_result()
+                            with patch("hirekit.engine.company_comparator.CompanyComparator") as MockComparator:
+                                MockComparator.return_value.compare_many.return_value = make_mock_comparison_result()
+                                result = runner.invoke(
+                                    app,
+                                    [
+                                        "pipeline",
+                                        "카카오",
+                                        "--no-llm",
+                                        "--output",
+                                        "markdown",
+                                        "--experience",
+                                        "3",
+                                        "--skills",
+                                        "python",
+                                    ],
+                                )
+
+        assert result.exit_code == 0
+        proof_saved = (tmp_path / "카카오_proof.md").read_text(encoding="utf-8")
+        assert "## 개인화 전략" in proof_saved
+        assert "### 기업 비교 (전략 추천)" in proof_saved
+
 
 class TestProofCommand:
     def test_proof_terminal_output_shows_thesis_and_actions(self, tmp_path):
