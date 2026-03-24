@@ -1,5 +1,6 @@
 """79개 기업 데이터 검증 및 _meta 필드 스키마 테스트."""
 
+import importlib.util
 import json
 import os
 import subprocess
@@ -18,6 +19,9 @@ VERIFY_SCRIPT = os.path.join(
 )
 ADD_META_SCRIPT = os.path.join(
     os.path.dirname(__file__), "..", "tools", "add_meta_fields.py"
+)
+VERIFY_MODULE_PATH = os.path.join(
+    os.path.dirname(__file__), "..", "tools", "verify_company_data.py"
 )
 
 META_SCHEMA_KEYS = {
@@ -39,6 +43,17 @@ def load_company(fname):
     path = os.path.join(os.path.abspath(COMPANIES_DIR), fname)
     with open(path, encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_verify_module():
+    spec = importlib.util.spec_from_file_location(
+        "verify_company_data_module",
+        os.path.abspath(VERIFY_MODULE_PATH),
+    )
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 class TestVerifyScript:
@@ -66,6 +81,41 @@ class TestVerifyScript:
         )
         assert result.returncode == 0, (
             f"add_meta_fields --dry-run 실패\nstdout: {result.stdout}\nstderr: {result.stderr}"
+        )
+
+    def test_verify_module_detects_kakaobank_employee_inconsistency(self):
+        module = load_verify_module()
+        data = load_company("카카오뱅크.json")
+        with open(os.path.abspath(META_JSON), encoding="utf-8") as f:
+            meta = json.load(f)
+        meta_record = next(company for company in meta if company.get("name") == "카카오뱅크")
+        with open(
+            os.path.join(os.path.dirname(__file__), "..", "docs", "demo", "data", "pension_data.json"),
+            encoding="utf-8",
+        ) as f:
+            pension_data = json.load(f)
+
+        issues = module.build_employee_consistency_issues(
+            "카카오뱅크",
+            data,
+            meta_record=meta_record,
+            pension_record=pension_data.get("카카오뱅크"),
+        )
+
+        issue_types = {issue["issue_type"] for issue in issues}
+        assert "employee_count_inconsistency" in issue_types
+        assert "employee_count_contamination_flag" in issue_types
+
+    def test_verify_script_report_includes_subsidiary_audit(self):
+        module = load_verify_module()
+        report = module.verify_companies()
+
+        assert "subsidiary_audit" in report
+        assert isinstance(report["subsidiary_audit"]["issues"], list)
+        assert any(
+            issue.get("issue_type") == "dart_corp_name_contamination"
+            and issue.get("company") == "카카오뱅크"
+            for issue in report["issues"]
         )
 
 

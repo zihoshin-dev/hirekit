@@ -1,16 +1,3509 @@
 {
   "total_companies": 80,
-  "verified_at": "2026-03-23T22:40:32.937599+00:00",
+  "verified_at": "2026-03-24T22:35:24.691076+00:00",
   "issues": [
     {
       "company": "__global__",
       "issue": "companies/ 파일 수(80) != meta.json 기업 수(79)",
       "severity": "high"
+    },
+    {
+      "company": "구글코리아",
+      "issue": "직원수 신호 불일치: 최소 800명, 최대 1,500명 (차이 700명, 88%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 800,
+        "meta.pension_members": 1500,
+        "pension_data.pension_members": 1500
+      }
+    },
+    {
+      "company": "그린랩스",
+      "issue": "직원수 신호 불일치: 최소 150명, 최대 350명 (차이 200명, 133%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 350,
+        "meta.pension_members": 150,
+        "pension_data.pension_members": 150
+      }
+    },
+    {
+      "company": "네이버",
+      "issue": "직원수 신호 불일치: 최소 3,495명, 최대 5,047명 (차이 1,552명, 44%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 5047,
+        "meta.employee_count": 3495,
+        "meta.pension_members": 4500,
+        "pension_data.pension_members": 4500
+      }
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "직원수 오염 가능성: sections.1.employees 가 '네이버' DART 데이터와 혼입된 표시가 있음",
+      "issue_type": "employee_count_contamination_flag",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 5047,
+        "meta.employee_count": 900,
+        "meta.pension_members": 800,
+        "pension_data.pension_members": 800
+      }
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "직원수 신호 불일치: 최소 800명, 최대 5,047명 (차이 4,247명, 531%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 5047,
+        "meta.employee_count": 900,
+        "meta.pension_members": 800,
+        "pension_data.pension_members": 800
+      }
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "직원수 오염 가능성: sections.1.employees 가 '네이버' DART 데이터와 혼입된 표시가 있음",
+      "issue_type": "employee_count_contamination_flag",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 5047,
+        "meta.employee_count": 1500,
+        "meta.pension_members": 1200,
+        "pension_data.pension_members": 1200
+      }
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "직원수 신호 불일치: 최소 1,200명, 최대 5,047명 (차이 3,847명, 321%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 5047,
+        "meta.employee_count": 1500,
+        "meta.pension_members": 1200,
+        "pension_data.pension_members": 1200
+      }
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "직원수 오염 가능성: sections.1.employees 가 '네이버' DART 데이터와 혼입된 표시가 있음",
+      "issue_type": "employee_count_contamination_flag",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 5047,
+        "meta.employee_count": 1000,
+        "meta.pension_members": 600,
+        "pension_data.pension_members": 600
+      }
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "직원수 신호 불일치: 최소 600명, 최대 5,047명 (차이 4,447명, 741%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 5047,
+        "meta.employee_count": 1000,
+        "meta.pension_members": 600,
+        "pension_data.pension_members": 600
+      }
+    },
+    {
+      "company": "넥슨코리아",
+      "issue": "직원수 신호 불일치: 최소 4,000명, 최대 5,000명 (차이 1,000명, 25%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 4000,
+        "meta.pension_members": 5000,
+        "pension_data.pension_members": 5000
+      }
+    },
+    {
+      "company": "넷마블",
+      "issue": "직원수 신호 불일치: 최소 795명, 최대 7,000명 (차이 6,205명, 781%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 795,
+        "meta.employee_count": 7000,
+        "meta.pension_members": 4500,
+        "pension_data.pension_members": 4500
+      }
+    },
+    {
+      "company": "당근",
+      "issue": "직원수 신호 불일치: 최소 600명, 최대 700명 (차이 100명, 17%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 600,
+        "meta.pension_members": 700,
+        "pension_data.pension_members": 700
+      }
+    },
+    {
+      "company": "라인플러스",
+      "issue": "직원수 신호 불일치: 최소 2,500명, 최대 3,000명 (차이 500명, 20%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 2500,
+        "meta.pension_members": 3000,
+        "pension_data.pension_members": 3000
+      }
+    },
+    {
+      "company": "뤼튼",
+      "issue": "직원수 신호 불일치: 최소 150명, 최대 200명 (차이 50명, 33%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 150,
+        "meta.pension_members": 200,
+        "pension_data.pension_members": 200
+      }
+    },
+    {
+      "company": "리디",
+      "issue": "직원수 신호 불일치: 최소 400명, 최대 500명 (차이 100명, 25%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 500,
+        "meta.pension_members": 400,
+        "pension_data.pension_members": 400
+      }
+    },
+    {
+      "company": "리벨리온",
+      "issue": "직원수 신호 불일치: 최소 200명, 최대 300명 (차이 100명, 50%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 300,
+        "meta.pension_members": 200,
+        "pension_data.pension_members": 200
+      }
+    },
+    {
+      "company": "마이리얼트립",
+      "issue": "직원수 신호 불일치: 최소 200명, 최대 400명 (차이 200명, 100%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 400,
+        "meta.pension_members": 200,
+        "pension_data.pension_members": 200
+      }
+    },
+    {
+      "company": "마키나락스",
+      "issue": "직원수 신호 불일치: 최소 80명, 최대 150명 (차이 70명, 88%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 150,
+        "meta.pension_members": 80,
+        "pension_data.pension_members": 80
+      }
+    },
+    {
+      "company": "무신사",
+      "issue": "직원수 신호 불일치: 최소 1,500명, 최대 2,000명 (차이 500명, 33%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 1500,
+        "meta.pension_members": 2000,
+        "pension_data.pension_members": 2000
+      }
+    },
+    {
+      "company": "뱅크샐러드",
+      "issue": "직원수 신호 불일치: 최소 300명, 최대 350명 (차이 50명, 17%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 350,
+        "meta.pension_members": 300,
+        "pension_data.pension_members": 300
+      }
+    },
+    {
+      "company": "버킷플레이스",
+      "issue": "직원수 신호 불일치: 최소 168명, 최대 800명 (차이 632명, 376%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 168,
+        "meta.employee_count": 800,
+        "meta.pension_members": 500,
+        "pension_data.pension_members": 500
+      }
+    },
+    {
+      "company": "빗썸",
+      "issue": "직원수 신호 불일치: 최소 500명, 최대 600명 (차이 100명, 20%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 600,
+        "meta.pension_members": 500,
+        "pension_data.pension_members": 500
+      }
+    },
+    {
+      "company": "삼성전자",
+      "issue": "직원수 신호 불일치: 최소 120,000명, 최대 257,762명 (차이 137,762명, 115%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 257762,
+        "meta.employee_count": 120000,
+        "meta.pension_members": 125000,
+        "pension_data.pension_members": 125000
+      }
+    },
+    {
+      "company": "세일즈포스코리아",
+      "issue": "직원수 신호 불일치: 최소 400명, 최대 500명 (차이 100명, 25%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 400,
+        "meta.pension_members": 500,
+        "pension_data.pension_members": 500
+      }
+    },
+    {
+      "company": "센드버드",
+      "issue": "직원수 신호 불일치: 최소 300명, 최대 500명 (차이 200명, 67%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 500,
+        "meta.pension_members": 300,
+        "pension_data.pension_members": 300
+      }
+    },
+    {
+      "company": "스노우",
+      "issue": "직원수 신호 불일치: 최소 378명, 최대 500명 (차이 122명, 32%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 378,
+        "meta.pension_members": 500,
+        "pension_data.pension_members": 500
+      }
+    },
+    {
+      "company": "스캐터랩",
+      "issue": "직원수 신호 불일치: 최소 42명, 최대 100명 (차이 58명, 138%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 42,
+        "meta.pension_members": 100,
+        "pension_data.pension_members": 100
+      }
+    },
+    {
+      "company": "쏘카",
+      "issue": "직원수 신호 불일치: 최소 437명, 최대 700명 (차이 263명, 60%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 437,
+        "meta.employee_count": 466,
+        "meta.pension_members": 700,
+        "pension_data.pension_members": 700
+      }
+    },
+    {
+      "company": "애플코리아",
+      "issue": "직원수 신호 불일치: 최소 600명, 최대 1,224명 (차이 624명, 104%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 1224,
+        "meta.pension_members": 600,
+        "pension_data.pension_members": 600
+      }
+    },
+    {
+      "company": "야놀자",
+      "issue": "직원수 신호 불일치: 최소 2,000명, 최대 4,000명 (차이 2,000명, 100%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 4000,
+        "meta.pension_members": 2000,
+        "pension_data.pension_members": 2000
+      }
+    },
+    {
+      "company": "에이프로젠",
+      "issue": "직원수 신호 불일치: 최소 700명, 최대 1,500명 (차이 800명, 114%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 1500,
+        "meta.pension_members": 700,
+        "pension_data.pension_members": 700
+      }
+    },
+    {
+      "company": "엔비디아코리아",
+      "issue": "직원수 신호 불일치: 최소 200명, 최대 300명 (차이 100명, 50%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 300,
+        "meta.pension_members": 200,
+        "pension_data.pension_members": 200
+      }
+    },
+    {
+      "company": "엔씨소프트",
+      "issue": "직원수 신호 불일치: 최소 2,175명, 최대 5,000명 (차이 2,825명, 130%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3262,
+        "meta.employee_count": 2175,
+        "meta.pension_members": 5000,
+        "pension_data.pension_members": 5000
+      }
+    },
+    {
+      "company": "왓챠",
+      "issue": "직원수 신호 불일치: 최소 110명, 최대 200명 (차이 90명, 82%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 110,
+        "meta.pension_members": 200,
+        "pension_data.pension_members": 200
+      }
+    },
+    {
+      "company": "우아한형제들",
+      "issue": "직원수 신호 불일치: 최소 3,000명, 최대 4,000명 (차이 1,000명, 33%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 4000,
+        "meta.pension_members": 3000,
+        "pension_data.pension_members": 3000
+      }
+    },
+    {
+      "company": "원티드랩",
+      "issue": "직원수 신호 불일치: 최소 180명, 최대 250명 (차이 70명, 39%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 180,
+        "meta.pension_members": 250,
+        "pension_data.pension_members": 250
+      }
+    },
+    {
+      "company": "지마켓",
+      "issue": "직원수 신호 불일치: 최소 905명, 최대 1,200명 (차이 295명, 33%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 905,
+        "meta.pension_members": 1200,
+        "pension_data.pension_members": 1200
+      }
+    },
+    {
+      "company": "직방",
+      "issue": "직원수 신호 불일치: 최소 400명, 최대 600명 (차이 200명, 50%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 600,
+        "meta.pension_members": 400,
+        "pension_data.pension_members": 400
+      }
+    },
+    {
+      "company": "채널코퍼레이션",
+      "issue": "직원수 신호 불일치: 최소 168명, 최대 400명 (차이 232명, 138%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 168,
+        "meta.employee_count": 400,
+        "meta.pension_members": 300,
+        "pension_data.pension_members": 300
+      }
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "직원수 오염 가능성: sections.1.employees 가 '카카오' DART 데이터와 혼입된 표시가 있음",
+      "issue_type": "employee_count_contamination_flag",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 1700,
+        "meta.pension_members": 1800,
+        "pension_data.pension_members": 1800
+      }
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "직원수 신호 불일치: 최소 1,700명, 최대 3,922명 (차이 2,222명, 131%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 1700,
+        "meta.pension_members": 1800,
+        "pension_data.pension_members": 1800
+      }
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "직원수 오염 가능성: sections.1.employees 가 '카카오' DART 데이터와 혼입된 표시가 있음",
+      "issue_type": "employee_count_contamination_flag",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 500,
+        "meta.pension_members": 300,
+        "pension_data.pension_members": 300
+      }
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "직원수 신호 불일치: 최소 300명, 최대 3,922명 (차이 3,622명, 1207%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 500,
+        "meta.pension_members": 300,
+        "pension_data.pension_members": 300
+      }
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "직원수 오염 가능성: sections.1.employees 가 '카카오' DART 데이터와 혼입된 표시가 있음",
+      "issue_type": "employee_count_contamination_flag",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 2500,
+        "meta.pension_members": 1500,
+        "pension_data.pension_members": 1500
+      }
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "직원수 신호 불일치: 최소 1,500명, 최대 3,922명 (차이 2,422명, 161%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 2500,
+        "meta.pension_members": 1500,
+        "pension_data.pension_members": 1500
+      }
+    },
+    {
+      "company": "카카오페이",
+      "issue": "직원수 오염 가능성: sections.1.employees 가 '카카오' DART 데이터와 혼입된 표시가 있음",
+      "issue_type": "employee_count_contamination_flag",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 1500,
+        "meta.pension_members": 1200,
+        "pension_data.pension_members": 1200
+      }
+    },
+    {
+      "company": "카카오페이",
+      "issue": "직원수 신호 불일치: 최소 1,200명, 최대 3,922명 (차이 2,722명, 227%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 1500,
+        "meta.pension_members": 1200,
+        "pension_data.pension_members": 1200
+      }
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "직원수 오염 가능성: sections.1.employees 가 '카카오' DART 데이터와 혼입된 표시가 있음",
+      "issue_type": "employee_count_contamination_flag",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 500,
+        "meta.pension_members": 400,
+        "pension_data.pension_members": 400
+      }
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "직원수 신호 불일치: 최소 400명, 최대 3,922명 (차이 3,522명, 880%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 3922,
+        "meta.employee_count": 500,
+        "meta.pension_members": 400,
+        "pension_data.pension_members": 400
+      }
+    },
+    {
+      "company": "컬리",
+      "issue": "직원수 신호 불일치: 최소 2,000명, 최대 3,000명 (차이 1,000명, 50%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 2000,
+        "meta.pension_members": 3000,
+        "pension_data.pension_members": 3000
+      }
+    },
+    {
+      "company": "쿠팡",
+      "issue": "직원수 신호 불일치: 최소 60,000명, 최대 70,000명 (차이 10,000명, 17%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 60000,
+        "meta.pension_members": 70000,
+        "pension_data.pension_members": 70000
+      }
+    },
+    {
+      "company": "크래프톤",
+      "issue": "직원수 신호 불일치: 최소 2,118명, 최대 4,000명 (차이 1,882명, 89%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 2118,
+        "meta.employee_count": 3500,
+        "meta.pension_members": 4000,
+        "pension_data.pension_members": 4000
+      }
+    },
+    {
+      "company": "클래스101",
+      "issue": "직원수 신호 불일치: 최소 86명, 최대 150명 (차이 64명, 74%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 86,
+        "meta.pension_members": 150,
+        "pension_data.pension_members": 150
+      }
+    },
+    {
+      "company": "토스랩",
+      "issue": "직원수 신호 불일치: 최소 34명, 최대 150명 (차이 116명, 341%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 34,
+        "meta.pension_members": 150,
+        "pension_data.pension_members": 150
+      }
+    },
+    {
+      "company": "토스뱅크",
+      "issue": "직원수 신호 불일치: 최소 600명, 최대 800명 (차이 200명, 33%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 600,
+        "meta.pension_members": 800,
+        "pension_data.pension_members": 800
+      }
+    },
+    {
+      "company": "토스증권",
+      "issue": "직원수 신호 불일치: 최소 300명, 최대 400명 (차이 100명, 33%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 400,
+        "meta.pension_members": 300,
+        "pension_data.pension_members": 300
+      }
+    },
+    {
+      "company": "핀다",
+      "issue": "직원수 신호 불일치: 최소 150명, 최대 250명 (차이 100명, 67%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "meta.employee_count": 250,
+        "meta.pension_members": 150,
+        "pension_data.pension_members": 150
+      }
+    },
+    {
+      "company": "하이브",
+      "issue": "직원수 신호 불일치: 최소 893명, 최대 2,800명 (차이 1,907명, 214%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "high",
+      "signals": {
+        "sections.1.employees": 893,
+        "meta.employee_count": 2800,
+        "meta.pension_members": 2500,
+        "pension_data.pension_members": 2500
+      }
+    },
+    {
+      "company": "한국마이크로소프트",
+      "issue": "직원수 신호 불일치: 최소 1,200명, 최대 1,500명 (차이 300명, 25%)",
+      "issue_type": "employee_count_inconsistency",
+      "severity": "medium",
+      "signals": {
+        "meta.employee_count": 1500,
+        "meta.pension_members": 1200,
+        "pension_data.pension_members": 1200
+      }
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "dart_corp_name_contamination at sections.1.company_name",
+      "issue_type": "dart_corp_name_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": "(주)카카오",
+      "expected": "카카오뱅크 고유 DART 데이터"
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "employee_count_contamination at sections.1.employees",
+      "issue_type": "employee_count_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": 3922,
+      "expected": "카카오뱅크 고유 직원수"
+    },
+    {
+      "company": "카카오페이",
+      "issue": "dart_corp_name_contamination at sections.1.company_name",
+      "issue_type": "dart_corp_name_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": "(주)카카오",
+      "expected": "카카오페이 고유 DART 데이터"
+    },
+    {
+      "company": "카카오페이",
+      "issue": "employee_count_contamination at sections.1.employees",
+      "issue_type": "employee_count_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": 3922,
+      "expected": "카카오페이 고유 직원수"
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "dart_corp_name_contamination at sections.1.company_name",
+      "issue_type": "dart_corp_name_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": "(주)카카오",
+      "expected": "카카오스타일 고유 DART 데이터"
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "employee_count_contamination at sections.1.employees",
+      "issue_type": "employee_count_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": 3922,
+      "expected": "카카오스타일 고유 직원수"
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "dart_corp_name_contamination at sections.1.company_name",
+      "issue_type": "dart_corp_name_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": "(주)카카오",
+      "expected": "카카오엔터테인먼트 고유 DART 데이터"
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "employee_count_contamination at sections.1.employees",
+      "issue_type": "employee_count_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": 3922,
+      "expected": "카카오엔터테인먼트 고유 직원수"
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "dart_corp_name_contamination at sections.1.company_name",
+      "issue_type": "dart_corp_name_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": "(주)카카오",
+      "expected": "카카오페이증권 고유 DART 데이터"
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "employee_count_contamination at sections.1.employees",
+      "issue_type": "employee_count_contamination",
+      "severity": "high",
+      "group": "카카오",
+      "found": 3922,
+      "expected": "카카오페이증권 고유 직원수"
+    },
+    {
+      "company": "카카오",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[生기업TALK] 카카오페이, 흑자 발판 삼아 ‘스테이블코인’으로 외연 확장에 속도 - 시사캐스트",
+      "expected": null
+    },
+    {
+      "company": "카카오",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이, ‘생활 플랫폼’ 도약…데이터 기반 광고·중개 비즈니스 급성장 - 한국금융신문",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[0].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오뱅크 AI그룹장 투톱 체제로 꾸린 이유는 - v.daum.net",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[1].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "AI 거품론 확산에 카카오뱅크 신사업 발목 잡히나 - 녹색경제신문",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[2].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "​​카카오뱅크, Azure OpenAI 기반으로 국내 금융권 최초 대화형 AI 서비스 시작​ - Microsoft",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[3].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 창사 첫 그룹 단위 전 직군 신입공채…“AI 네이티브 인재 찾는다” - 더밸류뉴스",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[4].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[6].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오뱅크 '안전·혜택 모두 잡아요'...생활 금융 플랫폼 경쟁력 강화 - 테크M",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[7].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오뱅크, 글로벌 인력 채용 본격화…태국·인니 진출 박차 - 전자신문",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[8].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오뱅크의 AI 내부통제 전략?… \"AI 관리가 금융 미래 결정한다\" - 디지털데일리",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[9].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 창사이래 첫 그룹단위 공채...AI 인재 확보 나서 - mstoday.co.kr",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[12].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[금융권 별들의 전쟁] 윤호영 카카오뱅크 대표, 금융에 IT를 입히다…기폭제는 AI - 블로터",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[13].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카톡에 챗GPT 붙이고 대규모 채용하고…카카오에 新바람 - 서울경제신문",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[14].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오 정신아, 무거워진 어깨…AI 역량 입증이 '반등의 키' - 스트레이트뉴스",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[15].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오뱅크 3분기 누적 순익 3751억원…역대 최대 - 디일렉",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "계속 오르는 시중금리···카카오뱅크, 자산운용 사업 '긴장' - 시사저널e",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[17].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오뱅크 3분기 누적 순익 3천751억원 또 사상 최대…6%↑ - 연합뉴스",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[18].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "'비이자 1조' 시대 연 카카오뱅크, 동남아 넘어 글로벌로 영토 확장 - 서울파이낸스",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "한국인 절반 쓰는 카카오뱅크 최대 실적 행진, 윤호영 '성장 밸류업' 고삐 죈다 - 비즈니스포스트",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[0].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오모빌리티, 자율주행 인재 채용 확대…피지컬 AI 전략 가속 - 네이트",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[1].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이손해보험, 탐지 생성형 AI 악용 가려내는 시스템 추진 [보험사기 대응 역량 점검] - 한국금융신문",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[2].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[증권사 AI]⑧ 카카오페이증권, 플랫폼 금융과 결합 '실험' - 블로터",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[5].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[6].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[현장리포트] 네이버페이·카카오페이·토스·뱅크샐러드, '코리아 핀테크 위크 2025'서 차세대 AI 금융 서비스 선보여 - investnews.",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[9].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 창사 첫 그룹 단위 전 직군 신입공채…“AI 네이티브 인재 찾는다” - 더밸류뉴스",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[11].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "\"2027년엔 1000만명\"… 카카오페이, 오프라인 시장의 거인된다 - mt.co.kr",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[12].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이, 단말기 없이 오프라인 결제 시장 공략 나선다 - 조선비즈 - Chosunbiz",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[13].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 창사이래 첫 그룹단위 공채...AI 인재 확보 나서 - mstoday.co.kr",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[14].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 창사 후 첫 그룹 공채…전 직군 신입 채용 - 서울경제신문",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[15].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[디지털혁신 블루칩]카카오페이 금융 넘어 '생활 플랫폼'으로 진화 - 전자신문",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이, 실적·AI 둘 다 잡았다…스테이블코인 사업도 본격화 - 이코노미톡뉴스",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[17].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[재무제표 분석 201] 카카오페이 - '덩치'만 큰 핀테크는 끝났다. 수익성을 장착해라! - 네이버 프리미엄콘텐츠",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[18].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이, 첫 연간 흑자 달성… 영업이익 504억 원, 매출 9,584억 원 - 플래텀(Platum)",
+      "expected": null
+    },
+    {
+      "company": "카카오페이",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이, 3분기 최대 실적…스테이블코인 속도전 - 서울경제TV",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[0].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오모빌리티, 자율주행 인재 채용 확대…피지컬 AI 전략 가속 - v.daum.net",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[1].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오스타일 CRM 파트장 “AI 활용 넘어 마케터 확장성 고민해야” [DMTS 2026] - 블로터",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[5].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "메가존클라우드, 카카오스타일에 AWS 기반 AICC 구축 - itworld.co.kr",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[8].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오스타일의 Amazon Bedrock을 활용한 생성형 AI 도입 사례 - Amazon Web Services (AWS)",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[10].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "VPE가 들려주는 카카오스타일만의 매력 - 브런치",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[12].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[스타트업 단신] 알스퀘어, 라이너, 스펙터, 카카오스타일, 글라우드 - 플래텀(Platum)",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[15].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오스타일, '2026 온라인 브랜드 소상공인 육성사업' 참여 - 더팩트",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오스타일, 지난해 매출 2천억원 돌파…흑자 전환 성공 - 지디넷코리아",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[17].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오스타일, AI에 일감 더준다 - 전자신문",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[18].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[기업분석보고서] 40. 카카오스타일 - CEONEWS",
+      "expected": null
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오스타일 작년매출 2천억원 돌파…5년 만에 흑자전환 - 연합뉴스",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[0].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오엔터, 공동대표에 고정희 내정…\"AI·UX 경쟁력 강화\" - 네이트",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[1].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "\"글로벌 B2B 공략\"…라이너, 카카오엔터 전 글로벌 본부장 영입 - 유니콘팩토리",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[2].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오엔터테인먼트, 고정희 공동대표 내정…AI·IP ‘투트랙’ 승부수 - 매일경제",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[3].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "'팬덤' 앞세운 카카오, 성장 전략 무게중심 이동 - 딜사이트",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[5].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오엔터, 고정희 신임 공동대표 내정… 장윤중·고정희 투톱 체제 전환 - 조선비즈 - Chosunbiz",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[6].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[7].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "이진수 전 카카오엔터 대표 복귀…AI·팬덤 성장 전략에 속도붙을까 - 파이낸셜투데이",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[8].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오 정신아, 무거워진 어깨…AI 역량 입증이 '반등의 키' - 스트레이트뉴스",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[9].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 창사 후 첫 그룹 공채…전 직군 신입 채용 - 서울경제신문",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[11].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 창사 첫 그룹 단위 전 직군 신입공채…“AI 네이티브 인재 찾는다” - 더밸류뉴스",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[12].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 창사이래 첫 그룹단위 공채...AI 인재 확보 나서 - mstoday.co.kr",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[13].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "고정희 카카오엔터 신임 대표 내정자, '콘텐츠 플랫폼 혁신' 이룰까 - 네이트",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[14].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "이진수 전 카카오엔터테인먼트 대표, 카카오그룹 전략 조직으로 복귀 - IT조선",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[15].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "네이버 이어 카카오도 '최대실적'···매출 10% 이상 성장 목표 - 시사저널e",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 글로벌 확장 ‘인사 카드’ 꺼냈다 - IT조선",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[17].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 역대 최대 분기 실적 달성하게 한 사업은 무엇? - 글로벌에픽",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[18].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오, 실적 성장에 밸류 회복 기대-한국 - edaily.co.kr",
+      "expected": null
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오 콘텐츠 매출 1년새 20% 똑↓···네이버와 상반된 행보 - 시사저널e",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[0].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "장애인 고용보다 벌금이 싸다?…유안타·카카오페이증권이 외면한 사회적 책임 - 녹색경제신문",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[1].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[증권사 AI]⑧ 카카오페이증권, 플랫폼 금융과 결합 '실험' - 블로터",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[7].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이, 첫 흑자 기록하며 비상...“스테이블코인·AI 혁신 추진” - 매일경제",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[10].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이증권, 글로벌 투자 인사이트 강화…美 시버트와 콘텐츠 제휴 - 서울경제TV",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[11].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이증권, 11월 투자자 동향 발표 - 뉴스웰",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[13].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "첫 흑자 돌아선 카카오페이···올해 결제 매출 '하이 싱글' 성장 예고(종합) - 뉴스웨이",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[14].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카톡에 챗GPT 붙이고 대규모 채용하고…카카오에 新바람 - 서울경제신문",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[15].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이, 작년 연간 순이익 557억원 흑자 전환…예상치 하회(종합) - 연합인포맥스",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "카카오페이, 첫 연간 흑자 달성… 영업이익 504억 원, 매출 9,584억 원 - 플래텀(Platum)",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[17].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[재무제표 분석 201] 카카오페이 - '덩치'만 큰 핀테크는 끝났다. 수익성을 장착해라! - 네이버 프리미엄콘텐츠",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[18].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "[종목 포커스] 카카오페이, 성장의 서막 알린 첫 흑자전환…주가 상승 탄력? - 데일리인베스트",
+      "expected": null
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "﻿카카오페이, 지난해 영업이익 504억… 사상 첫 연간 흑자 달성 - 한국보험신문",
+      "expected": null
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "tech_blog_url_shared at sections.7.blog_url",
+      "issue_type": "tech_blog_url_shared",
+      "severity": "low",
+      "group": "카카오",
+      "found": "https://tech.kakao.com",
+      "expected": "카카오뱅크 고유 기술 블로그 URL"
+    },
+    {
+      "company": "카카오페이",
+      "issue": "tech_blog_url_shared at sections.7.blog_url",
+      "issue_type": "tech_blog_url_shared",
+      "severity": "low",
+      "group": "카카오",
+      "found": "https://tech.kakao.com",
+      "expected": "카카오페이 고유 기술 블로그 URL"
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "tech_blog_url_shared at sections.7.blog_url",
+      "issue_type": "tech_blog_url_shared",
+      "severity": "low",
+      "group": "카카오",
+      "found": "https://tech.kakao.com",
+      "expected": "카카오스타일 고유 기술 블로그 URL"
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "tech_blog_url_shared at sections.7.blog_url",
+      "issue_type": "tech_blog_url_shared",
+      "severity": "low",
+      "group": "카카오",
+      "found": "https://tech.kakao.com",
+      "expected": "카카오엔터테인먼트 고유 기술 블로그 URL"
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "tech_blog_url_shared at sections.7.blog_url",
+      "issue_type": "tech_blog_url_shared",
+      "severity": "low",
+      "group": "카카오",
+      "found": "https://tech.kakao.com",
+      "expected": "카카오페이증권 고유 기술 블로그 URL"
+    },
+    {
+      "company": "카카오뱅크",
+      "issue": "meta_description_contamination at sections.1.meta_description",
+      "issue_type": "meta_description_contamination",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "누구나 일상에서 AI를 경험할 수 있도록",
+      "expected": "카카오뱅크 고유 meta_description"
+    },
+    {
+      "company": "카카오페이",
+      "issue": "meta_description_contamination at sections.1.meta_description",
+      "issue_type": "meta_description_contamination",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "누구나 일상에서 AI를 경험할 수 있도록",
+      "expected": "카카오페이 고유 meta_description"
+    },
+    {
+      "company": "카카오스타일",
+      "issue": "meta_description_contamination at sections.1.meta_description",
+      "issue_type": "meta_description_contamination",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "누구나 일상에서 AI를 경험할 수 있도록",
+      "expected": "카카오스타일 고유 meta_description"
+    },
+    {
+      "company": "카카오엔터테인먼트",
+      "issue": "meta_description_contamination at sections.1.meta_description",
+      "issue_type": "meta_description_contamination",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "누구나 일상에서 AI를 경험할 수 있도록",
+      "expected": "카카오엔터테인먼트 고유 meta_description"
+    },
+    {
+      "company": "카카오페이증권",
+      "issue": "meta_description_contamination at sections.1.meta_description",
+      "issue_type": "meta_description_contamination",
+      "severity": "medium",
+      "group": "카카오",
+      "found": "누구나 일상에서 AI를 경험할 수 있도록",
+      "expected": "카카오페이증권 고유 meta_description"
+    },
+    {
+      "company": "토스페이먼츠",
+      "issue": "news_subsidiary_mention at sections.1.google_news[5].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "토스",
+      "found": "[취업뉴스] 토스뱅크, 시중 은행·증권사 제치고 '대학생이 일하고 싶은 금융기업' 2년 연속 1위 - 아웃소싱타임스",
+      "expected": null
+    },
+    {
+      "company": "토스페이먼츠",
+      "issue": "news_subsidiary_mention at sections.1.google_news[11].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "토스",
+      "found": "토스뱅크, 시중 은행 및 증권사 모두 제치고 2년 연속 1위 - 브랜드뉴스",
+      "expected": null
+    },
+    {
+      "company": "토스페이먼츠",
+      "issue": "news_subsidiary_mention at sections.1.google_news[14].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "토스",
+      "found": "토스증권 채용 - 토스",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "dart_corp_name_contamination at sections.1.company_name",
+      "issue_type": "dart_corp_name_contamination",
+      "severity": "high",
+      "group": "네이버",
+      "found": "네이버(주)",
+      "expected": "네이버웹툰 고유 DART 데이터"
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "employee_count_contamination at sections.1.employees",
+      "issue_type": "employee_count_contamination",
+      "severity": "high",
+      "group": "네이버",
+      "found": 5047,
+      "expected": "네이버웹툰 고유 직원수"
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "dart_corp_name_contamination at sections.1.company_name",
+      "issue_type": "dart_corp_name_contamination",
+      "severity": "high",
+      "group": "네이버",
+      "found": "네이버(주)",
+      "expected": "네이버클라우드 고유 DART 데이터"
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "employee_count_contamination at sections.1.employees",
+      "issue_type": "employee_count_contamination",
+      "severity": "high",
+      "group": "네이버",
+      "found": 5047,
+      "expected": "네이버클라우드 고유 직원수"
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "dart_corp_name_contamination at sections.1.company_name",
+      "issue_type": "dart_corp_name_contamination",
+      "severity": "high",
+      "group": "네이버",
+      "found": "네이버(주)",
+      "expected": "네이버파이낸셜 고유 DART 데이터"
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "employee_count_contamination at sections.1.employees",
+      "issue_type": "employee_count_contamination",
+      "severity": "high",
+      "group": "네이버",
+      "found": 5047,
+      "expected": "네이버파이낸셜 고유 직원수"
+    },
+    {
+      "company": "네이버",
+      "issue": "news_subsidiary_mention at sections.1.google_news[2].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[#클라우드 월드] 삼성SDS '인더스트리 데이' 개최·SK AX '엑스젠틱와이어' 공개·네이버클라우드 '케어콜 사회적 가치' 창출·CJ올리브넷",
+      "expected": null
+    },
+    {
+      "company": "네이버",
+      "issue": "news_subsidiary_mention at sections.1.google_news[4].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "‘소버린 AI’ 수출 속도…네이버클라우드, 경력직 채용 - 서울경제TV",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[0].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "\"코드 짜줘, 결정은 내가\"… AI 네이티브 시대, 당신의 몸값을 결정할 새로운 생존 공식 - 네이버 프리미엄콘텐츠",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[3].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "\"사용자 경험을 현실로\"…네이버, 'On-service AI' 전략 고도화 '에이전트N' 공개 - 청년일보",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[5].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "‘사상 최대 실적’ 네이버, AI 성장 엔진 ‘풀가동’ - 한국금융신문",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[7].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "디즈니 손잡은 네이버웹툰, 초대형 글로벌 공모전으로 북미 시장 공략 - 지디넷코리아",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[8].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "AI 훈풍 타고 직원 늘린 네이버… 카카오는 조직개편 여파로 감소세 - 조선비즈 - Chosunbiz",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[10].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "美 나스닥서 몸값 4조원 네이버웹툰, 왜 AI에 투자하나 - 서울경제신문",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[12].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "나스닥 상장 네이버웹툰, 몸값 ‘4조’···‘아시아 디즈니’ 노린다 - 시사저널e",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[13].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[AI인사이트] 김대식 네이버웹툰 이사 AI 기술에 진심…스토리테크 플랫폼 되겠다 - 아주경제",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[14].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버, 스튜디오 X+U와 맞손…웹툰 기반 숏드라마 공개 - 지디넷코리아",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[15].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "외형 성장 멈추고 ‘집단 소송’까지…네이버웹툰 발목 잡은 두 개의 장애물 - 매일경제",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "AI 경쟁력 흔들린 네이버…쇼핑? 웹툰? 이제 어떤 가치로 평가해야 하나 - 인베스트조선",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "카카오 콘텐츠 매출 1년새 20% 똑↓···네이버와 상반된 행보 - 시사저널e",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[0].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[#클라우드 월드] 삼성SDS '인더스트리 데이' 개최·SK AX '엑스젠틱와이어' 공개·네이버클라우드 '케어콜 사회적 가치' 창출·CJ올리브넷",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[1].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "‘소버린 AI’ 수출 속도…네이버클라우드, 경력직 채용 - 서울경제TV",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[2].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "\"코드 짜줘, 결정은 내가\"… AI 네이티브 시대, 당신의 몸값을 결정할 새로운 생존 공식 - 네이버 프리미엄콘텐츠",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[3].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "아이티아이즈, 류재준 부사장 영입…네이버클라우드 출신 - 유니콘팩토리",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[5].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버, 사우디 '슈퍼앱' 개발 속도낸다...중동 시장 공략 가속화 - 디일렉",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[6].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[대구대 소식] “AI·클라우드 혁신 인재 키운다”. . .대구대, 네이버클라우드와 AI·클라우드 인재 양성 업무협약 - ilyoseoul.co",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[7].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버, 사우디 슈퍼 앱 개발 인력 대거 모집…지도·검색·AI 결합한다 - 전자신문",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[8].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "아이티아이즈, 네이버클라우드 출신 류재준 부사장 전격 영입… 바이오·헬스케어 AI 전략 '속도' - 스타트업엔",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[9].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "\"사용자 경험을 현실로\"…네이버, 'On-service AI' 전략 고도화 '에이전트N' 공개 - 청년일보",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[10].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "부산항만공사, 네이버클라우드와 ‘AI 전환’ 동맹…부산항 세계 최고 스마트 항만 도전 - 해사신문",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[11].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "이동수 네이버클라우드 전무 “공부 안하는 AI 리더는 조직을 지킬 수 없다” - edaily.co.kr",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[12].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버클라우드, 지역별 맞춤 전략으로 해외 진출 채비...'AI 풀스택' 강점 - 블로터",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[13].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "AI 훈풍 타고 직원 늘린 네이버… 카카오는 조직개편 여파로 감소세 - 조선비즈 - Chosunbiz",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[14].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "‘초대 AI 수석’ 하정우는 누구?···네이버 현장 경험, 국가 정책으로 구현될까 - 경향신문",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[15].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버, B2B 내부매출 의존 높아...클라우드 수익화 증명할 때 - 디일렉",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "실적 발표 앞둔 네이버·KT·NHN…클라우드 성장 기대감 '고조' - 지디넷코리아",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[17].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버·KT·NHN 클라우드 매출 성장 지속...그룹사와 성장 '발맞춤' - 테크M",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[18].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[네이버 AI] 클라우드 '적자늪' 되풀이하나 - DealSite경제TV",
+      "expected": null
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버, 국대 AI 탈락에 주가 ‘출렁’…실적·신성장 동력은 확보 - ceodaily.co.kr",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[1].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "공정위, 네이버파이낸셜·두나무 추가 자료 요구...합병 심사 속도 - 청년일보",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[2].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "‘오프라인 결제’ 진출한 네이버와 토스의 UX 전략 비교 (feat. 코리아핀테크위크) - 디지털 인사이트 DIGITAL iNSIGHT",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[3].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[업비트 왕관의 무게] 네이버와 '혈맹'… AI·블록체인 품은 핀테크 공룡 예고 - 딜사이트",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[5].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버-두나무 `빅딜`, AI 데이터 패권 겨냥한 전략적 결합 [IT클로즈업] - 디지털데일리",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[6].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[현장] 두나무, ‘20조 핀테크 공룡’ 의결권 네이버 위임…10조 투자·AI·웹3 결합 - 파이낸셜투데이",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[7].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버·두나무 ‘20조 빅딜’ 카운트다운… 디지털금융 판도 바뀐다 - 오늘경제",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[8].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버+두나무, 코인베이스式 금융 플랫폼 동맹 통할까 - 디지털투데이",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[11].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "이해진 설계·최수연 실행…2026년 네이버 성패는 이 사람에게 [2026 핫피플] - IT조선",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[13].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[카드뉴스] 네이버가 움직이면 시장이 바뀐다.. 웹3·이커머스·오프라인 결제까지 삼각 확장 전략 분석 - 테크M",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[14].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버, 두나무 전격 인수…웹3·AI 기반 '글로벌 디지털금융' 진출 본격화 - 스페셜경제",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[15].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버페이, 결제 기반 역대급 실적...금융 플랫폼 성장 관건 - 전자신문",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[16].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "\"NAVER·카카오 반등 열쇠 3가지...AI·스테이블코인·실적\" [리포트 비하인드] - 네이버 프리미엄콘텐츠",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[17].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "네이버파이낸셜-두나무 포괄적 주식교환, 나신평 ‘네이버 실적개선·신사업시너지 기대’ - 이투데이",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[18].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[변곡점에 선 거래소] 두나무 '저평가의 벽' 넘기 위해 네이버와 글로벌 동행 - 딜사이트",
+      "expected": null
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "news_subsidiary_mention at sections.1.google_news[19].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "미래에셋증권, 네이버파이낸셜 지분 눈길...'잭팟' 기대↑ - DealSite경제TV",
+      "expected": null
+    },
+    {
+      "company": "스노우",
+      "issue": "news_subsidiary_mention at sections.1.google_news[18].title",
+      "issue_type": "news_subsidiary_mention",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "[감성코퍼레이션] 스노우피크 열풍, 이제는 중국에서 터진다… 감성코퍼레이션의 진짜 시작! - 네이버 프리미엄콘텐츠",
+      "expected": null
+    },
+    {
+      "company": "네이버웹툰",
+      "issue": "meta_description_contamination at sections.1.meta_description",
+      "issue_type": "meta_description_contamination",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "기술과 서비스로 세상의 모든 가능성을 연결합니다",
+      "expected": "네이버웹툰 고유 meta_description"
+    },
+    {
+      "company": "네이버클라우드",
+      "issue": "meta_description_contamination at sections.1.meta_description",
+      "issue_type": "meta_description_contamination",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "기술과 서비스로 세상의 모든 가능성을 연결합니다",
+      "expected": "네이버클라우드 고유 meta_description"
+    },
+    {
+      "company": "네이버파이낸셜",
+      "issue": "meta_description_contamination at sections.1.meta_description",
+      "issue_type": "meta_description_contamination",
+      "severity": "medium",
+      "group": "네이버",
+      "found": "기술과 서비스로 세상의 모든 가능성을 연결합니다",
+      "expected": "네이버파이낸셜 고유 meta_description"
     }
   ],
   "summary": {
-    "complete": 80,
-    "partial": 0,
-    "incomplete": 0
+    "complete": 29,
+    "partial": 21,
+    "incomplete": 30,
+    "employee_consistency_issues": 67
+  },
+  "subsidiary_audit": {
+    "total_issues": 156,
+    "severity_counts": {
+      "high": 16,
+      "medium": 135,
+      "low": 5
+    },
+    "issues": [
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "dart_corp_name_contamination",
+        "field": "sections.1.company_name",
+        "found": "(주)카카오",
+        "expected": "카카오뱅크 고유 DART 데이터",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "employee_count_contamination",
+        "field": "sections.1.employees",
+        "found": 3922,
+        "expected": "카카오뱅크 고유 직원수",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "dart_corp_name_contamination",
+        "field": "sections.1.company_name",
+        "found": "(주)카카오",
+        "expected": "카카오페이 고유 DART 데이터",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "employee_count_contamination",
+        "field": "sections.1.employees",
+        "found": 3922,
+        "expected": "카카오페이 고유 직원수",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "dart_corp_name_contamination",
+        "field": "sections.1.company_name",
+        "found": "(주)카카오",
+        "expected": "카카오스타일 고유 DART 데이터",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "employee_count_contamination",
+        "field": "sections.1.employees",
+        "found": 3922,
+        "expected": "카카오스타일 고유 직원수",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "dart_corp_name_contamination",
+        "field": "sections.1.company_name",
+        "found": "(주)카카오",
+        "expected": "카카오엔터테인먼트 고유 DART 데이터",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "employee_count_contamination",
+        "field": "sections.1.employees",
+        "found": 3922,
+        "expected": "카카오엔터테인먼트 고유 직원수",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "dart_corp_name_contamination",
+        "field": "sections.1.company_name",
+        "found": "(주)카카오",
+        "expected": "카카오페이증권 고유 DART 데이터",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "employee_count_contamination",
+        "field": "sections.1.employees",
+        "found": 3922,
+        "expected": "카카오페이증권 고유 직원수",
+        "severity": "high"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "[生기업TALK] 카카오페이, 흑자 발판 삼아 ‘스테이블코인’으로 외연 확장에 속도 - 시사캐스트",
+        "mixed_with": "카카오페이",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "카카오페이, ‘생활 플랫폼’ 도약…데이터 기반 광고·중개 비즈니스 급성장 - 한국금융신문",
+        "mixed_with": "카카오페이",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[0].title",
+        "found": "카카오뱅크 AI그룹장 투톱 체제로 꾸린 이유는 - v.daum.net",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[1].title",
+        "found": "AI 거품론 확산에 카카오뱅크 신사업 발목 잡히나 - 녹색경제신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[2].title",
+        "found": "​​카카오뱅크, Azure OpenAI 기반으로 국내 금융권 최초 대화형 AI 서비스 시작​ - Microsoft",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[3].title",
+        "found": "카카오, 창사 첫 그룹 단위 전 직군 신입공채…“AI 네이티브 인재 찾는다” - 더밸류뉴스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[4].title",
+        "found": "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[6].title",
+        "found": "카카오뱅크 '안전·혜택 모두 잡아요'...생활 금융 플랫폼 경쟁력 강화 - 테크M",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[7].title",
+        "found": "카카오뱅크, 글로벌 인력 채용 본격화…태국·인니 진출 박차 - 전자신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[8].title",
+        "found": "카카오뱅크의 AI 내부통제 전략?… \"AI 관리가 금융 미래 결정한다\" - 디지털데일리",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[9].title",
+        "found": "카카오, 창사이래 첫 그룹단위 공채...AI 인재 확보 나서 - mstoday.co.kr",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[12].title",
+        "found": "[금융권 별들의 전쟁] 윤호영 카카오뱅크 대표, 금융에 IT를 입히다…기폭제는 AI - 블로터",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[13].title",
+        "found": "카톡에 챗GPT 붙이고 대규모 채용하고…카카오에 新바람 - 서울경제신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[14].title",
+        "found": "카카오 정신아, 무거워진 어깨…AI 역량 입증이 '반등의 키' - 스트레이트뉴스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[15].title",
+        "found": "카카오뱅크 3분기 누적 순익 3751억원…역대 최대 - 디일렉",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "계속 오르는 시중금리···카카오뱅크, 자산운용 사업 '긴장' - 시사저널e",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[17].title",
+        "found": "카카오뱅크 3분기 누적 순익 3천751억원 또 사상 최대…6%↑ - 연합뉴스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[18].title",
+        "found": "'비이자 1조' 시대 연 카카오뱅크, 동남아 넘어 글로벌로 영토 확장 - 서울파이낸스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "한국인 절반 쓰는 카카오뱅크 최대 실적 행진, 윤호영 '성장 밸류업' 고삐 죈다 - 비즈니스포스트",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[0].title",
+        "found": "카카오모빌리티, 자율주행 인재 채용 확대…피지컬 AI 전략 가속 - 네이트",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[1].title",
+        "found": "카카오페이손해보험, 탐지 생성형 AI 악용 가려내는 시스템 추진 [보험사기 대응 역량 점검] - 한국금융신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[2].title",
+        "found": "[증권사 AI]⑧ 카카오페이증권, 플랫폼 금융과 결합 '실험' - 블로터",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[5].title",
+        "found": "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[6].title",
+        "found": "[현장리포트] 네이버페이·카카오페이·토스·뱅크샐러드, '코리아 핀테크 위크 2025'서 차세대 AI 금융 서비스 선보여 - investnews.",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[9].title",
+        "found": "카카오, 창사 첫 그룹 단위 전 직군 신입공채…“AI 네이티브 인재 찾는다” - 더밸류뉴스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[11].title",
+        "found": "\"2027년엔 1000만명\"… 카카오페이, 오프라인 시장의 거인된다 - mt.co.kr",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[12].title",
+        "found": "카카오페이, 단말기 없이 오프라인 결제 시장 공략 나선다 - 조선비즈 - Chosunbiz",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[13].title",
+        "found": "카카오, 창사이래 첫 그룹단위 공채...AI 인재 확보 나서 - mstoday.co.kr",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[14].title",
+        "found": "카카오, 창사 후 첫 그룹 공채…전 직군 신입 채용 - 서울경제신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[15].title",
+        "found": "[디지털혁신 블루칩]카카오페이 금융 넘어 '생활 플랫폼'으로 진화 - 전자신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "카카오페이, 실적·AI 둘 다 잡았다…스테이블코인 사업도 본격화 - 이코노미톡뉴스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[17].title",
+        "found": "[재무제표 분석 201] 카카오페이 - '덩치'만 큰 핀테크는 끝났다. 수익성을 장착해라! - 네이버 프리미엄콘텐츠",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[18].title",
+        "found": "카카오페이, 첫 연간 흑자 달성… 영업이익 504억 원, 매출 9,584억 원 - 플래텀(Platum)",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "카카오페이, 3분기 최대 실적…스테이블코인 속도전 - 서울경제TV",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[0].title",
+        "found": "카카오모빌리티, 자율주행 인재 채용 확대…피지컬 AI 전략 가속 - v.daum.net",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[1].title",
+        "found": "카카오스타일 CRM 파트장 “AI 활용 넘어 마케터 확장성 고민해야” [DMTS 2026] - 블로터",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[5].title",
+        "found": "메가존클라우드, 카카오스타일에 AWS 기반 AICC 구축 - itworld.co.kr",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[8].title",
+        "found": "카카오스타일의 Amazon Bedrock을 활용한 생성형 AI 도입 사례 - Amazon Web Services (AWS)",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[10].title",
+        "found": "VPE가 들려주는 카카오스타일만의 매력 - 브런치",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[12].title",
+        "found": "[스타트업 단신] 알스퀘어, 라이너, 스펙터, 카카오스타일, 글라우드 - 플래텀(Platum)",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[15].title",
+        "found": "카카오스타일, '2026 온라인 브랜드 소상공인 육성사업' 참여 - 더팩트",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "카카오스타일, 지난해 매출 2천억원 돌파…흑자 전환 성공 - 지디넷코리아",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[17].title",
+        "found": "카카오스타일, AI에 일감 더준다 - 전자신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[18].title",
+        "found": "[기업분석보고서] 40. 카카오스타일 - CEONEWS",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "카카오스타일 작년매출 2천억원 돌파…5년 만에 흑자전환 - 연합뉴스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[0].title",
+        "found": "카카오엔터, 공동대표에 고정희 내정…\"AI·UX 경쟁력 강화\" - 네이트",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[1].title",
+        "found": "\"글로벌 B2B 공략\"…라이너, 카카오엔터 전 글로벌 본부장 영입 - 유니콘팩토리",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[2].title",
+        "found": "카카오엔터테인먼트, 고정희 공동대표 내정…AI·IP ‘투트랙’ 승부수 - 매일경제",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[3].title",
+        "found": "'팬덤' 앞세운 카카오, 성장 전략 무게중심 이동 - 딜사이트",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[5].title",
+        "found": "카카오엔터, 고정희 신임 공동대표 내정… 장윤중·고정희 투톱 체제 전환 - 조선비즈 - Chosunbiz",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[6].title",
+        "found": "'AI 대중화' 원년 선언한 카카오, 2년 만에 신입 공채 문 개방(종합) - 뉴시스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[7].title",
+        "found": "이진수 전 카카오엔터 대표 복귀…AI·팬덤 성장 전략에 속도붙을까 - 파이낸셜투데이",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[8].title",
+        "found": "카카오 정신아, 무거워진 어깨…AI 역량 입증이 '반등의 키' - 스트레이트뉴스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[9].title",
+        "found": "카카오, 창사 후 첫 그룹 공채…전 직군 신입 채용 - 서울경제신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[11].title",
+        "found": "카카오, 창사 첫 그룹 단위 전 직군 신입공채…“AI 네이티브 인재 찾는다” - 더밸류뉴스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[12].title",
+        "found": "카카오, 창사이래 첫 그룹단위 공채...AI 인재 확보 나서 - mstoday.co.kr",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[13].title",
+        "found": "고정희 카카오엔터 신임 대표 내정자, '콘텐츠 플랫폼 혁신' 이룰까 - 네이트",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[14].title",
+        "found": "이진수 전 카카오엔터테인먼트 대표, 카카오그룹 전략 조직으로 복귀 - IT조선",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[15].title",
+        "found": "네이버 이어 카카오도 '최대실적'···매출 10% 이상 성장 목표 - 시사저널e",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "카카오, 글로벌 확장 ‘인사 카드’ 꺼냈다 - IT조선",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[17].title",
+        "found": "카카오, 역대 최대 분기 실적 달성하게 한 사업은 무엇? - 글로벌에픽",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[18].title",
+        "found": "카카오, 실적 성장에 밸류 회복 기대-한국 - edaily.co.kr",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "카카오 콘텐츠 매출 1년새 20% 똑↓···네이버와 상반된 행보 - 시사저널e",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[0].title",
+        "found": "장애인 고용보다 벌금이 싸다?…유안타·카카오페이증권이 외면한 사회적 책임 - 녹색경제신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[1].title",
+        "found": "[증권사 AI]⑧ 카카오페이증권, 플랫폼 금융과 결합 '실험' - 블로터",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[7].title",
+        "found": "카카오페이, 첫 흑자 기록하며 비상...“스테이블코인·AI 혁신 추진” - 매일경제",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[10].title",
+        "found": "카카오페이증권, 글로벌 투자 인사이트 강화…美 시버트와 콘텐츠 제휴 - 서울경제TV",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[11].title",
+        "found": "카카오페이증권, 11월 투자자 동향 발표 - 뉴스웰",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[13].title",
+        "found": "첫 흑자 돌아선 카카오페이···올해 결제 매출 '하이 싱글' 성장 예고(종합) - 뉴스웨이",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[14].title",
+        "found": "카톡에 챗GPT 붙이고 대규모 채용하고…카카오에 新바람 - 서울경제신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[15].title",
+        "found": "카카오페이, 작년 연간 순이익 557억원 흑자 전환…예상치 하회(종합) - 연합인포맥스",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "카카오페이, 첫 연간 흑자 달성… 영업이익 504억 원, 매출 9,584억 원 - 플래텀(Platum)",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[17].title",
+        "found": "[재무제표 분석 201] 카카오페이 - '덩치'만 큰 핀테크는 끝났다. 수익성을 장착해라! - 네이버 프리미엄콘텐츠",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[18].title",
+        "found": "[종목 포커스] 카카오페이, 성장의 서막 알린 첫 흑자전환…주가 상승 탄력? - 데일리인베스트",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "﻿카카오페이, 지난해 영업이익 504억… 사상 첫 연간 흑자 달성 - 한국보험신문",
+        "mixed_with": "카카오",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "tech_blog_url_shared",
+        "field": "sections.7.blog_url",
+        "found": "https://tech.kakao.com",
+        "expected": "카카오뱅크 고유 기술 블로그 URL",
+        "severity": "low"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "tech_blog_url_shared",
+        "field": "sections.7.blog_url",
+        "found": "https://tech.kakao.com",
+        "expected": "카카오페이 고유 기술 블로그 URL",
+        "severity": "low"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "tech_blog_url_shared",
+        "field": "sections.7.blog_url",
+        "found": "https://tech.kakao.com",
+        "expected": "카카오스타일 고유 기술 블로그 URL",
+        "severity": "low"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "tech_blog_url_shared",
+        "field": "sections.7.blog_url",
+        "found": "https://tech.kakao.com",
+        "expected": "카카오엔터테인먼트 고유 기술 블로그 URL",
+        "severity": "low"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "tech_blog_url_shared",
+        "field": "sections.7.blog_url",
+        "found": "https://tech.kakao.com",
+        "expected": "카카오페이증권 고유 기술 블로그 URL",
+        "severity": "low"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오뱅크",
+        "issue_type": "meta_description_contamination",
+        "field": "sections.1.meta_description",
+        "found": "누구나 일상에서 AI를 경험할 수 있도록",
+        "expected": "카카오뱅크 고유 meta_description",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이",
+        "issue_type": "meta_description_contamination",
+        "field": "sections.1.meta_description",
+        "found": "누구나 일상에서 AI를 경험할 수 있도록",
+        "expected": "카카오페이 고유 meta_description",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오스타일",
+        "issue_type": "meta_description_contamination",
+        "field": "sections.1.meta_description",
+        "found": "누구나 일상에서 AI를 경험할 수 있도록",
+        "expected": "카카오스타일 고유 meta_description",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오엔터테인먼트",
+        "issue_type": "meta_description_contamination",
+        "field": "sections.1.meta_description",
+        "found": "누구나 일상에서 AI를 경험할 수 있도록",
+        "expected": "카카오엔터테인먼트 고유 meta_description",
+        "severity": "medium"
+      },
+      {
+        "group": "카카오",
+        "company": "카카오페이증권",
+        "issue_type": "meta_description_contamination",
+        "field": "sections.1.meta_description",
+        "found": "누구나 일상에서 AI를 경험할 수 있도록",
+        "expected": "카카오페이증권 고유 meta_description",
+        "severity": "medium"
+      },
+      {
+        "group": "토스",
+        "company": "토스페이먼츠",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[5].title",
+        "found": "[취업뉴스] 토스뱅크, 시중 은행·증권사 제치고 '대학생이 일하고 싶은 금융기업' 2년 연속 1위 - 아웃소싱타임스",
+        "mixed_with": "토스뱅크",
+        "severity": "medium"
+      },
+      {
+        "group": "토스",
+        "company": "토스페이먼츠",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[11].title",
+        "found": "토스뱅크, 시중 은행 및 증권사 모두 제치고 2년 연속 1위 - 브랜드뉴스",
+        "mixed_with": "토스뱅크",
+        "severity": "medium"
+      },
+      {
+        "group": "토스",
+        "company": "토스페이먼츠",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[14].title",
+        "found": "토스증권 채용 - 토스",
+        "mixed_with": "토스증권",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "dart_corp_name_contamination",
+        "field": "sections.1.company_name",
+        "found": "네이버(주)",
+        "expected": "네이버웹툰 고유 DART 데이터",
+        "severity": "high"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "employee_count_contamination",
+        "field": "sections.1.employees",
+        "found": 5047,
+        "expected": "네이버웹툰 고유 직원수",
+        "severity": "high"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "dart_corp_name_contamination",
+        "field": "sections.1.company_name",
+        "found": "네이버(주)",
+        "expected": "네이버클라우드 고유 DART 데이터",
+        "severity": "high"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "employee_count_contamination",
+        "field": "sections.1.employees",
+        "found": 5047,
+        "expected": "네이버클라우드 고유 직원수",
+        "severity": "high"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "dart_corp_name_contamination",
+        "field": "sections.1.company_name",
+        "found": "네이버(주)",
+        "expected": "네이버파이낸셜 고유 DART 데이터",
+        "severity": "high"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "employee_count_contamination",
+        "field": "sections.1.employees",
+        "found": 5047,
+        "expected": "네이버파이낸셜 고유 직원수",
+        "severity": "high"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[2].title",
+        "found": "[#클라우드 월드] 삼성SDS '인더스트리 데이' 개최·SK AX '엑스젠틱와이어' 공개·네이버클라우드 '케어콜 사회적 가치' 창출·CJ올리브넷",
+        "mixed_with": "네이버클라우드",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[4].title",
+        "found": "‘소버린 AI’ 수출 속도…네이버클라우드, 경력직 채용 - 서울경제TV",
+        "mixed_with": "네이버클라우드",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[0].title",
+        "found": "\"코드 짜줘, 결정은 내가\"… AI 네이티브 시대, 당신의 몸값을 결정할 새로운 생존 공식 - 네이버 프리미엄콘텐츠",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[3].title",
+        "found": "\"사용자 경험을 현실로\"…네이버, 'On-service AI' 전략 고도화 '에이전트N' 공개 - 청년일보",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[5].title",
+        "found": "‘사상 최대 실적’ 네이버, AI 성장 엔진 ‘풀가동’ - 한국금융신문",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[7].title",
+        "found": "디즈니 손잡은 네이버웹툰, 초대형 글로벌 공모전으로 북미 시장 공략 - 지디넷코리아",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[8].title",
+        "found": "AI 훈풍 타고 직원 늘린 네이버… 카카오는 조직개편 여파로 감소세 - 조선비즈 - Chosunbiz",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[10].title",
+        "found": "美 나스닥서 몸값 4조원 네이버웹툰, 왜 AI에 투자하나 - 서울경제신문",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[12].title",
+        "found": "나스닥 상장 네이버웹툰, 몸값 ‘4조’···‘아시아 디즈니’ 노린다 - 시사저널e",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[13].title",
+        "found": "[AI인사이트] 김대식 네이버웹툰 이사 AI 기술에 진심…스토리테크 플랫폼 되겠다 - 아주경제",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[14].title",
+        "found": "네이버, 스튜디오 X+U와 맞손…웹툰 기반 숏드라마 공개 - 지디넷코리아",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[15].title",
+        "found": "외형 성장 멈추고 ‘집단 소송’까지…네이버웹툰 발목 잡은 두 개의 장애물 - 매일경제",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "AI 경쟁력 흔들린 네이버…쇼핑? 웹툰? 이제 어떤 가치로 평가해야 하나 - 인베스트조선",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "카카오 콘텐츠 매출 1년새 20% 똑↓···네이버와 상반된 행보 - 시사저널e",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[0].title",
+        "found": "[#클라우드 월드] 삼성SDS '인더스트리 데이' 개최·SK AX '엑스젠틱와이어' 공개·네이버클라우드 '케어콜 사회적 가치' 창출·CJ올리브넷",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[1].title",
+        "found": "‘소버린 AI’ 수출 속도…네이버클라우드, 경력직 채용 - 서울경제TV",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[2].title",
+        "found": "\"코드 짜줘, 결정은 내가\"… AI 네이티브 시대, 당신의 몸값을 결정할 새로운 생존 공식 - 네이버 프리미엄콘텐츠",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[3].title",
+        "found": "아이티아이즈, 류재준 부사장 영입…네이버클라우드 출신 - 유니콘팩토리",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[5].title",
+        "found": "네이버, 사우디 '슈퍼앱' 개발 속도낸다...중동 시장 공략 가속화 - 디일렉",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[6].title",
+        "found": "[대구대 소식] “AI·클라우드 혁신 인재 키운다”. . .대구대, 네이버클라우드와 AI·클라우드 인재 양성 업무협약 - ilyoseoul.co",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[7].title",
+        "found": "네이버, 사우디 슈퍼 앱 개발 인력 대거 모집…지도·검색·AI 결합한다 - 전자신문",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[8].title",
+        "found": "아이티아이즈, 네이버클라우드 출신 류재준 부사장 전격 영입… 바이오·헬스케어 AI 전략 '속도' - 스타트업엔",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[9].title",
+        "found": "\"사용자 경험을 현실로\"…네이버, 'On-service AI' 전략 고도화 '에이전트N' 공개 - 청년일보",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[10].title",
+        "found": "부산항만공사, 네이버클라우드와 ‘AI 전환’ 동맹…부산항 세계 최고 스마트 항만 도전 - 해사신문",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[11].title",
+        "found": "이동수 네이버클라우드 전무 “공부 안하는 AI 리더는 조직을 지킬 수 없다” - edaily.co.kr",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[12].title",
+        "found": "네이버클라우드, 지역별 맞춤 전략으로 해외 진출 채비...'AI 풀스택' 강점 - 블로터",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[13].title",
+        "found": "AI 훈풍 타고 직원 늘린 네이버… 카카오는 조직개편 여파로 감소세 - 조선비즈 - Chosunbiz",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[14].title",
+        "found": "‘초대 AI 수석’ 하정우는 누구?···네이버 현장 경험, 국가 정책으로 구현될까 - 경향신문",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[15].title",
+        "found": "네이버, B2B 내부매출 의존 높아...클라우드 수익화 증명할 때 - 디일렉",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "실적 발표 앞둔 네이버·KT·NHN…클라우드 성장 기대감 '고조' - 지디넷코리아",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[17].title",
+        "found": "네이버·KT·NHN 클라우드 매출 성장 지속...그룹사와 성장 '발맞춤' - 테크M",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[18].title",
+        "found": "[네이버 AI] 클라우드 '적자늪' 되풀이하나 - DealSite경제TV",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "네이버, 국대 AI 탈락에 주가 ‘출렁’…실적·신성장 동력은 확보 - ceodaily.co.kr",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[1].title",
+        "found": "공정위, 네이버파이낸셜·두나무 추가 자료 요구...합병 심사 속도 - 청년일보",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[2].title",
+        "found": "‘오프라인 결제’ 진출한 네이버와 토스의 UX 전략 비교 (feat. 코리아핀테크위크) - 디지털 인사이트 DIGITAL iNSIGHT",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[3].title",
+        "found": "[업비트 왕관의 무게] 네이버와 '혈맹'… AI·블록체인 품은 핀테크 공룡 예고 - 딜사이트",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[5].title",
+        "found": "네이버-두나무 `빅딜`, AI 데이터 패권 겨냥한 전략적 결합 [IT클로즈업] - 디지털데일리",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[6].title",
+        "found": "[현장] 두나무, ‘20조 핀테크 공룡’ 의결권 네이버 위임…10조 투자·AI·웹3 결합 - 파이낸셜투데이",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[7].title",
+        "found": "네이버·두나무 ‘20조 빅딜’ 카운트다운… 디지털금융 판도 바뀐다 - 오늘경제",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[8].title",
+        "found": "네이버+두나무, 코인베이스式 금융 플랫폼 동맹 통할까 - 디지털투데이",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[11].title",
+        "found": "이해진 설계·최수연 실행…2026년 네이버 성패는 이 사람에게 [2026 핫피플] - IT조선",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[13].title",
+        "found": "[카드뉴스] 네이버가 움직이면 시장이 바뀐다.. 웹3·이커머스·오프라인 결제까지 삼각 확장 전략 분석 - 테크M",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[14].title",
+        "found": "네이버, 두나무 전격 인수…웹3·AI 기반 '글로벌 디지털금융' 진출 본격화 - 스페셜경제",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[15].title",
+        "found": "네이버페이, 결제 기반 역대급 실적...금융 플랫폼 성장 관건 - 전자신문",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[16].title",
+        "found": "\"NAVER·카카오 반등 열쇠 3가지...AI·스테이블코인·실적\" [리포트 비하인드] - 네이버 프리미엄콘텐츠",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[17].title",
+        "found": "네이버파이낸셜-두나무 포괄적 주식교환, 나신평 ‘네이버 실적개선·신사업시너지 기대’ - 이투데이",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[18].title",
+        "found": "[변곡점에 선 거래소] 두나무 '저평가의 벽' 넘기 위해 네이버와 글로벌 동행 - 딜사이트",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[19].title",
+        "found": "미래에셋증권, 네이버파이낸셜 지분 눈길...'잭팟' 기대↑ - DealSite경제TV",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "스노우",
+        "issue_type": "news_subsidiary_mention",
+        "field": "sections.1.google_news[18].title",
+        "found": "[감성코퍼레이션] 스노우피크 열풍, 이제는 중국에서 터진다… 감성코퍼레이션의 진짜 시작! - 네이버 프리미엄콘텐츠",
+        "mixed_with": "네이버",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버웹툰",
+        "issue_type": "meta_description_contamination",
+        "field": "sections.1.meta_description",
+        "found": "기술과 서비스로 세상의 모든 가능성을 연결합니다",
+        "expected": "네이버웹툰 고유 meta_description",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버클라우드",
+        "issue_type": "meta_description_contamination",
+        "field": "sections.1.meta_description",
+        "found": "기술과 서비스로 세상의 모든 가능성을 연결합니다",
+        "expected": "네이버클라우드 고유 meta_description",
+        "severity": "medium"
+      },
+      {
+        "group": "네이버",
+        "company": "네이버파이낸셜",
+        "issue_type": "meta_description_contamination",
+        "field": "sections.1.meta_description",
+        "found": "기술과 서비스로 세상의 모든 가능성을 연결합니다",
+        "expected": "네이버파이낸셜 고유 meta_description",
+        "severity": "medium"
+      }
+    ]
   }
 }
