@@ -138,8 +138,12 @@ hirekit analyze 카카오
 | `hirekit analyze 카카오` | 기업 종합 분석 | 14개 소스, 5차원 스코어, 12섹션 리포트 |
 | `hirekit match --jd "URL"` | JD 매칭 | 60+ 기술 taxonomy, 3단계 매칭, 학습 로드맵 |
 | `hirekit interview 카카오` | 면접 준비 | 200+ 질문, STAR 가이드, 기업별 문화핏 |
-| `hirekit resume --file resume.txt` | 이력서 분석 | 정량 피드백, ATS 최적화, Before→After |
-| `hirekit coverletter --file cl.txt` | 자소서 분석 | 클리셰 감지 100+, 차별화 점수 |
+| `hirekit resume resume.txt` | 이력서 분석 | 정량 피드백, ATS 최적화, Before→After |
+| `hirekit coverletter 카카오 --position PM` | 자소서 분석 | 클리셰 감지 100+, 차별화 점수 |
+| `hirekit proof 카카오 --role 백엔드 --experience 5` | 실행 메모 | advisory verdict를 바로 지원 액션 메모로 압축 |
+| `hirekit strategy 카카오 --role PM --output json` | 커리어 전략 | 적합도, 스킬 갭, 준비 기간, 대안 기업 |
+| `hirekit compare 카카오 네이버 --output json` | 기업 비교 | 7차원 비교, 차원별 승자, 종합 추천 |
+| `hirekit jobs 쿠팡 -o json` | 채용 공고 탐색 | 기업별 현재 포지션 조회, JSON 자동화 연동 |
 | `hirekit pipeline 카카오` | 통합 파이프라인 | 5단계 순차 분석 + advisory Go/Hold/Pass 판정 |
 
 ### `hirekit analyze` — 기업 분석
@@ -221,6 +225,68 @@ hirekit coverletter 토스 --position PM --profile profile.yaml
 ```
 
 **결과물**: 4항목 초안 (성장과정·지원동기·직무역량·장단점) + 클리셰 감지 + 항목별 점수
+
+---
+
+### `hirekit proof` — 실행 메모
+
+```bash
+# 기업 분석을 바로 액션 메모로 압축
+hirekit proof 카카오 --no-llm
+
+# JD / 이력서 / 커리어 정보까지 반영
+hirekit proof 토스 --jd jd.txt --resume resume.md --role 백엔드 --experience 5 --skills "python,aws,kafka"
+```
+
+**결과물**: verdict, 핵심 근거, 바로 할 일, low-confidence guardrail, 개인화 전략 요약
+
+---
+
+### `hirekit strategy` — 커리어 전략
+
+```bash
+# 목표 기업 기준 적합도/갭 분석
+hirekit strategy 카카오 --role PM --experience 5 --skills "sql,python,product"
+
+# 프로필 YAML 기본값 사용 (경력/트랙/스킬 자동 반영)
+hirekit strategy 토스 --profile ~/.hirekit/profile.yaml
+
+# 자동화용 JSON 출력
+hirekit strategy 네이버 --role backend --skills "python,aws,kafka" --output json
+```
+
+**결과물**: 적합도 점수, 접근 전략, 스킬 갭, 준비 기간, 대안 기업
+
+프로필 YAML을 주면 `years_of_experience`, `current_role`, `tracks`, `skills`, `education`
+기본값을 읽어 와서 CLI 입력을 덜 반복하게 해줘요. 명시한 CLI 옵션은 프로필 값보다 우선해요.
+
+---
+
+### `hirekit compare` — 기업 비교
+
+```bash
+# 2개 기업 비교
+hirekit compare 카카오 네이버
+
+# 3개 기업 비교 + JSON 출력
+hirekit compare 카카오 네이버 토스 --output json
+```
+
+**결과물**: 성장/보상/문화/기술/브랜드/WLB/원격근무 7차원 비교 + 종합 추천
+
+---
+
+### `hirekit jobs` — 채용 공고 탐색
+
+```bash
+# 터미널에서 현재 공고 확인
+hirekit jobs 쿠팡
+
+# JSON으로 전체 공고 추출
+hirekit jobs 네이버 --output json
+```
+
+**결과물**: 현재 채용 포지션 목록, 부서/위치/고용형태/게시일 정보
 
 ---
 

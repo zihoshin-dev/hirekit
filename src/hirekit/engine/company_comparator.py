@@ -2,12 +2,11 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Any
 
 from hirekit.core.company_db import get_default_db
 from hirekit.core.scoring import score_to_grade
-
 
 # ---------------------------------------------------------------------------
 # Known company data (rule-based, no LLM)
@@ -255,6 +254,17 @@ class ComparisonResult:
         if not self.overall_scores:
             return ""
         return max(self.overall_scores, key=lambda k: self.overall_scores[k])
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "companies": self.companies,
+            "dimensions": self.dimensions,
+            "winner_by_dimension": self.winner_by_dimension,
+            "overall_scores": self.overall_scores,
+            "winner": self.winner,
+            "overall_recommendation": self.overall_recommendation,
+            "comparison_table": self.comparison_table,
+        }
 
     def to_markdown(self) -> str:
         """Render comparison as Markdown table."""

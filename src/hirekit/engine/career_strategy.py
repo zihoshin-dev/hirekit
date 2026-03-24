@@ -11,7 +11,6 @@ from hirekit.core.tech_taxonomy import (
     normalize_tech,
 )
 
-
 # ---------------------------------------------------------------------------
 # Data models
 # ---------------------------------------------------------------------------
@@ -25,6 +24,14 @@ class SkillGap:
     category: str  # e.g. "Backend", "DevOps", "ML/AI"
     importance: str  # "required" | "preferred"
     learning_suggestion: str = ""
+
+    def to_dict(self) -> dict[str, str]:
+        return {
+            "skill": self.skill,
+            "category": self.category,
+            "importance": self.importance,
+            "learning_suggestion": self.learning_suggestion,
+        }
 
 
 @dataclass
@@ -53,6 +60,19 @@ class CareerStrategy:
     alternative_companies: list[str]
     career_path: str
     risk_assessment: str
+
+    def to_dict(self) -> dict[str, object]:
+        return {
+            "fit_score": self.fit_score,
+            "gap_analysis": [gap.to_dict() for gap in self.gap_analysis],
+            "approach_strategy": self.approach_strategy,
+            "resume_focus": self.resume_focus,
+            "interview_prep": self.interview_prep,
+            "timeline": self.timeline,
+            "alternative_companies": self.alternative_companies,
+            "career_path": self.career_path,
+            "risk_assessment": self.risk_assessment,
+        }
 
 
 # ---------------------------------------------------------------------------

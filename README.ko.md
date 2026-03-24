@@ -179,6 +179,18 @@ hirekit coverletter 네이버 -o terminal
 
 **얻는 것**: 4항목 초안 (성장과정, 지원동기, 직무역량/입사후포부, 성격의장단점) + 항목별 피드백 + 점수.
 
+### `hirekit proof` — 실행 메모
+
+```bash
+# 기업 분석을 바로 액션 메모로 압축
+hirekit proof 카카오 --no-llm
+
+# JD / 이력서 / 커리어 정보까지 반영
+hirekit proof 토스 --jd jd.txt --resume resume.md --role 백엔드 --experience 5 --skills "python,aws,kafka"
+```
+
+**얻는 것**: verdict, 핵심 근거, 바로 할 일, low-confidence guardrail, 개인화 전략 요약.
+
 ### `hirekit resume` — 이력서 리뷰
 
 ```bash
@@ -193,6 +205,48 @@ hirekit resume 이력서.pdf --profile profile.yaml
 ```
 
 **얻는 것**: ATS 호환성 체크, 구조 분석, JD 대비 키워드 갭, 콘텐츠 품질 점수, 개선 제안.
+
+### `hirekit strategy` — 커리어 전략
+
+```bash
+# 목표 기업 기준 적합도/갭 분석
+hirekit strategy 카카오 --role PM --experience 5 --skills "sql,python,product"
+
+# 프로필 YAML 기본값 사용 (경력/트랙/스킬 자동 반영)
+hirekit strategy 토스 --profile ~/.hirekit/profile.yaml
+
+# 자동화용 JSON 출력
+hirekit strategy 네이버 --role backend --skills "python,aws,kafka" --output json
+```
+
+**얻는 것**: 적합도 점수, 접근 전략, 스킬 갭, 준비 기간, 대안 기업.
+
+프로필 YAML을 주면 `years_of_experience`, `current_role`, `tracks`, `skills`, `education`
+기본값을 읽어 와서 입력 반복을 줄여줍니다. CLI에서 직접 준 값이 있으면 그 값이 우선합니다.
+
+### `hirekit compare` — 기업 비교
+
+```bash
+# 2개 기업 비교
+hirekit compare 카카오 네이버
+
+# 3개 기업 비교 + JSON 출력
+hirekit compare 카카오 네이버 토스 --output json
+```
+
+**얻는 것**: 성장/보상/문화/기술/브랜드/WLB/원격근무 7차원 비교 + 종합 추천.
+
+### `hirekit jobs` — 채용 공고 탐색
+
+```bash
+# 터미널에서 현재 공고 확인
+hirekit jobs 쿠팡
+
+# JSON으로 전체 공고 추출
+hirekit jobs 네이버 --output json
+```
+
+**얻는 것**: 현재 채용 포지션 목록, 부서/위치/고용형태/게시일 정보.
 
 ### `hirekit sources` — 데이터 소스 확인
 

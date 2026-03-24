@@ -38,6 +38,29 @@ def make_mock_report(company: str = "카카오") -> AnalysisReport:
     )
 
 
+def make_mock_strategy():
+    from hirekit.engine.career_strategy import CareerStrategy, SkillGap
+
+    return CareerStrategy(
+        fit_score=82.0,
+        gap_analysis=[
+            SkillGap(
+                skill="kubernetes",
+                category="DevOps",
+                importance="required",
+                learning_suggestion="K8s 공식 튜토리얼",
+            )
+        ],
+        approach_strategy="핵심 갭을 보완하면 바로 지원 가능해요.",
+        resume_focus=["프로젝트 임팩트 수치화"],
+        interview_prep=["STAR 사례 3개 준비"],
+        timeline="1-2개월",
+        alternative_companies=["네이버", "카카오"],
+        career_path="PM → Senior PM → Group PM",
+        risk_assessment="리스크 수준: 중간",
+    )
+
+
 # ---------------------------------------------------------------------------
 # version / --version
 # ---------------------------------------------------------------------------
@@ -319,6 +342,338 @@ class TestPipelineCommand:
         saved = (tmp_path / "카카오_pipeline.md").read_text(encoding="utf-8")
         assert "## 0. Hero Verdict" in saved
         assert "권고 메모" in saved
+
+    def test_pipeline_markdown_output_includes_proof_of_work_and_saves_artifact(self, tmp_path):
+        from hirekit.engine.cover_letter import CoverLetterDraft
+        from hirekit.engine.interview_prep import InterviewGuide
+
+        mock_report = make_mock_report("카카오")
+        mock_report.to_markdown = MagicMock(return_value="# 기업 분석")
+        mock_guide = InterviewGuide(company="카카오")
+        mock_guide.common_questions = []
+        mock_guide.reverse_questions = []
+        mock_guide.technical_questions = []
+        mock_guide.behavioral_questions = []
+        mock_guide.tips = []
+        mock_guide.to_markdown = MagicMock(return_value="# 면접 준비")
+
+        mock_draft = CoverLetterDraft(company="카카오", overall_score=70.0)
+        mock_draft.sections = []
+        mock_draft.to_markdown = MagicMock(return_value="# 자기소개서")
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.interview_prep.InterviewPrep") as MockPrep:
+                    MockPrep.return_value.prepare.return_value = mock_guide
+                    with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
+                        MockCoach.return_value.draft.return_value = mock_draft
+                        result = runner.invoke(app, [
+                            "pipeline", "카카오", "--no-llm", "--output", "markdown"
+                        ])
+
+        assert result.exit_code == 0
+        saved = (tmp_path / "카카오_pipeline.md").read_text(encoding="utf-8")
+        assert "## 0.5. Proof of Work" in saved
+        proof_saved = (tmp_path / "카카오_proof.md").read_text(encoding="utf-8")
+        assert "바로 할 일" in proof_saved
+
+
+class TestProofCommand:
+    def test_proof_terminal_output_shows_thesis_and_actions(self, tmp_path):
+        mock_report = make_mock_report("카카오")
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                result = runner.invoke(app, [
+                    "proof", "카카오", "--no-llm", "--output", "terminal"
+                ])
+
+        assert result.exit_code == 0
+        assert "실행 메모" in result.output
+        assert "바로 할 일" in result.output
+
+    def test_proof_markdown_output_saves_file(self, tmp_path):
+        mock_report = make_mock_report("카카오")
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                result = runner.invoke(app, [
+                    "proof", "카카오", "--no-llm", "--output", "markdown"
+                ])
+
+        assert result.exit_code == 0
+        saved = (tmp_path / "카카오_proof.md").read_text(encoding="utf-8")
+        assert "카카오" in saved
+        assert "바로 할 일" in saved
+
+    def test_proof_terminal_output_includes_strategy_summary_when_profile_given(self, tmp_path):
+        from hirekit.engine.career_strategy import CareerStrategy
+
+        mock_report = make_mock_report("토스")
+        strategy = CareerStrategy(
+            fit_score=74.0,
+            gap_analysis=[],
+            approach_strategy="핵심 갭을 보완한 뒤 지원하세요.",
+            resume_focus=["결제 도메인 성과를 강조하세요."],
+            interview_prep=["시스템 디자인 준비를 강화하세요."],
+            timeline="1-2개월",
+            alternative_companies=["카카오페이", "네이버파이낸셜"],
+            career_path="백엔드 → 시니어 → Tech Lead",
+            risk_assessment="중간 리스크",
+        )
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockEngine:
+                    MockEngine.return_value.analyze.return_value = strategy
+                    result = runner.invoke(app, [
+                        "proof", "토스", "--role", "백엔드", "--experience", "5",
+                        "--skills", "python,aws,kafka", "--no-llm", "--output", "terminal",
+                    ])
+
+        assert result.exit_code == 0
+        assert "개인화 전략" in result.output
+        assert "1-2개월" in result.output
+
+
+# ---------------------------------------------------------------------------
+# strategy command
+# ---------------------------------------------------------------------------
+
+class TestStrategyProfileCommand:
+    def test_strategy_terminal_output_exits_successfully(self):
+        with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockEngine:
+            MockEngine.return_value.analyze.return_value = make_mock_strategy()
+            result = runner.invoke(
+                app,
+                ["strategy", "카카오", "--role", "PM", "--experience", "5"],
+            )
+
+        assert result.exit_code == 0
+        assert "적합도 점수" in result.output
+
+    def test_strategy_markdown_output_saves_file(self, tmp_path):
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockEngine:
+                MockEngine.return_value.analyze.return_value = make_mock_strategy()
+                result = runner.invoke(
+                    app,
+                    ["strategy", "카카오", "--output", "markdown"],
+                )
+
+        assert result.exit_code == 0
+        assert (tmp_path / "카카오_strategy.md").exists()
+
+    def test_strategy_uses_profile_defaults_when_cli_fields_omitted(self, tmp_path):
+        profile_file = tmp_path / "profile.yaml"
+        profile_file.write_text(
+            "\n".join(
+                [
+                    'current_company: "메이커스타"',
+                    'current_role: "데이터 분석가"',
+                    "years_of_experience: 4",
+                    'education: "컴퓨터공학 학사"',
+                    "tracks:",
+                    '  - name: "AI PM"',
+                    "skills:",
+                    '  technical: ["Python", "SQL"]',
+                    '  domain: ["Payment Systems"]',
+                ]
+            ),
+            encoding="utf-8",
+        )
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockEngine:
+                instance = MockEngine.return_value
+                instance.analyze.return_value = make_mock_strategy()
+
+                result = runner.invoke(
+                    app,
+                    ["strategy", "토스", "--profile", str(profile_file), "--output", "json"],
+                )
+
+        assert result.exit_code == 0
+        call = instance.analyze.call_args
+        profile = call.kwargs.get("profile") or call.args[0]
+        assert profile.target_company == "토스"
+        assert profile.current_company == "메이커스타"
+        assert profile.current_role == "데이터 분석가"
+        assert profile.target_role == "AI PM"
+        assert profile.years_of_experience == 4
+        assert "python" in [skill.lower() for skill in profile.skills]
+        assert '"fit_score"' in result.output
+
+    def test_strategy_cli_fields_override_profile_defaults(self, tmp_path):
+        profile_file = tmp_path / "profile.yaml"
+        profile_file.write_text(
+            "\n".join(
+                [
+                    "years_of_experience: 2",
+                    'current_role: "기획자"',
+                    "tracks:",
+                    '  - name: "PM"',
+                    "skills:",
+                    '  technical: ["Python"]',
+                ]
+            ),
+            encoding="utf-8",
+        )
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockEngine:
+                instance = MockEngine.return_value
+                instance.analyze.return_value = make_mock_strategy()
+
+                result = runner.invoke(
+                    app,
+                    [
+                        "strategy",
+                        "당근",
+                        "--profile",
+                        str(profile_file),
+                        "--current",
+                        "토스",
+                        "--current-role",
+                        "백엔드",
+                        "--role",
+                        "AI CPO",
+                        "--experience",
+                        "7",
+                        "--skills",
+                        "Go,gRPC",
+                        "--output",
+                        "json",
+                    ],
+                )
+
+        assert result.exit_code == 0
+        call = instance.analyze.call_args
+        profile = call.kwargs.get("profile") or call.args[0]
+        assert profile.current_company == "토스"
+        assert profile.current_role == "백엔드"
+        assert profile.target_role == "AI CPO"
+        assert profile.years_of_experience == 7
+        lowered = [skill.lower() for skill in profile.skills]
+        assert "go" in lowered
+        assert "grpc" in lowered
+        assert "python" in lowered
+
+
+# ---------------------------------------------------------------------------
+# compare command
+# ---------------------------------------------------------------------------
+
+class TestCompareStructuredCommand:
+    def test_compare_terminal_output_exits_successfully(self):
+        from hirekit.engine.company_comparator import ComparisonResult
+
+        mock_result = ComparisonResult(
+            companies=["카카오", "네이버"],
+            dimensions={"growth": [3.5, 4.0]},
+            winner_by_dimension={"growth": "네이버"},
+            overall_scores={"카카오": 72.0, "네이버": 78.0},
+            overall_recommendation="네이버가 더 유리해요.",
+            comparison_table={},
+        )
+
+        with patch("hirekit.engine.company_comparator.CompanyComparator") as MockComparator:
+            MockComparator.return_value.compare_many.return_value = mock_result
+            result = runner.invoke(app, ["compare", "카카오", "네이버"])
+
+        assert result.exit_code == 0
+        assert "기업 비교" in result.output
+
+    def test_compare_markdown_output_saves_file(self, tmp_path):
+        from hirekit.engine.company_comparator import ComparisonResult
+
+        mock_result = ComparisonResult(
+            companies=["카카오", "네이버"],
+            dimensions={"growth": [3.5, 4.0]},
+            winner_by_dimension={"growth": "네이버"},
+            overall_scores={"카카오": 72.0, "네이버": 78.0},
+            overall_recommendation="네이버가 더 유리해요.",
+            comparison_table={},
+        )
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_comparator.CompanyComparator") as MockComparator:
+                MockComparator.return_value.compare_many.return_value = mock_result
+                result = runner.invoke(
+                    app,
+                    ["compare", "카카오", "네이버", "--output", "markdown"],
+                )
+
+        assert result.exit_code == 0
+        assert (tmp_path / "카카오_vs_네이버_compare.md").exists()
+
+    def test_compare_json_output_contains_structured_result(self, tmp_path):
+        from hirekit.engine.company_comparator import ComparisonResult
+
+        mock_result = ComparisonResult(
+            companies=["토스", "네이버"],
+            dimensions={"growth": [4.5, 3.5], "compensation": [4.4, 4.0]},
+            winner_by_dimension={"growth": "토스"},
+            overall_scores={"토스": 84.0, "네이버": 76.0},
+            overall_recommendation="토스를 우선 추천해요.",
+            comparison_table={"companies": ["토스", "네이버"]},
+        )
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_comparator.CompanyComparator") as MockComparator:
+                MockComparator.return_value.compare_many.return_value = mock_result
+                result = runner.invoke(
+                    app,
+                    ["compare", "토스", "네이버", "--output", "json"],
+                )
+
+        assert result.exit_code == 0
+        assert '"winner"' in result.output
+        assert '"overall_scores"' in result.output
 
 
 # ---------------------------------------------------------------------------

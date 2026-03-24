@@ -362,15 +362,22 @@ def pipeline(
     jd: str = typer.Option("", "--jd", help="채용공고 URL 또는 텍스트 파일"),
     resume_file: str = typer.Option("", "--resume", help="이력서 파일 (md/txt/pdf)"),
     position: str = typer.Option("", "--position", "-p", help="지원 포지션"),
+    current: str = typer.Option("", "--current", "-c", help="현재 재직 회사"),
+    current_role: str = typer.Option("", "--current-role", help="현재 직군/역할"),
+    experience: int = typer.Option(0, "--experience", "-e", help="경력 연차"),
+    skills: str = typer.Option("", "--skills", "-s", help="보유 기술 (쉼표 구분)"),
+    compare: tuple[str, ...] = typer.Option((), "--compare", help="비교 대상 기업 (반복 가능)"),
     profile: str = typer.Option("", "--profile", help="커리어 프로필 YAML"),
     output: str = typer.Option("markdown", "--output", "-o", help="출력 형식"),
     no_llm: bool = typer.Option(False, "--no-llm", help="LLM 생략"),
 ) -> None:
     """전체 파이프라인 실행: 기업 분석 → JD 매칭 → 이력서 리뷰 → 면접 준비 → 자기소개서."""
     from hirekit.engine.company_analyzer import CompanyAnalyzer
+    from hirekit.engine.company_comparator import CompanyComparator
     from hirekit.engine.cover_letter import CoverLetterCoach
     from hirekit.engine.interview_prep import InterviewPrep
     from hirekit.engine.jd_matcher import JDMatcher
+    from hirekit.engine.proof_of_work import ProofOfWorkGenerator
     from hirekit.engine.resume_advisor import ResumeAdvisor
 
     config = load_config()
@@ -380,7 +387,9 @@ def pipeline(
     console.print(Panel(
         f"[bold]기업:[/bold] {company}\n"
         f"[bold]포지션:[/bold] {position or '미지정'}  "
-        f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}",
+        f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}\n"
+        f"[bold]현재 회사:[/bold] {current or '미지정'}  "
+        f"[bold]경력:[/bold] {experience}년",
         title="[bold blue]HireKit 파이프라인[/bold blue]",
         border_style="blue",
     ))
@@ -397,8 +406,7 @@ def pipeline(
     jd_text = ""
     if jd:
         console.print("[bold cyan][2/5] JD 분석 중...[/bold cyan]")
-        jd_path = Path(jd)
-        jd_source = jd_path.read_text(encoding="utf-8") if jd_path.exists() else jd
+        jd_source = _resolve_jd_text(jd)
         jd_text = jd_source
         matcher = JDMatcher(llm=llm)
         with console.status("[bold green]채용공고 분석 중..."):
@@ -453,6 +461,34 @@ def pipeline(
         jd_analysis=jd_analysis,
         resume_feedback=resume_feedback,
     )
+    proof_artifact = ProofOfWorkGenerator().generate(
+        company=company,
+        verdict=verdict.to_dict(),
+        company_report=report.to_dict(),
+        jd_analysis=_jd_analysis_payload(jd_analysis),
+        resume_feedback=_resume_feedback_payload(resume_feedback),
+    )
+    strategy_result = _maybe_build_strategy(
+        target=company,
+        current=current,
+        current_role=current_role,
+        role=position,
+        experience=experience,
+        skills=skills,
+        profile=user_profile,
+    )
+    comparison_mode = ""
+    comparison_result = None
+    comparison_targets = _comparison_targets(
+        target=company,
+        compare=list(compare),
+        strategy_result=strategy_result,
+    )
+    if len(comparison_targets) >= 2:
+        comparison_mode = "사용자 지정" if compare else "전략 추천"
+        with console.status("[bold green]워룸 비교 분석 중..."):
+            comparison_result = CompanyComparator().compare_many(comparison_targets)
+
     if verdict.label == "Go":
         verdict_style = "bold green"
     elif verdict.label == "Hold":
@@ -478,12 +514,36 @@ def pipeline(
             + f"[bold]자소서 점수:[/bold] {cover_draft.overall_score:.0f}/100\n"
             + f"[{verdict_style}]최종 판정: {verdict.label}[/{verdict_style}]\n"
             + f"[bold]판정 신뢰도:[/bold] {verdict.confidence}\n"
-            + f"[dim]{verdict.advisory_note}[/dim]",
+            + f"[dim]{verdict.advisory_note}[/dim]\n\n"
+            + f"[bold]실행 메모:[/bold] {proof_artifact.thesis}",
             title="[bold blue]파이프라인 결과[/bold blue]",
             border_style="blue",
         ))
         for reason in verdict.reasons:
             console.print(f"  - {reason}")
+        console.print("\n[bold green]바로 할 일:[/bold green]")
+        for item in proof_artifact.next_actions:
+            console.print(f"  • {item}")
+        if strategy_result is not None:
+            console.print("\n[bold cyan]워룸 전략:[/bold cyan]")
+            console.print(f"적합도 {strategy_result.fit_score:.0f}/100")
+            console.print(f"준비 기간: {strategy_result.timeline}")
+            console.print(strategy_result.approach_strategy)
+            if strategy_result.gap_analysis:
+                top_gaps = ", ".join(g.skill for g in strategy_result.gap_analysis[:3])
+                console.print(f"핵심 갭: {top_gaps}")
+            if strategy_result.alternative_companies:
+                console.print(
+                    f"대안 기업: {', '.join(strategy_result.alternative_companies[:3])}"
+                )
+        if comparison_result is not None:
+            console.print(f"\n[bold magenta]워룸 비교 ({comparison_mode}):[/bold magenta]")
+            console.print(f"비교군: {' vs '.join(comparison_result.companies)}")
+            console.print(
+                f"우세 기업: {comparison_result.winner} "
+                f"({comparison_result.overall_scores.get(comparison_result.winner, 0):.0f}/100)"
+            )
+            console.print(comparison_result.overall_recommendation)
     else:
         # Build integrated markdown report
         lines = [
@@ -500,6 +560,37 @@ def pipeline(
             "",
             "---",
             "",
+            "## 0.5. Proof of Work",
+            proof_artifact.to_markdown(),
+            "",
+            "---",
+            "",
+        ]
+
+        if strategy_result is not None or comparison_result is not None:
+            lines += [
+                "## 0.75. War Room",
+                "",
+            ]
+            if strategy_result is not None:
+                lines += [
+                    _strategy_markdown(strategy_result, heading="### 개인화 전략"),
+                    "",
+                ]
+            if comparison_result is not None:
+                lines += [
+                    _comparison_markdown(
+                        comparison_result,
+                        comparison_mode=comparison_mode,
+                    ),
+                    "",
+                ]
+            lines += [
+                "---",
+                "",
+            ]
+
+        lines += [
             "## 1. 기업 분석",
             report.to_markdown(),
             "",
@@ -539,6 +630,9 @@ def pipeline(
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text("\n".join(lines), encoding="utf-8")
         console.print(f"\n[green]파이프라인 리포트 저장:[/green] {out_path}")
+        proof_path = Path(config.output.directory) / f"{company}_proof.md"
+        proof_path.write_text(proof_artifact.to_markdown(), encoding="utf-8")
+        console.print(f"[green]실행 메모 저장:[/green] {proof_path}")
 
         # Summary table
         table = Table(title=f"{company} 파이프라인 요약")
@@ -578,6 +672,113 @@ def pipeline(
 
 
 @app.command()
+def proof(
+    company: str = typer.Argument(help="기업명"),
+    jd: str = typer.Option("", "--jd", help="채용공고 URL 또는 텍스트 파일"),
+    resume_file: str = typer.Option("", "--resume", help="이력서 파일 (md/txt/pdf)"),
+    current: str = typer.Option("", "--current", "-c", help="현재 재직 회사"),
+    role: str = typer.Option("", "--role", "-r", help="목표 직군"),
+    experience: int = typer.Option(0, "--experience", "-e", help="경력 연차"),
+    skills: str = typer.Option("", "--skills", "-s", help="보유 기술 (쉼표 구분)"),
+    profile: str = typer.Option("", "--profile", help="커리어 프로필 YAML"),
+    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, markdown"),
+    no_llm: bool = typer.Option(False, "--no-llm", help="LLM 생략"),
+) -> None:
+    """분석 결과를 바로 지원 액션 메모로 압축해요."""
+    from hirekit.engine.company_analyzer import CompanyAnalyzer
+    from hirekit.engine.jd_matcher import JDMatcher
+    from hirekit.engine.proof_of_work import ProofOfWorkGenerator
+    from hirekit.engine.resume_advisor import ResumeAdvisor
+
+    config = load_config()
+    llm = _get_llm(config) if not no_llm else None
+    user_profile = _load_profile(profile)
+
+    console.print(Panel(
+        f"[bold]기업:[/bold] {company}\n"
+        f"[bold]목표 직군:[/bold] {role or '미지정'}  "
+        f"[bold]경력:[/bold] {experience}년  "
+        f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}",
+        title="[bold blue]HireKit 실행 메모[/bold blue]",
+        border_style="blue",
+    ))
+
+    analyzer = CompanyAnalyzer(config=config, use_llm=not no_llm)
+    with console.status("[bold green]기업 분석 중..."):
+        report = analyzer.analyze(company=company)
+
+    jd_analysis = None
+    jd_text = ""
+    if jd:
+        jd_text = _resolve_jd_text(jd)
+        matcher = JDMatcher(llm=llm)
+        with console.status("[bold green]JD 매칭 중..."):
+            jd_analysis = matcher.analyze(jd_source=jd_text, profile=user_profile)
+
+    resume_feedback = None
+    if resume_file:
+        advisor = ResumeAdvisor(llm=llm)
+        with console.status("[bold green]이력서 리뷰 중..."):
+            resume_feedback = advisor.review(
+                resume_path=resume_file,
+                jd_text=jd_text,
+                profile=user_profile,
+            )
+
+    verdict = _compose_hero_verdict(
+        report=report,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
+    )
+    artifact = ProofOfWorkGenerator().generate(
+        company=company,
+        verdict=verdict.to_dict(),
+        company_report=report.to_dict(),
+        jd_analysis=_jd_analysis_payload(jd_analysis),
+        resume_feedback=_resume_feedback_payload(resume_feedback),
+    )
+    strategy_result = _maybe_build_strategy(
+        target=company,
+        current=current,
+        role=role,
+        experience=experience,
+        skills=skills,
+    )
+
+    if output == "markdown":
+        out_path = Path(config.output.directory) / f"{company}_proof.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        content = artifact.to_markdown()
+        if strategy_result is not None:
+            content += "\n\n---\n\n" + _strategy_markdown(strategy_result)
+        out_path.write_text(content, encoding="utf-8")
+        console.print(f"[green]실행 메모 저장:[/green] {out_path}")
+        return
+
+    console.print(Panel(
+        f"[bold]판정:[/bold] {verdict.label}\n"
+        f"[bold]신뢰도:[/bold] {verdict.confidence}\n"
+        f"[bold]상태:[/bold] {artifact.status}\n\n"
+        f"{artifact.thesis}",
+        title="[bold blue]실행 메모[/bold blue]",
+        border_style="blue",
+    ))
+    if artifact.evidence:
+        console.print("\n[bold]핵심 근거:[/bold]")
+        for item in artifact.evidence:
+            console.print(f"  - {item}")
+    if artifact.next_actions:
+        console.print("\n[bold green]바로 할 일:[/bold green]")
+        for item in artifact.next_actions:
+            console.print(f"  • {item}")
+    if strategy_result is not None:
+        console.print("\n[bold cyan]개인화 전략:[/bold cyan]")
+        console.print(f"적합도 {strategy_result.fit_score:.0f}/100")
+        console.print(f"준비 기간: {strategy_result.timeline}")
+        console.print(strategy_result.approach_strategy)
+
+
+@app.command()
 def resume(
     file: str = typer.Argument(help="이력서 파일 경로 (md, txt, pdf)"),
     jd: str = typer.Option("", "--jd", help="타겟 JD URL 또는 텍스트"),
@@ -593,23 +794,7 @@ def resume(
 
     user_profile = _load_profile(profile)
 
-    # Resolve JD text
-    jd_text = ""
-    if jd:
-        jd_path = Path(jd)
-        if jd_path.exists():
-            jd_text = jd_path.read_text(encoding="utf-8")
-        elif jd.startswith("http"):
-            import httpx
-            try:
-                resp = httpx.get(jd, timeout=10, follow_redirects=True)
-                from bs4 import BeautifulSoup
-                soup = BeautifulSoup(resp.text, "lxml")
-                jd_text = soup.get_text(separator="\n", strip=True)[:5000]
-            except Exception:
-                console.print(f"[yellow]JD URL에서 내용을 가져오지 못했어요: {jd}[/yellow]")
-        else:
-            jd_text = jd
+    jd_text = _resolve_jd_text(jd) if jd else ""
 
     with console.status("[bold green]이력서 검토 중..."):
         feedback = advisor.review(
@@ -645,43 +830,61 @@ def resume(
 def strategy(
     target: str = typer.Argument(help="목표 기업명"),
     current: str = typer.Option(None, "--current", "-c", help="현재 재직 회사"),
+    current_role: str = typer.Option("", "--current-role", help="현재 직군/역할"),
     role: str = typer.Option(None, "--role", "-r", help="목표 직군 (예: 백엔드, PM)"),
     experience: int = typer.Option(0, "--experience", "-e", help="경력 연차"),
+    education: str = typer.Option("", "--education", help="학력/전공"),
+    profile: str = typer.Option("", "--profile", "-p", help="커리어 프로필 YAML"),
     skills: str = typer.Option("", "--skills", "-s", help="보유 기술 (쉼표 구분, 예: python,aws,react)"),
-    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, markdown"),
+    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, markdown, json"),
 ) -> None:
     """커리어 전략 분석 — 목표 기업에 맞는 이직/취업 전략을 제안해요."""
     from hirekit.engine.career_strategy import CareerProfile, CareerStrategyEngine
-    from hirekit.core.config import load_config
 
     config = load_config()
 
-    skills_list = [s.strip() for s in skills.split(",") if s.strip()] if skills else []
+    user_profile = _load_profile(profile)
+    skills_list = _merge_unique_strings(
+        _extract_profile_skills(user_profile),
+        [s.strip() for s in skills.split(",") if s.strip()] if skills else [],
+    )
+    target_role = role or _profile_target_role(user_profile)
+    resolved_current_company = current or _profile_string(user_profile, "current_company") or None
+    resolved_current_role = current_role or _profile_string(user_profile, "current_role")
+    resolved_experience = experience or _profile_int(
+        user_profile, "years_of_experience", "experience_years"
+    )
+    resolved_education = education or _profile_string(user_profile, "education") or None
 
-    profile = CareerProfile(
+    career_profile = CareerProfile(
         target_company=target,
-        current_company=current,
-        years_of_experience=experience,
-        current_role="",
-        target_role=role or "",
+        current_company=resolved_current_company,
+        years_of_experience=resolved_experience,
+        current_role=resolved_current_role,
+        target_role=target_role or "",
         skills=skills_list,
+        education=resolved_education,
     )
 
     console.print(Panel(
         f"[bold]목표 기업:[/bold] {target}\n"
-        f"[bold]현재 회사:[/bold] {current or '미지정'}  "
-        f"[bold]목표 직군:[/bold] {role or '미지정'}  "
-        f"[bold]경력:[/bold] {experience}년",
+        f"[bold]현재 회사:[/bold] {resolved_current_company or '미지정'}  "
+        f"[bold]목표 직군:[/bold] {target_role or '미지정'}  "
+        f"[bold]경력:[/bold] {resolved_experience}년",
         title="[bold blue]HireKit 커리어 전략[/bold blue]",
         border_style="blue",
     ))
 
     engine = CareerStrategyEngine()
     with console.status("[bold green]전략 분석 중..."):
-        result = engine.analyze(profile)
+        result = engine.analyze(profile=career_profile)
 
-    if output == "markdown":
-        from hirekit.core.config import load_config as _lc
+    if output == "json":
+        import json
+        import sys
+
+        sys.stdout.write(json.dumps(result.to_dict(), ensure_ascii=False, indent=2) + "\n")
+    elif output == "markdown":
         out_path = Path(config.output.directory) / f"{target}_strategy.md"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         lines = [
@@ -755,11 +958,10 @@ def strategy(
 @app.command()
 def compare(
     companies: list[str] = typer.Argument(help="비교할 기업 2-3개 (예: 토스 카카오 네이버)"),
-    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, markdown"),
+    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, markdown, json"),
 ) -> None:
     """기업 비교 — 여러 기업을 나란히 비교해요."""
     from hirekit.engine.company_comparator import CompanyComparator
-    from hirekit.core.config import load_config
 
     if len(companies) < 2:
         console.print("[red]최소 2개 기업을 입력해주세요.[/red]")
@@ -777,14 +979,19 @@ def compare(
     with console.status("[bold green]기업 비교 중..."):
         result = comparator.compare_many(companies)
 
-    if output == "markdown":
+    if output == "json":
+        import json
+        import sys
+
+        sys.stdout.write(json.dumps(result.to_dict(), ensure_ascii=False, indent=2) + "\n")
+    elif output == "markdown":
         out_path = Path(config.output.directory) / f"{'_vs_'.join(companies)}_compare.md"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(result.to_markdown(), encoding="utf-8")
         console.print(f"[green]비교 리포트 저장:[/green] {out_path}")
     else:
-        from hirekit.engine.company_comparator import _DIMENSION_LABELS
         from hirekit.core.scoring import score_to_grade
+        from hirekit.engine.company_comparator import _DIMENSION_LABELS
 
         table = Table(title=f"기업 비교: {' vs '.join(result.companies)}")
         table.add_column("차원", style="cyan")
@@ -895,6 +1102,93 @@ def _get_llm(config):
     return NoLLM()
 
 
+def _resolve_jd_text(jd: str) -> str:
+    """Resolve a JD option from file path, URL, or raw text."""
+    if not jd:
+        return ""
+
+    jd_path = Path(jd)
+    if jd_path.exists():
+        return jd_path.read_text(encoding="utf-8")
+
+    if jd.startswith("http"):
+        import httpx
+
+        try:
+            resp = httpx.get(jd, timeout=10, follow_redirects=True)
+            from bs4 import BeautifulSoup
+
+            soup = BeautifulSoup(resp.text, "lxml")
+            return soup.get_text(separator="\n", strip=True)[:5000]
+        except Exception:
+            console.print(f"[yellow]JD URL에서 내용을 가져오지 못했어요: {jd}[/yellow]")
+            return ""
+
+    return jd
+
+
+def _compose_hero_verdict(*, report, jd_analysis=None, resume_feedback=None):
+    hero_verdict = import_module("hirekit.engine.hero_verdict")
+    return hero_verdict.compose_hero_verdict(
+        report=report,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
+    )
+
+
+def _jd_analysis_payload(jd_analysis) -> dict[str, Any] | None:
+    if jd_analysis is None:
+        return None
+    return {"strengths": list(getattr(jd_analysis, "strengths", []))}
+
+
+def _resume_feedback_payload(resume_feedback) -> dict[str, Any] | None:
+    if resume_feedback is None:
+        return None
+    return {"strengths": list(getattr(resume_feedback, "strengths", []))}
+
+
+def _maybe_build_strategy(
+    *,
+    target: str,
+    current: str,
+    role: str,
+    experience: int,
+    skills: str,
+):
+    if not any([current, role, experience, skills]):
+        return None
+
+    from hirekit.engine.career_strategy import CareerProfile, CareerStrategyEngine
+
+    skills_list = [item.strip() for item in skills.split(",") if item.strip()]
+    profile = CareerProfile(
+        target_company=target,
+        current_company=current or None,
+        years_of_experience=experience,
+        current_role="",
+        target_role=role or "",
+        skills=skills_list,
+    )
+    return CareerStrategyEngine().analyze(profile)
+
+
+def _strategy_markdown(strategy_result) -> str:
+    lines = [
+        "## 개인화 전략",
+        f"- 적합도: {strategy_result.fit_score:.0f}/100",
+        f"- 준비 기간: {strategy_result.timeline}",
+        "",
+        "### 접근 전략",
+        strategy_result.approach_strategy,
+    ]
+    if strategy_result.resume_focus:
+        lines.extend(["", "### 이력서 강조 포인트", *[f"- {item}" for item in strategy_result.resume_focus]])
+    if strategy_result.interview_prep:
+        lines.extend(["", "### 면접 준비", *[f"- {item}" for item in strategy_result.interview_prep]])
+    return "\n".join(lines)
+
+
 def _load_profile(path: str) -> dict[str, Any] | None:
     """Load career profile from YAML file."""
     if not path:
@@ -915,6 +1209,79 @@ def _load_profile(path: str) -> dict[str, Any] | None:
     except ImportError:
         # Fallback: basic YAML parsing without pyyaml
         return None
+
+
+def _profile_string(profile: dict[str, Any] | None, key: str) -> str:
+    """Safely read a string field from the loaded profile."""
+    if not isinstance(profile, dict):
+        return ""
+    value = profile.get(key, "")
+    return value.strip() if isinstance(value, str) else ""
+
+
+def _profile_int(profile: dict[str, Any] | None, *keys: str) -> int:
+    """Read the first integer-like field found in the profile."""
+    if not isinstance(profile, dict):
+        return 0
+    for key in keys:
+        value = profile.get(key)
+        if isinstance(value, int):
+            return value
+        if isinstance(value, str) and value.strip().isdigit():
+            return int(value.strip())
+    return 0
+
+
+def _extract_profile_skills(profile: dict[str, Any] | None) -> list[str]:
+    """Flatten nested skill lists from the career profile."""
+    if not isinstance(profile, dict):
+        return []
+
+    raw_skills = profile.get("skills", [])
+    flattened: list[str] = []
+
+    if isinstance(raw_skills, dict):
+        for value in raw_skills.values():
+            if isinstance(value, list):
+                flattened.extend(str(item).strip() for item in value if str(item).strip())
+    elif isinstance(raw_skills, list):
+        flattened.extend(str(item).strip() for item in raw_skills if str(item).strip())
+
+    return flattened
+
+
+def _profile_target_role(profile: dict[str, Any] | None) -> str:
+    """Infer target role from profile target_role or the highest-priority track."""
+    explicit = _profile_string(profile, "target_role")
+    if explicit:
+        return explicit
+    if not isinstance(profile, dict):
+        return ""
+    tracks = profile.get("tracks", [])
+    if isinstance(tracks, list):
+        for track in tracks:
+            if isinstance(track, dict):
+                name = track.get("name")
+                if isinstance(name, str) and name.strip():
+                    return name.strip()
+    return ""
+
+
+def _merge_unique_strings(*groups: list[str]) -> list[str]:
+    """Merge string lists while preserving order and removing duplicates."""
+    seen: set[str] = set()
+    merged: list[str] = []
+    for group in groups:
+        for item in group:
+            normalized = item.strip()
+            if not normalized:
+                continue
+            key = normalized.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(normalized)
+    return merged
 
 
 @app.command()
