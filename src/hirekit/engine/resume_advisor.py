@@ -449,15 +449,33 @@ class ResumeAdvisor:
             "our", "have", "will", "from", "not", "but", "can", "all",
             "경험", "이상", "관련", "우대", "필수", "능력", "담당",
         }
-        jd_words = set(re.findall(r"[a-zA-Z가-힣]{2,}", jd.lower()))
-        jd_keywords = jd_words - stop_words
         resume_lower = resume.lower()
-        missing = [k for k in jd_keywords if k not in resume_lower]
-        significant_missing = [
+
+        # Preserve JD order instead of using a set so keyword gaps stay stable
+        # across whole-suite runs and don't randomly drop core stack terms.
+        jd_words = re.findall(r"[a-zA-Z가-힣]{2,}", jd.lower())
+        ordered_keywords: list[str] = []
+        seen: set[str] = set()
+        for word in jd_words:
+            if word in stop_words or word in seen:
+                continue
+            seen.add(word)
+            ordered_keywords.append(word)
+
+        tech_terms = re.findall(r"\b[a-z][a-z0-9+#._-]{2,}\b", jd.lower())
+        prioritized_missing: list[str] = []
+        for tech in tech_terms:
+            if tech in seen and tech not in resume_lower and tech not in prioritized_missing:
+                prioritized_missing.append(tech)
+
+        missing = prioritized_missing + [
+            keyword for keyword in ordered_keywords
+            if keyword not in resume_lower and keyword not in prioritized_missing
+        ]
+        feedback.keyword_gaps = [
             m for m in missing
             if len(m) >= 3 or any(c >= "\uac00" for c in m)
         ][:15]
-        feedback.keyword_gaps = significant_missing
 
     def _suggest_ats_keywords(self, resume: str, jd: str, feedback: ResumeFeedback) -> None:
         tech_pattern = re.compile(
