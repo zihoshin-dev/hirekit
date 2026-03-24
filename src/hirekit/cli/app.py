@@ -366,7 +366,7 @@ def pipeline(
     current_role: str = typer.Option("", "--current-role", help="현재 직군/역할"),
     experience: int = typer.Option(0, "--experience", "-e", help="경력 연차"),
     skills: str = typer.Option("", "--skills", "-s", help="보유 기술 (쉼표 구분)"),
-    compare: tuple[str, ...] = typer.Option((), "--compare", help="비교 대상 기업 (반복 가능)"),
+    compare: list[str] = typer.Option([], "--compare", help="비교 대상 기업 (반복 가능)"),
     profile: str = typer.Option("", "--profile", help="커리어 프로필 YAML"),
     output: str = typer.Option("markdown", "--output", "-o", help="출력 형식"),
     no_llm: bool = typer.Option(False, "--no-llm", help="LLM 생략"),
@@ -631,7 +631,15 @@ def pipeline(
         out_path.write_text("\n".join(lines), encoding="utf-8")
         console.print(f"\n[green]파이프라인 리포트 저장:[/green] {out_path}")
         proof_path = Path(config.output.directory) / f"{company}_proof.md"
-        proof_path.write_text(proof_artifact.to_markdown(), encoding="utf-8")
+        proof_path.write_text(
+            _proof_bundle_markdown(
+                proof_artifact,
+                strategy_result=strategy_result,
+                comparison_result=comparison_result,
+                comparison_mode=comparison_mode,
+            ),
+            encoding="utf-8",
+        )
         console.print(f"[green]실행 메모 저장:[/green] {proof_path}")
 
         # Summary table
@@ -740,18 +748,20 @@ def proof(
     strategy_result = _maybe_build_strategy(
         target=company,
         current=current,
+        current_role="",
         role=role,
         experience=experience,
         skills=skills,
+        profile=user_profile,
     )
 
     if output == "markdown":
         out_path = Path(config.output.directory) / f"{company}_proof.md"
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        content = artifact.to_markdown()
-        if strategy_result is not None:
-            content += "\n\n---\n\n" + _strategy_markdown(strategy_result)
-        out_path.write_text(content, encoding="utf-8")
+        out_path.write_text(
+            _proof_bundle_markdown(artifact, strategy_result=strategy_result),
+            encoding="utf-8",
+        )
         console.print(f"[green]실행 메모 저장:[/green] {out_path}")
         return
 
@@ -1152,30 +1162,83 @@ def _maybe_build_strategy(
     *,
     target: str,
     current: str,
+    current_role: str,
     role: str,
     experience: int,
     skills: str,
+    profile: dict[str, Any] | None = None,
 ):
-    if not any([current, role, experience, skills]):
+    resolved_current = current or _profile_string(profile, "current_company")
+    resolved_current_role = (
+        current_role
+        or _profile_string(profile, "current_role")
+        or _profile_string(profile, "role")
+    )
+    resolved_role = role or _profile_target_role(profile)
+    resolved_experience = experience or _profile_int(
+        profile, "years_of_experience", "experience"
+    )
+    explicit_skills = [item.strip() for item in skills.split(",") if item.strip()]
+    resolved_skills = _merge_unique_strings(
+        explicit_skills,
+        _extract_profile_skills(profile),
+    )
+
+    if not any(
+        [
+            resolved_current,
+            resolved_current_role,
+            resolved_role,
+            resolved_experience,
+            resolved_skills,
+        ]
+    ):
         return None
 
     from hirekit.engine.career_strategy import CareerProfile, CareerStrategyEngine
 
-    skills_list = [item.strip() for item in skills.split(",") if item.strip()]
     profile = CareerProfile(
         target_company=target,
-        current_company=current or None,
-        years_of_experience=experience,
-        current_role="",
-        target_role=role or "",
-        skills=skills_list,
+        current_company=resolved_current or None,
+        years_of_experience=resolved_experience,
+        current_role=resolved_current_role,
+        target_role=resolved_role or "",
+        skills=resolved_skills,
     )
     return CareerStrategyEngine().analyze(profile)
 
 
-def _strategy_markdown(strategy_result) -> str:
+def _comparison_targets(
+    *,
+    target: str,
+    compare: list[str],
+    strategy_result,
+) -> list[str]:
+    target_key = target.strip().lower()
+    explicit_targets = [
+        name
+        for name in _merge_unique_strings(compare)
+        if name.strip().lower() != target_key
+    ]
+    if explicit_targets:
+        return [target, *explicit_targets[:3]]
+
+    if strategy_result is None:
+        return []
+
+    inferred_targets = [
+        name
+        for name in _merge_unique_strings(strategy_result.alternative_companies)
+        if name.strip().lower() != target_key
+    ]
+    if inferred_targets:
+        return [target, *inferred_targets[:2]]
+    return []
+
+
+def _strategy_markdown(strategy_result, heading: str = "## 개인화 전략") -> str:
     lines = [
-        "## 개인화 전략",
+        heading,
         f"- 적합도: {strategy_result.fit_score:.0f}/100",
         f"- 준비 기간: {strategy_result.timeline}",
         "",
@@ -1183,10 +1246,58 @@ def _strategy_markdown(strategy_result) -> str:
         strategy_result.approach_strategy,
     ]
     if strategy_result.resume_focus:
-        lines.extend(["", "### 이력서 강조 포인트", *[f"- {item}" for item in strategy_result.resume_focus]])
+        lines.extend(
+            ["", "### 이력서 강조 포인트", *[f"- {item}" for item in strategy_result.resume_focus]]
+        )
     if strategy_result.interview_prep:
         lines.extend(["", "### 면접 준비", *[f"- {item}" for item in strategy_result.interview_prep]])
+    if strategy_result.gap_analysis:
+        lines.extend(
+            [
+                "",
+                "### 핵심 스킬 갭",
+                *[
+                    f"- {gap.skill} ({gap.importance}) — {gap.learning_suggestion}"
+                    for gap in strategy_result.gap_analysis[:3]
+                ],
+            ]
+        )
+    if strategy_result.alternative_companies:
+        lines.extend(
+            [
+                "",
+                f"### 대안 기업\n- {', '.join(strategy_result.alternative_companies[:3])}",
+            ]
+        )
     return "\n".join(lines)
+
+
+def _comparison_markdown(comparison_result, *, comparison_mode: str) -> str:
+    heading_suffix = f" ({comparison_mode})" if comparison_mode else ""
+    return "\n".join(
+        [
+            f"### 기업 비교{heading_suffix}",
+            f"- 비교군: {' vs '.join(comparison_result.companies)}",
+            f"- 우세 기업: {comparison_result.winner}",
+            "",
+            comparison_result.to_markdown(),
+        ]
+    )
+
+
+def _proof_bundle_markdown(
+    artifact,
+    *,
+    strategy_result=None,
+    comparison_result=None,
+    comparison_mode: str = "",
+) -> str:
+    sections = [artifact.to_markdown()]
+    if strategy_result is not None:
+        sections.append(_strategy_markdown(strategy_result))
+    if comparison_result is not None:
+        sections.append(_comparison_markdown(comparison_result, comparison_mode=comparison_mode))
+    return "\n\n---\n\n".join(section for section in sections if section)
 
 
 def _load_profile(path: str) -> dict[str, Any] | None:

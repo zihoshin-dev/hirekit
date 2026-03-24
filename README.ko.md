@@ -236,6 +236,21 @@ hirekit compare 카카오 네이버 토스 --output json
 
 **얻는 것**: 성장/보상/문화/기술/브랜드/WLB/원격근무 7차원 비교 + 종합 추천.
 
+### `hirekit pipeline` — 워룸 파이프라인
+
+```bash
+# 기본 파이프라인
+hirekit pipeline 카카오 --no-llm
+
+# 현재 회사/경력/기술을 함께 넣어 전략까지 연결
+hirekit pipeline 카카오 --current 라인 --current-role 백엔드 --position 백엔드 --experience 4 --skills "python,kafka,aws"
+
+# 비교 기업까지 넣어 워룸처럼 판단
+hirekit pipeline 카카오 --position PM --skills "sql,python,product" --compare 네이버 --compare 당근
+```
+
+**얻는 것**: Hero Verdict + Proof of Work + 개인화 전략 + 비교 요약이 한 리포트에 같이 들어갑니다. `--compare`를 생략해도 전략 엔진이 대안 기업을 제시하면 워룸 비교에 자동으로 연결됩니다.
+
 ### `hirekit jobs` — 채용 공고 탐색
 
 ```bash

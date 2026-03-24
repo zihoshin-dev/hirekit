@@ -1,5 +1,6 @@
 """CLI end-to-end tests using typer.testing.CliRunner — no real API calls."""
 
+from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
 
 from typer.testing import CliRunner
@@ -35,6 +36,38 @@ def make_mock_report(company: str = "카카오") -> AnalysisReport:
         tier=1,
         sections={1: {"ceo": "홍은택"}},
         scorecard=make_mock_scorecard(company),
+    )
+
+
+def make_mock_strategy_result():
+    return SimpleNamespace(
+        fit_score=78.0,
+        gap_analysis=[
+            SimpleNamespace(
+                skill="kafka",
+                importance="required",
+                learning_suggestion="Kafka 실습",
+            )
+        ],
+        approach_strategy="핵심 갭을 보완하고 바로 지원해요.",
+        resume_focus=["분산 시스템 성과를 강조해요."],
+        interview_prep=["Kafka 트레이드오프를 설명할 수 있어야 해요."],
+        timeline="1-2개월",
+        alternative_companies=["네이버", "당근"],
+        career_path="백엔드 성장 경로",
+        risk_assessment="중간 리스크",
+    )
+
+
+def make_mock_comparison_result():
+    return SimpleNamespace(
+        companies=["카카오", "네이버", "당근"],
+        winner="네이버",
+        overall_scores={"카카오": 73.0, "네이버": 81.0, "당근": 79.0},
+        overall_recommendation="**종합 추천: 네이버**",
+        dimensions={},
+        winner_by_dimension={},
+        to_markdown=MagicMock(return_value="# 기업 비교"),
     )
 
 
@@ -382,6 +415,123 @@ class TestPipelineCommand:
         assert "## 0.5. Proof of Work" in saved
         proof_saved = (tmp_path / "카카오_proof.md").read_text(encoding="utf-8")
         assert "바로 할 일" in proof_saved
+
+    def test_pipeline_terminal_output_includes_strategy_and_compare_when_requested(self, tmp_path):
+        from hirekit.engine.cover_letter import CoverLetterDraft
+        from hirekit.engine.interview_prep import InterviewGuide
+
+        mock_report = make_mock_report("카카오")
+        mock_guide = InterviewGuide(company="카카오")
+        mock_guide.common_questions = []
+        mock_guide.reverse_questions = []
+        mock_guide.technical_questions = []
+        mock_guide.behavioral_questions = []
+        mock_guide.tips = []
+
+        mock_draft = CoverLetterDraft(company="카카오", overall_score=70.0)
+        mock_draft.sections = []
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.interview_prep.InterviewPrep") as MockPrep:
+                    MockPrep.return_value.prepare.return_value = mock_guide
+                    with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
+                        MockCoach.return_value.draft.return_value = mock_draft
+                        with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockStrategy:
+                            MockStrategy.return_value.analyze.return_value = make_mock_strategy_result()
+                            with patch("hirekit.engine.company_comparator.CompanyComparator") as MockComparator:
+                                MockComparator.return_value.compare_many.return_value = make_mock_comparison_result()
+                                result = runner.invoke(
+                                    app,
+                                    [
+                                        "pipeline",
+                                        "카카오",
+                                        "--no-llm",
+                                        "--output",
+                                        "terminal",
+                                        "--current",
+                                        "라인",
+                                        "--current-role",
+                                        "백엔드",
+                                        "--experience",
+                                        "4",
+                                        "--skills",
+                                        "python,kafka",
+                                        "--compare",
+                                        "네이버",
+                                        "--compare",
+                                        "당근",
+                                    ],
+                                )
+
+        assert result.exit_code == 0
+        assert "워룸 전략" in result.output
+        assert "워룸 비교 (사용자 지정)" in result.output
+        assert "우세 기업: 네이버" in result.output
+        assert MockStrategy.return_value.analyze.called
+        MockComparator.return_value.compare_many.assert_called_once_with(["카카오", "네이버", "당근"])
+
+    def test_pipeline_markdown_output_auto_uses_strategy_alternatives_for_compare(self, tmp_path):
+        from hirekit.engine.cover_letter import CoverLetterDraft
+        from hirekit.engine.interview_prep import InterviewGuide
+
+        mock_report = make_mock_report("카카오")
+        mock_report.to_markdown = MagicMock(return_value="# 기업 분석")
+        mock_guide = InterviewGuide(company="카카오")
+        mock_guide.common_questions = []
+        mock_guide.reverse_questions = []
+        mock_guide.technical_questions = []
+        mock_guide.behavioral_questions = []
+        mock_guide.tips = []
+        mock_guide.to_markdown = MagicMock(return_value="# 면접 준비")
+
+        mock_draft = CoverLetterDraft(company="카카오", overall_score=70.0)
+        mock_draft.sections = []
+        mock_draft.to_markdown = MagicMock(return_value="# 자기소개서")
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.interview_prep.InterviewPrep") as MockPrep:
+                    MockPrep.return_value.prepare.return_value = mock_guide
+                    with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
+                        MockCoach.return_value.draft.return_value = mock_draft
+                        with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockStrategy:
+                            MockStrategy.return_value.analyze.return_value = make_mock_strategy_result()
+                            with patch("hirekit.engine.company_comparator.CompanyComparator") as MockComparator:
+                                MockComparator.return_value.compare_many.return_value = make_mock_comparison_result()
+                                result = runner.invoke(
+                                    app,
+                                    [
+                                        "pipeline",
+                                        "카카오",
+                                        "--no-llm",
+                                        "--output",
+                                        "markdown",
+                                        "--experience",
+                                        "3",
+                                        "--skills",
+                                        "python",
+                                    ],
+                                )
+
+        assert result.exit_code == 0
+        saved = (tmp_path / "카카오_pipeline.md").read_text(encoding="utf-8")
+        assert "## 0.75. War Room" in saved
+        assert "### 개인화 전략" in saved
+        assert "### 기업 비교 (전략 추천)" in saved
+        MockComparator.return_value.compare_many.assert_called_once_with(["카카오", "네이버", "당근"])
 
 
 class TestProofCommand:

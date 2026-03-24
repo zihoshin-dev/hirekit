@@ -144,7 +144,7 @@ hirekit analyze 카카오
 | `hirekit strategy 카카오 --role PM --output json` | 커리어 전략 | 적합도, 스킬 갭, 준비 기간, 대안 기업 |
 | `hirekit compare 카카오 네이버 --output json` | 기업 비교 | 7차원 비교, 차원별 승자, 종합 추천 |
 | `hirekit jobs 쿠팡 -o json` | 채용 공고 탐색 | 기업별 현재 포지션 조회, JSON 자동화 연동 |
-| `hirekit pipeline 카카오` | 통합 파이프라인 | 5단계 순차 분석 + advisory Go/Hold/Pass 판정 |
+| `hirekit pipeline 카카오 --current 라인 --skills "python,kafka" --compare 네이버` | 워룸 파이프라인 | 5단계 분석 + 개인화 전략 + 기업 비교 + advisory Go/Hold/Pass |
 
 ### `hirekit analyze` — 기업 분석
 
@@ -273,6 +273,23 @@ hirekit compare 카카오 네이버 토스 --output json
 ```
 
 **결과물**: 성장/보상/문화/기술/브랜드/WLB/원격근무 7차원 비교 + 종합 추천
+
+---
+
+### `hirekit pipeline` — 워룸 파이프라인
+
+```bash
+# 기본 파이프라인
+hirekit pipeline 카카오 --no-llm
+
+# 현재 회사/경력/기술을 함께 넣어 전략 연결
+hirekit pipeline 카카오 --current 라인 --current-role 백엔드 --position 백엔드 --experience 4 --skills "python,kafka,aws"
+
+# 비교 기업까지 넣어 워룸처럼 판단
+hirekit pipeline 카카오 --position PM --skills "sql,python,product" --compare 네이버 --compare 당근
+```
+
+**결과물**: Hero Verdict + Proof of Work + 개인화 전략 + 비교 요약이 한 리포트에 함께 들어가요. `--compare`를 생략해도 전략 엔진이 대안 기업을 찾으면 워룸 비교에 자동으로 연결해요.
 
 ---
 
