@@ -191,6 +191,15 @@ hirekit proof 토스 --jd jd.txt --resume resume.md --role 백엔드 --experienc
 
 **얻는 것**: verdict, 핵심 근거, 바로 할 일, low-confidence guardrail, 개인화 전략 요약.
 
+### `hirekit panel` — 전문가 패널
+
+```bash
+# 여러 렌즈로 지원 결정을 한 번에 요약
+hirekit panel 카카오 --role 백엔드 --experience 4 --skills "python,kafka" --compare 네이버 --compare 당근
+```
+
+**얻는 것**: Hiring/Engineering/Product/Risk/Career 렌즈별 판정, 합의 요약, 바로 할 일.
+
 ### `hirekit resume` — 이력서 리뷰
 
 ```bash

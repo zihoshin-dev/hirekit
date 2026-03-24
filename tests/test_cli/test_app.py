@@ -65,8 +65,15 @@ def make_mock_comparison_result():
         winner="네이버",
         overall_scores={"카카오": 73.0, "네이버": 81.0, "당근": 79.0},
         overall_recommendation="**종합 추천: 네이버**",
-        dimensions={},
-        winner_by_dimension={},
+        dimensions={"tech_level": [3.5, 4.5, 4.0]},
+        winner_by_dimension={"tech_level": "네이버"},
+        comparison_table={
+            "scores": {
+                "카카오": {"tech_level": 3.5},
+                "네이버": {"tech_level": 4.5},
+                "당근": {"tech_level": 4.0},
+            }
+        },
         to_markdown=MagicMock(return_value="# 기업 비교"),
     )
 
@@ -662,6 +669,88 @@ class TestProofCommand:
         assert result.exit_code == 0
         assert "개인화 전략" in result.output
         assert "1-2개월" in result.output
+
+
+# ---------------------------------------------------------------------------
+# panel command
+# ---------------------------------------------------------------------------
+
+class TestPanelCommand:
+    def test_panel_terminal_output_shows_lens_summary(self, tmp_path):
+        mock_report = make_mock_report("카카오")
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockStrategy:
+                    MockStrategy.return_value.analyze.return_value = make_mock_strategy_result()
+                    with patch("hirekit.engine.company_comparator.CompanyComparator") as MockComparator:
+                        MockComparator.return_value.compare_many.return_value = make_mock_comparison_result()
+                        result = runner.invoke(
+                            app,
+                            [
+                                "panel",
+                                "카카오",
+                                "--role",
+                                "백엔드",
+                                "--experience",
+                                "4",
+                                "--skills",
+                                "python,kafka",
+                                "--compare",
+                                "네이버",
+                                "--compare",
+                                "당근",
+                                "--no-llm",
+                            ],
+                        )
+
+        assert result.exit_code == 0
+        assert "전문가 패널 요약" in result.output
+        assert "렌즈별 판정" in result.output
+        assert "Hiring & Career Committee" in result.output
+
+    def test_panel_markdown_output_saves_report(self, tmp_path):
+        mock_report = make_mock_report("토스")
+
+        with patch("hirekit.cli.app.load_config") as mock_cfg:
+            cfg = MagicMock()
+            cfg.llm.provider = "none"
+            cfg.output.directory = str(tmp_path)
+            mock_cfg.return_value = cfg
+
+            with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+                MockAnalyzer.return_value.analyze.return_value = mock_report
+                with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockStrategy:
+                    MockStrategy.return_value.analyze.return_value = make_mock_strategy_result()
+                    with patch("hirekit.engine.company_comparator.CompanyComparator") as MockComparator:
+                        MockComparator.return_value.compare_many.return_value = make_mock_comparison_result()
+                        result = runner.invoke(
+                            app,
+                            [
+                                "panel",
+                                "토스",
+                                "--role",
+                                "백엔드",
+                                "--experience",
+                                "5",
+                                "--skills",
+                                "python,aws",
+                                "--output",
+                                "markdown",
+                                "--no-llm",
+                            ],
+                        )
+
+        assert result.exit_code == 0
+        saved = (tmp_path / "토스_panel.md").read_text(encoding="utf-8")
+        assert "Advisory Panel: 토스" in saved
+        assert "바로 할 일" in saved
 
 
 # ---------------------------------------------------------------------------

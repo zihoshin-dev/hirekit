@@ -789,6 +789,130 @@ def proof(
 
 
 @app.command()
+def panel(
+    company: str = typer.Argument(help="기업명"),
+    jd: str = typer.Option("", "--jd", help="채용공고 URL 또는 텍스트 파일"),
+    resume_file: str = typer.Option("", "--resume", help="이력서 파일 (md/txt/pdf)"),
+    current: str = typer.Option("", "--current", "-c", help="현재 재직 회사"),
+    current_role: str = typer.Option("", "--current-role", help="현재 직군/역할"),
+    role: str = typer.Option("", "--role", "-r", help="목표 직군"),
+    experience: int = typer.Option(0, "--experience", "-e", help="경력 연차"),
+    skills: str = typer.Option("", "--skills", "-s", help="보유 기술 (쉼표 구분)"),
+    compare: list[str] = typer.Option([], "--compare", help="비교 대상 기업 (반복 가능)"),
+    profile: str = typer.Option("", "--profile", help="커리어 프로필 YAML"),
+    output: str = typer.Option("terminal", "--output", "-o", help="출력 형식: terminal, markdown"),
+    no_llm: bool = typer.Option(False, "--no-llm", help="LLM 생략"),
+) -> None:
+    """여러 전문가 렌즈로 지원 결정을 요약하는 advisory panel을 만들어요."""
+    from hirekit.engine.advisory_panel import compose_advisory_panel
+    from hirekit.engine.company_analyzer import CompanyAnalyzer
+    from hirekit.engine.company_comparator import CompanyComparator
+    from hirekit.engine.jd_matcher import JDMatcher
+    from hirekit.engine.resume_advisor import ResumeAdvisor
+
+    config = load_config()
+    llm = _get_llm(config) if not no_llm else None
+    user_profile = _load_profile(profile)
+
+    console.print(Panel(
+        f"[bold]기업:[/bold] {company}\n"
+        f"[bold]목표 직군:[/bold] {role or '미지정'}  "
+        f"[bold]경력:[/bold] {experience}년\n"
+        f"[bold]비교군:[/bold] {', '.join(compare) if compare else '자동 추천'}",
+        title="[bold blue]HireKit Advisory Panel[/bold blue]",
+        border_style="blue",
+    ))
+
+    analyzer = CompanyAnalyzer(config=config, use_llm=not no_llm)
+    with console.status("[bold green]기업 분석 중..."):
+        report = analyzer.analyze(company=company)
+
+    jd_analysis = None
+    jd_text = ""
+    if jd:
+        jd_text = _resolve_jd_text(jd)
+        matcher = JDMatcher(llm=llm)
+        with console.status("[bold green]JD 매칭 중..."):
+            jd_analysis = matcher.analyze(jd_source=jd_text, profile=user_profile)
+
+    resume_feedback = None
+    if resume_file:
+        advisor = ResumeAdvisor(llm=llm)
+        with console.status("[bold green]이력서 리뷰 중..."):
+            resume_feedback = advisor.review(
+                resume_path=resume_file,
+                jd_text=jd_text,
+                profile=user_profile,
+            )
+
+    hero_verdict = _compose_hero_verdict(
+        report=report,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
+    )
+    strategy_result = _maybe_build_strategy(
+        target=company,
+        current=current,
+        current_role=current_role,
+        role=role,
+        experience=experience,
+        skills=skills,
+        profile=user_profile,
+    )
+
+    comparison_mode = ""
+    comparison_result = None
+    comparison_targets = _comparison_targets(
+        target=company,
+        compare=compare,
+        strategy_result=strategy_result,
+    )
+    if len(comparison_targets) >= 2:
+        comparison_mode = "사용자 지정" if compare else "전략 추천"
+        with console.status("[bold green]비교 분석 중..."):
+            comparison_result = CompanyComparator().compare_many(comparison_targets)
+
+    advisory_panel = compose_advisory_panel(
+        report=report,
+        hero_verdict=hero_verdict,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
+        strategy_result=strategy_result,
+        comparison_result=comparison_result,
+    )
+
+    if output == "markdown":
+        out_path = Path(config.output.directory) / f"{company}_panel.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        content = advisory_panel.to_markdown()
+        if comparison_result is not None:
+            content += "\n\n---\n\n" + _comparison_markdown(
+                comparison_result,
+                comparison_mode=comparison_mode,
+            )
+        out_path.write_text(content, encoding="utf-8")
+        console.print(f"[green]패널 리포트 저장:[/green] {out_path}")
+        return
+
+    console.print(Panel(
+        f"[bold]종합 판정:[/bold] {advisory_panel.overall_verdict}\n"
+        f"[bold]신뢰도:[/bold] {advisory_panel.overall_confidence}\n\n"
+        f"{advisory_panel.consensus_summary}",
+        title="[bold blue]전문가 패널 요약[/bold blue]",
+        border_style="blue",
+    ))
+    if advisory_panel.next_actions:
+        console.print("\n[bold green]바로 할 일:[/bold green]")
+        for item in advisory_panel.next_actions:
+            console.print(f"  • {item}")
+    console.print("\n[bold cyan]렌즈별 판정:[/bold cyan]")
+    for lens in advisory_panel.lenses:
+        console.print(
+            f"  • [bold]{lens.title}[/bold] — {lens.verdict} ({lens.confidence})"
+        )
+        console.print(f"    {lens.summary}")
+
+@app.command()
 def resume(
     file: str = typer.Argument(help="이력서 파일 경로 (md, txt, pdf)"),
     jd: str = typer.Option("", "--jd", help="타겟 JD URL 또는 텍스트"),
