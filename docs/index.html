@@ -6,7 +6,7 @@
   <title>HireKit — Career Intelligence Terminal</title>
   <meta name="description" content="기업 리서치, JD 해석, 이력서 판단을 연결하는 Career Intelligence Terminal. 공개 데모는 79개 기업 정적 스냅샷을 제공해요." />
   <meta property="og:title" content="HireKit — Career Intelligence Terminal" />
-  <meta property="og:description" content="79개 기업 공개 스냅샷과 trust-first verdict 흐름을 제공하는 커리어 리서치 도구." />
+  <meta property="og:description" content="79개 기업 공개 스냅샷과 trust-first verdict 흐름을 제공하는 워룸(War Room) 의사결정 도구." />
   <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
   <meta property="og:image:width" content="1400" />
   <meta property="og:image:height" content="763" />
@@ -375,25 +375,25 @@
           </div>
 
           <h1 class="font-bold t-primary mb-4" style="font-size:clamp(34px,5vw,52px); line-height:1.2; letter-spacing:-0.02em;">
-            Career Intelligence<br />Terminal
+            Trust-first<br />Decision Surface
           </h1>
 
           <!-- Hero stat highlight -->
           <div class="flex items-center gap-4 mb-5 flex-wrap">
             <div class="flex items-baseline gap-1.5">
               <span class="font-mono font-bold" style="font-size:28px; color:var(--primary); line-height:1;">79</span>
-              <span class="text-sm t-secondary font-medium">개 한국 테크 기업</span>
+              <span class="text-sm t-secondary font-medium">개 기업 워룸(War Room)</span>
             </div>
             <span class="t-tertiary" style="font-size:18px;">·</span>
             <div class="flex items-baseline gap-1.5">
               <span class="font-mono font-bold" style="font-size:28px; color:var(--primary); line-height:1;">55+</span>
-              <span class="text-sm t-secondary font-medium">데이터 포인트</span>
+              <span class="text-sm t-secondary font-medium">근거 기반 데이터</span>
             </div>
           </div>
 
           <p class="t-secondary mb-8" style="font-size:17px; line-height:1.75; max-width:520px;">
             기업 조사에 반나절 쓰는 시대는 끝났어요.<br />
-            HireKit은 기업 리서치, JD 해석, 이력서 판단을 연결해 <strong>Go / Hold / Pass</strong> 권고까지 보여줘요. 공개 데모는 정적 스냅샷이고, 실제 분석은 로컬에서 실행돼요.
+            HireKit은 기업 리서치, JD 해석, 이력서 판단을 연결해 <strong>Go / Hold / Pass</strong> 의사결정을 지원해요. 실제 분석은 로컬 프라이빗 런타임에서 실행돼요.
           </p>
 
           <!-- CTA buttons -->
@@ -1281,5 +1281,17 @@ function copyCode(btn, text) {
   });
 }
 </script>
+
+  <!-- Strategy War Room IA Contract (T4) -->
+  <template id="warroom-ia-template">
+    <div data-testid="warroom-hero"><h2>Strategy War Room</h2></div>
+    <div data-testid="evidence-summary"><h3>Evidence Summary</h3></div>
+    <div data-testid="role-expectations"><h3>Role Expectations</h3></div>
+    <div data-testid="real-work-stack"><h3>Real Work & Stack</h3></div>
+    <div data-testid="org-health"><h3>Org Health</h3></div>
+    <div data-testid="compensation-growth"><h3>Compensation & Growth</h3></div>
+    <div data-testid="strategy-verdict"><h3>Strategy Verdict</h3></div>
+    <div data-testid="strategy-next-actions"><h3>Next Actions</h3></div>
+  </template>
 </body>
 </html>

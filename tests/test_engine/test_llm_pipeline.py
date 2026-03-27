@@ -31,10 +31,7 @@ def make_refusal_llm() -> MagicMock:
 
 
 def make_results(sections: list[str], raw: str = "테스트 데이터") -> list[SourceResult]:
-    return [
-        SourceResult(source_name="mock", section=sec, raw=raw)
-        for sec in sections
-    ]
+    return [SourceResult(source_name="mock", section=sec, raw=raw) for sec in sections]
 
 
 class TestLLMPipelineAvailability:
@@ -132,7 +129,17 @@ class TestLLMPipelineAnalyze:
             LLMResponse(text="개요", structured={"analysis": "개요"}, model="mock"),
             LLMResponse(text="산업", structured={"analysis": "산업"}, model="mock"),
             LLMResponse(text="기술", structured={"analysis": "기술"}, model="mock"),
-            LLMResponse(text="판정", structured={"verdict": "Hold", "rationale": "근거 부족", "strengths": [], "risks": ["정보 부족"], "recommended_positions": []}, model="mock"),
+            LLMResponse(
+                text="판정",
+                structured={
+                    "verdict": "Hold",
+                    "rationale": "근거 부족",
+                    "strengths": [],
+                    "risks": ["정보 부족"],
+                    "recommended_positions": [],
+                },
+                model="mock",
+            ),
             LLMResponse(text="시트", model="mock"),
         ]
         pipeline = LLMPipeline(llm=llm)
@@ -219,6 +226,23 @@ class TestLLMPipelineFactExtraction:
         first_prompt = llm.generate.call_args_list[0].kwargs.get("prompt", "")
         # Empty raw should be excluded from fact prompt
         assert "GitHub data" in first_prompt
+
+    def test_fact_prompt_includes_trust_and_freshness_metadata(self):
+        llm = make_llm("facts")
+        pipeline = LLMPipeline(llm=llm)
+        results = [
+            SourceResult(
+                source_name="community_review",
+                section="culture",
+                trust_label="supporting",
+                collected_at="2026-01-01T00:00:00+00:00",
+                raw="조직 분위기 언급",
+            )
+        ]
+        pipeline.analyze(results, "카카오")
+        first_prompt = llm.generate.call_args_list[0].kwargs.get("prompt", "")
+        assert "trust: supporting" in first_prompt
+        assert "freshness: stale" in first_prompt
 
 
 # ---------------------------------------------------------------------------

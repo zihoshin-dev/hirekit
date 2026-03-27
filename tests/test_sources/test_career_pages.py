@@ -2,9 +2,8 @@
 
 from __future__ import annotations
 
+from typing import Any
 from unittest.mock import MagicMock, patch
-
-import pytest
 
 from hirekit.sources.kr.career_pages import (
     GREENHOUSE_BOARDS,
@@ -15,10 +14,10 @@ from hirekit.sources.kr.career_pages import (
     JobPostingCollector,
 )
 
-
 # ---------------------------------------------------------------------------
 # JobPosting dataclass
 # ---------------------------------------------------------------------------
+
 
 class TestJobPostingDataclass:
     def test_required_fields(self):
@@ -56,6 +55,7 @@ class TestJobPostingDataclass:
 # Constants / mappings
 # ---------------------------------------------------------------------------
 
+
 class TestMappings:
     def test_greenhouse_boards_contains_known_companies(self):
         assert "쿠팡" in GREENHOUSE_BOARDS
@@ -80,6 +80,7 @@ class TestMappings:
 # ---------------------------------------------------------------------------
 # collect_all routing
 # ---------------------------------------------------------------------------
+
 
 class TestCollectAllRouting:
     def test_routes_greenhouse_company(self):
@@ -137,7 +138,7 @@ _GREENHOUSE_RESPONSE = {
 
 
 class TestCollectGreenhouse:
-    def _mock_client_get(self, json_data: dict):
+    def _mock_client_get(self, json_data: dict[str, Any]):
         mock_resp = MagicMock()
         mock_resp.raise_for_status.return_value = None
         mock_resp.json.return_value = json_data
@@ -145,9 +146,7 @@ class TestCollectGreenhouse:
 
     def test_parses_title_and_url(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREENHOUSE_RESPONSE)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREENHOUSE_RESPONSE))
         postings = collector.collect_greenhouse("쿠팡")
         assert len(postings) == 2
         assert postings[0].title == "백엔드 개발자"
@@ -155,41 +154,31 @@ class TestCollectGreenhouse:
 
     def test_parses_location(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREENHOUSE_RESPONSE)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREENHOUSE_RESPONSE))
         postings = collector.collect_greenhouse("쿠팡")
         assert postings[0].location == "서울"
 
     def test_parses_department_when_present(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREENHOUSE_RESPONSE)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREENHOUSE_RESPONSE))
         postings = collector.collect_greenhouse("쿠팡")
         assert postings[0].department == "Engineering"
 
     def test_empty_departments_list_yields_empty_string(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREENHOUSE_RESPONSE)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREENHOUSE_RESPONSE))
         postings = collector.collect_greenhouse("쿠팡")
         assert postings[1].department == ""
 
     def test_posted_at_truncated_to_date(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREENHOUSE_RESPONSE)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREENHOUSE_RESPONSE))
         postings = collector.collect_greenhouse("쿠팡")
         assert postings[0].posted_at == "2024-03-01"
 
     def test_company_set_correctly(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREENHOUSE_RESPONSE)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREENHOUSE_RESPONSE))
         postings = collector.collect_greenhouse("쿠팡")
         assert all(p.company == "쿠팡" for p in postings)
 
@@ -208,9 +197,7 @@ class TestCollectGreenhouse:
 
     def test_empty_jobs_list(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get({"jobs": []})
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get({"jobs": []}))
         result = collector.collect_greenhouse("당근")
         assert result == []
 
@@ -242,7 +229,7 @@ _NAVER_RESPONSE = {
 
 
 class TestCollectNaver:
-    def _mock_client_post(self, json_data: dict):
+    def _mock_client_post(self, json_data: dict[str, Any]):
         mock_resp = MagicMock()
         mock_resp.raise_for_status.return_value = None
         mock_resp.json.return_value = json_data
@@ -250,27 +237,21 @@ class TestCollectNaver:
 
     def test_parses_title(self):
         collector = JobPostingCollector()
-        collector.client.post = MagicMock(
-            return_value=self._mock_client_post(_NAVER_RESPONSE)
-        )
+        collector.client.post = MagicMock(return_value=self._mock_client_post(_NAVER_RESPONSE))
         postings = collector.collect_naver()
         assert len(postings) == 2
         assert postings[0].title == "서버 개발자"
 
     def test_url_contains_recruit_no(self):
         collector = JobPostingCollector()
-        collector.client.post = MagicMock(
-            return_value=self._mock_client_post(_NAVER_RESPONSE)
-        )
+        collector.client.post = MagicMock(return_value=self._mock_client_post(_NAVER_RESPONSE))
         postings = collector.collect_naver()
         assert "N001" in postings[0].url
         assert "recruit.navercorp.com" in postings[0].url
 
     def test_company_is_naver(self):
         collector = JobPostingCollector()
-        collector.client.post = MagicMock(
-            return_value=self._mock_client_post(_NAVER_RESPONSE)
-        )
+        collector.client.post = MagicMock(return_value=self._mock_client_post(_NAVER_RESPONSE))
         postings = collector.collect_naver()
         assert all(p.company == "네이버" for p in postings)
 
@@ -282,9 +263,7 @@ class TestCollectNaver:
 
     def test_empty_list_returns_empty(self):
         collector = JobPostingCollector()
-        collector.client.post = MagicMock(
-            return_value=self._mock_client_post({"list": []})
-        )
+        collector.client.post = MagicMock(return_value=self._mock_client_post({"list": []}))
         result = collector.collect_naver()
         assert result == []
 
@@ -317,9 +296,7 @@ class TestCollectGreeting:
 
     def test_parses_job_cards(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREETING_HTML)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREETING_HTML))
         postings = collector.collect_greeting("카카오페이")
         titles = [p.title for p in postings]
         assert "백엔드 개발자" in titles
@@ -327,35 +304,27 @@ class TestCollectGreeting:
 
     def test_skips_non_career_links(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREETING_HTML)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREETING_HTML))
         postings = collector.collect_greeting("카카오페이")
         # /about should not appear
         assert all("about" not in p.url.lower() for p in postings)
 
     def test_parses_department(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREETING_HTML)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREETING_HTML))
         postings = collector.collect_greeting("카카오페이")
         be = next(p for p in postings if p.title == "백엔드 개발자")
         assert be.department == "서버개발팀"
 
     def test_company_set_correctly(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREETING_HTML)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREETING_HTML))
         postings = collector.collect_greeting("카카오페이")
         assert all(p.company == "카카오페이" for p in postings)
 
     def test_url_built_with_slug(self):
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(_GREETING_HTML)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(_GREETING_HTML))
         postings = collector.collect_greeting("카카오페이")
         assert all("kakaopay.career.greetinghr.com" in p.url for p in postings)
 
@@ -380,9 +349,7 @@ class TestCollectGreeting:
         </body></html>
         """
         collector = JobPostingCollector()
-        collector.client.get = MagicMock(
-            return_value=self._mock_client_get(html)
-        )
+        collector.client.get = MagicMock(return_value=self._mock_client_get(html))
         postings = collector.collect_greeting("컬리")
         assert len(postings) == 1
 
@@ -390,6 +357,7 @@ class TestCollectGreeting:
 # ---------------------------------------------------------------------------
 # CareerPagesSource (BaseSource integration)
 # ---------------------------------------------------------------------------
+
 
 class TestCareerPagesSource:
     def test_is_available_always_true(self):
@@ -445,6 +413,28 @@ class TestCareerPagesSource:
         assert len(jobs) == 1
         assert jobs[0]["title"] == "ML 엔지니어"
         assert jobs[0]["department"] == "AI Lab"
+
+    def test_result_data_contains_role_expectations(self):
+        source = CareerPagesSource()
+        postings = [
+            JobPosting(
+                title="백엔드 개발자",
+                company="쿠팡",
+                url="https://example.com/1",
+                department="플랫폼",
+                description_snippet="대규모 API 설계 및 운영 / 팀 협업",
+            )
+        ]
+        with patch(
+            "hirekit.sources.kr.career_pages.JobPostingCollector.collect_all",
+            return_value=postings,
+        ):
+            results = source.collect("쿠팡")
+
+        expectations = results[0].data["role_expectations"]
+        assert expectations[0]["title"] == "백엔드 개발자"
+        assert expectations[0]["source_authority"] == "company_operated"
+        assert "대규모 API 설계 및 운영" in expectations[0]["expectations"]
 
     def test_result_raw_contains_title(self):
         source = CareerPagesSource()

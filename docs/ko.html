@@ -6,7 +6,7 @@
   <title>HireKit — Career Intelligence Terminal</title>
   <meta name="description" content="기업 리서치, JD 해석, 이력서 판단을 연결하는 Career Intelligence Terminal. 공개 데모는 79개 기업 정적 스냅샷을 제공해요." />
   <meta property="og:title" content="HireKit" />
-  <meta property="og:description" content="79개 기업 공개 스냅샷과 trust-first verdict 흐름을 제공하는 커리어 리서치 도구." />
+  <meta property="og:description" content="79개 기업 공개 스냅샷과 trust-first verdict 흐름을 제공하는 워룸(War Room) 의사결정 도구." />
   <meta property="og:url" content="https://zihoshin-dev.github.io/hirekit/ko.html" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -251,8 +251,8 @@
         Career Intelligence Terminal
       </p>
       <p class="text-base text-gray-500 dark:text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-        기업 리서치, JD 해석, 이력서 판단을 연결하는 오픈소스 터미널이에요.
-        공개 데모는 79개 기업 정적 스냅샷을 보여주고, 실제 분석은 로컬에서 실행돼요. `Go / Hold / Pass`는 권고용 판단이지 합격 보장이 아니에요.
+        기업 리서치, JD 해석, 이력서 판단을 연결하는 워룸(War Room) 의사결정 도구예요.
+        공개 데모는 79개 기업 정적 스냅샷을 보여주고, 실제 분석은 로컬 프라이빗 런타임에서 실행돼요.
       </p>
 
       <!-- Install command -->
@@ -526,8 +526,8 @@
   <section id="demo" class="py-24 px-4">
     <div class="max-w-4xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">직접 확인해보세요</h2>
-        <p class="text-gray-500 dark:text-gray-400">명령어 하나. 종합 스코어카드. 감에 의존하지 않아도 됩니다.</p>
+        <h2 class="text-3xl sm:text-4xl font-bold dark:text-white mb-4">근거 중심의 워룸(War Room)</h2>
+        <p class="text-gray-500 dark:text-gray-400">명령어 하나. 증거 기반 5차원 스코어카드. Go/Hold/Pass 의사결정을 위한 최적의 표면(Surface).</p>
       </div>
 
       <div class="terminal shadow-2xl shadow-black/30">
@@ -828,5 +828,17 @@
     });
   </script>
 
+
+  <!-- Strategy War Room IA Contract (T4) -->
+  <template id="warroom-ia-template">
+    <div data-testid="warroom-hero"><h2>Strategy War Room</h2></div>
+    <div data-testid="evidence-summary"><h3>Evidence Summary</h3></div>
+    <div data-testid="role-expectations"><h3>Role Expectations</h3></div>
+    <div data-testid="real-work-stack"><h3>Real Work & Stack</h3></div>
+    <div data-testid="org-health"><h3>Org Health</h3></div>
+    <div data-testid="compensation-growth"><h3>Compensation & Growth</h3></div>
+    <div data-testid="strategy-verdict"><h3>Strategy Verdict</h3></div>
+    <div data-testid="strategy-next-actions"><h3>Next Actions</h3></div>
+  </template>
 </body>
 </html>

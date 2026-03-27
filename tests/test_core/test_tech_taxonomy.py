@@ -1,7 +1,9 @@
 """Tests for tech taxonomy module."""
 
 from hirekit.core.tech_taxonomy import (
+    build_stack_reality,
     classify_experience,
+    extract_work_signals,
     get_category,
     get_similar_group,
     normalize_tech,
@@ -52,6 +54,68 @@ class TestGetCategory:
     def test_alias_resolves_category(self):
         # "react.js" alias → "react" → "Frontend"
         assert get_category("react.js") == "Frontend"
+
+
+class TestStackReality:
+    def test_confirmed_stack_overlap_normalizes_with_boundaries(self):
+        result = build_stack_reality(
+            [
+                {
+                    "tech": "Python",
+                    "source_name": "github",
+                    "source_authority": "company_operated",
+                    "confidence": 0.82,
+                    "evidence": "Primary repo language: Python",
+                    "signal_type": "repo_language",
+                },
+                {
+                    "tech": "python 3",
+                    "source_name": "tech_blog",
+                    "source_authority": "company_operated",
+                    "confidence": 0.76,
+                    "evidence": "Python 3 비동기 서버 최적화",
+                    "signal_type": "post_title",
+                },
+                {
+                    "tech": "Kafka",
+                    "source_name": "github",
+                    "source_authority": "company_operated",
+                    "confidence": 0.68,
+                    "evidence": "Kafka event processing pipeline",
+                    "signal_type": "repo_topic",
+                },
+                {
+                    "tech": "GitHub Actions",
+                    "source_name": "tech_blog",
+                    "source_authority": "company_operated",
+                    "confidence": 0.58,
+                    "evidence": "GitHub Actions CI/CD 개선기",
+                    "signal_type": "tooling",
+                },
+            ]
+        )
+
+        assert [item["tech"] for item in result["confirmed"]] == ["python"]
+        assert result["confirmed"][0]["trust_label"] == "verified"
+        assert result["confirmed"][0]["source_count"] == 2
+        assert [item["tech"] for item in result["likely"]] == ["kafka"]
+        assert [item["tech"] for item in result["adjacent"]] == ["github actions"]
+
+
+class TestActualWorkSignals:
+    def test_extract_work_signals_keeps_operational_evidence_grounded(self):
+        result = extract_work_signals(
+            [
+                "Kafka 기반 실시간 데이터 파이프라인 운영 경험 공유",
+                "Kubernetes 플랫폼 운영 자동화와 배포 안정화",
+            ],
+            source_name="tech_blog",
+            source_authority="company_operated",
+        )
+
+        assert [item["pattern"] for item in result] == ["data_platform", "platform_infrastructure"]
+        assert all(item["trust_label"] == "supporting" for item in result)
+        assert all(item["source_name"] == "tech_blog" for item in result)
 
 
 class TestTechsSimilar:
@@ -117,7 +181,7 @@ class TestParseExperienceRequirement:
         assert max_y == 5
 
     def test_plain_years(self):
-        min_y, max_y = parse_experience_requirement("5년")
+        min_y, _ = parse_experience_requirement("5년")
         assert min_y == 5
 
     def test_english_years(self):
@@ -126,5 +190,5 @@ class TestParseExperienceRequirement:
         assert max_y is None
 
     def test_empty_string(self):
-        min_y, max_y = parse_experience_requirement("")
+        min_y, _ = parse_experience_requirement("")
         assert min_y == 0

@@ -90,10 +90,10 @@ class SkillMatch:
     """A single skill requirement and its match status."""
 
     skill: str
-    required: bool = True       # required vs preferred
+    required: bool = True  # required vs preferred
     matched: bool = False
-    match_type: str = ""        # "exact", "similar", "partial", ""
-    user_evidence: str = ""     # from profile
+    match_type: str = ""  # "exact", "similar", "partial", ""
+    user_evidence: str = ""  # from profile
     learning_roadmap: str = ""  # suggested learning path if not matched
 
 
@@ -131,15 +131,20 @@ class JDAnalysis:
     # Match results (filled after matching)
     skill_matches: list[SkillMatch] = field(default_factory=list)
     experience_match: ExperienceMatch | None = None
-    match_score: float = 0.0    # 0-100
+    match_score: float = 0.0  # 0-100
     gaps: list[str] = field(default_factory=list)
     strengths: list[str] = field(default_factory=list)
     gap_roadmaps: dict[str, str] = field(default_factory=dict)  # gap → learning path
-    strategy: str = ""          # LLM-generated application strategy
+    strategy: str = ""  # LLM-generated application strategy
+    hard_alignment: list[str] = field(default_factory=list)
+    soft_alignment: list[str] = field(default_factory=list)
+    ambiguous_expectations: list[str] = field(default_factory=list)
+    role_reality_mismatches: list[str] = field(default_factory=list)
 
     @property
     def match_grade(self) -> str:
         from hirekit.core.scoring import score_to_grade
+
         return score_to_grade(self.match_score)
 
     def to_markdown(self) -> str:
@@ -175,10 +180,7 @@ class JDAnalysis:
         if self.experience_match:
             em = self.experience_match
             status = "충족" if em.meets_requirement else "미충족"
-            lines.append(
-                f"\n**경력 적합도:** 요구 {em.required_min}년+ / "
-                f"보유 {em.user_years}년 → {status}"
-            )
+            lines.append(f"\n**경력 적합도:** 요구 {em.required_min}년+ / 보유 {em.user_years}년 → {status}")
             if em.note:
                 lines.append(f"  {em.note}")
 
@@ -203,14 +205,31 @@ class JDAnalysis:
             for m in self.skill_matches:
                 req = "Required" if m.required else "Preferred"
                 matched = "O" if m.matched else "X"
-                lines.append(
-                    f"| {m.skill} | {req} | {matched} | {m.match_type} | {m.user_evidence} |"
-                )
+                lines.append(f"| {m.skill} | {req} | {matched} | {m.match_type} | {m.user_evidence} |")
 
         if self.strategy:
             lines.append("\n---\n")
             lines.append("## Application Strategy")
             lines.append(self.strategy)
+
+        if self.hard_alignment or self.soft_alignment or self.ambiguous_expectations or self.role_reality_mismatches:
+            lines.append("\n## Role Reality Alignment")
+            if self.hard_alignment:
+                lines.append("\n### Hard Alignment")
+                for item in self.hard_alignment:
+                    lines.append(f"- {item}")
+            if self.soft_alignment:
+                lines.append("\n### Soft Alignment")
+                for item in self.soft_alignment:
+                    lines.append(f"- {item}")
+            if self.ambiguous_expectations:
+                lines.append("\n### Unknown / Ambiguous")
+                for item in self.ambiguous_expectations:
+                    lines.append(f"- {item}")
+            if self.role_reality_mismatches:
+                lines.append("\n### Role Reality Mismatches")
+                for item in self.role_reality_mismatches:
+                    lines.append(f"- {item}")
 
         return "\n".join(lines)
 
@@ -218,6 +237,7 @@ class JDAnalysis:
 # ---------------------------------------------------------------------------
 # Matcher
 # ---------------------------------------------------------------------------
+
 
 class JDMatcher:
     """Parse job descriptions and match against user profile."""
@@ -230,6 +250,7 @@ class JDMatcher:
         self,
         jd_source: str,
         profile: dict[str, Any] | None = None,
+        role_context: dict[str, Any] | None = None,
     ) -> JDAnalysis:
         """Analyze a JD from URL or text.
 
@@ -245,9 +266,7 @@ class JDMatcher:
             raw_text = jd_source
             title, company, url = "", "", ""
 
-        analysis = JDAnalysis(
-            title=title, company=company, url=url, raw_text=raw_text
-        )
+        analysis = JDAnalysis(title=title, company=company, url=url, raw_text=raw_text)
 
         # 2. Structured parse
         parsed = self._parser.parse(raw_text, title=title, company=company)
@@ -256,6 +275,8 @@ class JDMatcher:
         analysis.preferred_skills = parsed.preferred_qualifications
         analysis.responsibilities = parsed.responsibilities
         analysis.experience_years = parsed.experience_years_raw
+        if role_context:
+            self._align_role_expectations(analysis, role_context)
 
         # 3. LLM enhancement (optional)
         if self.llm.is_available():
@@ -281,7 +302,9 @@ class JDMatcher:
         """Fetch and extract text from a JD URL."""
         try:
             resp = httpx.get(
-                url, timeout=15, follow_redirects=True,
+                url,
+                timeout=15,
+                follow_redirects=True,
                 headers={"User-Agent": "Mozilla/5.0 (compatible; HireKit)"},
             )
             soup = BeautifulSoup(resp.text, "lxml")
@@ -289,13 +312,15 @@ class JDMatcher:
             for tag in soup(["script", "style", "nav", "footer", "header"]):
                 tag.decompose()
 
-            title = soup.title.string.strip() if soup.title else ""
+            title_text = soup.title.string if soup.title else None
+            title = title_text.strip() if isinstance(title_text, str) else ""
             text = soup.get_text(separator="\n", strip=True)
 
             company = ""
             og_site = soup.find("meta", property="og:site_name")
             if og_site:
-                company = og_site.get("content", "")
+                content = og_site.attrs.get("content", "")
+                company = content if isinstance(content, str) else ""
 
             return text[:8000], title, company
         except Exception:
@@ -347,9 +372,7 @@ class JDMatcher:
     # Profile matching
     # ------------------------------------------------------------------
 
-    def _match_profile(
-        self, analysis: JDAnalysis, profile: dict[str, Any]
-    ) -> None:
+    def _match_profile(self, analysis: JDAnalysis, profile: dict[str, Any]) -> None:
         """Match JD requirements against user profile using enhanced algorithm."""
         user_skills = self._collect_user_skills(profile)
         user_years = self._get_user_years(profile)
@@ -385,11 +408,16 @@ class JDMatcher:
             if matched:
                 required_matched += 1
             roadmap = "" if matched else _LEARNING_ROADMAP.get(tech, "")
-            analysis.skill_matches.append(SkillMatch(
-                skill=tech, required=True, matched=matched,
-                match_type=match_type, user_evidence=evidence,
-                learning_roadmap=roadmap,
-            ))
+            analysis.skill_matches.append(
+                SkillMatch(
+                    skill=tech,
+                    required=True,
+                    matched=matched,
+                    match_type=match_type,
+                    user_evidence=evidence,
+                    learning_roadmap=roadmap,
+                )
+            )
 
         # Match required qualifications (non-tech lines)
         for qual in analysis.required_skills:
@@ -401,35 +429,37 @@ class JDMatcher:
             matched, match_type, evidence = self._match_skill(qual_lower, user_skills, profile)
             if matched:
                 required_matched += 1
-            analysis.skill_matches.append(SkillMatch(
-                skill=qual, required=True, matched=matched,
-                match_type=match_type, user_evidence=evidence,
-            ))
+            analysis.skill_matches.append(
+                SkillMatch(
+                    skill=qual,
+                    required=True,
+                    matched=matched,
+                    match_type=match_type,
+                    user_evidence=evidence,
+                )
+            )
 
         # Match preferred tech
         for tech in preferred_tech:
             matched, match_type, evidence = self._match_skill(tech, user_skills, profile)
-            analysis.skill_matches.append(SkillMatch(
-                skill=tech, required=False, matched=matched,
-                match_type=match_type, user_evidence=evidence,
-            ))
+            analysis.skill_matches.append(
+                SkillMatch(
+                    skill=tech,
+                    required=False,
+                    matched=matched,
+                    match_type=match_type,
+                    user_evidence=evidence,
+                )
+            )
 
         # Calculate score
-        analysis.match_score = self._calculate_score(
-            analysis, required_matched, total_required, user_years
-        )
+        analysis.match_score = self._calculate_score(analysis, required_matched, total_required, user_years)
 
         # Gaps and strengths
-        analysis.gaps = [
-            m.skill for m in analysis.skill_matches if m.required and not m.matched
-        ]
-        analysis.strengths = [
-            m.skill for m in analysis.skill_matches if m.matched
-        ]
+        analysis.gaps = [m.skill for m in analysis.skill_matches if m.required and not m.matched]
+        analysis.strengths = [m.skill for m in analysis.skill_matches if m.matched]
         analysis.gap_roadmaps = {
-            m.skill: m.learning_roadmap
-            for m in analysis.skill_matches
-            if not m.matched and m.learning_roadmap
+            m.skill: m.learning_roadmap for m in analysis.skill_matches if not m.matched and m.learning_roadmap
         }
 
     def _collect_user_skills(self, profile: dict[str, Any]) -> set[str]:
@@ -481,8 +511,9 @@ class JDMatcher:
 
         # 3. Partial text match (for non-tech qualifications)
         for user_skill in user_skills:
-            if (len(user_skill) >= 3 and user_skill in skill.lower()) or \
-               (len(skill_norm) >= 3 and skill_norm in user_skill):
+            if (len(user_skill) >= 3 and user_skill in skill.lower()) or (
+                len(skill_norm) >= 3 and skill_norm in user_skill
+            ):
                 evidence = self._find_evidence(user_skill, profile)
                 return True, "partial", evidence
 
@@ -495,6 +526,87 @@ class JDMatcher:
             if asset_name == skill or skill in asset_name or asset_name in skill:
                 return asset.get("source", "")
         return ""
+
+    def _align_role_expectations(
+        self,
+        analysis: JDAnalysis,
+        role_context: dict[str, Any],
+    ) -> None:
+        parsed = analysis.parsed
+        if parsed is None:
+            return
+
+        role_expectations = self._collect_role_expectations(role_context)
+        actual_work = self._collect_text_list(role_context, ["actual_work", "actual_work_signals"])
+        role_stack = self._collect_stack(role_context)
+        role_text = role_expectations + actual_work
+
+        for expectation in parsed.must_have_expectations:
+            if self._matches_role_reality(expectation, role_text, role_stack):
+                analysis.hard_alignment.append(expectation)
+            else:
+                analysis.ambiguous_expectations.append(expectation)
+
+        for expectation in parsed.inferred_expectations:
+            if self._matches_role_reality(expectation, role_text, role_stack):
+                analysis.soft_alignment.append(expectation)
+            else:
+                analysis.ambiguous_expectations.append(expectation)
+
+        for expectation in parsed.unknown_expectations:
+            if expectation not in analysis.ambiguous_expectations:
+                analysis.ambiguous_expectations.append(expectation)
+
+        for tech in parsed.required_tech:
+            if role_stack and not any(techs_are_similar(tech, stack) or tech == stack for stack in role_stack):
+                analysis.role_reality_mismatches.append(
+                    f"JD requires {tech}, but current role evidence does not confirm that stack yet"
+                )
+
+    def _collect_role_expectations(self, role_context: dict[str, Any]) -> list[str]:
+        expectations = self._collect_text_list(
+            role_context,
+            ["expectations", "must_haves", "role_expectations"],
+        )
+        nested = role_context.get("role_expectations", [])
+        if isinstance(nested, list):
+            for item in nested:
+                if isinstance(item, dict):
+                    expectations.extend(self._collect_text_list(item, ["expectations"]))
+        return list(dict.fromkeys(expectations))
+
+    def _collect_stack(self, role_context: dict[str, Any]) -> list[str]:
+        raw_stack = self._collect_text_list(role_context, ["stack", "stack_reality", "confirmed_stack"])
+        return list(dict.fromkeys(normalize_tech(item.lower()) for item in raw_stack if item.strip()))
+
+    def _collect_text_list(self, payload: dict[str, Any], keys: list[str]) -> list[str]:
+        items: list[str] = []
+        for key in keys:
+            value = payload.get(key)
+            if isinstance(value, list):
+                items.extend(str(item).strip() for item in value if str(item).strip())
+            elif isinstance(value, str) and value.strip():
+                items.append(value.strip())
+        return items
+
+    def _matches_role_reality(self, expectation: str, role_text: list[str], role_stack: list[str]) -> bool:
+        expectation_lower = expectation.lower()
+        expectation_tech = [normalize_tech(token) for token in re.findall(r"[A-Za-z0-9.+#_-]+", expectation_lower)]
+        if any(token in role_stack for token in expectation_tech):
+            return True
+        if any(any(techs_are_similar(token, stack) for stack in role_stack) for token in expectation_tech):
+            return True
+
+        for evidence in role_text:
+            evidence_lower = evidence.lower()
+            if expectation_lower in evidence_lower or evidence_lower in expectation_lower:
+                return True
+            expectation_tokens = [tok for tok in re.split(r"[^a-z0-9가-힣]+", expectation_lower) if len(tok) >= 3]
+            if expectation_tokens and sum(token in evidence_lower for token in expectation_tokens) >= min(
+                2, len(expectation_tokens)
+            ):
+                return True
+        return False
 
     def _calculate_score(
         self,
@@ -514,9 +626,7 @@ class JDMatcher:
         required_ratio = required_matched / total_required if total_required > 0 else 0.5
 
         # Preferred ratio
-        preferred_matched = sum(
-            1 for m in analysis.skill_matches if not m.required and m.matched
-        )
+        preferred_matched = sum(1 for m in analysis.skill_matches if not m.required and m.matched)
         preferred_total = sum(1 for m in analysis.skill_matches if not m.required)
         preferred_ratio = preferred_matched / preferred_total if preferred_total > 0 else 0.0
 

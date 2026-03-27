@@ -56,21 +56,21 @@ class MarkdownRenderer:
         scorecard = data.get("scorecard", {})
         sources = data.get("sources", [])
         sections = data.get("sections", {})
+        war_room = data.get("war_room", {})
 
         # Jinja2 dict keys must be ints — to_dict() preserves them as ints
         # but JSON round-trips turn them to strings; normalise both.
-        sections = {
-            int(k): v for k, v in sections.items()
-        }
+        sections = {int(k): v for k, v in sections.items()}
 
         # Normalize raw source data into template-ready format
         from hirekit.engine.data_normalizer import normalize_sections
+
         sections = normalize_sections(sections)
 
-        hero_verdict = self._build_hero_verdict(scorecard)
+        hero_verdict = war_room.get("verdict") or self._build_hero_verdict(scorecard)
         confidence_breakdown = self._build_confidence_breakdown(scorecard)
-        evidence_summary = self._build_evidence_summary(sources)
-        next_actions = self._build_next_actions(hero_verdict["label"])
+        evidence_summary = war_room.get("evidence_summary") or self._build_evidence_summary(sources)
+        next_actions = war_room.get("next_actions") or self._build_next_actions(hero_verdict["label"])
         low_confidence_warning = self._build_low_confidence_warning(
             confidence_breakdown,
             evidence_summary,
@@ -91,6 +91,7 @@ class MarkdownRenderer:
             "evidence_summary": evidence_summary,
             "next_actions": next_actions,
             "low_confidence_warning": low_confidence_warning,
+            "war_room": war_room,
         }
 
         return tmpl.render(**context)

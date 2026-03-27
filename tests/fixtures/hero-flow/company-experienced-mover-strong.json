@@ -1,0 +1,55 @@
+{
+  "company": "토스뱅크",
+  "region": "kr",
+  "sources": [
+    {
+      "source_name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-23T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "서비스 확장과 인력 충원이 공시로 확인됨",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    },
+    {
+      "source_name": "github",
+      "section": "tech",
+      "url": "https://github.com/tossbank",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-24T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "플랫폼 저장소와 운영 자동화 흔적이 활발함",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    },
+    {
+      "source_name": "tech_blog",
+      "section": "tech",
+      "url": "https://blog.tossbank.com",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-24T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "대규모 데이터 파이프라인과 배포 개선 사례를 공개함",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    },
+    {
+      "source_name": "naver_news",
+      "section": "overview",
+      "url": "https://news.naver.com/",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-24T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "시니어 백엔드와 플랫폼 채용이 동시에 열려 있음",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    }
+  ],
+  "signals": {
+    "growth": "신규 조직과 채용이 함께 늘어나는 확장 국면",
+    "compensation": "상위권 보상 패키지와 장기 보상 기대",
+    "tech": "Python, PostgreSQL, Kubernetes, Kafka"
+  }
+}

@@ -3,9 +3,10 @@
 from __future__ import annotations
 
 import hashlib
+from collections.abc import Mapping
 from dataclasses import dataclass, field
 from importlib import import_module
-from typing import Any, Mapping
+from typing import Any
 
 from rich.panel import Panel
 from rich.text import Text
@@ -13,7 +14,7 @@ from rich.text import Text
 from hirekit.core.cache import Cache
 from hirekit.core.config import HireKitConfig
 from hirekit.core.parallel import collect_parallel
-from hirekit.engine.scorer import ScoreDimension, Scorecard, create_default_scorecard
+from hirekit.engine.scorer import Scorecard, ScoreDimension, create_default_scorecard
 from hirekit.llm.base import BaseLLM, NoLLM
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
@@ -74,6 +75,7 @@ class AnalysisReport:
 
     def to_dict(self) -> dict[str, Any]:
         """Serialize report as dict."""
+        war_room = self._build_war_room()
         return {
             "company": self.company,
             "region": self.region,
@@ -83,13 +85,20 @@ class AnalysisReport:
                 "total": self.scorecard.total_score if self.scorecard else 0,
                 "grade": self.scorecard.grade if self.scorecard else "N/A",
                 "dimensions": [
-                    {"name": d.name, "label": d.label, "weight": d.weight,
-                     "score": d.score, "evidence": d.evidence,
-                     "confidence": d.confidence, "source": d.source}
+                    {
+                        "name": d.name,
+                        "label": d.label,
+                        "weight": d.weight,
+                        "score": d.score,
+                        "evidence": d.evidence,
+                        "confidence": d.confidence,
+                        "source": d.source,
+                    }
                     for d in (self.scorecard.dimensions if self.scorecard else [])
                 ],
             },
             "sources": [r.as_reference() for r in self.source_results],
+            "war_room": war_room,
         }
 
     def to_rich(self) -> Panel:
@@ -106,8 +115,133 @@ class AnalysisReport:
 
         return Panel(text, title="Analysis Report", border_style="green")
 
+    def _build_war_room(self) -> dict[str, Any]:
+        sections = self.sections
+        role_section = sections.get(5, {})
+        company_overview = sections.get(1, {})
+        strategy_section = sections.get(3, {})
+        culture_section = sections.get(4, {})
+        tech_section = sections.get(7, {})
+
+        return {
+            "role_expectations": self._extract_role_expectations(role_section),
+            "actual_work": self._extract_actual_work(role_section, tech_section),
+            "stack_reality": self._extract_stack_reality(tech_section, role_section),
+            "org_health": self._extract_org_health(strategy_section, culture_section),
+            "growth_reality": company_overview.get("growth_reality", {}),
+            "compensation_growth_reality": company_overview.get("compensation_growth_reality", {}),
+            "verdict": self._build_verdict_summary(),
+            "next_actions": self._build_next_actions(),
+            "evidence_summary": [r.as_reference() for r in self.source_results[:5]],
+        }
+
+    def _build_verdict_summary(self) -> dict[str, Any]:
+        hero_verdict_module = import_module("hirekit.engine.hero_verdict")
+        hero_verdict = hero_verdict_module.compose_hero_verdict(report=self)
+        return {
+            "label": hero_verdict.label,
+            "total": hero_verdict.combined_score,
+            "grade": self.scorecard.grade if self.scorecard else "N/A",
+            "confidence": hero_verdict.confidence,
+            "advisory_note": hero_verdict.advisory_note,
+            "reasons": hero_verdict.reasons,
+            "cautions": hero_verdict.cautions,
+            "next_actions": hero_verdict.next_actions,
+            "rationale": self.sections.get(11, {}).get("analysis", "")
+            if isinstance(self.sections.get(11), dict)
+            else "",
+        }
+
+    def _build_next_actions(self) -> list[str]:
+        verdict = self._build_verdict_summary()["label"]
+        if verdict == "Go":
+            return [
+                "지원 스토리에 활용할 증거 3개를 추려요.",
+                "JD 요구사항과 내 경험을 1:1로 연결해요.",
+                "면접에서 강조할 핵심 강점 문장을 먼저 정리해요.",
+            ]
+        if verdict == "Hold":
+            return [
+                "모호한 기대치와 충돌 신호를 먼저 재검증해요.",
+                "이력서에서 부족한 증거를 보강할 사례를 찾거나 추가해요.",
+                "지원 전 회사/팀에 확인할 질문 목록을 만들어요.",
+            ]
+        return [
+            "우선순위를 낮추고 대안 회사를 비교해요.",
+            "지원 필요성이 크면 추가 증거를 확보한 뒤 재평가해요.",
+            "리스크를 감수할 이유가 있는지 먼저 점검해요.",
+        ]
+
+    @staticmethod
+    def _extract_role_expectations(role_section: dict[str, Any]) -> list[str]:
+        expectations: list[str] = []
+        raw_expectations = role_section.get("role_expectations", [])
+        if isinstance(raw_expectations, list):
+            for item in raw_expectations:
+                if isinstance(item, dict):
+                    expectations.extend(
+                        str(value).strip() for value in item.get("expectations", []) if str(value).strip()
+                    )
+                elif isinstance(item, str) and item.strip():
+                    expectations.append(item.strip())
+        return list(dict.fromkeys(expectations))[:8]
+
+    @staticmethod
+    def _extract_actual_work(role_section: dict[str, Any], tech_section: dict[str, Any]) -> list[str]:
+        actual_work: list[str] = []
+        for source in (role_section, tech_section):
+            value = source.get("actual_work")
+            if isinstance(value, dict):
+                for bucket in ("confirmed", "likely", "adjacent"):
+                    actual_work.extend(
+                        str(item.get("label", "")).strip()
+                        for item in value.get(bucket, [])
+                        if isinstance(item, dict) and str(item.get("label", "")).strip()
+                    )
+            elif isinstance(value, list):
+                actual_work.extend(str(item).strip() for item in value if str(item).strip())
+        return list(dict.fromkeys(actual_work))[:8]
+
+    @staticmethod
+    def _extract_stack_reality(tech_section: dict[str, Any], role_section: dict[str, Any]) -> dict[str, list[str]]:
+        result: dict[str, list[str]] = {"confirmed": [], "likely": [], "adjacent": []}
+        for source in (tech_section, role_section):
+            value = source.get("stack_reality")
+            if not isinstance(value, dict):
+                continue
+            for bucket in result:
+                result[bucket].extend(
+                    str(item.get("tech", "")).strip()
+                    for item in value.get(bucket, [])
+                    if isinstance(item, dict) and str(item.get("tech", "")).strip()
+                )
+        return {bucket: list(dict.fromkeys(values))[:8] for bucket, values in result.items()}
+
+    @staticmethod
+    def _extract_org_health(strategy_section: dict[str, Any], culture_section: dict[str, Any]) -> dict[str, Any]:
+        items = strategy_section.get("org_health_evidence") or culture_section.get("org_health_evidence") or []
+        if not isinstance(items, list):
+            items = []
+        supporting = []
+        verified = []
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            summary = str(item.get("summary") or item.get("title") or item.get("signal") or "").strip()
+            if not summary:
+                continue
+            if item.get("trust_label") == "verified":
+                verified.append(summary)
+            else:
+                supporting.append(summary)
+        return {
+            "verified": verified[:5],
+            "supporting": supporting[:5],
+            "state": "verified" if verified else ("supporting" if supporting else "unknown"),
+        }
+
     @classmethod
-    def from_dict(cls, payload: dict[str, Any]) -> "AnalysisReport":
+    def from_dict(cls, payload: dict[str, Any]) -> AnalysisReport:
         scorecard_payload = payload.get("scorecard") or {}
         scorecard = None
         dimensions_payload = scorecard_payload.get("dimensions", [])
@@ -138,7 +272,10 @@ class AnalysisReport:
                 effective_at=s.get("effective_at", ""),
                 evidence_id=s.get("evidence_id", ""),
                 confidence=float(s.get("confidence", 1.0)),
+                cross_validated=bool(s.get("cross_validated", False)),
                 trust_label=s.get("trust_label", "verified"),
+                source_authority=s.get("source_authority"),
+                freshness_policy=s.get("freshness_policy"),
                 publication_boundary=s.get("publication_boundary", "internal_only"),
             )
             for s in payload.get("sources", [])
@@ -196,9 +333,11 @@ class CompanyAnalyzer:
         try:
             if provider == "openai":
                 from hirekit.llm.openai import OpenAIAdapter
+
                 return OpenAIAdapter(model=self.config.llm.model)
             elif provider == "anthropic":
                 from hirekit.llm.anthropic import AnthropicAdapter
+
                 return AnthropicAdapter(model=self.config.llm.model)
             elif provider == "ollama":
                 adapter_module = import_module("hirekit.llm.ollama")
@@ -252,15 +391,26 @@ class CompanyAnalyzer:
 
         # Map source sections to report sections
         section_mapping = {
-            "overview": 1, "financials": 1,
-            "industry": 2, "competition": 2,
-            "leadership": 3, "strategy": 3,
-            "vision": 3, "future": 3, "direction": 3,
-            "culture": 4, "values": 4,
-            "role": 5, "job": 5,
-            "privacy": 6, "compliance": 6,
-            "ai": 7, "tech": 7, "ai_strategy": 7,
-            "regulation": 8, "policy": 8,
+            "overview": 1,
+            "financials": 1,
+            "industry": 2,
+            "competition": 2,
+            "leadership": 3,
+            "strategy": 3,
+            "vision": 3,
+            "future": 3,
+            "direction": 3,
+            "culture": 4,
+            "values": 4,
+            "role": 5,
+            "job": 5,
+            "privacy": 6,
+            "compliance": 6,
+            "ai": 7,
+            "tech": 7,
+            "ai_strategy": 7,
+            "regulation": 8,
+            "policy": 8,
         }
 
         for section_key, section_results in section_data.items():
@@ -328,9 +478,7 @@ class CompanyAnalyzer:
             return
 
         def evidence_refs(expected_sources: list[str]) -> str:
-            return ", ".join(
-                r.evidence_id for r in report.source_results if r.source_name in expected_sources
-            )
+            return ", ".join(r.evidence_id for r in report.source_results if r.source_name in expected_sources)
 
         overview = report.sections.get(1, {})
         source_data: dict[str, object] = {r.source_name: r.data for r in report.source_results}
@@ -342,37 +490,52 @@ class CompanyAnalyzer:
                 dim.score, dim.evidence = self._score_growth(overview)
                 dim.source = evidence_refs(["dart", "ir_report"])
                 dim.confidence = self._confidence_from_sources(
-                    ["dart", "ir_report"], source_data, report.source_results,
+                    ["dart", "ir_report"],
+                    source_data,
+                    report.source_results,
                 )
             elif dim.name == "compensation":
                 dim.score, dim.evidence = self._score_compensation(overview)
                 dim.source = evidence_refs(["dart", "pension", "nts_biz"])
                 dim.confidence = self._confidence_from_sources(
-                    ["dart", "pension", "nts_biz"], source_data, report.source_results,
+                    ["dart", "pension", "nts_biz"],
+                    source_data,
+                    report.source_results,
                 )
             elif dim.name == "culture_fit":
                 dim.score, dim.evidence = self._score_culture(
-                    sections_filled, source_data, report.source_results,
+                    sections_filled,
+                    source_data,
+                    report.source_results,
                 )
                 dim.source = evidence_refs(["naver_search", "exa_search", "community_review"])
                 dim.confidence = self._confidence_from_sources(
-                    ["naver_search", "exa_search", "community_review"], source_data, report.source_results,
+                    ["naver_search", "exa_search", "community_review"],
+                    source_data,
+                    report.source_results,
                 )
             elif dim.name == "job_fit":
                 dim.score, dim.evidence = self._score_job_fit(
-                    sections_filled, source_data,
+                    sections_filled,
+                    source_data,
                 )
                 dim.source = evidence_refs(["github", "tech_blog", "medium_velog"])
                 dim.confidence = self._confidence_from_sources(
-                    ["github", "tech_blog", "medium_velog"], source_data, report.source_results,
+                    ["github", "tech_blog", "medium_velog"],
+                    source_data,
+                    report.source_results,
                 )
             elif dim.name == "career_leverage":
                 dim.score, dim.evidence = self._score_career_leverage(
-                    overview, n_sources, source_data,
+                    overview,
+                    n_sources,
+                    source_data,
                 )
                 dim.source = evidence_refs(["dart", "google_news", "credible_news", "naver_news"])
                 dim.confidence = self._confidence_from_sources(
-                    ["dart", "google_news", "credible_news", "naver_news"], source_data, report.source_results,
+                    ["dart", "google_news", "credible_news", "naver_news"],
+                    source_data,
+                    report.source_results,
                 )
 
     def _score_growth(self, overview: dict[str, Any]) -> tuple[float, str]:
@@ -487,7 +650,9 @@ class CompanyAnalyzer:
         return min(5.0, score), "; ".join(evidence_parts) if evidence_parts else "급여 데이터 파싱 불가"
 
     def _score_culture(
-        self, sections_filled: set[int], source_data: dict[str, object],
+        self,
+        sections_filled: set[int],
+        source_data: dict[str, object],
         source_results: list[SourceResult],
     ) -> tuple[float, str]:
         """Score culture from review volume and diversity."""
@@ -535,7 +700,9 @@ class CompanyAnalyzer:
         return min(5.0, score), "; ".join(evidence_parts)
 
     def _score_job_fit(
-        self, sections_filled: set[int], source_data: dict[str, object],
+        self,
+        sections_filled: set[int],
+        source_data: dict[str, object],
     ) -> tuple[float, str]:
         """Score job fit from GitHub score and tech data."""
         score = 2.5
@@ -576,7 +743,10 @@ class CompanyAnalyzer:
         return min(5.0, score), "; ".join(evidence_parts)
 
     def _score_career_leverage(
-        self, overview: dict[str, Any], n_sources: int, source_data: dict[str, object],
+        self,
+        overview: dict[str, Any],
+        n_sources: int,
+        source_data: dict[str, object],
     ) -> tuple[float, str]:
         """Score career leverage from company size, brand, and tech reputation."""
         score = 2.5

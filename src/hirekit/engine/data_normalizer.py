@@ -5,13 +5,13 @@ from __future__ import annotations
 from typing import Any
 
 
-def normalize_sections(sections: dict[int, dict[str, Any]]) -> dict[int, dict[str, Any]]:
+def normalize_sections(sections: dict[int, Any]) -> dict[int, Any]:
     """Transform raw source data into clean template variables.
 
     Bridges the gap between SourceResult.data (raw API output)
     and report_ko.md.j2 template expectations.
     """
-    normalized: dict[int, dict[str, Any]] = {}
+    normalized: dict[int, Any] = {}
 
     for num, data in sections.items():
         if not isinstance(data, dict):
@@ -20,6 +20,55 @@ def normalize_sections(sections: dict[int, dict[str, Any]]) -> dict[int, dict[st
         normalized[num] = _normalize_section(num, data)
 
     return normalized
+
+
+def normalize_evidence_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
+    company = bundle.get("company", {})
+    roles = bundle.get("roles", [])
+    return {
+        "company": _normalize_evidence_entity(company),
+        "roles": [_normalize_evidence_entity(role) for role in roles if isinstance(role, dict)],
+    }
+
+
+def _normalize_evidence_entity(entity: dict[str, Any]) -> dict[str, Any]:
+    if not isinstance(entity, dict):
+        return {"entity_type": "unknown", "entity_key": "", "records": []}
+
+    records = entity.get("records", [])
+    normalized_records: list[dict[str, Any]] = []
+    claim_categories: set[str] = set()
+
+    if isinstance(records, list):
+        for record in records:
+            if not isinstance(record, dict):
+                continue
+            normalized = {
+                "entity_type": record.get("entity_type", entity.get("entity_type", "unknown")),
+                "entity_key": record.get("entity_key", entity.get("entity_key", "")),
+                "claim_category": record.get("claim_category", "unknown"),
+                "claim_key": record.get("claim_key", ""),
+                "value": record.get("value"),
+                "source_name": record.get("source_name", ""),
+                "source_authority": record.get("source_authority", "secondary_research"),
+                "trust_label": record.get("trust_label", "unknown"),
+                "confidence": float(record.get("confidence", 0.0)),
+                "collected_at": record.get("collected_at", ""),
+                "effective_at": record.get("effective_at", record.get("collected_at", "")),
+                "freshness_policy": record.get("freshness_policy", "supporting_signal"),
+                "evidence_id": record.get("evidence_id", ""),
+            }
+            claim_categories.add(str(normalized["claim_category"]))
+            normalized_records.append(normalized)
+
+    return {
+        "entity_type": entity.get("entity_type", "unknown"),
+        "entity_key": entity.get("entity_key", ""),
+        "company_key": entity.get("company_key", entity.get("entity_key", "")),
+        "records": normalized_records,
+        "record_count": len(normalized_records),
+        "claim_categories": sorted(claim_categories),
+    }
 
 
 def _normalize_section(num: int, data: dict[str, Any]) -> dict[str, Any]:
@@ -77,8 +126,7 @@ def _normalize_overview(data: dict[str, Any]) -> dict[str, Any]:
                 salary = emp.get("total_salary", "")
                 if salary:
                     salary_info.append(
-                        f"{emp.get('position', '')} {emp.get('gender', '')}: "
-                        f"정규직 {emp.get('headcount', '')}명"
+                        f"{emp.get('position', '')} {emp.get('gender', '')}: 정규직 {emp.get('headcount', '')}명"
                     )
 
         result["employees"] = f"{total_headcount:,}명" if total_headcount else "—"
@@ -105,14 +153,10 @@ def _normalize_overview(data: dict[str, Any]) -> dict[str, Any]:
         result["financials"] = []
 
     # News (clean up raw dicts)
-    for key in ("recent_news", "google_news", "korean_credible_news",
-                "international_news", "brave_web_results"):
+    for key in ("recent_news", "google_news", "korean_credible_news", "international_news", "brave_web_results"):
         items = data.get(key, [])
         if isinstance(items, list):
-            result[key] = [
-                _clean_news_item(item) for item in items[:5]
-                if isinstance(item, dict)
-            ]
+            result[key] = [_clean_news_item(item) for item in items[:5] if isinstance(item, dict)]
 
     # Pass through string values
     for k, v in data.items():
@@ -127,23 +171,21 @@ def _normalize_industry(data: dict[str, Any]) -> dict[str, Any]:
     result: dict[str, Any] = {}
 
     # News items
-    for key in ("google_news", "recent_news", "industry_news",
-                "korean_credible_news", "international_news"):
+    for key in ("google_news", "recent_news", "industry_news", "korean_credible_news", "international_news"):
         items = data.get(key, [])
         if isinstance(items, list):
-            result[key] = [
-                _clean_news_item(item) for item in items[:5]
-                if isinstance(item, dict)
-            ]
+            result[key] = [_clean_news_item(item) for item in items[:5] if isinstance(item, dict)]
 
     # Exa search results
     for key in ("exa_industry", "exa_market", "brave_web_results"):
         items = data.get(key, [])
         if isinstance(items, list):
             result[key] = [
-                {"title": _clean_text(item.get("title", "")),
-                 "text": _clean_text(item.get("text", item.get("description", "")))[:300],
-                 "url": item.get("url", item.get("link", ""))}
+                {
+                    "title": _clean_text(item.get("title", "")),
+                    "text": _clean_text(item.get("text", item.get("description", "")))[:300],
+                    "url": item.get("url", item.get("link", "")),
+                }
                 for item in items[:5]
                 if isinstance(item, dict)
             ]
@@ -191,9 +233,7 @@ def _normalize_leadership(data: dict[str, Any]) -> dict[str, Any]:
             if isinstance(val, str):
                 result[key] = _clean_text(val)
             elif isinstance(val, list):
-                result[key] = [
-                    _clean_text(str(item)) for item in val if item
-                ]
+                result[key] = [_clean_text(str(item)) for item in val if item]
             else:
                 result[key] = val
 
@@ -238,10 +278,7 @@ def _normalize_leadership(data: dict[str, Any]) -> dict[str, Any]:
     for key in ("leadership_news", "google_news", "recent_news"):
         items = data.get(key, [])
         if isinstance(items, list):
-            result[key] = [
-                _clean_news_item(item) for item in items[:5]
-                if isinstance(item, dict)
-            ]
+            result[key] = [_clean_news_item(item) for item in items[:5] if isinstance(item, dict)]
 
     # Pass through scalar values not yet handled
     for k, v in data.items():
@@ -276,10 +313,7 @@ def _normalize_role(data: dict[str, Any]) -> dict[str, Any]:
     for key in ("requirements", "qualifications", "skills"):
         items = data.get(key, [])
         if isinstance(items, list):
-            result[key] = [
-                _clean_text(str(item)) for item in items[:20]
-                if item and not isinstance(item, dict)
-            ]
+            result[key] = [_clean_text(str(item)) for item in items[:20] if item and not isinstance(item, dict)]
         elif isinstance(items, str):
             result[key] = _clean_text(items)
 
@@ -324,10 +358,7 @@ def _normalize_tech(data: dict[str, Any]) -> dict[str, Any]:
     # Tech stack as a flat list of strings
     tech_stack = data.get("tech_stack", data.get("technologies", []))
     if isinstance(tech_stack, list):
-        result["tech_stack"] = [
-            _clean_text(str(t)) for t in tech_stack[:30]
-            if t and not isinstance(t, dict)
-        ]
+        result["tech_stack"] = [_clean_text(str(t)) for t in tech_stack[:30] if t and not isinstance(t, dict)]
     elif isinstance(tech_stack, str):
         result["tech_stack"] = _clean_text(tech_stack)
 
@@ -336,8 +367,7 @@ def _normalize_tech(data: dict[str, Any]) -> dict[str, Any]:
         items = data.get(key, [])
         if isinstance(items, list):
             result[key] = [
-                {"title": _clean_text(item.get("title", "")),
-                 "text": _clean_text(item.get("text", ""))[:300]}
+                {"title": _clean_text(item.get("title", "")), "text": _clean_text(item.get("text", ""))[:300]}
                 for item in items[:3]
                 if isinstance(item, dict)
             ]
@@ -359,8 +389,7 @@ def _normalize_culture(data: dict[str, Any]) -> dict[str, Any]:
         items = data.get(key, [])
         if isinstance(items, list):
             result[key] = [
-                {"title": _clean_text(item.get("title", "")),
-                 "description": _clean_text(item.get("description", ""))}
+                {"title": _clean_text(item.get("title", "")), "description": _clean_text(item.get("description", ""))}
                 for item in items[:5]
                 if isinstance(item, dict)
             ]
@@ -370,8 +399,7 @@ def _normalize_culture(data: dict[str, Any]) -> dict[str, Any]:
         items = data.get(key, [])
         if isinstance(items, list):
             result[key] = [
-                {"title": item.get("title", ""),
-                 "text": item.get("text", "")[:200]}
+                {"title": item.get("title", ""), "text": item.get("text", "")[:200]}
                 for item in items[:3]
                 if isinstance(item, dict)
             ]
@@ -396,6 +424,7 @@ def _clean_news_item(item: dict[str, Any]) -> dict[str, str]:
 def _clean_text(text: str) -> str:
     """Remove HTML tags and excessive whitespace."""
     import re
+
     text = re.sub(r"<[^>]+>", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
@@ -430,7 +459,7 @@ def _format_amount(amount_str: str) -> str:
         return amount_str
 
 
-def _parse_number(s: str) -> int:
+def _parse_number(s: str | None) -> int:
     """Parse number from string, removing commas."""
     if not s:
         return 0

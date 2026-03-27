@@ -1,0 +1,33 @@
+{
+  "company": "마이리얼트립",
+  "region": "kr",
+  "sources": [
+    {
+      "source_name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/",
+      "collected_at": "2025-01-15T00:00:00+00:00",
+      "effective_at": "2025-01-15T00:00:00+00:00",
+      "trust_label": "stale",
+      "publication_boundary": "public_demo",
+      "summary": "오래된 공시라 현재 조직 규모를 반영하지 못함",
+      "data": {"remote_policy": "onsite", "primary_stack": "Java"}
+    },
+    {
+      "source_name": "community_review",
+      "section": "culture",
+      "url": "https://example.com/community-review",
+      "collected_at": "2024-12-01T00:00:00+00:00",
+      "effective_at": "2024-12-01T00:00:00+00:00",
+      "trust_label": "stale",
+      "publication_boundary": "internal_only",
+      "summary": "예전 리뷰만 남아 있어 최신 상황 판단이 어려움",
+      "data": {"remote_policy": "onsite", "primary_stack": "Java"}
+    }
+  ],
+  "signals": {
+    "growth": "확장 여부를 현재 시점에서 확인하기 어려움",
+    "compensation": "오래된 수치만 남아 있음",
+    "tech": "Java, legacy services"
+  }
+}

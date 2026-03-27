@@ -36,6 +36,50 @@
 {% for item in next_actions %}- {{ item }}
 {% endfor %}
 
+{% if war_room %}
+### War Room Snapshot
+
+{% if war_room.get('role_expectations') %}
+#### Role Expectations
+{% for item in war_room.get('role_expectations', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if war_room.get('actual_work') %}
+#### Actual Work
+{% for item in war_room.get('actual_work', []) %}- {{ item }}
+{% endfor %}
+{% endif %}
+
+{% set stack = war_room.get('stack_reality', {}) %}
+{% if stack.get('confirmed') or stack.get('likely') or stack.get('adjacent') %}
+#### Stack Reality
+{% if stack.get('confirmed') %}- **Confirmed:** {{ stack.get('confirmed') | join(', ') }}
+{% endif %}
+{% if stack.get('likely') %}- **Likely:** {{ stack.get('likely') | join(', ') }}
+{% endif %}
+{% if stack.get('adjacent') %}- **Adjacent:** {{ stack.get('adjacent') | join(', ') }}
+{% endif %}
+{% endif %}
+
+{% set org = war_room.get('org_health', {}) %}
+{% if org.get('verified') or org.get('supporting') %}
+#### Org Health
+{% for item in org.get('verified', []) %}- **Verified:** {{ item }}
+{% endfor %}
+{% for item in org.get('supporting', []) %}- **Supporting:** {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if war_room.get('growth_reality') or war_room.get('compensation_growth_reality') %}
+#### Growth / Compensation Reality
+{% if war_room.get('growth_reality') %}- 성장 현실: {{ war_room.get('growth_reality') }}
+{% endif %}
+{% if war_room.get('compensation_growth_reality') %}- 보상/성장 현실: {{ war_room.get('compensation_growth_reality') }}
+{% endif %}
+{% endif %}
+{% endif %}
+
 ---
 
 {% set s1 = sections.get(1, {}) %}

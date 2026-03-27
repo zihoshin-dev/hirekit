@@ -8,6 +8,7 @@ from typer.testing import CliRunner
 from hirekit.cli.app import app
 from hirekit.engine.company_analyzer import AnalysisReport
 from hirekit.engine.scorer import Scorecard, ScoreDimension
+from hirekit.sources.base import SourceResult
 
 runner = CliRunner()
 
@@ -15,6 +16,7 @@ runner = CliRunner()
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
 
 def make_mock_scorecard(company: str = "카카오", score: float = 3.0) -> Scorecard:
     return Scorecard(
@@ -105,6 +107,7 @@ def make_mock_strategy():
 # version / --version
 # ---------------------------------------------------------------------------
 
+
 class TestVersionCommand:
     def test_version_flag_exits_successfully(self):
         result = runner.invoke(app, ["--version"])
@@ -118,6 +121,7 @@ class TestVersionCommand:
 # ---------------------------------------------------------------------------
 # configure command
 # ---------------------------------------------------------------------------
+
 
 class TestConfigureCommand:
     def test_configure_creates_config_file(self, tmp_path):
@@ -139,6 +143,7 @@ class TestConfigureCommand:
 # sources command
 # ---------------------------------------------------------------------------
 
+
 class TestSourcesCommand:
     def test_sources_command_exits_successfully(self):
         with patch("hirekit.sources.base.SourceRegistry.discover_plugins"):
@@ -156,6 +161,7 @@ class TestSourcesCommand:
 # ---------------------------------------------------------------------------
 # analyze command
 # ---------------------------------------------------------------------------
+
 
 class TestAnalyzeCommand:
     def test_analyze_markdown_output_saves_file(self, tmp_path):
@@ -191,6 +197,19 @@ class TestAnalyzeCommand:
 
     def test_analyze_json_output_mode(self, tmp_path):
         mock_report = make_mock_report("네이버")
+        mock_report.sections = {
+            1: {"growth_reality": {"growth": "상승"}},
+            5: {"role_expectations": [{"expectations": ["Python 3년 이상 경험"]}]},
+            7: {"stack_reality": {"confirmed": [{"tech": "python"}]}},
+        }
+        mock_report.source_results = [
+            SourceResult(
+                source_name="dart",
+                section="overview",
+                url="https://dart.fss.or.kr/",
+                trust_label="verified",
+            )
+        ]
 
         with patch("hirekit.cli.app.load_config") as mock_cfg:
             cfg = MagicMock()
@@ -205,6 +224,11 @@ class TestAnalyzeCommand:
         assert result.exit_code == 0
         # JSON output should contain "company" key somewhere
         assert '"company"' in result.output or "company" in result.output
+        json_text = result.output[result.output.index("{") :]
+        data = __import__("json").loads(json_text)
+        assert "war_room" in data
+        assert data["war_room"]["role_expectations"] == ["Python 3년 이상 경험"]
+        assert data["sources"][0]["trust_label"] == "verified"
 
     def test_analyze_requires_company_argument(self):
         result = runner.invoke(app, ["analyze"])
@@ -223,14 +247,13 @@ class TestAnalyzeCommand:
                 instance = MockAnalyzer.return_value
                 instance.analyze.return_value = mock_report
                 runner.invoke(app, ["analyze", "카카오", "--tier", "2", "--no-llm"])
-                instance.analyze.assert_called_once_with(
-                    company="카카오", region="kr", tier=2
-                )
+                instance.analyze.assert_called_once_with(company="카카오", region="kr", tier=2)
 
 
 # ---------------------------------------------------------------------------
 # pipeline command
 # ---------------------------------------------------------------------------
+
 
 class TestPipelineCommand:
     def test_pipeline_no_llm_exits_successfully(self, tmp_path):
@@ -246,10 +269,7 @@ class TestPipelineCommand:
         mock_guide.tips = []
 
         mock_draft = CoverLetterDraft(company="카카오", overall_score=70.0)
-        mock_draft.sections = [
-            CoverLetterSection(key="growth", title="성장과정",
-                               content="성장 내용", score=70.0)
-        ]
+        mock_draft.sections = [CoverLetterSection(key="growth", title="성장과정", content="성장 내용", score=70.0)]
 
         with patch("hirekit.cli.app.load_config") as mock_cfg:
             cfg = MagicMock()
@@ -266,9 +286,7 @@ class TestPipelineCommand:
                     with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
                         MockCoach.return_value.draft.return_value = mock_draft
 
-                        result = runner.invoke(app, [
-                            "pipeline", "카카오", "--no-llm", "--output", "terminal"
-                        ])
+                        result = runner.invoke(app, ["pipeline", "카카오", "--no-llm", "--output", "terminal"])
 
         assert result.exit_code == 0
 
@@ -303,9 +321,7 @@ class TestPipelineCommand:
                     MockPrep.return_value.prepare.return_value = mock_guide
                     with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
                         MockCoach.return_value.draft.return_value = mock_draft
-                        result = runner.invoke(app, [
-                            "pipeline", "카카오", "--no-llm", "--output", "terminal"
-                        ])
+                        result = runner.invoke(app, ["pipeline", "카카오", "--no-llm", "--output", "terminal"])
 
         assert result.exit_code == 0
         assert "Go" in result.output or "Hold" in result.output or "Pass" in result.output
@@ -337,9 +353,7 @@ class TestPipelineCommand:
                     MockPrep.return_value.prepare.return_value = mock_guide
                     with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
                         MockCoach.return_value.draft.return_value = mock_draft
-                        result = runner.invoke(app, [
-                            "pipeline", "카카오", "--no-llm", "--output", "terminal"
-                        ])
+                        result = runner.invoke(app, ["pipeline", "카카오", "--no-llm", "--output", "terminal"])
 
         assert result.exit_code == 0
         assert "Advisory only" in result.output
@@ -374,9 +388,7 @@ class TestPipelineCommand:
                     MockPrep.return_value.prepare.return_value = mock_guide
                     with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
                         MockCoach.return_value.draft.return_value = mock_draft
-                        result = runner.invoke(app, [
-                            "pipeline", "카카오", "--no-llm", "--output", "markdown"
-                        ])
+                        result = runner.invoke(app, ["pipeline", "카카오", "--no-llm", "--output", "markdown"])
 
         assert result.exit_code == 0
         saved = (tmp_path / "카카오_pipeline.md").read_text(encoding="utf-8")
@@ -413,9 +425,7 @@ class TestPipelineCommand:
                     MockPrep.return_value.prepare.return_value = mock_guide
                     with patch("hirekit.engine.cover_letter.CoverLetterCoach") as MockCoach:
                         MockCoach.return_value.draft.return_value = mock_draft
-                        result = runner.invoke(app, [
-                            "pipeline", "카카오", "--no-llm", "--output", "markdown"
-                        ])
+                        result = runner.invoke(app, ["pipeline", "카카오", "--no-llm", "--output", "markdown"])
 
         assert result.exit_code == 0
         saved = (tmp_path / "카카오_pipeline.md").read_text(encoding="utf-8")
@@ -607,9 +617,7 @@ class TestProofCommand:
 
             with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
                 MockAnalyzer.return_value.analyze.return_value = mock_report
-                result = runner.invoke(app, [
-                    "proof", "카카오", "--no-llm", "--output", "terminal"
-                ])
+                result = runner.invoke(app, ["proof", "카카오", "--no-llm", "--output", "terminal"])
 
         assert result.exit_code == 0
         assert "실행 메모" in result.output
@@ -626,9 +634,7 @@ class TestProofCommand:
 
             with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
                 MockAnalyzer.return_value.analyze.return_value = mock_report
-                result = runner.invoke(app, [
-                    "proof", "카카오", "--no-llm", "--output", "markdown"
-                ])
+                result = runner.invoke(app, ["proof", "카카오", "--no-llm", "--output", "markdown"])
 
         assert result.exit_code == 0
         saved = (tmp_path / "카카오_proof.md").read_text(encoding="utf-8")
@@ -661,10 +667,22 @@ class TestProofCommand:
                 MockAnalyzer.return_value.analyze.return_value = mock_report
                 with patch("hirekit.engine.career_strategy.CareerStrategyEngine") as MockEngine:
                     MockEngine.return_value.analyze.return_value = strategy
-                    result = runner.invoke(app, [
-                        "proof", "토스", "--role", "백엔드", "--experience", "5",
-                        "--skills", "python,aws,kafka", "--no-llm", "--output", "terminal",
-                    ])
+                    result = runner.invoke(
+                        app,
+                        [
+                            "proof",
+                            "토스",
+                            "--role",
+                            "백엔드",
+                            "--experience",
+                            "5",
+                            "--skills",
+                            "python,aws,kafka",
+                            "--no-llm",
+                            "--output",
+                            "terminal",
+                        ],
+                    )
 
         assert result.exit_code == 0
         assert "개인화 전략" in result.output
@@ -674,6 +692,7 @@ class TestProofCommand:
 # ---------------------------------------------------------------------------
 # panel command
 # ---------------------------------------------------------------------------
+
 
 class TestPanelCommand:
     def test_panel_terminal_output_shows_lens_summary(self, tmp_path):
@@ -756,6 +775,7 @@ class TestPanelCommand:
 # ---------------------------------------------------------------------------
 # strategy command
 # ---------------------------------------------------------------------------
+
 
 class TestStrategyProfileCommand:
     def test_strategy_terminal_output_exits_successfully(self):
@@ -893,6 +913,7 @@ class TestStrategyProfileCommand:
 # compare command
 # ---------------------------------------------------------------------------
 
+
 class TestCompareStructuredCommand:
     def test_compare_terminal_output_exits_successfully(self):
         from hirekit.engine.company_comparator import ComparisonResult
@@ -973,20 +994,24 @@ class TestCompareStructuredCommand:
 # _load_profile helper
 # ---------------------------------------------------------------------------
 
+
 class TestLoadProfile:
     def test_returns_none_for_empty_path(self):
         from hirekit.cli.app import _load_profile
+
         result = _load_profile("")
         # No default profile exists in test env — returns None
         assert result is None or isinstance(result, dict)
 
     def test_returns_none_for_missing_file(self):
         from hirekit.cli.app import _load_profile
+
         result = _load_profile("/nonexistent/path/profile.yaml")
         assert result is None
 
     def test_loads_yaml_profile(self, tmp_path):
         from hirekit.cli.app import _load_profile
+
         profile_file = tmp_path / "profile.yaml"
         profile_file.write_text(
             "name: 홍길동\nyears_of_experience: 3\nskills:\n  technical:\n    - Python\n",

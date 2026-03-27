@@ -10,5 +10,35 @@
     "jd_fixture": "jd-low-signal.txt",
     "resume_fixture": "resume-low-signal.md",
     "expected_future_verdict": "Hold"
+  },
+  "experienced_mover_strong": {
+    "company_fixture": "company-experienced-mover-strong.json",
+    "jd_fixture": "jd-experienced-mover-strong.txt",
+    "resume_fixture": "resume-experienced-mover-strong.md",
+    "expected_future_verdict": "Go"
+  },
+  "experienced_mover_partial": {
+    "company_fixture": "company-experienced-mover-partial.json",
+    "jd_fixture": "jd-experienced-mover-partial.txt",
+    "resume_fixture": "resume-experienced-mover-partial.md",
+    "expected_future_verdict": "Hold"
+  },
+  "experienced_mover_stale": {
+    "company_fixture": "company-experienced-mover-stale.json",
+    "jd_fixture": "jd-experienced-mover-stale.txt",
+    "resume_fixture": "resume-experienced-mover-stale.md",
+    "expected_future_verdict": "Hold"
+  },
+  "experienced_switcher_misleading": {
+    "company_fixture": "company-experienced-switcher-misleading.json",
+    "jd_fixture": "jd-experienced-switcher-misleading.txt",
+    "resume_fixture": "resume-experienced-switcher-misleading.md",
+    "expected_future_verdict": "Hold"
+  },
+  "experienced_switcher_contradictory": {
+    "company_fixture": "company-experienced-switcher-contradictory.json",
+    "jd_fixture": "jd-experienced-switcher-contradictory.txt",
+    "resume_fixture": "resume-experienced-switcher-contradictory.md",
+    "expected_future_verdict": "Hold"
   }
 }

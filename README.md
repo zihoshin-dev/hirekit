@@ -1,10 +1,10 @@
 <p align="center">
   <h1 align="center">🎯 HireKit</h1>
   <p align="center">
-    <strong>Career Intelligence Terminal for job seekers</strong>
+    <strong>Career Intelligence Terminal for high-stakes hiring</strong>
   </p>
   <p align="center">
-    14개 소스 수집 → trust-first scorecard → advisory verdict → proof-of-work
+    14개 소스 수집 → evidence-backed scorecard → advisory verdict (Go/Hold/Pass)
   </p>
 </p>
 
@@ -27,9 +27,9 @@
 ---
 
 기업 하나를 제대로 파악하려면 DART 공시, 뉴스, 기술 블로그, 커뮤니티 리뷰... 탭을 10개 넘게 열어야 해요.
-HireKit은 그 과정을 `Career Intelligence Terminal`로 압축해요. 기업 리서치, JD 해석, 이력서 판단을 연결해서 `Go / Hold / Pass` 권고까지 내려줘요.
+HireKit은 그 과정을 `Trust-first Decision Surface`로 압축해요. 기업 리서치, JD 해석, 이력서 판단을 연결해서 `Go / Hold / Pass`라는 **Advisory Verdict**를 도출하는 나만의 '취업 워룸'을 구축하세요.
 
-중요: `Go / Hold / Pass`는 **advisory verdict**예요. 합격을 보장하지 않고, 공개 데모는 **GitHub Pages 정적 스냅샷**만 보여줘요. 이력서/JD 같은 개인 데이터는 공개 경로에 저장하지 않아요.
+중요: `Go / Hold / Pass`는 **advisory verdict**예요. 합격을 보장하지 않고, 공개 데모는 **GitHub Pages 정적 스냅샷**만 보여줘요. 이력서/JD 같은 개인 데이터는 공개 경로에 저장하지 않아요. 로컬 Private Runtime에서 실행할 때만 실시간 분석과 개인화가 가능해요.
 
 ```bash
 pip install hirekit
@@ -51,7 +51,7 @@ graph LR
     C2 --> D
     C3 --> D
     C4 --> D
-    D --> E[Trust-aware Report]
+    D --> E[Evidence-backed Report]
     E --> F[Go/Hold/Pass Advisory Verdict]
 ```
 
@@ -69,9 +69,9 @@ flowchart TD
     B2 --> C
     B3 --> C
     C --> D{LLM 사용?}
-    D -->|Yes| E[구조화 + grounded 해석]
+    D -->|Yes| E[구조화 + evidence-based 해석]
     D -->|No| F[데이터 기반 리포트]
-    E --> G[Trust-aware Report]
+    E --> G[War Room Report]
     F --> G
     G --> H[Go/Hold/Pass Advisory Verdict]
 ```
@@ -86,7 +86,7 @@ flowchart TD
 pip install hirekit
 ```
 
-Python 3.11 이상이면 충분해요. 공개 데모는 정적 스냅샷이고, 실제 분석은 로컬에서 실행돼요.
+Python 3.11 이상이면 충분해요. 공개 데모는 정적 스냅샷이고, 실제 분석은 **로컬 Private Runtime**에서 실행돼요. 개인의 데이터는 오직 당신의 기기 안에서만 처리돼요.
 
 ### 2. (선택) API 키 설정
 
@@ -146,7 +146,7 @@ hirekit analyze 카카오
 | `hirekit jobs 쿠팡 -o json` | 채용 공고 탐색 | 기업별 현재 포지션 조회, JSON 자동화 연동 |
 | `hirekit pipeline 카카오 --current 라인 --skills "python,kafka" --compare 네이버` | 워룸 파이프라인 | 5단계 분석 + 개인화 전략 + 기업 비교 + advisory Go/Hold/Pass |
 
-### `hirekit analyze` — 기업 분석
+### `hirekit analyze` — 기업 분석 (War Room 기초)
 
 ```bash
 # 기본 분석 (Markdown 리포트 저장)
@@ -162,7 +162,7 @@ hirekit analyze 토스 -o json
 hirekit analyze 쿠팡 --tier 3
 ```
 
-**결과물**: trust-aware 리포트 + 5차원 100점 스코어카드 + advisory verdict
+**결과물**: War Room 리포트 + 5차원 100점 스코어카드 + Go/Hold/Pass Advisory Verdict
 
 ---
 
@@ -238,7 +238,7 @@ hirekit proof 카카오 --no-llm
 hirekit proof 토스 --jd jd.txt --resume resume.md --role 백엔드 --experience 5 --skills "python,aws,kafka"
 ```
 
-**결과물**: verdict, 핵심 근거, 바로 할 일, low-confidence guardrail, 개인화 전략 요약
+**결과물**: Advisory Verdict, 핵심 근거, 바로 할 일, low-confidence guardrail, 개인화 전략 요약
 
 ---
 
@@ -381,13 +381,13 @@ HireKit은 Claude Code 세션 안에서 자연스럽게 동작해요.
 
 ---
 
-## 프라이버시
+## 프라이버시 (Private Runtime)
 
-- 모든 데이터 처리는 **로컬**에서 실행돼요
+- 모든 데이터 처리는 **로컬 Private Runtime**에서 실행돼요
 - 수집한 데이터를 외부 서버로 전송하지 않아요
-- API 키는 `~/.hirekit/.env`에 직접 관리해요
-- LLM(AI)을 연결해도 프롬프트만 해당 API에 전달돼요
-- GitHub Pages 데모는 **공개 스냅샷**만 보여줘요. 개인 이력서/JD/메모는 공개 경로에 저장하지 않아요
+- API 키는 `~/.hirekit/.env`에 직접 관리하며, 공개되지 않아요
+- LLM(AI)을 연결해도 구조화된 프롬프트만 해당 API에 전달돼요
+- GitHub Pages 데모는 **공개 스냅샷**만 보여줘요. 개인 이력서/JD/메모는 결코 공개 경로에 저장되지 않아요
 
 ---
 

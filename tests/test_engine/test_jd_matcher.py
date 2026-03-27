@@ -4,7 +4,6 @@ from pathlib import Path
 
 from hirekit.engine.jd_matcher import JDAnalysis, JDMatcher, SkillMatch
 
-
 FIXTURE_ROOT = Path(__file__).parent.parent / "fixtures" / "hero-flow"
 
 
@@ -123,3 +122,50 @@ class TestJDMatcher:
         analysis = matcher.analyze(jd_source=jd_text, profile=profile)
         assert analysis.match_score < 50
         assert not analysis.required_skills
+
+    def test_explainable_alignment_against_role_context(self):
+        matcher = JDMatcher()
+        jd_text = """
+        자격요건
+        - Python 3년 이상 경험
+        - PostgreSQL, Redis 사용 경험
+
+        담당업무
+        - 데이터 파이프라인 구축
+        - 백엔드 API 설계 및 개발
+        """
+        analysis = matcher.analyze(
+            jd_source=jd_text,
+            role_context={
+                "expectations": ["Python 3년 이상 경험", "백엔드 API 설계 및 개발"],
+                "actual_work": ["데이터 파이프라인 구축"],
+                "stack": ["python", "postgresql", "redis"],
+            },
+        )
+
+        assert analysis.hard_alignment
+        assert "백엔드 API 설계 및 개발" in analysis.soft_alignment
+        assert not analysis.role_reality_mismatches
+
+    def test_aspirational_jd_guardrail_marks_mismatch(self):
+        matcher = JDMatcher()
+        jd_text = """
+        자격요건
+        - Kubernetes 환경 경험
+        - Kafka 운영 경험
+
+        담당업무
+        - 데이터 분석 지원
+        """
+        analysis = matcher.analyze(
+            jd_source=jd_text,
+            role_context={
+                "expectations": ["Python 기반 분석 업무"],
+                "actual_work": ["데이터 분석 지원"],
+                "stack": ["python", "postgresql"],
+            },
+        )
+
+        assert analysis.role_reality_mismatches
+        assert any("kubernetes" in item.lower() for item in analysis.role_reality_mismatches)
+        assert analysis.ambiguous_expectations

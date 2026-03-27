@@ -6,7 +6,7 @@
   <title>HireKit — Career Intelligence Terminal</title>
   <meta name="description" content="A Career Intelligence Terminal that connects company research, JD interpretation, and resume judgment. The public demo uses a 79-company static snapshot." />
   <meta property="og:title" content="HireKit — Career Intelligence Terminal" />
-  <meta property="og:description" content="A 79-company public snapshot and trust-first verdict workflow for job seekers and career switchers." />
+  <meta property="og:description" content="A 79-company public snapshot and trust-first verdict workflow for your War Room decision making." />
   <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
   <meta property="og:image:width" content="1400" />
   <meta property="og:image:height" content="763" />
@@ -114,11 +114,12 @@
         Open Source · MIT License
       </div>
       <h1 class="font-bold t-primary mb-6" style="font-size:48px; line-height:1.3;">
-        Career Intelligence<br />Terminal
+        Trust-first<br />Decision Surface
       </h1>
       <p class="t-secondary mb-10" style="font-size:18px; line-height:1.7; max-width:680px; margin-left:auto; margin-right:auto;">
-        Connect company research, JD interpretation,<br />and resume judgment with a trust-first workflow.<br />
-        The public demo is a 79-company static snapshot, and <code>Go / Hold / Pass</code> is advisory only.
+        Connect company research, JD interpretation,<br />and resume judgment into your personal War Room.<br />
+        Evidence-backed Go / Hold / Pass verdicts at your fingertips.<br />
+        <span class="text-xs">Actual analysis runs in a private local runtime.</span>
       </p>
       <div class="flex flex-col sm:flex-row gap-3 justify-center">
         <a href="#quickstart" class="btn-click inline-flex items-center justify-center gap-2 font-medium text-white transition-colors" style="height:48px; padding:0 24px; background-color:#3182F6; border-radius:12px;">
@@ -577,5 +578,17 @@ hirekit compare kakao naver toss</code></pre>
     }, { threshold: 0.1 });
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
   </script>
+
+  <!-- Strategy War Room IA Contract (T4) -->
+  <template id="warroom-ia-template">
+    <div data-testid="warroom-hero"><h2>Strategy War Room</h2></div>
+    <div data-testid="evidence-summary"><h3>Evidence Summary</h3></div>
+    <div data-testid="role-expectations"><h3>Role Expectations</h3></div>
+    <div data-testid="real-work-stack"><h3>Real Work & Stack</h3></div>
+    <div data-testid="org-health"><h3>Org Health</h3></div>
+    <div data-testid="compensation-growth"><h3>Compensation & Growth</h3></div>
+    <div data-testid="strategy-verdict"><h3>Strategy Verdict</h3></div>
+    <div data-testid="strategy-next-actions"><h3>Next Actions</h3></div>
+  </template>
 </body>
 </html>

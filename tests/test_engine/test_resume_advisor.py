@@ -5,7 +5,6 @@ from pathlib import Path
 
 from hirekit.engine.resume_advisor import ResumeAdvisor, ResumeFeedback
 
-
 FIXTURE_ROOT = Path(__file__).parent.parent / "fixtures" / "hero-flow"
 
 
@@ -54,9 +53,7 @@ Experienced PM with 5 years in fintech.
 ## Skills
 Python, SQL, Data Analysis, Product Management
 """
-        with tempfile.NamedTemporaryFile(
-            mode="w", suffix=".md", delete=False, encoding="utf-8"
-        ) as f:
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False, encoding="utf-8") as f:
             f.write(resume_content)
             path = f.name
 
@@ -74,9 +71,7 @@ Python, SQL, Data Analysis, Product Management
         resume = "Python developer with SQL experience"
         jd = "Required: Kubernetes, Docker, AWS, Python, Go"
 
-        with tempfile.NamedTemporaryFile(
-            mode="w", suffix=".txt", delete=False, encoding="utf-8"
-        ) as f:
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False, encoding="utf-8") as f:
             f.write(resume)
             path = f.name
 
@@ -85,15 +80,12 @@ Python, SQL, Data Analysis, Product Management
 
         # Should detect missing keywords
         gaps_lower = [g.lower() for g in fb.keyword_gaps]
-        assert any("kubernetes" in g for g in gaps_lower) or \
-               any("docker" in g for g in gaps_lower)
+        assert any("kubernetes" in g for g in gaps_lower) or any("docker" in g for g in gaps_lower)
 
         Path(path).unlink()
 
     def test_short_resume_warning(self):
-        with tempfile.NamedTemporaryFile(
-            mode="w", suffix=".txt", delete=False, encoding="utf-8"
-        ) as f:
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False, encoding="utf-8") as f:
             f.write("Short resume")
             path = f.name
 
@@ -138,3 +130,35 @@ Python, SQL, Data Analysis, Product Management
         assert any("kubernetes" in gap for gap in gaps_lower) or any("docker" in gap for gap in gaps_lower)
 
         Path(low_path).unlink()
+
+    def test_switcher_mapping_outputs_truthful_strengths_and_transferability(self):
+        jd_text = (FIXTURE_ROOT / "jd-experienced-switcher-misleading.txt").read_text(encoding="utf-8")
+
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False, encoding="utf-8") as resume_file:
+            resume_file.write((FIXTURE_ROOT / "resume-experienced-switcher-misleading.md").read_text(encoding="utf-8"))
+            resume_path = resume_file.name
+
+        advisor = ResumeAdvisor()
+        feedback = advisor.review(resume_path=resume_path, jd_text=jd_text)
+
+        assert any("제품과 운영을 함께 이해하는 경험" in item for item in feedback.strengths)
+        assert any("크로스펑셔널 협업 경험" in item for item in feedback.strengths)
+        assert any("데이터 기반 의사결정 역량" in item for item in feedback.missing_proof)
+        assert any("제품 로드맵과 실행 우선순위 정리" in item for item in feedback.transferability_opportunities)
+
+        Path(resume_path).unlink()
+
+    def test_missing_proof_guardrail_does_not_treat_skill_keyword_as_proven(self):
+        jd_text = (FIXTURE_ROOT / "jd-high-signal.txt").read_text(encoding="utf-8")
+
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False, encoding="utf-8") as resume_file:
+            resume_file.write((FIXTURE_ROOT / "resume-low-signal.md").read_text(encoding="utf-8"))
+            resume_path = resume_file.name
+
+        advisor = ResumeAdvisor()
+        feedback = advisor.review(resume_path=resume_path, jd_text=jd_text)
+
+        assert any("Python 기반 API 개발 경험" in item for item in feedback.missing_proof)
+        assert not any("Python 기반 API 개발 경험" in item for item in feedback.strengths)
+
+        Path(resume_path).unlink()

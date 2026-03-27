@@ -7,20 +7,18 @@ from pathlib import Path
 import pytest
 
 from hirekit.core.company_db import (
-    CompanyDB,
     SUBSIDIARY_GROUPS,
-    _normalize,
+    CompanyDB,
+    EvidenceRecord,
     _extract_primary_name,
+    _normalize,
 )
-
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
-DEMO_DATA_DIR = (
-    Path(__file__).parent.parent.parent / "docs" / "demo" / "data"
-)
+DEMO_DATA_DIR = Path(__file__).parent.parent.parent / "docs" / "demo" / "data"
 
 
 @pytest.fixture
@@ -75,7 +73,6 @@ class TestCompanyDBLoad:
             assert isinstance(name, str)
 
     def test_known_companies_present(self, db):
-        companies = db.list_companies()
         # meta.json contains 토스 as "토스 (비바리퍼블리카)" → primary "토스"
         # but primary extraction may vary; test via get_company instead
         result = db.get_company("토스")
@@ -88,6 +85,52 @@ class TestCompanyDBLoad:
     def test_unknown_company_returns_none(self, db):
         result = db.get_company("존재하지않는회사XYZ999")
         assert result is None
+
+    def test_get_evidence_bundle_returns_company_records(self, db):
+        bundle = db.get_evidence_bundle("토스")
+        assert bundle["company"]["entity_type"] == "company"
+        assert bundle["company"]["entity_key"] == "토스"
+        assert bundle["company"]["records"]
+
+    def test_get_evidence_bundle_supports_role_records(self, db):
+        bundle = db.get_evidence_bundle(
+            "토스",
+            role_name="backend_engineer",
+            role_payload={
+                "expectations": ["분산 시스템 운영"],
+                "stack": ["python", "kafka"],
+                "actual_work": ["대용량 데이터 파이프라인 개발"],
+                "source_name": "job_postings",
+                "collected_at": "2026-03-27T00:00:00+00:00",
+            },
+        )
+        assert bundle["roles"][0]["entity_type"] == "role"
+        assert bundle["roles"][0]["entity_key"] == "backend_engineer"
+        assert bundle["roles"][0]["records"]
+
+
+class TestEvidenceRecord:
+    def test_as_dict_preserves_schema_fields(self):
+        record = EvidenceRecord(
+            entity_type="company",
+            entity_key="토스",
+            claim_category="strategy",
+            claim_key="vision",
+            value="금융의 슈퍼앱",
+            source_name="company_website",
+            source_authority="company_operated",
+            trust_label="supporting",
+            confidence=0.6,
+            collected_at="2026-03-27T00:00:00+00:00",
+            effective_at="2026-03-27T00:00:00+00:00",
+            freshness_policy="core_company_fact",
+            evidence_id="company:토스:strategy:vision:company_website",
+        )
+        payload = record.as_dict()
+        assert payload["entity_type"] == "company"
+        assert payload["claim_category"] == "strategy"
+        assert payload["source_authority"] == "company_operated"
+        assert payload["freshness_policy"] == "core_company_fact"
 
 
 # ---------------------------------------------------------------------------
@@ -339,6 +382,4 @@ class TestSubsidiaryRelationships:
         """자회사 목록에 모회사가 포함되어서는 안 된다."""
         for group_name, group_def in SUBSIDIARY_GROUPS.items():
             parent = group_def["parent"]
-            assert parent not in group_def["subsidiaries"], (
-                f"{group_name}: parent '{parent}' listed in subsidiaries"
-            )
+            assert parent not in group_def["subsidiaries"], f"{group_name}: parent '{parent}' listed in subsidiaries"

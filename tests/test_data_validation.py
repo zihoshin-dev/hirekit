@@ -8,21 +8,12 @@ import sys
 
 import pytest
 
-COMPANIES_DIR = os.path.join(
-    os.path.dirname(__file__), "..", "docs", "demo", "data", "companies"
-)
-META_JSON = os.path.join(
-    os.path.dirname(__file__), "..", "docs", "demo", "data", "meta.json"
-)
-VERIFY_SCRIPT = os.path.join(
-    os.path.dirname(__file__), "..", "tools", "verify_company_data.py"
-)
-ADD_META_SCRIPT = os.path.join(
-    os.path.dirname(__file__), "..", "tools", "add_meta_fields.py"
-)
-VERIFY_MODULE_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "tools", "verify_company_data.py"
-)
+COMPANIES_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "demo", "data", "companies")
+META_JSON = os.path.join(os.path.dirname(__file__), "..", "docs", "demo", "data", "meta.json")
+VERIFY_SCRIPT = os.path.join(os.path.dirname(__file__), "..", "tools", "verify_company_data.py")
+ADD_META_SCRIPT = os.path.join(os.path.dirname(__file__), "..", "tools", "add_meta_fields.py")
+VERIFY_MODULE_PATH = os.path.join(os.path.dirname(__file__), "..", "tools", "verify_company_data.py")
+FRESHNESS_MODULE_PATH = os.path.join(os.path.dirname(__file__), "..", "tools", "check_freshness.py")
 
 META_SCHEMA_KEYS = {
     "collected_at": str,
@@ -49,6 +40,17 @@ def load_verify_module():
     spec = importlib.util.spec_from_file_location(
         "verify_company_data_module",
         os.path.abspath(VERIFY_MODULE_PATH),
+    )
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def load_freshness_module():
+    spec = importlib.util.spec_from_file_location(
+        "check_freshness_module",
+        os.path.abspath(FRESHNESS_MODULE_PATH),
     )
     assert spec and spec.loader
     module = importlib.util.module_from_spec(spec)
@@ -113,10 +115,53 @@ class TestVerifyScript:
         assert "subsidiary_audit" in report
         assert isinstance(report["subsidiary_audit"]["issues"], list)
         assert any(
-            issue.get("issue_type") == "dart_corp_name_contamination"
-            and issue.get("company") == "카카오뱅크"
+            issue.get("issue_type") == "dart_corp_name_contamination" and issue.get("company") == "카카오뱅크"
             for issue in report["issues"]
         )
+
+    def test_verify_script_report_exposes_public_snapshot_governance(self):
+        module = load_verify_module()
+        report = module.verify_companies()
+
+        assert report["total_companies"] == report["snapshot_company_count"]
+        assert report["source_file_count"] >= report["snapshot_company_count"]
+
+        governance = report["governance"]
+        assert governance["dataset_mode"] == "public_snapshot"
+        assert governance["publication_boundary"] == "public_demo"
+        assert governance["snapshot_source"] == "initial_snapshot"
+        assert governance["sources_updated"] == ["snapshot"]
+
+    def test_publish_gate_rejects_incomplete_governed_artifacts(self):
+        module = load_verify_module()
+
+        incomplete_report = {
+            "governance": {
+                "dataset_mode": "public_snapshot",
+                "publication_boundary": "public_demo",
+                "snapshot_source": "initial_snapshot",
+                "required_artifacts": ["meta.json", "update_log.json", "quality_report.json"],
+                "missing_artifacts": ["quality_report.json"],
+                "publish_ready": False,
+            }
+        }
+
+        issues = module.build_publish_governance_issues(incomplete_report)
+
+        assert any(issue["issue_type"] == "publish_artifact_incomplete" for issue in issues)
+        assert any(issue["severity"] == "high" for issue in issues)
+
+
+class TestFreshnessScriptContract:
+    def test_freshness_contract_is_snapshot_based(self):
+        module = load_freshness_module()
+        log = module.load_update_log()
+        summary = module.build_freshness_contract(log, meta_count=len(get_company_files()))
+
+        assert summary["dataset_mode"] == "public_snapshot"
+        assert summary["publication_boundary"] == "public_demo"
+        assert summary["snapshot_source"] == "initial_snapshot"
+        assert summary["requires_live_dataset"] is False
 
 
 class TestMetaJsonConsistency:
@@ -133,9 +178,7 @@ class TestMetaJsonConsistency:
         files = get_company_files()
         with open(os.path.abspath(META_JSON), encoding="utf-8") as f:
             meta = json.load(f)
-        assert len(files) == len(meta), (
-            f"companies/ 파일 수({len(files)}) != meta.json 기업 수({len(meta)})"
-        )
+        assert len(files) == len(meta), f"companies/ 파일 수({len(files)}) != meta.json 기업 수({len(meta)})"
 
 
 class TestCompanyJsonValidity:
@@ -167,9 +210,7 @@ class TestCompanyJsonValidity:
             score = dim.get("score")
             name = dim.get("name", "unknown")
             if score is not None:
-                assert 0 <= score <= 5, (
-                    f"{fname}: scorecard.{name}.score={score} out of range [0, 5]"
-                )
+                assert 0 <= score <= 5, f"{fname}: scorecard.{name}.score={score} out of range [0, 5]"
 
 
 class TestMetaFieldSchema:
@@ -186,18 +227,10 @@ class TestMetaFieldSchema:
         for key, expected_type in META_SCHEMA_KEYS.items():
             assert key in meta, f"{fname}: _meta.{key} 없음"
             if isinstance(expected_type, tuple):
-                assert isinstance(meta[key], expected_type), (
-                    f"{fname}: _meta.{key} 타입 오류 (got {type(meta[key])})"
-                )
+                assert isinstance(meta[key], expected_type), f"{fname}: _meta.{key} 타입 오류 (got {type(meta[key])})"
             else:
-                assert isinstance(meta[key], expected_type), (
-                    f"{fname}: _meta.{key} 타입 오류 (got {type(meta[key])})"
-                )
+                assert isinstance(meta[key], expected_type), f"{fname}: _meta.{key} 타입 오류 (got {type(meta[key])})"
 
-        assert 0.0 <= meta["confidence"] <= 1.0, (
-            f"{fname}: _meta.confidence={meta['confidence']} out of [0, 1]"
-        )
-        assert meta["staleness_days"] >= 0, (
-            f"{fname}: _meta.staleness_days 음수"
-        )
+        assert 0.0 <= meta["confidence"] <= 1.0, f"{fname}: _meta.confidence={meta['confidence']} out of [0, 1]"
+        assert meta["staleness_days"] >= 0, f"{fname}: _meta.staleness_days 음수"
         assert meta["version"] >= 1, f"{fname}: _meta.version < 1"

@@ -1,0 +1,44 @@
+{
+  "company": "리디",
+  "region": "kr",
+  "sources": [
+    {
+      "source_name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/",
+      "collected_at": "2026-03-23T00:00:00+00:00",
+      "effective_at": "2026-03-22T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "서비스는 안정적이지만 인력 확장 속도는 완만함",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    },
+    {
+      "source_name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/",
+      "collected_at": "2026-03-23T00:00:00+00:00",
+      "effective_at": "2026-03-23T00:00:00+00:00",
+      "trust_label": "derived",
+      "publication_boundary": "public_demo",
+      "summary": "기술 스택은 강하지만 일부 팀은 레거시 의존도가 높음",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    },
+    {
+      "source_name": "community_review",
+      "section": "culture",
+      "url": "https://example.com/community-review",
+      "collected_at": "2025-11-01T00:00:00+00:00",
+      "effective_at": "2025-11-01T00:00:00+00:00",
+      "trust_label": "stale",
+      "publication_boundary": "internal_only",
+      "summary": "예전 리뷰라 현재 채용 속도는 확인이 어려움",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    }
+  ],
+  "signals": {
+    "growth": "핵심 조직은 유지되지만 선택적으로 확장하는 분위기",
+    "compensation": "시장 평균 상단은 아니지만 안정적인 편",
+    "tech": "Python, SQL, API, CMS"
+  }
+}

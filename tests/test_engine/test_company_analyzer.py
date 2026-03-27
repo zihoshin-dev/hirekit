@@ -13,6 +13,7 @@ from hirekit.sources.base import SourceRegistry, SourceResult
 # Helpers
 # ---------------------------------------------------------------------------
 
+
 def make_report(
     company: str = "카카오",
     region: str = "kr",
@@ -36,6 +37,7 @@ def make_report(
 # AnalysisReport serialization
 # ---------------------------------------------------------------------------
 
+
 class TestAnalysisReportToDict:
     def test_to_dict_contains_required_keys(self):
         report = make_report()
@@ -57,8 +59,7 @@ class TestAnalysisReportToDict:
     def test_to_dict_sources_list_from_source_results(self):
         report = make_report()
         report.source_results = [
-            SourceResult(source_name="dart", section="overview",
-                         url="https://dart.fss.or.kr/"),
+            SourceResult(source_name="dart", section="overview", url="https://dart.fss.or.kr/"),
         ]
         sources = report.to_dict()["sources"]
         assert len(sources) == 1
@@ -74,6 +75,7 @@ class TestAnalysisReportToDict:
                 collected_at="2026-03-22T00:00:00+00:00",
                 effective_at="2026-03-21T00:00:00+00:00",
                 confidence=0.9,
+                cross_validated=True,
             ),
         ]
         source = report.to_dict()["sources"][0]
@@ -81,6 +83,7 @@ class TestAnalysisReportToDict:
         assert source["collected_at"] == "2026-03-22T00:00:00+00:00"
         assert source["effective_at"] == "2026-03-21T00:00:00+00:00"
         assert source["confidence"] == 0.9
+        assert source["cross_validated"] is True
         assert source["trust_label"] == "verified"
         assert source["publication_boundary"] == "internal_only"
 
@@ -96,6 +99,17 @@ class TestAnalysisReportToDict:
         d = report.to_dict()
         assert d["scorecard"]["total"] == 0
         assert d["scorecard"]["grade"] == "N/A"
+
+    def test_to_dict_includes_war_room_payload(self):
+        report = make_report(
+            sections={
+                5: {"role_expectations": [{"expectations": ["Python 3년 이상 경험"]}]},
+                7: {"stack_reality": {"confirmed": [{"tech": "python"}]}},
+            }
+        )
+        war_room = report.to_dict()["war_room"]
+        assert war_room["role_expectations"] == ["Python 3년 이상 경험"]
+        assert war_room["stack_reality"]["confirmed"] == ["python"]
 
 
 class TestAnalysisReportToMarkdown:
@@ -113,6 +127,7 @@ class TestAnalysisReportToMarkdown:
 class TestAnalysisReportToRich:
     def test_to_rich_returns_panel(self):
         from rich.panel import Panel
+
         report = make_report()
         panel = report.to_rich()
         assert isinstance(panel, Panel)
@@ -121,6 +136,7 @@ class TestAnalysisReportToRich:
 # ---------------------------------------------------------------------------
 # CompanyAnalyzer initialization
 # ---------------------------------------------------------------------------
+
 
 class TestCompanyAnalyzerInit:
     def test_init_with_no_llm_flag(self):
@@ -144,6 +160,7 @@ class TestCompanyAnalyzerInit:
 # ---------------------------------------------------------------------------
 # CompanyAnalyzer.analyze — with mocked sources
 # ---------------------------------------------------------------------------
+
 
 class MockCollectSource:
     name = "mock_dart"
@@ -181,12 +198,17 @@ class TestCompanyAnalyzerAnalyze:
     def test_analyze_returns_analysis_report(self):
         analyzer = self._make_analyzer()
 
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   return_value=[SourceResult(
-                       source_name="mock", section="overview",
-                       data={"company_name": "카카오"},
-                       raw="overview",
-                   )]):
+        with patch(
+            "hirekit.engine.company_analyzer.collect_parallel",
+            return_value=[
+                SourceResult(
+                    source_name="mock",
+                    section="overview",
+                    data={"company_name": "카카오"},
+                    raw="overview",
+                )
+            ],
+        ):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
                     report = analyzer.analyze("카카오")
@@ -209,15 +231,12 @@ class TestCompanyAnalyzerAnalyze:
         analyzer = self._make_analyzer()
 
         fake_results = [
-            SourceResult(source_name="dart", section="overview",
-                         data={"company_name": "토스"}),
-            SourceResult(source_name="github", section="tech",
-                         data={"total_score": 75}),
+            SourceResult(source_name="dart", section="overview", data={"company_name": "토스"}),
+            SourceResult(source_name="github", section="tech", data={"total_score": 75}),
         ]
 
         # Patch collect_parallel where it is used inside company_analyzer
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   return_value=fake_results):
+        with patch("hirekit.engine.company_analyzer.collect_parallel", return_value=fake_results):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
                     report = analyzer.analyze("토스")
@@ -242,11 +261,9 @@ class TestCompanyAnalyzerAnalyze:
         mock_github.name = "github"
         mock_github.is_available.return_value = True
 
-        with patch.object(SourceRegistry, "get_available",
-                          return_value=[mock_dart, mock_github]):
+        with patch.object(SourceRegistry, "get_available", return_value=[mock_dart, mock_github]):
             with patch.object(SourceRegistry, "discover_plugins"):
-                with patch("hirekit.engine.company_analyzer.collect_parallel",
-                           return_value=[]) as mock_parallel:
+                with patch("hirekit.engine.company_analyzer.collect_parallel", return_value=[]) as mock_parallel:
                     analyzer.analyze("카카오")
 
         assert mock_parallel.called
@@ -277,8 +294,7 @@ class TestCompanyAnalyzerAnalyze:
         analyzer.cache.get = mock_cache_get
         analyzer.cache.set = mock_cache_set
 
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   side_effect=fake_collect):
+        with patch("hirekit.engine.company_analyzer.collect_parallel", side_effect=fake_collect):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
                     analyzer.analyze("카카오", region="kr", tier=1)
@@ -321,8 +337,7 @@ class TestCompanyAnalyzerAnalyze:
             ),
         ]
 
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   return_value=fake_results):
+        with patch("hirekit.engine.company_analyzer.collect_parallel", return_value=fake_results):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
                     first = analyzer.analyze("카카오", region="kr", tier=1)
@@ -349,8 +364,7 @@ class TestCompanyAnalyzerAnalyze:
             ),
         ]
 
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   return_value=fake_results):
+        with patch("hirekit.engine.company_analyzer.collect_parallel", return_value=fake_results):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
                     analyzer.analyze("카카오")
@@ -363,14 +377,52 @@ class TestCompanyAnalyzerAnalyze:
         assert source["effective_at"] == "2026-03-21T00:00:00+00:00"
         assert source["evidence_id"].startswith("dart:overview:")
 
+    def test_from_dict_restores_cross_validated_and_source_authority(self):
+        report = AnalysisReport.from_dict(
+            {
+                "company": "카카오",
+                "region": "kr",
+                "tier": 1,
+                "sections": {},
+                "scorecard": {"dimensions": [], "total": 0, "grade": "N/A"},
+                "sources": [
+                    {
+                        "name": "dart",
+                        "section": "overview",
+                        "url": "https://dart.fss.or.kr/",
+                        "collected_at": "2026-03-22T00:00:00+00:00",
+                        "effective_at": "2026-03-21T00:00:00+00:00",
+                        "evidence_id": "dart:overview:20260322T000000+0000",
+                        "confidence": 0.9,
+                        "cross_validated": True,
+                        "trust_label": "verified",
+                        "source_authority": "official",
+                        "freshness_policy": "core_company_fact",
+                        "publication_boundary": "internal_only",
+                    }
+                ],
+            }
+        )
+
+        assert report.source_results[0].cross_validated is True
+        assert report.source_results[0].source_authority == "official"
+        assert report.source_results[0].freshness_policy == "core_company_fact"
+
     def test_cache_hit_preserves_scorecard(self):
         """캐시 히트 시 scorecard가 보존되는지 확인."""
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
 
         cache_store: dict[str, Any] = {}
-        analyzer.cache.get = lambda k: cache_store.get(k)
-        analyzer.cache.set = lambda k, v: cache_store.__setitem__(k, v)
+
+        def cache_get(key: str) -> Any | None:
+            return cache_store.get(key)
+
+        def cache_set(key: str, value: Any) -> None:
+            cache_store[key] = value
+
+        analyzer.cache.get = cache_get
+        analyzer.cache.set = cache_set
 
         fake_results = [
             SourceResult(
@@ -378,20 +430,19 @@ class TestCompanyAnalyzerAnalyze:
                 section="overview",
                 data={
                     "financials": [
-                        {"account": "매출액", "current_amount": "1200000",
-                         "previous_amount": "1000000"},
+                        {"account": "매출액", "current_amount": "1200000", "previous_amount": "1000000"},
                     ],
                 },
             ),
         ]
 
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   return_value=fake_results):
+        with patch("hirekit.engine.company_analyzer.collect_parallel", return_value=fake_results):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
                     first = analyzer.analyze("카카오", region="kr", tier=1)
                     second = analyzer.analyze("카카오", region="kr", tier=1)
 
+        assert first.scorecard is not None
         assert second.scorecard is not None
         assert len(second.scorecard.dimensions) == len(first.scorecard.dimensions)
         for d1, d2 in zip(first.scorecard.dimensions, second.scorecard.dimensions):
@@ -407,8 +458,15 @@ class TestCompanyAnalyzerAnalyze:
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
 
         cache_store: dict[str, Any] = {}
-        analyzer.cache.get = lambda k: cache_store.get(k)
-        analyzer.cache.set = lambda k, v: cache_store.__setitem__(k, v)
+
+        def cache_get(key: str) -> Any | None:
+            return cache_store.get(key)
+
+        def cache_set(key: str, value: Any) -> None:
+            cache_store[key] = value
+
+        analyzer.cache.get = cache_get
+        analyzer.cache.set = cache_set
 
         fake_results = [
             SourceResult(
@@ -427,8 +485,7 @@ class TestCompanyAnalyzerAnalyze:
             ),
         ]
 
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   return_value=fake_results):
+        with patch("hirekit.engine.company_analyzer.collect_parallel", return_value=fake_results):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
                     analyzer.analyze("카카오", region="kr", tier=1)
@@ -448,8 +505,15 @@ class TestCompanyAnalyzerAnalyze:
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
 
         cache_store: dict[str, Any] = {}
-        analyzer.cache.get = lambda k: cache_store.get(k)
-        analyzer.cache.set = lambda k, v: cache_store.__setitem__(k, v)
+
+        def cache_get(key: str) -> Any | None:
+            return cache_store.get(key)
+
+        def cache_set(key: str, value: Any) -> None:
+            cache_store[key] = value
+
+        analyzer.cache.get = cache_get
+        analyzer.cache.set = cache_set
 
         fake_results = [
             SourceResult(
@@ -457,12 +521,10 @@ class TestCompanyAnalyzerAnalyze:
                 section="overview",
                 data={
                     "financials": [
-                        {"account": "매출액", "current_amount": "1500000",
-                         "previous_amount": "1000000"},
+                        {"account": "매출액", "current_amount": "1500000", "previous_amount": "1000000"},
                     ],
                     "employees": [
-                        {"headcount": "1000", "avg_salary": "65",
-                         "avg_tenure_year": "5"},
+                        {"headcount": "1000", "avg_salary": "65", "avg_tenure_year": "5"},
                     ],
                 },
                 url="https://dart.fss.or.kr/",
@@ -470,8 +532,7 @@ class TestCompanyAnalyzerAnalyze:
             ),
         ]
 
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   return_value=fake_results):
+        with patch("hirekit.engine.company_analyzer.collect_parallel", return_value=fake_results):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
                     miss = analyzer.analyze("카카오", region="kr", tier=1)
@@ -508,10 +569,7 @@ class TestCompanyAnalyzerAnalyze:
         analyzer.cache.get = MagicMock(return_value=None)
         analyzer.cache.set = MagicMock()
 
-        fake_results = [
-            SourceResult(source_name="mock", section="overview",
-                         raw="overview data", data={})
-        ]
+        fake_results = [SourceResult(source_name="mock", section="overview", raw="overview data", data={})]
 
         enhance_called = [False]
 
@@ -519,12 +577,10 @@ class TestCompanyAnalyzerAnalyze:
             enhance_called[0] = True
             report.sections.setdefault(1, {})["analysis"] = "LLM overview"
 
-        with patch("hirekit.engine.company_analyzer.collect_parallel",
-                   return_value=fake_results):
+        with patch("hirekit.engine.company_analyzer.collect_parallel", return_value=fake_results):
             with patch.object(SourceRegistry, "get_available", return_value=[]):
                 with patch.object(SourceRegistry, "discover_plugins"):
-                    with patch.object(analyzer, "_enhance_with_llm",
-                                      side_effect=fake_enhance):
+                    with patch.object(analyzer, "_enhance_with_llm", side_effect=fake_enhance):
                         analyzer.analyze("카카오")
 
         assert enhance_called[0] is True
@@ -534,17 +590,21 @@ class TestCompanyAnalyzerAnalyze:
 # _score_from_data
 # ---------------------------------------------------------------------------
 
+
 class TestScoreFromData:
     def test_growth_score_from_revenue_growth(self):
         """Revenue growth rate drives growth score, not mere data existence."""
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
-        report = make_report(sections={
-            1: {"financials": [
-                {"account": "매출액", "current_amount": "1,200,000",
-                  "previous_amount": "1,000,000"},
-            ]}
-        })
+        report = make_report(
+            sections={
+                1: {
+                    "financials": [
+                        {"account": "매출액", "current_amount": "1,200,000", "previous_amount": "1,000,000"},
+                    ]
+                }
+            }
+        )
         analyzer._score_from_data(report)
         assert report.scorecard is not None
         growth_dim = next(d for d in report.scorecard.dimensions if d.name == "growth")
@@ -554,12 +614,15 @@ class TestScoreFromData:
     def test_growth_score_low_for_declining_revenue(self):
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
-        report = make_report(sections={
-            1: {"financials": [
-                {"account": "매출액", "current_amount": "800,000",
-                  "previous_amount": "1,000,000"},
-            ]}
-        })
+        report = make_report(
+            sections={
+                1: {
+                    "financials": [
+                        {"account": "매출액", "current_amount": "800,000", "previous_amount": "1,000,000"},
+                    ]
+                }
+            }
+        )
         analyzer._score_from_data(report)
         assert report.scorecard is not None
         growth_dim = next(d for d in report.scorecard.dimensions if d.name == "growth")
@@ -569,12 +632,15 @@ class TestScoreFromData:
         """Salary amount drives compensation score."""
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
-        report = make_report(sections={
-            1: {"employees": [
-                {"headcount": "500", "avg_salary": "70",
-                  "avg_tenure_year": "5.2", "position": "전체"},
-            ]}
-        })
+        report = make_report(
+            sections={
+                1: {
+                    "employees": [
+                        {"headcount": "500", "avg_salary": "70", "avg_tenure_year": "5.2", "position": "전체"},
+                    ]
+                }
+            }
+        )
         analyzer._score_from_data(report)
         assert report.scorecard is not None
         comp_dim = next(d for d in report.scorecard.dimensions if d.name == "compensation")
@@ -595,8 +661,7 @@ class TestScoreFromData:
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
         report = make_report()
         report.source_results = [
-            SourceResult(source_name="github", section="tech",
-                         data={"total_score": 80, "public_repos": 45})
+            SourceResult(source_name="github", section="tech", data={"total_score": 80, "public_repos": 45})
         ]
         report.sections = {7: {}}
         analyzer._score_from_data(report)
@@ -608,24 +673,26 @@ class TestScoreFromData:
     def test_all_dimension_scores_bounded_0_to_5(self):
         config = HireKitConfig()
         analyzer = CompanyAnalyzer(config=config, use_llm=False)
-        report = make_report(sections={
-            1: {"financials": [
-                {"account": "매출액", "current_amount": "5,000,000",
-                 "previous_amount": "3,000,000"},
-            ], "employees": [
-                {"headcount": "5000", "avg_salary": "90",
-                 "avg_tenure_year": "8"},
-            ]},
-            3: {"strategy": "AI 전략"},
-            4: {"naver_blog": [{"title": "후기"}]},
-            7: {"tech_stack": ["Python"]},
-        })
+        report = make_report(
+            sections={
+                1: {
+                    "financials": [
+                        {"account": "매출액", "current_amount": "5,000,000", "previous_amount": "3,000,000"},
+                    ],
+                    "employees": [
+                        {"headcount": "5000", "avg_salary": "90", "avg_tenure_year": "8"},
+                    ],
+                },
+                3: {"strategy": "AI 전략"},
+                4: {"naver_blog": [{"title": "후기"}]},
+                7: {"tech_stack": ["Python"]},
+            }
+        )
         report.source_results = [
             SourceResult(source_name="google_news", section="overview", data={}),
             SourceResult(source_name="exa_search", section="culture", data={}),
             SourceResult(source_name="naver_search", section="culture", data={}),
-            SourceResult(source_name="github", section="tech",
-                         data={"total_score": 90}),
+            SourceResult(source_name="github", section="tech", data={"total_score": 90}),
         ]
         analyzer._score_from_data(report)
         assert report.scorecard is not None

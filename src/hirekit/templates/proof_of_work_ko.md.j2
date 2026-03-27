@@ -12,6 +12,13 @@
 {% for item in evidence %}- {{ item }}
 {% endfor %}
 
+{% if cautions %}
+## 주의할 점
+
+{% for item in cautions %}- {{ item }}
+{% endfor %}
+{% endif %}
+
 ## 바로 할 일
 
 {% for item in next_actions %}- {{ item }}

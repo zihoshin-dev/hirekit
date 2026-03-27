@@ -28,52 +28,99 @@ class BusinessAnalysis:
 # Known segment data per company (rule-based seed)
 _KNOWN_SEGMENTS: dict[str, list[dict[str, Any]]] = {
     "카카오": [
-        {"name": "플랫폼", "revenue_ratio": 0.35, "growth_direction": "유지",
-         "key_products": ["카카오톡", "검색", "광고"]},
-        {"name": "콘텐츠", "revenue_ratio": 0.30, "growth_direction": "성장",
-         "key_products": ["카카오엔터테인먼트", "웹툰", "게임"]},
-        {"name": "커머스", "revenue_ratio": 0.20, "growth_direction": "성장",
-         "key_products": ["카카오쇼핑", "카카오메이커스"]},
-        {"name": "핀테크", "revenue_ratio": 0.15, "growth_direction": "성장",
-         "key_products": ["카카오페이", "카카오뱅크"]},
+        {
+            "name": "플랫폼",
+            "revenue_ratio": 0.35,
+            "growth_direction": "유지",
+            "key_products": ["카카오톡", "검색", "광고"],
+        },
+        {
+            "name": "콘텐츠",
+            "revenue_ratio": 0.30,
+            "growth_direction": "성장",
+            "key_products": ["카카오엔터테인먼트", "웹툰", "게임"],
+        },
+        {
+            "name": "커머스",
+            "revenue_ratio": 0.20,
+            "growth_direction": "성장",
+            "key_products": ["카카오쇼핑", "카카오메이커스"],
+        },
+        {
+            "name": "핀테크",
+            "revenue_ratio": 0.15,
+            "growth_direction": "성장",
+            "key_products": ["카카오페이", "카카오뱅크"],
+        },
     ],
     "네이버": [
-        {"name": "서치플랫폼", "revenue_ratio": 0.30, "growth_direction": "유지",
-         "key_products": ["네이버 검색", "디스플레이 광고"]},
-        {"name": "커머스", "revenue_ratio": 0.25, "growth_direction": "성장",
-         "key_products": ["스마트스토어", "브랜드스토어"]},
-        {"name": "핀테크", "revenue_ratio": 0.15, "growth_direction": "성장",
-         "key_products": ["네이버페이"]},
-        {"name": "콘텐츠", "revenue_ratio": 0.20, "growth_direction": "성장",
-         "key_products": ["웹툰", "시리즈", "치지직"]},
-        {"name": "클라우드", "revenue_ratio": 0.10, "growth_direction": "성장",
-         "key_products": ["네이버클라우드", "CLOVA"]},
+        {
+            "name": "서치플랫폼",
+            "revenue_ratio": 0.30,
+            "growth_direction": "유지",
+            "key_products": ["네이버 검색", "디스플레이 광고"],
+        },
+        {
+            "name": "커머스",
+            "revenue_ratio": 0.25,
+            "growth_direction": "성장",
+            "key_products": ["스마트스토어", "브랜드스토어"],
+        },
+        {"name": "핀테크", "revenue_ratio": 0.15, "growth_direction": "성장", "key_products": ["네이버페이"]},
+        {
+            "name": "콘텐츠",
+            "revenue_ratio": 0.20,
+            "growth_direction": "성장",
+            "key_products": ["웹툰", "시리즈", "치지직"],
+        },
+        {
+            "name": "클라우드",
+            "revenue_ratio": 0.10,
+            "growth_direction": "성장",
+            "key_products": ["네이버클라우드", "CLOVA"],
+        },
     ],
     "토스": [
-        {"name": "금융플랫폼", "revenue_ratio": 0.50, "growth_direction": "성장",
-         "key_products": ["토스", "간편송금", "대출중개"]},
-        {"name": "뱅킹", "revenue_ratio": 0.30, "growth_direction": "성장",
-         "key_products": ["토스뱅크"]},
-        {"name": "증권", "revenue_ratio": 0.20, "growth_direction": "성장",
-         "key_products": ["토스증권"]},
+        {
+            "name": "금융플랫폼",
+            "revenue_ratio": 0.50,
+            "growth_direction": "성장",
+            "key_products": ["토스", "간편송금", "대출중개"],
+        },
+        {"name": "뱅킹", "revenue_ratio": 0.30, "growth_direction": "성장", "key_products": ["토스뱅크"]},
+        {"name": "증권", "revenue_ratio": 0.20, "growth_direction": "성장", "key_products": ["토스증권"]},
     ],
     "쿠팡": [
-        {"name": "프로덕트커머스", "revenue_ratio": 0.70, "growth_direction": "유지",
-         "key_products": ["로켓배송", "쿠팡마켓플레이스"]},
-        {"name": "개발도상 오퍼링", "revenue_ratio": 0.30, "growth_direction": "성장",
-         "key_products": ["쿠팡이츠", "쿠팡플레이", "로켓그로스"]},
+        {
+            "name": "프로덕트커머스",
+            "revenue_ratio": 0.70,
+            "growth_direction": "유지",
+            "key_products": ["로켓배송", "쿠팡마켓플레이스"],
+        },
+        {
+            "name": "개발도상 오퍼링",
+            "revenue_ratio": 0.30,
+            "growth_direction": "성장",
+            "key_products": ["쿠팡이츠", "쿠팡플레이", "로켓그로스"],
+        },
     ],
     "우아한형제들": [
-        {"name": "음식배달", "revenue_ratio": 0.85, "growth_direction": "유지",
-         "key_products": ["배달의민족"]},
-        {"name": "B2B솔루션", "revenue_ratio": 0.15, "growth_direction": "성장",
-         "key_products": ["배민상회", "배민외식업광장"]},
+        {"name": "음식배달", "revenue_ratio": 0.85, "growth_direction": "유지", "key_products": ["배달의민족"]},
+        {
+            "name": "B2B솔루션",
+            "revenue_ratio": 0.15,
+            "growth_direction": "성장",
+            "key_products": ["배민상회", "배민외식업광장"],
+        },
     ],
     "배달의민족": [
-        {"name": "음식배달", "revenue_ratio": 0.85, "growth_direction": "유지",
-         "key_products": ["배달의민족"]},
-        {"name": "B2B솔루션", "revenue_ratio": 0.15, "growth_direction": "성장",
-         "key_products": ["배민상회", "배민외식업광장"]},
+        {"name": "음식배달", "revenue_ratio": 0.85, "growth_direction": "유지", "key_products": ["배달의민족"]},
+        {
+            "name": "B2B솔루션",
+            "revenue_ratio": 0.15,
+            "growth_direction": "성장",
+            "key_products": ["배민상회", "배민외식업광장"],
+        },
     ],
 }
 
@@ -126,9 +173,36 @@ def analyze_segments(company: str, source_data: dict[str, Any]) -> BusinessAnaly
     )
 
 
+def summarize_growth_reality(source_data: dict[str, Any]) -> dict[str, Any]:
+    dart_growth = source_data.get("dart", {}).get("growth_reality", {})
+    pension_growth = source_data.get("pension", {}).get("employment_growth_reality", {})
+    interpretation: list[str] = []
+
+    revenue_growth_rate = dart_growth.get("revenue_growth_rate")
+    if isinstance(revenue_growth_rate, (int, float)):
+        if revenue_growth_rate > 5:
+            interpretation.append("매출이 의미 있게 성장 중이에요.")
+        elif revenue_growth_rate < -5:
+            interpretation.append("매출이 둔화 또는 감소 중이에요.")
+        else:
+            interpretation.append("매출 흐름이 비교적 안정적이에요.")
+
+    if pension_growth.get("pension_members"):
+        interpretation.append("국민연금 가입자 수가 조직 규모의 현실 신호를 제공해요.")
+
+    return {
+        "verified_facts": {
+            "growth_reality": dart_growth,
+            "employment_growth_reality": pension_growth,
+        },
+        "interpretation": interpretation,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Internal helpers
 # ---------------------------------------------------------------------------
+
 
 def _infer_segments_from_financials(source_data: dict[str, Any]) -> list[BusinessSegment]:
     """Attempt to infer segments from financial data when no seed data available."""

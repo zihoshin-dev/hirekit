@@ -3,12 +3,14 @@
 from __future__ import annotations
 
 import logging
-from dataclasses import dataclass, field
+import re
+from dataclasses import dataclass
 from typing import Any
 
 import httpx
 from bs4 import BeautifulSoup
 
+from hirekit.core.trust_contract import default_source_authority
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
 logger = logging.getLogger(__name__)
@@ -42,9 +44,9 @@ GREETING_SLUGS: dict[str, str] = {
 }
 
 # 네이버 계열사 목록
-NAVER_COMPANIES: frozenset[str] = frozenset(
-    ("네이버", "네이버웹툰", "네이버클라우드", "네이버파이낸셜")
-)
+NAVER_COMPANIES: frozenset[str] = frozenset(("네이버", "네이버웹툰", "네이버클라우드", "네이버파이낸셜"))
+
+_EXPECTATION_SPLIT_PATTERN = re.compile(r"[\n;/]|(?:\s{2,})")
 
 
 @dataclass
@@ -127,11 +129,7 @@ class JobPostingCollector:
         result: list[JobPosting] = []
         for j in job_list:
             recruit_no = j.get("rcrtNo", "")
-            job_url = (
-                f"https://recruit.navercorp.com/rcrt/view.do?rcrtNo={recruit_no}"
-                if recruit_no
-                else ""
-            )
+            job_url = f"https://recruit.navercorp.com/rcrt/view.do?rcrtNo={recruit_no}" if recruit_no else ""
             result.append(
                 JobPosting(
                     title=j.get("jobNm", ""),
@@ -168,25 +166,19 @@ class JobPostingCollector:
         # Greeting HR renders job cards as <a> tags with data attributes or
         # nested title/department spans.
         for card in soup.find_all("a", href=True):
-            href: str = card.get("href", "")
+            href_value = card.get("href", "")
+            href = href_value if isinstance(href_value, str) else ""
             if "/career/" not in href and "/job/" not in href:
                 continue
 
-            title_el = (
-                card.find(class_=lambda c: c and "title" in c.lower())
-                or card.find("h3")
-                or card.find("h4")
-                or card.find("strong")
-            )
+            title_el = card.find(class_=_has_title_class) or card.find("h3") or card.find("h4") or card.find("strong")
             if not title_el:
                 continue
             title = title_el.get_text(strip=True)
             if not title or len(title) < 3:
                 continue
 
-            dept_el = card.find(class_=lambda c: c and any(
-                kw in c.lower() for kw in ("department", "team", "category", "부서", "팀")
-            ))
+            dept_el = card.find(class_=_has_department_class)
             dept = dept_el.get_text(strip=True) if dept_el else ""
 
             full_url = href if href.startswith("http") else f"https://{slug}.career.greetinghr.com{href}"
@@ -222,7 +214,7 @@ class JobPostingCollector:
     def close(self) -> None:
         self.client.close()
 
-    def __enter__(self) -> "JobPostingCollector":
+    def __enter__(self) -> JobPostingCollector:
         return self
 
     def __exit__(self, *args: Any) -> None:
@@ -232,6 +224,7 @@ class JobPostingCollector:
 # ---------------------------------------------------------------------------
 # BaseSource integration
 # ---------------------------------------------------------------------------
+
 
 @SourceRegistry.register
 class CareerPagesSource(BaseSource):
@@ -254,6 +247,7 @@ class CareerPagesSource(BaseSource):
 
         total = len(postings)
         departments = sorted({p.department for p in postings if p.department})
+        role_expectations = [_build_role_expectation(p) for p in postings[:50]]
         raw_lines = [f"채용 포지션 총 {total}개"]
         for p in postings[:30]:
             dept = f"[{p.department}] " if p.department else ""
@@ -274,11 +268,52 @@ class CareerPagesSource(BaseSource):
                             "department": p.department,
                             "employment_type": p.employment_type,
                             "posted_at": p.posted_at,
+                            "description_snippet": p.description_snippet,
                         }
                         for p in postings[:50]
                     ],
+                    "role_expectations": role_expectations,
                 },
                 confidence=0.9,
                 raw="\n".join(raw_lines),
             )
         ]
+
+
+def _extract_description_snippet(card: BeautifulSoup) -> str:
+    return " ".join(card.stripped_strings)[:200]
+
+
+def _has_title_class(class_name: str | None) -> bool:
+    return bool(class_name and "title" in class_name.lower())
+
+
+def _has_department_class(class_name: str | None) -> bool:
+    return bool(class_name and any(kw in class_name.lower() for kw in ("department", "team", "category", "부서", "팀")))
+
+
+def _build_role_expectation(posting: JobPosting) -> dict[str, Any]:
+    expectations = _extract_role_expectations(posting)
+    return {
+        "title": posting.title,
+        "department": posting.department,
+        "expectations": expectations,
+        "source_name": "career_pages",
+        "source_authority": default_source_authority("career_pages"),
+        "trust_label": "supporting" if expectations else "unknown",
+    }
+
+
+def _extract_role_expectations(posting: JobPosting) -> list[str]:
+    text_candidates = [posting.description_snippet, posting.title, posting.department]
+    expectations: list[str] = []
+
+    for candidate in text_candidates:
+        for part in _EXPECTATION_SPLIT_PATTERN.split(candidate):
+            cleaned = re.sub(r"^[\-•·▪▶■\s]+", "", part).strip()
+            if len(cleaned) < 4:
+                continue
+            if cleaned not in expectations:
+                expectations.append(cleaned)
+
+    return expectations[:5]

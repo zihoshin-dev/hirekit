@@ -38,9 +38,7 @@ def version_callback(value: bool) -> None:
 
 @app.callback()
 def main(
-    version: bool | None = typer.Option(
-        None, "--version", "-v", callback=version_callback, is_eager=True
-    ),
+    version: bool | None = typer.Option(None, "--version", "-v", callback=version_callback, is_eager=True),
 ) -> None:
     """HireKit — 기업 조사, 공고 매칭, 면접 준비를 한 번에."""
     _load_env()
@@ -58,13 +56,15 @@ def analyze(
     config = load_config()
 
     llm_label = "off" if no_llm else config.llm.provider
-    console.print(Panel(
-        f"[bold]분석 대상:[/bold] {company}\n"
-        f"[bold]지역:[/bold] {region}  [bold]티어:[/bold] {tier}  "
-        f"[bold]LLM:[/bold] {llm_label}",
-        title="[bold blue]HireKit 기업 분석[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]분석 대상:[/bold] {company}\n"
+            f"[bold]지역:[/bold] {region}  [bold]티어:[/bold] {tier}  "
+            f"[bold]LLM:[/bold] {llm_label}",
+            title="[bold blue]HireKit 기업 분석[/bold blue]",
+            border_style="blue",
+        )
+    )
 
     # LLM 미설정 안내
     if not no_llm and config.llm.provider == "none":
@@ -80,6 +80,7 @@ def analyze(
 
     with console.status("[bold green]소스에서 데이터 수집 중..."):
         report = analyzer.analyze(company=company, region=region, tier=tier)
+    report_payload = report.to_dict()
 
     console.print("[green]✓[/green] 데이터 수집 완료")
 
@@ -88,7 +89,8 @@ def analyze(
     elif output == "json":
         import json
         import sys
-        sys.stdout.write(json.dumps(report.to_dict(), ensure_ascii=False, indent=2) + "\n")
+
+        sys.stdout.write(json.dumps(report_payload, ensure_ascii=False, indent=2) + "\n")
     else:
         out_path = Path(config.output.directory) / f"{company}_analysis.md"
         out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -108,7 +110,9 @@ def analyze(
             table.add_row(d.label, f"{d.weight:.0%}", score_str, d.evidence[:60])
 
         table.add_row(
-            "[bold]종합[/bold]", "", f"[bold]{report.scorecard.total_score:.0f}/100[/bold]",
+            "[bold]종합[/bold]",
+            "",
+            f"[bold]{report.scorecard.total_score:.0f}/100[/bold]",
             f"등급 [bold]{report.scorecard.grade}[/bold]",
         )
         console.print(table)
@@ -225,13 +229,15 @@ def match(
         analysis = matcher.analyze(jd_source=jd_source, profile=user_profile)
 
     if output == "terminal":
-        console.print(Panel(
-            f"[bold]{analysis.title}[/bold] — {analysis.company}\n"
-            f"매칭 점수: [bold]{analysis.match_score:.0f}/100[/bold] "
-            f"(등급 {analysis.match_grade})",
-            title="[bold blue]JD 매칭[/bold blue]",
-            border_style="blue",
-        ))
+        console.print(
+            Panel(
+                f"[bold]{analysis.title}[/bold] — {analysis.company}\n"
+                f"매칭 점수: [bold]{analysis.match_score:.0f}/100[/bold] "
+                f"(등급 {analysis.match_grade})",
+                title="[bold blue]JD 매칭[/bold blue]",
+                border_style="blue",
+            )
+        )
         if analysis.gaps:
             console.print("\n[red]부족한 부분:[/red]")
             for g in analysis.gaps[:5]:
@@ -271,15 +277,17 @@ def interview(
         )
 
     if output == "terminal":
-        console.print(Panel(
-            f"[bold]{company}[/bold] — {position or '공통'}\n"
-            f"질문 수: 공통 {len(guide.common_questions)}개, "
-            f"기술 {len(guide.technical_questions)}개, "
-            f"행동 {len(guide.behavioral_questions)}개\n"
-            f"역질문: {len(guide.reverse_questions)}개",
-            title="[bold blue]면접 준비[/bold blue]",
-            border_style="blue",
-        ))
+        console.print(
+            Panel(
+                f"[bold]{company}[/bold] — {position or '공통'}\n"
+                f"질문 수: 공통 {len(guide.common_questions)}개, "
+                f"기술 {len(guide.technical_questions)}개, "
+                f"행동 {len(guide.behavioral_questions)}개\n"
+                f"역질문: {len(guide.reverse_questions)}개",
+                title="[bold blue]면접 준비[/bold blue]",
+                border_style="blue",
+            )
+        )
         for q in guide.common_questions:
             console.print(f"\n[cyan]Q:[/cyan] {q['question']}")
             console.print(f"  [dim]{q.get('answer', '')}[/dim]")
@@ -315,21 +323,20 @@ def coverletter(
         )
 
     if output == "terminal":
-        console.print(Panel(
-            f"[bold]{company}[/bold] — {position or '미지정'}\n"
-            f"종합 점수: [bold]{draft.overall_score:.0f}/100[/bold] "
-            f"(등급 {draft.grade})\n"
-            f"섹션 수: {len(draft.sections)}개",
-            title="[bold blue]자기소개서 코치[/bold blue]",
-            border_style="blue",
-        ))
+        console.print(
+            Panel(
+                f"[bold]{company}[/bold] — {position or '미지정'}\n"
+                f"종합 점수: [bold]{draft.overall_score:.0f}/100[/bold] "
+                f"(등급 {draft.grade})\n"
+                f"섹션 수: {len(draft.sections)}개",
+                title="[bold blue]자기소개서 코치[/bold blue]",
+                border_style="blue",
+            )
+        )
         for section in draft.sections:
             console.print(f"\n[cyan]## {section.title}[/cyan]")
             console.print(section.content)
-            console.print(
-                f"[dim]점수: {section.score:.0f}/100 | "
-                f"글자 수: {section.word_count}자[/dim]"
-            )
+            console.print(f"[dim]점수: {section.score:.0f}/100 | 글자 수: {section.word_count}자[/dim]")
             if section.feedback:
                 console.print("[yellow]피드백:[/yellow]")
                 for fb in section.feedback:
@@ -350,7 +357,9 @@ def coverletter(
             table.add_row(s.title, str(s.word_count), f"{s.score:.0f}/100", s.grade)
 
         table.add_row(
-            "[bold]종합[/bold]", "", f"[bold]{draft.overall_score:.0f}/100[/bold]",
+            "[bold]종합[/bold]",
+            "",
+            f"[bold]{draft.overall_score:.0f}/100[/bold]",
             f"[bold]{draft.grade}[/bold]",
         )
         console.print(table)
@@ -384,15 +393,17 @@ def pipeline(
     llm = _get_llm(config) if not no_llm else None
     user_profile = _load_profile(profile)
 
-    console.print(Panel(
-        f"[bold]기업:[/bold] {company}\n"
-        f"[bold]포지션:[/bold] {position or '미지정'}  "
-        f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}\n"
-        f"[bold]현재 회사:[/bold] {current or '미지정'}  "
-        f"[bold]경력:[/bold] {experience}년",
-        title="[bold blue]HireKit 파이프라인[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]기업:[/bold] {company}\n"
+            f"[bold]포지션:[/bold] {position or '미지정'}  "
+            f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}\n"
+            f"[bold]현재 회사:[/bold] {current or '미지정'}  "
+            f"[bold]경력:[/bold] {experience}년",
+            title="[bold blue]HireKit 파이프라인[/bold blue]",
+            border_style="blue",
+        )
+    )
 
     # Step 1: Company analysis
     console.print("\n[bold cyan][1/5] 기업 분석 중...[/bold cyan]")
@@ -424,9 +435,7 @@ def pipeline(
         console.print("[bold cyan][3/5] 이력서 리뷰 중...[/bold cyan]")
         advisor = ResumeAdvisor(llm=llm)
         with console.status("[bold green]이력서 리뷰 중..."):
-            resume_feedback = advisor.review(
-                resume_path=resume_file, jd_text=jd_text, profile=user_profile
-            )
+            resume_feedback = advisor.review(resume_path=resume_file, jd_text=jd_text, profile=user_profile)
         console.print("[green]✓[/green] 이력서 리뷰 완료")
     else:
         console.print("[dim][3/5] 이력서 리뷰 건너뜀 (--resume 미지정)[/dim]")
@@ -476,6 +485,9 @@ def pipeline(
         experience=experience,
         skills=skills,
         profile=user_profile,
+        company_report=report,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
     )
     comparison_mode = ""
     comparison_result = None
@@ -499,26 +511,22 @@ def pipeline(
     if output == "terminal":
         company_score = report.scorecard.total_score if report.scorecard else 0.0
         company_grade = report.scorecard.grade if report.scorecard else "N/A"
-        console.print(Panel(
-            f"[bold]기업 점수:[/bold] {company_score:.0f}/100 "
-            f"(등급 {company_grade})\n"
-            + (
-                f"[bold]JD 매칭:[/bold] {jd_analysis.match_score:.0f}/100\n"
-                if jd_analysis else ""
+        console.print(
+            Panel(
+                f"[bold]기업 점수:[/bold] {company_score:.0f}/100 "
+                f"(등급 {company_grade})\n"
+                + (f"[bold]JD 매칭:[/bold] {jd_analysis.match_score:.0f}/100\n" if jd_analysis else "")
+                + (f"[bold]이력서 점수:[/bold] {resume_feedback.overall_score:.0f}/100\n" if resume_feedback else "")
+                + f"[bold]면접 질문:[/bold] {len(guide.common_questions)}개\n"
+                + f"[bold]자소서 점수:[/bold] {cover_draft.overall_score:.0f}/100\n"
+                + f"[{verdict_style}]최종 판정: {verdict.label}[/{verdict_style}]\n"
+                + f"[bold]판정 신뢰도:[/bold] {verdict.confidence}\n"
+                + f"[dim]{verdict.advisory_note}[/dim]\n\n"
+                + f"[bold]실행 메모:[/bold] {proof_artifact.thesis}",
+                title="[bold blue]파이프라인 결과[/bold blue]",
+                border_style="blue",
             )
-            + (
-                f"[bold]이력서 점수:[/bold] {resume_feedback.overall_score:.0f}/100\n"
-                if resume_feedback else ""
-            )
-            + f"[bold]면접 질문:[/bold] {len(guide.common_questions)}개\n"
-            + f"[bold]자소서 점수:[/bold] {cover_draft.overall_score:.0f}/100\n"
-            + f"[{verdict_style}]최종 판정: {verdict.label}[/{verdict_style}]\n"
-            + f"[bold]판정 신뢰도:[/bold] {verdict.confidence}\n"
-            + f"[dim]{verdict.advisory_note}[/dim]\n\n"
-            + f"[bold]실행 메모:[/bold] {proof_artifact.thesis}",
-            title="[bold blue]파이프라인 결과[/bold blue]",
-            border_style="blue",
-        ))
+        )
         for reason in verdict.reasons:
             console.print(f"  - {reason}")
         console.print("\n[bold green]바로 할 일:[/bold green]")
@@ -533,9 +541,7 @@ def pipeline(
                 top_gaps = ", ".join(g.skill for g in strategy_result.gap_analysis[:3])
                 console.print(f"핵심 갭: {top_gaps}")
             if strategy_result.alternative_companies:
-                console.print(
-                    f"대안 기업: {', '.join(strategy_result.alternative_companies[:3])}"
-                )
+                console.print(f"대안 기업: {', '.join(strategy_result.alternative_companies[:3])}")
         if comparison_result is not None:
             console.print(f"\n[bold magenta]워룸 비교 ({comparison_mode}):[/bold magenta]")
             console.print(f"비교군: {' vs '.join(comparison_result.companies)}")
@@ -702,14 +708,16 @@ def proof(
     llm = _get_llm(config) if not no_llm else None
     user_profile = _load_profile(profile)
 
-    console.print(Panel(
-        f"[bold]기업:[/bold] {company}\n"
-        f"[bold]목표 직군:[/bold] {role or '미지정'}  "
-        f"[bold]경력:[/bold] {experience}년  "
-        f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}",
-        title="[bold blue]HireKit 실행 메모[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]기업:[/bold] {company}\n"
+            f"[bold]목표 직군:[/bold] {role or '미지정'}  "
+            f"[bold]경력:[/bold] {experience}년  "
+            f"[bold]LLM:[/bold] {'off' if no_llm else config.llm.provider}",
+            title="[bold blue]HireKit 실행 메모[/bold blue]",
+            border_style="blue",
+        )
+    )
 
     analyzer = CompanyAnalyzer(config=config, use_llm=not no_llm)
     with console.status("[bold green]기업 분석 중..."):
@@ -753,6 +761,9 @@ def proof(
         experience=experience,
         skills=skills,
         profile=user_profile,
+        company_report=report,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
     )
 
     if output == "markdown":
@@ -765,14 +776,16 @@ def proof(
         console.print(f"[green]실행 메모 저장:[/green] {out_path}")
         return
 
-    console.print(Panel(
-        f"[bold]판정:[/bold] {verdict.label}\n"
-        f"[bold]신뢰도:[/bold] {verdict.confidence}\n"
-        f"[bold]상태:[/bold] {artifact.status}\n\n"
-        f"{artifact.thesis}",
-        title="[bold blue]실행 메모[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]판정:[/bold] {verdict.label}\n"
+            f"[bold]신뢰도:[/bold] {verdict.confidence}\n"
+            f"[bold]상태:[/bold] {artifact.status}\n\n"
+            f"{artifact.thesis}",
+            title="[bold blue]실행 메모[/bold blue]",
+            border_style="blue",
+        )
+    )
     if artifact.evidence:
         console.print("\n[bold]핵심 근거:[/bold]")
         for item in artifact.evidence:
@@ -814,14 +827,16 @@ def panel(
     llm = _get_llm(config) if not no_llm else None
     user_profile = _load_profile(profile)
 
-    console.print(Panel(
-        f"[bold]기업:[/bold] {company}\n"
-        f"[bold]목표 직군:[/bold] {role or '미지정'}  "
-        f"[bold]경력:[/bold] {experience}년\n"
-        f"[bold]비교군:[/bold] {', '.join(compare) if compare else '자동 추천'}",
-        title="[bold blue]HireKit Advisory Panel[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]기업:[/bold] {company}\n"
+            f"[bold]목표 직군:[/bold] {role or '미지정'}  "
+            f"[bold]경력:[/bold] {experience}년\n"
+            f"[bold]비교군:[/bold] {', '.join(compare) if compare else '자동 추천'}",
+            title="[bold blue]HireKit Advisory Panel[/bold blue]",
+            border_style="blue",
+        )
+    )
 
     analyzer = CompanyAnalyzer(config=config, use_llm=not no_llm)
     with console.status("[bold green]기업 분석 중..."):
@@ -858,6 +873,9 @@ def panel(
         experience=experience,
         skills=skills,
         profile=user_profile,
+        company_report=report,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
     )
 
     comparison_mode = ""
@@ -894,23 +912,24 @@ def panel(
         console.print(f"[green]패널 리포트 저장:[/green] {out_path}")
         return
 
-    console.print(Panel(
-        f"[bold]종합 판정:[/bold] {advisory_panel.overall_verdict}\n"
-        f"[bold]신뢰도:[/bold] {advisory_panel.overall_confidence}\n\n"
-        f"{advisory_panel.consensus_summary}",
-        title="[bold blue]전문가 패널 요약[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]종합 판정:[/bold] {advisory_panel.overall_verdict}\n"
+            f"[bold]신뢰도:[/bold] {advisory_panel.overall_confidence}\n\n"
+            f"{advisory_panel.consensus_summary}",
+            title="[bold blue]전문가 패널 요약[/bold blue]",
+            border_style="blue",
+        )
+    )
     if advisory_panel.next_actions:
         console.print("\n[bold green]바로 할 일:[/bold green]")
         for item in advisory_panel.next_actions:
             console.print(f"  • {item}")
     console.print("\n[bold cyan]렌즈별 판정:[/bold cyan]")
     for lens in advisory_panel.lenses:
-        console.print(
-            f"  • [bold]{lens.title}[/bold] — {lens.verdict} ({lens.confidence})"
-        )
+        console.print(f"  • [bold]{lens.title}[/bold] — {lens.verdict} ({lens.confidence})")
         console.print(f"    {lens.summary}")
+
 
 @app.command()
 def resume(
@@ -931,17 +950,16 @@ def resume(
     jd_text = _resolve_jd_text(jd) if jd else ""
 
     with console.status("[bold green]이력서 검토 중..."):
-        feedback = advisor.review(
-            resume_path=file, jd_text=jd_text, profile=user_profile
-        )
+        feedback = advisor.review(resume_path=file, jd_text=jd_text, profile=user_profile)
 
     if output == "terminal":
-        console.print(Panel(
-            f"[bold]점수:[/bold] {feedback.overall_score:.0f}/100 "
-            f"(등급 {feedback.grade})",
-            title="[bold blue]이력서 리뷰[/bold blue]",
-            border_style="blue",
-        ))
+        console.print(
+            Panel(
+                f"[bold]점수:[/bold] {feedback.overall_score:.0f}/100 (등급 {feedback.grade})",
+                title="[bold blue]이력서 리뷰[/bold blue]",
+                border_style="blue",
+            )
+        )
         if feedback.strengths:
             console.print("\n[green]강점:[/green]")
             for s in feedback.strengths:
@@ -985,9 +1003,7 @@ def strategy(
     target_role = role or _profile_target_role(user_profile)
     resolved_current_company = current or _profile_string(user_profile, "current_company") or None
     resolved_current_role = current_role or _profile_string(user_profile, "current_role")
-    resolved_experience = experience or _profile_int(
-        user_profile, "years_of_experience", "experience_years"
-    )
+    resolved_experience = experience or _profile_int(user_profile, "years_of_experience", "experience_years")
     resolved_education = education or _profile_string(user_profile, "education") or None
 
     career_profile = CareerProfile(
@@ -1000,14 +1016,16 @@ def strategy(
         education=resolved_education,
     )
 
-    console.print(Panel(
-        f"[bold]목표 기업:[/bold] {target}\n"
-        f"[bold]현재 회사:[/bold] {resolved_current_company or '미지정'}  "
-        f"[bold]목표 직군:[/bold] {target_role or '미지정'}  "
-        f"[bold]경력:[/bold] {resolved_experience}년",
-        title="[bold blue]HireKit 커리어 전략[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]목표 기업:[/bold] {target}\n"
+            f"[bold]현재 회사:[/bold] {resolved_current_company or '미지정'}  "
+            f"[bold]목표 직군:[/bold] {target_role or '미지정'}  "
+            f"[bold]경력:[/bold] {resolved_experience}년",
+            title="[bold blue]HireKit 커리어 전략[/bold blue]",
+            border_style="blue",
+        )
+    )
 
     engine = CareerStrategyEngine()
     with console.status("[bold green]전략 분석 중..."):
@@ -1084,9 +1102,7 @@ def strategy(
         console.print(f"\n[bold]리스크 평가:[/bold]\n{result.risk_assessment}")
 
         if result.alternative_companies:
-            console.print(
-                f"\n[bold]대안 기업:[/bold] {', '.join(result.alternative_companies)}"
-            )
+            console.print(f"\n[bold]대안 기업:[/bold] {', '.join(result.alternative_companies)}")
 
 
 @app.command()
@@ -1104,11 +1120,13 @@ def compare(
     config = load_config()
     comparator = CompanyComparator()
 
-    console.print(Panel(
-        f"[bold]비교 기업:[/bold] {' vs '.join(companies)}",
-        title="[bold blue]HireKit 기업 비교[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]비교 기업:[/bold] {' vs '.join(companies)}",
+            title="[bold blue]HireKit 기업 비교[/bold blue]",
+            border_style="blue",
+        )
+    )
 
     with console.status("[bold green]기업 비교 중..."):
         result = comparator.compare_many(companies)
@@ -1167,6 +1185,7 @@ def serve(
     if not docs_dir.exists():
         # pip install된 경우 패키지 내부에서 찾기
         import importlib.resources
+
         docs_dir = Path(str(importlib.resources.files("hirekit"))) / ".." / ".." / "docs"
 
     if not docs_dir.exists():
@@ -1178,16 +1197,19 @@ def serve(
         directory=str(docs_dir.resolve()),
     )
 
-    console.print(Panel(
-        f"[bold]주소:[/bold] http://{host}:{port}\n"
-        f"[bold]디렉토리:[/bold] {docs_dir.resolve()}\n"
-        "[dim]Ctrl+C로 종료[/dim]",
-        title="[bold blue]HireKit 로컬 서버[/bold blue]",
-        border_style="blue",
-    ))
+    console.print(
+        Panel(
+            f"[bold]주소:[/bold] http://{host}:{port}\n"
+            f"[bold]디렉토리:[/bold] {docs_dir.resolve()}\n"
+            "[dim]Ctrl+C로 종료[/dim]",
+            title="[bold blue]HireKit 로컬 서버[/bold blue]",
+            border_style="blue",
+        )
+    )
 
     def open_browser() -> None:
         import time
+
         time.sleep(1)
         webbrowser.open(f"http://{host}:{port}")
 
@@ -1201,6 +1223,7 @@ def serve(
 
 
 # --- Helpers ---
+
 
 def _get_llm(config):
     """Initialize LLM from config.
@@ -1218,9 +1241,11 @@ def _get_llm(config):
     try:
         if provider == "openai":
             from hirekit.llm.openai import OpenAIAdapter
+
             return OpenAIAdapter(model=model)
         if provider == "anthropic":
             from hirekit.llm.anthropic import AnthropicAdapter
+
             return AnthropicAdapter(model=model)
     except ImportError:
         console.print(
@@ -1291,17 +1316,14 @@ def _maybe_build_strategy(
     experience: int,
     skills: str,
     profile: dict[str, Any] | None = None,
+    company_report=None,
+    jd_analysis=None,
+    resume_feedback=None,
 ):
     resolved_current = current or _profile_string(profile, "current_company")
-    resolved_current_role = (
-        current_role
-        or _profile_string(profile, "current_role")
-        or _profile_string(profile, "role")
-    )
+    resolved_current_role = current_role or _profile_string(profile, "current_role") or _profile_string(profile, "role")
     resolved_role = role or _profile_target_role(profile)
-    resolved_experience = experience or _profile_int(
-        profile, "years_of_experience", "experience"
-    )
+    resolved_experience = experience or _profile_int(profile, "years_of_experience", "experience")
     explicit_skills = [item.strip() for item in skills.split(",") if item.strip()]
     resolved_skills = _merge_unique_strings(
         explicit_skills,
@@ -1321,7 +1343,7 @@ def _maybe_build_strategy(
 
     from hirekit.engine.career_strategy import CareerProfile, CareerStrategyEngine
 
-    profile = CareerProfile(
+    career_profile = CareerProfile(
         target_company=target,
         current_company=resolved_current or None,
         years_of_experience=resolved_experience,
@@ -1329,7 +1351,12 @@ def _maybe_build_strategy(
         target_role=resolved_role or "",
         skills=resolved_skills,
     )
-    return CareerStrategyEngine().analyze(profile)
+    return CareerStrategyEngine().analyze(
+        career_profile,
+        company_report=company_report,
+        jd_analysis=jd_analysis,
+        resume_feedback=resume_feedback,
+    )
 
 
 def _comparison_targets(
@@ -1339,11 +1366,7 @@ def _comparison_targets(
     strategy_result,
 ) -> list[str]:
     target_key = target.strip().lower()
-    explicit_targets = [
-        name
-        for name in _merge_unique_strings(compare)
-        if name.strip().lower() != target_key
-    ]
+    explicit_targets = [name for name in _merge_unique_strings(compare) if name.strip().lower() != target_key]
     if explicit_targets:
         return [target, *explicit_targets[:3]]
 
@@ -1370,9 +1393,7 @@ def _strategy_markdown(strategy_result, heading: str = "## 개인화 전략") ->
         strategy_result.approach_strategy,
     ]
     if strategy_result.resume_focus:
-        lines.extend(
-            ["", "### 이력서 강조 포인트", *[f"- {item}" for item in strategy_result.resume_focus]]
-        )
+        lines.extend(["", "### 이력서 강조 포인트", *[f"- {item}" for item in strategy_result.resume_focus]])
     if strategy_result.interview_prep:
         lines.extend(["", "### 면접 준비", *[f"- {item}" for item in strategy_result.interview_prep]])
     if strategy_result.gap_analysis:
@@ -1440,6 +1461,7 @@ def _load_profile(path: str) -> dict[str, Any] | None:
 
     try:
         import yaml
+
         return yaml.safe_load(p.read_text(encoding="utf-8"))
     except ImportError:
         # Fallback: basic YAML parsing without pyyaml
@@ -1544,6 +1566,7 @@ def jobs(
     if output == "json":
         import json
         import sys
+
         sys.stdout.write(
             json.dumps(
                 [

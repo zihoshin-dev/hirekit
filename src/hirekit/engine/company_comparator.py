@@ -16,9 +16,9 @@ from hirekit.core.scoring import score_to_grade
 _COMPANY_DATA: dict[str, dict[str, Any]] = {
     "토스": {
         "industry": "fintech",
-        "size": "mid",          # startup < mid < large < enterprise
+        "size": "mid",  # startup < mid < large < enterprise
         "size_employees": 3000,
-        "growth": 4.5,          # 1-5 scale
+        "growth": 4.5,  # 1-5 scale
         "compensation": 4.5,
         "culture": 4.5,
         "tech_level": 5.0,
@@ -242,11 +242,11 @@ class ComparisonResult:
     """Result of comparing two or more companies."""
 
     companies: list[str]
-    dimensions: dict[str, list[float]]   # {dimension_key: [score_c1, score_c2, ...]}
+    dimensions: dict[str, list[float]]  # {dimension_key: [score_c1, score_c2, ...]}
     winner_by_dimension: dict[str, str]  # {dimension_key: company_name}
-    overall_scores: dict[str, float]     # {company: weighted_score 0-100}
+    overall_scores: dict[str, float]  # {company: weighted_score 0-100}
     overall_recommendation: str
-    comparison_table: dict[str, Any]     # detailed comparison data
+    comparison_table: dict[str, Any]  # detailed comparison data
 
     @property
     def winner(self) -> str:
@@ -282,9 +282,7 @@ class ComparisonResult:
 
         for dim_key, label in _DIMENSION_LABELS.items():
             scores = self.dimensions.get(dim_key, [])
-            score_cells = " | ".join(
-                f"{s:.1f}/5" if s > 0 else "-" for s in scores
-            )
+            score_cells = " | ".join(f"{s:.1f}/5" if s > 0 else "-" for s in scores)
             winner = self.winner_by_dimension.get(dim_key, "-")
             lines.append(f"| {label} | {score_cells} | {winner} |")
 
@@ -352,36 +350,26 @@ class CompanyComparator:
         winner_by_dimension: dict[str, str] = {}
         for dim_key, scores in dimensions.items():
             max_score = max(scores)
-            winners = [
-                resolved_names[i] for i, s in enumerate(scores) if s == max_score
-            ]
+            winners = [resolved_names[i] for i, s in enumerate(scores) if s == max_score]
             winner_by_dimension[dim_key] = " & ".join(winners)
 
         # Weighted overall scores (convert 1-5 → 0-100)
         overall_scores: dict[str, float] = {}
         for i, name in enumerate(resolved_names):
             weighted = sum(
-                dimensions[dim][i] * weight
-                for dim, weight in _DIMENSION_WEIGHTS.items()
-                if dim in dimensions
+                dimensions[dim][i] * weight for dim, weight in _DIMENSION_WEIGHTS.items() if dim in dimensions
             )
             overall_scores[name] = round((weighted / 5.0) * 100, 1)
 
         # Build recommendation
         winner_name = max(overall_scores, key=lambda k: overall_scores[k])
-        recommendation = self._build_recommendation(
-            resolved_names, company_data, overall_scores, winner_name
-        )
+        recommendation = self._build_recommendation(resolved_names, company_data, overall_scores, winner_name)
 
         # Comparison table (full details)
         comparison_table: dict[str, Any] = {
             "companies": resolved_names,
             "scores": {
-                name: {
-                    dim: dimensions[dim][i]
-                    for dim in _DIMENSION_LABELS
-                }
-                for i, name in enumerate(resolved_names)
+                name: {dim: dimensions[dim][i] for dim in _DIMENSION_LABELS} for i, name in enumerate(resolved_names)
             },
             "industry": {name: company_data[i].get("industry", "unknown") for i, name in enumerate(resolved_names)},
             "size": {name: company_data[i].get("size", "unknown") for i, name in enumerate(resolved_names)},
@@ -460,8 +448,10 @@ class CompanyComparator:
             diff = winner_score - runner_score
             if diff < 5:
                 lines.append(
-                    f"\n{runner_up}도 {runner_score:.0f}점으로 근소한 차이예요. "
-                    "개인 우선순위에 따라 선택하세요."
+                    f"\n{runner_up}도 {runner_score:.0f}점으로 근소한 차이예요. 개인 우선순위에 따라 선택하세요."
                 )
+
+        if all(item.get("industry") == "unknown" for item in data):
+            lines.append("\n대안 비교 근거가 충분하지 않아요. 현재 추천은 참고용으로만 보세요.")
 
         return "\n".join(lines)

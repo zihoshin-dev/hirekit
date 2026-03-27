@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from typing import cast
+
 import pytest
 
 from hirekit.engine.company_comparator import (
@@ -60,10 +62,15 @@ class TestComparisonResult:
     def test_to_markdown_three_companies(self):
         result = ComparisonResult(
             companies=["토스", "카카오", "네이버"],
-            dimensions={"growth": [4.5, 3.0, 3.5], "compensation": [4.5, 4.0, 4.0],
-                        "culture": [4.5, 3.5, 3.5], "tech_level": [5.0, 4.0, 4.5],
-                        "brand": [4.0, 5.0, 5.0], "wlb": [3.5, 3.5, 3.5],
-                        "remote": [3.0, 3.5, 4.0]},
+            dimensions={
+                "growth": [4.5, 3.0, 3.5],
+                "compensation": [4.5, 4.0, 4.0],
+                "culture": [4.5, 3.5, 3.5],
+                "tech_level": [5.0, 4.0, 4.5],
+                "brand": [4.0, 5.0, 5.0],
+                "wlb": [3.5, 3.5, 3.5],
+                "remote": [3.0, 3.5, 4.0],
+            },
             winner_by_dimension={},
             overall_scores={"토스": 82.0, "카카오": 74.0, "네이버": 76.0},
             overall_recommendation="토스 추천",
@@ -74,6 +81,8 @@ class TestComparisonResult:
 
 
 class TestCompanyComparator:
+    comparator: CompanyComparator = cast(CompanyComparator, object())
+
     def setup_method(self):
         self.comparator = CompanyComparator()
 
@@ -99,9 +108,7 @@ class TestCompanyComparator:
             self.comparator.compare_many(["토스"])
 
     def test_compare_many_caps_at_five(self):
-        result = self.comparator.compare_many(
-            ["토스", "카카오", "네이버", "쿠팡", "배달의민족", "당근마켓"]
-        )
+        result = self.comparator.compare_many(["토스", "카카오", "네이버", "쿠팡", "배달의민족", "당근마켓"])
         assert len(result.companies) <= 5
 
     def test_overall_scores_all_companies_present(self):
@@ -182,3 +189,7 @@ class TestCompanyComparator:
         """Comparing a company against itself should not error."""
         result = self.comparator.compare("토스", "토스")
         assert isinstance(result, ComparisonResult)
+
+    def test_unknown_alternative_recommendation_stays_cautious(self):
+        result = self.comparator.compare("알수없는기업xyz", "또다른미지기업")
+        assert "참고용" in result.overall_recommendation

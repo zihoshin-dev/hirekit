@@ -148,3 +148,21 @@ class TestJDParserMetadata:
         techs = jd.all_required_tech()
         # python should appear once after normalization
         assert techs.count("python") == 1
+
+
+class TestJDParserRoleExpectations:
+    def test_builds_must_have_expectations(self):
+        parser = JDParser()
+        jd = parser.parse(JD_KR_FULL)
+        assert any("Python 3년 이상 경험" in item for item in jd.must_have_expectations)
+        assert any(item.startswith("필수 기술:") for item in jd.must_have_expectations)
+
+    def test_builds_inferred_expectations_from_responsibilities(self):
+        parser = JDParser()
+        jd = parser.parse(JD_KR_FULL)
+        assert "백엔드 API 설계 및 개발" in jd.inferred_expectations
+
+    def test_marks_unknown_expectations_when_scope_is_sparse(self):
+        parser = JDParser()
+        jd = parser.parse(JD_MINIMAL)
+        assert "실제 업무 범위 확인 필요" in jd.unknown_expectations

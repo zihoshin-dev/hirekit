@@ -94,29 +94,15 @@ TOOLS: list[dict[str, Any]] = [
 def _call_analyze_company(params: dict[str, Any]) -> dict[str, Any]:
     from hirekit.core.config import load_config
     from hirekit.engine.company_analyzer import CompanyAnalyzer
-    from importlib import import_module
 
     company = params["company"]
     region = params.get("region", "kr")
-    config = load_config()
-    analyzer = CompanyAnalyzer(config=config, use_llm=False)
+    analyzer = CompanyAnalyzer(config=load_config(), use_llm=False)
     report = analyzer.analyze(company=company, region=region, tier=2)
-    hero_verdict = import_module("hirekit.engine.hero_verdict").compose_hero_verdict(report=report)
-    return {
-        "company": report.company,
-        "region": report.region,
-        "runtime_mode": "local_mcp",
-        "publication_boundary": "internal_only",
-        "scorecard": report.to_dict().get("scorecard", {}),
-        "hero_verdict": hero_verdict.to_dict(),
-        "sections": list(report.sections.keys()),
-        "source_count": len(report.source_results),
-        "markdown_preview": report.to_markdown()[:2000],
-    }
+    return report.to_dict()
 
 
 def _call_match_jd(params: dict[str, Any]) -> dict[str, Any]:
-    from hirekit.core.config import load_config
     from hirekit.engine.jd_matcher import JDMatcher
     from hirekit.llm.base import NoLLM
 
@@ -124,7 +110,6 @@ def _call_match_jd(params: dict[str, Any]) -> dict[str, Any]:
     skills_raw = params.get("skills", "")
     skills = [s.strip() for s in skills_raw.split(",") if s.strip()] if skills_raw else []
 
-    config = load_config()
     matcher = JDMatcher(llm=NoLLM())
     profile: dict[str, Any] = {}
     if skills:
@@ -157,9 +142,7 @@ def _call_prepare_interview(params: dict[str, Any]) -> dict[str, Any]:
         "behavioral_questions": guide.behavioral_questions[:5],
         "reverse_questions": guide.reverse_questions[:3],
         "total_questions": (
-            len(guide.common_questions)
-            + len(guide.technical_questions)
-            + len(guide.behavioral_questions)
+            len(guide.common_questions) + len(guide.technical_questions) + len(guide.behavioral_questions)
         ),
     }
 

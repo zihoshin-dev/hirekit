@@ -2,14 +2,16 @@
 
 from __future__ import annotations
 
-import asyncio
 import json
 from unittest.mock import MagicMock, patch
 
 import pytest
 
+from hirekit.engine.company_analyzer import AnalysisReport
+from hirekit.engine.hero_verdict import compose_hero_verdict
+from hirekit.engine.scorer import Scorecard, ScoreDimension
 from hirekit.mcp_server import TOOLS, handle_request
-
+from hirekit.sources.base import SourceResult
 
 # ---------------------------------------------------------------------------
 # tools/list
@@ -83,49 +85,50 @@ async def test_initialized_notification_returns_none():
 
 @pytest.mark.asyncio
 async def test_tools_call_analyze_company_mock():
-    mock_report = MagicMock()
-    mock_report.company = "카카오"
-    mock_report.region = "kr"
-    mock_report.source_results = []
-    mock_report.sections = {1: {}, 3: {}}
-    mock_report.to_dict.return_value = {
-        "scorecard": {"total": 75.0, "grade": "B", "dimensions": []}
+    report = AnalysisReport(
+        company="카카오",
+        region="kr",
+        tier=2,
+        sections={
+            1: {"growth_reality": {"growth": "상승"}},
+            5: {"role_expectations": [{"expectations": ["Python 3년 이상 경험"]}]},
+            7: {"stack_reality": {"confirmed": [{"tech": "python"}]}},
+        },
+        scorecard=Scorecard(
+            company="카카오",
+            dimensions=[
+                ScoreDimension(name="job_fit", label="Job Fit", weight=0.3, score=4.5),
+                ScoreDimension(name="career_leverage", label="Career Leverage", weight=0.2, score=4.0),
+                ScoreDimension(name="growth", label="Growth", weight=0.2, score=4.0),
+                ScoreDimension(name="compensation", label="Compensation", weight=0.15, score=3.5),
+                ScoreDimension(name="culture_fit", label="Culture Fit", weight=0.15, score=3.5),
+            ],
+        ),
+        source_results=[
+            SourceResult(
+                source_name="dart",
+                section="overview",
+                url="https://dart.fss.or.kr/",
+                trust_label="verified",
+            )
+        ],
+    )
+
+    request = {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "method": "tools/call",
+        "params": {
+            "name": "analyze_company",
+            "arguments": {"company": "카카오", "region": "kr"},
+        },
     }
-    mock_report.to_markdown.return_value = "# 카카오 분석 리포트\n..."
 
-    mock_analyzer = MagicMock()
-    mock_analyzer.analyze.return_value = mock_report
-
-    with patch.dict(
-        "hirekit.mcp_server._TOOL_HANDLERS",
-        {"analyze_company": MagicMock(return_value={
-            "company": "카카오",
-            "region": "kr",
-            "runtime_mode": "local_mcp",
-            "publication_boundary": "internal_only",
-            "scorecard": {"total": 75.0, "grade": "B", "dimensions": []},
-            "hero_verdict": {
-                "label": "Go",
-                "combined_score": 75.0,
-                "confidence": "medium",
-                "advisory_note": "Advisory only.",
-                "reasons": ["기업 분석 75/100"],
-            },
-            "sections": [1, 3],
-            "source_count": 0,
-            "markdown_preview": "# 카카오 분석 리포트\n...",
-        })},
-    ):
-        request = {
-            "jsonrpc": "2.0",
-            "id": 10,
-            "method": "tools/call",
-            "params": {
-                "name": "analyze_company",
-                "arguments": {"company": "카카오", "region": "kr"},
-            },
-        }
-        response = await handle_request(request)
+    with patch("hirekit.core.config.load_config") as mock_cfg:
+        mock_cfg.return_value = MagicMock()
+        with patch("hirekit.engine.company_analyzer.CompanyAnalyzer") as MockAnalyzer:
+            MockAnalyzer.return_value.analyze.return_value = report
+            response = await handle_request(request)
 
     assert response is not None
     assert response["id"] == 10
@@ -134,11 +137,11 @@ async def test_tools_call_analyze_company_mock():
     assert content[0]["type"] == "text"
     data = json.loads(content[0]["text"])
     assert data["company"] == "카카오"
-    assert data["runtime_mode"] == "local_mcp"
-    assert data["publication_boundary"] == "internal_only"
-    assert "scorecard" in data
-    assert data["hero_verdict"]["label"] == "Go"
-    assert "Advisory only" in data["hero_verdict"]["advisory_note"]
+    assert "war_room" in data
+    assert data["war_room"]["role_expectations"] == ["Python 3년 이상 경험"]
+    assert data["war_room"]["stack_reality"]["confirmed"] == ["python"]
+    assert data["war_room"]["verdict"]["label"] == compose_hero_verdict(report).label
+    assert data["sources"][0]["trust_label"] == "verified"
 
 
 # ---------------------------------------------------------------------------

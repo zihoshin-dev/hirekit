@@ -1,0 +1,44 @@
+{
+  "company": "메이크스타",
+  "region": "kr",
+  "sources": [
+    {
+      "source_name": "company_website",
+      "section": "overview",
+      "url": "https://www.makestar.com/",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-24T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "AI-first 문화와 글로벌 확장을 강조하는 채용 페이지",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    },
+    {
+      "source_name": "medium_velog",
+      "section": "tech",
+      "url": "https://velog.io/",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-24T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "브랜딩과 제품 스토리가 강하게 포장된 인터뷰가 많음",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    },
+    {
+      "source_name": "naver_search",
+      "section": "culture",
+      "url": "https://search.naver.com/",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-24T00:00:00+00:00",
+      "trust_label": "derived",
+      "publication_boundary": "public_demo",
+      "summary": "채용 문구는 화려하지만 실제 도메인 체감은 운영 중심이라는 언급이 있음",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    }
+  ],
+  "signals": {
+    "growth": "외형상 빠른 확장 메시지가 반복됨",
+    "compensation": "보상 정보는 공고 중심으로만 드러남",
+    "tech": "Python, marketing platform, CMS"
+  }
+}

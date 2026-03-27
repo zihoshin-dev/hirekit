@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>커리어 도구 — HireKit</title>
-  <meta name="description" content="취업/이직 준비를 위한 무료 도구. JD 분석기, 이력서 점수 체크, 자소서 클리셰 감지, 기업 비교기." />
+  <title>커리어 도구 — Career Intelligence Terminal</title>
+  <meta name="description" content="War Room 의사결정을 위한 무료 도구. JD 분석기, 이력서 점수 체크, 자소서 클리셰 감지, 기업 비교기." />
   <meta property="og:title" content="커리어 도구 — HireKit" />
-  <meta property="og:description" content="취업/이직 준비를 위한 무료 도구. JD 분석, 이력서 점수, 자소서 클리셰, 기업 비교." />
+  <meta property="og:description" content="War Room 의사결정을 위한 무료 도구. 증거 기반 JD 분석, 이력서 점수, 자소서 클리셰, 기업 비교." />
   <meta property="og:image" content="https://zihoshin-dev.github.io/hirekit/og-image.png" />
   <meta property="og:image:width" content="1400" />
   <meta property="og:image:height" content="763" />
@@ -311,30 +311,30 @@
   <main class="pt-24 pb-24 px-4 sm:px-5">
     <div class="max-w-[1080px] mx-auto">
 
-      <!-- Page header -->
-      <div class="mb-12 fade-up">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium mb-4" style="background:var(--primary-light); color:var(--primary);">
-          무료 도구
+        <div class="mb-12 fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium mb-4" style="background:var(--primary-light); color:var(--primary);">
+            Evidence-backed Tools
+          </div>
+          <h1 class="font-bold t-primary mb-3" style="font-size:clamp(26px,4vw,36px); letter-spacing:-0.02em; line-height:1.2;">
+            War Room 의사결정 도구
+          </h1>
+          <h2 class="font-semibold t-secondary mb-4" style="font-size:18px;">Career Intelligence Terminal</h2>
+          <p class="t-secondary" style="font-size:16px; max-width:620px; line-height:1.6;">
+            막연한 기대를 배제하고 데이터로 판단하세요. War Room 결정을 뒷받침하는 4가지 증거 수집 도구입니다. 서버 없이 브라우저에서 안전하게 실행됩니다.
+          </p>
+          <div class="mt-4 rounded-2xl px-4 py-3 text-sm" style="background:var(--primary-light); color:var(--text-secondary); border:1px solid rgba(49,130,246,0.2); max-width:620px;">
+            이 페이지는 <strong>Private Runtime</strong>의 일부를 브라우저 로컬 저장소에서 재현해요. 입력한 JD/이력서는 외부로 전송되지 않으며, 오직 당신의 기기 내에서만 증거로 활용돼요.
+          </div>
+          <div class="mt-3 text-sm t-secondary">
+            분석 결과를 더 입체적으로 보려면 <a href="demo.html" class="font-semibold" style="color:var(--primary); text-decoration:none;">데모 War Room</a>에서 기업 상세 정보를 함께 확인하세요.
+          </div>
         </div>
-        <h1 class="font-bold t-primary mb-3" style="font-size:clamp(26px,4vw,36px); letter-spacing:-0.02em; line-height:1.2;">
-          커리어 도구
-        </h1>
-        <p class="t-secondary" style="font-size:16px; max-width:520px; line-height:1.6;">
-          취업/이직 준비를 위한 무료 도구. 서버 없이 브라우저에서 바로 실행돼요.
-        </p>
-        <div class="mt-4 rounded-2xl px-4 py-3 text-sm" style="background:var(--primary-light); color:var(--text-secondary); border:1px solid rgba(49,130,246,0.2); max-width:620px;">
-          이 페이지는 <strong>브라우저 로컬 저장소</strong>만 사용해요. 입력한 JD/이력서 텍스트는 공개 서버로 전송되지 않고, 같은 브라우저에서만 이어서 볼 수 있어요.
-        </div>
-        <div class="mt-3 text-sm t-secondary">
-          분석 결과를 더 입체적으로 보려면 <a href="demo.html" class="font-semibold" style="color:var(--primary); text-decoration:none;">데모 War Room</a>에서 기업 상세 정보를 함께 확인하세요.
-        </div>
-      </div>
 
       <!-- ── Tool Grid ── -->
       <div class="flex flex-col gap-8">
 
         <!-- ────────────────────────────────────────────
-             카드 1: JD 분석기
+             카드 1: JD 분석기 (Evidence: JD)
         ─────────────────────────────────────────────── -->
         <div class="tool-card fade-up fade-up-d1" id="card-jd">
           <div class="p-6 pb-4" style="border-bottom:1px solid var(--border);">
@@ -343,8 +343,8 @@
                 🔍
               </div>
               <div>
-                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">JD 분석기</h2>
-                <p class="text-sm t-secondary" style="line-height:1.6;">채용공고 URL 또는 텍스트를 붙여넣으면 자동으로 기술 요구사항, 경력 수준, 핵심 역량을 분석해요</p>
+                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">JD 분석기 (Evidence: Requirement)</h2>
+                <p class="text-sm t-secondary" style="line-height:1.6;">채용공고에서 기업의 '진짜 의도'를 추출하세요. 기술 요구사항과 핵심 역량을 분석하여 War Room의 기초 증거로 활용해요</p>
               </div>
             </div>
           </div>
@@ -372,7 +372,7 @@
         </div>
 
         <!-- ────────────────────────────────────────────
-             카드 2: 이력서 점수 체크
+             카드 2: 이력서 점수 체크 (Evidence: Resume)
         ─────────────────────────────────────────────── -->
         <div class="tool-card fade-up fade-up-d2" id="card-resume">
           <div class="p-6 pb-4" style="border-bottom:1px solid var(--border);">
@@ -381,8 +381,8 @@
                 📋
               </div>
               <div>
-                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">이력서 점수 체크</h2>
-                <p class="text-sm t-secondary" style="line-height:1.6;">이력서만 있으면 바로 분석해요 — 회사 선택 없이도 완성도 점수, 개선 포인트, ATS 최적화 팁, 경력 회사 심층 분석까지 한 번에 제공해요</p>
+                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">이력서 점수 체크 (Evidence: Asset)</h2>
+                <p class="text-sm t-secondary" style="line-height:1.6;">나의 이력서가 시장에서 어떤 '증거'로 읽히는지 객관화하세요. 완성도와 개선 포인트를 수치로 환산하여 War Room의 핵심 자산으로 등록해요</p>
               </div>
             </div>
           </div>
@@ -418,7 +418,7 @@
         </div>
 
         <!-- ────────────────────────────────────────────
-             카드 3: 자소서 클리셰 감지
+             카드 3: 자소서 클리셰 감지 (Refinement)
         ─────────────────────────────────────────────── -->
         <div class="tool-card fade-up fade-up-d3" id="card-cliche">
           <div class="p-6 pb-4" style="border-bottom:1px solid var(--border);">
@@ -427,8 +427,8 @@
                 ✍️
               </div>
               <div>
-                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">자소서 클리셰 감지</h2>
-                <p class="text-sm t-secondary" style="line-height:1.6;">자소서에서 식상한 표현을 찾아내고 대안을 제안해요</p>
+                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">자소서 클리셰 감지 (Proof-of-work)</h2>
+                <p class="text-sm t-secondary" style="line-height:1.6;">'말'이 아닌 '증거'로 설득하세요. 식상한 표현을 제거하고 나만의 독보적인 가치를 War Room 리포트에 반영해요</p>
               </div>
             </div>
           </div>
@@ -453,7 +453,7 @@
         </div>
 
         <!-- ────────────────────────────────────────────
-             카드 4: 기업 비교기
+             카드 4: 기업 비교기 (Decision Matrix)
         ─────────────────────────────────────────────── -->
         <div class="tool-card fade-up fade-up-d4" id="card-compare">
           <div class="p-6 pb-4" style="border-bottom:1px solid var(--border);">
@@ -462,8 +462,8 @@
                 ⚖️
               </div>
               <div>
-                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">기업 비교기</h2>
-                <p class="text-sm t-secondary" style="line-height:1.6;">관심 기업 2–3개를 선택하면 5개 차원으로 비교하고 추천 순위를 알려줘요</p>
+                <h2 class="font-bold t-primary mb-1" style="font-size:17px;">기업 비교기 (Decision Matrix)</h2>
+                <p class="text-sm t-secondary" style="line-height:1.6;">최종 Go/Hold/Pass 판정을 위한 비교 우위를 점검하세요. 5개 차원의 데이터 믹스로 최선의 선택지를 필터링해요</p>
               </div>
             </div>
           </div>
@@ -492,13 +492,13 @@
 
       <!-- ── CTA ── -->
       <div class="mt-16 fade-up" style="border-radius:16px; background:linear-gradient(135deg, var(--primary-light) 0%, var(--bg-secondary) 100%); border:1px solid var(--border); padding:40px 32px; text-align:center;">
-        <p class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-3">더 강력한 분석이 필요하다면</p>
-        <h3 class="font-bold t-primary mb-2" style="font-size:20px;">로컬에서 전체 기능을 사용해보세요</h3>
-        <p class="t-secondary text-sm mb-6" style="line-height:1.6;">14개 소스 자동 수집 · 100점 스코어카드 · AI 매칭 분석 · PDF 리포트</p>
+        <p class="text-xs font-semibold t-tertiary uppercase tracking-wider mb-3">전체 전술 통제실이 필요하다면</p>
+        <h3 class="font-bold t-primary mb-2" style="font-size:20px;">로컬 Private Runtime에서 War Room을 가동하세요</h3>
+        <p class="t-secondary text-sm mb-6" style="line-height:1.6;">14개 소스 무제한 수집 · 100점 스코어카드 · Go/Hold/Pass Advisory Verdict · PDF 리포트</p>
         <div class="inline-flex items-center gap-3 px-5 py-3 rounded-xl font-mono text-sm" style="background:#0D1117; color:#58A6FF; border:1px solid #2D333B;">
           <span style="color:#4EC9B0;">$</span>
           <span>pip install hirekit</span>
-          <button onclick="navigator.clipboard.writeText('pip install hirekit')" class="btn-click ml-2 px-2 py-0.5 rounded text-xs" style="background:#21262D; color:#8B949E; border:1px solid #2D333B; cursor:pointer; font-family:inherit;">복사</button>
+          <button type="button" onclick="navigator.clipboard.writeText('pip install hirekit')" class="btn-click ml-2 px-2 py-0.5 rounded text-xs" style="background:#21262D; color:#8B949E; border:1px solid #2D333B; cursor:pointer; font-family:inherit;">복사</button>
         </div>
       </div>
 
@@ -1133,5 +1133,17 @@ document.getElementById('resume-text').addEventListener('input', e => persistToo
 initResumeUpload();
 loadMeta();
 </script>
+
+  <!-- Strategy War Room IA Contract (T4) -->
+  <template id="warroom-ia-template">
+    <div data-testid="warroom-hero"><h2>Strategy War Room</h2></div>
+    <div data-testid="evidence-summary"><h3>Evidence Summary</h3></div>
+    <div data-testid="role-expectations"><h3>Role Expectations</h3></div>
+    <div data-testid="real-work-stack"><h3>Real Work & Stack</h3></div>
+    <div data-testid="org-health"><h3>Org Health</h3></div>
+    <div data-testid="compensation-growth"><h3>Compensation & Growth</h3></div>
+    <div data-testid="strategy-verdict"><h3>Strategy Verdict</h3></div>
+    <div data-testid="strategy-next-actions"><h3>Next Actions</h3></div>
+  </template>
 </body>
 </html>

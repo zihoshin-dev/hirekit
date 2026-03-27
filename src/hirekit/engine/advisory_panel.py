@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Mapping
 from dataclasses import dataclass, field
 from typing import Literal
 
@@ -79,11 +80,9 @@ def compose_advisory_panel(
     strategy_result: CareerStrategy | None = None,
     comparison_result: ComparisonResult | None = None,
 ) -> AdvisoryPanel:
-    dims = {
-        dimension.name: dimension
-        for dimension in (report.scorecard.dimensions if report.scorecard else [])
-    }
+    dims = {dimension.name: dimension for dimension in (report.scorecard.dimensions if report.scorecard else [])}
     target_company = report.company
+    war_room = report.to_dict().get("war_room", {})
 
     hiring_score = _average(
         [
@@ -98,14 +97,14 @@ def compose_advisory_panel(
         verdict=_verdict_from_score(hiring_score),
         confidence=hero_verdict.confidence,
         summary=(
-            f"채용 관점 종합 점수는 {hiring_score:.0f}/100이에요. "
-            "지원 시점과 준비도 판단에 직접 연결되는 렌즈예요."
+            f"채용 관점 종합 점수는 {hiring_score:.0f}/100이에요. 지원 시점과 준비도 판단에 직접 연결되는 렌즈예요."
         ),
         evidence=_compact_evidence(
             [
                 _hero_evidence(hero_verdict),
                 _jd_evidence(jd_analysis),
                 _resume_evidence(resume_feedback),
+                _war_room_role_evidence(war_room),
             ]
         ),
     )
@@ -124,14 +123,13 @@ def compose_advisory_panel(
             dims.get("job_fit") is not None,
             comparison_result is not None,
         ),
-        summary=(
-            f"엔지니어링 적합도는 {engineering_score:.0f}/100이에요. "
-            "기술 스택 적합성과 비교 우위를 같이 봐요."
-        ),
+        summary=(f"엔지니어링 적합도는 {engineering_score:.0f}/100이에요. 기술 스택 적합성과 비교 우위를 같이 봐요."),
         evidence=_compact_evidence(
             [
                 _dimension_evidence(dims, "job_fit"),
                 _comparison_winner_evidence(comparison_result, "tech_level", "기술 수준"),
+                _war_room_stack_evidence(war_room),
+                _war_room_actual_work_evidence(war_room),
             ]
         ),
     )
@@ -161,6 +159,7 @@ def compose_advisory_panel(
                 _dimension_evidence(dims, "growth"),
                 _dimension_evidence(dims, "career_leverage"),
                 _comparison_recommendation_evidence(comparison_result),
+                _war_room_growth_evidence(war_room),
             ]
         ),
     )
@@ -181,14 +180,14 @@ def compose_advisory_panel(
             strategy_result is not None,
         ),
         summary=(
-            f"리스크/가드레일 점수는 {risk_score:.0f}/100이에요. "
-            "신호가 약하거나 준비 기간이 길면 더 보수적으로 봐요."
+            f"리스크/가드레일 점수는 {risk_score:.0f}/100이에요. 신호가 약하거나 준비 기간이 길면 더 보수적으로 봐요."
         ),
         evidence=_compact_evidence(
             [
                 _dimension_evidence(dims, "culture_fit"),
                 _dimension_evidence(dims, "compensation"),
                 _strategy_timeline_evidence(strategy_result),
+                _war_room_org_health_evidence(war_room),
             ]
         ),
     )
@@ -212,6 +211,7 @@ def compose_advisory_panel(
             [
                 _strategy_fit_evidence(strategy_result),
                 _strategy_gap_evidence(strategy_result),
+                _war_room_role_evidence(war_room),
             ]
         ),
     )
@@ -262,14 +262,14 @@ def _verdict_from_score(
     return "Pass"
 
 
-def _dimension_score(dims: dict[str, object], key: str) -> float | None:
+def _dimension_score(dims: Mapping[str, object], key: str) -> float | None:
     dimension = dims.get(key)
     if dimension is None:
         return None
     return round(float(getattr(dimension, "score", 0.0)) * 20, 1)
 
 
-def _dimension_evidence(dims: dict[str, object], key: str) -> str | None:
+def _dimension_evidence(dims: Mapping[str, object], key: str) -> str | None:
     dimension = dims.get(key)
     if dimension is None:
         return None
@@ -322,6 +322,64 @@ def _comparison_recommendation_evidence(
     if comparison_result is None:
         return None
     return comparison_result.overall_recommendation.splitlines()[0].strip()
+
+
+def _war_room_role_evidence(war_room: dict[str, object]) -> str | None:
+    expectations = war_room.get("role_expectations", [])
+    if not isinstance(expectations, list) or not expectations:
+        return None
+    return "역할 기대치: " + ", ".join(str(item) for item in expectations[:3])
+
+
+def _war_room_stack_evidence(war_room: dict[str, object]) -> str | None:
+    stack = war_room.get("stack_reality", {})
+    if not isinstance(stack, dict):
+        return None
+    confirmed = stack.get("confirmed", [])
+    likely = stack.get("likely", [])
+    parts: list[str] = []
+    if isinstance(confirmed, list) and confirmed:
+        parts.append("확인 스택: " + ", ".join(str(item) for item in confirmed[:3]))
+    if isinstance(likely, list) and likely:
+        parts.append("가능성 높은 스택: " + ", ".join(str(item) for item in likely[:3]))
+    return " / ".join(parts) if parts else None
+
+
+def _war_room_actual_work_evidence(war_room: dict[str, object]) -> str | None:
+    actual_work = war_room.get("actual_work", [])
+    if not isinstance(actual_work, list) or not actual_work:
+        return None
+    return "실제 업무 신호: " + ", ".join(str(item) for item in actual_work[:3])
+
+
+def _war_room_growth_evidence(war_room: dict[str, object]) -> str | None:
+    growth = war_room.get("growth_reality", {})
+    if not isinstance(growth, dict) or not growth:
+        return None
+    direction = growth.get("revenue_growth_direction")
+    rate = growth.get("revenue_growth_rate")
+    if direction is None and rate is None:
+        return None
+    return f"성장 현실: 방향={direction or 'unknown'}, 성장률={rate if rate is not None else 'unknown'}"
+
+
+def _war_room_org_health_evidence(war_room: dict[str, object]) -> str | None:
+    org = war_room.get("org_health", {})
+    if not isinstance(org, dict):
+        return None
+    state = str(org.get("state") or "unknown")
+    verified = org.get("verified", [])
+    supporting = org.get("supporting", [])
+    facts: list[str] = []
+    if isinstance(verified, list):
+        facts.extend(str(item) for item in verified[:2])
+    if isinstance(supporting, list) and not facts:
+        facts.extend(str(item) for item in supporting[:2])
+    if not facts and state == "unknown":
+        return "조직 건강: 확인 가능한 근거가 부족해요"
+    if not facts:
+        return f"조직 건강 상태: {state}"
+    return f"조직 건강({state}): " + ", ".join(facts)
 
 
 def _confidence_from_items(*items: bool) -> str:
@@ -387,14 +445,8 @@ def _consensus_summary(
     go_titles = [lens.title for lens in lenses if lens.verdict == "Go"]
     caution_titles = [lens.title for lens in lenses if lens.verdict != "Go"]
     if overall_verdict == "Go":
-        return (
-            f"{len(go_titles)}개 렌즈가 긍정적이에요. "
-            f"핵심 지지 렌즈: {', '.join(go_titles[:3])}."
-        )
-    return (
-        f"보수적으로 접근해야 해요. "
-        f"경계 렌즈: {', '.join(caution_titles[:3])}."
-    )
+        return f"{len(go_titles)}개 렌즈가 긍정적이에요. 핵심 지지 렌즈: {', '.join(go_titles[:3])}."
+    return f"보수적으로 접근해야 해요. 경계 렌즈: {', '.join(caution_titles[:3])}."
 
 
 def _panel_next_actions(
@@ -427,10 +479,7 @@ def _compact_evidence(items: list[str | None]) -> list[str]:
 
 
 def _hero_evidence(hero_verdict: HeroVerdict) -> str:
-    return (
-        f"Hero Verdict {hero_verdict.label} "
-        f"({hero_verdict.combined_score:.0f}/100, {hero_verdict.confidence})"
-    )
+    return f"Hero Verdict {hero_verdict.label} ({hero_verdict.combined_score:.0f}/100, {hero_verdict.confidence})"
 
 
 def _jd_evidence(jd_analysis: JDAnalysis | None) -> str | None:

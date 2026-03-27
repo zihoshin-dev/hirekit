@@ -13,6 +13,15 @@ def make_report() -> AnalysisReport:
         company="카카오",
         region="kr",
         tier=1,
+        sections={
+            5: {"role_expectations": [{"expectations": ["백엔드 API 설계 및 개발", "Python 3년 이상 경험"]}]},
+            7: {
+                "actual_work": {"likely": [{"label": "데이터 파이프라인 구축"}]},
+                "stack_reality": {"confirmed": [{"tech": "python"}], "likely": [{"tech": "kafka"}], "adjacent": []},
+            },
+            3: {"org_health_evidence": [{"summary": "리더십 변경 이후 전략 정비 중", "trust_label": "supporting"}]},
+            1: {"growth_reality": {"revenue_growth_rate": 12.5, "revenue_growth_direction": "growing"}},
+        },
         scorecard=Scorecard(
             company="카카오",
             dimensions=[
@@ -147,3 +156,21 @@ class TestComposeAdvisoryPanel:
         assert "# Advisory Panel: 카카오" in content
         assert "## 패널 렌즈" in content
         assert "Career Coach Council" in content
+
+    def test_warroom_panel_evidence_uses_new_categories(self):
+        panel = compose_advisory_panel(
+            report=make_report(),
+            hero_verdict=HeroVerdict(
+                label="Go",
+                combined_score=74.0,
+                confidence="high",
+                advisory_note="Advisory only.",
+                reasons=["기업 분석 74/100"],
+            ),
+            strategy_result=make_strategy(),
+        )
+
+        engineering = next(lens for lens in panel.lenses if lens.key == "engineering")
+        risk = next(lens for lens in panel.lenses if lens.key == "risk")
+        assert any("확인 스택" in item or "실제 업무 신호" in item for item in engineering.evidence)
+        assert any("조직 건강" in item for item in risk.evidence)

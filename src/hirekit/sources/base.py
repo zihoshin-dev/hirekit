@@ -5,9 +5,17 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
-from typing import Any
+from typing import Any, TypeVar
 
-from hirekit.core.trust_contract import PublicationBoundary, TrustLabel
+from hirekit.core.trust_contract import (
+    FreshnessPolicy,
+    PublicationBoundary,
+    SourceAuthority,
+    TrustLabel,
+    default_freshness_policy,
+    default_source_authority,
+    is_timestamp_stale,
+)
 
 
 @dataclass
@@ -24,10 +32,16 @@ class SourceResult:
     evidence_id: str = ""
     cross_validated: bool = False  # True when 2+ independent sources agree on this value
     trust_label: TrustLabel = "verified"
+    source_authority: SourceAuthority | None = None
+    freshness_policy: FreshnessPolicy | None = None
     publication_boundary: PublicationBoundary = "internal_only"
     raw: str = ""  # raw text for LLM consumption
 
     def __post_init__(self) -> None:
+        if self.source_authority is None:
+            self.source_authority = default_source_authority(self.source_name)
+        if self.freshness_policy is None:
+            self.freshness_policy = default_freshness_policy(self.source_name, self.section)
         if not self.effective_at:
             self.effective_at = self.collected_at
         if not self.evidence_id:
@@ -36,9 +50,8 @@ class SourceResult:
 
     @property
     def is_stale(self) -> bool:
-        """Check if data is older than 90 days."""
-        collected = datetime.fromisoformat(self.collected_at)
-        return (datetime.now(UTC) - collected).days > 90
+        policy = self.freshness_policy or default_freshness_policy(self.source_name, self.section)
+        return is_timestamp_stale(self.collected_at, policy, now=datetime.now(UTC))
 
     def as_reference(self) -> dict[str, Any]:
         return {
@@ -49,7 +62,10 @@ class SourceResult:
             "effective_at": self.effective_at,
             "evidence_id": self.evidence_id,
             "confidence": self.confidence,
+            "cross_validated": self.cross_validated,
             "trust_label": self.trust_label,
+            "source_authority": self.source_authority,
+            "freshness_policy": self.freshness_policy,
             "publication_boundary": self.publication_boundary,
             "is_stale": self.is_stale,
         }
@@ -86,13 +102,16 @@ class BaseSource(ABC):
         return 30
 
 
+SourceClass = TypeVar("SourceClass", bound=type[BaseSource])
+
+
 class SourceRegistry:
     """Plugin registry with auto-discovery via entry_points."""
 
     _sources: dict[str, type[BaseSource]] = {}
 
     @classmethod
-    def register(cls, source_class: type[BaseSource]) -> type[BaseSource]:
+    def register(cls, source_class: SourceClass) -> SourceClass:
         """Register a source class. Can be used as a decorator."""
         cls._sources[source_class.name] = source_class
         return source_class

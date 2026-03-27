@@ -3,10 +3,13 @@
 from __future__ import annotations
 
 import re
+import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from hirekit.core.tech_taxonomy import normalize_tech
+from hirekit.engine.jd_parser import JDParser
 from hirekit.llm.base import BaseLLM, NoLLM
 
 # ---------------------------------------------------------------------------
@@ -15,30 +18,77 @@ from hirekit.llm.base import BaseLLM, NoLLM
 
 _SECTION_KEYWORDS: dict[str, list[str]] = {
     "contact": [
-        "이메일", "연락처", "전화", "email", "phone", "contact", "주소", "github",
+        "이메일",
+        "연락처",
+        "전화",
+        "email",
+        "phone",
+        "contact",
+        "주소",
+        "github",
     ],
     "summary": [
-        "요약", "자기소개", "소개", "summary", "about", "profile", "objective",
+        "요약",
+        "자기소개",
+        "소개",
+        "summary",
+        "about",
+        "profile",
+        "objective",
     ],
     "experience": [
-        "경력사항", "경력", "경험", "이전 직장", "work experience", "experience",
-        "직장", "재직", "회사",
+        "경력사항",
+        "경력",
+        "경험",
+        "이전 직장",
+        "work experience",
+        "experience",
+        "직장",
+        "재직",
+        "회사",
     ],
     "education": [
-        "학력", "학교", "대학", "education", "대학교", "졸업", "전공",
+        "학력",
+        "학교",
+        "대학",
+        "education",
+        "대학교",
+        "졸업",
+        "전공",
     ],
     "skills": [
-        "보유 기술", "기술 스택", "기술", "역량", "skills", "tech stack",
-        "technologies", "tools", "언어",
+        "보유 기술",
+        "기술 스택",
+        "기술",
+        "역량",
+        "skills",
+        "tech stack",
+        "technologies",
+        "tools",
+        "언어",
     ],
     "projects": [
-        "프로젝트 경험", "프로젝트", "project", "portfolio", "포트폴리오", "작업물",
+        "프로젝트 경험",
+        "프로젝트",
+        "project",
+        "portfolio",
+        "포트폴리오",
+        "작업물",
     ],
     "certifications": [
-        "자격증", "certification", "license", "수료", "어학",
+        "자격증",
+        "certification",
+        "license",
+        "수료",
+        "어학",
     ],
     "awards": [
-        "수상", "award", "achievement", "honors", "대회", "공모전",
+        "수상",
+        "award",
+        "achievement",
+        "honors",
+        "대회",
+        "공모전",
     ],
 }
 
@@ -65,15 +115,53 @@ _ATS_ISSUES: list[tuple[str, str]] = [
 ]
 
 _ACTION_VERBS_KO: list[str] = [
-    "설계", "구축", "개발", "운영", "최적화", "개선", "리드", "주도",
-    "기획", "분석", "도입", "자동화", "달성", "구현", "제안", "협업",
-    "관리", "배포", "출시", "절감", "증가", "확장", "연구", "검증",
-    "했습니다", "이끌었습니다", "달성했습니다", "개발했습니다", "주도했습니다",
+    "설계",
+    "구축",
+    "개발",
+    "운영",
+    "최적화",
+    "개선",
+    "리드",
+    "주도",
+    "기획",
+    "분석",
+    "도입",
+    "자동화",
+    "달성",
+    "구현",
+    "제안",
+    "협업",
+    "관리",
+    "배포",
+    "출시",
+    "절감",
+    "증가",
+    "확장",
+    "연구",
+    "검증",
+    "했습니다",
+    "이끌었습니다",
+    "달성했습니다",
+    "개발했습니다",
+    "주도했습니다",
 ]
 _ACTION_VERBS_EN: list[str] = [
-    "built", "led", "designed", "improved", "launched", "reduced",
-    "increased", "managed", "created", "developed", "deployed", "optimized",
-    "implemented", "delivered", "achieved", "established",
+    "built",
+    "led",
+    "designed",
+    "improved",
+    "launched",
+    "reduced",
+    "increased",
+    "managed",
+    "created",
+    "developed",
+    "deployed",
+    "optimized",
+    "implemented",
+    "delivered",
+    "achieved",
+    "established",
 ]
 
 _QUANT_PATTERN = re.compile(
@@ -89,6 +177,88 @@ _QUANT_PATTERN = re.compile(
     r"|[+-]\d+\s*[%％]",
     re.UNICODE,
 )
+
+_EXPECTATION_STOP_WORDS = {
+    "경험",
+    "역량",
+    "이해",
+    "기반",
+    "중심",
+    "관련",
+    "업무",
+    "담당",
+    "필수",
+    "요구",
+    "우대",
+    "기술",
+    "확인",
+    "필요",
+    "실제",
+    "범위",
+    "또는",
+    "및",
+    "함께",
+    "정리",
+    "개선",
+    "구조",
+    "개발",
+    "운영",
+    "설계",
+    "지원",
+    "기준",
+    "role",
+    "expectation",
+}
+
+_EXPECTATION_CONCEPTS: list[tuple[str, tuple[set[str], ...]]] = [
+    (
+        "제품과 운영",
+        (
+            {"제품", "product", "pm", "기획", "platform pm"},
+            {"운영", "operations", "operation", "오퍼레이션"},
+        ),
+    ),
+    (
+        "데이터 기반 의사결정",
+        (
+            {"데이터", "data", "sql", "분석", "analytics", "metric", "metrics", "kpi", "dashboard"},
+            {"의사결정", "decision", "결정", "판단", "우선순위", "prioritization"},
+        ),
+    ),
+    (
+        "크로스펑셔널 협업",
+        ({"협업", "조율", "커뮤니케이션", "소통", "파트너", "이해관계자", "stakeholder", "cross-functional"},),
+    ),
+    (
+        "로드맵과 실행 우선순위",
+        (
+            {"로드맵", "roadmap", "우선순위", "prioritization", "priority"},
+            {"기획", "planning", "계획", "일정", "schedule", "캠페인", "실행"},
+        ),
+    ),
+    (
+        "이해관계자와의 커뮤니케이션",
+        ({"커뮤니케이션", "소통", "조율", "이해관계자", "stakeholder", "파트너", "협업"},),
+    ),
+    (
+        "대규모 트래픽",
+        ({"대규모", "large-scale", "high-traffic", "트래픽", "traffic", "scale", "사용자", "거래"},),
+    ),
+    (
+        "배포 안정화",
+        (
+            {"배포", "deployment", "release", "docker", "kubernetes", "ci/cd", "운영 자동화"},
+            {"안정화", "stability", "안정성", "장애", "개선", "자동화"},
+        ),
+    ),
+    (
+        "레거시 개선",
+        (
+            {"레거시", "legacy", "기존"},
+            {"개선", "정리", "refactor", "리팩토링", "migration", "마이그레이션"},
+        ),
+    ),
+]
 
 
 @dataclass
@@ -115,6 +285,8 @@ class ResumeFeedback:
     missing_sections: list[str] = field(default_factory=list)
     keyword_gaps: list[str] = field(default_factory=list)
     ats_issues: list[str] = field(default_factory=list)
+    missing_proof: list[str] = field(default_factory=list)
+    transferability_opportunities: list[str] = field(default_factory=list)
     tailored_suggestions: list[str] = field(default_factory=list)
     rewritten_sections: dict[str, str] = field(default_factory=dict)
 
@@ -158,6 +330,16 @@ class ResumeFeedback:
             lines.append("\n## Strengths")
             for s in self.strengths:
                 lines.append(f"- {s}")
+
+        if self.missing_proof:
+            lines.append("\n## Missing Proof")
+            for item in self.missing_proof:
+                lines.append(f"- {item}")
+
+        if self.transferability_opportunities:
+            lines.append("\n## Transferability Opportunities")
+            for item in self.transferability_opportunities:
+                lines.append(f"- {item}")
 
         if self.improvements:
             lines.append("\n## Areas for Improvement")
@@ -212,6 +394,7 @@ class ResumeAdvisor:
 
     def __init__(self, llm: BaseLLM | None = None):
         self.llm = llm or NoLLM()
+        self._jd_parser = JDParser()
 
     def review(
         self,
@@ -244,6 +427,7 @@ class ResumeAdvisor:
         if jd_text:
             self._check_keyword_match(resume_text, jd_text, feedback)
             self._suggest_ats_keywords(resume_text, jd_text, feedback)
+            self._map_role_expectations(resume_text, jd_text, feedback)
 
         if self.llm.is_available():
             self._llm_review(resume_text, jd_text, profile, feedback)
@@ -258,8 +442,6 @@ class ResumeAdvisor:
             return path.read_text(encoding="utf-8")
         if suffix == ".pdf":
             try:
-                import subprocess
-
                 result = subprocess.run(
                     ["pdftotext", str(path), "-"],
                     capture_output=True,
@@ -267,7 +449,7 @@ class ResumeAdvisor:
                     timeout=10,
                 )
                 return result.stdout
-            except (FileNotFoundError, subprocess.TimeoutExpired):
+            except Exception:
                 return path.read_bytes().decode("utf-8", errors="ignore")
         try:
             return path.read_text(encoding="utf-8")
@@ -358,13 +540,9 @@ class ResumeAdvisor:
 
         word_count = len(text.split())
         if word_count < 100:
-            feedback.ats_issues.append(
-                f"Too short ({word_count} words). Aim for 300-600 words."
-            )
+            feedback.ats_issues.append(f"Too short ({word_count} words). Aim for 300-600 words.")
         elif word_count > 1500:
-            feedback.ats_issues.append(
-                f"Too long ({word_count} words). Keep under 1000 for readability."
-            )
+            feedback.ats_issues.append(f"Too long ({word_count} words). Keep under 1000 for readability.")
 
     def _check_content_quality(self, text: str, feedback: ResumeFeedback) -> None:
         quant_matches = _QUANT_PATTERN.findall(text)
@@ -375,14 +553,12 @@ class ResumeAdvisor:
             feedback.quant_score = min(100.0, 60 + quant_count * 4)
         elif quant_count >= 2:
             feedback.improvements.append(
-                f"정량 지표 {quant_count}개 발견. "
-                "5개 이상을 목표로 수치(%, 명, 억원 등)를 추가하세요."
+                f"정량 지표 {quant_count}개 발견. 5개 이상을 목표로 수치(%, 명, 억원 등)를 추가하세요."
             )
             feedback.quant_score = 40.0 + quant_count * 8
         else:
             feedback.improvements.append(
-                "정량적 성과가 부족합니다. "
-                "'매출 30% 증가', '사용자 5,000명 확보' 등을 추가하세요."
+                "정량적 성과가 부족합니다. '매출 30% 증가', '사용자 5,000명 확보' 등을 추가하세요."
             )
             feedback.quant_score = max(0.0, quant_count * 15.0)
 
@@ -394,9 +570,7 @@ class ResumeAdvisor:
         if total_action_verbs >= 5:
             feedback.strengths.append(f"액션 동사 {total_action_verbs}개 사용 (능동적 서술)")
         else:
-            feedback.improvements.append(
-                "액션 동사를 더 사용하세요: '개발했습니다', '주도했습니다', '달성했습니다' 등"
-            )
+            feedback.improvements.append("액션 동사를 더 사용하세요: '개발했습니다', '주도했습니다', '달성했습니다' 등")
 
         tech_terms = re.findall(
             r"\b[A-Z][a-zA-Z0-9+#._-]{1,}\b|[가-힣]{2,}(?:\s[가-힣]{2,})?",
@@ -407,9 +581,7 @@ class ResumeAdvisor:
             t = term.strip()
             if t and len(t) >= 2:
                 density[t] = density.get(t, 0) + 1
-        feedback.keyword_density = dict(
-            sorted(density.items(), key=lambda x: x[1], reverse=True)[:20]
-        )
+        feedback.keyword_density = dict(sorted(density.items(), key=lambda x: x[1], reverse=True)[:20])
 
     def _generate_before_after(self, text: str, feedback: ResumeFeedback) -> None:
         suggestions: list[dict[str, str]] = []
@@ -419,35 +591,61 @@ class ResumeAdvisor:
             text,
         )
         if vague:
-            suggestions.append({
-                "before": vague.group(0).strip(),
-                "after": f"{vague.group(1)} 업무 수행 — [구체적 기여/수치] 달성",
-                "tip": "담당->달성으로 전환하고 수치를 추가하세요.",
-            })
+            suggestions.append(
+                {
+                    "before": vague.group(0).strip(),
+                    "after": f"{vague.group(1)} 업무 수행 — [구체적 기여/수치] 달성",
+                    "tip": "담당->달성으로 전환하고 수치를 추가하세요.",
+                }
+            )
 
         contrib = re.search(r"([가-힣a-zA-Z ]{3,30})\s*에\s*기여했습니다", text)
         if contrib and not _QUANT_PATTERN.search(contrib.group(0)):
-            suggestions.append({
-                "before": contrib.group(0).strip(),
-                "after": f"{contrib.group(1)} 개선에 기여 — XX% 향상 / XX명 증가",
-                "tip": "기여의 규모를 수치로 증명하세요.",
-            })
+            suggestions.append(
+                {
+                    "before": contrib.group(0).strip(),
+                    "after": f"{contrib.group(1)} 개선에 기여 — XX% 향상 / XX명 증가",
+                    "tip": "기여의 규모를 수치로 증명하세요.",
+                }
+            )
 
         dev = re.search(r"([가-힣a-zA-Za-z ]{3,30})\s*(개발했습니다|구축했습니다)", text)
         if dev and not _QUANT_PATTERN.search(dev.group(0)):
-            suggestions.append({
-                "before": dev.group(0).strip(),
-                "after": f"{dev.group(1)} 개발 — [규모/성능/사용자 수] 포함",
-                "tip": "기술 스택과 결과 규모를 함께 기술하세요.",
-            })
+            suggestions.append(
+                {
+                    "before": dev.group(0).strip(),
+                    "after": f"{dev.group(1)} 개발 — [규모/성능/사용자 수] 포함",
+                    "tip": "기술 스택과 결과 규모를 함께 기술하세요.",
+                }
+            )
 
         feedback.before_after_suggestions = suggestions[:5]
 
     def _check_keyword_match(self, resume: str, jd: str, feedback: ResumeFeedback) -> None:
         stop_words = {
-            "the", "and", "for", "you", "are", "with", "this", "that",
-            "our", "have", "will", "from", "not", "but", "can", "all",
-            "경험", "이상", "관련", "우대", "필수", "능력", "담당",
+            "the",
+            "and",
+            "for",
+            "you",
+            "are",
+            "with",
+            "this",
+            "that",
+            "our",
+            "have",
+            "will",
+            "from",
+            "not",
+            "but",
+            "can",
+            "all",
+            "경험",
+            "이상",
+            "관련",
+            "우대",
+            "필수",
+            "능력",
+            "담당",
         }
         resume_lower = resume.lower()
 
@@ -469,28 +667,274 @@ class ResumeAdvisor:
                 prioritized_missing.append(tech)
 
         missing = prioritized_missing + [
-            keyword for keyword in ordered_keywords
+            keyword
+            for keyword in ordered_keywords
             if keyword not in resume_lower and keyword not in prioritized_missing
         ]
-        feedback.keyword_gaps = [
-            m for m in missing
-            if len(m) >= 3 or any(c >= "\uac00" for c in m)
-        ][:15]
+        feedback.keyword_gaps = [m for m in missing if len(m) >= 3 or any(c >= "\uac00" for c in m)][:15]
 
     def _suggest_ats_keywords(self, resume: str, jd: str, feedback: ResumeFeedback) -> None:
-        tech_pattern = re.compile(
-            r"\b([A-Z][a-zA-Z0-9+#._-]{1,}|[가-힣]{2,6}(?:JS|QL|AI|ML|DB)?)\b"
-        )
+        tech_pattern = re.compile(r"\b([A-Z][a-zA-Z0-9+#._-]{1,}|[가-힣]{2,6}(?:JS|QL|AI|ML|DB)?)\b")
         jd_tech = set(tech_pattern.findall(jd))
         resume_lower = resume.lower()
-        missing_tech = [
-            t for t in jd_tech
-            if t.lower() not in resume_lower and len(t) >= 2
-        ]
+        missing_tech = [t for t in jd_tech if t.lower() not in resume_lower and len(t) >= 2]
         feedback.ats_keyword_suggestions = [
             f"JD 핵심 키워드 '{kw}'이(가) 이력서에 없습니다. 기술 스택 또는 경력 항목에 추가하세요."
             for kw in sorted(missing_tech)[:8]
         ]
+
+    def _map_role_expectations(self, resume: str, jd_text: str, feedback: ResumeFeedback) -> None:
+        parsed_jd = self._jd_parser.parse(jd_text)
+        if not (parsed_jd.must_have_expectations or parsed_jd.inferred_expectations or parsed_jd.unknown_expectations):
+            return
+
+        evidence_lines = self._collect_resume_evidence_lines(resume)
+        resume_lower = resume.lower()
+
+        for expectation in parsed_jd.must_have_expectations:
+            assessment = self._assess_expectation(
+                expectation=expectation,
+                evidence_lines=evidence_lines,
+                resume_text=resume_lower,
+            )
+            if assessment["status"] == "proven":
+                self._append_unique(
+                    feedback.strengths,
+                    f"역할 기대치 입증: {expectation} — 근거: {assessment['evidence']}",
+                )
+                continue
+            self._append_unique(
+                feedback.missing_proof,
+                f"{expectation} — {assessment['note']}",
+            )
+
+        for expectation in parsed_jd.inferred_expectations:
+            assessment = self._assess_expectation(
+                expectation=expectation,
+                evidence_lines=evidence_lines,
+                resume_text=resume_lower,
+            )
+            if assessment["status"] == "proven":
+                self._append_unique(
+                    feedback.strengths,
+                    f"역할 기대치 입증: {expectation} — 근거: {assessment['evidence']}",
+                )
+            elif assessment["status"] == "transferable":
+                self._append_unique(
+                    feedback.transferability_opportunities,
+                    f"{expectation} — 연결 가능한 근거: {assessment['evidence']}",
+                )
+
+        for expectation in parsed_jd.unknown_expectations:
+            self._append_unique(
+                feedback.missing_proof,
+                f"{expectation} — JD 자체가 모호해 지원 전 확인이 필요합니다.",
+            )
+
+    def _collect_resume_evidence_lines(self, text: str) -> list[tuple[str, str]]:
+        section_blocks = self._split_into_section_blocks(text)
+        evidence_lines: list[tuple[str, str]] = []
+
+        for section_key, block in section_blocks.items():
+            for line in block.splitlines():
+                normalized = line.strip().lstrip("-•*0123456789. ")
+                if normalized:
+                    evidence_lines.append((section_key, normalized))
+
+        if not evidence_lines:
+            for line in text.splitlines():
+                normalized = line.strip()
+                if normalized:
+                    evidence_lines.append(("unknown", normalized))
+
+        return evidence_lines
+
+    def _assess_expectation(
+        self,
+        *,
+        expectation: str,
+        evidence_lines: list[tuple[str, str]],
+        resume_text: str,
+    ) -> dict[str, str]:
+        if expectation.startswith("경력 요구:"):
+            return self._assess_experience_expectation(expectation, resume_text)
+        if expectation.startswith("필수 기술:") or expectation.startswith("우대 기술:"):
+            return self._assess_rollup_tech_expectation(expectation, evidence_lines)
+
+        concept_groups = self._build_expectation_concepts(expectation)
+        full_match: str | None = None
+        partial_match: str | None = None
+        skill_only_match: str | None = None
+
+        for section_key, line in evidence_lines:
+            group_hits = self._match_concept_groups(concept_groups, line)
+            if group_hits == 0:
+                continue
+            if section_key == "skills":
+                if skill_only_match is None:
+                    skill_only_match = line
+                continue
+            if group_hits == len(concept_groups) and self._is_strong_proof_line(section_key, line):
+                full_match = line
+                break
+            if partial_match is None:
+                partial_match = line
+
+        if full_match:
+            return {"status": "proven", "evidence": full_match, "note": ""}
+        if partial_match:
+            return {
+                "status": "transferable",
+                "evidence": partial_match,
+                "note": f"'{partial_match}'는 연결 포인트는 있지만 {expectation}을 직접 입증하진 않습니다.",
+            }
+        if skill_only_match:
+            return {
+                "status": "missing_proof",
+                "evidence": skill_only_match,
+                "note": f"'{skill_only_match}' 같은 키워드 언급만으로는 {expectation}을 증명하긴 부족합니다.",
+            }
+        return {
+            "status": "missing_proof",
+            "evidence": "",
+            "note": "이력서에서 직접 연결되는 경험 근거를 찾지 못했습니다.",
+        }
+
+    def _assess_experience_expectation(self, expectation: str, resume_text: str) -> dict[str, str]:
+        numbers = [int(match) for match in re.findall(r"\d+", expectation)]
+        required_years = numbers[0] if numbers else 0
+        resume_numbers = [int(match) for match in re.findall(r"(\d+)\s*년", resume_text)]
+        if resume_numbers and max(resume_numbers) >= required_years:
+            return {
+                "status": "proven",
+                "evidence": f"이력서에 최대 {max(resume_numbers)}년 경력이 명시되어 있습니다.",
+                "note": "",
+            }
+        return {
+            "status": "missing_proof",
+            "evidence": "",
+            "note": f"이력서에서 {required_years}년 이상 경력 근거를 확인하지 못했습니다.",
+        }
+
+    def _assess_rollup_tech_expectation(
+        self,
+        expectation: str,
+        evidence_lines: list[tuple[str, str]],
+    ) -> dict[str, str]:
+        tech_terms = self._extract_tech_terms(expectation)
+        if not tech_terms:
+            return {
+                "status": "missing_proof",
+                "evidence": "",
+                "note": "이력서에서 직접 연결되는 기술 근거를 찾지 못했습니다.",
+            }
+
+        proven: list[str] = []
+        transferable: list[str] = []
+        keyword_only: list[str] = []
+
+        for tech in tech_terms:
+            matched_line: str | None = None
+            partial_line: str | None = None
+            skill_only_line: str | None = None
+            for section_key, line in evidence_lines:
+                if not self._line_mentions_term(line, tech):
+                    continue
+                if section_key == "skills":
+                    skill_only_line = line
+                    continue
+                if self._is_strong_proof_line(section_key, line):
+                    matched_line = line
+                    break
+                partial_line = line
+            if matched_line:
+                proven.append(f"{tech}: {matched_line}")
+            elif partial_line:
+                transferable.append(f"{tech}: {partial_line}")
+            elif skill_only_line:
+                keyword_only.append(f"{tech}: {skill_only_line}")
+
+        threshold = max(1, min(2, len(tech_terms)))
+        if len(proven) >= threshold:
+            return {
+                "status": "proven",
+                "evidence": "; ".join(proven[:3]),
+                "note": "",
+            }
+        if proven or transferable:
+            evidence = "; ".join((proven + transferable)[:3])
+            return {
+                "status": "transferable",
+                "evidence": evidence,
+                "note": f"기술 일부는 보이지만 '{expectation}' 전체를 입증할 정도로 충분하진 않습니다.",
+            }
+        if keyword_only:
+            return {
+                "status": "missing_proof",
+                "evidence": "; ".join(keyword_only[:3]),
+                "note": "기술 스택 나열만 있고 실무 적용 근거가 부족합니다.",
+            }
+        return {
+            "status": "missing_proof",
+            "evidence": "",
+            "note": "핵심 기술의 실무 증빙이 이력서에 보이지 않습니다.",
+        }
+
+    def _build_expectation_concepts(self, expectation: str) -> list[set[str]]:
+        normalized = expectation.lower()
+        for marker, concept_groups in _EXPECTATION_CONCEPTS:
+            if marker in expectation:
+                return [set(group) for group in concept_groups]
+
+        tech_terms = self._extract_tech_terms(expectation)
+        concepts: list[set[str]] = [{tech} for tech in tech_terms]
+
+        remaining_tokens = [
+            token
+            for token in re.findall(r"[a-zA-Z0-9+#._-]{2,}|[가-힣]{2,}", normalized)
+            if token not in _EXPECTATION_STOP_WORDS and normalize_tech(token) not in tech_terms
+        ]
+        concepts.extend({token} for token in remaining_tokens[:3])
+        return concepts or [{normalized}]
+
+    def _match_concept_groups(self, concept_groups: list[set[str]], line: str) -> int:
+        line_lower = line.lower()
+        return sum(1 for group in concept_groups if any(self._line_mentions_term(line_lower, term) for term in group))
+
+    def _extract_tech_terms(self, text: str) -> list[str]:
+        patterns = sorted(
+            {
+                normalize_tech(term)
+                for term in re.findall(r"[a-zA-Z][a-zA-Z0-9+#._-]{1,}", text.lower())
+                if len(term) >= 2
+            }
+        )
+        ordered: list[str] = []
+        for tech in patterns:
+            if tech in text.lower() or any(alias in text.lower() for alias in {tech, tech.replace(".", "")}):
+                if tech not in ordered:
+                    ordered.append(tech)
+        return ordered
+
+    def _line_mentions_term(self, line: str, term: str) -> bool:
+        line_lower = line.lower()
+        term_lower = term.lower()
+        if term_lower in line_lower:
+            return True
+        return normalize_tech(term_lower) in {
+            normalize_tech(token) for token in re.findall(r"[a-zA-Z0-9+#._-]{2,}|[가-힣]{2,}", line_lower)
+        }
+
+    def _is_strong_proof_line(self, section_key: str, line: str) -> bool:
+        if section_key in {"experience", "projects"}:
+            return True
+        if section_key == "summary":
+            return bool(_QUANT_PATTERN.search(line)) or self._count_action_verbs(line) > 0 or len(line.split()) >= 6
+        return False
+
+    def _append_unique(self, items: list[str], value: str) -> None:
+        if value not in items:
+            items.append(value)
 
     def _llm_review(
         self,

@@ -60,7 +60,7 @@ class TestGitHubSourceFetchRepos:
         source = GitHubSource()
         lines = [
             '{"name":"good","stargazers_count":10,"language":"Python","updated_at":"2025-01-01","fork":false,"archived":false}',
-            'not valid json',
+            "not valid json",
             '{"name":"also_good","stargazers_count":5,"language":"Go","updated_at":"2025-01-01","fork":false,"archived":false}',
         ]
         with patch("subprocess.run", return_value=self._mock_run(lines)):
@@ -69,9 +69,15 @@ class TestGitHubSourceFetchRepos:
 
 
 class TestGitHubSourceScoreOrg:
-    def _make_repos(self, count: int, stars: int = 100, lang: str = "Python",
-                    updated: str = "2025-01-01", fork: bool = False,
-                    archived: bool = False) -> list[dict]:
+    def _make_repos(
+        self,
+        count: int,
+        stars: int = 100,
+        lang: str = "Python",
+        updated: str = "2025-01-01",
+        fork: bool = False,
+        archived: bool = False,
+    ) -> list[dict[str, object]]:
         return [
             {
                 "name": f"repo{i}",
@@ -88,17 +94,12 @@ class TestGitHubSourceScoreOrg:
         source = GitHubSource()
         repos = self._make_repos(5)
         result = source._score_org("kakao", repos)
-        for key in ("org", "repo_count", "total_stars", "top_languages",
-                    "total_score", "grade", "dimensions"):
+        for key in ("org", "repo_count", "total_stars", "top_languages", "total_score", "grade", "dimensions"):
             assert key in result, f"Missing key: {key}"
 
     def test_forked_and_archived_excluded(self):
         source = GitHubSource()
-        repos = (
-            self._make_repos(3, stars=100) +
-            self._make_repos(2, fork=True) +
-            self._make_repos(1, archived=True)
-        )
+        repos = self._make_repos(3, stars=100) + self._make_repos(2, fork=True) + self._make_repos(1, archived=True)
         result = source._score_org("kakao", repos)
         assert result["repo_count"] == 3  # only non-fork, non-archived
 
@@ -117,11 +118,11 @@ class TestGitHubSourceScoreOrg:
     def test_language_diversity_counted(self):
         source = GitHubSource()
         repos = (
-            self._make_repos(2, lang="Python") +
-            self._make_repos(2, lang="Go") +
-            self._make_repos(2, lang="Java") +
-            self._make_repos(2, lang="TypeScript") +
-            self._make_repos(2, lang="Rust")
+            self._make_repos(2, lang="Python")
+            + self._make_repos(2, lang="Go")
+            + self._make_repos(2, lang="Java")
+            + self._make_repos(2, lang="TypeScript")
+            + self._make_repos(2, lang="Rust")
         )
         result = source._score_org("polyglot", repos)
         assert result["dimensions"]["diversity"] > 0
@@ -133,13 +134,42 @@ class TestGitHubSourceScoreOrg:
         result = source._score_org("kakao", repos)
         assert result["grade"] in ("S", "A", "B", "C", "D")
 
+    def test_weak_stack_claim_stays_likely_while_actual_work_is_extracted(self):
+        source = GitHubSource()
+        repos = [
+            {
+                "name": "payments-platform",
+                "stargazers_count": 30,
+                "language": "Python",
+                "updated_at": "2025-01-01",
+                "fork": False,
+                "archived": False,
+                "description": "Kafka event platform for payment settlement workflows",
+                "topics": ["kafka", "payments", "event-driven"],
+            }
+        ]
+
+        result = source._score_org("kakao", repos)
+
+        assert result["stack_reality"]["confirmed"] == []
+        assert [item["tech"] for item in result["stack_reality"]["likely"]] == ["python", "kafka"]
+        assert all(item["trust_label"] == "supporting" for item in result["stack_reality"]["likely"])
+        assert result["stack_reality"]["adjacent"] == []
+        assert [item["pattern"] for item in result["actual_work"]["likely"]] == ["payments_systems"]
+
 
 class TestGitHubSourceCollect:
     def test_collect_uses_known_org_map(self):
         source = GitHubSource()
         repos = [
-            {"name": "r1", "stargazers_count": 50, "language": "Python",
-             "updated_at": "2025-01-01", "fork": False, "archived": False}
+            {
+                "name": "r1",
+                "stargazers_count": 50,
+                "language": "Python",
+                "updated_at": "2025-01-01",
+                "fork": False,
+                "archived": False,
+            }
         ]
         with patch.object(source, "_fetch_repos", return_value=repos) as mock_fetch:
             results = source.collect("카카오")
@@ -152,7 +182,7 @@ class TestGitHubSourceCollect:
     def test_collect_falls_back_to_company_name_as_org(self):
         source = GitHubSource()
         with patch.object(source, "_fetch_repos", return_value=[]) as mock_fetch:
-            source.collect("unknowncompany")
+            _ = source.collect("unknowncompany")
         mock_fetch.assert_called_once_with("unknowncompany")
 
     def test_collect_returns_empty_when_no_repos_found(self):
@@ -164,8 +194,14 @@ class TestGitHubSourceCollect:
     def test_collect_result_has_url_and_raw(self):
         source = GitHubSource()
         repos = [
-            {"name": "r1", "stargazers_count": 100, "language": "Go",
-             "updated_at": "2025-01-01", "fork": False, "archived": False}
+            {
+                "name": "r1",
+                "stargazers_count": 100,
+                "language": "Go",
+                "updated_at": "2025-01-01",
+                "fork": False,
+                "archived": False,
+            }
         ]
         with patch.object(source, "_fetch_repos", return_value=repos):
             results = source.collect("카카오")

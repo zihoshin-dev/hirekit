@@ -1,0 +1,33 @@
+{
+  "company": "토스증권",
+  "region": "kr",
+  "sources": [
+    {
+      "source_name": "dart",
+      "section": "overview",
+      "url": "https://dart.fss.or.kr/",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-24T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "하이브리드 근무와 Python 중심 조직이라는 공시/소개가 있음",
+      "data": {"remote_policy": "hybrid", "primary_stack": "Python"}
+    },
+    {
+      "source_name": "pension",
+      "section": "overview",
+      "url": "https://example.com/pension-note",
+      "collected_at": "2026-03-24T00:00:00+00:00",
+      "effective_at": "2026-03-24T00:00:00+00:00",
+      "trust_label": "verified",
+      "publication_boundary": "public_demo",
+      "summary": "온사이트 중심 운영과 Java 기반 레거시 유지라는 기록이 남아 있음",
+      "data": {"remote_policy": "onsite", "primary_stack": "Java"}
+    }
+  ],
+  "signals": {
+    "growth": "확장 중이지만 운영 방식이 출처마다 다르게 보임",
+    "compensation": "보상은 상향/보수 해석이 엇갈림",
+    "tech": "Python, Java, trading platform"
+  }
+}

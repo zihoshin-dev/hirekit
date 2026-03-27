@@ -1,9 +1,8 @@
 from __future__ import annotations
 
-from typing import Final
+from typing import Any, Final
 
 from hirekit.sources.base import SourceResult
-
 
 SOURCE_AUTHORITY: Final[dict[str, int]] = {
     "dart": 3,
@@ -29,9 +28,23 @@ _CULTURE_SIGNAL_MAP: Final[dict[str, str]] = {
     "benefits": "복지",
 }
 
+_SOURCE_AUTHORITY_BY_LABEL: Final[dict[str, int]] = {
+    "official": 3,
+    "company_operated": 3,
+    "credible_reporting": 2,
+    "secondary_research": 1,
+    "community": 1,
+    "generated": 0,
+}
+
 
 def source_authority(source_name: str) -> int:
     return SOURCE_AUTHORITY.get(source_name, 1)
+
+
+def source_authority_score(result: SourceResult) -> int:
+    authority = result.source_authority or "secondary_research"
+    return _SOURCE_AUTHORITY_BY_LABEL.get(authority, source_authority(result.source_name))
 
 
 def conflicting_keys(source_results: list[SourceResult]) -> set[str]:
@@ -44,18 +57,40 @@ def conflicting_keys(source_results: list[SourceResult]) -> set[str]:
 
 
 def derive_confidence(expected_sources: list[str], source_results: list[SourceResult]) -> str:
+    return summarize_evidence_state(expected_sources, source_results)["confidence"]
+
+
+def summarize_evidence_state(expected_sources: list[str], source_results: list[SourceResult]) -> dict[str, Any]:
     relevant = [result for result in source_results if result.source_name in expected_sources]
     if not relevant:
-        return "low"
+        return {
+            "confidence": "low",
+            "has_conflicts": False,
+            "conflicting_keys": [],
+            "stale_sources": [],
+            "supporting_sources": [],
+            "matched_sources": [],
+        }
 
     fresh = [result for result in relevant if not result.is_stale]
+    stale_sources = sorted({result.source_name for result in relevant if result.is_stale})
     if not fresh:
-        return "low"
+        return {
+            "confidence": "low",
+            "has_conflicts": False,
+            "conflicting_keys": [],
+            "stale_sources": stale_sources,
+            "supporting_sources": [],
+            "matched_sources": sorted({result.source_name for result in relevant}),
+        }
 
     matched_names = {result.source_name for result in fresh}
-    authority_points = sum(source_authority(result.source_name) for result in fresh)
+    authority_points = sum(source_authority_score(result) for result in fresh)
+    authoritative_sources = sum(1 for result in fresh if source_authority_score(result) >= 2)
+    supporting_sources = sorted({result.source_name for result in fresh if result.trust_label == "supporting"})
+    conflicts = sorted(conflicting_keys(fresh))
 
-    if len(matched_names) >= 3 and authority_points >= 4:
+    if len(matched_names) >= 3 and authority_points >= 5 and authoritative_sources >= 2:
         confidence = "high"
     elif len(matched_names) >= 1 and authority_points >= 1:
         confidence = "medium"
@@ -65,13 +100,23 @@ def derive_confidence(expected_sources: list[str], source_results: list[SourceRe
     if len(fresh) < len(relevant) and confidence == "high":
         confidence = "medium"
 
-    if conflicting_keys(fresh):
+    if conflicts:
         if confidence == "high":
             confidence = "medium"
         elif confidence == "medium":
             confidence = "low"
 
-    return confidence
+    if supporting_sources and confidence == "high":
+        confidence = "medium"
+
+    return {
+        "confidence": confidence,
+        "has_conflicts": bool(conflicts),
+        "conflicting_keys": conflicts,
+        "stale_sources": stale_sources,
+        "supporting_sources": supporting_sources,
+        "matched_sources": sorted(matched_names),
+    }
 
 
 def culture_signal_labels(source_results: list[SourceResult]) -> list[str]:

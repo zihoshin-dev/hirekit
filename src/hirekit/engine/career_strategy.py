@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field
+from typing import cast
 
 from hirekit.core.company_db import get_default_db
 from hirekit.core.tech_taxonomy import (
@@ -10,6 +12,12 @@ from hirekit.core.tech_taxonomy import (
     get_category,
     normalize_tech,
 )
+from hirekit.engine.business_segments import summarize_growth_reality
+from hirekit.engine.company_analyzer import AnalysisReport
+from hirekit.engine.data_reviewer import DataReviewer
+from hirekit.engine.jd_matcher import JDAnalysis
+from hirekit.engine.resume_advisor import ResumeFeedback
+from hirekit.engine.scorer import ScoreDimension
 
 # ---------------------------------------------------------------------------
 # Data models
@@ -48,6 +56,22 @@ class CareerProfile:
 
 
 @dataclass
+class GroundedStrategySections:
+    why_role_matters: list[str] = field(default_factory=list)
+    why_to_hesitate: list[str] = field(default_factory=list)
+    application_changes: list[str] = field(default_factory=list)
+    verify_next: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, list[str]]:
+        return {
+            "why_role_matters": self.why_role_matters,
+            "why_to_hesitate": self.why_to_hesitate,
+            "application_changes": self.application_changes,
+            "verify_next": self.verify_next,
+        }
+
+
+@dataclass
 class CareerStrategy:
     """Structured career strategy result."""
 
@@ -60,6 +84,7 @@ class CareerStrategy:
     alternative_companies: list[str]
     career_path: str
     risk_assessment: str
+    grounded_recommendations: GroundedStrategySections = field(default_factory=GroundedStrategySections)
 
     def to_dict(self) -> dict[str, object]:
         return {
@@ -72,6 +97,7 @@ class CareerStrategy:
             "alternative_companies": self.alternative_companies,
             "career_path": self.career_path,
             "risk_assessment": self.risk_assessment,
+            "grounded_recommendations": self.grounded_recommendations.to_dict(),
         }
 
 
@@ -170,7 +196,14 @@ _LEARNING_SUGGESTIONS: dict[str, str] = {
 class CareerStrategyEngine:
     """Rule-based career strategy analyzer — no LLM required."""
 
-    def analyze(self, profile: CareerProfile) -> CareerStrategy:
+    def analyze(
+        self,
+        profile: CareerProfile,
+        *,
+        company_report: AnalysisReport | None = None,
+        jd_analysis: JDAnalysis | None = None,
+        resume_feedback: ResumeFeedback | None = None,
+    ) -> CareerStrategy:
         """Generate a career strategy for the given profile.
 
         Steps:
@@ -179,6 +212,7 @@ class CareerStrategyEngine:
         3. Score fit (0-100)
         4. Generate approach strategy, resume focus, interview prep
         5. Recommend timeline and alternative companies
+        6. Compose grounded strategy sections from structured evidence when available
         """
         company_key = profile.target_company.lower()
         company_stack = self._get_company_stack(company_key)
@@ -192,14 +226,10 @@ class CareerStrategyEngine:
         gap_analysis = self._compute_gaps(company_stack, all_user_skills)
 
         # Fit score
-        fit_score = self._compute_fit_score(
-            profile, company_stack, all_user_skills, gap_analysis
-        )
+        fit_score = self._compute_fit_score(profile, company_stack, all_user_skills, gap_analysis)
 
         # Approach strategy
-        approach_strategy = self._build_approach_strategy(
-            profile, fit_score, gap_analysis
-        )
+        approach_strategy = self._build_approach_strategy(profile, fit_score, gap_analysis)
 
         # Resume focus
         resume_focus = self._build_resume_focus(profile, company_key, all_user_skills)
@@ -211,15 +241,24 @@ class CareerStrategyEngine:
         timeline = self._recommend_timeline(gap_analysis, fit_score)
 
         # Alternatives
-        alternative_companies = _SIMILAR_COMPANIES.get(
-            company_key, _SIMILAR_COMPANIES.get(profile.target_company, [])
-        )[:5]
+        alternative_companies = _SIMILAR_COMPANIES.get(company_key, _SIMILAR_COMPANIES.get(profile.target_company, []))[
+            :5
+        ]
 
         # Career path
         career_path = self._suggest_career_path(profile)
 
         # Risk assessment
         risk_assessment = self._assess_risk(profile, fit_score, gap_analysis)
+
+        grounded_recommendations = self._build_grounded_recommendations(
+            profile=profile,
+            fit_score=fit_score,
+            gaps=gap_analysis,
+            company_report=company_report,
+            jd_analysis=jd_analysis,
+            resume_feedback=resume_feedback,
+        )
 
         return CareerStrategy(
             fit_score=fit_score,
@@ -231,11 +270,399 @@ class CareerStrategyEngine:
             alternative_companies=alternative_companies,
             career_path=career_path,
             risk_assessment=risk_assessment,
+            grounded_recommendations=grounded_recommendations,
         )
 
     # ------------------------------------------------------------------
     # Internal helpers
     # ------------------------------------------------------------------
+
+    def _build_grounded_recommendations(
+        self,
+        *,
+        profile: CareerProfile,
+        fit_score: float,
+        gaps: list[SkillGap],
+        company_report: AnalysisReport | None,
+        jd_analysis: JDAnalysis | None,
+        resume_feedback: ResumeFeedback | None,
+    ) -> GroundedStrategySections:
+        sections = GroundedStrategySections()
+        war_room = self._war_room_payload(company_report)
+        score_dimensions = self._score_dimensions(company_report)
+        growth_summary = self._growth_summary(company_report)
+        compensation_summary = self._compensation_summary(company_report, war_room)
+        org_health_bucket = self._org_health_bucket(company_report, war_room)
+
+        self._append_unique(
+            sections.why_role_matters,
+            self._dimension_summary(score_dimensions.get("job_fit")),
+        )
+        self._append_unique(
+            sections.why_role_matters,
+            self._dimension_summary(score_dimensions.get("career_leverage")),
+        )
+        self._append_unique(sections.why_role_matters, growth_summary)
+        self._append_unique(
+            sections.why_role_matters,
+            self._role_reality_summary(war_room),
+        )
+
+        if jd_analysis is not None:
+            if jd_analysis.hard_alignment:
+                self._append_unique(
+                    sections.why_role_matters,
+                    f"[jd/hard_alignment] {jd_analysis.hard_alignment[0]}",
+                )
+            elif jd_analysis.soft_alignment:
+                self._append_unique(
+                    sections.why_role_matters,
+                    f"[jd/soft_alignment] {jd_analysis.soft_alignment[0]}",
+                )
+
+            if jd_analysis.role_reality_mismatches:
+                self._append_unique(
+                    sections.why_to_hesitate,
+                    f"[jd/role_reality_mismatch] {jd_analysis.role_reality_mismatches[0]}",
+                )
+            if jd_analysis.gaps:
+                self._append_unique(
+                    sections.why_to_hesitate,
+                    f"[jd/gap] {jd_analysis.gaps[0]} 요구 근거를 아직 직접 보여주지 못해요.",
+                )
+                self._append_unique(
+                    sections.application_changes,
+                    f"[application/jd_gap] {jd_analysis.gaps[0]}는 유사 경험 또는 학습 계획과 함께 지원서에 명시해요.",
+                )
+            for item in jd_analysis.ambiguous_expectations[:2]:
+                self._append_unique(
+                    sections.verify_next,
+                    f"needs verification — jd: {item}",
+                )
+
+        if resume_feedback is not None:
+            for item in resume_feedback.strengths[:2]:
+                self._append_unique(
+                    sections.why_role_matters,
+                    f"[resume/strength] {item}",
+                )
+            if resume_feedback.missing_proof:
+                self._append_unique(
+                    sections.why_to_hesitate,
+                    f"[resume/missing_proof] {resume_feedback.missing_proof[0]}",
+                )
+            for item in resume_feedback.missing_proof[:2]:
+                self._append_unique(
+                    sections.application_changes,
+                    f"[application/proof] {item}",
+                )
+            for item in resume_feedback.transferability_opportunities[:2]:
+                self._append_unique(
+                    sections.application_changes,
+                    f"[application/transferability] {item}",
+                )
+            for item in resume_feedback.tailored_suggestions[:2]:
+                self._append_unique(
+                    sections.application_changes,
+                    f"[application/tailoring] {item}",
+                )
+
+        self._append_org_health_guidance(
+            sections=sections,
+            org_health_bucket=org_health_bucket,
+        )
+
+        if compensation_summary:
+            if "unknown" in compensation_summary:
+                self._append_unique(sections.verify_next, f"needs verification — {compensation_summary}")
+            else:
+                self._append_unique(sections.why_role_matters, compensation_summary)
+
+        if gaps:
+            top_gap = gaps[0]
+            self._append_unique(
+                sections.why_to_hesitate,
+                f"[skill_gap/{top_gap.importance}] {top_gap.skill} 근거가 아직 부족해요.",
+            )
+            self._append_unique(
+                sections.application_changes,
+                (
+                    f"[application/skill_gap] {top_gap.skill}는 "
+                    f"{top_gap.learning_suggestion} 수준의 보완 계획을 짧게 넣어요."
+                ),
+            )
+
+        if not sections.why_role_matters:
+            self._append_unique(
+                sections.why_role_matters,
+                (
+                    f"[fit/generated] {profile.target_company} 기준 적합도 "
+                    f"{fit_score:.0f}/100으로 현재 프로필과 기본 정렬이 보여요."
+                ),
+            )
+        if not sections.why_to_hesitate:
+            self._append_unique(
+                sections.why_to_hesitate,
+                "[unknown] 치명적 경고는 아직 많지 않지만 확인되지 않은 근거는 그대로 남겨 두고 판단해야 해요.",
+            )
+        if not sections.application_changes:
+            if profile.skills:
+                self._append_unique(
+                    sections.application_changes,
+                    (
+                        f"[application/generated] 보유 기술 {profile.skills[0]}로 만든 "
+                        "실제 성과 문장을 지원서 첫 단락에 배치해요."
+                    ),
+                )
+            else:
+                self._append_unique(
+                    sections.application_changes,
+                    "[application/generated] 현재 역할에서 만든 정량 성과 1개를 먼저 지원서 상단에 추가해요.",
+                )
+        if not sections.verify_next:
+            self._append_unique(
+                sections.verify_next,
+                "needs verification — 구조화된 회사/JD/이력서 근거가 충분하지 않아 추가 확인이 먼저예요.",
+            )
+
+        sections.why_role_matters = sections.why_role_matters[:4]
+        sections.why_to_hesitate = sections.why_to_hesitate[:4]
+        sections.application_changes = sections.application_changes[:4]
+        sections.verify_next = sections.verify_next[:4]
+        return sections
+
+    @staticmethod
+    def _append_unique(items: list[str], value: str) -> None:
+        normalized = value.strip()
+        if normalized and normalized not in items:
+            items.append(normalized)
+
+    @staticmethod
+    def _war_room_payload(company_report: AnalysisReport | None) -> dict[str, object]:
+        if company_report is None:
+            return {}
+        report_dict = cast(dict[str, object], company_report.to_dict())
+        payload = report_dict.get("war_room")
+        return CareerStrategyEngine._mapping_dict(payload)
+
+    @staticmethod
+    def _score_dimensions(company_report: AnalysisReport | None) -> dict[str, ScoreDimension]:
+        if company_report is None or company_report.scorecard is None:
+            return {}
+        return {dimension.name: dimension for dimension in company_report.scorecard.dimensions}
+
+    @staticmethod
+    def _dimension_summary(dimension: ScoreDimension | None) -> str:
+        if dimension is None or not dimension.evidence.strip():
+            return ""
+        score = round(dimension.score * 20, 1)
+        confidence = dimension.confidence or "unknown"
+        return f"[scorecard/{confidence}] {dimension.label} {score:.0f}/100 — {dimension.evidence}"
+
+    def _role_reality_summary(self, war_room: Mapping[str, object]) -> str:
+        role_expectations = self._string_list(war_room.get("role_expectations"))
+        actual_work = self._string_list(war_room.get("actual_work"))
+        stack_reality = self._mapping_dict(war_room.get("stack_reality"))
+
+        if role_expectations and actual_work:
+            return (
+                "[role/supporting] "
+                f"기대치 '{role_expectations[0]}' 와 실제 업무 '{actual_work[0]}' 가 같은 문제를 가리켜요."
+            )
+
+        confirmed = self._string_list(stack_reality.get("confirmed"))
+        if role_expectations and confirmed:
+            return (
+                "[role/supporting] "
+                f"역할 기대치 '{role_expectations[0]}' 를 뒷받침하는 스택 단서로 {confirmed[0]} 이 확인돼요."
+            )
+
+        return ""
+
+    def _growth_summary(self, company_report: AnalysisReport | None) -> str:
+        if company_report is None:
+            return ""
+
+        source_data: dict[str, dict[str, object]] = {}
+        for result in company_report.source_results:
+            source_data.setdefault(result.source_name, {}).update(result.data)
+
+        summary = cast(dict[str, object], summarize_growth_reality(source_data))
+        verified_facts = self._mapping_dict(summary.get("verified_facts"))
+        growth_reality = self._mapping_dict(verified_facts.get("growth_reality"))
+        if not growth_reality:
+            return ""
+
+        rate = growth_reality.get("revenue_growth_rate")
+        direction = self._growth_direction_label(str(growth_reality.get("revenue_growth_direction", "flat")))
+        interpretations = self._string_list(summary.get("interpretation"))
+        interpretation = ""
+        if interpretations:
+            interpretation = interpretations[0]
+        trust_label = self._trust_label_for_data_key(company_report, "growth_reality")
+
+        rate_label = "매출 추세는 확인됐어요"
+        if isinstance(rate, (int, float)):
+            rate_label = f"매출 성장률 {rate:.1f}%"
+
+        line = f"[growth/{trust_label}] {rate_label} ({direction})"
+        if interpretation:
+            line += f" — {interpretation}"
+        return line
+
+    def _compensation_summary(
+        self,
+        company_report: AnalysisReport | None,
+        war_room: Mapping[str, object],
+    ) -> str:
+        if company_report is None:
+            return ""
+
+        summary = self._mapping_dict(war_room.get("compensation_growth_reality"))
+        if not summary:
+            return ""
+
+        trust_label = self._trust_label_for_data_key(
+            company_report,
+            "compensation_growth_reality",
+        )
+        headcount = summary.get("headcount_total")
+        salary_data_available = summary.get("salary_data_available")
+        tenure = summary.get("avg_tenure_years")
+
+        parts: list[str] = []
+        if isinstance(headcount, (int, float)) and headcount > 0:
+            parts.append(f"추정 인원 {int(headcount):,}명")
+        if salary_data_available is True:
+            parts.append("급여 데이터 확인됨")
+        else:
+            parts.append("급여 데이터는 아직 unknown")
+        if isinstance(tenure, (int, float)) and tenure > 0:
+            parts.append(f"평균 근속 최대 {tenure:.1f}년")
+
+        return f"[compensation/{trust_label}] " + ", ".join(parts)
+
+    def _org_health_bucket(
+        self,
+        company_report: AnalysisReport | None,
+        war_room: Mapping[str, object],
+    ) -> dict[str, object]:
+        if company_report is not None and company_report.source_results:
+            bucket = cast(
+                dict[str, object],
+                DataReviewer()
+                .review(company_report.source_results)
+                .intelligence_layer.get(
+                    "org_health",
+                    {},
+                ),
+            )
+            if bucket and any(bucket.values()):
+                return bucket
+
+        org_health = self._mapping_dict(war_room.get("org_health"))
+        if not org_health:
+            return {}
+
+        return {
+            "state": org_health.get("state", "unknown"),
+            "verified_facts": [
+                {"summary": item, "trust_label": "verified"} for item in self._string_list(org_health.get("verified"))
+            ],
+            "supporting_signals": [
+                {"summary": item, "trust_label": "supporting"}
+                for item in self._string_list(org_health.get("supporting"))
+            ],
+            "contradictions": [],
+            "unknowns": [] if org_health.get("state") != "unknown" else ["org_health_unknown"],
+        }
+
+    def _append_org_health_guidance(
+        self,
+        *,
+        sections: GroundedStrategySections,
+        org_health_bucket: Mapping[str, object],
+    ) -> None:
+        if not org_health_bucket:
+            return
+
+        state = str(org_health_bucket.get("state", "unknown"))
+        verified_facts = self._mapping_items(org_health_bucket.get("verified_facts"))
+        supporting_signals = self._mapping_items(org_health_bucket.get("supporting_signals"))
+        contradictions = self._mapping_items(org_health_bucket.get("contradictions"))
+        unknowns = self._string_list(org_health_bucket.get("unknowns"))
+
+        if state == "verified" and verified_facts:
+            first_fact = verified_facts[0]
+            summary = str(first_fact.get("summary", "")).strip()
+            self._append_unique(
+                sections.why_role_matters,
+                f"[org_health/verified] {summary}",
+            )
+        elif state == "contradictory":
+            detail = "상충 신호가 함께 보여요."
+            if contradictions:
+                claim_key = str(contradictions[0].get("claim_key", "org_health"))
+                statuses = ", ".join(self._string_list(contradictions[0].get("statuses")))
+                if statuses:
+                    detail = f"{claim_key} 기준으로 {statuses} 신호가 함께 보여요."
+            self._append_unique(
+                sections.why_to_hesitate,
+                f"[org_health/contradictory] {detail}",
+            )
+            self._append_unique(
+                sections.verify_next,
+                "needs verification — org_health: contradictory_evidence",
+            )
+        elif state in {"supporting", "unknown"} and supporting_signals:
+            first_signal = supporting_signals[0]
+            summary = str(first_signal.get("summary", "")).strip()
+            self._append_unique(
+                sections.why_to_hesitate,
+                f"[org_health/supporting-only] {summary}",
+            )
+
+        for item in unknowns[:2]:
+            self._append_unique(
+                sections.verify_next,
+                f"needs verification — org_health: {item}",
+            )
+
+    @staticmethod
+    def _string_list(value: object) -> list[str]:
+        if not isinstance(value, Sequence) or isinstance(value, (str, bytes)):
+            return []
+        return [str(item).strip() for item in value if str(item).strip()]
+
+    @staticmethod
+    def _mapping_dict(value: object) -> dict[str, object]:
+        if not isinstance(value, Mapping):
+            return {}
+        return {str(key): item for key, item in value.items()}
+
+    @classmethod
+    def _mapping_items(cls, value: object) -> list[dict[str, object]]:
+        if not isinstance(value, Sequence) or isinstance(value, (str, bytes)):
+            return []
+        return [cls._mapping_dict(item) for item in value if cls._mapping_dict(item)]
+
+    @staticmethod
+    def _growth_direction_label(direction: str) -> str:
+        return {
+            "growing": "성장",
+            "shrinking": "감소",
+            "flat": "보합",
+        }.get(direction, direction or "보합")
+
+    @staticmethod
+    def _trust_label_for_data_key(
+        company_report: AnalysisReport,
+        data_key: str,
+    ) -> str:
+        for result in company_report.source_results:
+            if data_key in result.data:
+                return result.trust_label
+        return "unknown"
 
     def _get_company_stack(self, company_key: str) -> list[str]:
         """Return tech stack for a known company.
@@ -247,9 +674,7 @@ class CareerStrategyEngine:
             return db_stack
         return _COMPANY_TECH_STACK.get(company_key, [])
 
-    def _compute_gaps(
-        self, company_stack: list[str], user_skills: set[str]
-    ) -> list[SkillGap]:
+    def _compute_gaps(self, company_stack: list[str], user_skills: set[str]) -> list[SkillGap]:
         """Find skills in company stack not covered by user."""
         gaps: list[SkillGap] = []
         # First half of stack = core (required), rest = preferred
@@ -264,12 +689,14 @@ class CareerStrategyEngine:
             category = get_category(tech_norm) or "General"
             suggestion = _LEARNING_SUGGESTIONS.get(tech_norm, f"{tech} 공식 문서 학습")
 
-            gaps.append(SkillGap(
-                skill=tech,
-                category=category,
-                importance=importance,
-                learning_suggestion=suggestion,
-            ))
+            gaps.append(
+                SkillGap(
+                    skill=tech,
+                    category=category,
+                    importance=importance,
+                    learning_suggestion=suggestion,
+                )
+            )
         return gaps
 
     def _compute_fit_score(
@@ -354,10 +781,7 @@ class CareerStrategyEngine:
         if fit_score >= 75:
             opening = f"{company}에 대한 적합도가 높아요 (점수: {fit_score:.0f}). 바로 지원을 권장해요."
         elif fit_score >= 50:
-            opening = (
-                f"{company} 지원에 준비가 필요해요 (점수: {fit_score:.0f}). "
-                "핵심 갭을 보완하면 경쟁력이 높아져요."
-            )
+            opening = f"{company} 지원에 준비가 필요해요 (점수: {fit_score:.0f}). 핵심 갭을 보완하면 경쟁력이 높아져요."
         else:
             opening = (
                 f"{company} 지원까지 추가 준비가 필요해요 (점수: {fit_score:.0f}). "
@@ -393,15 +817,10 @@ class CareerStrategyEngine:
 
         return opening + transition + role_transition + gap_note
 
-    def _build_resume_focus(
-        self, profile: CareerProfile, company_key: str, user_skills: set[str]
-    ) -> list[str]:
+    def _build_resume_focus(self, profile: CareerProfile, company_key: str, user_skills: set[str]) -> list[str]:
         """Return list of resume emphasis points."""
         company_stack = self._get_company_stack(company_key)
-        matched_stack = [
-            s for s in company_stack
-            if normalize_tech(s) in user_skills or s in user_skills
-        ]
+        matched_stack = [s for s in company_stack if normalize_tech(s) in user_skills or s in user_skills]
 
         focus = []
 
@@ -420,9 +839,7 @@ class CareerStrategyEngine:
             focus.append("학습 속도와 성장 가능성, 사이드 프로젝트·오픈소스 기여 강조")
 
         if profile.current_company:
-            focus.append(
-                f"{profile.current_company} 재직 중 달성한 정량적 성과 (MAU, 거래액, 성능 지표 등)"
-            )
+            focus.append(f"{profile.current_company} 재직 중 달성한 정량적 성과 (MAU, 거래액, 성능 지표 등)")
 
         focus.append(f"{profile.target_company} 제품/서비스에 대한 이해와 개선 아이디어 언급")
         focus.append("협업·커뮤니케이션 능력을 보여주는 크로스팀 프로젝트 사례")
@@ -452,9 +869,7 @@ class CareerStrategyEngine:
         company_stack = self._get_company_stack(company_key)
         if company_stack:
             core_tech = company_stack[:3]
-            prep.append(
-                f"기술 심층 질문 대비: {', '.join(core_tech)} 동작 원리와 트레이드오프 설명 연습"
-            )
+            prep.append(f"기술 심층 질문 대비: {', '.join(core_tech)} 동작 원리와 트레이드오프 설명 연습")
 
         prep.append("STAR 기법으로 과거 경험 3-5개 스토리 준비 (상황-과제-행동-결과)")
 
@@ -470,9 +885,7 @@ class CareerStrategyEngine:
 
         return prep
 
-    def _recommend_timeline(
-        self, gaps: list[SkillGap], fit_score: float
-    ) -> str:
+    def _recommend_timeline(self, gaps: list[SkillGap], fit_score: float) -> str:
         """Recommend preparation timeline."""
         required_gaps = [g for g in gaps if g.importance == "required"]
         n_gaps = len(required_gaps)
@@ -521,7 +934,7 @@ class CareerStrategyEngine:
 
         if fit_score >= 75 and len(required_gaps) == 0:
             level = "낮음"
-            detail = "기술 적합도가 높아 합격 가능성이 충분해요. 협상 시 연봉 하한을 미리 설정하세요."
+            detail = "기술 적합도가 높아 바로 지원 준비를 진행해도 돼요. 협상 시 연봉 하한을 미리 설정하세요."
         elif fit_score >= 55:
             level = "중간"
             detail = (
@@ -531,7 +944,7 @@ class CareerStrategyEngine:
         else:
             level = "높음"
             detail = (
-                "갭이 커서 서류 통과 확률이 낮을 수 있어요. "
+                "지금 기준으로는 갭과 증거 공백이 커 보여요. "
                 "대안 기업에 먼저 지원해 면접 경험을 쌓거나, "
                 "갭 보완 후 재도전을 권장해요."
             )

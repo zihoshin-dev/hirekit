@@ -26,21 +26,21 @@ class TestDartSourceAvailability:
 class TestDartSourceCorpCodeResolution:
     def test_known_company_resolved_from_map(self, monkeypatch):
         monkeypatch.setenv("DART_API_KEY", "key")
-        source = DartSource()
+        source: DartSource = DartSource()
         # 카카오 is in KNOWN_CORPS
         code = source._resolve_corp_code("카카오", "key")
         assert code == KNOWN_CORPS["카카오"]
 
     def test_partial_name_match_in_known_corps(self, monkeypatch):
         monkeypatch.setenv("DART_API_KEY", "key")
-        source = DartSource()
+        source: DartSource = DartSource()
         # "토스뱅크" should match known entry
         code = source._resolve_corp_code("토스뱅크", "key")
         assert code is not None
 
     def test_unknown_company_falls_back_to_xml_search(self, monkeypatch, tmp_path):
         monkeypatch.setenv("DART_API_KEY", "key")
-        source = DartSource()
+        source: DartSource = DartSource()
 
         with patch.object(source, "_search_corp_xml", return_value="99999999") as mock_xml:
             code = source._resolve_corp_code("알수없는회사XYZ", "key")
@@ -49,7 +49,7 @@ class TestDartSourceCorpCodeResolution:
 
 
 class TestDartSourceParseCorpXml:
-    def _build_xml(self, entries: list[dict]) -> bytes:
+    def _build_xml(self, entries: list[dict[str, str]]) -> bytes:
         root = ET.Element("result")
         for e in entries:
             item = ET.SubElement(root, "list")
@@ -59,47 +59,55 @@ class TestDartSourceParseCorpXml:
         return ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
     def test_exact_match_returned(self, tmp_path):
-        xml_data = self._build_xml([
-            {"corp_name": "카카오", "corp_code": "00258801", "stock_code": "035720"},
-        ])
+        xml_data = self._build_xml(
+            [
+                {"corp_name": "카카오", "corp_code": "00258801", "stock_code": "035720"},
+            ]
+        )
         xml_path = tmp_path / "corps.xml"
         xml_path.write_bytes(xml_data)
 
-        source = DartSource()
+        source: DartSource = DartSource()
         code = source._parse_corp_xml(xml_path, "카카오")
         assert code == "00258801"
 
     def test_listed_company_preferred_over_unlisted(self, tmp_path):
-        xml_data = self._build_xml([
-            {"corp_name": "카카오", "corp_code": "UNLISTED", "stock_code": ""},
-            {"corp_name": "카카오", "corp_code": "LISTED", "stock_code": "035720"},
-        ])
+        xml_data = self._build_xml(
+            [
+                {"corp_name": "카카오", "corp_code": "UNLISTED", "stock_code": ""},
+                {"corp_name": "카카오", "corp_code": "LISTED", "stock_code": "035720"},
+            ]
+        )
         xml_path = tmp_path / "corps.xml"
         xml_path.write_bytes(xml_data)
 
-        source = DartSource()
+        source: DartSource = DartSource()
         code = source._parse_corp_xml(xml_path, "카카오")
         assert code == "LISTED"
 
     def test_no_match_returns_none(self, tmp_path):
-        xml_data = self._build_xml([
-            {"corp_name": "삼성전자", "corp_code": "00126380", "stock_code": "005930"},
-        ])
+        xml_data = self._build_xml(
+            [
+                {"corp_name": "삼성전자", "corp_code": "00126380", "stock_code": "005930"},
+            ]
+        )
         xml_path = tmp_path / "corps.xml"
         xml_path.write_bytes(xml_data)
 
-        source = DartSource()
+        source: DartSource = DartSource()
         result = source._parse_corp_xml(xml_path, "존재하지않는회사")
         assert result is None
 
     def test_partial_name_match(self, tmp_path):
-        xml_data = self._build_xml([
-            {"corp_name": "카카오뱅크", "corp_code": "01456825", "stock_code": "323410"},
-        ])
+        xml_data = self._build_xml(
+            [
+                {"corp_name": "카카오뱅크", "corp_code": "01456825", "stock_code": "323410"},
+            ]
+        )
         xml_path = tmp_path / "corps.xml"
         xml_path.write_bytes(xml_data)
 
-        source = DartSource()
+        source: DartSource = DartSource()
         code = source._parse_corp_xml(xml_path, "카카오뱅크")
         assert code == "01456825"
 
@@ -173,9 +181,13 @@ class TestDartSourceCollect:
             "status": "000",
             "list": [
                 {
-                    "fo_bbm": "사원", "sexdstn": "남", "rgllbr_co": "1000",
-                    "cnttk_co": "50", "sm": "1050",
-                    "avrg_cnwk_sdytrn": "3.5", "jan_salary_am": "5000",
+                    "fo_bbm": "사원",
+                    "sexdstn": "남",
+                    "rgllbr_co": "1000",
+                    "cnttk_co": "50",
+                    "sm": "1050",
+                    "avrg_cnwk_sdytrn": "3.5",
+                    "jan_salary_am": "5000",
                     "sm_a": "50000",
                 }
             ],
@@ -219,3 +231,79 @@ class TestDartSourceCollect:
         with patch.object(source, "_resolve_corp_code", return_value=None):
             results = source.collect("알수없는회사")
         assert results == []
+
+    def test_collect_includes_growth_reality_summary(self, monkeypatch):
+        monkeypatch.setenv("DART_API_KEY", "testkey")
+        source = DartSource()
+
+        with (
+            patch.object(source, "_resolve_corp_code", return_value="00258801"),
+            patch.object(
+                source,
+                "_get_overview",
+                return_value={"company_name": "카카오"},
+            ),
+            patch.object(
+                source,
+                "_get_employee_info",
+                return_value=[],
+            ),
+            patch.object(
+                source,
+                "_get_financials",
+                return_value=[
+                    {
+                        "account": "매출액",
+                        "current_amount": "3000000000000",
+                        "previous_amount": "2500000000000",
+                        "two_years_ago": "2000000000000",
+                    }
+                ],
+            ),
+        ):
+            results = source.collect("카카오")
+
+        growth = next(result.data["growth_reality"] for result in results if "growth_reality" in result.data)
+        assert growth["revenue_growth_direction"] == "growing"
+        assert growth["revenue_growth_rate"] > 0
+
+    def test_collect_includes_compensation_growth_reality_summary(self, monkeypatch):
+        monkeypatch.setenv("DART_API_KEY", "testkey")
+        source = DartSource()
+
+        with (
+            patch.object(source, "_resolve_corp_code", return_value="00258801"),
+            patch.object(
+                source,
+                "_get_overview",
+                return_value={"company_name": "카카오"},
+            ),
+            patch.object(
+                source,
+                "_get_employee_info",
+                return_value=[
+                    {
+                        "position": "사원",
+                        "gender": "남",
+                        "headcount": "1000",
+                        "avg_tenure_year": "3.5",
+                        "total_salary": "5000",
+                        "avg_salary": "50000",
+                    }
+                ],
+            ),
+            patch.object(
+                source,
+                "_get_financials",
+                return_value=[],
+            ),
+        ):
+            results = source.collect("카카오")
+
+        summary = next(
+            result.data["compensation_growth_reality"]
+            for result in results
+            if "compensation_growth_reality" in result.data
+        )
+        assert summary["headcount_total"] == 1000
+        assert summary["salary_data_available"] is True

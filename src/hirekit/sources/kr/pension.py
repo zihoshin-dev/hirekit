@@ -53,7 +53,17 @@ class PensionSource(BaseSource):
             SourceResult(
                 source_name=self.name,
                 section="overview",
-                data=entry,
+                data={
+                    **entry,
+                    "employment_growth_reality": {
+                        "pension_members": members or 0,
+                        "snapshot_date": date,
+                        "signal_quality": "official_headcount_proxy",
+                    },
+                },
                 raw="\n".join(raw_lines),
+                source_authority="official",
+                trust_label="verified",
+                freshness_policy="core_company_fact",
             )
         ]

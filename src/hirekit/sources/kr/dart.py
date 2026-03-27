@@ -53,33 +53,74 @@ class DartSource(BaseSource):
         # 2. Get company overview
         overview = self._get_overview(corp_code, api_key)
         if overview:
-            results.append(SourceResult(
-                source_name=self.name,
-                section="overview",
-                data=overview,
-                url=f"https://dart.fss.or.kr/corp/summary.ax?cmpCd={corp_code}",
-                raw=self._format_overview(overview),
-            ))
+            results.append(
+                SourceResult(
+                    source_name=self.name,
+                    section="overview",
+                    data=overview,
+                    url=f"https://dart.fss.or.kr/corp/summary.ax?cmpCd={corp_code}",
+                    raw=self._format_overview(overview),
+                    source_authority="official",
+                    trust_label="verified",
+                    freshness_policy="core_company_fact",
+                )
+            )
 
         # 3. Get employee info (headcount, avg salary, avg tenure)
         emp_data = self._get_employee_info(corp_code, api_key)
         if emp_data:
-            results.append(SourceResult(
-                source_name=self.name,
-                section="overview",
-                data={"employees": emp_data},
-                raw=self._format_employees(emp_data),
-            ))
+            results.append(
+                SourceResult(
+                    source_name=self.name,
+                    section="overview",
+                    data={"employees": emp_data},
+                    raw=self._format_employees(emp_data),
+                    source_authority="official",
+                    trust_label="verified",
+                    freshness_policy="core_company_fact",
+                )
+            )
+            compensation_growth_reality = self._build_compensation_growth_reality(emp_data)
+            if compensation_growth_reality:
+                results.append(
+                    SourceResult(
+                        source_name=self.name,
+                        section="financials",
+                        data={"compensation_growth_reality": compensation_growth_reality},
+                        raw=self._format_compensation_growth_reality(compensation_growth_reality),
+                        source_authority="official",
+                        trust_label="derived",
+                        freshness_policy="core_company_fact",
+                    )
+                )
 
         # 4. Get financial highlights
         financials = self._get_financials(corp_code, api_key)
         if financials:
-            results.append(SourceResult(
-                source_name=self.name,
-                section="financials",
-                data={"financials": financials},
-                raw=self._format_financials(financials),
-            ))
+            results.append(
+                SourceResult(
+                    source_name=self.name,
+                    section="financials",
+                    data={"financials": financials},
+                    raw=self._format_financials(financials),
+                    source_authority="official",
+                    trust_label="verified",
+                    freshness_policy="core_company_fact",
+                )
+            )
+            growth_reality = self._build_growth_reality(financials)
+            if growth_reality:
+                results.append(
+                    SourceResult(
+                        source_name=self.name,
+                        section="financials",
+                        data={"growth_reality": growth_reality},
+                        raw=self._format_growth_reality(growth_reality),
+                        source_authority="official",
+                        trust_label="derived",
+                        freshness_policy="core_company_fact",
+                    )
+                )
 
         return results
 
@@ -104,6 +145,7 @@ class DartSource(BaseSource):
         # Use cached XML if less than 7 days old
         if cache_path.exists():
             import time
+
             age_days = (time.time() - cache_path.stat().st_mtime) / 86400
             if age_days < 7:
                 return self._parse_corp_xml(cache_path, company)
@@ -134,6 +176,8 @@ class DartSource(BaseSource):
         try:
             root = ET.parse(xml_path).getroot()
         except ET.ParseError:
+            return None
+        if root is None:
             return None
 
         normalized = company.strip().replace("(주)", "").replace(" ", "")
@@ -250,8 +294,12 @@ class DartSource(BaseSource):
             data = resp.json()
             if data.get("status") == "000" and data.get("list"):
                 key_accounts = {
-                    "매출액", "영업이익", "당기순이익",
-                    "자산총계", "부채총계", "자본총계",
+                    "매출액",
+                    "영업이익",
+                    "당기순이익",
+                    "자산총계",
+                    "부채총계",
+                    "자본총계",
                 }
                 return [
                     {
@@ -304,3 +352,82 @@ class DartSource(BaseSource):
                 f"전전기 {f.get('two_years_ago', '')}"
             )
         return "\n".join(lines)
+
+    @staticmethod
+    def _to_number(value: str) -> int:
+        try:
+            return int(str(value).replace(",", "").strip() or "0")
+        except ValueError:
+            return 0
+
+    @classmethod
+    def _build_growth_reality(cls, fin_list: list[dict[str, Any]]) -> dict[str, Any]:
+        revenue = next((item for item in fin_list if item.get("account") == "매출액"), None)
+        if not revenue:
+            return {}
+
+        current = cls._to_number(str(revenue.get("current_amount", "0")))
+        previous = cls._to_number(str(revenue.get("previous_amount", "0")))
+        if not current and not previous:
+            return {}
+
+        growth_rate = 0.0
+        if previous > 0:
+            growth_rate = round(((current - previous) / previous) * 100, 1)
+
+        direction = "flat"
+        if growth_rate > 5:
+            direction = "growing"
+        elif growth_rate < -5:
+            direction = "shrinking"
+
+        return {
+            "current_revenue": current,
+            "previous_revenue": previous,
+            "revenue_growth_rate": growth_rate,
+            "revenue_growth_direction": direction,
+        }
+
+    @classmethod
+    def _build_compensation_growth_reality(cls, emp_list: list[dict[str, Any]]) -> dict[str, Any]:
+        if not emp_list:
+            return {}
+
+        headcount_total = sum(cls._to_number(str(item.get("headcount", "0"))) for item in emp_list)
+        avg_salary_values = [
+            cls._to_number(str(item.get("avg_salary", "0")))
+            for item in emp_list
+            if cls._to_number(str(item.get("avg_salary", "0"))) > 0
+        ]
+        avg_tenure_values = [
+            float(str(item.get("avg_tenure_year", "0") or "0"))
+            for item in emp_list
+            if str(item.get("avg_tenure_year", "")).strip()
+        ]
+
+        return {
+            "headcount_total": headcount_total,
+            "salary_data_available": bool(avg_salary_values),
+            "max_avg_salary": max(avg_salary_values) if avg_salary_values else 0,
+            "avg_tenure_years": round(max(avg_tenure_values), 1) if avg_tenure_values else 0.0,
+        }
+
+    @staticmethod
+    def _format_growth_reality(growth_reality: dict[str, Any]) -> str:
+        return (
+            "[성장 현실]\n"
+            f"  당기 매출: {growth_reality.get('current_revenue', 0)}\n"
+            f"  전기 매출: {growth_reality.get('previous_revenue', 0)}\n"
+            f"  매출 성장률: {growth_reality.get('revenue_growth_rate', 0.0)}%\n"
+            f"  방향: {growth_reality.get('revenue_growth_direction', 'flat')}"
+        )
+
+    @staticmethod
+    def _format_compensation_growth_reality(summary: dict[str, Any]) -> str:
+        return (
+            "[보상/성장 현실]\n"
+            f"  추정 총 인원: {summary.get('headcount_total', 0)}\n"
+            f"  평균 급여 데이터 존재: {summary.get('salary_data_available', False)}\n"
+            f"  최대 평균 급여: {summary.get('max_avg_salary', 0)}\n"
+            f"  최대 평균 근속: {summary.get('avg_tenure_years', 0.0)}"
+        )

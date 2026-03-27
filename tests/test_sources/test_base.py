@@ -12,11 +12,13 @@ class MockSource(BaseSource):
         return True
 
     def collect(self, company, **kwargs):
-        return [SourceResult(
-            source_name=self.name,
-            section="overview",
-            data={"company": company},
-        )]
+        return [
+            SourceResult(
+                source_name=self.name,
+                section="overview",
+                data={"company": company},
+            )
+        ]
 
 
 class UnavailableSource(BaseSource):
@@ -62,14 +64,19 @@ class TestSourceResult:
     def test_stale_detection(self):
         result = SourceResult(
             source_name="test",
-            section="overview",
+            section="culture",
             collected_at="2025-01-01T00:00:00+00:00",
         )
-        assert result.is_stale  # More than 90 days ago
+        assert result.is_stale
 
     def test_fresh_result(self):
         result = SourceResult(source_name="test", section="overview")
-        assert not result.is_stale  # Just created
+        assert not result.is_stale
+
+    def test_default_source_authority_and_freshness_policy_are_derived(self):
+        result = SourceResult(source_name="job_postings", section="role")
+        assert result.source_authority == "secondary_research"
+        assert result.freshness_policy == "job_posting"
 
 
 class TestMockSourceCollection:

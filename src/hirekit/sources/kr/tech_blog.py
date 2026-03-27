@@ -9,6 +9,12 @@ from typing import Any
 import httpx
 
 from hirekit.core.filters import filter_recent
+from hirekit.core.tech_taxonomy import (
+    build_actual_work_profile,
+    build_stack_reality,
+    extract_stack_signals,
+    extract_work_signals,
+)
 from hirekit.sources.base import BaseSource, SourceRegistry, SourceResult
 
 logger = logging.getLogger(__name__)
@@ -31,16 +37,55 @@ KNOWN_TECH_BLOGS: dict[str, str] = {
 }
 
 TECH_KEYWORDS = [
-    "Kubernetes", "Kafka", "React", "Spring", "ML", "LLM", "Docker",
-    "Spark", "Flink", "Redis", "GraphQL", "gRPC", "Rust", "Go",
-    "Python", "TypeScript", "AWS", "GCP", "Azure", "MSA", "CI/CD",
-    "DevOps", "MLOps", "RAG", "GPT", "Transformer", "대규모", "분산",
+    "Kubernetes",
+    "Kafka",
+    "React",
+    "Spring",
+    "ML",
+    "LLM",
+    "Docker",
+    "Spark",
+    "Flink",
+    "Redis",
+    "GraphQL",
+    "gRPC",
+    "Rust",
+    "Go",
+    "Python",
+    "TypeScript",
+    "AWS",
+    "GCP",
+    "Azure",
+    "MSA",
+    "CI/CD",
+    "DevOps",
+    "MLOps",
+    "RAG",
+    "GPT",
+    "Transformer",
+    "대규모",
+    "분산",
 ]
 
 AI_KEYWORDS = [
-    "AI", "ML", "LLM", "딥러닝", "GPT", "생성형", "인공지능",
-    "머신러닝", "딥러닝", "ChatGPT", "RAG", "MLOps", "Transformer",
-    "생성AI", "GenAI", "Foundation Model", "파운데이션", "Diffusion",
+    "AI",
+    "ML",
+    "LLM",
+    "딥러닝",
+    "GPT",
+    "생성형",
+    "인공지능",
+    "머신러닝",
+    "딥러닝",
+    "ChatGPT",
+    "RAG",
+    "MLOps",
+    "Transformer",
+    "생성AI",
+    "GenAI",
+    "Foundation Model",
+    "파운데이션",
+    "Diffusion",
 ]
 
 MEDIUM_DOMAINS = {"medium.com"}
@@ -61,7 +106,8 @@ class TechBlogSource(BaseSource):
 
     def is_available(self) -> bool:
         try:
-            import bs4  # noqa: F401
+            __import__("bs4")
+
             return True
         except ImportError:
             return False
@@ -83,18 +129,38 @@ class TechBlogSource(BaseSource):
 
             # Filter to last 6 months only
             recent_posts = filter_recent(posts, months=6, date_keys=("date", "pub_date", "published"))
+            active_posts = recent_posts or posts
 
-            keywords = self._extract_keywords(recent_posts or posts)
-            ai_posts = self._filter_ai_posts(recent_posts or posts)
-            tech_stack = self._extract_tech_stack(recent_posts or posts)
+            keywords = self._extract_keywords(active_posts)
+            ai_posts = self._filter_ai_posts(active_posts)
+            stack_signals = extract_stack_signals(
+                [str(post.get("title", "")).strip() for post in active_posts],
+                source_name=self.name,
+                source_authority="company_operated",
+                signal_type="post_title",
+                base_confidence=0.68,
+            )
+            work_signals = extract_work_signals(
+                [str(post.get("title", "")).strip() for post in active_posts],
+                source_name=self.name,
+                source_authority="company_operated",
+                base_confidence=0.62,
+            )
+            stack_reality = build_stack_reality(stack_signals)
+            actual_work = build_actual_work_profile(work_signals)
+            tech_stack = self._normalized_stack_summary(stack_reality) or self._extract_tech_stack(active_posts)
 
             data: dict[str, Any] = {
                 "blog_url": url,
-                "recent_posts": (recent_posts or posts)[:10],
+                "recent_posts": active_posts[:10],
                 "tech_keywords": keywords,
-                "post_count": len(recent_posts or posts),
+                "post_count": len(active_posts),
                 "ai_posts_count": len(ai_posts),
                 "tech_stack_mentioned": tech_stack,
+                "stack_signals": stack_signals,
+                "stack_reality": stack_reality,
+                "actual_work_signals": work_signals,
+                "actual_work": actual_work,
             }
             raw = self._format_raw(company, data, url)
             return [
@@ -194,13 +260,11 @@ class TechBlogSource(BaseSource):
                     anchors = soup.select(selector)[:15]
                     for a in anchors:
                         title = a.get_text(strip=True)
-                        href = a.get("href", "")
+                        href_attr = a.get("href", "")
+                        href = href_attr if isinstance(href_attr, str) else ""
                         if not title or len(title) < 5:
                             continue
-                        full_href = (
-                            href if href.startswith("http")
-                            else blog_url.rstrip("/") + "/" + href.lstrip("/")
-                        )
+                        full_href = href if href.startswith("http") else blog_url.rstrip("/") + "/" + href.lstrip("/")
                         entry = {"title": title, "link": full_href, "date": ""}
                         if entry not in posts:
                             posts.append(entry)
@@ -240,6 +304,16 @@ class TechBlogSource(BaseSource):
         return found
 
     @staticmethod
+    def _normalized_stack_summary(stack_reality: dict[str, list[dict[str, Any]]]) -> list[str]:
+        normalized: list[str] = []
+        for bucket in ("confirmed", "likely"):
+            for claim in stack_reality.get(bucket, []):
+                tech = str(claim.get("tech", "")).strip()
+                if tech and tech not in normalized:
+                    normalized.append(tech)
+        return normalized
+
+    @staticmethod
     def _format_raw(company: str, data: dict[str, Any], url: str) -> str:
         lines = [f"[{company} 기술 블로그: {url}]"]
         lines.append(f"최근 포스팅 {data.get('post_count', 0)}개 수집")
@@ -249,6 +323,22 @@ class TechBlogSource(BaseSource):
         tech_stack = data.get("tech_stack_mentioned", [])
         if tech_stack:
             lines.append(f"기술 스택: {', '.join(tech_stack)}")
+        stack_reality = data.get("stack_reality", {})
+        if isinstance(stack_reality, dict):
+            confirmed = [item.get("tech", "") for item in stack_reality.get("confirmed", []) if item.get("tech")]
+            likely = [item.get("tech", "") for item in stack_reality.get("likely", []) if item.get("tech")]
+            adjacent = [item.get("tech", "") for item in stack_reality.get("adjacent", []) if item.get("tech")]
+            if confirmed:
+                lines.append(f"확인된 스택: {', '.join(confirmed)}")
+            if likely:
+                lines.append(f"가능성 높은 스택: {', '.join(likely)}")
+            if adjacent:
+                lines.append(f"역할 인접 도구: {', '.join(adjacent)}")
+        actual_work = data.get("actual_work", {})
+        if isinstance(actual_work, dict):
+            work_patterns = [item.get("label", "") for item in actual_work.get("likely", []) if item.get("label")]
+            if work_patterns:
+                lines.append(f"실제 업무 신호: {', '.join(work_patterns)}")
         keywords = data.get("tech_keywords", [])
         if keywords:
             lines.append(f"기술 키워드: {', '.join(keywords)}")
